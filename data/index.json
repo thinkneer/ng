@@ -781,6 +781,7 @@
                         "notes": true,
                         "mustknow": true,
                         "formulas": true,
+                        "cards": true,
                         "questions": true
                       },
                       "marks_hint": "7 marks (unit weightage, CBSE 2026–27)",
@@ -795,8 +796,21 @@
                         "case": 2
                       },
                       "diagrams": [],
-                      "words": 5579,
-                      "read_minutes": 17
+                      "blocks": {
+                        "numerical": 7,
+                        "mnemonic": 3,
+                        "figure": 5,
+                        "graph": 2,
+                        "explain": 1,
+                        "compare": 1,
+                        "draw": 3,
+                        "steps": 1,
+                        "fill": 1
+                      },
+                      "words": 5482,
+                      "read_minutes": 16,
+                      "cards": 13,
+                      "mnemonics": 3
                     }
                   ]
                 },
@@ -866,6 +880,7 @@
                         "notes": true,
                         "mustknow": true,
                         "formulas": true,
+                        "cards": true,
                         "questions": true
                       },
                       "marks_hint": "7 marks (unit weightage, CBSE 2026–27)",
@@ -880,8 +895,21 @@
                         "la5": 1
                       },
                       "diagrams": [],
-                      "words": 4533,
-                      "read_minutes": 13
+                      "blocks": {
+                        "figure": 3,
+                        "numerical": 5,
+                        "steps": 2,
+                        "compare": 1,
+                        "mnemonic": 3,
+                        "graph": 2,
+                        "derive": 2,
+                        "draw": 3,
+                        "fill": 1
+                      },
+                      "words": 4432,
+                      "read_minutes": 12,
+                      "cards": 12,
+                      "mnemonics": 3
                     }
                   ]
                 },

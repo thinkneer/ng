@@ -66,6 +66,14 @@ No "(to be added as SVG)" placeholders remain in any file.
 - **Phone layout rules (found on review):** one relation per display line; chains of "=" stacked with `aligned`; boxed answer on its own line; long fraction labels shortened (obs/calc); `<br>` before **To find:** so it does not run into the Given line.
 - **Done in the new style:** all 11 written answers in Ch 1 (the six `chem-t01` plus the older `chem-s1-q09/13/14/21` and the `chem-c01-q04` case), with sketches: U-tube osmosis, reverse osmosis, ideal-solution graph, deviation graphs. **Ch 2–10:** every written answer (sheet questions and `chem-t02/t03`) still in the older marked-steps style; to be converted chapter by chapter. **Next:** Ch 4–5, Ch 6–7, Ch 8, Ch 9–10.
 
+### Cards and interactive blocks (CLAUDE.md §4c; decks required from 1 Dec 2026)
+| Chapter | cards.json | Blocks in notes.md |
+|---|---|---|
+| 1 Solutions | 13 cards | figures with parts: ideal solution, deviations, boiling-point elevation, freezing-point depression (new drawing), osmosis (new in Read); 3 draw; 2 graphs (Raoult, make-it-non-ideal); 7 numericals; osmosis steps; compare (positive vs negative deviation); fill (van't Hoff i); 3 mnemonics; 1 explain |
+| 2 Electrochemistry | 12 cards (demo, Site chat) | done by the Site chat as the worked demo |
+| 3 Chemical Kinetics | 12 cards | figures with parts: concentration–time (new drawing), energy profile, energy distribution; ids on the zero-order, first-order and Arrhenius plots; 3 draw; 2 graphs (zero vs first order, Arrhenius); 5 numericals; 2 steps (order from data, effective collision); compare (order vs molecularity); fill (zero vs first order); 2 derive (zero and first order); 3 mnemonics |
+| 4–10 | to do | to do |
+
 ## Corrections
 - **14 Nov: picric acid p$K_a$.** The value 0.5 could not be confirmed against the NCERT table (which lists the nitrophenols, phenol, cresols and ethanol), so the number was removed from Ch 7 Must know; the order is kept. `formulas.md` for Ch 7 still shows it: check and remove or confirm.
 - **14 Nov: Ch 2 figure numbers.** The electrolytic cell is Fig 2.2, so the Λm plot became Fig 2.3.
@@ -100,12 +108,13 @@ Still to make, as content once the site has a place for practicals:
 - Recall cards built from titled traps show the mistake as the answer. If the card should show the fix, the trap bodies need a second sentence; say so and the chemistry traps can be extended.
 
 ## What's left, in order
-1. Board answers, topper style, for Ch 4–10 (Ch 1–3 done).
-2. The SVG to-dos above, starting with Ch 6–10 (resonance structures, S$_\text{N}$2, Haworth glucose, DNA).
-3. More practice per chapter, especially numericals for Ch 1–3 and conversions for Ch 6–9 (most chapters have 10–14 questions; Ch 8 has 19).
-4. Practical help (list above).
-5. Past papers solved with verified `PYQ (year)` labels, and full-length timed papers under `papers/` for 17–26 Feb.
-6. The items under "To verify", and the picric acid value in Ch 7 `formulas.md`.
+1. Cards and interactive blocks for Ch 4–10 (deadline 1 Dec 2026 for the decks), in commits of 2–3 chapters.
+2. Board answers in answer-script style: convert Ch 2–10 written answers, then new topper sets for Ch 4–10.
+3. The SVG to-dos above, starting with Ch 6–10 (resonance structures, S$_\text{N}$2, Haworth glucose, DNA).
+4. More practice per chapter, especially numericals for Ch 1–3 and conversions for Ch 6–9 (most chapters have 10–14 questions; Ch 8 has 19).
+5. Practical help (list above).
+6. Past papers solved with verified `PYQ (year)` labels, and full-length timed papers under `papers/` for 17–26 Feb.
+7. The items under "To verify", and the picric acid value in Ch 7 `formulas.md`.
 
 ## Exam mode (Site chat, 15 Nov 2026)
 - Live: Subject → Exam mode builds numbered 3-hour papers (P-01, P-02 …) from this subject's questions.json files, to `data/patterns/class-12/chemistry.json` and the unit marks in subject.json. Every question in the bank can appear; nothing extra is needed per question.

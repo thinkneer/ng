@@ -1,0 +1,174 @@
+[
+  {
+    "id": "ideal-solution-vp",
+    "kind": "figure",
+    "title": "Vapour pressure of an ideal solution",
+    "svg": "ref: notes#ideal-solution-vp",
+    "back": "$p_1$ and $p_2$ are straight lines ($p_i=x_ip_i^\\circ$); their sum, $p_\\text{total}$, is a straight line between $p_1^\\circ$ and $p_2^\\circ$.",
+    "stars": 2,
+    "tags": [
+      "diagram"
+    ]
+  },
+  {
+    "id": "deviation-curves",
+    "kind": "figure",
+    "title": "Positive and negative deviation",
+    "svg": "ref: notes#deviation-curves",
+    "back": "Positive: curves above the ideal lines, total has a maximum → minimum-boiling azeotrope. Negative: below, with a minimum → maximum-boiling azeotrope.",
+    "stars": 3,
+    "tags": [
+      "diagram",
+      "3-mark"
+    ]
+  },
+  {
+    "id": "bp-elevation",
+    "kind": "figure",
+    "title": "Elevation of boiling point",
+    "svg": "ref: notes#bp-elevation",
+    "back": "The solution's vapour pressure is lower, so it reaches 1 atm at a higher temperature: $\\Delta T_b=T_b-T_b^\\circ=K_bm$.",
+    "stars": 2,
+    "tags": [
+      "diagram"
+    ]
+  },
+  {
+    "id": "fp-depression",
+    "kind": "figure",
+    "title": "Depression of freezing point",
+    "svg": "ref: notes#fp-depression",
+    "back": "Freezing point = where liquid and solid have the same vapour pressure. The solution curve meets the solid curve lower: $\\Delta T_f=K_fm$.",
+    "stars": 1,
+    "tags": [
+      "diagram"
+    ]
+  },
+  {
+    "id": "osmosis",
+    "kind": "figure",
+    "title": "Osmosis and osmotic pressure",
+    "svg": "ref: notes#osmosis",
+    "back": "Solvent flows through the semipermeable membrane into the solution. The pressure that just stops it is $\\pi=CRT$. More than $\\pi$ gives reverse osmosis.",
+    "stars": 3,
+    "tags": [
+      "diagram",
+      "definition"
+    ]
+  },
+  {
+    "id": "raoult",
+    "kind": "formula",
+    "title": "Raoult's law",
+    "tex": "p_1=x_1p_1^\\circ\\qquad p_\\text{total}=x_1p_1^\\circ+x_2p_2^\\circ",
+    "legend": [
+      "x_1 = mole fraction of 1 in the liquid",
+      "p_1^\\circ = vapour pressure of pure 1"
+    ],
+    "back": "In words: each volatile component contributes in proportion to its mole fraction.",
+    "stars": 3,
+    "tags": [
+      "formula"
+    ]
+  },
+  {
+    "id": "henry",
+    "kind": "formula",
+    "title": "Henry's law",
+    "tex": "p=K_H\\,x",
+    "legend": [
+      "p = partial pressure of the gas",
+      "x = mole fraction of gas in solution",
+      "K_H = Henry's constant (bar)"
+    ],
+    "back": "In words: more pressure, more gas dissolves. A higher $K_H$ means a **less** soluble gas.",
+    "stars": 2,
+    "tags": [
+      "formula"
+    ]
+  },
+  {
+    "id": "rlvp",
+    "kind": "formula",
+    "title": "Relative lowering of vapour pressure",
+    "tex": "\\dfrac{p_1^\\circ-p_1}{p_1^\\circ}=x_2",
+    "legend": [
+      "x_2 = mole fraction of the non-volatile solute"
+    ],
+    "back": "In words: the fractional drop in vapour pressure equals the mole fraction of solute. It has no unit.",
+    "stars": 2,
+    "tags": [
+      "formula"
+    ]
+  },
+  {
+    "id": "bp-fp-formulas",
+    "kind": "formula",
+    "title": "Boiling-point elevation and freezing-point depression",
+    "tex": "\\Delta T_b=iK_bm\\qquad \\Delta T_f=iK_fm",
+    "legend": [
+      "m = molality (mol per kg solvent)",
+      "K_b, K_f = solvent constants, K kg mol⁻¹",
+      "i = van't Hoff factor"
+    ],
+    "back": "For molar mass: $M_2=\\dfrac{1000\\,K\\,w_2}{\\Delta T\\,w_1}$. The freezing point asked is $T_f^\\circ-\\Delta T_f$.",
+    "stars": 3,
+    "tags": [
+      "formula",
+      "3-mark"
+    ]
+  },
+  {
+    "id": "osmotic-pressure",
+    "kind": "formula",
+    "title": "Osmotic pressure",
+    "tex": "\\pi=iCRT\\qquad M_2=\\dfrac{w_2RT}{\\pi V}",
+    "legend": [
+      "C = mol L⁻¹, V in L",
+      "R = 0.083 L bar mol⁻¹ K⁻¹",
+      "T = temperature in kelvin"
+    ],
+    "back": "Best colligative property for proteins and polymers: measured at room temperature and large enough to measure.",
+    "stars": 3,
+    "tags": [
+      "formula",
+      "5-mark"
+    ]
+  },
+  {
+    "id": "vant-hoff",
+    "kind": "formula",
+    "title": "van't Hoff factor",
+    "tex": "i=\\dfrac{\\text{observed}}{\\text{calculated}}\\qquad \\alpha_\\text{diss}=\\dfrac{i-1}{n-1}",
+    "legend": [
+      "n = particles from one formula unit",
+      "α = degree of dissociation"
+    ],
+    "back": "$i>1$: dissociation (NaCl ≈ 2). $i<1$: association (ethanoic acid in benzene ≈ ½).",
+    "stars": 3,
+    "tags": [
+      "formula"
+    ]
+  },
+  {
+    "id": "ideal-vs-nonideal",
+    "kind": "compare",
+    "title": "Positive vs negative deviation",
+    "svg": "ref: notes#deviation-curves",
+    "back": "Positive: weaker A–B forces, ΔH > 0, ΔV > 0, minimum-boiling azeotrope. Negative: stronger A–B forces, ΔH < 0, ΔV < 0, maximum-boiling azeotrope.",
+    "stars": 3,
+    "tags": [
+      "compare"
+    ]
+  },
+  {
+    "id": "plus-gives-minus",
+    "kind": "mnemonic",
+    "title": "Plus gives Minus, Minus gives Max",
+    "back": "Positive deviation → minimum-boiling azeotrope. Negative deviation → maximum-boiling azeotrope.",
+    "tex": "+\\ \\text{deviation}\\to\\text{min b.p.}\\qquad -\\ \\text{deviation}\\to\\text{max b.p.}",
+    "tags": [
+      "mnemonic"
+    ]
+  }
+]

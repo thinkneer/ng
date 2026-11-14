@@ -1,4 +1,35 @@
 {
+ "chemistry/ch-01": [
+  {
+   "id": "momos-molality",
+   "title": "Which concentration terms ignore temperature?",
+   "trick": "**Momos** taste the same hot or cold",
+   "meaning": [
+    "**Mo**lality and **mo**le fraction (and mass %) use only masses or moles, so they do not change with temperature.",
+    "Mola**r**ity uses the **volume** of solution, which expands on heating, so it changes."
+   ],
+   "prompt": "Which concentration terms do not depend on temperature?"
+  },
+  {
+   "id": "high-kh-hardly",
+   "title": "What does a big Henry's constant mean?",
+   "trick": "**High $K_H$, Hardly dissolves**",
+   "meaning": [
+    "$p=K_Hx$, so for the same pressure a larger $K_H$ gives a smaller mole fraction: the gas is less soluble."
+   ],
+   "prompt": "Does a higher $K_H$ mean a gas is more or less soluble?"
+  },
+  {
+   "id": "plus-gives-minus",
+   "title": "Which azeotrope goes with which deviation?",
+   "trick": "**Plus gives Minus, Minus gives Max**",
+   "meaning": [
+    "**Positive** deviation → **minimum**-boiling azeotrope (ethanol + water).",
+    "**Negative** deviation → **maximum**-boiling azeotrope (nitric acid + water)."
+   ],
+   "prompt": "Which azeotrope does positive deviation form?"
+  }
+ ],
  "chemistry/ch-02": [
   {
    "id": "an-ox-red-cat",
@@ -17,6 +48,37 @@
     "**L**ose **E**lectrons = **O**xidation; **G**ain **E**lectrons = **R**eduction."
    ],
    "prompt": "Is losing electrons oxidation or reduction?"
+  }
+ ],
+ "chemistry/ch-03": [
+  {
+   "id": "order-observed",
+   "title": "Order or molecularity?",
+   "trick": "**O**rder is **O**bserved; **M**olecularity comes from the **M**echanism",
+   "meaning": [
+    "Order is found by experiment (and can be zero or fractional); molecularity counts the species in one elementary step (1, 2 or 3)."
+   ],
+   "prompt": "Which one is found by experiment: order or molecularity?"
+  },
+  {
+   "id": "zero-zooms",
+   "title": "Does the half-life depend on the starting concentration?",
+   "trick": "**Zero zooms, First is fixed**",
+   "meaning": [
+    "**Zero** order: $t_{1/2}=[R]_0/2k$ grows (zooms) with $[R]_0$.",
+    "**First** order: $t_{1/2}=0.693/k$ is fixed, whatever $[R]_0$ is."
+   ],
+   "prompt": "Which order has a half-life independent of initial concentration?"
+  },
+  {
+   "id": "catalyst-road",
+   "title": "What does a catalyst change?",
+   "trick": "A catalyst changes **the road, not the destination**",
+   "meaning": [
+    "It gives a new path with lower $E_a$, so the rate rises.",
+    "$\\Delta H$, $\\Delta G$ and the equilibrium constant stay the same."
+   ],
+   "prompt": "Does a catalyst change ΔG or the equilibrium constant?"
   }
  ]
 }

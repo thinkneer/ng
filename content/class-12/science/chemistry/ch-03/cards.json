@@ -1,0 +1,158 @@
+[
+  {
+    "id": "conc-time",
+    "kind": "figure",
+    "title": "Concentration against time",
+    "svg": "ref: notes#conc-time",
+    "back": "Chord slope = average rate; tangent slope = instantaneous rate. Rate falls as the reactant is used up.",
+    "stars": 1,
+    "tags": [
+      "diagram"
+    ]
+  },
+  {
+    "id": "energy-profile",
+    "kind": "figure",
+    "title": "Energy profile with a catalyst",
+    "svg": "ref: notes#energy-profile",
+    "back": "Catalyst: lower hill ($E_a′<E_a$). Reactants, products and ΔH unchanged.",
+    "stars": 3,
+    "tags": [
+      "diagram",
+      "3-mark"
+    ]
+  },
+  {
+    "id": "energy-distribution",
+    "kind": "figure",
+    "title": "Energy distribution at T and T + 10",
+    "svg": "ref: notes#energy-distribution",
+    "back": "At T + 10 the curve flattens and shifts right; the area beyond $E_a$ (molecules that can react) roughly doubles.",
+    "stars": 2,
+    "tags": [
+      "diagram"
+    ]
+  },
+  {
+    "id": "first-order-plots",
+    "kind": "figure",
+    "title": "First-order plots",
+    "svg": "ref: notes#first-order-plots",
+    "back": "ln [R] against t: slope $-k$. log([R]₀/[R]) against t: through the origin, slope $k/2.303$.",
+    "stars": 2,
+    "tags": [
+      "graph"
+    ]
+  },
+  {
+    "id": "arrhenius-plot",
+    "kind": "figure",
+    "title": "Arrhenius plot",
+    "svg": "ref: notes#arrhenius-plot",
+    "back": "ln k against 1/T: straight line, slope $-E_a/R$, intercept ln A.",
+    "stars": 2,
+    "tags": [
+      "graph"
+    ]
+  },
+  {
+    "id": "rate-law",
+    "kind": "formula",
+    "title": "Rate law and order",
+    "tex": "\\text{rate}=k[\\ce{A}]^x[\\ce{B}]^y\\qquad \\text{order}=x+y",
+    "legend": [
+      "x, y = found by experiment",
+      "k = rate constant"
+    ],
+    "back": "Units of $k$: (mol L⁻¹)$^{1-n}$ s⁻¹. Never take $x,y$ from the balanced equation.",
+    "stars": 3,
+    "tags": [
+      "formula"
+    ]
+  },
+  {
+    "id": "zero-order",
+    "kind": "formula",
+    "title": "Zero-order reaction",
+    "tex": "k=\\dfrac{[R]_0-[R]}{t}\\qquad t_{1/2}=\\dfrac{[R]_0}{2k}",
+    "legend": [
+      "[R]_0 = initial concentration",
+      "k = mol L⁻¹ s⁻¹"
+    ],
+    "back": "Constant rate; [R] against t is a straight line of slope $-k$.",
+    "stars": 2,
+    "tags": [
+      "formula"
+    ]
+  },
+  {
+    "id": "first-order",
+    "kind": "formula",
+    "title": "First-order reaction",
+    "tex": "k=\\dfrac{2.303}{t}\\log\\dfrac{[R]_0}{[R]}\\qquad t_{1/2}=\\dfrac{0.693}{k}",
+    "legend": [
+      "k = s⁻¹ (or min⁻¹)",
+      "t = time for [R]_0 to fall to [R]"
+    ],
+    "back": "Half-life does not depend on $[R]_0$. 99.9% completion takes about 10 half-lives.",
+    "stars": 3,
+    "tags": [
+      "formula",
+      "5-mark"
+    ]
+  },
+  {
+    "id": "arrhenius",
+    "kind": "formula",
+    "title": "Arrhenius equation",
+    "tex": "\\log\\dfrac{k_2}{k_1}=\\dfrac{E_a}{2.303R}\\cdot\\dfrac{T_2-T_1}{T_1T_2}",
+    "legend": [
+      "E_a = J mol⁻¹",
+      "R = 8.314 J K⁻¹ mol⁻¹",
+      "T = kelvin"
+    ],
+    "back": "From $k=Ae^{-E_a/RT}$. A 10 K rise roughly doubles $k$.",
+    "stars": 3,
+    "tags": [
+      "formula",
+      "3-mark"
+    ]
+  },
+  {
+    "id": "collision-rate",
+    "kind": "formula",
+    "title": "Rate from collision theory",
+    "tex": "\\text{rate}=P\\,Z_{AB}\\,e^{-E_a/RT}",
+    "legend": [
+      "Z_{AB} = collision frequency",
+      "P = orientation (steric) factor"
+    ],
+    "back": "Effective collision = enough energy + proper orientation.",
+    "stars": 1,
+    "tags": [
+      "formula"
+    ]
+  },
+  {
+    "id": "order-vs-molecularity",
+    "kind": "compare",
+    "title": "Order vs molecularity",
+    "tex": "\\text{order: experiment}\\qquad\\text{molecularity: mechanism}",
+    "back": "Order: from the rate law, can be 0 or fractional. Molecularity: species in one elementary step, only 1, 2 or 3.",
+    "stars": 3,
+    "tags": [
+      "compare",
+      "2-mark"
+    ]
+  },
+  {
+    "id": "catalyst-road",
+    "kind": "mnemonic",
+    "title": "The road, not the destination",
+    "tex": "E_a\\downarrow\\qquad \\Delta H,\\ \\Delta G,\\ K\\ \\text{unchanged}",
+    "back": "A catalyst lowers $E_a$ by a new path; it does not change ΔH, ΔG or K.",
+    "tags": [
+      "mnemonic"
+    ]
+  }
+]
