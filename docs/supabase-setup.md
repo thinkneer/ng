@@ -2,6 +2,9 @@
 
 Project: `https://kschtxkqurkzhfencyko.supabase.co` · config in `data/supabase.json` (publishable key only).
 
+## 0. Starting over
+To wipe every member and start afresh: SQL Editor → paste `supabase/reset.sql` → Run (it also clears the sign-in accounts), then do step 1 again.
+
 ## 1. Run the schema
 Dashboard → **SQL Editor** → New query → paste the whole of `supabase/migrations/001_init.sql` → **Run**.
 It is safe to run again: it drops and recreates everything it owns (members included), so run it before real members join, not after.
