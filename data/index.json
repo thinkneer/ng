@@ -657,6 +657,7 @@
                       "title": "The d- and f-Block Elements",
                       "unit": "4",
                       "items": {
+                        "notes": true,
                         "mustknow": true,
                         "formulas": true,
                         "questions": true
@@ -672,7 +673,8 @@
                         "la5": 1
                       },
                       "diagrams": [],
-                      "words": 3261
+                      "words": 6407,
+                      "read_minutes": 16
                     }
                   ]
                 },
@@ -689,6 +691,7 @@
                       "title": "Coordination Compounds",
                       "unit": "5",
                       "items": {
+                        "notes": true,
                         "mustknow": true,
                         "formulas": true,
                         "questions": true
@@ -705,7 +708,8 @@
                         "la5": 1
                       },
                       "diagrams": [],
-                      "words": 3008
+                      "words": 6187,
+                      "read_minutes": 16
                     }
                   ]
                 },
@@ -892,7 +896,7 @@
               },
               "papers": [],
               "counts": {
-                "notes": 3,
+                "notes": 5,
                 "mustknow": 10,
                 "formulas": 10,
                 "questions": 10,
