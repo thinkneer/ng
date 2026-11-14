@@ -2013,22 +2013,44 @@
                       "number": 1,
                       "title": "Unseen passage: method and question types",
                       "unit": "A",
-                      "items": {},
-                      "marks_hint": null,
-                      "summary": null,
-                      "questions": 0,
-                      "question_types": {}
+                      "items": {
+                        "notes": true,
+                        "mustknow": true,
+                        "formulas": true,
+                        "questions": true
+                      },
+                      "marks_hint": "12 marks (Section A, Q1; CBSE 2026–27 pattern)",
+                      "summary": "The 12-mark unseen passage · how to read in two passes · question types (MCQ, inference, vocabulary, true/false, short answer) · time plan · an original practice passage with full answers",
+                      "questions": 3,
+                      "question_types": {
+                        "mcq": 2,
+                        "case": 1
+                      },
+                      "diagrams": [],
+                      "words": 2315,
+                      "read_minutes": 7
                     },
                     {
                       "id": "reading-case",
                       "number": 2,
                       "title": "Case-based / factual passage with charts",
                       "unit": "A",
-                      "items": {},
-                      "marks_hint": null,
-                      "summary": null,
-                      "questions": 0,
-                      "question_types": {}
+                      "items": {
+                        "notes": true,
+                        "mustknow": true,
+                        "formulas": true,
+                        "questions": true
+                      },
+                      "marks_hint": "10 marks (Section A, Q2; CBSE 2026–27 pattern)",
+                      "summary": "The 10-mark case-based passage · reading a factual text with a table or chart · data-reading items (trend, highest/lowest, difference) · inference from data · an original practice passage with a survey table and full answers",
+                      "questions": 3,
+                      "question_types": {
+                        "mcq": 2,
+                        "case": 1
+                      },
+                      "diagrams": [],
+                      "words": 2069,
+                      "read_minutes": 6
                     }
                   ]
                 },
@@ -2630,10 +2652,10 @@
               },
               "papers": [],
               "counts": {
-                "notes": 23,
-                "mustknow": 23,
-                "formulas": 23,
-                "questions": 23,
+                "notes": 25,
+                "mustknow": 25,
+                "formulas": 25,
+                "questions": 25,
                 "chapters": 25
               }
             }

@@ -1,0 +1,11 @@
+{
+  "$schema": "../../../../../schemas/chapter.schema.json",
+  "id": "reading-case",
+  "number": 2,
+  "title": "Case-based / factual passage with charts",
+  "unit": "A",
+  "marks_hint": "10 marks (Section A, Q2; CBSE 2026–27 pattern)",
+  "summary": "The 10-mark case-based passage · reading a factual text with a table or chart · data-reading items (trend, highest/lowest, difference) · inference from data · an original practice passage with a survey table and full answers",
+  "status": { "notes": "ready", "mustknow": "ready", "formulas": "ready", "questions": "ready" },
+  "updated": "2026-11-14"
+}

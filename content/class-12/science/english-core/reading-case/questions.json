@@ -1,0 +1,114 @@
+[
+  {
+    "id": "eng-rc-q01",
+    "chapter": "reading-case",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 2,
+    "label": "SQP-style",
+    "topic": "method",
+    "stem": "If a chart shows that a figure rose from 48% to 60%, the correct way to describe the change is",
+    "options": ["it rose by 12", "it rose by 12 percentage points", "it rose by 60%", "it doubled"],
+    "answer": "B",
+    "model_answer": "**(b)** Percentage figures change in percentage points; 'by 12' or 'by 60%' is wrong."
+  },
+  {
+    "id": "eng-rc-q02",
+    "chapter": "reading-case",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 2,
+    "label": "SQP-style",
+    "topic": "method",
+    "stem": "A survey finds that students who use screens late sleep less. Which conclusion does the data SUPPORT?",
+    "options": [
+      "Screens cause poor sleep in all teenagers",
+      "There is a link between late screen use and shorter sleep among the students surveyed",
+      "Students who sleep less are lazy",
+      "Banning phones will make students sleep eight hours"
+    ],
+    "answer": "B",
+    "model_answer": "**(b)** A survey shows correlation within its sample, not cause or a guaranteed remedy."
+  },
+  {
+    "id": "eng-rc-q03",
+    "chapter": "reading-case",
+    "type": "case",
+    "marks": 10,
+    "stars": 3,
+    "label": "SQP-style",
+    "topic": "practice passage",
+    "stem": "Read the practice passage 'Screen Time and Sleep: A School Survey' in the Read tab of this chapter, including its table, and answer the questions that follow. Allow 13 minutes.",
+    "hint": "Read the table first: four classes, three measures, units (hours/day, hours/night, %). Mark the extremes: screen 2.4→4.6, sleep 8.1→6.4, late-night 18→64. Then the items.",
+    "parts": [
+      {
+        "id": "a",
+        "stem": "How many students took part in the survey, and how were they distributed?",
+        "marks": 1,
+        "model_answer": "400 students of Classes 9 to 12, 100 from each class.",
+        "scheme": [{ "step": "400; 100 per class", "marks": 1 }]
+      },
+      {
+        "id": "b",
+        "stem": "Which class recorded the highest average screen time, and what was it?",
+        "marks": 1,
+        "model_answer": "Class 12, at 4.6 hours per day.",
+        "scheme": [{ "step": "Class 12; 4.6 hours/day", "marks": 1 }]
+      },
+      {
+        "id": "c",
+        "stem": "By how many hours did average sleep fall between Class 9 and Class 12?",
+        "marks": 1,
+        "model_answer": "By 1.7 hours per night (from 8.1 to 6.4).",
+        "scheme": [{ "step": "1.7 hours", "marks": 1 }]
+      },
+      {
+        "id": "d",
+        "stem": "Between which two classes was the change in screen time the sharpest? Support with figures.",
+        "marks": 1,
+        "model_answer": "Between Classes 10 and 11: screen time rose by 1.1 hours (3.1 to 4.2), more than any other step.",
+        "scheme": [{ "step": "Classes 10–11, with the figures", "marks": 1 }]
+      },
+      {
+        "id": "e",
+        "stem": "The share of students using a screen after 11 p.m. rose from Class 9 to Class 12 by (A) 46% (B) 46 percentage points (C) 64 percentage points (D) 18 percentage points",
+        "marks": 1,
+        "options": ["46%", "46 percentage points", "64 percentage points", "18 percentage points"],
+        "answer": "B",
+        "model_answer": "(B) 18% to 64% is a rise of 46 percentage points.",
+        "scheme": [{ "step": "Option B", "marks": 1 }]
+      },
+      {
+        "id": "f",
+        "stem": "What explanation does the passage offer for the sharp change between Classes 10 and 11?",
+        "marks": 1,
+        "model_answer": "That is the year most students get their own smartphone and begin preparing for competitive examinations.",
+        "scheme": [{ "step": "Own smartphone; start of competitive-exam preparation", "marks": 1 }]
+      },
+      {
+        "id": "g",
+        "stem": "State TRUE or FALSE: Most late-night screen use among senior students was for study.",
+        "marks": 1,
+        "model_answer": "FALSE — study-related use was less than a quarter; messaging and short videos were most common.",
+        "scheme": [{ "step": "False with reason", "marks": 1 }]
+      },
+      {
+        "id": "h",
+        "stem": "Which word in paragraph 5 means 'suggested as a course of action'?",
+        "marks": 1,
+        "model_answer": "recommended",
+        "scheme": [{ "step": "recommended", "marks": 1 }]
+      },
+      {
+        "id": "i",
+        "stem": "What did the surveying students conclude, and what caution did they add? (about 40 words)",
+        "marks": 2,
+        "model_answer": "They concluded that screen use in their school rises with age and that heavier screen users sleep less. They cautioned that a survey cannot prove that one causes the other, since older students also carry a heavier study load; they therefore asked for a repeat survey in March.",
+        "scheme": [
+          { "step": "Conclusion: screen use rises with age; heavier users sleep less", "marks": 1 },
+          { "step": "Caution: correlation not cause; heavier study load; repeat survey", "marks": 1 }
+        ]
+      }
+    ]
+  }
+]

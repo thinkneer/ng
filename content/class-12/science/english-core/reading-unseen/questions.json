@@ -1,0 +1,124 @@
+[
+  {
+    "id": "eng-ru-q01",
+    "chapter": "reading-unseen",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 2,
+    "label": "SQP-style",
+    "topic": "method",
+    "stem": "In the two-pass method, the purpose of the first (skim) pass is to",
+    "options": [
+      "memorise every detail of the passage",
+      "find the topic, the writer's stance and the shape of the argument",
+      "answer the vocabulary items",
+      "count the number of paragraphs"
+    ],
+    "answer": "B",
+    "model_answer": "**(b)** Skim the first paragraph, topic sentences and last paragraph; label the paragraphs; answer nothing yet."
+  },
+  {
+    "id": "eng-ru-q02",
+    "chapter": "reading-unseen",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 2,
+    "label": "SQP-style",
+    "topic": "method",
+    "stem": "A true/false statement that is correct in its first half but wrong in its second half should be marked",
+    "options": ["true", "false", "partly true", "not given"],
+    "answer": "B",
+    "model_answer": "**(b)** A partly true statement is false; check every clause."
+  },
+  {
+    "id": "eng-ru-q03",
+    "chapter": "reading-unseen",
+    "type": "case",
+    "marks": 12,
+    "stars": 3,
+    "label": "SQP-style",
+    "topic": "practice passage",
+    "stem": "Read the practice passage 'The Quiet Return of the Public Library' in the Read tab of this chapter (six paragraphs) and answer the questions that follow. Allow 20 minutes.",
+    "hint": "Skim first: P1 the prediction of death, P2 who visits now, P3 what librarians changed, P4 books vs e-books, P5 the economic reason, P6 the real threat. Then scan for each keyword.",
+    "parts": [
+      {
+        "id": "a",
+        "stem": "What did commentators predict when the internet arrived, and why?",
+        "marks": 1,
+        "model_answer": "That the library was finished, because information could be summoned to a screen in seconds instead of borrowed from a building.",
+        "scheme": [{ "step": "Library finished; information available on screens", "marks": 1 }]
+      },
+      {
+        "id": "b",
+        "stem": "The phrase 'the obituaries were premature' (paragraph 2) means that (A) libraries closed earlier than expected (B) the announcement of the library's death came too soon and proved wrong (C) newspapers stopped printing obituaries (D) librarians retired early",
+        "marks": 1,
+        "options": ["libraries closed earlier than expected", "the announcement of the library's death came too soon and proved wrong", "newspapers stopped printing obituaries", "librarians retired early"],
+        "answer": "B",
+        "model_answer": "(B) The 'death' was declared too early; visits have since risen.",
+        "scheme": [{ "step": "Option B", "marks": 1 }]
+      },
+      {
+        "id": "c",
+        "stem": "List any two groups of people who use libraries today according to paragraph 2.",
+        "marks": 1,
+        "model_answer": "Any two: teenagers needing a quiet table and Wi-Fi; job-seekers printing applications; new parents at rhyme-time; elderly readers who come for conversation; students who work better among others.",
+        "scheme": [{ "step": "Two groups from the list", "marks": 1 }]
+      },
+      {
+        "id": "d",
+        "stem": "What does the writer mean by saying the library 'was never only about books'?",
+        "marks": 1,
+        "model_answer": "That the library's real value is as a place — a shared, free space — not merely as a store of books.",
+        "scheme": [{ "step": "Value as a place/space, not just a book store", "marks": 1 }]
+      },
+      {
+        "id": "e",
+        "stem": "Complete the sentence: A good library today is described as 'a hum, not a hush' because ______.",
+        "marks": 1,
+        "model_answer": "the rule of silence has loosened and the room mixes low voices, keyboards and children's laughter.",
+        "scheme": [{ "step": "Silence loosened; mixture of sounds", "marks": 1 }]
+      },
+      {
+        "id": "f",
+        "stem": "Why, according to paragraph 4, do many readers under twenty-five prefer printed books?",
+        "marks": 1,
+        "model_answer": "Paper helps them concentrate, while a screen keeps inviting them to look elsewhere.",
+        "scheme": [{ "step": "Concentration; screens distract", "marks": 1 }]
+      },
+      {
+        "id": "g",
+        "stem": "Which word in paragraph 4 means 'taken the place of'?",
+        "marks": 1,
+        "model_answer": "displaced",
+        "scheme": [{ "step": "displaced", "marks": 1 }]
+      },
+      {
+        "id": "h",
+        "stem": "State whether the following is TRUE or FALSE: The writer believes the internet is the main threat to libraries.",
+        "marks": 1,
+        "model_answer": "FALSE — the writer says the threat is the belief that a library is merely a warehouse of books that can be digitised.",
+        "scheme": [{ "step": "False with reason", "marks": 1 }]
+      },
+      {
+        "id": "i",
+        "stem": "Explain the 'deeper reason' the writer gives for the library's survival. (about 40 words)",
+        "marks": 2,
+        "model_answer": "The reason is economic. The library is one of the last indoor places in a city where a person can spend a whole day without paying — unlike cafés, malls or parks in the rain. For a poor teenager or a pensioner, that free, warm, well-lit room is a necessity.",
+        "scheme": [
+          { "step": "Economic: free indoor space for a whole day, contrasted with cafés/malls/parks", "marks": 1 },
+          { "step": "Necessity for the poor/elderly; within word limit", "marks": 1 }
+        ]
+      },
+      {
+        "id": "j",
+        "stem": "What does the writer mean by the last sentence, that the quiet room 'needs to make some noise'? What is the tone of this ending? (about 40 words)",
+        "marks": 2,
+        "model_answer": "Libraries will survive only if the communities that use them speak up loudly when councils decide budgets; the quiet, modest institution must advertise its own value. The tone is witty and persuasive — a pun that turns the library's traditional silence into a call to action.",
+        "scheme": [
+          { "step": "Meaning: communities must defend libraries at budget time; make their use heard", "marks": 1 },
+          { "step": "Tone: witty / persuasive / pun on silence", "marks": 1 }
+        ]
+      }
+    ]
+  }
+]

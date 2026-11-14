@@ -1,0 +1,11 @@
+{
+  "$schema": "../../../../../schemas/chapter.schema.json",
+  "id": "reading-unseen",
+  "number": 1,
+  "title": "Unseen passage: method and question types",
+  "unit": "A",
+  "marks_hint": "12 marks (Section A, Q1; CBSE 2026–27 pattern)",
+  "summary": "The 12-mark unseen passage · how to read in two passes · question types (MCQ, inference, vocabulary, true/false, short answer) · time plan · an original practice passage with full answers",
+  "status": { "notes": "ready", "mustknow": "ready", "formulas": "ready", "questions": "ready" },
+  "updated": "2026-11-14"
+}
