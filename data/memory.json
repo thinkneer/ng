@@ -427,6 +427,118 @@
    "prompt": "Recite the spectrochemical series from the weakest ligand."
   }
  ],
+ "english-core/reading-unseen": [
+  {
+   "id": "unseen-negatives",
+   "title": "Circle the negative",
+   "trick": "**NEON**: Not, Except, Only, Never",
+   "meaning": [
+    "The four words that reverse an item; circle them before reading the options."
+   ],
+   "prompt": "Which words in a question should you circle before answering?"
+  },
+  {
+   "id": "unseen-lift",
+   "title": "Lift, don't rewrite",
+   "trick": "**One mark = one lift**",
+   "meaning": [
+    "For 1-mark short answers copy the key phrase from the text; rewrite only for inference and 2-mark items where you must show understanding."
+   ],
+   "prompt": "When should you lift a phrase from the passage, and when rewrite?"
+  },
+  {
+   "id": "ru-neon",
+   "title": "NEON — circle the negative",
+   "trick": "NEON — circle the negative",
+   "meaning": [
+    "'Which is NOT a reason…' — circle it before reading the options; the commonest avoidable loss in Section A."
+   ],
+   "card": true
+  },
+  {
+   "id": "ru-lift",
+   "title": "One mark = one lift",
+   "trick": "One mark = one lift",
+   "meaning": [
+    "Rewriting invites errors. Rewrite only for inference and 2-mark items, where understanding must show."
+   ],
+   "card": true
+  },
+  {
+   "id": "ru-inference",
+   "title": "Inference = point + evidence",
+   "trick": "Inference = point + evidence",
+   "meaning": [
+    "State what must be true, then the phrase or fact from the text that shows it. Never infer beyond what the passage supports."
+   ],
+   "card": true
+  },
+  {
+   "id": "ru-time",
+   "title": "18–20 minutes",
+   "trick": "18–20 minutes",
+   "meaning": [
+    "Section A takes 30–35 minutes of the three hours: Q1 about 18–20, Q2 about 12–15. Do it first, not last."
+   ],
+   "card": true
+  }
+ ],
+ "english-core/reading-case": [
+  {
+   "id": "case-percentage-points",
+   "title": "Per cent changes",
+   "trick": "**From–to, or points**",
+   "meaning": [
+    "48% to 60% = 'from 48% to 60%' or 'by 12 percentage points' — never 'by 12' or 'by 60%'."
+   ],
+   "prompt": "How do you state a change between two percentages?"
+  },
+  {
+   "id": "case-correlation",
+   "title": "Link, not cause",
+   "trick": "**A survey shows a link, not a cause**",
+   "meaning": [
+    "Heavier screen users sleep less = correlation within the sample; it does not prove screens cause poor sleep, and it does not prove a ban would fix it."
+   ],
+   "prompt": "What can a survey's data support, and what can it not?"
+  },
+  {
+   "id": "rc-points",
+   "title": "Percentage points",
+   "trick": "Percentage points",
+   "meaning": [
+    "Say 'from 48% to 60%' or 'by 12 percentage points'. 'By 12' or 'by 60%' loses the mark."
+   ],
+   "card": true
+  },
+  {
+   "id": "rc-figure",
+   "title": "Quote the figure",
+   "trick": "Quote the figure",
+   "meaning": [
+    "Name the category or year and give the value with its unit — hours, per cent, people — exactly as the chart has it."
+   ],
+   "card": true
+  },
+  {
+   "id": "rc-link",
+   "title": "Link, not cause",
+   "trick": "Link, not cause",
+   "meaning": [
+    "Infer only what the numbers support: 'students who use screens late sleep less in this sample' — not 'screens cause poor sleep' or 'students are lazy'."
+   ],
+   "card": true
+  },
+  {
+   "id": "rc-rows",
+   "title": "Rows or columns?",
+   "trick": "Rows or columns?",
+   "meaning": [
+    "Reading a column for a row is the classic Q2 slip; follow a line-graph point down to the x-axis with your pencil."
+   ],
+   "card": true
+  }
+ ],
  "english-core/writing-notice": [
   {
    "id": "notice-frame-order",
@@ -559,6 +671,620 @@
    "trick": "Report is P-P-P",
    "meaning": [
     "Past tense, passive voice, impersonal. *The chief guest inaugurates* or *we had fun* breaks the report's voice."
+   ],
+   "card": true
+  }
+ ],
+ "english-core/flamingo-01": [
+  {
+   "id": "last-lesson-changes",
+   "title": "What Franz noticed that day",
+   "trick": "**S-H-V**: Silence, Hamel's Sunday clothes, Villagers",
+   "meaning": [
+    "Silence like a Sunday morning · the green coat, frilled shirt and silk cap · the former mayor, the postmaster and Hauser on the back benches."
+   ],
+   "prompt": "What three unusual things did Franz notice on entering the classroom?"
+  },
+  {
+   "id": "last-lesson-blame",
+   "title": "Whom M. Hamel blamed",
+   "trick": "**P-C-H**: Parents, Children, Hamel himself",
+   "meaning": [
+    "Parents sent children to farms and mills · children put off learning · Hamel gave fishing holidays and used boys to water his flowers."
+   ],
+   "prompt": "Whom did M. Hamel blame for the neglect of learning in Alsace?"
+  },
+  {
+   "id": "ll-key",
+   "title": "Language is the key to the prison",
+   "trick": "Language is the key to the prison",
+   "meaning": [
+    "M. Hamel's message: French is the clearest, most logical language; guard it. A conqueror attacks language to erase identity; keeping it keeps the way out. Examples: copies with France, Alsace; pigeons in German."
+   ],
+   "card": true
+  },
+  {
+   "id": "ll-procrastination",
+   "title": "Tomorrow never came",
+   "trick": "Tomorrow never came",
+   "meaning": [
+    "Franz, the parents and M. Hamel himself all put learning off. The loss of the language makes everyone see the worth of what they neglected — the story's second theme after language."
+   ],
+   "card": true
+  }
+ ],
+ "english-core/flamingo-02": [
+  {
+   "id": "lost-spring-garbage",
+   "title": "Gold or wonder?",
+   "trick": "**Gold for the old, wonder for the young**",
+   "meaning": [
+    "For parents garbage is daily bread and a roof; for children it is a treasure hunt — a rupee, sometimes a ten-rupee note."
+   ],
+   "prompt": "What does garbage mean to the adults and to the children of Seemapuri?"
+  },
+  {
+   "id": "lost-spring-circle",
+   "title": "The links of the vicious circle",
+   "trick": "**SMP-KBP**: Sahukars, Middlemen, Police — Keepers of law, Bureaucrats, Politicians",
+   "meaning": [
+    "Six links that trap the bangle makers; fear of the police stops any cooperative; there is no leader."
+   ],
+   "prompt": "Name the links of the vicious circle in Firozabad."
+  },
+  {
+   "id": "ls-circle",
+   "title": "The vicious circle",
+   "trick": "The vicious circle",
+   "meaning": [
+    "Moneylenders keep them in debt, middlemen buy cheap, police beat and jail, the law is not enforced, politicians have no will. Add caste stigma and belief in destiny."
+   ],
+   "card": true
+  },
+  {
+   "id": "ls-dream",
+   "title": "Few airplanes fly over Firozabad",
+   "trick": "Few airplanes fly over Firozabad",
+   "meaning": [
+    "He will walk to a garage and learn to be a motor mechanic — small enough to be real. Asked about flying planes, he is embarrassed. The flash of daring in a town that follows fathers."
+   ],
+   "card": true
+  }
+ ],
+ "english-core/flamingo-03": [
+  {
+   "id": "deep-water-three",
+   "title": "Three attempts, not one",
+   "trick": "**Plan – Paralysed – Peace**",
+   "meaning": [
+    "1st rise: planned jump, yellowish water, nothing to grab · 2nd: legs paralysed, no scream · 3rd: effort ceases, drowsy peace, blackout."
+   ],
+   "prompt": "What happened on each of Douglas's three attempts to rise?"
+  },
+  {
+   "id": "deep-water-method",
+   "title": "The instructor's four steps",
+   "trick": "**B-B-K-C**: Belt, Breathe, Kick, Combine",
+   "meaning": [
+    "Belt-rope-pulley across the pool (3 months) → face under water, exhale/inhale → leg kicks at the side → all the pieces together."
+   ],
+   "prompt": "What were the four stages of the instructor's method?"
+  },
+  {
+   "id": "dw-lesson",
+   "title": "Only the fear of death",
+   "trick": "Only the fear of death",
+   "meaning": [
+    "In the face of death he felt terror and then peace, so death did not frighten him — only its fear did. Conquering it set him free to live intensely."
+   ],
+   "card": true
+  }
+ ],
+ "english-core/flamingo-04": [
+  {
+   "id": "rattrap-baits",
+   "title": "The baits of the world",
+   "trick": "**R-J-S-F-H-C**: Riches, Joys, Shelter, Food, Heat, Clothing",
+   "meaning": [
+    "The six baits the peddler lists; the moment someone touches one, the trap closes."
+   ],
+   "prompt": "What baits does the world's rattrap offer, in the peddler's theory?"
+  },
+  {
+   "id": "rattrap-two-kindnesses",
+   "title": "Two kinds of trust",
+   "trick": "**Careless crofter, knowing Edla**",
+   "meaning": [
+    "The crofter trusted without seeing — and was robbed. Edla saw his fear and trusted anyway — and was repaid. Kindness that sees the person transforms."
+   ],
+   "prompt": "Why did the crofter's kindness fail where Edla's succeeded?"
+  },
+  {
+   "id": "rt-theory",
+   "title": "The world is a rattrap",
+   "trick": "The world is a rattrap",
+   "meaning": [
+    "The peddler's idle theory pleases him because the world has been unkind: picturing others trapped is revenge. He tests it on himself when he takes the thirty kronor."
+   ],
+   "card": true
+  }
+ ],
+ "english-core/flamingo-05": [
+  {
+   "id": "indigo-shukla-trail",
+   "title": "Shukla's trail",
+   "trick": "**L-C-A-C-P**: Lucknow, Cawnpore, Ahmedabad, Calcutta, Patna",
+   "meaning": [
+    "The illiterate peasant followed Gandhi from the 1916 Congress session city by city until Gandhi came to Champaran."
+   ],
+   "prompt": "Through which cities did Rajkumar Shukla follow Gandhi?"
+  },
+  {
+   "id": "indigo-why-25",
+   "title": "Why 25 per cent was enough",
+   "trick": "**P-P-P**: Principle over sum, Prestige surrendered, Planters left",
+   "meaning": [
+    "The amount mattered less than the landlords being obliged to refund; their prestige fell, the peasants learnt courage; within years the planters abandoned their estates."
+   ],
+   "prompt": "Give three reasons Gandhi accepted a 25 per cent refund."
+  },
+  {
+   "id": "in-selfreliance",
+   "title": "No Englishman as a prop",
+   "trick": "No Englishman as a prop",
+   "meaning": [
+    "Relying on a sympathetic Englishman would show weakness; the cause was just and Indians must win it themselves. Champaran taught self-reliance as well as fearlessness."
+   ],
+   "card": true
+  }
+ ],
+ "english-core/flamingo-06": [
+  {
+   "id": "pancakes-integration",
+   "title": "National integration in the make-up room",
+   "trick": "**B-M-K-A-C-A-T**: Bengali, Maharashtrian, Kannadiga, Andhra, Christian, Anglo-Burmese, Tamils",
+   "meaning": [
+    "Headed first by a Bengali, then a Maharashtrian; assisted by a Dharwar Kannadiga, an Andhra, a Madras Indian Christian, an Anglo-Burmese and local Tamils."
+   ],
+   "prompt": "Why was Gemini's make-up department an example of national integration?"
+  },
+  {
+   "id": "pancakes-spender",
+   "title": "Three facts about the English visitor",
+   "trick": "**P-E-G**: Poet, Encounter, God That Failed",
+   "meaning": [
+    "Stephen Spender: the poet who visited Gemini; editor of The Encounter; one of six ex-communists in The God That Failed — which is why the anti-communist Boss invited him."
+   ],
+   "prompt": "Who was the English poet who visited Gemini Studios, and how did the author finally identify him?"
+  },
+  {
+   "id": "pp-integration",
+   "title": "National integration before the term",
+   "trick": "National integration before the term",
+   "meaning": [
+    "The department's staff came from every region, with a strict hierarchy from the chief (stars) down to the office boy (crowd players)."
+   ],
+   "card": true
+  }
+ ],
+ "english-core/flamingo-07": [
+  {
+   "id": "interview-critics",
+   "title": "Who said what against the interview",
+   "trick": "**N-C-K-W-B**: Naipaul wounds, Carroll horror, Kipling assault, Wells ordeal, Bellow windpipe",
+   "meaning": [
+    "Naipaul: people are wounded · Carroll: a just horror, never consented · Kipling: immoral, a crime, an assault · Wells: an ordeal · Bellow: thumbprints on his windpipe."
+   ],
+   "prompt": "Match five writers with their complaints about the interview."
+  },
+  {
+   "id": "interview-eco-i",
+   "title": "Eco in three I's",
+   "trick": "**Interstices, Interests, Identity**",
+   "meaning": [
+    "Works in the interstices (empty time) · one set of philosophical interests across all forms · identity: academic first, novelist at the weekend."
+   ],
+   "prompt": "How does Eco explain his enormous output?"
+  },
+  {
+   "id": "iv-two-camps",
+   "title": "Truth and art — or intrusion?",
+   "trick": "Truth and art — or intrusion?",
+   "meaning": [
+    "Some call it a source of truth and an art; its victims call it an intrusion that diminishes them, like a photograph stealing the soul."
+   ],
+   "card": true
+  },
+  {
+   "id": "iv-interstices",
+   "title": "Working in the interstices",
+   "trick": "Working in the interstices",
+   "meaning": [
+    "Interstices = the empty spaces of time. Remove the empty space from the universe and it shrinks to a fist; most of a day is empty too, and he fills it."
+   ],
+   "card": true
+  }
+ ],
+ "english-core/flamingo-08": [
+  {
+   "id": "going-places-s-j",
+   "title": "Sophie vs Jansie",
+   "trick": "**Sophie Soars, Jansie Judges**",
+   "meaning": [
+    "Sophie: dreamer, boutique/actress/designer, invents Casey · Jansie: realist, biscuit factory, warns her, calls it nonsense."
+   ],
+   "prompt": "How do Sophie and Jansie differ?"
+  },
+  {
+   "id": "going-places-casey-details",
+   "title": "What Sophie said about Casey",
+   "trick": "**A-G-A-D**: Arcade, Green eyes, Autograph, Date",
+   "meaning": [
+    "Met in the arcade outside Royce's · green eyes, not very tall · wanted an autograph but had no paper · he agreed to meet her next week."
+   ],
+   "prompt": "What details did Sophie give Geoff about meeting Danny Casey?"
+  },
+  {
+   "id": "gp-title",
+   "title": "Going places?",
+   "trick": "Going places?",
+   "meaning": [
+    "Ironic title: the only places Sophie goes are in her head — arcade, canal, stadium, then the biscuit factory. Barton's irony is gentle; her longing is every teenager's."
+   ],
+   "card": true
+  }
+ ],
+ "english-core/poem-01": [
+  {
+   "id": "mother-two-similes",
+   "title": "The two comparisons",
+   "trick": "**Corpse in the Car, Moon at the airport**",
+   "meaning": [
+    "In the car: face ashen like a corpse. At the airport: pale as a late winter's moon. Both say age and approaching death; the second is softer."
+   ],
+   "prompt": "To what two things is the mother compared, and where?"
+  },
+  {
+   "id": "mother-smile-three",
+   "title": "Why she smiles three times",
+   "trick": "**H-C-H**: Hide, Comfort, Hope",
+   "meaning": [
+    "Hide her own fear · comfort her mother at parting · hope in the promise to meet again. Repetition shows effort, not joy."
+   ],
+   "prompt": "Give three reasons for the poet's repeated smile."
+  },
+  {
+   "id": "p1-fear",
+   "title": "The old familiar ache",
+   "trick": "The old familiar ache",
+   "meaning": [
+    "Every child fears losing its mother; the airport parting revives it because the separation it dreaded is visibly coming. 'Familiar' is the key word."
+   ],
+   "card": true
+  }
+ ],
+ "english-core/poem-02": [
+  {
+   "id": "kq-twelve",
+   "title": "Why twelve",
+   "trick": "**12 hours, 12 months**",
+   "meaning": [
+    "The clock face and the calendar — a complete cycle, small enough for anyone to spare; it frames the poem at start and end."
+   ],
+   "prompt": "What is the significance of the number twelve?"
+  },
+  {
+   "id": "kq-wars",
+   "title": "The wars stanza",
+   "trick": "**G-G-F-V**: Green, Gas, Fire, Victory-with-no-survivors",
+   "meaning": [
+    "Green wars = against nature; gas and fire = chemical and conventional weapons; victory with no survivors = total war, a hollow win."
+   ],
+   "prompt": "What kinds of war does Neruda name, and what does 'victory with no survivors' mean?"
+  },
+  {
+   "id": "p2-earth",
+   "title": "The Earth's lesson",
+   "trick": "The Earth's lesson",
+   "meaning": [
+    "Neruda wants no truck with death; life is what it is about. The apparent death of winter hides life getting ready — so can a human pause."
+   ],
+   "card": true
+  }
+ ],
+ "english-core/poem-03": [
+  {
+   "id": "tob-sufferings",
+   "title": "What we live despite",
+   "trick": "**D-D-G-U**: Despondence, Dearth of noble natures, Gloomy days, Unhealthy ways",
+   "meaning": [
+    "Keats's four causes of human suffering — the reason we need the flowery band of beauty each morning."
+   ],
+   "prompt": "What causes of human suffering does Keats list?"
+  },
+  {
+   "id": "tob-catalogue",
+   "title": "The catalogue of beauty",
+   "trick": "**S-M-T-D-R-M**: Sun, Moon, Trees, Daffodils, Rills, Musk-rose",
+   "meaning": [
+    "Then two human beauties: the grandeur of the dooms of the mighty dead, and all lovely tales we have heard or read."
+   ],
+   "prompt": "List the things of beauty Keats names."
+  },
+  {
+   "id": "p3-joy",
+   "title": "A joy for ever",
+   "trick": "A joy for ever",
+   "meaning": [
+    "Each return gives more; the joy stays and grows in memory. Beauty does not wear out like other pleasures."
+   ],
+   "card": true
+  }
+ ],
+ "english-core/poem-04": [
+  {
+   "id": "rs-why-stop",
+   "title": "Why the cars stop",
+   "trick": "**C-A-T-G**: Complain, Ask the way, Turn, Gas",
+   "meaning": [
+    "Complain about signs with N and S wrong and a shed spoiling the view · ask the way · use the yard to turn · ask for a gallon of gas. Never to buy."
+   ],
+   "prompt": "For what four reasons do cars stop at the roadside stand?"
+  },
+  {
+   "id": "rs-oxymorons",
+   "title": "The two oxymorons",
+   "trick": "**Greedy Good-doers, Beneficent Beasts**",
+   "meaning": [
+    "Kind-sounding words joined to predatory ones: helpers who exploit. They relocate the poor near the theatre and store and soothe them out of their wits."
+   ],
+   "prompt": "Name the two oxymorons Frost uses for false philanthropists."
+  },
+  {
+   "id": "p4-gooddoers",
+   "title": "Greedy good-doers",
+   "trick": "Greedy good-doers",
+   "meaning": [
+    "Oxymorons for false philanthropy: relocate the poor near the theatre and store, teach them to sleep all day, soothe them out of their wits."
+   ],
+   "card": true
+  },
+  {
+   "id": "p4-ending",
+   "title": "Would I accept such mercy?",
+   "trick": "Would I accept such mercy?",
+   "meaning": [
+    "He thinks of ending their pain at one stroke, then asks how he would feel if someone offered him that. Irony and honesty: pity is easy from a passing car."
+   ],
+   "card": true
+  }
+ ],
+ "english-core/poem-05": [
+  {
+   "id": "aj-ring",
+   "title": "What the ring means",
+   "trick": "**Light ring, heavy marriage**",
+   "meaning": [
+    "A wedding band weighs nothing; its massive weight is the burden of marriage and male domination — Uncle's ring marks her as his."
+   ],
+   "prompt": "Why is the wedding band 'massive' in weight?"
+  },
+  {
+   "id": "aj-contrast",
+   "title": "Aunt vs tigers",
+   "trick": "**Flutter vs Prance**",
+   "meaning": [
+    "Aunt: fluttering fingers, terrified, mastered by ordeals · Tigers: prancing, sleek, chivalric, unafraid. Every quality is opposed."
+   ],
+   "prompt": "How do the tigers differ from Aunt Jennifer?"
+  },
+  {
+   "id": "p5-death",
+   "title": "Ringed with ordeals",
+   "trick": "Ringed with ordeals",
+   "meaning": [
+    "Her terrified hands will lie still, still ringed with the ordeals she was mastered by. Her art outlives her, proud and unafraid: triumph and defeat together."
+   ],
+   "card": true
+  },
+  {
+   "id": "p5-theme",
+   "title": "Art as the free self",
+   "trick": "Art as the free self",
+   "meaning": [
+    "A feminist protest without slogans: a woman crushed by marriage pours her courage into tigers. The poem honours the art and indicts the cage."
+   ],
+   "card": true
+  }
+ ],
+ "english-core/vistas-01": [
+  {
+   "id": "third-level-evidence",
+   "title": "How Charley knew it was 1894",
+   "trick": "**G-S-D-W**: Gaslights, Spittoons, Derby hats, The World",
+   "meaning": [
+    "Open-flame gaslights, brass spittoons, a wooden booth with a green-eyeshade clerk, derby hats and handlebar moustaches, an old locomotive — and The World dated June 11, 1894."
+   ],
+   "prompt": "What details told Charley he had stepped into 1894?"
+  },
+  {
+   "id": "third-level-dates",
+   "title": "Two dates",
+   "trick": "**June on the paper, July on the postmark**",
+   "meaning": [
+    "June 11, 1894 — the newspaper on the third level. July 18, 1894 — the postmark of Sam's first-day cover from Galesburg."
+   ],
+   "prompt": "Which two 1894 dates appear in the story, and where?"
+  },
+  {
+   "id": "tl-escape",
+   "title": "Waking-dream wish fulfilment",
+   "trick": "Waking-dream wish fulfilment",
+   "meaning": [
+    "Even stamp collecting is a temporary refuge from reality. Whether real or dreamt, the third level stands for the wish to escape into a simpler, safer past."
+   ],
+   "card": true
+  }
+ ],
+ "english-core/vistas-02": [
+  {
+   "id": "tiger-king-numbers",
+   "title": "The numbers",
+   "trick": "**10 days · 20 years · 70 · 99 · 50 rings · 3 lakhs · 300 rupees**",
+   "meaning": [
+    "Spoke at ten days; king at twenty; seventy tigers in his own state; ninety-nine before the fake hundredth; fifty rings costing three lakhs; a three-hundred-rupee toy."
+   ],
+   "prompt": "Recall the numbers of The Tiger King."
+  },
+  {
+   "id": "tiger-king-irony",
+   "title": "The ending's irony",
+   "trick": "**Missed the real, killed by the wooden**",
+   "meaning": [
+    "He never killed the hundredth — the hunters did; the real hundredth tiger was a toy whose sliver infected his hand."
+   ],
+   "prompt": "Why is the Maharaja's death doubly ironic?"
+  },
+  {
+   "id": "tk-satire",
+   "title": "Operation successful — Maharaja dead",
+   "trick": "Operation successful — Maharaja dead",
+   "meaning": [
+    "The target: arrogant rulers who think power defeats fate, flatterers who lie from fear, officials who can be bought, and the senseless killing of a hundred tigers."
+   ],
+   "card": true
+  }
+ ],
+ "english-core/vistas-03": [
+  {
+   "id": "journey-numbers",
+   "title": "Numbers of the journey",
+   "trick": "**100 · 9 · 6 · 3 · 3**",
+   "meaning": [
+    "100 hours, 9 time zones, 6 checkpoints, 3 bodies of water, 3 ecospheres — from Madras, 13.09° N."
+   ],
+   "prompt": "Give the numbers of Doshi's journey to Antarctica."
+  },
+  {
+   "id": "journey-small-things",
+   "title": "Phytoplankton in one line",
+   "trick": "**Grass of the sea — small things first**",
+   "meaning": [
+    "Single-celled plants that feed the whole marine food chain and absorb carbon; ozone loss lets in UV that harms them. Take care of the small things."
+   ],
+   "prompt": "Why do phytoplankton matter, and what threatens them?"
+  },
+  {
+   "id": "je-gondwana",
+   "title": "Gondwana",
+   "trick": "Gondwana",
+   "meaning": [
+    "Warm, flourishing, no humans; after the dinosaurs died the landmass broke apart. Antarctica's ice-cores hold half a million years of carbon records."
+   ],
+   "card": true
+  }
+ ],
+ "english-core/vistas-04": [
+  {
+   "id": "enemy-dilemma",
+   "title": "The three options on the beach",
+   "trick": "**Shelter, Surrender, Sea**",
+   "meaning": [
+    "Shelter him = treason · surrender him to the police = his death · push him back into the sea = faster death. Sadao operates first and never sends the letter."
+   ],
+   "prompt": "What were Sadao's options when he found the prisoner?"
+  },
+  {
+   "id": "enemy-signals",
+   "title": "The flashlight code",
+   "trick": "**Two for food, one for safe, none for gone**",
+   "meaning": [
+    "Two flashes: needs food · one flash: safe · no signal: he has left the island with a Korean fishing boat."
+   ],
+   "prompt": "What did the flashlight signals from the island mean?"
+  },
+  {
+   "id": "en-why",
+   "title": "Why could I not kill him?",
+   "trick": "Why could I not kill him?",
+   "meaning": [
+    "At the window he recalls America's prejudice and his dislike of white faces — and still has no answer. Buck's point: the doctor's duty is deeper than the citizen's."
+   ],
+   "card": true
+  }
+ ],
+ "english-core/vistas-05": [
+  {
+   "id": "face-lamb-lessons",
+   "title": "Mr Lamb's five lessons",
+   "trick": "**G-B-W-E-H**: Gate, Bees, Weeds, Everyone, Hatred",
+   "meaning": [
+    "Gate always open · bees sing, not buzz · no weeds, only growing things · everyone has something · hatred burns worse than acid. Plus the man killed by a falling picture."
+   ],
+   "prompt": "List Mr Lamb's lessons to Derry."
+  },
+  {
+   "id": "face-title",
+   "title": "The title",
+   "trick": "**On the face of it = judging by appearances**",
+   "meaning": [
+    "The play asks us not to; Derry's face is not Derry, a weed is a flower someone dislikes."
+   ],
+   "prompt": "What does the title 'On the Face of It' mean?"
+  },
+  {
+   "id": "fi-weeds",
+   "title": "No weeds, only growing things",
+   "trick": "No weeds, only growing things",
+   "meaning": [
+    "Mr Lamb refuses to divide plants — or people. The same goes for bees that sing rather than buzz: attitude decides."
+   ],
+   "card": true
+  },
+  {
+   "id": "fi-hate",
+   "title": "Hatred burns worse than acid",
+   "trick": "Hatred burns worse than acid",
+   "meaning": [
+    "Acid burnt the face once; hatred of the people who stare would go on burning the self. Everyone has something — a tin leg, a burnt face, a fear of the dark."
+   ],
+   "card": true
+  }
+ ],
+ "english-core/vistas-06": [
+  {
+   "id": "memories-hair",
+   "title": "Why the hair mattered",
+   "trick": "**Short hair = cowards and mourners**",
+   "meaning": [
+    "In Zitkala-Sa's culture shingled hair marked cowards and was cut only in mourning; long hair was dignity. Cutting it was an attack on identity, not a haircut."
+   ],
+   "prompt": "Why did Zitkala-Sa resist the cutting of her hair?"
+  },
+  {
+   "id": "memories-annan",
+   "title": "Annan's advice",
+   "trick": "**Study → Progress → Dignity**",
+   "meaning": [
+    "Born into their community they are given no honour; study hard, make progress, and people will come to them of their own accord. Bama stood first in class."
+   ],
+   "prompt": "What did Annan tell Bama, and what came of it?"
+  },
+  {
+   "id": "mc-identity",
+   "title": "Hair is identity",
+   "trick": "Hair is identity",
+   "meaning": [
+    "The 'civilising' school stripped language, dress and hair. Zitkala-Sa's small rebellion is the seed of a life of activism."
+   ],
+   "card": true
+  },
+  {
+   "id": "mc-study",
+   "title": "Study, and they will come to you",
+   "trick": "Study, and they will come to you",
+   "meaning": [
+    "Born without honour, she can win it through progress. Bama studies with all her being, stands first, and many become her friends — resistance through achievement."
    ],
    "card": true
   }

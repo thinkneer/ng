@@ -29,6 +29,19 @@ Students lose time by reading the passage three or four times. Read it **twice**
 The commonest 1-mark loss is answering what you *think* the passage said. Every item has a location in the text; find it, put your finger on it, then write. The examiner's key is built from exact sentences.
 :::
 
+```ng-figure
+id: passage-anatomy
+title: Anatomy of an unseen passage
+svg:
+<svg viewBox="0 0 320 200" role="img" aria-label="Anatomy of an unseen passage" fill="none" stroke="currentColor" stroke-width="1.5" font-size="11"><rect x="40" y="20" width="240" height="160" fill="none" stroke="currentColor" stroke-width="2" rx="4"/><rect x="50" y="30" width="220" height="22" fill="#E0B400" fill-opacity="0.35" stroke="none" rx="3"/><rect x="50" y="30" width="70" height="22" fill="#E0B400" fill-opacity="0.6" stroke="none" rx="3"/><text x="160" y="45" text-anchor="middle" font-size="10" font-weight="700" fill="currentColor" stroke="none">P1 — topic + stance</text><rect x="50" y="62" width="220" height="22" fill="currentColor" fill-opacity="0.12" stroke="none" rx="3"/><rect x="50" y="62" width="40" height="22" fill="currentColor" fill-opacity="0.35" stroke="none" rx="3"/><text x="160" y="77" text-anchor="middle" font-size="10" fill="currentColor" stroke="none">P2 — first point</text><rect x="50" y="94" width="220" height="22" fill="currentColor" fill-opacity="0.12" stroke="none" rx="3"/><rect x="50" y="94" width="40" height="22" fill="currentColor" fill-opacity="0.35" stroke="none" rx="3"/><text x="160" y="109" text-anchor="middle" font-size="10" fill="currentColor" stroke="none">P3 — example / contrast</text><rect x="50" y="126" width="220" height="22" fill="currentColor" fill-opacity="0.12" stroke="none" rx="3"/><rect x="50" y="126" width="40" height="22" fill="currentColor" fill-opacity="0.35" stroke="none" rx="3"/><text x="160" y="141" text-anchor="middle" font-size="10" fill="currentColor" stroke="none">P4 — cause / effect</text><rect x="50" y="158" width="220" height="22" fill="#E0B400" fill-opacity="0.35" stroke="none" rx="3"/><rect x="50" y="158" width="70" height="22" fill="#E0B400" fill-opacity="0.6" stroke="none" rx="3"/><text x="160" y="173" text-anchor="middle" font-size="10" font-weight="700" fill="currentColor" stroke="none">P6 — conclusion</text></svg>
+caption: Read the highlighted parts fully in the skim; scan the rest only for keywords.
+part: 160, 41 | First paragraph | Read fully: the topic and the writer's stance live here.
+part: 70, 73 | Topic sentences | Read the first sentence of each paragraph; label it in two words.
+part: 160, 105 | Body paragraphs | Scan these only when an item's keyword points here.
+part: 160, 137 | Labels in the margin | 'problem', 'example', 'cause' — your map for scanning.
+part: 160, 169 | Last paragraph | Read fully: the conclusion decides the main-idea MCQ.
+```
+
 **In one breath:** skim for topic and shape, label the paragraphs, read the questions, then scan for each keyword and read only around it.
 
 ## Question types and how each is marked
@@ -46,11 +59,66 @@ The commonest 1-mark loss is answering what you *think* the passage said. Every 
 For 1-mark short answers it is fine — even wise — to lift the relevant phrase from the passage. Rewriting invites errors. Rewrite only for inference and 2-mark items, where you must show understanding.
 :::
 
+```ng-mnemonic
+id: unseen-negatives
+title: Circle the negative
+trick: **NEON**: Not, Except, Only, Never
+meaning: The four words that reverse an item; circle them before reading the options.
+prompt: Which words in a question should you circle before answering?
+```
+
+```ng-mnemonic
+id: unseen-lift
+title: Lift, don't rewrite
+trick: **One mark = one lift**
+meaning: For 1-mark short answers copy the key phrase from the text; rewrite only for inference and 2-mark items where you must show understanding.
+prompt: When should you lift a phrase from the passage, and when rewrite?
+```
+
+```ng-compare
+id: main-idea-vs-detail
+title: Main idea or detail?
+cols: Main idea option | Detail option | Too-broad option
+row: Supported by | every paragraph | one paragraph | things beyond the passage
+row: Test | do my margin labels all point to it? | is it one example or figure? | does the passage ever say this?
+row: Verdict | choose it | reject | reject
+```
+
+```ng-fill
+id: unseen-item-tricks
+title: Each item type and its trick
+cols: Item | Trick
+row: Tone MCQ | [[writer's adjectives and verbs: critical, nostalgic, cautionary…]]
+row: Inference (2 marks) | [[point + evidence phrase]]
+row: Vocabulary | [[same part of speech; substitute in the sentence]]
+row: True / false | [[partly true = false]]
+row: 2-mark short answer | two sentences, about 40 words
+```
+
 **In one breath:** know each item's trick — whole-passage support for main idea, evidence for inference, same part of speech for vocabulary, exact match for true/false, lifted phrases for 1-mark answers.
 
 ## The time plan
 
 Section A should take about **30–35 minutes** of the three hours: **18–20 minutes** for Q1, **12–15 minutes** for Q2. Within Q1: 2 minutes skim, 1 minute reading the questions, 12–14 minutes answering, 1–2 minutes checking numbers and negatives (*not*, *except*, *least*). Do Section A **first**, while your mind is fresh and the passage is unfamiliar; do not leave it for the end.
+
+```ng-steps
+id: two-pass-method
+title: The two-pass method, step by step
+svg:
+<svg viewBox="0 0 320 200" role="img" aria-label="The two-pass method, step by step" fill="none" stroke="currentColor" stroke-width="1.5" font-size="10"><path d="M30,90 H290" stroke-width="1"/><g data-step="1"><circle cx="30.0" cy="90" r="12"/><text x="30.0" y="94" text-anchor="middle" font-size="10" font-weight="700" fill="currentColor" stroke="none">1</text><text x="30.0" y="120" text-anchor="middle" font-size="9" fill="currentColor" stroke="none">Skim P1</text></g><g data-step="2"><circle cx="82.0" cy="90" r="12"/><text x="82.0" y="94" text-anchor="middle" font-size="10" font-weight="700" fill="currentColor" stroke="none">2</text><text x="82.0" y="160" text-anchor="middle" font-size="9" fill="currentColor" stroke="none">Topic sentences</text></g><g data-step="3"><circle cx="134.0" cy="90" r="12"/><text x="134.0" y="94" text-anchor="middle" font-size="10" font-weight="700" fill="currentColor" stroke="none">3</text><text x="134.0" y="120" text-anchor="middle" font-size="9" fill="currentColor" stroke="none">Last paragraph</text></g><g data-step="4"><circle cx="186.0" cy="90" r="12"/><text x="186.0" y="94" text-anchor="middle" font-size="10" font-weight="700" fill="currentColor" stroke="none">4</text><text x="186.0" y="160" text-anchor="middle" font-size="9" fill="currentColor" stroke="none">Read the items</text></g><g data-step="5"><circle cx="238.0" cy="90" r="12"/><text x="238.0" y="94" text-anchor="middle" font-size="10" font-weight="700" fill="currentColor" stroke="none">5</text><text x="238.0" y="120" text-anchor="middle" font-size="9" fill="currentColor" stroke="none">Scan and locate</text></g><g data-step="6"><circle cx="290.0" cy="90" r="12" stroke="#E0B400"/><text x="290.0" y="94" text-anchor="middle" font-size="10" font-weight="700" fill="currentColor" stroke="none">6</text><text x="290.0" y="160" text-anchor="middle" font-size="9" fill="currentColor" stroke="none">Answer and check</text></g></svg>
+step: Read the first paragraph fully: topic and stance.
+step: First sentence of every paragraph; two-word margin labels.
+step: Read fully: the conclusion.
+step: Underline the keyword in each; circle negatives.
+step: Go to the keyword; read the two sentences around it.
+step: Lift phrases for 1-mark items; check numbers and negatives.
+```
+
+```ng-explain
+id: explain-why-section-a-first
+prompt: In two lines, say why Section A should be done first and how long Q1 should take.
+lines: 2
+```
 
 **In one breath:** 18–20 minutes for Q1, Section A first, with a last minute to check negatives and numbers.
 

@@ -20,16 +20,16 @@ _Paper: 5 March 2027 (CBSE date sheet of 6 Nov 2026; recheck cbse.gov.in). Theor
 - **Poems (5/5):** My Mother at Sixty-six · Keeping Quiet · A Thing of Beauty · A Roadside Stand · Aunt Jennifer's Tigers; devices and themes in our words; 7 questions each (35).
 - **Vistas (6/6):** The Third Level · The Tiger King · Journey to the End of the Earth · The Enemy · On the Face of It · Memories of Childhood; 8 questions each (48).
 - **Reading (2/2):** reading-unseen (method + original passage "The Quiet Return of the Public Library", 12-mark case) and reading-case (method + original survey passage with table, 10-mark case); 3 questions each (6).
-- Every chapter: chapter.json, notes.md (Read), mustknow.md (six §4b headings), formulas.md, questions.json. 177 questions in all. `node scripts/build-index.mjs` passes with no English warnings except the new cards one below.
+- Every chapter: chapter.json, notes.md (Read), mustknow.md (six §4b headings), formulas.md, questions.json. 177 questions in all.
+- **Interactive pass (all 25 chapters, 15 Nov 2026):** `cards.json` in every chapter (6–9 cards: for literature a who-is-who figure, a plot-in-six-beats timeline, key-event scenes, key-learning/theme cards and one "line to remember" with a short recognisable phrase; for writing, format cards; for reading, method cards). Blocks in every notes.md: one `ng-figure` with parts (character map / image map / layout / passage or table anatomy), one `ng-steps` (plot or procedure, with a data-step timeline), two `ng-mnemonic`, one `ng-compare`, one `ng-fill`, one `ng-explain`; writing chapters add a second fill where useful. All drawings are our own SVG in one poster style (filled silhouettes, iconic motifs, #E0B400 highlight), generated from a small library kept outside the repo; cards reuse the notes figures with `ref: notes#<id>`. No `ng-graph`/`ng-numerical`/`ng-derive`/`ng-draw`: English has no formulas, numericals or derivations, and no diagram students must reproduce. `node scripts/build-index.mjs` passes with no English warnings or errors.
 
 ## Corrections
 - none yet (first student round pending)
 
 ## What's next
-1. **cards.json per chapter** — new site requirement (commit `1c2a688`, 14 Nov; `schemas/cards.schema.json`, 6–15 cards for English, each with an SVG or `tex`; a warning per subject until **1 Dec 2026**, then a build error). None exist for English yet. Needs a decision on what English cards should be (e.g. character maps, plot-in-six-beats figures, writing-format skeletons as SVG) before 23 decks are drawn.
-2. A fixed full paper under `papers/` following the 2026–27 SQP (Section A passages must again be our own).
-3. Polish after the first student round: Must-know line wording for Recall, extra extract-based cases per chapter (currently one each), a second Reading passage of each kind.
-4. Internal assessment (20): a short guide to ASL (listening/speaking) and project work — not on the site yet.
+1. A fixed full paper under `papers/` following the 2026–27 SQP (Section A passages must again be our own).
+2. Polish after the first student round: Must-know line wording for Recall, extra extract-based cases per chapter (currently one each), a second Reading passage of each kind.
+3. Internal assessment (20): a short guide to ASL (listening/speaking) and project work — not on the site yet.
 
 ## Exam mode (Site chat, 15 Nov 2026)
 - English Core does not fit a count × marks grid, so exam mode shows only fixed set papers for it. Until one exists, Subject → Exam mode is hidden for English and the papers page says they are coming.

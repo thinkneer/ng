@@ -12,6 +12,17 @@ A typical Q2 has three layers:
 
 The items follow the same three layers: some ask about the **facts** stated (who, what, when), some about the **data** (highest, lowest, difference, trend, percentage), and some ask you to **infer or evaluate** — why a figure might be surprising, what the data suggests, which conclusion the data supports.
 
+```ng-compare
+id: q1-vs-q2
+title: Q1 and Q2 compared
+cols: Q1 unseen passage | Q2 case-based passage
+row: Text | discursive or narrative, ~450 words | factual report, ~300–350 words + visual
+row: Marks | 12 | 10
+row: Skills | main idea, tone, inference, vocabulary | facts, data reading, trends, inference from numbers
+row: Time | 18–20 min | 12–15 min
+row: Extra step | — | read the visual first; arithmetic on paper
+```
+
 **In one breath:** Q2 = factual text + a chart or table + a conclusion; the items test facts, data reading and inference, 10 marks in all.
 
 ## Reading the visual first
@@ -29,6 +40,28 @@ Most data items can then be answered without rereading the prose: *Which year sa
 If the chart shows percentages, your answer is a percentage, not a number of people; if it shows hours, say hours. "The figure rose by 12" is wrong if the chart is in per cent — write "by 12 percentage points" or "from 48% to 60%".
 :::
 
+```ng-figure
+id: table-anatomy
+title: Anatomy of a data table
+svg:
+<svg viewBox="0 0 320 200" role="img" aria-label="Anatomy of a data table" fill="none" stroke="currentColor" stroke-width="1.5" font-size="11"><text x="160" y="24" text-anchor="middle" font-size="10" font-weight="700" fill="currentColor" stroke="none">TITLE: what is measured, for whom, when</text><rect x="40" y="34" width="240" height="24" fill="#E0B400" fill-opacity="0.35" stroke="none"/><text x="160" y="50" text-anchor="middle" font-size="10" font-weight="700" fill="currentColor" stroke="none">column headings + UNITS</text><rect x="40" y="62" width="240" height="22" fill="currentColor" fill-opacity="0.03" stroke="none"/><text x="80" y="77" text-anchor="middle" font-size="10" fill="currentColor" stroke="none">Class 9</text><text x="160" y="77" text-anchor="middle" font-size="10" fill="currentColor" stroke="none">2.4</text><text x="240" y="77" text-anchor="middle" font-size="10" font-weight="700" fill="#E0B400" stroke="none">8.1</text><rect x="40" y="86" width="240" height="22" fill="currentColor" fill-opacity="0.08" stroke="none"/><text x="80" y="101" text-anchor="middle" font-size="10" fill="currentColor" stroke="none">Class 10</text><text x="160" y="101" text-anchor="middle" font-size="10" fill="currentColor" stroke="none">3.1</text><text x="240" y="101" text-anchor="middle" font-size="10" fill="currentColor" stroke="none">7.6</text><rect x="40" y="110" width="240" height="22" fill="currentColor" fill-opacity="0.03" stroke="none"/><text x="80" y="125" text-anchor="middle" font-size="10" fill="currentColor" stroke="none">Class 11</text><text x="160" y="125" text-anchor="middle" font-size="10" fill="currentColor" stroke="none">4.2</text><text x="240" y="125" text-anchor="middle" font-size="10" fill="currentColor" stroke="none">6.9</text><rect x="40" y="134" width="240" height="22" fill="currentColor" fill-opacity="0.08" stroke="none"/><text x="80" y="149" text-anchor="middle" font-size="10" fill="currentColor" stroke="none">Class 12</text><text x="160" y="149" text-anchor="middle" font-size="10" font-weight="700" fill="#E0B400" stroke="none">4.6</text><text x="240" y="149" text-anchor="middle" font-size="10" fill="currentColor" stroke="none">6.4</text><text x="160" y="178" text-anchor="middle" font-size="9" font-style="italic" fill="currentColor" fill-opacity="0.8" stroke="none">footnote: sample of 400; figures rounded</text></svg>
+caption: Title, headings and units, extremes, rows vs columns, footnote — one minute before the items.
+part: 160, 20 | Title | Says what is measured, for which group and period — read it first.
+part: 160, 46 | Headings and units | Hours, per cent, number of people: your answer must use the same unit.
+part: 160, 149 | Largest value | Mark the extremes before reading the items.
+part: 240, 77 | Smallest / first value | 'Change over the period' = last minus first.
+part: 80, 110 | Rows vs columns | Check which way the table runs before copying a number.
+part: 160, 176 | Footnote | Sample size and rounding — sometimes an item hides here.
+```
+
+```ng-mnemonic
+id: case-percentage-points
+title: Per cent changes
+trick: **From–to, or points**
+meaning: 48% to 60% = 'from 48% to 60%' or 'by 12 percentage points' — never 'by 12' or 'by 60%'.
+prompt: How do you state a change between two percentages?
+```
+
 **In one breath:** read the title, headings, units, extremes and trend of the visual before the questions; do comparisons on paper with the right unit.
 
 ## Question types in Q2
@@ -40,6 +73,26 @@ If the chart shows percentages, your answer is a percentage, not a number of peo
 - **Vocabulary (1 mark):** a word from a named paragraph meaning X — same method as Q1.
 - **Evaluation / "best supports" MCQ (1 mark):** which statement the passage and data together justify; reject options the data contradicts or does not cover.
 - **2-mark item:** two reasons the writer gives, or a conclusion and its supporting figure, in about 40 words.
+
+```ng-mnemonic
+id: case-correlation
+title: Link, not cause
+trick: **A survey shows a link, not a cause**
+meaning: Heavier screen users sleep less = correlation within the sample; it does not prove screens cause poor sleep, and it does not prove a ban would fix it.
+prompt: What can a survey's data support, and what can it not?
+```
+
+```ng-fill
+id: case-item-tricks
+title: Q2 item types and where to look
+cols: Item | Where / how
+row: Fact (who, what, when) | [[first paragraph]]
+row: Value, extreme, difference | [[the visual; quote the figure with its unit]]
+row: Trend | [[direction over the period]]
+row: Inference | only what the numbers support
+row: Conclusion / recommendation | [[last paragraph]]
+row: Vocabulary | named paragraph, same part of speech
+```
 
 **In one breath:** facts from the text, numbers from the visual, inferences that the numbers support, one vocabulary item and a 2-mark summary — each with its own place to look.
 
@@ -55,11 +108,30 @@ If the chart shows percentages, your answer is a percentage, not a number of peo
 Every data answer should carry the number: "Category B, at 42%, was the highest." An answer without the figure can be marked as a guess.
 :::
 
+```ng-explain
+id: explain-quote-the-figure
+prompt: In two lines, explain why every data answer should carry the number and its unit.
+lines: 2
+```
+
 **In one breath:** check rows vs columns, follow points to the axis, infer only what the numbers support, and always quote the figure.
 
 ## Time plan
 
 **12–15 minutes**: 1 minute reading the visual, 1 minute skimming the prose, 1 minute reading the items, 8–10 minutes answering, 1 minute checking arithmetic and units. Do Q2 straight after Q1.
+
+```ng-steps
+id: visual-first
+title: Visual first, then the items
+svg:
+<svg viewBox="0 0 320 200" role="img" aria-label="Visual first, then the items" fill="none" stroke="currentColor" stroke-width="1.5" font-size="10"><path d="M30,90 H290" stroke-width="1"/><g data-step="1"><circle cx="30.0" cy="90" r="12"/><text x="30.0" y="94" text-anchor="middle" font-size="10" font-weight="700" fill="currentColor" stroke="none">1</text><text x="30.0" y="120" text-anchor="middle" font-size="9" fill="currentColor" stroke="none">Title</text></g><g data-step="2"><circle cx="82.0" cy="90" r="12"/><text x="82.0" y="94" text-anchor="middle" font-size="10" font-weight="700" fill="currentColor" stroke="none">2</text><text x="82.0" y="160" text-anchor="middle" font-size="9" fill="currentColor" stroke="none">Headings, units</text></g><g data-step="3"><circle cx="134.0" cy="90" r="12"/><text x="134.0" y="94" text-anchor="middle" font-size="10" font-weight="700" fill="currentColor" stroke="none">3</text><text x="134.0" y="120" text-anchor="middle" font-size="9" fill="currentColor" stroke="none">Extremes</text></g><g data-step="4"><circle cx="186.0" cy="90" r="12"/><text x="186.0" y="94" text-anchor="middle" font-size="10" font-weight="700" fill="currentColor" stroke="none">4</text><text x="186.0" y="160" text-anchor="middle" font-size="9" fill="currentColor" stroke="none">Trend</text></g><g data-step="5"><circle cx="238.0" cy="90" r="12"/><text x="238.0" y="94" text-anchor="middle" font-size="10" font-weight="700" fill="currentColor" stroke="none">5</text><text x="238.0" y="120" text-anchor="middle" font-size="9" fill="currentColor" stroke="none">Skim the prose</text></g><g data-step="6"><circle cx="290.0" cy="90" r="12" stroke="#E0B400"/><text x="290.0" y="94" text-anchor="middle" font-size="10" font-weight="700" fill="currentColor" stroke="none">6</text><text x="290.0" y="160" text-anchor="middle" font-size="9" fill="currentColor" stroke="none">Answer</text></g></svg>
+step: What is measured, for whom, over what period.
+step: Hours? per cent? people? Your answer uses the same unit.
+step: Mark the largest and smallest values.
+step: Rising, falling, steady, a peak, a sudden change.
+step: First paragraph for facts; last for the conclusion.
+step: Data from the visual, facts from the text, inferences only the numbers support.
+```
 
 **In one breath:** about 13 minutes, visual first, a minute at the end for arithmetic.
 
