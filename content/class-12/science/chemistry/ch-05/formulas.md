@@ -73,7 +73,13 @@ NCERT now uses chlorido, cyanido, hydroxido (not chloro, cyano). ``ammine'' (NH$
 
 ### Stereoisomerism
 
-*(diagram to be added as SVG)*
+<figure class="fig">
+<svg viewBox="0 0 320 140" role="img" aria-label="cis and trans isomers of diamminedichloridoplatinum(II)" fill="none" stroke="currentColor" stroke-width="1.5" font-size="11">
+<path d="M74.36,69.36L55.36,50.36"/><path d="M95.64,69.36L114.6,50.36"/><path d="M74.36,90.64L55.36,109.6"/><path d="M95.64,90.64L114.6,109.6"/><path d="M229.4,69.36L210.4,50.36"/><path d="M250.6,69.36L269.6,50.36"/><path d="M229.4,90.64L210.4,109.6"/><path d="M250.6,90.64L269.6,109.6"/>
+<g fill="currentColor" stroke="none"><text x="85" y="20" text-anchor="middle">cis</text><text x="85" y="84" text-anchor="middle" font-size="12">Pt</text><text x="45" y="46" text-anchor="end" style="fill:#E0B400" font-weight="bold">Cl</text><text x="125" y="46">NH<tspan dy="3" font-size="8">3</tspan></text><text x="45" y="122" text-anchor="end" style="fill:#E0B400" font-weight="bold">Cl</text><text x="125" y="122">NH<tspan dy="3" font-size="8">3</tspan></text><text x="240" y="20" text-anchor="middle">trans</text><text x="240" y="84" text-anchor="middle" font-size="12">Pt</text><text x="200" y="46" text-anchor="end" style="fill:#E0B400" font-weight="bold">Cl</text><text x="280" y="46">NH<tspan dy="3" font-size="8">3</tspan></text><text x="200" y="122" text-anchor="end">H<tspan dy="3" font-size="8">3</tspan><tspan dy="-3">N</tspan></text><text x="280" y="122" style="fill:#E0B400" font-weight="bold">Cl</text></g>
+</svg>
+<figcaption>Square planar [Pt(NH₃)₂Cl₂]: in the cis isomer the two Cl are neighbours (90° apart); in the trans isomer they are opposite (180° apart).</figcaption>
+</figure>
 
 - **Geometrical**: square planar $\ce{[MX2L2]}$ cis/trans ($\ce{[Pt(NH3)2Cl2]}$; cis-platin is the anticancer drug). Tetrahedral complexes show *no* geometrical isomerism.
 - Octahedral $\ce{[MX2L4]}$ cis/trans ($\ce{[Co(NH3)4Cl2]+}$); $\ce{[MX3L3]}$ **fac/mer** ($\ce{[Co(NH3)3(NO2)3]}$).
@@ -112,7 +118,13 @@ boxes: 3d | 4s | 4p | 4d; ×× = electron pair donated by a ligand.
 
 ## Bonding II — Crystal Field Theory
 
-*(diagram to be added as SVG)*
+<figure class="fig">
+<svg viewBox="0 0 350 152" role="img" aria-label="Crystal field splitting of d orbitals in octahedral and tetrahedral fields" fill="none" stroke="currentColor" stroke-width="1.5" font-size="11">
+<path d="M8,100L16,100" stroke-width="2"/><path d="M19,100L27,100" stroke-width="2"/><path d="M30,100L38,100" stroke-width="2"/><path d="M41,100L49,100" stroke-width="2"/><path d="M52,100L60,100" stroke-width="2"/><path d="M100,58L111,58" stroke-width="2"/><path d="M116,58L127,58" stroke-width="2"/><path d="M92,128L103,128" stroke-width="2"/><path d="M108,128L119,128" stroke-width="2"/><path d="M124,128L135,128" stroke-width="2"/><path d="M64,100L98,58" stroke-dasharray="4 3" stroke-width="1"/><path d="M64,100L90,128" stroke-dasharray="4 3" stroke-width="1"/><path d="M92,100L150,100" stroke-dasharray="4 3" stroke-width="1"/><path d="M155,59L155,127" stroke-width="1"/><path d="M152.5,122.7L155,127L157.5,122.7" stroke-width="1"/><path d="M157.5,63.3L155,59L152.5,63.3" stroke-width="1"/><path d="M182,100L190,100" stroke-width="2"/><path d="M193,100L201,100" stroke-width="2"/><path d="M204,100L212,100" stroke-width="2"/><path d="M215,100L223,100" stroke-width="2"/><path d="M226,100L234,100" stroke-width="2"/><path d="M266,84L277,84" stroke-width="2"/><path d="M282,84L293,84" stroke-width="2"/><path d="M298,84L309,84" stroke-width="2"/><path d="M274,124L285,124" stroke-width="2"/><path d="M290,124L301,124" stroke-width="2"/><path d="M238,100L264,84" stroke-dasharray="4 3" stroke-width="1"/><path d="M238,100L272,124" stroke-dasharray="4 3" stroke-width="1"/><path d="M266,100L322,100" stroke-dasharray="4 3" stroke-width="1"/><path d="M327,85L327,123" stroke-width="1"/><path d="M324.5,118.7L327,123L329.5,118.7" stroke-width="1"/><path d="M329.5,89.3L327,85L324.5,89.3" stroke-width="1"/>
+<g fill="currentColor" stroke="none"><text x="85" y="14" text-anchor="middle">Octahedral</text><text x="34" y="116" text-anchor="middle" font-size="9">d orbitals</text><text x="113" y="50" text-anchor="middle">e<tspan dy="3" font-size="8">g</tspan></text><text x="113" y="144" text-anchor="middle">t<tspan dy="3" font-size="8">2g</tspan></text><text x="159" y="97">Δ<tspan dy="3" font-size="8">o</tspan></text><text x="124" y="84" text-anchor="middle" font-size="8">+0.6 Δ<tspan dy="3" font-size="8">o</tspan></text><text x="124" y="117" text-anchor="middle" font-size="8">−0.4 Δ<tspan dy="3" font-size="8">o</tspan></text><text x="255" y="14" text-anchor="middle">Tetrahedral</text><text x="208" y="116" text-anchor="middle" font-size="9">d orbitals</text><text x="287" y="76" text-anchor="middle">t<tspan dy="3" font-size="8">2</tspan></text><text x="287" y="140" text-anchor="middle">e</text><text x="331" y="108">Δ<tspan dy="3" font-size="8">t</tspan></text></g>
+</svg>
+<figcaption>Octahedral field: eg raised by 0.6 Δo, t2g lowered by 0.4 Δo. Tetrahedral field: the order is inverted and the gap is smaller, Δt = 4/9 Δo.</figcaption>
+</figure>
 
 - Ligands treated as point charges; d orbitals split.
 - Octahedral: $e_g$ ($d_{x^2-y^2}$, $d_{z^2}$) up; $t_{2g}$ ($d_{xy}$, $d_{yz}$, $d_{xz}$) down.
