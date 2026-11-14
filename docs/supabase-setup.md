@@ -4,40 +4,35 @@ Project: `https://kschtxkqurkzhfencyko.supabase.co` · config in `data/supabase.
 
 ## 1. Run the schema
 Dashboard → **SQL Editor** → New query → paste the whole of `supabase/migrations/001_init.sql` → **Run**.
-You should see "Success. No rows returned". (It creates `profiles`, `shared_notes`, `comments`, `exams`, `exam_attempts`, `live_*` tables, the policies and the live-quiz functions.)
+It is safe to run again: it drops and recreates everything it owns (members included), so run it before real members join, not after.
 
-## 2. Auth settings (three switches)
+## 2. Auth settings (two switches)
 Dashboard → **Authentication**:
-- **URL Configuration** → Site URL: `https://thinkneer.github.io/ng/` · Redirect URLs: add `https://thinkneer.github.io/ng/**`.
-- **Providers → Email**: keep *Enable email provider* on. Turn **Confirm email** *off* (members verify by the code/link anyway, and the admin approves each one by hand). Leave *Secure email change* as is.
-- **Email Templates → Magic Link**: so the email carries the 6-digit code as well as the link, make the body something like:
+- **Providers → Email**: *Enable email provider* on. **Confirm email → OFF.** (That is what produced the "Confirm your email address" mail; with it off, Join signs the member straight in and you approve them by hand.) *Secure email change* can stay on.
+- **URL Configuration** → Site URL `https://thinkneer.github.io/ng/` and add `https://thinkneer.github.io/ng/**` to Redirect URLs. Only used by **Forgot password** links; with the default `localhost:3000` those links die.
 
-  ```html
-  <h2>Your ng sign-in code</h2>
-  <p style="font-size:28px;letter-spacing:6px"><strong>{{ .Token }}</strong></p>
-  <p>Type this code in the app, or <a href="{{ .ConfirmationURL }}">tap here to sign in</a>. The code works for 1 hour.</p>
-  ```
-  Subject: `Your ng sign-in code`.
-
-Sending limits: Supabase's built-in mailer allows only a few emails per hour. Fine for a handful of members; for a class, add a custom SMTP (Authentication → SMTP Settings — Brevo, Resend, Gmail app password all work).
+No email template changes needed: sign-in is email + password, no codes.
 
 ## 3. Make yourself admin
-Open the live site, **Join with a nickname** (use your usual admin nickname), enter the code from the email. You land on "Access awaited". Then in the SQL Editor:
+Open the live site → **Join with a nickname** (your usual admin nickname, your email, a password ≥ 8 characters). You land on "Access awaited". Then in the SQL Editor:
 
 ```sql
 update public.profiles set role = 'admin', status = 'approved', approved_at = now() where lower(nickname) = lower('YOUR_NICKNAME');
 ```
 
-Back in the app tap **I've been approved — check again**. From now on everything is in **More → Admin dashboard**: approve members, make someone a teacher, pause.
+Back in the app tap **I've been approved — check again**. From now on everything is in **More → Admin dashboard**.
 
-## 4. What members do
-Join with a nickname + email → code → "Access awaited" → send you the WhatsApp note → you approve → they open the app again.
-Existing members from the static list (`data/users.json`) simply join again with the same nickname.
+## 4. Members
+- Join with nickname + email + password → "Access awaited" → they send you the WhatsApp note → you tap **Approve as student** or **Approve as teacher** → they open the app again.
+- Later: **Make teacher / Make student**, **Pause / Restore**.
+- **One phone at a time**: each sign-in claims the account; an older device is signed out on its next load with a one-line notice.
+- Forgot password: Sign in → Forgot password → link by email → choose a new password (open the link on the same phone/browser).
+- Existing members from the old static list simply join again with the same nickname.
 
 ## Keys
-- `sb_publishable_…` in `data/supabase.json` — public by design, guarded by row-level security.
+- `sb_publishable_…` in `data/supabase.json` is public by design; row-level security guards the data.
 - The **secret / service-role key** must never be in the repo or in the app.
-- Supabase's "legacy API keys will be retired in early 2027" notice is about the old `anon`/`service_role` JWT keys; the publishable key we use is the new kind.
+- Supabase's "legacy API keys retired in early 2027" notice concerns the old `anon`/`service_role` JWT keys; the publishable key is the new kind.
 
 ## Roles
 | role | can |

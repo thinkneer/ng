@@ -138,8 +138,9 @@ async function adminDb() {
       <span class="list__leading" style="--unit:${u.status === 'approved' ? (u.role === 'student' ? 'var(--accent)' : '#6A3FA0') : '#8795AB'}">${esc(u.nickname.slice(0, 2).toUpperCase())}</span>
       <span class="list__body"><span class="list__title">${esc(u.nickname)} ${u.role !== 'student' ? `<span class="badge badge--new">${esc(u.role)}</span>` : ''}${u.status === 'pending' ? ' <span class="badge badge--soon">awaiting</span>' : u.status === 'suspended' ? ' <span class="badge">paused</span>' : ''}</span><span class="list__sub">Class ${esc(u.class)} · ${u.status === 'approved' ? `since ${when(u.approved_at || u.created_at)}` : `asked ${when(u.created_at)}`}</span></span>
       ${u.id === me ? '' : `<span class="list__controls">
-        ${u.status !== 'approved' ? `<button class="btn btn--sm" type="button" data-set='{"status":"approved"}'>${u.status === 'pending' ? 'Approve' : 'Restore'}</button>` : `<button class="btn btn--sm btn--plain" type="button" data-set='{"status":"suspended"}'>Pause</button>`}
-        ${u.role === 'teacher' ? `<button class="btn btn--sm btn--plain" type="button" data-set='{"role":"student"}'>Make student</button>` : u.role === 'student' ? `<button class="btn btn--sm btn--plain" type="button" data-set='{"role":"teacher"}'>Make teacher</button>` : ''}
+        ${u.status === 'pending' ? `<button class="btn btn--sm" type="button" data-set='{"status":"approved","role":"student"}'>Approve as student</button><button class="btn btn--sm btn--secondary" type="button" data-set='{"status":"approved","role":"teacher"}'>Approve as teacher</button>`
+          : u.status === 'suspended' ? `<button class="btn btn--sm" type="button" data-set='{"status":"approved"}'>Restore</button>`
+          : `<button class="btn btn--sm btn--plain" type="button" data-set='{"status":"suspended"}'>Pause</button>${u.role === 'teacher' ? `<button class="btn btn--sm btn--plain" type="button" data-set='{"role":"student"}'>Make student</button>` : u.role === 'student' ? `<button class="btn btn--sm btn--plain" type="button" data-set='{"role":"teacher"}'>Make teacher</button>` : ''}`}
       </span>`}
     </div>`;
   const pending = people.filter((p) => p.status === 'pending').length;
@@ -147,7 +148,7 @@ async function adminDb() {
     title: 'Admin', tab: 'more', back: '#/more',
     html: html`<h1 class="t-title" style="margin:var(--s-4) 0">Admin</h1>
       ${error ? raw(`<div class="notice notice--warn mb-4">${icon('alert')}<div>${esc(errText(error))}</div></div>`) : ''}
-      <div class="card mb-4"><div class="t-headline">${pending ? `${pending} awaiting approval` : 'No one waiting'}</div><p class="t-2 t-subhead mt-1">Members sign in with an email and pick a nickname; you approve them here. Teachers can run live quizzes and exams. Changes apply the next time they open the app.</p></div>
+      <div class="card mb-4"><div class="t-headline">${pending ? `${pending} awaiting approval` : 'No one waiting'}</div><p class="t-2 t-subhead mt-1">Members join with a nickname, email and password; you approve each one here as a student or a teacher. Teachers can run live quizzes and, later, exams. Changes apply the next time they open the app.</p></div>
       <div class="list__header" style="padding-left:0">Members <span class="count">${people.length}</span></div>
       <div class="list" id="members">${raw(people.map(row).join('') || '<div class="list__item t-2">No members yet</div>')}</div>
       <p class="t-footnote t-3 mt-4">Nicknames only are shown; emails stay in the sign-in system. Your own row has no buttons.</p>`,
@@ -159,7 +160,7 @@ async function adminDb() {
         b.disabled = true; const label = b.textContent; b.textContent = 'Saving…';
         const { error: err } = await c.from('profiles').update(patch).eq('id', item.dataset.id);
         if (err) { toast(errText(err), { duration: 6000 }); b.disabled = false; b.textContent = label; return; }
-        haptic('success'); toast(`${item.dataset.nick}: ${patch.status ? (patch.status === 'approved' ? 'approved' : 'paused') : 'now a ' + patch.role}`);
+        haptic('success'); toast(`${item.dataset.nick}: ${patch.status === 'approved' ? `approved${patch.role ? ' as ' + patch.role : ''}` : patch.status ? 'paused' : 'now a ' + patch.role}`);
         setTimeout(() => location.reload(), 500);
       });
     },

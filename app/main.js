@@ -7,7 +7,7 @@ import { $, $$, html, raw, icon, esc, openSheet, emptyState } from './ui.js';
 import { views } from './views/index.js';
 import { verifySession, verifyDbSession, isDbMode } from './auth.js';
 
-const PUBLIC_ROUTES = new Set(['signin', 'request', 'access', 'login', 'awaiting']);
+const PUBLIC_ROUTES = new Set(['signin', 'request', 'access', 'login', 'awaiting', 'reset']);
 let sessionChecked = null;
 window.addEventListener('ng:auth', () => { sessionChecked = null; }); // sign-in / sign-out: re-check next render
 

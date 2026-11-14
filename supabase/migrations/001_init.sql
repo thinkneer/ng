@@ -6,6 +6,15 @@
 
 create extension if not exists pgcrypto;
 
+-- Re-runnable: drops everything this file creates (member data included) and builds it again.
+drop trigger if exists on_auth_user_created on auth.users;
+drop table if exists public.live_answers, public.live_players, public.live_keys, public.live_rooms,
+  public.exam_attempts, public.exams, public.comments, public.shared_notes, public.profiles cascade;
+drop function if exists public.handle_new_user(), public.nickname_available(text), public.claim_session(text),
+  public.my_role(), public.is_admin(), public.is_staff(), public.is_member(),
+  public.live_new_code(), public.live_create(text, text, text, int), public.live_join(text), public.live_next(uuid, jsonb, text, int),
+  public.live_reveal(uuid), public.live_tally(uuid, text), public.live_answered(uuid), public.live_end(uuid) cascade;
+
 -- ------------------------------------------------------------------ profiles
 create table public.profiles (
   id          uuid primary key references auth.users(id) on delete cascade,
@@ -15,6 +24,7 @@ create table public.profiles (
   class       text not null default '12',
   stream      text not null default 'science',
   subjects    text[] not null default '{}',
+  session_token text,                      -- one device at a time: the latest sign-in owns the account
   created_at  timestamptz not null default now(),
   approved_at timestamptz
 );
@@ -53,6 +63,12 @@ create or replace function public.nickname_available(nick text) returns boolean
 language sql stable security definer set search_path = public as
 $$ select nick ~ '^[A-Za-z0-9_]{3,20}$' and not exists (select 1 from public.profiles where lower(nickname) = lower(nick)) $$;
 grant execute on function public.nickname_available(text) to anon, authenticated;
+
+-- One login per user anywhere: a fresh sign-in claims the account; older devices see the token change and sign out.
+create or replace function public.claim_session(tok text) returns void
+language sql security definer set search_path = public as
+$$ update public.profiles set session_token = tok where id = auth.uid() $$;
+grant execute on function public.claim_session(text) to authenticated;
 
 -- Everyone sees their own row; approved members see other members (nicknames, roles) for leaderboards and comments.
 create policy "profiles: read own or members" on public.profiles for select
@@ -308,7 +324,7 @@ grant execute on function public.live_end(uuid) to authenticated;
 alter publication supabase_realtime add table public.live_rooms, public.live_players, public.live_answers;
 
 -- ------------------------------------------------------------------ after running this file
--- 1. Sign in to the app once with your own email (it creates your profile as a pending student).
+-- 1. Join the app once with your own email + password (it creates your profile as a pending student).
 -- 2. Make yourself admin (replace the nickname with the one you typed at sign-up):
 --      update public.profiles set role = 'admin', status = 'approved', approved_at = now() where lower(nickname) = lower('ni8951');
 -- 3. From then on, approve members and set teacher / student roles from More → Admin dashboard in the app.

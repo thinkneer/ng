@@ -75,13 +75,14 @@ export async function nicknameTaken(nick) {
 }
 
 /* ======================================================================
-   Database mode (Supabase): sign in by email — a 6-digit code or the link in the same email.
-   The email stays in Supabase Auth; the app only ever shows the nickname. The session mirror in
-   store 'session' keeps the same shape as the static flow, so the rest of the app does not care.
+   Database mode (Supabase): email + password. Nickname is chosen once at sign-up and is all the app ever shows.
+   One login per user anywhere: each sign-in claims the account with a device token; another device signs out.
+   The session mirror in store 'session' keeps the same shape as the static flow, so the rest of the app does not care.
    ====================================================================== */
-import { db, enabled as dbEnabled, myProfile } from './db.js';
+import { db, enabled as dbEnabled } from './db.js';
 
 export async function isDbMode() { return dbEnabled(); }
+const PROFILE_COLS = 'id, nickname, role, status, class, stream, subjects, session_token';
 
 function mirror(p) {
   const s = { nickname: p.nickname, role: p.role, status: p.status, class: p.class, stream: p.stream, subjects: p.subjects || [], uid: p.id, db: true, at: new Date().toISOString() };
@@ -89,36 +90,61 @@ function mirror(p) {
   if (!store.settings.class && p.class) store.setSettings({ class: p.class, stream: p.stream || (p.class === '9' || p.class === '10' ? 'general' : 'science'), subjects: [] });
   return s;
 }
+const deviceToken = () => { let t = store.get('device', null); if (!t) { t = crypto.randomUUID(); store.set('device', t); } return t; };
+async function loadProfile(c) {
+  const { data: sess } = await c.auth.getSession();
+  const id = sess.session?.user?.id; if (!id) return { none: true };
+  const { data, error } = await c.from('profiles').select(PROFILE_COLS).eq('id', id).maybeSingle();
+  if (error) throw error;
+  return { profile: data };
+}
 
 /** Db mode: approved member → session; pending/suspended → {pending: profile}; nobody → null. Offline: trust the mirror. */
 export async function verifyDbSession() {
   const c = await db(); if (!c) return null;
-  const { data } = await c.auth.getSession();
-  if (!data.session) { if (session()?.db) store.set('session', undefined); return null; }
-  try {
-    const p = await myProfile();
-    if (!p) return { pending: { nickname: '', status: 'pending' } };
-    if (p.status !== 'approved') { store.set('session', undefined); return { pending: p }; }
-    return mirror(p);
-  } catch {
-    const s = session();
-    return s?.db ? s : null; // network error: keep the member signed in on this device
+  let r;
+  try { r = await loadProfile(c); } catch { const s = session(); return s?.db ? s : null; } // network error: keep this device signed in
+  if (r.none) { if (session()?.db) store.set('session', undefined); return null; }
+  const p = r.profile;
+  if (!p) return { pending: { nickname: '', status: 'pending' } };
+  if (p.session_token && p.session_token !== deviceToken()) {
+    await dbSignOut(); store.set('signin.notice', 'This account was signed in on another device, so this one was signed out. Sign in again to use it here.');
+    return null;
   }
+  if (p.status !== 'approved') { store.set('session', undefined); return { pending: p }; }
+  return mirror(p);
 }
+async function claim(c) { try { await c.rpc('claim_session', { tok: deviceToken() }); } catch { /* ignore */ } }
 
-/** Send the email (code + link). Nickname / class go into sign-up metadata for the first sign-in. */
-export async function sendEmailCode(email, { nickname, cls, stream } = {}) {
+export async function signUpPassword({ email, pass, nickname, cls, stream }) {
   const c = await db();
-  const redirect = new URL(location.pathname, location.origin).href;
-  const { error } = await c.auth.signInWithOtp({ email, options: { emailRedirectTo: redirect, shouldCreateUser: true, data: nickname ? { nickname, class: cls, stream } : undefined } });
+  const { data, error } = await c.auth.signUp({ email, password: pass, options: { data: { nickname, class: cls, stream } } });
   if (error) throw error;
-}
-export async function verifyEmailCode(email, token) {
-  const c = await db();
-  const { error } = await c.auth.verifyOtp({ email, token: token.replace(/\D/g, ''), type: 'email' });
-  if (error) throw error;
+  if (!data.session) return { confirm: true }; // "Confirm email" is still on in the Supabase project
+  await claim(c);
   window.dispatchEvent(new Event('ng:auth'));
   return verifyDbSession();
+}
+export async function signInPassword(email, pass) {
+  const c = await db();
+  const { error } = await c.auth.signInWithPassword({ email, password: pass });
+  if (error) throw error;
+  await claim(c);
+  store.set('signin.notice', undefined);
+  window.dispatchEvent(new Event('ng:auth'));
+  return verifyDbSession();
+}
+export async function resetPassword(email) {
+  const c = await db();
+  const { error } = await c.auth.resetPasswordForEmail(email, { redirectTo: new URL(location.pathname, location.origin).href + '#/reset' });
+  if (error) throw error;
+}
+export async function setNewPassword(pass) {
+  const c = await db();
+  const { error } = await c.auth.updateUser({ password: pass });
+  if (error) throw error;
+  await claim(c);
+  window.dispatchEvent(new Event('ng:auth'));
 }
 export async function nicknameFree(nick) {
   const c = await db();

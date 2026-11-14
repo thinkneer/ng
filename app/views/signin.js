@@ -1,6 +1,6 @@
 // Sign-in and Request access. Shown full-screen to anyone without an approved session.
 import { html, raw, icon, esc, toast, haptic } from '../ui.js';
-import { signIn, buildRequest, requestCode, nicknameTaken, NICK_RE, isDbMode, sendEmailCode, verifyEmailCode, nicknameFree, signOut } from '../auth.js';
+import { signIn, buildRequest, requestCode, nicknameTaken, NICK_RE, isDbMode, signUpPassword, signInPassword, resetPassword, setNewPassword, nicknameFree, signOut } from '../auth.js';
 import { errText } from '../db.js';
 import { randomQuote } from '../quotes.js';
 import { data } from '../data.js';
@@ -121,90 +121,117 @@ export async function request(route) {
 
 
 /* ======================================================================
-   Database mode: sign in with email. One form: email (+ nickname the first time) → we email a 6-digit
-   code and a link; either works. Nothing but the nickname is ever shown in the app.
+   Database mode: email + password. Join = nickname + email + password (the admin approves by hand);
+   Sign in = email + password. Nothing but the nickname is ever shown in the app.
    ====================================================================== */
 const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/;
 async function emailSignin(route) {
-  const next = route?.next && !/^#\/(signin|request|login|access|awaiting)/.test(route.next) ? route.next : '#/today';
+  const next = route?.next && !/^#\/(signin|request|login|access|awaiting|reset)/.test(route.next) ? route.next : '#/today';
   const signup = !!route?.signup;
   let q = randomQuote();
   const idx = await data.index();
   const liveOpts = idx.classes.filter((c) => c.status === 'live').flatMap((c) => c.streams.filter((st) => st.status === 'live').map((st) => ({ value: `${c.id}|${st.id}`, label: `${c.name}${st.id !== 'general' ? ' ' + st.name : ''}` })));
   const remembered = store.get('signin.email', '');
+  const notice = store.get('signin.notice', '');
   return {
     title: signup ? 'Join' : 'Sign in', tab: 'today', fullscreen: true,
     html: shell(html`
       <button class="auth__quote" type="button" id="quote" title="Tap for another line"><span class="auth__qmark" aria-hidden="true">“</span><span id="quote-text">${q}</span></button>
       <form class="card auth__card" id="em" novalidate>
         <h1 class="t-title2">${signup ? 'Join ng' : 'Welcome back'}</h1>
-        <p class="t-2 t-subhead mb-4">${signup ? 'Pick a nickname. We email you a 6-digit code; the admin then approves you by hand.' : 'We email you a 6-digit code — no password to remember.'}</p>
+        <p class="t-2 t-subhead mb-4">${signup ? 'Pick a nickname and a password. The admin approves every member by hand.' : 'Sign in with your email and password.'}</p>
+        ${notice && !signup ? html`<div class="notice mb-4">${raw(icon('info'))}<div>${notice}</div></div>` : ''}
         ${signup ? html`<label for="e-nick">Nickname</label><input id="e-nick" autocomplete="username" autocapitalize="none" spellcheck="false" placeholder="3–20 letters, digits or _">` : ''}
         <label for="e-mail" class="${signup ? 'mt-4' : ''}">Email</label>
         <input id="e-mail" type="email" inputmode="email" autocomplete="email" autocapitalize="none" spellcheck="false" value="${remembered}">
+        <label for="e-pass" class="mt-4">Password</label>
+        <div class="auth__pass"><input id="e-pass" type="password" autocomplete="${signup ? 'new-password' : 'current-password'}" placeholder="${signup ? 'At least 8 characters' : ''}"><button class="icon-btn" type="button" id="peek" aria-label="Show password">${raw(icon('eye'))}</button></div>
         ${signup && liveOpts.length > 1 ? html`<label for="e-class" class="mt-4">Class</label><select id="e-class">${raw(liveOpts.map((o) => `<option value="${o.value}">${esc(o.label)}</option>`).join(''))}</select>` : ''}
         <p class="auth__err" id="e-err" role="alert" hidden></p>
-        <button class="btn btn--block mt-4" type="submit" id="e-go">${signup ? 'Email me a code' : 'Email me a code'}</button>
-        <div class="auth__foot">${signup ? html`Already a member? <a href="#/signin">Sign in</a>` : html`New here? <a href="#/request">Join with a nickname</a>`}</div>
+        <button class="btn btn--block mt-4" type="submit" id="e-go">${signup ? 'Create my account' : 'Sign in'}</button>
+        <div class="auth__foot">${signup ? html`Already a member? <a href="#/signin">Sign in</a>` : html`New here? <a href="#/request">Join with a nickname</a> · <button class="btn btn--ghost btn--sm" type="button" id="e-forgot">Forgot password</button>`}</div>
       </form>
-      <form class="card auth__card" id="code" novalidate hidden>
-        <h1 class="t-title2">Check your email</h1>
-        <p class="t-2 t-subhead mt-2">We sent a 6-digit code to <strong id="code-mail"></strong>. Type it here, or tap the link in the email.</p>
-        <label for="e-code" class="mt-4">Code</label>
-        <input id="e-code" inputmode="numeric" autocomplete="one-time-code" pattern="[0-9]*" maxlength="8" placeholder="123456" style="letter-spacing:.3em;font-size:1.4rem;text-align:center">
-        <p class="auth__err" id="c-err" role="alert" hidden></p>
-        <button class="btn btn--block mt-4" type="submit" id="c-go">Continue</button>
-        <div class="auth__foot"><button class="btn btn--ghost btn--sm" type="button" id="c-back">Use another email</button> <button class="btn btn--ghost btn--sm" type="button" id="c-again">Send again</button></div>
-      </form>
-      <p class="auth__small">Your email is used only to sign you in; it is never shown to anyone in the app. Use a nickname, not your real name.</p>`),
+      <div class="card auth__card center" id="e-done" hidden>
+        <div class="auth__wait">${raw(icon('message'))}</div>
+        <h1 class="t-title2" id="d-title">Check your email</h1>
+        <p class="t-2 t-subhead mt-2" id="d-text"></p>
+        <div class="auth__foot"><a href="#/signin">Back to sign in</a></div>
+      </div>
+      <p class="auth__small">Your email is used only to sign you in; it is never shown to anyone in the app. Use a nickname, not your real name. One phone at a time: signing in elsewhere signs this one out.</p>`),
     mount(el) {
       const f = el.querySelector('#em'), err = el.querySelector('#e-err'), go = el.querySelector('#e-go');
-      const cf = el.querySelector('#code'), cerr = el.querySelector('#c-err'), cgo = el.querySelector('#c-go');
       el.querySelector('#quote').addEventListener('click', () => { q = randomQuote(q); const t = el.querySelector('#quote-text'); t.style.opacity = 0; setTimeout(() => { t.textContent = q; t.style.opacity = 1; }, 150); });
-      const fail = (box, m) => { box.textContent = m; box.hidden = false; haptic('medium'); };
-      let email = '', meta = null;
-      const send = async () => {
-        go.disabled = true; go.textContent = 'Sending…'; err.hidden = true;
-        try {
-          await sendEmailCode(email, meta || {});
-          store.set('signin.email', email);
-          el.querySelector('#code-mail').textContent = email;
-          f.hidden = true; cf.hidden = false; haptic('success');
-          setTimeout(() => el.querySelector('#e-code')?.focus({ preventScroll: true }), 50);
-        } catch (ex) { fail(err, navigator.onLine ? errText(ex) : 'You’re offline. Connect once to sign in.'); }
-        finally { go.disabled = false; go.textContent = 'Email me a code'; }
-      };
+      el.querySelector('#peek').addEventListener('click', () => { const p = el.querySelector('#e-pass'); p.type = p.type === 'password' ? 'text' : 'password'; });
+      const fail = (m) => { err.textContent = m; err.hidden = false; haptic('medium'); };
+      const done = (title, text) => { el.querySelector('#d-title').textContent = title; el.querySelector('#d-text').textContent = text; f.hidden = true; el.querySelector('#e-done').hidden = false; };
+      const busy = (on, label) => { go.disabled = on; go.textContent = on ? 'Please wait…' : label; };
+      const label = signup ? 'Create my account' : 'Sign in';
       f.addEventListener('submit', async (e) => {
         e.preventDefault(); err.hidden = true;
-        email = el.querySelector('#e-mail').value.trim().toLowerCase();
-        if (!EMAIL_RE.test(email)) return fail(err, 'Enter a valid email address.');
-        if (signup) {
-          const nickname = el.querySelector('#e-nick').value.trim();
-          if (!NICK_RE.test(nickname)) return fail(err, 'Nickname: 3–20 letters, digits or _ (no spaces).');
-          go.disabled = true; go.textContent = 'Checking…';
-          try { if (!(await nicknameFree(nickname))) { go.disabled = false; go.textContent = 'Email me a code'; return fail(err, 'That nickname is taken. Try another.'); } }
-          catch (ex) { go.disabled = false; go.textContent = 'Email me a code'; return fail(err, errText(ex)); }
-          const [cls, stream] = (el.querySelector('#e-class')?.value || liveOpts[0]?.value || '12|science').split('|');
-          meta = { nickname, cls, stream };
-        }
-        await send();
-      });
-      cf.addEventListener('submit', async (e) => {
-        e.preventDefault(); cerr.hidden = true;
-        const code = el.querySelector('#e-code').value.replace(/\D/g, '');
-        if (code.length < 6) return fail(cerr, 'Type the 6-digit code from the email.');
-        cgo.disabled = true; cgo.textContent = 'Checking…';
+        const email = el.querySelector('#e-mail').value.trim().toLowerCase(), pass = el.querySelector('#e-pass').value;
+        if (!EMAIL_RE.test(email)) return fail('Enter a valid email address.');
+        if (pass.length < 8) return fail(signup ? 'Password: at least 8 characters.' : 'Enter your password (at least 8 characters).');
+        busy(true, label);
         try {
-          const s = await verifyEmailCode(email, code);
-          haptic('success');
-          if (s?.pending) location.hash = '#/awaiting';
-          else { toast(`Signed in as ${s.nickname}`); location.hash = next; }
-        } catch (ex) { fail(cerr, /expired|invalid/i.test(ex.message) ? 'That code is wrong or has expired. Send again and use the newest one.' : errText(ex)); }
-        finally { cgo.disabled = false; cgo.textContent = 'Continue'; }
+          if (signup) {
+            const nickname = el.querySelector('#e-nick').value.trim();
+            if (!NICK_RE.test(nickname)) { busy(false, label); return fail('Nickname: 3–20 letters, digits or _ (no spaces).'); }
+            if (!(await nicknameFree(nickname))) { busy(false, label); return fail('That nickname is taken. Try another.'); }
+            const [cls, stream] = (el.querySelector('#e-class')?.value || liveOpts[0]?.value || '12|science').split('|');
+            store.set('signin.email', email);
+            const s = await signUpPassword({ email, pass, nickname, cls, stream });
+            if (s?.confirm) { done('Confirm your email', 'We sent you a confirmation link. Tap it, then come back and sign in.'); return; }
+            haptic('success'); location.hash = s?.pending ? '#/awaiting' : next;
+          } else {
+            store.set('signin.email', email);
+            const s = await signInPassword(email, pass);
+            haptic('success');
+            if (!s) return fail('Signed in, but your member profile could not be loaded. Try again in a moment.');
+            if (s.pending) location.hash = '#/awaiting'; else { toast(`Signed in as ${s.nickname}`); location.hash = next; }
+          }
+        } catch (ex) {
+          const m = ex?.message || '';
+          fail(/invalid login/i.test(m) ? 'Email or password is wrong.' : /already registered/i.test(m) ? 'That email already has an account. Sign in instead.' : /not confirmed/i.test(m) ? 'Confirm your email first (check your inbox), then sign in.' : errText(ex));
+        } finally { busy(false, label); }
       });
-      el.querySelector('#c-back').addEventListener('click', () => { cf.hidden = true; f.hidden = false; });
-      el.querySelector('#c-again').addEventListener('click', () => { cf.hidden = true; f.hidden = false; send(); });
-      setTimeout(() => el.querySelector(signup ? '#e-nick' : '#e-mail')?.focus({ preventScroll: true }), 50);
+      el.querySelector('#e-forgot')?.addEventListener('click', async () => {
+        err.hidden = true;
+        const email = el.querySelector('#e-mail').value.trim().toLowerCase();
+        if (!EMAIL_RE.test(email)) return fail('Type your email above first, then tap Forgot password.');
+        try { await resetPassword(email); done('Check your email', 'We sent a link to set a new password. Open it on this phone, choose a new password, then sign in.'); }
+        catch (ex) { fail(errText(ex)); }
+      });
+      setTimeout(() => el.querySelector(signup ? '#e-nick' : (remembered ? '#e-pass' : '#e-mail'))?.focus({ preventScroll: true }), 50);
+    },
+  };
+}
+
+/** #/reset — arrived from the password-reset email: choose a new password. */
+export async function reset() {
+  return {
+    title: 'New password', tab: 'today', fullscreen: true,
+    html: shell(html`
+      <form class="card auth__card" id="rs" novalidate>
+        <h1 class="t-title2">Choose a new password</h1>
+        <label for="r-pass" class="mt-4">New password</label>
+        <input id="r-pass" type="password" autocomplete="new-password" placeholder="At least 8 characters">
+        <label for="r-pass2" class="mt-4">Again</label>
+        <input id="r-pass2" type="password" autocomplete="new-password">
+        <p class="auth__err" id="r-err" role="alert" hidden></p>
+        <button class="btn btn--block mt-4" type="submit" id="r-go">Save and sign in</button>
+        <div class="auth__foot"><a href="#/signin">Back to sign in</a></div>
+      </form>`),
+    mount(el) {
+      const f = el.querySelector('#rs'), err = el.querySelector('#r-err'), go = el.querySelector('#r-go');
+      f.addEventListener('submit', async (e) => {
+        e.preventDefault(); err.hidden = true;
+        const a = el.querySelector('#r-pass').value, b = el.querySelector('#r-pass2').value;
+        if (a.length < 8) { err.textContent = 'At least 8 characters.'; err.hidden = false; return; }
+        if (a !== b) { err.textContent = 'The two passwords don’t match.'; err.hidden = false; return; }
+        go.disabled = true;
+        try { await setNewPassword(a); toast('Password saved'); location.hash = '#/today'; }
+        catch (ex) { err.textContent = /session|auth/i.test(ex.message) ? 'This link has expired or was opened in a different browser. Ask for a new one from Sign in → Forgot password.' : errText(ex); err.hidden = false; go.disabled = false; }
+      });
     },
   };
 }
