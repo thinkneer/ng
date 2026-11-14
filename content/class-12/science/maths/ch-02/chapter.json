@@ -1,0 +1,16 @@
+{
+  "$schema": "../../../../../schemas/chapter.schema.json",
+  "id": "ch-02",
+  "number": 2,
+  "title": "Inverse Trigonometric Functions",
+  "unit": "I",
+  "marks_hint": "about 3 marks in the 2026–27 sample paper (Unit I: 8)",
+  "summary": "Principal value branches · domain and range · principal values · simplification by substitution",
+  "status": {
+    "notes": "ready",
+    "mustknow": "ready",
+    "formulas": "ready",
+    "questions": "ready"
+  },
+  "updated": "2026-11-14"
+}

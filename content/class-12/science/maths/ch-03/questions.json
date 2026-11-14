@@ -1,0 +1,298 @@
+[
+ {
+  "id": "maths-ch-03-q01",
+  "chapter": "ch-03",
+  "type": "mcq",
+  "marks": 1,
+  "stars": 3,
+  "label": "PYQ-style",
+  "stem": "If $A$ is a matrix of order $3\\times4$ and $B$ is a matrix of order $4\\times2$, then the order of $AB$ is",
+  "options": [
+   "$4\\times4$",
+   "$3\\times2$",
+   "$2\\times3$",
+   "not defined"
+  ],
+  "answer": "B",
+  "model_answer": "**(B)** Columns of $A$ (4) = rows of $B$ (4), so $AB$ is defined and has order $3\\times2$.",
+  "topic": "Matrix multiplication",
+  "hint": "Rows of the first, columns of the second."
+ },
+ {
+  "id": "maths-ch-03-q02",
+  "chapter": "ch-03",
+  "type": "mcq",
+  "marks": 1,
+  "stars": 2,
+  "label": "NCERT-based",
+  "stem": "The number of all possible orders of a matrix having 18 elements is",
+  "options": [
+   "3",
+   "4",
+   "5",
+   "6"
+  ],
+  "answer": "D",
+  "model_answer": "**(D)** $1\\times18$, $2\\times9$, $3\\times6$, $6\\times3$, $9\\times2$, $18\\times1$: six orders.",
+  "topic": "Order of a matrix",
+  "hint": "List the factor pairs of 18, in both orders."
+ },
+ {
+  "id": "maths-ch-03-q03",
+  "chapter": "ch-03",
+  "type": "mcq",
+  "marks": 1,
+  "stars": 3,
+  "label": "NCERT-based",
+  "stem": "If $A$ is a square matrix such that $A^2=A$, then $(I+A)^3-7A$ is equal to",
+  "options": [
+   "$A$",
+   "$I-A$",
+   "$I$",
+   "$3A$"
+  ],
+  "answer": "C",
+  "model_answer": "**(C)** $(I+A)^3=I+3A+3A^2+A^3=I+3A+3A+A=I+7A$, so $(I+A)^3-7A=I$.",
+  "topic": "Matrix polynomial",
+  "hint": "Expand $(I+A)^3$ and use $A^2=A$, $A^3=A$."
+ },
+ {
+  "id": "maths-ch-03-q04",
+  "chapter": "ch-03",
+  "type": "mcq",
+  "marks": 1,
+  "stars": 2,
+  "label": "NCERT-based",
+  "stem": "If $A=\\begin{bmatrix}\\cos\\alpha&-\\sin\\alpha\\\\\\sin\\alpha&\\cos\\alpha\\end{bmatrix}$ and $A+A'=I$, then the value of $\\alpha$ is",
+  "options": [
+   "$\\dfrac\\pi6$",
+   "$\\dfrac\\pi3$",
+   "$\\pi$",
+   "$\\dfrac{3\\pi}{2}$"
+  ],
+  "answer": "B",
+  "model_answer": "**(B)** $A+A'=\\begin{bmatrix}2\\cos\\alpha&0\\\\0&2\\cos\\alpha\\end{bmatrix}=I\\Rightarrow\\cos\\alpha=\\dfrac12\\Rightarrow\\alpha=\\dfrac\\pi3$.",
+  "topic": "Transpose",
+  "hint": "Add $A$ and its transpose; the off-diagonal entries cancel."
+ },
+ {
+  "id": "maths-ch-03-q05",
+  "chapter": "ch-03",
+  "type": "ar",
+  "marks": 1,
+  "stars": 3,
+  "label": "PYQ-style",
+  "stem": "**Assertion (A):** For all square matrices $A$ and $B$ of the same order, $(A+B)^2=A^2+2AB+B^2$.<br>**Reason (R):** Matrix multiplication is not commutative in general.",
+  "options": [
+   "Both A and R are true, and R is the correct explanation of A.",
+   "Both A and R are true, but R is not the correct explanation of A.",
+   "A is true, but R is false.",
+   "A is false, but R is true."
+  ],
+  "answer": "D",
+  "model_answer": "**(D)** $(A+B)^2=A^2+AB+BA+B^2$, which equals $A^2+2AB+B^2$ only when $AB=BA$. A is false; R is true.",
+  "topic": "Matrix multiplication",
+  "hint": "Expand $(A+B)(A+B)$ without swapping any product."
+ },
+ {
+  "id": "maths-ch-03-q06",
+  "chapter": "ch-03",
+  "type": "ar",
+  "marks": 1,
+  "stars": 2,
+  "label": "PYQ-style",
+  "stem": "**Assertion (A):** For any square matrix $A$, the matrix $A+A'$ is symmetric.<br>**Reason (R):** $(A+B)'=A'+B'$ and $(A')'=A$.",
+  "options": [
+   "Both A and R are true, and R is the correct explanation of A.",
+   "Both A and R are true, but R is not the correct explanation of A.",
+   "A is true, but R is false.",
+   "A is false, but R is true."
+  ],
+  "answer": "A",
+  "model_answer": "**(A)** $(A+A')'=A'+(A')'=A'+A=A+A'$, so $A+A'$ is symmetric. R gives exactly the two rules used.",
+  "topic": "Symmetric matrices"
+ },
+ {
+  "id": "maths-ch-03-q07",
+  "chapter": "ch-03",
+  "type": "vsa2",
+  "marks": 2,
+  "stars": 2,
+  "label": "NCERT-based",
+  "stem": "Find $x$ and $y$ if $2\\begin{bmatrix}1&3\\\\0&x\\end{bmatrix}+\\begin{bmatrix}y&0\\\\1&2\\end{bmatrix}=\\begin{bmatrix}5&6\\\\1&8\\end{bmatrix}$.",
+  "model_answer": "Left side $=\\begin{bmatrix}2+y&6\\\\1&2x+2\\end{bmatrix}$ [1]<br>\nEquating corresponding elements: $2+y=5$ and $2x+2=8$, so $x=3$, $y=3$ [1]",
+  "scheme": [
+   {
+    "step": "Left side $=\\begin{bmatrix}2+y&6\\\\1&2x+2\\end{bmatrix}$",
+    "marks": 1
+   },
+   {
+    "step": "Equating corresponding elements: $2+y=5$ and $2x+2=8$, so $x=3$, $y=3$",
+    "marks": 1
+   }
+  ],
+  "topic": "Equality of matrices",
+  "hint": "Simplify the left side to one matrix, then compare entries."
+ },
+ {
+  "id": "maths-ch-03-q08",
+  "chapter": "ch-03",
+  "type": "vsa2",
+  "marks": 2,
+  "stars": 3,
+  "label": "NCERT-based",
+  "stem": "If $A$ and $B$ are symmetric matrices of the same order, show that $AB-BA$ is a skew-symmetric matrix.",
+  "model_answer": "$(AB-BA)'=(AB)'-(BA)'=B'A'-A'B'$ [1]<br>\n$=BA-AB$ (as $A'=A$, $B'=B$) $=-(AB-BA)$, so $AB-BA$ is skew-symmetric [1]",
+  "scheme": [
+   {
+    "step": "$(AB-BA)'=(AB)'-(BA)'=B'A'-A'B'$",
+    "marks": 1
+   },
+   {
+    "step": "$=BA-AB$ (as $A'=A$, $B'=B$) $=-(AB-BA)$, so $AB-BA$ is skew-symmetric",
+    "marks": 1
+   }
+  ],
+  "topic": "Transpose proofs",
+  "hint": "Use $(AB)'=B'A'$."
+ },
+ {
+  "id": "maths-ch-03-q09",
+  "chapter": "ch-03",
+  "type": "sa3",
+  "marks": 3,
+  "stars": 2,
+  "label": "NCERT-based",
+  "stem": "Express the matrix $A=\\begin{bmatrix}2&-2&-4\\\\-1&3&4\\\\1&-2&-3\\end{bmatrix}$ as the sum of a symmetric and a skew-symmetric matrix.",
+  "model_answer": "$A'=\\begin{bmatrix}2&-1&1\\\\-2&3&-2\\\\-4&4&-3\\end{bmatrix}$ [½]<br>\n$P=\\dfrac12(A+A')=\\begin{bmatrix}2&-\\frac32&-\\frac32\\\\-\\frac32&3&1\\\\-\\frac32&1&-3\\end{bmatrix}$, and $P'=P$, so $P$ is symmetric [1]<br>\n$Q=\\dfrac12(A-A')=\\begin{bmatrix}0&-\\frac12&-\\frac52\\\\\\frac12&0&3\\\\\\frac52&-3&0\\end{bmatrix}$, and $Q'=-Q$, so $Q$ is skew-symmetric [1]<br>\n$P+Q=A$, which is the required expression [½]",
+  "scheme": [
+   {
+    "step": "$A'=\\begin{bmatrix}2&-1&1\\\\-2&3&-2\\\\-4&4&-3\\end{bmatrix}$",
+    "marks": 0.5
+   },
+   {
+    "step": "$P=\\dfrac12(A+A')=\\begin{bmatrix}2&-\\frac32&-\\frac32\\\\-\\frac32&3&1\\\\-\\frac32&1&-3\\end{bmatrix}$, and $P'=P$, so $P$ is symmetric",
+    "marks": 1
+   },
+   {
+    "step": "$Q=\\dfrac12(A-A')=\\begin{bmatrix}0&-\\frac12&-\\frac52\\\\\\frac12&0&3\\\\\\frac52&-3&0\\end{bmatrix}$, and $Q'=-Q$, so $Q$ is skew-symmetric",
+    "marks": 1
+   },
+   {
+    "step": "$P+Q=A$, which is the required expression",
+    "marks": 0.5
+   }
+  ],
+  "topic": "Symmetric and skew-symmetric matrices",
+  "hint": "$P=\\frac12(A+A')$ and $Q=\\frac12(A-A')$. The diagonal of $Q$ must be zero."
+ },
+ {
+  "id": "maths-ch-03-q10",
+  "chapter": "ch-03",
+  "type": "sa3",
+  "marks": 3,
+  "stars": 3,
+  "label": "NCERT-based",
+  "stem": "If $A=\\begin{bmatrix}2&3\\\\-1&2\\end{bmatrix}$, show that $A^2-4A+7I=O$. Hence find $A^{-1}$.",
+  "model_answer": "$A^2=\\begin{bmatrix}2&3\\\\-1&2\\end{bmatrix}\\begin{bmatrix}2&3\\\\-1&2\\end{bmatrix}=\\begin{bmatrix}1&12\\\\-4&1\\end{bmatrix}$ [1]<br>\n$A^2-4A+7I=\\begin{bmatrix}1&12\\\\-4&1\\end{bmatrix}-\\begin{bmatrix}8&12\\\\-4&8\\end{bmatrix}+\\begin{bmatrix}7&0\\\\0&7\\end{bmatrix}=\\begin{bmatrix}0&0\\\\0&0\\end{bmatrix}=O$ [1]<br>\nMultiplying by $A^{-1}$: $A-4I+7A^{-1}=O$, so $A^{-1}=\\dfrac17(4I-A)=\\dfrac17\\begin{bmatrix}2&-3\\\\1&2\\end{bmatrix}$ [1]",
+  "scheme": [
+   {
+    "step": "$A^2=\\begin{bmatrix}2&3\\\\-1&2\\end{bmatrix}\\begin{bmatrix}2&3\\\\-1&2\\end{bmatrix}=\\begin{bmatrix}1&12\\\\-4&1\\end{bmatrix}$",
+    "marks": 1
+   },
+   {
+    "step": "$A^2-4A+7I=\\begin{bmatrix}1&12\\\\-4&1\\end{bmatrix}-\\begin{bmatrix}8&12\\\\-4&8\\end{bmatrix}+\\begin{bmatrix}7&0\\\\0&7\\end{bmatrix}=\\begin{bmatrix}0&0\\\\0&0\\end{bmatrix}=O$",
+    "marks": 1
+   },
+   {
+    "step": "Multiplying by $A^{-1}$: $A-4I+7A^{-1}=O$, so $A^{-1}=\\dfrac17(4I-A)=\\dfrac17\\begin{bmatrix}2&-3\\\\1&2\\end{bmatrix}$",
+    "marks": 1
+   }
+  ],
+  "topic": "Matrix polynomial and inverse",
+  "hint": "After proving the relation, multiply every term by $A^{-1}$."
+ },
+ {
+  "id": "maths-ch-03-q11",
+  "chapter": "ch-03",
+  "type": "la5",
+  "marks": 5,
+  "stars": 3,
+  "label": "NCERT-based",
+  "stem": "If $A=\\begin{bmatrix}1&2&2\\\\2&1&2\\\\2&2&1\\end{bmatrix}$, prove that $A^2-4A-5I=O$. Hence find $A^{-1}$.",
+  "model_answer": "$A^2=\\begin{bmatrix}1&2&2\\\\2&1&2\\\\2&2&1\\end{bmatrix}\\begin{bmatrix}1&2&2\\\\2&1&2\\\\2&2&1\\end{bmatrix}=\\begin{bmatrix}9&8&8\\\\8&9&8\\\\8&8&9\\end{bmatrix}$ [2]<br>\n$A^2-4A-5I=\\begin{bmatrix}9&8&8\\\\8&9&8\\\\8&8&9\\end{bmatrix}-\\begin{bmatrix}4&8&8\\\\8&4&8\\\\8&8&4\\end{bmatrix}-\\begin{bmatrix}5&0&0\\\\0&5&0\\\\0&0&5\\end{bmatrix}=O$ [1]<br>\nMultiplying by $A^{-1}$: $A-4I-5A^{-1}=O$, so $A^{-1}=\\dfrac15(A-4I)$ [1]<br>\n$A^{-1}=\\dfrac15\\begin{bmatrix}-3&2&2\\\\2&-3&2\\\\2&2&-3\\end{bmatrix}$ [1]",
+  "scheme": [
+   {
+    "step": "$A^2=\\begin{bmatrix}1&2&2\\\\2&1&2\\\\2&2&1\\end{bmatrix}\\begin{bmatrix}1&2&2\\\\2&1&2\\\\2&2&1\\end{bmatrix}=\\begin{bmatrix}9&8&8\\\\8&9&8\\\\8&8&9\\end{bmatrix}$",
+    "marks": 2
+   },
+   {
+    "step": "$A^2-4A-5I=\\begin{bmatrix}9&8&8\\\\8&9&8\\\\8&8&9\\end{bmatrix}-\\begin{bmatrix}4&8&8\\\\8&4&8\\\\8&8&4\\end{bmatrix}-\\begin{bmatrix}5&0&0\\\\0&5&0\\\\0&0&5\\end{bmatrix}=O$",
+    "marks": 1
+   },
+   {
+    "step": "Multiplying by $A^{-1}$: $A-4I-5A^{-1}=O$, so $A^{-1}=\\dfrac15(A-4I)$",
+    "marks": 1
+   },
+   {
+    "step": "$A^{-1}=\\dfrac15\\begin{bmatrix}-3&2&2\\\\2&-3&2\\\\2&2&-3\\end{bmatrix}$",
+    "marks": 1
+   }
+  ],
+  "topic": "Matrix polynomial and inverse",
+  "hint": "Each diagonal entry of $A^2$ is $1+4+4$; each off-diagonal entry is $2+2+4$."
+ },
+ {
+  "id": "maths-ch-03-q12",
+  "chapter": "ch-03",
+  "type": "case",
+  "marks": 4,
+  "stars": 2,
+  "label": "PYQ-style",
+  "stem": "**Stationery sales.** Two shops, P and Q, sell notebooks, pens and geometry boxes. In one day shop P sold 20 notebooks, 30 pens and 10 geometry boxes; shop Q sold 15, 25 and 20 respectively. The selling prices are ₹40 per notebook, ₹10 per pen and ₹100 per geometry box. The sales are recorded as the quantity matrix $S=\\begin{bmatrix}20&30&10\\\\15&25&20\\end{bmatrix}$ and the prices as the column matrix $C=\\begin{bmatrix}40\\\\10\\\\100\\end{bmatrix}$.",
+  "parts": [
+   {
+    "id": "i",
+    "stem": "Write the orders of $S$ and $C$, and the order of the product $SC$.",
+    "marks": 1,
+    "model_answer": "$S$ is $2\\times3$ and $C$ is $3\\times1$, so $SC$ is $2\\times1$ [1]",
+    "scheme": [
+     {
+      "step": "$S$ is $2\\times3$ and $C$ is $3\\times1$, so $SC$ is $2\\times1$",
+      "marks": 1
+     }
+    ]
+   },
+   {
+    "id": "ii",
+    "stem": "Find the revenue of shop P for the day.",
+    "marks": 1,
+    "model_answer": "$20(40)+30(10)+10(100)=800+300+1000=$ ₹2100 [1]",
+    "scheme": [
+     {
+      "step": "$20(40)+30(10)+10(100)=800+300+1000=$ ₹2100",
+      "marks": 1
+     }
+    ]
+   },
+   {
+    "id": "iii",
+    "stem": "Find the matrix $SC$ and the total revenue of the two shops.<br>**OR** The cost prices are ₹30, ₹7 and ₹80 respectively. Find the profit of each shop for the day.",
+    "marks": 2,
+    "model_answer": "$SC=\\begin{bmatrix}20(40)+30(10)+10(100)\\\\15(40)+25(10)+20(100)\\end{bmatrix}=\\begin{bmatrix}2100\\\\2850\\end{bmatrix}$ [1]<br>\nTotal revenue $=2100+2850=$ ₹4950 [1]<br>\n**OR:** cost matrix $=\\begin{bmatrix}20(30)+30(7)+10(80)\\\\15(30)+25(7)+20(80)\\end{bmatrix}=\\begin{bmatrix}1610\\\\2225\\end{bmatrix}$ [1]; profit $=\\begin{bmatrix}2100\\\\2850\\end{bmatrix}-\\begin{bmatrix}1610\\\\2225\\end{bmatrix}=\\begin{bmatrix}490\\\\625\\end{bmatrix}$, i.e. ₹490 for P and ₹625 for Q [1].",
+    "scheme": [
+     {
+      "step": "$SC=\\begin{bmatrix}20(40)+30(10)+10(100)\\\\15(40)+25(10)+20(100)\\end{bmatrix}=\\begin{bmatrix}2100\\\\2850\\end{bmatrix}$",
+      "marks": 1
+     },
+     {
+      "step": "Total revenue $=2100+2850=$ ₹4950",
+      "marks": 1
+     }
+    ]
+   }
+  ],
+  "topic": "Matrix multiplication in a real situation",
+  "hint": "Each row of $S$ times the price column gives one shop's revenue."
+ }
+]

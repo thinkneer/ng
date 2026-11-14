@@ -1,0 +1,310 @@
+[
+ {
+  "id": "maths-ch-04-q01",
+  "chapter": "ch-04",
+  "type": "mcq",
+  "marks": 1,
+  "stars": 3,
+  "label": "PYQ-style",
+  "stem": "If $A$ is a square matrix of order 3 and $|A|=5$, then $|\\operatorname{adj}A|$ is",
+  "options": [
+   "$5$",
+   "$25$",
+   "$125$",
+   "$\\dfrac15$"
+  ],
+  "answer": "B",
+  "model_answer": "**(B)** $|\\operatorname{adj}A|=|A|^{n-1}=5^2=25$.",
+  "topic": "Adjoint",
+  "hint": "$|\\operatorname{adj}A|=|A|^{n-1}$ with $n=3$."
+ },
+ {
+  "id": "maths-ch-04-q02",
+  "chapter": "ch-04",
+  "type": "mcq",
+  "marks": 1,
+  "stars": 3,
+  "label": "PYQ-style",
+  "stem": "If $A$ is a square matrix of order 3 and $|A|=4$, then $|2A|$ is",
+  "options": [
+   "$8$",
+   "$16$",
+   "$32$",
+   "$64$"
+  ],
+  "answer": "C",
+  "model_answer": "**(C)** $|kA|=k^n|A|$, so $|2A|=2^3\\times4=32$.",
+  "topic": "Determinant of kA",
+  "hint": "Each of the three rows contributes a factor 2."
+ },
+ {
+  "id": "maths-ch-04-q03",
+  "chapter": "ch-04",
+  "type": "mcq",
+  "marks": 1,
+  "stars": 2,
+  "label": "NCERT-based",
+  "stem": "If $\\begin{vmatrix}x&2\\\\18&x\\end{vmatrix}=\\begin{vmatrix}6&2\\\\18&6\\end{vmatrix}$, then $x$ is equal to",
+  "options": [
+   "$6$",
+   "$\\pm6$",
+   "$-6$",
+   "$0$"
+  ],
+  "answer": "B",
+  "model_answer": "**(B)** $x^2-36=36-36=0\\Rightarrow x=\\pm6$.",
+  "topic": "Evaluating a determinant",
+  "hint": "Expand both sides."
+ },
+ {
+  "id": "maths-ch-04-q04",
+  "chapter": "ch-04",
+  "type": "mcq",
+  "marks": 1,
+  "stars": 2,
+  "label": "PYQ-style",
+  "stem": "If $A$ is a square matrix of order 3 such that $A(\\operatorname{adj}A)=10I$, then $|\\operatorname{adj}A|$ is equal to",
+  "options": [
+   "$10$",
+   "$1$",
+   "$1000$",
+   "$100$"
+  ],
+  "answer": "D",
+  "model_answer": "**(D)** $A(\\operatorname{adj}A)=|A|I$ gives $|A|=10$, so $|\\operatorname{adj}A|=|A|^2=100$.",
+  "topic": "Adjoint",
+  "hint": "Compare with $A(\\operatorname{adj}A)=|A|\\,I$."
+ },
+ {
+  "id": "maths-ch-04-q05",
+  "chapter": "ch-04",
+  "type": "ar",
+  "marks": 1,
+  "stars": 2,
+  "label": "PYQ-style",
+  "stem": "**Assertion (A):** If $A$ is an invertible matrix of order 3, then $|A^{-1}|=\\dfrac{1}{|A|}$.<br>**Reason (R):** $|AB|=|A|\\,|B|$ and $AA^{-1}=I$.",
+  "options": [
+   "Both A and R are true, and R is the correct explanation of A.",
+   "Both A and R are true, but R is not the correct explanation of A.",
+   "A is true, but R is false.",
+   "A is false, but R is true."
+  ],
+  "answer": "A",
+  "model_answer": "**(A)** Taking determinants of $AA^{-1}=I$: $|A|\\,|A^{-1}|=1$, so $|A^{-1}|=\\dfrac{1}{|A|}$. R explains A.",
+  "topic": "Determinant of the inverse"
+ },
+ {
+  "id": "maths-ch-04-q06",
+  "chapter": "ch-04",
+  "type": "ar",
+  "marks": 1,
+  "stars": 2,
+  "label": "NCERT-based",
+  "stem": "**Assertion (A):** The area of the triangle with vertices $(1,0)$, $(6,0)$ and $(4,3)$ is $\\dfrac{15}{2}$ sq. units.<br>**Reason (R):** The area of a triangle is given by the value of the determinant formed from its vertices, and this value may be negative.",
+  "options": [
+   "Both A and R are true, and R is the correct explanation of A.",
+   "Both A and R are true, but R is not the correct explanation of A.",
+   "A is true, but R is false.",
+   "A is false, but R is true."
+  ],
+  "answer": "C",
+  "model_answer": "**(C)** $\\dfrac12\\left|\\begin{vmatrix}1&0&1\\\\6&0&1\\\\4&3&1\\end{vmatrix}\\right|=\\dfrac12|15|=\\dfrac{15}{2}$, so A is true. R is false: the area is half the *absolute value* of the determinant and is never negative.",
+  "topic": "Area of a triangle",
+  "hint": "Base 5 along the $x$-axis, height 3."
+ },
+ {
+  "id": "maths-ch-04-q07",
+  "chapter": "ch-04",
+  "type": "vsa2",
+  "marks": 2,
+  "stars": 2,
+  "label": "NCERT-based",
+  "stem": "The area of the triangle with vertices $(k,0)$, $(4,0)$ and $(0,2)$ is 4 sq. units. Find the values of $k$.",
+  "model_answer": "$\\dfrac12\\left|\\begin{vmatrix}k&0&1\\\\4&0&1\\\\0&2&1\\end{vmatrix}\\right|=4$; expanding, the determinant is $k(0-2)-0+1(8-0)=-2k+8$ [1]<br>\n$-2k+8=\\pm8\\Rightarrow k=0$ or $k=8$ [1]",
+  "scheme": [
+   {
+    "step": "$\\dfrac12\\left|\\begin{vmatrix}k&0&1\\\\4&0&1\\\\0&2&1\\end{vmatrix}\\right|=4$; expanding, the determinant is $k(0-2)-0+1(8-0)=-2k+8$",
+    "marks": 1
+   },
+   {
+    "step": "$-2k+8=\\pm8\\Rightarrow k=0$ or $k=8$",
+    "marks": 1
+   }
+  ],
+  "topic": "Area of a triangle",
+  "hint": "Area $=\\frac12|\\Delta|$, so $\\Delta=\\pm8$."
+ },
+ {
+  "id": "maths-ch-04-q08",
+  "chapter": "ch-04",
+  "type": "vsa2",
+  "marks": 2,
+  "stars": 2,
+  "label": "PYQ-style",
+  "stem": "Find the inverse of the matrix $A=\\begin{bmatrix}2&3\\\\1&-4\\end{bmatrix}$ using its adjoint.",
+  "model_answer": "$|A|=2(-4)-3(1)=-11\\ne0$, so $A^{-1}$ exists [½]<br>\n$\\operatorname{adj}A=\\begin{bmatrix}-4&-3\\\\-1&2\\end{bmatrix}$ [1]<br>\n$A^{-1}=\\dfrac{1}{|A|}\\operatorname{adj}A=\\dfrac{1}{11}\\begin{bmatrix}4&3\\\\1&-2\\end{bmatrix}$ [½]",
+  "scheme": [
+   {
+    "step": "$|A|=2(-4)-3(1)=-11\\ne0$, so $A^{-1}$ exists",
+    "marks": 0.5
+   },
+   {
+    "step": "$\\operatorname{adj}A=\\begin{bmatrix}-4&-3\\\\-1&2\\end{bmatrix}$",
+    "marks": 1
+   },
+   {
+    "step": "$A^{-1}=\\dfrac{1}{|A|}\\operatorname{adj}A=\\dfrac{1}{11}\\begin{bmatrix}4&3\\\\1&-2\\end{bmatrix}$",
+    "marks": 0.5
+   }
+  ],
+  "topic": "Inverse of a matrix",
+  "hint": "For a $2\\times2$ matrix, swap the diagonal entries and change the sign of the other two."
+ },
+ {
+  "id": "maths-ch-04-q09",
+  "chapter": "ch-04",
+  "type": "sa3",
+  "marks": 3,
+  "stars": 2,
+  "label": "NCERT-based",
+  "stem": "Using determinants, show that the points $A(a,\\,b+c)$, $B(b,\\,c+a)$ and $C(c,\\,a+b)$ are collinear.",
+  "model_answer": "The points are collinear if $\\Delta=\\begin{vmatrix}a&b+c&1\\\\b&c+a&1\\\\c&a+b&1\\end{vmatrix}=0$ [½]<br>\n$\\Delta=a[(c+a)-(a+b)]-(b+c)[b-c]+1[b(a+b)-c(c+a)]$ [1]<br>\n$=a(c-b)-(b^2-c^2)+ab+b^2-c^2-ac=ac-ab-b^2+c^2+ab+b^2-c^2-ac=0$ [1]<br>\nSince $\\Delta=0$, the area of triangle $ABC$ is zero, so the points are collinear [½]",
+  "scheme": [
+   {
+    "step": "The points are collinear if $\\Delta=\\begin{vmatrix}a&b+c&1\\\\b&c+a&1\\\\c&a+b&1\\end{vmatrix}=0$",
+    "marks": 0.5
+   },
+   {
+    "step": "$\\Delta=a[(c+a)-(a+b)]-(b+c)[b-c]+1[b(a+b)-c(c+a)]$",
+    "marks": 1
+   },
+   {
+    "step": "$=a(c-b)-(b^2-c^2)+ab+b^2-c^2-ac=ac-ab-b^2+c^2+ab+b^2-c^2-ac=0$",
+    "marks": 1
+   },
+   {
+    "step": "Since $\\Delta=0$, the area of triangle $ABC$ is zero, so the points are collinear",
+    "marks": 0.5
+   }
+  ],
+  "topic": "Collinear points",
+  "hint": "Expand the area determinant along the first row and simplify."
+ },
+ {
+  "id": "maths-ch-04-q10",
+  "chapter": "ch-04",
+  "type": "sa3",
+  "marks": 3,
+  "stars": 2,
+  "label": "NCERT-based",
+  "stem": "Find $A^{-1}$ if $A=\\begin{bmatrix}1&2&3\\\\0&2&4\\\\0&0&5\\end{bmatrix}$.",
+  "model_answer": "$|A|=1(10-0)-2(0-0)+3(0-0)=10\\ne0$, so $A^{-1}$ exists [½]<br>\nCofactors: $A_{11}=10$, $A_{12}=0$, $A_{13}=0$; $A_{21}=-10$, $A_{22}=5$, $A_{23}=0$; $A_{31}=2$, $A_{32}=-4$, $A_{33}=2$ [1½]<br>\n$\\operatorname{adj}A=\\begin{bmatrix}10&-10&2\\\\0&5&-4\\\\0&0&2\\end{bmatrix}$ [½]<br>\n$A^{-1}=\\dfrac{1}{10}\\begin{bmatrix}10&-10&2\\\\0&5&-4\\\\0&0&2\\end{bmatrix}$ [½]",
+  "scheme": [
+   {
+    "step": "$|A|=1(10-0)-2(0-0)+3(0-0)=10\\ne0$, so $A^{-1}$ exists",
+    "marks": 0.5
+   },
+   {
+    "step": "Cofactors: $A_{11}=10$, $A_{12}=0$, $A_{13}=0$; $A_{21}=-10$, $A_{22}=5$, $A_{23}=0$; $A_{31}=2$, $A_{32}=-4$, $A_{33}=2$",
+    "marks": 1.5
+   },
+   {
+    "step": "$\\operatorname{adj}A=\\begin{bmatrix}10&-10&2\\\\0&5&-4\\\\0&0&2\\end{bmatrix}$",
+    "marks": 0.5
+   },
+   {
+    "step": "$A^{-1}=\\dfrac{1}{10}\\begin{bmatrix}10&-10&2\\\\0&5&-4\\\\0&0&2\\end{bmatrix}$",
+    "marks": 0.5
+   }
+  ],
+  "topic": "Inverse of a matrix",
+  "hint": "The matrix is triangular, so $|A|$ is the product of the diagonal entries. Remember to transpose the cofactors."
+ },
+ {
+  "id": "maths-ch-04-q11",
+  "chapter": "ch-04",
+  "type": "la5",
+  "marks": 5,
+  "stars": 3,
+  "label": "NCERT-based",
+  "stem": "Solve the following system of equations by the matrix method: $x+y+z=6$, $\\;y+3z=11$, $\\;x-2y+z=0$.",
+  "model_answer": "The system is $AX=B$ with $A=\\begin{bmatrix}1&1&1\\\\0&1&3\\\\1&-2&1\\end{bmatrix}$, $X=\\begin{bmatrix}x\\\\y\\\\z\\end{bmatrix}$, $B=\\begin{bmatrix}6\\\\11\\\\0\\end{bmatrix}$ [½]<br>\n$|A|=1(1+6)-1(0-3)+1(0-1)=9\\ne0$, so $A^{-1}$ exists and the system has a unique solution [1]<br>\nCofactors: $A_{11}=7$, $A_{12}=3$, $A_{13}=-1$; $A_{21}=-3$, $A_{22}=0$, $A_{23}=3$; $A_{31}=2$, $A_{32}=-3$, $A_{33}=1$ [1½]<br>\n$\\operatorname{adj}A=\\begin{bmatrix}7&-3&2\\\\3&0&-3\\\\-1&3&1\\end{bmatrix}$, so $A^{-1}=\\dfrac19\\begin{bmatrix}7&-3&2\\\\3&0&-3\\\\-1&3&1\\end{bmatrix}$ [1]<br>\n$X=A^{-1}B=\\dfrac19\\begin{bmatrix}42-33+0\\\\18+0+0\\\\-6+33+0\\end{bmatrix}=\\dfrac19\\begin{bmatrix}9\\\\18\\\\27\\end{bmatrix}$, so $x=1$, $y=2$, $z=3$ [1]",
+  "scheme": [
+   {
+    "step": "The system is $AX=B$ with $A=\\begin{bmatrix}1&1&1\\\\0&1&3\\\\1&-2&1\\end{bmatrix}$, $X=\\begin{bmatrix}x\\\\y\\\\z\\end{bmatrix}$, $B=\\begin{bmatrix}6\\\\11\\\\0\\end{bmatrix}$",
+    "marks": 0.5
+   },
+   {
+    "step": "$|A|=1(1+6)-1(0-3)+1(0-1)=9\\ne0$, so $A^{-1}$ exists and the system has a unique solution",
+    "marks": 1
+   },
+   {
+    "step": "Cofactors: $A_{11}=7$, $A_{12}=3$, $A_{13}=-1$; $A_{21}=-3$, $A_{22}=0$, $A_{23}=3$; $A_{31}=2$, $A_{32}=-3$, $A_{33}=1$",
+    "marks": 1.5
+   },
+   {
+    "step": "$\\operatorname{adj}A=\\begin{bmatrix}7&-3&2\\\\3&0&-3\\\\-1&3&1\\end{bmatrix}$, so $A^{-1}=\\dfrac19\\begin{bmatrix}7&-3&2\\\\3&0&-3\\\\-1&3&1\\end{bmatrix}$",
+    "marks": 1
+   },
+   {
+    "step": "$X=A^{-1}B=\\dfrac19\\begin{bmatrix}42-33+0\\\\18+0+0\\\\-6+33+0\\end{bmatrix}=\\dfrac19\\begin{bmatrix}9\\\\18\\\\27\\end{bmatrix}$, so $x=1$, $y=2$, $z=3$",
+    "marks": 1
+   }
+  ],
+  "topic": "System of equations",
+  "hint": "The second equation has no $x$: its coefficient is 0. Find $|A|$, the cofactors, the adjoint, then $X=A^{-1}B$."
+ },
+ {
+  "id": "maths-ch-04-q12",
+  "chapter": "ch-04",
+  "type": "case",
+  "marks": 4,
+  "stars": 3,
+  "label": "NCERT-based",
+  "stem": "**The grocery bill.** The cost of 4 kg onion, 3 kg wheat and 2 kg rice is ₹60. The cost of 2 kg onion, 4 kg wheat and 6 kg rice is ₹90. The cost of 6 kg onion, 2 kg wheat and 3 kg rice is ₹70. Let the cost per kg of onion, wheat and rice be ₹$x$, ₹$y$ and ₹$z$.",
+  "parts": [
+   {
+    "id": "i",
+    "stem": "Write the three equations in the matrix form $AX=B$.",
+    "marks": 1,
+    "model_answer": "$\\begin{bmatrix}4&3&2\\\\2&4&6\\\\6&2&3\\end{bmatrix}\\begin{bmatrix}x\\\\y\\\\z\\end{bmatrix}=\\begin{bmatrix}60\\\\90\\\\70\\end{bmatrix}$ [1]",
+    "scheme": [
+     {
+      "step": "$\\begin{bmatrix}4&3&2\\\\2&4&6\\\\6&2&3\\end{bmatrix}\\begin{bmatrix}x\\\\y\\\\z\\end{bmatrix}=\\begin{bmatrix}60\\\\90\\\\70\\end{bmatrix}$",
+      "marks": 1
+     }
+    ]
+   },
+   {
+    "id": "ii",
+    "stem": "Find $|A|$ and say what it tells you about the system.",
+    "marks": 1,
+    "model_answer": "$|A|=4(12-12)-3(6-36)+2(4-24)=0+90-40=50\\ne0$, so the system has a unique solution [1]",
+    "scheme": [
+     {
+      "step": "$|A|=4(12-12)-3(6-36)+2(4-24)=0+90-40=50\\ne0$, so the system has a unique solution",
+      "marks": 1
+     }
+    ]
+   },
+   {
+    "id": "iii",
+    "stem": "Given that $\\operatorname{adj}A=\\begin{bmatrix}0&-5&10\\\\30&0&-20\\\\-20&10&10\\end{bmatrix}$, find the cost per kg of each item.<br>**OR** Verify the entries in the first row of $\\operatorname{adj}A$ given above by computing the cofactors $A_{11}$, $A_{21}$ and $A_{31}$.",
+    "marks": 2,
+    "model_answer": "$X=A^{-1}B=\\dfrac{1}{50}\\begin{bmatrix}0&-5&10\\\\30&0&-20\\\\-20&10&10\\end{bmatrix}\\begin{bmatrix}60\\\\90\\\\70\\end{bmatrix}=\\dfrac{1}{50}\\begin{bmatrix}250\\\\400\\\\400\\end{bmatrix}$ [1]<br>\n$x=5$, $y=8$, $z=8$: onion ₹5, wheat ₹8 and rice ₹8 per kg [1]<br>\n**OR:** the first row of $\\operatorname{adj}A$ holds $A_{11}$, $A_{21}$, $A_{31}$ (cofactors of the first column). $A_{11}=12-12=0$ and $A_{21}=-(9-4)=-5$ [1]; $A_{31}=18-8=10$, which matches $0,\\,-5,\\,10$ [1].",
+    "scheme": [
+     {
+      "step": "$X=A^{-1}B=\\dfrac{1}{50}\\begin{bmatrix}0&-5&10\\\\30&0&-20\\\\-20&10&10\\end{bmatrix}\\begin{bmatrix}60\\\\90\\\\70\\end{bmatrix}=\\dfrac{1}{50}\\begin{bmatrix}250\\\\400\\\\400\\end{bmatrix}$",
+      "marks": 1
+     },
+     {
+      "step": "$x=5$, $y=8$, $z=8$: onion ₹5, wheat ₹8 and rice ₹8 per kg",
+      "marks": 1
+     }
+    ]
+   }
+  ],
+  "topic": "System of equations in a real situation",
+  "hint": "Keep the items in the same order (onion, wheat, rice) in all three equations."
+ }
+]

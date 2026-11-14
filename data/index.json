@@ -1059,22 +1059,51 @@
                       "number": 1,
                       "title": "Relations and Functions",
                       "unit": "I",
-                      "items": {},
-                      "marks_hint": null,
-                      "summary": null,
-                      "questions": 0,
-                      "question_types": {}
+                      "items": {
+                        "notes": true,
+                        "mustknow": true,
+                        "formulas": true,
+                        "questions": true
+                      },
+                      "marks_hint": "about 5 marks in the 2026–27 sample paper (Unit I: 8)",
+                      "summary": "Reflexive, symmetric, transitive and equivalence relations · equivalence classes · one-one and onto functions · counting",
+                      "questions": 12,
+                      "question_types": {
+                        "mcq": 4,
+                        "ar": 2,
+                        "vsa2": 2,
+                        "sa3": 2,
+                        "la5": 1,
+                        "case": 1
+                      },
+                      "diagrams": [],
+                      "words": 2439,
+                      "read_minutes": 7
                     },
                     {
                       "id": "ch-02",
                       "number": 2,
                       "title": "Inverse Trigonometric Functions",
                       "unit": "I",
-                      "items": {},
-                      "marks_hint": null,
-                      "summary": null,
-                      "questions": 0,
-                      "question_types": {}
+                      "items": {
+                        "notes": true,
+                        "mustknow": true,
+                        "formulas": true,
+                        "questions": true
+                      },
+                      "marks_hint": "about 3 marks in the 2026–27 sample paper (Unit I: 8)",
+                      "summary": "Principal value branches · domain and range · principal values · simplification by substitution",
+                      "questions": 12,
+                      "question_types": {
+                        "mcq": 5,
+                        "ar": 2,
+                        "vsa2": 3,
+                        "sa3": 1,
+                        "case": 1
+                      },
+                      "diagrams": [],
+                      "words": 1979,
+                      "read_minutes": 6
                     }
                   ]
                 },
@@ -1090,22 +1119,52 @@
                       "number": 3,
                       "title": "Matrices",
                       "unit": "II",
-                      "items": {},
-                      "marks_hint": null,
-                      "summary": null,
-                      "questions": 0,
-                      "question_types": {}
+                      "items": {
+                        "notes": true,
+                        "mustknow": true,
+                        "formulas": true,
+                        "questions": true
+                      },
+                      "marks_hint": "about 9 marks in the 2026–27 sample paper (Unit II: 10)",
+                      "summary": "Order and types · operations · transpose · symmetric and skew-symmetric matrices · invertible matrices",
+                      "questions": 12,
+                      "question_types": {
+                        "mcq": 4,
+                        "ar": 2,
+                        "vsa2": 2,
+                        "sa3": 2,
+                        "la5": 1,
+                        "case": 1
+                      },
+                      "diagrams": [],
+                      "words": 1854,
+                      "read_minutes": 5
                     },
                     {
                       "id": "ch-04",
                       "number": 4,
                       "title": "Determinants",
                       "unit": "II",
-                      "items": {},
-                      "marks_hint": null,
-                      "summary": null,
-                      "questions": 0,
-                      "question_types": {}
+                      "items": {
+                        "notes": true,
+                        "mustknow": true,
+                        "formulas": true,
+                        "questions": true
+                      },
+                      "marks_hint": "1 to 6 marks; the unit's 5-marker in many years (Unit II: 10)",
+                      "summary": "Determinant · area of a triangle · minors, cofactors, adjoint · inverse · solving a system by the matrix method",
+                      "questions": 12,
+                      "question_types": {
+                        "mcq": 4,
+                        "ar": 2,
+                        "vsa2": 2,
+                        "sa3": 2,
+                        "la5": 1,
+                        "case": 1
+                      },
+                      "diagrams": [],
+                      "words": 1883,
+                      "read_minutes": 5
                     }
                   ]
                 },
@@ -1347,10 +1406,10 @@
               },
               "papers": [],
               "counts": {
-                "notes": 5,
-                "mustknow": 5,
-                "formulas": 5,
-                "questions": 5,
+                "notes": 9,
+                "mustknow": 9,
+                "formulas": 9,
+                "questions": 9,
                 "chapters": 13
               }
             },

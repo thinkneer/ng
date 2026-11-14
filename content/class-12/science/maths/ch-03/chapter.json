@@ -1,0 +1,16 @@
+{
+  "$schema": "../../../../../schemas/chapter.schema.json",
+  "id": "ch-03",
+  "number": 3,
+  "title": "Matrices",
+  "unit": "II",
+  "marks_hint": "about 9 marks in the 2026–27 sample paper (Unit II: 10)",
+  "summary": "Order and types · operations · transpose · symmetric and skew-symmetric matrices · invertible matrices",
+  "status": {
+    "notes": "ready",
+    "mustknow": "ready",
+    "formulas": "ready",
+    "questions": "ready"
+  },
+  "updated": "2026-11-14"
+}

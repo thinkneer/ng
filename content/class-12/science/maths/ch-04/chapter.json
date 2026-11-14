@@ -1,0 +1,16 @@
+{
+  "$schema": "../../../../../schemas/chapter.schema.json",
+  "id": "ch-04",
+  "number": 4,
+  "title": "Determinants",
+  "unit": "II",
+  "marks_hint": "1 to 6 marks; the unit's 5-marker in many years (Unit II: 10)",
+  "summary": "Determinant · area of a triangle · minors, cofactors, adjoint · inverse · solving a system by the matrix method",
+  "status": {
+    "notes": "ready",
+    "mustknow": "ready",
+    "formulas": "ready",
+    "questions": "ready"
+  },
+  "updated": "2026-11-14"
+}
