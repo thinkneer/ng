@@ -26,6 +26,7 @@ export async function subject(route) {
         ${raw(`<div class="stat"><div class="stat__value tnum">${withNotes}</div><div class="stat__label">with notes</div></div>`)}
       </div>
       ${data.allChapters(sub).some((c) => c.items?.formulas) ? raw(`<a class="card continue pressable mb-4" href="${routeFor(cls.id, stream.id, sub.id, 'formulas')}" style="--unit:#${sub.colour}"><span class="list__leading">${icon('formula')}</span><span class="continue__main"><span class="continue__title">Formula sheet</span><span class="continue__sec" style="color:var(--text-2);font-weight:500">All chapters on one page · read the day before the paper</span></span>${icon('chevronRight', { class: 'chev', size: 20 })}</a>`) : ''}
+      ${data.allChapters(sub).some((c) => c.items?.mustknow) ? raw(`<a class="card continue pressable mb-4" href="${routeFor(cls.id, stream.id, sub.id, 'exam-eve')}" style="--unit:#${sub.colour}"><span class="list__leading">${icon('bolt')}</span><span class="continue__main"><span class="continue__title">Exam eve</span><span class="continue__sec" style="color:var(--text-2);font-weight:500">Every chapter's must-know lines, formula boxes and traps in one calm scroll</span></span>${icon('chevronRight', { class: 'chev', size: 20 })}</a>`) : ''}
       ${sub.units.map((u) => raw(`
         <div class="unit-bar" style="--unit:#${u.colour}"><span>Unit ${esc(u.id)} · ${esc(u.name)}</span><span class="marks">${u.marks_group ? `Units ${esc(u.marks_group)} · ` : ''}${u.marks} marks</span></div>
         <div class="list">

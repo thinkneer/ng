@@ -13,6 +13,7 @@ export async function chapter(route) {
   if (!sub) return { title: 'Not found', tab: 'subjects', html: emptyState({ icon: 'alert', title: 'No such subject' }) };
   if (route.chapterId === 'formulas' && route.tab === 'drill') { const { recallFormulas } = await import('./recall.js'); return recallFormulas({ cls, stream, sub }); }
   if (route.chapterId === 'formulas') { const { formulaSheet } = await import('./formulas.js'); return formulaSheet({ cls, stream, sub }); }
+  if (route.chapterId === 'exam-eve') { const { examEve } = await import('./exameve.js'); return examEve({ cls, stream, sub }); }
   const { unit, chapter: ch } = data.chapterOf(sub, route.chapterId);
   if (!ch) return { title: 'Not found', tab: 'subjects', back: routeFor(cls.id, stream.id, sub.id), html: emptyState({ icon: 'alert', title: 'No such chapter', action: `<a class="btn btn--secondary" href="${routeFor(cls.id, stream.id, sub.id)}">Back to ${esc(sub.name)}</a>` }) };
   if (route.tab === 'read') { const { reader } = await import('./reader.js'); return reader({ cls, stream, sub, unit, ch }); }
@@ -82,6 +83,16 @@ async function renderTab(tab, ctx) {
       mountProgress(panel, key);
     } else {
       panel.innerHTML = `<div class="row mb-4" style="gap:var(--s-2);flex-wrap:wrap"><a class="btn btn--unit btn--sm" href="${routeFor(ctx.cls.id, ctx.stream.id, sub.id, ch.id, 'read')}" style="--unit:#${unit.colour}">${icon('book')} Read full screen</a>${ch.read_minutes ? `<span class="t-footnote t-2">about ${ch.read_minutes} min</span>` : ''}</div>`;
+      const breath = breathMarkdown(src);
+      if (breath.count) {
+        const open = !!store.get('breath.open', false);
+        const det = document.createElement('details'); det.className = 'breath'; det.open = open;
+        det.innerHTML = `<summary><span class="breath__title">${icon('bolt')} 2-minute version</span><span class="t-footnote t-2">${breath.count} sections · tap to ${open ? 'hide' : 'show'}</span></summary>`;
+        const b = await renderMarkdown(breath.md, { unitColour: unit.colour, eager: true }); b.classList.add('breath__body'); det.appendChild(b);
+        attach(b, `${sub.id}/${ch.id}/breath`);
+        det.addEventListener('toggle', () => { store.set('breath.open', det.open); det.querySelector('summary .t-footnote').textContent = `${breath.count} sections · tap to ${det.open ? 'hide' : 'show'}`; });
+        panel.appendChild(det);
+      }
       panel.appendChild(node);
     }
     const hs = headings(node);
@@ -97,6 +108,17 @@ async function renderTab(tab, ctx) {
     const byType = Object.entries(ch.question_types || {});
     panel.innerHTML = `<div class="card"><div class="t-headline">${q.length} questions ready</div><p class="t-2 t-footnote mt-2">${byType.map(([t, n]) => `${n} ${t.toUpperCase()}`).join(' · ')}</p><p class="t-2 t-subhead mt-2">Practice mode (one question at a time, hints, self-marking) is the next thing being built. Until then, use the chapter notes and formula sheet.</p></div>`;
   }
+}
+
+/* ---------- 2-minute version: the "In one breath" paragraphs of notes.md, in order ---------- */
+function breathMarkdown(src) {
+  const out = []; let heading = '';
+  for (const raw of src.replace(/\r\n/g, '\n').split('\n')) {
+    const h = raw.match(/^##\s+(.+)$/); if (h) { heading = h[1].trim(); continue; }
+    const m = raw.match(/^\*\*In one breath:\*\*\s*(.+)$/);
+    if (m) out.push(`- **${heading.replace(/\*\*/g, '')}** — ${m[1].trim()}`);
+  }
+  return { md: out.join('\n'), count: out.length };
 }
 
 /* ---------- Progress (small section at the foot of Must know) ---------- */
@@ -123,9 +145,9 @@ function mountProgress(panel, key) {
 async function openHighlights({ key, sub, ch, cls, stream }) {
   const { listForChapter, jumpTo } = await import('../highlights.js');
   const hs = listForChapter(key);
-  const layerName = { notes: 'Read', mustknow: 'Must know', formulas: 'Formula sheet' };
+  const layerName = { notes: 'Read', mustknow: 'Must know', formulas: 'Formula sheet', breath: '2-minute version', exameve: 'Exam eve' };
   const list = hs.length
-    ? `<div class="list">${hs.map((h) => { const layer = h.layer.split('/').pop(); const target = layer === 'formulas' ? routeFor(cls.id, stream.id, sub.id, 'formulas') : routeFor(cls.id, stream.id, sub.id, ch.id, layer); return `<a class="list__item hl-item" href="${target}" data-jump="${esc(h.id)}"><span class="hl-item__bar hl-bg--${h.color}"></span><span class="list__body"><span class="list__title hl-item__q">${esc(h.exact)}</span>${h.note ? `<span class="list__sub hl-item__n">${esc(h.note)}</span>` : ''}<span class="list__sub">${layerName[layer] || layer}</span></span><span class="list__trailing">${icon('chevronRight', { class: 'chev' })}</span></a>`; }).join('')}</div>`
+    ? `<div class="list">${hs.map((h) => { const layer = h.layer.split('/').pop(); const target = layer === 'formulas' ? routeFor(cls.id, stream.id, sub.id, 'formulas') : layer === 'exameve' ? routeFor(cls.id, stream.id, sub.id, 'exam-eve') : routeFor(cls.id, stream.id, sub.id, ch.id, layer === 'breath' ? 'notes' : layer); return `<a class="list__item hl-item" href="${target}" data-jump="${esc(h.id)}"><span class="hl-item__bar hl-bg--${h.color}"></span><span class="list__body"><span class="list__title hl-item__q">${esc(h.exact)}</span>${h.note ? `<span class="list__sub hl-item__n">${esc(h.note)}</span>` : ''}<span class="list__sub">${layerName[layer] || layer}</span></span><span class="list__trailing">${icon('chevronRight', { class: 'chev' })}</span></a>`; }).join('')}</div>`
     : `<div class="notice">${icon('highlight')}<div>Select any words in Read, Must know or the formula sheet, then pick a colour. Add a note if you like. They collect here.</div></div>`;
   const s = openSheet({
     title: 'Highlights', closeLabel: 'Done',
