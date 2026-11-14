@@ -1,0 +1,5 @@
+{
+  "$schema": "../schemas/users.schema.json",
+  "note": "Nickname-only accounts. No names, emails, phones, schools or photos. Everything here is public by design. Changes happen only by commit after the admin's confirmation.",
+  "users": []
+}

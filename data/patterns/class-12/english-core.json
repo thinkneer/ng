@@ -1,0 +1,22 @@
+{
+  "$schema": "../../../schemas/pattern.schema.json",
+  "class": "12",
+  "subject": "english-core",
+  "syllabus_year": "2026-27",
+  "source": "CBSE 2026-27 sample question paper (cbseacademic.nic.in); verify against the official SQP before an exam build.",
+  "total_marks": 80,
+  "duration_minutes": 180,
+  "reading_time_minutes": 15,
+  "sections": [
+    { "id": "A", "name": "Section A: Reading Skills", "marks": 22, "types": ["case"], "internal_choice": 0,
+      "note": "One unseen passage (12 marks) and one case-based/factual passage (10 marks), each with MCQ, short-answer and inference items." },
+    { "id": "B", "name": "Section B: Creative Writing Skills", "marks": 18, "types": ["la5"], "internal_choice": 4,
+      "note": "Notice or invitation (4 marks, with choice), letter (5 marks, with choice), article or report (5 marks, with choice), plus a 4-mark short format; see the SQP for the exact set." },
+    { "id": "C", "name": "Section C: Literature", "marks": 40, "types": ["case", "sa3", "la5"], "internal_choice": 3,
+      "note": "Extract-based items from poetry and prose, short answers (40–50 words) and long answers (120–150 words) from Flamingo and Vistas, with internal choices." }
+  ],
+  "notes": [
+    "English Core does not fit a fixed count × marks grid, so exam mode uses fixed paper files for this subject.",
+    "Section marks: Reading 22, Writing 18, Literature 40."
+  ]
+}

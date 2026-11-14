@@ -1,0 +1,21 @@
+{
+  "$schema": "../../../schemas/pattern.schema.json",
+  "class": "12",
+  "subject": "maths",
+  "syllabus_year": "2026-27",
+  "source": "CBSE 2026-27 sample question paper (cbseacademic.nic.in); verify against the official SQP before an exam build.",
+  "total_marks": 80,
+  "duration_minutes": 180,
+  "reading_time_minutes": 15,
+  "sections": [
+    { "id": "A", "name": "Section A", "count": 20, "marks_each": 1, "types": ["mcq", "ar"], "mix": { "mcq": 18, "ar": 2 }, "internal_choice": 0 },
+    { "id": "B", "name": "Section B", "count": 5, "marks_each": 2, "types": ["vsa2"], "internal_choice": 2 },
+    { "id": "C", "name": "Section C", "count": 6, "marks_each": 3, "types": ["sa3"], "internal_choice": 3 },
+    { "id": "D", "name": "Section D", "count": 4, "marks_each": 5, "types": ["la5"], "internal_choice": 2 },
+    { "id": "E", "name": "Section E", "count": 3, "marks_each": 4, "types": ["case"], "internal_choice": 3, "note": "Case studies 1+1+2; the 2-mark part has an internal choice." }
+  ],
+  "notes": [
+    "38 questions in all.",
+    "A–R option D: 'A is false but R is true'."
+  ]
+}

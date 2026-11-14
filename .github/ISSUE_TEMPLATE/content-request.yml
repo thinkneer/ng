@@ -1,0 +1,31 @@
+name: Content request
+description: Ask for a topic, a chapter, a kind of question, or a correction.
+title: "[request] <subject> · <chapter> · <what>"
+labels: ["request"]
+body:
+  - type: markdown
+    attributes:
+      value: No personal details, please. Use a nickname if you want to be mentioned.
+  - type: dropdown
+    id: subject
+    attributes:
+      label: Subject
+      options: [Physics, Chemistry, Mathematics, Biology, English Core, Other / site]
+    validations:
+      required: true
+  - type: input
+    id: chapter
+    attributes:
+      label: Chapter
+      placeholder: "e.g. Ch 6 Electromagnetic Induction"
+  - type: textarea
+    id: what
+    attributes:
+      label: What do you want?
+      placeholder: "e.g. more 3-mark numericals on motional EMF with the marking scheme"
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why / what's hard about it?

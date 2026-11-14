@@ -1,0 +1,64 @@
+{
+  "$schema": "../../../../schemas/subject.schema.json",
+  "id": "physics",
+  "name": "Physics",
+  "code": "042",
+  "class": "12",
+  "stream": "science",
+  "syllabus_year": "2026-27",
+  "theory_marks": 70,
+  "internal_marks": 30,
+  "internal_note": "Practicals 30: two experiments 16, record 7, viva 7.",
+  "duration_minutes": 180,
+  "exam_date": "2027-02-16",
+  "colour": "1F5FAD",
+  "units": [
+    { "id": "I", "name": "Electrostatics", "colour": "1F5FAD", "marks": 16, "marks_group": "I–II",
+      "chapters": [
+        { "id": "ch-01", "number": 1, "title": "Electric Charges and Fields" },
+        { "id": "ch-02", "number": 2, "title": "Electrostatic Potential and Capacitance" }
+      ] },
+    { "id": "II", "name": "Current Electricity", "colour": "0E8A7E", "marks": 16, "marks_group": "I–II",
+      "chapters": [
+        { "id": "ch-03", "number": 3, "title": "Current Electricity" }
+      ] },
+    { "id": "III", "name": "Magnetic Effects of Current and Magnetism", "colour": "6A3FA0", "marks": 17, "marks_group": "III–IV",
+      "chapters": [
+        { "id": "ch-04", "number": 4, "title": "Moving Charges and Magnetism" },
+        { "id": "ch-05", "number": 5, "title": "Magnetism and Matter" }
+      ] },
+    { "id": "IV", "name": "Electromagnetic Induction and Alternating Currents", "colour": "C2571A", "marks": 17, "marks_group": "III–IV",
+      "chapters": [
+        { "id": "ch-06", "number": 6, "title": "Electromagnetic Induction" },
+        { "id": "ch-07", "number": 7, "title": "Alternating Current" }
+      ] },
+    { "id": "V", "name": "Electromagnetic Waves", "colour": "2E8B3A", "marks": 18, "marks_group": "V–VI",
+      "chapters": [
+        { "id": "ch-08", "number": 8, "title": "Electromagnetic Waves" }
+      ] },
+    { "id": "VI", "name": "Optics", "colour": "B0204F", "marks": 18, "marks_group": "V–VI",
+      "chapters": [
+        { "id": "ch-09", "number": 9, "title": "Ray Optics and Optical Instruments" },
+        { "id": "ch-10", "number": 10, "title": "Wave Optics" }
+      ] },
+    { "id": "VII", "name": "Dual Nature of Radiation and Matter", "colour": "8A6D00", "marks": 12, "marks_group": "VII–VIII",
+      "chapters": [
+        { "id": "ch-11", "number": 11, "title": "Dual Nature of Radiation and Matter" }
+      ] },
+    { "id": "VIII", "name": "Atoms and Nuclei", "colour": "2B6F8F", "marks": 12, "marks_group": "VII–VIII",
+      "chapters": [
+        { "id": "ch-12", "number": 12, "title": "Atoms" },
+        { "id": "ch-13", "number": 13, "title": "Nuclei" }
+      ] },
+    { "id": "IX", "name": "Electronic Devices", "colour": "5A5A5A", "marks": 7,
+      "chapters": [
+        { "id": "ch-14", "number": 14, "title": "Semiconductor Electronics: Materials, Devices and Simple Circuits" }
+      ] }
+  ],
+  "not_in_syllabus": [],
+  "links": {
+    "ncert": "https://ncert.nic.in/textbook.php",
+    "syllabus": "https://cbseacademic.nic.in/",
+    "sample_paper": "https://cbseacademic.nic.in/"
+  }
+}

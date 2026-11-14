@@ -1,0 +1,62 @@
+name: Compile LaTeX to PDF
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'latex/**'
+      - '.github/workflows/latex.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: latex-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  compile:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Find .tex sources
+        id: find
+        run: |
+          files=$(find latex -name '*.tex' -not -path '*/preambles/*' -not -name '*preamble*' | sort)
+          echo "files<<EOF" >> "$GITHUB_OUTPUT"
+          echo "$files" >> "$GITHUB_OUTPUT"
+          echo "EOF" >> "$GITHUB_OUTPUT"
+          echo "Sources:"; echo "$files"
+      - name: Compile
+        if: steps.find.outputs.files != ''
+        uses: xu-cheng/texlive-action@v2
+        with:
+          scheme: full
+          run: |
+            set -e
+            status=0
+            for f in ${{ steps.find.outputs.files }}; do
+              dir=$(dirname "$f"); base=$(basename "$f" .tex)
+              out="pdfs/${dir#latex/}"
+              mkdir -p "$out"
+              echo "== $f -> $out/$base.pdf"
+              # two passes for references; keep going so one bad file doesn't block the rest
+              if (cd "$dir" && latexmk -pdf -interaction=nonstopmode -halt-on-error -file-line-error "$base.tex" >/dev/null 2>&1); then
+                mv "$dir/$base.pdf" "$out/$base.pdf"
+              else
+                echo "::error file=$f::LaTeX compile failed"; tail -n 40 "$dir/$base.log" || true; status=1
+              fi
+              (cd "$dir" && latexmk -C "$base.tex" >/dev/null 2>&1 || true)
+            done
+            exit $status
+      - name: Commit PDFs
+        if: always() && steps.find.outputs.files != ''
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add pdfs
+          if git diff --cached --quiet; then echo "no PDF changes"; else
+            git commit -m "build: compile PDFs from latex/ [skip ci]"
+            git push
+          fi

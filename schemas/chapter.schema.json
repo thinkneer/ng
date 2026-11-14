@@ -1,0 +1,58 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "chapter.schema.json",
+  "title": "Chapter (chapter.json inside a chapter folder)",
+  "type": "object",
+  "required": ["id", "number", "title", "unit"],
+  "additionalProperties": false,
+  "properties": {
+    "$schema": { "type": "string" },
+    "id": { "type": "string", "pattern": "^[a-z][a-z0-9-]*$" },
+    "number": { "type": "integer", "minimum": 1 },
+    "title": { "type": "string" },
+    "unit": { "type": "string", "description": "Unit id from subject.json" },
+    "marks_hint": { "type": "string", "description": "e.g. 'about 8–9 marks most years (estimate)'" },
+    "summary": { "type": "string", "maxLength": 300 },
+    "pdfs": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["title", "path"],
+        "additionalProperties": false,
+        "properties": {
+          "title": { "type": "string" },
+          "path": { "type": "string", "pattern": "^pdfs/.+\\.pdf$" },
+          "page": { "type": "integer", "minimum": 1 }
+        }
+      }
+    },
+    "diagrams": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["title"],
+        "additionalProperties": false,
+        "properties": {
+          "title": { "type": "string" },
+          "svg": { "type": "string" },
+          "pdf": { "type": "string" },
+          "page": { "type": "integer" }
+        }
+      }
+    },
+    "status": {
+      "type": "object",
+      "description": "Editorial status per item; the build script records which files actually exist.",
+      "additionalProperties": false,
+      "properties": {
+        "notes": { "$ref": "#/definitions/itemStatus" },
+        "formulas": { "$ref": "#/definitions/itemStatus" },
+        "questions": { "$ref": "#/definitions/itemStatus" }
+      }
+    },
+    "updated": { "type": "string", "format": "date" }
+  },
+  "definitions": {
+    "itemStatus": { "type": "string", "enum": ["draft", "ready", "reviewed"] }
+  }
+}

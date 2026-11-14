@@ -1,0 +1,15 @@
+name: Progress sync (created by the app)
+description: The app fills this in. It is processed automatically if your GitHub username matches your approved nickname.
+title: "[sync] <nickname>"
+labels: ["progress-sync"]
+body:
+  - type: markdown
+    attributes:
+      value: Only sync what you're happy to have public. The body below must be the exact JSON exported by the app.
+  - type: textarea
+    id: progress
+    attributes:
+      label: Progress JSON
+      render: json
+    validations:
+      required: true

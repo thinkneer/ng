@@ -1,0 +1,146 @@
+/* ------------------------------------------------------------------
+   Design tokens — the only place colours, type, spacing and motion
+   are defined. Everything else uses these custom properties.
+   ------------------------------------------------------------------ */
+:root {
+  color-scheme: light dark;
+
+  /* Type (rem only so the user's text-size setting is respected) */
+  --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Inter, "Helvetica Neue", Arial, sans-serif;
+  --font-mono: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  --fs-large-title: 2.125rem;  /* 34 */
+  --fs-title: 1.75rem;         /* 28 */
+  --fs-title2: 1.375rem;       /* 22 */
+  --fs-title3: 1.25rem;        /* 20 */
+  --fs-headline: 1.0625rem;    /* 17 semibold */
+  --fs-body: 1.0625rem;        /* 17 */
+  --fs-callout: 1rem;          /* 16 */
+  --fs-subhead: 0.9375rem;     /* 15 */
+  --fs-footnote: 0.8125rem;    /* 13 */
+  --fs-caption: 0.75rem;       /* 12 */
+  --lh-body: 1.5;
+  --lh-tight: 1.2;
+
+  /* Spacing: 4/8 grid */
+  --s-1: 0.25rem; --s-2: 0.5rem; --s-3: 0.75rem; --s-4: 1rem; --s-5: 1.25rem;
+  --s-6: 1.5rem; --s-8: 2rem; --s-10: 2.5rem; --s-12: 3rem; --s-16: 4rem;
+
+  /* Radii */
+  --r-sm: 8px; --r-md: 12px; --r-lg: 16px; --r-xl: 22px; --r-pill: 999px;
+
+  /* Sizes */
+  --tap: 44px;
+  --tabbar-h: 3.125rem;        /* 50 + safe area */
+  --topbar-h: 2.75rem;         /* 44 */
+  --sidebar-w: 16.5rem;
+  --rail-w: 15rem;
+  --measure: 70ch;
+  --content-max: 46rem;
+
+  /* Motion */
+  --ease-out: cubic-bezier(0.2, 0.8, 0.2, 1);
+  --ease-spring: cubic-bezier(0.34, 1.3, 0.64, 1);
+  --t-fast: 150ms; --t-med: 220ms; --t-slow: 300ms;
+
+  /* Unit palette (matches the LaTeX preambles) */
+  --u-blue: #1F5FAD; --u-teal: #0E8A7E; --u-purple: #6A3FA0; --u-orange: #C2571A;
+  --u-green: #2E8B3A; --u-crimson: #B0204F; --u-olive: #8A6D00; --u-steel: #2B6F8F;
+  --u-brown: #9A4A1E; --u-grey: #5A5A5A; --navy: #1B2A4A;
+  --tip-bg: #FFF4B8; --tip-frame: #E0B400;
+
+  /* Safe areas */
+  --sat: env(safe-area-inset-top, 0px);
+  --sab: env(safe-area-inset-bottom, 0px);
+  --sal: env(safe-area-inset-left, 0px);
+  --sar: env(safe-area-inset-right, 0px);
+}
+
+/* ---------- Light ---------- */
+:root, :root[data-theme="light"] {
+  color-scheme: light;
+  --bg: #F2F2F7;
+  --bg-elevated: #FFFFFF;
+  --surface: #FFFFFF;
+  --surface-2: #F7F7FA;
+  --surface-pressed: #ECECF1;
+  --text: #111114;
+  --text-2: #6B6B72;
+  --text-3: #6C6C74;
+  --separator: rgba(60, 60, 67, 0.16);
+  --separator-strong: rgba(60, 60, 67, 0.3);
+  --accent: #1F5FAD;
+  --accent-text: #1A52A0;
+  --accent-soft: rgba(31, 95, 173, 0.10);
+  --on-accent: #FFFFFF;
+  --success: #1F6B2A; --success-soft: rgba(46, 139, 58, 0.12);
+  --warning: #8A5A0B; --warning-soft: rgba(224, 180, 0, 0.16);
+  --danger: #C0392B; --danger-soft: rgba(192, 57, 43, 0.12);
+  --tip-surface: #FFF4B8; --tip-border: #E0B400; --tip-text: #3A3000;
+  --bar-bg: rgba(242, 242, 247, 0.78);
+  --bar-bg-solid: #F2F2F7;
+  --shadow-1: 0 1px 2px rgba(16, 24, 40, 0.06), 0 1px 3px rgba(16, 24, 40, 0.08);
+  --shadow-2: 0 4px 12px rgba(16, 24, 40, 0.08), 0 1px 3px rgba(16, 24, 40, 0.06);
+  --shadow-3: 0 12px 32px rgba(16, 24, 40, 0.16), 0 2px 6px rgba(16, 24, 40, 0.08);
+  --card-border: transparent;
+  --skeleton: linear-gradient(90deg, #ECECF1 25%, #F6F6F9 50%, #ECECF1 75%);
+  --focus: 0 0 0 3px rgba(31, 95, 173, 0.45);
+  --star: #A87400;
+}
+
+/* ---------- Dark ---------- */
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --bg: #0E0F13;
+  --bg-elevated: #1A1B21;
+  --surface: #1A1B21;
+  --surface-2: #22232B;
+  --surface-pressed: #2B2C35;
+  --text: #F2F2F7;
+  --text-2: #A3A3AD;
+  --text-3: #8E8E99;
+  --separator: rgba(255, 255, 255, 0.10);
+  --separator-strong: rgba(255, 255, 255, 0.2);
+  --accent: #6FA3E8;
+  --accent-text: #8DB7F0;
+  --accent-soft: rgba(111, 163, 232, 0.16);
+  --on-accent: #0B1A33;
+  --success: #5BC26A; --success-soft: rgba(91, 194, 106, 0.16);
+  --warning: #E6B84A; --warning-soft: rgba(230, 184, 74, 0.18);
+  --danger: #F07167; --danger-soft: rgba(240, 113, 103, 0.16);
+  --tip-surface: rgba(224, 180, 0, 0.14); --tip-border: rgba(224, 180, 0, 0.6); --tip-text: #F3E6A8;
+  --bar-bg: rgba(14, 15, 19, 0.72);
+  --bar-bg-solid: #0E0F13;
+  --shadow-1: none; --shadow-2: none; --shadow-3: 0 12px 32px rgba(0, 0, 0, 0.5);
+  --card-border: rgba(255, 255, 255, 0.08);
+  --skeleton: linear-gradient(90deg, #22232B 25%, #2B2C35 50%, #22232B 75%);
+  --focus: 0 0 0 3px rgba(111, 163, 232, 0.55);
+  --star: #F0C040;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+    --bg: #0E0F13; --bg-elevated: #1A1B21; --surface: #1A1B21; --surface-2: #22232B; --surface-pressed: #2B2C35;
+    --text: #F2F2F7; --text-2: #A3A3AD; --text-3: #8E8E99;
+    --separator: rgba(255, 255, 255, 0.10); --separator-strong: rgba(255, 255, 255, 0.2);
+    --accent: #6FA3E8; --accent-text: #8DB7F0; --accent-soft: rgba(111, 163, 232, 0.16); --on-accent: #0B1A33;
+    --success: #5BC26A; --success-soft: rgba(91, 194, 106, 0.16);
+    --warning: #E6B84A; --warning-soft: rgba(230, 184, 74, 0.18);
+    --danger: #F07167; --danger-soft: rgba(240, 113, 103, 0.16);
+    --tip-surface: rgba(224, 180, 0, 0.14); --tip-border: rgba(224, 180, 0, 0.6); --tip-text: #F3E6A8;
+    --bar-bg: rgba(14, 15, 19, 0.72); --bar-bg-solid: #0E0F13;
+    --shadow-1: none; --shadow-2: none; --shadow-3: 0 12px 32px rgba(0, 0, 0, 0.5);
+    --card-border: rgba(255, 255, 255, 0.08);
+    --skeleton: linear-gradient(90deg, #22232B 25%, #2B2C35 50%, #22232B 75%);
+    --focus: 0 0 0 3px rgba(111, 163, 232, 0.55);
+    --star: #F0C040;
+  }
+}
+
+/* Desktop reads better slightly smaller */
+@media (min-width: 1024px) {
+  :root { --fs-body: 1rem; --fs-headline: 1rem; --fs-large-title: 2rem; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  :root { --t-fast: 0ms; --t-med: 0ms; --t-slow: 0ms; }
+}

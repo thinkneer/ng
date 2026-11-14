@@ -1,0 +1,32 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "users.schema.json",
+  "title": "Approved users (data/users.json). Nickname-only; public by design.",
+  "type": "object",
+  "required": ["users"],
+  "additionalProperties": false,
+  "properties": {
+    "$schema": { "type": "string" },
+    "note": { "type": "string" },
+    "users": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["nickname", "salt", "hash", "class", "subjects", "status", "approved_on", "role"],
+        "additionalProperties": false,
+        "properties": {
+          "nickname": { "type": "string", "pattern": "^[A-Za-z0-9_]{3,20}$" },
+          "salt": { "type": "string", "minLength": 16, "description": "base64, random per user" },
+          "hash": { "type": "string", "minLength": 32, "description": "base64 PBKDF2-SHA256, 100000 iterations, of the passphrase" },
+          "class": { "type": "string", "enum": ["9", "10", "11", "12"] },
+          "stream": { "type": "string" },
+          "subjects": { "type": "array", "items": { "type": "string" } },
+          "github": { "type": "string", "pattern": "^[A-Za-z0-9-]{1,39}$" },
+          "status": { "type": "string", "enum": ["approved", "suspended"] },
+          "approved_on": { "type": "string", "format": "date" },
+          "role": { "type": "string", "enum": ["student", "admin"] }
+        }
+      }
+    }
+  }
+}

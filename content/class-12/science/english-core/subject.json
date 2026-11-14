@@ -1,0 +1,64 @@
+{
+  "$schema": "../../../../schemas/subject.schema.json",
+  "id": "english-core",
+  "name": "English Core",
+  "code": "301",
+  "class": "12",
+  "stream": "science",
+  "syllabus_year": "2026-27",
+  "theory_marks": 80,
+  "internal_marks": 20,
+  "internal_note": "Internal assessment 20: listening and speaking skills 10, project work 10.",
+  "duration_minutes": 180,
+  "exam_date": "2027-03-05",
+  "colour": "2B6F8F",
+  "units": [
+    { "id": "A", "name": "Reading Skills", "colour": "1F5FAD", "marks": 22,
+      "chapters": [
+        { "id": "reading-unseen", "number": 1, "title": "Unseen passage: method and question types" },
+        { "id": "reading-case", "number": 2, "title": "Case-based / factual passage with charts" }
+      ] },
+    { "id": "B", "name": "Creative Writing Skills", "colour": "C2571A", "marks": 18,
+      "chapters": [
+        { "id": "writing-notice", "number": 3, "title": "Notice" },
+        { "id": "writing-invitation", "number": 4, "title": "Invitations and replies" },
+        { "id": "writing-letter", "number": 5, "title": "Letters: editor, complaint, job application with bio-data" },
+        { "id": "writing-article-report", "number": 6, "title": "Article and report writing" }
+      ] },
+    { "id": "C1", "name": "Literature: Flamingo (prose)", "colour": "6A3FA0", "marks": 40, "marks_group": "C",
+      "chapters": [
+        { "id": "flamingo-01", "number": 7, "title": "The Last Lesson" },
+        { "id": "flamingo-02", "number": 8, "title": "Lost Spring" },
+        { "id": "flamingo-03", "number": 9, "title": "Deep Water" },
+        { "id": "flamingo-04", "number": 10, "title": "The Rattrap" },
+        { "id": "flamingo-05", "number": 11, "title": "Indigo" },
+        { "id": "flamingo-06", "number": 12, "title": "Poets and Pancakes" },
+        { "id": "flamingo-07", "number": 13, "title": "The Interview" },
+        { "id": "flamingo-08", "number": 14, "title": "Going Places" }
+      ] },
+    { "id": "C2", "name": "Literature: Flamingo (poetry)", "colour": "B0204F", "marks": 40, "marks_group": "C",
+      "chapters": [
+        { "id": "poem-01", "number": 15, "title": "My Mother at Sixty-six" },
+        { "id": "poem-02", "number": 16, "title": "Keeping Quiet" },
+        { "id": "poem-03", "number": 17, "title": "A Thing of Beauty" },
+        { "id": "poem-04", "number": 18, "title": "A Roadside Stand" },
+        { "id": "poem-05", "number": 19, "title": "Aunt Jennifer's Tigers" }
+      ] },
+    { "id": "C3", "name": "Literature: Vistas", "colour": "2E8B3A", "marks": 40, "marks_group": "C",
+      "chapters": [
+        { "id": "vistas-01", "number": 20, "title": "The Third Level" },
+        { "id": "vistas-02", "number": 21, "title": "The Tiger King" },
+        { "id": "vistas-03", "number": 22, "title": "Journey to the End of the Earth" },
+        { "id": "vistas-04", "number": 23, "title": "The Enemy" },
+        { "id": "vistas-05", "number": 24, "title": "On the Face of It" },
+        { "id": "vistas-06", "number": 25, "title": "Memories of Childhood" }
+      ] }
+  ],
+  "not_in_syllabus": ["An Elementary School Classroom in a Slum", "Should Wizard Hit Mommy?", "Evans Tries an O-Level"],
+  "content_note": "Chapter guides are summaries and analysis only. The texts themselves are on ncert.nic.in.",
+  "links": {
+    "ncert": "https://ncert.nic.in/textbook.php",
+    "syllabus": "https://cbseacademic.nic.in/",
+    "sample_paper": "https://cbseacademic.nic.in/"
+  }
+}

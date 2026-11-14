@@ -1,0 +1,131 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "plan.schema.json",
+  "title": "Board plan template for one class and year (data/plans/<class>-<year>.json)",
+  "type": "object",
+  "required": ["class", "board_year", "name", "updated", "defaults", "school_dates", "day_types", "phases", "rules"],
+  "additionalProperties": false,
+  "properties": {
+    "$schema": { "type": "string" },
+    "class": { "type": "string", "enum": ["10", "12"] },
+    "board_year": { "type": "integer" },
+    "name": { "type": "string" },
+    "source": { "type": "string" },
+    "updated": { "type": "string", "format": "date" },
+    "defaults": {
+      "type": "object",
+      "required": ["school_day_hours", "holiday_hours", "subject_weights"],
+      "additionalProperties": false,
+      "properties": {
+        "school_day_hours": { "type": "number" },
+        "holiday_hours": { "type": "number" },
+        "study_leave_hours": { "type": "number" },
+        "subject_weights": { "type": "object", "additionalProperties": { "type": "number" } },
+        "half_day_off": { "type": "string", "description": "e.g. 'sunday-pm'" },
+        "weekly_review_day": { "type": "string" },
+        "timed_paper_day": { "type": "string" }
+      }
+    },
+    "school_dates": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "preboard1": { "$ref": "#/definitions/examBlock" },
+        "preboard2": { "$ref": "#/definitions/examBlock" },
+        "practicals": { "$ref": "#/definitions/dateRange" },
+        "study_leave_start": { "$ref": "#/definitions/assumedDate" },
+        "holidays": { "type": "array", "items": { "$ref": "#/definitions/assumedDate" } }
+      }
+    },
+    "day_types": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["id", "name", "hours", "blocks"],
+        "additionalProperties": false,
+        "properties": {
+          "id": { "type": "string" },
+          "name": { "type": "string" },
+          "hours": { "type": "number" },
+          "description": { "type": "string" },
+          "blocks": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["label", "minutes", "kind"],
+              "additionalProperties": false,
+              "properties": {
+                "label": { "type": "string" },
+                "minutes": { "type": "integer", "minimum": 5 },
+                "kind": { "type": "string", "enum": ["study", "revise", "practice", "timed-paper", "analysis", "recall", "review", "rest", "practical"] },
+                "subject": { "type": "string", "description": "Fixed subject, or a selector: 'next-paper', 'rotate', 'weak', 'touch-up'" },
+                "start": { "type": "string", "pattern": "^[0-2][0-9]:[0-5][0-9]$" }
+              }
+            }
+          }
+        }
+      }
+    },
+    "phases": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["id", "name", "from", "to", "focus"],
+        "additionalProperties": false,
+        "properties": {
+          "id": { "type": "string" },
+          "name": { "type": "string" },
+          "from": { "type": "string", "description": "ISO date, or 'start', or 'after:<phase-id>', or 'paper:<subject>+1'" },
+          "to": { "type": "string", "description": "ISO date, or 'paper:<subject>' (the day of that paper), or 'last-paper'" },
+          "focus": { "type": "string" },
+          "day_type_overrides": { "type": "object", "additionalProperties": { "type": "string" } },
+          "subject_window": { "type": "string", "description": "Subject id when the phase is a single-subject window before a paper" },
+          "touch_up": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": { "subject": { "type": "string" }, "minutes": { "type": "integer" }, "min_gap_days": { "type": "integer" } }
+          },
+          "goals": { "type": "array", "items": { "type": "string" } }
+        }
+      }
+    },
+    "rules": { "type": "array", "items": { "type": "string" } },
+    "timed_paper_targets": { "type": "object", "additionalProperties": { "type": "integer" } }
+  },
+  "definitions": {
+    "assumedDate": {
+      "type": "object",
+      "required": ["date"],
+      "additionalProperties": false,
+      "properties": { "date": { "type": "string", "format": "date" }, "assumed": { "type": "boolean" }, "note": { "type": "string" } }
+    },
+    "dateRange": {
+      "type": "object",
+      "required": ["start", "end"],
+      "additionalProperties": false,
+      "properties": { "start": { "type": "string", "format": "date" }, "end": { "type": "string", "format": "date" }, "assumed": { "type": "boolean" }, "note": { "type": "string" } }
+    },
+    "examBlock": {
+      "type": "object",
+      "required": ["start", "end"],
+      "additionalProperties": false,
+      "properties": {
+        "start": { "type": "string", "format": "date" },
+        "end": { "type": "string", "format": "date" },
+        "assumed": { "type": "boolean" },
+        "note": { "type": "string" },
+        "papers": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["subject", "date"],
+            "additionalProperties": false,
+            "properties": { "subject": { "type": "string" }, "date": { "type": "string", "format": "date" }, "assumed": { "type": "boolean" } }
+          }
+        }
+      }
+    }
+  }
+}

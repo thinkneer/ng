@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "pattern.schema.json",
+  "title": "CBSE paper pattern for one subject (data/patterns/<class>/<subject>.json)",
+  "type": "object",
+  "required": ["class", "subject", "syllabus_year", "total_marks", "duration_minutes", "sections"],
+  "additionalProperties": false,
+  "properties": {
+    "$schema": { "type": "string" },
+    "class": { "type": "string", "enum": ["9", "10", "11", "12"] },
+    "subject": { "type": "string" },
+    "syllabus_year": { "type": "string" },
+    "source": { "type": "string" },
+    "total_marks": { "type": "integer" },
+    "duration_minutes": { "type": "integer" },
+    "reading_time_minutes": { "type": "integer" },
+    "sections": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["id", "name"],
+        "additionalProperties": false,
+        "anyOf": [
+          { "required": ["count", "marks_each"] },
+          { "required": ["marks"] }
+        ],
+        "properties": {
+          "id": { "type": "string" },
+          "name": { "type": "string" },
+          "count": { "type": "integer", "minimum": 1 },
+          "marks_each": { "type": "number", "minimum": 1 },
+          "marks": { "type": "integer", "minimum": 1, "description": "Section total when the section is not a fixed count × marks grid" },
+          "types": { "type": "array", "items": { "type": "string" } },
+          "mix": { "type": "object", "additionalProperties": { "type": "integer" }, "description": "How the count splits by type, e.g. {\"mcq\": 12, \"ar\": 4}" },
+          "internal_choice": { "type": "integer", "minimum": 0, "description": "How many questions in the section have an OR" },
+          "note": { "type": "string" }
+        }
+      }
+    },
+    "notes": { "type": "array", "items": { "type": "string" } }
+  }
+}

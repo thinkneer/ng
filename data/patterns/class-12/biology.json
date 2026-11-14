@@ -1,0 +1,21 @@
+{
+  "$schema": "../../../schemas/pattern.schema.json",
+  "class": "12",
+  "subject": "biology",
+  "syllabus_year": "2026-27",
+  "source": "CBSE 2026-27 sample question paper (cbseacademic.nic.in); verify against the official SQP before an exam build.",
+  "total_marks": 70,
+  "duration_minutes": 180,
+  "reading_time_minutes": 15,
+  "sections": [
+    { "id": "A", "name": "Section A", "count": 16, "marks_each": 1, "types": ["mcq", "ar"], "mix": { "mcq": 12, "ar": 4 }, "internal_choice": 0 },
+    { "id": "B", "name": "Section B", "count": 5, "marks_each": 2, "types": ["vsa2"], "internal_choice": 2 },
+    { "id": "C", "name": "Section C", "count": 7, "marks_each": 3, "types": ["sa3"], "internal_choice": 2 },
+    { "id": "D", "name": "Section D", "count": 2, "marks_each": 4, "types": ["case"], "internal_choice": 2, "note": "Case/source-based; one sub-part in each has an internal choice." },
+    { "id": "E", "name": "Section E", "count": 3, "marks_each": 5, "types": ["la5"], "internal_choice": 3 }
+  ],
+  "notes": [
+    "All questions compulsory; internal choices as marked.",
+    "A–R uses the standard four options."
+  ]
+}

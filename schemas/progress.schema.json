@@ -1,0 +1,81 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "progress.schema.json",
+  "title": "Synced progress for one nickname (data/progress/<nickname>.json). Written only by the sync Action.",
+  "type": "object",
+  "required": ["nickname", "version", "synced_on"],
+  "additionalProperties": false,
+  "properties": {
+    "$schema": { "type": "string" },
+    "nickname": { "type": "string", "pattern": "^[A-Za-z0-9_]{3,20}$" },
+    "version": { "type": "integer", "minimum": 1 },
+    "synced_on": { "type": "string" },
+    "class": { "type": "string" },
+    "stream": { "type": "string" },
+    "subjects": { "type": "array", "items": { "type": "string" } },
+    "settings": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "school_day_hours": { "type": "number" },
+        "holiday_hours": { "type": "number" },
+        "study_leave_start": { "type": "string", "format": "date" },
+        "start_date": { "type": "string", "format": "date" },
+        "weak_chapters": { "type": "object", "additionalProperties": { "type": "array", "items": { "type": "string" } } },
+        "school_dates": { "type": "object" }
+      }
+    },
+    "tracker": {
+      "type": "object",
+      "description": "key: <subject>/<chapter-id>",
+      "additionalProperties": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "L": { "type": "boolean" }, "R1": { "type": "boolean" }, "PYQ": { "type": "boolean" },
+          "R2": { "type": "boolean" }, "E": { "type": "boolean" },
+          "confidence": { "type": "integer", "minimum": 1, "maximum": 5 },
+          "updated": { "type": "string" }
+        }
+      }
+    },
+    "plan_ticks": {
+      "type": "object",
+      "description": "key: ISO date → ticked block indexes and actual hours",
+      "additionalProperties": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "done": { "type": "array", "items": { "type": "integer" } },
+          "actual_hours": { "type": "number" },
+          "note": { "type": "string", "maxLength": 200 }
+        }
+      }
+    },
+    "attempts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "subject", "date", "score", "max"],
+        "additionalProperties": false,
+        "properties": {
+          "id": { "type": "string" },
+          "subject": { "type": "string" },
+          "scope": { "type": "string" },
+          "date": { "type": "string" },
+          "score": { "type": "number" },
+          "max": { "type": "number" },
+          "minutes": { "type": "number" },
+          "wrong": { "type": "array", "items": { "type": "string" } }
+        }
+      }
+    },
+    "mistakes": { "type": "array", "items": { "type": "string" }, "description": "question ids" },
+    "bookmarks": { "type": "array", "items": { "type": "string" } },
+    "my_notes": {
+      "type": "object",
+      "description": "key: <subject>/<chapter-id> → the student's own text",
+      "additionalProperties": { "type": "string", "maxLength": 20000 }
+    }
+  }
+}

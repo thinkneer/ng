@@ -1,0 +1,16 @@
+{
+  "$schema": "../../schemas/exams.schema.json",
+  "class": "12",
+  "board_year": 2027,
+  "source": "CBSE date sheet dated 6 Nov 2026 (cbse.gov.in)",
+  "date_checked": "2026-11-14",
+  "recheck_note": "Recheck on cbse.gov.in before planning; CBSE may revise the date sheet.",
+  "papers": [
+    { "subject": "physics", "name": "Physics", "date": "2027-02-16", "start": "10:30", "duration_minutes": 180 },
+    { "subject": "chemistry", "name": "Chemistry", "date": "2027-02-27", "start": "10:30", "duration_minutes": 180 },
+    { "subject": "english-core", "name": "English Core", "date": "2027-03-05", "start": "10:30", "duration_minutes": 180 },
+    { "subject": "maths", "name": "Mathematics", "date": "2027-03-09", "start": "10:30", "duration_minutes": 180 },
+    { "subject": "biology", "name": "Biology", "date": "2027-03-25", "start": "10:30", "duration_minutes": 180 }
+  ],
+  "practical_window": { "start": "2027-01-01", "end": "2027-02-13", "note": "CBSE practical / project window for Class 12 (regular schools)." }
+}

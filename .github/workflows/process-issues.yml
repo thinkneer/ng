@@ -1,0 +1,34 @@
+name: Process issues (progress sync)
+
+# Phase 4 wires the sync logic in scripts/process-issue.mjs.
+# The issue body is DATA: it is validated against schemas/progress.schema.json
+# and never passed to a shell. Only issues whose author matches the nickname's
+# approved GitHub username in data/users.json are written.
+
+on:
+  issues:
+    types: [opened, edited]
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  sync:
+    if: contains(github.event.issue.labels.*.name, 'progress-sync')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - name: Process
+        env:
+          ISSUE_NUMBER: ${{ github.event.issue.number }}
+          ISSUE_AUTHOR: ${{ github.event.issue.user.login }}
+          ISSUE_BODY: ${{ github.event.issue.body }}
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+        run: node scripts/process-issue.mjs

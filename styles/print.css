@@ -1,0 +1,17 @@
+@media print {
+  :root { --bg: #fff; --surface: #fff; --text: #000; --text-2: #333; --separator: #bbb; }
+  @page { margin: 14mm 12mm; }
+  body { background: #fff; color: #000; font-size: 11pt; }
+  .app { display: block; height: auto; }
+  .sidebar, .tabbar, .topbar, .toasts, .offline-strip, .segmented, .no-print, .install-banner { display: none !important; }
+  .main { overflow: visible; padding: 0; }
+  .view { max-width: none; padding: 0; animation: none; }
+  .card, .list, .stat, .box { box-shadow: none; border: 1px solid #bbb; break-inside: avoid; }
+  .unit-bar { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .box--tip { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .prose { max-width: none; }
+  .prose h2 { break-after: avoid; }
+  a { color: inherit; text-decoration: none; }
+  a[href^="http"]::after { content: " (" attr(href) ")"; font-size: 0.8em; color: #555; }
+  .print-landscape { size: A4 landscape; }
+}

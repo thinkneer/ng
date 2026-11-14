@@ -1,0 +1,80 @@
+/* ---------- Reset & base ---------- */
+*, *::before, *::after { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; height: 100%; }
+body {
+  margin: 0; height: 100%;
+  font-family: var(--font-sans);
+  font-size: var(--fs-body); line-height: var(--lh-body);
+  color: var(--text); background: var(--bg);
+  -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale;
+  -webkit-tap-highlight-color: transparent;
+  overscroll-behavior-y: none;
+  font-feature-settings: "kern";
+}
+h1, h2, h3, h4, p, ul, ol, figure { margin: 0; }
+ul, ol { padding: 0; }
+img, svg { display: block; max-width: 100%; }
+button, input, select, textarea { font: inherit; color: inherit; }
+button { background: none; border: 0; padding: 0; cursor: pointer; text-align: inherit; }
+a { color: var(--accent-text); text-decoration: none; }
+a:hover { text-decoration: underline; }
+:focus { outline: none; }
+:focus-visible { box-shadow: var(--focus); border-radius: var(--r-sm); }
+[hidden] { display: none !important; }
+.sr-only { position: absolute !important; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0; }
+.tnum { font-variant-numeric: tabular-nums; }
+
+/* Inputs: 16px+ on phones so iOS Safari does not zoom */
+input, select, textarea {
+  font-size: max(1rem, var(--fs-callout));
+  background: var(--surface-2); border: 1px solid var(--separator);
+  border-radius: var(--r-md); padding: 0.625rem 0.75rem; min-height: var(--tap);
+  width: 100%;
+}
+input:focus-visible, select:focus-visible, textarea:focus-visible { border-color: var(--accent); box-shadow: var(--focus); }
+textarea { resize: vertical; line-height: 1.5; }
+label { display: block; font-size: var(--fs-footnote); color: var(--text-2); margin-bottom: var(--s-1); font-weight: 600; }
+
+/* Type scale */
+.t-large-title { font-size: var(--fs-large-title); font-weight: 700; line-height: var(--lh-tight); letter-spacing: -0.02em; }
+.t-title { font-size: var(--fs-title); font-weight: 700; line-height: var(--lh-tight); letter-spacing: -0.015em; }
+.t-title2 { font-size: var(--fs-title2); font-weight: 700; line-height: 1.25; letter-spacing: -0.01em; }
+.t-title3 { font-size: var(--fs-title3); font-weight: 600; line-height: 1.3; }
+.t-headline { font-size: var(--fs-headline); font-weight: 600; }
+.t-body { font-size: var(--fs-body); }
+.t-callout { font-size: var(--fs-callout); }
+.t-subhead { font-size: var(--fs-subhead); }
+.t-footnote { font-size: var(--fs-footnote); }
+.t-caption { font-size: var(--fs-caption); }
+.t-2 { color: var(--text-2); }
+.t-3 { color: var(--text-3); }
+.t-accent { color: var(--accent-text); }
+.t-mono { font-family: var(--font-mono); }
+
+/* Pressable things */
+.pressable { transition: transform var(--t-fast) var(--ease-out), opacity var(--t-fast) var(--ease-out), background-color var(--t-fast) var(--ease-out); }
+.pressable:active { transform: scale(0.985); }
+@media (hover: hover) { .pressable:hover { filter: brightness(0.985); } }
+
+/* Skeletons */
+.skeleton { background: var(--skeleton); background-size: 300% 100%; animation: shimmer 1.4s ease-in-out infinite; border-radius: var(--r-sm); color: transparent !important; min-height: 1em; }
+@keyframes shimmer { 0% { background-position: 100% 0; } 100% { background-position: -100% 0; } }
+@media (prefers-reduced-motion: reduce) { .skeleton { animation: none; } }
+
+/* Utilities */
+.row { display: flex; align-items: center; gap: var(--s-3); }
+.row--between { justify-content: space-between; }
+.col { display: flex; flex-direction: column; gap: var(--s-3); }
+.grow { flex: 1 1 auto; min-width: 0; }
+.wrap { flex-wrap: wrap; }
+.stack > * + * { margin-top: var(--s-4); }
+.stack-s > * + * { margin-top: var(--s-2); }
+.stack-l > * + * { margin-top: var(--s-6); }
+.truncate { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.center { text-align: center; }
+.mt-2 { margin-top: var(--s-2); } .mt-4 { margin-top: var(--s-4); } .mt-6 { margin-top: var(--s-6); } .mt-8 { margin-top: var(--s-8); }
+.mb-2 { margin-bottom: var(--s-2); } .mb-4 { margin-bottom: var(--s-4); }
+.hide-phone { display: none; }
+@media (min-width: 768px) { .hide-phone { display: initial; } .hide-tablet-up { display: none !important; } }
+@media (min-width: 1024px) { .hide-desktop { display: none !important; } }
+@media (max-width: 1023.98px) { .only-desktop { display: none !important; } }

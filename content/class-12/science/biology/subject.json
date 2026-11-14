@@ -1,0 +1,51 @@
+{
+  "$schema": "../../../../schemas/subject.schema.json",
+  "id": "biology",
+  "name": "Biology",
+  "code": "044",
+  "class": "12",
+  "stream": "science",
+  "syllabus_year": "2026-27",
+  "theory_marks": 70,
+  "internal_marks": 30,
+  "internal_note": "Practicals 30: one major experiment 5, one minor experiment 4, slide preparation 5, spotting 7, practical record + viva 4, project record + viva 5.",
+  "duration_minutes": 180,
+  "exam_date": "2027-03-25",
+  "colour": "B0204F",
+  "units": [
+    { "id": "VI", "name": "Reproduction", "colour": "B0204F", "marks": 16,
+      "chapters": [
+        { "id": "ch-01", "number": 1, "title": "Sexual Reproduction in Flowering Plants" },
+        { "id": "ch-02", "number": 2, "title": "Human Reproduction" },
+        { "id": "ch-03", "number": 3, "title": "Reproductive Health" }
+      ] },
+    { "id": "VII", "name": "Genetics and Evolution", "colour": "6A3FA0", "marks": 20,
+      "chapters": [
+        { "id": "ch-04", "number": 4, "title": "Principles of Inheritance and Variation" },
+        { "id": "ch-05", "number": 5, "title": "Molecular Basis of Inheritance" },
+        { "id": "ch-06", "number": 6, "title": "Evolution" }
+      ] },
+    { "id": "VIII", "name": "Biology and Human Welfare", "colour": "0E8A7E", "marks": 12,
+      "chapters": [
+        { "id": "ch-07", "number": 7, "title": "Human Health and Disease" },
+        { "id": "ch-08", "number": 8, "title": "Microbes in Human Welfare" }
+      ] },
+    { "id": "IX", "name": "Biotechnology and its Applications", "colour": "1F5FAD", "marks": 12,
+      "chapters": [
+        { "id": "ch-09", "number": 9, "title": "Biotechnology: Principles and Processes" },
+        { "id": "ch-10", "number": 10, "title": "Biotechnology and its Applications" }
+      ] },
+    { "id": "X", "name": "Ecology and Environment", "colour": "2E8B3A", "marks": 10,
+      "chapters": [
+        { "id": "ch-11", "number": 11, "title": "Organisms and Populations" },
+        { "id": "ch-12", "number": 12, "title": "Ecosystem" },
+        { "id": "ch-13", "number": 13, "title": "Biodiversity and Conservation" }
+      ] }
+  ],
+  "not_in_syllabus": ["Reproduction in Organisms", "Strategies for Enhancement in Food Production", "Environmental Issues"],
+  "links": {
+    "ncert": "https://ncert.nic.in/textbook.php",
+    "syllabus": "https://cbseacademic.nic.in/",
+    "sample_paper": "https://cbseacademic.nic.in/"
+  }
+}

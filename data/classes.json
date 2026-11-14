@@ -1,0 +1,134 @@
+{
+  "$schema": "../schemas/classes.schema.json",
+  "updated": "2026-11-14",
+  "classes": [
+    {
+      "id": "9",
+      "name": "Class 9",
+      "board_year": false,
+      "status": "coming-soon",
+      "streams": [
+        {
+          "id": "general",
+          "name": "All subjects",
+          "status": "coming-soon",
+          "subjects": [
+            { "id": "maths", "name": "Mathematics", "short": "Maths", "status": "coming-soon" },
+            { "id": "science", "name": "Science", "short": "Science", "status": "coming-soon" },
+            { "id": "social-science", "name": "Social Science", "short": "SST", "status": "coming-soon" },
+            { "id": "english", "name": "English", "short": "English", "status": "coming-soon" },
+            { "id": "hindi", "name": "Hindi", "short": "Hindi", "status": "coming-soon" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "name": "Class 10",
+      "board_year": true,
+      "status": "coming-soon",
+      "streams": [
+        {
+          "id": "general",
+          "name": "All subjects",
+          "status": "coming-soon",
+          "subjects": [
+            { "id": "maths", "name": "Mathematics", "short": "Maths", "status": "coming-soon" },
+            { "id": "science", "name": "Science", "short": "Science", "status": "coming-soon" },
+            { "id": "social-science", "name": "Social Science", "short": "SST", "status": "coming-soon" },
+            { "id": "english", "name": "English", "short": "English", "status": "coming-soon" },
+            { "id": "hindi", "name": "Hindi", "short": "Hindi", "status": "coming-soon" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "name": "Class 11",
+      "board_year": false,
+      "status": "coming-soon",
+      "streams": [
+        {
+          "id": "science",
+          "name": "Science",
+          "status": "coming-soon",
+          "subjects": [
+            { "id": "physics", "name": "Physics", "short": "Physics", "status": "coming-soon" },
+            { "id": "chemistry", "name": "Chemistry", "short": "Chemistry", "status": "coming-soon" },
+            { "id": "maths", "name": "Mathematics", "short": "Maths", "status": "coming-soon" },
+            { "id": "biology", "name": "Biology", "short": "Biology", "status": "coming-soon" },
+            { "id": "english-core", "name": "English Core", "short": "English", "status": "coming-soon" }
+          ]
+        },
+        {
+          "id": "commerce",
+          "name": "Commerce",
+          "status": "coming-soon",
+          "subjects": [
+            { "id": "accountancy", "name": "Accountancy", "short": "Accounts", "status": "coming-soon" },
+            { "id": "business-studies", "name": "Business Studies", "short": "BST", "status": "coming-soon" },
+            { "id": "economics", "name": "Economics", "short": "Eco", "status": "coming-soon" },
+            { "id": "maths", "name": "Mathematics", "short": "Maths", "status": "coming-soon" },
+            { "id": "english-core", "name": "English Core", "short": "English", "status": "coming-soon" }
+          ]
+        },
+        {
+          "id": "humanities",
+          "name": "Humanities",
+          "status": "coming-soon",
+          "subjects": [
+            { "id": "history", "name": "History", "short": "History", "status": "coming-soon" },
+            { "id": "political-science", "name": "Political Science", "short": "Pol Sci", "status": "coming-soon" },
+            { "id": "geography", "name": "Geography", "short": "Geography", "status": "coming-soon" },
+            { "id": "economics", "name": "Economics", "short": "Eco", "status": "coming-soon" },
+            { "id": "english-core", "name": "English Core", "short": "English", "status": "coming-soon" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "name": "Class 12",
+      "board_year": true,
+      "status": "live",
+      "streams": [
+        {
+          "id": "science",
+          "name": "Science",
+          "status": "live",
+          "subjects": [
+            { "id": "physics", "name": "Physics", "short": "Physics", "code": "042", "status": "live" },
+            { "id": "chemistry", "name": "Chemistry", "short": "Chemistry", "code": "043", "status": "live" },
+            { "id": "maths", "name": "Mathematics", "short": "Maths", "code": "041", "status": "live" },
+            { "id": "biology", "name": "Biology", "short": "Biology", "code": "044", "status": "live" },
+            { "id": "english-core", "name": "English Core", "short": "English", "code": "301", "status": "live" }
+          ]
+        },
+        {
+          "id": "commerce",
+          "name": "Commerce",
+          "status": "coming-soon",
+          "subjects": [
+            { "id": "accountancy", "name": "Accountancy", "short": "Accounts", "status": "coming-soon" },
+            { "id": "business-studies", "name": "Business Studies", "short": "BST", "status": "coming-soon" },
+            { "id": "economics", "name": "Economics", "short": "Eco", "status": "coming-soon" },
+            { "id": "maths", "name": "Mathematics", "short": "Maths", "status": "coming-soon" },
+            { "id": "english-core", "name": "English Core", "short": "English", "status": "coming-soon" }
+          ]
+        },
+        {
+          "id": "humanities",
+          "name": "Humanities",
+          "status": "coming-soon",
+          "subjects": [
+            { "id": "history", "name": "History", "short": "History", "status": "coming-soon" },
+            { "id": "political-science", "name": "Political Science", "short": "Pol Sci", "status": "coming-soon" },
+            { "id": "geography", "name": "Geography", "short": "Geography", "status": "coming-soon" },
+            { "id": "economics", "name": "Economics", "short": "Eco", "status": "coming-soon" },
+            { "id": "english-core", "name": "English Core", "short": "English", "status": "coming-soon" }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "$schema": "../../../../schemas/subject.schema.json",
+  "id": "chemistry",
+  "name": "Chemistry",
+  "code": "043",
+  "class": "12",
+  "stream": "science",
+  "syllabus_year": "2026-27",
+  "theory_marks": 70,
+  "internal_marks": 30,
+  "internal_note": "Practicals 30: volumetric analysis 8, salt analysis 8, content-based experiment 6, project 4, viva 4.",
+  "duration_minutes": 180,
+  "exam_date": "2027-02-27",
+  "colour": "0E8A7E",
+  "units": [
+    { "id": "1", "name": "Solutions", "colour": "1F5FAD", "marks": 7,
+      "chapters": [ { "id": "ch-01", "number": 1, "title": "Solutions" } ] },
+    { "id": "2", "name": "Electrochemistry", "colour": "0E8A7E", "marks": 9,
+      "chapters": [ { "id": "ch-02", "number": 2, "title": "Electrochemistry" } ] },
+    { "id": "3", "name": "Chemical Kinetics", "colour": "C2571A", "marks": 7,
+      "chapters": [ { "id": "ch-03", "number": 3, "title": "Chemical Kinetics" } ] },
+    { "id": "4", "name": "d- and f-Block Elements", "colour": "6A3FA0", "marks": 7,
+      "chapters": [ { "id": "ch-04", "number": 4, "title": "The d- and f-Block Elements" } ] },
+    { "id": "5", "name": "Coordination Compounds", "colour": "B0204F", "marks": 7,
+      "chapters": [ { "id": "ch-05", "number": 5, "title": "Coordination Compounds" } ] },
+    { "id": "6", "name": "Haloalkanes and Haloarenes", "colour": "2E8B3A", "marks": 6,
+      "chapters": [ { "id": "ch-06", "number": 6, "title": "Haloalkanes and Haloarenes" } ] },
+    { "id": "7", "name": "Alcohols, Phenols and Ethers", "colour": "8A6D00", "marks": 6,
+      "chapters": [ { "id": "ch-07", "number": 7, "title": "Alcohols, Phenols and Ethers" } ] },
+    { "id": "8", "name": "Aldehydes, Ketones and Carboxylic Acids", "colour": "2B6F8F", "marks": 8,
+      "chapters": [ { "id": "ch-08", "number": 8, "title": "Aldehydes, Ketones and Carboxylic Acids" } ] },
+    { "id": "9", "name": "Amines", "colour": "9A4A1E", "marks": 6,
+      "chapters": [ { "id": "ch-09", "number": 9, "title": "Amines" } ] },
+    { "id": "10", "name": "Biomolecules", "colour": "5A5A5A", "marks": 7,
+      "chapters": [ { "id": "ch-10", "number": 10, "title": "Biomolecules" } ] }
+  ],
+  "not_in_syllabus": ["Solid State", "Surface Chemistry", "General Principles and Processes of Isolation of Elements", "p-Block Elements", "Polymers", "Chemistry in Everyday Life"],
+  "links": {
+    "ncert": "https://ncert.nic.in/textbook.php",
+    "syllabus": "https://cbseacademic.nic.in/",
+    "sample_paper": "https://cbseacademic.nic.in/"
+  }
+}

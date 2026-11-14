@@ -1,0 +1,50 @@
+{
+  "$schema": "../../../../schemas/subject.schema.json",
+  "id": "maths",
+  "name": "Mathematics",
+  "code": "041",
+  "class": "12",
+  "stream": "science",
+  "syllabus_year": "2026-27",
+  "theory_marks": 80,
+  "internal_marks": 20,
+  "internal_note": "Internal assessment 20: periodic tests 10, mathematics activities 10.",
+  "duration_minutes": 180,
+  "exam_date": "2027-03-09",
+  "colour": "1F5FAD",
+  "units": [
+    { "id": "I", "name": "Relations and Functions", "colour": "1F5FAD", "marks": 8,
+      "chapters": [
+        { "id": "ch-01", "number": 1, "title": "Relations and Functions" },
+        { "id": "ch-02", "number": 2, "title": "Inverse Trigonometric Functions" }
+      ] },
+    { "id": "II", "name": "Algebra", "colour": "0E8A7E", "marks": 10,
+      "chapters": [
+        { "id": "ch-03", "number": 3, "title": "Matrices" },
+        { "id": "ch-04", "number": 4, "title": "Determinants" }
+      ] },
+    { "id": "III", "name": "Calculus", "colour": "6A3FA0", "marks": 35,
+      "chapters": [
+        { "id": "ch-05", "number": 5, "title": "Continuity and Differentiability" },
+        { "id": "ch-06", "number": 6, "title": "Application of Derivatives" },
+        { "id": "ch-07", "number": 7, "title": "Integrals" },
+        { "id": "ch-08", "number": 8, "title": "Application of Integrals" },
+        { "id": "ch-09", "number": 9, "title": "Differential Equations" }
+      ] },
+    { "id": "IV", "name": "Vectors and Three-Dimensional Geometry", "colour": "C2571A", "marks": 14,
+      "chapters": [
+        { "id": "ch-10", "number": 10, "title": "Vector Algebra" },
+        { "id": "ch-11", "number": 11, "title": "Three Dimensional Geometry" }
+      ] },
+    { "id": "V", "name": "Linear Programming", "colour": "2E8B3A", "marks": 5,
+      "chapters": [ { "id": "ch-12", "number": 12, "title": "Linear Programming" } ] },
+    { "id": "VI", "name": "Probability", "colour": "B0204F", "marks": 8,
+      "chapters": [ { "id": "ch-13", "number": 13, "title": "Probability" } ] }
+  ],
+  "not_in_syllabus": [],
+  "links": {
+    "ncert": "https://ncert.nic.in/textbook.php",
+    "syllabus": "https://cbseacademic.nic.in/",
+    "sample_paper": "https://cbseacademic.nic.in/"
+  }
+}

@@ -1,0 +1,1756 @@
+{
+  "generated": "2026-11-14",
+  "classes": [
+    {
+      "id": "9",
+      "name": "Class 9",
+      "board_year": false,
+      "status": "coming-soon",
+      "streams": [
+        {
+          "id": "general",
+          "name": "All subjects",
+          "status": "coming-soon",
+          "subjects": [
+            {
+              "id": "maths",
+              "name": "Mathematics",
+              "short": "Maths",
+              "status": "coming-soon",
+              "path": null,
+              "units": []
+            },
+            {
+              "id": "science",
+              "name": "Science",
+              "short": "Science",
+              "status": "coming-soon",
+              "path": null,
+              "units": []
+            },
+            {
+              "id": "social-science",
+              "name": "Social Science",
+              "short": "SST",
+              "status": "coming-soon",
+              "path": null,
+              "units": []
+            },
+            {
+              "id": "english",
+              "name": "English",
+              "short": "English",
+              "status": "coming-soon",
+              "path": null,
+              "units": []
+            },
+            {
+              "id": "hindi",
+              "name": "Hindi",
+              "short": "Hindi",
+              "status": "coming-soon",
+              "path": null,
+              "units": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "name": "Class 10",
+      "board_year": true,
+      "status": "coming-soon",
+      "streams": [
+        {
+          "id": "general",
+          "name": "All subjects",
+          "status": "coming-soon",
+          "subjects": [
+            {
+              "id": "maths",
+              "name": "Mathematics",
+              "short": "Maths",
+              "status": "coming-soon",
+              "path": null,
+              "units": []
+            },
+            {
+              "id": "science",
+              "name": "Science",
+              "short": "Science",
+              "status": "coming-soon",
+              "path": null,
+              "units": []
+            },
+            {
+              "id": "social-science",
+              "name": "Social Science",
+              "short": "SST",
+              "status": "coming-soon",
+              "path": null,
+              "units": []
+            },
+            {
+              "id": "english",
+              "name": "English",
+              "short": "English",
+              "status": "coming-soon",
+              "path": null,
+              "units": []
+            },
+            {
+              "id": "hindi",
+              "name": "Hindi",
+              "short": "Hindi",
+              "status": "coming-soon",
+              "path": null,
+              "units": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "name": "Class 11",
+      "board_year": false,
+      "status": "coming-soon",
+      "streams": [
+        {
+          "id": "science",
+          "name": "Science",
+          "status": "coming-soon",
+          "subjects": [
+            {
+              "id": "physics",
+              "name": "Physics",
+              "short": "Physics",
+              "status": "coming-soon",
+              "path": null,
+              "units": []
+            },
+            {
+              "id": "chemistry",
+              "name": "Chemistry",
+              "short": "Chemistry",
+              "status": "coming-soon",
+              "path": null,
+              "units": []
+            },
+            {
+              "id": "maths",
+              "name": "Mathematics",
+              "short": "Maths",
+              "status": "coming-soon",
+              "path": null,
+              "units": []
+            },
+            {
+              "id": "biology",
+              "name": "Biology",
+              "short": "Biology",
+              "status": "coming-soon",
+              "path": null,
+              "units": []
+            },
+            {
+              "id": "english-core",
+              "name": "English Core",
+              "short": "English",
+              "status": "coming-soon",
+              "path": null,
+              "units": []
+            }
+          ]
+        },
+        {
+          "id": "commerce",
+          "name": "Commerce",
+          "status": "coming-soon",
+          "subjects": [
+            {
+              "id": "accountancy",
+              "name": "Accountancy",
+              "short": "Accounts",
+              "status": "coming-soon",
+              "path": null,
+              "units": []
+            },
+            {
+              "id": "business-studies",
+              "name": "Business Studies",
+              "short": "BST",
+              "status": "coming-soon",
+              "path": null,
+              "units": []
+            },
+            {
+              "id": "economics",
+              "name": "Economics",
+              "short": "Eco",
+              "status": "coming-soon",
+              "path": null,
+              "units": []
+            },
+            {
+              "id": "maths",
+              "name": "Mathematics",
+              "short": "Maths",
+              "status": "coming-soon",
+              "path": null,
+              "units": []
+            },
+            {
+              "id": "english-core",
+              "name": "English Core",
+              "short": "English",
+              "status": "coming-soon",
+              "path": null,
+              "units": []
+            }
+          ]
+        },
+        {
+          "id": "humanities",
+          "name": "Humanities",
+          "status": "coming-soon",
+          "subjects": [
+            {
+              "id": "history",
+              "name": "History",
+              "short": "History",
+              "status": "coming-soon",
+              "path": null,
+              "units": []
+            },
+            {
+              "id": "political-science",
+              "name": "Political Science",
+              "short": "Pol Sci",
+              "status": "coming-soon",
+              "path": null,
+              "units": []
+            },
+            {
+              "id": "geography",
+              "name": "Geography",
+              "short": "Geography",
+              "status": "coming-soon",
+              "path": null,
+              "units": []
+            },
+            {
+              "id": "economics",
+              "name": "Economics",
+              "short": "Eco",
+              "status": "coming-soon",
+              "path": null,
+              "units": []
+            },
+            {
+              "id": "english-core",
+              "name": "English Core",
+              "short": "English",
+              "status": "coming-soon",
+              "path": null,
+              "units": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "name": "Class 12",
+      "board_year": true,
+      "status": "live",
+      "streams": [
+        {
+          "id": "science",
+          "name": "Science",
+          "status": "live",
+          "subjects": [
+            {
+              "id": "physics",
+              "name": "Physics",
+              "short": "Physics",
+              "code": "042",
+              "status": "live",
+              "path": "content/class-12/science/physics",
+              "units": [
+                {
+                  "id": "I",
+                  "name": "Electrostatics",
+                  "colour": "1F5FAD",
+                  "marks": 16,
+                  "marks_group": "I–II",
+                  "chapters": [
+                    {
+                      "id": "ch-01",
+                      "number": 1,
+                      "title": "Electric Charges and Fields",
+                      "unit": "I",
+                      "items": {},
+                      "marks_hint": null,
+                      "summary": null,
+                      "pdfs": [],
+                      "questions": 0,
+                      "question_types": {}
+                    },
+                    {
+                      "id": "ch-02",
+                      "number": 2,
+                      "title": "Electrostatic Potential and Capacitance",
+                      "unit": "I",
+                      "items": {},
+                      "marks_hint": null,
+                      "summary": null,
+                      "pdfs": [],
+                      "questions": 0,
+                      "question_types": {}
+                    }
+                  ]
+                },
+                {
+                  "id": "II",
+                  "name": "Current Electricity",
+                  "colour": "0E8A7E",
+                  "marks": 16,
+                  "marks_group": "I–II",
+                  "chapters": [
+                    {
+                      "id": "ch-03",
+                      "number": 3,
+                      "title": "Current Electricity",
+                      "unit": "II",
+                      "items": {},
+                      "marks_hint": null,
+                      "summary": null,
+                      "pdfs": [],
+                      "questions": 0,
+                      "question_types": {}
+                    }
+                  ]
+                },
+                {
+                  "id": "III",
+                  "name": "Magnetic Effects of Current and Magnetism",
+                  "colour": "6A3FA0",
+                  "marks": 17,
+                  "marks_group": "III–IV",
+                  "chapters": [
+                    {
+                      "id": "ch-04",
+                      "number": 4,
+                      "title": "Moving Charges and Magnetism",
+                      "unit": "III",
+                      "items": {},
+                      "marks_hint": null,
+                      "summary": null,
+                      "pdfs": [],
+                      "questions": 0,
+                      "question_types": {}
+                    },
+                    {
+                      "id": "ch-05",
+                      "number": 5,
+                      "title": "Magnetism and Matter",
+                      "unit": "III",
+                      "items": {},
+                      "marks_hint": null,
+                      "summary": null,
+                      "pdfs": [],
+                      "questions": 0,
+                      "question_types": {}
+                    }
+                  ]
+                },
+                {
+                  "id": "IV",
+                  "name": "Electromagnetic Induction and Alternating Currents",
+                  "colour": "C2571A",
+                  "marks": 17,
+                  "marks_group": "III–IV",
+                  "chapters": [
+                    {
+                      "id": "ch-06",
+                      "number": 6,
+                      "title": "Electromagnetic Induction",
+                      "unit": "IV",
+                      "items": {},
+                      "marks_hint": null,
+                      "summary": null,
+                      "pdfs": [],
+                      "questions": 0,
+                      "question_types": {}
+                    },
+                    {
+                      "id": "ch-07",
+                      "number": 7,
+                      "title": "Alternating Current",
+                      "unit": "IV",
+                      "items": {},
+                      "marks_hint": null,
+                      "summary": null,
+                      "pdfs": [],
+                      "questions": 0,
+                      "question_types": {}
+                    }
+                  ]
+                },
+                {
+                  "id": "V",
+                  "name": "Electromagnetic Waves",
+                  "colour": "2E8B3A",
+                  "marks": 18,
+                  "marks_group": "V–VI",
+                  "chapters": [
+                    {
+                      "id": "ch-08",
+                      "number": 8,
+                      "title": "Electromagnetic Waves",
+                      "unit": "V",
+                      "items": {},
+                      "marks_hint": null,
+                      "summary": null,
+                      "pdfs": [],
+                      "questions": 0,
+                      "question_types": {}
+                    }
+                  ]
+                },
+                {
+                  "id": "VI",
+                  "name": "Optics",
+                  "colour": "B0204F",
+                  "marks": 18,
+                  "marks_group": "V–VI",
+                  "chapters": [
+                    {
+                      "id": "ch-09",
+                      "number": 9,
+                      "title": "Ray Optics and Optical Instruments",
+                      "unit": "VI",
+                      "items": {},
+                      "marks_hint": null,
+                      "summary": null,
+                      "pdfs": [],
+                      "questions": 0,
+                      "question_types": {}
+                    },
+                    {
+                      "id": "ch-10",
+                      "number": 10,
+                      "title": "Wave Optics",
+                      "unit": "VI",
+                      "items": {},
+                      "marks_hint": null,
+                      "summary": null,
+                      "pdfs": [],
+                      "questions": 0,
+                      "question_types": {}
+                    }
+                  ]
+                },
+                {
+                  "id": "VII",
+                  "name": "Dual Nature of Radiation and Matter",
+                  "colour": "8A6D00",
+                  "marks": 12,
+                  "marks_group": "VII–VIII",
+                  "chapters": [
+                    {
+                      "id": "ch-11",
+                      "number": 11,
+                      "title": "Dual Nature of Radiation and Matter",
+                      "unit": "VII",
+                      "items": {},
+                      "marks_hint": null,
+                      "summary": null,
+                      "pdfs": [],
+                      "questions": 0,
+                      "question_types": {}
+                    }
+                  ]
+                },
+                {
+                  "id": "VIII",
+                  "name": "Atoms and Nuclei",
+                  "colour": "2B6F8F",
+                  "marks": 12,
+                  "marks_group": "VII–VIII",
+                  "chapters": [
+                    {
+                      "id": "ch-12",
+                      "number": 12,
+                      "title": "Atoms",
+                      "unit": "VIII",
+                      "items": {},
+                      "marks_hint": null,
+                      "summary": null,
+                      "pdfs": [],
+                      "questions": 0,
+                      "question_types": {}
+                    },
+                    {
+                      "id": "ch-13",
+                      "number": 13,
+                      "title": "Nuclei",
+                      "unit": "VIII",
+                      "items": {},
+                      "marks_hint": null,
+                      "summary": null,
+                      "pdfs": [],
+                      "questions": 0,
+                      "question_types": {}
+                    }
+                  ]
+                },
+                {
+                  "id": "IX",
+                  "name": "Electronic Devices",
+                  "colour": "5A5A5A",
+                  "marks": 7,
+                  "marks_group": null,
+                  "chapters": [
+                    {
+                      "id": "ch-14",
+                      "number": 14,
+                      "title": "Semiconductor Electronics: Materials, Devices and Simple Circuits",
+                      "unit": "IX",
+                      "items": {},
+                      "marks_hint": null,
+                      "summary": null,
+                      "pdfs": [],
+                      "questions": 0,
+                      "question_types": {}
+                    }
+                  ]
+                }
+              ],
+              "colour": "1F5FAD",
+              "theory_marks": 70,
+              "internal_marks": 30,
+              "exam_date": "2027-02-16",
+              "syllabus_year": "2026-27",
+              "not_in_syllabus": [],
+              "links": {
+                "ncert": "https://ncert.nic.in/textbook.php",
+                "syllabus": "https://cbseacademic.nic.in/",
+                "sample_paper": "https://cbseacademic.nic.in/"
+              },
+              "papers": [],
+              "counts": {
+                "notes": 0,
+                "formulas": 0,
+                "questions": 0,
+                "chapters": 14
+              }
+            },
+            {
+              "id": "chemistry",
+              "name": "Chemistry",
+              "short": "Chemistry",
+              "code": "043",
+              "status": "live",
+              "path": "content/class-12/science/chemistry",
+              "units": [
+                {
+                  "id": "1",
+                  "name": "Solutions",
+                  "colour": "1F5FAD",
+                  "marks": 7,
+                  "marks_group": null,
+                  "chapters": [
+                    {
+                      "id": "ch-01",
+                      "number": 1,
+                      "title": "Solutions",
+                      "unit": "1",
+                      "items": {},
+                      "marks_hint": null,
+                      "summary": null,
+                      "pdfs": [],
+                      "questions": 0,
+                      "question_types": {}
+                    }
+                  ]
+                },
+                {
+                  "id": "2",
+                  "name": "Electrochemistry",
+                  "colour": "0E8A7E",
+                  "marks": 9,
+                  "marks_group": null,
+                  "chapters": [
+                    {
+                      "id": "ch-02",
+                      "number": 2,
+                      "title": "Electrochemistry",
+                      "unit": "2",
+                      "items": {},
+                      "marks_hint": null,
+                      "summary": null,
+                      "pdfs": [],
+                      "questions": 0,
+                      "question_types": {}
+                    }
+                  ]
+                },
+                {
+                  "id": "3",
+                  "name": "Chemical Kinetics",
+                  "colour": "C2571A",
+                  "marks": 7,
+                  "marks_group": null,
+                  "chapters": [
+                    {
+                      "id": "ch-03",
+                      "number": 3,
+                      "title": "Chemical Kinetics",
+                      "unit": "3",
+                      "items": {},
+                      "marks_hint": null,
+                      "summary": null,
+                      "pdfs": [],
+                      "questions": 0,
+                      "question_types": {}
+                    }
+                  ]
+                },
+                {
+                  "id": "4",
+                  "name": "d- and f-Block Elements",
+                  "colour": "6A3FA0",
+                  "marks": 7,
+                  "marks_group": null,
+                  "chapters": [
+                    {
+                      "id": "ch-04",
+                      "number": 4,
+                      "title": "The d- and f-Block Elements",
+                      "unit": "4",
+                      "items": {},
+                      "marks_hint": null,
+                      "summary": null,
+                      "pdfs": [],
+                      "questions": 0,
+                      "question_types": {}
+                    }
+                  ]
+                },
+                {
+                  "id": "5",
+                  "name": "Coordination Compounds",
+                  "colour": "B0204F",
+                  "marks": 7,
+                  "marks_group": null,
+                  "chapters": [
+                    {
+                      "id": "ch-05",
+                      "number": 5,
+                      "title": "Coordination Compounds",
+                      "unit": "5",
+                      "items": {},
+                      "marks_hint": null,
+                      "summary": null,
+                      "pdfs": [],
+                      "questions": 0,
+                      "question_types": {}
+                    }
+                  ]
+                },
+                {
+                  "id": "6",
+                  "name": "Haloalkanes and Haloarenes",
+                  "colour": "2E8B3A",
+                  "marks": 6,
+                  "marks_group": null,
+                  "chapters": [
+                    {
+                      "id": "ch-06",
+                      "number": 6,
+                      "title": "Haloalkanes and Haloarenes",
+                      "unit": "6",
+                      "items": {},
+                      "marks_hint": null,
+                      "summary": null,
+                      "pdfs": [],
+                      "questions": 0,
+                      "question_types": {}
+                    }
+                  ]
+                },
+                {
+                  "id": "7",
+                  "name": "Alcohols, Phenols and Ethers",
+                  "colour": "8A6D00",
+                  "marks": 6,
+                  "marks_group": null,
+                  "chapters": [
+                    {
+                      "id": "ch-07",
+                      "number": 7,
+                      "title": "Alcohols, Phenols and Ethers",
+                      "unit": "7",
+                      "items": {},
+                      "marks_hint": null,
+                      "summary": null,
+                      "pdfs": [],
+                      "questions": 0,
+                      "question_types": {}
+                    }
+                  ]
+                },
+                {
+                  "id": "8",
+                  "name": "Aldehydes, Ketones and Carboxylic Acids",
+                  "colour": "2B6F8F",
+                  "marks": 8,
+                  "marks_group": null,
+                  "chapters": [
+                    {
+                      "id": "ch-08",
+                      "number": 8,
+                      "title": "Aldehydes, Ketones and Carboxylic Acids",
+                      "unit": "8",
+                      "items": {},
+                      "marks_hint": null,
+                      "summary": null,
+                      "pdfs": [],
+                      "questions": 0,
+                      "question_types": {}
+                    }
+                  ]
+                },
+                {
+                  "id": "9",
+                  "name": "Amines",
+                  "colour": "9A4A1E",
+                  "marks": 6,
+                  "marks_group": null,
+                  "chapters": [
+                    {
+                      "id": "ch-09",
+                      "number": 9,
+                      "title": "Amines",
+                      "unit": "9",
+                      "items": {},
+                      "marks_hint": null,
+                      "summary": null,
+                      "pdfs": [],
+                      "questions": 0,
+                      "question_types": {}
+                    }
+                  ]
+                },
+                {
+                  "id": "10",
+                  "name": "Biomolecules",
+                  "colour": "5A5A5A",
+                  "marks": 7,
+                  "marks_group": null,
+                  "chapters": [
+                    {
+                      "id": "ch-10",
+                      "number": 10,
+                      "title": "Biomolecules",
+                      "unit": "10",
+                      "items": {},
+                      "marks_hint": null,
+                      "summary": null,
+                      "pdfs": [],
+                      "questions": 0,
+                      "question_types": {}
+                    }
+                  ]
+                }
+              ],
+              "colour": "0E8A7E",
+              "theory_marks": 70,
+              "internal_marks": 30,
+              "exam_date": "2027-02-27",
+              "syllabus_year": "2026-27",
+              "not_in_syllabus": [
+                "Solid State",
+                "Surface Chemistry",
+                "General Principles and Processes of Isolation of Elements",
+                "p-Block Elements",
+                "Polymers",
+                "Chemistry in Everyday Life"
+              ],
+              "links": {
+                "ncert": "https://ncert.nic.in/textbook.php",
+                "syllabus": "https://cbseacademic.nic.in/",
+                "sample_paper": "https://cbseacademic.nic.in/"
+              },
+              "papers": [],
+              "counts": {
+                "notes": 0,
+                "formulas": 0,
+                "questions": 0,
+                "chapters": 10
+              }
+            },
+            {
+              "id": "maths",
+              "name": "Mathematics",
+              "short": "Maths",
+              "code": "041",
+              "status": "live",
+              "path": "content/class-12/science/maths",
+              "units": [
+                {
+                  "id": "I",
+                  "name": "Relations and Functions",
+                  "colour": "1F5FAD",
+                  "marks": 8,
+                  "marks_group": null,
+                  "chapters": [
+                    {
+                      "id": "ch-01",
+                      "number": 1,
+                      "title": "Relations and Functions",
+                      "unit": "I",
+                      "items": {},
+                      "marks_hint": null,
+                      "summary": null,
+                      "pdfs": [],
+                      "questions": 0,
+                      "question_types": {}
+                    },
+                    {
+                      "id": "ch-02",
+                      "number": 2,
+                      "title": "Inverse Trigonometric Functions",
+                      "unit": "I",
+                      "items": {},
+                      "marks_hint": null,
+                      "summary": null,
+                      "pdfs": [],
+                      "questions": 0,
+                      "question_types": {}
+                    }
+                  ]
+                },
+                {
+                  "id": "II",
+                  "name": "Algebra",
+                  "colour": "0E8A7E",
+                  "marks": 10,
+                  "marks_group": null,
+                  "chapters": [
+                    {
+                      "id": "ch-03",
+                      "number": 3,
+                      "title": "Matrices",
+                      "unit": "II",
+                      "items": {},
+                      "marks_hint": null,
+                      "summary": null,
+                      "pdfs": [],
+                      "questions": 0,
+                      "question_types": {}
+                    },
+                    {
+                      "id": "ch-04",
+                      "number": 4,
+                      "title": "Determinants",
+                      "unit": "II",
+                      "items": {},
+                      "marks_hint": null,
+                      "summary": null,
+                      "pdfs": [],
+                      "questions": 0,
+                      "question_types": {}
+                    }
+                  ]
+                },
+                {
+                  "id": "III",
+                  "name": "Calculus",
+                  "colour": "6A3FA0",
+                  "marks": 35,
+                  "marks_group": null,
+                  "chapters": [
+                    {
+                      "id": "ch-05",
+                      "number": 5,
+                      "title": "Continuity and Differentiability",
+                      "unit": "III",
+                      "items": {},
+                      "marks_hint": null,
+                      "summary": null,
+                      "pdfs": [],
+                      "questions": 0,
+                      "question_types": {}
+                    },
+                    {
+                      "id": "ch-06",
+                      "number": 6,
+                      "title": "Application of Derivatives",
+                      "unit": "III",
+                      "items": {},
+                      "marks_hint": null,
+                      "summary": null,
+                      "pdfs": [],
+                      "questions": 0,
+                      "question_types": {}
+                    },
+                    {
+                      "id": "ch-07",
+                      "number": 7,
+                      "title": "Integrals",
+                      "unit": "III",
+                      "items": {},
+                      "marks_hint": null,
+                      "summary": null,
+                      "pdfs": [],
+                      "questions": 0,
+                      "question_types": {}
+                    },
+                    {
+                      "id": "ch-08",
+                      "number": 8,
+                      "title": "Application of Integrals",
+                      "unit": "III",
+                      "items": {},
+                      "marks_hint": null,
+                      "summary": null,
+                      "pdfs": [],
+                      "questions": 0,
+                      "question_types": {}
+                    },
+                    {
+                      "id": "ch-09",
+                      "number": 9,
+                      "title": "Differential Equations",
+                      "unit": "III",
+                      "items": {},
+                      "marks_hint": null,
+                      "summary": null,
+                      "pdfs": [],
+                      "questions": 0,
+                      "question_types": {}
+                    }
+                  ]
+                },
+                {
+                  "id": "IV",
+                  "name": "Vectors and Three-Dimensional Geometry",
+                  "colour": "C2571A",
+                  "marks": 14,
+                  "marks_group": null,
+                  "chapters": [
+                    {
+                      "id": "ch-10",
+                      "number": 10,
+                      "title": "Vector Algebra",
+                      "unit": "IV",
+                      "items": {},
+                      "marks_hint": null,
+                      "summary": null,
+                      "pdfs": [],
+                      "questions": 0,
+                      "question_types": {}
+                    },
+                    {
+                      "id": "ch-11",
+                      "number": 11,
+                      "title": "Three Dimensional Geometry",
+                      "unit": "IV",
+                      "items": {},
+                      "marks_hint": null,
+                      "summary": null,
+                      "pdfs": [],
+                      "questions": 0,
+                      "question_types": {}
+                    }
+                  ]
+                },
+                {
+                  "id": "V",
+                  "name": "Linear Programming",
+                  "colour": "2E8B3A",
+                  "marks": 5,
+                  "marks_group": null,
+                  "chapters": [
+                    {
+                      "id": "ch-12",
+                      "number": 12,
+                      "title": "Linear Programming",
+                      "unit": "V",
+                      "items": {},
+                      "marks_hint": null,
+                      "summary": null,
+                      "pdfs": [],
+                      "questions": 0,
+                      "question_types": {}
+                    }
+                  ]
+                },
+                {
+                  "id": "VI",
+                  "name": "Probability",
+                  "colour": "B0204F",
+                  "marks": 8,
+                  "marks_group": null,
+                  "chapters": [
+                    {
+                      "id": "ch-13",
+                      "number": 13,
+                      "title": "Probability",
+                      "unit": "VI",
+                      "items": {},
+                      "marks_hint": null,
+                      "summary": null,
+                      "pdfs": [],
+                      "questions": 0,
+                      "question_types": {}
+                    }
+                  ]
+                }
+              ],
+              "colour": "1F5FAD",
+              "theory_marks": 80,
+              "internal_marks": 20,
+              "exam_date": "2027-03-09",
+              "syllabus_year": "2026-27",
+              "not_in_syllabus": [],
+              "links": {
+                "ncert": "https://ncert.nic.in/textbook.php",
+                "syllabus": "https://cbseacademic.nic.in/",
+                "sample_paper": "https://cbseacademic.nic.in/"
+              },
+              "papers": [],
+              "counts": {
+                "notes": 0,
+                "formulas": 0,
+                "questions": 0,
+                "chapters": 13
+              }
+            },
+            {
+              "id": "biology",
+              "name": "Biology",
+              "short": "Biology",
+              "code": "044",
+              "status": "live",
+              "path": "content/class-12/science/biology",
+              "units": [
+                {
+                  "id": "VI",
+                  "name": "Reproduction",
+                  "colour": "B0204F",
+                  "marks": 16,
+                  "marks_group": null,
+                  "chapters": [
+                    {
+                      "id": "ch-01",
+                      "number": 1,
+                      "title": "Sexual Reproduction in Flowering Plants",
+                      "unit": "VI",
+                      "items": {},
+                      "marks_hint": null,
+                      "summary": null,
+                      "pdfs": [],
+                      "questions": 0,
+                      "question_types": {}
+                    },
+                    {
+                      "id": "ch-02",
+                      "number": 2,
+                      "title": "Human Reproduction",
+                      "unit": "VI",
+                      "items": {},
+                      "marks_hint": null,
+                      "summary": null,
+                      "pdfs": [],
+                      "questions": 0,
+                      "question_types": {}
+                    },
+                    {
+                      "id": "ch-03",
+                      "number": 3,
+                      "title": "Reproductive Health",
+                      "unit": "VI",
+                      "items": {},
+                      "marks_hint": null,
+                      "summary": null,
+                      "pdfs": [],
+                      "questions": 0,
+                      "question_types": {}
+                    }
+                  ]
+                },
+                {
+                  "id": "VII",
+                  "name": "Genetics and Evolution",
+                  "colour": "6A3FA0",
+                  "marks": 20,
+                  "marks_group": null,
+                  "chapters": [
+                    {
+                      "id": "ch-04",
+                      "number": 4,
+                      "title": "Principles of Inheritance and Variation",
+                      "unit": "VII",
+                      "items": {},
+                      "marks_hint": null,
+                      "summary": null,
+                      "pdfs": [],
+                      "questions": 0,
+                      "question_types": {}
+                    },
+                    {
+                      "id": "ch-05",
+                      "number": 5,
+                      "title": "Molecular Basis of Inheritance",
+                      "unit": "VII",
+                      "items": {},
+                      "marks_hint": null,
+                      "summary": null,
+                      "pdfs": [],
+                      "questions": 0,
+                      "question_types": {}
+                    },
+                    {
+                      "id": "ch-06",
+                      "number": 6,
+                      "title": "Evolution",
+                      "unit": "VII",
+                      "items": {},
+                      "marks_hint": null,
+                      "summary": null,
+                      "pdfs": [],
+                      "questions": 0,
+                      "question_types": {}
+                    }
+                  ]
+                },
+                {
+                  "id": "VIII",
+                  "name": "Biology and Human Welfare",
+                  "colour": "0E8A7E",
+                  "marks": 12,
+                  "marks_group": null,
+                  "chapters": [
+                    {
+                      "id": "ch-07",
+                      "number": 7,
+                      "title": "Human Health and Disease",
+                      "unit": "VIII",
+                      "items": {},
+                      "marks_hint": null,
+                      "summary": null,
+                      "pdfs": [],
+                      "questions": 0,
+                      "question_types": {}
+                    },
+                    {
+                      "id": "ch-08",
+                      "number": 8,
+                      "title": "Microbes in Human Welfare",
+                      "unit": "VIII",
+                      "items": {},
+                      "marks_hint": null,
+                      "summary": null,
+                      "pdfs": [],
+                      "questions": 0,
+                      "question_types": {}
+                    }
+                  ]
+                },
+                {
+                  "id": "IX",
+                  "name": "Biotechnology and its Applications",
+                  "colour": "1F5FAD",
+                  "marks": 12,
+                  "marks_group": null,
+                  "chapters": [
+                    {
+                      "id": "ch-09",
+                      "number": 9,
+                      "title": "Biotechnology: Principles and Processes",
+                      "unit": "IX",
+                      "items": {},
+                      "marks_hint": null,
+                      "summary": null,
+                      "pdfs": [],
+                      "questions": 0,
+                      "question_types": {}
+                    },
+                    {
+                      "id": "ch-10",
+                      "number": 10,
+                      "title": "Biotechnology and its Applications",
+                      "unit": "IX",
+                      "items": {},
+                      "marks_hint": null,
+                      "summary": null,
+                      "pdfs": [],
+                      "questions": 0,
+                      "question_types": {}
+                    }
+                  ]
+                },
+                {
+                  "id": "X",
+                  "name": "Ecology and Environment",
+                  "colour": "2E8B3A",
+                  "marks": 10,
+                  "marks_group": null,
+                  "chapters": [
+                    {
+                      "id": "ch-11",
+                      "number": 11,
+                      "title": "Organisms and Populations",
+                      "unit": "X",
+                      "items": {},
+                      "marks_hint": null,
+                      "summary": null,
+                      "pdfs": [],
+                      "questions": 0,
+                      "question_types": {}
+                    },
+                    {
+                      "id": "ch-12",
+                      "number": 12,
+                      "title": "Ecosystem",
+                      "unit": "X",
+                      "items": {},
+                      "marks_hint": null,
+                      "summary": null,
+                      "pdfs": [],
+                      "questions": 0,
+                      "question_types": {}
+                    },
+                    {
+                      "id": "ch-13",
+                      "number": 13,
+                      "title": "Biodiversity and Conservation",
+                      "unit": "X",
+                      "items": {},
+                      "marks_hint": null,
+                      "summary": null,
+                      "pdfs": [],
+                      "questions": 0,
+                      "question_types": {}
+                    }
+                  ]
+                }
+              ],
+              "colour": "B0204F",
+              "theory_marks": 70,
+              "internal_marks": 30,
+              "exam_date": "2027-03-25",
+              "syllabus_year": "2026-27",
+              "not_in_syllabus": [
+                "Reproduction in Organisms",
+                "Strategies for Enhancement in Food Production",
+                "Environmental Issues"
+              ],
+              "links": {
+                "ncert": "https://ncert.nic.in/textbook.php",
+                "syllabus": "https://cbseacademic.nic.in/",
+                "sample_paper": "https://cbseacademic.nic.in/"
+              },
+              "papers": [],
+              "counts": {
+                "notes": 0,
+                "formulas": 0,
+                "questions": 0,
+                "chapters": 13
+              }
+            },
+            {
+              "id": "english-core",
+              "name": "English Core",
+              "short": "English",
+              "code": "301",
+              "status": "live",
+              "path": "content/class-12/science/english-core",
+              "units": [
+                {
+                  "id": "A",
+                  "name": "Reading Skills",
+                  "colour": "1F5FAD",
+                  "marks": 22,
+                  "marks_group": null,
+                  "chapters": [
+                    {
+                      "id": "reading-unseen",
+                      "number": 1,
+                      "title": "Unseen passage: method and question types",
+                      "unit": "A",
+                      "items": {},
+                      "marks_hint": null,
+                      "summary": null,
+                      "pdfs": [],
+                      "questions": 0,
+                      "question_types": {}
+                    },
+                    {
+                      "id": "reading-case",
+                      "number": 2,
+                      "title": "Case-based / factual passage with charts",
+                      "unit": "A",
+                      "items": {},
+                      "marks_hint": null,
+                      "summary": null,
+                      "pdfs": [],
+                      "questions": 0,
+                      "question_types": {}
+                    }
+                  ]
+                },
+                {
+                  "id": "B",
+                  "name": "Creative Writing Skills",
+                  "colour": "C2571A",
+                  "marks": 18,
+                  "marks_group": null,
+                  "chapters": [
+                    {
+                      "id": "writing-notice",
+                      "number": 3,
+                      "title": "Notice",
+                      "unit": "B",
+                      "items": {},
+                      "marks_hint": null,
+                      "summary": null,
+                      "pdfs": [],
+                      "questions": 0,
+                      "question_types": {}
+                    },
+                    {
+                      "id": "writing-invitation",
+                      "number": 4,
+                      "title": "Invitations and replies",
+                      "unit": "B",
+                      "items": {},
+                      "marks_hint": null,
+                      "summary": null,
+                      "pdfs": [],
+                      "questions": 0,
+                      "question_types": {}
+                    },
+                    {
+                      "id": "writing-letter",
+                      "number": 5,
+                      "title": "Letters: editor, complaint, job application with bio-data",
+                      "unit": "B",
+                      "items": {},
+                      "marks_hint": null,
+                      "summary": null,
+                      "pdfs": [],
+                      "questions": 0,
+                      "question_types": {}
+                    },
+                    {
+                      "id": "writing-article-report",
+                      "number": 6,
+                      "title": "Article and report writing",
+                      "unit": "B",
+                      "items": {},
+                      "marks_hint": null,
+                      "summary": null,
+                      "pdfs": [],
+                      "questions": 0,
+                      "question_types": {}
+                    }
+                  ]
+                },
+                {
+                  "id": "C1",
+                  "name": "Literature: Flamingo (prose)",
+                  "colour": "6A3FA0",
+                  "marks": 40,
+                  "marks_group": "C",
+                  "chapters": [
+                    {
+                      "id": "flamingo-01",
+                      "number": 7,
+                      "title": "The Last Lesson",
+                      "unit": "C1",
+                      "items": {},
+                      "marks_hint": null,
+                      "summary": null,
+                      "pdfs": [],
+                      "questions": 0,
+                      "question_types": {}
+                    },
+                    {
+                      "id": "flamingo-02",
+                      "number": 8,
+                      "title": "Lost Spring",
+                      "unit": "C1",
+                      "items": {},
+                      "marks_hint": null,
+                      "summary": null,
+                      "pdfs": [],
+                      "questions": 0,
+                      "question_types": {}
+                    },
+                    {
+                      "id": "flamingo-03",
+                      "number": 9,
+                      "title": "Deep Water",
+                      "unit": "C1",
+                      "items": {},
+                      "marks_hint": null,
+                      "summary": null,
+                      "pdfs": [],
+                      "questions": 0,
+                      "question_types": {}
+                    },
+                    {
+                      "id": "flamingo-04",
+                      "number": 10,
+                      "title": "The Rattrap",
+                      "unit": "C1",
+                      "items": {},
+                      "marks_hint": null,
+                      "summary": null,
+                      "pdfs": [],
+                      "questions": 0,
+                      "question_types": {}
+                    },
+                    {
+                      "id": "flamingo-05",
+                      "number": 11,
+                      "title": "Indigo",
+                      "unit": "C1",
+                      "items": {},
+                      "marks_hint": null,
+                      "summary": null,
+                      "pdfs": [],
+                      "questions": 0,
+                      "question_types": {}
+                    },
+                    {
+                      "id": "flamingo-06",
+                      "number": 12,
+                      "title": "Poets and Pancakes",
+                      "unit": "C1",
+                      "items": {},
+                      "marks_hint": null,
+                      "summary": null,
+                      "pdfs": [],
+                      "questions": 0,
+                      "question_types": {}
+                    },
+                    {
+                      "id": "flamingo-07",
+                      "number": 13,
+                      "title": "The Interview",
+                      "unit": "C1",
+                      "items": {},
+                      "marks_hint": null,
+                      "summary": null,
+                      "pdfs": [],
+                      "questions": 0,
+                      "question_types": {}
+                    },
+                    {
+                      "id": "flamingo-08",
+                      "number": 14,
+                      "title": "Going Places",
+                      "unit": "C1",
+                      "items": {},
+                      "marks_hint": null,
+                      "summary": null,
+                      "pdfs": [],
+                      "questions": 0,
+                      "question_types": {}
+                    }
+                  ]
+                },
+                {
+                  "id": "C2",
+                  "name": "Literature: Flamingo (poetry)",
+                  "colour": "B0204F",
+                  "marks": 40,
+                  "marks_group": "C",
+                  "chapters": [
+                    {
+                      "id": "poem-01",
+                      "number": 15,
+                      "title": "My Mother at Sixty-six",
+                      "unit": "C2",
+                      "items": {},
+                      "marks_hint": null,
+                      "summary": null,
+                      "pdfs": [],
+                      "questions": 0,
+                      "question_types": {}
+                    },
+                    {
+                      "id": "poem-02",
+                      "number": 16,
+                      "title": "Keeping Quiet",
+                      "unit": "C2",
+                      "items": {},
+                      "marks_hint": null,
+                      "summary": null,
+                      "pdfs": [],
+                      "questions": 0,
+                      "question_types": {}
+                    },
+                    {
+                      "id": "poem-03",
+                      "number": 17,
+                      "title": "A Thing of Beauty",
+                      "unit": "C2",
+                      "items": {},
+                      "marks_hint": null,
+                      "summary": null,
+                      "pdfs": [],
+                      "questions": 0,
+                      "question_types": {}
+                    },
+                    {
+                      "id": "poem-04",
+                      "number": 18,
+                      "title": "A Roadside Stand",
+                      "unit": "C2",
+                      "items": {},
+                      "marks_hint": null,
+                      "summary": null,
+                      "pdfs": [],
+                      "questions": 0,
+                      "question_types": {}
+                    },
+                    {
+                      "id": "poem-05",
+                      "number": 19,
+                      "title": "Aunt Jennifer's Tigers",
+                      "unit": "C2",
+                      "items": {},
+                      "marks_hint": null,
+                      "summary": null,
+                      "pdfs": [],
+                      "questions": 0,
+                      "question_types": {}
+                    }
+                  ]
+                },
+                {
+                  "id": "C3",
+                  "name": "Literature: Vistas",
+                  "colour": "2E8B3A",
+                  "marks": 40,
+                  "marks_group": "C",
+                  "chapters": [
+                    {
+                      "id": "vistas-01",
+                      "number": 20,
+                      "title": "The Third Level",
+                      "unit": "C3",
+                      "items": {},
+                      "marks_hint": null,
+                      "summary": null,
+                      "pdfs": [],
+                      "questions": 0,
+                      "question_types": {}
+                    },
+                    {
+                      "id": "vistas-02",
+                      "number": 21,
+                      "title": "The Tiger King",
+                      "unit": "C3",
+                      "items": {},
+                      "marks_hint": null,
+                      "summary": null,
+                      "pdfs": [],
+                      "questions": 0,
+                      "question_types": {}
+                    },
+                    {
+                      "id": "vistas-03",
+                      "number": 22,
+                      "title": "Journey to the End of the Earth",
+                      "unit": "C3",
+                      "items": {},
+                      "marks_hint": null,
+                      "summary": null,
+                      "pdfs": [],
+                      "questions": 0,
+                      "question_types": {}
+                    },
+                    {
+                      "id": "vistas-04",
+                      "number": 23,
+                      "title": "The Enemy",
+                      "unit": "C3",
+                      "items": {},
+                      "marks_hint": null,
+                      "summary": null,
+                      "pdfs": [],
+                      "questions": 0,
+                      "question_types": {}
+                    },
+                    {
+                      "id": "vistas-05",
+                      "number": 24,
+                      "title": "On the Face of It",
+                      "unit": "C3",
+                      "items": {},
+                      "marks_hint": null,
+                      "summary": null,
+                      "pdfs": [],
+                      "questions": 0,
+                      "question_types": {}
+                    },
+                    {
+                      "id": "vistas-06",
+                      "number": 25,
+                      "title": "Memories of Childhood",
+                      "unit": "C3",
+                      "items": {},
+                      "marks_hint": null,
+                      "summary": null,
+                      "pdfs": [],
+                      "questions": 0,
+                      "question_types": {}
+                    }
+                  ]
+                }
+              ],
+              "colour": "2B6F8F",
+              "theory_marks": 80,
+              "internal_marks": 20,
+              "exam_date": "2027-03-05",
+              "syllabus_year": "2026-27",
+              "not_in_syllabus": [
+                "An Elementary School Classroom in a Slum",
+                "Should Wizard Hit Mommy?",
+                "Evans Tries an O-Level"
+              ],
+              "links": {
+                "ncert": "https://ncert.nic.in/textbook.php",
+                "syllabus": "https://cbseacademic.nic.in/",
+                "sample_paper": "https://cbseacademic.nic.in/"
+              },
+              "papers": [],
+              "counts": {
+                "notes": 0,
+                "formulas": 0,
+                "questions": 0,
+                "chapters": 25
+              }
+            }
+          ]
+        },
+        {
+          "id": "commerce",
+          "name": "Commerce",
+          "status": "coming-soon",
+          "subjects": [
+            {
+              "id": "accountancy",
+              "name": "Accountancy",
+              "short": "Accounts",
+              "status": "coming-soon",
+              "path": null,
+              "units": []
+            },
+            {
+              "id": "business-studies",
+              "name": "Business Studies",
+              "short": "BST",
+              "status": "coming-soon",
+              "path": null,
+              "units": []
+            },
+            {
+              "id": "economics",
+              "name": "Economics",
+              "short": "Eco",
+              "status": "coming-soon",
+              "path": null,
+              "units": []
+            },
+            {
+              "id": "maths",
+              "name": "Mathematics",
+              "short": "Maths",
+              "status": "coming-soon",
+              "path": null,
+              "units": []
+            },
+            {
+              "id": "english-core",
+              "name": "English Core",
+              "short": "English",
+              "status": "coming-soon",
+              "path": null,
+              "units": []
+            }
+          ]
+        },
+        {
+          "id": "humanities",
+          "name": "Humanities",
+          "status": "coming-soon",
+          "subjects": [
+            {
+              "id": "history",
+              "name": "History",
+              "short": "History",
+              "status": "coming-soon",
+              "path": null,
+              "units": []
+            },
+            {
+              "id": "political-science",
+              "name": "Political Science",
+              "short": "Pol Sci",
+              "status": "coming-soon",
+              "path": null,
+              "units": []
+            },
+            {
+              "id": "geography",
+              "name": "Geography",
+              "short": "Geography",
+              "status": "coming-soon",
+              "path": null,
+              "units": []
+            },
+            {
+              "id": "economics",
+              "name": "Economics",
+              "short": "Eco",
+              "status": "coming-soon",
+              "path": null,
+              "units": []
+            },
+            {
+              "id": "english-core",
+              "name": "English Core",
+              "short": "English",
+              "status": "coming-soon",
+              "path": null,
+              "units": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "exams": {
+    "12-2027": "data/exams/class-12-2027.json"
+  },
+  "plans": {
+    "12-2027": "data/plans/class-12-2027.json"
+  },
+  "patterns": {
+    "12/biology": "data/patterns/class-12/biology.json",
+    "12/chemistry": "data/patterns/class-12/chemistry.json",
+    "12/english-core": "data/patterns/class-12/english-core.json",
+    "12/maths": "data/patterns/class-12/maths.json",
+    "12/physics": "data/patterns/class-12/physics.json"
+  }
+}

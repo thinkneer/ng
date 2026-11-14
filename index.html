@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>ng · CBSE board prep</title>
+  <meta name="description" content="Free CBSE Class 12 Science board-exam prep: must-have notes, formula sheets, practice, timed papers and a day-by-day Board_Plan_2027. No login needed.">
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" media="(prefers-color-scheme: light)" content="#F2F2F7">
+  <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#0E0F13">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="ng">
+  <meta name="application-name" content="ng">
+  <meta name="format-detection" content="telephone=no">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="assets/icons/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="assets/icons/icon-192.png" sizes="192x192" type="image/png">
+  <link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png">
+  <meta property="og:title" content="ng · CBSE board prep">
+  <meta property="og:description" content="Free notes, practice, timed papers and a personal board plan for CBSE Class 12 Science (2027 boards).">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://thinkneer.github.io/ng/">
+  <meta property="og:image" content="https://thinkneer.github.io/ng/assets/icons/icon-512.png">
+  <link rel="canonical" href="https://thinkneer.github.io/ng/">
+  <script>
+    // Apply the saved theme before first paint so there is no flash.
+    (function () {
+      try {
+        var t = localStorage.getItem('ng.theme');
+        if (t === 'light' || t === 'dark') document.documentElement.setAttribute('data-theme', t);
+      } catch (e) {}
+    })();
+  </script>
+  <link rel="stylesheet" href="styles/tokens.css">
+  <link rel="stylesheet" href="styles/base.css">
+  <link rel="stylesheet" href="styles/layout.css">
+  <link rel="stylesheet" href="styles/components.css">
+  <link rel="stylesheet" href="styles/print.css">
+  <link rel="modulepreload" href="app/main.js">
+  <link rel="modulepreload" href="app/router.js">
+  <link rel="modulepreload" href="app/ui.js">
+  <link rel="modulepreload" href="app/store.js">
+  <link rel="modulepreload" href="app/data.js">
+  <link rel="modulepreload" href="app/icons.js">
+  <noscript><style>.needs-js{display:none}</style></noscript>
+</head>
+<body>
+  <div class="app" id="app">
+    <aside class="sidebar" id="sidebar" aria-label="Sections"></aside>
+    <main class="main" id="main" tabindex="-1">
+      <header class="topbar" id="topbar">
+        <div class="topbar__start" id="topbar-start"></div>
+        <div class="topbar__title" id="topbar-title" aria-hidden="true"></div>
+        <div class="topbar__end" id="topbar-end"></div>
+      </header>
+      <div class="view" id="view" aria-live="polite">
+        <noscript>
+          <div class="card" style="margin-top:1rem">
+            <h1 class="t-title2">ng · CBSE board prep</h1>
+            <p class="t-2 mt-2">This site needs JavaScript to run. The notes and PDFs are also in the repository: <a href="https://github.com/thinkneer/ng">github.com/thinkneer/ng</a>.</p>
+          </div>
+        </noscript>
+        <div class="needs-js" style="padding-top:1rem">
+          <div class="skeleton" style="height:2.2rem;width:60%;margin-bottom:1rem"></div>
+          <div class="skeleton" style="height:7rem;border-radius:16px;margin-bottom:0.75rem"></div>
+          <div class="skeleton" style="height:3.25rem;border-radius:16px;margin-bottom:0.5rem"></div>
+          <div class="skeleton" style="height:3.25rem;border-radius:16px"></div>
+        </div>
+      </div>
+    </main>
+    <nav class="tabbar" id="tabbar" aria-label="Main"></nav>
+    <div class="toasts" id="toasts" role="status" aria-live="polite"></div>
+    <div id="sheets"></div>
+  </div>
+  <script type="module" src="app/main.js"></script>
+</body>
+</html>

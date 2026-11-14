@@ -1,0 +1,139 @@
+{
+  "$schema": "../../schemas/plan.schema.json",
+  "class": "12",
+  "board_year": 2027,
+  "name": "Board_Plan_2027",
+  "source": "Board-only plan of 14 Nov 2026 (study-plans.md). School dates from the student's school; items marked assumed are defaults to be edited.",
+  "updated": "2026-11-14",
+  "defaults": {
+    "school_day_hours": 5,
+    "holiday_hours": 6,
+    "study_leave_hours": 6.5,
+    "subject_weights": { "physics": 1.2, "chemistry": 1.2, "maths": 1.2, "biology": 1.0, "english-core": 0.6 },
+    "half_day_off": "sunday-pm",
+    "weekly_review_day": "saturday",
+    "timed_paper_day": "sunday"
+  },
+  "school_dates": {
+    "preboard1": {
+      "start": "2026-11-16", "end": "2026-11-27", "assumed": false,
+      "papers": [
+        { "subject": "chemistry", "date": "2026-11-16" },
+        { "subject": "physics", "date": "2026-11-18" },
+        { "subject": "english-core", "date": "2026-11-21" },
+        { "subject": "maths", "date": "2026-11-23" },
+        { "subject": "biology", "date": "2026-11-27", "assumed": true }
+      ]
+    },
+    "preboard2": { "start": "2026-12-14", "end": "2026-12-23", "assumed": true, "note": "Start confirmed; end assumed." },
+    "practicals": { "start": "2027-01-11", "end": "2027-01-23", "assumed": true, "note": "School practicals; CBSE window is 1 Jan–13 Feb." },
+    "study_leave_start": { "date": "2027-02-01", "assumed": true },
+    "holidays": [ { "date": "2026-12-25", "note": "Rest day" } ]
+  },
+  "day_types": [
+    { "id": "school", "name": "School day", "hours": 5,
+      "blocks": [
+        { "label": "Block 1", "minutes": 90, "kind": "study", "subject": "rotate" },
+        { "label": "Block 2", "minutes": 90, "kind": "study", "subject": "rotate" },
+        { "label": "Block 3", "minutes": 60, "kind": "study", "subject": "rotate" },
+        { "label": "Block 4", "minutes": 45, "kind": "practice", "subject": "weak" },
+        { "label": "Recall", "minutes": 15, "kind": "recall" }
+      ] },
+    { "id": "saturday", "name": "Saturday", "hours": 6,
+      "blocks": [
+        { "label": "Block 1", "minutes": 90, "kind": "study", "subject": "rotate" },
+        { "label": "Block 2", "minutes": 90, "kind": "study", "subject": "rotate" },
+        { "label": "Block 3", "minutes": 90, "kind": "practice", "subject": "rotate" },
+        { "label": "Block 4", "minutes": 60, "kind": "revise", "subject": "weak" },
+        { "label": "Weekly review", "minutes": 30, "kind": "review" }
+      ] },
+    { "id": "sunday", "name": "Sunday (timed paper)", "hours": 4.5,
+      "blocks": [
+        { "label": "Timed paper", "minutes": 180, "kind": "timed-paper", "subject": "rotate", "start": "10:30" },
+        { "label": "Analysis", "minutes": 90, "kind": "analysis", "subject": "rotate" },
+        { "label": "Afternoon off", "minutes": 240, "kind": "rest" }
+      ] },
+    { "id": "preboard", "name": "Pre-board paper day", "hours": 3.5,
+      "blocks": [
+        { "label": "School paper", "minutes": 180, "kind": "timed-paper", "subject": "next-paper" },
+        { "label": "Light revision for next paper", "minutes": 120, "kind": "revise", "subject": "next-paper" },
+        { "label": "Recall", "minutes": 30, "kind": "recall" }
+      ] },
+    { "id": "preboard-gap", "name": "Pre-board gap day", "hours": 5,
+      "blocks": [
+        { "label": "Next paper: revise", "minutes": 120, "kind": "revise", "subject": "next-paper" },
+        { "label": "Next paper: practice", "minutes": 90, "kind": "practice", "subject": "next-paper" },
+        { "label": "Next paper: PYQ-style set", "minutes": 75, "kind": "practice", "subject": "next-paper" },
+        { "label": "Recall", "minutes": 15, "kind": "recall" }
+      ] },
+    { "id": "study-leave", "name": "Study-leave day", "hours": 6.5,
+      "blocks": [
+        { "label": "Block 1", "minutes": 120, "kind": "revise", "subject": "next-paper" },
+        { "label": "Block 2", "minutes": 120, "kind": "practice", "subject": "next-paper" },
+        { "label": "Block 3", "minutes": 90, "kind": "practice", "subject": "next-paper" },
+        { "label": "Touch-up", "minutes": 45, "kind": "revise", "subject": "touch-up" },
+        { "label": "Recall", "minutes": 15, "kind": "recall" }
+      ] },
+    { "id": "paper-day", "name": "Timed sample paper day", "hours": 6.75,
+      "blocks": [
+        { "label": "Timed paper", "minutes": 180, "kind": "timed-paper", "subject": "next-paper", "start": "10:30" },
+        { "label": "Mark and analyse", "minutes": 90, "kind": "analysis", "subject": "next-paper" },
+        { "label": "Fix the errors", "minutes": 90, "kind": "revise", "subject": "next-paper" },
+        { "label": "Touch-up", "minutes": 45, "kind": "revise", "subject": "touch-up" }
+      ] },
+    { "id": "day-before-board", "name": "Day before a board paper", "hours": 3.5,
+      "description": "Nothing new. Formula sheet, must-know lines, past errors, sleep early.",
+      "blocks": [
+        { "label": "Formula / facts sheet", "minutes": 75, "kind": "recall", "subject": "next-paper" },
+        { "label": "Past errors", "minutes": 75, "kind": "revise", "subject": "next-paper" },
+        { "label": "Must-know lines", "minutes": 60, "kind": "recall", "subject": "next-paper" }
+      ] },
+    { "id": "practical", "name": "Practical day", "hours": 3,
+      "blocks": [
+        { "label": "Practical prep (record, viva)", "minutes": 90, "kind": "practical" },
+        { "label": "Revision", "minutes": 90, "kind": "revise", "subject": "rotate" }
+      ] }
+  ],
+  "phases": [
+    { "id": "pb1", "name": "Pre-board 1", "from": "start", "to": "2026-11-29",
+      "focus": "Gap days revise the next pre-board paper; after the last paper, fix P/C/M errors, then analysis and rest.",
+      "goals": ["Each pre-board paper attempted under time", "Error list per subject started"] },
+    { "id": "finish", "name": "Finish & fix", "from": "2026-11-30", "to": "2026-12-09",
+      "focus": "Finish pending chapters, fix pre-board 1 errors.",
+      "goals": ["All pending chapters learnt once (L)", "Pre-board 1 errors fixed"] },
+    { "id": "pb2-sprint", "name": "Pre-board 2 sprint", "from": "2026-12-10", "to": "2026-12-13",
+      "focus": "Quick full-syllabus pass per subject before pre-board 2." },
+    { "id": "pb2", "name": "Pre-board 2 + analysis", "from": "2026-12-14", "to": "2026-12-25",
+      "focus": "Pre-board 2 papers; analysis after each; 25 Dec rest." },
+    { "id": "rev2", "name": "Revision 2 + PYQs + practicals", "from": "2026-12-26", "to": "2027-01-31",
+      "focus": "Second revision of every chapter, PYQ-style sets, practical records and viva; Sunday full papers.",
+      "goals": ["R2 ticked for every chapter", "Practical records complete", "One timed paper every Sunday"] },
+    { "id": "win-physics", "name": "Physics window", "from": "2027-02-01", "to": "paper:physics", "subject_window": "physics",
+      "focus": "Physics only: timed sample papers, then error review.",
+      "day_type_overrides": { "default": "study-leave", "sunday": "paper-day" } },
+    { "id": "win-chemistry", "name": "Chemistry window", "from": "paper:physics+1", "to": "paper:chemistry", "subject_window": "chemistry",
+      "focus": "Chemistry only, with Maths 90 min a day because the Maths gap is long.",
+      "touch_up": { "subject": "maths", "minutes": 90, "min_gap_days": 7 },
+      "day_type_overrides": { "default": "study-leave", "sunday": "paper-day" } },
+    { "id": "win-english", "name": "English window", "from": "paper:chemistry+1", "to": "paper:english-core", "subject_window": "english-core",
+      "focus": "English Core formats and literature, with Maths daily.",
+      "touch_up": { "subject": "maths", "minutes": 120, "min_gap_days": 2 },
+      "day_type_overrides": { "default": "study-leave" } },
+    { "id": "win-maths", "name": "Maths window", "from": "paper:english-core+1", "to": "paper:maths", "subject_window": "maths",
+      "focus": "Maths only: timed papers, then error review.",
+      "day_type_overrides": { "default": "study-leave", "sunday": "paper-day" } },
+    { "id": "win-biology", "name": "Biology window", "from": "paper:maths+1", "to": "paper:biology", "subject_window": "biology",
+      "focus": "Biology only: NCERT lines and diagrams, timed papers, error review.",
+      "day_type_overrides": { "default": "study-leave", "sunday": "paper-day" } }
+  ],
+  "rules": [
+    "The days between two papers belong to the next paper's subject only.",
+    "One timed paper every Sunday from late December; analyse it the same day.",
+    "Nothing new on the day before a board paper.",
+    "One half-day off every week (Sunday afternoon).",
+    "Physics, Chemistry and Maths get more time by default; weak chapters get extra slots.",
+    "Sleep 7–8 hours; a 10-minute break every 90 minutes.",
+    "Every error goes on the error list and gets revisited within a week."
+  ],
+  "timed_paper_targets": { "physics": 9, "chemistry": 5, "maths": 7, "biology": 6, "english-core": 3 }
+}
