@@ -1,0 +1,16 @@
+{
+  "$schema": "../../../../../schemas/chapter.schema.json",
+  "id": "ch-04",
+  "number": 4,
+  "title": "Principles of Inheritance and Variation",
+  "unit": "VII",
+  "marks_hint": "Unit VII Genetics and Evolution = 20 marks (shared by Ch 4–6, CBSE 2026–27)",
+  "summary": "Mendel's laws · monohybrid and dihybrid crosses · incomplete dominance, co-dominance, multiple alleles · linkage · polygenic inheritance and pleiotropy · sex determination · pedigrees · genetic disorders",
+  "status": {
+    "notes": "ready",
+    "mustknow": "ready",
+    "formulas": "ready",
+    "questions": "ready"
+  },
+  "updated": "2026-11-14"
+}

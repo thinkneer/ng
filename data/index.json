@@ -1402,33 +1402,78 @@
                       "number": 4,
                       "title": "Principles of Inheritance and Variation",
                       "unit": "VII",
-                      "items": {},
-                      "marks_hint": null,
-                      "summary": null,
-                      "questions": 0,
-                      "question_types": {}
+                      "items": {
+                        "notes": true,
+                        "mustknow": true,
+                        "formulas": true,
+                        "questions": true
+                      },
+                      "marks_hint": "Unit VII Genetics and Evolution = 20 marks (shared by Ch 4–6, CBSE 2026–27)",
+                      "summary": "Mendel's laws · monohybrid and dihybrid crosses · incomplete dominance, co-dominance, multiple alleles · linkage · polygenic inheritance and pleiotropy · sex determination · pedigrees · genetic disorders",
+                      "questions": 10,
+                      "question_types": {
+                        "mcq": 3,
+                        "ar": 2,
+                        "vsa2": 2,
+                        "sa3": 1,
+                        "case": 1,
+                        "la5": 1
+                      },
+                      "diagrams": [],
+                      "words": 3896,
+                      "read_minutes": 13
                     },
                     {
                       "id": "ch-05",
                       "number": 5,
                       "title": "Molecular Basis of Inheritance",
                       "unit": "VII",
-                      "items": {},
-                      "marks_hint": null,
-                      "summary": null,
-                      "questions": 0,
-                      "question_types": {}
+                      "items": {
+                        "notes": true,
+                        "mustknow": true,
+                        "formulas": true,
+                        "questions": true
+                      },
+                      "marks_hint": "Unit VII Genetics and Evolution = 20 marks (shared by Ch 4–6, CBSE 2026–27)",
+                      "summary": "DNA structure and packaging · search for genetic material · replication · transcription · genetic code · translation · lac operon · Human Genome Project · DNA fingerprinting",
+                      "questions": 10,
+                      "question_types": {
+                        "mcq": 3,
+                        "ar": 2,
+                        "vsa2": 2,
+                        "sa3": 1,
+                        "case": 1,
+                        "la5": 1
+                      },
+                      "diagrams": [],
+                      "words": 4524,
+                      "read_minutes": 16
                     },
                     {
                       "id": "ch-06",
                       "number": 6,
                       "title": "Evolution",
                       "unit": "VII",
-                      "items": {},
-                      "marks_hint": null,
-                      "summary": null,
-                      "questions": 0,
-                      "question_types": {}
+                      "items": {
+                        "notes": true,
+                        "mustknow": true,
+                        "formulas": true,
+                        "questions": true
+                      },
+                      "marks_hint": "Unit VII Genetics and Evolution = 20 marks (shared by Ch 4–6, CBSE 2026–27)",
+                      "summary": "Origin of life · evidences of evolution · adaptive radiation · Darwin and natural selection · Hardy–Weinberg principle · types of selection · human evolution",
+                      "questions": 10,
+                      "question_types": {
+                        "mcq": 3,
+                        "ar": 2,
+                        "vsa2": 2,
+                        "sa3": 1,
+                        "case": 1,
+                        "la5": 1
+                      },
+                      "diagrams": [],
+                      "words": 3220,
+                      "read_minutes": 11
                     }
                   ]
                 },
@@ -1554,10 +1599,10 @@
               },
               "papers": [],
               "counts": {
-                "notes": 3,
-                "mustknow": 3,
-                "formulas": 3,
-                "questions": 3,
+                "notes": 6,
+                "mustknow": 6,
+                "formulas": 6,
+                "questions": 6,
                 "chapters": 13
               }
             },

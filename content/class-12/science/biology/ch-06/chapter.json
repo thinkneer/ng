@@ -1,0 +1,16 @@
+{
+  "$schema": "../../../../../schemas/chapter.schema.json",
+  "id": "ch-06",
+  "number": 6,
+  "title": "Evolution",
+  "unit": "VII",
+  "marks_hint": "Unit VII Genetics and Evolution = 20 marks (shared by Ch 4–6, CBSE 2026–27)",
+  "summary": "Origin of life · evidences of evolution · adaptive radiation · Darwin and natural selection · Hardy–Weinberg principle · types of selection · human evolution",
+  "status": {
+    "notes": "ready",
+    "mustknow": "ready",
+    "formulas": "ready",
+    "questions": "ready"
+  },
+  "updated": "2026-11-14"
+}

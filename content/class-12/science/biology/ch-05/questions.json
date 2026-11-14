@@ -1,0 +1,101 @@
+[
+  {
+    "id": "bio-05-q01", "chapter": "ch-05", "type": "mcq", "marks": 1, "stars": 2, "label": "PYQ-style", "topic": "Chargaff's rule",
+    "stem": "A double-stranded DNA sample has 30% adenine. What percentage of cytosine does it have?",
+    "options": ["30%", "20%", "40%", "70%"],
+    "answer": "B",
+    "hint": "A = T; G = C; total 100.",
+    "model_answer": "**(b) 20%.** A + T = 60%, so G + C = 40%, C = 20%."
+  },
+  {
+    "id": "bio-05-q02", "chapter": "ch-05", "type": "mcq", "marks": 1, "stars": 2, "label": "PYQ-style", "topic": "RNA polymerases",
+    "stem": "In eukaryotes, the precursor of mRNA (hnRNA) is transcribed by:",
+    "options": ["RNA polymerase I", "RNA polymerase II", "RNA polymerase III", "DNA polymerase"],
+    "answer": "B",
+    "hint": "I = rRNA, III = tRNA.",
+    "model_answer": "**(b) RNA polymerase II.**"
+  },
+  {
+    "id": "bio-05-q03", "chapter": "ch-05", "type": "mcq", "marks": 1, "stars": 2, "label": "PYQ-style", "topic": "DNA length",
+    "stem": "A DNA molecule has 1 × 10⁶ base pairs. Its length is about:",
+    "options": ["0.34 mm", "3.4 mm", "0.034 mm", "34 mm"],
+    "answer": "A",
+    "hint": "Each base pair adds 0.34 nm.",
+    "model_answer": "**(a).** 10⁶ × 0.34 × 10⁻⁹ m = 3.4 × 10⁻⁴ m = 0.34 mm."
+  },
+  {
+    "id": "bio-05-q04", "chapter": "ch-05", "type": "ar", "marks": 1, "stars": 3, "label": "PYQ-style", "topic": "Replication",
+    "stem": "**Assertion (A):** On one template strand, DNA is synthesised discontinuously.<br>**Reason (R):** DNA polymerase can polymerise nucleotides only in the 5′→3′ direction.",
+    "options": ["Both A and R are true, and R is the correct explanation of A.", "Both A and R are true, but R is not the correct explanation of A.", "A is true, but R is false.", "A is false, but R is true."],
+    "answer": "A",
+    "hint": "The fork opens in one direction only.",
+    "model_answer": "**(a).** Because synthesis is only 5′→3′, the strand on the 5′→3′ template must be made in fragments joined by ligase."
+  },
+  {
+    "id": "bio-05-q05", "chapter": "ch-05", "type": "ar", "marks": 1, "stars": 2, "label": "PYQ-style", "topic": "Genetic material",
+    "stem": "**Assertion (A):** RNA is less stable than DNA.<br>**Reason (R):** RNA has thymine in place of uracil.",
+    "options": ["Both A and R are true, and R is the correct explanation of A.", "Both A and R are true, but R is not the correct explanation of A.", "A is true, but R is false.", "A is false, but R is true."],
+    "answer": "C",
+    "hint": "Which base is in RNA?",
+    "model_answer": "**(c).** A is true (2′-OH makes RNA reactive); R is false: RNA has uracil; DNA has thymine."
+  },
+  {
+    "id": "bio-05-q06", "chapter": "ch-05", "type": "vsa2", "marks": 2, "stars": 3, "label": "PYQ-style", "topic": "Transcription unit",
+    "stem": "Draw or describe a transcription unit and identify the template and coding strands with their polarity.",
+    "hint": "Promoter upstream, terminator downstream.",
+    "model_answer": "A transcription unit has a promoter (upstream, towards the 5′ end of the coding strand), the structural gene and a terminator (downstream, 3′ end). The template strand runs 3′→5′ and is copied; the coding strand runs 5′→3′ and has the same sequence as the RNA, with thymine instead of uracil.",
+    "scheme": [
+      { "step": "Promoter, structural gene, terminator in correct positions", "marks": 1 },
+      { "step": "Template 3′→5′; coding 5′→3′ with RNA sequence", "marks": 1 }
+    ]
+  },
+  {
+    "id": "bio-05-q07", "chapter": "ch-05", "type": "vsa2", "marks": 2, "stars": 2, "label": "PYQ-style", "topic": "RNA processing",
+    "stem": "Name and explain the processes by which hnRNA becomes mature mRNA in eukaryotes.",
+    "hint": "Three processes.",
+    "model_answer": "Splicing: introns are removed and exons joined. Capping: methyl guanosine triphosphate is added at the 5′ end. Tailing: 200–300 adenylate residues (poly-A tail) are added at the 3′ end.",
+    "scheme": [
+      { "step": "Splicing explained", "marks": 1 },
+      { "step": "Capping and tailing explained (½ each)", "marks": 1 }
+    ]
+  },
+  {
+    "id": "bio-05-q08", "chapter": "ch-05", "type": "sa3", "marks": 3, "stars": 3, "label": "PYQ-style", "topic": "Hershey–Chase",
+    "stem": "Describe the Hershey–Chase experiment and the conclusion drawn from it.",
+    "hint": "Two isotopes, two batches of phages.",
+    "model_answer": "Bacteriophages were grown on medium with ³²P (labels DNA) or ³⁵S (labels protein). Each batch infected E. coli; blending removed phage coats and centrifugation separated bacteria from viral particles. Bacteria infected with ³²P phages were radioactive; those with ³⁵S phages were not (radioactivity stayed in the supernatant). So DNA, not protein, enters bacteria and is the genetic material.",
+    "scheme": [
+      { "step": "Phages labelled with ³²P (DNA) and ³⁵S (protein)", "marks": 1 },
+      { "step": "Infection, blending, centrifugation; ³²P in bacteria, ³⁵S not", "marks": 1 },
+      { "step": "Conclusion: DNA is the genetic material", "marks": 1 }
+    ]
+  },
+  {
+    "id": "bio-05-q09", "chapter": "ch-05", "type": "case", "marks": 4, "stars": 3, "label": "PYQ-style", "topic": "DNA fingerprinting",
+    "stem": "*At a crime scene, a small blood stain was found. Investigators isolated its DNA and compared it with DNA from three suspects using a technique based on repetitive DNA. One suspect's band pattern matched the stain exactly.*",
+    "parts": [
+      { "id": "A", "marks": 1, "stem": "Name the technique and its developer.",
+        "model_answer": "DNA fingerprinting, developed by Alec Jeffreys.",
+        "scheme": [ { "step": "DNA fingerprinting; Alec Jeffreys", "marks": 1 } ] },
+      { "id": "B", "marks": 1, "stem": "What property of satellite DNA makes it useful here?",
+        "model_answer": "High polymorphism: repeat numbers (VNTRs) differ from person to person and are inherited.",
+        "scheme": [ { "step": "Polymorphism of VNTRs between individuals", "marks": 1 } ] },
+      { "id": "C", "marks": 2, "stem": "List the steps of the technique in order.",
+        "model_answer": "Isolate DNA → digest with restriction endonucleases → separate fragments by gel electrophoresis → transfer to nitrocellulose/nylon membrane (Southern blotting) → hybridise with labelled VNTR probe → detect by autoradiography.",
+        "scheme": [ { "step": "Isolation, digestion, electrophoresis", "marks": 1 }, { "step": "Southern blotting, VNTR hybridisation, autoradiography", "marks": 1 } ] }
+    ]
+  },
+  {
+    "id": "bio-05-q10", "chapter": "ch-05", "type": "la5", "marks": 5, "stars": 3, "label": "PYQ-style", "topic": "Lac operon",
+    "stem": "Explain the lac operon of E. coli with a labelled diagram, describing its state in the absence and presence of lactose. Why is it called negative regulation?",
+    "hint": "i, p, o, z, y, a; repressor; inducer.",
+    "model_answer": "Components: regulator gene i (codes repressor), promoter p, operator o, structural genes z (β-galactosidase), y (permease), a (transacetylase). Without lactose the repressor binds the operator and blocks RNA polymerase, so z, y, a are not transcribed. With lactose, the inducer binds the repressor and inactivates it; the repressor leaves the operator, RNA polymerase transcribes the structural genes, and the enzymes for lactose use are made. It is negative regulation because the operon is switched off by the repressor and switched on by removing it.",
+    "scheme": [
+      { "step": "Labelled diagram (i, p, o, z, y, a)", "marks": 1 },
+      { "step": "Enzymes of z, y, a", "marks": 1 },
+      { "step": "Absence of lactose: repressor on operator, no transcription", "marks": 1 },
+      { "step": "Presence: lactose inactivates repressor, transcription occurs", "marks": 1 },
+      { "step": "Negative regulation explained", "marks": 1 }
+    ]
+  }
+]

@@ -1,0 +1,101 @@
+[
+  {
+    "id": "bio-06-q01", "chapter": "ch-06", "type": "mcq", "marks": 1, "stars": 3, "label": "PYQ-style", "topic": "Homology",
+    "stem": "Which pair shows homologous organs?",
+    "options": ["Wings of butterfly and bird", "Thorn of Bougainvillea and tendril of Cucurbita", "Eye of octopus and eye of mammal", "Potato and sweet potato"],
+    "answer": "B",
+    "hint": "Same origin, different function.",
+    "model_answer": "**(b).** Both are modified stems with different functions; the other pairs are analogous."
+  },
+  {
+    "id": "bio-06-q02", "chapter": "ch-06", "type": "mcq", "marks": 1, "stars": 2, "label": "PYQ-style", "topic": "Human evolution",
+    "stem": "The correct sequence of increasing brain capacity is:",
+    "options": ["Neanderthal → H. erectus → H. habilis", "H. habilis → H. erectus → Neanderthal", "H. erectus → H. habilis → Neanderthal", "H. habilis → Neanderthal → H. erectus"],
+    "answer": "B",
+    "hint": "650–800, 900, 1400 cc.",
+    "model_answer": "**(b).** H. habilis 650–800 cc < H. erectus 900 cc < Neanderthal 1400 cc."
+  },
+  {
+    "id": "bio-06-q03", "chapter": "ch-06", "type": "mcq", "marks": 1, "stars": 2, "label": "PYQ-style", "topic": "Hardy–Weinberg",
+    "stem": "In a population in Hardy–Weinberg equilibrium, the frequency of a recessive allele is 0.3. The frequency of heterozygotes is:",
+    "options": ["0.09", "0.21", "0.42", "0.49"],
+    "answer": "C",
+    "hint": "2pq.",
+    "model_answer": "**(c) 0.42.** q = 0.3, p = 0.7; 2pq = 2 × 0.7 × 0.3 = 0.42."
+  },
+  {
+    "id": "bio-06-q04", "chapter": "ch-06", "type": "ar", "marks": 1, "stars": 3, "label": "PYQ-style", "topic": "Industrial melanism",
+    "stem": "**Assertion (A):** After industrialisation in England, dark-winged moths became more common than white-winged moths.<br>**Reason (R):** Soot made white moths turn dark to escape predators.",
+    "options": ["Both A and R are true, and R is the correct explanation of A.", "Both A and R are true, but R is not the correct explanation of A.", "A is true, but R is false.", "A is false, but R is true."],
+    "answer": "C",
+    "hint": "Selection acts on existing variation.",
+    "model_answer": "**(c).** A is true. R is false: moths did not change colour; dark moths on soot-darkened trunks escaped predators and left more offspring."
+  },
+  {
+    "id": "bio-06-q05", "chapter": "ch-06", "type": "ar", "marks": 1, "stars": 2, "label": "PYQ-style", "topic": "Convergent evolution",
+    "stem": "**Assertion (A):** The flippers of penguins and dolphins are analogous organs.<br>**Reason (R):** Analogous organs result from convergent evolution.",
+    "options": ["Both A and R are true, and R is the correct explanation of A.", "Both A and R are true, but R is not the correct explanation of A.", "A is true, but R is false.", "A is false, but R is true."],
+    "answer": "A",
+    "hint": "Different ancestry, same function.",
+    "model_answer": "**(a).** Different structures evolved for the same function (swimming) through convergent evolution."
+  },
+  {
+    "id": "bio-06-q06", "chapter": "ch-06", "type": "vsa2", "marks": 2, "stars": 2, "label": "PYQ-style", "topic": "Adaptive radiation",
+    "stem": "What is adaptive radiation? Give one example from Darwin's observations and one from Australia.",
+    "hint": "Galapagos; marsupials.",
+    "model_answer": "Adaptive radiation is the evolution of different species in a geographical area starting from one point and radiating into other habitats. Examples: Darwin's finches of the Galapagos Islands evolved varied beaks for different foods from a seed-eating ancestor; Australian marsupials (kangaroo, koala, wombat, Tasmanian wolf etc.) evolved from one ancestral stock.",
+    "scheme": [
+      { "step": "Definition", "marks": 1 },
+      { "step": "Darwin's finches and Australian marsupials (½ each)", "marks": 1 }
+    ]
+  },
+  {
+    "id": "bio-06-q07", "chapter": "ch-06", "type": "vsa2", "marks": 2, "stars": 2, "label": "PYQ-style", "topic": "Origin of life",
+    "stem": "Describe Miller's experiment and state what it showed.",
+    "hint": "Gases, energy, product.",
+    "model_answer": "In 1953 S. L. Miller passed electric discharges through a closed flask containing CH₄, H₂, NH₃ and water vapour at 800 °C, simulating early Earth. Amino acids were formed, supporting chemical evolution (Oparin–Haldane): organic molecules can form from inorganic ones.",
+    "scheme": [
+      { "step": "Set-up: CH₄, H₂, NH₃, water vapour, electric discharge, 800 °C", "marks": 1 },
+      { "step": "Amino acids formed → supports chemical evolution", "marks": 1 }
+    ]
+  },
+  {
+    "id": "bio-06-q08", "chapter": "ch-06", "type": "sa3", "marks": 3, "stars": 3, "label": "PYQ-style", "topic": "Hardy–Weinberg",
+    "stem": "State the Hardy–Weinberg principle and write its equation. List any four factors that disturb the equilibrium.",
+    "hint": "Constant allele frequencies; five factors.",
+    "model_answer": "Allele frequencies in a population are stable and constant from generation to generation (genetic equilibrium) in the absence of disturbing factors. p + q = 1 and p² + 2pq + q² = 1, where p and q are allele frequencies. Disturbing factors: gene migration (gene flow), genetic drift, mutation, genetic recombination, natural selection (any four).",
+    "scheme": [
+      { "step": "Statement of the principle", "marks": 1 },
+      { "step": "Equation with meaning of terms", "marks": 1 },
+      { "step": "Four factors (¼ each)", "marks": 1 }
+    ]
+  },
+  {
+    "id": "bio-06-q09", "chapter": "ch-06", "type": "case", "marks": 4, "stars": 2, "label": "PYQ-style", "topic": "Natural selection",
+    "stem": "*A farmer sprayed the same pesticide on his field every season. In the first year it killed almost all the insects; after five years most insects survived it. A scientist explained that this is evolution happening within a human lifetime.*",
+    "parts": [
+      { "id": "A", "marks": 1, "stem": "What name is given to evolution driven by human activity like this?",
+        "model_answer": "Anthropogenic evolution (human-caused natural selection).",
+        "scheme": [ { "step": "Anthropogenic evolution", "marks": 1 } ] },
+      { "id": "B", "marks": 1, "stem": "Did the pesticide create resistance in the insects? Explain.",
+        "model_answer": "No. A few resistant variants already existed; the pesticide killed the sensitive ones and the resistant survivors reproduced.",
+        "scheme": [ { "step": "Resistance pre-existed; pesticide selected it", "marks": 1 } ] },
+      { "id": "C", "marks": 2, "stem": "Which type of natural selection is this? Draw or describe how the population curve changes.",
+        "model_answer": "Directional selection: individuals at one extreme (resistant) are favoured, so the peak of the curve shifts towards that extreme over generations.",
+        "scheme": [ { "step": "Directional selection", "marks": 1 }, { "step": "Curve peak shifts to the resistant extreme", "marks": 1 } ] }
+    ]
+  },
+  {
+    "id": "bio-06-q10", "chapter": "ch-06", "type": "la5", "marks": 5, "stars": 3, "label": "PYQ-style", "topic": "Evidences of evolution",
+    "stem": "(a) Distinguish between homologous and analogous organs with two examples of each, naming the type of evolution each represents. [3]<br>(b) How do fossils provide evidence for evolution? [2]",
+    "hint": "Structure vs function; rock layers.",
+    "model_answer": "(a) Homologous: same basic structure and origin, different functions; examples forelimbs of whale, bat, cheetah and human; thorn of Bougainvillea and tendril of Cucurbita; divergent evolution. Analogous: different structures, similar functions; examples wings of butterfly and bird; eyes of octopus and mammal (or potato and sweet potato); convergent evolution.<br>(b) Fossils are remains of hard parts preserved in rock layers formed one above another. Different layers carry different life forms, many extinct, and older layers hold simpler forms; radioactive dating gives their age, showing life changed over time.",
+    "scheme": [
+      { "step": "Homologous: definition, two examples", "marks": 1 },
+      { "step": "Analogous: definition, two examples", "marks": 1 },
+      { "step": "Divergent and convergent evolution named correctly", "marks": 1 },
+      { "step": "Fossils in rock layers show different/extinct forms", "marks": 1 },
+      { "step": "Dating shows change over time", "marks": 1 }
+    ]
+  }
+]

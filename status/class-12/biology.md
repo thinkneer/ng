@@ -15,9 +15,13 @@ Paper: **Thu 25 Mar 2027** (date sheet of 6 Nov 2026). Biology-only days 10–24
   - Ch 1 Read: 5 inline SVGs (microsporangium T.S., pollen grain, anatropous ovule, embryo sac, dicot + monocot embryos). Ch 2 Read: 4 SVGs (seminiferous tubule, sperm, ovary follicle stages, 28-day hormone/endometrium graph). Ch 3: tables only.
   - Questions: 10 per chapter (3 MCQ, 2 A–R, 2 × 2-mark, 1 × 3-mark, 1 case 4-mark, 1 × 5-mark), all PYQ-style.
 
+- **Batch 2 — Unit VII (Ch 4–6), 14 Nov 2026.** All five files per chapter, written from NCERT (rationalised) and board patterns.
+  - Ch 4 Read: pedigree-symbols SVG; Punnett squares and ABO, sex-determination and chromosomal-disorder tables in Markdown. Ch 5 Read: replication-fork SVG and lac-operon SVG. Ch 6 Read: stabilising/directional/disruptive selection SVG; Hardy–Weinberg worked example.
+  - formulas.md: Mendelian ratios, X-linked and autosomal recessive cross outcomes (Ch 4); DNA length, Chargaff, codons, Meselson–Stahl table (Ch 5); Hardy–Weinberg (Ch 6).
+
 ## Corrections
 - none yet
 
 ## What's next
-- Batch 2: Unit VII (Ch 4–6). Batch 3: Units VIII–IX (Ch 7–10). Batch 4: Unit X (Ch 11–13).
+- Batch 3: Units VIII–IX (Ch 7–10). Batch 4: Unit X (Ch 11–13).
 - Later: practical help (5 experiments, 11 spotting items, viva), more questions per chapter for live quizzes.

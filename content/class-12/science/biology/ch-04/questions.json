@@ -1,0 +1,102 @@
+[
+  {
+    "id": "bio-04-q01", "chapter": "ch-04", "type": "mcq", "marks": 1, "stars": 3, "label": "PYQ-style", "topic": "ABO blood groups",
+    "stem": "A man of blood group A (genotype $I^Ai$) marries a woman of blood group B ($I^Bi$). Which blood groups are possible in their children?",
+    "options": ["A and B only", "AB only", "A, B, AB and O", "A, B and AB only"],
+    "answer": "C",
+    "hint": "Each parent gives one of two alleles.",
+    "model_answer": "**(c).** Gametes $I^A$, $i$ × $I^B$, $i$ give $I^AI^B$ (AB), $I^Ai$ (A), $I^Bi$ (B), $ii$ (O)."
+  },
+  {
+    "id": "bio-04-q02", "chapter": "ch-04", "type": "mcq", "marks": 1, "stars": 2, "label": "PYQ-style", "topic": "Sex determination",
+    "stem": "In which organism does the female decide the sex of the offspring?",
+    "options": ["Humans", "Grasshopper", "Birds", "Drosophila"],
+    "answer": "C",
+    "hint": "Female heterogamety.",
+    "model_answer": "**(c) Birds.** Females are ZW and make Z or W eggs; males are ZZ."
+  },
+  {
+    "id": "bio-04-q03", "chapter": "ch-04", "type": "mcq", "marks": 1, "stars": 2, "label": "PYQ-style", "topic": "Dihybrid cross",
+    "stem": "How many kinds of gametes does a plant of genotype AaBbCC produce?",
+    "options": ["2", "4", "6", "8"],
+    "answer": "B",
+    "hint": "Count heterozygous pairs only.",
+    "model_answer": "**(b) 4.** Two heterozygous pairs → 2² = 4 (ABC, AbC, aBC, abC)."
+  },
+  {
+    "id": "bio-04-q04", "chapter": "ch-04", "type": "ar", "marks": 1, "stars": 3, "label": "PYQ-style", "topic": "Incomplete dominance",
+    "stem": "**Assertion (A):** In snapdragon, the F2 phenotypic ratio of a cross between red and white flowered plants is 1 : 2 : 1.<br>**Reason (R):** The heterozygote shows a phenotype different from both homozygotes.",
+    "options": ["Both A and R are true, and R is the correct explanation of A.", "Both A and R are true, but R is not the correct explanation of A.", "A is true, but R is false.", "A is false, but R is true."],
+    "answer": "A",
+    "hint": "Pink is distinguishable.",
+    "model_answer": "**(a).** Because Rr is pink (intermediate), all three genotypes can be seen, so phenotype ratio = genotype ratio 1 : 2 : 1."
+  },
+  {
+    "id": "bio-04-q05", "chapter": "ch-04", "type": "ar", "marks": 1, "stars": 2, "label": "PYQ-style", "topic": "Honey bee",
+    "stem": "**Assertion (A):** A male honey bee has no father.<br>**Reason (R):** Male honey bees develop from unfertilised eggs.",
+    "options": ["Both A and R are true, and R is the correct explanation of A.", "Both A and R are true, but R is not the correct explanation of A.", "A is true, but R is false.", "A is false, but R is true."],
+    "answer": "A",
+    "hint": "Parthenogenesis.",
+    "model_answer": "**(a).** Drones come from unfertilised (haploid) eggs by parthenogenesis, so they have a mother but no father."
+  },
+  {
+    "id": "bio-04-q06", "chapter": "ch-04", "type": "vsa2", "marks": 2, "stars": 3, "label": "PYQ-style", "topic": "Dominance types",
+    "stem": "Differentiate between incomplete dominance and co-dominance with one example each.",
+    "hint": "Blend vs both shown.",
+    "model_answer": "Incomplete dominance: the heterozygote is intermediate between the two parents, e.g. pink (Rr) snapdragon from red × white. Co-dominance: both alleles are fully expressed in the heterozygote, e.g. blood group AB ($I^AI^B$) shows both A and B antigens.",
+    "scheme": [
+      { "step": "Incomplete dominance: intermediate phenotype + snapdragon example", "marks": 1 },
+      { "step": "Co-dominance: both expressed + AB blood group example", "marks": 1 }
+    ]
+  },
+  {
+    "id": "bio-04-q07", "chapter": "ch-04", "type": "vsa2", "marks": 2, "stars": 2, "label": "PYQ-style", "topic": "Sickle-cell anaemia",
+    "stem": "Explain the molecular basis of sickle-cell anaemia.",
+    "hint": "One base, one amino acid, one position.",
+    "model_answer": "A point mutation in the β-globin gene changes codon GAG to GUG, so glutamic acid is replaced by valine at the sixth position of the β-globin chain. The mutant haemoglobin polymerises at low oxygen, and red cells become elongated and sickle-shaped. It is autosomal recessive (only $Hb^SHb^S$ are affected).",
+    "scheme": [
+      { "step": "GAG → GUG; Glu → Val at position 6 of β-globin", "marks": 1 },
+      { "step": "Haemoglobin polymerises at low O₂ → sickle cells; autosomal recessive", "marks": 1 }
+    ]
+  },
+  {
+    "id": "bio-04-q08", "chapter": "ch-04", "type": "sa3", "marks": 3, "stars": 3, "label": "PYQ-style", "topic": "Haemophilia",
+    "stem": "A woman whose father was haemophilic marries a normal man. Work out, with a cross, the chance that (a) their son and (b) their daughter will be haemophilic.",
+    "hint": "Her father gave her $X^h$.",
+    "model_answer": "The woman received $X^h$ from her father, so she is a carrier $X^hX$; the man is XY. Gametes: $X^h$, X × X, Y. Offspring: $X^hX$ (carrier daughter), XX (normal daughter), $X^hY$ (haemophilic son), XY (normal son). (a) Sons: 50% haemophilic. (b) Daughters: 0% haemophilic (50% carriers).",
+    "scheme": [
+      { "step": "Woman $X^hX$ (carrier), man XY", "marks": 1 },
+      { "step": "Correct gametes and Punnett square", "marks": 1 },
+      { "step": "Sons 50% affected; daughters none affected, 50% carriers", "marks": 1 }
+    ]
+  },
+  {
+    "id": "bio-04-q09", "chapter": "ch-04", "type": "case", "marks": 4, "stars": 2, "label": "PYQ-style", "topic": "Linkage",
+    "stem": "*In Drosophila, a cross was made for two X-linked genes. For eye colour and body colour, only about 1.3% of the F2 flies showed new (non-parental) combinations; for eye colour and wing size, about 37.2% did.*",
+    "parts": [
+      { "id": "A", "marks": 1, "stem": "Name the phenomenon that makes parental combinations more frequent than expected.",
+        "model_answer": "Linkage (genes on the same chromosome tend to be inherited together).",
+        "scheme": [ { "step": "Linkage", "marks": 1 } ] },
+      { "id": "B", "marks": 1, "stem": "Which pair of genes is more tightly linked? Give a reason.",
+        "model_answer": "Eye colour and body colour, because their recombination frequency (1.3%) is much lower.",
+        "scheme": [ { "step": "Eye and body colour; lower recombination", "marks": 1 } ] },
+      { "id": "C", "marks": 2, "stem": "How did Sturtevant use such data? Give two reasons why Drosophila suits genetic studies.",
+        "model_answer": "He used recombination frequency as a measure of distance between genes to map their positions on the chromosome (genetic map). Drosophila: life cycle about two weeks; many offspring from one mating; easy to grow on simple medium; males and females easily told apart; many visible variations (any two).",
+        "scheme": [ { "step": "Recombination frequency used as distance → genetic map", "marks": 1 }, { "step": "Any two reasons (½ each)", "marks": 1 } ] }
+    ]
+  },
+  {
+    "id": "bio-04-q10", "chapter": "ch-04", "type": "la5", "marks": 5, "stars": 3, "label": "PYQ-style", "topic": "Dihybrid cross",
+    "stem": "(a) A pure round yellow pea plant (RRYY) is crossed with a wrinkled green plant (rryy). Show the F1 and F2 generations with a Punnett square and give the F2 phenotypic ratio. [3]<br>(b) State the law that this cross illustrates and how a test cross on the F1 would confirm it. [2]",
+    "hint": "Four kinds of F1 gametes.",
+    "model_answer": "(a) RRYY × rryy → gametes RY and ry → F1 all RrYy, round yellow. F1 gametes RY, Ry, rY, ry; 4 × 4 Punnett square gives F2 9 round yellow : 3 round green : 3 wrinkled yellow : 1 wrinkled green.<br>(b) Law of independent assortment: segregation of one pair of characters is independent of the other. Test cross RrYy × rryy gives round yellow, round green, wrinkled yellow, wrinkled green in 1 : 1 : 1 : 1, showing four kinds of gametes in equal numbers.",
+    "scheme": [
+      { "step": "F1 RrYy round yellow", "marks": 0.5 },
+      { "step": "Four F1 gametes", "marks": 0.5 },
+      { "step": "Correct 16-box Punnett square", "marks": 1 },
+      { "step": "9 : 3 : 3 : 1 with phenotypes", "marks": 1 },
+      { "step": "Law of independent assortment stated", "marks": 1 },
+      { "step": "Test cross 1 : 1 : 1 : 1 explained", "marks": 1 }
+    ]
+  }
+]

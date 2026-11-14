@@ -1,0 +1,16 @@
+{
+  "$schema": "../../../../../schemas/chapter.schema.json",
+  "id": "ch-05",
+  "number": 5,
+  "title": "Molecular Basis of Inheritance",
+  "unit": "VII",
+  "marks_hint": "Unit VII Genetics and Evolution = 20 marks (shared by Ch 4–6, CBSE 2026–27)",
+  "summary": "DNA structure and packaging · search for genetic material · replication · transcription · genetic code · translation · lac operon · Human Genome Project · DNA fingerprinting",
+  "status": {
+    "notes": "ready",
+    "mustknow": "ready",
+    "formulas": "ready",
+    "questions": "ready"
+  },
+  "updated": "2026-11-14"
+}
