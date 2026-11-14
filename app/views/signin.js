@@ -1,6 +1,7 @@
 // Sign-in and Request access. Shown full-screen to anyone without an approved session.
 import { html, raw, icon, esc, toast, haptic } from '../ui.js';
-import { signIn, buildRequest, requestCode, nicknameTaken, NICK_RE } from '../auth.js';
+import { signIn, buildRequest, requestCode, nicknameTaken, NICK_RE, isDbMode, sendEmailCode, verifyEmailCode, nicknameFree, signOut } from '../auth.js';
+import { errText } from '../db.js';
 import { randomQuote } from '../quotes.js';
 import { data } from '../data.js';
 import { store } from '../store.js';
@@ -14,6 +15,7 @@ function shell(inner) {
 }
 
 export async function signin(route) {
+  if (await isDbMode()) return emailSignin(route);
   const next = route?.next || '#/today';
   let q = randomQuote();
   return {
@@ -56,7 +58,8 @@ export async function signin(route) {
   };
 }
 
-export async function request() {
+export async function request(route) {
+  if (await isDbMode()) return emailSignin({ ...route, signup: true });
   const idx = await data.index();
   const liveClasses = idx.classes.filter((c) => c.status === 'live');
   const liveOpts = liveClasses.flatMap((c) => c.streams.filter((s) => s.status === 'live').map((s) => ({ value: `${c.id}|${s.id}`, label: `${c.name}${s.id !== 'general' ? ' ' + s.name : ''}` })));
@@ -112,6 +115,119 @@ export async function request() {
         f.hidden = true; el.querySelector('#r-done').hidden = false; haptic('success'); el.querySelector('.auth').scrollTo({ top: 0, behavior: 'smooth' });
       });
       el.querySelector('#r-copy').addEventListener('click', async () => { const m = el.querySelector('#r-wa').dataset.msg; try { await navigator.clipboard.writeText(m); toast('Copied \u2014 paste it to the admin'); } catch { toast('Copy not allowed here'); } });
+    },
+  };
+}
+
+
+/* ======================================================================
+   Database mode: sign in with email. One form: email (+ nickname the first time) → we email a 6-digit
+   code and a link; either works. Nothing but the nickname is ever shown in the app.
+   ====================================================================== */
+const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/;
+async function emailSignin(route) {
+  const next = route?.next && !/^#\/(signin|request|login|access|awaiting)/.test(route.next) ? route.next : '#/today';
+  const signup = !!route?.signup;
+  let q = randomQuote();
+  const idx = await data.index();
+  const liveOpts = idx.classes.filter((c) => c.status === 'live').flatMap((c) => c.streams.filter((st) => st.status === 'live').map((st) => ({ value: `${c.id}|${st.id}`, label: `${c.name}${st.id !== 'general' ? ' ' + st.name : ''}` })));
+  const remembered = store.get('signin.email', '');
+  return {
+    title: signup ? 'Join' : 'Sign in', tab: 'today', fullscreen: true,
+    html: shell(html`
+      <button class="auth__quote" type="button" id="quote" title="Tap for another line"><span class="auth__qmark" aria-hidden="true">“</span><span id="quote-text">${q}</span></button>
+      <form class="card auth__card" id="em" novalidate>
+        <h1 class="t-title2">${signup ? 'Join ng' : 'Welcome back'}</h1>
+        <p class="t-2 t-subhead mb-4">${signup ? 'Pick a nickname. We email you a 6-digit code; the admin then approves you by hand.' : 'We email you a 6-digit code — no password to remember.'}</p>
+        ${signup ? html`<label for="e-nick">Nickname</label><input id="e-nick" autocomplete="username" autocapitalize="none" spellcheck="false" placeholder="3–20 letters, digits or _">` : ''}
+        <label for="e-mail" class="${signup ? 'mt-4' : ''}">Email</label>
+        <input id="e-mail" type="email" inputmode="email" autocomplete="email" autocapitalize="none" spellcheck="false" value="${remembered}">
+        ${signup && liveOpts.length > 1 ? html`<label for="e-class" class="mt-4">Class</label><select id="e-class">${raw(liveOpts.map((o) => `<option value="${o.value}">${esc(o.label)}</option>`).join(''))}</select>` : ''}
+        <p class="auth__err" id="e-err" role="alert" hidden></p>
+        <button class="btn btn--block mt-4" type="submit" id="e-go">${signup ? 'Email me a code' : 'Email me a code'}</button>
+        <div class="auth__foot">${signup ? html`Already a member? <a href="#/signin">Sign in</a>` : html`New here? <a href="#/request">Join with a nickname</a>`}</div>
+      </form>
+      <form class="card auth__card" id="code" novalidate hidden>
+        <h1 class="t-title2">Check your email</h1>
+        <p class="t-2 t-subhead mt-2">We sent a 6-digit code to <strong id="code-mail"></strong>. Type it here, or tap the link in the email.</p>
+        <label for="e-code" class="mt-4">Code</label>
+        <input id="e-code" inputmode="numeric" autocomplete="one-time-code" pattern="[0-9]*" maxlength="8" placeholder="123456" style="letter-spacing:.3em;font-size:1.4rem;text-align:center">
+        <p class="auth__err" id="c-err" role="alert" hidden></p>
+        <button class="btn btn--block mt-4" type="submit" id="c-go">Continue</button>
+        <div class="auth__foot"><button class="btn btn--ghost btn--sm" type="button" id="c-back">Use another email</button> <button class="btn btn--ghost btn--sm" type="button" id="c-again">Send again</button></div>
+      </form>
+      <p class="auth__small">Your email is used only to sign you in; it is never shown to anyone in the app. Use a nickname, not your real name.</p>`),
+    mount(el) {
+      const f = el.querySelector('#em'), err = el.querySelector('#e-err'), go = el.querySelector('#e-go');
+      const cf = el.querySelector('#code'), cerr = el.querySelector('#c-err'), cgo = el.querySelector('#c-go');
+      el.querySelector('#quote').addEventListener('click', () => { q = randomQuote(q); const t = el.querySelector('#quote-text'); t.style.opacity = 0; setTimeout(() => { t.textContent = q; t.style.opacity = 1; }, 150); });
+      const fail = (box, m) => { box.textContent = m; box.hidden = false; haptic('medium'); };
+      let email = '', meta = null;
+      const send = async () => {
+        go.disabled = true; go.textContent = 'Sending…'; err.hidden = true;
+        try {
+          await sendEmailCode(email, meta || {});
+          store.set('signin.email', email);
+          el.querySelector('#code-mail').textContent = email;
+          f.hidden = true; cf.hidden = false; haptic('success');
+          setTimeout(() => el.querySelector('#e-code')?.focus({ preventScroll: true }), 50);
+        } catch (ex) { fail(err, navigator.onLine ? errText(ex) : 'You’re offline. Connect once to sign in.'); }
+        finally { go.disabled = false; go.textContent = 'Email me a code'; }
+      };
+      f.addEventListener('submit', async (e) => {
+        e.preventDefault(); err.hidden = true;
+        email = el.querySelector('#e-mail').value.trim().toLowerCase();
+        if (!EMAIL_RE.test(email)) return fail(err, 'Enter a valid email address.');
+        if (signup) {
+          const nickname = el.querySelector('#e-nick').value.trim();
+          if (!NICK_RE.test(nickname)) return fail(err, 'Nickname: 3–20 letters, digits or _ (no spaces).');
+          go.disabled = true; go.textContent = 'Checking…';
+          try { if (!(await nicknameFree(nickname))) { go.disabled = false; go.textContent = 'Email me a code'; return fail(err, 'That nickname is taken. Try another.'); } }
+          catch (ex) { go.disabled = false; go.textContent = 'Email me a code'; return fail(err, errText(ex)); }
+          const [cls, stream] = (el.querySelector('#e-class')?.value || liveOpts[0]?.value || '12|science').split('|');
+          meta = { nickname, cls, stream };
+        }
+        await send();
+      });
+      cf.addEventListener('submit', async (e) => {
+        e.preventDefault(); cerr.hidden = true;
+        const code = el.querySelector('#e-code').value.replace(/\D/g, '');
+        if (code.length < 6) return fail(cerr, 'Type the 6-digit code from the email.');
+        cgo.disabled = true; cgo.textContent = 'Checking…';
+        try {
+          const s = await verifyEmailCode(email, code);
+          haptic('success');
+          if (s?.pending) location.hash = '#/awaiting';
+          else { toast(`Signed in as ${s.nickname}`); location.hash = next; }
+        } catch (ex) { fail(cerr, /expired|invalid/i.test(ex.message) ? 'That code is wrong or has expired. Send again and use the newest one.' : errText(ex)); }
+        finally { cgo.disabled = false; cgo.textContent = 'Continue'; }
+      });
+      el.querySelector('#c-back').addEventListener('click', () => { cf.hidden = true; f.hidden = false; });
+      el.querySelector('#c-again').addEventListener('click', () => { cf.hidden = true; f.hidden = false; send(); });
+      setTimeout(() => el.querySelector(signup ? '#e-nick' : '#e-mail')?.focus({ preventScroll: true }), 50);
+    },
+  };
+}
+
+/** Db mode: signed in, but the admin has not approved the nickname yet (or paused it). */
+export async function awaiting(route) {
+  const p = route?.profile || {};
+  const paused = p.status === 'suspended';
+  const msg = `Hi! Please approve my ng access.\nNickname: ${p.nickname || '(see email)'}`;
+  return {
+    title: 'Access awaited', tab: 'today', fullscreen: true,
+    html: shell(html`
+      <div class="card auth__card center">
+        <div class="auth__wait">${raw(icon('clock'))}</div>
+        <h1 class="t-title2">${paused ? 'Account paused' : 'Access awaited'}</h1>
+        <p class="t-2 t-subhead mt-2">${paused ? `${p.nickname} is paused. Ask the admin to restore it.` : `You are signed in as <strong>${esc(p.nickname || 'a new member')}</strong>. The admin approves every member by hand — send them a note and come back after.`}</p>
+        <a class="btn btn--block mt-6 btn--wa" href="https://wa.me/?text=${encodeURIComponent(msg)}" target="_blank" rel="noopener">${raw(icon('message'))} Send on WhatsApp</a>
+        <button class="btn btn--secondary btn--block mt-2" type="button" id="aw-check">${raw(icon('check'))} I’ve been approved — check again</button>
+        <div class="auth__foot"><button class="btn btn--ghost btn--sm" type="button" id="aw-out">Sign out</button></div>
+      </div>`),
+    mount(el) {
+      el.querySelector('#aw-check').addEventListener('click', () => { window.dispatchEvent(new Event('ng:auth')); if (location.hash === '#/today') window.dispatchEvent(new HashChangeEvent('hashchange')); else location.hash = '#/today'; });
+      el.querySelector('#aw-out').addEventListener('click', () => { signOut(); location.hash = '#/signin'; });
     },
   };
 }

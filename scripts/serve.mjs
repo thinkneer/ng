@@ -27,6 +27,7 @@ createServer(async (req, res) => {
     const s = await stat(file);
     if (s.isDirectory()) file = join(file, 'index.html');
     let body = await readFile(file);
+    if (TEST && rel === 'data/supabase.json') body = Buffer.from('{}'); // tests run the static sign-in, never the network
     if (TEST && rel === 'data/users.json') { const j = JSON.parse(body); j.users = [...j.users, TEST_USER]; body = Buffer.from(JSON.stringify(j)); }
     if (TEST && rel === 'index.html' && /[?&]autologin/.test(req.url)) {
       const sess = JSON.stringify({ nickname: 'tester', hash: TEST_HASH, role: 'admin', class: '12', stream: 'science', subjects: TEST_USER.subjects, at: new Date().toISOString() });

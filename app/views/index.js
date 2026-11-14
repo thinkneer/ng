@@ -8,7 +8,7 @@ import { plan } from './plan.js';
 import { more } from './more.js';
 import { emptyState } from '../ui.js';
 import { recallDue } from './recall.js';
-import { signin, request as requestAccess } from './signin.js';
+import { signin, request as requestAccess, awaiting } from './signin.js';
 import { admin } from './admin.js';
 
 export const views = {
@@ -29,6 +29,7 @@ export const views = {
   request: requestAccess,
   access: requestAccess,
   login: signin,
+  awaiting,
   admin,
   'not-found': async () => ({
     title: 'Not found', tab: 'today',

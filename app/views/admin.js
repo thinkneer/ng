@@ -1,6 +1,7 @@
 // Admin dashboard (#/admin): approve requests (always as students), pause / restore members.
 import { html, raw, icon, esc, toast, haptic, emptyState } from '../ui.js';
-import { session, loadUsers, NICK_RE } from '../auth.js';
+import { session, loadUsers, NICK_RE, isDbMode } from '../auth.js';
+import { db, errText } from '../db.js';
 import { token, updateUsers, testKey } from '../github.js';
 
 const ALLOWED = new Set(['v', 'nickname', 'salt', 'hash', 'class', 'stream', 'subjects', 'requested']);
@@ -22,6 +23,7 @@ function parseCode(text) {
 export async function admin() {
   const s = session();
   if (s?.role !== 'admin') return { title: 'Not found', tab: 'more', html: emptyState({ icon: 'lock', title: 'Admins only' }) };
+  if (await isDbMode()) return adminDb();
   let users = [];
   try { users = await loadUsers({ fresh: true }); } catch { /* offline */ }
   const hasKey = !!token.get();
@@ -115,6 +117,50 @@ export async function admin() {
           });
           toast(pause ? `${nick} paused` : `${nick} restored`); setTimeout(() => location.reload(), 700);
         } catch (ex) { toast(ex.message, { duration: 6000 }); b.disabled = false; b.textContent = pause ? 'Pause' : 'Restore'; }
+      });
+    },
+  };
+}
+
+
+/* ======================================================================
+   Database mode: members live in Supabase (profiles). Approve, set role, pause — saved instantly.
+   ====================================================================== */
+async function adminDb() {
+  const c = await db();
+  const { data: rows, error } = await c.from('profiles').select('id, nickname, role, status, class, stream, created_at, approved_at').order('created_at', { ascending: false });
+  const people = rows || [];
+  const order = { pending: 0, approved: 1, suspended: 2 };
+  people.sort((a, b) => order[a.status] - order[b.status] || a.nickname.localeCompare(b.nickname));
+  const me = session()?.uid;
+  const when = (d) => (d ? new Date(d).toLocaleDateString('en-IN', { day: 'numeric', month: 'short' }) : '');
+  const row = (u) => `<div class="list__item has-leading list__item--stack" data-id="${esc(u.id)}" data-nick="${esc(u.nickname)}">
+      <span class="list__leading" style="--unit:${u.status === 'approved' ? (u.role === 'student' ? 'var(--accent)' : '#6A3FA0') : '#8795AB'}">${esc(u.nickname.slice(0, 2).toUpperCase())}</span>
+      <span class="list__body"><span class="list__title">${esc(u.nickname)} ${u.role !== 'student' ? `<span class="badge badge--new">${esc(u.role)}</span>` : ''}${u.status === 'pending' ? ' <span class="badge badge--soon">awaiting</span>' : u.status === 'suspended' ? ' <span class="badge">paused</span>' : ''}</span><span class="list__sub">Class ${esc(u.class)} · ${u.status === 'approved' ? `since ${when(u.approved_at || u.created_at)}` : `asked ${when(u.created_at)}`}</span></span>
+      ${u.id === me ? '' : `<span class="list__controls">
+        ${u.status !== 'approved' ? `<button class="btn btn--sm" type="button" data-set='{"status":"approved"}'>${u.status === 'pending' ? 'Approve' : 'Restore'}</button>` : `<button class="btn btn--sm btn--plain" type="button" data-set='{"status":"suspended"}'>Pause</button>`}
+        ${u.role === 'teacher' ? `<button class="btn btn--sm btn--plain" type="button" data-set='{"role":"student"}'>Make student</button>` : u.role === 'student' ? `<button class="btn btn--sm btn--plain" type="button" data-set='{"role":"teacher"}'>Make teacher</button>` : ''}
+      </span>`}
+    </div>`;
+  const pending = people.filter((p) => p.status === 'pending').length;
+  return {
+    title: 'Admin', tab: 'more', back: '#/more',
+    html: html`<h1 class="t-title" style="margin:var(--s-4) 0">Admin</h1>
+      ${error ? raw(`<div class="notice notice--warn mb-4">${icon('alert')}<div>${esc(errText(error))}</div></div>`) : ''}
+      <div class="card mb-4"><div class="t-headline">${pending ? `${pending} awaiting approval` : 'No one waiting'}</div><p class="t-2 t-subhead mt-1">Members sign in with an email and pick a nickname; you approve them here. Teachers can run live quizzes and exams. Changes apply the next time they open the app.</p></div>
+      <div class="list__header" style="padding-left:0">Members <span class="count">${people.length}</span></div>
+      <div class="list" id="members">${raw(people.map(row).join('') || '<div class="list__item t-2">No members yet</div>')}</div>
+      <p class="t-footnote t-3 mt-4">Nicknames only are shown; emails stay in the sign-in system. Your own row has no buttons.</p>`,
+    mount(el) {
+      el.querySelector('#members').addEventListener('click', async (e) => {
+        const b = e.target.closest('[data-set]'); if (!b) return;
+        const item = b.closest('[data-id]'); const patch = JSON.parse(b.dataset.set);
+        if (patch.status === 'approved') patch.approved_at = new Date().toISOString();
+        b.disabled = true; const label = b.textContent; b.textContent = 'Saving…';
+        const { error: err } = await c.from('profiles').update(patch).eq('id', item.dataset.id);
+        if (err) { toast(errText(err), { duration: 6000 }); b.disabled = false; b.textContent = label; return; }
+        haptic('success'); toast(`${item.dataset.nick}: ${patch.status ? (patch.status === 'approved' ? 'approved' : 'paused') : 'now a ' + patch.role}`);
+        setTimeout(() => location.reload(), 500);
       });
     },
   };

@@ -1,0 +1,5 @@
+{
+  "url": "https://kschtxkqurkzhfencyko.supabase.co",
+  "key": "sb_publishable_COkpyjs9vm4uqsFIowumaw_H9pwVdmk",
+  "note": "Publishable (anon) key: safe to ship; row-level security in supabase/migrations does the guarding. Never put the secret/service-role key here."
+}

@@ -5,10 +5,11 @@ import { initTheme } from './theme.js';
 import { initPWA } from './pwa.js';
 import { $, $$, html, raw, icon, esc, openSheet, emptyState } from './ui.js';
 import { views } from './views/index.js';
-import { verifySession } from './auth.js';
+import { verifySession, verifyDbSession, isDbMode } from './auth.js';
 
-const PUBLIC_ROUTES = new Set(['signin', 'request', 'access', 'login']);
+const PUBLIC_ROUTES = new Set(['signin', 'request', 'access', 'login', 'awaiting']);
 let sessionChecked = null;
+window.addEventListener('ng:auth', () => { sessionChecked = null; }); // sign-in / sign-out: re-check next render
 
 const main = $('#main');
 const viewEl = $('#view');
@@ -56,13 +57,17 @@ let renderSeq = 0;
 async function render(route) {
   const seq = ++renderSeq;
   // Members-only: anyone without an approved session sees Sign in (or Request access).
+  const dbMode = await isDbMode();
+  const check = () => (sessionChecked ||= dbMode ? verifyDbSession() : verifySession());
   if (!PUBLIC_ROUTES.has(route.name)) {
-    sessionChecked ||= verifySession();
-    const s = await sessionChecked;
+    const s = await check();
     if (!s) { sessionChecked = null; route = { name: 'signin', next: location.hash || '#/today', seg: [] }; }
-  } else if (route.name === 'signin' && store.get('session', null)) {
-    sessionChecked ||= verifySession();
-    if (await sessionChecked) { location.replace('#/today'); return; }
+    else if (s.pending) { sessionChecked = null; route = { name: 'awaiting', profile: s.pending, seg: [] }; }
+  } else if (['signin', 'login', 'request', 'access', 'awaiting'].includes(route.name) && (dbMode || store.get('session', null))) {
+    const s = await check();
+    if (s && !s.pending) { location.replace('#/today'); return; }
+    if (s?.pending && route.name !== 'awaiting') { sessionChecked = null; route = { name: 'awaiting', profile: s.pending, seg: [] }; }
+    if (!s) sessionChecked = null;
   }
   const view = views[route.name] || views['not-found'];
   let result;
