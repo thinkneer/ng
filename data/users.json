@@ -1,5 +1,17 @@
 {
   "$schema": "../schemas/users.schema.json",
   "note": "Nickname-only accounts. No names, emails, phones, schools or photos. Everything here is public by design. Changes happen only by commit after the admin's confirmation.",
-  "users": []
+  "users": [
+    {
+      "nickname": "ni8951",
+      "salt": "CC1/CvA+PLrJR2dYg0JXZg==",
+      "hash": "cf1PSTePagQUfFGgCZja0zr0OkWmcimjzC51sOxw+nI=",
+      "class": "12",
+      "stream": "science",
+      "subjects": [],
+      "status": "approved",
+      "approved_on": "2026-11-14",
+      "role": "admin"
+    }
+  ]
 }
