@@ -1,0 +1,37 @@
+{
+  "$schema": "../../../../../schemas/chapter.schema.json",
+  "id": "ch-04",
+  "number": 4,
+  "title": "The d- and f-Block Elements",
+  "unit": "4",
+  "marks_hint": "7 marks (unit weightage, CBSE 2026–27)",
+  "summary": "Configuration · trends with reasons · $E^\\circ$ anomalies · magnetism & colour · K$_2$Cr$_2$O$_7$ & KMnO$_4$ · lanthanoids & actinoids",
+  "pdfs": [
+    {
+      "title": "Must-have notes: Batch 2 (Inorganic)",
+      "path": "pdfs/class-12/chemistry/chemistry-notes-batch2-inorganic.pdf",
+      "page": 2
+    },
+    {
+      "title": "Formula & facts sheet: Part 2 (Inorganic)",
+      "path": "pdfs/class-12/chemistry/chemistry-formula-sheet-part2-inorganic.pdf",
+      "page": 1
+    },
+    {
+      "title": "Expert Q&A Sheet 2 (Inorganic): questions, answers on the next page",
+      "path": "pdfs/class-12/chemistry/chemistry-qa-sheet2-inorganic.pdf",
+      "page": 1
+    },
+    {
+      "title": "CBSE sample paper 2026–27: our solutions (Sheet 6)",
+      "path": "pdfs/class-12/chemistry/chemistry-qa-sheet6-sqp-2026-27-solutions.pdf",
+      "page": 1
+    }
+  ],
+  "status": {
+    "notes": "ready",
+    "formulas": "ready",
+    "questions": "ready"
+  },
+  "updated": "2026-11-14"
+}

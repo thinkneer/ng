@@ -726,12 +726,44 @@
                       "number": 4,
                       "title": "The d- and f-Block Elements",
                       "unit": "4",
-                      "items": {},
-                      "marks_hint": null,
-                      "summary": null,
-                      "pdfs": [],
-                      "questions": 0,
-                      "question_types": {}
+                      "items": {
+                        "notes": true,
+                        "formulas": true,
+                        "questions": true
+                      },
+                      "marks_hint": "7 marks (unit weightage, CBSE 2026–27)",
+                      "summary": "Configuration · trends with reasons · $E^\\circ$ anomalies · magnetism & colour · K$_2$Cr$_2$O$_7$ & KMnO$_4$ · lanthanoids & actinoids",
+                      "pdfs": [
+                        {
+                          "title": "Must-have notes: Batch 2 (Inorganic)",
+                          "path": "pdfs/class-12/chemistry/chemistry-notes-batch2-inorganic.pdf",
+                          "page": 2
+                        },
+                        {
+                          "title": "Formula & facts sheet: Part 2 (Inorganic)",
+                          "path": "pdfs/class-12/chemistry/chemistry-formula-sheet-part2-inorganic.pdf",
+                          "page": 1
+                        },
+                        {
+                          "title": "Expert Q&A Sheet 2 (Inorganic): questions, answers on the next page",
+                          "path": "pdfs/class-12/chemistry/chemistry-qa-sheet2-inorganic.pdf",
+                          "page": 1
+                        },
+                        {
+                          "title": "CBSE sample paper 2026–27: our solutions (Sheet 6)",
+                          "path": "pdfs/class-12/chemistry/chemistry-qa-sheet6-sqp-2026-27-solutions.pdf",
+                          "page": 1
+                        }
+                      ],
+                      "questions": 9,
+                      "question_types": {
+                        "mcq": 3,
+                        "ar": 1,
+                        "vsa2": 2,
+                        "sa3": 2,
+                        "la5": 1
+                      },
+                      "diagrams": []
                     }
                   ]
                 },
@@ -747,12 +779,45 @@
                       "number": 5,
                       "title": "Coordination Compounds",
                       "unit": "5",
-                      "items": {},
-                      "marks_hint": null,
-                      "summary": null,
-                      "pdfs": [],
-                      "questions": 0,
-                      "question_types": {}
+                      "items": {
+                        "notes": true,
+                        "formulas": true,
+                        "questions": true
+                      },
+                      "marks_hint": "7 marks (unit weightage, CBSE 2026–27)",
+                      "summary": "Werner · definitions · IUPAC naming · isomerism · VBT · CFT & colour · metal carbonyls · applications",
+                      "pdfs": [
+                        {
+                          "title": "Must-have notes: Batch 2 (Inorganic)",
+                          "path": "pdfs/class-12/chemistry/chemistry-notes-batch2-inorganic.pdf",
+                          "page": 4
+                        },
+                        {
+                          "title": "Formula & facts sheet: Part 2 (Inorganic)",
+                          "path": "pdfs/class-12/chemistry/chemistry-formula-sheet-part2-inorganic.pdf",
+                          "page": 2
+                        },
+                        {
+                          "title": "Expert Q&A Sheet 2 (Inorganic): questions, answers on the next page",
+                          "path": "pdfs/class-12/chemistry/chemistry-qa-sheet2-inorganic.pdf",
+                          "page": 1
+                        },
+                        {
+                          "title": "CBSE sample paper 2026–27: our solutions (Sheet 6)",
+                          "path": "pdfs/class-12/chemistry/chemistry-qa-sheet6-sqp-2026-27-solutions.pdf",
+                          "page": 1
+                        }
+                      ],
+                      "questions": 10,
+                      "question_types": {
+                        "mcq": 3,
+                        "ar": 1,
+                        "vsa2": 2,
+                        "sa3": 2,
+                        "case": 1,
+                        "la5": 1
+                      },
+                      "diagrams": []
                     }
                   ]
                 },
@@ -882,9 +947,9 @@
               },
               "papers": [],
               "counts": {
-                "notes": 3,
-                "formulas": 3,
-                "questions": 3,
+                "notes": 5,
+                "formulas": 5,
+                "questions": 5,
                 "chapters": 10
               }
             },

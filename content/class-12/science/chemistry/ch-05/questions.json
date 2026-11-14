@@ -1,0 +1,243 @@
+[
+  {
+    "id": "chem-s2-q03",
+    "chapter": "ch-05",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ-style",
+    "stem": "The coordination number of cobalt in $\\ce{[CoCl2(en)2]+}$ is",
+    "options": [
+      "2",
+      "4",
+      "5",
+      "6"
+    ],
+    "answer": "D",
+    "model_answer": "**(d) 6.** en is didentate: $2\\times2+2=6$ donor atoms.",
+    "source_note": "Expert Q&A Sheet 2 (Inorganic), Q3"
+  },
+  {
+    "id": "chem-s2-q04",
+    "chapter": "ch-05",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ-style",
+    "stem": "The number of ions given by one formula unit of $\\ce{K4[Fe(CN)6]}$ in water is",
+    "options": [
+      "2",
+      "5",
+      "10",
+      "11"
+    ],
+    "answer": "B",
+    "model_answer": "**(b) 5.** $\\ce{K4[Fe(CN)6] -> 4K+ + [Fe(CN)6]^4-}$.",
+    "source_note": "Expert Q&A Sheet 2 (Inorganic), Q4"
+  },
+  {
+    "id": "chem-s2-q05",
+    "chapter": "ch-05",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ-style",
+    "stem": "Which complex can show linkage isomerism?",
+    "options": [
+      "$\\ce{[Co(NH3)6]Cl3}$",
+      "$\\ce{[Co(NH3)5(NO2)]Cl2}$",
+      "$\\ce{[Co(NH3)5Cl]SO4}$",
+      "$\\ce{[Cr(H2O)6]Cl3}$"
+    ],
+    "answer": "B",
+    "model_answer": "**(b).** $\\ce{NO2-}$ is ambidentate (binds through N or O).",
+    "source_note": "Expert Q&A Sheet 2 (Inorganic), Q5"
+  },
+  {
+    "id": "chem-s2-q08",
+    "chapter": "ch-05",
+    "type": "ar",
+    "marks": 1,
+    "stars": 3,
+    "label": "PYQ-style",
+    "stem": "**Assertion (A):** $\\ce{[Ni(CN)4]^2-}$ is diamagnetic.<br>**Reason (R):** $\\ce{CN-}$ is a weak-field ligand.",
+    "options": [
+      "Both A and R are true, and R is the correct explanation of A.",
+      "Both A and R are true, but R is not the correct explanation of A.",
+      "A is true, but R is false.",
+      "A is false, but R is true."
+    ],
+    "answer": "C",
+    "model_answer": "**(c).** $\\ce{CN-}$ is a *strong*-field ligand; it pairs the $3d^8$ electrons ($dsp^2$, no unpaired electron).",
+    "source_note": "Expert Q&A Sheet 2 (Inorganic), Q8"
+  },
+  {
+    "id": "chem-s2-q11",
+    "chapter": "ch-05",
+    "type": "vsa2",
+    "marks": 2,
+    "stars": 3,
+    "label": "PYQ-style",
+    "stem": "Write the IUPAC names of (i) $\\ce{[CoCl(NH3)5]Cl2}$ and (ii) $\\ce{K3[Fe(C2O4)3]}$.",
+    "model_answer": "(i) pentaamminechloridocobalt(III) chloride [1]<br>\n(ii) potassium trioxalatoferrate(III) [1]",
+    "scheme": [
+      {
+        "step": "(i) pentaamminechloridocobalt(III) chloride",
+        "marks": 1
+      },
+      {
+        "step": "(ii) potassium trioxalatoferrate(III)",
+        "marks": 1
+      }
+    ],
+    "source_note": "Expert Q&A Sheet 2 (Inorganic), Q11"
+  },
+  {
+    "id": "chem-s2-q12",
+    "chapter": "ch-05",
+    "type": "vsa2",
+    "marks": 2,
+    "stars": 3,
+    "label": "PYQ-style",
+    "stem": "Draw the geometrical isomers of $\\ce{[Pt(NH3)2Cl2]}$. Which one is used in cancer treatment?",
+    "model_answer": "*(diagram: see the PDF)* Square planar: *cis* has the two Cl adjacent (90$^\\circ$); *trans* has them opposite (180$^\\circ$). [½ + ½]<br>\nThe **cis** isomer (cis-platin) is the anticancer drug. [1]",
+    "scheme": [
+      {
+        "step": "*(diagram: see the PDF)* Square planar: *cis* has the two Cl adjacent (90$^\\circ$); *trans* has them opposite (180$^\\circ$).",
+        "marks": 1
+      },
+      {
+        "step": "The **cis** isomer (cis-platin) is the anticancer drug.",
+        "marks": 1
+      }
+    ],
+    "source_note": "Expert Q&A Sheet 2 (Inorganic), Q12"
+  },
+  {
+    "id": "chem-s2-q15",
+    "chapter": "ch-05",
+    "type": "sa3",
+    "marks": 3,
+    "stars": 3,
+    "label": "PYQ-style",
+    "stem": "Using valence bond theory, give the hybridisation, shape and magnetic character of $\\ce{[CoF6]^3-}$ and $\\ce{[Co(NH3)6]^3+}$. Which is the inner-orbital complex? (Co: Z = 27)",
+    "model_answer": "$\\ce{Co^3+}$: [Ar]$3d^6$.<br>\n$\\ce{[CoF6]^3-}$: $\\ce{F-}$ is a weak-field ligand, no pairing.<br>\n`[↑↓][↑ ][↑ ][↑ ][↑ ]` `[××]` `[××][××][××]` `[××][××][ ][ ][ ]` (3d | 4s | 4p | 4d)<br>\n**$sp^3d^2$**, octahedral, **paramagnetic** (4 unpaired electrons); outer-orbital (high-spin) complex. [1½]<br>\n$\\ce{[Co(NH3)6]^3+}$: $\\ce{NH3}$ causes pairing of the 3d electrons.<br>\n`[↑↓][↑↓][↑↓][××][××]` `[××]` `[××][××][××]` (3d | 4s | 4p)<br>\n**$d^2sp^3$**, octahedral, **diamagnetic**; this is the **inner-orbital** (low-spin) complex. [1½]",
+    "scheme": [
+      {
+        "step": "$\\ce{Co^3+}$: [Ar]$3d^6$. $\\ce{[CoF6]^3-}$: $\\ce{F-}$ is a weak-field ligand, no pairing. `[↑↓][↑ ][↑ ][↑ ][↑ ]` `[××]` `[××][××][××]` `[××][××][ ][ ][ ]` (3d | 4s | 4p | 4d) **$sp^3d^2$**, octahedral, **paramagnetic** (4 unpaired electrons); outer-orbital (high-spin) complex.",
+        "marks": 1.5
+      },
+      {
+        "step": "$\\ce{[Co(NH3)6]^3+}$: $\\ce{NH3}$ causes pairing of the 3d electrons. `[↑↓][↑↓][↑↓][××][××]` `[××]` `[××][××][××]` (3d | 4s | 4p) **$d^2sp^3$**, octahedral, **diamagnetic**; this is the **inner-orbital** (low-spin) complex.",
+        "marks": 1.5
+      }
+    ],
+    "source_note": "Expert Q&A Sheet 2 (Inorganic), Q15"
+  },
+  {
+    "id": "chem-s2-q16",
+    "chapter": "ch-05",
+    "type": "sa3",
+    "marks": 3,
+    "stars": 3,
+    "label": "PYQ-style",
+    "stem": "(a) Write the formula of tetraamminediaquacobalt(III) chloride.<br>\n(b) Write the electronic configuration of a $d^4$ ion in an octahedral field when (i) $\\Delta_o>P$, (ii) $\\Delta_o<P$.<br>\n(c) Why are low-spin tetrahedral complexes rarely observed?",
+    "model_answer": "(a) $\\ce{[Co(NH3)4(H2O)2]Cl3}$ [1]<br>\n(b) (i) $\\Delta_o>P$ (strong field): $t_{2g}^4e_g^0$; (ii) $\\Delta_o<P$ (weak field): $t_{2g}^3e_g^1$. [½ + ½]<br>\n(c) The tetrahedral splitting is small, $\\Delta_t=\\frac49\\Delta_o$, and is less than the pairing energy, so electrons occupy the higher orbitals rather than pair. [1]",
+    "scheme": [
+      {
+        "step": "(a) $\\ce{[Co(NH3)4(H2O)2]Cl3}$",
+        "marks": 1
+      },
+      {
+        "step": "(b) (i) $\\Delta_o>P$ (strong field): $t_{2g}^4e_g^0$; (ii) $\\Delta_o<P$ (weak field): $t_{2g}^3e_g^1$.",
+        "marks": 1
+      },
+      {
+        "step": "(c) The tetrahedral splitting is small, $\\Delta_t=\\frac49\\Delta_o$, and is less than the pairing energy, so electrons occupy the higher orbitals rather than pair.",
+        "marks": 1
+      }
+    ],
+    "source_note": "Expert Q&A Sheet 2 (Inorganic), Q16"
+  },
+  {
+    "id": "chem-s2-q17",
+    "chapter": "ch-05",
+    "type": "case",
+    "marks": 4,
+    "stars": 3,
+    "label": "PYQ-style",
+    "stem": "*In a complex the ligands split the d orbitals of the metal into two sets. In an octahedral field the gap is $\\Delta_o$. An electron can jump from the lower to the upper set by absorbing light; if this falls in the visible region, the complex shows the complementary colour. The size of $\\Delta_o$ depends on the ligand, so the same metal ion can show different colours with different ligands.*",
+    "parts": [
+      {
+        "id": "i",
+        "stem": "Why is $\\ce{[Ti(H2O)6]^3+}$ coloured while $\\ce{[Sc(H2O)6]^3+}$ is colourless?",
+        "marks": 1,
+        "model_answer": "$\\ce{Ti^3+}$ is $3d^1$: the electron is excited from $t_{2g}$ to $e_g$ by absorbing visible light (d–d transition). $\\ce{Sc^3+}$ is $3d^0$: no d electron, no transition. [1]",
+        "scheme": [
+          {
+            "step": "$\\ce{Ti^3+}$ is $3d^1$: the electron is excited from $t_{2g}$ to $e_g$ by absorbing visible light (d–d transition). $\\ce{Sc^3+}$ is $3d^0$: no d electron, no transition.",
+            "marks": 1
+          }
+        ]
+      },
+      {
+        "id": "ii",
+        "stem": "Arrange $\\ce{H2O}$, $\\ce{CN-}$, $\\ce{Cl-}$, $\\ce{NH3}$ in increasing order of field strength.",
+        "marks": 1,
+        "model_answer": "$\\ce{Cl-}$ $<$ $\\ce{H2O}$ $<$ $\\ce{NH3}$ $<$ $\\ce{CN-}$ [1]",
+        "scheme": [
+          {
+            "step": "$\\ce{Cl-}$ $<$ $\\ce{H2O}$ $<$ $\\ce{NH3}$ $<$ $\\ce{CN-}$",
+            "marks": 1
+          }
+        ]
+      },
+      {
+        "id": "iii",
+        "stem": "Why do dilute solutions of $\\ce{[Fe(CN)6]^4-}$ and $\\ce{[Fe(H2O)6]^2+}$ have different colours?<br>**OR**<br>Write the $t_{2g}$/$e_g$ configuration and number of unpaired electrons in $\\ce{[Fe(CN)6]^4-}$ and $\\ce{[Fe(H2O)6]^2+}$.",
+        "marks": 2,
+        "model_answer": "$\\ce{CN-}$ is a strong-field ligand and gives a large $\\Delta_o$; $\\ce{H2O}$ is weak-field and gives a small $\\Delta_o$. [1] The two complexes therefore absorb light of different wavelengths and transmit different complementary colours. [1]\n\n**OR**\n\n$\\ce{Fe^2+}$ is $3d^6$. $\\ce{[Fe(CN)6]^4-}$: $t_{2g}^6e_g^0$, no unpaired electron. [1] $\\ce{[Fe(H2O)6]^2+}$: $t_{2g}^4e_g^2$, 4 unpaired electrons. [1]",
+        "scheme": [
+          {
+            "step": "$\\ce{CN-}$ is a strong-field ligand and gives a large $\\Delta_o$; $\\ce{H2O}$ is weak-field and gives a small $\\Delta_o$.",
+            "marks": 1
+          },
+          {
+            "step": "The two complexes therefore absorb light of different wavelengths and transmit different complementary colours.",
+            "marks": 1
+          }
+        ]
+      }
+    ],
+    "source_note": "Expert Q&A Sheet 2 (Inorganic), Q17"
+  },
+  {
+    "id": "chem-s2-q19",
+    "chapter": "ch-05",
+    "type": "la5",
+    "marks": 5,
+    "stars": 3,
+    "label": "PYQ-style",
+    "stem": "(a) $\\ce{[NiCl4]^2-}$ is paramagnetic but $\\ce{[Ni(CO)4]}$ is diamagnetic, though both are tetrahedral. Explain. (Ni: Z = 28) [2]<br>\n(b) How many stereoisomers does $\\ce{[CoCl2(en)2]+}$ have? Describe them and say which are optically active. [2]<br>\n(c) Name the isomerism shown by $\\ce{[Co(NH3)5(SO4)]Br}$ and $\\ce{[Co(NH3)5Br]SO4}$, and give a test to tell them apart. [1]",
+    "model_answer": "(a) $\\ce{[NiCl4]^2-}$: $\\ce{Ni^2+}$ is $3d^8$; $\\ce{Cl-}$ is a weak-field ligand, so no pairing; $sp^3$; two unpaired electrons ⇒ paramagnetic. [1]<br>\n$\\ce{[Ni(CO)4]}$: Ni(0) is $3d^84s^2$; CO is a strong-field ligand and pushes the 4s electrons into 3d ($3d^{10}$); $sp^3$; no unpaired electron ⇒ diamagnetic. [1]<br>\n(b) **Three** stereoisomers. *trans* (the two Cl at 180$^\\circ$): has a plane of symmetry, optically inactive. *cis* (the two Cl at 90$^\\circ$): exists as a pair of non-superimposable mirror images, $d$ and $l$, both optically active. [2]<br>\n(c) **Ionisation isomerism.** $\\ce{[Co(NH3)5Br]SO4}$ gives a white precipitate ($\\ce{BaSO4}$) with $\\ce{BaCl2}$ solution; $\\ce{[Co(NH3)5(SO4)]Br}$ gives a pale yellow precipitate (AgBr) with $\\ce{AgNO3}$ solution. [1]",
+    "scheme": [
+      {
+        "step": "(a) $\\ce{[NiCl4]^2-}$: $\\ce{Ni^2+}$ is $3d^8$; $\\ce{Cl-}$ is a weak-field ligand, so no pairing; $sp^3$; two unpaired electrons ⇒ paramagnetic.",
+        "marks": 1
+      },
+      {
+        "step": "$\\ce{[Ni(CO)4]}$: Ni(0) is $3d^84s^2$; CO is a strong-field ligand and pushes the 4s electrons into 3d ($3d^{10}$); $sp^3$; no unpaired electron ⇒ diamagnetic.",
+        "marks": 1
+      },
+      {
+        "step": "(b) **Three** stereoisomers. *trans* (the two Cl at 180$^\\circ$): has a plane of symmetry, optically inactive. *cis* (the two Cl at 90$^\\circ$): exists as a pair of non-superimposable mirror images, $d$ and $l$, both optically active.",
+        "marks": 2
+      },
+      {
+        "step": "(c) **Ionisation isomerism.** $\\ce{[Co(NH3)5Br]SO4}$ gives a white precipitate ($\\ce{BaSO4}$) with $\\ce{BaCl2}$ solution; $\\ce{[Co(NH3)5(SO4)]Br}$ gives a pale yellow precipitate (AgBr) with $\\ce{AgNO3}$ solution.",
+        "marks": 1
+      }
+    ],
+    "source_note": "Expert Q&A Sheet 2 (Inorganic), Q19"
+  }
+]

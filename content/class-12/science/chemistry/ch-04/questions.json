@@ -1,0 +1,199 @@
+[
+  {
+    "id": "chem-s2-q01",
+    "chapter": "ch-04",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ-style",
+    "stem": "Which ion has the largest number of unpaired electrons?",
+    "options": [
+      "Ti$^{3+}$",
+      "Cr$^{3+}$",
+      "Mn$^{2+}$",
+      "Ni$^{2+}$"
+    ],
+    "answer": "C",
+    "model_answer": "**(c) Mn$^{2+}$.** $3d^5$: 5 unpaired (Ti$^{3+}$ 1, Cr$^{3+}$ 3, Ni$^{2+}$ 2).",
+    "source_note": "Expert Q&A Sheet 2 (Inorganic), Q1"
+  },
+  {
+    "id": "chem-s2-q02",
+    "chapter": "ch-04",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ-style",
+    "stem": "Which ion is colourless in aqueous solution?",
+    "options": [
+      "Sc$^{3+}$",
+      "Ti$^{3+}$",
+      "V$^{3+}$",
+      "Cu$^{2+}$"
+    ],
+    "answer": "A",
+    "model_answer": "**(a) Sc$^{3+}$.** $3d^0$: no d–d transition possible.",
+    "source_note": "Expert Q&A Sheet 2 (Inorganic), Q2"
+  },
+  {
+    "id": "chem-s2-q06",
+    "chapter": "ch-04",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 3,
+    "label": "PYQ-style",
+    "stem": "In acidic medium, the number of moles of $\\ce{Fe^2+}$ oxidised by one mole of $\\ce{KMnO4}$ is",
+    "options": [
+      "1",
+      "3",
+      "5",
+      "6"
+    ],
+    "answer": "C",
+    "model_answer": "**(c) 5.** $\\ce{MnO4- + 5Fe^2+ + 8H+ -> Mn^2+ + 5Fe^3+ + 4H2O}$.",
+    "source_note": "Expert Q&A Sheet 2 (Inorganic), Q6"
+  },
+  {
+    "id": "chem-s2-q07",
+    "chapter": "ch-04",
+    "type": "ar",
+    "marks": 1,
+    "stars": 3,
+    "label": "PYQ-style",
+    "stem": "**Assertion (A):** Zr and Hf have almost identical atomic radii.<br>**Reason (R):** Lanthanoid contraction offsets the expected increase in size from the 4d to the 5d series.",
+    "options": [
+      "Both A and R are true, and R is the correct explanation of A.",
+      "Both A and R are true, but R is not the correct explanation of A.",
+      "A is true, but R is false.",
+      "A is false, but R is true."
+    ],
+    "answer": "A",
+    "model_answer": "**(a).**",
+    "source_note": "Expert Q&A Sheet 2 (Inorganic), Q7"
+  },
+  {
+    "id": "chem-s2-q09",
+    "chapter": "ch-04",
+    "type": "vsa2",
+    "marks": 2,
+    "stars": 3,
+    "label": "PYQ-style",
+    "stem": "Give reasons: (i) zinc is not regarded as a transition element; (ii) $\\ce{Cr^2+}$ is a strong reducing agent.",
+    "model_answer": "(i) Zn is [Ar]$3d^{10}4s^2$; its d subshell is completely filled in the atom and in $\\ce{Zn^2+}$ ($3d^{10}$), so it has no partly filled d orbitals in any common oxidation state. [1]<br>\n(ii) $\\ce{Cr^2+}$ ($3d^4$) changes to $\\ce{Cr^3+}$ ($3d^3$), which has the stable half-filled $t_{2g}^3$ configuration; hence $E^\\circ_{\\ce{Cr^3+/Cr^2+}}$ is negative ($-0.41$ V) and $\\ce{Cr^2+}$ readily loses an electron. [1]",
+    "scheme": [
+      {
+        "step": "(i) Zn is [Ar]$3d^{10}4s^2$; its d subshell is completely filled in the atom and in $\\ce{Zn^2+}$ ($3d^{10}$), so it has no partly filled d orbitals in any common oxidation state.",
+        "marks": 1
+      },
+      {
+        "step": "(ii) $\\ce{Cr^2+}$ ($3d^4$) changes to $\\ce{Cr^3+}$ ($3d^3$), which has the stable half-filled $t_{2g}^3$ configuration; hence $E^\\circ_{\\ce{Cr^3+/Cr^2+}}$ is negative ($-0.41$ V) and $\\ce{Cr^2+}$ readily loses an electron.",
+        "marks": 1
+      }
+    ],
+    "source_note": "Expert Q&A Sheet 2 (Inorganic), Q9"
+  },
+  {
+    "id": "chem-s2-q10",
+    "chapter": "ch-04",
+    "type": "vsa2",
+    "marks": 2,
+    "stars": 3,
+    "label": "PYQ-style",
+    "stem": "Complete and balance (acidic medium):<br>\n(i) $\\ce{MnO4- + C2O4^2- + H+ ->}$   (ii) $\\ce{Cr2O7^2- + Fe^2+ + H+ ->}$",
+    "model_answer": "(i) $\\ce{2MnO4- + 5C2O4^2- + 16H+ -> 2Mn^2+ + 10CO2 + 8H2O}$ [1]<br>\n(ii) $\\ce{Cr2O7^2- + 6Fe^2+ + 14H+ -> 2Cr^3+ + 6Fe^3+ + 7H2O}$ [1]",
+    "scheme": [
+      {
+        "step": "(i) $\\ce{2MnO4- + 5C2O4^2- + 16H+ -> 2Mn^2+ + 10CO2 + 8H2O}$",
+        "marks": 1
+      },
+      {
+        "step": "(ii) $\\ce{Cr2O7^2- + 6Fe^2+ + 14H+ -> 2Cr^3+ + 6Fe^3+ + 7H2O}$",
+        "marks": 1
+      }
+    ],
+    "source_note": "Expert Q&A Sheet 2 (Inorganic), Q10"
+  },
+  {
+    "id": "chem-s2-q13",
+    "chapter": "ch-04",
+    "type": "sa3",
+    "marks": 3,
+    "stars": 3,
+    "label": "PYQ-style",
+    "stem": "What is lanthanoid contraction? State its cause and two consequences.",
+    "model_answer": "**Lanthanoid contraction** is the steady decrease in atomic and ionic radii of the lanthanoids from La to Lu. [1]<br>\n**Cause:** the 4f electrons shield one another from the nucleus very poorly, so the effective nuclear charge rises with atomic number. [1]<br>\n**Consequences:** (i) 4d and 5d elements of a group have almost the same radii (Zr 160 pm, Hf 159 pm), so they occur together and are hard to separate; (ii) basic strength of the hydroxides decreases from $\\ce{La(OH)3}$ to $\\ce{Lu(OH)3}$. [½ + ½]",
+    "scheme": [
+      {
+        "step": "**Lanthanoid contraction** is the steady decrease in atomic and ionic radii of the lanthanoids from La to Lu.",
+        "marks": 1
+      },
+      {
+        "step": "**Cause:** the 4f electrons shield one another from the nucleus very poorly, so the effective nuclear charge rises with atomic number.",
+        "marks": 1
+      },
+      {
+        "step": "**Consequences:** (i) 4d and 5d elements of a group have almost the same radii (Zr 160 pm, Hf 159 pm), so they occur together and are hard to separate; (ii) basic strength of the hydroxides decreases from $\\ce{La(OH)3}$ to $\\ce{Lu(OH)3}$.",
+        "marks": 1
+      }
+    ],
+    "source_note": "Expert Q&A Sheet 2 (Inorganic), Q13"
+  },
+  {
+    "id": "chem-s2-q14",
+    "chapter": "ch-04",
+    "type": "sa3",
+    "marks": 3,
+    "stars": 3,
+    "label": "PYQ-style",
+    "stem": "Give reasons:<br>\n(i) Transition metals form coloured compounds.<br>\n(ii) $E^\\circ$ for $\\ce{Mn^3+/Mn^2+}$ (+1.57 V) is much more positive than for $\\ce{Fe^3+/Fe^2+}$ (+0.77 V).<br>\n(iii) Actinoids show a wider range of oxidation states than lanthanoids.",
+    "model_answer": "(i) Their ions have partly filled d orbitals; visible light is absorbed for d–d transitions and the complementary colour is seen. [1]<br>\n(ii) $\\ce{Mn^2+}$ is $3d^5$ (half-filled, extra stable), so $\\ce{Mn^3+}$ ($3d^4$) is easily reduced to it. $\\ce{Fe^3+}$ is itself $3d^5$, so it is much less ready to be reduced to $\\ce{Fe^2+}$ ($3d^6$). [1]<br>\n(iii) In actinoids the 5f, 6d and 7s levels have comparable energies, so more electrons can take part in bonding. [1]",
+    "scheme": [
+      {
+        "step": "(i) Their ions have partly filled d orbitals; visible light is absorbed for d–d transitions and the complementary colour is seen.",
+        "marks": 1
+      },
+      {
+        "step": "(ii) $\\ce{Mn^2+}$ is $3d^5$ (half-filled, extra stable), so $\\ce{Mn^3+}$ ($3d^4$) is easily reduced to it. $\\ce{Fe^3+}$ is itself $3d^5$, so it is much less ready to be reduced to $\\ce{Fe^2+}$ ($3d^6$).",
+        "marks": 1
+      },
+      {
+        "step": "(iii) In actinoids the 5f, 6d and 7s levels have comparable energies, so more electrons can take part in bonding.",
+        "marks": 1
+      }
+    ],
+    "source_note": "Expert Q&A Sheet 2 (Inorganic), Q14"
+  },
+  {
+    "id": "chem-s2-q18",
+    "chapter": "ch-04",
+    "type": "la5",
+    "marks": 5,
+    "stars": 3,
+    "label": "PYQ-style",
+    "stem": "(a) Describe, with equations, the preparation of $\\ce{KMnO4}$ from pyrolusite ore ($\\ce{MnO2}$). [2]<br>\n(b) Calculate the spin-only magnetic moment of $\\ce{Cr^3+}$ (Z = 24). [1]<br>\n(c) Give reasons: (i) $\\ce{Cu+}$ is unstable in aqueous solution; (ii) the highest oxidation state of a transition metal is shown in its oxides and oxoanions. [2]",
+    "model_answer": "(a) $\\ce{MnO2}$ is fused with KOH in the presence of air (or an oxidising agent such as $\\ce{KNO3}$) to give green potassium manganate:<br>\n$\\ce{2MnO2 + 4KOH + O2 -> 2K2MnO4 + 2H2O}$ [1]<br>\nManganate disproportionates in neutral or acidic solution to give purple permanganate:<br>\n$\\ce{3MnO4^2- + 4H+ -> 2MnO4- + MnO2 + 2H2O}$ [1]<br>\n(b) $\\ce{Cr^3+}$: [Ar]$3d^3$, $n=3$; $\\mu=\\sqrt{n(n+2)}=\\sqrt{15}=\\boxed{3.87\\text{ BM}}$ [1]<br>\n(c)(i) $\\ce{Cu+}$ disproportionates: $\\ce{2Cu+(aq) -> Cu^2+(aq) + Cu(s)}$. The much more negative hydration enthalpy of $\\ce{Cu^2+}$ more than compensates for the second ionisation enthalpy of Cu. [1]<br>\n(ii) Oxygen is small and highly electronegative and can form multiple bonds with the metal, which stabilises high oxidation states (e.g. Mn(VII) in $\\ce{MnO4-}$). [1]",
+    "scheme": [
+      {
+        "step": "(a) $\\ce{MnO2}$ is fused with KOH in the presence of air (or an oxidising agent such as $\\ce{KNO3}$) to give green potassium manganate: $\\ce{2MnO2 + 4KOH + O2 -> 2K2MnO4 + 2H2O}$",
+        "marks": 1
+      },
+      {
+        "step": "Manganate disproportionates in neutral or acidic solution to give purple permanganate: $\\ce{3MnO4^2- + 4H+ -> 2MnO4- + MnO2 + 2H2O}$",
+        "marks": 1
+      },
+      {
+        "step": "(b) $\\ce{Cr^3+}$: [Ar]$3d^3$, $n=3$; $\\mu=\\sqrt{n(n+2)}=\\sqrt{15}=\\boxed{3.87\\text{ BM}}$",
+        "marks": 1
+      },
+      {
+        "step": "(c)(i) $\\ce{Cu+}$ disproportionates: $\\ce{2Cu+(aq) -> Cu^2+(aq) + Cu(s)}$. The much more negative hydration enthalpy of $\\ce{Cu^2+}$ more than compensates for the second ionisation enthalpy of Cu.",
+        "marks": 1
+      },
+      {
+        "step": "(ii) Oxygen is small and highly electronegative and can form multiple bonds with the metal, which stabilises high oxidation states (e.g. Mn(VII) in $\\ce{MnO4-}$).",
+        "marks": 1
+      }
+    ],
+    "source_note": "Expert Q&A Sheet 2 (Inorganic), Q18"
+  }
+]
