@@ -556,6 +556,7 @@
                       "title": "Solutions",
                       "unit": "1",
                       "items": {
+                        "notes": true,
                         "mustknow": true,
                         "formulas": true,
                         "questions": true
@@ -571,7 +572,8 @@
                         "la5": 1
                       },
                       "diagrams": [],
-                      "words": 2134
+                      "words": 5557,
+                      "read_minutes": 17
                     }
                   ]
                 },
@@ -886,7 +888,7 @@
               },
               "papers": [],
               "counts": {
-                "notes": 0,
+                "notes": 1,
                 "mustknow": 10,
                 "formulas": 10,
                 "questions": 10,
