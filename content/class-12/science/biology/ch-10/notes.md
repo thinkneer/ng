@@ -16,6 +16,14 @@ GM plants have been useful in many ways:
 
 GM is also used to create tailor-made plants that supply alternative resources (starch, fuels, pharmaceuticals) to industry.
 
+```ng-mnemonic
+id: ch10-gm-benefits
+title: Five gains from GM plants
+trick: **S**mart **P**lants **P**ay **M**ore **N**ow
+meaning: **S**tress tolerance (abiotic), less **P**esticide, fewer **P**ost-harvest losses, better **M**ineral use, more **N**utrition (Golden rice, vitamin A).
+prompt: List the advantages of GM crops.
+```
+
 **In one breath:** GM crops resist abiotic stress and pests, cut post-harvest losses, use minerals efficiently and can be more nutritious (Golden rice, vitamin A).
 
 ## Bt cotton
@@ -30,6 +38,33 @@ The toxin is coded by genes named ***cry***. The proteins coded by **cryIAc** an
 The toxin is stored as an inactive protoxin in crystals; only the alkaline pH of the insect gut activates it.
 :::
 
+```ng-steps
+id: ch10-bt-toxin
+title: How Bt toxin kills an insect
+step: *Bacillus thuringiensis* stores the toxin as an **inactive protoxin** in crystals, so the bacterium is safe.
+step: An insect larva **eats** the crystals with the plant tissue.
+step: The **alkaline pH** of the insect gut dissolves the crystals and turns protoxin into **active toxin**.
+step: The toxin **binds midgut epithelial cells** and makes **pores**.
+step: The cells **swell and burst (lyse)**; the insect dies.
+```
+
+```ng-fill
+id: ch10-cry-genes
+title: cry genes and their targets
+cols: Gene | Controls
+row: cryIAc | [[cotton bollworms]]
+row: cryIIAb | [[cotton bollworms]]
+row: cryIAb | [[corn borer]]
+```
+
+```ng-mnemonic
+id: ch10-cry
+title: Which cry gene for which pest?
+trick: **Cotton cries twice, Corn cries once**
+meaning: Cotton bollworm: **cryIAc** and **cryIIAb** (two genes). Corn borer: **cryIAb** (one gene).
+prompt: Which cry gene protects corn against the corn borer?
+```
+
 **In one breath:** *Bacillus thuringiensis* makes a crystal protoxin; alkaline insect gut pH activates it; the toxin binds midgut epithelium, makes pores, cells swell and lyse. cryIAc and cryIIAb control cotton bollworms; cryIAb controls corn borer. Bt cotton carries these genes.
 
 ## Pest-resistant plants through RNA interference
@@ -39,6 +74,16 @@ A nematode, ***Meloidogyne incognita***, infects the roots of tobacco plants and
 RNAi takes place in all eukaryotic organisms as a method of **cellular defence**. It involves **silencing of a specific mRNA** by a complementary **double-stranded RNA (dsRNA)** molecule, which binds to and prevents translation of the mRNA. In nature, the dsRNA may come from an infection by RNA viruses or from mobile genetic elements (transposons) that replicate via an RNA intermediate.
 
 Using ***Agrobacterium* vectors**, **nematode-specific genes** were introduced into the host plant. The introduced DNA was designed to produce **both sense and anti-sense RNA** in the host cells. These two RNAs, being complementary, formed **dsRNA**, which started RNAi and silenced the specific mRNA of the nematode. As a result, the parasite **could not survive** in a transgenic host expressing the specific interfering RNA: the plant protected itself.
+
+```ng-steps
+id: ch10-rnai
+title: RNAi protects tobacco from a nematode
+step: The nematode ***Meloidogyne incognita*** infects tobacco roots and cuts yield.
+step: **Nematode-specific genes** are put into tobacco using an ***Agrobacterium*** vector.
+step: The transgene makes **sense and anti-sense RNA** in the plant's cells.
+step: The two complementary RNAs pair into **dsRNA**, which starts **RNA interference**.
+step: The nematode's specific **mRNA is silenced** (no translation); the parasite cannot survive.
+```
 
 **In one breath:** *Meloidogyne incognita* attacks tobacco roots. Nematode-specific genes put in via *Agrobacterium* make sense and anti-sense RNA → dsRNA → RNAi silences the nematode's mRNA → the parasite cannot survive.
 
@@ -52,9 +97,43 @@ Insulin is made of **two short polypeptide chains, A and B**, linked by **disulp
 
 In **1983**, **Eli Lilly**, an American company, prepared **two DNA sequences corresponding to the A and B chains** of human insulin and introduced them into **plasmids of *E. coli*** to produce the two chains separately. The **A and B chains were then extracted and combined by creating disulphide bonds** to form human insulin, called **Humulin**.
 
+```ng-figure
+id: ch10-insulin
+title: Pro-insulin to insulin
+svg:
+<svg viewBox="0 0 330 150" role="img" aria-label="Insulin A and B chains joined by disulphide bonds, with the C peptide removed" fill="none" stroke="currentColor">
+<path class="u" stroke-width="9" stroke-linecap="round" stroke-dasharray="0 11" d="M40,50H182"/>
+<path stroke-width="9" stroke-linecap="round" stroke-dasharray="0 11" d="M30,100H250"/>
+<path stroke="#E0B400" stroke-width="2.4" d="M73,56V94M150,56V94M95,42Q117,24,139,42"/>
+<path stroke-dasharray="4 3" stroke-opacity="0.6" stroke-width="1.6" d="M186,50C262,18,300,84,254,100"/>
+<g fill="currentColor" stroke="none" font-size="10"><text x="8" y="54">A</text><text x="2" y="104">B</text><text x="80" y="79">S–S</text><text x="157" y="79">S–S</text><text x="256" y="34">C peptide</text><text x="246" y="46">(removed)</text><text x="40" y="132">Mature insulin = A + B chains held by disulphide bonds</text></g>
+</svg>
+caption: Insulin is made in the body as pro-insulin; the C peptide (dashed) is cut out, leaving A and B chains joined by disulphide bridges. Eli Lilly made A and B separately in E. coli and joined them.
+part: 110, 50 | A chain | Shorter polypeptide; also has an internal disulphide bond.
+part: 140, 100 | B chain | Longer polypeptide.
+part: 68, 64 | Disulphide bridges | Hold the A and B chains together.
+part: 282, 70 | C peptide | Extra stretch in pro-insulin; removed when insulin matures.
+```
+
 :::tip No C peptide
 Recombinant insulin is made as separate A and B chains, so no C peptide has to be removed; the chains are joined by disulphide bonds afterwards.
 :::
+
+```ng-steps
+id: ch10-humulin
+title: How Eli Lilly made human insulin (1983)
+step: Prepare two DNA sequences coding for the **A** and **B chains** of human insulin.
+step: Put each into a **plasmid of *E. coli***.
+step: Grow the bacteria: they make the **A and B chains separately**.
+step: **Extract** both chains and **join them by disulphide bonds**: human insulin (**Humulin**), with no C peptide to remove.
+```
+
+```ng-draw
+id: ch10-draw-insulin
+title: Draw pro-insulin and mature insulin
+svg: ref: notes#ch10-insulin
+time: 3
+```
 
 **In one breath:** Animal (cattle, pig) insulin caused allergy. Insulin = A + B chains joined by disulphide bonds; made in the body as pro-insulin with a C peptide. Eli Lilly (1983) made A and B chains separately in *E. coli* and joined them: human insulin.
 
@@ -72,6 +151,24 @@ In gene therapy, **lymphocytes** from the patient's blood are grown in culture o
 - A **probe**, a single-stranded DNA or RNA tagged with a radioactive molecule, hybridises to its complementary DNA in a clone of cells, which is then detected by **autoradiography**. A clone with a mutated gene does not show up on the film, because the probe does not match.
 - **ELISA** works on the principle of **antigen–antibody interaction**. Infection can be detected by the presence of antigens (proteins, glycoproteins) of the pathogen or of antibodies made against it.
 
+```ng-steps
+id: ch10-ada-gene-therapy
+title: The first gene therapy (1990)
+step: Patient: a **4-year-old girl with ADA deficiency** (gene deleted; immune system fails).
+step: Take her **lymphocytes** and grow them in culture.
+step: Introduce a functional **ADA cDNA** using a **retroviral vector**.
+step: Return the engineered lymphocytes to her body.
+step: These cells are mortal, so she needs **periodic infusions**. Gene transfer at an **early embryonic stage** could be a permanent cure.
+```
+
+```ng-compare
+id: ch10-molecular-diagnosis
+title: Three molecular diagnosis tools
+cols: PCR | Probe + autoradiography | ELISA
+row: Principle | amplifies tiny amounts of pathogen DNA/RNA | labelled single-stranded DNA/RNA pairs with its complement | antigen–antibody interaction
+row: Detects | HIV early; mutations in suspected cancer | a normal vs mutated gene in a clone | pathogen antigens or the antibodies against them
+```
+
 **In one breath:** First gene therapy (1990): a 4-year-old with ADA deficiency; her lymphocytes received functional ADA cDNA by retroviral vector and were returned; needs periodic infusions; a permanent cure would need gene transfer at an early embryonic stage. PCR, probes with autoradiography and ELISA (antigen–antibody) diagnose disease early.
 
 ## Transgenic animals
@@ -84,6 +181,25 @@ Animals whose DNA has been manipulated to carry and express an extra (foreign) g
 4. **Vaccine safety**: transgenic mice are being developed to test the safety of vaccines before use on humans; they have been used to test the safety of the **polio vaccine**.
 5. **Chemical safety testing (toxicity testing)**: animals made more sensitive to toxic substances than non-transgenic animals give results in less time.
 
+```ng-fill
+id: ch10-transgenic-uses
+title: Why transgenic animals are made
+cols: Use | Example
+row: Normal physiology | [[insulin-like growth factor]]
+row: Disease models | [[cancer, cystic fibrosis, rheumatoid arthritis, Alzheimer's]]
+row: Biological products | [[α-1-antitrypsin (emphysema); Rosie's milk with human α-lactalbumin]]
+row: Vaccine safety | [[polio vaccine tested on transgenic mice]]
+row: Toxicity testing | [[animals more sensitive to toxins, results faster]]
+```
+
+```ng-mnemonic
+id: ch10-transgenic-hook
+title: Five uses of transgenic animals
+trick: **N**ice **D**octors **B**uild **V**accine **T**ests
+meaning: **N**ormal physiology, **D**isease models, **B**iological products, **V**accine safety, **T**oxicity testing.
+prompt: List five reasons for making transgenic animals.
+```
+
 **In one breath:** Over 95% of transgenic animals are mice. Uses: normal physiology (insulin-like growth factor), disease models, products (α-1-antitrypsin for emphysema; Rosie, 1997, milk with human α-lactalbumin, 2.4 g/L), vaccine safety (polio) and toxicity testing.
 
 ## Ethical issues, biopiracy and patents
@@ -93,5 +209,13 @@ Manipulating living organisms raises questions that society must answer. Moving 
 Companies have taken **patents** on products and technologies that use genetic materials, plants and other biological resources long identified, developed and used by farmers and indigenous people of a country. In **1997**, an American company got patent rights on **Basmati rice** through the US Patent and Trademark Office, allowing it to sell a "new" variety of Basmati in the US and abroad. This variety had actually been derived from **Indian farmers' varieties**: Indian Basmati was crossed with semi-dwarf varieties and claimed as an invention. India has about **200,000 varieties of rice**, of which **27 documented varieties are Basmati**. Other examples are attempts to patent uses, products and processes based on Indian traditional herbal medicines such as turmeric and neem.
 
 **Biopiracy** is the use of bio-resources by multinational companies and other organisations without proper authorisation from the countries and people concerned, and **without compensatory payment**. Industrialised nations are rich financially but poor in biodiversity and traditional knowledge; developing and under-developed countries are rich in both. There is a growing realisation of the need for fair sharing of benefits. The **Indian Parliament** has recently cleared the **second amendment of the Indian Patents Bill**, which takes such issues into consideration, including patent terms, emergency provisions, and research and development initiatives.
+
+```ng-compare
+id: ch10-geac-vs-patents
+title: GEAC vs biopiracy laws
+cols: GEAC | Patent law amendment
+row: What it does | judges validity of GM research and safety of releasing GMOs | protects against unauthorised exploitation of bio-resources
+row: Answers | "Is this GMO safe to release?" | "Who owns traditional knowledge (e.g. Basmati, turmeric, neem)?"
+```
 
 **In one breath:** GEAC judges the validity of GM research and the safety of releasing GMOs. Biopiracy = using bio-resources and traditional knowledge without permission or compensation, as in the 1997 US patent on Basmati (India has 27 documented Basmati varieties). India responded with the second amendment of the Indian Patents Bill.

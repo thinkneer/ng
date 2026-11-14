@@ -1,0 +1,79 @@
+[
+  {
+    "id": "ch10-bt-toxin",
+    "kind": "process",
+    "title": "Bt toxin action",
+    "tex": "\\text{protoxin}\\xrightarrow{\\text{alkaline gut}}\\text{toxin}\\to\\text{pores in midgut}\\to\\text{lysis}",
+    "back": "Inactive in the bacterium; activated only in the insect gut. Kills lepidopterans, coleopterans, dipterans.",
+    "stars": 3
+  },
+  {
+    "id": "ch10-cry-genes",
+    "kind": "compare",
+    "title": "cry genes",
+    "tex": "\\text{cryIAc, cryIIAb}\\to\\text{bollworm}\\quad\\big|\\quad\\text{cryIAb}\\to\\text{corn borer}",
+    "back": "Cotton cries twice, corn cries once. Bt toxins are insect-group specific.",
+    "stars": 3
+  },
+  {
+    "id": "ch10-rnai",
+    "kind": "process",
+    "title": "RNAi in tobacco",
+    "tex": "\\text{sense}+\\text{anti-sense RNA}\\to\\text{dsRNA}\\to\\text{mRNA silenced}",
+    "back": "Against Meloidogyne incognita; genes delivered by Agrobacterium. RNAi is a natural eukaryotic defence.",
+    "stars": 3
+  },
+  {
+    "id": "ch10-insulin",
+    "kind": "figure",
+    "title": "Insulin structure",
+    "svg": "ref: notes#ch10-insulin",
+    "back": "A and B chains joined by disulphide bridges; pro-insulin has a C peptide that is removed. Humulin: Eli Lilly, 1983.",
+    "stars": 3,
+    "tags": [
+      "diagram"
+    ]
+  },
+  {
+    "id": "ch10-humulin",
+    "kind": "process",
+    "title": "Recombinant insulin",
+    "tex": "A\\text{ gene},\\ B\\text{ gene}\\xrightarrow{E.\\ coli}A,\\ B\\text{ chains}\\xrightarrow{S-S}\\text{insulin}",
+    "back": "Animal insulin (cattle, pig) caused allergy. The recombinant route skips the C peptide.",
+    "stars": 3
+  },
+  {
+    "id": "ch10-ada-gene-therapy",
+    "kind": "process",
+    "title": "ADA gene therapy",
+    "tex": "\\text{lymphocytes}+\\text{ADA cDNA (retrovirus)}\\to\\text{back to patient}",
+    "back": "1990, 4-year-old girl. Periodic infusions needed; early-embryo gene transfer could be permanent.",
+    "stars": 3
+  },
+  {
+    "id": "ch10-molecular-diagnosis",
+    "kind": "compare",
+    "title": "PCR vs probe vs ELISA",
+    "tex": "\\text{amplify}\\ \\big|\\ \\text{hybridise}\\ \\big|\\ \\text{antigen–antibody}",
+    "back": "All detect disease before symptoms or high pathogen counts. PCR finds HIV early.",
+    "stars": 2
+  },
+  {
+    "id": "ch10-transgenic-uses",
+    "kind": "mnemonic",
+    "title": "Transgenic animal uses",
+    "tex": "\\textbf{N}\\text{ice }\\textbf{D}\\text{octors }\\textbf{B}\\text{uild }\\textbf{V}\\text{accine }\\textbf{T}\\text{ests}",
+    "back": "Over 95% are mice. Rosie (1997): milk with human α-lactalbumin, 2.4 g/L. α-1-antitrypsin for emphysema."
+  },
+  {
+    "id": "ch10-biopiracy",
+    "kind": "formula",
+    "title": "Biopiracy",
+    "tex": "\\text{bio-resources used}-\\text{permission}-\\text{payment}",
+    "legend": [
+      "example = Basmati rice patent (1997, USA)"
+    ],
+    "back": "Turmeric and neem were also targeted. India's Patents Bill (second amendment) addresses this; GEAC handles GMO safety.",
+    "stars": 2
+  }
+]

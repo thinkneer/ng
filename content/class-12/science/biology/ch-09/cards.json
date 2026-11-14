@@ -1,0 +1,119 @@
+[
+  {
+    "id": "ch09-ecori-sticky-ends",
+    "kind": "figure",
+    "title": "EcoRI and sticky ends",
+    "svg": "ref: notes#ch09-ecori-sticky-ends",
+    "back": "Palindrome GAATTC; cut between G and A on both strands → AATT overhangs. Cut vector and insert with the same enzyme; ligase seals.",
+    "stars": 3,
+    "tags": [
+      "diagram"
+    ]
+  },
+  {
+    "id": "ch09-ecori-name",
+    "kind": "formula",
+    "title": "Naming EcoRI",
+    "tex": "\\underbrace{E}_{\\text{genus}}\\underbrace{co}_{\\text{species}}\\underbrace{R}_{\\text{strain}}\\underbrace{I}_{\\text{order}}",
+    "legend": [
+      "E = Escherichia",
+      "co = coli",
+      "R = strain RY13",
+      "I = first isolated"
+    ],
+    "back": "First restriction endonuclease studied: Hind II (1963).",
+    "stars": 2
+  },
+  {
+    "id": "ch09-gel",
+    "kind": "process",
+    "title": "Gel electrophoresis",
+    "tex": "\\text{DNA}(-)\\to\\text{anode};\\ \\text{small fragments travel farthest}",
+    "back": "Agarose from sea weed; ethidium bromide + UV shows orange bands; bands cut out and eluted.",
+    "stars": 3
+  },
+  {
+    "id": "ch09-pbr322",
+    "kind": "figure",
+    "title": "pBR322",
+    "svg": "ref: notes#ch09-pbr322",
+    "back": "ori, rop, ampᴿ (PstI, PvuI) and tetᴿ (BamHI, SalI). Insertion at BamHI inactivates tetracycline resistance.",
+    "stars": 3,
+    "tags": [
+      "diagram"
+    ]
+  },
+  {
+    "id": "ch09-vector-features",
+    "kind": "mnemonic",
+    "title": "Cloning vector features",
+    "tex": "\\text{ori}\\cdot\\text{selectable marker}\\cdot\\text{cloning sites}\\cdot\\text{small size}",
+    "back": "Our School Club is Small. Ori controls copy number; single cloning sites avoid cutting the vector into pieces."
+  },
+  {
+    "id": "ch09-antibiotic-vs-blue-white",
+    "kind": "compare",
+    "title": "Selecting recombinants",
+    "tex": "\\text{replica plating (no growth on tet)}\\ \\big|\\ \\text{white colonies}",
+    "back": "Insertional inactivation: foreign DNA in a gene destroys its function. Blue–white needs only one plate.",
+    "stars": 3
+  },
+  {
+    "id": "ch09-competence",
+    "kind": "process",
+    "title": "Making cells competent",
+    "tex": "\\text{Ca}^{2+}\\to\\text{ice}\\to42\\,^{\\circ}\\text{C}\\to\\text{ice}",
+    "back": "Other routes: micro-injection (animal nucleus), gene gun with gold or tungsten (plants), disarmed pathogens.",
+    "stars": 2
+  },
+  {
+    "id": "ch09-pcr",
+    "kind": "figure",
+    "title": "PCR cycle",
+    "svg": "ref: notes#ch09-pcr",
+    "back": "Denature → anneal primers → extend with Taq polymerase (Thermus aquaticus). About a billion-fold amplification.",
+    "stars": 3,
+    "tags": [
+      "diagram"
+    ]
+  },
+  {
+    "id": "ch09-pcr-copies",
+    "kind": "formula",
+    "title": "PCR amplification",
+    "tex": "N=N_0\\times2^{n}",
+    "legend": [
+      "N₀ = starting copies",
+      "n = number of cycles"
+    ],
+    "back": "Perfect doubling each cycle; 30 cycles of one copy gives about 10⁹.",
+    "stars": 2
+  },
+  {
+    "id": "ch09-rdna-process",
+    "kind": "process",
+    "title": "rDNA technology",
+    "tex": "\\text{isolate}\\to\\text{cut}\\to\\text{PCR}\\to\\text{ligate}\\to\\text{transform}\\to\\text{express}",
+    "back": "Chilled ethanol precipitates DNA. Continuous culture keeps cells in log phase for more product.",
+    "stars": 3
+  },
+  {
+    "id": "ch09-bioreactor",
+    "kind": "figure",
+    "title": "Stirred-tank bioreactor",
+    "svg": "ref: notes#ch09-bioreactor",
+    "back": "100–1000 L; agitator, oxygen delivery (sparger), foam, temperature and pH control, sampling ports.",
+    "stars": 2,
+    "tags": [
+      "diagram"
+    ]
+  },
+  {
+    "id": "ch09-downstream",
+    "kind": "process",
+    "title": "Downstream processing",
+    "tex": "\\text{separate}\\to\\text{purify}\\to\\text{formulate}\\to\\text{QC}",
+    "back": "Drugs also need clinical trials before marketing.",
+    "stars": 2
+  }
+]

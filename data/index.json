@@ -2182,6 +2182,7 @@
                         "notes": true,
                         "mustknow": true,
                         "formulas": true,
+                        "cards": true,
                         "questions": true
                       },
                       "marks_hint": "Unit IX Biotechnology = 12 marks (shared by Ch 9–10, CBSE 2026–27)",
@@ -2196,8 +2197,19 @@
                         "la5": 1
                       },
                       "diagrams": [],
-                      "words": 2981,
-                      "read_minutes": 10
+                      "blocks": {
+                        "steps": 6,
+                        "figure": 4,
+                        "fill": 2,
+                        "compare": 3,
+                        "draw": 4,
+                        "mnemonic": 3,
+                        "numerical": 1
+                      },
+                      "words": 2931,
+                      "read_minutes": 10,
+                      "cards": 12,
+                      "mnemonics": 3
                     },
                     {
                       "id": "ch-10",
@@ -2208,6 +2220,7 @@
                         "notes": true,
                         "mustknow": true,
                         "formulas": true,
+                        "cards": true,
                         "questions": true
                       },
                       "marks_hint": "Unit IX Biotechnology = 12 marks (shared by Ch 9–10, CBSE 2026–27)",
@@ -2222,8 +2235,18 @@
                         "la5": 1
                       },
                       "diagrams": [],
+                      "blocks": {
+                        "mnemonic": 3,
+                        "steps": 4,
+                        "fill": 2,
+                        "figure": 1,
+                        "draw": 1,
+                        "compare": 2
+                      },
                       "words": 2897,
-                      "read_minutes": 9
+                      "read_minutes": 9,
+                      "cards": 9,
+                      "mnemonics": 4
                     }
                   ]
                 },

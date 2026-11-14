@@ -920,6 +920,73 @@
    "prompt": "Name three nitrogen-fixing cyanobacteria."
   }
  ],
+ "biology/ch-09": [
+  {
+   "id": "ch09-vector-features",
+   "title": "Four features of a cloning vector",
+   "trick": "**O**ur **S**chool **C**lub is **S**mall",
+   "meaning": [
+    "**O**ri (copy number), **S**electable marker, **C**loning sites (single), **S**mall size."
+   ],
+   "prompt": "List the features a good cloning vector needs."
+  },
+  {
+   "id": "ch09-pcr-steps",
+   "title": "The three steps of a PCR cycle",
+   "trick": "**D**on't **A**sk, **E**xtend: **D**-**A**-**E**",
+   "meaning": [
+    "**D**enaturation (heat) → **A**nnealing (primers bind) → **E**xtension (Taq polymerase, from *Thermus aquaticus*)."
+   ],
+   "prompt": "Name the three steps of a PCR cycle in order."
+  },
+  {
+   "id": "ch09-lysis-enzymes",
+   "title": "Which enzyme opens which cell?",
+   "trick": "**B**ad **L**uck · **P**oor **C**hap · **F**unny **C**hap",
+   "meaning": [
+    "**B**acteria–**L**ysozyme; **P**lants–**C**ellulase; **F**ungi–**C**hitinase."
+   ],
+   "prompt": "Which enzyme is used to break fungal cells?"
+  }
+ ],
+ "biology/ch-10": [
+  {
+   "id": "ch10-gm-benefits",
+   "title": "Five gains from GM plants",
+   "trick": "**S**mart **P**lants **P**ay **M**ore **N**ow",
+   "meaning": [
+    "**S**tress tolerance (abiotic), less **P**esticide, fewer **P**ost-harvest losses, better **M**ineral use, more **N**utrition (Golden rice, vitamin A)."
+   ],
+   "prompt": "List the advantages of GM crops."
+  },
+  {
+   "id": "ch10-cry",
+   "title": "Which cry gene for which pest?",
+   "trick": "**Cotton cries twice, Corn cries once**",
+   "meaning": [
+    "Cotton bollworm: **cryIAc** and **cryIIAb** (two genes). Corn borer: **cryIAb** (one gene)."
+   ],
+   "prompt": "Which cry gene protects corn against the corn borer?"
+  },
+  {
+   "id": "ch10-transgenic-hook",
+   "title": "Five uses of transgenic animals",
+   "trick": "**N**ice **D**octors **B**uild **V**accine **T**ests",
+   "meaning": [
+    "**N**ormal physiology, **D**isease models, **B**iological products, **V**accine safety, **T**oxicity testing."
+   ],
+   "prompt": "List five reasons for making transgenic animals."
+  },
+  {
+   "id": "ch10-transgenic-uses",
+   "title": "Transgenic animal uses",
+   "trick": "Transgenic animal uses",
+   "meaning": [
+    "Over 95% are mice. Rosie (1997): milk with human α-lactalbumin, 2.4 g/L. α-1-antitrypsin for emphysema."
+   ],
+   "card": true
+  }
+ ],
  "english-core/reading-unseen": [
   {
    "id": "unseen-negatives",
