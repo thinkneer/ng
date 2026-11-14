@@ -1,74 +1,92 @@
-# Ch 4 · The d- and f-Block Elements — must-have notes
+# Ch 4 · The d- and f-Block Elements — must know
 
 ## Most-repeated board questions
 
-Stars are estimates, not exact counts: ★★★ asked in most years · ★★ often · ★ sometimes. `SQP 26–27` marks a question type in the official 2026–27 sample paper. Marks in square brackets.
+Stars are estimates, not exact counts: ★★★ asked in most years · ★★ often · ★ sometimes. Marks in square brackets.
 
-Type tags: `Df` define / state · `R` give reason · `N` numerical · `Eq` write equations · `Nm` IUPAC name / formula · `Is` isomers · `B` bonding (VBT/CFT) · `Cmp` compare · `MCQ` 1-mark / A–R
-
-1. ★★★ `R` Give reasons (usually three in one question): variable OS; coloured ions; paramagnetism; catalysts; Zn/Cd/Hg not transition metals; high $\Delta_aH$; complex formation. [3]
-2. ★★★ `Eq` Complete/balance: $\ce{MnO4-}$ or $\ce{Cr2O7^2-}$ with $\ce{I-}$, $\ce{Fe^2+}$, $\ce{C2O4^2-}$, $\ce{H2S}$, $\ce{SO3^2-}$, $\ce{NO2-}$, $\ce{Sn^2+}$ in acid; KMnO$_4$/K$_2$Cr$_2$O$_7$ preparation steps. [2–3]
-3. ★★★ `Df` `R` What is lanthanoid contraction? Its cause and two consequences. [2–3]
-4. ★★ `N` Spin-only moment of M$^{n+}$; which ion has $\mu$ = 4.90 BM / is most paramagnetic. [1–2]
-5. ★★ `Cmp` Two differences between lanthanoids and actinoids; why actinoids show more OS / greater contraction. [2]
-6. ★★ `R` $E^\circ$ questions: why $E^\circ_{\ce{Cu^2+/Cu}}$ is positive; Mn$^{3+}$ oxidising, Cr$^{2+}$ reducing; $E^\circ_{\ce{Mn^3+/Mn^2+}}$ $\gg$ $E^\circ_{\ce{Fe^3+/Fe^2+}}$. [1–3]
-7. ★★ `R` Highest OS shown in oxides and fluorides; Mn$_2$O$_7$ exists but MnF$_7$ does not; acidity of oxides with OS. [1–2]
-8. ★★ `MCQ` Configuration of Cr, Cu, Fe$^{3+}$, Mn$^{2+}$, Ce$^{4+}$, Eu$^{2+}$; unpaired electrons; which ion is colourless. [1]
-9. ★★ `R` m.p./$\Delta_aH$ trend: maximum in middle, Zn lowest; 4d/5d higher than 3d. [1–2]
-10. ★ `R` Cu$^+$ unstable in water; Cu$^{2+}$ more stable despite IE$_2$. [1–2]
-11. ★ `Df` Interstitial compounds: definition and properties; why transition metals form alloys. [1–2]
-12. ★ `Eq` Chromate ⇌ dichromate with pH; structures; manganate vs permanganate (colour, magnetism). [1–2]
+1. ★★★ Give reasons (usually three in one question): variable OS; coloured ions; paramagnetism; catalysts; Zn/Cd/Hg not transition metals; high $\Delta_aH$; complex formation. [3]
+2. ★★★ Complete/balance: $\ce{MnO4-}$ or $\ce{Cr2O7^2-}$ with $\ce{I-}$, $\ce{Fe^2+}$, $\ce{C2O4^2-}$, $\ce{H2S}$, $\ce{SO3^2-}$, $\ce{NO2-}$, $\ce{Sn^2+}$ in acid; KMnO$_4$/K$_2$Cr$_2$O$_7$ preparation steps. [2–3]
+3. ★★★ What is lanthanoid contraction? Its cause and two consequences. [2–3]
+4. ★★ Spin-only moment of M$^{n+}$; which ion has $\mu$ = 4.90 BM / is most paramagnetic. [1–2]
+5. ★★ Two differences between lanthanoids and actinoids; why actinoids show more OS / greater contraction. [2]
+6. ★★ $E^\circ$ questions: why $E^\circ_{\ce{Cu^2+/Cu}}$ is positive; Mn$^{3+}$ oxidising, Cr$^{2+}$ reducing; $E^\circ_{\ce{Mn^3+/Mn^2+}}$ $\gg$ $E^\circ_{\ce{Fe^3+/Fe^2+}}$. [1–3]
 
 ## Must-know lines and definitions
 
-- **Transition elements**: elements with incompletely filled d orbitals in the ground state or in any of their oxidation states.
-- Zn, Cd, Hg have full $d^{10}$ in the ground state and common oxidation states, so they are not regarded as transition metals.
-- **Lanthanoid contraction**: the steady decrease in atomic and ionic radii from lanthanum to lutetium, caused by the imperfect shielding of one 4f electron by another.
-- **Interstitial compounds**: formed when small atoms (H, C, N) are trapped in the crystal lattice of metals; non-stoichiometric, very hard, high m.p., metallic conductivity, chemically inert.
-- **Alloy**: blend of metals; transition metals form alloys easily because their atomic radii are within about 15% of each other.
-- **Catalytic activity**: due to ability to adopt multiple oxidation states and to form complexes; solid catalysts adsorb reactants on the surface.
-- **Disproportionation**: one oxidation state changes into a higher and a lower one — $\ce{3MnO4^2- + 4H+ -> 2MnO4- + MnO2 + 2H2O}$ (Mn: +6 → +7 and +4).
-- **Actinoid contraction**: similar to lanthanoid contraction but greater, element to element, because 5f electrons shield more poorly.
-- **Mischmetall**: $\approx$95% lanthanoid metal + $\approx$5% Fe + traces S, C, Ca, Al; Mg-based alloy for bullets, shells, lighter flint.
+- **Transition element:** has incompletely filled d orbitals in its ground state or in a common oxidation state.
+- **Why Zn, Cd, Hg are not transition metals:** their d orbitals are full ($d^{10}$) in atoms and ions.
+- **Lanthanoid contraction:** steady decrease in atomic and ionic radii from La to Lu.
+- **Cause of lanthanoid contraction:** poor shielding of one 4f electron by another.
+- **Consequence of lanthanoid contraction:** Zr and Hf (4d and 5d pairs) have almost the same radii.
+- **Interstitial compound:** small atoms (H, C, N) trapped in the metal lattice; hard, high-melting, non-stoichiometric.
+- **Alloy formation:** transition metals have similar radii (within 15%), so atoms replace one another in the lattice.
+- **Catalytic activity:** due to variable oxidation states, complex formation and a surface that adsorbs reactants.
+- **Colour of transition-metal ions:** d–d transition of an unpaired electron absorbs visible light.
+- **Paramagnetism:** caused by unpaired electrons; grows with their number.
+- **Disproportionation:** one oxidation state changes into a higher and a lower one.
+- **Disproportionation of manganate in acid:** $\ce{3MnO4^2- + 4H+ -> 2MnO4- + MnO2 + 2H2O}$
+- **Actinoid contraction:** greater than lanthanoid contraction, because 5f electrons shield even more poorly.
+- **Mischmetall:** about 95% lanthanoid metal and 5% iron; used in lighter flints and bullets.
 
 ## Key formulas
 
-### Key facts & numbers
+:::formula Spin-only magnetic moment
+$\mu=\sqrt{n(n+2)}$ BM<br>
+$n$ = number of unpaired electrons. $n$ = 1, 2, 3, 4, 5 gives 1.73, 2.83, 3.87, 4.90, 5.92 BM. Slip: $d^0$ and $d^{10}$ ions give zero.
+:::
 
-:::formula
-$\mu=\sqrt{n(n+2)}$ BM: $n$ = 1, 2, 3, 4, 5 → 1.73, 2.83, 3.87, 4.90, 5.92<br>
-Ti$^{3+}$, V$^{4+}$, Cu$^{2+}$ $n=1$ · Ni$^{2+}$ 2 · Cr$^{3+}$, Co$^{2+}$ 3 · Fe$^{2+}$, Mn$^{3+}$, Cr$^{2+}$ 4 · Mn$^{2+}$, Fe$^{3+}$ 5<br>
-Electrons taken: $\ce{MnO4-}$ 5 (acid), 3 (neutral), 1 (strong alkali); $\ce{Cr2O7^2-}$ 6<br>
-$E^\circ$: $\ce{MnO4-/Mn^2+}$ 1.52 · $\ce{Cr2O7^2-/Cr^3+}$ 1.33 · $\ce{Mn^3+/Mn^2+}$ 1.57 · $\ce{Co^3+/Co^2+}$ 1.97 · $\ce{Fe^3+/Fe^2+}$ 0.77 · $\ce{Cr^3+/Cr^2+}$ $-0.41$ · $\ce{Cu^2+/Cu}$ +0.34
+:::formula Unpaired electrons in common ions
+$\ce{Ti^3+}$, $\ce{V^4+}$, $\ce{Cu^2+}$: 1 · $\ce{Ni^2+}$: 2 · $\ce{Cr^3+}$, $\ce{Co^2+}$: 3 · $\ce{Fe^2+}$, $\ce{Mn^3+}$, $\ce{Cr^2+}$: 4 · $\ce{Mn^2+}$, $\ce{Fe^3+}$: 5<br>
+Remove 4s electrons before 3d when writing the ion.
+:::
+
+:::formula Electrons gained by permanganate and dichromate
+$\ce{MnO4-}$: 5 in acid ($\ce{Mn^2+}$), 3 in neutral or weakly alkaline ($\ce{MnO2}$), 1 in strong alkali ($\ce{MnO4^2-}$)<br>
+$\ce{Cr2O7^2-}$: 6 in acid ($\ce{2Cr^3+}$). Use these to balance ionic equations by electron count.
+:::
+
+:::formula Permanganate half-reaction in acid
+$\ce{MnO4- + 8H+ + 5e- -> Mn^2+ + 4H2O}$<br>
+$E^\circ=1.52$ V. Acidify with dilute $\ce{H2SO4}$, never HCl.
+:::
+
+:::formula Dichromate half-reaction in acid
+$\ce{Cr2O7^2- + 14H+ + 6e- -> 2Cr^3+ + 7H2O}$<br>
+$E^\circ=1.33$ V. Slip: forgetting the $\ce{7H2O}$.
+:::
+
+:::formula Standard potentials worth knowing
+$\ce{Mn^3+/Mn^2+}$ 1.57 · $\ce{Co^3+/Co^2+}$ 1.97 · $\ce{Fe^3+/Fe^2+}$ 0.77 · $\ce{Cr^3+/Cr^2+}$ $-0.41$ · $\ce{Cu^2+/Cu}$ +0.34 (V)<br>
+High value: the higher state is a strong oxidising agent. Negative value: the lower state is a reducing agent.
 :::
 
 ## Answer skeletons
 
 Step marks in square brackets are the usual CBSE split (estimates).
 
-:::skeleton N · Spin-only magnetic moment (2 marks)
+:::skeleton Spin-only magnetic moment (2 marks)
 *e.g. Mn$^{2+}$ (Z = 25).*<br>
 Mn: [Ar]$3d^54s^2$ → Mn$^{2+}$: [Ar]$3d^5$ [½]<br>
 Unpaired electrons $n=5$ [½]<br>
 $\mu=\sqrt{n(n+2)}=\sqrt{35}=\boxed{5.92\text{ BM}}$ [1]
 :::
 
-:::skeleton Eq · Ionic equation by electron count (2 marks)
+:::skeleton Ionic equation by electron count (2 marks)
 *e.g. $\ce{MnO4-}$ oxidises $\ce{Fe^2+}$ in acid.*<br>
 $\ce{MnO4- + 8H+ + 5e- -> Mn^2+ + 4H2O}$ and $\ce{Fe^2+ -> Fe^3+ + e-}$ (×5)<br>
 $\ce{MnO4- + 8H+ + 5Fe^2+ -> Mn^2+ + 5Fe^3+ + 4H2O}$ — check charge: $-1+8+10=+17$; $+2+15=+17$ ✓
 :::
 
-:::skeleton Df+R · Lanthanoid contraction (3 marks)
+:::skeleton Lanthanoid contraction (3 marks)
 Definition (steady decrease in radii La → Lu) [1] → cause (imperfect shielding by 4f; effective nuclear charge rises) [1] → two consequences: Zr/Hf almost same size (160/159 pm), occur together, hard to separate; basicity of Ln(OH)$_3$ falls La → Lu [½ + ½].
 :::
 
-:::skeleton Eq · Preparation of KMnO$_4$ (2 marks)
+:::skeleton Preparation of KMnO$_4$ (2 marks)
 $\ce{2MnO2 + 4KOH + O2 -> 2K2MnO4 + 2H2O}$ (fusion)<br>
 $\ce{3MnO4^2- + 4H+ -> 2MnO4- + MnO2 + 2H2O}$ (or electrolytic oxidation of alkaline manganate)
 :::
 
-:::skeleton Eq · Preparation of K$_2$Cr$_2$O$_7$ (3 marks)
+:::skeleton Preparation of K$_2$Cr$_2$O$_7$ (3 marks)
 $\ce{4FeCr2O4 + 8Na2CO3 + 7O2 -> 8Na2CrO4 + 2Fe2O3 + 8CO2}$<br>
 $\ce{2Na2CrO4 + 2H+ -> Na2Cr2O7 + 2Na+ + H2O}$<br>
 $\ce{Na2Cr2O7 + 2KCl -> K2Cr2O7 + 2NaCl}$
@@ -92,26 +110,55 @@ $\ce{Na2Cr2O7 + 2KCl -> K2Cr2O7 + 2NaCl}$
 
 ## Quick 1-mark facts (MCQ, A–R)
 
-- Cr [Ar]$3d^54s^1$; Cu [Ar]$3d^{10}4s^1$; Fe$^{3+}$ $3d^5$; Cu$^+$ $3d^{10}$ (colourless, diamagnetic).
-- Mn shows the most OS (+2 to +7); Sc only +3; Zn only +2. Max OS rises to Mn, then falls.
-- Oxides: lower OS basic, higher OS acidic (MnO basic, Mn$_2$O$_7$ acidic; CrO$_3$ acidic).
-- Manganate $\ce{MnO4^2-}$ green, paramagnetic; permanganate $\ce{MnO4-}$ purple, diamagnetic; both tetrahedral.
-- Dichromate: two tetrahedra sharing one O; Cr–O–Cr $\approx$126$^\circ$. Chromate yellow ⇌ dichromate orange (pH).
-- Purple $\ce{MnO4-}$ and orange $\ce{Cr2O7^2-}$ are $d^0$: colour from charge transfer, not d–d.
-- Lanthanoids: common OS +3; only Pm radioactive. Actinoids: all radioactive.
-- Catalysts: V$_2$O$_5$ (Contact), Fe (Haber), Ni (hydrogenation), TiCl$_4$ + Al(CH$_3$)$_3$ (Ziegler), PdCl$_2$ (Wacker).
-- Brass = Cu + Zn; bronze = Cu + Sn. KMnO$_4$ titrations use dilute H$_2$SO$_4$, not HCl.
-
-## Case-based angles
-
-- Table of $E^\circ_{\ce{M^2+/M}}$ or $E^\circ_{\ce{M^3+/M^2+}}$ → explain irregularities (Mn, Zn, Cu; Mn$^{3+}$, Co$^{3+}$).
-- Table of ionisation enthalpies → explain high IE$_2$ of Cr/Cu, IE$_3$ of Mn/Zn.
-- KMnO$_4$ titration in the lab → equation with oxalic acid or Mohr's salt, self-indicator, why H$_2$SO$_4$.
-- Steel, alloys, catalysts in industry → which property explains it.
-- Separation of Zr and Hf / lanthanoids → lanthanoid contraction.
+- Configuration of Cr: [Ar]$3d^54s^1$.
+- Configuration of Cu: [Ar]$3d^{10}4s^1$.
+- $\ce{Cu+}$ is colourless and diamagnetic because: it is $3d^{10}$, with no unpaired electron.
+- Element with the most oxidation states in the 3d series: Mn (+2 to +7).
+- Only oxidation state of Sc: +3; of Zn: +2.
+- Oxides in a lower oxidation state are basic, in a higher state: acidic ($\ce{Mn2O7}$, $\ce{CrO3}$).
+- Manganate ion $\ce{MnO4^2-}$: green, paramagnetic, tetrahedral.
+- Permanganate ion $\ce{MnO4-}$: purple, diamagnetic, tetrahedral.
+- Structure of dichromate ion: two tetrahedra sharing one oxygen; Cr–O–Cr angle about 126°.
+- Chromate is yellow, dichromate is: orange; they interconvert with pH.
+- Colour of $\ce{MnO4-}$ and $\ce{Cr2O7^2-}$ ($d^0$) comes from: charge transfer, not d–d transition.
+- Common oxidation state of lanthanoids: +3.
+- The only radioactive lanthanoid: promethium (Pm).
+- Actinoids differ from lanthanoids in that: all are radioactive and show more oxidation states.
+- Catalyst in the Contact process: $\ce{V2O5}$.
+- Catalyst in Haber's process: finely divided iron.
+- Catalyst for hydrogenation of oils: nickel.
+- Brass is Cu + Zn, bronze is: Cu + Sn.
 
 ## Mark-losing traps
 
-:::tip
-(1) Removing 3d electrons before 4s when writing ions. (2) Writing Cr $3d^44s^2$ or Cu $3d^94s^2$. (3) Calling Zn a transition element. (4) Ionic equations with unbalanced charge, or acidifying KMnO$_4$ with HCl. (5) Explaining lanthanoid contraction by ``5d electrons'' — the cause is poor shielding by **4f**. (6) Swapping manganate/permanganate colours. (7) Forgetting 7H$_2$O with $\ce{Cr2O7^2-}$ / 4H$_2$O with $\ce{MnO4-}$. (8) Giving a non-zero $\mu$ for $d^0$ or $d^{10}$ ions.
+:::tip Which electrons leave first
+Removing 3d electrons before 4s when writing ions.
+:::
+
+:::tip Configurations of Cr and Cu
+Writing Cr $3d^44s^2$ or Cu $3d^94s^2$.
+:::
+
+:::tip Is zinc a transition element
+Calling Zn a transition element.
+:::
+
+:::tip Ionic equations of permanganate
+Ionic equations with unbalanced charge, or acidifying KMnO$_4$ with HCl.
+:::
+
+:::tip Cause of lanthanoid contraction
+Explaining lanthanoid contraction by “5d electrons” — the cause is poor shielding by **4f**.
+:::
+
+:::tip Manganate and permanganate colours
+Swapping manganate/permanganate colours.
+:::
+
+:::tip Water molecules in the half-reactions
+Forgetting 7H$_2$O with $\ce{Cr2O7^2-}$ / 4H$_2$O with $\ce{MnO4-}$.
+:::
+
+:::tip Magnetic moment of d0 and d10 ions
+Giving a non-zero $\mu$ for $d^0$ or $d^{10}$ ions.
 :::
