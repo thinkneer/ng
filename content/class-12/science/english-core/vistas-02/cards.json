@@ -1,0 +1,101 @@
+[
+  {
+    "id": "vistas-02-map",
+    "kind": "figure",
+    "title": "Who is who in The Tiger King",
+    "svg": "ref: notes#vistas-02-characters",
+    "back": "Tiger King (hour of the Bull), astrologer (prophecy), dewan (zoo tiger, bride), British officer (fifty rings), the prince (wooden tiger).",
+    "stars": 3,
+    "tags": [
+      "characters"
+    ]
+  },
+  {
+    "id": "vistas-02-plot-card",
+    "kind": "process",
+    "title": "The Tiger King in six beats",
+    "svg": "ref: notes#vistas-02-plot",
+    "back": "Prophecy → monopoly → fifty rings → marriage for tigers → the hundredth → wooden tiger.",
+    "stars": 3,
+    "tags": [
+      "plot"
+    ]
+  },
+  {
+    "id": "tk-prophecy",
+    "kind": "event",
+    "title": "Tigers beware!",
+    "svg": "<svg viewBox=\"0 0 320 200\" role=\"img\" aria-label=\"A ten-day-old prince answers the astrologer\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" font-size=\"11\"><g><circle cx=\"90\" cy=\"78.2\" r=\"13.2\" fill=\"currentColor\" fill-opacity=\"0.6\" stroke=\"none\"/><path d=\"M72.0,99.4 Q90,91.4 108.0,99.4 L105.12,134.6 L97.2,134.6 L98.64,185 H91.8 L90.72,137.0 H89.28 L88.2,185 H81.36 L82.8,134.6 L74.88,134.6 Z\" fill=\"currentColor\" fill-opacity=\"0.6\" stroke=\"none\"/></g><rect x=\"140\" y=\"120\" width=\"60\" height=\"40\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"none\" rx=\"20\"/><circle cx=\"170\" cy=\"130\" r=\"12\" fill=\"currentColor\" fill-opacity=\"0.9\" stroke=\"none\"/><g><rect x=\"190\" y=\"30\" width=\"110\" height=\"50\" fill=\"currentColor\" fill-opacity=\"0.08\" stroke=\"currentColor\" stroke-width=\"1.5\" rx=\"10\"/><path d=\"M212,80 L204,94 L226,80 Z\" fill=\"currentColor\" fill-opacity=\"0.9\" stroke=\"none\"/><text x=\"245.0\" y=\"51.2\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"700\" fill=\"currentColor\" stroke=\"none\">Let tigers</text><text x=\"245.0\" y=\"67.2\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"700\" fill=\"currentColor\" stroke=\"none\">beware!</text></g><g><path d=\"M220,173.24 Q210,144.68 232.0,143.0 L276.0,141.32 Q293.6,126.19999999999999 301.6,139.64 L306.4,149.72 Q304.8,158.12 292.0,158.12 L288.8,168.2 L288.8,185 H279.2 V171.56 L269.6,171.56 V185 H260.0 V170.888 L244.0,170.888 V185 H234.4 V171.56 Q224.8,169.88 220,173.24 Z\" fill=\"currentColor\" fill-opacity=\"0.4\" stroke=\"none\"/><path d=\"M224,151.4 Q192,148.04 202,127.88 Q206,139.64 226,147.368 Z\" fill=\"currentColor\" fill-opacity=\"0.4\" stroke=\"none\"/><path d=\"M279.2,141.32 L276.0,129.56 L287.2,136.28 Z M296.8,132.92 L300.0,122.84 L306.4,136.28 Z\" fill=\"currentColor\" fill-opacity=\"0.4\" stroke=\"none\"/><path d=\"M240.8,144.68 q6,11.76 0,23.52 M250.4,144.68 q6,11.76 0,23.52 M260.0,144.68 q6,11.76 0,23.52 M269.6,144.68 q6,11.76 0,23.52 \" fill=\"none\" stroke=\"#E0B400\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"296.0\" cy=\"141.32\" r=\"2.5\" fill=\"#E0B400\" stroke=\"none\"/></g><text x=\"160.0\" y=\"192\" text-anchor=\"middle\" font-size=\"11\" font-style=\"italic\" fill=\"currentColor\" fill-opacity=\"0.85\" stroke=\"none\">A ten-day-old prince answers the astrologer</text></svg>",
+    "back": "Born in the hour of the Bull, the tiger's enemy, he will die from a tiger. Later: 99 safe, beware the hundredth — or the astrologer becomes an insurance agent.",
+    "stars": 3,
+    "tags": [
+      "event"
+    ]
+  },
+  {
+    "id": "tk-hunt",
+    "kind": "event",
+    "title": "Seventy tigers in ten years",
+    "svg": "<svg viewBox=\"0 0 320 200\" role=\"img\" aria-label=\"Nobody else may hunt — or lose all his wealth\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" font-size=\"11\"><g><path d=\"M40,132.36 Q30,89.52000000000001 58.0,87.0 L124.0,84.48 Q150.4,61.8 162.4,81.96 L169.60000000000002,97.08 Q167.2,109.68 148.0,109.68 L143.2,124.8 L143.2,150 H128.8 V129.84 L114.4,129.84 V150 H100.0 V128.832 L76.0,128.832 V150 H61.599999999999994 V129.84 Q47.2,127.32 40,132.36 Z\" fill=\"currentColor\" fill-opacity=\"0.9\" stroke=\"none\"/><path d=\"M44,99.6 Q12,94.56 22,64.32000000000001 Q26,81.96 46,93.55199999999999 Z\" fill=\"currentColor\" fill-opacity=\"0.9\" stroke=\"none\"/><path d=\"M128.8,84.48 L124.0,66.84 L140.8,76.92 Z M155.2,71.88 L160.0,56.760000000000005 L169.60000000000002,76.92 Z\" fill=\"currentColor\" fill-opacity=\"0.9\" stroke=\"none\"/><path d=\"M71.2,89.52000000000001 q6,17.639999999999997 0,35.279999999999994 M85.6,89.52000000000001 q6,17.639999999999997 0,35.279999999999994 M100.0,89.52000000000001 q6,17.639999999999997 0,35.279999999999994 M114.4,89.52000000000001 q6,17.639999999999997 0,35.279999999999994 \" fill=\"none\" stroke=\"#E0B400\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"154.0\" cy=\"84.48\" r=\"2.5\" fill=\"#E0B400\" stroke=\"none\"/></g><g><circle cx=\"250\" cy=\"67.1\" r=\"12.1\" fill=\"currentColor\" fill-opacity=\"0.95\" stroke=\"none\"/><path d=\"M233.5,87.19999999999999 Q250,79.19999999999999 266.5,87.19999999999999 L263.86,118.80000000000001 L256.6,118.80000000000001 L257.92,165 H251.65 L250.66,121.0 H249.34 L248.35,165 H242.08 L243.4,118.80000000000001 L236.14,118.80000000000001 Z\" fill=\"currentColor\" fill-opacity=\"0.95\" stroke=\"none\"/><path d=\"M237.9,57.419999999999995 L236.69,41.69 L244.555,50.16 L250,38.059999999999995 L255.445,50.16 L263.31,41.69 L262.1,57.419999999999995 Z\" fill=\"#E0B400\" stroke=\"none\"/></g><text x=\"250\" y=\"50\" text-anchor=\"middle\" font-size=\"30\" font-weight=\"700\" fill=\"#E0B400\" stroke=\"none\">70</text><text x=\"250\" y=\"70\" text-anchor=\"middle\" font-size=\"10\" font-style=\"italic\" fill=\"currentColor\" stroke=\"none\">royal monopoly</text><text x=\"160.0\" y=\"192\" text-anchor=\"middle\" font-size=\"11\" font-style=\"italic\" fill=\"currentColor\" fill-opacity=\"0.85\" stroke=\"none\">Nobody else may hunt — or lose all his wealth</text></svg>",
+    "back": "The campaign begins at twenty; the state's tigers are wiped out. Dewan's warnings ignored; the near-misses survived.",
+    "stars": 2,
+    "tags": [
+      "event"
+    ]
+  },
+  {
+    "id": "tk-rings",
+    "kind": "event",
+    "title": "Fifty diamond rings",
+    "svg": "<svg viewBox=\"0 0 320 200\" role=\"img\" aria-label=\"Three lakh rupees to keep a hunt and a kingdom\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" font-size=\"11\"><circle cx=\"50\" cy=\"60\" r=\"16\" fill=\"none\" stroke=\"#E0B400\" stroke-width=\"6\"/><circle cx=\"105\" cy=\"60\" r=\"16\" fill=\"none\" stroke=\"#E0B400\" stroke-width=\"6\"/><circle cx=\"160\" cy=\"60\" r=\"16\" fill=\"none\" stroke=\"#E0B400\" stroke-width=\"6\"/><circle cx=\"215\" cy=\"60\" r=\"16\" fill=\"none\" stroke=\"#E0B400\" stroke-width=\"6\"/><circle cx=\"270\" cy=\"60\" r=\"16\" fill=\"none\" stroke=\"#E0B400\" stroke-width=\"6\"/><circle cx=\"50\" cy=\"110\" r=\"16\" fill=\"none\" stroke=\"#E0B400\" stroke-width=\"6\"/><circle cx=\"105\" cy=\"110\" r=\"16\" fill=\"none\" stroke=\"#E0B400\" stroke-width=\"6\"/><circle cx=\"160\" cy=\"110\" r=\"16\" fill=\"none\" stroke=\"#E0B400\" stroke-width=\"6\"/><circle cx=\"215\" cy=\"110\" r=\"16\" fill=\"none\" stroke=\"#E0B400\" stroke-width=\"6\"/><circle cx=\"270\" cy=\"110\" r=\"16\" fill=\"none\" stroke=\"#E0B400\" stroke-width=\"6\"/><text x=\"160\" y=\"175\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"700\" font-style=\"italic\" fill=\"currentColor\" stroke=\"none\">… she kept all fifty</text><text x=\"160.0\" y=\"192\" text-anchor=\"middle\" font-size=\"11\" font-style=\"italic\" fill=\"currentColor\" fill-opacity=\"0.85\" stroke=\"none\">Three lakh rupees to keep a hunt and a kingdom</text></svg>",
+    "back": "The officer wanted to hunt; refused even a photo with a kill; the Maharaja sent rings for the wife to choose from. Satire on colonial greed and royal extravagance.",
+    "stars": 3,
+    "tags": [
+      "event"
+    ]
+  },
+  {
+    "id": "tk-zoo",
+    "kind": "event",
+    "title": "The hundredth tiger faints",
+    "svg": "<svg viewBox=\"0 0 320 200\" role=\"img\" aria-label=\"An old zoo animal, a missed shot, a secret killing\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" font-size=\"11\"><g><path d=\"M50,140.89 Q40,94.48 69.5,91.75 L141.0,89.02 Q169.60000000000002,64.45 182.6,86.28999999999999 L190.4,102.66999999999999 Q187.8,116.32 167.0,116.32 L161.8,132.7 L161.8,160 H146.2 V138.16 L130.6,138.16 V160 H115.0 V137.068 L89.0,137.068 V160 H73.4 V138.16 Q57.8,135.43 50,140.89 Z\" fill=\"currentColor\" fill-opacity=\"0.6\" stroke=\"none\"/><path d=\"M54,105.4 Q22,99.94 32,67.18 Q36,86.28999999999999 56,98.84799999999998 Z\" fill=\"currentColor\" fill-opacity=\"0.6\" stroke=\"none\"/><path d=\"M146.2,89.02 L141.0,69.91 L159.2,80.83 Z M174.8,75.36999999999999 L180.0,58.989999999999995 L190.4,80.83 Z\" fill=\"currentColor\" fill-opacity=\"0.6\" stroke=\"none\"/><path d=\"M83.80000000000001,94.48 q6,19.11 0,38.22 M99.4,94.48 q6,19.11 0,38.22 M115.0,94.48 q6,19.11 0,38.22 M130.6,94.48 q6,19.11 0,38.22 \" fill=\"none\" stroke=\"#E0B400\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"173.5\" cy=\"89.02\" r=\"2.5\" fill=\"#E0B400\" stroke=\"none\"/></g><g><circle cx=\"250\" cy=\"77.1\" r=\"12.1\" fill=\"currentColor\" fill-opacity=\"0.95\" stroke=\"none\"/><path d=\"M233.5,97.19999999999999 Q250,89.19999999999999 266.5,97.19999999999999 L263.86,128.8 L256.6,128.8 L257.92,175 H251.65 L250.66,131.0 H249.34 L248.35,175 H242.08 L243.4,128.8 L236.14,128.8 Z\" fill=\"currentColor\" fill-opacity=\"0.95\" stroke=\"none\"/><path d=\"M237.9,67.41999999999999 L236.69,51.69 L244.555,60.16 L250,48.059999999999995 L255.445,60.16 L263.31,51.69 L262.1,67.41999999999999 Z\" fill=\"#E0B400\" stroke=\"none\"/></g><path d=\"M215,100 L150,120 M157.0,112.8 L150,120 L159.8,122.0\" fill=\"none\" stroke=\"#E0B400\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><text x=\"100\" y=\"50\" text-anchor=\"middle\" font-size=\"10\" font-style=\"italic\" fill=\"currentColor\" stroke=\"none\">People's Park, Madras</text><text x=\"240\" y=\"50\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"700\" fill=\"#E0B400\" stroke=\"none\">missed</text><text x=\"160.0\" y=\"192\" text-anchor=\"middle\" font-size=\"11\" font-style=\"italic\" fill=\"currentColor\" fill-opacity=\"0.85\" stroke=\"none\">An old zoo animal, a missed shot, a secret killing</text></svg>",
+    "back": "The dewan smuggled it in; the king fired, it collapsed from shock; the hunters shot it to keep their jobs. The king held a grand burial for a victory he did not win.",
+    "stars": 3,
+    "tags": [
+      "event"
+    ]
+  },
+  {
+    "id": "tk-wooden",
+    "kind": "event",
+    "title": "The wooden tiger",
+    "svg": "<svg viewBox=\"0 0 320 200\" role=\"img\" aria-label=\"A sliver pierces the king's right hand\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" font-size=\"11\"><g transform=\"translate(110,150) scale(0.9)\"><g><path d=\"M0,-17.639999999999997 Q-10,-60.48 18.0,-63.0 L84.0,-65.52 Q110.4,-88.2 122.4,-68.04 L129.60000000000002,-52.92 Q127.2,-40.32 108.0,-40.32 L103.2,-25.2 L103.2,0 H88.8 V-20.16 L74.4,-20.16 V0 H60.0 V-21.168 L36.0,-21.168 V0 H21.599999999999998 V-20.16 Q7.199999999999999,-22.68 0,-17.639999999999997 Z\" fill=\"currentColor\" fill-opacity=\"0.9\" stroke=\"none\"/><path d=\"M4,-50.4 Q-28,-55.440000000000005 -18,-85.67999999999999 Q-14,-68.04 6,-56.448 Z\" fill=\"currentColor\" fill-opacity=\"0.9\" stroke=\"none\"/><path d=\"M88.8,-65.52 L84.0,-83.16 L100.8,-73.08 Z M115.19999999999999,-78.12 L120.0,-93.24 L129.60000000000002,-73.08 Z\" fill=\"currentColor\" fill-opacity=\"0.9\" stroke=\"none\"/><path d=\"M31.200000000000003,-60.48 q6,17.639999999999997 0,35.279999999999994 M45.6,-60.48 q6,17.639999999999997 0,35.279999999999994 M60.0,-60.48 q6,17.639999999999997 0,35.279999999999994 M74.4,-60.48 q6,17.639999999999997 0,35.279999999999994 \" fill=\"none\" stroke=\"#E0B400\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"114.0\" cy=\"-65.52\" r=\"2.5\" fill=\"#E0B400\" stroke=\"none\"/></g><circle cx=\"10\" cy=\"-60\" r=\"6\" fill=\"#E0B400\" stroke=\"none\"/></g><g transform=\"translate(230,110) scale(0.9)\"><path d=\"M-30,40 Q-34,10 -20,-20 L-12,-20 L-14,10 L-8,-34 L0,-34 L-2,8 L4,-40 L12,-40 L8,10 L16,-26 L24,-26 L18,22 Q14,44 0,48 Q-26,50 -30,40 Z\" fill=\"currentColor\" fill-opacity=\"0.6\" stroke=\"none\"/></g><circle cx=\"236\" cy=\"86\" r=\"5\" fill=\"#E0B400\" stroke=\"none\"/><text x=\"160\" y=\"40\" text-anchor=\"middle\" font-size=\"10\" font-style=\"italic\" fill=\"currentColor\" stroke=\"none\">300 rupees for a few annas' toy</text><text x=\"160.0\" y=\"192\" text-anchor=\"middle\" font-size=\"11\" font-style=\"italic\" fill=\"currentColor\" fill-opacity=\"0.85\" stroke=\"none\">A sliver pierces the king's right hand</text></svg>",
+    "back": "A badly made toy from an unskilled carpenter, a birthday gift for his neglected son. The sore spreads; three surgeons operate; operation successful, Maharaja dead.",
+    "stars": 3,
+    "tags": [
+      "event"
+    ]
+  },
+  {
+    "id": "tk-satire",
+    "kind": "mnemonic",
+    "title": "Operation successful — Maharaja dead",
+    "svg": "<svg viewBox=\"0 0 320 200\" role=\"img\" aria-label=\"Ceremony that hides failure — Kalki's last joke\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" font-size=\"11\"><rect x=\"60\" y=\"60\" width=\"200\" height=\"80\" fill=\"currentColor\" fill-opacity=\"0.85\" stroke=\"none\" rx=\"6\"/><text x=\"160\" y=\"96\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"700\" fill=\"#E0B400\" stroke=\"none\">operation</text><text x=\"160\" y=\"118\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"700\" fill=\"#E0B400\" stroke=\"none\">successful</text><g><circle cx=\"136.9\" cy=\"180.95\" r=\"6.05\" fill=\"currentColor\" fill-opacity=\"0.6\" stroke=\"none\"/><rect x=\"143.5\" y=\"180.32\" width=\"41.25\" height=\"9.68\" fill=\"currentColor\" fill-opacity=\"0.6\" stroke=\"none\" rx=\"3.63\"/></g><text x=\"160.0\" y=\"192\" text-anchor=\"middle\" font-size=\"11\" font-style=\"italic\" fill=\"currentColor\" fill-opacity=\"0.85\" stroke=\"none\">Ceremony that hides failure — Kalki's last joke</text></svg>",
+    "back": "The target: arrogant rulers who think power defeats fate, flatterers who lie from fear, officials who can be bought, and the senseless killing of a hundred tigers.",
+    "stars": 3,
+    "tags": [
+      "theme"
+    ]
+  },
+  {
+    "id": "tk-bet",
+    "kind": "event",
+    "title": "The astrologer's bet",
+    "svg": "<svg viewBox=\"0 0 320 200\" role=\"img\" aria-label=\"Line to remember\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" font-size=\"11\"><g><rect x=\"28\" y=\"36\" width=\"264\" height=\"72\" fill=\"currentColor\" fill-opacity=\"0.08\" stroke=\"currentColor\" stroke-width=\"1.5\" rx=\"10\"/><path d=\"M50,108 L42,122 L64,108 Z\" fill=\"currentColor\" fill-opacity=\"0.9\" stroke=\"none\"/><text x=\"160.0\" y=\"68.2\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"700\" fill=\"currentColor\" stroke=\"none\">I will cut off my tuft</text><text x=\"160.0\" y=\"84.2\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"700\" fill=\"currentColor\" stroke=\"none\">and become an insurance agent</text></g><text x=\"160\" y=\"146\" text-anchor=\"middle\" font-size=\"11\" fill=\"currentColor\" fill-opacity=\"0.8\" stroke=\"none\">— if the king survives the hundredth tiger</text><text x=\"160.0\" y=\"192\" text-anchor=\"middle\" font-size=\"11\" font-style=\"italic\" fill=\"currentColor\" fill-opacity=\"0.85\" stroke=\"none\">Line to remember</text></svg>",
+    "back": "A comic hedge that fixes the number one hundred in the reader's mind. Hyperbole and humour are the method of the satire.",
+    "stars": 2,
+    "tags": [
+      "line"
+    ]
+  }
+]

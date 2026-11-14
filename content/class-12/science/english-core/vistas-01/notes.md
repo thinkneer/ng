@@ -18,6 +18,14 @@ The place is different. The room is **smaller**, with fewer ticket windows and t
 Questions ask how Charley knew he was in 1894. Give four or five details: gaslights, brass spittoons, wooden booth, green eyeshade and sleeve-protectors, derby hats and handlebar moustaches, the old locomotive, and The World dated June 11, 1894.
 :::
 
+```ng-mnemonic
+id: third-level-evidence
+title: How Charley knew it was 1894
+trick: **G-S-D-W**: Gaslights, Spittoons, Derby hats, The World
+meaning: Open-flame gaslights, brass spittoons, a wooden booth with a green-eyeshade clerk, derby hats and handlebar moustaches, an old locomotive — and The World dated June 11, 1894.
+prompt: What details told Charley he had stepped into 1894?
+```
+
 **In one breath:** lost in Grand Central's maze, Charley walks out into a smaller, gaslit, 1890s station, and a copy of The World dated 11 June 1894 tells him when he is.
 
 ## Galesburg, and why Charley wanted to go
@@ -46,6 +54,32 @@ And Charley adds the last piece: at the stamp and coin store he learns that Sam 
 The last line is the joke the examiner wants you to catch: a psychiatrist has no customers in a town where nobody is anxious. The man who diagnosed Charley's escape wish has escaped himself.
 :::
 
+```ng-mnemonic
+id: third-level-dates
+title: Two dates
+trick: **June on the paper, July on the postmark**
+meaning: June 11, 1894 — the newspaper on the third level. July 18, 1894 — the postmark of Sam's first-day cover from Galesburg.
+prompt: Which two 1894 dates appear in the story, and where?
+```
+
+```ng-fill
+id: third-level-facts
+title: Facts to recall
+cols: Item | Answer
+row: Charley's age | [[thirty-one]]
+row: Destination wanted | [[Galesburg, Illinois]]
+row: Savings withdrawn | [[nearly 300 dollars]]
+row: Stamp on the cover | [[six-cent Garfield]]
+row: Sam's old currency | [[800 dollars]]
+row: Sam's new business | [[hay, feed and grain]]
+```
+
+```ng-explain
+id: explain-psychiatrist-joke
+prompt: In three lines, explain the joke in the story's last line about Sam's profession.
+lines: 3
+```
+
 **In one breath:** Sam vanishes; a first-day cover dated 1894 carries his letter from Galesburg; he has bought 1894 money to start a feed business — because a psychiatrist is useless in a world without worry.
 
 ## Fantasy or reality? Reading the story two ways
@@ -56,6 +90,29 @@ The story is deliberately **ambiguous**, and good answers show that:
 - **It is real / time travel:** the physical details are exact; the clerk's reaction to the money is not the kind of thing one dreams; the first-day cover is a physical object; Sam has in fact disappeared, and the coin dealer confirms his purchase of old currency.
 
 Finney leaves both doors open. What matters thematically is not whether the level exists but **what it stands for**.
+
+```ng-steps
+id: vistas-01-plot
+title: The Third Level in six beats
+svg:
+<svg viewBox="0 0 320 200" role="img" aria-label="Plot of Who is who in The Third Level" fill="none" stroke="currentColor" stroke-width="1.5" font-size="10"><path d="M30,90 H290" stroke-width="1"/><g data-step="1"><circle cx="30.0" cy="90" r="12"/><text x="30.0" y="94" text-anchor="middle" font-size="10" font-weight="700" fill="currentColor" stroke="none">1</text><text x="30.0" y="120" text-anchor="middle" font-size="9" fill="currentColor" stroke="none">Two levels, says everyone</text></g><g data-step="2"><circle cx="82.0" cy="90" r="12"/><text x="82.0" y="94" text-anchor="middle" font-size="10" font-weight="700" fill="currentColor" stroke="none">2</text><text x="82.0" y="160" text-anchor="middle" font-size="9" fill="currentColor" stroke="none">Lost in the station</text></g><g data-step="3"><circle cx="134.0" cy="90" r="12"/><text x="134.0" y="94" text-anchor="middle" font-size="10" font-weight="700" fill="currentColor" stroke="none">3</text><text x="134.0" y="120" text-anchor="middle" font-size="9" fill="currentColor" stroke="none">June 11, 1894</text></g><g data-step="4"><circle cx="186.0" cy="90" r="12"/><text x="186.0" y="94" text-anchor="middle" font-size="10" font-weight="700" fill="currentColor" stroke="none">4</text><text x="186.0" y="160" text-anchor="middle" font-size="9" fill="currentColor" stroke="none">Galesburg, refused</text></g><g data-step="5"><circle cx="238.0" cy="90" r="12"/><text x="238.0" y="94" text-anchor="middle" font-size="10" font-weight="700" fill="currentColor" stroke="none">5</text><text x="238.0" y="120" text-anchor="middle" font-size="9" fill="currentColor" stroke="none">Old-style money</text></g><g data-step="6"><circle cx="290.0" cy="90" r="12" stroke="#E0B400"/><text x="290.0" y="94" text-anchor="middle" font-size="10" font-weight="700" fill="currentColor" stroke="none">6</text><text x="290.0" y="160" text-anchor="middle" font-size="9" fill="currentColor" stroke="none">First-day cover</text></g></svg>
+step: Charley insists on a third; Sam calls it wish fulfilment, escape from insecurity.
+step: Corridors like roots; a doorway; a smaller, gaslit room.
+step: Spittoons, derby hats, The World on the newsstand.
+step: Two tickets wanted; modern bills look fake; he flees.
+step: Savings converted; the corridor never found; Louisa stops him.
+step: Sam vanishes; a letter postmarked Galesburg, July 18, 1894; 800 dollars of old currency.
+```
+
+```ng-compare
+id: fantasy-or-real
+title: Escape or time travel?
+cols: Evidence it is a wish | Evidence it is real
+row: Sam's diagnosis | insecurity, fear, war, worry | —
+row: The corridor | never found again | Grand Central really grows like a tree
+row: The money | — | the clerk's reaction is not dream-like
+row: The cover | a collector's imagination could supply it | a physical object; Sam has really gone; the dealer confirms 800 dollars
+```
 
 **In one breath:** the story lets you read the third level as escape-fantasy or as real time travel; the evidence cuts both ways by design.
 
@@ -70,5 +127,17 @@ Finney leaves both doors open. What matters thematically is not whether the leve
 **Craft:** first-person conversational narration; precise period detail that makes the impossible believable; a frame (Charley addressing us, anticipating disbelief); irony and a twist ending that turns the sceptic into the escapee.
 
 Characters: **Charley** (narrator, stressed, nostalgic, a stamp collector), **Louisa** (his anxious wife), **Sam** (psychiatrist friend who explains and then escapes), the **clerk** of 1894.
+
+```ng-figure
+id: vistas-01-characters
+title: Who is who in The Third Level
+svg:
+<svg viewBox="0 0 320 200" role="img" aria-label="People of The Third Level" fill="none" stroke="currentColor" stroke-width="1.5" font-size="11"><g><circle cx="60" cy="80.45" r="10.45" fill="currentColor" fill-opacity="0.95" stroke="none"/><path d="M45.75,98.9 Q60,90.9 74.25,98.9 L71.97,125.1 L65.7,125.1 L66.84,165 H61.425 L60.57,127.0 H59.43 L58.575,165 H53.16 L54.3,125.1 L48.03,125.1 Z" fill="currentColor" fill-opacity="0.95" stroke="none"/></g><text x="60" y="178" text-anchor="middle" font-size="10" font-weight="700" fill="currentColor" stroke="none">Charley</text><g><circle cx="130" cy="84.9" r="9.9" fill="currentColor" fill-opacity="0.6" stroke="none"/><path d="M116.5,102.80000000000001 Q130,94.80000000000001 143.5,102.80000000000001 L154.3,165 H105.7 Z" fill="currentColor" fill-opacity="0.6" stroke="none"/></g><text x="130" y="178" text-anchor="middle" font-size="10" font-weight="700" fill="currentColor" stroke="none">Louisa</text><g><circle cx="200" cy="76.0" r="11.0" fill="currentColor" fill-opacity="0.8" stroke="none"/><path d="M185.0,95.0 Q200,87.0 215.0,95.0 L212.6,123.0 L206.0,123.0 L207.2,165 H201.5 L200.6,125.0 H199.4 L198.5,165 H192.8 L194.0,123.0 L187.4,123.0 Z" fill="currentColor" fill-opacity="0.8" stroke="none"/><path d="M183.5,70.5 H216.5 V66.1 H209.9 V54.0 H190.1 V66.1 H183.5 Z" fill="currentColor" fill-opacity="0.8" stroke="none"/></g><text x="200" y="178" text-anchor="middle" font-size="10" font-weight="700" fill="currentColor" stroke="none">Sam</text><g><circle cx="270" cy="89.35" r="9.35" fill="currentColor" fill-opacity="0.5" stroke="none"/><path d="M257.25,106.69999999999999 Q270,98.69999999999999 282.75,106.69999999999999 L280.71,129.3 L275.1,129.3 L276.12,165 H271.275 L270.51,131.0 H269.49 L268.725,165 H263.88 L264.9,129.3 L259.29,129.3 Z" fill="currentColor" fill-opacity="0.5" stroke="none"/><path d="M259.715,85.61 Q270,71.585 280.285,85.61 H286.83 V88.41499999999999 H259.715 Z" fill="currentColor" fill-opacity="0.5" stroke="none"/></g><text x="270" y="178" text-anchor="middle" font-size="10" font-weight="700" fill="currentColor" stroke="none">The clerk</text></svg>
+caption: The man who found it, the wife who worried, the friend who explained it away — and went.
+part: 60, 117 | Charley | Thirty-one, stressed New Yorker and stamp collector who finds — or dreams — the third level.
+part: 130, 120 | Louisa | His wife; dislikes Sam's diagnosis; worries and stops the search.
+part: 200, 115 | Sam | Psychiatrist friend: waking-dream wish fulfilment — then he vanishes to Galesburg.
+part: 270, 122 | The clerk | 1894 ticket clerk who takes modern money for a swindle.
+```
 
 **In one breath:** "The Third Level" is a time-slip fantasy about the modern wish to escape fear and hurry — told so precisely, and ended so slyly, that you cannot be sure it is only a wish.
