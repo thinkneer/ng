@@ -94,7 +94,7 @@ Think about the surface. In pure liquid A, the whole surface is A molecules. In 
 
 **Raoult's law:** for a solution of volatile liquids, the partial vapour pressure of each component is directly proportional to its mole fraction in the solution.
 
-:::formula Raoult's law for volatile liquids
+:::formula Raoult's law
 $p_1=x_1\,p_1^\circ$ and $p_2=x_2\,p_2^\circ$
 
 $p_\text{total}=p_1+p_2=p_1^\circ+(p_2^\circ-p_1^\circ)\,x_2$
@@ -187,7 +187,7 @@ A liquid boils when its vapour pressure reaches the outside pressure. A solution
 <path d="M30,20 V175 H300"/><path d="M32.5,24.3L30,20L27.5,24.3" stroke-width="1"/><path d="M295.7,177.5L300,175L295.7,172.5" stroke-width="1"/><path d="M40,150 Q150,140 220,40"/><path d="M60,160 Q180,150 260,40" stroke="#E0B400" stroke-width="2"/><path d="M30,70L285,70" stroke-dasharray="4 3" stroke-width="1"/><path d="M196.3,70L196.3,175" stroke-dasharray="4 3" stroke-width="1"/><path d="M235.8,70L235.8,175" stroke-dasharray="4 3" stroke-width="1"/><path d="M197.3,160L234.8,160" stroke-width="1"/><path d="M230.4,162.5L234.8,160L230.4,157.5" stroke-width="1"/><path d="M201.6,157.5L197.3,160L201.6,162.5" stroke-width="1"/>
 <g fill="currentColor" stroke="none"><text x="100" y="191" text-anchor="middle">temperature →</text><text x="18" y="97.5" text-anchor="middle" transform="rotate(-90 18 97.5)">vapour pressure</text><text x="34" y="66" font-size="9">1 atm</text><text x="196.3" y="188" text-anchor="middle">T<tspan dy="3" font-size="8">b</tspan><tspan dy="-3">°</tspan></text><text x="239.8" y="188" text-anchor="middle">T<tspan dy="3" font-size="8">b</tspan></text><text x="216" y="154" text-anchor="middle" font-size="9">ΔT<tspan dy="3" font-size="8">b</tspan></text><text x="172" y="52" text-anchor="end">solvent</text><text x="266" y="56">solution</text></g>
 </svg>
-<figcaption>Figure 1.3 The solution reaches 1 atm at a higher temperature: boiling point rises by ΔTb.</figcaption>
+<figcaption>Figure 1.3 The solution reaches 1 atm at a higher temperature.</figcaption>
 </figure>
 
 Freezing works by the same logic. A liquid freezes at the temperature where its vapour pressure equals that of its solid. Lowering the liquid's curve moves that meeting point to a lower temperature, so the solution freezes below the pure solvent. The fall, $\Delta T_f=T_f^\circ-T_f$, is the **depression of freezing point**.
@@ -226,7 +226,7 @@ Read the last line of the question. "Find the depression" wants $\Delta T_f$; "f
 
 Put a raw mango in strong brine and it shrivels; put wilted flowers in fresh water and they revive. Both are **osmosis**: the flow of solvent through a semipermeable membrane, one that lets solvent molecules through but not solute particles. The solvent always moves from the side where it is more concentrated (pure solvent or dilute solution) to the more concentrated solution.
 
-**Figure 1.5 (osmosis):** solvent and solution separated by a semipermeable membrane; the pressure on the solution that just stops solvent flowing in is the osmotic pressure.
+**Figure 1.5 (osmosis):** solvent and solution separated by a semipermeable membrane; the pressure that just stops solvent flowing in is the osmotic pressure.
 
 That stopping pressure is the **osmotic pressure**, $\pi$. For dilute solutions it follows an equation that looks just like the gas law.
 
