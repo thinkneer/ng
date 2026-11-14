@@ -102,7 +102,13 @@ $p_\text{total}=p_1+p_2=p_1^\circ+(p_2^\circ-p_1^\circ)\,x_2$
 $p^\circ$ = vapour pressure of the pure liquid at that temperature. In the vapour, the mole fraction of a component is $y_1=\dfrac{p_1}{p_\text{total}}$.
 :::
 
-**Figure 1.1 (vapour pressure of an ideal solution):** plot pressure against the mole fraction of component 2. The line for $p_1$ falls straight from $p_1^\circ$ to zero; the line for $p_2$ rises straight from zero to $p_2^\circ$; the total-pressure line is a straight line joining $p_1^\circ$ on the left to $p_2^\circ$ on the right.
+<figure class="fig">
+<svg viewBox="0 0 320 195" role="img" aria-label="Vapour pressure of an ideal solution" fill="none" stroke="currentColor" stroke-width="1.5" font-size="11">
+<path d="M40,20 V170 H280 V20"/><path d="M40,90L280,170" stroke-width="1"/><path d="M40,170L280,40" stroke-width="1"/><path d="M40,90L280,40" stroke="#E0B400" stroke-width="2.5"/>
+<g fill="currentColor" stroke="none"><text x="160" y="188" text-anchor="middle">mole fraction x<tspan dy="3" font-size="8">2</tspan><tspan dy="-3"> →</tspan></text><text x="14" y="95" text-anchor="middle" transform="rotate(-90 14 95)">vapour pressure</text><text x="36" y="93" text-anchor="end">p<tspan dy="3" font-size="8">1</tspan><tspan dy="-3">°</tspan></text><text x="285" y="43">p<tspan dy="3" font-size="8">2</tspan><tspan dy="-3">°</tspan></text><text x="100" y="126">p<tspan dy="3" font-size="8">1</tspan></text><text x="205" y="100">p<tspan dy="3" font-size="8">2</tspan></text><text x="150" y="56" text-anchor="middle">p<tspan dy="3" font-size="8">total</tspan><tspan dy="-3"> = p</tspan><tspan dy="3" font-size="8">1</tspan><tspan dy="-3"> + p</tspan><tspan dy="3" font-size="8">2</tspan></text></g>
+</svg>
+<figcaption>Figure 1.1 Ideal solution: every line is straight (Raoult’s law).</figcaption>
+</figure>
 
 The last line of the formula box hides a useful fact: the vapour is always richer than the liquid in the more volatile component. That is what makes fractional distillation work.
 
@@ -132,7 +138,13 @@ Most real mixtures are not so obliging, and they deviate in one of two direction
 
 **Negative deviation.** If A–B attractions are *stronger*, molecules are held back and the vapour pressure is lower than predicted. Chloroform and acetone do this because a hydrogen bond forms between the H of $\ce{CHCl3}$ and the O of acetone, a bond neither pure liquid had. Mixing releases heat ($\Delta_\text{mix}H<0$) and the volume shrinks ($\Delta_\text{mix}V<0$). Phenol with aniline is another case.
 
-**Figure 1.2 (deviations from Raoult's law):** the same axes as Figure 1.1, with the straight ideal lines shown dashed. For positive deviation all three curves bulge *above* their dashed lines, and the total-pressure curve passes through a maximum. For negative deviation they sag *below*, and the total-pressure curve passes through a minimum.
+<figure class="fig">
+<svg viewBox="0 0 345 188" role="img" aria-label="Positive and negative deviation from Raoult’s law" fill="none" stroke="currentColor" stroke-width="1.5" font-size="11">
+<path d="M38,30 V165 H158 V30"/><path d="M38,100L158,165" stroke-dasharray="4 3" stroke-width="1"/><path d="M38,165L158,60" stroke-dasharray="4 3" stroke-width="1"/><path d="M38,100L158,60" stroke-dasharray="4 3" stroke-width="1"/><path d="M38,100 Q108,115 158,165" stroke-width="1"/><path d="M38,165 Q88,92 158,60" stroke-width="1"/><path d="M38,100 Q98,18 158,60" stroke="#E0B400" stroke-width="2.5"/><path d="M200,30 V165 H320 V30"/><path d="M200,100L320,165" stroke-dasharray="4 3" stroke-width="1"/><path d="M200,165L320,60" stroke-dasharray="4 3" stroke-width="1"/><path d="M200,100L320,60" stroke-dasharray="4 3" stroke-width="1"/><path d="M200,100 Q250,152 320,165" stroke-width="1"/><path d="M200,165 Q272,152 320,60" stroke-width="1"/><path d="M200,100 Q260,128 320,60" stroke="#E0B400" stroke-width="2.5"/>
+<g fill="currentColor" stroke="none"><text x="98" y="18" text-anchor="middle">Positive deviation</text><text x="98" y="181" text-anchor="middle" font-size="9">x<tspan dy="3" font-size="8">2</tspan><tspan dy="-3"> →</tspan></text><text x="260" y="18" text-anchor="middle">Negative deviation</text><text x="260" y="181" text-anchor="middle" font-size="9">x<tspan dy="3" font-size="8">2</tspan><tspan dy="-3"> →</tspan></text><text x="14" y="97" text-anchor="middle" transform="rotate(-90 14 97)">vapour pressure</text><text x="34" y="103" text-anchor="end" font-size="9">p<tspan dy="3" font-size="8">1</tspan><tspan dy="-3">°</tspan></text><text x="162" y="63" font-size="9">p<tspan dy="3" font-size="8">2</tspan><tspan dy="-3">°</tspan></text></g>
+</svg>
+<figcaption>Figure 1.2 Dashed: ideal. Positive deviation bulges above (maximum); negative dips below (minimum).</figcaption>
+</figure>
 
 Those maxima and minima lead to **azeotropes**: mixtures that boil at a constant temperature with the liquid and the vapour having the same composition. Since boiling no longer changes the composition, fractional distillation cannot separate an azeotrope. A large positive deviation gives a maximum in vapour pressure, so the mixture boils at a *lower* temperature than either component: a **minimum-boiling azeotrope**, such as ethanol–water at about 95% ethanol by volume. A large negative deviation gives a **maximum-boiling azeotrope**, such as nitric acid–water at 68% acid by mass, boiling at 393.5 K.
 
@@ -170,11 +182,17 @@ $p_1=23.8\,(1-0.0099)=$ **23.56 mm Hg** [½]
 
 A liquid boils when its vapour pressure reaches the outside pressure. A solution has a lower vapour pressure than the pure solvent at every temperature, so it must be heated further to reach 1 atm. Its boiling point is therefore higher. The rise, $\Delta T_b=T_b-T_b^\circ$, is the **elevation of boiling point**.
 
-**Figure 1.3 (elevation of boiling point):** vapour pressure against temperature. Two rising curves, the solution's lying below the solvent's. A horizontal line at 1 atm cuts the solvent curve at $T_b^\circ$ and the solution curve further right at $T_b$; the gap is $\Delta T_b$.
+<figure class="fig">
+<svg viewBox="0 0 320 200" role="img" aria-label="Elevation of boiling point" fill="none" stroke="currentColor" stroke-width="1.5" font-size="11">
+<path d="M30,20 V175 H300"/><path d="M32.5,24.3L30,20L27.5,24.3" stroke-width="1"/><path d="M295.7,177.5L300,175L295.7,172.5" stroke-width="1"/><path d="M40,150 Q150,140 220,40"/><path d="M60,160 Q180,150 260,40" stroke="#E0B400" stroke-width="2"/><path d="M30,70L285,70" stroke-dasharray="4 3" stroke-width="1"/><path d="M196.3,70L196.3,175" stroke-dasharray="4 3" stroke-width="1"/><path d="M235.8,70L235.8,175" stroke-dasharray="4 3" stroke-width="1"/><path d="M197.3,160L234.8,160" stroke-width="1"/><path d="M230.4,162.5L234.8,160L230.4,157.5" stroke-width="1"/><path d="M201.6,157.5L197.3,160L201.6,162.5" stroke-width="1"/>
+<g fill="currentColor" stroke="none"><text x="100" y="191" text-anchor="middle">temperature →</text><text x="18" y="97.5" text-anchor="middle" transform="rotate(-90 18 97.5)">vapour pressure</text><text x="34" y="66" font-size="9">1 atm</text><text x="196.3" y="188" text-anchor="middle">T<tspan dy="3" font-size="8">b</tspan><tspan dy="-3">°</tspan></text><text x="239.8" y="188" text-anchor="middle">T<tspan dy="3" font-size="8">b</tspan></text><text x="216" y="154" text-anchor="middle" font-size="9">ΔT<tspan dy="3" font-size="8">b</tspan></text><text x="172" y="52" text-anchor="end">solvent</text><text x="266" y="56">solution</text></g>
+</svg>
+<figcaption>Figure 1.3 The solution reaches 1 atm at a higher temperature: boiling point rises by ΔTb.</figcaption>
+</figure>
 
 Freezing works by the same logic. A liquid freezes at the temperature where its vapour pressure equals that of its solid. Lowering the liquid's curve moves that meeting point to a lower temperature, so the solution freezes below the pure solvent. The fall, $\Delta T_f=T_f^\circ-T_f$, is the **depression of freezing point**.
 
-**Figure 1.4 (depression of freezing point):** the same axes at low temperature. The solid-solvent curve rises steeply and meets the liquid-solvent curve at $T_f^\circ$. The solution curve, lying lower, meets the solid curve at $T_f$ to the left; the gap is $\Delta T_f$.
+**Figure 1.4 (depression of freezing point):** the same plot at low temperature. The solution's curve meets the solid-solvent curve at $T_f$, to the left of $T_f^\circ$; the gap is $\Delta T_f$.
 
 For dilute solutions both changes are proportional to molality.
 
@@ -208,7 +226,7 @@ Read the last line of the question. "Find the depression" wants $\Delta T_f$; "f
 
 Put a raw mango in strong brine and it shrivels; put wilted flowers in fresh water and they revive. Both are **osmosis**: the flow of solvent through a semipermeable membrane, one that lets solvent molecules through but not solute particles. The solvent always moves from the side where it is more concentrated (pure solvent or dilute solution) to the more concentrated solution.
 
-**Figure 1.5 (osmosis):** a vessel divided by a semipermeable membrane, pure solvent on one side and solution on the other, with a piston on the solution side. Solvent flows into the solution; the pressure on the piston that just stops this flow is the osmotic pressure.
+**Figure 1.5 (osmosis):** solvent and solution separated by a semipermeable membrane; the pressure on the solution that just stops solvent flowing in is the osmotic pressure.
 
 That stopping pressure is the **osmotic pressure**, $\pi$. For dilute solutions it follows an equation that looks just like the gas law.
 

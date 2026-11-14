@@ -108,7 +108,13 @@ Start with the simplest case, a **zero-order** reaction, whose rate does not dep
 Zero order: $[R]=[R]_0-kt$ , so $k=\dfrac{[R]_0-[R]}{t}$ (mol L$^{-1}$ s$^{-1}$)
 :::
 
-**Figure 3.2 (zero-order plot):** concentration $[R]$ against time is a straight line sloping down, with slope $-k$ and intercept $[R]_0$.
+<figure class="fig">
+<svg viewBox="0 0 320 150" role="img" aria-label="Zero-order reaction: concentration against time is a falling straight line" fill="none" stroke="currentColor" stroke-width="1.5" font-size="11">
+<path d="M105,20 V115 H235"/><path d="M107.5,24.3L105,20L102.5,24.3" stroke-width="1"/><path d="M230.7,117.5L235,115L230.7,112.5" stroke-width="1"/><path d="M105,34L223,105" stroke="#E0B400" stroke-width="2.5"/>
+<g fill="currentColor" stroke="none"><text x="170" y="131" text-anchor="middle">t →</text><text x="95" y="67.5" text-anchor="middle" transform="rotate(-90 95 67.5)">[R]</text><text x="174" y="59.5" font-size="9">slope = −k</text><text x="110" y="28" font-size="9">[R]<tspan dy="3" font-size="8">0</tspan></text></g>
+</svg>
+<figcaption>Figure 3.2 Zero order: [R] against t is a straight line of slope −k.</figcaption>
+</figure>
 
 How can rate ignore concentration? It happens when something else is the bottleneck. Ammonia decomposing on a hot platinum surface at high pressure is the standard example: $\ce{2NH3 ->[Pt] N2 + 3H2}$. The metal surface is completely covered with ammonia molecules, so adding more gas cannot make it react any faster. The decomposition of HI on gold is similar.
 
@@ -134,7 +140,13 @@ $k=\dfrac{2.303}{t}\log\dfrac{[R]_0}{[R]}$ (s$^{-1}$)
 Gas reaction $\ce{A(g) -> B(g) + C(g)}$ followed by total pressure: $k=\dfrac{2.303}{t}\log\dfrac{p_i}{2p_i-p_t}$
 :::
 
-**Figure 3.3 (first-order plots):** $\ln[R]$ against time is a straight line with slope $-k$ and intercept $\ln[R]_0$. Plotting $\log\dfrac{[R]_0}{[R]}$ against time gives a straight line through the origin with slope $\dfrac{k}{2.303}$.
+<figure class="fig">
+<svg viewBox="0 0 340 150" role="img" aria-label="First-order reaction plots" fill="none" stroke="currentColor" stroke-width="1.5" font-size="11">
+<path d="M40,20 V115 H150"/><path d="M42.5,24.3L40,20L37.5,24.3" stroke-width="1"/><path d="M145.7,117.5L150,115L145.7,112.5" stroke-width="1"/><path d="M40,34L138,105" stroke="#E0B400" stroke-width="2.5"/><path d="M210,20 V115 H320"/><path d="M212.5,24.3L210,20L207.5,24.3" stroke-width="1"/><path d="M315.7,117.5L320,115L315.7,112.5" stroke-width="1"/><path d="M210,115L308,38" stroke="#E0B400" stroke-width="2.5"/>
+<g fill="currentColor" stroke="none"><text x="95" y="131" text-anchor="middle">t →</text><text x="30" y="67.5" text-anchor="middle" transform="rotate(-90 30 67.5)">ln [R]</text><text x="99" y="59.5" font-size="9">slope = −k</text><text x="45" y="28" font-size="9">ln [R]<tspan dy="3" font-size="8">0</tspan></text><text x="265" y="131" text-anchor="middle">t →</text><text x="200" y="67.5" text-anchor="middle" transform="rotate(-90 200 67.5)">log ([R]<tspan dy="3" font-size="8">0</tspan><tspan dy="-3">/[R])</tspan></text><text x="318" y="105" text-anchor="end" font-size="9">slope = k/2.303</text></g>
+</svg>
+<figcaption>Figure 3.3 First order: ln [R] against t falls with slope −k; log ([R]₀/[R]) against t rises from the origin with slope k/2.303.</figcaption>
+</figure>
 
 The concentration falls exponentially: fast at first, then ever more slowly, never quite reaching zero. Because only the *ratio* $[R]_0/[R]$ appears, you can use any quantity proportional to concentration: grams, pressure, or percentages. Taking $[R]_0=100$ makes "percent complete" questions easy.
 
@@ -196,11 +208,23 @@ Warm a reaction by 10 K and its rate roughly doubles. That is odd at first sight
 
 For reactants to become products, old bonds must stretch and partly break before new ones form. The molecules pass through a high-energy arrangement called the **activated complex**, and the extra energy needed to reach it is the **activation energy**, $E_a$. Only collisions with at least this much energy can succeed.
 
-**Figure 3.4 (energy profile):** potential energy against reaction coordinate. The curve starts at the reactants' level, climbs to a peak (the activated complex) and falls to the products' level. The height of the peak above the reactants is $E_a$. A second, dashed curve for the catalysed reaction joins the same start and end levels over a lower peak.
+<figure class="fig">
+<svg viewBox="0 0 320 208" role="img" aria-label="Energy profile of a reaction with and without a catalyst" fill="none" stroke="currentColor" stroke-width="1.5" font-size="11">
+<path d="M40,20 V185 H290"/><path d="M42.5,24.3L40,20L37.5,24.3" stroke-width="1"/><path d="M285.7,187.5L290,185L285.7,182.5" stroke-width="1"/><path d="M50,130 H92 C122,130 136,45 160,45 C185,45 200,155 232,155 H275"/><path d="M92,130 C122,130 140,88 160,88 C181,88 200,155 232,155" stroke="#E0B400" stroke-width="2" stroke-dasharray="5 3"/><path d="M58,45L160,45" stroke-dasharray="4 3" stroke-width="1"/><path d="M76,88L160,88" stroke-dasharray="4 3" stroke-width="1"/><path d="M232,130L275,130" stroke-dasharray="4 3" stroke-width="1"/><path d="M62,129L62,46" stroke-width="1"/><path d="M64.5,50.3L62,46L59.5,50.3" stroke-width="1"/><path d="M59.5,124.7L62,129L64.5,124.7" stroke-width="1"/><path d="M80,129L80,89" stroke-width="1"/><path d="M82.5,93.3L80,89L77.5,93.3" stroke-width="1"/><path d="M77.5,124.7L80,129L82.5,124.7" stroke-width="1"/><path d="M262,131L262,154" stroke-width="1"/><path d="M259.5,149.7L262,154L264.5,149.7" stroke-width="1"/><path d="M264.5,135.3L262,131L259.5,135.3" stroke-width="1"/><path d="M190,18L208,18"/><path d="M190,30L208,30" stroke="#E0B400" stroke-width="2" stroke-dasharray="5 3"/>
+<g fill="currentColor" stroke="none"><text x="165" y="201" text-anchor="middle">reaction coordinate →</text><text x="28" y="102.5" text-anchor="middle" transform="rotate(-90 28 102.5)">potential energy</text><text x="58" y="84" text-anchor="end">E<tspan dy="3" font-size="8">a</tspan></text><text x="84" y="112">E<tspan dy="3" font-size="8">a</tspan><tspan dy="-3">′</tspan></text><text x="267" y="146">ΔH</text><text x="48" y="144" font-size="9">reactants</text><text x="238" y="168" font-size="9">products</text><text x="118" y="38" text-anchor="middle" font-size="9">activated complex</text><text x="212" y="21" font-size="9">no catalyst</text><text x="212" y="33" font-size="9">with catalyst</text></g>
+</svg>
+<figcaption>Figure 3.4 A catalyst provides a path with a lower activation energy (Ea′); reactants, products and ΔH are unchanged.</figcaption>
+</figure>
 
 Now look at how energy is shared out among molecules.
 
-**Figure 3.5 (distribution of molecular energies):** fraction of molecules against kinetic energy, a hump-shaped curve with a long tail to the right. A vertical line at $E_a$ cuts off a small area in the tail: the molecules able to react. At $T+10$ the hump is lower and shifted right, and the area beyond $E_a$ is about twice as large, though the total area is unchanged.
+<figure class="fig">
+<svg viewBox="0 0 320 200" role="img" aria-label="Distribution of molecular energies at two temperatures" fill="none" stroke="currentColor" stroke-width="1.5" font-size="11">
+<path d="M40,15 V165 H295"/><path d="M42.5,19.3L40,15L37.5,19.3" stroke-width="1"/><path d="M290.7,167.5L295,165L290.7,162.5" stroke-width="1"/><path d="M215,165 L215,114.5 L217.8,116.9 L221.4,119.9 L225.1,122.8 L229.0,125.7 L232.9,128.5 L237.0,131.2 L241.1,133.8 L245.4,136.2 L249.8,138.6 L254.4,140.8 L259.1,142.8 L263.9,144.6 L268.9,146.3 L274.1,147.7 L279.5,149.0 L285.0,150.0 L285,165 Z" fill="#E0B400" fill-opacity="0.45" stroke="none"/><path d="M215,165 L215,129.8 L219.7,133.4 L224.7,137.0 L229.8,140.5 L235.2,143.7 L240.7,146.7 L246.4,149.5 L252.3,152.0 L258.4,154.2 L264.7,156.2 L271.2,157.8 L278.0,159.1 L285.0,160.0 L285,165 Z" fill="currentColor" fill-opacity="0.3" stroke="none"/><path d="M45,165 C72,165 82,40 115,40 C160,40 190,150 285,160"/><path d="M45,165 C78,165 95,62 135,62 C185,62 210,138 285,150" stroke="#E0B400" stroke-width="2"/><path d="M215,60L215,165" stroke-dasharray="4 3" stroke-width="1"/>
+<g fill="currentColor" stroke="none"><text x="120" y="181" text-anchor="middle">kinetic energy →</text><text x="28" y="90" text-anchor="middle" transform="rotate(-90 28 90.0)">fraction of molecules</text><text x="215" y="178" text-anchor="middle">E<tspan dy="3" font-size="8">a</tspan></text><text x="115" y="32" text-anchor="middle">T</text><text x="160" y="58">T + 10</text><text x="288" y="128" text-anchor="end" font-size="9">can</text><text x="288" y="138" text-anchor="end" font-size="9">react</text></g>
+</svg>
+<figcaption>Figure 3.5 At T + 10 the peak is lower and shifted right, and the shaded area beyond Ea (molecules able to react) roughly doubles.</figcaption>
+</figure>
 
 A small rise in temperature barely shifts the average, but it roughly doubles the tiny fraction of molecules in the high-energy tail. Arrhenius captured this in one equation, in which $e^{-E_a/RT}$ is exactly that fraction.
 
@@ -212,7 +236,13 @@ Two temperatures: $\log\dfrac{k_2}{k_1}=\dfrac{E_a}{2.303\,R}\left(\dfrac{T_2-T_
 $A$ = frequency (pre-exponential) factor, $R=8.314$ J K$^{-1}$ mol$^{-1}$, $T$ in kelvin, $E_a$ in J mol$^{-1}$
 :::
 
-**Figure 3.6 (Arrhenius plot):** $\ln k$ against $1/T$ is a straight line sloping down, with slope $-E_a/R$ and intercept $\ln A$. If $\log k$ is plotted instead, the slope is $-E_a/2.303R$.
+<figure class="fig">
+<svg viewBox="0 0 320 150" role="img" aria-label="Arrhenius plot of ln k against 1/T" fill="none" stroke="currentColor" stroke-width="1.5" font-size="11">
+<path d="M105,20 V115 H235"/><path d="M107.5,24.3L105,20L102.5,24.3" stroke-width="1"/><path d="M230.7,117.5L235,115L230.7,112.5" stroke-width="1"/><path d="M105,34L223,105" stroke="#E0B400" stroke-width="2.5"/>
+<g fill="currentColor" stroke="none"><text x="170" y="131" text-anchor="middle">1/T →</text><text x="95" y="67.5" text-anchor="middle" transform="rotate(-90 95 67.5)">ln k</text><text x="174" y="59.5" font-size="9">slope = −E<tspan dy="3" font-size="8">a</tspan><tspan dy="-3">/R</tspan></text><text x="110" y="28" font-size="9">ln A</text></g>
+</svg>
+<figcaption>Figure 3.6 Arrhenius plot: slope −Ea/R, intercept ln A.</figcaption>
+</figure>
 
 :::skeleton Worked example: activation energy
 *The rate constant of a reaction triples when the temperature rises from 300 K to 320 K. Find $E_a$. ($\log3=0.4771$)*

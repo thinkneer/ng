@@ -41,7 +41,13 @@ e.g. $\Lambda^\circ_{\ce{CH3COOH}}=\Lambda^\circ_{\ce{CH3COONa}}+\Lambda^\circ_{
 Weak electrolyte: $\alpha=\dfrac{\Lambda_m}{\Lambda_m^\circ}$;   $K_a=\dfrac{c\,\alpha^2}{1-\alpha}$
 :::
 
-*(graph to be added as SVG)*
+<figure class="fig">
+<svg viewBox="0 0 320 195" role="img" aria-label="Molar conductivity against square root of concentration for a strong and a weak electrolyte" fill="none" stroke="currentColor" stroke-width="1.5" font-size="11">
+<path d="M45,20 V170 H290"/><path d="M47.5,24.3L45,20L42.5,24.3" stroke-width="1"/><path d="M285.7,172.5L290,170L285.7,167.5" stroke-width="1"/><path d="M45,48L270,82" stroke="#E0B400" stroke-width="2.5"/><path d="M50,22 Q56,150 270,158"/><circle cx="45" cy="48" r="2.5" fill="currentColor"/>
+<g fill="currentColor" stroke="none"><text x="167.5" y="186" text-anchor="middle">√c →</text><text x="33" y="95" text-anchor="middle" transform="rotate(-90 33 95.0)">Λ<tspan dy="3" font-size="8">m</tspan></text><text x="40" y="51" text-anchor="end" font-size="9">Λ<tspan dy="3" font-size="8">m</tspan><tspan dy="-3">°</tspan></text><text x="200" y="62" text-anchor="middle">KCl (strong)</text><text x="215" y="128" text-anchor="middle">CH<tspan dy="3" font-size="8">3</tspan><tspan dy="-3">COOH (weak)</tspan></text></g>
+</svg>
+<figcaption>Strong electrolyte: a straight line that can be extended to the axis to read Λm°. Weak electrolyte: rises steeply at low concentration, so it cannot be extrapolated.</figcaption>
+</figure>
 
 - On dilution: $\kappa$ **decreases** (fewer ions per cm$^3$); $\Lambda_m$ **increases** (strong: ions freer; weak: $\alpha$ increases sharply).
 - Strong: straight line, extrapolate to $c\to0$ for $\Lambda_m^\circ$. Weak: steep curve, cannot extrapolate → use Kohlrausch.
