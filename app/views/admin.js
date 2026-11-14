@@ -149,13 +149,16 @@ async function adminDb() {
     html: html`<h1 class="t-title" style="margin:var(--s-4) 0">Admin</h1>
       ${error ? raw(`<div class="notice notice--warn mb-4">${icon('alert')}<div>${esc(errText(error))}</div></div>`) : ''}
       <div class="card mb-4"><div class="t-headline">${pending ? `${pending} awaiting approval` : 'No one waiting'}</div><p class="t-2 t-subhead mt-1">Members join with a nickname, email and password; you approve each one here as a student or a teacher. Teachers can run live quizzes and, later, exams. Changes apply the next time they open the app.</p></div>
-      <div class="list__header" style="padding-left:0">Members <span class="count">${people.length}</span></div>
+      <div class="list__header" style="padding-left:0">Members <span class="count">${people.filter((p) => p.status === 'approved').length} approved · ${people.filter((p) => p.role === 'teacher').length} teachers</span></div>
+      ${people.length > 8 ? raw('<input type="search" id="m-search" placeholder="Find a nickname" aria-label="Find a nickname" class="mb-2">') : ''}
       <div class="list" id="members">${raw(people.map(row).join('') || '<div class="list__item t-2">No members yet</div>')}</div>
       <p class="t-footnote t-3 mt-4">Nicknames only are shown; emails stay in the sign-in system. Your own row has no buttons.</p>`,
     mount(el) {
+      el.querySelector('#m-search')?.addEventListener('input', (e) => { const q = e.target.value.trim().toLowerCase(); for (const r of el.querySelectorAll('#members [data-nick]')) r.hidden = !!q && !r.dataset.nick.toLowerCase().includes(q); });
       el.querySelector('#members').addEventListener('click', async (e) => {
         const b = e.target.closest('[data-set]'); if (!b) return;
         const item = b.closest('[data-id]'); const patch = JSON.parse(b.dataset.set);
+        if (patch.status === 'suspended' && !confirm(`Pause ${item.dataset.nick}? They are signed out on their next open and can’t use the app until you restore them.`)) return;
         if (patch.status === 'approved') patch.approved_at = new Date().toISOString();
         b.disabled = true; const label = b.textContent; b.textContent = 'Saving…';
         const { error: err } = await c.from('profiles').update(patch).eq('id', item.dataset.id);

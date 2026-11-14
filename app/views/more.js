@@ -3,7 +3,8 @@ import { data } from '../data.js';
 import { store } from '../store.js';
 import { applyTheme } from '../theme.js';
 import { pwa } from '../pwa.js';
-import { signOut, session, isDbMode } from '../auth.js';
+import { signOut, session, isDbMode, maskedEmail, setNewPassword, signOutEverywhere } from '../auth.js';
+import { errText } from '../db.js';
 
 
 export async function more(route) {
@@ -114,18 +115,43 @@ async function request() {
 
 async function access() {
   const s = session();
+  const dbMode = await isDbMode();
+  const email = dbMode ? await maskedEmail().catch(() => '') : '';
+  const roleName = s?.role === 'admin' ? 'Admin' : s?.role === 'teacher' ? 'Teacher' : 'Student';
   return {
     title: 'Account', tab: 'more', back: '#/more',
     html: html`<h1 class="t-title" style="margin:var(--s-4) 0">Account</h1>
-      <div class="card row"><span class="list__leading" style="--unit:var(--accent)">${raw(esc((s?.nickname || '?').slice(0, 2).toUpperCase()))}</span><div class="grow"><div class="t-headline">${s?.nickname || ''}</div><div class="t-2 t-footnote">${s?.role === 'admin' ? 'Admin' : 'Member'} · Class ${s?.class || '–'}${s?.stream && s.stream !== 'general' ? ' ' + cap(s.stream) : ''}</div></div></div>
-      <div class="list mt-4">${listItem({ title: 'Sign out', sub: 'Your highlights and progress stay on this device', leading: icon('logout'), leadingStyle: 'background:var(--danger-soft);color:var(--danger)', attrs: 'data-signout', chevron: false })}</div>
+      <div class="card row"><span class="list__leading" style="--unit:var(--accent)">${raw(esc((s?.nickname || '?').slice(0, 2).toUpperCase()))}</span><div class="grow"><div class="t-headline">${s?.nickname || ''}</div><div class="t-2 t-footnote">${roleName} · Class ${s?.class || '–'}${s?.stream && s.stream !== 'general' ? ' ' + cap(s.stream) : ''}${email ? ` · ${email}` : ''}</div></div></div>
+      <div class="list mt-4">
+        ${dbMode ? listItem({ title: 'Change password', sub: 'Pick a new one; you stay signed in here', leading: icon('lock'), leadingStyle: 'background:var(--accent-soft);color:var(--accent-text)', attrs: 'data-changepw', chevron: false }) : ''}
+        ${listItem({ title: 'Sign out', sub: dbMode ? 'This device only' : 'Your highlights and progress stay on this device', leading: icon('logout'), leadingStyle: 'background:var(--danger-soft);color:var(--danger)', attrs: 'data-signout', chevron: false })}
+        ${dbMode ? listItem({ title: 'Sign out everywhere', sub: 'Every phone and computer signed in as you', leading: icon('logout'), leadingStyle: 'background:var(--danger-soft);color:var(--danger)', attrs: 'data-signout-all', chevron: false }) : ''}
+      </div>
       <div class="card mt-6 stack-s">
         <div class="t-headline">How membership works</div>
-        <p class="t-2 t-subhead">Every member is a nickname the admin approved. Your highlights, notes, recall schedule and tracker are saved on this device under your nickname; use Progress → export to move them.</p>
-        <p class="t-2 t-subhead">This is a static site: sign-in decides who uses the app, it is not a vault. Never put personal details in notes.</p>
+        <p class="t-2 t-subhead">${dbMode ? 'You joined with a nickname, email and password; the admin approved you. Only your nickname is ever shown to others. One device is signed in at a time: signing in elsewhere signs this one out.' : 'Every member is a nickname the admin approved.'} Your highlights, notes, recall schedule and tracker are saved on this device under your nickname; use Progress → export to move them.</p>
+        <p class="t-2 t-subhead">${dbMode ? 'Forgot your password? Sign out, then use “Forgot password” on the sign-in page. To change your nickname or close your account, ask the admin.' : 'This is a static site: sign-in decides who uses the app, it is not a vault.'} Never put personal details in notes.</p>
       </div>`,
     mount(el) {
       el.querySelector('[data-signout]')?.addEventListener('click', () => { signOut(); toast('Signed out'); location.hash = '#/signin'; });
+      el.querySelector('[data-signout-all]')?.addEventListener('click', async () => { await signOutEverywhere(); toast('Signed out everywhere'); location.hash = '#/signin'; });
+      el.querySelector('[data-changepw]')?.addEventListener('click', () => {
+        const sh = openSheet({ title: 'Change password', content: `<form id="cpw" novalidate>
+            <label for="cp1">New password</label><input id="cp1" type="password" autocomplete="new-password" placeholder="At least 8 characters, letters and a number">
+            <label for="cp2" class="mt-4">Again</label><input id="cp2" type="password" autocomplete="new-password">
+            <p class="auth__err" id="cp-err" role="alert" hidden></p>
+            <button class="btn btn--block mt-4" type="submit">Save</button></form>` });
+        const f = sh.body.querySelector('#cpw'), err = sh.body.querySelector('#cp-err');
+        f.addEventListener('submit', async (e) => {
+          e.preventDefault(); err.hidden = true;
+          const a = f.querySelector('#cp1').value, b = f.querySelector('#cp2').value;
+          const bad = a.length < 8 ? 'At least 8 characters.' : !/[A-Za-z]/.test(a) || !/\d/.test(a) ? 'Use letters and at least one number.' : a !== b ? 'The two passwords don’t match.' : '';
+          if (bad) { err.textContent = bad; err.hidden = false; return; }
+          f.querySelector('button').disabled = true;
+          try { await setNewPassword(a); sh.close(); toast('Password changed'); haptic('success'); }
+          catch (ex) { err.textContent = errText(ex); err.hidden = false; f.querySelector('button').disabled = false; }
+        });
+      });
     },
   };
 }

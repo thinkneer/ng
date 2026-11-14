@@ -145,7 +145,8 @@ async function emailSignin(route) {
         <label for="e-mail" class="${signup ? 'mt-4' : ''}">Email</label>
         <input id="e-mail" type="email" inputmode="email" autocomplete="email" autocapitalize="none" spellcheck="false" value="${remembered}">
         <label for="e-pass" class="mt-4">Password</label>
-        <div class="auth__pass"><input id="e-pass" type="password" autocomplete="${signup ? 'new-password' : 'current-password'}" placeholder="${signup ? 'At least 8 characters' : ''}"><button class="icon-btn" type="button" id="peek" aria-label="Show password">${raw(icon('eye'))}</button></div>
+        <div class="auth__pass"><input id="e-pass" type="password" autocomplete="${signup ? 'new-password' : 'current-password'}" placeholder="${signup ? 'At least 8 characters' : ''}" minlength="8" required><button class="icon-btn" type="button" id="peek" aria-label="Show password">${raw(icon('eye'))}</button></div>
+        ${signup ? html`<label for="e-pass2" class="mt-4">Password again</label><div class="auth__pass"><input id="e-pass2" type="password" autocomplete="new-password" minlength="8" required><button class="icon-btn" type="button" id="peek2" aria-label="Show password">${raw(icon('eye'))}</button></div><p class="t-footnote t-3 mt-2">Use at least 8 characters with letters and a number. Don’t reuse a password from anywhere else, and never share it.</p>` : ''}
         ${signup && liveOpts.length > 1 ? html`<label for="e-class" class="mt-4">Class</label><select id="e-class">${raw(liveOpts.map((o) => `<option value="${o.value}">${esc(o.label)}</option>`).join(''))}</select>` : ''}
         <p class="auth__err" id="e-err" role="alert" hidden></p>
         <button class="btn btn--block mt-4" type="submit" id="e-go">${signup ? 'Create my account' : 'Sign in'}</button>
@@ -162,6 +163,13 @@ async function emailSignin(route) {
       const f = el.querySelector('#em'), err = el.querySelector('#e-err'), go = el.querySelector('#e-go');
       el.querySelector('#quote').addEventListener('click', () => { q = randomQuote(q); const t = el.querySelector('#quote-text'); t.style.opacity = 0; setTimeout(() => { t.textContent = q; t.style.opacity = 1; }, 150); });
       el.querySelector('#peek').addEventListener('click', () => { const p = el.querySelector('#e-pass'); p.type = p.type === 'password' ? 'text' : 'password'; });
+      el.querySelector('#peek2')?.addEventListener('click', () => { const p = el.querySelector('#e-pass2'); p.type = p.type === 'password' ? 'text' : 'password'; });
+      // nickname: check availability as soon as they leave the box
+      const nickEl = el.querySelector('#e-nick');
+      nickEl?.addEventListener('blur', async () => {
+        const v = nickEl.value.trim(); if (!NICK_RE.test(v)) return;
+        try { const ok = await nicknameFree(v); nickEl.setCustomValidity(ok ? '' : 'taken'); nickEl.style.borderColor = ok ? 'var(--success)' : 'var(--danger)'; if (!ok) fail('That nickname is taken. Try another.'); else err.hidden = true; } catch { /* offline: checked again on submit */ }
+      });
       const fail = (m) => { err.textContent = m; err.hidden = false; haptic('medium'); };
       const done = (title, text) => { el.querySelector('#d-title').textContent = title; el.querySelector('#d-text').textContent = text; f.hidden = true; el.querySelector('#e-done').hidden = false; };
       const busy = (on, label) => { go.disabled = on; go.textContent = on ? 'Please wait…' : label; };
@@ -171,6 +179,10 @@ async function emailSignin(route) {
         const email = el.querySelector('#e-mail').value.trim().toLowerCase(), pass = el.querySelector('#e-pass').value;
         if (!EMAIL_RE.test(email)) return fail('Enter a valid email address.');
         if (pass.length < 8) return fail(signup ? 'Password: at least 8 characters.' : 'Enter your password (at least 8 characters).');
+        if (signup) {
+          if (!/[A-Za-z]/.test(pass) || !/\d/.test(pass)) return fail('Password: use letters and at least one number.');
+          if (pass !== el.querySelector('#e-pass2').value) return fail('The two passwords don’t match. Type them again.');
+        }
         busy(true, label);
         try {
           if (signup) {
@@ -191,7 +203,13 @@ async function emailSignin(route) {
           }
         } catch (ex) {
           const m = ex?.message || '';
-          fail(/invalid login/i.test(m) ? 'Email or password is wrong.' : /already registered/i.test(m) ? 'That email already has an account. Sign in instead.' : /not confirmed/i.test(m) ? 'Confirm your email first (check your inbox), then sign in.' : errText(ex));
+          fail(/invalid login/i.test(m) ? 'Email or password is wrong.'
+            : /already registered|already exists/i.test(m) ? 'That email already has an account. Sign in instead (or use Forgot password).'
+            : /not confirmed/i.test(m) ? 'Confirm your email first (check your inbox), then sign in.'
+            : /rate limit|too many/i.test(m) ? 'Too many tries. Wait a few minutes and try again.'
+            : /weak|password should/i.test(m) ? 'That password is too easy. Use at least 8 characters with letters and a number.'
+            : /signups? not allowed|disabled/i.test(m) ? 'New accounts are closed right now. Ask the admin.'
+            : errText(ex));
         } finally { busy(false, label); }
       });
       el.querySelector('#e-forgot')?.addEventListener('click', async () => {
@@ -239,6 +257,8 @@ export async function reset() {
 /** Db mode: signed in, but the admin has not approved the nickname yet (or paused it). */
 export async function awaiting(route) {
   const p = route?.profile || {};
+  const { maskedEmail } = await import('../auth.js');
+  const email = await maskedEmail().catch(() => '');
   const paused = p.status === 'suspended';
   const msg = `Hi! Please approve my ng access.\nNickname: ${p.nickname || '(see email)'}`;
   return {
@@ -247,7 +267,7 @@ export async function awaiting(route) {
       <div class="card auth__card center">
         <div class="auth__wait">${raw(icon('clock'))}</div>
         <h1 class="t-title2">${paused ? 'Account paused' : 'Access awaited'}</h1>
-        <p class="t-2 t-subhead mt-2">${paused ? `${p.nickname} is paused. Ask the admin to restore it.` : `You are signed in as <strong>${esc(p.nickname || 'a new member')}</strong>. The admin approves every member by hand — send them a note and come back after.`}</p>
+        <p class="t-2 t-subhead mt-2">${paused ? `${p.nickname} is paused. Ask the admin to restore it.` : `You are signed in as <strong>${esc(p.nickname || 'a new member')}</strong>${email ? ` (${esc(email)})` : ''}. The admin approves every member by hand — send them a note and come back after.`}</p>
         <a class="btn btn--block mt-6 btn--wa" href="https://wa.me/?text=${encodeURIComponent(msg)}" target="_blank" rel="noopener">${raw(icon('message'))} Send on WhatsApp</a>
         <button class="btn btn--secondary btn--block mt-2" type="button" id="aw-check">${raw(icon('check'))} I’ve been approved — check again</button>
         <div class="auth__foot"><button class="btn btn--ghost btn--sm" type="button" id="aw-out">Sign out</button></div>

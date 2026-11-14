@@ -152,4 +152,11 @@ export async function nicknameFree(nick) {
   if (error) throw error;
   return !!data;
 }
+/** Masked sign-in email of the current member, e.g. n•••@gmail.com (shown only to the member themselves). */
+export async function maskedEmail() {
+  const c = await db(); if (!c) return '';
+  const { data } = await c.auth.getSession(); const e = data.session?.user?.email || '';
+  const [u, d] = e.split('@'); return u && d ? `${u[0]}•••@${d}` : '';
+}
+export async function signOutEverywhere() { try { const c = await db(); await c?.auth.signOut({ scope: 'global' }); } catch { /* ignore */ } store.set('session', undefined); window.dispatchEvent(new Event('ng:auth')); }
 export async function dbSignOut() { try { const c = await db(); await c?.auth.signOut(); } catch { /* ignore */ } store.set('session', undefined); }
