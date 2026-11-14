@@ -1,69 +1,105 @@
-# Ch 7 · Alcohols, Phenols and Ethers — must-have notes
+# Ch 7 · Alcohols, Phenols and Ethers — must know
 
 ## Most-repeated board questions
 
-Stars are estimates, not exact counts: ★★★ asked in most years · ★★ often · ★ sometimes. `SQP 26–27` marks a question type in the official 2026–27 sample paper. Marks in square brackets.
+Stars are estimates, not exact counts: ★★★ asked in most years · ★★ often · ★ sometimes. Marks in square brackets.
 
-Type tags: `Df` define / state · `R` give reason · `Eq` equation / named reaction · `Mc` mechanism · `Cv` conversion · `Ds` distinguish · `Id` identify A, B, C · `Ord` arrange in order · `Nm` IUPAC name · `Cmp` compare · `MCQ` 1-mark / A–R · `Case` case-based
-
-1. ★★★ `Eq` Kolbe's reaction, Reimer–Tiemann reaction, Williamson synthesis, acid-catalysed hydration. [1–2]
-2. ★★★ `R` `Ord` Phenol is more acidic than ethanol; effect of –NO$_2$/–CH$_3$; arrange phenol, nitrophenols, cresols, ethanol. [2–3]
-3. ★★★ `Mc` Mechanism: acid dehydration of ethanol to ethene, hydration of ethene, or ethanol → ethoxyethane. [3]
-4. ★★ `Ds` Distinguish phenol/ethanol, 1$^\circ$/2$^\circ$/3$^\circ$ alcohols (Lucas), methanol/ethanol (iodoform). [1–2]
-5. ★★ `Eq` `R` Products of HI with anisole or tert-butyl methyl ether, with reasons. [2]
-6. ★★ `Id` Products: phenol + bromine water vs Br$_2$/CS$_2$; dil. vs conc. HNO$_3$; Cu at 573 K; PCC; Zn dust. [1–2]
-7. ★★ `R` b.p. of alcohols vs ethers/alkanes; o-nitrophenol steam-volatile. [1–2]
-8. ★★ `Cv` Propene → propan-1-ol/propan-2-ol; phenol → aspirin; cumene → phenol; benzene → phenol. [2–3]
-9. ★ `R` Right choice of reactants for Williamson synthesis of tert-butyl methyl ether. [2]
-10. ★ `Nm` IUPAC names of alcohols, phenols, ethers. [1]
-11. ★ `Df` Denatured alcohol; methanol poisoning; fermentation enzymes. [1]
-12. ★ `R` Alcohols are weaker acids than water. [1]
+1. ★★★ Kolbe's reaction, Reimer–Tiemann reaction, Williamson synthesis, acid-catalysed hydration. [1–2]
+2. ★★★ Phenol is more acidic than ethanol; effect of –NO$_2$/–CH$_3$; arrange phenol, nitrophenols, cresols, ethanol. [2–3]
+3. ★★★ Mechanism: acid dehydration of ethanol to ethene, hydration of ethene, or ethanol → ethoxyethane. [3]
+4. ★★ Distinguish phenol/ethanol, 1$^\circ$/2$^\circ$/3$^\circ$ alcohols (Lucas), methanol/ethanol (iodoform). [1–2]
+5. ★★ Products of HI with anisole or tert-butyl methyl ether, with reasons. [2]
+6. ★★ Products: phenol + bromine water vs Br$_2$/CS$_2$; dil. vs conc. HNO$_3$; Cu at 573 K; PCC; Zn dust. [1–2]
 
 ## Must-know lines and definitions
 
-- Phenol is acidic because phenoxide ion is **resonance-stabilised** (charge delocalised over the ring); the O–H is attached to sp$^2$ C.
-- Electron-withdrawing groups (–NO$_2$) at o/p increase acidity of phenol; electron-releasing groups (–CH$_3$) decrease it.
-- **Lucas test**: tertiary alcohols give turbidity immediately; primary alcohols give none at room temperature.
-- **Williamson synthesis**: alkyl halide + sodium alkoxide → ether (S$_\text{N}$2); best with primary alkyl halides.
-- **Denatured alcohol**: commercial ethanol made unfit to drink by adding CuSO$_4$ and pyridine.
-- Ethanol by fermentation: invertase (sucrose → glucose + fructose), zymase (glucose → ethanol + CO$_2$), anaerobic.
+- **Why phenol is acidic:** phenoxide ion is resonance-stabilised; its charge is delocalised over the ring.
+- **Why alcohols are weaker acids than water:** alkyl groups release electrons and destabilise the alkoxide ion.
+- **Effect of $\ce{-NO2}$ on phenol:** increases acidity, most at ortho and para.
+- **Effect of $\ce{-CH3}$ on phenol:** decreases acidity (electron-releasing).
+- **Why alcohols boil higher than ethers:** intermolecular hydrogen bonding through O–H.
+- **Lucas reagent:** concentrated HCl with anhydrous $\ce{ZnCl2}$.
+- **Lucas test result:** 3° turbidity at once, 2° in about five minutes, 1° none at room temperature.
+- **Williamson synthesis:** alkyl halide + sodium alkoxide gives an ether by S$_\text{N}$2.
+- **Halide for Williamson synthesis:** must be primary; a tertiary halide gives an alkene.
+- **Esterification:** alcohol + carboxylic acid, with concentrated $\ce{H2SO4}$, gives ester + water (reversible).
+- **Denatured alcohol:** ethanol made unfit to drink by adding $\ce{CuSO4}$ and pyridine.
+- **Enzymes in fermentation:** invertase (sucrose to glucose + fructose), zymase (glucose to ethanol + $\ce{CO2}$).
+- **Why o-nitrophenol is steam-volatile:** intramolecular hydrogen bonding; the para isomer bonds between molecules.
+- **PCC (pyridinium chlorochromate):** oxidises a primary alcohol to the aldehyde and stops there.
 
 ## Key formulas
 
-### Key reactions
+:::formula Hydration of propene, two ways
+$\ce{CH3CH=CH2 ->[H2O/H+] CH3CH(OH)CH3}$ (Markovnikov)<br>
+$\ce{CH3CH=CH2 ->[B2H6][H2O2/OH-] CH3CH2CH2OH}$ (hydroboration–oxidation, anti-Markovnikov)
+:::
 
-:::formula
-Propene $\xrightarrow{\text{H}_2\text{O}/\text{H}^+}$ propan-2-ol;   propene $\xrightarrow{\text{B}_2\text{H}_6;\ \text{H}_2\text{O}_2/\text{OH}^-}$ propan-1-ol<br>
-Cumene $\xrightarrow{\text{O}_2}$ cumene hydroperoxide $\xrightarrow{\text{H}^+/\text{H}_2\text{O}}$ phenol + acetone<br>
-Phenoxide $\xrightarrow{\text{CO}_2,\ 400\text{ K},\ 4\text{--}7\text{ atm};\ \text{H}^+}$ salicylic acid · phenol $\xrightarrow{\text{CHCl}_3/\text{aq. NaOH};\ \text{H}^+}$ salicylaldehyde<br>
-Phenol + Br$_2$(aq) → 2,4,6-tribromophenol (white ppt) · dil. HNO$_3$ → o- + p-nitrophenol<br>
-$\ce{C6H5OCH3 + HI -> C6H5OH + CH3I}$   $\ce{(CH3)3C-O-CH3 + HI -> (CH3)3C-I + CH3OH}$
+:::formula Cumene process for phenol
+Cumene $\xrightarrow{\ce{O2}}$ cumene hydroperoxide $\xrightarrow{\ce{H+}/\ce{H2O}}$ phenol + acetone<br>
+Industrial method; acetone is the valuable by-product.
+:::
+
+:::formula Kolbe's reaction
+Sodium phenoxide $\xrightarrow{\ce{CO2},\ 400\text{ K},\ 4\text{–}7\text{ atm}}\ \xrightarrow{\ce{H+}}$ 2-hydroxybenzoic acid (salicylic acid)<br>
+Slip: writing the aldehyde. Kolbe gives the *acid*.
+:::
+
+:::formula Reimer–Tiemann reaction
+Phenol $\xrightarrow{\ce{CHCl3}/\text{aq. NaOH},\ 340\text{ K}}\ \xrightarrow{\ce{H+}}$ 2-hydroxybenzaldehyde (salicylaldehyde)<br>
+Puts –CHO at the ortho position.
+:::
+
+:::formula Bromination of phenol
+Phenol + $\ce{Br2}$(aq) → 2,4,6-tribromophenol (white precipitate)<br>
+In $\ce{CS2}$ at low temperature: o- and p-bromophenol only.
+:::
+
+:::formula Nitration of phenol
+Dilute $\ce{HNO3}$ → o- and p-nitrophenol (separated by steam distillation)<br>
+Concentrated $\ce{HNO3}$ → 2,4,6-trinitrophenol (picric acid).
+:::
+
+:::formula Dehydration of ethanol: temperature decides
+$\ce{C2H5OH ->[conc. H2SO4][443 K] CH2=CH2 + H2O}$<br>
+$\ce{2C2H5OH ->[conc. H2SO4][413 K] C2H5-O-C2H5 + H2O}$
+:::
+
+:::formula Williamson synthesis
+$\ce{R-X + R{'}-ONa -> R-O-R{'} + NaX}$<br>
+S$_\text{N}$2: R–X primary. Slip: a tertiary halide gives the alkene instead.
+:::
+
+:::formula Cleavage of ethers by HI
+$\ce{C6H5OCH3 + HI -> C6H5OH + CH3I}$<br>
+$\ce{(CH3)3C-O-CH3 + HI -> (CH3)3C-I + CH3OH}$<br>
+Anisole always gives phenol; a tertiary group takes the iodide (S$_\text{N}$1).
 :::
 
 ## Answer skeletons
 
 Step marks in square brackets are the usual CBSE split (estimates).
 
-:::skeleton Mc · Acid dehydration of ethanol (3 marks)
+:::skeleton Acid dehydration of ethanol (3 marks)
 **Step 1** (fast): $\ce{CH3CH2OH + H+ -> CH3CH2OH2+}$ (protonated alcohol) [1]<br>
 **Step 2** (slow, rate-determining): $\ce{CH3CH2OH2+ -> CH3CH2+ + H2O}$ (carbocation) [1]<br>
 **Step 3**: $\ce{CH3CH2+ -> CH2=CH2 + H+}$ (loss of β-H) [1]<br>
 Conditions: conc. H$_2$SO$_4$, 443 K.
 :::
 
-:::skeleton Mc · Ethanol → ethoxyethane (3 marks)
+:::skeleton Ethanol → ethoxyethane (3 marks)
 Protonation of ethanol → second ethanol molecule attacks the protonated alcohol (S$_\text{N}$2), water leaves → protonated ether → loses H$^+$. Conditions: conc. H$_2$SO$_4$, 413 K, excess alcohol.
 :::
 
-:::skeleton R · Acidity comparison (2 marks)
+:::skeleton Acidity comparison (2 marks)
 State order (p-nitrophenol $>$ phenol $>$ p-cresol $>$ ethanol) → phenoxide resonance-stabilised; –NO$_2$ ($-R$, $-I$) further delocalises the charge; –CH$_3$ (+I) intensifies it; ethoxide has no resonance and +I of ethyl destabilises it.
 :::
 
-:::skeleton Ds · Distinguishing test (2 marks)
+:::skeleton Distinguishing test (2 marks)
 *Phenol vs ethanol*: add neutral FeCl$_3$ — phenol gives violet colour; ethanol gives none. *Or* iodoform test — ethanol gives yellow ppt of CHI$_3$; phenol does not.
 :::
 
-:::skeleton R · Williamson choice (2 marks)
+:::skeleton Williamson choice (2 marks)
 For tert-butyl methyl ether use $\ce{(CH3)3C-ONa + CH3Br}$ (1$^\circ$ halide, S$_\text{N}$2). $\ce{(CH3)3C-Br + CH3ONa}$ gives 2-methylpropene: strong base causes elimination at the 3$^\circ$ halide.
 :::
 
@@ -82,23 +118,44 @@ For tert-butyl methyl ether use $\ce{(CH3)3C-ONa + CH3Br}$ (1$^\circ$ halide, S$
 
 ## Quick 1-mark facts (MCQ, A–R)
 
-- Acidity: picric acid (pK$_a$ 0.5) $>$ p-nitrophenol (7.1) $>$ o-nitrophenol (7.2) $>$ m-nitrophenol (8.3) $>$ phenol (10.0) $>$ cresols $>$ ethanol (15.9).
-- Dehydration ease 3$^\circ$ $>$ 2$^\circ$ $>$ 1$^\circ$ (carbocation stability). Lucas reactivity same order.
-- Cu, 573 K: 1$^\circ$ → aldehyde; 2$^\circ$ → ketone; 3$^\circ$ → alkene.
-- Cumene process by-product: acetone. Aspirin = acetylsalicylic acid (salicylic acid + acetic anhydride).
-- Phenol + Zn dust → benzene; phenol + chromic acid → benzoquinone.
-- Methanol: CO + 2H$_2$, ZnO–Cr$_2$O$_3$; causes blindness. Denaturing agents: CuSO$_4$, pyridine.
-- C–O–H in methanol 108.9$^\circ$; C–O–C in methoxymethane 111.7$^\circ$.
-
-## Case-based angles
-
-- pK$_a$ table of phenols → explain order, predict an unlisted compound.
-- Industrial ethanol/methanol (fermentation, hooch tragedies) → enzymes, denaturing, toxicity.
-- Synthesis of aspirin / salicylic acid → Kolbe's reaction, acetylation.
-- Reaction scheme with HI, Lucas reagent, Cu/573 K → identify products.
+- Acidity order: picric acid > p-nitrophenol > o-nitrophenol > m-nitrophenol > phenol > cresols > ethanol.
+- p$K_a$ values to remember: phenol 10.0, ethanol 15.9.
+- Ease of dehydration of alcohols: 3° > 2° > 1° (carbocation stability).
+- Acidity of alcohols: 1° > 2° > 3°.
+- Alcohol vapour over Cu at 573 K: 1° gives aldehyde, 2° gives ketone, 3° gives alkene.
+- Phenol does not react with: $\ce{NaHCO3}$ (it does dissolve in NaOH).
+- By-product of the cumene process: acetone.
+- Aspirin: acetylsalicylic acid, from salicylic acid and acetic anhydride.
+- Phenol heated with zinc dust gives: benzene.
+- Phenol oxidised with chromic acid gives: benzoquinone.
+- Methanol is manufactured from: CO and $\ce{H2}$ over $\ce{ZnO-Cr2O3}$.
+- Effect of drinking methanol: blindness, and death in larger amounts.
+- C–O–H angle in methanol: 108.9°; C–O–C angle in methoxymethane: 111.7°.
+- Reactivity of hydrogen halides towards ethers: HI > HBr > HCl.
+- The alkoxy group on a benzene ring is: activating, ortho- and para-directing.
 
 ## Mark-losing traps
 
-:::tip
-(1) Saying ``phenol reacts with NaHCO$_3$'' — it does not. (2) Kolbe's reaction product is salicylic acid, Reimer–Tiemann gives salicylaldehyde — do not swap. (3) Using a 3$^\circ$ halide in Williamson synthesis. (4) Hydroboration gives anti-Markovnikov alcohol; acid hydration gives Markovnikov. (5) In mechanisms, missing the rate-determining step or the carbocation. (6) Writing the bromine-water product of phenol as monobromo.
+:::tip Phenol and sodium hydrogencarbonate
+Saying “phenol reacts with NaHCO$_3$” — it does not.
+:::
+
+:::tip Kolbe or Reimer–Tiemann
+Kolbe's reaction product is salicylic acid, Reimer–Tiemann gives salicylaldehyde — do not swap.
+:::
+
+:::tip Halide in Williamson synthesis
+Using a 3$^\circ$ halide in Williamson synthesis.
+:::
+
+:::tip Markovnikov or anti-Markovnikov alcohol
+Hydroboration gives anti-Markovnikov alcohol; acid hydration gives Markovnikov.
+:::
+
+:::tip Mechanism steps
+In mechanisms, missing the rate-determining step or the carbocation.
+:::
+
+:::tip Phenol with bromine water
+Writing the bromine-water product of phenol as monobromo.
 :::
