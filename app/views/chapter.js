@@ -18,6 +18,7 @@ export async function chapter(route) {
   if (!ch) return { title: 'Not found', tab: 'subjects', back: routeFor(cls.id, stream.id, sub.id), html: emptyState({ icon: 'alert', title: 'No such chapter', action: `<a class="btn btn--secondary" href="${routeFor(cls.id, stream.id, sub.id)}">Back to ${esc(sub.name)}</a>` }) };
   if (route.tab === 'read') { const { reader } = await import('./reader.js'); return reader({ cls, stream, sub, unit, ch }); }
   if (route.tab === 'recall') { const { recallChapter } = await import('./recall.js'); return recallChapter({ cls, stream, sub, unit, ch }); }
+  if (route.tab === 'quiz') { const { quizChapter } = await import('./quiz.js'); return quizChapter({ cls, stream, sub, unit, ch, type: route.extra || 'all' }); }
   if (route.tab === 'formulas') route = { ...route, tab: 'mustknow' }; // old links
   if (route.tab === 'mynotes') route = { ...route, tab: null, openHighlights: true }; // old links: the sheet now
   const defaultTab = ch.items?.notes ? 'notes' : ch.items?.mustknow ? 'mustknow' : 'notes';
@@ -105,8 +106,19 @@ async function renderTab(tab, ctx) {
   if (tab === 'practice') {
     const q = ch.items?.questions ? await data.questions(sub, ch.id).catch(() => null) : null;
     if (!q?.length) { panel.innerHTML = String(emptyState({ icon: 'practice', title: 'No practice questions yet', text: 'Each question comes with a hint, a model answer and a step-mark scheme so you can mark yourself.', action: requestLink })); return; }
-    const byType = Object.entries(ch.question_types || {});
-    panel.innerHTML = `<div class="card"><div class="t-headline">${q.length} questions ready</div><p class="t-2 t-footnote mt-2">${byType.map(([t, n]) => `${n} ${t.toUpperCase()}`).join(' · ')}</p><p class="t-2 t-subhead mt-2">Practice mode (one question at a time, hints, self-marking) is the next thing being built. Until then, use the chapter notes and formula sheet.</p></div>`;
+    const { TYPE_LABEL } = await import('./quiz.js');
+    const counts = {}; for (const x of q) counts[x.type] = (counts[x.type] || 0) + 1;
+    const order = ['mcq', 'ar', 'case', 'vsa2', 'sa3', 'la5'].filter((t) => counts[t]);
+    const attempts = store.progress().attempts || [];
+    const done = new Set(attempts.filter((a) => a.key === key).map((a) => a.id)).size;
+    const wrong = store.mistakes().filter((m) => m.key === key).length;
+    const quiz = (t) => routeFor(ctx.cls.id, ctx.stream.id, sub.id, ch.id, 'quiz') + '/' + t;
+    panel.innerHTML = `<div class="card card--tint mb-4" style="--unit:#${unit.colour}">
+        <div class="row"><span class="list__leading">${icon('practice')}</span><div class="grow"><div class="t-headline">${q.length} questions</div><div class="t-2 t-footnote">${done ? `${done} attempted` : 'One at a time, hint first, mark yourself'}${wrong ? ` · <strong>${wrong} in Mistakes</strong>` : ''}</div></div><a class="btn btn--unit btn--sm" href="${quiz('all')}">Start</a></div>
+      </div>
+      <div class="list__header" style="padding-left:0">By type</div>
+      <div class="list">${order.map((t) => `<a class="list__item has-leading pressable" href="${quiz(t)}" style="--unit:#${unit.colour}"><span class="list__leading">${counts[t]}</span><span class="list__body"><span class="list__title">${TYPE_LABEL[t]}</span><span class="list__sub">${{ mcq: '1 mark · marked for you', ar: 'Assertion–Reason · 1 mark · marked for you', case: 'Case / source-based · 4 marks · mark yourself', vsa2: 'Very short answer · mark yourself', sa3: 'Short answer · step marks', la5: 'Long answer · step marks' }[t]}</span></span><span class="list__trailing">${icon('chevronRight', { class: 'chev' })}</span></a>`).join('')}</div>
+      ${wrong ? `<div class="list mt-4"><a class="list__item has-leading pressable" href="#/practice/retry" style="--unit:var(--danger)"><span class="list__leading">${icon('flag')}</span><span class="list__body"><span class="list__title">Retry mistakes</span><span class="list__sub">All chapters in your Mistakes list</span></span><span class="list__trailing">${icon('chevronRight', { class: 'chev' })}</span></a></div>` : ''}`;
   }
 }
 

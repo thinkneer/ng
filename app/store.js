@@ -57,6 +57,21 @@ export const store = {
     this.saveProgress((p) => { p.tracker = { ...(p.tracker || {}) }; p.tracker[chapterKey] = { ...(p.tracker[chapterKey] || {}), ...patch, updated: new Date().toISOString() }; return p; });
   },
 
+  // ---- practice: attempts and the mistakes list ----
+  /** Record one attempt. Wrong, or self-marked under half, goes to Mistakes; a good retry clears it. */
+  recordAttempt({ id, key, type, marks, got }) {
+    const low = got < marks / 2;
+    this.saveProgress((p) => {
+      p.attempts = [...(p.attempts || []), { id, key, type, marks, got, at: new Date().toISOString() }].slice(-500);
+      const rest = (p.mistakes || []).filter((m) => (m.id || m) !== id);
+      p.mistakes = low ? [...rest, { id, key, type, marks, got, at: new Date().toISOString() }] : rest;
+      return p;
+    });
+    return low;
+  },
+  mistakes() { return (this.progress().mistakes || []).filter((m) => m && m.id); },
+  clearMistake(id) { this.saveProgress((p) => { p.mistakes = (p.mistakes || []).filter((m) => (m.id || m) !== id); return p; }); },
+
   // ---- misc flags ----
   flag(name) { return read(`flag.${name}`, false); },
   setFlag(name, v = true) { write(`flag.${name}`, v); },

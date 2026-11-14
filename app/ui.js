@@ -18,7 +18,7 @@ export function html(strings, ...vals) {
   });
   return { __raw: out, toString() { return out; } };
 }
-export const raw = (s) => ({ __raw: String(s) });
+export const raw = (s) => ({ __raw: String(s), toString() { return this.__raw; } });
 export { icon };
 
 export const $ = (sel, root = document) => root.querySelector(sel);

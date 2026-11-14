@@ -3,7 +3,7 @@
 //   #/<class>                        class 9–10 → subject list; 11–12 → stream picker
 //   #/<class>/<stream>               subject list (11–12)
 //   #/<class>[/<stream>]/<subject>   chapter list
-//   #/<class>[/<stream>]/<subject>/<chapter>[/<tab>]
+//   #/<class>[/<stream>]/<subject>/<chapter>[/<tab>[/<extra>]]   (quiz/<type>)
 import { streamless } from './data.js';
 
 export function parseHash(hash = location.hash) {
@@ -19,10 +19,11 @@ export function parseHash(hash = location.hash) {
     const subjectId = seg[i] || null;
     const chapterId = seg[i + 1] || null;
     const tab = seg[i + 2] || null;
+    const extra = seg[i + 3] || null; // e.g. …/<chapter>/quiz/<type>
     if (!streamId) return { name: 'streams', classId, seg };
     if (!subjectId) return { name: 'subjects-of', classId, streamId, seg };
     if (!chapterId) return { name: 'subject', classId, streamId, subjectId, seg };
-    return { name: 'chapter', classId, streamId, subjectId, chapterId, tab: tab || null, seg };
+    return { name: 'chapter', classId, streamId, subjectId, chapterId, tab: tab || null, extra, seg };
   }
   if (top === 'more') return { name: 'more', sub: seg[1] || null, seg };
   if (['subjects', 'classes', 'plan', 'practice', 'progress', 'about', 'request', 'access', 'login', 'admin', 'search', 'recall', 'signin'].includes(top)) return { name: top, sub: seg[1] || null, seg };
