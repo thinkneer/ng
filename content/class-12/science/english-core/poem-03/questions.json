@@ -1,0 +1,151 @@
+[
+  {
+    "id": "eng-poem-03-q01",
+    "chapter": "poem-03",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 2,
+    "label": "SQP-style",
+    "topic": "metaphor",
+    "stem": "In the poem, the 'pall' that beauty moves away stands for",
+    "options": ["a garden shelter", "the gloom and despair that darken our spirits", "the heat of summer", "the shade of trees"],
+    "answer": "B",
+    "model_answer": "**(b)** A pall is the cloth over a coffin; here it is the death-like gloom over our spirits."
+  },
+  {
+    "id": "eng-poem-03-q02",
+    "chapter": "poem-03",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 2,
+    "label": "SQP-style",
+    "topic": "form",
+    "stem": "The poem is written in",
+    "options": ["free verse", "rhymed couplets", "a sonnet form", "blank verse"],
+    "answer": "B",
+    "model_answer": "**(b)** Keats uses rhymed (heroic) couplets in iambic pentameter with run-on lines."
+  },
+  {
+    "id": "eng-poem-03-q03",
+    "chapter": "poem-03",
+    "type": "case",
+    "marks": 6,
+    "stars": 3,
+    "label": "SQP-style",
+    "topic": "extract-based",
+    "stem": "Read the lines in which Keats says that every morning we weave a flowery band to bind us to the earth, in spite of despondence, the dearth of noble natures, gloomy days and the unhealthy, over-darkened ways we follow — and that some shape of beauty moves away the pall from our dark spirits. Answer the questions that follow.",
+    "hint": "Flowery band = beauty tying us to life; list of sufferings; pall = gloom; 'some shape of beauty' = any beautiful thing.",
+    "parts": [
+      {
+        "id": "a",
+        "stem": "What does the 'flowery band' stand for?",
+        "marks": 1,
+        "model_answer": "The beautiful things we gather daily that keep us attached to life on earth.",
+        "scheme": [{ "step": "Beauty that binds us to life / earth", "marks": 1 }]
+      },
+      {
+        "id": "b",
+        "stem": "'Dearth of noble natures' means (A) death of nobles (B) shortage of good, noble people (C) an abundance of heroes (D) poverty of the rich",
+        "marks": 1,
+        "options": ["death of nobles", "shortage of good, noble people", "an abundance of heroes", "poverty of the rich"],
+        "answer": "B",
+        "model_answer": "(B) Dearth = scarcity; there are too few noble people.",
+        "scheme": [{ "step": "Option B", "marks": 1 }]
+      },
+      {
+        "id": "c",
+        "stem": "Name two other causes of human suffering listed in these lines.",
+        "marks": 1,
+        "model_answer": "Despondence (hopelessness) and gloomy days / the unhealthy, over-darkened ways of our search for happiness.",
+        "scheme": [{ "step": "Any two: despondence, gloomy days, over-darkened ways", "marks": 1 }]
+      },
+      {
+        "id": "d",
+        "stem": "What figure of speech is the 'pall'?",
+        "marks": 1,
+        "model_answer": "Metaphor — gloom compared to a funeral cloth over the spirit.",
+        "scheme": [{ "step": "Metaphor", "marks": 1 }]
+      },
+      {
+        "id": "e",
+        "stem": "What does 'some shape of beauty' suggest?",
+        "marks": 1,
+        "model_answer": "That beauty in any form — a flower, a stream, a tale — is enough to lift the gloom.",
+        "scheme": [{ "step": "Any form of beauty suffices", "marks": 1 }]
+      },
+      {
+        "id": "f",
+        "stem": "What is the tone of these lines?",
+        "marks": 1,
+        "model_answer": "Honest about suffering yet consoling and hopeful.",
+        "scheme": [{ "step": "Consoling / hopeful despite acknowledging gloom", "marks": 1 }]
+      }
+    ]
+  },
+  {
+    "id": "eng-poem-03-q04",
+    "chapter": "poem-03",
+    "type": "vsa2",
+    "marks": 2,
+    "stars": 3,
+    "label": "PYQ-style",
+    "topic": "joy for ever",
+    "stem": "How does Keats justify his claim that a thing of beauty is a joy for ever? (40–50 words)",
+    "hint": "Loveliness increases; never passes into nothingness; bower, sleep, health; endless fountain.",
+    "model_answer": "Keats argues that the loveliness of a beautiful thing increases each time we return to it, and that it never passes into nothingness, because the joy it gives stays and grows in the mind. Beauty gives us a quiet shelter, sweet sleep, health and calm breathing, and it flows from an endless, heavenly fountain.",
+    "scheme": [
+      { "step": "Loveliness increases; never passes into nothingness", "marks": 1 },
+      { "step": "Gifts of beauty (bower, sleep, health) / endless fountain", "marks": 1 }
+    ]
+  },
+  {
+    "id": "eng-poem-03-q05",
+    "chapter": "poem-03",
+    "type": "vsa2",
+    "marks": 2,
+    "stars": 3,
+    "label": "PYQ-style",
+    "topic": "catalogue",
+    "stem": "What things of beauty does Keats mention, and what do they have in common? (40–50 words)",
+    "hint": "Nature list + mighty dead + tales; common: shelter, refreshment, inspiration.",
+    "model_answer": "Keats names the sun and moon, old and young trees sheltering simple sheep, daffodils in their green world, clear streams making a cool shelter against the heat, and musk-roses in the forest thicket; he adds the noble deaths of the mighty dead and all lovely tales. Each gives shelter, refreshment or inspiration, lifting the gloom of life.",
+    "scheme": [
+      { "step": "At least four natural items plus the mighty dead / tales", "marks": 1 },
+      { "step": "Common quality: shelter, coolness, refreshment, inspiration", "marks": 1 }
+    ]
+  },
+  {
+    "id": "eng-poem-03-q06",
+    "chapter": "poem-03",
+    "type": "vsa2",
+    "marks": 2,
+    "stars": 2,
+    "label": "PYQ-style",
+    "topic": "fountain",
+    "stem": "Explain the image of the 'endless fountain of immortal drink' with which the poem ends. (40–50 words)",
+    "hint": "Beauty = divine nectar; inexhaustible; from heaven; answers 'for ever'.",
+    "model_answer": "Keats sums up all beautiful things as an endless fountain pouring immortal drink from the edge of heaven. Beauty is like divine nectar: it comes from a heavenly source, it never runs dry, and it gives those who drink it a kind of immortality. The image explains why beauty's joy lasts for ever.",
+    "scheme": [
+      { "step": "Beauty as heavenly, inexhaustible nectar", "marks": 1 },
+      { "step": "Gives lasting/immortal joy; links back to the opening claim", "marks": 1 }
+    ]
+  },
+  {
+    "id": "eng-poem-03-q07",
+    "chapter": "poem-03",
+    "type": "la5",
+    "marks": 5,
+    "stars": 2,
+    "label": "PYQ-style",
+    "topic": "concept of beauty",
+    "stem": "What is Keats's concept of beauty as expressed in 'A Thing of Beauty'? How does beauty help humanity? (120–150 words)",
+    "hint": "Permanence → gifts → suffering and the flowery band / pall → catalogue → human beauty → fountain.",
+    "model_answer": "For Keats beauty is not a passing pleasure but a permanent possession. A thing of beauty is a joy for ever: its loveliness increases each time we return to it and it never passes into nothingness. It gives us a quiet bower, sleep full of sweet dreams, health and calm breathing.\n\nBeauty matters because life is dark. Keats lists despondence, the shortage of noble people, gloomy days and the unhealthy, over-darkened ways in which we seek happiness. Against these, we weave each morning a flowery band of beautiful things that binds us to the earth and keeps us wanting to live; some shape of beauty always lifts the pall of gloom from our spirits.\n\nHis examples are mostly from nature — the sun and moon, sheltering trees, daffodils, cool streams, musk-roses — but he adds the noble deaths of the mighty dead and the lovely tales we read. All of them pour down on us like an endless fountain of immortal drink from heaven: beauty is divine, inexhaustible and life-giving.",
+    "scheme": [
+      { "step": "Permanence of beauty and its gifts", "marks": 1 },
+      { "step": "Human suffering; flowery band and pall metaphors explained", "marks": 2 },
+      { "step": "Catalogue of beauty in nature and human life", "marks": 1 },
+      { "step": "Endless fountain and conclusion; expression and length", "marks": 1 }
+    ]
+  }
+]

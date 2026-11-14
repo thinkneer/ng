@@ -1,0 +1,11 @@
+{
+  "$schema": "../../../../../schemas/chapter.schema.json",
+  "id": "poem-04",
+  "number": 18,
+  "title": "A Roadside Stand",
+  "unit": "C2",
+  "marks_hint": "Poetry extract (6) · 2-mark short answer · occasionally 5-mark (Section C, estimates)",
+  "summary": "Robert Frost · farmers' shed by the highway · polished traffic passes · complaints about signs · childish longing for city money · greedy good-doers, beneficent beasts of prey · poet's pity and ironic ending · rural–urban divide",
+  "status": { "notes": "ready", "mustknow": "ready", "formulas": "ready", "questions": "ready" },
+  "updated": "2026-11-14"
+}

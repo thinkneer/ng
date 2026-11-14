@@ -1,0 +1,11 @@
+{
+  "$schema": "../../../../../schemas/chapter.schema.json",
+  "id": "poem-02",
+  "number": 16,
+  "title": "Keeping Quiet",
+  "unit": "C2",
+  "marks_hint": "Poetry extract (6) · 2-mark short answer · occasionally 5-mark (Section C, estimates)",
+  "summary": "Pablo Neruda · count to twelve and keep still · an exotic moment without rush or engines · fishermen, salt-gatherer · wars with no survivors · stillness is not death · the Earth's lesson · introspection, peace, brotherhood",
+  "status": { "notes": "ready", "mustknow": "ready", "formulas": "ready", "questions": "ready" },
+  "updated": "2026-11-14"
+}

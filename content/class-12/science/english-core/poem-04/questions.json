@@ -1,0 +1,156 @@
+[
+  {
+    "id": "eng-poem-04-q01",
+    "chapter": "poem-04",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 2,
+    "label": "SQP-style",
+    "topic": "device",
+    "stem": "'Greedy good-doers' is an example of",
+    "options": ["simile", "oxymoron", "personification", "hyperbole"],
+    "answer": "B",
+    "model_answer": "**(b)** Two contradictory ideas — greed and doing good — are joined to expose false philanthropy."
+  },
+  {
+    "id": "eng-poem-04-q02",
+    "chapter": "poem-04",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 2,
+    "label": "SQP-style",
+    "topic": "plot",
+    "stem": "Which of these is NOT a reason the cars stop at the roadside stand?",
+    "options": [
+      "To complain about the badly painted signs",
+      "To ask the way",
+      "To buy a basket of berries",
+      "To ask for a gallon of gas"
+    ],
+    "answer": "C",
+    "model_answer": "**(c)** The cars never stop to buy; they complain, ask directions, turn round or want petrol."
+  },
+  {
+    "id": "eng-poem-04-q03",
+    "chapter": "poem-04",
+    "type": "case",
+    "marks": 6,
+    "stars": 3,
+    "label": "SQP-style",
+    "topic": "extract-based",
+    "stem": "Read the opening lines of the poem, in which a little new shed stands at the edge of the road where the traffic passes, pleading not for bread but for some of the city money that flows through the cities, so that the farmers too might feel a share of the flower of cities; and in which the polished traffic passes with a mind ahead, or stops only to complain about the signs and the view. Answer the questions that follow.",
+    "hint": "Shed = roadside stand; not bread = not charity; city money, flower of cities = urban wealth; polished traffic = rich; mind ahead = personification; signs = N, S wrong.",
+    "parts": [
+      {
+        "id": "a",
+        "stem": "Who built the shed and why?",
+        "marks": 1,
+        "model_answer": "Poor farmers, to sell their produce to passing city traffic and earn a little money.",
+        "scheme": [{ "step": "Farmers; to sell produce / earn city money", "marks": 1 }]
+      },
+      {
+        "id": "b",
+        "stem": "'Not bread' implies that the farmers (A) have plenty of food (B) are not begging for charity but want to trade (C) prefer cakes (D) sell only bread",
+        "marks": 1,
+        "options": ["have plenty of food", "are not begging for charity but want to trade", "prefer cakes", "sell only bread"],
+        "answer": "B",
+        "model_answer": "(B) They ask for fair trade, not alms.",
+        "scheme": [{ "step": "Option B", "marks": 1 }]
+      },
+      {
+        "id": "c",
+        "stem": "What is meant by 'the flower of cities'?",
+        "marks": 1,
+        "model_answer": "The prosperity and good life of the cities that the poor want a share of.",
+        "scheme": [{ "step": "Urban prosperity / good life", "marks": 1 }]
+      },
+      {
+        "id": "d",
+        "stem": "Which device is used when the traffic is said to pass 'with a mind ahead'?",
+        "marks": 1,
+        "model_answer": "Personification (the traffic is given a mind, intent on its destination).",
+        "scheme": [{ "step": "Personification", "marks": 1 }]
+      },
+      {
+        "id": "e",
+        "stem": "What do the drivers complain about when they stop?",
+        "marks": 1,
+        "model_answer": "The crude signs with letters painted wrong and the shed spoiling the beauty of the landscape.",
+        "scheme": [{ "step": "Signs / shed spoiling the view", "marks": 1 }]
+      },
+      {
+        "id": "f",
+        "stem": "What does 'polished' suggest about the traffic?",
+        "marks": 1,
+        "model_answer": "Shiny, expensive cars of the well-off — wealth and indifference.",
+        "scheme": [{ "step": "Wealth / sophistication / indifference of the rich", "marks": 1 }]
+      }
+    ]
+  },
+  {
+    "id": "eng-poem-04-q04",
+    "chapter": "poem-04",
+    "type": "vsa2",
+    "marks": 2,
+    "stars": 3,
+    "label": "PYQ-style",
+    "topic": "good-doers",
+    "stem": "Who are the 'greedy good-doers' and 'beneficent beasts of prey'? What do they plan to do? (40–50 words)",
+    "hint": "Oxymorons; false philanthropists; relocation near theatre and store; dependence.",
+    "model_answer": "Frost uses these oxymorons for the powerful people — officials and businessmen — who pretend to help the rural poor but actually exploit them. They plan to buy out the farmers and relocate them in planned villages next to the theatre and the store, where they need not think for themselves, destroying their independence under the name of benefit.",
+    "scheme": [
+      { "step": "False philanthropists; oxymoron explained", "marks": 1 },
+      { "step": "Plan: buy out, relocate near theatre and store, make dependent", "marks": 1 }
+    ]
+  },
+  {
+    "id": "eng-poem-04-q05",
+    "chapter": "poem-04",
+    "type": "vsa2",
+    "marks": 2,
+    "stars": 3,
+    "label": "PYQ-style",
+    "topic": "longing",
+    "stem": "What is the 'childish longing' of the people at the roadside stand, and why is it in vain? (40–50 words)",
+    "hint": "Hope for a car to stop and buy; cars pass or stop for other reasons.",
+    "model_answer": "The farmers wait all day at the open window, hoping to hear a car slow down, brakes squeal and a hand reach out with money for their berries and squash. Frost calls the hope childish because it is innocent and unrealistic: the polished traffic speeds past, and the few cars that stop only complain, ask the way or want petrol.",
+    "scheme": [
+      { "step": "The hope: car stops and buys; waiting at the window", "marks": 1 },
+      { "step": "In vain: traffic passes; stops only for other reasons", "marks": 1 }
+    ]
+  },
+  {
+    "id": "eng-poem-04-q06",
+    "chapter": "poem-04",
+    "type": "vsa2",
+    "marks": 2,
+    "stars": 2,
+    "label": "PYQ-style",
+    "topic": "ending",
+    "stem": "How does the poem end, and what does the ending reveal about the poet? (40–50 words)",
+    "hint": "Thought of ending their pain at one stroke; turns it on himself; irony; honesty.",
+    "model_answer": "Unable to bear the farmers' vain longing, the poet briefly thinks the kindest thing would be to end their pain at one stroke. Then he checks himself, asking how he would feel if someone offered him such mercy for his own pain. The ironic reversal shows his honesty about how easy pity is and how hard real change is.",
+    "scheme": [
+      { "step": "Thought of ending their pain; turning the thought on himself", "marks": 1 },
+      { "step": "Irony / self-reflection; honesty about pity", "marks": 1 }
+    ]
+  },
+  {
+    "id": "eng-poem-04-q07",
+    "chapter": "poem-04",
+    "type": "la5",
+    "marks": 5,
+    "stars": 2,
+    "label": "PYQ-style",
+    "topic": "central idea",
+    "stem": "How does Robert Frost bring out the plight of the rural poor and the indifference of the city in 'A Roadside Stand'? (120–150 words)",
+    "hint": "Stand and goods → what they want → traffic's indifference and complaints → childish longing → good-doers → poet's pain and self-check.",
+    "model_answer": "Frost builds the poem around a small farm stall beside a highway. The family that runs it does not beg; it offers wild berries and golden squash and asks only for a little of the city money that flows past, a share of the prosperity the cities enjoy.\n\nThe city answers with indifference. The polished traffic passes with its mind on its destination; the cars that stop do so to complain that the crude signs and the painted shed spoil the view, to ask the way, to turn round, or to demand petrol. Nobody buys. The farmers' hope — Frost calls it a childish longing — waits all day at an open window and dies with every car.\n\nWorse than indifference is false help: greedy good-doers and beneficent beasts of prey plan to relocate the poor near the theatre and store, soothing them out of their wits and robbing them of independence.\n\nFrost can hardly bear their pain, and in the end turns his pity on himself, admitting how easy it is to feel sorry from a passing car.",
+    "scheme": [
+      { "step": "The stand, the goods, what the farmers want", "marks": 1 },
+      { "step": "Indifference of the traffic: reasons for stopping; childish longing", "marks": 2 },
+      { "step": "Greedy good-doers and false help", "marks": 1 },
+      { "step": "Poet's pain and ironic self-reflection; expression and length", "marks": 1 }
+    ]
+  }
+]

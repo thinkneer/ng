@@ -1,0 +1,151 @@
+[
+  {
+    "id": "eng-poem-05-q01",
+    "chapter": "poem-05",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 2,
+    "label": "SQP-style",
+    "topic": "symbol",
+    "stem": "The 'massive weight of Uncle's wedding band' symbolises",
+    "options": ["the aunt's love of jewellery", "the burden of an oppressive marriage", "the uncle's wealth", "the weight of the embroidery frame"],
+    "answer": "B",
+    "model_answer": "**(b)** The ring is light; its weight is the lifetime burden of marriage and male domination."
+  },
+  {
+    "id": "eng-poem-05-q02",
+    "chapter": "poem-05",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 2,
+    "label": "SQP-style",
+    "topic": "device",
+    "stem": "'Terrified hands' is an example of",
+    "options": ["simile", "transferred epithet", "oxymoron", "onomatopoeia"],
+    "answer": "B",
+    "model_answer": "**(b)** The fear belongs to the aunt, but the adjective is transferred to her hands."
+  },
+  {
+    "id": "eng-poem-05-q03",
+    "chapter": "poem-05",
+    "type": "case",
+    "marks": 6,
+    "stars": 3,
+    "label": "SQP-style",
+    "topic": "extract-based",
+    "stem": "Read the first stanza of the poem, in which Aunt Jennifer's tigers prance across a screen like bright topaz inhabitants of a green world, unafraid of the men beneath the tree, pacing in sleek, chivalric certainty. Answer the questions that follow.",
+    "hint": "Screen = embroidery; topaz = golden gem; denizens = inhabitants; men = male power; chivalric = knightly.",
+    "parts": [
+      {
+        "id": "a",
+        "stem": "Where do the tigers 'prance'?",
+        "marks": 1,
+        "model_answer": "Across the screen or panel that Aunt Jennifer is embroidering.",
+        "scheme": [{ "step": "On the embroidered screen/panel", "marks": 1 }]
+      },
+      {
+        "id": "b",
+        "stem": "'Bright topaz' refers to (A) the tigers' eyes (B) the golden-yellow colour of the tigers (C) the aunt's ring (D) the green jungle",
+        "marks": 1,
+        "options": ["the tigers' eyes", "the golden-yellow colour of the tigers", "the aunt's ring", "the green jungle"],
+        "answer": "B",
+        "model_answer": "(B) Topaz is a golden gem — the tigers' brilliant colour and vitality.",
+        "scheme": [{ "step": "Option B", "marks": 1 }]
+      },
+      {
+        "id": "c",
+        "stem": "What does the 'world of green' refer to?",
+        "marks": 1,
+        "model_answer": "The jungle — the tigers' own free, natural world.",
+        "scheme": [{ "step": "The jungle / forest", "marks": 1 }]
+      },
+      {
+        "id": "d",
+        "stem": "What is significant about the tigers not fearing the men beneath the tree?",
+        "marks": 1,
+        "model_answer": "Unlike Aunt Jennifer, who is dominated by her husband, the tigers are fearless of male power.",
+        "scheme": [{ "step": "Contrast with the aunt's fear of men / male domination", "marks": 1 }]
+      },
+      {
+        "id": "e",
+        "stem": "What does 'chivalric certainty' suggest about the tigers?",
+        "marks": 1,
+        "model_answer": "They move with the noble, brave, graceful confidence of knights.",
+        "scheme": [{ "step": "Knightly confidence, nobility, courage", "marks": 1 }]
+      },
+      {
+        "id": "f",
+        "stem": "Name the rhyme scheme of the stanza.",
+        "marks": 1,
+        "model_answer": "aabb — rhyming couplets.",
+        "scheme": [{ "step": "aabb / rhyming couplets", "marks": 1 }]
+      }
+    ]
+  },
+  {
+    "id": "eng-poem-05-q04",
+    "chapter": "poem-05",
+    "type": "vsa2",
+    "marks": 2,
+    "stars": 3,
+    "label": "PYQ-style",
+    "topic": "contrast",
+    "stem": "How do Aunt Jennifer's tigers differ from Aunt Jennifer herself? (40–50 words)",
+    "hint": "Fearless, proud, free vs terrified, weak, mastered; tigers as alter ego.",
+    "model_answer": "The tigers are bright, proud and fearless; they prance freely in their green world and do not fear the men beneath the tree. Aunt Jennifer, their maker, is their opposite: her fingers flutter weakly, she is terrified, crushed by the weight of her husband's wedding band and mastered by the ordeals of her marriage. The tigers are the free self she cannot be.",
+    "scheme": [
+      { "step": "Tigers: fearless, proud, free (with details)", "marks": 1 },
+      { "step": "Aunt: weak, terrified, dominated; tigers as her alter ego", "marks": 1 }
+    ]
+  },
+  {
+    "id": "eng-poem-05-q05",
+    "chapter": "poem-05",
+    "type": "vsa2",
+    "marks": 2,
+    "stars": 3,
+    "label": "PYQ-style",
+    "topic": "wedding band",
+    "stem": "Why does Aunt Jennifer find the ivory needle hard to pull? What does the wedding band stand for? (40–50 words)",
+    "hint": "Fluttering fingers; weight of Uncle's ring; burden of marriage; male domination.",
+    "model_answer": "Her fingers flutter nervously through the wool, and even the light ivory needle is an effort because the massive weight of her husband's wedding band sits heavily on her hand. The ring, physically light, symbolises the burden of an oppressive marriage and male domination that has drained her of strength and spirit over a lifetime.",
+    "scheme": [
+      { "step": "Fluttering fingers; weight of the ring makes the needle hard", "marks": 1 },
+      { "step": "Ring = burden of marriage / patriarchy", "marks": 1 }
+    ]
+  },
+  {
+    "id": "eng-poem-05-q06",
+    "chapter": "poem-05",
+    "type": "vsa2",
+    "marks": 2,
+    "stars": 2,
+    "label": "PYQ-style",
+    "topic": "death",
+    "stem": "What will happen when Aunt Jennifer is dead? What is the poet's point? (40–50 words)",
+    "hint": "Terrified hands still ringed with ordeals; tigers prance on; no freedom in death; art outlives artist.",
+    "model_answer": "When Aunt Jennifer dies, her terrified hands will lie still but will still be ringed with the ordeals that mastered her — even death will not free her from the marks of her marriage. Her tigers, however, will go on prancing, proud and unafraid. The poet's point is that the woman is defeated, but the spirit she put into her art survives.",
+    "scheme": [
+      { "step": "Hands still ringed with ordeals; no freedom in death", "marks": 1 },
+      { "step": "Tigers prance on — art and courage outlive her", "marks": 1 }
+    ]
+  },
+  {
+    "id": "eng-poem-05-q07",
+    "chapter": "poem-05",
+    "type": "la5",
+    "marks": 5,
+    "stars": 2,
+    "label": "PYQ-style",
+    "topic": "theme",
+    "stem": "'Aunt Jennifer's Tigers' is a protest against the oppression of women within marriage. Discuss how Adrienne Rich conveys this through contrast and symbol. (120–150 words)",
+    "hint": "Tigers (symbol) → aunt's hands and ring → death stanza → contrast table → art as escape → feminist message.",
+    "model_answer": "Adrienne Rich never names oppression, yet every image in the poem points to it. The tigers Aunt Jennifer embroiders are bright topaz, prancing in their green world, unafraid of the men beneath the tree and pacing with knightly certainty. They are everything a free being should be.\n\nTheir maker is the opposite. Her fingers flutter through the wool, and even the light ivory needle is hard to pull because of the massive weight of her husband's wedding band. The ring, physically weightless, is the poem's central symbol: the burden of a marriage that has made her timid, exhausted and owned. The last stanza denies her even the freedom of death — her terrified hands will lie still, still ringed with the ordeals that mastered her.\n\nThe contrast is the protest. The courage and freedom the aunt was never allowed to live she pours into her art, and the tigers will go on prancing, proud and unafraid. Rich honours that art and quietly indicts the world that caged the woman.",
+    "scheme": [
+      { "step": "The tigers as symbol of freedom and fearlessness, with details", "marks": 1 },
+      { "step": "The aunt's weakness and the wedding band explained as symbol of oppressive marriage", "marks": 2 },
+      { "step": "Death stanza: no freedom; tigers outlive her; art as escape", "marks": 1 },
+      { "step": "Conclusion on the feminist protest; expression and length", "marks": 1 }
+    ]
+  }
+]

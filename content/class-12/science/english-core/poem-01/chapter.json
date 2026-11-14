@@ -1,0 +1,11 @@
+{
+  "$schema": "../../../../../schemas/chapter.schema.json",
+  "id": "poem-01",
+  "number": 15,
+  "title": "My Mother at Sixty-six",
+  "unit": "C2",
+  "marks_hint": "Poetry extract (6) · 2-mark short answer · occasionally 5-mark (Section C, estimates)",
+  "summary": "Kamala Das · drive to Cochin airport · mother's ashen, corpse-like face · young trees and children as contrast · childhood fear of losing her · smile at parting · similes, imagery, single-sentence form",
+  "status": { "notes": "ready", "mustknow": "ready", "formulas": "ready", "questions": "ready" },
+  "updated": "2026-11-14"
+}

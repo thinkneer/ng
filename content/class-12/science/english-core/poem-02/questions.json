@@ -1,0 +1,161 @@
+[
+  {
+    "id": "eng-poem-02-q01",
+    "chapter": "poem-02",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 2,
+    "label": "SQP-style",
+    "topic": "meaning",
+    "stem": "In 'Keeping Quiet', the number twelve most likely stands for",
+    "options": [
+      "the twelve disciples",
+      "the hours of the clock and months of the year — a complete cycle",
+      "the poet's age when he wrote the poem",
+      "the number of wars mentioned"
+    ],
+    "answer": "B",
+    "model_answer": "**(b)** Twelve is the unit of a clock and a calendar — a short, complete, measurable pause."
+  },
+  {
+    "id": "eng-poem-02-q02",
+    "chapter": "poem-02",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 2,
+    "label": "SQP-style",
+    "topic": "stillness vs death",
+    "stem": "How does the poet distinguish the stillness he asks for from death?",
+    "options": [
+      "He says stillness should last only a day",
+      "He says he wants nothing to do with death; the pause is for life and self-understanding",
+      "He says death is a kind of stillness we should welcome",
+      "He does not distinguish them"
+    ],
+    "answer": "B",
+    "model_answer": "**(b)** The poet explicitly rejects total inactivity; the quiet is a pause to understand ourselves, as the Earth rests in winter yet lives."
+  },
+  {
+    "id": "eng-poem-02-q03",
+    "chapter": "poem-02",
+    "type": "case",
+    "marks": 6,
+    "stars": 3,
+    "label": "SQP-style",
+    "topic": "extract-based",
+    "stem": "Read the stanzas in which the poet speaks of those who prepare green wars, wars with gas and wars with fire, and victory with no survivors, and imagines them putting on clean clothes and walking about with their brothers in the shade, doing nothing. Answer the questions that follow.",
+    "hint": "Green wars = environment; gas/fire = weapons; no survivors = total war; clean clothes = no blood/guilt; brothers in shade = peace.",
+    "parts": [
+      {
+        "id": "a",
+        "stem": "What are 'green wars'?",
+        "marks": 1,
+        "model_answer": "Wars against the environment — the destruction of nature (also read as wars dressed up as new).",
+        "scheme": [{ "step": "Wars against nature / environment", "marks": 1 }]
+      },
+      {
+        "id": "b",
+        "stem": "'Victory with no survivors' is an example of (A) simile (B) alliteration (C) irony/paradox (D) personification",
+        "marks": 1,
+        "options": ["simile", "alliteration", "irony/paradox", "personification"],
+        "answer": "C",
+        "model_answer": "(C) A victory that kills everyone is a contradiction — irony.",
+        "scheme": [{ "step": "Option C", "marks": 1 }]
+      },
+      {
+        "id": "c",
+        "stem": "What do 'wars with gas' and 'wars with fire' refer to?",
+        "marks": 1,
+        "model_answer": "Chemical warfare and conventional or nuclear warfare — modern weapons of mass destruction.",
+        "scheme": [{ "step": "Chemical and conventional/nuclear weapons", "marks": 1 }]
+      },
+      {
+        "id": "d",
+        "stem": "What is the significance of 'clean clothes'?",
+        "marks": 1,
+        "model_answer": "Clothes free of blood and guilt — a fresh start, the end of violence.",
+        "scheme": [{ "step": "Free of blood / guilt; fresh start", "marks": 1 }]
+      },
+      {
+        "id": "e",
+        "stem": "What does walking with 'brothers in the shade' suggest?",
+        "marks": 1,
+        "model_answer": "Enemies becoming brothers, resting together in peace; universal brotherhood.",
+        "scheme": [{ "step": "Peace / brotherhood among former enemies", "marks": 1 }]
+      },
+      {
+        "id": "f",
+        "stem": "What is the poet's attitude to war in these lines?",
+        "marks": 1,
+        "model_answer": "He condemns war as senseless and self-destructive and longs for peace.",
+        "scheme": [{ "step": "Condemns war; longs for peace", "marks": 1 }]
+      }
+    ]
+  },
+  {
+    "id": "eng-poem-02-q04",
+    "chapter": "poem-02",
+    "type": "vsa2",
+    "marks": 2,
+    "stars": 3,
+    "label": "PYQ-style",
+    "topic": "fishermen and salt-gatherer",
+    "stem": "What would the fishermen and the man gathering salt do in the moment of stillness? What point is the poet making? (40–50 words)",
+    "hint": "Stop harming whales; look at hurt hands; our activity hurts nature and ourselves.",
+    "model_answer": "In the moment of quiet the fishermen in the cold sea would stop harming the whales, and the man gathering salt would pause to look at his own hurt hands. The poet shows that our ceaseless activity hurts both nature and ourselves, and that only when we stop do we notice the damage.",
+    "scheme": [
+      { "step": "Fishermen spare whales; salt-gatherer looks at his wounded hands", "marks": 1 },
+      { "step": "Point: activity harms nature and self; stillness brings awareness", "marks": 1 }
+    ]
+  },
+  {
+    "id": "eng-poem-02-q05",
+    "chapter": "poem-02",
+    "type": "vsa2",
+    "marks": 2,
+    "stars": 3,
+    "label": "PYQ-style",
+    "topic": "sadness",
+    "stem": "What is the 'sadness' the poet wants to interrupt, and how can the Earth teach us? (40–50 words)",
+    "hint": "Never understanding ourselves; threatening ourselves with death; Earth dead in winter, alive in spring.",
+    "model_answer": "The sadness is that of people so busy keeping their lives moving that they never understand themselves and end up threatening themselves with death. The Earth can teach us that stillness is not death: in winter everything seems dead, yet it proves alive in spring. A pause can be a season of renewal.",
+    "scheme": [
+      { "step": "Sadness: never understanding ourselves; threatening ourselves with death", "marks": 1 },
+      { "step": "Earth's lesson: apparent death in winter, life in spring — stillness = renewal", "marks": 1 }
+    ]
+  },
+  {
+    "id": "eng-poem-02-q06",
+    "chapter": "poem-02",
+    "type": "vsa2",
+    "marks": 2,
+    "stars": 2,
+    "label": "PYQ-style",
+    "topic": "exotic moment",
+    "stem": "Why does the poet call the moment of stillness an 'exotic moment'? What would make it so? (40–50 words)",
+    "hint": "Rare, never experienced; no rush, no engines; everyone together in sudden strangeness.",
+    "model_answer": "The moment would be exotic because it has never happened: for once the whole world would stop at the same time. There would be no rush and no engines, and all people, divided every other day by languages and borders, would be united by the same sudden strangeness of shared silence.",
+    "scheme": [
+      { "step": "Exotic = rare, unprecedented; without rush or engines", "marks": 1 },
+      { "step": "All humanity together in a sudden strangeness", "marks": 1 }
+    ]
+  },
+  {
+    "id": "eng-poem-02-q07",
+    "chapter": "poem-02",
+    "type": "la5",
+    "marks": 5,
+    "stars": 2,
+    "label": "PYQ-style",
+    "topic": "central idea",
+    "stem": "What is the central idea of 'Keeping Quiet'? How does Neruda develop it through the poem? (120–150 words)",
+    "hint": "Request → unity in silence → harm stopped (whales, hands, wars) → not death but introspection → Earth's lesson → message.",
+    "model_answer": "The central idea of 'Keeping Quiet' is that a brief, shared pause in human activity could bring self-understanding, peace and harmony with nature.\n\nNeruda develops it as an invitation. He asks everyone to count to twelve — a clock's cycle — and keep still, neither speaking nor moving. The silence would be an exotic moment without engines or rush, uniting all people in a sudden strangeness. He then shows what the pause would stop: fishermen would spare the whales, the salt-gatherer would notice his hurt hands, and those who prepare green wars, gas wars and victories without survivors would put on clean clothes and rest with their brothers in the shade.\n\nHe is careful to say that this stillness is not death. We are so single-minded about keeping life moving that we never understand ourselves; the quiet is for introspection. The Earth, apparently dead in winter yet alive in spring, proves that stillness can be renewal.\n\nThe poem ends with the count again, leaving the silence to us.",
+    "scheme": [
+      { "step": "Statement of the central idea", "marks": 1 },
+      { "step": "The request and the exotic moment of unity", "marks": 1 },
+      { "step": "Harm that would stop: whales, hands, wars (with details)", "marks": 1.5 },
+      { "step": "Not death; introspection; Earth's lesson; conclusion — expression and length", "marks": 1.5 }
+    ]
+  }
+]

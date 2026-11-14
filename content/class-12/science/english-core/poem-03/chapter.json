@@ -1,0 +1,11 @@
+{
+  "$schema": "../../../../../schemas/chapter.schema.json",
+  "id": "poem-03",
+  "number": 17,
+  "title": "A Thing of Beauty",
+  "unit": "C2",
+  "marks_hint": "Poetry extract (6) · 2-mark short answer · occasionally 5-mark (Section C, estimates)",
+  "summary": "John Keats (from Endymion) · beauty as a permanent joy · bower, sleep, health · flowery band binding us to earth · the pall of gloom removed · sun, moon, trees, daffodils, rills, musk-rose · tales of the mighty dead · endless fountain of immortal drink",
+  "status": { "notes": "ready", "mustknow": "ready", "formulas": "ready", "questions": "ready" },
+  "updated": "2026-11-14"
+}

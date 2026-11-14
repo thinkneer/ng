@@ -1,0 +1,156 @@
+[
+  {
+    "id": "eng-poem-01-q01",
+    "chapter": "poem-01",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 2,
+    "label": "SQP-style",
+    "topic": "imagery",
+    "stem": "The poet compares her mother's face in the car to",
+    "options": ["a late winter's moon", "a corpse", "a sprinting tree", "a merry child"],
+    "answer": "B",
+    "model_answer": "**(b)** In the car the dozing, ashen face is compared to a corpse; the winter's moon comes at the airport."
+  },
+  {
+    "id": "eng-poem-01-q02",
+    "chapter": "poem-01",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 2,
+    "label": "SQP-style",
+    "topic": "device",
+    "stem": "The repetition of the word 'smile' at the end of the poem mainly conveys",
+    "options": [
+      "the poet's happiness at reaching the airport",
+      "the poet's effort to hide her fear and reassure her mother",
+      "the mother's cheerful nature",
+      "the poet's relief at leaving home"
+    ],
+    "answer": "B",
+    "model_answer": "**(b)** The repeated smile is forced — a brave face that hides the ache of parting."
+  },
+  {
+    "id": "eng-poem-01-q03",
+    "chapter": "poem-01",
+    "type": "case",
+    "marks": 6,
+    "stars": 3,
+    "label": "SQP-style",
+    "topic": "extract-based",
+    "stem": "Read the opening lines of the poem, in which the poet describes driving to Cochin airport on a Friday morning with her mother dozing beside her, notices how ashen and corpse-like her mother's face looks, feels a pang, and turns to look out at the young trees and the children. Answer the questions that follow.",
+    "hint": "Setting (car to airport), image (ashen, corpse), feeling (pain, fear), reaction (looks away), contrast (trees, children), device (simile, personification).",
+    "parts": [
+      {
+        "id": "a",
+        "stem": "Where is the poet going, and who is with her?",
+        "marks": 1,
+        "model_answer": "She is driving to Cochin airport, with her mother dozing beside her.",
+        "scheme": [{ "step": "Cochin airport; mother", "marks": 1 }]
+      },
+      {
+        "id": "b",
+        "stem": "The word 'ashen' suggests that the mother's face is (A) flushed with sleep (B) grey and drained of colour (C) covered with dust (D) glowing in the morning light",
+        "marks": 1,
+        "options": ["flushed with sleep", "grey and drained of colour", "covered with dust", "glowing in the morning light"],
+        "answer": "B",
+        "model_answer": "(B) Grey like ash — lifeless, aged.",
+        "scheme": [{ "step": "Option B", "marks": 1 }]
+      },
+      {
+        "id": "c",
+        "stem": "Name the figure of speech in the comparison of the mother's face to a corpse.",
+        "marks": 1,
+        "model_answer": "Simile.",
+        "scheme": [{ "step": "Simile", "marks": 1 }]
+      },
+      {
+        "id": "d",
+        "stem": "Why does the poet turn to look out of the window?",
+        "marks": 1,
+        "model_answer": "To escape the painful thought of her mother's age and approaching death.",
+        "scheme": [{ "step": "To escape / distract herself from the painful thought", "marks": 1 }]
+      },
+      {
+        "id": "e",
+        "stem": "What do the young trees and the children stand for?",
+        "marks": 1,
+        "model_answer": "Youth, energy and life — a contrast to the mother's stillness and age.",
+        "scheme": [{ "step": "Youth / life / energy in contrast to age", "marks": 1 }]
+      },
+      {
+        "id": "f",
+        "stem": "Which device is used when the trees are described as sprinting?",
+        "marks": 1,
+        "model_answer": "Personification (the trees are given the action of young runners).",
+        "scheme": [{ "step": "Personification", "marks": 1 }]
+      }
+    ]
+  },
+  {
+    "id": "eng-poem-01-q04",
+    "chapter": "poem-01",
+    "type": "vsa2",
+    "marks": 2,
+    "stars": 3,
+    "label": "PYQ-style",
+    "topic": "contrast",
+    "stem": "Why does the poet look out of the car window, and what is the significance of what she sees? (40–50 words)",
+    "hint": "Escape the thought; trees and children = youth and life; contrast.",
+    "model_answer": "The sight of her mother's ashen, corpse-like face pains the poet, so she looks out of the window to escape the thought of her mother's approaching death. She sees young trees that seem to sprint past and children spilling out of their homes — images of youth, energy and life that contrast sharply with her mother's age.",
+    "scheme": [
+      { "step": "To escape the painful thought of the mother's age/death", "marks": 1 },
+      { "step": "Trees and children = youth and life; contrast with the mother", "marks": 1 }
+    ]
+  },
+  {
+    "id": "eng-poem-01-q05",
+    "chapter": "poem-01",
+    "type": "vsa2",
+    "marks": 2,
+    "stars": 3,
+    "label": "PYQ-style",
+    "topic": "smile",
+    "stem": "Why does the poet smile again and again while parting from her mother? (40–50 words)",
+    "hint": "Hide fear; comfort mother; hope.",
+    "model_answer": "The repeated smile is a brave face. The poet hides her childhood fear of losing her mother so that the old lady is not distressed at parting, and she reassures her with the promise of meeting again. The repetition shows that the smile is an effort, masking pain with love and a little hope.",
+    "scheme": [
+      { "step": "To hide her own fear/pain and reassure her mother", "marks": 1 },
+      { "step": "Repetition shows effort; promise = hope", "marks": 1 }
+    ]
+  },
+  {
+    "id": "eng-poem-01-q06",
+    "chapter": "poem-01",
+    "type": "vsa2",
+    "marks": 2,
+    "stars": 2,
+    "label": "PYQ-style",
+    "topic": "winter's moon",
+    "stem": "Why is the mother compared to the late winter's moon? (40–50 words)",
+    "hint": "Pale, dim, misty; winter = end of year; age and fading life.",
+    "model_answer": "Standing at the airport, the mother looks wan and pale. The late winter's moon is dim and colourless, often hidden by mist, and winter marks the end of the year's cycle. The comparison suggests that the mother, too, is in the last phase of life — fading, losing her glow, nearing her end.",
+    "scheme": [
+      { "step": "Mother pale and wan; moon dim, colourless, misty", "marks": 1 },
+      { "step": "Winter = end of the cycle; suggests age and approaching death", "marks": 1 }
+    ]
+  },
+  {
+    "id": "eng-poem-01-q07",
+    "chapter": "poem-01",
+    "type": "la5",
+    "marks": 5,
+    "stars": 2,
+    "label": "PYQ-style",
+    "topic": "theme",
+    "stem": "How does Kamala Das convey the pain of watching a parent grow old in 'My Mother at Sixty-six'? Discuss the images, the contrast and the ending. (120–150 words)",
+    "hint": "Situation → corpse image → window contrast → winter's moon → childhood fear → repeated smile → form.",
+    "model_answer": "Kamala Das builds the poem as a single unbroken sentence, like a thought the poet cannot stop, during a drive to Cochin airport with her mother dozing beside her.\n\nThe pain begins with an image: the mother's open-mouthed, ashen face looks like a corpse. The daughter's sudden recognition of death is so sharp that she looks away, and the window gives her the opposite picture — young trees sprinting past and merry children pouring out of their homes, all energy and life. The contrast makes the mother's stillness more terrible.\n\nAt the airport the image softens but does not lighten: the mother is pale as a late winter's moon, dim and near the end of her season. The poet's old childhood fear of losing her mother returns in full force.\n\nShe hides it. Smiling again and again, she promises to see her mother soon. The forced repetition carries the whole poem's feeling: love that spares the beloved by concealing its fear, and quiet acceptance of what cannot be changed.",
+    "scheme": [
+      { "step": "Situation and the single-sentence form", "marks": 1 },
+      { "step": "Corpse image and the contrast of trees and children", "marks": 1.5 },
+      { "step": "Winter's moon image and the childhood fear", "marks": 1.5 },
+      { "step": "The repeated smile and the message; expression and length", "marks": 1 }
+    ]
+  }
+]

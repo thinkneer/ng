@@ -1,0 +1,11 @@
+{
+  "$schema": "../../../../../schemas/chapter.schema.json",
+  "id": "poem-05",
+  "number": 19,
+  "title": "Aunt Jennifer's Tigers",
+  "unit": "C2",
+  "marks_hint": "Poetry extract (6) · 2-mark short answer · occasionally 5-mark (Section C, estimates)",
+  "summary": "Adrienne Rich · embroidered tigers: bright, fearless, chivalric · Aunt's fluttering fingers, the heavy wedding band · terrified hands ringed with ordeals · tigers outlive her · patriarchy, oppressive marriage, art as escape",
+  "status": { "notes": "ready", "mustknow": "ready", "formulas": "ready", "questions": "ready" },
+  "updated": "2026-11-14"
+}
