@@ -54,7 +54,7 @@ Chapter ids: `ch-01`, `ch-02`, … for numbered chapters; English uses named ids
 ## Quick 1-mark facts (MCQ, A–R)      one fact per line
 ## Mark-losing traps                  :::tip boxes, one trap each
 ```
-Hard cap: about one phone screen per heading; the whole file rereadable in 5 minutes. Lines are flashcards: write them so the part before the colon (or the bold term) is the prompt and the rest is the answer. Case-based material goes into questions.json as real case questions, not into this file.
+Hard cap: about one phone screen per heading; the whole file rereadable in 5 minutes. **Give every `:::formula` box a title naming it** (`:::formula Nernst equation`) — the title becomes the flashcard question; untitled boxes fall back to a cloze of the first equation. Give a `:::tip` a title (`:::tip Sign of E°`) if it should become a recall card. One fact per line: "A: … B: …" on one line is split into two cards, but write them as two lines. Lines are flashcards: write them so the part before the colon (or the bold term) is the prompt and the rest is the answer. Case-based material goes into questions.json as real case questions, not into this file.
 
 Directives: `:::tip … :::`, `:::formula … :::`, `:::skeleton … :::` render as boxes (tip = yellow, formula = unit-coloured, skeleton = dashed).
 Maths: KaTeX (`$…$`, `$$…$$`); chemistry: `\ce{…}` (mhchem). Stars: write `★★★`, `★★`, `★` (Must know and Practice only).

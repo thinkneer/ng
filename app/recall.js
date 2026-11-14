@@ -30,6 +30,26 @@ function splitLine(line) {
   return { prompt: words.slice(0, k).join(' ') + ' …', answer: line };
 }
 
+const stripMath = (t) => t.replace(/\$\$[\s\S]*?\$\$/g, ' ').replace(/\$[^$]*\$/g, ' ').replace(/\\ce\{[^}]*\}/g, ' ');
+function formulaPrompt(title, text) {
+  if (title) return `${title}: write it`;
+  const bold = text.match(/\*\*([^*]{3,60})\*\*/);
+  if (bold) return `${bold[1].replace(/:$/, '')}: write the formula`;
+  const words = stripMath(text).split('\n').map((x) => clean(x).replace(/[\s(),;:—–-]+$/, '').trim()).find((x) => x.split(/\s+/).filter((w) => /[A-Za-z]{2,}/.test(w)).length >= 3);
+  const m = text.match(/\$\$?([^$]+?)\$\$?/);
+  const lhs = m && m[1].includes('=') ? m[1].split('=')[0].trim() : null;
+  if (lhs && lhs.length < 60) return `${words ? words.slice(0, 70) + ' — ' : ''}$${lhs} = \\;?$`;
+  return words ? `${words.slice(0, 80)}: the formula?` : 'Key formula from this chapter: write it';
+}
+/** "A: x. B: y" → ["A: x.", "B: y"] (only when a later sentence starts with its own "Term:" label). */
+function splitFacts(line) {
+  const parts = []; let rest = line, m;
+  const re = /\.\s+(?=(?:\*\*)?[A-Z][A-Za-z0-9' ()\-]{1,40}(?:\*\*)?:\s)/;
+  while ((m = rest.match(re)) && !/\$[^$]*$/.test(rest.slice(0, m.index))) { parts.push(rest.slice(0, m.index + 1).trim()); rest = rest.slice(m.index + 1).trim(); }
+  parts.push(rest);
+  return parts.filter(Boolean);
+}
+
 /** Extract cards from a mustknow.md source. */
 export function cardsFrom(src, { subject, chapter, chapterTitle, colour } = {}) {
   const cards = [];
@@ -50,20 +70,18 @@ export function cardsFrom(src, { subject, chapter, chapterTitle, colour } = {}) 
       const text = body.join('\n').trim();
       if (!text || kind === 'skeleton') continue;
       if (kind === 'formula') {
-        // prompt: the title, or the first non-formula line; answer: the whole box
-        const firstText = body.map((x) => x.trim()).find((x) => x && !x.startsWith('$$') && !/^\$.*\$$/.test(x));
-        push(title || (firstText ? clean(firstText).slice(0, 80) : 'Formula'), text, 'formula', text);
-      } else if (kind === 'tip') {
-        const sp = splitLine(clean(text.split('\n')[0]));
-        push(title ? `Trap: ${title}` : sp ? `Trap: ${sp.prompt}` : 'Trap', text, 'tip', text);
+        // Never show the formula as its own question: use the title, else the words around it, else a cloze "LHS = ?".
+        push(formulaPrompt(title, text), text, 'formula', text);
+      } else if (kind === 'tip' && title) {
+        // untitled traps stay reading material: their first line *is* the answer
+        push(`Trap: ${title.replace(/[.:]$/, '')} — what goes wrong?`, text, 'tip', text);
       }
       continue;
     }
     if (SKIP_SECTIONS.includes(section) || !section) { i++; continue; }
     if (/^\s*(?:[-*+]|\d+[.)])\s+/.test(l)) {
-      const text = clean(l);
-      const sp = splitLine(text);
-      if (sp) push(sp.prompt, sp.answer, 'line', text);
+      // one card per fact: "A: …. B: …" becomes two cards
+      for (const part of splitFacts(clean(l))) { const sp = splitLine(part); if (sp) push(sp.prompt, sp.answer, 'line', part); }
     }
     i++;
   }

@@ -132,17 +132,17 @@ function chunkBySection(root) {
   if (cur.length) runs.push(cur);
   return runs.map((nodes, i) => { for (const n of nodes) n.dataset.chunk = String(i); return { nodes, index: i, root }; });
 }
-// Typeset a section only when it comes near the viewport (long notes: most sections are far below the fold).
+// Sections near the viewport are typeset first (any element of the section counts); everything else is
+// finished in idle time, so no section is ever left with raw $…$ however fast the reader scrolls.
 function lazyTypeset(chunks) {
-  if (!('IntersectionObserver' in window)) return queueTypeset(chunks);
-  const io = new IntersectionObserver((entries) => {
-    for (const e of entries) {
-      if (!e.isIntersecting) continue;
-      const c = e.target._chunk; io.unobserve(e.target);
-      if (c && !c.done) { c.done = true; typeset(c); }
-    }
-  }, { rootMargin: '800px 0px' });
-  for (const c of chunks) { const n = c.nodes[0]; if (n) { n._chunk = c; io.observe(n); } }
+  const run = (c) => { if (c && !c.done) { c.done = true; typeset(c); } };
+  if ('IntersectionObserver' in window) {
+    const io = new IntersectionObserver((entries) => {
+      for (const e of entries) if (e.isIntersecting) { const c = e.target._chunk; for (const n of c?.nodes || []) io.unobserve(n); run(c); }
+    }, { rootMargin: '1200px 0px' });
+    for (const c of chunks) for (const n of c.nodes) { n._chunk = c; io.observe(n); }
+  }
+  queueTypeset([...chunks]);
 }
 /** Typeset everything still pending in a rendered element (used before paginating). */
 export async function typesetAll(root) {
@@ -150,7 +150,7 @@ export async function typesetAll(root) {
   for (const c of pending) if (!c.done) { c.done = true; await typeset(c); }
 }
 function queueTypeset(chunks) {
-  const idle = window.requestIdleCallback || ((fn) => setTimeout(() => fn({ timeRemaining: () => 8 }), 16));
+  const idle = (fn) => (window.requestIdleCallback ? requestIdleCallback(fn, { timeout: 1500 }) : setTimeout(fn, 60));
   const step = () => { const c = chunks.shift(); if (!c) return; if (c.done) return idle(step); c.done = true; typeset(c).then(() => idle(step)); };
   idle(step);
 }
