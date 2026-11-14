@@ -2099,6 +2099,7 @@
                         "notes": true,
                         "mustknow": true,
                         "formulas": true,
+                        "cards": true,
                         "questions": true
                       },
                       "marks_hint": "Unit VIII Biology and Human Welfare = 12 marks (shared by Ch 7–8, CBSE 2026–27)",
@@ -2113,8 +2114,18 @@
                         "la5": 1
                       },
                       "diagrams": [],
-                      "words": 3870,
-                      "read_minutes": 13
+                      "blocks": {
+                        "fill": 2,
+                        "mnemonic": 6,
+                        "figure": 2,
+                        "draw": 2,
+                        "compare": 4,
+                        "steps": 1
+                      },
+                      "words": 3818,
+                      "read_minutes": 13,
+                      "cards": 11,
+                      "mnemonics": 6
                     },
                     {
                       "id": "ch-08",
@@ -2125,6 +2136,7 @@
                         "notes": true,
                         "mustknow": true,
                         "formulas": true,
+                        "cards": true,
                         "questions": true
                       },
                       "marks_hint": "Unit VIII Biology and Human Welfare = 12 marks (shared by Ch 7–8, CBSE 2026–27)",
@@ -2139,8 +2151,18 @@
                         "la5": 1
                       },
                       "diagrams": [],
-                      "words": 2651,
-                      "read_minutes": 8
+                      "blocks": {
+                        "steps": 3,
+                        "mnemonic": 4,
+                        "fill": 2,
+                        "compare": 3,
+                        "figure": 2,
+                        "draw": 2
+                      },
+                      "words": 2484,
+                      "read_minutes": 7,
+                      "cards": 10,
+                      "mnemonics": 4
                     }
                   ]
                 },

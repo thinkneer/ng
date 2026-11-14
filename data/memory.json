@@ -826,6 +826,100 @@
    "prompt": "Arrange habilis, Neanderthal and erectus by brain capacity."
   }
  ],
+ "biology/ch-07": [
+  {
+   "id": "ch07-ringworm-fungi",
+   "title": "Fungi that cause ringworm",
+   "trick": "**M**y **T**oes **E**tch (itch)",
+   "meaning": [
+    "***M**icrosporum*, ***T**richophyton*, ***E**pidermophyton*: heat and moisture help them, so groin and between the toes."
+   ],
+   "prompt": "Name the three genera of fungi that cause ringworm."
+  },
+  {
+   "id": "ch07-salmonella",
+   "title": "Typhoid's pathogen and test",
+   "trick": "**T**yphoid **M**ary ate **S**almon at a **W**edding",
+   "meaning": [
+    "Typhoid → ***S**almonella typhi*, confirmed by the **W**idal test; Mary Mallon was a famous carrier."
+   ],
+   "prompt": "Which test confirms typhoid?"
+  },
+  {
+   "id": "ch07-plasmodium-hosts",
+   "title": "Where does each kind of reproduction happen?",
+   "trick": "**H**uman = **H**ostel (copies), **M**osquito = **M**arriage hall (fusion)",
+   "meaning": [
+    "Asexual multiplication in the **human** (liver, RBCs); sexual fusion (fertilisation) in the **mosquito's gut**."
+   ],
+   "prompt": "In which host does Plasmodium reproduce sexually?"
+  },
+  {
+   "id": "ch07-allergy",
+   "title": "Allergy in one line",
+   "trick": "**E** for **E**ek, achoo! · **M**ast cells **H**url **H**istamine",
+   "meaning": [
+    "Allergy involves **IgE**; **mast cells** release **histamine** and serotonin. Anti-histamines, adrenalin and steroids help."
+   ],
+   "prompt": "Which antibody and which cells are involved in allergy?"
+  },
+  {
+   "id": "ch07-hiv-elisa",
+   "title": "AIDS in numbers and names",
+   "trick": "**1981 · RT · ELISA**: \"**R**eal **T**est is **ELISA**\"",
+   "meaning": [
+    "First reported **1981**; HIV copies itself with **reverse transcriptase**; diagnosed by **ELISA**."
+   ],
+   "prompt": "Which test is used to diagnose HIV infection?"
+  },
+  {
+   "id": "ch07-drug-sources",
+   "title": "Drug and plant pairs",
+   "trick": "**P**apa's **H**eroin · **C**annabis **C**ardio · **C**oca **D**opamine",
+   "meaning": [
+    "Heroin from ***P**apaver*; cannabinoids hit the **c**ardiovascular system; cocaine from *Erythroxylum **coca*** interferes with **d**opamine."
+   ],
+   "prompt": "Which plant gives cocaine, and which neurotransmitter does it affect?"
+  }
+ ],
+ "biology/ch-08": [
+  {
+   "id": "ch08-swiss-cheese",
+   "title": "Who makes the holes in Swiss cheese?",
+   "trick": "**P**opping **S**wiss **h**oles",
+   "meaning": [
+    "***P**ropionibacterium **sh**armanii* releases lots of CO₂, which leaves the big holes. Roquefort is ripened by fungi."
+   ],
+   "prompt": "Which bacterium makes the large holes in Swiss cheese?"
+  },
+  {
+   "id": "ch08-acids-and-drugs",
+   "title": "Acids and drugs from microbes",
+   "trick": "**C**A · **A**A · **B**C · **S**M · **C**T: \"**C**itric **A**unty, **A**cetic **A**unty, **B**utyric **C**ousin, **S**tatin **M**ama, **C**yclosporin **T**ai\"",
+   "meaning": [
+    "Citric acid–***A**spergillus*; acetic–***A**cetobacter*; butyric–***C**lostridium*; statins–***M**onascus*; cyclosporin A–***T**richoderma*."
+   ],
+   "prompt": "Which microbe gives statins?"
+  },
+  {
+   "id": "ch08-methanogens",
+   "title": "Where methanogens live",
+   "trick": "**M**ethane **M**akers live in the **R**umen and the **S**ludge",
+   "meaning": [
+    "***M**ethanobacterium* (methanogens) work anaerobically on cellulose in cattle **rumen** and in the anaerobic **sludge** of STPs; dung is rich in them."
+   ],
+   "prompt": "Name a methanogen and two places it is found."
+  },
+  {
+   "id": "ch08-cyanobacteria",
+   "title": "Nitrogen-fixing cyanobacteria",
+   "trick": "**A N**ew **O**scar for rice",
+   "meaning": [
+    "***A**nabaena*, ***N**ostoc*, ***O**scillatoria*: biofertilisers in paddy (rice) fields."
+   ],
+   "prompt": "Name three nitrogen-fixing cyanobacteria."
+  }
+ ],
  "english-core/reading-unseen": [
   {
    "id": "unseen-negatives",

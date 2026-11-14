@@ -1,0 +1,90 @@
+[
+  {
+    "id": "ch08-curd",
+    "kind": "process",
+    "title": "Curd formation",
+    "tex": "\\text{milk}\\xrightarrow{\\textit{Lactobacillus}\\ (\\text{LAB})}\\text{curd}+\\text{vit. }B_{12}",
+    "back": "Lactic acid coagulates and partly digests milk proteins. LAB in the stomach also check harmful microbes.",
+    "stars": 2
+  },
+  {
+    "id": "ch08-industrial-products",
+    "kind": "compare",
+    "title": "Microbes → industrial products",
+    "tex": "\\textit{Aspergillus}\\to\\text{citric}\\quad\\textit{Acetobacter}\\to\\text{acetic}\\quad\\textit{Clostridium}\\to\\text{butyric}",
+    "back": "Lactobacillus → lactic acid; Saccharomyces → ethanol. Enzymes: lipases (detergents), pectinases and proteases (clear juices).",
+    "stars": 3
+  },
+  {
+    "id": "ch08-bioactive",
+    "kind": "compare",
+    "title": "Streptokinase, cyclosporin, statins",
+    "tex": "\\textit{Streptococcus}\\ \\big|\\ \\textit{Trichoderma}\\ \\big|\\ \\textit{Monascus}",
+    "back": "Clot buster | immunosuppressant for transplants | lowers cholesterol by competitively inhibiting its synthesis.",
+    "stars": 3
+  },
+  {
+    "id": "ch08-penicillin",
+    "kind": "process",
+    "title": "Penicillin",
+    "tex": "\\text{Fleming}\\to\\textit{Penicillium notatum}\\to\\text{Chain + Florey}",
+    "back": "First antibiotic, found by chance on a Staphylococcus plate. Nobel Prize 1945.",
+    "stars": 2
+  },
+  {
+    "id": "ch08-sewage",
+    "kind": "figure",
+    "title": "Sewage treatment",
+    "svg": "ref: notes#ch08-sewage",
+    "back": "Primary (physical) → aeration tank (flocs, BOD falls) → settling tank (activated sludge; some returns) → anaerobic digester (biogas).",
+    "stars": 3,
+    "tags": [
+      "diagram"
+    ]
+  },
+  {
+    "id": "ch08-bod",
+    "kind": "formula",
+    "title": "BOD",
+    "tex": "\\text{BOD}=\\text{O}_2\\text{ to oxidise organic matter in 1 L water}",
+    "legend": [
+      "high BOD = more organic pollution"
+    ],
+    "back": "Secondary treatment continues until BOD is reduced. Ganga and Yamuna Action Plans built STPs.",
+    "stars": 3
+  },
+  {
+    "id": "ch08-biogas-plant",
+    "kind": "figure",
+    "title": "Biogas plant",
+    "svg": "ref: notes#ch08-biogas-plant",
+    "back": "Dung slurry → digester (Methanobacterium) → floating gas holder → gas to homes; spent slurry is manure. IARI and KVIC.",
+    "stars": 2,
+    "tags": [
+      "diagram"
+    ]
+  },
+  {
+    "id": "ch08-biocontrol",
+    "kind": "compare",
+    "title": "Biocontrol agents",
+    "tex": "\\text{ladybird}\\to\\text{aphids}\\quad\\text{Bt}\\to\\text{caterpillars}\\quad\\textit{Trichoderma}\\to\\text{pathogens}",
+    "back": "Baculoviruses (Nucleopolyhedrovirus) are species-specific, narrow-spectrum: ideal for IPM.",
+    "stars": 2
+  },
+  {
+    "id": "ch08-biofertilisers",
+    "kind": "compare",
+    "title": "Biofertilisers",
+    "tex": "\\textit{Rhizobium}\\ \\big|\\ \\textit{Azotobacter}\\ \\big|\\ \\textit{Glomus}\\ \\big|\\ \\textit{Anabaena}",
+    "back": "Symbiotic N | free-living N | mycorrhiza gives phosphorus | cyanobacteria in paddy fields.",
+    "stars": 3
+  },
+  {
+    "id": "ch08-swiss-cheese",
+    "kind": "mnemonic",
+    "title": "Swiss cheese holes",
+    "tex": "\\textit{Propionibacterium sharmanii}\\to\\text{CO}_2",
+    "back": "Large holes from lots of CO₂. Roquefort cheese is ripened by fungi."
+  }
+]

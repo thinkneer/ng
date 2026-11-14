@@ -1,0 +1,100 @@
+[
+  {
+    "id": "ch07-plasmodium",
+    "kind": "figure",
+    "title": "Plasmodium life cycle",
+    "svg": "ref: notes#ch07-plasmodium",
+    "back": "Sporozoites → liver → RBCs (haemozoin, fever every 3–4 days) → gametocytes → mosquito gut (fertilisation) → salivary glands.",
+    "stars": 3,
+    "tags": [
+      "diagram",
+      "5-mark"
+    ]
+  },
+  {
+    "id": "ch07-antibody",
+    "kind": "figure",
+    "title": "Antibody structure",
+    "svg": "ref: notes#ch07-antibody",
+    "back": "H₂L₂: two heavy and two light chains held by disulphide bonds; antigen-binding sites at the arm tips. IgA, IgM, IgE, IgG.",
+    "stars": 3,
+    "tags": [
+      "diagram"
+    ]
+  },
+  {
+    "id": "ch07-diseases",
+    "kind": "compare",
+    "title": "Bacterial, viral, protozoan",
+    "tex": "\\textit{Salmonella}\\ \\big|\\ \\text{rhinovirus}\\ \\big|\\ \\textit{Plasmodium},\\ \\textit{Entamoeba}",
+    "back": "Typhoid (Widal test) | common cold (not the lungs) | malaria, amoebiasis. Worms: Ascaris, Wuchereria. Fungi: ringworm.",
+    "stars": 3
+  },
+  {
+    "id": "ch07-innate-vs-acquired",
+    "kind": "compare",
+    "title": "Innate vs acquired immunity",
+    "tex": "\\text{non-specific, from birth}\\ \\big|\\ \\text{specific, with memory}",
+    "back": "Innate barriers: physical, physiological, cellular, cytokine (interferons). Acquired: primary then stronger secondary response.",
+    "stars": 3
+  },
+  {
+    "id": "ch07-active-vs-passive",
+    "kind": "compare",
+    "title": "Active vs passive immunity",
+    "tex": "\\text{own antibodies}\\ \\big|\\ \\text{ready-made antibodies}",
+    "back": "Active: infection, vaccine (slow, long). Passive: colostrum IgA, placenta, antitoxin (quick, short).",
+    "stars": 3
+  },
+  {
+    "id": "ch07-lymphoid-organs",
+    "kind": "formula",
+    "title": "Lymphoid organs",
+    "tex": "\\text{primary: bone marrow, thymus}\\quad\\text{secondary: spleen, nodes, MALT}",
+    "legend": [
+      "primary = lymphocytes form and mature",
+      "secondary = lymphocytes meet antigens"
+    ],
+    "back": "MALT is about 50% of lymphoid tissue. The thymus is large at birth and shrinks with age.",
+    "stars": 2
+  },
+  {
+    "id": "ch07-hiv-replication",
+    "kind": "process",
+    "title": "HIV replication",
+    "tex": "\\text{RNA}\\xrightarrow{\\text{reverse transcriptase}}\\text{DNA}\\to\\text{host DNA}\\to\\text{new virus}",
+    "back": "Macrophage = HIV factory; helper T cells fall; opportunistic infections. Diagnosed by ELISA.",
+    "stars": 3
+  },
+  {
+    "id": "ch07-benign-vs-malignant",
+    "kind": "compare",
+    "title": "Benign vs malignant",
+    "tex": "\\text{confined}\\ \\big|\\ \\text{invasive + metastasis}",
+    "back": "Cancer cells lose contact inhibition. Carcinogens: X-rays, γ-rays, UV, tobacco, oncogenic viruses. α-interferon in immunotherapy.",
+    "stars": 2
+  },
+  {
+    "id": "ch07-drugs",
+    "kind": "compare",
+    "title": "Opioids, cannabinoids, cocaine",
+    "tex": "\\textit{Papaver}\\ \\big|\\ \\textit{Cannabis}\\ \\big|\\ \\textit{Erythroxylum}",
+    "back": "Heroin = diacetylmorphine (depressant); cannabinoids affect the heart and vessels; cocaine blocks dopamine transport.",
+    "stars": 2
+  },
+  {
+    "id": "ch07-vector-control",
+    "kind": "process",
+    "title": "Controlling mosquito vectors",
+    "tex": "\\text{no stagnant water}\\to\\text{nets}\\to\\textit{Gambusia}\\text{ in ponds}",
+    "back": "Anopheles: malaria. Aedes: dengue and chikungunya. Gambusia fish eat mosquito larvae.",
+    "stars": 2
+  },
+  {
+    "id": "ch07-allergy",
+    "kind": "mnemonic",
+    "title": "Allergy",
+    "tex": "\\text{IgE}\\to\\text{mast cells}\\to\\text{histamine, serotonin}",
+    "back": "Allergens: dust mites, pollen, animal dander. Relief: anti-histamines, adrenalin, steroids."
+  }
+]
