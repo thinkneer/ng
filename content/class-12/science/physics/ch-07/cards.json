@@ -1,0 +1,144 @@
+[
+  {
+    "id": "ch07-lag",
+    "kind": "figure",
+    "title": "Current lags voltage in an inductor",
+    "svg": "ref: notes#ch07-lag",
+    "back": "Inductor: current peaks a quarter cycle after voltage. Capacitor: current leads by π/2.",
+    "stars": 2,
+    "tags": [
+      "graph"
+    ]
+  },
+  {
+    "id": "ch07-phasor",
+    "kind": "figure",
+    "title": "Phasor diagram of series LCR",
+    "svg": "ref: notes#ch07-phasor",
+    "back": "V_R along I, V_L up, V_C down; V = √(V_R² + (V_L − V_C)²); tan φ = (X_L − X_C)/R.",
+    "stars": 3,
+    "tags": [
+      "diagram",
+      "3-mark"
+    ]
+  },
+  {
+    "id": "ch07-resonance",
+    "kind": "figure",
+    "title": "Resonance curve",
+    "svg": "ref: notes#ch07-resonance",
+    "back": "Peak at ω₀ = 1/√(LC); smaller R gives a taller, sharper peak.",
+    "stars": 2,
+    "tags": [
+      "graph"
+    ]
+  },
+  {
+    "id": "ch07-generator",
+    "kind": "figure",
+    "title": "AC generator",
+    "svg": "ref: notes#ch07-generator",
+    "back": "Coil turning at ω in B: Φ = NBA cos ωt, emf = NBAω sin ωt; slip rings and brushes take it out.",
+    "stars": 3,
+    "tags": [
+      "diagram"
+    ]
+  },
+  {
+    "id": "ch07-transformer",
+    "kind": "figure",
+    "title": "Transformer",
+    "svg": "ref: notes#ch07-transformer",
+    "back": "Mutual induction on a laminated soft-iron core: V_s/V_p = N_s/N_p = I_p/I_s. AC only.",
+    "stars": 3,
+    "tags": [
+      "diagram",
+      "5-mark"
+    ]
+  },
+  {
+    "id": "rms-values",
+    "kind": "formula",
+    "title": "rms values",
+    "tex": "I_\\text{rms}=\\dfrac{i_m}{\\sqrt2}\\qquad V_\\text{rms}=\\dfrac{v_m}{\\sqrt2}",
+    "legend": [
+      "i_m, v_m = peak values"
+    ],
+    "back": "Meters and \"220 V mains\" are rms; the peak is about 311 V.",
+    "stars": 2
+  },
+  {
+    "id": "reactances",
+    "kind": "formula",
+    "title": "Inductive and capacitive reactance",
+    "tex": "X_L=\\omega L\\qquad X_C=\\dfrac{1}{\\omega C}",
+    "legend": [
+      "ω = 2πν"
+    ],
+    "back": "X_L ∝ ν; X_C ∝ 1/ν. A capacitor blocks DC.",
+    "stars": 2
+  },
+  {
+    "id": "impedance",
+    "kind": "formula",
+    "title": "Impedance of series LCR",
+    "tex": "Z=\\sqrt{R^2+(X_L-X_C)^2}",
+    "legend": [
+      "tan φ = (X_L − X_C)/R"
+    ],
+    "back": "I = V/Z. At resonance Z = R.",
+    "stars": 3
+  },
+  {
+    "id": "resonant-frequency-card",
+    "kind": "formula",
+    "title": "Resonant frequency",
+    "tex": "\\nu_0=\\dfrac{1}{2\\pi\\sqrt{LC}}",
+    "legend": [
+      "condition = X_L equals X_C"
+    ],
+    "back": "Current is maximum and in phase with the voltage.",
+    "stars": 3
+  },
+  {
+    "id": "ac-power",
+    "kind": "formula",
+    "title": "Average power and power factor",
+    "tex": "P=V_\\text{rms}I_\\text{rms}\\cos\\phi",
+    "legend": [
+      "cos φ = R/Z"
+    ],
+    "back": "Pure L or C: cos φ = 0, wattless current.",
+    "stars": 3
+  },
+  {
+    "id": "generator-emf",
+    "kind": "formula",
+    "title": "AC generator emf",
+    "tex": "\\varepsilon=NBA\\omega\\sin\\omega t",
+    "legend": [
+      "peak = NBAω"
+    ],
+    "back": "Largest when the plane of the coil is parallel to B.",
+    "stars": 2
+  },
+  {
+    "id": "transformer-equation",
+    "kind": "formula",
+    "title": "Ideal transformer",
+    "tex": "\\dfrac{V_s}{V_p}=\\dfrac{N_s}{N_p}=\\dfrac{I_p}{I_s}",
+    "legend": [
+      "step-up = N_s greater than N_p"
+    ],
+    "back": "High-voltage transmission keeps the current, and so I²R loss, small.",
+    "stars": 3
+  },
+  {
+    "id": "eli-ice-card",
+    "kind": "mnemonic",
+    "title": "Who leads in L and in C?",
+    "back": "\"ELI the ICE man\": in L, E (voltage) before I; in C, I before E. The lead or lag is always π/2.",
+    "svg": "ref: notes#ch07-lag",
+    "stars": 2
+  }
+]

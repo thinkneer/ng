@@ -194,6 +194,98 @@
    "card": true
   }
  ],
+ "physics/ch-07": [
+  {
+   "id": "eli-the-ice-man",
+   "title": "Who leads in L and in C?",
+   "trick": "**\"ELI the ICE man\"**",
+   "meaning": [
+    "In an inductor (**L**), voltage **E** comes before current **I**: current lags by $\\pi/2$.",
+    "In a capacitor (**C**), current **I** comes before voltage **E**: current leads by $\\pi/2$."
+   ],
+   "prompt": "In a pure inductor, does the current lead or lag the voltage, and by how much?"
+  },
+  {
+   "id": "resonance-barabar",
+   "title": "Condition for resonance",
+   "trick": "**\"Jab $X_L$ aur $X_C$ barabar, tab current zabardast\"**",
+   "meaning": [
+    "Resonance: $X_L=X_C$, so $Z=R$ (minimum) and $I=V/R$ (maximum), $\\cos\\phi=1$.",
+    "$\\omega_0=1/\\sqrt{LC}$; needs both L and C."
+   ],
+   "prompt": "What is the condition for resonance in a series LCR circuit, and what happens to the current?"
+  },
+  {
+   "id": "eli-ice-card",
+   "title": "Who leads in L and in C?",
+   "trick": "Who leads in L and in C?",
+   "meaning": [
+    "\"ELI the ICE man\": in L, E (voltage) before I; in C, I before E. The lead or lag is always π/2."
+   ],
+   "card": true
+  }
+ ],
+ "physics/ch-08": [
+  {
+   "id": "e-b-saath-saath",
+   "title": "How are E and B related in an EM wave?",
+   "trick": "**\"E aur B saath saath, par ek doosre se tedhe\"** (together in time, crossed in direction)",
+   "meaning": [
+    "$E$ and $B$ are **in phase** and **perpendicular** to each other and to the direction of travel.",
+    "$E_0/B_0=c$."
+   ],
+   "prompt": "State the phase and direction relation between E and B in an EM wave."
+  },
+  {
+   "id": "spectrum-order",
+   "title": "Order of the EM spectrum",
+   "trick": "**\"Raging Martians Invaded Venus Using X-ray Guns\"**",
+   "meaning": [
+    "Radio, Microwave, Infrared, Visible, Ultraviolet, X-rays, Gamma: increasing frequency, decreasing wavelength."
+   ],
+   "prompt": "Arrange the EM spectrum in order of increasing frequency."
+  },
+  {
+   "id": "spectrum-order-card",
+   "title": "Order of the EM spectrum",
+   "trick": "Order of the EM spectrum",
+   "meaning": [
+    "\"Raging Martians Invaded Venus Using X-ray Guns\": radio → gamma, increasing frequency."
+   ],
+   "card": true
+  }
+ ],
+ "physics/ch-09": [
+  {
+   "id": "sign-convention",
+   "title": "Cartesian sign convention",
+   "trick": "**\"Roshni ki disha mein plus\"** (along the light, plus)",
+   "meaning": [
+    "Measure from the pole; along the incident light is **+**, against it is **−**; above the axis **+**.",
+    "So $u$ is always negative; concave mirror and concave lens have negative $f$."
+   ],
+   "prompt": "State the Cartesian sign convention for mirrors and lenses."
+  },
+  {
+   "id": "chhota-bada",
+   "title": "Focal lengths in microscope and telescope",
+   "trick": "**\"Microscope: chhota-chhota; Telescope: bada-chhota\"**",
+   "meaning": [
+    "Microscope: both focal lengths short ($f_o<f_e$).",
+    "Telescope: objective long ($f_o$ big), eyepiece short."
+   ],
+   "prompt": "Compare the focal lengths of the objective and eyepiece in a microscope and in a telescope."
+  },
+  {
+   "id": "chhota-bada-card",
+   "title": "Focal lengths: microscope vs telescope",
+   "trick": "Focal lengths: microscope vs telescope",
+   "meaning": [
+    "\"Microscope: chhota-chhota; Telescope: bada-chhota\": microscope f_o < f_e (both short); telescope f_o ≫ f_e."
+   ],
+   "card": true
+  }
+ ],
  "chemistry/ch-01": [
   {
    "id": "momos-molality",

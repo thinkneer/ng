@@ -1,0 +1,143 @@
+[
+  {
+    "id": "ch09-mirror",
+    "kind": "figure",
+    "title": "Concave mirror, object beyond C",
+    "svg": "ref: notes#ch09-mirror",
+    "back": "Image between F and C: real, inverted, diminished.",
+    "stars": 2,
+    "tags": [
+      "diagram"
+    ]
+  },
+  {
+    "id": "ch09-tir",
+    "kind": "figure",
+    "title": "Total internal reflection",
+    "svg": "ref: notes#ch09-tir",
+    "back": "Denser → rarer and i > c. sin c = 1/n; glass c ≈ 42°, diamond ≈ 24°.",
+    "stars": 3,
+    "tags": [
+      "diagram"
+    ]
+  },
+  {
+    "id": "ch09-lens",
+    "kind": "figure",
+    "title": "Convex lens, object beyond 2F",
+    "svg": "ref: notes#ch09-lens",
+    "back": "Image between F′ and 2F′: real, inverted, diminished.",
+    "stars": 2
+  },
+  {
+    "id": "ch09-prism",
+    "kind": "figure",
+    "title": "Ray through a prism",
+    "svg": "ref: notes#ch09-prism",
+    "back": "r₁ + r₂ = A; i + e = A + δ; at minimum deviation i = e.",
+    "stars": 3,
+    "tags": [
+      "diagram"
+    ]
+  },
+  {
+    "id": "ch09-microscope",
+    "kind": "figure",
+    "title": "Compound microscope",
+    "svg": "ref: notes#ch09-microscope",
+    "back": "Objective: real magnified image; eyepiece: magnifier. m = (L/f_o)(D/f_e).",
+    "stars": 3,
+    "tags": [
+      "diagram",
+      "5-mark"
+    ]
+  },
+  {
+    "id": "ch09-telescope",
+    "kind": "figure",
+    "title": "Astronomical telescope",
+    "svg": "ref: notes#ch09-telescope",
+    "back": "Normal adjustment: m = f_o/f_e, length f_o + f_e; final image inverted.",
+    "stars": 3,
+    "tags": [
+      "diagram",
+      "5-mark"
+    ]
+  },
+  {
+    "id": "ch09-cassegrain",
+    "kind": "figure",
+    "title": "Cassegrain telescope",
+    "svg": "ref: notes#ch09-cassegrain",
+    "back": "Concave primary, convex secondary, eyepiece behind a hole: no chromatic aberration, lighter.",
+    "stars": 2,
+    "tags": [
+      "diagram"
+    ]
+  },
+  {
+    "id": "mirror-formula-card",
+    "kind": "formula",
+    "title": "Mirror formula",
+    "tex": "\\dfrac1v+\\dfrac1u=\\dfrac1f\\qquad m=-\\dfrac vu",
+    "legend": [
+      "f = R/2",
+      "u = negative (object in front)"
+    ],
+    "back": "Concave f negative; convex f positive.",
+    "stars": 3
+  },
+  {
+    "id": "lens-formula-card",
+    "kind": "formula",
+    "title": "Thin lens formula",
+    "tex": "\\dfrac1v-\\dfrac1u=\\dfrac1f\\qquad m=\\dfrac vu",
+    "legend": [
+      "P = 1/f (in m), dioptre"
+    ],
+    "back": "Lenses in contact: powers add.",
+    "stars": 3
+  },
+  {
+    "id": "lens-maker-card",
+    "kind": "formula",
+    "title": "Lens maker’s formula",
+    "tex": "\\dfrac1f=(n_{21}-1)\\left(\\dfrac{1}{R_1}-\\dfrac{1}{R_2}\\right)",
+    "legend": [
+      "n₂₁ = n_lens / n_medium"
+    ],
+    "back": "In a liquid of the same n the lens vanishes optically.",
+    "stars": 3
+  },
+  {
+    "id": "prism-formula-card",
+    "kind": "formula",
+    "title": "Prism at minimum deviation",
+    "tex": "n=\\dfrac{\\sin\\frac{A+\\delta_m}{2}}{\\sin\\frac A2}",
+    "legend": [
+      "A = prism angle",
+      "δ_m = minimum deviation"
+    ],
+    "back": "Thin prism: δ = (n − 1)A.",
+    "stars": 3
+  },
+  {
+    "id": "critical-angle-card",
+    "kind": "formula",
+    "title": "Critical angle",
+    "tex": "\\sin c=\\dfrac{1}{n_{21}}",
+    "legend": [
+      "n₂₁ = denser relative to rarer"
+    ],
+    "back": "Used in optical fibres, reflecting prisms, diamonds, mirages.",
+    "stars": 2
+  },
+  {
+    "id": "chhota-bada-card",
+    "kind": "mnemonic",
+    "title": "Focal lengths: microscope vs telescope",
+    "back": "\"Microscope: chhota-chhota; Telescope: bada-chhota\": microscope f_o < f_e (both short); telescope f_o ≫ f_e.",
+    "svg": "ref: notes#ch09-telescope",
+    "stars": 2
+  }
+]

@@ -1,0 +1,93 @@
+[
+  {
+    "id": "ch08-wave",
+    "kind": "figure",
+    "title": "Electromagnetic wave",
+    "svg": "ref: notes#ch08-wave",
+    "back": "E along y, B along z, in phase; the wave travels along E × B at c.",
+    "stars": 2,
+    "tags": [
+      "diagram"
+    ]
+  },
+  {
+    "id": "ch08-displacement",
+    "kind": "figure",
+    "title": "Displacement current",
+    "svg": "ref: notes#ch08-displacement",
+    "back": "In the gap of a charging capacitor the changing E acts as i_d = ε₀ dΦ_E/dt = i_c.",
+    "stars": 2,
+    "tags": [
+      "diagram"
+    ]
+  },
+  {
+    "id": "ch08-spectrum",
+    "kind": "figure",
+    "title": "The EM spectrum",
+    "svg": "ref: notes#ch08-spectrum",
+    "back": "Radio, micro, IR, visible, UV, X, γ: frequency up, wavelength down. All at c in vacuum.",
+    "stars": 3
+  },
+  {
+    "id": "displacement-current-card",
+    "kind": "formula",
+    "title": "Displacement current",
+    "tex": "i_d=\\varepsilon_0\\dfrac{d\\Phi_E}{dt}",
+    "legend": [
+      "Φ_E = electric flux"
+    ],
+    "back": "Ampère–Maxwell: ∮B·dl = μ₀(i_c + i_d).",
+    "stars": 2
+  },
+  {
+    "id": "speed-of-light",
+    "kind": "formula",
+    "title": "Speed of EM waves",
+    "tex": "c=\\dfrac{1}{\\sqrt{\\mu_0\\varepsilon_0}}",
+    "legend": [
+      "in a medium = 1/√(με)"
+    ],
+    "back": "3 × 10⁸ m/s in vacuum for every wavelength.",
+    "stars": 2
+  },
+  {
+    "id": "e0-b0",
+    "kind": "formula",
+    "title": "Ratio of field amplitudes",
+    "tex": "\\dfrac{E_0}{B_0}=c",
+    "legend": [
+      "E₀ = electric amplitude (V/m)",
+      "B₀ = magnetic amplitude (T)"
+    ],
+    "back": "E and B are in phase.",
+    "stars": 2
+  },
+  {
+    "id": "wave-relation",
+    "kind": "formula",
+    "title": "Wave relation",
+    "tex": "c=\\nu\\lambda",
+    "legend": [
+      "ν = frequency",
+      "λ = wavelength"
+    ],
+    "back": "Frequency is set by the source and does not change in a medium."
+  },
+  {
+    "id": "em-uses-card",
+    "kind": "compare",
+    "title": "Which wave for which job?",
+    "back": "Radar, ovens: microwaves. Remote controls, physiotherapy: IR. Water purification, LASIK: UV. Bones: X-rays. Cancer treatment: γ.",
+    "svg": "ref: notes#ch08-spectrum",
+    "stars": 3
+  },
+  {
+    "id": "spectrum-order-card",
+    "kind": "mnemonic",
+    "title": "Order of the EM spectrum",
+    "back": "\"Raging Martians Invaded Venus Using X-ray Guns\": radio → gamma, increasing frequency.",
+    "svg": "ref: notes#ch08-spectrum",
+    "stars": 2
+  }
+]
