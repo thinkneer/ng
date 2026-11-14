@@ -1,0 +1,397 @@
+\documentclass[9pt,a4paper]{extarticle}
+\usepackage[a4paper,margin=9mm,top=8mm,bottom=10mm]{geometry}
+\input{../preambles/chemistry-preamble}
+\fancyfoot[L]{\tiny\sffamily\color{black!55} Class 12 Chemistry · Formula \& Facts Sheet · Part 1: Physical Chemistry · CBSE Board 2026--27 (paper 27 Feb 2027)}
+\fancyfoot[R]{\tiny\sffamily\color{black!55} Page \thepage}
+\raggedbottom
+\begin{document}
+\footnotesize
+
+% ================= TITLE =================
+\begin{tcolorbox}[enhanced,colback=navy,colframe=navy,arc=2pt,left=6pt,right=6pt,top=3pt,bottom=3pt]
+\color{white}\sffamily
+{\Large\bfseries Class 12 Chemistry — Formulas, Reactions \& Key Facts}\hfill{\small NCERT · Rationalised}\\[1pt]
+{\footnotesize Part 1 of 3: \textbf{Physical Chemistry} (Ch 1--3) \;·\; CBSE Board 2026--27 only \;·\; Chemistry paper: \textbf{Sat 27 Feb 2027}}\\[2pt]
+{\scriptsize Parts 2 (Inorganic: Ch 4--5) and 3 (Organic: Ch 6--10) follow in the same style. \SQP\ = asked in the official CBSE 2026--27 sample paper.}
+\end{tcolorbox}
+\vspace{-1pt}
+
+\noindent
+\begin{minipage}[t]{0.47\textwidth}
+\sffamily\scriptsize\textbf{CBSE THEORY — UNIT-WISE MARKS (70)}\\[1pt]
+\rmfamily\scriptsize
+\begin{tabular}{@{}r@{\ }l@{\ }r@{\qquad}r@{\ }l@{\ }r@{}}
+\toprule
+\textcolor{uI}{\textbf{1}} & Solutions & \textbf{7} & \textcolor{uVI}{\textbf{6}} & Haloalkanes \& Haloarenes & \textbf{6}\\
+\textcolor{uII}{\textbf{2}} & Electrochemistry & \textbf{9} & \textcolor{uVII}{\textbf{7}} & Alcohols, Phenols \& Ethers & \textbf{6}\\
+\textcolor{uIII}{\textbf{3}} & Chemical Kinetics & \textbf{7} & \textcolor{uVIII}{\textbf{8}} & Aldehydes, Ketones \& Acids & \textbf{8}\\
+\textcolor{uIV}{\textbf{4}} & d- and f-Block & \textbf{7} & \textcolor{uIX}{\textbf{9}} & Amines & \textbf{6}\\
+\textcolor{uV}{\textbf{5}} & Coordination Cpds & \textbf{7} & \textcolor{uX}{\textbf{10}} & Biomolecules & \textbf{7}\\
+\midrule
+\multicolumn{6}{@{}l@{}}{Physical \textbf{23} \;·\; Inorganic \textbf{14} \;·\; Organic \textbf{33} \;·\; Practical \textbf{30}}\\
+\bottomrule
+\end{tabular}\\[1pt]
+{\scriptsize\textbf{Not in board theory:} Solid State, Surface Chemistry, Isolation of Elements, p-Block, Polymers, Chemistry in Everyday Life.}
+\end{minipage}\hfill
+\begin{minipage}[t]{0.505\textwidth}
+\sffamily\scriptsize\textbf{PAPER PATTERN (33 Qs · 70 marks · 3 h · same as 2025--26)}\\[1pt]\rmfamily\scriptsize
+\begin{tabular}{@{}l@{\ }l@{\ }r@{}}
+\toprule
+A & Q1--16: 12 MCQ + 4 assertion--reason, 1 mark each & 16\\
+B & Q17--21: very short answer, 2 marks each & 10\\
+C & Q22--28: short answer, 3 marks each & 21\\
+D & Q29--30: case/source-based, 4 marks each & 8\\
+E & Q31--33: long answer, 5 marks each & 15\\
+\bottomrule
+\end{tabular}\\[1pt]
+{\scriptsize No overall choice; internal choice in about 33\% (one Q in B and C, part III of each case, all three in E). Weightage: remember/understand 40\%, apply 30\%, analyse/evaluate 30\%.\\
+\textbf{Practical 30:} volumetric 8 · salt analysis 8 · content-based expt 6 · project 4 · record \& viva 4.}
+\end{minipage}
+\vspace{2pt}
+
+\noindent
+\begin{tcolorbox}[enhanced,colback=navy!4,colframe=navy!60,boxrule=0.5pt,arc=1.5pt,left=3pt,right=3pt,top=1pt,bottom=1pt]
+\scriptsize\sffamily\textbf{CONSTANTS \& CONVERSIONS}\rmfamily\quad
+$R=8.314$ J\,K$^{-1}$mol$^{-1}$ $=0.0821$ L\,atm\,K$^{-1}$mol$^{-1}$ $=0.083$ L\,bar\,K$^{-1}$mol$^{-1}$ \;·\;
+$F=96487\approx96500$ C\,mol$^{-1}$ \;·\; $N_A=6.022\times10^{23}$ \;·\;
+$\dfrac{2.303RT}{F}=0.059$ V at 298 K \;·\; $\ln x=2.303\log x$ \;·\;
+1 atm $=1.013$ bar $=760$ mm Hg $=101.3$ kPa \;·\; $T(\text{K})=t(^\circ\text{C})+273$ \;·\;
+water: $K_b=0.52$, $K_f=1.86$ K\,kg\,mol$^{-1}$ \;·\; benzene: $K_b=2.53$, $K_f=5.12$ \;·\;
+$\log2=0.3010$, $\log3=0.4771$, $\log5=0.6990$, $\log7=0.8451$ \;·\; 1 S\,cm$^2$mol$^{-1}=10^{-4}$ S\,m$^2$mol$^{-1}$
+\end{tcolorbox}
+
+\begin{multicols}{2}\raggedcolumns
+% =====================================================================
+\unitbanner{uI}{UNIT 1 · SOLUTIONS}{7 marks}
+\sub{Concentration terms}
+\begin{kbox}
+Mass \% $=\dfrac{w_\text{component}}{w_\text{solution}}\times100$;\quad ppm $=\dfrac{w_\text{component}}{w_\text{total}}\times10^6$\\[1pt]
+Mole fraction $x_i=\dfrac{n_i}{\sum n}$, \;$x_1+x_2=1$\\[1pt]
+Molarity $M=\dfrac{n_2}{V_\text{soln}(\text{L})}$ (mol L$^{-1}$) — \textbf{changes with $T$}\\[1pt]
+Molality $m=\dfrac{n_2}{W_1(\text{kg})}=\dfrac{1000\,w_2}{M_2\,w_1(\text{g})}$ (mol kg$^{-1}$) — \textbf{$T$-independent}\\[1pt]
+$M\to m$: \;$m=\dfrac{1000\,M}{1000\,d-M\,M_2}$ \;($d$ in g mL$^{-1}$, $M_2$ = molar mass of solute)
+\end{kbox}
+\begin{fl}
+\item Mass \%, ppm, $x$, $m$ do not depend on $T$; $M$ and \% (w/V) do (volume expands on heating).
+\end{fl}
+\sub{Henry's law (gas in liquid)}
+\begin{kbox}
+$p=K_H\,x$ \quad ($p$ = partial pressure of gas, $x$ = its mole fraction in solution)
+\end{kbox}
+\begin{fl}
+\item Larger $K_H$ $\Rightarrow$ \emph{lower} solubility. $K_H$ rises with $T$, so gases dissolve less in warm water (aquatic life prefers cold water). \SQP
+\item Uses: soda bottles sealed under high CO$_2$ pressure; scuba divers' \emph{bends} (N$_2$ bubbles in blood) — tanks use air diluted with He (11.7\% He, 56.2\% N$_2$, 32.1\% O$_2$); \emph{anoxia} at high altitude (low $p_{\mathrm{O_2}}$).
+\end{fl}
+\sub{Raoult's law (volatile liquids)}
+\begin{kbox}
+$p_1=x_1p_1^\circ,\;\; p_2=x_2p_2^\circ,\;\; p_\text{total}=p_1^\circ+(p_2^\circ-p_1^\circ)\,x_2$\\[1pt]
+Vapour phase: $y_1=\dfrac{p_1}{p_\text{total}}$ \;(vapour is richer in the more volatile liquid)\\[1pt]
+Non-volatile solute: $p_\text{soln}=x_1p_1^\circ$. \;Raoult's law is a special case of Henry's law with $K_H=p_1^\circ$.
+\end{kbox}
+\sub{Ideal and non-ideal solutions}
+{\scriptsize
+\begin{tabularx}{\linewidth}{@{}l@{\ }Y@{\ }Y@{\ }Y@{}}
+\toprule
+ & \textbf{Ideal} & \textbf{Positive deviation} & \textbf{Negative deviation}\\
+\midrule
+A--B forces & same as A--A, B--B & weaker & stronger (often H-bond)\\
+$\Delta_\text{mix}H$, $\Delta_\text{mix}V$ & $0$, $0$ & $>0$, $>0$ & $<0$, $<0$\\
+$p$ observed & obeys Raoult & higher than Raoult & lower than Raoult\\
+Azeotrope & none & \textbf{minimum}-boiling: ethanol--water ($\approx$95\% ethanol by vol.) & \textbf{maximum}-boiling: HNO$_3$--water (68\% HNO$_3$ by mass, 393.5 K) \SQP\\
+Examples & n-hexane + n-heptane; bromoethane + chloroethane; benzene + toluene & ethanol + acetone; CS$_2$ + acetone; ethanol + water & phenol + aniline; chloroform + acetone; HNO$_3$ + water\\
+\bottomrule
+\end{tabularx}\par}
+\vspace{2pt}
+\begin{fl}
+\item Azeotrope: boils at constant $T$, liquid and vapour have the same composition, so it cannot be separated by fractional distillation.
+\end{fl}
+\noindent\begin{minipage}{\linewidth}\centering
+\minigraph{2.2}{1.55}{$x_2\to$}{$p$}{%
+ \draw[uI!60] (0.1,0.45)--(2.0,0.0) node[pos=0.15,below,black]{\tiny$p_1$}; \draw[uI!60] (0.1,0.0)--(2.0,1.0) node[pos=0.85,below right=-1pt,black]{\tiny$p_2$};
+ \draw[uI,thick] (0.1,0.45)--(2.0,1.0); \node[uI] at (1.1,1.35){Ideal};}\hspace{2pt}
+\minigraph{2.2}{1.55}{$x_2\to$}{$p$}{%
+ \draw[black!30,dashed] (0.1,0.45)--(2.0,1.0);
+ \draw[uI,thick] (0.1,0.45) .. controls (0.8,1.25) and (1.4,1.25) .. (2.0,1.0); \node[uI] at (1.1,1.4){$+$ve dev.};}\hspace{2pt}
+\minigraph{2.2}{1.55}{$x_2\to$}{$p$}{%
+ \draw[black!30,dashed] (0.1,0.45)--(2.0,1.0);
+ \draw[uI,thick] (0.1,0.45) .. controls (0.8,0.2) and (1.4,0.35) .. (2.0,1.0); \node[uI] at (1.0,1.35){$-$ve dev.};}
+\end{minipage}
+
+\sub{Colligative properties (depend on number of solute particles only)}
+\begin{kbox}
+RLVP: $\dfrac{p_1^\circ-p_1}{p_1^\circ}=x_2\approx\dfrac{n_2}{n_1}$ \;$\Rightarrow\; M_2=\dfrac{w_2\,M_1\,p_1^\circ}{w_1\,(p_1^\circ-p_1)}$\\[2pt]
+Elevation of b.p.: $\Delta T_b=K_b\,m$ \;$\Rightarrow\; M_2=\dfrac{1000\,K_b\,w_2}{\Delta T_b\,w_1}$\\[2pt]
+Depression of f.p.: $\Delta T_f=K_f\,m$ \;$\Rightarrow\; M_2=\dfrac{1000\,K_f\,w_2}{\Delta T_f\,w_1}$\\[2pt]
+Osmotic pressure: $\pi=CRT=\dfrac{n_2}{V}RT$ \;$\Rightarrow\; M_2=\dfrac{w_2RT}{\pi V}$\\[2pt]
+$K_b=\dfrac{R\,M_1\,T_b^2}{1000\,\Delta_\text{vap}H}$,\quad $K_f=\dfrac{R\,M_1\,T_f^2}{1000\,\Delta_\text{fus}H}$ \;(units K kg mol$^{-1}$; depend on solvent only)
+\end{kbox}
+\noindent\begin{minipage}[c]{0.44\linewidth}
+\minigraph{2.9}{1.8}{$T\to$}{$p$}{%
+ \draw[black!50,dashed] (0,1.15)--(2.7,1.15) node[right,black]{1 atm};
+ \draw[uI!50,thick] (0.2,0.15) .. controls (1.2,0.35) and (1.6,0.8) .. (1.95,1.6) node[above,black]{\tiny solvent};
+ \draw[uI,thick] (0.5,0.15) .. controls (1.5,0.35) and (1.9,0.8) .. (2.25,1.6) node[right,black]{\tiny soln};
+ \draw[black!50] (1.76,1.15)--(1.76,0) node[below]{$T_b^\circ$};
+ \draw[black!50] (2.07,1.15)--(2.07,0) node[below right=-2pt]{$T_b$};
+ \draw[{Stealth[length=2pt]}-{Stealth[length=2pt]}] (1.76,0.5)--(2.07,0.5); \node[above] at (1.9,0.5){\tiny$\Delta T_b$};}
+\end{minipage}\hfill
+\begin{minipage}[c]{0.54\linewidth}\scriptsize
+\begin{fl}
+\item Solution's vapour pressure is lower at every $T$, so it must be heated more to reach 1 atm: $T_b>T_b^\circ$.
+\item Osmosis: solvent moves through a semipermeable membrane from solvent (or dilute) to concentrated side. $\pi$ = extra pressure that just stops it.
+\end{fl}
+\end{minipage}
+\begin{fl}
+\item \textbf{$\pi$ is best for molar mass of proteins/polymers}: measured at room $T$ (biomolecules are heat-sensitive); uses molarity; large and measurable even for very dilute solutions; polymers dissolve poorly.
+\item Isotonic: same $\pi$, no net osmosis. 0.9\% (m/V) NaCl (normal saline) is isotonic with blood cells. Hypertonic outside → cells shrink; hypotonic → cells swell/burst.
+\item Reverse osmosis: pressure $>\pi$ on solution side pushes pure solvent out; desalination of sea water (cellulose acetate membrane).
+\item Everyday osmosis: raw mango shrivels in brine; wilted flowers revive in fresh water; salt/sugar preserve food (bacteria lose water); too much salt causes puffiness (oedema).
+\end{fl}
+\sub{Abnormal molar mass — van't Hoff factor}
+\begin{kbox}
+$i=\dfrac{\text{normal molar mass}}{\text{abnormal (observed) molar mass}}=\dfrac{\text{observed colligative property}}{\text{calculated colligative property}}$\\[2pt]
+$\Delta T_b=iK_bm,\quad \Delta T_f=iK_fm,\quad \pi=iCRT,\quad \dfrac{\Delta p}{p_1^\circ}=i\dfrac{n_2}{n_1}$\\[2pt]
+Dissociation into $n$ ions: $\alpha=\dfrac{i-1}{n-1}$ \qquad Association of $n$ molecules: $\alpha=\dfrac{1-i}{1-\frac1n}$
+\end{kbox}
+\begin{fl}
+\item Complete dissociation: KCl, NaCl $i=2$; K$_2$SO$_4$, CaCl$_2$ $i=3$; AlCl$_3$, K$_3$[Fe(CN)$_6$] $i=4$; Al$_2$(SO$_4$)$_3$, K$_4$[Fe(CN)$_6$] $i=5$; glucose, urea $i=1$.
+\item Association: ethanoic acid / benzoic acid dimerise in benzene (H-bonding) → $i\approx0.5$, molar mass appears doubled.
+\item Same molality, different solutes: larger $i$ → larger $\Delta T_b$, $\Delta T_f$, $\pi$ and \emph{lower} f.p.
+\end{fl}
+\begin{tip}\Tip $\Delta T$ in kelvin = $\Delta T$ in $^\circ$C, but $T$ in $\pi=CRT$ must be in K. Use $R=0.083$ L\,bar for $\pi$ in bar; $V$ in litres. $w_1$ is mass of \emph{solvent}, not solution. Molality uses kg; the 1000 in the formula converts g to kg.\end{tip}
+\begin{numbox}\Num\par\scriptsize
+\textbf{(1) Molar mass from $\Delta T_f$.} 1.00 g non-electrolyte in 50 g benzene lowers f.p. by 0.40 K ($K_f=5.12$): $M_2=\dfrac{1000\times5.12\times1.00}{0.40\times50}=\boxed{256\text{ g mol}^{-1}}$\\[1pt]
+\textbf{(2) Molar mass from $\pi$.} 1.26 g protein in 200 mL, $\pi=2.57\times10^{-3}$ bar at 300 K: $M_2=\dfrac{1.26\times0.083\times300}{2.57\times10^{-3}\times0.200}\approx\boxed{6.1\times10^4\text{ g mol}^{-1}}$\\[1pt]
+\textbf{(3) With $i$.} Find $i$ from formula (or from $\alpha$), multiply into $\Delta T$/$\pi$; or find $i$ = calc.\,$M$ / observed $M$, then $\alpha$.\\[1pt]
+\textbf{(4) RLVP} (\SQP): $\dfrac{\Delta p}{p^\circ}=\dfrac{w_2M_1}{M_2w_1}$ — solve for $M_2$. \textbf{(5) ppm / Henry's law}: $x=p/K_H$, then moles of gas.
+\end{numbox}
+
+% =====================================================================
+\unitbanner{uII}{UNIT 2 · ELECTROCHEMISTRY}{9 marks}
+\sub{Galvanic (electrochemical) cell}
+\begin{fl}
+\item Chemical energy of a spontaneous redox reaction → electrical energy. \textbf{Anode: oxidation, negative; cathode: reduction, positive.}
+\item Daniell cell: \ce{Zn(s) | Zn^2+(aq) || Cu^2+(aq) | Cu(s)}, $E^\circ=1.10$ V. Anode on the left, cathode on the right; $\|$ = salt bridge.
+\item Salt bridge (KCl/KNO$_3$ in agar): completes the circuit and keeps both solutions electrically neutral.
+\item SHE: \ce{Pt(s) | H2(g, 1 bar) | H+(aq, 1 M)}, $E^\circ=0.00$ V by convention.
+\end{fl}
+\begin{kbox}
+$E^\circ_\text{cell}=E^\circ_\text{cathode}-E^\circ_\text{anode}=E^\circ_\text{right}-E^\circ_\text{left}$ \;(both as \emph{reduction} potentials)\\[2pt]
+\textbf{Nernst} (298 K): $E_\text{cell}=E^\circ_\text{cell}-\dfrac{0.059}{n}\log\dfrac{[\text{products}]}{[\text{reactants}]}$ \;(general: $E=E^\circ-\dfrac{RT}{nF}\ln Q$)\\[2pt]
+Single electrode \ce{M^n+ + ne- -> M}: $E=E^\circ-\dfrac{0.059}{n}\log\dfrac{1}{[\ce{M^n+}]}$\\[2pt]
+$\Delta_rG^\circ=-nFE^\circ_\text{cell}$;\quad $\Delta_rG=-nFE_\text{cell}$;\quad $\Delta_rG^\circ=-2.303RT\log K_c$\\[2pt]
+Equilibrium ($E_\text{cell}=0$): $\log K_c=\dfrac{nE^\circ_\text{cell}}{0.059}$
+\end{kbox}
+\begin{fl}
+\item Spontaneous if $E_\text{cell}>0$ ($\Delta G<0$). Pure solids/liquids are left out of $Q$; gases enter as partial pressure (bar).
+\item Higher (more positive) $E^\circ_\text{red}$ → stronger oxidising agent (F$_2$). More negative → stronger reducing agent (Li). A metal with lower $E^\circ$ displaces one with higher $E^\circ$ from its salt solution.
+\end{fl}
+{\scriptsize\begin{tabularx}{\linewidth}{@{}X@{\ }r@{\quad}X@{\ }r@{}}
+\toprule
+\multicolumn{4}{@{}l}{\textbf{Standard reduction potentials to know (V, 298 K)}}\\
+\midrule
+\ce{F2/F-} & $+2.87$ & \ce{Cu^2+/Cu} & $+0.34$\\
+\ce{MnO4^-/Mn^2+} & $+1.51$ & \ce{H+/H2} & $0.00$\\
+\ce{Cl2/Cl-} & $+1.36$ & \ce{Fe^2+/Fe} & $-0.44$\\
+\ce{Cr2O7^2-/Cr^3+} & $+1.33$ & \ce{Zn^2+/Zn} & $-0.76$\\
+\ce{O2/H2O} (acid) & $+1.23$ & \ce{2H2O/H2 + 2OH-} & $-0.83$\\
+\ce{Ag+/Ag} & $+0.80$ & \ce{Al^3+/Al} & $-1.66$\\
+\ce{Fe^3+/Fe^2+} & $+0.77$ & \ce{Mg^2+/Mg};\; \ce{Na+/Na} & $-2.36$;\,$-2.71$\\
+\ce{I2/I-} & $+0.54$ & \ce{Li+/Li} & $-3.05$\\
+\bottomrule
+\end{tabularx}\par}
+
+\sub{Conductance of electrolytic solutions}
+\begin{kbox}
+$R=\rho\dfrac{l}{A}$;\quad conductance $G=\dfrac1R$ (S);\quad conductivity $\kappa=\dfrac1\rho=G\cdot\dfrac lA$ (S\,m$^{-1}$ or S\,cm$^{-1}$)\\[2pt]
+Cell constant $G^*=\dfrac lA=R\,\kappa$ (m$^{-1}$ or cm$^{-1}$)\\[2pt]
+Molar conductivity $\Lambda_m=\dfrac{\kappa}{c}$:\quad $\Lambda_m(\text{S cm}^2\text{mol}^{-1})=\dfrac{1000\,\kappa(\text{S cm}^{-1})}{M(\text{mol L}^{-1})}$\\[2pt]
+Strong electrolyte (Debye--Hückel--Onsager): $\Lambda_m=\Lambda_m^\circ-A\sqrt c$\\[2pt]
+\textbf{Kohlrausch}: $\Lambda_m^\circ=\nu_+\lambda_+^\circ+\nu_-\lambda_-^\circ$\\
+e.g.\ $\Lambda^\circ_{\ce{CH3COOH}}=\Lambda^\circ_{\ce{CH3COONa}}+\Lambda^\circ_{\ce{HCl}}-\Lambda^\circ_{\ce{NaCl}}$\\[2pt]
+Weak electrolyte: $\alpha=\dfrac{\Lambda_m}{\Lambda_m^\circ}$;\quad $K_a=\dfrac{c\,\alpha^2}{1-\alpha}$
+\end{kbox}
+\noindent\begin{minipage}[c]{0.42\linewidth}
+\minigraph{2.7}{1.9}{$\sqrt c\to$}{$\Lambda_m$}{%
+ \draw[uII,thick] (0,1.45)--(2.4,1.05) node[above,black]{\tiny KCl (strong)};
+ \draw[uII!70,thick,dashed] (0,1.45)--(-0.0,1.45); \node[left] at (0,1.45){\tiny$\Lambda^\circ_m$};
+ \draw[uII!60,thick] (0.06,1.75) .. controls (0.12,0.45) and (0.5,0.25) .. (2.4,0.15) node[above,black]{\tiny CH$_3$COOH (weak)};}
+\end{minipage}\hfill
+\begin{minipage}[c]{0.56\linewidth}\scriptsize
+\begin{fl}
+\item On dilution: $\kappa$ \textbf{decreases} (fewer ions per cm$^3$); $\Lambda_m$ \textbf{increases} (strong: ions freer; weak: $\alpha$ increases sharply).
+\item Strong: straight line, extrapolate to $c\to0$ for $\Lambda_m^\circ$. Weak: steep curve, cannot extrapolate → use Kohlrausch.
+\end{fl}
+\end{minipage}
+\begin{fl}
+\item $A$ depends on electrolyte type (1-1, 2-1, 2-2), solvent and $T$.
+\item Conductivity depends on: nature of electrolyte, ion size and solvation, solvent viscosity, concentration, $T$ (electrolytic conductance rises with $T$; metallic falls).
+\end{fl}
+\sub{Electrolysis \& Faraday's laws}
+\begin{kbox}
+$Q=It$;\quad 1 F $=96487$ C mol$^{-1}$ (charge on 1 mol e$^-$)\\[1pt]
+First law: $m=ZIt=\dfrac{M}{nF}\,It$ \quad Second law: $\dfrac{m_1}{m_2}=\dfrac{E_1}{E_2}$ \;(same $Q$; $E$ = $M/n$)\\[1pt]
+Charge to discharge 1 mol \ce{M^n+} $=nF$ \;(e.g.\ \ce{Al^3+}: $3F$; metal from \ce{M2O3}: $3F$ per mol M) \SQP
+\end{kbox}
+{\scriptsize\begin{tabularx}{\linewidth}{@{}Y@{\ }Y@{\ }Y@{}}
+\toprule
+\textbf{Electrolysis of} & \textbf{Cathode} & \textbf{Anode}\\
+\midrule
+Molten NaCl (or MgCl$_2$ \SQP) & Na (Mg) & Cl$_2$\\
+Aqueous NaCl & H$_2$ (water reduced: $-0.83>-2.71$) & Cl$_2$ (O$_2$ has overpotential)\\
+Aq.\ CuSO$_4$, Cu electrodes & Cu deposited & Cu dissolves (\ce{Cu -> Cu^2+})\\
+Aq.\ CuSO$_4$, Pt electrodes & Cu deposited & O$_2$\\
+Dilute H$_2$SO$_4$ & H$_2$ & O$_2$\\
+Conc.\ H$_2$SO$_4$ & H$_2$ & \ce{S2O8^2-} (peroxodisulphate)\\
+\bottomrule
+\end{tabularx}\par}
+\vspace{2pt}
+\sub{Batteries \& fuel cell (write all three equations)}
+\begin{fl}
+\item \textbf{Dry (Leclanché) cell} — primary, $\approx$1.5 V. Anode Zn container; cathode graphite rod in MnO$_2$ + C; paste of NH$_4$Cl + ZnCl$_2$.\\
+ Anode: \ce{Zn -> Zn^2+ + 2e-}; \;Cathode: \ce{MnO2 + NH4+ + e- -> MnO(OH) + NH3}
+\item \textbf{Mercury cell} — primary, 1.35 V, constant (no ions in overall reaction); hearing aids, watches.\\
+ Anode: \ce{Zn(Hg) + 2OH- -> ZnO + H2O + 2e-}; Cathode: \ce{HgO + H2O + 2e- -> Hg + 2OH-}\\
+ Overall: \ce{Zn(Hg) + HgO -> ZnO + Hg}
+\item \textbf{Lead storage battery} — secondary; anode Pb, cathode PbO$_2$ grid, electrolyte 38\% H$_2$SO$_4$ \SQP.\\
+ Anode: \ce{Pb + SO4^2- -> PbSO4 + 2e-}; Cathode: \ce{PbO2 + SO4^2- + 4H+ + 2e- -> PbSO4 + 2H2O}\\
+ Overall (discharge): \ce{Pb + PbO2 + 2H2SO4 -> 2PbSO4 + 2H2O}; charging reverses it. Ni--Cd: longer life, costlier.
+\item \textbf{H$_2$--O$_2$ fuel cell} \SQP — porous carbon electrodes with Pt/Pd, conc.\ NaOH.\\
+ Cathode: \ce{O2 + 2H2O + 4e- -> 4OH-}; Anode: \ce{2H2 + 4OH- -> 4H2O + 4e-}; Overall: \ce{2H2 + O2 -> 2H2O}\\
+ About 70\% efficient (thermal plant $\approx$40\%), no pollution, continuous supply of reactants; used in Apollo missions.
+\end{fl}
+\sub{Corrosion (rusting is electrochemical)}
+\begin{kbox}
+Anode: \ce{2Fe -> 2Fe^2+ + 4e-} ($E^\circ_{\ce{Fe^2+/Fe}}=-0.44$ V)\quad Cathode: \ce{O2 + 4H+ + 4e- -> 2H2O} ($1.23$ V)\\
+Overall: \ce{2Fe + O2 + 4H+ -> 2Fe^2+ + 2H2O}, $E^\circ_\text{cell}=1.67$ V; \ce{Fe^2+} → rust \ce{Fe2O3.xH2O}
+\end{kbox}
+\begin{fl}
+\item H$^+$ from \ce{H2CO3} (CO$_2$ + water); salt water speeds it up. Prevention: barrier (paint, grease); sacrificial/galvanic protection with more active Zn or Mg (galvanising) \SQP; anti-rust chemicals.
+\end{fl}
+\begin{tip}\Tip Never multiply $E^\circ$ when you multiply an equation ($E^\circ$ is intensive; $\Delta G^\circ$ is extensive). In electrolytic cells the anode is $+$, but oxidation still happens there. $n$ = electrons in the \emph{balanced overall} equation. Convert $\kappa$ to S\,cm$^{-1}$ before using $1000\kappa/M$.\end{tip}
+\begin{numbox}\Num\par\scriptsize
+\textbf{(1) Nernst.} \ce{Mg|Mg^2+(0.001 M)||Cu^2+(0.0001 M)|Cu}, $E^\circ=2.71$ V, $n=2$:\\
+$E=2.71-\dfrac{0.059}{2}\log\dfrac{10^{-3}}{10^{-4}}=2.71-0.0295=\boxed{2.68\text{ V}}$\\[1pt]
+\textbf{(2) $\Delta G^\circ$ and $K$.} Daniell, $E^\circ=1.10$ V: $\Delta_rG^\circ=-2\times96487\times1.10=\boxed{-212.3\text{ kJ mol}^{-1}}$; $\log K_c=\dfrac{2\times1.10}{0.059}=37.29$, $K_c\approx\boxed{1.9\times10^{37}}$\\[1pt]
+\textbf{(3) $\Lambda_m$.} 0.20 M KCl, $\kappa=0.0248$ S\,cm$^{-1}$: $\Lambda_m=\dfrac{1000\times0.0248}{0.20}=\boxed{124\text{ S cm}^2\text{mol}^{-1}}$\\[1pt]
+\textbf{(4) Kohlrausch + $\alpha$.} $\Lambda^\circ_{\ce{CH3COOH}}=91.0+425.9-126.4=390.5$; if $\Lambda_m=48.15$ at $c=0.001028$ M: $\alpha=0.123$, $K_a=\dfrac{c\alpha^2}{1-\alpha}=\boxed{1.78\times10^{-5}}$\\[1pt]
+\textbf{(5) Faraday.} 2 A for 30 min through CuSO$_4$: $Q=3600$ C; $m=\dfrac{63.5\times3600}{2\times96500}=\boxed{1.18\text{ g Cu}}$
+\end{numbox}
+
+% =====================================================================
+\unitbanner{uIII}{UNIT 3 · CHEMICAL KINETICS}{7 marks}
+\sub{Rate, rate law, order, molecularity}
+\begin{kbox}
+For \ce{aA + bB -> cC + dD}: \;rate $=-\dfrac1a\dfrac{d[\ce A]}{dt}=-\dfrac1b\dfrac{d[\ce B]}{dt}=+\dfrac1c\dfrac{d[\ce C]}{dt}=+\dfrac1d\dfrac{d[\ce D]}{dt}$\\[2pt]
+Average rate $=-\dfrac{\Delta[R]}{\Delta t}$; instantaneous rate = slope of tangent on $[R]$--$t$ curve\\[2pt]
+Rate law: rate $=k[\ce A]^x[\ce B]^y$;\quad order $=x+y$ (found by experiment)\\[2pt]
+Units of $k$: $(\text{mol L}^{-1})^{1-n}\,\text{s}^{-1}$ → zero: mol L$^{-1}$s$^{-1}$; first: s$^{-1}$; second: L mol$^{-1}$s$^{-1}$
+\end{kbox}
+{\scriptsize\begin{tabularx}{\linewidth}{@{}l@{\ }Y@{\ }Y@{}}
+\toprule
+ & \textbf{Order} & \textbf{Molecularity}\\
+\midrule
+Meaning & sum of powers in experimental rate law & number of species colliding in one elementary step\\
+Values & 0, fraction, integer, can change with conditions & 1, 2, 3 only (whole number, never 0)\\
+Applies to & elementary and complex reactions & elementary steps only (meaningless for overall complex reaction)\\
+Found by & experiment & theory / mechanism\\
+\bottomrule
+\end{tabularx}\par}
+\vspace{2pt}
+\begin{fl}
+\item Complex reaction: the \textbf{slowest step decides the rate} (rate-determining step). Molecularity $>3$ is rare (simultaneous collision unlikely).
+\item Factors: concentration, temperature, catalyst, nature of reactants, surface area.
+\end{fl}
+\sub{Integrated rate equations}
+{\scriptsize\begin{tabularx}{\linewidth}{@{}l@{\ }Y@{\ }Y@{}}
+\toprule
+ & \textbf{Zero order} & \textbf{First order}\\
+\midrule
+Rate law & rate $=k$ & rate $=k[R]$\\
+Integrated & $[R]=[R]_0-kt$ & $k=\dfrac{2.303}{t}\log\dfrac{[R]_0}{[R]}$;\; $[R]=[R]_0e^{-kt}$\\[3pt]
+Half-life & $t_{1/2}=\dfrac{[R]_0}{2k}$ ($\propto[R]_0$) & $t_{1/2}=\dfrac{0.693}{k}$ (independent of $[R]_0$)\\[3pt]
+Straight line & $[R]$ vs $t$: slope $-k$, intercept $[R]_0$ & $\ln[R]$ vs $t$: slope $-k$;\; $\log\frac{[R]_0}{[R]}$ vs $t$: slope $\frac{k}{2.303}$\\
+Rate vs $[R]$ & horizontal line & straight line through origin\\
+Examples & \ce{2NH3 ->[Pt][high p] N2 + 3H2}; \ce{2HI ->[Au] H2 + I2} & \ce{2N2O5 -> 4NO2 + O2}; \ce{2N2O -> 2N2 + O2}; hydrogenation of ethene; all radioactive decay\\
+\bottomrule
+\end{tabularx}\par}
+\vspace{2pt}
+\begin{kbox}
+First-order gas reaction \ce{A(g) -> B(g) + C(g)} (total pressure $p_t$, initial $p_i$): \;$k=\dfrac{2.303}{t}\log\dfrac{p_i}{2p_i-p_t}$\\[2pt]
+First order: $t_{75\%}=2t_{1/2}$ \SQP;\;\; $t_{90\%}=\dfrac{2.303}{k}=3.32\,t_{1/2}$;\;\; $t_{99.9\%}=\dfrac{6.909}{k}\approx10\,t_{1/2}$;\;\; after $n$ half-lives $[R]=[R]_0/2^n$
+\end{kbox}
+\begin{fl}
+\item \textbf{Pseudo first order}: second order overall but one reactant in large excess (water): acid hydrolysis of ethyl acetate; inversion of cane sugar \ce{C12H22O11 + H2O ->[H+] C6H12O6 (glucose) + C6H12O6 (fructose)}; hydrolysis of acetyl chloride \SQP. Rate $=k'[\text{ester}]$, $k'=k[\ce{H2O}]$.
+\end{fl}
+\noindent\begin{minipage}{\linewidth}\centering
+\minigraph{1.7}{1.35}{$t$}{$[R]$}{\draw[uIII,thick] (0,1.1)--(1.5,0.15); \node[uIII] at (1.0,1.15){0 order};}\hspace{3pt}
+\minigraph{1.7}{1.35}{$t$}{$\ln[R]$}{\draw[uIII,thick] (0,1.1)--(1.5,0.2); \node[uIII] at (1.0,1.15){1st order};}\hspace{3pt}
+\minigraph{1.7}{1.35}{$t$}{$t_{1/2}$ vs $[R]_0$}{\draw[uIII,thick] (0,0.15)--(1.5,1.05) node[right,black]{\tiny0}; \draw[uIII!60,thick] (0,0.6)--(1.5,0.6) node[right,black]{\tiny1st};}\hspace{3pt}
+\minigraph{1.7}{1.35}{$1/T$}{$\log k$}{\draw[uIII,thick] (0.05,1.1)--(1.5,0.2); \node[uIII,align=left] at (1.05,1.1){\tiny slope\\[-2pt]\tiny$-\frac{E_a}{2.303R}$};}
+\end{minipage}
+
+\sub{Temperature dependence — Arrhenius}
+\begin{kbox}
+$k=A\,e^{-E_a/RT}$;\quad $\ln k=\ln A-\dfrac{E_a}{RT}$;\quad $\log k=\log A-\dfrac{E_a}{2.303RT}$\\[2pt]
+$\log\dfrac{k_2}{k_1}=\dfrac{E_a}{2.303R}\left(\dfrac1{T_1}-\dfrac1{T_2}\right)=\dfrac{E_a}{2.303R}\left(\dfrac{T_2-T_1}{T_1T_2}\right)$\\[2pt]
+$e^{-E_a/RT}$ = fraction of molecules with energy $\ge E_a$;\quad 10 K rise roughly doubles $k$ (temperature coefficient $\dfrac{k_{T+10}}{k_T}\approx2$--$3$)
+\end{kbox}
+\noindent\begin{minipage}[c]{0.49\linewidth}\centering
+\minigraph{2.8}{1.8}{reaction coordinate}{PE}{%
+ \draw[uIII,thick] (0.15,0.55) .. controls (0.7,0.55) and (0.9,1.55) .. (1.3,1.55) .. controls (1.7,1.55) and (1.9,0.3) .. (2.6,0.3);
+ \draw[uIII!60,thick,dashed] (0.15,0.55) .. controls (0.8,0.55) and (1.0,1.05) .. (1.3,1.05) .. controls (1.6,1.05) and (1.8,0.3) .. (2.6,0.3);
+ \node[above] at (1.3,1.55){\tiny activated complex};
+ \draw[{Stealth[length=2pt]}-{Stealth[length=2pt]}] (0.35,0.55)--(0.35,1.55); \node[left] at (0.35,1.1){\tiny$E_a$};
+ \node[uIII!70] at (2.15,0.95){\tiny catalysed};
+ \node[right] at (2.0,0.12){\tiny products};}
+\end{minipage}\hfill
+\begin{minipage}[c]{0.49\linewidth}\centering
+\minigraph{2.8}{1.8}{kinetic energy}{fraction}{%
+ \draw[uIII,thick] (0,0) .. controls (0.3,1.65) and (0.6,1.6) .. (1.0,0.9) .. controls (1.4,0.3) and (2.0,0.12) .. (2.6,0.05) node[above,black]{\tiny$T$};
+ \draw[uIII!55,thick] (0,0) .. controls (0.4,1.3) and (0.8,1.3) .. (1.2,0.85) .. controls (1.6,0.45) and (2.1,0.22) .. (2.6,0.12);
+ \node[uIII!70] at (1.6,1.2){\tiny$T+10$};
+ \draw[black!60,dashed] (1.9,0)--(1.9,0.9) node[above]{\tiny$E_a$};
+ \fill[uIII!25] (1.9,0)--(1.9,0.2)--(2.6,0.12)--(2.6,0)--cycle;}
+\end{minipage}
+\begin{fl}
+\item Area beyond $E_a$ (molecules able to react) roughly doubles for a 10 K rise. Peak shifts right and flattens; total area stays the same.
+\item \textbf{Catalyst}: gives an alternative path with lower $E_a$; speeds forward and backward reactions equally; does not change $\Delta G$ or $K$; unchanged at the end.
+\end{fl}
+\sub{Collision theory}
+\begin{kbox}
+Rate $=P\,Z_{AB}\,e^{-E_a/RT}$ \quad ($Z_{AB}$ = collision frequency, $P$ = probability/steric factor)
+\end{kbox}
+\begin{fl}
+\item Effective collision needs (i) energy $\ge$ threshold energy and (ii) proper orientation. $E_a$ = threshold energy $-$ average energy of reactants.
+\end{fl}
+\sub{Order from initial-rate data}
+\begin{fl}
+\item Keep [B] fixed: $[A]\times2$ → rate $\times2^x$. Rate unchanged → $x=0$; doubles → 1; $\times4$ → 2; $\times8$ → 3. Then put one data row into rate $=k[A]^x[B]^y$ to get $k$ with units.
+\end{fl}
+\begin{tip}\Tip For first order, any concentration unit (or pressure, or mass) works in the ratio $[R]_0/[R]$. $t_{1/2}$ that stays constant in data ⇒ first order; $t_{1/2}$ halving as $[R]_0$ halves ⇒ zero order. In the Arrhenius two-point form use $R=8.314$ and $E_a$ in J, then convert to kJ.\end{tip}
+\begin{numbox}\Num\par\scriptsize
+\textbf{(1) Time for first order.} $k=1.15\times10^{-3}$ s$^{-1}$, 5 g → 3 g: $t=\dfrac{2.303}{1.15\times10^{-3}}\log\dfrac53=2003\times0.2218=\boxed{444\text{ s}}$\\[1pt]
+\textbf{(2) 99.9\% = 10 half-lives.} $t_{99.9\%}=\dfrac{2.303}{k}\log1000=\dfrac{6.909}{k}$; ratio to $\dfrac{0.693}{k}$ is $\approx10$.\\[1pt]
+\textbf{(3) $E_a$ from two temperatures.} $k$ doubles from 298 K to 308 K: $0.3010=\dfrac{E_a}{2.303\times8.314}\cdot\dfrac{10}{298\times308}$ ⇒ $E_a=\boxed{52.9\text{ kJ mol}^{-1}}$\\[1pt]
+\textbf{(4) $E_a$ from a $\log k$ vs $1/T$ plot} \SQP: slope $=-\dfrac{E_a}{2.303R}$ ⇒ $E_a=-2.303R\times\text{slope}$.\\[1pt]
+\textbf{(5) Zero order} \SQP: rate constant = rate (mol L$^{-1}$s$^{-1}$); $t_{1/2}=[R]_0/2k$; time to finish $=[R]_0/k$.
+\end{numbox}
+
+\end{multicols}
+
+% ================= CHECKLIST =================
+\begin{tcolorbox}[enhanced,colback=navy,colframe=navy,arc=2pt,left=6pt,right=6pt,top=2pt,bottom=2pt,before skip=4pt]
+\color{white}\sffamily\bfseries\small BOARD CHECKLIST — Physical Chemistry \hfill\footnotesize\mdseries tick when practised ☐
+\end{tcolorbox}
+\begin{multicols}{3}\raggedcolumns
+\scriptsize
+\textbf{\textcolor{uI}{Ch 1 Solutions}} Henry's law + 3 uses; Raoult's law (both forms); ideal vs non-ideal table with examples; azeotropes (min/max boiling); all four colligative formulas → molar mass; why $\pi$ for proteins; isotonic/hyper/hypo; reverse osmosis; van't Hoff factor, abnormal molar mass, $\alpha$. \emph{Graphs:} $p$--$x$ for ideal/+ve/$-$ve; $p$--$T$ showing $\Delta T_b$ (and $\Delta T_f$).
+
+\textbf{\textcolor{uII}{Ch 2 Electrochemistry}} Cell notation, $E^\circ_\text{cell}$, Nernst (cell \& electrode), $\Delta G^\circ$--$E^\circ$--$K$; $\kappa$, $\Lambda_m$, cell constant; $\Lambda_m$ vs $\sqrt c$ graph and reason; Kohlrausch (statement + 2 uses); Faraday's laws; products of electrolysis; dry, mercury, lead storage, fuel cell equations; corrosion mechanism + prevention.
+
+\textbf{\textcolor{uIII}{Ch 3 Chemical Kinetics}} Rate expression from stoichiometry; order vs molecularity; units of $k$; integrated rate law \textbf{derivation} for zero and first order; $t_{1/2}$ both; pseudo first order; order from initial rates; Arrhenius (both forms), $E_a$ numericals; effect of catalyst; collision theory. \emph{Graphs:} the four plots above, energy profile, Maxwell--Boltzmann at $T$, $T+10$.
+\end{multicols}
+
+\begin{tcolorbox}[enhanced,colback=white,colframe=navy,boxrule=0.8pt,arc=2pt,title={\sffamily\bfseries\footnotesize My notes},colbacktitle=navy,coltitle=white,height fill,before skip=4pt]
+\end{tcolorbox}
+
+\end{document}

@@ -1,0 +1,165 @@
+\documentclass[10pt,a4paper]{extarticle}
+\usepackage[a4paper,margin=10mm,top=9mm,bottom=11mm]{geometry}
+\input{../preambles/chemistry-preamble}
+\fancyfoot[L]{\tiny\sffamily\color{black!55} Class 12 Chemistry · \sheetname · CBSE Board 2026--27 (paper 27 Feb 2027)}
+\fancyfoot[R]{\tiny\sffamily\color{black!55} Page \thepage}
+
+% ---------- Notes-specific macros ----------
+\newcommand{\st}[1]{\textcolor{tipYframe!90!black}{\ifcase#1\or\ding{72}\or\ding{72}\ding{72}\or\ding{72}\ding{72}\ding{72}\fi}}
+\newcommand{\ty}[1]{\tagbox{uc!75!black}{#1}}
+\newcommand{\mk}[1]{{\scriptsize\color{black!55}[#1]}}
+\newenvironment{rqlist}{\begin{enumerate}[leftmargin=12pt,label={\sffamily\bfseries\scriptsize\color{uc}\arabic*.},itemsep=1pt]}{\end{enumerate}}
+\newcommand{\ans}{\par\hspace*{2pt}{\color{uc}$\hookrightarrow$}\;}
+\newtcolorbox{skel}[1]{enhanced,colback=white,colframe=uc,boxrule=0.5pt,arc=1.5pt,left=3pt,right=3pt,top=1pt,bottom=1pt,boxsep=1pt,before skip=2pt,after skip=3pt,
+  title={\sffamily\bfseries\scriptsize #1},colbacktitle=uc!85,coltitle=white,toptitle=0.5pt,bottomtitle=0.5pt}
+\newcommand{\chapterhead}[4]{% colour, title, marks, subtitle
+  \newpage\colorlet{uc}{#1}%
+  \begin{tcolorbox}[enhanced,colback=#1,colframe=#1,arc=2pt,left=6pt,right=6pt,top=3pt,bottom=3pt,after skip=3pt]
+  \color{white}\sffamily{\large\bfseries #2}\hfill{\small\bfseries #3}\\[-1pt]{\scriptsize #4}
+  \end{tcolorbox}}
+
+% orbital boxes: 0 empty, 1 up, 2 pair, 3 ligand electron pair (shaded)
+\newcommand{\ob}[1]{\begin{tikzpicture}[x=2.9mm,y=2.9mm,baseline=0.3mm,line width=0.35pt]
+\foreach \s [count=\i from 0] in {#1}{%
+ \ifnum\s=3 \fill[uc!28] (\i,0) rectangle ++(1,1);\fi
+ \draw[black!65] (\i,0) rectangle ++(1,1);
+ \ifnum\s>0 \draw[-{Stealth[length=1.6pt]}] (\i+0.33,0.12)--(\i+0.33,0.88);\fi
+ \ifnum\s>1 \draw[{Stealth[length=1.6pt]}-] (\i+0.67,0.12)--(\i+0.67,0.88);\fi}
+\end{tikzpicture}}
+\def\sheetname{Expert Q\&A}
+\raggedbottom
+\begin{document}
+\small
+
+% ---------- Q&A sheet macros (used after \begin{document}) ----------
+\newcounter{qn}\newcounter{an}
+\newcommand{\Q}{\par\addvspace{4pt}\refstepcounter{qn}\noindent\hangindent=21pt\hangafter=1\makebox[21pt][l]{\sffamily\bfseries\footnotesize\color{uc}Q\theqn.}}
+\newcommand{\An}{\par\addvspace{4pt}\refstepcounter{an}\noindent\hangindent=21pt\hangafter=1\makebox[21pt][l]{\sffamily\bfseries\footnotesize\color{uc}A\thean.}}
+\newcommand{\nl}{\par\noindent\hangindent=21pt\hangafter=0}
+\newcommand{\secbar}[2]{\par\addvspace{4pt}\needspace{5\baselineskip}\noindent
+  \begin{tcolorbox}[enhanced,colback=uc!18,colframe=uc,boxrule=0pt,leftrule=3pt,arc=0pt,boxsep=0.5pt,left=3pt,right=3pt,top=1pt,bottom=1pt,before skip=3pt,after skip=2pt]
+  \sffamily\bfseries\color{uc!80!black}\footnotesize #1\hfill\scriptsize #2
+  \end{tcolorbox}}
+\newcommand{\qatitle}[5]{% number, title, chapters, marks, time
+  \gdef\sheetname{Expert Q\&A Sheet #1 of 6: #2}
+  \begin{tcolorbox}[enhanced,colback=navy,colframe=navy,arc=2pt,left=8pt,right=8pt,top=5pt,bottom=5pt]
+  \color{white}\sffamily
+  {\LARGE\bfseries Class 12 Chemistry — Expert Q\&A Sheet #1 of 6}\\[3pt]
+  {\large #2} \hfill {\small #3}\\[2pt]
+  {\footnotesize CBSE Board 2026--27 pattern · Rationalised NCERT · Paper: \textbf{Sat 27 Feb 2027} · \textbf{#4 marks · #5 min} · Questions first, full-mark answers with step marks at the end}
+  \end{tcolorbox}
+  \begin{tcolorbox}[enhanced,colback=tipY,colframe=tipYframe,boxrule=0.5pt,arc=1.5pt,left=4pt,right=4pt,top=1.5pt,bottom=1.5pt,before skip=3pt,after skip=3pt]
+  \footnotesize\textbf{How to use.} Sit it like a test: set a timer, write on paper, no notes. Then mark yourself against the answer section, step by step. \textbf{Honest label:} every question is \textbf{PYQ-style} — the question types and data patterns that recur in CBSE papers of 2022--2026 and in NCERT — written in my own words, not copied from a specific year's paper. Step-mark splits follow the usual CBSE marking-scheme pattern and are estimates.
+  \end{tcolorbox}}
+\newcommand{\answerstart}{\newpage
+  \begin{tcolorbox}[enhanced,colback=navy,colframe=navy,arc=2pt,left=6pt,right=6pt,top=3pt,bottom=3pt,after skip=3pt]
+  \color{white}\sffamily{\large\bfseries Answers \& marking scheme}\hfill{\small written the way a full-marks script reads · {\scriptsize[\,]} = step marks}
+  \end{tcolorbox}}
+\newcommand{\scorebox}[1]{%
+  \begin{tcolorbox}[enhanced,colback=white,colframe=navy,boxrule=0.8pt,arc=2pt,title={\sffamily\bfseries\footnotesize My score: \underline{\hspace{10mm}} / #1 \quad · \quad Time taken: \underline{\hspace{10mm}} min \quad · \quad Questions to redo / errors to log},colbacktitle=navy,coltitle=white,height fill,before skip=4pt]
+  \end{tcolorbox}}
+
+\colorlet{uc}{uVIII}
+\qatitle{4}{Organic Chemistry B}{Ch 8 Aldehydes, Ketones and Carboxylic Acids}{42}{75}
+\begin{multicols}{2}\raggedcolumns
+\secbar{SECTION A · MCQ and assertion--reason}{8 × 1 = 8}
+\Q Which compound does \emph{not} give a red precipitate with Fehling's solution?\nl (a) methanal \quad (b) ethanal \quad (c) benzaldehyde \quad (d) propanal \mk{1}
+\Q Which compound gives a yellow precipitate with iodine and NaOH?\nl (a) pentan-3-one \quad (b) pentan-2-one \quad (c) propanal \quad (d) benzaldehyde \mk{1}
+\Q The strongest acid among the following is\nl (a) \ce{CH3COOH} \quad (b) \ce{ClCH2COOH} \quad (c) \ce{Cl2CHCOOH} \quad (d) \ce{Cl3CCOOH} \mk{1}
+\Q Which reagent converts $>$\ce{C=O} directly into $>$\ce{CH2}?\nl (a) \ce{LiAlH4} \quad (b) \ce{NaBH4} \quad (c) Zn--Hg / conc.\ HCl \quad (d) PCC \mk{1}
+\Q Which compound undergoes the Cannizzaro reaction?\nl (a) ethanal \quad (b) propanone \quad (c) propanal \quad (d) benzaldehyde \mk{1}
+\Q Benzoyl chloride, on hydrogenation over Pd supported on \ce{BaSO4}, gives\nl (a) benzyl alcohol \quad (b) benzaldehyde \quad (c) benzoic acid \quad (d) toluene \mk{1}
+\nl\textit{For Q7--Q8 choose: (a) A and R true, R explains A; (b) both true, R does not explain A; (c) A true, R false; (d) A false, R true.}
+\Q \textbf{A:} Aldehydes are more reactive than ketones towards nucleophilic addition. \textbf{R:} The two alkyl groups of a ketone hinder the attack and reduce the positive charge on the carbonyl carbon. \mk{1}
+\Q \textbf{A:} Carboxylic acids boil at higher temperatures than alcohols of comparable molar mass. \textbf{R:} Carboxylic acid molecules cannot form hydrogen bonds with each other. \mk{1}
+
+\secbar{SECTION B · Very short answer}{4 × 2 = 8}
+\Q Write one equation each for (i) Rosenmund reduction, (ii) Wolff--Kishner reduction. \mk{2}
+\Q Give one chemical test each to distinguish (i) propanal and propanone, (ii) benzoic acid and phenol. \mk{2}
+\Q Arrange as directed:\nl (i) benzoic acid, 4-nitrobenzoic acid, 4-methoxybenzoic acid (increasing acid strength)\nl (ii) ethanal, propanone, di-tert-butyl ketone, tert-butyl methyl ketone (increasing reactivity towards HCN) \mk{2}
+\Q Give reasons: (i) the $\alpha$-hydrogen atoms of aldehydes and ketones are acidic; (ii) chloroethanoic acid is a stronger acid than ethanoic acid. \mk{2}
+
+\secbar{SECTION C · Short answer}{4 × 3 = 12}
+\Q Write the mechanism of the addition of HCN to a carbonyl compound. Why is a trace of base added? \mk{3}
+\Q How will you carry out these conversions?\nl (i) ethanol to 3-hydroxybutanal \quad (ii) propanone to propene \quad (iii) bromobenzene to benzoic acid \mk{3}
+\Q Complete the reactions and name the organic products:\nl (i) \ce{CH3CHO + NH2OH ->[H+]}\nl (ii) \ce{2C6H5CHO + NaOH(conc.) ->}\nl (iii) \ce{CH3CH2COOH ->[(i) Br2 / red P][(ii) H2O]} \mk{3}
+\Q Give reasons:\nl (i) Benzoic acid does not undergo the Friedel--Crafts reaction.\nl (ii) Only one of the two \ce{-NH2} groups of semicarbazide reacts with carbonyl compounds.\nl (iii) Carboxylic acids are stronger acids than phenols. \mk{3}
+
+\secbar{SECTION D · Case-based}{1 × 4 = 4}
+\Q \textit{Simple test-tube reactions pick out oxygen-containing functional groups. 2,4-Dinitrophenylhydrazine gives a yellow-orange precipitate with any aldehyde or ketone. Tollens' reagent is reduced to a silver mirror by aldehydes only. Iodine with NaOH gives yellow iodoform with compounds having a \ce{CH3CO-} group or a \ce{CH3CH(OH)-} group. Sodium hydrogencarbonate gives brisk effervescence with carboxylic acids.}\\[2pt]
+(i) A compound gives a precipitate with 2,4-DNP but no silver mirror with Tollens' reagent. What class of compound is it? \mk{1}\\
+(ii) Which of ethanol and propan-1-ol gives the iodoform test, and why? \mk{1}\\
+(iii) Write the equation for the reaction of propanal with Tollens' reagent and state the observation. \mk{2}\\
+\textbf{OR} (iii) Give a test, with equation, to distinguish acetophenone from benzophenone. \mk{2}
+
+\secbar{SECTION E · Long answer}{2 × 5 = 10}
+\Q An organic compound A (\ce{C8H8O}) gives an orange-red precipitate with 2,4-DNP reagent and a yellow precipitate on heating with iodine and sodium hydroxide. It neither reduces Tollens' or Fehling's reagent nor decolourises bromine water. On drastic oxidation with chromic acid it gives a carboxylic acid B (\ce{C7H6O2}). Identify A and B and explain the reactions. \mk{5}
+\Q (a) Write the structures and names of the products formed when propanal is treated with dilute NaOH and the product is then heated. \mk{2}\\
+(b) Write the product of the reaction of benzaldehyde with acetophenone in dilute NaOH at 293 K. \mk{1}\\
+(c) Give reasons: (i) methanal undergoes the Cannizzaro reaction but ethanal does not; (ii) methanoic acid is a stronger acid than ethanoic acid. \mk{2}
+\end{multicols}
+
+\answerstart
+\begin{multicols}{2}\raggedcolumns
+\secbar{SECTION A}{1 mark each}
+\An \textbf{(c) benzaldehyde.} Aromatic aldehydes do not reduce Fehling's solution.
+\An \textbf{(b) pentan-2-one.} It has the \ce{CH3CO-} group.
+\An \textbf{(d) \ce{Cl3CCOOH}.} Three Cl atoms give the largest $-I$ effect.
+\An \textbf{(c) Zn--Hg / conc.\ HCl} (Clemmensen reduction).
+\An \textbf{(d) benzaldehyde.} It has no $\alpha$-hydrogen.
+\An \textbf{(b) benzaldehyde} (Rosenmund reduction).
+\An \textbf{(a).}
+\An \textbf{(c).} They form \emph{stronger} hydrogen bonds than alcohols and exist as dimers.
+
+\secbar{SECTION B}{2 marks each}
+\An (i) \ce{C6H5COCl + H2 ->[Pd / BaSO4] C6H5CHO + HCl} \mk{1}\nl
+(ii) \ce{CH3COCH3 ->[(i) NH2NH2][(ii) KOH / ethylene glycol, \Delta] CH3CH2CH3 + N2} \mk{1}
+\An (i) \textbf{Tollens' test:} propanal gives a silver mirror; propanone does not. (Or iodoform test: propanone gives a yellow precipitate; propanal does not.) \mk{1}\nl
+(ii) \textbf{\ce{NaHCO3} test:} benzoic acid gives brisk effervescence of \ce{CO2}; phenol does not. (Or neutral \ce{FeCl3}: phenol gives a violet colour.) \mk{1}
+\An (i) 4-methoxybenzoic acid $<$ benzoic acid $<$ 4-nitrobenzoic acid \mk{1}\nl
+(ii) di-tert-butyl ketone $<$ tert-butyl methyl ketone $<$ propanone $<$ ethanal \mk{1}
+\An (i) The carbonyl group withdraws electrons strongly, and the carbanion (enolate ion) left after losing the $\alpha$-hydrogen is stabilised by resonance. \mk{1}\nl
+(ii) Chlorine has a $-I$ effect; it disperses the negative charge of the carboxylate ion and stabilises it. \mk{1}
+
+\secbar{SECTION C}{3 marks each}
+\An \textbf{Step 1:} the base generates the nucleophile: \ce{HCN + OH- <=> CN- + H2O} \mk{½}\nl
+\textbf{Step 2} (slow): \ce{CN-} attacks the electrophilic carbonyl carbon; the carbon changes from sp$^2$ to sp$^3$, giving a tetrahedral alkoxide intermediate $>$\ce{C(O^-)CN} \mk{1}\nl
+\textbf{Step 3} (fast): the intermediate takes a proton to give the cyanohydrin $>$\ce{C(OH)CN} \mk{½}\nl
+HCN is a weak acid and reacts very slowly on its own; the base produces \ce{CN-}, a much stronger nucleophile, and speeds up the reaction. \mk{1}
+\An (i) \ce{CH3CH2OH ->[PCC] CH3CHO ->[dil. NaOH] CH3CH(OH)CH2CHO} \mk{1}\nl
+(ii) \ce{CH3COCH3 ->[NaBH4] CH3CH(OH)CH3 ->[conc. H2SO4][443 K] CH3CH=CH2} \mk{1}\nl
+(iii) \ce{C6H5Br ->[Mg][dry ether] C6H5MgBr ->[(i) CO2 (dry ice)][(ii) H3O+] C6H5COOH} \mk{1}
+\An (i) \ce{CH3CHO + NH2OH -> CH3CH=N-OH + H2O} — ethanal oxime \mk{1}\nl
+(ii) \ce{2C6H5CHO + NaOH -> C6H5CH2OH + C6H5COONa} — benzyl alcohol and sodium benzoate (Cannizzaro) \mk{1}\nl
+(iii) \ce{CH3CH2COOH -> CH3CH(Br)COOH} — 2-bromopropanoic acid (HVZ reaction) \mk{1}
+\An (i) The \ce{-COOH} group deactivates the ring, and the catalyst \ce{AlCl3} (a Lewis acid) bonds to the carboxyl group. \mk{1}\nl
+(ii) In \ce{H2N-NH-CO-NH2} the \ce{-NH2} attached directly to \ce{C=O} has its lone pair delocalised by resonance with the carbonyl group, so it is not nucleophilic; only the other \ce{-NH2} reacts. \mk{1}\nl
+(iii) The carboxylate ion has two \emph{equivalent} resonance structures with the negative charge on the two electronegative oxygen atoms. In phenoxide the structures are not equivalent and place charge on less electronegative carbon. So carboxylate is more stabilised. \mk{1}
+
+\secbar{SECTION D}{4 marks}
+\An (i) A \textbf{ketone}. \mk{1}\nl
+(ii) \textbf{Ethanol}: it has the \ce{CH3CH(OH)-} unit, which NaOI oxidises to \ce{CH3CHO} (a \ce{CH3CO-} compound). Propan-1-ol has no such unit. \mk{1}\nl
+(iii) \ce{CH3CH2CHO + 2[Ag(NH3)2]+ + 3OH- ->} \ce{CH3CH2COO- + 2Ag v + 2H2O + 4NH3} \mk{1½}\nl
+A bright silver mirror forms on the wall of the test tube. \mk{½}\nl
+\textbf{OR} (iii) \textbf{Iodoform test:} acetophenone gives a yellow precipitate of \ce{CHI3}; benzophenone (no \ce{CH3CO-} group) does not. \mk{1}\nl
+\ce{C6H5COCH3 + 3NaOI -> C6H5COONa + CHI3 v + 2NaOH} \mk{1}
+
+\secbar{SECTION E}{5 marks each}
+\An \textbf{Reasoning.} Precipitate with 2,4-DNP ⇒ a carbonyl group. Yellow precipitate with \ce{I2}/NaOH ⇒ a \ce{CH3CO-} group. No reaction with Tollens' or Fehling's ⇒ a ketone, not an aldehyde. No decolourisation of bromine water although the formula is highly unsaturated ⇒ a benzene ring. \mk{1}\nl
+\textbf{A = acetophenone (1-phenylethanone), \ce{C6H5COCH3}} \mk{1}\nl
+\textbf{B = benzoic acid, \ce{C6H5COOH}} \mk{1}\nl
+\ce{C6H5COCH3} + 2,4-DNP \ce{->}\nl \ce{C6H5C(CH3)=N-NH-C6H3(NO2)2} + \ce{H2O} (orange-red 2,4-dinitrophenylhydrazone) \mk{½}\nl
+\ce{C6H5COCH3 + 3NaOI -> C6H5COONa + CHI3 + 2NaOH} \mk{1}\nl
+\ce{C6H5COCH3 ->[H2CrO4] C6H5COOH} \mk{½}
+\An (a) \ce{2CH3CH2CHO ->[dil. NaOH]}\nl \ce{CH3CH2CH(OH)CH(CH3)CHO} — 3-hydroxy-2-methylpentanal \mk{1}\nl
+\ce{->[\Delta][-H2O] CH3CH2CH=C(CH3)CHO} — 2-methylpent-2-enal \mk{1}\nl
+(b) \ce{C6H5CHO + C6H5COCH3 ->[dil. NaOH][293 K]}\nl \ce{C6H5CH=CH-CO-C6H5 + H2O} — 1,3-diphenylprop-2-en-1-one (benzalacetophenone); a cross aldol condensation. \mk{1}\nl
+(c)(i) Methanal has no $\alpha$-hydrogen, so with concentrated alkali it disproportionates (Cannizzaro). Ethanal has $\alpha$-hydrogens and undergoes aldol condensation instead. \mk{1}\nl
+(ii) The \ce{-CH3} group of ethanoic acid has a +I effect, which intensifies the negative charge on the carboxylate ion and destabilises it; methanoate has no such group. \mk{1}
+\end{multicols}
+\begin{tcolorbox}[enhanced,colback=tipY,colframe=tipYframe,boxrule=0.5pt,arc=1.5pt,left=4pt,right=4pt,top=2pt,bottom=2pt,before skip=4pt]
+\footnotesize\textbf{Where a 70/70 script wins marks here.} (1) In ``identify A and B'' answers, each clue is turned into one inference before the structure is given. (2) Every distinguishing test states what \emph{both} compounds do. (3) Aldol answers show the $\beta$-hydroxy product first, then the dehydrated product with ``heat''. (4) Named reductions carry the full reagent (Pd/\ce{BaSO4}; \ce{NH2NH2} then KOH/ethylene glycol). (5) Acidity and reactivity orders are followed by one line naming the effect ($-I$, +I, steric, resonance).
+\end{tcolorbox}
+\scorebox{42}
+
+\end{document}

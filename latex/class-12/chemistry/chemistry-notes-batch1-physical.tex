@@ -1,0 +1,464 @@
+\documentclass[10pt,a4paper]{extarticle}
+\usepackage[a4paper,margin=10mm,top=9mm,bottom=11mm]{geometry}
+\input{../preambles/chemistry-preamble}
+\fancyfoot[L]{\tiny\sffamily\color{black!55} Class 12 Chemistry · Must-Have Notes · Batch 1: Physical Chemistry (Ch 1--3) · CBSE Board 2026--27 (paper 27 Feb 2027)}
+\fancyfoot[R]{\tiny\sffamily\color{black!55} Page \thepage}
+
+% ---------- Notes-specific macros ----------
+\newcommand{\st}[1]{\textcolor{tipYframe!90!black}{\ifcase#1\or\ding{72}\or\ding{72}\ding{72}\or\ding{72}\ding{72}\ding{72}\fi}}
+\newcommand{\ty}[1]{\tagbox{uc!75!black}{#1}}
+\newcommand{\mk}[1]{{\scriptsize\color{black!55}[#1]}}
+\newenvironment{rqlist}{\begin{enumerate}[leftmargin=12pt,label={\sffamily\bfseries\scriptsize\color{uc}\arabic*.},itemsep=1pt]}{\end{enumerate}}
+\newcommand{\ans}{\par\hspace*{2pt}{\color{uc}$\hookrightarrow$}\;}
+\newtcolorbox{skel}[1]{enhanced,colback=white,colframe=uc,boxrule=0.5pt,arc=1.5pt,left=3pt,right=3pt,top=1pt,bottom=1pt,boxsep=1pt,before skip=2pt,after skip=3pt,
+  title={\sffamily\bfseries\scriptsize #1},colbacktitle=uc!85,coltitle=white,toptitle=0.5pt,bottomtitle=0.5pt}
+\newcommand{\chapterhead}[4]{% colour, title, marks, subtitle
+  \newpage\colorlet{uc}{#1}%
+  \begin{tcolorbox}[enhanced,colback=#1,colframe=#1,arc=2pt,left=6pt,right=6pt,top=3pt,bottom=3pt,after skip=3pt]
+  \color{white}\sffamily{\large\bfseries #2}\hfill{\small\bfseries #3}\\[-1pt]{\scriptsize #4}
+  \end{tcolorbox}}
+
+\raggedbottom
+\begin{document}
+\small
+
+% =====================================================================
+% COVER
+% =====================================================================
+\begin{tcolorbox}[enhanced,colback=navy,colframe=navy,arc=2pt,left=8pt,right=8pt,top=6pt,bottom=6pt]
+\color{white}\sffamily
+{\LARGE\bfseries Class 12 Chemistry — Must-Have Notes}\\[3pt]
+{\large Batch 1 of 3: Physical Chemistry} \hfill {\small Ch 1 Solutions · Ch 2 Electrochemistry · Ch 3 Chemical Kinetics}\\[2pt]
+{\footnotesize CBSE Board 2026--27 only · Rationalised NCERT · Chemistry paper: \textbf{Saturday 27 February 2027} · Physical Chemistry = \textbf{23 of 70} theory marks}
+\end{tcolorbox}
+
+\colorlet{uc}{navy}
+\begin{multicols}{2}
+\sub{How to use these notes}
+\begin{fl}
+\item Each chapter is two pages: \textbf{most-repeated board questions} → \textbf{must-know NCERT lines} → \textbf{key formulas} → \textbf{answer skeletons} → \textbf{why/reason answers} → \textbf{quick 1-mark facts} → \textbf{case-based angles} → \textbf{mark-losing traps}.
+\item Read with the NCERT book open. The formula sheet (Part 1) has the full formula boxes and graphs; these notes tell you \emph{what gets asked and how to write it}.
+\item Try every ★★★ question on paper before reading its skeleton.
+\item Tick the tracker on the last page after each read.
+\end{fl}
+\sub{Star legend (estimates, not exact counts)}
+\begin{fl}
+\item \st3\ asked in most years \quad \st2\ asked often \quad \st1\ asked sometimes.
+\item Based on recurring patterns in CBSE board papers and sample papers of recent years. \SQP\ marks a question type that is in the official 2026--27 sample paper (checked).
+\end{fl}
+\sub{Question-type tags}
+\ty{Df} define / state \;\ty{R} give reason \;\ty{N} numerical \;\ty{Dv} derivation \;\ty{G} graph / diagram \;\ty{Eq} write equations \;\ty{Cmp} difference / compare \;\ty{MCQ} 1-mark objective / A--R
+\sub{Paper pattern (unchanged for 2026--27)}
+\begin{fl}
+\item 33 questions, 70 marks, 3 hours. A: 16 × 1 (12 MCQ + 4 A--R) · B: 5 × 2 · C: 7 × 3 · D: 2 × 4 case-based · E: 3 × 5. Internal choice in about a third of questions.
+\item Physical Chemistry usually supplies: 4--6 MCQs, a 2-marker, two or three 3-markers (at least one numerical), and often one 5-marker (2026--27 SQP: Electrochemistry in Section E).
+\end{fl}
+\sub{Time per question (180 min)}
+\begin{fl}
+\item 1-mark: $\approx$1.5 min · 2-mark: 4 min · 3-mark: 6 min · case-based: 8 min · 5-mark: 10 min. That is $\approx$130 min of writing and $\approx$45 min to read the paper and check numericals.
+\end{fl}
+
+\columnbreak
+\sub{Step-mark habits for Chemistry numericals}
+\begin{kbox}\small
+\textbf{1.} Write ``Given'' with units and convert first (g → kg for solvent, mL → L, $^\circ$C → K, min → s, S\,m$^{-1}$ → S\,cm$^{-1}$).\\
+\textbf{2.} Write the formula on its own line — the formula line usually carries marks even if arithmetic slips.\\
+\textbf{3.} Substitute with units in one line.\\
+\textbf{4.} Box the answer \emph{with unit} and sensible significant figures. A missing or wrong unit commonly costs ½ mark.\\
+\textbf{5.} For electrolytes, write ``assuming complete dissociation, $i$ = …''. For Nernst, write the balanced cell reaction and $n$.
+\end{kbox}
+\sub{Theory answers}
+\begin{fl}
+\item \textbf{Give reason}: one line stating the fact in chemistry terms + one line of cause. No stories.
+\item \textbf{Equations}: balanced, with state symbols where natural; label anode/cathode for cells.
+\item \textbf{Definitions/laws}: use NCERT wording — examiners mark key words (e.g.\ ``directly proportional to its mole fraction'').
+\item \textbf{Graphs}: label both axes with quantity (and unit), mark intercept/slope.
+\end{fl}
+\sub{When to read this batch}
+\begin{fl}
+\item \textbf{Read 1 (now–Dec):} with NCERT text, intext questions and exercises.
+\item \textbf{Read 2 (Jan, around pre-boards):} with PYQs and exemplar; mark weak spots in ``My notes''.
+\item \textbf{Read 3 (17--26 Feb):} the ten days between the Physics paper (16 Feb) and Chemistry (27 Feb) are for Chemistry only — this batch on day 1--2, then timed sample papers and error review.
+\end{fl}
+\end{multicols}
+
+\begin{tcolorbox}[enhanced,colback=navy!4,colframe=navy,boxrule=0.6pt,arc=2pt,left=4pt,right=4pt,top=2pt,bottom=2pt,
+title={\sffamily\bfseries\footnotesize Physical Chemistry — 15 that keep coming back},colbacktitle=navy,coltitle=white]
+\begin{multicols}{2}\footnotesize
+\begin{enumerate}[leftmargin=14pt,itemsep=0.5pt]
+\item Molar mass or new f.p./b.p. from $\Delta T_f$/$\Delta T_b$, often with $i$ (Ch 1) \st3
+\item Raoult's law + positive/negative deviation + azeotrope type (Ch 1) \st3
+\item van't Hoff factor, abnormal molar mass, acetic acid in benzene (Ch 1) \st3
+\item Why $\pi$ for macromolecules; isotonic/hypertonic; reverse osmosis (Ch 1) \st2
+\item Henry's law + scuba/altitude/soda; $K_H$ vs solubility (Ch 1) \st2
+\item Nernst equation numerical, often with $\Delta G^\circ$ or $K$ (Ch 2) \st3
+\item $\Lambda_m$ and $\kappa$ vs dilution; $\Lambda_m$--$\sqrt c$ graph (Ch 2) \st3
+\item Kohlrausch's law + $\Lambda^\circ_m$ of weak acid, $\alpha$, $K_a$ (Ch 2) \st3
+\item Lead storage battery / H$_2$--O$_2$ fuel cell / mercury cell equations (Ch 2) \st3
+\item Corrosion mechanism and prevention (Ch 2) \st2
+\item Faraday's law numerical; products of electrolysis (Ch 2) \st2
+\item First-order numerical: $k$, $t_{1/2}$, time for $x$\% (Ch 3) \st3
+\item $E_a$ from two temperatures or from $\log k$ vs $1/T$ (Ch 3) \st3
+\item Order vs molecularity; pseudo first order (Ch 3) \st3
+\item Derive first-order (or zero-order) integrated rate law; units of $k$ (Ch 3) \st3
+\end{enumerate}
+\end{multicols}
+\end{tcolorbox}
+\begin{tcolorbox}[enhanced,colback=white,colframe=navy,boxrule=0.8pt,arc=2pt,title={\sffamily\bfseries\footnotesize My dates \& targets (pre-board, practical exam, target marks) · My notes},colbacktitle=navy,coltitle=white,height fill,before skip=4pt]
+\end{tcolorbox}
+
+% =====================================================================
+% CH 1 SOLUTIONS
+% =====================================================================
+\chapterhead{uI}{Ch 1 · Solutions}{7 marks}{Concentration · Henry \& Raoult · ideal/non-ideal · colligative properties · van't Hoff factor}
+\begin{multicols}{2}\raggedcolumns
+\sub{Most-repeated board questions}
+\begin{rqlist}
+\item \st3 \ty{N} Find molar mass of solute (or new f.p./b.p.) from $\Delta T_f$ or $\Delta T_b$; often an electrolyte with $i$. \mk{3}
+\item \st3 \ty{Df}\ty{Cmp} State Raoult's law. What are positive and negative deviations? Give one example each and the type of azeotrope. \mk{2--3} \SQP
+\item \st3 \ty{R}\ty{N} What is the van't Hoff factor? Why does ethanoic acid show half its molar mass in benzene? Find $i$ / \% dissociation from observed data. \mk{1--3}
+\item \st2 \ty{R}\ty{N} Why is osmotic pressure preferred for molar mass of proteins/polymers? Calculate $\pi$ or $M_2$. \mk{2--3}
+\item \st2 \ty{Df}\ty{R} State Henry's law; effect of $T$ on $K_H$ and solubility; two applications. \mk{1--2} \SQP
+\item \st2 \ty{Df}\ty{R} Isotonic, hypertonic, hypotonic; what happens to blood cells in 0.5\% / 1.5\% NaCl; reverse osmosis and its use. \mk{1--2}
+\item \st2 \ty{MCQ} Arrange 0.1 m solutions (glucose, NaCl, CaCl$_2$, Al$_2$(SO$_4$)$_3$) by f.p./b.p./$\pi$. \mk{1}
+\item \st2 \ty{N} Molar mass from relative lowering of vapour pressure. \mk{2} \SQP
+\item \st1 \ty{Df} Define molality / molarity / mole fraction; which is $T$-independent and why. \mk{1}
+\item \st1 \ty{N} ppm of a gas, or mole fraction of a gas from Henry's law. \mk{1--2} \SQP
+\item \st1 \ty{G} Draw $p$--$x$ diagram for positive/negative deviation, or $p$--$T$ diagram showing $\Delta T_b$. \mk{2}
+\item \st1 \ty{N} Vapour pressure of a mixture of two volatile liquids, and vapour-phase mole fraction. \mk{2}
+\end{rqlist}
+
+\sub{Must-know lines (NCERT language)}
+\begin{fl}
+\item \textbf{Raoult's law} (volatile liquids): the partial vapour pressure of each component is directly proportional to its mole fraction in the solution.
+\item For a non-volatile solute: the \textbf{relative lowering of vapour pressure} equals the mole fraction of the solute.
+\item \textbf{Henry's law}: the partial pressure of a gas in the vapour phase is proportional to its mole fraction in the solution, $p=K_Hx$.
+\item \textbf{Ideal solution}: obeys Raoult's law over the entire range of concentration; $\Delta_\text{mix}H=0$, $\Delta_\text{mix}V=0$.
+\item \textbf{Azeotropes}: binary mixtures with the same composition in liquid and vapour phase that boil at a constant temperature.
+\item \textbf{Colligative properties}: depend on the number of solute particles, not on their nature (RLVP, $\Delta T_b$, $\Delta T_f$, $\pi$).
+\item \textbf{Osmotic pressure}: the extra pressure that must be applied to the solution to stop osmosis (flow of solvent into it through a semipermeable membrane).
+\item \textbf{Reverse osmosis}: applying pressure larger than $\pi$ makes pure solvent flow out of the solution through the membrane.
+\item \textbf{$K_b$ / $K_f$} (molal elevation / depression constant): elevation in b.p. / depression in f.p. for a 1 molal solution.
+\item \textbf{Abnormal molar mass}: experimental molar mass higher or lower than the expected value, due to association or dissociation of solute.
+\end{fl}
+
+\sub{Key formulas}
+\begin{kbox}
+$\dfrac{p_1^\circ-p_1}{p_1^\circ}=i\,x_2$ \quad $\Delta T_b=iK_bm$ \quad $\Delta T_f=iK_fm$ \quad $\pi=iCRT$\\[2pt]
+$M_2=\dfrac{1000\,K\,w_2}{\Delta T\,w_1}$ \qquad $M_2=\dfrac{w_2RT}{\pi V}$\\[2pt]$\alpha_\text{diss}=\dfrac{i-1}{n-1}$ \qquad $\alpha_\text{assoc}=\dfrac{1-i}{1-1/n}$\\[2pt]
+$p_\text{total}=x_1p_1^\circ+x_2p_2^\circ$ \quad $y_1=\dfrac{x_1p_1^\circ}{p_\text{total}}$ \quad $p=K_Hx$
+\end{kbox}
+
+\sub{Answer skeletons}
+\begin{skel}{N · New freezing point of an electrolyte solution (3 marks)}
+\textit{e.g.\ 2 g NaCl (58.5) in 100 g water, $K_f=1.86$.}\\
+Given: $w_2=2$ g, $w_1=100$ g, $M_2=58.5$, $K_f=1.86$ K\,kg\,mol$^{-1}$.\\
+NaCl → Na$^+$ + Cl$^-$; assuming complete dissociation, $i=2$. \mk{½}\\
+$m=\dfrac{2\times1000}{58.5\times100}=0.342$ mol kg$^{-1}$ \mk{½}\\
+$\Delta T_f=iK_fm=2\times1.86\times0.342=1.27$ K \mk{1}\\
+$T_f=273.15-1.27=\boxed{271.88\text{ K}}$ \;(or $-1.27\,^\circ$C) \mk{1}
+\end{skel}
+\begin{skel}{N · Degree of dissociation from observed data}
+$i=\dfrac{\Delta T_\text{observed}}{\Delta T_\text{calculated (no dissociation)}}$ or $\dfrac{M_\text{calculated}}{M_\text{observed}}$ → $\alpha=\dfrac{i-1}{n-1}$ → state as \%.\\
+Check: dissociation gives $i>1$; association gives $i<1$.
+\end{skel}
+\begin{skel}{N · Osmotic pressure}
+Moles $n_2=w_2/M_2$; $V$ in L; $T$ in K; $R=0.083$ L\,bar\,K$^{-1}$mol$^{-1}$ (answer in bar) or $0.0821$ (atm).\\
+$\pi=\dfrac{n_2RT}{V}$ → box with unit. For $M_2$: $M_2=\dfrac{w_2RT}{\pi V}$.
+\end{skel}
+\begin{skel}{Df+Cmp · Deviation question (3 marks)}
+Definition (Raoult) → positive: A--B weaker, $p$ higher, $\Delta_\text{mix}H>0$, $\Delta_\text{mix}V>0$, e.g.\ ethanol + acetone, min-boiling azeotrope → negative: A--B stronger, $p$ lower, both $<0$, e.g.\ chloroform + acetone, max-boiling azeotrope. A small $p$--$x$ sketch earns credit if asked.
+\end{skel}
+
+\sub{Why/reason — write it like this}
+\begin{rqlist}
+\item \textbf{Aquatic animals are more comfortable in cold water.}\ans $K_H$ of O$_2$ increases with $T$, so solubility of O$_2$ falls with rise in $T$; cold water holds more dissolved O$_2$.
+\item \textbf{Osmotic pressure is preferred for macromolecules.}\ans Measured at room $T$ (proteins denature on heating); uses molarity; $\pi$ is large enough to measure even for very dilute solutions, while $\Delta T_f$, $\Delta T_b$ would be too small.
+\item \textbf{Chloroform + acetone shows negative deviation.}\ans H-bond forms between H of CHCl$_3$ and O of acetone; A--B attraction is stronger, escaping tendency and $p$ fall; $\Delta_\text{mix}H<0$.
+\item \textbf{Ethanol + acetone shows positive deviation.}\ans Acetone molecules come between ethanol molecules and break some of their H-bonds; weaker A--B forces; $p$ rises.
+\item \textbf{Ethanoic acid in benzene: molar mass $\approx$ 120.}\ans It dimerises through H-bonding, halving the number of particles ($i\approx0.5$); colligative property halves, so calculated molar mass doubles.
+\item \textbf{Molality is preferred to molarity.}\ans Molality uses mass of solvent, which does not change with $T$; molarity uses volume, which does.
+\item \textbf{0.1 m NaCl boils higher than 0.1 m glucose.}\ans NaCl gives two ions ($i=2$); glucose does not dissociate ($i=1$); $\Delta T_b\propto i$.
+\item \textbf{Salt is spread on icy roads.}\ans It lowers the freezing point of water, so ice melts at lower temperature.
+\item \textbf{Blood cells swell in water / shrink in 1.5\% NaCl.}\ans Water is hypotonic: water enters cells by osmosis. 1.5\% NaCl is hypertonic: water leaves cells.
+\item \textbf{Azeotropes cannot be separated by fractional distillation.}\ans Liquid and vapour have the same composition at the azeotropic point, so distillation cannot enrich either component.
+\item \textbf{Vapour pressure falls when a non-volatile solute is added.}\ans Solute particles occupy part of the surface, so fewer solvent molecules escape per unit time.
+\end{rqlist}
+
+\sub{Quick 1-mark facts (MCQ / A--R)}
+\begin{fl}
+\item Larger $K_H$ → lower solubility. Gas solubility falls as $T$ rises.
+\item $T$-independent: molality, mole fraction, mass \%, ppm. $T$-dependent: molarity.
+\item Positive deviation ↔ \textbf{minimum}-boiling azeotrope; negative ↔ \textbf{maximum}-boiling.
+\item Ideal: $\Delta_\text{mix}H=0$, $\Delta_\text{mix}V=0$ (but $\Delta_\text{mix}S>0$, $\Delta_\text{mix}G<0$).
+\item Same molality: lowest f.p./highest b.p./highest $\pi$ ↔ largest $i$. Al$_2$(SO$_4$)$_3$ (5) > CaCl$_2$ (3) > NaCl (2) > glucose (1).
+\item $K_b$, $K_f$ depend only on the solvent; unit K\,kg\,mol$^{-1}$.
+\item Normal saline: 0.9\% (m/V) NaCl, isotonic with blood. RO membrane: cellulose acetate.
+\item Raoult's law is a special case of Henry's law ($K_H=p_1^\circ$).
+\item Vapour above an ideal mixture is richer in the more volatile component.
+\end{fl}
+
+\sub{Case-based angles seen recently}
+\begin{fl}
+\item Scuba diving / mountaineering → Henry's law, bends, anoxia, He in tanks.
+\item Desalination plant → reverse osmosis, membrane, pressure $>\pi$.
+\item Hospital IV drip / saline → isotonic, what happens if hypertonic.
+\item Car radiator antifreeze (ethylene glycol), salting roads → $\Delta T_f$ numerical.
+\item Data table of $\Delta T_f$ for electrolytes → compute $i$, compare.
+\end{fl}
+
+\begin{tip}\Tip \textbf{Mark-losing traps.} (1) Using mass of \emph{solution} instead of solvent in molality. (2) Forgetting $i$ for NaCl, CaCl$_2$, K$_2$SO$_4$. (3) Giving $\Delta T_f$ when the question asks for the freezing point. (4) $V$ in mL or $T$ in $^\circ$C in $\pi=CRT$. (5) Swapping min-/max-boiling azeotropes. (6) Writing $p=x_2p^\circ$ for a non-volatile solute (correct: $p=x_1p_1^\circ$). (7) Saying ``higher $K_H$ means more soluble''.\end{tip}
+\end{multicols}
+\begin{tcolorbox}[enhanced,colback=white,colframe=uc,boxrule=0.6pt,arc=2pt,title={\sffamily\bfseries\footnotesize My notes — Ch 1 Solutions},colbacktitle=uc,coltitle=white,height fill,before skip=4pt]
+\end{tcolorbox}
+
+% =====================================================================
+% CH 2 ELECTROCHEMISTRY
+% =====================================================================
+\chapterhead{uII}{Ch 2 · Electrochemistry}{9 marks}{Galvanic cells · Nernst · conductance · Kohlrausch · electrolysis · batteries \& fuel cells · corrosion}
+\begin{multicols}{2}\raggedcolumns
+\sub{Most-repeated board questions}
+\begin{rqlist}
+\item \st3 \ty{N} Nernst equation: $E_\text{cell}$, unknown concentration or $E^\circ$; often with $\Delta_rG^\circ$ or $K_c$. \mk{3--5} \SQP
+\item \st3 \ty{G}\ty{R} How do $\kappa$ and $\Lambda_m$ vary with dilution? Plot $\Lambda_m$ vs $\sqrt c$ for strong and weak electrolytes and explain. \mk{2--3}
+\item \st3 \ty{Df}\ty{N} State Kohlrausch's law; find $\Lambda^\circ_m$ of a weak acid / $\alpha$ / $K_a$ from ionic or salt data. \mk{3} \SQP
+\item \st3 \ty{Eq} Reactions in the lead storage battery (discharge/charge), H$_2$--O$_2$ fuel cell, mercury cell, dry cell. \mk{2--3} \SQP
+\item \st2 \ty{Eq}\ty{R} Corrosion of iron: reactions, why salt water speeds it, how galvanising / sacrificial protection works. \mk{2--3} \SQP
+\item \st2 \ty{N} $\Lambda_m$ from $\kappa$, or cell constant from $R$ and $\kappa$; units of $\Lambda_m$. \mk{2--3} \SQP
+\item \st2 \ty{N} Faraday's laws: mass deposited / time / charge to discharge one mole of an ion. \mk{1--2} \SQP
+\item \st2 \ty{R} Products of electrolysis: aq.\ NaCl, molten NaCl/MgCl$_2$, dilute vs conc.\ H$_2$SO$_4$, CuSO$_4$ with Cu or Pt electrodes. \mk{1--2} \SQP
+\item \st2 \ty{N} $\Delta_rG^\circ$ and $K_c$ from $E^\circ_\text{cell}$. \mk{2}
+\item \st1 \ty{MCQ} From an $E^\circ$ table: strongest oxidising/reducing agent; can metal X displace Y; can a solution be stored in a metal vessel? \mk{1}
+\item \st1 \ty{Cmp} Primary vs secondary battery; electrolytic vs galvanic cell; why mercury cell gives constant voltage. \mk{1--2}
+\item \st1 \ty{Df} SHE; why absolute electrode potential cannot be measured; function of salt bridge. \mk{1--2}
+\end{rqlist}
+
+\sub{Must-know lines (NCERT language)}
+\begin{fl}
+\item \textbf{Galvanic cell}: converts the chemical energy of a spontaneous redox reaction into electrical energy. \textbf{Electrolytic cell}: uses electrical energy to drive a non-spontaneous reaction.
+\item \textbf{Standard electrode potential}: electrode potential when all species are at unit concentration (1 M), gases at 1 bar, at 298 K.
+\item \textbf{Cell potential / emf}: potential difference between the two electrodes when no current is drawn.
+\item \textbf{Conductivity ($\kappa$)}: conductance of a solution of unit length and unit area of cross-section.
+\item \textbf{Molar conductivity ($\Lambda_m$)}: conductivity of the solution divided by its molar concentration — the conducting power of all ions from one mole of electrolyte.
+\item \textbf{Limiting molar conductivity ($\Lambda^\circ_m$)}: molar conductivity when concentration approaches zero (infinite dilution).
+\item \textbf{Kohlrausch's law}: limiting molar conductivity of an electrolyte is the sum of the individual contributions of its anion and cation.
+\item \textbf{Faraday's first law}: amount of chemical reaction at an electrode is proportional to the quantity of electricity passed. \textbf{Second law}: for the same charge, masses liberated are proportional to their chemical equivalent weights (atomic mass ÷ electrons needed).
+\item \textbf{Primary battery}: reaction occurs once, cannot be recharged. \textbf{Secondary}: recharged by passing current in the opposite direction.
+\item \textbf{Fuel cell}: galvanic cell that converts the energy of combustion of fuels (H$_2$, CH$_4$, CH$_3$OH) directly into electrical energy.
+\item \textbf{Corrosion}: slow coating of a metal surface with oxides or other salts; an electrochemical process.
+\end{fl}
+
+\sub{Key formulas}
+\begin{kbox}
+$E^\circ_\text{cell}=E^\circ_\text{c}-E^\circ_\text{a}$ \qquad $E=E^\circ-\dfrac{0.059}{n}\log Q$\\[2pt]$\Delta_rG^\circ=-nFE^\circ$ \qquad $\log K_c=\dfrac{nE^\circ}{0.059}$\\[2pt]
+$\kappa=\dfrac{G^*}{R}$ \qquad $\Lambda_m=\dfrac{1000\,\kappa}{M}$ \qquad $\Lambda_m=\Lambda^\circ_m-A\sqrt c$\\[2pt]$\Lambda^\circ_m=\nu_+\lambda^\circ_++\nu_-\lambda^\circ_-$ \qquad 
+$\alpha=\dfrac{\Lambda_m}{\Lambda^\circ_m}$\\[2pt]$K_a=\dfrac{c\alpha^2}{1-\alpha}$ \quad $m=\dfrac{M\,I\,t}{nF}$
+\end{kbox}
+
+\sub{Answer skeletons}
+\begin{skel}{N · Nernst for a cell (3 marks)}
+\textit{e.g.\ \ce{Zn|Zn^2+(0.1 M)||Cu^2+(0.01 M)|Cu}, $E^\circ=1.10$ V.}\\
+Cell reaction: \ce{Zn + Cu^2+ -> Zn^2+ + Cu}, $n=2$ \mk{½}\\
+$E=E^\circ-\dfrac{0.059}{2}\log\dfrac{[\ce{Zn^2+}]}{[\ce{Cu^2+}]}$ \mk{1}\\
+$=1.10-0.0295\log\dfrac{0.1}{0.01}=1.10-0.0295$ \mk{1}\\
+$=\boxed{1.07\text{ V}}$ \mk{½}
+\end{skel}
+\begin{skel}{N · $\Lambda_m$ from resistance (3 marks)}
+Cell constant $G^*=R\kappa$ (from standard KCl) → $\kappa_\text{new}=G^*/R_\text{new}$ → convert to S\,cm$^{-1}$ → $\Lambda_m=1000\kappa/M$ → unit S\,cm$^2$mol$^{-1}$.
+\end{skel}
+\begin{skel}{N · Kohlrausch for a weak acid (3 marks)}
+Write the relation with ions: $\Lambda^\circ_{\ce{HA}}=\lambda^\circ_{\ce{H+}}+\lambda^\circ_{\ce{A-}}$, or with salts: $\Lambda^\circ_{\ce{HA}}=\Lambda^\circ_{\ce{NaA}}+\Lambda^\circ_{\ce{HCl}}-\Lambda^\circ_{\ce{NaCl}}$ \mk{1} → substitute \mk{½} → $\alpha=\Lambda_m/\Lambda^\circ_m$ \mk{½} → $K_a=c\alpha^2/(1-\alpha)$ \mk{1}.
+\end{skel}
+\begin{skel}{N · Faraday (2 marks)}
+$Q=It$ ($t$ in s) → moles e$^-$ $=Q/F$ → moles metal $=$ moles e$^-$ ÷ $n$ → mass $=$ moles × $M$.
+\end{skel}
+\begin{skel}{Eq · Lead storage battery (3 marks)}
+Anode: \ce{Pb + SO4^2- -> PbSO4 + 2e-}\\
+Cathode: \ce{PbO2 + SO4^2- + 4H+ + 2e- -> PbSO4 + 2H2O}\\
+Overall: \ce{Pb + PbO2 + 2H2SO4 -> 2PbSO4 + 2H2O}; on charging the reaction is reversed.
+\end{skel}
+
+\sub{Why/reason — write it like this}
+\begin{rqlist}
+\item \textbf{$\kappa$ decreases but $\Lambda_m$ increases on dilution.}\ans Fewer ions per unit volume, so $\kappa$ falls; $\Lambda_m$ counts ions from one mole in the whole volume, and these ions move more freely (strong) or are more numerous because $\alpha$ rises (weak).
+\item \textbf{$\Lambda^\circ_m$ of a weak electrolyte cannot be found by extrapolation.}\ans $\Lambda_m$ rises very steeply at low $c$, so the curve cannot be extended to $c=0$; Kohlrausch's law is used instead.
+\item \textbf{Mercury cell gives a constant voltage.}\ans The overall reaction \ce{Zn(Hg) + HgO -> ZnO + Hg} involves no ions whose concentration changes during use.
+\item \textbf{Aqueous NaCl gives H$_2$, not Na, at the cathode.}\ans $E^\circ$(\ce{H2O/H2}) $=-0.83$ V is higher than $E^\circ$(\ce{Na+/Na}) $=-2.71$ V, so water is reduced. Cl$_2$ forms at the anode instead of O$_2$ because of the overpotential of oxygen.
+\item \textbf{Iron rusts faster in sea water.}\ans Dissolved salts increase the conductivity of the water film, speeding up the electrochemical reactions.
+\item \textbf{Galvanised iron is protected even when scratched.}\ans Zn has a lower reduction potential than Fe, so Zn is oxidised in preference (sacrificial anode).
+\item \textbf{CuSO$_4$ solution cannot be stored in a zinc pot.}\ans $E^\circ$(\ce{Zn^2+/Zn}) $<$ $E^\circ$(\ce{Cu^2+/Cu}); Zn displaces Cu: \ce{Zn + Cu^2+ -> Zn^2+ + Cu}.
+\item \textbf{AC is used to measure conductance.}\ans DC would cause electrolysis and change the concentration at the electrodes.
+\item \textbf{Absolute electrode potential cannot be measured.}\ans A half-cell cannot work alone; potentials are measured against SHE (taken as 0 V).
+\item \textbf{Electrolytic conductance rises with $T$.}\ans Ions move faster (lower viscosity, less solvation); for weak electrolytes dissociation also increases.
+\item \textbf{Fuel cells are preferred.}\ans About 70\% efficient, pollution-free (product water), supply continuous as long as reactants are fed.
+\item \textbf{Acid density in a lead battery falls on discharge.}\ans H$_2$SO$_4$ is consumed and water is formed.
+\end{rqlist}
+
+\sub{Quick 1-mark facts (MCQ / A--R)}
+\begin{fl}
+\item Units: $\kappa$ S\,cm$^{-1}$ (S\,m$^{-1}$), $\Lambda_m$ S\,cm$^2$mol$^{-1}$ (S\,m$^2$mol$^{-1}$), $G^*$ cm$^{-1}$, $F$ C\,mol$^{-1}$. \SQP
+\item $E^\circ$ is intensive; $\Delta G$ is extensive. At equilibrium $E_\text{cell}=0$, $Q=K$.
+\item Galvanic: anode $-$, cathode $+$. Electrolytic: anode $+$, cathode $-$. Oxidation is always at the anode.
+\item Strongest oxidising agent: F$_2$; strongest reducing agent (aqueous): Li.
+\item 1 F deposits 1 mol of a univalent ion: 108 g Ag, 31.75 g Cu, 9 g Al. Charge to get 1 mol Al from Al$^{3+}$ (or from M$_2$O$_3$): $3F$. \SQP
+\item At the same concentration, HCl conducts best (very high $\lambda^\circ$ of H$^+$); CH$_3$COOH conducts poorly (weak). \SQP
+\item Mercury cell 1.35 V; dry cell $\approx$1.5 V; Daniell 1.10 V; corrosion cell 1.67 V.
+\item Lead battery electrolyte: 38\% H$_2$SO$_4$. Fuel cell electrolyte (NCERT): conc.\ NaOH. \SQP
+\item Rust: \ce{Fe2O3.xH2O}. Sacrificial metals: Zn, Mg.
+\end{fl}
+
+\sub{Case-based angles seen recently}
+\begin{fl}
+\item Table of $\Lambda_m$ at several $c$ → identify strong/weak, find $\Lambda^\circ_m$, comment on the graph.
+\item Hydrogen buses / space missions → fuel cell reactions, advantages.
+\item Car battery / inverter → lead storage battery, charging, acid density.
+\item Ships, pipelines, bridges → corrosion, sacrificial anodes, galvanising.
+\item Electroplating jewellery → Faraday numerical.
+\end{fl}
+
+\begin{tip}\Tip \textbf{Mark-losing traps.} (1) Multiplying $E^\circ$ by a coefficient. (2) Writing $Q$ upside down or including solids. (3) Wrong $n$ (take it from the \emph{balanced overall} equation). (4) $\kappa$ in S\,m$^{-1}$ used directly in $1000\kappa/M$ (1 S\,m$^{-1}$ = 0.01 S\,cm$^{-1}$). (5) Time in minutes in $Q=It$. (6) Forgetting coefficients in Kohlrausch, e.g.\ $\Lambda^\circ_{\ce{Al2(SO4)3}}=2\lambda^\circ_{\ce{Al^3+}}+3\lambda^\circ_{\ce{SO4^2-}}$. (7) Writing fuel-cell reactions in acid when NCERT's alkaline version is expected.\end{tip}
+\end{multicols}
+\begin{tcolorbox}[enhanced,colback=white,colframe=uc,boxrule=0.6pt,arc=2pt,title={\sffamily\bfseries\footnotesize My notes — Ch 2 Electrochemistry},colbacktitle=uc,coltitle=white,height fill,before skip=4pt]
+\end{tcolorbox}
+
+% =====================================================================
+% CH 3 CHEMICAL KINETICS
+% =====================================================================
+\chapterhead{uIII}{Ch 3 · Chemical Kinetics}{7 marks}{Rate · rate law · order \& molecularity · integrated equations · half-life · Arrhenius · collision theory}
+\begin{multicols}{2}\raggedcolumns
+\sub{Most-repeated board questions}
+\begin{rqlist}
+\item \st3 \ty{N} First-order numerical: $k$ from data, $t_{1/2}$, time for 75/90/99\% completion; ``show that $t_{99.9\%}=10\,t_{1/2}$''. \mk{2--3} \SQP
+\item \st3 \ty{N}\ty{G} $E_a$ from $k$ at two temperatures or from a $\log k$ vs $1/T$ plot; effect of catalyst on $E_a$. \mk{3} \SQP
+\item \st3 \ty{Cmp}\ty{Df} Order vs molecularity (two differences); pseudo first-order reaction with example. \mk{2} \SQP
+\item \st3 \ty{Dv} Derive the integrated rate equation for a first-order (or zero-order) reaction and its half-life. \mk{3}
+\item \st2 \ty{MCQ} Units of $k$ for a given order, or order from the units. \mk{1}
+\item \st2 \ty{N} Order from initial-rate data; write the rate law and find $k$. \mk{3}
+\item \st2 \ty{G} Identify order from a graph ($[R]$--$t$, $\ln[R]$--$t$, rate--$[R]$, $t_{1/2}$--$[R]_0$); meaning of slope/intercept. \mk{1--2}
+\item \st2 \ty{MCQ} Rate in terms of each species for a given equation, e.g.\ \ce{2N2O5 -> 4NO2 + O2}. \mk{1--2}
+\item \st2 \ty{G}\ty{R} Effect of temperature (Maxwell--Boltzmann curves) and catalyst (energy profile). \mk{2}
+\item \st1 \ty{Df} Collision theory: effective collisions, orientation, steric factor $P$. \mk{1--2}
+\item \st1 \ty{N} Zero-order: $k$ and $t_{1/2}$; rate stays constant. \mk{1--2} \SQP
+\item \st1 \ty{N} First-order gas-phase reaction from total pressure. \mk{3}
+\end{rqlist}
+
+\sub{Must-know lines (NCERT language)}
+\begin{fl}
+\item \textbf{Rate law}: rate expressed in terms of molar concentrations of reactants, each raised to a power that may or may not equal its stoichiometric coefficient.
+\item \textbf{Order}: sum of the powers of the concentration terms in the rate law; found by experiment; can be 0, fractional or integer.
+\item \textbf{Molecularity}: number of reacting species (atoms, ions, molecules) that must collide simultaneously in an elementary reaction; 1, 2 or 3.
+\item \textbf{Rate constant}: rate of reaction when the concentration of each reactant is unity.
+\item \textbf{Half-life}: time in which the concentration of a reactant falls to half its initial value.
+\item \textbf{Pseudo first order}: a reaction of higher order that behaves as first order because one reactant is in large excess.
+\item \textbf{Activation energy}: extra energy that reactant molecules must absorb to form the activated complex.
+\item \textbf{Catalyst}: increases rate without being consumed, by providing an alternative path of lower $E_a$; does not alter $\Delta G$ or the equilibrium constant; catalyses only spontaneous reactions.
+\item \textbf{Effective collisions}: collisions with energy $\ge$ threshold energy \emph{and} proper orientation.
+\end{fl}
+
+\sub{Key formulas}
+\begin{kbox}
+Zero: $k=\dfrac{[R]_0-[R]}{t}$, \;$t_{1/2}=\dfrac{[R]_0}{2k}$\\[2pt]First: $k=\dfrac{2.303}{t}\log\dfrac{[R]_0}{[R]}$, \;$t_{1/2}=\dfrac{0.693}{k}$\\[2pt]
+Gas: $k=\dfrac{2.303}{t}\log\dfrac{p_i}{2p_i-p_t}$ \qquad $k=Ae^{-E_a/RT}$\\[2pt]$\log\dfrac{k_2}{k_1}=\dfrac{E_a}{2.303R}\cdot\dfrac{T_2-T_1}{T_1T_2}$\\[2pt]
+Units of $k$: $(\text{mol L}^{-1})^{1-n}\text{s}^{-1}$ \quad Rate $=PZ_{AB}e^{-E_a/RT}$
+\end{kbox}
+
+\sub{Answer skeletons}
+\begin{skel}{Dv · First-order integrated rate law (3 marks)}
+\ce{R -> P}; \;rate $=-\dfrac{d[R]}{dt}=k[R]$ \mk{½}\\
+$\dfrac{d[R]}{[R]}=-k\,dt$ → integrate: $\ln[R]=-kt+I$ \mk{½}\\
+At $t=0$, $[R]=[R]_0$ ⇒ $I=\ln[R]_0$ \mk{½}\\
+$\ln[R]=-kt+\ln[R]_0$ ⇒ $k=\dfrac1t\ln\dfrac{[R]_0}{[R]}=\boxed{\dfrac{2.303}{t}\log\dfrac{[R]_0}{[R]}}$ \mk{½}\\
+At $t_{1/2}$, $[R]=[R]_0/2$: $t_{1/2}=\dfrac{2.303\log2}{k}=\boxed{\dfrac{0.693}{k}}$ \mk{1}
+\end{skel}
+\begin{skel}{Dv · Zero order (2--3 marks)}
+$-\dfrac{d[R]}{dt}=k$ → $d[R]=-k\,dt$ → $[R]=-kt+I$; $I=[R]_0$ → $[R]=[R]_0-kt$, $k=\dfrac{[R]_0-[R]}{t}$; $t_{1/2}=\dfrac{[R]_0}{2k}$.
+\end{skel}
+\begin{skel}{N · Time for $x$\% completion (2 marks)}
+Take $[R]_0=100$, $[R]=100-x$. \;$t=\dfrac{2.303}{k}\log\dfrac{100}{100-x}$. Find $k$ from $t_{1/2}$ if needed: $k=0.693/t_{1/2}$.\\
+Shortcuts to verify: 75\% → $2t_{1/2}$; 87.5\% → $3t_{1/2}$; 99.9\% → $\approx10t_{1/2}$.
+\end{skel}
+\begin{skel}{N · $E_a$ from two temperatures (3 marks)}
+Write the two-point Arrhenius form \mk{1} → substitute with $R=8.314$, $T$ in K \mk{1} → $E_a$ in J mol$^{-1}$, convert to kJ mol$^{-1}$ \mk{1}.
+\end{skel}
+\begin{skel}{N · Order from initial rates (3 marks)}
+Compare two runs where only [A] changes: $\dfrac{r_2}{r_1}=\left(\dfrac{[A]_2}{[A]_1}\right)^x$ → $x$. Same for $y$. Write rate $=k[A]^x[B]^y$, overall order, then $k$ with units from one run.
+\end{skel}
+
+\sub{Why/reason — write it like this}
+\begin{rqlist}
+\item \textbf{Rate increases with temperature.}\ans More molecules have energy $\ge E_a$; for a 10 K rise the fraction (area beyond $E_a$) roughly doubles, so $k$ nearly doubles.
+\item \textbf{Order can be fractional; molecularity cannot.}\ans Order is an experimental quantity from the rate law; molecularity counts molecules colliding in one step, which must be a whole number.
+\item \textbf{Molecularity above 3 is not observed.}\ans The chance of more than three molecules colliding at the same instant with proper energy and orientation is very small.
+\item \textbf{Hydrolysis of ethyl acetate in water is pseudo first order.}\ans Water is in large excess, so [H$_2$O] stays practically constant; rate $=k'[\text{ester}]$.
+\item \textbf{A catalyst does not change the equilibrium constant.}\ans It lowers $E_a$ of the forward and backward reactions by the same amount, so both speed up equally; $\Delta G$ is unchanged.
+\item \textbf{Not every collision gives products.}\ans Only collisions with sufficient energy and proper orientation are effective.
+\item \textbf{$t_{1/2}$ of a first-order reaction is constant.}\ans $t_{1/2}=0.693/k$ contains no concentration term.
+\item \textbf{Rate decreases as the reaction proceeds.}\ans Concentration of reactants decreases.
+\item \textbf{Molecularity has no meaning for a complex reaction.}\ans A complex reaction has several steps; molecularity is defined for each elementary step; the slowest step fixes the rate.
+\end{rqlist}
+
+\sub{Quick 1-mark facts (MCQ / A--R)}
+\begin{fl}
+\item Rate always has unit mol L$^{-1}$s$^{-1}$; $k$'s unit depends on order: s$^{-1}$ → first; L mol$^{-1}$s$^{-1}$ → second; mol L$^{-1}$s$^{-1}$ → zero.
+\item \ce{2N2O5 -> 4NO2 + O2}: $-\frac12\frac{d[\ce{N2O5}]}{dt}=\frac14\frac{d[\ce{NO2}]}{dt}=\frac{d[\ce{O2}]}{dt}$.
+\item Rate $=k[A]^{1/2}[B]^{3/2}$ → overall order 2.
+\item $k$ depends on $T$ and catalyst, not on concentration.
+\item Zero order: rate constant; $t_{1/2}\propto[R]_0$. First order: $t_{1/2}$ independent of $[R]_0$.
+\item $\ln k$ vs $1/T$: slope $-E_a/R$; $\log k$ vs $1/T$: slope $-E_a/2.303R$; intercept $\ln A$ / $\log A$. As $T\to\infty$, $k\to A$.
+\item A catalyst lowers $E_a$, does not change $\Delta H$, $\Delta G$ or $K$.
+\item Radioactive decay is first order (half-life questions on $^{14}$C use the first-order formula).
+\item Molecularity is meaningful only for elementary reactions; it is never zero.
+\end{fl}
+
+\sub{Case-based angles seen recently}
+\begin{fl}
+\item Concentration--time table → test constant $t_{1/2}$ or constant $k$ to decide order.
+\item Food spoilage / refrigeration, cooking at altitude → temperature effect, Arrhenius.
+\item Medicine shelf-life / drug in blood → first-order $t_{1/2}$, time to fall to $x$\%.
+\item Enzymes, catalytic converters → catalyst and energy profile.
+\item Hydrolysis of acetyl chloride / ester in water → pseudo first order. \SQP
+\end{fl}
+
+\begin{tip}\Tip \textbf{Mark-losing traps.} (1) Taking order from the balanced equation instead of data. (2) Mixing $\ln$ and $\log$ (forgetting 2.303). (3) Time units: $k$ in min$^{-1}$ gives $t$ in min. (4) Arrhenius: $E_a$ in kJ with $R=8.314$ J, or $T$ in $^\circ$C. (5) Rate of reaction vs rate of disappearance of one species (stoichiometric factors). (6) ``Catalyst increases $E_a$'' or ``shifts equilibrium''. (7) Assigning molecularity to a complex reaction.\end{tip}
+\end{multicols}
+\begin{tcolorbox}[enhanced,colback=white,colframe=uc,boxrule=0.6pt,arc=2pt,title={\sffamily\bfseries\footnotesize My notes — Ch 3 Chemical Kinetics},colbacktitle=uc,coltitle=white,height fill,before skip=4pt]
+\end{tcolorbox}
+
+% =====================================================================
+% PROGRESS TRACKER
+% =====================================================================
+\newpage
+\colorlet{uc}{navy}
+\begin{tcolorbox}[enhanced,colback=navy,colframe=navy,arc=2pt,left=6pt,right=6pt,top=3pt,bottom=3pt]
+\color{white}\sffamily{\large\bfseries Progress tracker — Class 12 Chemistry}\hfill{\small tick ☐ as you go}\\[-1pt]{\scriptsize Notes for Ch 4--10 come in Batches 2 (Inorganic) and 3 (Organic); the rows are here so one page tracks the whole subject.}
+\end{tcolorbox}
+{\small
+\renewcommand{\arraystretch}{1.55}
+\begin{tabularx}{\textwidth}{@{}l@{\ }>{\raggedright\arraybackslash}p{4.7cm}*{8}{>{\centering\arraybackslash}X}@{}}
+\toprule
+ & \textbf{Chapter (marks)} & \textbf{Read 1} & \textbf{Read 2} & \textbf{Read 3} & \textbf{NCERT Qs} & \textbf{Exemplar} & \textbf{PYQs} & \textbf{Sheet drilled} & \textbf{Conf.\ (1--5)}\\
+\midrule
+\textcolor{uI}{\textbf{1}} & Solutions (7) & ☐ & ☐ & ☐ & ☐ & ☐ & ☐ & ☐ & \underline{\hspace{8mm}}\\
+\textcolor{uII}{\textbf{2}} & Electrochemistry (9) & ☐ & ☐ & ☐ & ☐ & ☐ & ☐ & ☐ & \underline{\hspace{8mm}}\\
+\textcolor{uIII}{\textbf{3}} & Chemical Kinetics (7) & ☐ & ☐ & ☐ & ☐ & ☐ & ☐ & ☐ & \underline{\hspace{8mm}}\\
+\textcolor{uIV}{\textbf{4}} & d- and f-Block Elements (7) & ☐ & ☐ & ☐ & ☐ & ☐ & ☐ & ☐ & \underline{\hspace{8mm}}\\
+\textcolor{uV}{\textbf{5}} & Coordination Compounds (7) & ☐ & ☐ & ☐ & ☐ & ☐ & ☐ & ☐ & \underline{\hspace{8mm}}\\
+\textcolor{uVI}{\textbf{6}} & Haloalkanes \& Haloarenes (6) & ☐ & ☐ & ☐ & ☐ & ☐ & ☐ & ☐ & \underline{\hspace{8mm}}\\
+\textcolor{uVII}{\textbf{7}} & Alcohols, Phenols \& Ethers (6) & ☐ & ☐ & ☐ & ☐ & ☐ & ☐ & ☐ & \underline{\hspace{8mm}}\\
+\textcolor{uVIII}{\textbf{8}} & Aldehydes, Ketones \& Acids (8) & ☐ & ☐ & ☐ & ☐ & ☐ & ☐ & ☐ & \underline{\hspace{8mm}}\\
+\textcolor{uIX}{\textbf{9}} & Amines (6) & ☐ & ☐ & ☐ & ☐ & ☐ & ☐ & ☐ & \underline{\hspace{8mm}}\\
+\textcolor{uX}{\textbf{10}} & Biomolecules (7) & ☐ & ☐ & ☐ & ☐ & ☐ & ☐ & ☐ & \underline{\hspace{8mm}}\\
+\bottomrule
+\end{tabularx}}
+
+\vspace{4pt}
+{\small\textbf{Practicals (30):} Volumetric~☐ \quad Salt analysis~☐ \quad Content-based experiments~☐ \quad Project~☐ \quad Record complete~☐ \quad Viva prepared~☐\\[3pt]
+\textbf{Timed sample papers (3 h, error review after each):} SQP 2026--27~☐ \quad Paper 2~☐ \quad Paper 3~☐ \quad Paper 4~☐ \quad Paper 5~☐ \quad Paper 6~☐}
+\vspace{2pt}
+\begin{tcolorbox}[enhanced,colback=tipY,colframe=tipYframe,boxrule=0.5pt,arc=1.5pt,left=4pt,right=4pt,top=2pt,bottom=2pt]
+\small\textbf{Error log habit.} After every test, write each lost mark in ``My notes'' under one of: \emph{concept gap} · \emph{formula/unit slip} · \emph{NCERT line not known} · \emph{time}. Re-read only the matching section of these notes.
+\end{tcolorbox}
+
+\begin{tcolorbox}[enhanced,colback=white,colframe=navy,boxrule=0.8pt,arc=2pt,title={\sffamily\bfseries\footnotesize My notes},colbacktitle=navy,coltitle=white,height fill,before skip=4pt]
+\end{tcolorbox}
+\end{document}

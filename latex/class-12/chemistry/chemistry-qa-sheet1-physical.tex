@@ -1,0 +1,189 @@
+\documentclass[10pt,a4paper]{extarticle}
+\usepackage[a4paper,margin=10mm,top=9mm,bottom=11mm]{geometry}
+\input{../preambles/chemistry-preamble}
+\fancyfoot[L]{\tiny\sffamily\color{black!55} Class 12 Chemistry · \sheetname · CBSE Board 2026--27 (paper 27 Feb 2027)}
+\fancyfoot[R]{\tiny\sffamily\color{black!55} Page \thepage}
+
+% ---------- Notes-specific macros ----------
+\newcommand{\st}[1]{\textcolor{tipYframe!90!black}{\ifcase#1\or\ding{72}\or\ding{72}\ding{72}\or\ding{72}\ding{72}\ding{72}\fi}}
+\newcommand{\ty}[1]{\tagbox{uc!75!black}{#1}}
+\newcommand{\mk}[1]{{\scriptsize\color{black!55}[#1]}}
+\newenvironment{rqlist}{\begin{enumerate}[leftmargin=12pt,label={\sffamily\bfseries\scriptsize\color{uc}\arabic*.},itemsep=1pt]}{\end{enumerate}}
+\newcommand{\ans}{\par\hspace*{2pt}{\color{uc}$\hookrightarrow$}\;}
+\newtcolorbox{skel}[1]{enhanced,colback=white,colframe=uc,boxrule=0.5pt,arc=1.5pt,left=3pt,right=3pt,top=1pt,bottom=1pt,boxsep=1pt,before skip=2pt,after skip=3pt,
+  title={\sffamily\bfseries\scriptsize #1},colbacktitle=uc!85,coltitle=white,toptitle=0.5pt,bottomtitle=0.5pt}
+\newcommand{\chapterhead}[4]{% colour, title, marks, subtitle
+  \newpage\colorlet{uc}{#1}%
+  \begin{tcolorbox}[enhanced,colback=#1,colframe=#1,arc=2pt,left=6pt,right=6pt,top=3pt,bottom=3pt,after skip=3pt]
+  \color{white}\sffamily{\large\bfseries #2}\hfill{\small\bfseries #3}\\[-1pt]{\scriptsize #4}
+  \end{tcolorbox}}
+
+% orbital boxes: 0 empty, 1 up, 2 pair, 3 ligand electron pair (shaded)
+\newcommand{\ob}[1]{\begin{tikzpicture}[x=2.9mm,y=2.9mm,baseline=0.3mm,line width=0.35pt]
+\foreach \s [count=\i from 0] in {#1}{%
+ \ifnum\s=3 \fill[uc!28] (\i,0) rectangle ++(1,1);\fi
+ \draw[black!65] (\i,0) rectangle ++(1,1);
+ \ifnum\s>0 \draw[-{Stealth[length=1.6pt]}] (\i+0.33,0.12)--(\i+0.33,0.88);\fi
+ \ifnum\s>1 \draw[{Stealth[length=1.6pt]}-] (\i+0.67,0.12)--(\i+0.67,0.88);\fi}
+\end{tikzpicture}}
+\def\sheetname{Expert Q\&A}
+\raggedbottom
+\begin{document}
+\small
+
+% ---------- Q&A sheet macros (used after \begin{document}) ----------
+\newcounter{qn}\newcounter{an}
+\newcommand{\Q}{\par\addvspace{4pt}\refstepcounter{qn}\noindent\hangindent=21pt\hangafter=1\makebox[21pt][l]{\sffamily\bfseries\footnotesize\color{uc}Q\theqn.}}
+\newcommand{\An}{\par\addvspace{4pt}\refstepcounter{an}\noindent\hangindent=21pt\hangafter=1\makebox[21pt][l]{\sffamily\bfseries\footnotesize\color{uc}A\thean.}}
+\newcommand{\nl}{\par\noindent\hangindent=21pt\hangafter=0}
+\newcommand{\secbar}[2]{\par\addvspace{4pt}\needspace{5\baselineskip}\noindent
+  \begin{tcolorbox}[enhanced,colback=uc!18,colframe=uc,boxrule=0pt,leftrule=3pt,arc=0pt,boxsep=0.5pt,left=3pt,right=3pt,top=1pt,bottom=1pt,before skip=3pt,after skip=2pt]
+  \sffamily\bfseries\color{uc!80!black}\footnotesize #1\hfill\scriptsize #2
+  \end{tcolorbox}}
+\newcommand{\qatitle}[5]{% number, title, chapters, marks, time
+  \gdef\sheetname{Expert Q\&A Sheet #1 of 6: #2}
+  \begin{tcolorbox}[enhanced,colback=navy,colframe=navy,arc=2pt,left=8pt,right=8pt,top=5pt,bottom=5pt]
+  \color{white}\sffamily
+  {\LARGE\bfseries Class 12 Chemistry — Expert Q\&A Sheet #1 of 6}\\[3pt]
+  {\large #2} \hfill {\small #3}\\[2pt]
+  {\footnotesize CBSE Board 2026--27 pattern · Rationalised NCERT · Paper: \textbf{Sat 27 Feb 2027} · \textbf{#4 marks · #5 min} · Questions first, full-mark answers with step marks at the end}
+  \end{tcolorbox}
+  \begin{tcolorbox}[enhanced,colback=tipY,colframe=tipYframe,boxrule=0.5pt,arc=1.5pt,left=4pt,right=4pt,top=1.5pt,bottom=1.5pt,before skip=3pt,after skip=3pt]
+  \footnotesize\textbf{How to use.} Sit it like a test: set a timer, write on paper, no notes. Then mark yourself against the answer section, step by step. \textbf{Honest label:} every question is \textbf{PYQ-style} — the question types and data patterns that recur in CBSE papers of 2022--2026 and in NCERT — written in my own words, not copied from a specific year's paper. Step-mark splits follow the usual CBSE marking-scheme pattern and are estimates.
+  \end{tcolorbox}}
+\newcommand{\answerstart}{\newpage
+  \begin{tcolorbox}[enhanced,colback=navy,colframe=navy,arc=2pt,left=6pt,right=6pt,top=3pt,bottom=3pt,after skip=3pt]
+  \color{white}\sffamily{\large\bfseries Answers \& marking scheme}\hfill{\small written the way a full-marks script reads · {\scriptsize[\,]} = step marks}
+  \end{tcolorbox}}
+\newcommand{\scorebox}[1]{%
+  \begin{tcolorbox}[enhanced,colback=white,colframe=navy,boxrule=0.8pt,arc=2pt,title={\sffamily\bfseries\footnotesize My score: \underline{\hspace{10mm}} / #1 \quad · \quad Time taken: \underline{\hspace{10mm}} min \quad · \quad Questions to redo / errors to log},colbacktitle=navy,coltitle=white,height fill,before skip=4pt]
+  \end{tcolorbox}}
+
+\colorlet{uc}{uII}
+\qatitle{1}{Physical Chemistry}{Ch 1 Solutions · Ch 2 Electrochemistry · Ch 3 Chemical Kinetics}{50}{90}
+\begin{multicols}{2}\raggedcolumns
+\secbar{SECTION A · MCQ and assertion--reason}{8 × 1 = 8}
+\Q Which 0.1 m aqueous solution has the \emph{highest} freezing point?\nl (a) glucose \quad (b) NaCl \quad (c) CaCl$_2$ \quad (d) Al$_2$(SO$_4$)$_3$ \mk{1}
+\Q At the same temperature the Henry's law constants of gases A, B and C in water are 40, 1.6 and 0.4 kbar. The most soluble gas is\nl (a) A \quad (b) B \quad (c) C \quad (d) all equally soluble \mk{1}
+\Q The charge needed to reduce 1 mol of \ce{MnO4-} to \ce{Mn^2+} is\nl (a) 1 F \quad (b) 3 F \quad (c) 5 F \quad (d) 7 F \mk{1}
+\Q The unit of the rate constant of a second-order reaction is\nl (a) s$^{-1}$ \quad (b) mol L$^{-1}$s$^{-1}$ \quad (c) L mol$^{-1}$s$^{-1}$ \quad (d) L$^2$mol$^{-2}$s$^{-1}$ \mk{1}
+\Q When an electrolyte solution is diluted,\nl (a) $\kappa$ and $\Lambda_m$ both increase \quad (b) $\kappa$ decreases, $\Lambda_m$ increases\nl (c) $\kappa$ increases, $\Lambda_m$ decreases \quad (d) both decrease \mk{1}
+\Q A first-order reaction is 75\% complete in 60 min. Its half-life is\nl (a) 15 min \quad (b) 30 min \quad (c) 45 min \quad (d) 20 min \mk{1}
+\nl\textit{For Q7--Q8 choose: (a) A and R true, R explains A; (b) both true, R does not explain A; (c) A true, R false; (d) A false, R true.}
+\Q \textbf{A:} A mixture of chloroform and acetone shows negative deviation from Raoult's law. \textbf{R:} Chloroform and acetone molecules form a hydrogen bond with each other. \mk{1}
+\Q \textbf{A:} Order and molecularity of a reaction are always equal. \textbf{R:} Order is found by experiment; molecularity applies to an elementary step. \mk{1}
+
+\secbar{SECTION B · Very short answer}{5 × 2 = 10}
+\Q State Henry's law. Why is the air in scuba divers' tanks diluted with helium? \mk{2}
+\Q Define molar conductivity. With a sketch, show how it varies with $\sqrt c$ for a strong and a weak electrolyte. \mk{2}
+\Q For a reaction the rate law is rate $=k[\ce A]^2[\ce B]$. How does the rate change when (i) [A] is doubled, (ii) [A] is halved and [B] is tripled? \mk{2}
+\Q Write the anode, cathode and overall reactions of the lead storage battery during discharge. What happens to the density of the electrolyte? \mk{2}
+\Q Why is osmotic pressure the preferred property for finding molar masses of proteins? What are isotonic solutions? \mk{2}
+
+\secbar{SECTION C · Short answer}{6 × 3 = 18}
+\Q 0.3 g of ethanoic acid ($M=60$ g mol$^{-1}$) dissolved in 30 g of benzene lowers the freezing point by 0.45 K. Calculate the van't Hoff factor and the percentage association of the acid, if it forms a dimer. ($K_f$ of benzene = 5.12 K kg mol$^{-1}$) \mk{3}
+\Q Calculate the emf at 298 K of the cell\nl \ce{Sn(s) | Sn^2+(0.004 M) || H+(0.020 M) | H2(g, 1 bar) | Pt(s)}\nl Given $E^\circ_{\ce{Sn^2+/Sn}}=-0.14$ V. \mk{3}
+\Q A conductivity cell filled with 0.1 M KCl has resistance 100 $\Omega$. Filled with 0.02 M KCl it has resistance 520 $\Omega$. The conductivity of 0.1 M KCl is 1.29 S m$^{-1}$. Calculate the conductivity and molar conductivity of 0.02 M KCl. \mk{3}
+\Q A first-order reaction takes 40 min for 30\% decomposition. Calculate its half-life. ($\log7=0.8451$) \mk{3}
+\Q The rate constant of a reaction is 0.02 s$^{-1}$ at 500 K and 0.07 s$^{-1}$ at 700 K. Calculate the activation energy. ($\log3.5=0.5441$) \mk{3}
+\Q (a) State Kohlrausch's law. (b) $\Lambda^\circ_m$ for NaCl, HCl and CH$_3$COONa are 126.4, 425.9 and 91.0 S cm$^2$mol$^{-1}$. Find $\Lambda^\circ_m$ of CH$_3$COOH. (c) Why can't this value be found by extrapolating a graph? \mk{3}
+
+\secbar{SECTION D · Case-based}{1 × 4 = 4}
+\Q \textit{Initial rates were measured for the reaction \ce{2A + B -> C + D}:}\\[2pt]
+{\scriptsize\begin{tabular}{@{}cccc@{}}\toprule Expt & [A] / mol L$^{-1}$ & [B] / mol L$^{-1}$ & Initial rate / mol L$^{-1}$min$^{-1}$\\\midrule
+I & 0.1 & 0.1 & $6.0\times10^{-3}$\\ II & 0.3 & 0.2 & $7.2\times10^{-2}$\\ III & 0.3 & 0.4 & $2.88\times10^{-1}$\\ IV & 0.4 & 0.1 & $2.40\times10^{-2}$\\\bottomrule\end{tabular}}\\[2pt]
+(i) Find the order with respect to A. \mk{1}\\
+(ii) Find the order with respect to B and write the rate law. \mk{1}\\
+(iii) Calculate the rate constant with units. \mk{2}\\
+\textbf{OR} (iii) Calculate the initial rate when [A] = [B] = 0.2 mol L$^{-1}$. \mk{2}
+
+\secbar{SECTION E · Long answer}{2 × 5 = 10}
+\Q (a) Calculate the boiling point of a solution of 10 g of CaCl$_2$ ($M=111$ g mol$^{-1}$) in 200 g of water, assuming complete dissociation. ($K_b$ = 0.52 K kg mol$^{-1}$; b.p.\ of water 373.15 K) \mk{3}\\
+(b) Give reasons: (i) the elevation of boiling point of 1 M KCl is nearly double that of 1 M sugar solution; (ii) ethanol and water form a minimum-boiling azeotrope. \mk{2}
+\Q (a) For \ce{2Fe^3+(aq) + 2I-(aq) -> 2Fe^2+(aq) + I2(s)}, $E^\circ_\text{cell}=0.236$ V at 298 K. Calculate $\Delta_rG^\circ$ and the equilibrium constant. (F = 96500 C mol$^{-1}$) \mk{3}\\
+(b) How many faradays are needed to deposit 1 mol of Al from molten \ce{Al2O3}? \mk{1}\\
+(c) Write the electrode reactions of the H$_2$--O$_2$ fuel cell. \mk{1}
+\end{multicols}
+
+% ======================= ANSWERS =======================
+\answerstart
+\begin{multicols}{2}\raggedcolumns
+\secbar{SECTION A}{1 mark each — no step marks}
+\An \textbf{(a) glucose.} $\Delta T_f=iK_fm$; glucose has the smallest $i$ (1), so the smallest depression and highest freezing point.
+\An \textbf{(c) C.} $x=p/K_H$: the smaller $K_H$, the higher the solubility.
+\An \textbf{(c) 5 F.} Mn goes from +7 to +2: \ce{MnO4- + 8H+ + 5e- -> Mn^2+ + 4H2O}.
+\An \textbf{(c) L mol$^{-1}$s$^{-1}$.} Units of $k$ = (mol L$^{-1}$)$^{1-n}$s$^{-1}$ with $n=2$.
+\An \textbf{(b).} Fewer ions per unit volume, so $\kappa$ falls; ions from one mole are freer (or more of them, for weak electrolytes), so $\Lambda_m$ rises.
+\An \textbf{(b) 30 min.} 75\% complete = two half-lives; $2t_{1/2}=60$ min.
+\An \textbf{(a).} The H-bond between H of CHCl$_3$ and O of acetone makes A--B attractions stronger, lowering the vapour pressure.
+\An \textbf{(d).} They are equal only for elementary reactions; e.g.\ order can be zero or fractional, molecularity cannot.
+
+\secbar{SECTION B}{2 marks each}
+\An \textbf{Henry's law:} at constant temperature the partial pressure of a gas in the vapour phase is directly proportional to its mole fraction in the solution, $p=K_Hx$. \mk{1}\nl
+Under high pressure at depth, more N$_2$ dissolves in blood. On coming up, pressure falls and N$_2$ comes out as bubbles that block capillaries (\emph{bends}). Helium is much less soluble in blood, so air diluted with He avoids this. \mk{1}
+\An \textbf{Molar conductivity} is the conductivity of a solution divided by its molar concentration, $\Lambda_m=\kappa/c$ (S cm$^2$mol$^{-1}$): the conducting power of all ions from one mole of electrolyte. \mk{½}\nl
+\begin{minipage}[c]{0.36\linewidth}
+\minigraph{2.3}{1.7}{$\sqrt c$}{$\Lambda_m$}{%
+ \draw[uII,thick] (0,1.35)--(2.0,1.0) node[pos=0.6,above,black]{\tiny strong};
+ \draw[uII!60,thick] (0.06,1.6) .. controls (0.12,0.45) and (0.5,0.25) .. (2.0,0.15) node[pos=0.75,above,black]{\tiny weak};}
+\end{minipage}\hfill
+\begin{minipage}[c]{0.6\linewidth}
+Strong: small, linear rise on dilution, $\Lambda_m=\Lambda_m^\circ-A\sqrt c$ (ions move more freely). Weak: steep rise at low concentration because the degree of dissociation increases. \mk{1 + ½ graph}
+\end{minipage}
+\An (i) rate$'$ $=k(2[\ce A])^2[\ce B]=4\times$ rate: \textbf{4 times}. \mk{1}\nl
+(ii) rate$'$ $=k\left(\tfrac{[\ce A]}{2}\right)^2(3[\ce B])=\tfrac34\times$ rate: \textbf{0.75 times} (falls by a quarter). \mk{1}
+\An Anode: \ce{Pb(s) + SO4^2-(aq) -> PbSO4(s) + 2e-} \mk{½}\nl
+Cathode: \ce{PbO2(s) + SO4^2-(aq) + 4H+(aq) + 2e- -> PbSO4(s) + 2H2O(l)} \mk{½}\nl
+Overall: \ce{Pb + PbO2 + 2H2SO4 -> 2PbSO4 + 2H2O} \mk{½}\nl
+Density \textbf{decreases}: H$_2$SO$_4$ is used up and water is formed. \mk{½}
+\An Osmotic pressure is measured at room temperature (proteins denature on heating), uses molarity, and is large enough to measure even for very dilute solutions of high molar mass. \mk{1}\nl
+\textbf{Isotonic solutions} have the same osmotic pressure at a given temperature, so no net osmosis occurs between them; e.g.\ 0.9\% (m/V) NaCl and blood cell fluid. \mk{1}
+
+\secbar{SECTION C}{3 marks each}
+\An Given: $w_2=0.3$ g, $w_1=30$ g, $M_2=60$, $\Delta T_f=0.45$ K.\nl
+$m=\dfrac{0.3\times1000}{60\times30}=0.1667$ mol kg$^{-1}$;\; $\Delta T_f(\text{calc})=K_fm=5.12\times0.1667=0.853$ K \mk{1}\nl
+$i=\dfrac{\Delta T_f(\text{obs})}{\Delta T_f(\text{calc})}=\dfrac{0.45}{0.853}=\boxed{0.527}$ \mk{1}\nl
+Dimer ($n=2$): $\alpha=\dfrac{1-i}{1-\frac12}=2(1-0.527)=0.945$ ⇒ \boxed{94.5\%\text{ associated}} \mk{1}
+\An Cell reaction: \ce{Sn(s) + 2H+(aq) -> Sn^2+(aq) + H2(g)}, $n=2$ \mk{½}\nl
+$E^\circ_\text{cell}=E^\circ_\text{cathode}-E^\circ_\text{anode}=0.00-(-0.14)=0.14$ V \mk{½}\nl
+$E_\text{cell}=E^\circ_\text{cell}-\dfrac{0.059}{2}\log\dfrac{[\ce{Sn^2+}]\,p_{\ce{H2}}}{[\ce{H+}]^2}$ \mk{1}\nl
+$=0.14-0.0295\log\dfrac{0.004}{(0.020)^2}=0.14-0.0295\log10=\boxed{0.11\text{ V}}$ \mk{1}
+\An Cell constant $G^*=\kappa R=1.29$ S m$^{-1}\times100\ \Omega=129$ m$^{-1}$ \mk{1}\nl
+$\kappa_{0.02\text{ M}}=\dfrac{G^*}{R}=\dfrac{129}{520}=0.248$ S m$^{-1}$ $=\boxed{2.48\times10^{-3}\text{ S cm}^{-1}}$ \mk{1}\nl
+$\Lambda_m=\dfrac{1000\,\kappa}{M}=\dfrac{1000\times2.48\times10^{-3}}{0.02}=\boxed{124\text{ S cm}^2\text{mol}^{-1}}$ \mk{1}
+\An 30\% decomposed: $[R]_0=100$, $[R]=70$.\nl
+$k=\dfrac{2.303}{t}\log\dfrac{[R]_0}{[R]}=\dfrac{2.303}{40}\log\dfrac{100}{70}$ \mk{1}\nl
+$=0.05758\times(1-0.8451)=0.05758\times0.1549=8.92\times10^{-3}$ min$^{-1}$ \mk{1}\nl
+$t_{1/2}=\dfrac{0.693}{k}=\dfrac{0.693}{8.92\times10^{-3}}=\boxed{77.7\text{ min}}$ \mk{1}
+\An $\log\dfrac{k_2}{k_1}=\dfrac{E_a}{2.303R}\left(\dfrac{T_2-T_1}{T_1T_2}\right)$ \mk{1}\nl
+$\log\dfrac{0.07}{0.02}=\dfrac{E_a}{2.303\times8.314}\times\dfrac{700-500}{500\times700}$ \mk{1}\nl
+$E_a=\dfrac{0.5441\times2.303\times8.314\times350000}{200}=18230$ J mol$^{-1}$ $=\boxed{18.23\text{ kJ mol}^{-1}}$ \mk{1}
+\An (a) \textbf{Kohlrausch's law:} the limiting molar conductivity of an electrolyte is the sum of the individual contributions of its cation and anion, $\Lambda_m^\circ=\nu_+\lambda_+^\circ+\nu_-\lambda_-^\circ$. \mk{1}\nl
+(b) $\Lambda^\circ_{\ce{CH3COOH}}=\Lambda^\circ_{\ce{CH3COONa}}+\Lambda^\circ_{\ce{HCl}}-\Lambda^\circ_{\ce{NaCl}}=91.0+425.9-126.4=\boxed{390.5\text{ S cm}^2\text{mol}^{-1}}$ \mk{1}\nl
+(c) For a weak electrolyte $\Lambda_m$ rises very steeply at low concentration (dissociation keeps increasing), so the curve cannot be extended to zero concentration. \mk{1}
+
+\secbar{SECTION D}{4 marks}
+\An (i) Expts I and IV: [B] constant, [A] × 4, rate × 4 ($6.0\times10^{-3}\to2.40\times10^{-2}$) ⇒ \textbf{order 1 in A}. \mk{1}\nl
+(ii) Expts II and III: [A] constant, [B] × 2, rate × 4 ⇒ \textbf{order 2 in B}. Rate $=k[\ce A][\ce B]^2$ (overall order 3). \mk{1}\nl
+(iii) From Expt I: $k=\dfrac{\text{rate}}{[\ce A][\ce B]^2}=\dfrac{6.0\times10^{-3}}{(0.1)(0.1)^2}$ \mk{1} $=\boxed{6.0\text{ L}^2\text{mol}^{-2}\text{min}^{-1}}$ \mk{1}\nl
+\textbf{OR} (iii) $k=6.0$ L$^2$mol$^{-2}$min$^{-1}$ \mk{1}; rate $=6.0\times0.2\times(0.2)^2=\boxed{4.8\times10^{-2}\text{ mol L}^{-1}\text{min}^{-1}}$ \mk{1}
+
+\secbar{SECTION E}{5 marks each}
+\An (a) \ce{CaCl2 -> Ca^2+ + 2Cl-}; complete dissociation ⇒ $i=3$ \mk{½}\nl
+$m=\dfrac{10\times1000}{111\times200}=0.4505$ mol kg$^{-1}$ \mk{1}\nl
+$\Delta T_b=iK_bm=3\times0.52\times0.4505=0.70$ K \mk{1}\nl
+$T_b=373.15+0.70=\boxed{373.85\text{ K}}$ \mk{½}\nl
+(b)(i) Colligative properties depend on the number of particles. KCl dissociates into two ions ($i\approx2$); sugar does not ($i=1$). \mk{1}\nl
+(ii) The mixture shows positive deviation from Raoult's law (ethanol--water attractions are weaker than those in the pure liquids), so the total vapour pressure passes through a maximum and the boiling point through a minimum. \mk{1}
+\An (a) $n=2$. $\Delta_rG^\circ=-nFE^\circ_\text{cell}$ \mk{½} $=-2\times96500\times0.236=-45548$ J mol$^{-1}$ $=\boxed{-45.55\text{ kJ mol}^{-1}}$ \mk{1}\nl
+$\log K_c=\dfrac{nE^\circ_\text{cell}}{0.059}$ \mk{½} $=\dfrac{2\times0.236}{0.059}=8.0$ ⇒ $K_c=\boxed{1\times10^{8}}$ \mk{1}\nl
+(b) \ce{Al^3+ + 3e- -> Al}: \textbf{3 F} per mole of Al. \mk{1}\nl
+(c) Cathode: \ce{O2(g) + 2H2O(l) + 4e- -> 4OH-(aq)} \mk{½}\nl
+Anode: \ce{2H2(g) + 4OH-(aq) -> 4H2O(l) + 4e-} \mk{½}
+\end{multicols}
+\begin{tcolorbox}[enhanced,colback=tipY,colframe=tipYframe,boxrule=0.5pt,arc=1.5pt,left=4pt,right=4pt,top=2pt,bottom=2pt,before skip=4pt]
+\footnotesize\textbf{Where a 70/70 script wins marks here.} (1) Every numerical starts with the formula on its own line and ends with a boxed answer \emph{with units}. (2) The balanced cell reaction and $n$ are written before the Nernst equation. (3) $i$ is stated with the dissociation equation. (4) Conductivity is converted to S cm$^{-1}$ before using $1000\kappa/M$. (5) In rate-data questions, the two experiments compared are named. (6) Reasons are one fact + one cause, in two lines.
+\end{tcolorbox}
+\scorebox{50}
+
+\end{document}

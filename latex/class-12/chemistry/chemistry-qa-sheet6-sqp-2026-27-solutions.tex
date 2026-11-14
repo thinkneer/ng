@@ -1,0 +1,175 @@
+\documentclass[10pt,a4paper]{extarticle}
+\usepackage[a4paper,margin=10mm,top=9mm,bottom=11mm]{geometry}
+\input{../preambles/chemistry-preamble}
+\fancyfoot[L]{\tiny\sffamily\color{black!55} Class 12 Chemistry · \sheetname · CBSE Board 2026--27 (paper 27 Feb 2027)}
+\fancyfoot[R]{\tiny\sffamily\color{black!55} Page \thepage}
+
+% ---------- Notes-specific macros ----------
+\newcommand{\st}[1]{\textcolor{tipYframe!90!black}{\ifcase#1\or\ding{72}\or\ding{72}\ding{72}\or\ding{72}\ding{72}\ding{72}\fi}}
+\newcommand{\ty}[1]{\tagbox{uc!75!black}{#1}}
+\newcommand{\mk}[1]{{\scriptsize\color{black!55}[#1]}}
+\newenvironment{rqlist}{\begin{enumerate}[leftmargin=12pt,label={\sffamily\bfseries\scriptsize\color{uc}\arabic*.},itemsep=1pt]}{\end{enumerate}}
+\newcommand{\ans}{\par\hspace*{2pt}{\color{uc}$\hookrightarrow$}\;}
+\newtcolorbox{skel}[1]{enhanced,colback=white,colframe=uc,boxrule=0.5pt,arc=1.5pt,left=3pt,right=3pt,top=1pt,bottom=1pt,boxsep=1pt,before skip=2pt,after skip=3pt,
+  title={\sffamily\bfseries\scriptsize #1},colbacktitle=uc!85,coltitle=white,toptitle=0.5pt,bottomtitle=0.5pt}
+\newcommand{\chapterhead}[4]{% colour, title, marks, subtitle
+  \newpage\colorlet{uc}{#1}%
+  \begin{tcolorbox}[enhanced,colback=#1,colframe=#1,arc=2pt,left=6pt,right=6pt,top=3pt,bottom=3pt,after skip=3pt]
+  \color{white}\sffamily{\large\bfseries #2}\hfill{\small\bfseries #3}\\[-1pt]{\scriptsize #4}
+  \end{tcolorbox}}
+
+% orbital boxes: 0 empty, 1 up, 2 pair, 3 ligand electron pair (shaded)
+\newcommand{\ob}[1]{\begin{tikzpicture}[x=2.9mm,y=2.9mm,baseline=0.3mm,line width=0.35pt]
+\foreach \s [count=\i from 0] in {#1}{%
+ \ifnum\s=3 \fill[uc!28] (\i,0) rectangle ++(1,1);\fi
+ \draw[black!65] (\i,0) rectangle ++(1,1);
+ \ifnum\s>0 \draw[-{Stealth[length=1.6pt]}] (\i+0.33,0.12)--(\i+0.33,0.88);\fi
+ \ifnum\s>1 \draw[{Stealth[length=1.6pt]}-] (\i+0.67,0.12)--(\i+0.67,0.88);\fi}
+\end{tikzpicture}}
+\def\sheetname{Expert Q\&A}
+\raggedbottom
+\begin{document}
+\small
+
+% ---------- Q&A sheet macros (used after \begin{document}) ----------
+\newcounter{qn}\newcounter{an}
+\newcommand{\Q}{\par\addvspace{4pt}\refstepcounter{qn}\noindent\hangindent=21pt\hangafter=1\makebox[21pt][l]{\sffamily\bfseries\footnotesize\color{uc}Q\theqn.}}
+\newcommand{\An}{\par\addvspace{4pt}\refstepcounter{an}\noindent\hangindent=21pt\hangafter=1\makebox[21pt][l]{\sffamily\bfseries\footnotesize\color{uc}A\thean.}}
+\newcommand{\nl}{\par\noindent\hangindent=21pt\hangafter=0}
+\newcommand{\secbar}[2]{\par\addvspace{4pt}\needspace{5\baselineskip}\noindent
+  \begin{tcolorbox}[enhanced,colback=uc!18,colframe=uc,boxrule=0pt,leftrule=3pt,arc=0pt,boxsep=0.5pt,left=3pt,right=3pt,top=1pt,bottom=1pt,before skip=3pt,after skip=2pt]
+  \sffamily\bfseries\color{uc!80!black}\footnotesize #1\hfill\scriptsize #2
+  \end{tcolorbox}}
+\newcommand{\qatitle}[5]{% number, title, chapters, marks, time
+  \gdef\sheetname{Expert Q\&A Sheet #1 of 6: #2}
+  \begin{tcolorbox}[enhanced,colback=navy,colframe=navy,arc=2pt,left=8pt,right=8pt,top=5pt,bottom=5pt]
+  \color{white}\sffamily
+  {\LARGE\bfseries Class 12 Chemistry — Expert Q\&A Sheet #1 of 6}\\[3pt]
+  {\large #2} \hfill {\small #3}\\[2pt]
+  {\footnotesize CBSE Board 2026--27 pattern · Rationalised NCERT · Paper: \textbf{Sat 27 Feb 2027} · \textbf{#4 marks · #5 min} · Questions first, full-mark answers with step marks at the end}
+  \end{tcolorbox}
+  \begin{tcolorbox}[enhanced,colback=tipY,colframe=tipYframe,boxrule=0.5pt,arc=1.5pt,left=4pt,right=4pt,top=1.5pt,bottom=1.5pt,before skip=3pt,after skip=3pt]
+  \footnotesize\textbf{How to use.} Sit it like a test: set a timer, write on paper, no notes. Then mark yourself against the answer section, step by step. \textbf{Honest label:} every question is \textbf{PYQ-style} — the question types and data patterns that recur in CBSE papers of 2022--2026 and in NCERT — written in my own words, not copied from a specific year's paper. Step-mark splits follow the usual CBSE marking-scheme pattern and are estimates.
+  \end{tcolorbox}}
+\newcommand{\answerstart}{\newpage
+  \begin{tcolorbox}[enhanced,colback=navy,colframe=navy,arc=2pt,left=6pt,right=6pt,top=3pt,bottom=3pt,after skip=3pt]
+  \color{white}\sffamily{\large\bfseries Answers \& marking scheme}\hfill{\small written the way a full-marks script reads · {\scriptsize[\,]} = step marks}
+  \end{tcolorbox}}
+\newcommand{\scorebox}[1]{%
+  \begin{tcolorbox}[enhanced,colback=white,colframe=navy,boxrule=0.8pt,arc=2pt,title={\sffamily\bfseries\footnotesize My score: \underline{\hspace{10mm}} / #1 \quad · \quad Time taken: \underline{\hspace{10mm}} min \quad · \quad Questions to redo / errors to log},colbacktitle=navy,coltitle=white,height fill,before skip=4pt]
+  \end{tcolorbox}}
+
+\colorlet{uc}{navy}
+\gdef\sheetname{Expert Q\&A Sheet 6 of 6: CBSE Sample Paper 2026--27 solved}
+\begin{tcolorbox}[enhanced,colback=navy,colframe=navy,arc=2pt,left=8pt,right=8pt,top=5pt,bottom=5pt]
+\color{white}\sffamily
+{\LARGE\bfseries Class 12 Chemistry — Expert Q\&A Sheet 6 of 6}\\[3pt]
+{\large CBSE Sample Question Paper 2026--27 (code 043) — solved} \hfill {\small 33 questions · 70 marks · 3 hours}\\[2pt]
+{\footnotesize Our own full-mark answers keyed to the official question numbers · Board paper: \textbf{Sat 27 Feb 2027}}
+\end{tcolorbox}
+\begin{tcolorbox}[enhanced,colback=tipY,colframe=tipYframe,boxrule=0.5pt,arc=1.5pt,left=4pt,right=4pt,top=1.5pt,bottom=1.5pt,before skip=3pt,after skip=3pt]
+\footnotesize\textbf{How to use.} Download the official sample paper from cbseacademic.nic.in (Sample Question Papers → Class XII 2026--27 → Chemistry), sit it for 3 hours, then mark yourself with this sheet. Answers are keyed to the official question numbers, so keep the paper beside you; the questions themselves are not reproduced here.\\
+\textbf{Read this first.} These solutions were written from a text copy of the paper, so the four figures, the DNA strand, one structure drawing and one data table were not available. Answers marked \tagbox{uVI}{CHECK} depend on those and tell you how to finish them from the paper. The step-mark splits are my estimates; CBSE's own marking scheme (published with the sample paper) is the final word.
+\end{tcolorbox}
+\begin{multicols}{2}\raggedcolumns
+\newcommand{\qq}[1]{\textit{\color{black!65}#1}\nl}
+\newcommand{\chk}{\tagbox{uVI}{CHECK}\ }
+\secbar{SECTION A · Q1--16}{1 mark each}
+\An \chk Classify first: \textbf{R is the primary amine} (highest b.p., most N--H hydrogen bonding), \textbf{P the secondary}, \textbf{Q the tertiary} (lowest b.p., no N--H). Then test each option: R gives a Hinsberg product soluble in alkali; Gabriel synthesis makes only primary amines, so it cannot give P or Q; the most volatile amine (Q) is the weakest base (largest p$K_b$). Pick the option that agrees with these facts.
+\An \textbf{\ce{[NiCl4]^2-}} (option C). \ce{Cl-} is a weak-field ligand: $sp^3$. \ce{[Ni(CN)4]^2-} and \ce{[Cu(NH3)4]^2+} are square planar; \ce{[Co(en)3]^3+} is octahedral.
+\An \textbf{3 F} (option C): \ce{M^3+ + 3e- -> M}.
+\An X is a primary amine (carbylamine test). \textbf{Reduction of nitrobenzene} gives aniline (option B). The others give an isocyanide, a nitrile and an amide.
+\An \chk The pressure of the gas rises, so by Henry's law its \textbf{solubility increases until a new dynamic equilibrium} is reached; choose the option that says this. (Alternative version: partial pressure is proportional to the \textbf{mole fraction} of the gas in solution.)
+\An (i) \textbf{Second order}: rate $=k[\ce{CH3COCl}][\ce{H2O}]$. (ii) \textbf{Pseudo first order}: rate $=k'[\ce{CH3COCl}]$, since [\ce{H2O}] stays practically constant.
+\An \textbf{Acidic and non-essential} (glutamic acid: two \ce{-COOH}, one \ce{-NH2}).
+\An \textbf{(i) and (ii)} (option D). Pentan-3-one + \ce{CH3MgCl}, and butan-2-one + \ce{C2H5MgCl}, both give \ce{(C2H5)2C(OH)CH3}. Aldehydes (iii), (iv) give secondary alcohols.
+\An \textbf{Mn}. \ce{Mn^3+} ($3d^4$) → \ce{Mn^2+} ($3d^5$, half-filled, stable); $E^\circ=+1.57$ V.
+\An \textbf{S$_\text{N}$2 with inversion of configuration.}
+\An \textbf{32 min} (two half-lives).
+\An \textbf{0.1 M HCl}: strong electrolyte, and \ce{H+} has the highest ionic conductivity.
+\An \textbf{Both true, but R is not the correct explanation.} The meta product forms because aniline is protonated to the meta-directing anilinium ion in the acid medium.
+\An \textbf{A true, R false.} The $\pi$-bonding uses p orbitals of oxygen and \emph{d} orbitals of manganese.
+\An \textbf{Both true, and R explains A.}
+\An \textbf{Both true, and R explains A} ($3d^6$ paired, $d^2sp^3$).
+
+\secbar{SECTION B · Q17--21}{2 marks each}
+\An \textbf{A} (I) \ce{5SO3^2- + 2MnO4- + 6H+ -> 2Mn^2+ + 5SO4^2- + 3H2O} \mk{1}\nl
+(II) Ti ($3d^24s^2$) has fewer unpaired d electrons than Cr ($3d^54s^1$), so its metallic bonding is weaker. \mk{1}\nl
+\textbf{B} (I) Sc and Ti ions are small, highly charged and have vacant d orbitals of suitable energy to accept ligand electron pairs; \ce{K+} and \ce{Ca^2+} are large, of low charge density, with no such d orbitals. \mk{1}\nl
+(II) \ce{6Fe^2+ + Cr2O7^2- + 14H+ -> 6Fe^3+ + 2Cr^3+ + 7H2O} \mk{1}
+\An No, only for \textbf{zero-order reactions}, where rate $=k$ is independent of concentration (e.g.\ decomposition of \ce{NH3} on hot Pt at high pressure). \mk{1} For other orders the rate falls as the reactant concentration falls. \mk{1}
+\An (I) \chk Use complementary pairing: \textbf{A with T, G with C} (write T opposite A, C opposite G, and vice versa). \mk{1}\nl
+(II) The acid lowers the pH and \textbf{denatures} casein: hydrogen bonds are disturbed, the secondary and tertiary structures are lost (primary structure intact) and the protein coagulates — the milk curdles. \mk{1}
+\An \textbf{Nitro} (at ortho/para). \mk{1} It withdraws electrons and stabilises the carbanion intermediate by resonance, so the nucleophile attacks more easily; methoxy releases electrons and destabilises it. \mk{1}
+\An (I) Mg is more easily oxidised than Fe (lower $E^\circ$); it acts as a \textbf{sacrificial anode} and corrodes in place of the iron, which becomes the cathode. \mk{1}\nl
+(II) Cathode: \ce{Mg^2+ + 2e- -> Mg}; anode: \ce{2Cl- -> Cl2 + 2e-}. \mk{½ + ½}
+
+\secbar{SECTION C · Q22--28}{3 marks each}
+\An (I) \ce{Ti^2+} $3d^2$ (2 unpaired, 2.83 BM); \ce{Co^2+} $3d^7$ (3 unpaired, 3.87 BM); \ce{Fe^2+} $3d^6$ (4 unpaired, 4.90 BM). \textbf{\ce{Fe^2+}} is highest, by $\mu=\sqrt{n(n+2)}$. \mk{1½}\nl
+(II) Catalyst: variable oxidation states and the ability to adsorb reactant molecules on its surface (forming unstable intermediates). \mk{¾} Interstitial compounds: the metal lattice has voids that can trap small atoms. \mk{¾}
+\An Slope $=\dfrac{-2.31-(-4.46)}{0.00294-0.00333}=\dfrac{2.15}{-0.00039}\approx-5.5\times10^{3}$ K \mk{1}\nl
+Slope $=-\dfrac{E_a}{2.303R}$ \mk{1}\nl
+$E_a=2.303\times8.314\times5.5\times10^{3}$ J mol$^{-1}$\nl $\approx\boxed{105\text{ kJ mol}^{-1}}$ \mk{1}\nl
+(Alternative version, slope $-4250$ K: $E_a=2.303\times8.314\times4250=\boxed{81.4\text{ kJ mol}^{-1}}$.)
+\An (I) \textbf{Aldol condensation}; reagent dilute NaOH. \mk{1}\nl
+(II) \textbf{Etard reaction}; reagent chromyl chloride, \ce{CrO2Cl2}. \mk{1}\nl
+(III) \textbf{Wolff--Kishner reduction}; intermediate hydrazone, $>$\ce{C=N-NH2}. \mk{1}
+\An (I)(a) The volume is \textbf{more than 20 mL}: positive deviation from Raoult's law. Acetone--\ce{CS2} attractions are weaker than those in the pure liquids, so $\Delta_\text{mix}V>0$. \mk{1}\nl
+(b) With chloroform the volume is \textbf{less than 20 mL}: hydrogen bonding between \ce{CHCl3} and acetone gives negative deviation. \mk{1}\nl
+(II) ppm $=\dfrac{6\times10^{-3}}{1030}\times10^{6}=\boxed{5.8\text{ ppm}}$ \mk{1}
+\An (I)(a) \ce{C6H5NO2 ->[Sn / HCl] C6H5NH2 ->[NaNO2 + HCl][273-278 K] C6H5N2+Cl- ->[HBF4] C6H5N2+BF4- ->[\Delta] C6H5F} \mk{1}\nl
+(b) \ce{C6H5COOH ->[NH3][\Delta] C6H5CONH2 ->[(i) LiAlH4][(ii) H2O] C6H5CH2NH2} \mk{1}\nl
+(II) \ce{-NH2} activates the ring so strongly that substitution occurs at all ortho and para positions. In acetanilide the lone pair on N is also delocalised onto the carbonyl oxygen, so the ring is less activated and only one group enters (mainly para). \mk{1}
+\An \textbf{A} (I) \chk Name from the drawing: longest chain, lowest locants, substituents in alphabetical order. \mk{1}\nl
+(II) X = \ce{CH3CH2CH2NC} (propyl isocyanide); Y = \ce{CH3CH2CH2CN} (butanenitrile). \mk{1} KCN is ionic and gives \ce{CN-}, which attacks through carbon (C--C bond is stronger than C--N). AgCN is mainly covalent, so only the nitrogen lone pair is free to attack. \mk{1}\nl
+\textbf{B} (I) \textbf{3-Bromo-2,2,3-trimethylpentane} \mk{1}\nl
+(II) \ce{CH2=CH-CH2Cl}: it ionises to the allyl carbocation, which is stabilised by resonance, so S$_\text{N}$1 hydrolysis is faster. \mk{2}
+\An (I) $p=x_1p^\circ$ and $p=0.5p^\circ$ ⇒ $x_1=0.5$, so $n_2=n_1$ \mk{1}\nl
+$n_1=\dfrac{1000}{18}=55.56$ mol ⇒ $M_2=\dfrac{100}{55.56}=\boxed{1.8\text{ g mol}^{-1}}$ \mk{1}\nl
+{\scriptsize(The dilute-solution shortcut $\Delta p/p^\circ=n_2/n_1$ would give 3.6 g mol$^{-1}$, but it is not valid here because the solution is not dilute. Check which one CBSE's marking scheme accepts.)}\nl
+(II) 68\% \ce{HNO3} + 32\% water by mass is a \textbf{maximum-boiling azeotrope} (b.p.\ 393.5 K): liquid and vapour have the same composition, so it distils unchanged. \mk{1}
+
+\secbar{SECTION D · Q29--30}{4 marks each}
+\An (I) \textbf{Less than 4.09} (option D): three \ce{-NO2} groups make picric acid a very strong acid. \mk{1}\nl
+(II) \chk Read the four p$K_a$ values of the p-halophenols from Fig.\ 4; the lower the p$K_a$, the stronger the acid. Write them in that order and match the option. \mk{1}\nl
+(III) A: \textbf{Phenol} has the lower p$K_a$: its phenoxide ion is stabilised by resonance, while the cyclohexyl oxide ion is not (and is destabilised by the +I effect of the ring). \mk{2}\nl
+\textbf{OR} B: 4-Chloro-2,6-dinitrophenol is \textbf{less acidic}: \ce{-Cl} withdraws electrons only weakly ($-I$, opposed by $+R$), whereas the para \ce{-NO2} it replaces withdraws strongly by both $-I$ and $-R$. \mk{2}
+\An (I) \textbf{A reducing sugar} (option B). \mk{1}\nl
+(II) \textbf{Sucrose and starch}, (i) and (iii). Lactose is milk sugar; glycogen is animal starch. \mk{1}\nl
+(III) A: \textbf{Maltose}. It is a reducing sugar and gives only glucose (two units) on hydrolysis. Glucose and fructose are monosaccharides and cannot be hydrolysed; sucrose is non-reducing; lactose gives two different monosaccharides. \mk{2}\nl
+\textbf{OR} B: Ravi is wrong. Starch does give only glucose on hydrolysis, but it is a polysaccharide that does not reduce Benedict's reagent and is not freely soluble in cold water. \mk{2}
+
+\secbar{SECTION E · Q31--33}{5 marks each}
+\An \textbf{A} (I)(a) Mild acid protonates the carbonyl oxygen and makes the carbon more electrophilic; in strong acid the nitrogen nucleophile itself is protonated and can no longer attack. \mk{1}\nl
+(b) Dry HCl protonates the carbonyl oxygen, increasing the electrophilicity of the carbon; it must be dry because water would hydrolyse the hemiacetal/acetal back (the reaction is reversible). \mk{1}\nl
+(c) Aldehydes form crystalline, water-soluble bisulphite addition compounds, which can be separated and then decomposed with dilute acid or alkali to get the aldehyde back. \mk{1}\nl
+(II) Step 1: add \ce{NaHCO3} to all three — brisk effervescence (\ce{CO2}) ⇒ \textbf{acetic acid}. \mk{1} Step 2: add 2,4-DNP to the other two — yellow-orange precipitate ⇒ \textbf{acetaldehyde}; no change ⇒ \textbf{methanol}. \mk{1}\nl
+\textbf{B} (I)(a) \ce{HCHO} $>$ \ce{CH3CHO} $>$ \ce{C6H5CHO} \mk{1}\nl
+(b) \ce{CH3CONH2} $<$ \ce{CH3COOH} $<$ \ce{CH3COOCH3} $<$ \ce{CH3COCl} \mk{1} {\scriptsize(the acid and the ester are close; check CBSE's marking scheme for their order)}\nl
+(c) \ce{CH3COCH3} $<$ \ce{CH3CHO} $<$ \ce{CF3CHO} \mk{1}\nl
+(II) Propanal \ce{CH3CH2CHO} and propanone \ce{CH3COCH3}. \mk{1} \textbf{Propanal} gives Tollens' test: aldehydes have a hydrogen on the carbonyl carbon and are easily oxidised to the acid, reducing \ce{Ag+} to silver; ketones are not. \mk{1}
+\An \textbf{A} (I) \ce{[Cr(en)3]^3+}: it is chiral (non-superimposable mirror images, $d$ and $l$). \ce{[Cr(H2O)3Cl3]} (fac or mer) has a plane of symmetry. \mk{1}\nl
+(II) \ce{[Ni(CO)4]}, since CO is the strongest-field ligand; the splitting depends on the nature of the ligand (spectrochemical series), the charge on the metal and the geometry. \mk{1} {\scriptsize(The two complexes differ in geometry too; check the marking scheme.)}\nl
+(III) 2 mol AgCl ⇒ two ionisable \ce{Cl-}: \ce{[Pd(NH3)4]Cl2}. Primary valency 2, secondary valency 4. \mk{1}\nl
+(IV) \ce{CN-} is a strong-field ligand: it pairs the $3d^6$ electrons of \ce{Fe^2+}, freeing two 3d orbitals for $d^2sp^3$ hybridisation; the complex is octahedral (inner-orbital, diamagnetic). \mk{1}\nl
+(V) Anhydrous \ce{CuSO4} has no ligands, so no crystal-field splitting and no d--d transition. In \ce{CuSO4.5H2O} the water ligands split the d orbitals; a d--d transition absorbs in the visible region and the salt looks blue. \mk{1}\nl
+\textbf{B} (I) \ce{[Co(NH3)6]Cl3}: it gives the most ions (four) in solution. \mk{1}\nl
+(II) $t_{2g}^5e_g^0$ \mk{1}\nl
+(III) \ce{[Cr(H2O)2(NH3)2(C2O4)]Cl} \mk{1}\nl
+(IV) \ce{[Co(NH3)2Cl2(en)]Cl} can be optically active: the isomer with the two \ce{NH3} cis and the two Cl cis has no plane of symmetry. \ce{[Co(NH3)4Cl2]Cl} is optically inactive: both cis and trans forms have a plane of symmetry. \mk{1}\nl
+(V) \ce{NH3} is a stronger-field ligand than \ce{H2O}, so the splitting is larger and light of higher energy (shorter wavelength) is absorbed; the complementary colour seen therefore changes. The controlling factor is the field strength of the ligand. \mk{1}
+\An \textbf{A} (I) \ce{Zn + Cu^2+ -> Zn^2+ + Cu}, $n=2$: $E=1.10-\dfrac{0.059}{2}\log\dfrac{[\ce{Zn^2+}]}{[\ce{Cu^2+}]}$.\nl
+(a) Experiment 4 has the smallest ratio $[\ce{Zn^2+}]/[\ce{Cu^2+}]$, so the log term is most negative and $E$ is largest. \mk{1}\nl
+(b) \chk Put experiment 3's two concentrations from the table into the equation above (if the ratio is 10, $E=1.07$ V; if 100, $E=1.04$ V). \mk{1} A measured value can differ because the equation uses concentrations in place of activities, the temperature may not be exactly 298 K, and some current is drawn during measurement (internal resistance). \mk{1}\nl
+(II) 1 S m$^2$mol$^{-1}$ $=10^{4}$ S cm$^2$mol$^{-1}$ (1 m$^2$ = $10^4$ cm$^2$). \mk{1}\nl
+(III) Discharging: \ce{H2SO4} is used up and water forms, so the specific gravity falls. Charging: \ce{H2SO4} is regenerated, so it rises. \mk{1}\nl
+\textbf{B} (I) $\sqrt{0.010}=0.1$, $\sqrt{0.040}=0.2$.\nl
+$123.9=\Lambda^\circ_m-0.1A$ and $120.7=\Lambda^\circ_m-0.2A$ \mk{1}\nl
+Subtract: $0.1A=3.2$ ⇒ $A=\boxed{32\text{ S cm}^2\text{mol}^{-1}(\text{mol L}^{-1})^{-1/2}}$ \mk{1}\nl
+$\Lambda^\circ_m=123.9+3.2=\boxed{127.1\text{ S cm}^2\text{mol}^{-1}}$ \mk{1}\nl
+(II) Cathode: \ce{O2 + 2H2O + 4e- -> 4OH-}; anode: \ce{2H2 + 4OH- -> 4H2O + 4e-}. \mk{1}\nl
+Advantages: high efficiency (about 70\%); no pollution, as the only product is water; runs continuously as long as fuel is supplied. (any two) \mk{1}
+\end{multicols}
+\scorebox{70}
+
+\end{document}

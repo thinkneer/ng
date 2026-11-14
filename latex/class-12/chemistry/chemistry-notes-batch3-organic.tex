@@ -1,0 +1,627 @@
+\documentclass[10pt,a4paper]{extarticle}
+\usepackage[a4paper,margin=10mm,top=9mm,bottom=11mm]{geometry}
+\input{../preambles/chemistry-preamble}
+\fancyfoot[L]{\tiny\sffamily\color{black!55} Class 12 Chemistry · Must-Have Notes · Batch 3: Organic Chemistry (Ch 6--10) · CBSE Board 2026--27 (paper 27 Feb 2027)}
+\fancyfoot[R]{\tiny\sffamily\color{black!55} Page \thepage}
+
+% ---------- Notes-specific macros ----------
+\newcommand{\st}[1]{\textcolor{tipYframe!90!black}{\ifcase#1\or\ding{72}\or\ding{72}\ding{72}\or\ding{72}\ding{72}\ding{72}\fi}}
+\newcommand{\ty}[1]{\tagbox{uc!75!black}{#1}}
+\newcommand{\mk}[1]{{\scriptsize\color{black!55}[#1]}}
+\newenvironment{rqlist}{\begin{enumerate}[leftmargin=12pt,label={\sffamily\bfseries\scriptsize\color{uc}\arabic*.},itemsep=1pt]}{\end{enumerate}}
+\newcommand{\ans}{\par\hspace*{2pt}{\color{uc}$\hookrightarrow$}\;}
+\newtcolorbox{skel}[1]{enhanced,colback=white,colframe=uc,boxrule=0.5pt,arc=1.5pt,left=3pt,right=3pt,top=1pt,bottom=1pt,boxsep=1pt,before skip=2pt,after skip=3pt,
+  title={\sffamily\bfseries\scriptsize #1},colbacktitle=uc!85,coltitle=white,toptitle=0.5pt,bottomtitle=0.5pt}
+\newcommand{\chapterhead}[4]{% colour, title, marks, subtitle
+  \newpage\colorlet{uc}{#1}%
+  \begin{tcolorbox}[enhanced,colback=#1,colframe=#1,arc=2pt,left=6pt,right=6pt,top=3pt,bottom=3pt,after skip=3pt]
+  \color{white}\sffamily{\large\bfseries #2}\hfill{\small\bfseries #3}\\[-1pt]{\scriptsize #4}
+  \end{tcolorbox}}
+
+% orbital boxes: 0 empty, 1 up, 2 pair, 3 ligand electron pair (shaded)
+\newcommand{\ob}[1]{\begin{tikzpicture}[x=2.9mm,y=2.9mm,baseline=0.3mm,line width=0.35pt]
+\foreach \s [count=\i from 0] in {#1}{%
+ \ifnum\s=3 \fill[uc!28] (\i,0) rectangle ++(1,1);\fi
+ \draw[black!65] (\i,0) rectangle ++(1,1);
+ \ifnum\s>0 \draw[-{Stealth[length=1.6pt]}] (\i+0.33,0.12)--(\i+0.33,0.88);\fi
+ \ifnum\s>1 \draw[{Stealth[length=1.6pt]}-] (\i+0.67,0.12)--(\i+0.67,0.88);\fi}
+\end{tikzpicture}}
+\raggedbottom
+\begin{document}
+\small
+
+% =====================================================================
+% COVER
+% =====================================================================
+\begin{tcolorbox}[enhanced,colback=navy,colframe=navy,arc=2pt,left=8pt,right=8pt,top=6pt,bottom=6pt]
+\color{white}\sffamily
+{\LARGE\bfseries Class 12 Chemistry — Must-Have Notes}\\[3pt]
+{\large Batch 3 of 3: Organic Chemistry} \hfill {\small Ch 6 Haloalkanes · Ch 7 Alcohols · Ch 8 Carbonyls \& Acids · Ch 9 Amines · Ch 10 Biomolecules}\\[2pt]
+{\footnotesize CBSE Board 2026--27 only · Rationalised NCERT · Chemistry paper: \textbf{Saturday 27 February 2027} · Organic Chemistry = \textbf{33 of 70} theory marks}
+\end{tcolorbox}
+
+\colorlet{uc}{navy}
+\begin{multicols}{2}
+\sub{How to use these notes}
+\begin{fl}
+\item Same layout as Batches 1--2: \textbf{most-repeated questions} → \textbf{NCERT lines} → \textbf{key reactions/facts} → \textbf{answer skeletons} → \textbf{why/reason answers} → \textbf{1-mark facts} → \textbf{case-based angles} → \textbf{traps}.
+\item Keep the formula sheet Part 3 (Organic) open: page 4 has the named-reaction table, distinguishing tests, orders and conversion chains. These notes tell you \emph{what is asked and how to write it}.
+\item Organic is about half the paper. Write every named reaction from memory twice a week until it is automatic.
+\end{fl}
+\sub{Star legend (estimates, not exact counts)}
+\begin{fl}
+\item \st3\ most years \quad \st2\ often \quad \st1\ sometimes. Based on recurring patterns in CBSE board and sample papers of recent years.
+\end{fl}
+\sub{Question-type tags}
+\ty{Df} define / state \;\ty{R} give reason \;\ty{Eq} equation / named reaction \;\ty{Mc} mechanism \;\ty{Cv} conversion \;\ty{Ds} distinguish \;\ty{Id} identify A, B, C \;\ty{Ord} arrange in order \;\ty{Nm} IUPAC name \;\ty{MCQ} 1-mark / A--R
+\sub{Where Organic sits in the paper}
+\begin{fl}
+\item 33 Qs, 70 marks, 3 h: A 16×1 · B 5×2 · C 7×3 · D 2×4 case · E 3×5.
+\item Expect 6--8 one-markers (products, orders, tests, biomolecule facts), two or three 2/3-markers on named reactions, conversions or reasons, a case passage (often Biomolecules or a reaction scheme) and at least one 5-marker (``identify A--E'' or mixed reactions/conversions).
+\end{fl}
+
+\columnbreak
+\sub{Step-mark habits for Organic}
+\begin{kbox}\small
+\textbf{1.} \textbf{Reactions}: write reagent \emph{and} condition over the arrow (anhyd.\ AlCl$_3$, dry ether, 273--278 K, Pd/BaSO$_4$). Missing condition often costs ½.\\
+\textbf{2.} \textbf{Named reactions}: full equation with reactant, product, reagent; name the product if asked.\\
+\textbf{3.} \textbf{Conversions}: number the steps; show each intermediate; $\le$ 3 steps for 2--3 marks.\\
+\textbf{4.} \textbf{Distinguish}: reagent + what \emph{each} compound does (``A gives yellow ppt; B does not'').\\
+\textbf{5.} \textbf{Mechanisms}: show every step with intermediate (carbocation/alkoxide) and say which step is slow.\\
+\textbf{6.} \textbf{Identify A, B, C}: write structures \emph{and} names, plus the equations that justify them.\\
+\textbf{7.} \textbf{Orders}: write the order with $>$ signs, then one line of reason.
+\end{kbox}
+\sub{When to read this batch}
+\begin{fl}
+\item \textbf{Read 1 (now–Dec):} with NCERT text, intext questions and exercises of Ch 6--10.
+\item \textbf{Read 2 (Jan):} with PYQs and exemplar; drill conversions and word problems.
+\item \textbf{Read 3 (17--26 Feb):} days 3--4 of the Chemistry window; named-reaction table the evening before the paper.
+\end{fl}
+\end{multicols}
+
+\begin{tcolorbox}[enhanced,colback=navy!4,colframe=navy,boxrule=0.6pt,arc=2pt,left=4pt,right=4pt,top=2pt,bottom=2pt,
+title={\sffamily\bfseries\footnotesize Organic Chemistry — 15 that keep coming back},colbacktitle=navy,coltitle=white]
+\begin{multicols}{2}\footnotesize
+\begin{enumerate}[leftmargin=14pt,itemsep=0.5pt]
+\item Named reactions of haloalkanes/haloarenes (Ch 6) \st3
+\item S$_\text{N}$1 vs S$_\text{N}$2: faster in a pair, stereochemistry (Ch 6) \st3
+\item Why haloarenes resist nucleophilic substitution (Ch 6) \st3
+\item Kolbe's, Reimer--Tiemann, Williamson (Ch 7) \st3
+\item Acidity of phenols vs alcohols; nitrophenols (Ch 7) \st3
+\item Mechanism of dehydration / hydration / ether formation (Ch 7) \st3
+\item Named reactions of carbonyls and acids (Ch 8) \st3
+\item Identify A, B, C from tests and reactions (Ch 8/9) \st3
+\item Distinguishing tests (Ch 7--9) \st3
+\item Acidity order of carboxylic acids; reactivity in nucleophilic addition (Ch 8) \st3
+\item Basicity orders of amines with reasons (Ch 9) \st3
+\item Gabriel, Hoffmann, carbylamine, Hinsberg, diazonium reactions (Ch 9) \st3
+\item Conversions (Ch 6--9) \st2
+\item Glucose structure reactions; reducing sugars; anomers (Ch 10) \st3
+\item Protein structure, denaturation; vitamins; DNA vs RNA (Ch 10) \st3
+\end{enumerate}
+\end{multicols}
+\end{tcolorbox}
+\begin{tcolorbox}[enhanced,colback=white,colframe=navy,boxrule=0.8pt,arc=2pt,title={\sffamily\bfseries\footnotesize My named-reaction gaps (write the ones you miss in self-tests)},colbacktitle=navy,coltitle=white,height fill,before skip=4pt]
+\end{tcolorbox}
+
+% =====================================================================
+% CH 6
+% =====================================================================
+\chapterhead{uVI}{Ch 6 · Haloalkanes and Haloarenes}{6 marks}{Preparation · S$_\text{N}$1/S$_\text{N}$2 · stereochemistry · elimination · metals · haloarenes · polyhalogen compounds}
+\begin{multicols}{2}\raggedcolumns
+\sub{Most-repeated board questions}
+\begin{rqlist}
+\item \st3 \ty{Eq} Write the reaction: Finkelstein, Swarts, Wurtz, Wurtz--Fittig, Fittig, Sandmeyer (often two in one question). \mk{1--2}
+\item \st3 \ty{Mc}\ty{Cmp} Which undergoes S$_\text{N}$2 (or S$_\text{N}$1) faster in a pair, and why; inversion vs racemisation. \mk{2--3}
+\item \st3 \ty{R} Why are haloarenes less reactive towards nucleophilic substitution? Why does --NO$_2$ at o/p help? \mk{2--3}
+\item \st2 \ty{Ord} Arrange: b.p., S$_\text{N}$1/S$_\text{N}$2 reactivity, dipole moment, density. \mk{1--2}
+\item \st2 \ty{Df} Chirality, enantiomers, racemic mixture; spot the chiral molecule. \mk{1--2}
+\item \st2 \ty{Id} Products: KCN vs AgCN; KNO$_2$ vs AgNO$_2$; aq.\ vs alc.\ KOH; major alkene (Zaitsev); HBr with/without peroxide. \mk{1--2}
+\item \st2 \ty{R} Grignard reagent made in dry conditions; chloroform kept in dark bottles. \mk{1}
+\item \st2 \ty{Eq}\ty{R} Electrophilic substitution of chlorobenzene; why Cl is o/p-directing though deactivating. \mk{1--2}
+\item \st1 \ty{Nm} IUPAC names; allylic / benzylic / vinylic / aryl classification. \mk{1}
+\item \st1 \ty{Df} Uses and environmental effects of CH$_2$Cl$_2$, CHCl$_3$, CHI$_3$, CCl$_4$, freons, DDT. \mk{1--2}
+\item \st1 \ty{Cv} Conversions: propene → 1-bromopropane; benzene → biphenyl; aniline → chlorobenzene. \mk{2--3}
+\item \st1 \ty{R} Haloalkanes are polar yet nearly insoluble in water. \mk{1}
+\end{rqlist}
+
+\sub{Must-know lines (NCERT language)}
+\begin{fl}
+\item \textbf{S$_\text{N}$2}: rate depends on both haloalkane and nucleophile; one step; nucleophile attacks from the side opposite the halogen → \textbf{inversion of configuration}.
+\item \textbf{S$_\text{N}$1}: rate depends only on haloalkane; two steps via carbocation; favoured in polar protic solvents; optically active substrate gives \textbf{racemisation}.
+\item \textbf{Chiral}: object/molecule not superimposable on its mirror image; carbon with four different groups is an asymmetric (chiral) centre.
+\item \textbf{Enantiomers}: non-superimposable mirror-image stereoisomers. \textbf{Racemic mixture}: equal proportions of enantiomers; zero rotation.
+\item \textbf{Zaitsev rule}: in dehydrohalogenation the preferred alkene has more alkyl groups on the doubly bonded carbons.
+\item \textbf{Ambident nucleophile}: has two nucleophilic sites (\ce{CN-}, \ce{NO2-}).
+\item \textbf{Grignard reagents} react with any source of protons (water, alcohols, amines) to give hydrocarbons.
+\end{fl}
+
+\sub{Key reactions}
+\begin{kbox}
+\ce{R-OH + SOCl2 -> R-Cl + SO2 + HCl}\quad \ce{R-X + NaI ->[dry acetone] R-I + NaX}\quad \ce{R-Br + AgF -> R-F + AgBr}\\[1pt]
+\ce{R-X + KCN -> R-CN}\;·\;\ce{R-X + AgCN -> R-NC}\;·\;\ce{R-X + AgNO2 -> R-NO2}\;·\;\ce{R-X + KNO2 -> R-ONO}\\[1pt]
+\ce{2RX + 2Na ->[dry ether] R-R}\quad \ce{ArX + RX + 2Na -> Ar-R}\quad \ce{2ArX + 2Na -> Ar-Ar}\\[1pt]
+\ce{ArN2+Cl- ->[CuCl/HCl] ArCl + N2}\quad \ce{RMgX + H2O -> RH + Mg(OH)X}
+\end{kbox}
+
+\sub{Answer skeletons}
+\begin{skel}{Mc · S$_\text{N}$2 faster in a pair (2 marks)}
+\textit{1-bromobutane or 2-bromobutane?}\\
+1-Bromobutane reacts faster by S$_\text{N}$2 \mk{½} — it is primary; less steric hindrance to the backside attack of the nucleophile at the carbon bearing Br \mk{1}; transition state forms more easily \mk{½}.
+\end{skel}
+\begin{skel}{Mc · Racemisation in S$_\text{N}$1 (2 marks)}
+Slow step: C--X ionises → \textbf{planar} carbocation (sp$^2$) \mk{1}. Nucleophile attacks from either face equally → both enantiomers → racemic mixture (optically inactive) \mk{1}.
+\end{skel}
+\begin{skel}{R · Haloarenes resist nucleophilic substitution (3 marks)}
+(i) Resonance: lone pair of X delocalised into ring → C--X partial double bond, harder to break. (ii) C is sp$^2$, more electronegative → shorter, stronger C--X bond. (iii) Phenyl cation not resonance-stabilised → no S$_\text{N}$1; electron-rich ring repels nucleophile, backside attack blocked \mk{1 each}.
+\end{skel}
+\begin{skel}{Eq · Named reaction (1 mark each)}
+Reactant(s) → product with reagent and condition over the arrow; name the reaction if not given. E.g.\ Swarts: \ce{CH3Br + AgF -> CH3F + AgBr}.
+\end{skel}
+
+\sub{Why/reason — write it like this}
+\begin{rqlist}
+\item \textbf{Grignard reagent prepared in dry ether.}\ans It reacts with water to form an alkane; ether also stabilises it.
+\item \textbf{Chloroform stored in dark, full bottles.}\ans Air + light oxidise it to poisonous phosgene (\ce{COCl2}).
+\item \textbf{Allylic/benzylic halides react fast by S$_\text{N}$1.}\ans The carbocation is resonance-stabilised.
+\item \textbf{Chlorine is deactivating yet o/p-directing.}\ans $-I$ effect withdraws electron density (deactivates); $+R$ effect raises density at o/p.
+\item \textbf{p-Dichlorobenzene has higher m.p.\ than o-/m-isomers.}\ans Symmetrical; fits better in the crystal lattice.
+\item \textbf{Haloalkanes barely dissolve in water.}\ans Energy to break water's H-bonds is not repaid by weaker haloalkane--water attractions.
+\item \textbf{KCN gives nitrile, AgCN isocyanide.}\ans KCN ionic: C (more nucleophilic site) attacks; AgCN covalent: only N lone pair free.
+\item \textbf{Thionyl chloride is preferred for R--Cl.}\ans By-products SO$_2$ and HCl are gases and escape, leaving pure R--Cl.
+\item \textbf{--NO$_2$ at o/p speeds up substitution of chlorobenzene.}\ans It withdraws electrons and stabilises the carbanion intermediate by resonance; at meta it cannot.
+\item \textbf{Racemic mixture is optically inactive.}\ans Rotation by one enantiomer cancels the other (external compensation).
+\end{rqlist}
+
+\sub{Quick 1-mark facts (MCQ / A--R)}
+\begin{fl}
+\item S$_\text{N}$2: CH$_3$X $>$ 1$^\circ$ $>$ 2$^\circ$ $>$ 3$^\circ$; S$_\text{N}$1: reverse. Leaving group I $>$ Br $>$ Cl $>$ F.
+\item b.p.: RI $>$ RBr $>$ RCl $>$ RF; branching lowers b.p. Dipole: CH$_3$Cl $>$ CH$_3$F $>$ CH$_3$Br $>$ CH$_3$I.
+\item Peroxide effect only with HBr. Propene + HBr → 2-bromopropane; with peroxide → 1-bromopropane.
+\item Chiral: butan-2-ol, 2-bromobutane, 2-chlorobutane. Not chiral: 1-bromobutane, 2-bromopropane.
+\item Chlorobenzene + NaOH needs 623 K, 300 atm; 2,4,6-trinitrochlorobenzene reacts with warm water.
+\item Freons and CCl$_4$ deplete ozone; DDT is non-biodegradable, accumulates in fatty tissue; iodoform is an antiseptic.
+\item Aryl and vinyl halides do not undergo S$_\text{N}$1/S$_\text{N}$2 easily.
+\end{fl}
+
+\sub{Case-based angles seen recently}
+\begin{fl}
+\item Kinetic data: doubling [Nu$^-$] doubles rate → S$_\text{N}$2; no change → S$_\text{N}$1. Predict substrate type.
+\item Optical rotation of a product after substitution → inversion or racemisation.
+\item Ozone hole / insecticide bans → freons, CCl$_4$, DDT.
+\item Synthesis scheme with Grignard reagent → identify products, explain dry conditions.
+\end{fl}
+
+\begin{tip}\Tip \textbf{Mark-losing traps.} (1) Writing Wurtz--Fittig without ``dry ether''. (2) Using aq.\ KOH for elimination (alcoholic is needed). (3) Applying the peroxide effect to HCl/HI. (4) Saying S$_\text{N}$1 gives inversion. (5) Missing the minor product in EAS of chlorobenzene (write both o and p; p major). (6) Calling an aryl halide a ``vinylic'' halide. (7) Forgetting that Finkelstein works because NaCl/NaBr precipitates in dry acetone.\end{tip}
+\end{multicols}
+\begin{tcolorbox}[enhanced,colback=white,colframe=uc,boxrule=0.6pt,arc=2pt,title={\sffamily\bfseries\footnotesize My notes — Ch 6},colbacktitle=uc,coltitle=white,height fill,before skip=4pt]
+\end{tcolorbox}
+
+% =====================================================================
+% CH 7
+% =====================================================================
+\chapterhead{uVII}{Ch 7 · Alcohols, Phenols and Ethers}{6 marks}{Preparation · acidity · reactions of alcohols \& phenol · mechanisms · ethers · commercially important alcohols}
+\begin{multicols}{2}\raggedcolumns
+\sub{Most-repeated board questions}
+\begin{rqlist}
+\item \st3 \ty{Eq} Kolbe's reaction, Reimer--Tiemann reaction, Williamson synthesis, acid-catalysed hydration. \mk{1--2}
+\item \st3 \ty{R}\ty{Ord} Phenol is more acidic than ethanol; effect of --NO$_2$/--CH$_3$; arrange phenol, nitrophenols, cresols, ethanol. \mk{2--3}
+\item \st3 \ty{Mc} Mechanism: acid dehydration of ethanol to ethene, hydration of ethene, or ethanol → ethoxyethane. \mk{3}
+\item \st2 \ty{Ds} Distinguish phenol/ethanol, 1$^\circ$/2$^\circ$/3$^\circ$ alcohols (Lucas), methanol/ethanol (iodoform). \mk{1--2}
+\item \st2 \ty{Eq}\ty{R} Products of HI with anisole or tert-butyl methyl ether, with reasons. \mk{2}
+\item \st2 \ty{Id} Products: phenol + bromine water vs Br$_2$/CS$_2$; dil.\ vs conc.\ HNO$_3$; Cu at 573 K; PCC; Zn dust. \mk{1--2}
+\item \st2 \ty{R} b.p.\ of alcohols vs ethers/alkanes; o-nitrophenol steam-volatile. \mk{1--2}
+\item \st2 \ty{Cv} Propene → propan-1-ol/propan-2-ol; phenol → aspirin; cumene → phenol; benzene → phenol. \mk{2--3}
+\item \st1 \ty{R} Right choice of reactants for Williamson synthesis of tert-butyl methyl ether. \mk{2}
+\item \st1 \ty{Nm} IUPAC names of alcohols, phenols, ethers. \mk{1}
+\item \st1 \ty{Df} Denatured alcohol; methanol poisoning; fermentation enzymes. \mk{1}
+\item \st1 \ty{R} Alcohols are weaker acids than water. \mk{1}
+\end{rqlist}
+
+\sub{Must-know lines (NCERT language)}
+\begin{fl}
+\item Phenol is acidic because phenoxide ion is \textbf{resonance-stabilised} (charge delocalised over the ring); the O--H is attached to sp$^2$ C.
+\item Electron-withdrawing groups (--NO$_2$) at o/p increase acidity of phenol; electron-releasing groups (--CH$_3$) decrease it.
+\item \textbf{Lucas test}: tertiary alcohols give turbidity immediately; primary alcohols give none at room temperature.
+\item \textbf{Williamson synthesis}: alkyl halide + sodium alkoxide → ether (S$_\text{N}$2); best with primary alkyl halides.
+\item \textbf{Denatured alcohol}: commercial ethanol made unfit to drink by adding CuSO$_4$ and pyridine.
+\item Ethanol by fermentation: invertase (sucrose → glucose + fructose), zymase (glucose → ethanol + CO$_2$), anaerobic.
+\end{fl}
+
+\sub{Key reactions}
+\begin{kbox}
+Propene $\xrightarrow{\text{H}_2\text{O}/\text{H}^+}$ propan-2-ol;\quad propene $\xrightarrow{\text{B}_2\text{H}_6;\ \text{H}_2\text{O}_2/\text{OH}^-}$ propan-1-ol\\[1pt]
+Cumene $\xrightarrow{\text{O}_2}$ cumene hydroperoxide $\xrightarrow{\text{H}^+/\text{H}_2\text{O}}$ phenol + acetone\\[1pt]
+Phenoxide $\xrightarrow{\text{CO}_2,\ 400\text{ K},\ 4\text{--}7\text{ atm};\ \text{H}^+}$ salicylic acid \;·\; phenol $\xrightarrow{\text{CHCl}_3/\text{aq. NaOH};\ \text{H}^+}$ salicylaldehyde\\[1pt]
+Phenol + Br$_2$(aq) → 2,4,6-tribromophenol (white ppt) \;·\; dil.\ HNO$_3$ → o- + p-nitrophenol\\[1pt]
+\ce{C6H5OCH3 + HI -> C6H5OH + CH3I}\quad \ce{(CH3)3C-O-CH3 + HI -> (CH3)3C-I + CH3OH}
+\end{kbox}
+
+\sub{Answer skeletons}
+\begin{skel}{Mc · Acid dehydration of ethanol (3 marks)}
+\textbf{Step 1} (fast): \ce{CH3CH2OH + H+ -> CH3CH2OH2+} (protonated alcohol) \mk{1}\\
+\textbf{Step 2} (slow, rate-determining): \ce{CH3CH2OH2+ -> CH3CH2+ + H2O} (carbocation) \mk{1}\\
+\textbf{Step 3}: \ce{CH3CH2+ -> CH2=CH2 + H+} (loss of β-H) \mk{1}\\
+Conditions: conc.\ H$_2$SO$_4$, 443 K.
+\end{skel}
+\begin{skel}{Mc · Ethanol → ethoxyethane (3 marks)}
+Protonation of ethanol → second ethanol molecule attacks the protonated alcohol (S$_\text{N}$2), water leaves → protonated ether → loses H$^+$. Conditions: conc.\ H$_2$SO$_4$, 413 K, excess alcohol.
+\end{skel}
+\begin{skel}{R · Acidity comparison (2 marks)}
+State order (p-nitrophenol $>$ phenol $>$ p-cresol $>$ ethanol) → phenoxide resonance-stabilised; --NO$_2$ ($-R$, $-I$) further delocalises the charge; --CH$_3$ (+I) intensifies it; ethoxide has no resonance and +I of ethyl destabilises it.
+\end{skel}
+\begin{skel}{Ds · Distinguishing test (2 marks)}
+\textit{Phenol vs ethanol}: add neutral FeCl$_3$ — phenol gives violet colour; ethanol gives none. \textit{Or} iodoform test — ethanol gives yellow ppt of CHI$_3$; phenol does not.
+\end{skel}
+\begin{skel}{R · Williamson choice (2 marks)}
+For tert-butyl methyl ether use \ce{(CH3)3C-ONa + CH3Br} (1$^\circ$ halide, S$_\text{N}$2). \ce{(CH3)3C-Br + CH3ONa} gives 2-methylpropene: strong base causes elimination at the 3$^\circ$ halide.
+\end{skel}
+
+\sub{Why/reason — write it like this}
+\begin{rqlist}
+\item \textbf{Alcohols boil higher than ethers/hydrocarbons of similar mass.}\ans Intermolecular hydrogen bonding in alcohols.
+\item \textbf{o-Nitrophenol is steam-volatile; p-nitrophenol is not.}\ans Intramolecular H-bond in the ortho isomer; intermolecular association in the para isomer.
+\item \textbf{Alcohols are weaker acids than water.}\ans Alkyl group (+I) increases electron density on O; alkoxide is a stronger base than hydroxide.
+\item \textbf{Acidity: 1$^\circ$ $>$ 2$^\circ$ $>$ 3$^\circ$ alcohol.}\ans More alkyl groups → more +I → less stable alkoxide.
+\item \textbf{Phenol + bromine water gives tribromophenol directly.}\ans --OH strongly activates the ring; polar water ionises Br$_2$ and phenol partly to phenoxide.
+\item \textbf{Anisole + HI gives phenol, not iodobenzene.}\ans O--C(aryl) bond has partial double-bond character; I$^-$ attacks the methyl carbon (S$_\text{N}$2).
+\item \textbf{tert-Butyl methyl ether + HI gives tert-butyl iodide.}\ans Cleavage goes by S$_\text{N}$1 through the stable 3$^\circ$ carbocation.
+\item \textbf{Ethers mix with water about as well as alcohols.}\ans Ether oxygen forms H-bonds with water.
+\item \textbf{Phenols do not give typical alcohol C--O cleavage.}\ans C--O bond in phenol has partial double-bond character (resonance).
+\item \textbf{PCC is used to get aldehydes from 1$^\circ$ alcohols.}\ans It is a mild oxidant and stops at the aldehyde stage.
+\end{rqlist}
+
+\sub{Quick 1-mark facts (MCQ / A--R)}
+\begin{fl}
+\item Acidity: picric acid (pK$_a$ 0.5) $>$ p-nitrophenol (7.1) $>$ o-nitrophenol (7.2) $>$ m-nitrophenol (8.3) $>$ phenol (10.0) $>$ cresols $>$ ethanol (15.9).
+\item Dehydration ease 3$^\circ$ $>$ 2$^\circ$ $>$ 1$^\circ$ (carbocation stability). Lucas reactivity same order.
+\item Cu, 573 K: 1$^\circ$ → aldehyde; 2$^\circ$ → ketone; 3$^\circ$ → alkene.
+\item Cumene process by-product: acetone. Aspirin = acetylsalicylic acid (salicylic acid + acetic anhydride).
+\item Phenol + Zn dust → benzene; phenol + chromic acid → benzoquinone.
+\item Methanol: CO + 2H$_2$, ZnO--Cr$_2$O$_3$; causes blindness. Denaturing agents: CuSO$_4$, pyridine.
+\item C--O--H in methanol 108.9$^\circ$; C--O--C in methoxymethane 111.7$^\circ$.
+\end{fl}
+
+\sub{Case-based angles seen recently}
+\begin{fl}
+\item pK$_a$ table of phenols → explain order, predict an unlisted compound.
+\item Industrial ethanol/methanol (fermentation, hooch tragedies) → enzymes, denaturing, toxicity.
+\item Synthesis of aspirin / salicylic acid → Kolbe's reaction, acetylation.
+\item Reaction scheme with HI, Lucas reagent, Cu/573 K → identify products.
+\end{fl}
+
+\begin{tip}\Tip \textbf{Mark-losing traps.} (1) Saying ``phenol reacts with NaHCO$_3$'' — it does not. (2) Kolbe's reaction product is salicylic acid, Reimer--Tiemann gives salicylaldehyde — do not swap. (3) Using a 3$^\circ$ halide in Williamson synthesis. (4) Hydroboration gives anti-Markovnikov alcohol; acid hydration gives Markovnikov. (5) In mechanisms, missing the rate-determining step or the carbocation. (6) Writing the bromine-water product of phenol as monobromo.\end{tip}
+\end{multicols}
+\begin{tcolorbox}[enhanced,colback=white,colframe=uc,boxrule=0.6pt,arc=2pt,title={\sffamily\bfseries\footnotesize My notes — Ch 7},colbacktitle=uc,coltitle=white,height fill,before skip=4pt]
+\end{tcolorbox}
+
+% =====================================================================
+% CH 8
+% =====================================================================
+\chapterhead{uVIII}{Ch 8 · Aldehydes, Ketones and Carboxylic Acids}{8 marks}{Preparation · nucleophilic addition · NH$_2$--Z derivatives · reductions · tests · α-H reactions · acids: acidity \& reactions}
+\begin{multicols}{2}\raggedcolumns
+\sub{Most-repeated board questions}
+\begin{rqlist}
+\item \st3 \ty{Eq} Rosenmund, Stephen, Etard, Gatterman--Koch, Clemmensen, Wolff--Kishner, aldol, cross aldol, Cannizzaro, HVZ, decarboxylation, Kolbe electrolysis. \mk{1--3}
+\item \st3 \ty{Id} Word problem: compound with given formula gives 2,4-DNP / Tollens' / iodoform / Cannizzaro; oxidation product … identify A, B, C with equations. \mk{3--5}
+\item \st3 \ty{Ds} Propanal/propanone, benzaldehyde/acetophenone, ethanal/benzaldehyde, pentan-2-one/pentan-3-one, benzoic acid/phenol. \mk{1--2}
+\item \st3 \ty{Ord}\ty{R} Acidity of substituted acids; reactivity towards nucleophilic addition (HCN). \mk{1--3}
+\item \st2 \ty{Mc} Mechanism of nucleophilic addition (HCN to a carbonyl). \mk{2}
+\item \st2 \ty{R} Aldehydes more reactive than ketones; acids don't show C=O reactions; acids boil high; α-H is acidic. \mk{1--2}
+\item \st2 \ty{Eq} Products with NH$_2$OH, NH$_2$NH$_2$, C$_6$H$_5$NHNH$_2$, 2,4-DNP, semicarbazide. \mk{1--2}
+\item \st2 \ty{Cv} Benzoic acid → benzaldehyde; ethanol → 3-hydroxybutanal; propanone → propene; toluene → benzoic acid; acetophenone → benzoic acid. \mk{2--3}
+\item \st1 \ty{Eq} Tollens' / Fehling's test equations. \mk{1--2}
+\item \st1 \ty{R} Only one --NH$_2$ of semicarbazide reacts with C=O. \mk{1}
+\item \st1 \ty{Df} Uses of formalin, acetone, benzaldehyde; uses of acids. \mk{1}
+\item \st1 \ty{R} Benzoic acid does not undergo Friedel--Crafts; --COOH is meta-directing. \mk{1}
+\end{rqlist}
+
+\sub{Must-know lines (NCERT language)}
+\begin{fl}
+\item Carbonyl carbon is electrophilic (C$^{\delta+}$); nucleophiles attack it, giving a tetrahedral alkoxide intermediate.
+\item Aldehydes are more reactive than ketones in nucleophilic addition for \textbf{steric} (one alkyl group) and \textbf{electronic} (less +I) reasons.
+\item \textbf{Aldol}: aldehydes/ketones with at least one α-hydrogen, in dilute alkali, give β-hydroxy aldehydes/ketones, which dehydrate on heating to α,β-unsaturated compounds.
+\item \textbf{Cannizzaro}: aldehydes without α-hydrogen, with concentrated alkali, undergo self oxidation--reduction (disproportionation) to an alcohol and a carboxylic acid salt.
+\item Carboxylate ion is stabilised by two \textbf{equivalent} resonance structures, so carboxylic acids are stronger than phenols.
+\item Electron-withdrawing groups increase the acidity of carboxylic acids; electron-donating groups decrease it.
+\end{fl}
+
+\sub{Key tests \& numbers}
+\begin{kbox}
+2,4-DNP → yellow/orange ppt: any C=O\quad Tollens' → silver mirror: aldehydes\\
+Fehling's → red-brown Cu$_2$O: aliphatic aldehydes only\quad NaHCO$_3$ → CO$_2$: carboxylic acids\\
+Iodoform (NaOI) → yellow CHI$_3$: CH$_3$CO-- and CH$_3$CH(OH)--\\
+Aldol needs α-H + dil.\ base; Cannizzaro needs no α-H + conc.\ base
+\end{kbox}
+
+\sub{Answer skeletons}
+\begin{skel}{Id · Word problem method (3--5 marks)}
+\textit{e.g.\ C$_5$H$_{10}$O gives 2,4-DNP derivative and iodoform but not Tollens'.}\\
+(i) 2,4-DNP positive → C=O present. (ii) Tollens' negative → ketone. (iii) Iodoform positive → CH$_3$CO-- group. (iv) Fit the formula: \textbf{pentan-2-one} CH$_3$COCH$_2$CH$_2$CH$_3$. (v) Write one equation per test.\\
+Mark split: each correct structure/name \mk{1}; supporting equations carry the rest.
+\end{skel}
+\begin{skel}{Mc · Nucleophilic addition of HCN (2 marks)}
+\ce{HCN + OH- -> CN- + H2O} (base generates \ce{CN-}) → \ce{CN-} attacks carbonyl C → tetrahedral alkoxide \ce{$>$C(O^-)CN} (slow) → takes H$^+$ from HCN/H$_2$O → cyanohydrin \ce{$>$C(OH)CN} \mk{1 + 1}.
+\end{skel}
+\begin{skel}{Ds · Distinguish (2 marks)}
+\textit{Propanal vs propanone}: Tollens' — propanal gives silver mirror, propanone does not. Iodoform — propanone gives yellow ppt, propanal does not. One test is enough; give both observations.
+\end{skel}
+\begin{skel}{Ord · Acidity order with reason (2 marks)}
+FCH$_2$COOH $>$ ClCH$_2$COOH $>$ BrCH$_2$COOH $>$ CH$_3$COOH: $-I$ effect falls F $>$ Cl $>$ Br, so stabilisation of carboxylate falls; --CH$_3$ (+I) destabilises.
+\end{skel}
+\begin{skel}{Cv · Conversions (2--3 marks)}
+Benzoic acid $\xrightarrow{\text{SOCl}_2}$ benzoyl chloride $\xrightarrow{\text{H}_2,\ \text{Pd/BaSO}_4}$ benzaldehyde.\\
+Propanone $\xrightarrow{\text{NaBH}_4}$ propan-2-ol $\xrightarrow{\text{conc. H}_2\text{SO}_4,\ \Delta}$ propene.\\
+Ethanol $\xrightarrow{\text{PCC}}$ ethanal $\xrightarrow{\text{dil. NaOH}}$ 3-hydroxybutanal.
+\end{skel}
+
+\sub{Why/reason — write it like this}
+\begin{rqlist}
+\item \textbf{Aldehydes more reactive than ketones.}\ans Two alkyl groups in ketones hinder attack and reduce C$^{\delta+}$ by +I effect.
+\item \textbf{Benzaldehyde less reactive than propanal.}\ans Resonance of C=O with the ring lowers the electrophilicity of the carbonyl C.
+\item \textbf{Carboxylic acids do not give 2,4-DNP/NH$_2$OH reactions.}\ans Resonance in --COOH reduces the electrophilic character of the carbonyl C.
+\item \textbf{Carboxylic acids boil higher than alcohols of similar mass.}\ans Stronger intermolecular H-bonding; they exist as dimers.
+\item \textbf{α-Hydrogens of carbonyl compounds are acidic.}\ans Strong electron withdrawal by C=O and resonance stabilisation of the enolate ion.
+\item \textbf{Only one --NH$_2$ of semicarbazide reacts.}\ans The other --NH$_2$ is attached to C=O; its lone pair is delocalised (amide resonance), so it is not nucleophilic.
+\item \textbf{Chloroacetic acid is stronger than acetic acid.}\ans $-I$ effect of Cl stabilises the chloroacetate ion.
+\item \textbf{Benzoic acid does not undergo Friedel--Crafts.}\ans --COOH deactivates the ring and the catalyst AlCl$_3$ binds to the carboxyl group.
+\item \textbf{NH$_2$--Z reactions are done in weakly acidic medium.}\ans Acid protonates C=O and makes it more electrophilic; too much acid protonates the nitrogen nucleophile.
+\item \textbf{Formaldehyde gives Cannizzaro, acetaldehyde gives aldol.}\ans HCHO has no α-H; CH$_3$CHO has α-H.
+\end{rqlist}
+
+\sub{Quick 1-mark facts (MCQ / A--R)}
+\begin{fl}
+\item Iodoform positive: ethanal, ethanol, propanone, propan-2-ol, butan-2-one, acetophenone. Negative: methanal, methanol, propanal, pentan-3-one, benzaldehyde.
+\item Fehling's: benzaldehyde negative. Tollens': all aldehydes positive.
+\item HCHO $>$ CH$_3$CHO $>$ CH$_3$COCH$_3$ (nucleophilic addition). HCOOH $>$ CH$_3$COOH $>$ CH$_3$CH$_2$COOH (acidity).
+\item 4-Nitrobenzoic $>$ benzoic $>$ 4-methylbenzoic acid. 2-Chlorobutanoic $>$ 3- $>$ 4-chlorobutanoic acid.
+\item Rosenmund catalyst Pd/BaSO$_4$ (poisoned) stops at aldehyde. Clemmensen Zn--Hg/HCl; Wolff--Kishner NH$_2$NH$_2$/KOH, ethylene glycol.
+\item Grignard + CO$_2$ → acid with one more C; decarboxylation (soda lime) → one C less; Kolbe electrolysis doubles the alkyl chain.
+\item NaBH$_4$ does not reduce --COOH; LiAlH$_4$ and B$_2$H$_6$ do. Formalin $\approx$ 40\% HCHO.
+\end{fl}
+
+\sub{Case-based angles seen recently}
+\begin{fl}
+\item Unknown compound passage with test results → identify, write equations (the classic 4/5-marker).
+\item pK$_a$ table of substituted acids → explain, predict.
+\item Food preservatives (sodium benzoate), vinegar, perfumes (benzaldehyde, vanillin) → uses + reactions.
+\item Reaction map from an alcohol through carbonyl to acid → reagents for each arrow.
+\end{fl}
+
+\begin{tip}\Tip \textbf{Mark-losing traps.} (1) Using Cannizzaro for compounds \emph{with} α-H (they give aldol). (2) Saying ketones give Tollens'/Fehling's. (3) Benzaldehyde in Fehling's — negative. (4) Forgetting ``anhydrous AlCl$_3$'' / ``Pd--BaSO$_4$''. (5) Aldol product written without the β-OH, or dehydrated product without heating. (6) In word problems, giving a name without the structure or without equations. (7) Writing NaBH$_4$ to reduce an acid.\end{tip}
+\end{multicols}
+\begin{tcolorbox}[enhanced,colback=white,colframe=uc,boxrule=0.6pt,arc=2pt,title={\sffamily\bfseries\footnotesize My notes — Ch 8},colbacktitle=uc,coltitle=white,height fill,before skip=4pt]
+\end{tcolorbox}
+
+% =====================================================================
+% CH 9
+% =====================================================================
+\chapterhead{uIX}{Ch 9 · Amines}{6 marks}{Preparation · basicity · reactions · aniline substitution · diazonium salts · conversions}
+\begin{multicols}{2}\raggedcolumns
+\sub{Most-repeated board questions}
+\begin{rqlist}
+\item \st3 \ty{Ord}\ty{R} Arrange in increasing/decreasing basicity (in water, gas phase, pK$_b$); explain aniline vs NH$_3$, (CH$_3$)$_2$NH vs (CH$_3$)$_3$N. \mk{2--3}
+\item \st3 \ty{Eq} Gabriel phthalimide, Hoffmann bromamide, carbylamine, diazotisation, coupling, Sandmeyer, Gattermann. \mk{1--3}
+\item \st3 \ty{Ds} Hinsberg test for 1$^\circ$/2$^\circ$/3$^\circ$; aniline vs ethylamine (azo dye); methylamine vs dimethylamine (carbylamine). \mk{1--2}
+\item \st2 \ty{Cv} Benzene → aniline → chlorobenzene/phenol/benzonitrile; methanamine ↔ ethanamine; aniline → p-bromoaniline/p-nitroaniline. \mk{2--3}
+\item \st2 \ty{R} Aniline does not undergo Friedel--Crafts; nitration gives m-nitroaniline; --NH$_2$ is acetylated before nitration/bromination. \mk{1--2}
+\item \st2 \ty{R} Gabriel synthesis cannot give aniline; aryl diazonium salts are more stable than alkyl. \mk{1--2}
+\item \st2 \ty{Id} Identify A, B, C in a sequence (amide → amine → diazonium → …). \mk{3}
+\item \st1 \ty{Ord} b.p.: 1$^\circ$ $>$ 2$^\circ$ $>$ 3$^\circ$ amines; amines vs alcohols. \mk{1}
+\item \st1 \ty{Nm} IUPAC names of amines. \mk{1}
+\item \st1 \ty{R} Fe/HCl preferred for reducing nitrobenzene. \mk{1}
+\item \st1 \ty{Eq} Diazonium salt → benzene / fluorobenzene / iodobenzene / phenol. \mk{1}
+\item \st1 \ty{R} Aniline darkens on storage; lower amines dissolve in water. \mk{1}
+\end{rqlist}
+
+\sub{Must-know lines (NCERT language)}
+\begin{fl}
+\item Amines are bases because of the unshared electron pair on nitrogen. Larger $K_b$ (smaller pK$_b$) → stronger base.
+\item Aliphatic amines are stronger bases than ammonia (+I effect of alkyl groups); aromatic amines are weaker (lone pair delocalised into the ring).
+\item In water, basicity depends on +I effect, \textbf{solvation} of the ammonium ion by H-bonding, and \textbf{steric} hindrance.
+\item \textbf{Carbylamine reaction}: 1$^\circ$ aliphatic and aromatic amines heated with chloroform and alcoholic KOH give foul-smelling isocyanides; 2$^\circ$ and 3$^\circ$ amines do not.
+\item \textbf{Hinsberg reagent} (benzenesulphonyl chloride): sulphonamide of 1$^\circ$ amine is soluble in alkali; of 2$^\circ$ amine insoluble; 3$^\circ$ amines do not react.
+\item Diazonium salts of aromatic amines are stable only at low temperature (273--278 K) and are used immediately.
+\end{fl}
+
+\sub{Key reactions}
+\begin{kbox}
+\ce{RCONH2 + Br2 + 4NaOH -> RNH2 + Na2CO3 + 2NaBr + 2H2O}\\[1pt]
+\ce{RNH2 + CHCl3 + 3KOH ->[\Delta] RNC + 3KCl + 3H2O}\\[1pt]
+\ce{C6H5NH2 + NaNO2 + 2HCl ->[273-278 K] C6H5N2+Cl- + NaCl + 2H2O}\\[1pt]
+\ce{ArN2+Cl-}: CuCl/HCl → ArCl; CuCN/KCN → ArCN; KI → ArI; HBF$_4$, $\Delta$ → ArF; H$_3$PO$_2$ → ArH; H$_2$O → ArOH\\[1pt]
++ phenol (OH$^-$) → p-hydroxyazobenzene (orange); + aniline (H$^+$) → p-aminoazobenzene (yellow)
+\end{kbox}
+
+\sub{Answer skeletons}
+\begin{skel}{Ord+R · Basicity in water (3 marks)}
+\textit{Arrange CH$_3$NH$_2$, (CH$_3$)$_2$NH, (CH$_3$)$_3$N, NH$_3$, C$_6$H$_5$NH$_2$ in decreasing basicity.}\\
+(CH$_3$)$_2$NH $>$ CH$_3$NH$_2$ $>$ (CH$_3$)$_3$N $>$ NH$_3$ $>$ C$_6$H$_5$NH$_2$ \mk{1}\\
+Alkyl amines $>$ NH$_3$: +I raises electron density on N. 3$^\circ$ below 2$^\circ$/1$^\circ$: fewer N--H for H-bond solvation of R$_3$NH$^+$ and steric crowding \mk{1}. Aniline weakest: lone pair in resonance with ring \mk{1}.
+\end{skel}
+\begin{skel}{Ds · Hinsberg test (3 marks)}
+Shake each amine with benzenesulphonyl chloride + KOH: 1$^\circ$ → N-alkylbenzenesulphonamide dissolves in alkali (acidic N--H) \mk{1}; 2$^\circ$ → N,N-dialkylbenzenesulphonamide, insoluble \mk{1}; 3$^\circ$ → no reaction \mk{1}.
+\end{skel}
+\begin{skel}{Cv · Ascent/descent (2--3 marks)}
+\textbf{Up}: CH$_3$NH$_2$ $\xrightarrow{\text{HNO}_2}$ CH$_3$OH $\xrightarrow{\text{PCl}_5}$ CH$_3$Cl $\xrightarrow{\text{KCN}}$ CH$_3$CN $\xrightarrow{\text{LiAlH}_4}$ CH$_3$CH$_2$NH$_2$.\\
+\textbf{Down}: C$_2$H$_5$NH$_2$ $\xrightarrow{\text{HNO}_2}$ C$_2$H$_5$OH $\xrightarrow{\text{K}_2\text{Cr}_2\text{O}_7/\text{H}^+}$ CH$_3$COOH $\xrightarrow{\text{NH}_3,\ \Delta}$ CH$_3$CONH$_2$ $\xrightarrow{\text{Br}_2/\text{NaOH}}$ CH$_3$NH$_2$.
+\end{skel}
+\begin{skel}{Cv · Aniline → p-bromoaniline (3 marks)}
+Aniline $\xrightarrow{(\text{CH}_3\text{CO})_2\text{O},\ \text{pyridine}}$ acetanilide $\xrightarrow{\text{Br}_2/\text{CH}_3\text{COOH}}$ 4-bromoacetanilide $\xrightarrow{\text{H}^+\text{ or OH}^-,\ \text{H}_2\text{O}}$ 4-bromoaniline. Reason: acetylation reduces activation, avoids tribromination.
+\end{skel}
+
+\sub{Why/reason — write it like this}
+\begin{rqlist}
+\item \textbf{Aniline is a weaker base than NH$_3$/methylamine.}\ans Lone pair on N is delocalised into the ring; anilinium ion is less resonance-stabilised than aniline.
+\item \textbf{(CH$_3$)$_3$N is weaker than (CH$_3$)$_2$NH in water.}\ans Poorer H-bond solvation of (CH$_3$)$_3$NH$^+$ and steric hindrance.
+\item \textbf{Aniline does not undergo Friedel--Crafts reaction.}\ans It forms a salt with AlCl$_3$ (Lewis acid); positive N strongly deactivates the ring.
+\item \textbf{Nitration of aniline gives a large amount of meta product.}\ans In strong acid aniline is protonated to anilinium ion, which is meta-directing.
+\item \textbf{Gabriel synthesis cannot make aniline.}\ans Aryl halides do not undergo nucleophilic substitution with the phthalimide anion.
+\item \textbf{Aryl diazonium salts are more stable than alkyl.}\ans Positive charge is delocalised over the ring by resonance.
+\item \textbf{Fe/HCl preferred for reducing nitrobenzene.}\ans FeCl$_2$ formed is hydrolysed, releasing HCl; only a little acid is needed.
+\item \textbf{1$^\circ$ amines boil higher than 3$^\circ$ amines.}\ans 1$^\circ$ amines have two N--H bonds for intermolecular H-bonding; 3$^\circ$ have none.
+\item \textbf{Amines boil lower than alcohols of similar mass.}\ans N is less electronegative than O, so N--H$\cdots$N bonds are weaker.
+\item \textbf{Aniline darkens on storage.}\ans Atmospheric oxidation forms coloured impurities.
+\end{rqlist}
+
+\sub{Quick 1-mark facts (MCQ / A--R)}
+\begin{fl}
+\item Water: (CH$_3$)$_2$NH $>$ CH$_3$NH$_2$ $>$ (CH$_3$)$_3$N $>$ NH$_3$; (C$_2$H$_5$)$_2$NH $>$ (C$_2$H$_5$)$_3$N $>$ C$_2$H$_5$NH$_2$ $>$ NH$_3$. Gas phase: 3$^\circ$ $>$ 2$^\circ$ $>$ 1$^\circ$ $>$ NH$_3$.
+\item pK$_b$: aniline 9.38 (weakest), NH$_3$ 4.75, benzylamine 4.70, diethylamine 3.00 (strongest listed).
+\item p-Toluidine $>$ aniline $>$ p-nitroaniline (basicity).
+\item Hoffmann bromamide: product has one C less. Nitrile reduction: one C more.
+\item Carbylamine test only for 1$^\circ$ amines; HNO$_2$ with 1$^\circ$ aliphatic amine → N$_2$ gas (estimation).
+\item Diazotisation at 273--278 K (0--5 $^\circ$C). Sulphanilic acid exists as a zwitterion.
+\item Coupling with phenol in alkaline medium (orange dye); with aniline in mildly acidic medium (yellow dye).
+\end{fl}
+
+\sub{Case-based angles seen recently}
+\begin{fl}
+\item pK$_b$ table → arrange, explain solvation/steric/+I.
+\item Dye industry passage → diazotisation and coupling equations, temperature control.
+\item Drug/dye synthesis scheme from benzene → identify intermediates.
+\item Separation of a mixture of 1$^\circ$, 2$^\circ$, 3$^\circ$ amines → Hinsberg.
+\end{fl}
+
+\begin{tip}\Tip \textbf{Mark-losing traps.} (1) Giving gas-phase order when ``aqueous'' is asked (and vice versa). (2) Writing carbylamine for 2$^\circ$ amines. (3) Hinsberg solubility swapped (1$^\circ$ soluble in alkali). (4) Diazotisation at room temperature — phenol forms instead. (5) Hoffmann equation unbalanced (4NaOH, Na$_2$CO$_3$, 2NaBr, 2H$_2$O). (6) Saying aniline is o/p-directing even in strong acid.\end{tip}
+\end{multicols}
+\begin{tcolorbox}[enhanced,colback=white,colframe=uc,boxrule=0.6pt,arc=2pt,title={\sffamily\bfseries\footnotesize My notes — Ch 9},colbacktitle=uc,coltitle=white,height fill,before skip=4pt]
+\end{tcolorbox}
+
+% =====================================================================
+% CH 10
+% =====================================================================
+\chapterhead{uX}{Ch 10 · Biomolecules}{7 marks}{Carbohydrates · glucose structure · disaccharides \& polysaccharides · proteins · enzymes · vitamins · nucleic acids · hormones}
+\begin{multicols}{2}\raggedcolumns
+\sub{Most-repeated board questions}
+\begin{rqlist}
+\item \st3 \ty{Df}\ty{Cmp} Reducing vs non-reducing sugars; glycosidic linkage; anomers; amylose vs amylopectin; DNA vs RNA (three differences). \mk{1--3}
+\item \st3 \ty{Eq} Glucose with HI, bromine water, HNO$_3$, acetic anhydride, NH$_2$OH/HCN — product and what it proves. \mk{1--3}
+\item \st3 \ty{Df} Denaturation with an example; primary, secondary, tertiary, quaternary structure; peptide bond. \mk{1--2}
+\item \st2 \ty{Df} Vitamin deficiency diseases; fat- vs water-soluble; why vitamin C cannot be stored. \mk{1--2}
+\item \st2 \ty{Df} Zwitterion; essential vs non-essential amino acids. \mk{1--2}
+\item \st2 \ty{R} Facts the open-chain structure of glucose cannot explain. \mk{1--2}
+\item \st2 \ty{Df} Nucleoside vs nucleotide; bases in DNA/RNA; base pairing; phosphodiester link. \mk{1--2}
+\item \st2 \ty{MCQ} Hydrolysis products of sucrose, maltose, lactose, starch; invert sugar. \mk{1}
+\item \st1 \ty{Cmp} Fibrous vs globular proteins (with examples). \mk{1}
+\item \st1 \ty{Df} Enzymes (examples); hormones (classes, functions, deficiency effects). \mk{1}
+\item \st1 \ty{Df} Meaning of D and (+) in D-(+)-glucose. \mk{1}
+\item \st1 \ty{Case} Passage on carbohydrates/proteins/vitamins with four sub-questions. \mk{4}
+\end{rqlist}
+
+\sub{Must-know lines (NCERT language)}
+\begin{fl}
+\item \textbf{Carbohydrates}: optically active polyhydroxy aldehydes or ketones, or compounds that produce such units on hydrolysis.
+\item \textbf{Reducing sugars}: reduce Fehling's/Tollens' (free aldehydic or ketonic group) — all monosaccharides, maltose, lactose. Sucrose is non-reducing.
+\item \textbf{Anomers}: α and β forms of glucose differing only in configuration at C1 (the anomeric carbon).
+\item \textbf{Glycosidic linkage}: oxide linkage joining two monosaccharide units through an oxygen atom.
+\item \textbf{Peptide bond}: amide link (--CO--NH--) formed between --COOH of one amino acid and --NH$_2$ of another with loss of water.
+\item \textbf{Denaturation}: loss of biological activity when a protein is subjected to change in temperature or pH; H-bonds break, the protein unfolds; secondary and tertiary structures are destroyed but the primary structure remains.
+\item \textbf{Essential amino acids}: cannot be synthesised in the body; must be taken in the diet.
+\item \textbf{Vitamins}: organic compounds needed in small amounts in the diet to perform specific biological functions for normal health, growth and maintenance.
+\item \textbf{Enzymes}: biocatalysts, mostly globular proteins, very specific in action.
+\item \textbf{Hormones}: molecules that act as intercellular messengers, produced by endocrine glands.
+\end{fl}
+
+\sub{Key facts}
+\begin{kbox}
+Glucose: aldohexose, D-(+), pyranose ring. Fructose: ketohexose, D-($-$), furanose ring\\
+Sucrose = α-glucose (C1) + β-fructose (C2) · Maltose = 2 α-glucose (C1--C4) · Lactose = β-galactose + β-glucose (C1--C4)\\
+Starch α-linked (amylose 15--20\%, amylopectin 80--85\%); cellulose β-linked; glycogen = animal starch\\
+DNA: deoxyribose, A G C T, A=T (2 H-bonds), G$\equiv$C (3) · RNA: ribose, A G C U\\
+Fat-soluble vitamins A, D, E, K; water-soluble B and C
+\end{kbox}
+
+\sub{Answer skeletons}
+\begin{skel}{Eq · Reactions proving glucose structure (3 marks)}
+HI, heat → n-hexane: six C in a straight chain \mk{½}\\
+NH$_2$OH → oxime; HCN → cyanohydrin: C=O present \mk{½}\\
+Br$_2$ water → gluconic acid: C=O is --CHO \mk{½}\\
+(CH$_3$CO)$_2$O → pentaacetate: five --OH \mk{½}\\
+HNO$_3$ → saccharic acid: one 1$^\circ$ --OH (--CH$_2$OH) also oxidised \mk{1}
+\end{skel}
+\begin{skel}{Df · Denaturation (2 marks)}
+Definition (change in $T$ or pH → loss of biological activity) \mk{1} + what changes (H-bonds break, 2$^\circ$/3$^\circ$ structure lost, 1$^\circ$ intact) + example (egg white coagulates on boiling; milk curdles) \mk{1}.
+\end{skel}
+\begin{skel}{Cmp · DNA vs RNA (3 marks)}
+Sugar: 2-deoxyribose vs ribose · Base: thymine vs uracil · Structure: double helix vs usually single strand · Function: heredity/replication vs protein synthesis (any three, 1 each).
+\end{skel}
+\begin{skel}{Df · Levels of protein structure (3--4 marks)}
+Primary: amino acid sequence · Secondary: α-helix (intramolecular H-bonds) or β-pleated sheet (H-bonds between chains) · Tertiary: overall folding — H-bonds, disulphide, van der Waals, electrostatic → fibrous/globular shape · Quaternary: arrangement of subunits.
+\end{skel}
+
+\sub{Why/reason — write it like this}
+\begin{rqlist}
+\item \textbf{Sucrose is non-reducing.}\ans Both reducing groups (C1 of glucose, C2 of fructose) are used in the glycosidic bond.
+\item \textbf{Glucose pentaacetate does not react with NH$_2$OH.}\ans No free --CHO group: glucose exists in the cyclic hemiacetal form.
+\item \textbf{Glucose does not give Schiff's test or NaHSO$_3$ adduct.}\ans Aldehyde group is not free in the cyclic structure.
+\item \textbf{Cellulose cannot be digested by humans.}\ans Humans lack the enzyme to break β-glycosidic links.
+\item \textbf{Amino acids have high m.p.\ and dissolve in water.}\ans They exist as dipolar zwitterions (salt-like).
+\item \textbf{Vitamin C must be taken regularly.}\ans Water-soluble; excreted in urine, not stored.
+\item \textbf{Sucrose hydrolysis gives ``invert sugar''.}\ans Sign of rotation changes from + (sucrose) to $-$ (mixture), because fructose ($-92.4^\circ$) outweighs glucose ($+52.5^\circ$).
+\item \textbf{Boiling an egg hardens the white.}\ans Heat denatures albumin; the protein coagulates.
+\item \textbf{DNA strands are complementary.}\ans A pairs only with T (2 H-bonds) and G with C (3 H-bonds).
+\end{rqlist}
+
+\sub{Quick 1-mark facts (MCQ / A--R)}
+\begin{fl}
+\item Deficiencies: A — night blindness, xerophthalmia; B$_1$ — beriberi; B$_2$ — cheilosis; B$_6$ — convulsions; B$_{12}$ — pernicious anaemia; C — scurvy; D — rickets/osteomalacia; E — fragile RBCs; K — slow clotting.
+\item All naturally occurring α-amino acids except glycine are optically active, mostly L.
+\item Keratin (hair, wool, silk) and myosin — fibrous; insulin and albumins — globular.
+\item Hydrolysis: sucrose → glucose + fructose; maltose → 2 glucose; lactose → glucose + galactose; starch → glucose.
+\item Glucose α (m.p.\ 419 K) and β (423 K) forms. D/L = configuration (not rotation); (+)/($-$) = rotation.
+\item Nucleoside = base + sugar; nucleotide = nucleoside + phosphate. Purines A, G; pyrimidines C, T, U.
+\item Hormones: insulin/glucagon (blood sugar), thyroxine (deficiency: hypothyroidism; iodine lack: goitre), adrenaline (emergency response), steroids (sex hormones, glucocorticoids, mineralocorticoids).
+\end{fl}
+
+\sub{Case-based angles seen recently}
+\begin{fl}
+\item Diet/nutrition passage → vitamins, deficiency diseases, storage.
+\item Lab tests on sugars (Fehling's, Tollens', iodine for starch) → reducing/non-reducing, polysaccharide type.
+\item Cooking and protein (boiling eggs, curd) → denaturation.
+\item DNA fingerprinting / genetics context → base pairing, DNA vs RNA.
+\end{fl}
+
+\begin{tip}\Tip \textbf{Mark-losing traps.} (1) Calling sucrose reducing. (2) D means ``dextrorotatory'' — wrong; D is configuration. (3) Denaturation ``destroys the primary structure'' — wrong. (4) Thymine in RNA / uracil in DNA. (5) Cellulose α-linked — wrong (β). (6) Mixing up nucleoside and nucleotide. (7) Writing vitamin B$_{12}$ deficiency as beriberi (it's pernicious anaemia; beriberi is B$_1$).\end{tip}
+\end{multicols}
+\begin{tcolorbox}[enhanced,colback=white,colframe=uc,boxrule=0.6pt,arc=2pt,title={\sffamily\bfseries\footnotesize My notes — Ch 10},colbacktitle=uc,coltitle=white,height fill,before skip=4pt]
+\end{tcolorbox}
+
+% =====================================================================
+% PROGRESS TRACKER
+% =====================================================================
+\newpage
+\colorlet{uc}{navy}
+\begin{tcolorbox}[enhanced,colback=navy,colframe=navy,arc=2pt,left=6pt,right=6pt,top=3pt,bottom=3pt]
+\color{white}\sffamily{\large\bfseries Progress tracker — Class 12 Chemistry}\hfill{\small tick ☐ as you go}\\[-1pt]{\scriptsize Batch 1 = Ch 1--3, Batch 2 = Ch 4--5, Batch 3 = Ch 6--10. The same tracker appears in every batch: use one copy.}
+\end{tcolorbox}
+{\small
+\renewcommand{\arraystretch}{1.55}
+\begin{tabularx}{\textwidth}{@{}l@{\ }>{\raggedright\arraybackslash}p{4.7cm}*{8}{>{\centering\arraybackslash}X}@{}}
+\toprule
+ & \textbf{Chapter (marks)} & \textbf{Read 1} & \textbf{Read 2} & \textbf{Read 3} & \textbf{NCERT Qs} & \textbf{Exemplar} & \textbf{PYQs} & \textbf{Sheet drilled} & \textbf{Conf.\ (1--5)}\\
+\midrule
+\textcolor{uI}{\textbf{1}} & Solutions (7) & ☐ & ☐ & ☐ & ☐ & ☐ & ☐ & ☐ & \underline{\hspace{8mm}}\\
+\textcolor{uII}{\textbf{2}} & Electrochemistry (9) & ☐ & ☐ & ☐ & ☐ & ☐ & ☐ & ☐ & \underline{\hspace{8mm}}\\
+\textcolor{uIII}{\textbf{3}} & Chemical Kinetics (7) & ☐ & ☐ & ☐ & ☐ & ☐ & ☐ & ☐ & \underline{\hspace{8mm}}\\
+\textcolor{uIV}{\textbf{4}} & d- and f-Block Elements (7) & ☐ & ☐ & ☐ & ☐ & ☐ & ☐ & ☐ & \underline{\hspace{8mm}}\\
+\textcolor{uV}{\textbf{5}} & Coordination Compounds (7) & ☐ & ☐ & ☐ & ☐ & ☐ & ☐ & ☐ & \underline{\hspace{8mm}}\\
+\textcolor{uVI}{\textbf{6}} & Haloalkanes \& Haloarenes (6) & ☐ & ☐ & ☐ & ☐ & ☐ & ☐ & ☐ & \underline{\hspace{8mm}}\\
+\textcolor{uVII}{\textbf{7}} & Alcohols, Phenols \& Ethers (6) & ☐ & ☐ & ☐ & ☐ & ☐ & ☐ & ☐ & \underline{\hspace{8mm}}\\
+\textcolor{uVIII}{\textbf{8}} & Aldehydes, Ketones \& Acids (8) & ☐ & ☐ & ☐ & ☐ & ☐ & ☐ & ☐ & \underline{\hspace{8mm}}\\
+\textcolor{uIX}{\textbf{9}} & Amines (6) & ☐ & ☐ & ☐ & ☐ & ☐ & ☐ & ☐ & \underline{\hspace{8mm}}\\
+\textcolor{uX}{\textbf{10}} & Biomolecules (7) & ☐ & ☐ & ☐ & ☐ & ☐ & ☐ & ☐ & \underline{\hspace{8mm}}\\
+\bottomrule
+\end{tabularx}}
+
+\vspace{4pt}
+{\small\textbf{Practicals (30):} Volumetric~☐ \quad Salt analysis~☐ \quad Content-based experiments~☐ \quad Project~☐ \quad Record complete~☐ \quad Viva prepared~☐\\[3pt]
+\textbf{Timed sample papers (3 h, error review after each):} SQP 2026--27~☐ \quad Paper 2~☐ \quad Paper 3~☐ \quad Paper 4~☐ \quad Paper 5~☐ \quad Paper 6~☐}
+\vspace{2pt}
+\begin{tcolorbox}[enhanced,colback=tipY,colframe=tipYframe,boxrule=0.5pt,arc=1.5pt,left=4pt,right=4pt,top=2pt,bottom=2pt]
+\small\textbf{Error log habit.} After every test, write each lost mark in ``My notes'' under one of: \emph{concept gap} · \emph{formula/unit slip} · \emph{NCERT line not known} · \emph{time}. Re-read only the matching section of these notes.
+\end{tcolorbox}
+
+\begin{tcolorbox}[enhanced,colback=white,colframe=navy,boxrule=0.8pt,arc=2pt,title={\sffamily\bfseries\footnotesize My notes},colbacktitle=navy,coltitle=white,height fill,before skip=4pt]
+\end{tcolorbox}
+\end{document}

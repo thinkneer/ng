@@ -1,0 +1,360 @@
+\documentclass[10pt,a4paper]{extarticle}
+\usepackage[a4paper,margin=10mm,top=9mm,bottom=11mm]{geometry}
+\input{../preambles/chemistry-preamble}
+\fancyfoot[L]{\tiny\sffamily\color{black!55} Class 12 Chemistry · Must-Have Notes · Batch 2: Inorganic Chemistry (Ch 4--5) · CBSE Board 2026--27 (paper 27 Feb 2027)}
+\fancyfoot[R]{\tiny\sffamily\color{black!55} Page \thepage}
+
+% ---------- Notes-specific macros ----------
+\newcommand{\st}[1]{\textcolor{tipYframe!90!black}{\ifcase#1\or\ding{72}\or\ding{72}\ding{72}\or\ding{72}\ding{72}\ding{72}\fi}}
+\newcommand{\ty}[1]{\tagbox{uc!75!black}{#1}}
+\newcommand{\mk}[1]{{\scriptsize\color{black!55}[#1]}}
+\newenvironment{rqlist}{\begin{enumerate}[leftmargin=12pt,label={\sffamily\bfseries\scriptsize\color{uc}\arabic*.},itemsep=1pt]}{\end{enumerate}}
+\newcommand{\ans}{\par\hspace*{2pt}{\color{uc}$\hookrightarrow$}\;}
+\newtcolorbox{skel}[1]{enhanced,colback=white,colframe=uc,boxrule=0.5pt,arc=1.5pt,left=3pt,right=3pt,top=1pt,bottom=1pt,boxsep=1pt,before skip=2pt,after skip=3pt,
+  title={\sffamily\bfseries\scriptsize #1},colbacktitle=uc!85,coltitle=white,toptitle=0.5pt,bottomtitle=0.5pt}
+\newcommand{\chapterhead}[4]{% colour, title, marks, subtitle
+  \newpage\colorlet{uc}{#1}%
+  \begin{tcolorbox}[enhanced,colback=#1,colframe=#1,arc=2pt,left=6pt,right=6pt,top=3pt,bottom=3pt,after skip=3pt]
+  \color{white}\sffamily{\large\bfseries #2}\hfill{\small\bfseries #3}\\[-1pt]{\scriptsize #4}
+  \end{tcolorbox}}
+
+% orbital boxes: 0 empty, 1 up, 2 pair, 3 ligand electron pair (shaded)
+\newcommand{\ob}[1]{\begin{tikzpicture}[x=2.9mm,y=2.9mm,baseline=0.3mm,line width=0.35pt]
+\foreach \s [count=\i from 0] in {#1}{%
+ \ifnum\s=3 \fill[uc!28] (\i,0) rectangle ++(1,1);\fi
+ \draw[black!65] (\i,0) rectangle ++(1,1);
+ \ifnum\s>0 \draw[-{Stealth[length=1.6pt]}] (\i+0.33,0.12)--(\i+0.33,0.88);\fi
+ \ifnum\s>1 \draw[{Stealth[length=1.6pt]}-] (\i+0.67,0.12)--(\i+0.67,0.88);\fi}
+\end{tikzpicture}}
+\raggedbottom
+\begin{document}
+\small
+
+% =====================================================================
+% COVER
+% =====================================================================
+\begin{tcolorbox}[enhanced,colback=navy,colframe=navy,arc=2pt,left=8pt,right=8pt,top=6pt,bottom=6pt]
+\color{white}\sffamily
+{\LARGE\bfseries Class 12 Chemistry — Must-Have Notes}\\[3pt]
+{\large Batch 2 of 3: Inorganic Chemistry} \hfill {\small Ch 4 The d- and f-Block Elements · Ch 5 Coordination Compounds}\\[2pt]
+{\footnotesize CBSE Board 2026--27 only · Rationalised NCERT · Chemistry paper: \textbf{Saturday 27 February 2027} · Inorganic Chemistry = \textbf{14 of 70} theory marks}
+\end{tcolorbox}
+
+\colorlet{uc}{navy}
+\begin{multicols}{2}
+\sub{How to use these notes}
+\begin{fl}
+\item Same layout as Batch 1: \textbf{most-repeated questions} → \textbf{NCERT lines} → \textbf{key facts/formulas} → \textbf{answer skeletons} → \textbf{why/reason answers} → \textbf{1-mark facts} → \textbf{case-based angles} → \textbf{traps}.
+\item Keep the formula sheet Part 2 (Inorganic) beside you: it has the full tables (3d series, $E^\circ$ values, KMnO$_4$/K$_2$Cr$_2$O$_7$ equations, ligand names, VBT boxes, CFT diagrams). These notes tell you \emph{what is asked and how to write it}.
+\item Inorganic is memory-heavy. Turn every equation and every IUPAC name in these pages into a flash card; say it aloud, write it once from memory.
+\end{fl}
+\sub{Star legend (estimates, not exact counts)}
+\begin{fl}
+\item \st3\ most years \quad \st2\ often \quad \st1\ sometimes. Based on recurring patterns in CBSE board and sample papers of recent years.
+\end{fl}
+\sub{Question-type tags}
+\ty{Df} define / state \;\ty{R} give reason \;\ty{N} numerical \;\ty{Eq} write equations \;\ty{Nm} IUPAC name / formula \;\ty{Is} isomers \;\ty{B} bonding (VBT/CFT) \;\ty{Cmp} compare \;\ty{MCQ} 1-mark / A--R
+\sub{Where Inorganic sits in the paper}
+\begin{fl}
+\item 33 questions, 70 marks, 3 h: A 16×1 (12 MCQ + 4 A--R) · B 5×2 · C 7×3 · D 2×4 case-based · E 3×5.
+\item Inorganic usually gives 3--5 one-markers (configurations, $\mu$, isomer counts, ligand facts), a ``give three reasons'' 3-marker on d-block, and a naming + isomerism + VBT/CFT question (2--3 marks or part of a 5-marker / case).
+\end{fl}
+
+\columnbreak
+\sub{Step-mark habits for Inorganic}
+\begin{kbox}\small
+\textbf{1.} \textbf{Configurations}: write the full $[\text{Ar}]3d^n4s^m$; for ions remove 4s first.\\
+\textbf{2.} \textbf{Ionic equations}: balanced atoms \emph{and} charge; acid = H$^+$ (dilute H$_2$SO$_4$), never HCl.\\
+\textbf{3.} \textbf{Give reasons}: name the cause in one phrase — ``half-filled $d^5$'', ``imperfect shielding by 4f'', ``$d$--$d$ transition'', ``CN$^-$ is a strong-field ligand''.\\
+\textbf{4.} \textbf{VBT answers}: OS → $d^n$ → strong/weak ligand → box diagram → hybridisation → shape → unpaired electrons → para/diamagnetic. Each link is usually worth part of a mark.\\
+\textbf{5.} \textbf{CFT answers}: draw the splitting with labels $t_{2g}$, $e_g$, $\Delta_o$; write the configuration and say whether $\Delta_o>P$ or $<P$.\\
+\textbf{6.} \textbf{Names}: spell exactly (ammine, chlorido, -ate, Roman numerals in brackets, no spaces inside the complex).
+\end{kbox}
+\sub{When to read this batch}
+\begin{fl}
+\item \textbf{Read 1 (now–Dec):} with NCERT Ch 4--5 text, intext questions and exercises (the exercises are full of ``give reasons'').
+\item \textbf{Read 2 (Jan):} with PYQs and exemplar; drill names and isomer drawings.
+\item \textbf{Read 3 (17--26 Feb):} one sitting on day 2 of the Chemistry window; flash-card the equations the night before the paper.
+\end{fl}
+\end{multicols}
+
+\begin{tcolorbox}[enhanced,colback=navy!4,colframe=navy,boxrule=0.6pt,arc=2pt,left=4pt,right=4pt,top=2pt,bottom=2pt,
+title={\sffamily\bfseries\footnotesize Inorganic Chemistry — 12 that keep coming back},colbacktitle=navy,coltitle=white]
+\begin{multicols}{2}\footnotesize
+\begin{enumerate}[leftmargin=14pt,itemsep=0.5pt]
+\item ``Give reasons'' on d-block trends (variable OS, colour, catalysis, $E^\circ$ anomalies, Zn not transition) (Ch 4) \st3
+\item KMnO$_4$ / K$_2$Cr$_2$O$_7$ ionic equations in acid (Ch 4) \st3
+\item Lanthanoid contraction: cause + consequences (Ch 4) \st3
+\item Spin-only magnetic moment; identify ion from $\mu$ (Ch 4) \st2
+\item Lanthanoids vs actinoids; why actinoids show more OS (Ch 4) \st2
+\item Mn$^{3+}$ oxidising vs Cr$^{2+}$ reducing; Cu$^+$ disproportionation (Ch 4) \st2
+\item IUPAC name ↔ formula (Ch 5) \st3
+\item VBT: hybridisation, shape, magnetism of a given complex (Ch 5) \st3
+\item CFT: splitting diagram, $d^4$ high/low spin, spectrochemical series, colour (Ch 5) \st3
+\item Draw geometrical/optical isomers; type of isomerism of a pair (Ch 5) \st3
+\item Definitions: ambidentate, chelate, homo/heteroleptic, CN (Ch 5) \st2
+\item Werner's theory; AgCl precipitated / ions in solution (Ch 5) \st2
+\end{enumerate}
+\end{multicols}
+\end{tcolorbox}
+\begin{tcolorbox}[enhanced,colback=white,colframe=navy,boxrule=0.8pt,arc=2pt,title={\sffamily\bfseries\footnotesize My flash-card list (equations, names, colours I keep forgetting)},colbacktitle=navy,coltitle=white,height fill,before skip=4pt]
+\end{tcolorbox}
+
+% =====================================================================
+% CH 4 d- AND f-BLOCK
+% =====================================================================
+\chapterhead{uIV}{Ch 4 · The d- and f-Block Elements}{7 marks}{Configuration · trends with reasons · $E^\circ$ anomalies · magnetism \& colour · K$_2$Cr$_2$O$_7$ \& KMnO$_4$ · lanthanoids \& actinoids}
+\begin{multicols}{2}\raggedcolumns
+\sub{Most-repeated board questions}
+\begin{rqlist}
+\item \st3 \ty{R} Give reasons (usually three in one question): variable OS; coloured ions; paramagnetism; catalysts; Zn/Cd/Hg not transition metals; high $\Delta_aH$; complex formation. \mk{3}
+\item \st3 \ty{Eq} Complete/balance: \ce{MnO4-} or \ce{Cr2O7^2-} with \ce{I-}, \ce{Fe^2+}, \ce{C2O4^2-}, \ce{H2S}, \ce{SO3^2-}, \ce{NO2-}, \ce{Sn^2+} in acid; KMnO$_4$/K$_2$Cr$_2$O$_7$ preparation steps. \mk{2--3}
+\item \st3 \ty{Df}\ty{R} What is lanthanoid contraction? Its cause and two consequences. \mk{2--3}
+\item \st2 \ty{N} Spin-only moment of M$^{n+}$; which ion has $\mu$ = 4.90 BM / is most paramagnetic. \mk{1--2}
+\item \st2 \ty{Cmp} Two differences between lanthanoids and actinoids; why actinoids show more OS / greater contraction. \mk{2}
+\item \st2 \ty{R} $E^\circ$ questions: why $E^\circ_{\ce{Cu^2+/Cu}}$ is positive; Mn$^{3+}$ oxidising, Cr$^{2+}$ reducing; $E^\circ_{\ce{Mn^3+/Mn^2+}}$ $\gg$ $E^\circ_{\ce{Fe^3+/Fe^2+}}$. \mk{1--3}
+\item \st2 \ty{R} Highest OS shown in oxides and fluorides; Mn$_2$O$_7$ exists but MnF$_7$ does not; acidity of oxides with OS. \mk{1--2}
+\item \st2 \ty{MCQ} Configuration of Cr, Cu, Fe$^{3+}$, Mn$^{2+}$, Ce$^{4+}$, Eu$^{2+}$; unpaired electrons; which ion is colourless. \mk{1}
+\item \st2 \ty{R} m.p./$\Delta_aH$ trend: maximum in middle, Zn lowest; 4d/5d higher than 3d. \mk{1--2}
+\item \st1 \ty{R} Cu$^+$ unstable in water; Cu$^{2+}$ more stable despite IE$_2$. \mk{1--2}
+\item \st1 \ty{Df} Interstitial compounds: definition and properties; why transition metals form alloys. \mk{1--2}
+\item \st1 \ty{Eq} Chromate ⇌ dichromate with pH; structures; manganate vs permanganate (colour, magnetism). \mk{1--2}
+\end{rqlist}
+
+\sub{Must-know lines (NCERT language)}
+\begin{fl}
+\item \textbf{Transition elements}: elements with incompletely filled d orbitals in the ground state or in any of their oxidation states.
+\item Zn, Cd, Hg have full $d^{10}$ in the ground state and common oxidation states, so they are not regarded as transition metals.
+\item \textbf{Lanthanoid contraction}: the steady decrease in atomic and ionic radii from lanthanum to lutetium, caused by the imperfect shielding of one 4f electron by another.
+\item \textbf{Interstitial compounds}: formed when small atoms (H, C, N) are trapped in the crystal lattice of metals; non-stoichiometric, very hard, high m.p., metallic conductivity, chemically inert.
+\item \textbf{Alloy}: blend of metals; transition metals form alloys easily because their atomic radii are within about 15\% of each other.
+\item \textbf{Catalytic activity}: due to ability to adopt multiple oxidation states and to form complexes; solid catalysts adsorb reactants on the surface.
+\item \textbf{Disproportionation}: one oxidation state changes into a higher and a lower one — \ce{3MnO4^2- + 4H+ -> 2MnO4- + MnO2 + 2H2O} (Mn: +6 → +7 and +4).
+\item \textbf{Actinoid contraction}: similar to lanthanoid contraction but greater, element to element, because 5f electrons shield more poorly.
+\item \textbf{Mischmetall}: $\approx$95\% lanthanoid metal + $\approx$5\% Fe + traces S, C, Ca, Al; Mg-based alloy for bullets, shells, lighter flint.
+\end{fl}
+
+\sub{Key facts \& numbers}
+\begin{kbox}
+$\mu=\sqrt{n(n+2)}$ BM: $n$ = 1, 2, 3, 4, 5 → 1.73, 2.83, 3.87, 4.90, 5.92\\[1pt]
+Ti$^{3+}$, V$^{4+}$, Cu$^{2+}$ $n=1$ · Ni$^{2+}$ 2 · Cr$^{3+}$, Co$^{2+}$ 3 · Fe$^{2+}$, Mn$^{3+}$, Cr$^{2+}$ 4 · Mn$^{2+}$, Fe$^{3+}$ 5\\[1pt]
+Electrons taken: \ce{MnO4-} 5 (acid), 3 (neutral), 1 (strong alkali); \ce{Cr2O7^2-} 6\\[1pt]
+$E^\circ$: \ce{MnO4-/Mn^2+} 1.52 · \ce{Cr2O7^2-/Cr^3+} 1.33 · \ce{Mn^3+/Mn^2+} 1.57 · \ce{Co^3+/Co^2+} 1.97 · \ce{Fe^3+/Fe^2+} 0.77 · \ce{Cr^3+/Cr^2+} $-0.41$ · \ce{Cu^2+/Cu} +0.34
+\end{kbox}
+
+\sub{Answer skeletons}
+\begin{skel}{N · Spin-only magnetic moment (2 marks)}
+\textit{e.g.\ Mn$^{2+}$ (Z = 25).}\\
+Mn: [Ar]$3d^54s^2$ → Mn$^{2+}$: [Ar]$3d^5$ \mk{½}\\
+Unpaired electrons $n=5$ \mk{½}\\
+$\mu=\sqrt{n(n+2)}=\sqrt{35}=\boxed{5.92\text{ BM}}$ \mk{1}
+\end{skel}
+\begin{skel}{Eq · Ionic equation by electron count (2 marks)}
+\textit{e.g.\ \ce{MnO4-} oxidises \ce{Fe^2+} in acid.}\\
+\ce{MnO4- + 8H+ + 5e- -> Mn^2+ + 4H2O} \;\;and\;\; \ce{Fe^2+ -> Fe^3+ + e-} (×5)\\
+\ce{MnO4- + 8H+ + 5Fe^2+ -> Mn^2+ + 5Fe^3+ + 4H2O} — check charge: $-1+8+10=+17$; $+2+15=+17$ ✓
+\end{skel}
+\begin{skel}{Df+R · Lanthanoid contraction (3 marks)}
+Definition (steady decrease in radii La → Lu) \mk{1} → cause (imperfect shielding by 4f; effective nuclear charge rises) \mk{1} → two consequences: Zr/Hf almost same size (160/159 pm), occur together, hard to separate; basicity of Ln(OH)$_3$ falls La → Lu \mk{½ + ½}.
+\end{skel}
+\begin{skel}{Eq · Preparation of KMnO$_4$ (2 marks)}
+\ce{2MnO2 + 4KOH + O2 -> 2K2MnO4 + 2H2O} (fusion)\\
+\ce{3MnO4^2- + 4H+ -> 2MnO4- + MnO2 + 2H2O} (or electrolytic oxidation of alkaline manganate)
+\end{skel}
+\begin{skel}{Eq · Preparation of K$_2$Cr$_2$O$_7$ (3 marks)}
+\ce{4FeCr2O4 + 8Na2CO3 + 7O2 -> 8Na2CrO4 + 2Fe2O3 + 8CO2}\\
+\ce{2Na2CrO4 + 2H+ -> Na2Cr2O7 + 2Na+ + H2O}\\
+\ce{Na2Cr2O7 + 2KCl -> K2Cr2O7 + 2NaCl}
+\end{skel}
+
+\sub{Why/reason — write it like this}
+\begin{rqlist}
+\item \textbf{Transition metals show variable oxidation states.}\ans $(n-1)d$ and $ns$ electrons have similar energies, so both can be lost.
+\item \textbf{Transition-metal ions are coloured.}\ans Partly filled d orbitals; light in the visible region causes d--d transitions; the complementary colour is seen.
+\item \textbf{Zn$^{2+}$ / Sc$^{3+}$ / Ti$^{4+}$ are colourless.}\ans $d^{10}$ / $d^0$: no d--d transition possible.
+\item \textbf{Transition metals and their compounds are good catalysts.}\ans Variable oxidation states and ability to form complexes; large surface area for adsorption.
+\item \textbf{Transition metals form complexes.}\ans Small, highly charged ions with vacant d orbitals of suitable energy.
+\item \textbf{$E^\circ_{\ce{Cu^2+/Cu}}$ is positive.}\ans High $\Delta_aH$ + IE of Cu are not balanced by its hydration enthalpy.
+\item \textbf{Mn$^{3+}$ is a strong oxidant; Cr$^{2+}$ a strong reductant (both $d^4$).}\ans Mn$^{3+}$ → Mn$^{2+}$ gives stable half-filled $d^5$; Cr$^{2+}$ → Cr$^{3+}$ gives stable $t_{2g}^3$.
+\item \textbf{Cu$^+$ disproportionates in water.}\ans \ce{2Cu+ -> Cu^2+ + Cu}; the much more negative $\Delta_\text{hyd}H$ of Cu$^{2+}$ more than compensates for IE$_2$.
+\item \textbf{Highest OS appears in oxides and fluorides.}\ans O and F are small and highly electronegative; O can also form multiple bonds (Mn$_2$O$_7$ vs MnF$_4$).
+\item \textbf{Zr and Hf have nearly equal radii.}\ans Lanthanoid contraction cancels the expected increase in size from 4d to 5d.
+\item \textbf{Zn has the lowest enthalpy of atomisation in the 3d series.}\ans No unpaired d electrons for metallic bonding.
+\item \textbf{Actinoids show a wider range of OS.}\ans 5f, 6d and 7s levels have comparable energies.
+\item \textbf{Ce$^{4+}$ is a good oxidant; Eu$^{2+}$ a good reductant.}\ans Both tend to change to the common +3 state.
+\end{rqlist}
+
+\sub{Quick 1-mark facts (MCQ / A--R)}
+\begin{fl}
+\item Cr [Ar]$3d^54s^1$; Cu [Ar]$3d^{10}4s^1$; Fe$^{3+}$ $3d^5$; Cu$^+$ $3d^{10}$ (colourless, diamagnetic).
+\item Mn shows the most OS (+2 to +7); Sc only +3; Zn only +2. Max OS rises to Mn, then falls.
+\item Oxides: lower OS basic, higher OS acidic (MnO basic, Mn$_2$O$_7$ acidic; CrO$_3$ acidic).
+\item Manganate \ce{MnO4^2-} green, paramagnetic; permanganate \ce{MnO4-} purple, diamagnetic; both tetrahedral.
+\item Dichromate: two tetrahedra sharing one O; Cr--O--Cr $\approx$126$^\circ$. Chromate yellow ⇌ dichromate orange (pH).
+\item Purple \ce{MnO4-} and orange \ce{Cr2O7^2-} are $d^0$: colour from charge transfer, not d--d.
+\item Lanthanoids: common OS +3; only Pm radioactive. Actinoids: all radioactive.
+\item Catalysts: V$_2$O$_5$ (Contact), Fe (Haber), Ni (hydrogenation), TiCl$_4$ + Al(CH$_3$)$_3$ (Ziegler), PdCl$_2$ (Wacker).
+\item Brass = Cu + Zn; bronze = Cu + Sn. KMnO$_4$ titrations use dilute H$_2$SO$_4$, not HCl.
+\end{fl}
+
+\sub{Case-based angles seen recently}
+\begin{fl}
+\item Table of $E^\circ_{\ce{M^2+/M}}$ or $E^\circ_{\ce{M^3+/M^2+}}$ → explain irregularities (Mn, Zn, Cu; Mn$^{3+}$, Co$^{3+}$).
+\item Table of ionisation enthalpies → explain high IE$_2$ of Cr/Cu, IE$_3$ of Mn/Zn.
+\item KMnO$_4$ titration in the lab → equation with oxalic acid or Mohr's salt, self-indicator, why H$_2$SO$_4$.
+\item Steel, alloys, catalysts in industry → which property explains it.
+\item Separation of Zr and Hf / lanthanoids → lanthanoid contraction.
+\end{fl}
+
+\begin{tip}\Tip \textbf{Mark-losing traps.} (1) Removing 3d electrons before 4s when writing ions. (2) Writing Cr $3d^44s^2$ or Cu $3d^94s^2$. (3) Calling Zn a transition element. (4) Ionic equations with unbalanced charge, or acidifying KMnO$_4$ with HCl. (5) Explaining lanthanoid contraction by ``5d electrons'' — the cause is poor shielding by \textbf{4f}. (6) Swapping manganate/permanganate colours. (7) Forgetting 7H$_2$O with \ce{Cr2O7^2-} / 4H$_2$O with \ce{MnO4-}. (8) Giving a non-zero $\mu$ for $d^0$ or $d^{10}$ ions.\end{tip}
+\end{multicols}
+\begin{tcolorbox}[enhanced,colback=white,colframe=uc,boxrule=0.6pt,arc=2pt,title={\sffamily\bfseries\footnotesize My notes — Ch 4 d- and f-Block},colbacktitle=uc,coltitle=white,height fill,before skip=4pt]
+\end{tcolorbox}
+
+% =====================================================================
+% CH 5 COORDINATION COMPOUNDS
+% =====================================================================
+\chapterhead{uV}{Ch 5 · Coordination Compounds}{7 marks}{Werner · definitions · IUPAC naming · isomerism · VBT · CFT \& colour · metal carbonyls · applications}
+\begin{multicols}{2}\raggedcolumns
+\sub{Most-repeated board questions}
+\begin{rqlist}
+\item \st3 \ty{Nm} Write the IUPAC name of a given complex, or the formula from a name. \mk{1--2}
+\item \st3 \ty{B} Using VBT: hybridisation, shape and magnetic behaviour of \ce{[Co(NH3)6]^3+}, \ce{[CoF6]^3-}, \ce{[NiCl4]^2-}, \ce{[Ni(CN)4]^2-}, \ce{[Fe(CN)6]^3-}, \ce{[Ni(CO)4]}. \mk{2--3}
+\item \st3 \ty{B} CFT: draw splitting in an octahedral field; write $d^4$ configuration when $\Delta_o>P$ and $\Delta_o<P$; spectrochemical series; explain colour. \mk{2--3}
+\item \st3 \ty{Is} Draw geometrical/optical isomers of \ce{[CoCl2(en)2]+}, \ce{[Pt(NH3)2Cl2]}, \ce{[Co(NH3)3(NO2)3]}; name the isomerism in a given pair. \mk{2--3}
+\item \st2 \ty{Df} Define with example: ambidentate ligand, chelate, homoleptic/heteroleptic, coordination number, denticity, spectrochemical series. \mk{1--2}
+\item \st2 \ty{Df}\ty{N} Werner's postulates; formula from moles of AgCl precipitated; number of ions / conductance order. \mk{2--3}
+\item \st2 \ty{R} Why \ce{[NiCl4]^2-} is paramagnetic but \ce{[Ni(CO)4]} diamagnetic (both tetrahedral); \ce{[Fe(H2O)6]^3+} strongly vs \ce{[Fe(CN)6]^3-} weakly paramagnetic. \mk{1--2}
+\item \st2 \ty{R} Why low-spin tetrahedral complexes are rare; why \ce{[Ni(H2O)6]^2+} changes colour with en; why anhydrous CuSO$_4$ is white. \mk{1--2}
+\item \st2 \ty{B} Synergic bonding in metal carbonyls (with sketch or words). \mk{2}
+\item \st1 \ty{Df} Uses: EDTA, cis-platin, Wilkinson's catalyst, Mond process, DMG test for Ni$^{2+}$, haemoglobin/chlorophyll/B$_{12}$. \mk{1--2}
+\item \st1 \ty{Cmp} Limitations of VBT; limitations of CFT. \mk{1--2}
+\item \st1 \ty{Cmp} Double salt vs complex (Mohr's salt vs \ce{K4[Fe(CN)6]}). \mk{1}
+\end{rqlist}
+
+\sub{Must-know lines (NCERT language)}
+\begin{fl}
+\item \textbf{Werner}: metals show primary (ionisable, = OS, satisfied by negative ions) and secondary (non-ionisable, = CN, fixed, satisfied by neutral or negative ligands, directional) valencies.
+\item \textbf{Coordination entity}: central metal atom/ion bonded to a fixed number of ions or molecules (e.g.\ \ce{[CoCl3(NH3)3]}).
+\item \textbf{Ligands}: ions or molecules bound to the central atom/ion in the coordination entity (electron-pair donors).
+\item \textbf{Coordination number}: number of ligand donor atoms directly bonded to the central atom/ion.
+\item \textbf{Ambidentate ligand}: can ligate through two different atoms (\ce{NO2-}/\ce{ONO-}, \ce{SCN-}/\ce{NCS-}).
+\item \textbf{Chelate}: a di- or polydentate ligand using two or more donor atoms to bind a single metal ion, forming a ring; more stable than similar unidentate complexes.
+\item \textbf{Homoleptic}: metal bound to only one kind of donor group; \textbf{heteroleptic}: more than one kind.
+\item \textbf{Spectrochemical series}: ligands arranged in order of increasing field strength (increasing $\Delta_o$).
+\item \textbf{Crystal field splitting}: splitting of degenerate d orbitals in the field of ligands; $\Delta_o$ for octahedral.
+\item \textbf{Synergic bonding}: M--C $\sigma$ bond (C lone pair → vacant metal orbital) plus $\pi$ back-bond (filled metal d → empty $\pi^*$ of CO); each strengthens the other.
+\end{fl}
+
+\sub{Key facts \& formulas}
+\begin{kbox}
+OS of metal: $x+\sum(\text{ligand charges})=$ charge on complex\\[1pt]
+CN = number of donor atoms (en, ox count 2; EDTA 6) — \emph{not} number of ligands\\[1pt]
+$\Delta_t=\tfrac49\Delta_o$;\quad CFSE (oct.) $=(-0.4\,n_{t_{2g}}+0.6\,n_{e_g})\Delta_o$;\quad $\mu=\sqrt{n(n+2)}$\\[1pt]
+Moles AgCl = number of Cl$^-$ outside [ ]; ions in solution = counter ions + 1
+\end{kbox}
+
+\sub{Answer skeletons}
+\begin{skel}{B · VBT for a complex (3 marks)}
+\textit{e.g.\ \ce{[Fe(CN)6]^3-}.}\\
+Fe$^{3+}$: [Ar]$3d^5$; CN$^-$ is a strong-field ligand → electrons pair up \mk{½}\\
+\ob{2,2,1,3,3}\,\ob{3}\,\ob{3,3,3} (3d | 4s | 4p; shaded = CN$^-$ pairs) → \textbf{$d^2sp^3$} \mk{1}\\
+Shape: \textbf{octahedral}; inner-orbital, low-spin complex \mk{½}\\
+One unpaired electron → \textbf{paramagnetic}, $\mu\approx1.73$ BM \mk{1}
+\end{skel}
+\begin{skel}{B · CFT for $d^4$ (2 marks)}
+Sketch: d orbitals split into lower $t_{2g}$ ($-0.4\Delta_o$) and upper $e_g$ ($+0.6\Delta_o$) \mk{1}\\
+$\Delta_o<P$ (weak field): $t_{2g}^3e_g^1$, high spin, 4 unpaired; $\Delta_o>P$ (strong field): $t_{2g}^4e_g^0$, low spin, 2 unpaired \mk{½ + ½}
+\end{skel}
+\begin{skel}{Nm · IUPAC name (1 mark each)}
+(i) Cation before anion. (ii) Inside [ ]: ligands alphabetically (ignore di/tri/bis) → metal → OS in Roman numerals. (iii) Anionic complex → metal + ``-ate'' (ferrate, cuprate, argentate, aurate). (iv) Check: \ce{[CoCl2(en)2]Cl} = dichloridobis(ethane-1,2-diamine)cobalt(III) chloride.
+\end{skel}
+\begin{skel}{Is · Isomers of \ce{[CoCl2(en)2]+} (3 marks)}
+Draw the octahedron: \textbf{trans} (Cl at 180$^\circ$) — has a plane of symmetry, optically inactive; \textbf{cis} (Cl at 90$^\circ$) — non-superimposable mirror images d and l. Total 3 stereoisomers \mk{1 each drawing}.
+\end{skel}
+\begin{skel}{N · Werner / AgCl (2 marks)}
+\textit{CoCl$_3$·5NH$_3$ gives 2 mol AgCl per mol.} → 2 Cl$^-$ outside → \ce{[CoCl(NH3)5]Cl2}; ions = 3; CN = 6; OS = +3.
+\end{skel}
+
+\sub{Why/reason — write it like this}
+\begin{rqlist}
+\item \textbf{\ce{[NiCl4]^2-} paramagnetic, \ce{[Ni(CN)4]^2-} diamagnetic.}\ans Cl$^-$ weak: no pairing, $sp^3$, 2 unpaired. CN$^-$ strong: pairing, $dsp^2$ square planar, 0 unpaired.
+\item \textbf{\ce{[Ni(CO)4]} diamagnetic though tetrahedral.}\ans Ni(0) $3d^84s^2$; strong-field CO pushes 4s electrons into 3d → $3d^{10}$; $sp^3$; no unpaired electron.
+\item \textbf{\ce{[Fe(H2O)6]^3+} strongly, \ce{[Fe(CN)6]^3-} weakly paramagnetic.}\ans H$_2$O weak field: $d^5$ high spin, 5 unpaired; CN$^-$ strong: low spin, 1 unpaired.
+\item \textbf{\ce{[Co(NH3)6]^3+} inner-orbital, \ce{[CoF6]^3-} outer-orbital.}\ans NH$_3$ pairs the $3d^6$ electrons → $d^2sp^3$, diamagnetic; F$^-$ weak → $sp^3d^2$, 4 unpaired.
+\item \textbf{Low-spin tetrahedral complexes are rare.}\ans $\Delta_t=\frac49\Delta_o$ is usually smaller than pairing energy, so electrons do not pair.
+\item \textbf{Anhydrous CuSO$_4$ white, CuSO$_4$·5H$_2$O blue.}\ans Without water ligands there is no crystal-field splitting, so no d--d transition.
+\item \textbf{Green \ce{[Ni(H2O)6]^2+} turns violet with en.}\ans en is a stronger-field ligand → larger $\Delta_o$ → absorbs shorter wavelength → complementary colour shifts.
+\item \textbf{Chelates are more stable.}\ans Ring formation (chelate effect): two or more donor atoms of one ligand bind the same metal.
+\item \textbf{trans-\ce{[CoCl2(en)2]+} is optically inactive.}\ans It has a plane of symmetry; its mirror image is superimposable.
+\item \textbf{Tetrahedral complexes show no geometrical isomerism.}\ans All four positions are adjacent to each other.
+\item \textbf{M--C bond in carbonyls has double-bond character.}\ans Synergic bonding: $\sigma$ donation + $\pi$ back-donation into CO $\pi^*$.
+\item \textbf{CFT limitation.}\ans Treats ligands as point charges, so anionic ligands should split most, yet they lie at the weak end of the series; covalent character ignored.
+\end{rqlist}
+
+\sub{Quick 1-mark facts (MCQ / A--R)}
+\begin{fl}
+\item CN: \ce{[Co(en)3]^3+} 6; \ce{[Fe(C2O4)3]^3-} 6; \ce{[Ni(CO)4]} 4; EDTA$^{4-}$ hexadentate.
+\item OS: Ni in \ce{[Ni(CO)4]} 0; Fe in \ce{[Fe(CO)5]} 0; Co in \ce{[CoCl2(en)2]+} +3; Pt in \ce{[Pt(NH3)2Cl2]} +2; Fe in \ce{K3[Fe(CN)6]} +3.
+\item Shapes: \ce{[Ni(CN)4]^2-} square planar ($dsp^2$); \ce{[NiCl4]^2-} tetrahedral ($sp^3$); \ce{[Fe(CO)5]} trigonal bipyramidal; \ce{[Cr(CO)6]} octahedral.
+\item $\mu$: \ce{[Fe(CN)6]^3-} 1.73; \ce{[CoF6]^3-} 4.90; \ce{[MnCl4]^2-} 5.92; \ce{[Co(NH3)6]^3+} 0 BM.
+\item Spectrochemical series: weakest I$^-$, strongest CO; NH$_3$ $<$ en $<$ CN$^-$ $<$ CO; H$_2$O $<$ NH$_3$.
+\item \ce{[Co(NH3)6]Cl3} → 4 ions, 3 AgCl; \ce{[CoCl(NH3)5]Cl2} → 3 ions, 2 AgCl; \ce{[CoCl2(NH3)4]Cl} → 2 ions, 1 AgCl.
+\item Isomer counts: \ce{[MA2B2]} sq.\ planar 2; \ce{[MABCD]} 3; \ce{[MA4B2]} 2; \ce{[MA3B3]} 2 (fac/mer); \ce{[M(AA)3]} 2 optical; \ce{[M(AA)2B2]} 3.
+\item Ionisation isomers \ce{[Co(NH3)5Br]SO4} / \ce{[Co(NH3)5SO4]Br}: BaCl$_2$ gives white ppt with the first; AgNO$_3$ gives pale yellow ppt with the second.
+\item Linkage isomerism needs an ambidentate ligand. cis-platin = cis-\ce{[Pt(NH3)2Cl2]} (anticancer). Wilkinson's catalyst \ce{[RhCl(PPh3)3]}.
+\item Haemoglobin Fe; chlorophyll Mg; vitamin B$_{12}$ Co. Ni$^{2+}$ + DMG → red ppt. EDTA: water hardness, lead poisoning.
+\end{fl}
+
+\sub{Case-based angles seen recently}
+\begin{fl}
+\item Absorption/colour data for one metal with different ligands → order of $\Delta_o$, spectrochemical series.
+\item Measured $\mu$ values → number of unpaired electrons → geometry/hybridisation.
+\item Werner's AgNO$_3$ / conductivity experiments → structures of CoCl$_3$·$x$NH$_3$.
+\item Medicine and biology (cis-platin, EDTA chelation, haemoglobin) → naming, geometry, isomerism.
+\item Gemstones (ruby, emerald) or coloured solutions → CFT and d--d transitions.
+\end{fl}
+
+\begin{tip}\Tip \textbf{Mark-losing traps.} (1) Counting CN as the number of ligands when en/ox/EDTA are present. (2) Naming errors: amine for ammine, chloro for chlorido, missing ``-ate'', wrong alphabetical order (judge by ligand name, not prefix), missing Roman numeral. (3) Assuming every NH$_3$ complex is low spin. (4) Saying tetrahedral complexes show geometrical isomerism. (5) Drawing trans-\ce{[CoCl2(en)2]+} as chiral. (6) Inner orbital = $(n-1)d$; outer = $nd$ — don't swap. (7) Answering in CFT language when VBT is asked (and vice versa). (8) Ni in \ce{[Ni(CO)4]} is 0, not +2.\end{tip}
+\end{multicols}
+\begin{tcolorbox}[enhanced,colback=white,colframe=uc,boxrule=0.6pt,arc=2pt,title={\sffamily\bfseries\footnotesize My notes — Ch 5 Coordination Compounds},colbacktitle=uc,coltitle=white,height fill,before skip=4pt]
+\end{tcolorbox}
+
+% =====================================================================
+% PROGRESS TRACKER
+% =====================================================================
+\newpage
+\colorlet{uc}{navy}
+\begin{tcolorbox}[enhanced,colback=navy,colframe=navy,arc=2pt,left=6pt,right=6pt,top=3pt,bottom=3pt]
+\color{white}\sffamily{\large\bfseries Progress tracker — Class 12 Chemistry}\hfill{\small tick ☐ as you go}\\[-1pt]{\scriptsize Batch 1 = Ch 1--3, Batch 2 = Ch 4--5, Batch 3 = Ch 6--10 (coming). The same tracker appears in every batch: use one copy.}
+\end{tcolorbox}
+{\small
+\renewcommand{\arraystretch}{1.55}
+\begin{tabularx}{\textwidth}{@{}l@{\ }>{\raggedright\arraybackslash}p{4.7cm}*{8}{>{\centering\arraybackslash}X}@{}}
+\toprule
+ & \textbf{Chapter (marks)} & \textbf{Read 1} & \textbf{Read 2} & \textbf{Read 3} & \textbf{NCERT Qs} & \textbf{Exemplar} & \textbf{PYQs} & \textbf{Sheet drilled} & \textbf{Conf.\ (1--5)}\\
+\midrule
+\textcolor{uI}{\textbf{1}} & Solutions (7) & ☐ & ☐ & ☐ & ☐ & ☐ & ☐ & ☐ & \underline{\hspace{8mm}}\\
+\textcolor{uII}{\textbf{2}} & Electrochemistry (9) & ☐ & ☐ & ☐ & ☐ & ☐ & ☐ & ☐ & \underline{\hspace{8mm}}\\
+\textcolor{uIII}{\textbf{3}} & Chemical Kinetics (7) & ☐ & ☐ & ☐ & ☐ & ☐ & ☐ & ☐ & \underline{\hspace{8mm}}\\
+\textcolor{uIV}{\textbf{4}} & d- and f-Block Elements (7) & ☐ & ☐ & ☐ & ☐ & ☐ & ☐ & ☐ & \underline{\hspace{8mm}}\\
+\textcolor{uV}{\textbf{5}} & Coordination Compounds (7) & ☐ & ☐ & ☐ & ☐ & ☐ & ☐ & ☐ & \underline{\hspace{8mm}}\\
+\textcolor{uVI}{\textbf{6}} & Haloalkanes \& Haloarenes (6) & ☐ & ☐ & ☐ & ☐ & ☐ & ☐ & ☐ & \underline{\hspace{8mm}}\\
+\textcolor{uVII}{\textbf{7}} & Alcohols, Phenols \& Ethers (6) & ☐ & ☐ & ☐ & ☐ & ☐ & ☐ & ☐ & \underline{\hspace{8mm}}\\
+\textcolor{uVIII}{\textbf{8}} & Aldehydes, Ketones \& Acids (8) & ☐ & ☐ & ☐ & ☐ & ☐ & ☐ & ☐ & \underline{\hspace{8mm}}\\
+\textcolor{uIX}{\textbf{9}} & Amines (6) & ☐ & ☐ & ☐ & ☐ & ☐ & ☐ & ☐ & \underline{\hspace{8mm}}\\
+\textcolor{uX}{\textbf{10}} & Biomolecules (7) & ☐ & ☐ & ☐ & ☐ & ☐ & ☐ & ☐ & \underline{\hspace{8mm}}\\
+\bottomrule
+\end{tabularx}}
+
+\vspace{4pt}
+{\small\textbf{Practicals (30):} Volumetric~☐ \quad Salt analysis~☐ \quad Content-based experiments~☐ \quad Project~☐ \quad Record complete~☐ \quad Viva prepared~☐\\[3pt]
+\textbf{Timed sample papers (3 h, error review after each):} SQP 2026--27~☐ \quad Paper 2~☐ \quad Paper 3~☐ \quad Paper 4~☐ \quad Paper 5~☐ \quad Paper 6~☐}
+\vspace{2pt}
+\begin{tcolorbox}[enhanced,colback=tipY,colframe=tipYframe,boxrule=0.5pt,arc=1.5pt,left=4pt,right=4pt,top=2pt,bottom=2pt]
+\small\textbf{Error log habit.} After every test, write each lost mark in ``My notes'' under one of: \emph{concept gap} · \emph{formula/unit slip} · \emph{NCERT line not known} · \emph{time}. Re-read only the matching section of these notes.
+\end{tcolorbox}
+
+\begin{tcolorbox}[enhanced,colback=white,colframe=navy,boxrule=0.8pt,arc=2pt,title={\sffamily\bfseries\footnotesize My notes},colbacktitle=navy,coltitle=white,height fill,before skip=4pt]
+\end{tcolorbox}
+\end{document}
