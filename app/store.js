@@ -59,12 +59,12 @@ export const store = {
 
   // ---- practice: attempts and the mistakes list ----
   /** Record one attempt. Wrong, or self-marked under half, goes to Mistakes; a good retry clears it. */
-  recordAttempt({ id, key, type, marks, got }) {
+  recordAttempt({ id, key, type, marks, got, title }) {
     const low = got < marks / 2;
     this.saveProgress((p) => {
       p.attempts = [...(p.attempts || []), { id, key, type, marks, got, at: new Date().toISOString() }].slice(-500);
       const rest = (p.mistakes || []).filter((m) => (m.id || m) !== id);
-      p.mistakes = low ? [...rest, { id, key, type, marks, got, at: new Date().toISOString() }] : rest;
+      p.mistakes = low ? [...rest, { id, key, type, marks, got, at: new Date().toISOString(), ...(title ? { title } : {}) }] : rest;
       return p;
     });
     return low;

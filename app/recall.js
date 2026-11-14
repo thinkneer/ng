@@ -61,6 +61,7 @@ export function cardsFrom(src, { subject, chapter, chapterTitle, colour } = {}) 
   };
   while (i < lines.length) {
     const l = lines[i];
+    if (/^```/.test(l)) { i++; while (i < lines.length && !/^```\s*$/.test(lines[i])) i++; i++; continue; } // interactive blocks are not lines
     const h = l.match(/^##\s+(.+)$/);
     if (h) { section = h[1].trim(); i++; continue; }
     const d = l.match(/^:::(tip|formula|skeleton)\s*(.*)$/);

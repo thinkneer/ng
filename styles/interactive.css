@@ -4,7 +4,8 @@
    ------------------------------------------------------------------ */
 
 /* Own drawings everywhere: currentColor + unit colour via class="u" (stroke) / "uf" (fill) */
-.dk__svg svg, .ngb svg, .pc svg { width: 100%; height: auto; color: var(--text); overflow: visible; }
+.dk__svg svg, .pc .dk__svg svg, :where(.ngf__art, .ngs__art, .ngg__plot, .ngd__art, .ngp__art) > svg { width: 100%; height: auto; color: var(--text); overflow: visible; }
+.ngb .btn svg, .ngb .chip svg { width: 1.05rem; height: 1.05rem; flex: 0 0 auto; }
 svg .u { stroke: var(--unit, var(--accent)); }
 svg .uf { fill: var(--unit, var(--accent)); }
 svg text.uf, svg .uf text { fill: var(--unit, var(--accent)); }
@@ -74,4 +75,110 @@ svg text.uf, svg .uf text { fill: var(--unit, var(--accent)); }
   .pc__title { font-weight: 700; font-size: 11pt; text-align: center; margin: 2mm 0 1mm; }
   .pc__back { font-size: 9pt; line-height: 1.35; border-top: 1px dashed #999; padding-top: 1.5mm; }
   .pc__back .prose { font-size: inherit; max-width: none; }
+}
+
+/* ---------- Interactive blocks (```ng-<type>) — common frame ---------- */
+.ngb { margin: 1.4em 0; padding: var(--s-3) var(--s-4) var(--s-4); border-radius: var(--r-lg); background: color-mix(in srgb, var(--unit, var(--accent)) 5%, var(--surface)); border: 1px solid color-mix(in srgb, var(--unit, var(--accent)) 28%, transparent); font-family: var(--font-sans); font-size: var(--fs-callout); line-height: 1.5; break-inside: avoid; }
+.ngb__head { display: flex; flex-direction: column; gap: 2px; margin-bottom: var(--s-3); }
+.ngb__kind { display: inline-flex; align-items: center; gap: 0.35rem; font-size: var(--fs-caption); font-weight: 800; letter-spacing: 0.08em; text-transform: uppercase; color: color-mix(in srgb, var(--unit, var(--accent)) 72%, var(--text)); }
+.ngb__kind svg { width: 0.95rem; height: 0.95rem; }
+.prose .ngb .ngb__title, .ngb__title { font-size: var(--fs-headline); font-weight: 700; margin: 0; padding: 0; border: 0; color: var(--text); letter-spacing: -0.005em; }
+.prose .ngb .ngb__title::before { display: none; }
+.ngb__bar { display: flex; align-items: center; flex-wrap: wrap; gap: var(--s-2); margin-top: var(--s-3); }
+.ngb__bar .btn { min-height: 2.5rem; }
+.ngb__caption { font-size: var(--fs-footnote); color: var(--text-2); margin-top: var(--s-2); text-align: center; }
+.ngb .prose { max-width: none; font-size: inherit; line-height: inherit; font-family: inherit; }
+.ngb .prose > :first-child { margin-top: 0; }
+.ngb .prose p { margin: 0.3em 0 0; }
+.ngb .chips { gap: var(--s-2); }
+.ngb .chip[aria-pressed="true"] { background: var(--unit, var(--accent)); color: #fff; }
+.t-success { color: var(--success); } .t-danger { color: var(--danger); }
+.print-only { display: none; }
+.rd[data-mode="pages"] .ngb { break-inside: avoid; }
+.rd .ngb { font-size: max(0.85em, 15px); }
+
+/* figure */
+.ngf__art { position: relative; max-width: 30rem; margin: 0 auto; }
+.ngf__art svg { display: block; }
+.ngf__pins { position: absolute; inset: 0; pointer-events: none; }
+.ngf__pin { position: absolute; transform: translate(-50%, -50%); pointer-events: auto; width: 1.6rem; height: 1.6rem; border-radius: 50%; display: grid; place-items: center; background: var(--unit, var(--accent)); color: #fff; font-size: 0.78rem; font-weight: 800; box-shadow: 0 0 0 2px var(--surface), 0 3px 8px rgba(0,0,0,0.25); transition: transform var(--t-fast) var(--ease-out), background var(--t-fast); }
+.ngf__pin::before { content: ""; position: absolute; inset: -0.55rem; } /* 44px tap target */
+.ngf__pin:hover, .ngf__pin.is-on { transform: translate(-50%, -50%) scale(1.18); }
+.ngf__pin.is-on { background: #E0B400; color: #1a1400; }
+.ngf__pin.is-right { background: var(--success); }
+.ngf__pin.is-wrong { background: var(--danger); }
+.ngf.is-quiz svg text, .ngf.is-quiz svg tspan { visibility: hidden; }
+.ngf__info { min-height: 3.2rem; margin-top: var(--s-3); padding: var(--s-2) var(--s-3); border-radius: var(--r-md); background: var(--surface); box-shadow: var(--shadow-1); }
+.ngf__line { display: block; color: var(--text-2); font-size: var(--fs-subhead); margin-top: 2px; }
+.ngf__legend { margin: var(--s-2) 0 0; padding-left: 1.4em; font-size: var(--fs-footnote); }
+
+/* graph */
+.ngg__plot svg { display: block; max-width: 32rem; margin: 0 auto; touch-action: pan-y; font-family: var(--font-sans); }
+.ngg__grid line { stroke: var(--separator); stroke-width: 0.6; }
+.ngg__axis line { stroke: currentColor; stroke-width: 1.2; }
+.ngg__ticks text { font-size: 9px; fill: var(--text-2); }
+.ngg__label { font-size: 10.5px; font-weight: 700; fill: currentColor; }
+.ngg__hit { fill: transparent; cursor: crosshair; }
+.ngg__cursor { stroke: var(--text-3); stroke-width: 1; stroke-dasharray: 3 3; }
+.ngg__legend { display: flex; flex-wrap: wrap; justify-content: center; gap: var(--s-3); font-size: var(--fs-footnote); margin-top: var(--s-1); }
+.ngg__legend i { display: inline-block; width: 1rem; height: 3px; border-radius: 2px; vertical-align: middle; margin-right: 0.35rem; }
+.ngg__read { text-align: center; min-height: 1.5em; margin-top: var(--s-1); }
+.ngg__sliders { display: grid; gap: var(--s-2); margin-top: var(--s-3); }
+.ngg__slider { display: grid; grid-template-columns: minmax(5.5rem, auto) 1fr 3.2rem; align-items: center; gap: var(--s-3); margin: 0; font-size: var(--fs-subhead); }
+.ngg__slider input { width: 100%; min-height: var(--tap); padding: 0; accent-color: var(--unit, var(--accent)); background: none; border: 0; box-shadow: none; }
+.ngg__slider output { font-weight: 700; text-align: right; }
+.ngg__sname .katex { font-size: 1.05em; }
+
+/* steps */
+.ngs__art { display: block; width: 100%; max-width: 30rem; margin: 0 auto var(--s-3); padding: 0; background: none; border: 0; cursor: pointer; color: inherit; }
+.ngs__art [data-step] { transition: opacity 360ms var(--ease-out); }
+.ngs__art .ngs-hide { opacity: 0; }
+.ngs__art .ngs-now { animation: ngs-pop 520ms var(--ease-out); }
+@keyframes ngs-pop { from { opacity: 0; } to { opacity: 1; } }
+.ngs__art .flow { stroke-dasharray: 5 7; animation: ngs-flow 900ms linear infinite; }
+@keyframes ngs-flow { to { stroke-dashoffset: -24; } }
+@media (prefers-reduced-motion: reduce) { .ngs__art .flow, .ngs__art .ngs-now { animation: none; } }
+.ngs__list { list-style: none; margin: 0; padding: 0; display: grid; gap: var(--s-2); }
+.ngs__list li { display: flex; gap: var(--s-3); align-items: flex-start; padding: var(--s-2) var(--s-3); border-radius: var(--r-md); transition: background var(--t-med), opacity var(--t-med); }
+.ngs__list li.is-hidden { display: none; }
+.ngs__list li.is-now { background: var(--surface); box-shadow: var(--shadow-1); }
+.ngs__list li:not(.is-now) { opacity: 0.7; }
+.ngs__n { flex: 0 0 auto; width: 1.5rem; height: 1.5rem; border-radius: 50%; display: grid; place-items: center; font-size: 0.75rem; font-weight: 800; background: var(--unit, var(--accent)); color: #fff; margin-top: 1px; }
+.ngs__cap { flex: 1 1 auto; min-width: 0; }
+.ngs__cap p, .ngn__steps li p, .ngm__meaning p { margin: 0; }
+.prose .ngb ol, .prose .ngb ul { margin-top: 0; }
+.prose .ngb li + li { margin-top: 0; }
+
+/* numerical */
+.ngn__q { font-size: var(--fs-callout); }
+.ngn__form { display: flex; align-items: center; gap: var(--s-2); margin-top: var(--s-3); flex-wrap: wrap; }
+.ngn__input { flex: 1 1 8rem; min-width: 0; font-size: var(--fs-body); font-variant-numeric: tabular-nums; }
+.ngn__input.is-right { border-color: var(--success); box-shadow: 0 0 0 3px var(--success-soft); }
+.ngn__input.is-wrong { border-color: var(--danger); box-shadow: 0 0 0 3px var(--danger-soft); }
+.ngn__unit { font-weight: 600; color: var(--text-2); }
+.ngn__fb { min-height: 1.5em; margin-top: var(--s-2); font-size: var(--fs-subhead); }
+.ngn__fb svg { display: inline-block; width: 1rem; height: 1rem; vertical-align: -2px; }
+.ngn__ok { color: var(--success); font-weight: 700; } .ngn__no { color: var(--danger); font-weight: 700; }
+.ngn__steps { margin-top: var(--s-3); padding: var(--s-3); border: 1.5px dashed var(--separator-strong); border-radius: var(--r-md); background: var(--surface); }
+.ngn__steps ol { margin: 0; padding-left: 1.3em; display: grid; gap: var(--s-1); }
+.ngn__ans { margin-top: var(--s-2); padding-top: var(--s-2); border-top: 1px solid var(--separator); }
+
+/* mnemonic */
+.ngb--mnemonic { background: color-mix(in srgb, #E0B400 10%, var(--surface)); border-color: color-mix(in srgb, #E0B400 55%, transparent); }
+.ngb--mnemonic .ngb__kind { color: var(--tip-text); }
+.ngm__trick { font-size: var(--fs-title3); font-weight: 800; letter-spacing: -0.01em; line-height: 1.3; }
+.ngm__q { font-weight: 600; font-size: var(--fs-headline); }
+.ngm__meaning { margin-top: var(--s-2); color: var(--text); }
+.ngm.is-test .ngm__meaning { display: none; }
+
+@media print {
+  .print-only { display: block; }
+  .ngb { border: 1px solid #999; background: none; }
+  .ngb__bar, .ngf__info, .ngf__pins, .ngg__read, .ngg__sliders, .ngg__hit, .ngn__form, .ngn__fb { display: none !important; }
+  .ngs__art .flow { animation: none; }
+  .ngs__art .ngs-hide { opacity: 1; }
+  .ngs__list li.is-hidden { display: flex; }
+  .ngs__list li { opacity: 1 !important; box-shadow: none !important; }
+  .ngf.is-quiz svg text { visibility: visible; }
+  .ngm.is-test .ngm__meaning { display: block; }
 }

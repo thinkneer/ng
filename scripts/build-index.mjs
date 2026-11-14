@@ -12,7 +12,7 @@ import { readFileSync, writeFileSync, readdirSync, existsSync, statSync } from '
 import { join, relative, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import Ajv from 'ajv';
-import { refId, resolveRef, svgProblems } from '../app/blocks/parse.js';
+import { refId, resolveRef, svgProblems, extractBlocks, validate as validateBlock } from '../app/blocks/parse.js';
 import addFormats from 'ajv-formats';
 
 // hoisted: used during the top-level scan below
@@ -29,6 +29,9 @@ const MUSTKNOW_HEADINGS = [
 const CARDS_REQUIRED_FROM = '2026-12-01';
 const TODAY = process.env.NG_TODAY || new Date().toISOString().slice(0, 10);
 const missingCards = {}; // subject path → [chapter ids]
+
+/** Prose only: interactive blocks and inline SVG drawings don't count towards length or reading time. */
+function proseOf(text) { return text.replace(/^```ng-[a-z]+[\s\S]*?^```\s*$/gm, ' ').replace(/<svg[\s\S]*?<\/svg>/g, ' '); }
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
 const CHECK_ONLY = process.argv.includes('--check');
@@ -176,6 +179,7 @@ if (classes) {
                   } else {
                     warn(chDir, 'chapter folder without chapter.json');
                   }
+                  const blockIds = new Map();
                   for (const item of ['notes', 'mustknow', 'formulas']) {
                     const p = join(chDir, `${item}.md`);
                     if (existsSync(p)) {
@@ -183,7 +187,9 @@ if (classes) {
                       counts[item]++;
                       if (item === 'mustknow') checkMustknow(p);
                       if (item === 'notes') checkNotes(p);
-                      const text = readFileSync(p, 'utf8');
+                      const bl = checkBlocks(p, blockIds);
+                      if (bl.length) outCh.blocks = { ...(outCh.blocks || {}), ...Object.fromEntries(Object.entries(bl.reduce((a, b) => { a[b.type] = (a[b.type] || 0) + 1; return a; }, {})).map(([k, v]) => [k, (outCh.blocks?.[k] || 0) + v])) };
+                      const text = proseOf(readFileSync(p, 'utf8'));
                       outCh.words = (outCh.words || 0) + (text.match(/\S+/g) || []).length;
                       if (item === 'notes') outCh.read_minutes = Math.max(1, Math.round((text.match(/\S+/g) || []).length / 200));
                     }
@@ -267,7 +273,7 @@ function checkMustknow(path) {
   if (words > 1400) warn(path, `mustknow is ${words} words; the cap is about one screen per heading (~1200 words)`);
 }
 function checkNotes(path) {
-  const text = readFileSync(path, 'utf8');
+  const text = proseOf(readFileSync(path, 'utf8'));
   checkDirectives(path, text);
   const h2 = (text.match(/^## /gm) || []).length;
   if (h2 < 2) warn(path, 'notes (Read layer): fewer than 2 "## " sections');
@@ -275,6 +281,20 @@ function checkNotes(path) {
   if (/★/.test(text)) warn(path, 'notes (Read layer) contains ★ ratings; stars belong in mustknow.md / questions.json');
   const words = (text.match(/\S+/g) || []).length;
   if (words > 3600) warn(path, `notes is ${words} words; consider splitting the h2 groups (guide: 1500–3000)`);
+}
+
+/** Validate every ```ng-<type> block in a Markdown file; ids must be unique within the chapter. */
+function checkBlocks(path, seen) {
+  const src = readFileSync(path, 'utf8');
+  const blocks = extractBlocks(src);
+  for (const b of blocks) {
+    const where = `line ${b.line} ng-${b.type}${b.spec.id ? ` "${b.spec.id}"` : ''}`;
+    for (const e of validateBlock(b, { src })) err(path, `${where}: ${e}`);
+    if (b.spec.id) { if (seen.has(b.spec.id)) err(path, `${where}: id also used at ${seen.get(b.spec.id)}`); else seen.set(b.spec.id, `${rel(path)} line ${b.line}`); }
+  }
+  // a fence that looks like a block but is misspelt
+  for (const m of src.matchAll(/^```(ng[-_ ]?\S*)\s*$/gm)) if (!/^ng-[a-z]+$/.test(m[1])) err(path, `"\`\`\`${m[1]}" is not a block fence; write \`\`\`ng-<type>`);
+  return blocks;
 }
 
 function checkCards(path, cards, notesPath, subjectId) {

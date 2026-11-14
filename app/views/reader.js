@@ -65,7 +65,7 @@ export async function reader({ cls, stream, sub, unit, ch }) {
         const { attach } = await import('../highlights.js');
         R.typesetAll = () => Promise.all([...content.querySelectorAll('.prose')].map((n) => typesetAll(n)));
         content.replaceChildren();
-        if (notes) { const n = await renderMarkdown(notes, { unitColour: unit.colour }); content.appendChild(n); attach(n, `${sub.id}/${ch.id}/${ch.items?.notes ? 'notes' : 'mustknow'}`); }
+        if (notes) { const n = await renderMarkdown(notes, { unitColour: unit.colour, ctx: { key: `${sub.id}/${ch.id}`, base } }); content.appendChild(n); attach(n, `${sub.id}/${ch.id}/${ch.items?.notes ? 'notes' : 'mustknow'}`); }
         if (formulas) {
           const h = document.createElement('h2'); h.className = 'rd__divider'; h.id = 'formula-sheet'; h.textContent = 'Formula sheet';
           content.appendChild(h); const fm = await renderMarkdown(formulas, { unitColour: unit.colour }); content.appendChild(fm); attach(fm, `${sub.id}/${ch.id}/formulas`);

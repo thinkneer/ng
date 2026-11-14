@@ -42,7 +42,7 @@ export async function chapter(route) {
         ${TABS.map((t) => raw(`<a class="segmented__btn" role="tab" href="${base}/${t.id}" aria-selected="${t.id === tab}" ${t.id === tab ? 'aria-current="page"' : ''}>${t.label}</a>`))}
       </div>
       <div class="with-rail mt-4">
-        <section id="tab-content" role="tabpanel" aria-label="${TABS.find((t) => t.id === tab).label}" style="--unit:#${unit.colour}">${skeletonList(3)}</section>
+        <section id="tab-content" role="tabpanel" aria-label="${TABS.find((t) => t.id === tab).label}" style="--unit:#${unit.colour};min-height:100vh">${skeletonList(3)}</section>
         <aside class="rail only-desktop" id="rail"></aside>
       </div>
       <div class="row row--between mt-8" style="gap:var(--s-3)">
@@ -50,12 +50,13 @@ export async function chapter(route) {
         ${next ? raw(`<a class="btn btn--plain btn--sm" href="${routeFor(cls.id, stream.id, sub.id, next.id, tab)}">Ch ${next.number} ${icon('chevronRight')}</a>`) : ''}
       </div>`,
     async mount(el) {
-      document.querySelector('[data-print]')?.addEventListener('click', () => window.print());
+      document.querySelector('[data-print]')?.addEventListener('click', async () => { const { printWithBlocks } = await import('../blocks/engine.js'); printWithBlocks(); });
       document.querySelector('[data-highlights]')?.addEventListener('click', () => openHighlights(ctx));
       if (route.openHighlights) setTimeout(() => openHighlights(ctx), 50);
       const panel = el.querySelector('#tab-content');
       const rail = el.querySelector('#rail');
       await renderTab(tab, { ...ctx, panel, rail });
+      panel.style.minHeight = ''; // held the page height while loading so the Ch ‹ › row didn't jump
     },
   };
 }
@@ -72,7 +73,7 @@ async function renderTab(tab, ctx) {
       return;
     }
     const { renderMarkdown, headings } = await import('../markdown.js');
-    const node = await renderMarkdown(src, { unitColour: unit.colour });
+    const node = await renderMarkdown(src, { unitColour: unit.colour, ctx: { key, base: ctx.base, layer: tab } });
     const { attach } = await import('../highlights.js');
     attach(node, `${sub.id}/${ch.id}/${tab}`);
     if (tab === 'mustknow') {

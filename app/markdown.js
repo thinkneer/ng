@@ -1,3 +1,4 @@
+import { icon } from './icons.js';
 // Lazy-loaded Markdown + KaTeX (with mhchem) rendering with sanitising. Only chapter pages pay for this.
 // Libraries are vendored (see vendor/README.md) so the site works offline and never waits on a CDN.
 const V = new URL('../vendor/', import.meta.url).href;
@@ -33,6 +34,12 @@ function splitDirectives(src) {
   const out = [];
   let i = 0;
   while (i < lines.length) {
+    const f = lines[i].match(/^```ng-([a-z]+)\s*$/);
+    if (f) { // interactive block: kept whole, rendered by app/blocks/engine.js
+      const body = []; i++;
+      while (i < lines.length && !/^```\s*$/.test(lines[i])) body.push(lines[i++]);
+      i++; out.push({ ngb: f[1], body: body.join('\n') }); continue;
+    }
     const m = lines[i].match(/^:::(tip|formula|skeleton)\s*(.*)$/);
     if (!m) { out.push({ md: lines[i] }); i++; continue; }
     const kind = m[1], title = m[2].trim();
@@ -61,7 +68,7 @@ function protectMath(src) {
   return { s, restore: (htmlStr) => htmlStr.replace(/\u0000M(\d+)\u0000/g, (_, n) => stash[Number(n)].replace(/&/g, '&amp;').replace(/</g, '&lt;')) };
 }
 
-export async function renderMarkdown(src, { unitColour, eager = false } = {}) {
+export async function renderMarkdown(src, { unitColour, eager = false, ctx = null } = {}) {
   let marked, DOMPurify;
   try { ({ marked, DOMPurify } = await load()); } catch (e) {
     // Rendering libraries unavailable (first visit offline, blocked network): show the raw notes rather than nothing.
@@ -71,9 +78,15 @@ export async function renderMarkdown(src, { unitColour, eager = false } = {}) {
     return pre;
   }
   const parts = splitDirectives(src || '');
-  let out = '';
+  let out = ''; const blocks = [];
+  const parseBody = parts.some((p) => p.ngb) ? (await import('./blocks/parse.js')).parseBody : null;
   for (const p of parts) {
-    if (p.md !== undefined) {
+    if (p.ngb) {
+      const spec = parseBody(p.ngb, p.body).spec;
+      blocks.push({ type: p.ngb, spec });
+      // header + reserved height now, so nothing jumps when the block's module arrives
+      out += `<div class="ngb ngb--${p.ngb} hl-skip" data-ngb="${blocks.length - 1}"${spec.id ? ` id="ngb-${escapeHtml(spec.id)}"` : ''}>${blockHead(p.ngb, spec.title)}<div class="ngb__body ngb__body--wait"></div></div>`;
+    } else if (p.md !== undefined) {
       const { s, restore } = protectMath(p.md);
       out += restore(marked.parse(s));
     } else {
@@ -89,6 +102,7 @@ export async function renderMarkdown(src, { unitColour, eager = false } = {}) {
   if (unitColour) wrap.style.setProperty('--unit', `#${unitColour}`);
   wrap.innerHTML = clean;
   decorate(wrap);
+  if (blocks.length) import('./blocks/engine.js').then((m) => m.mountBlocks(wrap, blocks, { src, ...(ctx || {}) }));
   // Typeset in chunks (per section) after the text is on screen, yielding between chunks so the page stays responsive.
   const sections = chunkBySection(wrap);
   wrap._chunks = sections.length; wrap._done = new Set();
@@ -202,6 +216,11 @@ export async function typeset(el) {
 
 export function headings(el) {
   return [...el.querySelectorAll('h2')].map((h) => ({ id: h.id, text: h.textContent }));
+}
+const BLOCK_KIND = { figure: ['eye', 'Diagram'], graph: ['progress', 'Graph'], steps: ['play', 'Step by step'], numerical: ['formula', 'Numerical'], mnemonic: ['sparkle', 'Memory trick'], draw: ['paper', 'Draw it'], derive: ['timer', 'Derivation'], explain: ['message', 'Explain it'], compare: ['layers', 'Compare'], fill: ['note', 'Fill the table'] };
+function blockHead(type, title) {
+  const [ic, label] = BLOCK_KIND[type] || ['info', type];
+  return `<div class="ngb__head"><span class="ngb__kind">${icon(ic)}${label}</span>${title ? `<h3 class="ngb__title">${escapeHtml(title)}</h3>` : ''}</div>`;
 }
 function escapeHtml(s) { return String(s).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c])); }
 export function preloadMarkdown() { load().catch(() => {}); }

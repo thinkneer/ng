@@ -10,6 +10,7 @@ export function examEveMarkdown(src) {
   const lines = src.replace(/\r\n/g, '\n').split('\n');
   const out = []; let mode = null, i = 0;
   while (i < lines.length) {
+    if (/^```/.test(lines[i])) { i++; while (i < lines.length && !/^```\s*$/.test(lines[i])) i++; i++; continue; } // blocks stay in Read
     const h = lines[i].match(/^##\s+(.+)$/);
     if (h) { const name = h[1].trim(); mode = KEEP[name] || null; if (mode) out.push(`### ${name.replace('Must-know lines and definitions', 'Must know').replace('Key formulas', 'Formulas').replace('Mark-losing traps', 'Traps')}`); i++; continue; }
     if (!mode) { i++; continue; }
