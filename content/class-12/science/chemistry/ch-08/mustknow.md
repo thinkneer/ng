@@ -139,7 +139,7 @@ Ethanol $\xrightarrow{\text{PCC}}$ ethanal $\xrightarrow{\text{dil. NaOH}}$ 3-hy
 - Grignard reagent + $\ce{CO2}$ gives: an acid with one carbon more.
 - Kolbe electrolysis of a carboxylate salt gives: an alkane with the two alkyl groups joined.
 - $\ce{NaBH4}$ does not reduce: carboxylic acids; $\ce{LiAlH4}$ and $\ce{B2H6}$ do.
-- Formalin: about 40% aqueous methanal, a preservative.
+- What formalin is: about 40% aqueous methanal, a preservative.
 - –CHO and –COOH on a benzene ring are: deactivating and meta-directing.
 - Benzoic acid does not undergo Friedel–Crafts reaction because: the ring is deactivated and $\ce{AlCl3}$ binds to –COOH.
 - Product of an aldehyde with HCN: cyanohydrin.

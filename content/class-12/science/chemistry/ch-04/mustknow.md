@@ -121,7 +121,7 @@ $\ce{Na2Cr2O7 + 2KCl -> K2Cr2O7 + 2NaCl}$
 - Structure of dichromate ion: two tetrahedra sharing one oxygen; Cr–O–Cr angle about 126°.
 - Chromate is yellow, dichromate is: orange; they interconvert with pH.
 - Colour of $\ce{MnO4-}$ and $\ce{Cr2O7^2-}$ ($d^0$) comes from: charge transfer, not d–d transition.
-- Common oxidation state of lanthanoids: +3.
+- Common oxidation state of lanthanoids: +3 for every member.
 - The only radioactive lanthanoid: promethium (Pm).
 - Actinoids differ from lanthanoids in that: all are radioactive and show more oxidation states.
 - Catalyst in the Contact process: $\ce{V2O5}$.

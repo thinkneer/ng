@@ -116,7 +116,7 @@ Compare two runs where only [A] changes: $\dfrac{r_2}{r_1}=\left(\dfrac{[A]_2}{[
 - A rate constant in s$^{-1}$ means: first order.
 - A rate constant in L mol$^{-1}$s$^{-1}$ means: second order.
 - Rate of $\ce{2N2O5 -> 4NO2 + O2}$: $-\frac12\frac{d[\ce{N2O5}]}{dt}=\frac14\frac{d[\ce{NO2}]}{dt}=\frac{d[\ce{O2}]}{dt}$.
-- Overall order for rate $=k[A]^{1/2}[B]^{3/2}$: 2.
+- Overall order for rate $=k[A]^{1/2}[B]^{3/2}$: second order (½ + 3⁄2 = 2).
 - The rate constant depends on: temperature and catalyst, not on concentration.
 - Zero-order half-life: proportional to initial concentration.
 - First-order half-life: independent of initial concentration.

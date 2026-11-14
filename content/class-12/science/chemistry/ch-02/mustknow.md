@@ -138,7 +138,7 @@ Overall: $\ce{Pb + PbO2 + 2H2SO4 -> 2PbSO4 + 2H2O}$; on charging the reaction is
 - Electrode signs in an electrolytic cell: anode positive, cathode negative.
 - Oxidation always takes place at: the anode, in both kinds of cell.
 - Strongest oxidising agent in the $E^\circ$ table: $\ce{F2}$.
-- Strongest reducing agent in aqueous solution: Li.
+- Strongest reducing agent in aqueous solution: lithium (Li).
 - One faraday deposits: 108 g Ag, 31.75 g Cu or 9 g Al.
 - Charge needed for 1 mol Al from $\ce{Al^3+}$: $3F$.
 - Best conductor at equal concentration, HCl or $\ce{CH3COOH}$: HCl, because $\ce{H+}$ has a very high $\lambda^\circ$.

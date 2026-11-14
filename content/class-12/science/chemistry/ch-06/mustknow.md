@@ -120,7 +120,7 @@ Reactant(s) → product with reagent and condition over the arrow; name the reac
 - Boiling points for the same alkyl group: RI > RBr > RCl > RF.
 - Effect of branching on boiling point: lowers it.
 - Dipole moment order of methyl halides: $\ce{CH3Cl}$ > $\ce{CH3F}$ > $\ce{CH3Br}$ > $\ce{CH3I}$.
-- The peroxide effect is shown only by: HBr.
+- The peroxide effect is shown only by: HBr, not HCl or HI.
 - Propene + HBr with peroxide gives: 1-bromopropane (anti-Markovnikov).
 - Chiral molecules to recognise: butan-2-ol, 2-bromobutane, 2-chlorobutane.
 - para-Dichlorobenzene melts higher than ortho and meta because: its symmetry packs better in the lattice.

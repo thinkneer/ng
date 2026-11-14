@@ -125,7 +125,7 @@ For tert-butyl methyl ether use $\ce{(CH3)3C-ONa + CH3Br}$ (1$^\circ$ halide, S$
 - Alcohol vapour over Cu at 573 K: 1° gives aldehyde, 2° gives ketone, 3° gives alkene.
 - Phenol does not react with: $\ce{NaHCO3}$ (it does dissolve in NaOH).
 - By-product of the cumene process: acetone.
-- Aspirin: acetylsalicylic acid, from salicylic acid and acetic anhydride.
+- Chemical name of aspirin: acetylsalicylic acid, from salicylic acid and acetic anhydride.
 - Phenol heated with zinc dust gives: benzene.
 - Phenol oxidised with chromic acid gives: benzoquinone.
 - Methanol is manufactured from: CO and $\ce{H2}$ over $\ce{ZnO-Cr2O3}$.

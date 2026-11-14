@@ -109,10 +109,10 @@ Draw the octahedron: **trans** (Cl at 180$^\circ$) — has a plane of symmetry, 
 
 ## Quick 1-mark facts (MCQ, A–R)
 
-- Coordination number of Co in $\ce{[Co(en)3]^3+}$: 6.
+- Coordination number of Co in $\ce{[Co(en)3]^3+}$: six (three bidentate ligands).
 - Denticity of EDTA$^{4-}$: six (hexadentate).
 - Oxidation state of Ni in $\ce{[Ni(CO)4]}$ and Fe in $\ce{[Fe(CO)5]}$: zero.
-- Oxidation state of Co in $\ce{[CoCl2(en)2]+}$: +3.
+- Oxidation state of Co in $\ce{[CoCl2(en)2]+}$: +3 (en is neutral).
 - Shape and hybridisation of $\ce{[Ni(CN)4]^2-}$: square planar, $dsp^2$, diamagnetic.
 - Shape and hybridisation of $\ce{[NiCl4]^2-}$: tetrahedral, $sp^3$, paramagnetic.
 - Shape of $\ce{[Fe(CO)5]}$: trigonal bipyramidal.

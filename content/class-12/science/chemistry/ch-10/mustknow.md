@@ -109,7 +109,7 @@ Primary: amino acid sequence · Secondary: α-helix (intramolecular H-bonds) or 
 ## Quick 1-mark facts (MCQ, A–R)
 
 - The only α-amino acid that is not optically active: glycine.
-- Configuration of most natural amino acids: L.
+- Configuration of most natural amino acids: L (laevo series).
 - Fibrous proteins: keratin (hair, wool), myosin (muscle); insoluble in water.
 - Globular proteins: insulin, albumin; soluble in water.
 - Hydrolysis of sucrose gives: glucose + fructose.
