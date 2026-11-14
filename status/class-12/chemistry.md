@@ -1,4 +1,6 @@
 # Class 12 Science · Chemistry — status
+> **Layer split (14 Nov 2026, admin decision):** each chapter now has two files — `notes.md` = **Read** layer (the chapter explained in natural prose, see CLAUDE.md §4a) and `mustknow.md` = **Must-know** layer (short lines, boxed formulas, skeletons, traps; the site turns these into flashcards). The ten files written during the import were Must-know files, so they were **renamed to `mustknow.md`**. Every chapter still needs its `notes.md` (Read). "Case-based angles" is no longer a Must-know heading: move that material into `questions.json` as case questions.
+
 > **Policy change (14 Nov 2026, admin):** the site has **no PDFs**. The LaTeX sources and compiled PDFs were removed from the repo and `chapter.json → pdfs` was dropped. Everything below that says "see the PDF" is now a **to-do**: draw those graphs and diagrams as small inline SVGs next to `notes.md` and reference them from `chapter.json → diagrams`. Until then the "(graph: see the PDF)" placeholders in the Markdown should be replaced by a one-line description of the curve.
 
 

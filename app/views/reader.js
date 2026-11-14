@@ -57,7 +57,7 @@ export async function reader({ cls, stream, sub, unit, ch }) {
       applyPaper(rd, prefs().paper);
 
       // ----- content -----
-      const [notes, formulas] = await Promise.all([ch.items?.notes ? data.notes(sub, ch.id) : null, ch.items?.formulas ? data.formulas(sub, ch.id) : null]);
+      const [notes, formulas] = await Promise.all([ch.items?.notes ? data.notes(sub, ch.id) : ch.items?.mustknow ? data.mustknow(sub, ch.id) : null, ch.items?.formulas ? data.formulas(sub, ch.id) : null]);
       if (!notes && !formulas) {
         content.innerHTML = String(emptyState({ icon: 'book', title: 'Nothing to read yet', text: 'Notes for this chapter are on their way.', action: `<a class="btn btn--secondary" href="${base}">Back to chapter</a>` }));
       } else {

@@ -46,6 +46,7 @@ export const data = {
     return subject.units.flatMap((u) => u.chapters.map((c) => ({ ...c, unitObj: u })));
   },
   notes: (subject, chapterId) => getText(`${subject.path}/${chapterId}/notes.md`),
+  mustknow: (subject, chapterId) => getText(`${subject.path}/${chapterId}/mustknow.md`),
   formulas: (subject, chapterId) => getText(`${subject.path}/${chapterId}/formulas.md`),
   questions: (subject, chapterId) => getJSON(`${subject.path}/${chapterId}/questions.json`),
   chapterMeta: (subject, chapterId) => getJSON(`${subject.path}/${chapterId}/chapter.json`).catch(() => null),

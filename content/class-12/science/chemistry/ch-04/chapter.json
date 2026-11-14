@@ -7,9 +7,9 @@
   "marks_hint": "7 marks (unit weightage, CBSE 2026–27)",
   "summary": "Configuration · trends with reasons · $E^\\circ$ anomalies · magnetism & colour · K$_2$Cr$_2$O$_7$ & KMnO$_4$ · lanthanoids & actinoids",
   "status": {
-    "notes": "ready",
     "formulas": "ready",
-    "questions": "ready"
+    "questions": "ready",
+    "mustknow": "ready"
   },
   "updated": "2026-11-14"
 }

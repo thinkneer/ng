@@ -23,6 +23,7 @@
       "additionalProperties": false,
       "properties": {
         "notes": { "$ref": "#/definitions/itemStatus" },
+        "mustknow": { "$ref": "#/definitions/itemStatus" },
         "formulas": { "$ref": "#/definitions/itemStatus" },
         "questions": { "$ref": "#/definitions/itemStatus" }
       }

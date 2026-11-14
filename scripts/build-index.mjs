@@ -14,14 +14,13 @@ import { fileURLToPath } from 'node:url';
 import Ajv from 'ajv';
 import addFormats from 'ajv-formats';
 
-// hoisted: used by checkNotesHeadings() during the top-level scan below
-const REQUIRED_HEADINGS = [
+// hoisted: used during the top-level scan below
+const MUSTKNOW_HEADINGS = [
   'Most-repeated board questions',
   'Must-know lines and definitions',
   'Key formulas',
   'Answer skeletons',
   'Quick 1-mark facts (MCQ, A–R)',
-  'Case-based angles',
   'Mark-losing traps',
 ];
 
@@ -148,7 +147,7 @@ if (classes) {
             outSubj.not_in_syllabus = s.not_in_syllabus ?? [];
             outSubj.links = s.links ?? {};
             const chapterIds = new Set();
-            let counts = { notes: 0, formulas: 0, questions: 0, chapters: 0 };
+            let counts = { notes: 0, mustknow: 0, formulas: 0, questions: 0, chapters: 0 };
             for (const unit of s.units) {
               const outUnit = { id: unit.id, name: unit.name, colour: unit.colour, marks: unit.marks, marks_group: unit.marks_group ?? null, chapters: [] };
               for (const ch of unit.chapters) {
@@ -171,12 +170,16 @@ if (classes) {
                   } else {
                     warn(chDir, 'chapter folder without chapter.json');
                   }
-                  for (const item of ['notes', 'formulas']) {
+                  for (const item of ['notes', 'mustknow', 'formulas']) {
                     const p = join(chDir, `${item}.md`);
                     if (existsSync(p)) {
                       outCh.items[item] = true;
                       counts[item]++;
-                      if (item === 'notes') checkNotesHeadings(p);
+                      if (item === 'mustknow') checkMustknow(p);
+                      if (item === 'notes') checkNotes(p);
+                      const text = readFileSync(p, 'utf8');
+                      outCh.words = (outCh.words || 0) + (text.match(/\S+/g) || []).length;
+                      if (item === 'notes') outCh.read_minutes = Math.max(1, Math.round((text.match(/\S+/g) || []).length / 200));
                     }
                   }
                   const qPath = join(chDir, 'questions.json');
@@ -233,16 +236,28 @@ function listJSON(dir) {
   return readdirSync(dir).filter((f) => f.endsWith('.json')).map((f) => join(dir, f)).sort();
 }
 
-function checkNotesHeadings(path) {
-  const text = readFileSync(path, 'utf8');
-  const found = [...text.matchAll(/^## (.+)$/gm)].map((m) => m[1].trim());
-  for (const h of REQUIRED_HEADINGS) {
-    if (!found.includes(h)) warn(path, `missing heading "## ${h}"`);
-  }
-  // directives must be balanced
+function checkDirectives(path, text) {
   const opens = (text.match(/^:::(tip|formula|skeleton)\b/gm) || []).length;
   const closes = (text.match(/^:::\s*$/gm) || []).length;
   if (opens !== closes) err(path, `unbalanced ::: directives (${opens} open, ${closes} close)`);
+}
+function checkMustknow(path) {
+  const text = readFileSync(path, 'utf8');
+  const found = [...text.matchAll(/^## (.+)$/gm)].map((m) => m[1].trim());
+  for (const h of MUSTKNOW_HEADINGS) if (!found.includes(h)) warn(path, `mustknow: missing heading "## ${h}"`);
+  checkDirectives(path, text);
+  const words = (text.match(/\S+/g) || []).length;
+  if (words > 1400) warn(path, `mustknow is ${words} words; the cap is about one screen per heading (~1200 words)`);
+}
+function checkNotes(path) {
+  const text = readFileSync(path, 'utf8');
+  checkDirectives(path, text);
+  const h2 = (text.match(/^## /gm) || []).length;
+  if (h2 < 2) warn(path, 'notes (Read layer): fewer than 2 "## " sections');
+  if (/^## (Most-repeated board questions|Must-know lines and definitions|Quick 1-mark facts)/m.test(text)) warn(path, 'notes.md looks like a Must-know file; the Read layer should be explanatory prose (move this to mustknow.md)');
+  if (/★/.test(text)) warn(path, 'notes (Read layer) contains ★ ratings; stars belong in mustknow.md / questions.json');
+  const words = (text.match(/\S+/g) || []).length;
+  if (words > 3600) warn(path, `notes is ${words} words; consider splitting the h2 groups (guide: 1500–3000)`);
 }
 
 function checkQuestions(path, questions, chapterId) {
@@ -287,12 +302,13 @@ const totals = live.reduce((t, s) => {
   t.subjects++;
   t.chapters += s.counts?.chapters ?? 0;
   t.notes += s.counts?.notes ?? 0;
+  t.mustknow += s.counts?.mustknow ?? 0;
   t.formulas += s.counts?.formulas ?? 0;
   t.questionFiles += s.counts?.questions ?? 0;
   t.questions += s.units.flatMap((u) => u.chapters).reduce((a, c) => a + c.questions, 0);
   return t;
-}, { subjects: 0, chapters: 0, notes: 0, formulas: 0, questionFiles: 0, questions: 0 });
-console.log(`live subjects: ${totals.subjects} · chapters listed: ${totals.chapters} · notes: ${totals.notes} · formulas: ${totals.formulas} · question files: ${totals.questionFiles} (${totals.questions} questions)`);
+}, { subjects: 0, chapters: 0, notes: 0, mustknow: 0, formulas: 0, questionFiles: 0, questions: 0 });
+console.log(`live subjects: ${totals.subjects} · chapters listed: ${totals.chapters} · read notes: ${totals.notes} · must-know: ${totals.mustknow} · formulas: ${totals.formulas} · question files: ${totals.questionFiles} (${totals.questions} questions)`);
 
 if (errors.length) {
   console.error(`\n${errors.length} error(s). data/index.json not written.`);

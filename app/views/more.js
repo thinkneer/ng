@@ -136,7 +136,7 @@ async function about() {
         <h3>Sources and copyright</h3>
         <p>Nothing here copies NCERT or CBSE text. We write our own notes, summaries and questions and link to <a href="https://ncert.nic.in/textbook.php" target="_blank" rel="noopener">ncert.nic.in</a> and <a href="https://cbseacademic.nic.in/" target="_blank" rel="noopener">cbseacademic.nic.in</a> for the originals.</p>
         <h3>Keyboard</h3>
-        <p><span class="kbd">/</span> search chapters · <span class="kbd">Esc</span> close · <span class="kbd">j</span>/<span class="kbd">k</span> next/previous question (in practice)</p>
+        <p><span class="kbd">/</span> search chapters · <span class="kbd">Esc</span> close · reader: <span class="kbd">f</span> full screen, <span class="kbd">←</span> <span class="kbd">→</span> pages · recall: <span class="kbd">space</span> show, <span class="kbd">1</span> again, <span class="kbd">2</span> got it</p>
         <p class="t-footnote t-3">Open source: <a href="${REPO}" target="_blank" rel="noopener">github.com/thinkneer/ng</a>. Code MIT; content CC BY-NC-SA 4.0.</p>
       </div>`,
   };

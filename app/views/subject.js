@@ -25,13 +25,14 @@ export async function subject(route) {
         ${raw(`<div class="stat"><div class="stat__value tnum">${totalChapters}</div><div class="stat__label">chapters</div></div>`)}
         ${raw(`<div class="stat"><div class="stat__value tnum">${withNotes}</div><div class="stat__label">with notes</div></div>`)}
       </div>
+      ${data.allChapters(sub).some((c) => c.items?.formulas) ? raw(`<a class="card continue pressable mb-4" href="${routeFor(cls.id, stream.id, sub.id, 'formulas')}" style="--unit:#${sub.colour}"><span class="list__leading">${icon('formula')}</span><span class="continue__main"><span class="continue__title">Formula sheet</span><span class="continue__sec" style="color:var(--text-2);font-weight:500">All chapters on one page · read the day before the paper</span></span>${icon('chevronRight', { class: 'chev', size: 20 })}</a>`) : ''}
       ${sub.units.map((u) => raw(`
         <div class="unit-bar" style="--unit:#${u.colour}"><span>Unit ${esc(u.id)} · ${esc(u.name)}</span><span class="marks">${u.marks_group ? `Units ${esc(u.marks_group)} · ` : ''}${u.marks} marks</span></div>
         <div class="list">
           ${u.chapters.map((c) => {
             const key = `${sub.id}/${c.id}`;
             const tr = progress.tracker?.[key] || {};
-            const avail = [c.items?.notes && 'Notes', c.items?.formulas && 'Formulas', c.items?.questions && `${c.questions} Qs`].filter(Boolean);
+            const avail = [c.items?.notes && 'Read', c.items?.mustknow && 'Must know', c.items?.questions && `${c.questions} Qs`].filter(Boolean);
             const conf = tr.confidence ? `<span class="badge" title="Your confidence">${tr.confidence}/5</span>` : '';
             return `<a class="list__item has-leading pressable" href="${routeFor(cls.id, stream.id, sub.id, c.id)}">
               <span class="list__leading" style="--unit:#${u.colour}">${c.number}</span>

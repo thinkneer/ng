@@ -7,9 +7,9 @@
   "marks_hint": "9 marks (unit weightage, CBSE 2026–27)",
   "summary": "Galvanic cells · Nernst · conductance · Kohlrausch · electrolysis · batteries & fuel cells · corrosion",
   "status": {
-    "notes": "ready",
     "formulas": "ready",
-    "questions": "ready"
+    "questions": "ready",
+    "mustknow": "ready"
   },
   "updated": "2026-11-14"
 }

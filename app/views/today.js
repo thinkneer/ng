@@ -2,6 +2,7 @@ import { html, raw, icon, largeTitle, ring, esc, cover, today as todayDate, pars
 import { data, routeFor } from '../data.js';
 import { store } from '../store.js';
 import { pwa } from '../pwa.js';
+import { summary as recallSummary } from '../recall.js';
 
 function greeting() {
   const h = new Date().getHours();
@@ -23,6 +24,7 @@ export async function today() {
   const pct = chapterTotal ? (done / chapterTotal) * 100 : 0;
   const todayStr = fmtDate(t0, { weekday: 'long', day: 'numeric', month: 'long' });
   const last = store.get('reader.last', null);
+  const rs = recallSummary();
 
   return {
     title: 'Today', largeTitle: true, tab: 'today',
@@ -39,6 +41,12 @@ export async function today() {
         </div>
       </a>`) : raw(`<div class="card"><div class="t-headline">No upcoming papers</div><p class="t-2 t-subhead mt-2">Your board papers are done, or no dates are loaded for this class yet.</p></div>`)}
 
+      <div class="section-head"><h2>Recall</h2></div>
+      <a class="card continue pressable" href="#/recall">
+        <span class="list__leading" style="--unit:${rs.due ? 'var(--accent)' : '#8795AB'}">${raw(icon('bolt'))}</span>
+        <span class="continue__main"><span class="continue__title">${rs.due ? `${rs.due} lines due today` : rs.seen ? 'Nothing due today' : 'Start recalling'}</span><span class="continue__sec" style="color:var(--text-2);font-weight:500">${rs.due ? `about ${rs.minutes} min · tap to go` : rs.seen ? `${rs.seen} cards on your schedule · come back tomorrow` : 'Open a chapter → Must know → Recall. Missed lines come back tomorrow.'}</span></span>
+        ${raw(icon('chevronRight', { class: 'chev', size: 20 }))}
+      </a>
       ${last ? raw(`<div class="section-head"><h2>Continue reading</h2></div>
       <a class="card continue pressable" href="${routeFor(last.cls, last.stream, last.sub, last.ch, 'read')}" style="--unit:#${last.colour}">
         ${String(cover({ colour: last.colour, name: last.subject }, { small: true }))}
@@ -63,7 +71,7 @@ export async function today() {
       <div class="shelf rise">
         ${mine.map((sub) => {
           const chapters = data.allChapters(sub);
-          const withNotes = chapters.filter((c) => c.items?.notes).length;
+          const withNotes = chapters.filter((c) => c.items?.notes || c.items?.mustknow).length;
           const revised = chapters.filter((c) => progress.tracker?.[`${sub.id}/${c.id}`]?.R1).length;
           const paper = papers.find((p) => p.subject === sub.id);
           return cover({ ...sub, metaLeft: withNotes ? `${withNotes}/${chapters.length} notes` : `${chapters.length} chapters` }, { href: routeFor(s.class, s.stream, sub.id), sub: paper ? `${paper.days} days` : 'Class 12', pct: revised ? Math.round((revised / chapters.length) * 100) : null });

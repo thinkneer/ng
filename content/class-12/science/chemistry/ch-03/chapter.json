@@ -7,9 +7,9 @@
   "marks_hint": "7 marks (unit weightage, CBSE 2026–27)",
   "summary": "Rate · rate law · order & molecularity · integrated equations · half-life · Arrhenius · collision theory",
   "status": {
-    "notes": "ready",
     "formulas": "ready",
-    "questions": "ready"
+    "questions": "ready",
+    "mustknow": "ready"
   },
   "updated": "2026-11-14"
 }

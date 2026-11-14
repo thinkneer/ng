@@ -7,6 +7,7 @@ import { progress } from './progress.js';
 import { plan } from './plan.js';
 import { more } from './more.js';
 import { emptyState } from '../ui.js';
+import { recallDue } from './recall.js';
 
 export const views = {
   today,
@@ -20,6 +21,7 @@ export const views = {
   progress,
   plan,
   more,
+  recall: recallDue,
   about: (r) => more({ ...r, sub: 'about' }),
   request: (r) => more({ ...r, sub: 'request' }),
   access: (r) => more({ ...r, sub: 'access' }),

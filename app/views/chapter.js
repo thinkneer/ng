@@ -4,7 +4,7 @@ import { store } from '../store.js';
 import { preloadMarkdown } from '../markdown.js';
 
 const TABS = [
-  { id: 'notes', label: 'Notes' }, { id: 'formulas', label: 'Formulas' }, { id: 'practice', label: 'Practice' },
+  { id: 'notes', label: 'Read' }, { id: 'mustknow', label: 'Must know' }, { id: 'practice', label: 'Practice' },
   { id: 'exam', label: 'Exam' }, { id: 'mynotes', label: 'My notes' },
 ];
 const TRACK = [['L', 'Learnt'], ['R1', 'Revised 1'], ['PYQ', 'PYQ set'], ['R2', 'Revised 2'], ['E', 'Exam-ready']];
@@ -13,10 +13,14 @@ export async function chapter(route) {
   preloadMarkdown(); // fetch the renderer in parallel with the index lookup
   const { cls, stream, subject: sub } = await data.resolve(route.classId, route.streamId, route.subjectId);
   if (!sub) return { title: 'Not found', tab: 'subjects', html: emptyState({ icon: 'alert', title: 'No such subject' }) };
+  if (route.chapterId === 'formulas') { const { formulaSheet } = await import('./formulas.js'); return formulaSheet({ cls, stream, sub }); }
   const { unit, chapter: ch } = data.chapterOf(sub, route.chapterId);
   if (!ch) return { title: 'Not found', tab: 'subjects', back: routeFor(cls.id, stream.id, sub.id), html: emptyState({ icon: 'alert', title: 'No such chapter', action: `<a class="btn btn--secondary" href="${routeFor(cls.id, stream.id, sub.id)}">Back to ${esc(sub.name)}</a>` }) };
   if (route.tab === 'read') { const { reader } = await import('./reader.js'); return reader({ cls, stream, sub, unit, ch }); }
-  const tab = TABS.some((t) => t.id === route.tab) ? route.tab : 'notes';
+  if (route.tab === 'recall') { const { recallChapter } = await import('./recall.js'); return recallChapter({ cls, stream, sub, unit, ch }); }
+  if (route.tab === 'formulas') route = { ...route, tab: 'mustknow' }; // old links
+  const defaultTab = ch.items?.notes ? 'notes' : ch.items?.mustknow ? 'mustknow' : 'notes';
+  const tab = TABS.some((t) => t.id === route.tab) ? route.tab : defaultTab;
   const key = `${sub.id}/${ch.id}`;
   const base = routeFor(cls.id, stream.id, sub.id, ch.id);
   const all = data.allChapters(sub);
@@ -71,23 +75,31 @@ export async function chapter(route) {
 async function renderTab(tab, ctx) {
   const { panel, rail, sub, ch, unit, key } = ctx;
   const requestLink = `<a class="btn btn--secondary" href="#/more/request">Request it</a>`;
-  if (tab === 'notes' || tab === 'formulas') {
-    const exists = tab === 'notes' ? ch.items?.notes : ch.items?.formulas;
-    const src = !exists ? null : tab === 'notes' ? await data.notes(sub, ch.id) : await data.formulas(sub, ch.id);
+  if (tab === 'notes' || tab === 'mustknow') {
+    const exists = tab === 'notes' ? ch.items?.notes : ch.items?.mustknow;
+    const src = !exists ? null : tab === 'notes' ? await data.notes(sub, ch.id) : await data.mustknow(sub, ch.id);
     if (!src) {
-      panel.innerHTML = String(emptyState({ icon: tab === 'notes' ? 'book' : 'formula', title: `${tab === 'notes' ? 'Notes' : 'Formula sheet'} for this chapter are coming`, text: 'Content is added chapter by chapter as the exams approach.', action: requestLink }));
+      const other = tab === 'notes' && ch.items?.mustknow ? `<a class="btn btn--secondary" href="${routeFor(ctx.cls.id, ctx.stream.id, sub.id, ch.id, 'mustknow')}">Open Must know</a>` : requestLink;
+      panel.innerHTML = String(emptyState({ icon: tab === 'notes' ? 'book' : 'bolt', title: tab === 'notes' ? 'The full explanation for this chapter is being written' : 'Must-know lines for this chapter are coming', text: tab === 'notes' ? 'Read is the chapter explained like a tutor would; it is added chapter by chapter.' : 'Short lines and boxed formulas you can turn into flashcards.', action: other }));
       return;
     }
     const { renderMarkdown, headings } = await import('../markdown.js');
     const node = await renderMarkdown(src, { unitColour: unit.colour });
-    panel.replaceChildren(node);
-    if (tab === 'notes') {
+    if (tab === 'mustknow') {
+      const { cardsFrom, summary } = await import('../recall.js');
+      const n = cardsFrom(src, { subject: sub.id, chapter: ch.id }).length;
+      const due = summary().byChapter[key]?.due || 0;
+      panel.innerHTML = `<div class="card card--tint row mb-4" style="--unit:#${unit.colour}"><span class="list__leading">${icon('bolt')}</span><div class="grow"><div class="t-headline">Recall this chapter</div><div class="t-2 t-footnote">${n} cards${n > 25 ? ', 25 a round' : ''}${due ? ` · <strong>${due} due today</strong>` : ''} · about ${Math.max(1, Math.ceil(Math.min(n, 25) / 4))} min</div></div><a class="btn btn--unit btn--sm" href="${routeFor(ctx.cls.id, ctx.stream.id, sub.id, ch.id, 'recall')}">Start</a></div>`;
+      panel.appendChild(node);
       panel.insertAdjacentHTML('beforeend', '<p class="legend"><span><span class="stars">★★★</span> most years</span><span><span class="stars">★★</span> often</span><span><span class="stars">★</span> sometimes</span><span>· estimates</span></p>');
-      const hs = headings(node);
-      if (hs.length && rail) {
-        rail.innerHTML = `<h4>On this page</h4>${hs.map((h) => `<a href="#${h.id}" data-anchor>${esc(h.text)}</a>`).join('')}`;
-        rail.addEventListener('click', (e) => { const a = e.target.closest('[data-anchor]'); if (!a) return; e.preventDefault(); document.getElementById(a.getAttribute('href').slice(1))?.scrollIntoView({ behavior: 'smooth', block: 'start' }); });
-      }
+    } else {
+      panel.innerHTML = `<div class="row mb-4" style="gap:var(--s-2);flex-wrap:wrap"><a class="btn btn--unit btn--sm" href="${routeFor(ctx.cls.id, ctx.stream.id, sub.id, ch.id, 'read')}" style="--unit:#${unit.colour}">${icon('book')} Read full screen</a>${ch.read_minutes ? `<span class="t-footnote t-2">about ${ch.read_minutes} min</span>` : ''}</div>`;
+      panel.appendChild(node);
+    }
+    const hs = headings(node);
+    if (hs.length && rail) {
+      rail.innerHTML = `<h4>On this page</h4>${hs.map((h) => `<a href="#${h.id}" data-anchor>${esc(h.text)}</a>`).join('')}`;
+      rail.addEventListener('click', (e) => { const a = e.target.closest('[data-anchor]'); if (!a) return; e.preventDefault(); document.getElementById(a.getAttribute('href').slice(1))?.scrollIntoView({ behavior: 'smooth', block: 'start' }); });
     }
     return;
   }

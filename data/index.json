@@ -529,6 +529,7 @@
               "papers": [],
               "counts": {
                 "notes": 0,
+                "mustknow": 0,
                 "formulas": 0,
                 "questions": 0,
                 "chapters": 14
@@ -555,7 +556,7 @@
                       "title": "Solutions",
                       "unit": "1",
                       "items": {
-                        "notes": true,
+                        "mustknow": true,
                         "formulas": true,
                         "questions": true
                       },
@@ -569,7 +570,8 @@
                         "sa3": 1,
                         "la5": 1
                       },
-                      "diagrams": []
+                      "diagrams": [],
+                      "words": 2134
                     }
                   ]
                 },
@@ -586,7 +588,7 @@
                       "title": "Electrochemistry",
                       "unit": "2",
                       "items": {
-                        "notes": true,
+                        "mustknow": true,
                         "formulas": true,
                         "questions": true
                       },
@@ -599,7 +601,8 @@
                         "sa3": 3,
                         "la5": 1
                       },
-                      "diagrams": []
+                      "diagrams": [],
+                      "words": 2331
                     }
                   ]
                 },
@@ -616,7 +619,7 @@
                       "title": "Chemical Kinetics",
                       "unit": "3",
                       "items": {
-                        "notes": true,
+                        "mustknow": true,
                         "formulas": true,
                         "questions": true
                       },
@@ -630,7 +633,8 @@
                         "sa3": 2,
                         "case": 1
                       },
-                      "diagrams": []
+                      "diagrams": [],
+                      "words": 1904
                     }
                   ]
                 },
@@ -647,7 +651,7 @@
                       "title": "The d- and f-Block Elements",
                       "unit": "4",
                       "items": {
-                        "notes": true,
+                        "mustknow": true,
                         "formulas": true,
                         "questions": true
                       },
@@ -661,7 +665,8 @@
                         "sa3": 2,
                         "la5": 1
                       },
-                      "diagrams": []
+                      "diagrams": [],
+                      "words": 3261
                     }
                   ]
                 },
@@ -678,7 +683,7 @@
                       "title": "Coordination Compounds",
                       "unit": "5",
                       "items": {
-                        "notes": true,
+                        "mustknow": true,
                         "formulas": true,
                         "questions": true
                       },
@@ -693,7 +698,8 @@
                         "case": 1,
                         "la5": 1
                       },
-                      "diagrams": []
+                      "diagrams": [],
+                      "words": 3008
                     }
                   ]
                 },
@@ -710,7 +716,7 @@
                       "title": "Haloalkanes and Haloarenes",
                       "unit": "6",
                       "items": {
-                        "notes": true,
+                        "mustknow": true,
                         "formulas": true,
                         "questions": true
                       },
@@ -724,7 +730,8 @@
                         "sa3": 2,
                         "case": 1
                       },
-                      "diagrams": []
+                      "diagrams": [],
+                      "words": 3148
                     }
                   ]
                 },
@@ -741,7 +748,7 @@
                       "title": "Alcohols, Phenols and Ethers",
                       "unit": "7",
                       "items": {
-                        "notes": true,
+                        "mustknow": true,
                         "formulas": true,
                         "questions": true
                       },
@@ -755,7 +762,8 @@
                         "sa3": 2,
                         "la5": 2
                       },
-                      "diagrams": []
+                      "diagrams": [],
+                      "words": 2960
                     }
                   ]
                 },
@@ -772,7 +780,7 @@
                       "title": "Aldehydes, Ketones and Carboxylic Acids",
                       "unit": "8",
                       "items": {
-                        "notes": true,
+                        "mustknow": true,
                         "formulas": true,
                         "questions": true
                       },
@@ -787,7 +795,8 @@
                         "case": 1,
                         "la5": 2
                       },
-                      "diagrams": []
+                      "diagrams": [],
+                      "words": 3156
                     }
                   ]
                 },
@@ -804,7 +813,7 @@
                       "title": "Amines",
                       "unit": "9",
                       "items": {
-                        "notes": true,
+                        "mustknow": true,
                         "formulas": true,
                         "questions": true
                       },
@@ -818,7 +827,8 @@
                         "sa3": 3,
                         "la5": 1
                       },
-                      "diagrams": []
+                      "diagrams": [],
+                      "words": 2854
                     }
                   ]
                 },
@@ -835,7 +845,7 @@
                       "title": "Biomolecules",
                       "unit": "10",
                       "items": {
-                        "notes": true,
+                        "mustknow": true,
                         "formulas": true,
                         "questions": true
                       },
@@ -850,7 +860,8 @@
                         "case": 1,
                         "la5": 1
                       },
-                      "diagrams": []
+                      "diagrams": [],
+                      "words": 3035
                     }
                   ]
                 }
@@ -875,7 +886,8 @@
               },
               "papers": [],
               "counts": {
-                "notes": 10,
+                "notes": 0,
+                "mustknow": 10,
                 "formulas": 10,
                 "questions": 10,
                 "chapters": 10
@@ -1101,6 +1113,7 @@
               "papers": [],
               "counts": {
                 "notes": 0,
+                "mustknow": 0,
                 "formulas": 0,
                 "questions": 0,
                 "chapters": 13
@@ -1321,6 +1334,7 @@
               "papers": [],
               "counts": {
                 "notes": 0,
+                "mustknow": 0,
                 "formulas": 0,
                 "questions": 0,
                 "chapters": 13
@@ -1673,6 +1687,7 @@
               "papers": [],
               "counts": {
                 "notes": 0,
+                "mustknow": 0,
                 "formulas": 0,
                 "questions": 0,
                 "chapters": 25
