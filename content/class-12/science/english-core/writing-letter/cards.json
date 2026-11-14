@@ -1,0 +1,62 @@
+[
+  {
+    "id": "letter-shell",
+    "kind": "figure",
+    "title": "Formal letter shell",
+    "svg": "ref: notes#formal-letter-layout",
+    "back": "Sender's address → date → receiver → subject → Sir, → P1 purpose · P2 details · P3 action → Yours sincerely, name.",
+    "stars": 3,
+    "tags": [
+      "format",
+      "5-mark"
+    ]
+  },
+  {
+    "id": "pda",
+    "kind": "mnemonic",
+    "title": "P-D-A paragraphs",
+    "svg": "<svg viewBox=\"0 0 320 200\" role=\"img\" aria-label=\"Three paragraphs of about 45 words each\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" font-size=\"11\"><rect x=\"40\" y=\"40\" width=\"240\" height=\"34\" rx=\"4\" fill-opacity=\"0.2\"/><rect x=\"40\" y=\"82\" width=\"240\" height=\"34\" stroke=\"#E0B400\" rx=\"4\" fill=\"#E0B400\" fill-opacity=\"0.2\"/><rect x=\"40\" y=\"124\" width=\"240\" height=\"34\" rx=\"4\" fill-opacity=\"0.2\"/><text x=\"160\" y=\"62\" text-anchor=\"middle\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\">P1 Purpose — why I write</text><text x=\"160\" y=\"104\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"700\" fill=\"currentColor\" stroke=\"none\">P2 Details — 2–3 concrete points</text><text x=\"160\" y=\"146\" text-anchor=\"middle\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\">P3 Action — what I want, politely</text><text x=\"160.0\" y=\"194\" text-anchor=\"middle\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\">Three paragraphs of about 45 words each</text></svg>",
+    "back": "Purpose, Details, Action. P2 is where the content marks live: places, dates, numbers, effects.",
+    "stars": 3
+  },
+  {
+    "id": "editor-opening",
+    "kind": "process",
+    "title": "Editor letter opener",
+    "svg": "<svg viewBox=\"0 0 320 200\" role=\"img\" aria-label=\"Receiver: The Editor, paper, city · Salutation: Sir,\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" font-size=\"11\"><rect x=\"40\" y=\"60\" width=\"70\" height=\"46\"/><path d=\"M40,60 L75.0,85.3 L110,60\"/><rect x=\"130\" y=\"40\" width=\"170\" height=\"70\" rx=\"8\"/><path d=\"M146,110 l-6,10 l14,-10\"/><text x=\"215.0\" y=\"55\" text-anchor=\"middle\" font-size=\"9\" fill=\"currentColor\" stroke=\"none\">Through the columns of your</text><text x=\"215.0\" y=\"67\" text-anchor=\"middle\" font-size=\"9\" fill=\"currentColor\" stroke=\"none\">esteemed newspaper I wish to</text><text x=\"215.0\" y=\"79\" text-anchor=\"middle\" font-size=\"9\" fill=\"currentColor\" stroke=\"none\">draw attention to…</text><text x=\"160.0\" y=\"194\" text-anchor=\"middle\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\">Receiver: The Editor, paper, city · Salutation: Sir,</text></svg>",
+    "back": "Open with the esteemed-newspaper line, give two or three specifics, name who should act, end hoping for prompt action. Never *Dear Editor*.",
+    "stars": 3
+  },
+  {
+    "id": "complaint-core",
+    "kind": "process",
+    "title": "Complaint essentials",
+    "svg": "<svg viewBox=\"0 0 320 200\" role=\"img\" aria-label=\"Firm and polite — facts, not anger\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" font-size=\"11\"><rect x=\"50\" y=\"40\" width=\"220\" height=\"110\" rx=\"6\"/><text x=\"160\" y=\"62\" text-anchor=\"middle\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\">item · date of purchase</text><text x=\"160\" y=\"80\" text-anchor=\"middle\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\">bill / order number</text><text x=\"160\" y=\"98\" text-anchor=\"middle\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\">exact defect · inconvenience</text><text x=\"160\" y=\"116\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"700\" fill=\"currentColor\" stroke=\"none\">ONE remedy within a time frame</text><text x=\"160\" y=\"136\" text-anchor=\"middle\" font-size=\"10\" fill=\"currentColor\" stroke=\"none\">bill enclosed</text><text x=\"160.0\" y=\"194\" text-anchor=\"middle\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\">Firm and polite — facts, not anger</text></svg>",
+    "back": "P2 must carry the transaction details and the defect; P3 asks for replacement / repair / refund within a period. Threats cost expression marks.",
+    "stars": 2
+  },
+  {
+    "id": "bio-data",
+    "kind": "compare",
+    "title": "Covering letter + bio-data",
+    "svg": "<svg viewBox=\"0 0 320 200\" role=\"img\" aria-label=\"Two separate blocks, not one mixed letter\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" font-size=\"11\"><rect x=\"30\" y=\"40\" width=\"120\" height=\"120\" rx=\"4\"/><text x=\"90\" y=\"65\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"700\" fill=\"currentColor\" stroke=\"none\">Covering letter</text><text x=\"90\" y=\"85\" text-anchor=\"middle\" font-size=\"9\" fill=\"currentColor\" stroke=\"none\">advert → suitability</text><text x=\"90\" y=\"100\" text-anchor=\"middle\" font-size=\"9\" fill=\"currentColor\" stroke=\"none\">→ interview</text><text x=\"90\" y=\"140\" text-anchor=\"middle\" font-size=\"9\" fill=\"currentColor\" stroke=\"none\">Encl.: Bio-data</text><path d=\"M155,100 L175,100 M168.7,103.0 L175,100 L168.7,97.0\"/><rect x=\"180\" y=\"40\" width=\"110\" height=\"120\" rx=\"4\"/><text x=\"235\" y=\"65\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"700\" fill=\"currentColor\" stroke=\"none\">BIO-DATA</text><text x=\"235\" y=\"82\" text-anchor=\"middle\" font-size=\"8\" fill=\"currentColor\" stroke=\"none\">Name · DOB</text><text x=\"235\" y=\"95\" text-anchor=\"middle\" font-size=\"8\" fill=\"currentColor\" stroke=\"none\">Address · Contact</text><text x=\"235\" y=\"108\" text-anchor=\"middle\" font-size=\"8\" fill=\"currentColor\" stroke=\"none\">Qualifications</text><text x=\"235\" y=\"121\" text-anchor=\"middle\" font-size=\"8\" fill=\"currentColor\" stroke=\"none\">Experience · Skills</text><text x=\"235\" y=\"134\" text-anchor=\"middle\" font-size=\"8\" fill=\"currentColor\" stroke=\"none\">Languages</text><text x=\"160.0\" y=\"194\" text-anchor=\"middle\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\">Two separate blocks, not one mixed letter</text></svg>",
+    "back": "Short covering letter (advert reference, suitability, enclosure, interview request) then a separate BIO-DATA block with name, DOB, address, contact, qualifications table, experience, skills, languages.",
+    "stars": 2
+  },
+  {
+    "id": "letter-marks",
+    "kind": "compare",
+    "title": "Marks split 1 + 2 + 2",
+    "svg": "<svg viewBox=\"0 0 320 200\" role=\"img\" aria-label=\"Content and expression share four of five\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" font-size=\"11\"><rect x=\"40\" y=\"70\" width=\"48.0\" height=\"40\" fill-opacity=\"0.2\"/><text x=\"64.0\" y=\"95\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"700\" fill=\"currentColor\" stroke=\"none\">Format 1</text><rect x=\"88.0\" y=\"70\" width=\"96.0\" height=\"40\" stroke=\"#E0B400\" fill=\"#E0B400\" fill-opacity=\"0.2\"/><text x=\"136.0\" y=\"95\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"700\" fill=\"currentColor\" stroke=\"none\">Content 2</text><rect x=\"184.0\" y=\"70\" width=\"96.0\" height=\"40\" stroke=\"#E0B400\" fill=\"#E0B400\" fill-opacity=\"0.2\"/><text x=\"232.0\" y=\"95\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"700\" fill=\"currentColor\" stroke=\"none\">Expression 2</text><text x=\"160.0\" y=\"50\" text-anchor=\"middle\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\">5 marks</text><text x=\"160.0\" y=\"194\" text-anchor=\"middle\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\">Content and expression share four of five</text></svg>",
+    "back": "Format 1 · Content 2 (points asked, specific) · Expression 2 (register, cohesion, grammar, 120–150 words).",
+    "stars": 2
+  },
+  {
+    "id": "salutations",
+    "kind": "mnemonic",
+    "title": "Sir, not Dear Editor",
+    "svg": "<svg viewBox=\"0 0 320 200\" role=\"img\" aria-label=\"Editor → Sir,  ·  Offices → Sir/Madam,\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" font-size=\"11\"><text x=\"100\" y=\"70\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"700\" fill=\"currentColor\" stroke=\"none\">Dear Editor,</text><path d=\"M78,66 L122,66\" stroke=\"#E0B400\" stroke-width=\"2\"/><text x=\"220\" y=\"70\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"700\" fill=\"currentColor\" stroke=\"none\">Respected Sir,</text><path d=\"M198,66 L242,66\" stroke=\"#E0B400\" stroke-width=\"2\"/><rect x=\"90\" y=\"100\" width=\"60\" height=\"36\" rx=\"6\" fill=\"#E0B400\" fill-opacity=\"0.25\"/><text x=\"120.0\" y=\"122.9\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"700\" fill=\"currentColor\" stroke=\"none\">Sir,</text><rect x=\"170\" y=\"100\" width=\"90\" height=\"36\" rx=\"6\" fill=\"#E0B400\" fill-opacity=\"0.25\"/><text x=\"215.0\" y=\"122.2\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"700\" fill=\"currentColor\" stroke=\"none\">Sir/Madam,</text><text x=\"160.0\" y=\"194\" text-anchor=\"middle\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\">Editor → Sir,  ·  Offices → Sir/Madam,</text></svg>",
+    "back": "The receiver line already says *The Editor*; the salutation is simply *Sir,*. Over-formal or chatty salutations lose the format mark.",
+    "stars": 1
+  }
+]

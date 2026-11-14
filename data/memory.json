@@ -426,5 +426,141 @@
    ],
    "prompt": "Recite the spectrochemical series from the weakest ligand."
   }
+ ],
+ "english-core/writing-notice": [
+  {
+   "id": "notice-frame-order",
+   "title": "Order of the frame",
+   "trick": "**I Never Date Titles Before Signing**",
+   "meaning": [
+    "**I**ssuing body → **N**OTICE → **D**ate → **T**itle → **B**ody → **S**ignature (name, designation)."
+   ],
+   "prompt": "What is the top-to-bottom order of a notice?"
+  },
+  {
+   "id": "notice-five-ws",
+   "title": "The notice checklist",
+   "trick": "**W-W-W-W-C**: What, When, Where, Who, Contact",
+   "meaning": [
+    "Every notice body must answer all five; each missing one costs content marks.",
+    "Contact = *the undersigned* plus a deadline."
+   ],
+   "prompt": "Which five things must the body of a notice answer?"
+  },
+  {
+   "id": "notice-no-i-you",
+   "title": "No I, no you",
+   "trick": "No I, no you",
+   "meaning": [
+    "Third person or passive only. *I request you all to come* loses the expression mark; *Students are requested to…* keeps it."
+   ],
+   "card": true
+  }
+ ],
+ "english-core/writing-invitation": [
+  {
+   "id": "card-has-no-signature",
+   "title": "What a card never has",
+   "trick": "**No Dear, No Yours**",
+   "meaning": [
+    "A formal invitation card has **no salutation** (*Dear Sir*) and **no signature** (*Yours sincerely*); it ends with RSVP."
+   ],
+   "prompt": "Which two letter features must a formal invitation card NOT have?"
+  },
+  {
+   "id": "reply-tod",
+   "title": "A reply is T-O-D",
+   "trick": "**T-O-D**: Thanks, Occasion, Decision",
+   "meaning": [
+    "Thank the host → name the occasion and date → accept or regret (with reason) → wish."
+   ],
+   "prompt": "What three things must every reply to an invitation contain?"
+  },
+  {
+   "id": "no-signature",
+   "title": "No Dear, No Yours",
+   "trick": "No Dear, No Yours",
+   "meaning": [
+    "A formal card has no salutation and no signature. Ending with *Yours sincerely* and a name is a format error."
+   ],
+   "card": true
+  }
+ ],
+ "english-core/writing-letter": [
+  {
+   "id": "letter-shell-order",
+   "title": "Shell order",
+   "trick": "**SAD RSS**: Sender, dAte, Dear-receiver, Subject, Salutation, Signature",
+   "meaning": [
+    "Sender's address → date → receiver's address → subject → salutation → (body) → close and signature."
+   ],
+   "prompt": "In what order do the parts of a formal letter appear above the body?"
+  },
+  {
+   "id": "pda-paragraphs",
+   "title": "Three paragraphs",
+   "trick": "**P-D-A**: Purpose, Details, Action",
+   "meaning": [
+    "P1 why you write · P2 two or three concrete points · P3 what you want done, politely."
+   ],
+   "prompt": "What do the three body paragraphs of a formal letter do?"
+  },
+  {
+   "id": "pda",
+   "title": "P-D-A paragraphs",
+   "trick": "P-D-A paragraphs",
+   "meaning": [
+    "Purpose, Details, Action. P2 is where the content marks live: places, dates, numbers, effects."
+   ],
+   "card": true
+  },
+  {
+   "id": "salutations",
+   "title": "Sir, not Dear Editor",
+   "trick": "Sir, not Dear Editor",
+   "meaning": [
+    "The receiver line already says *The Editor*; the salutation is simply *Sir,*. Over-formal or chatty salutations lose the format mark."
+   ],
+   "card": true
+  }
+ ],
+ "english-core/writing-article-report": [
+  {
+   "id": "article-hces",
+   "title": "Article paragraphs",
+   "trick": "**H-C-E-S**: Hook, Causes, Effects, Solutions",
+   "meaning": [
+    "P1 hook + issue · P2 causes and effects with examples · P3 solutions and a closing line.",
+    "Add **T-B** on top: Title, By-line."
+   ],
+   "prompt": "What is the paragraph plan of a 5-mark article?"
+  },
+  {
+   "id": "report-past-passive",
+   "title": "Report voice",
+   "trick": "**Reports are P-P-P**: Past, Passive, imPersonal",
+   "meaning": [
+    "*was inaugurated, were displayed, was given away*; no *I*, no opinion."
+   ],
+   "prompt": "In which tense and voice is a report written?"
+  },
+  {
+   "id": "hces",
+   "title": "Article = H-C-E-S",
+   "trick": "Article = H-C-E-S",
+   "meaning": [
+    "Hook and issue · causes and effects with examples · suggestions and a closing line. No title or by-line = format mark gone."
+   ],
+   "card": true
+  },
+  {
+   "id": "ppp",
+   "title": "Report is P-P-P",
+   "trick": "Report is P-P-P",
+   "meaning": [
+    "Past tense, passive voice, impersonal. *The chief guest inaugurates* or *we had fun* breaks the report's voice."
+   ],
+   "card": true
+  }
  ]
 }

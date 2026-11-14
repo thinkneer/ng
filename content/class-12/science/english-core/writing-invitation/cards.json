@@ -1,0 +1,54 @@
+[
+  {
+    "id": "invitation-card",
+    "kind": "figure",
+    "title": "Formal card layout",
+    "svg": "ref: notes#invitation-card-layout",
+    "back": "Host → *request the pleasure of your company* → occasion → day, date, time → venue → chief guest → RSVP. Third person, centred, no signature.",
+    "stars": 3,
+    "tags": [
+      "format",
+      "4-mark"
+    ]
+  },
+  {
+    "id": "formal-vs-informal",
+    "kind": "compare",
+    "title": "Card or letter?",
+    "svg": "<svg viewBox=\"0 0 320 200\" role=\"img\" aria-label=\"Formal = card, third person · Informal = letter, first person\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" font-size=\"11\"><rect x=\"30\" y=\"40\" width=\"110\" height=\"120\" rx=\"4\"/><text x=\"85\" y=\"70\" text-anchor=\"middle\" font-size=\"9\" fill=\"currentColor\" stroke=\"none\">Host</text><text x=\"85\" y=\"86\" text-anchor=\"middle\" font-size=\"9\" fill=\"currentColor\" stroke=\"none\">request the</text><text x=\"85\" y=\"98\" text-anchor=\"middle\" font-size=\"9\" fill=\"currentColor\" stroke=\"none\">pleasure…</text><text x=\"85\" y=\"140\" text-anchor=\"middle\" font-size=\"9\" font-weight=\"700\" fill=\"currentColor\" stroke=\"none\">RSVP</text><rect x=\"180\" y=\"40\" width=\"110\" height=\"120\" rx=\"4\"/><text x=\"195\" y=\"60\" text-anchor=\"start\" font-size=\"8\" fill=\"currentColor\" stroke=\"none\">12, Hill Road</text><text x=\"195\" y=\"80\" text-anchor=\"start\" font-size=\"9\" fill=\"currentColor\" stroke=\"none\">Dear Sameer,</text><text x=\"195\" y=\"100\" text-anchor=\"start\" font-size=\"8\" fill=\"currentColor\" stroke=\"none\">I'd love you to…</text><text x=\"195\" y=\"140\" text-anchor=\"start\" font-size=\"9\" fill=\"currentColor\" stroke=\"none\">Your friend,</text><text x=\"160.0\" y=\"194\" text-anchor=\"middle\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\">Formal = card, third person · Informal = letter, first person</text></svg>",
+    "back": "Principal / school / company → formal card. Friend / cousin → informal letter. Writing a letter when a card was asked loses format and content.",
+    "stars": 3
+  },
+  {
+    "id": "no-signature",
+    "kind": "mnemonic",
+    "title": "No Dear, No Yours",
+    "svg": "<svg viewBox=\"0 0 320 200\" role=\"img\" aria-label=\"A card ends with RSVP\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" font-size=\"11\"><text x=\"100\" y=\"80\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"700\" fill=\"currentColor\" stroke=\"none\">Dear Sir,</text><path d=\"M78,76 L122,76\" stroke=\"#E0B400\" stroke-width=\"2\"/><text x=\"220\" y=\"80\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"700\" fill=\"currentColor\" stroke=\"none\">Yours sincerely,</text><path d=\"M198,76 L242,76\" stroke=\"#E0B400\" stroke-width=\"2\"/><rect x=\"110\" y=\"110\" width=\"100\" height=\"36\" rx=\"6\" fill=\"#E0B400\" fill-opacity=\"0.25\"/><text x=\"160.0\" y=\"132.9\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"700\" fill=\"currentColor\" stroke=\"none\">RSVP</text><text x=\"160.0\" y=\"194\" text-anchor=\"middle\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\">A card ends with RSVP</text></svg>",
+    "back": "A formal card has no salutation and no signature. Ending with *Yours sincerely* and a name is a format error.",
+    "stars": 2
+  },
+  {
+    "id": "day-date-time",
+    "kind": "process",
+    "title": "Day, date, time, venue",
+    "svg": "<svg viewBox=\"0 0 320 200\" role=\"img\" aria-label=\"All four, every card\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" font-size=\"11\"><rect x=\"60\" y=\"50\" width=\"200\" height=\"90\" rx=\"6\"/><text x=\"160\" y=\"78\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"700\" fill=\"currentColor\" stroke=\"none\">Saturday, 20 December 2026</text><text x=\"160\" y=\"98\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"700\" fill=\"currentColor\" stroke=\"none\">at 5 p.m.</text><text x=\"160\" y=\"118\" text-anchor=\"middle\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\">in the school auditorium</text><text x=\"160.0\" y=\"194\" text-anchor=\"middle\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\">All four, every card</text></svg>",
+    "back": "Giving only *20th* or forgetting the time is a content deduction. Invent a plausible time if the question is silent.",
+    "stars": 2
+  },
+  {
+    "id": "reply-tod",
+    "kind": "mnemonic",
+    "title": "Reply = T-O-D",
+    "svg": "<svg viewBox=\"0 0 320 200\" role=\"img\" aria-label=\"…then a wish or a reason\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" font-size=\"11\"><rect x=\"30\" y=\"70\" width=\"80\" height=\"50\" rx=\"6\" fill=\"#E0B400\" fill-opacity=\"0.25\"/><text x=\"70.0\" y=\"100.6\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"700\" fill=\"currentColor\" stroke=\"none\">Thanks</text><rect x=\"120\" y=\"70\" width=\"80\" height=\"50\" rx=\"6\" fill=\"#E0B400\" fill-opacity=\"0.25\"/><text x=\"160.0\" y=\"100.6\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"700\" fill=\"currentColor\" stroke=\"none\">Occasion</text><rect x=\"210\" y=\"70\" width=\"80\" height=\"50\" rx=\"6\" fill=\"#E0B400\" fill-opacity=\"0.25\"/><text x=\"250.0\" y=\"100.6\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"700\" fill=\"currentColor\" stroke=\"none\">Decision</text><text x=\"160.0\" y=\"194\" text-anchor=\"middle\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\">…then a wish or a reason</text></svg>",
+    "back": "Thank the host, name the occasion and date, say yes or no. For a regret add one brief reason; for an acceptance, a line of anticipation.",
+    "stars": 2
+  },
+  {
+    "id": "regret-formula",
+    "kind": "process",
+    "title": "The regret line",
+    "svg": "<svg viewBox=\"0 0 320 200\" role=\"img\" aria-label=\"Formal regret: third person, boxed\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" font-size=\"11\"><rect x=\"30\" y=\"45\" width=\"260\" height=\"56\" rx=\"8\"/><path d=\"M46,101 l-6,10 l14,-10\"/><text x=\"160.0\" y=\"60\" text-anchor=\"middle\" font-size=\"10\" fill=\"currentColor\" stroke=\"none\">Mr and Mrs Verma regret their inability</text><text x=\"160.0\" y=\"73\" text-anchor=\"middle\" font-size=\"10\" fill=\"currentColor\" stroke=\"none\">to attend owing to a prior commitment.</text><text x=\"160.0\" y=\"194\" text-anchor=\"middle\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\">Formal regret: third person, boxed</text></svg>",
+    "back": "*…thank … for the kind invitation to [occasion] on [date] … regret their inability to attend owing to … and wish the function every success.*",
+    "stars": 2
+  }
+]

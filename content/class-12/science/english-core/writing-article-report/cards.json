@@ -1,0 +1,62 @@
+[
+  {
+    "id": "article-report-layout",
+    "kind": "figure",
+    "title": "Article vs report layout",
+    "svg": "ref: notes#article-report-layout",
+    "back": "Article: title, by-line, hook → causes/effects → view + suggestions. Report: headline, by-line, place-date, 5 Ws → details → outcome.",
+    "stars": 3,
+    "tags": [
+      "format",
+      "5-mark"
+    ]
+  },
+  {
+    "id": "hces",
+    "kind": "mnemonic",
+    "title": "Article = H-C-E-S",
+    "svg": "<svg viewBox=\"0 0 320 200\" role=\"img\" aria-label=\"Three paragraphs, strong last line\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" font-size=\"11\"><rect x=\"22\" y=\"70\" width=\"64\" height=\"50\" rx=\"6\" fill=\"#E0B400\" fill-opacity=\"0.25\"/><text x=\"54.0\" y=\"99.55\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"700\" fill=\"currentColor\" stroke=\"none\">Hook</text><rect x=\"94\" y=\"70\" width=\"64\" height=\"50\" rx=\"6\" fill=\"#E0B400\" fill-opacity=\"0.25\"/><text x=\"126.0\" y=\"99.55\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"700\" fill=\"currentColor\" stroke=\"none\">Causes</text><rect x=\"166\" y=\"70\" width=\"64\" height=\"50\" rx=\"6\" fill=\"#E0B400\" fill-opacity=\"0.25\"/><text x=\"198.0\" y=\"99.55\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"700\" fill=\"currentColor\" stroke=\"none\">Effects</text><rect x=\"238\" y=\"70\" width=\"64\" height=\"50\" rx=\"6\" fill=\"#E0B400\" fill-opacity=\"0.25\"/><text x=\"270.0\" y=\"99.55\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"700\" fill=\"currentColor\" stroke=\"none\">Solutions</text><text x=\"160\" y=\"50\" text-anchor=\"middle\" font-size=\"10\" fill=\"currentColor\" stroke=\"none\">+ Title and By-line on top</text><text x=\"160.0\" y=\"194\" text-anchor=\"middle\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\">Three paragraphs, strong last line</text></svg>",
+    "back": "Hook and issue · causes and effects with examples · suggestions and a closing line. No title or by-line = format mark gone.",
+    "stars": 3
+  },
+  {
+    "id": "inverted-pyramid",
+    "kind": "process",
+    "title": "Inverted pyramid",
+    "svg": "ref: notes#inverted-pyramid",
+    "back": "Report: the 5 Ws first, then details in order with numbers, then the outcome. Most important facts at the top.",
+    "stars": 3
+  },
+  {
+    "id": "ppp",
+    "kind": "mnemonic",
+    "title": "Report is P-P-P",
+    "svg": "<svg viewBox=\"0 0 320 200\" role=\"img\" aria-label=\"Facts, not feelings\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" font-size=\"11\"><rect x=\"40\" y=\"60\" width=\"70\" height=\"50\" rx=\"6\" fill=\"#E0B400\" fill-opacity=\"0.25\"/><text x=\"75.0\" y=\"89.9\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"700\" fill=\"currentColor\" stroke=\"none\">Past</text><rect x=\"125\" y=\"60\" width=\"80\" height=\"50\" rx=\"6\" fill=\"#E0B400\" fill-opacity=\"0.25\"/><text x=\"165.0\" y=\"89.55\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"700\" fill=\"currentColor\" stroke=\"none\">Passive</text><rect x=\"220\" y=\"60\" width=\"70\" height=\"50\" rx=\"6\" fill=\"#E0B400\" fill-opacity=\"0.25\"/><text x=\"255.0\" y=\"89.9\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"700\" fill=\"currentColor\" stroke=\"none\">no I</text><text x=\"160\" y=\"140\" text-anchor=\"middle\" font-size=\"9\" fill=\"currentColor\" stroke=\"none\">was inaugurated · were displayed · was given away</text><text x=\"160.0\" y=\"194\" text-anchor=\"middle\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\">Facts, not feelings</text></svg>",
+    "back": "Past tense, passive voice, impersonal. *The chief guest inaugurates* or *we had fun* breaks the report's voice.",
+    "stars": 2
+  },
+  {
+    "id": "place-date-line",
+    "kind": "process",
+    "title": "Place, date line",
+    "svg": "<svg viewBox=\"0 0 320 200\" role=\"img\" aria-label=\"Newspaper reports begin here\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" font-size=\"11\"><rect x=\"40\" y=\"50\" width=\"240\" height=\"90\" rx=\"6\"/><text x=\"60\" y=\"80\" text-anchor=\"start\" font-size=\"11\" font-weight=\"700\" fill=\"currentColor\" stroke=\"none\">HEADLINE IN CAPS</text><text x=\"60\" y=\"98\" text-anchor=\"start\" font-size=\"10\" fill=\"currentColor\" stroke=\"none\">By a Staff Reporter</text><text x=\"60\" y=\"118\" text-anchor=\"start\" font-size=\"10\" font-weight=\"700\" fill=\"currentColor\" stroke=\"none\">Jaipur, 14 November: A two-day…</text><text x=\"160.0\" y=\"194\" text-anchor=\"middle\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\">Newspaper reports begin here</text></svg>",
+    "back": "Headline → by-line → *Place, date:* then the first sentence with what, who, when, where, why. School-magazine reports skip the place-date line.",
+    "stars": 2
+  },
+  {
+    "id": "numbers-in-report",
+    "kind": "event",
+    "title": "Put numbers in",
+    "svg": "<svg viewBox=\"0 0 320 200\" role=\"img\" aria-label=\"One or two figures make it credible\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" font-size=\"11\"><rect x=\"40\" y=\"60\" width=\"60\" height=\"44\" rx=\"6\" fill=\"#E0B400\" fill-opacity=\"0.25\"/><text x=\"70.0\" y=\"87.6\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"700\" fill=\"currentColor\" stroke=\"none\">200</text><rect x=\"115\" y=\"60\" width=\"60\" height=\"44\" rx=\"6\" fill=\"#E0B400\" fill-opacity=\"0.25\"/><text x=\"145.0\" y=\"87.6\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"700\" fill=\"currentColor\" stroke=\"none\">12</text><rect x=\"190\" y=\"60\" width=\"90\" height=\"44\" rx=\"6\" fill=\"#E0B400\" fill-opacity=\"0.25\"/><text x=\"235.0\" y=\"86.9\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"700\" fill=\"currentColor\" stroke=\"none\">40 bags</text><text x=\"160\" y=\"140\" text-anchor=\"middle\" font-size=\"10\" fill=\"currentColor\" stroke=\"none\">students · teachers · waste collected</text><text x=\"160.0\" y=\"194\" text-anchor=\"middle\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\">One or two figures make it credible</text></svg>",
+    "back": "Participants, schools, visitors, money raised, bags of waste — a report without a number reads like a guess.",
+    "stars": 1
+  },
+  {
+    "id": "article-close",
+    "kind": "event",
+    "title": "End the article with a line that sticks",
+    "svg": "<svg viewBox=\"0 0 320 200\" role=\"img\" aria-label=\"Call to action or hopeful line — then stop\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" font-size=\"11\"><rect x=\"40\" y=\"40\" width=\"240\" height=\"60\" rx=\"8\"/><path d=\"M56,100 l-6,10 l14,-10\"/><text x=\"160.0\" y=\"55\" text-anchor=\"middle\" font-size=\"10\" fill=\"currentColor\" stroke=\"none\">A good night's sleep is the cheapest</text><text x=\"160.0\" y=\"68\" text-anchor=\"middle\" font-size=\"10\" fill=\"currentColor\" stroke=\"none\">medicine we keep ignoring.</text><text x=\"160.0\" y=\"194\" text-anchor=\"middle\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\">Call to action or hopeful line — then stop</text></svg>",
+    "back": "After the suggestions, one memorable closing sentence. Describing a problem without a way forward loses content.",
+    "stars": 1
+  }
+]

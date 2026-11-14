@@ -2261,6 +2261,7 @@
                         "notes": true,
                         "mustknow": true,
                         "formulas": true,
+                        "cards": true,
                         "questions": true
                       },
                       "marks_hint": "4 marks (one notice OR one invitation; Section B, CBSE 2026–27)",
@@ -2271,8 +2272,18 @@
                         "case": 4
                       },
                       "diagrams": [],
+                      "blocks": {
+                        "figure": 1,
+                        "mnemonic": 2,
+                        "explain": 1,
+                        "fill": 1,
+                        "compare": 1,
+                        "steps": 1
+                      },
                       "words": 2002,
-                      "read_minutes": 6
+                      "read_minutes": 6,
+                      "cards": 7,
+                      "mnemonics": 3
                     },
                     {
                       "id": "writing-invitation",
@@ -2283,6 +2294,7 @@
                         "notes": true,
                         "mustknow": true,
                         "formulas": true,
+                        "cards": true,
                         "questions": true
                       },
                       "marks_hint": "4 marks (notice OR invitation; Section B, CBSE 2026–27)",
@@ -2293,8 +2305,18 @@
                         "case": 4
                       },
                       "diagrams": [],
+                      "blocks": {
+                        "figure": 1,
+                        "mnemonic": 2,
+                        "explain": 1,
+                        "compare": 1,
+                        "steps": 1,
+                        "fill": 1
+                      },
                       "words": 2025,
-                      "read_minutes": 6
+                      "read_minutes": 6,
+                      "cards": 6,
+                      "mnemonics": 3
                     },
                     {
                       "id": "writing-letter",
@@ -2305,6 +2327,7 @@
                         "notes": true,
                         "mustknow": true,
                         "formulas": true,
+                        "cards": true,
                         "questions": true
                       },
                       "marks_hint": "5 marks (one formal letter with internal choice; Section B, CBSE 2026–27)",
@@ -2315,8 +2338,18 @@
                         "la5": 4
                       },
                       "diagrams": [],
+                      "blocks": {
+                        "figure": 1,
+                        "mnemonic": 2,
+                        "explain": 1,
+                        "compare": 1,
+                        "fill": 2,
+                        "steps": 1
+                      },
                       "words": 2369,
-                      "read_minutes": 7
+                      "read_minutes": 7,
+                      "cards": 7,
+                      "mnemonics": 4
                     },
                     {
                       "id": "writing-article-report",
@@ -2327,6 +2360,7 @@
                         "notes": true,
                         "mustknow": true,
                         "formulas": true,
+                        "cards": true,
                         "questions": true
                       },
                       "marks_hint": "5 marks (article OR report; Section B, CBSE 2026–27)",
@@ -2337,8 +2371,18 @@
                         "la5": 4
                       },
                       "diagrams": [],
+                      "blocks": {
+                        "figure": 1,
+                        "mnemonic": 2,
+                        "steps": 1,
+                        "compare": 1,
+                        "explain": 1,
+                        "fill": 1
+                      },
                       "words": 1974,
-                      "read_minutes": 6
+                      "read_minutes": 6,
+                      "cards": 7,
+                      "mnemonics": 4
                     }
                   ]
                 },

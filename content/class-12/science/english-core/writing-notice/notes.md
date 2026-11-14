@@ -36,6 +36,28 @@ Rohan Mehta ← name
 Cultural Secretary ← designation
 :::
 
+```ng-figure
+id: notice-layout
+title: The notice box, part by part
+svg:
+<svg viewBox="0 0 320 200" role="img" aria-label="Notice layout" fill="none" stroke="currentColor" stroke-width="1.5" font-size="10"><rect x="30" y="12" width="260" height="170" rx="3"/><rect x="60" y="20" width="200" height="16" rx="2"/><text x="160.0" y="32.0" text-anchor="middle" font-size="10" fill="currentColor" stroke="none">ISSUING BODY (centred)</text><rect x="120" y="40" width="80" height="16" stroke="#E0B400" rx="2" fill="#E0B400" fill-opacity="0.18"/><text x="160.0" y="52.0" text-anchor="middle" font-size="10" font-weight="700" fill="currentColor" stroke="none">NOTICE</text><rect x="40" y="62" width="80" height="14" rx="2"/><text x="80.0" y="73.0" text-anchor="middle" font-size="10" fill="currentColor" stroke="none">14 November 2026</text><rect x="90" y="82" width="140" height="16" rx="2"/><text x="160.0" y="94.0" text-anchor="middle" font-size="10" fill="currentColor" stroke="none">TITLE IN CAPITALS</text><rect x="40" y="104" width="240" height="48" rx="2"/><text x="160.0" y="132.0" text-anchor="middle" font-size="10" fill="currentColor" stroke="none">Body ~50 words: what · when · where · who · contact</text><rect x="40" y="158" width="90" height="20" rx="2"/><text x="85.0" y="172.0" text-anchor="middle" font-size="10" fill="currentColor" stroke="none">Name / Designation</text></svg>
+caption: Everything inside one box; headings are not counted in the 50 words.
+part: 160, 28 | Issuing body | School / society / club name, centred — never your own name.
+part: 160, 48 | NOTICE | The word itself, in capitals, centred.
+part: 80, 69 | Date | Left side, written in full.
+part: 160, 90 | Title | A short phrase in capitals saying what the notice is about.
+part: 160, 128 | Body | One paragraph, about 50 words, third person, the five Ws.
+part: 85, 168 | Signature block | Name on one line, designation on the next.
+```
+
+```ng-mnemonic
+id: notice-frame-order
+title: Order of the frame
+trick: **I Never Date Titles Before Signing**
+meaning: **I**ssuing body → **N**OTICE → **D**ate → **T**itle → **B**ody → **S**ignature (name, designation).
+prompt: What is the top-to-bottom order of a notice?
+```
+
 **In one breath:** issuing body → NOTICE → date → title → 50-word body with the five Ws → name and designation; all inside a box.
 
 ## Writing the body: the five Ws in one paragraph
@@ -57,6 +79,21 @@ Writing "I request you all to come" or "You should register soon" loses expressi
 About 50 words means 45–55. The heading, date, title and signature are not counted. Going to 70–80 words is the commonest reason a neat notice gets 3 instead of 4: the examiner sees a paragraph instead of a notice.
 :::
 
+```ng-mnemonic
+id: notice-five-ws
+title: The notice checklist
+trick: **W-W-W-W-C**: What, When, Where, Who, Contact
+meaning: Every notice body must answer all five; each missing one costs content marks.
+meaning: Contact = *the undersigned* plus a deadline.
+prompt: Which five things must the body of a notice answer?
+```
+
+```ng-explain
+id: why-impersonal
+prompt: In two lines, explain why a notice never uses *I* or *you*.
+lines: 2
+```
+
 **In one breath:** one formal paragraph, third person, five Ws plus a contact, about 50 words.
 
 ## How the 4 marks are given
@@ -68,6 +105,15 @@ The marking is a split, and knowing it tells you where to spend your attention:
 - **Expression — 1 mark:** grammar, spelling, formal tone, coherence; no "I/you", no cutting-pasting of the question wording with errors.
 
 Because format is only 1 mark but content is 2, the biggest gain is the *checklist*: before you move on, tick the five Ws against your body paragraph.
+
+```ng-fill
+id: notice-marks-split
+title: How the 4 marks are split
+cols: Component | Marks | What the examiner checks
+row: Format | [[1]] | box, issuing body, NOTICE, date, title, name and designation
+row: Content | [[2]] | [[the five Ws, plausible and consistent details]]
+row: Expression | [[1]] | grammar, spelling, formal third-person tone
+```
 
 **In one breath:** format 1, content 2, expression 1 — the five Ws are worth half the question.
 
@@ -83,6 +129,15 @@ Because format is only 1 mark but content is 2, the biggest gain is the *checkli
 Read the role in the question twice — "Secretary of the Eco Club", "Head Girl", "Secretary, Residents' Welfare Association". Your designation in the signature must match it exactly, and the issuing body at the top must fit (club → school name; RWA → society name). A mismatch is a format error the examiner spots in one second.
 :::
 
+```ng-compare
+id: notice-types
+title: Same box, different body
+cols: Event notice | Lost-and-found notice | Meeting notice
+row: Opens with | All students are informed that… | A … was lost/found in … on … | A meeting of … will be held on …
+row: Must include | date, time, venue, eligibility, registration | item, description, where/when, whom to contact | date, time, venue, agenda
+row: Closes with | register with the undersigned by… | return it to the undersigned | members are requested to attend
+```
+
 **In one breath:** event, lost/found, meeting, change, appeal — same box, different body; match your role to the question.
 
 ## Working with the word limit in the exam
@@ -90,5 +145,14 @@ Read the role in the question twice — "Secretary of the Eco Club", "Head Girl"
 Plan for about 4 minutes. Draw the box last (write the content, then box it, so the box fits). Write the five Ws as a quick margin note first: *what – when – where – who – contact*. Then write one paragraph that uses all five. Read it once for "I/you" and for the date and time. Done.
 
 For the official pattern and a model question, see the CBSE 2026–27 sample paper on [cbseacademic.nic.in](https://cbseacademic.nic.in/).
+
+```ng-steps
+id: notice-in-four-minutes
+title: A notice in four minutes
+step: Read the role in the question twice; write *what – when – where – who – contact* in the margin.
+step: Write the body first: one formal paragraph of about 50 words using all five Ws and *the undersigned*.
+step: Add the frame: issuing body, NOTICE, date, title above; name and designation below.
+step: Draw the box around everything and read once for *I/you*, the date and the time.
+```
 
 **In one breath:** margin note of five Ws → one paragraph → box → check tone and numbers; four minutes, four marks.

@@ -34,6 +34,34 @@ Everything is in third person: *your company* is allowed (it is the fixed formul
 A formal card ends with RSVP, not with "Yours sincerely" or a name. Adding a signature or a salutation ("Dear Sir") is a format error.
 :::
 
+```ng-figure
+id: invitation-card-layout
+title: The formal card, line by line
+svg:
+<svg viewBox="0 0 320 200" role="img" aria-label="Formal invitation card layout" fill="none" stroke="currentColor" stroke-width="1.5" font-size="10"><rect x="30" y="12" width="260" height="170" rx="3"/><rect x="70" y="22" width="180" height="16" rx="2"/><text x="160.0" y="34.0" text-anchor="middle" font-size="10" fill="currentColor" stroke="none">HOST (who invites)</text><rect x="50" y="44" width="220" height="16" stroke="#E0B400" rx="2" fill="#E0B400" fill-opacity="0.18"/><text x="160.0" y="56.0" text-anchor="middle" font-size="10" font-weight="700" fill="currentColor" stroke="none">request the pleasure of your company</text><rect x="90" y="66" width="140" height="16" rx="2"/><text x="160.0" y="78.0" text-anchor="middle" font-size="10" fill="currentColor" stroke="none">at the OCCASION</text><rect x="70" y="88" width="180" height="16" rx="2"/><text x="160.0" y="100.0" text-anchor="middle" font-size="10" fill="currentColor" stroke="none">on day, date, at time</text><rect x="100" y="110" width="120" height="16" rx="2"/><text x="160.0" y="122.0" text-anchor="middle" font-size="10" fill="currentColor" stroke="none">in the VENUE</text><rect x="70" y="132" width="180" height="16" rx="2"/><text x="160.0" y="144.0" text-anchor="middle" font-size="10" fill="currentColor" stroke="none">Chief Guest: …</text><rect x="40" y="156" width="80" height="20" rx="2"/><text x="80.0" y="170.0" text-anchor="middle" font-size="10" fill="currentColor" stroke="none">RSVP · name · phone</text></svg>
+caption: Centred lines, third person, no salutation, no signature; RSVP at the bottom left.
+part: 160, 30 | Host | Who is inviting: institution or family, centred at the top.
+part: 160, 52 | Formula | *request the pleasure of your company* / *cordially invite you* — the only place *your* is allowed.
+part: 160, 74 | Occasion | *at the inauguration of… / to the Annual Day celebrations*.
+part: 160, 96 | Day, date, time | Write all three: *Saturday, 20 December 2026, at 5 p.m.*
+part: 160, 118 | Venue | Where it happens.
+part: 80, 166 | RSVP | Reply requested: name and contact, bottom left. No signature after it.
+```
+
+```ng-mnemonic
+id: card-has-no-signature
+title: What a card never has
+trick: **No Dear, No Yours**
+meaning: A formal invitation card has **no salutation** (*Dear Sir*) and **no signature** (*Yours sincerely*); it ends with RSVP.
+prompt: Which two letter features must a formal invitation card NOT have?
+```
+
+```ng-explain
+id: why-third-person-card
+prompt: In two lines, say why a formal invitation is written in the third person.
+lines: 2
+```
+
 **In one breath:** a formal card is third person, centred, boxed, 50 words: host → formula → occasion → date, time, venue → RSVP; no salutation, no signature.
 
 ## Informal invitation: a short letter
@@ -52,6 +80,17 @@ Your friend,
 Isha ← closing and name
 :::
 
+```ng-compare
+id: formal-vs-informal-invitation
+title: Formal card vs informal letter
+cols: Formal invitation | Informal invitation
+row: Shape | boxed card, centred lines | short letter: address, date, salutation, closing
+row: Person | third person (*The Principal requests…*) | first person (*I'd love you to come*)
+row: Salutation / signature | none / none — ends with RSVP | *Dear Rohan,* / *Your friend, Isha*
+row: Tone | dignified, fixed formulas | warm, personal, contractions allowed
+row: Length | about 50 words | about 50 words (body)
+```
+
 **In one breath:** an informal invitation is a short friendly letter: address, date, salutation, 50-word body with occasion, date, time, venue and a request to come, closing and name.
 
 ## Replies: accepting or regretting
@@ -69,6 +108,22 @@ They regret their inability to attend owing to a prior commitment out of town. �
 They wish the function every success. ← good wishes
 :::
 
+```ng-steps
+id: reply-in-three-moves
+title: Any reply in three moves
+step: **Thank** the host and **name the occasion and date** (proves you read the invitation).
+step: Give a **clear yes or no**; for a regret, one brief polite reason.
+step: End with **anticipation** (*look forward to being present*) or **good wishes** for the event.
+```
+
+```ng-mnemonic
+id: reply-tod
+title: A reply is T-O-D
+trick: **T-O-D**: Thanks, Occasion, Decision
+meaning: Thank the host → name the occasion and date → accept or regret (with reason) → wish.
+prompt: What three things must every reply to an invitation contain?
+```
+
 **In one breath:** a reply thanks, names the occasion, says yes or no (with a short reason for no), and ends with anticipation or good wishes — formal in third person, informal in first person.
 
 ## How the 4 marks are given
@@ -84,6 +139,15 @@ The question always says which it wants, or makes it obvious (Principal → form
 :::tip Day and date together
 Formal cards write *Saturday, 20 December 2026*. Giving only "20th" or forgetting the time is a content deduction; invent a plausible time if the question does not give one.
 :::
+
+```ng-fill
+id: invitation-marks-split
+title: How the 4 marks are split
+cols: Component | Marks | Checked for
+row: Format | [[1]] | right shell (card/letter), right person (third/first)
+row: Content | [[2]] | [[host, occasion, day-date-time, venue; or thanks, occasion, decision, reason]]
+row: Expression | [[1]] | tone matching the type, grammar, about 50 words
+```
 
 **In one breath:** format 1, content 2, expression 1; the type (formal/informal) and the five details decide most of the marks.
 

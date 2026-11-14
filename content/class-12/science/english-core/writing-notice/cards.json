@@ -1,0 +1,62 @@
+[
+  {
+    "id": "notice-layout",
+    "kind": "figure",
+    "title": "The notice box",
+    "svg": "ref: notes#notice-layout",
+    "back": "Issuing body → NOTICE → date → title → 50-word body → name, designation. All inside one box.",
+    "stars": 3,
+    "tags": [
+      "format",
+      "4-mark"
+    ]
+  },
+  {
+    "id": "notice-five-ws",
+    "kind": "mnemonic",
+    "title": "Five Ws of the body",
+    "svg": "<svg viewBox=\"0 0 320 200\" role=\"img\" aria-label=\"What · When · Where · Who · Contact\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" font-size=\"11\"><rect x=\"20\" y=\"70\" width=\"50\" height=\"40\" rx=\"6\" fill-opacity=\"0.2\"/><text x=\"45\" y=\"95\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"700\" fill=\"currentColor\" stroke=\"none\">What</text><rect x=\"78\" y=\"70\" width=\"50\" height=\"40\" rx=\"6\" fill-opacity=\"0.2\"/><text x=\"103\" y=\"95\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"700\" fill=\"currentColor\" stroke=\"none\">When</text><rect x=\"136\" y=\"70\" width=\"50\" height=\"40\" rx=\"6\" fill-opacity=\"0.2\"/><text x=\"161\" y=\"95\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"700\" fill=\"currentColor\" stroke=\"none\">Where</text><rect x=\"194\" y=\"70\" width=\"50\" height=\"40\" rx=\"6\" fill-opacity=\"0.2\"/><text x=\"219\" y=\"95\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"700\" fill=\"currentColor\" stroke=\"none\">Who</text><rect x=\"252\" y=\"70\" width=\"50\" height=\"40\" stroke=\"#E0B400\" rx=\"6\" fill=\"#E0B400\" fill-opacity=\"0.2\"/><text x=\"277\" y=\"95\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"700\" fill=\"currentColor\" stroke=\"none\">Contact</text><text x=\"160.0\" y=\"50\" text-anchor=\"middle\" font-size=\"10\" fill=\"currentColor\" stroke=\"none\">Tick all five before boxing the notice</text><text x=\"160.0\" y=\"194\" text-anchor=\"middle\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\">What · When · Where · Who · Contact</text></svg>",
+    "back": "What is happening, when, where, for whom, and whom to contact (*the undersigned* + deadline). Missing one W costs a content mark.",
+    "stars": 3
+  },
+  {
+    "id": "notice-marks",
+    "kind": "compare",
+    "title": "Marks split 1 + 2 + 1",
+    "svg": "<svg viewBox=\"0 0 320 200\" role=\"img\" aria-label=\"Content is half the question\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" font-size=\"11\"><rect x=\"40\" y=\"70\" width=\"60.0\" height=\"40\" fill-opacity=\"0.2\"/><text x=\"70.0\" y=\"95\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"700\" fill=\"currentColor\" stroke=\"none\">Format 1</text><rect x=\"100.0\" y=\"70\" width=\"120.0\" height=\"40\" stroke=\"#E0B400\" fill=\"#E0B400\" fill-opacity=\"0.2\"/><text x=\"160.0\" y=\"95\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"700\" fill=\"currentColor\" stroke=\"none\">Content 2</text><rect x=\"220.0\" y=\"70\" width=\"60.0\" height=\"40\" fill-opacity=\"0.2\"/><text x=\"250.0\" y=\"95\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"700\" fill=\"currentColor\" stroke=\"none\">Expression 1</text><text x=\"160.0\" y=\"50\" text-anchor=\"middle\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\">4 marks</text><text x=\"160.0\" y=\"194\" text-anchor=\"middle\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\">Content is half the question</text></svg>",
+    "back": "Format 1 · Content 2 (five Ws) · Expression 1 (formal, third person, grammar).",
+    "stars": 2
+  },
+  {
+    "id": "notice-opening",
+    "kind": "process",
+    "title": "Opening sentence",
+    "svg": "<svg viewBox=\"0 0 320 200\" role=\"img\" aria-label=\"One sentence fixes audience, event, time, place\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" font-size=\"11\"><rect x=\"40\" y=\"40\" width=\"240\" height=\"60\" rx=\"8\"/><path d=\"M56,100 l-6,10 l14,-10\"/><text x=\"160.0\" y=\"55\" text-anchor=\"middle\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\">All students are hereby</text><text x=\"160.0\" y=\"69\" text-anchor=\"middle\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\">informed that … will be held</text><text x=\"160.0\" y=\"83\" text-anchor=\"middle\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\">on … at … in …</text><text x=\"160.0\" y=\"194\" text-anchor=\"middle\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\">One sentence fixes audience, event, time, place</text></svg>",
+    "back": "Event: *All students are informed that…* · Lost/found: *A … was lost in … on …* · Meeting: *A meeting of … will be held on … to discuss …*",
+    "stars": 2
+  },
+  {
+    "id": "notice-no-i-you",
+    "kind": "mnemonic",
+    "title": "No I, no you",
+    "svg": "<svg viewBox=\"0 0 320 200\" role=\"img\" aria-label=\"A notice speaks for the institution\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" font-size=\"11\"><text x=\"110\" y=\"90\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"700\" fill=\"currentColor\" stroke=\"none\">I</text><path d=\"M88,86 L132,86\" stroke=\"#E0B400\" stroke-width=\"2\"/><text x=\"210\" y=\"90\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"700\" fill=\"currentColor\" stroke=\"none\">you</text><path d=\"M188,86 L232,86\" stroke=\"#E0B400\" stroke-width=\"2\"/><text x=\"160\" y=\"130\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"700\" fill=\"currentColor\" stroke=\"none\">Students are requested to…</text><text x=\"160.0\" y=\"194\" text-anchor=\"middle\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\">A notice speaks for the institution</text></svg>",
+    "back": "Third person or passive only. *I request you all to come* loses the expression mark; *Students are requested to…* keeps it.",
+    "stars": 2
+  },
+  {
+    "id": "notice-fifty",
+    "kind": "process",
+    "title": "About 50 words",
+    "svg": "<svg viewBox=\"0 0 320 200\" role=\"img\" aria-label=\"A 90-word notice reads as a paragraph\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" font-size=\"11\"><rect x=\"110\" y=\"60\" width=\"100\" height=\"50\" rx=\"6\" fill=\"#E0B400\" fill-opacity=\"0.25\"/><text x=\"160.0\" y=\"92.0\" text-anchor=\"middle\" font-size=\"20\" font-weight=\"700\" fill=\"currentColor\" stroke=\"none\">45–55</text><text x=\"160\" y=\"140\" text-anchor=\"middle\" font-size=\"10\" fill=\"currentColor\" stroke=\"none\">body only; frame not counted</text><text x=\"160.0\" y=\"194\" text-anchor=\"middle\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\">A 90-word notice reads as a paragraph</text></svg>",
+    "back": "Count the body only. Headings, date, title and signature are free. Over 70 words is the commonest reason a neat notice gets 3/4.",
+    "stars": 2
+  },
+  {
+    "id": "notice-role",
+    "kind": "event",
+    "title": "Match the role",
+    "svg": "<svg viewBox=\"0 0 320 200\" role=\"img\" aria-label=\"Designation must match the question exactly\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" font-size=\"11\"><circle cx=\"90\" cy=\"97.8\" r=\"7.800000000000001\"/><path d=\"M90,105.6 V128.4\"/><path d=\"M90,128.4 L82.8,150 M90,128.4 L97.2,150\"/><path d=\"M90,110.39999999999999 L79.2,124.8 M90,110.39999999999999 L100.8,124.8\"/><text x=\"90\" y=\"164\" text-anchor=\"middle\" font-size=\"10\" fill=\"currentColor\" stroke=\"none\">Secretary, Eco Club</text><path d=\"M130,110 L190,110 M183.7,113.0 L190,110 L183.7,107.0\"/><rect x=\"195\" y=\"85\" width=\"100\" height=\"50\" rx=\"4\"/><text x=\"245\" y=\"105\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"700\" fill=\"currentColor\" stroke=\"none\">ABC SCHOOL</text><text x=\"245\" y=\"122\" text-anchor=\"middle\" font-size=\"9\" fill=\"currentColor\" stroke=\"none\">issuing body</text><text x=\"160.0\" y=\"194\" text-anchor=\"middle\" font-size=\"11\" fill=\"currentColor\" stroke=\"none\">Designation must match the question exactly</text></svg>",
+    "back": "Club secretary → school is the issuing body; RWA secretary → society name. A mismatch is a format error spotted in one second.",
+    "stars": 1
+  }
+]
