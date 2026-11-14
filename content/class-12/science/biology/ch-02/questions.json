@@ -1,0 +1,104 @@
+[
+  {
+    "id": "bio-02-q01", "chapter": "ch-02", "type": "mcq", "marks": 1, "stars": 3, "label": "PYQ-style", "topic": "Menstrual cycle",
+    "stem": "In a regular 28-day menstrual cycle, the rupture of the Graafian follicle is directly triggered by:",
+    "options": ["a peak of progesterone around day 21", "a surge of LH around day 14", "a fall in FSH on day 5", "a rise in hCG around day 14"],
+    "answer": "B",
+    "hint": "Which pituitary hormone peaks sharply mid-cycle?",
+    "model_answer": "**(b).** The mid-cycle LH surge induces rupture of the Graafian follicle (ovulation)."
+  },
+  {
+    "id": "bio-02-q02", "chapter": "ch-02", "type": "mcq", "marks": 1, "stars": 2, "label": "PYQ-style", "topic": "Male reproductive system",
+    "stem": "The correct path of sperms from the testis is:",
+    "options": ["seminiferous tubules → vasa efferentia → rete testis → epididymis → vas deferens", "seminiferous tubules → rete testis → vasa efferentia → epididymis → vas deferens", "seminiferous tubules → epididymis → rete testis → vas deferens → vasa efferentia", "rete testis → seminiferous tubules → vasa efferentia → vas deferens → epididymis"],
+    "answer": "B",
+    "hint": "Rete testis comes before vasa efferentia.",
+    "model_answer": "**(b).** Seminiferous tubules → rete testis → vasa efferentia → epididymis → vas deferens → ejaculatory duct."
+  },
+  {
+    "id": "bio-02-q03", "chapter": "ch-02", "type": "mcq", "marks": 1, "stars": 2, "label": "PYQ-style", "topic": "Blastocyst",
+    "stem": "Which part of the blastocyst attaches to the endometrium?",
+    "options": ["Inner cell mass", "Trophoblast", "Zona pellucida", "Morula"],
+    "answer": "B",
+    "hint": "The outer layer.",
+    "model_answer": "**(b) Trophoblast.** It attaches to the endometrium and later forms chorionic villi; the inner cell mass becomes the embryo."
+  },
+  {
+    "id": "bio-02-q04", "chapter": "ch-02", "type": "ar", "marks": 1, "stars": 3, "label": "PYQ-style", "topic": "Gametogenesis",
+    "stem": "**Assertion (A):** One primary oocyte forms only one ovum, while one primary spermatocyte forms four sperms.<br>**Reason (R):** The meiotic divisions in oogenesis divide the cytoplasm unequally.",
+    "options": ["Both A and R are true, and R is the correct explanation of A.", "Both A and R are true, but R is not the correct explanation of A.", "A is true, but R is false.", "A is false, but R is true."],
+    "answer": "A",
+    "hint": "Where does the cytoplasm go in each division?",
+    "model_answer": "**(a).** Unequal divisions give one large ovum and small polar bodies; spermatogenesis divides equally into four sperms."
+  },
+  {
+    "id": "bio-02-q05", "chapter": "ch-02", "type": "ar", "marks": 1, "stars": 2, "label": "PYQ-style", "topic": "Sex determination",
+    "stem": "**Assertion (A):** The sex of a human baby is decided by the father.<br>**Reason (R):** All ova carry an X chromosome, while sperms carry either X or Y.",
+    "options": ["Both A and R are true, and R is the correct explanation of A.", "Both A and R are true, but R is not the correct explanation of A.", "A is true, but R is false.", "A is false, but R is true."],
+    "answer": "A",
+    "hint": "Who contributes the variable chromosome?",
+    "model_answer": "**(a).** Only sperms differ (X or Y), so the sperm decides whether the zygote is XX or XY."
+  },
+  {
+    "id": "bio-02-q06", "chapter": "ch-02", "type": "vsa2", "marks": 2, "stars": 2, "label": "PYQ-style", "topic": "Testis",
+    "stem": "Spermatogenesis fails if the testes remain inside the abdominal cavity. (a) Explain why. (b) Name the cells that secrete androgens and the pituitary hormone that stimulates them.",
+    "hint": "Temperature; LH acts on interstitial cells.",
+    "model_answer": "(a) Spermatogenesis needs a temperature 2–2.5 °C below the internal body temperature, which the scrotum provides and the abdomen does not. (b) Leydig (interstitial) cells; LH.",
+    "scheme": [
+      { "step": "Needs temperature 2–2.5 °C lower; scrotum provides it", "marks": 1 },
+      { "step": "Leydig (interstitial) cells", "marks": 0.5 },
+      { "step": "LH", "marks": 0.5 }
+    ]
+  },
+  {
+    "id": "bio-02-q07", "chapter": "ch-02", "type": "vsa2", "marks": 2, "stars": 2, "label": "PYQ-style", "topic": "Parturition",
+    "stem": "Explain how the foetal ejection reflex and oxytocin together bring about parturition.",
+    "hint": "A positive feedback loop.",
+    "model_answer": "Signals from the fully developed foetus and placenta cause mild uterine contractions (foetal ejection reflex). This triggers oxytocin release from the maternal pituitary; oxytocin causes stronger contractions, which stimulate more oxytocin release. The loop continues until the baby is expelled through the birth canal.",
+    "scheme": [
+      { "step": "Foetus and placenta signal mild contractions = foetal ejection reflex", "marks": 1 },
+      { "step": "Oxytocin → stronger contractions → more oxytocin until expulsion", "marks": 1 }
+    ]
+  },
+  {
+    "id": "bio-02-q08", "chapter": "ch-02", "type": "sa3", "marks": 3, "stars": 2, "label": "PYQ-style", "topic": "Fertilisation and implantation",
+    "stem": "Describe the events from fertilisation to implantation in humans. How is entry of more than one sperm prevented?",
+    "hint": "Ampulla → zona pellucida → cleavage → morula → blastocyst → implantation.",
+    "model_answer": "Fertilisation occurs in the ampullary region of the oviduct. A sperm contacts the zona pellucida, which changes to block other sperms (monospermy); acrosome enzymes help the sperm enter, the secondary oocyte completes meiosis II and the nuclei fuse into a diploid zygote. Cleavage in the isthmus gives blastomeres; 8–16 cells form a morula, which becomes a blastocyst (trophoblast + inner cell mass) in the uterus. The trophoblast attaches to the endometrium and uterine cells cover the blastocyst: implantation.",
+    "scheme": [
+      { "step": "Ampulla; zona pellucida changes block other sperms; acrosome; meiosis II; zygote", "marks": 1 },
+      { "step": "Cleavage → morula (8–16 blastomeres) → blastocyst with trophoblast and inner cell mass", "marks": 1 },
+      { "step": "Trophoblast attaches to endometrium; uterine cells cover blastocyst = implantation", "marks": 1 }
+    ]
+  },
+  {
+    "id": "bio-02-q09", "chapter": "ch-02", "type": "case", "marks": 4, "stars": 3, "label": "PYQ-style", "topic": "Hormones and the cycle",
+    "stem": "*A 24-year-old woman has irregular cycles. Blood tests through one cycle show that her LH never rises sharply in mid-cycle, her estrogen rises slowly and her progesterone stays low throughout. Her doctor explains the hypothalamus–pituitary–ovary hormone sequence.*",
+    "parts": [
+      { "id": "A", "marks": 1, "stem": "Which event of the cycle is most likely not happening? Give a reason.",
+        "model_answer": "Ovulation, because the LH surge that ruptures the Graafian follicle is missing.",
+        "scheme": [ { "step": "No ovulation; no LH surge", "marks": 1 } ] },
+      { "id": "B", "marks": 1, "stem": "Why is her progesterone low throughout?",
+        "model_answer": "No ovulation means no corpus luteum forms, and the corpus luteum is the source of progesterone.",
+        "scheme": [ { "step": "No corpus luteum without ovulation", "marks": 1 } ] },
+      { "id": "C", "marks": 2, "stem": "Name the hypothalamic hormone that starts the sequence and state the role of FSH and estrogen in a normal follicular phase.",
+        "model_answer": "GnRH from the hypothalamus. FSH (with LH) stimulates growth of follicles into a Graafian follicle; estrogen from the growing follicles makes the endometrium regenerate.",
+        "scheme": [ { "step": "GnRH", "marks": 0.5 }, { "step": "FSH: follicle development", "marks": 0.5 }, { "step": "Estrogen from follicles: endometrium regenerates (proliferates)", "marks": 1 } ] }
+    ]
+  },
+  {
+    "id": "bio-02-q10", "chapter": "ch-02", "type": "la5", "marks": 5, "stars": 3, "label": "PYQ-style", "topic": "Oogenesis",
+    "stem": "(a) Draw a flowchart of oogenesis from oogonia to the ovum, showing the ploidy of each cell and where or when each step happens. [3]<br>(b) Give two differences between oogenesis and spermatogenesis. [2]",
+    "hint": "Foetal ovary → arrested primary oocyte → tertiary follicle → ovulation → sperm entry.",
+    "model_answer": "(a) Oogonia (2n), foetal ovary, mitosis → primary oocyte (2n), arrested in prophase I, in primary follicle → meiosis I completed in tertiary follicle, unequal → secondary oocyte (n) + first polar body (n) → Graafian follicle ruptures: ovulation of secondary oocyte → meiosis II completed after sperm entry → ovum (n) + second polar body.<br>(b) Any two: starts in foetal life vs at puberty; one ovum vs four sperms per mother cell; unequal vs equal cytoplasm division; cyclic vs continuous; meiosis II completed only after sperm entry vs in the testis.",
+    "scheme": [
+      { "step": "Oogonia 2n in foetal ovary", "marks": 0.5 },
+      { "step": "Primary oocyte 2n arrested in prophase I", "marks": 0.5 },
+      { "step": "Meiosis I in tertiary follicle, unequal", "marks": 0.5 },
+      { "step": "Secondary oocyte n + first polar body", "marks": 0.5 },
+      { "step": "Ovulation of secondary oocyte", "marks": 0.5 },
+      { "step": "Meiosis II after sperm entry → ovum + second polar body", "marks": 0.5 },
+      { "step": "Two correct differences (1 each)", "marks": 2 }
+    ]
+  }
+]

@@ -1,0 +1,16 @@
+{
+  "$schema": "../../../../../schemas/chapter.schema.json",
+  "id": "ch-03",
+  "number": 3,
+  "title": "Reproductive Health",
+  "unit": "VI",
+  "marks_hint": "Unit VI Reproduction = 16 marks (shared by Ch 1–3, CBSE 2026–27)",
+  "summary": "Reproductive health and RCH · population and birth control · contraceptive methods · MTP · sexually transmitted infections · infertility and ART",
+  "status": {
+    "notes": "ready",
+    "mustknow": "ready",
+    "formulas": "ready",
+    "questions": "ready"
+  },
+  "updated": "2026-11-14"
+}

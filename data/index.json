@@ -1159,33 +1159,78 @@
                       "number": 1,
                       "title": "Sexual Reproduction in Flowering Plants",
                       "unit": "VI",
-                      "items": {},
-                      "marks_hint": null,
-                      "summary": null,
-                      "questions": 0,
-                      "question_types": {}
+                      "items": {
+                        "notes": true,
+                        "mustknow": true,
+                        "formulas": true,
+                        "questions": true
+                      },
+                      "marks_hint": "Unit VI Reproduction = 16 marks (shared by Ch 1–3, CBSE 2026–27)",
+                      "summary": "Stamen and pollen · pistil, ovule and embryo sac · pollination and outbreeding · pollen–pistil interaction · double fertilisation · endosperm, embryo, seed, fruit · apomixis and polyembryony",
+                      "questions": 10,
+                      "question_types": {
+                        "mcq": 3,
+                        "ar": 2,
+                        "vsa2": 2,
+                        "sa3": 1,
+                        "case": 1,
+                        "la5": 1
+                      },
+                      "diagrams": [],
+                      "words": 4889,
+                      "read_minutes": 18
                     },
                     {
                       "id": "ch-02",
                       "number": 2,
                       "title": "Human Reproduction",
                       "unit": "VI",
-                      "items": {},
-                      "marks_hint": null,
-                      "summary": null,
-                      "questions": 0,
-                      "question_types": {}
+                      "items": {
+                        "notes": true,
+                        "mustknow": true,
+                        "formulas": true,
+                        "questions": true
+                      },
+                      "marks_hint": "Unit VI Reproduction = 16 marks (shared by Ch 1–3, CBSE 2026–27)",
+                      "summary": "Male and female systems · spermatogenesis and oogenesis · menstrual cycle · fertilisation and implantation · placenta and pregnancy · parturition and lactation",
+                      "questions": 10,
+                      "question_types": {
+                        "mcq": 3,
+                        "ar": 2,
+                        "vsa2": 2,
+                        "sa3": 1,
+                        "case": 1,
+                        "la5": 1
+                      },
+                      "diagrams": [],
+                      "words": 4456,
+                      "read_minutes": 16
                     },
                     {
                       "id": "ch-03",
                       "number": 3,
                       "title": "Reproductive Health",
                       "unit": "VI",
-                      "items": {},
-                      "marks_hint": null,
-                      "summary": null,
-                      "questions": 0,
-                      "question_types": {}
+                      "items": {
+                        "notes": true,
+                        "mustknow": true,
+                        "formulas": true,
+                        "questions": true
+                      },
+                      "marks_hint": "Unit VI Reproduction = 16 marks (shared by Ch 1–3, CBSE 2026–27)",
+                      "summary": "Reproductive health and RCH · population and birth control · contraceptive methods · MTP · sexually transmitted infections · infertility and ART",
+                      "questions": 10,
+                      "question_types": {
+                        "mcq": 3,
+                        "ar": 2,
+                        "vsa2": 2,
+                        "sa3": 1,
+                        "case": 1,
+                        "la5": 1
+                      },
+                      "diagrams": [],
+                      "words": 3436,
+                      "read_minutes": 11
                     }
                   ]
                 },
@@ -1353,10 +1398,10 @@
               },
               "papers": [],
               "counts": {
-                "notes": 0,
-                "mustknow": 0,
-                "formulas": 0,
-                "questions": 0,
+                "notes": 3,
+                "mustknow": 3,
+                "formulas": 3,
+                "questions": 3,
                 "chapters": 13
               }
             },

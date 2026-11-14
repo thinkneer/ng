@@ -1,0 +1,104 @@
+[
+  {
+    "id": "bio-01-q01", "chapter": "ch-01", "type": "mcq", "marks": 1, "stars": 3, "label": "PYQ-style", "topic": "Ploidy",
+    "stem": "The cells of the nucellus of a flowering plant have 24 chromosomes. How many chromosomes will an endosperm cell and an antipodal cell have?",
+    "options": ["36 and 12", "24 and 12", "36 and 24", "12 and 36"],
+    "answer": "A",
+    "hint": "Nucellus is 2n. Endosperm is 3n; antipodals are n.",
+    "model_answer": "**(a) 36 and 12.** 2n = 24 so n = 12; endosperm 3n = 36; antipodal n = 12."
+  },
+  {
+    "id": "bio-01-q02", "chapter": "ch-01", "type": "mcq", "marks": 1, "stars": 2, "label": "PYQ-style", "topic": "Endosperm",
+    "stem": "The water of a tender coconut and its white kernel are, respectively:",
+    "options": ["cellular endosperm and free-nuclear endosperm", "free-nuclear endosperm and cellular endosperm", "nucellus and perisperm", "free-nuclear embryo and cotyledon"],
+    "answer": "B",
+    "hint": "Which stage of endosperm has walls?",
+    "model_answer": "**(b).** Coconut water is free-nuclear endosperm (thousands of nuclei); the kernel is cellular endosperm."
+  },
+  {
+    "id": "bio-01-q03", "chapter": "ch-01", "type": "mcq", "marks": 1, "stars": 2, "label": "PYQ-style", "topic": "Outbreeding devices",
+    "stem": "Which plant prevents both autogamy and geitonogamy?",
+    "options": ["Maize", "Castor", "Papaya", "Commelina"],
+    "answer": "C",
+    "hint": "Male and female flowers must be on different plants.",
+    "model_answer": "**(c) Papaya** is dioecious. Maize and castor are monoecious (only autogamy prevented); *Commelina* makes cleistogamous flowers."
+  },
+  {
+    "id": "bio-01-q04", "chapter": "ch-01", "type": "ar", "marks": 1, "stars": 3, "label": "PYQ-style", "topic": "Pollination",
+    "stem": "**Assertion (A):** Geitonogamy is functionally cross-pollination but genetically similar to autogamy.<br>**Reason (R):** In geitonogamy, pollen is transferred to a flower of the same plant.",
+    "options": ["Both A and R are true, and R is the correct explanation of A.", "Both A and R are true, but R is not the correct explanation of A.", "A is true, but R is false.", "A is false, but R is true."],
+    "answer": "A",
+    "hint": "Do all flowers on one plant share a genotype?",
+    "model_answer": "**(a).** An agent carries pollen between flowers (like cross-pollination), but the flowers are on the same plant, so the genotype is the same as in autogamy."
+  },
+  {
+    "id": "bio-01-q05", "chapter": "ch-01", "type": "ar", "marks": 1, "stars": 2, "label": "PYQ-style", "topic": "Fruit",
+    "stem": "**Assertion (A):** Apple is called a false fruit.<br>**Reason (R):** In apple, the edible part develops only from the ovary.",
+    "options": ["Both A and R are true, and R is the correct explanation of A.", "Both A and R are true, but R is not the correct explanation of A.", "A is true, but R is false.", "A is false, but R is true."],
+    "answer": "C",
+    "hint": "Which floral part besides the ovary is in an apple?",
+    "model_answer": "**(c).** A is true; R is false: the thalamus also contributes to the apple, which is why it is a false fruit."
+  },
+  {
+    "id": "bio-01-q06", "chapter": "ch-01", "type": "vsa2", "marks": 2, "stars": 2, "label": "PYQ-style", "topic": "Artificial hybridisation",
+    "stem": "A plant breeder wants to use a variety with bisexual flowers as the female parent in a cross. List, in order, the steps she must follow and state why the first two are needed.",
+    "hint": "Two steps stop the wrong pollen; two steps deliver the right pollen.",
+    "model_answer": "Emasculation → bagging → dust pollen of the chosen male parent on the receptive stigma → rebagging. Emasculation (removing anthers before they dehisce) prevents self-pollination; bagging (butter paper) prevents contamination by unwanted pollen.",
+    "scheme": [
+      { "step": "Correct sequence: emasculation, bagging, pollination of receptive stigma, rebagging", "marks": 1 },
+      { "step": "Emasculation before dehiscence prevents self-pollination", "marks": 0.5 },
+      { "step": "Bagging prevents contamination by unwanted pollen", "marks": 0.5 }
+    ]
+  },
+  {
+    "id": "bio-01-q07", "chapter": "ch-01", "type": "vsa2", "marks": 2, "stars": 2, "label": "PYQ-style", "topic": "Cleistogamy",
+    "stem": "*Viola* produces two kinds of flowers. Name them and explain why one of them gives assured seed set even when no pollinator visits.",
+    "hint": "One kind never opens.",
+    "model_answer": "Chasmogamous flowers (open, anthers and stigma exposed) and cleistogamous flowers (never open). In cleistogamous flowers the anthers and stigma lie close together inside the closed flower, so pollen falls on the stigma (autogamy) without any agent, giving assured seed set.",
+    "scheme": [
+      { "step": "Names: chasmogamous and cleistogamous", "marks": 1 },
+      { "step": "Cleistogamous flowers stay closed; anthers and stigma close together → autogamy without pollinators", "marks": 1 }
+    ]
+  },
+  {
+    "id": "bio-01-q08", "chapter": "ch-01", "type": "sa3", "marks": 3, "stars": 3, "label": "PYQ-style", "topic": "Embryo sac",
+    "stem": "Trace the development of the female gametophyte from the megaspore mother cell in a typical flowering plant. Why is this embryo sac described as monosporic and as 7-celled but 8-nucleate?",
+    "hint": "One meiosis, then three free-nuclear mitoses, then walls.",
+    "model_answer": "A single MMC (2n) in the micropylar region of the nucellus undergoes meiosis → 4 megaspores (n); three degenerate, one is functional. Its nucleus divides by three successive free-nuclear mitoses → 8 nuclei, 4 at each pole. Walls form: egg apparatus (2 synergids + egg) at the micropylar end, 3 antipodals at the chalazal end; the 2 polar nuclei move into the large central cell. It develops from one megaspore (monosporic) and has 7 cells but 8 nuclei because the central cell is binucleate.",
+    "scheme": [
+      { "step": "MMC in micropylar nucellus → meiosis → 4 megaspores", "marks": 0.5 },
+      { "step": "3 degenerate, 1 functional", "marks": 0.5 },
+      { "step": "3 free-nuclear mitoses → 8 nuclei, 4 at each pole", "marks": 0.5 },
+      { "step": "Egg apparatus at micropylar end, 3 antipodals at chalazal end", "marks": 0.5 },
+      { "step": "2 polar nuclei in central cell", "marks": 0.5 },
+      { "step": "Monosporic = from one megaspore; 7 cells, 8 nuclei explained", "marks": 0.5 }
+    ]
+  },
+  {
+    "id": "bio-01-q09", "chapter": "ch-01", "type": "case", "marks": 4, "stars": 2, "label": "PYQ-style", "topic": "Outbreeding and hybrid seed",
+    "stem": "*A student studied a bisexual flower of a plant over a week. Its stigma was receptive on days 2–3; its anthers dehisced on days 4–5. Insects visited the flowers. A seed company wants to make hybrid seed from this plant, and farmers complain that seed saved from hybrid crops gives a poor crop the next year.*",
+    "parts": [
+      { "id": "A", "marks": 1, "stem": "Name the outbreeding device shown by this flower.",
+        "model_answer": "Pollen release and stigma receptivity are not synchronised (dichogamy; here the stigma matures first).",
+        "scheme": [ { "step": "Non-synchronised pollen release and stigma receptivity (dichogamy)", "marks": 1 } ] },
+      { "id": "B", "marks": 1, "stem": "Why do plants avoid continued self-pollination?",
+        "model_answer": "Continued self-pollination causes inbreeding depression.",
+        "scheme": [ { "step": "Inbreeding depression", "marks": 1 } ] },
+      { "id": "C", "marks": 2, "stem": "Why does seed saved from a hybrid crop give a poorer crop, and how could apomixis solve this?",
+        "model_answer": "In the next generation the hybrid characters segregate, so the hybrid vigour is lost and farmers must buy fresh hybrid seed each year. If the hybrid were made apomictic, its seeds would form without fertilisation, so there would be no segregation and the same seed could be reused.",
+        "scheme": [ { "step": "Hybrid characters segregate in the progeny", "marks": 1 }, { "step": "Apomictic seed forms without fertilisation → no segregation → seed reusable", "marks": 1 } ] }
+    ]
+  },
+  {
+    "id": "bio-01-q10", "chapter": "ch-01", "type": "la5", "marks": 5, "stars": 3, "label": "PYQ-style", "topic": "Ovule and double fertilisation",
+    "stem": "(a) Draw a labelled diagram of the L.S. of an anatropous ovule and label any six parts. [3]<br>(b) Describe double fertilisation and name the products with their ploidy. [2]",
+    "hint": "Labels: funicle, hilum, integuments, micropyle, chalaza, nucellus, embryo sac. Two fusions, two products.",
+    "model_answer": "(a) Correct inverted ovule with the micropyle beside the funicle; any six labels: funicle, hilum, outer integument, inner integument, micropyle, chalaza, nucellus, embryo sac (antipodals, polar nuclei, egg, synergids).<br>(b) The pollen tube enters a synergid and releases two male gametes. One fuses with the egg (syngamy) → zygote (2n). The other fuses with the two polar nuclei (triple fusion) → primary endosperm nucleus (3n). Two fusions in one embryo sac = double fertilisation.",
+    "scheme": [
+      { "step": "Neat diagram with micropyle and funicle on the same side", "marks": 1 },
+      { "step": "Any six correct labels (½ each)", "marks": 2 },
+      { "step": "Syngamy: male gamete + egg → zygote 2n", "marks": 1 },
+      { "step": "Triple fusion: male gamete + 2 polar nuclei → PEN 3n; both = double fertilisation", "marks": 1 }
+    ]
+  }
+]
