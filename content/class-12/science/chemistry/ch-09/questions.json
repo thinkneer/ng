@@ -90,6 +90,7 @@
         "marks": 1
       }
     ],
+    "hint": "(i) Phthalimide → potassium salt → N-ethylphthalimide → hydrolysis. (ii) Attack at the para position of phenol.",
     "source_note": "Expert Q&A Sheet 5 (Organic C), Q9"
   },
   {
@@ -111,6 +112,7 @@
         "marks": 1
       }
     ],
+    "hint": "(i) In water the ethyl order is 2° > 3° > 1° > NH₃. (ii) Compare the strength of hydrogen bonding.",
     "source_note": "Expert Q&A Sheet 5 (Organic C), Q10"
   },
   {
@@ -132,6 +134,7 @@
         "marks": 1
       }
     ],
+    "hint": "(i) Resonance with the benzene ring. (ii) Where is the lone pair of aniline spread?",
     "source_note": "Expert Q&A Sheet 5 (Organic C), Q12"
   },
   {
@@ -157,6 +160,7 @@
         "marks": 1
       }
     ],
+    "hint": "(i) Protect –NH₂ first. (ii) Acid → amide → Hoffmann bromamide. (iii) Diazonium salt, then KI.",
     "source_note": "Expert Q&A Sheet 5 (Organic C), Q13"
   },
   {
@@ -182,6 +186,7 @@
         "marks": 1
       }
     ],
+    "hint": "Nitrile, then amide, then Hoffmann bromamide, which removes one carbon.",
     "source_note": "Expert Q&A Sheet 5 (Organic C), Q14"
   },
   {
@@ -207,6 +212,7 @@
         "marks": 1
       }
     ],
+    "hint": "Reagent: benzenesulphonyl chloride. Watch whether the product dissolves in alkali.",
     "source_note": "Expert Q&A Sheet 5 (Organic C), Q15"
   },
   {
@@ -240,6 +246,96 @@
         "marks": 1
       }
     ],
+    "hint": "In strong acid aniline becomes the anilinium ion. Aryl halides resist nucleophilic substitution.",
     "source_note": "Expert Q&A Sheet 5 (Organic C), Q18"
+  },
+  {
+    "id": "chem-c09-q01",
+    "chapter": "ch-09",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ-style",
+    "stem": "Benzenediazonium chloride reacts with phenol in weakly alkaline medium to give",
+    "options": [
+      "4-hydroxyazobenzene, an orange dye",
+      "4-aminoazobenzene, a yellow dye",
+      "chlorobenzene",
+      "diphenyl ether"
+    ],
+    "answer": "A",
+    "model_answer": "**(a).** The diazonium ion couples at the para position of phenol to give p-hydroxyazobenzene (orange).",
+    "source_note": "Added Nov 2026 (objective top-up for live quiz)"
+  },
+  {
+    "id": "chem-c09-q02",
+    "chapter": "ch-09",
+    "type": "ar",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ-style",
+    "stem": "**Assertion (A):** Aniline is acetylated before it is nitrated to obtain 4-nitroaniline.<br>**Reason (R):** In acetanilide the lone pair on nitrogen is also delocalised onto the carbonyl group, so the ring is less strongly activated.",
+    "options": [
+      "Both A and R are true, and R is the correct explanation of A.",
+      "Both A and R are true, but R is not the correct explanation of A.",
+      "A is true, but R is false.",
+      "A is false, but R is true."
+    ],
+    "answer": "A",
+    "model_answer": "**(a).** Protection prevents oxidation and formation of the meta-directing anilinium ion, and gives mainly the para product.",
+    "source_note": "Added Nov 2026 (objective top-up for live quiz)"
+  },
+  {
+    "id": "chem-c09-q03",
+    "chapter": "ch-09",
+    "type": "case",
+    "marks": 4,
+    "stars": 2,
+    "label": "PYQ-style",
+    "stem": "*Many bright orange, red and yellow dyes used on cloth are azo compounds. To make one, a primary aromatic amine such as aniline is first treated with sodium nitrite and hydrochloric acid in a vessel cooled with ice. The cold solution is used at once: it is added to a solution of a phenol or another aromatic amine, and the coloured dye separates out.*",
+    "parts": [
+      {
+        "id": "i",
+        "stem": "Write the equation for the reaction of aniline with sodium nitrite and hydrochloric acid in the cold.",
+        "marks": 1,
+        "model_answer": "$\\ce{C6H5NH2 + NaNO2 + 2HCl ->[273-278 K] C6H5N2+Cl- + NaCl + 2H2O}$ [1]",
+        "scheme": [
+          {
+            "step": "$\\ce{C6H5NH2 + NaNO2 + 2HCl ->[273-278 K] C6H5N2+Cl- + NaCl + 2H2O}$",
+            "marks": 1
+          }
+        ]
+      },
+      {
+        "id": "ii",
+        "stem": "Why must the mixture be kept in ice and the product used at once?",
+        "marks": 1,
+        "model_answer": "The diazonium salt is unstable: above about 278 K it decomposes, reacting with water to give phenol and nitrogen. [1]",
+        "scheme": [
+          {
+            "step": "The diazonium salt is unstable: above about 278 K it decomposes, reacting with water to give phenol and nitrogen.",
+            "marks": 1
+          }
+        ]
+      },
+      {
+        "id": "iii",
+        "stem": "Name the product and its colour when the cold solution is added to phenol in alkaline medium. Why are such compounds coloured?",
+        "marks": 2,
+        "model_answer": "p-Hydroxyazobenzene (4-hydroxyazobenzene), an orange dye, formed by coupling at the para position. [1] The two rings joined through –N=N– form an extended conjugated system that absorbs visible light. [1]",
+        "scheme": [
+          {
+            "step": "p-Hydroxyazobenzene (4-hydroxyazobenzene), an orange dye, formed by coupling at the para position.",
+            "marks": 1
+          },
+          {
+            "step": "The two rings joined through –N=N– form an extended conjugated system that absorbs visible light.",
+            "marks": 1
+          }
+        ]
+      }
+    ],
+    "hint": "The first step is diazotisation; the second is coupling. Ask what the diazonium salt does if it warms up.",
+    "source_note": "Added Nov 2026 (from the old case-based angles)"
   }
 ]

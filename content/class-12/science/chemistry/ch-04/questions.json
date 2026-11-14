@@ -90,6 +90,7 @@
         "marks": 1
       }
     ],
+    "hint": "(i) Look at the d configuration of Zn and Zn²⁺. (ii) Which stable configuration does Cr³⁺ have?",
     "source_note": "Expert Q&A Sheet 2 (Inorganic), Q9"
   },
   {
@@ -111,6 +112,7 @@
         "marks": 1
       }
     ],
+    "hint": "Count electrons: MnO₄⁻ takes 5 and Cr₂O₇²⁻ takes 6; oxalate gives 2 and Fe²⁺ gives 1.",
     "source_note": "Expert Q&A Sheet 2 (Inorganic), Q10"
   },
   {
@@ -136,6 +138,7 @@
         "marks": 1
       }
     ],
+    "hint": "Think about how well 4f electrons shield one another from the nucleus.",
     "source_note": "Expert Q&A Sheet 2 (Inorganic), Q13"
   },
   {
@@ -161,6 +164,7 @@
         "marks": 1
       }
     ],
+    "hint": "(i) d–d transitions. (ii) Compare the stability of d⁵ in Mn²⁺ and Fe³⁺. (iii) Compare 5f, 6d and 7s energies.",
     "source_note": "Expert Q&A Sheet 2 (Inorganic), Q14"
   },
   {
@@ -194,6 +198,96 @@
         "marks": 1
       }
     ],
+    "hint": "Two stages: fuse to green manganate, then convert manganate to permanganate.",
     "source_note": "Expert Q&A Sheet 2 (Inorganic), Q18"
+  },
+  {
+    "id": "chem-c04-q01",
+    "chapter": "ch-04",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ-style",
+    "stem": "The intense purple colour of $\\ce{KMnO4}$ is due to",
+    "options": [
+      "d–d transitions",
+      "charge transfer from oxygen to manganese",
+      "unpaired electrons in the 3d orbitals",
+      "f–f transitions"
+    ],
+    "answer": "B",
+    "model_answer": "**(b).** Mn(VII) is $d^0$, so there is no d–d transition; the colour comes from ligand-to-metal charge transfer.",
+    "source_note": "Added Nov 2026 (objective top-up for live quiz)"
+  },
+  {
+    "id": "chem-c04-q02",
+    "chapter": "ch-04",
+    "type": "ar",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ-style",
+    "stem": "**Assertion (A):** Salts of $\\ce{Zn^2+}$ are white, whereas salts of $\\ce{Cu^2+}$ are coloured.<br>**Reason (R):** $\\ce{Zn^2+}$ has a completely filled 3d subshell, so no d–d transition is possible.",
+    "options": [
+      "Both A and R are true, and R is the correct explanation of A.",
+      "Both A and R are true, but R is not the correct explanation of A.",
+      "A is true, but R is false.",
+      "A is false, but R is true."
+    ],
+    "answer": "A",
+    "model_answer": "**(a).** $\\ce{Zn^2+}$ is $3d^{10}$; $\\ce{Cu^2+}$ is $3d^9$ with one unpaired electron that can undergo a d–d transition.",
+    "source_note": "Added Nov 2026 (objective top-up for live quiz)"
+  },
+  {
+    "id": "chem-c04-q03",
+    "chapter": "ch-04",
+    "type": "case",
+    "marks": 4,
+    "stars": 3,
+    "label": "PYQ-style",
+    "stem": "*In the laboratory the strength of an oxalic acid solution is found by titrating it against potassium permanganate. The oxalic acid is taken in the conical flask with dilute sulphuric acid and warmed to about 60 °C. Permanganate solution is run in from the burette. Each drop loses its colour until the end point, when one extra drop leaves a permanent pale pink.*",
+    "parts": [
+      {
+        "id": "i",
+        "stem": "Why is no indicator added in this titration?",
+        "marks": 1,
+        "model_answer": "$\\ce{KMnO4}$ is its own indicator: the purple $\\ce{MnO4-}$ is reduced to almost colourless $\\ce{Mn^2+}$, so the first excess drop gives a pink colour. [1]",
+        "scheme": [
+          {
+            "step": "$\\ce{KMnO4}$ is its own indicator: the purple $\\ce{MnO4-}$ is reduced to almost colourless $\\ce{Mn^2+}$, so the first excess drop gives a pink colour.",
+            "marks": 1
+          }
+        ]
+      },
+      {
+        "id": "ii",
+        "stem": "Why is dilute sulphuric acid used, and not hydrochloric acid?",
+        "marks": 1,
+        "model_answer": "Permanganate oxidises HCl to chlorine, so some $\\ce{KMnO4}$ would be used up by the acid and the result would be too high. [1]",
+        "scheme": [
+          {
+            "step": "Permanganate oxidises HCl to chlorine, so some $\\ce{KMnO4}$ would be used up by the acid and the result would be too high.",
+            "marks": 1
+          }
+        ]
+      },
+      {
+        "id": "iii",
+        "stem": "Write the balanced ionic equation for the reaction. How many moles of oxalate ion are oxidised by one mole of $\\ce{MnO4-}$?",
+        "marks": 2,
+        "model_answer": "$\\ce{2MnO4- + 5C2O4^2- + 16H+ -> 2Mn^2+ + 10CO2 + 8H2O}$ [1] 5 mol of oxalate for 2 mol of permanganate, so **2.5 mol** per mole of $\\ce{MnO4-}$. [1]",
+        "scheme": [
+          {
+            "step": "$\\ce{2MnO4- + 5C2O4^2- + 16H+ -> 2Mn^2+ + 10CO2 + 8H2O}$",
+            "marks": 1
+          },
+          {
+            "step": "5 mol of oxalate for 2 mol of permanganate, so **2.5 mol** per mole of $\\ce{MnO4-}$.",
+            "marks": 1
+          }
+        ]
+      }
+    ],
+    "hint": "Count electrons: each $\\ce{MnO4-}$ takes 5 in acid and each oxalate ion gives 2.",
+    "source_note": "Added Nov 2026 (from the old case-based angles)"
   }
 ]

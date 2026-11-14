@@ -43,17 +43,18 @@
     "stars": 3,
     "label": "PYQ-style",
     "stem": "Define molar conductivity. With a sketch, show how it varies with $\\sqrt c$ for a strong and a weak electrolyte.",
-    "model_answer": "**Molar conductivity** is the conductivity of a solution divided by its molar concentration, $\\Lambda_m=\\kappa/c$ (S cm$^2$mol$^{-1}$): the conducting power of all ions from one mole of electrolyte. [½]<br>\n*(graph to be added as SVG)* Strong: small, linear rise on dilution, $\\Lambda_m=\\Lambda_m^\\circ-A\\sqrt c$ (ions move more freely). Weak: steep rise at low concentration because the degree of dissociation increases. [1 + ½ graph]",
+    "model_answer": "**Molar conductivity** is the conductivity of a solution divided by its molar concentration, $\\Lambda_m=\\kappa/c$ (S cm$^2$mol$^{-1}$): the conducting power of all ions from one mole of electrolyte. [½]<br>\nStrong: small, linear rise on dilution, $\\Lambda_m=\\Lambda_m^\\circ-A\\sqrt c$ (ions move more freely). Weak: steep rise at low concentration because the degree of dissociation increases. [1 + ½ graph]",
     "scheme": [
       {
         "step": "**Molar conductivity** is the conductivity of a solution divided by its molar concentration, $\\Lambda_m=\\kappa/c$ (S cm$^2$mol$^{-1}$): the conducting power of all ions from one mole of electrolyte.",
         "marks": 0.5
       },
       {
-        "step": "*(graph to be added as SVG)* Strong: small, linear rise on dilution, $\\Lambda_m=\\Lambda_m^\\circ-A\\sqrt c$ (ions move more freely). Weak: steep rise at low concentration because the degree of dissociation increases.",
+        "step": "Strong: small, linear rise on dilution, $\\Lambda_m=\\Lambda_m^\\circ-A\\sqrt c$ (ions move more freely). Weak: steep rise at low concentration because the degree of dissociation increases.",
         "marks": 1.5
       }
     ],
+    "hint": "Conductivity divided by concentration. Strong: straight line; weak: steep curve near zero.",
     "source_note": "Expert Q&A Sheet 1 (Physical), Q10"
   },
   {
@@ -83,6 +84,7 @@
         "marks": 0.5
       }
     ],
+    "hint": "Lead is oxidised and lead dioxide is reduced; both end up as the same solid.",
     "source_note": "Expert Q&A Sheet 1 (Physical), Q12"
   },
   {
@@ -112,6 +114,7 @@
         "marks": 1
       }
     ],
+    "hint": "Write the cell reaction first. Q = [Sn²⁺]/[H⁺]² and n = 2.",
     "source_note": "Expert Q&A Sheet 1 (Physical), Q15"
   },
   {
@@ -137,6 +140,7 @@
         "marks": 1
       }
     ],
+    "hint": "Get the cell constant from the 0.1 M data: G* = κ × R. Convert S m⁻¹ to S cm⁻¹.",
     "source_note": "Expert Q&A Sheet 1 (Physical), Q16"
   },
   {
@@ -162,6 +166,7 @@
         "marks": 1
       }
     ],
+    "hint": "Add and subtract the salts so that the unwanted ions cancel.",
     "source_note": "Expert Q&A Sheet 1 (Physical), Q19"
   },
   {
@@ -203,6 +208,132 @@
         "marks": 0.5
       }
     ],
+    "hint": "ΔG° = −nFE° with n = 2; then log K = nE°/0.059.",
     "source_note": "Expert Q&A Sheet 1 (Physical), Q22"
+  },
+  {
+    "id": "chem-c02-q01",
+    "chapter": "ch-02",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 1,
+    "label": "PYQ-style",
+    "stem": "The unit of the cell constant of a conductivity cell is",
+    "options": [
+      "S cm$^{-1}$",
+      "cm$^{-1}$",
+      "S cm$^2$mol$^{-1}$",
+      "$\\Omega$ cm"
+    ],
+    "answer": "B",
+    "model_answer": "**(b) cm$^{-1}$.** $G^*=l/A$, a length divided by an area.",
+    "source_note": "Added Nov 2026 (objective top-up for live quiz)"
+  },
+  {
+    "id": "chem-c02-q02",
+    "chapter": "ch-02",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ-style",
+    "stem": "The function of the salt bridge in a galvanic cell is to",
+    "options": [
+      "supply the electrons that flow in the outer circuit",
+      "complete the circuit and keep the two solutions electrically neutral",
+      "increase the emf of the cell",
+      "stop the cell reaction when the cell is not in use"
+    ],
+    "answer": "B",
+    "model_answer": "**(b).** Its ions move into the two half-cells to balance the charge that builds up; electrons travel only through the wire.",
+    "source_note": "Added Nov 2026 (objective top-up for live quiz)"
+  },
+  {
+    "id": "chem-c02-q03",
+    "chapter": "ch-02",
+    "type": "ar",
+    "marks": 1,
+    "stars": 3,
+    "label": "PYQ-style",
+    "stem": "**Assertion (A):** The molar conductivity of ethanoic acid rises steeply on dilution.<br>**Reason (R):** The degree of dissociation of a weak electrolyte increases on dilution.",
+    "options": [
+      "Both A and R are true, and R is the correct explanation of A.",
+      "Both A and R are true, but R is not the correct explanation of A.",
+      "A is true, but R is false.",
+      "A is false, but R is true."
+    ],
+    "answer": "A",
+    "model_answer": "**(a).** More molecules ionise as the solution is diluted, so one mole of the acid supplies many more ions.",
+    "source_note": "Added Nov 2026 (objective top-up for live quiz)"
+  },
+  {
+    "id": "chem-c02-q04",
+    "chapter": "ch-02",
+    "type": "ar",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ-style",
+    "stem": "**Assertion (A):** Copper sulphate solution cannot be stored in a zinc vessel.<br>**Reason (R):** Zinc has a higher standard reduction potential than copper.",
+    "options": [
+      "Both A and R are true, and R is the correct explanation of A.",
+      "Both A and R are true, but R is not the correct explanation of A.",
+      "A is true, but R is false.",
+      "A is false, but R is true."
+    ],
+    "answer": "C",
+    "model_answer": "**(c).** A is true: zinc displaces copper, $\\ce{Zn + Cu^2+ -> Zn^2+ + Cu}$. R is false: $E^\\circ$ of $\\ce{Zn^2+/Zn}$ ($-0.76$ V) is *lower* than that of $\\ce{Cu^2+/Cu}$ (+0.34 V).",
+    "source_note": "Added Nov 2026 (objective top-up for live quiz)"
+  },
+  {
+    "id": "chem-c02-q05",
+    "chapter": "ch-02",
+    "type": "case",
+    "marks": 4,
+    "stars": 2,
+    "label": "PYQ-style",
+    "stem": "*An iron bridge near the sea needs repainting far more often than one inland. Rusting is not a simple reaction of iron with air: tiny electrochemical cells form on the wet metal surface. At one spot iron atoms give up electrons; these travel through the metal to another spot, where oxygen dissolved in the water film takes them up. Engineers slow the damage by coating the steel with zinc or by bolting blocks of magnesium to it.*",
+    "parts": [
+      {
+        "id": "i",
+        "stem": "Write the reaction taking place at the anodic spot.",
+        "marks": 1,
+        "model_answer": "$\\ce{Fe(s) -> Fe^2+(aq) + 2e-}$ (oxidation of iron) [1]",
+        "scheme": [
+          {
+            "step": "$\\ce{Fe(s) -> Fe^2+(aq) + 2e-}$ (oxidation of iron)",
+            "marks": 1
+          }
+        ]
+      },
+      {
+        "id": "ii",
+        "stem": "Why does iron rust faster near the sea?",
+        "marks": 1,
+        "model_answer": "Dissolved salts make the water film a better conductor (an electrolyte), so the electrochemical reactions go faster. [1]",
+        "scheme": [
+          {
+            "step": "Dissolved salts make the water film a better conductor (an electrolyte), so the electrochemical reactions go faster.",
+            "marks": 1
+          }
+        ]
+      },
+      {
+        "id": "iii",
+        "stem": "Explain how a zinc coating protects iron even when it is scratched. What is the method of protection with magnesium blocks called?",
+        "marks": 2,
+        "model_answer": "Zinc has a lower reduction potential than iron, so zinc is oxidised in preference and iron stays as the cathode. [1] Sacrificial protection (cathodic protection with a sacrificial anode). [1]",
+        "scheme": [
+          {
+            "step": "Zinc has a lower reduction potential than iron, so zinc is oxidised in preference and iron stays as the cathode.",
+            "marks": 1
+          },
+          {
+            "step": "Sacrificial protection (cathodic protection with a sacrificial anode).",
+            "marks": 1
+          }
+        ]
+      }
+    ],
+    "hint": "Treat a rusting spot as a small galvanic cell: decide which metal is oxidised by comparing reduction potentials.",
+    "source_note": "Added Nov 2026 (from the old case-based angles)"
   }
 ]

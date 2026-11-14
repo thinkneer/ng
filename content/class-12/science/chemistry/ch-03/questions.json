@@ -72,6 +72,7 @@
         "marks": 1
       }
     ],
+    "hint": "Put the new concentrations into the rate law and take the ratio of rates.",
     "source_note": "Expert Q&A Sheet 1 (Physical), Q11"
   },
   {
@@ -97,6 +98,7 @@
         "marks": 1
       }
     ],
+    "hint": "30% decomposed means [R] = 0.70 [R]₀. Find k first, then the half-life.",
     "source_note": "Expert Q&A Sheet 1 (Physical), Q17"
   },
   {
@@ -122,6 +124,7 @@
         "marks": 1
       }
     ],
+    "hint": "Use the two-temperature Arrhenius equation; T in kelvin and R = 8.314 J K⁻¹mol⁻¹.",
     "source_note": "Expert Q&A Sheet 1 (Physical), Q18"
   },
   {
@@ -174,6 +177,61 @@
         ]
       }
     ],
+    "hint": "Compare two experiments in which only one concentration changes.",
     "source_note": "Expert Q&A Sheet 1 (Physical), Q20"
+  },
+  {
+    "id": "chem-c03-q01",
+    "chapter": "ch-03",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ-style",
+    "stem": "For a zero-order reaction, a plot of concentration of reactant against time is",
+    "options": [
+      "a curve that falls and levels off",
+      "a straight line with slope $-k$",
+      "a straight line with slope $+k$",
+      "a straight line with slope $-k/2.303$"
+    ],
+    "answer": "B",
+    "model_answer": "**(b).** $[R]=[R]_0-kt$: a straight line of slope $-k$ and intercept $[R]_0$.",
+    "source_note": "Added Nov 2026 (objective top-up for live quiz)"
+  },
+  {
+    "id": "chem-c03-q02",
+    "chapter": "ch-03",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ-style",
+    "stem": "A catalyst increases the rate of a reaction by",
+    "options": [
+      "increasing the energy of the reactant molecules",
+      "lowering the activation energy through an alternative path",
+      "making $\\Delta G$ of the reaction more negative",
+      "increasing the equilibrium constant"
+    ],
+    "answer": "B",
+    "model_answer": "**(b).** It provides a new path with lower $E_a$; $\\Delta G$, $\\Delta H$ and $K$ are unchanged.",
+    "source_note": "Added Nov 2026 (objective top-up for live quiz)"
+  },
+  {
+    "id": "chem-c03-q03",
+    "chapter": "ch-03",
+    "type": "ar",
+    "marks": 1,
+    "stars": 3,
+    "label": "PYQ-style",
+    "stem": "**Assertion (A):** The half-life of a first-order reaction does not depend on the initial concentration of the reactant.<br>**Reason (R):** For a first-order reaction, $t_{1/2}=0.693/k$.",
+    "options": [
+      "Both A and R are true, and R is the correct explanation of A.",
+      "Both A and R are true, but R is not the correct explanation of A.",
+      "A is true, but R is false.",
+      "A is false, but R is true."
+    ],
+    "answer": "A",
+    "model_answer": "**(a).** The expression contains only $k$, so $t_{1/2}$ is the same whatever $[R]_0$ is.",
+    "source_note": "Added Nov 2026 (objective top-up for live quiz)"
   }
 ]

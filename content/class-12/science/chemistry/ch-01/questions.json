@@ -72,6 +72,7 @@
         "marks": 1
       }
     ],
+    "hint": "Gas solubility rises with pressure. Think about what happens as the diver comes back up.",
     "source_note": "Expert Q&A Sheet 1 (Physical), Q9"
   },
   {
@@ -93,6 +94,7 @@
         "marks": 1
       }
     ],
+    "hint": "Compare how big π is with how small ΔT would be for a dilute solution of a very large molecule.",
     "source_note": "Expert Q&A Sheet 1 (Physical), Q13"
   },
   {
@@ -118,6 +120,7 @@
         "marks": 1
       }
     ],
+    "hint": "Find the expected ΔTf for i = 1 first; then i = observed ÷ expected. For a dimer, α = (1 − i)/(1 − ½).",
     "source_note": "Expert Q&A Sheet 1 (Physical), Q14"
   },
   {
@@ -155,6 +158,118 @@
         "marks": 1
       }
     ],
+    "hint": "CaCl₂ gives three ions, so i = 3. Molality needs kilograms of water.",
     "source_note": "Expert Q&A Sheet 1 (Physical), Q21"
+  },
+  {
+    "id": "chem-c01-q01",
+    "chapter": "ch-01",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 1,
+    "label": "PYQ-style",
+    "stem": "Which concentration term changes when the temperature of a solution changes?",
+    "options": [
+      "Molality",
+      "Mole fraction",
+      "Molarity",
+      "Mass percentage"
+    ],
+    "answer": "C",
+    "model_answer": "**(c) Molarity.** It is defined per litre of solution, and volume changes with temperature; the others use masses or moles only.",
+    "source_note": "Added Nov 2026 (objective top-up for live quiz)"
+  },
+  {
+    "id": "chem-c01-q02",
+    "chapter": "ch-01",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ-style",
+    "stem": "A mixture of ethanol and water forms",
+    "options": [
+      "a maximum-boiling azeotrope, because of negative deviation",
+      "a minimum-boiling azeotrope, because of positive deviation",
+      "an ideal solution",
+      "a maximum-boiling azeotrope, because of positive deviation"
+    ],
+    "answer": "B",
+    "model_answer": "**(b).** Ethanol–water shows positive deviation from Raoult's law (weaker A–B attractions), so the vapour pressure passes through a maximum and the mixture boils at a minimum temperature.",
+    "source_note": "Added Nov 2026 (objective top-up for live quiz)"
+  },
+  {
+    "id": "chem-c01-q03",
+    "chapter": "ch-01",
+    "type": "ar",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ-style",
+    "stem": "**Assertion (A):** A 0.1 m solution of NaCl freezes at a lower temperature than a 0.1 m solution of glucose.<br>**Reason (R):** NaCl dissociates in water, so it gives about twice as many solute particles as glucose at the same molality.",
+    "options": [
+      "Both A and R are true, and R is the correct explanation of A.",
+      "Both A and R are true, but R is not the correct explanation of A.",
+      "A is true, but R is false.",
+      "A is false, but R is true."
+    ],
+    "answer": "A",
+    "model_answer": "**(a).** $\\Delta T_f=iK_fm$; $i\\approx2$ for NaCl and 1 for glucose, so the depression is about twice as large.",
+    "source_note": "Added Nov 2026 (objective top-up for live quiz)"
+  },
+  {
+    "id": "chem-c01-q04",
+    "chapter": "ch-01",
+    "type": "case",
+    "marks": 4.0,
+    "stars": 2,
+    "label": "PYQ-style",
+    "stem": "*Sea water can be turned into drinking water without boiling it. In a desalination plant, sea water is pressed against a thin film that lets water molecules through but holds back the dissolved ions. If the pressure applied on the sea-water side is large enough, pure water flows out of the salt solution. The film is carried on a porous support so that it can stand the high pressure.*",
+    "parts": [
+      {
+        "id": "i",
+        "stem": "Define osmotic pressure.",
+        "marks": 1,
+        "model_answer": "The extra pressure that must be applied on the solution side to just stop the flow of solvent into it through a semipermeable membrane. [1]",
+        "scheme": [
+          {
+            "step": "The extra pressure that must be applied on the solution side to just stop the flow of solvent into it through a semipermeable membrane.",
+            "marks": 1
+          }
+        ]
+      },
+      {
+        "id": "ii",
+        "stem": "Name the process used in the plant and the material commonly used for the membrane.",
+        "marks": 1.0,
+        "model_answer": "Reverse osmosis. [½] Cellulose acetate, which lets water pass but not the dissolved ions. [½]",
+        "scheme": [
+          {
+            "step": "Reverse osmosis.",
+            "marks": 0.5
+          },
+          {
+            "step": "Cellulose acetate, which lets water pass but not the dissolved ions.",
+            "marks": 0.5
+          }
+        ]
+      },
+      {
+        "id": "iii",
+        "stem": "Calculate the osmotic pressure at 300 K of a solution containing 5.85 g of NaCl ($M=58.5$ g mol$^{-1}$) per litre, assuming complete dissociation. ($R=0.0821$ L atm K$^{-1}$mol$^{-1}$)",
+        "marks": 2,
+        "model_answer": "$C=\\dfrac{5.85}{58.5}=0.1$ mol L$^{-1}$; $i=2$; $\\pi=iCRT$ [1] $\\pi=2\\times0.1\\times0.0821\\times300=\\boxed{4.93\\text{ atm}}$ [1]",
+        "scheme": [
+          {
+            "step": "$C=\\dfrac{5.85}{58.5}=0.1$ mol L$^{-1}$; $i=2$; $\\pi=iCRT$",
+            "marks": 1
+          },
+          {
+            "step": "$\\pi=2\\times0.1\\times0.0821\\times300=\\boxed{4.93\\text{ atm}}$",
+            "marks": 1
+          }
+        ]
+      }
+    ],
+    "hint": "Osmosis runs from solvent to solution; ask what a pressure bigger than π does to that flow. For the numerical, NaCl gives two ions.",
+    "source_note": "Added Nov 2026 (from the old case-based angles)"
   }
 ]

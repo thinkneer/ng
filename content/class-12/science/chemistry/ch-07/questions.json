@@ -90,6 +90,7 @@
         "marks": 1
       }
     ],
+    "hint": "Kolbe uses CO₂ on sodium phenoxide; Reimer–Tiemann uses chloroform and aqueous NaOH.",
     "source_note": "Expert Q&A Sheet 3 (Organic A), Q11"
   },
   {
@@ -111,6 +112,7 @@
         "marks": 1
       }
     ],
+    "hint": "(i) Hydrogen bonding within a molecule or between molecules? (ii) RMgX reacts with any source of protons.",
     "source_note": "Expert Q&A Sheet 3 (Organic A), Q12"
   },
   {
@@ -136,6 +138,7 @@
         "marks": 1
       }
     ],
+    "hint": "Three steps: protonate the alkene, water attacks the carbocation, lose a proton.",
     "source_note": "Expert Q&A Sheet 3 (Organic A), Q13"
   },
   {
@@ -161,6 +164,7 @@
         "marks": 1
       }
     ],
+    "hint": "Which side gives the more stable carbocation? And remember that the O–aryl bond does not break.",
     "source_note": "Expert Q&A Sheet 3 (Organic A), Q16"
   },
   {
@@ -198,6 +202,7 @@
         "marks": 0.5
       }
     ],
+    "hint": "Turbidity with Lucas reagent in about five minutes points to a secondary alcohol.",
     "source_note": "Expert Q&A Sheet 3 (Organic A), Q18"
   },
   {
@@ -231,6 +236,100 @@
         "marks": 1
       }
     ],
+    "hint": "Rank by how well the negative charge of the anion is stabilised.",
     "source_note": "Expert Q&A Sheet 3 (Organic A), Q19"
+  },
+  {
+    "id": "chem-c07-q01",
+    "chapter": "ch-07",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ-style",
+    "stem": "Anisole (methoxybenzene) on heating with HI gives",
+    "options": [
+      "iodobenzene and methanol",
+      "phenol and iodomethane",
+      "benzene and methanol",
+      "iodobenzene and iodomethane"
+    ],
+    "answer": "B",
+    "model_answer": "**(b).** The O–aryl bond has partial double-bond character and does not break; iodide attacks the methyl carbon.",
+    "source_note": "Added Nov 2026 (objective top-up for live quiz)"
+  },
+  {
+    "id": "chem-c07-q02",
+    "chapter": "ch-07",
+    "type": "ar",
+    "marks": 1,
+    "stars": 3,
+    "label": "PYQ-style",
+    "stem": "**Assertion (A):** Phenol is a stronger acid than ethanol.<br>**Reason (R):** The phenoxide ion is stabilised by resonance, whereas the ethoxide ion is not.",
+    "options": [
+      "Both A and R are true, and R is the correct explanation of A.",
+      "Both A and R are true, but R is not the correct explanation of A.",
+      "A is true, but R is false.",
+      "A is false, but R is true."
+    ],
+    "answer": "A",
+    "model_answer": "**(a).** Delocalising the negative charge over the ring stabilises phenoxide, so phenol gives up its proton more readily.",
+    "source_note": "Added Nov 2026 (objective top-up for live quiz)"
+  },
+  {
+    "id": "chem-c07-q03",
+    "chapter": "ch-07",
+    "type": "case",
+    "marks": 4.0,
+    "stars": 2,
+    "label": "PYQ-style",
+    "stem": "*Ethanol for industry is made in huge amounts by fermenting molasses with yeast. The process is carried out in the absence of air. Before it is sold for industrial use the alcohol is deliberately made unfit for drinking. Illegally made liquor sometimes contains methanol, and drinking it has caused blindness and many deaths.*",
+    "parts": [
+      {
+        "id": "i",
+        "stem": "Name the two enzymes involved in fermentation of molasses and state what each does.",
+        "marks": 1.0,
+        "model_answer": "Invertase converts sucrose into glucose and fructose. [½] Zymase converts glucose and fructose into ethanol and carbon dioxide. [½]",
+        "scheme": [
+          {
+            "step": "Invertase converts sucrose into glucose and fructose.",
+            "marks": 0.5
+          },
+          {
+            "step": "Zymase converts glucose and fructose into ethanol and carbon dioxide.",
+            "marks": 0.5
+          }
+        ]
+      },
+      {
+        "id": "ii",
+        "stem": "What is denatured alcohol?",
+        "marks": 1,
+        "model_answer": "Ethanol made unfit for drinking by adding copper sulphate (for colour) and pyridine (for a foul smell). [1]",
+        "scheme": [
+          {
+            "step": "Ethanol made unfit for drinking by adding copper sulphate (for colour) and pyridine (for a foul smell).",
+            "marks": 1
+          }
+        ]
+      },
+      {
+        "id": "iii",
+        "stem": "How is methanol manufactured? Write the equation with conditions.",
+        "marks": 2,
+        "model_answer": "By catalytic hydrogenation of carbon monoxide: $\\ce{CO + 2H2 -> CH3OH}$ [1] Conditions: $\\ce{ZnO-Cr2O3}$ catalyst, 573–673 K, 200–300 atm. [1]",
+        "scheme": [
+          {
+            "step": "By catalytic hydrogenation of carbon monoxide: $\\ce{CO + 2H2 -> CH3OH}$",
+            "marks": 1
+          },
+          {
+            "step": "Conditions: $\\ce{ZnO-Cr2O3}$ catalyst, 573–673 K, 200–300 atm.",
+            "marks": 1
+          }
+        ]
+      }
+    ],
+    "hint": "Two yeast enzymes act one after the other. For methanol, think of carbon monoxide and hydrogen.",
+    "source_note": "Added Nov 2026 (from the old case-based angles)"
   }
 ]

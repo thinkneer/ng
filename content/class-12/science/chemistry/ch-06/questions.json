@@ -90,6 +90,7 @@
         "marks": 1
       }
     ],
+    "hint": "Finkelstein: NaI in dry acetone. Wurtz–Fittig: one aryl and one alkyl halide with sodium in dry ether.",
     "source_note": "Expert Q&A Sheet 3 (Organic A), Q9"
   },
   {
@@ -111,6 +112,7 @@
         "marks": 1
       }
     ],
+    "hint": "SN2: the less crowded carbon wins. SN1: the more stable carbocation wins.",
     "source_note": "Expert Q&A Sheet 3 (Organic A), Q10"
   },
   {
@@ -136,6 +138,7 @@
         "marks": 1
       }
     ],
+    "hint": "(i) Add HBr, then eliminate (Zaitsev). (ii) Chlorinate, then Fittig. (iii) Air oxidation, then dilute acid.",
     "source_note": "Expert Q&A Sheet 3 (Organic A), Q14"
   },
   {
@@ -161,6 +164,7 @@
         "marks": 1
       }
     ],
+    "hint": "(a) Think resonance and hybridisation of the ring carbon. (b) Apply Zaitsev's rule.",
     "source_note": "Expert Q&A Sheet 3 (Organic A), Q15"
   },
   {
@@ -213,6 +217,43 @@
         ]
       }
     ],
+    "hint": "The rate law gives the mechanism away: both reactants in it means SN2, the halide alone means SN1.",
     "source_note": "Expert Q&A Sheet 3 (Organic A), Q17"
+  },
+  {
+    "id": "chem-c06-q01",
+    "chapter": "ch-06",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ-style",
+    "stem": "Which reagent converts an alcohol into a chloroalkane and gives only gaseous by-products?",
+    "options": [
+      "$\\ce{PCl5}$",
+      "$\\ce{PCl3}$",
+      "$\\ce{SOCl2}$",
+      "HCl with anhydrous $\\ce{ZnCl2}$"
+    ],
+    "answer": "C",
+    "model_answer": "**(c) $\\ce{SOCl2}$.** $\\ce{ROH + SOCl2 -> RCl + SO2 + HCl}$; both by-products escape as gases, leaving pure chloroalkane.",
+    "source_note": "Added Nov 2026 (objective top-up for live quiz)"
+  },
+  {
+    "id": "chem-c06-q02",
+    "chapter": "ch-06",
+    "type": "ar",
+    "marks": 1,
+    "stars": 3,
+    "label": "PYQ-style",
+    "stem": "**Assertion (A):** An optically active haloalkane gives a product with inverted configuration in an S$_\\text{N}$2 reaction.<br>**Reason (R):** In the S$_\text{N}$2 mechanism the nucleophile attacks the carbon from the side opposite to the leaving group.",
+    "options": [
+      "Both A and R are true, and R is the correct explanation of A.",
+      "Both A and R are true, but R is not the correct explanation of A.",
+      "A is true, but R is false.",
+      "A is false, but R is true."
+    ],
+    "answer": "A",
+    "model_answer": "**(a).** Backside attack turns the three remaining groups inside out, like an umbrella in the wind.",
+    "source_note": "Added Nov 2026 (objective top-up for live quiz)"
   }
 ]

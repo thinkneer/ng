@@ -90,6 +90,7 @@
         "marks": 1
       }
     ],
+    "hint": "A free aldehyde or ketone group is needed. Bromine water is a mild oxidising agent.",
     "source_note": "Expert Q&A Sheet 5 (Organic C), Q11"
   },
   {
@@ -111,6 +112,7 @@
         "marks": 1
       }
     ],
+    "hint": "Compare sugar, base and number of strands. The helix is held by backbone N–H···O=C bonds.",
     "source_note": "Expert Q&A Sheet 5 (Organic C), Q16"
   },
   {
@@ -159,6 +161,7 @@
         ]
       }
     ],
+    "hint": "Match each reagent to the one structural feature it proves.",
     "source_note": "Expert Q&A Sheet 5 (Organic C), Q17"
   },
   {
@@ -192,6 +195,43 @@
         "marks": 1
       }
     ],
+    "hint": "Whether a vitamin dissolves in fat or in water decides whether the body can store it.",
     "source_note": "Expert Q&A Sheet 5 (Organic C), Q19"
+  },
+  {
+    "id": "chem-c10-q01",
+    "chapter": "ch-10",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ-style",
+    "stem": "The two strands of the DNA double helix are held together by",
+    "options": [
+      "phosphodiester linkages",
+      "peptide bonds",
+      "hydrogen bonds between base pairs",
+      "glycosidic linkages"
+    ],
+    "answer": "C",
+    "model_answer": "**(c).** Adenine pairs with thymine (two hydrogen bonds) and guanine with cytosine (three). Phosphodiester links join nucleotides *within* a strand.",
+    "source_note": "Added Nov 2026 (objective top-up for live quiz)"
+  },
+  {
+    "id": "chem-c10-q02",
+    "chapter": "ch-10",
+    "type": "ar",
+    "marks": 1,
+    "stars": 3,
+    "label": "PYQ-style",
+    "stem": "**Assertion (A):** Sucrose is a non-reducing sugar.<br>**Reason (R):** In sucrose the anomeric carbons of both glucose and fructose are used in the glycosidic linkage.",
+    "options": [
+      "Both A and R are true, and R is the correct explanation of A.",
+      "Both A and R are true, but R is not the correct explanation of A.",
+      "A is true, but R is false.",
+      "A is false, but R is true."
+    ],
+    "answer": "A",
+    "model_answer": "**(a).** With C1 of glucose joined to C2 of fructose, no free aldehyde or ketone group can form, so Tollens' and Fehling's reagents are not reduced.",
+    "source_note": "Added Nov 2026 (objective top-up for live quiz)"
   }
 ]

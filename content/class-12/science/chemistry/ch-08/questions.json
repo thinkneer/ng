@@ -162,6 +162,7 @@
         "marks": 1
       }
     ],
+    "hint": "Rosenmund: acid chloride, H₂ and poisoned palladium. Wolff–Kishner: hydrazine, then KOH in ethylene glycol.",
     "source_note": "Expert Q&A Sheet 4 (Organic B), Q9"
   },
   {
@@ -183,6 +184,7 @@
         "marks": 1
       }
     ],
+    "hint": "(i) Pick a test only aldehydes give. (ii) Pick a test only carboxylic acids give.",
     "source_note": "Expert Q&A Sheet 4 (Organic B), Q10"
   },
   {
@@ -204,6 +206,7 @@
         "marks": 1
       }
     ],
+    "hint": "(i) Electron-withdrawing groups strengthen the acid. (ii) Crowding and alkyl groups slow nucleophilic addition.",
     "source_note": "Expert Q&A Sheet 4 (Organic B), Q11"
   },
   {
@@ -225,6 +228,7 @@
         "marks": 1
       }
     ],
+    "hint": "Look at what stabilises the anion left behind in each case.",
     "source_note": "Expert Q&A Sheet 4 (Organic B), Q12"
   },
   {
@@ -254,6 +258,7 @@
         "marks": 1
       }
     ],
+    "hint": "The nucleophile is CN⁻. Ask where it comes from.",
     "source_note": "Expert Q&A Sheet 4 (Organic B), Q13"
   },
   {
@@ -279,6 +284,7 @@
         "marks": 1
       }
     ],
+    "hint": "(i) Oxidise to ethanal, then aldol. (ii) Reduce, then dehydrate. (iii) Grignard reagent, then CO₂.",
     "source_note": "Expert Q&A Sheet 4 (Organic B), Q14"
   },
   {
@@ -304,6 +310,7 @@
         "marks": 1
       }
     ],
+    "hint": "(i) Addition then loss of water with NH₂–Z. (ii) No α-hydrogen. (iii) HVZ reaction.",
     "source_note": "Expert Q&A Sheet 4 (Organic B), Q15"
   },
   {
@@ -329,6 +336,7 @@
         "marks": 1
       }
     ],
+    "hint": "(i) What does AlCl₃ bind to? (ii) Which nitrogen lone pairs are tied up by resonance with C=O? (iii) Dimers.",
     "source_note": "Expert Q&A Sheet 4 (Organic B), Q16"
   },
   {
@@ -381,6 +389,7 @@
         ]
       }
     ],
+    "hint": "Go test by test: 2,4-DNP shows any C=O, Tollens' shows an aldehyde, iodoform shows CH₃CO–.",
     "source_note": "Expert Q&A Sheet 4 (Organic B), Q17"
   },
   {
@@ -418,6 +427,7 @@
         "marks": 0.5
       }
     ],
+    "hint": "C₈H₈O with a positive iodoform test: a methyl ketone carrying a benzene ring.",
     "source_note": "Expert Q&A Sheet 4 (Organic B), Q18"
   },
   {
@@ -451,6 +461,7 @@
         "marks": 1
       }
     ],
+    "hint": "Propanal has α-hydrogens: aldol addition first, then loss of water on heating.",
     "source_note": "Expert Q&A Sheet 4 (Organic B), Q19"
   }
 ]

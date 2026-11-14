@@ -90,6 +90,7 @@
         "marks": 1
       }
     ],
+    "hint": "Cation first; ligands in alphabetical order; metal with its oxidation number; an anionic complex ends in -ate.",
     "source_note": "Expert Q&A Sheet 2 (Inorganic), Q11"
   },
   {
@@ -100,10 +101,10 @@
     "stars": 3,
     "label": "PYQ-style",
     "stem": "Draw the geometrical isomers of $\\ce{[Pt(NH3)2Cl2]}$. Which one is used in cancer treatment?",
-    "model_answer": "*(diagram to be added as SVG)* Square planar: *cis* has the two Cl adjacent (90$^\\circ$); *trans* has them opposite (180$^\\circ$). [½ + ½]<br>\nThe **cis** isomer (cis-platin) is the anticancer drug. [1]",
+    "model_answer": "Square planar: *cis* has the two Cl adjacent (90$^\\circ$); *trans* has them opposite (180$^\\circ$). [½ + ½]<br>\nThe **cis** isomer (cis-platin) is the anticancer drug. [1]",
     "scheme": [
       {
-        "step": "*(diagram to be added as SVG)* Square planar: *cis* has the two Cl adjacent (90$^\\circ$); *trans* has them opposite (180$^\\circ$).",
+        "step": "Square planar: *cis* has the two Cl adjacent (90$^\\circ$); *trans* has them opposite (180$^\\circ$).",
         "marks": 1
       },
       {
@@ -111,6 +112,7 @@
         "marks": 1
       }
     ],
+    "hint": "Square planar MA₂B₂: like ligands on the same side, or at opposite corners.",
     "source_note": "Expert Q&A Sheet 2 (Inorganic), Q12"
   },
   {
@@ -132,6 +134,7 @@
         "marks": 1.5
       }
     ],
+    "hint": "Co³⁺ is d⁶. F⁻ is weak field (no pairing); NH₃ causes pairing here.",
     "source_note": "Expert Q&A Sheet 2 (Inorganic), Q15"
   },
   {
@@ -157,6 +160,7 @@
         "marks": 1
       }
     ],
+    "hint": "Low spin needs Δo > P. For (c), compare the size of Δt with Δo.",
     "source_note": "Expert Q&A Sheet 2 (Inorganic), Q16"
   },
   {
@@ -209,6 +213,7 @@
         ]
       }
     ],
+    "hint": "The colour seen is the complement of the colour absorbed; a larger Δo absorbs a shorter wavelength.",
     "source_note": "Expert Q&A Sheet 2 (Inorganic), Q17"
   },
   {
@@ -238,6 +243,43 @@
         "marks": 1
       }
     ],
+    "hint": "Ni²⁺ is d⁸ in one complex, Ni(0) is d¹⁰ in the other. Which ligand pairs up electrons?",
     "source_note": "Expert Q&A Sheet 2 (Inorganic), Q19"
+  },
+  {
+    "id": "chem-c05-q01",
+    "chapter": "ch-05",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ-style",
+    "stem": "The IUPAC name of $\\ce{[Ni(CO)4]}$ is",
+    "options": [
+      "tetracarbonylnickel(II)",
+      "tetracarbonylnickel(0)",
+      "tetracarbonylnickelate(0)",
+      "nickel tetracarbonate"
+    ],
+    "answer": "B",
+    "model_answer": "**(b) tetracarbonylnickel(0).** CO is neutral, so nickel is in the zero oxidation state; a neutral complex takes no -ate ending.",
+    "source_note": "Added Nov 2026 (objective top-up for live quiz)"
+  },
+  {
+    "id": "chem-c05-q02",
+    "chapter": "ch-05",
+    "type": "ar",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ-style",
+    "stem": "**Assertion (A):** Tetrahedral complexes do not show geometrical isomerism.<br>**Reason (R):** In a tetrahedral complex all four positions are adjacent to one another, so the relative positions of the ligands are the same.",
+    "options": [
+      "Both A and R are true, and R is the correct explanation of A.",
+      "Both A and R are true, but R is not the correct explanation of A.",
+      "A is true, but R is false.",
+      "A is false, but R is true."
+    ],
+    "answer": "A",
+    "model_answer": "**(a).** There is no \"opposite\" position in a tetrahedron, so cis and trans arrangements cannot be told apart.",
+    "source_note": "Added Nov 2026 (objective top-up for live quiz)"
   }
 ]

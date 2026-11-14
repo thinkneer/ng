@@ -624,13 +624,14 @@
                       },
                       "marks_hint": "7 marks (unit weightage, CBSE 2026–27)",
                       "summary": "Concentration · Henry & Raoult · ideal/non-ideal · colligative properties · van't Hoff factor",
-                      "questions": 7,
+                      "questions": 11,
                       "question_types": {
-                        "mcq": 2,
-                        "ar": 1,
+                        "mcq": 4,
+                        "ar": 2,
                         "vsa2": 2,
                         "sa3": 1,
-                        "la5": 1
+                        "la5": 1,
+                        "case": 1
                       },
                       "diagrams": [],
                       "words": 6169,
@@ -658,12 +659,14 @@
                       },
                       "marks_hint": "9 marks (unit weightage, CBSE 2026–27)",
                       "summary": "Galvanic cells · Nernst · conductance · Kohlrausch · electrolysis · batteries & fuel cells · corrosion",
-                      "questions": 8,
+                      "questions": 13,
                       "question_types": {
-                        "mcq": 2,
+                        "mcq": 4,
                         "vsa2": 2,
                         "sa3": 3,
-                        "la5": 1
+                        "la5": 1,
+                        "ar": 2,
+                        "case": 1
                       },
                       "diagrams": [],
                       "words": 5825,
@@ -691,10 +694,10 @@
                       },
                       "marks_hint": "7 marks (unit weightage, CBSE 2026–27)",
                       "summary": "Rate · rate law · order & molecularity · integrated equations · half-life · Arrhenius · collision theory",
-                      "questions": 7,
+                      "questions": 10,
                       "question_types": {
-                        "mcq": 2,
-                        "ar": 1,
+                        "mcq": 4,
+                        "ar": 2,
                         "vsa2": 1,
                         "sa3": 2,
                         "case": 1
@@ -725,13 +728,14 @@
                       },
                       "marks_hint": "7 marks (unit weightage, CBSE 2026–27)",
                       "summary": "Configuration · trends with reasons · $E^\\circ$ anomalies · magnetism & colour · K$_2$Cr$_2$O$_7$ & KMnO$_4$ · lanthanoids & actinoids",
-                      "questions": 9,
+                      "questions": 12,
                       "question_types": {
-                        "mcq": 3,
-                        "ar": 1,
+                        "mcq": 4,
+                        "ar": 2,
                         "vsa2": 2,
                         "sa3": 2,
-                        "la5": 1
+                        "la5": 1,
+                        "case": 1
                       },
                       "diagrams": [],
                       "words": 6411,
@@ -759,10 +763,10 @@
                       },
                       "marks_hint": "7 marks (unit weightage, CBSE 2026–27)",
                       "summary": "Werner · definitions · IUPAC naming · isomerism · VBT · CFT & colour · metal carbonyls · applications",
-                      "questions": 10,
+                      "questions": 12,
                       "question_types": {
-                        "mcq": 3,
-                        "ar": 1,
+                        "mcq": 4,
+                        "ar": 2,
                         "vsa2": 2,
                         "sa3": 2,
                         "case": 1,
@@ -794,10 +798,10 @@
                       },
                       "marks_hint": "6 marks (unit weightage, CBSE 2026–27)",
                       "summary": "Preparation · S$_\\text{N}$1/S$_\\text{N}$2 · stereochemistry · elimination · metals · haloarenes · polyhalogen compounds",
-                      "questions": 9,
+                      "questions": 11,
                       "question_types": {
-                        "mcq": 3,
-                        "ar": 1,
+                        "mcq": 4,
+                        "ar": 2,
                         "vsa2": 2,
                         "sa3": 2,
                         "case": 1
@@ -828,13 +832,14 @@
                       },
                       "marks_hint": "6 marks (unit weightage, CBSE 2026–27)",
                       "summary": "Preparation · acidity · reactions of alcohols & phenol · mechanisms · ethers · commercially important alcohols",
-                      "questions": 10,
+                      "questions": 13,
                       "question_types": {
-                        "mcq": 3,
-                        "ar": 1,
+                        "mcq": 4,
+                        "ar": 2,
                         "vsa2": 2,
                         "sa3": 2,
-                        "la5": 2
+                        "la5": 2,
+                        "case": 1
                       },
                       "diagrams": [],
                       "words": 5643,
@@ -897,13 +902,14 @@
                       },
                       "marks_hint": "6 marks (unit weightage, CBSE 2026–27)",
                       "summary": "Preparation · basicity · reactions · aniline substitution · diazonium salts · conversions",
-                      "questions": 11,
+                      "questions": 14,
                       "question_types": {
-                        "mcq": 3,
-                        "ar": 1,
+                        "mcq": 4,
+                        "ar": 2,
                         "vsa2": 3,
                         "sa3": 3,
-                        "la5": 1
+                        "la5": 1,
+                        "case": 1
                       },
                       "diagrams": [],
                       "words": 5519,
@@ -931,10 +937,10 @@
                       },
                       "marks_hint": "7 marks (unit weightage, CBSE 2026–27)",
                       "summary": "Carbohydrates · glucose structure · disaccharides & polysaccharides · proteins · enzymes · vitamins · nucleic acids · hormones",
-                      "questions": 8,
+                      "questions": 10,
                       "question_types": {
-                        "mcq": 3,
-                        "ar": 1,
+                        "mcq": 4,
+                        "ar": 2,
                         "vsa2": 1,
                         "sa3": 1,
                         "case": 1,
