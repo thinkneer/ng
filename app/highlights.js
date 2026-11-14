@@ -91,13 +91,21 @@ export function attach(prose, layer) {
 
 /* ---------- jump from the list ---------- */
 export function askJump(id) { try { sessionStorage.setItem('ng.hl.jump', id); } catch { /* ignore */ } }
+function flash(m) { m.scrollIntoView({ block: 'center', behavior: 'smooth' }); m.classList.add('hl--flash'); setTimeout(() => m.classList.remove('hl--flash'), 1600); }
+/** Go to a highlight: if it is already on this page, scroll to it; otherwise navigate to `href` and jump after render. */
+export function jumpTo(id, href) {
+  const m = document.querySelector(`mark.hl[data-hl="${CSS.escape(id)}"]`);
+  if (m) { setTimeout(() => flash(m), 250); return; }
+  askJump(id);
+  if (href && href !== location.hash) location.hash = href;
+}
 function jumpIfAsked(prose) {
   let id; try { id = sessionStorage.getItem('ng.hl.jump'); } catch { return; }
   if (!id) return;
   const m = prose.querySelector(`mark.hl[data-hl="${CSS.escape(id)}"]`);
   if (!m) return;
   sessionStorage.removeItem('ng.hl.jump');
-  setTimeout(() => { m.scrollIntoView({ block: 'center', behavior: 'smooth' }); m.classList.add('hl--flash'); setTimeout(() => m.classList.remove('hl--flash'), 1600); }, 150);
+  setTimeout(() => flash(m), 150);
 }
 
 /* ---------- selection → toolbar ---------- */

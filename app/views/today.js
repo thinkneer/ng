@@ -1,4 +1,4 @@
-import { html, raw, icon, largeTitle, ring, esc, cover, today as todayDate, parseDate, daysBetween, fmtDate, plural } from '../ui.js';
+import { html, raw, icon, largeTitle, esc, cover, today as todayDate, parseDate, daysBetween, fmtDate } from '../ui.js';
 import { data, routeFor } from '../data.js';
 import { store } from '../store.js';
 import { pwa } from '../pwa.js';
@@ -20,9 +20,6 @@ export async function today() {
   const next = papers[0];
   const nextSubj = next && mine.find((m) => m.id === next.subject);
   const progress = store.progress();
-  const chapterTotal = mine.reduce((n, sub) => n + data.allChapters(sub).length, 0);
-  const done = mine.reduce((n, sub) => n + data.allChapters(sub).filter((c) => progress.tracker?.[`${sub.id}/${c.id}`]?.R1).length, 0);
-  const pct = chapterTotal ? (done / chapterTotal) * 100 : 0;
   const todayStr = fmtDate(t0, { weekday: 'long', day: 'numeric', month: 'long' });
   const last = store.get('reader.last', null);
   const rs = recallSummary();
@@ -54,19 +51,6 @@ export async function today() {
         <span class="continue__main"><span class="continue__title truncate" style="display:block">Ch ${last.number} · ${esc(last.title)}</span><span class="continue__sec">${esc(last.subject)} · ${Math.round((last.f || 0) * 100)}% read</span><span class="bar"><span style="width:${Math.round((last.f || 0) * 100)}%"></span></span></span>
         ${icon('chevronRight', { class: 'chev', size: 20 })}
       </a>`) : ''}
-
-      <div class="section-head"><h2>Your plan</h2><a href="#/plan">Open</a></div>
-      <div class="card">
-        <div class="row">
-          ${ring(pct, `${done}/${chapterTotal}`, 'revised', '4.75rem')}
-          <div class="grow">
-            <div class="t-headline">Board_Plan_2027 is on its way</div>
-            <p class="t-2 t-footnote mt-2">The day-by-day plan lands in the next update. Until then, tick chapters in <a href="#/progress">Progress</a> and work from the subject pages.</p>
-          </div>
-        </div>
-      </div>
-
-      ${papers.length > 1 ? raw(`<div class="section-head"><h2>Days left</h2></div><div class="stats">${papers.map((p) => `<div class="stat" style="--unit:#${mine.find((m) => m.id === p.subject)?.colour}"><div class="stat__value tnum" style="color:var(--unit)">${p.days}</div><div class="stat__label">${esc(p.name)} · ${fmtDate(p.date, { day: 'numeric', month: 'short' })}</div></div>`).join('')}</div>`) : ''}
 
       <div class="section-head"><h2>Your subjects</h2><a href="#/subjects">Add or remove</a></div>
       <div class="shelf rise">

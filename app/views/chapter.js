@@ -1,12 +1,10 @@
-import { html, raw, icon, esc, emptyState, skeletonList, toast, haptic } from '../ui.js';
+import { html, raw, icon, esc, emptyState, skeletonList, toast, haptic, openSheet } from '../ui.js';
 import { data, routeFor } from '../data.js';
 import { store } from '../store.js';
 import { preloadMarkdown } from '../markdown.js';
 
-const TABS = [
-  { id: 'notes', label: 'Read' }, { id: 'mustknow', label: 'Must know' }, { id: 'practice', label: 'Practice' },
-  { id: 'exam', label: 'Exam' }, { id: 'mynotes', label: 'My notes' },
-];
+// Three tabs only: Read (full notes), Must know (recall lines), Practice (questions). Highlights + My notes live in a sheet.
+const TABS = [{ id: 'notes', label: 'Read' }, { id: 'mustknow', label: 'Must know' }, { id: 'practice', label: 'Practice' }];
 const TRACK = [['L', 'Learnt'], ['R1', 'Revised 1'], ['PYQ', 'PYQ set'], ['R2', 'Revised 2'], ['E', 'Exam-ready']];
 
 export async function chapter(route) {
@@ -19,6 +17,7 @@ export async function chapter(route) {
   if (route.tab === 'read') { const { reader } = await import('./reader.js'); return reader({ cls, stream, sub, unit, ch }); }
   if (route.tab === 'recall') { const { recallChapter } = await import('./recall.js'); return recallChapter({ cls, stream, sub, unit, ch }); }
   if (route.tab === 'formulas') route = { ...route, tab: 'mustknow' }; // old links
+  if (route.tab === 'mynotes') route = { ...route, tab: null, openHighlights: true }; // old links: the sheet now
   const defaultTab = ch.items?.notes ? 'notes' : ch.items?.mustknow ? 'mustknow' : 'notes';
   const tab = TABS.some((t) => t.id === route.tab) ? route.tab : defaultTab;
   const key = `${sub.id}/${ch.id}`;
@@ -26,21 +25,14 @@ export async function chapter(route) {
   const all = data.allChapters(sub);
   const i = all.findIndex((c) => c.id === ch.id);
   const prev = all[i - 1], next = all[i + 1];
+  const ctx = { sub, ch, unit, key, cls, stream, base };
 
   return {
     title: `Ch ${ch.number} · ${ch.title}`, tab: 'subjects', back: routeFor(cls.id, stream.id, sub.id), backLabel: sub.name, unitColour: unit.colour, wide: true,
-    actions: `<a class="icon-btn" href="${base}/read" aria-label="Reading mode" title="Reading mode">${icon('book')}</a><button class="icon-btn hide-phone" type="button" data-print aria-label="Print" title="Print">${icon('print')}</button>`,
+    actions: `<a class="icon-btn" href="${base}/read" aria-label="Reading mode" title="Reading mode">${icon('book')}</a><button class="icon-btn" type="button" data-highlights aria-label="Highlights and my notes" title="Highlights and my notes">${icon('highlight')}</button><button class="icon-btn hide-phone" type="button" data-print aria-label="Print" title="Print">${icon('print')}</button>`,
     html: html`
       <div class="unit-bar" style="--unit:#${unit.colour};margin-top:var(--s-3)"><span>${esc(sub.name)} · Unit ${esc(unit.id)} · ${esc(unit.name)}</span><span class="marks">${unit.marks} marks</span></div>
-      <h1 class="t-title" style="margin:var(--s-2) 0 var(--s-1)"><span class="t-2" style="font-weight:600">${ch.number}.</span> ${ch.title}</h1>
-      ${ch.marks_hint ? html`<p class="t-2 t-footnote mb-2">${ch.marks_hint}</p>` : ''}
-      <div class="card card--pad-0 mb-4" style="--unit:#${unit.colour}">
-        <div class="row" style="padding:var(--s-2) var(--s-3);gap:var(--s-1);flex-wrap:wrap" data-tracker>
-          ${TRACK.map(([k, label]) => raw(`<button class="chip" type="button" data-track="${k}" aria-pressed="false" title="${label}">${k}</button>`))}
-          <span class="grow"></span>
-          <label class="row t-footnote t-2" style="margin:0;gap:var(--s-2)">Confidence <select data-conf aria-label="Confidence 1 to 5" style="width:auto;min-height:2rem;padding:0.2rem 1.6rem 0.2rem 0.6rem;font-size:0.875rem"><option value="">–</option>${raw([1, 2, 3, 4, 5].map((n) => `<option value="${n}">${n}</option>`).join(''))}</select></label>
-        </div>
-      </div>
+      <h1 class="t-title" style="margin:var(--s-2) 0 var(--s-3)"><span class="t-2" style="font-weight:600">${ch.number}.</span> ${ch.title}</h1>
       <div class="segmented" role="tablist" aria-label="Chapter sections" style="--unit:#${unit.colour}">
         ${TABS.map((t) => raw(`<a class="segmented__btn" role="tab" href="${base}/${t.id}" aria-selected="${t.id === tab}" ${t.id === tab ? 'aria-current="page"' : ''}>${t.label}</a>`))}
       </div>
@@ -53,21 +45,12 @@ export async function chapter(route) {
         ${next ? raw(`<a class="btn btn--plain btn--sm" href="${routeFor(cls.id, stream.id, sub.id, next.id, tab)}">Ch ${next.number} ${icon('chevronRight')}</a>`) : ''}
       </div>`,
     async mount(el) {
-      // tracker
-      const tr = () => store.tracker(key);
-      const paint = () => { const t = tr(); for (const b of el.querySelectorAll('[data-track]')) b.setAttribute('aria-pressed', String(!!t[b.dataset.track])); el.querySelector('[data-conf]').value = t.confidence || ''; };
-      paint();
-      el.querySelector('[data-tracker]').addEventListener('click', (e) => {
-        const b = e.target.closest('[data-track]'); if (!b) return;
-        const k = b.dataset.track; const on = !tr()[k];
-        store.setTracker(key, { [k]: on }); haptic(on ? 'success' : 'light'); paint();
-      });
-      el.querySelector('[data-conf]').addEventListener('change', (e) => { store.setTracker(key, { confidence: e.target.value ? Number(e.target.value) : undefined }); haptic(); });
       document.querySelector('[data-print]')?.addEventListener('click', () => window.print());
-      // content
+      document.querySelector('[data-highlights]')?.addEventListener('click', () => openHighlights(ctx));
+      if (route.openHighlights) setTimeout(() => openHighlights(ctx), 50);
       const panel = el.querySelector('#tab-content');
       const rail = el.querySelector('#rail');
-      await renderTab(tab, { panel, rail, sub, ch, unit, key, cls, stream });
+      await renderTab(tab, { ...ctx, panel, rail });
     },
   };
 }
@@ -94,6 +77,8 @@ async function renderTab(tab, ctx) {
       panel.innerHTML = `<div class="card card--tint row mb-4" style="--unit:#${unit.colour}"><span class="list__leading">${icon('bolt')}</span><div class="grow"><div class="t-headline">Recall this chapter</div><div class="t-2 t-footnote">${n} cards${n > 25 ? ', 25 a round' : ''}${due ? ` · <strong>${due} due today</strong>` : ''} · about ${Math.max(1, Math.ceil(Math.min(n, 25) / 4))} min</div></div><a class="btn btn--unit btn--sm" href="${routeFor(ctx.cls.id, ctx.stream.id, sub.id, ch.id, 'recall')}">Start</a></div>`;
       panel.appendChild(node);
       panel.insertAdjacentHTML('beforeend', '<p class="legend"><span><span class="stars">★★★</span> most years</span><span><span class="stars">★★</span> often</span><span><span class="stars">★</span> sometimes</span><span>· estimates</span></p>');
+      panel.insertAdjacentHTML('beforeend', progressSection(key));
+      mountProgress(panel, key);
     } else {
       panel.innerHTML = `<div class="row mb-4" style="gap:var(--s-2);flex-wrap:wrap"><a class="btn btn--unit btn--sm" href="${routeFor(ctx.cls.id, ctx.stream.id, sub.id, ch.id, 'read')}" style="--unit:#${unit.colour}">${icon('book')} Read full screen</a>${ch.read_minutes ? `<span class="t-footnote t-2">about ${ch.read_minutes} min</span>` : ''}</div>`;
       panel.appendChild(node);
@@ -107,29 +92,54 @@ async function renderTab(tab, ctx) {
   }
   if (tab === 'practice') {
     const q = ch.items?.questions ? await data.questions(sub, ch.id).catch(() => null) : null;
-    if (!q?.length) { panel.innerHTML = String(emptyState({ icon: 'practice', title: 'No practice questions yet', text: 'Question sets arrive with the practice module. Each question has a step-mark scheme so you can mark yourself.', action: requestLink })); return; }
+    if (!q?.length) { panel.innerHTML = String(emptyState({ icon: 'practice', title: 'No practice questions yet', text: 'Each question comes with a hint, a model answer and a step-mark scheme so you can mark yourself.', action: requestLink })); return; }
     const byType = Object.entries(ch.question_types || {});
     panel.innerHTML = `<div class="card"><div class="t-headline">${q.length} questions ready</div><p class="t-2 t-footnote mt-2">${byType.map(([t, n]) => `${n} ${t.toUpperCase()}`).join(' · ')}</p><p class="t-2 t-subhead mt-2">Practice mode (one question at a time, hints, self-marking) is the next thing being built. Until then, use the chapter notes and formula sheet.</p></div>`;
-    return;
   }
-  if (tab === 'exam') {
-    panel.innerHTML = String(emptyState({ icon: 'timer', title: 'Timed exams are coming', text: `Full papers on the CBSE 2026–27 ${esc(sub.name)} pattern, one unit or chosen chapters, with the marking scheme after you submit.` }));
-    return;
-  }
-  if (tab === 'mynotes') {
-    const { listForChapter, askJump, COLORS } = await import('../highlights.js');
-    const hs = listForChapter(key);
-    const layerName = { notes: 'Read', mustknow: 'Must know', formulas: 'Formula sheet' };
-    const hlHtml = hs.length ? `<div class="list__header" style="padding-left:0">Your highlights <span class="count">${hs.length}</span></div><div class="list">${hs.map((h) => { const layer = h.layer.split('/').pop(); const target = layer === 'formulas' ? routeFor(ctx.cls.id, ctx.stream.id, sub.id, 'formulas') : routeFor(ctx.cls.id, ctx.stream.id, sub.id, ch.id, layer); return `<a class="list__item hl-item" href="${target}" data-jump="${esc(h.id)}"><span class="hl-item__bar hl-bg--${h.color}"></span><span class="list__body"><span class="list__title hl-item__q">${esc(h.exact)}</span>${h.note ? `<span class="list__sub hl-item__n">${esc(h.note)}</span>` : ''}<span class="list__sub">${layerName[layer] || layer}</span></span><span class="list__trailing">${icon('chevronRight', { class: 'chev' })}</span></a>`; }).join('')}</div>` : `<div class="notice mb-4">${icon('highlight')}<div><strong>Highlight as you read.</strong> Select any words in Read or Must know, then pick a colour. Add a note if you like. They all collect here.</div></div>`;
-    panel.innerHTML = hlHtml + `<div class="list__header" style="padding-left:0;margin-top:var(--s-4)">Free notes</div>` + `<div class="mynotes"><label for="mynote">Your notes for this chapter (saved on this device)</label><textarea id="mynote" placeholder="Formulas you keep forgetting, traps from your tests, things your teacher stressed…"></textarea><div class="row row--between mt-2"><span class="t-footnote t-3" id="mynote-status">Saved locally</span><button class="btn btn--sm btn--ghost" type="button" id="mynote-clear">Clear</button></div></div>`;
-    panel.addEventListener('click', (e) => { const a = e.target.closest('[data-jump]'); if (a) askJump(a.dataset.jump); });
-    const ta = panel.querySelector('#mynote'); const status = panel.querySelector('#mynote-status');
-    ta.value = store.myNote(key);
-    let t;
-    ta.addEventListener('input', () => { status.textContent = 'Saving…'; clearTimeout(t); t = setTimeout(() => { store.setMyNote(key, ta.value); status.textContent = 'Saved locally'; }, 400); });
-    panel.querySelector('#mynote-clear').addEventListener('click', () => {
-      const old = ta.value; if (!old) return; ta.value = ''; store.setMyNote(key, '');
-      toast('Notes cleared', { action: 'Undo', onAction: () => { ta.value = old; store.setMyNote(key, old); } });
-    });
-  }
+}
+
+/* ---------- Progress (small section at the foot of Must know) ---------- */
+function progressSection(key) {
+  const t = store.tracker(key);
+  return `<div class="card mt-6" data-tracker>
+    <div class="t-headline">Progress</div>
+    <div class="row mt-3" style="gap:var(--s-1);flex-wrap:wrap">${TRACK.map(([k, label]) => `<button class="chip" type="button" data-track="${k}" aria-pressed="${!!t[k]}" title="${label}">${k}</button>`).join('')}<span class="grow"></span>
+      <label class="row t-footnote t-2" style="margin:0;gap:var(--s-2)">Confidence <select data-conf aria-label="Confidence 1 to 5" style="width:auto;min-height:2rem;padding:0.2rem 1.6rem 0.2rem 0.6rem;font-size:0.875rem"><option value="">–</option>${[1, 2, 3, 4, 5].map((n) => `<option value="${n}" ${t.confidence === n ? 'selected' : ''}>${n}</option>`).join('')}</select></label></div>
+    <p class="t-footnote t-3 mt-2">L learnt · R1, R2 revised · PYQ past-paper set done · E exam-ready</p>
+  </div>`;
+}
+function mountProgress(panel, key) {
+  const box = panel.querySelector('[data-tracker]'); if (!box) return;
+  box.addEventListener('click', (e) => {
+    const b = e.target.closest('[data-track]'); if (!b) return;
+    const on = !store.tracker(key)[b.dataset.track];
+    store.setTracker(key, { [b.dataset.track]: on }); b.setAttribute('aria-pressed', String(on)); haptic(on ? 'success' : 'light');
+  });
+  box.querySelector('[data-conf]').addEventListener('change', (e) => { store.setTracker(key, { confidence: e.target.value ? Number(e.target.value) : undefined }); haptic(); });
+}
+
+/* ---------- Highlights + My notes sheet ---------- */
+async function openHighlights({ key, sub, ch, cls, stream }) {
+  const { listForChapter, jumpTo } = await import('../highlights.js');
+  const hs = listForChapter(key);
+  const layerName = { notes: 'Read', mustknow: 'Must know', formulas: 'Formula sheet' };
+  const list = hs.length
+    ? `<div class="list">${hs.map((h) => { const layer = h.layer.split('/').pop(); const target = layer === 'formulas' ? routeFor(cls.id, stream.id, sub.id, 'formulas') : routeFor(cls.id, stream.id, sub.id, ch.id, layer); return `<a class="list__item hl-item" href="${target}" data-jump="${esc(h.id)}"><span class="hl-item__bar hl-bg--${h.color}"></span><span class="list__body"><span class="list__title hl-item__q">${esc(h.exact)}</span>${h.note ? `<span class="list__sub hl-item__n">${esc(h.note)}</span>` : ''}<span class="list__sub">${layerName[layer] || layer}</span></span><span class="list__trailing">${icon('chevronRight', { class: 'chev' })}</span></a>`; }).join('')}</div>`
+    : `<div class="notice">${icon('highlight')}<div>Select any words in Read, Must know or the formula sheet, then pick a colour. Add a note if you like. They collect here.</div></div>`;
+  const s = openSheet({
+    title: 'Highlights', closeLabel: 'Done',
+    content: `${list}
+      <div class="list__header" style="padding-left:0;margin-top:var(--s-4)">My notes</div>
+      <div class="mynotes"><label for="mynote" class="sr-only">Your notes for this chapter</label><textarea id="mynote" rows="5" placeholder="Formulas you keep forgetting, traps from your tests, things your teacher stressed…"></textarea>
+      <div class="row row--between mt-2"><span class="t-footnote t-3" id="mynote-status">Saved on this device</span><button class="btn btn--sm btn--ghost" type="button" id="mynote-clear">Clear</button></div></div>`,
+  });
+  s.body.addEventListener('click', (e) => { const a = e.target.closest('[data-jump]'); if (!a) return; s.close(); jumpTo(a.dataset.jump, a.getAttribute('href')); e.preventDefault(); });
+  const ta = s.body.querySelector('#mynote'); const status = s.body.querySelector('#mynote-status');
+  ta.value = store.myNote(key);
+  let t;
+  ta.addEventListener('input', () => { status.textContent = 'Saving…'; clearTimeout(t); t = setTimeout(() => { store.setMyNote(key, ta.value); status.textContent = 'Saved on this device'; }, 400); });
+  s.body.querySelector('#mynote-clear').addEventListener('click', () => {
+    const old = ta.value; if (!old) return; ta.value = ''; store.setMyNote(key, '');
+    toast('Notes cleared', { action: 'Undo', onAction: () => { store.setMyNote(key, old); } });
+  });
 }
