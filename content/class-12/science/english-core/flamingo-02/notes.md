@@ -22,6 +22,14 @@ Saheb's home is **Seemapuri**, a settlement on the edge of Delhi, geographically
 
 For the adults, **garbage is gold**: it is their daily bread and the roof over their heads. For the children it is something more — it is wrapped in **wonder**; sometimes a boy finds a rupee or even a ten-rupee note and hopes to find more. This difference between the adult's necessity and the child's hope is one of the chapter's most-asked points.
 
+```ng-mnemonic
+id: lost-spring-garbage
+title: Gold or wonder?
+trick: **Gold for the old, wonder for the young**
+meaning: For parents garbage is daily bread and a roof; for children it is a treasure hunt — a rupee, sometimes a ten-rupee note.
+prompt: What does garbage mean to the adults and to the children of Seemapuri?
+```
+
 **In one breath:** Seemapuri is a slum of 10,000 Bangladeshi migrants where garbage is the adults' livelihood and the children's treasure hunt.
 
 ## Saheb loses his freedom
@@ -31,6 +39,12 @@ Saheb watches tennis at the club gate; a boy in a white shirt plays while he sta
 :::tip The canister and the bag
 The examiner looks for the contrast: the plastic bag was his own (freedom, however poor); the steel canister belongs to his employer (security without freedom). Name both objects in your answer.
 :::
+
+```ng-explain
+id: explain-canister
+prompt: In three lines, explain why the steel canister is heavier than the plastic bag though Saheb now earns money.
+lines: 3
+```
 
 **In one breath:** at the tea stall Saheb earns money and meals but loses the freedom of the ragpicker — the canister is heavier than the bag.
 
@@ -54,6 +68,18 @@ Mukesh's **grandmother** believes it is their **karam**, their **destiny**: born
 
 The author sees **Savita**, a young girl in drab pink, soldering pieces of glass with mechanical speed. She does not yet know the **sanctity of bangles**: they symbolise an Indian woman's **suhaag**, her married state. One day she will wear them as a bride, like the old woman beside her who still has bangles on her wrist but no light in her eyes — the old woman has not had one full meal in her life, and her husband, a bangle maker who knows nothing else, has given her only a roof. The irony: the makers of a symbol of joy never know joy themselves.
 
+```ng-fill
+id: lost-spring-facts
+title: Numbers and names to recall
+cols: Item | Answer
+row: Saheb's family came from | [[Dhaka, Bangladesh]]
+row: Ragpickers in Seemapuri | [[about 10,000]]
+row: Tea-stall wage | [[800 rupees and all meals]]
+row: Child workers in Firozabad | [[about 20,000]]
+row: Mukesh wants to be | [[a motor mechanic]]
+row: Bangles symbolise | [[suhaag]]
+```
+
 **In one breath:** Savita makes bangles whose meaning she does not know; the old woman beside her shows where that life ends — bangles on the wrist, hunger in the stomach.
 
 ## The vicious circle
@@ -65,6 +91,27 @@ Yet in Mukesh the author finds a **flash of daring**. He wants to be a mechanic.
 :::tip Name the circle
 A long answer on exploitation must name the links: sahukars, middlemen, policemen, keepers of law, bureaucrats, politicians — and explain how fear of the police stops the workers from forming a cooperative.
 :::
+
+```ng-steps
+id: flamingo-02-plot
+title: Lost Spring in six beats
+svg:
+<svg viewBox="0 0 320 200" role="img" aria-label="Plot of Who is who in Lost Spring" fill="none" stroke="currentColor" stroke-width="1.5" font-size="10"><path d="M30,90 H290" stroke-width="1"/><g data-step="1"><circle cx="30.0" cy="90" r="12"/><text x="30.0" y="94" text-anchor="middle" font-size="10" font-weight="700" fill="currentColor" stroke="none">1</text><text x="30.0" y="120" text-anchor="middle" font-size="9" fill="currentColor" stroke="none">Garbage is gold</text></g><g data-step="2"><circle cx="82.0" cy="90" r="12"/><text x="82.0" y="94" text-anchor="middle" font-size="10" font-weight="700" fill="currentColor" stroke="none">2</text><text x="82.0" y="160" text-anchor="middle" font-size="9" fill="currentColor" stroke="none">Barefoot 'tradition'</text></g><g data-step="3"><circle cx="134.0" cy="90" r="12"/><text x="134.0" y="94" text-anchor="middle" font-size="10" font-weight="700" fill="currentColor" stroke="none">3</text><text x="134.0" y="120" text-anchor="middle" font-size="9" fill="currentColor" stroke="none">Tea stall</text></g><g data-step="4"><circle cx="186.0" cy="90" r="12"/><text x="186.0" y="94" text-anchor="middle" font-size="10" font-weight="700" fill="currentColor" stroke="none">4</text><text x="186.0" y="160" text-anchor="middle" font-size="9" fill="currentColor" stroke="none">Firozabad furnaces</text></g><g data-step="5"><circle cx="238.0" cy="90" r="12"/><text x="238.0" y="94" text-anchor="middle" font-size="10" font-weight="700" fill="currentColor" stroke="none">5</text><text x="238.0" y="120" text-anchor="middle" font-size="9" fill="currentColor" stroke="none">Bangles and destiny</text></g><g data-step="6"><circle cx="290.0" cy="90" r="12" stroke="#E0B400"/><text x="290.0" y="94" text-anchor="middle" font-size="10" font-weight="700" fill="currentColor" stroke="none">6</text><text x="290.0" y="160" text-anchor="middle" font-size="9" fill="currentColor" stroke="none">Vicious circle</text></g></svg>
+step: Saheb, a migrant from Dhaka, scrounges in Seemapuri; the author's promise of a school is as empty as everyone's.
+step: An excuse hiding perpetual poverty; the Udipi priest's son has shoes, the ragpickers do not.
+step: 800 rupees and meals — but the steel canister is heavier than his own plastic bag; Saheb is no longer his own master.
+step: Mukesh's town: dark cells, glass dust, children losing their eyesight; he wants to be a mechanic.
+step: Savita, the old woman with no full meal, the grandmother's karam; makers of joy who know no joy.
+step: Sahukars, middlemen, police, bureaucrats, politicians; no cooperative, no leader — and Mukesh's flash of daring.
+```
+
+```ng-mnemonic
+id: lost-spring-circle
+title: The links of the vicious circle
+trick: **SMP-KBP**: Sahukars, Middlemen, Police — Keepers of law, Bureaucrats, Politicians
+meaning: Six links that trap the bangle makers; fear of the police stops any cooperative; there is no leader.
+prompt: Name the links of the vicious circle in Firozabad.
+```
 
 **In one breath:** the bangle makers are trapped by moneylenders, middlemen, police and politicians, and by their own belief in destiny; Mukesh's small dream of a garage is the one crack of light.
 
@@ -78,5 +125,28 @@ A long answer on exploitation must name the links: sahukars, middlemen, policeme
 - **Hope.** Mukesh's dream and Saheb's wonder in the garbage are the human spirit refusing to die.
 
 The author's **style**: first-person reportage, real names and places, telling details (the canister, the bangles on the old woman's wrist), irony (Saheb's name, bangle makers without joy), and questions that implicate the reader.
+
+```ng-figure
+id: flamingo-02-characters
+title: Who is who in Lost Spring
+svg:
+<svg viewBox="0 0 320 200" role="img" aria-label="People of Lost Spring" fill="none" stroke="currentColor" stroke-width="1.5" font-size="11"><g><circle cx="50" cy="109.82" r="6.82" fill="currentColor" fill-opacity="0.9" stroke="none"/><path d="M40.7,124.63999999999999 Q50,116.63999999999999 59.3,124.63999999999999 L57.812,138.96 L53.72,138.96 L54.464,165 H50.93 L50.372,140.2 H49.628 L49.07,165 H45.536 L46.28,138.96 L42.188,138.96 Z" fill="currentColor" fill-opacity="0.9" stroke="none"/></g><text x="50" y="178" text-anchor="middle" font-size="10" font-weight="700" fill="currentColor" stroke="none">Saheb</text><g><circle cx="120" cy="108.04" r="7.04" fill="currentColor" fill-opacity="0.9" stroke="none"/><path d="M110.4,123.08000000000001 Q120,115.08000000000001 129.6,123.08000000000001 L128.064,138.12 L123.84,138.12 L124.608,165 H120.96 L120.384,139.4 H119.616 L119.04,165 H115.392 L116.16,138.12 L111.936,138.12 Z" fill="currentColor" fill-opacity="0.9" stroke="none"/></g><text x="120" y="178" text-anchor="middle" font-size="10" font-weight="700" fill="currentColor" stroke="none">Mukesh</text><g><circle cx="185" cy="111.6" r="6.6" fill="currentColor" fill-opacity="0.6" stroke="none"/><path d="M176.0,126.19999999999999 Q185,118.19999999999999 194.0,126.19999999999999 L201.2,165 H168.8 Z" fill="currentColor" fill-opacity="0.6" stroke="none"/></g><text x="185" y="178" text-anchor="middle" font-size="10" font-weight="700" fill="currentColor" stroke="none">Savita</text><g><circle cx="245" cy="102.7" r="7.7" fill="currentColor" fill-opacity="0.5" stroke="none"/><path d="M234.5,118.4 Q245,110.4 255.5,118.4 L263.9,165 H226.1 Z" fill="currentColor" fill-opacity="0.5" stroke="none"/></g><text x="245" y="178" text-anchor="middle" font-size="10" font-weight="700" fill="currentColor" stroke="none">Old woman</text><g><circle cx="300" cy="104.48" r="7.48" fill="currentColor" fill-opacity="0.4" stroke="none"/><path d="M289.8,119.96000000000001 Q300,111.96000000000001 310.2,119.96000000000001 L318.36,165 H281.64 Z" fill="currentColor" fill-opacity="0.4" stroke="none"/><circle cx="300" cy="96.25200000000001" r="3.74" fill="currentColor" fill-opacity="0.4" stroke="none"/></g><text x="300" y="178" text-anchor="middle" font-size="10" font-weight="700" fill="currentColor" stroke="none">Grandmother</text></svg>
+caption: Saheb's story is Part 1; Mukesh, Savita, the old woman and the grandmother belong to Firozabad in Part 2.
+part: 50, 134 | Saheb | Ragpicker of Seemapuri from Dhaka; 'lord of the universe' barefoot; loses freedom at the tea stall.
+part: 120, 133 | Mukesh | Bangle maker's son in Firozabad who dares to want a garage.
+part: 185, 135 | Savita | Girl soldering glass who does not yet know what bangles mean.
+part: 245, 130 | Old woman | Bangles on her wrist, no light in her eyes, never one full meal.
+part: 300, 131 | Grandmother | Calls bangle making their karam — destiny.
+```
+
+```ng-compare
+id: saheb-vs-mukesh
+title: Two stolen childhoods
+cols: Saheb (Seemapuri) | Mukesh (Firozabad)
+row: Work | ragpicking, then a tea stall | hereditary glass bangle making
+row: What is lost | freedom (bag → canister), schooling | eyesight, childhood, the right to choose
+row: What traps him | migration, poverty, empty promises | caste, destiny, the vicious circle
+row: The spark of hope | wonder in the garbage, tennis shoes | the dream of a garage
+```
 
 **In one breath:** Anees Jung shows two children robbed of childhood by poverty, tradition and exploitation — and the small dreams that survive.

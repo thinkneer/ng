@@ -1,0 +1,101 @@
+[
+  {
+    "id": "flamingo-01-map",
+    "kind": "figure",
+    "title": "Who is who in The Last Lesson",
+    "svg": "ref: notes#flamingo-01-characters",
+    "back": "M. Hamel (teacher, 40 years), Franz (narrator who changes), Hauser and the villagers (respect and regret), Wachter (the first hint).",
+    "stars": 3,
+    "tags": [
+      "characters"
+    ]
+  },
+  {
+    "id": "flamingo-01-plot-card",
+    "kind": "process",
+    "title": "The Last Lesson in six beats",
+    "svg": "ref: notes#flamingo-01-plot",
+    "back": "Late → silence → announcement → blame → key to the prison → Vive La France! Six beats, one morning.",
+    "stars": 3,
+    "tags": [
+      "plot"
+    ]
+  },
+  {
+    "id": "ll-bulletin",
+    "kind": "event",
+    "title": "The bulletin board",
+    "svg": "<svg viewBox=\"0 0 320 200\" role=\"img\" aria-label=\"Two years of bad news — and today's order\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" font-size=\"11\"><rect x=\"60\" y=\"30\" width=\"200\" height=\"110\" fill=\"currentColor\" fill-opacity=\"0.85\" stroke=\"none\" rx=\"4\"/><rect x=\"80\" y=\"50\" width=\"160\" height=\"10\" fill=\"#E0B400\" fill-opacity=\"0.25\" stroke=\"none\"/><rect x=\"82\" y=\"72\" width=\"160\" height=\"10\" fill=\"#E0B400\" fill-opacity=\"0.25\" stroke=\"none\"/><rect x=\"84\" y=\"94\" width=\"160\" height=\"10\" fill=\"#E0B400\" fill-opacity=\"0.25\" stroke=\"none\"/><rect x=\"86\" y=\"116\" width=\"160\" height=\"10\" fill=\"#E0B400\" fill-opacity=\"0.45\" stroke=\"none\"/><g><circle cx=\"40\" cy=\"136.05\" r=\"6.05\" fill=\"currentColor\" fill-opacity=\"0.5\" stroke=\"none\"/><path d=\"M31.75,150.10000000000002 Q40,142.10000000000002 48.25,150.10000000000002 L46.93,161.9 L43.3,161.9 L43.96,185 H40.825 L40.33,163.0 H39.67 L39.175,185 H36.04 L36.7,161.9 L33.07,161.9 Z\" fill=\"currentColor\" fill-opacity=\"0.5\" stroke=\"none\"/></g><g><circle cx=\"290\" cy=\"122.7\" r=\"7.7\" fill=\"currentColor\" fill-opacity=\"0.5\" stroke=\"none\"/><path d=\"M279.5,138.4 Q290,130.4 300.5,138.4 L298.82,155.6 L294.2,155.6 L295.04,185 H291.05 L290.42,157.0 H289.58 L288.95,185 H284.96 L285.8,155.6 L281.18,155.6 Z\" fill=\"currentColor\" fill-opacity=\"0.5\" stroke=\"none\"/></g><text x=\"160.0\" y=\"192\" text-anchor=\"middle\" font-size=\"11\" font-style=\"italic\" fill=\"currentColor\" fill-opacity=\"0.85\" stroke=\"none\">Two years of bad news — and today's order</text></svg>",
+    "back": "Lost battles, the draft, officers' orders were all posted here. Today: only German in the schools of Alsace and Lorraine. Wachter's 'no hurry' is a sad joke.",
+    "stars": 2,
+    "tags": [
+      "event"
+    ]
+  },
+  {
+    "id": "ll-back-benches",
+    "kind": "event",
+    "title": "Villagers on the back benches",
+    "svg": "<svg viewBox=\"0 0 320 200\" role=\"img\" aria-label=\"Hauser, the former mayor, the postmaster — come to say thank you\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" font-size=\"11\"><rect x=\"30\" y=\"120\" width=\"260\" height=\"14\" fill=\"currentColor\" fill-opacity=\"0.5\" stroke=\"none\"/><g><circle cx=\"70\" cy=\"55.7\" r=\"7.7\" fill=\"currentColor\" fill-opacity=\"0.9\" stroke=\"none\"/><path d=\"M59.5,71.4 Q70,63.400000000000006 80.5,71.4 L78.82,88.6 L74.2,88.6 L75.04,118 H71.05 L70.42,90.0 H69.58 L68.95,118 H64.96 L65.8,88.6 L61.18,88.6 Z\" fill=\"currentColor\" fill-opacity=\"0.9\" stroke=\"none\"/><path d=\"M56.91,51.080000000000005 L70,37.99000000000001 L83.09,51.080000000000005 Z\" fill=\"currentColor\" fill-opacity=\"0.9\" stroke=\"none\"/></g><g><circle cx=\"130\" cy=\"55.7\" r=\"7.7\" fill=\"currentColor\" fill-opacity=\"0.7\" stroke=\"none\"/><path d=\"M119.5,71.4 Q130,63.400000000000006 140.5,71.4 L138.82,88.6 L134.2,88.6 L135.04,118 H131.05 L130.42,90.0 H129.58 L128.95,118 H124.96 L125.8,88.6 L121.18,88.6 Z\" fill=\"currentColor\" fill-opacity=\"0.7\" stroke=\"none\"/></g><g><circle cx=\"190\" cy=\"55.7\" r=\"7.7\" fill=\"currentColor\" fill-opacity=\"0.7\" stroke=\"none\"/><path d=\"M179.5,71.4 Q190,63.400000000000006 200.5,71.4 L198.82,88.6 L194.2,88.6 L195.04,118 H191.05 L190.42,90.0 H189.58 L188.95,118 H184.96 L185.8,88.6 L181.18,88.6 Z\" fill=\"currentColor\" fill-opacity=\"0.7\" stroke=\"none\"/></g><g><circle cx=\"250\" cy=\"55.7\" r=\"7.7\" fill=\"currentColor\" fill-opacity=\"0.7\" stroke=\"none\"/><path d=\"M239.5,71.4 Q250,63.400000000000006 260.5,71.4 L258.82,88.6 L254.2,88.6 L255.04,118 H251.05 L250.42,90.0 H249.58 L248.95,118 H244.96 L245.8,88.6 L241.18,88.6 Z\" fill=\"currentColor\" fill-opacity=\"0.7\" stroke=\"none\"/></g><path d=\"M55,150 Q65.0,146.4 75.0,150 Q85.0,146.4 95,150 V126 Q85.0,122.4 75.0,126 Q65.0,122.4 55,126 Z\" fill=\"currentColor\" fill-opacity=\"0.85\" stroke=\"none\"/><path d=\"M75.0,150 V126\" fill=\"none\" stroke=\"#E0B400\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><text x=\"160.0\" y=\"192\" text-anchor=\"middle\" font-size=\"11\" font-style=\"italic\" fill=\"currentColor\" fill-opacity=\"0.85\" stroke=\"none\">Hauser, the former mayor, the postmaster — come to say thank you</text></svg>",
+    "back": "They came to thank M. Hamel for forty years and to honour the country no longer theirs; they too regret not learning. Hauser's primer and spectacles are the detail examiners want.",
+    "stars": 3,
+    "tags": [
+      "event"
+    ]
+  },
+  {
+    "id": "ll-sunday-clothes",
+    "kind": "event",
+    "title": "M. Hamel's Sunday clothes",
+    "svg": "<svg viewBox=\"0 0 320 200\" role=\"img\" aria-label=\"Green coat, frilled shirt, embroidered silk cap\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" font-size=\"11\"><g><circle cx=\"160\" cy=\"46.5\" r=\"16.5\" fill=\"currentColor\" fill-opacity=\"0.9\" stroke=\"none\"/><path d=\"M137.5,71.0 Q160,63.0 182.5,71.0 L178.9,117.0 L169.0,117.0 L170.8,180 H162.25 L160.9,120.0 H159.1 L157.75,180 H149.2 L151.0,117.0 L141.1,117.0 Z\" fill=\"currentColor\" fill-opacity=\"0.9\" stroke=\"none\"/></g><rect x=\"142\" y=\"70\" width=\"36\" height=\"60\" fill=\"#E0B400\" fill-opacity=\"0.5\" stroke=\"none\"/><circle cx=\"160\" cy=\"44\" r=\"20\" fill=\"none\" stroke=\"#E0B400\" stroke-width=\"3\"/><text x=\"160.0\" y=\"192\" text-anchor=\"middle\" font-size=\"11\" font-style=\"italic\" fill=\"currentColor\" fill-opacity=\"0.85\" stroke=\"none\">Green coat, frilled shirt, embroidered silk cap</text></svg>",
+    "back": "Worn only on inspection and prize days — the first sign that the lesson is an occasion. Pair it with the silence and the villagers for the 'changes Franz noticed' answer.",
+    "stars": 2,
+    "tags": [
+      "event"
+    ]
+  },
+  {
+    "id": "ll-key",
+    "kind": "mnemonic",
+    "title": "Language is the key to the prison",
+    "svg": "<svg viewBox=\"0 0 320 200\" role=\"img\" aria-label=\"An enslaved people who keep their language stay free inside\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" font-size=\"11\"><g opacity=\"0.9\"><path d=\"M70.0,30 V160\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M100.0,30 V160\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M130.0,30 V160\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M160.0,30 V160\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M190.0,30 V160\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M220.0,30 V160\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M250.0,30 V160\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></g><g transform=\"translate(160,95) rotate(-20) scale(1.0)\"><path d=\"M0,0 m-18,0 a18,18 0 1 0 36,0 a18,18 0 1 0 -36,0 M14,0 H90 V14 H78 V6 H66 V16 H54 V6 H18 Z M-18,0 a9,9 0 1 1 18,0 a9,9 0 1 1 -18,0\" fill-rule=\"evenodd\" fill=\"#E0B400\" fill-opacity=\"1\" stroke=\"none\"/></g><text x=\"160.0\" y=\"192\" text-anchor=\"middle\" font-size=\"11\" font-style=\"italic\" fill=\"currentColor\" fill-opacity=\"0.85\" stroke=\"none\">An enslaved people who keep their language stay free inside</text></svg>",
+    "back": "M. Hamel's message: French is the clearest, most logical language; guard it. A conqueror attacks language to erase identity; keeping it keeps the way out. Examples: copies with France, Alsace; pigeons in German.",
+    "stars": 3,
+    "tags": [
+      "theme"
+    ]
+  },
+  {
+    "id": "ll-procrastination",
+    "kind": "mnemonic",
+    "title": "Tomorrow never came",
+    "svg": "<svg viewBox=\"0 0 320 200\" role=\"img\" aria-label=\"Procrastination — the habit of Alsace\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" font-size=\"11\"><g opacity=\"0.9\"><circle cx=\"160\" cy=\"90\" r=\"55\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\"/><path d=\"M160.0,43.0 L160.0,37.0 M183.5,49.3 L186.5,44.1 M200.7,66.5 L205.9,63.5 M207.0,90.0 L213.0,90.0 M200.7,113.5 L205.9,116.5 M183.5,130.7 L186.5,135.9 M160.0,137.0 L160.0,143.0 M136.5,130.7 L133.5,135.9 M119.3,113.5 L114.1,116.5 M113.0,90.0 L107.0,90.0 M119.3,66.5 L114.1,63.5 M136.5,49.3 L133.5,44.1 \" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M160,90 L158.8,62.5\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M160,90 L139.4,54.3\" fill=\"none\" stroke=\"#E0B400\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"160\" cy=\"90\" r=\"4\" fill=\"#E0B400\" stroke=\"none\"/></g><text x=\"160\" y=\"170\" text-anchor=\"middle\" font-size=\"10\" font-style=\"italic\" fill=\"currentColor\" fill-opacity=\"0.8\" stroke=\"none\">there is time enough… I'll learn tomorrow</text><text x=\"160.0\" y=\"192\" text-anchor=\"middle\" font-size=\"11\" font-style=\"italic\" fill=\"currentColor\" fill-opacity=\"0.85\" stroke=\"none\">Procrastination — the habit of Alsace</text></svg>",
+    "back": "Franz, the parents and M. Hamel himself all put learning off. The loss of the language makes everyone see the worth of what they neglected — the story's second theme after language.",
+    "stars": 3,
+    "tags": [
+      "theme"
+    ]
+  },
+  {
+    "id": "ll-pigeons",
+    "kind": "event",
+    "title": "Will they make the pigeons sing in German?",
+    "svg": "<svg viewBox=\"0 0 320 200\" role=\"img\" aria-label=\"A child's view of linguistic chauvinism\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" font-size=\"11\"><rect x=\"0\" y=\"120\" width=\"320\" height=\"6\" fill=\"currentColor\" fill-opacity=\"0.4\" stroke=\"none\"/><path d=\"M90,118 q6,-10 14,0 q-7,6 -14,0 Z\" fill=\"currentColor\" fill-opacity=\"0.8\" stroke=\"none\"/><path d=\"M150,112 q6,-10 14,0 q-7,6 -14,0 Z\" fill=\"currentColor\" fill-opacity=\"0.8\" stroke=\"none\"/><path d=\"M210,118 q6,-10 14,0 q-7,6 -14,0 Z\" fill=\"currentColor\" fill-opacity=\"0.8\" stroke=\"none\"/><circle cx=\"96\" cy=\"108\" r=\"6\" fill=\"currentColor\" fill-opacity=\"0.8\" stroke=\"none\"/><circle cx=\"156\" cy=\"102\" r=\"6\" fill=\"currentColor\" fill-opacity=\"0.8\" stroke=\"none\"/><circle cx=\"216\" cy=\"108\" r=\"6\" fill=\"currentColor\" fill-opacity=\"0.8\" stroke=\"none\"/><text x=\"160\" y=\"60\" text-anchor=\"middle\" font-size=\"20\" font-weight=\"700\" fill=\"#E0B400\" stroke=\"none\">Deutsch?</text><text x=\"160.0\" y=\"192\" text-anchor=\"middle\" font-size=\"11\" font-style=\"italic\" fill=\"currentColor\" fill-opacity=\"0.85\" stroke=\"none\">A child's view of linguistic chauvinism</text></svg>",
+    "back": "Franz's bitter thought captures the absurdity of forcing a language on a people. Use the term linguistic chauvinism with this example.",
+    "stars": 2,
+    "tags": [
+      "event"
+    ]
+  },
+  {
+    "id": "ll-vive",
+    "kind": "event",
+    "title": "The last two words",
+    "svg": "<svg viewBox=\"0 0 320 200\" role=\"img\" aria-label=\"Line to remember\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" font-size=\"11\"><g><rect x=\"28\" y=\"36\" width=\"264\" height=\"72\" fill=\"currentColor\" fill-opacity=\"0.08\" stroke=\"currentColor\" stroke-width=\"1.5\" rx=\"10\"/><path d=\"M50,108 L42,122 L64,108 Z\" fill=\"currentColor\" fill-opacity=\"0.9\" stroke=\"none\"/><text x=\"160.0\" y=\"79.0\" text-anchor=\"middle\" font-size=\"20\" font-weight=\"700\" fill=\"currentColor\" stroke=\"none\">Vive La France!</text></g><text x=\"160\" y=\"146\" text-anchor=\"middle\" font-size=\"11\" fill=\"currentColor\" fill-opacity=\"0.8\" stroke=\"none\">— chalked by M. Hamel, who could not speak</text><text x=\"160.0\" y=\"192\" text-anchor=\"middle\" font-size=\"11\" font-style=\"italic\" fill=\"currentColor\" fill-opacity=\"0.85\" stroke=\"none\">Line to remember</text></svg>",
+    "back": "At noon the Angelus and the Prussian trumpets sound; M. Hamel, pale and choked, writes the words as large as he can and dismisses the class with a gesture. His farewell is written, not spoken.",
+    "stars": 3,
+    "tags": [
+      "line"
+    ]
+  }
+]

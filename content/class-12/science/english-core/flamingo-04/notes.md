@@ -12,6 +12,14 @@ One day, thinking about his rattraps, he has an idea that pleases him: **the who
 A common 2-mark question. Answer: the world had been unkind to him, so imagining others caught in its trap gave him a bitter satisfaction and a sense of superiority — he, who had never got the bait, felt he was outside the trap.
 :::
 
+```ng-mnemonic
+id: rattrap-baits
+title: The baits of the world
+trick: **R-J-S-F-H-C**: Riches, Joys, Shelter, Food, Heat, Clothing
+meaning: The six baits the peddler lists; the moment someone touches one, the trap closes.
+prompt: What baits does the world's rattrap offer, in the peddler's theory?
+```
+
 **In one breath:** a poor peddler of rattraps decides the world itself is a rattrap baiting people with comforts; the idea consoles a man the world has ill-treated.
 
 ## The crofter's hospitality — and the thirty kronor
@@ -44,6 +52,14 @@ Half an hour later the ironmaster's daughter, **Edla Willmansson**, arrives with
 The ironmaster offered a comrade's hospitality to a captain — an identity the peddler knew was false, with the fear of exposure attached. Edla offered a stranger plain kindness, with freedom to leave and no questions. Compassion persuaded where status could not.
 :::
 
+```ng-mnemonic
+id: rattrap-two-kindnesses
+title: Two kinds of trust
+trick: **Careless crofter, knowing Edla**
+meaning: The crofter trusted without seeing — and was robbed. Edla saw his fear and trusted anyway — and was repaid. Kindness that sees the person transforms.
+prompt: Why did the crofter's kindness fail where Edla's succeeded?
+```
+
 **In one breath:** Edla's gentle compassion, and her promise that he may leave whenever he wants, succeed where her father's hearty invitation failed.
 
 ## Christmas Eve: the truth comes out
@@ -51,6 +67,16 @@ The ironmaster offered a comrade's hospitality to a captain — an identity the 
 At the manor the peddler is bathed, shaved and dressed in a good suit of the ironmaster's. In daylight, at the breakfast table, the ironmaster sees the man clearly — and realises his mistake. He is furious: the fellow has deceived him, and he must have known it; he will send for the **sheriff**. The peddler defends himself: he never pretended to be anyone, he said from the start that he did not want to come, and the whole world is a rattrap — the finer the bait, the quicker the fall. He asks only to put on his rags and go.
 
 Here Edla intervenes with the story's moral centre. She says the man should **stay for Christmas Day**. She had invited him; she wants him to have **one day of peace** in the year, since all year round he is chased from place to place, hungry and cold, with no home. Her father gives way, muttering that the man will probably steal the silver. The peddler stays, eats, sleeps, and is given the ironmaster's old suit to keep — Edla says it is a Christmas present, and he may come back next year if he wishes.
+
+```ng-compare
+id: ironmaster-vs-edla
+title: Two invitations
+cols: The ironmaster | Edla
+row: Who he thinks the peddler is | Captain von Stahle, an old comrade | a frightened stranger
+row: Offer | a comrade's Christmas at the manor | one evening; free to leave whenever he wishes
+row: Peddler's response | refuses — fear of exposure and the sheriff | agrees — disarmed by compassion
+row: After exposure | 'a cheat'; call the sheriff | 'let him have one day of peace'
+```
 
 **In one breath:** exposed at breakfast, the peddler is about to be handed to the sheriff; Edla insists he be given one day of peace and a Christmas, and her father relents.
 
@@ -64,6 +90,37 @@ The letter, written in a large, uneven hand, thanks her for her kindness: she ha
 The peddler signs as Captain von Stahle not because he is one but because being treated as one made him behave like one. The borrowed dignity became real; that is the meaning of being "raised to captain".
 :::
 
+```ng-steps
+id: flamingo-04-plot
+title: The Rattrap in six beats
+svg:
+<svg viewBox="0 0 320 200" role="img" aria-label="Plot of Who is who in The Rattrap" fill="none" stroke="currentColor" stroke-width="1.5" font-size="10"><path d="M30,90 H290" stroke-width="1"/><g data-step="1"><circle cx="30.0" cy="90" r="12"/><text x="30.0" y="94" text-anchor="middle" font-size="10" font-weight="700" fill="currentColor" stroke="none">1</text><text x="30.0" y="120" text-anchor="middle" font-size="9" fill="currentColor" stroke="none">The theory</text></g><g data-step="2"><circle cx="82.0" cy="90" r="12"/><text x="82.0" y="94" text-anchor="middle" font-size="10" font-weight="700" fill="currentColor" stroke="none">2</text><text x="82.0" y="160" text-anchor="middle" font-size="9" fill="currentColor" stroke="none">Thirty kronor</text></g><g data-step="3"><circle cx="134.0" cy="90" r="12"/><text x="134.0" y="94" text-anchor="middle" font-size="10" font-weight="700" fill="currentColor" stroke="none">3</text><text x="134.0" y="120" text-anchor="middle" font-size="9" fill="currentColor" stroke="none">Lost in the forest</text></g><g data-step="4"><circle cx="186.0" cy="90" r="12"/><text x="186.0" y="94" text-anchor="middle" font-size="10" font-weight="700" fill="currentColor" stroke="none">4</text><text x="186.0" y="160" text-anchor="middle" font-size="9" fill="currentColor" stroke="none">Ramsjö mistake</text></g><g data-step="5"><circle cx="238.0" cy="90" r="12"/><text x="238.0" y="94" text-anchor="middle" font-size="10" font-weight="700" fill="currentColor" stroke="none">5</text><text x="238.0" y="120" text-anchor="middle" font-size="9" fill="currentColor" stroke="none">Edla and Christmas</text></g><g data-step="6"><circle cx="290.0" cy="90" r="12" stroke="#E0B400"/><text x="290.0" y="94" text-anchor="middle" font-size="10" font-weight="700" fill="currentColor" stroke="none">6</text><text x="290.0" y="160" text-anchor="middle" font-size="9" fill="currentColor" stroke="none">Rattrap and letter</text></g></svg>
+step: The world is a rattrap: riches, food, shelter are baits; touch them and it closes.
+step: The crofter's porridge, cards and pouch; next morning the window pane and the notes.
+step: Walking in circles with the money, he knows he has taken the bait.
+step: The ironmaster calls him Captain von Stahle; the frightened thief refuses the invitation.
+step: Her compassion brings him home; exposed at breakfast, saved by her plea for one day of peace.
+step: Church news of the robbery; a rattrap with the notes and a letter signed Captain von Stahle.
+```
+
+```ng-fill
+id: rattrap-facts
+title: Facts to recall
+cols: Item | Answer
+row: Amount stolen | [[thirty kronor]]
+row: Where the money was kept | [[leather pouch on a nail by the window]]
+row: The ironworks | [[Ramsjö]]
+row: Mistaken for | [[Captain von Stahle]]
+row: News of the robbery came at | [[church]]
+row: The gift to Edla | [[a rattrap with the notes and a letter]]
+```
+
+```ng-explain
+id: explain-raised-to-captain
+prompt: In three lines, explain what the peddler means by saying he was 'raised to captain'.
+lines: 3
+```
+
 **In one breath:** he leaves Edla a rattrap with the stolen money and a letter signed Captain von Stahle — kindness has freed the rat from the trap.
 
 ## Themes and the writer's message
@@ -74,5 +131,17 @@ The peddler signs as Captain von Stahle not because he is one but because being 
 - **Mistaken identity and redemption.** A folk-tale device becomes a moral one: given a better self to live up to, a man lives up to it.
 - **Appearance and reality.** The ironmaster is fooled by firelight; the "captain" is a thief; the thief turns out to be honourable.
 - **Style:** fairy-tale narration, gentle **humour** (the ironmaster's grumbling about the silver), **irony** (the thief preaching the rattrap theory to his host), suspense and a satisfying twist. The characters are types — the vagabond, the generous host, the gruff rich man, the kind daughter — which gives the story its universal feel.
+
+```ng-figure
+id: flamingo-04-characters
+title: Who is who in The Rattrap
+svg:
+<svg viewBox="0 0 320 200" role="img" aria-label="Characters of The Rattrap" fill="none" stroke="currentColor" stroke-width="1.5" font-size="11"><g><circle cx="50" cy="80.45" r="10.45" fill="currentColor" fill-opacity="0.9" stroke="none"/><path d="M35.75,98.9 Q50,90.9 64.25,98.9 L61.97,125.1 L55.7,125.1 L56.84,165 H51.425 L50.57,127.0 H49.43 L48.575,165 H43.16 L44.3,125.1 L38.03,125.1 Z" fill="currentColor" fill-opacity="0.9" stroke="none"/></g><text x="50" y="178" text-anchor="middle" font-size="10" font-weight="700" fill="currentColor" stroke="none">Peddler</text><g><circle cx="120" cy="93.8" r="8.8" fill="currentColor" fill-opacity="0.6" stroke="none"/><path d="M108.0,110.6 Q120,102.6 132.0,110.6 L130.08,131.4 L124.8,131.4 L125.76,165 H121.2 L120.48,133.0 H119.52 L118.8,165 H114.24 L115.2,131.4 L109.92,131.4 Z" fill="currentColor" fill-opacity="0.6" stroke="none"/></g><text x="120" y="178" text-anchor="middle" font-size="10" font-weight="700" fill="currentColor" stroke="none">Crofter</text><g><circle cx="190" cy="76.0" r="11.0" fill="currentColor" fill-opacity="0.75" stroke="none"/><path d="M175.0,95.0 Q190,87.0 205.0,95.0 L202.6,123.0 L196.0,123.0 L197.2,165 H191.5 L190.6,125.0 H189.4 L188.5,165 H182.8 L184.0,123.0 L177.4,123.0 Z" fill="currentColor" fill-opacity="0.75" stroke="none"/><path d="M173.5,70.5 H206.5 V66.1 H199.9 V54.0 H180.1 V66.1 H173.5 Z" fill="currentColor" fill-opacity="0.75" stroke="none"/></g><text x="190" y="178" text-anchor="middle" font-size="10" font-weight="700" fill="currentColor" stroke="none">Ironmaster</text><g><circle cx="265" cy="83.12" r="10.12" fill="currentColor" fill-opacity="0.9" stroke="none"/><path d="M251.2,101.24000000000001 Q265,93.24000000000001 278.8,101.24000000000001 L289.84,165 H240.16 Z" fill="currentColor" fill-opacity="0.9" stroke="none"/></g><text x="265" y="178" text-anchor="middle" font-size="10" font-weight="700" fill="currentColor" stroke="none">Edla</text></svg>
+caption: The peddler meets three hosts: the careless crofter, the hearty ironmaster and the compassionate Edla.
+part: 50, 117 | Peddler | Nameless vagabond; rattraps, begging, stealing; the rattrap theory; redeemed by kindness.
+part: 120, 125 | Crofter | Lonely old man with a cow and thirty kronor; trusts too easily.
+part: 190, 115 | Ironmaster | Owner of Ramsjö; mistakes the peddler for Captain von Stahle; wants the sheriff.
+part: 265, 119 | Edla | Modest, compassionate daughter; one day of peace; her trust transforms him.
+```
 
 **In one breath:** Lagerlöf's message is that most people are good at heart and that compassion, not punishment, brings that goodness out — even in a man caught in the rattrap of the world.

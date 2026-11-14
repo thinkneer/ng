@@ -22,6 +22,14 @@ He came to lying on his stomach beside the pool, vomiting; the boy who had throw
 The examiner checks the sequence: first jump (plan, water, grab for the rope), second jump (paralysed legs, no scream), third sinking (all effort stops, peace, darkness). Students who collapse this into one dive lose the content mark.
 :::
 
+```ng-mnemonic
+id: deep-water-three
+title: Three attempts, not one
+trick: **Plan – Paralysed – Peace**
+meaning: 1st rise: planned jump, yellowish water, nothing to grab · 2nd: legs paralysed, no scream · 3rd: effort ceases, drowsy peace, blackout.
+prompt: What happened on each of Douglas's three attempts to rise?
+```
+
 **In one breath:** an eighteen-year-old bully threw him into nine feet of water; he tried three times to rise, failed, and lost consciousness before being pulled out.
 
 ## The handicap that stayed for years
@@ -43,6 +51,14 @@ Finally he decided to get an **instructor** and learn to swim. He went to a pool
 A 2-mark question on the instructor's method wants the belt–rope–pulley, the face-under-water breathing, and the leg kicks, in that order, followed by the whole put together.
 :::
 
+```ng-mnemonic
+id: deep-water-method
+title: The instructor's four steps
+trick: **B-B-K-C**: Belt, Breathe, Kick, Combine
+meaning: Belt-rope-pulley across the pool (3 months) → face under water, exhale/inhale → leg kicks at the side → all the pieces together.
+prompt: What were the four stages of the instructor's method?
+```
+
 **In one breath:** from October to April the instructor built the swimmer piece by piece — rope and pulley, breathing, kicking, then all together.
 
 ## Testing the fear alone
@@ -50,6 +66,31 @@ A 2-mark question on the instructor's method wants the belt–rope–pulley, the
 Douglas was not satisfied: the instructor had taught him to swim, but had the **terror** gone? When he was alone in the pool and a vestige of fear returned, he spoke to it — asking what it could do to him — and swam another length. Then he tested himself in real water: he went to **Lake Wentworth** in New Hampshire, dived off a dock at **Triggs Island** and swam **two miles** across the lake to Stamp Act Island. Only once, in the middle, did the old sensation return; he laughed at it and kept going.
 
 Still not done, he went to the **Warm Lake** in the mountains, camped at **Conrad Meadows**, hiked up the Conrad Creek trail to **Meade Glacier**, and **swam across Warm Lake and back**. Then he shouted with joy — the fear had finally been conquered.
+
+```ng-steps
+id: flamingo-03-plot
+title: Deep Water in six beats
+svg:
+<svg viewBox="0 0 320 200" role="img" aria-label="Plot of Who is who in Deep Water" fill="none" stroke="currentColor" stroke-width="1.5" font-size="10"><path d="M30,90 H290" stroke-width="1"/><g data-step="1"><circle cx="30.0" cy="90" r="12"/><text x="30.0" y="94" text-anchor="middle" font-size="10" font-weight="700" fill="currentColor" stroke="none">1</text><text x="30.0" y="120" text-anchor="middle" font-size="9" fill="currentColor" stroke="none">Beach, age 3–4</text></g><g data-step="2"><circle cx="82.0" cy="90" r="12"/><text x="82.0" y="94" text-anchor="middle" font-size="10" font-weight="700" fill="currentColor" stroke="none">2</text><text x="82.0" y="160" text-anchor="middle" font-size="9" fill="currentColor" stroke="none">YMCA pool, age 10–11</text></g><g data-step="3"><circle cx="134.0" cy="90" r="12"/><text x="134.0" y="94" text-anchor="middle" font-size="10" font-weight="700" fill="currentColor" stroke="none">3</text><text x="134.0" y="120" text-anchor="middle" font-size="9" fill="currentColor" stroke="none">Three attempts</text></g><g data-step="4"><circle cx="186.0" cy="90" r="12"/><text x="186.0" y="94" text-anchor="middle" font-size="10" font-weight="700" fill="currentColor" stroke="none">4</text><text x="186.0" y="160" text-anchor="middle" font-size="9" fill="currentColor" stroke="none">Years of terror</text></g><g data-step="5"><circle cx="238.0" cy="90" r="12"/><text x="238.0" y="94" text-anchor="middle" font-size="10" font-weight="700" fill="currentColor" stroke="none">5</text><text x="238.0" y="120" text-anchor="middle" font-size="9" fill="currentColor" stroke="none">The instructor</text></g><g data-step="6"><circle cx="290.0" cy="90" r="12" stroke="#E0B400"/><text x="290.0" y="94" text-anchor="middle" font-size="10" font-weight="700" fill="currentColor" stroke="none">6</text><text x="290.0" y="160" text-anchor="middle" font-size="9" fill="currentColor" stroke="none">Self-tests</text></g></svg>
+step: Waves knock him down in California; his father laughs; the fear is planted.
+step: The safe pool in Yakima; water wings; then a bully throws him into the deep end.
+step: Plan, jump, yellowish water, nothing to grab; again, legs paralysed; the third time, peace and blackness.
+step: Fishing, canoeing and swimming spoiled — Cascades, Tieton, Bumping, Warm Lake.
+step: Belt, rope and pulley; face under water, exhale; kicking; all together — October to April.
+step: Two miles across Lake Wentworth; Warm Lake and back; the fear is dead. Lesson: it is the fear of death we fear.
+```
+
+```ng-fill
+id: deep-water-facts
+title: Places and numbers
+cols: Item | Answer
+row: Pool town | [[Yakima]]
+row: Deep end | [[nine feet]]
+row: Training months | [[October to April]]
+row: First self-test | [[Lake Wentworth, two miles]]
+row: Final test | [[Warm Lake, across and back]]
+row: Book | [[Of Men and Mountains]]
+```
 
 **In one breath:** he proved it alone — two miles across Lake Wentworth, then Warm Lake and back — and knew the terror was dead.
 
@@ -60,6 +101,21 @@ Douglas ends by explaining what the whole ordeal meant. In the face of death he 
 :::tip The message is about fear, not swimming
 Long answers should move from the personal story to the universal lesson: fear is a mental enemy, it can be fought with persistence and method, and conquering it gives a larger freedom in life. Mention the "fear of death, not death" idea explicitly.
 :::
+
+```ng-compare
+id: terror-vs-peace
+title: Two faces of death in the pool
+cols: First two attempts | Third sinking
+row: Body | lungs bursting, legs paralysed, head throbbing | all effort ceases, limbs relax
+row: Mind | panic, planning, trying to scream | drowsiness, calm, no fear
+row: Lesson drawn later | this is terror — the fear of death | death itself holds peace; only its fear is terrible
+```
+
+```ng-explain
+id: explain-fear-of-death
+prompt: In three lines, explain Douglas's conclusion that it is not death but the fear of death that terrifies us.
+lines: 3
+```
 
 **In one breath:** he learnt that it was never water he feared, only the fear of death — and that a conquered fear sets you free.
 
@@ -72,5 +128,16 @@ Long answers should move from the personal story to the universal lesson: fear i
 - **Autobiographical style.** First person, precise detail (the nine feet, the yellowish water, the pulley), inner monologue during the drowning, simple sentences that build suspense, and a reflective ending.
 
 Characters are few: **Douglas** (narrator), his **father** (the beach), his **mother** (warnings about the Yakima), the **bully** (never named), and the **instructor**, whose patience is the model of good teaching.
+
+```ng-figure
+id: flamingo-03-characters
+title: Who is who in Deep Water
+svg:
+<svg viewBox="0 0 320 200" role="img" aria-label="People in Deep Water" fill="none" stroke="currentColor" stroke-width="1.5" font-size="11"><g><circle cx="70" cy="76.0" r="11.0" fill="currentColor" fill-opacity="0.9" stroke="none"/><path d="M55.0,95.0 Q70,87.0 85.0,95.0 L82.6,123.0 L76.0,123.0 L77.2,165 H71.5 L70.6,125.0 H69.4 L68.5,165 H62.8 L64.0,123.0 L57.4,123.0 Z" fill="currentColor" fill-opacity="0.9" stroke="none"/></g><text x="70" y="178" text-anchor="middle" font-size="10" font-weight="700" fill="currentColor" stroke="none">Douglas</text><g><circle cx="160" cy="59.980000000000004" r="12.98" fill="currentColor" fill-opacity="0.55" stroke="none"/><path d="M142.3,80.96000000000001 Q160,72.96000000000001 177.7,80.96000000000001 L174.868,115.44 L167.08,115.44 L168.496,165 H161.77 L160.708,117.8 H159.292 L158.23,165 H151.504 L152.92,115.44 L145.132,115.44 Z" fill="currentColor" fill-opacity="0.55" stroke="none"/></g><text x="160" y="178" text-anchor="middle" font-size="10" font-weight="700" fill="currentColor" stroke="none">The bully</text><g><circle cx="250" cy="76.0" r="11.0" fill="currentColor" fill-opacity="0.8" stroke="none"/><path d="M235.0,95.0 Q250,87.0 265.0,95.0 L262.6,123.0 L256.0,123.0 L257.2,165 H251.5 L250.6,125.0 H249.4 L248.5,165 H242.8 L244.0,123.0 L237.4,123.0 Z" fill="currentColor" fill-opacity="0.8" stroke="none"/><path d="M237.9,71.6 Q250,55.1 262.1,71.6 H269.8 V74.9 H237.9 Z" fill="currentColor" fill-opacity="0.8" stroke="none"/></g><text x="250" y="178" text-anchor="middle" font-size="10" font-weight="700" fill="currentColor" stroke="none">Instructor</text></svg>
+caption: Three people, one pool: the boy, the bully who put the terror in, and the instructor who took it out.
+part: 70, 115 | Douglas | Narrator; terror of water from age 3–4, conquered with method after years.
+part: 160, 106 | The bully | A bruiser of eighteen who tossed 'Skinny' into nine feet of water.
+part: 250, 115 | Instructor | Built a swimmer piece by piece, October to April.
+```
 
 **In one breath:** "Deep Water" is a true story about defeating a trauma with method and courage; its last word is freedom, not swimming.

@@ -1,0 +1,101 @@
+[
+  {
+    "id": "flamingo-03-map",
+    "kind": "figure",
+    "title": "Who is who in Deep Water",
+    "svg": "ref: notes#flamingo-03-characters",
+    "back": "Douglas (narrator), the eighteen-year-old bully (never named), the instructor (belt, breathing, kicking, combine).",
+    "stars": 3,
+    "tags": [
+      "characters"
+    ]
+  },
+  {
+    "id": "flamingo-03-plot-card",
+    "kind": "process",
+    "title": "Deep Water in six beats",
+    "svg": "ref: notes#flamingo-03-plot",
+    "back": "Beach → pool → three attempts → years of terror → instructor's method → self-tests and the lesson about fear.",
+    "stars": 3,
+    "tags": [
+      "plot"
+    ]
+  },
+  {
+    "id": "dw-wave",
+    "kind": "event",
+    "title": "The first wave",
+    "svg": "<svg viewBox=\"0 0 320 200\" role=\"img\" aria-label=\"California beach, age three or four\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" font-size=\"11\"><rect x=\"0\" y=\"100\" width=\"320\" height=\"100\" fill=\"currentColor\" fill-opacity=\"0.15\" stroke=\"none\"/><path d=\"M0,100 q10.0,-8 20.0,0 q10.0,8 20.0,0 q10.0,-8 20.0,0 q10.0,8 20.0,0 q10.0,-8 20.0,0 q10.0,8 20.0,0 q10.0,-8 20.0,0 q10.0,8 20.0,0 q10.0,-8 20.0,0 q10.0,8 20.0,0 q10.0,-8 20.0,0 q10.0,8 20.0,0 q10.0,-8 20.0,0 q10.0,8 20.0,0 q10.0,-8 20.0,0 q10.0,8 20.0,0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.8\"/><path d=\"M0,118 q10.0,-8 20.0,0 q10.0,8 20.0,0 q10.0,-8 20.0,0 q10.0,8 20.0,0 q10.0,-8 20.0,0 q10.0,8 20.0,0 q10.0,-8 20.0,0 q10.0,8 20.0,0 q10.0,-8 20.0,0 q10.0,8 20.0,0 q10.0,-8 20.0,0 q10.0,8 20.0,0 q10.0,-8 20.0,0 q10.0,8 20.0,0 q10.0,-8 20.0,0 q10.0,8 20.0,0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.4\"/><path d=\"M0,136 q10.0,-8 20.0,0 q10.0,8 20.0,0 q10.0,-8 20.0,0 q10.0,8 20.0,0 q10.0,-8 20.0,0 q10.0,8 20.0,0 q10.0,-8 20.0,0 q10.0,8 20.0,0 q10.0,-8 20.0,0 q10.0,8 20.0,0 q10.0,-8 20.0,0 q10.0,8 20.0,0 q10.0,-8 20.0,0 q10.0,8 20.0,0 q10.0,-8 20.0,0 q10.0,8 20.0,0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.25\"/><g><circle cx=\"110\" cy=\"154.95\" r=\"4.95\" fill=\"currentColor\" fill-opacity=\"0.9\" stroke=\"none\"/><path d=\"M103.25,167.89999999999998 L95.15,149.54999999999998 L97.85,147.75 L105.275,163.89999999999998 Q110,159.89999999999998 114.725,163.89999999999998 L122.15,147.75 L124.85,149.54999999999998 L116.75,167.89999999999998 L115.67,176.1 L112.7,176.1 L113.24,195 H110.675 L110.27,177.0 H109.73 L109.325,195 H106.76 L107.3,176.1 L104.33,176.1 Z\" fill=\"currentColor\" fill-opacity=\"0.9\" stroke=\"none\"/></g><g><circle cx=\"230\" cy=\"87.1\" r=\"12.1\" fill=\"currentColor\" fill-opacity=\"0.4\" stroke=\"none\"/><path d=\"M213.5,107.19999999999999 Q230,99.19999999999999 246.5,107.19999999999999 L243.86,138.8 L236.6,138.8 L237.92,185 H231.65 L230.66,141.0 H229.34 L228.35,185 H222.08 L223.4,138.8 L216.14,138.8 Z\" fill=\"currentColor\" fill-opacity=\"0.4\" stroke=\"none\"/></g><text x=\"160.0\" y=\"192\" text-anchor=\"middle\" font-size=\"11\" font-style=\"italic\" fill=\"currentColor\" fill-opacity=\"0.85\" stroke=\"none\">California beach, age three or four</text></svg>",
+    "back": "The waves knocked him down and buried him; his breath was gone; his father laughed. A small seed of fear — the first of the two incidents examiners ask about.",
+    "stars": 2,
+    "tags": [
+      "event"
+    ]
+  },
+  {
+    "id": "dw-toss",
+    "kind": "event",
+    "title": "Thrown into the deep end",
+    "svg": "<svg viewBox=\"0 0 320 200\" role=\"img\" aria-label=\"'Skinny' meets the bruiser — nobody else at the pool\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" font-size=\"11\"><rect x=\"0\" y=\"110\" width=\"320\" height=\"90\" fill=\"currentColor\" fill-opacity=\"0.15\" stroke=\"none\"/><path d=\"M0,110 q10.0,-8 20.0,0 q10.0,8 20.0,0 q10.0,-8 20.0,0 q10.0,8 20.0,0 q10.0,-8 20.0,0 q10.0,8 20.0,0 q10.0,-8 20.0,0 q10.0,8 20.0,0 q10.0,-8 20.0,0 q10.0,8 20.0,0 q10.0,-8 20.0,0 q10.0,8 20.0,0 q10.0,-8 20.0,0 q10.0,8 20.0,0 q10.0,-8 20.0,0 q10.0,8 20.0,0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.8\"/><g><circle cx=\"174.8\" cy=\"98.4\" r=\"6.6\" fill=\"currentColor\" fill-opacity=\"0.9\" stroke=\"none\"/><rect x=\"182.0\" y=\"97.44\" width=\"45.0\" height=\"10.56\" fill=\"currentColor\" fill-opacity=\"0.9\" stroke=\"none\" rx=\"3.9599999999999995\"/></g><g><circle cx=\"90\" cy=\"5.199999999999999\" r=\"13.2\" fill=\"currentColor\" fill-opacity=\"0.6\" stroke=\"none\"/><path d=\"M72.0,26.4 Q90,18.4 108.0,26.4 L105.12,61.6 L97.2,61.6 L98.64,112 H91.8 L90.72,64.0 H89.28 L88.2,112 H81.36 L82.8,61.6 L74.88,61.6 Z\" fill=\"currentColor\" fill-opacity=\"0.6\" stroke=\"none\"/></g><text x=\"250\" y=\"60\" text-anchor=\"middle\" font-size=\"22\" font-weight=\"700\" fill=\"#E0B400\" stroke=\"none\">9 ft</text><text x=\"160.0\" y=\"192\" text-anchor=\"middle\" font-size=\"11\" font-style=\"italic\" fill=\"currentColor\" fill-opacity=\"0.85\" stroke=\"none\">'Skinny' meets the bruiser — nobody else at the pool</text></svg>",
+    "back": "An eighteen-year-old picked him up and tossed him in; he landed sitting, swallowed water and sank. Nine feet seemed like ninety.",
+    "stars": 3,
+    "tags": [
+      "event"
+    ]
+  },
+  {
+    "id": "dw-three",
+    "kind": "event",
+    "title": "Three attempts to rise",
+    "svg": "<svg viewBox=\"0 0 320 200\" role=\"img\" aria-label=\"Plan — paralysed — peace\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" font-size=\"11\"><rect x=\"0\" y=\"60\" width=\"320\" height=\"140\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"none\"/><g><path d=\"M80,170 L80,110 M84.8,118.8 L80,110 L75.2,118.8\" fill=\"none\" stroke=\"#E0B400\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><text x=\"80\" y=\"185\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"700\" fill=\"currentColor\" stroke=\"none\">1</text></g><g><path d=\"M160,170 L160,100 M164.8,108.8 L160,100 L155.2,108.8\" fill=\"none\" stroke=\"#E0B400\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><text x=\"160\" y=\"185\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"700\" fill=\"currentColor\" stroke=\"none\">2</text></g><g><path d=\"M240,170 L240,90 M244.8,98.8 L240,90 L235.2,98.8\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><text x=\"240\" y=\"185\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"700\" fill=\"currentColor\" stroke=\"none\">3</text></g><circle cx=\"240\" cy=\"90\" r=\"10\" fill=\"currentColor\" fill-opacity=\"0.9\" stroke=\"none\"/><text x=\"160.0\" y=\"192\" text-anchor=\"middle\" font-size=\"11\" font-style=\"italic\" fill=\"currentColor\" fill-opacity=\"0.85\" stroke=\"none\">Plan — paralysed — peace</text></svg>",
+    "back": "First: jump off the bottom, yellowish water, grab at nothing. Second: paralysed legs, no scream. Third: effort stops, drowsy peace, darkness. Revived vomiting by the pool.",
+    "stars": 3,
+    "tags": [
+      "event"
+    ]
+  },
+  {
+    "id": "dw-pulley",
+    "kind": "event",
+    "title": "Belt, rope and pulley",
+    "svg": "<svg viewBox=\"0 0 320 200\" role=\"img\" aria-label=\"Back and forth across the pool, three months\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" font-size=\"11\"><path d=\"M30,30 H290\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"160\" cy=\"30\" r=\"10\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\"/><path d=\"M160,40 V110\" fill=\"none\" stroke=\"#E0B400\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><g><circle cx=\"160\" cy=\"112.7\" r=\"7.7\" fill=\"currentColor\" fill-opacity=\"0.9\" stroke=\"none\"/><path d=\"M149.5,128.4 Q160,120.4 170.5,128.4 L168.82,145.6 L164.2,145.6 L165.04,175 H161.05 L160.42,147.0 H159.58 L158.95,175 H154.96 L155.8,145.6 L151.18,145.6 Z\" fill=\"currentColor\" fill-opacity=\"0.9\" stroke=\"none\"/></g><rect x=\"146\" y=\"125\" width=\"28\" height=\"8\" fill=\"#E0B400\" stroke=\"none\"/><rect x=\"0\" y=\"150\" width=\"320\" height=\"50\" fill=\"currentColor\" fill-opacity=\"0.15\" stroke=\"none\"/><path d=\"M0,150 q10.0,-8 20.0,0 q10.0,8 20.0,0 q10.0,-8 20.0,0 q10.0,8 20.0,0 q10.0,-8 20.0,0 q10.0,8 20.0,0 q10.0,-8 20.0,0 q10.0,8 20.0,0 q10.0,-8 20.0,0 q10.0,8 20.0,0 q10.0,-8 20.0,0 q10.0,8 20.0,0 q10.0,-8 20.0,0 q10.0,8 20.0,0 q10.0,-8 20.0,0 q10.0,8 20.0,0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.8\"/><path d=\"M0,168 q10.0,-8 20.0,0 q10.0,8 20.0,0 q10.0,-8 20.0,0 q10.0,8 20.0,0 q10.0,-8 20.0,0 q10.0,8 20.0,0 q10.0,-8 20.0,0 q10.0,8 20.0,0 q10.0,-8 20.0,0 q10.0,8 20.0,0 q10.0,-8 20.0,0 q10.0,8 20.0,0 q10.0,-8 20.0,0 q10.0,8 20.0,0 q10.0,-8 20.0,0 q10.0,8 20.0,0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.4\"/><path d=\"M0,186 q10.0,-8 20.0,0 q10.0,8 20.0,0 q10.0,-8 20.0,0 q10.0,8 20.0,0 q10.0,-8 20.0,0 q10.0,8 20.0,0 q10.0,-8 20.0,0 q10.0,8 20.0,0 q10.0,-8 20.0,0 q10.0,8 20.0,0 q10.0,-8 20.0,0 q10.0,8 20.0,0 q10.0,-8 20.0,0 q10.0,8 20.0,0 q10.0,-8 20.0,0 q10.0,8 20.0,0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.25\"/><text x=\"160.0\" y=\"192\" text-anchor=\"middle\" font-size=\"11\" font-style=\"italic\" fill=\"currentColor\" fill-opacity=\"0.85\" stroke=\"none\">Back and forth across the pool, three months</text></svg>",
+    "back": "Step one of the method: held by the rope, he crossed the pool until the tension slackened. Then breathing, then kicking, then all together — October to April.",
+    "stars": 3,
+    "tags": [
+      "event"
+    ]
+  },
+  {
+    "id": "dw-lake",
+    "kind": "event",
+    "title": "Two miles across Lake Wentworth",
+    "svg": "<svg viewBox=\"0 0 320 200\" role=\"img\" aria-label=\"The fear came back once, in the middle; he laughed at it\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" font-size=\"11\"><rect x=\"0\" y=\"80\" width=\"320\" height=\"120\" fill=\"currentColor\" fill-opacity=\"0.15\" stroke=\"none\"/><path d=\"M0,80 q10.0,-8 20.0,0 q10.0,8 20.0,0 q10.0,-8 20.0,0 q10.0,8 20.0,0 q10.0,-8 20.0,0 q10.0,8 20.0,0 q10.0,-8 20.0,0 q10.0,8 20.0,0 q10.0,-8 20.0,0 q10.0,8 20.0,0 q10.0,-8 20.0,0 q10.0,8 20.0,0 q10.0,-8 20.0,0 q10.0,8 20.0,0 q10.0,-8 20.0,0 q10.0,8 20.0,0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.8\"/><path d=\"M0,98 q10.0,-8 20.0,0 q10.0,8 20.0,0 q10.0,-8 20.0,0 q10.0,8 20.0,0 q10.0,-8 20.0,0 q10.0,8 20.0,0 q10.0,-8 20.0,0 q10.0,8 20.0,0 q10.0,-8 20.0,0 q10.0,8 20.0,0 q10.0,-8 20.0,0 q10.0,8 20.0,0 q10.0,-8 20.0,0 q10.0,8 20.0,0 q10.0,-8 20.0,0 q10.0,8 20.0,0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.4\"/><path d=\"M0,116 q10.0,-8 20.0,0 q10.0,8 20.0,0 q10.0,-8 20.0,0 q10.0,8 20.0,0 q10.0,-8 20.0,0 q10.0,8 20.0,0 q10.0,-8 20.0,0 q10.0,8 20.0,0 q10.0,-8 20.0,0 q10.0,8 20.0,0 q10.0,-8 20.0,0 q10.0,8 20.0,0 q10.0,-8 20.0,0 q10.0,8 20.0,0 q10.0,-8 20.0,0 q10.0,8 20.0,0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.25\"/><path d=\"M0,150.0 L60,90 L110,130 L170,60 L230,120 L270,95 L320,150.0 Z\" fill=\"currentColor\" fill-opacity=\"0.25\" stroke=\"none\"/><g><circle cx=\"70\" cy=\"135.5\" r=\"5.5\" fill=\"currentColor\" fill-opacity=\"0.9\" stroke=\"none\"/><path d=\"M62.5,149.0 L53.5,129.5 L56.5,127.5 L64.75,145.0 Q70,141.0 75.25,145.0 L83.5,127.5 L86.5,129.5 L77.5,149.0 L76.3,159.0 L73.0,159.0 L73.6,180 H70.75 L70.3,160.0 H69.7 L69.25,180 H66.4 L67.0,159.0 L63.7,159.0 Z\" fill=\"currentColor\" fill-opacity=\"0.9\" stroke=\"none\"/></g><path d=\"M100,150 L260,150 M251.2,154.8 L260,150 L251.2,145.2\" fill=\"none\" stroke=\"#E0B400\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><text x=\"180\" y=\"135\" text-anchor=\"middle\" font-size=\"10\" fill=\"currentColor\" stroke=\"none\">Triggs Island → Stamp Act Island</text><text x=\"160.0\" y=\"192\" text-anchor=\"middle\" font-size=\"11\" font-style=\"italic\" fill=\"currentColor\" fill-opacity=\"0.85\" stroke=\"none\">The fear came back once, in the middle; he laughed at it</text></svg>",
+    "back": "Not satisfied with the pool, he tested himself alone: Lake Wentworth, then Warm Lake across and back, shouting with joy. Only then was the terror dead.",
+    "stars": 2,
+    "tags": [
+      "event"
+    ]
+  },
+  {
+    "id": "dw-lesson",
+    "kind": "mnemonic",
+    "title": "Only the fear of death",
+    "svg": "<svg viewBox=\"0 0 320 200\" role=\"img\" aria-label=\"Roosevelt's line, Douglas's life\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" font-size=\"11\"><circle cx=\"160\" cy=\"90\" r=\"60\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"8\"/><text x=\"160\" y=\"96\" text-anchor=\"middle\" font-size=\"22\" font-weight=\"700\" fill=\"#E0B400\" stroke=\"none\">fear</text><text x=\"160\" y=\"170\" text-anchor=\"middle\" font-size=\"10\" font-style=\"italic\" fill=\"currentColor\" fill-opacity=\"0.8\" stroke=\"none\">the only thing we have to fear is fear itself</text><text x=\"160.0\" y=\"192\" text-anchor=\"middle\" font-size=\"11\" font-style=\"italic\" fill=\"currentColor\" fill-opacity=\"0.85\" stroke=\"none\">Roosevelt's line, Douglas's life</text></svg>",
+    "back": "In the face of death he felt terror and then peace, so death did not frighten him — only its fear did. Conquering it set him free to live intensely.",
+    "stars": 3,
+    "tags": [
+      "theme"
+    ]
+  },
+  {
+    "id": "dw-line",
+    "kind": "event",
+    "title": "The size of the fear",
+    "svg": "<svg viewBox=\"0 0 320 200\" role=\"img\" aria-label=\"Line to remember\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" font-size=\"11\"><g><rect x=\"28\" y=\"36\" width=\"264\" height=\"72\" fill=\"currentColor\" fill-opacity=\"0.08\" stroke=\"currentColor\" stroke-width=\"1.5\" rx=\"10\"/><path d=\"M50,108 L42,122 L64,108 Z\" fill=\"currentColor\" fill-opacity=\"0.9\" stroke=\"none\"/><text x=\"160.0\" y=\"77.6\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"700\" fill=\"currentColor\" stroke=\"none\">Nine feet felt like ninety</text></g><text x=\"160\" y=\"146\" text-anchor=\"middle\" font-size=\"11\" fill=\"currentColor\" fill-opacity=\"0.8\" stroke=\"none\">— on the way down</text><text x=\"160.0\" y=\"192\" text-anchor=\"middle\" font-size=\"11\" font-style=\"italic\" fill=\"currentColor\" fill-opacity=\"0.85\" stroke=\"none\">Line to remember</text></svg>",
+    "back": "Use this detail in the drowning answer: the depth, the plan, the yellowish glow, the rope that was not there. Precise detail is what the 5-mark question rewards.",
+    "stars": 2,
+    "tags": [
+      "line"
+    ]
+  }
+]
