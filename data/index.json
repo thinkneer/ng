@@ -694,6 +694,7 @@
                         "notes": true,
                         "mustknow": true,
                         "formulas": true,
+                        "cards": true,
                         "questions": true
                       },
                       "marks_hint": "Unit V+VI: 18 marks together (CBSE 2026–27); Ch 10 is usually 5–7 of them (estimate)",
@@ -708,8 +709,21 @@
                         "la5": 1
                       },
                       "diagrams": [],
-                      "words": 2343,
-                      "read_minutes": 8
+                      "blocks": {
+                        "figure": 4,
+                        "steps": 1,
+                        "derive": 1,
+                        "draw": 2,
+                        "numerical": 3,
+                        "graph": 2,
+                        "mnemonic": 2,
+                        "compare": 1,
+                        "explain": 1
+                      },
+                      "words": 2126,
+                      "read_minutes": 7,
+                      "cards": 10,
+                      "mnemonics": 3
                     }
                   ]
                 },
@@ -729,6 +743,7 @@
                         "notes": true,
                         "mustknow": true,
                         "formulas": true,
+                        "cards": true,
                         "questions": true
                       },
                       "marks_hint": "Unit VII+VIII: 12 marks together (CBSE 2026–27); Ch 11 is usually 4–5 of them (estimate)",
@@ -742,8 +757,19 @@
                         "sa3": 2
                       },
                       "diagrams": [],
-                      "words": 2092,
-                      "read_minutes": 7
+                      "blocks": {
+                        "figure": 3,
+                        "numerical": 3,
+                        "graph": 2,
+                        "mnemonic": 2,
+                        "compare": 1,
+                        "draw": 1,
+                        "fill": 1
+                      },
+                      "words": 1993,
+                      "read_minutes": 6,
+                      "cards": 9,
+                      "mnemonics": 3
                     }
                   ]
                 },
@@ -763,6 +789,7 @@
                         "notes": true,
                         "mustknow": true,
                         "formulas": true,
+                        "cards": true,
                         "questions": true
                       },
                       "marks_hint": "Unit VII+VIII: 12 marks together (CBSE 2026–27); Ch 12 is usually 3–4 of them (estimate)",
@@ -777,8 +804,20 @@
                         "la5": 1
                       },
                       "diagrams": [],
-                      "words": 2113,
-                      "read_minutes": 7
+                      "blocks": {
+                        "figure": 2,
+                        "steps": 1,
+                        "numerical": 3,
+                        "draw": 2,
+                        "graph": 1,
+                        "derive": 1,
+                        "mnemonic": 2,
+                        "fill": 1
+                      },
+                      "words": 1968,
+                      "read_minutes": 6,
+                      "cards": 8,
+                      "mnemonics": 3
                     },
                     {
                       "id": "ch-13",

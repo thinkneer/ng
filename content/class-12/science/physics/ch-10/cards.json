@@ -1,0 +1,109 @@
+[
+  {
+    "id": "ch10-wavefronts",
+    "kind": "figure",
+    "title": "Plane and spherical wavefronts",
+    "svg": "ref: notes#ch10-wavefronts",
+    "back": "Wavefront = points in the same phase; rays are perpendicular to it. Point source: spherical; distant source: plane.",
+    "stars": 2
+  },
+  {
+    "id": "ch10-huygens",
+    "kind": "figure",
+    "title": "Huygens construction for refraction",
+    "svg": "ref: notes#ch10-huygens",
+    "back": "BC = v₁τ = AC sin i; AE = v₂τ = AC sin r; so sin i/sin r = v₁/v₂.",
+    "stars": 3,
+    "tags": [
+      "diagram",
+      "5-mark"
+    ]
+  },
+  {
+    "id": "ch10-ydse",
+    "kind": "figure",
+    "title": "Young's double-slit set-up",
+    "svg": "ref: notes#ch10-ydse",
+    "back": "Two coherent slits d apart, screen at D: bright fringes at nλD/d; fringe width λD/d.",
+    "stars": 3,
+    "tags": [
+      "diagram"
+    ]
+  },
+  {
+    "id": "ch10-patterns",
+    "kind": "figure",
+    "title": "Double slit vs single slit pattern",
+    "svg": "ref: notes#ch10-patterns",
+    "back": "Interference: equal fringes, equal brightness. Diffraction: central maximum twice as wide, fainter sides.",
+    "stars": 2,
+    "tags": [
+      "graph"
+    ]
+  },
+  {
+    "id": "snell-wave",
+    "kind": "formula",
+    "title": "Snell’s law from wave theory",
+    "tex": "\\dfrac{\\sin i}{\\sin r}=\\dfrac{v_1}{v_2}=n_{21}",
+    "legend": [
+      "v₁, v₂ = speeds in the two media"
+    ],
+    "back": "Shows light is slower in the denser medium; frequency stays the same.",
+    "stars": 3
+  },
+  {
+    "id": "path-phase",
+    "kind": "formula",
+    "title": "Path difference and phase difference",
+    "tex": "\\phi=\\dfrac{2\\pi}{\\lambda}\\Delta x",
+    "legend": [
+      "bright = Δx equal to nλ",
+      "dark = Δx equal to (n + ½)λ"
+    ],
+    "back": "Coherent sources keep φ constant in time.",
+    "stars": 2
+  },
+  {
+    "id": "resultant-intensity-card",
+    "kind": "formula",
+    "title": "Resultant intensity",
+    "tex": "I=4I_0\\cos^2\\dfrac{\\phi}{2}",
+    "legend": [
+      "I₀ = intensity of each wave"
+    ],
+    "back": "Maximum 4I₀ (φ = 0), zero at φ = π.",
+    "stars": 2
+  },
+  {
+    "id": "fringe-width-card",
+    "kind": "formula",
+    "title": "YDSE fringe width",
+    "tex": "\\beta=\\dfrac{\\lambda D}{d}",
+    "legend": [
+      "d = slit separation",
+      "D = slit–screen distance"
+    ],
+    "back": "Final expression only for boards. In a medium: β/n.",
+    "stars": 3
+  },
+  {
+    "id": "central-max-card",
+    "kind": "formula",
+    "title": "Single slit: central maximum",
+    "tex": "\\text{width}=\\dfrac{2\\lambda D}{a}",
+    "legend": [
+      "a = slit width",
+      "minima at a sin θ = nλ"
+    ],
+    "back": "A narrower slit gives a wider central maximum.",
+    "stars": 2
+  },
+  {
+    "id": "inter-vs-di-card",
+    "kind": "mnemonic",
+    "title": "Interference or diffraction?",
+    "back": "\"Inter = two sources ke beech; Di-ffraction = one slit ka mudna\": interference needs two coherent sources; diffraction is one wavefront bending.",
+    "svg": "ref: notes#ch10-patterns"
+  }
+]

@@ -1,0 +1,89 @@
+[
+  {
+    "id": "ch12-scatter",
+    "kind": "figure",
+    "title": "Alpha-particle scattering",
+    "svg": "ref: notes#ch12-scatter",
+    "back": "Large impact parameter: small deflection. Head-on: bounces back. So the positive charge sits in a tiny nucleus.",
+    "stars": 3,
+    "tags": [
+      "diagram"
+    ]
+  },
+  {
+    "id": "ch12-levels",
+    "kind": "figure",
+    "title": "Hydrogen energy levels",
+    "svg": "ref: notes#ch12-levels",
+    "back": "E_n = −13.6/n² eV. Down to n = 1: Lyman (UV); to n = 2: Balmer (visible); to n = 3: Paschen (IR).",
+    "stars": 3,
+    "tags": [
+      "diagram"
+    ]
+  },
+  {
+    "id": "closest-approach-card",
+    "kind": "formula",
+    "title": "Distance of closest approach",
+    "tex": "r_0=\\dfrac{1}{4\\pi\\varepsilon_0}\\dfrac{2Ze^2}{K}",
+    "legend": [
+      "K = kinetic energy of the α particle",
+      "Z = atomic number"
+    ],
+    "back": "Upper limit on the size of the nucleus.",
+    "stars": 2
+  },
+  {
+    "id": "bohr-quantisation",
+    "kind": "formula",
+    "title": "Bohr’s quantum condition",
+    "tex": "mvr=\\dfrac{nh}{2\\pi}",
+    "legend": [
+      "n = 1, 2, 3, …"
+    ],
+    "back": "De Broglie: 2πr = nλ, a whole number of wavelengths round the orbit.",
+    "stars": 3
+  },
+  {
+    "id": "bohr-radius",
+    "kind": "formula",
+    "title": "Radius of the nth orbit",
+    "tex": "r_n=\\dfrac{n^2h^2\\varepsilon_0}{\\pi me^2}=0.529\\,n^2\\ \\text{Å}",
+    "legend": [
+      "r_n = proportional to n²"
+    ],
+    "back": "Ratio r₁ : r₂ : r₃ = 1 : 4 : 9.",
+    "stars": 3
+  },
+  {
+    "id": "bohr-energy",
+    "kind": "formula",
+    "title": "Energy of the nth orbit",
+    "tex": "E_n=-\\dfrac{13.6}{n^2}\\ \\text{eV}",
+    "legend": [
+      "K = −E",
+      "U = 2E"
+    ],
+    "back": "Ionisation energy 13.6 eV; first excitation 10.2 eV.",
+    "stars": 3
+  },
+  {
+    "id": "rydberg",
+    "kind": "formula",
+    "title": "Rydberg formula",
+    "tex": "\\dfrac1\\lambda=R\\left(\\dfrac{1}{n_f^2}-\\dfrac{1}{n_i^2}\\right)",
+    "legend": [
+      "R = 1.097 × 10⁷ m⁻¹"
+    ],
+    "back": "Longest line: n_i = n_f + 1. Series limit: n_i = ∞.",
+    "stars": 2
+  },
+  {
+    "id": "lucknow-pune-card",
+    "kind": "mnemonic",
+    "title": "Hydrogen series by lower level",
+    "back": "\"Lucknow, Bareilly, Patna, Bhopal, Pune\": Lyman 1, Balmer 2, Paschen 3, Brackett 4, Pfund 5.",
+    "svg": "ref: notes#ch12-levels",
+    "stars": 2
+  }
+]

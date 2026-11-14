@@ -286,6 +286,97 @@
    "card": true
   }
  ],
+ "physics/ch-10": [
+  {
+   "id": "beta-lambda-d",
+   "title": "Fringe width in YDSE",
+   "trick": "**\"β = λD/d: λ aur D upar, chhota d neeche\"** (λ and D on top, small d below)",
+   "meaning": [
+    "Longer wavelength or farther screen → wider fringes; slits farther apart → narrower fringes.",
+    "In a medium of index $n$: $\\beta'=\\beta/n$."
+   ],
+   "prompt": "Write the fringe width in YDSE and say how it changes with $\\lambda$, $D$ and $d$."
+  },
+  {
+   "id": "inter-vs-di",
+   "title": "Interference or diffraction?",
+   "trick": "**\"Inter = do (two) sources ke beech; Di-ffraction = ek (one) slit ka mudna\"**",
+   "meaning": [
+    "Interference: waves from **two** coherent sources.",
+    "Diffraction: wavelets from **one** wavefront bending round an edge."
+   ],
+   "prompt": "What is the basic difference between interference and diffraction?"
+  },
+  {
+   "id": "inter-vs-di-card",
+   "title": "Interference or diffraction?",
+   "trick": "Interference or diffraction?",
+   "meaning": [
+    "\"Inter = two sources ke beech; Di-ffraction = one slit ka mudna\": interference needs two coherent sources; diffraction is one wavefront bending."
+   ],
+   "card": true
+  }
+ ],
+ "physics/ch-11": [
+  {
+   "id": "intensity-vs-frequency",
+   "title": "Intensity or frequency: what changes what?",
+   "trick": "**\"Intensity = Itne electrons (how many); Frequency = Force (how fast)\"**",
+   "meaning": [
+    "Brighter light → more photons → larger photocurrent; $V_0$ unchanged.",
+    "Higher frequency → more energetic photons → larger $K_\\text{max}$ and $V_0$."
+   ],
+   "prompt": "How do intensity and frequency each affect the photoelectric current and the stopping potential?"
+  },
+  {
+   "id": "hp-printer",
+   "title": "de Broglie wavelength",
+   "trick": "**\"λ = h/p — remember the HP printer\"**",
+   "meaning": [
+    "$\\lambda=\\dfrac hp=\\dfrac{h}{mv}=\\dfrac{h}{\\sqrt{2mK}}$; through a voltage $V$: $\\dfrac{h}{\\sqrt{2mqV}}$."
+   ],
+   "prompt": "Write the de Broglie relation and its form for a charge accelerated through V."
+  },
+  {
+   "id": "intensity-frequency-card",
+   "title": "Intensity or frequency?",
+   "trick": "Intensity or frequency?",
+   "meaning": [
+    "\"Intensity = itne electrons; Frequency = force\": intensity changes the photocurrent, frequency changes K_max and V₀."
+   ],
+   "card": true
+  }
+ ],
+ "physics/ch-12": [
+  {
+   "id": "u-do-guna",
+   "title": "Kinetic, potential and total energy in an orbit",
+   "trick": "**\"K seedha, U do guna ulta\"** (K straight, U twice and reversed)",
+   "meaning": [
+    "$K=-E=+\\dfrac{13.6}{n^2}$ eV; $U=2E=-\\dfrac{27.2}{n^2}$ eV; $E=K+U$."
+   ],
+   "prompt": "How are the kinetic and potential energies related to the total energy in a Bohr orbit?"
+  },
+  {
+   "id": "lucknow-to-pune",
+   "title": "Lower level of each hydrogen series",
+   "trick": "**\"Lucknow, Bareilly, Patna, Bhopal, Pune\"** → Lyman 1, Balmer 2, Paschen 3, Brackett 4, Pfund 5",
+   "meaning": [
+    "The order of the cities gives $n_f$ = 1, 2, 3, 4, 5.",
+    "Only Lyman is UV and only Balmer is visible; the rest are infrared."
+   ],
+   "prompt": "Name the hydrogen series in order of their lower level $n_f$."
+  },
+  {
+   "id": "lucknow-pune-card",
+   "title": "Hydrogen series by lower level",
+   "trick": "Hydrogen series by lower level",
+   "meaning": [
+    "\"Lucknow, Bareilly, Patna, Bhopal, Pune\": Lyman 1, Balmer 2, Paschen 3, Brackett 4, Pfund 5."
+   ],
+   "card": true
+  }
+ ],
  "chemistry/ch-01": [
   {
    "id": "momos-molality",

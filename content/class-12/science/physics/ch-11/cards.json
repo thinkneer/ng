@@ -1,0 +1,99 @@
+[
+  {
+    "id": "ch11-setup",
+    "kind": "figure",
+    "title": "Photoelectric apparatus",
+    "svg": "ref: notes#ch11-setup",
+    "back": "Light on emitter C in an evacuated tube; collector A at variable potential; microammeter reads the photocurrent.",
+    "stars": 2,
+    "tags": [
+      "diagram"
+    ]
+  },
+  {
+    "id": "ch11-iv",
+    "kind": "figure",
+    "title": "Photocurrent against collector potential",
+    "svg": "ref: notes#ch11-iv",
+    "back": "Brighter light: higher saturation, same V₀. Higher frequency: larger V₀, same saturation.",
+    "stars": 3,
+    "tags": [
+      "graph"
+    ]
+  },
+  {
+    "id": "ch11-v0nu",
+    "kind": "figure",
+    "title": "Stopping potential against frequency",
+    "svg": "ref: notes#ch11-v0nu",
+    "back": "Straight line of slope h/e (same for all metals); intercept on the ν-axis = threshold frequency.",
+    "stars": 3,
+    "tags": [
+      "graph"
+    ]
+  },
+  {
+    "id": "einstein-equation",
+    "kind": "formula",
+    "title": "Einstein’s photoelectric equation",
+    "tex": "K_\\text{max}=h\\nu-\\phi_0=eV_0",
+    "legend": [
+      "φ₀ = work function",
+      "V₀ = stopping potential"
+    ],
+    "back": "Explains threshold frequency, frequency dependence and instant emission.",
+    "stars": 3
+  },
+  {
+    "id": "threshold",
+    "kind": "formula",
+    "title": "Work function and threshold",
+    "tex": "\\phi_0=h\\nu_0=\\dfrac{hc}{\\lambda_0}",
+    "legend": [
+      "hc = 1240 eV nm"
+    ],
+    "back": "Below ν₀ no electrons come out, however intense the light.",
+    "stars": 2
+  },
+  {
+    "id": "photon-energy",
+    "kind": "formula",
+    "title": "Photon energy and momentum",
+    "tex": "E=h\\nu=\\dfrac{hc}{\\lambda}\\qquad p=\\dfrac{h}{\\lambda}",
+    "legend": [
+      "E in eV = 1240/λ (nm)"
+    ],
+    "back": "Intensity counts photons; frequency fixes each photon’s energy.",
+    "stars": 2
+  },
+  {
+    "id": "de-broglie",
+    "kind": "formula",
+    "title": "de Broglie wavelength",
+    "tex": "\\lambda=\\dfrac{h}{p}=\\dfrac{h}{\\sqrt{2mK}}",
+    "legend": [
+      "through voltage V = h/√(2mqV)"
+    ],
+    "back": "Same V: λ_e > λ_p > λ_α. Same p: equal λ.",
+    "stars": 3
+  },
+  {
+    "id": "electron-lambda",
+    "kind": "formula",
+    "title": "Electron through V volts",
+    "tex": "\\lambda=\\dfrac{1.227}{\\sqrt V}\\ \\text{nm}",
+    "legend": [
+      "V = accelerating voltage"
+    ],
+    "back": "100 V gives about 0.123 nm.",
+    "stars": 2
+  },
+  {
+    "id": "intensity-frequency-card",
+    "kind": "mnemonic",
+    "title": "Intensity or frequency?",
+    "back": "\"Intensity = itne electrons; Frequency = force\": intensity changes the photocurrent, frequency changes K_max and V₀.",
+    "svg": "ref: notes#ch11-iv",
+    "stars": 3
+  }
+]
