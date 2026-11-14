@@ -377,6 +377,68 @@
    "card": true
   }
  ],
+ "physics/ch-13": [
+  {
+   "id": "one-u-931",
+   "title": "Mass–energy conversion",
+   "trick": "**\"Ek u = 931.5 MeV: nau-teen-ek point paanch\"**",
+   "meaning": [
+    "Multiply a mass defect in u by 931.5 to get the binding energy in MeV.",
+    "1 MeV $=1.6\\times10^{-13}$ J."
+   ],
+   "prompt": "How much energy, in MeV, is equivalent to 1 u?"
+  },
+  {
+   "id": "nuclear-force-properties",
+   "title": "Properties of the nuclear force",
+   "trick": "**\"S-S-C-S: Strongest, Short-range, Charge-independent, Saturating\"**",
+   "meaning": [
+    "Strongest of all forces; acts only over a few fm; same for n–n, p–p, n–p; each nucleon binds only its neighbours.",
+    "Repulsive below about 0.8 fm."
+   ],
+   "prompt": "State four properties of the nuclear force."
+  },
+  {
+   "id": "sscs-card",
+   "title": "Nuclear force in four words",
+   "trick": "Nuclear force in four words",
+   "meaning": [
+    "\"S-S-C-S\": strongest, short-range, charge-independent, saturating; repulsive below 0.8 fm."
+   ],
+   "card": true
+  }
+ ],
+ "physics/ch-14": [
+  {
+   "id": "pentavalent-negative",
+   "title": "Which dopant makes which type?",
+   "trick": "**\"Paanch se N, Teen se P\"** (five gives N, three gives P)",
+   "meaning": [
+    "**Pentavalent** (5 valence electrons: P, As, Sb) → extra electron → **n-type**.",
+    "**Trivalent** (3: B, Al, Ga, In) → missing electron (hole) → **p-type**."
+   ],
+   "prompt": "Which impurity makes an n-type semiconductor and which makes a p-type one?"
+  },
+  {
+   "id": "forward-patla",
+   "title": "Depletion layer in forward and reverse bias",
+   "trick": "**\"Forward mein patla, reverse mein mota\"** (thin in forward, thick in reverse)",
+   "meaning": [
+    "Forward bias: barrier and depletion layer get **thinner**, current flows easily.",
+    "Reverse bias: both get **wider**, only a tiny current."
+   ],
+   "prompt": "What happens to the depletion layer in forward and in reverse bias?"
+  },
+  {
+   "id": "patla-mota-card",
+   "title": "Depletion layer and bias",
+   "trick": "Depletion layer and bias",
+   "meaning": [
+    "\"Forward mein patla, reverse mein mota\": forward bias thins the barrier and depletion layer; reverse bias widens them."
+   ],
+   "card": true
+  }
+ ],
  "chemistry/ch-01": [
   {
    "id": "momos-molality",

@@ -1,0 +1,96 @@
+[
+  {
+    "id": "ch14-bands",
+    "kind": "figure",
+    "title": "Energy bands",
+    "svg": "ref: notes#ch14-bands",
+    "back": "Conductor: overlap. Insulator: gap > 3 eV. Semiconductor: small gap (Si 1.1 eV, Ge 0.7 eV).",
+    "stars": 2,
+    "tags": [
+      "diagram"
+    ]
+  },
+  {
+    "id": "ch14-junction",
+    "kind": "figure",
+    "title": "p-n junction",
+    "svg": "ref: notes#ch14-junction",
+    "back": "Diffusion leaves fixed ions: depletion region; field n → p gives the barrier (Si ≈ 0.7 V).",
+    "stars": 3,
+    "tags": [
+      "diagram",
+      "3-mark"
+    ]
+  },
+  {
+    "id": "ch14-iv",
+    "kind": "figure",
+    "title": "Diode I–V characteristic",
+    "svg": "ref: notes#ch14-iv",
+    "back": "Forward: steep rise after ≈ 0.7 V (mA). Reverse: tiny µA current until breakdown.",
+    "stars": 3,
+    "tags": [
+      "graph"
+    ]
+  },
+  {
+    "id": "ch14-half",
+    "kind": "figure",
+    "title": "Half-wave rectifier",
+    "svg": "ref: notes#ch14-half",
+    "back": "Diode conducts in one half-cycle only; output frequency = input frequency (50 Hz).",
+    "stars": 2,
+    "tags": [
+      "diagram"
+    ]
+  },
+  {
+    "id": "ch14-full",
+    "kind": "figure",
+    "title": "Full-wave rectifier",
+    "svg": "ref: notes#ch14-full",
+    "back": "D₁ and D₂ conduct in alternate halves, same direction through R_L; output 100 Hz.",
+    "stars": 3,
+    "tags": [
+      "diagram",
+      "3-mark"
+    ]
+  },
+  {
+    "id": "mass-action",
+    "kind": "formula",
+    "title": "Electron and hole concentrations",
+    "tex": "n_en_h=n_i^2",
+    "legend": [
+      "intrinsic = n_e equal to n_h equal to n_i"
+    ],
+    "back": "Doping raises one carrier and lowers the other.",
+    "stars": 2
+  },
+  {
+    "id": "dynamic-resistance-card",
+    "kind": "formula",
+    "title": "Dynamic resistance",
+    "tex": "r_d=\\dfrac{\\Delta V}{\\Delta I}",
+    "legend": [
+      "ΔV, ΔI = small changes read from the I–V graph"
+    ],
+    "back": "Small in forward bias above the knee; very large in reverse."
+  },
+  {
+    "id": "n-p-type-card",
+    "kind": "compare",
+    "title": "n-type vs p-type",
+    "back": "n-type: pentavalent donor (P, As, Sb), electrons majority. p-type: trivalent acceptor (B, Al, Ga, In), holes majority. Both neutral.",
+    "svg": "ref: notes#ch14-bands",
+    "stars": 3
+  },
+  {
+    "id": "patla-mota-card",
+    "kind": "mnemonic",
+    "title": "Depletion layer and bias",
+    "back": "\"Forward mein patla, reverse mein mota\": forward bias thins the barrier and depletion layer; reverse bias widens them.",
+    "svg": "ref: notes#ch14-junction",
+    "stars": 3
+  }
+]

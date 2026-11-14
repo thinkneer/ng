@@ -828,6 +828,7 @@
                         "notes": true,
                         "mustknow": true,
                         "formulas": true,
+                        "cards": true,
                         "questions": true
                       },
                       "marks_hint": "Unit VII+VIII: 12 marks together (CBSE 2026–27); Ch 13 is usually 3–4 of them (estimate)",
@@ -841,8 +842,20 @@
                         "sa3": 2
                       },
                       "diagrams": [],
-                      "words": 2020,
-                      "read_minutes": 6
+                      "blocks": {
+                        "numerical": 3,
+                        "graph": 1,
+                        "mnemonic": 2,
+                        "figure": 2,
+                        "draw": 2,
+                        "explain": 1,
+                        "steps": 1,
+                        "compare": 1
+                      },
+                      "words": 1949,
+                      "read_minutes": 6,
+                      "cards": 8,
+                      "mnemonics": 3
                     }
                   ]
                 },
@@ -862,6 +875,7 @@
                         "notes": true,
                         "mustknow": true,
                         "formulas": true,
+                        "cards": true,
                         "questions": true
                       },
                       "marks_hint": "Unit IX: 7 marks (CBSE 2026–27)",
@@ -875,8 +889,20 @@
                         "sa3": 2
                       },
                       "diagrams": [],
-                      "words": 2449,
-                      "read_minutes": 8
+                      "blocks": {
+                        "figure": 5,
+                        "fill": 1,
+                        "draw": 5,
+                        "compare": 2,
+                        "mnemonic": 2,
+                        "steps": 2,
+                        "graph": 1,
+                        "numerical": 1
+                      },
+                      "words": 2271,
+                      "read_minutes": 7,
+                      "cards": 9,
+                      "mnemonics": 3
                     }
                   ]
                 }

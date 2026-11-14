@@ -10,7 +10,7 @@ Boards only. Board paper: **Tue 16 Feb 2027** (first paper of the season). Pract
 
 ## Done
 
-**All 14 chapters are on the site (14 Nov 2026): 137 questions, 51 inline SVG figures.**
+**All 14 chapters are on the site (14 Nov 2026): 137 questions, 52 figures.**
 
 
 ### On the site (`content/class-12/science/physics/`)
@@ -18,7 +18,7 @@ Boards only. Board paper: **Tue 16 Feb 2027** (first paper of the season). Pract
 |---|---|---|---|---|---|
 | 1 Electric Charges and Fields | ready | ready | ready | 13 | 4 |
 | 2 Electrostatic Potential and Capacitance | ready | ready | ready | 13 | 4 |
-| 3 Current Electricity | ready | ready | ready | 13 | 4 |
+| 3 Current Electricity | ready | ready | ready | 13 | 5 |
 | 4 Moving Charges and Magnetism | ready | ready | ready | 9 | 4 |
 | 5 Magnetism and Matter | ready | ready | ready | 9 | 2 |
 | 6 Electromagnetic Induction | ready | ready | ready | 9 | 2 |
@@ -55,6 +55,10 @@ Boards only. Board paper: **Tue 16 Feb 2027** (first paper of the season). Pract
 | 10 | 10 | 4 | 3 numerical, 2 graph, 2 mnemonic, derive, steps, compare (replaces the table), 2 draw, explain |
 | 11 | 9 | 3 | 3 numerical, 2 graph, 2 mnemonic, compare, fill, draw |
 | 12 | 8 | 2 | 3 numerical, graph, 2 mnemonic, derive, steps, fill (replaces the series table), 2 draw |
+| 13 | 8 | 2 | 3 numerical, graph, 2 mnemonic, steps, compare, 2 draw, explain |
+| 14 | 9 | 5 | numerical, graph, 2 mnemonic, 2 steps, fill, 2 compare, 5 draw |
+
+**Interactive pass complete for all 14 chapters (15 Nov 2026): 145 cards, 52 ng-figures, 241 blocks in all.** `bank-check` reports 14/14 decks.
 
 - Every figure in notes.md is now an `ng-figure` with labelled parts (ids = the figure names, e.g. `ch01-dipole`; never rename). Unit colour now comes from `class="u"` / `class="uf"`, not hard-coded hex.
 - The block maths has no inverse trig, so angle graphs plot $\sin c=1/n$ and the thin-prism line $\delta=(n-1)A$ (no full δ–i curve).
@@ -65,12 +69,7 @@ Boards only. Board paper: **Tue 16 Feb 2027** (first paper of the season). Pract
 - Charge at a cube corner → flux through the whole cube is $q/8\varepsilon_0$ ($q/24\varepsilon_0$ through each of the 3 far faces). An early formula-sheet version said $q/24\varepsilon_0$ for the whole cube; the site files carry the correct value (Ch 1 notes, must-know trap, formulas).
 
 ## What's next
-1. **Derivation drill** (Must-know/Practice material, not a new layer): every board derivation as a numbered step skeleton with the diagram to draw and where step marks go. Most skeletons already exist in each chapter's `mustknow.md → Answer skeletons`; the drill would collect and complete them (e.g. equatorial dipole field, potential of a dipole, Ampère for a solenoid is qualitative only).
-2. **Practicals** (internal 30 marks; practical window 1 Jan–13 Feb): confirm the 2026–27 experiment and activity list on cbseacademic.nic.in, then aim, formula, observation table, result line and the 5 most-asked viva questions for each.
-3. Polish later: a second round of questions per chapter (target 15+ each, with internal-choice pairs); review stars against recent papers once 2026 paper analyses are checked.
-
-## Exam mode (Site chat, 15 Nov 2026)
-- Live: Subject → Exam mode builds numbered 3-hour papers (P-01, P-02 …) from this subject's questions.json files, to `data/patterns/class-12/physics.json` and the unit marks in subject.json. Every question in the bank can appear; nothing extra is needed per question.
-- Bank check: 5-markers are the bottleneck: 9 in the bank, a paper needs 6 (3 + their ORs). For 3 fresh papers add about 9 `la5` and 2 `sa3`; spread the 5-markers over Units III–VIII. More questions = more papers before repeats; each type must keep its pattern marks (MCQ/A–R 1, vsa2 2, sa3 3, case 4, la5 5).
-- Fixed set papers (e.g. an SQP-style paper) go in `papers/<id>.json` as references to bank questions (CLAUDE.md §11).
-
+1. **Exam bank** (from `node scripts/bank-check.mjs`, 15 Nov 2026): the bank fills 1 fresh paper; the target is 4. Add **5-mark +15** (none yet in Unit IX, 1 in VII–VIII, 2 in V–VI), **3-mark +11** (thinnest V–VI, IX, I–II) and **2-mark +6** (thinnest IX, III–IV, V–VI). MCQ, A–R and case questions are already enough.
+2. **Derivation drill** (Must-know/Practice material): collect every board derivation as a step skeleton; most already exist as `mustknow.md` Answer skeletons and `ng-derive` blocks. Still missing as ng-derive: equatorial dipole field, potential of a dipole, energy stored in a capacitor, I = neAv_d, motional emf, Einstein/photoelectric, nuclear density.
+3. **Practicals** (internal 30 marks; window 1 Jan–13 Feb): confirm the 2026–27 list on cbseacademic.nic.in, then aim, formula, observation table, result line and 5 viva questions each.
+4. Polish: expand the short Read layers (Ch 5, 8, 11–13) if students want more depth; recheck stars against recent paper analyses.
