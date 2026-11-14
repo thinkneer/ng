@@ -206,7 +206,8 @@ async function emailSignin(route) {
           fail(/invalid login/i.test(m) ? 'Email or password is wrong.'
             : /already registered|already exists/i.test(m) ? 'That email already has an account. Sign in instead (or use Forgot password).'
             : /not confirmed/i.test(m) ? 'Confirm your email first (check your inbox), then sign in.'
-            : /rate limit|too many/i.test(m) ? 'Too many tries. Wait a few minutes and try again.'
+            : /email.*rate limit|rate limit.*email|email_send_rate/i.test(m) ? 'Supabase’s email limit for this hour is used up (it still tries to send a confirmation email). Admin: turn off “Confirm email” in Supabase Auth; then this works without any email.'
+            : /rate limit|too many/i.test(m) ? 'Too many tries from this network. Wait a few minutes and try again.'
             : /weak|password should/i.test(m) ? 'That password is too easy. Use at least 8 characters with letters and a number.'
             : /signups? not allowed|disabled/i.test(m) ? 'New accounts are closed right now. Ask the admin.'
             : errText(ex));
