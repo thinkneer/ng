@@ -1773,33 +1773,78 @@
                       "number": 11,
                       "title": "Organisms and Populations",
                       "unit": "X",
-                      "items": {},
-                      "marks_hint": null,
-                      "summary": null,
-                      "questions": 0,
-                      "question_types": {}
+                      "items": {
+                        "notes": true,
+                        "mustknow": true,
+                        "formulas": true,
+                        "questions": true
+                      },
+                      "marks_hint": "Unit X Ecology = 10 marks (shared by Ch 11–13, CBSE 2026–27)",
+                      "summary": "Population attributes · age pyramids · population growth: exponential and logistic · life history variation · population interactions: predation, competition, parasitism, commensalism, mutualism",
+                      "questions": 10,
+                      "question_types": {
+                        "mcq": 3,
+                        "ar": 2,
+                        "vsa2": 2,
+                        "sa3": 1,
+                        "case": 1,
+                        "la5": 1
+                      },
+                      "diagrams": [],
+                      "words": 3020,
+                      "read_minutes": 10
                     },
                     {
                       "id": "ch-12",
                       "number": 12,
                       "title": "Ecosystem",
                       "unit": "X",
-                      "items": {},
-                      "marks_hint": null,
-                      "summary": null,
-                      "questions": 0,
-                      "question_types": {}
+                      "items": {
+                        "notes": true,
+                        "mustknow": true,
+                        "formulas": true,
+                        "questions": true
+                      },
+                      "marks_hint": "Unit X Ecology = 10 marks (shared by Ch 11–13, CBSE 2026–27)",
+                      "summary": "Ecosystem structure · productivity · decomposition · energy flow and food chains · ecological pyramids",
+                      "questions": 10,
+                      "question_types": {
+                        "mcq": 3,
+                        "ar": 2,
+                        "vsa2": 2,
+                        "sa3": 1,
+                        "case": 1,
+                        "la5": 1
+                      },
+                      "diagrams": [],
+                      "words": 2683,
+                      "read_minutes": 9
                     },
                     {
                       "id": "ch-13",
                       "number": 13,
                       "title": "Biodiversity and Conservation",
                       "unit": "X",
-                      "items": {},
-                      "marks_hint": null,
-                      "summary": null,
-                      "questions": 0,
-                      "question_types": {}
+                      "items": {
+                        "notes": true,
+                        "mustknow": true,
+                        "formulas": true,
+                        "questions": true
+                      },
+                      "marks_hint": "Unit X Ecology = 10 marks (shared by Ch 11–13, CBSE 2026–27)",
+                      "summary": "Levels of biodiversity · patterns: latitude and species–area · importance · loss and its causes · in situ and ex situ conservation · hotspots, sacred groves",
+                      "questions": 10,
+                      "question_types": {
+                        "mcq": 3,
+                        "ar": 2,
+                        "vsa2": 2,
+                        "sa3": 1,
+                        "case": 1,
+                        "la5": 1
+                      },
+                      "diagrams": [],
+                      "words": 3418,
+                      "read_minutes": 11
                     }
                   ]
                 }
@@ -1821,10 +1866,10 @@
               },
               "papers": [],
               "counts": {
-                "notes": 10,
-                "mustknow": 10,
-                "formulas": 10,
-                "questions": 10,
+                "notes": 13,
+                "mustknow": 13,
+                "formulas": 13,
+                "questions": 13,
                 "chapters": 13
               }
             },

@@ -1,0 +1,99 @@
+[
+  {
+    "id": "bio-11-q01", "chapter": "ch-11", "type": "mcq", "marks": 1, "stars": 3, "label": "PYQ-style", "topic": "Interactions",
+    "stem": "The interaction between a cattle egret and grazing cattle is:",
+    "options": ["mutualism", "commensalism", "parasitism", "amensalism"],
+    "answer": "B",
+    "hint": "Cattle neither gain nor lose.",
+    "model_answer": "**(b) Commensalism.** The egret catches insects disturbed by cattle; cattle are unaffected."
+  },
+  {
+    "id": "bio-11-q02", "chapter": "ch-11", "type": "mcq", "marks": 1, "stars": 2, "label": "PYQ-style", "topic": "Per capita rates",
+    "stem": "In a laboratory population of 40 fruit flies, 4 died during a week. The death rate is:",
+    "options": ["0.4 per fly per week", "0.1 per fly per week", "4 per week", "10 per fly per week"],
+    "answer": "B",
+    "hint": "Deaths ÷ population.",
+    "model_answer": "**(b).** 4/40 = 0.1 individuals per fruit fly per week."
+  },
+  {
+    "id": "bio-11-q03", "chapter": "ch-11", "type": "mcq", "marks": 1, "stars": 2, "label": "PYQ-style", "topic": "Age pyramids",
+    "stem": "An urn-shaped age pyramid indicates a population that is:",
+    "options": ["expanding", "stable", "declining", "at carrying capacity"],
+    "answer": "C",
+    "hint": "Narrow base: few young.",
+    "model_answer": "**(c) Declining.** Fewer pre-reproductive individuals than reproductive ones."
+  },
+  {
+    "id": "bio-11-q04", "chapter": "ch-11", "type": "ar", "marks": 1, "stars": 3, "label": "PYQ-style", "topic": "Growth models",
+    "stem": "**Assertion (A):** The logistic growth model is considered more realistic than the exponential model.<br>**Reason (R):** Resources for growth of most populations are finite and become limiting.",
+    "options": ["Both A and R are true, and R is the correct explanation of A.", "Both A and R are true, but R is not the correct explanation of A.", "A is true, but R is false.", "A is false, but R is true."],
+    "answer": "A",
+    "hint": "Carrying capacity.",
+    "model_answer": "**(a).** Limited resources impose a carrying capacity, which the logistic model includes."
+  },
+  {
+    "id": "bio-11-q05", "chapter": "ch-11", "type": "ar", "marks": 1, "stars": 2, "label": "PYQ-style", "topic": "Predation",
+    "stem": "**Assertion (A):** Predators help maintain species diversity in a community.<br>**Reason (R):** Predators reduce the intensity of competition among competing prey species.",
+    "options": ["Both A and R are true, and R is the correct explanation of A.", "Both A and R are true, but R is not the correct explanation of A.", "A is true, but R is false.", "A is false, but R is true."],
+    "answer": "A",
+    "hint": "Paine's Pisaster experiment.",
+    "model_answer": "**(a).** Removing the predator Pisaster led to extinction of over 10 invertebrate species through competition."
+  },
+  {
+    "id": "bio-11-q06", "chapter": "ch-11", "type": "vsa2", "marks": 2, "stars": 2, "label": "PYQ-style", "topic": "Competition",
+    "stem": "State Gause's competitive exclusion principle. How can competing species still coexist? Give an example.",
+    "hint": "MacArthur's warblers.",
+    "model_answer": "Two closely related species competing for the same resources cannot coexist indefinitely; the inferior one is eliminated. They can coexist by resource partitioning: MacArthur's five closely related warbler species on the same tree avoided competition through different foraging behaviour.",
+    "scheme": [
+      { "step": "Statement of Gause's principle", "marks": 1 },
+      { "step": "Resource partitioning with warbler example", "marks": 1 }
+    ]
+  },
+  {
+    "id": "bio-11-q07", "chapter": "ch-11", "type": "vsa2", "marks": 2, "stars": 2, "label": "PYQ-style", "topic": "Parasitism",
+    "stem": "List four adaptations of parasites to their mode of life.",
+    "hint": "Lose some organs, gain others.",
+    "model_answer": "Loss of unnecessary sense organs; adhesive organs or suckers to cling to the host; loss of digestive system; high reproductive capacity (also complex life cycles with intermediate hosts).",
+    "scheme": [
+      { "step": "Four adaptations (½ each)", "marks": 2 }
+    ]
+  },
+  {
+    "id": "bio-11-q08", "chapter": "ch-11", "type": "sa3", "marks": 3, "stars": 3, "label": "PYQ-style", "topic": "Growth curves",
+    "stem": "Compare exponential and logistic growth of a population, writing the equation for each and sketching or describing the curves.",
+    "hint": "J and S; K.",
+    "model_answer": "Exponential growth occurs when resources are unlimited: dN/dt = rN (Nt = N0 e^rt), giving a J-shaped curve. Logistic growth occurs when resources are limited: dN/dt = rN(K − N)/K, where K is carrying capacity; the curve is S-shaped (lag, acceleration, deceleration, asymptote at K). The logistic model is more realistic.",
+    "scheme": [
+      { "step": "Exponential: unlimited resources, dN/dt = rN, J-curve", "marks": 1 },
+      { "step": "Logistic: limited resources, dN/dt = rN(K−N)/K, S-curve", "marks": 1 },
+      { "step": "Carrying capacity explained / phases / realistic", "marks": 1 }
+    ]
+  },
+  {
+    "id": "bio-11-q09", "chapter": "ch-11", "type": "case", "marks": 4, "stars": 2, "label": "PYQ-style", "topic": "Population interactions",
+    "stem": "*On a rocky coast, ecologists studied two barnacle species. The larger species occupied most of the intertidal zone; the smaller one lived only higher up. When the larger species was removed from some rocks, the smaller one spread downwards into the whole zone.*",
+    "parts": [
+      { "id": "A", "marks": 1, "stem": "Name the two barnacles and the scientist who studied them.",
+        "model_answer": "Balanus (larger) and Chthamalus (smaller); Connell, on the rocky coasts of Scotland.",
+        "scheme": [ { "step": "Balanus, Chthamalus; Connell", "marks": 1 } ] },
+      { "id": "B", "marks": 1, "stem": "Name the interaction and give the signs for both species.",
+        "model_answer": "Competition (−, −).",
+        "scheme": [ { "step": "Competition, −/−", "marks": 1 } ] },
+      { "id": "C", "marks": 2, "stem": "What is the spread of the smaller species after removal called? Give another example of competition from NCERT.",
+        "model_answer": "Competitive release. Another example: goats introduced on the Galapagos made the Abingdon tortoise extinct within a decade (or flamingoes and fishes competing for zooplankton).",
+        "scheme": [ { "step": "Competitive release", "marks": 1 }, { "step": "Valid second example", "marks": 1 } ] }
+    ]
+  },
+  {
+    "id": "bio-11-q10", "chapter": "ch-11", "type": "la5", "marks": 5, "stars": 3, "label": "PYQ-style", "topic": "Interactions",
+    "stem": "Explain mutualism, commensalism and parasitism with one example each. Describe one defence that prey have evolved against predators. [3 + 2]",
+    "hint": "+/+, +/0, +/−.",
+    "model_answer": "Mutualism (+/+): both benefit, e.g. lichen (fungus + alga/cyanobacterium) or fig and its pollinating wasp. Commensalism (+/0): one benefits, other unaffected, e.g. orchid growing on a mango branch. Parasitism (+/−): parasite benefits at host's expense, e.g. Cuscuta on hedge plants or human liver fluke. Prey defence (any one, explained): camouflage of insects and frogs; monarch butterfly distasteful due to chemicals from a poisonous weed; thorns of Acacia; cardiac glycosides of Calotropis.",
+    "scheme": [
+      { "step": "Mutualism with example", "marks": 1 },
+      { "step": "Commensalism with example", "marks": 1 },
+      { "step": "Parasitism with example", "marks": 1 },
+      { "step": "One defence explained with example", "marks": 2 }
+    ]
+  }
+]

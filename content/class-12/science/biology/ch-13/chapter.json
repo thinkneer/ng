@@ -1,0 +1,16 @@
+{
+  "$schema": "../../../../../schemas/chapter.schema.json",
+  "id": "ch-13",
+  "number": 13,
+  "title": "Biodiversity and Conservation",
+  "unit": "X",
+  "marks_hint": "Unit X Ecology = 10 marks (shared by Ch 11–13, CBSE 2026–27)",
+  "summary": "Levels of biodiversity · patterns: latitude and species–area · importance · loss and its causes · in situ and ex situ conservation · hotspots, sacred groves",
+  "status": {
+    "notes": "ready",
+    "mustknow": "ready",
+    "formulas": "ready",
+    "questions": "ready"
+  },
+  "updated": "2026-11-14"
+}

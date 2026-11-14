@@ -22,9 +22,16 @@ Paper: **Thu 25 Mar 2027** (date sheet of 6 Nov 2026). Biology-only days 10–24
 - **Batch 3 — Units VIII–IX (Ch 7–10), 14 Nov 2026.** All five files per chapter.
   - Ch 7 Read: Plasmodium life-cycle SVG and antibody (H₂L₂) SVG; disease/pathogen table. Ch 8 Read: sewage-treatment flow SVG; microbe → product table. Ch 9 Read: pBR322 map SVG and PCR-cycle SVG. Ch 10: tables only (cry genes, transgenic-animal uses).
 
+- **Batch 4 — Unit X (Ch 11–13), 14 Nov 2026.** All five files per chapter. Deleted parts left out and flagged at the top of the Read and Must-know files: Ch 11 "Organism and its environment" (abiotic factors, responses, adaptations); Ch 12 succession, nutrient cycling, ecosystem services.
+  - Ch 11 Read: age-pyramid SVG and J/S growth-curve SVG; interactions table. Ch 12 Read: energy/biomass pyramid SVG; decomposition steps; 10 % law example. Ch 13 Read: species–area SVG; Evil Quartet; NCERT protected-area figures with a tip that real numbers have grown.
+- **All 13 chapters now have Read, Must know, formulas and 10 practice questions each (130 questions).** Checked: build-index passes with 0 warnings; every SVG rendered and inspected; chapter page checked in headless Chrome (390 px).
+
 ## Corrections
 - none yet
 
 ## What's next
-- Batch 4: Unit X (Ch 11–13).
-- Later: practical help (5 experiments, 11 spotting items, viva), more questions per chapter for live quizzes.
+1. **More practice**: raise each chapter to 6+ MCQ/A–R (live quizzes draw on them) and add 2–3 more case questions per unit.
+2. **Practicals (30 marks)**: the experiments in the 2026–27 practical list (check the syllabus PDF; includes DNA isolation, quadrat study, pollen germination, onion root-tip mitosis), the spotting items and viva questions — not on the site yet.
+3. **Diagram polish**: male and female reproductive systems, T.S. of anther (whole), mammary gland, DNA double helix and nucleosome, transcription unit, Bt toxin action and RNAi are described in words only; add SVGs.
+4. **Review pass**: read every Must-know line on a phone in Recall mode; shorten any line over 15 words.
+5. Full-length timed paper on the 2026–27 pattern (papers/ folder) once a Site chat confirms the exam-mode format.

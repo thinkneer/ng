@@ -1,0 +1,16 @@
+{
+  "$schema": "../../../../../schemas/chapter.schema.json",
+  "id": "ch-12",
+  "number": 12,
+  "title": "Ecosystem",
+  "unit": "X",
+  "marks_hint": "Unit X Ecology = 10 marks (shared by Ch 11–13, CBSE 2026–27)",
+  "summary": "Ecosystem structure · productivity · decomposition · energy flow and food chains · ecological pyramids",
+  "status": {
+    "notes": "ready",
+    "mustknow": "ready",
+    "formulas": "ready",
+    "questions": "ready"
+  },
+  "updated": "2026-11-14"
+}
