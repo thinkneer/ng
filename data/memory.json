@@ -1,13 +1,22 @@
 {
  "chemistry/ch-02": [
   {
-   "id": "leo-ger",
-   "title": "LEO says GER · AN OX, RED CAT",
-   "trick": "LEO says GER · AN OX, RED CAT",
+   "id": "an-ox-red-cat",
+   "title": "Which electrode does what",
+   "trick": "**AN OX** and a **RED CAT**",
    "meaning": [
-    "**LEO** Lose Electrons = Oxidation, **GER** Gain Electrons = Reduction. **AN OX**: oxidation at the anode; **RED CAT**: reduction at the cathode, in every cell."
+    "Oxidation at the **AN**ode, **RED**uction at the **CAT**hode, in galvanic and electrolytic cells alike."
    ],
-   "card": true
+   "prompt": "Where does oxidation happen, and where does reduction happen?"
+  },
+  {
+   "id": "leo-ger",
+   "title": "Losing or gaining electrons?",
+   "trick": "**LEO** the lion says **GER**",
+   "meaning": [
+    "**L**ose **E**lectrons = **O**xidation; **G**ain **E**lectrons = **R**eduction."
+   ],
+   "prompt": "Is losing electrons oxidation or reduction?"
   }
  ]
 }

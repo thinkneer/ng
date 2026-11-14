@@ -10,13 +10,46 @@ Now separate the two halves. Put zinc in zinc sulphate solution in one beaker an
 
 Each beaker is a **half-cell**. Oxidation happens at the **anode** (zinc, $\ce{Zn -> Zn^2+ + 2e-}$) and reduction at the **cathode** (copper, $\ce{Cu^2+ + 2e- -> Cu}$). Because the anode is where electrons are released, it is the *negative* terminal of a galvanic cell. The salt bridge, a tube of $\ce{KCl}$ or $\ce{KNO3}$ in agar, lets ions move so that neither solution builds up charge; without it the current stops almost at once.
 
-<figure class="fig" id="daniell-cell">
+```ng-figure
+id: daniell-cell
+title: Daniell cell
+svg:
 <svg viewBox="0 0 350 236" role="img" aria-label="Daniell cell: zinc and copper half-cells joined by a wire and a salt bridge" fill="none" stroke="currentColor" stroke-width="1.5" font-size="11">
 <path d="M40,105 V200 H140 V105"/><path d="M200,105 V200 H300 V105"/><path d="M40,125L140,125" stroke-width="1"/><path d="M200,125L300,125" stroke-width="1"/><rect x="62" y="60" width="14" height="125"/><rect x="264" y="60" width="14" height="125" stroke="#E0B400" stroke-width="2"/><path d="M118,185 V92 H222 V185" stroke-width="7" opacity="0.45"/><path d="M69,60 V34 H157"/><path d="M183,34 H271 V60"/><circle cx="170" cy="34" r="13"/><path d="M92,24L132,24" stroke-width="1"/><path d="M127.7,26.5L132,24L127.7,21.5" stroke-width="1"/><path d="M208,24L248,24" stroke-width="1"/><path d="M243.7,26.5L248,24L243.7,21.5" stroke-width="1"/>
 <g fill="currentColor" stroke="none"><text x="170" y="38" text-anchor="middle">V</text><text x="112" y="18" text-anchor="middle">e⁻</text><text x="228" y="18" text-anchor="middle">e⁻</text><text x="170" y="84" text-anchor="middle" font-size="9">salt bridge</text><text x="4" y="75">Zn</text><text x="4" y="88" font-size="9">anode (−)</text><text x="286" y="75">Cu</text><text x="286" y="88" font-size="9">cathode (+)</text><text x="90" y="214" text-anchor="middle">ZnSO<tspan dy="3" font-size="8">4</tspan><tspan dy="-3">(aq)</tspan></text><text x="250" y="214" text-anchor="middle">CuSO<tspan dy="3" font-size="8">4</tspan><tspan dy="-3">(aq)</tspan></text><text x="90" y="228" text-anchor="middle" font-size="9">Zn → Zn²⁺ + 2e⁻</text><text x="250" y="228" text-anchor="middle" font-size="9">Cu²⁺ + 2e⁻ → Cu</text></g>
 </svg>
-<figcaption>Figure 2.1 Daniell cell: zinc anode (−) on the left, copper cathode (+) on the right; electrons flow from zinc to copper through the wire.</figcaption>
-</figure>
+caption: Figure 2.1 Daniell cell: zinc anode (−) on the left, copper cathode (+) on the right; electrons flow from zinc to copper through the wire.
+part: 69, 120 | Zinc rod: anode (−) | Oxidation happens here: Zn → Zn²⁺ + 2e⁻; the rod slowly wears away.
+part: 271, 120 | Copper rod: cathode (+) | Reduction happens here: Cu²⁺ + 2e⁻ → Cu; copper builds up on it.
+part: 170, 92 | Salt bridge | KCl or KNO₃ in agar; its ions move so that neither solution builds up charge.
+part: 170, 34 | Voltmeter | Reads 1.10 V when all concentrations are 1 M and no current is drawn.
+part: 112, 24 | Electron flow | Electrons go through the wire from zinc to copper.
+part: 90, 160 | ZnSO₄ solution | Zn²⁺ ions build up here as the cell runs.
+part: 250, 160 | CuSO₄ solution | Cu²⁺ ions are used up, so the blue colour fades.
+```
+
+```ng-steps
+id: electron-ion-flow
+title: What moves where in a Daniell cell
+svg:
+<svg viewBox="0 0 340 228" role="img" aria-label="Electron and ion flow in a Daniell cell" fill="none" stroke="currentColor" stroke-width="1.5" font-size="11">
+<path d="M30,100 V200 H130 V100"/><path d="M210,100 V200 H310 V100"/><path d="M30,118 H130 M210,118 H310" stroke-width="1"/>
+<rect x="52" y="62" width="14" height="118"/><rect x="274" y="62" width="14" height="118" stroke="#E0B400" stroke-width="2"/>
+<path d="M59,62 V30 H159 M181,30 H281 V62"/><circle cx="170" cy="30" r="11"/>
+<path d="M108,190 V84 H232 V190" stroke-width="8" opacity="0.3"/>
+<g fill="currentColor" stroke="none"><text x="170" y="34" text-anchor="middle">V</text><text x="80" y="216" text-anchor="middle">Zn anode (−)</text><text x="260" y="216" text-anchor="middle">Cu cathode (+)</text></g>
+<g data-step="1"><path d="M68,146 H84 M68,170 H84" class="u" stroke-width="1.5"/><path d="M80,143 L84,146 L80,149 M80,167 L84,170 L80,173" class="u" stroke-width="1.5"/><g fill="currentColor" stroke="none"><text x="88" y="150">Zn²⁺</text><text x="88" y="174">Zn²⁺</text><text x="70" y="78">2e⁻</text></g></g>
+<g data-step="2"><path class="flow u" d="M59,58 V30 H159 M181,30 H281 V58" stroke-width="3"/><g fill="currentColor" stroke="none"><text x="112" y="22" text-anchor="middle">e⁻ →</text><text x="228" y="22" text-anchor="middle">e⁻ →</text></g></g>
+<g data-step="3"><path d="M256,146 H270 M256,170 H270" class="u" stroke-width="1.5"/><path d="M266,143 L270,146 L266,149 M266,167 L270,170 L266,173" class="u" stroke-width="1.5"/><rect x="274" y="150" width="14" height="30" fill="#E0B400" fill-opacity="0.5" stroke="none"/><g fill="currentColor" stroke="none"><text x="252" y="150" text-anchor="end">Cu²⁺</text><text x="252" y="174" text-anchor="end">Cu²⁺</text></g></g>
+<g data-step="4"><path class="flow" d="M196,96 H122" stroke-width="2"/><path class="flow" d="M144,108 H218" stroke-width="2"/><g fill="currentColor" stroke="none" font-size="10"><text x="170" y="78" text-anchor="middle">← anions (Cl⁻)</text><text x="170" y="124" text-anchor="middle">cations (K⁺) →</text></g></g>
+<g data-step="5"><rect x="96" y="44" width="148" height="22" rx="6" fill="#E0B400" fill-opacity="0.25" stroke="#E0B400"/><text x="170" y="59" text-anchor="middle" fill="currentColor" stroke="none" font-weight="700">Zn dissolves · Cu deposits</text></g>
+</svg>
+step: **At the anode** zinc atoms give up electrons and go into solution: $\ce{Zn -> Zn^2+ + 2e-}$.
+step: **Electrons travel through the wire** from zinc to copper. (Conventional current is taken the other way, copper to zinc.)
+step: **At the cathode** $\ce{Cu^2+}$ ions take those electrons and deposit as copper: $\ce{Cu^2+ + 2e- -> Cu}$.
+step: **The salt bridge** keeps both beakers neutral: anions drift towards the zinc side, cations towards the copper side.
+step: Net result: zinc dissolves, copper deposits, and while all concentrations are 1 M the voltmeter reads 1.10 V.
+```
 
 A cell is written in shorthand with the anode on the left: $\ce{Zn(s) | Zn^2+(aq) || Cu^2+(aq) | Cu(s)}$. A single line is a phase boundary and the double line is the salt bridge.
 
@@ -30,9 +63,44 @@ The Daniell cell gives 1.10 V. If you connect an outside source that pushes back
 <figcaption>Figure 2.2 Electrolytic cell (molten NaCl): the battery forces the change. Anode (+): chloride ions are oxidised to chlorine. Cathode (−): sodium ions are reduced to sodium.</figcaption>
 </figure>
 
+```ng-compare
+id: galvanic-vs-electrolytic
+title: Galvanic vs electrolytic cell
+cols: Galvanic cell | Electrolytic cell
+row: Energy change | chemical → electrical | electrical → chemical
+row: Reaction | spontaneous, $\Delta G<0$ | non-spontaneous, driven by an outside source
+row: Anode | negative (−); oxidation | positive (+); oxidation
+row: Cathode | positive (+); reduction | negative (−); reduction
+row: Set-up | two half-cells joined by a salt bridge | usually one vessel, no salt bridge
+row: Example | Daniell cell, dry cell | electroplating, refining copper
+```
+
 :::tip
 Oxidation is always at the anode, in both kinds of cell. What changes is the sign: the anode is negative in a galvanic cell and positive in an electrolytic cell.
 :::
+
+```ng-mnemonic
+id: an-ox-red-cat
+title: Which electrode does what
+trick: **AN OX** and a **RED CAT**
+meaning: Oxidation at the **AN**ode, **RED**uction at the **CAT**hode, in galvanic and electrolytic cells alike.
+prompt: Where does oxidation happen, and where does reduction happen?
+```
+
+```ng-mnemonic
+id: leo-ger
+title: Losing or gaining electrons?
+trick: **LEO** the lion says **GER**
+meaning: **L**ose **E**lectrons = **O**xidation; **G**ain **E**lectrons = **R**eduction.
+prompt: Is losing electrons oxidation or reduction?
+```
+
+```ng-draw
+id: draw-daniell
+title: Draw the Daniell cell
+svg: ref: notes#daniell-cell
+time: 4
+```
 
 **In one breath:** A galvanic cell separates oxidation (anode, −) from reduction (cathode, +) so electrons flow through a wire; drive it backwards with a larger outside voltage and it becomes an electrolytic cell.
 
@@ -51,6 +119,17 @@ Daniell cell: $0.34-(-0.76)=1.10$ V
 :::
 
 Listing half-cells in order of $E^\circ$ gives the **electrochemical series**, and it tells you a great deal. A large positive $E^\circ$ means the species is easily reduced, so it is a strong oxidising agent; fluorine tops the list at +2.87 V. A large negative $E^\circ$ means the reduced form readily gives up electrons, so it is a strong reducing agent; lithium sits at −3.05 V. A metal lower in $E^\circ$ displaces one higher in $E^\circ$ from its salt solution, which is why zinc displaces copper, and why metals with negative $E^\circ$ liberate hydrogen from acids while copper (+0.34 V) does not.
+
+```ng-fill
+id: standard-potentials
+title: Standard reduction potentials worth knowing
+cols: Couple | $E^\circ$ (V) | What it tells you
+row: $\ce{F2/F-}$ | [[+2.87]] | [[strongest oxidising agent]]
+row: $\ce{Cu^2+/Cu}$ | [[+0.34]] | copper does not give $\ce{H2}$ with dilute acids
+row: $\ce{H+/H2}$ (SHE) | [[0.00]] | the reference electrode
+row: $\ce{Zn^2+/Zn}$ | [[−0.76]] | zinc displaces copper from $\ce{CuSO4}$
+row: $\ce{Li+/Li}$ | [[−3.05]] | [[strongest reducing agent]]
+```
 
 :::skeleton Worked example: standard cell potential
 *Write the cell reaction and find $E^\circ_\text{cell}$ for a cell made from zinc and silver electrodes. ($E^\circ_{\ce{Zn^2+/Zn}}=-0.76$ V, $E^\circ_{\ce{Ag+/Ag}}=+0.80$ V)*
@@ -82,6 +161,19 @@ Single electrode $\ce{M^n+ + ne- -> M}$: $E=E^\circ-\dfrac{0.059}{n}\log\dfrac{1
 
 Pure solids and liquids are left out of $Q$, and gases enter as partial pressures in bar. The 0.059 comes from $2.303RT/F$ at 298 K.
 
+```ng-graph
+id: nernst-graph
+title: How the voltage falls as Q grows
+x: log Q | -6 | 6
+y: E (V) | 0.8 | 1.4
+curve: E | E0 - 0.059/n*x
+slider: E0 | $E^\circ_\text{cell}$ (V) | 1.00 | 1.20 | 0.01 | 1.10
+slider: n | $n$ | 1 | 3 | 1 | 2
+preset: Daniell cell | E0=1.10, n=2
+preset: One-electron cell | n=1
+note: A straight line of slope $-0.059/n$ that crosses $E^\circ$ at $\log Q=0$ ($Q=1$). Products piling up push $\log Q$ up and the voltage down; a bigger $n$ makes the fall gentler.
+```
+
 :::skeleton Worked example: Nernst equation
 *Find the emf at 298 K of $\ce{Zn(s) | Zn^2+(0.10 M) || Ag+(0.010 M) | Ag(s)}$, given $E^\circ_\text{cell}=1.56$ V.*
 
@@ -98,6 +190,29 @@ $=1.56-0.0885=$ **1.47 V** [½]
 Two slips cost marks here: forgetting to square $[\ce{Ag+}]$ (the coefficient becomes the power), and writing $Q$ upside down. Write the balanced cell reaction first and read $Q$ and $n$ off it.
 :::
 
+```ng-numerical
+id: nernst-emf
+title: Nernst equation with fresh numbers
+question: Find the emf at 298 K of $\ce{Zn(s) | Zn^2+({{c1}} M) || Ag+({{c2}} M) | Ag(s)}$, given $E^\circ_\text{cell}=1.56$ V.
+var: c1 | 0.05 | 0.50 | 0.05
+var: c2 | 0.001 | 0.020 | 0.001
+let: Q = c1/c2^2
+answer: 1.56 - 0.059/2*log(Q)
+unit: V
+dp: 2
+tol: 1
+step: Cell reaction $\ce{Zn + 2Ag+ -> Zn^2+ + 2Ag}$, so $n=2$.
+step: $Q=\dfrac{[\ce{Zn^2+}]}{[\ce{Ag+}]^2}=\dfrac{ {{c1}} }{({{c2}})^2}={{Q}}$
+step: $E_\text{cell}=1.56-\dfrac{0.059}{2}\log({{Q}})=1.56-0.0295\times{{log(Q):3}}$
+step: $E_\text{cell}=$ **{{1.56 - 0.0295*log(Q):2}} V** (box it, with the unit)
+```
+
+```ng-explain
+id: why-voltage-falls
+prompt: In three lines, explain why the voltage of a Daniell cell falls as it runs.
+lines: 3
+```
+
 **In one breath:** Cell voltage falls as products build up; $E=E^\circ-\frac{0.059}{n}\log Q$ at 298 K, with solids left out of $Q$.
 
 ## Cell potential, Gibbs energy and the equilibrium constant
@@ -113,6 +228,18 @@ $\log K_c=\dfrac{nE^\circ_\text{cell}}{0.059}$ at 298 K (from $\Delta_rG^\circ=-
 :::
 
 The signs agree with what you know: a positive cell voltage means a negative $\Delta G$, a spontaneous reaction. And unlike $E^\circ$, $\Delta G^\circ$ *is* extensive, so it does depend on how you balance the equation, through $n$.
+
+```ng-derive
+id: derive-nernst
+title: Derive the Nernst equation
+prompt: Starting from $\Delta_rG=\Delta_rG^\circ+RT\ln Q$, derive the Nernst equation and write its form at 298 K.
+time: 6
+check: Start from $\Delta_rG=\Delta_rG^\circ+RT\ln Q$ | 1
+check: Substitute $\Delta_rG=-nFE_\text{cell}$ and $\Delta_rG^\circ=-nFE^\circ_\text{cell}$ | 1
+check: Divide by $-nF$: $E_\text{cell}=E^\circ_\text{cell}-\dfrac{RT}{nF}\ln Q$ | 1
+check: Change to base-10 logs: $E_\text{cell}=E^\circ_\text{cell}-\dfrac{2.303RT}{nF}\log Q$ | 1
+check: Put $R=8.314$, $T=298$ K, $F=96500$: $\dfrac{2.303RT}{F}=0.059$ V, so $E_\text{cell}=E^\circ_\text{cell}-\dfrac{0.059}{n}\log Q$ | 1
+```
 
 :::skeleton Worked example: Gibbs energy and equilibrium constant
 *For $\ce{Zn + 2Ag+ -> Zn^2+ + 2Ag}$, $E^\circ_\text{cell}=1.56$ V. Find $\Delta_rG^\circ$ and $K_c$ at 298 K.*
@@ -184,6 +311,27 @@ A **weak electrolyte** such as ethanoic acid is only slightly ionised. Dilution 
 
 For the strong electrolyte you can extend the straight line back to zero concentration and read off $\Lambda_m^\circ$. For the weak one you cannot; the curve is too steep to extrapolate. Kohlrausch found the way round this. At infinite dilution every ion moves independently of its partner, so each makes its own fixed contribution.
 
+```ng-graph
+id: lambda-graph
+title: Dilute it and watch Λm
+x: √c (mol L⁻¹)^½ | 0 | 0.35
+y: Λm (S cm² mol⁻¹) | 0 | 420
+curve: KCl (strong) | L0 - A*x
+curve: CH₃COOH (weak) | 390.5*(sqrt(k^2*1e-10 + 4*k*1e-5*x^2) - k*1e-5)/(2*x^2)
+slider: A | slope $A$ | 40 | 150 | 1 | 94
+slider: L0 | KCl $\Lambda_m^\circ$ | 120 | 160 | 1 | 150
+slider: k | weak acid $K_a$ (×10⁻⁵) | 0.5 | 5 | 0.1 | 1.8
+preset: Real values | A=94, L0=150, k=1.8
+note: The strong line can be extended to $\sqrt c=0$ to read $\Lambda_m^\circ$. The weak curve shoots up only at very low concentration, which is why its $\Lambda_m^\circ$ comes from Kohlrausch's law instead. Drag on the graph: at $\sqrt c=0.1$ the weak acid gives about 16 S cm² mol⁻¹.
+```
+
+```ng-draw
+id: draw-lambda-graph
+title: Sketch Λm against √c for KCl and CH₃COOH
+svg: ref: notes#lambda-sqrt-c
+time: 3
+```
+
 **Kohlrausch's law of independent migration of ions:** the limiting molar conductivity of an electrolyte is the sum of the individual contributions of its cation and anion.
 
 :::formula Kohlrausch's law
@@ -235,6 +383,22 @@ $=$ **2.01 g** [½]
 :::tip
 Time must be in seconds. Twenty minutes left as "20" gives an answer sixty times too small.
 :::
+
+```ng-numerical
+id: faraday-silver
+title: Faraday's first law with fresh numbers
+question: A current of {{I}} A is passed through silver nitrate solution for {{t}} minutes. What mass of silver is deposited? (Ag = 108 g mol⁻¹, $F$ = 96500 C mol⁻¹)
+var: I | 0.5 | 3.0 | 0.5
+var: t | 10 | 60 | 5
+let: Q = I*t*60
+answer: 108*Q/96500
+unit: g
+dp: 2
+step: $Q=It={{I}}\times{{t}}\times60={{Q}}$ C (time in seconds)
+step: $\ce{Ag+ + e- -> Ag}$, so $n=1$
+step: $m=\dfrac{MQ}{nF}=\dfrac{108\times{{Q}}}{1\times96500}$
+step: $m=$ **{{108*Q/96500:2}} g**
+```
 
 *Which* product forms is decided by electrode potentials: at the cathode the species with the higher reduction potential is reduced; at the anode the one that is more easily oxidised reacts. Compare molten and aqueous sodium chloride. Molten $\ce{NaCl}$ has only $\ce{Na+}$ and $\ce{Cl-}$, so it gives sodium and chlorine. In water there is competition. At the cathode, water ($E^\circ=-0.83$ V) is far easier to reduce than $\ce{Na+}$ (−2.71 V), so hydrogen comes off and the solution turns alkaline with $\ce{NaOH}$. At the anode you would expect oxygen from water, but oxygen needs a large extra voltage (overpotential) to form, so chlorine is produced instead.
 

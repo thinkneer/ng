@@ -830,10 +830,22 @@
                         "case": 2
                       },
                       "diagrams": [],
-                      "words": 5442,
+                      "blocks": {
+                        "figure": 1,
+                        "steps": 1,
+                        "compare": 1,
+                        "mnemonic": 2,
+                        "draw": 2,
+                        "fill": 1,
+                        "graph": 2,
+                        "numerical": 2,
+                        "explain": 1,
+                        "derive": 1
+                      },
+                      "words": 5413,
                       "read_minutes": 15,
                       "cards": 12,
-                      "mnemonics": 1
+                      "mnemonics": 2
                     }
                   ]
                 },
