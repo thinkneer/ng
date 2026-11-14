@@ -1,0 +1,16 @@
+{
+  "$schema": "../../../../../schemas/chapter.schema.json",
+  "id": "ch-06",
+  "number": 6,
+  "title": "Electromagnetic Induction",
+  "unit": "IV",
+  "marks_hint": "Unit III+IV: 17 marks together (CBSE 2026–27); Ch 6 is usually 4–6 of them (estimate)",
+  "summary": "Flux · Faraday's and Lenz's laws · motional emf · self and mutual inductance · energy in an inductor",
+  "status": {
+    "notes": "ready",
+    "mustknow": "ready",
+    "formulas": "ready",
+    "questions": "ready"
+  },
+  "updated": "2026-11-14"
+}

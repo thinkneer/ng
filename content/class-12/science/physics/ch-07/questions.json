@@ -1,0 +1,242 @@
+[
+  {
+    "id": "phy-07-q01",
+    "chapter": "ch-07",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ-style",
+    "stem": "The rms value of the mains voltage is 220 V. Its peak value is about",
+    "options": [
+      "156 V",
+      "220 V",
+      "311 V",
+      "440 V"
+    ],
+    "answer": "C",
+    "model_answer": "**(C) 311 V** $v_m=\\sqrt2\\times220\\approx311$ V.",
+    "topic": "rms values"
+  },
+  {
+    "id": "phy-07-q02",
+    "chapter": "ch-07",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ-style",
+    "stem": "The reactance of a 100 µF capacitor at 50 Hz is about",
+    "options": [
+      "31.8 Ω",
+      "3.18 Ω",
+      "318 Ω",
+      "0.0318 Ω"
+    ],
+    "answer": "A",
+    "model_answer": "**(A) 31.8 Ω** $X_C=\\dfrac{1}{2\\pi\\nu C}=\\dfrac{1}{2\\pi\\times50\\times10^{-4}}=31.8$ Ω.",
+    "topic": "Reactance"
+  },
+  {
+    "id": "phy-07-q03",
+    "chapter": "ch-07",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 3,
+    "label": "PYQ-style",
+    "stem": "The power factor of a series LCR circuit at resonance is",
+    "options": [
+      "0",
+      "0.5",
+      "0.707",
+      "1"
+    ],
+    "answer": "D",
+    "model_answer": "**(D) 1** At resonance $X_L=X_C$, $Z=R$, so $\\cos\\phi=R/Z=1$.",
+    "topic": "Resonance"
+  },
+  {
+    "id": "phy-07-q04",
+    "chapter": "ch-07",
+    "type": "ar",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ-style",
+    "stem": "**Assertion (A):** A capacitor blocks direct current but allows alternating current to flow in the circuit.<br>**Reason (R):** Capacitive reactance $X_C=1/\\omega C$ is inversely proportional to frequency.",
+    "options": [
+      "Both A and R are true, and R is the correct explanation of A.",
+      "Both A and R are true, but R is not the correct explanation of A.",
+      "A is true, but R is false.",
+      "Both A and R are false."
+    ],
+    "answer": "A",
+    "model_answer": "**(A)** For DC $\\omega=0$, so $X_C$ is infinite; for AC $X_C$ is finite and falls as frequency rises.",
+    "topic": "Reactance"
+  },
+  {
+    "id": "phy-07-q05",
+    "chapter": "ch-07",
+    "type": "case",
+    "marks": 4,
+    "stars": 2,
+    "label": "PYQ-style",
+    "stem": "**Tuning a radio.** A radio's tuning circuit is a series LCR circuit. Turning the tuning knob changes the capacitance so that the circuit's resonant frequency matches the frequency of the wanted station; that station then produces a large current while others produce very little. In one set $L=1$ µH.",
+    "parts": [
+      {
+        "id": "i",
+        "stem": "At resonance",
+        "marks": 1,
+        "options": [
+          "$X_L>X_C$",
+          "$X_L=X_C$",
+          "$X_L<X_C$",
+          "$R=0$"
+        ],
+        "answer": "B",
+        "model_answer": "**(B)** The reactances cancel."
+      },
+      {
+        "id": "ii",
+        "stem": "To tune to a station at 1 MHz, the capacitance needed is about",
+        "marks": 1,
+        "options": [
+          "25 pF",
+          "2.5 nF",
+          "25 nF",
+          "250 nF"
+        ],
+        "answer": "C",
+        "model_answer": "**(C)** $C=\\dfrac{1}{4\\pi^2\\nu^2L}=\\dfrac{1}{4\\pi^2\\times10^{12}\\times10^{-6}}=2.5\\times10^{-8}$ F."
+      },
+      {
+        "id": "iii",
+        "stem": "To tune to a station of higher frequency, the capacitance must be",
+        "marks": 1,
+        "options": [
+          "increased",
+          "decreased",
+          "kept the same",
+          "made zero"
+        ],
+        "answer": "B",
+        "model_answer": "**(B)** $\\nu_0=1/2\\pi\\sqrt{LC}$ rises as $C$ falls."
+      },
+      {
+        "id": "iv",
+        "stem": "The tuner picks one station more sharply if",
+        "marks": 1,
+        "options": [
+          "R is made smaller",
+          "R is made larger",
+          "L is removed",
+          "the source voltage is raised"
+        ],
+        "answer": "A",
+        "model_answer": "**(A)** A smaller resistance gives a taller, narrower resonance peak."
+      }
+    ],
+    "topic": "Resonance"
+  },
+  {
+    "id": "phy-07-q06",
+    "chapter": "ch-07",
+    "type": "vsa2",
+    "marks": 2,
+    "stars": 2,
+    "label": "PYQ-style",
+    "stem": "Define power factor. Under what condition is the current in an AC circuit wattless? Give one example.",
+    "model_answer": "Power factor $\\cos\\phi=\\dfrac{\\text{true power}}{\\text{apparent power}}=\\dfrac{R}{Z}$, where φ is the phase difference between V and I. [1]<br>\nWattless when $\\phi=90^\\circ$ ($\\cos\\phi=0$): e.g. a purely inductive or purely capacitive circuit; average power $VI\\cos\\phi=0$. [1]",
+    "scheme": [
+      {
+        "step": "Power factor $\\cos\\phi=\\dfrac{\\text{true power}}{\\text{apparent power}}=\\dfrac{R}{Z}$, where φ is the phase difference between V and I.",
+        "marks": 1
+      },
+      {
+        "step": "Wattless when $\\phi=90^\\circ$ ($\\cos\\phi=0$): e.g. a purely inductive or purely capacitive circuit; average power $VI\\cos\\phi=0$.",
+        "marks": 1
+      }
+    ],
+    "topic": "Power factor"
+  },
+  {
+    "id": "phy-07-q07",
+    "chapter": "ch-07",
+    "type": "sa3",
+    "marks": 3,
+    "stars": 3,
+    "label": "PYQ-style",
+    "stem": "A series circuit with $R=40$ Ω, $X_L=60$ Ω and $X_C=30$ Ω is connected to a 220 V, 50 Hz supply. Find (i) the impedance, (ii) the current, (iii) the average power.",
+    "model_answer": "(i) $Z=\\sqrt{40^2+(60-30)^2}=\\boxed{50\\ \\Omega}$ [1]<br>\n(ii) $I=V/Z=220/50=\\boxed{4.4\\text{ A}}$ [1]<br>\n(iii) $\\cos\\phi=40/50=0.8$; $P=VI\\cos\\phi=220\\times4.4\\times0.8=\\boxed{774.4\\text{ W}}$ (check: $I^2R$ = 774.4 W) [1]",
+    "scheme": [
+      {
+        "step": "(i) $Z=\\sqrt{40^2+(60-30)^2}=\\boxed{50\\ \\Omega}$",
+        "marks": 1
+      },
+      {
+        "step": "(ii) $I=V/Z=220/50=\\boxed{4.4\\text{ A}}$",
+        "marks": 1
+      },
+      {
+        "step": "(iii) $\\cos\\phi=40/50=0.8$; $P=VI\\cos\\phi=220\\times4.4\\times0.8=\\boxed{774.4\\text{ W}}$ (check: $I^2R$ = 774.4 W)",
+        "marks": 1
+      }
+    ],
+    "topic": "Series LCR"
+  },
+  {
+    "id": "phy-07-q08",
+    "chapter": "ch-07",
+    "type": "sa3",
+    "marks": 3,
+    "stars": 2,
+    "label": "PYQ-style",
+    "stem": "Describe the working of an AC generator with a labelled diagram and show that the emf induced in it is $\\varepsilon=NBA\\omega\\sin\\omega t$.",
+    "model_answer": "Labelled diagram: coil (armature) between the poles of a magnet, axle, slip rings, carbon brushes, external load. [1]<br>\nCoil of $N$ turns, area $A$, turned at ω in field B; at time $t$ the normal makes $\\theta=\\omega t$ with B, so $\\Phi=NBA\\cos\\omega t$. [1]<br>\n$\\varepsilon=-\\dfrac{d\\Phi}{dt}=\\boxed{NBA\\omega\\sin\\omega t}$; peak $NBA\\omega$ when the plane of the coil is parallel to B. [1]",
+    "scheme": [
+      {
+        "step": "Labelled diagram: coil (armature) between the poles of a magnet, axle, slip rings, carbon brushes, external load.",
+        "marks": 1
+      },
+      {
+        "step": "Coil of $N$ turns, area $A$, turned at ω in field B; at time $t$ the normal makes $\\theta=\\omega t$ with B, so $\\Phi=NBA\\cos\\omega t$.",
+        "marks": 1
+      },
+      {
+        "step": "$\\varepsilon=-\\dfrac{d\\Phi}{dt}=\\boxed{NBA\\omega\\sin\\omega t}$; peak $NBA\\omega$ when the plane of the coil is parallel to B.",
+        "marks": 1
+      }
+    ],
+    "topic": "AC generator"
+  },
+  {
+    "id": "phy-07-q09",
+    "chapter": "ch-07",
+    "type": "la5",
+    "marks": 5,
+    "stars": 3,
+    "label": "PYQ-style",
+    "stem": "(a) Explain the principle and working of a transformer with a labelled diagram. For an ideal transformer, show that $\\dfrac{V_s}{V_p}=\\dfrac{N_s}{N_p}=\\dfrac{I_p}{I_s}$. [3]<br>(b) Name two causes of energy loss in a real transformer and say how each is reduced. [2]",
+    "model_answer": "(a) Labelled diagram: primary and secondary coils on a laminated soft-iron core. Principle: mutual induction. [1]<br>\nThe same flux Φ links every turn: $\\varepsilon_p=-N_p\\dfrac{d\\Phi}{dt}$, $\\varepsilon_s=-N_s\\dfrac{d\\Phi}{dt}$, so $\\dfrac{V_s}{V_p}=\\dfrac{N_s}{N_p}$. [1]<br>\nIdeal (no loss): $V_pI_p=V_sI_s$, so $\\dfrac{I_p}{I_s}=\\dfrac{V_s}{V_p}=\\dfrac{N_s}{N_p}$. [1]<br>\n(b) Eddy currents in the core: reduced by a laminated core. [1]<br>\nCopper ($I^2R$) loss in the windings: reduced by thick copper wire. (Also accept: flux leakage, coils wound over each other; hysteresis, soft-iron core.) [1]",
+    "scheme": [
+      {
+        "step": "(a) Labelled diagram: primary and secondary coils on a laminated soft-iron core. Principle: mutual induction.",
+        "marks": 1
+      },
+      {
+        "step": "The same flux Φ links every turn: $\\varepsilon_p=-N_p\\dfrac{d\\Phi}{dt}$, $\\varepsilon_s=-N_s\\dfrac{d\\Phi}{dt}$, so $\\dfrac{V_s}{V_p}=\\dfrac{N_s}{N_p}$.",
+        "marks": 1
+      },
+      {
+        "step": "Ideal (no loss): $V_pI_p=V_sI_s$, so $\\dfrac{I_p}{I_s}=\\dfrac{V_s}{V_p}=\\dfrac{N_s}{N_p}$.",
+        "marks": 1
+      },
+      {
+        "step": "(b) Eddy currents in the core: reduced by a laminated core.",
+        "marks": 1
+      },
+      {
+        "step": "Copper ($I^2R$) loss in the windings: reduced by thick copper wire. (Also accept: flux leakage, coils wound over each other; hysteresis, soft-iron core.)",
+        "marks": 1
+      }
+    ],
+    "topic": "Transformer"
+  }
+]

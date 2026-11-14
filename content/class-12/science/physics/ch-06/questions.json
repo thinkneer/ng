@@ -1,0 +1,243 @@
+[
+  {
+    "id": "phy-06-q01",
+    "chapter": "ch-06",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ-style",
+    "stem": "The magnetic flux through a loop varies as $\\Phi=(5t^2+3t)$ mWb. The emf induced at $t=2$ s is",
+    "options": [
+      "23 mV",
+      "26 mV",
+      "13 mV",
+      "20 mV"
+    ],
+    "answer": "A",
+    "model_answer": "**(A) 23 mV** $|\\varepsilon|=d\\Phi/dt=10t+3=23$ mV at $t=2$ s.",
+    "topic": "Faraday law"
+  },
+  {
+    "id": "phy-06-q02",
+    "chapter": "ch-06",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ-style",
+    "stem": "The number of turns of a solenoid is doubled, keeping its length and area the same. Its self-inductance becomes",
+    "options": [
+      "the same",
+      "twice",
+      "four times",
+      "half"
+    ],
+    "answer": "C",
+    "model_answer": "**(C) four times** $L=\\mu_0N^2A/l\\propto N^2$.",
+    "topic": "Self-inductance"
+  },
+  {
+    "id": "phy-06-q03",
+    "chapter": "ch-06",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ-style",
+    "stem": "A 1 m long metal rod moves at 5 m s⁻¹ perpendicular to its length and to a field of 0.2 T. The emf across its ends is",
+    "options": [
+      "0.1 V",
+      "1 V",
+      "5 V",
+      "25 V"
+    ],
+    "answer": "B",
+    "model_answer": "**(B) 1 V** $\\varepsilon=Blv=0.2\\times1\\times5=1$ V.",
+    "topic": "Motional emf"
+  },
+  {
+    "id": "phy-06-q04",
+    "chapter": "ch-06",
+    "type": "ar",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ-style",
+    "stem": "**Assertion (A):** A magnet dropped through a vertical copper ring falls with an acceleration less than g.<br>**Reason (R):** The current induced in the ring opposes the motion of the magnet.",
+    "options": [
+      "Both A and R are true, and R is the correct explanation of A.",
+      "Both A and R are true, but R is not the correct explanation of A.",
+      "A is true, but R is false.",
+      "Both A and R are false."
+    ],
+    "answer": "A",
+    "model_answer": "**(A)** By Lenz's law the ring repels the approaching magnet and attracts it as it leaves; this opposing force reduces its acceleration.",
+    "topic": "Lenz law"
+  },
+  {
+    "id": "phy-06-q05",
+    "chapter": "ch-06",
+    "type": "case",
+    "marks": 4,
+    "stars": 2,
+    "label": "PYQ-style",
+    "stem": "**Wireless charging.** A wireless phone charger has a flat coil in the pad and another coil in the back of the phone. An alternating current in the pad coil sets up a changing magnetic flux, part of which passes through the phone's coil and induces an emf there. For one charger the mutual inductance is $5\\times10^{-5}$ H.",
+    "parts": [
+      {
+        "id": "i",
+        "stem": "The charger works on the principle of",
+        "marks": 1,
+        "options": [
+          "self-induction",
+          "mutual induction",
+          "electrostatic induction",
+          "the photoelectric effect"
+        ],
+        "answer": "B",
+        "model_answer": "**(B)** A changing current in one coil induces an emf in the other."
+      },
+      {
+        "id": "ii",
+        "stem": "When the pad current changes at $2\\times10^{4}$ A s⁻¹, the emf in the phone coil is",
+        "marks": 1,
+        "options": [
+          "0.1 V",
+          "1 V",
+          "10 V",
+          "0.01 V"
+        ],
+        "answer": "B",
+        "model_answer": "**(B)** $\\varepsilon=M\\dfrac{dI}{dt}=5\\times10^{-5}\\times2\\times10^{4}=1$ V."
+      },
+      {
+        "id": "iii",
+        "stem": "If a steady DC current flowed in the pad coil, the phone coil would get",
+        "marks": 1,
+        "options": [
+          "a steady emf",
+          "a large emf",
+          "no emf",
+          "an alternating emf"
+        ],
+        "answer": "C",
+        "model_answer": "**(C)** Steady current, steady flux, no induced emf."
+      },
+      {
+        "id": "iv",
+        "stem": "The mutual inductance would increase if",
+        "marks": 1,
+        "options": [
+          "the coils were moved apart",
+          "the phone coil had fewer turns",
+          "the coils were brought closer and aligned",
+          "the pad current were reduced"
+        ],
+        "answer": "C",
+        "model_answer": "**(C)** M depends on geometry: closer, aligned coils share more flux. The current does not change M."
+      }
+    ],
+    "topic": "Mutual induction"
+  },
+  {
+    "id": "phy-06-q06",
+    "chapter": "ch-06",
+    "type": "vsa2",
+    "marks": 2,
+    "stars": 3,
+    "label": "PYQ-style",
+    "stem": "State Lenz's law. Show that it follows from the law of conservation of energy.",
+    "model_answer": "Lenz's law: the induced current flows in a direction that opposes the change in magnetic flux producing it. [1]<br>\nIf the induced current aided the change (e.g. attracted an approaching N pole), the magnet would speed up by itself and the current would keep growing: energy from nothing. Since energy is conserved, the current must oppose, so work must be done, which appears as electrical energy. [1]",
+    "scheme": [
+      {
+        "step": "Lenz's law: the induced current flows in a direction that opposes the change in magnetic flux producing it.",
+        "marks": 1
+      },
+      {
+        "step": "If the induced current aided the change (e.g. attracted an approaching N pole), the magnet would speed up by itself and the current would keep growing: energy from nothing. Since energy is conserved, the current must oppose, so work must be done, which appears as electrical energy.",
+        "marks": 1
+      }
+    ],
+    "topic": "Lenz law"
+  },
+  {
+    "id": "phy-06-q07",
+    "chapter": "ch-06",
+    "type": "sa3",
+    "marks": 3,
+    "stars": 3,
+    "label": "PYQ-style",
+    "stem": "Derive an expression for the mutual inductance of two long coaxial solenoids of the same length $l$, the inner of radius $r_1$ with $n_1$ turns per unit length and the outer with $n_2$ turns per unit length.",
+    "model_answer": "Diagram: inner solenoid $S_1$ inside outer $S_2$, length $l$. Current $I_2$ in $S_2$ gives $B_2=\\mu_0n_2I_2$ inside it. [1]<br>\nFlux linked with $S_1$: $N_1\\Phi_1=(n_1l)(\\pi r_1^2)(\\mu_0n_2I_2)$ [1]<br>\n$M=\\dfrac{N_1\\Phi_1}{I_2}=\\boxed{\\mu_0n_1n_2\\pi r_1^2l}$ (the same as $M_{21}$). [1]",
+    "scheme": [
+      {
+        "step": "Diagram: inner solenoid $S_1$ inside outer $S_2$, length $l$. Current $I_2$ in $S_2$ gives $B_2=\\mu_0n_2I_2$ inside it.",
+        "marks": 1
+      },
+      {
+        "step": "Flux linked with $S_1$: $N_1\\Phi_1=(n_1l)(\\pi r_1^2)(\\mu_0n_2I_2)$",
+        "marks": 1
+      },
+      {
+        "step": "$M=\\dfrac{N_1\\Phi_1}{I_2}=\\boxed{\\mu_0n_1n_2\\pi r_1^2l}$ (the same as $M_{21}$).",
+        "marks": 1
+      }
+    ],
+    "hint": "Pass the current through the outer solenoid; its field fills the inner one.",
+    "topic": "Mutual induction"
+  },
+  {
+    "id": "phy-06-q08",
+    "chapter": "ch-06",
+    "type": "sa3",
+    "marks": 3,
+    "stars": 2,
+    "label": "PYQ-style",
+    "stem": "A rod of length 0.4 m slides at a steady 10 m s⁻¹ along two rails joined by a 2 Ω resistor, in a uniform field of 0.5 T perpendicular to the plane of the rails. Find (i) the induced emf, (ii) the current, (iii) the force needed to keep the rod moving, and show that the power supplied equals the power dissipated.",
+    "model_answer": "(i) $\\varepsilon=Blv=0.5\\times0.4\\times10=\\boxed{2\\text{ V}}$; (ii) $I=\\varepsilon/R=\\boxed{1\\text{ A}}$ [1]<br>\n(iii) $F=IlB=1\\times0.4\\times0.5=\\boxed{0.2\\text{ N}}$ (equal and opposite to the magnetic force on the rod) [1]<br>\nPower supplied $Fv=0.2\\times10=2$ W; dissipated $I^2R=1\\times2=2$ W: equal. [1]",
+    "scheme": [
+      {
+        "step": "(i) $\\varepsilon=Blv=0.5\\times0.4\\times10=\\boxed{2\\text{ V}}$; (ii) $I=\\varepsilon/R=\\boxed{1\\text{ A}}$",
+        "marks": 1
+      },
+      {
+        "step": "(iii) $F=IlB=1\\times0.4\\times0.5=\\boxed{0.2\\text{ N}}$ (equal and opposite to the magnetic force on the rod)",
+        "marks": 1
+      },
+      {
+        "step": "Power supplied $Fv=0.2\\times10=2$ W; dissipated $I^2R=1\\times2=2$ W: equal.",
+        "marks": 1
+      }
+    ],
+    "topic": "Motional emf"
+  },
+  {
+    "id": "phy-06-q09",
+    "chapter": "ch-06",
+    "type": "la5",
+    "marks": 5,
+    "stars": 2,
+    "label": "PYQ-style",
+    "stem": "(a) Define self-inductance and its SI unit. Derive the self-inductance of a long solenoid of length $l$, cross-section $A$ and $N$ turns. [3]<br>(b) A solenoid of 500 turns, length 0.5 m and cross-section $4\\times10^{-4}$ m² carries 2 A. Find its self-inductance and the energy stored. [2]",
+    "model_answer": "(a) Self-inductance $L$: flux linkage per unit current, $N\\Phi=LI$ (equivalently $\\varepsilon=-L\\,dI/dt$). Unit: henry (Wb A⁻¹). [1]<br>\nField inside: $B=\\mu_0\\dfrac{N}{l}I$; flux linkage $N\\Phi=N\\cdot\\mu_0\\dfrac{N}{l}I\\cdot A$ [1]<br>\n$L=\\dfrac{N\\Phi}{I}=\\boxed{\\dfrac{\\mu_0N^2A}{l}}$ ($=\\mu_0n^2Al$) [1]<br>\n(b) $L=\\dfrac{4\\pi\\times10^{-7}\\times500^2\\times4\\times10^{-4}}{0.5}=\\boxed{2.5\\times10^{-4}\\text{ H}}$ [1]<br>\n$U=\\tfrac12LI^2=\\tfrac12\\times2.5\\times10^{-4}\\times2^2=\\boxed{5.0\\times10^{-4}\\text{ J}}$ [1]",
+    "scheme": [
+      {
+        "step": "(a) Self-inductance $L$: flux linkage per unit current, $N\\Phi=LI$ (equivalently $\\varepsilon=-L\\,dI/dt$). Unit: henry (Wb A⁻¹).",
+        "marks": 1
+      },
+      {
+        "step": "Field inside: $B=\\mu_0\\dfrac{N}{l}I$; flux linkage $N\\Phi=N\\cdot\\mu_0\\dfrac{N}{l}I\\cdot A$",
+        "marks": 1
+      },
+      {
+        "step": "$L=\\dfrac{N\\Phi}{I}=\\boxed{\\dfrac{\\mu_0N^2A}{l}}$ ($=\\mu_0n^2Al$)",
+        "marks": 1
+      },
+      {
+        "step": "(b) $L=\\dfrac{4\\pi\\times10^{-7}\\times500^2\\times4\\times10^{-4}}{0.5}=\\boxed{2.5\\times10^{-4}\\text{ H}}$",
+        "marks": 1
+      },
+      {
+        "step": "$U=\\tfrac12LI^2=\\tfrac12\\times2.5\\times10^{-4}\\times2^2=\\boxed{5.0\\times10^{-4}\\text{ J}}$",
+        "marks": 1
+      }
+    ],
+    "topic": "Self-inductance"
+  }
+]

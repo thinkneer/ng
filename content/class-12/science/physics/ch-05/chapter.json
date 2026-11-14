@@ -1,0 +1,16 @@
+{
+  "$schema": "../../../../../schemas/chapter.schema.json",
+  "id": "ch-05",
+  "number": 5,
+  "title": "Magnetism and Matter",
+  "unit": "III",
+  "marks_hint": "Unit III+IV: 17 marks together (CBSE 2026–27); Ch 5 is usually 2–4 of them (estimate)",
+  "summary": "Bar magnet as an equivalent solenoid · field lines · dipole in a field · magnetisation, H, susceptibility · dia-, para- and ferromagnetism",
+  "status": {
+    "notes": "ready",
+    "mustknow": "ready",
+    "formulas": "ready",
+    "questions": "ready"
+  },
+  "updated": "2026-11-14"
+}

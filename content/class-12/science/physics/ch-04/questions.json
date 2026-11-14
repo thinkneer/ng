@@ -1,0 +1,256 @@
+[
+  {
+    "id": "phy-04-q01",
+    "chapter": "ch-04",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ-style",
+    "stem": "A proton and an alpha particle enter the same uniform magnetic field with the same velocity, perpendicular to the field. The ratio of the radii of their paths $r_\\alpha:r_p$ is",
+    "options": [
+      "1 : 2",
+      "1 : 1",
+      "2 : 1",
+      "4 : 1"
+    ],
+    "answer": "C",
+    "model_answer": "**(C) 2 : 1** $r=mv/qB$. The alpha particle has 4 times the mass and 2 times the charge, so $r_\\alpha/r_p=4/2=2$.",
+    "topic": "Charge in a magnetic field"
+  },
+  {
+    "id": "phy-04-q02",
+    "chapter": "ch-04",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ-style",
+    "stem": "A circular coil of 10 turns and radius 10 cm carries 1 A. The magnetic field at its centre is",
+    "options": [
+      "$6.28\\times10^{-5}$ T",
+      "$3.14\\times10^{-5}$ T",
+      "$1.26\\times10^{-4}$ T",
+      "$6.28\\times10^{-6}$ T"
+    ],
+    "answer": "A",
+    "model_answer": "**(A) $6.28\\times10^{-5}$ T** $B=\\dfrac{\\mu_0NI}{2R}=\\dfrac{4\\pi\\times10^{-7}\\times10\\times1}{2\\times0.1}=6.28\\times10^{-5}$ T.",
+    "topic": "Circular loop"
+  },
+  {
+    "id": "phy-04-q03",
+    "chapter": "ch-04",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 3,
+    "label": "PYQ-style",
+    "stem": "A galvanometer of resistance 100 Ω gives full-scale deflection at 1 mA. To use it as a voltmeter of range 0–10 V you must connect",
+    "options": [
+      "9900 Ω in series",
+      "9900 Ω in parallel",
+      "10 000 Ω in series",
+      "0.1 Ω in parallel"
+    ],
+    "answer": "A",
+    "model_answer": "**(A) 9900 Ω in series** $R=\\dfrac{V}{I_g}-G=\\dfrac{10}{10^{-3}}-100=9900$ Ω, in series.",
+    "topic": "Galvanometer"
+  },
+  {
+    "id": "phy-04-q04",
+    "chapter": "ch-04",
+    "type": "ar",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ-style",
+    "stem": "**Assertion (A):** A charged particle moving perpendicular to a uniform magnetic field keeps a constant kinetic energy.<br>**Reason (R):** The magnetic force on a moving charge is always perpendicular to its velocity, so it does no work.",
+    "options": [
+      "Both A and R are true, and R is the correct explanation of A.",
+      "Both A and R are true, but R is not the correct explanation of A.",
+      "A is true, but R is false.",
+      "Both A and R are false."
+    ],
+    "answer": "A",
+    "model_answer": "**(A)** No work is done, so the speed and kinetic energy stay constant; only the direction changes.",
+    "topic": "Charge in a magnetic field"
+  },
+  {
+    "id": "phy-04-q05",
+    "chapter": "ch-04",
+    "type": "case",
+    "marks": 4,
+    "stars": 2,
+    "label": "PYQ-style",
+    "stem": "**Sorting ions by speed and mass.** A beam of singly charged ions passes undeflected through a region of crossed fields, $E=2\\times10^{4}$ V m⁻¹ and $B=0.1$ T. It then enters a region with only the magnetic field $B=0.1$ T, perpendicular to its velocity, and the ions move in semicircles. Take $e=1.6\\times10^{-19}$ C.",
+    "parts": [
+      {
+        "id": "i",
+        "stem": "The speed of the ions that pass undeflected is",
+        "marks": 1,
+        "options": [
+          "$2\\times10^{3}$ m s⁻¹",
+          "$2\\times10^{5}$ m s⁻¹",
+          "$2\\times10^{4}$ m s⁻¹",
+          "$2\\times10^{6}$ m s⁻¹"
+        ],
+        "answer": "B",
+        "model_answer": "**(B)** $qE=qvB\\Rightarrow v=E/B=2\\times10^4/0.1=2\\times10^5$ m s⁻¹."
+      },
+      {
+        "id": "ii",
+        "stem": "An ion of mass $3.2\\times10^{-26}$ kg moves in a circle of radius",
+        "marks": 1,
+        "options": [
+          "0.04 m",
+          "0.2 m",
+          "0.4 m",
+          "4 m"
+        ],
+        "answer": "C",
+        "model_answer": "**(C)** $r=\\dfrac{mv}{qB}=\\dfrac{3.2\\times10^{-26}\\times2\\times10^5}{1.6\\times10^{-19}\\times0.1}=0.4$ m."
+      },
+      {
+        "id": "iii",
+        "stem": "A doubly charged ion of the same mass and speed would move in a circle of radius",
+        "marks": 1,
+        "options": [
+          "0.8 m",
+          "0.4 m",
+          "0.2 m",
+          "0.1 m"
+        ],
+        "answer": "C",
+        "model_answer": "**(C)** $r\\propto1/q$: half of 0.4 m."
+      },
+      {
+        "id": "iv",
+        "stem": "The time an ion takes to go once round its circle does NOT depend on its",
+        "marks": 1,
+        "options": [
+          "mass",
+          "charge",
+          "speed",
+          "the field B"
+        ],
+        "answer": "C",
+        "model_answer": "**(C)** $T=2\\pi m/qB$ has no $v$ in it."
+      }
+    ],
+    "topic": "Charge in a magnetic field"
+  },
+  {
+    "id": "phy-04-q06",
+    "chapter": "ch-04",
+    "type": "vsa2",
+    "marks": 2,
+    "stars": 2,
+    "label": "PYQ-style",
+    "stem": "Two long parallel wires 10 cm apart carry currents of 5 A and 10 A in the same direction. Find the force per metre on each wire and state whether it is attractive or repulsive.",
+    "model_answer": "$\\dfrac FL=\\dfrac{\\mu_0I_1I_2}{2\\pi d}$ [½]<br>\n$=\\dfrac{4\\pi\\times10^{-7}\\times5\\times10}{2\\pi\\times0.1}$ [½]<br>\n$=\\boxed{1\\times10^{-4}\\text{ N m}^{-1}}$ [½]<br>\nCurrents in the same direction: **attractive**. [½]",
+    "scheme": [
+      {
+        "step": "$\\dfrac FL=\\dfrac{\\mu_0I_1I_2}{2\\pi d}$",
+        "marks": 0.5
+      },
+      {
+        "step": "$=\\dfrac{4\\pi\\times10^{-7}\\times5\\times10}{2\\pi\\times0.1}$",
+        "marks": 0.5
+      },
+      {
+        "step": "$=\\boxed{1\\times10^{-4}\\text{ N m}^{-1}}$",
+        "marks": 0.5
+      },
+      {
+        "step": "Currents in the same direction: **attractive**.",
+        "marks": 0.5
+      }
+    ],
+    "topic": "Parallel currents"
+  },
+  {
+    "id": "phy-04-q07",
+    "chapter": "ch-04",
+    "type": "sa3",
+    "marks": 3,
+    "stars": 3,
+    "label": "PYQ-style",
+    "stem": "Using the Biot–Savart law, derive an expression for the magnetic field at a point on the axis of a circular loop of radius $R$ carrying current $I$, at distance $x$ from its centre. Write the field at the centre.",
+    "model_answer": "Diagram: loop, element $d\\vec l$, point P on the axis, $r=\\sqrt{R^2+x^2}$; $d\\vec l\\perp\\hat r$. [½]<br>\nBiot–Savart: $dB=\\dfrac{\\mu_0}{4\\pi}\\dfrac{I\\,dl}{R^2+x^2}$ [½]<br>\nComponents perpendicular to the axis cancel in pairs; axial components $dB\\sin\\phi$ add, with $\\sin\\phi=\\dfrac{R}{\\sqrt{R^2+x^2}}$. [1]<br>\n$B=\\dfrac{\\mu_0IR}{4\\pi(R^2+x^2)^{3/2}}\\oint dl=\\boxed{\\dfrac{\\mu_0IR^2}{2(R^2+x^2)^{3/2}}}$ along the axis; at the centre $B=\\dfrac{\\mu_0I}{2R}$. [1]",
+    "scheme": [
+      {
+        "step": "Diagram: loop, element $d\\vec l$, point P on the axis, $r=\\sqrt{R^2+x^2}$; $d\\vec l\\perp\\hat r$.",
+        "marks": 0.5
+      },
+      {
+        "step": "Biot–Savart: $dB=\\dfrac{\\mu_0}{4\\pi}\\dfrac{I\\,dl}{R^2+x^2}$",
+        "marks": 0.5
+      },
+      {
+        "step": "Components perpendicular to the axis cancel in pairs; axial components $dB\\sin\\phi$ add, with $\\sin\\phi=\\dfrac{R}{\\sqrt{R^2+x^2}}$.",
+        "marks": 1
+      },
+      {
+        "step": "$B=\\dfrac{\\mu_0IR}{4\\pi(R^2+x^2)^{3/2}}\\oint dl=\\boxed{\\dfrac{\\mu_0IR^2}{2(R^2+x^2)^{3/2}}}$ along the axis; at the centre $B=\\dfrac{\\mu_0I}{2R}$.",
+        "marks": 1
+      }
+    ],
+    "hint": "Every element is perpendicular to the line joining it to P; split dB into axial and perpendicular parts.",
+    "topic": "Circular loop"
+  },
+  {
+    "id": "phy-04-q08",
+    "chapter": "ch-04",
+    "type": "sa3",
+    "marks": 3,
+    "stars": 2,
+    "label": "PYQ-style",
+    "stem": "A rectangular coil of 50 turns, 4 cm × 5 cm, carries 2 A in a uniform field of 0.2 T. Find (i) its magnetic moment, (ii) the maximum torque on it, (iii) the torque when its normal makes $30^\\circ$ with the field.",
+    "model_answer": "(i) $m=NIA=50\\times2\\times(0.04\\times0.05)=\\boxed{0.2\\text{ A m}^2}$ [1]<br>\n(ii) $\\tau_\\text{max}=mB=0.2\\times0.2=\\boxed{0.04\\text{ N m}}$ (normal perpendicular to B) [1]<br>\n(iii) $\\tau=mB\\sin30^\\circ=0.04\\times\\tfrac12=\\boxed{0.02\\text{ N m}}$ [1]",
+    "scheme": [
+      {
+        "step": "(i) $m=NIA=50\\times2\\times(0.04\\times0.05)=\\boxed{0.2\\text{ A m}^2}$",
+        "marks": 1
+      },
+      {
+        "step": "(ii) $\\tau_\\text{max}=mB=0.2\\times0.2=\\boxed{0.04\\text{ N m}}$ (normal perpendicular to B)",
+        "marks": 1
+      },
+      {
+        "step": "(iii) $\\tau=mB\\sin30^\\circ=0.04\\times\\tfrac12=\\boxed{0.02\\text{ N m}}$",
+        "marks": 1
+      }
+    ],
+    "hint": "$\\tau=NIAB\\sin\\theta$ with θ between B and the normal.",
+    "topic": "Torque on a loop"
+  },
+  {
+    "id": "phy-04-q09",
+    "chapter": "ch-04",
+    "type": "la5",
+    "marks": 5,
+    "stars": 3,
+    "label": "PYQ-style",
+    "stem": "(a) Explain the principle and working of a moving coil galvanometer with a labelled diagram. Why is a radial field used? Obtain an expression for its current sensitivity. [3]<br>(b) A galvanometer of resistance 20 Ω gives full-scale deflection at 5 mA. How can it be converted into an ammeter of range 0–5 A? [2]",
+    "model_answer": "(a) Labelled diagram: coil on a soft-iron core between concave pole pieces, spring/suspension, pointer. [1]<br>\nPrinciple: a current loop in a magnetic field feels a torque. Concave poles and the core make the field radial, so the coil's plane is always along B and the deflecting torque is $NIAB$ at every angle. Equilibrium: $NIAB=k\\phi$. [1]<br>\n$\\phi=\\dfrac{NAB}{k}I$, so current sensitivity $\\boxed{\\dfrac{\\phi}{I}=\\dfrac{NAB}{k}}$ [1]<br>\n(b) Shunt $S=\\dfrac{I_gG}{I-I_g}=\\dfrac{5\\times10^{-3}\\times20}{5-0.005}$ [1]<br>\n$\\approx\\boxed{0.02\\ \\Omega}$, connected **in parallel** with the galvanometer. [1]",
+    "scheme": [
+      {
+        "step": "(a) Labelled diagram: coil on a soft-iron core between concave pole pieces, spring/suspension, pointer.",
+        "marks": 1
+      },
+      {
+        "step": "Principle: a current loop in a magnetic field feels a torque. Concave poles and the core make the field radial, so the coil's plane is always along B and the deflecting torque is $NIAB$ at every angle. Equilibrium: $NIAB=k\\phi$.",
+        "marks": 1
+      },
+      {
+        "step": "$\\phi=\\dfrac{NAB}{k}I$, so current sensitivity $\\boxed{\\dfrac{\\phi}{I}=\\dfrac{NAB}{k}}$",
+        "marks": 1
+      },
+      {
+        "step": "(b) Shunt $S=\\dfrac{I_gG}{I-I_g}=\\dfrac{5\\times10^{-3}\\times20}{5-0.005}$",
+        "marks": 1
+      },
+      {
+        "step": "$\\approx\\boxed{0.02\\ \\Omega}$, connected **in parallel** with the galvanometer.",
+        "marks": 1
+      }
+    ],
+    "topic": "Galvanometer"
+  }
+]

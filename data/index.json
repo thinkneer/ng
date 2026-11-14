@@ -387,22 +387,51 @@
                       "number": 4,
                       "title": "Moving Charges and Magnetism",
                       "unit": "III",
-                      "items": {},
-                      "marks_hint": null,
-                      "summary": null,
-                      "questions": 0,
-                      "question_types": {}
+                      "items": {
+                        "notes": true,
+                        "mustknow": true,
+                        "formulas": true,
+                        "questions": true
+                      },
+                      "marks_hint": "Unit III+IV: 17 marks together (CBSE 2026–27); Ch 4 is usually 5–7 of them (estimate)",
+                      "summary": "Lorentz force · motion in a magnetic field · Biot–Savart · circular loop · Ampère's law · solenoid · force between currents · torque on a loop · galvanometer",
+                      "questions": 9,
+                      "question_types": {
+                        "mcq": 3,
+                        "ar": 1,
+                        "case": 1,
+                        "vsa2": 1,
+                        "sa3": 2,
+                        "la5": 1
+                      },
+                      "diagrams": [],
+                      "words": 3582,
+                      "read_minutes": 13
                     },
                     {
                       "id": "ch-05",
                       "number": 5,
                       "title": "Magnetism and Matter",
                       "unit": "III",
-                      "items": {},
-                      "marks_hint": null,
-                      "summary": null,
-                      "questions": 0,
-                      "question_types": {}
+                      "items": {
+                        "notes": true,
+                        "mustknow": true,
+                        "formulas": true,
+                        "questions": true
+                      },
+                      "marks_hint": "Unit III+IV: 17 marks together (CBSE 2026–27); Ch 5 is usually 2–4 of them (estimate)",
+                      "summary": "Bar magnet as an equivalent solenoid · field lines · dipole in a field · magnetisation, H, susceptibility · dia-, para- and ferromagnetism",
+                      "questions": 9,
+                      "question_types": {
+                        "mcq": 3,
+                        "ar": 2,
+                        "case": 1,
+                        "vsa2": 2,
+                        "sa3": 1
+                      },
+                      "diagrams": [],
+                      "words": 2356,
+                      "read_minutes": 8
                     }
                   ]
                 },
@@ -418,22 +447,52 @@
                       "number": 6,
                       "title": "Electromagnetic Induction",
                       "unit": "IV",
-                      "items": {},
-                      "marks_hint": null,
-                      "summary": null,
-                      "questions": 0,
-                      "question_types": {}
+                      "items": {
+                        "notes": true,
+                        "mustknow": true,
+                        "formulas": true,
+                        "questions": true
+                      },
+                      "marks_hint": "Unit III+IV: 17 marks together (CBSE 2026–27); Ch 6 is usually 4–6 of them (estimate)",
+                      "summary": "Flux · Faraday's and Lenz's laws · motional emf · self and mutual inductance · energy in an inductor",
+                      "questions": 9,
+                      "question_types": {
+                        "mcq": 3,
+                        "ar": 1,
+                        "case": 1,
+                        "vsa2": 1,
+                        "sa3": 2,
+                        "la5": 1
+                      },
+                      "diagrams": [],
+                      "words": 2657,
+                      "read_minutes": 9
                     },
                     {
                       "id": "ch-07",
                       "number": 7,
                       "title": "Alternating Current",
                       "unit": "IV",
-                      "items": {},
-                      "marks_hint": null,
-                      "summary": null,
-                      "questions": 0,
-                      "question_types": {}
+                      "items": {
+                        "notes": true,
+                        "mustknow": true,
+                        "formulas": true,
+                        "questions": true
+                      },
+                      "marks_hint": "Unit III+IV: 17 marks together (CBSE 2026–27); Ch 7 is usually 4–6 of them (estimate)",
+                      "summary": "rms values · R, L, C in AC · phasors · series LCR and resonance · power and power factor · AC generator · transformer",
+                      "questions": 9,
+                      "question_types": {
+                        "mcq": 3,
+                        "ar": 1,
+                        "case": 1,
+                        "vsa2": 1,
+                        "sa3": 2,
+                        "la5": 1
+                      },
+                      "diagrams": [],
+                      "words": 3048,
+                      "read_minutes": 11
                     }
                   ]
                 },
@@ -589,10 +648,10 @@
               },
               "papers": [],
               "counts": {
-                "notes": 3,
-                "mustknow": 3,
-                "formulas": 3,
-                "questions": 3,
+                "notes": 7,
+                "mustknow": 7,
+                "formulas": 7,
+                "questions": 7,
                 "chapters": 14
               }
             },

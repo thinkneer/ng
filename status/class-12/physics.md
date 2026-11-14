@@ -16,11 +16,15 @@ Boards only. Board paper: **Tue 16 Feb 2027** (first paper of the season). Pract
 | 1 Electric Charges and Fields | ready | ready | ready | 13 | 4 |
 | 2 Electrostatic Potential and Capacitance | ready | ready | ready | 13 | 4 |
 | 3 Current Electricity | ready | ready | ready | 13 | 4 |
+| 4 Moving Charges and Magnetism | ready | ready | ready | 9 | 4 |
+| 5 Magnetism and Matter | ready | ready | ready | 9 | 2 |
+| 6 Electromagnetic Induction | ready | ready | ready | 9 | 2 |
+| 7 Alternating Current | ready | ready | ready | 9 | 5 |
 
 - **notes.md**: written fresh as the Read layer (CLAUDE.md §4a): NCERT order, "why" before "what", titled `:::formula` boxes introduced in the text, one worked numerical per concept in `:::skeleton` with step marks, `:::tip` traps where the mistake happens, **In one breath** at the end of every section, inline SVG figures (`currentColor`, unit colour, `#E0B400` highlight). No stars or PYQ tags.
 - **mustknow.md**: the six §4b headings; one fact per line as "**Term:** definition"; every formula box and trap titled (they become Recall cards).
 - **formulas.md**: the chapter's section of the 2026–27 formula sheet (project file `physics-formula-sheet-source.tex`) with every JEE/NEET tag and entrance box dropped.
-- **questions.json**: Ch 1–3 = the 13-question practice sets (5 MCQ, 2 A–R, 1 case with four 1-mark parts, 2 × 2-mark, 2 × 3-mark, 1 × 5-mark), all `PYQ-style` or `NCERT-based`, hints, model answers and step-mark schemes that add up (build check). Every numerical recomputed by script.
+- **questions.json**: Ch 4–7 = 9 new `PYQ-style` questions each (3 MCQ, 1–2 A–R, 1 case with four 1-mark parts, 2-, 3- and 5-markers; Ch 5 has no 5-marker, as it is qualitative for boards). Ch 1–3 = the 13-question practice sets (5 MCQ, 2 A–R, 1 case with four 1-mark parts, 2 × 2-mark, 2 × 3-mark, 1 × 5-mark), all `PYQ-style` or `NCERT-based`, hints, model answers and step-mark schemes that add up (build check). Every numerical recomputed by script.
 - **subject.json**: `not_in_syllabus` filled; `links.sample_paper` points at the official 2026–27 SQP.
 - **Source note:** the 30-page must-have notes exist only as a PDF that was not available to this chat. The Must-know files follow its structure (repeated questions with stars, must-know lines, formulas, skeletons, 1-mark facts, traps) and are written from board knowledge; stars are estimates.
 
@@ -28,7 +32,6 @@ Boards only. Board paper: **Tue 16 Feb 2027** (first paper of the season). Pract
 - Charge at a cube corner → flux through the whole cube is $q/8\varepsilon_0$ ($q/24\varepsilon_0$ through each of the 3 far faces). An early formula-sheet version said $q/24\varepsilon_0$ for the whole cube; the site files carry the correct value (Ch 1 notes, must-know trap, formulas).
 
 ## What's next
-1. Units III–IV: Ch 4–7.
-2. Units V–VI: Ch 8–10.
-3. Units VII–IX: Ch 11–14.
-4. Later: derivation drill (every board derivation as a step skeleton with diagram and step marks) and practicals (2026–27 experiment list, aim, formula, observation table, result, 5 viva questions each).
+1. Units V–VI: Ch 8–10.
+2. Units VII–IX: Ch 11–14.
+3. Later: derivation drill (every board derivation as a step skeleton with diagram and step marks) and practicals (2026–27 experiment list, aim, formula, observation table, result, 5 viva questions each).

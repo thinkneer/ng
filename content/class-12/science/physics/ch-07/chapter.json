@@ -1,0 +1,16 @@
+{
+  "$schema": "../../../../../schemas/chapter.schema.json",
+  "id": "ch-07",
+  "number": 7,
+  "title": "Alternating Current",
+  "unit": "IV",
+  "marks_hint": "Unit III+IV: 17 marks together (CBSE 2026–27); Ch 7 is usually 4–6 of them (estimate)",
+  "summary": "rms values · R, L, C in AC · phasors · series LCR and resonance · power and power factor · AC generator · transformer",
+  "status": {
+    "notes": "ready",
+    "mustknow": "ready",
+    "formulas": "ready",
+    "questions": "ready"
+  },
+  "updated": "2026-11-14"
+}

@@ -1,0 +1,223 @@
+[
+  {
+    "id": "phy-05-q01",
+    "chapter": "ch-05",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ-style",
+    "stem": "A small piece of a diamagnetic material is placed in a non-uniform magnetic field. It",
+    "options": [
+      "moves towards the stronger part of the field",
+      "moves towards the weaker part of the field",
+      "does not move",
+      "rotates and stays in place"
+    ],
+    "answer": "B",
+    "model_answer": "**(B) moves towards the weaker part of the field** Its induced moment is opposite to the field, so it is pushed from stronger to weaker field.",
+    "topic": "Magnetic materials"
+  },
+  {
+    "id": "phy-05-q02",
+    "chapter": "ch-05",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ-style",
+    "stem": "The susceptibility of a paramagnetic salt is $1.2\\times10^{-5}$ at 300 K. At 200 K it will be",
+    "options": [
+      "$0.8\\times10^{-5}$",
+      "$1.2\\times10^{-5}$",
+      "$1.8\\times10^{-5}$",
+      "$2.4\\times10^{-5}$"
+    ],
+    "answer": "C",
+    "model_answer": "**(C) $1.8\\times10^{-5}$** Curie's law $\\chi\\propto1/T$: $1.2\\times10^{-5}\\times300/200=1.8\\times10^{-5}$.",
+    "topic": "Curie law"
+  },
+  {
+    "id": "phy-05-q03",
+    "chapter": "ch-05",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 1,
+    "label": "PYQ-style",
+    "stem": "A material has magnetic susceptibility 599. Its relative permeability is",
+    "options": [
+      "598",
+      "599",
+      "600",
+      "$1/600$"
+    ],
+    "answer": "C",
+    "model_answer": "**(C) 600** $\\mu_r=1+\\chi=600$ (a ferromagnetic material).",
+    "topic": "Susceptibility"
+  },
+  {
+    "id": "phy-05-q04",
+    "chapter": "ch-05",
+    "type": "ar",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ-style",
+    "stem": "**Assertion (A):** The magnetic field lines of a bar magnet form closed loops.<br>**Reason (R):** Isolated magnetic poles (monopoles) do not exist.",
+    "options": [
+      "Both A and R are true, and R is the correct explanation of A.",
+      "Both A and R are true, but R is not the correct explanation of A.",
+      "A is true, but R is false.",
+      "Both A and R are false."
+    ],
+    "answer": "A",
+    "model_answer": "**(A)** Because there are no monopoles for lines to start or end on, every line closes on itself; the net flux through any closed surface is zero.",
+    "topic": "Bar magnet"
+  },
+  {
+    "id": "phy-05-q05",
+    "chapter": "ch-05",
+    "type": "ar",
+    "marks": 1,
+    "stars": 1,
+    "label": "PYQ-style",
+    "stem": "**Assertion (A):** Diamagnetism is present in all materials.<br>**Reason (R):** Diamagnetic substances have permanent atomic magnetic moments.",
+    "options": [
+      "Both A and R are true, and R is the correct explanation of A.",
+      "Both A and R are true, but R is not the correct explanation of A.",
+      "A is true, but R is false.",
+      "Both A and R are false."
+    ],
+    "answer": "C",
+    "model_answer": "**(C)** A is true: every material shows the induced diamagnetic response. R is false: diamagnetic atoms have no net permanent moment.",
+    "topic": "Magnetic materials"
+  },
+  {
+    "id": "phy-05-q06",
+    "chapter": "ch-05",
+    "type": "case",
+    "marks": 4,
+    "stars": 2,
+    "label": "PYQ-style",
+    "stem": "**Three rods between the poles.** A student hangs three small rods X, Y and Z in turn between the poles of a strong electromagnet. Rod X turns to lie across the field. Rod Y turns slowly to lie along the field. Rod Z is pulled strongly towards a pole and lines up along the field. When Z is heated above 1043 K it behaves like Y.",
+    "parts": [
+      {
+        "id": "i",
+        "stem": "Rod X is",
+        "marks": 1,
+        "options": [
+          "diamagnetic",
+          "paramagnetic",
+          "ferromagnetic",
+          "non-magnetic"
+        ],
+        "answer": "A",
+        "model_answer": "**(A)** A diamagnetic rod sets perpendicular to the field (moves its ends to the weaker region)."
+      },
+      {
+        "id": "ii",
+        "stem": "Rod Y could be made of",
+        "marks": 1,
+        "options": [
+          "bismuth",
+          "copper",
+          "aluminium",
+          "nickel"
+        ],
+        "answer": "C",
+        "model_answer": "**(C)** Aluminium is paramagnetic; bismuth and copper are diamagnetic; nickel is ferromagnetic."
+      },
+      {
+        "id": "iii",
+        "stem": "The susceptibility of X is",
+        "marks": 1,
+        "options": [
+          "small and negative",
+          "small and positive",
+          "large and positive",
+          "exactly zero"
+        ],
+        "answer": "A",
+        "model_answer": "**(A)** Diamagnets have small negative χ."
+      },
+      {
+        "id": "iv",
+        "stem": "1043 K for rod Z is its",
+        "marks": 1,
+        "options": [
+          "melting point",
+          "Curie temperature",
+          "boiling point",
+          "Néel temperature"
+        ],
+        "answer": "B",
+        "model_answer": "**(B)** Above the Curie temperature a ferromagnet (here iron) becomes paramagnetic."
+      }
+    ],
+    "topic": "Magnetic materials"
+  },
+  {
+    "id": "phy-05-q07",
+    "chapter": "ch-05",
+    "type": "vsa2",
+    "marks": 2,
+    "stars": 2,
+    "label": "PYQ-style",
+    "stem": "Draw the magnetic field lines when (a) a diamagnetic and (b) a paramagnetic sample is placed in a uniform magnetic field.",
+    "model_answer": "(a) Diamagnetic: field lines bend away from the sample; fewer lines pass through it. [1]<br>\n(b) Paramagnetic: field lines bend towards the sample; more lines pass through it (slightly concentrated). [1]",
+    "scheme": [
+      {
+        "step": "(a) Diamagnetic: field lines bend away from the sample; fewer lines pass through it.",
+        "marks": 1
+      },
+      {
+        "step": "(b) Paramagnetic: field lines bend towards the sample; more lines pass through it (slightly concentrated).",
+        "marks": 1
+      }
+    ],
+    "topic": "Magnetic materials"
+  },
+  {
+    "id": "phy-05-q08",
+    "chapter": "ch-05",
+    "type": "vsa2",
+    "marks": 2,
+    "stars": 2,
+    "label": "PYQ-style",
+    "stem": "Define magnetisation and magnetic susceptibility. Show that the relative permeability is $\\mu_r=1+\\chi$.",
+    "model_answer": "Magnetisation $M$: net magnetic moment per unit volume. Susceptibility $\\chi=M/H$. [1]<br>\n$B=\\mu_0(H+M)=\\mu_0(1+\\chi)H=\\mu H$, so $\\mu_r=\\mu/\\mu_0=\\boxed{1+\\chi}$. [1]",
+    "scheme": [
+      {
+        "step": "Magnetisation $M$: net magnetic moment per unit volume. Susceptibility $\\chi=M/H$.",
+        "marks": 1
+      },
+      {
+        "step": "$B=\\mu_0(H+M)=\\mu_0(1+\\chi)H=\\mu H$, so $\\mu_r=\\mu/\\mu_0=\\boxed{1+\\chi}$.",
+        "marks": 1
+      }
+    ],
+    "topic": "Susceptibility"
+  },
+  {
+    "id": "phy-05-q09",
+    "chapter": "ch-05",
+    "type": "sa3",
+    "marks": 3,
+    "stars": 3,
+    "label": "PYQ-style",
+    "stem": "Distinguish between diamagnetic, paramagnetic and ferromagnetic materials on the basis of (i) susceptibility, (ii) behaviour in a non-uniform magnetic field, (iii) effect of temperature. Give one example of each.",
+    "model_answer": "(i) Dia: $\\chi$ small, negative; para: small, positive; ferro: very large, positive. [1]<br>\n(ii) Dia: moves to weaker field (repelled); para: weakly moves to stronger field; ferro: strongly attracted. [1]<br>\n(iii) Dia: almost independent of temperature; para: $\\chi\\propto1/T$ (Curie's law); ferro: becomes paramagnetic above the Curie temperature. Examples: Bi or Cu; Al or O₂; Fe, Co or Ni. [1]",
+    "scheme": [
+      {
+        "step": "(i) Dia: $\\chi$ small, negative; para: small, positive; ferro: very large, positive.",
+        "marks": 1
+      },
+      {
+        "step": "(ii) Dia: moves to weaker field (repelled); para: weakly moves to stronger field; ferro: strongly attracted.",
+        "marks": 1
+      },
+      {
+        "step": "(iii) Dia: almost independent of temperature; para: $\\chi\\propto1/T$ (Curie's law); ferro: becomes paramagnetic above the Curie temperature. Examples: Bi or Cu; Al or O₂; Fe, Co or Ni.",
+        "marks": 1
+      }
+    ],
+    "topic": "Magnetic materials"
+  }
+]
