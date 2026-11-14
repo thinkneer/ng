@@ -1,53 +1,92 @@
-# Ch 2 · Electrochemistry — must-have notes
+# Ch 2 · Electrochemistry — must know
 
 ## Most-repeated board questions
 
-Stars are estimates, not exact counts: ★★★ asked in most years · ★★ often · ★ sometimes. `SQP 26–27` marks a question type in the official 2026–27 sample paper. Marks in square brackets.
+Stars are estimates, not exact counts: ★★★ asked in most years · ★★ often · ★ sometimes. Marks in square brackets.
 
-Type tags: `Df` define / state · `R` give reason · `N` numerical · `Dv` derivation · `G` graph / diagram · `Eq` write equations · `Cmp` difference / compare · `MCQ` 1-mark objective / A–R
-
-1. ★★★ `N` Nernst equation: $E_\text{cell}$, unknown concentration or $E^\circ$; often with $\Delta_rG^\circ$ or $K_c$. [3–5] `SQP 26–27`
-2. ★★★ `G` `R` How do $\kappa$ and $\Lambda_m$ vary with dilution? Plot $\Lambda_m$ vs $\sqrt c$ for strong and weak electrolytes and explain. [2–3]
-3. ★★★ `Df` `N` State Kohlrausch's law; find $\Lambda^\circ_m$ of a weak acid / $\alpha$ / $K_a$ from ionic or salt data. [3] `SQP 26–27`
-4. ★★★ `Eq` Reactions in the lead storage battery (discharge/charge), H$_2$–O$_2$ fuel cell, mercury cell, dry cell. [2–3] `SQP 26–27`
-5. ★★ `Eq` `R` Corrosion of iron: reactions, why salt water speeds it, how galvanising / sacrificial protection works. [2–3] `SQP 26–27`
-6. ★★ `N` $\Lambda_m$ from $\kappa$, or cell constant from $R$ and $\kappa$; units of $\Lambda_m$. [2–3] `SQP 26–27`
-7. ★★ `N` Faraday's laws: mass deposited / time / charge to discharge one mole of an ion. [1–2] `SQP 26–27`
-8. ★★ `R` Products of electrolysis: aq. NaCl, molten NaCl/MgCl$_2$, dilute vs conc. H$_2$SO$_4$, CuSO$_4$ with Cu or Pt electrodes. [1–2] `SQP 26–27`
-9. ★★ `N` $\Delta_rG^\circ$ and $K_c$ from $E^\circ_\text{cell}$. [2]
-10. ★ `MCQ` From an $E^\circ$ table: strongest oxidising/reducing agent; can metal X displace Y; can a solution be stored in a metal vessel? [1]
-11. ★ `Cmp` Primary vs secondary battery; electrolytic vs galvanic cell; why mercury cell gives constant voltage. [1–2]
-12. ★ `Df` SHE; why absolute electrode potential cannot be measured; function of salt bridge. [1–2]
+1. ★★★ Nernst equation: $E_\text{cell}$, unknown concentration or $E^\circ$; often with $\Delta_rG^\circ$ or $K_c$. [3–5]
+2. ★★★ How do $\kappa$ and $\Lambda_m$ vary with dilution? Plot $\Lambda_m$ vs $\sqrt c$ for strong and weak electrolytes and explain. [2–3]
+3. ★★★ State Kohlrausch's law; find $\Lambda^\circ_m$ of a weak acid / $\alpha$ / $K_a$ from ionic or salt data. [3]
+4. ★★★ Reactions in the lead storage battery (discharge/charge), H$_2$–O$_2$ fuel cell, mercury cell, dry cell. [2–3]
+5. ★★ Corrosion of iron: reactions, why salt water speeds it, how galvanising / sacrificial protection works. [2–3]
+6. ★★ $\Lambda_m$ from $\kappa$, or cell constant from $R$ and $\kappa$; units of $\Lambda_m$. [2–3]
 
 ## Must-know lines and definitions
 
-- **Galvanic cell**: converts the chemical energy of a spontaneous redox reaction into electrical energy. **Electrolytic cell**: uses electrical energy to drive a non-spontaneous reaction.
-- **Standard electrode potential**: electrode potential when all species are at unit concentration (1 M), gases at 1 bar, at 298 K.
-- **Cell potential / emf**: potential difference between the two electrodes when no current is drawn.
-- **Conductivity ($\kappa$)**: conductance of a solution of unit length and unit area of cross-section.
-- **Molar conductivity ($\Lambda_m$)**: conductivity of the solution divided by its molar concentration — the conducting power of all ions from one mole of electrolyte.
-- **Limiting molar conductivity ($\Lambda^\circ_m$)**: molar conductivity when concentration approaches zero (infinite dilution).
-- **Kohlrausch's law**: limiting molar conductivity of an electrolyte is the sum of the individual contributions of its anion and cation.
-- **Faraday's first law**: amount of chemical reaction at an electrode is proportional to the quantity of electricity passed. **Second law**: for the same charge, masses liberated are proportional to their chemical equivalent weights (atomic mass ÷ electrons needed).
-- **Primary battery**: reaction occurs once, cannot be recharged. **Secondary**: recharged by passing current in the opposite direction.
-- **Fuel cell**: galvanic cell that converts the energy of combustion of fuels (H$_2$, CH$_4$, CH$_3$OH) directly into electrical energy.
-- **Corrosion**: slow coating of a metal surface with oxides or other salts; an electrochemical process.
+- **Galvanic cell:** converts the chemical energy of a spontaneous redox reaction into electrical energy.
+- **Electrolytic cell:** uses electrical energy to drive a non-spontaneous redox reaction.
+- **Standard electrode potential:** electrode potential with species at 1 M, gases at 1 bar, at 298 K.
+- **Cell emf:** potential difference between the two electrodes when no current is drawn.
+- **Standard hydrogen electrode:** reference half-cell, $\ce{Pt(s)|H2(g, 1 bar)|H+(1 M)}$, assigned 0 V.
+- **Salt bridge:** completes the circuit and keeps the two solutions electrically neutral.
+- **Conductivity ($\kappa$):** conductance of a solution of unit length and unit area of cross-section.
+- **Molar conductivity ($\Lambda_m$):** conductivity divided by molar concentration; conducting power of one mole of electrolyte.
+- **Limiting molar conductivity ($\Lambda^\circ_m$):** molar conductivity as concentration approaches zero.
+- **Kohlrausch's law:** $\Lambda^\circ_m$ of an electrolyte is the sum of the contributions of its cation and anion.
+- **Faraday's first law:** amount of reaction at an electrode is proportional to the charge passed.
+- **Faraday's second law:** for the same charge, masses liberated are proportional to their equivalent weights.
+- **Primary battery:** the reaction occurs once; it cannot be recharged.
+- **Secondary battery:** recharged by passing current in the opposite direction.
+- **Fuel cell:** galvanic cell that converts the energy of combustion of a fuel directly into electricity.
+- **Corrosion:** slow electrochemical coating of a metal surface with its oxide or other salts.
 
 ## Key formulas
 
-:::formula
-$E^\circ_\text{cell}=E^\circ_\text{c}-E^\circ_\text{a}$   $E=E^\circ-\dfrac{0.059}{n}\log Q$<br>
-$\Delta_rG^\circ=-nFE^\circ$   $\log K_c=\dfrac{nE^\circ}{0.059}$<br>
-$\kappa=\dfrac{G^*}{R}$   $\Lambda_m=\dfrac{1000\,\kappa}{M}$   $\Lambda_m=\Lambda^\circ_m-A\sqrt c$<br>
-$\Lambda^\circ_m=\nu_+\lambda^\circ_++\nu_-\lambda^\circ_-$   $\alpha=\dfrac{\Lambda_m}{\Lambda^\circ_m}$<br>
-$K_a=\dfrac{c\alpha^2}{1-\alpha}$   $m=\dfrac{M\,I\,t}{nF}$
+:::formula Standard cell potential
+$E^\circ_\text{cell}=E^\circ_\text{cathode}-E^\circ_\text{anode}$<br>
+Use standard *reduction* potentials for both. Unit V. Slip: never multiply $E^\circ$ by a coefficient.
+:::
+
+:::formula Nernst equation
+$E_\text{cell}=E^\circ_\text{cell}-\dfrac{0.059}{n}\log Q$ at 298 K<br>
+$Q$ = products over reactants (ions only; leave out solids). $n$ from the balanced overall equation.
+:::
+
+:::formula Gibbs energy and cell potential
+$\Delta_rG^\circ=-nFE^\circ_\text{cell}$<br>
+$F=96487$ C mol$^{-1}$ (use 96500). Answer in J mol$^{-1}$; divide by 1000 for kJ.
+:::
+
+:::formula Equilibrium constant from cell potential
+$\log K_c=\dfrac{nE^\circ_\text{cell}}{0.059}$ at 298 K<br>
+Comes from $E_\text{cell}=0$ at equilibrium. $K_c$ has no unit here.
+:::
+
+:::formula Conductivity from resistance
+$\kappa=\dfrac{G^*}{R}$<br>
+$G^*=l/A$ is the cell constant (cm$^{-1}$), found with standard KCl. $\kappa$ in S cm$^{-1}$.
+:::
+
+:::formula Molar conductivity
+$\Lambda_m=\dfrac{1000\,\kappa}{M}$<br>
+$\kappa$ in S cm$^{-1}$, $M$ in mol L$^{-1}$, $\Lambda_m$ in S cm$^2$mol$^{-1}$. Slip: 1 S m$^{-1}$ = 0.01 S cm$^{-1}$.
+:::
+
+:::formula Debye–Hückel–Onsager equation
+$\Lambda_m=\Lambda^\circ_m-A\sqrt c$<br>
+Strong electrolytes only: a straight line of $\Lambda_m$ against $\sqrt c$, intercept $\Lambda^\circ_m$, slope $-A$.
+:::
+
+:::formula Kohlrausch's law
+$\Lambda^\circ_m=\nu_+\lambda^\circ_++\nu_-\lambda^\circ_-$<br>
+$\nu$ = number of each ion per formula unit. Slip: forgetting them, as in $\ce{Al2(SO4)3}$ (2 and 3).
+:::
+
+:::formula Degree of dissociation of a weak electrolyte
+$\alpha=\dfrac{\Lambda_m}{\Lambda^\circ_m}$   $K_a=\dfrac{c\alpha^2}{1-\alpha}$<br>
+$c$ in mol L$^{-1}$. $\Lambda^\circ_m$ of the weak acid comes from Kohlrausch's law.
+:::
+
+:::formula Faraday's law of electrolysis
+$m=\dfrac{M\,I\,t}{nF}$<br>
+$I$ in A, $t$ in **seconds**, $M$ molar mass, $n$ electrons per ion. $Q=It$.
 :::
 
 ## Answer skeletons
 
 Step marks in square brackets are the usual CBSE split (estimates).
 
-:::skeleton N · Nernst for a cell (3 marks)
+:::skeleton Nernst for a cell (3 marks)
 *e.g. $\ce{Zn|Zn^2+(0.1 M)||Cu^2+(0.01 M)|Cu}$, $E^\circ=1.10$ V.*<br>
 Cell reaction: $\ce{Zn + Cu^2+ -> Zn^2+ + Cu}$, $n=2$ [½]<br>
 $E=E^\circ-\dfrac{0.059}{2}\log\dfrac{[\ce{Zn^2+}]}{[\ce{Cu^2+}]}$ [1]<br>
@@ -55,19 +94,19 @@ $=1.10-0.0295\log\dfrac{0.1}{0.01}=1.10-0.0295$ [1]<br>
 $=\boxed{1.07\text{ V}}$ [½]
 :::
 
-:::skeleton N · $\Lambda_m$ from resistance (3 marks)
+:::skeleton $\Lambda_m$ from resistance (3 marks)
 Cell constant $G^*=R\kappa$ (from standard KCl) → $\kappa_\text{new}=G^*/R_\text{new}$ → convert to S cm$^{-1}$ → $\Lambda_m=1000\kappa/M$ → unit S cm$^2$mol$^{-1}$.
 :::
 
-:::skeleton N · Kohlrausch for a weak acid (3 marks)
+:::skeleton Kohlrausch for a weak acid (3 marks)
 Write the relation with ions: $\Lambda^\circ_{\ce{HA}}=\lambda^\circ_{\ce{H+}}+\lambda^\circ_{\ce{A-}}$, or with salts: $\Lambda^\circ_{\ce{HA}}=\Lambda^\circ_{\ce{NaA}}+\Lambda^\circ_{\ce{HCl}}-\Lambda^\circ_{\ce{NaCl}}$ [1] → substitute [½] → $\alpha=\Lambda_m/\Lambda^\circ_m$ [½] → $K_a=c\alpha^2/(1-\alpha)$ [1].
 :::
 
-:::skeleton N · Faraday (2 marks)
+:::skeleton Faraday (2 marks)
 $Q=It$ ($t$ in s) → moles e$^-$ $=Q/F$ → moles metal $=$ moles e$^-$ ÷ $n$ → mass $=$ moles × $M$.
 :::
 
-:::skeleton Eq · Lead storage battery (3 marks)
+:::skeleton Lead storage battery (3 marks)
 Anode: $\ce{Pb + SO4^2- -> PbSO4 + 2e-}$<br>
 Cathode: $\ce{PbO2 + SO4^2- + 4H+ + 2e- -> PbSO4 + 2H2O}$<br>
 Overall: $\ce{Pb + PbO2 + 2H2SO4 -> 2PbSO4 + 2H2O}$; on charging the reaction is reversed.
@@ -90,26 +129,51 @@ Overall: $\ce{Pb + PbO2 + 2H2SO4 -> 2PbSO4 + 2H2O}$; on charging the reaction is
 
 ## Quick 1-mark facts (MCQ, A–R)
 
-- Units: $\kappa$ S cm$^{-1}$ (S m$^{-1}$), $\Lambda_m$ S cm$^2$mol$^{-1}$ (S m$^2$mol$^{-1}$), $G^*$ cm$^{-1}$, $F$ C mol$^{-1}$. `SQP 26–27`
-- $E^\circ$ is intensive; $\Delta G$ is extensive. At equilibrium $E_\text{cell}=0$, $Q=K$.
-- Galvanic: anode $-$, cathode $+$. Electrolytic: anode $+$, cathode $-$. Oxidation is always at the anode.
-- Strongest oxidising agent: F$_2$; strongest reducing agent (aqueous): Li.
-- 1 F deposits 1 mol of a univalent ion: 108 g Ag, 31.75 g Cu, 9 g Al. Charge to get 1 mol Al from Al$^{3+}$ (or from M$_2$O$_3$): $3F$. `SQP 26–27`
-- At the same concentration, HCl conducts best (very high $\lambda^\circ$ of H$^+$); CH$_3$COOH conducts poorly (weak). `SQP 26–27`
-- Mercury cell 1.35 V; dry cell $\approx$1.5 V; Daniell 1.10 V; corrosion cell 1.67 V.
-- Lead battery electrolyte: 38% H$_2$SO$_4$. Fuel cell electrolyte (NCERT): conc. NaOH. `SQP 26–27`
-- Rust: $\ce{Fe2O3.xH2O}$. Sacrificial metals: Zn, Mg.
-
-## Case-based angles
-
-- Table of $\Lambda_m$ at several $c$ → identify strong/weak, find $\Lambda^\circ_m$, comment on the graph.
-- Hydrogen buses / space missions → fuel cell reactions, advantages.
-- Car battery / inverter → lead storage battery, charging, acid density.
-- Ships, pipelines, bridges → corrosion, sacrificial anodes, galvanising.
-- Electroplating jewellery → Faraday numerical.
+- Unit of conductivity $\kappa$: S cm$^{-1}$ (SI: S m$^{-1}$).
+- Unit of molar conductivity: S cm$^2$mol$^{-1}$ (SI: S m$^2$mol$^{-1}$).
+- Unit of cell constant: cm$^{-1}$.
+- $E^\circ$ is intensive, $\Delta G$ is: extensive.
+- At equilibrium in a cell: $E_\text{cell}=0$ and $Q=K$.
+- Electrode signs in a galvanic cell: anode negative, cathode positive.
+- Electrode signs in an electrolytic cell: anode positive, cathode negative.
+- Oxidation always takes place at: the anode, in both kinds of cell.
+- Strongest oxidising agent in the $E^\circ$ table: $\ce{F2}$.
+- Strongest reducing agent in aqueous solution: Li.
+- One faraday deposits: 108 g Ag, 31.75 g Cu or 9 g Al.
+- Charge needed for 1 mol Al from $\ce{Al^3+}$: $3F$.
+- Best conductor at equal concentration, HCl or $\ce{CH3COOH}$: HCl, because $\ce{H+}$ has a very high $\lambda^\circ$.
+- Cell voltages to remember: mercury cell 1.35 V, dry cell about 1.5 V, Daniell cell 1.10 V.
+- Electrolyte in the lead storage battery: 38% $\ce{H2SO4}$.
+- Electrolyte in the $\ce{H2}$–$\ce{O2}$ fuel cell: concentrated aqueous NaOH.
+- Formula of rust: $\ce{Fe2O3.xH2O}$.
+- Sacrificial metals used to protect iron: Zn and Mg.
 
 ## Mark-losing traps
 
-:::tip
-(1) Multiplying $E^\circ$ by a coefficient. (2) Writing $Q$ upside down or including solids. (3) Wrong $n$ (take it from the *balanced overall* equation). (4) $\kappa$ in S m$^{-1}$ used directly in $1000\kappa/M$ (1 S m$^{-1}$ = 0.01 S cm$^{-1}$). (5) Time in minutes in $Q=It$. (6) Forgetting coefficients in Kohlrausch, e.g. $\Lambda^\circ_{\ce{Al2(SO4)3}}=2\lambda^\circ_{\ce{Al^3+}}+3\lambda^\circ_{\ce{SO4^2-}}$. (7) Writing fuel-cell reactions in acid when NCERT's alkaline version is expected.
+:::tip Multiplying E°
+Multiplying $E^\circ$ by a coefficient.
+:::
+
+:::tip Reaction quotient
+Writing $Q$ upside down or including solids.
+:::
+
+:::tip Value of n
+Wrong $n$ (take it from the *balanced overall* equation).
+:::
+
+:::tip Conductivity units
+$\kappa$ in S m$^{-1}$ used directly in $1000\kappa/M$ (1 S m$^{-1}$ = 0.01 S cm$^{-1}$).
+:::
+
+:::tip Time in Faraday's law
+Time in minutes in $Q=It$.
+:::
+
+:::tip Coefficients in Kohlrausch's law
+Forgetting coefficients in Kohlrausch, e.g. $\Lambda^\circ_{\ce{Al2(SO4)3}}=2\lambda^\circ_{\ce{Al^3+}}+3\lambda^\circ_{\ce{SO4^2-}}$.
+:::
+
+:::tip Fuel-cell reactions
+Writing fuel-cell reactions in acid when NCERT's alkaline version is expected.
 :::
