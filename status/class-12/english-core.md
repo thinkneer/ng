@@ -30,3 +30,8 @@ _Paper: 5 March 2027 (CBSE date sheet of 6 Nov 2026; recheck cbse.gov.in). Theor
 2. A fixed full paper under `papers/` following the 2026–27 SQP (Section A passages must again be our own).
 3. Polish after the first student round: Must-know line wording for Recall, extra extract-based cases per chapter (currently one each), a second Reading passage of each kind.
 4. Internal assessment (20): a short guide to ASL (listening/speaking) and project work — not on the site yet.
+
+## Exam mode (Site chat, 15 Nov 2026)
+- English Core does not fit a count × marks grid, so exam mode shows only fixed set papers for it. Until one exists, Subject → Exam mode is hidden for English and the papers page says they are coming.
+- To publish one: the reading passages now exist as case questions in `reading-unseen` / `reading-case`; add `papers/<id>.json` (e.g. `papers/sqp-style-1.json`) listing bank questions by `<chapter>/<question-id>`, with `or` for internal choices, adding up to 80 marks and following the 2026–27 SQP sections (CLAUDE.md §11). build-index checks the references and the total.
+

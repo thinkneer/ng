@@ -104,6 +104,20 @@
       "type": "object",
       "description": "key: <subject>/<chapter-id> → the student's own text",
       "additionalProperties": { "type": "string", "maxLength": 20000 }
+    },
+    "papers": {
+      "type": "array",
+      "description": "Exam mode: full papers sat on this device",
+      "items": {
+        "type": "object",
+        "required": ["subject", "id"],
+        "additionalProperties": false,
+        "properties": {
+          "subject": { "type": "string" }, "id": { "type": "string" }, "minutes": { "type": "number" }, "early": { "type": "boolean" }, "at": { "type": "string" },
+          "code": { "type": "string" }, "refs": { "type": "array", "items": { "type": "array", "items": { "type": "string" } } },
+          "marks": { "type": "array", "items": { "type": "number" } }, "score": { "type": "number" }, "out_of": { "type": "number" }, "marked_code": { "type": "string" }, "marked_at": { "type": "string" }
+        }
+      }
     }
   }
 }

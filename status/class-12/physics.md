@@ -47,3 +47,9 @@ Boards only. Board paper: **Tue 16 Feb 2027** (first paper of the season). Pract
 1. **Derivation drill** (Must-know/Practice material, not a new layer): every board derivation as a numbered step skeleton with the diagram to draw and where step marks go. Most skeletons already exist in each chapter's `mustknow.md → Answer skeletons`; the drill would collect and complete them (e.g. equatorial dipole field, potential of a dipole, Ampère for a solenoid is qualitative only).
 2. **Practicals** (internal 30 marks; practical window 1 Jan–13 Feb): confirm the 2026–27 experiment and activity list on cbseacademic.nic.in, then aim, formula, observation table, result line and the 5 most-asked viva questions for each.
 3. Polish later: a second round of questions per chapter (target 15+ each, with internal-choice pairs); review stars against recent papers once 2026 paper analyses are checked.
+
+## Exam mode (Site chat, 15 Nov 2026)
+- Live: Subject → Exam mode builds numbered 3-hour papers (P-01, P-02 …) from this subject's questions.json files, to `data/patterns/class-12/physics.json` and the unit marks in subject.json. Every question in the bank can appear; nothing extra is needed per question.
+- Bank check: 5-markers are the bottleneck: 9 in the bank, a paper needs 6 (3 + their ORs). For 3 fresh papers add about 9 `la5` and 2 `sa3`; spread the 5-markers over Units III–VIII. More questions = more papers before repeats; each type must keep its pattern marks (MCQ/A–R 1, vsa2 2, sa3 3, case 4, la5 5).
+- Fixed set papers (e.g. an SQP-style paper) go in `papers/<id>.json` as references to bank questions (CLAUDE.md §11).
+

@@ -13,6 +13,7 @@ export async function subject(route) {
   const days = sub.exam_date ? daysBetween(t0, parseDate(sub.exam_date)) : null;
   const totalChapters = data.allChapters(sub).length;
   const withNotes = data.allChapters(sub).filter((c) => c.items?.notes).length;
+  const examOk = !!sub.exam_mode;
   const back = streamless(cls.id) ? `#/${cls.id}` : `#/${cls.id}/${stream.id}`;
   const groups = {};
   for (const u of sub.units) { const g = u.marks_group || u.id; (groups[g] ||= []).push(u); }
@@ -27,6 +28,7 @@ export async function subject(route) {
       </div>
       ${data.allChapters(sub).some((c) => c.items?.formulas) ? raw(`<a class="card continue pressable mb-4" href="${routeFor(cls.id, stream.id, sub.id, 'formulas')}" style="--unit:#${sub.colour}"><span class="list__leading">${icon('formula')}</span><span class="continue__main"><span class="continue__title">Formula sheet</span><span class="continue__sec" style="color:var(--text-2);font-weight:500">All chapters on one page · read the day before the paper</span></span>${icon('chevronRight', { class: 'chev', size: 20 })}</a>`) : ''}
       ${data.allChapters(sub).some((c) => c.items?.mustknow) ? raw(`<a class="card continue pressable mb-4" href="${routeFor(cls.id, stream.id, sub.id, 'exam-eve')}" style="--unit:#${sub.colour}"><span class="list__leading">${icon('bolt')}</span><span class="continue__main"><span class="continue__title">Exam eve</span><span class="continue__sec" style="color:var(--text-2);font-weight:500">Every chapter's must-know lines, formula boxes and traps in one calm scroll</span></span>${icon('chevronRight', { class: 'chev', size: 20 })}</a>`) : ''}
+      ${examOk ? raw(examCard(cls, stream, sub)) : ''}
       ${sub.units.map((u) => raw(`
         ${unitBar(u, { href: u.chapters.some((c) => c.items?.cards) ? routeFor(cls.id, stream.id, sub.id, 'cards', u.id) : null, label: `Unit ${esc(u.id)} · ${esc(u.name)}`, marks: `${u.marks_group ? `Units ${esc(u.marks_group)} · ` : ''}${u.marks} marks` })}
         <div class="list">
@@ -63,4 +65,13 @@ export async function subject(route) {
       });
     },
   };
+}
+
+/** Exam mode entry: a full 3-hour paper; shows "running" when one is in progress for this subject. */
+function examCard(cls, stream, sub) {
+  if (!data.allChapters(sub).some((c) => c.items?.questions) && !sub.papers?.length) return '';
+  const run = store.examSession();
+  const mine = run && run.subject === sub.id && Date.now() < (run.endedAt || run.endsAt);
+  const href = mine ? run.route : routeFor(cls.id, stream.id, sub.id, 'exam');
+  return `<a class="card continue pressable mb-4" href="${esc(href)}" style="--unit:${mine ? 'var(--danger)' : '#' + sub.colour}"><span class="list__leading">${icon('timer')}</span><span class="continue__main"><span class="continue__title">${mine ? `Resume paper ${esc(run.paper)}` : 'Exam mode'}</span><span class="continue__sec" style="${mine ? '' : 'color:var(--text-2);font-weight:500'}">${mine ? 'Running · the clock is on' : 'A full 3-hour paper in the board pattern · write on paper'}</span></span>${icon('chevronRight', { class: 'chev', size: 20 })}</a>`;
 }

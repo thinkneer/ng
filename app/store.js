@@ -72,6 +72,29 @@ export const store = {
   mistakes() { return (this.progress().mistakes || []).filter((m) => m && m.id); },
   clearMistake(id) { this.saveProgress((p) => { p.mistakes = (p.mistakes || []).filter((m) => (m.id || m) !== id); return p; }); },
 
+  // ---- exam mode: one running paper per device (survives refresh), and the papers sat ----
+  examSession() { return read(`exam.${this.nickname}`, null); },
+  setExamSession(s) { write(`exam.${this.nickname}`, s || undefined); },
+  /** Every sitting is kept (history); refs are the exact questions sat, so answers and marks line up later. */
+  recordPaper({ subject, id, minutes, early, code, refs }) {
+    this.saveProgress((p) => { p.papers = [...(p.papers || []), { subject, id, minutes, early: !!early, code, refs, at: new Date().toISOString() }].slice(-200); return p; });
+  },
+  papersDone(subject) { return (this.progress().papers || []).filter((x) => x.subject === subject); },
+  /** Latest sitting of one paper (or null). */
+  lastSitting(subject, id) { return this.papersDone(subject).filter((x) => x.id === id).pop() || null; },
+  /** Marks from the teacher (marks link): onto the latest sitting with the same code, else the latest sitting, else a new entry. */
+  saveMarks({ subject, id, code, marks, total }) {
+    this.saveProgress((p) => {
+      const list = [...(p.papers || [])];
+      const mine = list.map((x, i) => i).filter((i) => list[i].subject === subject && list[i].id === id);
+      const k = [...mine].reverse().find((i) => list[i].code === code) ?? mine[mine.length - 1] ?? -1;
+      const score = Math.round(marks.reduce((a, b) => a + b, 0) * 2) / 2;
+      const patch = { marks, score, out_of: total, marked_code: code, marked_at: new Date().toISOString() };
+      if (k >= 0) list[k] = { ...list[k], ...patch }; else list.push({ subject, id, code, at: new Date().toISOString(), ...patch });
+      p.papers = list.slice(-200); return p;
+    });
+  },
+
   // ---- misc flags ----
   flag(name) { return read(`flag.${name}`, false); },
   setFlag(name, v = true) { write(`flag.${name}`, v); },

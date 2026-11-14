@@ -12,6 +12,7 @@ export async function practice(route) {
   if (route.sub === 'mistakes') return mistakesList(subjects, s);
   const withQ = subjects.map((sub) => ({ sub, chapters: data.allChapters(sub).filter((c) => c.items?.questions) })).filter((x) => x.chapters.length);
   const mistakes = store.mistakes().length;
+  const examSubs = subjects.filter((sub) => sub.exam_mode);
   return {
     title: 'Practice', largeTitle: true, tab: 'practice',
     html: html`${largeTitle('Practice', { eyebrow: 'One question at a time · mark yourself' })}
@@ -20,6 +21,7 @@ export async function practice(route) {
         <span class="continue__main"><span class="continue__title">${mistakes ? `${mistakes} in your Mistakes list` : 'Mistakes list is empty'}</span><span class="continue__sec" style="color:var(--text-2);font-weight:500">${mistakes ? 'Wrong or low-marked questions · tap to retry' : 'Wrong or low-marked questions collect here for a second go'}</span></span>
         ${raw(icon('chevronRight', { class: 'chev', size: 20 }))}
       </a>
+      ${examSubs.length ? raw(`<div class="list__header"><span>Full papers · 3 hours</span></div><div class="list mb-4">${examSubs.map((sub) => { const run = store.examSession(); const mine = run && run.subject === sub.id && Date.now() < (run.endedAt || run.endsAt); return String(listItem({ href: mine ? run.route : routeFor(s.class, s.stream, sub.id, 'exam'), title: sub.name, sub: mine ? `Paper ${esc(run.paper)} running · tap to resume` : 'Exam mode · board pattern · write on paper', leading: icon('timer'), leadingStyle: `--unit:${mine ? 'var(--danger)' : '#' + sub.colour}` })); }).join('')}</div>`) : ''}
       ${withQ.length ? withQ.map(({ sub, chapters }) => raw(`<div class="list__header"><span>${esc(sub.name)}</span><span class="count">${chapters.reduce((n, c) => n + c.questions, 0)} questions</span></div><div class="list">${chapters.map((c) => String(listItem({ href: routeFor(s.class, s.stream, sub.id, c.id, 'practice'), title: `${c.number}. ${c.title}`, sub: Object.entries(c.question_types).map(([t, n]) => `${n} × ${TYPE_LABEL[t] || t}`).join(' · '), leading: String(c.number), leadingStyle: `--unit:#${c.unitObj.colour}` }))).join('')}</div>`)) :
         emptyState({ icon: 'practice', title: 'No practice sets yet', text: 'Question banks arrive subject by subject. Each question has a hint, a model answer and a step-mark scheme so you can mark yourself the way an examiner would.', action: '<a class="btn btn--secondary" href="#/subjects">Browse subjects</a>' })}`,
   };

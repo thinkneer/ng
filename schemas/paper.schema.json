@@ -1,0 +1,41 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "paper.schema.json",
+  "title": "Fixed full paper for exam mode (content/<class>/<stream>/<subject>/papers/<id>.json). Questions are references into the subject's question banks.",
+  "type": "object",
+  "required": ["id", "title", "sections"],
+  "additionalProperties": false,
+  "properties": {
+    "$schema": { "type": "string" },
+    "id": { "type": "string", "pattern": "^[a-z0-9][a-z0-9-]*$", "description": "Lower-case; numbered built papers use P-01 … so never start with p-" },
+    "title": { "type": "string", "minLength": 1 },
+    "label": { "type": "string", "pattern": "^(PYQ-style|SQP-style)$" },
+    "sections": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["id", "name", "questions"],
+        "additionalProperties": false,
+        "properties": {
+          "id": { "type": "string" },
+          "name": { "type": "string" },
+          "note": { "type": "string" },
+          "questions": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "required": ["ref"],
+              "additionalProperties": false,
+              "properties": {
+                "ref": { "type": "string", "pattern": "^[a-z0-9-]+/[a-z0-9][a-z0-9-]*$", "description": "<chapter-id>/<question-id>" },
+                "or": { "type": "string", "pattern": "^[a-z0-9-]+/[a-z0-9][a-z0-9-]*$", "description": "Internal choice: same marks as ref" }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

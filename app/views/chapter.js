@@ -14,6 +14,7 @@ export async function chapter(route) {
   if (route.chapterId === 'formulas' && route.tab === 'drill') { const { recallFormulas } = await import('./recall.js'); return recallFormulas({ cls, stream, sub }); }
   if (route.chapterId === 'formulas') { const { formulaSheet } = await import('./formulas.js'); return formulaSheet({ cls, stream, sub }); }
   if (route.chapterId === 'cards') { const { unitDeck } = await import('./cards.js'); return unitDeck({ cls, stream, sub, unitId: route.tab }); }
+  if (route.chapterId === 'exam') { const [{ examRoute }] = await Promise.all([import('./exam.js'), import('../exam-builder.js'), data.pattern(cls.id, sub.id).catch(() => null)]); return examRoute({ cls, stream, sub, paperId: route.tab, extra: route.extra }); }
   if (route.chapterId === 'exam-eve') { const { examEve } = await import('./exameve.js'); return examEve({ cls, stream, sub }); }
   const { unit, chapter: ch } = data.chapterOf(sub, route.chapterId);
   if (!ch) return { title: 'Not found', tab: 'subjects', back: routeFor(cls.id, stream.id, sub.id), html: emptyState({ icon: 'alert', title: 'No such chapter', action: `<a class="btn btn--secondary" href="${routeFor(cls.id, stream.id, sub.id)}">Back to ${esc(sub.name)}</a>` }) };

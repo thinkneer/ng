@@ -65,3 +65,9 @@ All 13 chapters now have Read, Must know, formulas and 12 practice questions. Wh
 - Question banks are generated from small scripts (one per chapter) so that step marks are summed automatically; the scripts are not in the repo. Writing questions.json by hand is fine as long as the build passes.
 - Keep answers after the colon at least a few words long in Must-know lines; very short answers ("$1$.") do not become recall cards.
 - Use `\lvert x\rvert` inside Markdown tables (a bare `|` splits the cell).
+
+## Exam mode (Site chat, 15 Nov 2026)
+- Live: Subject → Exam mode builds numbered 3-hour papers (P-01, P-02 …) from this subject's questions.json files, to `data/patterns/class-12/maths.json` and the unit marks in subject.json. Every question in the bank can appear; nothing extra is needed per question.
+- Bank check: For 3 fresh papers add about 6 `la5`, 2 `sa3` and a few MCQs (a paper needs 18 MCQ, 6 `la5` with ORs, 9 `sa3` with ORs). More questions = more papers before repeats; each type must keep its pattern marks (MCQ/A–R 1, vsa2 2, sa3 3, case 4, la5 5).
+- Fixed set papers (e.g. an SQP-style paper) go in `papers/<id>.json` as references to bank questions (CLAUDE.md §11).
+

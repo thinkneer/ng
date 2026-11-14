@@ -29,11 +29,15 @@ const SCREENS = [
   { name: 'cards', hash: '#/12/science/chemistry/ch-02/cards' },
   { name: 'paper', hash: '#/12/science/chemistry/ch-02/paper' },
   { name: 'formulas', hash: '#/12/science/chemistry/formulas' },
+  { name: 'exam', hash: '#/12/science/physics/exam' },
+  { name: 'exam-paper', hash: '#/12/science/physics/exam/P-01' },
   { name: 'practice', hash: '#/practice' },
   { name: 'progress', hash: '#/progress' },
   { name: 'plan', hash: '#/plan' },
   { name: 'more', hash: '#/more' },
 ];
+const ONLY = process.env.ONLY ? process.env.ONLY.split(',') : null; // e.g. ONLY=exam,exam-paper
+if (ONLY) SCREENS.splice(0, SCREENS.length, ...SCREENS.filter((x) => ONLY.includes(x.name)));
 const SETTINGS = JSON.stringify({ class: '12', stream: 'science', subjects: ['physics', 'chemistry', 'maths', 'biology', 'english-core'] });
 const browsers = (process.env.BROWSERS || 'chromium').split(',');
 const failures = [];

@@ -158,6 +158,7 @@ if (classes) {
             outSubj.not_in_syllabus = s.not_in_syllabus ?? [];
             outSubj.links = s.links ?? {};
             const chapterIds = new Set();
+            const qByRef = new Map(); // "<chapter>/<question id>" → question, for fixed papers
             let counts = { notes: 0, mustknow: 0, formulas: 0, questions: 0, chapters: 0 };
             for (const unit of s.units) {
               const outUnit = { id: unit.id, name: unit.name, colour: unit.colour, marks: unit.marks, marks_group: unit.marks_group ?? null, chapters: [] };
@@ -214,6 +215,7 @@ if (classes) {
                     const q = readJSON(qPath);
                     if (validate('questions', qPath, q)) {
                       checkQuestions(qPath, q, ch.id);
+                      for (const x of q) qByRef.set(`${ch.id}/${x.id}`, x);
                       outCh.items.questions = true;
                       outCh.questions = q.length;
                       for (const x of q) outCh.question_types[x.type] = (outCh.question_types[x.type] ?? 0) + 1;
@@ -231,10 +233,33 @@ if (classes) {
             if (existsSync(papersDir)) {
               for (const f of listJSON(papersDir)) {
                 const p = readJSON(f);
-                if (p) outSubj.papers.push({ id: p.id ?? f.replace(/.*\//, '').replace('.json', ''), title: p.title ?? null, path: rel(f) });
+                if (!validate('paper', f, p)) continue;
+                if (p.id !== f.replace(/.*\//, '').replace('.json', '')) err(f, `id "${p.id}" does not match the file name`);
+                if (/^p-\d+$/.test(p.id)) err(f, `id "${p.id}" clashes with the numbered built papers (P-01 …); pick another id`);
+                let total = 0;
+                const pat = patterns[`${cls.id}/${subj.id}`] ? readJSON(join(ROOT, patterns[`${cls.id}/${subj.id}`])) : null;
+                for (const sec of p.sections) for (const x of sec.questions) {
+                  const q = qByRef.get(x.ref);
+                  if (!q) { err(f, `question ${x.ref} not found in this subject's questions.json files`); continue; }
+                  total += q.marks;
+                  if (x.or) {
+                    const alt = qByRef.get(x.or);
+                    if (!alt) err(f, `internal choice ${x.or} not found`);
+                    else if (alt.marks !== q.marks) err(f, `internal choice ${x.or} (${alt.marks}) and ${x.ref} (${q.marks}) differ in marks`);
+                  }
+                }
+                if (pat && Math.abs(total - pat.total_marks) > 0.001) err(f, `questions add up to ${total} marks; the paper pattern says ${pat.total_marks}`);
+                outSubj.papers.push({ id: p.id, title: p.title, path: rel(f) });
               }
             }
             outSubj.counts = counts;
+            // exam mode: numbered papers need a count × marks pattern and a question bank; fixed papers always work
+            {
+              const patRel = patterns[`${cls.id}/${subj.id}`];
+              const pat = patRel ? readJSON(join(ROOT, patRel)) : null;
+              const grid = !!pat?.sections?.every((x) => x.count && x.marks_each && x.types?.length);
+              outSubj.exam_mode = (grid && counts.questions > 0) ? 'built' : outSubj.papers.length ? 'fixed' : null;
+            }
             // orphan chapter folders
             for (const entry of readdirSync(dir)) {
               const p = join(dir, entry);

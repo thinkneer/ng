@@ -35,3 +35,9 @@ Paper: **Thu 25 Mar 2027** (date sheet of 6 Nov 2026). Biology-only days 10–24
 3. **Diagram polish**: male and female reproductive systems, T.S. of anther (whole), mammary gland, DNA double helix and nucleosome, transcription unit, Bt toxin action and RNAi are described in words only; add SVGs.
 4. **Review pass**: read every Must-know line on a phone in Recall mode; shorten any line over 15 words.
 5. Full-length timed paper on the 2026–27 pattern (papers/ folder) once a Site chat confirms the exam-mode format.
+
+## Exam mode (Site chat, 15 Nov 2026)
+- Live: Subject → Exam mode builds numbered 3-hour papers (P-01, P-02 …) from this subject's questions.json files, to `data/patterns/class-12/biology.json` and the unit marks in subject.json. Every question in the bank can appear; nothing extra is needed per question.
+- Bank check: 3-markers are the bottleneck: 13 in the bank, a paper needs 9 (7 + 2 ORs). For 3 fresh papers add about 14 `sa3` and 5 `la5`. More questions = more papers before repeats; each type must keep its pattern marks (MCQ/A–R 1, vsa2 2, sa3 3, case 4, la5 5).
+- Fixed set papers (e.g. an SQP-style paper) go in `papers/<id>.json` as references to bank questions (CLAUDE.md §11).
+

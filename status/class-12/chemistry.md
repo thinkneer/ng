@@ -105,3 +105,9 @@ Still to make, as content once the site has a place for practicals:
 4. Practical help (list above).
 5. Past papers solved with verified `PYQ (year)` labels, and full-length timed papers under `papers/` for 17–26 Feb.
 6. The items under "To verify", and the picric acid value in Ch 7 `formulas.md`.
+
+## Exam mode (Site chat, 15 Nov 2026)
+- Live: Subject → Exam mode builds numbered 3-hour papers (P-01, P-02 …) from this subject's questions.json files, to `data/patterns/class-12/chemistry.json` and the unit marks in subject.json. Every question in the bank can appear; nothing extra is needed per question.
+- Bank check: 5-markers are the bottleneck: 13 in the bank, a paper needs 6. For 3 fresh papers add about 5 `la5`. More questions = more papers before repeats; each type must keep its pattern marks (MCQ/A–R 1, vsa2 2, sa3 3, case 4, la5 5).
+- Fixed set papers (e.g. an SQP-style paper) go in `papers/<id>.json` as references to bank questions (CLAUDE.md §11).
+

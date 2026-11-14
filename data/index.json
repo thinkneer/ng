@@ -754,7 +754,8 @@
                 "formulas": 14,
                 "questions": 14,
                 "chapters": 14
-              }
+              },
+              "exam_mode": "built"
             },
             {
               "id": "chemistry",
@@ -1154,7 +1155,8 @@
                 "formulas": 10,
                 "questions": 10,
                 "chapters": 10
-              }
+              },
+              "exam_mode": "built"
             },
             {
               "id": "maths",
@@ -1588,7 +1590,8 @@
                 "formulas": 13,
                 "questions": 13,
                 "chapters": 13
-              }
+              },
+              "exam_mode": "built"
             },
             {
               "id": "biology",
@@ -2004,7 +2007,8 @@
                 "formulas": 13,
                 "questions": 13,
                 "chapters": 13
-              }
+              },
+              "exam_mode": "built"
             },
             {
               "id": "english-core",
@@ -2670,7 +2674,8 @@
                 "formulas": 25,
                 "questions": 25,
                 "chapters": 25
-              }
+              },
+              "exam_mode": null
             }
           ]
         },
