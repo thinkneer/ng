@@ -6,6 +6,14 @@ import { randomQuote } from '../quotes.js';
 import { data } from '../data.js';
 import { store } from '../store.js';
 
+/** Navigate after sign-in. If the address is already the target (the gate shows Sign in without changing
+ *  the URL), assigning the same hash fires nothing, so force the router to redraw. */
+function goAfterSignIn(hash) {
+  const h = !hash || hash === '#/signin' || hash === '#/login' || hash === '#/request' ? '#/today' : hash;
+  if (location.hash === h || (!location.hash && h === '#/today')) window.dispatchEvent(new HashChangeEvent('hashchange'));
+  else location.hash = h;
+}
+
 
 function shell(inner) {
   return html`<div class="auth"><div class="auth__inner">
@@ -48,7 +56,7 @@ export async function signin(route) {
           const s = await signIn(nick, pass);
           store.set('pending', undefined);
           haptic('success'); toast(`Signed in as ${s.nickname}`);
-          location.hash = next === '#/signin' ? '#/today' : next;
+          goAfterSignIn(next);
         } catch (ex) {
           err.textContent = navigator.onLine ? ex.message : 'You’re offline. Connect once to sign in.'; err.hidden = false; haptic('medium');
         } finally { go.disabled = false; go.textContent = 'Sign in'; }
@@ -193,13 +201,13 @@ async function emailSignin(route) {
             store.set('signin.email', email);
             const s = await signUpPassword({ email, pass, nickname, cls, stream });
             if (s?.confirm) { done('Confirm your email', 'We sent you a confirmation link. Tap it, then come back and sign in.'); return; }
-            haptic('success'); location.hash = s?.pending ? '#/awaiting' : next;
+            haptic('success'); goAfterSignIn(s?.pending ? '#/awaiting' : next);
           } else {
             store.set('signin.email', email);
             const s = await signInPassword(email, pass);
             haptic('success');
             if (!s) return fail('Signed in, but your member profile could not be loaded. Try again in a moment.');
-            if (s.pending) location.hash = '#/awaiting'; else { toast(`Signed in as ${s.nickname}`); location.hash = next; }
+            if (s.pending) goAfterSignIn('#/awaiting'); else { toast(`Signed in as ${s.nickname}`); goAfterSignIn(next); }
           }
         } catch (ex) {
           const m = ex?.message || '';
@@ -248,7 +256,7 @@ export async function reset() {
         if (a.length < 8) { err.textContent = 'At least 8 characters.'; err.hidden = false; return; }
         if (a !== b) { err.textContent = 'The two passwords don’t match.'; err.hidden = false; return; }
         go.disabled = true;
-        try { await setNewPassword(a); toast('Password saved'); location.hash = '#/today'; }
+        try { await setNewPassword(a); toast('Password saved'); goAfterSignIn('#/today'); }
         catch (ex) { err.textContent = /session|auth/i.test(ex.message) ? 'This link has expired or was opened in a different browser. Ask for a new one from Sign in → Forgot password.' : errText(ex); err.hidden = false; go.disabled = false; }
       });
     },
