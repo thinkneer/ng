@@ -5,7 +5,6 @@ import { applyTheme } from '../theme.js';
 import { pwa } from '../pwa.js';
 import { signOut, session } from '../auth.js';
 
-const REPO = 'https://github.com/thinkneer/ng';
 
 export async function more(route) {
   const sub = route.sub || null;
@@ -30,13 +29,12 @@ async function hub() {
       </div>
       <div class="list__header">Community</div>
       <div class="list">
-        ${listItem({ href: '#/more/request', title: 'Request something', sub: 'A topic, a chapter, a kind of question, a bug', leading: icon('message'), leadingStyle: 'background:var(--accent-soft);color:var(--accent-text)' })}
+        ${listItem({ href: '#/more/request', title: 'Request something', sub: 'A topic, a chapter, a kind of question, a mistake', leading: icon('message'), leadingStyle: 'background:var(--accent-soft);color:var(--accent-text)' })}
         ${listItem({ href: '#/more/account', title: `Signed in as ${session()?.nickname || 'member'}`, sub: session()?.role === 'admin' ? 'Admin · account and sign out' : 'Account and sign out', leading: icon('user'), leadingStyle: 'background:var(--accent-soft);color:var(--accent-text)' })}
       </div>
       <div class="list__header">About</div>
       <div class="list">
         ${listItem({ href: '#/more/about', title: 'About ng & privacy', sub: 'Free, open, no personal data', leading: icon('info'), leadingStyle: 'background:var(--accent-soft);color:var(--accent-text)' })}
-        ${listItem({ href: REPO, title: 'Source on GitHub', sub: 'thinkneer/ng', leading: icon('github'), leadingStyle: 'background:var(--accent-soft);color:var(--accent-text)', attrs: 'target="_blank" rel="noopener"' })}
       </div>
       <p class="t-footnote t-3 mt-6 center">ng · CBSE board prep · no login needed</p>`,
   };
@@ -89,24 +87,24 @@ async function settings() {
 
 async function request() {
   const s = store.settings;
-  const fallback = `Request for ng (${s.class ? `Class ${s.class} ${s.stream || ''}` : 'class not set'})\nSubject: \nChapter: \nWhat I want: \nWhy: \n(nickname, optional): `;
+  const fallback = `Request for ng (${s.class ? `Class ${s.class} ${s.stream || ''}` : 'class not set'})\nSubject: \nChapter: \nWhat I want: \nWhy: \nNickname: ${session()?.nickname || ''}`;
   return {
     title: 'Request something', tab: 'more', back: '#/more',
     html: html`<h1 class="t-title" style="margin:var(--s-4) 0">Request something</h1>
-      <p class="t-2 t-subhead mb-4">A topic, a chapter, a kind of question, a wrong answer or a bug. Requests are read by the admin and done in order of the nearest paper. <strong>Use a nickname and don't add personal details</strong> — requests are public on GitHub.</p>
-      ${!navigator.onLine ? raw(`<div class="notice notice--warn mb-4">${icon('wifiOff')}<div>You're offline. Requests need a connection.</div></div>`) : ''}
-      <div class="list">
-        ${listItem({ href: `${REPO}/issues/new?template=content-request.yml`, title: 'Ask for content', sub: 'Opens a GitHub form (needs a free GitHub account)', leading: icon('message'), leadingStyle: 'background:var(--accent-soft);color:var(--accent-text)', attrs: 'target="_blank" rel="noopener"' })}
-        ${listItem({ href: `${REPO}/issues/new?template=bug.yml`, title: 'Report a bug or a wrong answer', sub: 'Opens a GitHub form', leading: icon('alert'), leadingStyle: 'background:var(--warning-soft);color:var(--warning)', attrs: 'target="_blank" rel="noopener"' })}
+      <p class="t-2 t-subhead mb-4">Want a topic, a chapter, more questions of one kind, or found a wrong answer? Fill this in and send it to the admin. Requests are done in order of the nearest paper.</p>
+      <div class="card">
+        <label for="req-text">Your request</label>
+        <textarea id="req-text" rows="8" class="t-mono" style="font-size:0.9rem">${fallback}</textarea>
+        <div class="hl-actions"><button class="btn" type="button" data-share>${raw(icon('share'))} Send to admin</button><button class="btn btn--plain" type="button" data-copy>${raw(icon('copy'))} Copy</button></div>
       </div>
-      <div class="list__header">No GitHub account?</div>
-      <div class="card"><p class="t-subhead t-2">Copy this text, fill it in, and send it to the admin by any channel you already use.</p>
-        <textarea id="req-text" rows="7" class="mt-2 t-mono" style="font-size:0.9rem">${fallback}</textarea>
-        <button class="btn btn--secondary btn--sm mt-2" type="button" data-copy>${raw(icon('check'))} Copy text</button></div>`,
+      <p class="t-footnote t-3 mt-4">Please don\u2019t add your real name, phone number or school.</p>`,
     mount(el) {
-      el.querySelector('[data-copy]').addEventListener('click', async () => {
-        const t = el.querySelector('#req-text'); try { await navigator.clipboard.writeText(t.value); toast('Copied'); } catch { t.select(); toast('Select and copy the text'); }
+      const t = el.querySelector('#req-text');
+      el.querySelector('[data-share]').addEventListener('click', async () => {
+        if (navigator.share) { try { await navigator.share({ title: 'ng request', text: t.value }); return; } catch (e) { if (e?.name === 'AbortError') return; } }
+        try { await navigator.clipboard.writeText(t.value); toast('Copied \u2014 paste it in a message to the admin'); } catch { t.select(); toast('Select the text and copy it'); }
       });
+      el.querySelector('[data-copy]').addEventListener('click', async () => { try { await navigator.clipboard.writeText(t.value); toast('Copied'); } catch { t.select(); toast('Select the text and copy it'); } });
     },
   };
 }
@@ -143,7 +141,7 @@ async function about() {
         <p>Nothing here copies NCERT or CBSE text. We write our own notes, summaries and questions and link to <a href="https://ncert.nic.in/textbook.php" target="_blank" rel="noopener">ncert.nic.in</a> and <a href="https://cbseacademic.nic.in/" target="_blank" rel="noopener">cbseacademic.nic.in</a> for the originals.</p>
         <h3>Keyboard</h3>
         <p><span class="kbd">/</span> search chapters · <span class="kbd">Esc</span> close · reader: <span class="kbd">f</span> full screen, <span class="kbd">←</span> <span class="kbd">→</span> pages · recall: <span class="kbd">space</span> show, <span class="kbd">1</span> again, <span class="kbd">2</span> got it</p>
-        <p class="t-footnote t-3">Open source: <a href="${REPO}" target="_blank" rel="noopener">github.com/thinkneer/ng</a>. Code MIT; content CC BY-NC-SA 4.0.</p>
+        <p class="t-footnote t-3">Made for students, free, with no ads and no tracking.</p>
       </div>`,
   };
 }

@@ -318,10 +318,9 @@ a.card:hover, button.card:hover { text-decoration: none; }
 .bar > span { display: block; height: 100%; border-radius: 2px; background: var(--unit, var(--accent)); }
 
 /* ---------- Sign in / Request access ---------- */
-.app.is-reading .main { overflow-y: auto; }
-.auth { min-height: 100dvh; display: grid; place-items: start center; padding: calc(var(--sat) + var(--s-8)) var(--s-4) calc(var(--sab) + var(--s-8)); overflow-y: auto; position: relative; }
+.auth { position: fixed; inset: 0; z-index: 50; display: grid; place-items: start center; padding: calc(var(--sat) + var(--s-8)) var(--s-4) calc(var(--sab) + var(--s-10)); overflow-y: auto; -webkit-overflow-scrolling: touch; overscroll-behavior: contain; }
 .auth::before { content: ""; position: fixed; inset: 0; z-index: -1; background: radial-gradient(900px 520px at 50% -10%, var(--glow-1), transparent 65%), radial-gradient(700px 500px at 100% 100%, var(--glow-2), transparent 60%), var(--bg); }
-.auth__inner { width: min(100%, 26rem); }
+.auth__inner { width: min(100%, 26rem); padding-bottom: var(--s-8); }
 .auth__brand { text-align: center; margin-bottom: var(--s-5); animation: rise 0.5s var(--ease-out) both; }
 .auth__brand img { width: 4rem; height: 4rem; border-radius: 18px; margin: 0 auto var(--s-3); box-shadow: var(--accent-glow), var(--shadow-2); }
 .auth__name { font-size: var(--fs-title); font-weight: 800; letter-spacing: -0.02em; }

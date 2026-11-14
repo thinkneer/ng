@@ -4,7 +4,6 @@ import { signIn, buildRequest, requestCode, nicknameTaken, NICK_RE } from '../au
 import { randomQuote } from '../quotes.js';
 import { data } from '../data.js';
 
-const REPO = 'https://github.com/thinkneer/ng';
 
 function shell(inner) {
   return html`<div class="auth"><div class="auth__inner">
@@ -75,46 +74,45 @@ export async function request() {
         <select id="r-class">${raw(liveClasses.flatMap((c) => c.streams.filter((s) => s.status === 'live').map((s) => `<option value="${c.id}|${s.id}">${esc(c.name)}${s.id !== 'general' ? ' ' + esc(s.name) : ''}</option>`)).join(''))}</select>
         <label class="mt-4">Subjects</label>
         <div class="auth__subjects" id="r-subjects">${raw(firstStream.subjects.filter((s) => s.status === 'live').map((s) => `<label class="check"><input type="checkbox" value="${s.id}" checked><span>${esc(s.name)}</span></label>`).join(''))}</div>
-        <label for="r-gh" class="mt-4">GitHub username <span class="t-3" style="font-weight:500">(optional)</span></label>
-        <input id="r-gh" autocapitalize="none" spellcheck="false" placeholder="Only if you have one">
         <p class="auth__err" id="r-err" role="alert" hidden></p>
         <button class="btn btn--block mt-4" type="submit" id="r-go">Create request</button>
         <div class="auth__foot"><a href="#/signin">Back to sign in</a></div>
       </form>
       <div class="card auth__card" id="r-done" hidden>
         <h1 class="t-title2">Almost there</h1>
-        <p class="t-2 t-subhead">Send this request to the admin. Your passphrase is not in it, only a scrambled check of it.</p>
-        <a class="btn btn--block mt-4" id="r-issue" target="_blank" rel="noopener">${raw(icon('github'))} Send on GitHub</a>
-        <button class="btn btn--plain btn--block mt-2" type="button" id="r-copy">${raw(icon('check'))} Copy request code</button>
-        <textarea id="r-code" rows="4" class="mt-2 t-mono" readonly style="font-size:.8rem"></textarea>
-        <p class="t-footnote t-3 mt-2">No GitHub? Copy the code and send it to the admin on WhatsApp or any channel. Once approved, sign in with the same nickname and passphrase.</p>
+        <p class="t-2 t-subhead">Send this code to the admin (your parent or teacher who runs the site). Your passphrase is not in it, only a scrambled check of it.</p>
+        <button class="btn btn--block mt-4" type="button" id="r-share">${raw(icon('share'))} Send to admin</button>
+        <button class="btn btn--plain btn--block mt-2" type="button" id="r-copy">${raw(icon('copy'))} Copy code</button>
+        <textarea id="r-code" rows="4" class="mt-2 t-mono" readonly style="font-size:.8rem" aria-label="Request code"></textarea>
+        <p class="t-footnote t-3 mt-2">Once the admin approves you, come back here and sign in with the same nickname and passphrase.</p>
         <div class="auth__foot"><a href="#/signin">Back to sign in</a></div>
       </div>
       <p class="auth__small">Use a nickname. No real names, emails, phone numbers or schools.</p>`),
     mount(el) {
       const f = el.querySelector('#req'), err = el.querySelector('#r-err');
-      const fail = (m) => { err.textContent = m; err.hidden = false; haptic('medium'); };
+      const fail = (m) => { err.textContent = m; err.hidden = false; haptic('medium'); err.scrollIntoView({ block: 'center', behavior: 'smooth' }); };
       f.addEventListener('submit', async (e) => {
         e.preventDefault(); err.hidden = true;
         const nickname = el.querySelector('#r-nick').value.trim(), pass = el.querySelector('#r-pass').value, pass2 = el.querySelector('#r-pass2').value;
         const [cls, stream] = el.querySelector('#r-class').value.split('|');
         const subjects = [...el.querySelectorAll('#r-subjects input:checked')].map((i) => i.value);
-        const github = el.querySelector('#r-gh').value.trim();
         if (!NICK_RE.test(nickname)) return fail('Nickname: 3–20 letters, digits or _ (no spaces).');
         if (pass.length < 8) return fail('Passphrase: at least 8 characters.');
         if (pass !== pass2) return fail('The two passphrases don’t match.');
         if (!subjects.length) return fail('Pick at least one subject.');
-        if (github && !/^[A-Za-z0-9-]{1,39}$/.test(github)) return fail('That doesn’t look like a GitHub username.');
         if (await nicknameTaken(nickname)) return fail('That nickname is taken. Try another.');
-        const req = await buildRequest({ nickname, pass, cls, stream, subjects, github });
+        const req = await buildRequest({ nickname, pass, cls, stream, subjects });
         const code = requestCode(req);
-        const body = JSON.stringify(req, null, 2);
-        const url = `${REPO}/issues/new?template=access-request.yml&title=${encodeURIComponent('[access] ' + nickname)}&nickname=${encodeURIComponent(nickname)}&class=${encodeURIComponent(cls + ' ' + stream)}&subjects=${encodeURIComponent(subjects.join(', '))}&credential=${encodeURIComponent(body)}${github ? '&github=' + encodeURIComponent(github) : ''}`;
-        el.querySelector('#r-issue').href = url;
         el.querySelector('#r-code').value = code;
-        f.hidden = true; el.querySelector('#r-done').hidden = false; haptic('success');
+        f.hidden = true; el.querySelector('#r-done').hidden = false; haptic('success'); el.querySelector('.auth').scrollTo({ top: 0, behavior: 'smooth' });
       });
-      el.querySelector('#r-copy').addEventListener('click', async () => { const t = el.querySelector('#r-code'); try { await navigator.clipboard.writeText(t.value); toast('Request code copied'); } catch { t.select(); toast('Select the code and copy it'); } });
+      el.querySelector('#r-share').addEventListener('click', async () => {
+        const code = el.querySelector('#r-code').value;
+        const text = `ng access request\n${code}`;
+        if (navigator.share) { try { await navigator.share({ title: 'ng access request', text }); return; } catch (e) { if (e?.name === 'AbortError') return; } }
+        try { await navigator.clipboard.writeText(text); toast('Code copied \u2014 paste it in a message to the admin'); } catch { el.querySelector('#r-code').select(); toast('Select the code and copy it'); }
+      });
+      el.querySelector('#r-copy').addEventListener('click', async () => { const t = el.querySelector('#r-code'); try { await navigator.clipboard.writeText(t.value); toast('Code copied'); } catch { t.select(); toast('Select the code and copy it'); } });
     },
   };
 }

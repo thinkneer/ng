@@ -28,7 +28,7 @@ Install it on your phone (Share → Add to Home Screen on iPhone; "Install app" 
 - Users are approved by the admin by hand.
 
 ## Requests
-Anyone can ask for a topic, a chapter, a kind of question, or report a bug: use "Request something" in the app (it opens a GitHub issue form) or, without a GitHub account, copy the request text it gives you and send it to the admin.
+Members ask for a topic, a chapter, a kind of question, or report a mistake from More → Request something: the app prepares the text and the student sends it to the admin by message. Students never need a GitHub account.
 
 ## For contributors / maintainers
 - Content is Markdown + JSON under `content/`; the app is a fixed shell. Adding content never means editing app code. See `CLAUDE.md`.

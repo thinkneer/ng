@@ -1,6 +1,6 @@
 // Members-only sign-in for a static site.
 // Honest scope: this hides the app from anyone the admin hasn't approved. The content files are still public
-// in the GitHub repo, so this is access control for the app, not encryption. Passphrases never leave the browser:
+// in the site's repository, so this is access control for the app, not encryption. Passphrases never leave the browser:
 // only a salted PBKDF2 hash is ever written down (in data/users.json, by the admin, after approval).
 import { store } from './store.js';
 
@@ -64,10 +64,10 @@ export async function signIn(nick, pass) {
 export function signOut() { store.set('session', undefined); }
 
 /** Build an access request. The passphrase is hashed here and never stored or sent. */
-export async function buildRequest({ nickname, pass, cls, stream, subjects, github }) {
+export async function buildRequest({ nickname, pass, cls, stream, subjects }) {
   const salt = newSalt();
   const hash = await hashPass(pass, salt);
-  return { v: 1, nickname, salt, hash, class: cls, stream, subjects, github: github || undefined, requested: new Date().toISOString().slice(0, 10) };
+  return { v: 1, nickname, salt, hash, class: cls, stream, subjects, requested: new Date().toISOString().slice(0, 10) };
 }
 export const requestCode = (req) => btoa(unescape(encodeURIComponent(JSON.stringify(req))));
 export async function nicknameTaken(nick) {

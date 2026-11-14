@@ -45,7 +45,7 @@ async function renderSidebar(active, route) {
     <div class="sidebar__section">More</div>
     <button class="side-link" type="button" data-search>${icon('search')}<span>Search</span><span class="kbd">/</span></button>
     ${link('#/more', 'Settings & about', 'settings', 'more')}
-    <div class="sidebar__foot">Free · no login needed · <a href="https://github.com/thinkneer/ng">source</a></div>`;
+    <div class="sidebar__foot">Free · members only · no ads</div>`;
 }
 function routeOf(cls, stream, subject) { return `#/${cls}${cls === '9' || cls === '10' ? '' : '/' + stream}/${subject}`; }
 
