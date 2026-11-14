@@ -1,0 +1,354 @@
+[
+  {
+    "id": "phy-01-q01",
+    "chapter": "ch-01",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 3,
+    "label": "PYQ-style",
+    "stem": "A point charge $+q$ is at the centre of a closed cube. A second charge $-q$ is placed outside the cube, close to one face. The total electric flux through the cube is",
+    "options": [
+      "zero",
+      "$q/\\varepsilon_0$",
+      "$q/6\\varepsilon_0$",
+      "$2q/\\varepsilon_0$"
+    ],
+    "answer": "B",
+    "model_answer": "**(B) $q/\\varepsilon_0$** Flux depends only on the charge enclosed, $+q$. The outside charge changes the field on the surface but adds zero net flux.",
+    "topic": "Gauss law"
+  },
+  {
+    "id": "phy-01-q02",
+    "chapter": "ch-01",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ-style",
+    "stem": "Two identical small metal spheres carry $+6\\,\\mu$C and $-2\\,\\mu$C. They are touched together and put back at the same separation. The new force compared with the old one is",
+    "options": [
+      "$\\tfrac13$, attractive",
+      "$\\tfrac13$, repulsive",
+      "3 times, repulsive",
+      "$\\tfrac43$, attractive"
+    ],
+    "answer": "B",
+    "model_answer": "**(B) $\\tfrac13$, repulsive** After contact each has $(6-2)/2=+2\\,\\mu$C. $|q_1q_2|$ goes from 12 to 4, so the force is $\\tfrac13$; both are now positive, so it is repulsive.",
+    "topic": "Coulomb law"
+  },
+  {
+    "id": "phy-01-q03",
+    "chapter": "ch-01",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ-style",
+    "stem": "The field of a short dipole at distance $r$ on its equatorial line is $E$. The magnitude of the field at distance $2r$ on its axial line is",
+    "options": [
+      "$E/2$",
+      "$E/4$",
+      "$2E$",
+      "$E/8$"
+    ],
+    "answer": "B",
+    "model_answer": "**(B) $E/4$** $E_\\text{eq}=kp/r^3$; $E_\\text{ax}(2r)=2kp/(2r)^3=kp/4r^3=E/4$.",
+    "topic": "Dipole"
+  },
+  {
+    "id": "phy-01-q04",
+    "chapter": "ch-01",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ-style",
+    "stem": "A dipole of moment $4\\times10^{-9}$ C m is at $30^\\circ$ to a uniform field of $5\\times10^{4}$ N C⁻¹. The torque on it is",
+    "options": [
+      "$1\\times10^{-4}$ N m",
+      "$2\\times10^{-4}$ N m",
+      "$1.73\\times10^{-4}$ N m",
+      "zero"
+    ],
+    "answer": "A",
+    "model_answer": "**(A) $1\\times10^{-4}$ N m** $\\tau=pE\\sin\\theta=4\\times10^{-9}\\times5\\times10^{4}\\times\\tfrac12=1\\times10^{-4}$ N m.",
+    "topic": "Dipole"
+  },
+  {
+    "id": "phy-01-q05",
+    "chapter": "ch-01",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ-style",
+    "stem": "The field of an infinitely long straight wire with uniform linear charge density $\\lambda$, at distance $r$ from it, varies as",
+    "options": [
+      "$1/r^2$",
+      "$1/r$",
+      "$r$",
+      "independent of $r$"
+    ],
+    "answer": "B",
+    "model_answer": "**(B) $1/r$** $E=\\lambda/2\\pi\\varepsilon_0 r$.",
+    "topic": "Gauss law"
+  },
+  {
+    "id": "phy-01-q06",
+    "chapter": "ch-01",
+    "type": "ar",
+    "marks": 1,
+    "stars": 1,
+    "label": "PYQ-style",
+    "stem": "**Assertion (A):** The Coulomb forces two point charges exert on each other obey Newton's third law.<br>**Reason (R):** The Coulomb force is a central force: it acts along the line joining the two charges.",
+    "options": [
+      "Both A and R are true, and R is the correct explanation of A.",
+      "Both A and R are true, but R is not the correct explanation of A.",
+      "A is true, but R is false.",
+      "Both A and R are false."
+    ],
+    "answer": "B",
+    "model_answer": "**(B)** Both are true. The third law is about the forces being equal and opposite; being central only fixes their line of action, so R does not explain A.",
+    "topic": "Coulomb law"
+  },
+  {
+    "id": "phy-01-q07",
+    "chapter": "ch-01",
+    "type": "ar",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ-style",
+    "stem": "**Assertion (A):** A glass rod rubbed with silk becomes positively charged.<br>**Reason (R):** Protons move from the silk to the glass rod during rubbing.",
+    "options": [
+      "Both A and R are true, and R is the correct explanation of A.",
+      "Both A and R are true, but R is not the correct explanation of A.",
+      "A is true, but R is false.",
+      "Both A and R are false."
+    ],
+    "answer": "C",
+    "model_answer": "**(C)** A is true. Only electrons move: the glass loses electrons to the silk. Protons are never transferred by rubbing.",
+    "topic": "Charge"
+  },
+  {
+    "id": "phy-01-q08",
+    "chapter": "ch-01",
+    "type": "case",
+    "marks": 4,
+    "stars": 2,
+    "label": "PYQ-style",
+    "stem": "**Balancing a charged drop.** In a Millikan-type set-up, a tiny oil drop of mass $1.6\\times10^{-15}$ kg floats at rest between two horizontal plates. The upper plate is positive and the field between the plates is $5\\times10^{4}$ N C⁻¹, directed downwards. Take $g=10$ m s⁻², $e=1.6\\times10^{-19}$ C.",
+    "parts": [
+      {
+        "id": "i",
+        "stem": "The magnitude of the charge on the drop is",
+        "marks": 1,
+        "options": [
+          "$1.6\\times10^{-19}$ C",
+          "$8\\times10^{-20}$ C",
+          "$3.2\\times10^{-19}$ C",
+          "$6.4\\times10^{-19}$ C"
+        ],
+        "answer": "C",
+        "model_answer": "**(C)** $qE=mg\\Rightarrow q=\\dfrac{1.6\\times10^{-15}\\times10}{5\\times10^4}=3.2\\times10^{-19}$ C."
+      },
+      {
+        "id": "ii",
+        "stem": "The drop carries",
+        "marks": 1,
+        "options": [
+          "2 excess protons",
+          "2 excess electrons",
+          "1 excess electron",
+          "4 excess electrons"
+        ],
+        "answer": "B",
+        "model_answer": "**(B)** The field points down but the electric force must point up, so the charge is negative: $3.2\\times10^{-19}/1.6\\times10^{-19}=2$ electrons."
+      },
+      {
+        "id": "iii",
+        "stem": "If the field is suddenly doubled (same direction), the drop",
+        "marks": 1,
+        "options": [
+          "stays at rest",
+          "moves down with $a=g$",
+          "moves up with $a=g$",
+          "moves up with $a=2g$"
+        ],
+        "answer": "C",
+        "model_answer": "**(C)** Upward force $2mg$, weight $mg$: net $mg$ upward, so $a=g$."
+      },
+      {
+        "id": "iv",
+        "stem": "Which of these can never be the charge on any drop?",
+        "marks": 1,
+        "options": [
+          "$4.8\\times10^{-19}$ C",
+          "$2.4\\times10^{-19}$ C",
+          "$6.4\\times10^{-19}$ C",
+          "$1.6\\times10^{-18}$ C"
+        ],
+        "answer": "B",
+        "model_answer": "**(B)** $2.4\\times10^{-19}$ C $=1.5e$, not a whole multiple of $e$ (quantisation)."
+      }
+    ],
+    "topic": "Charge and force"
+  },
+  {
+    "id": "phy-01-q09",
+    "chapter": "ch-01",
+    "type": "vsa2",
+    "marks": 2,
+    "stars": 2,
+    "label": "PYQ-style",
+    "stem": "Point charges $+4\\,\\mu$C and $+1\\,\\mu$C are 30 cm apart in air. Find the point on the line joining them where the net electric field is zero.",
+    "model_answer": "Both charges are positive, so the null point lies between them, nearer the smaller charge. [½]<br>\n$\\dfrac{k(4\\,\\mu\\text{C})}{x^2}=\\dfrac{k(1\\,\\mu\\text{C})}{(0.3-x)^2}\\Rightarrow\\dfrac2x=\\dfrac1{0.3-x}$ [1]<br>\n$x=0.2$ m: $\\boxed{20\\text{ cm from the }+4\\,\\mu\\text{C charge}}$ (10 cm from $+1\\,\\mu$C). [½]",
+    "scheme": [
+      {
+        "step": "Both charges are positive, so the null point lies between them, nearer the smaller charge.",
+        "marks": 0.5
+      },
+      {
+        "step": "$\\dfrac{k(4\\,\\mu\\text{C})}{x^2}=\\dfrac{k(1\\,\\mu\\text{C})}{(0.3-x)^2}\\Rightarrow\\dfrac2x=\\dfrac1{0.3-x}$",
+        "marks": 1
+      },
+      {
+        "step": "$x=0.2$ m: $\\boxed{20\\text{ cm from the }+4\\,\\mu\\text{C charge}}$ (10 cm from $+1\\,\\mu$C).",
+        "marks": 0.5
+      }
+    ],
+    "hint": "Like charges: the fields can cancel only between them. Equate the two magnitudes.",
+    "topic": "Electric field"
+  },
+  {
+    "id": "phy-01-q10",
+    "chapter": "ch-01",
+    "type": "vsa2",
+    "marks": 2,
+    "stars": 2,
+    "label": "NCERT-based",
+    "stem": "A uniform field $\\vec E=3\\times10^{3}\\,\\hat i$ N C⁻¹ exists in a region. Find the flux through a square of side 10 cm when (a) its plane is parallel to the $yz$-plane, (b) its normal makes $60^\\circ$ with the $x$-axis.",
+    "model_answer": "$\\phi=EA\\cos\\theta$, $A=10^{-2}$ m². (a) Normal along $x$, $\\theta=0$: $\\phi=3\\times10^3\\times10^{-2}=\\boxed{30\\text{ N m}^2\\text{ C}^{-1}}$ [1]<br>\n(b) $\\theta=60^\\circ$: $\\phi=30\\times\\tfrac12=\\boxed{15\\text{ N m}^2\\text{ C}^{-1}}$ [1]",
+    "scheme": [
+      {
+        "step": "$\\phi=EA\\cos\\theta$, $A=10^{-2}$ m². (a) Normal along $x$, $\\theta=0$: $\\phi=3\\times10^3\\times10^{-2}=\\boxed{30\\text{ N m}^2\\text{ C}^{-1}}$",
+        "marks": 1
+      },
+      {
+        "step": "(b) $\\theta=60^\\circ$: $\\phi=30\\times\\tfrac12=\\boxed{15\\text{ N m}^2\\text{ C}^{-1}}$",
+        "marks": 1
+      }
+    ],
+    "hint": "Use the angle between $\\vec E$ and the normal to the surface.",
+    "topic": "Flux"
+  },
+  {
+    "id": "phy-01-q11",
+    "chapter": "ch-01",
+    "type": "sa3",
+    "marks": 3,
+    "stars": 3,
+    "label": "PYQ-style",
+    "stem": "Use Gauss's law to find the electric field due to an infinitely long, straight wire with uniform linear charge density $\\lambda$. Sketch the graph of $E$ against distance $r$.",
+    "model_answer": "Gaussian surface: a cylinder of radius $r$ and length $l$, coaxial with the wire (drawn). [½]<br>\nBy symmetry $\\vec E$ is radial; on the flat ends $\\vec E\\perp d\\vec S$, so their flux is zero. [½]<br>\nCurved surface: $\\phi=E\\cdot2\\pi rl$. [½]<br>\nCharge enclosed $q=\\lambda l$. [½]<br>\nGauss: $E\\,2\\pi rl=\\dfrac{\\lambda l}{\\varepsilon_0}\\Rightarrow\\boxed{E=\\dfrac{\\lambda}{2\\pi\\varepsilon_0 r}}$, radially outward for $\\lambda>0$. [½]<br>\nGraph: $E$ against $r$ is a rectangular hyperbola ($E\\propto1/r$). [½]",
+    "scheme": [
+      {
+        "step": "Gaussian surface: a cylinder of radius $r$ and length $l$, coaxial with the wire (drawn).",
+        "marks": 0.5
+      },
+      {
+        "step": "By symmetry $\\vec E$ is radial; on the flat ends $\\vec E\\perp d\\vec S$, so their flux is zero.",
+        "marks": 0.5
+      },
+      {
+        "step": "Curved surface: $\\phi=E\\cdot2\\pi rl$.",
+        "marks": 0.5
+      },
+      {
+        "step": "Charge enclosed $q=\\lambda l$.",
+        "marks": 0.5
+      },
+      {
+        "step": "Gauss: $E\\,2\\pi rl=\\dfrac{\\lambda l}{\\varepsilon_0}\\Rightarrow\\boxed{E=\\dfrac{\\lambda}{2\\pi\\varepsilon_0 r}}$, radially outward for $\\lambda>0$.",
+        "marks": 0.5
+      },
+      {
+        "step": "Graph: $E$ against $r$ is a rectangular hyperbola ($E\\propto1/r$).",
+        "marks": 0.5
+      }
+    ],
+    "hint": "Pick a cylinder coaxial with the wire; only the curved surface carries flux.",
+    "topic": "Gauss law"
+  },
+  {
+    "id": "phy-01-q12",
+    "chapter": "ch-01",
+    "type": "sa3",
+    "marks": 3,
+    "stars": 2,
+    "label": "PYQ-style",
+    "stem": "$A$, $B$, $C$ are the corners of an equilateral triangle of side 10 cm ($AB$ horizontal, $C$ on top). Charges $+2\\,\\mu$C, $-2\\,\\mu$C and $+1\\,\\mu$C sit at $A$, $B$ and $C$. Find the magnitude and direction of the net force on the charge at $C$.",
+    "model_answer": "$F_{CA}=F_{CB}=\\dfrac{9\\times10^9\\times2\\times10^{-6}\\times1\\times10^{-6}}{(0.1)^2}=1.8$ N [1]<br>\n$F_{CA}$ is along $A\\to C$ (repulsion), $F_{CB}$ along $C\\to B$ (attraction); the angle between them is $120^\\circ$. [½]<br>\n$F=\\sqrt{F^2+F^2+2F^2\\cos120^\\circ}=F=\\boxed{1.8\\text{ N}}$ [1]<br>\nDirection: parallel to $AB$, pointing from $A$ towards $B$. [½]",
+    "scheme": [
+      {
+        "step": "$F_{CA}=F_{CB}=\\dfrac{9\\times10^9\\times2\\times10^{-6}\\times1\\times10^{-6}}{(0.1)^2}=1.8$ N",
+        "marks": 1
+      },
+      {
+        "step": "$F_{CA}$ is along $A\\to C$ (repulsion), $F_{CB}$ along $C\\to B$ (attraction); the angle between them is $120^\\circ$.",
+        "marks": 0.5
+      },
+      {
+        "step": "$F=\\sqrt{F^2+F^2+2F^2\\cos120^\\circ}=F=\\boxed{1.8\\text{ N}}$",
+        "marks": 1
+      },
+      {
+        "step": "Direction: parallel to $AB$, pointing from $A$ towards $B$.",
+        "marks": 0.5
+      }
+    ],
+    "hint": "Find each force, then the angle between them; equal forces at 120° give a resultant of the same size.",
+    "topic": "Coulomb law"
+  },
+  {
+    "id": "phy-01-q13",
+    "chapter": "ch-01",
+    "type": "la5",
+    "marks": 5,
+    "stars": 3,
+    "label": "PYQ-style",
+    "stem": "(a) Derive an expression for the electric field at a point on the axial line of an electric dipole. Show that for $r\\gg a$ it reduces to $\\dfrac{1}{4\\pi\\varepsilon_0}\\dfrac{2p}{r^3}$. [3]<br>(b) A dipole consists of charges $\\pm2$ nC separated by 2 mm. Find the field at a point on its axis 10 cm from its centre. [2]",
+    "model_answer": "(a) Diagram: $-q$ at $A$, $+q$ at $B$, $AB=2a$, point $P$ on the axis at distance $r$ from the centre $O$, on the $+q$ side. [½]<br>\n$E_{+q}=\\dfrac{kq}{(r-a)^2}$ along $\\vec p$; $E_{-q}=\\dfrac{kq}{(r+a)^2}$ opposite to $\\vec p$. [1]<br>\n$E=kq\\left[\\dfrac{1}{(r-a)^2}-\\dfrac{1}{(r+a)^2}\\right]=\\dfrac{4kqar}{(r^2-a^2)^2}=\\dfrac{1}{4\\pi\\varepsilon_0}\\dfrac{2pr}{(r^2-a^2)^2}$ [1]<br>\nFor $r\\gg a$: $\\boxed{E=\\dfrac{1}{4\\pi\\varepsilon_0}\\dfrac{2p}{r^3}}$, along $\\vec p$. [½]<br>\n(b) $p=2\\times10^{-9}\\times2\\times10^{-3}=4\\times10^{-12}$ C m [½]<br>\n$r=0.1$ m $\\gg a=1$ mm, so the short-dipole formula applies. [½]<br>\n$E=\\dfrac{2\\times9\\times10^9\\times4\\times10^{-12}}{(0.1)^3}$ [½]<br>\n$=\\boxed{72\\text{ N C}^{-1}}$, along $\\vec p$. [½]",
+    "scheme": [
+      {
+        "step": "(a) Diagram: $-q$ at $A$, $+q$ at $B$, $AB=2a$, point $P$ on the axis at distance $r$ from the centre $O$, on the $+q$ side.",
+        "marks": 0.5
+      },
+      {
+        "step": "$E_{+q}=\\dfrac{kq}{(r-a)^2}$ along $\\vec p$; $E_{-q}=\\dfrac{kq}{(r+a)^2}$ opposite to $\\vec p$.",
+        "marks": 1
+      },
+      {
+        "step": "$E=kq\\left[\\dfrac{1}{(r-a)^2}-\\dfrac{1}{(r+a)^2}\\right]=\\dfrac{4kqar}{(r^2-a^2)^2}=\\dfrac{1}{4\\pi\\varepsilon_0}\\dfrac{2pr}{(r^2-a^2)^2}$",
+        "marks": 1
+      },
+      {
+        "step": "For $r\\gg a$: $\\boxed{E=\\dfrac{1}{4\\pi\\varepsilon_0}\\dfrac{2p}{r^3}}$, along $\\vec p$.",
+        "marks": 0.5
+      },
+      {
+        "step": "(b) $p=2\\times10^{-9}\\times2\\times10^{-3}=4\\times10^{-12}$ C m",
+        "marks": 0.5
+      },
+      {
+        "step": "$r=0.1$ m $\\gg a=1$ mm, so the short-dipole formula applies.",
+        "marks": 0.5
+      },
+      {
+        "step": "$E=\\dfrac{2\\times9\\times10^9\\times4\\times10^{-12}}{(0.1)^3}$",
+        "marks": 0.5
+      },
+      {
+        "step": "$=\\boxed{72\\text{ N C}^{-1}}$, along $\\vec p$.",
+        "marks": 0.5
+      }
+    ],
+    "hint": "Write the two fields separately, note their directions, then subtract.",
+    "topic": "Dipole"
+  }
+]

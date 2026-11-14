@@ -1,0 +1,340 @@
+[
+  {
+    "id": "phy-03-q01",
+    "chapter": "ch-03",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 3,
+    "label": "PYQ-style",
+    "stem": "A wire of resistance $R$ is stretched uniformly to twice its length. Its new resistance is",
+    "options": [
+      "$R/2$",
+      "$2R$",
+      "$4R$",
+      "$R/4$"
+    ],
+    "answer": "C",
+    "model_answer": "**(C) $4R$** Volume is constant: $l\\to2l$, $A\\to A/2$, so $R=\\rho l/A\\to4R$.",
+    "topic": "Resistance"
+  },
+  {
+    "id": "phy-03-q02",
+    "chapter": "ch-03",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ-style",
+    "stem": "At constant temperature, the potential difference across a metal wire is doubled. The drift speed of its electrons",
+    "options": [
+      "halves",
+      "stays the same",
+      "doubles",
+      "becomes four times"
+    ],
+    "answer": "C",
+    "model_answer": "**(C) doubles** $v_d=eE\\tau/m$ and $E=V/l$, so $v_d\\propto V$.",
+    "topic": "Drift velocity"
+  },
+  {
+    "id": "phy-03-q03",
+    "chapter": "ch-03",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ-style",
+    "stem": "A cell of emf 2.0 V and internal resistance 0.5 Ω is connected to a 3.5 Ω resistor. The terminal voltage is",
+    "options": [
+      "2.0 V",
+      "1.75 V",
+      "1.5 V",
+      "0.25 V"
+    ],
+    "answer": "B",
+    "model_answer": "**(B) 1.75 V** $I=\\dfrac{2}{3.5+0.5}=0.5$ A; $V=IR=1.75$ V.",
+    "topic": "EMF and internal resistance"
+  },
+  {
+    "id": "phy-03-q04",
+    "chapter": "ch-03",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ-style",
+    "stem": "The $I$–$V$ graphs of the same metal wire at temperatures $T_1$ and $T_2$ are straight lines through the origin; the line for $T_1$ is steeper. Then",
+    "options": [
+      "$T_1>T_2$",
+      "$T_1<T_2$",
+      "$T_1=T_2$",
+      "cannot be decided"
+    ],
+    "answer": "B",
+    "model_answer": "**(B) $T_1<T_2$** The slope of an $I$–$V$ graph is $1/R$. Steeper at $T_1$ means smaller $R$, and a metal's resistance rises with temperature, so $T_1<T_2$.",
+    "topic": "Temperature dependence"
+  },
+  {
+    "id": "phy-03-q05",
+    "chapter": "ch-03",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ-style",
+    "stem": "The resistivity of a conductor depends on",
+    "options": [
+      "its length",
+      "its cross-section area",
+      "its material and temperature",
+      "its shape"
+    ],
+    "answer": "C",
+    "model_answer": "**(C) its material and temperature** Resistivity is a property of the material and its temperature, not of its dimensions.",
+    "topic": "Resistivity"
+  },
+  {
+    "id": "phy-03-q06",
+    "chapter": "ch-03",
+    "type": "ar",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ-style",
+    "stem": "**Assertion (A):** The resistance of a semiconductor falls as its temperature rises.<br>**Reason (R):** The relaxation time of charge carriers increases with temperature.",
+    "options": [
+      "Both A and R are true, and R is the correct explanation of A.",
+      "Both A and R are true, but R is not the correct explanation of A.",
+      "A is true, but R is false.",
+      "Both A and R are false."
+    ],
+    "answer": "C",
+    "model_answer": "**(C)** A is true because the number of carriers rises sharply. R is false: the relaxation time decreases with temperature.",
+    "topic": "Temperature dependence"
+  },
+  {
+    "id": "phy-03-q07",
+    "chapter": "ch-03",
+    "type": "ar",
+    "marks": 1,
+    "stars": 1,
+    "label": "PYQ-style",
+    "stem": "**Assertion (A):** The element of an electric heater is made of nichrome.<br>**Reason (R):** Nichrome has a low temperature coefficient of resistance.",
+    "options": [
+      "Both A and R are true, and R is the correct explanation of A.",
+      "Both A and R are true, but R is not the correct explanation of A.",
+      "A is true, but R is false.",
+      "Both A and R are false."
+    ],
+    "answer": "B",
+    "model_answer": "**(B)** Both are true, but nichrome is used for heaters because of its high resistivity and high melting point (and it does not oxidise easily). Its low α is why it suits standard resistors.",
+    "topic": "Resistivity"
+  },
+  {
+    "id": "phy-03-q08",
+    "chapter": "ch-03",
+    "type": "case",
+    "marks": 4,
+    "stars": 2,
+    "label": "PYQ-style",
+    "stem": "**How fast do electrons move?** A copper wire of cross-section $2.0\\times10^{-6}$ m² carries 3.4 A. Copper has $8.5\\times10^{28}$ free electrons per m³; $e=1.6\\times10^{-19}$ C. Even so, a bulb lights the instant the switch is closed.",
+    "parts": [
+      {
+        "id": "i",
+        "stem": "The drift speed is about",
+        "marks": 1,
+        "options": [
+          "$1.25\\times10^{-4}$ m/s",
+          "$1.25\\times10^{-2}$ m/s",
+          "$3\\times10^{8}$ m/s",
+          "$2.5\\times10^{-5}$ m/s"
+        ],
+        "answer": "A",
+        "model_answer": "**(A)** $v_d=\\dfrac{I}{neA}=\\dfrac{3.4}{8.5\\times10^{28}\\times1.6\\times10^{-19}\\times2\\times10^{-6}}=1.25\\times10^{-4}$ m/s."
+      },
+      {
+        "id": "ii",
+        "stem": "The same current through a copper wire of half the cross-section gives a drift speed that is",
+        "marks": 1,
+        "options": [
+          "half",
+          "the same",
+          "double",
+          "four times"
+        ],
+        "answer": "C",
+        "model_answer": "**(C)** $v_d\\propto1/A$ at fixed $I$."
+      },
+      {
+        "id": "iii",
+        "stem": "The bulb lights at once because",
+        "marks": 1,
+        "options": [
+          "electrons move at the speed of light",
+          "the electric field is set up along the wire almost at the speed of light",
+          "the bulb stores charge",
+          "drift speed rises sharply at switch-on"
+        ],
+        "answer": "B",
+        "model_answer": "**(B)** Electrons all along the wire start drifting together as soon as the field is established."
+      },
+      {
+        "id": "iv",
+        "stem": "If the relaxation time of the electrons doubled, their mobility would",
+        "marks": 1,
+        "options": [
+          "halve",
+          "stay the same",
+          "double",
+          "become four times"
+        ],
+        "answer": "C",
+        "model_answer": "**(C)** $\\mu=e\\tau/m\\propto\\tau$."
+      }
+    ],
+    "topic": "Drift velocity"
+  },
+  {
+    "id": "phy-03-q09",
+    "chapter": "ch-03",
+    "type": "vsa2",
+    "marks": 2,
+    "stars": 3,
+    "label": "PYQ-style",
+    "stem": "Derive the relation $I=neAv_d$ between current and drift velocity.",
+    "model_answer": "Conductor of area $A$ with $n$ free electrons per m³ drifting at $v_d$. In time $\\Delta t$, electrons within a length $v_d\\Delta t$ cross a section: number $=nAv_d\\Delta t$. [1]<br>\nCharge $\\Delta q=neAv_d\\Delta t$, so $I=\\Delta q/\\Delta t=\\boxed{neAv_d}$. [1]",
+    "scheme": [
+      {
+        "step": "Conductor of area $A$ with $n$ free electrons per m³ drifting at $v_d$. In time $\\Delta t$, electrons within a length $v_d\\Delta t$ cross a section: number $=nAv_d\\Delta t$.",
+        "marks": 1
+      },
+      {
+        "step": "Charge $\\Delta q=neAv_d\\Delta t$, so $I=\\Delta q/\\Delta t=\\boxed{neAv_d}$.",
+        "marks": 1
+      }
+    ],
+    "hint": "Count the electrons in a cylinder of length v_d Δt behind the cross-section.",
+    "topic": "Drift velocity"
+  },
+  {
+    "id": "phy-03-q10",
+    "chapter": "ch-03",
+    "type": "vsa2",
+    "marks": 2,
+    "stars": 2,
+    "label": "PYQ-style",
+    "stem": "Cells of emf 1.5 V and 2.0 V, with internal resistances 1 Ω and 2 Ω, are connected in parallel (positive to positive). Find the emf and internal resistance of the equivalent cell.",
+    "model_answer": "$\\varepsilon_\\text{eq}=\\dfrac{\\varepsilon_1r_2+\\varepsilon_2r_1}{r_1+r_2}$, $r_\\text{eq}=\\dfrac{r_1r_2}{r_1+r_2}$ [1]<br>\n$\\varepsilon_\\text{eq}=\\dfrac{1.5\\times2+2\\times1}{3}=\\boxed{1.67\\text{ V}}$ [½]<br>\n$r_\\text{eq}=\\dfrac{2}{3}=\\boxed{0.67\\ \\Omega}$ [½]",
+    "scheme": [
+      {
+        "step": "$\\varepsilon_\\text{eq}=\\dfrac{\\varepsilon_1r_2+\\varepsilon_2r_1}{r_1+r_2}$, $r_\\text{eq}=\\dfrac{r_1r_2}{r_1+r_2}$",
+        "marks": 1
+      },
+      {
+        "step": "$\\varepsilon_\\text{eq}=\\dfrac{1.5\\times2+2\\times1}{3}=\\boxed{1.67\\text{ V}}$",
+        "marks": 0.5
+      },
+      {
+        "step": "$r_\\text{eq}=\\dfrac{2}{3}=\\boxed{0.67\\ \\Omega}$",
+        "marks": 0.5
+      }
+    ],
+    "topic": "Combination of cells"
+  },
+  {
+    "id": "phy-03-q11",
+    "chapter": "ch-03",
+    "type": "sa3",
+    "marks": 3,
+    "stars": 3,
+    "label": "PYQ-style",
+    "stem": "Three branches join junctions $A$ (top) and $B$ (bottom). Left branch: a 12 V cell and a 2 Ω resistor. Middle branch: a 4 Ω resistor. Right branch: a 6 V cell and a 2 Ω resistor. The positive terminals of both cells face $A$. Use Kirchhoff's rules to find the current in each branch. Is the 6 V cell charging or discharging?",
+    "model_answer": "Let $I_1$ flow up the 12 V branch, $I_3$ up the 6 V branch and $I_2$ down the 4 Ω. Junction $A$: $I_2=I_1+I_3$. [½]<br>\nLeft loop: $12-2I_1-4I_2=0$; right loop: $6-2I_3-4I_2=0$. [1]<br>\nSolving: $I_1=2.4$ A, $I_2=1.8$ A, $I_3=-0.6$ A. [1]<br>\n$I_3$ is negative: 0.6 A flows down through the 6 V cell, from its + to its − terminal inside it, so the 6 V cell is being **charged**. [½]",
+    "scheme": [
+      {
+        "step": "Let $I_1$ flow up the 12 V branch, $I_3$ up the 6 V branch and $I_2$ down the 4 Ω. Junction $A$: $I_2=I_1+I_3$.",
+        "marks": 0.5
+      },
+      {
+        "step": "Left loop: $12-2I_1-4I_2=0$; right loop: $6-2I_3-4I_2=0$.",
+        "marks": 1
+      },
+      {
+        "step": "Solving: $I_1=2.4$ A, $I_2=1.8$ A, $I_3=-0.6$ A.",
+        "marks": 1
+      },
+      {
+        "step": "$I_3$ is negative: 0.6 A flows down through the 6 V cell, from its + to its − terminal inside it, so the 6 V cell is being **charged**.",
+        "marks": 0.5
+      }
+    ],
+    "hint": "Guess the directions, write one junction and two loop equations, and let the signs decide.",
+    "topic": "Kirchhoff rules"
+  },
+  {
+    "id": "phy-03-q12",
+    "chapter": "ch-03",
+    "type": "sa3",
+    "marks": 3,
+    "stars": 2,
+    "label": "PYQ-style",
+    "stem": "Starting from the drift velocity of electrons, show that the resistivity of a conductor is $\\rho=\\dfrac{m}{ne^2\\tau}$. How does $\\rho$ of a metal change with temperature, and why?",
+    "model_answer": "Between collisions $a=-\\dfrac{eE}{m}$; averaging over the relaxation time, $v_d=-\\dfrac{eE\\tau}{m}$. [1]<br>\n$I=neAv_d=\\dfrac{ne^2A\\tau}{m}E$ with $E=V/l$. [½]<br>\n$V=\\dfrac{ml}{ne^2\\tau A}I$, so $R=\\dfrac{m}{ne^2\\tau}\\cdot\\dfrac{l}{A}$. [½]<br>\nCompare with $R=\\rho l/A$: $\\boxed{\\rho=\\dfrac{m}{ne^2\\tau}}$ [½]<br>\nMetal: $n$ hardly changes, but collisions become more frequent as $T$ rises, so $\\tau$ falls and $\\rho$ rises. [½]",
+    "scheme": [
+      {
+        "step": "Between collisions $a=-\\dfrac{eE}{m}$; averaging over the relaxation time, $v_d=-\\dfrac{eE\\tau}{m}$.",
+        "marks": 1
+      },
+      {
+        "step": "$I=neAv_d=\\dfrac{ne^2A\\tau}{m}E$ with $E=V/l$.",
+        "marks": 0.5
+      },
+      {
+        "step": "$V=\\dfrac{ml}{ne^2\\tau A}I$, so $R=\\dfrac{m}{ne^2\\tau}\\cdot\\dfrac{l}{A}$.",
+        "marks": 0.5
+      },
+      {
+        "step": "Compare with $R=\\rho l/A$: $\\boxed{\\rho=\\dfrac{m}{ne^2\\tau}}$",
+        "marks": 0.5
+      },
+      {
+        "step": "Metal: $n$ hardly changes, but collisions become more frequent as $T$ rises, so $\\tau$ falls and $\\rho$ rises.",
+        "marks": 0.5
+      }
+    ],
+    "topic": "Resistivity"
+  },
+  {
+    "id": "phy-03-q13",
+    "chapter": "ch-03",
+    "type": "la5",
+    "marks": 5,
+    "stars": 3,
+    "label": "PYQ-style",
+    "stem": "(a) State Kirchhoff's two rules. Use them to derive the balance condition of a Wheatstone bridge. Draw the circuit. [3]<br>(b) A Wheatstone bridge has $P=10\\ \\Omega$, $Q=15\\ \\Omega$, $R=6\\ \\Omega$ and $S=12\\ \\Omega$. What resistance must be joined in parallel with $S$ to balance the bridge? [2]",
+    "model_answer": "(a) Junction rule: currents entering a junction add up to the currents leaving it (charge conservation). Loop rule: the algebraic sum of potential changes round a closed loop is zero (energy conservation). [1]<br>\nBridge $ABCD$: $P$ in $AB$, $Q$ in $BC$, $R$ in $AD$, $S$ in $DC$; galvanometer between $B$ and $D$; cell across $A$ and $C$ (diagram). [½]<br>\nAt balance $I_g=0$, so $I_1$ flows through $P$ and $Q$ and $I_2$ through $R$ and $S$. Loop $ABDA$: $-I_1P+I_2R=0$; loop $BCDB$: $-I_1Q+I_2S=0$. [1]<br>\nDividing: $\\boxed{\\dfrac{P}{Q}=\\dfrac{R}{S}}$ [½]<br>\n(b) Balance needs $S'=\\dfrac{RQ}{P}=\\dfrac{6\\times15}{10}=9\\ \\Omega$. [1]<br>\n$\\dfrac{12x}{12+x}=9\\Rightarrow12x=108+9x\\Rightarrow\\boxed{x=36\\ \\Omega}$ [1]",
+    "scheme": [
+      {
+        "step": "(a) Junction rule: currents entering a junction add up to the currents leaving it (charge conservation). Loop rule: the algebraic sum of potential changes round a closed loop is zero (energy conservation).",
+        "marks": 1
+      },
+      {
+        "step": "Bridge $ABCD$: $P$ in $AB$, $Q$ in $BC$, $R$ in $AD$, $S$ in $DC$; galvanometer between $B$ and $D$; cell across $A$ and $C$ (diagram).",
+        "marks": 0.5
+      },
+      {
+        "step": "At balance $I_g=0$, so $I_1$ flows through $P$ and $Q$ and $I_2$ through $R$ and $S$. Loop $ABDA$: $-I_1P+I_2R=0$; loop $BCDB$: $-I_1Q+I_2S=0$.",
+        "marks": 1
+      },
+      {
+        "step": "Dividing: $\\boxed{\\dfrac{P}{Q}=\\dfrac{R}{S}}$",
+        "marks": 0.5
+      },
+      {
+        "step": "(b) Balance needs $S'=\\dfrac{RQ}{P}=\\dfrac{6\\times15}{10}=9\\ \\Omega$.",
+        "marks": 1
+      },
+      {
+        "step": "$\\dfrac{12x}{12+x}=9\\Rightarrow12x=108+9x\\Rightarrow\\boxed{x=36\\ \\Omega}$",
+        "marks": 1
+      }
+    ],
+    "hint": "At balance no current flows through the galvanometer, so B and D are at the same potential.",
+    "topic": "Wheatstone bridge"
+  }
+]

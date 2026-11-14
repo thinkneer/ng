@@ -1,0 +1,16 @@
+{
+  "$schema": "../../../../../schemas/chapter.schema.json",
+  "id": "ch-03",
+  "number": 3,
+  "title": "Current Electricity",
+  "unit": "II",
+  "marks_hint": "Unit I+II: 16 marks together (CBSE 2026–27); Ch 3 is usually 5–7 of them (estimate)",
+  "summary": "Drift velocity · Ohm's law and resistivity · temperature dependence · emf and internal resistance · cells · Kirchhoff's rules · Wheatstone bridge",
+  "status": {
+    "notes": "ready",
+    "mustknow": "ready",
+    "formulas": "ready",
+    "questions": "ready"
+  },
+  "updated": "2026-11-14"
+}

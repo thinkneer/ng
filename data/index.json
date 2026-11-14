@@ -291,22 +291,52 @@
                       "number": 1,
                       "title": "Electric Charges and Fields",
                       "unit": "I",
-                      "items": {},
-                      "marks_hint": null,
-                      "summary": null,
-                      "questions": 0,
-                      "question_types": {}
+                      "items": {
+                        "notes": true,
+                        "mustknow": true,
+                        "formulas": true,
+                        "questions": true
+                      },
+                      "marks_hint": "Unit I+II: 16 marks together (CBSE 2026–27); Ch 1 is usually 4–6 of them (estimate)",
+                      "summary": "Charge and its properties · Coulomb's law · electric field and field lines · dipole · torque · flux · Gauss's law and its three applications",
+                      "questions": 13,
+                      "question_types": {
+                        "mcq": 5,
+                        "ar": 2,
+                        "case": 1,
+                        "vsa2": 2,
+                        "sa3": 2,
+                        "la5": 1
+                      },
+                      "diagrams": [],
+                      "words": 4656,
+                      "read_minutes": 18
                     },
                     {
                       "id": "ch-02",
                       "number": 2,
                       "title": "Electrostatic Potential and Capacitance",
                       "unit": "I",
-                      "items": {},
-                      "marks_hint": null,
-                      "summary": null,
-                      "questions": 0,
-                      "question_types": {}
+                      "items": {
+                        "notes": true,
+                        "mustknow": true,
+                        "formulas": true,
+                        "questions": true
+                      },
+                      "marks_hint": "Unit I+II: 16 marks together (CBSE 2026–27); Ch 2 is usually 5–7 of them (estimate)",
+                      "summary": "Potential and potential energy · dipole potential · equipotentials · conductors · dielectrics · capacitors, combinations and energy",
+                      "questions": 13,
+                      "question_types": {
+                        "mcq": 5,
+                        "ar": 2,
+                        "case": 1,
+                        "vsa2": 2,
+                        "sa3": 2,
+                        "la5": 1
+                      },
+                      "diagrams": [],
+                      "words": 3457,
+                      "read_minutes": 12
                     }
                   ]
                 },
@@ -322,11 +352,26 @@
                       "number": 3,
                       "title": "Current Electricity",
                       "unit": "II",
-                      "items": {},
-                      "marks_hint": null,
-                      "summary": null,
-                      "questions": 0,
-                      "question_types": {}
+                      "items": {
+                        "notes": true,
+                        "mustknow": true,
+                        "formulas": true,
+                        "questions": true
+                      },
+                      "marks_hint": "Unit I+II: 16 marks together (CBSE 2026–27); Ch 3 is usually 5–7 of them (estimate)",
+                      "summary": "Drift velocity · Ohm's law and resistivity · temperature dependence · emf and internal resistance · cells · Kirchhoff's rules · Wheatstone bridge",
+                      "questions": 13,
+                      "question_types": {
+                        "mcq": 5,
+                        "ar": 2,
+                        "case": 1,
+                        "vsa2": 2,
+                        "sa3": 2,
+                        "la5": 1
+                      },
+                      "diagrams": [],
+                      "words": 3041,
+                      "read_minutes": 11
                     }
                   ]
                 },
@@ -520,18 +565,34 @@
               "internal_marks": 30,
               "exam_date": "2027-02-16",
               "syllabus_year": "2026-27",
-              "not_in_syllabus": [],
+              "not_in_syllabus": [
+                "Van de Graaff generator",
+                "Potentiometer",
+                "Colour code of carbon resistors",
+                "Cyclotron",
+                "Toroid",
+                "Earth's magnetism (magnetic elements)",
+                "Hysteresis, permanent magnets and electromagnets",
+                "Eddy currents",
+                "LC oscillations",
+                "Polarisation (Malus's law, Brewster's law)",
+                "Davisson–Germer experiment",
+                "Radioactivity and decay law",
+                "Special-purpose diodes (Zener, LED, photodiode, solar cell)",
+                "Transistors",
+                "Logic gates"
+              ],
               "links": {
                 "ncert": "https://ncert.nic.in/textbook.php",
                 "syllabus": "https://cbseacademic.nic.in/",
-                "sample_paper": "https://cbseacademic.nic.in/"
+                "sample_paper": "https://cbseacademic.nic.in/web_material/SQP/ClassXII_2026_27/Physics-SQP.pdf"
               },
               "papers": [],
               "counts": {
-                "notes": 0,
-                "mustknow": 0,
-                "formulas": 0,
-                "questions": 0,
+                "notes": 3,
+                "mustknow": 3,
+                "formulas": 3,
+                "questions": 3,
                 "chapters": 14
               }
             },

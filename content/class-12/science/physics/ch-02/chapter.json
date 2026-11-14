@@ -1,0 +1,16 @@
+{
+  "$schema": "../../../../../schemas/chapter.schema.json",
+  "id": "ch-02",
+  "number": 2,
+  "title": "Electrostatic Potential and Capacitance",
+  "unit": "I",
+  "marks_hint": "Unit I+II: 16 marks together (CBSE 2026–27); Ch 2 is usually 5–7 of them (estimate)",
+  "summary": "Potential and potential energy · dipole potential · equipotentials · conductors · dielectrics · capacitors, combinations and energy",
+  "status": {
+    "notes": "ready",
+    "mustknow": "ready",
+    "formulas": "ready",
+    "questions": "ready"
+  },
+  "updated": "2026-11-14"
+}

@@ -55,10 +55,10 @@
         { "id": "ch-14", "number": 14, "title": "Semiconductor Electronics: Materials, Devices and Simple Circuits" }
       ] }
   ],
-  "not_in_syllabus": [],
+  "not_in_syllabus": ["Van de Graaff generator", "Potentiometer", "Colour code of carbon resistors", "Cyclotron", "Toroid", "Earth's magnetism (magnetic elements)", "Hysteresis, permanent magnets and electromagnets", "Eddy currents", "LC oscillations", "Polarisation (Malus's law, Brewster's law)", "Davisson–Germer experiment", "Radioactivity and decay law", "Special-purpose diodes (Zener, LED, photodiode, solar cell)", "Transistors", "Logic gates"],
   "links": {
     "ncert": "https://ncert.nic.in/textbook.php",
     "syllabus": "https://cbseacademic.nic.in/",
-    "sample_paper": "https://cbseacademic.nic.in/"
+    "sample_paper": "https://cbseacademic.nic.in/web_material/SQP/ClassXII_2026_27/Physics-SQP.pdf"
   }
 }

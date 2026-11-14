@@ -1,0 +1,16 @@
+{
+  "$schema": "../../../../../schemas/chapter.schema.json",
+  "id": "ch-01",
+  "number": 1,
+  "title": "Electric Charges and Fields",
+  "unit": "I",
+  "marks_hint": "Unit I+II: 16 marks together (CBSE 2026–27); Ch 1 is usually 4–6 of them (estimate)",
+  "summary": "Charge and its properties · Coulomb's law · electric field and field lines · dipole · torque · flux · Gauss's law and its three applications",
+  "status": {
+    "notes": "ready",
+    "mustknow": "ready",
+    "formulas": "ready",
+    "questions": "ready"
+  },
+  "updated": "2026-11-14"
+}
