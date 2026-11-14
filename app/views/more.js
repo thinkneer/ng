@@ -3,6 +3,7 @@ import { data } from '../data.js';
 import { store } from '../store.js';
 import { applyTheme } from '../theme.js';
 import { pwa } from '../pwa.js';
+import { signOut, session } from '../auth.js';
 
 const REPO = 'https://github.com/thinkneer/ng';
 
@@ -11,7 +12,7 @@ export async function more(route) {
   if (sub === 'settings') return settings();
   if (sub === 'about') return about();
   if (sub === 'request') return request();
-  if (sub === 'access') return access();
+  if (sub === 'access' || sub === 'account') return access();
   if (sub === 'install') { pwa.promptInstall(); return hub(); }
   return hub();
 }
@@ -30,7 +31,7 @@ async function hub() {
       <div class="list__header">Community</div>
       <div class="list">
         ${listItem({ href: '#/more/request', title: 'Request something', sub: 'A topic, a chapter, a kind of question, a bug', leading: icon('message'), leadingStyle: 'background:var(--accent-soft);color:var(--accent-text)' })}
-        ${listItem({ href: '#/more/access', title: 'Account & sync', sub: 'Nickname-only · coming soon', leading: icon('user'), leadingStyle: 'background:var(--accent-soft);color:var(--accent-text)' })}
+        ${listItem({ href: '#/more/account', title: `Signed in as ${session()?.nickname || 'member'}`, sub: session()?.role === 'admin' ? 'Admin · account and sign out' : 'Account and sign out', leading: icon('user'), leadingStyle: 'background:var(--accent-soft);color:var(--accent-text)' })}
       </div>
       <div class="list__header">About</div>
       <div class="list">
@@ -111,15 +112,20 @@ async function request() {
 }
 
 async function access() {
+  const s = session();
   return {
-    title: 'Account & sync', tab: 'more', back: '#/more',
-    html: html`<h1 class="t-title" style="margin:var(--s-4) 0">Account & sync</h1>
-      <div class="notice mb-4">${raw(icon('info'))}<div><strong>Coming soon.</strong> Everything already works without an account: notes, practice, the tracker and your own notes save on this device, and you can export them as a file from Progress.</div></div>
-      <div class="card stack">
-        <div><div class="t-headline">What an account will be</div><p class="t-2 t-subhead mt-1">A <strong>nickname</strong> and a passphrase, approved by the admin. No name, email, phone, school or photo — ever.</p></div>
-        <div><div class="t-headline">What it gives you</div><p class="t-2 t-subhead mt-1">Your Board_Plan, chapter tracker and exam history shown under your nickname, with an optional "Sync to site" so you can see them on another device.</p></div>
-        <div><div class="t-headline">Honest note</div><p class="t-2 t-subhead mt-1">This is a static site with no server. "Login" only picks whose progress is shown; it is not security. Anything you sync is public in the project repository under your nickname.</p></div>
+    title: 'Account', tab: 'more', back: '#/more',
+    html: html`<h1 class="t-title" style="margin:var(--s-4) 0">Account</h1>
+      <div class="card row"><span class="list__leading" style="--unit:var(--accent)">${raw(esc((s?.nickname || '?').slice(0, 2).toUpperCase()))}</span><div class="grow"><div class="t-headline">${s?.nickname || ''}</div><div class="t-2 t-footnote">${s?.role === 'admin' ? 'Admin' : 'Member'} · Class ${s?.class || '–'}${s?.stream && s.stream !== 'general' ? ' ' + cap(s.stream) : ''}</div></div></div>
+      <div class="list mt-4">${listItem({ title: 'Sign out', sub: 'Your highlights and progress stay on this device', leading: icon('logout'), leadingStyle: 'background:var(--danger-soft);color:var(--danger)', attrs: 'data-signout', chevron: false })}</div>
+      <div class="card mt-6 stack-s">
+        <div class="t-headline">How membership works</div>
+        <p class="t-2 t-subhead">Every member is a nickname the admin approved. Your highlights, notes, recall schedule and tracker are saved on this device under your nickname; use Progress → export to move them.</p>
+        <p class="t-2 t-subhead">This is a static site: sign-in decides who uses the app, it is not a vault. Never put personal details in notes.</p>
       </div>`,
+    mount(el) {
+      el.querySelector('[data-signout]')?.addEventListener('click', () => { signOut(); toast('Signed out'); location.hash = '#/signin'; });
+    },
   };
 }
 

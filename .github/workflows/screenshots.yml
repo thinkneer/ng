@@ -25,7 +25,7 @@ jobs:
       - run: npm install --no-save playwright@1.49.1
       - name: Serve and screenshot
         run: |
-          node scripts/serve.mjs 4173 & sleep 1
+          node scripts/serve.mjs 4173 --test & sleep 1
           BROWSERS=chromium,webkit node tests/screenshots.mjs http://localhost:4173/ng/
       - name: Commit screenshots
         run: |

@@ -62,12 +62,13 @@ export async function reader({ cls, stream, sub, unit, ch }) {
         content.innerHTML = String(emptyState({ icon: 'book', title: 'Nothing to read yet', text: 'Notes for this chapter are on their way.', action: `<a class="btn btn--secondary" href="${base}">Back to chapter</a>` }));
       } else {
         const { renderMarkdown, typesetAll } = await import('../markdown.js');
+        const { attach } = await import('../highlights.js');
         R.typesetAll = () => Promise.all([...content.querySelectorAll('.prose')].map((n) => typesetAll(n)));
         content.replaceChildren();
-        if (notes) content.appendChild(await renderMarkdown(notes, { unitColour: unit.colour }));
+        if (notes) { const n = await renderMarkdown(notes, { unitColour: unit.colour }); content.appendChild(n); attach(n, `${sub.id}/${ch.id}/${ch.items?.notes ? 'notes' : 'mustknow'}`); }
         if (formulas) {
           const h = document.createElement('h2'); h.className = 'rd__divider'; h.id = 'formula-sheet'; h.textContent = 'Formula sheet';
-          content.appendChild(h); content.appendChild(await renderMarkdown(formulas, { unitColour: unit.colour }));
+          content.appendChild(h); const fm = await renderMarkdown(formulas, { unitColour: unit.colour }); content.appendChild(fm); attach(fm, `${sub.id}/${ch.id}/formulas`);
         }
         R.headings = [...content.querySelectorAll('h2')].map((h) => ({ id: h.id, text: h.textContent }));
         R.minutes = Math.max(1, Math.round((content.textContent.match(/\S+/g) || []).length / 200));
@@ -133,7 +134,8 @@ export async function reader({ cls, stream, sub, unit, ch }) {
 
       // tap: in Pages the left / right third turns a page, the middle toggles the bars; in Scroll a tap toggles the bars
       stage.addEventListener('click', (e) => {
-        if (e.target.closest('a, button, select, input, textarea, summary')) return;
+        if (e.target.closest('a, button, select, input, textarea, summary, mark.hl')) return;
+        if (!window.getSelection()?.isCollapsed) return; // selecting text to highlight
         if (prefs().mode === 'pages') {
           const x = (e.clientX - stage.getBoundingClientRect().left) / stage.clientWidth;
           if (x < 0.3) { goTo(R.page - 1); return; }
@@ -144,7 +146,7 @@ export async function reader({ cls, stream, sub, unit, ch }) {
       let sx = null, sy = 0;
       stage.addEventListener('touchstart', (e) => { sx = e.touches.length > 1 ? null : e.touches[0].clientX; sy = e.touches[0].clientY; }, { passive: true });
       stage.addEventListener('touchend', (e) => {
-        if (sx == null || prefs().mode !== 'pages') return;
+        if (sx == null || prefs().mode !== 'pages' || !window.getSelection()?.isCollapsed) return;
         const dx = e.changedTouches[0].clientX - sx, dy = e.changedTouches[0].clientY - sy; sx = null;
         if (Math.abs(dx) > 50 && Math.abs(dx) > Math.abs(dy) * 1.5) goTo(R.page + (dx < 0 ? 1 : -1));
       }, { passive: true });

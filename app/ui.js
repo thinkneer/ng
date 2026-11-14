@@ -82,7 +82,7 @@ export function openSheet({ title, content, onClose, closeLabel = 'Close' } = {}
   dlg.className = 'sheet';
   dlg.innerHTML = `<div class="sheet__panel" role="document">
       <div class="sheet__grabber"></div>
-      ${title ? `<div class="sheet__title"><span>${esc(title)}</span><button class="icon-btn" data-close aria-label="${esc(closeLabel)}">${icon('x')}</button></div>` : ''}
+      ${title ? `<div class="sheet__title"><span>${esc(title)}</span>${closeLabel === 'Done' ? '<button class="btn btn--ghost" type="button" data-close>Done</button>' : `<button class="icon-btn" data-close aria-label="${esc(closeLabel)}">${icon('x')}</button>`}</div>` : ''}
       <div class="sheet__content"></div>
     </div>`;
   const slot = dlg.querySelector('.sheet__content');

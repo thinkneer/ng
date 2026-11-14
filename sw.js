@@ -3,7 +3,7 @@
    - Content (content/**, data/**): stale-while-revalidate so notes, plan and practice work offline once opened.
    - Vendored libraries (vendor/**: KaTeX, marked, DOMPurify, fonts): cache-first, version-pinned.
    Updates: the new worker waits; the page shows "New version available" and posts SKIP_WAITING. */
-const CACHE_VERSION = 'dev4';
+const CACHE_VERSION = 'dev5';
 const SHELL = `ng-shell-${CACHE_VERSION}`;
 const CONTENT = 'ng-content-v1';
 const LIBS = 'ng-libs-v1';
@@ -14,7 +14,7 @@ const SHELL_FILES = [
   './styles/tokens.css', './styles/base.css', './styles/layout.css', './styles/components.css', './styles/reader.css', './styles/print.css',
   './app/main.js', './app/router.js', './app/store.js', './app/data.js', './app/ui.js', './app/icons.js', './app/theme.js', './app/pwa.js', './app/markdown.js',
   './app/views/index.js', './app/views/today.js', './app/views/classes.js', './app/views/subject.js', './app/views/chapter.js',
-  './app/views/practice.js', './app/views/progress.js', './app/views/plan.js', './app/views/more.js', './app/views/reader.js', './app/views/recall.js', './app/views/formulas.js', './app/recall.js',
+  './app/views/practice.js', './app/views/progress.js', './app/views/plan.js', './app/views/more.js', './app/views/reader.js', './app/views/recall.js', './app/views/formulas.js', './app/recall.js', './app/highlights.js', './app/auth.js', './app/quotes.js', './app/views/signin.js',
   './assets/icons/icon-192.png', './assets/icons/icon-64.png', './assets/icons/icon-512.png', './assets/icons/favicon.svg',
   './data/classes.json', './data/index.json',
   './vendor/marked.esm.js', './vendor/purify.es.mjs', './vendor/katex/katex.mjs', './vendor/katex/katex.min.css', './vendor/katex/contrib/auto-render.mjs', './vendor/katex/contrib/mhchem.mjs',
@@ -53,6 +53,7 @@ self.addEventListener('fetch', (event) => {
 
   // Navigations: serve the cached shell (hash routing means one HTML document)
   if (request.mode === 'navigate') { event.respondWith(shellFirst(request)); return; }
+  if (path === 'data/users.json') { event.respondWith(networkFirst(request, CONTENT)); return; } // approvals must show up at once
   if (path.startsWith('vendor/')) { event.respondWith(cacheFirst(request, LIBS)); return; }
   if (path.startsWith('content/') || path.startsWith('data/')) { event.respondWith(staleWhileRevalidate(request, CONTENT)); return; }
   // Everything else in the shell: cache, falling back to network (and cache it for next time)
@@ -68,6 +69,12 @@ async function shellFirst(request) {
     return cached;
   }
   try { return await fetch(request); } catch { return offlinePage(); }
+}
+
+async function networkFirst(request, cacheName) {
+  const cache = await caches.open(cacheName);
+  try { const res = await fetch(request, { cache: 'no-store' }); if (res.ok) cache.put(request, res.clone()); return res; }
+  catch { return (await cache.match(request, { ignoreSearch: true })) || new Response('{"users":[]}', { headers: { 'Content-Type': 'application/json' } }); }
 }
 
 async function cacheFirst(request, cacheName) {

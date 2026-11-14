@@ -70,6 +70,34 @@
         }
       }
     },
+    "updated": { "type": "string" },
+    "recall": {
+      "type": "object",
+      "description": "key: card id → Leitner state",
+      "additionalProperties": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": { "box": { "type": "integer" }, "due": { "type": "string", "format": "date" }, "seen": { "type": "integer" }, "last": { "type": "string" }, "key": { "type": "string" }, "got": { "type": "integer" }, "again": { "type": "integer" } }
+      }
+    },
+    "highlights": {
+      "type": "object",
+      "description": "key: <subject>/<chapter>/<layer> → { id → highlight }",
+      "additionalProperties": {
+        "type": "object",
+        "additionalProperties": {
+          "type": "object",
+          "required": ["id", "layer", "chunk", "exact", "color"],
+          "additionalProperties": false,
+          "properties": {
+            "id": { "type": "string" }, "layer": { "type": "string" }, "chunk": { "type": "integer" },
+            "exact": { "type": "string", "maxLength": 2000 }, "prefix": { "type": "string" }, "suffix": { "type": "string" },
+            "color": { "enum": ["yellow", "green", "blue", "pink", "purple"] },
+            "note": { "type": "string", "maxLength": 2000 }, "created": { "type": "string" }, "updated": { "type": "string" }
+          }
+        }
+      }
+    },
     "mistakes": { "type": "array", "items": { "type": "string" }, "description": "question ids" },
     "bookmarks": { "type": "array", "items": { "type": "string" } },
     "my_notes": {

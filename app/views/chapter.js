@@ -85,6 +85,8 @@ async function renderTab(tab, ctx) {
     }
     const { renderMarkdown, headings } = await import('../markdown.js');
     const node = await renderMarkdown(src, { unitColour: unit.colour });
+    const { attach } = await import('../highlights.js');
+    attach(node, `${sub.id}/${ch.id}/${tab}`);
     if (tab === 'mustknow') {
       const { cardsFrom, summary } = await import('../recall.js');
       const n = cardsFrom(src, { subject: sub.id, chapter: ch.id }).length;
@@ -115,7 +117,12 @@ async function renderTab(tab, ctx) {
     return;
   }
   if (tab === 'mynotes') {
-    panel.innerHTML = `<div class="mynotes"><label for="mynote">Your notes for this chapter (saved on this device)</label><textarea id="mynote" placeholder="Formulas you keep forgetting, traps from your tests, things your teacher stressed…"></textarea><div class="row row--between mt-2"><span class="t-footnote t-3" id="mynote-status">Saved locally</span><button class="btn btn--sm btn--ghost" type="button" id="mynote-clear">Clear</button></div></div>`;
+    const { listForChapter, askJump, COLORS } = await import('../highlights.js');
+    const hs = listForChapter(key);
+    const layerName = { notes: 'Read', mustknow: 'Must know', formulas: 'Formula sheet' };
+    const hlHtml = hs.length ? `<div class="list__header" style="padding-left:0">Your highlights <span class="count">${hs.length}</span></div><div class="list">${hs.map((h) => { const layer = h.layer.split('/').pop(); const target = layer === 'formulas' ? routeFor(ctx.cls.id, ctx.stream.id, sub.id, 'formulas') : routeFor(ctx.cls.id, ctx.stream.id, sub.id, ch.id, layer); return `<a class="list__item hl-item" href="${target}" data-jump="${esc(h.id)}"><span class="hl-item__bar hl-bg--${h.color}"></span><span class="list__body"><span class="list__title hl-item__q">${esc(h.exact)}</span>${h.note ? `<span class="list__sub hl-item__n">${esc(h.note)}</span>` : ''}<span class="list__sub">${layerName[layer] || layer}</span></span><span class="list__trailing">${icon('chevronRight', { class: 'chev' })}</span></a>`; }).join('')}</div>` : `<div class="notice mb-4">${icon('highlight')}<div><strong>Highlight as you read.</strong> Select any words in Read or Must know, then pick a colour. Add a note if you like. They all collect here.</div></div>`;
+    panel.innerHTML = hlHtml + `<div class="list__header" style="padding-left:0;margin-top:var(--s-4)">Free notes</div>` + `<div class="mynotes"><label for="mynote">Your notes for this chapter (saved on this device)</label><textarea id="mynote" placeholder="Formulas you keep forgetting, traps from your tests, things your teacher stressed…"></textarea><div class="row row--between mt-2"><span class="t-footnote t-3" id="mynote-status">Saved locally</span><button class="btn btn--sm btn--ghost" type="button" id="mynote-clear">Clear</button></div></div>`;
+    panel.addEventListener('click', (e) => { const a = e.target.closest('[data-jump]'); if (a) askJump(a.dataset.jump); });
     const ta = panel.querySelector('#mynote'); const status = panel.querySelector('#mynote-status');
     ta.value = store.myNote(key);
     let t;

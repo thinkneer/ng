@@ -5,6 +5,10 @@ import { initTheme } from './theme.js';
 import { initPWA } from './pwa.js';
 import { $, $$, html, raw, icon, esc, openSheet, emptyState } from './ui.js';
 import { views } from './views/index.js';
+import { verifySession } from './auth.js';
+
+const PUBLIC_ROUTES = new Set(['signin', 'request', 'access', 'login']);
+let sessionChecked = null;
 
 const main = $('#main');
 const viewEl = $('#view');
@@ -51,6 +55,15 @@ let renderSeq = 0;
 
 async function render(route) {
   const seq = ++renderSeq;
+  // Members-only: anyone without an approved session sees Sign in (or Request access).
+  if (!PUBLIC_ROUTES.has(route.name)) {
+    sessionChecked ||= verifySession();
+    const s = await sessionChecked;
+    if (!s) { sessionChecked = null; route = { name: 'signin', next: location.hash || '#/today', seg: [] }; }
+  } else if (route.name === 'signin' && store.get('session', null)) {
+    sessionChecked ||= verifySession();
+    if (await sessionChecked) { location.replace('#/today'); return; }
+  }
   const view = views[route.name] || views['not-found'];
   let result;
   try {

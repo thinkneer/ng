@@ -8,6 +8,7 @@ import { plan } from './plan.js';
 import { more } from './more.js';
 import { emptyState } from '../ui.js';
 import { recallDue } from './recall.js';
+import { signin, request as requestAccess } from './signin.js';
 
 export const views = {
   today,
@@ -23,9 +24,10 @@ export const views = {
   more,
   recall: recallDue,
   about: (r) => more({ ...r, sub: 'about' }),
-  request: (r) => more({ ...r, sub: 'request' }),
-  access: (r) => more({ ...r, sub: 'access' }),
-  login: (r) => more({ ...r, sub: 'access' }),
+  signin,
+  request: requestAccess,
+  access: requestAccess,
+  login: signin,
   admin: (r) => more({ ...r, sub: 'access' }),
   'not-found': async () => ({
     title: 'Not found', tab: 'today',

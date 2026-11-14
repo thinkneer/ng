@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 // Screenshots of the key screens at phone/tablet/PC sizes in light and dark.
-// Usage: node tests/screenshots.mjs [baseUrl]   (default http://localhost:4173/ng/)
+// Usage: node scripts/serve.mjs 4173 --test & node tests/screenshots.mjs [baseUrl]   (default http://localhost:4173/ng/)
 // Env: BROWSERS=chromium,webkit (default: chromium; falls back to system Chrome when the Playwright build is missing)
 import { mkdirSync, existsSync } from 'node:fs';
 import { createRequire } from 'node:module';
@@ -18,7 +18,8 @@ const SIZES = [
   { name: 'pc-1440', width: 1440, height: 900, mobile: false },
 ];
 const SCREENS = [
-  { name: 'welcome', hash: '#/today', fresh: true },
+  { name: 'signin', hash: '#/today', fresh: true },
+  { name: 'request', hash: '#/request', fresh: true },
   { name: 'today', hash: '#/today' },
   { name: 'subjects', hash: '#/subjects' },
   { name: 'physics', hash: '#/12/science/physics' },
@@ -55,8 +56,9 @@ for (const bname of browsers) {
       page.on('console', (m) => { if (m.type() === 'error') errors.push(m.text()); });
       for (const screen of SCREENS) {
         await page.goto(BASE + '?nosw', { waitUntil: 'load' });
-        await page.evaluate((s) => { localStorage.clear(); if (s) localStorage.setItem('ng.settings', s); }, screen.fresh ? null : SETTINGS);
-        await page.goto(BASE + '?nosw' + screen.hash, { waitUntil: 'networkidle' });
+        await page.evaluate(() => localStorage.clear());
+        // signed-in screens: the local server (--test) injects a session for the test member on ?autologin
+        await page.goto(BASE + (screen.fresh ? '?nosw' : '?nosw&autologin') + screen.hash, { waitUntil: 'networkidle' });
         await page.waitForSelector('#view .large-title, #view h1, #view .empty', { timeout: 8000 }).catch(() => {});
         await page.waitForTimeout(['chapter', 'reader', 'recall', 'formulas'].includes(screen.name) ? 1500 : 350);
         const file = `${OUT}${bname}-${size.name}-${scheme}-${screen.name}.png`;

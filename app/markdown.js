@@ -91,6 +91,7 @@ export async function renderMarkdown(src, { unitColour, eager = false } = {}) {
   decorate(wrap);
   // Typeset in chunks (per section) after the text is on screen, yielding between chunks so the page stays responsive.
   const sections = chunkBySection(wrap);
+  wrap._chunks = sections.length; wrap._done = new Set();
   const first = sections.shift();
   if (first) typeset(first).then(() => { if (!sections.length) return; if (eager) queueTypeset(sections); else lazyTypeset(sections); });
   wrap._pending = sections;
@@ -129,7 +130,7 @@ function chunkBySection(root) {
   const runs = []; let cur = [];
   for (const node of [...root.children]) { if (node.tagName === 'H2' && cur.length) { runs.push(cur); cur = []; } cur.push(node); }
   if (cur.length) runs.push(cur);
-  return runs.map((nodes) => ({ nodes }));
+  return runs.map((nodes, i) => { for (const n of nodes) n.dataset.chunk = String(i); return { nodes, index: i, root }; });
 }
 // Typeset a section only when it comes near the viewport (long notes: most sections are far below the fold).
 function lazyTypeset(chunks) {
@@ -155,7 +156,13 @@ function queueTypeset(chunks) {
 }
 
 export async function typeset(el) {
-  if (el && el.nodes) { for (const n of el.nodes) await typeset(n); return el; }
+  if (el && el.nodes) {
+    for (const n of el.nodes) await typeset(n);
+    // tell listeners (highlights) that this section's maths is final
+    el.root?._done?.add(el.index);
+    el.root?.dispatchEvent(new CustomEvent('ng:chunk', { detail: { chunk: el.index } }));
+    return el;
+  }
   const { renderMathInElement } = await load();
   renderMathInElement(el, {
     delimiters: [

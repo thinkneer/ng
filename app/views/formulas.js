@@ -24,6 +24,7 @@ export async function formulaSheet({ cls, stream, sub }) {
         const src = await data.formulas(sub, c.id);
         const node = await renderMarkdown(src || '', { unitColour: c.unitObj.colour });
         sec.querySelector('.skeleton')?.remove(); sec.appendChild(node);
+        const { attach } = await import('../highlights.js'); attach(node, `${sub.id}/${c.id}/formulas`);
       }
       el.querySelector('[data-contents]')?.addEventListener('click', async () => {
         const { openSheet } = await import('../ui.js');
