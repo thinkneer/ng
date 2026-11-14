@@ -1,0 +1,16 @@
+{
+  "$schema": "../../../../../schemas/chapter.schema.json",
+  "id": "ch-05",
+  "number": 5,
+  "title": "Continuity and Differentiability",
+  "unit": "III",
+  "marks_hint": "about 7 marks in the 2026–27 sample paper (Unit III Calculus: 35)",
+  "summary": "Continuity at a point · differentiability · chain rule · inverse trig, implicit, logarithmic and parametric differentiation · second-order derivatives",
+  "status": {
+    "notes": "ready",
+    "mustknow": "ready",
+    "formulas": "ready",
+    "questions": "ready"
+  },
+  "updated": "2026-11-14"
+}

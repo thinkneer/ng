@@ -1,0 +1,16 @@
+{
+  "$schema": "../../../../../schemas/chapter.schema.json",
+  "id": "ch-09",
+  "number": 9,
+  "title": "Differential Equations",
+  "unit": "III",
+  "marks_hint": "about 5 marks in the 2026–27 sample paper (Unit III Calculus: 35)",
+  "summary": "Order and degree · variable separable · homogeneous · linear first-order equations · particular solutions",
+  "status": {
+    "notes": "ready",
+    "mustknow": "ready",
+    "formulas": "ready",
+    "questions": "ready"
+  },
+  "updated": "2026-11-14"
+}

@@ -1,0 +1,16 @@
+{
+  "$schema": "../../../../../schemas/chapter.schema.json",
+  "id": "ch-08",
+  "number": 8,
+  "title": "Application of Integrals",
+  "unit": "III",
+  "marks_hint": "about 5 marks in the 2026–27 sample paper (Unit III Calculus: 35)",
+  "summary": "Area under lines, circles, parabolas and ellipses in standard form · strips · symmetry · sign changes",
+  "status": {
+    "notes": "ready",
+    "mustknow": "ready",
+    "formulas": "ready",
+    "questions": "ready"
+  },
+  "updated": "2026-11-14"
+}

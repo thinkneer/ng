@@ -1056,55 +1056,130 @@
                       "number": 5,
                       "title": "Continuity and Differentiability",
                       "unit": "III",
-                      "items": {},
-                      "marks_hint": null,
-                      "summary": null,
-                      "questions": 0,
-                      "question_types": {}
+                      "items": {
+                        "notes": true,
+                        "mustknow": true,
+                        "formulas": true,
+                        "questions": true
+                      },
+                      "marks_hint": "about 7 marks in the 2026–27 sample paper (Unit III Calculus: 35)",
+                      "summary": "Continuity at a point · differentiability · chain rule · inverse trig, implicit, logarithmic and parametric differentiation · second-order derivatives",
+                      "questions": 12,
+                      "question_types": {
+                        "mcq": 4,
+                        "ar": 2,
+                        "vsa2": 2,
+                        "sa3": 2,
+                        "la5": 1,
+                        "case": 1
+                      },
+                      "diagrams": [],
+                      "words": 2334,
+                      "read_minutes": 7
                     },
                     {
                       "id": "ch-06",
                       "number": 6,
                       "title": "Application of Derivatives",
                       "unit": "III",
-                      "items": {},
-                      "marks_hint": null,
-                      "summary": null,
-                      "questions": 0,
-                      "question_types": {}
+                      "items": {
+                        "notes": true,
+                        "mustknow": true,
+                        "formulas": true,
+                        "questions": true
+                      },
+                      "marks_hint": "about 9 marks in the 2026–27 sample paper (Unit III Calculus: 35)",
+                      "summary": "Rate of change · increasing and decreasing functions · local and absolute maxima and minima · optimisation word problems",
+                      "questions": 12,
+                      "question_types": {
+                        "mcq": 4,
+                        "ar": 2,
+                        "vsa2": 2,
+                        "sa3": 2,
+                        "la5": 1,
+                        "case": 1
+                      },
+                      "diagrams": [],
+                      "words": 2780,
+                      "read_minutes": 8
                     },
                     {
                       "id": "ch-07",
                       "number": 7,
                       "title": "Integrals",
                       "unit": "III",
-                      "items": {},
-                      "marks_hint": null,
-                      "summary": null,
-                      "questions": 0,
-                      "question_types": {}
+                      "items": {
+                        "notes": true,
+                        "mustknow": true,
+                        "formulas": true,
+                        "questions": true
+                      },
+                      "marks_hint": "about 9 marks in the 2026–27 sample paper (Unit III Calculus: 35)",
+                      "summary": "Substitution · partial fractions · by parts · quadratic forms · definite integrals and their properties",
+                      "questions": 12,
+                      "question_types": {
+                        "mcq": 4,
+                        "ar": 2,
+                        "vsa2": 2,
+                        "sa3": 2,
+                        "la5": 1,
+                        "case": 1
+                      },
+                      "diagrams": [],
+                      "words": 2199,
+                      "read_minutes": 6
                     },
                     {
                       "id": "ch-08",
                       "number": 8,
                       "title": "Application of Integrals",
                       "unit": "III",
-                      "items": {},
-                      "marks_hint": null,
-                      "summary": null,
-                      "questions": 0,
-                      "question_types": {}
+                      "items": {
+                        "notes": true,
+                        "mustknow": true,
+                        "formulas": true,
+                        "questions": true
+                      },
+                      "marks_hint": "about 5 marks in the 2026–27 sample paper (Unit III Calculus: 35)",
+                      "summary": "Area under lines, circles, parabolas and ellipses in standard form · strips · symmetry · sign changes",
+                      "questions": 12,
+                      "question_types": {
+                        "mcq": 4,
+                        "ar": 2,
+                        "vsa2": 2,
+                        "sa3": 2,
+                        "la5": 1,
+                        "case": 1
+                      },
+                      "diagrams": [],
+                      "words": 2767,
+                      "read_minutes": 9
                     },
                     {
                       "id": "ch-09",
                       "number": 9,
                       "title": "Differential Equations",
                       "unit": "III",
-                      "items": {},
-                      "marks_hint": null,
-                      "summary": null,
-                      "questions": 0,
-                      "question_types": {}
+                      "items": {
+                        "notes": true,
+                        "mustknow": true,
+                        "formulas": true,
+                        "questions": true
+                      },
+                      "marks_hint": "about 5 marks in the 2026–27 sample paper (Unit III Calculus: 35)",
+                      "summary": "Order and degree · variable separable · homogeneous · linear first-order equations · particular solutions",
+                      "questions": 12,
+                      "question_types": {
+                        "mcq": 4,
+                        "ar": 2,
+                        "vsa2": 2,
+                        "sa3": 2,
+                        "la5": 1,
+                        "case": 1
+                      },
+                      "diagrams": [],
+                      "words": 2028,
+                      "read_minutes": 5
                     }
                   ]
                 },
@@ -1185,7 +1260,21 @@
               "internal_marks": 20,
               "exam_date": "2027-03-09",
               "syllabus_year": "2026-27",
-              "not_in_syllabus": [],
+              "not_in_syllabus": [
+                "Composite functions, invertible functions and binary operations (Ch 1)",
+                "Inverse trigonometric sum formulas such as tan⁻¹x + tan⁻¹y (Ch 2)",
+                "Elementary row and column operations; inverse by elementary operations (Ch 3)",
+                "Properties of determinants; Cramer's rule (Ch 4)",
+                "Rolle's theorem and the mean value theorem (Ch 5)",
+                "Tangents and normals; approximations (Ch 6)",
+                "Definite integral as the limit of a sum; ∫(px+q)√(ax²+bx+c) dx (Ch 7)",
+                "Area between two curves as a listed topic (Ch 8)",
+                "Formation of differential equations (Ch 9)",
+                "Scalar triple product (Ch 10)",
+                "Planes (Ch 11)",
+                "Mathematical formulation of LPP word problems (Ch 12)",
+                "Variance of a random variable; Bernoulli trials and binomial distribution (Ch 13)"
+              ],
               "links": {
                 "ncert": "https://ncert.nic.in/textbook.php",
                 "syllabus": "https://cbseacademic.nic.in/",
@@ -1193,10 +1282,10 @@
               },
               "papers": [],
               "counts": {
-                "notes": 0,
-                "mustknow": 0,
-                "formulas": 0,
-                "questions": 0,
+                "notes": 5,
+                "mustknow": 5,
+                "formulas": 5,
+                "questions": 5,
                 "chapters": 13
               }
             },

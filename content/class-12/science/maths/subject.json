@@ -41,7 +41,21 @@
     { "id": "VI", "name": "Probability", "colour": "B0204F", "marks": 8,
       "chapters": [ { "id": "ch-13", "number": 13, "title": "Probability" } ] }
   ],
-  "not_in_syllabus": [],
+  "not_in_syllabus": [
+    "Composite functions, invertible functions and binary operations (Ch 1)",
+    "Inverse trigonometric sum formulas such as tan⁻¹x + tan⁻¹y (Ch 2)",
+    "Elementary row and column operations; inverse by elementary operations (Ch 3)",
+    "Properties of determinants; Cramer's rule (Ch 4)",
+    "Rolle's theorem and the mean value theorem (Ch 5)",
+    "Tangents and normals; approximations (Ch 6)",
+    "Definite integral as the limit of a sum; ∫(px+q)√(ax²+bx+c) dx (Ch 7)",
+    "Area between two curves as a listed topic (Ch 8)",
+    "Formation of differential equations (Ch 9)",
+    "Scalar triple product (Ch 10)",
+    "Planes (Ch 11)",
+    "Mathematical formulation of LPP word problems (Ch 12)",
+    "Variance of a random variable; Bernoulli trials and binomial distribution (Ch 13)"
+  ],
   "links": {
     "ncert": "https://ncert.nic.in/textbook.php",
     "syllabus": "https://cbseacademic.nic.in/",

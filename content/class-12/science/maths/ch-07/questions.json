@@ -1,0 +1,318 @@
+[
+ {
+  "id": "maths-ch-07-q01",
+  "chapter": "ch-07",
+  "type": "mcq",
+  "marks": 1,
+  "stars": 3,
+  "label": "PYQ-style",
+  "stem": "$\\displaystyle\\int e^x\\left(\\dfrac1x-\\dfrac1{x^2}\\right)dx$ equals",
+  "options": [
+   "$\\dfrac{e^x}{x}+C$",
+   "$\\dfrac{e^x}{x^2}+C$",
+   "$-\\dfrac{e^x}{x}+C$",
+   "$e^x\\log x+C$"
+  ],
+  "answer": "A",
+  "model_answer": "**(A)** With $f(x)=\\dfrac1x$, $f'(x)=-\\dfrac1{x^2}$, so the integral is $e^xf(x)+C$.",
+  "topic": "e^x[f(x)+f'(x)]",
+  "hint": "Is one term the derivative of the other?"
+ },
+ {
+  "id": "maths-ch-07-q02",
+  "chapter": "ch-07",
+  "type": "mcq",
+  "marks": 1,
+  "stars": 3,
+  "label": "NCERT-based",
+  "stem": "$\\displaystyle\\int_{-\\pi/2}^{\\pi/2}\\left(x^3+x\\cos x+\\tan^5x+1\\right)dx$ equals",
+  "options": [
+   "$0$",
+   "$2$",
+   "$\\pi$",
+   "$1$"
+  ],
+  "answer": "C",
+  "model_answer": "**(C)** $x^3$, $x\\cos x$ and $\\tan^5x$ are odd, so their integrals over $\\left[-\\frac\\pi2,\\frac\\pi2\\right]$ vanish. $\\int_{-\\pi/2}^{\\pi/2}1\\,dx=\\pi$.",
+  "topic": "Properties of definite integrals",
+  "hint": "Which terms are odd functions?"
+ },
+ {
+  "id": "maths-ch-07-q03",
+  "chapter": "ch-07",
+  "type": "mcq",
+  "marks": 1,
+  "stars": 2,
+  "label": "PYQ-style",
+  "stem": "$\\displaystyle\\int\\dfrac{dx}{x^2+2x+2}$ equals",
+  "options": [
+   "$x\\tan^{-1}(x+1)+C$",
+   "$\\tan^{-1}(x+1)+C$",
+   "$(x+1)\\tan^{-1}x+C$",
+   "$\\tan^{-1}x+C$"
+  ],
+  "answer": "B",
+  "model_answer": "**(B)** $x^2+2x+2=(x+1)^2+1$, so the integral is $\\tan^{-1}(x+1)+C$.",
+  "topic": "Quadratic forms",
+  "hint": "Complete the square."
+ },
+ {
+  "id": "maths-ch-07-q04",
+  "chapter": "ch-07",
+  "type": "mcq",
+  "marks": 1,
+  "stars": 2,
+  "label": "NCERT-based",
+  "stem": "$\\displaystyle\\int_0^{2/3}\\dfrac{dx}{4+9x^2}$ equals",
+  "options": [
+   "$\\dfrac\\pi6$",
+   "$\\dfrac\\pi{12}$",
+   "$\\dfrac\\pi4$",
+   "$\\dfrac\\pi{24}$"
+  ],
+  "answer": "D",
+  "model_answer": "**(D)** $\\dfrac19\\displaystyle\\int_0^{2/3}\\dfrac{dx}{x^2+\\frac49}=\\dfrac19\\cdot\\dfrac32\\left[\\tan^{-1}\\dfrac{3x}{2}\\right]_0^{2/3}=\\dfrac16\\cdot\\dfrac\\pi4=\\dfrac\\pi{24}$.",
+  "topic": "Definite integrals",
+  "hint": "Take 9 out of the denominator to get $x^2+a^2$ with $a=\\frac23$."
+ },
+ {
+  "id": "maths-ch-07-q05",
+  "chapter": "ch-07",
+  "type": "ar",
+  "marks": 1,
+  "stars": 3,
+  "label": "PYQ-style",
+  "stem": "**Assertion (A):** $\\displaystyle\\int_{-3}^{3}(x^3+5)\\,dx=30$.<br>**Reason (R):** $\\displaystyle\\int_{-a}^{a}f(x)\\,dx=2\\displaystyle\\int_0^af(x)\\,dx$ if $f$ is even, and $0$ if $f$ is odd.",
+  "options": [
+   "Both A and R are true, and R is the correct explanation of A.",
+   "Both A and R are true, but R is not the correct explanation of A.",
+   "A is true, but R is false.",
+   "A is false, but R is true."
+  ],
+  "answer": "A",
+  "model_answer": "**(A)** $x^3$ is odd and contributes 0; the constant 5 is even and contributes $2\\times15=30$. R is the property used.",
+  "topic": "Properties of definite integrals"
+ },
+ {
+  "id": "maths-ch-07-q06",
+  "chapter": "ch-07",
+  "type": "ar",
+  "marks": 1,
+  "stars": 2,
+  "label": "PYQ-style",
+  "stem": "**Assertion (A):** $\\displaystyle\\int e^x(\\sin x-\\cos x)\\,dx=e^x\\cos x+C$.<br>**Reason (R):** $\\displaystyle\\int e^x\\left[f(x)+f'(x)\\right]dx=e^xf(x)+C$.",
+  "options": [
+   "Both A and R are true, and R is the correct explanation of A.",
+   "Both A and R are true, but R is not the correct explanation of A.",
+   "A is true, but R is false.",
+   "A is false, but R is true."
+  ],
+  "answer": "D",
+  "model_answer": "**(D)** Take $f(x)=-\\cos x$, so $f'(x)=\\sin x$: the integral is $-e^x\\cos x+C$. A is false; R is true.",
+  "topic": "e^x[f(x)+f'(x)]",
+  "hint": "Check A by differentiating its right-hand side."
+ },
+ {
+  "id": "maths-ch-07-q07",
+  "chapter": "ch-07",
+  "type": "vsa2",
+  "marks": 2,
+  "stars": 3,
+  "label": "NCERT-based",
+  "stem": "Find $\\displaystyle\\int\\dfrac{x\\,e^x}{(1+x)^2}\\,dx$.",
+  "model_answer": "$\\dfrac{x}{(1+x)^2}=\\dfrac{(1+x)-1}{(1+x)^2}=\\dfrac{1}{1+x}-\\dfrac{1}{(1+x)^2}$ [1]<br>\nWith $f(x)=\\dfrac{1}{1+x}$, $f'(x)=-\\dfrac{1}{(1+x)^2}$, the integrand is $e^x[f(x)+f'(x)]$ [½]<br>\nIntegral $=\\dfrac{e^x}{1+x}+C$ [½]",
+  "scheme": [
+   {
+    "step": "$\\dfrac{x}{(1+x)^2}=\\dfrac{(1+x)-1}{(1+x)^2}=\\dfrac{1}{1+x}-\\dfrac{1}{(1+x)^2}$",
+    "marks": 1
+   },
+   {
+    "step": "With $f(x)=\\dfrac{1}{1+x}$, $f'(x)=-\\dfrac{1}{(1+x)^2}$, the integrand is $e^x[f(x)+f'(x)]$",
+    "marks": 0.5
+   },
+   {
+    "step": "Integral $=\\dfrac{e^x}{1+x}+C$",
+    "marks": 0.5
+   }
+  ],
+  "topic": "e^x[f(x)+f'(x)]",
+  "hint": "Write the numerator $x$ as $(1+x)-1$."
+ },
+ {
+  "id": "maths-ch-07-q08",
+  "chapter": "ch-07",
+  "type": "vsa2",
+  "marks": 2,
+  "stars": 2,
+  "label": "NCERT-based",
+  "stem": "Evaluate $\\displaystyle\\int_{-1}^{1}5x^4\\sqrt{x^5+1}\\,dx$.",
+  "model_answer": "Put $x^5+1=t$, $5x^4\\,dx=dt$; $x=-1\\Rightarrow t=0$, $x=1\\Rightarrow t=2$ [1]<br>\n$\\displaystyle\\int_0^2\\sqrt t\\,dt=\\left[\\dfrac23t^{3/2}\\right]_0^2$ [½]<br>\n$=\\dfrac23\\cdot2\\sqrt2=\\dfrac{4\\sqrt2}{3}$ [½]",
+  "scheme": [
+   {
+    "step": "Put $x^5+1=t$, $5x^4\\,dx=dt$; $x=-1\\Rightarrow t=0$, $x=1\\Rightarrow t=2$",
+    "marks": 1
+   },
+   {
+    "step": "$\\displaystyle\\int_0^2\\sqrt t\\,dt=\\left[\\dfrac23t^{3/2}\\right]_0^2$",
+    "marks": 0.5
+   },
+   {
+    "step": "$=\\dfrac23\\cdot2\\sqrt2=\\dfrac{4\\sqrt2}{3}$",
+    "marks": 0.5
+   }
+  ],
+  "topic": "Definite integral by substitution",
+  "hint": "The derivative of $x^5+1$ is sitting in front. Change the limits too."
+ },
+ {
+  "id": "maths-ch-07-q09",
+  "chapter": "ch-07",
+  "type": "sa3",
+  "marks": 3,
+  "stars": 3,
+  "label": "NCERT-based",
+  "stem": "Find $\\displaystyle\\int\\dfrac{3x-2}{(x+1)^2(x+3)}\\,dx$.",
+  "model_answer": "$\\dfrac{3x-2}{(x+1)^2(x+3)}=\\dfrac{A}{x+1}+\\dfrac{B}{(x+1)^2}+\\dfrac{C}{x+3}$ [½]<br>\n$3x-2=A(x+1)(x+3)+B(x+3)+C(x+1)^2$. $x=-1$: $B=-\\dfrac52$; $x=-3$: $C=-\\dfrac{11}{4}$; coefficient of $x^2$: $A+C=0$, so $A=\\dfrac{11}{4}$ [1½]<br>\nIntegral $=\\dfrac{11}{4}\\log|x+1|+\\dfrac{5}{2(x+1)}-\\dfrac{11}{4}\\log|x+3|+C=\\dfrac{11}{4}\\log\\left|\\dfrac{x+1}{x+3}\\right|+\\dfrac{5}{2(x+1)}+C$ [1]",
+  "scheme": [
+   {
+    "step": "$\\dfrac{3x-2}{(x+1)^2(x+3)}=\\dfrac{A}{x+1}+\\dfrac{B}{(x+1)^2}+\\dfrac{C}{x+3}$",
+    "marks": 0.5
+   },
+   {
+    "step": "$3x-2=A(x+1)(x+3)+B(x+3)+C(x+1)^2$. $x=-1$: $B=-\\dfrac52$; $x=-3$: $C=-\\dfrac{11}{4}$; coefficient of $x^2$: $A+C=0$, so $A=\\dfrac{11}{4}$",
+    "marks": 1.5
+   },
+   {
+    "step": "Integral $=\\dfrac{11}{4}\\log|x+1|+\\dfrac{5}{2(x+1)}-\\dfrac{11}{4}\\log|x+3|+C=\\dfrac{11}{4}\\log\\left|\\dfrac{x+1}{x+3}\\right|+\\dfrac{5}{2(x+1)}+C$",
+    "marks": 1
+   }
+  ],
+  "topic": "Partial fractions",
+  "hint": "A repeated factor $(x+1)^2$ needs two terms: $\\dfrac{A}{x+1}+\\dfrac{B}{(x+1)^2}$."
+ },
+ {
+  "id": "maths-ch-07-q10",
+  "chapter": "ch-07",
+  "type": "sa3",
+  "marks": 3,
+  "stars": 2,
+  "label": "NCERT-based",
+  "stem": "Find $\\displaystyle\\int\\dfrac{x+2}{\\sqrt{x^2+2x+3}}\\,dx$.",
+  "model_answer": "$x+2=\\dfrac12(2x+2)+1$ [½]<br>\n$I=\\dfrac12\\displaystyle\\int\\dfrac{2x+2}{\\sqrt{x^2+2x+3}}\\,dx+\\int\\dfrac{dx}{\\sqrt{(x+1)^2+2}}$ [½]<br>\nFirst part: put $x^2+2x+3=t$: $\\dfrac12\\cdot2\\sqrt t=\\sqrt{x^2+2x+3}$ [1]<br>\nSecond part: $\\log\\left|x+1+\\sqrt{x^2+2x+3}\\right|$ [½]<br>\n$I=\\sqrt{x^2+2x+3}+\\log\\left|x+1+\\sqrt{x^2+2x+3}\\right|+C$ [½]",
+  "scheme": [
+   {
+    "step": "$x+2=\\dfrac12(2x+2)+1$",
+    "marks": 0.5
+   },
+   {
+    "step": "$I=\\dfrac12\\displaystyle\\int\\dfrac{2x+2}{\\sqrt{x^2+2x+3}}\\,dx+\\int\\dfrac{dx}{\\sqrt{(x+1)^2+2}}$",
+    "marks": 0.5
+   },
+   {
+    "step": "First part: put $x^2+2x+3=t$: $\\dfrac12\\cdot2\\sqrt t=\\sqrt{x^2+2x+3}$",
+    "marks": 1
+   },
+   {
+    "step": "Second part: $\\log\\left|x+1+\\sqrt{x^2+2x+3}\\right|$",
+    "marks": 0.5
+   },
+   {
+    "step": "$I=\\sqrt{x^2+2x+3}+\\log\\left|x+1+\\sqrt{x^2+2x+3}\\right|+C$",
+    "marks": 0.5
+   }
+  ],
+  "topic": "Quadratic forms",
+  "hint": "Write the numerator as a multiple of the derivative of $x^2+2x+3$ plus a constant."
+ },
+ {
+  "id": "maths-ch-07-q11",
+  "chapter": "ch-07",
+  "type": "la5",
+  "marks": 5,
+  "stars": 2,
+  "label": "NCERT-based",
+  "stem": "Evaluate $\\displaystyle\\int_0^\\pi\\dfrac{x\\,dx}{a^2\\cos^2x+b^2\\sin^2x}$, where $a,b>0$.",
+  "model_answer": "Let $I=\\displaystyle\\int_0^\\pi\\dfrac{x\\,dx}{a^2\\cos^2x+b^2\\sin^2x}$ … (1). Using $\\int_0^af(x)\\,dx=\\int_0^af(a-x)\\,dx$: $I=\\displaystyle\\int_0^\\pi\\dfrac{(\\pi-x)\\,dx}{a^2\\cos^2x+b^2\\sin^2x}$ … (2) [1]<br>\nAdding (1) and (2): $2I=\\pi\\displaystyle\\int_0^\\pi\\dfrac{dx}{a^2\\cos^2x+b^2\\sin^2x}$ [½]<br>\nThe integrand satisfies $f(\\pi-x)=f(x)$, so $2I=2\\pi\\displaystyle\\int_0^{\\pi/2}\\dfrac{dx}{a^2\\cos^2x+b^2\\sin^2x}$ [1]<br>\nDividing numerator and denominator by $\\cos^2x$: $I=\\pi\\displaystyle\\int_0^{\\pi/2}\\dfrac{\\sec^2x\\,dx}{a^2+b^2\\tan^2x}$ [½]<br>\nPut $\\tan x=t$, $\\sec^2x\\,dx=dt$, limits $0$ to $\\infty$: $I=\\pi\\displaystyle\\int_0^\\infty\\dfrac{dt}{a^2+b^2t^2}$ [1]<br>\n$=\\dfrac{\\pi}{ab}\\left[\\tan^{-1}\\dfrac{bt}{a}\\right]_0^\\infty=\\dfrac{\\pi}{ab}\\cdot\\dfrac\\pi2=\\dfrac{\\pi^2}{2ab}$ [1]",
+  "scheme": [
+   {
+    "step": "Let $I=\\displaystyle\\int_0^\\pi\\dfrac{x\\,dx}{a^2\\cos^2x+b^2\\sin^2x}$ … (1). Using $\\int_0^af(x)\\,dx=\\int_0^af(a-x)\\,dx$: $I=\\displaystyle\\int_0^\\pi\\dfrac{(\\pi-x)\\,dx}{a^2\\cos^2x+b^2\\sin^2x}$ … (2)",
+    "marks": 1
+   },
+   {
+    "step": "Adding (1) and (2): $2I=\\pi\\displaystyle\\int_0^\\pi\\dfrac{dx}{a^2\\cos^2x+b^2\\sin^2x}$",
+    "marks": 0.5
+   },
+   {
+    "step": "The integrand satisfies $f(\\pi-x)=f(x)$, so $2I=2\\pi\\displaystyle\\int_0^{\\pi/2}\\dfrac{dx}{a^2\\cos^2x+b^2\\sin^2x}$",
+    "marks": 1
+   },
+   {
+    "step": "Dividing numerator and denominator by $\\cos^2x$: $I=\\pi\\displaystyle\\int_0^{\\pi/2}\\dfrac{\\sec^2x\\,dx}{a^2+b^2\\tan^2x}$",
+    "marks": 0.5
+   },
+   {
+    "step": "Put $\\tan x=t$, $\\sec^2x\\,dx=dt$, limits $0$ to $\\infty$: $I=\\pi\\displaystyle\\int_0^\\infty\\dfrac{dt}{a^2+b^2t^2}$",
+    "marks": 1
+   },
+   {
+    "step": "$=\\dfrac{\\pi}{ab}\\left[\\tan^{-1}\\dfrac{bt}{a}\\right]_0^\\infty=\\dfrac{\\pi}{ab}\\cdot\\dfrac\\pi2=\\dfrac{\\pi^2}{2ab}$",
+    "marks": 1
+   }
+  ],
+  "topic": "Properties of definite integrals",
+  "hint": "Replace $x$ by $\\pi-x$ and add. Then halve the range and divide through by $\\cos^2x$."
+ },
+ {
+  "id": "maths-ch-07-q12",
+  "chapter": "ch-07",
+  "type": "case",
+  "marks": 4,
+  "stars": 3,
+  "label": "PYQ-style",
+  "stem": "**One property, many integrals.** In a class activity, students use the property $\\displaystyle\\int_a^bf(x)\\,dx=\\displaystyle\\int_a^bf(a+b-x)\\,dx$ to evaluate definite integrals that look hard but collapse when the integral is added to its reflected copy.",
+  "parts": [
+   {
+    "id": "i",
+    "stem": "Write the value of $\\displaystyle\\int_2^8\\dfrac{\\sqrt{10-x}}{\\sqrt x+\\sqrt{10-x}}\\,dx$.",
+    "marks": 1,
+    "model_answer": "Here $a+b=10$, so $I=\\displaystyle\\int_2^8\\dfrac{\\sqrt x}{\\sqrt{10-x}+\\sqrt x}\\,dx$. Adding, $2I=\\displaystyle\\int_2^81\\,dx=6$, so $I=3$ [1]",
+    "scheme": [
+     {
+      "step": "Here $a+b=10$, so $I=\\displaystyle\\int_2^8\\dfrac{\\sqrt x}{\\sqrt{10-x}+\\sqrt x}\\,dx$. Adding, $2I=\\displaystyle\\int_2^81\\,dx=6$, so $I=3$",
+      "marks": 1
+     }
+    ]
+   },
+   {
+    "id": "ii",
+    "stem": "Write the value of $\\displaystyle\\int_0^\\pi\\cos^5x\\,dx$, with a reason.",
+    "marks": 1,
+    "model_answer": "$\\cos^5(\\pi-x)=-\\cos^5x$, so $I=-I$ and $I=0$ [1]",
+    "scheme": [
+     {
+      "step": "$\\cos^5(\\pi-x)=-\\cos^5x$, so $I=-I$ and $I=0$",
+      "marks": 1
+     }
+    ]
+   },
+   {
+    "id": "iii",
+    "stem": "Evaluate $\\displaystyle\\int_{\\pi/6}^{\\pi/3}\\dfrac{dx}{1+\\sqrt{\\tan x}}$.<br>**OR** Evaluate $\\displaystyle\\int_0^1x(1-x)^n\\,dx$.",
+    "marks": 2,
+    "model_answer": "$I=\\displaystyle\\int_{\\pi/6}^{\\pi/3}\\dfrac{\\sqrt{\\cos x}}{\\sqrt{\\cos x}+\\sqrt{\\sin x}}\\,dx$; replacing $x$ by $\\dfrac\\pi2-x$: $I=\\displaystyle\\int_{\\pi/6}^{\\pi/3}\\dfrac{\\sqrt{\\sin x}}{\\sqrt{\\sin x}+\\sqrt{\\cos x}}\\,dx$ [1]<br>\n$2I=\\displaystyle\\int_{\\pi/6}^{\\pi/3}dx=\\dfrac\\pi6$, so $I=\\dfrac{\\pi}{12}$ [1]<br>\n**OR:** replacing $x$ by $1-x$, $I=\\displaystyle\\int_0^1(1-x)\\,x^n\\,dx$ [1] $=\\dfrac{1}{n+1}-\\dfrac{1}{n+2}=\\dfrac{1}{(n+1)(n+2)}$ [1].",
+    "scheme": [
+     {
+      "step": "$I=\\displaystyle\\int_{\\pi/6}^{\\pi/3}\\dfrac{\\sqrt{\\cos x}}{\\sqrt{\\cos x}+\\sqrt{\\sin x}}\\,dx$; replacing $x$ by $\\dfrac\\pi2-x$: $I=\\displaystyle\\int_{\\pi/6}^{\\pi/3}\\dfrac{\\sqrt{\\sin x}}{\\sqrt{\\sin x}+\\sqrt{\\cos x}}\\,dx$",
+      "marks": 1
+     },
+     {
+      "step": "$2I=\\displaystyle\\int_{\\pi/6}^{\\pi/3}dx=\\dfrac\\pi6$, so $I=\\dfrac{\\pi}{12}$",
+      "marks": 1
+     }
+    ]
+   }
+  ],
+  "topic": "Properties of definite integrals",
+  "hint": "In each part, replace $x$ by (lower limit + upper limit − $x$)."
+ }
+]

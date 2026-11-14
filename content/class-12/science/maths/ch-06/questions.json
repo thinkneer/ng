@@ -1,0 +1,322 @@
+[
+ {
+  "id": "maths-ch-06-q01",
+  "chapter": "ch-06",
+  "type": "mcq",
+  "marks": 1,
+  "stars": 2,
+  "label": "PYQ-style",
+  "stem": "The rate of change of the area of a circle with respect to its radius $r$, when $r=6$ cm, is",
+  "options": [
+   "$6\\pi$ cm²/cm",
+   "$10\\pi$ cm²/cm",
+   "$12\\pi$ cm²/cm",
+   "$36\\pi$ cm²/cm"
+  ],
+  "answer": "C",
+  "model_answer": "**(C)** $A=\\pi r^2$, so $\\dfrac{dA}{dr}=2\\pi r=12\\pi$ at $r=6$.",
+  "topic": "Rate of change",
+  "hint": "Differentiate $A=\\pi r^2$ with respect to $r$."
+ },
+ {
+  "id": "maths-ch-06-q02",
+  "chapter": "ch-06",
+  "type": "mcq",
+  "marks": 1,
+  "stars": 3,
+  "label": "PYQ-style",
+  "stem": "The function $f(x)=x^3-3x^2+4x$, $x\\in\\mathbb{R}$, is",
+  "options": [
+   "strictly increasing on $\\mathbb{R}$",
+   "strictly decreasing on $\\mathbb{R}$",
+   "increasing on $(-\\infty,1)$ only",
+   "neither increasing nor decreasing"
+  ],
+  "answer": "A",
+  "model_answer": "**(A)** $f'(x)=3x^2-6x+4=3(x-1)^2+1>0$ for all real $x$.",
+  "topic": "Increasing and decreasing functions",
+  "hint": "Complete the square in $f'(x)$."
+ },
+ {
+  "id": "maths-ch-06-q03",
+  "chapter": "ch-06",
+  "type": "mcq",
+  "marks": 1,
+  "stars": 2,
+  "label": "PYQ-style",
+  "stem": "The function $f(x)=x^x$, $x>0$, has a stationary point at",
+  "options": [
+   "$x=e$",
+   "$x=\\dfrac1e$",
+   "$x=1$",
+   "$x=\\sqrt e$"
+  ],
+  "answer": "B",
+  "model_answer": "**(B)** $f'(x)=x^x(1+\\log x)=0\\Rightarrow\\log x=-1\\Rightarrow x=\\dfrac1e$.",
+  "topic": "Maxima and minima",
+  "hint": "$\\dfrac{d}{dx}x^x=x^x(1+\\log x)$."
+ },
+ {
+  "id": "maths-ch-06-q04",
+  "chapter": "ch-06",
+  "type": "mcq",
+  "marks": 1,
+  "stars": 2,
+  "label": "NCERT-based",
+  "stem": "The total revenue from the sale of $x$ units is $R(x)=13x^2+26x+15$ (in rupees). The marginal revenue when $x=7$ is",
+  "options": [
+   "116",
+   "96",
+   "208",
+   "126"
+  ],
+  "answer": "C",
+  "model_answer": "**(C)** $R'(x)=26x+26$, so $R'(7)=208$.",
+  "topic": "Rate of change",
+  "hint": "Marginal revenue is $\\dfrac{dR}{dx}$."
+ },
+ {
+  "id": "maths-ch-06-q05",
+  "chapter": "ch-06",
+  "type": "ar",
+  "marks": 1,
+  "stars": 3,
+  "label": "PYQ-style",
+  "stem": "**Assertion (A):** $f(x)=\\cos x$ is strictly increasing on $(0,\\pi)$.<br>**Reason (R):** $f'(x)=-\\sin x<0$ for all $x\\in(0,\\pi)$.",
+  "options": [
+   "Both A and R are true, and R is the correct explanation of A.",
+   "Both A and R are true, but R is not the correct explanation of A.",
+   "A is true, but R is false.",
+   "A is false, but R is true."
+  ],
+  "answer": "D",
+  "model_answer": "**(D)** A is false: since $f'(x)<0$ on $(0,\\pi)$, $\\cos x$ is strictly *decreasing* there. R is true.",
+  "topic": "Increasing and decreasing functions",
+  "hint": "What does a negative derivative tell you?"
+ },
+ {
+  "id": "maths-ch-06-q06",
+  "chapter": "ch-06",
+  "type": "ar",
+  "marks": 1,
+  "stars": 2,
+  "label": "PYQ-style",
+  "stem": "**Assertion (A):** $f(x)=\\log x$ is strictly increasing on $(0,\\infty)$.<br>**Reason (R):** $\\log x$ is defined only for $x>0$.",
+  "options": [
+   "Both A and R are true, and R is the correct explanation of A.",
+   "Both A and R are true, but R is not the correct explanation of A.",
+   "A is true, but R is false.",
+   "A is false, but R is true."
+  ],
+  "answer": "B",
+  "model_answer": "**(B)** Both are true, but the reason for A is $f'(x)=\\dfrac1x>0$ for $x>0$, not the domain.",
+  "topic": "Increasing and decreasing functions"
+ },
+ {
+  "id": "maths-ch-06-q07",
+  "chapter": "ch-06",
+  "type": "vsa2",
+  "marks": 2,
+  "stars": 2,
+  "label": "NCERT-based",
+  "stem": "A stone is dropped into a quiet lake and the waves move in circles at 4 cm/s. At the instant the radius of the circular wave is 10 cm, how fast is the enclosed area increasing?",
+  "model_answer": "Given $\\dfrac{dr}{dt}=4$ cm/s; $A=\\pi r^2$ [½]<br>\n$\\dfrac{dA}{dt}=2\\pi r\\dfrac{dr}{dt}$ [½]<br>\n$=2\\pi(10)(4)$ [½]<br>\n$=80\\pi$ cm²/s [½]",
+  "scheme": [
+   {
+    "step": "Given $\\dfrac{dr}{dt}=4$ cm/s; $A=\\pi r^2$",
+    "marks": 0.5
+   },
+   {
+    "step": "$\\dfrac{dA}{dt}=2\\pi r\\dfrac{dr}{dt}$",
+    "marks": 0.5
+   },
+   {
+    "step": "$=2\\pi(10)(4)$",
+    "marks": 0.5
+   },
+   {
+    "step": "$=80\\pi$ cm²/s",
+    "marks": 0.5
+   }
+  ],
+  "topic": "Rate of change",
+  "hint": "Differentiate $A=\\pi r^2$ with respect to $t$, then put $r=10$."
+ },
+ {
+  "id": "maths-ch-06-q08",
+  "chapter": "ch-06",
+  "type": "vsa2",
+  "marks": 2,
+  "stars": 2,
+  "label": "NCERT-based",
+  "stem": "Show that $f(x)=\\log(1+x)-\\dfrac{2x}{2+x}$ is an increasing function of $x$ for $x>-1$.",
+  "model_answer": "$f'(x)=\\dfrac{1}{1+x}-\\dfrac{2(2+x)-2x}{(2+x)^2}=\\dfrac{1}{1+x}-\\dfrac{4}{(2+x)^2}$ [1]<br>\n$=\\dfrac{(2+x)^2-4(1+x)}{(1+x)(2+x)^2}=\\dfrac{x^2}{(1+x)(2+x)^2}$ [½]<br>\nFor $x>-1$: $x^2\\ge0$, $1+x>0$ and $(2+x)^2>0$, so $f'(x)\\ge0$ and $f$ is increasing [½]",
+  "scheme": [
+   {
+    "step": "$f'(x)=\\dfrac{1}{1+x}-\\dfrac{2(2+x)-2x}{(2+x)^2}=\\dfrac{1}{1+x}-\\dfrac{4}{(2+x)^2}$",
+    "marks": 1
+   },
+   {
+    "step": "$=\\dfrac{(2+x)^2-4(1+x)}{(1+x)(2+x)^2}=\\dfrac{x^2}{(1+x)(2+x)^2}$",
+    "marks": 0.5
+   },
+   {
+    "step": "For $x>-1$: $x^2\\ge0$, $1+x>0$ and $(2+x)^2>0$, so $f'(x)\\ge0$ and $f$ is increasing",
+    "marks": 0.5
+   }
+  ],
+  "topic": "Increasing and decreasing functions",
+  "hint": "Find $f'(x)$ and bring it to a single fraction; look at the sign of each factor."
+ },
+ {
+  "id": "maths-ch-06-q09",
+  "chapter": "ch-06",
+  "type": "sa3",
+  "marks": 3,
+  "stars": 3,
+  "label": "NCERT-based",
+  "stem": "Find the intervals in which $f(x)=(x+1)^3(x-3)^3$ is strictly increasing or strictly decreasing.",
+  "model_answer": "$f'(x)=3(x+1)^2(x-3)^3+3(x+1)^3(x-3)^2=6(x+1)^2(x-3)^2(x-1)$ [1]<br>\n$f'(x)=0$ at $x=-1,\\ 1,\\ 3$ [½]<br>\n$(x+1)^2(x-3)^2\\ge0$, so the sign of $f'(x)$ is the sign of $(x-1)$ [½]<br>\nStrictly increasing on $(1,3)\\cup(3,\\infty)$; strictly decreasing on $(-\\infty,-1)\\cup(-1,1)$ [1]<br>\nWriting $(1,\\infty)$ and $(-\\infty,1)$ is also accepted.",
+  "scheme": [
+   {
+    "step": "$f'(x)=3(x+1)^2(x-3)^3+3(x+1)^3(x-3)^2=6(x+1)^2(x-3)^2(x-1)$",
+    "marks": 1
+   },
+   {
+    "step": "$f'(x)=0$ at $x=-1,\\ 1,\\ 3$",
+    "marks": 0.5
+   },
+   {
+    "step": "$(x+1)^2(x-3)^2\\ge0$, so the sign of $f'(x)$ is the sign of $(x-1)$",
+    "marks": 0.5
+   },
+   {
+    "step": "Strictly increasing on $(1,3)\\cup(3,\\infty)$; strictly decreasing on $(-\\infty,-1)\\cup(-1,1)$",
+    "marks": 1
+   }
+  ],
+  "topic": "Increasing and decreasing functions",
+  "hint": "Take out the common factor $3(x+1)^2(x-3)^2$ from $f'(x)$."
+ },
+ {
+  "id": "maths-ch-06-q10",
+  "chapter": "ch-06",
+  "type": "sa3",
+  "marks": 3,
+  "stars": 2,
+  "label": "NCERT-based",
+  "stem": "Find the absolute maximum and absolute minimum values of $f(x)=12x^{4/3}-6x^{1/3}$, $x\\in[-1,1]$.",
+  "model_answer": "$f'(x)=16x^{1/3}-2x^{-2/3}=\\dfrac{2(8x-1)}{x^{2/3}}$ [1]<br>\nCritical points: $x=\\dfrac18$ (where $f'=0$) and $x=0$ (where $f'$ is not defined) [½]<br>\n$f(-1)=18$, $f(0)=0$, $f\\left(\\dfrac18\\right)=\\dfrac34-3=-\\dfrac94$, $f(1)=6$ [1]<br>\nAbsolute maximum $18$ at $x=-1$; absolute minimum $-\\dfrac94$ at $x=\\dfrac18$ [½]",
+  "scheme": [
+   {
+    "step": "$f'(x)=16x^{1/3}-2x^{-2/3}=\\dfrac{2(8x-1)}{x^{2/3}}$",
+    "marks": 1
+   },
+   {
+    "step": "Critical points: $x=\\dfrac18$ (where $f'=0$) and $x=0$ (where $f'$ is not defined)",
+    "marks": 0.5
+   },
+   {
+    "step": "$f(-1)=18$, $f(0)=0$, $f\\left(\\dfrac18\\right)=\\dfrac34-3=-\\dfrac94$, $f(1)=6$",
+    "marks": 1
+   },
+   {
+    "step": "Absolute maximum $18$ at $x=-1$; absolute minimum $-\\dfrac94$ at $x=\\dfrac18$",
+    "marks": 0.5
+   }
+  ],
+  "topic": "Absolute maximum and minimum",
+  "hint": "A critical point is also a point where $f'$ does not exist. Remember the end points."
+ },
+ {
+  "id": "maths-ch-06-q11",
+  "chapter": "ch-06",
+  "type": "la5",
+  "marks": 5,
+  "stars": 3,
+  "label": "PYQ-style",
+  "stem": "Show that the semi-vertical angle of the right circular cone of maximum volume and given slant height is $\\tan^{-1}\\sqrt2$.",
+  "model_answer": "Figure: cone with constant slant height $l$ and semi-vertical angle $\\theta$; $r=l\\sin\\theta$, $h=l\\cos\\theta$ [1]<br>\n$V=\\dfrac13\\pi r^2h=\\dfrac13\\pi l^3\\sin^2\\theta\\cos\\theta$ [1]<br>\n$\\dfrac{dV}{d\\theta}=\\dfrac13\\pi l^3\\left(2\\sin\\theta\\cos^2\\theta-\\sin^3\\theta\\right)=\\dfrac13\\pi l^3\\sin\\theta\\left(2\\cos^2\\theta-\\sin^2\\theta\\right)$ [1]<br>\n$\\dfrac{dV}{d\\theta}=0\\Rightarrow\\tan^2\\theta=2\\Rightarrow\\tan\\theta=\\sqrt2$ $\\left(0<\\theta<\\dfrac\\pi2\\right)$ [1]<br>\n$\\dfrac{d^2V}{d\\theta^2}=\\dfrac13\\pi l^3\\cos\\theta\\left(2\\cos^2\\theta-7\\sin^2\\theta\\right)$; with $\\cos^2\\theta=\\dfrac13$, $\\sin^2\\theta=\\dfrac23$ this is negative, so $V$ is maximum [½]<br>\nHence the semi-vertical angle is $\\theta=\\tan^{-1}\\sqrt2$ [½]<br>\n*Alternative (same marks):* with $r^2=l^2-h^2$, $V=\\dfrac13\\pi(l^2-h^2)h$ is maximum at $h=\\dfrac{l}{\\sqrt3}$, giving $r=l\\sqrt{\\dfrac23}$ and $\\tan\\theta=\\dfrac rh=\\sqrt2$.",
+  "scheme": [
+   {
+    "step": "Figure: cone with constant slant height $l$ and semi-vertical angle $\\theta$; $r=l\\sin\\theta$, $h=l\\cos\\theta$",
+    "marks": 1
+   },
+   {
+    "step": "$V=\\dfrac13\\pi r^2h=\\dfrac13\\pi l^3\\sin^2\\theta\\cos\\theta$",
+    "marks": 1
+   },
+   {
+    "step": "$\\dfrac{dV}{d\\theta}=\\dfrac13\\pi l^3\\left(2\\sin\\theta\\cos^2\\theta-\\sin^3\\theta\\right)=\\dfrac13\\pi l^3\\sin\\theta\\left(2\\cos^2\\theta-\\sin^2\\theta\\right)$",
+    "marks": 1
+   },
+   {
+    "step": "$\\dfrac{dV}{d\\theta}=0\\Rightarrow\\tan^2\\theta=2\\Rightarrow\\tan\\theta=\\sqrt2$ $\\left(0<\\theta<\\dfrac\\pi2\\right)$",
+    "marks": 1
+   },
+   {
+    "step": "$\\dfrac{d^2V}{d\\theta^2}=\\dfrac13\\pi l^3\\cos\\theta\\left(2\\cos^2\\theta-7\\sin^2\\theta\\right)$; with $\\cos^2\\theta=\\dfrac13$, $\\sin^2\\theta=\\dfrac23$ this is negative, so $V$ is maximum",
+    "marks": 0.5
+   },
+   {
+    "step": "Hence the semi-vertical angle is $\\theta=\\tan^{-1}\\sqrt2$",
+    "marks": 0.5
+   }
+  ],
+  "topic": "Optimisation",
+  "hint": "Write $r=l\\sin\\theta$ and $h=l\\cos\\theta$ so that $V$ depends on $\\theta$ only."
+ },
+ {
+  "id": "maths-ch-06-q12",
+  "chapter": "ch-06",
+  "type": "case",
+  "marks": 4,
+  "stars": 3,
+  "label": "NCERT-based",
+  "stem": "**The open box.** A rectangular sheet of tin, 45 cm by 24 cm, is made into an open box by cutting a square of side $x$ cm from each corner and folding up the flaps.",
+  "parts": [
+   {
+    "id": "i",
+    "stem": "Express the volume $V$ of the box in terms of $x$.",
+    "marks": 1,
+    "model_answer": "Length $45-2x$, breadth $24-2x$, height $x$: $V=x(45-2x)(24-2x)=4x^3-138x^2+1080x$ [1]",
+    "scheme": [
+     {
+      "step": "Length $45-2x$, breadth $24-2x$, height $x$: $V=x(45-2x)(24-2x)=4x^3-138x^2+1080x$",
+      "marks": 1
+     }
+    ]
+   },
+   {
+    "id": "ii",
+    "stem": "Find $\\dfrac{dV}{dx}$ in factorised form.",
+    "marks": 1,
+    "model_answer": "$\\dfrac{dV}{dx}=12x^2-276x+1080=12(x-5)(x-18)$ [1]",
+    "scheme": [
+     {
+      "step": "$\\dfrac{dV}{dx}=12x^2-276x+1080=12(x-5)(x-18)$",
+      "marks": 1
+     }
+    ]
+   },
+   {
+    "id": "iii",
+    "stem": "Find the value of $x$ for which the volume is maximum, and the maximum volume.<br>**OR** Find the interval of $x$ in which $V$ is increasing, and explain why $x=18$ is not acceptable.",
+    "marks": 2,
+    "model_answer": "$\\dfrac{dV}{dx}=0\\Rightarrow x=5$ or $18$; $x=18$ is rejected. $\\dfrac{d^2V}{dx^2}=24x-276=-156<0$ at $x=5$ [1]<br>\n$V_{\\max}=5\\times35\\times14=2450$ cm³ at $x=5$ cm [1]<br>\n**OR:** here $0<x<12$. $\\dfrac{dV}{dx}>0$ for $x<5$, so $V$ is increasing on $(0,5)$ [1]. At $x=18$ the breadth $24-2x=-12$ is negative, which is impossible [1].",
+    "scheme": [
+     {
+      "step": "$\\dfrac{dV}{dx}=0\\Rightarrow x=5$ or $18$; $x=18$ is rejected. $\\dfrac{d^2V}{dx^2}=24x-276=-156<0$ at $x=5$",
+      "marks": 1
+     },
+     {
+      "step": "$V_{\\max}=5\\times35\\times14=2450$ cm³ at $x=5$ cm",
+      "marks": 1
+     }
+    ]
+   }
+  ],
+  "topic": "Optimisation",
+  "hint": "After folding, the base is $(45-2x)$ by $(24-2x)$ and the height is $x$."
+ }
+]

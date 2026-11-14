@@ -1,0 +1,16 @@
+{
+  "$schema": "../../../../../schemas/chapter.schema.json",
+  "id": "ch-07",
+  "number": 7,
+  "title": "Integrals",
+  "unit": "III",
+  "marks_hint": "about 9 marks in the 2026–27 sample paper (Unit III Calculus: 35)",
+  "summary": "Substitution · partial fractions · by parts · quadratic forms · definite integrals and their properties",
+  "status": {
+    "notes": "ready",
+    "mustknow": "ready",
+    "formulas": "ready",
+    "questions": "ready"
+  },
+  "updated": "2026-11-14"
+}

@@ -1,0 +1,334 @@
+[
+ {
+  "id": "maths-ch-05-q01",
+  "chapter": "ch-05",
+  "type": "mcq",
+  "marks": 1,
+  "stars": 3,
+  "label": "PYQ-style",
+  "stem": "$f(x)=\\dfrac{\\sin5x}{3x}$ for $x\\ne0$ and $f(0)=k$. If $f$ is continuous at $x=0$, then $k$ is",
+  "options": [
+   "$\\dfrac35$",
+   "$\\dfrac53$",
+   "$5$",
+   "$1$"
+  ],
+  "answer": "B",
+  "model_answer": "**(B)** $\\displaystyle\\lim_{x\\to0}\\dfrac{\\sin5x}{3x}=\\dfrac53\\lim_{x\\to0}\\dfrac{\\sin5x}{5x}=\\dfrac53$.",
+  "topic": "Continuity",
+  "hint": "Use $\\dfrac{\\sin\\theta}{\\theta}\\to1$ with $\\theta=5x$."
+ },
+ {
+  "id": "maths-ch-05-q02",
+  "chapter": "ch-05",
+  "type": "mcq",
+  "marks": 1,
+  "stars": 2,
+  "label": "PYQ-style",
+  "stem": "The function $f(x)=|x|+|x-1|$ is",
+  "options": [
+   "differentiable for all $x$",
+   "discontinuous at $x=0$ and $x=1$",
+   "continuous for all $x$ but not differentiable at $x=0$ and $x=1$",
+   "not continuous anywhere"
+  ],
+  "answer": "C",
+  "model_answer": "**(C)** A sum of continuous functions is continuous; the graph has corners at $x=0$ and $x=1$.",
+  "topic": "Differentiability",
+  "hint": "Where does each modulus have its corner?"
+ },
+ {
+  "id": "maths-ch-05-q03",
+  "chapter": "ch-05",
+  "type": "mcq",
+  "marks": 1,
+  "stars": 3,
+  "label": "PYQ-style",
+  "stem": "If $x=at^2$ and $y=2at$, then $\\dfrac{d^2y}{dx^2}$ at $t=1$ is",
+  "options": [
+   "$\\dfrac1a$",
+   "$-\\dfrac1a$",
+   "$\\dfrac1{2a}$",
+   "$-\\dfrac1{2a}$"
+  ],
+  "answer": "D",
+  "model_answer": "**(D)** $\\dfrac{dy}{dx}=\\dfrac{2a}{2at}=\\dfrac1t$; $\\dfrac{d^2y}{dx^2}=-\\dfrac1{t^2}\\cdot\\dfrac{1}{2at}=-\\dfrac{1}{2at^3}$, which is $-\\dfrac1{2a}$ at $t=1$.",
+  "topic": "Parametric functions",
+  "hint": "Differentiate $\\dfrac{dy}{dx}$ with respect to $t$, then multiply by $\\dfrac{dt}{dx}$."
+ },
+ {
+  "id": "maths-ch-05-q04",
+  "chapter": "ch-05",
+  "type": "mcq",
+  "marks": 1,
+  "stars": 2,
+  "label": "PYQ-style",
+  "stem": "The derivative of $\\sin^{-1}\\left(2x\\sqrt{1-x^2}\\right)$ with respect to $\\sin^{-1}x$, for $|x|<\\dfrac1{\\sqrt2}$, is",
+  "options": [
+   "$2$",
+   "$\\dfrac12$",
+   "$1$",
+   "$\\dfrac{2}{\\sqrt{1-x^2}}$"
+  ],
+  "answer": "A",
+  "model_answer": "**(A)** Put $x=\\sin\\theta$: $\\sin^{-1}(\\sin2\\theta)=2\\theta=2\\sin^{-1}x$, so the derivative with respect to $\\sin^{-1}x$ is 2.",
+  "topic": "Inverse trigonometric functions",
+  "hint": "Substitute $x=\\sin\\theta$ before differentiating."
+ },
+ {
+  "id": "maths-ch-05-q05",
+  "chapter": "ch-05",
+  "type": "ar",
+  "marks": 1,
+  "stars": 3,
+  "label": "PYQ-style",
+  "stem": "**Assertion (A):** $f(x)=|x-2|$ is continuous at $x=2$.<br>**Reason (R):** Every continuous function is differentiable.",
+  "options": [
+   "Both A and R are true, and R is the correct explanation of A.",
+   "Both A and R are true, but R is not the correct explanation of A.",
+   "A is true, but R is false.",
+   "A is false, but R is true."
+  ],
+  "answer": "C",
+  "model_answer": "**(C)** A is true. R is false: $|x-2|$ itself is continuous at 2 but not differentiable there.",
+  "topic": "Differentiability",
+  "hint": "Think of a corner."
+ },
+ {
+  "id": "maths-ch-05-q06",
+  "chapter": "ch-05",
+  "type": "ar",
+  "marks": 1,
+  "stars": 2,
+  "label": "PYQ-style",
+  "stem": "**Assertion (A):** $\\dfrac{d}{dx}\\left(x^x\\right)=x^x(1+\\log x)$ for $x>0$.<br>**Reason (R):** If $y=x^x$, then $\\log y=x\\log x$, which can be differentiated with respect to $x$ by the product rule.",
+  "options": [
+   "Both A and R are true, and R is the correct explanation of A.",
+   "Both A and R are true, but R is not the correct explanation of A.",
+   "A is true, but R is false.",
+   "A is false, but R is true."
+  ],
+  "answer": "A",
+  "model_answer": "**(A)** $\\dfrac1y\\dfrac{dy}{dx}=1+\\log x$, so $\\dfrac{dy}{dx}=x^x(1+\\log x)$. R is exactly the method that gives A.",
+  "topic": "Logarithmic differentiation"
+ },
+ {
+  "id": "maths-ch-05-q07",
+  "chapter": "ch-05",
+  "type": "vsa2",
+  "marks": 2,
+  "stars": 3,
+  "label": "NCERT-based",
+  "stem": "Find $k$ so that $f(x)=\\begin{cases}kx+1,&x\\le\\pi\\\\ \\cos x,&x>\\pi\\end{cases}$ is continuous at $x=\\pi$.",
+  "model_answer": "LHL $=\\displaystyle\\lim_{x\\to\\pi^-}(kx+1)=k\\pi+1=f(\\pi)$ [½]<br>\nRHL $=\\displaystyle\\lim_{x\\to\\pi^+}\\cos x=-1$ [½]<br>\nFor continuity, $k\\pi+1=-1$ [½]<br>\n$k=-\\dfrac{2}{\\pi}$ [½]",
+  "scheme": [
+   {
+    "step": "LHL $=\\displaystyle\\lim_{x\\to\\pi^-}(kx+1)=k\\pi+1=f(\\pi)$",
+    "marks": 0.5
+   },
+   {
+    "step": "RHL $=\\displaystyle\\lim_{x\\to\\pi^+}\\cos x=-1$",
+    "marks": 0.5
+   },
+   {
+    "step": "For continuity, $k\\pi+1=-1$",
+    "marks": 0.5
+   },
+   {
+    "step": "$k=-\\dfrac{2}{\\pi}$",
+    "marks": 0.5
+   }
+  ],
+  "topic": "Continuity",
+  "hint": "Left limit uses $kx+1$, right limit uses $\\cos x$; $\\cos\\pi=-1$."
+ },
+ {
+  "id": "maths-ch-05-q08",
+  "chapter": "ch-05",
+  "type": "vsa2",
+  "marks": 2,
+  "stars": 3,
+  "label": "PYQ-style",
+  "stem": "If $x=a(\\theta+\\sin\\theta)$ and $y=a(1-\\cos\\theta)$, find $\\dfrac{dy}{dx}$ at $\\theta=\\dfrac\\pi2$.",
+  "model_answer": "$\\dfrac{dx}{d\\theta}=a(1+\\cos\\theta)$, $\\dfrac{dy}{d\\theta}=a\\sin\\theta$ [1]<br>\n$\\dfrac{dy}{dx}=\\dfrac{\\sin\\theta}{1+\\cos\\theta}=\\tan\\dfrac\\theta2$ [½]<br>\nAt $\\theta=\\dfrac\\pi2$: $\\dfrac{dy}{dx}=\\tan\\dfrac\\pi4=1$ [½]",
+  "scheme": [
+   {
+    "step": "$\\dfrac{dx}{d\\theta}=a(1+\\cos\\theta)$, $\\dfrac{dy}{d\\theta}=a\\sin\\theta$",
+    "marks": 1
+   },
+   {
+    "step": "$\\dfrac{dy}{dx}=\\dfrac{\\sin\\theta}{1+\\cos\\theta}=\\tan\\dfrac\\theta2$",
+    "marks": 0.5
+   },
+   {
+    "step": "At $\\theta=\\dfrac\\pi2$: $\\dfrac{dy}{dx}=\\tan\\dfrac\\pi4=1$",
+    "marks": 0.5
+   }
+  ],
+  "topic": "Parametric functions",
+  "hint": "$\\dfrac{dy}{dx}=\\dfrac{dy/d\\theta}{dx/d\\theta}$."
+ },
+ {
+  "id": "maths-ch-05-q09",
+  "chapter": "ch-05",
+  "type": "sa3",
+  "marks": 3,
+  "stars": 3,
+  "label": "NCERT-based",
+  "stem": "If $y=(\\sin x)^x+\\sin^{-1}\\sqrt x$, find $\\dfrac{dy}{dx}$.",
+  "model_answer": "Let $u=(\\sin x)^x$, $v=\\sin^{-1}\\sqrt x$; then $\\dfrac{dy}{dx}=\\dfrac{du}{dx}+\\dfrac{dv}{dx}$ [½]<br>\n$\\log u=x\\log\\sin x\\Rightarrow\\dfrac1u\\dfrac{du}{dx}=x\\cot x+\\log\\sin x$ [1]<br>\n$\\dfrac{du}{dx}=(\\sin x)^x\\left(x\\cot x+\\log\\sin x\\right)$ [½]<br>\n$\\dfrac{dv}{dx}=\\dfrac{1}{\\sqrt{1-x}}\\cdot\\dfrac{1}{2\\sqrt x}=\\dfrac{1}{2\\sqrt{x-x^2}}$ [½]<br>\n$\\dfrac{dy}{dx}=(\\sin x)^x\\left(x\\cot x+\\log\\sin x\\right)+\\dfrac{1}{2\\sqrt{x-x^2}}$ [½]<br>\n*Deduction:* taking $\\log$ of the whole sum earns no method marks.",
+  "scheme": [
+   {
+    "step": "Let $u=(\\sin x)^x$, $v=\\sin^{-1}\\sqrt x$; then $\\dfrac{dy}{dx}=\\dfrac{du}{dx}+\\dfrac{dv}{dx}$",
+    "marks": 0.5
+   },
+   {
+    "step": "$\\log u=x\\log\\sin x\\Rightarrow\\dfrac1u\\dfrac{du}{dx}=x\\cot x+\\log\\sin x$",
+    "marks": 1
+   },
+   {
+    "step": "$\\dfrac{du}{dx}=(\\sin x)^x\\left(x\\cot x+\\log\\sin x\\right)$",
+    "marks": 0.5
+   },
+   {
+    "step": "$\\dfrac{dv}{dx}=\\dfrac{1}{\\sqrt{1-x}}\\cdot\\dfrac{1}{2\\sqrt x}=\\dfrac{1}{2\\sqrt{x-x^2}}$",
+    "marks": 0.5
+   },
+   {
+    "step": "$\\dfrac{dy}{dx}=(\\sin x)^x\\left(x\\cot x+\\log\\sin x\\right)+\\dfrac{1}{2\\sqrt{x-x^2}}$",
+    "marks": 0.5
+   }
+  ],
+  "topic": "Logarithmic differentiation",
+  "hint": "Do not take the log of the whole sum. Differentiate the two terms separately."
+ },
+ {
+  "id": "maths-ch-05-q10",
+  "chapter": "ch-05",
+  "type": "sa3",
+  "marks": 3,
+  "stars": 2,
+  "label": "PYQ-style",
+  "stem": "If $y=\\left(x+\\sqrt{x^2+1}\\right)^m$, show that $(x^2+1)\\,y_2+x\\,y_1-m^2y=0$.",
+  "model_answer": "$y_1=m\\left(x+\\sqrt{x^2+1}\\right)^{m-1}\\left(1+\\dfrac{x}{\\sqrt{x^2+1}}\\right)=\\dfrac{my}{\\sqrt{x^2+1}}$ [1]<br>\n$\\sqrt{x^2+1}\\,y_1=my$; squaring, $(x^2+1)\\,y_1^2=m^2y^2$ [½]<br>\nDifferentiating: $(x^2+1)\\,2y_1y_2+2x\\,y_1^2=2m^2y\\,y_1$ [1]<br>\nDividing by $2y_1$: $(x^2+1)\\,y_2+x\\,y_1-m^2y=0$. Hence proved. [½]",
+  "scheme": [
+   {
+    "step": "$y_1=m\\left(x+\\sqrt{x^2+1}\\right)^{m-1}\\left(1+\\dfrac{x}{\\sqrt{x^2+1}}\\right)=\\dfrac{my}{\\sqrt{x^2+1}}$",
+    "marks": 1
+   },
+   {
+    "step": "$\\sqrt{x^2+1}\\,y_1=my$; squaring, $(x^2+1)\\,y_1^2=m^2y^2$",
+    "marks": 0.5
+   },
+   {
+    "step": "Differentiating: $(x^2+1)\\,2y_1y_2+2x\\,y_1^2=2m^2y\\,y_1$",
+    "marks": 1
+   },
+   {
+    "step": "Dividing by $2y_1$: $(x^2+1)\\,y_2+x\\,y_1-m^2y=0$. Hence proved.",
+    "marks": 0.5
+   }
+  ],
+  "topic": "Second-order derivatives",
+  "hint": "Show $y_1=\\dfrac{my}{\\sqrt{x^2+1}}$, then square before differentiating again."
+ },
+ {
+  "id": "maths-ch-05-q11",
+  "chapter": "ch-05",
+  "type": "la5",
+  "marks": 5,
+  "stars": 3,
+  "label": "PYQ-style",
+  "stem": "(a) Find $a$ and $b$ if $f(x)=\\begin{cases}\\dfrac{1-\\sin^3x}{3\\cos^2x},&x<\\frac\\pi2\\\\[4pt] a,&x=\\frac\\pi2\\\\[2pt] \\dfrac{b(1-\\sin x)}{(\\pi-2x)^2},&x>\\frac\\pi2\\end{cases}$ is continuous at $x=\\dfrac\\pi2$. [3]<br>(b) If $x=a\\cos\\theta+b\\sin\\theta$ and $y=a\\sin\\theta-b\\cos\\theta$, show that $y^2y_2-xy_1+y=0$. [2]",
+  "model_answer": "(a) LHL $=\\displaystyle\\lim_{x\\to\\frac\\pi2^-}\\dfrac{(1-\\sin x)(1+\\sin x+\\sin^2x)}{3(1-\\sin x)(1+\\sin x)}=\\dfrac{3}{3\\times2}=\\dfrac12$ [1]<br>\nRHL: put $x=\\dfrac\\pi2+h$: $\\displaystyle\\lim_{h\\to0}\\dfrac{b(1-\\cos h)}{4h^2}=\\dfrac b4\\times\\dfrac12=\\dfrac b8$ [1]<br>\nContinuity: $\\dfrac12=a=\\dfrac b8$ [½]<br>\n$a=\\dfrac12$, $b=4$ [½]<br>\n(b) $\\dfrac{dx}{d\\theta}=-a\\sin\\theta+b\\cos\\theta=-y$ and $\\dfrac{dy}{d\\theta}=a\\cos\\theta+b\\sin\\theta=x$ [½]<br>\n$y_1=\\dfrac{dy}{dx}=-\\dfrac xy$ [½]<br>\n$y_2=-\\dfrac{y-x\\,y_1}{y^2}$ [½]<br>\n$y^2y_2=-y+x\\,y_1$, so $y^2y_2-x\\,y_1+y=0$. Hence proved. [½]",
+  "scheme": [
+   {
+    "step": "(a) LHL $=\\displaystyle\\lim_{x\\to\\frac\\pi2^-}\\dfrac{(1-\\sin x)(1+\\sin x+\\sin^2x)}{3(1-\\sin x)(1+\\sin x)}=\\dfrac{3}{3\\times2}=\\dfrac12$",
+    "marks": 1
+   },
+   {
+    "step": "RHL: put $x=\\dfrac\\pi2+h$: $\\displaystyle\\lim_{h\\to0}\\dfrac{b(1-\\cos h)}{4h^2}=\\dfrac b4\\times\\dfrac12=\\dfrac b8$",
+    "marks": 1
+   },
+   {
+    "step": "Continuity: $\\dfrac12=a=\\dfrac b8$",
+    "marks": 0.5
+   },
+   {
+    "step": "$a=\\dfrac12$, $b=4$",
+    "marks": 0.5
+   },
+   {
+    "step": "(b) $\\dfrac{dx}{d\\theta}=-a\\sin\\theta+b\\cos\\theta=-y$ and $\\dfrac{dy}{d\\theta}=a\\cos\\theta+b\\sin\\theta=x$",
+    "marks": 0.5
+   },
+   {
+    "step": "$y_1=\\dfrac{dy}{dx}=-\\dfrac xy$",
+    "marks": 0.5
+   },
+   {
+    "step": "$y_2=-\\dfrac{y-x\\,y_1}{y^2}$",
+    "marks": 0.5
+   },
+   {
+    "step": "$y^2y_2=-y+x\\,y_1$, so $y^2y_2-x\\,y_1+y=0$. Hence proved.",
+    "marks": 0.5
+   }
+  ],
+  "topic": "Continuity; parametric functions",
+  "hint": "(a) Factorise $1-\\sin^3x$ and $\\cos^2x=(1-\\sin x)(1+\\sin x)$; for the right side put $x=\\frac\\pi2+h$. (b) Notice $\\frac{dx}{d\\theta}=-y$ and $\\frac{dy}{d\\theta}=x$."
+ },
+ {
+  "id": "maths-ch-05-q12",
+  "chapter": "ch-05",
+  "type": "case",
+  "marks": 4,
+  "stars": 2,
+  "label": "PYQ-style",
+  "stem": "**A smooth ramp.** A designer joins a curved ramp to a straight one at $x=1$ (in metres). The height is modelled by $h(x)=\\begin{cases}x^2+3x+a,&x\\le1\\\\ bx+2,&x>1\\end{cases}$. For a trolley to roll over the joint without a jerk, $h$ must be differentiable at $x=1$.",
+  "parts": [
+   {
+    "id": "i",
+    "stem": "Write the relation between $a$ and $b$ for $h$ to be continuous at $x=1$.",
+    "marks": 1,
+    "model_answer": "LHL $=h(1)=4+a$ and RHL $=b+2$, so $4+a=b+2$, i.e. $a-b=-2$ [1]",
+    "scheme": [
+     {
+      "step": "LHL $=h(1)=4+a$ and RHL $=b+2$, so $4+a=b+2$, i.e. $a-b=-2$",
+      "marks": 1
+     }
+    ]
+   },
+   {
+    "id": "ii",
+    "stem": "Find the left-hand derivative of $h$ at $x=1$.",
+    "marks": 1,
+    "model_answer": "For $x\\le1$, $h'(x)=2x+3$, so LHD at $x=1$ is $5$ [1]",
+    "scheme": [
+     {
+      "step": "For $x\\le1$, $h'(x)=2x+3$, so LHD at $x=1$ is $5$",
+      "marks": 1
+     }
+    ]
+   },
+   {
+    "id": "iii",
+    "stem": "Find $a$ and $b$ so that $h$ is differentiable at $x=1$.<br>**OR** With those values, find $h'(0)+h'(2)$ and say whether $h'$ is continuous at $x=1$.",
+    "marks": 2,
+    "model_answer": "RHD at $x=1$ is $b$; differentiable $\\Rightarrow b=5$ [1]<br>\nFrom $a-b=-2$: $a=3$. So $a=3$, $b=5$ [1]<br>\n**OR:** $h'(x)=2x+3$ for $x\\le1$ and $5$ for $x>1$, so $h'(0)+h'(2)=3+5=8$ [1]. $\\displaystyle\\lim_{x\\to1^-}h'(x)=5=\\lim_{x\\to1^+}h'(x)=h'(1)$, so $h'$ is continuous at $x=1$ [1].",
+    "scheme": [
+     {
+      "step": "RHD at $x=1$ is $b$; differentiable $\\Rightarrow b=5$",
+      "marks": 1
+     },
+     {
+      "step": "From $a-b=-2$: $a=3$. So $a=3$, $b=5$",
+      "marks": 1
+     }
+    ]
+   }
+  ],
+  "topic": "Continuity and differentiability of a piecewise function",
+  "hint": "Differentiable at the joint means continuous there and LHD = RHD."
+ }
+]

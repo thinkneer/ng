@@ -1,0 +1,334 @@
+[
+ {
+  "id": "maths-ch-09-q01",
+  "chapter": "ch-09",
+  "type": "mcq",
+  "marks": 1,
+  "stars": 3,
+  "label": "PYQ-style",
+  "stem": "The order and degree of $\\left(\\dfrac{d^2y}{dx^2}\\right)^2+\\cos\\left(\\dfrac{dy}{dx}\\right)=0$ are",
+  "options": [
+   "2 and 2",
+   "2 and 1",
+   "2 and not defined",
+   "1 and not defined"
+  ],
+  "answer": "C",
+  "model_answer": "**(C)** The highest derivative is $\\dfrac{d^2y}{dx^2}$, so the order is 2. The equation is not a polynomial in $\\dfrac{dy}{dx}$ (because of the cosine), so the degree is not defined.",
+  "topic": "Order and degree",
+  "hint": "Is the equation a polynomial in its derivatives?"
+ },
+ {
+  "id": "maths-ch-09-q02",
+  "chapter": "ch-09",
+  "type": "mcq",
+  "marks": 1,
+  "stars": 2,
+  "label": "NCERT-based",
+  "stem": "The integrating factor of $(1-y^2)\\dfrac{dx}{dy}+yx=ay$, $-1<y<1$, is",
+  "options": [
+   "$\\dfrac{1}{y^2-1}$",
+   "$\\dfrac{1}{\\sqrt{y^2-1}}$",
+   "$\\dfrac{1}{1-y^2}$",
+   "$\\dfrac{1}{\\sqrt{1-y^2}}$"
+  ],
+  "answer": "D",
+  "model_answer": "**(D)** Standard form: $\\dfrac{dx}{dy}+\\dfrac{y}{1-y^2}x=\\dfrac{ay}{1-y^2}$. I.F. $=e^{\\int\\frac{y}{1-y^2}dy}=e^{-\\frac12\\log(1-y^2)}=\\dfrac{1}{\\sqrt{1-y^2}}$.",
+  "topic": "Linear equation in x",
+  "hint": "Divide by $(1-y^2)$ first; it is linear in $x$."
+ },
+ {
+  "id": "maths-ch-09-q03",
+  "chapter": "ch-09",
+  "type": "mcq",
+  "marks": 1,
+  "stars": 3,
+  "label": "NCERT-based",
+  "stem": "The general solution of $\\dfrac{dy}{dx}=e^{x+y}$ is",
+  "options": [
+   "$e^x+e^{-y}=C$",
+   "$e^x+e^y=C$",
+   "$e^{-x}+e^y=C$",
+   "$e^{-x}+e^{-y}=C$"
+  ],
+  "answer": "A",
+  "model_answer": "**(A)** $e^{-y}\\,dy=e^x\\,dx\\Rightarrow-e^{-y}=e^x+c$, i.e. $e^x+e^{-y}=C$.",
+  "topic": "Variable separable",
+  "hint": "$e^{x+y}=e^x\\cdot e^y$."
+ },
+ {
+  "id": "maths-ch-09-q04",
+  "chapter": "ch-09",
+  "type": "mcq",
+  "marks": 1,
+  "stars": 2,
+  "label": "NCERT-based",
+  "stem": "The general solution of $y\\,dx-x\\,dy=0$ is",
+  "options": [
+   "$xy=C$",
+   "$x=Cy^2$",
+   "$y=Cx$",
+   "$y=Cx^2$"
+  ],
+  "answer": "C",
+  "model_answer": "**(C)** $\\dfrac{dy}{y}=\\dfrac{dx}{x}\\Rightarrow\\log|y|=\\log|x|+\\log C\\Rightarrow y=Cx$.",
+  "topic": "Variable separable",
+  "hint": "Separate the variables."
+ },
+ {
+  "id": "maths-ch-09-q05",
+  "chapter": "ch-09",
+  "type": "ar",
+  "marks": 1,
+  "stars": 3,
+  "label": "PYQ-style",
+  "stem": "**Assertion (A):** $\\dfrac{dy}{dx}+y=\\sin x$ is a linear differential equation.<br>**Reason (R):** Its integrating factor is $e^{-x}$.",
+  "options": [
+   "Both A and R are true, and R is the correct explanation of A.",
+   "Both A and R are true, but R is not the correct explanation of A.",
+   "A is true, but R is false.",
+   "A is false, but R is true."
+  ],
+  "answer": "C",
+  "model_answer": "**(C)** A is true ($P=1$, $Q=\\sin x$). R is false: I.F. $=e^{\\int1\\,dx}=e^x$.",
+  "topic": "Linear equation",
+  "hint": "I.F. $=e^{\\int P\\,dx}$ with $P=1$."
+ },
+ {
+  "id": "maths-ch-09-q06",
+  "chapter": "ch-09",
+  "type": "ar",
+  "marks": 1,
+  "stars": 2,
+  "label": "PYQ-style",
+  "stem": "**Assertion (A):** The order of the differential equation $\\dfrac{d^2y}{dx^2}+y=0$ is 2.<br>**Reason (R):** The degree of a differential equation that is a polynomial in its derivatives is the power of the highest-order derivative in it.",
+  "options": [
+   "Both A and R are true, and R is the correct explanation of A.",
+   "Both A and R are true, but R is not the correct explanation of A.",
+   "A is true, but R is false.",
+   "A is false, but R is true."
+  ],
+  "answer": "B",
+  "model_answer": "**(B)** Both statements are true, but R is about degree and does not explain why the order is 2.",
+  "topic": "Order and degree"
+ },
+ {
+  "id": "maths-ch-09-q07",
+  "chapter": "ch-09",
+  "type": "vsa2",
+  "marks": 2,
+  "stars": 2,
+  "label": "NCERT-based",
+  "stem": "Find the general solution of $\\dfrac{dy}{dx}=\\sqrt{4-y^2}$, $-2<y<2$.",
+  "model_answer": "$\\dfrac{dy}{\\sqrt{4-y^2}}=dx$ [½]<br>\nIntegrating: $\\sin^{-1}\\dfrac y2=x+C$ [1]<br>\n$y=2\\sin(x+C)$ [½]",
+  "scheme": [
+   {
+    "step": "$\\dfrac{dy}{\\sqrt{4-y^2}}=dx$",
+    "marks": 0.5
+   },
+   {
+    "step": "Integrating: $\\sin^{-1}\\dfrac y2=x+C$",
+    "marks": 1
+   },
+   {
+    "step": "$y=2\\sin(x+C)$",
+    "marks": 0.5
+   }
+  ],
+  "topic": "Variable separable",
+  "hint": "$\\displaystyle\\int\\dfrac{dy}{\\sqrt{a^2-y^2}}=\\sin^{-1}\\dfrac ya$."
+ },
+ {
+  "id": "maths-ch-09-q08",
+  "chapter": "ch-09",
+  "type": "vsa2",
+  "marks": 2,
+  "stars": 3,
+  "label": "NCERT-based",
+  "stem": "Find the particular solution of $\\dfrac{dy}{dx}=y\\tan x$, given $y=1$ when $x=0$.",
+  "model_answer": "$\\dfrac{dy}{y}=\\tan x\\,dx$ [½]<br>\n$\\log|y|=\\log|\\sec x|+C$ [½]<br>\n$x=0$, $y=1$: $0=0+C$, so $C=0$ [½]<br>\n$y=\\sec x$ [½]",
+  "scheme": [
+   {
+    "step": "$\\dfrac{dy}{y}=\\tan x\\,dx$",
+    "marks": 0.5
+   },
+   {
+    "step": "$\\log|y|=\\log|\\sec x|+C$",
+    "marks": 0.5
+   },
+   {
+    "step": "$x=0$, $y=1$: $0=0+C$, so $C=0$",
+    "marks": 0.5
+   },
+   {
+    "step": "$y=\\sec x$",
+    "marks": 0.5
+   }
+  ],
+  "topic": "Variable separable",
+  "hint": "Separate, integrate, then use the condition to find the constant."
+ },
+ {
+  "id": "maths-ch-09-q09",
+  "chapter": "ch-09",
+  "type": "sa3",
+  "marks": 3,
+  "stars": 3,
+  "label": "NCERT-based",
+  "stem": "Solve the differential equation $(x^2-y^2)\\,dx+2xy\\,dy=0$.",
+  "model_answer": "$\\dfrac{dy}{dx}=\\dfrac{y^2-x^2}{2xy}$; every term has degree 2, so the equation is homogeneous [½]<br>\nPut $y=vx$, $\\dfrac{dy}{dx}=v+x\\dfrac{dv}{dx}$: $v+x\\dfrac{dv}{dx}=\\dfrac{v^2-1}{2v}$ [½]<br>\n$x\\dfrac{dv}{dx}=-\\dfrac{1+v^2}{2v}\\Rightarrow\\dfrac{2v\\,dv}{1+v^2}=-\\dfrac{dx}{x}$ [1]<br>\n$\\log(1+v^2)=-\\log|x|+\\log C\\Rightarrow x(1+v^2)=C$ [½]<br>\nWith $v=\\dfrac yx$: $x^2+y^2=Cx$ [½]",
+  "scheme": [
+   {
+    "step": "$\\dfrac{dy}{dx}=\\dfrac{y^2-x^2}{2xy}$; every term has degree 2, so the equation is homogeneous",
+    "marks": 0.5
+   },
+   {
+    "step": "Put $y=vx$, $\\dfrac{dy}{dx}=v+x\\dfrac{dv}{dx}$: $v+x\\dfrac{dv}{dx}=\\dfrac{v^2-1}{2v}$",
+    "marks": 0.5
+   },
+   {
+    "step": "$x\\dfrac{dv}{dx}=-\\dfrac{1+v^2}{2v}\\Rightarrow\\dfrac{2v\\,dv}{1+v^2}=-\\dfrac{dx}{x}$",
+    "marks": 1
+   },
+   {
+    "step": "$\\log(1+v^2)=-\\log|x|+\\log C\\Rightarrow x(1+v^2)=C$",
+    "marks": 0.5
+   },
+   {
+    "step": "With $v=\\dfrac yx$: $x^2+y^2=Cx$",
+    "marks": 0.5
+   }
+  ],
+  "topic": "Homogeneous equation",
+  "hint": "All terms have degree 2. Put $y=vx$."
+ },
+ {
+  "id": "maths-ch-09-q10",
+  "chapter": "ch-09",
+  "type": "sa3",
+  "marks": 3,
+  "stars": 3,
+  "label": "NCERT-based",
+  "stem": "Solve $x\\dfrac{dy}{dx}+y-x+xy\\cot x=0$, $x\\ne0$.",
+  "model_answer": "$\\dfrac{dy}{dx}+\\left(\\dfrac1x+\\cot x\\right)y=1$: linear, with $P=\\dfrac1x+\\cot x$, $Q=1$ [1]<br>\nI.F. $=e^{\\log x+\\log\\sin x}=x\\sin x$ [½]<br>\n$y\\cdot x\\sin x=\\displaystyle\\int x\\sin x\\,dx+C=-x\\cos x+\\sin x+C$ [1]<br>\n$y=\\dfrac1x-\\cot x+\\dfrac{C}{x\\sin x}$ [½]",
+  "scheme": [
+   {
+    "step": "$\\dfrac{dy}{dx}+\\left(\\dfrac1x+\\cot x\\right)y=1$: linear, with $P=\\dfrac1x+\\cot x$, $Q=1$",
+    "marks": 1
+   },
+   {
+    "step": "I.F. $=e^{\\log x+\\log\\sin x}=x\\sin x$",
+    "marks": 0.5
+   },
+   {
+    "step": "$y\\cdot x\\sin x=\\displaystyle\\int x\\sin x\\,dx+C=-x\\cos x+\\sin x+C$",
+    "marks": 1
+   },
+   {
+    "step": "$y=\\dfrac1x-\\cot x+\\dfrac{C}{x\\sin x}$",
+    "marks": 0.5
+   }
+  ],
+  "topic": "Linear equation",
+  "hint": "Divide by $x$ and collect the $y$ terms to get $\\dfrac{dy}{dx}+Py=Q$."
+ },
+ {
+  "id": "maths-ch-09-q11",
+  "chapter": "ch-09",
+  "type": "la5",
+  "marks": 5,
+  "stars": 3,
+  "label": "NCERT-based",
+  "stem": "(a) Show that $x\\cos\\left(\\dfrac yx\\right)\\dfrac{dy}{dx}=y\\cos\\left(\\dfrac yx\\right)+x$ is a homogeneous differential equation and solve it. [3]<br>(b) Find the particular solution of $(1+x^2)\\dfrac{dy}{dx}+2xy=\\dfrac{1}{1+x^2}$, given $y=0$ when $x=1$. [2]",
+  "model_answer": "(a) $\\dfrac{dy}{dx}=\\dfrac{y\\cos\\frac yx+x}{x\\cos\\frac yx}=F(x,y)$, and $F(\\lambda x,\\lambda y)=F(x,y)$, so the equation is homogeneous [½]<br>\nPut $y=vx$: $v+x\\dfrac{dv}{dx}=\\dfrac{v\\cos v+1}{\\cos v}=v+\\dfrac{1}{\\cos v}$ [1]<br>\n$\\cos v\\,dv=\\dfrac{dx}{x}$ [½]<br>\n$\\sin v=\\log|x|+C$ [½]<br>\n$\\sin\\dfrac yx=\\log|x|+C$ [½]<br>\n(b) $\\dfrac{dy}{dx}+\\dfrac{2x}{1+x^2}y=\\dfrac{1}{(1+x^2)^2}$; I.F. $=e^{\\log(1+x^2)}=1+x^2$ [½]<br>\n$y(1+x^2)=\\displaystyle\\int\\dfrac{dx}{1+x^2}+C=\\tan^{-1}x+C$ [1]<br>\n$x=1$, $y=0$: $C=-\\dfrac\\pi4$, so $y(1+x^2)=\\tan^{-1}x-\\dfrac\\pi4$ [½]",
+  "scheme": [
+   {
+    "step": "(a) $\\dfrac{dy}{dx}=\\dfrac{y\\cos\\frac yx+x}{x\\cos\\frac yx}=F(x,y)$, and $F(\\lambda x,\\lambda y)=F(x,y)$, so the equation is homogeneous",
+    "marks": 0.5
+   },
+   {
+    "step": "Put $y=vx$: $v+x\\dfrac{dv}{dx}=\\dfrac{v\\cos v+1}{\\cos v}=v+\\dfrac{1}{\\cos v}$",
+    "marks": 1
+   },
+   {
+    "step": "$\\cos v\\,dv=\\dfrac{dx}{x}$",
+    "marks": 0.5
+   },
+   {
+    "step": "$\\sin v=\\log|x|+C$",
+    "marks": 0.5
+   },
+   {
+    "step": "$\\sin\\dfrac yx=\\log|x|+C$",
+    "marks": 0.5
+   },
+   {
+    "step": "(b) $\\dfrac{dy}{dx}+\\dfrac{2x}{1+x^2}y=\\dfrac{1}{(1+x^2)^2}$; I.F. $=e^{\\log(1+x^2)}=1+x^2$",
+    "marks": 0.5
+   },
+   {
+    "step": "$y(1+x^2)=\\displaystyle\\int\\dfrac{dx}{1+x^2}+C=\\tan^{-1}x+C$",
+    "marks": 1
+   },
+   {
+    "step": "$x=1$, $y=0$: $C=-\\dfrac\\pi4$, so $y(1+x^2)=\\tan^{-1}x-\\dfrac\\pi4$",
+    "marks": 0.5
+   }
+  ],
+  "topic": "Homogeneous and linear equations",
+  "hint": "(a) Divide by $x\\cos\\frac yx$, then put $y=vx$. (b) Divide by $(1+x^2)$ to get the standard linear form."
+ },
+ {
+  "id": "maths-ch-09-q12",
+  "chapter": "ch-09",
+  "type": "case",
+  "marks": 4,
+  "stars": 2,
+  "label": "PYQ-style",
+  "stem": "**A growing culture.** In a laboratory culture the number of bacteria $N$ grows at a rate proportional to the number present at that instant: $\\dfrac{dN}{dt}=kN$, where $t$ is in hours and $k>0$ is a constant. Initially there are $N_0$ bacteria.",
+  "parts": [
+   {
+    "id": "i",
+    "stem": "Write the general solution of the differential equation.",
+    "marks": 1,
+    "model_answer": "$\\dfrac{dN}{N}=k\\,dt\\Rightarrow\\log N=kt+c$, i.e. $N=Ce^{kt}$ [1]",
+    "scheme": [
+     {
+      "step": "$\\dfrac{dN}{N}=k\\,dt\\Rightarrow\\log N=kt+c$, i.e. $N=Ce^{kt}$",
+      "marks": 1
+     }
+    ]
+   },
+   {
+    "id": "ii",
+    "stem": "Use the initial condition to find the constant of integration.",
+    "marks": 1,
+    "model_answer": "At $t=0$, $N=N_0$, so $C=N_0$ and $N=N_0e^{kt}$ [1]",
+    "scheme": [
+     {
+      "step": "At $t=0$, $N=N_0$, so $C=N_0$ and $N=N_0e^{kt}$",
+      "marks": 1
+     }
+    ]
+   },
+   {
+    "id": "iii",
+    "stem": "If the number doubles in 3 hours, find $k$ and the number of bacteria after 9 hours.<br>**OR** If the number doubles in 3 hours, after how many hours will it be 4 times the initial number? Justify.",
+    "marks": 2,
+    "model_answer": "$2N_0=N_0e^{3k}\\Rightarrow k=\\dfrac13\\log2$ [1]<br>\n$N(9)=N_0e^{9k}=N_0\\left(e^{3k}\\right)^3=8N_0$ [1]<br>\n**OR:** $e^{3k}=2$ [1]; $4N_0=N_0e^{kt}\\Rightarrow e^{kt}=4=\\left(e^{3k}\\right)^2$, so $t=6$ hours (it doubles every 3 hours) [1].",
+    "scheme": [
+     {
+      "step": "$2N_0=N_0e^{3k}\\Rightarrow k=\\dfrac13\\log2$",
+      "marks": 1
+     },
+     {
+      "step": "$N(9)=N_0e^{9k}=N_0\\left(e^{3k}\\right)^3=8N_0$",
+      "marks": 1
+     }
+    ]
+   }
+  ],
+  "topic": "Growth and decay",
+  "hint": "Separate the variables; the solution is an exponential."
+ }
+]
