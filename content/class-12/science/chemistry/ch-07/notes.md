@@ -67,7 +67,7 @@ Alcohols and phenols both react with sodium to give hydrogen, so both are acids 
 
 Substituents on the ring shift the balance. An electron-withdrawing group such as $\ce{-NO2}$ spreads the charge further and *increases* acidity, most strongly from the ortho and para positions; 2,4,6-trinitrophenol (picric acid) is a strong acid. An electron-releasing group such as $\ce{-CH3}$ concentrates the charge and *decreases* acidity, so the cresols are slightly weaker than phenol.
 
-:::formula
+:::formula Acid strength of phenols and alcohols
 Acid strength: nitrophenols > phenol > cresols > water > alcohols (1° > 2° > 3°)
 
 A smaller p$K_a$ means a stronger acid: phenol 10.0, ethanol 15.9.
@@ -123,7 +123,7 @@ The –OH group pushes electron density into the ring, especially to the ortho a
 
 Two named reactions put a carbon group on the ring, ortho to the –OH.
 
-:::formula
+:::formula Kolbe and Reimer–Tiemann reactions
 **Kolbe's reaction:** sodium phenoxide + $\ce{CO2}$ (400 K, 4–7 atm), then acid → 2-hydroxybenzoic acid (salicylic acid)
 
 **Reimer–Tiemann reaction:** phenol + $\ce{CHCl3}$ + aqueous NaOH (340 K), then acid → 2-hydroxybenzaldehyde (salicylaldehyde)
@@ -153,7 +153,7 @@ Kolbe gives the *acid* (salicylic acid); Reimer–Tiemann gives the *aldehyde* (
 
 **Williamson synthesis.** This is the general laboratory method and the one that makes mixed ethers. A sodium alkoxide attacks an alkyl halide in an S$_\text{N}$2 reaction.
 
-:::formula
+:::formula Williamson synthesis
 **Williamson synthesis:** $\ce{R-X + R{'}-ONa -> R-O-R{'} + NaX}$
 :::
 

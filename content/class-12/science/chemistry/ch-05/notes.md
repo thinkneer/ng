@@ -34,7 +34,7 @@ Ligands are classified by how many donor atoms they use, their **denticity**. A 
 
 The **coordination number** is the number of donor *atoms* bonded directly to the metal. The **oxidation number** of the metal is the charge it would have if all ligands were removed with their electron pairs. A complex with only one kind of ligand is **homoleptic** ($\ce{[Co(NH3)6]^3+}$); with more than one kind it is **heteroleptic** ($\ce{[Co(NH3)4Cl2]+}$). The shape traced by the donor atoms is the **coordination polyhedron**: octahedral, tetrahedral or square planar.
 
-:::formula
+:::formula Oxidation number of the metal
 Oxidation number of metal + sum of ligand charges = charge on the complex
 
 Coordination number = number of donor atoms (each en or oxalate counts as 2, EDTA as 6)
@@ -131,7 +131,7 @@ In an exam, draw the octahedron and place the ligands; a name alone rarely earns
 
 Why are some complexes octahedral and others tetrahedral or square planar, some magnetic and others not? Valence bond theory (VBT) gives the first answer. The metal ion makes available empty orbitals, these **hybridise** to give a set of equivalent orbitals pointing in definite directions, and each one accepts an electron pair from a ligand.
 
-:::formula
+:::formula Hybridisation and shape
 Coordination number 4: $sp^3$ → tetrahedral; $dsp^2$ → square planar
 
 Coordination number 6: $d^2sp^3$ (inner d orbitals) or $sp^3d^2$ (outer d orbitals) → octahedral
@@ -177,7 +177,7 @@ In a free ion the five d orbitals have equal energy. Now bring six ligands in al
 
 How big $\Delta_o$ is depends on the ligand. Arranging ligands in order of the splitting they cause gives the **spectrochemical series**.
 
-:::formula
+:::formula Spectrochemical series
 $\ce{I-}$ < $\ce{Br-}$ < $\ce{SCN-}$ < $\ce{Cl-}$ < $\ce{S^2-}$ < $\ce{F-}$ < $\ce{OH-}$ < $\ce{C2O4^2-}$ < $\ce{H2O}$ < $\ce{NCS-}$ < edta$^{4-}$ < $\ce{NH3}$ < en < $\ce{CN-}$ < CO
 
 Left: weak-field ligands (small $\Delta_o$). Right: strong-field ligands (large $\Delta_o$).

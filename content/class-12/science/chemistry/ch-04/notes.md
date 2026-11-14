@@ -72,7 +72,7 @@ Both properties come from the d electrons.
 
 A substance with unpaired electrons is **paramagnetic**: it is pulled into a magnetic field. With all electrons paired it is **diamagnetic** and weakly repelled. Each unpaired electron behaves like a tiny magnet, and for 3d ions the size of the effect depends, to a good approximation, only on how many there are.
 
-:::formula
+:::formula Spin-only magnetic moment
 Spin-only magnetic moment: $\mu=\sqrt{n(n+2)}$ BM, where $n$ = number of unpaired electrons
 
 $n$ = 1, 2, 3, 4, 5 gives 1.73, 2.83, 3.87, 4.90, 5.92 BM
@@ -116,7 +116,7 @@ Four more characteristic properties, each with a one-line reason.
 
 $\ce{K2Cr2O7}$ is made from chromite ore, $\ce{FeCr2O4}$, in three steps. The ore is fused with sodium carbonate in air, which oxidises chromium to yellow sodium chromate. Acid converts chromate to orange dichromate. Adding potassium chloride then gives the less soluble potassium salt, which crystallises out.
 
-:::formula
+:::formula Preparation of potassium dichromate
 $\ce{4FeCr2O4 + 8Na2CO3 + 7O2 -> 8Na2CrO4 + 2Fe2O3 + 8CO2}$
 
 $\ce{2Na2CrO4 + 2H+ -> Na2Cr2O7 + 2Na+ + H2O}$
@@ -128,7 +128,7 @@ Chromate and dichromate are two forms of the same oxidation state (+6), linked b
 
 In acid, dichromate is a strong oxidising agent. Each chromium goes from +6 to +3, so one dichromate ion takes six electrons.
 
-:::formula
+:::formula Dichromate as an oxidising agent
 $\ce{Cr2O7^2- + 14H+ + 6e- -> 2Cr^3+ + 7H2O}$ ($E^\circ=1.33$ V)
 
 With iron(II): $\ce{Cr2O7^2- + 14H+ + 6Fe^2+ -> 2Cr^3+ + 6Fe^3+ + 7H2O}$
@@ -144,7 +144,7 @@ It also oxidises tin(II) to tin(IV) and hydrogen sulphide to sulphur. Because it
 
 $\ce{KMnO4}$ is made from pyrolusite, $\ce{MnO2}$. Fusing the ore with potassium hydroxide in air gives green potassium manganate (Mn +6). In neutral or acidic solution manganate disproportionates into purple permanganate (Mn +7) and $\ce{MnO2}$. Industrially the manganate is oxidised electrolytically instead.
 
-:::formula
+:::formula Preparation of potassium permanganate
 $\ce{2MnO2 + 4KOH + O2 -> 2K2MnO4 + 2H2O}$
 
 $\ce{3MnO4^2- + 4H+ -> 2MnO4- + MnO2 + 2H2O}$
@@ -154,7 +154,7 @@ Manganate is green and paramagnetic (one unpaired electron); permanganate is pur
 
 What permanganate is reduced *to* depends on the medium, and this decides how many electrons it takes.
 
-:::formula
+:::formula Permanganate as an oxidising agent
 Acidic: $\ce{MnO4- + 8H+ + 5e- -> Mn^2+ + 4H2O}$ ($E^\circ=1.52$ V) — 5 electrons
 
 Neutral or faintly alkaline: $\ce{MnO4- + 2H2O + 3e- -> MnO2 + 4OH-}$ — 3 electrons

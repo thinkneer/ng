@@ -26,7 +26,7 @@ In IUPAC names the "e" of the alkane is replaced by "amine": $\ce{CH3CH2NH2}$ is
 
 Two named reactions give *only* primary amines.
 
-:::formula
+:::formula Routes that give only primary amines
 **Gabriel phthalimide synthesis:** phthalimide + KOH → potassium phthalimide; + $\ce{R-X}$ → *N*-alkylphthalimide; hydrolysis with NaOH(aq) → $\ce{R-NH2}$
 
 **Hoffmann bromamide degradation:** $\ce{RCONH2 + Br2 + 4NaOH -> RNH2 + Na2CO3 + 2NaBr + 2H2O}$
@@ -60,7 +60,7 @@ Small amines dissolve in water by hydrogen bonding with it. Solubility falls as 
 
 An amine is a base because its lone pair accepts a proton: $\ce{RNH2 + H2O <=> RNH3+ + OH-}$. Base strength is measured by $K_b$, or more conveniently by p$K_b$.
 
-:::formula
+:::formula pKb and base strength
 p$K_b = -\log K_b$. A **smaller** p$K_b$ means a **stronger** base.
 :::
 
@@ -72,7 +72,7 @@ The rule for predicting strength is the one you have used for acids, turned roun
 
 **In water** the order changes, because the cation formed is stabilised by hydrogen bonding with water, and that depends on how many N–H hydrogens it has. A primary ammonium ion has three, a secondary two, a tertiary only one. So solvation favours 1° > 2° > 3°, the reverse of the electron-pushing order. Crowding around nitrogen by bulky alkyl groups also matters. The observed order is a compromise between these effects, and it differs for methyl and ethyl groups.
 
-:::formula
+:::formula Basicity orders in water
 Aqueous solution, methyl: $\ce{(CH3)2NH}$ > $\ce{CH3NH2}$ > $\ce{(CH3)3N}$ > $\ce{NH3}$
 
 Aqueous solution, ethyl: $\ce{(C2H5)2NH}$ > $\ce{(C2H5)3N}$ > $\ce{C2H5NH2}$ > $\ce{NH3}$
@@ -106,7 +106,7 @@ Ethyl groups release electrons, so both ethylamines beat ammonia; the 2° amine 
 
 **Carbylamine reaction.** This is the test for a primary amine.
 
-:::formula
+:::formula Carbylamine reaction
 **Carbylamine reaction:** $\ce{R-NH2 + CHCl3 + 3KOH ->[heat] R-NC + 3KCl + 3H2O}$
 :::
 
@@ -160,7 +160,7 @@ Aniline does **not** undergo Friedel–Crafts alkylation or acylation. It is a b
 
 When aniline is treated with nitrous acid in the cold, the product is benzenediazonium chloride. The reaction is **diazotisation**.
 
-:::formula
+:::formula Diazotisation
 **Diazotisation:** $\ce{C6H5NH2 + NaNO2 + 2HCl ->[273-278 K] C6H5N2+Cl- + NaCl + 2H2O}$
 :::
 
@@ -178,7 +178,7 @@ The $\ce{-N2+}$ group is an excellent leaving group, since it leaves as nitrogen
 
 **Reactions in which nitrogen is lost.** The group is replaced by something else.
 
-:::formula
+:::formula Replacing the diazonium group
 **Sandmeyer reaction:** $\ce{ArN2+X- ->[CuCl/HCl] ArCl}$ · $\ce{->[CuBr/HBr] ArBr}$ · $\ce{->[CuCN/KCN] ArCN}$
 
 **Gattermann reaction:** $\ce{ArN2+X- ->[Cu/HCl] ArCl}$ · $\ce{->[Cu/HBr] ArBr}$ (copper powder; lower yield)
@@ -196,7 +196,7 @@ The Sandmeyer reaction uses a copper(I) salt; the Gattermann reaction uses coppe
 
 **Reactions in which nitrogen is kept: coupling.** The diazonium ion is a weak electrophile. It attacks very electron-rich rings, phenol or aniline, at the para position, and the two rings end up joined through an –N=N– (azo) bond. The products are brightly coloured **azo dyes**, because the long conjugated system absorbs visible light.
 
-:::formula
+:::formula Coupling reactions
 **Coupling:** $\ce{C6H5N2+Cl-}$ + phenol (in NaOH) → 4-hydroxyazobenzene, orange
 
 $\ce{C6H5N2+Cl-}$ + aniline (weakly acidic) → 4-aminoazobenzene, yellow

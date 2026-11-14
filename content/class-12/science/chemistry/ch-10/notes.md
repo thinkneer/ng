@@ -24,7 +24,7 @@ Glucose is made by boiling sucrose with dilute acid, which gives glucose and fru
 
 Its molecular formula is $\ce{C6H12O6}$. The open-chain structure was worked out from a handful of reactions, and each one settles one feature. This reasoning is asked often, so learn the pairs.
 
-:::formula
+:::formula Evidence for the structure of glucose
 Prolonged heating with HI → *n*-hexane: **six carbons in a straight chain**
 
 $\ce{NH2OH}$ → oxime; HCN → cyanohydrin: **a carbonyl group**
@@ -70,7 +70,7 @@ Two monosaccharides join when an –OH of one reacts with an –OH of the other 
 
 Whether a disaccharide is a reducing sugar depends on one thing: is an anomeric carbon left free? A free anomeric –OH lets the ring open to show the carbonyl group, and the sugar reduces Tollens' and Fehling's reagents. If both anomeric carbons are used up in the linkage, neither ring can open.
 
-:::formula
+:::formula Disaccharides and their linkages
 **Sucrose** = α-D-glucose + β-D-fructose, linked C1 (glucose) to C2 (fructose): **non-reducing**
 
 **Maltose** = two α-D-glucose, linked C1 to C4: **reducing**
@@ -106,7 +106,7 @@ They are classed in two ways. By the balance of groups: **neutral** if amino and
 
 Amino acids behave more like salts than like simple amines or acids: they are colourless crystalline solids, high-melting and water-soluble. The reason is that in water the carboxyl group loses a proton and the amino group gains one, giving a dipolar ion with both charges in one molecule.
 
-:::formula
+:::formula Zwitterion
 **Zwitterion:** $\ce{H3N+-CHR-COO-}$, neutral overall, but carrying both a positive and a negative charge
 :::
 
@@ -153,7 +153,7 @@ Vitamins are organic compounds needed in the diet in small amounts for particula
 
 They are classed by solubility, and the classification has a practical consequence. **Fat-soluble** vitamins, **A, D, E and K**, are stored in the liver and in fatty tissue. **Water-soluble** vitamins, the **B group and C**, are readily excreted in urine and cannot be stored, so they must be supplied regularly. Vitamin $\ce{B12}$ is the exception: it is water-soluble but is stored.
 
-:::formula
+:::formula Vitamins and deficiency diseases
 A: night blindness, xerophthalmia · $\ce{B1}$: beriberi · $\ce{B2}$: cheilosis · $\ce{B6}$: convulsions · $\ce{B12}$: pernicious anaemia
 
 C: scurvy (bleeding gums) · D: rickets in children, osteomalacia in adults · E: fragile red blood cells, muscular weakness · K: slow clotting of blood
@@ -169,7 +169,7 @@ Each nucleotide has three parts: a pentose sugar, a nitrogen-containing base, an
 
 DNA and RNA differ in three ways.
 
-:::formula
+:::formula DNA and RNA
 **DNA:** sugar β-D-2-deoxyribose · bases A, G, C, **T** · double helix
 
 **RNA:** sugar β-D-ribose · bases A, G, C, **U** · single strand

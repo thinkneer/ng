@@ -20,7 +20,7 @@ Either component can be a solid, a liquid or a gas, so nine types are possible: 
 
 **Molarity** is moles of solute per litre of *solution*. It is the handiest unit in the lab because we measure solutions by volume. **Molality** is moles of solute per kilogram of *solvent*.
 
-:::formula
+:::formula Mole fraction
 $x_2=\dfrac{n_2}{n_1+n_2}$ , with $x_1+x_2=1$
 
 Molarity $M=\dfrac{n_2}{V_\text{solution in L}}$ (mol L$^{-1}$)
@@ -58,7 +58,7 @@ Gases are different, and here pressure matters a great deal. Picture a gas sitti
 
 **Henry's law:** at a constant temperature, the partial pressure of a gas above a liquid is directly proportional to the mole fraction of the gas dissolved in it.
 
-:::formula
+:::formula Henry's law
 $p=K_H\,x$
 
 $p$ = partial pressure of the gas, $x$ = its mole fraction in the solution, $K_H$ = Henry's law constant (same unit as $p$). $K_H$ depends on the gas, the solvent and the temperature.
@@ -94,7 +94,7 @@ Think about the surface. In pure liquid A, the whole surface is A molecules. In 
 
 **Raoult's law:** for a solution of volatile liquids, the partial vapour pressure of each component is directly proportional to its mole fraction in the solution.
 
-:::formula
+:::formula Raoult's law for volatile liquids
 $p_1=x_1\,p_1^\circ$ and $p_2=x_2\,p_2^\circ$
 
 $p_\text{total}=p_1+p_2=p_1^\circ+(p_2^\circ-p_1^\circ)\,x_2$
@@ -160,7 +160,7 @@ Here is the big idea of the chapter. Dissolve a non-volatile solute in a solvent
 
 Start with vapour pressure. For a non-volatile solute, $p_1=x_1p_1^\circ$. The lowering is $p_1^\circ-p_1=p_1^\circ(1-x_1)=p_1^\circ x_2$. Divide by $p_1^\circ$ and you get the **relative** lowering, which equals the mole fraction of the solute.
 
-:::formula
+:::formula Relative lowering of vapour pressure
 $\dfrac{p_1^\circ-p_1}{p_1^\circ}=x_2=\dfrac{n_2}{n_1+n_2}\approx\dfrac{n_2}{n_1}$ for dilute solutions
 
 So $\dfrac{p_1^\circ-p_1}{p_1^\circ}=\dfrac{w_2\,M_1}{M_2\,w_1}$, which can be solved for $M_2$.
@@ -196,7 +196,7 @@ Freezing works by the same logic. A liquid freezes at the temperature where its 
 
 For dilute solutions both changes are proportional to molality.
 
-:::formula
+:::formula Boiling-point elevation and freezing-point depression
 $\Delta T_b=K_b\,m$ and $\Delta T_f=K_f\,m$
 
 $K_b$ (molal elevation or ebullioscopic constant) and $K_f$ (molal depression or cryoscopic constant) have units K kg mol$^{-1}$ and depend only on the solvent. Water: $K_b=0.52$, $K_f=1.86$.
@@ -230,7 +230,7 @@ Put a raw mango in strong brine and it shrivels; put wilted flowers in fresh wat
 
 That stopping pressure is the **osmotic pressure**, $\pi$. For dilute solutions it follows an equation that looks just like the gas law.
 
-:::formula
+:::formula Osmotic pressure
 $\pi=CRT=\dfrac{n_2}{V}RT$ , so $M_2=\dfrac{w_2RT}{\pi V}$
 
 $C$ = molarity, $V$ in litres, $T$ in kelvin. Use $R=0.083$ L bar K$^{-1}$ mol$^{-1}$ for $\pi$ in bar.
@@ -268,7 +268,7 @@ Dissolve one mole of sodium chloride and you get nearly two moles of particles, 
 
 To handle this, van't Hoff introduced a correction factor, $i$: the ratio of what is observed to what is expected.
 
-:::formula
+:::formula van't Hoff factor
 $i=\dfrac{\text{observed colligative property}}{\text{calculated colligative property}}=\dfrac{\text{normal molar mass}}{\text{abnormal molar mass}}=\dfrac{\text{moles of particles after dissociation or association}}{\text{moles before}}$
 
 Corrected equations: $\Delta T_b=iK_bm$ , $\Delta T_f=iK_fm$ , $\pi=iCRT$ , $\dfrac{p_1^\circ-p_1}{p_1^\circ}=i\,\dfrac{n_2}{n_1}$

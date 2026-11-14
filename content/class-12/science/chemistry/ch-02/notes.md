@@ -44,7 +44,7 @@ A single electrode potential cannot be measured, because a half-cell cannot work
 
 The cell voltage (emf) is the potential difference between the electrodes when no current is drawn.
 
-:::formula
+:::formula Standard cell potential
 $E^\circ_\text{cell}=E^\circ_\text{cathode}-E^\circ_\text{anode}$ (both as reduction potentials; right minus left in the cell notation)
 
 Daniell cell: $0.34-(-0.76)=1.10$ V
@@ -70,7 +70,7 @@ The silver half-reaction is doubled to balance electrons, but its $E^\circ$ stay
 
 Standard potentials assume 1 M solutions, but real cells rarely oblige. As a Daniell cell runs, $\ce{Zn^2+}$ builds up and $\ce{Cu^2+}$ is used up, and the voltage falls. Le Chatelier's principle explains the direction: piling up product and removing reactant makes the forward reaction less eager. The **Nernst equation** gives the size of the effect.
 
-:::formula
+:::formula Nernst equation
 For a cell reaction with $n$ electrons transferred, at 298 K:
 
 $E_\text{cell}=E^\circ_\text{cell}-\dfrac{0.059}{n}\log Q$ , where $Q=\dfrac{[\text{products}]}{[\text{reactants}]}$ with each concentration raised to its coefficient
@@ -106,7 +106,7 @@ Keep drawing current and $Q$ keeps rising until the voltage reaches zero. The ce
 
 There is a second link. The electrical work a cell can do is charge times voltage. For one mole of reaction the charge is $nF$, so the maximum work is $nFE$, and maximum useful work is exactly what the fall in Gibbs energy measures.
 
-:::formula
+:::formula Gibbs energy and cell potential
 $\Delta_rG=-nFE_\text{cell}$ and $\Delta_rG^\circ=-nFE^\circ_\text{cell}$ ($F=96487\approx96500$ C mol$^{-1}$; answer in joules)
 
 $\log K_c=\dfrac{nE^\circ_\text{cell}}{0.059}$ at 298 K (from $\Delta_rG^\circ=-2.303RT\log K_c$)
@@ -136,7 +136,7 @@ Conductivity is measured in a conductivity cell: two platinised platinum plates 
 
 Conductivity alone is not a fair way to compare electrolytes, because it depends on how many ions happen to be in each cubic centimetre. Dividing by concentration gives the conducting power of the ions from *one mole* of electrolyte, the **molar conductivity**.
 
-:::formula
+:::formula Conductivity and cell constant
 $\kappa=\dfrac{G^*}{R}$ , with cell constant $G^*=\dfrac{l}{A}=R\,\kappa$ (cm$^{-1}$)
 
 $\Lambda_m=\dfrac{\kappa}{c}$ ; in the usual units $\Lambda_m\,(\text{S cm}^2\,\text{mol}^{-1})=\dfrac{1000\,\kappa\,(\text{S cm}^{-1})}{M\,(\text{mol L}^{-1})}$
@@ -166,7 +166,7 @@ What happens when you dilute a solution? There are fewer ions in each cubic cent
 
 A **strong electrolyte** such as KCl is fully ionised at every concentration. Dilution just moves the ions further apart, so they drag on each other less and move more freely. The rise is small and regular.
 
-:::formula
+:::formula Molar conductivity of a strong electrolyte
 Strong electrolytes: $\Lambda_m=\Lambda_m^\circ-A\sqrt{c}$
 
 $\Lambda_m^\circ$ = limiting molar conductivity (at infinite dilution); $A$ depends on the type of electrolyte (1-1, 2-1, 2-2), the solvent and the temperature.
@@ -186,7 +186,7 @@ For the strong electrolyte you can extend the straight line back to zero concent
 
 **Kohlrausch's law of independent migration of ions:** the limiting molar conductivity of an electrolyte is the sum of the individual contributions of its cation and anion.
 
-:::formula
+:::formula Kohlrausch's law
 $\Lambda_m^\circ=\nu_+\lambda_+^\circ+\nu_-\lambda_-^\circ$
 
 Weak acid from strong electrolytes: $\Lambda^\circ_{\ce{CH3COOH}}=\Lambda^\circ_{\ce{CH3COONa}}+\Lambda^\circ_{\ce{HCl}}-\Lambda^\circ_{\ce{NaCl}}$
@@ -216,7 +216,7 @@ In an electrolytic cell an outside source forces ions to the electrodes, where t
 
 Both follow from one idea: electrons are a reactant, and one mole of them carries one faraday, 96487 C. Discharging one mole of $\ce{Ag+}$ needs 1 F; one mole of $\ce{Cu^2+}$ needs 2 F; one mole of $\ce{Al^3+}$ needs 3 F.
 
-:::formula
+:::formula Faraday's laws of electrolysis
 $Q=It$ ($I$ in amperes, $t$ in seconds, $Q$ in coulombs)
 
 $m=\dfrac{M\,I\,t}{n\,F}$ ($M$ = molar mass, $n$ = electrons per ion)
@@ -250,7 +250,7 @@ A battery is a galvanic cell packaged for use. A good one is light, compact and 
 
 **Secondary batteries** can be recharged by passing current in the opposite direction. The **lead storage battery** of cars has a lead anode, a grid of lead packed with $\ce{PbO2}$ as cathode, and 38% sulphuric acid.
 
-:::formula
+:::formula Lead storage battery
 Anode: $\ce{Pb + SO4^2- -> PbSO4 + 2e-}$
 
 Cathode: $\ce{PbO2 + SO4^2- + 4H+ + 2e- -> PbSO4 + 2H2O}$
@@ -266,7 +266,7 @@ Discharge uses up sulphuric acid and makes water, so the acid's density falls; t
 
 Burning a fuel to raise steam to turn a turbine wastes most of its energy as heat; a thermal power plant is about 40% efficient. A **fuel cell** is a galvanic cell that converts the energy of combustion of a fuel such as hydrogen directly into electricity, at about 70% efficiency. In the hydrogen–oxygen cell, the gases are bubbled through porous carbon electrodes, containing catalysts like finely divided platinum, into concentrated $\ce{NaOH}$ solution.
 
-:::formula
+:::formula Hydrogen–oxygen fuel cell
 Cathode: $\ce{O2 + 2H2O + 4e- -> 4OH-}$
 
 Anode: $\ce{2H2 + 4OH- -> 4H2O + 4e-}$

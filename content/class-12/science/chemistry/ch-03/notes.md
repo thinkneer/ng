@@ -12,7 +12,7 @@ Measure the concentration at two times and divide the change by the time gap, an
 
 One complication: in $\ce{2HI -> H2 + I2}$, two moles of HI vanish for each mole of hydrogen formed, so HI disappears twice as fast as $\ce{H2}$ appears. To get a single rate that everyone agrees on, divide each rate of change by that species' coefficient.
 
-:::formula
+:::formula Rate of reaction
 For $\ce{aA + bB -> cC + dD}$:
 
 Rate $=-\dfrac{1}{a}\dfrac{\Delta[\ce{A}]}{\Delta t}=-\dfrac{1}{b}\dfrac{\Delta[\ce{B}]}{\Delta t}=+\dfrac{1}{c}\dfrac{\Delta[\ce{C}]}{\Delta t}=+\dfrac{1}{d}\dfrac{\Delta[\ce{D}]}{\Delta t}$
@@ -42,7 +42,7 @@ Four things change the rate of a reaction: the concentration of the reactants (o
 
 Rate generally rises with concentration, because more molecules mean more collisions. The exact dependence is written as a **rate law**:
 
-:::formula
+:::formula Rate law
 Rate $=k[\ce{A}]^x[\ce{B}]^y$
 
 $k$ = rate constant (the rate when every concentration is 1 mol L$^{-1}$); $x$ and $y$ = order with respect to A and B; $x+y$ = overall order.
@@ -104,7 +104,7 @@ The rate law tells you the rate at an instant. Usually you want something more p
 
 Start with the simplest case, a **zero-order** reaction, whose rate does not depend on concentration at all: $-\dfrac{d[R]}{dt}=k$. Rearranging, $d[R]=-k\,dt$, and integrating gives $[R]=-kt+I$. At $t=0$ the concentration is $[R]_0$, so the constant $I$ is $[R]_0$.
 
-:::formula
+:::formula Zero-order integrated rate equation
 Zero order: $[R]=[R]_0-kt$ , so $k=\dfrac{[R]_0-[R]}{t}$ (mol L$^{-1}$ s$^{-1}$)
 :::
 
@@ -132,7 +132,7 @@ $t=\dfrac{[R]_0}{k}=\dfrac{0.10}{2.5\times10^{-4}}=$ **400 s** [1]
 
 In a **first-order** reaction the rate is proportional to the concentration: $-\dfrac{d[R]}{dt}=k[R]$. Separate the variables, $\dfrac{d[R]}{[R]}=-k\,dt$, and integrate: $\ln[R]=-kt+I$. Again $t=0$ gives $I=\ln[R]_0$.
 
-:::formula
+:::formula First-order integrated rate equation
 First order: $\ln[R]=\ln[R]_0-kt$ , or $[R]=[R]_0\,e^{-kt}$
 
 $k=\dfrac{2.303}{t}\log\dfrac{[R]_0}{[R]}$ (s$^{-1}$)
@@ -172,7 +172,7 @@ $=115.15\times0.699=$ **80.5 min** [½]
 
 The **half-life**, $t_{1/2}$, is the time taken for the concentration of a reactant to fall to half its initial value. Put $[R]=[R]_0/2$ into each integrated equation.
 
-:::formula
+:::formula Half-life
 Zero order: $t_{1/2}=\dfrac{[R]_0}{2k}$ (proportional to the initial concentration)
 
 First order: $t_{1/2}=\dfrac{2.303\log2}{k}=\dfrac{0.693}{k}$ (independent of the initial concentration)
@@ -228,7 +228,7 @@ Now look at how energy is shared out among molecules.
 
 A small rise in temperature barely shifts the average, but it roughly doubles the tiny fraction of molecules in the high-energy tail. Arrhenius captured this in one equation, in which $e^{-E_a/RT}$ is exactly that fraction.
 
-:::formula
+:::formula Arrhenius equation
 $k=A\,e^{-E_a/RT}$ , or $\log k=\log A-\dfrac{E_a}{2.303\,RT}$
 
 Two temperatures: $\log\dfrac{k_2}{k_1}=\dfrac{E_a}{2.303\,R}\left(\dfrac{T_2-T_1}{T_1T_2}\right)$
@@ -268,7 +268,7 @@ Collision theory gives a picture of where the Arrhenius equation comes from. Tre
 
 Nearly, because energy is not the only condition. The molecules must also hit the right way round. When bromomethane reacts with hydroxide ion to give methanol, the $\ce{OH-}$ must strike the carbon atom from the side opposite the bromine; a collision with the bromine end simply bounces off. A **probability (steric) factor**, $P$, allows for this.
 
-:::formula
+:::formula Rate from collision theory
 Rate $=P\,Z_{AB}\,e^{-E_a/RT}$
 
 An **effective collision** has both enough energy (at least the threshold energy) and the proper orientation.

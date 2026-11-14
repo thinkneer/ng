@@ -22,7 +22,7 @@ Several methods are simply reactions you already know, read from the product end
 
 The remaining methods are named reactions, and the common thread for aldehydes is *stopping halfway*, because an aldehyde is easily taken further.
 
-:::formula
+:::formula Named routes to aldehydes
 **Rosenmund reduction:** $\ce{RCOCl + H2 ->[Pd/BaSO4] RCHO + HCl}$
 
 **Stephen reaction:** $\ce{RCN + SnCl2 + HCl -> RCH=NH ->[H3O+] RCHO}$
@@ -62,7 +62,7 @@ Other nucleophiles follow the same pattern:
 
 **Ammonia derivatives** add and then lose water, so the oxygen is replaced by a C=N bond. If the reagent is written $\ce{H2N-Z}$, the product is $\ce{{>}C=N-Z}$.
 
-:::formula
+:::formula Products with ammonia derivatives
 Hydroxylamine ($\ce{NH2OH}$) → oxime · hydrazine ($\ce{NH2NH2}$) → hydrazone · phenylhydrazine → phenylhydrazone · semicarbazide → semicarbazone
 
 2,4-Dinitrophenylhydrazine (2,4-DNP) → yellow or orange precipitate: the general test for a carbonyl group
@@ -76,7 +76,7 @@ These reactions are run in weakly acidic solution. A little acid protonates the 
 
 **Reduction to alcohols** uses $\ce{NaBH4}$, $\ce{LiAlH4}$ or hydrogen with a catalyst. **Reduction all the way to a hydrocarbon**, turning C=O into $\ce{CH2}$, has two named methods.
 
-:::formula
+:::formula Reduction of C=O to CH2
 **Clemmensen reduction:** zinc amalgam and concentrated HCl
 
 **Wolff–Kishner reduction:** hydrazine, then KOH in ethylene glycol with heating
@@ -112,7 +112,7 @@ The carbon next to the carbonyl group is the α-carbon, and its hydrogens are un
 
 That is the **aldol reaction**. In dilute alkali, two molecules of an aldehyde or ketone *with* α-hydrogen join: the α-carbon of one bonds to the carbonyl carbon of the other. The product has both an –OH and a carbonyl group, a β-hydroxy aldehyde ("ald-ol") or ketone. On heating it loses water to give an α,β-unsaturated compound; the whole sequence is aldol condensation.
 
-:::formula
+:::formula Aldol condensation
 **Aldol condensation:** $\ce{2CH3CHO ->[dil. NaOH] CH3CH(OH)CH2CHO ->[heat] CH3CH=CHCHO + H2O}$
 
 3-hydroxybutanal, then but-2-enal
@@ -122,7 +122,7 @@ If two different carbonyl compounds are used and both have α-hydrogens, four pr
 
 What if there is *no* α-hydrogen? Then aldol is impossible, and with concentrated alkali something else happens. One molecule of the aldehyde is oxidised to the acid salt while another is reduced to the alcohol. This self oxidation–reduction (disproportionation) is the **Cannizzaro reaction**.
 
-:::formula
+:::formula Cannizzaro reaction
 **Cannizzaro reaction:** $\ce{2HCHO + KOH(conc.) -> CH3OH + HCOOK}$
 
 $\ce{2C6H5CHO + NaOH(conc.) -> C6H5CH2OH + C6H5COONa}$
@@ -160,7 +160,7 @@ In the **carboxylate ion** the negative charge is shared between two oxygen atom
 
 Substituents shift acid strength in a predictable way. An **electron-withdrawing** group pulls charge away from the carboxylate, spreads it out and stabilises it, so the acid is *stronger*. An **electron-releasing** group does the opposite. The effect grows with the number of such groups and fades with distance from –COOH.
 
-:::formula
+:::formula Acid strength orders
 $\ce{Cl3CCOOH}$ > $\ce{Cl2CHCOOH}$ > $\ce{ClCH2COOH}$ > $\ce{CH3COOH}$ (more withdrawing groups)
 
 $\ce{FCH2COOH}$ > $\ce{ClCH2COOH}$ > $\ce{BrCH2COOH}$ (stronger withdrawal)
@@ -180,7 +180,7 @@ Unlike aldehydes and ketones, carboxylic acids do not give addition reactions at
 
 What they do is exchange the –OH for something else.
 
-:::formula
+:::formula Replacing the –OH of an acid
 With alcohols: $\ce{RCOOH + R{'}OH <=>[H+] RCOOR{'} + H2O}$ (esterification)
 
 With $\ce{SOCl2}$, $\ce{PCl5}$ or $\ce{PCl3}$: acid chloride, $\ce{RCOCl}$
@@ -196,7 +196,7 @@ Two molecules heated with a dehydrating agent ($\ce{P2O5}$): acid anhydride
 
 **Halogenation at the α-carbon** is the last named reaction of the chapter.
 
-:::formula
+:::formula Hell–Volhard–Zelinsky reaction
 **Hell–Volhard–Zelinsky (HVZ) reaction:** $\ce{RCH2COOH ->[X2 / red P, then H2O] RCH(X)COOH}$ (X = Cl, Br)
 :::
 

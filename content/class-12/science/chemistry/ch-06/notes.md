@@ -21,7 +21,7 @@ Halogens are more electronegative than carbon, so the C–X bond is polar, with 
 
 **From alcohols.** This is the most convenient route: replace –OH by –X. Hydrogen halides do it, with primary and secondary alcohols needing anhydrous zinc chloride as catalyst for HCl. Phosphorus halides and thionyl chloride work too.
 
-:::formula
+:::formula Haloalkanes from alcohols
 $\ce{R-OH + HX -> R-X + H2O}$ (with HCl: anhydrous $\ce{ZnCl2}$ for 1° and 2° alcohols)
 
 $\ce{3R-OH + PCl3 -> 3R-Cl + H3PO3}$ and $\ce{R-OH + PCl5 -> R-Cl + POCl3 + HCl}$
@@ -39,7 +39,7 @@ The peroxide effect works only with HBr. HCl and HI always follow Markovnikov's 
 
 **By halogen exchange.** Iodoalkanes and fluoroalkanes are best made by swapping one halogen for another.
 
-:::formula
+:::formula Halogen exchange: Finkelstein and Swarts
 **Finkelstein reaction:** $\ce{R-X + NaI ->[dry acetone] R-I + NaX}$ (X = Cl, Br)
 
 **Swarts reaction:** $\ce{R-Br + AgF -> R-F + AgBr}$ (also $\ce{Hg2F2}$, $\ce{CoF2}$, $\ce{SbF3}$)
@@ -55,7 +55,7 @@ Benzene does not add halogens the way alkenes do; it undergoes **substitution**.
 
 Fluorine reacts too violently for this, and iodination is reversible, so those two are made another way: from a **diazonium salt**, which you will meet properly in the Amines chapter. Aniline is converted to benzenediazonium chloride, and the $\ce{-N2+}$ group is then replaced.
 
-:::formula
+:::formula Sandmeyer reaction
 **Sandmeyer reaction:** $\ce{ArN2+X- ->[CuCl/HCl] ArCl + N2}$ (CuBr/HBr gives ArBr)
 
 With potassium iodide: $\ce{ArN2+X- + KI -> ArI + N2 + KX}$
@@ -87,7 +87,7 @@ This one reaction makes many families. Aqueous KOH gives alcohols, sodium alkoxi
 
 Because the nucleophile must reach the back of the carbon, bulky groups get in its way. That gives the reactivity order.
 
-:::formula
+:::formula Reactivity in SN2
 S$_\text{N}$2 reactivity: $\ce{CH3X}$ > 1° > 2° > 3° (less crowding, faster attack)
 :::
 
@@ -101,7 +101,7 @@ Here the reaction goes in two steps. First the C–Br bond breaks by itself, slo
 
 The slow step is forming the carbocation, so anything that stabilises the carbocation speeds up the reaction. Alkyl groups push electron density towards the positive carbon, so a tertiary carbocation is the most stable.
 
-:::formula
+:::formula Reactivity in SN1 and leaving groups
 S$_\text{N}$1 reactivity: 3° > 2° > 1° > $\ce{CH3X}$ (more stable carbocation, faster ionisation)
 
 Leaving group, both mechanisms: R–I > R–Br > R–Cl > R–F
@@ -153,7 +153,7 @@ Haloalkanes also react with metals. With magnesium in dry ether they form **Grig
 
 With sodium, two alkyl groups join.
 
-:::formula
+:::formula Wurtz reaction
 **Wurtz reaction:** $\ce{2R-X + 2Na ->[dry ether] R-R + 2NaX}$
 :::
 
@@ -174,7 +174,7 @@ Haloarenes do take part in the reactions typical of benzene: **electrophilic sub
 
 Finally, aryl halides couple with sodium just as alkyl halides do.
 
-:::formula
+:::formula Wurtz–Fittig and Fittig reactions
 **Wurtz–Fittig reaction:** $\ce{Ar-X + R-X + 2Na ->[dry ether] Ar-R + 2NaX}$
 
 **Fittig reaction:** $\ce{2Ar-X + 2Na ->[dry ether] Ar-Ar + 2NaX}$
