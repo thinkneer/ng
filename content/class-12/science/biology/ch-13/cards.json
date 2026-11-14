@@ -1,0 +1,109 @@
+[
+  {
+    "id": "ch13-levels",
+    "kind": "compare",
+    "title": "Levels of biodiversity",
+    "tex": "\\text{genetic}\\ \\big|\\ \\text{species}\\ \\big|\\ \\text{ecological}",
+    "back": "Rauwolfia reserpine; Western vs Eastern Ghats amphibians; India vs Norway ecosystems.",
+    "stars": 3
+  },
+  {
+    "id": "ch13-species-numbers",
+    "kind": "formula",
+    "title": "How many species?",
+    "tex": "1.5\\text{ M described}\\quad\\approx7\\text{ M estimated}",
+    "legend": [
+      "estimate = Robert May",
+      "> 70% = animals among recorded species"
+    ],
+    "back": "India: 2.4% of land, 8.1% of species, ~45,000 plant species; one of 12 mega-diversity countries.",
+    "stars": 2
+  },
+  {
+    "id": "ch13-species-area-eq",
+    "kind": "formula",
+    "title": "Species–area relationship",
+    "tex": "\\log S=\\log C+Z\\log A",
+    "legend": [
+      "S = species richness",
+      "A = area",
+      "Z = slope (0.1–0.2; 0.6–1.2 continents)",
+      "C = intercept"
+    ],
+    "back": "Humboldt. Rectangular hyperbola; a straight line on log–log axes. Frugivorous birds and mammals: Z = 1.15.",
+    "stars": 3
+  },
+  {
+    "id": "ch13-species-area",
+    "kind": "figure",
+    "title": "Species–area curve",
+    "svg": "ref: notes#ch13-species-area",
+    "back": "Left: S vs A levels off. Right: log S vs log A is straight; slope = Z.",
+    "stars": 3,
+    "tags": [
+      "diagram"
+    ]
+  },
+  {
+    "id": "ch13-latitudinal-birds",
+    "kind": "compare",
+    "title": "Latitudinal gradient",
+    "tex": "1400\\ \\big|\\ 105\\ \\big|\\ 56\\ \\text{bird species}",
+    "back": "Colombia | New York (41° N) | Greenland (71° N). Tropics: long time, steady climate, more sunlight.",
+    "stars": 3
+  },
+  {
+    "id": "ch13-rivet-popper",
+    "kind": "process",
+    "title": "Rivet popper hypothesis",
+    "tex": "\\text{rivets}=\\text{species};\\ \\text{wing rivets}=\\text{key species}",
+    "back": "Paul Ehrlich. Tilman's plots: more species → more stable biomass and higher productivity.",
+    "stars": 2
+  },
+  {
+    "id": "ch13-evil-quartet",
+    "kind": "compare",
+    "title": "The Evil Quartet",
+    "tex": "\\text{habitat}\\ \\big|\\ \\text{over-exploit}\\ \\big|\\ \\text{alien}\\ \\big|\\ \\text{co-extinction}",
+    "back": "Amazon cleared | Steller's sea cow | Nile perch in Lake Victoria | host and parasite. Habitat loss is the most important.",
+    "stars": 3
+  },
+  {
+    "id": "ch13-extinction-rate",
+    "kind": "formula",
+    "title": "Extinction numbers",
+    "tex": "784\\text{ extinctions in }500\\text{ yr (IUCN 2004)}",
+    "legend": [
+      "now = 100–1,000 times faster than before humans"
+    ],
+    "back": "338 vertebrates, 359 invertebrates, 87 plants. We may be in a sixth extinction.",
+    "stars": 2
+  },
+  {
+    "id": "ch13-in-situ-vs-ex-situ",
+    "kind": "compare",
+    "title": "In situ vs ex situ",
+    "tex": "\\text{hotspots, parks, sacred groves}\\ \\big|\\ \\text{zoos, seed banks, cryopreservation}",
+    "back": "NCERT figures: 14 biosphere reserves, 90 national parks, 448 sanctuaries; 34 hotspots, 3 in India.",
+    "stars": 3
+  },
+  {
+    "id": "ch13-summits",
+    "kind": "formula",
+    "title": "International efforts",
+    "tex": "\\text{Rio 1992}\\to\\text{Johannesburg 2002}",
+    "legend": [
+      "Rio = Convention on Biological Diversity (Earth Summit)",
+      "Johannesburg = 190 countries, target 2010"
+    ],
+    "back": "Biodiversity knows no political boundaries, so conservation is a collective responsibility.",
+    "stars": 2
+  },
+  {
+    "id": "ch13-hoac",
+    "kind": "mnemonic",
+    "title": "HOAC",
+    "tex": "\\textbf{H}\\text{ow }\\textbf{O}\\text{ur }\\textbf{A}\\text{nimals }\\textbf{C}\\text{ollapse}",
+    "back": "Habitat loss, Over-exploitation, Alien invasions, Co-extinctions."
+  }
+]

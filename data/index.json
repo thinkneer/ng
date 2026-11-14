@@ -2343,6 +2343,7 @@
                         "notes": true,
                         "mustknow": true,
                         "formulas": true,
+                        "cards": true,
                         "questions": true
                       },
                       "marks_hint": "Unit X Ecology = 10 marks (shared by Ch 11–13, CBSE 2026–27)",
@@ -2357,8 +2358,20 @@
                         "la5": 1
                       },
                       "diagrams": [],
-                      "words": 3361,
-                      "read_minutes": 11
+                      "blocks": {
+                        "fill": 3,
+                        "mnemonic": 5,
+                        "graph": 1,
+                        "numerical": 1,
+                        "figure": 1,
+                        "draw": 1,
+                        "steps": 1,
+                        "compare": 2
+                      },
+                      "words": 3336,
+                      "read_minutes": 11,
+                      "cards": 11,
+                      "mnemonics": 5
                     }
                   ]
                 }

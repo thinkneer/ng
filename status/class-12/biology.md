@@ -26,7 +26,7 @@ Paper: **Thu 25 Mar 2027** (date sheet of 6 Nov 2026). Biology-only days 10–24
   - Ch 11 Read: age-pyramid SVG and J/S growth-curve SVG; interactions table. Ch 12 Read: energy/biomass pyramid SVG; decomposition steps; 10 % law example. Ch 13 Read: species–area SVG; Evil Quartet; NCERT protected-area figures with a tip that real numbers have grown.
 - **All 13 chapters now have Read, Must know, formulas and 10 practice questions each (130 questions).** Checked: build-index passes with 0 warnings; every SVG rendered and inspected; chapter page checked in headless Chrome (390 px).
 
-- **Interactive pass (CLAUDE.md §4c), 14 Nov 2026 — Ch 1–12 done.** Each chapter has `cards.json` (10–13 cards: figure refs, formula tex + legend, process/compare chains, mnemonics) and blocks in notes.md placed where the idea is taught:
+- **Interactive pass (CLAUDE.md §4c), 14 Nov 2026 — all 13 chapters done.** Each chapter has `cards.json` (10–13 cards: figure refs, formula tex + legend, process/compare chains, mnemonics) and blocks in notes.md placed where the idea is taught:
   - Ch 1: 5 `ng-figure` (microsporangium, pollen, ovule, embryo sac, embryos) + 4 `ng-draw`; `ng-steps` for microsporogenesis, embryo-sac development, hybridisation, pollen-tube path, double fertilisation, embryo stages; `ng-compare` (pollination kinds, dicot vs monocot embryo, albuminous seeds, apomixis/polyembryony/parthenocarpy); `ng-fill` ploidy; 6 mnemonics.
   - Ch 2: 4 `ng-figure` (tubule, sperm, ovary, 28-day cycle) + 3 `ng-draw`; steps for oogenesis, cycle phases, fertilisation→implantation, parturition; compare/fill tables; 5 mnemonics (SEVEN UP, IAI, Leydig–LH…).
   - Ch 3: new `ng-figure` fertile-window bar; fills (contraceptives, MTP rule), compares (vasectomy/tubectomy, ART); IVF–ET steps; 5 mnemonics.
@@ -39,6 +39,8 @@ Paper: **Thu 25 Mar 2027** (date sheet of 6 Nov 2026). Biology-only days 10–24
   - Ch 10: new insulin (pro-insulin → A + B) `ng-figure` + `ng-draw`; steps (Bt toxin, RNAi, Humulin, ADA gene therapy); fills (cry genes, transgenic uses), compares (PCR/probe/ELISA, GEAC vs patents); 3 mnemonics.
   - Ch 11: age pyramids and J/S curves as `ng-figure` (+ `ng-draw` each); `ng-graph` exponential vs logistic with r, K, N₀ sliders and presets; `ng-numerical` per capita birth rate and logistic dN/dt; interactions `ng-fill`; compares (pyramid shapes, J vs S, commensalism vs mutualism); prickly-pear steps; 3 mnemonics.
   - Ch 12: energy/biomass pyramids `ng-figure` + `ng-draw`; `ng-numerical` NPP and 10 % law; decomposition steps; compares (GPP/NPP, decomposition rate, GFC/DFC); pyramid-shapes `ng-fill`; 4 mnemonics.
+  - Ch 13: species–area `ng-figure` + `ng-draw`; `ng-graph` log S vs log A with C and Z sliders (presets Z = 0.15 / 0.9 / 1.15); `ng-numerical` k-fold area → $k^Z$ species; fills (levels, latitudinal birds, Evil Quartet), compares (in situ/ex situ, three reasons to conserve); rivet-popper steps; 5 mnemonics.
+  - Totals: 143 cards; 223 blocks: 30 `ng-figure` (8 newly drawn: fertile window, monohybrid cross, transcription unit, Miller apparatus, biogas plant, EcoRI sticky ends, bioreactor, insulin; the other 22 converted from the earlier inline figures), 26 `ng-draw`, 40 `ng-steps`, 54 `ng-mnemonic`, 35 `ng-compare`, 24 `ng-fill`, 11 `ng-numerical`, 3 `ng-graph`. No `ng-derive` (Biology has no 5-mark derivations). Checked in headless Chrome: every block reaches "ready" (none fails) and every chapter deck opens.
 
 ## Corrections
 - Ch 1 pollen-grain germ-pore leader moved to an actual gap in the exine.
@@ -47,8 +49,8 @@ Paper: **Thu 25 Mar 2027** (date sheet of 6 Nov 2026). Biology-only days 10–24
 ## What's next
 1. **More practice**: raise each chapter to 6+ MCQ/A–R (live quizzes draw on them) and add 2–3 more case questions per unit.
 2. **Practicals (30 marks)**: the experiments in the 2026–27 practical list (check the syllabus PDF; includes DNA isolation, quadrat study, pollen germination, onion root-tip mitosis), the spotting items and viva questions — not on the site yet.
-3. **Diagram polish**: male and female reproductive systems, T.S. of anther (whole), mammary gland, DNA double helix and nucleosome, Bt toxin action and RNAi are described in words only; add SVGs.
-4. **Review pass**: read every Must-know line on a phone in Recall mode; shorten any line over 15 words.
+3. **Diagram polish**: male and female reproductive systems, mammary gland, DNA double helix and nucleosome, tRNA clover leaf, Bt toxin action and RNAi are still described in words only. Draw them as `ng-figure` blocks (parts + `ng-draw`) and add a card for each.
+4. **Review pass**: read every Must-know line on a phone in Recall mode; shorten any line over 15 words; make sure every `:::formula` and `:::tip` in mustknow.md has a title, so it becomes a recall card. On the phone, also tap through each chapter's *Label it yourself* and card deck.
 5. Full-length timed paper on the 2026–27 pattern (papers/ folder) once a Site chat confirms the exam-mode format.
 
 ## Exam mode (Site chat, 15 Nov 2026)

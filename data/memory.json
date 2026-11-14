@@ -1063,6 +1063,53 @@
    "prompt": "Which ecological pyramid can never be inverted, and why?"
   }
  ],
+ "biology/ch-13": [
+  {
+   "id": "ch13-india-numbers",
+   "title": "India's share of the world",
+   "trick": "**2.4 land, 8.1 life**",
+   "meaning": [
+    "India has **2.4%** of the world's land but **8.1%** of its species: one of **12** mega-diversity countries."
+   ],
+   "prompt": "What share of global species diversity does India hold?"
+  },
+  {
+   "id": "ch13-tropics-rich",
+   "title": "Why the tropics are so rich",
+   "trick": "**T**ime, **S**teady, **S**unshine",
+   "meaning": [
+    "Long undisturbed **t**ime for speciation (no glaciations); **s**teady, less seasonal climate (niche specialisation); more **s**olar energy (higher productivity)."
+   ],
+   "prompt": "Give three reasons why the tropics have more species."
+  },
+  {
+   "id": "ch13-hoac",
+   "title": "The four causes of biodiversity loss",
+   "trick": "**HOAC**: \"**H**ow **O**ur **A**nimals **C**ollapse\"",
+   "meaning": [
+    "**H**abitat loss and fragmentation (most important), **O**ver-exploitation, **A**lien species invasions, **C**o-extinctions."
+   ],
+   "prompt": "Name the four causes in the Evil Quartet."
+  },
+  {
+   "id": "ch13-recent-extinctions",
+   "title": "Recent extinctions",
+   "trick": "**D**o **Q**uiet **T**igers **S**leep?",
+   "meaning": [
+    "**D**odo (Mauritius), **Q**uagga (Africa), **T**hylacine (Australia), **S**teller's sea cow (Russia), plus three **tiger** subspecies (Bali, Javan, Caspian)."
+   ],
+   "prompt": "Name four recently extinct animals and where they lived."
+  },
+  {
+   "id": "ch13-indian-hotspots",
+   "title": "India's three hotspots",
+   "trick": "**W**e **I**ndians **H**ave three",
+   "meaning": [
+    "**W**estern Ghats and Sri Lanka, **I**ndo-Burma, **H**imalaya. All 34 hotspots cover under 2% of Earth's land."
+   ],
+   "prompt": "Name the three biodiversity hotspots that cover India."
+  }
+ ],
  "english-core/reading-unseen": [
   {
    "id": "unseen-negatives",

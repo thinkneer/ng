@@ -14,6 +14,23 @@ The term **biodiversity** was popularised by the sociobiologist **Edward Wilson*
 
 India has only **2.4%** of the world's land area but **8.1%** of its species diversity, which makes it one of the **12 mega-diversity countries**. Nearly **45,000** plant species and twice as many animal species have been recorded here.
 
+```ng-fill
+id: ch13-levels
+title: Three levels of biodiversity
+cols: Level | NCERT example
+row: Genetic | [[*Rauwolfia vomitoria*: reserpine varies across the Himalaya; 50,000 rice strains, 1,000 mango varieties]]
+row: Species | [[Western Ghats have more amphibian species than the Eastern Ghats]]
+row: Ecological | [[India (deserts to coral reefs) vs Norway]]
+```
+
+```ng-mnemonic
+id: ch13-india-numbers
+title: India's share of the world
+trick: **2.4 land, 8.1 life**
+meaning: India has **2.4%** of the world's land but **8.1%** of its species: one of **12** mega-diversity countries.
+prompt: What share of global species diversity does India hold?
+```
+
 **In one breath:** Biodiversity (term popularised by Edward Wilson) exists at genetic (*Rauwolfia vomitoria* reserpine; 50,000 rice strains, 1,000 mango varieties), species (Western Ghats amphibians) and ecological levels. About 1.5 million species described, about 7 million estimated (Robert May); over 70% animals, insects over 70% of animals. India: 2.4% of land, 8.1% of species, a mega-diversity country.
 
 ## Patterns of biodiversity
@@ -34,15 +51,75 @@ $\log S = \log C + Z \log A$, or $S = CA^Z$ (S = species richness, A = area, Z =
 
 Ecologists found that **Z** lies in the range **0.1 to 0.2** regardless of the taxonomic group or region. But when the relationship is analysed for **very large areas like entire continents**, the slope is much steeper, with **Z between 0.6 and 1.2**. For frugivorous (fruit-eating) birds and mammals in the tropical forests of different continents, Z is **1.15**.
 
-<figure class="fig">
+```ng-graph
+id: ch13-species-area-graph
+title: Species–area line on log–log axes
+x: log A | 0 | 4
+y: log S | 0 | 6
+curve: log S | log(C) + Z*x
+slider: C | $C$ (intercept) | 1 | 100 | 1 | 10
+slider: Z | $Z$ (slope) | 0.1 | 1.2 | 0.05 | 0.15
+preset: Most regions | Z=0.15
+preset: Whole continents | Z=0.9
+preset: Frugivorous birds and mammals | Z=1.15
+note: On log–log axes $S=CA^Z$ is a straight line of slope $Z$ and intercept $\log C$. Steeper lines (bigger $Z$) mean area matters far more.
+```
+
+```ng-numerical
+id: ch13-area-increase
+title: How many more species in a bigger area?
+question: For a group with $Z={{Z}}$, the area surveyed is increased {{k}} times. By what factor does species richness increase?
+var: Z | 0.10 | 0.20 | 0.01
+var: k | 2 | 100 | 2
+answer: k^Z
+unit: times
+dp: 2
+tol: 2
+step: $S=CA^Z$, so $\dfrac{S_2}{S_1}=\left(\dfrac{A_2}{A_1}\right)^Z={{k}}^{ {{Z}} }$.
+step: $=$ **{{k^Z:2}} times**: a big rise in area gives only a modest rise in species.
+```
+
+```ng-figure
+id: ch13-species-area
+title: Species–area relationship
+svg:
 <svg viewBox="0 0 330 150" role="img" aria-label="Species–area curve and its log–log straight line">
 <path fill="none" stroke="currentColor" stroke-width="1.2" d="M30,130V12M30,130H150M190,130V12M190,130H310"/>
-<path fill="none" stroke="#2E8B3A" stroke-width="2" d="M32,128C40,70,70,40,148,30"/>
-<path fill="none" stroke="#2E8B3A" stroke-width="2" d="M196,118L304,30"/>
+<path class="u" fill="none" stroke-width="2" d="M32,128C40,70,70,40,148,30"/>
+<path class="u" fill="none" stroke-width="2" d="M196,118L304,30"/>
 <g font-size="9" fill="currentColor"><text x="80" y="144">Area (A)</text><text x="230" y="144">log A</text><text x="4" y="72" transform="rotate(-90 12 72)">Species (S)</text><text x="168" y="72" transform="rotate(-90 176 72)">log S</text><text x="250" y="96">slope = Z</text><text x="58" y="112">rectangular hyperbola</text></g>
 </svg>
-<figcaption>Species richness rises with area and levels off (left); on log–log axes it becomes a straight line whose slope is Z (right).</figcaption>
-</figure>
+caption: Species richness rises with area and levels off (left); on log–log axes it becomes a straight line whose slope is Z (right).
+part: 80, 44 | Species–area curve | Rectangular hyperbola: richness rises with area, then levels off.
+part: 250, 74 | Log–log line | log S = log C + Z log A: a straight line.
+part: 300, 34 | Slope = Z | Usually 0.1–0.2; 0.6–1.2 for whole continents.
+part: 196, 118 | Intercept (log C) | Where the line meets the log S axis.
+```
+
+```ng-fill
+id: ch13-latitudinal-birds
+title: Bird species and latitude
+cols: Place | Latitude | Bird species
+row: Colombia | near the equator | [[about 1,400]]
+row: New York | 41° N | [[105]]
+row: Greenland | 71° N | [[56]]
+row: India | largely tropical | [[more than 1,200]]
+```
+
+```ng-mnemonic
+id: ch13-tropics-rich
+title: Why the tropics are so rich
+trick: **T**ime, **S**teady, **S**unshine
+meaning: Long undisturbed **t**ime for speciation (no glaciations); **s**teady, less seasonal climate (niche specialisation); more **s**olar energy (higher productivity).
+prompt: Give three reasons why the tropics have more species.
+```
+
+```ng-draw
+id: ch13-draw-species-area
+title: Draw the species–area curve and its log–log line
+svg: ref: notes#ch13-species-area
+time: 3
+```
 
 **In one breath:** Diversity falls from equator to poles (Colombia 1,400 birds, New York 105, Greenland 56); tropics are rich because of long undisturbed time, constant environments and more solar energy. Humboldt: $\log S = \log C + Z\log A$; Z = 0.1–0.2 normally, 0.6–1.2 for continents (1.15 for frugivorous birds and mammals).
 
@@ -53,6 +130,15 @@ Does the number of species matter for an ecosystem? For many decades ecologists 
 **David Tilman**'s long-term ecosystem experiments in outdoor plots found that plots with **more species showed less year-to-year variation in total biomass**. He also showed that increased diversity contributed to **higher productivity**.
 
 The Stanford ecologist **Paul Ehrlich** explained why losing species matters with the **rivet popper hypothesis**. In an airplane (the ecosystem), all parts are joined by thousands of rivets (species). If every passenger pops a rivet to take home, the plane may not be affected at first, but as more rivets are removed it becomes dangerously weak. Losing rivets on the wings (key species that drive major ecosystem functions) is a more serious threat to flight safety than losing a few rivets on the seats or windows.
+
+```ng-steps
+id: ch13-rivet-popper
+title: Ehrlich's rivet popper hypothesis
+step: The **airplane** is an ecosystem; its thousands of **rivets** are species.
+step: Each passenger pops a rivet and takes it home: at first the plane flies on (**redundancy**).
+step: As more rivets go, the plane becomes **dangerously weak** over time.
+step: Losing rivets on the **wings** (key species driving major ecosystem functions) is far more serious than losing seats' rivets.
+```
 
 **In one breath:** Richer communities are more stable and productive (Tilman's plots). Ehrlich's rivet popper hypothesis: each species is a rivet; losing key "wing" rivets endangers the whole ecosystem.
 
@@ -72,6 +158,32 @@ Loss of biodiversity in a region may lead to a **decline in plant production**, 
 :::tip The Evil Quartet
 Habitat loss and fragmentation (most important), over-exploitation, alien species invasions and co-extinctions. Pair each with its NCERT example.
 :::
+
+```ng-fill
+id: ch13-evil-quartet
+title: The Evil Quartet and its examples
+cols: Cause | NCERT example
+row: Habitat loss and fragmentation | [[rain forests 14% → 6% of land; Amazon cleared for soya and beef cattle]]
+row: Over-exploitation | [[Steller's sea cow, passenger pigeon]]
+row: Alien species invasions | [[Nile perch in Lake Victoria (200+ cichlids lost); *Parthenium*, *Lantana*, water hyacinth; *Clarias gariepinus*]]
+row: Co-extinctions | [[host fish and its parasites; plant and its co-evolved pollinator]]
+```
+
+```ng-mnemonic
+id: ch13-hoac
+title: The four causes of biodiversity loss
+trick: **HOAC**: "**H**ow **O**ur **A**nimals **C**ollapse"
+meaning: **H**abitat loss and fragmentation (most important), **O**ver-exploitation, **A**lien species invasions, **C**o-extinctions.
+prompt: Name the four causes in the Evil Quartet.
+```
+
+```ng-mnemonic
+id: ch13-recent-extinctions
+title: Recent extinctions
+trick: **D**o **Q**uiet **T**igers **S**leep?
+meaning: **D**odo (Mauritius), **Q**uagga (Africa), **T**hylacine (Australia), **S**teller's sea cow (Russia), plus three **tiger** subspecies (Bali, Javan, Caspian).
+prompt: Name four recently extinct animals and where they lived.
+```
 
 **In one breath:** IUCN (2004): 784 extinctions in 500 years (dodo, quagga, thylacine, Steller's sea cow, three tiger subspecies); extinction now 100–1,000 times faster: a sixth extinction. Evil Quartet: habitat loss (rain forests 14% → 6%; Amazon), over-exploitation (sea cow, passenger pigeon), alien invasions (Nile perch, *Parthenium*, *Lantana*, water hyacinth, *Clarias gariepinus*) and co-extinctions.
 
@@ -94,5 +206,30 @@ Habitat loss and fragmentation (most important), over-exploitation, alien specie
 :::tip Protected-area numbers
 In the board answer, write the NCERT figures (14 biosphere reserves, 90 national parks, 448 wildlife sanctuaries); the real numbers have grown since.
 :::
+
+```ng-compare
+id: ch13-in-situ-vs-ex-situ
+title: In situ vs ex situ conservation
+cols: In situ (on site) | Ex situ (off site)
+row: Where | in the natural habitat | outside it, in special settings
+row: Protects | the whole ecosystem, all levels of biodiversity | chosen threatened species
+row: Examples | hotspots, biosphere reserves, national parks, sanctuaries, sacred groves, Ramsar sites | zoos, botanical gardens, safari parks, cryopreservation, seed banks
+```
+
+```ng-compare
+id: ch13-why-conserve
+title: Three reasons to conserve
+cols: Narrowly utilitarian | Broadly utilitarian | Ethical
+row: Idea | direct products | ecosystem services | every species has intrinsic value
+row: Example | food, fibre, medicines (25% of drugs from plants); bioprospecting | Amazon ≈ 20% of oxygen; pollination; aesthetic pleasure | moral duty to future generations
+```
+
+```ng-mnemonic
+id: ch13-indian-hotspots
+title: India's three hotspots
+trick: **W**e **I**ndians **H**ave three
+meaning: **W**estern Ghats and Sri Lanka, **I**ndo-Burma, **H**imalaya. All 34 hotspots cover under 2% of Earth's land.
+prompt: Name the three biodiversity hotspots that cover India.
+```
 
 **In one breath:** Conserve for narrowly utilitarian (food, medicines, bioprospecting), broadly utilitarian (Amazon ≈ 20% of oxygen, pollination) and ethical reasons. In situ: 34 hotspots (3 in India), biosphere reserves, national parks, sanctuaries, sacred groves, Ramsar sites. Ex situ: zoos, botanical gardens, safari parks, cryopreservation, seed banks. Rio Earth Summit 1992; Johannesburg 2002 (190 countries, target 2010).
