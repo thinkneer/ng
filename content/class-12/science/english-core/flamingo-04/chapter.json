@@ -1,0 +1,11 @@
+{
+  "$schema": "../../../../../schemas/chapter.schema.json",
+  "id": "flamingo-04",
+  "number": 10,
+  "title": "The Rattrap",
+  "unit": "C1",
+  "marks_hint": "Prose extract (4) · 2-mark short answers · 5-mark long answer (Section C, estimates)",
+  "summary": "Selma Lagerlöf · the peddler and his rattrap theory · the crofter's thirty kronor · lost in the forest · Ramsjö ironworks, the ironmaster, Edla · Christmas, the gift and the letter · compassion redeems",
+  "status": { "notes": "ready", "mustknow": "ready", "formulas": "ready", "questions": "ready" },
+  "updated": "2026-11-14"
+}

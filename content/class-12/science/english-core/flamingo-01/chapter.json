@@ -1,0 +1,11 @@
+{
+  "$schema": "../../../../../schemas/chapter.schema.json",
+  "id": "flamingo-01",
+  "number": 7,
+  "title": "The Last Lesson",
+  "unit": "C1",
+  "marks_hint": "Prose extract (4) · 2-mark short answers · 5-mark long answer (Section C, estimates)",
+  "summary": "Alphonse Daudet · Franz, M. Hamel, Alsace under Prussia · order from Berlin · the last French lesson · language as identity · procrastination and regret",
+  "status": { "notes": "ready", "mustknow": "ready", "formulas": "ready", "questions": "ready" },
+  "updated": "2026-11-14"
+}

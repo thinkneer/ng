@@ -1,0 +1,11 @@
+{
+  "$schema": "../../../../../schemas/chapter.schema.json",
+  "id": "flamingo-03",
+  "number": 9,
+  "title": "Deep Water",
+  "unit": "C1",
+  "marks_hint": "Prose extract (4) · 2-mark short answers · 5-mark long answer (Section C, estimates)",
+  "summary": "William Douglas · childhood fear of water (beach, YMCA pool) · the near-drowning · years of handicap · the instructor's method · Lake Wentworth test · conquering fear",
+  "status": { "notes": "ready", "mustknow": "ready", "formulas": "ready", "questions": "ready" },
+  "updated": "2026-11-14"
+}

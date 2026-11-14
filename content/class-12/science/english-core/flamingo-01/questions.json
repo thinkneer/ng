@@ -1,0 +1,165 @@
+[
+  {
+    "id": "eng-flamingo-01-q01",
+    "chapter": "flamingo-01",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 2,
+    "label": "SQP-style",
+    "topic": "plot",
+    "stem": "Why was Franz afraid of going to school that morning?",
+    "options": [
+      "He had not done his homework on French history.",
+      "M. Hamel had said he would question the class on participles and Franz had not learnt them.",
+      "The Prussian soldiers had surrounded the school.",
+      "He had broken M. Hamel's ruler the previous day."
+    ],
+    "answer": "B",
+    "model_answer": "**(b)** Franz dreaded a scolding because he did not know the first word about participles."
+  },
+  {
+    "id": "eng-flamingo-01-q02",
+    "chapter": "flamingo-01",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 2,
+    "label": "SQP-style",
+    "topic": "theme",
+    "stem": "Franz wondering whether the pigeons would be made to sing in German is an example of",
+    "options": [
+      "the writer's humour about birds",
+      "Franz's dislike of the German language",
+      "a child's view of linguistic chauvinism — forcing a language on everyone",
+      "the Prussians' love of music"
+    ],
+    "answer": "C",
+    "model_answer": "**(c)** The thought exposes the absurdity and tyranny of imposing a language on a conquered people."
+  },
+  {
+    "id": "eng-flamingo-01-q03",
+    "chapter": "flamingo-01",
+    "type": "case",
+    "marks": 4,
+    "stars": 3,
+    "label": "SQP-style",
+    "topic": "extract-based",
+    "stem": "Read the passage in the chapter where M. Hamel, after Franz fails to recite the participle rule, says that the people of Alsace always put off learning till tomorrow, and then goes on to blame the parents and himself. Answer the questions that follow.",
+    "hint": "The passage is about procrastination and shared blame; the Prussians' taunt is that Alsatians claim to be French but cannot write their language.",
+    "parts": [
+      {
+        "id": "a",
+        "stem": "What habit of the people of Alsace does M. Hamel point out?",
+        "marks": 1,
+        "model_answer": "Procrastination — putting off learning with the thought that there is time enough, so that now they cannot write their own language.",
+        "scheme": [{ "step": "Procrastination / putting off learning till tomorrow", "marks": 1 }]
+      },
+      {
+        "id": "b",
+        "stem": "Which of these does M. Hamel NOT blame? (A) the parents (B) himself (C) the Prussian soldiers (D) the children",
+        "marks": 1,
+        "options": ["the parents", "himself", "the Prussian soldiers", "the children"],
+        "answer": "C",
+        "model_answer": "(C) He blames parents, children and himself, not the soldiers.",
+        "scheme": [{ "step": "Option C", "marks": 1 }]
+      },
+      {
+        "id": "c",
+        "stem": "Why does M. Hamel blame the parents?",
+        "marks": 1,
+        "model_answer": "They preferred to send their children to work on farms or in the mills to earn a little extra money rather than to school.",
+        "scheme": [{ "step": "Sent children to work for money instead of school", "marks": 1 }]
+      },
+      {
+        "id": "d",
+        "stem": "What does M. Hamel's self-criticism reveal about his character?",
+        "marks": 1,
+        "model_answer": "His honesty and fairness — he does not spare himself (fishing holidays, making boys water his flowers) while judging others.",
+        "scheme": [{ "step": "Honest / fair / self-critical, with one example", "marks": 1 }]
+      }
+    ]
+  },
+  {
+    "id": "eng-flamingo-01-q04",
+    "chapter": "flamingo-01",
+    "type": "vsa2",
+    "marks": 2,
+    "stars": 3,
+    "label": "PYQ-style",
+    "topic": "changes in school",
+    "stem": "What unusual things did Franz notice on entering the classroom that day? (40–50 words)",
+    "hint": "Three or four signs: silence, teacher's manner, Sunday clothes, back benches.",
+    "model_answer": "The usual bustle was replaced by a Sunday-morning stillness. M. Hamel, instead of scolding Franz for being late, spoke kindly, and he was dressed in his fine green coat, frilled shirt and embroidered silk cap, worn only on special days. Strangest of all, the village elders — old Hauser, the former mayor and postmaster — sat silently on the back benches.",
+    "scheme": [
+      { "step": "Silence and M. Hamel's gentleness and Sunday clothes", "marks": 1 },
+      { "step": "Villagers on the back benches (named examples); within word limit", "marks": 1 }
+    ]
+  },
+  {
+    "id": "eng-flamingo-01-q05",
+    "chapter": "flamingo-01",
+    "type": "vsa2",
+    "marks": 2,
+    "stars": 3,
+    "label": "PYQ-style",
+    "topic": "villagers",
+    "stem": "Why had the villagers come to attend the last lesson? (40–50 words)",
+    "hint": "Two reasons: gratitude/respect and regret.",
+    "model_answer": "The villagers had come to thank M. Hamel for forty years of faithful service and to pay respect to the country that was no longer theirs. They also regretted not having attended school more often, and the last French lesson gave them a final chance to honour their language.",
+    "scheme": [
+      { "step": "To thank M. Hamel for forty years and honour their lost country", "marks": 1 },
+      { "step": "Regret at not having learnt / last chance with their language", "marks": 1 }
+    ]
+  },
+  {
+    "id": "eng-flamingo-01-q06",
+    "chapter": "flamingo-01",
+    "type": "vsa2",
+    "marks": 2,
+    "stars": 2,
+    "label": "PYQ-style",
+    "topic": "bulletin board",
+    "stem": "What was the significance of the bulletin board, and what did Wachter mean by telling Franz not to hurry? (40–50 words)",
+    "hint": "Two years of bad news; the order about German; a sad joke.",
+    "model_answer": "For two years the bulletin board outside the town hall had carried all the bad news — lost battles, the draft, the officers' orders. That day it announced that only German would be taught in Alsace. Wachter's remark was a bitter joke: there was no hurry now, since French school itself was ending.",
+    "scheme": [
+      { "step": "Board = source of bad news for two years; that day's order about German", "marks": 1 },
+      { "step": "Wachter: no point hurrying, French teaching was over", "marks": 1 }
+    ]
+  },
+  {
+    "id": "eng-flamingo-01-q07",
+    "chapter": "flamingo-01",
+    "type": "la5",
+    "marks": 5,
+    "stars": 3,
+    "label": "PYQ-style",
+    "topic": "Franz's change",
+    "stem": "'Losing something makes us realise its worth.' Discuss how Franz's attitude towards his school, his books and his teacher changes in the course of the last lesson. (120–150 words)",
+    "hint": "Before (truant, dreaded participles, feared the ruler) → announcement → after (regret, books as friends, admiration for M. Hamel, understands easily) → message.",
+    "model_answer": "At the start of the story Franz is an ordinary reluctant schoolboy. He dreads the test on participles, is tempted by the warm morning and the drilling soldiers, and regards his books as a burden and M. Hamel as a crabby man with an iron ruler.\n\nM. Hamel's announcement that this is the last French lesson strikes him like a thunderclap. Suddenly he is sorry for every lesson he skipped to hunt birds' eggs or slide on the Saar. His grammar and history, which he found so tiresome, now seem like old friends he cannot bear to lose. He forgets the ruler and feels only pity and respect for the teacher who is leaving after forty years.\n\nDuring the lesson he understands everything with ease and feels he has never listened so carefully. Daudet shows through Franz that we value our language, our learning and our teachers only when we are about to lose them — the price of procrastination.",
+    "scheme": [
+      { "step": "Franz's earlier attitude: truancy, dread of participles, books a burden, fear of M. Hamel", "marks": 1 },
+      { "step": "The turning point: announcement of the last lesson and his shock", "marks": 1 },
+      { "step": "After: regret for lost lessons; books as old friends; sympathy and respect for M. Hamel; attentive learning", "marks": 2 },
+      { "step": "Conclusion linking to the message (value of what is lost / procrastination); expression and length", "marks": 1 }
+    ]
+  },
+  {
+    "id": "eng-flamingo-01-q08",
+    "chapter": "flamingo-01",
+    "type": "la5",
+    "marks": 5,
+    "stars": 3,
+    "label": "PYQ-style",
+    "topic": "language and identity",
+    "stem": "Why does M. Hamel say that a people who hold fast to their language hold the key to their prison? How does 'The Last Lesson' present language as the core of a people's identity and freedom? (120–150 words)",
+    "hint": "Explain the metaphor; link to the order from Berlin; examples: France/Alsace copies, pigeons, villagers, Vive La France!",
+    "model_answer": "M. Hamel's words come at the moment Alsace is losing the right to its own language. The Prussian order from Berlin replaces French with German in schools because a conqueror knows that a people's language carries their history, culture and sense of who they are. If that is erased, the conquest is complete.\n\nTo hold fast to one's language, M. Hamel says, is to keep the key to the prison: even an enslaved people stay inwardly free as long as they think, speak and remember in their own tongue. The story shows this quietly. The new copies with the words France and Alsace flutter like little flags; Franz wonders bitterly whether even the pigeons will be made to sing in German; the villagers come to honour their language one last time; and M. Hamel's final act is to write, not say, two words of French on the board.\n\nLanguage, Daudet suggests, is the last fortress of a people's freedom.",
+    "scheme": [
+      { "step": "Context: the order from Berlin replacing French with German", "marks": 1 },
+      { "step": "Explanation of the metaphor: language = identity, culture, inner freedom", "marks": 1 },
+      { "step": "Three textual examples (copies, pigeons, villagers, Vive La France!)", "marks": 2 },
+      { "step": "Conclusion on linguistic chauvinism / language as freedom; expression and length", "marks": 1 }
+    ]
+  }
+]

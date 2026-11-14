@@ -1,0 +1,165 @@
+[
+  {
+    "id": "eng-flamingo-02-q01",
+    "chapter": "flamingo-02",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 2,
+    "label": "SQP-style",
+    "topic": "Saheb",
+    "stem": "Why did Saheb's family leave Dhaka?",
+    "options": [
+      "To find a school for Saheb",
+      "Storms had swept away their fields and homes",
+      "They were invited to work in Delhi's bangle factories",
+      "They wanted to join relatives in Seemapuri"
+    ],
+    "answer": "B",
+    "model_answer": "**(b)** Natural disaster destroyed their green fields, forcing them to migrate in search of a living."
+  },
+  {
+    "id": "eng-flamingo-02-q02",
+    "chapter": "flamingo-02",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 2,
+    "label": "SQP-style",
+    "topic": "Firozabad",
+    "stem": "Which of these is NOT named by the author as part of the vicious circle trapping the bangle makers?",
+    "options": [
+      "Sahukars",
+      "Middlemen",
+      "Schoolteachers",
+      "Politicians"
+    ],
+    "answer": "C",
+    "model_answer": "**(c)** The circle is sahukars, middlemen, policemen, keepers of law, bureaucrats and politicians."
+  },
+  {
+    "id": "eng-flamingo-02-q03",
+    "chapter": "flamingo-02",
+    "type": "case",
+    "marks": 4,
+    "stars": 3,
+    "label": "SQP-style",
+    "topic": "extract-based",
+    "stem": "Read the part of the chapter where the author sees Saheb one winter morning standing at the gate of a neighbourhood club watching two young men play tennis, and then describes the tennis shoes he is wearing. Answer the questions that follow.",
+    "hint": "The shoes are discarded, with a hole; to a barefoot boy even these are a dream; the scene contrasts the two childhoods.",
+    "parts": [
+      {
+        "id": "a",
+        "stem": "What is Saheb doing at the club gate, and what does the scene contrast?",
+        "marks": 1,
+        "model_answer": "He is watching, from outside, boys of his age playing tennis; the scene contrasts the privileged child's play with the poor child's exclusion.",
+        "scheme": [{ "step": "Watching tennis from outside; contrast of two childhoods", "marks": 1 }]
+      },
+      {
+        "id": "b",
+        "stem": "The tennis shoes Saheb wears are (A) new, bought by his father (B) a discarded pair with a hole (C) borrowed from the club (D) a gift from the author",
+        "marks": 1,
+        "options": ["new, bought by his father", "a discarded pair with a hole", "borrowed from the club", "a gift from the author"],
+        "answer": "B",
+        "model_answer": "(B) Someone threw them away because of the hole.",
+        "scheme": [{ "step": "Option B", "marks": 1 }]
+      },
+      {
+        "id": "c",
+        "stem": "Why do the shoes not bother Saheb despite the hole?",
+        "marks": 1,
+        "model_answer": "For a boy who has always walked barefoot, even discarded shoes with a hole are a dream come true.",
+        "scheme": [{ "step": "A barefoot boy values even torn shoes", "marks": 1 }]
+      },
+      {
+        "id": "d",
+        "stem": "Which theme of the chapter does this scene illustrate?",
+        "marks": 1,
+        "model_answer": "The inequality of childhoods — some children play, others only watch; poverty steals the normal joys of growing up.",
+        "scheme": [{ "step": "Inequality / stolen childhood", "marks": 1 }]
+      }
+    ]
+  },
+  {
+    "id": "eng-flamingo-02-q04",
+    "chapter": "flamingo-02",
+    "type": "vsa2",
+    "marks": 2,
+    "stars": 3,
+    "label": "PYQ-style",
+    "topic": "garbage is gold",
+    "stem": "Garbage has a different meaning for the children of Seemapuri and for their parents. Explain. (40–50 words)",
+    "hint": "Adults: necessity; children: wonder.",
+    "model_answer": "For the elders of Seemapuri garbage is gold — it provides their daily bread and a roof over their heads, so they value it purely as a means of survival. For the children it is wrapped in wonder: a boy may find a coin or even a ten-rupee note and keeps searching with the hope of finding more.",
+    "scheme": [
+      { "step": "Adults: gold = livelihood, daily bread, roof", "marks": 1 },
+      { "step": "Children: wonder, hope of finding a coin or note", "marks": 1 }
+    ]
+  },
+  {
+    "id": "eng-flamingo-02-q05",
+    "chapter": "flamingo-02",
+    "type": "vsa2",
+    "marks": 2,
+    "stars": 3,
+    "label": "PYQ-style",
+    "topic": "Saheb's freedom",
+    "stem": "Why does the author say that Saheb is no longer his own master after he starts working at the tea stall? (40–50 words)",
+    "hint": "Canister vs bag; wages vs freedom.",
+    "model_answer": "At the tea stall Saheb earns 800 rupees and his meals, but his face has lost its carefree look. The steel canister he now carries belongs to the owner, while the plastic bag he once carried so lightly was his own. Regular work has given him security but taken away the freedom of the ragpicker.",
+    "scheme": [
+      { "step": "Earns wages and meals but has lost his carefree look", "marks": 1 },
+      { "step": "Canister belongs to the owner, bag was his own — freedom lost", "marks": 1 }
+    ]
+  },
+  {
+    "id": "eng-flamingo-02-q06",
+    "chapter": "flamingo-02",
+    "type": "vsa2",
+    "marks": 2,
+    "stars": 2,
+    "label": "PYQ-style",
+    "topic": "hazards",
+    "stem": "What hazards do the children working in the glass bangle industry of Firozabad face? (40–50 words)",
+    "hint": "Furnace heat, airless dark cells, eyesight, law ignored.",
+    "model_answer": "The children work beside their parents around glass furnaces at very high temperatures, in dingy cells without air or light, welding and soldering glass. The heat and the glare damage their eyes, and many lose their eyesight before they grow up. Though child labour is banned, about 20,000 children work there illegally.",
+    "scheme": [
+      { "step": "Heat of furnaces; dark, airless cells; glass dust", "marks": 1 },
+      { "step": "Loss of eyesight / blindness; law ignored, 20,000 children", "marks": 1 }
+    ]
+  },
+  {
+    "id": "eng-flamingo-02-q07",
+    "chapter": "flamingo-02",
+    "type": "la5",
+    "marks": 5,
+    "stars": 3,
+    "label": "PYQ-style",
+    "topic": "vicious circle",
+    "stem": "The bangle makers of Firozabad are caught in a vicious circle from which there seems no escape. Describe the forces that keep them trapped and explain why they do not organise themselves. (120–150 words)",
+    "hint": "Context → the circle named → fear of police, no leader → caste stigma and destiny → two worlds → Mukesh as hope.",
+    "model_answer": "In Firozabad bangle making is hereditary. Generations have worked around glass furnaces in dark, airless cells, losing their eyesight and gaining nothing — Mukesh's father has not even been able to repair his house or send his sons to school.\n\nThe workers are trapped by what Anees Jung calls a vicious circle. Sahukars lend money and keep them in debt; middlemen buy the bangles cheaply; policemen beat and jail anyone who tries something new; keepers of law and bureaucrats do not enforce the ban on child labour; politicians have no will to change the system. When the young men are asked why they do not form a cooperative, they reply that they would be hauled up by the police for doing something illegal. There is no leader to unite them.\n\nAdded to this is the mental chain of caste and destiny — the grandmother's belief that bangle making is their karam. Only Mukesh's dream of a garage breaks the circle.",
+    "scheme": [
+      { "step": "Context: hereditary trade, furnaces, poverty of Mukesh's family", "marks": 1 },
+      { "step": "The circle named and explained: sahukars, middlemen, police, law-keepers, bureaucrats, politicians", "marks": 2 },
+      { "step": "Why no cooperative: fear of police, no leader; caste stigma and belief in destiny", "marks": 1 },
+      { "step": "Conclusion (Mukesh's dream / two worlds); expression and length", "marks": 1 }
+    ]
+  },
+  {
+    "id": "eng-flamingo-02-q08",
+    "chapter": "flamingo-02",
+    "type": "la5",
+    "marks": 5,
+    "stars": 3,
+    "label": "PYQ-style",
+    "topic": "title and theme",
+    "stem": "Justify the title 'Lost Spring' with reference to the lives of Saheb and Mukesh. (120–150 words)",
+    "hint": "Spring = childhood → Saheb (garbage, no school, tea stall) → Mukesh and Firozabad children (furnaces, eyesight, destiny) → what steals it → hope.",
+    "model_answer": "Spring is the season of growth, freshness and promise; in human life it is childhood. Anees Jung's title says that for millions of poor children this spring is lost before it blooms, and her two stories prove it.\n\nSaheb should be in school, but there is none in Seemapuri; he spends his mornings scrounging in garbage dumps, barefoot, and his family's whole existence depends on what he finds. When he finally gets a job at a tea stall, even the little freedom of the ragpicker is taken away — he becomes a servant carrying another man's canister.\n\nMukesh and the twenty thousand children of Firozabad lose their spring at the glass furnaces, in dark cells where they lose their eyesight and their dreams. Poverty, hereditary caste, the belief in destiny and a circle of exploiters steal their childhood as surely as storms stole Saheb's fields.\n\nThe title mourns these stolen springs, while Mukesh's small dream keeps a seed of hope alive.",
+    "scheme": [
+      { "step": "Meaning of 'spring' = childhood, growth, hope", "marks": 1 },
+      { "step": "Saheb: garbage, no school, barefoot, tea stall takes freedom", "marks": 1.5 },
+      { "step": "Mukesh/Firozabad: furnaces, eyesight, destiny, exploitation", "marks": 1.5 },
+      { "step": "Conclusion: title justified, note of hope; expression and length", "marks": 1 }
+    ]
+  }
+]

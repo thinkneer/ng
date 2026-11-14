@@ -1,0 +1,11 @@
+{
+  "$schema": "../../../../../schemas/chapter.schema.json",
+  "id": "flamingo-02",
+  "number": 8,
+  "title": "Lost Spring",
+  "unit": "C1",
+  "marks_hint": "Prose extract (4) · 2-mark short answers · 5-mark long answer (Section C, estimates)",
+  "summary": "Anees Jung · Saheb the ragpicker of Seemapuri · Mukesh and the bangle makers of Firozabad · poverty, child labour, the vicious circle · dreams and the loss of childhood",
+  "status": { "notes": "ready", "mustknow": "ready", "formulas": "ready", "questions": "ready" },
+  "updated": "2026-11-14"
+}

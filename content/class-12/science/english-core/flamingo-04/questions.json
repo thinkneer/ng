@@ -1,0 +1,165 @@
+[
+  {
+    "id": "eng-flamingo-04-q01",
+    "chapter": "flamingo-04",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 2,
+    "label": "SQP-style",
+    "topic": "plot",
+    "stem": "Where did the crofter keep his thirty kronor?",
+    "options": [
+      "Under his pillow",
+      "In a leather pouch hanging on a nail by the window frame",
+      "In the cowshed",
+      "With the creamery manager"
+    ],
+    "answer": "B",
+    "model_answer": "**(b)** He showed the three ten-kronor notes from the pouch to prove he was telling the truth."
+  },
+  {
+    "id": "eng-flamingo-04-q02",
+    "chapter": "flamingo-04",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 2,
+    "label": "SQP-style",
+    "topic": "character",
+    "stem": "The peddler signed his letter as 'Captain von Stahle' because",
+    "options": [
+      "he had really served in the army with the ironmaster",
+      "Edla had asked him to use that name",
+      "being treated as a captain had raised him to behave honourably, like one",
+      "he wanted to continue deceiving the family"
+    ],
+    "answer": "C",
+    "model_answer": "**(c)** Being 'raised to captain' by Edla's respect gave him the power to clear himself of the theft."
+  },
+  {
+    "id": "eng-flamingo-04-q03",
+    "chapter": "flamingo-04",
+    "type": "case",
+    "marks": 4,
+    "stars": 3,
+    "label": "SQP-style",
+    "topic": "extract-based",
+    "stem": "Read the passage in the chapter where the peddler, after stealing the money, turns off into the forest, walks all day and realises by evening that he has been going round in circles; he recalls his own theory and feels that the forest is a prison and that he is caught in the rattrap. Answer the questions that follow.",
+    "hint": "He avoided the highway out of fear; the stolen notes are the bait; the forest is the trap; his own theory turns on him.",
+    "parts": [
+      {
+        "id": "a",
+        "stem": "Why did the peddler leave the public highway and enter the forest?",
+        "marks": 1,
+        "model_answer": "He had just stolen the crofter's money and wanted to avoid being seen or caught on the open road.",
+        "scheme": [{ "step": "To avoid being caught after the theft", "marks": 1 }]
+      },
+      {
+        "id": "b",
+        "stem": "In this passage, the 'bait' that trapped the peddler is (A) the crofter's porridge (B) the thirty kronor (C) the ironmaster's invitation (D) Edla's kindness",
+        "marks": 1,
+        "options": ["the crofter's porridge", "the thirty kronor", "the ironmaster's invitation", "Edla's kindness"],
+        "answer": "B",
+        "model_answer": "(B) The stolen notes were the bait he could not resist.",
+        "scheme": [{ "step": "Option B", "marks": 1 }]
+      },
+      {
+        "id": "c",
+        "stem": "What does the forest symbolise here?",
+        "marks": 1,
+        "model_answer": "The closed trap — an impenetrable prison from which, like a rat that has touched the bait, he cannot escape.",
+        "scheme": [{ "step": "Forest = prison / the rattrap closed", "marks": 1 }]
+      },
+      {
+        "id": "d",
+        "stem": "What is ironic about the peddler's situation at this point?",
+        "marks": 1,
+        "model_answer": "The man who enjoyed imagining others caught in the world's rattrap has become its victim himself, through his own greed.",
+        "scheme": [{ "step": "The theorist of the rattrap is trapped by it", "marks": 1 }]
+      }
+    ]
+  },
+  {
+    "id": "eng-flamingo-04-q04",
+    "chapter": "flamingo-04",
+    "type": "vsa2",
+    "marks": 2,
+    "stars": 3,
+    "label": "PYQ-style",
+    "topic": "rattrap theory",
+    "stem": "What was the peddler's theory about the world? Why did it give him pleasure? (40–50 words)",
+    "hint": "Baits; trap closes; bitter revenge on an unkind world.",
+    "model_answer": "The peddler believed the whole world was a huge rattrap. It tempted people with baits — riches, joys, food, shelter, warmth and clothes — and the moment anyone touched them, the trap closed. The idea pleased him because the world had been unkind to him; imagining others caught in its trap gave him a bitter satisfaction.",
+    "scheme": [
+      { "step": "World as rattrap with baits listed; trap closes", "marks": 1 },
+      { "step": "Pleasure: revenge on an unkind world, imagining others trapped", "marks": 1 }
+    ]
+  },
+  {
+    "id": "eng-flamingo-04-q05",
+    "chapter": "flamingo-04",
+    "type": "vsa2",
+    "marks": 2,
+    "stars": 3,
+    "label": "PYQ-style",
+    "topic": "two invitations",
+    "stem": "Why did the peddler refuse the ironmaster's invitation but accept Edla's? (40–50 words)",
+    "hint": "Fear of exposure vs compassion and freedom to leave.",
+    "model_answer": "The ironmaster invited him as Captain von Stahle, and the peddler, carrying stolen money and knowing the mistake, feared exposure and the sheriff at a rich man's house. Edla, however, saw his fear and spoke with real compassion, assuring him he need stay only for Christmas Eve and could leave whenever he wished. Her kindness won him over.",
+    "scheme": [
+      { "step": "Refused: false identity, stolen money, fear of sheriff", "marks": 1 },
+      { "step": "Accepted: Edla's compassion and promise of freedom to leave", "marks": 1 }
+    ]
+  },
+  {
+    "id": "eng-flamingo-04-q06",
+    "chapter": "flamingo-04",
+    "type": "vsa2",
+    "marks": 2,
+    "stars": 2,
+    "label": "PYQ-style",
+    "topic": "Edla's plea",
+    "stem": "Why did Edla insist that the peddler stay on even after his identity was discovered? (40–50 words)",
+    "hint": "One day of peace; she had invited him; Christmas spirit.",
+    "model_answer": "Edla felt responsible, since she had persuaded him to come. She also pitied a man who was chased from place to place all year, hungry and homeless, and wanted him to enjoy at least one day of peace and a proper Christmas. Her father's threat of the sheriff seemed to her against the spirit of the festival.",
+    "scheme": [
+      { "step": "She had invited him; sense of responsibility", "marks": 1 },
+      { "step": "Wanted him to have one day of peace / Christmas spirit", "marks": 1 }
+    ]
+  },
+  {
+    "id": "eng-flamingo-04-q07",
+    "chapter": "flamingo-04",
+    "type": "la5",
+    "marks": 5,
+    "stars": 3,
+    "label": "PYQ-style",
+    "topic": "transformation",
+    "stem": "'The story is a testimony to the fact that human goodness, once awakened, can transform a person.' Trace the change in the peddler and show how Edla Willmansson brought it about. (120–150 words)",
+    "hint": "Who he was → the theft → Edla's three acts (invitation, plea, gift) → the rattrap gift and letter → message.",
+    "model_answer": "The peddler begins as a bitter vagabond who sells rattraps, begs and steals, and who consoles himself with the thought that the world is a rattrap in which everyone is caught. He proves his own theory by robbing the crofter who had fed him, and feels trapped when he loses his way in the forest.\n\nEdla Willmansson changes him. At the forge she notices his fear but speaks to him gently, promising that he may leave whenever he wishes. When his identity is exposed and her father wants the sheriff, she insists that he be allowed one day of peace and a Christmas like other people. She gives him her father's suit as a gift and invites him to return.\n\nTreated for the first time with trust and respect, the peddler responds in kind. He leaves behind a rattrap containing the stolen notes to be returned to the crofter, with a letter signed Captain von Stahle — the dignity Edla gave him has become his own.",
+    "scheme": [
+      { "step": "The peddler's earlier character and the theft", "marks": 1 },
+      { "step": "Edla's compassion: invitation, plea for one day of peace, gift and invitation to return", "marks": 2 },
+      { "step": "The change: money returned, letter, signature as captain", "marks": 1 },
+      { "step": "Message about goodness awakening goodness; expression and length", "marks": 1 }
+    ]
+  },
+  {
+    "id": "eng-flamingo-04-q08",
+    "chapter": "flamingo-04",
+    "type": "la5",
+    "marks": 5,
+    "stars": 2,
+    "label": "PYQ-style",
+    "topic": "metaphor",
+    "stem": "How does the metaphor of the rattrap work through the whole story, from the peddler's idle theory to his final letter? (120–150 words)",
+    "hint": "Theory → baits → thirty kronor as bait → forest as trap → ironmaster's house as another possible trap → kindness as the way out → rattrap gift and 'raised to captain'.",
+    "model_answer": "The rattrap begins as a cynical joke. Making wire traps for a living, the peddler decides that the world itself is a rattrap, offering riches, food and shelter as bait and snapping shut on whoever touches them. The idea comforts a man the world has ill-treated.\n\nThe story then makes him live his metaphor. The crofter's thirty kronor are the bait; he grabs them and, lost in the forest, feels the trap close around him. At Ramsjö the invitation to a rich man's house, with a sheriff somewhere near, looks like another trap, and he refuses it in fear.\n\nEdla's kindness turns the metaphor around. Trust and respect, not bait, draw him in, and they set him free. His parting gift to her is a rattrap — but this time it holds the stolen money being returned. His letter calls himself a rat who would have been caught had he not been raised to captain. The trap that catches people is greed; the key that opens it is compassion.",
+    "scheme": [
+      { "step": "The theory and why it consoles him", "marks": 1 },
+      { "step": "Living the metaphor: money as bait, forest as trap, fear at Ramsjö", "marks": 2 },
+      { "step": "The reversal: kindness frees him; the rattrap gift and the letter", "marks": 1 },
+      { "step": "Conclusion on greed vs compassion; expression and length", "marks": 1 }
+    ]
+  }
+]

@@ -1,0 +1,165 @@
+[
+  {
+    "id": "eng-flamingo-03-q01",
+    "chapter": "flamingo-03",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 2,
+    "label": "SQP-style",
+    "topic": "plot",
+    "stem": "Why did Douglas choose the YMCA pool to learn swimming rather than the Yakima River?",
+    "options": [
+      "The river was too far from his home.",
+      "The pool was safe, with a shallow end and a gradual drop, while the river was treacherous.",
+      "His father insisted on the pool.",
+      "The river was frozen most of the year."
+    ],
+    "answer": "B",
+    "model_answer": "**(b)** The pool was only two or three feet at the shallow end; his mother kept warning him about drownings in the Yakima."
+  },
+  {
+    "id": "eng-flamingo-03-q02",
+    "chapter": "flamingo-03",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 2,
+    "label": "SQP-style",
+    "topic": "method",
+    "stem": "Which was the FIRST thing the instructor did to help Douglas?",
+    "options": [
+      "Taught him to kick his legs at the side of the pool",
+      "Made him put his face under water and exhale",
+      "Put a belt around him attached to a rope through a pulley and took him across the pool",
+      "Took him to Lake Wentworth"
+    ],
+    "answer": "C",
+    "model_answer": "**(c)** The belt–rope–pulley exercise came first and lasted about three months; breathing and kicking followed."
+  },
+  {
+    "id": "eng-flamingo-03-q03",
+    "chapter": "flamingo-03",
+    "type": "case",
+    "marks": 4,
+    "stars": 3,
+    "label": "SQP-style",
+    "topic": "extract-based",
+    "stem": "Read the passage in the chapter in which Douglas, sinking for the third time, describes how all effort ceased, how he felt drowsy and peaceful, and how the terror left him just before he lost consciousness. Answer the questions that follow.",
+    "hint": "The third sinking: effort stops, no fear, peace, blackness; contrast with the terror of the earlier attempts; this feeling later shapes his lesson about death.",
+    "parts": [
+      {
+        "id": "a",
+        "stem": "How many times had Douglas tried to rise before this moment?",
+        "marks": 1,
+        "model_answer": "Twice — he had jumped off the bottom twice and failed to reach the surface.",
+        "scheme": [{ "step": "Two attempts before the third sinking", "marks": 1 }]
+      },
+      {
+        "id": "b",
+        "stem": "The feeling Douglas describes at this moment is best called (A) rage at the bully (B) calm drowsiness and peace (C) hope of rescue (D) regret about the river",
+        "marks": 1,
+        "options": ["rage at the bully", "calm drowsiness and peace", "hope of rescue", "regret about the river"],
+        "answer": "B",
+        "model_answer": "(B) Effort ceased, fear left him and he felt drowsy, as if being carried to sleep.",
+        "scheme": [{ "step": "Option B", "marks": 1 }]
+      },
+      {
+        "id": "c",
+        "stem": "How does this moment contrast with his earlier attempts?",
+        "marks": 1,
+        "model_answer": "Earlier he had struggled in panic — lungs bursting, legs paralysed, trying to scream; now he stopped struggling and felt no fear at all.",
+        "scheme": [{ "step": "Panic and struggle earlier vs peace and stillness now", "marks": 1 }]
+      },
+      {
+        "id": "d",
+        "stem": "How did this experience shape Douglas's later understanding of fear?",
+        "marks": 1,
+        "model_answer": "He realised that death itself holds peace and that only the fear of death is terrible — the fear he later set out to conquer.",
+        "scheme": [{ "step": "Fear of death, not death, is the real enemy", "marks": 1 }]
+      }
+    ]
+  },
+  {
+    "id": "eng-flamingo-03-q04",
+    "chapter": "flamingo-03",
+    "type": "vsa2",
+    "marks": 2,
+    "stars": 3,
+    "label": "PYQ-style",
+    "topic": "origin of fear",
+    "stem": "Which two incidents in Douglas's childhood made him afraid of water? (40–50 words)",
+    "hint": "Beach at 3–4; pool at 10–11.",
+    "model_answer": "When he was three or four, his father took him to a California beach where the waves knocked him down and buried him in water, leaving a lasting fear. At ten or eleven, at the YMCA pool in Yakima, a big bully threw him into the deep end and he nearly drowned, turning the aversion into terror.",
+    "scheme": [
+      { "step": "Beach incident with age and detail", "marks": 1 },
+      { "step": "Pool incident with age and detail", "marks": 1 }
+    ]
+  },
+  {
+    "id": "eng-flamingo-03-q05",
+    "chapter": "flamingo-03",
+    "type": "vsa2",
+    "marks": 2,
+    "stars": 3,
+    "label": "PYQ-style",
+    "topic": "instructor",
+    "stem": "How did the instructor build a swimmer out of Douglas piece by piece? (40–50 words)",
+    "hint": "Belt–rope–pulley; breathing; kicking; integration; Oct–April.",
+    "model_answer": "From October to April, an hour a day, the instructor first took Douglas back and forth across the pool held by a belt and a rope running through an overhead pulley. He then taught him to exhale with his face under water and inhale with his nose up, made him kick his legs at the pool side, and finally combined all the pieces.",
+    "scheme": [
+      { "step": "Belt, rope and pulley across the pool; breathing practice", "marks": 1 },
+      { "step": "Leg kicks; integration of the parts; the time span", "marks": 1 }
+    ]
+  },
+  {
+    "id": "eng-flamingo-03-q06",
+    "chapter": "flamingo-03",
+    "type": "vsa2",
+    "marks": 2,
+    "stars": 2,
+    "label": "PYQ-style",
+    "topic": "self-test",
+    "stem": "Why was Douglas not satisfied even after the instructor declared him a swimmer? What did he do about it? (40–50 words)",
+    "hint": "Doubt whether terror remained; Lake Wentworth two miles; Warm Lake.",
+    "model_answer": "He could swim, but he was not sure the old terror had left him. So he tested himself alone: he dived into Lake Wentworth and swam two miles to Stamp Act Island, laughing at the faint fear that returned midway, and later swam across Warm Lake and back, shouting with joy when the fear did not come.",
+    "scheme": [
+      { "step": "Doubt that the terror still lurked", "marks": 1 },
+      { "step": "Lake Wentworth two-mile swim and Warm Lake test", "marks": 1 }
+    ]
+  },
+  {
+    "id": "eng-flamingo-03-q07",
+    "chapter": "flamingo-03",
+    "type": "la5",
+    "marks": 5,
+    "stars": 3,
+    "label": "PYQ-style",
+    "topic": "near-drowning",
+    "stem": "Describe in detail Douglas's experience at the YMCA pool from the moment he was thrown in till he was revived. (120–150 words)",
+    "hint": "Bully → sinking → plan → attempt 1 → attempt 2 → third sinking → revival; keep the sequence.",
+    "model_answer": "Douglas was sitting alone at the pool side when a muscular boy of about eighteen picked him up and tossed him into the deep end. He landed in a sitting position, swallowed water and sank to the bottom, nine feet down.\n\nEven as he sank he planned: when his feet touched the bottom he would make a big jump, surface, lie flat and paddle to the edge. The nine feet seemed like ninety. He jumped, but rose slowly; he opened his eyes to a yellowish glow, grabbed at a rope that was not there, and could not scream. He went down again, jumped again, and once more found only water — his legs were paralysed, his lungs ached, his head throbbed.\n\nSinking the third time, he stopped struggling. Fear left him; he felt drowsy and peaceful and lost consciousness. He came to on his stomach beside the pool, vomiting, while the bully said he had only been fooling.",
+    "scheme": [
+      { "step": "The bully and the toss into nine feet; sinking", "marks": 1 },
+      { "step": "His plan and the first attempt (yellowish water, nothing to grab, no scream)", "marks": 1 },
+      { "step": "Second attempt (paralysed legs, aching lungs) and third sinking (peace, blackout)", "marks": 2 },
+      { "step": "Revival and aftermath; sequence, expression and length", "marks": 1 }
+    ]
+  },
+  {
+    "id": "eng-flamingo-03-q08",
+    "chapter": "flamingo-03",
+    "type": "la5",
+    "marks": 5,
+    "stars": 3,
+    "label": "PYQ-style",
+    "topic": "message",
+    "stem": "'Deep Water' shows that fear can be conquered by determination and systematic effort. Discuss how Douglas overcame his fear and what the experience taught him. (120–150 words)",
+    "hint": "Fear's origin briefly → decision → instructor's steps → self-tests → lesson about fear of death and freedom.",
+    "model_answer": "Douglas's terror of water, born at a California beach and sealed when a bully threw him into the YMCA pool, haunted him for years. It paralysed his legs near water and spoiled every fishing and boating trip. Instead of accepting the handicap, he decided to fight it.\n\nHe hired an instructor and worked an hour a day, five days a week, from October to April. The instructor's method was patient and systematic: first a belt and rope through a pulley to carry him across the pool until the tension eased, then breathing practice with his face under water, then leg kicks at the pool side, and finally all the pieces together. Still doubtful, Douglas tested himself alone — two miles across Lake Wentworth and then Warm Lake and back — until the fear was gone.\n\nThe experience taught him that it is not death but the fear of death that terrifies us, and that a conquered fear sets a person free to live intensely.",
+    "scheme": [
+      { "step": "Origin and effect of the fear; decision to fight it", "marks": 1 },
+      { "step": "Instructor's systematic method in steps", "marks": 2 },
+      { "step": "Self-tests at Lake Wentworth and Warm Lake", "marks": 1 },
+      { "step": "Lesson: fear of death, freedom; expression and length", "marks": 1 }
+    ]
+  }
+]
