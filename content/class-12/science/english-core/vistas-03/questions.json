@@ -1,0 +1,174 @@
+[
+  {
+    "id": "eng-vistas-03-q01",
+    "chapter": "vistas-03",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 2,
+    "label": "SQP-style",
+    "topic": "facts",
+    "stem": "The author travelled to Antarctica aboard",
+    "options": ["a Canadian icebreaker", "the Russian research vessel Akademik Shokalskiy", "an Indian naval ship", "a cruise liner from Madras"],
+    "answer": "B",
+    "model_answer": "**(b)** The Akademik Shokalskiy, a Russian research vessel."
+  },
+  {
+    "id": "eng-vistas-03-q02",
+    "chapter": "vistas-03",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 2,
+    "label": "SQP-style",
+    "topic": "phytoplankton",
+    "stem": "Phytoplankton are important because they",
+    "options": [
+      "keep the ice from melting",
+      "form the base of the marine food chain through photosynthesis",
+      "produce the ozone layer",
+      "feed only on krill"
+    ],
+    "answer": "B",
+    "model_answer": "**(b)** These single-celled plants — the grasses of the sea — feed the whole Southern Ocean food chain and absorb carbon."
+  },
+  {
+    "id": "eng-vistas-03-q03",
+    "chapter": "vistas-03",
+    "type": "case",
+    "marks": 6,
+    "stars": 3,
+    "label": "SQP-style",
+    "topic": "extract-based",
+    "stem": "Read the passage in which the author describes Gondwana — the southern supercontinent of 650 million years ago of which India and Antarctica were part, where the climate was warm and life flourished until the dinosaurs died out and the landmass broke into the countries we know today — and explains why visiting Antarctica helps us understand where we have come from and where we may be going. Answer the questions that follow.",
+    "hint": "Gondwana facts; no humans then; drift; Antarctica preserves the record; past–present–future.",
+    "parts": [
+      {
+        "id": "a",
+        "stem": "What was Gondwana?",
+        "marks": 1,
+        "model_answer": "A giant southern supercontinent of about 650 million years ago that included India and Antarctica.",
+        "scheme": [{ "step": "Southern supercontinent, 650 million years ago, India + Antarctica", "marks": 1 }]
+      },
+      {
+        "id": "b",
+        "stem": "Gondwana existed at a time when (A) humans had just appeared (B) there were no humans at all (C) India was an island (D) Antarctica was frozen",
+        "marks": 1,
+        "options": ["humans had just appeared", "there were no humans at all", "India was an island", "Antarctica was frozen"],
+        "answer": "B",
+        "model_answer": "(B) Humans had not yet arrived; the climate was warm and life flourished.",
+        "scheme": [{ "step": "Option B", "marks": 1 }]
+      },
+      {
+        "id": "c",
+        "stem": "What caused the landmass to separate into today's continents?",
+        "marks": 1,
+        "model_answer": "After the dinosaurs died out and the age of mammals began, the landmass broke apart and drifted into the present continents.",
+        "scheme": [{ "step": "Break-up and drift after the dinosaurs' extinction", "marks": 1 }]
+      },
+      {
+        "id": "d",
+        "stem": "Why does Antarctica preserve this history better than other places?",
+        "marks": 1,
+        "model_answer": "It is pristine, with no human population ever, and its ice-cores hold half a million years of carbon records.",
+        "scheme": [{ "step": "Pristine / no humans / ice-core records", "marks": 1 }]
+      },
+      {
+        "id": "e",
+        "stem": "What does the author mean by understanding 'where we are going'?",
+        "marks": 1,
+        "model_answer": "Antarctica shows the effects of warming and ozone loss, and so what the planet's future may be if we do not change.",
+        "scheme": [{ "step": "The planet's future under climate change", "marks": 1 }]
+      },
+      {
+        "id": "f",
+        "stem": "What feeling does the author convey about human beings in geological time?",
+        "marks": 1,
+        "model_answer": "Humility — we are a very recent, tiny part of the Earth's long history.",
+        "scheme": [{ "step": "Humility / human insignificance", "marks": 1 }]
+      }
+    ]
+  },
+  {
+    "id": "eng-vistas-03-q04",
+    "chapter": "vistas-03",
+    "type": "vsa2",
+    "marks": 2,
+    "stars": 3,
+    "label": "PYQ-style",
+    "topic": "why Antarctica",
+    "stem": "Why is Antarctica the best place to study the Earth's past, present and future? (40–50 words)",
+    "hint": "Past: Gondwana, ice-cores; present: warming, ozone; future: melting; pristine.",
+    "model_answer": "Antarctica is pristine, never settled by humans, so it preserves the planet's history: the story of Gondwana and continental drift, and ice-cores holding half a million years of carbon records. Its ice shows the present effects of warming and ozone loss, and whether its ice sheets melt will decide the future of the whole planet.",
+    "scheme": [
+      { "step": "Past: pristine, Gondwana, ice-core records", "marks": 1 },
+      { "step": "Present and future: warming, ozone, melting ice sheets", "marks": 1 }
+    ]
+  },
+  {
+    "id": "eng-vistas-03-q05",
+    "chapter": "vistas-03",
+    "type": "vsa2",
+    "marks": 2,
+    "stars": 3,
+    "label": "PYQ-style",
+    "topic": "Students on Ice",
+    "stem": "What is the Students on Ice programme, and why does Geoff Green take high-school students rather than celebrities? (40–50 words)",
+    "hint": "Canadian; students to the poles; future policy-makers; seeing changes minds; celebrities gave nothing back.",
+    "model_answer": "Students on Ice is a programme run by the Canadian Geoff Green that takes high-school students to the ends of the Earth. Green gave up taking celebrities and wealthy curiosity-seekers because they could give nothing back; students are future policy-makers at an age when they absorb, learn and act, and seeing glaciers retreat changes them for life.",
+    "scheme": [
+      { "step": "What the programme is and who runs it", "marks": 1 },
+      { "step": "Why students: future policy-makers, ready to act; seeing is believing", "marks": 1 }
+    ]
+  },
+  {
+    "id": "eng-vistas-03-q06",
+    "chapter": "vistas-03",
+    "type": "vsa2",
+    "marks": 2,
+    "stars": 3,
+    "label": "PYQ-style",
+    "topic": "small things",
+    "stem": "'Take care of the small things and the big things will fall into place.' Explain with reference to phytoplankton. (40–50 words)",
+    "hint": "Grasses of the sea; photosynthesis; food chain; ozone depletion; carbon cycle.",
+    "model_answer": "Phytoplankton are tiny single-celled plants, the grasses of the sea, which feed the whole marine food chain through photosynthesis and absorb carbon dioxide. Ozone depletion lets in ultraviolet light that harms them, and any damage would ripple up to fish, seals and whales and upset the carbon cycle. Protecting the smallest organisms protects the whole system.",
+    "scheme": [
+      { "step": "What phytoplankton are and do (food chain, carbon)", "marks": 1 },
+      { "step": "Threat from ozone loss; why small things uphold the big", "marks": 1 }
+    ]
+  },
+  {
+    "id": "eng-vistas-03-q07",
+    "chapter": "vistas-03",
+    "type": "la5",
+    "marks": 5,
+    "stars": 3,
+    "label": "PYQ-style",
+    "topic": "lessons of Antarctica",
+    "stem": "What lessons about the Earth's past, present and future does Tishani Doshi draw from her journey to Antarctica? (120–150 words)",
+    "hint": "Journey → Gondwana and records → human impact in 12,000 years → phytoplankton/ozone → Students on Ice → walk and question.",
+    "model_answer": "Tishani Doshi's hundred-hour journey from Madras to Antarctica aboard the Akademik Shokalskiy becomes a lesson in time. The white continent tells the past: 650 million years ago it lay at the heart of Gondwana, joined to India, and its rocks and ice-cores still hold the record of continental drift and half a million years of climate.\n\nAgainst that span, human civilisation is only 12,000 years old, yet in that blink we have burned fossil fuels and wrapped the planet in a carbon-dioxide blanket. Antarctica shows the present consequences first — retreating glaciers, collapsing ice shelves — and raises the question whether the West Antarctic ice sheet will melt and disrupt the Gulf Stream. The threat to phytoplankton from ozone loss teaches that the smallest things uphold the largest systems.\n\nFor the future, Doshi points to Geoff Green's Students on Ice: young people who see the ice become the policy-makers who will protect it. Walking on a metre of ice over the ocean, she wonders whether Antarctica will one day be warm — the question we must answer.",
+    "scheme": [
+      { "step": "The journey and the past: Gondwana, ice-core records", "marks": 1.5 },
+      { "step": "The present: human impact in 12,000 years; phytoplankton and ozone", "marks": 1.5 },
+      { "step": "The future: melting, Students on Ice, youth as policy-makers", "marks": 1 },
+      { "step": "Conclusion with the closing question; expression and length", "marks": 1 }
+    ]
+  },
+  {
+    "id": "eng-vistas-03-q08",
+    "chapter": "vistas-03",
+    "type": "la5",
+    "marks": 5,
+    "stars": 2,
+    "label": "PYQ-style",
+    "topic": "human impact",
+    "stem": "How has the human race, in a very short time, put the planet at risk? How does Antarctica make this visible, and what does the author suggest as a way forward? (120–150 words)",
+    "hint": "12,000 years vs geological time → wars, cities, resources, fossil fuels, carbon blanket → ice sheets, Gulf Stream, ozone, phytoplankton → education of the young → humility.",
+    "model_answer": "Set against the Earth's history, humans are newcomers: civilisation is about 12,000 years old, a few seconds on the geological clock. Yet in that time we have multiplied, built cities, fought wars and battled other species for limited resources. By burning fossil fuels we have wrapped the planet in a blanket of carbon dioxide and pushed up its temperature.\n\nAntarctica makes the danger visible. Its ice sheets hold most of the world's fresh water, and glaciers there are already retreating and ice shelves collapsing. If the West Antarctic ice sheet melts, sea levels and the Gulf Stream could change for the whole world. Ozone depletion over the Southern Ocean threatens the phytoplankton on which every marine creature depends.\n\nDoshi's way forward is education and humility. Geoff Green's Students on Ice takes future policy-makers to see the ice for themselves, because seeing moves people to act. And her closing thought — will Antarctica one day be warm? — asks each of us to take care of the small things before the big ones fail.",
+    "scheme": [
+      { "step": "Human time vs geological time; human activities and the carbon blanket", "marks": 1.5 },
+      { "step": "Antarctica's evidence: glaciers, ice sheets, Gulf Stream, ozone and phytoplankton", "marks": 2 },
+      { "step": "Way forward: Students on Ice, small things, humility", "marks": 1 },
+      { "step": "Expression and length", "marks": 0.5 }
+    ]
+  }
+]

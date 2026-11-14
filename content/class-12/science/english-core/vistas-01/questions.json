@@ -1,0 +1,173 @@
+[
+  {
+    "id": "eng-vistas-01-q01",
+    "chapter": "vistas-01",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 2,
+    "label": "SQP-style",
+    "topic": "plot",
+    "stem": "What was the date on the newspaper Charley saw on the third level?",
+    "options": ["July 18, 1894", "June 11, 1894", "June 11, 1984", "July 18, 1984"],
+    "answer": "B",
+    "model_answer": "**(b)** The World, June 11, 1894; July 18, 1894 is the postmark on the first-day cover."
+  },
+  {
+    "id": "eng-vistas-01-q02",
+    "chapter": "vistas-01",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 2,
+    "label": "SQP-style",
+    "topic": "ending",
+    "stem": "Why would Sam not be able to go back to his old business in Galesburg of 1894?",
+    "options": [
+      "He had no licence to practise there",
+      "A psychiatrist would have no clients in a town without anxiety and worry",
+      "He had promised Charley to run a farm",
+      "The town already had a psychiatrist"
+    ],
+    "answer": "B",
+    "model_answer": "**(b)** The story's closing joke: in peaceful 1894 Galesburg nobody needs a psychiatrist, so Sam buys into hay, feed and grain."
+  },
+  {
+    "id": "eng-vistas-01-q03",
+    "chapter": "vistas-01",
+    "type": "case",
+    "marks": 6,
+    "stars": 3,
+    "label": "SQP-style",
+    "topic": "extract-based",
+    "stem": "Read the passage in which Charley describes stepping out onto the third level: the smaller room, the wooden information booth, the man in a green eyeshade and sleeve-protectors, the open-flame gaslights and brass spittoons, the people in 1890s clothes, and the newspaper that tells him the date. Answer the questions that follow.",
+    "hint": "Period details; The World, June 11, 1894; Charley's growing realisation; Finney's realism makes fantasy believable.",
+    "parts": [
+      {
+        "id": "a",
+        "stem": "Name two details of the room that told Charley it was old-fashioned.",
+        "marks": 1,
+        "model_answer": "Any two: wooden information booth, open-flame gaslights, brass spittoons, fewer ticket windows.",
+        "scheme": [{ "step": "Two correct details", "marks": 1 }]
+      },
+      {
+        "id": "b",
+        "stem": "The man in the booth wore (A) a baseball cap (B) a green eyeshade and sleeve-protectors (C) a railway uniform with badges (D) a top hat",
+        "marks": 1,
+        "options": ["a baseball cap", "a green eyeshade and sleeve-protectors", "a railway uniform with badges", "a top hat"],
+        "answer": "B",
+        "model_answer": "(B) The dress of a clerk of the 1890s.",
+        "scheme": [{ "step": "Option B", "marks": 1 }]
+      },
+      {
+        "id": "c",
+        "stem": "What finally confirmed the year for Charley?",
+        "marks": 1,
+        "model_answer": "A copy of The World — a paper no longer published — dated June 11, 1894, on the newsstand.",
+        "scheme": [{ "step": "The World dated June 11, 1894", "marks": 1 }]
+      },
+      {
+        "id": "d",
+        "stem": "How were the people dressed?",
+        "marks": 1,
+        "model_answer": "In 1890s style — derby hats, four-button suits with tiny lapels, handlebar moustaches; women in leg-of-mutton sleeves and long skirts over high-buttoned shoes.",
+        "scheme": [{ "step": "1890s dress with one or two details", "marks": 1 }]
+      },
+      {
+        "id": "e",
+        "stem": "What effect do these precise details have on the reader?",
+        "marks": 1,
+        "model_answer": "They make the impossible seem real and convincing — the fantasy gains credibility.",
+        "scheme": [{ "step": "Realism / credibility of the fantasy", "marks": 1 }]
+      },
+      {
+        "id": "f",
+        "stem": "What did Charley want to do as soon as he realised where he was?",
+        "marks": 1,
+        "model_answer": "Buy two tickets to Galesburg, Illinois, for himself and Louisa.",
+        "scheme": [{ "step": "Two tickets to Galesburg", "marks": 1 }]
+      }
+    ]
+  },
+  {
+    "id": "eng-vistas-01-q04",
+    "chapter": "vistas-01",
+    "type": "vsa2",
+    "marks": 2,
+    "stars": 3,
+    "label": "PYQ-style",
+    "topic": "Sam's diagnosis",
+    "stem": "What did Sam, the psychiatrist, say about Charley's experience of the third level? (40–50 words)",
+    "hint": "Waking-dream wish fulfilment; unhappy; insecurity, fear, war, worry; escape; stamp collecting too.",
+    "model_answer": "Sam called the third level a waking-dream wish fulfilment. He said Charley was unhappy, because the modern world is full of insecurity, fear, war and worry, and he wanted to escape to a calmer time. When Louisa objected, Sam added that everybody wants to escape — even stamp collecting is a temporary refuge from reality.",
+    "scheme": [
+      { "step": "Waking-dream wish fulfilment; Charley unhappy, wants to escape modern insecurity", "marks": 1 },
+      { "step": "Everybody escapes; stamp collecting as refuge", "marks": 1 }
+    ]
+  },
+  {
+    "id": "eng-vistas-01-q05",
+    "chapter": "vistas-01",
+    "type": "vsa2",
+    "marks": 2,
+    "stars": 3,
+    "label": "PYQ-style",
+    "topic": "Galesburg",
+    "stem": "Why did Charley want to go to Galesburg of 1894? (40–50 words)",
+    "hint": "Birthplace; grandfather's town; peace, lawns, long evenings; no wars.",
+    "model_answer": "Galesburg was Charley's birthplace, and from his grandfather he knew it as a wonderful town of big frame houses, huge lawns and trees meeting over the streets, where people sat out through long summer evenings among fireflies. In 1894 the world was peaceful — the two World Wars were decades away — and that calm was what Charley longed for.",
+    "scheme": [
+      { "step": "Birthplace; grandfather's idyllic Galesburg with details", "marks": 1 },
+      { "step": "Peace, no wars — escape from modern worry", "marks": 1 }
+    ]
+  },
+  {
+    "id": "eng-vistas-01-q06",
+    "chapter": "vistas-01",
+    "type": "vsa2",
+    "marks": 2,
+    "stars": 2,
+    "label": "PYQ-style",
+    "topic": "first-day cover",
+    "stem": "What was the first-day cover Charley found, and why was it significant? (40–50 words)",
+    "hint": "Envelope with stamp posted on issue day; to grandfather; Galesburg July 18, 1894; Sam's letter; never there before.",
+    "model_answer": "A first-day cover is an envelope carrying a new stamp, posted on the day the stamp is issued. Charley found one in his grandfather's collection addressed to his grandfather in Galesburg, postmarked July 18, 1894 — and it had never been there before. Inside was a letter from Sam saying he had reached the third level and Galesburg.",
+    "scheme": [
+      { "step": "Definition and the details (addressee, postmark, not there before)", "marks": 1 },
+      { "step": "Sam's letter — apparent proof of the third level", "marks": 1 }
+    ]
+  },
+  {
+    "id": "eng-vistas-01-q07",
+    "chapter": "vistas-01",
+    "type": "la5",
+    "marks": 5,
+    "stars": 3,
+    "label": "PYQ-style",
+    "topic": "escape vs reality",
+    "stem": "Is the third level a real place or a medium of escape from the harsh realities of modern life? Discuss with reference to the story. (120–150 words)",
+    "hint": "Sam's view and its support → evidence for reality (details, clerk, cover, Sam's disappearance) → Finney's ambiguity → theme.",
+    "model_answer": "Finney builds the story so that both readings stand. Sam the psychiatrist calls the third level a waking-dream wish fulfilment: Charley is unhappy in a world of insecurity, fear, war and worry, and Galesburg of 1894 — long peaceful evenings on wide lawns — is the refuge his mind has invented. The reading fits: Charley stumbles on the level while lost in Grand Central's maze, and he can never find the corridor again. Even his stamp collecting is, in Sam's words, a temporary refuge from reality.\n\nYet the story resists this. The period details are exact, the clerk's suspicion of modern money is not what one dreams, and the first-day cover is a physical object with Sam's handwriting and an 1894 postmark. Sam really has disappeared, and the coin dealer confirms he bought eight hundred dollars of old currency.\n\nWhether real or imagined, the third level stands for the universal wish to escape the pressures of the present into a simpler, safer past — which is the story's true subject.",
+    "scheme": [
+      { "step": "Sam's view and the evidence supporting escape/fantasy", "marks": 2 },
+      { "step": "Evidence for reality: details, clerk, first-day cover, Sam's disappearance and purchase", "marks": 2 },
+      { "step": "Conclusion on ambiguity and the theme; expression and length", "marks": 1 }
+    ]
+  },
+  {
+    "id": "eng-vistas-01-q08",
+    "chapter": "vistas-01",
+    "type": "la5",
+    "marks": 5,
+    "stars": 2,
+    "label": "PYQ-style",
+    "topic": "Sam",
+    "stem": "Sam, who explained away Charley's experience, ends up on the third level himself. Trace Sam's role in the story and explain the irony of the ending. (120–150 words)",
+    "hint": "Diagnosis → Louisa's objection → disappearance → first-day cover letter → 800 dollars, feed business → irony.",
+    "model_answer": "Sam enters the story as the voice of reason. A psychiatrist and Charley's friend, he explains the third level as a waking-dream wish fulfilment: Charley is unhappy, the modern world is full of insecurity, fear, war and worry, and he wants to escape. When Louisa bristles, Sam softens it — everyone wants to escape, even a stamp collector seeks a temporary refuge from reality.\n\nThen Sam vanishes. In his grandfather's stamp collection Charley finds a first-day cover postmarked Galesburg, July 18, 1894, containing a letter in Sam's handwriting: he has found the third level, Galesburg is as lovely as Charley said, and Charley and Louisa should keep looking. The coin dealer confirms Sam bought eight hundred dollars of old-style currency — enough, Charley notes, for a hay, feed and grain business.\n\nThe irony is complete: the man who diagnosed the escape wish has escaped, and he could never resume his old profession, for a psychiatrist has no clients in a town without worry.",
+    "scheme": [
+      { "step": "Sam's diagnosis and the stamp-collecting remark", "marks": 1.5 },
+      { "step": "Disappearance, first-day cover letter, purchase of old currency", "marks": 2 },
+      { "step": "The irony explained (sceptic escapes; psychiatrist useless in 1894)", "marks": 1 },
+      { "step": "Expression and length", "marks": 0.5 }
+    ]
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "$schema": "../../../../../schemas/chapter.schema.json",
+  "id": "vistas-01",
+  "number": 20,
+  "title": "The Third Level",
+  "unit": "C3",
+  "marks_hint": "Vistas extract (6) · 2-mark short answers · 5-mark long answer (Section C, estimates)",
+  "summary": "Jack Finney · Charley finds a third level at Grand Central, 1894 · old-style money, Galesburg · Sam the psychiatrist's 'waking-dream wish fulfilment' · the first-day cover letter · escape from modern insecurity · time as intersecting",
+  "status": { "notes": "ready", "mustknow": "ready", "formulas": "ready", "questions": "ready" },
+  "updated": "2026-11-14"
+}

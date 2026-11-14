@@ -2471,33 +2471,72 @@
                       "number": 20,
                       "title": "The Third Level",
                       "unit": "C3",
-                      "items": {},
-                      "marks_hint": null,
-                      "summary": null,
-                      "questions": 0,
-                      "question_types": {}
+                      "items": {
+                        "notes": true,
+                        "mustknow": true,
+                        "formulas": true,
+                        "questions": true
+                      },
+                      "marks_hint": "Vistas extract (6) · 2-mark short answers · 5-mark long answer (Section C, estimates)",
+                      "summary": "Jack Finney · Charley finds a third level at Grand Central, 1894 · old-style money, Galesburg · Sam the psychiatrist's 'waking-dream wish fulfilment' · the first-day cover letter · escape from modern insecurity · time as intersecting",
+                      "questions": 8,
+                      "question_types": {
+                        "mcq": 2,
+                        "case": 1,
+                        "vsa2": 3,
+                        "la5": 2
+                      },
+                      "diagrams": [],
+                      "words": 2849,
+                      "read_minutes": 8
                     },
                     {
                       "id": "vistas-02",
                       "number": 21,
                       "title": "The Tiger King",
                       "unit": "C3",
-                      "items": {},
-                      "marks_hint": null,
-                      "summary": null,
-                      "questions": 0,
-                      "question_types": {}
+                      "items": {
+                        "notes": true,
+                        "mustknow": true,
+                        "formulas": true,
+                        "questions": true
+                      },
+                      "marks_hint": "Vistas extract (6) · 2-mark short answers · 5-mark long answer (Section C, estimates)",
+                      "summary": "Kalki · astrologer's prophecy of death by the hundredth tiger · the Maharaja's tiger hunts, the British officer and fifty rings · marriage for more tigers · the old hundredth tiger · the wooden tiger's sliver · satire on power, flattery and fate",
+                      "questions": 8,
+                      "question_types": {
+                        "mcq": 2,
+                        "case": 1,
+                        "vsa2": 3,
+                        "la5": 2
+                      },
+                      "diagrams": [],
+                      "words": 2746,
+                      "read_minutes": 7
                     },
                     {
                       "id": "vistas-03",
                       "number": 22,
                       "title": "Journey to the End of the Earth",
                       "unit": "C3",
-                      "items": {},
-                      "marks_hint": null,
-                      "summary": null,
-                      "questions": 0,
-                      "question_types": {}
+                      "items": {
+                        "notes": true,
+                        "mustknow": true,
+                        "formulas": true,
+                        "questions": true
+                      },
+                      "marks_hint": "Vistas extract (6) · 2-mark short answers · 5-mark long answer (Section C, estimates)",
+                      "summary": "Tishani Doshi · Akademik Shokalskiy to Antarctica · Gondwana and geological time · Antarctica as a record of the past and a warning for the future · global warming, ozone, phytoplankton · Students on Ice · humility and responsibility",
+                      "questions": 8,
+                      "question_types": {
+                        "mcq": 2,
+                        "case": 1,
+                        "vsa2": 3,
+                        "la5": 2
+                      },
+                      "diagrams": [],
+                      "words": 2417,
+                      "read_minutes": 6
                     },
                     {
                       "id": "vistas-04",
@@ -2552,10 +2591,10 @@
               },
               "papers": [],
               "counts": {
-                "notes": 17,
-                "mustknow": 17,
-                "formulas": 17,
-                "questions": 17,
+                "notes": 20,
+                "mustknow": 20,
+                "formulas": 20,
+                "questions": 20,
                 "chapters": 25
               }
             }

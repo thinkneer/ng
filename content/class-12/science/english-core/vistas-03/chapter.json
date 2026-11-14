@@ -1,0 +1,11 @@
+{
+  "$schema": "../../../../../schemas/chapter.schema.json",
+  "id": "vistas-03",
+  "number": 22,
+  "title": "Journey to the End of the Earth",
+  "unit": "C3",
+  "marks_hint": "Vistas extract (6) · 2-mark short answers · 5-mark long answer (Section C, estimates)",
+  "summary": "Tishani Doshi · Akademik Shokalskiy to Antarctica · Gondwana and geological time · Antarctica as a record of the past and a warning for the future · global warming, ozone, phytoplankton · Students on Ice · humility and responsibility",
+  "status": { "notes": "ready", "mustknow": "ready", "formulas": "ready", "questions": "ready" },
+  "updated": "2026-11-14"
+}

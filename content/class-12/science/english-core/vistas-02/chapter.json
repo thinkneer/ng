@@ -1,0 +1,11 @@
+{
+  "$schema": "../../../../../schemas/chapter.schema.json",
+  "id": "vistas-02",
+  "number": 21,
+  "title": "The Tiger King",
+  "unit": "C3",
+  "marks_hint": "Vistas extract (6) · 2-mark short answers · 5-mark long answer (Section C, estimates)",
+  "summary": "Kalki · astrologer's prophecy of death by the hundredth tiger · the Maharaja's tiger hunts, the British officer and fifty rings · marriage for more tigers · the old hundredth tiger · the wooden tiger's sliver · satire on power, flattery and fate",
+  "status": { "notes": "ready", "mustknow": "ready", "formulas": "ready", "questions": "ready" },
+  "updated": "2026-11-14"
+}

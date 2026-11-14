@@ -1,0 +1,179 @@
+[
+  {
+    "id": "eng-vistas-02-q01",
+    "chapter": "vistas-02",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 2,
+    "label": "SQP-style",
+    "topic": "plot",
+    "stem": "Why did the astrologer say the Maharaja's death would come from a tiger?",
+    "options": [
+      "The kingdom was full of tigers",
+      "The prince was born in the hour of the Bull, the tiger's enemy",
+      "The king's father had been killed by a tiger",
+      "The prince was born in the year of the Tiger"
+    ],
+    "answer": "B",
+    "model_answer": "**(b)** Bull and tiger are enemies, so death would come from a tiger."
+  },
+  {
+    "id": "eng-vistas-02-q02",
+    "chapter": "vistas-02",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 2,
+    "label": "SQP-style",
+    "topic": "ending",
+    "stem": "The hundredth tiger that finally caused the Maharaja's death was",
+    "options": [
+      "the old tiger from the People's Park",
+      "a tiger in his father-in-law's kingdom",
+      "a wooden toy tiger whose sliver infected his hand",
+      "a tiger that attacked him during a hunt"
+    ],
+    "answer": "C",
+    "model_answer": "**(c)** A sliver from a cheap wooden tiger caused a fatal infection — the prophecy fulfilled through a toy."
+  },
+  {
+    "id": "eng-vistas-02-q03",
+    "chapter": "vistas-02",
+    "type": "case",
+    "marks": 6,
+    "stars": 3,
+    "label": "SQP-style",
+    "topic": "extract-based",
+    "stem": "Read the passage in which a high-ranking British officer asks to hunt tigers in Pratibandapuram, the Maharaja refuses even to let him be photographed with a dead tiger, and the king and his dewan then send fifty diamond rings to the officer's wife, who keeps them all. Answer the questions that follow.",
+    "hint": "Refusal, fear of losing the throne, rings as bribe, wife's greed, three lakhs; satire on both sides.",
+    "parts": [
+      {
+        "id": "a",
+        "stem": "Why did the Maharaja refuse the British officer permission to hunt?",
+        "marks": 1,
+        "model_answer": "He had made tiger hunting his own monopoly and feared that any tiger the officer killed might bring the hundredth closer / would break his record.",
+        "scheme": [{ "step": "Royal monopoly / obsession with the count", "marks": 1 }]
+      },
+      {
+        "id": "b",
+        "stem": "The Maharaja feared that refusing the officer could (A) anger the tigers (B) cost him his kingdom (C) upset the astrologer (D) delay his marriage",
+        "marks": 1,
+        "options": ["anger the tigers", "cost him his kingdom", "upset the astrologer", "delay his marriage"],
+        "answer": "B",
+        "model_answer": "(B) Offending the British could mean losing the throne.",
+        "scheme": [{ "step": "Option B", "marks": 1 }]
+      },
+      {
+        "id": "c",
+        "stem": "What was the Maharaja's remedy?",
+        "marks": 1,
+        "model_answer": "He sent fifty expensive diamond rings to the officer's wife, expecting her to pick one or two.",
+        "scheme": [{ "step": "Fifty diamond rings to the officer's wife", "marks": 1 }]
+      },
+      {
+        "id": "d",
+        "stem": "How did the officer's wife respond, and what did it cost?",
+        "marks": 1,
+        "model_answer": "She kept all fifty rings and sent a thank-you letter; the bill was three lakh rupees.",
+        "scheme": [{ "step": "Kept all; three lakh rupees", "marks": 1 }]
+      },
+      {
+        "id": "e",
+        "stem": "What is the author satirising in this episode?",
+        "marks": 1,
+        "model_answer": "The greed of British officials and the way Indian rulers bought their safety with extravagant gifts.",
+        "scheme": [{ "step": "Colonial greed / rulers buying favour", "marks": 1 }]
+      },
+      {
+        "id": "f",
+        "stem": "What did the Maharaja gain by this expense?",
+        "marks": 1,
+        "model_answer": "He kept his kingdom and his exclusive right to hunt tigers.",
+        "scheme": [{ "step": "Kingdom and tiger monopoly saved", "marks": 1 }]
+      }
+    ]
+  },
+  {
+    "id": "eng-vistas-02-q04",
+    "chapter": "vistas-02",
+    "type": "vsa2",
+    "marks": 2,
+    "stars": 3,
+    "label": "PYQ-style",
+    "topic": "prophecy",
+    "stem": "What did the astrologer predict at the birth of the Tiger King, and how did the infant respond? (40–50 words)",
+    "hint": "Hero but will die; tiger because hour of the Bull; baby speaks at ten days.",
+    "model_answer": "The chief astrologer predicted that the prince would grow into a great warrior but would one day die. When the ten-day-old baby astonishingly asked how, the astrologer explained that he was born in the hour of the Bull, the tiger's enemy, so death would come from a tiger. The infant growled that tigers should beware.",
+    "scheme": [
+      { "step": "Prophecy: hero, death from a tiger; hour of the Bull", "marks": 1 },
+      { "step": "Ten-day-old baby's question and challenge", "marks": 1 }
+    ]
+  },
+  {
+    "id": "eng-vistas-02-q05",
+    "chapter": "vistas-02",
+    "type": "vsa2",
+    "marks": 2,
+    "stars": 3,
+    "label": "PYQ-style",
+    "topic": "hundredth tiger",
+    "stem": "Did the Maharaja really kill the hundredth tiger? What happened? (40–50 words)",
+    "hint": "Zoo tiger; shot missed; fainted; hunters killed it; procession.",
+    "model_answer": "No. The hundredth tiger was an old animal from the People's Park in Madras that the dewan pushed into the forest. The king fired and the tiger collapsed, but the bullet had missed and the beast had only fainted. Fearing for their jobs, the hunters shot it themselves and the king celebrated a victory that was not his.",
+    "scheme": [
+      { "step": "Old zoo tiger; the king missed; tiger fainted", "marks": 1 },
+      { "step": "Hunters killed it secretly; false celebration", "marks": 1 }
+    ]
+  },
+  {
+    "id": "eng-vistas-02-q06",
+    "chapter": "vistas-02",
+    "type": "vsa2",
+    "marks": 2,
+    "stars": 2,
+    "label": "PYQ-style",
+    "topic": "marriage",
+    "stem": "Why did the Tiger King decide to get married, and what kind of bride did he want? (40–50 words)",
+    "hint": "Tigers extinct at 70; need 30 more; princess from a tiger-rich state; 5–6 per visit.",
+    "model_answer": "After ten years the tigers of Pratibandapuram were extinct and the king had killed only seventy. To reach a hundred he ordered the dewan to find him a bride from a royal family whose state had a large tiger population. He married such a princess and killed five or six tigers on each visit to his father-in-law, reaching ninety-nine.",
+    "scheme": [
+      { "step": "Tigers extinct at seventy; needed thirty more", "marks": 1 },
+      { "step": "Bride from a tiger-rich state; hunts on visits to 99", "marks": 1 }
+    ]
+  },
+  {
+    "id": "eng-vistas-02-q07",
+    "chapter": "vistas-02",
+    "type": "la5",
+    "marks": 5,
+    "stars": 3,
+    "label": "PYQ-style",
+    "topic": "satire",
+    "stem": "'The Tiger King' is a satire on the arrogance and whims of those in power. Discuss with examples from the story. (120–150 words)",
+    "hint": "Define target → monopoly and threats → taxes → rings → marriage → toy price → flatterers → ending as final irony → conservation.",
+    "model_answer": "Kalki uses exaggeration and irony to mock rulers who believe their power can bend even fate. The Tiger King challenges the astrologer's prophecy as a ten-day-old infant and then spends his life trying to defeat it by slaughtering a hundred tigers.\n\nHis whims rule the state. Tiger hunting becomes a royal monopoly, and a subject who so much as throws a stone at a tiger loses his wealth. When a village fails to produce a tiger, he doubles its land tax. He refuses a British officer a hunt and then buys his safety with fifty diamond rings for the officer's wife, at a cost of three lakhs. He chooses a bride for the tiger population of her father's state. He pays three hundred rupees for a toy worth a few annas because royalty cannot buy anything cheap.\n\nAround him, the dewan and the hunters lie out of fear. The final irony — the hunter of a hundred tigers killed by a wooden one — exposes both his arrogance and the senseless destruction of wildlife it caused.",
+    "scheme": [
+      { "step": "Satire's target: arrogance of power; challenge to fate", "marks": 1 },
+      { "step": "At least four instances: monopoly, taxes, rings, marriage, toy price", "marks": 2.5 },
+      { "step": "Courtiers' fear and flattery; wildlife destruction", "marks": 1 },
+      { "step": "Ending as final irony; expression and length", "marks": 0.5 }
+    ]
+  },
+  {
+    "id": "eng-vistas-02-q08",
+    "chapter": "vistas-02",
+    "type": "la5",
+    "marks": 5,
+    "stars": 2,
+    "label": "PYQ-style",
+    "topic": "fate",
+    "stem": "How does the story show that no one can escape fate? Trace the steps by which the prophecy about the Tiger King comes true. (120–150 words)",
+    "hint": "Prophecy → precautions (monopoly, 99) → false hundredth → the wooden tiger → death → irony and message.",
+    "model_answer": "The astrologer's prophecy that the Maharaja would die from a tiger shapes his whole life. Told that he may kill ninety-nine tigers but must beware the hundredth, he sets out to defeat destiny by force.\n\nHe makes tiger hunting his monopoly and kills seventy in ten years until his state has no tigers left. He buys off a British officer with fifty diamond rings to protect his hunt, marries a princess for her father's tigers and reaches ninety-nine. For the hundredth he exempts and then doubles a village's taxes, and finally fires at an old zoo tiger his dewan has smuggled into the forest. He believes he has killed it and defeated fate, but the bullet missed, the tiger merely fainted, and his hunters killed it secretly.\n\nDays later a sliver from a cheap wooden tiger, a gift for his son, pierces his hand; the wound festers and he dies. The real hundredth tiger was a toy. Kalki's point is that arrogance cannot outwit destiny — and that the killing was pointless from the start.",
+    "scheme": [
+      { "step": "The prophecy and the king's resolve to defeat it", "marks": 1 },
+      { "step": "His precautions and hunts: monopoly, rings, marriage, 99", "marks": 1.5 },
+      { "step": "The false hundredth tiger and the wooden tiger's sliver", "marks": 1.5 },
+      { "step": "Irony and message; expression and length", "marks": 1 }
+    ]
+  }
+]
