@@ -10,6 +10,14 @@ The story begins at the **Indian National Congress session at Lucknow, December 
 Questions ask what made Gandhi go to Champaran. The answer is Shukla's **tenacity** — an unlettered peasant who would not give up — rather than any argument. Mention that he followed Gandhi from Lucknow to Cawnpore, Ahmedabad and Calcutta.
 :::
 
+```ng-mnemonic
+id: indigo-shukla-trail
+title: Shukla's trail
+trick: **L-C-A-C-P**: Lucknow, Cawnpore, Ahmedabad, Calcutta, Patna
+meaning: The illiterate peasant followed Gandhi from the 1916 Congress session city by city until Gandhi came to Champaran.
+prompt: Through which cities did Rajkumar Shukla follow Gandhi?
+```
+
 **In one breath:** an illiterate but stubborn sharecropper, Rajkumar Shukla, follows Gandhi across India until Gandhi agrees to visit Champaran.
 
 ## Patna and Muzzafarpur: lawyers and untouchability
@@ -46,6 +54,15 @@ The magistrate announces he will pronounce sentence after a two-hour recess and 
 
 Several days later Gandhi receives a letter: the **Lieutenant-Governor** has ordered the case **dropped**. **Civil disobedience** has triumphed — the first time in modern India.
 
+```ng-compare
+id: lawyers-before-after
+title: The lawyers, before and after
+cols: At Muzzafarpur | At Motihari
+row: What they did | represented peasants in court for large fees | gathered around Gandhi facing prison
+row: Gandhi's view | courts are useless for fear-stricken peasants | asked what they would do if he were jailed
+row: Their decision | — | to follow him into jail: 'the battle of Champaran is won'
+```
+
 **In one breath:** Gandhi pleads guilty by conscience, refuses bail, the lawyers vow to join him in jail, and the Lieutenant-Governor drops the case — civil disobedience's first victory in India.
 
 ## The inquiry and the 25 per cent
@@ -58,17 +75,57 @@ The evidence is so overwhelming that the landlords agree in principle to **refun
 This is the chapter's most-asked long answer. Give the three reasons: (1) the money mattered less than the principle; (2) the landlords' surrender broke their prestige and the peasants' fear; (3) the result — within years the planters left and the system ended.
 :::
 
+```ng-mnemonic
+id: indigo-why-25
+title: Why 25 per cent was enough
+trick: **P-P-P**: Principle over sum, Prestige surrendered, Planters left
+meaning: The amount mattered less than the landlords being obliged to refund; their prestige fell, the peasants learnt courage; within years the planters abandoned their estates.
+prompt: Give three reasons Gandhi accepted a 25 per cent refund.
+```
+
 **In one breath:** an official commission finds for the peasants; Gandhi accepts a 25% refund because the landlords' surrender of prestige, not the sum, was the victory — and the planters soon left.
 
 ## Staying on: schools, health, self-reliance
 
 Gandhi does not leave after the legal win. He sees the **cultural and social backwardness** of the villages and appeals for teachers: **Mahadev Desai** and **Narhari Parikh** come with their wives; **Devdas**, Gandhi's youngest son, comes; **Kasturba** teaches the ashram rules on **personal cleanliness** and **community sanitation**. **Primary schools** are opened in **six villages**. Health conditions are miserable; **Dr Dev** volunteers for six months, with three medicines — castor oil, quinine and sulphur ointment. Meanwhile Gandhi keeps a long-distance watch on the ashram, asking in letters about accounts and even whether a gap in the latrine wall has been filled.
 
+```ng-fill
+id: indigo-facts
+title: Numbers and names
+cols: Item | Answer
+row: Indigo clause | [[15 per cent of the holding]]
+row: Synthetic indigo from | [[Germany]]
+row: Capital of Champaran | [[Motihari]]
+row: Depositions taken | [[about ten thousand]]
+row: Refund asked / accepted | [[50 per cent / 25 per cent]]
+row: Schools opened in | [[six villages]]
+row: Doctor who volunteered | [[Dr Dev]]
+```
+
 **In one breath:** after the victory Gandhi stays to open six schools, teach cleanliness and bring a doctor — politics tied to the practical uplift of the poor.
 
 ## The lesson of Champaran: self-reliance
 
 Fischer ends with two reflections. First, the Champaran episode was a **turning point** in Gandhi's life: he declares that what he did was ordinary — he simply told the British they could not order him about in his own country. Second, **self-reliance**: when **Charles Freer Andrews**, an English pacifist and devoted follower, is about to leave, Gandhi's lawyer friends want him to stay and help. Gandhi opposes it: relying on an Englishman's support would show weakness; the cause is just and they must rely on themselves to win. A **free India** cannot be built on an Englishman as a prop. Fischer sums up the lesson: Gandhi's politics were intertwined with the day-to-day problems of millions; his loyalty was to living human beings, not abstractions.
+
+```ng-steps
+id: flamingo-05-plot
+title: Indigo in six beats
+svg:
+<svg viewBox="0 0 320 200" role="img" aria-label="Plot of Who is who in Indigo" fill="none" stroke="currentColor" stroke-width="1.5" font-size="10"><path d="M30,90 H290" stroke-width="1"/><g data-step="1"><circle cx="30.0" cy="90" r="12"/><text x="30.0" y="94" text-anchor="middle" font-size="10" font-weight="700" fill="currentColor" stroke="none">1</text><text x="30.0" y="120" text-anchor="middle" font-size="9" fill="currentColor" stroke="none">Lucknow 1916</text></g><g data-step="2"><circle cx="82.0" cy="90" r="12"/><text x="82.0" y="94" text-anchor="middle" font-size="10" font-weight="700" fill="currentColor" stroke="none">2</text><text x="82.0" y="160" text-anchor="middle" font-size="9" fill="currentColor" stroke="none">The 15 per cent</text></g><g data-step="3"><circle cx="134.0" cy="90" r="12"/><text x="134.0" y="94" text-anchor="middle" font-size="10" font-weight="700" fill="currentColor" stroke="none">3</text><text x="134.0" y="120" text-anchor="middle" font-size="9" fill="currentColor" stroke="none">Quit Champaran</text></g><g data-step="4"><circle cx="186.0" cy="90" r="12"/><text x="186.0" y="94" text-anchor="middle" font-size="10" font-weight="700" fill="currentColor" stroke="none">4</text><text x="186.0" y="160" text-anchor="middle" font-size="9" fill="currentColor" stroke="none">Motihari crowd</text></g><g data-step="5"><circle cx="238.0" cy="90" r="12"/><text x="238.0" y="94" text-anchor="middle" font-size="10" font-weight="700" fill="currentColor" stroke="none">5</text><text x="238.0" y="120" text-anchor="middle" font-size="9" fill="currentColor" stroke="none">25 per cent</text></g><g data-step="6"><circle cx="290.0" cy="90" r="12" stroke="#E0B400"/><text x="290.0" y="94" text-anchor="middle" font-size="10" font-weight="700" fill="currentColor" stroke="none">6</text><text x="290.0" y="160" text-anchor="middle" font-size="9" fill="currentColor" stroke="none">Schools and self-reliance</text></g></svg>
+step: Shukla follows Gandhi from Lucknow to Cawnpore, Ahmedabad and Calcutta till he agrees.
+step: Indigo as rent; German synthetic indigo; landlords extract compensation to cancel the clause.
+step: Commissioner bullies; order to leave; Gandhi writes that he will disobey.
+step: Thousands at the courthouse; officials powerless; guilty plea by conscience; no bail; lawyers vow jail; case dropped.
+step: Depositions from ten thousand; Sir Edward Gait's commission; Gandhi asks 50, accepts 25; planters leave within years.
+step: Six village schools, Kasturba on sanitation, Dr Dev; Andrews refused — Indians must rely on themselves.
+```
+
+```ng-explain
+id: explain-no-english-prop
+prompt: In three lines, explain why Gandhi did not want C. F. Andrews to stay and help in Champaran.
+lines: 3
+```
 
 **In one breath:** Champaran taught Gandhi — and India — fearlessness and self-reliance; he refused even a sympathetic Englishman's help so that the victory would be India's own.
 
@@ -82,5 +139,18 @@ Fischer ends with two reflections. First, the Champaran episode was a **turning 
 - **Self-reliance.** No English prop; Indians must win their own battles.
 
 Characters: **Gandhi** (central), **Rajkumar Shukla** (tenacious peasant), **Rajendra Prasad** and the lawyers (converted from fee-takers to companions in jail), **J. B. Kripalani**, **Kasturba**, **Dr Dev**, **Charles Freer Andrews**, **Sir Edward Gait**.
+
+```ng-figure
+id: flamingo-05-characters
+title: Who is who in Indigo
+svg:
+<svg viewBox="0 0 320 200" role="img" aria-label="People of Indigo" fill="none" stroke="currentColor" stroke-width="1.5" font-size="11"><g><circle cx="60" cy="76.0" r="11.0" fill="currentColor" fill-opacity="0.9" stroke="none"/><path d="M45.0,95.0 Q60,87.0 75.0,95.0 L72.6,123.0 L66.0,123.0 L67.2,165 H61.5 L60.6,125.0 H59.4 L58.5,165 H52.8 L54.0,123.0 L47.4,123.0 Z" fill="currentColor" fill-opacity="0.9" stroke="none"/></g><text x="60" y="178" text-anchor="middle" font-size="10" font-weight="700" fill="currentColor" stroke="none">Gandhi</text><g><circle cx="130" cy="100.92" r="7.92" fill="currentColor" fill-opacity="0.7" stroke="none"/><path d="M119.2,116.84 Q130,108.84 140.8,116.84 L139.072,134.76 L134.32,134.76 L135.184,165 H131.08 L130.432,136.2 H129.568 L128.92,165 H124.816 L125.68,134.76 L120.928,134.76 Z" fill="currentColor" fill-opacity="0.7" stroke="none"/></g><text x="130" y="178" text-anchor="middle" font-size="10" font-weight="700" fill="currentColor" stroke="none">Shukla</text><g><circle cx="200" cy="80.45" r="10.45" fill="currentColor" fill-opacity="0.7" stroke="none"/><path d="M185.75,98.9 Q200,90.9 214.25,98.9 L211.97,125.1 L205.7,125.1 L206.84,165 H201.425 L200.57,127.0 H199.43 L198.575,165 H193.16 L194.3,125.1 L188.03,125.1 Z" fill="currentColor" fill-opacity="0.7" stroke="none"/></g><text x="200" y="178" text-anchor="middle" font-size="10" font-weight="700" fill="currentColor" stroke="none">Rajendra Prasad</text><g><circle cx="258" cy="89.35" r="9.35" fill="currentColor" fill-opacity="0.45" stroke="none"/><path d="M245.25,106.69999999999999 Q258,98.69999999999999 270.75,106.69999999999999 L268.71,129.3 L263.1,129.3 L264.12,165 H259.275 L258.51,131.0 H257.49 L256.725,165 H251.88 L252.9,129.3 L247.29,129.3 Z" fill="currentColor" fill-opacity="0.45" stroke="none"/></g><text x="258" y="178" text-anchor="middle" font-size="10" font-weight="700" fill="currentColor" stroke="none">The lawyers</text><g><circle cx="300" cy="80.45" r="10.45" fill="currentColor" fill-opacity="0.55" stroke="none"/><path d="M285.75,98.9 Q300,90.9 314.25,98.9 L311.97,125.1 L305.7,125.1 L306.84,165 H301.425 L300.57,127.0 H299.43 L298.575,165 H293.16 L294.3,125.1 L288.03,125.1 Z" fill="currentColor" fill-opacity="0.55" stroke="none"/><path d="M284.325,75.22500000000001 H315.675 V71.045 H309.405 V59.550000000000004 H290.595 V71.045 H284.325 Z" fill="currentColor" fill-opacity="0.55" stroke="none"/></g><text x="300" y="178" text-anchor="middle" font-size="10" font-weight="700" fill="currentColor" stroke="none">C. F. Andrews</text></svg>
+caption: Gandhi at the centre; the peasant who brought him; the lawyers who changed; the Englishman he sent away.
+part: 60, 115 | Gandhi | Listens to the humblest, gathers facts, defies the quit order, accepts 25%, stays to build schools.
+part: 130, 129 | Shukla | Poor, illiterate, resolute sharecropper who followed Gandhi across India.
+part: 200, 117 | Rajendra Prasad | Lawyer who first took fees, later vowed to go to jail; his servants mistook Gandhi for an untouchable.
+part: 258, 122 | The lawyers | Fee-takers converted into companions in jail.
+part: 300, 117 | C. F. Andrews | English friend whose help Gandhi refused — no English prop.
+```
 
 **In one breath:** Fischer shows how Gandhi turned one district's swindle into India's first lesson in fearless, self-reliant civil disobedience.

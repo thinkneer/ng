@@ -12,6 +12,14 @@ The contrast is the story's frame. Sophie is a **dreamer** who lives in possibil
 Sophie: imaginative, ambitious, escapist, refuses the biscuit factory. Jansie: practical, down-to-earth, knows the limits, warns Sophie. Most 2-mark questions on the two girls want exactly this contrast.
 :::
 
+```ng-mnemonic
+id: going-places-s-j
+title: Sophie vs Jansie
+trick: **Sophie Soars, Jansie Judges**
+meaning: Sophie: dreamer, boutique/actress/designer, invents Casey · Jansie: realist, biscuit factory, warns her, calls it nonsense.
+prompt: How do Sophie and Jansie differ?
+```
+
 **In one breath:** Sophie dreams of a boutique, acting or fashion; Jansie knows they are both headed for the biscuit factory.
 
 ## Sophie's home
@@ -34,6 +42,14 @@ Geoff is sceptical but half-wants to believe. When he tells their **father**, th
 
 Here is the story's finest psychological touch: once Sophie has told the story, she **half believes it herself**; the lie becomes a plan, and she begins to look forward to the date.
 
+```ng-mnemonic
+id: going-places-casey-details
+title: What Sophie said about Casey
+trick: **A-G-A-D**: Arcade, Green eyes, Autograph, Date
+meaning: Met in the arcade outside Royce's · green eyes, not very tall · wanted an autograph but had no paper · he agreed to meet her next week.
+prompt: What details did Sophie give Geoff about meeting Danny Casey?
+```
+
 **In one breath:** Sophie invents a meeting with footballer Danny Casey, embroiders it for Geoff, is dismissed by her father — and starts believing it herself.
 
 ## Jansie finds out
@@ -50,11 +66,42 @@ The following week Sophie goes to the place she has chosen for the meeting — a
 The canal scene is not about punishment. The examiner wants: her loneliness, the gap between dream and reality, her awareness of what it will do to Geoff, and the persistence of the fantasy even in disappointment.
 :::
 
+```ng-explain
+id: explain-canal
+prompt: In three lines, explain what the canal scene reveals about Sophie beyond the fact that Casey does not come.
+lines: 3
+```
+
 **In one breath:** on the bench by the canal Sophie waits for a man who was never going to come, and even then goes on imagining him.
 
 ## Saturday at the match
 
 The story ends where it began — at the stadium on Saturday. The family watches United; **Danny Casey** takes a pass, beats the defenders, and **scores the second goal**; the crowd roars; her father is delighted; Sophie's hero is real and brilliant and utterly out of reach. She watches the goal as everyone does, from the stands. The real Danny Casey belongs to the whole crowd; the one who asked her for a date exists only in her head.
+
+```ng-steps
+id: flamingo-08-plot
+title: Going Places in six beats
+svg:
+<svg viewBox="0 0 320 200" role="img" aria-label="Plot of Who is who in Going Places" fill="none" stroke="currentColor" stroke-width="1.5" font-size="10"><path d="M30,90 H290" stroke-width="1"/><g data-step="1"><circle cx="30.0" cy="90" r="12"/><text x="30.0" y="94" text-anchor="middle" font-size="10" font-weight="700" fill="currentColor" stroke="none">1</text><text x="30.0" y="120" text-anchor="middle" font-size="9" fill="currentColor" stroke="none">Boutique dreams</text></g><g data-step="2"><circle cx="82.0" cy="90" r="12"/><text x="82.0" y="94" text-anchor="middle" font-size="10" font-weight="700" fill="currentColor" stroke="none">2</text><text x="82.0" y="160" text-anchor="middle" font-size="9" fill="currentColor" stroke="none">Geoff's world</text></g><g data-step="3"><circle cx="134.0" cy="90" r="12"/><text x="134.0" y="94" text-anchor="middle" font-size="10" font-weight="700" fill="currentColor" stroke="none">3</text><text x="134.0" y="120" text-anchor="middle" font-size="9" fill="currentColor" stroke="none">Meeting Danny Casey</text></g><g data-step="4"><circle cx="186.0" cy="90" r="12"/><text x="186.0" y="94" text-anchor="middle" font-size="10" font-weight="700" fill="currentColor" stroke="none">4</text><text x="186.0" y="160" text-anchor="middle" font-size="9" fill="currentColor" stroke="none">Father and Frank</text></g><g data-step="5"><circle cx="238.0" cy="90" r="12"/><text x="238.0" y="94" text-anchor="middle" font-size="10" font-weight="700" fill="currentColor" stroke="none">5</text><text x="238.0" y="120" text-anchor="middle" font-size="9" fill="currentColor" stroke="none">The canal</text></g><g data-step="6"><circle cx="290.0" cy="90" r="12" stroke="#E0B400"/><text x="290.0" y="94" text-anchor="middle" font-size="10" font-weight="700" fill="currentColor" stroke="none">6</text><text x="290.0" y="160" text-anchor="middle" font-size="9" fill="currentColor" stroke="none">Saturday</text></g></svg>
+step: Sophie plans a boutique, acting, fashion; Jansie names the biscuit factory.
+step: The silent brother; areas of life she knows nothing about; pillion into a welcoming world.
+step: Arcade outside Royce's, green eyes, autograph, a date next week — invented, then half believed.
+step: Father snorts at wild stories; Geoff tells Frank; Jansie finds out; Sophie backtracks.
+step: Bench under the elm; light fades; he will not come; she still sees him coming.
+step: At the match Danny Casey scores the second goal — for fifty thousand people, not for her.
+```
+
+```ng-fill
+id: going-places-facts
+title: Facts to recall
+cols: Item | Answer
+row: Geoff's job | [[apprentice mechanic]]
+row: Danny Casey plays for | [[United; he is Irish]]
+row: Where Sophie 'met' him | [[the arcade outside Royce's]]
+row: Who told Jansie | [[Frank, via Geoff]]
+row: Where Sophie waited | [[a bench by the canal under an elm]]
+row: At the match Casey scored | [[the second goal]]
+```
 
 **In one breath:** at the match the real Danny Casey scores a goal for fifty thousand people — the Danny Casey who promised Sophie a date never existed.
 
@@ -69,5 +116,28 @@ The story ends where it began — at the stadium on Saturday. The family watches
 **Style:** third-person narration close to Sophie's mind, with the daydreams written in the same tone as real events so that the reader shares her confusion; natural dialogue; an ironic title.
 
 Characters: **Sophie** (dreamer), **Jansie** (realist), **Geoff** (silent, admired), **the father** (hearty, dismissive), **Derek**, **Frank**, **Danny Casey** (the hero who is only a name on the field).
+
+```ng-figure
+id: flamingo-08-characters
+title: Who is who in Going Places
+svg:
+<svg viewBox="0 0 320 200" role="img" aria-label="People of Going Places" fill="none" stroke="currentColor" stroke-width="1.5" font-size="11"><g><circle cx="55" cy="83.12" r="10.12" fill="currentColor" fill-opacity="0.95" stroke="none"/><path d="M41.2,101.24000000000001 Q55,93.24000000000001 68.8,101.24000000000001 L79.84,165 H30.16 Z" fill="currentColor" fill-opacity="0.95" stroke="none"/></g><text x="55" y="178" text-anchor="middle" font-size="10" font-weight="700" fill="currentColor" stroke="none">Sophie</text><g><circle cx="120" cy="86.68" r="9.68" fill="currentColor" fill-opacity="0.6" stroke="none"/><path d="M106.8,104.36000000000001 Q120,96.36000000000001 133.2,104.36000000000001 L143.76,165 H96.24000000000001 Z" fill="currentColor" fill-opacity="0.6" stroke="none"/></g><text x="120" y="178" text-anchor="middle" font-size="10" font-weight="700" fill="currentColor" stroke="none">Jansie</text><g><circle cx="185" cy="71.55" r="11.55" fill="currentColor" fill-opacity="0.8" stroke="none"/><path d="M169.25,91.1 Q185,83.1 200.75,91.1 L198.23,120.9 L191.3,120.9 L192.56,165 H186.575 L185.63,123.0 H184.37 L183.425,165 H177.44 L178.7,120.9 L171.77,120.9 Z" fill="currentColor" fill-opacity="0.8" stroke="none"/></g><text x="185" y="178" text-anchor="middle" font-size="10" font-weight="700" fill="currentColor" stroke="none">Geoff</text><g><circle cx="245" cy="76.0" r="11.0" fill="currentColor" fill-opacity="0.5" stroke="none"/><path d="M230.0,95.0 Q245,87.0 260.0,95.0 L257.6,123.0 L251.0,123.0 L252.2,165 H246.5 L245.6,125.0 H244.4 L243.5,165 H237.8 L239.0,123.0 L232.4,123.0 Z" fill="currentColor" fill-opacity="0.5" stroke="none"/></g><text x="245" y="178" text-anchor="middle" font-size="10" font-weight="700" fill="currentColor" stroke="none">Father</text><g><circle cx="300" cy="76.0" r="11.0" fill="currentColor" fill-opacity="0.4" stroke="none"/><path d="M285.0,95.0 Q300,87.0 315.0,95.0 L312.6,123.0 L306.0,123.0 L307.2,165 H301.5 L300.6,125.0 H299.4 L298.5,165 H292.8 L294.0,123.0 L287.4,123.0 Z" fill="currentColor" fill-opacity="0.4" stroke="none"/></g><text x="300" y="178" text-anchor="middle" font-size="10" font-weight="700" fill="currentColor" stroke="none">Danny Casey</text></svg>
+caption: A family and a friend around a girl's fantasy; the hero is real only on the pitch.
+part: 55, 119 | Sophie | Dreamer: boutique, actress, Danny Casey's date; waits by the canal.
+part: 120, 121 | Jansie | Realist: the biscuit factory waits for both; calls the story nonsense.
+part: 185, 112 | Geoff | Silent apprentice mechanic; the world Sophie wants to enter; half believes her.
+part: 245, 115 | Father | Hearty football fan; 'wild stories' will get her into trouble.
+part: 300, 115 | Danny Casey | Irish prodigy of United; real on the pitch, imaginary in the arcade.
+```
+
+```ng-compare
+id: dream-vs-real
+title: Sophie's two worlds
+cols: The dream | The reality
+row: Work | boutique, actress, fashion designer | the biscuit factory
+row: Family | pillion ride into Geoff's shining world | a cramped house, a tired mother at the sink
+row: Danny Casey | kind words in the arcade, a date | a goal scored for the whole crowd
+row: The wait | he comes through the arcade | an empty bench by the canal as the light fades
+```
 
 **In one breath:** "Going Places" is a sympathetic study of a working-class girl whose fantasies outrun her life, and of the quiet sadness when dreams and reality are compared.

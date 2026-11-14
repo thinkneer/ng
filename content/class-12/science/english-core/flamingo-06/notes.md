@@ -14,6 +14,14 @@ The department was an example of **national integration** long before the term e
 Questions ask (1) why it was an example of national integration — list the regions; (2) what it did — made good-looking people look ugly for the camera. Both are 2-mark staples.
 :::
 
+```ng-mnemonic
+id: pancakes-integration
+title: National integration in the make-up room
+trick: **B-M-K-A-C-A-T**: Bengali, Maharashtrian, Kannadiga, Andhra, Christian, Anglo-Burmese, Tamils
+meaning: Headed first by a Bengali, then a Maharashtrian; assisted by a Dharwar Kannadiga, an Andhra, a Madras Indian Christian, an Anglo-Burmese and local Tamils.
+prompt: Why was Gemini's make-up department an example of national integration?
+```
+
 **In one breath:** Pancake was the make-up brand; the department in Clive's old stables, staffed from across India, turned decent faces into crimson monsters under hot lights.
 
 ## The office boy — a frustrated poet
@@ -34,6 +42,16 @@ He was tailor-made for films. Give him a scene and he would come up with **four 
 When asked to describe Subbu, give the full picture: loyalty to the Boss, versatility (four ways, fourteen more), poet-novelist-actor, generosity — and the author's hint that his position made him hated. A one-sided "great man" answer loses the irony mark.
 :::
 
+```ng-compare
+id: subbu-vs-office-boy
+title: Subbu and the office boy
+cols: Subbu | The office boy
+row: Position | No. 2 at Gemini, close to the Boss | paints crowd faces on crowd days
+row: Talent | four ways to shoot a scene, poet, novelist, actor | a bit of a poet, convinced his talent is wasted
+row: Attitude | loyal, generous, no grudges | bitter, blames Subbu for everything
+row: Author's tone | admiring, with a hint of irony | amused sympathy
+```
+
 **In one breath:** Subbu, the Boss's loyal No. 2, was an inventive filmmaker, poet, novelist, actor and generous host — and, being so successful, the target of envy.
 
 ## The legal adviser — "the opposite"
@@ -41,6 +59,12 @@ When asked to describe Subbu, give the full picture: loyalty to the Boss, versat
 The Story Department also had a **lawyer**, officially the **legal adviser**, whom everyone called **the opposite**. Among the poets and dreamers of the department he was the one man of logic. He wore **pants, a tie and sometimes a coat** while everyone else wore **khadi dhotis** and loose shirts; he looked alone and helpless, a man of cold logic in a crowd of **dreamers**.
 
 He is remembered for one incident. A **temperamental actress** — extremely talented but given to outbursts — blew up on the set one day; the lawyer quietly **switched on the recording equipment** and, when she paused, played her tirade back to her. She was so shocked that she lost her voice and her nerve, and **her career ended**. The author adds, in his sly way, that the lawyer probably did it without any malice — just the lawyer's instinct for evidence — but it finished a career. When the Story Department was closed, he lost his job too — the author compares him to a dog that has lost its tail, and admits he does not quite see the connection himself.
+
+```ng-explain
+id: explain-opposite
+prompt: In three lines, explain why the legal adviser was called 'the opposite' and what the actress incident shows about him.
+lines: 3
+```
 
 **In one breath:** the lawyer, the only logical man among the poets, in pants and tie, ended a temperamental actress's career by recording her outburst — a tale of logic misused in a world of feeling.
 
@@ -53,6 +77,18 @@ Gemini Studios was the favourite haunt of **poets** who wore khadi and worshippe
 ## The Moral Re-Armament Army
 
 In **1952** a group of **two hundred** people from twenty nationalities — the **Moral Re-Armament Army (MRA)**, led by **Frank Buchman** — visited Madras and staged two plays at Gemini, **Jotham Valley** and **The Forgotten Factor**, several times. The MRA was a kind of **counter-movement to international communism**, and the big bosses of Madras, like Vasan, simply **played into their hands**. The studio folk could hardly follow the plays' simple homilies, but they loved the **sets and costumes** — above all the **sunrise and sunset** scenes done with bare stage, a white background and a tune. For years afterwards, almost every Tamil play had a scene of sunrise and sunset in the MRA manner. The author's humour: a serious political mission was remembered in Madras for its lighting effects.
+
+```ng-fill
+id: pancakes-facts
+title: Names and dates
+cols: Item | Answer
+row: Make-up department housed in | [[Robert Clive's stables]]
+row: Author's job | [[cutting newspaper clippings]]
+row: Subbu's novel | [[Thillana Mohanambal]]
+row: MRA visit | [[1952, about 200 people]]
+row: MRA plays | [[Jotham Valley, The Forgotten Factor]]
+row: Spender edited | [[The Encounter]]
+```
 
 **In one breath:** the anti-communist MRA's plays impressed Gemini mostly by their sunrise–sunset stage effects, which Tamil drama copied for years.
 
@@ -72,6 +108,27 @@ The chapter's last irony is quiet: the author had once seen an ad for a short-st
 Spender was (1) the editor of *The Encounter*, (2) the poet who visited Gemini, and (3) one of the six writers in *The God That Failed*, which explains why an anti-communist Boss invited him. Answers that give only "the English poet" miss two marks' worth.
 :::
 
+```ng-steps
+id: flamingo-06-plot
+title: Poets and Pancakes — the sketches in order
+svg:
+<svg viewBox="0 0 320 200" role="img" aria-label="Plot of Who is who at Gemini Studios" fill="none" stroke="currentColor" stroke-width="1.5" font-size="10"><path d="M30,90 H290" stroke-width="1"/><g data-step="1"><circle cx="30.0" cy="90" r="12"/><text x="30.0" y="94" text-anchor="middle" font-size="10" font-weight="700" fill="currentColor" stroke="none">1</text><text x="30.0" y="120" text-anchor="middle" font-size="9" fill="currentColor" stroke="none">Pancake</text></g><g data-step="2"><circle cx="82.0" cy="90" r="12"/><text x="82.0" y="94" text-anchor="middle" font-size="10" font-weight="700" fill="currentColor" stroke="none">2</text><text x="82.0" y="160" text-anchor="middle" font-size="9" fill="currentColor" stroke="none">Office boy</text></g><g data-step="3"><circle cx="134.0" cy="90" r="12"/><text x="134.0" y="94" text-anchor="middle" font-size="10" font-weight="700" fill="currentColor" stroke="none">3</text><text x="134.0" y="120" text-anchor="middle" font-size="9" fill="currentColor" stroke="none">Subbu</text></g><g data-step="4"><circle cx="186.0" cy="90" r="12"/><text x="186.0" y="94" text-anchor="middle" font-size="10" font-weight="700" fill="currentColor" stroke="none">4</text><text x="186.0" y="160" text-anchor="middle" font-size="9" fill="currentColor" stroke="none">The opposite</text></g><g data-step="5"><circle cx="238.0" cy="90" r="12"/><text x="238.0" y="94" text-anchor="middle" font-size="10" font-weight="700" fill="currentColor" stroke="none">5</text><text x="238.0" y="120" text-anchor="middle" font-size="9" fill="currentColor" stroke="none">MRA 1952</text></g><g data-step="6"><circle cx="290.0" cy="90" r="12" stroke="#E0B400"/><text x="290.0" y="94" text-anchor="middle" font-size="10" font-weight="700" fill="currentColor" stroke="none">6</text><text x="290.0" y="160" text-anchor="middle" font-size="9" fill="currentColor" stroke="none">Spender</text></g></svg>
+step: Truckloads of make-up in Clive's old stables; faces turned into crimson monsters; national integration in one room.
+step: Forty, a poet, painting crowd players; blames Subbu; vents on the author cutting clippings.
+step: Four ways to shoot a scene, then fourteen; poet, novelist, actor, host; loyal to the Boss.
+step: The legal adviser in tie and coat records an actress's tantrum; her career ends.
+step: Two hundred people, two plays, anti-communist mission — remembered for sunrise and sunset sets.
+step: A poet lectures a studio that cannot follow him; years later The God That Failed explains the visit.
+```
+
+```ng-mnemonic
+id: pancakes-spender
+title: Three facts about the English visitor
+trick: **P-E-G**: Poet, Encounter, God That Failed
+meaning: Stephen Spender: the poet who visited Gemini; editor of The Encounter; one of six ex-communists in The God That Failed — which is why the anti-communist Boss invited him.
+prompt: Who was the English poet who visited Gemini Studios, and how did the author finally identify him?
+```
+
 **In one breath:** *The God That Failed* reveals the visitor as Stephen Spender, an ex-communist poet — and explains why the anti-communist Boss invited him.
 
 ## Themes, tone and the writer's method
@@ -80,5 +137,18 @@ Spender was (1) the editor of *The Encounter*, (2) the poet who visited Gemini, 
 - **Human nature:** envy (office boy), loyalty and talent (Subbu), cold logic (the lawyer), herd ideology (anti-communism without knowledge).
 - **Irony** as the master device: the "office boy" of forty; "national integration" in a make-up room; the MRA remembered for sunsets; Spender unrecognised.
 - **Style:** first-person memoir, digressive, understated, with deadpan humour and self-mockery (his own job of cutting clippings).
+
+```ng-figure
+id: flamingo-06-characters
+title: Who is who at Gemini Studios
+svg:
+<svg viewBox="0 0 320 200" role="img" aria-label="People of Poets and Pancakes" fill="none" stroke="currentColor" stroke-width="1.5" font-size="11"><g><circle cx="45" cy="84.9" r="9.9" fill="currentColor" fill-opacity="0.7" stroke="none"/><path d="M31.5,102.80000000000001 Q45,94.80000000000001 58.5,102.80000000000001 L56.34,127.2 L50.4,127.2 L51.48,165 H46.35 L45.54,129.0 H44.46 L43.65,165 H38.52 L39.6,127.2 L33.66,127.2 Z" fill="currentColor" fill-opacity="0.7" stroke="none"/></g><text x="45" y="178" text-anchor="middle" font-size="10" font-weight="700" fill="currentColor" stroke="none">Office boy</text><g><circle cx="115" cy="80.45" r="10.45" fill="currentColor" fill-opacity="0.95" stroke="none"/><path d="M100.75,98.9 Q115,90.9 129.25,98.9 L126.97,125.1 L120.7,125.1 L121.84,165 H116.425 L115.57,127.0 H114.43 L113.575,165 H108.16 L109.3,125.1 L103.03,125.1 Z" fill="currentColor" fill-opacity="0.95" stroke="none"/></g><text x="115" y="178" text-anchor="middle" font-size="10" font-weight="700" fill="currentColor" stroke="none">Subbu</text><g><circle cx="185" cy="80.45" r="10.45" fill="currentColor" fill-opacity="0.7" stroke="none"/><path d="M170.75,98.9 Q185,90.9 199.25,98.9 L196.97,125.1 L190.7,125.1 L191.84,165 H186.425 L185.57,127.0 H184.43 L183.575,165 H178.16 L179.3,125.1 L173.03,125.1 Z" fill="currentColor" fill-opacity="0.7" stroke="none"/><path d="M169.325,75.22500000000001 H200.675 V71.045 H194.405 V59.550000000000004 H175.595 V71.045 H169.325 Z" fill="currentColor" fill-opacity="0.7" stroke="none"/></g><text x="185" y="178" text-anchor="middle" font-size="10" font-weight="700" fill="currentColor" stroke="none">The lawyer</text><g><circle cx="250" cy="76.0" r="11.0" fill="currentColor" fill-opacity="0.5" stroke="none"/><path d="M235.0,95.0 Q250,87.0 265.0,95.0 L262.6,123.0 L256.0,123.0 L257.2,165 H251.5 L250.6,125.0 H249.4 L248.5,165 H242.8 L244.0,123.0 L237.4,123.0 Z" fill="currentColor" fill-opacity="0.5" stroke="none"/></g><text x="250" y="178" text-anchor="middle" font-size="10" font-weight="700" fill="currentColor" stroke="none">The Boss</text><g><circle cx="300" cy="83.12" r="10.12" fill="currentColor" fill-opacity="0.5" stroke="none"/><path d="M286.2,101.24000000000001 Q300,93.24000000000001 313.8,101.24000000000001 L311.592,126.36 L305.52,126.36 L306.624,165 H301.38 L300.552,128.2 H299.448 L298.62,165 H293.376 L294.48,126.36 L288.408,126.36 Z" fill="currentColor" fill-opacity="0.5" stroke="none"/><path d="M284.82,78.06 H315.18 V74.012 H309.108 V62.88000000000001 H290.892 V74.012 H284.82 Z" fill="currentColor" fill-opacity="0.5" stroke="none"/></g><text x="300" y="178" text-anchor="middle" font-size="10" font-weight="700" fill="currentColor" stroke="none">Spender</text></svg>
+caption: Sketches rather than a plot: five people, each a small satire.
+part: 45, 120 | Office boy | A forty-year-old frustrated poet who paints crowd faces and blames Subbu.
+part: 115, 117 | Subbu | Story Department on paper, No. 2 in fact; loyal, versatile, generous — and envied.
+part: 185, 117 | The lawyer | 'The opposite': logic among dreamers; pants and tie; ended an actress's career.
+part: 250, 115 | The Boss | S. S. Vasan, who ran Gemini and invited an ex-communist poet.
+part: 300, 119 | Spender | English poet nobody understood; editor of The Encounter; in The God That Failed.
+```
 
 **In one breath:** Asokamitran's chapter is affectionate satire — a studio full of poets, politics and Pancake, seen by a man whose job was to look idle.

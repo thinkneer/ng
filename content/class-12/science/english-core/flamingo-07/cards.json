@@ -1,0 +1,101 @@
+[
+  {
+    "id": "flamingo-07-map",
+    "kind": "figure",
+    "title": "Who is who in The Interview",
+    "svg": "ref: notes#flamingo-07-characters",
+    "back": "Silvester (Part I), the critics Kipling and Bellow (with Naipaul, Carroll, Wells), Padmanabhan (interviewer), Umberto Eco (interstices, narrative scholar, Name of the Rose).",
+    "stars": 3,
+    "tags": [
+      "characters"
+    ]
+  },
+  {
+    "id": "flamingo-07-plot-card",
+    "kind": "process",
+    "title": "The Interview in six beats",
+    "svg": "ref: notes#flamingo-07-plot",
+    "back": "130 years → critics → Brian's power → interstices → scholar who tells stories → The Name of the Rose.",
+    "stars": 3,
+    "tags": [
+      "plot"
+    ]
+  },
+  {
+    "id": "iv-two-camps",
+    "kind": "mnemonic",
+    "title": "Truth and art — or intrusion?",
+    "svg": "<svg viewBox=\"0 0 320 200\" role=\"img\" aria-label=\"Two views of the interview, 130 years on\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" font-size=\"11\"><g transform=\"translate(90,120) scale(1.0)\"><rect x=\"-14\" y=\"-60\" width=\"28\" height=\"60\" fill=\"currentColor\" fill-opacity=\"0.9\" stroke=\"none\" rx=\"14\"/><path d=\"M-24,-30 Q-24,10 0,10 Q24,10 24,-30\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M0,10 V34 M-16,34 H16\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></g><g><circle cx=\"230\" cy=\"87.1\" r=\"12.1\" fill=\"currentColor\" fill-opacity=\"0.6\" stroke=\"none\"/><path d=\"M213.5,107.19999999999999 Q230,99.19999999999999 246.5,107.19999999999999 L243.86,138.8 L236.6,138.8 L237.92,185 H231.65 L230.66,141.0 H229.34 L228.35,185 H222.08 L223.4,138.8 L216.14,138.8 Z\" fill=\"currentColor\" fill-opacity=\"0.6\" stroke=\"none\"/></g><path d=\"M150,70 L190,70\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-dasharray=\"4 4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><text x=\"90\" y=\"165\" text-anchor=\"middle\" font-size=\"10\" fill=\"currentColor\" stroke=\"none\">source of truth</text><text x=\"240\" y=\"60\" text-anchor=\"middle\" font-size=\"10\" fill=\"currentColor\" stroke=\"none\">intrusion</text><text x=\"160.0\" y=\"192\" text-anchor=\"middle\" font-size=\"11\" font-style=\"italic\" fill=\"currentColor\" fill-opacity=\"0.85\" stroke=\"none\">Two views of the interview, 130 years on</text></svg>",
+    "back": "Some call it a source of truth and an art; its victims call it an intrusion that diminishes them, like a photograph stealing the soul.",
+    "stars": 3,
+    "tags": [
+      "theme"
+    ]
+  },
+  {
+    "id": "iv-kipling",
+    "kind": "event",
+    "title": "Kipling's paradox",
+    "svg": "<svg viewBox=\"0 0 320 200\" role=\"img\" aria-label=\"'Immoral, a crime, an assault' — then he interviewed Twain\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" font-size=\"11\"><g><circle cx=\"100\" cy=\"78.2\" r=\"13.2\" fill=\"currentColor\" fill-opacity=\"0.7\" stroke=\"none\"/><path d=\"M82.0,99.4 Q100,91.4 118.0,99.4 L115.12,134.6 L107.2,134.6 L108.64,185 H101.8 L100.72,137.0 H99.28 L98.2,185 H91.36 L92.8,134.6 L84.88,134.6 Z\" fill=\"currentColor\" fill-opacity=\"0.7\" stroke=\"none\"/><path d=\"M80.2,71.60000000000001 H119.8 V66.32000000000001 H111.88 V51.800000000000004 H88.12 V66.32000000000001 H80.2 Z\" fill=\"currentColor\" fill-opacity=\"0.7\" stroke=\"none\"/></g><g transform=\"translate(200,150) scale(0.8)\"><rect x=\"-14\" y=\"-60\" width=\"28\" height=\"60\" fill=\"currentColor\" fill-opacity=\"0.9\" stroke=\"none\" rx=\"14\"/><path d=\"M-24,-30 Q-24,10 0,10 Q24,10 24,-30\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M0,10 V34 M-16,34 H16\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></g><path d=\"M130,110 L180,110 M171.2,114.8 L180,110 L171.2,105.2\" fill=\"none\" stroke=\"#E0B400\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><text x=\"250\" y=\"60\" text-anchor=\"middle\" font-size=\"11\" font-style=\"italic\" fill=\"currentColor\" stroke=\"none\">Mark Twain</text><text x=\"160.0\" y=\"192\" text-anchor=\"middle\" font-size=\"11\" font-style=\"italic\" fill=\"currentColor\" fill-opacity=\"0.85\" stroke=\"none\">'Immoral, a crime, an assault' — then he interviewed Twain</text></svg>",
+    "back": "Caroline Kipling's 1892 Boston diary records two reporters ruining a day. Kipling denounced the practice and practised it; Wells called it an ordeal and interviewed Stalin in 1934.",
+    "stars": 3,
+    "tags": [
+      "event"
+    ]
+  },
+  {
+    "id": "iv-windpipe",
+    "kind": "event",
+    "title": "Thumbprints on the windpipe",
+    "svg": "<svg viewBox=\"0 0 320 200\" role=\"img\" aria-label=\"Saul Bellow on being interviewed\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" font-size=\"11\"><circle cx=\"160\" cy=\"70\" r=\"28\" fill=\"currentColor\" fill-opacity=\"0.9\" stroke=\"none\"/><path d=\"M120,100 Q160,86 200,100 L210,170 H110 Z\" fill=\"currentColor\" fill-opacity=\"0.9\" stroke=\"none\"/><circle cx=\"145\" cy=\"112\" r=\"7\" fill=\"#E0B400\" stroke=\"none\"/><circle cx=\"175\" cy=\"112\" r=\"7\" fill=\"#E0B400\" stroke=\"none\"/><text x=\"160.0\" y=\"192\" text-anchor=\"middle\" font-size=\"11\" font-style=\"italic\" fill=\"currentColor\" fill-opacity=\"0.85\" stroke=\"none\">Saul Bellow on being interviewed</text></svg>",
+    "back": "The most vivid of the complaints — the feeling of being choked — from a writer who nevertheless consented several times.",
+    "stars": 2,
+    "tags": [
+      "event"
+    ]
+  },
+  {
+    "id": "iv-interstices",
+    "kind": "mnemonic",
+    "title": "Working in the interstices",
+    "svg": "<svg viewBox=\"0 0 320 200\" role=\"img\" aria-label=\"While the visitor comes up in the lift, Eco writes\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" font-size=\"11\"><rect x=\"90\" y=\"30\" width=\"140\" height=\"150\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" rx=\"6\"/><rect x=\"100\" y=\"40\" width=\"120\" height=\"130\" fill=\"currentColor\" fill-opacity=\"0.12\" stroke=\"none\"/><path d=\"M160,160 L160,60 M164.8,68.8 L160,60 L155.2,68.8\" fill=\"none\" stroke=\"#E0B400\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><g><circle cx=\"40\" cy=\"122.7\" r=\"7.7\" fill=\"currentColor\" fill-opacity=\"0.9\" stroke=\"none\"/><path d=\"M29.5,138.4 Q40,130.4 50.5,138.4 L48.82,155.6 L44.2,155.6 L45.04,185 H41.05 L40.42,157.0 H39.58 L38.95,185 H34.96 L35.8,155.6 L31.18,155.6 Z\" fill=\"currentColor\" fill-opacity=\"0.9\" stroke=\"none\"/></g><path d=\"M230,175 Q245.0,169.0 260.0,175 Q275.0,169.0 290,175 V135 Q275.0,129.0 260.0,135 Q245.0,129.0 230,135 Z\" fill=\"currentColor\" fill-opacity=\"0.85\" stroke=\"none\"/><path d=\"M260.0,175 V135\" fill=\"none\" stroke=\"#E0B400\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><text x=\"160.0\" y=\"192\" text-anchor=\"middle\" font-size=\"11\" font-style=\"italic\" fill=\"currentColor\" fill-opacity=\"0.85\" stroke=\"none\">While the visitor comes up in the lift, Eco writes</text></svg>",
+    "back": "Interstices = the empty spaces of time. Remove the empty space from the universe and it shrinks to a fist; most of a day is empty too, and he fills it.",
+    "stars": 3,
+    "tags": [
+      "theme"
+    ]
+  },
+  {
+    "id": "iv-dissertation",
+    "kind": "event",
+    "title": "The story of the research",
+    "svg": "<svg viewBox=\"0 0 320 200\" role=\"img\" aria-label=\"A professor praises what others hide: trials and errors\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" font-size=\"11\"><path d=\"M60,150 Q85.0,139.5 110.0,150 Q135.0,139.5 160,150 V80 Q135.0,69.5 110.0,80 Q85.0,69.5 60,80 Z\" fill=\"currentColor\" fill-opacity=\"0.85\" stroke=\"none\"/><path d=\"M110.0,150 V80\" fill=\"none\" stroke=\"#E0B400\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M170,115 L220,115 M211.2,119.8 L220,115 L211.2,110.2\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><g><circle cx=\"260\" cy=\"96.0\" r=\"11.0\" fill=\"currentColor\" fill-opacity=\"0.6\" stroke=\"none\"/><path d=\"M245.0,115.0 Q260,107.0 275.0,115.0 L272.6,143.0 L266.0,143.0 L267.2,185 H261.5 L260.6,145.0 H259.4 L258.5,185 H252.8 L254.0,143.0 L247.4,143.0 Z\" fill=\"currentColor\" fill-opacity=\"0.6\" stroke=\"none\"/></g><text x=\"110\" y=\"60\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"700\" fill=\"#E0B400\" stroke=\"none\">age 22</text><text x=\"160.0\" y=\"192\" text-anchor=\"middle\" font-size=\"11\" font-style=\"italic\" fill=\"currentColor\" fill-opacity=\"0.85\" stroke=\"none\">A professor praises what others hide: trials and errors</text></svg>",
+    "back": "At twenty-two Eco told the story of his research, false starts included; the professor published it. Since then he writes scholarship as narrative — and at fifty, novels, by accident.",
+    "stars": 3,
+    "tags": [
+      "event"
+    ]
+  },
+  {
+    "id": "iv-rose",
+    "kind": "event",
+    "title": "3,000 copies expected",
+    "svg": "<svg viewBox=\"0 0 320 200\" role=\"img\" aria-label=\"A serious detective novel that sold millions\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" font-size=\"11\"><rect x=\"70\" y=\"50\" width=\"180\" height=\"110\" fill=\"currentColor\" fill-opacity=\"0.85\" stroke=\"none\" rx=\"3\"/><text x=\"160\" y=\"95\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"700\" fill=\"#E0B400\" stroke=\"none\">The Name</text><text x=\"160\" y=\"115\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"700\" fill=\"#E0B400\" stroke=\"none\">of the Rose</text><rect x=\"230\" y=\"30\" width=\"80\" height=\"30\" fill=\"#E0B400\" fill-opacity=\"0.25\" stroke=\"none\" rx=\"6\"/><text x=\"270.0\" y=\"48.5\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"700\" fill=\"currentColor\" stroke=\"none\">10–15 million</text><text x=\"160.0\" y=\"192\" text-anchor=\"middle\" font-size=\"11\" font-style=\"italic\" fill=\"currentColor\" fill-opacity=\"0.85\" stroke=\"none\">A serious detective novel that sold millions</text></svg>",
+    "back": "Metaphysics, theology and medieval history — hardly a bestseller. Eco calls the success a mystery: perhaps timing, and readers who want difficult experiences too.",
+    "stars": 3,
+    "tags": [
+      "event"
+    ]
+  },
+  {
+    "id": "iv-professor",
+    "kind": "event",
+    "title": "How Eco sees himself",
+    "svg": "<svg viewBox=\"0 0 320 200\" role=\"img\" aria-label=\"Line to remember\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" font-size=\"11\"><g><rect x=\"28\" y=\"36\" width=\"264\" height=\"72\" fill=\"currentColor\" fill-opacity=\"0.08\" stroke=\"currentColor\" stroke-width=\"1.5\" rx=\"10\"/><path d=\"M50,108 L42,122 L64,108 Z\" fill=\"currentColor\" fill-opacity=\"0.9\" stroke=\"none\"/><text x=\"160.0\" y=\"67.9\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"700\" fill=\"currentColor\" stroke=\"none\">a professor who writes</text><text x=\"160.0\" y=\"85.9\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"700\" fill=\"currentColor\" stroke=\"none\">novels on Sundays</text></g><text x=\"160\" y=\"146\" text-anchor=\"middle\" font-size=\"11\" fill=\"currentColor\" fill-opacity=\"0.8\" stroke=\"none\">— academic conferences, not Pen clubs</text><text x=\"160.0\" y=\"192\" text-anchor=\"middle\" font-size=\"11\" font-style=\"italic\" fill=\"currentColor\" fill-opacity=\"0.85\" stroke=\"none\">Line to remember</text></svg>",
+    "back": "Forty scholarly works against five novels: he identifies as an academic first, though he knows he will be remembered as a novelist.",
+    "stars": 2,
+    "tags": [
+      "line"
+    ]
+  }
+]

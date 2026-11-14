@@ -1,0 +1,101 @@
+[
+  {
+    "id": "flamingo-06-map",
+    "kind": "figure",
+    "title": "Who is who at Gemini Studios",
+    "svg": "ref: notes#flamingo-06-characters",
+    "back": "Office boy (frustrated poet), Subbu (No. 2, envied), the lawyer ('the opposite'), the Boss (Vasan), Stephen Spender (the poet nobody understood).",
+    "stars": 3,
+    "tags": [
+      "characters"
+    ]
+  },
+  {
+    "id": "flamingo-06-plot-card",
+    "kind": "process",
+    "title": "Poets and Pancakes — the sketches in order",
+    "svg": "ref: notes#flamingo-06-plot",
+    "back": "Pancake → office boy → Subbu → the opposite → MRA → Spender and The God That Failed.",
+    "stars": 3,
+    "tags": [
+      "plot"
+    ]
+  },
+  {
+    "id": "pp-pancake",
+    "kind": "event",
+    "title": "Truckloads of Pancake",
+    "svg": "<svg viewBox=\"0 0 320 200\" role=\"img\" aria-label=\"Make-up that turns a decent face into a crimson monster\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" font-size=\"11\"><g><rect x=\"50\" y=\"70\" width=\"90\" height=\"60\" fill=\"currentColor\" fill-opacity=\"0.85\" stroke=\"none\" rx=\"8\"/><text x=\"95\" y=\"106\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"700\" fill=\"#E0B400\" stroke=\"none\">PANCAKE</text></g><g><rect x=\"150\" y=\"50\" width=\"90\" height=\"60\" fill=\"currentColor\" fill-opacity=\"0.85\" stroke=\"none\" rx=\"8\"/><text x=\"195\" y=\"86\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"700\" fill=\"#E0B400\" stroke=\"none\">PANCAKE</text></g><g><rect x=\"120\" y=\"110\" width=\"90\" height=\"60\" fill=\"currentColor\" fill-opacity=\"0.85\" stroke=\"none\" rx=\"8\"/><text x=\"165\" y=\"146\" text-anchor=\"middle\" font-size=\"11\" font-weight=\"700\" fill=\"#E0B400\" stroke=\"none\">PANCAKE</text></g><circle cx=\"270\" cy=\"100\" r=\"30\" fill=\"#E0B400\" fill-opacity=\"0.9\" stroke=\"none\"/><g><circle cx=\"270\" cy=\"122.7\" r=\"7.7\" fill=\"currentColor\" fill-opacity=\"0.9\" stroke=\"none\"/><path d=\"M259.5,138.4 Q270,130.4 280.5,138.4 L278.82,155.6 L274.2,155.6 L275.04,185 H271.05 L270.42,157.0 H269.58 L268.95,185 H264.96 L265.8,155.6 L261.18,155.6 Z\" fill=\"currentColor\" fill-opacity=\"0.9\" stroke=\"none\"/></g><text x=\"160.0\" y=\"192\" text-anchor=\"middle\" font-size=\"11\" font-style=\"italic\" fill=\"currentColor\" fill-opacity=\"0.85\" stroke=\"none\">Make-up that turns a decent face into a crimson monster</text></svg>",
+    "back": "Pancake was the brand; the room in Clive's old stables, with incandescent lights, existed to make people presentable under studio lights by first making them hideous. The humour starts here.",
+    "stars": 3,
+    "tags": [
+      "event"
+    ]
+  },
+  {
+    "id": "pp-integration",
+    "kind": "mnemonic",
+    "title": "National integration before the term",
+    "svg": "<svg viewBox=\"0 0 320 200\" role=\"img\" aria-label=\"Bengali · Maharashtrian · Kannadiga · Andhra · Christian · Anglo-Burmese · Tamil\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" font-size=\"11\"><g><circle cx=\"40\" cy=\"98.8\" r=\"8.8\" fill=\"currentColor\" fill-opacity=\"0.5\" stroke=\"none\"/><path d=\"M28.0,115.6 Q40,107.6 52.0,115.6 L50.08,136.4 L44.8,136.4 L45.76,170 H41.2 L40.48,138.0 H39.52 L38.8,170 H34.24 L35.2,136.4 L29.92,136.4 Z\" fill=\"currentColor\" fill-opacity=\"0.5\" stroke=\"none\"/></g><g><circle cx=\"85\" cy=\"98.8\" r=\"8.8\" fill=\"currentColor\" fill-opacity=\"0.58\" stroke=\"none\"/><path d=\"M73.0,115.6 Q85,107.6 97.0,115.6 L95.08,136.4 L89.8,136.4 L90.76,170 H86.2 L85.48,138.0 H84.52 L83.8,170 H79.24 L80.2,136.4 L74.92,136.4 Z\" fill=\"currentColor\" fill-opacity=\"0.58\" stroke=\"none\"/></g><g><circle cx=\"130\" cy=\"98.8\" r=\"8.8\" fill=\"currentColor\" fill-opacity=\"0.66\" stroke=\"none\"/><path d=\"M118.0,115.6 Q130,107.6 142.0,115.6 L140.08,136.4 L134.8,136.4 L135.76,170 H131.2 L130.48,138.0 H129.52 L128.8,170 H124.24 L125.2,136.4 L119.92,136.4 Z\" fill=\"currentColor\" fill-opacity=\"0.66\" stroke=\"none\"/></g><g><circle cx=\"175\" cy=\"98.8\" r=\"8.8\" fill=\"currentColor\" fill-opacity=\"0.74\" stroke=\"none\"/><path d=\"M163.0,115.6 Q175,107.6 187.0,115.6 L185.08,136.4 L179.8,136.4 L180.76,170 H176.2 L175.48,138.0 H174.52 L173.8,170 H169.24 L170.2,136.4 L164.92,136.4 Z\" fill=\"currentColor\" fill-opacity=\"0.74\" stroke=\"none\"/></g><g><circle cx=\"220\" cy=\"98.8\" r=\"8.8\" fill=\"currentColor\" fill-opacity=\"0.8200000000000001\" stroke=\"none\"/><path d=\"M208.0,115.6 Q220,107.6 232.0,115.6 L230.08,136.4 L224.8,136.4 L225.76,170 H221.2 L220.48,138.0 H219.52 L218.8,170 H214.24 L215.2,136.4 L209.92,136.4 Z\" fill=\"currentColor\" fill-opacity=\"0.8200000000000001\" stroke=\"none\"/></g><g><circle cx=\"265\" cy=\"98.8\" r=\"8.8\" fill=\"currentColor\" fill-opacity=\"0.9\" stroke=\"none\"/><path d=\"M253.0,115.6 Q265,107.6 277.0,115.6 L275.08,136.4 L269.8,136.4 L270.76,170 H266.2 L265.48,138.0 H264.52 L263.8,170 H259.24 L260.2,136.4 L254.92,136.4 Z\" fill=\"currentColor\" fill-opacity=\"0.9\" stroke=\"none\"/></g><text x=\"160\" y=\"60\" text-anchor=\"middle\" font-size=\"12\" font-style=\"italic\" fill=\"currentColor\" stroke=\"none\">one make-up room, all of India</text><text x=\"160.0\" y=\"192\" text-anchor=\"middle\" font-size=\"11\" font-style=\"italic\" fill=\"currentColor\" fill-opacity=\"0.85\" stroke=\"none\">Bengali · Maharashtrian · Kannadiga · Andhra · Christian · Anglo-Burmese · Tamil</text></svg>",
+    "back": "The department's staff came from every region, with a strict hierarchy from the chief (stars) down to the office boy (crowd players).",
+    "stars": 3,
+    "tags": [
+      "theme"
+    ]
+  },
+  {
+    "id": "pp-officeboy",
+    "kind": "event",
+    "title": "The office boy of forty",
+    "svg": "<svg viewBox=\"0 0 320 200\" role=\"img\" aria-label=\"A frustrated poet painting crowd faces\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" font-size=\"11\"><g><circle cx=\"110\" cy=\"78.2\" r=\"13.2\" fill=\"currentColor\" fill-opacity=\"0.9\" stroke=\"none\"/><path d=\"M92.0,99.4 Q110,91.4 128.0,99.4 L125.12,134.6 L117.2,134.6 L118.64,185 H111.8 L110.72,137.0 H109.28 L108.2,185 H101.36 L102.8,134.6 L94.88,134.6 Z\" fill=\"currentColor\" fill-opacity=\"0.9\" stroke=\"none\"/></g><rect x=\"150\" y=\"130\" width=\"60\" height=\"40\" fill=\"currentColor\" fill-opacity=\"0.6\" stroke=\"none\" rx=\"4\"/><path d=\"M180,130 V90\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"6\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><g><rect x=\"190\" y=\"30\" width=\"110\" height=\"44\" fill=\"currentColor\" fill-opacity=\"0.08\" stroke=\"currentColor\" stroke-width=\"1.5\" rx=\"10\"/><path d=\"M212,74 L204,88 L226,74 Z\" fill=\"currentColor\" fill-opacity=\"0.9\" stroke=\"none\"/><text x=\"245.0\" y=\"56.55\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"700\" fill=\"currentColor\" stroke=\"none\">Subbu!</text></g><text x=\"160.0\" y=\"192\" text-anchor=\"middle\" font-size=\"11\" font-style=\"italic\" fill=\"currentColor\" fill-opacity=\"0.85\" stroke=\"none\">A frustrated poet painting crowd faces</text></svg>",
+    "back": "He joined to be a star, writer, director or lyricist; he ended up with a mixing pot and a thick brush, blaming Kothamangalam Subbu and pouring it all into the author's ear.",
+    "stars": 2,
+    "tags": [
+      "event"
+    ]
+  },
+  {
+    "id": "pp-subbu",
+    "kind": "event",
+    "title": "Four ways, then fourteen",
+    "svg": "<svg viewBox=\"0 0 320 200\" role=\"img\" aria-label=\"Subbu — tailor-made for films\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" font-size=\"11\"><g><circle cx=\"160\" cy=\"78.2\" r=\"13.2\" fill=\"currentColor\" fill-opacity=\"0.95\" stroke=\"none\"/><path d=\"M142.0,99.4 Q160,91.4 178.0,99.4 L175.12,134.6 L167.2,134.6 L168.64,185 H161.8 L160.72,137.0 H159.28 L158.2,185 H151.36 L152.8,134.6 L144.88,134.6 Z\" fill=\"currentColor\" fill-opacity=\"0.95\" stroke=\"none\"/></g><circle cx=\"94.44803188964426\" cy=\"72.46083861551901\" r=\"8\" fill=\"#E0B400\" stroke=\"none\"/><circle cx=\"125.68174250615104\" cy=\"46.42121137932059\" r=\"8\" fill=\"#E0B400\" stroke=\"none\"/><circle cx=\"173.0558658595803\" cy=\"40.87736936878338\" r=\"8\" fill=\"#E0B400\" stroke=\"none\"/><circle cx=\"214.28961149571748\" cy=\"58.43666810638392\" r=\"8\" fill=\"#E0B400\" stroke=\"none\"/><text x=\"160\" y=\"40\" text-anchor=\"middle\" font-size=\"11\" font-style=\"italic\" fill=\"currentColor\" stroke=\"none\">poet · novelist · actor · No. 2</text><text x=\"160.0\" y=\"192\" text-anchor=\"middle\" font-size=\"11\" font-style=\"italic\" fill=\"currentColor\" fill-opacity=\"0.85\" stroke=\"none\">Subbu — tailor-made for films</text></svg>",
+    "back": "Loyal to the Boss, inventive beyond need, a poet for the masses, novelist of Thillana Mohanambal, a supporting actor who outshone leads, host to dozens — and therefore envied.",
+    "stars": 3,
+    "tags": [
+      "event"
+    ]
+  },
+  {
+    "id": "pp-recorder",
+    "kind": "event",
+    "title": "The tirade played back",
+    "svg": "<svg viewBox=\"0 0 320 200\" role=\"img\" aria-label=\"The legal adviser's instinct for evidence ends a career\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" font-size=\"11\"><g transform=\"translate(100,120) scale(1.0)\"><rect x=\"-14\" y=\"-60\" width=\"28\" height=\"60\" fill=\"currentColor\" fill-opacity=\"0.9\" stroke=\"none\" rx=\"14\"/><path d=\"M-24,-30 Q-24,10 0,10 Q24,10 24,-30\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M0,10 V34 M-16,34 H16\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></g><g><circle cx=\"230\" cy=\"87.1\" r=\"12.1\" fill=\"currentColor\" fill-opacity=\"0.6\" stroke=\"none\"/><path d=\"M213.5,107.19999999999999 Q230,99.19999999999999 246.5,107.19999999999999 L243.86,138.8 L236.6,138.8 L237.92,185 H231.65 L230.66,141.0 H229.34 L228.35,185 H222.08 L223.4,138.8 L216.14,138.8 Z\" fill=\"currentColor\" fill-opacity=\"0.6\" stroke=\"none\"/><path d=\"M211.85,81.05 H248.15 V76.21 H240.89 V62.89999999999999 H219.11 V76.21 H211.85 Z\" fill=\"currentColor\" fill-opacity=\"0.6\" stroke=\"none\"/></g><path d=\"M130,80 Q170,60 200,80\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-dasharray=\"3 3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><text x=\"160.0\" y=\"192\" text-anchor=\"middle\" font-size=\"11\" font-style=\"italic\" fill=\"currentColor\" fill-opacity=\"0.85\" stroke=\"none\">The legal adviser's instinct for evidence ends a career</text></svg>",
+    "back": "He switched on the recorder during the actress's outburst and played it back; she lost her voice and her nerve. Logic in a room of dreamers — the author suggests no malice.",
+    "stars": 2,
+    "tags": [
+      "event"
+    ]
+  },
+  {
+    "id": "pp-sunset",
+    "kind": "event",
+    "title": "Sunrise and sunset, MRA style",
+    "svg": "<svg viewBox=\"0 0 320 200\" role=\"img\" aria-label=\"A political mission remembered for stage lighting\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" font-size=\"11\"><rect x=\"0\" y=\"120\" width=\"320\" height=\"80\" fill=\"currentColor\" fill-opacity=\"0.15\" stroke=\"none\"/><circle cx=\"160\" cy=\"120\" r=\"34\" fill=\"#E0B400\" stroke=\"none\"/><rect x=\"0\" y=\"118\" width=\"320\" height=\"4\" fill=\"currentColor\" fill-opacity=\"0.9\" stroke=\"none\"/><g><circle cx=\"60\" cy=\"140.5\" r=\"5.5\" fill=\"currentColor\" fill-opacity=\"0.4\" stroke=\"none\"/><path d=\"M52.5,154.0 Q60,146.0 67.5,154.0 L66.3,164.0 L63.0,164.0 L63.6,185 H60.75 L60.3,165.0 H59.7 L59.25,185 H56.4 L57.0,164.0 L53.7,164.0 Z\" fill=\"currentColor\" fill-opacity=\"0.4\" stroke=\"none\"/></g><g><circle cx=\"260\" cy=\"140.5\" r=\"5.5\" fill=\"currentColor\" fill-opacity=\"0.4\" stroke=\"none\"/><path d=\"M252.5,154.0 Q260,146.0 267.5,154.0 L266.3,164.0 L263.0,164.0 L263.6,185 H260.75 L260.3,165.0 H259.7 L259.25,185 H256.4 L257.0,164.0 L253.7,164.0 Z\" fill=\"currentColor\" fill-opacity=\"0.4\" stroke=\"none\"/></g><text x=\"160.0\" y=\"192\" text-anchor=\"middle\" font-size=\"11\" font-style=\"italic\" fill=\"currentColor\" fill-opacity=\"0.85\" stroke=\"none\">A political mission remembered for stage lighting</text></svg>",
+    "back": "The Moral Re-Armament Army (1952, 200 people, 20 nationalities) came to counter communism; Gemini loved the sets, and Tamil plays copied the sunrise–sunset scene for years.",
+    "stars": 2,
+    "tags": [
+      "event"
+    ]
+  },
+  {
+    "id": "pp-book",
+    "kind": "event",
+    "title": "The book from the pavement",
+    "svg": "<svg viewBox=\"0 0 320 200\" role=\"img\" aria-label=\"Six ex-communists — and the name on the cover\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" font-size=\"11\"><rect x=\"90\" y=\"60\" width=\"140\" height=\"90\" fill=\"currentColor\" fill-opacity=\"0.85\" stroke=\"none\" rx=\"3\"/><text x=\"160\" y=\"110\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"700\" fill=\"#E0B400\" stroke=\"none\">THE GOD</text><text x=\"160\" y=\"128\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"700\" fill=\"#E0B400\" stroke=\"none\">THAT FAILED</text><text x=\"260\" y=\"70\" text-anchor=\"middle\" font-size=\"11\" font-style=\"italic\" fill=\"currentColor\" stroke=\"none\">Spender</text><text x=\"160.0\" y=\"192\" text-anchor=\"middle\" font-size=\"11\" font-style=\"italic\" fill=\"currentColor\" fill-opacity=\"0.85\" stroke=\"none\">Six ex-communists — and the name on the cover</text></svg>",
+    "back": "Years later the author buys the book cheap and finds Stephen Spender among the essayists: the poet nobody understood at Gemini, editor of The Encounter. The anti-communist Boss's guest was an ex-communist.",
+    "stars": 3,
+    "tags": [
+      "event"
+    ]
+  }
+]
