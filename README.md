@@ -8,7 +8,7 @@ What you get, without logging in:
 - Must-have notes per chapter: most-repeated board questions (with ★ estimates), must-know lines, key formulas, answer skeletons with step marks, 1-mark facts, case-based angles and mark-losing traps.
 - Formula and facts sheets.
 - Practice by chapter, type and stars; timed exams on the CBSE 2026–27 pattern with marking schemes.
-- Printable PDFs (A4, two columns, one colour per unit).
+- A distraction-free reading mode (full screen, text size, light / sepia / dark) on every chapter.
 - **Board_Plan_2027**: a day-by-day plan from today to your last paper that rebuilds itself for the subjects you pick.
 
 Install it on your phone (Share → Add to Home Screen on iPhone; "Install app" on Android/Chrome). It works offline once opened.
@@ -32,11 +32,10 @@ Anyone can ask for a topic, a chapter, a kind of question, or report a bug: use 
 ## For contributors / maintainers
 - Content is Markdown + JSON under `content/`; the app is a fixed shell. Adding content never means editing app code. See `CLAUDE.md`.
 - `node scripts/build-index.mjs` validates every JSON file against `schemas/` and writes `data/index.json`. It runs in CI on every push.
-- LaTeX sources in `latex/` are compiled to `pdfs/` by a GitHub Action.
 - Status per subject: `status/class-12/<subject>.md`.
 
 ## Tech
-Plain HTML/CSS/JS (ES modules), hash routing, no build step to view. Pinned CDN libraries: marked, KaTeX (+ mhchem), DOMPurify. PWA with a service worker. GitHub Pages + GitHub Actions + GitHub Issues only; free tier throughout.
+Plain HTML/CSS/JS (ES modules), hash routing, no build step to view. Vendored, pinned libraries: marked, KaTeX (+ mhchem), DOMPurify — no CDN, works offline. PWA with a service worker. GitHub Pages + GitHub Actions + GitHub Issues only; free tier throughout.
 
 ## Licence
-Site code: MIT. Content (notes, questions, PDFs): CC BY-NC-SA 4.0. NCERT and CBSE materials belong to their owners and are linked, not copied.
+Site code: MIT. Content (notes and questions): CC BY-NC-SA 4.0. NCERT and CBSE materials belong to their owners and are linked, not copied.

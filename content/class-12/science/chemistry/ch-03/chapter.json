@@ -6,28 +6,6 @@
   "unit": "3",
   "marks_hint": "7 marks (unit weightage, CBSE 2026–27)",
   "summary": "Rate · rate law · order & molecularity · integrated equations · half-life · Arrhenius · collision theory",
-  "pdfs": [
-    {
-      "title": "Must-have notes: Batch 1 (Physical)",
-      "path": "pdfs/class-12/chemistry/chemistry-notes-batch1-physical.pdf",
-      "page": 6
-    },
-    {
-      "title": "Formula & facts sheet: Part 1 (Physical)",
-      "path": "pdfs/class-12/chemistry/chemistry-formula-sheet-part1-physical.pdf",
-      "page": 2
-    },
-    {
-      "title": "Expert Q&A Sheet 1 (Physical): questions, answers on the next page",
-      "path": "pdfs/class-12/chemistry/chemistry-qa-sheet1-physical.pdf",
-      "page": 1
-    },
-    {
-      "title": "CBSE sample paper 2026–27: our solutions (Sheet 6)",
-      "path": "pdfs/class-12/chemistry/chemistry-qa-sheet6-sqp-2026-27-solutions.pdf",
-      "page": 1
-    }
-  ],
   "status": {
     "notes": "ready",
     "formulas": "ready",

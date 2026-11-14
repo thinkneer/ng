@@ -1,6 +1,6 @@
 // Lazy-loaded Markdown + KaTeX (with mhchem) rendering with sanitising. Only chapter pages pay for this.
-const CDN = 'https://cdn.jsdelivr.net/npm';
-const VERSIONS = { marked: '14.1.3', dompurify: '3.1.7', katex: '0.16.11' };
+// Libraries are vendored (see vendor/README.md) so the site works offline and never waits on a CDN.
+const V = new URL('../vendor/', import.meta.url).href;
 let libs = null;
 
 async function load() {
@@ -8,17 +8,16 @@ async function load() {
   libs = (async () => {
     if (!document.querySelector('link[data-katex]')) {
       const l = document.createElement('link');
-      l.rel = 'stylesheet'; l.href = `${CDN}/katex@${VERSIONS.katex}/dist/katex.min.css`; l.dataset.katex = '1';
-      l.crossOrigin = 'anonymous';
+      l.rel = 'stylesheet'; l.href = `${V}katex/katex.min.css`; l.dataset.katex = '1';
       document.head.appendChild(l);
     }
     const [{ marked }, { default: DOMPurify }, katexMod, autoMod] = await Promise.all([
-      import(`${CDN}/marked@${VERSIONS.marked}/lib/marked.esm.js`),
-      import(`${CDN}/dompurify@${VERSIONS.dompurify}/dist/purify.es.mjs`),
-      import(`${CDN}/katex@${VERSIONS.katex}/dist/katex.mjs`),
-      import(`${CDN}/katex@${VERSIONS.katex}/dist/contrib/auto-render.mjs`),
+      import(`${V}marked.esm.js`),
+      import(`${V}purify.es.mjs`),
+      import(`${V}katex/katex.mjs`),
+      import(`${V}katex/contrib/auto-render.mjs`),
     ]);
-    try { await import(`${CDN}/katex@${VERSIONS.katex}/dist/contrib/mhchem.mjs`); } catch (e) { console.warn('mhchem failed to load', e); }
+    try { await import(`${V}katex/contrib/mhchem.mjs`); } catch (e) { console.warn('mhchem failed to load', e); }
     marked.setOptions({ gfm: true, breaks: false });
     return { marked, DOMPurify, katex: katexMod.default, renderMathInElement: autoMod.default };
   })();
@@ -63,7 +62,14 @@ function protectMath(src) {
 }
 
 export async function renderMarkdown(src, { unitColour } = {}) {
-  const { marked, DOMPurify } = await load();
+  let marked, DOMPurify;
+  try { ({ marked, DOMPurify } = await load()); } catch (e) {
+    // Rendering libraries unavailable (first visit offline, blocked network): show the raw notes rather than nothing.
+    const pre = document.createElement('div'); pre.className = 'prose';
+    pre.innerHTML = '<div class="notice notice--warn">Formatting could not load; showing the plain notes.</div>';
+    const t = document.createElement('pre'); t.style.whiteSpace = 'pre-wrap'; t.textContent = src || ''; pre.appendChild(t);
+    return pre;
+  }
   const parts = splitDirectives(src || '');
   let out = '';
   for (const p of parts) {
@@ -83,11 +89,17 @@ export async function renderMarkdown(src, { unitColour } = {}) {
   if (unitColour) wrap.style.setProperty('--unit', `#${unitColour}`);
   wrap.innerHTML = clean;
   decorate(wrap);
-  await typeset(wrap);
+  // Typeset in chunks (per section) after the text is on screen, yielding between chunks so the page stays responsive.
+  const sections = chunkBySection(wrap);
+  const first = sections.shift();
+  if (first) typeset(first).then(() => { if (sections.length) queueTypeset(sections); });
   return wrap;
 }
 
 function decorate(root) {
+  // the page already shows the chapter title, so a leading H1 in the Markdown is dropped
+  const first = root.firstElementChild;
+  if (first && first.tagName === 'H1') first.remove();
   // external links
   for (const a of root.querySelectorAll('a[href^="http"]')) { a.target = '_blank'; a.rel = 'noopener'; }
   // star ratings
@@ -111,7 +123,21 @@ function decorate(root) {
   }
 }
 
+function chunkBySection(root) {
+  // group direct children into runs starting at each h2 (the first run is whatever comes before the first h2)
+  const runs = []; let cur = [];
+  for (const node of [...root.children]) { if (node.tagName === 'H2' && cur.length) { runs.push(cur); cur = []; } cur.push(node); }
+  if (cur.length) runs.push(cur);
+  return runs.map((nodes) => ({ nodes }));
+}
+function queueTypeset(chunks) {
+  const idle = window.requestIdleCallback || ((fn) => setTimeout(() => fn({ timeRemaining: () => 8 }), 16));
+  const step = () => { const c = chunks.shift(); if (!c) return; typeset(c).then(() => idle(step)); };
+  idle(step);
+}
+
 export async function typeset(el) {
+  if (el && el.nodes) { for (const n of el.nodes) await typeset(n); return el; }
   const { renderMathInElement } = await load();
   renderMathInElement(el, {
     delimiters: [

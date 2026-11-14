@@ -1,24 +1,23 @@
 /* ng service worker.
    - App shell: precached, versioned by CACHE_VERSION (stamped at deploy by scripts/stamp-sw.mjs).
    - Content (content/**, data/**): stale-while-revalidate so notes, plan and practice work offline once opened.
-   - CDN libraries (KaTeX, marked, DOMPurify): cache-first, they are version-pinned.
-   - PDFs: cache-first on first open.
+   - Vendored libraries (vendor/**: KaTeX, marked, DOMPurify, fonts): cache-first, version-pinned.
    Updates: the new worker waits; the page shows "New version available" and posts SKIP_WAITING. */
-const CACHE_VERSION = 'dev';
+const CACHE_VERSION = 'dev2';
 const SHELL = `ng-shell-${CACHE_VERSION}`;
 const CONTENT = 'ng-content-v1';
 const LIBS = 'ng-libs-v1';
-const PDFS = 'ng-pdfs-v1';
-const KEEP = new Set([SHELL, CONTENT, LIBS, PDFS]);
+const KEEP = new Set([SHELL, CONTENT, LIBS]);
 
 const SHELL_FILES = [
   './', './index.html', './manifest.webmanifest',
-  './styles/tokens.css', './styles/base.css', './styles/layout.css', './styles/components.css', './styles/print.css',
+  './styles/tokens.css', './styles/base.css', './styles/layout.css', './styles/components.css', './styles/reader.css', './styles/print.css',
   './app/main.js', './app/router.js', './app/store.js', './app/data.js', './app/ui.js', './app/icons.js', './app/theme.js', './app/pwa.js', './app/markdown.js',
   './app/views/index.js', './app/views/today.js', './app/views/classes.js', './app/views/subject.js', './app/views/chapter.js',
-  './app/views/practice.js', './app/views/progress.js', './app/views/plan.js', './app/views/more.js',
-  './assets/icons/icon-192.png', './assets/icons/icon-512.png', './assets/icons/favicon.svg',
+  './app/views/practice.js', './app/views/progress.js', './app/views/plan.js', './app/views/more.js', './app/views/reader.js',
+  './assets/icons/icon-192.png', './assets/icons/icon-64.png', './assets/icons/icon-512.png', './assets/icons/favicon.svg',
   './data/classes.json', './data/index.json',
+  './vendor/marked.esm.js', './vendor/purify.es.mjs', './vendor/katex/katex.mjs', './vendor/katex/katex.min.css', './vendor/katex/contrib/auto-render.mjs', './vendor/katex/contrib/mhchem.mjs',
 ];
 
 self.addEventListener('install', (event) => {
@@ -48,15 +47,13 @@ self.addEventListener('fetch', (event) => {
   if (request.method !== 'GET') return;
   const url = new URL(request.url);
 
-  // CDN libraries: cache-first
-  if (url.hostname === 'cdn.jsdelivr.net') { event.respondWith(cacheFirst(request, LIBS)); return; }
   if (!sameOrigin(url)) return;
 
   const path = url.pathname.startsWith(scopePath) ? url.pathname.slice(scopePath.length) : url.pathname;
 
   // Navigations: serve the cached shell (hash routing means one HTML document)
   if (request.mode === 'navigate') { event.respondWith(shellFirst(request)); return; }
-  if (path.endsWith('.pdf')) { event.respondWith(cacheFirst(request, PDFS)); return; }
+  if (path.startsWith('vendor/')) { event.respondWith(cacheFirst(request, LIBS)); return; }
   if (path.startsWith('content/') || path.startsWith('data/')) { event.respondWith(staleWhileRevalidate(request, CONTENT)); return; }
   // Everything else in the shell: cache, falling back to network (and cache it for next time)
   event.respondWith(cacheFirst(request, SHELL));

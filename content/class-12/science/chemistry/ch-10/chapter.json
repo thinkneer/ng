@@ -6,33 +6,6 @@
   "unit": "10",
   "marks_hint": "7 marks (unit weightage, CBSE 2026–27)",
   "summary": "Carbohydrates · glucose structure · disaccharides & polysaccharides · proteins · enzymes · vitamins · nucleic acids · hormones",
-  "pdfs": [
-    {
-      "title": "Must-have notes: Batch 3 (Organic)",
-      "path": "pdfs/class-12/chemistry/chemistry-notes-batch3-organic.pdf",
-      "page": 10
-    },
-    {
-      "title": "Formula & facts sheet: Part 3 (Organic)",
-      "path": "pdfs/class-12/chemistry/chemistry-formula-sheet-part3-organic.pdf",
-      "page": 3
-    },
-    {
-      "title": "Organic revision tables: named reactions, tests, orders, conversions",
-      "path": "pdfs/class-12/chemistry/chemistry-formula-sheet-part3-organic.pdf",
-      "page": 4
-    },
-    {
-      "title": "Expert Q&A Sheet 5 (Organic C): questions, answers on the next page",
-      "path": "pdfs/class-12/chemistry/chemistry-qa-sheet5-organic-c.pdf",
-      "page": 1
-    },
-    {
-      "title": "CBSE sample paper 2026–27: our solutions (Sheet 6)",
-      "path": "pdfs/class-12/chemistry/chemistry-qa-sheet6-sqp-2026-27-solutions.pdf",
-      "page": 1
-    }
-  ],
   "status": {
     "notes": "ready",
     "formulas": "ready",

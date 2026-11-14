@@ -156,7 +156,7 @@ if (classes) {
                 chapterIds.add(ch.id);
                 counts.chapters++;
                 const chDir = join(dir, ch.id);
-                const outCh = { id: ch.id, number: ch.number, title: ch.title, unit: unit.id, items: {}, marks_hint: null, summary: null, pdfs: [], questions: 0, question_types: {} };
+                const outCh = { id: ch.id, number: ch.number, title: ch.title, unit: unit.id, items: {}, marks_hint: null, summary: null, questions: 0, question_types: {} };
                 if (existsSync(chDir) && statSync(chDir).isDirectory()) {
                   const chJsonPath = join(chDir, 'chapter.json');
                   if (existsSync(chJsonPath)) {
@@ -166,11 +166,7 @@ if (classes) {
                       if (c.unit !== unit.id) err(chJsonPath, `unit "${c.unit}" but subject.json puts this chapter in unit "${unit.id}"`);
                       outCh.marks_hint = c.marks_hint ?? null;
                       outCh.summary = c.summary ?? null;
-                      outCh.pdfs = c.pdfs ?? [];
                       outCh.diagrams = c.diagrams ?? [];
-                      for (const p of outCh.pdfs) {
-                        if (!existsSync(join(ROOT, p.path))) warn(chJsonPath, `pdf ${p.path} not found (it may be built by the Action)`);
-                      }
                     }
                   } else {
                     warn(chDir, 'chapter folder without chapter.json');

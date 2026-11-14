@@ -1,18 +1,21 @@
 import { html, raw, icon, esc, emptyState, skeletonList, toast, haptic } from '../ui.js';
 import { data, routeFor } from '../data.js';
 import { store } from '../store.js';
+import { preloadMarkdown } from '../markdown.js';
 
 const TABS = [
   { id: 'notes', label: 'Notes' }, { id: 'formulas', label: 'Formulas' }, { id: 'practice', label: 'Practice' },
-  { id: 'exam', label: 'Exam' }, { id: 'pdfs', label: 'PDFs' }, { id: 'mynotes', label: 'My notes' },
+  { id: 'exam', label: 'Exam' }, { id: 'mynotes', label: 'My notes' },
 ];
 const TRACK = [['L', 'Learnt'], ['R1', 'Revised 1'], ['PYQ', 'PYQ set'], ['R2', 'Revised 2'], ['E', 'Exam-ready']];
 
 export async function chapter(route) {
+  preloadMarkdown(); // fetch the renderer in parallel with the index lookup
   const { cls, stream, subject: sub } = await data.resolve(route.classId, route.streamId, route.subjectId);
   if (!sub) return { title: 'Not found', tab: 'subjects', html: emptyState({ icon: 'alert', title: 'No such subject' }) };
   const { unit, chapter: ch } = data.chapterOf(sub, route.chapterId);
   if (!ch) return { title: 'Not found', tab: 'subjects', back: routeFor(cls.id, stream.id, sub.id), html: emptyState({ icon: 'alert', title: 'No such chapter', action: `<a class="btn btn--secondary" href="${routeFor(cls.id, stream.id, sub.id)}">Back to ${esc(sub.name)}</a>` }) };
+  if (route.tab === 'read') { const { reader } = await import('./reader.js'); return reader({ cls, stream, sub, unit, ch }); }
   const tab = TABS.some((t) => t.id === route.tab) ? route.tab : 'notes';
   const key = `${sub.id}/${ch.id}`;
   const base = routeFor(cls.id, stream.id, sub.id, ch.id);
@@ -22,7 +25,7 @@ export async function chapter(route) {
 
   return {
     title: `Ch ${ch.number} · ${ch.title}`, tab: 'subjects', back: routeFor(cls.id, stream.id, sub.id), backLabel: sub.name, unitColour: unit.colour, wide: true,
-    actions: `<button class="icon-btn" type="button" data-print aria-label="Print" title="Print">${icon('print')}</button>`,
+    actions: `<a class="icon-btn" href="${base}/read" aria-label="Reading mode" title="Reading mode">${icon('book')}</a><button class="icon-btn hide-phone" type="button" data-print aria-label="Print" title="Print">${icon('print')}</button>`,
     html: html`
       <div class="unit-bar" style="--unit:#${unit.colour};margin-top:var(--s-3)"><span>${esc(sub.name)} · Unit ${esc(unit.id)} · ${esc(unit.name)}</span><span class="marks">${unit.marks} marks</span></div>
       <h1 class="t-title" style="margin:var(--s-2) 0 var(--s-1)"><span class="t-2" style="font-weight:600">${ch.number}.</span> ${ch.title}</h1>
@@ -72,7 +75,7 @@ async function renderTab(tab, ctx) {
     const exists = tab === 'notes' ? ch.items?.notes : ch.items?.formulas;
     const src = !exists ? null : tab === 'notes' ? await data.notes(sub, ch.id) : await data.formulas(sub, ch.id);
     if (!src) {
-      panel.innerHTML = String(emptyState({ icon: tab === 'notes' ? 'book' : 'formula', title: `${tab === 'notes' ? 'Notes' : 'Formula sheet'} for this chapter are coming`, text: 'Content is added chapter by chapter as the exams approach. The printable PDF may already cover it (see PDFs).', action: requestLink }));
+      panel.innerHTML = String(emptyState({ icon: tab === 'notes' ? 'book' : 'formula', title: `${tab === 'notes' ? 'Notes' : 'Formula sheet'} for this chapter are coming`, text: 'Content is added chapter by chapter as the exams approach.', action: requestLink }));
       return;
     }
     const { renderMarkdown, headings } = await import('../markdown.js');
@@ -92,18 +95,11 @@ async function renderTab(tab, ctx) {
     const q = ch.items?.questions ? await data.questions(sub, ch.id).catch(() => null) : null;
     if (!q?.length) { panel.innerHTML = String(emptyState({ icon: 'practice', title: 'No practice questions yet', text: 'Question sets arrive with the practice module. Each question has a step-mark scheme so you can mark yourself.', action: requestLink })); return; }
     const byType = Object.entries(ch.question_types || {});
-    panel.innerHTML = `<div class="card"><div class="t-headline">${q.length} questions ready</div><p class="t-2 t-footnote mt-2">${byType.map(([t, n]) => `${n} ${t.toUpperCase()}`).join(' · ')}</p><p class="t-2 t-subhead mt-2">Practice mode (one question at a time, hints, self-marking) is the next thing being built. Until then the questions are in the printable set under PDFs.</p></div>`;
+    panel.innerHTML = `<div class="card"><div class="t-headline">${q.length} questions ready</div><p class="t-2 t-footnote mt-2">${byType.map(([t, n]) => `${n} ${t.toUpperCase()}`).join(' · ')}</p><p class="t-2 t-subhead mt-2">Practice mode (one question at a time, hints, self-marking) is the next thing being built. Until then, use the chapter notes and formula sheet.</p></div>`;
     return;
   }
   if (tab === 'exam') {
     panel.innerHTML = String(emptyState({ icon: 'timer', title: 'Timed exams are coming', text: `Full papers on the CBSE 2026–27 ${esc(sub.name)} pattern, one unit or chosen chapters, with the marking scheme after you submit.` }));
-    return;
-  }
-  if (tab === 'pdfs') {
-    const meta = await data.chapterMeta(sub, ch.id);
-    const pdfs = meta?.pdfs || ch.pdfs || [];
-    if (!pdfs.length) { panel.innerHTML = String(emptyState({ icon: 'pdf', title: 'No PDF linked yet', text: 'PDFs are compiled from the LaTeX sources in the repo and linked here chapter by chapter.' })); return; }
-    panel.innerHTML = `<div class="list">${pdfs.map((p) => `<a class="list__item has-leading" href="${esc(p.path)}${p.page ? '#page=' + p.page : ''}" target="_blank" rel="noopener"><span class="list__leading list__leading--soft">${icon('pdf')}</span><span class="list__body"><span class="list__title">${esc(p.title)}</span><span class="list__sub">${p.page ? `Page ${p.page} · ` : ''}A4 · opens in a new tab</span></span><span class="list__trailing">${icon('download', { class: 'chev' })}</span></a>`).join('')}</div><p class="t-footnote t-3 mt-4">Once opened, a PDF stays available offline on this device.</p>`;
     return;
   }
   if (tab === 'mynotes') {

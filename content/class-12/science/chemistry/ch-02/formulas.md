@@ -41,7 +41,7 @@ e.g. $\Lambda^\circ_{\ce{CH3COOH}}=\Lambda^\circ_{\ce{CH3COONa}}+\Lambda^\circ_{
 Weak electrolyte: $\alpha=\dfrac{\Lambda_m}{\Lambda_m^\circ}$;   $K_a=\dfrac{c\,\alpha^2}{1-\alpha}$
 :::
 
-*(graph: see the PDF)*
+*(graph to be added as SVG)*
 
 - On dilution: $\kappa$ **decreases** (fewer ions per cm$^3$); $\Lambda_m$ **increases** (strong: ions freer; weak: $\alpha$ increases sharply).
 - Strong: straight line, extrapolate to $c\to0$ for $\Lambda_m^\circ$. Weak: steep curve, cannot extrapolate → use Kohlrausch.

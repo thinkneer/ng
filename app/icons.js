@@ -46,6 +46,8 @@ const P = {
   bolt: '<path d="M13 2 4 14h7l-1 8 9-12h-7z"/>',
   layers: '<path d="m12 3 9 5-9 5-9-5z"/><path d="m3 13 9 5 9-5"/>',
   menu: '<path d="M4 7h16M4 12h16M4 17h16"/>',
+  expand: '<path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5"/>',
+  collapse: '<path d="M9 4v5H4M15 4v5h5M9 20v-5H4M15 20v-5h5"/>',
 };
 
 export function icon(name, opts = {}) {

@@ -1,4 +1,6 @@
 # Class 12 Science · Chemistry — status
+> **Policy change (14 Nov 2026, admin):** the site has **no PDFs**. The LaTeX sources and compiled PDFs were removed from the repo and `chapter.json → pdfs` was dropped. Everything below that says "see the PDF" is now a **to-do**: draw those graphs and diagrams as small inline SVGs next to `notes.md` and reference them from `chapter.json → diagrams`. Until then the "(graph: see the PDF)" placeholders in the Markdown should be replaced by a one-line description of the curve.
+
 
 Boards only. Board paper: **Sat 27 Feb 2027** (gap days 17–26 Feb after Physics on 16 Feb).
 

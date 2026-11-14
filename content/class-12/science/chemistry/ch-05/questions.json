@@ -100,10 +100,10 @@
     "stars": 3,
     "label": "PYQ-style",
     "stem": "Draw the geometrical isomers of $\\ce{[Pt(NH3)2Cl2]}$. Which one is used in cancer treatment?",
-    "model_answer": "*(diagram: see the PDF)* Square planar: *cis* has the two Cl adjacent (90$^\\circ$); *trans* has them opposite (180$^\\circ$). [½ + ½]<br>\nThe **cis** isomer (cis-platin) is the anticancer drug. [1]",
+    "model_answer": "*(diagram to be added as SVG)* Square planar: *cis* has the two Cl adjacent (90$^\\circ$); *trans* has them opposite (180$^\\circ$). [½ + ½]<br>\nThe **cis** isomer (cis-platin) is the anticancer drug. [1]",
     "scheme": [
       {
-        "step": "*(diagram: see the PDF)* Square planar: *cis* has the two Cl adjacent (90$^\\circ$); *trans* has them opposite (180$^\\circ$).",
+        "step": "*(diagram to be added as SVG)* Square planar: *cis* has the two Cl adjacent (90$^\\circ$); *trans* has them opposite (180$^\\circ$).",
         "marks": 1
       },
       {

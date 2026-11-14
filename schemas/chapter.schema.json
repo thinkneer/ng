@@ -13,32 +13,9 @@
     "unit": { "type": "string", "description": "Unit id from subject.json" },
     "marks_hint": { "type": "string", "description": "e.g. 'about 8–9 marks most years (estimate)'" },
     "summary": { "type": "string", "maxLength": 300 },
-    "pdfs": {
-      "type": "array",
-      "items": {
-        "type": "object",
-        "required": ["title", "path"],
-        "additionalProperties": false,
-        "properties": {
-          "title": { "type": "string" },
-          "path": { "type": "string", "pattern": "^pdfs/.+\\.pdf$" },
-          "page": { "type": "integer", "minimum": 1 }
-        }
-      }
-    },
     "diagrams": {
       "type": "array",
-      "items": {
-        "type": "object",
-        "required": ["title"],
-        "additionalProperties": false,
-        "properties": {
-          "title": { "type": "string" },
-          "svg": { "type": "string" },
-          "pdf": { "type": "string" },
-          "page": { "type": "integer" }
-        }
-      }
+      "items": { "type": "object", "required": ["title", "svg"], "additionalProperties": false, "properties": { "title": { "type": "string" }, "svg": { "type": "string" } } }
     },
     "status": {
       "type": "object",

@@ -73,7 +73,7 @@ NCERT now uses chlorido, cyanido, hydroxido (not chloro, cyano). ``ammine'' (NH$
 
 ### Stereoisomerism
 
-*(diagram: see the PDF)*
+*(diagram to be added as SVG)*
 
 - **Geometrical**: square planar $\ce{[MX2L2]}$ cis/trans ($\ce{[Pt(NH3)2Cl2]}$; cis-platin is the anticancer drug). Tetrahedral complexes show *no* geometrical isomerism.
 - Octahedral $\ce{[MX2L4]}$ cis/trans ($\ce{[Co(NH3)4Cl2]+}$); $\ce{[MX3L3]}$ **fac/mer** ($\ce{[Co(NH3)3(NO2)3]}$).
@@ -112,7 +112,7 @@ boxes: 3d | 4s | 4p | 4d; ×× = electron pair donated by a ligand.
 
 ## Bonding II — Crystal Field Theory
 
-*(diagram: see the PDF)*
+*(diagram to be added as SVG)*
 
 - Ligands treated as point charges; d orbitals split.
 - Octahedral: $e_g$ ($d_{x^2-y^2}$, $d_{z^2}$) up; $t_{2g}$ ($d_{xy}$, $d_{yz}$, $d_{xz}$) down.

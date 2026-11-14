@@ -43,14 +43,14 @@
     "stars": 3,
     "label": "PYQ-style",
     "stem": "Define molar conductivity. With a sketch, show how it varies with $\\sqrt c$ for a strong and a weak electrolyte.",
-    "model_answer": "**Molar conductivity** is the conductivity of a solution divided by its molar concentration, $\\Lambda_m=\\kappa/c$ (S cm$^2$mol$^{-1}$): the conducting power of all ions from one mole of electrolyte. [½]<br>\n*(graph: see the PDF)* Strong: small, linear rise on dilution, $\\Lambda_m=\\Lambda_m^\\circ-A\\sqrt c$ (ions move more freely). Weak: steep rise at low concentration because the degree of dissociation increases. [1 + ½ graph]",
+    "model_answer": "**Molar conductivity** is the conductivity of a solution divided by its molar concentration, $\\Lambda_m=\\kappa/c$ (S cm$^2$mol$^{-1}$): the conducting power of all ions from one mole of electrolyte. [½]<br>\n*(graph to be added as SVG)* Strong: small, linear rise on dilution, $\\Lambda_m=\\Lambda_m^\\circ-A\\sqrt c$ (ions move more freely). Weak: steep rise at low concentration because the degree of dissociation increases. [1 + ½ graph]",
     "scheme": [
       {
         "step": "**Molar conductivity** is the conductivity of a solution divided by its molar concentration, $\\Lambda_m=\\kappa/c$ (S cm$^2$mol$^{-1}$): the conducting power of all ions from one mole of electrolyte.",
         "marks": 0.5
       },
       {
-        "step": "*(graph: see the PDF)* Strong: small, linear rise on dilution, $\\Lambda_m=\\Lambda_m^\\circ-A\\sqrt c$ (ions move more freely). Weak: steep rise at low concentration because the degree of dissociation increases.",
+        "step": "*(graph to be added as SVG)* Strong: small, linear rise on dilution, $\\Lambda_m=\\Lambda_m^\\circ-A\\sqrt c$ (ions move more freely). Weak: steep rise at low concentration because the degree of dissociation increases.",
         "marks": 1.5
       }
     ],

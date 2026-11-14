@@ -3,7 +3,7 @@
 import { execFileSync } from 'node:child_process';
 import { readFileSync, mkdirSync } from 'node:fs';
 const BASE = process.argv[2] || 'http://localhost:4173/ng/';
-const PAGES = { today: '#/today', chapter: '#/12/science/physics/ch-01', practice: '#/practice' };
+const PAGES = { today: '#/today', chapter: '#/12/science/chemistry/ch-01', reader: '#/12/science/chemistry/ch-01/read', practice: '#/practice' };
 mkdirSync('lighthouse', { recursive: true });
 const rows = [];
 for (const [name, hash] of Object.entries(PAGES)) {

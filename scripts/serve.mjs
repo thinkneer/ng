@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 // Tiny static server for local checks: serves the repo at http://localhost:<port>/ng/ (same base path as GitHub Pages).
 import { createServer } from 'node:http';
+import { gzipSync } from 'node:zlib';
 import { readFile, stat } from 'node:fs/promises';
 import { join, extname, normalize } from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -18,8 +19,12 @@ createServer(async (req, res) => {
   try {
     const s = await stat(file);
     if (s.isDirectory()) file = join(file, 'index.html');
-    const body = await readFile(file);
-    res.writeHead(200, { 'Content-Type': MIME[extname(file)] || 'application/octet-stream', 'Cache-Control': 'no-cache' });
+    let body = await readFile(file);
+    const type = MIME[extname(file)] || 'application/octet-stream';
+    const headers = { 'Content-Type': type, 'Cache-Control': 'no-cache' };
+    // gzip text like GitHub Pages does, so local Lighthouse numbers are realistic
+    if (/text\/|json|javascript|svg|manifest/.test(type) && /gzip/.test(req.headers['accept-encoding'] || '')) { body = gzipSync(body); headers['Content-Encoding'] = 'gzip'; }
+    res.writeHead(200, headers);
     res.end(body);
   } catch {
     res.writeHead(404, { 'Content-Type': 'text/plain' }); res.end('not found: ' + rel);

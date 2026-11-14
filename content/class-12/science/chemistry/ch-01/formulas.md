@@ -41,7 +41,7 @@ Non-volatile solute: $p_\text{soln}=x_1p_1^\circ$. Raoult's law is a special cas
 
 - Azeotrope: boils at constant $T$, liquid and vapour have the same composition, so it cannot be separated by fractional distillation.
 
-*(graphs: see the PDF)*
+*(graphs to be added as SVG)*
 
 ## Colligative properties (depend on number of solute particles only)
 
@@ -53,7 +53,7 @@ Osmotic pressure: $\pi=CRT=\dfrac{n_2}{V}RT$ $\Rightarrow\; M_2=\dfrac{w_2RT}{\p
 $K_b=\dfrac{R\,M_1\,T_b^2}{1000\,\Delta_\text{vap}H}$,   $K_f=\dfrac{R\,M_1\,T_f^2}{1000\,\Delta_\text{fus}H}$ (units K kg mol$^{-1}$; depend on solvent only)
 :::
 
-*(graph: see the PDF)*
+*(graph to be added as SVG)*
 
 - Solution's vapour pressure is lower at every $T$, so it must be heated more to reach 1 atm: $T_b>T_b^\circ$.
 - Osmosis: solvent moves through a semipermeable membrane from solvent (or dilute) to concentrated side. $\pi$ = extra pressure that just stops it.

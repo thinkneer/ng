@@ -37,7 +37,7 @@ First order: $t_{75\%}=2t_{1/2}$ `SQP 26–27`; $t_{90\%}=\dfrac{2.303}{k}=3.32\
 
 - **Pseudo first order**: second order overall but one reactant in large excess (water): acid hydrolysis of ethyl acetate; inversion of cane sugar $\ce{C12H22O11 + H2O ->[H+] C6H12O6 (glucose) + C6H12O6 (fructose)}$; hydrolysis of acetyl chloride `SQP 26–27`. Rate $=k'[\text{ester}]$, $k'=k[\ce{H2O}]$.
 
-*(graphs: see the PDF)*
+*(graphs to be added as SVG)*
 
 ## Temperature dependence — Arrhenius
 
@@ -47,7 +47,7 @@ $\log\dfrac{k_2}{k_1}=\dfrac{E_a}{2.303R}\left(\dfrac1{T_1}-\dfrac1{T_2}\right)=
 $e^{-E_a/RT}$ = fraction of molecules with energy $\ge E_a$;   10 K rise roughly doubles $k$ (temperature coefficient $\dfrac{k_{T+10}}{k_T}\approx2$–$3$)
 :::
 
-*(graphs: see the PDF)*
+*(graphs to be added as SVG)*
 
 - Area beyond $E_a$ (molecules able to react) roughly doubles for a 10 K rise. Peak shifts right and flattens; total area stays the same.
 - **Catalyst**: gives an alternative path with lower $E_a$; speeds forward and backward reactions equally; does not change $\Delta G$ or $K$; unchanged at the end.

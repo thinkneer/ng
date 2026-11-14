@@ -22,7 +22,8 @@ const SCREENS = [
   { name: 'today', hash: '#/today' },
   { name: 'subjects', hash: '#/subjects' },
   { name: 'physics', hash: '#/12/science/physics' },
-  { name: 'chapter', hash: '#/12/science/physics/ch-01' },
+  { name: 'chapter', hash: '#/12/science/chemistry/ch-01' },
+  { name: 'reader', hash: '#/12/science/chemistry/ch-01/read' },
   { name: 'practice', hash: '#/practice' },
   { name: 'progress', hash: '#/progress' },
   { name: 'plan', hash: '#/plan' },
@@ -55,7 +56,7 @@ for (const bname of browsers) {
         await page.evaluate((s) => { localStorage.clear(); if (s) localStorage.setItem('ng.settings', s); }, screen.fresh ? null : SETTINGS);
         await page.goto(BASE + '?nosw' + screen.hash, { waitUntil: 'networkidle' });
         await page.waitForSelector('#view .large-title, #view h1, #view .empty', { timeout: 8000 }).catch(() => {});
-        await page.waitForTimeout(350);
+        await page.waitForTimeout(screen.name === 'chapter' || screen.name === 'reader' ? 1200 : 350);
         const file = `${OUT}${bname}-${size.name}-${scheme}-${screen.name}.png`;
         await page.screenshot({ path: file, fullPage: false });
       }

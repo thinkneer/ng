@@ -30,7 +30,7 @@ async function renderSidebar(active, route) {
   const subjects = s.class ? await data.liveSubjects(s.class, s.stream) : [];
   const link = (href, label, ic, id, extra = '') => `<a class="side-link" href="${href}" ${active === id ? 'aria-current="page"' : ''} ${extra}>${icon(ic)}<span>${esc(label)}</span></a>`;
   $('#sidebar').innerHTML = `
-    <div class="sidebar__brand"><img src="assets/icons/icon-192.png" alt="" width="32" height="32"><div><div class="name">ng</div><div class="sub">CBSE board prep</div></div></div>
+    <div class="sidebar__brand"><img src="assets/icons/icon-64.png" alt="" width="32" height="32"><div><div class="name">ng</div><div class="sub">CBSE board prep</div></div></div>
     ${link('#/today', 'Today', 'today', 'today')}
     ${link('#/plan', 'Board plan', 'plan', 'plan')}
     ${link('#/practice', 'Practice', 'practice', 'practice')}
@@ -74,6 +74,7 @@ async function render(route) {
   topbar.classList.remove('is-scrolled');
   topbar.style.setProperty('--unit', result.unitColour ? `#${result.unitColour}` : '');
   // View
+  $('#app').classList.toggle('is-reading', !!result.fullscreen);
   viewEl.className = 'view' + (result.wide ? ' view--wide' : '');
   viewEl.innerHTML = String(result.html || '');
   document.title = (result.title ? result.title + ' · ' : '') + 'ng';
