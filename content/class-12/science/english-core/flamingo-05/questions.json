@@ -1,0 +1,165 @@
+[
+  {
+    "id": "eng-flamingo-05-q01",
+    "chapter": "flamingo-05",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 2,
+    "label": "SQP-style",
+    "topic": "plot",
+    "stem": "What made natural indigo unprofitable for the Champaran landlords?",
+    "options": [
+      "A new tax imposed by the Viceroy",
+      "Synthetic indigo developed in Germany",
+      "Floods that destroyed the indigo crop",
+      "The peasants' refusal to grow indigo"
+    ],
+    "answer": "B",
+    "model_answer": "**(b)** German synthetic indigo collapsed the market, so the landlords sought to cancel the 15 per cent clause — for a price."
+  },
+  {
+    "id": "eng-flamingo-05-q02",
+    "chapter": "flamingo-05",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 2,
+    "label": "SQP-style",
+    "topic": "settlement",
+    "stem": "Gandhi asked the landlords for a refund of what percentage, and finally accepted what?",
+    "options": [
+      "Asked 100 per cent, accepted 50",
+      "Asked 50 per cent, accepted 25",
+      "Asked 25 per cent, accepted 15",
+      "Asked 75 per cent, accepted 50"
+    ],
+    "answer": "B",
+    "model_answer": "**(b)** He asked for 50 per cent; the landlords offered 25 and he accepted, valuing their surrender of prestige over the sum."
+  },
+  {
+    "id": "eng-flamingo-05-q03",
+    "chapter": "flamingo-05",
+    "type": "case",
+    "marks": 4,
+    "stars": 3,
+    "label": "SQP-style",
+    "topic": "extract-based",
+    "stem": "Read the passage in the chapter describing the morning of Gandhi's trial at Motihari: the town black with peasants who had gathered spontaneously, the officials feeling powerless, and Gandhi helping them to regulate the crowd. Answer the questions that follow.",
+    "hint": "Spontaneous crowd = peasants' liberation from fear; officials depend on Gandhi; proof that British might could be challenged.",
+    "parts": [
+      {
+        "id": "a",
+        "stem": "Why had the peasants gathered in such numbers?",
+        "marks": 1,
+        "model_answer": "They had heard that a Mahatma who wanted to help them was in trouble with the authorities, and came spontaneously to support him.",
+        "scheme": [{ "step": "Spontaneous support for Gandhi / the man who had come to help them", "marks": 1 }]
+      },
+      {
+        "id": "b",
+        "stem": "The officials felt powerless because (A) the police had gone on strike (B) they could not control the crowd without Gandhi's cooperation (C) the Viceroy had ordered them to withdraw (D) the magistrate was absent",
+        "marks": 1,
+        "options": ["the police had gone on strike", "they could not control the crowd without Gandhi's cooperation", "the Viceroy had ordered them to withdraw", "the magistrate was absent"],
+        "answer": "B",
+        "model_answer": "(B) Gandhi himself helped regulate the crowd; the officials depended on him.",
+        "scheme": [{ "step": "Option B", "marks": 1 }]
+      },
+      {
+        "id": "c",
+        "stem": "What did the gathering prove to the British, according to Fischer?",
+        "marks": 1,
+        "model_answer": "That their might, till then dreaded and unquestioned, could be challenged by Indians.",
+        "scheme": [{ "step": "British power could be challenged by Indians", "marks": 1 }]
+      },
+      {
+        "id": "d",
+        "stem": "What change in the peasants does this scene mark?",
+        "marks": 1,
+        "model_answer": "The beginning of their liberation from fear — the crushed, fear-stricken sharecroppers now openly stood up for their cause.",
+        "scheme": [{ "step": "Freedom from fear / courage", "marks": 1 }]
+      }
+    ]
+  },
+  {
+    "id": "eng-flamingo-05-q04",
+    "chapter": "flamingo-05",
+    "type": "vsa2",
+    "marks": 2,
+    "stars": 3,
+    "label": "PYQ-style",
+    "topic": "Shukla",
+    "stem": "Who was Rajkumar Shukla, and how did he succeed in bringing Gandhi to Champaran? (40–50 words)",
+    "hint": "Illiterate but resolute; followed from Lucknow to Cawnpore, Ahmedabad, Calcutta.",
+    "model_answer": "Rajkumar Shukla was a poor, illiterate sharecropper from Champaran who wanted Gandhi to see the injustice done to the peasants by the landlords. He met Gandhi at the Lucknow Congress in 1916 and then followed him to Cawnpore, Ahmedabad and Calcutta, never giving up, until his tenacity made Gandhi agree to visit Champaran.",
+    "scheme": [
+      { "step": "Who he was and what he wanted", "marks": 1 },
+      { "step": "Followed Gandhi everywhere; resolute persistence succeeded", "marks": 1 }
+    ]
+  },
+  {
+    "id": "eng-flamingo-05-q05",
+    "chapter": "flamingo-05",
+    "type": "vsa2",
+    "marks": 2,
+    "stars": 3,
+    "label": "PYQ-style",
+    "topic": "25 per cent",
+    "stem": "Why did Gandhi agree to a refund of only 25 per cent to the sharecroppers? (40–50 words)",
+    "hint": "Principle over sum; prestige surrendered; peasants' courage; result.",
+    "model_answer": "For Gandhi the amount mattered less than the principle. By refunding even a part, the landlords were obliged to surrender some of their money and, with it, their prestige; the peasants saw that they had rights and defenders and learnt courage. Events proved him right — within a few years the planters abandoned their estates.",
+    "scheme": [
+      { "step": "Principle over amount; landlords surrendered money and prestige", "marks": 1 },
+      { "step": "Peasants learnt courage / planters left within a few years", "marks": 1 }
+    ]
+  },
+  {
+    "id": "eng-flamingo-05-q06",
+    "chapter": "flamingo-05",
+    "type": "vsa2",
+    "marks": 2,
+    "stars": 2,
+    "label": "PYQ-style",
+    "topic": "lawyers",
+    "stem": "How did the lawyers' attitude change in the course of the Champaran episode? (40–50 words)",
+    "hint": "Fee-collectors chided by Gandhi → vow to go to jail.",
+    "model_answer": "At first the lawyers had represented the peasants in court for large fees, and Gandhi chided them, saying courts could not help fear-stricken peasants. Later, when Gandhi faced prison, they decided that it would be shameful to desert the peasants while a stranger went to jail for them, and vowed to follow him into jail.",
+    "scheme": [
+      { "step": "Earlier: fee-taking; Gandhi's rebuke about courts and fear", "marks": 1 },
+      { "step": "Later: vow to follow Gandhi into jail; 'battle won'", "marks": 1 }
+    ]
+  },
+  {
+    "id": "eng-flamingo-05-q07",
+    "chapter": "flamingo-05",
+    "type": "la5",
+    "marks": 5,
+    "stars": 3,
+    "label": "PYQ-style",
+    "topic": "turning point",
+    "stem": "Why is the Champaran episode considered the beginning of the Indian struggle for independence through civil disobedience? Explain with reference to 'Indigo'. (120–150 words)",
+    "hint": "Context → defiance of order → crowd, trial, lawyers' vow, case dropped → inquiry and refund → fearlessness, self-reliance.",
+    "model_answer": "Champaran was a local dispute — English landlords had cheated illiterate sharecroppers over the 15 per cent indigo clause — but Gandhi's handling of it gave India a new method of struggle.\n\nOrdered to quit Champaran, Gandhi openly refused and wrote that he would disobey. On the morning of his trial thousands of peasants gathered at Motihari, and the officials found themselves powerless without his help. In court he pleaded guilty, explaining that he had obeyed the higher law of conscience, and refused bail. The lawyers, who had earlier only collected fees, vowed to follow him to jail. The Lieutenant-Governor dropped the case: civil disobedience had won for the first time in modern India.\n\nThe official inquiry that followed forced the landlords to refund money and surrender prestige; within years they left Champaran. More important, peasants who had lived in fear learnt courage, and Gandhi learnt that Indians could rely on themselves, refusing even C. F. Andrews's help. Non-violent defiance, mass support and self-reliance — the pattern of the freedom struggle — were all born here.",
+    "scheme": [
+      { "step": "Context: the indigo swindle and Gandhi's arrival", "marks": 1 },
+      { "step": "Defiance of the quit order, the crowd, the guilty plea, lawyers' vow, case dropped", "marks": 2 },
+      { "step": "Inquiry, refund, planters leave; peasants' courage; self-reliance", "marks": 1 },
+      { "step": "Conclusion linking to the national struggle; expression and length", "marks": 1 }
+    ]
+  },
+  {
+    "id": "eng-flamingo-05-q08",
+    "chapter": "flamingo-05",
+    "type": "la5",
+    "marks": 5,
+    "stars": 2,
+    "label": "PYQ-style",
+    "topic": "leadership",
+    "stem": "What qualities of Gandhi as a leader does 'Indigo' bring out? Support your answer with instances from the text. (120–150 words)",
+    "hint": "Responsiveness (Shukla), fact-gathering, fearlessness with courtesy, persuasion of lawyers, practical wisdom (25%), social work, self-reliance.",
+    "model_answer": "'Indigo' shows the leader behind the legend. Gandhi listens to the humblest: an illiterate peasant's persistence is enough to take him to Champaran. He acts on facts, not emotion — he first visits Muzzafarpur to gather information and later collects depositions from ten thousand peasants.\n\nHe is fearless yet courteous: he disobeys the order to leave, pleads guilty by conscience and refuses bail, but helps the officials control the crowd. He persuades rather than commands, shaming the fee-collecting lawyers into vowing to go to jail. He is practical: he accepts a 25 per cent refund because the landlords' loss of prestige matters more than the sum, and he is proved right when the planters leave.\n\nHe sees freedom as a whole, staying on to open schools in six villages and improve health and sanitation. Finally, he insists on self-reliance, refusing C. F. Andrews's help so that Indians win their own battle. Humility, courage, wisdom and service make him a leader people follow.",
+    "scheme": [
+      { "step": "Responsiveness to the humble and reliance on facts, with instances", "marks": 1 },
+      { "step": "Fearlessness with courtesy; power of persuasion (lawyers), with instances", "marks": 2 },
+      { "step": "Practical wisdom (25%), social service, self-reliance (Andrews)", "marks": 1 },
+      { "step": "Conclusion; expression and length", "marks": 1 }
+    ]
+  }
+]

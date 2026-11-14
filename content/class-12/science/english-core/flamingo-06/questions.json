@@ -1,0 +1,165 @@
+[
+  {
+    "id": "eng-flamingo-06-q01",
+    "chapter": "flamingo-06",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 2,
+    "label": "SQP-style",
+    "topic": "plot",
+    "stem": "'Pancake' in the chapter refers to",
+    "options": [
+      "the breakfast served at Gemini Studios",
+      "the brand name of the make-up material",
+      "a nickname for the office boy",
+      "the title of an MRA play"
+    ],
+    "answer": "B",
+    "model_answer": "**(b)** Gemini Studios bought truckloads of Pancake make-up."
+  },
+  {
+    "id": "eng-flamingo-06-q02",
+    "chapter": "flamingo-06",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 2,
+    "label": "SQP-style",
+    "topic": "Spender",
+    "stem": "How did the author finally discover the identity of the English poet who had visited Gemini Studios?",
+    "options": [
+      "Subbu told him years later",
+      "He read the poet's name in The God That Failed, bought from a pavement bookseller",
+      "The Boss announced it at a studio meeting",
+      "He met the poet again in London"
+    ],
+    "answer": "B",
+    "model_answer": "**(b)** Stephen Spender was one of the six ex-communist essayists in the book, and the editor of The Encounter."
+  },
+  {
+    "id": "eng-flamingo-06-q03",
+    "chapter": "flamingo-06",
+    "type": "case",
+    "marks": 4,
+    "stars": 3,
+    "label": "SQP-style",
+    "topic": "extract-based",
+    "stem": "Read the passage in the chapter describing the legal adviser: how he wore pants and a tie while everyone else wore khadi, how he seemed a man of cold logic among dreamers, and how he recorded a temperamental actress's outburst and played it back to her. Answer the questions that follow.",
+    "hint": "He was called 'the opposite'; the contrast is logic vs poetry, formal dress vs khadi; the recording ended her career.",
+    "parts": [
+      {
+        "id": "a",
+        "stem": "Why was the legal adviser referred to as 'the opposite'?",
+        "marks": 1,
+        "model_answer": "In a Story Department full of poets and dreamers he was the one man of logic, and even his dress was the opposite of theirs.",
+        "scheme": [{ "step": "Logic vs dreamers / contrast with the poets", "marks": 1 }]
+      },
+      {
+        "id": "b",
+        "stem": "The actress lost her career because (A) the Boss dismissed her for coming late (B) she heard her own tirade played back and lost her nerve (C) the lawyer filed a case against her (D) she joined a rival studio",
+        "marks": 1,
+        "options": ["the Boss dismissed her for coming late", "she heard her own tirade played back and lost her nerve", "the lawyer filed a case against her", "she joined a rival studio"],
+        "answer": "B",
+        "model_answer": "(B) Shocked at hearing herself, she lost her voice and her confidence.",
+        "scheme": [{ "step": "Option B", "marks": 1 }]
+      },
+      {
+        "id": "c",
+        "stem": "What does his dress tell us about him in relation to the others?",
+        "marks": 1,
+        "model_answer": "Pants, tie and coat marked him as formal and Western-minded, set apart from the khadi-clad Gandhian poets around him.",
+        "scheme": [{ "step": "Formal, apart from the khadi-wearing poets", "marks": 1 }]
+      },
+      {
+        "id": "d",
+        "stem": "What is the author's tone in describing the incident?",
+        "marks": 1,
+        "model_answer": "Ironic and understated — he suggests the lawyer acted without malice, out of a lawyer's instinct, yet notes dryly that it ended a career.",
+        "scheme": [{ "step": "Ironic / dry humour", "marks": 1 }]
+      }
+    ]
+  },
+  {
+    "id": "eng-flamingo-06-q04",
+    "chapter": "flamingo-06",
+    "type": "vsa2",
+    "marks": 2,
+    "stars": 3,
+    "label": "PYQ-style",
+    "topic": "national integration",
+    "stem": "Why does the author call the make-up department of Gemini Studios an example of national integration? (40–50 words)",
+    "hint": "List the regions and communities.",
+    "model_answer": "The department brought together people from all over India long before the term was coined. It was first headed by a Bengali and then by a Maharashtrian, who was assisted by a Dharwar Kannadiga, an Andhra, a Madras Indian Christian, an Anglo-Burmese and several local Tamils — a miniature of the whole country working on one task.",
+    "scheme": [
+      { "step": "People from many regions/communities working together", "marks": 1 },
+      { "step": "At least four named groups", "marks": 1 }
+    ]
+  },
+  {
+    "id": "eng-flamingo-06-q05",
+    "chapter": "flamingo-06",
+    "type": "vsa2",
+    "marks": 2,
+    "stars": 3,
+    "label": "PYQ-style",
+    "topic": "office boy",
+    "stem": "Who was the 'office boy' at Gemini Studios? Why was he frustrated, and whom did he blame? (40–50 words)",
+    "hint": "Forty-year-old; crowd make-up; poet; Subbu.",
+    "model_answer": "The office boy was a man of about forty who had joined the studios hoping to become a star, writer, director or lyricist. Instead he painted the faces of crowd players on crowd-shooting days. A bit of a poet, he felt his talent was wasted and blamed Kothamangalam Subbu, pouring his grievances into the author's ears.",
+    "scheme": [
+      { "step": "Forty-year-old; his real job and his ambitions", "marks": 1 },
+      { "step": "Frustrated poet; blamed Subbu", "marks": 1 }
+    ]
+  },
+  {
+    "id": "eng-flamingo-06-q06",
+    "chapter": "flamingo-06",
+    "type": "vsa2",
+    "marks": 2,
+    "stars": 2,
+    "label": "PYQ-style",
+    "topic": "MRA",
+    "stem": "What was the Moral Re-Armament Army, and what lasting influence did its visit leave on Tamil drama? (40–50 words)",
+    "hint": "1952, 200 people, anti-communist movement, two plays, sunrise–sunset sets.",
+    "model_answer": "The Moral Re-Armament Army was an international group of about two hundred people from twenty nationalities, a counter-movement to communism, which visited Madras in 1952 and staged its plays at Gemini Studios. Though few understood its message, its simple sets and the sunrise and sunset scenes were copied by Tamil plays for years afterwards.",
+    "scheme": [
+      { "step": "What the MRA was — anti-communist group, 1952, 200 people, plays", "marks": 1 },
+      { "step": "Influence: sunrise–sunset scenes in Tamil drama", "marks": 1 }
+    ]
+  },
+  {
+    "id": "eng-flamingo-06-q07",
+    "chapter": "flamingo-06",
+    "type": "la5",
+    "marks": 5,
+    "stars": 3,
+    "label": "PYQ-style",
+    "topic": "Subbu",
+    "stem": "Give a character sketch of Kothamangalam Subbu as presented in 'Poets and Pancakes'. (120–150 words)",
+    "hint": "Position → loyalty → versatility in films → poet, novelist, actor → generosity → enemies → author's balanced irony.",
+    "model_answer": "Kothamangalam Subbu was officially a member of the Story Department but in practice the No. 2 at Gemini Studios. His greatest asset, the author says, was loyalty: he identified himself completely with the Boss and turned all his energy to the Boss's benefit.\n\nHe seemed born for films. Given a scene, he could suggest four ways of shooting it, and fourteen more if those were rejected; his inventiveness made filmmaking look easy. He was a poet who chose to write for the masses, a novelist whose Thillana Mohanambal created unforgettable characters, and a fine supporting actor who often outshone the lead. He was warm and generous, keeping a house full of relatives and friends he fed daily.\n\nYet such closeness to power made him enemies, and the frustrated office boy blamed him for every failure. Asokamitran draws him with admiration and a touch of irony — a gifted, loyal man whose success could not please everyone.",
+    "scheme": [
+      { "step": "Position and loyalty to the Boss", "marks": 1 },
+      { "step": "Versatility in films; poet, novelist, actor with examples", "marks": 2 },
+      { "step": "Generosity; enemies and the office boy's envy", "marks": 1 },
+      { "step": "Balanced conclusion with the author's irony; expression and length", "marks": 1 }
+    ]
+  },
+  {
+    "id": "eng-flamingo-06-q08",
+    "chapter": "flamingo-06",
+    "type": "la5",
+    "marks": 5,
+    "stars": 2,
+    "label": "PYQ-style",
+    "topic": "humour",
+    "stem": "'Poets and Pancakes' is marked by gentle humour and irony. Discuss with examples from the chapter. (120–150 words)",
+    "hint": "Make-up makes people ugly; Clive's stables; national integration; office boy of forty; author's idle job; lawyer among poets; MRA sunsets; the poet nobody understood; the pavement book.",
+    "model_answer": "Asokamitran laughs quietly at the film world he knew from inside. The make-up department, housed in Robert Clive's old stables, exists to turn decent-looking people into crimson monsters; it is also, he notes solemnly, a model of national integration. The 'office boy' is a man of forty, a frustrated poet who paints crowd faces and blames Subbu for his wasted genius. The author's own job of cutting newspaper clippings looks so much like idleness that everyone feels free to advise him.\n\nThe irony sharpens with the legal adviser, a man of cold logic in pants and tie among khadi-clad dreamers, who ends an actress's career by simply recording her tantrum. The Moral Re-Armament Army comes to fight communism and is remembered for its sunrise and sunset scenes. Finally a famous English poet lectures a studio that cannot understand a word, and his identity is discovered years later in a book bought off the pavement.\n\nThe humour is never cruel; it comes from an affectionate eye for human absurdity.",
+    "scheme": [
+      { "step": "Statement of tone; make-up room and national integration", "marks": 1 },
+      { "step": "Office boy, author's job, legal adviser — at least three instances", "marks": 2 },
+      { "step": "MRA sunsets; Spender unrecognised; book from the pavement", "marks": 1 },
+      { "step": "Conclusion on the nature of the humour; expression and length", "marks": 1 }
+    ]
+  }
+]

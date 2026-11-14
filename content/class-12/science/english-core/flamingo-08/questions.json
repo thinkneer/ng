@@ -1,0 +1,160 @@
+[
+  {
+    "id": "eng-flamingo-08-q01",
+    "chapter": "flamingo-08",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 2,
+    "label": "SQP-style",
+    "topic": "plot",
+    "stem": "According to Jansie, where were she and Sophie most likely to end up working?",
+    "options": ["A boutique in the city", "The biscuit factory", "A football club", "Royce's department store"],
+    "answer": "B",
+    "model_answer": "**(b)** Jansie reminds Sophie that both are earmarked for the biscuit factory."
+  },
+  {
+    "id": "eng-flamingo-08-q02",
+    "chapter": "flamingo-08",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 2,
+    "label": "SQP-style",
+    "topic": "Geoff",
+    "stem": "Sophie was fascinated by her brother Geoff mainly because",
+    "options": [
+      "he was a famous footballer",
+      "he gave her money for her boutique",
+      "his silence hinted at areas of his life she knew nothing about",
+      "he agreed with all her plans"
+    ],
+    "answer": "C",
+    "model_answer": "**(c)** She was jealous of his unknown world and longed to be taken into it."
+  },
+  {
+    "id": "eng-flamingo-08-q03",
+    "chapter": "flamingo-08",
+    "type": "case",
+    "marks": 4,
+    "stars": 3,
+    "label": "SQP-style",
+    "topic": "extract-based",
+    "stem": "Read the passage in the chapter where Sophie sits alone on the wooden bench under the elm by the canal, waiting for Danny Casey as the light fades, imagining his arrival and already knowing what she will have to tell Geoff when he does not come. Answer the questions that follow.",
+    "hint": "Childhood haunt; loneliness; dream vs reality; fear of killing Geoff's hope; fantasy continues.",
+    "parts": [
+      {
+        "id": "a",
+        "stem": "Why has Sophie chosen this particular place to wait?",
+        "marks": 1,
+        "model_answer": "It is a quiet, private spot — the bench by the canal where she and Geoff used to come as children — away from the eyes of the neighbourhood.",
+        "scheme": [{ "step": "Private childhood haunt by the canal", "marks": 1 }]
+      },
+      {
+        "id": "b",
+        "stem": "What does Sophie dread most about Casey not coming? (A) missing the match (B) Jansie's teasing (C) telling Geoff and watching his hope die (D) her father's anger",
+        "marks": 1,
+        "options": ["missing the match", "Jansie's teasing", "telling Geoff and watching his hope die", "her father's anger"],
+        "answer": "C",
+        "model_answer": "(C) She imagines Geoff's face as she tells him Casey did not come.",
+        "scheme": [{ "step": "Option C", "marks": 1 }]
+      },
+      {
+        "id": "c",
+        "stem": "What is ironic about Sophie's state of mind in this scene?",
+        "marks": 1,
+        "model_answer": "Even while she knows he will not come, she goes on seeing him arrive — the fantasy survives the failure of reality.",
+        "scheme": [{ "step": "Knows he won't come yet keeps imagining him", "marks": 1 }]
+      },
+      {
+        "id": "d",
+        "stem": "Which theme of the story does this passage best illustrate?",
+        "marks": 1,
+        "model_answer": "The gap between adolescent fantasy and reality, and the loneliness of a dreamer.",
+        "scheme": [{ "step": "Fantasy vs reality / loneliness of the dreamer", "marks": 1 }]
+      }
+    ]
+  },
+  {
+    "id": "eng-flamingo-08-q04",
+    "chapter": "flamingo-08",
+    "type": "vsa2",
+    "marks": 2,
+    "stars": 3,
+    "label": "PYQ-style",
+    "topic": "Sophie vs Jansie",
+    "stem": "How are Sophie and Jansie different from each other? (40–50 words)",
+    "hint": "Dreamer vs realist, with examples.",
+    "model_answer": "Sophie is a dreamer who refuses the life laid out for her: she talks of owning a boutique, becoming an actress or a fashion designer, and invents a meeting with Danny Casey. Jansie is practical and down-to-earth; she knows both girls are earmarked for the biscuit factory and keeps reminding Sophie to be sensible.",
+    "scheme": [
+      { "step": "Sophie: dreamer, ambitions, fantasy", "marks": 1 },
+      { "step": "Jansie: realist, biscuit factory, warns Sophie", "marks": 1 }
+    ]
+  },
+  {
+    "id": "eng-flamingo-08-q05",
+    "chapter": "flamingo-08",
+    "type": "vsa2",
+    "marks": 2,
+    "stars": 3,
+    "label": "PYQ-style",
+    "topic": "Danny Casey story",
+    "stem": "What did Sophie tell Geoff about Danny Casey, and how did her father react? (40–50 words)",
+    "hint": "Arcade, Royce's, green eyes, autograph, date; father: wild stories, trouble.",
+    "model_answer": "Sophie claimed she had met Danny Casey in the arcade outside Royce's; he had spoken to her kindly, had green eyes, was not very tall, and had agreed to meet her again the following week. Her father snorted in disbelief, warning that her wild stories would land her in trouble, and turned to his own memories of Casey's play.",
+    "scheme": [
+      { "step": "The claimed meeting with at least two details and the promised date", "marks": 1 },
+      { "step": "Father's disbelief and warning about wild stories", "marks": 1 }
+    ]
+  },
+  {
+    "id": "eng-flamingo-08-q06",
+    "chapter": "flamingo-08",
+    "type": "vsa2",
+    "marks": 2,
+    "stars": 2,
+    "label": "PYQ-style",
+    "topic": "Geoff",
+    "stem": "Why did Sophie long to be part of Geoff's world? (40–50 words)",
+    "hint": "Silence, unknown areas, pillion ride, welcomed and loved.",
+    "model_answer": "Geoff, her silent elder brother, worked across the city and spoke little, so Sophie imagined he had whole areas of life — places and people — she knew nothing about. Jealous of that hidden world, she dreamt of riding pillion on his motorcycle into it, to be welcomed and loved somewhere larger than her cramped home.",
+    "scheme": [
+      { "step": "Geoff's silence and suspected unknown world; her jealousy", "marks": 1 },
+      { "step": "Dream of riding pillion into a world where she is welcomed", "marks": 1 }
+    ]
+  },
+  {
+    "id": "eng-flamingo-08-q07",
+    "chapter": "flamingo-08",
+    "type": "la5",
+    "marks": 5,
+    "stars": 3,
+    "label": "PYQ-style",
+    "topic": "fantasy vs reality",
+    "stem": "'Sophie lives in a world of dreams that has little to do with her real life.' Discuss with reference to 'Going Places'. Is her dreaming harmful? (120–150 words)",
+    "hint": "Dreams (boutique, fame, Geoff's world, Casey) → reality (home, factory, father) → lie becomes belief → canal → judgement: natural but escapist.",
+    "model_answer": "Sophie's imagination runs far ahead of her life. She plans a boutique, or a career as an actress or fashion designer, while Jansie reminds her that the biscuit factory awaits them both. She longs to enter the unknown world of her silent brother Geoff. Above all she invents a meeting with the footballer Danny Casey — kind words in the arcade, green eyes, a promised date — and, once told, the story becomes real to her.\n\nHer real life is a cramped house, a tired mother at the sink and a father who dismisses her wild stories. Reality asserts itself by the canal, where she waits in the fading light for a man who was never going to come, and at the stadium, where Casey scores for the whole crowd and not for her.\n\nDreaming is natural at her age and gives her a sense of worth her surroundings deny. It becomes harmful only because it replaces effort with fantasy and leaves her lonelier each time the dream fails.",
+    "scheme": [
+      { "step": "Her dreams: boutique/fame, Geoff's world, Casey fantasy with details", "marks": 2 },
+      { "step": "Her reality: home, family, factory; canal and stadium", "marks": 1.5 },
+      { "step": "Evaluation of the dreaming — natural yet escapist", "marks": 1 },
+      { "step": "Organisation, expression and length", "marks": 0.5 }
+    ]
+  },
+  {
+    "id": "eng-flamingo-08-q08",
+    "chapter": "flamingo-08",
+    "type": "la5",
+    "marks": 5,
+    "stars": 2,
+    "label": "PYQ-style",
+    "topic": "title",
+    "stem": "How far is the title 'Going Places' appropriate to the story? Discuss. (120–150 words)",
+    "hint": "Meaning of the idiom → Sophie's belief → her actual journey (home, arcade, canal, stadium) → irony → sympathy.",
+    "model_answer": "To be 'going places' is to be heading for success, and Sophie is certain she is. She will own a boutique, or act, or design clothes; she will ride pillion into Geoff's unknown world; she will be seen about town with Danny Casey. In her mind she travels far.\n\nIn fact she goes almost nowhere. Her real journeys are from school to a crowded kitchen, to the arcade where she only imagines meeting Casey, to a bench by the canal where she waits in vain, and to the stadium where she watches her hero from the stands like everyone else. Jansie's biscuit factory is the destination her class has fixed for her.\n\nThe title is therefore ironic: the only places Sophie goes are the ones in her head. Yet Barton uses the irony gently. Sophie's dreams are the wish of every young person to be more than their circumstances allow, and the title holds both her hope and its sadness.",
+    "scheme": [
+      { "step": "Meaning of the idiom and Sophie's belief in it", "marks": 1 },
+      { "step": "Her imagined destinations vs her real movements (arcade, canal, stadium, factory)", "marks": 2 },
+      { "step": "The irony explained", "marks": 1 },
+      { "step": "Balanced conclusion; expression and length", "marks": 1 }
+    ]
+  }
+]

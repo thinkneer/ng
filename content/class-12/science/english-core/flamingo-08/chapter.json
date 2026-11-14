@@ -1,0 +1,11 @@
+{
+  "$schema": "../../../../../schemas/chapter.schema.json",
+  "id": "flamingo-08",
+  "number": 14,
+  "title": "Going Places",
+  "unit": "C1",
+  "marks_hint": "Prose extract (4) · 2-mark short answers · 5-mark long answer (Section C, estimates)",
+  "summary": "A. R. Barton · Sophie's daydreams (boutique, actress, Danny Casey) vs Jansie's realism · Geoff and the family · the invented meeting · waiting by the canal · adolescent fantasy, hero worship, class",
+  "status": { "notes": "ready", "mustknow": "ready", "formulas": "ready", "questions": "ready" },
+  "updated": "2026-11-14"
+}

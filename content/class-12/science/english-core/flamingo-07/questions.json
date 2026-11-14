@@ -1,0 +1,160 @@
+[
+  {
+    "id": "eng-flamingo-07-q01",
+    "chapter": "flamingo-07",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 2,
+    "label": "SQP-style",
+    "topic": "Part I",
+    "stem": "Which writer described interviews as feeling like thumbprints on his windpipe?",
+    "options": ["V. S. Naipaul", "Rudyard Kipling", "Saul Bellow", "H. G. Wells"],
+    "answer": "C",
+    "model_answer": "**(c)** Saul Bellow, who nevertheless consented to several interviews."
+  },
+  {
+    "id": "eng-flamingo-07-q02",
+    "chapter": "flamingo-07",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 2,
+    "label": "SQP-style",
+    "topic": "Part II",
+    "stem": "Umberto Eco says he regards himself primarily as",
+    "options": [
+      "a novelist who occasionally teaches",
+      "a university professor who writes novels at the weekend",
+      "a journalist",
+      "a children's author"
+    ],
+    "answer": "B",
+    "model_answer": "**(b)** He attends academic conferences, not writers' meetings, and has written forty scholarly works against five novels."
+  },
+  {
+    "id": "eng-flamingo-07-q03",
+    "chapter": "flamingo-07",
+    "type": "case",
+    "marks": 4,
+    "stars": 3,
+    "label": "SQP-style",
+    "topic": "extract-based",
+    "stem": "Read the part of the interview where Mukund Padmanabhan asks how Eco manages to do so much, and Eco answers that he works in the empty spaces he calls interstices, giving the example of a visitor coming up in the lift and the image of the universe shrinking to the size of a fist. Answer the questions that follow.",
+    "hint": "Interstices = empty time; lift = waiting time used for writing; fist = how much of existence is empty space.",
+    "parts": [
+      {
+        "id": "a",
+        "stem": "What does Eco mean by 'interstices'?",
+        "marks": 1,
+        "model_answer": "The empty spaces or gaps of time in a day — moments of waiting that most people let go unused.",
+        "scheme": [{ "step": "Empty spaces / gaps of time", "marks": 1 }]
+      },
+      {
+        "id": "b",
+        "stem": "The example of the lift shows that Eco (A) dislikes visitors (B) writes while waiting for a visitor to come up (C) lives in a tall building (D) prefers lifts to stairs",
+        "marks": 1,
+        "options": ["dislikes visitors", "writes while waiting for a visitor to come up", "lives in a tall building", "prefers lifts to stairs"],
+        "answer": "B",
+        "model_answer": "(B) The waiting time while the lift rises is an interstice he fills with work.",
+        "scheme": [{ "step": "Option B", "marks": 1 }]
+      },
+      {
+        "id": "c",
+        "stem": "What point does the image of the universe shrinking to a fist make?",
+        "marks": 1,
+        "model_answer": "That matter — and by analogy our lives — consists mostly of empty space; there is far more unused time in a day than we think.",
+        "scheme": [{ "step": "Most of existence is empty space / unused time", "marks": 1 }]
+      },
+      {
+        "id": "d",
+        "stem": "What quality of Eco does this answer reveal?",
+        "marks": 1,
+        "model_answer": "His discipline and his gift for explaining ideas through vivid, playful images.",
+        "scheme": [{ "step": "Discipline / vivid explanatory style", "marks": 1 }]
+      }
+    ]
+  },
+  {
+    "id": "eng-flamingo-07-q04",
+    "chapter": "flamingo-07",
+    "type": "vsa2",
+    "marks": 2,
+    "stars": 3,
+    "label": "PYQ-style",
+    "topic": "views on interview",
+    "stem": "What are the two opposing views of the interview mentioned by Christopher Silvester? (40–50 words)",
+    "hint": "Truth/art vs intrusion/diminishes; one example each.",
+    "model_answer": "Some regard the interview as a source of truth and, when done well, an art that reveals a person to the public. Others, especially celebrities who have suffered it, see it as an unwarranted intrusion into their lives that diminishes them — Naipaul felt interviews wound people and rob them of a part of themselves.",
+    "scheme": [
+      { "step": "Favourable view: source of truth, an art", "marks": 1 },
+      { "step": "Hostile view: intrusion, diminishes, with an example", "marks": 1 }
+    ]
+  },
+  {
+    "id": "eng-flamingo-07-q05",
+    "chapter": "flamingo-07",
+    "type": "vsa2",
+    "marks": 2,
+    "stars": 3,
+    "label": "PYQ-style",
+    "topic": "narrative scholarship",
+    "stem": "Why does Eco's scholarly writing have a narrative, personal quality? (40–50 words)",
+    "hint": "Dissertation at 22; professor's remark; story of research.",
+    "model_answer": "When Eco presented his doctoral dissertation at twenty-two, a professor remarked that while scholars normally hide their trials and errors and present only conclusions, Eco had told the story of his research, including its false starts. The professor published it, and Eco realised scholarly books could be written by telling a story.",
+    "scheme": [
+      { "step": "Dissertation at 22; told the story of his research with trials and errors", "marks": 1 },
+      { "step": "Professor's praise and publication; lesson that scholarship can be narrative", "marks": 1 }
+    ]
+  },
+  {
+    "id": "eng-flamingo-07-q06",
+    "chapter": "flamingo-07",
+    "type": "vsa2",
+    "marks": 2,
+    "stars": 2,
+    "label": "PYQ-style",
+    "topic": "Kipling paradox",
+    "stem": "What was Rudyard Kipling's opinion of interviews, and what is ironic about it? (40–50 words)",
+    "hint": "Immoral, crime, assault; Caroline's diary; interviewed Twain.",
+    "model_answer": "Kipling condemned the interview outright as immoral, a crime and an assault on a person that deserved punishment; his wife Caroline recorded in 1892 how two reporters in Boston ruined their day. The irony is that Kipling had himself once interviewed Mark Twain, practising what he denounced.",
+    "scheme": [
+      { "step": "Kipling's condemnation: immoral, crime, assault; diary detail", "marks": 1 },
+      { "step": "Irony: he interviewed Mark Twain", "marks": 1 }
+    ]
+  },
+  {
+    "id": "eng-flamingo-07-q07",
+    "chapter": "flamingo-07",
+    "type": "la5",
+    "marks": 5,
+    "stars": 3,
+    "label": "PYQ-style",
+    "topic": "Part I",
+    "stem": "'The interview is both a supremely serviceable medium and an intrusion.' Discuss the views of the interview presented in Part I of 'The Interview'. (120–150 words)",
+    "hint": "Age and reach → two camps → critics with phrases → paradox (Kipling, Wells) → Brian on power → balanced conclusion.",
+    "model_answer": "Christopher Silvester notes that the interview, invented about 130 years ago, has become a commonplace of journalism, and that opinions about it are sharply divided.\n\nTo its defenders it is a source of truth and, in skilled hands, an art. Denis Brian points out that almost everything we know of our contemporaries reaches us through one person asking questions of another, which gives the interviewer unprecedented power and influence. Silvester himself calls it a supremely serviceable medium of communication.\n\nIts victims disagree. Naipaul felt interviews wound people and take away part of themselves; Lewis Carroll had a horror of interviewers and never consented; Kipling called the practice immoral, a crime and an assault; Wells spoke of an ordeal; Saul Bellow felt thumbprints on his windpipe. Yet Kipling interviewed Mark Twain and Wells interviewed Stalin, which shows how indispensable the form has become.\n\nThe interview intrudes, but it is also how the public comes to know the minds of its most interesting people.",
+    "scheme": [
+      { "step": "Age, ubiquity, divided opinion", "marks": 1 },
+      { "step": "Case for: truth, art, Brian's point, serviceable medium", "marks": 1 },
+      { "step": "Case against with at least three named critics and their phrases", "marks": 2 },
+      { "step": "Paradox and balanced conclusion; expression and length", "marks": 1 }
+    ]
+  },
+  {
+    "id": "eng-flamingo-07-q08",
+    "chapter": "flamingo-07",
+    "type": "la5",
+    "marks": 5,
+    "stars": 2,
+    "label": "PYQ-style",
+    "topic": "Eco",
+    "stem": "What impression of Umberto Eco do you form from his interview with Mukund Padmanabhan? (120–150 words)",
+    "hint": "Prolific and disciplined (interstices) → unified interests → narrative scholar → modest about identity (academic first) → humble about success → playful, vivid speaker.",
+    "model_answer": "Eco comes across as a man of enormous energy and quiet discipline. He has written more than forty scholarly works, five novels, children's books and columns, yet he explains it simply: he works in the interstices, the empty moments of the day, such as the time a visitor spends coming up in the lift. He does not feel scattered, because the same philosophical and ethical interests run through everything he writes.\n\nHe is an original thinker who learnt at twenty-two that scholarship could be told as a story, and he has written that way since, turning to novels at fifty almost by accident. He is modest about his fame: he calls himself a university professor who writes novels at the weekend, prefers academic conferences to writers' clubs, and treats the huge success of The Name of the Rose as a mystery, crediting timing and readers who enjoy difficulty rather than his own genius.\n\nAbove all, he is a delightful talker, explaining ideas with playful images.",
+    "scheme": [
+      { "step": "Prolific, disciplined — interstices with example", "marks": 1 },
+      { "step": "Unified interests; narrative scholarship; novels at fifty", "marks": 2 },
+      { "step": "Modesty: academic first; mystery of the novel's success", "marks": 1 },
+      { "step": "Overall impression; expression and length", "marks": 1 }
+    ]
+  }
+]

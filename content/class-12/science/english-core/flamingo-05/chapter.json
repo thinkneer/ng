@@ -1,0 +1,11 @@
+{
+  "$schema": "../../../../../schemas/chapter.schema.json",
+  "id": "flamingo-05",
+  "number": 11,
+  "title": "Indigo",
+  "unit": "C1",
+  "marks_hint": "Prose extract (4) · 2-mark short answers · 5-mark long answer (Section C, estimates)",
+  "summary": "Louis Fischer · Rajkumar Shukla · sharecroppers of Champaran and the 15% indigo clause · Gandhi at Motihari, the trial, civil disobedience · 25% refund · schools, health, self-reliance · leadership and fearlessness",
+  "status": { "notes": "ready", "mustknow": "ready", "formulas": "ready", "questions": "ready" },
+  "updated": "2026-11-14"
+}

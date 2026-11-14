@@ -18,12 +18,13 @@ _Paper: 5 March 2027 (CBSE date sheet of 6 Nov 2026; recheck cbse.gov.in). Theor
 - subject.json (units, colours, marks, chapters).
 - **Writing skills (4/4)** — 14 Nov 2026: writing-notice, writing-invitation, writing-letter, writing-article-report. All four files each (notes with annotated `:::skeleton` models, mustknow with six §4b headings, formulas value points, 6 questions each: 2 MCQ + 4 tasks with model answers and format/content/expression schemes).
 
+- **Flamingo prose (8/8)** — 14 Nov 2026: flamingo-01 The Last Lesson · 02 Lost Spring · 03 Deep Water · 04 The Rattrap · 05 Indigo · 06 Poets and Pancakes · 07 The Interview · 08 Going Places. Each: notes (friend-style walk-through, In one breath per section, tips at the trap), mustknow (six headings, ★ questions with marks/word limits, lines, value-point boxes, skeletons, 1-mark facts, traps), formulas (titled value-point boxes), questions.json (2 MCQ + 1 extract-based case with 4 one-mark parts + 3 vsa2 + 2 la5 = 8 each, 64 total).
+
 ## Corrections
 - none yet
 
 ## What's next
-1. Flamingo prose (flamingo-01…08) — notes, mustknow, formulas (value points), questions (MCQ, extract-based case, vsa2, la5).
-2. Poems (poem-01…05).
-3. Vistas (vistas-01…06).
-4. Reading (reading-unseen, reading-case) with original practice passages.
-5. Later: a fixed full paper under `papers/` following the 2026–27 SQP; polish Must-know lines after the first student round.
+1. Poems (poem-01…05) — poetic devices, poetry-extract case questions (6 marks in the SQP pattern: build as case with 6 one-mark parts).
+2. Vistas (vistas-01…06).
+3. Reading (reading-unseen, reading-case) with original practice passages.
+4. Later: a fixed full paper under `papers/` following the 2026–27 SQP; polish Must-know lines after the first student round.

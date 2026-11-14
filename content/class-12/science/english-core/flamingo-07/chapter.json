@@ -1,0 +1,11 @@
+{
+  "$schema": "../../../../../schemas/chapter.schema.json",
+  "id": "flamingo-07",
+  "number": 13,
+  "title": "The Interview",
+  "unit": "C1",
+  "marks_hint": "Prose extract (4) · 2-mark short answers · 5-mark long answer (Section C, estimates)",
+  "summary": "Part I Christopher Silvester: history and criticism of the interview (Naipaul, Carroll, Kipling, Wells, Bellow, Brian) · Part II Mukund Padmanabhan interviews Umberto Eco: interstices, narrative scholarship, The Name of the Rose",
+  "status": { "notes": "ready", "mustknow": "ready", "formulas": "ready", "questions": "ready" },
+  "updated": "2026-11-14"
+}

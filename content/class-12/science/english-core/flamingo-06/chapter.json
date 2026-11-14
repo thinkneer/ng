@@ -1,0 +1,11 @@
+{
+  "$schema": "../../../../../schemas/chapter.schema.json",
+  "id": "flamingo-06",
+  "number": 12,
+  "title": "Poets and Pancakes",
+  "unit": "C1",
+  "marks_hint": "Prose extract (4) · 2-mark short answers · 5-mark long answer (Section C, estimates)",
+  "summary": "Asokamitran · Gemini Studios · Pancake and the make-up department · the office boy · Kothamangalam Subbu · the legal adviser · MRA visit · Stephen Spender and The God That Failed · humour and satire",
+  "status": { "notes": "ready", "mustknow": "ready", "formulas": "ready", "questions": "ready" },
+  "updated": "2026-11-14"
+}
