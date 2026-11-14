@@ -40,6 +40,16 @@ Boards only. Board paper: **Tue 16 Feb 2027** (first paper of the season). Pract
 - **Figures:** drawn from code (`currentColor`, unit colour, `#E0B400` highlight); optics ray diagrams and the alpha-scattering paths are computed, so they are to scale.
 - **Source note:** the 30-page must-have notes exist only as a PDF that was not available to this chat. The Must-know files follow its structure (repeated questions with stars, must-know lines, formulas, skeletons, 1-mark facts, traps) and are written from board knowledge; stars are estimates.
 
+## Interactive pass (CLAUDE.md §4c)
+| Chapter | cards.json | ng-figure (with parts) | other blocks |
+|---|---|---|---|
+| 1 | 12 | 4 | steps, compare, 3 numerical, 3 graph, 3 mnemonic, derive, fill, 2 draw, explain |
+| 2 | 11 | 4 | 4 numerical, 3 graph, 2 mnemonic, derive, compare, fill, 2 draw |
+| 3 | 12 | 5 | 4 numerical, 3 graph, 2 mnemonic, 2 derive, steps, compare, fill, 2 draw |
+
+- Every figure in notes.md is now an `ng-figure` with labelled parts (ids = the figure names, e.g. `ch01-dipole`; never rename). Unit colour now comes from `class="u"` / `class="uf"`, not hard-coded hex.
+- Numericals use fresh numbers; each answer expression was checked by hand against one random draw.
+
 ## Corrections
 - Charge at a cube corner → flux through the whole cube is $q/8\varepsilon_0$ ($q/24\varepsilon_0$ through each of the 3 far faces). An early formula-sheet version said $q/24\varepsilon_0$ for the whole cube; the site files carry the correct value (Ch 1 notes, must-know trap, formulas).
 

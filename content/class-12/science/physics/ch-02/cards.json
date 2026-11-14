@@ -1,0 +1,120 @@
+[
+  {
+    "id": "ch02-equipotentials",
+    "kind": "figure",
+    "title": "Equipotential surfaces",
+    "svg": "ref: notes#ch02-equipotentials",
+    "back": "Point charge: concentric spheres. Uniform field: equally spaced planes. Always perpendicular to E.",
+    "stars": 2,
+    "tags": [
+      "diagram"
+    ]
+  },
+  {
+    "id": "ch02-shell-graphs",
+    "kind": "figure",
+    "title": "E and V of a charged shell",
+    "svg": "ref: notes#ch02-shell-graphs",
+    "back": "Inside: E = 0, V constant (= kq/R). Outside: E ∝ 1/r², V ∝ 1/r.",
+    "stars": 2,
+    "tags": [
+      "graph"
+    ]
+  },
+  {
+    "id": "ch02-slab",
+    "kind": "figure",
+    "title": "Capacitor with a dielectric slab",
+    "svg": "ref: notes#ch02-slab",
+    "back": "Air gap field E₀ = σ/ε₀; inside the slab E₀/K. So C = ε₀A/[d − t(1 − 1/K)].",
+    "stars": 3,
+    "tags": [
+      "diagram",
+      "5-mark"
+    ]
+  },
+  {
+    "id": "ch02-combos",
+    "kind": "figure",
+    "title": "Series and parallel capacitors",
+    "svg": "ref: notes#ch02-combos",
+    "back": "Series: same Q, 1/C adds. Parallel: same V, C adds. The opposite of resistors.",
+    "stars": 2
+  },
+  {
+    "id": "point-charge-potential",
+    "kind": "formula",
+    "title": "Potential of a point charge",
+    "tex": "V=\\dfrac{1}{4\\pi\\varepsilon_0}\\dfrac{q}{r}",
+    "legend": [
+      "V = work per unit charge from infinity (volt)"
+    ],
+    "back": "A scalar: add potentials of many charges with their signs.",
+    "stars": 2
+  },
+  {
+    "id": "dipole-potential",
+    "kind": "formula",
+    "title": "Potential of a dipole",
+    "tex": "V=\\dfrac{kp\\cos\\theta}{r^2}",
+    "legend": [
+      "θ = angle from the axis",
+      "r = distance from the centre"
+    ],
+    "back": "Zero everywhere on the equatorial line, though E is not zero there.",
+    "stars": 2
+  },
+  {
+    "id": "field-from-potential",
+    "kind": "formula",
+    "title": "Field from potential",
+    "tex": "E=-\\dfrac{dV}{dr}",
+    "legend": [
+      "− sign = E points towards lower potential"
+    ],
+    "back": "Uniform field: E = V/d."
+  },
+  {
+    "id": "two-charge-energy",
+    "kind": "formula",
+    "title": "Potential energy of two charges",
+    "tex": "U=\\dfrac{1}{4\\pi\\varepsilon_0}\\dfrac{q_1q_2}{r}",
+    "legend": [
+      "system of charges = sum over every pair"
+    ],
+    "back": "Negative for unlike charges (bound). Dipole in a field: U = −pE cos θ.",
+    "stars": 2
+  },
+  {
+    "id": "parallel-plate-capacitance",
+    "kind": "formula",
+    "title": "Parallel-plate capacitor",
+    "tex": "C=\\dfrac{K\\varepsilon_0A}{d}",
+    "legend": [
+      "A = plate area",
+      "d = separation",
+      "K = dielectric constant (1 for air)"
+    ],
+    "back": "Slab of thickness t: C = ε₀A/[d − t(1 − 1/K)].",
+    "stars": 3
+  },
+  {
+    "id": "capacitor-energy",
+    "kind": "formula",
+    "title": "Energy in a capacitor",
+    "tex": "U=\\dfrac{Q^2}{2C}=\\dfrac12CV^2=\\dfrac12QV",
+    "legend": [
+      "energy density u = ½ε₀E²"
+    ],
+    "back": "Joining a charged and an uncharged capacitor always loses some energy as heat.",
+    "stars": 3
+  },
+  {
+    "id": "battery-connected-rule",
+    "kind": "mnemonic",
+    "title": "Dielectric inserted: battery on or off?",
+    "back": "\"Jude raho to V wahi, tod do to Q wahi\": connected keeps V fixed (C, Q, U × K); removed keeps Q fixed (V, E, U ÷ K).",
+    "svg": "ref: notes#ch02-slab",
+    "stars": 3
+  }
+]

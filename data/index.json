@@ -295,6 +295,7 @@
                         "notes": true,
                         "mustknow": true,
                         "formulas": true,
+                        "cards": true,
                         "questions": true
                       },
                       "marks_hint": "Unit I+II: 16 marks together (CBSE 2026–27); Ch 1 is usually 4–6 of them (estimate)",
@@ -309,8 +310,22 @@
                         "la5": 1
                       },
                       "diagrams": [],
-                      "words": 4071,
-                      "read_minutes": 15
+                      "blocks": {
+                        "steps": 1,
+                        "compare": 1,
+                        "numerical": 3,
+                        "figure": 4,
+                        "graph": 3,
+                        "mnemonic": 3,
+                        "draw": 2,
+                        "derive": 1,
+                        "fill": 1,
+                        "explain": 1
+                      },
+                      "words": 3958,
+                      "read_minutes": 14,
+                      "cards": 12,
+                      "mnemonics": 4
                     },
                     {
                       "id": "ch-02",
@@ -321,6 +336,7 @@
                         "notes": true,
                         "mustknow": true,
                         "formulas": true,
+                        "cards": true,
                         "questions": true
                       },
                       "marks_hint": "Unit I+II: 16 marks together (CBSE 2026–27); Ch 2 is usually 5–7 of them (estimate)",
@@ -335,8 +351,20 @@
                         "la5": 1
                       },
                       "diagrams": [],
-                      "words": 2991,
-                      "read_minutes": 10
+                      "blocks": {
+                        "graph": 3,
+                        "numerical": 4,
+                        "figure": 4,
+                        "draw": 2,
+                        "compare": 1,
+                        "derive": 1,
+                        "mnemonic": 2,
+                        "fill": 1
+                      },
+                      "words": 2881,
+                      "read_minutes": 10,
+                      "cards": 11,
+                      "mnemonics": 3
                     }
                   ]
                 },
@@ -356,6 +384,7 @@
                         "notes": true,
                         "mustknow": true,
                         "formulas": true,
+                        "cards": true,
                         "questions": true
                       },
                       "marks_hint": "Unit I+II: 16 marks together (CBSE 2026–27); Ch 3 is usually 5–7 of them (estimate)",
@@ -370,8 +399,21 @@
                         "la5": 1
                       },
                       "diagrams": [],
-                      "words": 2645,
-                      "read_minutes": 9
+                      "blocks": {
+                        "figure": 5,
+                        "numerical": 3,
+                        "draw": 2,
+                        "mnemonic": 2,
+                        "derive": 2,
+                        "graph": 3,
+                        "fill": 1,
+                        "compare": 1,
+                        "steps": 1
+                      },
+                      "words": 2528,
+                      "read_minutes": 8,
+                      "cards": 12,
+                      "mnemonics": 3
                     }
                   ]
                 },

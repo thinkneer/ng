@@ -1,0 +1,137 @@
+[
+  {
+    "id": "ch01-field-lines",
+    "kind": "figure",
+    "title": "Field lines: point charge and dipole",
+    "svg": "ref: notes#ch01-field-lines",
+    "back": "Lines start on +, end on −, never cross, never close; crowded lines mean a strong field.",
+    "stars": 2,
+    "tags": [
+      "diagram"
+    ]
+  },
+  {
+    "id": "ch01-dipole",
+    "kind": "figure",
+    "title": "Axial and equatorial points of a dipole",
+    "svg": "ref: notes#ch01-dipole",
+    "back": "Axial: E = 2kp/r³ along p. Equatorial: E = kp/r³ opposite to p (short dipole, r from the centre).",
+    "stars": 3,
+    "tags": [
+      "diagram",
+      "3-mark"
+    ]
+  },
+  {
+    "id": "ch01-torque",
+    "kind": "figure",
+    "title": "Dipole in a uniform field",
+    "svg": "ref: notes#ch01-torque",
+    "back": "Equal and opposite forces qE: no net force, torque pE sin θ that turns p towards E.",
+    "stars": 2,
+    "tags": [
+      "diagram"
+    ]
+  },
+  {
+    "id": "ch01-gauss",
+    "kind": "figure",
+    "title": "Gaussian surfaces",
+    "svg": "ref: notes#ch01-gauss",
+    "back": "Wire: coaxial cylinder. Sheet: pillbox. Shell: concentric sphere. Draw it in every Gauss answer.",
+    "stars": 3,
+    "tags": [
+      "diagram",
+      "3-mark"
+    ]
+  },
+  {
+    "id": "coulomb-law",
+    "kind": "formula",
+    "title": "Coulomb's law",
+    "tex": "F=\\dfrac{1}{4\\pi\\varepsilon_0}\\dfrac{q_1q_2}{r^2}",
+    "legend": [
+      "\\tfrac{1}{4\\pi\\varepsilon_0} = 9\\times10^9 N m² C⁻²",
+      "r = distance between the charges"
+    ],
+    "back": "Along the line joining the charges; divide by K in a medium.",
+    "stars": 2
+  },
+  {
+    "id": "point-charge-field",
+    "kind": "formula",
+    "title": "Field of a point charge",
+    "tex": "E=\\dfrac{1}{4\\pi\\varepsilon_0}\\dfrac{q}{r^2}",
+    "legend": [
+      "E = force per unit positive charge (N/C)",
+      "q = source charge"
+    ],
+    "back": "Outward for +q, inward for −q."
+  },
+  {
+    "id": "dipole-axial-field",
+    "kind": "formula",
+    "title": "Dipole field: axial point",
+    "tex": "E=\\dfrac{2kp}{r^3}",
+    "legend": [
+      "p = q × 2a (C m)",
+      "r = distance from the centre"
+    ],
+    "back": "Direction along p. Exact form: 2kpr/(r² − a²)².",
+    "stars": 3
+  },
+  {
+    "id": "dipole-equatorial-field",
+    "kind": "formula",
+    "title": "Dipole field: equatorial point",
+    "tex": "E=\\dfrac{kp}{r^3}",
+    "legend": [
+      "p = dipole moment",
+      "k = 1/4πε₀"
+    ],
+    "back": "Direction opposite to p. Exact form: kp/(r² + a²)^{3/2}.",
+    "stars": 2
+  },
+  {
+    "id": "dipole-torque",
+    "kind": "formula",
+    "title": "Torque on a dipole",
+    "tex": "\\vec\\tau=\\vec p\\times\\vec E",
+    "legend": [
+      "τ = pE sin θ",
+      "θ = angle between p and E"
+    ],
+    "back": "Maximum pE at 90°; zero at 0° (stable) and 180° (unstable).",
+    "stars": 2
+  },
+  {
+    "id": "gauss-law",
+    "kind": "formula",
+    "title": "Gauss's law",
+    "tex": "\\oint\\vec E\\cdot d\\vec S=\\dfrac{q_\\text{enc}}{\\varepsilon_0}",
+    "legend": [
+      "q_{enc} = charge inside the closed surface"
+    ],
+    "back": "Charges outside add zero flux. Charge at a cube corner: q/8ε₀ through that cube.",
+    "stars": 3
+  },
+  {
+    "id": "wire-sheet-fields",
+    "kind": "formula",
+    "title": "Field of a wire and of a sheet",
+    "tex": "E_\\text{wire}=\\dfrac{\\lambda}{2\\pi\\varepsilon_0r}\\qquad E_\\text{sheet}=\\dfrac{\\sigma}{2\\varepsilon_0}",
+    "legend": [
+      "λ = charge per metre",
+      "σ = charge per m²"
+    ],
+    "back": "Wire field ∝ 1/r; sheet field does not depend on distance.",
+    "stars": 3
+  },
+  {
+    "id": "flux-inside-only",
+    "kind": "mnemonic",
+    "title": "Which charges count for flux?",
+    "back": "\"Flux mein sirf andar wala ginta hai\": only the charge inside a closed surface sets the total flux.",
+    "svg": "ref: notes#ch01-gauss"
+  }
+]

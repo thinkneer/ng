@@ -1,4 +1,105 @@
 {
+ "physics/ch-01": [
+  {
+   "id": "field-line-rules",
+   "title": "The four rules of field lines",
+   "trick": "**\"Plus se shuru, minus pe khatam, kabhi na kaatein, kabhi na ghoomein\"**",
+   "meaning": [
+    "Lines **start on +** and **end on −**.",
+    "They **never cross** (one direction of E at a point) and **never form closed loops** (electrostatic field is conservative)."
+   ],
+   "prompt": "State four properties of electric field lines."
+  },
+  {
+   "id": "axial-double",
+   "title": "Axial or equatorial: which is bigger?",
+   "trick": "**\"A for Axial, A for Aage (ahead), A for twice\"**: axial field = 2 × equatorial field",
+   "meaning": [
+    "Short dipole: $E_\\text{axial}=\\dfrac{2kp}{r^3}$ along $\\vec p$; $E_\\text{equatorial}=\\dfrac{kp}{r^3}$ opposite to $\\vec p$."
+   ],
+   "prompt": "At the same distance, how does the axial field of a short dipole compare with the equatorial field?"
+  },
+  {
+   "id": "andar-wala-ginta-hai",
+   "title": "Which charges count for flux?",
+   "trick": "**\"Flux mein sirf andar wala ginta hai\"** (for flux, only the charge inside counts)",
+   "meaning": [
+    "Total flux $=q_\\text{enclosed}/\\varepsilon_0$; charges outside add zero net flux.",
+    "But the **field** on the surface still depends on every charge, inside and outside."
+   ],
+   "prompt": "Does a charge outside a closed surface change the total flux through it?"
+  },
+  {
+   "id": "flux-inside-only",
+   "title": "Which charges count for flux?",
+   "trick": "Which charges count for flux?",
+   "meaning": [
+    "\"Flux mein sirf andar wala ginta hai\": only the charge inside a closed surface sets the total flux."
+   ],
+   "card": true
+  }
+ ],
+ "physics/ch-02": [
+  {
+   "id": "capacitor-opposite-resistor",
+   "title": "Series and parallel for capacitors",
+   "trick": "**\"C is the ulta (opposite) of R\"**",
+   "meaning": [
+    "Capacitors in **series** add as reciprocals ($\\frac1C=\\frac1{C_1}+\\frac1{C_2}$); in **parallel** they simply add.",
+    "Resistors do exactly the reverse."
+   ],
+   "prompt": "How do capacitors combine in series and in parallel?"
+  },
+  {
+   "id": "jude-raho",
+   "title": "Battery connected or removed?",
+   "trick": "**\"Jude raho to V wahi, tod do to Q wahi\"** (stay connected: V same; cut off: Q same)",
+   "meaning": [
+    "Connected: $V$ fixed, so $C$, $Q$, $U$ all × K.",
+    "Disconnected: $Q$ fixed, so $C$ × K while $V$, $E$, $U$ ÷ K."
+   ],
+   "prompt": "When a dielectric is inserted with the battery disconnected, which quantity stays fixed?"
+  },
+  {
+   "id": "battery-connected-rule",
+   "title": "Dielectric inserted: battery on or off?",
+   "trick": "Dielectric inserted: battery on or off?",
+   "meaning": [
+    "\"Jude raho to V wahi, tod do to Q wahi\": connected keeps V fixed (C, Q, U × K); removed keeps Q fixed (V, E, U ÷ K)."
+   ],
+   "card": true
+  }
+ ],
+ "physics/ch-03": [
+  {
+   "id": "virat",
+   "title": "Ohm's law",
+   "trick": "**\"V = IR — think VIRat\"**",
+   "meaning": [
+    "$V=IR$, with $R=\\rho\\dfrac lA$ and $\\rho=\\dfrac{m}{ne^2\\tau}$."
+   ],
+   "prompt": "Write Ohm's law and the expression for resistivity from the drift model."
+  },
+  {
+   "id": "kirchhoff-hooks",
+   "title": "What each Kirchhoff rule conserves",
+   "trick": "**\"Junction pe charge, loop pe energy\"**",
+   "meaning": [
+    "**Junction rule** = conservation of **charge**: no charge piles up at a point.",
+    "**Loop rule** = conservation of **energy**: back at the start, back to the same potential."
+   ],
+   "prompt": "Which conservation law does each of Kirchhoff's rules express?"
+  },
+  {
+   "id": "kirchhoff-conservation",
+   "title": "What do Kirchhoff’s rules conserve?",
+   "trick": "What do Kirchhoff’s rules conserve?",
+   "meaning": [
+    "\"Junction pe charge, loop pe energy\": junction rule = charge conservation; loop rule = energy conservation."
+   ],
+   "card": true
+  }
+ ],
  "chemistry/ch-01": [
   {
    "id": "momos-molality",

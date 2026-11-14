@@ -1,0 +1,127 @@
+[
+  {
+    "id": "ch03-drift",
+    "kind": "figure",
+    "title": "Drift of electrons",
+    "svg": "ref: notes#ch03-drift",
+    "back": "Electrons within v_d Δt cross the section in Δt, so I = neAv_d.",
+    "stars": 3,
+    "tags": [
+      "diagram"
+    ]
+  },
+  {
+    "id": "ch03-rho-t",
+    "kind": "figure",
+    "title": "Resistivity against temperature",
+    "svg": "ref: notes#ch03-rho-t",
+    "back": "Metal: ρ rises (τ falls). Semiconductor: ρ falls (more carriers).",
+    "stars": 2,
+    "tags": [
+      "graph"
+    ]
+  },
+  {
+    "id": "ch03-cell",
+    "kind": "figure",
+    "title": "Cell with internal resistance",
+    "svg": "ref: notes#ch03-cell",
+    "back": "I = ε/(R + r); terminal voltage V = ε − Ir while discharging, ε + Ir while charging.",
+    "stars": 2
+  },
+  {
+    "id": "ch03-kirchhoff",
+    "kind": "figure",
+    "title": "Two-loop circuit",
+    "svg": "ref: notes#ch03-kirchhoff",
+    "back": "Junction: I₂ = I₁ + I₃. Loops give the rest; a negative current flows the other way.",
+    "stars": 2
+  },
+  {
+    "id": "ch03-wheatstone",
+    "kind": "figure",
+    "title": "Wheatstone bridge",
+    "svg": "ref: notes#ch03-wheatstone",
+    "back": "Balanced when the galvanometer reads zero: P/Q = R/S.",
+    "stars": 3,
+    "tags": [
+      "diagram",
+      "5-mark"
+    ]
+  },
+  {
+    "id": "current-drift",
+    "kind": "formula",
+    "title": "Current and drift velocity",
+    "tex": "I=neAv_d",
+    "legend": [
+      "n = free electrons per m³",
+      "v_d = eEτ/m"
+    ],
+    "back": "Drift speed is about 10⁻⁴ m/s; the signal travels at nearly c.",
+    "stars": 3
+  },
+  {
+    "id": "resistivity",
+    "kind": "formula",
+    "title": "Resistivity from the drift model",
+    "tex": "\\rho=\\dfrac{m}{ne^2\\tau}",
+    "legend": [
+      "τ = relaxation time",
+      "R = ρl/A"
+    ],
+    "back": "Depends on material and temperature, never on length or area.",
+    "stars": 2
+  },
+  {
+    "id": "temperature-coefficient",
+    "kind": "formula",
+    "title": "Temperature dependence of ρ",
+    "tex": "\\rho_T=\\rho_0\\left[1+\\alpha(T-T_0)\\right]",
+    "legend": [
+      "α = temperature coefficient (K⁻¹)"
+    ],
+    "back": "Metals: α > 0. Nichrome, manganin: very small α."
+  },
+  {
+    "id": "terminal-voltage",
+    "kind": "formula",
+    "title": "Terminal voltage",
+    "tex": "V=\\varepsilon-Ir",
+    "legend": [
+      "ε = emf",
+      "r = internal resistance"
+    ],
+    "back": "Equals ε only when no current is drawn.",
+    "stars": 2
+  },
+  {
+    "id": "cells-in-parallel",
+    "kind": "formula",
+    "title": "Cells in parallel",
+    "tex": "\\varepsilon_\\text{eq}=\\dfrac{\\varepsilon_1r_2+\\varepsilon_2r_1}{r_1+r_2}",
+    "legend": [
+      "r_{eq} = r₁r₂/(r₁ + r₂)"
+    ],
+    "back": "Series: emfs and internal resistances simply add.",
+    "stars": 2
+  },
+  {
+    "id": "wheatstone-balance",
+    "kind": "formula",
+    "title": "Wheatstone bridge balance",
+    "tex": "\\dfrac{P}{Q}=\\dfrac{R}{S}",
+    "legend": [
+      "balance = no current through the galvanometer"
+    ],
+    "back": "Independent of the cell and galvanometer resistance: a null method.",
+    "stars": 3
+  },
+  {
+    "id": "kirchhoff-conservation",
+    "kind": "mnemonic",
+    "title": "What do Kirchhoff’s rules conserve?",
+    "back": "\"Junction pe charge, loop pe energy\": junction rule = charge conservation; loop rule = energy conservation.",
+    "svg": "ref: notes#ch03-kirchhoff"
+  }
+]

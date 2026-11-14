@@ -30,6 +30,25 @@ Quantisation is easy to forget because $e$ is so small. A charge of 1 µC holds 
 A charge like $2.4\times10^{-19}$ C is impossible for a body, because it is $1.5e$. Divide by $1.6\times10^{-19}$ and check you get a whole number.
 :::
 
+```ng-steps
+id: charging-by-induction
+title: Charging a sphere by induction
+step: Bring a negatively charged rod **near** an insulated metal sphere. Free electrons in the sphere are pushed to the far side.
+step: The near side is left **positive**, the far side **negative**: charges are separated, not created.
+step: **Earth** the far side. The repelled electrons flow away to the earth.
+step: Remove the earth connection **first**, with the rod still in place.
+step: Now take the rod away. The sphere keeps a **positive** charge, which spreads over its surface.
+```
+
+```ng-compare
+id: conduction-vs-induction
+title: Charging by conduction vs by induction
+cols: Conduction | Induction
+row: Contact with the charged body | needed | not needed
+row: Sign of charge gained | same as the charged body | opposite to the charged body
+row: Charge on the charging body | shared, so it decreases | unchanged
+```
+
 **In one breath:** There are two kinds of charge; rubbing and induction only move electrons. Charge adds as a scalar, is conserved, and always comes in whole multiples of $e$.
 
 ## Coulomb's law
@@ -70,6 +89,20 @@ $F=\sqrt{F^2+F^2+2F^2\cos120^\circ}=F$ [1]
 Force is a vector. A numerical that asks for "the force" wants magnitude **and** direction; the direction alone is usually worth ½ mark.
 :::
 
+```ng-numerical
+id: coulomb-force
+title: Coulomb's law with fresh numbers
+question: Two point charges of $+{{q1}}\ \mu$C and $+{{q2}}\ \mu$C are {{r}} cm apart in air. Find the force between them.
+var: q1 | 1 | 9 | 1
+var: q2 | 1 | 9 | 1
+var: r | 10 | 50 | 5
+answer: 9e9*q1*1e-6*q2*1e-6/(r/100)^2
+unit: N
+tol: 2
+step: $F=\dfrac{1}{4\pi\varepsilon_0}\dfrac{q_1q_2}{r^2}=\dfrac{9\times10^9\times{{q1}}\times10^{-6}\times{{q2}}\times10^{-6}}{({{r/100}})^2}$
+step: $F=$ **{{9e9*q1*1e-6*q2*1e-6/(r/100)^2:3}} N**, repulsive (like charges)
+```
+
 **In one breath:** The force between point charges goes as $q_1q_2/r^2$ along the line joining them, drops by a factor $K$ in a medium, and with many charges you add the forces as vectors.
 
 ## The electric field
@@ -90,10 +123,17 @@ The field of several charges is again found by superposition: $\vec E=\vec E_1+\
 
 A neat way to see a field is to draw **electric field lines**: curves whose tangent at every point gives the direction of $\vec E$, drawn closer together where the field is stronger.
 
-<figure class="fig">
-<svg viewBox="0 0 400 172" role="img" aria-label="Field lines of a positive charge and of an electric dipole" font-family="sans-serif" font-size="12.5" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M73,85L115,85"/><path d="M115,85L110.4,87L110.4,83Z" fill="currentColor" stroke="none"/><path d="M69.2,94.2L98.9,123.9"/><path d="M98.9,123.9L94.2,122.1L97.1,119.2Z" fill="currentColor" stroke="none"/><path d="M60,98L60,140"/><path d="M60,140L58,135.4L62,135.4Z" fill="currentColor" stroke="none"/><path d="M50.8,94.2L21.1,123.9"/><path d="M21.1,123.9L22.9,119.2L25.8,122.1Z" fill="currentColor" stroke="none"/><path d="M47,85L5,85"/><path d="M5,85L9.6,83L9.6,87Z" fill="currentColor" stroke="none"/><path d="M50.8,75.8L21.1,46.1"/><path d="M21.1,46.1L25.8,47.9L22.9,50.8Z" fill="currentColor" stroke="none"/><path d="M60,72L60,30"/><path d="M60,30L62,34.6L58,34.6Z" fill="currentColor" stroke="none"/><path d="M69.2,75.8L98.9,46.1"/><path d="M98.9,46.1L97.1,50.8L94.2,47.9Z" fill="currentColor" stroke="none"/><circle cx="60" cy="85" r="9"/><path d="M56,85L64,85"/><path d="M60,81L60,89"/><path d="M210,85L330,85"/><path d="M273,85L268.4,87L268.4,83Z" fill="currentColor" stroke="none"/><path d="M206,78 Q270,40 334,78"/><path d="M273,59L268.4,61L268.4,57Z" fill="currentColor" stroke="none"/><path d="M206,92 Q270,130 334,92"/><path d="M273,111L268.4,113L268.4,109Z" fill="currentColor" stroke="none"/><path d="M206,78 Q270,-10 334,78"/><path d="M273,34L268.4,36L268.4,32Z" fill="currentColor" stroke="none"/><path d="M206,92 Q270,180 334,92"/><path d="M273,136L268.4,138L268.4,134Z" fill="currentColor" stroke="none"/><path d="M190,85L158,85"/><path d="M158,85L162.6,83L162.6,87Z" fill="currentColor" stroke="none"/><path d="M193,78L172,52"/><path d="M172,52L176.5,54.3L173.3,56.8Z" fill="currentColor" stroke="none"/><path d="M193,92L172,118"/><path d="M172,118L173.3,113.2L176.5,115.7Z" fill="currentColor" stroke="none"/><path d="M395,85L351,85"/><path d="M351,85L355.6,83L355.6,87Z" fill="currentColor" stroke="none"/><path d="M372,52L348,77"/><path d="M348,77L349.7,72.3L352.6,75.1Z" fill="currentColor" stroke="none"/><path d="M372,118L348,93"/><path d="M348,93L352.6,94.9L349.7,97.7Z" fill="currentColor" stroke="none"/><circle cx="200" cy="85" r="9" stroke="#1F5FAD"/><path d="M196,85L204,85" stroke="#1F5FAD"/><path d="M200,81L200,89" stroke="#1F5FAD"/><circle cx="340" cy="85" r="9" stroke="#1F5FAD"/><path d="M336,85L344,85" stroke="#1F5FAD"/><g fill="currentColor" stroke="none" text-anchor="middle"><text x="64" y="163" font-size="11">isolated +q: lines go out</text><text x="270" y="163">dipole: + to −, never crossing</text></g></svg>
-<figcaption>Field lines start on positive charge and end on negative charge. Where they crowd together the field is strong.</figcaption>
-</figure>
+```ng-figure
+id: ch01-field-lines
+title: Field lines: point charge and dipole
+svg:
+<svg viewBox="0 0 400 172" role="img" aria-label="Field lines of a positive charge and of an electric dipole" font-family="sans-serif" font-size="12.5" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M73,85L115,85"/><path d="M115,85L110.4,87L110.4,83Z" fill="currentColor" stroke="none"/><path d="M69.2,94.2L98.9,123.9"/><path d="M98.9,123.9L94.2,122.1L97.1,119.2Z" fill="currentColor" stroke="none"/><path d="M60,98L60,140"/><path d="M60,140L58,135.4L62,135.4Z" fill="currentColor" stroke="none"/><path d="M50.8,94.2L21.1,123.9"/><path d="M21.1,123.9L22.9,119.2L25.8,122.1Z" fill="currentColor" stroke="none"/><path d="M47,85L5,85"/><path d="M5,85L9.6,83L9.6,87Z" fill="currentColor" stroke="none"/><path d="M50.8,75.8L21.1,46.1"/><path d="M21.1,46.1L25.8,47.9L22.9,50.8Z" fill="currentColor" stroke="none"/><path d="M60,72L60,30"/><path d="M60,30L62,34.6L58,34.6Z" fill="currentColor" stroke="none"/><path d="M69.2,75.8L98.9,46.1"/><path d="M98.9,46.1L97.1,50.8L94.2,47.9Z" fill="currentColor" stroke="none"/><circle cx="60" cy="85" r="9"/><path d="M56,85L64,85"/><path d="M60,81L60,89"/><path d="M210,85L330,85"/><path d="M273,85L268.4,87L268.4,83Z" fill="currentColor" stroke="none"/><path d="M206,78 Q270,40 334,78"/><path d="M273,59L268.4,61L268.4,57Z" fill="currentColor" stroke="none"/><path d="M206,92 Q270,130 334,92"/><path d="M273,111L268.4,113L268.4,109Z" fill="currentColor" stroke="none"/><path d="M206,78 Q270,-10 334,78"/><path d="M273,34L268.4,36L268.4,32Z" fill="currentColor" stroke="none"/><path d="M206,92 Q270,180 334,92"/><path d="M273,136L268.4,138L268.4,134Z" fill="currentColor" stroke="none"/><path d="M190,85L158,85"/><path d="M158,85L162.6,83L162.6,87Z" fill="currentColor" stroke="none"/><path d="M193,78L172,52"/><path d="M172,52L176.5,54.3L173.3,56.8Z" fill="currentColor" stroke="none"/><path d="M193,92L172,118"/><path d="M172,118L173.3,113.2L176.5,115.7Z" fill="currentColor" stroke="none"/><path d="M395,85L351,85"/><path d="M351,85L355.6,83L355.6,87Z" fill="currentColor" stroke="none"/><path d="M372,52L348,77"/><path d="M348,77L349.7,72.3L352.6,75.1Z" fill="currentColor" stroke="none"/><path d="M372,118L348,93"/><path d="M348,93L352.6,94.9L349.7,97.7Z" fill="currentColor" stroke="none"/><circle class="u" cx="200" cy="85" r="9"/><path class="u" d="M196,85L204,85"/><path class="u" d="M200,81L200,89"/><circle class="u" cx="340" cy="85" r="9"/><path class="u" d="M336,85L344,85"/><g fill="currentColor" stroke="none" text-anchor="middle"><text x="64" y="163" font-size="11">isolated +q: lines go out</text><text x="270" y="163">dipole: + to −, never crossing</text></g></svg>
+caption: Field lines start on positive charge and end on negative charge. Where they crowd together the field is strong.
+part: 60, 85 | Isolated positive charge | Lines point radially outward and spread out as 1/r².
+part: 200, 85 | +q of the dipole | Field lines start on the positive charge.
+part: 340, 85 | −q of the dipole | Field lines end on the negative charge.
+part: 270, 62 | A curved field line | Its tangent gives the direction of E; lines never cross.
+```
 
 Field lines follow a few rules that are asked again and again:
 
@@ -112,6 +152,32 @@ $\dfrac{k(4\text{ µC})}{x^2}=\dfrac{k(1\text{ µC})}{(0.3-x)^2}\Rightarrow\dfra
 $x=0.2$ m: **20 cm from the $+4$ µC charge** (10 cm from $+1$ µC) [½]
 :::
 
+```ng-graph
+id: point-charge-field
+title: How the field of a point charge falls with distance
+x: r (cm) | 1 | 20
+y: E (kN/C) | 0 | 400
+curve: E | 90*q/x^2
+slider: q | $q$ (nC) | 1 | 10 | 1 | 5
+note: Double the distance and the field drops to a quarter: $E=\dfrac{kq}{r^2}$. Doubling $q$ doubles $E$ at every point.
+```
+
+```ng-mnemonic
+id: field-line-rules
+title: The four rules of field lines
+trick: **"Plus se shuru, minus pe khatam, kabhi na kaatein, kabhi na ghoomein"**
+meaning: Lines **start on +** and **end on −**.
+meaning: They **never cross** (one direction of E at a point) and **never form closed loops** (electrostatic field is conservative).
+prompt: State four properties of electric field lines.
+```
+
+```ng-draw
+id: draw-field-lines
+title: Draw the field lines of an isolated charge and of a dipole
+svg: ref: notes#ch01-field-lines
+time: 3
+```
+
 **In one breath:** A charge fills space with a field $\vec E=\vec F/q_0$; for a point charge $E=kq/r^2$. Field lines run from $+$ to $-$, never cross, never close, and crowd where $E$ is strong.
 
 ## The electric dipole
@@ -126,10 +192,18 @@ Unit: C m
 
 The total charge of a dipole is zero, but its field is not, because the two charges are at different places. Far away the two fields nearly cancel, so a dipole's field falls off faster than a point charge's: as $1/r^3$ instead of $1/r^2$.
 
-<figure class="fig">
-<svg viewBox="0 0 400 182" role="img" aria-label="Field of a dipole at an axial point P and an equatorial point Q" font-family="sans-serif" font-size="12.5" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20,130L385,130" stroke-dasharray="4 3"/><circle cx="60" cy="130" r="9"/><path d="M56,130L64,130"/><circle cx="140" cy="130" r="9"/><path d="M136,130L144,130"/><path d="M140,126L140,134"/><circle cx="100" cy="130" r="2.2" fill="currentColor"/><path d="M80,114L122,114" stroke="#1F5FAD"/><path d="M122,114L117.4,116L117.4,112Z" fill="#1F5FAD" stroke="none"/><circle cx="300" cy="130" r="2.2" fill="currentColor"/><path d="M300,130L375,130" stroke="#E0B400" stroke-width="2"/><path d="M375,130L369.5,132.4L369.5,127.6Z" fill="#E0B400" stroke="none"/><path d="M300,130L272,130" stroke-width="2"/><path d="M272,130L277.5,127.6L277.5,132.4Z" fill="currentColor" stroke="none"/><path d="M100,164L300,164"/><path d="M300,164L296.3,165.6L296.3,162.4Z" fill="currentColor" stroke="none"/><path d="M100,164L103.7,162.4L103.7,165.6Z" fill="currentColor" stroke="none"/><path d="M60,130L100,46" stroke-dasharray="4 3"/><path d="M140,130L100,46" stroke-dasharray="4 3"/><circle cx="100" cy="46" r="2.2" fill="currentColor"/><path d="M100,46L85.4,15.3"/><path d="M85.4,15.3L89.2,18.5L85.5,20.3Z" fill="currentColor" stroke="none"/><path d="M100,46L85.4,76.7"/><path d="M85.4,76.7L85.5,71.7L89.2,73.5Z" fill="currentColor" stroke="none"/><path d="M100,46L70.8,46" stroke="#E0B400" stroke-width="2"/><path d="M70.8,46L76.2,43.6L76.2,48.4Z" fill="#E0B400" stroke="none"/><g fill="currentColor" stroke="none" text-anchor="middle"><text x="60" y="154">A (−q)</text><text x="140" y="154">B (+q)</text><text x="100" y="154">O</text><text x="100" y="108" fill="#1F5FAD" font-style="italic">p</text><text x="300" y="146">P</text><text x="352" y="123" font-size="11">E (+q)</text><text x="268" y="123" text-anchor="end" font-size="11">E (−q)</text><text x="200" y="176" font-style="italic">r (from centre O)</text><text x="108" y="50" text-anchor="start">Q</text><text x="60" y="42" text-anchor="end" font-size="11">net E</text><text x="170" y="40" text-anchor="start" font-size="11">equatorial point: net E opposite to p</text><text x="200" y="100" text-anchor="start" font-size="11">axial point: net E along p</text></g></svg>
-<figcaption>Axial point P: the nearer charge wins, so E points along p. Equatorial point Q: the two fields add to a resultant opposite to p.</figcaption>
-</figure>
+```ng-figure
+id: ch01-dipole
+title: Axial and equatorial points of a dipole
+svg:
+<svg viewBox="0 0 400 182" role="img" aria-label="Field of a dipole at an axial point P and an equatorial point Q" font-family="sans-serif" font-size="12.5" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20,130L385,130" stroke-dasharray="4 3"/><circle cx="60" cy="130" r="9"/><path d="M56,130L64,130"/><circle cx="140" cy="130" r="9"/><path d="M136,130L144,130"/><path d="M140,126L140,134"/><circle cx="100" cy="130" r="2.2" fill="currentColor"/><path class="u" d="M80,114L122,114"/><path class="uf" d="M122,114L117.4,116L117.4,112Z" stroke="none"/><circle cx="300" cy="130" r="2.2" fill="currentColor"/><path d="M300,130L375,130" stroke="#E0B400" stroke-width="2"/><path d="M375,130L369.5,132.4L369.5,127.6Z" fill="#E0B400" stroke="none"/><path d="M300,130L272,130" stroke-width="2"/><path d="M272,130L277.5,127.6L277.5,132.4Z" fill="currentColor" stroke="none"/><path d="M100,164L300,164"/><path d="M300,164L296.3,165.6L296.3,162.4Z" fill="currentColor" stroke="none"/><path d="M100,164L103.7,162.4L103.7,165.6Z" fill="currentColor" stroke="none"/><path d="M60,130L100,46" stroke-dasharray="4 3"/><path d="M140,130L100,46" stroke-dasharray="4 3"/><circle cx="100" cy="46" r="2.2" fill="currentColor"/><path d="M100,46L85.4,15.3"/><path d="M85.4,15.3L89.2,18.5L85.5,20.3Z" fill="currentColor" stroke="none"/><path d="M100,46L85.4,76.7"/><path d="M85.4,76.7L85.5,71.7L89.2,73.5Z" fill="currentColor" stroke="none"/><path d="M100,46L70.8,46" stroke="#E0B400" stroke-width="2"/><path d="M70.8,46L76.2,43.6L76.2,48.4Z" fill="#E0B400" stroke="none"/><g fill="currentColor" stroke="none" text-anchor="middle"><text x="60" y="154">A (−q)</text><text x="140" y="154">B (+q)</text><text x="100" y="154">O</text><text class="uf" x="100" y="108" font-style="italic">p</text><text x="300" y="146">P</text><text x="352" y="123" font-size="11">E (+q)</text><text x="268" y="123" text-anchor="end" font-size="11">E (−q)</text><text x="200" y="176" font-style="italic">r (from centre O)</text><text x="108" y="50" text-anchor="start">Q</text><text x="60" y="42" text-anchor="end" font-size="11">net E</text><text x="170" y="40" text-anchor="start" font-size="11">equatorial point: net E opposite to p</text><text x="200" y="100" text-anchor="start" font-size="11">axial point: net E along p</text></g></svg>
+caption: Axial point P: the nearer charge wins, so E points along p. Equatorial point Q: the two fields add to a resultant opposite to p.
+part: 60, 130 | −q at A | One end of the dipole; separation AB = 2a.
+part: 140, 130 | +q at B | The nearer charge to P, so its field wins on the axis.
+part: 100, 114 | Dipole moment p | Points from −q to +q; magnitude q × 2a.
+part: 300, 130 | Axial point P | Net E along p; 2kp/r³ for a short dipole.
+part: 100, 46 | Equatorial point Q | Net E opposite to p; kp/r³ for a short dipole.
+```
 
 **On the axis.** At a point P on the axis, at distance $r$ from the centre on the side of $+q$, the field of $+q$ (distance $r-a$) points away from the dipole along $\vec p$, and the field of $-q$ (distance $r+a$) points back towards the dipole. The nearer charge wins:
 
@@ -161,16 +235,54 @@ $E=\dfrac{2\times9\times10^9\times4\times10^{-12}}{(0.1)^3}$ [½]
 In the dipole formulas $r$ is measured from the **centre** of the dipole, not from one of the charges. And $2a$ is the full separation, so $a$ is half of it.
 :::
 
+```ng-graph
+id: dipole-vs-point-charge
+title: Dipole field falls faster than a point charge's
+x: r (arbitrary units) | 1 | 5
+y: E (arbitrary units) | 0 | 6
+curve: Axial, 2p/r³ | 2*p/x^3
+curve: Equatorial, p/r³ | p/x^3
+curve: Point charge, 1/r² | 1/x^2
+slider: p | $p$ | 1 | 3 | 0.5 | 2
+note: At the same distance the axial field is always twice the equatorial field, and both fall as $1/r^3$.
+```
+
+```ng-mnemonic
+id: axial-double
+title: Axial or equatorial: which is bigger?
+trick: **"A for Axial, A for Aage (ahead), A for twice"**: axial field = 2 × equatorial field
+meaning: Short dipole: $E_\text{axial}=\dfrac{2kp}{r^3}$ along $\vec p$; $E_\text{equatorial}=\dfrac{kp}{r^3}$ opposite to $\vec p$.
+prompt: At the same distance, how does the axial field of a short dipole compare with the equatorial field?
+```
+
+```ng-derive
+id: derive-dipole-axial
+title: Derive the field on the axial line of a dipole
+prompt: Derive an expression for the electric field at a point on the axial line of an electric dipole, and reduce it for $r\gg a$.
+time: 6
+check: Labelled diagram: $-q$ at A, $+q$ at B, $AB=2a$, P at distance $r$ from the centre | 0.5
+check: $E_{+q}=\dfrac{kq}{(r-a)^2}$ along $\vec p$ and $E_{-q}=\dfrac{kq}{(r+a)^2}$ opposite | 1
+check: Subtract: $E=\dfrac{4kqar}{(r^2-a^2)^2}=\dfrac{2kpr}{(r^2-a^2)^2}$ | 1
+check: For $r\gg a$: $E=\dfrac{2kp}{r^3}$, direction along $\vec p$ | 0.5
+```
+
 **In one breath:** A dipole is $\pm q$ separated by $2a$, with $p=2qa$ from $-$ to $+$. Its field falls as $1/r^3$: $2kp/r^3$ along $\vec p$ on the axis and $kp/r^3$ opposite $\vec p$ on the equatorial line.
 
 ## A dipole in a uniform field
 
 Put a dipole in a uniform field $\vec E$ with $\vec p$ at angle $\theta$ to $\vec E$. The $+q$ end feels a force $q\vec E$ along the field and the $-q$ end feels $-q\vec E$. The two forces are equal and opposite, so the **net force is zero**. But they act along different lines, so they form a couple that turns the dipole.
 
-<figure class="fig">
-<svg viewBox="0 0 320 172" role="img" aria-label="Electric dipole at angle theta in a uniform electric field" font-family="sans-serif" font-size="12.5" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M15,25L300,25" stroke-dasharray="4 3"/><path d="M305,25L300.4,27L300.4,23Z" fill="currentColor" stroke="none"/><path d="M15,55L300,55" stroke-dasharray="4 3"/><path d="M305,55L300.4,57L300.4,53Z" fill="currentColor" stroke="none"/><path d="M15,85L300,85" stroke-dasharray="4 3"/><path d="M305,85L300.4,87L300.4,83Z" fill="currentColor" stroke="none"/><path d="M15,115L300,115" stroke-dasharray="4 3"/><path d="M305,115L300.4,117L300.4,113Z" fill="currentColor" stroke="none"/><path d="M15,145L300,145" stroke-dasharray="4 3"/><path d="M305,145L300.4,147L300.4,143Z" fill="currentColor" stroke="none"/><path d="M123.1,110.8L196.9,59.2" stroke-width="2"/><circle cx="196.9" cy="59.2" r="9" stroke="#1F5FAD"/><path d="M192.9,59.2L200.9,59.2" stroke="#1F5FAD"/><path d="M196.9,55.2L196.9,63.2" stroke="#1F5FAD"/><circle cx="123.1" cy="110.8" r="9" stroke="#1F5FAD"/><path d="M119.1,110.8L127.1,110.8" stroke="#1F5FAD"/><path d="M206.9,59.2L256.9,59.2" stroke="#E0B400" stroke-width="2"/><path d="M256.9,59.2L251.4,61.6L251.4,56.7Z" fill="#E0B400" stroke="none"/><path d="M113.1,110.8L63.1,110.8" stroke="#E0B400" stroke-width="2"/><path d="M63.1,110.8L68.6,108.4L68.6,113.3Z" fill="#E0B400" stroke="none"/><path d="M184,85 A24,24 0 0 0 179.7,71.2"/><path d="M160,85L200,85" stroke-dasharray="4 3"/><g fill="currentColor" stroke="none" text-anchor="middle"><text x="305" y="16" text-anchor="end" font-style="italic">E</text><text x="258.9" y="53.2" text-anchor="start">+qE</text><text x="61.1" y="104.8" text-anchor="end">−qE</text><text x="190" y="81" text-anchor="start" font-style="italic">θ</text><text x="160" y="165" font-size="11">equal and opposite forces → no net force, but a couple</text></g></svg>
-<figcaption>The forces +qE and −qE are equal and opposite but act along different lines, so they form a couple of torque pE sin θ that turns p towards E.</figcaption>
-</figure>
+```ng-figure
+id: ch01-torque
+title: Dipole in a uniform field
+svg:
+<svg viewBox="0 0 320 172" role="img" aria-label="Electric dipole at angle theta in a uniform electric field" font-family="sans-serif" font-size="12.5" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M15,25L300,25" stroke-dasharray="4 3"/><path d="M305,25L300.4,27L300.4,23Z" fill="currentColor" stroke="none"/><path d="M15,55L300,55" stroke-dasharray="4 3"/><path d="M305,55L300.4,57L300.4,53Z" fill="currentColor" stroke="none"/><path d="M15,85L300,85" stroke-dasharray="4 3"/><path d="M305,85L300.4,87L300.4,83Z" fill="currentColor" stroke="none"/><path d="M15,115L300,115" stroke-dasharray="4 3"/><path d="M305,115L300.4,117L300.4,113Z" fill="currentColor" stroke="none"/><path d="M15,145L300,145" stroke-dasharray="4 3"/><path d="M305,145L300.4,147L300.4,143Z" fill="currentColor" stroke="none"/><path d="M123.1,110.8L196.9,59.2" stroke-width="2"/><circle class="u" cx="196.9" cy="59.2" r="9"/><path class="u" d="M192.9,59.2L200.9,59.2"/><path class="u" d="M196.9,55.2L196.9,63.2"/><circle class="u" cx="123.1" cy="110.8" r="9"/><path class="u" d="M119.1,110.8L127.1,110.8"/><path d="M206.9,59.2L256.9,59.2" stroke="#E0B400" stroke-width="2"/><path d="M256.9,59.2L251.4,61.6L251.4,56.7Z" fill="#E0B400" stroke="none"/><path d="M113.1,110.8L63.1,110.8" stroke="#E0B400" stroke-width="2"/><path d="M63.1,110.8L68.6,108.4L68.6,113.3Z" fill="#E0B400" stroke="none"/><path d="M184,85 A24,24 0 0 0 179.7,71.2"/><path d="M160,85L200,85" stroke-dasharray="4 3"/><g fill="currentColor" stroke="none" text-anchor="middle"><text x="305" y="16" text-anchor="end" font-style="italic">E</text><text x="258.9" y="53.2" text-anchor="start">+qE</text><text x="61.1" y="104.8" text-anchor="end">−qE</text><text x="190" y="81" text-anchor="start" font-style="italic">θ</text><text x="160" y="165" font-size="11">equal and opposite forces → no net force, but a couple</text></g></svg>
+caption: The forces +qE and −qE are equal and opposite but act along different lines, so they form a couple of torque pE sin θ that turns p towards E.
+part: 196.9, 59.2 | +q end | Force +qE along the field.
+part: 123.1, 110.8 | −q end | Force −qE against the field.
+part: 190, 80 | Angle θ | Between p and E; torque = pE sin θ.
+part: 295, 25 | Uniform field E | Forces cancel, so there is no net force, only a couple.
+```
 
 The torque is one force times the perpendicular distance between the two lines of action: $\tau=qE\times2a\sin\theta=pE\sin\theta$.
 
@@ -191,6 +303,17 @@ $\tau=pE\sin\theta$ [½]
 
 $=4\times10^{-9}\times5\times10^{4}\times\sin30^\circ$ = **$1\times10^{-4}$ N m** [½]
 :::
+
+```ng-graph
+id: torque-angle
+title: Torque on a dipole as it turns
+x: θ (degrees) | 0 | 180
+y: τ (×10⁻⁴ N m) | 0 | 10
+curve: τ = pE sin θ | p*E0/10*sin(x*pi/180)
+slider: p | $p$ (×10⁻⁹ C m) | 1 | 10 | 1 | 4
+slider: E0 | $E$ (×10⁴ N/C) | 1 | 10 | 1 | 5
+note: Zero at 0° (stable) and 180° (unstable); largest, $pE$, at 90°.
+```
 
 **In one breath:** In a uniform field a dipole feels no net force but a torque $\vec p\times\vec E$ that aligns it with the field; in a non-uniform field it also feels a net force.
 
@@ -220,6 +343,20 @@ $\phi=EA\cos\theta$, $A=10^{-2}$ m²
 (b) $\theta=60^\circ$: $\phi=30\times\tfrac12=$ **15 N m² C⁻¹** [1]
 :::
 
+```ng-numerical
+id: flux-through-square
+title: Flux through a tilted square
+question: A uniform field of {{E}} N/C passes through a square of side {{s}} cm whose normal makes {{th}}° with the field. Find the flux.
+var: E | 100 | 900 | 100
+var: s | 5 | 20 | 5
+var: th | 0 | 60 | 30
+answer: E*(s/100)^2*cos(th*pi/180)
+unit: N m² C⁻¹
+dp: 3
+step: $\phi=EA\cos\theta={{E}}\times({{s/100}})^2\times\cos{{th}}^\circ$
+step: $\phi=$ **{{E*(s/100)^2*cos(th*pi/180):3}} N m² C⁻¹**
+```
+
 **In one breath:** Spread-out charge is described by $\lambda$, $\sigma$, $\rho$. Flux $\vec E\cdot\vec S$ measures how much field passes through a surface; it is a scalar, positive outward.
 
 ## Gauss's law
@@ -242,16 +379,34 @@ Keep three consequences straight:
 A charge $q$ at the **centre** of a cube gives $q/\varepsilon_0$ through the cube and $q/6\varepsilon_0$ through each face. A charge at a **corner** is shared by 8 cubes that meet there, so the flux through one cube is $q/8\varepsilon_0$, and $q/24\varepsilon_0$ through each of the three far faces (the three faces that touch the corner get none).
 :::
 
+```ng-mnemonic
+id: andar-wala-ginta-hai
+title: Which charges count for flux?
+trick: **"Flux mein sirf andar wala ginta hai"** (for flux, only the charge inside counts)
+meaning: Total flux $=q_\text{enclosed}/\varepsilon_0$; charges outside add zero net flux.
+meaning: But the **field** on the surface still depends on every charge, inside and outside.
+prompt: Does a charge outside a closed surface change the total flux through it?
+```
+
 **In one breath:** Total flux out of any closed surface is $q_\text{enclosed}/\varepsilon_0$, whatever its shape; charges outside contribute zero net flux, though they still affect the field.
 
 ## Using Gauss's law: wire, sheet and shell
 
 Gauss's law always holds, but it gives the field easily only when symmetry tells you the direction of $\vec E$ and that its size is the same over parts of a cleverly chosen surface. The board asks three cases.
 
-<figure class="fig">
-<svg viewBox="0 0 420 175" role="img" aria-label="Gaussian surfaces for a line charge, a plane sheet and a spherical shell" font-family="sans-serif" font-size="12.5" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M60,12L60,158" stroke="#1F5FAD" stroke-width="2.6"/><ellipse cx="60" cy="45" rx="30" ry="8" fill="none" stroke-dasharray="4 3"/><ellipse cx="60" cy="125" rx="30" ry="8" fill="none" stroke-dasharray="4 3"/><path d="M30,45L30,125" stroke-dasharray="4 3"/><path d="M90,45L90,125" stroke-dasharray="4 3"/><path d="M90,85L118,85" stroke="#E0B400" stroke-width="2"/><path d="M118,85L112.5,87.4L112.5,82.6Z" fill="#E0B400" stroke="none"/><path d="M30,85L6,85" stroke="#E0B400" stroke-width="2"/><path d="M6,85L11.5,82.6L11.5,87.4Z" fill="#E0B400" stroke="none"/><path d="M100,45L100,125"/><path d="M100,125L98.4,121.3L101.6,121.3Z" fill="currentColor" stroke="none"/><path d="M100,45L101.6,48.7L98.4,48.7Z" fill="currentColor" stroke="none"/><path d="M195,18L230,38L230,152L195,132Z" stroke="#1F5FAD"/><ellipse cx="180" cy="85" rx="6" ry="16" fill="none" stroke-dasharray="4 3"/><ellipse cx="245" cy="85" rx="6" ry="16" fill="none" stroke-dasharray="4 3"/><path d="M180,69L245,69" stroke-dasharray="4 3"/><path d="M180,101L245,101" stroke-dasharray="4 3"/><path d="M251,85L282,85" stroke="#E0B400" stroke-width="2"/><path d="M282,85L276.5,87.4L276.5,82.6Z" fill="#E0B400" stroke="none"/><path d="M174,85L143,85" stroke="#E0B400" stroke-width="2"/><path d="M143,85L148.5,82.6L148.5,87.4Z" fill="#E0B400" stroke="none"/><circle cx="355" cy="85" r="32" stroke="#1F5FAD" stroke-width="2"/><circle cx="355" cy="85" r="50" stroke-dasharray="4 3"/><path d="M390.4,120.4L401.7,131.7" stroke="#E0B400" stroke-width="2"/><path d="M401.7,131.7L397,129.9L399.9,127Z" fill="#E0B400" stroke="none"/><path d="M319.6,120.4L308.3,131.7" stroke="#E0B400" stroke-width="2"/><path d="M308.3,131.7L310.1,127L313,129.9Z" fill="#E0B400" stroke="none"/><path d="M319.6,49.6L308.3,38.3" stroke="#E0B400" stroke-width="2"/><path d="M308.3,38.3L313,40.1L310.1,43Z" fill="#E0B400" stroke="none"/><path d="M390.4,49.6L401.7,38.3" stroke="#E0B400" stroke-width="2"/><path d="M401.7,38.3L399.9,43L397,40.1Z" fill="#E0B400" stroke="none"/><g fill="currentColor" stroke="none" text-anchor="middle"><text x="75" y="80" font-style="italic">r</text><text x="108" y="110" text-anchor="start" font-style="italic">l</text><text x="66" y="20" text-anchor="start" font-style="italic">λ</text><text x="60" y="168">line: cylinder</text><text x="232" y="30" text-anchor="start" font-style="italic">σ</text><text x="212" y="168">sheet: pillbox</text><text x="355" y="89" font-size="11">E = 0</text><text x="355" y="168">shell: sphere</text></g></svg>
-<figcaption>Pick the surface that matches the symmetry: a coaxial cylinder for a line, a pillbox through a sheet, a concentric sphere for a shell. Dashed = Gaussian surface.</figcaption>
-</figure>
+```ng-figure
+id: ch01-gauss
+title: Gaussian surfaces: wire, sheet, shell
+svg:
+<svg viewBox="0 0 420 175" role="img" aria-label="Gaussian surfaces for a line charge, a plane sheet and a spherical shell" font-family="sans-serif" font-size="12.5" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path class="u" d="M60,12L60,158" stroke-width="2.6"/><ellipse cx="60" cy="45" rx="30" ry="8" fill="none" stroke-dasharray="4 3"/><ellipse cx="60" cy="125" rx="30" ry="8" fill="none" stroke-dasharray="4 3"/><path d="M30,45L30,125" stroke-dasharray="4 3"/><path d="M90,45L90,125" stroke-dasharray="4 3"/><path d="M90,85L118,85" stroke="#E0B400" stroke-width="2"/><path d="M118,85L112.5,87.4L112.5,82.6Z" fill="#E0B400" stroke="none"/><path d="M30,85L6,85" stroke="#E0B400" stroke-width="2"/><path d="M6,85L11.5,82.6L11.5,87.4Z" fill="#E0B400" stroke="none"/><path d="M100,45L100,125"/><path d="M100,125L98.4,121.3L101.6,121.3Z" fill="currentColor" stroke="none"/><path d="M100,45L101.6,48.7L98.4,48.7Z" fill="currentColor" stroke="none"/><path class="u" d="M195,18L230,38L230,152L195,132Z"/><ellipse cx="180" cy="85" rx="6" ry="16" fill="none" stroke-dasharray="4 3"/><ellipse cx="245" cy="85" rx="6" ry="16" fill="none" stroke-dasharray="4 3"/><path d="M180,69L245,69" stroke-dasharray="4 3"/><path d="M180,101L245,101" stroke-dasharray="4 3"/><path d="M251,85L282,85" stroke="#E0B400" stroke-width="2"/><path d="M282,85L276.5,87.4L276.5,82.6Z" fill="#E0B400" stroke="none"/><path d="M174,85L143,85" stroke="#E0B400" stroke-width="2"/><path d="M143,85L148.5,82.6L148.5,87.4Z" fill="#E0B400" stroke="none"/><circle class="u" cx="355" cy="85" r="32" stroke-width="2"/><circle cx="355" cy="85" r="50" stroke-dasharray="4 3"/><path d="M390.4,120.4L401.7,131.7" stroke="#E0B400" stroke-width="2"/><path d="M401.7,131.7L397,129.9L399.9,127Z" fill="#E0B400" stroke="none"/><path d="M319.6,120.4L308.3,131.7" stroke="#E0B400" stroke-width="2"/><path d="M308.3,131.7L310.1,127L313,129.9Z" fill="#E0B400" stroke="none"/><path d="M319.6,49.6L308.3,38.3" stroke="#E0B400" stroke-width="2"/><path d="M308.3,38.3L313,40.1L310.1,43Z" fill="#E0B400" stroke="none"/><path d="M390.4,49.6L401.7,38.3" stroke="#E0B400" stroke-width="2"/><path d="M401.7,38.3L399.9,43L397,40.1Z" fill="#E0B400" stroke="none"/><g fill="currentColor" stroke="none" text-anchor="middle"><text x="75" y="80" font-style="italic">r</text><text x="108" y="110" text-anchor="start" font-style="italic">l</text><text x="66" y="20" text-anchor="start" font-style="italic">λ</text><text x="60" y="168">line: cylinder</text><text x="232" y="30" text-anchor="start" font-style="italic">σ</text><text x="212" y="168">sheet: pillbox</text><text x="355" y="89" font-size="11">E = 0</text><text x="355" y="168">shell: sphere</text></g></svg>
+caption: Pick the surface that matches the symmetry: a coaxial cylinder for a line, a pillbox through a sheet, a concentric sphere for a shell. Dashed = Gaussian surface.
+part: 60, 20 | Line charge λ | Field is radial: E = λ/2πε₀r.
+part: 90, 110 | Gaussian cylinder | Only the curved surface carries flux: E·2πrl.
+part: 212, 125 | Plane sheet σ | Field σ/2ε₀ on both sides, independent of distance.
+part: 245, 85 | Pillbox end | Only the two flat ends carry flux: 2EA.
+part: 355, 85 | Inside the shell | No charge enclosed, so E = 0.
+part: 355, 35 | Gaussian sphere | Encloses q, so E = kq/r² outside the shell.
+```
 
 **Infinitely long straight wire** (charge $\lambda$ per metre). By symmetry the field points radially outward and has the same size at the same distance $r$. Choose a coaxial cylinder of radius $r$ and length $l$. On the flat ends $\vec E$ lies along the surface, so their flux is zero. On the curved surface $\vec E$ is along the normal everywhere, so the flux is $E\times2\pi rl$. The charge enclosed is $\lambda l$. So $E\,2\pi rl=\lambda l/\varepsilon_0$.
 
@@ -284,5 +439,40 @@ Graph: $E$ against $r$ is a hyperbola, $E\propto1/r$ [½]
 :::tip Using a Gaussian surface without the diagram
 The board gives ½ mark for drawing and labelling the Gaussian surface. Always draw it, and say why the flux through each part is what you claim.
 :::
+
+```ng-numerical
+id: wire-field
+title: Field of a long charged wire
+question: A long straight wire carries a uniform charge of {{lam}} µC per metre. Find the electric field {{r}} cm from it.
+var: lam | 1 | 9 | 1
+var: r | 2 | 20 | 2
+answer: 2*9e9*lam*1e-6/(r/100)
+unit: N/C
+step: $E=\dfrac{\lambda}{2\pi\varepsilon_0r}=\dfrac{2\times9\times10^9\times{{lam}}\times10^{-6}}{ {{r/100}} }$
+step: $E=$ **{{2*9e9*lam*1e-6/(r/100):3}} N/C**, radially outward
+```
+
+```ng-fill
+id: gauss-results
+title: Gauss's law results
+cols: Charge distribution | Gaussian surface | Field
+row: Long straight wire ($\lambda$) | [[coaxial cylinder]] | [[$\lambda/2\pi\varepsilon_0r$]]
+row: Infinite plane sheet ($\sigma$) | pillbox through the sheet | [[$\sigma/2\varepsilon_0$, independent of r]]
+row: Thin spherical shell, outside | [[concentric sphere]] | $kq/r^2$
+row: Thin spherical shell, inside | concentric sphere | [[zero]]
+```
+
+```ng-draw
+id: draw-gauss-surfaces
+title: Draw the Gaussian surfaces for a wire, a sheet and a shell
+svg: ref: notes#ch01-gauss
+time: 4
+```
+
+```ng-explain
+id: why-gauss-wire
+prompt: In three lines, explain why only the curved surface of the Gaussian cylinder carries flux for a long charged wire.
+lines: 3
+```
 
 **In one breath:** Choose a surface that matches the symmetry: a cylinder gives $\lambda/2\pi\varepsilon_0r$ for a wire, a pillbox gives $\sigma/2\varepsilon_0$ for a sheet, and a sphere gives $kq/r^2$ outside a shell and zero inside.
