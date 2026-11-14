@@ -50,7 +50,7 @@ let: V = 9e9*q*1e-9/(r/100)
 answer: q0*1e-9*V
 unit: J
 step: $V=\dfrac{kq}{r}=\dfrac{9\times10^9\times{{q}}\times10^{-9}}{ {{r/100}} }={{V:1}}$ V
-step: $W=q_0V={{q0}}\times10^{-9}\times{{V:1}}=$ **{{q0*1e-9*V:3}} J**
+step: $W=q_0V={{q0}}\times10^{-9}\times{{V:1}}=$ **{{q0*1e-9*V}} J**
 ```
 
 **In one breath:** The electrostatic force is conservative, so we can define potential $V=W/q$ (work per unit charge from infinity). For a point charge $V=kQ/r$, and for many charges you add the $V$'s with their signs.
@@ -148,7 +148,7 @@ var: r | 10 | 60 | 10
 answer: -9e9*q1*q2*1e-12/(r/100)
 unit: J
 step: $U=\dfrac{1}{4\pi\varepsilon_0}\dfrac{q_1q_2}{r}=\dfrac{9\times10^9\times({{q1}}\times10^{-6})\times(-{{q2}}\times10^{-6})}{ {{r/100}} }$
-step: $U=$ **{{-9e9*q1*q2*1e-12/(r/100):3}} J** (negative: the pair attracts)
+step: $U=$ **{{-9e9*q1*q2*1e-12/(r/100)}} J** (negative: the pair attracts)
 ```
 
 **In one breath:** The energy of a set of charges is $kq_iq_j/r_{ij}$ summed over every pair; a dipole in a uniform field has $U=-pE\cos\theta$, lowest when it lines up with the field.
@@ -253,8 +253,8 @@ var: K | 2 | 8 | 1
 let: C0 = 8.854e-12*A*1e-4/(d*1e-3)
 answer: K*C0*1e12
 unit: pF
-step: $C_0=\dfrac{\varepsilon_0A}{d}=\dfrac{8.854\times10^{-12}\times{{A}}\times10^{-4}}{ {{d}}\times10^{-3}}={{C0*1e12:3}}$ pF
-step: With the dielectric: $C=KC_0={{K}}\times{{C0*1e12:3}}=$ **{{K*C0*1e12:3}} pF**
+step: $C_0=\dfrac{\varepsilon_0A}{d}=\dfrac{8.854\times10^{-12}\times{{A}}\times10^{-4}}{ {{d}}\times10^{-3}}={{C0*1e12}}$ pF
+step: With the dielectric: $C=KC_0={{K}}\times{{C0*1e12}}=$ **{{K*C0*1e12}} pF**
 ```
 
 ```ng-graph
@@ -332,8 +332,8 @@ let: Ceq = C1*Cp/(C1 + Cp)
 answer: Ceq*V
 unit: µC
 step: Parallel pair: $C_p={{C2}}+{{C3}}={{Cp}}$ µF
-step: Series with $C_1$: $C_\text{eq}=\dfrac{ {{C1}}\times{{Cp}} }{ {{C1}}+{{Cp}} }={{Ceq:3}}$ µF
-step: $Q=C_\text{eq}V={{Ceq:3}}\times{{V}}=$ **{{Ceq*V:3}} µC** (the same on $C_1$ and on the pair)
+step: Series with $C_1$: $C_\text{eq}=\dfrac{ {{C1}}\times{{Cp}} }{ {{C1}}+{{Cp}} }={{Ceq}}$ µF
+step: $Q=C_\text{eq}V={{Ceq}}\times{{V}}=$ **{{Ceq*V}} µC** (the same on $C_1$ and on the pair)
 ```
 
 ```ng-mnemonic

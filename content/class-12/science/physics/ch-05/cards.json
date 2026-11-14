@@ -1,0 +1,95 @@
+[
+  {
+    "id": "ch05-bar",
+    "kind": "figure",
+    "title": "Field lines of a bar magnet",
+    "svg": "ref: notes#ch05-bar",
+    "back": "Closed loops: N → S outside, S → N inside. No monopoles, so net flux through any closed surface is zero.",
+    "stars": 2,
+    "tags": [
+      "diagram"
+    ]
+  },
+  {
+    "id": "ch05-materials",
+    "kind": "figure",
+    "title": "Samples in a uniform field",
+    "svg": "ref: notes#ch05-materials",
+    "back": "Dia pushes lines out; para draws them in slightly; ferro concentrates them strongly.",
+    "stars": 3,
+    "tags": [
+      "diagram"
+    ]
+  },
+  {
+    "id": "gauss-magnetism",
+    "kind": "formula",
+    "title": "Gauss’s law for magnetism",
+    "tex": "\\oint\\vec B\\cdot d\\vec S=0",
+    "legend": [
+      "isolated poles = none exist"
+    ],
+    "back": "As many field lines leave a closed surface as enter it.",
+    "stars": 2
+  },
+  {
+    "id": "bar-magnet-field",
+    "kind": "formula",
+    "title": "Field of a short bar magnet",
+    "tex": "B_\\text{axial}=\\dfrac{\\mu_0}{4\\pi}\\dfrac{2m}{r^3}",
+    "legend": [
+      "m = magnetic moment (A m²)",
+      "equatorial = half, opposite to m"
+    ],
+    "back": "Same form as the electric dipole with μ₀/4π in place of 1/4πε₀."
+  },
+  {
+    "id": "magnet-torque-energy",
+    "kind": "formula",
+    "title": "Magnet in a uniform field",
+    "tex": "\\vec\\tau=\\vec m\\times\\vec B\\qquad U=-\\vec m\\cdot\\vec B",
+    "legend": [
+      "θ = angle between m and B"
+    ],
+    "back": "Stable along B; unstable opposite to B."
+  },
+  {
+    "id": "susceptibility",
+    "kind": "formula",
+    "title": "Susceptibility and permeability",
+    "tex": "\\mu_r=1+\\chi",
+    "legend": [
+      "χ = M/H",
+      "B = μ₀(H + M) = μH"
+    ],
+    "back": "Dia: χ < 0. Para: small χ > 0. Ferro: χ ≫ 1.",
+    "stars": 3
+  },
+  {
+    "id": "curie-law-card",
+    "kind": "formula",
+    "title": "Curie’s law",
+    "tex": "\\chi=\\dfrac{C\\mu_0}{T}",
+    "legend": [
+      "T = absolute temperature",
+      "applies to = paramagnets only"
+    ],
+    "back": "Heating randomises the atomic moments, so χ falls.",
+    "stars": 2
+  },
+  {
+    "id": "dia-para-ferro-card",
+    "kind": "compare",
+    "title": "Dia vs para vs ferro",
+    "back": "Dia: χ small −ve, repelled (Bi, Cu). Para: χ small +ve, weakly attracted (Al, O₂). Ferro: χ huge, strongly attracted (Fe, Co, Ni).",
+    "svg": "ref: notes#ch05-materials",
+    "stars": 3
+  },
+  {
+    "id": "dur-paas-fida-card",
+    "kind": "mnemonic",
+    "title": "Dia, para, ferro in one line",
+    "back": "\"Dia dur bhaage, Para paas aaye, Ferro fida ho jaaye\": repelled, weakly attracted, strongly attracted.",
+    "svg": "ref: notes#ch05-materials"
+  }
+]

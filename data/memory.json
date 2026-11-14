@@ -100,6 +100,100 @@
    "card": true
   }
  ],
+ "physics/ch-04": [
+  {
+   "id": "fleming-left-hand",
+   "title": "Direction of the force on a current",
+   "trick": "**Fleming's left hand = \"FBI\"**: Thumb = **F**orce, First finger = **B** (field), middle finger = **I** (current)",
+   "meaning": [
+    "Hold the three at right angles; the thumb gives the force on a current-carrying wire (or a positive charge's motion along I).",
+    "For an electron, the force is the other way."
+   ],
+   "prompt": "Which rule gives the force on a current in a magnetic field, and what does each finger show?"
+  },
+  {
+   "id": "currents-are-friends",
+   "title": "Do parallel currents attract or repel?",
+   "trick": "**\"Ek hi disha, pakke dost\"** (same direction, close friends)",
+   "meaning": [
+    "Currents in the **same** direction **attract**; opposite currents repel.",
+    "It is the reverse of charges, where like charges repel."
+   ],
+   "prompt": "Do two parallel wires carrying current in the same direction attract or repel?"
+  },
+  {
+   "id": "ammeter-shunt",
+   "title": "Where does the extra resistance go?",
+   "trick": "**\"Ammeter ko chhota shunt, Voltmeter ko bada resistor\"**",
+   "meaning": [
+    "Ammeter: a **small** resistance in **parallel** (shunt).",
+    "Voltmeter: a **large** resistance in **series**."
+   ],
+   "prompt": "How is a galvanometer converted into an ammeter and into a voltmeter?"
+  }
+ ],
+ "physics/ch-05": [
+  {
+   "id": "dur-paas-fida",
+   "title": "How dia, para and ferro behave in a field",
+   "trick": "**\"Dia dur bhaage, Para paas aaye, Ferro fida ho jaaye\"**",
+   "meaning": [
+    "**Dia**: runs away (repelled, $\\chi<0$).",
+    "**Para**: comes a little closer (weakly attracted, small $\\chi>0$).",
+    "**Ferro**: falls for it completely (strongly attracted, $\\chi\\gg1$)."
+   ],
+   "prompt": "How do dia-, para- and ferromagnetic materials behave in a non-uniform magnetic field?"
+  },
+  {
+   "id": "ferro-examples",
+   "title": "The four ferromagnets",
+   "trick": "**\"Fe-Co-Ni ki Gaadi\"** → Fe, Co, Ni, Gd",
+   "meaning": [
+    "Iron, cobalt, nickel and gadolinium are ferromagnetic."
+   ],
+   "prompt": "Name four ferromagnetic elements."
+  },
+  {
+   "id": "dur-paas-fida-card",
+   "title": "Dia, para, ferro in one line",
+   "trick": "Dia, para, ferro in one line",
+   "meaning": [
+    "\"Dia dur bhaage, Para paas aaye, Ferro fida ho jaaye\": repelled, weakly attracted, strongly attracted."
+   ],
+   "card": true
+  }
+ ],
+ "physics/ch-06": [
+  {
+   "id": "lenz-ladne-wala",
+   "title": "What does Lenz's law say?",
+   "trick": "**\"Lenz = ladne wala\"**: the induced current always fights the change",
+   "meaning": [
+    "N pole comes in → near face becomes **N** (repels). N pole goes away → near face becomes **S** (attracts back).",
+    "It opposes the **change**, not the field; that is energy conservation."
+   ],
+   "prompt": "State Lenz's law and the face polarity when a north pole approaches a coil."
+  },
+  {
+   "id": "right-for-generator",
+   "title": "Fleming's right hand or left hand?",
+   "trick": "**\"Right hand for geneRator, Left hand for motor (Left = Lagao force)\"**",
+   "meaning": [
+    "Right-hand rule gives the direction of the **induced current** in a moving conductor.",
+    "Left-hand rule (FBI) gives the **force** on a current."
+   ],
+   "prompt": "Which of Fleming's rules gives the direction of an induced current?"
+  },
+  {
+   "id": "lenz-card",
+   "title": "Lenz’s law in one line",
+   "trick": "Lenz’s law in one line",
+   "meaning": [
+    "\"Lenz = ladne wala\": the induced current always fights the change in flux. N comes in → near face N; N goes away → near face S."
+   ],
+   "card": true
+  }
+ ],
  "chemistry/ch-01": [
   {
    "id": "momos-molality",

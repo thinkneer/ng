@@ -1,0 +1,134 @@
+[
+  {
+    "id": "ch04-circle",
+    "kind": "figure",
+    "title": "Charge circling in a magnetic field",
+    "svg": "ref: notes#ch04-circle",
+    "back": "Magnetic force qvB is always towards the centre: r = mv/qB, period 2πm/qB (independent of speed).",
+    "stars": 2
+  },
+  {
+    "id": "ch04-loop",
+    "kind": "figure",
+    "title": "Field on the axis of a loop",
+    "svg": "ref: notes#ch04-loop",
+    "back": "Sideways components cancel; axial ones add: B = μ₀IR²/2(R² + x²)^{3/2}.",
+    "stars": 3,
+    "tags": [
+      "diagram",
+      "3-mark"
+    ]
+  },
+  {
+    "id": "ch04-ampere",
+    "kind": "figure",
+    "title": "Wire field and parallel currents",
+    "svg": "ref: notes#ch04-ampere",
+    "back": "Field lines are circles round the wire; like currents attract with μ₀I₁I₂/2πd per metre.",
+    "stars": 3
+  },
+  {
+    "id": "ch04-mcg",
+    "kind": "figure",
+    "title": "Moving coil galvanometer",
+    "svg": "ref: notes#ch04-mcg",
+    "back": "Concave poles + soft-iron core give a radial field, so NIAB = kφ and φ ∝ I.",
+    "stars": 3,
+    "tags": [
+      "diagram",
+      "5-mark"
+    ]
+  },
+  {
+    "id": "lorentz-force",
+    "kind": "formula",
+    "title": "Magnetic force on a charge",
+    "tex": "\\vec F=q\\vec v\\times\\vec B",
+    "legend": [
+      "F = qvB sin θ",
+      "work done by it = zero"
+    ],
+    "back": "Lorentz force adds qE when an electric field is present.",
+    "stars": 2
+  },
+  {
+    "id": "radius-period",
+    "kind": "formula",
+    "title": "Circle in a magnetic field",
+    "tex": "r=\\dfrac{mv}{qB}\\qquad T=\\dfrac{2\\pi m}{qB}",
+    "legend": [
+      "m, q = mass and charge",
+      "B = field (tesla)"
+    ],
+    "back": "Doubling v doubles r but leaves T unchanged.",
+    "stars": 2
+  },
+  {
+    "id": "biot-savart",
+    "kind": "formula",
+    "title": "Biot–Savart law",
+    "tex": "dB=\\dfrac{\\mu_0}{4\\pi}\\dfrac{I\\,dl\\sin\\theta}{r^2}",
+    "legend": [
+      "μ₀ = 4π×10⁻⁷ T m/A"
+    ],
+    "back": "dB is perpendicular to both dl and r̂."
+  },
+  {
+    "id": "loop-centre-field",
+    "kind": "formula",
+    "title": "Field at the centre of a coil",
+    "tex": "B=\\dfrac{\\mu_0NI}{2R}",
+    "legend": [
+      "N = turns",
+      "R = radius"
+    ],
+    "back": "Largest value on the axis.",
+    "stars": 2
+  },
+  {
+    "id": "straight-wire-field",
+    "kind": "formula",
+    "title": "Field of a long straight wire",
+    "tex": "B=\\dfrac{\\mu_0I}{2\\pi r}",
+    "legend": [
+      "r = distance from the wire"
+    ],
+    "back": "From Ampère’s law with a circular loop; B ∝ 1/r.",
+    "stars": 2
+  },
+  {
+    "id": "parallel-current-force",
+    "kind": "formula",
+    "title": "Force between parallel currents",
+    "tex": "\\dfrac FL=\\dfrac{\\mu_0I_1I_2}{2\\pi d}",
+    "legend": [
+      "d = separation"
+    ],
+    "back": "Like currents attract. Defines the ampere (2×10⁻⁷ N/m at 1 m).",
+    "stars": 3
+  },
+  {
+    "id": "loop-torque",
+    "kind": "formula",
+    "title": "Torque on a current loop",
+    "tex": "\\tau=NIAB\\sin\\theta",
+    "legend": [
+      "m = NIA (magnetic moment)",
+      "θ = angle between B and the normal"
+    ],
+    "back": "Net force zero in a uniform field; τ = m × B.",
+    "stars": 2
+  },
+  {
+    "id": "shunt-formula",
+    "kind": "formula",
+    "title": "Galvanometer to ammeter / voltmeter",
+    "tex": "S=\\dfrac{I_gG}{I-I_g}\\qquad R=\\dfrac{V}{I_g}-G",
+    "legend": [
+      "S = shunt in parallel",
+      "R = series resistance"
+    ],
+    "back": "Ammeter: small shunt in parallel. Voltmeter: big resistance in series.",
+    "stars": 3
+  }
+]

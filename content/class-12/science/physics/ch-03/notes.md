@@ -58,9 +58,8 @@ var: A | 1 | 5 | 0.5
 var: I | 1 | 10 | 1
 answer: I/(8.5e28*1.6e-19*A*1e-6)*1000
 unit: mm/s
-dp: 3
 step: $v_d=\dfrac{I}{neA}=\dfrac{ {{I}} }{8.5\times10^{28}\times1.6\times10^{-19}\times{{A}}\times10^{-6}}$ m/s
-step: $v_d=$ **{{I/(8.5e28*1.6e-19*A*1e-6)*1000:3}} mm/s**: tiny, as expected
+step: $v_d=$ **{{I/(8.5e28*1.6e-19*A*1e-6)*1000}} mm/s**: tiny, as expected
 ```
 
 ```ng-draw

@@ -100,7 +100,7 @@ answer: 9e9*q1*1e-6*q2*1e-6/(r/100)^2
 unit: N
 tol: 2
 step: $F=\dfrac{1}{4\pi\varepsilon_0}\dfrac{q_1q_2}{r^2}=\dfrac{9\times10^9\times{{q1}}\times10^{-6}\times{{q2}}\times10^{-6}}{({{r/100}})^2}$
-step: $F=$ **{{9e9*q1*1e-6*q2*1e-6/(r/100)^2:3}} N**, repulsive (like charges)
+step: $F=$ **{{9e9*q1*1e-6*q2*1e-6/(r/100)^2}} N**, repulsive (like charges)
 ```
 
 **In one breath:** The force between point charges goes as $q_1q_2/r^2$ along the line joining them, drops by a factor $K$ in a medium, and with many charges you add the forces as vectors.
@@ -352,9 +352,8 @@ var: s | 5 | 20 | 5
 var: th | 0 | 60 | 30
 answer: E*(s/100)^2*cos(th*pi/180)
 unit: N m² C⁻¹
-dp: 3
 step: $\phi=EA\cos\theta={{E}}\times({{s/100}})^2\times\cos{{th}}^\circ$
-step: $\phi=$ **{{E*(s/100)^2*cos(th*pi/180):3}} N m² C⁻¹**
+step: $\phi=$ **{{E*(s/100)^2*cos(th*pi/180)}} N m² C⁻¹**
 ```
 
 **In one breath:** Spread-out charge is described by $\lambda$, $\sigma$, $\rho$. Flux $\vec E\cdot\vec S$ measures how much field passes through a surface; it is a scalar, positive outward.
@@ -449,7 +448,7 @@ var: r | 2 | 20 | 2
 answer: 2*9e9*lam*1e-6/(r/100)
 unit: N/C
 step: $E=\dfrac{\lambda}{2\pi\varepsilon_0r}=\dfrac{2\times9\times10^9\times{{lam}}\times10^{-6}}{ {{r/100}} }$
-step: $E=$ **{{2*9e9*lam*1e-6/(r/100):3}} N/C**, radially outward
+step: $E=$ **{{2*9e9*lam*1e-6/(r/100)}} N/C**, radially outward
 ```
 
 ```ng-fill

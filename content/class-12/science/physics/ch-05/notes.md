@@ -10,10 +10,16 @@ Sprinkle iron filings around a bar magnet and they trace out its field lines. Th
 - They never cross, because the field has one direction at each point.
 - Their density shows the strength of the field: crowded near the poles, spread out far away.
 
-<figure class="fig">
-<svg viewBox="0 0 380 195" role="img" aria-label="Field lines of a bar magnet forming closed loops" font-family="sans-serif" font-size="12.5" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M130,80L250,80L250,110L130,110Z" stroke-width="2"/><path d="M190,80L190,110"/><path d="M250,88 Q190,40 130,88" stroke="#6A3FA0"/><path d="M187,64L191.6,62L191.6,66Z" fill="#6A3FA0" stroke="none"/><path d="M250,102 Q190,150 130,102" stroke="#6A3FA0"/><path d="M187,126L191.6,124L191.6,128Z" fill="#6A3FA0" stroke="none"/><path d="M250,88 Q190,0 130,88" stroke="#6A3FA0"/><path d="M187,44L191.6,42L191.6,46Z" fill="#6A3FA0" stroke="none"/><path d="M250,102 Q190,190 130,102" stroke="#6A3FA0"/><path d="M187,146L191.6,144L191.6,148Z" fill="#6A3FA0" stroke="none"/><path d="M250,88 Q190,-40 130,88" stroke="#6A3FA0"/><path d="M187,24L191.6,22L191.6,26Z" fill="#6A3FA0" stroke="none"/><path d="M250,102 Q190,230 130,102" stroke="#6A3FA0"/><path d="M187,166L191.6,164L191.6,168Z" fill="#6A3FA0" stroke="none"/><path d="M138,95L242,95" stroke="#6A3FA0" stroke-width="1" stroke-dasharray="4 3"/><path d="M242,95L237.4,97L237.4,93Z" fill="#6A3FA0" stroke="none"/><path d="M250,95L330,95" stroke="#6A3FA0"/><path d="M293,95L288.4,97L288.4,93Z" fill="#6A3FA0" stroke="none"/><path d="M50,95L130,95" stroke="#6A3FA0"/><path d="M93,95L88.4,97L88.4,93Z" fill="#6A3FA0" stroke="none"/><g fill="currentColor" stroke="none" text-anchor="middle"><text x="160" y="100" font-weight="bold">S</text><text x="220" y="100" font-weight="bold">N</text><text x="190" y="186" font-size="11">outside N → S, inside S → N: closed loops</text></g></svg>
-<figcaption>Magnetic field lines are closed loops: outside the magnet they run from N to S, inside from S to N. A current-carrying solenoid has the same pattern.</figcaption>
-</figure>
+```ng-figure
+id: ch05-bar
+title: Field lines of a bar magnet
+svg:
+<svg viewBox="0 0 380 195" role="img" aria-label="Field lines of a bar magnet forming closed loops" font-family="sans-serif" font-size="12.5" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M130,80L250,80L250,110L130,110Z" stroke-width="2"/><path d="M190,80L190,110"/><path class="u" d="M250,88 Q190,40 130,88"/><path class="uf" d="M187,64L191.6,62L191.6,66Z" stroke="none"/><path class="u" d="M250,102 Q190,150 130,102"/><path class="uf" d="M187,126L191.6,124L191.6,128Z" stroke="none"/><path class="u" d="M250,88 Q190,0 130,88"/><path class="uf" d="M187,44L191.6,42L191.6,46Z" stroke="none"/><path class="u" d="M250,102 Q190,190 130,102"/><path class="uf" d="M187,146L191.6,144L191.6,148Z" stroke="none"/><path class="u" d="M250,88 Q190,-40 130,88"/><path class="uf" d="M187,24L191.6,22L191.6,26Z" stroke="none"/><path class="u" d="M250,102 Q190,230 130,102"/><path class="uf" d="M187,166L191.6,164L191.6,168Z" stroke="none"/><path class="u" d="M138,95L242,95" stroke-width="1" stroke-dasharray="4 3"/><path class="uf" d="M242,95L237.4,97L237.4,93Z" stroke="none"/><path class="u" d="M250,95L330,95"/><path class="uf" d="M293,95L288.4,97L288.4,93Z" stroke="none"/><path class="u" d="M50,95L130,95"/><path class="uf" d="M93,95L88.4,97L88.4,93Z" stroke="none"/><g fill="currentColor" stroke="none" text-anchor="middle"><text x="160" y="100" font-weight="bold">S</text><text x="220" y="100" font-weight="bold">N</text><text x="190" y="186" font-size="11">outside N → S, inside S → N: closed loops</text></g></svg>
+caption: Magnetic field lines are closed loops: outside the magnet they run from N to S, inside from S to N. A current-carrying solenoid has the same pattern.
+part: 220, 95 | North pole | Outside the magnet, field lines leave from here.
+part: 160, 95 | South pole | Outside lines enter here.
+part: 190, 64 | Closed field line | Continues inside from S to N: no monopoles.
+```
 
 Electric field lines start on positive charges and end on negative ones. Magnetic field lines never start or end, because there are no isolated magnetic poles (no "magnetic monopoles"). Break a bar magnet in half and you get two smaller magnets, each with its own north and south pole. This fact is written as Gauss's law for magnetism: the net magnetic flux through any closed surface is zero.
 
@@ -37,13 +43,16 @@ Far from a short magnet, its field has the same form as the field of an electric
 Axial point: $B=\dfrac{\mu_0}{4\pi}\dfrac{2m}{r^3}$ (along $\vec m$) · equatorial point: $B=\dfrac{\mu_0}{4\pi}\dfrac{m}{r^3}$ (opposite to $\vec m$)
 :::
 
-| Electric dipole | Magnetic dipole (bar magnet) |
-|---|---|
-| $\vec p$, from $-q$ to $+q$ | $\vec m$, from S to N |
-| $\frac{1}{4\pi\varepsilon_0}$ | $\frac{\mu_0}{4\pi}$ |
-| torque $\vec p\times\vec E$ | torque $\vec m\times\vec B$ |
-| energy $-\vec p\cdot\vec E$ | energy $-\vec m\cdot\vec B$ |
-| field lines start and end on charges | field lines are closed loops |
+```ng-fill
+id: electric-vs-magnetic-dipole
+title: Electric dipole vs magnetic dipole
+cols: Feature | Electric dipole | Magnetic dipole (bar magnet)
+row: Moment | $\vec p$, from $-q$ to $+q$ | [[$\vec m$, from S to N]]
+row: Constant | $\frac{1}{4\pi\varepsilon_0}$ | [[$\frac{\mu_0}{4\pi}$]]
+row: Torque in a uniform field | $\vec p\times\vec E$ | [[$\vec m\times\vec B$]]
+row: Potential energy | [[$-\vec p\cdot\vec E$]] | $-\vec m\cdot\vec B$
+row: Field lines | start and end on charges | [[closed loops]]
+```
 
 **In one breath:** A bar magnet behaves like a solenoid because both are made of aligned current loops; its moment $\vec m$ points S to N, and its far field has the dipole form with $\mu_0/4\pi$.
 
@@ -58,6 +67,19 @@ Stable equilibrium at $\theta=0^\circ$ ($U=-mB$); unstable at $\theta=180^\circ$
 :::
 
 Unit of magnetic moment: A m² (equivalently J T⁻¹).
+
+```ng-numerical
+id: magnet-torque
+title: Torque on a bar magnet
+question: A bar magnet of moment {{m}} A m² lies at {{th}}° to a uniform field of {{B}} T. Find the torque on it.
+var: m | 1 | 10 | 1
+var: th | 30 | 90 | 30
+var: B | 0.1 | 0.5 | 0.1
+answer: m*B*sin(th*pi/180)
+unit: N m
+step: $\tau=mB\sin\theta={{m}}\times{{B}}\times\sin{{th}}^\circ$
+step: $\tau=$ **{{m*B*sin(th*pi/180)}} N m**
+```
 
 **In one breath:** In a uniform field a magnet feels a torque $\vec m\times\vec B$ that lines it up with the field, but no net force; it is most stable along the field.
 
@@ -77,16 +99,35 @@ $\vec M=\chi\vec H$;   $\vec B=\mu_0(1+\chi)\vec H=\mu\vec H$
 Relative permeability $\mu_r=\dfrac{\mu}{\mu_0}=1+\chi$
 :::
 
+```ng-numerical
+id: permeability-from-chi
+title: Relative permeability from susceptibility
+question: A material has susceptibility $\chi={{chi}}$. Find its relative permeability and the field inside it when $H={{H}}$ A/m. ($\mu_0=4\pi\times10^{-7}$ T m/A)
+var: chi | 100 | 1000 | 100
+var: H | 100 | 1000 | 100
+let: mur = 1 + chi
+answer: mur*4*pi*1e-7*H
+unit: T
+step: $\mu_r=1+\chi=1+{{chi}}={{mur}}$
+step: $B=\mu_0\mu_rH=4\pi\times10^{-7}\times{{mur}}\times{{H}}=$ **{{mur*4*pi*1e-7*H}} T**
+```
+
 **In one breath:** A material in a field gets a magnetisation $M=\chi H$; the field inside is $\mu_0(H+M)=\mu H$ with $\mu_r=1+\chi$.
 
 ## Diamagnetism, paramagnetism and ferromagnetism
 
 Materials are sorted by the sign and size of $\chi$.
 
-<figure class="fig">
-<svg viewBox="0 0 400 168" role="img" aria-label="Field lines through diamagnetic, paramagnetic and ferromagnetic samples" font-family="sans-serif" font-size="12.5" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><circle cx="75" cy="80" r="26" stroke="#6A3FA0" stroke-width="1.6"/><path d="M20,40 Q75,22 130,40"/><path d="M130,40L126.3,41.6L126.3,38.4Z" fill="currentColor" stroke="none"/><path d="M20,60 Q75,42 130,60"/><path d="M130,60L126.3,61.6L126.3,58.4Z" fill="currentColor" stroke="none"/><path d="M20,80 Q75,80 130,80"/><path d="M20,100 Q75,118 130,100"/><path d="M130,100L126.3,101.6L126.3,98.4Z" fill="currentColor" stroke="none"/><path d="M20,120 Q75,138 130,120"/><path d="M130,120L126.3,121.6L126.3,118.4Z" fill="currentColor" stroke="none"/><circle cx="205" cy="80" r="26" stroke="#6A3FA0" stroke-width="1.6"/><path d="M150,40 Q205,54.0 260,40"/><path d="M260,40L256.3,41.6L256.3,38.4Z" fill="currentColor" stroke="none"/><path d="M150,60 Q205,67.0 260,60"/><path d="M260,60L256.3,61.6L256.3,58.4Z" fill="currentColor" stroke="none"/><path d="M150,80 Q205,80.0 260,80"/><path d="M260,80L256.3,81.6L256.3,78.4Z" fill="currentColor" stroke="none"/><path d="M150,100 Q205,93.0 260,100"/><path d="M260,100L256.3,101.6L256.3,98.4Z" fill="currentColor" stroke="none"/><path d="M150,120 Q205,106.0 260,120"/><path d="M260,120L256.3,121.6L256.3,118.4Z" fill="currentColor" stroke="none"/><circle cx="335" cy="80" r="26" stroke="#6A3FA0" stroke-width="1.6"/><path d="M280,40 Q335,70.0 390,40"/><path d="M390,40L386.3,41.6L386.3,38.4Z" fill="currentColor" stroke="none"/><path d="M280,60 Q335,75.0 390,60"/><path d="M390,60L386.3,61.6L386.3,58.4Z" fill="currentColor" stroke="none"/><path d="M280,80 Q335,80.0 390,80"/><path d="M390,80L386.3,81.6L386.3,78.4Z" fill="currentColor" stroke="none"/><path d="M280,100 Q335,85.0 390,100"/><path d="M390,100L386.3,101.6L386.3,98.4Z" fill="currentColor" stroke="none"/><path d="M280,120 Q335,90.0 390,120"/><path d="M390,120L386.3,121.6L386.3,118.4Z" fill="currentColor" stroke="none"/><g fill="currentColor" stroke="none" text-anchor="middle"><text x="75" y="160" font-size="11">diamagnetic</text><text x="205" y="160" font-size="11">paramagnetic</text><text x="335" y="160" font-size="11">ferromagnetic</text></g></svg>
-<figcaption>A diamagnetic sample pushes field lines out; a paramagnetic sample draws them in slightly; a ferromagnetic sample concentrates them strongly.</figcaption>
-</figure>
+```ng-figure
+id: ch05-materials
+title: Dia, para and ferro samples in a field
+svg:
+<svg viewBox="0 0 400 168" role="img" aria-label="Field lines through diamagnetic, paramagnetic and ferromagnetic samples" font-family="sans-serif" font-size="12.5" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><circle class="u" cx="75" cy="80" r="26" stroke-width="1.6"/><path d="M20,40 Q75,22 130,40"/><path d="M130,40L126.3,41.6L126.3,38.4Z" fill="currentColor" stroke="none"/><path d="M20,60 Q75,42 130,60"/><path d="M130,60L126.3,61.6L126.3,58.4Z" fill="currentColor" stroke="none"/><path d="M20,80 Q75,80 130,80"/><path d="M20,100 Q75,118 130,100"/><path d="M130,100L126.3,101.6L126.3,98.4Z" fill="currentColor" stroke="none"/><path d="M20,120 Q75,138 130,120"/><path d="M130,120L126.3,121.6L126.3,118.4Z" fill="currentColor" stroke="none"/><circle class="u" cx="205" cy="80" r="26" stroke-width="1.6"/><path d="M150,40 Q205,54.0 260,40"/><path d="M260,40L256.3,41.6L256.3,38.4Z" fill="currentColor" stroke="none"/><path d="M150,60 Q205,67.0 260,60"/><path d="M260,60L256.3,61.6L256.3,58.4Z" fill="currentColor" stroke="none"/><path d="M150,80 Q205,80.0 260,80"/><path d="M260,80L256.3,81.6L256.3,78.4Z" fill="currentColor" stroke="none"/><path d="M150,100 Q205,93.0 260,100"/><path d="M260,100L256.3,101.6L256.3,98.4Z" fill="currentColor" stroke="none"/><path d="M150,120 Q205,106.0 260,120"/><path d="M260,120L256.3,121.6L256.3,118.4Z" fill="currentColor" stroke="none"/><circle class="u" cx="335" cy="80" r="26" stroke-width="1.6"/><path d="M280,40 Q335,70.0 390,40"/><path d="M390,40L386.3,41.6L386.3,38.4Z" fill="currentColor" stroke="none"/><path d="M280,60 Q335,75.0 390,60"/><path d="M390,60L386.3,61.6L386.3,58.4Z" fill="currentColor" stroke="none"/><path d="M280,80 Q335,80.0 390,80"/><path d="M390,80L386.3,81.6L386.3,78.4Z" fill="currentColor" stroke="none"/><path d="M280,100 Q335,85.0 390,100"/><path d="M390,100L386.3,101.6L386.3,98.4Z" fill="currentColor" stroke="none"/><path d="M280,120 Q335,90.0 390,120"/><path d="M390,120L386.3,121.6L386.3,118.4Z" fill="currentColor" stroke="none"/><g fill="currentColor" stroke="none" text-anchor="middle"><text x="75" y="160" font-size="11">diamagnetic</text><text x="205" y="160" font-size="11">paramagnetic</text><text x="335" y="160" font-size="11">ferromagnetic</text></g></svg>
+caption: A diamagnetic sample pushes field lines out; a paramagnetic sample draws them in slightly; a ferromagnetic sample concentrates them strongly.
+part: 75, 80 | Diamagnetic sample | Pushes field lines out; χ small and negative.
+part: 205, 80 | Paramagnetic sample | Draws lines in slightly; χ small and positive.
+part: 335, 80 | Ferromagnetic sample | Concentrates lines strongly; χ very large.
+```
 
 **Diamagnetic** materials have atoms with no net magnetic moment. An external field induces a small moment **opposite** to the field (a consequence of the induced change in the orbital motion of electrons). So $\chi$ is small and negative, $\mu_r$ is slightly less than 1, field lines are pushed out of the sample, and it moves from stronger to weaker parts of a field. Examples: bismuth, copper, lead, silicon, water, nitrogen, sodium chloride. A **superconductor** is a perfect diamagnet: it expels the field completely ($\chi=-1$), the **Meissner effect**.
 
@@ -94,13 +135,67 @@ Materials are sorted by the sign and size of $\chi$.
 
 **Ferromagnetic** materials (iron, cobalt, nickel, gadolinium) also have permanent atomic moments, but neighbouring moments spontaneously line up in small regions called **domains**, each fully magnetised. Without a field the domains point in different directions. An external field makes domains aligned with it grow and others rotate, giving a huge magnetisation. So $\chi$ and $\mu_r$ are very large (thousands), field lines crowd strongly into the sample, and it is strongly attracted. Above a certain temperature, the **Curie temperature** $T_c$, the domain order is destroyed and the material becomes paramagnetic.
 
-| Property | Dia | Para | Ferro |
-|---|---|---|---|
-| $\chi$ | small, negative | small, positive | very large, positive |
-| $\mu_r$ | slightly < 1 | slightly > 1 | ≫ 1 |
-| In a non-uniform field | moves to weaker field | moves to stronger field (weakly) | strongly attracted |
-| Field lines | pushed out | drawn in slightly | strongly concentrated |
-| Effect of temperature | almost none | $\chi\propto1/T$ | becomes para above $T_c$ |
+```ng-fill
+id: dia-para-ferro
+title: Dia, para and ferromagnetic materials
+cols: Property | Dia | Para | Ferro
+row: $\chi$ | small, negative | [[small, positive]] | [[very large, positive]]
+row: $\mu_r$ | [[slightly < 1]] | slightly > 1 | ≫ 1
+row: In a non-uniform field | [[moves to weaker field]] | moves to stronger field (weakly) | [[strongly attracted]]
+row: Field lines | pushed out | [[drawn in slightly]] | strongly concentrated
+row: Effect of temperature | [[almost none]] | $\chi\propto1/T$ | [[becomes para above $T_c$]]
+```
+
+```ng-mnemonic
+id: dur-paas-fida
+title: How dia, para and ferro behave in a field
+trick: **"Dia dur bhaage, Para paas aaye, Ferro fida ho jaaye"**
+meaning: **Dia**: runs away (repelled, $\chi<0$).
+meaning: **Para**: comes a little closer (weakly attracted, small $\chi>0$).
+meaning: **Ferro**: falls for it completely (strongly attracted, $\chi\gg1$).
+prompt: How do dia-, para- and ferromagnetic materials behave in a non-uniform magnetic field?
+```
+
+```ng-mnemonic
+id: ferro-examples
+title: The four ferromagnets
+trick: **"Fe-Co-Ni ki Gaadi"** → Fe, Co, Ni, Gd
+meaning: Iron, cobalt, nickel and gadolinium are ferromagnetic.
+prompt: Name four ferromagnetic elements.
+```
+
+```ng-graph
+id: curie-law
+title: Curie's law: paramagnets weaken when heated
+x: T (K) | 50 | 600
+y: χ (×10⁻⁵) | 0 | 10
+curve: χ = C/T | C/x
+slider: C | constant (×10⁻⁵ K) | 100 | 1000 | 50 | 360
+note: Halve the absolute temperature and the susceptibility doubles. At 300 K with this constant, $\chi=1.2\times10^{-5}$.
+```
+
+```ng-steps
+id: ferro-domains
+title: How a ferromagnet gets magnetised
+step: **No field**: each domain is fully magnetised, but the domains point in different directions, so the net magnetisation is about zero.
+step: **Weak field**: domains already lined up with the field grow at the expense of the others (domain walls move).
+step: **Stronger field**: the remaining domains rotate towards the field; the magnetisation becomes very large.
+step: **Above the Curie temperature**: thermal agitation destroys the domains and the material becomes paramagnetic.
+```
+
+```ng-draw
+id: draw-dia-para
+title: Draw field lines through dia- and paramagnetic samples
+svg: ref: notes#ch05-materials
+time: 3
+```
+
+```ng-explain
+id: explain-diamagnetism
+prompt: In two or three lines, explain why a superconductor is called a perfect diamagnet.
+lines: 3
+answer: Below its critical temperature a superconductor expels the magnetic field completely (Meissner effect). So $B=0$ inside, $M=-H$ and $\chi=-1$, the most negative value possible.
+```
 
 :::tip Diamagnetism is universal
 Every material has a diamagnetic response; in para- and ferromagnets it is simply swamped by the much larger effect of the permanent moments.

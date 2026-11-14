@@ -46,8 +46,12 @@ Boards only. Board paper: **Tue 16 Feb 2027** (first paper of the season). Pract
 | 1 | 12 | 4 | steps, compare, 3 numerical, 3 graph, 3 mnemonic, derive, fill, 2 draw, explain |
 | 2 | 11 | 4 | 4 numerical, 3 graph, 2 mnemonic, derive, compare, fill, 2 draw |
 | 3 | 12 | 5 | 4 numerical, 3 graph, 2 mnemonic, 2 derive, steps, compare, fill, 2 draw |
+| 4 | 12 | 4 | 3 numerical, 2 graph, 3 mnemonic, 2 derive, steps, compare, 2 draw |
+| 5 | 9 | 2 | 2 numerical, graph, 2 fill (replace the two tables), 3 mnemonic, steps, draw, explain |
+| 6 | 10 | 2 | 5 numerical, graph, 3 mnemonic, 2 derive, steps, compare, 2 draw |
 
 - Every figure in notes.md is now an `ng-figure` with labelled parts (ids = the figure names, e.g. `ch01-dipole`; never rename). Unit colour now comes from `class="u"` / `class="uf"`, not hard-coded hex.
+- Numerical templates show 3 significant figures (no fixed decimals), so tiny SI answers never print as 0.000.
 - Numericals use fresh numbers; each answer expression was checked by hand against one random draw.
 
 ## Corrections

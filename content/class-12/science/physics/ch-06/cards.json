@@ -1,0 +1,115 @@
+[
+  {
+    "id": "ch06-lenz",
+    "kind": "figure",
+    "title": "Lenz’s law: magnet and coil",
+    "svg": "ref: notes#ch06-lenz",
+    "back": "N pole approaching makes the near face N (repels); you must do work, which becomes electrical energy.",
+    "stars": 3,
+    "tags": [
+      "diagram"
+    ]
+  },
+  {
+    "id": "ch06-rod",
+    "kind": "figure",
+    "title": "Rod sliding on rails",
+    "svg": "ref: notes#ch06-rod",
+    "back": "emf = Blv; I = Blv/R; the retarding force B²l²v/R must be balanced to keep v constant.",
+    "stars": 2,
+    "tags": [
+      "diagram"
+    ]
+  },
+  {
+    "id": "magnetic-flux",
+    "kind": "formula",
+    "title": "Magnetic flux",
+    "tex": "\\Phi_B=BA\\cos\\theta",
+    "legend": [
+      "θ = angle between B and the normal",
+      "unit = weber (T m²)"
+    ],
+    "back": "Change B, A or θ to induce an emf.",
+    "stars": 2
+  },
+  {
+    "id": "faraday-law",
+    "kind": "formula",
+    "title": "Faraday’s law",
+    "tex": "\\varepsilon=-N\\dfrac{d\\Phi_B}{dt}",
+    "legend": [
+      "N = number of turns",
+      "minus sign = Lenz's law"
+    ],
+    "back": "A steady flux, however large, induces nothing.",
+    "stars": 3
+  },
+  {
+    "id": "motional-emf",
+    "kind": "formula",
+    "title": "Motional emf",
+    "tex": "\\varepsilon=Blv",
+    "legend": [
+      "l = length of rod",
+      "v = speed across B"
+    ],
+    "back": "Same result from the Lorentz force on the rod’s free charges.",
+    "stars": 2
+  },
+  {
+    "id": "self-inductance-def",
+    "kind": "formula",
+    "title": "Self-induced emf",
+    "tex": "\\varepsilon=-L\\dfrac{dI}{dt}",
+    "legend": [
+      "L = NΦ/I (henry)"
+    ],
+    "back": "Inductance opposes changes in current, like inertia.",
+    "stars": 2
+  },
+  {
+    "id": "solenoid-l",
+    "kind": "formula",
+    "title": "Self-inductance of a solenoid",
+    "tex": "L=\\dfrac{\\mu_0N^2A}{l}",
+    "legend": [
+      "A = cross-section",
+      "l = length"
+    ],
+    "back": "Doubling N makes L four times; an iron core multiplies it by μᵣ.",
+    "stars": 3
+  },
+  {
+    "id": "coaxial-m",
+    "kind": "formula",
+    "title": "Mutual inductance of coaxial solenoids",
+    "tex": "M=\\mu_0n_1n_2\\pi r_1^2l",
+    "legend": [
+      "r₁ = radius of the inner solenoid",
+      "n = turns per metre"
+    ],
+    "back": "M₁₂ = M₂₁. Use the inner cross-section.",
+    "stars": 3
+  },
+  {
+    "id": "inductor-energy-card",
+    "kind": "formula",
+    "title": "Energy in an inductor",
+    "tex": "U=\\dfrac12LI^2",
+    "legend": [
+      "L = inductance",
+      "I = current"
+    ],
+    "back": "Stored in the magnetic field.",
+    "stars": 2
+  },
+  {
+    "id": "lenz-card",
+    "kind": "mnemonic",
+    "title": "Lenz’s law in one line",
+    "back": "\"Lenz = ladne wala\": the induced current always fights the change in flux. N comes in → near face N; N goes away → near face S.",
+    "svg": "ref: notes#ch06-lenz",
+    "stars": 3
+  }
+]
