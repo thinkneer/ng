@@ -27,6 +27,7 @@ const SCREENS = [
   { name: 'reader', hash: '#/12/science/chemistry/ch-01/read' },
   { name: 'recall', hash: '#/12/science/chemistry/ch-01/recall' },
   { name: 'cards', hash: '#/12/science/chemistry/ch-02/cards' },
+  { name: 'paper', hash: '#/12/science/chemistry/ch-02/paper' },
   { name: 'formulas', hash: '#/12/science/chemistry/formulas' },
   { name: 'practice', hash: '#/practice' },
   { name: 'progress', hash: '#/progress' },
@@ -61,7 +62,7 @@ for (const bname of browsers) {
         // signed-in screens: the local server (--test) injects a session for the test member on ?autologin
         await page.goto(BASE + (screen.fresh ? '?nosw' : '?nosw&autologin') + screen.hash, { waitUntil: 'networkidle' });
         await page.waitForSelector('#view .large-title, #view h1, #view .empty', { timeout: 8000 }).catch(() => {});
-        await page.waitForTimeout(['chapter', 'reader', 'recall', 'formulas', 'cards'].includes(screen.name) ? 1500 : 350);
+        await page.waitForTimeout(['chapter', 'reader', 'recall', 'formulas', 'cards', 'paper'].includes(screen.name) ? 1500 : 350);
         const file = `${OUT}${bname}-${size.name}-${scheme}-${screen.name}.png`;
         await page.screenshot({ path: file, fullPage: false });
       }

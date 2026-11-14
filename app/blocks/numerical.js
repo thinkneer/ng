@@ -16,8 +16,8 @@ export async function render(body, spec, ctx) {
     const q = await md(interpolate(spec.question, scope, compile));
     root.innerHTML = `<div class="ngn__q">${q}</div>
       <form class="ngn__form" novalidate>
-        <label class="sr-only" for="ans-${esc(spec.id)}">Your answer${spec.unit ? ` in ${esc(spec.unit)}` : ''}</label>
-        <input id="ans-${esc(spec.id)}" class="ngn__input" inputmode="decimal" autocomplete="off" placeholder="Your answer" enterkeyhint="done">
+        <label class="sr-only" for="ans-${esc(spec.dom || spec.id)}">Your answer${spec.unit ? ` in ${esc(spec.unit)}` : ''}</label>
+        <input id="ans-${esc(spec.dom || spec.id)}" class="ngn__input" inputmode="decimal" autocomplete="off" placeholder="Your answer" enterkeyhint="done">
         ${spec.unit ? `<span class="ngn__unit">${esc(spec.unit)}</span>` : ''}
         <button class="btn btn--unit btn--sm" type="submit">Check</button>
       </form>

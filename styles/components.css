@@ -453,7 +453,9 @@ a.unit-bar--link:hover { text-decoration: none; filter: brightness(1.06); }
 .ngb__body--wait { border-radius: var(--r-md); background: var(--skeleton); background-size: 200% 100%; min-height: 8rem; }
 .ngb--figure .ngb__body--wait, .ngb--steps .ngb__body--wait { min-height: min(30rem, 92vw); }
 .ngb--graph .ngb__body--wait { min-height: min(30rem, 95vw); }
-.ngb--numerical .ngb__body--wait, .ngb--draw .ngb__body--wait { min-height: 11rem; }
+.ngb--numerical .ngb__body--wait { min-height: 11rem; }
+.ngb--draw .ngb__body--wait { min-height: min(calc(60vw + 8rem), 30rem); }
+.ngb--derive .ngb__body--wait { min-height: 10rem; }
 .ngb--mnemonic .ngb__body--wait { min-height: 6rem; }
 .prose .ngb .ngb__title, .ngb__title { font-size: var(--fs-headline); font-weight: 700; margin: 0; padding: 0; border: 0; color: var(--text); letter-spacing: -0.005em; line-height: 1.3; }
 .prose .ngb .ngb__title::before { display: none; }

@@ -182,3 +182,89 @@ svg text.uf, svg .uf text { fill: var(--unit, var(--accent)); }
   .ngf.is-quiz svg text { visibility: visible; }
   .ngm.is-test .ngm__meaning { display: block; }
 }
+
+/* draw */
+.ngd__modes { display: flex; gap: 2px; padding: 3px; border-radius: var(--r-md); background: var(--surface-2); margin-bottom: var(--s-2); overflow-x: auto; scrollbar-width: none; }
+.ngd__mode { flex: 1 0 auto; min-height: 2.25rem; padding: 0 var(--s-3); border-radius: 10px; font-size: var(--fs-footnote); font-weight: 600; color: var(--text-2); }
+.ngd__mode[aria-selected="true"] { background: var(--surface); color: var(--text); box-shadow: var(--shadow-1); }
+.ngd__hint { margin-bottom: var(--s-2); }
+.ngd__pad { position: relative; width: 100%; max-width: 32rem; margin: 0 auto; background: var(--surface); border-radius: var(--r-md); box-shadow: inset 0 0 0 1px var(--separator-strong); overflow: hidden; color: var(--text); }
+.ngd__art { position: absolute; inset: 0; pointer-events: none; transition: opacity var(--t-med); }
+.ngd__art svg { width: 100%; height: 100%; }
+.ngd__canvas { position: absolute; inset: 0; width: 100%; height: 100%; touch-action: none; cursor: crosshair; }
+.ngd[data-mode="trace"] .ngd__art { opacity: 0.22; }
+.ngd[data-mode="recall"] .ngd__art { opacity: 0; }
+.ngd[data-mode="compare"] .ngd__art { opacity: 0.85; z-index: 1; color: var(--unit, var(--accent)); }
+.ngd[data-mode="compare"] .ngd__art text { fill: var(--unit, var(--accent)); }
+
+/* derive */
+.ngv__prompt { font-weight: 500; }
+.ngv__timer { display: flex; align-items: baseline; gap: var(--s-3); margin-top: var(--s-3); }
+.ngv__clock { font-size: 2rem; font-weight: 800; letter-spacing: -0.02em; color: var(--unit, var(--accent)); }
+.ngv__clock.is-over { color: var(--danger); }
+.ngv__check { margin-top: var(--s-3); }
+.ngv__check .pq__step { margin: 0; }
+
+/* explain */
+.nge__prompt { font-weight: 600; margin: 0 0 var(--s-2); }
+.nge textarea { width: 100%; resize: vertical; font-size: var(--fs-callout); line-height: 1.5; }
+.nge__ans { margin-top: var(--s-3); padding: var(--s-3); border-radius: var(--r-md); background: var(--surface); border-left: 4px solid var(--unit, var(--accent)); }
+.nge__label { font-size: var(--fs-caption); font-weight: 800; text-transform: uppercase; letter-spacing: 0.08em; color: color-mix(in srgb, var(--unit, var(--accent)) 72%, var(--text)); margin-bottom: var(--s-1); }
+
+/* compare + fill tables */
+.ngc__wrap { overflow-x: auto; margin: 0 calc(-1 * var(--s-1)); }
+.ngc__table { width: 100%; border-collapse: separate; border-spacing: 0; font-size: var(--fs-subhead); background: var(--surface); border-radius: var(--r-md); overflow: hidden; box-shadow: var(--shadow-1); }
+.prose .ngb table { margin: 0; display: table; }
+.ngc__table th, .ngc__table td { padding: var(--s-2) var(--s-3); text-align: left; vertical-align: top; border-bottom: 1px solid var(--separator); }
+.ngc__table thead th { background: color-mix(in srgb, var(--unit, var(--accent)) 12%, var(--surface)); font-weight: 700; }
+.ngc__table thead th:nth-child(3) { background: color-mix(in srgb, #E0B400 16%, var(--surface)); }
+.ngc__table tbody th { font-weight: 600; color: var(--text-2); width: 32%; }
+.ngc__table tr:last-child > * { border-bottom: 0; }
+.ngc[data-view="0"] [data-col="1"], .ngc[data-view="1"] [data-col="0"] { display: none; }
+.ngc[data-view="quiz"] td[data-col="1"] .ngc__cell { visibility: hidden; }
+.ngc[data-view="quiz"] td[data-col="1"] { cursor: pointer; background: repeating-linear-gradient(135deg, var(--surface-2) 0 6px, transparent 6px 12px); }
+.ngc[data-view="quiz"] td[data-col="1"].is-open { background: none; }
+.ngc[data-view="quiz"] td[data-col="1"].is-open .ngc__cell { visibility: visible; }
+.ngl__cell { position: relative; min-width: 5rem; }
+.ngl__q { width: 100%; min-height: 2.25rem; border-radius: var(--r-sm); background: repeating-linear-gradient(135deg, var(--surface-2) 0 6px, transparent 6px 12px); box-shadow: inset 0 0 0 1px var(--separator-strong); font-weight: 800; color: var(--text-2); }
+.ngl__ans, .ngl__mark { display: none; }
+.ngl__cell.is-open .ngl__q { display: none; }
+.ngl__cell.is-open .ngl__ans { display: inline; font-weight: 600; }
+.ngl__cell.is-open .ngl__mark { display: inline-flex; gap: 2px; margin-left: var(--s-1); vertical-align: middle; }
+.ngl__mark button { width: 1.75rem; height: 1.75rem; border-radius: 50%; display: grid; place-items: center; background: var(--surface-2); color: var(--text-2); }
+.ngl__mark button svg { width: 0.9rem; height: 0.9rem; }
+.ngl__cell[data-scored] .ngl__mark { display: none; }
+.ngl__cell.is-known { background: var(--success-soft); } .ngl__cell.is-missed { background: var(--danger-soft); }
+
+@media print {
+  .ngd__modes, .ngd__hint, .ngd__canvas, .nge textarea, .nge__ans { display: none !important; }
+  .ngd__art { opacity: 1 !important; position: static; } .ngd__pad { box-shadow: none; }
+  .ngl__q { display: none; } .ngl__ans { display: inline !important; }
+  .ngc[data-view] [data-col] { display: table-cell !important; } .ngc__cell { visibility: visible !important; }
+  .ngv__check { display: none; }
+}
+
+/* ---------- Practice on paper ---------- */
+.ngp__item { position: relative; }
+.ngp__item .ngb { margin: 0 0 var(--s-2); }
+.ngp__done { margin: 0 0 var(--s-5) auto; display: flex; width: max-content; }
+.ngp .ngd [data-done] { display: none; }
+.ws { font-family: var(--font-sans); color: #000; }
+@media print {
+  .ws__top { display: flex; justify-content: space-between; align-items: flex-end; gap: 6mm; border-bottom: 2px solid #000; padding-bottom: 2mm; margin-bottom: 4mm; font-size: 10pt; }
+  .ws__h { break-after: avoid; font-size: 12pt; margin: 5mm 0 2mm; padding: 1mm 3mm; background: #eee; -webkit-print-color-adjust: exact; print-color-adjust: exact; border-left: 3mm solid var(--unit, #333); }
+  .ws__h + .ws__item { break-before: avoid; }
+  .ws__item { break-inside: avoid; margin-bottom: 5mm; font-size: 10.5pt; }
+  .ws__q .prose { font-size: inherit; max-width: none; display: inline; }
+  .ws__q .prose p { display: inline; margin: 0; }
+  .ws__fig { max-width: 120mm; margin: 2mm auto; }
+  .ws__fig svg { width: 100%; height: auto; color: #000; }
+  .ws__blanks { columns: 2; margin: 2mm 0 0; padding-left: 6mm; }
+  .ws__blanks li { margin: 3mm 0; } .ws__blanks span { display: inline-block; width: 60mm; border-bottom: 1px solid #000; }
+  .ws__box { height: 75mm; border: 1px solid #000; border-radius: 3mm; margin-top: 2mm; }
+  .ws__lines { margin-top: 2mm; } .ws__lines span { display: block; height: 8mm; border-bottom: 1px solid #aaa; }
+  .ws__answers { break-before: page; font-size: 10pt; } .ws__answers ul { padding-left: 5mm; } .ws__answers li { margin: 1.5mm 0; }
+}
+.prose .ngb .ngc__table th, .prose .ngb .ngc__table td { text-transform: none; letter-spacing: 0; font-size: var(--fs-subhead); }
+.prose .ngb .ngc__table thead th { font-size: var(--fs-footnote); }
+.ngl__q { text-align: center; }

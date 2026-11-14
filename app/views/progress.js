@@ -16,7 +16,8 @@ export async function progress() {
     const read = chapters.filter((c) => isRead(sub, c)).length;
     let learnt = 0, seen = 0;
     for (const x of Object.values(recall)) if (x.key?.startsWith(sub.id + '/')) { seen++; if (x.box >= 1) learnt++; }
-    return { sub, chapters: chapters.length, read, learnt, seen };
+    const paper = Object.entries(p.paper || {}).filter(([k]) => k.startsWith(sub.id + '/')).reduce((n, [, m]) => n + Object.keys(m).length, 0);
+    return { sub, chapters: chapters.length, read, learnt, seen, paper };
   });
   const totals = rows.reduce((a, r) => ({ read: a.read + r.read, chapters: a.chapters + r.chapters, learnt: a.learnt + r.learnt }), { read: 0, chapters: 0, learnt: 0 });
 
@@ -25,12 +26,12 @@ export async function progress() {
     actions: `<button class="icon-btn" type="button" data-export aria-label="Export progress" title="Export progress JSON">${icon('download')}</button><button class="icon-btn" type="button" data-import aria-label="Import progress" title="Import progress JSON">${icon('upload')}</button>`,
     html: html`${largeTitle('Progress', { eyebrow: `${totals.read} of ${totals.chapters} chapters read · ${totals.learnt} recall cards learnt` })}
       <div class="list">
-        ${rows.map(({ sub, chapters, read, learnt, seen }) => raw(`<a class="list__item has-leading pressable" href="${routeFor(s.class, s.stream, sub.id)}" style="--unit:#${sub.colour}">
+        ${rows.map(({ sub, chapters, read, learnt, seen, paper }) => raw(`<a class="list__item has-leading pressable" href="${routeFor(s.class, s.stream, sub.id)}" style="--unit:#${sub.colour}">
             <span class="list__leading">${esc((sub.short || sub.name).slice(0, 2))}</span>
-            <span class="list__body"><span class="list__title">${esc(sub.name)}</span><span class="list__sub">${read}/${chapters} chapters read · ${learnt} recall card${learnt === 1 ? '' : 's'} learnt${seen > learnt ? ` of ${seen} seen` : ''}</span></span>
+            <span class="list__body"><span class="list__title">${esc(sub.name)}</span><span class="list__sub">${read}/${chapters} chapters read · ${learnt} recall card${learnt === 1 ? '' : 's'} learnt${seen > learnt ? ` of ${seen} seen` : ''}${paper ? ` · ${paper} on paper` : ''}</span></span>
             <span class="list__trailing">${icon('chevronRight', { class: 'chev' })}</span></a>`))}
       </div>
-      <p class="t-footnote t-3 mt-4">A chapter counts as read when you tick <strong>L</strong> at the foot of its Must know, or finish it in reading mode. A card is learnt once you have got it right in Recall. Saved on this device; export from the top right to move it.</p>`,
+      <p class="t-footnote t-2 mt-4">A chapter counts as read when you tick <strong>L</strong> at the foot of its Must know, or finish it in reading mode. A card is learnt once you have got it right in Recall. "On paper" counts diagrams, derivations and numericals ticked Done in a chapter's Practice on paper. Saved on this device; export from the top right to move it.</p>`,
     mount() {
       document.querySelector('[data-export]')?.addEventListener('click', () => {
         const blob = new Blob([JSON.stringify({ ...store.progress(), nickname: store.nickname, version: 1, synced_on: new Date().toISOString() }, null, 2)], { type: 'application/json' });

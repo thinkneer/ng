@@ -18,6 +18,7 @@ export async function chapter(route) {
   const { unit, chapter: ch } = data.chapterOf(sub, route.chapterId);
   if (!ch) return { title: 'Not found', tab: 'subjects', back: routeFor(cls.id, stream.id, sub.id), html: emptyState({ icon: 'alert', title: 'No such chapter', action: `<a class="btn btn--secondary" href="${routeFor(cls.id, stream.id, sub.id)}">Back to ${esc(sub.name)}</a>` }) };
   if (route.tab === 'read') { const { reader } = await import('./reader.js'); return reader({ cls, stream, sub, unit, ch }); }
+  if (route.tab === 'paper') { const { paperChapter } = await import('./paper.js'); return paperChapter({ cls, stream, sub, unit, ch }); }
   if (route.tab === 'cards') { const { chapterDeck } = await import('./cards.js'); return chapterDeck({ cls, stream, sub, unit, ch }); }
   if (route.tab === 'recall') { const { recallChapter } = await import('./recall.js'); return recallChapter({ cls, stream, sub, unit, ch }); }
   if (route.tab === 'quiz') { const { quizChapter } = await import('./quiz.js'); return quizChapter({ cls, stream, sub, unit, ch, type: route.extra || 'all' }); }
@@ -34,7 +35,7 @@ export async function chapter(route) {
 
   return {
     title: `Ch ${ch.number} · ${ch.title}`, tab: 'subjects', back: routeFor(cls.id, stream.id, sub.id), backLabel: sub.name, unitColour: unit.colour, wide: true,
-    actions: `<a class="icon-btn" href="${base}/read" aria-label="Reading mode" title="Reading mode">${icon('book')}</a><button class="icon-btn" type="button" data-highlights aria-label="Highlights and my notes" title="Highlights and my notes">${icon('highlight')}</button><button class="icon-btn hide-phone" type="button" data-print aria-label="Print" title="Print">${icon('print')}</button>`,
+    actions: `<a class="icon-btn" href="${base}/read" aria-label="Reading mode" title="Reading mode">${icon('book')}</a>${['figure', 'draw', 'derive', 'numerical'].some((t) => ch.blocks?.[t]) ? `<a class="icon-btn" href="${base}/paper" aria-label="Practice on paper" title="Practice on paper">${icon('paper')}</a>` : ''}<button class="icon-btn" type="button" data-highlights aria-label="Highlights and my notes" title="Highlights and my notes">${icon('highlight')}</button><button class="icon-btn hide-phone" type="button" data-print aria-label="Print" title="Print">${icon('print')}</button>`,
     html: html`
       ${raw(unitBar(unit, { href: unit.chapters.some((c) => c.items?.cards) ? routeFor(cls.id, stream.id, sub.id, 'cards', unit.id) : null, label: `${esc(sub.name)} · Unit ${esc(unit.id)} · ${esc(unit.name)}`, style: 'margin-top:var(--s-3)' }))}
       <h1 class="t-title" style="margin:var(--s-2) 0 var(--s-3)"><span class="t-2" style="font-weight:600">${ch.number}.</span> ${ch.title}</h1>
