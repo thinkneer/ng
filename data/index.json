@@ -590,6 +590,7 @@
                       "title": "Electrochemistry",
                       "unit": "2",
                       "items": {
+                        "notes": true,
                         "mustknow": true,
                         "formulas": true,
                         "questions": true
@@ -604,7 +605,8 @@
                         "la5": 1
                       },
                       "diagrams": [],
-                      "words": 2331
+                      "words": 5351,
+                      "read_minutes": 15
                     }
                   ]
                 },
@@ -621,6 +623,7 @@
                       "title": "Chemical Kinetics",
                       "unit": "3",
                       "items": {
+                        "notes": true,
                         "mustknow": true,
                         "formulas": true,
                         "questions": true
@@ -636,7 +639,8 @@
                         "case": 1
                       },
                       "diagrams": [],
-                      "words": 1904
+                      "words": 4564,
+                      "read_minutes": 13
                     }
                   ]
                 },
@@ -888,7 +892,7 @@
               },
               "papers": [],
               "counts": {
-                "notes": 1,
+                "notes": 3,
                 "mustknow": 10,
                 "formulas": 10,
                 "questions": 10,
