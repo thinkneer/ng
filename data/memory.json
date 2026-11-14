@@ -1,0 +1,13 @@
+{
+ "chemistry/ch-02": [
+  {
+   "id": "leo-ger",
+   "title": "LEO says GER · AN OX, RED CAT",
+   "trick": "LEO says GER · AN OX, RED CAT",
+   "meaning": [
+    "**LEO** Lose Electrons = Oxidation, **GER** Gain Electrons = Reduction. **AN OX**: oxidation at the anode; **RED CAT**: reduction at the cathode, in every cell."
+   ],
+   "card": true
+  }
+ ]
+}

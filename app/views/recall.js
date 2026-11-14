@@ -2,27 +2,31 @@
 import { html, raw, icon, esc, emptyState, haptic } from '../ui.js';
 import { data, routeFor } from '../data.js';
 import { store } from '../store.js';
-import { cardsFrom, session, answer, summary, cardState } from '../recall.js';
+import { cardsFrom, session, answer, summary, cardState, memoryCards } from '../recall.js';
 
 export async function recallChapter({ cls, stream, sub, unit, ch }) {
   const src = ch.items?.mustknow ? await data.mustknow(sub, ch.id) : null;
-  const cards = src ? cardsFrom(src, { subject: sub.id, chapter: ch.id, chapterTitle: ch.title, colour: unit.colour }) : [];
+  const meta = { subject: sub.id, chapter: ch.id, chapterTitle: ch.title, colour: unit.colour };
+  const cards = [...(src ? cardsFrom(src, meta) : []), ...(ch.mnemonics ? memoryCards(await data.memory(), meta) : [])];
   return build({ title: `Recall · Ch ${ch.number}`, cards: session(cards, { max: 25 }), back: routeFor(cls.id, stream.id, sub.id, ch.id, 'mustknow'), colour: unit.colour, cls, stream, sub, total: cards.length });
 }
 
 /** All formula cards of one subject (every chapter's :::formula boxes), same Leitner schedule as chapter Recall. */
 export async function formulaCards(sub) {
   const out = [];
-  for (const c of data.allChapters(sub).filter((x) => x.items?.mustknow)) {
-    const src = await data.mustknow(sub, c.id);
-    if (src) out.push(...cardsFrom(src, { subject: sub.id, chapter: c.id, chapterTitle: c.title, colour: c.unitObj.colour }).filter((k) => k.kind === 'formula'));
+  const memory = data.allChapters(sub).some((c) => c.mnemonics) ? await data.memory() : {};
+  for (const c of data.allChapters(sub).filter((x) => x.items?.mustknow || x.mnemonics)) {
+    const meta = { subject: sub.id, chapter: c.id, chapterTitle: c.title, colour: c.unitObj.colour };
+    const src = c.items?.mustknow ? await data.mustknow(sub, c.id) : null;
+    if (src) out.push(...cardsFrom(src, meta).filter((k) => k.kind === 'formula'));
+    out.push(...memoryCards(memory, meta)); // memory tricks are drilled with the formulas
   }
   return out;
 }
 /** …/<subject>/formulas/drill — a recall session of formula cards only. */
 export async function recallFormulas({ cls, stream, sub }) {
   const cards = await formulaCards(sub);
-  return build({ title: `Drill formulas · ${sub.name}`, cards: session(cards, { max: 30 }), back: routeFor(cls.id, stream.id, sub.id, 'formulas'), colour: sub.colour, cls, stream, sub, total: cards.length, emptyTitle: 'No formula cards yet', emptyText: 'Titled :::formula boxes in each chapter’s Must know become drill cards.' });
+  return build({ title: `Drill formulas · ${sub.name}`, cards: session(cards, { max: 30 }), back: routeFor(cls.id, stream.id, sub.id, 'formulas'), colour: sub.colour, cls, stream, sub, total: cards.length, emptyTitle: 'No formula cards yet', emptyText: 'Titled :::formula boxes in each chapter’s Must know, and the memory tricks, become drill cards.' });
 }
 
 /** #/recall — everything due today across the student's subjects. */
@@ -33,12 +37,14 @@ export async function recallDue() {
   const sum = summary();
   const dueKeys = Object.entries(sum.byChapter).filter(([, v]) => v.due > 0).map(([k]) => k);
   let cards = [];
+  let memory = null;
   for (const key of dueKeys) {
     const [subId, chId] = key.split('/');
     const sub = subjects.find((x) => x.id === subId); if (!sub) continue;
-    const { unit, chapter } = data.chapterOf(sub, chId); if (!chapter?.items?.mustknow) continue;
-    const src = await data.mustknow(sub, chId);
-    cards.push(...cardsFrom(src, { subject: sub.id, chapter: chId, chapterTitle: chapter.title, colour: unit.colour }));
+    const { unit, chapter } = data.chapterOf(sub, chId); if (!chapter) continue;
+    const meta = { subject: sub.id, chapter: chId, chapterTitle: chapter.title, colour: unit.colour };
+    if (chapter.items?.mustknow) cards.push(...cardsFrom(await data.mustknow(sub, chId), meta));
+    if (chapter.mnemonics) cards.push(...memoryCards(memory ||= await data.memory(), meta));
   }
   const list = session(cards, { max: 40, onlyDue: true });
   if (!list.length) {

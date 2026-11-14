@@ -42,13 +42,21 @@ export async function examEve({ cls, stream, sub }) {
     </div>`,
     async mount(el) {
       if (!chapters.length) return;
-      const { renderMarkdown } = await import('../markdown.js');
+      const { renderMarkdown, inlineHTML } = await import('../markdown.js');
       const { attach } = await import('../highlights.js');
+      const memory = chapters.some((c) => c.mnemonics) ? await data.memory() : {};
       for (const c of chapters) {
         const sec = el.querySelector(`#ee-${CSS.escape(c.id)}`);
         const src = await data.mustknow(sub, c.id);
         const node = await renderMarkdown(examEveMarkdown(src || ''), { unitColour: c.unitObj.colour });
-        sec.querySelector('.skeleton')?.remove(); sec.appendChild(node);
+        sec.querySelector('.skeleton')?.remove();
+        // memory tricks first: the quickest thing to reread the night before
+        const tricks = memory[`${sub.id}/${c.id}`] || [];
+        if (tricks.length) {
+          const items = await Promise.all(tricks.map(async (m) => `<div class="mn-chip" role="listitem"><span class="mn-chip__trick">${(await inlineHTML(m.trick)).innerHTML}</span><span class="mn-chip__meaning">${(await inlineHTML(m.meaning.join(' '))).innerHTML}</span></div>`));
+          sec.insertAdjacentHTML('beforeend', `<div class="mn-strip" role="list" aria-label="Memory tricks" style="--unit:#${c.unitObj.colour}">${items.join('')}</div>`);
+        }
+        sec.appendChild(node);
         attach(node, `${sub.id}/${c.id}/exameve`);
       }
       el.querySelector('[data-contents]')?.addEventListener('click', async () => {

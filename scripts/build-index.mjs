@@ -29,6 +29,8 @@ const MUSTKNOW_HEADINGS = [
 const CARDS_REQUIRED_FROM = '2026-12-01';
 const TODAY = process.env.NG_TODAY || new Date().toISOString().slice(0, 10);
 const missingCards = {}; // subject path → [chapter ids]
+const cardMnemonics = [];
+const memory = {}; // "<subject>/<chapter>" → memory tricks (ng-mnemonic blocks + mnemonic cards) → data/memory.json
 
 /** Prose only: interactive blocks and inline SVG drawings don't count towards length or reading time. */
 function proseOf(text) { return text.replace(/^```ng-[a-z]+[\s\S]*?^```\s*$/gm, ' ').replace(/<svg[\s\S]*?<\/svg>/g, ' '); }
@@ -188,6 +190,7 @@ if (classes) {
                       if (item === 'mustknow') checkMustknow(p);
                       if (item === 'notes') checkNotes(p);
                       const bl = checkBlocks(p, blockIds);
+                      for (const b of bl) if (b.type === 'mnemonic' && b.spec.id && b.spec.trick && !b.errors.length) (memory[`${subj.id}/${ch.id}`] ||= []).push({ id: b.spec.id, title: b.spec.title, trick: b.spec.trick, meaning: [].concat(b.spec.meaning || []), ...(b.spec.prompt ? { prompt: b.spec.prompt } : {}) });
                       if (bl.length) outCh.blocks = { ...(outCh.blocks || {}), ...Object.fromEntries(Object.entries(bl.reduce((a, b) => { a[b.type] = (a[b.type] || 0) + 1; return a; }, {})).map(([k, v]) => [k, (outCh.blocks?.[k] || 0) + v])) };
                       const text = proseOf(readFileSync(p, 'utf8'));
                       outCh.words = (outCh.words || 0) + (text.match(/\S+/g) || []).length;
@@ -199,6 +202,7 @@ if (classes) {
                     const cards = readJSON(cPath);
                     if (validate('cards', cPath, cards)) {
                       checkCards(cPath, cards, join(chDir, 'notes.md'), subj.id);
+                      cardMnemonics.push({ key: `${subj.id}/${ch.id}`, cards: cards.filter((c) => c.kind === 'mnemonic') });
                       outCh.items.cards = true;
                       outCh.cards = cards.length;
                     }
@@ -350,6 +354,15 @@ function checkScheme(path, where, scheme, marks) {
   if (Math.abs(sum - marks) > 0.001) err(path, `${where}: scheme steps add up to ${sum}, marks is ${marks}`);
 }
 
+// ---------- memory tricks: blocks first, then mnemonic cards with a new id ----------
+for (const { key, cards } of cardMnemonics) for (const c of cards) {
+  const list = (memory[key] ||= []);
+  if (!list.some((m) => m.id === c.id)) list.push({ id: c.id, title: c.title, trick: c.title, meaning: [c.back], card: true });
+}
+for (const cls of index.classes) for (const st of cls.streams) for (const sub of st.subjects) for (const u of sub.units) for (const ch of u.chapters) {
+  const n = memory[`${sub.id}/${ch.id}`]?.length; if (n) ch.mnemonics = n;
+}
+
 // ---------- cards: chapters with notes but no deck ----------
 for (const [dir, ids] of Object.entries(missingCards)) {
   const msg = `cards.json missing for ${ids.length} chapter(s) with notes: ${ids.join(', ')} (required from ${CARDS_REQUIRED_FROM}; see CLAUDE.md §4c)`;
@@ -379,6 +392,7 @@ if (errors.length) {
 }
 if (!CHECK_ONLY) {
   writeFileSync(join(ROOT, 'data', 'index.json'), JSON.stringify(index, null, 2) + '\n');
+  writeFileSync(join(ROOT, 'data', 'memory.json'), JSON.stringify(memory, null, 1) + '\n');
   console.log(`wrote data/index.json (${warnings.length} warning(s))`);
 } else {
   console.log(`check passed (${warnings.length} warning(s))`);

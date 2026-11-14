@@ -89,6 +89,14 @@ export function cardsFrom(src, { subject, chapter, chapterTitle, colour } = {}) 
   return cards;
 }
 
+/** Memory tricks (data/memory.json) of one chapter as recall cards: prompt → trick + what it stands for. */
+export function memoryCards(memory, { subject, chapter, chapterTitle, colour }) {
+  return (memory?.[`${subject}/${chapter}`] || []).map((m) => ({
+    id: `${subject}/${chapter}/mn:${m.id}`, key: `${subject}/${chapter}`, subject, chapter, chapterTitle, colour, section: 'Memory tricks', kind: 'mnemonic',
+    prompt: m.prompt ? `${m.prompt} *(memory trick)*` : `Memory trick: ${m.title}`, answer: `**${m.trick.replace(/\*\*/g, '')}**\n\n${m.meaning.join('\n\n')}`,
+  }));
+}
+
 /* ---------- scheduling ---------- */
 const state = () => store.progress().recall || {};
 export function cardState(id) { return state()[id] || null; }

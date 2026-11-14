@@ -14,7 +14,7 @@ export async function chapterCards(sub, ch, unit) {
   return list.map((c) => {
     const rid = refId(c.svg);
     const uid = cardUid(sub.id, ch.id, c.id);
-    return { ...c, cid: c.id, id: uid, svg: rid ? resolveRef(rid, notes) : c.svg, uid, key: `${sub.id}/${ch.id}`, subject: sub.id, chapter: ch.id, chapterTitle: ch.title, chapterNumber: ch.number, colour: unit.colour, deck: c.kind !== 'mnemonic' };
+    return { ...c, cid: c.id, id: uid, svg: rid ? resolveRef(rid, notes) : c.svg, uid, key: `${sub.id}/${ch.id}`, subject: sub.id, chapter: ch.id, chapterTitle: ch.title, chapterNumber: ch.number, colour: unit.colour, deck: true };
   });
 }
 

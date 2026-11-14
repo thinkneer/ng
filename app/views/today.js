@@ -31,6 +31,7 @@ export async function today() {
   const lastCh = lastSub && data.chapterOf(lastSub, last.ch).chapter;
   const curCards = lastCh?.items?.cards ? lastCh.cards : 0;
   const saved = (progress.mycards || []).length;
+  const trick = trickOfTheDay(mine, progress, last, t0);
 
   return {
     title: 'Today', largeTitle: true, tab: 'today',
@@ -56,6 +57,7 @@ export async function today() {
       ${curCards || rs.cardsDue ? raw(`<a class="card continue pressable mt-3" href="#/cards/today" style="--unit:#${curCards ? last.colour : '0E8A7E'}"><span class="list__leading">${icon('cards')}</span><span class="continue__main"><span class="continue__title">Cards for today</span><span class="continue__sec" style="color:var(--text-2);font-weight:500">${[rs.cardsDue ? `${rs.cardsDue} due` : '', curCards ? `Ch ${lastCh.number} · ${esc(lastCh.title)}` : ''].filter(Boolean).join(' · ')} · swipe through</span></span>${icon('chevronRight', { class: 'chev', size: 20 })}</a>`) : ''}
       ${saved ? raw(`<a class="card continue pressable mt-3" href="#/cards/mine" style="--unit:#B0204F"><span class="list__leading">${icon('heart')}</span><span class="continue__main"><span class="continue__title">My cards</span><span class="continue__sec" style="color:var(--text-2);font-weight:500">${saved} saved</span></span>${icon('chevronRight', { class: 'chev', size: 20 })}</a>`) : ''}
       ${dbMode ? raw(`<a class="card continue pressable mt-3" href="#/live" style="--unit:#6A3FA0"><span class="list__leading">${icon('bolt')}</span><span class="continue__main"><span class="continue__title">Live quiz</span><span class="continue__sec" style="color:var(--text-2);font-weight:500">${staff ? 'Host one for the class, or join with a code' : 'Teacher gave you a code? Join here'}</span></span>${icon('chevronRight', { class: 'chev', size: 20 })}</a>`) : ''}
+      ${trick ? raw(`<div class="card trick mt-3" id="trick" style="--unit:#${trick.colour}"><div class="trick__head">${icon('sparkle')}<span>Trick of the day</span><span class="trick__ch">${esc(trick.sub.short || trick.sub.name)} · Ch ${trick.ch.number}</span></div><div class="trick__body" aria-live="polite"><span class="skeleton" style="display:block;height:1.4em;width:70%"></span><span class="skeleton mt-2" style="display:block;height:1em;width:90%"></span></div></div>`) : ''}
       ${last ? raw(`<div class="section-head"><h2>Continue reading</h2></div>
       <a class="card continue pressable" href="${routeFor(last.cls, last.stream, last.sub, last.ch, 'read')}" style="--unit:#${last.colour}">
         ${String(cover({ colour: last.colour, name: last.subject }, { small: true }))}
@@ -76,10 +78,31 @@ export async function today() {
       ${pwa.installable && !store.flag('install-dismissed') ? raw(`<div class="card mt-6 install-banner" id="install-card"><div class="row"><span class="list__leading list__leading--soft">${icon('install')}</span><div class="grow"><div class="t-headline">Install ng on this device</div><div class="t-2 t-footnote">Opens full-screen and works offline.</div></div></div><div class="row mt-4"><button class="btn btn--sm" type="button" data-install>Install</button><button class="btn btn--sm btn--ghost" type="button" data-install-later>Not now</button></div></div>`) : ''}
       <p class="t-footnote t-3 mt-8">Board dates from the CBSE date sheet${exams?.date_checked ? `, checked ${fmtDate(exams.date_checked, { day: 'numeric', month: 'short', year: 'numeric' })}` : ''}. Recheck on cbse.gov.in.</p>`,
     mount(el) {
+      if (trick) fillTrick(el.querySelector('#trick'), trick);
       el.querySelector('[data-install]')?.addEventListener('click', () => pwa.promptInstall());
       el.querySelector('[data-install-later]')?.addEventListener('click', () => { store.setFlag('install-dismissed', true); el.querySelector('#install-card')?.remove(); });
     },
   };
+}
+
+/* ---------- Trick of the day: one memory trick from a chapter already read (changes daily) ---------- */
+function trickOfTheDay(mine, progress, last, t0) {
+  const pool = [];
+  for (const sub of mine) for (const c of data.allChapters(sub)) {
+    if (!c.mnemonics) continue;
+    const key = `${sub.id}/${c.id}`;
+    const read = progress.tracker?.[key]?.L || store.get(`reader.pos.${key}`, 0) >= 0.25 || (last && last.sub === sub.id && last.ch === c.id);
+    if (read) for (let k = 0; k < c.mnemonics; k++) pool.push({ sub, ch: c, k, key, colour: c.unitObj.colour });
+  }
+  if (!pool.length) return null;
+  return pool[Math.floor(t0.getTime() / 86400000) % pool.length];
+}
+const lite = (t) => esc(t).replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>').replace(/\$([^$]+)\$/g, '$1');
+async function fillTrick(box, trick) {
+  const body = box?.querySelector('.trick__body'); if (!body) return;
+  const m = (await data.memory())[trick.key]?.[trick.k];
+  if (!m) { box.remove(); return; }
+  body.innerHTML = `<div class="trick__trick">${lite(m.trick)}</div><div class="trick__meaning">${m.meaning.map(lite).join(' ')}</div>`;
 }
 
 async function welcome() {
