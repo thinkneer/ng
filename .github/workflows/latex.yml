@@ -23,11 +23,10 @@ jobs:
       - name: Find .tex sources
         id: find
         run: |
-          files=$(find latex -name '*.tex' -not -path '*/preambles/*' -not -name '*preamble*' | sort)
-          echo "files<<EOF" >> "$GITHUB_OUTPUT"
-          echo "$files" >> "$GITHUB_OUTPUT"
-          echo "EOF" >> "$GITHUB_OUTPUT"
-          echo "Sources:"; echo "$files"
+          # one line, space-separated: the list is pasted into a shell `for` loop below
+          files=$(find latex -name '*.tex' -not -path '*/preambles/*' -not -name '*preamble*' | sort | tr '\n' ' ')
+          echo "files=$files" >> "$GITHUB_OUTPUT"
+          echo "Sources: $files"
       - name: Compile
         if: steps.find.outputs.files != ''
         uses: xu-cheng/texlive-action@v2
