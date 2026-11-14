@@ -1,0 +1,245 @@
+[
+  {
+    "id": "chem-s5-q01",
+    "chapter": "ch-09",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 3,
+    "label": "PYQ-style",
+    "stem": "The strongest base in aqueous solution is",
+    "options": [
+      "$\\ce{NH3}$",
+      "$\\ce{CH3NH2}$",
+      "$\\ce{(CH3)2NH}$",
+      "$\\ce{(CH3)3N}$"
+    ],
+    "answer": "C",
+    "model_answer": "**(c) $\\ce{(CH3)2NH}$.** Best balance of +I effect, solvation and steric factors.",
+    "source_note": "Expert Q&A Sheet 5 (Organic C), Q1"
+  },
+  {
+    "id": "chem-s5-q02",
+    "chapter": "ch-09",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 3,
+    "label": "PYQ-style",
+    "stem": "Which compound gives the carbylamine test?",
+    "options": [
+      "aniline",
+      "N-methylaniline",
+      "N,N-dimethylaniline",
+      "diethylamine"
+    ],
+    "answer": "A",
+    "model_answer": "**(a) aniline.** Only primary amines give the test.",
+    "source_note": "Expert Q&A Sheet 5 (Organic C), Q2"
+  },
+  {
+    "id": "chem-s5-q03",
+    "chapter": "ch-09",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 3,
+    "label": "PYQ-style",
+    "stem": "Propanamide, on treatment with bromine and aqueous NaOH, gives",
+    "options": [
+      "propan-1-amine",
+      "ethanamine",
+      "methanamine",
+      "propanenitrile"
+    ],
+    "answer": "B",
+    "model_answer": "**(b) ethanamine.** Hoffmann bromamide gives an amine with one carbon less.",
+    "source_note": "Expert Q&A Sheet 5 (Organic C), Q3"
+  },
+  {
+    "id": "chem-s5-q07",
+    "chapter": "ch-09",
+    "type": "ar",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ-style",
+    "stem": "**Assertion (A):** Aniline does not undergo the Friedel–Crafts reaction.<br>**Reason (R):** Aniline forms a salt with the Lewis acid catalyst $\\ce{AlCl3}$.",
+    "options": [
+      "Both A and R are true, and R is the correct explanation of A.",
+      "Both A and R are true, but R is not the correct explanation of A.",
+      "A is true, but R is false.",
+      "A is false, but R is true."
+    ],
+    "answer": "A",
+    "model_answer": "**(a).**",
+    "source_note": "Expert Q&A Sheet 5 (Organic C), Q7"
+  },
+  {
+    "id": "chem-s5-q09",
+    "chapter": "ch-09",
+    "type": "vsa2",
+    "marks": 2,
+    "stars": 3,
+    "label": "PYQ-style",
+    "stem": "Write the reactions for (i) Gabriel phthalimide synthesis of ethanamine, (ii) coupling of benzenediazonium chloride with phenol.",
+    "model_answer": "(i) Phthalimide $\\ce{->[alc. KOH]}$ potassium phthalimide $\\ce{->[C2H5Br]}$ N-ethylphthalimide $\\ce{->[NaOH(aq)]}$ $\\ce{C2H5NH2}$ + sodium phthalate [1]<br>\n(ii) $\\ce{C6H5N2+Cl- + C6H5OH ->[OH-]}$<br>\n$\\ce{HO-C6H4-N=N-C6H5 + HCl}$ — p-hydroxyazobenzene (orange dye) [1]",
+    "scheme": [
+      {
+        "step": "(i) Phthalimide $\\ce{->[alc. KOH]}$ potassium phthalimide $\\ce{->[C2H5Br]}$ N-ethylphthalimide $\\ce{->[NaOH(aq)]}$ $\\ce{C2H5NH2}$ + sodium phthalate",
+        "marks": 1
+      },
+      {
+        "step": "(ii) $\\ce{C6H5N2+Cl- + C6H5OH ->[OH-]}$ $\\ce{HO-C6H4-N=N-C6H5 + HCl}$ — p-hydroxyazobenzene (orange dye)",
+        "marks": 1
+      }
+    ],
+    "source_note": "Expert Q&A Sheet 5 (Organic C), Q9"
+  },
+  {
+    "id": "chem-s5-q10",
+    "chapter": "ch-09",
+    "type": "vsa2",
+    "marks": 2,
+    "stars": 3,
+    "label": "PYQ-style",
+    "stem": "Arrange as directed:<br>\n(i) $\\ce{C2H5NH2}$, $\\ce{(C2H5)2NH}$, $\\ce{(C2H5)3N}$, $\\ce{NH3}$ (increasing basic strength in water)<br>\n(ii) $\\ce{C2H5OH}$, $\\ce{(CH3)2NH}$, $\\ce{C2H5NH2}$ (increasing boiling point)",
+    "model_answer": "(i) $\\ce{NH3}$ $<$ $\\ce{C2H5NH2}$ $<$ $\\ce{(C2H5)3N}$ $<$ $\\ce{(C2H5)2NH}$ [1]<br>\n(ii) $\\ce{(CH3)2NH}$ $<$ $\\ce{C2H5NH2}$ $<$ $\\ce{C2H5OH}$ [1]",
+    "scheme": [
+      {
+        "step": "(i) $\\ce{NH3}$ $<$ $\\ce{C2H5NH2}$ $<$ $\\ce{(C2H5)3N}$ $<$ $\\ce{(C2H5)2NH}$",
+        "marks": 1
+      },
+      {
+        "step": "(ii) $\\ce{(CH3)2NH}$ $<$ $\\ce{C2H5NH2}$ $<$ $\\ce{C2H5OH}$",
+        "marks": 1
+      }
+    ],
+    "source_note": "Expert Q&A Sheet 5 (Organic C), Q10"
+  },
+  {
+    "id": "chem-s5-q12",
+    "chapter": "ch-09",
+    "type": "vsa2",
+    "marks": 2,
+    "stars": 2,
+    "label": "PYQ-style",
+    "stem": "Give reasons: (i) aromatic diazonium salts are more stable than aliphatic diazonium salts; (ii) the p$K_b$ of aniline is higher than that of methylamine.",
+    "model_answer": "(i) The positive charge of the arenediazonium ion is delocalised over the benzene ring by resonance; an alkyldiazonium ion has no such stabilisation. [1]<br>\n(ii) In aniline the lone pair on N is delocalised into the ring and is less available for protonation; in methylamine the +I effect of $\\ce{-CH3}$ increases electron density on N. Aniline is the weaker base, so its p$K_b$ is higher. [1]",
+    "scheme": [
+      {
+        "step": "(i) The positive charge of the arenediazonium ion is delocalised over the benzene ring by resonance; an alkyldiazonium ion has no such stabilisation.",
+        "marks": 1
+      },
+      {
+        "step": "(ii) In aniline the lone pair on N is delocalised into the ring and is less available for protonation; in methylamine the +I effect of $\\ce{-CH3}$ increases electron density on N. Aniline is the weaker base, so its p$K_b$ is higher.",
+        "marks": 1
+      }
+    ],
+    "source_note": "Expert Q&A Sheet 5 (Organic C), Q12"
+  },
+  {
+    "id": "chem-s5-q13",
+    "chapter": "ch-09",
+    "type": "sa3",
+    "marks": 3,
+    "stars": 2,
+    "label": "PYQ-style",
+    "stem": "How will you carry out these conversions?<br>\n(i) aniline to 4-bromoaniline   (ii) benzoic acid to aniline   (iii) aniline to iodobenzene",
+    "model_answer": "(i) Aniline $\\ce{->[(CH3CO)2O][pyridine]}$ acetanilide $\\ce{->[Br2][CH3COOH]}$ 4-bromoacetanilide $\\ce{->[H+ or OH-][H2O]}$ 4-bromoaniline [1]<br>\n(ii) $\\ce{C6H5COOH ->[NH3][\\Delta] C6H5CONH2 ->[Br2 + NaOH] C6H5NH2}$ [1]<br>\n(iii) $\\ce{C6H5NH2 ->[NaNO2 + HCl][273-278 K] C6H5N2+Cl- ->[KI] C6H5I + N2 + KCl}$ [1]",
+    "scheme": [
+      {
+        "step": "(i) Aniline $\\ce{->[(CH3CO)2O][pyridine]}$ acetanilide $\\ce{->[Br2][CH3COOH]}$ 4-bromoacetanilide $\\ce{->[H+ or OH-][H2O]}$ 4-bromoaniline",
+        "marks": 1
+      },
+      {
+        "step": "(ii) $\\ce{C6H5COOH ->[NH3][\\Delta] C6H5CONH2 ->[Br2 + NaOH] C6H5NH2}$",
+        "marks": 1
+      },
+      {
+        "step": "(iii) $\\ce{C6H5NH2 ->[NaNO2 + HCl][273-278 K] C6H5N2+Cl- ->[KI] C6H5I + N2 + KCl}$",
+        "marks": 1
+      }
+    ],
+    "source_note": "Expert Q&A Sheet 5 (Organic C), Q13"
+  },
+  {
+    "id": "chem-s5-q14",
+    "chapter": "ch-09",
+    "type": "sa3",
+    "marks": 3,
+    "stars": 2,
+    "label": "PYQ-style",
+    "stem": "Identify A, B and C:<br>\n$\\ce{CH3CH2I ->[NaCN] A ->[OH-][partial hydrolysis] B ->[NaOH + Br2] C}$",
+    "model_answer": "**A = propanenitrile**, $\\ce{CH3CH2CN}$ [1]<br>\n**B = propanamide**, $\\ce{CH3CH2CONH2}$ [1]<br>\n**C = ethanamine**, $\\ce{CH3CH2NH2}$ (Hoffmann bromamide degradation) [1]",
+    "scheme": [
+      {
+        "step": "**A = propanenitrile**, $\\ce{CH3CH2CN}$",
+        "marks": 1
+      },
+      {
+        "step": "**B = propanamide**, $\\ce{CH3CH2CONH2}$",
+        "marks": 1
+      },
+      {
+        "step": "**C = ethanamine**, $\\ce{CH3CH2NH2}$ (Hoffmann bromamide degradation)",
+        "marks": 1
+      }
+    ],
+    "source_note": "Expert Q&A Sheet 5 (Organic C), Q14"
+  },
+  {
+    "id": "chem-s5-q15",
+    "chapter": "ch-09",
+    "type": "sa3",
+    "marks": 3,
+    "stars": 3,
+    "label": "PYQ-style",
+    "stem": "Describe the Hinsberg test for distinguishing primary, secondary and tertiary amines.",
+    "model_answer": "The amine is shaken with benzenesulphonyl chloride ($\\ce{C6H5SO2Cl}$, Hinsberg's reagent) in the presence of alkali.<br>\n**Primary amine:** forms N-alkylbenzenesulphonamide, which is *soluble in alkali* because the H on nitrogen is acidic. [1]<br>\n**Secondary amine:** forms N,N-dialkylbenzenesulphonamide, which has no H on nitrogen and is *insoluble in alkali*. [1]<br>\n**Tertiary amine:** does not react. [1]",
+    "scheme": [
+      {
+        "step": "The amine is shaken with benzenesulphonyl chloride ($\\ce{C6H5SO2Cl}$, Hinsberg's reagent) in the presence of alkali. **Primary amine:** forms N-alkylbenzenesulphonamide, which is *soluble in alkali* because the H on nitrogen is acidic.",
+        "marks": 1
+      },
+      {
+        "step": "**Secondary amine:** forms N,N-dialkylbenzenesulphonamide, which has no H on nitrogen and is *insoluble in alkali*.",
+        "marks": 1
+      },
+      {
+        "step": "**Tertiary amine:** does not react.",
+        "marks": 1
+      }
+    ],
+    "source_note": "Expert Q&A Sheet 5 (Organic C), Q15"
+  },
+  {
+    "id": "chem-s5-q18",
+    "chapter": "ch-09",
+    "type": "la5",
+    "marks": 5,
+    "stars": 2,
+    "label": "PYQ-style",
+    "stem": "(a) Give reasons: (i) direct nitration of aniline gives a substantial amount of m-nitroaniline; (ii) aromatic primary amines cannot be prepared by Gabriel phthalimide synthesis; (iii) $\\ce{(CH3)2NH}$ is a stronger base than $\\ce{(CH3)3N}$ in aqueous solution. [3]<br>\n(b) Give one chemical test each to distinguish (i) aniline and N-methylaniline, (ii) ethanamine and aniline. [2]",
+    "model_answer": "(a)(i) In the strongly acidic nitrating mixture aniline is protonated to the anilinium ion, which is meta-directing. [1]<br>\n(ii) Aryl halides do not undergo nucleophilic substitution with the phthalimide anion (the C–X bond has partial double-bond character). [1]<br>\n(iii) The protonated secondary amine is better stabilised by hydrogen bonding with water (two N–H) and is less crowded than the protonated tertiary amine (one N–H); this outweighs the extra +I effect in the tertiary amine. [1]<br>\n(b)(i) **Carbylamine test:** on heating with $\\ce{CHCl3}$ and alcoholic KOH, aniline gives a foul-smelling isocyanide; N-methylaniline (a secondary amine) does not. [1]<br>\n(ii) **Azo dye test:** treat with $\\ce{NaNO2}$ + HCl at 273–278 K, then add alkaline $\\beta$-naphthol. Aniline gives an orange-red dye; ethanamine gives off $\\ce{N2}$ bubbles and no dye. [1]",
+    "scheme": [
+      {
+        "step": "(a)(i) In the strongly acidic nitrating mixture aniline is protonated to the anilinium ion, which is meta-directing.",
+        "marks": 1
+      },
+      {
+        "step": "(ii) Aryl halides do not undergo nucleophilic substitution with the phthalimide anion (the C–X bond has partial double-bond character).",
+        "marks": 1
+      },
+      {
+        "step": "(iii) The protonated secondary amine is better stabilised by hydrogen bonding with water (two N–H) and is less crowded than the protonated tertiary amine (one N–H); this outweighs the extra +I effect in the tertiary amine.",
+        "marks": 1
+      },
+      {
+        "step": "(b)(i) **Carbylamine test:** on heating with $\\ce{CHCl3}$ and alcoholic KOH, aniline gives a foul-smelling isocyanide; N-methylaniline (a secondary amine) does not.",
+        "marks": 1
+      },
+      {
+        "step": "(ii) **Azo dye test:** treat with $\\ce{NaNO2}$ + HCl at 273–278 K, then add alkaline $\\beta$-naphthol. Aniline gives an orange-red dye; ethanamine gives off $\\ce{N2}$ bubbles and no dye.",
+        "marks": 1
+      }
+    ],
+    "source_note": "Expert Q&A Sheet 5 (Organic C), Q18"
+  }
+]

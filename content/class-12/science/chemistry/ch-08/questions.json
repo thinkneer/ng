@@ -1,0 +1,456 @@
+[
+  {
+    "id": "chem-s4-q01",
+    "chapter": "ch-08",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ-style",
+    "stem": "Which compound does *not* give a red precipitate with Fehling's solution?",
+    "options": [
+      "methanal",
+      "ethanal",
+      "benzaldehyde",
+      "propanal"
+    ],
+    "answer": "C",
+    "model_answer": "**(c) benzaldehyde.** Aromatic aldehydes do not reduce Fehling's solution.",
+    "source_note": "Expert Q&A Sheet 4 (Organic B), Q1"
+  },
+  {
+    "id": "chem-s4-q02",
+    "chapter": "ch-08",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ-style",
+    "stem": "Which compound gives a yellow precipitate with iodine and NaOH?",
+    "options": [
+      "pentan-3-one",
+      "pentan-2-one",
+      "propanal",
+      "benzaldehyde"
+    ],
+    "answer": "B",
+    "model_answer": "**(b) pentan-2-one.** It has the $\\ce{CH3CO-}$ group.",
+    "source_note": "Expert Q&A Sheet 4 (Organic B), Q2"
+  },
+  {
+    "id": "chem-s4-q03",
+    "chapter": "ch-08",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 3,
+    "label": "PYQ-style",
+    "stem": "The strongest acid among the following is",
+    "options": [
+      "$\\ce{CH3COOH}$",
+      "$\\ce{ClCH2COOH}$",
+      "$\\ce{Cl2CHCOOH}$",
+      "$\\ce{Cl3CCOOH}$"
+    ],
+    "answer": "D",
+    "model_answer": "**(d) $\\ce{Cl3CCOOH}$.** Three Cl atoms give the largest $-I$ effect.",
+    "source_note": "Expert Q&A Sheet 4 (Organic B), Q3"
+  },
+  {
+    "id": "chem-s4-q04",
+    "chapter": "ch-08",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 3,
+    "label": "PYQ-style",
+    "stem": "Which reagent converts $>$ $\\ce{C=O}$ directly into $>$ $\\ce{CH2}$?",
+    "options": [
+      "$\\ce{LiAlH4}$",
+      "$\\ce{NaBH4}$",
+      "Zn–Hg / conc. HCl",
+      "PCC"
+    ],
+    "answer": "C",
+    "model_answer": "**(c) Zn–Hg / conc. HCl** (Clemmensen reduction).",
+    "source_note": "Expert Q&A Sheet 4 (Organic B), Q4"
+  },
+  {
+    "id": "chem-s4-q05",
+    "chapter": "ch-08",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 3,
+    "label": "PYQ-style",
+    "stem": "Which compound undergoes the Cannizzaro reaction?",
+    "options": [
+      "ethanal",
+      "propanone",
+      "propanal",
+      "benzaldehyde"
+    ],
+    "answer": "D",
+    "model_answer": "**(d) benzaldehyde.** It has no $\\alpha$-hydrogen.",
+    "source_note": "Expert Q&A Sheet 4 (Organic B), Q5"
+  },
+  {
+    "id": "chem-s4-q06",
+    "chapter": "ch-08",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 3,
+    "label": "PYQ-style",
+    "stem": "Benzoyl chloride, on hydrogenation over Pd supported on $\\ce{BaSO4}$, gives",
+    "options": [
+      "benzyl alcohol",
+      "benzaldehyde",
+      "benzoic acid",
+      "toluene"
+    ],
+    "answer": "B",
+    "model_answer": "**(b) benzaldehyde** (Rosenmund reduction).",
+    "source_note": "Expert Q&A Sheet 4 (Organic B), Q6"
+  },
+  {
+    "id": "chem-s4-q07",
+    "chapter": "ch-08",
+    "type": "ar",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ-style",
+    "stem": "**Assertion (A):** Aldehydes are more reactive than ketones towards nucleophilic addition.<br>**Reason (R):** The two alkyl groups of a ketone hinder the attack and reduce the positive charge on the carbonyl carbon.",
+    "options": [
+      "Both A and R are true, and R is the correct explanation of A.",
+      "Both A and R are true, but R is not the correct explanation of A.",
+      "A is true, but R is false.",
+      "A is false, but R is true."
+    ],
+    "answer": "A",
+    "model_answer": "**(a).**",
+    "source_note": "Expert Q&A Sheet 4 (Organic B), Q7"
+  },
+  {
+    "id": "chem-s4-q08",
+    "chapter": "ch-08",
+    "type": "ar",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ-style",
+    "stem": "**Assertion (A):** Carboxylic acids boil at higher temperatures than alcohols of comparable molar mass.<br>**Reason (R):** Carboxylic acid molecules cannot form hydrogen bonds with each other.",
+    "options": [
+      "Both A and R are true, and R is the correct explanation of A.",
+      "Both A and R are true, but R is not the correct explanation of A.",
+      "A is true, but R is false.",
+      "A is false, but R is true."
+    ],
+    "answer": "C",
+    "model_answer": "**(c).** They form *stronger* hydrogen bonds than alcohols and exist as dimers.",
+    "source_note": "Expert Q&A Sheet 4 (Organic B), Q8"
+  },
+  {
+    "id": "chem-s4-q09",
+    "chapter": "ch-08",
+    "type": "vsa2",
+    "marks": 2,
+    "stars": 3,
+    "label": "PYQ-style",
+    "stem": "Write one equation each for (i) Rosenmund reduction, (ii) Wolff–Kishner reduction.",
+    "model_answer": "(i) $\\ce{C6H5COCl + H2 ->[Pd / BaSO4] C6H5CHO + HCl}$ [1]<br>\n(ii) $\\ce{CH3COCH3 ->[(i) NH2NH2][(ii) KOH / ethylene glycol, \\Delta] CH3CH2CH3 + N2}$ [1]",
+    "scheme": [
+      {
+        "step": "(i) $\\ce{C6H5COCl + H2 ->[Pd / BaSO4] C6H5CHO + HCl}$",
+        "marks": 1
+      },
+      {
+        "step": "(ii) $\\ce{CH3COCH3 ->[(i) NH2NH2][(ii) KOH / ethylene glycol, \\Delta] CH3CH2CH3 + N2}$",
+        "marks": 1
+      }
+    ],
+    "source_note": "Expert Q&A Sheet 4 (Organic B), Q9"
+  },
+  {
+    "id": "chem-s4-q10",
+    "chapter": "ch-08",
+    "type": "vsa2",
+    "marks": 2,
+    "stars": 3,
+    "label": "PYQ-style",
+    "stem": "Give one chemical test each to distinguish (i) propanal and propanone, (ii) benzoic acid and phenol.",
+    "model_answer": "(i) **Tollens' test:** propanal gives a silver mirror; propanone does not. (Or iodoform test: propanone gives a yellow precipitate; propanal does not.) [1]<br>\n(ii) **$\\ce{NaHCO3}$ test:** benzoic acid gives brisk effervescence of $\\ce{CO2}$; phenol does not. (Or neutral $\\ce{FeCl3}$: phenol gives a violet colour.) [1]",
+    "scheme": [
+      {
+        "step": "(i) **Tollens' test:** propanal gives a silver mirror; propanone does not. (Or iodoform test: propanone gives a yellow precipitate; propanal does not.)",
+        "marks": 1
+      },
+      {
+        "step": "(ii) **$\\ce{NaHCO3}$ test:** benzoic acid gives brisk effervescence of $\\ce{CO2}$; phenol does not. (Or neutral $\\ce{FeCl3}$: phenol gives a violet colour.)",
+        "marks": 1
+      }
+    ],
+    "source_note": "Expert Q&A Sheet 4 (Organic B), Q10"
+  },
+  {
+    "id": "chem-s4-q11",
+    "chapter": "ch-08",
+    "type": "vsa2",
+    "marks": 2,
+    "stars": 3,
+    "label": "PYQ-style",
+    "stem": "Arrange as directed:<br>\n(i) benzoic acid, 4-nitrobenzoic acid, 4-methoxybenzoic acid (increasing acid strength)<br>\n(ii) ethanal, propanone, di-tert-butyl ketone, tert-butyl methyl ketone (increasing reactivity towards HCN)",
+    "model_answer": "(i) 4-methoxybenzoic acid $<$ benzoic acid $<$ 4-nitrobenzoic acid [1]<br>\n(ii) di-tert-butyl ketone $<$ tert-butyl methyl ketone $<$ propanone $<$ ethanal [1]",
+    "scheme": [
+      {
+        "step": "(i) 4-methoxybenzoic acid $<$ benzoic acid $<$ 4-nitrobenzoic acid",
+        "marks": 1
+      },
+      {
+        "step": "(ii) di-tert-butyl ketone $<$ tert-butyl methyl ketone $<$ propanone $<$ ethanal",
+        "marks": 1
+      }
+    ],
+    "source_note": "Expert Q&A Sheet 4 (Organic B), Q11"
+  },
+  {
+    "id": "chem-s4-q12",
+    "chapter": "ch-08",
+    "type": "vsa2",
+    "marks": 2,
+    "stars": 2,
+    "label": "PYQ-style",
+    "stem": "Give reasons: (i) the $\\alpha$-hydrogen atoms of aldehydes and ketones are acidic; (ii) chloroethanoic acid is a stronger acid than ethanoic acid.",
+    "model_answer": "(i) The carbonyl group withdraws electrons strongly, and the carbanion (enolate ion) left after losing the $\\alpha$-hydrogen is stabilised by resonance. [1]<br>\n(ii) Chlorine has a $-I$ effect; it disperses the negative charge of the carboxylate ion and stabilises it. [1]",
+    "scheme": [
+      {
+        "step": "(i) The carbonyl group withdraws electrons strongly, and the carbanion (enolate ion) left after losing the $\\alpha$-hydrogen is stabilised by resonance.",
+        "marks": 1
+      },
+      {
+        "step": "(ii) Chlorine has a $-I$ effect; it disperses the negative charge of the carboxylate ion and stabilises it.",
+        "marks": 1
+      }
+    ],
+    "source_note": "Expert Q&A Sheet 4 (Organic B), Q12"
+  },
+  {
+    "id": "chem-s4-q13",
+    "chapter": "ch-08",
+    "type": "sa3",
+    "marks": 3,
+    "stars": 2,
+    "label": "PYQ-style",
+    "stem": "Write the mechanism of the addition of HCN to a carbonyl compound. Why is a trace of base added?",
+    "model_answer": "**Step 1:** the base generates the nucleophile: $\\ce{HCN + OH- <=> CN- + H2O}$ [½]<br>\n**Step 2** (slow): $\\ce{CN-}$ attacks the electrophilic carbonyl carbon; the carbon changes from sp$^2$ to sp$^3$, giving a tetrahedral alkoxide intermediate $>$ $\\ce{C(O^-)CN}$ [1]<br>\n**Step 3** (fast): the intermediate takes a proton to give the cyanohydrin $>$ $\\ce{C(OH)CN}$ [½]<br>\nHCN is a weak acid and reacts very slowly on its own; the base produces $\\ce{CN-}$, a much stronger nucleophile, and speeds up the reaction. [1]",
+    "scheme": [
+      {
+        "step": "**Step 1:** the base generates the nucleophile: $\\ce{HCN + OH- <=> CN- + H2O}$",
+        "marks": 0.5
+      },
+      {
+        "step": "**Step 2** (slow): $\\ce{CN-}$ attacks the electrophilic carbonyl carbon; the carbon changes from sp$^2$ to sp$^3$, giving a tetrahedral alkoxide intermediate $>$ $\\ce{C(O^-)CN}$",
+        "marks": 1
+      },
+      {
+        "step": "**Step 3** (fast): the intermediate takes a proton to give the cyanohydrin $>$ $\\ce{C(OH)CN}$",
+        "marks": 0.5
+      },
+      {
+        "step": "HCN is a weak acid and reacts very slowly on its own; the base produces $\\ce{CN-}$, a much stronger nucleophile, and speeds up the reaction.",
+        "marks": 1
+      }
+    ],
+    "source_note": "Expert Q&A Sheet 4 (Organic B), Q13"
+  },
+  {
+    "id": "chem-s4-q14",
+    "chapter": "ch-08",
+    "type": "sa3",
+    "marks": 3,
+    "stars": 2,
+    "label": "PYQ-style",
+    "stem": "How will you carry out these conversions?<br>\n(i) ethanol to 3-hydroxybutanal   (ii) propanone to propene   (iii) bromobenzene to benzoic acid",
+    "model_answer": "(i) $\\ce{CH3CH2OH ->[PCC] CH3CHO ->[dil. NaOH] CH3CH(OH)CH2CHO}$ [1]<br>\n(ii) $\\ce{CH3COCH3 ->[NaBH4] CH3CH(OH)CH3 ->[conc. H2SO4][443 K] CH3CH=CH2}$ [1]<br>\n(iii) $\\ce{C6H5Br ->[Mg][dry ether] C6H5MgBr ->[(i) CO2 (dry ice)][(ii) H3O+] C6H5COOH}$ [1]",
+    "scheme": [
+      {
+        "step": "(i) $\\ce{CH3CH2OH ->[PCC] CH3CHO ->[dil. NaOH] CH3CH(OH)CH2CHO}$",
+        "marks": 1
+      },
+      {
+        "step": "(ii) $\\ce{CH3COCH3 ->[NaBH4] CH3CH(OH)CH3 ->[conc. H2SO4][443 K] CH3CH=CH2}$",
+        "marks": 1
+      },
+      {
+        "step": "(iii) $\\ce{C6H5Br ->[Mg][dry ether] C6H5MgBr ->[(i) CO2 (dry ice)][(ii) H3O+] C6H5COOH}$",
+        "marks": 1
+      }
+    ],
+    "source_note": "Expert Q&A Sheet 4 (Organic B), Q14"
+  },
+  {
+    "id": "chem-s4-q15",
+    "chapter": "ch-08",
+    "type": "sa3",
+    "marks": 3,
+    "stars": 3,
+    "label": "PYQ-style",
+    "stem": "Complete the reactions and name the organic products:<br>\n(i) $\\ce{CH3CHO + NH2OH ->[H+]}$<br>\n(ii) $\\ce{2C6H5CHO + NaOH(conc.) ->}$<br>\n(iii) $\\ce{CH3CH2COOH ->[(i) Br2 / red P][(ii) H2O]}$",
+    "model_answer": "(i) $\\ce{CH3CHO + NH2OH -> CH3CH=N-OH + H2O}$ — ethanal oxime [1]<br>\n(ii) $\\ce{2C6H5CHO + NaOH -> C6H5CH2OH + C6H5COONa}$ — benzyl alcohol and sodium benzoate (Cannizzaro) [1]<br>\n(iii) $\\ce{CH3CH2COOH -> CH3CH(Br)COOH}$ — 2-bromopropanoic acid (HVZ reaction) [1]",
+    "scheme": [
+      {
+        "step": "(i) $\\ce{CH3CHO + NH2OH -> CH3CH=N-OH + H2O}$ — ethanal oxime",
+        "marks": 1
+      },
+      {
+        "step": "(ii) $\\ce{2C6H5CHO + NaOH -> C6H5CH2OH + C6H5COONa}$ — benzyl alcohol and sodium benzoate (Cannizzaro)",
+        "marks": 1
+      },
+      {
+        "step": "(iii) $\\ce{CH3CH2COOH -> CH3CH(Br)COOH}$ — 2-bromopropanoic acid (HVZ reaction)",
+        "marks": 1
+      }
+    ],
+    "source_note": "Expert Q&A Sheet 4 (Organic B), Q15"
+  },
+  {
+    "id": "chem-s4-q16",
+    "chapter": "ch-08",
+    "type": "sa3",
+    "marks": 3,
+    "stars": 2,
+    "label": "PYQ-style",
+    "stem": "Give reasons:<br>\n(i) Benzoic acid does not undergo the Friedel–Crafts reaction.<br>\n(ii) Only one of the two $\\ce{-NH2}$ groups of semicarbazide reacts with carbonyl compounds.<br>\n(iii) Carboxylic acids are stronger acids than phenols.",
+    "model_answer": "(i) The $\\ce{-COOH}$ group deactivates the ring, and the catalyst $\\ce{AlCl3}$ (a Lewis acid) bonds to the carboxyl group. [1]<br>\n(ii) In $\\ce{H2N-NH-CO-NH2}$ the $\\ce{-NH2}$ attached directly to $\\ce{C=O}$ has its lone pair delocalised by resonance with the carbonyl group, so it is not nucleophilic; only the other $\\ce{-NH2}$ reacts. [1]<br>\n(iii) The carboxylate ion has two *equivalent* resonance structures with the negative charge on the two electronegative oxygen atoms. In phenoxide the structures are not equivalent and place charge on less electronegative carbon. So carboxylate is more stabilised. [1]",
+    "scheme": [
+      {
+        "step": "(i) The $\\ce{-COOH}$ group deactivates the ring, and the catalyst $\\ce{AlCl3}$ (a Lewis acid) bonds to the carboxyl group.",
+        "marks": 1
+      },
+      {
+        "step": "(ii) In $\\ce{H2N-NH-CO-NH2}$ the $\\ce{-NH2}$ attached directly to $\\ce{C=O}$ has its lone pair delocalised by resonance with the carbonyl group, so it is not nucleophilic; only the other $\\ce{-NH2}$ reacts.",
+        "marks": 1
+      },
+      {
+        "step": "(iii) The carboxylate ion has two *equivalent* resonance structures with the negative charge on the two electronegative oxygen atoms. In phenoxide the structures are not equivalent and place charge on less electronegative carbon. So carboxylate is more stabilised.",
+        "marks": 1
+      }
+    ],
+    "source_note": "Expert Q&A Sheet 4 (Organic B), Q16"
+  },
+  {
+    "id": "chem-s4-q17",
+    "chapter": "ch-08",
+    "type": "case",
+    "marks": 4,
+    "stars": 2,
+    "label": "PYQ-style",
+    "stem": "*Simple test-tube reactions pick out oxygen-containing functional groups. 2,4-Dinitrophenylhydrazine gives a yellow-orange precipitate with any aldehyde or ketone. Tollens' reagent is reduced to a silver mirror by aldehydes only. Iodine with NaOH gives yellow iodoform with compounds having a $\\ce{CH3CO-}$ group or a $\\ce{CH3CH(OH)-}$ group. Sodium hydrogencarbonate gives brisk effervescence with carboxylic acids.*",
+    "parts": [
+      {
+        "id": "i",
+        "stem": "A compound gives a precipitate with 2,4-DNP but no silver mirror with Tollens' reagent. What class of compound is it?",
+        "marks": 1,
+        "model_answer": "A **ketone**. [1]",
+        "scheme": [
+          {
+            "step": "A **ketone**.",
+            "marks": 1
+          }
+        ]
+      },
+      {
+        "id": "ii",
+        "stem": "Which of ethanol and propan-1-ol gives the iodoform test, and why?",
+        "marks": 1,
+        "model_answer": "**Ethanol**: it has the $\\ce{CH3CH(OH)-}$ unit, which NaOI oxidises to $\\ce{CH3CHO}$ (a $\\ce{CH3CO-}$ compound). Propan-1-ol has no such unit. [1]",
+        "scheme": [
+          {
+            "step": "**Ethanol**: it has the $\\ce{CH3CH(OH)-}$ unit, which NaOI oxidises to $\\ce{CH3CHO}$ (a $\\ce{CH3CO-}$ compound). Propan-1-ol has no such unit.",
+            "marks": 1
+          }
+        ]
+      },
+      {
+        "id": "iii",
+        "stem": "Write the equation for the reaction of propanal with Tollens' reagent and state the observation.<br>**OR**<br>Give a test, with equation, to distinguish acetophenone from benzophenone.",
+        "marks": 2,
+        "model_answer": "$\\ce{CH3CH2CHO + 2[Ag(NH3)2]+ + 3OH- ->}$ $\\ce{CH3CH2COO- + 2Ag v + 2H2O + 4NH3}$ [1½]<br>\nA bright silver mirror forms on the wall of the test tube. [½]\n\n**OR**\n\n**Iodoform test:** acetophenone gives a yellow precipitate of $\\ce{CHI3}$; benzophenone (no $\\ce{CH3CO-}$ group) does not. [1]<br>\n$\\ce{C6H5COCH3 + 3NaOI -> C6H5COONa + CHI3 v + 2NaOH}$ [1]",
+        "scheme": [
+          {
+            "step": "$\\ce{CH3CH2CHO + 2[Ag(NH3)2]+ + 3OH- ->}$ $\\ce{CH3CH2COO- + 2Ag v + 2H2O + 4NH3}$",
+            "marks": 1.5
+          },
+          {
+            "step": "A bright silver mirror forms on the wall of the test tube.",
+            "marks": 0.5
+          }
+        ]
+      }
+    ],
+    "source_note": "Expert Q&A Sheet 4 (Organic B), Q17"
+  },
+  {
+    "id": "chem-s4-q18",
+    "chapter": "ch-08",
+    "type": "la5",
+    "marks": 5,
+    "stars": 3,
+    "label": "PYQ-style",
+    "stem": "An organic compound A ($\\ce{C8H8O}$) gives an orange-red precipitate with 2,4-DNP reagent and a yellow precipitate on heating with iodine and sodium hydroxide. It neither reduces Tollens' or Fehling's reagent nor decolourises bromine water. On drastic oxidation with chromic acid it gives a carboxylic acid B ($\\ce{C7H6O2}$). Identify A and B and explain the reactions.",
+    "model_answer": "**Reasoning.** Precipitate with 2,4-DNP ⇒ a carbonyl group. Yellow precipitate with $\\ce{I2}$/NaOH ⇒ a $\\ce{CH3CO-}$ group. No reaction with Tollens' or Fehling's ⇒ a ketone, not an aldehyde. No decolourisation of bromine water although the formula is highly unsaturated ⇒ a benzene ring. [1]<br>\n**A = acetophenone (1-phenylethanone), $\\ce{C6H5COCH3}$** [1]<br>\n**B = benzoic acid, $\\ce{C6H5COOH}$** [1]<br>\n$\\ce{C6H5COCH3}$ + 2,4-DNP $\\ce{->}$<br>\n$\\ce{C6H5C(CH3)=N-NH-C6H3(NO2)2}$ + $\\ce{H2O}$ (orange-red 2,4-dinitrophenylhydrazone) [½]<br>\n$\\ce{C6H5COCH3 + 3NaOI -> C6H5COONa + CHI3 + 2NaOH}$ [1]<br>\n$\\ce{C6H5COCH3 ->[H2CrO4] C6H5COOH}$ [½]",
+    "scheme": [
+      {
+        "step": "**Reasoning.** Precipitate with 2,4-DNP ⇒ a carbonyl group. Yellow precipitate with $\\ce{I2}$/NaOH ⇒ a $\\ce{CH3CO-}$ group. No reaction with Tollens' or Fehling's ⇒ a ketone, not an aldehyde. No decolourisation of bromine water although the formula is highly unsaturated ⇒ a benzene ring.",
+        "marks": 1
+      },
+      {
+        "step": "**A = acetophenone (1-phenylethanone), $\\ce{C6H5COCH3}$**",
+        "marks": 1
+      },
+      {
+        "step": "**B = benzoic acid, $\\ce{C6H5COOH}$**",
+        "marks": 1
+      },
+      {
+        "step": "$\\ce{C6H5COCH3}$ + 2,4-DNP $\\ce{->}$ $\\ce{C6H5C(CH3)=N-NH-C6H3(NO2)2}$ + $\\ce{H2O}$ (orange-red 2,4-dinitrophenylhydrazone)",
+        "marks": 0.5
+      },
+      {
+        "step": "$\\ce{C6H5COCH3 + 3NaOI -> C6H5COONa + CHI3 + 2NaOH}$",
+        "marks": 1
+      },
+      {
+        "step": "$\\ce{C6H5COCH3 ->[H2CrO4] C6H5COOH}$",
+        "marks": 0.5
+      }
+    ],
+    "source_note": "Expert Q&A Sheet 4 (Organic B), Q18"
+  },
+  {
+    "id": "chem-s4-q19",
+    "chapter": "ch-08",
+    "type": "la5",
+    "marks": 5,
+    "stars": 3,
+    "label": "PYQ-style",
+    "stem": "(a) Write the structures and names of the products formed when propanal is treated with dilute NaOH and the product is then heated. [2]<br>\n(b) Write the product of the reaction of benzaldehyde with acetophenone in dilute NaOH at 293 K. [1]<br>\n(c) Give reasons: (i) methanal undergoes the Cannizzaro reaction but ethanal does not; (ii) methanoic acid is a stronger acid than ethanoic acid. [2]",
+    "model_answer": "(a) $\\ce{2CH3CH2CHO ->[dil. NaOH]}$<br>\n$\\ce{CH3CH2CH(OH)CH(CH3)CHO}$ — 3-hydroxy-2-methylpentanal [1]<br>\n$\\ce{->[\\Delta][-H2O] CH3CH2CH=C(CH3)CHO}$ — 2-methylpent-2-enal [1]<br>\n(b) $\\ce{C6H5CHO + C6H5COCH3 ->[dil. NaOH][293 K]}$<br>\n$\\ce{C6H5CH=CH-CO-C6H5 + H2O}$ — 1,3-diphenylprop-2-en-1-one (benzalacetophenone); a cross aldol condensation. [1]<br>\n(c)(i) Methanal has no $\\alpha$-hydrogen, so with concentrated alkali it disproportionates (Cannizzaro). Ethanal has $\\alpha$-hydrogens and undergoes aldol condensation instead. [1]<br>\n(ii) The $\\ce{-CH3}$ group of ethanoic acid has a +I effect, which intensifies the negative charge on the carboxylate ion and destabilises it; methanoate has no such group. [1]",
+    "scheme": [
+      {
+        "step": "(a) $\\ce{2CH3CH2CHO ->[dil. NaOH]}$ $\\ce{CH3CH2CH(OH)CH(CH3)CHO}$ — 3-hydroxy-2-methylpentanal",
+        "marks": 1
+      },
+      {
+        "step": "$\\ce{->[\\Delta][-H2O] CH3CH2CH=C(CH3)CHO}$ — 2-methylpent-2-enal",
+        "marks": 1
+      },
+      {
+        "step": "(b) $\\ce{C6H5CHO + C6H5COCH3 ->[dil. NaOH][293 K]}$ $\\ce{C6H5CH=CH-CO-C6H5 + H2O}$ — 1,3-diphenylprop-2-en-1-one (benzalacetophenone); a cross aldol condensation.",
+        "marks": 1
+      },
+      {
+        "step": "(c)(i) Methanal has no $\\alpha$-hydrogen, so with concentrated alkali it disproportionates (Cannizzaro). Ethanal has $\\alpha$-hydrogens and undergoes aldol condensation instead.",
+        "marks": 1
+      },
+      {
+        "step": "(ii) The $\\ce{-CH3}$ group of ethanoic acid has a +I effect, which intensifies the negative charge on the carboxylate ion and destabilises it; methanoate has no such group.",
+        "marks": 1
+      }
+    ],
+    "source_note": "Expert Q&A Sheet 4 (Organic B), Q19"
+  }
+]

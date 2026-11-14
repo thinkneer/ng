@@ -1,0 +1,236 @@
+[
+  {
+    "id": "chem-s3-q04",
+    "chapter": "ch-07",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ-style",
+    "stem": "Which alcohol gives turbidity *immediately* with Lucas reagent?",
+    "options": [
+      "butan-1-ol",
+      "butan-2-ol",
+      "2-methylpropan-2-ol",
+      "2-methylpropan-1-ol"
+    ],
+    "answer": "C",
+    "model_answer": "**(c) 2-methylpropan-2-ol** (a 3$^\\circ$ alcohol).",
+    "source_note": "Expert Q&A Sheet 3 (Organic A), Q4"
+  },
+  {
+    "id": "chem-s3-q05",
+    "chapter": "ch-07",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ-style",
+    "stem": "Phenol reacts with bromine water to give",
+    "options": [
+      "2-bromophenol",
+      "4-bromophenol",
+      "2,4-dibromophenol",
+      "2,4,6-tribromophenol"
+    ],
+    "answer": "D",
+    "model_answer": "**(d) 2,4,6-tribromophenol** (white precipitate).",
+    "source_note": "Expert Q&A Sheet 3 (Organic A), Q5"
+  },
+  {
+    "id": "chem-s3-q06",
+    "chapter": "ch-07",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 3,
+    "label": "PYQ-style",
+    "stem": "The strongest acid among the following is",
+    "options": [
+      "phenol",
+      "4-methylphenol",
+      "4-nitrophenol",
+      "ethanol"
+    ],
+    "answer": "C",
+    "model_answer": "**(c) 4-nitrophenol.** $\\ce{-NO2}$ withdraws electrons and stabilises the phenoxide ion.",
+    "source_note": "Expert Q&A Sheet 3 (Organic A), Q6"
+  },
+  {
+    "id": "chem-s3-q07",
+    "chapter": "ch-07",
+    "type": "ar",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ-style",
+    "stem": "**Assertion (A):** Ethanol boils at a higher temperature than methoxymethane.<br>**Reason (R):** Ethanol molecules are associated through intermolecular hydrogen bonds.",
+    "options": [
+      "Both A and R are true, and R is the correct explanation of A.",
+      "Both A and R are true, but R is not the correct explanation of A.",
+      "A is true, but R is false.",
+      "A is false, but R is true."
+    ],
+    "answer": "A",
+    "model_answer": "**(a).**",
+    "source_note": "Expert Q&A Sheet 3 (Organic A), Q7"
+  },
+  {
+    "id": "chem-s3-q11",
+    "chapter": "ch-07",
+    "type": "vsa2",
+    "marks": 2,
+    "stars": 3,
+    "label": "PYQ-style",
+    "stem": "Write the equations for (i) Kolbe's reaction, (ii) the Reimer–Tiemann reaction.",
+    "model_answer": "(i) Sodium phenoxide $\\xrightarrow[\\text{(ii) H}^+]{\\text{(i) CO}_2,\\ 400\\text{ K},\\ 4\\text{--}7\\text{ atm}}$ 2-hydroxybenzoic acid (salicylic acid) [1]<br>\n(ii) Phenol $\\xrightarrow[\\text{(ii) H}^+]{\\text{(i) CHCl}_3\\text{ + aq. NaOH},\\ 340\\text{ K}}$ 2-hydroxybenzaldehyde (salicylaldehyde) [1]<br>\nIn the exam, draw the benzene rings with –OH and the new group at the ortho position.",
+    "scheme": [
+      {
+        "step": "(i) Sodium phenoxide $\\xrightarrow[\\text{(ii) H}^+]{\\text{(i) CO}_2,\\ 400\\text{ K},\\ 4\\text{--}7\\text{ atm}}$ 2-hydroxybenzoic acid (salicylic acid)",
+        "marks": 1
+      },
+      {
+        "step": "(ii) Phenol $\\xrightarrow[\\text{(ii) H}^+]{\\text{(i) CHCl}_3\\text{ + aq. NaOH},\\ 340\\text{ K}}$ 2-hydroxybenzaldehyde (salicylaldehyde)",
+        "marks": 1
+      }
+    ],
+    "source_note": "Expert Q&A Sheet 3 (Organic A), Q11"
+  },
+  {
+    "id": "chem-s3-q12",
+    "chapter": "ch-07",
+    "type": "vsa2",
+    "marks": 2,
+    "stars": 2,
+    "label": "PYQ-style",
+    "stem": "Give reasons: (i) o-nitrophenol is steam-volatile but p-nitrophenol is not; (ii) Grignard reagents must be prepared under anhydrous conditions.",
+    "model_answer": "(i) o-Nitrophenol has *intra*molecular hydrogen bonding, so its molecules are not associated and it is volatile; p-nitrophenol has *inter*molecular hydrogen bonding, so its molecules are associated. [1]<br>\n(ii) Grignard reagents react with water (any proton source) to give alkanes: $\\ce{RMgX + H2O -> RH + Mg(OH)X}$. [1]",
+    "scheme": [
+      {
+        "step": "(i) o-Nitrophenol has *intra*molecular hydrogen bonding, so its molecules are not associated and it is volatile; p-nitrophenol has *inter*molecular hydrogen bonding, so its molecules are associated.",
+        "marks": 1
+      },
+      {
+        "step": "(ii) Grignard reagents react with water (any proton source) to give alkanes: $\\ce{RMgX + H2O -> RH + Mg(OH)X}$.",
+        "marks": 1
+      }
+    ],
+    "source_note": "Expert Q&A Sheet 3 (Organic A), Q12"
+  },
+  {
+    "id": "chem-s3-q13",
+    "chapter": "ch-07",
+    "type": "sa3",
+    "marks": 3,
+    "stars": 3,
+    "label": "PYQ-style",
+    "stem": "Write the mechanism of the acid-catalysed hydration of ethene to ethanol.",
+    "model_answer": "**Step 1** — protonation of the alkene by $\\ce{H3O+}$ to form a carbocation:<br>\n$\\ce{CH2=CH2 + H3O+ -> CH3-CH2+ + H2O}$ [1]<br>\n**Step 2** — nucleophilic attack of water on the carbocation:<br>\n$\\ce{CH3-CH2+ + H2O -> CH3-CH2-OH2+}$ [1]<br>\n**Step 3** — deprotonation to give the alcohol:<br>\n$\\ce{CH3-CH2-OH2+ + H2O -> CH3CH2OH + H3O+}$ [1]",
+    "scheme": [
+      {
+        "step": "**Step 1** — protonation of the alkene by $\\ce{H3O+}$ to form a carbocation: $\\ce{CH2=CH2 + H3O+ -> CH3-CH2+ + H2O}$",
+        "marks": 1
+      },
+      {
+        "step": "**Step 2** — nucleophilic attack of water on the carbocation: $\\ce{CH3-CH2+ + H2O -> CH3-CH2-OH2+}$",
+        "marks": 1
+      },
+      {
+        "step": "**Step 3** — deprotonation to give the alcohol: $\\ce{CH3-CH2-OH2+ + H2O -> CH3CH2OH + H3O+}$",
+        "marks": 1
+      }
+    ],
+    "source_note": "Expert Q&A Sheet 3 (Organic A), Q13"
+  },
+  {
+    "id": "chem-s3-q16",
+    "chapter": "ch-07",
+    "type": "sa3",
+    "marks": 3,
+    "stars": 2,
+    "label": "PYQ-style",
+    "stem": "(a) Write the products of (i) $\\ce{(CH3)3C-O-CH3 + HI}$, (ii) $\\ce{C6H5-O-CH3 + HI}$. [2]<br>\n(b) Why can't tert-butyl methyl ether be made from $\\ce{(CH3)3C-Br}$ and $\\ce{CH3ONa}$? [1]",
+    "model_answer": "(a) (i) $\\ce{(CH3)3C-O-CH3 + HI -> (CH3)3C-I + CH3OH}$ (S$_\\text{N}$1 through the stable 3$^\\circ$ carbocation) [1]<br>\n(ii) $\\ce{C6H5-O-CH3 + HI -> C6H5OH + CH3I}$ (the O–aryl bond has partial double-bond character and is not broken) [1]<br>\n(b) Methoxide is a strong base; with a 3$^\\circ$ halide, elimination wins over substitution and 2-methylpropene is formed. The ether is made from $\\ce{(CH3)3C-ONa + CH3Br}$ instead. [1]",
+    "scheme": [
+      {
+        "step": "(a) (i) $\\ce{(CH3)3C-O-CH3 + HI -> (CH3)3C-I + CH3OH}$ (S$_\\text{N}$1 through the stable 3$^\\circ$ carbocation)",
+        "marks": 1
+      },
+      {
+        "step": "(ii) $\\ce{C6H5-O-CH3 + HI -> C6H5OH + CH3I}$ (the O–aryl bond has partial double-bond character and is not broken)",
+        "marks": 1
+      },
+      {
+        "step": "(b) Methoxide is a strong base; with a 3$^\\circ$ halide, elimination wins over substitution and 2-methylpropene is formed. The ether is made from $\\ce{(CH3)3C-ONa + CH3Br}$ instead.",
+        "marks": 1
+      }
+    ],
+    "source_note": "Expert Q&A Sheet 3 (Organic A), Q16"
+  },
+  {
+    "id": "chem-s3-q18",
+    "chapter": "ch-07",
+    "type": "la5",
+    "marks": 5,
+    "stars": 2,
+    "label": "PYQ-style",
+    "stem": "Compound A ($\\ce{C3H8O}$) gives turbidity with Lucas reagent in about five minutes. When vapours of A are passed over copper at 573 K, B ($\\ce{C3H6O}$) is formed. Heating A with conc. $\\ce{H2SO4}$ at 443 K gives C ($\\ce{C3H6}$). C adds HBr to give D, and D gives back A with aqueous KOH. D reacts with sodium in dry ether to give E ($\\ce{C6H14}$). Identify A to E and write the equations.",
+    "model_answer": "Turbidity in about five minutes ⇒ A is a secondary alcohol.<br>\n**A = propan-2-ol**, $\\ce{CH3CH(OH)CH3}$   **B = propanone**, $\\ce{CH3COCH3}$<br>\n**C = propene**, $\\ce{CH3CH=CH2}$   **D = 2-bromopropane**, $\\ce{CH3CH(Br)CH3}$<br>\n**E = 2,3-dimethylbutane**, $\\ce{(CH3)2CH-CH(CH3)2}$ [½ each = 2½]<br>\n$\\ce{CH3CH(OH)CH3 ->[Cu][573 K] CH3COCH3 + H2}$ [½]<br>\n$\\ce{CH3CH(OH)CH3 ->[conc. H2SO4][443 K] CH3CH=CH2 + H2O}$ [½]<br>\n$\\ce{CH3CH=CH2 + HBr -> CH3CH(Br)CH3}$ (Markovnikov) [½]<br>\n$\\ce{CH3CH(Br)CH3 + KOH(aq) -> CH3CH(OH)CH3 + KBr}$ [½]<br>\n$\\ce{2CH3CH(Br)CH3 + 2Na ->[dry ether] (CH3)2CH-CH(CH3)2 + 2NaBr}$ [½]",
+    "scheme": [
+      {
+        "step": "Turbidity in about five minutes ⇒ A is a secondary alcohol. **A = propan-2-ol**, $\\ce{CH3CH(OH)CH3}$   **B = propanone**, $\\ce{CH3COCH3}$ **C = propene**, $\\ce{CH3CH=CH2}$   **D = 2-bromopropane**, $\\ce{CH3CH(Br)CH3}$ **E = 2,3-dimethylbutane**, $\\ce{(CH3)2CH-CH(CH3)2}$",
+        "marks": 2.5
+      },
+      {
+        "step": "$\\ce{CH3CH(OH)CH3 ->[Cu][573 K] CH3COCH3 + H2}$",
+        "marks": 0.5
+      },
+      {
+        "step": "$\\ce{CH3CH(OH)CH3 ->[conc. H2SO4][443 K] CH3CH=CH2 + H2O}$",
+        "marks": 0.5
+      },
+      {
+        "step": "$\\ce{CH3CH=CH2 + HBr -> CH3CH(Br)CH3}$ (Markovnikov)",
+        "marks": 0.5
+      },
+      {
+        "step": "$\\ce{CH3CH(Br)CH3 + KOH(aq) -> CH3CH(OH)CH3 + KBr}$",
+        "marks": 0.5
+      },
+      {
+        "step": "$\\ce{2CH3CH(Br)CH3 + 2Na ->[dry ether] (CH3)2CH-CH(CH3)2 + 2NaBr}$",
+        "marks": 0.5
+      }
+    ],
+    "source_note": "Expert Q&A Sheet 3 (Organic A), Q18"
+  },
+  {
+    "id": "chem-s3-q19",
+    "chapter": "ch-07",
+    "type": "la5",
+    "marks": 5,
+    "stars": 3,
+    "label": "PYQ-style",
+    "stem": "(a) Arrange ethanol, phenol, 4-methylphenol and 4-nitrophenol in increasing order of acid strength and explain the order. [2]<br>\n(b) Write equations for what happens when: (i) phenol is heated with zinc dust; (ii) propan-1-ol is oxidised with PCC; (iii) anisole is treated with $\\ce{CH3Cl}$ and anhydrous $\\ce{AlCl3}$. [3]",
+    "model_answer": "(a) ethanol $<$ 4-methylphenol $<$ phenol $<$ 4-nitrophenol [1]<br>\nPhenols are more acidic than ethanol because the phenoxide ion is stabilised by resonance; ethoxide is not. $\\ce{-NO2}$ ($-I$, $-R$) spreads the negative charge further and raises acidity; $\\ce{-CH3}$ (+I) intensifies the charge and lowers it. [1]<br>\n(b) (i) $\\ce{C6H5OH + Zn ->[\\Delta] C6H6 + ZnO}$ [1]<br>\n(ii) $\\ce{CH3CH2CH2OH ->[PCC] CH3CH2CHO}$ (propanal; oxidation stops at the aldehyde) [1]<br>\n(iii) $\\ce{C6H5OCH3 + CH3Cl ->[anhyd. AlCl3]}$ 4-methoxytoluene (major) + 2-methoxytoluene (minor) + HCl [1]",
+    "scheme": [
+      {
+        "step": "(a) ethanol $<$ 4-methylphenol $<$ phenol $<$ 4-nitrophenol",
+        "marks": 1
+      },
+      {
+        "step": "Phenols are more acidic than ethanol because the phenoxide ion is stabilised by resonance; ethoxide is not. $\\ce{-NO2}$ ($-I$, $-R$) spreads the negative charge further and raises acidity; $\\ce{-CH3}$ (+I) intensifies the charge and lowers it.",
+        "marks": 1
+      },
+      {
+        "step": "(b) (i) $\\ce{C6H5OH + Zn ->[\\Delta] C6H6 + ZnO}$",
+        "marks": 1
+      },
+      {
+        "step": "(ii) $\\ce{CH3CH2CH2OH ->[PCC] CH3CH2CHO}$ (propanal; oxidation stops at the aldehyde)",
+        "marks": 1
+      },
+      {
+        "step": "(iii) $\\ce{C6H5OCH3 + CH3Cl ->[anhyd. AlCl3]}$ 4-methoxytoluene (major) + 2-methoxytoluene (minor) + HCl",
+        "marks": 1
+      }
+    ],
+    "source_note": "Expert Q&A Sheet 3 (Organic A), Q19"
+  }
+]

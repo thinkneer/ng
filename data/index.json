@@ -833,12 +833,49 @@
                       "number": 6,
                       "title": "Haloalkanes and Haloarenes",
                       "unit": "6",
-                      "items": {},
-                      "marks_hint": null,
-                      "summary": null,
-                      "pdfs": [],
-                      "questions": 0,
-                      "question_types": {}
+                      "items": {
+                        "notes": true,
+                        "formulas": true,
+                        "questions": true
+                      },
+                      "marks_hint": "6 marks (unit weightage, CBSE 2026–27)",
+                      "summary": "Preparation · S$_\\text{N}$1/S$_\\text{N}$2 · stereochemistry · elimination · metals · haloarenes · polyhalogen compounds",
+                      "pdfs": [
+                        {
+                          "title": "Must-have notes: Batch 3 (Organic)",
+                          "path": "pdfs/class-12/chemistry/chemistry-notes-batch3-organic.pdf",
+                          "page": 2
+                        },
+                        {
+                          "title": "Formula & facts sheet: Part 3 (Organic)",
+                          "path": "pdfs/class-12/chemistry/chemistry-formula-sheet-part3-organic.pdf",
+                          "page": 1
+                        },
+                        {
+                          "title": "Organic revision tables: named reactions, tests, orders, conversions",
+                          "path": "pdfs/class-12/chemistry/chemistry-formula-sheet-part3-organic.pdf",
+                          "page": 4
+                        },
+                        {
+                          "title": "Expert Q&A Sheet 3 (Organic A): questions, answers on the next page",
+                          "path": "pdfs/class-12/chemistry/chemistry-qa-sheet3-organic-a.pdf",
+                          "page": 1
+                        },
+                        {
+                          "title": "CBSE sample paper 2026–27: our solutions (Sheet 6)",
+                          "path": "pdfs/class-12/chemistry/chemistry-qa-sheet6-sqp-2026-27-solutions.pdf",
+                          "page": 1
+                        }
+                      ],
+                      "questions": 9,
+                      "question_types": {
+                        "mcq": 3,
+                        "ar": 1,
+                        "vsa2": 2,
+                        "sa3": 2,
+                        "case": 1
+                      },
+                      "diagrams": []
                     }
                   ]
                 },
@@ -854,12 +891,49 @@
                       "number": 7,
                       "title": "Alcohols, Phenols and Ethers",
                       "unit": "7",
-                      "items": {},
-                      "marks_hint": null,
-                      "summary": null,
-                      "pdfs": [],
-                      "questions": 0,
-                      "question_types": {}
+                      "items": {
+                        "notes": true,
+                        "formulas": true,
+                        "questions": true
+                      },
+                      "marks_hint": "6 marks (unit weightage, CBSE 2026–27)",
+                      "summary": "Preparation · acidity · reactions of alcohols & phenol · mechanisms · ethers · commercially important alcohols",
+                      "pdfs": [
+                        {
+                          "title": "Must-have notes: Batch 3 (Organic)",
+                          "path": "pdfs/class-12/chemistry/chemistry-notes-batch3-organic.pdf",
+                          "page": 4
+                        },
+                        {
+                          "title": "Formula & facts sheet: Part 3 (Organic)",
+                          "path": "pdfs/class-12/chemistry/chemistry-formula-sheet-part3-organic.pdf",
+                          "page": 1
+                        },
+                        {
+                          "title": "Organic revision tables: named reactions, tests, orders, conversions",
+                          "path": "pdfs/class-12/chemistry/chemistry-formula-sheet-part3-organic.pdf",
+                          "page": 4
+                        },
+                        {
+                          "title": "Expert Q&A Sheet 3 (Organic A): questions, answers on the next page",
+                          "path": "pdfs/class-12/chemistry/chemistry-qa-sheet3-organic-a.pdf",
+                          "page": 1
+                        },
+                        {
+                          "title": "CBSE sample paper 2026–27: our solutions (Sheet 6)",
+                          "path": "pdfs/class-12/chemistry/chemistry-qa-sheet6-sqp-2026-27-solutions.pdf",
+                          "page": 1
+                        }
+                      ],
+                      "questions": 10,
+                      "question_types": {
+                        "mcq": 3,
+                        "ar": 1,
+                        "vsa2": 2,
+                        "sa3": 2,
+                        "la5": 2
+                      },
+                      "diagrams": []
                     }
                   ]
                 },
@@ -875,12 +949,50 @@
                       "number": 8,
                       "title": "Aldehydes, Ketones and Carboxylic Acids",
                       "unit": "8",
-                      "items": {},
-                      "marks_hint": null,
-                      "summary": null,
-                      "pdfs": [],
-                      "questions": 0,
-                      "question_types": {}
+                      "items": {
+                        "notes": true,
+                        "formulas": true,
+                        "questions": true
+                      },
+                      "marks_hint": "8 marks (unit weightage, CBSE 2026–27)",
+                      "summary": "Preparation · nucleophilic addition · NH$_2$–Z derivatives · reductions · tests · α-H reactions · acids: acidity & reactions",
+                      "pdfs": [
+                        {
+                          "title": "Must-have notes: Batch 3 (Organic)",
+                          "path": "pdfs/class-12/chemistry/chemistry-notes-batch3-organic.pdf",
+                          "page": 6
+                        },
+                        {
+                          "title": "Formula & facts sheet: Part 3 (Organic)",
+                          "path": "pdfs/class-12/chemistry/chemistry-formula-sheet-part3-organic.pdf",
+                          "page": 2
+                        },
+                        {
+                          "title": "Organic revision tables: named reactions, tests, orders, conversions",
+                          "path": "pdfs/class-12/chemistry/chemistry-formula-sheet-part3-organic.pdf",
+                          "page": 4
+                        },
+                        {
+                          "title": "Expert Q&A Sheet 4 (Organic B): questions, answers on the next page",
+                          "path": "pdfs/class-12/chemistry/chemistry-qa-sheet4-organic-b.pdf",
+                          "page": 1
+                        },
+                        {
+                          "title": "CBSE sample paper 2026–27: our solutions (Sheet 6)",
+                          "path": "pdfs/class-12/chemistry/chemistry-qa-sheet6-sqp-2026-27-solutions.pdf",
+                          "page": 1
+                        }
+                      ],
+                      "questions": 19,
+                      "question_types": {
+                        "mcq": 6,
+                        "ar": 2,
+                        "vsa2": 4,
+                        "sa3": 4,
+                        "case": 1,
+                        "la5": 2
+                      },
+                      "diagrams": []
                     }
                   ]
                 },
@@ -896,12 +1008,49 @@
                       "number": 9,
                       "title": "Amines",
                       "unit": "9",
-                      "items": {},
-                      "marks_hint": null,
-                      "summary": null,
-                      "pdfs": [],
-                      "questions": 0,
-                      "question_types": {}
+                      "items": {
+                        "notes": true,
+                        "formulas": true,
+                        "questions": true
+                      },
+                      "marks_hint": "6 marks (unit weightage, CBSE 2026–27)",
+                      "summary": "Preparation · basicity · reactions · aniline substitution · diazonium salts · conversions",
+                      "pdfs": [
+                        {
+                          "title": "Must-have notes: Batch 3 (Organic)",
+                          "path": "pdfs/class-12/chemistry/chemistry-notes-batch3-organic.pdf",
+                          "page": 8
+                        },
+                        {
+                          "title": "Formula & facts sheet: Part 3 (Organic)",
+                          "path": "pdfs/class-12/chemistry/chemistry-formula-sheet-part3-organic.pdf",
+                          "page": 2
+                        },
+                        {
+                          "title": "Organic revision tables: named reactions, tests, orders, conversions",
+                          "path": "pdfs/class-12/chemistry/chemistry-formula-sheet-part3-organic.pdf",
+                          "page": 4
+                        },
+                        {
+                          "title": "Expert Q&A Sheet 5 (Organic C): questions, answers on the next page",
+                          "path": "pdfs/class-12/chemistry/chemistry-qa-sheet5-organic-c.pdf",
+                          "page": 1
+                        },
+                        {
+                          "title": "CBSE sample paper 2026–27: our solutions (Sheet 6)",
+                          "path": "pdfs/class-12/chemistry/chemistry-qa-sheet6-sqp-2026-27-solutions.pdf",
+                          "page": 1
+                        }
+                      ],
+                      "questions": 11,
+                      "question_types": {
+                        "mcq": 3,
+                        "ar": 1,
+                        "vsa2": 3,
+                        "sa3": 3,
+                        "la5": 1
+                      },
+                      "diagrams": []
                     }
                   ]
                 },
@@ -917,12 +1066,50 @@
                       "number": 10,
                       "title": "Biomolecules",
                       "unit": "10",
-                      "items": {},
-                      "marks_hint": null,
-                      "summary": null,
-                      "pdfs": [],
-                      "questions": 0,
-                      "question_types": {}
+                      "items": {
+                        "notes": true,
+                        "formulas": true,
+                        "questions": true
+                      },
+                      "marks_hint": "7 marks (unit weightage, CBSE 2026–27)",
+                      "summary": "Carbohydrates · glucose structure · disaccharides & polysaccharides · proteins · enzymes · vitamins · nucleic acids · hormones",
+                      "pdfs": [
+                        {
+                          "title": "Must-have notes: Batch 3 (Organic)",
+                          "path": "pdfs/class-12/chemistry/chemistry-notes-batch3-organic.pdf",
+                          "page": 10
+                        },
+                        {
+                          "title": "Formula & facts sheet: Part 3 (Organic)",
+                          "path": "pdfs/class-12/chemistry/chemistry-formula-sheet-part3-organic.pdf",
+                          "page": 3
+                        },
+                        {
+                          "title": "Organic revision tables: named reactions, tests, orders, conversions",
+                          "path": "pdfs/class-12/chemistry/chemistry-formula-sheet-part3-organic.pdf",
+                          "page": 4
+                        },
+                        {
+                          "title": "Expert Q&A Sheet 5 (Organic C): questions, answers on the next page",
+                          "path": "pdfs/class-12/chemistry/chemistry-qa-sheet5-organic-c.pdf",
+                          "page": 1
+                        },
+                        {
+                          "title": "CBSE sample paper 2026–27: our solutions (Sheet 6)",
+                          "path": "pdfs/class-12/chemistry/chemistry-qa-sheet6-sqp-2026-27-solutions.pdf",
+                          "page": 1
+                        }
+                      ],
+                      "questions": 8,
+                      "question_types": {
+                        "mcq": 3,
+                        "ar": 1,
+                        "vsa2": 1,
+                        "sa3": 1,
+                        "case": 1,
+                        "la5": 1
+                      },
+                      "diagrams": []
                     }
                   ]
                 }
@@ -947,9 +1134,9 @@
               },
               "papers": [],
               "counts": {
-                "notes": 5,
-                "formulas": 5,
-                "questions": 5,
+                "notes": 10,
+                "formulas": 10,
+                "questions": 10,
                 "chapters": 10
               }
             },

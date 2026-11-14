@@ -1,0 +1,218 @@
+[
+  {
+    "id": "chem-s3-q01",
+    "chapter": "ch-06",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 3,
+    "label": "PYQ-style",
+    "stem": "Which reacts fastest by the S$_\\text{N}$1 mechanism?",
+    "options": [
+      "$\\ce{CH3Br}$",
+      "$\\ce{CH3CH2Br}$",
+      "$\\ce{(CH3)2CHBr}$",
+      "$\\ce{(CH3)3CBr}$"
+    ],
+    "answer": "D",
+    "model_answer": "**(d) $\\ce{(CH3)3CBr}$.** It forms the most stable (3$^\\circ$) carbocation.",
+    "source_note": "Expert Q&A Sheet 3 (Organic A), Q1"
+  },
+  {
+    "id": "chem-s3-q02",
+    "chapter": "ch-06",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ-style",
+    "stem": "The main product of bromoethane with AgCN is",
+    "options": [
+      "propanenitrile",
+      "ethyl isocyanide",
+      "ethyl nitrite",
+      "nitroethane"
+    ],
+    "answer": "B",
+    "model_answer": "**(b) ethyl isocyanide,** $\\ce{CH3CH2NC}$. AgCN is mainly covalent, so nitrogen is the donor atom.",
+    "source_note": "Expert Q&A Sheet 3 (Organic A), Q2"
+  },
+  {
+    "id": "chem-s3-q03",
+    "chapter": "ch-06",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ-style",
+    "stem": "Which molecule is chiral?",
+    "options": [
+      "2-bromopropane",
+      "2-bromobutane",
+      "1-bromobutane",
+      "2-bromo-2-methylpropane"
+    ],
+    "answer": "B",
+    "model_answer": "**(b) 2-bromobutane.** C-2 carries four different groups: H, Br, $\\ce{CH3}$, $\\ce{C2H5}$.",
+    "source_note": "Expert Q&A Sheet 3 (Organic A), Q3"
+  },
+  {
+    "id": "chem-s3-q08",
+    "chapter": "ch-06",
+    "type": "ar",
+    "marks": 1,
+    "stars": 3,
+    "label": "PYQ-style",
+    "stem": "**Assertion (A):** Chlorobenzene is more reactive than chloromethane towards nucleophilic substitution.<br>**Reason (R):** The C–Cl bond in chlorobenzene has partial double-bond character.",
+    "options": [
+      "Both A and R are true, and R is the correct explanation of A.",
+      "Both A and R are true, but R is not the correct explanation of A.",
+      "A is true, but R is false.",
+      "A is false, but R is true."
+    ],
+    "answer": "D",
+    "model_answer": "**(d).** Chlorobenzene is *less* reactive; the reason given is the correct explanation of that.",
+    "source_note": "Expert Q&A Sheet 3 (Organic A), Q8"
+  },
+  {
+    "id": "chem-s3-q09",
+    "chapter": "ch-06",
+    "type": "vsa2",
+    "marks": 2,
+    "stars": 3,
+    "label": "PYQ-style",
+    "stem": "Write one equation each for (i) the Finkelstein reaction, (ii) the Wurtz–Fittig reaction.",
+    "model_answer": "(i) $\\ce{CH3CH2Br + NaI ->[dry acetone] CH3CH2I + NaBr}$ [1]<br>\n(ii) $\\ce{C6H5Cl + CH3Cl + 2Na ->[dry ether] C6H5CH3 + 2NaCl}$ [1]",
+    "scheme": [
+      {
+        "step": "(i) $\\ce{CH3CH2Br + NaI ->[dry acetone] CH3CH2I + NaBr}$",
+        "marks": 1
+      },
+      {
+        "step": "(ii) $\\ce{C6H5Cl + CH3Cl + 2Na ->[dry ether] C6H5CH3 + 2NaCl}$",
+        "marks": 1
+      }
+    ],
+    "source_note": "Expert Q&A Sheet 3 (Organic A), Q9"
+  },
+  {
+    "id": "chem-s3-q10",
+    "chapter": "ch-06",
+    "type": "vsa2",
+    "marks": 2,
+    "stars": 3,
+    "label": "PYQ-style",
+    "stem": "In each pair, which compound reacts faster, and why?<br>\n(i) S$_\\text{N}$2: 1-bromobutane or 2-bromobutane<br>\n(ii) S$_\\text{N}$1: $\\ce{C6H5CH2Cl}$ or $\\ce{C6H5CH(Cl)C6H5}$",
+    "model_answer": "(i) **1-Bromobutane**: it is a primary halide, so there is less steric hindrance to backside attack by the nucleophile. [1]<br>\n(ii) **$\\ce{C6H5CH(Cl)C6H5}$**: its carbocation is stabilised by resonance with two phenyl rings, so it forms more easily. [1]",
+    "scheme": [
+      {
+        "step": "(i) **1-Bromobutane**: it is a primary halide, so there is less steric hindrance to backside attack by the nucleophile.",
+        "marks": 1
+      },
+      {
+        "step": "(ii) **$\\ce{C6H5CH(Cl)C6H5}$**: its carbocation is stabilised by resonance with two phenyl rings, so it forms more easily.",
+        "marks": 1
+      }
+    ],
+    "source_note": "Expert Q&A Sheet 3 (Organic A), Q10"
+  },
+  {
+    "id": "chem-s3-q14",
+    "chapter": "ch-06",
+    "type": "sa3",
+    "marks": 3,
+    "stars": 1,
+    "label": "PYQ-style",
+    "stem": "How will you carry out these conversions?<br>\n(i) but-1-ene to but-2-ene   (ii) benzene to biphenyl   (iii) cumene to phenol",
+    "model_answer": "(i) $\\ce{CH3CH2CH=CH2 ->[HBr] CH3CH2CH(Br)CH3 ->[alc. KOH][\\Delta] CH3CH=CHCH3}$ [1]<br>\n(ii) $\\ce{C6H6 ->[Cl2][anhyd. FeCl3] C6H5Cl}$; $\\ce{2C6H5Cl + 2Na ->[dry ether] C6H5-C6H5 + 2NaCl}$ [1]<br>\n(iii) Cumene $\\ce{->[O2]}$ cumene hydroperoxide $\\ce{->[H+][H2O]}$ phenol + propanone [1]",
+    "scheme": [
+      {
+        "step": "(i) $\\ce{CH3CH2CH=CH2 ->[HBr] CH3CH2CH(Br)CH3 ->[alc. KOH][\\Delta] CH3CH=CHCH3}$",
+        "marks": 1
+      },
+      {
+        "step": "(ii) $\\ce{C6H6 ->[Cl2][anhyd. FeCl3] C6H5Cl}$; $\\ce{2C6H5Cl + 2Na ->[dry ether] C6H5-C6H5 + 2NaCl}$",
+        "marks": 1
+      },
+      {
+        "step": "(iii) Cumene $\\ce{->[O2]}$ cumene hydroperoxide $\\ce{->[H+][H2O]}$ phenol + propanone",
+        "marks": 1
+      }
+    ],
+    "source_note": "Expert Q&A Sheet 3 (Organic A), Q14"
+  },
+  {
+    "id": "chem-s3-q15",
+    "chapter": "ch-06",
+    "type": "sa3",
+    "marks": 3,
+    "stars": 3,
+    "label": "PYQ-style",
+    "stem": "(a) Give two reasons why haloarenes are much less reactive than haloalkanes towards nucleophilic substitution. [2]<br>\n(b) Name the major alkene formed when 2-bromopentane is heated with alcoholic KOH, and the rule that predicts it. [1]",
+    "model_answer": "(a) (i) **Resonance**: a lone pair of the halogen is delocalised into the ring, giving the C–X bond partial double-bond character, so it is harder to break. [1]<br>\n(ii) **Hybridisation**: the carbon bonded to halogen is sp$^2$ (more electronegative than sp$^3$), so the C–X bond is shorter and stronger. (Also acceptable: the phenyl cation is not resonance-stabilised; the electron-rich ring repels the nucleophile.) [1]<br>\n(b) **Pent-2-ene** is the major product, by **Zaitsev's rule** (the alkene with more alkyl groups on the doubly bonded carbons is preferred). [1]",
+    "scheme": [
+      {
+        "step": "(a) (i) **Resonance**: a lone pair of the halogen is delocalised into the ring, giving the C–X bond partial double-bond character, so it is harder to break.",
+        "marks": 1
+      },
+      {
+        "step": "(ii) **Hybridisation**: the carbon bonded to halogen is sp$^2$ (more electronegative than sp$^3$), so the C–X bond is shorter and stronger. (Also acceptable: the phenyl cation is not resonance-stabilised; the electron-rich ring repels the nucleophile.)",
+        "marks": 1
+      },
+      {
+        "step": "(b) **Pent-2-ene** is the major product, by **Zaitsev's rule** (the alkene with more alkyl groups on the doubly bonded carbons is preferred).",
+        "marks": 1
+      }
+    ],
+    "source_note": "Expert Q&A Sheet 3 (Organic A), Q15"
+  },
+  {
+    "id": "chem-s3-q17",
+    "chapter": "ch-06",
+    "type": "case",
+    "marks": 4,
+    "stars": 3,
+    "label": "PYQ-style",
+    "stem": "*Nucleophilic substitution of haloalkanes follows two main pathways. In S$_\\text{N}$2 the nucleophile attacks the carbon from the side opposite the leaving group in a single step. In S$_\\text{N}$1 the C–X bond first breaks to give a carbocation, which is then attacked by the nucleophile. The stereochemical result, studied with optically active haloalkanes, is different in the two cases.*",
+    "parts": [
+      {
+        "id": "i",
+        "stem": "What happens to the configuration when ($-$)-2-bromooctane reacts with NaOH by the S$_\\text{N}$2 path?",
+        "marks": 1,
+        "model_answer": "The configuration is **inverted**: the product is (+)-octan-2-ol, with the –OH on the side opposite to where Br was. [1]",
+        "scheme": [
+          {
+            "step": "The configuration is **inverted**: the product is (+)-octan-2-ol, with the –OH on the side opposite to where Br was.",
+            "marks": 1
+          }
+        ]
+      },
+      {
+        "id": "ii",
+        "stem": "Why does an optically active haloalkane give a racemic product by the S$_\\text{N}$1 path?",
+        "marks": 1,
+        "model_answer": "The carbocation intermediate is planar (sp$^2$); the nucleophile attacks from either face with equal ease, giving both enantiomers in equal amounts. [1]",
+        "scheme": [
+          {
+            "step": "The carbocation intermediate is planar (sp$^2$); the nucleophile attacks from either face with equal ease, giving both enantiomers in equal amounts.",
+            "marks": 1
+          }
+        ]
+      },
+      {
+        "id": "iii",
+        "stem": "Arrange 1-bromopentane, 2-bromopentane and 2-bromo-2-methylbutane in increasing order of S$_\\text{N}$2 reactivity, with a reason.<br>**OR**<br>What is a chiral molecule? Which of 1-chlorobutane and 2-chlorobutane is chiral? What is a racemic mixture?",
+        "marks": 2,
+        "model_answer": "2-bromo-2-methylbutane (3$^\\circ$) $<$ 2-bromopentane (2$^\\circ$) $<$ 1-bromopentane (1$^\\circ$). [1] More alkyl groups on the carbon bearing Br mean more steric hindrance to the approaching nucleophile. [1]\n\n**OR**\n\nA chiral molecule is one that is not superimposable on its mirror image. [½] **2-Chlorobutane** is chiral (C-2 has four different groups). [½] A racemic mixture contains equal amounts of the two enantiomers and has zero optical rotation. [1]",
+        "scheme": [
+          {
+            "step": "2-bromo-2-methylbutane (3$^\\circ$) $<$ 2-bromopentane (2$^\\circ$) $<$ 1-bromopentane (1$^\\circ$).",
+            "marks": 1
+          },
+          {
+            "step": "More alkyl groups on the carbon bearing Br mean more steric hindrance to the approaching nucleophile.",
+            "marks": 1
+          }
+        ]
+      }
+    ],
+    "source_note": "Expert Q&A Sheet 3 (Organic A), Q17"
+  }
+]

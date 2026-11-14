@@ -1,0 +1,197 @@
+[
+  {
+    "id": "chem-s5-q04",
+    "chapter": "ch-10",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 3,
+    "label": "PYQ-style",
+    "stem": "Which is a non-reducing sugar?",
+    "options": [
+      "glucose",
+      "maltose",
+      "lactose",
+      "sucrose"
+    ],
+    "answer": "D",
+    "model_answer": "**(d) sucrose.**",
+    "source_note": "Expert Q&A Sheet 5 (Organic C), Q4"
+  },
+  {
+    "id": "chem-s5-q05",
+    "chapter": "ch-10",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ-style",
+    "stem": "Pernicious anaemia is caused by deficiency of vitamin",
+    "options": [
+      "A",
+      "B$_1$",
+      "B$_{12}$",
+      "K"
+    ],
+    "answer": "C",
+    "model_answer": "**(c) B$_{12}$.**",
+    "source_note": "Expert Q&A Sheet 5 (Organic C), Q5"
+  },
+  {
+    "id": "chem-s5-q06",
+    "chapter": "ch-10",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ-style",
+    "stem": "The base present in RNA but not in DNA is",
+    "options": [
+      "adenine",
+      "thymine",
+      "uracil",
+      "cytosine"
+    ],
+    "answer": "C",
+    "model_answer": "**(c) uracil.**",
+    "source_note": "Expert Q&A Sheet 5 (Organic C), Q6"
+  },
+  {
+    "id": "chem-s5-q08",
+    "chapter": "ch-10",
+    "type": "ar",
+    "marks": 1,
+    "stars": 3,
+    "label": "PYQ-style",
+    "stem": "**Assertion (A):** A protein loses its biological activity on denaturation.<br>**Reason (R):** Denaturation destroys the primary structure of the protein.",
+    "options": [
+      "Both A and R are true, and R is the correct explanation of A.",
+      "Both A and R are true, but R is not the correct explanation of A.",
+      "A is true, but R is false.",
+      "A is false, but R is true."
+    ],
+    "answer": "C",
+    "model_answer": "**(c).** Only the secondary and tertiary structures are destroyed; the primary structure stays intact.",
+    "source_note": "Expert Q&A Sheet 5 (Organic C), Q8"
+  },
+  {
+    "id": "chem-s5-q11",
+    "chapter": "ch-10",
+    "type": "vsa2",
+    "marks": 2,
+    "stars": 3,
+    "label": "PYQ-style",
+    "stem": "What are reducing sugars? What happens when glucose is treated with bromine water?",
+    "model_answer": "Reducing sugars are carbohydrates that reduce Fehling's solution and Tollens' reagent; they have a free aldehydic or ketonic group (e.g. glucose, maltose). [1]<br>\nBromine water (a mild oxidising agent) oxidises glucose to gluconic acid, showing that the carbonyl group is an aldehyde:<br>\n$\\ce{HOCH2(CHOH)4CHO ->[Br2 water] HOCH2(CHOH)4COOH}$ [1]",
+    "scheme": [
+      {
+        "step": "Reducing sugars are carbohydrates that reduce Fehling's solution and Tollens' reagent; they have a free aldehydic or ketonic group (e.g. glucose, maltose).",
+        "marks": 1
+      },
+      {
+        "step": "Bromine water (a mild oxidising agent) oxidises glucose to gluconic acid, showing that the carbonyl group is an aldehyde: $\\ce{HOCH2(CHOH)4CHO ->[Br2 water] HOCH2(CHOH)4COOH}$",
+        "marks": 1
+      }
+    ],
+    "source_note": "Expert Q&A Sheet 5 (Organic C), Q11"
+  },
+  {
+    "id": "chem-s5-q16",
+    "chapter": "ch-10",
+    "type": "sa3",
+    "marks": 3,
+    "stars": 3,
+    "label": "PYQ-style",
+    "stem": "(a) Give two differences between DNA and RNA. [2]<br>\n(b) What type of bonding stabilises the $\\alpha$-helix structure of a protein? [1]",
+    "model_answer": "(a) Any two [1 each]: sugar is 2-deoxyribose in DNA, ribose in RNA; DNA has thymine, RNA has uracil; DNA is double-stranded (double helix), RNA is usually single-stranded; DNA carries heredity, RNA helps in protein synthesis.<br>\n(b) Hydrogen bonds between the $\\ce{-NH}$ group of one amino acid residue and the $>$ $\\ce{C=O}$ group of a residue in the adjacent turn of the helix. [1]",
+    "scheme": [
+      {
+        "step": "(a) Any two",
+        "marks": 2
+      },
+      {
+        "step": ": sugar is 2-deoxyribose in DNA, ribose in RNA; DNA has thymine, RNA has uracil; DNA is double-stranded (double helix), RNA is usually single-stranded; DNA carries heredity, RNA helps in protein synthesis. (b) Hydrogen bonds between the $\\ce{-NH}$ group of one amino acid residue and the $>$ $\\ce{C=O}$ group of a residue in the adjacent turn of the helix.",
+        "marks": 1
+      }
+    ],
+    "source_note": "Expert Q&A Sheet 5 (Organic C), Q16"
+  },
+  {
+    "id": "chem-s5-q17",
+    "chapter": "ch-10",
+    "type": "case",
+    "marks": 4,
+    "stars": 3,
+    "label": "PYQ-style",
+    "stem": "*Glucose, $\\ce{C6H12O6}$, was assigned an open-chain structure from its reactions: with HI it gives n-hexane; with hydroxylamine an oxime; with bromine water gluconic acid; with acetic anhydride a pentaacetate; and with nitric acid saccharic acid. Later, several observations could not be explained by this structure, and a cyclic structure was proposed.*",
+    "parts": [
+      {
+        "id": "i",
+        "stem": "What does the reaction with HI tell us about glucose?",
+        "marks": 1,
+        "model_answer": "All six carbon atoms are joined in a straight chain. [1]",
+        "scheme": [
+          {
+            "step": "All six carbon atoms are joined in a straight chain.",
+            "marks": 1
+          }
+        ]
+      },
+      {
+        "id": "ii",
+        "stem": "Which reaction shows the presence of five $\\ce{-OH}$ groups?",
+        "marks": 1,
+        "model_answer": "Acetylation with acetic anhydride to give glucose pentaacetate. [1]",
+        "scheme": [
+          {
+            "step": "Acetylation with acetic anhydride to give glucose pentaacetate.",
+            "marks": 1
+          }
+        ]
+      },
+      {
+        "id": "iii",
+        "stem": "State two observations that the open-chain structure cannot explain.<br>**OR**<br>What are anomers? How do $\\alpha$- and $\\beta$-glucose differ?",
+        "marks": 2,
+        "model_answer": "Any two [1 each]: glucose does not give the 2,4-DNP test or Schiff's test and does not form an addition product with $\\ce{NaHSO3}$, although it has an aldehyde group; glucose pentaacetate does not react with hydroxylamine (no free $\\ce{-CHO}$); glucose exists in two crystalline forms, $\\alpha$ and $\\beta$.\n\n**OR**\n\nAnomers are the two cyclic forms of a sugar that differ only in configuration at C-1, the anomeric carbon. [1] In $\\alpha$-glucose the $\\ce{-OH}$ at C-1 is on the right (below the ring in the Haworth structure); in $\\beta$-glucose it is on the left (above the ring). [1]",
+        "scheme": [
+          {
+            "step": "Any two",
+            "marks": 2
+          }
+        ]
+      }
+    ],
+    "source_note": "Expert Q&A Sheet 5 (Organic C), Q17"
+  },
+  {
+    "id": "chem-s5-q19",
+    "chapter": "ch-10",
+    "type": "la5",
+    "marks": 5,
+    "stars": 2,
+    "label": "PYQ-style",
+    "stem": "(a) Name the vitamins whose deficiency causes (i) scurvy, (ii) rickets. Why can't vitamin C be stored in the body? [2]<br>\n(b) Define with one example or feature each: (i) essential amino acids, (ii) peptide linkage. [2]<br>\n(c) Write the hydrolysis products of lactose. [1]",
+    "model_answer": "(a) (i) Vitamin C; (ii) vitamin D. [½ + ½] Vitamin C is water-soluble, so it is readily excreted in urine and cannot be stored. [1]<br>\n(b)(i) Amino acids that the body cannot synthesise and that must be supplied in the diet, e.g. valine, lysine. [1]<br>\n(ii) The amide bond $\\ce{-CO-NH-}$ formed between the $\\ce{-COOH}$ group of one amino acid and the $\\ce{-NH2}$ group of another with loss of a water molecule. [1]<br>\n(c) $\\beta$-D-galactose and $\\beta$-D-glucose. [1]",
+    "scheme": [
+      {
+        "step": "(a) (i) Vitamin C; (ii) vitamin D.",
+        "marks": 1
+      },
+      {
+        "step": "Vitamin C is water-soluble, so it is readily excreted in urine and cannot be stored.",
+        "marks": 1
+      },
+      {
+        "step": "(b)(i) Amino acids that the body cannot synthesise and that must be supplied in the diet, e.g. valine, lysine.",
+        "marks": 1
+      },
+      {
+        "step": "(ii) The amide bond $\\ce{-CO-NH-}$ formed between the $\\ce{-COOH}$ group of one amino acid and the $\\ce{-NH2}$ group of another with loss of a water molecule.",
+        "marks": 1
+      },
+      {
+        "step": "(c) $\\beta$-D-galactose and $\\beta$-D-glucose.",
+        "marks": 1
+      }
+    ],
+    "source_note": "Expert Q&A Sheet 5 (Organic C), Q19"
+  }
+]
