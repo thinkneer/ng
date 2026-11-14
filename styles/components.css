@@ -393,3 +393,7 @@ mark.hl--flash { animation: hl-flash 1.4s ease-out; }
 .pin-demo--off { background: var(--text-2); }
 .large-title .chip { flex: 0 0 auto; }
 a.card.continue, button.card.continue { display: flex; }
+
+.auth__wait { width: 4rem; height: 4rem; margin: 0 auto var(--s-3); border-radius: 50%; display: grid; place-items: center; background: var(--accent-soft); color: var(--accent-text); }
+.auth__wait svg { width: 2rem; height: 2rem; }
+.btn--wa { background: linear-gradient(135deg, #1FAF5A, #25D366); box-shadow: 0 8px 22px -8px rgba(37, 211, 102, 0.6); }

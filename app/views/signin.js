@@ -3,6 +3,7 @@ import { html, raw, icon, esc, toast, haptic } from '../ui.js';
 import { signIn, buildRequest, requestCode, nicknameTaken, NICK_RE } from '../auth.js';
 import { randomQuote } from '../quotes.js';
 import { data } from '../data.js';
+import { store } from '../store.js';
 
 
 function shell(inner) {
@@ -27,6 +28,7 @@ export async function signin(route) {
         <label for="pass" class="mt-4">Passphrase</label>
         <div class="auth__pass"><input id="pass" name="pass" type="password" autocomplete="current-password" required><button class="icon-btn" type="button" id="peek" aria-label="Show passphrase">${raw(icon('eye'))}</button></div>
         <p class="auth__err" id="err" role="alert" hidden></p>
+        ${raw(store.get('pending', null) ? `<div class="notice mt-4">${icon('clock')}<div><strong>Access awaited for ${esc(store.get('pending').nickname)}.</strong> Not approved yet? <a href="https://wa.me/?text=${encodeURIComponent(store.get('pending').msg)}" target="_blank" rel="noopener">Send it again on WhatsApp</a>.</div></div>` : '')}
         <button class="btn btn--block mt-4" type="submit" id="go">Sign in</button>
         <div class="auth__foot">No account yet? <a href="#/request">Request access</a></div>
       </form>
@@ -42,6 +44,7 @@ export async function signin(route) {
         go.disabled = true; go.textContent = 'Checking…'; err.hidden = true;
         try {
           const s = await signIn(nick, pass);
+          store.set('pending', undefined);
           haptic('success'); toast(`Signed in as ${s.nickname}`);
           location.hash = next === '#/signin' ? '#/today' : next;
         } catch (ex) {
@@ -76,13 +79,13 @@ export async function request() {
         <button class="btn btn--block mt-4" type="submit" id="r-go">Create request</button>
         <div class="auth__foot"><a href="#/signin">Back to sign in</a></div>
       </form>
-      <div class="card auth__card" id="r-done" hidden>
-        <h1 class="t-title2">Almost there</h1>
-        <p class="t-2 t-subhead">Send this code to the admin (your parent or teacher who runs the site). Your passphrase is not in it, only a scrambled check of it.</p>
-        <button class="btn btn--block mt-4" type="button" id="r-share">${raw(icon('share'))} Send to admin</button>
-        <button class="btn btn--plain btn--block mt-2" type="button" id="r-copy">${raw(icon('copy'))} Copy code</button>
-        <textarea id="r-code" rows="4" class="mt-2 t-mono" readonly style="font-size:.8rem" aria-label="Request code"></textarea>
-        <p class="t-footnote t-3 mt-2">Once the admin approves you, come back here and sign in with the same nickname and passphrase.</p>
+      <div class="card auth__card center" id="r-done" hidden>
+        <div class="auth__wait">${raw(icon('clock'))}</div>
+        <h1 class="t-title2">Access awaited</h1>
+        <p class="t-2 t-subhead mt-2">Send your request to the admin on WhatsApp. Once approved, sign in with the same nickname and passphrase.</p>
+        <a class="btn btn--block mt-6 btn--wa" id="r-wa" target="_blank" rel="noopener">${raw(icon('message'))} Send on WhatsApp</a>
+        <button class="btn btn--ghost btn--sm mt-2" type="button" id="r-copy">Copy instead</button>
+        <textarea id="r-code" class="sr-only" readonly aria-hidden="true" tabindex="-1"></textarea>
         <div class="auth__foot"><a href="#/signin">Back to sign in</a></div>
       </div>
       <p class="auth__small">Use a nickname. No real names, emails, phone numbers or schools.</p>`),
@@ -102,15 +105,13 @@ export async function request() {
         const req = await buildRequest({ nickname, pass, cls, stream, subjects });
         const code = requestCode(req);
         el.querySelector('#r-code').value = code;
+        const msg = `Hi! Please approve my ng access.\nNickname: ${nickname}\nCode: ${code}`;
+        el.querySelector('#r-wa').href = `https://wa.me/?text=${encodeURIComponent(msg)}`;
+        el.querySelector('#r-wa').dataset.msg = msg;
+        store.set('pending', { nickname, msg, at: Date.now() });
         f.hidden = true; el.querySelector('#r-done').hidden = false; haptic('success'); el.querySelector('.auth').scrollTo({ top: 0, behavior: 'smooth' });
       });
-      el.querySelector('#r-share').addEventListener('click', async () => {
-        const code = el.querySelector('#r-code').value;
-        const text = `ng access request\n${code}`;
-        if (navigator.share) { try { await navigator.share({ title: 'ng access request', text }); return; } catch (e) { if (e?.name === 'AbortError') return; } }
-        try { await navigator.clipboard.writeText(text); toast('Code copied \u2014 paste it in a message to the admin'); } catch { el.querySelector('#r-code').select(); toast('Select the code and copy it'); }
-      });
-      el.querySelector('#r-copy').addEventListener('click', async () => { const t = el.querySelector('#r-code'); try { await navigator.clipboard.writeText(t.value); toast('Code copied'); } catch { t.select(); toast('Select the code and copy it'); } });
+      el.querySelector('#r-copy').addEventListener('click', async () => { const m = el.querySelector('#r-wa').dataset.msg; try { await navigator.clipboard.writeText(m); toast('Copied \u2014 paste it to the admin'); } catch { toast('Copy not allowed here'); } });
     },
   };
 }

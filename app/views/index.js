@@ -9,6 +9,7 @@ import { more } from './more.js';
 import { emptyState } from '../ui.js';
 import { recallDue } from './recall.js';
 import { signin, request as requestAccess } from './signin.js';
+import { admin } from './admin.js';
 
 export const views = {
   today,
@@ -28,7 +29,7 @@ export const views = {
   request: requestAccess,
   access: requestAccess,
   login: signin,
-  admin: (r) => more({ ...r, sub: 'access' }),
+  admin,
   'not-found': async () => ({
     title: 'Not found', tab: 'today',
     html: emptyState({ icon: 'alert', title: 'That page does not exist', text: 'Check the link, or start from Today.', action: '<a class="btn btn--secondary" href="#/today">Go to Today</a>' }),

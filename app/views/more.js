@@ -27,6 +27,7 @@ async function hub() {
         ${listItem({ href: '#/plan', title: 'Board plan', sub: 'Days left and the plan', leading: icon('plan'), leadingStyle: 'background:var(--accent-soft);color:var(--accent-text)' })}
         ${pwa.installable ? listItem({ href: '#/more/install', title: 'Install app', sub: 'Full-screen, works offline', leading: icon('install'), leadingStyle: 'background:var(--accent-soft);color:var(--accent-text)' }) : ''}
       </div>
+      ${session()?.role === 'admin' ? html`<div class="list__header">Admin</div><div class="list">${listItem({ href: '#/admin', title: 'Admin dashboard', sub: 'Approve requests · pause members', leading: icon('lock'), leadingStyle: 'background:var(--accent-soft);color:var(--accent-text)' })}</div>` : ''}
       <div class="list__header">Community</div>
       <div class="list">
         ${listItem({ href: '#/more/request', title: 'Request something', sub: 'A topic, a chapter, a kind of question, a mistake', leading: icon('message'), leadingStyle: 'background:var(--accent-soft);color:var(--accent-text)' })}
