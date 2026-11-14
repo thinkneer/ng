@@ -3,6 +3,7 @@ import { data, routeFor } from '../data.js';
 import { store } from '../store.js';
 import { pwa } from '../pwa.js';
 import { summary as recallSummary } from '../recall.js';
+import { isDbMode, session } from '../auth.js';
 
 function greeting() {
   const h = new Date().getHours();
@@ -23,6 +24,8 @@ export async function today() {
   const todayStr = fmtDate(t0, { weekday: 'long', day: 'numeric', month: 'long' });
   const last = store.get('reader.last', null);
   const rs = recallSummary();
+  const dbMode = await isDbMode();
+  const staff = ['admin', 'teacher'].includes(session()?.role);
 
   return {
     title: 'Today', largeTitle: true, tab: 'today',
@@ -45,6 +48,7 @@ export async function today() {
         <span class="continue__main"><span class="continue__title">${rs.due ? `${rs.due} lines due today` : rs.seen ? 'Nothing due today' : 'Start recalling'}</span><span class="continue__sec" style="color:var(--text-2);font-weight:500">${rs.due ? `about ${rs.minutes} min · tap to go` : rs.seen ? `${rs.seen} cards on your schedule · come back tomorrow` : 'Open a chapter → Must know → Recall. Missed lines come back tomorrow.'}</span></span>
         ${raw(icon('chevronRight', { class: 'chev', size: 20 }))}
       </a>
+      ${dbMode ? raw(`<a class="card continue pressable mt-3" href="#/live" style="--unit:#6A3FA0"><span class="list__leading">${icon('bolt')}</span><span class="continue__main"><span class="continue__title">Live quiz</span><span class="continue__sec" style="color:var(--text-2);font-weight:500">${staff ? 'Host one for the class, or join with a code' : 'Teacher gave you a code? Join here'}</span></span>${icon('chevronRight', { class: 'chev', size: 20 })}</a>`) : ''}
       ${last ? raw(`<div class="section-head"><h2>Continue reading</h2></div>
       <a class="card continue pressable" href="${routeFor(last.cls, last.stream, last.sub, last.ch, 'read')}" style="--unit:#${last.colour}">
         ${String(cover({ colour: last.colour, name: last.subject }, { small: true }))}

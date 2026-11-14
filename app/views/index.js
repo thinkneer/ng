@@ -10,6 +10,7 @@ import { emptyState } from '../ui.js';
 import { recallDue } from './recall.js';
 import { signin, request as requestAccess, awaiting } from './signin.js';
 import { admin } from './admin.js';
+import { live } from './live.js';
 
 export const views = {
   today,
@@ -31,6 +32,7 @@ export const views = {
   login: signin,
   awaiting,
   admin,
+  live,
   'not-found': async () => ({
     title: 'Not found', tab: 'today',
     html: emptyState({ icon: 'alert', title: 'That page does not exist', text: 'Check the link, or start from Today.', action: '<a class="btn btn--secondary" href="#/today">Go to Today</a>' }),

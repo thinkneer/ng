@@ -3,7 +3,7 @@ import { data } from '../data.js';
 import { store } from '../store.js';
 import { applyTheme } from '../theme.js';
 import { pwa } from '../pwa.js';
-import { signOut, session } from '../auth.js';
+import { signOut, session, isDbMode } from '../auth.js';
 
 
 export async function more(route) {
@@ -18,6 +18,7 @@ export async function more(route) {
 
 async function hub() {
   const s = store.settings;
+  const dbMode = await isDbMode();
   const cls = s.class ? `Class ${s.class}${s.stream && s.stream !== 'general' ? ' · ' + cap(s.stream) : ''}` : 'Not chosen';
   return {
     title: 'More', largeTitle: true, tab: 'more',
@@ -25,6 +26,7 @@ async function hub() {
       <div class="list">
         ${listItem({ href: '#/more/settings', title: 'Class, subjects & appearance', sub: cls, leading: icon('settings'), leadingStyle: 'background:var(--accent-soft);color:var(--accent-text)' })}
         ${listItem({ href: '#/plan', title: 'Board plan', sub: 'Days left and the plan', leading: icon('plan'), leadingStyle: 'background:var(--accent-soft);color:var(--accent-text)' })}
+        ${dbMode ? listItem({ href: '#/live', title: 'Live quiz', sub: session()?.role === 'student' ? 'Join with the code from your teacher' : 'Host a quiz, or join one', leading: icon('bolt'), leadingStyle: 'background:var(--accent-soft);color:var(--accent-text)' }) : ''}
         ${pwa.installable ? listItem({ href: '#/more/install', title: 'Install app', sub: 'Full-screen, works offline', leading: icon('install'), leadingStyle: 'background:var(--accent-soft);color:var(--accent-text)' }) : ''}
       </div>
       ${session()?.role === 'admin' ? html`<div class="list__header">Admin</div><div class="list">${listItem({ href: '#/admin', title: 'Admin dashboard', sub: 'Approve requests · pause members', leading: icon('lock'), leadingStyle: 'background:var(--accent-soft);color:var(--accent-text)' })}</div>` : ''}

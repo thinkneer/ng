@@ -183,4 +183,20 @@
 .pq__lowlist { list-style: none; padding: 0; margin: var(--s-4) 0 0; font-size: var(--fs-subhead); color: var(--text-2); }
 .pq__lowlist li + li { margin-top: 0.25em; }
 .pq .rc__btns { display: grid; grid-template-columns: 1fr 1fr; gap: var(--s-3); }
-.pq .rc__btns > :only-child { grid-column: 1 / -1; width: 100%; }
+.pq .rc__btns > :only-child, .lv .rc__btns > :only-child { grid-column: 1 / -1; width: 100%; }
+
+/* ---------- Live quiz (shares the .rc frame and the practice option buttons) ---------- */
+.lv__card { width: min(100%, 44rem); }
+.lv__code { font-size: clamp(3rem, 16vw, 5rem); font-weight: 800; letter-spacing: 0.18em; line-height: 1.1; margin: var(--s-2) 0 var(--s-3); color: var(--accent); }
+.lv__players { display: flex; flex-wrap: wrap; gap: var(--s-2); justify-content: center; }
+.pq__opt.is-chosen { border-color: var(--accent); background: var(--accent-soft); }
+.pq__opt.is-chosen .pq__key { background: var(--accent); color: #fff; }
+.lv__chart { margin-top: var(--s-4); display: grid; gap: var(--s-2); }
+.lv__row { display: grid; grid-template-columns: 1.75rem 1fr 2.5rem; align-items: center; gap: var(--s-2); }
+.lv__k { font-weight: 700; text-align: center; }
+.lv__track { height: 1.5rem; border-radius: var(--r-sm); background: var(--surface-2); overflow: hidden; }
+.lv__fill { display: block; height: 100%; width: 0; border-radius: var(--r-sm); background: var(--danger); transition: width 600ms var(--ease-out); min-width: 2px; }
+.lv__row.is-right .lv__fill { background: var(--success); }
+.lv__row.is-right .lv__k { color: var(--success); }
+.lv__n { text-align: right; font-weight: 700; }
+.list__item.is-me { background: var(--accent-soft); }
