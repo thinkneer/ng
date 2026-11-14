@@ -14,6 +14,17 @@ import { fileURLToPath } from 'node:url';
 import Ajv from 'ajv';
 import addFormats from 'ajv-formats';
 
+// hoisted: used by checkNotesHeadings() during the top-level scan below
+const REQUIRED_HEADINGS = [
+  'Most-repeated board questions',
+  'Must-know lines and definitions',
+  'Key formulas',
+  'Answer skeletons',
+  'Quick 1-mark facts (MCQ, A–R)',
+  'Case-based angles',
+  'Mark-losing traps',
+];
+
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
 const CHECK_ONLY = process.argv.includes('--check');
 const errors = [];
@@ -226,15 +237,6 @@ function listJSON(dir) {
   return readdirSync(dir).filter((f) => f.endsWith('.json')).map((f) => join(dir, f)).sort();
 }
 
-const REQUIRED_HEADINGS = [
-  'Most-repeated board questions',
-  'Must-know lines and definitions',
-  'Key formulas',
-  'Answer skeletons',
-  'Quick 1-mark facts (MCQ, A–R)',
-  'Case-based angles',
-  'Mark-losing traps',
-];
 function checkNotesHeadings(path) {
   const text = readFileSync(path, 'utf8');
   const found = [...text.matchAll(/^## (.+)$/gm)].map((m) => m[1].trim());
