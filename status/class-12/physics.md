@@ -10,7 +10,7 @@ Boards only. Board paper: **Tue 16 Feb 2027** (first paper of the season). Pract
 
 ## Done
 
-**All 14 chapters are on the site (14 Nov 2026): 134 questions, 50 inline SVG figures.**
+**All 14 chapters are on the site (14 Nov 2026): 137 questions, 51 inline SVG figures.**
 
 
 ### On the site (`content/class-12/science/physics/`)
