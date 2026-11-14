@@ -37,6 +37,7 @@ Classes 9–10 use the stream id `general`: `content/class-10/general/maths/...`
 Chapter ids: `ch-01`, `ch-02`, … for numbered chapters; English uses named ids (`flamingo-01`, `writing-notice`). The id must match a chapter listed in `subject.json`.
 
 ## 4. The three layers of a chapter (why: reading and recall are different jobs)
+The app is **side notes before the exam** (Must know: short lines, titled formula boxes, recall) and **full notes when there is time to think** (Read: the chapter explained like a friend talking it through). Keep both true to that.
 **Read** is for first learning and the night-before reread. **Must know** is for retrieval: the site turns its lines into flashcards (Recall mode, Leitner schedule, "lines due today"). **Practice** is questions. Never mix the layers: no star ratings or question lists inside Read; no paragraphs inside Must know.
 
 ### 4a. notes.md — Read layer
@@ -58,7 +59,14 @@ Hard cap: about one phone screen per heading; the whole file rereadable in 5 min
 
 Directives: `:::tip … :::`, `:::formula … :::`, `:::skeleton … :::` render as boxes (tip = yellow, formula = unit-coloured, skeleton = dashed).
 Maths: KaTeX (`$…$`, `$$…$$`); chemistry: `\ce{…}` (mhchem). Stars: write `★★★`, `★★`, `★` (Must know and Practice only).
-Diagrams: inline SVG (own drawings) next to notes.md, referenced from `chapter.json → diagrams`; until then describe the diagram in words. **No PDFs on the site.**
+Diagrams: **draw them as inline SVG inside the Markdown**, where the figure belongs, wrapped like this (blank line before and after):
+```
+<figure class="fig">
+<svg viewBox="0 0 320 180" role="img" aria-label="Daniell cell with salt bridge"> … </svg>
+<figcaption>Daniell cell: zinc anode (−) left, copper cathode (+) right.</figcaption>
+</figure>
+```
+Use `stroke="currentColor"` / `fill="currentColor"` (and the unit colour or `#E0B400` for one highlight) so it works in light, dark and sepia; label parts with `<text>`; keep it simple and our own drawing (never traced from NCERT). Board-important diagrams first. **No PDFs on the site.**
 
 ## 5. questions.json (see schemas/questions.schema.json)
 `type`: mcq | ar | case | vsa2 | sa3 | la5. A–R uses the standard four options; Maths option D is "A is false but R is true". Case questions have `parts[]`, each with its own marks. Written answers need `model_answer` + `scheme[]` whose marks add up to `marks`.

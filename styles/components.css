@@ -397,3 +397,8 @@ a.card.continue, button.card.continue { display: flex; }
 .auth__wait { width: 4rem; height: 4rem; margin: 0 auto var(--s-3); border-radius: 50%; display: grid; place-items: center; background: var(--accent-soft); color: var(--accent-text); }
 .auth__wait svg { width: 2rem; height: 2rem; }
 .btn--wa { background: linear-gradient(135deg, #1FAF5A, #25D366); box-shadow: 0 8px 22px -8px rgba(37, 211, 102, 0.6); }
+
+/* Figures drawn as inline SVG inside notes (see CLAUDE.md §4) */
+.prose figure.fig { margin: 1.2em auto; max-width: 30rem; text-align: center; }
+.prose figure.fig svg { width: 100%; height: auto; color: var(--text); overflow: visible; }
+.prose figure.fig figcaption { font-size: var(--fs-footnote); color: var(--text-2); margin-top: 0.4em; font-family: var(--font-sans); }
