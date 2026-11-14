@@ -1,0 +1,16 @@
+{
+  "$schema": "../../../../../schemas/chapter.schema.json",
+  "id": "ch-07",
+  "number": 7,
+  "title": "Human Health and Disease",
+  "unit": "VIII",
+  "marks_hint": "Unit VIII Biology and Human Welfare = 12 marks (shared by Ch 7–8, CBSE 2026–27)",
+  "summary": "Common diseases and their pathogens · malaria life cycle · immunity, antibodies and vaccines · allergies and autoimmunity · lymphoid organs · AIDS · cancer · drugs and alcohol abuse",
+  "status": {
+    "notes": "ready",
+    "mustknow": "ready",
+    "formulas": "ready",
+    "questions": "ready"
+  },
+  "updated": "2026-11-14"
+}

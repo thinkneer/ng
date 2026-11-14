@@ -19,9 +19,12 @@ Paper: **Thu 25 Mar 2027** (date sheet of 6 Nov 2026). Biology-only days 10–24
   - Ch 4 Read: pedigree-symbols SVG; Punnett squares and ABO, sex-determination and chromosomal-disorder tables in Markdown. Ch 5 Read: replication-fork SVG and lac-operon SVG. Ch 6 Read: stabilising/directional/disruptive selection SVG; Hardy–Weinberg worked example.
   - formulas.md: Mendelian ratios, X-linked and autosomal recessive cross outcomes (Ch 4); DNA length, Chargaff, codons, Meselson–Stahl table (Ch 5); Hardy–Weinberg (Ch 6).
 
+- **Batch 3 — Units VIII–IX (Ch 7–10), 14 Nov 2026.** All five files per chapter.
+  - Ch 7 Read: Plasmodium life-cycle SVG and antibody (H₂L₂) SVG; disease/pathogen table. Ch 8 Read: sewage-treatment flow SVG; microbe → product table. Ch 9 Read: pBR322 map SVG and PCR-cycle SVG. Ch 10: tables only (cry genes, transgenic-animal uses).
+
 ## Corrections
 - none yet
 
 ## What's next
-- Batch 3: Units VIII–IX (Ch 7–10). Batch 4: Unit X (Ch 11–13).
+- Batch 4: Unit X (Ch 11–13).
 - Later: practical help (5 experiments, 11 spotting items, viva), more questions per chapter for live quizzes.

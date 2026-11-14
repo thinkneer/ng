@@ -1,0 +1,16 @@
+{
+  "$schema": "../../../../../schemas/chapter.schema.json",
+  "id": "ch-10",
+  "number": 10,
+  "title": "Biotechnology and its Applications",
+  "unit": "IX",
+  "marks_hint": "Unit IX Biotechnology = 12 marks (shared by Ch 9–10, CBSE 2026–27)",
+  "summary": "Bt cotton and cry genes · RNA interference · genetically engineered insulin · gene therapy · molecular diagnosis · transgenic animals · ethical issues, biopiracy and patents",
+  "status": {
+    "notes": "ready",
+    "mustknow": "ready",
+    "formulas": "ready",
+    "questions": "ready"
+  },
+  "updated": "2026-11-14"
+}

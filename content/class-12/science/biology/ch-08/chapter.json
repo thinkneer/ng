@@ -1,0 +1,16 @@
+{
+  "$schema": "../../../../../schemas/chapter.schema.json",
+  "id": "ch-08",
+  "number": 8,
+  "title": "Microbes in Human Welfare",
+  "unit": "VIII",
+  "marks_hint": "Unit VIII Biology and Human Welfare = 12 marks (shared by Ch 7–8, CBSE 2026–27)",
+  "summary": "Microbes in household products · industrial products · sewage treatment · biogas · biocontrol agents · biofertilisers",
+  "status": {
+    "notes": "ready",
+    "mustknow": "ready",
+    "formulas": "ready",
+    "questions": "ready"
+  },
+  "updated": "2026-11-14"
+}

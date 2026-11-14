@@ -1607,22 +1607,52 @@
                       "number": 7,
                       "title": "Human Health and Disease",
                       "unit": "VIII",
-                      "items": {},
-                      "marks_hint": null,
-                      "summary": null,
-                      "questions": 0,
-                      "question_types": {}
+                      "items": {
+                        "notes": true,
+                        "mustknow": true,
+                        "formulas": true,
+                        "questions": true
+                      },
+                      "marks_hint": "Unit VIII Biology and Human Welfare = 12 marks (shared by Ch 7–8, CBSE 2026–27)",
+                      "summary": "Common diseases and their pathogens · malaria life cycle · immunity, antibodies and vaccines · allergies and autoimmunity · lymphoid organs · AIDS · cancer · drugs and alcohol abuse",
+                      "questions": 10,
+                      "question_types": {
+                        "mcq": 3,
+                        "ar": 2,
+                        "vsa2": 2,
+                        "sa3": 1,
+                        "case": 1,
+                        "la5": 1
+                      },
+                      "diagrams": [],
+                      "words": 4035,
+                      "read_minutes": 14
                     },
                     {
                       "id": "ch-08",
                       "number": 8,
                       "title": "Microbes in Human Welfare",
                       "unit": "VIII",
-                      "items": {},
-                      "marks_hint": null,
-                      "summary": null,
-                      "questions": 0,
-                      "question_types": {}
+                      "items": {
+                        "notes": true,
+                        "mustknow": true,
+                        "formulas": true,
+                        "questions": true
+                      },
+                      "marks_hint": "Unit VIII Biology and Human Welfare = 12 marks (shared by Ch 7–8, CBSE 2026–27)",
+                      "summary": "Microbes in household products · industrial products · sewage treatment · biogas · biocontrol agents · biofertilisers",
+                      "questions": 10,
+                      "question_types": {
+                        "mcq": 3,
+                        "ar": 2,
+                        "vsa2": 2,
+                        "sa3": 1,
+                        "case": 1,
+                        "la5": 1
+                      },
+                      "diagrams": [],
+                      "words": 2741,
+                      "read_minutes": 9
                     }
                   ]
                 },
@@ -1638,22 +1668,52 @@
                       "number": 9,
                       "title": "Biotechnology: Principles and Processes",
                       "unit": "IX",
-                      "items": {},
-                      "marks_hint": null,
-                      "summary": null,
-                      "questions": 0,
-                      "question_types": {}
+                      "items": {
+                        "notes": true,
+                        "mustknow": true,
+                        "formulas": true,
+                        "questions": true
+                      },
+                      "marks_hint": "Unit IX Biotechnology = 12 marks (shared by Ch 9–10, CBSE 2026–27)",
+                      "summary": "Principles of biotechnology · restriction enzymes · gel electrophoresis · cloning vectors and pBR322 · competent hosts · PCR · bioreactors · downstream processing",
+                      "questions": 10,
+                      "question_types": {
+                        "mcq": 3,
+                        "ar": 2,
+                        "vsa2": 2,
+                        "sa3": 1,
+                        "case": 1,
+                        "la5": 1
+                      },
+                      "diagrams": [],
+                      "words": 3168,
+                      "read_minutes": 11
                     },
                     {
                       "id": "ch-10",
                       "number": 10,
                       "title": "Biotechnology and its Applications",
                       "unit": "IX",
-                      "items": {},
-                      "marks_hint": null,
-                      "summary": null,
-                      "questions": 0,
-                      "question_types": {}
+                      "items": {
+                        "notes": true,
+                        "mustknow": true,
+                        "formulas": true,
+                        "questions": true
+                      },
+                      "marks_hint": "Unit IX Biotechnology = 12 marks (shared by Ch 9–10, CBSE 2026–27)",
+                      "summary": "Bt cotton and cry genes · RNA interference · genetically engineered insulin · gene therapy · molecular diagnosis · transgenic animals · ethical issues, biopiracy and patents",
+                      "questions": 10,
+                      "question_types": {
+                        "mcq": 3,
+                        "ar": 2,
+                        "vsa2": 2,
+                        "sa3": 1,
+                        "case": 1,
+                        "la5": 1
+                      },
+                      "diagrams": [],
+                      "words": 2897,
+                      "read_minutes": 9
                     }
                   ]
                 },
@@ -1717,10 +1777,10 @@
               },
               "papers": [],
               "counts": {
-                "notes": 6,
-                "mustknow": 6,
-                "formulas": 6,
-                "questions": 6,
+                "notes": 10,
+                "mustknow": 10,
+                "formulas": 10,
+                "questions": 10,
                 "chapters": 13
               }
             },

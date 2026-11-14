@@ -1,0 +1,102 @@
+[
+  {
+    "id": "bio-09-q01", "chapter": "ch-09", "type": "mcq", "marks": 1, "stars": 3, "label": "PYQ-style", "topic": "Restriction enzymes",
+    "stem": "In the name EcoRI, the letter R stands for:",
+    "options": ["the genus of the bacterium", "the strain of the bacterium", "restriction", "the order in which it was isolated"],
+    "answer": "B",
+    "hint": "E = genus, co = species.",
+    "model_answer": "**(b).** R = strain RY13; I = first enzyme isolated from that strain."
+  },
+  {
+    "id": "bio-09-q02", "chapter": "ch-09", "type": "mcq", "marks": 1, "stars": 2, "label": "PYQ-style", "topic": "pBR322",
+    "stem": "Foreign DNA is ligated at the PstI site of pBR322. The recombinant cells will be:",
+    "options": ["resistant to ampicillin, sensitive to tetracycline", "sensitive to ampicillin, resistant to tetracycline", "resistant to both", "sensitive to both"],
+    "answer": "B",
+    "hint": "PstI lies in ampᴿ.",
+    "model_answer": "**(b).** Insertion in ampᴿ inactivates it; tetᴿ remains functional."
+  },
+  {
+    "id": "bio-09-q03", "chapter": "ch-09", "type": "mcq", "marks": 1, "stars": 2, "label": "PYQ-style", "topic": "PCR",
+    "stem": "Starting from one DNA molecule, how many copies are present after 5 cycles of PCR?",
+    "options": ["10", "25", "32", "64"],
+    "answer": "C",
+    "hint": "Doubling each cycle.",
+    "model_answer": "**(c) 32.** 2⁵ = 32."
+  },
+  {
+    "id": "bio-09-q04", "chapter": "ch-09", "type": "ar", "marks": 1, "stars": 3, "label": "PYQ-style", "topic": "Gel electrophoresis",
+    "stem": "**Assertion (A):** In agarose gel electrophoresis, DNA fragments move towards the anode.<br>**Reason (R):** DNA is a negatively charged molecule.",
+    "options": ["Both A and R are true, and R is the correct explanation of A.", "Both A and R are true, but R is not the correct explanation of A.", "A is true, but R is false.", "A is false, but R is true."],
+    "answer": "A",
+    "hint": "Phosphate groups.",
+    "model_answer": "**(a).** Negatively charged phosphate backbone makes DNA move to the positive electrode."
+  },
+  {
+    "id": "bio-09-q05", "chapter": "ch-09", "type": "ar", "marks": 1, "stars": 2, "label": "PYQ-style", "topic": "Selection",
+    "stem": "**Assertion (A):** In blue–white screening, colonies that turn blue contain recombinant DNA.<br>**Reason (R):** Insertion of foreign DNA inactivates the β-galactosidase gene.",
+    "options": ["Both A and R are true, and R is the correct explanation of A.", "Both A and R are true, but R is not the correct explanation of A.", "A is true, but R is false.", "A is false, but R is true."],
+    "answer": "D",
+    "hint": "Recombinants cannot make the enzyme.",
+    "model_answer": "**(d).** A is false: recombinants are colourless (white) because the inserted DNA inactivates β-galactosidase; R is true."
+  },
+  {
+    "id": "bio-09-q06", "chapter": "ch-09", "type": "vsa2", "marks": 2, "stars": 3, "label": "PYQ-style", "topic": "Palindromes",
+    "stem": "What is a palindromic sequence? Write the recognition sequence of EcoRI and show how it produces sticky ends.",
+    "hint": "Read 5′→3′ on both strands.",
+    "model_answer": "A palindrome in DNA is a base sequence that reads the same on both strands when read in the same direction (5′→3′). EcoRI: 5′-GAATTC-3′ / 3′-CTTAAG-5′. It cuts between G and A on both strands, leaving single-stranded AATT overhangs (sticky ends) that pair with complementary cut ends.",
+    "scheme": [
+      { "step": "Definition of palindrome", "marks": 1 },
+      { "step": "GAATTC, cut between G and A, sticky overhangs", "marks": 1 }
+    ]
+  },
+  {
+    "id": "bio-09-q07", "chapter": "ch-09", "type": "vsa2", "marks": 2, "stars": 2, "label": "PYQ-style", "topic": "Competent hosts",
+    "stem": "How are bacterial cells made competent to take up recombinant DNA? Name one method used for plant cells.",
+    "hint": "Divalent cation; ice and heat.",
+    "model_answer": "Cells are treated with a divalent cation such as calcium, incubated with recombinant DNA on ice, given a brief heat shock at 42 °C and returned to ice, which helps DNA enter. For plant cells: biolistics (gene gun with DNA-coated gold or tungsten particles) or disarmed Ti plasmid.",
+    "scheme": [
+      { "step": "Ca²⁺ treatment + ice / 42 °C heat shock / ice", "marks": 1.5 },
+      { "step": "Gene gun (or disarmed Agrobacterium)", "marks": 0.5 }
+    ]
+  },
+  {
+    "id": "bio-09-q08", "chapter": "ch-09", "type": "sa3", "marks": 3, "stars": 3, "label": "PYQ-style", "topic": "PCR",
+    "stem": "Describe the three steps of PCR. Why is Taq polymerase used?",
+    "hint": "Heat, cool, extend.",
+    "model_answer": "Denaturation: heating separates the two DNA strands. Annealing: on cooling, two primers bind to complementary sequences at the ends of the target region. Extension: DNA polymerase extends the primers using nucleotides, copying the template. Repeated cycles amplify the DNA about a billion times. Taq polymerase, from Thermus aquaticus, is thermostable and survives the high temperature of denaturation.",
+    "scheme": [
+      { "step": "Denaturation", "marks": 0.5 },
+      { "step": "Annealing of primers", "marks": 0.5 },
+      { "step": "Extension by polymerase; repeated cycles amplify", "marks": 1 },
+      { "step": "Taq polymerase is thermostable (Thermus aquaticus)", "marks": 1 }
+    ]
+  },
+  {
+    "id": "bio-09-q09", "chapter": "ch-09", "type": "case", "marks": 4, "stars": 2, "label": "PYQ-style", "topic": "Isolation and cloning",
+    "stem": "*A student isolated DNA from a fungus, cut it and a plasmid with the same restriction enzyme, joined them and introduced them into E. coli. Some colonies grew on ampicillin but not on tetracycline.*",
+    "parts": [
+      { "id": "A", "marks": 1, "stem": "Which enzyme should she use to break the fungal cell wall, and how will purified DNA be recovered?",
+        "model_answer": "Chitinase; after removing RNA and protein, chilled ethanol precipitates DNA as fine threads.",
+        "scheme": [ { "step": "Chitinase; chilled ethanol precipitation", "marks": 1 } ] },
+      { "id": "B", "marks": 1, "stem": "Why must the plasmid and fungal DNA be cut with the same enzyme?",
+        "model_answer": "To produce matching sticky ends that pair and can be joined by DNA ligase.",
+        "scheme": [ { "step": "Matching sticky ends for ligation", "marks": 1 } ] },
+      { "id": "C", "marks": 2, "stem": "What do the colonies that grow on ampicillin but not on tetracycline contain? Name the phenomenon.",
+        "model_answer": "They contain recombinant plasmids: the insert sits in tetᴿ, inactivating it, while ampᴿ still works. This is insertional inactivation.",
+        "scheme": [ { "step": "Recombinant plasmid with insert in tetᴿ", "marks": 1 }, { "step": "Insertional inactivation", "marks": 1 } ] }
+    ]
+  },
+  {
+    "id": "bio-09-q10", "chapter": "ch-09", "type": "la5", "marks": 5, "stars": 3, "label": "PYQ-style", "topic": "Cloning vectors",
+    "stem": "(a) Explain the features of a cloning vector, with reference to pBR322. [3]<br>(b) What is a bioreactor? Name the parts that give optimal growth conditions in a stirred-tank bioreactor. [2]",
+    "hint": "ori, marker, cloning site.",
+    "model_answer": "(a) Origin of replication: replication starts here; controls copy number (pBR322 has ori). Selectable marker: identifies transformants, e.g. ampᴿ and tetᴿ in pBR322. Cloning sites: single recognition sites for restriction enzymes, such as BamHI and SalI in tetᴿ and PstI, PvuI in ampᴿ, allowing insertional inactivation; rop codes replication proteins.<br>(b) A bioreactor is a large vessel (100–1000 L) in which raw materials are biologically converted into products under optimal conditions. Stirred-tank parts: agitator/stirrer, oxygen delivery (sparging), foam control, temperature control, pH control, sampling ports.",
+    "scheme": [
+      { "step": "ori and copy number", "marks": 1 },
+      { "step": "Selectable markers ampᴿ, tetᴿ", "marks": 1 },
+      { "step": "Single cloning sites in resistance genes", "marks": 1 },
+      { "step": "Bioreactor defined", "marks": 1 },
+      { "step": "Control systems named", "marks": 1 }
+    ]
+  }
+]

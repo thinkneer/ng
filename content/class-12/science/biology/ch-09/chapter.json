@@ -1,0 +1,16 @@
+{
+  "$schema": "../../../../../schemas/chapter.schema.json",
+  "id": "ch-09",
+  "number": 9,
+  "title": "Biotechnology: Principles and Processes",
+  "unit": "IX",
+  "marks_hint": "Unit IX Biotechnology = 12 marks (shared by Ch 9–10, CBSE 2026–27)",
+  "summary": "Principles of biotechnology · restriction enzymes · gel electrophoresis · cloning vectors and pBR322 · competent hosts · PCR · bioreactors · downstream processing",
+  "status": {
+    "notes": "ready",
+    "mustknow": "ready",
+    "formulas": "ready",
+    "questions": "ready"
+  },
+  "updated": "2026-11-14"
+}
