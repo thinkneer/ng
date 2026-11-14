@@ -1,0 +1,90 @@
+[
+  {
+    "id": "p5-images",
+    "kind": "figure",
+    "title": "The poem's images",
+    "svg": "ref: notes#aunt-jennifer-images",
+    "back": "Tigers, screen, ivory needle, wedding band, terrified hands.",
+    "stars": 3,
+    "tags": [
+      "imagery"
+    ]
+  },
+  {
+    "id": "p5-movement",
+    "kind": "process",
+    "title": "Three stanzas, three moves",
+    "svg": "ref: notes#aunt-jennifer-movement",
+    "back": "Tigers prance, fearless → fluttering fingers, the ring → terrified hands in death, tigers go on.",
+    "stars": 3,
+    "tags": [
+      "plot"
+    ]
+  },
+  {
+    "id": "p5-tigers",
+    "kind": "event",
+    "title": "Bright topaz denizens",
+    "svg": "<svg viewBox=\"0 0 320 200\" role=\"img\" aria-label=\"Prancing across the screen, unafraid of the men beneath the tree\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" font-size=\"11\"><rect x=\"40\" y=\"30\" width=\"240\" height=\"130\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"6\" rx=\"4\"/><rect x=\"48\" y=\"38\" width=\"224\" height=\"114\" fill=\"currentColor\" fill-opacity=\"0.06\" stroke=\"none\"/><g><path d=\"M70,116.48 Q60,59.36 94.0,56.0 L182.0,52.639999999999986 Q217.20000000000002,22.39999999999999 233.2,49.27999999999999 L242.8,69.44 Q239.60000000000002,86.24 214.0,86.24 L207.6,106.4 L207.6,140 H188.4 V113.12 L169.2,113.12 V140 H150.0 V111.776 L118.0,111.776 V140 H98.8 V113.12 Q79.6,109.75999999999999 70,116.48 Z\" fill=\"currentColor\" fill-opacity=\"0.9\" stroke=\"none\"/><path d=\"M74,72.8 Q42,66.07999999999998 52,25.760000000000005 Q56,49.27999999999999 76,64.73599999999999 Z\" fill=\"currentColor\" fill-opacity=\"0.9\" stroke=\"none\"/><path d=\"M188.4,52.639999999999986 L182.0,29.120000000000005 L204.4,42.56 Z M223.6,35.83999999999999 L230.0,15.679999999999993 L242.8,42.56 Z\" fill=\"currentColor\" fill-opacity=\"0.9\" stroke=\"none\"/><path d=\"M111.6,59.36 q6,23.52 0,47.04 M130.8,59.36 q6,23.52 0,47.04 M150.0,59.36 q6,23.52 0,47.04 M169.2,59.36 q6,23.52 0,47.04 \" fill=\"none\" stroke=\"#E0B400\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"222.0\" cy=\"52.639999999999986\" r=\"2.5\" fill=\"#E0B400\" stroke=\"none\"/></g><text x=\"160.0\" y=\"192\" text-anchor=\"middle\" font-size=\"11\" font-style=\"italic\" fill=\"currentColor\" fill-opacity=\"0.85\" stroke=\"none\">Prancing across the screen, unafraid of the men beneath the tree</text></svg>",
+    "back": "Embroidered, not real. Golden, free, chivalric — a knight's confidence. Everything their maker lacks.",
+    "stars": 3,
+    "tags": [
+      "event"
+    ]
+  },
+  {
+    "id": "p5-ring",
+    "kind": "event",
+    "title": "The weight of the wedding band",
+    "svg": "<svg viewBox=\"0 0 320 200\" role=\"img\" aria-label=\"Uncle's ring, massive on her hand\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" font-size=\"11\"><g transform=\"translate(150,100) scale(1.4)\"><path d=\"M-30,40 Q-34,10 -20,-20 L-12,-20 L-14,10 L-8,-34 L0,-34 L-2,8 L4,-40 L12,-40 L8,10 L16,-26 L24,-26 L18,22 Q14,44 0,48 Q-26,50 -30,40 Z\" fill=\"currentColor\" fill-opacity=\"0.9\" stroke=\"none\"/></g><circle cx=\"178\" cy=\"118\" r=\"22\" fill=\"none\" stroke=\"#E0B400\" stroke-width=\"9\"/><text x=\"160.0\" y=\"192\" text-anchor=\"middle\" font-size=\"11\" font-style=\"italic\" fill=\"currentColor\" fill-opacity=\"0.85\" stroke=\"none\">Uncle's ring, massive on her hand</text></svg>",
+    "back": "Physically light; symbolically the burden of an oppressive marriage that makes even the ivory needle hard to pull.",
+    "stars": 3,
+    "tags": [
+      "event"
+    ]
+  },
+  {
+    "id": "p5-needle",
+    "kind": "event",
+    "title": "Fingers fluttering through wool",
+    "svg": "<svg viewBox=\"0 0 320 200\" role=\"img\" aria-label=\"Nervous, weak — a trapped bird's wings\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" font-size=\"11\"><g transform=\"translate(60,160) scale(1.2)\"><path d=\"M0,0 L90,-90\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M80,-80 L96,-96 L92,-100 L76,-84 Z\" fill=\"currentColor\" fill-opacity=\"0.9\" stroke=\"none\"/><circle cx=\"10\" cy=\"-10\" r=\"5\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/></g><circle cx=\"80\" cy=\"150\" r=\"14\" fill=\"#E0B400\" fill-opacity=\"0.5\" stroke=\"none\"/><circle cx=\"100\" cy=\"165\" r=\"10\" fill=\"#E0B400\" fill-opacity=\"0.5\" stroke=\"none\"/><text x=\"230\" y=\"90\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"700\" font-style=\"italic\" fill=\"currentColor\" stroke=\"none\">hard to pull</text><text x=\"160.0\" y=\"192\" text-anchor=\"middle\" font-size=\"11\" font-style=\"italic\" fill=\"currentColor\" fill-opacity=\"0.85\" stroke=\"none\">Nervous, weak — a trapped bird's wings</text></svg>",
+    "back": "The verb 'flutter' gives the aunt's hands the movement of a frightened bird; the lightest tool is an effort.",
+    "stars": 2,
+    "tags": [
+      "event"
+    ]
+  },
+  {
+    "id": "p5-death",
+    "kind": "mnemonic",
+    "title": "Ringed with ordeals",
+    "svg": "<svg viewBox=\"0 0 320 200\" role=\"img\" aria-label=\"Death brings no freedom — but the tigers prance on\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" font-size=\"11\"><g><circle cx=\"134.8\" cy=\"140.4\" r=\"6.6\" fill=\"currentColor\" fill-opacity=\"0.6\" stroke=\"none\"/><rect x=\"142.0\" y=\"139.44\" width=\"45.0\" height=\"10.56\" fill=\"currentColor\" fill-opacity=\"0.6\" stroke=\"none\" rx=\"3.9599999999999995\"/></g><circle cx=\"205\" cy=\"140\" r=\"10\" fill=\"none\" stroke=\"#E0B400\" stroke-width=\"6\"/><g><path d=\"M200,86.77 Q190,54.64000000000001 213.5,52.75 L263.0,50.86 Q282.8,33.85000000000001 291.8,48.97 L297.2,60.31 Q295.4,69.76 281.0,69.76 L277.4,81.1 L277.4,100 H266.6 V84.88 L255.8,84.88 V100 H245.0 V84.124 L227.0,84.124 V100 H216.2 V84.88 Q205.4,82.99000000000001 200,86.77 Z\" fill=\"currentColor\" fill-opacity=\"0.9\" stroke=\"none\"/><path d=\"M204,62.2 Q172,58.42 182,35.74000000000001 Q186,48.97 206,57.664 Z\" fill=\"currentColor\" fill-opacity=\"0.9\" stroke=\"none\"/><path d=\"M266.6,50.86 L263.0,37.63000000000001 L275.6,45.190000000000005 Z M286.4,41.410000000000004 L290.0,30.070000000000007 L297.2,45.190000000000005 Z\" fill=\"currentColor\" fill-opacity=\"0.9\" stroke=\"none\"/><path d=\"M223.4,54.64000000000001 q6,13.229999999999999 0,26.459999999999997 M234.2,54.64000000000001 q6,13.229999999999999 0,26.459999999999997 M245.0,54.64000000000001 q6,13.229999999999999 0,26.459999999999997 M255.8,54.64000000000001 q6,13.229999999999999 0,26.459999999999997 \" fill=\"none\" stroke=\"#E0B400\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"285.5\" cy=\"50.86\" r=\"2.5\" fill=\"#E0B400\" stroke=\"none\"/></g><text x=\"160.0\" y=\"192\" text-anchor=\"middle\" font-size=\"11\" font-style=\"italic\" fill=\"currentColor\" fill-opacity=\"0.85\" stroke=\"none\">Death brings no freedom — but the tigers prance on</text></svg>",
+    "back": "Her terrified hands will lie still, still ringed with the ordeals she was mastered by. Her art outlives her, proud and unafraid: triumph and defeat together.",
+    "stars": 3,
+    "tags": [
+      "theme"
+    ]
+  },
+  {
+    "id": "p5-theme",
+    "kind": "mnemonic",
+    "title": "Art as the free self",
+    "svg": "<svg viewBox=\"0 0 320 200\" role=\"img\" aria-label=\"What she could not live, she stitched\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" font-size=\"11\"><rect x=\"60\" y=\"40\" width=\"200\" height=\"110\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"6\" rx=\"4\"/><rect x=\"68\" y=\"48\" width=\"184\" height=\"94\" fill=\"currentColor\" fill-opacity=\"0.06\" stroke=\"none\"/><g><path d=\"M85,112.36 Q75,69.52000000000001 103.0,67.0 L169.0,64.48 Q195.4,41.8 207.4,61.959999999999994 L214.60000000000002,77.08 Q212.2,89.68 193.0,89.68 L188.2,104.8 L188.2,130 H173.8 V109.84 L159.4,109.84 V130 H145.0 V108.832 L121.0,108.832 V130 H106.6 V109.84 Q92.2,107.32 85,112.36 Z\" fill=\"currentColor\" fill-opacity=\"0.9\" stroke=\"none\"/><path d=\"M89,79.6 Q57,74.56 67,44.32000000000001 Q71,61.959999999999994 91,73.55199999999999 Z\" fill=\"currentColor\" fill-opacity=\"0.9\" stroke=\"none\"/><path d=\"M173.8,64.48 L169.0,46.84 L185.8,56.92 Z M200.2,51.879999999999995 L205.0,36.760000000000005 L214.60000000000002,56.92 Z\" fill=\"currentColor\" fill-opacity=\"0.9\" stroke=\"none\"/><path d=\"M116.2,69.52000000000001 q6,17.639999999999997 0,35.279999999999994 M130.6,69.52000000000001 q6,17.639999999999997 0,35.279999999999994 M145.0,69.52000000000001 q6,17.639999999999997 0,35.279999999999994 M159.4,69.52000000000001 q6,17.639999999999997 0,35.279999999999994 \" fill=\"none\" stroke=\"#E0B400\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"199.0\" cy=\"64.48\" r=\"2.5\" fill=\"#E0B400\" stroke=\"none\"/></g><g><circle cx=\"40\" cy=\"140.5\" r=\"5.5\" fill=\"currentColor\" fill-opacity=\"0.5\" stroke=\"none\"/><path d=\"M32.5,154.0 Q40,146.0 47.5,154.0 L53.5,185 H26.5 Z\" fill=\"currentColor\" fill-opacity=\"0.5\" stroke=\"none\"/></g><text x=\"160.0\" y=\"192\" text-anchor=\"middle\" font-size=\"11\" font-style=\"italic\" fill=\"currentColor\" fill-opacity=\"0.85\" stroke=\"none\">What she could not live, she stitched</text></svg>",
+    "back": "A feminist protest without slogans: a woman crushed by marriage pours her courage into tigers. The poem honours the art and indicts the cage.",
+    "stars": 3,
+    "tags": [
+      "theme"
+    ]
+  },
+  {
+    "id": "p5-line",
+    "kind": "event",
+    "title": "The phrase to recognise",
+    "svg": "<svg viewBox=\"0 0 320 200\" role=\"img\" aria-label=\"Line to remember\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" font-size=\"11\"><g><rect x=\"28\" y=\"36\" width=\"264\" height=\"72\" fill=\"currentColor\" fill-opacity=\"0.08\" stroke=\"currentColor\" stroke-width=\"1.5\" rx=\"10\"/><path d=\"M50,108 L42,122 L64,108 Z\" fill=\"currentColor\" fill-opacity=\"0.9\" stroke=\"none\"/><text x=\"160.0\" y=\"78.3\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\" stroke=\"none\">chivalric certainty</text></g><text x=\"160\" y=\"146\" text-anchor=\"middle\" font-size=\"11\" fill=\"currentColor\" fill-opacity=\"0.8\" stroke=\"none\">— how the tigers pace</text><text x=\"160.0\" y=\"192\" text-anchor=\"middle\" font-size=\"11\" font-style=\"italic\" fill=\"currentColor\" fill-opacity=\"0.85\" stroke=\"none\">Line to remember</text></svg>",
+    "back": "Like medieval knights: noble, brave, graceful, honourable. The dignity and courage the aunt admires but was never allowed.",
+    "stars": 2,
+    "tags": [
+      "line"
+    ]
+  }
+]

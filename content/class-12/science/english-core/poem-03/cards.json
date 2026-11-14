@@ -1,0 +1,90 @@
+[
+  {
+    "id": "p3-images",
+    "kind": "figure",
+    "title": "Keats's images",
+    "svg": "ref: notes#thing-of-beauty-images",
+    "back": "Bower, flowery band, pall; sun and moon, daffodils and rills, the endless fountain.",
+    "stars": 3,
+    "tags": [
+      "imagery"
+    ]
+  },
+  {
+    "id": "p3-movement",
+    "kind": "process",
+    "title": "The argument of the lines",
+    "svg": "ref: notes#thing-of-beauty-movement",
+    "back": "Joy for ever → gifts → flowery band → pall lifted → catalogue → endless fountain.",
+    "stars": 3,
+    "tags": [
+      "plot"
+    ]
+  },
+  {
+    "id": "p3-joy",
+    "kind": "mnemonic",
+    "title": "A joy for ever",
+    "svg": "<svg viewBox=\"0 0 320 200\" role=\"img\" aria-label=\"Beauty never passes into nothingness\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" font-size=\"11\"><circle cx=\"160\" cy=\"95\" r=\"50\" fill=\"none\" stroke=\"#E0B400\" stroke-width=\"8\"/><circle cx=\"160\" cy=\"95\" r=\"30\" fill=\"none\" stroke=\"#E0B400\" stroke-width=\"5\"/><circle cx=\"160\" cy=\"95\" r=\"12\" fill=\"#E0B400\" stroke=\"none\"/><text x=\"160\" y=\"170\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"700\" font-style=\"italic\" fill=\"currentColor\" stroke=\"none\">its loveliness increases</text><text x=\"160.0\" y=\"192\" text-anchor=\"middle\" font-size=\"11\" font-style=\"italic\" fill=\"currentColor\" fill-opacity=\"0.85\" stroke=\"none\">Beauty never passes into nothingness</text></svg>",
+    "back": "Each return gives more; the joy stays and grows in memory. Beauty does not wear out like other pleasures.",
+    "stars": 3,
+    "tags": [
+      "theme"
+    ]
+  },
+  {
+    "id": "p3-band",
+    "kind": "event",
+    "title": "The flowery band",
+    "svg": "<svg viewBox=\"0 0 320 200\" role=\"img\" aria-label=\"Woven every morning — against despondence and gloom\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" font-size=\"11\"><circle cx=\"160\" cy=\"100\" r=\"60\" fill=\"none\" stroke=\"#E0B400\" stroke-width=\"10\"/><circle cx=\"220.0\" cy=\"100.0\" r=\"9\" fill=\"currentColor\" fill-opacity=\"0.9\" stroke=\"none\"/><circle cx=\"189.85426287350361\" cy=\"152.045393535641\" r=\"9\" fill=\"currentColor\" fill-opacity=\"0.9\" stroke=\"none\"/><circle cx=\"129.70923372400856\" cy=\"151.79256199893243\" r=\"9\" fill=\"currentColor\" fill-opacity=\"0.9\" stroke=\"none\"/><circle cx=\"100.00007609634763\" cy=\"100.0955591749892\" r=\"9\" fill=\"currentColor\" fill-opacity=\"0.9\" stroke=\"none\"/><circle cx=\"130.58435071955805\" cy=\"47.70545365518471\" r=\"9\" fill=\"currentColor\" fill-opacity=\"0.9\" stroke=\"none\"/><circle cx=\"190.20824028412684\" cy=\"48.159261010895534\" r=\"9\" fill=\"currentColor\" fill-opacity=\"0.9\" stroke=\"none\"/><text x=\"160\" y=\"176\" text-anchor=\"middle\" font-size=\"11\" font-style=\"italic\" fill=\"currentColor\" stroke=\"none\">binds us to the earth</text><text x=\"160.0\" y=\"192\" text-anchor=\"middle\" font-size=\"11\" font-style=\"italic\" fill=\"currentColor\" fill-opacity=\"0.85\" stroke=\"none\">Woven every morning — against despondence and gloom</text></svg>",
+    "back": "Beauty is the garland that keeps us wanting to live despite despondence, the dearth of noble people, gloomy days and over-darkened ways.",
+    "stars": 3,
+    "tags": [
+      "event"
+    ]
+  },
+  {
+    "id": "p3-pall",
+    "kind": "event",
+    "title": "Lifting the pall",
+    "svg": "<svg viewBox=\"0 0 320 200\" role=\"img\" aria-label=\"A funeral cloth over the spirit — moved away by some shape of beauty\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" font-size=\"11\"><rect x=\"60\" y=\"110\" width=\"200\" height=\"60\" fill=\"currentColor\" fill-opacity=\"0.85\" stroke=\"none\" rx=\"4\"/><path d=\"M60,110 Q160,40 260,110 Z\" fill=\"currentColor\" fill-opacity=\"0.3\" stroke=\"none\"/><circle cx=\"160\" cy=\"60\" r=\"22\" fill=\"#E0B400\" stroke=\"none\"/><path d=\"M160,100 L160,45 M164.8,53.8 L160,45 L155.2,53.8\" fill=\"none\" stroke=\"#E0B400\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><text x=\"160.0\" y=\"192\" text-anchor=\"middle\" font-size=\"11\" font-style=\"italic\" fill=\"currentColor\" fill-opacity=\"0.85\" stroke=\"none\">A funeral cloth over the spirit — moved away by some shape of beauty</text></svg>",
+    "back": "The pall covers a coffin; our gloom is a death-cloth on the soul. Any beautiful thing lifts it. The most-asked metaphor.",
+    "stars": 3,
+    "tags": [
+      "event"
+    ]
+  },
+  {
+    "id": "p3-catalogue",
+    "kind": "event",
+    "title": "Sun, moon, trees, daffodils, rills, musk-rose",
+    "svg": "<svg viewBox=\"0 0 320 200\" role=\"img\" aria-label=\"Nature's small, sheltering beauties\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" font-size=\"11\"><circle cx=\"60\" cy=\"50\" r=\"20\" fill=\"#E0B400\" stroke=\"none\"/><path d=\"M110,36 A14,14 0 1 0 110,64 A17.5,17.5 0 0 1 110,36 Z\" fill=\"currentColor\" fill-opacity=\"0.9\" stroke=\"none\"/><g><rect x=\"56.4\" y=\"125.0\" width=\"7.2\" height=\"45.0\" fill=\"currentColor\" fill-opacity=\"0.6\" stroke=\"none\"/><circle cx=\"60\" cy=\"107.0\" r=\"27.0\" fill=\"currentColor\" fill-opacity=\"0.6\" stroke=\"none\"/><circle cx=\"43.8\" cy=\"120.5\" r=\"18.0\" fill=\"currentColor\" fill-opacity=\"0.6\" stroke=\"none\"/><circle cx=\"76.2\" cy=\"120.5\" r=\"18.0\" fill=\"currentColor\" fill-opacity=\"0.6\" stroke=\"none\"/></g><g transform=\"translate(150,172) scale(1.0)\"><path d=\"M0,0 V-60\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M0,-60 Q-10.799999999999999,-64.8 -18,-68 Q-7.2,-69.6 0,-60 Z\" fill=\"#E0B400\" stroke=\"none\"/><path d=\"M0,-60 Q10.799999999999999,-64.8 18,-68 Q7.2,-69.6 0,-60 Z\" fill=\"#E0B400\" stroke=\"none\"/><path d=\"M0,-60 Q-7.199999999999999,-51.6 -12,-46 Q-4.800000000000001,-43.2 0,-60 Z\" fill=\"#E0B400\" stroke=\"none\"/><path d=\"M0,-60 Q7.199999999999999,-51.6 12,-46 Q4.800000000000001,-43.2 0,-60 Z\" fill=\"#E0B400\" stroke=\"none\"/><path d=\"M0,-60 Q0.0,-72.0 0,-80 Q0.0,-84.0 0,-60 Z\" fill=\"#E0B400\" stroke=\"none\"/><circle cx=\"0\" cy=\"-60\" r=\"6\" fill=\"currentColor\" fill-opacity=\"0.9\" stroke=\"none\"/></g><path d=\"M190,165 q10.0,-6 20.0,0 q10.0,6 20.0,0 q10.0,-6 20.0,0 q10.0,6 20.0,0 q10.0,-6 20.0,0 q10.0,6 20.0,0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\" opacity=\"0.8\"/><circle cx=\"250\" cy=\"120\" r=\"14\" fill=\"#E0B400\" stroke=\"none\"/><text x=\"160.0\" y=\"192\" text-anchor=\"middle\" font-size=\"11\" font-style=\"italic\" fill=\"currentColor\" fill-opacity=\"0.85\" stroke=\"none\">Nature's small, sheltering beauties</text></svg>",
+    "back": "Shade for simple sheep, a cooling covert against the hot season, blooms deep in the forest brake — every image gives shelter or refreshment.",
+    "stars": 2,
+    "tags": [
+      "event"
+    ]
+  },
+  {
+    "id": "p3-fountain",
+    "kind": "event",
+    "title": "An endless fountain of immortal drink",
+    "svg": "<svg viewBox=\"0 0 320 200\" role=\"img\" aria-label=\"Why the joy lasts: its source is heavenly and never runs dry\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" font-size=\"11\"><g><path d=\"M100,165 H220 L210,185 H110 Z\" fill=\"currentColor\" fill-opacity=\"0.9\" stroke=\"none\"/><rect x=\"154\" y=\"95\" width=\"12\" height=\"70\" fill=\"currentColor\" fill-opacity=\"0.9\" stroke=\"none\"/><path d=\"M160,95 Q130,55 100,155\" fill=\"none\" stroke=\"#E0B400\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M160,95 Q145,55 130,155\" fill=\"none\" stroke=\"#E0B400\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M160,95 Q175,55 190,155\" fill=\"none\" stroke=\"#E0B400\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M160,95 Q190,55 220,155\" fill=\"none\" stroke=\"#E0B400\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M160,95 V50\" fill=\"none\" stroke=\"#E0B400\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></g><text x=\"160\" y=\"40\" text-anchor=\"middle\" font-size=\"12\" font-style=\"italic\" fill=\"currentColor\" stroke=\"none\">from heaven's brink</text><text x=\"160.0\" y=\"192\" text-anchor=\"middle\" font-size=\"11\" font-style=\"italic\" fill=\"currentColor\" fill-opacity=\"0.85\" stroke=\"none\">Why the joy lasts: its source is heavenly and never runs dry</text></svg>",
+    "back": "The closing image answers the opening line. Beauty is divine nectar, inexhaustible, giving a kind of immortality.",
+    "stars": 3,
+    "tags": [
+      "event"
+    ]
+  },
+  {
+    "id": "p3-dead",
+    "kind": "event",
+    "title": "Beauty beyond nature",
+    "svg": "<svg viewBox=\"0 0 320 200\" role=\"img\" aria-label=\"Line to remember\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" font-size=\"11\"><g><rect x=\"28\" y=\"36\" width=\"264\" height=\"72\" fill=\"currentColor\" fill-opacity=\"0.08\" stroke=\"currentColor\" stroke-width=\"1.5\" rx=\"10\"/><path d=\"M50,108 L42,122 L64,108 Z\" fill=\"currentColor\" fill-opacity=\"0.9\" stroke=\"none\"/><text x=\"160.0\" y=\"68.05\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"700\" fill=\"currentColor\" stroke=\"none\">the grandeur of the dooms</text><text x=\"160.0\" y=\"85.05\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"700\" fill=\"currentColor\" stroke=\"none\">of the mighty dead</text></g><text x=\"160\" y=\"146\" text-anchor=\"middle\" font-size=\"11\" fill=\"currentColor\" fill-opacity=\"0.8\" stroke=\"none\">— and all lovely tales we have heard or read</text><text x=\"160.0\" y=\"192\" text-anchor=\"middle\" font-size=\"11\" font-style=\"italic\" fill=\"currentColor\" fill-opacity=\"0.85\" stroke=\"none\">Line to remember</text></svg>",
+    "back": "Heroic lives and noble deaths of the past, and literature itself, are things of beauty too. Include them in the catalogue answer.",
+    "stars": 2,
+    "tags": [
+      "line"
+    ]
+  }
+]

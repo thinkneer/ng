@@ -1,0 +1,90 @@
+[
+  {
+    "id": "p4-images",
+    "kind": "figure",
+    "title": "The poem's images",
+    "svg": "ref: notes#roadside-stand-images",
+    "back": "Shed, polished traffic, city money, the open window, the good-doers, the poet.",
+    "stars": 3,
+    "tags": [
+      "imagery"
+    ]
+  },
+  {
+    "id": "p4-movement",
+    "kind": "process",
+    "title": "The poem's movement",
+    "svg": "ref: notes#roadside-stand-movement",
+    "back": "Shed → traffic passes → why they stop → childish longing → good-doers → the poet's pain.",
+    "stars": 3,
+    "tags": [
+      "plot"
+    ]
+  },
+  {
+    "id": "p4-shed",
+    "kind": "event",
+    "title": "A little new shed",
+    "svg": "<svg viewBox=\"0 0 320 200\" role=\"img\" aria-label=\"Not bread — a little of the city money that flows past\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" font-size=\"11\"><path d=\"M0,150.0 L60,90 L110,130 L170,60 L230,120 L270,95 L320,150.0 Z\" fill=\"currentColor\" fill-opacity=\"0.25\" stroke=\"none\"/><g><path d=\"M40,160 V90 L110.0,60 L180,90 V160 Z\" fill=\"currentColor\" fill-opacity=\"0.85\" stroke=\"none\"/><rect x=\"54.0\" y=\"111.0\" width=\"112.0\" height=\"21.0\" fill=\"#E0B400\" fill-opacity=\"0.9\" stroke=\"none\"/><text x=\"110.0\" y=\"127.1\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"700\" fill=\"currentColor\" stroke=\"none\">BERRIES</text></g><g><path d=\"M200,148.0 Q200,127.0 212.0,127.0 L225.0,107.5 H265.0 L280.0,127.0 H295.0 Q300,127.0 300,148.0 Z\" fill=\"currentColor\" fill-opacity=\"0.6\" stroke=\"none\"/><circle cx=\"222.0\" cy=\"150.4\" r=\"10.799999999999999\" fill=\"currentColor\" fill-opacity=\"0.6\" stroke=\"none\"/><circle cx=\"278.0\" cy=\"150.4\" r=\"10.799999999999999\" fill=\"currentColor\" fill-opacity=\"0.6\" stroke=\"none\"/><rect x=\"230.0\" y=\"112.0\" width=\"30.0\" height=\"15.0\" fill=\"#E0B400\" fill-opacity=\"0.9\" stroke=\"none\"/></g><rect x=\"0\" y=\"160\" width=\"320\" height=\"6\" fill=\"currentColor\" fill-opacity=\"0.5\" stroke=\"none\"/><text x=\"160.0\" y=\"192\" text-anchor=\"middle\" font-size=\"11\" font-style=\"italic\" fill=\"currentColor\" fill-opacity=\"0.85\" stroke=\"none\">Not bread — a little of the city money that flows past</text></svg>",
+    "back": "Berries in wooden quarts, crook-necked golden squash with silver warts. The farmers want fair trade, a share of the flower of cities.",
+    "stars": 3,
+    "tags": [
+      "event"
+    ]
+  },
+  {
+    "id": "p4-traffic",
+    "kind": "event",
+    "title": "Polished traffic, a mind ahead",
+    "svg": "<svg viewBox=\"0 0 320 200\" role=\"img\" aria-label=\"The cars that stop only complain, ask, turn, or want gas\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" font-size=\"11\"><g><path d=\"M20,138.0 Q20,117.0 32.0,117.0 L45.0,97.5 H85.0 L100.0,117.0 H115.0 Q120,117.0 120,138.0 Z\" fill=\"currentColor\" fill-opacity=\"0.9\" stroke=\"none\"/><circle cx=\"42.0\" cy=\"140.4\" r=\"10.799999999999999\" fill=\"currentColor\" fill-opacity=\"0.9\" stroke=\"none\"/><circle cx=\"98.0\" cy=\"140.4\" r=\"10.799999999999999\" fill=\"currentColor\" fill-opacity=\"0.9\" stroke=\"none\"/><rect x=\"50.0\" y=\"102.0\" width=\"30.0\" height=\"15.0\" fill=\"#E0B400\" fill-opacity=\"0.9\" stroke=\"none\"/></g><g><path d=\"M140,138.0 Q140,117.0 152.0,117.0 L165.0,97.5 H205.0 L220.0,117.0 H235.0 Q240,117.0 240,138.0 Z\" fill=\"currentColor\" fill-opacity=\"0.7\" stroke=\"none\"/><circle cx=\"162.0\" cy=\"140.4\" r=\"10.799999999999999\" fill=\"currentColor\" fill-opacity=\"0.7\" stroke=\"none\"/><circle cx=\"218.0\" cy=\"140.4\" r=\"10.799999999999999\" fill=\"currentColor\" fill-opacity=\"0.7\" stroke=\"none\"/><rect x=\"170.0\" y=\"102.0\" width=\"30.0\" height=\"15.0\" fill=\"#E0B400\" fill-opacity=\"0.9\" stroke=\"none\"/></g><g><path d=\"M260,140.4 Q260,123.6 269.6,123.6 L280.0,108.0 H312.0 L324.0,123.6 H336.0 Q340,123.6 340,140.4 Z\" fill=\"currentColor\" fill-opacity=\"0.5\" stroke=\"none\"/><circle cx=\"277.6\" cy=\"142.32\" r=\"8.64\" fill=\"currentColor\" fill-opacity=\"0.5\" stroke=\"none\"/><circle cx=\"322.4\" cy=\"142.32\" r=\"8.64\" fill=\"currentColor\" fill-opacity=\"0.5\" stroke=\"none\"/><rect x=\"284.0\" y=\"111.6\" width=\"24.0\" height=\"12.0\" fill=\"#E0B400\" fill-opacity=\"0.9\" stroke=\"none\"/></g><path d=\"M30,60 L290,60 M281.2,64.8 L290,60 L281.2,55.2\" fill=\"none\" stroke=\"#E0B400\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><g><path d=\"M230,185 V155 L260.0,125 L290,155 V185 Z\" fill=\"currentColor\" fill-opacity=\"0.3\" stroke=\"none\"/><rect x=\"236.0\" y=\"164.0\" width=\"48.0\" height=\"9.0\" fill=\"#E0B400\" fill-opacity=\"0.9\" stroke=\"none\"/><text x=\"260.0\" y=\"170.9\" text-anchor=\"middle\" font-size=\"10\" font-weight=\"700\" fill=\"currentColor\" stroke=\"none\">BERRIES</text></g><text x=\"160.0\" y=\"192\" text-anchor=\"middle\" font-size=\"11\" font-style=\"italic\" fill=\"currentColor\" fill-opacity=\"0.85\" stroke=\"none\">The cars that stop only complain, ask, turn, or want gas</text></svg>",
+    "back": "N and S painted wrong, a shed spoiling the view, directions, a gallon of gas the farmers do not sell. Nobody buys.",
+    "stars": 3,
+    "tags": [
+      "event"
+    ]
+  },
+  {
+    "id": "p4-window",
+    "kind": "event",
+    "title": "The open window",
+    "svg": "<svg viewBox=\"0 0 320 200\" role=\"img\" aria-label=\"The childish longing in vain\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" font-size=\"11\"><rect x=\"100\" y=\"40\" width=\"120\" height=\"120\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"6\"/><path d=\"M160,40 V160 M100,100 H220\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><g><circle cx=\"140\" cy=\"104.6\" r=\"6.6\" fill=\"currentColor\" fill-opacity=\"0.6\" stroke=\"none\"/><path d=\"M131.0,119.19999999999999 Q140,111.19999999999999 149.0,119.19999999999999 L156.2,158 H123.8 Z\" fill=\"currentColor\" fill-opacity=\"0.6\" stroke=\"none\"/></g><text x=\"160\" y=\"185\" text-anchor=\"middle\" font-size=\"10\" font-style=\"italic\" fill=\"currentColor\" stroke=\"none\">waiting for the squeal of brakes</text><text x=\"160.0\" y=\"192\" text-anchor=\"middle\" font-size=\"11\" font-style=\"italic\" fill=\"currentColor\" fill-opacity=\"0.85\" stroke=\"none\">The childish longing in vain</text></svg>",
+    "back": "All day the farmers wait for a car to slow, a hand with money. Frost calls it childish — innocent and unrealistic — and can hardly bear it.",
+    "stars": 2,
+    "tags": [
+      "event"
+    ]
+  },
+  {
+    "id": "p4-gooddoers",
+    "kind": "mnemonic",
+    "title": "Greedy good-doers",
+    "svg": "<svg viewBox=\"0 0 320 200\" role=\"img\" aria-label=\"Beneficent beasts of prey — help that destroys independence\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" font-size=\"11\"><g><circle cx=\"100\" cy=\"73.2\" r=\"13.2\" fill=\"currentColor\" fill-opacity=\"0.9\" stroke=\"none\"/><path d=\"M82.0,94.4 Q100,86.4 118.0,94.4 L115.12,129.6 L107.2,129.6 L108.64,180 H101.8 L100.72,132.0 H99.28 L98.2,180 H91.36 L92.8,129.6 L84.88,129.6 Z\" fill=\"currentColor\" fill-opacity=\"0.9\" stroke=\"none\"/><path d=\"M80.2,66.60000000000001 H119.8 V61.32000000000001 H111.88 V46.800000000000004 H88.12 V61.32000000000001 H80.2 Z\" fill=\"currentColor\" fill-opacity=\"0.9\" stroke=\"none\"/></g><g><circle cx=\"200\" cy=\"126.6\" r=\"6.6\" fill=\"currentColor\" fill-opacity=\"0.4\" stroke=\"none\"/><path d=\"M191.0,141.2 Q200,133.2 209.0,141.2 L207.56,154.8 L203.6,154.8 L204.32,180 H200.9 L200.36,156.0 H199.64 L199.1,180 H195.68 L196.4,154.8 L192.44,154.8 Z\" fill=\"currentColor\" fill-opacity=\"0.4\" stroke=\"none\"/></g><path d=\"M130,110 L180,120 M170.5,123.0 L180,120 L172.3,113.6\" fill=\"none\" stroke=\"#E0B400\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><rect x=\"230\" y=\"100\" width=\"60\" height=\"50\" fill=\"currentColor\" fill-opacity=\"0.85\" stroke=\"none\" rx=\"4\"/><text x=\"260\" y=\"130\" text-anchor=\"middle\" font-size=\"9\" fill=\"#E0B400\" stroke=\"none\">theatre</text><text x=\"160.0\" y=\"192\" text-anchor=\"middle\" font-size=\"11\" font-style=\"italic\" fill=\"currentColor\" fill-opacity=\"0.85\" stroke=\"none\">Beneficent beasts of prey — help that destroys independence</text></svg>",
+    "back": "Oxymorons for false philanthropy: relocate the poor near the theatre and store, teach them to sleep all day, soothe them out of their wits.",
+    "stars": 3,
+    "tags": [
+      "theme"
+    ]
+  },
+  {
+    "id": "p4-ending",
+    "kind": "mnemonic",
+    "title": "Would I accept such mercy?",
+    "svg": "<svg viewBox=\"0 0 320 200\" role=\"img\" aria-label=\"The poet turns his cruel 'kindness' on himself\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" font-size=\"11\"><g><circle cx=\"160\" cy=\"73.2\" r=\"13.2\" fill=\"currentColor\" fill-opacity=\"0.9\" stroke=\"none\"/><path d=\"M142.0,94.4 Q160,86.4 178.0,94.4 L175.12,129.6 L167.2,129.6 L168.64,180 H161.8 L160.72,132.0 H159.28 L158.2,180 H151.36 L152.8,129.6 L144.88,129.6 Z\" fill=\"currentColor\" fill-opacity=\"0.9\" stroke=\"none\"/></g><path d=\"M110,70 Q160,20 210,70\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-dasharray=\"4 4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"160\" cy=\"40\" r=\"10\" fill=\"#E0B400\" stroke=\"none\"/><text x=\"160.0\" y=\"192\" text-anchor=\"middle\" font-size=\"11\" font-style=\"italic\" fill=\"currentColor\" fill-opacity=\"0.85\" stroke=\"none\">The poet turns his cruel 'kindness' on himself</text></svg>",
+    "back": "He thinks of ending their pain at one stroke, then asks how he would feel if someone offered him that. Irony and honesty: pity is easy from a passing car.",
+    "stars": 3,
+    "tags": [
+      "theme"
+    ]
+  },
+  {
+    "id": "p4-line",
+    "kind": "event",
+    "title": "The phrase to recognise",
+    "svg": "<svg viewBox=\"0 0 320 200\" role=\"img\" aria-label=\"Line to remember\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" font-size=\"11\"><g><rect x=\"28\" y=\"36\" width=\"264\" height=\"72\" fill=\"currentColor\" fill-opacity=\"0.08\" stroke=\"currentColor\" stroke-width=\"1.5\" rx=\"10\"/><path d=\"M50,108 L42,122 L64,108 Z\" fill=\"currentColor\" fill-opacity=\"0.9\" stroke=\"none\"/><text x=\"160.0\" y=\"78.3\" text-anchor=\"middle\" font-size=\"18\" font-weight=\"700\" fill=\"currentColor\" stroke=\"none\">the flower of cities</text></g><text x=\"160\" y=\"146\" text-anchor=\"middle\" font-size=\"11\" fill=\"currentColor\" fill-opacity=\"0.8\" stroke=\"none\">— what the farmers want a share of</text><text x=\"160.0\" y=\"192\" text-anchor=\"middle\" font-size=\"11\" font-style=\"italic\" fill=\"currentColor\" fill-opacity=\"0.85\" stroke=\"none\">Line to remember</text></svg>",
+    "back": "Urban prosperity, the good life the newspapers and films promise. The farmers are not begging; they want to feel it too.",
+    "stars": 2,
+    "tags": [
+      "line"
+    ]
+  }
+]

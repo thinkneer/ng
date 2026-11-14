@@ -18,6 +18,24 @@ A favourite 2-mark question. Four reasons, none of them buying: to complain abou
 
 Frost calls the hope of the farmers a **childish longing** — not to mock it but to show how innocent and unrealistic it is: they wait all day for the sound of a car slowing, the squeal of brakes, the sight of a hand stretched out with money.
 
+```ng-mnemonic
+id: rs-why-stop
+title: Why the cars stop
+trick: **C-A-T-G**: Complain, Ask the way, Turn, Gas
+meaning: Complain about signs with N and S wrong and a shed spoiling the view · ask the way · use the yard to turn · ask for a gallon of gas. Never to buy.
+prompt: For what four reasons do cars stop at the roadside stand?
+```
+
+```ng-compare
+id: farmers-vs-traffic
+title: The farmers and the traffic
+cols: The farmers | The polished traffic
+row: Want | a little city money, fair trade | to get where it is going
+row: Offer | berries, squash, the mountain view | complaints, questions, demands
+row: Feeling | childish longing, sadness at the window | indifference, a mind ahead
+row: Frost's tone | sympathy | satire
+```
+
 **In one breath:** the shiny traffic speeds past, stopping only to complain, ask directions, turn round or beg petrol — never to buy; the farmers' hope is childish and heartbreaking.
 
 ## The greedy good-doers
@@ -30,6 +48,14 @@ Frost's target is a kind of government or corporate "development" that uproots p
 "Greedy good-doers" and "beneficent beasts of prey" are **oxymorons**: two contradictory words joined. Say what each half means — *good-doers / beneficent* (appearing kind) versus *greedy / beasts of prey* (actually exploiting) — and that Frost uses them to expose false philanthropy.
 :::
 
+```ng-mnemonic
+id: rs-oxymorons
+title: The two oxymorons
+trick: **Greedy Good-doers, Beneficent Beasts**
+meaning: Kind-sounding words joined to predatory ones: helpers who exploit. They relocate the poor near the theatre and store and soothe them out of their wits.
+prompt: Name the two oxymorons Frost uses for false philanthropists.
+```
+
 **In one breath:** the so-called helpers who want to relocate the farmers to planned villages are greedy good-doers, predators who rob the poor of their independence in the name of benefit.
 
 ## The poet's pain
@@ -41,6 +67,25 @@ Then comes the double-edged ending. The poet says he cannot bear their pain; at 
 :::tip The ending is not a death wish
 Students misread the last lines as Frost wanting the farmers dead. The point is ironic self-criticism: the poet catches himself thinking a cruel "merciful" thought and recognises that he would resent such mercy if it were aimed at him. Say "irony" and "self-reflection".
 :::
+
+```ng-steps
+id: roadside-stand-movement
+title: The poem's movement
+svg:
+<svg viewBox="0 0 320 200" role="img" aria-label="The poem's movement" fill="none" stroke="currentColor" stroke-width="1.5" font-size="10"><path d="M30,90 H290" stroke-width="1"/><g data-step="1"><circle cx="30.0" cy="90" r="12"/><text x="30.0" y="94" text-anchor="middle" font-size="10" font-weight="700" fill="currentColor" stroke="none">1</text><text x="30.0" y="120" text-anchor="middle" font-size="9" fill="currentColor" stroke="none">The shed</text></g><g data-step="2"><circle cx="82.0" cy="90" r="12"/><text x="82.0" y="94" text-anchor="middle" font-size="10" font-weight="700" fill="currentColor" stroke="none">2</text><text x="82.0" y="160" text-anchor="middle" font-size="9" fill="currentColor" stroke="none">Traffic passes</text></g><g data-step="3"><circle cx="134.0" cy="90" r="12"/><text x="134.0" y="94" text-anchor="middle" font-size="10" font-weight="700" fill="currentColor" stroke="none">3</text><text x="134.0" y="120" text-anchor="middle" font-size="9" fill="currentColor" stroke="none">Why they stop</text></g><g data-step="4"><circle cx="186.0" cy="90" r="12"/><text x="186.0" y="94" text-anchor="middle" font-size="10" font-weight="700" fill="currentColor" stroke="none">4</text><text x="186.0" y="160" text-anchor="middle" font-size="9" fill="currentColor" stroke="none">Childish longing</text></g><g data-step="5"><circle cx="238.0" cy="90" r="12"/><text x="238.0" y="94" text-anchor="middle" font-size="10" font-weight="700" fill="currentColor" stroke="none">5</text><text x="238.0" y="120" text-anchor="middle" font-size="9" fill="currentColor" stroke="none">Good-doers</text></g><g data-step="6"><circle cx="290.0" cy="90" r="12" stroke="#E0B400"/><text x="290.0" y="94" text-anchor="middle" font-size="10" font-weight="700" fill="currentColor" stroke="none">6</text><text x="290.0" y="160" text-anchor="middle" font-size="9" fill="currentColor" stroke="none">Poet's pain</text></g></svg>
+step: Farmers build a stand; not bread, but city money.
+step: Polished cars, a mind ahead.
+step: Signs, the way, turning round, a gallon of gas — never to buy.
+step: The open window waits all day.
+step: Relocation near theatre and store; soothed out of their wits.
+step: End their pain at one stroke? — would he accept it for himself?
+```
+
+```ng-explain
+id: explain-ending
+prompt: In three lines, explain the irony in the way the poem ends.
+lines: 3
+```
 
 **In one breath:** Frost cannot bear the farmers' vain hope; for a moment he imagines ending their pain at a stroke, then checks himself — would he accept such mercy for his own pain?
 
@@ -55,6 +100,31 @@ Students misread the last lines as Frost wanting the farmers dead. The point is 
 - **Irony:** help that hurts; the poet's "mercy" turned on himself.
 - **Tone:** sympathetic to the farmers, satirical towards the traffic and the do-gooders, self-questioning at the end.
 - **Form:** a long single stanza with irregular rhyme, conversational blank-verse rhythm.
+
+```ng-figure
+id: roadside-stand-images
+title: The poem's images
+svg:
+<svg viewBox="0 0 320 200" role="img" aria-label="Images of A Roadside Stand" fill="none" stroke="currentColor" stroke-width="1.5" font-size="11"><g><path d="M20,112 V67 L60.0,37 L100,67 V112 Z" fill="currentColor" fill-opacity="0.8" stroke="none"/><rect x="28.0" y="80.5" width="64.0" height="13.5" fill="#E0B400" fill-opacity="0.9" stroke="none"/><text x="60.0" y="90.85" text-anchor="middle" font-size="10" font-weight="700" fill="currentColor" stroke="none">BERRIES</text></g><text x="60" y="116" text-anchor="middle" font-size="10" font-weight="700" fill="currentColor" stroke="none">the shed</text><g><path d="M120,100.4 Q120,83.6 129.6,83.6 L140.0,68.0 H172.0 L184.0,83.6 H196.0 Q200,83.6 200,100.4 Z" fill="currentColor" fill-opacity="0.85" stroke="none"/><circle cx="137.6" cy="102.32" r="8.64" fill="currentColor" fill-opacity="0.85" stroke="none"/><circle cx="182.4" cy="102.32" r="8.64" fill="currentColor" fill-opacity="0.85" stroke="none"/><rect x="144.0" y="71.6" width="24.0" height="12.0" fill="#E0B400" fill-opacity="0.9" stroke="none"/></g><text x="160" y="116" text-anchor="middle" font-size="10" font-weight="700" fill="currentColor" stroke="none">polished traffic</text><circle cx="265" cy="70" r="24" fill="#E0B400" stroke="none"/><text x="265" y="75" text-anchor="middle" font-size="18" font-weight="700" fill="currentColor" stroke="none">$</text><text x="265" y="116" text-anchor="middle" font-size="10" font-weight="700" fill="currentColor" stroke="none">city money</text><rect x="40" y="125" width="40" height="40" fill="none" stroke="currentColor" stroke-width="4"/><path d="M60,125 V165 M40,145 H80" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><text x="60" y="196" text-anchor="middle" font-size="10" font-weight="700" fill="currentColor" stroke="none">open window</text><g><circle cx="150" cy="127.5" r="5.5" fill="currentColor" fill-opacity="0.9" stroke="none"/><path d="M142.5,141.0 Q150,133.0 157.5,141.0 L156.3,151.0 L153.0,151.0 L153.6,172 H150.75 L150.3,152.0 H149.7 L149.25,172 H146.4 L147.0,151.0 L143.7,151.0 Z" fill="currentColor" fill-opacity="0.9" stroke="none"/><path d="M141.75,124.75 H158.25 V122.55 H154.95 V116.5 H145.05 V122.55 H141.75 Z" fill="currentColor" fill-opacity="0.9" stroke="none"/></g><g><circle cx="175" cy="131.95" r="4.95" fill="currentColor" fill-opacity="0.6" stroke="none"/><path d="M168.25,144.89999999999998 Q175,136.89999999999998 181.75,144.89999999999998 L180.67,153.1 L177.7,153.1 L178.24,172 H175.675 L175.27,154.0 H174.73 L174.325,172 H171.76 L172.3,153.1 L169.33,153.1 Z" fill="currentColor" fill-opacity="0.6" stroke="none"/></g><text x="160" y="196" text-anchor="middle" font-size="10" font-weight="700" fill="currentColor" stroke="none">good-doers</text><g><circle cx="265" cy="123.05" r="6.05" fill="currentColor" fill-opacity="0.5" stroke="none"/><path d="M256.75,137.1 Q265,129.1 273.25,137.1 L271.93,148.9 L268.3,148.9 L268.96,172 H265.825 L265.33,150.0 H264.67 L264.175,172 H261.04 L261.7,148.9 L258.07,148.9 Z" fill="currentColor" fill-opacity="0.5" stroke="none"/></g><text x="265" y="196" text-anchor="middle" font-size="10" font-weight="700" fill="currentColor" stroke="none">the poet</text></svg>
+caption: A stand, the traffic that passes it, the money it hopes for, the helpers who would ruin it.
+part: 60, 70 | the shed | A little new shed by the highway; berries and squash for sale.
+part: 160, 70 | polished traffic | Shiny cars pass with a mind ahead; stop only to complain.
+part: 265, 70 | city money | A share of the flower of cities — not charity.
+part: 60, 150 | open window | The childish longing waits all day for a car to slow.
+part: 160, 150 | good-doers | Greedy good-doers, beneficent beasts of prey — false help.
+part: 265, 150 | the poet | Cannot bear their pain; turns his 'mercy' on himself.
+```
+
+```ng-fill
+id: rs-devices
+title: Devices in A Roadside Stand
+cols: Device | Example
+row: Oxymoron | [[greedy good-doers; beneficent beasts of prey]]
+row: Transferred epithet | [[selfish cars]]
+row: Personification | [[traffic with a mind ahead; sadness that lurks]]
+row: Metaphor | flower of cities; city money
+row: Irony | help that hurts; the poet's mercy
+```
 
 **In one breath:** imagery, alliteration, personification, transferred epithet, oxymoron and irony carry Frost's anger and pity.
 
