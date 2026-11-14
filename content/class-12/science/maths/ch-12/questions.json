@@ -1,0 +1,302 @@
+[
+ {
+  "id": "maths-ch-12-q01",
+  "chapter": "ch-12",
+  "type": "mcq",
+  "marks": 1,
+  "stars": 3,
+  "label": "PYQ-style",
+  "stem": "The corner points of the bounded feasible region of an LPP are $(0,0)$, $(5,0)$, $(3,4)$ and $(0,5)$. The maximum value of $Z=4x+6y$ is",
+  "options": [
+   "$20$",
+   "$30$",
+   "$36$",
+   "$50$"
+  ],
+  "answer": "C",
+  "model_answer": "**(C)** $Z$ at the corners: $0$, $20$, $36$, $30$. The maximum is $36$ at $(3,4)$.",
+  "topic": "Corner-point method",
+  "hint": "Evaluate $Z$ at each corner."
+ },
+ {
+  "id": "maths-ch-12-q02",
+  "chapter": "ch-12",
+  "type": "mcq",
+  "marks": 1,
+  "stars": 3,
+  "label": "NCERT-based",
+  "stem": "The corner points of a feasible region are $(0,10)$, $(5,5)$, $(15,15)$ and $(0,20)$. If $Z=px+qy$, $p,q>0$, attains its maximum at both $(15,15)$ and $(0,20)$, then",
+  "options": [
+   "$p=q$",
+   "$p=2q$",
+   "$q=2p$",
+   "$q=3p$"
+  ],
+  "answer": "D",
+  "model_answer": "**(D)** $15p+15q=20q\\Rightarrow15p=5q\\Rightarrow q=3p$.",
+  "topic": "Corner-point method",
+  "hint": "The two corner values of $Z$ must be equal."
+ },
+ {
+  "id": "maths-ch-12-q03",
+  "chapter": "ch-12",
+  "type": "mcq",
+  "marks": 1,
+  "stars": 2,
+  "label": "PYQ-style",
+  "stem": "The feasible region of a linear programming problem is always",
+  "options": [
+   "a convex region",
+   "a circle",
+   "bounded",
+   "a triangle"
+  ],
+  "answer": "A",
+  "model_answer": "**(A)** The common region of linear inequalities (half-planes) is convex. It need not be bounded or triangular.",
+  "topic": "Feasible region",
+  "hint": "What shape do overlapping half-planes always make?"
+ },
+ {
+  "id": "maths-ch-12-q04",
+  "chapter": "ch-12",
+  "type": "mcq",
+  "marks": 1,
+  "stars": 2,
+  "label": "PYQ-style",
+  "stem": "In a linear programming problem, the objective function is",
+  "options": [
+   "a constraint to be satisfied",
+   "a linear function to be optimised",
+   "a quadratic function",
+   "always to be maximised"
+  ],
+  "answer": "B",
+  "model_answer": "**(B)** The objective function $Z=ax+by$ is the linear function whose maximum or minimum is required.",
+  "topic": "Terminology",
+  "hint": "It is the $Z$ of the problem."
+ },
+ {
+  "id": "maths-ch-12-q05",
+  "chapter": "ch-12",
+  "type": "ar",
+  "marks": 1,
+  "stars": 3,
+  "label": "PYQ-style",
+  "stem": "**Assertion (A):** In an LPP with an unbounded feasible region, the maximum value of the objective function may not exist.<br>**Reason (R):** For an unbounded feasible region, the largest corner value $M$ of $Z=ax+by$ is the maximum only if the open half-plane $ax+by>M$ has no point in common with the feasible region.",
+  "options": [
+   "Both A and R are true, and R is the correct explanation of A.",
+   "Both A and R are true, but R is not the correct explanation of A.",
+   "A is true, but R is false.",
+   "A is false, but R is true."
+  ],
+  "answer": "A",
+  "model_answer": "**(A)** If the half-plane beyond $M$ still contains feasible points, $Z$ can be made larger and no maximum exists. R explains A.",
+  "topic": "Unbounded feasible region"
+ },
+ {
+  "id": "maths-ch-12-q06",
+  "chapter": "ch-12",
+  "type": "ar",
+  "marks": 1,
+  "stars": 2,
+  "label": "NCERT-based",
+  "stem": "**Assertion (A):** The problem \\\"maximise $Z=x+y$ subject to $x-y\\le-1$, $-x+y\\le0$, $x\\ge0$, $y\\ge0$\\\" has no solution.<br>**Reason (R):** Every linear programming problem has an optimal solution.",
+  "options": [
+   "Both A and R are true, and R is the correct explanation of A.",
+   "Both A and R are true, but R is not the correct explanation of A.",
+   "A is true, but R is false.",
+   "A is false, but R is true."
+  ],
+  "answer": "C",
+  "model_answer": "**(C)** $x-y\\le-1$ needs $y\\ge x+1$, while $-x+y\\le0$ needs $y\\le x$: no point satisfies both, so there is no feasible region and A is true. R is false.",
+  "topic": "No feasible region",
+  "hint": "Rewrite both constraints as conditions on $y$."
+ },
+ {
+  "id": "maths-ch-12-q07",
+  "chapter": "ch-12",
+  "type": "vsa2",
+  "marks": 2,
+  "stars": 2,
+  "label": "NCERT-based",
+  "stem": "The corner points of the feasible region of an LPP are $A(0,10)$, $B(5,5)$, $C(15,15)$ and $D(0,20)$, and the region is bounded. For $Z=3x+9y$, find the minimum value and say where the maximum occurs.",
+  "model_answer": "$Z$ at $A$: 90; at $B$: 60; at $C$: 180; at $D$: 180 [1]<br>\nMinimum $Z=60$ at $(5,5)$; maximum $Z=180$ at both $C$ and $D$, so at every point of the segment $CD$ [1]",
+  "scheme": [
+   {
+    "step": "$Z$ at $A$: 90; at $B$: 60; at $C$: 180; at $D$: 180",
+    "marks": 1
+   },
+   {
+    "step": "Minimum $Z=60$ at $(5,5)$; maximum $Z=180$ at both $C$ and $D$, so at every point of the segment $CD$",
+    "marks": 1
+   }
+  ],
+  "topic": "Multiple optimal solutions",
+  "hint": "Two corners with the same best value mean the whole edge is optimal."
+ },
+ {
+  "id": "maths-ch-12-q08",
+  "chapter": "ch-12",
+  "type": "vsa2",
+  "marks": 2,
+  "stars": 2,
+  "label": "NCERT-based",
+  "stem": "For the constraints $x\\ge3$, $x+y\\ge5$, $x+2y\\ge6$, $y\\ge0$, the feasible region is unbounded with corner points $(6,0)$, $(4,1)$ and $(3,2)$. Does $Z=-x+2y$ have a maximum value? Justify.",
+  "model_answer": "$Z$ at $(6,0)$: $-6$; at $(4,1)$: $-2$; at $(3,2)$: $1$. Largest corner value $M=1$ [1]<br>\nThe open half-plane $-x+2y>1$ has points in common with the feasible region (for example $(3,10)$, where $Z=17$), so $Z$ has no maximum value [1]",
+  "scheme": [
+   {
+    "step": "$Z$ at $(6,0)$: $-6$; at $(4,1)$: $-2$; at $(3,2)$: $1$. Largest corner value $M=1$",
+    "marks": 1
+   },
+   {
+    "step": "The open half-plane $-x+2y>1$ has points in common with the feasible region (for example $(3,10)$, where $Z=17$), so $Z$ has no maximum value",
+    "marks": 1
+   }
+  ],
+  "topic": "Unbounded feasible region",
+  "hint": "Find the largest corner value, then test whether the region contains a point with a larger $Z$."
+ },
+ {
+  "id": "maths-ch-12-q09",
+  "chapter": "ch-12",
+  "type": "sa3",
+  "marks": 3,
+  "stars": 3,
+  "label": "NCERT-based",
+  "stem": "Solve graphically: maximise $Z=3x+2y$ subject to $x+2y\\le10$, $3x+y\\le15$, $x\\ge0$, $y\\ge0$.",
+  "model_answer": "Lines $x+2y=10$ through $(10,0)$, $(0,5)$ and $3x+y=15$ through $(5,0)$, $(0,15)$ drawn; feasible region $OABC$ shaded [1½]<br>\nCorner points $O(0,0)$, $A(5,0)$, $C(0,5)$ and $B(4,3)$ (solving the two equations) [½]<br>\n$Z$ at $O$: 0; at $A$: 15; at $B$: 18; at $C$: 10 [½]<br>\nMaximum $Z=18$ at $x=4$, $y=3$ [½]",
+  "scheme": [
+   {
+    "step": "Lines $x+2y=10$ through $(10,0)$, $(0,5)$ and $3x+y=15$ through $(5,0)$, $(0,15)$ drawn; feasible region $OABC$ shaded",
+    "marks": 1.5
+   },
+   {
+    "step": "Corner points $O(0,0)$, $A(5,0)$, $C(0,5)$ and $B(4,3)$ (solving the two equations)",
+    "marks": 0.5
+   },
+   {
+    "step": "$Z$ at $O$: 0; at $A$: 15; at $B$: 18; at $C$: 10",
+    "marks": 0.5
+   },
+   {
+    "step": "Maximum $Z=18$ at $x=4$, $y=3$",
+    "marks": 0.5
+   }
+  ],
+  "topic": "Corner-point method",
+  "hint": "Draw both lines, shade the region nearer the origin, and find the intersection by solving."
+ },
+ {
+  "id": "maths-ch-12-q10",
+  "chapter": "ch-12",
+  "type": "sa3",
+  "marks": 3,
+  "stars": 3,
+  "label": "NCERT-based",
+  "stem": "Solve graphically: minimise $Z=3x+5y$ subject to $x+3y\\ge3$, $x+y\\ge2$, $x\\ge0$, $y\\ge0$.",
+  "model_answer": "Lines $x+3y=3$ through $(3,0)$, $(0,1)$ and $x+y=2$ through $(2,0)$, $(0,2)$ drawn; unbounded feasible region shaded; corner points $A(3,0)$, $B\\left(\\dfrac32,\\dfrac12\\right)$, $C(0,2)$ [1½]<br>\n$Z$ at $A$: 9; at $B$: 7; at $C$: 10; smallest value 7 [½]<br>\nThe region is unbounded; the open half-plane $3x+5y<7$ has no point in common with it [½]<br>\nMinimum $Z=7$ at $x=\\dfrac32$, $y=\\dfrac12$ [½]",
+  "scheme": [
+   {
+    "step": "Lines $x+3y=3$ through $(3,0)$, $(0,1)$ and $x+y=2$ through $(2,0)$, $(0,2)$ drawn; unbounded feasible region shaded; corner points $A(3,0)$, $B\\left(\\dfrac32,\\dfrac12\\right)$, $C(0,2)$",
+    "marks": 1.5
+   },
+   {
+    "step": "$Z$ at $A$: 9; at $B$: 7; at $C$: 10; smallest value 7",
+    "marks": 0.5
+   },
+   {
+    "step": "The region is unbounded; the open half-plane $3x+5y<7$ has no point in common with it",
+    "marks": 0.5
+   },
+   {
+    "step": "Minimum $Z=7$ at $x=\\dfrac32$, $y=\\dfrac12$",
+    "marks": 0.5
+   }
+  ],
+  "topic": "Unbounded feasible region",
+  "hint": "The region lies away from the origin. After the table, check the half-plane $3x+5y<7$."
+ },
+ {
+  "id": "maths-ch-12-q11",
+  "chapter": "ch-12",
+  "type": "la5",
+  "marks": 5,
+  "stars": 3,
+  "label": "NCERT-based",
+  "stem": "Solve graphically: maximise $Z=5x+3y$ subject to $3x+5y\\le15$, $5x+2y\\le10$, $x\\ge0$, $y\\ge0$.",
+  "model_answer": "Lines $3x+5y=15$ through $(5,0)$, $(0,3)$ and $5x+2y=10$ through $(2,0)$, $(0,5)$; graph drawn with axes, lines and points labelled; feasible region shaded [2]<br>\nIntersection: solving $3x+5y=15$ and $5x+2y=10$ gives $x=\\dfrac{20}{19}$, $y=\\dfrac{45}{19}$. Corner points: $(0,0)$, $(2,0)$, $\\left(\\dfrac{20}{19},\\dfrac{45}{19}\\right)$, $(0,3)$ [1]<br>\n$Z$ at $(0,0)$: 0; at $(2,0)$: 10; at $\\left(\\dfrac{20}{19},\\dfrac{45}{19}\\right)$: $\\dfrac{100+135}{19}=\\dfrac{235}{19}$; at $(0,3)$: 9 [1]<br>\nMaximum $Z=\\dfrac{235}{19}$ at $x=\\dfrac{20}{19}$, $y=\\dfrac{45}{19}$ [1]",
+  "scheme": [
+   {
+    "step": "Lines $3x+5y=15$ through $(5,0)$, $(0,3)$ and $5x+2y=10$ through $(2,0)$, $(0,5)$; graph drawn with axes, lines and points labelled; feasible region shaded",
+    "marks": 2
+   },
+   {
+    "step": "Intersection: solving $3x+5y=15$ and $5x+2y=10$ gives $x=\\dfrac{20}{19}$, $y=\\dfrac{45}{19}$. Corner points: $(0,0)$, $(2,0)$, $\\left(\\dfrac{20}{19},\\dfrac{45}{19}\\right)$, $(0,3)$",
+    "marks": 1
+   },
+   {
+    "step": "$Z$ at $(0,0)$: 0; at $(2,0)$: 10; at $\\left(\\dfrac{20}{19},\\dfrac{45}{19}\\right)$: $\\dfrac{100+135}{19}=\\dfrac{235}{19}$; at $(0,3)$: 9",
+    "marks": 1
+   },
+   {
+    "step": "Maximum $Z=\\dfrac{235}{19}$ at $x=\\dfrac{20}{19}$, $y=\\dfrac{45}{19}$",
+    "marks": 1
+   }
+  ],
+  "topic": "Corner-point method",
+  "hint": "The intersection point is not a whole number here: solve the two equations exactly."
+ },
+ {
+  "id": "maths-ch-12-q12",
+  "chapter": "ch-12",
+  "type": "case",
+  "marks": 4,
+  "stars": 3,
+  "label": "PYQ-style",
+  "stem": "**The workshop.** A small workshop makes $x$ tables and $y$ chairs in a week. The limits on labour and material give the constraints $x+y\\le8$ and $x+3y\\le18$, with $x\\ge0$, $y\\ge0$. The profit is ₹30 on each table and ₹50 on each chair (in hundreds of rupees), so the weekly profit is $Z=30x+50y$.",
+  "parts": [
+   {
+    "id": "i",
+    "stem": "Find the point of intersection of the lines $x+y=8$ and $x+3y=18$.",
+    "marks": 1,
+    "model_answer": "Subtracting: $2y=10\\Rightarrow y=5$, $x=3$. The point is $(3,5)$ [1]",
+    "scheme": [
+     {
+      "step": "Subtracting: $2y=10\\Rightarrow y=5$, $x=3$. The point is $(3,5)$",
+      "marks": 1
+     }
+    ]
+   },
+   {
+    "id": "ii",
+    "stem": "Write the corner points of the feasible region.",
+    "marks": 1,
+    "model_answer": "$(0,0)$, $(8,0)$, $(3,5)$ and $(0,6)$ [1]",
+    "scheme": [
+     {
+      "step": "$(0,0)$, $(8,0)$, $(3,5)$ and $(0,6)$",
+      "marks": 1
+     }
+    ]
+   },
+   {
+    "id": "iii",
+    "stem": "Find the maximum weekly profit and the number of tables and chairs that give it.<br>**OR** If the profit were $Z=20x+20y$ instead, find its maximum value and say how many optimal solutions there are.",
+    "marks": 2,
+    "model_answer": "$Z$ at $(0,0)$: 0; at $(8,0)$: 240; at $(3,5)$: 340; at $(0,6)$: 300 [1]<br>\nMaximum $Z=340$ at $(3,5)$: 3 tables and 5 chairs [1]<br>\n**OR:** $Z=20x+20y$ gives 0, 160, 160, 120 at the corners [1]; the maximum 160 occurs at both $(8,0)$ and $(3,5)$, so every point of the segment joining them is optimal: infinitely many solutions [1].",
+    "scheme": [
+     {
+      "step": "$Z$ at $(0,0)$: 0; at $(8,0)$: 240; at $(3,5)$: 340; at $(0,6)$: 300",
+      "marks": 1
+     },
+     {
+      "step": "Maximum $Z=340$ at $(3,5)$: 3 tables and 5 chairs",
+      "marks": 1
+     }
+    ]
+   }
+  ],
+  "topic": "LPP in a real situation",
+  "hint": "The corners are the two intercepts nearer the origin, the origin and the intersection point."
+ }
+]

@@ -1,0 +1,16 @@
+{
+  "$schema": "../../../../../schemas/chapter.schema.json",
+  "id": "ch-13",
+  "number": 13,
+  "title": "Probability",
+  "unit": "VI",
+  "marks_hint": "8 marks (Unit VI)",
+  "summary": "Conditional probability · multiplication theorem · independent events · total probability · Bayes' theorem · random variable and its mean",
+  "status": {
+    "notes": "ready",
+    "mustknow": "ready",
+    "formulas": "ready",
+    "questions": "ready"
+  },
+  "updated": "2026-11-14"
+}

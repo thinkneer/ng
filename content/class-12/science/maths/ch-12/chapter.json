@@ -1,0 +1,16 @@
+{
+  "$schema": "../../../../../schemas/chapter.schema.json",
+  "id": "ch-12",
+  "number": 12,
+  "title": "Linear Programming",
+  "unit": "V",
+  "marks_hint": "5 marks (Unit V)",
+  "summary": "Objective function and constraints · feasible region · corner-point method · unbounded regions · special cases",
+  "status": {
+    "notes": "ready",
+    "mustknow": "ready",
+    "formulas": "ready",
+    "questions": "ready"
+  },
+  "updated": "2026-11-14"
+}

@@ -1,0 +1,16 @@
+{
+  "$schema": "../../../../../schemas/chapter.schema.json",
+  "id": "ch-10",
+  "number": 10,
+  "title": "Vector Algebra",
+  "unit": "IV",
+  "marks_hint": "about 5 marks in the 2026–27 sample paper (Unit IV: 14)",
+  "summary": "Magnitude and direction · section formula · dot product, projection · cross product, areas",
+  "status": {
+    "notes": "ready",
+    "mustknow": "ready",
+    "formulas": "ready",
+    "questions": "ready"
+  },
+  "updated": "2026-11-14"
+}

@@ -1,0 +1,298 @@
+[
+ {
+  "id": "maths-ch-13-q01",
+  "chapter": "ch-13",
+  "type": "mcq",
+  "marks": 1,
+  "stars": 3,
+  "label": "NCERT-based",
+  "stem": "If $P(A)=0.8$ and $P(B|A)=0.4$, then $P(A\\cap B)$ is equal to",
+  "options": [
+   "$0.5$",
+   "$0.32$",
+   "$1.2$",
+   "$0.4$"
+  ],
+  "answer": "B",
+  "model_answer": "**(B)** $P(A\\cap B)=P(A)\\,P(B|A)=0.8\\times0.4=0.32$.",
+  "topic": "Multiplication theorem",
+  "hint": "Use the multiplication theorem."
+ },
+ {
+  "id": "maths-ch-13-q02",
+  "chapter": "ch-13",
+  "type": "mcq",
+  "marks": 1,
+  "stars": 2,
+  "label": "PYQ-style",
+  "stem": "A die is thrown once. If $E$ is the event \\\"the number is 4\\\" and $F$ the event \\\"the number is even\\\", then $P(E|F)$ is",
+  "options": [
+   "$\\dfrac16$",
+   "$\\dfrac12$",
+   "$\\dfrac13$",
+   "$\\dfrac23$"
+  ],
+  "answer": "C",
+  "model_answer": "**(C)** $F=\\{2,4,6\\}$ and $E\\cap F=\\{4\\}$, so $P(E|F)=\\dfrac13$.",
+  "topic": "Conditional probability",
+  "hint": "The sample space reduces to the even numbers."
+ },
+ {
+  "id": "maths-ch-13-q03",
+  "chapter": "ch-13",
+  "type": "mcq",
+  "marks": 1,
+  "stars": 3,
+  "label": "PYQ-style",
+  "stem": "If $A$ and $B$ are independent events with $P(A)=0.3$ and $P(B)=0.4$, then $P(A\\cup B)$ is",
+  "options": [
+   "$0.58$",
+   "$0.70$",
+   "$0.12$",
+   "$0.82$"
+  ],
+  "answer": "A",
+  "model_answer": "**(A)** $P(A\\cap B)=0.3\\times0.4=0.12$, so $P(A\\cup B)=0.3+0.4-0.12=0.58$.",
+  "topic": "Independent events",
+  "hint": "For independent events $P(A\\cap B)=P(A)P(B)$; then use the addition theorem."
+ },
+ {
+  "id": "maths-ch-13-q04",
+  "chapter": "ch-13",
+  "type": "mcq",
+  "marks": 1,
+  "stars": 2,
+  "label": "PYQ-style",
+  "stem": "A fair coin is tossed three times. The mean of the number of heads is",
+  "options": [
+   "$1$",
+   "$\\dfrac34$",
+   "$2$",
+   "$\\dfrac32$"
+  ],
+  "answer": "D",
+  "model_answer": "**(D)** $P(X=0,1,2,3)=\\dfrac18,\\dfrac38,\\dfrac38,\\dfrac18$; mean $=\\dfrac{0+3+6+3}{8}=\\dfrac32$.",
+  "topic": "Mean of a random variable",
+  "hint": "Write the distribution of the number of heads and use $\\sum x_ip_i$."
+ },
+ {
+  "id": "maths-ch-13-q05",
+  "chapter": "ch-13",
+  "type": "ar",
+  "marks": 1,
+  "stars": 3,
+  "label": "PYQ-style",
+  "stem": "**Assertion (A):** Two mutually exclusive events $A$ and $B$ with non-zero probabilities cannot be independent.<br>**Reason (R):** For mutually exclusive events $P(A\\cap B)=0$, whereas for independent events $P(A\\cap B)=P(A)\\,P(B)$.",
+  "options": [
+   "Both A and R are true, and R is the correct explanation of A.",
+   "Both A and R are true, but R is not the correct explanation of A.",
+   "A is true, but R is false.",
+   "A is false, but R is true."
+  ],
+  "answer": "A",
+  "model_answer": "**(A)** With $P(A)$, $P(B)$ non-zero, $P(A)P(B)\\ne0=P(A\\cap B)$, so the events are not independent. R explains A.",
+  "topic": "Independent and mutually exclusive events"
+ },
+ {
+  "id": "maths-ch-13-q06",
+  "chapter": "ch-13",
+  "type": "ar",
+  "marks": 1,
+  "stars": 2,
+  "label": "PYQ-style",
+  "stem": "**Assertion (A):** For any two events $A$ and $B$ with non-zero probabilities, $P(A|B)=P(B|A)$.<br>**Reason (R):** $P(A|B)=\\dfrac{P(A\\cap B)}{P(B)}$, provided $P(B)\\ne0$.",
+  "options": [
+   "Both A and R are true, and R is the correct explanation of A.",
+   "Both A and R are true, but R is not the correct explanation of A.",
+   "A is true, but R is false.",
+   "A is false, but R is true."
+  ],
+  "answer": "D",
+  "model_answer": "**(D)** A is false: $P(A|B)=\\dfrac{P(A\\cap B)}{P(B)}$ and $P(B|A)=\\dfrac{P(A\\cap B)}{P(A)}$ are equal only when $P(A)=P(B)$ or $P(A\\cap B)=0$. R is the correct definition.",
+  "topic": "Conditional probability",
+  "hint": "Compare the two denominators."
+ },
+ {
+  "id": "maths-ch-13-q07",
+  "chapter": "ch-13",
+  "type": "vsa2",
+  "marks": 2,
+  "stars": 2,
+  "label": "NCERT-based",
+  "stem": "A die is thrown twice and the sum of the numbers appearing is observed to be 6. Find the conditional probability that the number 4 has appeared at least once.",
+  "model_answer": "$F$ (sum is 6) $=\\{(1,5),(2,4),(3,3),(4,2),(5,1)\\}$; $E\\cap F=\\{(2,4),(4,2)\\}$ [1]<br>\n$P(E|F)=\\dfrac{n(E\\cap F)}{n(F)}=\\dfrac25$ [1]",
+  "scheme": [
+   {
+    "step": "$F$ (sum is 6) $=\\{(1,5),(2,4),(3,3),(4,2),(5,1)\\}$; $E\\cap F=\\{(2,4),(4,2)\\}$",
+    "marks": 1
+   },
+   {
+    "step": "$P(E|F)=\\dfrac{n(E\\cap F)}{n(F)}=\\dfrac25$",
+    "marks": 1
+   }
+  ],
+  "topic": "Conditional probability",
+  "hint": "List the outcomes with sum 6; that is the reduced sample space."
+ },
+ {
+  "id": "maths-ch-13-q08",
+  "chapter": "ch-13",
+  "type": "vsa2",
+  "marks": 2,
+  "stars": 2,
+  "label": "NCERT-based",
+  "stem": "Given $P(A)=\\dfrac12$, $P(A\\cup B)=\\dfrac35$ and $P(B)=p$, find $p$ if $A$ and $B$ are (i) mutually exclusive, (ii) independent.",
+  "model_answer": "(i) Mutually exclusive: $P(A\\cup B)=P(A)+P(B)\\Rightarrow\\dfrac35=\\dfrac12+p\\Rightarrow p=\\dfrac{1}{10}$ [1]<br>\n(ii) Independent: $\\dfrac35=\\dfrac12+p-\\dfrac p2\\Rightarrow\\dfrac p2=\\dfrac{1}{10}\\Rightarrow p=\\dfrac15$ [1]",
+  "scheme": [
+   {
+    "step": "(i) Mutually exclusive: $P(A\\cup B)=P(A)+P(B)\\Rightarrow\\dfrac35=\\dfrac12+p\\Rightarrow p=\\dfrac{1}{10}$",
+    "marks": 1
+   },
+   {
+    "step": "(ii) Independent: $\\dfrac35=\\dfrac12+p-\\dfrac p2\\Rightarrow\\dfrac p2=\\dfrac{1}{10}\\Rightarrow p=\\dfrac15$",
+    "marks": 1
+   }
+  ],
+  "topic": "Independent events",
+  "hint": "Use $P(A\\cup B)=P(A)+P(B)-P(A\\cap B)$ with $P(A\\cap B)=0$, then with $P(A\\cap B)=P(A)P(B)$."
+ },
+ {
+  "id": "maths-ch-13-q09",
+  "chapter": "ch-13",
+  "type": "sa3",
+  "marks": 3,
+  "stars": 3,
+  "label": "NCERT-based",
+  "stem": "Two cards are drawn simultaneously (without replacement) from a well-shuffled pack of 52 cards. Find the probability distribution of the number of aces and hence its mean.",
+  "model_answer": "Let $X$ = number of aces; $X=0,1,2$ [½]<br>\n$P(X=0)=\\dfrac{48}{52}\\times\\dfrac{47}{51}=\\dfrac{188}{221}$, $P(X=1)=2\\times\\dfrac{4}{52}\\times\\dfrac{48}{51}=\\dfrac{32}{221}$, $P(X=2)=\\dfrac{4}{52}\\times\\dfrac{3}{51}=\\dfrac{1}{221}$ [1½]<br>\nMean $=\\sum x_ip_i=0+\\dfrac{32}{221}+\\dfrac{2}{221}=\\dfrac{34}{221}=\\dfrac{2}{13}$ [1]",
+  "scheme": [
+   {
+    "step": "Let $X$ = number of aces; $X=0,1,2$",
+    "marks": 0.5
+   },
+   {
+    "step": "$P(X=0)=\\dfrac{48}{52}\\times\\dfrac{47}{51}=\\dfrac{188}{221}$, $P(X=1)=2\\times\\dfrac{4}{52}\\times\\dfrac{48}{51}=\\dfrac{32}{221}$, $P(X=2)=\\dfrac{4}{52}\\times\\dfrac{3}{51}=\\dfrac{1}{221}$",
+    "marks": 1.5
+   },
+   {
+    "step": "Mean $=\\sum x_ip_i=0+\\dfrac{32}{221}+\\dfrac{2}{221}=\\dfrac{34}{221}=\\dfrac{2}{13}$",
+    "marks": 1
+   }
+  ],
+  "topic": "Probability distribution and mean",
+  "hint": "Three cases: no ace, one ace (in either order), two aces. Check that the total is 1."
+ },
+ {
+  "id": "maths-ch-13-q10",
+  "chapter": "ch-13",
+  "type": "sa3",
+  "marks": 3,
+  "stars": 3,
+  "label": "NCERT-based",
+  "stem": "A and B try to solve a problem independently. The probabilities that they solve it are $\\dfrac12$ and $\\dfrac13$ respectively. Find the probability that (i) the problem is solved, (ii) exactly one of them solves the problem.",
+  "model_answer": "$P(A)=\\dfrac12$, $P(B)=\\dfrac13$, so $P(A')=\\dfrac12$, $P(B')=\\dfrac23$ [½]<br>\n(i) $P(\\text{solved})=1-P(A')P(B')=1-\\dfrac12\\times\\dfrac23=\\dfrac23$ [1½]<br>\n(ii) $P(\\text{exactly one})=P(A)P(B')+P(A')P(B)=\\dfrac13+\\dfrac16=\\dfrac12$ [1]",
+  "scheme": [
+   {
+    "step": "$P(A)=\\dfrac12$, $P(B)=\\dfrac13$, so $P(A')=\\dfrac12$, $P(B')=\\dfrac23$",
+    "marks": 0.5
+   },
+   {
+    "step": "(i) $P(\\text{solved})=1-P(A')P(B')=1-\\dfrac12\\times\\dfrac23=\\dfrac23$",
+    "marks": 1.5
+   },
+   {
+    "step": "(ii) $P(\\text{exactly one})=P(A)P(B')+P(A')P(B)=\\dfrac13+\\dfrac16=\\dfrac12$",
+    "marks": 1
+   }
+  ],
+  "topic": "Independent events",
+  "hint": "'Solved' means at least one solves it: 1 − P(neither)."
+ },
+ {
+  "id": "maths-ch-13-q11",
+  "chapter": "ch-13",
+  "type": "la5",
+  "marks": 5,
+  "stars": 3,
+  "label": "NCERT-based",
+  "stem": "An insurance company insured 2000 scooter drivers, 4000 car drivers and 6000 truck drivers. The probabilities of an accident are 0.01, 0.03 and 0.15 respectively. One of the insured persons meets with an accident. What is the probability that the person is a scooter driver?",
+  "model_answer": "Let $E_1$, $E_2$, $E_3$: the person is a scooter, car, truck driver; $A$: the person meets with an accident [1]<br>\n$P(E_1)=\\dfrac{2000}{12000}=\\dfrac16$, $P(E_2)=\\dfrac13$, $P(E_3)=\\dfrac12$; $P(A|E_1)=0.01$, $P(A|E_2)=0.03$, $P(A|E_3)=0.15$ [1]<br>\nBy Bayes' theorem, $P(E_1|A)=\\dfrac{P(E_1)P(A|E_1)}{P(E_1)P(A|E_1)+P(E_2)P(A|E_2)+P(E_3)P(A|E_3)}$ [1]<br>\n$=\\dfrac{\\frac16\\times0.01}{\\frac16\\times0.01+\\frac13\\times0.03+\\frac12\\times0.15}=\\dfrac{0.01}{0.01+0.06+0.45}$ [1]<br>\n$=\\dfrac{0.01}{0.52}=\\dfrac{1}{52}$ [1]",
+  "scheme": [
+   {
+    "step": "Let $E_1$, $E_2$, $E_3$: the person is a scooter, car, truck driver; $A$: the person meets with an accident",
+    "marks": 1
+   },
+   {
+    "step": "$P(E_1)=\\dfrac{2000}{12000}=\\dfrac16$, $P(E_2)=\\dfrac13$, $P(E_3)=\\dfrac12$; $P(A|E_1)=0.01$, $P(A|E_2)=0.03$, $P(A|E_3)=0.15$",
+    "marks": 1
+   },
+   {
+    "step": "By Bayes' theorem, $P(E_1|A)=\\dfrac{P(E_1)P(A|E_1)}{P(E_1)P(A|E_1)+P(E_2)P(A|E_2)+P(E_3)P(A|E_3)}$",
+    "marks": 1
+   },
+   {
+    "step": "$=\\dfrac{\\frac16\\times0.01}{\\frac16\\times0.01+\\frac13\\times0.03+\\frac12\\times0.15}=\\dfrac{0.01}{0.01+0.06+0.45}$",
+    "marks": 1
+   },
+   {
+    "step": "$=\\dfrac{0.01}{0.52}=\\dfrac{1}{52}$",
+    "marks": 1
+   }
+  ],
+  "topic": "Bayes' theorem",
+  "hint": "Three causes (types of driver), one observed result (accident). Define the events first."
+ },
+ {
+  "id": "maths-ch-13-q12",
+  "chapter": "ch-13",
+  "type": "case",
+  "marks": 4,
+  "stars": 3,
+  "label": "PYQ-style",
+  "stem": "**Quality check.** A shop gets its LED bulbs from three suppliers: 50% from X, 30% from Y and 20% from Z. Past records show that 2% of the bulbs from X, 3% from Y and 5% from Z are defective. A bulb is picked at random from the stock.",
+  "parts": [
+   {
+    "id": "i",
+    "stem": "Find the probability that the bulb is from supplier X and is defective.",
+    "marks": 1,
+    "model_answer": "$P(X\\cap D)=P(X)\\,P(D|X)=0.5\\times0.02=0.01$ [1]",
+    "scheme": [
+     {
+      "step": "$P(X\\cap D)=P(X)\\,P(D|X)=0.5\\times0.02=0.01$",
+      "marks": 1
+     }
+    ]
+   },
+   {
+    "id": "ii",
+    "stem": "Find the probability that the bulb is defective.",
+    "marks": 1,
+    "model_answer": "$P(D)=0.5\\times0.02+0.3\\times0.03+0.2\\times0.05=0.01+0.009+0.01=0.029$ [1]",
+    "scheme": [
+     {
+      "step": "$P(D)=0.5\\times0.02+0.3\\times0.03+0.2\\times0.05=0.01+0.009+0.01=0.029$",
+      "marks": 1
+     }
+    ]
+   },
+   {
+    "id": "iii",
+    "stem": "The bulb is found to be defective. Find the probability that it came from supplier Z.<br>**OR** The bulb is found to be defective. Find the probability that it did **not** come from supplier X.",
+    "marks": 2,
+    "model_answer": "By Bayes' theorem, $P(Z|D)=\\dfrac{P(Z)P(D|Z)}{P(D)}=\\dfrac{0.2\\times0.05}{0.029}$ [1]<br>\n$=\\dfrac{0.010}{0.029}=\\dfrac{10}{29}$ [1]<br>\n**OR:** $P(X|D)=\\dfrac{0.5\\times0.02}{0.029}=\\dfrac{10}{29}$ [1]; $P(\\text{not from }X\\mid D)=1-\\dfrac{10}{29}=\\dfrac{19}{29}$ [1].",
+    "scheme": [
+     {
+      "step": "By Bayes' theorem, $P(Z|D)=\\dfrac{P(Z)P(D|Z)}{P(D)}=\\dfrac{0.2\\times0.05}{0.029}$",
+      "marks": 1
+     },
+     {
+      "step": "$=\\dfrac{0.010}{0.029}=\\dfrac{10}{29}$",
+      "marks": 1
+     }
+    ]
+   }
+  ],
+  "topic": "Total probability and Bayes' theorem",
+  "hint": "Part (ii) is total probability; part (iii) divides one path by that total."
+ }
+]

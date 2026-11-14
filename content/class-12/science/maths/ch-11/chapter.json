@@ -1,0 +1,16 @@
+{
+  "$schema": "../../../../../schemas/chapter.schema.json",
+  "id": "ch-11",
+  "number": 11,
+  "title": "Three Dimensional Geometry",
+  "unit": "IV",
+  "marks_hint": "about 9 marks in the 2026–27 sample paper (Unit IV: 14)",
+  "summary": "Direction cosines and ratios · equation of a line · angle between lines · shortest distance · foot of perpendicular and image",
+  "status": {
+    "notes": "ready",
+    "mustknow": "ready",
+    "formulas": "ready",
+    "questions": "ready"
+  },
+  "updated": "2026-11-14"
+}

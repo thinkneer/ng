@@ -1363,22 +1363,52 @@
                       "number": 10,
                       "title": "Vector Algebra",
                       "unit": "IV",
-                      "items": {},
-                      "marks_hint": null,
-                      "summary": null,
-                      "questions": 0,
-                      "question_types": {}
+                      "items": {
+                        "notes": true,
+                        "mustknow": true,
+                        "formulas": true,
+                        "questions": true
+                      },
+                      "marks_hint": "about 5 marks in the 2026–27 sample paper (Unit IV: 14)",
+                      "summary": "Magnitude and direction · section formula · dot product, projection · cross product, areas",
+                      "questions": 12,
+                      "question_types": {
+                        "mcq": 4,
+                        "ar": 2,
+                        "vsa2": 2,
+                        "sa3": 2,
+                        "la5": 1,
+                        "case": 1
+                      },
+                      "diagrams": [],
+                      "words": 2377,
+                      "read_minutes": 6
                     },
                     {
                       "id": "ch-11",
                       "number": 11,
                       "title": "Three Dimensional Geometry",
                       "unit": "IV",
-                      "items": {},
-                      "marks_hint": null,
-                      "summary": null,
-                      "questions": 0,
-                      "question_types": {}
+                      "items": {
+                        "notes": true,
+                        "mustknow": true,
+                        "formulas": true,
+                        "questions": true
+                      },
+                      "marks_hint": "about 9 marks in the 2026–27 sample paper (Unit IV: 14)",
+                      "summary": "Direction cosines and ratios · equation of a line · angle between lines · shortest distance · foot of perpendicular and image",
+                      "questions": 12,
+                      "question_types": {
+                        "mcq": 4,
+                        "ar": 2,
+                        "vsa2": 2,
+                        "sa3": 2,
+                        "la5": 1,
+                        "case": 1
+                      },
+                      "diagrams": [],
+                      "words": 2377,
+                      "read_minutes": 7
                     }
                   ]
                 },
@@ -1394,11 +1424,26 @@
                       "number": 12,
                       "title": "Linear Programming",
                       "unit": "V",
-                      "items": {},
-                      "marks_hint": null,
-                      "summary": null,
-                      "questions": 0,
-                      "question_types": {}
+                      "items": {
+                        "notes": true,
+                        "mustknow": true,
+                        "formulas": true,
+                        "questions": true
+                      },
+                      "marks_hint": "5 marks (Unit V)",
+                      "summary": "Objective function and constraints · feasible region · corner-point method · unbounded regions · special cases",
+                      "questions": 12,
+                      "question_types": {
+                        "mcq": 4,
+                        "ar": 2,
+                        "vsa2": 2,
+                        "sa3": 2,
+                        "la5": 1,
+                        "case": 1
+                      },
+                      "diagrams": [],
+                      "words": 2796,
+                      "read_minutes": 8
                     }
                   ]
                 },
@@ -1414,11 +1459,26 @@
                       "number": 13,
                       "title": "Probability",
                       "unit": "VI",
-                      "items": {},
-                      "marks_hint": null,
-                      "summary": null,
-                      "questions": 0,
-                      "question_types": {}
+                      "items": {
+                        "notes": true,
+                        "mustknow": true,
+                        "formulas": true,
+                        "questions": true
+                      },
+                      "marks_hint": "8 marks (Unit VI)",
+                      "summary": "Conditional probability · multiplication theorem · independent events · total probability · Bayes' theorem · random variable and its mean",
+                      "questions": 12,
+                      "question_types": {
+                        "mcq": 4,
+                        "ar": 2,
+                        "vsa2": 2,
+                        "sa3": 2,
+                        "la5": 1,
+                        "case": 1
+                      },
+                      "diagrams": [],
+                      "words": 2442,
+                      "read_minutes": 8
                     }
                   ]
                 }
@@ -1450,10 +1510,10 @@
               },
               "papers": [],
               "counts": {
-                "notes": 9,
-                "mustknow": 9,
-                "formulas": 9,
-                "questions": 9,
+                "notes": 13,
+                "mustknow": 13,
+                "formulas": 13,
+                "questions": 13,
                 "chapters": 13
               }
             },
