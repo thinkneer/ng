@@ -47,7 +47,7 @@ export async function mountBlocks(root, blocks, ctx = {}) {
   const idle = (fn) => (window.requestIdleCallback ? requestIdleCallback(fn, { timeout: 1500 }) : setTimeout(fn, 200));
   idle(() => {
     if (!('IntersectionObserver' in window)) { root._renderAll(); return; }
-    const io = new IntersectionObserver((entries) => { for (const e of entries) if (e.isIntersecting) { io.unobserve(e.target); run(e.target); } }, { rootMargin: '500px 0px' });
+    const io = new IntersectionObserver((entries) => { for (const e of entries) if (e.isIntersecting) { io.unobserve(e.target); run(e.target); } }, { rootMargin: '200px 0px' });
     for (const el of els) io.observe(el);
   });
 }
