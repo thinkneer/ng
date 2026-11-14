@@ -1856,6 +1856,7 @@
                         "notes": true,
                         "mustknow": true,
                         "formulas": true,
+                        "cards": true,
                         "questions": true
                       },
                       "marks_hint": "Unit VI Reproduction = 16 marks (shared by Ch 1–3, CBSE 2026–27)",
@@ -1870,8 +1871,18 @@
                         "la5": 1
                       },
                       "diagrams": [],
-                      "words": 4153,
-                      "read_minutes": 14
+                      "blocks": {
+                        "figure": 5,
+                        "steps": 6,
+                        "mnemonic": 6,
+                        "draw": 4,
+                        "compare": 4,
+                        "fill": 1
+                      },
+                      "words": 3928,
+                      "read_minutes": 13,
+                      "cards": 13,
+                      "mnemonics": 6
                     },
                     {
                       "id": "ch-02",
@@ -1882,6 +1893,7 @@
                         "notes": true,
                         "mustknow": true,
                         "formulas": true,
+                        "cards": true,
                         "questions": true
                       },
                       "marks_hint": "Unit VI Reproduction = 16 marks (shared by Ch 1–3, CBSE 2026–27)",
@@ -1896,8 +1908,18 @@
                         "la5": 1
                       },
                       "diagrams": [],
-                      "words": 4044,
-                      "read_minutes": 14
+                      "blocks": {
+                        "figure": 4,
+                        "mnemonic": 5,
+                        "draw": 3,
+                        "fill": 2,
+                        "compare": 2,
+                        "steps": 4
+                      },
+                      "words": 3668,
+                      "read_minutes": 12,
+                      "cards": 12,
+                      "mnemonics": 5
                     },
                     {
                       "id": "ch-03",
@@ -1908,6 +1930,7 @@
                         "notes": true,
                         "mustknow": true,
                         "formulas": true,
+                        "cards": true,
                         "questions": true
                       },
                       "marks_hint": "Unit VI Reproduction = 16 marks (shared by Ch 1–3, CBSE 2026–27)",
@@ -1922,8 +1945,17 @@
                         "la5": 1
                       },
                       "diagrams": [],
-                      "words": 3436,
-                      "read_minutes": 11
+                      "blocks": {
+                        "figure": 1,
+                        "fill": 2,
+                        "mnemonic": 4,
+                        "compare": 2,
+                        "steps": 1
+                      },
+                      "words": 3247,
+                      "read_minutes": 11,
+                      "cards": 10,
+                      "mnemonics": 4
                     }
                   ]
                 },

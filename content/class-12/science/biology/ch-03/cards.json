@@ -1,0 +1,88 @@
+[
+  {
+    "id": "ch03-fertile-window",
+    "kind": "figure",
+    "title": "Periodic abstinence",
+    "svg": "ref: notes#ch03-fertile-window",
+    "back": "Avoid coitus on days 10–17 (the fertile period around day-14 ovulation). Natural methods have few side effects but a high failure rate.",
+    "stars": 2
+  },
+  {
+    "id": "ch03-iud-types",
+    "kind": "compare",
+    "title": "Kinds of IUD",
+    "tex": "\\text{Lippes loop}\\ \\big|\\ \\text{CuT, Cu7, Multiload 375}\\ \\big|\\ \\text{Progestasert, LNG-20}",
+    "back": "Non-medicated | copper-releasing (Cu ions cut sperm motility) | hormone-releasing (hostile uterus and cervix).",
+    "stars": 3
+  },
+  {
+    "id": "ch03-pills",
+    "kind": "process",
+    "title": "Oral pills",
+    "tex": "21\\text{ days on}\\to7\\text{ days off}\\to\\text{repeat}",
+    "back": "Progestogen ± estrogen; inhibit ovulation and implantation, change cervical mucus. Saheli: once a week, non-steroidal (CDRI, Lucknow).",
+    "stars": 2
+  },
+  {
+    "id": "ch03-emergency",
+    "kind": "formula",
+    "title": "Emergency contraception",
+    "tex": "\\le72\\text{ h after coitus}",
+    "legend": [
+      "agents = progestogens, progestogen–estrogen pills or IUDs"
+    ],
+    "back": "Used after rape or unprotected intercourse to prevent pregnancy.",
+    "stars": 2
+  },
+  {
+    "id": "ch03-vasectomy-vs-tubectomy",
+    "kind": "compare",
+    "title": "Vasectomy vs tubectomy",
+    "tex": "\\text{vas deferens (male)}\\quad\\big|\\quad\\text{fallopian tube (female)}",
+    "back": "Both are terminal (surgical) methods that block gamete transport; reversibility is very poor.",
+    "stars": 2
+  },
+  {
+    "id": "ch03-mtp-rule",
+    "kind": "formula",
+    "title": "MTP rule (NCERT)",
+    "tex": "\\le12\\text{ wk}: 1\\text{ RMP}\\qquad12\\text{–}24\\text{ wk}: 2\\text{ RMPs}",
+    "legend": [
+      "RMP = registered medical practitioner"
+    ],
+    "back": "Legalised in India in 1971; safest in the first trimester. Dangers: quacks, female foeticide.",
+    "stars": 2
+  },
+  {
+    "id": "ch03-not-curable",
+    "kind": "mnemonic",
+    "title": "Triple H: STIs not fully curable",
+    "tex": "\\textbf{H}\\text{epatitis-B}\\cdot\\textbf{H}\\text{erpes}\\cdot\\textbf{H}\\text{IV}",
+    "back": "All other STIs are curable if detected early. Untreated STIs → PID, ectopic pregnancy, infertility.",
+    "stars": 2
+  },
+  {
+    "id": "ch03-ivf-et",
+    "kind": "process",
+    "title": "IVF–ET",
+    "tex": "\\text{ovum}+\\text{sperm (lab)}\\to\\text{zygote}\\to\\begin{cases}\\le8\\text{ cells}\\to\\text{tube (ZIFT)}\\\\>8\\text{ cells}\\to\\text{uterus (IUT)}\\end{cases}",
+    "back": "The test-tube baby programme: fertilisation in vitro, then embryo transfer.",
+    "stars": 3
+  },
+  {
+    "id": "ch03-zift-vs-gift",
+    "kind": "compare",
+    "title": "ZIFT vs GIFT",
+    "tex": "\\text{ZIFT: zygote}\\to\\text{tube}\\qquad\\text{GIFT: donor ovum}\\to\\text{tube}",
+    "back": "ZIFT: fertilisation already done in the lab. GIFT: fertilisation happens inside the body; for a woman who cannot produce ova.",
+    "stars": 3
+  },
+  {
+    "id": "ch03-icsi-ai",
+    "kind": "compare",
+    "title": "ICSI vs AI / IUI",
+    "tex": "\\text{ICSI: sperm}\\to\\text{ovum (lab)}\\qquad\\text{IUI: semen}\\to\\text{uterus}",
+    "back": "ICSI for very low sperm count or motility; AI/IUI when the man cannot inseminate or has a low sperm count.",
+    "stars": 2
+  }
+]

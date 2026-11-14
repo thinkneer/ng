@@ -36,6 +36,27 @@ Contraceptive methods fall into six groups. Learn each with its example and how 
 - **Lactational amenorrhea**: ovulation and the cycle do not occur during intense breastfeeding after delivery, so the chance of conception is almost nil, but only for up to **six months** after parturition.
 These have almost no side effects but a **high failure rate**.
 
+```ng-figure
+id: ch03-fertile-window
+title: Periodic abstinence: the fertile window
+svg:
+<svg viewBox="0 0 320 92" role="img" aria-label="28-day cycle bar with menstruation on days 1 to 5 and the fertile period on days 10 to 17" fill="none" stroke="currentColor">
+<rect x="20" y="34" width="280" height="22" stroke-width="1.2"/>
+<rect class="uf" x="20" y="34" width="50" height="22" fill-opacity="0.55" stroke="none"/>
+<rect x="110" y="34" width="80" height="22" fill="#E0B400" fill-opacity="0.45" stroke="none"/>
+<path stroke-width="1.6" d="M155,26V64"/>
+<path stroke-opacity="0.4" d="M70,34V56M110,34V56M190,34V56"/>
+<g fill="currentColor" stroke="none" font-size="10"><text x="16" y="72">1</text><text x="64" y="72">5</text><text x="104" y="72">10</text><text x="148" y="72">14</text><text x="184" y="72">17</text><text x="290" y="72">28</text><text x="28" y="24">Menses</text><text x="118" y="20">Ovulation</text><text x="232" y="24">Luteal days</text><text x="114" y="88">Fertile period: avoid coitus</text></g>
+</svg>
+caption: Avoiding coitus on days 10–17, around ovulation on about day 14, is periodic abstinence. Cycles vary, so the failure rate is high.
+part: 45, 45 | Menstrual phase | Days 1–5 of the cycle.
+part: 120, 45 | Fertile period | Days 10–17: ovulation is expected, so conception is possible.
+part: 158, 45 | Ovulation | About day 14 in a 28-day cycle.
+part: 245, 45 | Luteal days | After the fertile period; still not fully safe because cycles vary.
+```
+
+
+
 **2. Barrier methods** stop sperm from reaching the ovum physically.
 - **Condoms** are thin rubber or latex sheaths covering the penis (male) or the vagina and cervix (female). "**Nirodh**" is a popular male condom. Condoms are disposable, self-inserted (so private) and also **protect against STIs and AIDS**, which is why their use has grown.
 - **Diaphragms, cervical caps and vaults** are rubber barriers inserted into the female tract to **cover the cervix**. They are **reusable**.
@@ -58,16 +79,45 @@ Lippes loop is the non-medicated IUD. CuT, Cu7 and Multiload 375 release copper;
 
 **6. Surgical methods (sterilisation)** are **terminal methods** for those who want no more children. In **vasectomy**, a small part of the **vas deferens** is removed or tied through a small cut in the scrotum. In **tubectomy**, a small part of the **fallopian tube** is removed or tied through a small cut in the abdomen or through the vagina. Both block gamete transport and are highly effective, but their **reversibility is very poor**.
 
-| Method | Examples | How it works |
-|---|---|---|
-| Natural | periodic abstinence, withdrawal, lactational amenorrhea | avoid ovum–sperm meeting |
-| Barrier | condoms, diaphragm, cervical cap, vault | block sperm entry |
-| IUD | Lippes loop; CuT, Cu7, Multiload 375; Progestasert, LNG-20 | phagocytosis of sperms; Cu ions; hostile uterus and cervix |
-| Pills | progestogen ± estrogen; Saheli | stop ovulation and implantation; change cervical mucus |
-| Injections, implants | progestogen ± estrogen | as pills, longer |
-| Surgical | vasectomy, tubectomy | block gamete transport |
+```ng-fill
+id: ch03-contraceptives
+title: Contraceptive methods at a glance
+cols: Method | Examples | How it works
+row: Natural | periodic abstinence, withdrawal, lactational amenorrhea | [[avoid ovum–sperm meeting]]
+row: Barrier | condoms, diaphragm, cervical cap, vault | [[block sperm entry]]
+row: IUD | [[Lippes loop]]; CuT, Cu7, Multiload 375; Progestasert, LNG-20 | phagocytosis of sperms; [[Cu ions cut sperm motility]]; hostile uterus and cervix
+row: Pills | progestogen ± estrogen; [[Saheli]] | stop [[ovulation and implantation]]; change cervical mucus
+row: Injections, implants | progestogen ± estrogen | as pills, longer
+row: Surgical | [[vasectomy, tubectomy]] | block gamete transport
+```
 
 These methods should not be used without a doctor's advice; possible side effects include nausea, abdominal pain, breakthrough bleeding, irregular menstrual bleeding and even breast cancer.
+
+```ng-mnemonic
+id: ch03-iud-types
+title: Three kinds of IUD
+trick: **L**ittle **C**ousins **P**lay **L**udo: **L**oop · **C**opper · **P**rogestasert / **L**NG-20
+meaning: Non-medicated: **L**ippes loop. Copper-releasing: **C**uT, Cu7, Multiload 375. Hormone-releasing: **P**rogestasert, **L**NG-20.
+prompt: Name one non-medicated, one copper-releasing and one hormone-releasing IUD.
+```
+
+```ng-mnemonic
+id: ch03-pill-numbers
+title: Numbers in contraception
+trick: **21–7, 72, 6** (pill days, emergency hours, breastfeeding months)
+meaning: Pills: **21** days on, **7** off. Emergency contraception within **72** hours. Lactational amenorrhea works up to **6** months.
+prompt: Within how many hours must emergency contraception be used?
+```
+
+```ng-compare
+id: ch03-vasectomy-vs-tubectomy
+title: Vasectomy vs tubectomy
+cols: Vasectomy | Tubectomy
+row: Done in | males | females
+row: Part cut or tied | vas deferens | fallopian tube
+row: Approach | small cut in the scrotum | small cut in the abdomen, or through the vagina
+row: Reversibility | very poor | very poor
+```
 
 **In one breath:** Natural (days 10–17, withdrawal, lactational amenorrhea up to 6 months), barriers (Nirodh; diaphragms cover the cervix), IUDs (Lippes loop; Cu-releasing; hormone-releasing), pills (21 days + 7 off; Saheli weekly, non-steroidal), injections/implants, emergency within 72 h, and terminal sterilisation (vasectomy, tubectomy).
 
@@ -83,6 +133,14 @@ MTPs are done to end unwanted pregnancies (after unprotected intercourse, contra
 Write the NCERT version: 12 weeks with one registered medical practitioner, 12–24 weeks with two.
 :::
 
+```ng-fill
+id: ch03-mtp-rule
+title: MTP rule as NCERT gives it
+cols: Stage of pregnancy | Opinion needed
+row: Up to [[12 weeks]] | [[one]] registered medical practitioner
+row: [[12 to 24 weeks]] | [[two]] registered medical practitioners
+```
+
 **In one breath:** MTP = intentional ending of pregnancy; legal in India since 1971; NCERT: up to 12 weeks with one RMP, 12–24 weeks with two; safest in the first trimester; quacks and sex-selective abortion are the dangers.
 
 ## Sexually transmitted infections
@@ -94,6 +152,14 @@ Some, like hepatitis-B and HIV, also spread by sharing injection needles or surg
 Early symptoms are mild: itching, fluid discharge, slight pain and swelling in the genital region. Infected women may have no symptoms at all for a long time. Mild symptoms and social stigma keep people from getting tested and treated, and that is dangerous, because untreated STIs can lead to **pelvic inflammatory disease (PID)**, abortions, still births, **ectopic pregnancy**, infertility and even cancer of the reproductive tract. Anyone can be infected, but cases are highest in the **15–24 years** age group.
 
 Prevention comes down to three rules: avoid sex with unknown or multiple partners; always use condoms during coitus; and, in case of doubt, see a qualified doctor early and complete the treatment.
+
+```ng-mnemonic
+id: ch03-not-curable
+title: STIs that are not completely curable
+trick: **Triple H**
+meaning: **H**epatitis-B, genital **H**erpes, **H**IV. The others are curable if treated early.
+prompt: Which three STIs are not completely curable?
+```
 
 **In one breath:** STIs include gonorrhoea, syphilis, genital herpes, chlamydiasis, genital warts, trichomoniasis, hepatitis-B and HIV; hepatitis-B, herpes and HIV are not fully curable. Untreated STIs cause PID, ectopic pregnancy and infertility. Prevent: no unknown or multiple partners, condoms, early treatment.
 
@@ -112,18 +178,38 @@ Embryos formed by fertilisation inside a woman's body (in vivo) can also be tran
 - **ICSI** (intra-cytoplasmic sperm injection): a **sperm is injected directly into the ovum** in the laboratory to form an embryo.
 - **Artificial insemination (AI)**: for men who cannot inseminate or have **very low sperm counts**, semen from the husband or a healthy donor is placed in the **vagina**, or in the **uterus** (**IUI**, intra-uterine insemination).
 
-| Technique | What is transferred, where | Suits |
-|---|---|---|
-| ZIFT | zygote / embryo (≤ 8 cells) → fallopian tube | woman who cannot conceive |
-| IUT | embryo (> 8 cells) → uterus | woman who cannot conceive |
-| GIFT | donor ovum → fallopian tube | woman who cannot produce ova |
-| ICSI | sperm injected into ovum (lab) | very low sperm count or motility |
-| AI / IUI | semen → vagina / uterus | man cannot inseminate; low sperm count |
+```ng-compare
+id: ch03-art
+title: Assisted reproductive technologies
+cols: What is transferred, where | Suits
+row: ZIFT | zygote / embryo (≤ 8 cells) → fallopian tube | woman who cannot conceive
+row: IUT | embryo (> 8 cells) → uterus | woman who cannot conceive
+row: GIFT | donor ovum → fallopian tube | woman who cannot produce ova
+row: ICSI | sperm injected into ovum (lab) | very low sperm count or motility
+row: AI / IUI | semen → vagina / uterus | man cannot inseminate; low sperm count
+```
 
 These techniques need highly skilled professionals and costly equipment, so they are available in only a few centres and only some can afford them; emotional, religious and social factors also hold people back. With so many orphaned and destitute children in India, **legal adoption** remains one of the best options for couples who want to be parents.
 
 :::tip ZIFT vs GIFT
 ZIFT transfers a zygote (fertilisation already done in the lab); GIFT transfers a gamete, the donor ovum, so fertilisation happens inside the body.
 :::
+
+```ng-steps
+id: ch03-ivf-et
+title: IVF–ET, the test-tube baby route
+step: Collect **ova** (wife or donor) and **sperms** (husband or donor).
+step: Let them fuse in the **laboratory**, under conditions like those in the body: a **zygote** forms (in vitro fertilisation).
+step: Up to **8 blastomeres**: transfer into the **fallopian tube** (**ZIFT**).
+step: More than **8 blastomeres**: transfer into the **uterus** (**IUT**).
+```
+
+```ng-mnemonic
+id: ch03-zift-iut
+title: ZIFT or IUT?
+trick: **8 and below goes to the tube; above 8 goes to the uterus**
+meaning: ZIFT: ≤ 8 blastomeres → fallopian tube. IUT: > 8 blastomeres → uterus. GIFT: a **G**amete (donor ovum) → tube.
+prompt: Where is an embryo with more than 8 blastomeres transferred, and what is the method called?
+```
 
 **In one breath:** Infertility has many causes and can lie with either partner. IVF–ET → ZIFT (≤ 8 cells, tube) or IUT (> 8 cells, uterus); GIFT puts a donor ovum in the tube; ICSI injects a sperm into the ovum; AI/IUI places semen in the vagina or uterus. ART is costly and rare, so adoption is a strong option.

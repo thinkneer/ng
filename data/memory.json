@@ -580,6 +580,147 @@
    "prompt": "Recite the spectrochemical series from the weakest ligand."
   }
  ],
+ "biology/ch-01": [
+  {
+   "id": "ch01-anther-wall",
+   "title": "Anther wall layers, outside to inside",
+   "trick": "**E**very **E**lephant **M**ust **T**rumpet",
+   "meaning": [
+    "**E**pidermis → **E**ndothecium → **M**iddle layers → **T**apetum (innermost; feeds the pollen)."
+   ],
+   "prompt": "Name the four wall layers of a microsporangium from outside to inside."
+  },
+  {
+   "id": "ch01-seven-rooms",
+   "title": "How many cells, how many nuclei?",
+   "trick": "**7 rooms, 8 people**",
+   "meaning": [
+    "The embryo sac has **7 cells** (rooms) but **8 nuclei** (people): the big central room shares two polar nuclei."
+   ],
+   "prompt": "How many cells and how many nuclei does a mature embryo sac have?"
+  },
+  {
+   "id": "ch01-voc",
+   "title": "Plants with both chasmogamous and cleistogamous flowers",
+   "trick": "**VOC**: the plant's **V**oice **O**f **C**ertainty",
+   "meaning": [
+    "***V**iola* (common pansy), ***O**xalis*, ***C**ommelina*: their closed flowers make seed set certain."
+   ],
+   "prompt": "Name three plants that bear cleistogamous flowers."
+  },
+  {
+   "id": "ch01-ebdr",
+   "title": "Order of steps in artificial hybridisation",
+   "trick": "**E**very **B**ud **D**eserves **R**espect",
+   "meaning": [
+    "**E**masculate → **B**ag → **D**ust pollen → **R**ebag."
+   ],
+   "prompt": "List the steps of artificial hybridisation in order."
+  },
+  {
+   "id": "ch01-coleo",
+   "title": "Coleoptile or coleorhiza?",
+   "trick": "Coleo-**PT**-ile = **P**lumule **T**op · Coleo-**RH**-iza = **R**oot **H**older",
+   "meaning": [
+    "The coleoptile sheathes the shoot apex; the coleorhiza sheathes the radicle and root cap."
+   ],
+   "prompt": "Which sheath covers the radicle in a grass embryo?"
+  },
+  {
+   "id": "ch01-false-fruits",
+   "title": "False fruits",
+   "trick": "**A**pples and **S**trawberries **C**heat",
+   "meaning": [
+    "**A**pple, **S**trawberry and **C**ashew are false fruits: the thalamus joins the ovary in forming the fruit."
+   ],
+   "prompt": "Name three false fruits."
+  }
+ ],
+ "biology/ch-02": [
+  {
+   "id": "ch02-seven-up",
+   "title": "The path a sperm takes",
+   "trick": "**SEVEN UP**",
+   "meaning": [
+    "**S**eminiferous tubules (via rete testis, vasa efferentia) → **E**pididymis → **V**as deferens → **E**jaculatory duct → (**N**othing) → **U**rethra → **P**enis."
+   ],
+   "prompt": "Trace the path of sperms from the seminiferous tubules to the outside."
+  },
+  {
+   "id": "ch02-oviduct-parts",
+   "title": "Parts of the oviduct, ovary to uterus",
+   "trick": "**I A**m **I**nterested",
+   "meaning": [
+    "**I**nfundibulum (with fimbriae) → **A**mpulla (fertilisation) → **I**sthmus (joins the uterus)."
+   ],
+   "prompt": "Name the three parts of the fallopian tube from the ovary end."
+  },
+  {
+   "id": "ch02-leydig-sertoli",
+   "title": "Which hormone acts on which cell?",
+   "trick": "**L**eydig listens to **L**H · **S**ertoli to F**S**H",
+   "meaning": [
+    "LH → Leydig cells → androgens. FSH (with androgens) → Sertoli cells → spermiogenesis."
+   ],
+   "prompt": "On which cells do LH and FSH act in the testis?"
+  },
+  {
+   "id": "ch02-phases-order",
+   "title": "Order of the phases",
+   "trick": "**M**ummy **F**ries **O**nion **L**adoos",
+   "meaning": [
+    "**M**enstrual → **F**ollicular → **O**vulatory → **L**uteal."
+   ],
+   "prompt": "Name the four phases of the menstrual cycle in order."
+  },
+  {
+   "id": "ch02-pregnancy-only",
+   "title": "Hormones made only during pregnancy",
+   "trick": "**H**appy **H**ome **R**eady",
+   "meaning": [
+    "**h**CG, **h**PL, **R**elaxin. hCG and hPL come from the placenta; relaxin from the ovary."
+   ],
+   "prompt": "Which three hormones are made only during pregnancy?"
+  }
+ ],
+ "biology/ch-03": [
+  {
+   "id": "ch03-iud-types",
+   "title": "Three kinds of IUD",
+   "trick": "**L**ittle **C**ousins **P**lay **L**udo: **L**oop · **C**opper · **P**rogestasert / **L**NG-20",
+   "meaning": [
+    "Non-medicated: **L**ippes loop. Copper-releasing: **C**uT, Cu7, Multiload 375. Hormone-releasing: **P**rogestasert, **L**NG-20."
+   ],
+   "prompt": "Name one non-medicated, one copper-releasing and one hormone-releasing IUD."
+  },
+  {
+   "id": "ch03-pill-numbers",
+   "title": "Numbers in contraception",
+   "trick": "**21–7, 72, 6** (pill days, emergency hours, breastfeeding months)",
+   "meaning": [
+    "Pills: **21** days on, **7** off. Emergency contraception within **72** hours. Lactational amenorrhea works up to **6** months."
+   ],
+   "prompt": "Within how many hours must emergency contraception be used?"
+  },
+  {
+   "id": "ch03-not-curable",
+   "title": "STIs that are not completely curable",
+   "trick": "**Triple H**",
+   "meaning": [
+    "**H**epatitis-B, genital **H**erpes, **H**IV. The others are curable if treated early."
+   ],
+   "prompt": "Which three STIs are not completely curable?"
+  },
+  {
+   "id": "ch03-zift-iut",
+   "title": "ZIFT or IUT?",
+   "trick": "**8 and below goes to the tube; above 8 goes to the uterus**",
+   "meaning": [
+    "ZIFT: ≤ 8 blastomeres → fallopian tube. IUT: > 8 blastomeres → uterus. GIFT: a **G**amete (donor ovum) → tube."
+   ],
+   "prompt": "Where is an embryo with more than 8 blastomeres transferred, and what is the method called?"
+  }
+ ],
  "english-core/reading-unseen": [
   {
    "id": "unseen-negatives",

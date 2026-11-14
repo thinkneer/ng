@@ -1,0 +1,109 @@
+[
+  {
+    "id": "ch02-seminiferous-tubule",
+    "kind": "figure",
+    "title": "Seminiferous tubule in section",
+    "svg": "ref: notes#ch02-seminiferous-tubule",
+    "back": "Spermatogonia at the wall → spermatocytes → spermatids → sperms in the lumen. Sertoli cells nourish; Leydig cells between tubules make androgens.",
+    "stars": 3,
+    "tags": [
+      "diagram"
+    ]
+  },
+  {
+    "id": "ch02-sperm",
+    "kind": "figure",
+    "title": "Human sperm",
+    "svg": "ref: notes#ch02-sperm",
+    "back": "Head (acrosome + haploid nucleus), neck, middle piece of mitochondria (energy), tail. 200–300 million per ejaculation.",
+    "stars": 3,
+    "tags": [
+      "diagram"
+    ]
+  },
+  {
+    "id": "ch02-ovary",
+    "kind": "figure",
+    "title": "Ovary: follicle stages",
+    "svg": "ref: notes#ch02-ovary",
+    "back": "Primary → secondary → tertiary (antrum) → Graafian → ovulation → corpus luteum (progesterone).",
+    "stars": 2,
+    "tags": [
+      "diagram"
+    ]
+  },
+  {
+    "id": "ch02-menstrual-cycle",
+    "kind": "figure",
+    "title": "28-day menstrual cycle",
+    "svg": "ref: notes#ch02-menstrual-cycle",
+    "back": "LH surge on about day 14 → ovulation. Estrogen peaks before ovulation; progesterone after it, from the corpus luteum.",
+    "stars": 3,
+    "tags": [
+      "diagram",
+      "5-mark"
+    ]
+  },
+  {
+    "id": "ch02-spermatogenesis",
+    "kind": "process",
+    "title": "Spermatogenesis",
+    "tex": "\\text{spermatogonium (2n)}\\to\\text{1° spermatocyte (2n)}\\xrightarrow{\\text{M I}}2\\ (n)\\xrightarrow{\\text{M II}}4\\text{ spermatids}\\to4\\text{ sperms}",
+    "back": "Spermiogenesis turns spermatids into sperms (no division); spermiation releases them into the lumen.",
+    "stars": 3
+  },
+  {
+    "id": "ch02-oogenesis",
+    "kind": "process",
+    "title": "Oogenesis",
+    "tex": "\\text{oogonium}\\to\\text{1° oocyte (arrested, prophase I)}\\xrightarrow{\\text{M I}}\\text{2° oocyte}+\\text{PB}_1\\xrightarrow{\\text{sperm entry}}\\text{ovum}+\\text{PB}_2",
+    "back": "Oogonia form only in the foetus. One mother cell gives one ovum; meiosis II finishes only after sperm entry.",
+    "stars": 3
+  },
+  {
+    "id": "ch02-fertilisation-to-implantation",
+    "kind": "process",
+    "title": "Zygote to implantation",
+    "tex": "\\text{zygote}\\to\\text{morula (8–16)}\\to\\text{blastocyst}\\to\\text{implantation}",
+    "back": "Fertilisation in the ampulla; cleavage in the isthmus; trophoblast embeds in the endometrium; inner cell mass forms the embryo.",
+    "stars": 2
+  },
+  {
+    "id": "ch02-spermatogenesis-vs-oogenesis",
+    "kind": "compare",
+    "title": "Spermatogenesis vs oogenesis",
+    "tex": "4\\text{ sperms (equal)}\\quad\\big|\\quad1\\text{ ovum}+\\text{polar bodies (unequal)}",
+    "back": "Sperm: from puberty, continuous, meiosis II in testis. Ovum: starts in foetus, cyclic, meiosis II after sperm entry.",
+    "stars": 3
+  },
+  {
+    "id": "ch02-trophoblast-vs-icm",
+    "kind": "compare",
+    "title": "Trophoblast vs inner cell mass",
+    "tex": "\\text{trophoblast}\\to\\text{placenta}\\qquad\\text{ICM}\\to\\text{embryo}",
+    "back": "Trophoblast is the outer layer and forms chorionic villi; the inner cell mass holds stem cells and becomes the embryo.",
+    "stars": 2
+  },
+  {
+    "id": "ch02-parturition",
+    "kind": "process",
+    "title": "Parturition: positive feedback",
+    "tex": "\\text{foetal ejection reflex}\\to\\text{oxytocin}\\to\\text{contractions}\\circlearrowleft",
+    "back": "Stronger contractions release more oxytocin until the baby is born. Colostrum, the first milk, carries antibodies.",
+    "stars": 2
+  },
+  {
+    "id": "ch02-seven-up",
+    "kind": "mnemonic",
+    "title": "SEVEN UP: path of sperm",
+    "tex": "\\textbf{S}\\,\\textbf{E}\\,\\textbf{V}\\,\\textbf{E}\\,\\textbf{N}\\ \\textbf{U}\\,\\textbf{P}",
+    "back": "Seminiferous tubules → Epididymis → Vas deferens → Ejaculatory duct → (Nothing) → Urethra → Penis."
+  },
+  {
+    "id": "ch02-pregnancy-only",
+    "kind": "mnemonic",
+    "title": "Pregnancy-only hormones",
+    "tex": "\\textbf{H}\\text{appy }\\textbf{H}\\text{ome }\\textbf{R}\\text{eady}",
+    "back": "hCG and hPL (placenta) and relaxin (ovary) are made only during pregnancy."
+  }
+]
