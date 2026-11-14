@@ -1,0 +1,108 @@
+[
+  {
+    "id": "ch04-monohybrid-cross",
+    "kind": "figure",
+    "title": "Monohybrid cross",
+    "svg": "ref: notes#ch04-monohybrid-cross",
+    "back": "TT × tt → F1 all Tt (tall). Tt × Tt → F2 3 tall : 1 dwarf; genotypes 1 TT : 2 Tt : 1 tt.",
+    "stars": 3,
+    "tags": [
+      "3-mark"
+    ]
+  },
+  {
+    "id": "ch04-test-cross",
+    "kind": "process",
+    "title": "Test cross",
+    "tex": "\\text{tall (?)}\\times tt\\to\\begin{cases}\\text{all tall}\\Rightarrow TT\\\\1:1\\Rightarrow Tt\\end{cases}",
+    "back": "Cross the unknown with the homozygous recessive parent. Dihybrid test cross gives 1 : 1 : 1 : 1.",
+    "stars": 3
+  },
+  {
+    "id": "ch04-ratios",
+    "kind": "formula",
+    "title": "Mendelian ratios",
+    "tex": "3:1\\quad1:2:1\\quad9:3:3:1\\quad1:1:1:1",
+    "legend": [
+      "3:1 = monohybrid F2 phenotype",
+      "1:2:1 = F2 genotype; incomplete dominance phenotype",
+      "9:3:3:1 = dihybrid F2",
+      "1:1:1:1 = dihybrid test cross"
+    ],
+    "back": "1 : 1 is the monohybrid test cross."
+  },
+  {
+    "id": "ch04-incomplete-vs-co",
+    "kind": "compare",
+    "title": "Incomplete vs co-dominance",
+    "tex": "\\text{pink snapdragon}\\quad\\big|\\quad\\text{blood group AB}",
+    "back": "Incomplete: a new blended phenotype. Co-dominance: both alleles fully expressed. Both give 1 : 2 : 1 in F2.",
+    "stars": 3
+  },
+  {
+    "id": "ch04-abo",
+    "kind": "formula",
+    "title": "ABO blood groups",
+    "tex": "I^A=I^B>i",
+    "legend": [
+      "I^A, I^B = co-dominant",
+      "i = recessive (no sugar)",
+      "genotypes : phenotypes = 6 : 4"
+    ],
+    "back": "AB = I^A I^B; O = ii. Multiple alleles (three) at one gene.",
+    "stars": 3
+  },
+  {
+    "id": "ch04-linkage",
+    "kind": "formula",
+    "title": "Morgan's linkage numbers",
+    "tex": "1.3\\%\\ \\text{(tight)}\\qquad37.2\\%\\ \\text{(loose)}",
+    "legend": [
+      "% = recombinants in Drosophila crosses"
+    ],
+    "back": "Genes on one chromosome stay linked; recombination makes non-parental types. Sturtevant used recombination frequency to map genes.",
+    "stars": 2
+  },
+  {
+    "id": "ch04-sex-determination",
+    "kind": "compare",
+    "title": "Sex determination",
+    "tex": "XO\\ \\big|\\ XY\\ \\big|\\ ZW\\ \\big|\\ \\text{haplodiploid}",
+    "back": "Grasshopper male XO; human male XY; bird female ZW (female heterogamety); honey bee drone haploid, from an unfertilised egg.",
+    "stars": 3
+  },
+  {
+    "id": "ch04-pedigree-symbols",
+    "kind": "figure",
+    "title": "Pedigree symbols",
+    "svg": "ref: notes#ch04-pedigree-symbols",
+    "back": "Square male, circle female, shaded = affected, double line = consanguineous mating, diagonal = dead.",
+    "stars": 2,
+    "tags": [
+      "diagram"
+    ]
+  },
+  {
+    "id": "ch04-sickle-cell",
+    "kind": "process",
+    "title": "Sickle-cell anaemia",
+    "tex": "\\text{GAG}\\to\\text{GUG}:\\ \\text{Glu}\\to\\text{Val (6th, }\\beta\\text{-globin)}",
+    "back": "Autosomal recessive point mutation; Hb polymerises at low O₂ and RBCs sickle. Only HbˢHbˢ is ill.",
+    "stars": 3
+  },
+  {
+    "id": "ch04-chromosomal-disorders",
+    "kind": "compare",
+    "title": "Down vs Klinefelter vs Turner",
+    "tex": "\\text{trisomy 21 (47)}\\ \\big|\\ \\text{XXY (47)}\\ \\big|\\ \\text{XO (45)}",
+    "back": "Aneuploidy from failed chromatid separation. Klinefelter: sterile male with gynaecomastia. Turner: sterile female, rudimentary ovaries.",
+    "stars": 3
+  },
+  {
+    "id": "ch04-x-linked",
+    "kind": "mnemonic",
+    "title": "X-linked recessive",
+    "tex": "\\textbf{H}\\text{aemophilia}\\cdot\\textbf{C}\\text{olour blindness}",
+    "back": "Commoner in males (8% of males colour blind, 0.4% of females). An affected daughter needs an affected father and a carrier mother."
+  }
+]

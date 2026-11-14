@@ -1,0 +1,94 @@
+[
+  {
+    "id": "ch06-miller",
+    "kind": "figure",
+    "title": "Miller's experiment",
+    "svg": "ref: notes#ch06-miller",
+    "back": "1953: CH₄, H₂, NH₃ + water vapour at 800 °C with electric discharge → amino acids. Supports Oparin–Haldane chemical evolution.",
+    "stars": 3,
+    "tags": [
+      "diagram"
+    ]
+  },
+  {
+    "id": "ch06-homologous-vs-analogous",
+    "kind": "compare",
+    "title": "Homologous vs analogous",
+    "tex": "\\text{same origin, different use}\\ \\big|\\ \\text{different origin, same use}",
+    "back": "Homologous (divergent): vertebrate forelimbs; Bougainvillea thorn and Cucurbita tendril. Analogous (convergent): bird and butterfly wings; potato and sweet potato.",
+    "stars": 3
+  },
+  {
+    "id": "ch06-peppered-moth",
+    "kind": "process",
+    "title": "Industrial melanism",
+    "tex": "\\text{white moths (1850)}\\xrightarrow{\\text{soot}}\\text{dark moths (1920)}",
+    "back": "Birds ate the moths that stood out. Natural selection in action, like antibiotic and herbicide resistance.",
+    "stars": 2
+  },
+  {
+    "id": "ch06-adaptive-radiation",
+    "kind": "compare",
+    "title": "Adaptive radiation",
+    "tex": "\\text{one ancestor}\\to\\text{many forms}",
+    "back": "Darwin's finches (Galapagos), Australian marsupials. Placental–marsupial look-alikes (wolf / Tasmanian wolf) show convergent evolution.",
+    "stars": 3
+  },
+  {
+    "id": "ch06-hardy-weinberg",
+    "kind": "formula",
+    "title": "Hardy–Weinberg equation",
+    "tex": "p^2+2pq+q^2=1",
+    "legend": [
+      "p, q = allele frequencies (p + q = 1)",
+      "2pq = carrier (heterozygote) frequency"
+    ],
+    "back": "Frequencies stay constant unless gene flow, drift, mutation, recombination or selection act.",
+    "stars": 3
+  },
+  {
+    "id": "ch06-selection",
+    "kind": "figure",
+    "title": "Types of natural selection",
+    "svg": "ref: notes#ch06-selection",
+    "back": "Stabilising favours the mean; directional favours one extreme; disruptive favours both extremes (two peaks).",
+    "stars": 3,
+    "tags": [
+      "diagram"
+    ]
+  },
+  {
+    "id": "ch06-darwin-devries",
+    "kind": "compare",
+    "title": "Darwin vs de Vries",
+    "tex": "\\text{small, directional variation}\\ \\big|\\ \\text{large, random mutation (saltation)}",
+    "back": "Darwin: natural selection, fitness = reproductive fitness. de Vries worked on Oenothera lamarckiana.",
+    "stars": 2
+  },
+  {
+    "id": "ch06-founder-effect",
+    "kind": "formula",
+    "title": "Founder effect",
+    "tex": "\\text{small founding group}\\Rightarrow\\text{different allele frequencies}",
+    "legend": [
+      "drift = chance change in small populations"
+    ],
+    "back": "A form of genetic drift: the new population may become a different species.",
+    "stars": 2
+  },
+  {
+    "id": "ch06-human-ancestors",
+    "kind": "compare",
+    "title": "Brain capacity",
+    "tex": "650\\text{–}800\\ \\big|\\ 900\\ \\big|\\ 1400\\ \\text{cc}",
+    "back": "Homo habilis | Homo erectus | Neanderthal. Dryopithecus and Ramapithecus about 15 million years ago.",
+    "stars": 3
+  },
+  {
+    "id": "ch06-hw-factors",
+    "kind": "mnemonic",
+    "title": "Hardy–Weinberg disturbers",
+    "tex": "\\textbf{G}\\text{ood }\\textbf{G}\\text{enes }\\textbf{M}\\text{ake }\\textbf{R}\\text{eal }\\textbf{N}\\text{ews}",
+    "back": "Gene flow, genetic drift, mutation, recombination, natural selection."
+  }
+]

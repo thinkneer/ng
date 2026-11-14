@@ -26,13 +26,22 @@ Paper: **Thu 25 Mar 2027** (date sheet of 6 Nov 2026). Biology-only days 10–24
   - Ch 11 Read: age-pyramid SVG and J/S growth-curve SVG; interactions table. Ch 12 Read: energy/biomass pyramid SVG; decomposition steps; 10 % law example. Ch 13 Read: species–area SVG; Evil Quartet; NCERT protected-area figures with a tip that real numbers have grown.
 - **All 13 chapters now have Read, Must know, formulas and 10 practice questions each (130 questions).** Checked: build-index passes with 0 warnings; every SVG rendered and inspected; chapter page checked in headless Chrome (390 px).
 
+- **Interactive pass (CLAUDE.md §4c), 14 Nov 2026 — Ch 1–6 done.** Each chapter has `cards.json` (10–13 cards: figure refs, formula tex + legend, process/compare chains, mnemonics) and blocks in notes.md placed where the idea is taught:
+  - Ch 1: 5 `ng-figure` (microsporangium, pollen, ovule, embryo sac, embryos) + 4 `ng-draw`; `ng-steps` for microsporogenesis, embryo-sac development, hybridisation, pollen-tube path, double fertilisation, embryo stages; `ng-compare` (pollination kinds, dicot vs monocot embryo, albuminous seeds, apomixis/polyembryony/parthenocarpy); `ng-fill` ploidy; 6 mnemonics.
+  - Ch 2: 4 `ng-figure` (tubule, sperm, ovary, 28-day cycle) + 3 `ng-draw`; steps for oogenesis, cycle phases, fertilisation→implantation, parturition; compare/fill tables; 5 mnemonics (SEVEN UP, IAI, Leydig–LH…).
+  - Ch 3: new `ng-figure` fertile-window bar; fills (contraceptives, MTP rule), compares (vasectomy/tubectomy, ART); IVF–ET steps; 5 mnemonics.
+  - Ch 4: new monohybrid-cross `ng-figure` (+ Punnett `ng-fill`, `ng-draw`), pedigree symbols `ng-figure`; `ng-numerical` F2 dwarf count and dihybrid class count; dihybrid and sickle-cell steps; fills (ABO, sex determination, chromosomal disorders); 4 mnemonics.
+  - Ch 5: `ng-figure` replication fork, lac operon and a new transcription unit (each with `ng-draw`); `ng-numerical` Chargaff and DNA length; steps for Griffith, Hershey–Chase, Meselson–Stahl, hnRNA processing, translation, lac switch, fingerprinting; 6 mnemonics.
+  - Ch 6: new Miller-apparatus `ng-figure` + `ng-draw`; selection curves `ng-figure` + `ng-draw`; `ng-numerical` carrier frequency; `ng-graph` p², 2pq, q² vs q; steps (Miller, peppered moth, human line); compares and ancestor `ng-fill`; 4 mnemonics.
+
 ## Corrections
-- none yet
+- Ch 1 pollen-grain germ-pore leader moved to an actual gap in the exine.
+- Ch 1–3 interactive commit landed on main with the message "biology: rebuild index" (a rebase hiccup); content is correct.
 
 ## What's next
 1. **More practice**: raise each chapter to 6+ MCQ/A–R (live quizzes draw on them) and add 2–3 more case questions per unit.
 2. **Practicals (30 marks)**: the experiments in the 2026–27 practical list (check the syllabus PDF; includes DNA isolation, quadrat study, pollen germination, onion root-tip mitosis), the spotting items and viva questions — not on the site yet.
-3. **Diagram polish**: male and female reproductive systems, T.S. of anther (whole), mammary gland, DNA double helix and nucleosome, transcription unit, Bt toxin action and RNAi are described in words only; add SVGs.
+3. **Diagram polish**: male and female reproductive systems, T.S. of anther (whole), mammary gland, DNA double helix and nucleosome, Bt toxin action and RNAi are described in words only; add SVGs.
 4. **Review pass**: read every Must-know line on a phone in Recall mode; shorten any line over 15 words.
 5. Full-length timed paper on the 2026–27 pattern (papers/ folder) once a Site chat confirms the exam-mode format.
 

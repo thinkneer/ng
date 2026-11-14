@@ -16,12 +16,34 @@ He explained this with "factors" passed unchanged from parent to offspring; we c
 
 The two alleles separate when gametes form, so each gamete gets only one. In the F1 (Tt), half the gametes carry T and half carry t. The British geneticist Reginald Punnett drew a grid to show the fusions, now called the **Punnett square**:
 
-| ♀ \ ♂ | T | t |
-|---|---|---|
-| **T** | TT (tall) | Tt (tall) |
-| **t** | Tt (tall) | tt (dwarf) |
+```ng-figure
+id: ch04-monohybrid-cross
+title: Monohybrid cross: tall × dwarf
+svg:
+<svg viewBox="0 0 340 226" role="img" aria-label="Monohybrid cross chart from parents to F2 Punnett square" fill="none" stroke="currentColor">
+<path stroke-width="1.6" d="M110,110H230V210H110ZM170,110V210M110,160H230"/>
+<rect class="uf" x="171" y="161" width="58" height="48" fill-opacity="0.25" stroke="none"/>
+<path stroke-width="0.8" d="M100,24L148,40M240,24L192,40M160,54V64M180,54V64M170,84V96"/>
+<circle cx="160" cy="46" r="9"/><circle cx="180" cy="46" r="9"/>
+<g fill="currentColor" stroke="none" font-size="11"><text x="4" y="20">P</text><text x="60" y="20">TT (tall)</text><text x="160" y="20">×</text><text x="210" y="20">tt (dwarf)</text><text x="4" y="50">Gametes</text><text x="156" y="50">T</text><text x="177" y="50">t</text><text x="4" y="80">F1</text><text x="146" y="80">Tt (all tall)</text><text x="4" y="164">F2</text><text x="40" y="164">Tt × Tt</text><text x="136" y="105">T</text><text x="197" y="105">t</text><text x="96" y="140">T</text><text x="96" y="190">t</text><text x="128" y="140">TT</text><text x="190" y="140">Tt</text><text x="128" y="190">Tt</text><text x="192" y="190">tt</text><text x="240" y="132">3 tall : 1 dwarf</text><text x="240" y="152">1 TT : 2 Tt : 1 tt</text></g>
+</svg>
+caption: Monohybrid cross: F1 is all tall; selfing F1 gives F2 3 tall : 1 dwarf (phenotype) and 1 TT : 2 Tt : 1 tt (genotype).
+part: 38, 16 | Parents (P) | True-breeding tall TT and dwarf tt.
+part: 208, 46 | Gametes | Each parent gives one allele per gamete: T or t (segregation).
+part: 232, 76 | F1 generation | All Tt and tall: the law of dominance.
+part: 216, 200 | Dwarf in F2 | tt: the recessive trait reappears in a quarter of F2.
+part: 290, 174 | F2 ratios | Phenotype 3 : 1, genotype 1 : 2 : 1.
+```
 
 Phenotypic ratio **3 tall : 1 dwarf**; genotypic ratio **1 TT : 2 Tt : 1 tt**.
+
+```ng-fill
+id: ch04-punnett-monohybrid
+title: Fill the Punnett square for Tt × Tt
+cols: ♀ \ ♂ | T | t
+row: **T** | [[TT (tall)]] | [[Tt (tall)]]
+row: **t** | [[Tt (tall)]] | [[tt (dwarf)]]
+```
 
 To find out whether a tall plant is TT or Tt, cross it with the recessive parent (tt). This is a **test cross**. If all offspring are tall, the plant was TT; if half are dwarf, it was Tt (ratio 1 : 1).
 
@@ -36,6 +58,26 @@ F1 selfed: Tt × Tt → Punnett square → F2 3 tall : 1 dwarf; genotypes 1 TT :
 Test cross: tall plant × tt → all tall means TT; 1 tall : 1 dwarf means Tt [1]
 :::
 
+```ng-numerical
+id: ch04-f2-dwarf
+title: Counting dwarf plants in F2
+question: A cross between true-breeding tall (TT) and dwarf (tt) pea plants gives tall F1 plants, which are selfed. If {{N}} F2 plants are raised, how many are expected to be dwarf?
+var: N | 400 | 1200 | 40
+answer: N/4
+unit: plants
+dp: 0
+tol: 1
+step: F2 phenotypic ratio = 3 tall : 1 dwarf, so dwarf = $\tfrac14$ of F2.
+step: Dwarf $=\tfrac14\times{{N}}=$ **{{N/4:0}} plants**; tall $={{3*N/4:0}}$.
+```
+
+```ng-draw
+id: ch04-draw-monohybrid
+title: Write out the monohybrid cross chart
+svg: ref: notes#ch04-monohybrid-cross
+time: 4
+```
+
 **In one breath:** F1 shows the dominant trait; F2 gives 3 : 1 (phenotype) and 1 : 2 : 1 (genotype). Law of dominance and law of segregation; a test cross with the recessive parent reveals an unknown genotype (1 : 1 if heterozygous).
 
 ## When dominance is not complete
@@ -48,18 +90,30 @@ What does "dominant" mean chemically? A gene codes for a product, often an enzym
 
 **Co-dominance.** In co-dominance, the F1 shows **both** parental traits fully. The human **ABO blood groups** are the classic case. The gene *I* has **three alleles**, $I^A$, $I^B$ and $i$. $I^A$ and $I^B$ make slightly different sugar polymers on the red cell surface; $i$ makes none. $I^A$ and $I^B$ are both dominant over $i$, but when they are together, both are expressed: **$I^AI^B$ gives group AB**. A person carries only two of the three alleles, so a gene with more than two alleles in the population is an example of **multiple alleles**.
 
-| Genotype | Blood group |
-|---|---|
-| $I^AI^A$, $I^Ai$ | A |
-| $I^BI^B$, $I^Bi$ | B |
-| $I^AI^B$ | AB |
-| $ii$ | O |
+```ng-fill
+id: ch04-abo
+title: ABO genotypes and blood groups
+cols: Genotype | Blood group
+row: $I^AI^A$, $I^Ai$ | [[A]]
+row: $I^BI^B$, $I^Bi$ | [[B]]
+row: [[$I^AI^B$]] | AB
+row: $ii$ | [[O]]
+```
 
 Six genotypes, four phenotypes.
 
 :::tip Incomplete dominance vs co-dominance
 Incomplete dominance blends to a new intermediate (pink snapdragon); co-dominance shows both traits side by side (blood group AB).
 :::
+
+```ng-compare
+id: ch04-incomplete-vs-co
+title: Incomplete dominance vs co-dominance
+cols: Incomplete dominance | Co-dominance
+row: F1 looks like | a new intermediate (blend) | both parents, side by side
+row: Example | snapdragon: red × white → pink | ABO: $I^AI^B$ → blood group AB
+row: F2 phenotype ratio | 1 : 2 : 1 (same as genotype) | 1 : 2 : 1 for $I^AI^B \times I^AI^B$
+```
 
 **In one breath:** Incomplete dominance gives an intermediate heterozygote and a 1 : 2 : 1 F2 (snapdragon); co-dominance expresses both alleles (AB blood group). ABO is controlled by three alleles: multiple alleles, six genotypes, four groups.
 
@@ -72,6 +126,29 @@ Look at one character at a time and each still gives 3 : 1 (12 round : 4 wrinkle
 A dihybrid test cross, RrYy × rryy, gives four kinds of offspring in a **1 : 1 : 1 : 1** ratio.
 
 Mendel published in 1865, but his work was ignored until **1900**, when de Vries, Correns and von Tschermak independently rediscovered it. Reasons for the neglect: communication was slow, his idea of discrete "factors" did not fit the belief in continuous variation, and he could not show the factors physically.
+
+```ng-steps
+id: ch04-dihybrid
+title: The dihybrid cross, step by step
+step: **P**: round yellow (RRYY) × wrinkled green (rryy); gametes RY and ry.
+step: **F1**: all round yellow (RrYy).
+step: F1 forms **four kinds of gametes** in equal numbers: RY, Ry, rY, ry (independent assortment).
+step: A 4 × 4 Punnett square gives **16 combinations**.
+step: **F2**: 9 round yellow : 3 round green : 3 wrinkled yellow : 1 wrinkled green.
+```
+
+```ng-numerical
+id: ch04-f2-dihybrid
+title: Counting a class in a dihybrid F2
+question: Round yellow (RRYY) peas are crossed with wrinkled green (rryy), and F1 is selfed. Out of {{N}} F2 seeds, how many are expected to be round and green?
+var: N | 320 | 1600 | 16
+answer: 3*N/16
+unit: seeds
+dp: 0
+tol: 1
+step: F2 ratio 9 RY : 3 Ry : 3 rY : 1 ry, so round green = $\tfrac{3}{16}$.
+step: Round green $=\tfrac{3}{16}\times{{N}}=$ **{{3*N/16:0}} seeds**.
+```
 
 **In one breath:** Dihybrid F2 = 9 : 3 : 3 : 1 because each gene segregates independently (law of independent assortment); dihybrid test cross = 1 : 1 : 1 : 1. Mendel's work was rediscovered in 1900.
 
@@ -91,22 +168,42 @@ Mendel's traits came in two clear forms. Many human traits do not: height and sk
 
 The reverse also happens: one gene can affect several phenotypes. This is **pleiotropy**. Usually the gene affects a metabolic pathway that feeds many traits. In **phenylketonuria**, a single gene mutation causes intellectual disability and also reduced hair and skin pigmentation.
 
+```ng-compare
+id: ch04-polygenic-vs-pleiotropy
+title: Polygenic inheritance vs pleiotropy
+cols: Polygenic inheritance | Pleiotropy
+row: Genes : traits | many genes → one trait | one gene → many traits
+row: Variation | continuous, environment adds to it | several distinct effects
+row: Example | human skin colour, height | phenylketonuria
+```
+
 **In one breath:** Polygenic: several genes (plus environment) add up to one continuous trait (skin colour). Pleiotropic: one gene, many effects (phenylketonuria).
 
 ## Sex determination
 
 In 1891 **Henking** saw that, during spermatogenesis in some insects, half the sperms received a particular nuclear structure and half did not. He called it the X body; later it was recognised as the **X chromosome**. Chromosomes involved in sex are **sex chromosomes** (allosomes); the rest are **autosomes**.
 
-| Organism | Female | Male | Who decides sex |
-|---|---|---|---|
-| Grasshopper | XX | **XO** (one X, no partner) | male: sperms with or without X |
-| Humans, *Drosophila* | XX | **XY** | male: X or Y sperm (male heterogamety) |
-| Birds | **ZW** | ZZ | female: Z or W egg (female heterogamety) |
-| Honey bee | fertilised egg (2n = 32) | unfertilised egg (n = 16) | haplodiploid system |
+```ng-fill
+id: ch04-sex-determination
+title: Sex determination in four organisms
+cols: Organism | Female | Male | Who decides sex
+row: Grasshopper | XX | [[XO]] | male: sperms with or without X
+row: Humans, *Drosophila* | XX | [[XY]] | [[male (male heterogamety)]]
+row: Birds | [[ZW]] | ZZ | [[female (female heterogamety)]]
+row: Honey bee | fertilised egg (2n = 32) | [[unfertilised egg (n = 16)]] | haplodiploid system
+```
 
 In humans, 22 pairs are autosomes and one pair is the sex chromosomes. Males make X and Y sperms in equal numbers; all ova carry X. So each pregnancy has an equal chance of a boy or a girl, and the sperm decides.
 
 In the **honey bee**, a fertilised egg becomes a female (queen or worker) and an unfertilised egg becomes a male (drone) by parthenogenesis. Males are haploid, so they make sperms by **mitosis**; they have **no father** (and so no sons) but have a grandfather and can have grandsons.
+
+```ng-mnemonic
+id: ch04-zw-birds
+title: Which sex is heterogametic in birds?
+trick: **W** for **W**oman bird
+meaning: Birds: female **ZW**, male ZZ, so the **egg** decides the sex. Humans: male XY, so the sperm decides.
+prompt: In birds, which parent decides the sex of the chick?
+```
 
 **In one breath:** XO (grasshopper) and XY (humans, *Drosophila*) are male heterogamety; ZW birds are female heterogamety; honey bees are haplodiploid (drones are haploid, from unfertilised eggs, and make sperms by mitosis).
 
@@ -116,13 +213,25 @@ A **mutation** is a change in the DNA sequence that changes the genotype and phe
 
 We cannot do controlled crosses in humans, so we study family records. A **pedigree analysis** traces a trait through several generations of a family, using standard symbols, to work out whether it is dominant or recessive and whether it is on an autosome or the X chromosome.
 
-<figure class="fig">
+```ng-figure
+id: ch04-pedigree-symbols
+title: Pedigree symbols
+svg:
 <svg viewBox="0 0 345 135" role="img" aria-label="Standard pedigree symbols">
-<g fill="none" stroke="currentColor" stroke-width="1.4"><rect x="10" y="12" width="18" height="18"/><circle cx="19" cy="60" r="9"/><circle cx="19" cy="104" r="9"/><path d="M19,95V113" stroke-width="2"/><rect x="118" y="12" width="18" height="18" fill="#6A3FA0" fill-opacity="0.6"/><circle cx="127" cy="60" r="9" fill="#6A3FA0" fill-opacity="0.6"/><rect x="118" y="95" width="18" height="18"/><path d="M118,113L136,95M228,21H256M228,58H256M228,62H256M230,84H270M250,84V94M236,94H264M236,94V100M264,94V100"/><rect x="227" y="100" width="18" height="18"/><circle cx="264" cy="109" r="9"/></g>
+<g fill="none" stroke="currentColor" stroke-width="1.4"><rect x="10" y="12" width="18" height="18"/><circle cx="19" cy="60" r="9"/><circle cx="19" cy="104" r="9"/><path d="M19,95V113" stroke-width="2"/><rect class="uf" x="118" y="12" width="18" height="18" fill-opacity="0.6"/><circle class="uf" cx="127" cy="60" r="9" fill-opacity="0.6"/><rect x="118" y="95" width="18" height="18"/><path d="M118,113L136,95M228,21H256M228,58H256M228,62H256M230,84H270M250,84V94M236,94H264M236,94V100M264,94V100"/><rect x="227" y="100" width="18" height="18"/><circle cx="264" cy="109" r="9"/></g>
 <g font-size="9" fill="currentColor"><text x="34" y="25">Male</text><text x="34" y="64">Female</text><text x="34" y="108">Carrier</text><text x="142" y="25">Affected male</text><text x="142" y="64">Affected female</text><text x="142" y="108">Dead</text><text x="260" y="25">Mating</text><text x="260" y="58">Mating between</text><text x="260" y="69">relatives</text><text x="278" y="106">Parents and</text><text x="278" y="117">offspring</text></g>
 </svg>
-<figcaption>Common pedigree symbols. A double line marks a mating between relatives; a dot or half-shading marks a carrier.</figcaption>
-</figure>
+caption: Common pedigree symbols. A double line marks a mating between relatives; a dot or half-shading marks a carrier.
+part: 19, 21 | Male | An open square.
+part: 19, 60 | Female | An open circle.
+part: 19, 104 | Carrier | Marked with a dot or half-shading (here a line through the circle).
+part: 127, 21 | Affected male | Shaded square.
+part: 127, 60 | Affected female | Shaded circle.
+part: 127, 104 | Dead | Symbol with a diagonal line through it.
+part: 242, 21 | Mating | A single horizontal line.
+part: 242, 60 | Consanguineous mating | A double line: mating between relatives.
+part: 250, 89 | Parents and offspring | Vertical line from the mating to a line joining the children.
+```
 
 **In one breath:** Mutation = change in DNA sequence (point, frameshift, chromosomal aberration), caused by mutagens like UV. Pedigree analysis follows a trait through a family tree to decide dominant or recessive, autosomal or X-linked.
 
@@ -138,14 +247,45 @@ We cannot do controlled crosses in humans, so we study family records. A **pedig
 
 **Chromosomal disorders** come from too many, too few or rearranged chromosomes. Failure of chromatids to separate in cell division gives a gain or loss of a chromosome, **aneuploidy**. Failure of cytokinesis after telophase gives a whole extra set of chromosomes, **polyploidy**, common in plants.
 
-| Disorder | Chromosomes | Key features |
-|---|---|---|
-| Down's syndrome | trisomy of **21** (47) | short, small round head, furrowed tongue, partly open mouth, broad palm with a characteristic crease, delayed physical, psychomotor and mental development (described by Langdon Down, 1866) |
-| Klinefelter's syndrome | **XXY** (47) | male, overall masculine but with some feminine development (gynaecomastia), sterile |
-| Turner's syndrome | **XO** (45) | female, sterile with rudimentary ovaries, lack of secondary sexual characters |
+
 
 :::tip Who gets X-linked recessive disorders
 A son gets his X from his mother, so an affected son usually has a carrier mother. A daughter is affected only if her father is affected and her mother carries the allele.
 :::
+
+```ng-steps
+id: ch04-sickle-cell
+title: From one base change to sickle cells
+step: A **point mutation** in the β-globin gene changes codon **GAG** to **GUG**.
+step: At the **sixth** position of the β-globin chain, **glutamic acid** is replaced by **valine**.
+step: The changed haemoglobin **polymerises at low oxygen tension**.
+step: Red blood cells bend from biconcave discs into **sickle shapes**.
+step: Only $Hb^SHb^S$ people are ill; $Hb^AHb^S$ carriers pass the allele to half their gametes.
+```
+
+```ng-fill
+id: ch04-chromosomal-disorders
+title: Chromosomal disorders
+cols: Disorder | Chromosomes | Key features
+row: Down's syndrome | [[trisomy of 21 (47)]] | short, small round head, furrowed tongue, broad palm with a crease, delayed development
+row: Klinefelter's syndrome | [[XXY (47)]] | [[male, some feminine development (gynaecomastia), sterile]]
+row: Turner's syndrome | [[XO (45)]] | [[female, sterile, rudimentary ovaries]]
+```
+
+```ng-mnemonic
+id: ch04-chromosomal-hooks
+title: Down, Klinefelter, Turner
+trick: **Down to 21** · **Kline-fella has an eXtra X** · **Turner turns up with One X**
+meaning: Down's: trisomy 21. Klinefelter's: XXY, a sterile male. Turner's: XO, a sterile female.
+prompt: What is the karyotype in Klinefelter's and in Turner's syndrome?
+```
+
+```ng-mnemonic
+id: ch04-x-linked
+title: X-linked recessive disorders
+trick: **H**ey **C**olour-blind **H**ero: **H**aemophilia and **C**olour blindness
+meaning: Both are X-linked recessive: commoner in males; the son gets the allele from his carrier mother.
+prompt: Name two X-linked recessive disorders.
+```
 
 **In one breath:** Mendelian disorders: haemophilia and colour blindness (X-linked recessive), sickle-cell (Glu → Val at position 6 of β-globin), phenylketonuria, thalassaemia (α on chromosome 16, β on 11). Chromosomal: Down's (trisomy 21), Klinefelter's (XXY), Turner's (XO).

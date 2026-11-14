@@ -1,0 +1,133 @@
+[
+  {
+    "id": "ch05-double-helix",
+    "kind": "formula",
+    "title": "Double helix numbers",
+    "tex": "\\text{pitch}=3.4\\text{ nm},\\ 10\\text{ bp/turn},\\ 0.34\\text{ nm/bp}",
+    "legend": [
+      "A=T = two H-bonds",
+      "G≡C = three H-bonds"
+    ],
+    "back": "Antiparallel, right-handed; purine always faces pyrimidine, so the width stays constant.",
+    "stars": 3
+  },
+  {
+    "id": "ch05-dna-length",
+    "kind": "formula",
+    "title": "Length of DNA",
+    "tex": "L=\\text{bp}\\times0.34\\text{ nm}",
+    "legend": [
+      "bp = number of base pairs"
+    ],
+    "back": "Human diploid: 6.6 × 10⁹ bp → about 2.2 m. E. coli: 4.6 × 10⁶ bp → about 1.36 mm.",
+    "stars": 3
+  },
+  {
+    "id": "ch05-nucleosome",
+    "kind": "formula",
+    "title": "Nucleosome",
+    "tex": "\\text{histone octamer}+\\approx200\\text{ bp DNA}",
+    "legend": [
+      "histones = rich in lysine, arginine (+ charge)"
+    ],
+    "back": "Beads-on-string chromatin; H1 and NHC proteins pack it further. Euchromatin active, heterochromatin inactive.",
+    "stars": 2
+  },
+  {
+    "id": "ch05-hershey-chase",
+    "kind": "process",
+    "title": "Hershey–Chase",
+    "tex": "{}^{32}\\text{P (DNA)}\\to\\text{inside}\\qquad{}^{35}\\text{S (protein)}\\to\\text{outside}",
+    "back": "Infect → blend → centrifuge. Radioactive phosphorus in the bacteria proves DNA is the genetic material.",
+    "stars": 3
+  },
+  {
+    "id": "ch05-meselson-stahl",
+    "kind": "process",
+    "title": "Meselson–Stahl",
+    "tex": "{}^{15}\\text{N}\\xrightarrow{20\\text{ min}}\\text{hybrid}\\xrightarrow{40\\text{ min}}\\tfrac12\\text{ hybrid}+\\tfrac12\\text{ light}",
+    "back": "E. coli in ¹⁵N then ¹⁴N; CsCl density gradient. Proves semiconservative replication.",
+    "stars": 3
+  },
+  {
+    "id": "ch05-replication-fork",
+    "kind": "figure",
+    "title": "Replication fork",
+    "svg": "ref: notes#ch05-replication-fork",
+    "back": "Polymerase works only 5′→3′: leading strand continuous, lagging strand in Okazaki fragments joined by ligase.",
+    "stars": 3,
+    "tags": [
+      "diagram"
+    ]
+  },
+  {
+    "id": "ch05-transcription-unit",
+    "kind": "figure",
+    "title": "Transcription unit",
+    "svg": "ref: notes#ch05-transcription-unit",
+    "back": "Promoter → structural gene → terminator. Template 3′→5′; coding strand 5′→3′ has the RNA's sequence.",
+    "stars": 3,
+    "tags": [
+      "diagram"
+    ]
+  },
+  {
+    "id": "ch05-hnrna-processing",
+    "kind": "process",
+    "title": "hnRNA processing",
+    "tex": "\\text{hnRNA}\\xrightarrow{\\text{splicing}}\\xrightarrow{5'\\text{ cap}}\\xrightarrow{3'\\text{ poly-A}}\\text{mRNA}",
+    "back": "Splicing removes introns; capping adds methyl guanosine triphosphate; tailing adds 200–300 A residues.",
+    "stars": 2
+  },
+  {
+    "id": "ch05-genetic-code",
+    "kind": "formula",
+    "title": "Genetic code",
+    "tex": "4^3=64=61\\text{ sense}+3\\text{ stop}",
+    "legend": [
+      "stop = UAA, UAG, UGA",
+      "AUG = methionine and start"
+    ],
+    "back": "Triplet, unambiguous, degenerate, continuous (commaless), nearly universal.",
+    "stars": 3
+  },
+  {
+    "id": "ch05-lac-operon",
+    "kind": "figure",
+    "title": "Lac operon",
+    "svg": "ref: notes#ch05-lac-operon",
+    "back": "i → repressor binds operator (off). Lactose (inducer) inactivates the repressor → z, y, a transcribed. Negative regulation.",
+    "stars": 3,
+    "tags": [
+      "diagram",
+      "5-mark"
+    ]
+  },
+  {
+    "id": "ch05-hgp",
+    "kind": "formula",
+    "title": "HGP numbers",
+    "tex": "3164.7\\text{ Mbp}\\ \\cdot\\ \\sim30{,}000\\text{ genes}\\ \\cdot\\ 99.9\\%",
+    "legend": [
+      "< 2% = coding part of genome",
+      "1.4 million = SNPs"
+    ],
+    "back": "Chromosome 1 has most genes (2968), Y fewest (231); dystrophin is the largest gene.",
+    "stars": 2
+  },
+  {
+    "id": "ch05-fingerprinting",
+    "kind": "process",
+    "title": "DNA fingerprinting",
+    "tex": "\\text{digest}\\to\\text{electrophoresis}\\to\\text{Southern blot}\\to\\text{VNTR probe}\\to\\text{autoradiograph}",
+    "back": "Uses polymorphic satellite DNA (VNTRs). Forensics, paternity disputes, population studies.",
+    "stars": 3
+  },
+  {
+    "id": "ch05-stop-codons",
+    "kind": "mnemonic",
+    "title": "Stop codons",
+    "tex": "\\text{UAA}\\cdot\\text{UAG}\\cdot\\text{UGA}",
+    "back": "U Are Away, U Are Gone, U Go Away. No tRNA exists for them; a release factor binds instead."
+  }
+]

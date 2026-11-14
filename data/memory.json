@@ -721,6 +721,111 @@
    "prompt": "Where is an embryo with more than 8 blastomeres transferred, and what is the method called?"
   }
  ],
+ "biology/ch-04": [
+  {
+   "id": "ch04-zw-birds",
+   "title": "Which sex is heterogametic in birds?",
+   "trick": "**W** for **W**oman bird",
+   "meaning": [
+    "Birds: female **ZW**, male ZZ, so the **egg** decides the sex. Humans: male XY, so the sperm decides."
+   ],
+   "prompt": "In birds, which parent decides the sex of the chick?"
+  },
+  {
+   "id": "ch04-chromosomal-hooks",
+   "title": "Down, Klinefelter, Turner",
+   "trick": "**Down to 21** · **Kline-fella has an eXtra X** · **Turner turns up with One X**",
+   "meaning": [
+    "Down's: trisomy 21. Klinefelter's: XXY, a sterile male. Turner's: XO, a sterile female."
+   ],
+   "prompt": "What is the karyotype in Klinefelter's and in Turner's syndrome?"
+  },
+  {
+   "id": "ch04-x-linked",
+   "title": "X-linked recessive disorders",
+   "trick": "**H**ey **C**olour-blind **H**ero: **H**aemophilia and **C**olour blindness",
+   "meaning": [
+    "Both are X-linked recessive: commoner in males; the son gets the allele from his carrier mother."
+   ],
+   "prompt": "Name two X-linked recessive disorders."
+  }
+ ],
+ "biology/ch-05": [
+  {
+   "id": "ch05-purines",
+   "title": "Purines or pyrimidines?",
+   "trick": "**Pure As Gold** · **CUT the Py**",
+   "meaning": [
+    "Purines (two rings): **A**denine, **G**uanine. Pyrimidines (one ring): **C**ytosine, **U**racil, **T**hymine."
+   ],
+   "prompt": "Which bases are purines?"
+  },
+  {
+   "id": "ch05-pol-123",
+   "title": "Which polymerase makes what?",
+   "trick": "**1-2-3 = R-H-T**: \"**R**eal **H**eroes **T**ransfer\"",
+   "meaning": [
+    "Pol **I** → **r**RNA (28S, 18S, 5.8S). Pol **II** → **h**nRNA. Pol **III** → **t**RNA, 5S rRNA, snRNA."
+   ],
+   "prompt": "Which RNA polymerase makes hnRNA?"
+  },
+  {
+   "id": "ch05-stop-codons",
+   "title": "The three stop codons",
+   "trick": "**U A**re **A**way · **U A**re **G**one · **U G**o **A**way",
+   "meaning": [
+    "**UAA**, **UAG**, **UGA** code for no amino acid. **AUG** = methionine + start."
+   ],
+   "prompt": "Name the three stop codons."
+  },
+  {
+   "id": "ch05-zya",
+   "title": "What z, y and a make",
+   "trick": "**Z**ebra, **Y**ak, **A**nt: **G**o **P**lay **T**ogether",
+   "meaning": [
+    "**z** → β-**g**alactosidase · **y** → **p**ermease · **a** → **t**ransacetylase."
+   ],
+   "prompt": "Which enzyme does the y gene of the lac operon code for?"
+  },
+  {
+   "id": "ch05-fingerprint-order",
+   "title": "Order of DNA fingerprinting steps",
+   "trick": "**I D**on't **E**at **S**weets **H**ere **A**gain",
+   "meaning": [
+    "**I**solate → **D**igest → **E**lectrophoresis → **S**outhern blot → **H**ybridise (VNTR probe) → **A**utoradiograph."
+   ],
+   "prompt": "List the steps of DNA fingerprinting in order."
+  }
+ ],
+ "biology/ch-06": [
+  {
+   "id": "ch06-homo-ana",
+   "title": "Homologous or analogous?",
+   "trick": "**Homo** = same **Home** (origin) · **Ana** = same **Action** (function)",
+   "meaning": [
+    "Homologous: same basic structure and origin, different function (divergent). Analogous: same function, different structure (convergent)."
+   ],
+   "prompt": "Wings of a butterfly and a bird: homologous or analogous?"
+  },
+  {
+   "id": "ch06-hw-factors",
+   "title": "Five factors that upset Hardy–Weinberg",
+   "trick": "**G**ood **G**enes **M**ake **R**eal **N**ews",
+   "meaning": [
+    "**G**ene flow, **G**enetic drift (founder effect), **M**utation, **R**ecombination, **N**atural selection."
+   ],
+   "prompt": "Name the five factors that disturb Hardy–Weinberg equilibrium."
+  },
+  {
+   "id": "ch06-brain-sizes",
+   "title": "Brain capacity in order",
+   "trick": "**6-9-14**: **H**andy → **E**rect → **N**eat burial",
+   "meaning": [
+    "*Homo **h**abilis* 650–800 cc → *Homo **e**rectus* 900 cc → **N**eanderthal 1400 cc."
+   ],
+   "prompt": "Arrange habilis, Neanderthal and erectus by brain capacity."
+  }
+ ],
  "english-core/reading-unseen": [
   {
    "id": "unseen-negatives",
