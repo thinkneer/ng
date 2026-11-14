@@ -726,6 +726,7 @@
                       "title": "Haloalkanes and Haloarenes",
                       "unit": "6",
                       "items": {
+                        "notes": true,
                         "mustknow": true,
                         "formulas": true,
                         "questions": true
@@ -741,7 +742,8 @@
                         "case": 1
                       },
                       "diagrams": [],
-                      "words": 3148
+                      "words": 5846,
+                      "read_minutes": 13
                     }
                   ]
                 },
@@ -758,6 +760,7 @@
                       "title": "Alcohols, Phenols and Ethers",
                       "unit": "7",
                       "items": {
+                        "notes": true,
                         "mustknow": true,
                         "formulas": true,
                         "questions": true
@@ -773,7 +776,8 @@
                         "la5": 2
                       },
                       "diagrams": [],
-                      "words": 2960
+                      "words": 5512,
+                      "read_minutes": 13
                     }
                   ]
                 },
@@ -790,6 +794,7 @@
                       "title": "Aldehydes, Ketones and Carboxylic Acids",
                       "unit": "8",
                       "items": {
+                        "notes": true,
                         "mustknow": true,
                         "formulas": true,
                         "questions": true
@@ -806,7 +811,8 @@
                         "la5": 2
                       },
                       "diagrams": [],
-                      "words": 3156
+                      "words": 5739,
+                      "read_minutes": 13
                     }
                   ]
                 },
@@ -823,6 +829,7 @@
                       "title": "Amines",
                       "unit": "9",
                       "items": {
+                        "notes": true,
                         "mustknow": true,
                         "formulas": true,
                         "questions": true
@@ -838,7 +845,8 @@
                         "la5": 1
                       },
                       "diagrams": [],
-                      "words": 2854
+                      "words": 5321,
+                      "read_minutes": 12
                     }
                   ]
                 },
@@ -855,6 +863,7 @@
                       "title": "Biomolecules",
                       "unit": "10",
                       "items": {
+                        "notes": true,
                         "mustknow": true,
                         "formulas": true,
                         "questions": true
@@ -871,7 +880,8 @@
                         "la5": 1
                       },
                       "diagrams": [],
-                      "words": 3035
+                      "words": 5936,
+                      "read_minutes": 15
                     }
                   ]
                 }
@@ -896,7 +906,7 @@
               },
               "papers": [],
               "counts": {
-                "notes": 5,
+                "notes": 10,
                 "mustknow": 10,
                 "formulas": 10,
                 "questions": 10,
