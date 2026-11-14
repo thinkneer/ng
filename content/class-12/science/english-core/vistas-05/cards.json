@@ -1,0 +1,101 @@
+[
+  {
+    "id": "vistas-05-map",
+    "kind": "figure",
+    "title": "Who is who in On the Face of It",
+    "svg": "ref: notes#vistas-05-characters",
+    "back": "Derry (burnt face, bitterness → hope), Mr Lamb (tin leg, open gate, cheerful by choice), Derry's mother (forbids, is defied).",
+    "stars": 3,
+    "tags": [
+      "characters"
+    ]
+  },
+  {
+    "id": "vistas-05-plot-card",
+    "kind": "process",
+    "title": "The play in six beats",
+    "svg": "ref: notes#vistas-05-plot",
+    "back": "Over the wall → bitterness → Lamb's answers → a promise → Scene 2 → the ladder.",
+    "stars": 3,
+    "tags": [
+      "plot"
+    ]
+  },
+  {
+    "id": "fi-gate",
+    "kind": "event",
+    "title": "The gate is always open",
+    "svg": "<svg viewBox=\"0 0 320 200\" role=\"img\" aria-label=\"Derry climbs the wall into a garden that was never closed\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" font-size=\"11\"><g><rect x=\"110\" y=\"80\" width=\"10\" height=\"90\" fill=\"currentColor\" fill-opacity=\"0.9\" stroke=\"none\"/><rect x=\"200\" y=\"80\" width=\"10\" height=\"90\" fill=\"currentColor\" fill-opacity=\"0.9\" stroke=\"none\"/><g transform=\"translate(120,170) skewY(-18) translate(-120,-170)\"><path d=\"M120.0,88 V166\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M136.0,88 V166\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M152.0,88 V166\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M168.0,88 V166\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M184.0,88 V166\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M200.0,88 V166\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M120,88 H200\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></g></g><g><rect x=\"255.2\" y=\"110.0\" width=\"9.6\" height=\"60.0\" fill=\"currentColor\" fill-opacity=\"0.6\" stroke=\"none\"/><circle cx=\"260\" cy=\"86.0\" r=\"36.0\" fill=\"currentColor\" fill-opacity=\"0.6\" stroke=\"none\"/><circle cx=\"238.4\" cy=\"104.0\" r=\"24.0\" fill=\"currentColor\" fill-opacity=\"0.6\" stroke=\"none\"/><circle cx=\"281.6\" cy=\"104.0\" r=\"24.0\" fill=\"currentColor\" fill-opacity=\"0.6\" stroke=\"none\"/></g><g><circle cx=\"240\" cy=\"87.0\" r=\"6\" fill=\"#E0B400\" stroke=\"none\"/><circle cx=\"270\" cy=\"74.0\" r=\"6\" fill=\"#E0B400\" stroke=\"none\"/><circle cx=\"282\" cy=\"100.0\" r=\"6\" fill=\"#E0B400\" stroke=\"none\"/><circle cx=\"255\" cy=\"106.0\" r=\"6\" fill=\"#E0B400\" stroke=\"none\"/></g><g><circle cx=\"50\" cy=\"107.7\" r=\"7.7\" fill=\"currentColor\" fill-opacity=\"0.9\" stroke=\"none\"/><path d=\"M39.5,123.4 Q50,115.4 60.5,123.4 L58.82,140.6 L61.55,170 H57.35 L51.05,149.0 L43.7,170 H39.08 L45.8,140.6 L41.18,140.6 Z\" fill=\"currentColor\" fill-opacity=\"0.9\" stroke=\"none\"/></g><text x=\"160\" y=\"40\" text-anchor=\"middle\" font-size=\"11\" font-style=\"italic\" fill=\"currentColor\" stroke=\"none\">you could have walked in</text><text x=\"160.0\" y=\"192\" text-anchor=\"middle\" font-size=\"11\" font-style=\"italic\" fill=\"currentColor\" fill-opacity=\"0.85\" stroke=\"none\">Derry climbs the wall into a garden that was never closed</text></svg>",
+    "back": "Mr Lamb refuses to be shocked by the face; sit down, listen to the bees. Openness is his whole philosophy.",
+    "stars": 3,
+    "tags": [
+      "event"
+    ]
+  },
+  {
+    "id": "fi-face",
+    "kind": "event",
+    "title": "One side burnt by acid",
+    "svg": "<svg viewBox=\"0 0 320 200\" role=\"img\" aria-label=\"Stares, whispers, and a kiss on the other side\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" font-size=\"11\"><circle cx=\"160\" cy=\"95\" r=\"55\" fill=\"currentColor\" fill-opacity=\"0.85\" stroke=\"none\"/><path d=\"M160,40 A55,55 0 0 1 160,150 Z\" fill=\"#E0B400\" fill-opacity=\"0.6\" stroke=\"none\"/><text x=\"160\" y=\"185\" text-anchor=\"middle\" font-size=\"10\" font-style=\"italic\" fill=\"currentColor\" stroke=\"none\">only a mother could love…</text><text x=\"160.0\" y=\"192\" text-anchor=\"middle\" font-size=\"11\" font-style=\"italic\" fill=\"currentColor\" fill-opacity=\"0.85\" stroke=\"none\">Stares, whispers, and a kiss on the other side</text></svg>",
+    "back": "Derry reads every reaction as rejection — even his mother's affection. He hates pity, comparisons and Beauty and the Beast.",
+    "stars": 3,
+    "tags": [
+      "event"
+    ]
+  },
+  {
+    "id": "fi-weeds",
+    "kind": "mnemonic",
+    "title": "No weeds, only growing things",
+    "svg": "<svg viewBox=\"0 0 320 200\" role=\"img\" aria-label=\"Labels like ugly and beautiful are choices\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" font-size=\"11\"><g><rect x=\"86.0\" y=\"120.0\" width=\"8.0\" height=\"50.0\" fill=\"currentColor\" fill-opacity=\"0.6\" stroke=\"none\"/><circle cx=\"90\" cy=\"100.0\" r=\"30.0\" fill=\"currentColor\" fill-opacity=\"0.6\" stroke=\"none\"/><circle cx=\"72.0\" cy=\"115.0\" r=\"20.0\" fill=\"currentColor\" fill-opacity=\"0.6\" stroke=\"none\"/><circle cx=\"108.0\" cy=\"115.0\" r=\"20.0\" fill=\"currentColor\" fill-opacity=\"0.6\" stroke=\"none\"/></g><g><path d=\"M180,170 V140\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"180\" cy=\"136\" r=\"8\" fill=\"#E0B400\" stroke=\"none\"/></g><g><path d=\"M215,170 V134\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"215\" cy=\"130\" r=\"8\" fill=\"#E0B400\" stroke=\"none\"/></g><g><path d=\"M250,170 V128\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"250\" cy=\"124\" r=\"8\" fill=\"#E0B400\" stroke=\"none\"/></g><g><path d=\"M285,170 V122\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"285\" cy=\"118\" r=\"8\" fill=\"#E0B400\" stroke=\"none\"/></g><text x=\"160\" y=\"40\" text-anchor=\"middle\" font-size=\"9\" font-style=\"italic\" fill=\"currentColor\" stroke=\"none\">a weed is a flower someone decided not to like</text><text x=\"160.0\" y=\"192\" text-anchor=\"middle\" font-size=\"11\" font-style=\"italic\" fill=\"currentColor\" fill-opacity=\"0.85\" stroke=\"none\">Labels like ugly and beautiful are choices</text></svg>",
+    "back": "Mr Lamb refuses to divide plants — or people. The same goes for bees that sing rather than buzz: attitude decides.",
+    "stars": 3,
+    "tags": [
+      "theme"
+    ]
+  },
+  {
+    "id": "fi-picture",
+    "kind": "event",
+    "title": "The man who locked himself in",
+    "svg": "<svg viewBox=\"0 0 320 200\" role=\"img\" aria-label=\"Afraid of everything — killed by a falling picture\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" font-size=\"11\"><rect x=\"60\" y=\"40\" width=\"200\" height=\"130\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"5\"/><rect x=\"120\" y=\"60\" width=\"60\" height=\"44\" fill=\"currentColor\" fill-opacity=\"0.85\" stroke=\"none\"/><path d=\"M150,108 L150,135 M145.2,126.2 L150,135 L154.8,126.2\" fill=\"none\" stroke=\"#E0B400\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><g><circle cx=\"150\" cy=\"114.6\" r=\"6.6\" fill=\"currentColor\" fill-opacity=\"0.9\" stroke=\"none\"/><path d=\"M141.0,129.2 Q150,121.19999999999999 159.0,129.2 L157.2,145.2 H169.8 V152.4 H167.1 V168 H163.5 V154.8 H141.9 Z\" fill=\"currentColor\" fill-opacity=\"0.9\" stroke=\"none\"/></g><text x=\"160.0\" y=\"192\" text-anchor=\"middle\" font-size=\"11\" font-style=\"italic\" fill=\"currentColor\" fill-opacity=\"0.85\" stroke=\"none\">Afraid of everything — killed by a falling picture</text></svg>",
+    "back": "Hiding from life does not make you safe; it only leaves you alone. The story is Mr Lamb's answer to Derry's wish to be alone.",
+    "stars": 3,
+    "tags": [
+      "event"
+    ]
+  },
+  {
+    "id": "fi-hate",
+    "kind": "mnemonic",
+    "title": "Hatred burns worse than acid",
+    "svg": "<svg viewBox=\"0 0 320 200\" role=\"img\" aria-label=\"The one sentence Mr Lamb hopes Derry hears\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" font-size=\"11\"><g transform=\"translate(160,150) scale(1.4)\"><path d=\"M0,0 C-22,-20 -16,-46 0,-60 C6,-40 20,-36 18,-18 C26,-30 28,-36 30,-44 C40,-26 34,-6 20,2 Q0,10 0,0 Z\" fill=\"#E0B400\" stroke=\"none\"/></g><g><circle cx=\"160\" cy=\"136.6\" r=\"6.6\" fill=\"currentColor\" fill-opacity=\"0.9\" stroke=\"none\"/><path d=\"M151.0,151.2 Q160,143.2 169.0,151.2 L167.56,164.8 L163.6,164.8 L164.32,190 H160.9 L160.36,166.0 H159.64 L159.1,190 H155.68 L156.4,164.8 L152.44,164.8 Z\" fill=\"currentColor\" fill-opacity=\"0.9\" stroke=\"none\"/></g><text x=\"160.0\" y=\"192\" text-anchor=\"middle\" font-size=\"11\" font-style=\"italic\" fill=\"currentColor\" fill-opacity=\"0.85\" stroke=\"none\">The one sentence Mr Lamb hopes Derry hears</text></svg>",
+    "back": "Acid burnt the face once; hatred of the people who stare would go on burning the self. Everyone has something — a tin leg, a burnt face, a fear of the dark.",
+    "stars": 3,
+    "tags": [
+      "theme"
+    ]
+  },
+  {
+    "id": "fi-ladder",
+    "kind": "event",
+    "title": "The ladder",
+    "svg": "<svg viewBox=\"0 0 320 200\" role=\"img\" aria-label=\"Mr Lamb falls as Derry comes running back\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" font-size=\"11\"><g><rect x=\"234.8\" y=\"110.0\" width=\"10.4\" height=\"65.0\" fill=\"currentColor\" fill-opacity=\"0.6\" stroke=\"none\"/><circle cx=\"240\" cy=\"84.0\" r=\"39.0\" fill=\"currentColor\" fill-opacity=\"0.6\" stroke=\"none\"/><circle cx=\"216.6\" cy=\"103.5\" r=\"26.0\" fill=\"currentColor\" fill-opacity=\"0.6\" stroke=\"none\"/><circle cx=\"263.4\" cy=\"103.5\" r=\"26.0\" fill=\"currentColor\" fill-opacity=\"0.6\" stroke=\"none\"/></g><g><circle cx=\"220\" cy=\"85.5\" r=\"6\" fill=\"#E0B400\" stroke=\"none\"/><circle cx=\"250\" cy=\"72.5\" r=\"6\" fill=\"#E0B400\" stroke=\"none\"/><circle cx=\"262\" cy=\"98.5\" r=\"6\" fill=\"#E0B400\" stroke=\"none\"/><circle cx=\"235\" cy=\"104.5\" r=\"6\" fill=\"#E0B400\" stroke=\"none\"/></g><g><path d=\"M210,175 V65 M234,175 V65\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M210,161 H234\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M210,147 H234\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M210,133 H234\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M210,119 H234\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M210,105 H234\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M210,91 H234\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></g><g><circle cx=\"140.6\" cy=\"169.3\" r=\"7.7\" fill=\"currentColor\" fill-opacity=\"0.6\" stroke=\"none\"/><rect x=\"149.0\" y=\"167.68\" width=\"52.5\" height=\"12.32\" fill=\"currentColor\" fill-opacity=\"0.6\" stroke=\"none\" rx=\"4.62\"/></g><g><circle cx=\"70\" cy=\"122.7\" r=\"7.7\" fill=\"currentColor\" fill-opacity=\"0.95\" stroke=\"none\"/><path d=\"M59.5,138.4 Q70,130.4 80.5,138.4 L79.45,164.0 L88.9,164.0 V185 H57.4 V164.0 L60.55,164.0 Z\" fill=\"currentColor\" fill-opacity=\"0.95\" stroke=\"none\"/></g><text x=\"160.0\" y=\"192\" text-anchor=\"middle\" font-size=\"11\" font-style=\"italic\" fill=\"currentColor\" fill-opacity=\"0.85\" stroke=\"none\">Mr Lamb falls as Derry comes running back</text></svg>",
+    "back": "Tragedy and hope together: the man who accepted him is lost; but the boy who wanted to be alone is kneeling beside another human being, caring.",
+    "stars": 3,
+    "tags": [
+      "event"
+    ]
+  },
+  {
+    "id": "fi-line",
+    "kind": "event",
+    "title": "Derry to his mother",
+    "svg": "<svg viewBox=\"0 0 320 200\" role=\"img\" aria-label=\"Line to remember\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" font-size=\"11\"><g><rect x=\"28\" y=\"36\" width=\"264\" height=\"72\" fill=\"currentColor\" fill-opacity=\"0.08\" stroke=\"currentColor\" stroke-width=\"1.5\" rx=\"10\"/><path d=\"M50,108 L42,122 L64,108 Z\" fill=\"currentColor\" fill-opacity=\"0.9\" stroke=\"none\"/><text x=\"160.0\" y=\"76.9\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"700\" fill=\"currentColor\" stroke=\"none\">what I look like isn't important</text></g><text x=\"160\" y=\"146\" text-anchor=\"middle\" font-size=\"11\" fill=\"currentColor\" fill-opacity=\"0.8\" stroke=\"none\">— before he runs three miles back</text><text x=\"160.0\" y=\"192\" text-anchor=\"middle\" font-size=\"11\" font-style=\"italic\" fill=\"currentColor\" fill-opacity=\"0.85\" stroke=\"none\">Line to remember</text></svg>",
+    "back": "The reversal of Scene 1: he wants to be with people and do things; if he does not go now he will never go anywhere.",
+    "stars": 3,
+    "tags": [
+      "line"
+    ]
+  }
+]

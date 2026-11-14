@@ -1,0 +1,101 @@
+[
+  {
+    "id": "vistas-06-map",
+    "kind": "figure",
+    "title": "Who is who in Memories of Childhood",
+    "svg": "ref: notes#vistas-06-characters",
+    "back": "Zitkala-Sa and Judewin (Carlisle); Bama, Annan and the elder with the packet (Tamil Nadu).",
+    "stars": 3,
+    "tags": [
+      "characters"
+    ]
+  },
+  {
+    "id": "vistas-06-plot-card",
+    "kind": "process",
+    "title": "Two childhoods in six beats",
+    "svg": "ref: notes#vistas-06-plot",
+    "back": "Bells → warning → shears | walk home → packet → study.",
+    "stars": 3,
+    "tags": [
+      "plot"
+    ]
+  },
+  {
+    "id": "mc-bells",
+    "kind": "event",
+    "title": "Eating by formula",
+    "svg": "<svg viewBox=\"0 0 320 200\" role=\"img\" aria-label=\"First morning at Carlisle: bitter cold, stiff shoes, rules\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" font-size=\"11\"><rect x=\"40\" y=\"120\" width=\"240\" height=\"10\" fill=\"currentColor\" fill-opacity=\"0.85\" stroke=\"none\"/><g><circle cx=\"70\" cy=\"69.05\" r=\"6.05\" fill=\"currentColor\" fill-opacity=\"0.7\" stroke=\"none\"/><path d=\"M61.75,83.1 Q70,75.1 78.25,83.1 L76.93,94.9 L73.3,94.9 L73.96,118 H70.825 L70.33,96.0 H69.67 L69.175,118 H66.04 L66.7,94.9 L63.07,94.9 Z\" fill=\"currentColor\" fill-opacity=\"0.7\" stroke=\"none\"/></g><g><circle cx=\"120\" cy=\"69.05\" r=\"6.05\" fill=\"currentColor\" fill-opacity=\"0.7\" stroke=\"none\"/><path d=\"M111.75,83.1 Q120,75.1 128.25,83.1 L126.93,94.9 L123.3,94.9 L123.96,118 H120.825 L120.33,96.0 H119.67 L119.175,118 H116.04 L116.7,94.9 L113.07,94.9 Z\" fill=\"currentColor\" fill-opacity=\"0.7\" stroke=\"none\"/></g><g><circle cx=\"170\" cy=\"69.05\" r=\"6.05\" fill=\"currentColor\" fill-opacity=\"0.7\" stroke=\"none\"/><path d=\"M161.75,83.1 Q170,75.1 178.25,83.1 L176.93,94.9 L173.3,94.9 L173.96,118 H170.825 L170.33,96.0 H169.67 L169.175,118 H166.04 L166.7,94.9 L163.07,94.9 Z\" fill=\"currentColor\" fill-opacity=\"0.7\" stroke=\"none\"/></g><g><circle cx=\"220\" cy=\"69.05\" r=\"6.05\" fill=\"currentColor\" fill-opacity=\"0.7\" stroke=\"none\"/><path d=\"M211.75,83.1 Q220,75.1 228.25,83.1 L226.93,94.9 L223.3,94.9 L223.96,118 H220.825 L220.33,96.0 H219.67 L219.175,118 H216.04 L216.7,94.9 L213.07,94.9 Z\" fill=\"currentColor\" fill-opacity=\"0.7\" stroke=\"none\"/></g><g><circle cx=\"270\" cy=\"69.05\" r=\"6.05\" fill=\"currentColor\" fill-opacity=\"0.7\" stroke=\"none\"/><path d=\"M261.75,83.1 Q270,75.1 278.25,83.1 L276.93,94.9 L273.3,94.9 L273.96,118 H270.825 L270.33,96.0 H269.67 L269.175,118 H266.04 L266.7,94.9 L263.07,94.9 Z\" fill=\"currentColor\" fill-opacity=\"0.7\" stroke=\"none\"/></g><path d=\"M140,40 Q160,20 180,40 L186,70 H134 Z\" fill=\"#E0B400\" stroke=\"none\"/><text x=\"160\" y=\"100\" text-anchor=\"middle\" font-size=\"11\" font-style=\"italic\" fill=\"currentColor\" stroke=\"none\">bell · bell · bell</text><text x=\"160.0\" y=\"192\" text-anchor=\"middle\" font-size=\"11\" font-style=\"italic\" fill=\"currentColor\" fill-opacity=\"0.85\" stroke=\"none\">First morning at Carlisle: bitter cold, stiff shoes, rules</text></svg>",
+    "back": "One bell to pull out the chair, one to sit, one to eat; a paleface woman stares. Regimentation that drills even a meal.",
+    "stars": 2,
+    "tags": [
+      "event"
+    ]
+  },
+  {
+    "id": "mc-shears",
+    "kind": "event",
+    "title": "The shears and the braid",
+    "svg": "<svg viewBox=\"0 0 320 200\" role=\"img\" aria-label=\"Dragged from under the bed, tied to a chair\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" font-size=\"11\"><g><path d=\"M123.0,30 q7.0,-6 14,0 q-7.0,10 -14,0 Z\" fill=\"currentColor\" fill-opacity=\"0.9\" stroke=\"none\"/><path d=\"M123.0,42 q7.0,-6 14,0 q-7.0,10 -14,0 Z\" fill=\"currentColor\" fill-opacity=\"0.9\" stroke=\"none\"/><path d=\"M123.0,54 q7.0,-6 14,0 q-7.0,10 -14,0 Z\" fill=\"currentColor\" fill-opacity=\"0.9\" stroke=\"none\"/><path d=\"M123.0,66 q7.0,-6 14,0 q-7.0,10 -14,0 Z\" fill=\"currentColor\" fill-opacity=\"0.9\" stroke=\"none\"/><path d=\"M123.0,78 q7.0,-6 14,0 q-7.0,10 -14,0 Z\" fill=\"currentColor\" fill-opacity=\"0.9\" stroke=\"none\"/><path d=\"M123.0,90 q7.0,-6 14,0 q-7.0,10 -14,0 Z\" fill=\"currentColor\" fill-opacity=\"0.9\" stroke=\"none\"/><path d=\"M123.0,102 q7.0,-6 14,0 q-7.0,10 -14,0 Z\" fill=\"currentColor\" fill-opacity=\"0.9\" stroke=\"none\"/><path d=\"M123.0,114 q7.0,-6 14,0 q-7.0,10 -14,0 Z\" fill=\"currentColor\" fill-opacity=\"0.9\" stroke=\"none\"/><path d=\"M126,126 L120,142 L130,134 L140,142 L134,126 Z\" fill=\"currentColor\" fill-opacity=\"0.9\" stroke=\"none\"/></g><g transform=\"translate(200,110) rotate(200) scale(1.3)\"><path d=\"M0,0 L40,-30 M0,0 L40,30 M0,0 L-12,-8 M0,0 L-12,8\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"-16\" cy=\"-12\" r=\"8\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\"/><circle cx=\"-16\" cy=\"12\" r=\"8\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\"/></g><text x=\"160.0\" y=\"192\" text-anchor=\"middle\" font-size=\"11\" font-style=\"italic\" fill=\"currentColor\" fill-opacity=\"0.85\" stroke=\"none\">Dragged from under the bed, tied to a chair</text></svg>",
+    "back": "Short hair was for cowards and mourners. She kicked and scratched, then heard the shears gnaw off a thick braid — and lost her spirit, one of many little animals driven by a herder.",
+    "stars": 3,
+    "tags": [
+      "event"
+    ]
+  },
+  {
+    "id": "mc-identity",
+    "kind": "mnemonic",
+    "title": "Hair is identity",
+    "svg": "<svg viewBox=\"0 0 320 200\" role=\"img\" aria-label=\"Forced cutting = forced assimilation\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" font-size=\"11\"><g><circle cx=\"160\" cy=\"78.2\" r=\"13.2\" fill=\"currentColor\" fill-opacity=\"0.9\" stroke=\"none\"/><path d=\"M142.0,99.4 Q160,91.4 178.0,99.4 L175.12,134.6 L167.2,134.6 L168.64,185 H161.8 L160.72,137.0 H159.28 L158.2,185 H151.36 L152.8,134.6 L144.88,134.6 Z\" fill=\"currentColor\" fill-opacity=\"0.9\" stroke=\"none\"/></g><g><path d=\"M138.0,60 q7.0,-6 14,0 q-7.0,10 -14,0 Z\" fill=\"currentColor\" fill-opacity=\"0.95\" stroke=\"none\"/><path d=\"M138.0,72 q7.0,-6 14,0 q-7.0,10 -14,0 Z\" fill=\"currentColor\" fill-opacity=\"0.95\" stroke=\"none\"/><path d=\"M138.0,84 q7.0,-6 14,0 q-7.0,10 -14,0 Z\" fill=\"currentColor\" fill-opacity=\"0.95\" stroke=\"none\"/><path d=\"M138.0,96 q7.0,-6 14,0 q-7.0,10 -14,0 Z\" fill=\"currentColor\" fill-opacity=\"0.95\" stroke=\"none\"/><path d=\"M138.0,108 q7.0,-6 14,0 q-7.0,10 -14,0 Z\" fill=\"currentColor\" fill-opacity=\"0.95\" stroke=\"none\"/><path d=\"M141,120 L135,136 L145,128 L155,136 L149,120 Z\" fill=\"currentColor\" fill-opacity=\"0.95\" stroke=\"none\"/></g><text x=\"60\" y=\"90\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"700\" font-style=\"italic\" fill=\"currentColor\" stroke=\"none\">dignity</text><text x=\"260\" y=\"90\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"700\" font-style=\"italic\" fill=\"currentColor\" stroke=\"none\">culture</text><text x=\"160.0\" y=\"192\" text-anchor=\"middle\" font-size=\"11\" font-style=\"italic\" fill=\"currentColor\" fill-opacity=\"0.85\" stroke=\"none\">Forced cutting = forced assimilation</text></svg>",
+    "back": "The 'civilising' school stripped language, dress and hair. Zitkala-Sa's small rebellion is the seed of a life of activism.",
+    "stars": 3,
+    "tags": [
+      "theme"
+    ]
+  },
+  {
+    "id": "mc-walk",
+    "kind": "event",
+    "title": "An hour for a ten-minute walk",
+    "svg": "<svg viewBox=\"0 0 320 200\" role=\"img\" aria-label=\"Bama drinks in every sight on the street\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" font-size=\"11\"><rect x=\"60\" y=\"50\" width=\"60\" height=\"70\" fill=\"currentColor\" fill-opacity=\"0.85\" stroke=\"none\" rx=\"4\"/><circle cx=\"90\" cy=\"50\" r=\"14\" fill=\"#E0B400\" stroke=\"none\"/><rect x=\"150\" y=\"80\" width=\"50\" height=\"40\" fill=\"currentColor\" fill-opacity=\"0.7\" stroke=\"none\"/><rect x=\"220\" y=\"60\" width=\"60\" height=\"60\" fill=\"currentColor\" fill-opacity=\"0.6\" stroke=\"none\" rx=\"4\"/><g><circle cx=\"40\" cy=\"126.05\" r=\"6.05\" fill=\"currentColor\" fill-opacity=\"0.95\" stroke=\"none\"/><path d=\"M31.75,140.1 Q40,132.1 48.25,140.1 L46.93,151.9 L49.075,175 H45.775 L40.825,158.5 L35.05,175 H31.42 L36.7,151.9 L33.07,151.9 Z\" fill=\"currentColor\" fill-opacity=\"0.95\" stroke=\"none\"/></g><text x=\"160\" y=\"160\" text-anchor=\"middle\" font-size=\"9\" font-style=\"italic\" fill=\"currentColor\" stroke=\"none\">monkey · snake charmer · temple bell · sweet stall</text><text x=\"160.0\" y=\"192\" text-anchor=\"middle\" font-size=\"11\" font-style=\"italic\" fill=\"currentColor\" fill-opacity=\"0.85\" stroke=\"none\">Bama drinks in every sight on the street</text></svg>",
+    "back": "The joyful dawdle makes the next scene sharper: a child's happy street is where she first sees caste at work.",
+    "stars": 2,
+    "tags": [
+      "event"
+    ]
+  },
+  {
+    "id": "mc-packet",
+    "kind": "event",
+    "title": "The packet on a string",
+    "svg": "<svg viewBox=\"0 0 320 200\" role=\"img\" aria-label=\"An elder bows and offers vadais he may not touch\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" font-size=\"11\"><g><circle cx=\"110\" cy=\"94.9\" r=\"9.9\" fill=\"currentColor\" fill-opacity=\"0.6\" stroke=\"none\"/><path d=\"M96.5,112.80000000000001 Q110,104.80000000000001 123.5,112.80000000000001 L121.34,137.2 L115.4,137.2 L116.48,175 H111.35 L110.54,139.0 H109.46 L108.65,175 H103.52 L104.6,137.2 L98.66,137.2 Z\" fill=\"currentColor\" fill-opacity=\"0.6\" stroke=\"none\"/></g><g><path d=\"M150,52 V112\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M128,112 H172 L166,146 H134 Z\" fill=\"currentColor\" fill-opacity=\"0.85\" stroke=\"none\"/><circle cx=\"150\" cy=\"52\" r=\"3\" fill=\"currentColor\" fill-opacity=\"0.9\" stroke=\"none\"/></g><g><circle cx=\"250\" cy=\"86.0\" r=\"11.0\" fill=\"currentColor\" fill-opacity=\"0.9\" stroke=\"none\"/><path d=\"M235.0,105.0 Q250,97.0 265.0,105.0 L262.0,137.0 H283.0 V149.0 H278.5 V175 H272.5 V153.0 H236.5 Z\" fill=\"currentColor\" fill-opacity=\"0.9\" stroke=\"none\"/></g><path d=\"M185,130 L225,135 M215.7,138.7 L225,135 L216.9,129.2\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><text x=\"160.0\" y=\"192\" text-anchor=\"middle\" font-size=\"11\" font-style=\"italic\" fill=\"currentColor\" fill-opacity=\"0.85\" stroke=\"none\">An elder bows and offers vadais he may not touch</text></svg>",
+    "back": "Bama laughs at the comic sight. Annan explains: the upper-caste landlord would not eat food a Dalit's hand had touched. Laughter turns to anger.",
+    "stars": 3,
+    "tags": [
+      "event"
+    ]
+  },
+  {
+    "id": "mc-study",
+    "kind": "mnemonic",
+    "title": "Study, and they will come to you",
+    "svg": "<svg viewBox=\"0 0 320 200\" role=\"img\" aria-label=\"Annan's way out of indignity\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" font-size=\"11\"><path d=\"M100,150 Q130.0,138.0 160.0,150 Q190.0,138.0 220,150 V70 Q190.0,58.0 160.0,70 Q130.0,58.0 100,70 Z\" fill=\"currentColor\" fill-opacity=\"0.85\" stroke=\"none\"/><path d=\"M160.0,150 V70\" fill=\"none\" stroke=\"#E0B400\" stroke-width=\"1.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><text x=\"160\" y=\"60\" text-anchor=\"middle\" font-size=\"14\" font-weight=\"700\" fill=\"#E0B400\" stroke=\"none\">first in class</text><g><circle cx=\"40\" cy=\"149.4\" r=\"4.4\" fill=\"currentColor\" fill-opacity=\"0.5\" stroke=\"none\"/><path d=\"M34.0,161.8 Q40,153.8 46.0,161.8 L45.04,168.2 L42.4,168.2 L42.88,185 H40.6 L40.24,169.0 H39.76 L39.4,185 H37.12 L37.6,168.2 L34.96,168.2 Z\" fill=\"currentColor\" fill-opacity=\"0.5\" stroke=\"none\"/></g><g><circle cx=\"60\" cy=\"149.4\" r=\"4.4\" fill=\"currentColor\" fill-opacity=\"0.5\" stroke=\"none\"/><path d=\"M54.0,161.8 Q60,153.8 66.0,161.8 L65.04,168.2 L62.4,168.2 L62.88,185 H60.6 L60.24,169.0 H59.76 L59.4,185 H57.12 L57.6,168.2 L54.96,168.2 Z\" fill=\"currentColor\" fill-opacity=\"0.5\" stroke=\"none\"/></g><g><circle cx=\"260\" cy=\"149.4\" r=\"4.4\" fill=\"currentColor\" fill-opacity=\"0.5\" stroke=\"none\"/><path d=\"M254.0,161.8 Q260,153.8 266.0,161.8 L265.04,168.2 L262.4,168.2 L262.88,185 H260.6 L260.24,169.0 H259.76 L259.4,185 H257.12 L257.6,168.2 L254.96,168.2 Z\" fill=\"currentColor\" fill-opacity=\"0.5\" stroke=\"none\"/></g><g><circle cx=\"280\" cy=\"149.4\" r=\"4.4\" fill=\"currentColor\" fill-opacity=\"0.5\" stroke=\"none\"/><path d=\"M274.0,161.8 Q280,153.8 286.0,161.8 L285.04,168.2 L282.4,168.2 L282.88,185 H280.6 L280.24,169.0 H279.76 L279.4,185 H277.12 L277.6,168.2 L274.96,168.2 Z\" fill=\"currentColor\" fill-opacity=\"0.5\" stroke=\"none\"/></g><text x=\"160.0\" y=\"192\" text-anchor=\"middle\" font-size=\"11\" font-style=\"italic\" fill=\"currentColor\" fill-opacity=\"0.85\" stroke=\"none\">Annan's way out of indignity</text></svg>",
+    "back": "Born without honour, she can win it through progress. Bama studies with all her being, stands first, and many become her friends — resistance through achievement.",
+    "stars": 3,
+    "tags": [
+      "theme"
+    ]
+  },
+  {
+    "id": "mc-line",
+    "kind": "event",
+    "title": "Bama's title",
+    "svg": "<svg viewBox=\"0 0 320 200\" role=\"img\" aria-label=\"Line to remember\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" font-size=\"11\"><g><rect x=\"28\" y=\"36\" width=\"264\" height=\"72\" fill=\"currentColor\" fill-opacity=\"0.08\" stroke=\"currentColor\" stroke-width=\"1.5\" rx=\"10\"/><path d=\"M50,108 L42,122 L64,108 Z\" fill=\"currentColor\" fill-opacity=\"0.9\" stroke=\"none\"/><text x=\"160.0\" y=\"77.6\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"700\" fill=\"currentColor\" stroke=\"none\">We Too Are Human Beings</text></g><text x=\"160\" y=\"146\" text-anchor=\"middle\" font-size=\"11\" fill=\"currentColor\" fill-opacity=\"0.8\" stroke=\"none\">— the demand behind the anger</text><text x=\"160.0\" y=\"192\" text-anchor=\"middle\" font-size=\"11\" font-style=\"italic\" fill=\"currentColor\" fill-opacity=\"0.85\" stroke=\"none\">Line to remember</text></svg>",
+    "back": "Untouchability denies the simplest equality; both parts of the chapter are autobiography as protest.",
+    "stars": 3,
+    "tags": [
+      "line"
+    ]
+  }
+]
