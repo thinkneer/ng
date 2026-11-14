@@ -10,6 +10,21 @@ export async function recallChapter({ cls, stream, sub, unit, ch }) {
   return build({ title: `Recall · Ch ${ch.number}`, cards: session(cards, { max: 25 }), back: routeFor(cls.id, stream.id, sub.id, ch.id, 'mustknow'), colour: unit.colour, cls, stream, sub, total: cards.length });
 }
 
+/** All formula cards of one subject (every chapter's :::formula boxes), same Leitner schedule as chapter Recall. */
+export async function formulaCards(sub) {
+  const out = [];
+  for (const c of data.allChapters(sub).filter((x) => x.items?.mustknow)) {
+    const src = await data.mustknow(sub, c.id);
+    if (src) out.push(...cardsFrom(src, { subject: sub.id, chapter: c.id, chapterTitle: c.title, colour: c.unitObj.colour }).filter((k) => k.kind === 'formula'));
+  }
+  return out;
+}
+/** …/<subject>/formulas/drill — a recall session of formula cards only. */
+export async function recallFormulas({ cls, stream, sub }) {
+  const cards = await formulaCards(sub);
+  return build({ title: `Drill formulas · ${sub.name}`, cards: session(cards, { max: 30 }), back: routeFor(cls.id, stream.id, sub.id, 'formulas'), colour: sub.colour, cls, stream, sub, total: cards.length, emptyTitle: 'No formula cards yet', emptyText: 'Titled :::formula boxes in each chapter’s Must know become drill cards.' });
+}
+
 /** #/recall — everything due today across the student's subjects. */
 export async function recallDue() {
   const s = store.settings;
@@ -32,7 +47,7 @@ export async function recallDue() {
   return build({ title: 'Recall · due today', cards: list, back: '#/today', colour: null, cls: s.class, stream: s.stream, total: list.length });
 }
 
-function build({ title, cards, back, colour, cls, stream, sub, total }) {
+function build({ title, cards, back, colour, cls, stream, sub, total, emptyTitle, emptyText }) {
   const unitStyle = colour ? `--unit:#${colour}` : '';
   return {
     title, tab: 'today', fullscreen: true, unitColour: colour,
@@ -50,7 +65,7 @@ function build({ title, cards, back, colour, cls, stream, sub, total }) {
       const stage = el.querySelector('#rc-stage'), foot = el.querySelector('#rc-foot'), count = el.querySelector('#rc-count'), bar = el.querySelector('#rc-bar');
       const { renderMarkdown } = await import('../markdown.js');
       let i = 0, revealed = false; const results = { got: 0, again: 0, againCards: [] };
-      if (!cards.length) { stage.innerHTML = String(emptyState({ icon: 'bolt', title: 'No cards in this chapter yet', text: 'Must-know lines appear here as flashcards once the chapter has them.', action: `<a class="btn btn--secondary" href="${back}">Back</a>` })); return; }
+      if (!cards.length) { stage.innerHTML = String(emptyState({ icon: 'bolt', title: emptyTitle || 'No cards in this chapter yet', text: emptyText || 'Must-know lines appear here as flashcards once the chapter has them.', action: `<a class="btn btn--secondary" href="${back}">Back</a>` })); return; }
       const md = async (s) => { const n = await renderMarkdown(s, { unitColour: colour || undefined, eager: true }); n.classList.add('rc__md'); return n; };
       const show = async () => {
         const c = cards[i]; revealed = false;

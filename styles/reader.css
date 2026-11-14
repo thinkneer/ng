@@ -137,3 +137,16 @@
 .rc__btns { display: grid; grid-template-columns: 1fr 1fr; gap: var(--s-3); max-width: 40rem; margin: 0 auto; }
 .rc__btns .btn, .rc__foot > .btn { min-height: 3.25rem; font-size: var(--fs-body); max-width: 40rem; margin: 0 auto; }
 .rc__foot > .btn { display: flex; }
+
+/* ---------- Formula sheet tools: Drill + Boxes only ---------- */
+.fs-tools { display: flex; align-items: center; justify-content: space-between; gap: var(--s-3); flex-wrap: wrap; margin-bottom: var(--s-4); font-family: var(--font-sans); }
+.fs-tools .btn { min-height: 2.75rem; }
+.fs-toggle { display: inline-flex; align-items: center; gap: var(--s-2); min-height: var(--tap); padding: 0 var(--s-1); font-size: var(--fs-subhead); font-weight: 600; color: var(--ink); border-radius: var(--r-sm); }
+.fs-toggle .switch { width: 2.6rem; height: 1.6rem; }
+.fs-toggle .switch::after { width: calc(1.6rem - 4px); height: calc(1.6rem - 4px); }
+.fs-toggle .switch[aria-checked="true"]::after { transform: translateX(1rem); }
+/* Boxes only: hide everything in the stitched sections except formula boxes (chapter dividers stay) */
+.rd.is-boxes .fs-intro, .rd.is-boxes .prose > :not(.box--formula):not(.fs-keep) { display: none; }
+.rd.is-boxes .prose > h2.fs-keep { margin-top: var(--s-6); font-size: 1em; }
+.rd.is-boxes .prose > .box--formula { margin-top: var(--s-3); }
+.rd.is-boxes .rd__divider { margin-top: var(--s-8); }

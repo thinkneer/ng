@@ -11,6 +11,7 @@ export async function chapter(route) {
   preloadMarkdown(); // fetch the renderer in parallel with the index lookup
   const { cls, stream, subject: sub } = await data.resolve(route.classId, route.streamId, route.subjectId);
   if (!sub) return { title: 'Not found', tab: 'subjects', html: emptyState({ icon: 'alert', title: 'No such subject' }) };
+  if (route.chapterId === 'formulas' && route.tab === 'drill') { const { recallFormulas } = await import('./recall.js'); return recallFormulas({ cls, stream, sub }); }
   if (route.chapterId === 'formulas') { const { formulaSheet } = await import('./formulas.js'); return formulaSheet({ cls, stream, sub }); }
   const { unit, chapter: ch } = data.chapterOf(sub, route.chapterId);
   if (!ch) return { title: 'Not found', tab: 'subjects', back: routeFor(cls.id, stream.id, sub.id), html: emptyState({ icon: 'alert', title: 'No such chapter', action: `<a class="btn btn--secondary" href="${routeFor(cls.id, stream.id, sub.id)}">Back to ${esc(sub.name)}</a>` }) };
