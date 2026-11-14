@@ -402,3 +402,16 @@ a.card.continue, button.card.continue { display: flex; }
 .prose figure.fig { margin: 1.2em auto; max-width: 30rem; text-align: center; }
 .prose figure.fig svg { width: 100%; height: auto; color: var(--text); overflow: visible; }
 .prose figure.fig figcaption { font-size: var(--fs-footnote); color: var(--text-2); margin-top: 0.4em; font-family: var(--font-sans); }
+
+/* Wide maths: never push the page sideways */
+.prose .math-wide { display: block; max-width: 100%; overflow-x: auto; overflow-y: hidden; padding: 0.25em 0; -webkit-overflow-scrolling: touch; scrollbar-width: thin; }
+.prose .math-wide:focus-visible { box-shadow: var(--focus); border-radius: 6px; }
+.prose .katex-display { max-width: 100%; overflow-x: auto; overflow-y: hidden; }
+.prose .box, .prose li, .prose p { min-width: 0; }
+.prose svg { max-width: 100%; }
+.prose { max-width: 100%; }
+.main, .rd, .rc__stage { overflow-x: hidden; }
+.prose, .rd__book { overflow-x: clip; }
+.prose table { overflow-wrap: normal; word-break: normal; -webkit-overflow-scrolling: touch; }
+.prose th, .prose td { min-width: 5.5rem; hyphens: auto; }
+.prose th:first-child, .prose td:first-child { min-width: 4.5rem; }

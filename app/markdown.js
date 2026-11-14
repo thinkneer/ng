@@ -155,10 +155,31 @@ function queueTypeset(chunks) {
   idle(step);
 }
 
+// A formula wider than its column gets its own line and scrolls by itself; the page never scrolls sideways.
+function fitWide(root) {
+  for (const k of root.querySelectorAll('.katex')) {
+    if (k.closest('.katex-display, .math-wide')) continue;
+    const box = k.parentElement.closest('p, li, td, th, div, blockquote, figcaption') || k.parentElement;
+    const br = box.getBoundingClientRect(), kr = k.getBoundingClientRect();
+    if (br.width > 0 && (kr.right > br.right + 1 || kr.width > br.width - 2)) {
+      const wrap = document.createElement('span'); wrap.className = 'math-wide'; wrap.tabIndex = 0; wrap.setAttribute('role', 'group'); wrap.setAttribute('aria-label', 'Formula, scroll sideways');
+      k.replaceWith(wrap); wrap.appendChild(k);
+    }
+  }
+}
+function fitLater(el) { requestAnimationFrame(() => requestAnimationFrame(() => fitWide(el))); }
+let fitBound = false;
+function bindFit() {
+  if (fitBound) return; fitBound = true;
+  let t; window.addEventListener('resize', () => { clearTimeout(t); t = setTimeout(() => document.querySelectorAll('.prose').forEach(fitWide), 150); });
+}
+export { fitWide };
+
 export async function typeset(el) {
   if (el && el.nodes) {
     for (const n of el.nodes) await typeset(n);
     // tell listeners (highlights) that this section's maths is final
+    el.root && fitLater(el.root); bindFit();
     el.root?._done?.add(el.index);
     el.root?.dispatchEvent(new CustomEvent('ng:chunk', { detail: { chunk: el.index } }));
     return el;

@@ -29,7 +29,7 @@
   position: sticky; top: 0; z-index: 20;
   height: calc(var(--topbar-h) + var(--sat));
   padding: var(--sat) var(--s-2) 0 var(--s-2);
-  display: grid; grid-template-columns: minmax(var(--tap), auto) 1fr minmax(var(--tap), auto);
+  display: grid; grid-template-columns: minmax(var(--tap), auto) minmax(0, 1fr) minmax(var(--tap), auto);
   align-items: center;
   background: var(--bar-bg-solid);
   border-bottom: 1px solid transparent;
