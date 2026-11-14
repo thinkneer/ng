@@ -14,7 +14,7 @@ export async function recallChapter({ cls, stream, sub, unit, ch }) {
 export async function recallDue() {
   const s = store.settings;
   if (!s.class) return { title: 'Recall', tab: 'today', html: emptyState({ icon: 'bolt', title: 'Choose your class first', action: '<a class="btn" href="#/classes">Choose class</a>' }) };
-  const subjects = (await data.liveSubjects(s.class, s.stream)).filter((x) => !s.subjects?.length || s.subjects.includes(x.id));
+  const subjects = (await data.liveSubjects(s.class, s.stream)).filter((x) => store.isMine(x.id));
   const sum = summary();
   const dueKeys = Object.entries(sum.byChapter).filter(([, v]) => v.due > 0).map(([k]) => k);
   let cards = [];

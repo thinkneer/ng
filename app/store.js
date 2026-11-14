@@ -21,7 +21,19 @@ export const store = {
   get theme() { try { return localStorage.getItem(PREFIX + 'theme') || 'auto'; } catch { return 'auto'; } },
   set theme(v) { try { v === 'auto' ? localStorage.removeItem(PREFIX + 'theme') : localStorage.setItem(PREFIX + 'theme', v); } catch { /* ignore */ } for (const fn of listeners) fn('theme', v); },
 
-  // ---- user (Phase 4 fills this in; "guest" until then) ----
+  // ---- my subjects: settings.subjects = explicit list; empty = all live subjects ----
+  isMine(id) { const l = this.settings.subjects || []; return !l.length || l.includes(id); },
+  /** Add or remove one subject. Returns the new state, or null when it would leave none. */
+  toggleSubject(id, liveIds) {
+    const cur = this.settings.subjects?.length ? [...this.settings.subjects] : [...liveIds];
+    const on = cur.includes(id);
+    const next = on ? cur.filter((x) => x !== id) : [...cur, id];
+    if (!next.length) return null;
+    this.setSettings({ subjects: next.length === liveIds.length && liveIds.every((x) => next.includes(x)) ? [] : next });
+    return !on;
+  },
+
+  // ---- user ----
   get nickname() { return read('session', null)?.nickname || 'guest'; },
 
   // ---- progress (per nickname) ----

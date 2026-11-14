@@ -5,7 +5,7 @@ import { store } from '../store.js';
 export async function practice() {
   const s = store.settings;
   if (!s.class) return { title: 'Practice', largeTitle: true, tab: 'practice', html: html`${largeTitle('Practice')}${emptyState({ icon: 'practice', title: 'Choose your class first', text: 'Practice sets are organised by subject and chapter.', action: '<a class="btn" href="#/classes">Choose class</a>' })}` };
-  const subjects = (await data.liveSubjects(s.class, s.stream)).filter((x) => !s.subjects?.length || s.subjects.includes(x.id));
+  const subjects = (await data.liveSubjects(s.class, s.stream)).filter((x) => store.isMine(x.id));
   const withQ = subjects.map((sub) => ({ sub, chapters: data.allChapters(sub).filter((c) => c.items?.questions) })).filter((x) => x.chapters.length);
   const mistakes = store.progress().mistakes?.length || 0;
   return {

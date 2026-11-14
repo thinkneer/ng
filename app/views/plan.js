@@ -7,7 +7,7 @@ export async function plan() {
   const s = store.settings;
   if (!s.class) return { title: 'Board plan', largeTitle: true, tab: 'today', html: html`${largeTitle('Board plan')}${emptyState({ icon: 'plan', title: 'Choose your class first', action: '<a class="btn" href="#/classes">Choose class</a>' })}` };
   const [subjects, exams] = await Promise.all([data.liveSubjects(s.class, s.stream), data.examsFor(s.class, s.stream).catch(() => null)]);
-  const mine = subjects.filter((x) => !s.subjects?.length || s.subjects.includes(x.id));
+  const mine = subjects.filter((x) => store.isMine(x.id));
   const t0 = today();
   const papers = (exams?.papers || []).filter((p) => mine.some((m) => m.id === p.subject)).map((p) => ({ ...p, days: daysBetween(t0, parseDate(p.date)), colour: mine.find((m) => m.id === p.subject)?.colour })).sort((a, b) => a.days - b.days);
   const last = papers[papers.length - 1];

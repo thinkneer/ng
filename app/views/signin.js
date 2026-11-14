@@ -56,8 +56,7 @@ export async function signin(route) {
 export async function request() {
   const idx = await data.index();
   const liveClasses = idx.classes.filter((c) => c.status === 'live');
-  const firstCls = liveClasses[0] || idx.classes[0];
-  const firstStream = firstCls.streams.find((s) => s.status === 'live') || firstCls.streams[0];
+  const liveOpts = liveClasses.flatMap((c) => c.streams.filter((s) => s.status === 'live').map((s) => ({ value: `${c.id}|${s.id}`, label: `${c.name}${s.id !== 'general' ? ' ' + s.name : ''}` })));
   return {
     title: 'Request access', tab: 'today', fullscreen: true,
     html: shell(html`
@@ -70,10 +69,9 @@ export async function request() {
         <input id="r-pass" type="password" autocomplete="new-password" placeholder="At least 8 characters">
         <label for="r-pass2" class="mt-4">Passphrase again</label>
         <input id="r-pass2" type="password" autocomplete="new-password">
-        <label for="r-class" class="mt-4">Class</label>
-        <select id="r-class">${raw(liveClasses.flatMap((c) => c.streams.filter((s) => s.status === 'live').map((s) => `<option value="${c.id}|${s.id}">${esc(c.name)}${s.id !== 'general' ? ' ' + esc(s.name) : ''}</option>`)).join(''))}</select>
-        <label class="mt-4">Subjects</label>
-        <div class="auth__subjects" id="r-subjects">${raw(firstStream.subjects.filter((s) => s.status === 'live').map((s) => `<label class="check"><input type="checkbox" value="${s.id}" checked><span>${esc(s.name)}</span></label>`).join(''))}</div>
+        <label for="r-class" class="mt-4" ${raw(liveOpts.length < 2 ? 'hidden' : '')}>Class</label>
+        <select id="r-class" ${raw(liveOpts.length < 2 ? 'hidden' : '')}>${raw(liveOpts.map((o) => `<option value="${o.value}">${esc(o.label)}</option>`).join(''))}</select>
+        ${raw(liveOpts.length < 2 ? `<p class="t-footnote t-2 mt-4">For ${esc(liveOpts[0]?.label || '')}. All subjects are included; you can drop any of them later.</p>` : '<p class="t-footnote t-2 mt-2">All subjects are included; you can drop any of them later.</p>')}
         <p class="auth__err" id="r-err" role="alert" hidden></p>
         <button class="btn btn--block mt-4" type="submit" id="r-go">Create request</button>
         <div class="auth__foot"><a href="#/signin">Back to sign in</a></div>
@@ -95,11 +93,11 @@ export async function request() {
         e.preventDefault(); err.hidden = true;
         const nickname = el.querySelector('#r-nick').value.trim(), pass = el.querySelector('#r-pass').value, pass2 = el.querySelector('#r-pass2').value;
         const [cls, stream] = el.querySelector('#r-class').value.split('|');
-        const subjects = [...el.querySelectorAll('#r-subjects input:checked')].map((i) => i.value);
+        const subjects = []; // all subjects; the student narrows them later from the shelf
         if (!NICK_RE.test(nickname)) return fail('Nickname: 3–20 letters, digits or _ (no spaces).');
         if (pass.length < 8) return fail('Passphrase: at least 8 characters.');
-        if (pass !== pass2) return fail('The two passphrases don’t match.');
-        if (!subjects.length) return fail('Pick at least one subject.');
+        if (!pass2) return fail('Type the same passphrase again in the second box.');
+        if (pass !== pass2) return fail('The two passphrases don’t match. Type them again.');
         if (await nicknameTaken(nickname)) return fail('That nickname is taken. Try another.');
         const req = await buildRequest({ nickname, pass, cls, stream, subjects });
         const code = requestCode(req);

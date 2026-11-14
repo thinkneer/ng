@@ -126,13 +126,15 @@ export function fmtDate(d, opts = { weekday: 'short', day: 'numeric', month: 'sh
 export const plural = (n, w, ws = w + 's') => `${n} ${n === 1 ? w : ws}`;
 
 /* ---------- Book cover for a subject ---------- */
-export function cover(sub, { href, sub: subline, pct, soon, art = 'book', small = false } = {}) {
+export function cover(sub, { href, sub: subline, pct, soon, art = 'book', small = false, toggle = null } = {}) {
   const body = `<span class="cover${soon ? ' cover--soon' : ''}" style="--unit:#${sub.colour || '1F5FAD'}">
       <span class="cover__art">${icon(art)}</span>
       ${sub.code && !small ? `<span class="cover__code">${esc(sub.code)}</span>` : ''}
       ${!small ? `<span class="cover__foot">${subline ? `<span class="cover__sub">${esc(subline)}</span>` : ''}<span class="cover__name">${esc(sub.name.length > 10 && sub.short ? sub.short : sub.name)}</span></span>` : ''}
     </span>`;
   if (small) return raw(body);
-  return raw(`<a class="book-item pressable" href="${esc(href || '#')}" ${soon ? 'aria-disabled="true"' : ''}>${body}
-    <span class="book-meta"><span>${soon ? 'Coming soon' : esc(sub.metaLeft || '')}</span>${pct != null ? `<span class="pct" style="--unit:#${sub.colour}">${pct}%</span>` : ''}</span></a>`);
+  const item = `<a class="book-item pressable" href="${esc(href || '#')}" ${soon ? 'aria-disabled="true"' : ''}>${body}
+    <span class="book-meta"><span>${soon ? 'Coming soon' : esc(sub.metaLeft || '')}</span>${pct != null ? `<span class="pct" style="--unit:#${sub.colour}">${pct}%</span>` : ''}</span></a>`;
+  if (!toggle) return raw(item);
+  return raw(`<div class="book-wrap${toggle.on ? '' : ' is-off'}">${item}<button class="cover__pin" type="button" data-toggle-subject="${esc(sub.id)}" aria-pressed="${toggle.on}" aria-label="${toggle.on ? 'Remove' : 'Add'} ${esc(sub.name)} ${toggle.on ? 'from' : 'to'} my subjects">${icon(toggle.on ? 'check' : 'plusSquare')}</button></div>`);
 }

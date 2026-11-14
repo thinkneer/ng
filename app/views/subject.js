@@ -1,4 +1,4 @@
-import { html, raw, icon, largeTitle, esc, fmtDate, parseDate, daysBetween, today } from '../ui.js';
+import { html, raw, icon, largeTitle, esc, fmtDate, parseDate, daysBetween, today, toast, haptic } from '../ui.js';
 import { data, routeFor, streamless } from '../data.js';
 import { store } from '../store.js';
 
@@ -19,7 +19,7 @@ export async function subject(route) {
 
   return {
     title: sub.name, largeTitle: true, tab: 'subjects', back, backLabel: streamless(cls.id) ? cls.name : stream.name, unitColour: sub.colour, wide: true,
-    html: html`${largeTitle(sub.name, { eyebrow: `${cls.name} · ${sub.theory_marks} + ${sub.internal_marks} marks` })}
+    html: html`${largeTitle(sub.name, { eyebrow: `${cls.name} · ${sub.theory_marks} + ${sub.internal_marks} marks`, trailing: `<button class="chip ${store.isMine(sub.id) ? 'is-on' : 'chip--outline'}" type="button" data-mine aria-pressed="${store.isMine(sub.id)}">${icon(store.isMine(sub.id) ? 'check' : 'plusSquare')}<span>${store.isMine(sub.id) ? 'My subject' : 'Add to my subjects'}</span></button>` })}
       <div class="stats mb-4">
         ${days != null && days >= 0 ? raw(`<div class="stat"><div class="stat__value tnum" style="color:#${sub.colour}">${days}</div><div class="stat__label">days to paper · ${fmtDate(sub.exam_date, { day: 'numeric', month: 'short' })}</div></div>`) : ''}
         ${raw(`<div class="stat"><div class="stat__value tnum">${totalChapters}</div><div class="stat__label">chapters</div></div>`)}
@@ -46,5 +46,16 @@ export async function subject(route) {
         ${raw(`<a class="list__item has-leading" href="${esc(sub.links?.sample_paper || 'https://cbseacademic.nic.in/')}" target="_blank" rel="noopener"><span class="list__leading list__leading--soft">${icon('pdf')}</span><span class="list__body"><span class="list__title">CBSE syllabus & sample paper</span><span class="list__sub">cbseacademic.nic.in</span></span><span class="list__trailing">${icon('external', { class: 'chev' })}</span></a>`)}
       </div>
       <p class="legend">${raw('<span><span class="stars">★★★</span> most years</span><span><span class="stars">★★</span> often</span><span><span class="stars">★</span> sometimes</span><span>· stars are estimates</span>')}</p>`,
+    mount(el) {
+      const b = el.querySelector('[data-mine]'); if (!b) return;
+      const liveIds = stream.subjects.filter((x) => x.status === 'live').map((x) => x.id);
+      b.addEventListener('click', () => {
+        const on = store.toggleSubject(sub.id, liveIds);
+        if (on === null) { toast('Keep at least one subject'); haptic('medium'); return; }
+        b.className = `chip ${on ? 'is-on' : 'chip--outline'}`; b.setAttribute('aria-pressed', String(on));
+        b.innerHTML = `${icon(on ? 'check' : 'plusSquare')}<span>${on ? 'My subject' : 'Add to my subjects'}</span>`;
+        haptic(on ? 'success' : 'light'); toast(on ? `${sub.name} is back in Today and your plan` : `${sub.name} removed from Today and your plan`);
+      });
+    },
   };
 }

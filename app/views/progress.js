@@ -7,7 +7,7 @@ const COLS = ['L', 'R1', 'PYQ', 'R2', 'E'];
 export async function progress() {
   const s = store.settings;
   if (!s.class) return { title: 'Progress', largeTitle: true, tab: 'progress', html: html`${largeTitle('Progress')}${emptyState({ icon: 'progress', title: 'Choose your class first', action: '<a class="btn" href="#/classes">Choose class</a>' })}` };
-  const subjects = (await data.liveSubjects(s.class, s.stream)).filter((x) => !s.subjects?.length || s.subjects.includes(x.id));
+  const subjects = (await data.liveSubjects(s.class, s.stream)).filter((x) => store.isMine(x.id));
   const p = store.progress();
   const rows = subjects.map((sub) => ({ sub, chapters: data.allChapters(sub) }));
   const total = rows.reduce((n, r) => n + r.chapters.length, 0);

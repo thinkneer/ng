@@ -55,17 +55,29 @@ export async function subjectsOf(route) {
     title, largeTitle: true, tab: 'subjects', back: streamless(cls.id) ? '#/classes' : `#/${cls.id}`,
     html: html`${largeTitle(title, { eyebrow: live ? 'Subjects' : 'Coming soon' })}
       ${!live ? raw(`<div class="notice notice--warn mb-4">${icon('clock')}<div><strong>Coming soon.</strong> This class is set up but has no content yet. You can still choose it so the app is ready when material lands.</div></div>`) : ''}
-      ${!isCurrent ? raw(`<button class="btn btn--block mb-4" type="button" data-choose>${icon('check')} Make this my class</button>`) : raw(`<div class="notice mb-4">${icon('check')}<div>This is your class. Subjects below are what Today and Practice use.</div></div>`)}
+      ${!isCurrent ? raw(`<button class="btn btn--block mb-4" type="button" data-choose>${icon('check')} Make this my class</button>`) : raw(`<p class="t-2 t-subhead mb-4">Tap <span class="pin-demo">${icon('check')}</span> to drop a subject from Today, Practice, Recall and your plan; tap <span class="pin-demo pin-demo--off">${icon('plusSquare')}</span> to bring it back. Every subject stays readable here.</p>`)}
       <div class="shelf rise">
         ${stream.subjects.map((s) => {
           const paper = exams?.papers?.find((p) => p.subject === s.id);
           const chapters = s.units?.reduce((n, u) => n + u.chapters.length, 0) || 0;
           const liveS = s.status === 'live';
-          return cover({ ...s, colour: s.colour || '7A8699', metaLeft: liveS ? (s.counts?.notes ? `${s.counts.notes}/${chapters} notes` : `${chapters} chapters`) : '' }, { href: liveS ? routeFor(cls.id, stream.id, s.id) : '#/more/request', sub: paper ? `Paper ${fmt(paper.date)}` : (liveS ? cls.name : 'Soon'), soon: !liveS });
+          return cover({ ...s, colour: s.colour || '7A8699', metaLeft: liveS ? (s.counts?.notes ? `${s.counts.notes}/${chapters} notes` : `${chapters} chapters`) : '' }, { href: liveS ? routeFor(cls.id, stream.id, s.id) : '#/more/request', sub: paper ? `Paper ${fmt(paper.date)}` : (liveS ? cls.name : 'Soon'), soon: !liveS, toggle: liveS && isCurrent ? { on: store.isMine(s.id) } : null });
         })}
       </div>
       ${raw(`<p class="t-footnote t-3 mt-4">Syllabus: rationalised CBSE ${esc(stream.subjects.find((s) => s.syllabus_year)?.syllabus_year || '')}. Links to NCERT and CBSE are on each subject page.</p>`)}`,
     mount(el) {
+      const liveIds = stream.subjects.filter((x) => x.status === 'live').map((x) => x.id);
+      el.addEventListener('click', (e) => {
+        const b = e.target.closest('[data-toggle-subject]'); if (!b) return;
+        e.preventDefault();
+        const id = b.dataset.toggleSubject, name = stream.subjects.find((x) => x.id === id)?.name || id;
+        const on = store.toggleSubject(id, liveIds);
+        if (on === null) { toast('Keep at least one subject'); haptic('medium'); return; }
+        b.setAttribute('aria-pressed', String(on)); b.innerHTML = icon(on ? 'check' : 'plusSquare');
+        b.setAttribute('aria-label', `${on ? 'Remove' : 'Add'} ${name} ${on ? 'from' : 'to'} my subjects`);
+        b.closest('.book-wrap').classList.toggle('is-off', !on); haptic(on ? 'success' : 'light');
+        toast(on ? `${name} added to your subjects` : `${name} removed from Today and your plan`, { action: 'Undo', onAction: () => { store.toggleSubject(id, liveIds); location.reload(); } });
+      });
       el.querySelector('[data-choose]')?.addEventListener('click', () => {
         store.setSettings({ class: cls.id, stream: stream.id, subjects: stream.subjects.filter((s) => s.status === 'live').map((s) => s.id) });
         haptic('success');

@@ -13,7 +13,8 @@ export async function today() {
   const s = store.settings;
   if (!s.class) return welcome();
   const [subjects, exams] = await Promise.all([data.liveSubjects(s.class, s.stream), data.examsFor(s.class, s.stream).catch(() => null)]);
-  const mine = subjects.filter((x) => !s.subjects?.length || s.subjects.includes(x.id));
+  const order = (id) => { const p = exams?.papers?.find((x) => x.subject === id); return p ? p.date : '9999'; };
+  const mine = subjects.filter((x) => store.isMine(x.id)).sort((a, b) => order(a.id).localeCompare(order(b.id)));
   const t0 = todayDate();
   const papers = (exams?.papers || []).filter((p) => mine.some((m) => m.id === p.subject)).map((p) => ({ ...p, days: daysBetween(t0, parseDate(p.date)) })).filter((p) => p.days >= 0).sort((a, b) => a.days - b.days);
   const next = papers[0];
@@ -67,7 +68,7 @@ export async function today() {
 
       ${papers.length > 1 ? raw(`<div class="section-head"><h2>Days left</h2></div><div class="stats">${papers.map((p) => `<div class="stat" style="--unit:#${mine.find((m) => m.id === p.subject)?.colour}"><div class="stat__value tnum" style="color:var(--unit)">${p.days}</div><div class="stat__label">${esc(p.name)} · ${fmtDate(p.date, { day: 'numeric', month: 'short' })}</div></div>`).join('')}</div>`) : ''}
 
-      <div class="section-head"><h2>Your subjects</h2><a href="#/subjects">All</a></div>
+      <div class="section-head"><h2>Your subjects</h2><a href="#/subjects">Add or remove</a></div>
       <div class="shelf rise">
         ${mine.map((sub) => {
           const chapters = data.allChapters(sub);
