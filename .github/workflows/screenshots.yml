@@ -16,13 +16,12 @@ permissions:
 jobs:
   shots:
     runs-on: ubuntu-latest
+    container:
+      image: mcr.microsoft.com/playwright:v1.49.1-noble
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
-        with:
-          node-version: 22
+      - run: git config --global --add safe.directory "$GITHUB_WORKSPACE"
       - run: npm ci
-      - run: npx --yes playwright@1.49.1 install --with-deps chromium webkit
       - run: npm install --no-save playwright@1.49.1
       - name: Serve and screenshot
         run: |
