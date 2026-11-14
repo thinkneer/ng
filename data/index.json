@@ -568,12 +568,44 @@
                       "number": 1,
                       "title": "Solutions",
                       "unit": "1",
-                      "items": {},
-                      "marks_hint": null,
-                      "summary": null,
-                      "pdfs": [],
-                      "questions": 0,
-                      "question_types": {}
+                      "items": {
+                        "notes": true,
+                        "formulas": true,
+                        "questions": true
+                      },
+                      "marks_hint": "7 marks (unit weightage, CBSE 2026–27)",
+                      "summary": "Concentration · Henry & Raoult · ideal/non-ideal · colligative properties · van't Hoff factor",
+                      "pdfs": [
+                        {
+                          "title": "Must-have notes: Batch 1 (Physical)",
+                          "path": "pdfs/class-12/chemistry/chemistry-notes-batch1-physical.pdf",
+                          "page": 2
+                        },
+                        {
+                          "title": "Formula & facts sheet: Part 1 (Physical)",
+                          "path": "pdfs/class-12/chemistry/chemistry-formula-sheet-part1-physical.pdf",
+                          "page": 1
+                        },
+                        {
+                          "title": "Expert Q&A Sheet 1 (Physical): questions, answers on the next page",
+                          "path": "pdfs/class-12/chemistry/chemistry-qa-sheet1-physical.pdf",
+                          "page": 1
+                        },
+                        {
+                          "title": "CBSE sample paper 2026–27: our solutions (Sheet 6)",
+                          "path": "pdfs/class-12/chemistry/chemistry-qa-sheet6-sqp-2026-27-solutions.pdf",
+                          "page": 1
+                        }
+                      ],
+                      "questions": 7,
+                      "question_types": {
+                        "mcq": 2,
+                        "ar": 1,
+                        "vsa2": 2,
+                        "sa3": 1,
+                        "la5": 1
+                      },
+                      "diagrams": []
                     }
                   ]
                 },
@@ -589,12 +621,43 @@
                       "number": 2,
                       "title": "Electrochemistry",
                       "unit": "2",
-                      "items": {},
-                      "marks_hint": null,
-                      "summary": null,
-                      "pdfs": [],
-                      "questions": 0,
-                      "question_types": {}
+                      "items": {
+                        "notes": true,
+                        "formulas": true,
+                        "questions": true
+                      },
+                      "marks_hint": "9 marks (unit weightage, CBSE 2026–27)",
+                      "summary": "Galvanic cells · Nernst · conductance · Kohlrausch · electrolysis · batteries & fuel cells · corrosion",
+                      "pdfs": [
+                        {
+                          "title": "Must-have notes: Batch 1 (Physical)",
+                          "path": "pdfs/class-12/chemistry/chemistry-notes-batch1-physical.pdf",
+                          "page": 4
+                        },
+                        {
+                          "title": "Formula & facts sheet: Part 1 (Physical)",
+                          "path": "pdfs/class-12/chemistry/chemistry-formula-sheet-part1-physical.pdf",
+                          "page": 1
+                        },
+                        {
+                          "title": "Expert Q&A Sheet 1 (Physical): questions, answers on the next page",
+                          "path": "pdfs/class-12/chemistry/chemistry-qa-sheet1-physical.pdf",
+                          "page": 1
+                        },
+                        {
+                          "title": "CBSE sample paper 2026–27: our solutions (Sheet 6)",
+                          "path": "pdfs/class-12/chemistry/chemistry-qa-sheet6-sqp-2026-27-solutions.pdf",
+                          "page": 1
+                        }
+                      ],
+                      "questions": 8,
+                      "question_types": {
+                        "mcq": 2,
+                        "vsa2": 2,
+                        "sa3": 3,
+                        "la5": 1
+                      },
+                      "diagrams": []
                     }
                   ]
                 },
@@ -610,12 +673,44 @@
                       "number": 3,
                       "title": "Chemical Kinetics",
                       "unit": "3",
-                      "items": {},
-                      "marks_hint": null,
-                      "summary": null,
-                      "pdfs": [],
-                      "questions": 0,
-                      "question_types": {}
+                      "items": {
+                        "notes": true,
+                        "formulas": true,
+                        "questions": true
+                      },
+                      "marks_hint": "7 marks (unit weightage, CBSE 2026–27)",
+                      "summary": "Rate · rate law · order & molecularity · integrated equations · half-life · Arrhenius · collision theory",
+                      "pdfs": [
+                        {
+                          "title": "Must-have notes: Batch 1 (Physical)",
+                          "path": "pdfs/class-12/chemistry/chemistry-notes-batch1-physical.pdf",
+                          "page": 6
+                        },
+                        {
+                          "title": "Formula & facts sheet: Part 1 (Physical)",
+                          "path": "pdfs/class-12/chemistry/chemistry-formula-sheet-part1-physical.pdf",
+                          "page": 2
+                        },
+                        {
+                          "title": "Expert Q&A Sheet 1 (Physical): questions, answers on the next page",
+                          "path": "pdfs/class-12/chemistry/chemistry-qa-sheet1-physical.pdf",
+                          "page": 1
+                        },
+                        {
+                          "title": "CBSE sample paper 2026–27: our solutions (Sheet 6)",
+                          "path": "pdfs/class-12/chemistry/chemistry-qa-sheet6-sqp-2026-27-solutions.pdf",
+                          "page": 1
+                        }
+                      ],
+                      "questions": 7,
+                      "question_types": {
+                        "mcq": 2,
+                        "ar": 1,
+                        "vsa2": 1,
+                        "sa3": 2,
+                        "case": 1
+                      },
+                      "diagrams": []
                     }
                   ]
                 },
@@ -787,9 +882,9 @@
               },
               "papers": [],
               "counts": {
-                "notes": 0,
-                "formulas": 0,
-                "questions": 0,
+                "notes": 3,
+                "formulas": 3,
+                "questions": 3,
                 "chapters": 10
               }
             },

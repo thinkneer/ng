@@ -1,0 +1,179 @@
+[
+  {
+    "id": "chem-s1-q04",
+    "chapter": "ch-03",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ-style",
+    "stem": "The unit of the rate constant of a second-order reaction is",
+    "options": [
+      "s$^{-1}$",
+      "mol L$^{-1}$s$^{-1}$",
+      "L mol$^{-1}$s$^{-1}$",
+      "L$^2$mol$^{-2}$s$^{-1}$"
+    ],
+    "answer": "C",
+    "model_answer": "**(c) L mol$^{-1}$s$^{-1}$.** Units of $k$ = (mol L$^{-1}$)$^{1-n}$s$^{-1}$ with $n=2$.",
+    "source_note": "Expert Q&A Sheet 1 (Physical), Q4"
+  },
+  {
+    "id": "chem-s1-q06",
+    "chapter": "ch-03",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 3,
+    "label": "PYQ-style",
+    "stem": "A first-order reaction is 75% complete in 60 min. Its half-life is",
+    "options": [
+      "15 min",
+      "30 min",
+      "45 min",
+      "20 min"
+    ],
+    "answer": "B",
+    "model_answer": "**(b) 30 min.** 75% complete = two half-lives; $2t_{1/2}=60$ min.",
+    "source_note": "Expert Q&A Sheet 1 (Physical), Q6"
+  },
+  {
+    "id": "chem-s1-q08",
+    "chapter": "ch-03",
+    "type": "ar",
+    "marks": 1,
+    "stars": 3,
+    "label": "PYQ-style",
+    "stem": "**Assertion (A):** Order and molecularity of a reaction are always equal.<br>**Reason (R):** Order is found by experiment; molecularity applies to an elementary step.",
+    "options": [
+      "Both A and R are true, and R is the correct explanation of A.",
+      "Both A and R are true, but R is not the correct explanation of A.",
+      "A is true, but R is false.",
+      "A is false, but R is true."
+    ],
+    "answer": "D",
+    "model_answer": "**(d).** They are equal only for elementary reactions; e.g. order can be zero or fractional, molecularity cannot.",
+    "source_note": "Expert Q&A Sheet 1 (Physical), Q8"
+  },
+  {
+    "id": "chem-s1-q11",
+    "chapter": "ch-03",
+    "type": "vsa2",
+    "marks": 2,
+    "stars": 2,
+    "label": "PYQ-style",
+    "stem": "For a reaction the rate law is rate $=k[\\ce A]^2[\\ce B]$. How does the rate change when (i) [A] is doubled, (ii) [A] is halved and [B] is tripled?",
+    "model_answer": "(i) rate$'$ $=k(2[\\ce A])^2[\\ce B]=4\\times$ rate: **4 times**. [1]<br>\n(ii) rate$'$ $=k\\left(\\tfrac{[\\ce A]}{2}\\right)^2(3[\\ce B])=\\tfrac34\\times$ rate: **0.75 times** (falls by a quarter). [1]",
+    "scheme": [
+      {
+        "step": "(i) rate$'$ $=k(2[\\ce A])^2[\\ce B]=4\\times$ rate: **4 times**.",
+        "marks": 1
+      },
+      {
+        "step": "(ii) rate$'$ $=k\\left(\\tfrac{[\\ce A]}{2}\\right)^2(3[\\ce B])=\\tfrac34\\times$ rate: **0.75 times** (falls by a quarter).",
+        "marks": 1
+      }
+    ],
+    "source_note": "Expert Q&A Sheet 1 (Physical), Q11"
+  },
+  {
+    "id": "chem-s1-q17",
+    "chapter": "ch-03",
+    "type": "sa3",
+    "marks": 3,
+    "stars": 3,
+    "label": "PYQ-style",
+    "stem": "A first-order reaction takes 40 min for 30% decomposition. Calculate its half-life. ($\\log7=0.8451$)",
+    "model_answer": "30% decomposed: $[R]_0=100$, $[R]=70$.<br>\n$k=\\dfrac{2.303}{t}\\log\\dfrac{[R]_0}{[R]}=\\dfrac{2.303}{40}\\log\\dfrac{100}{70}$ [1]<br>\n$=0.05758\\times(1-0.8451)=0.05758\\times0.1549=8.92\\times10^{-3}$ min$^{-1}$ [1]<br>\n$t_{1/2}=\\dfrac{0.693}{k}=\\dfrac{0.693}{8.92\\times10^{-3}}=\\boxed{77.7\\text{ min}}$ [1]",
+    "scheme": [
+      {
+        "step": "30% decomposed: $[R]_0=100$, $[R]=70$. $k=\\dfrac{2.303}{t}\\log\\dfrac{[R]_0}{[R]}=\\dfrac{2.303}{40}\\log\\dfrac{100}{70}$",
+        "marks": 1
+      },
+      {
+        "step": "$=0.05758\\times(1-0.8451)=0.05758\\times0.1549=8.92\\times10^{-3}$ min$^{-1}$",
+        "marks": 1
+      },
+      {
+        "step": "$t_{1/2}=\\dfrac{0.693}{k}=\\dfrac{0.693}{8.92\\times10^{-3}}=\\boxed{77.7\\text{ min}}$",
+        "marks": 1
+      }
+    ],
+    "source_note": "Expert Q&A Sheet 1 (Physical), Q17"
+  },
+  {
+    "id": "chem-s1-q18",
+    "chapter": "ch-03",
+    "type": "sa3",
+    "marks": 3,
+    "stars": 3,
+    "label": "PYQ-style",
+    "stem": "The rate constant of a reaction is 0.02 s$^{-1}$ at 500 K and 0.07 s$^{-1}$ at 700 K. Calculate the activation energy. ($\\log3.5=0.5441$)",
+    "model_answer": "$\\log\\dfrac{k_2}{k_1}=\\dfrac{E_a}{2.303R}\\left(\\dfrac{T_2-T_1}{T_1T_2}\\right)$ [1]<br>\n$\\log\\dfrac{0.07}{0.02}=\\dfrac{E_a}{2.303\\times8.314}\\times\\dfrac{700-500}{500\\times700}$ [1]<br>\n$E_a=\\dfrac{0.5441\\times2.303\\times8.314\\times350000}{200}=18230$ J mol$^{-1}$ $=\\boxed{18.23\\text{ kJ mol}^{-1}}$ [1]",
+    "scheme": [
+      {
+        "step": "$\\log\\dfrac{k_2}{k_1}=\\dfrac{E_a}{2.303R}\\left(\\dfrac{T_2-T_1}{T_1T_2}\\right)$",
+        "marks": 1
+      },
+      {
+        "step": "$\\log\\dfrac{0.07}{0.02}=\\dfrac{E_a}{2.303\\times8.314}\\times\\dfrac{700-500}{500\\times700}$",
+        "marks": 1
+      },
+      {
+        "step": "$E_a=\\dfrac{0.5441\\times2.303\\times8.314\\times350000}{200}=18230$ J mol$^{-1}$ $=\\boxed{18.23\\text{ kJ mol}^{-1}}$",
+        "marks": 1
+      }
+    ],
+    "source_note": "Expert Q&A Sheet 1 (Physical), Q18"
+  },
+  {
+    "id": "chem-s1-q20",
+    "chapter": "ch-03",
+    "type": "case",
+    "marks": 4,
+    "stars": 2,
+    "label": "PYQ-style",
+    "stem": "*Initial rates were measured for the reaction $\\ce{2A + B -> C + D}$:*\n\n| Expt | [A] / mol L$^{-1}$ | [B] / mol L$^{-1}$ | Initial rate / mol L$^{-1}$min$^{-1}$ |\n|---|---|---|---|\n| I | 0.1 | 0.1 | $6.0\\times10^{-3}$ |\n| II | 0.3 | 0.2 | $7.2\\times10^{-2}$ |\n| III | 0.3 | 0.4 | $2.88\\times10^{-1}$ |\n| IV | 0.4 | 0.1 | $2.40\\times10^{-2}$ |",
+    "parts": [
+      {
+        "id": "i",
+        "stem": "Find the order with respect to A.",
+        "marks": 1,
+        "model_answer": "Expts I and IV: [B] constant, [A] × 4, rate × 4 ($6.0\\times10^{-3}\\to2.40\\times10^{-2}$) ⇒ **order 1 in A**. [1]",
+        "scheme": [
+          {
+            "step": "Expts I and IV: [B] constant, [A] × 4, rate × 4 ($6.0\\times10^{-3}\\to2.40\\times10^{-2}$) ⇒ **order 1 in A**.",
+            "marks": 1
+          }
+        ]
+      },
+      {
+        "id": "ii",
+        "stem": "Find the order with respect to B and write the rate law.",
+        "marks": 1,
+        "model_answer": "Expts II and III: [A] constant, [B] × 2, rate × 4 ⇒ **order 2 in B**. Rate $=k[\\ce A][\\ce B]^2$ (overall order 3). [1]",
+        "scheme": [
+          {
+            "step": "Expts II and III: [A] constant, [B] × 2, rate × 4 ⇒ **order 2 in B**. Rate $=k[\\ce A][\\ce B]^2$ (overall order 3).",
+            "marks": 1
+          }
+        ]
+      },
+      {
+        "id": "iii",
+        "stem": "Calculate the rate constant with units.<br>**OR**<br>Calculate the initial rate when [A] = [B] = 0.2 mol L$^{-1}$.",
+        "marks": 2,
+        "model_answer": "From Expt I: $k=\\dfrac{\\text{rate}}{[\\ce A][\\ce B]^2}=\\dfrac{6.0\\times10^{-3}}{(0.1)(0.1)^2}$ [1] $=\\boxed{6.0\\text{ L}^2\\text{mol}^{-2}\\text{min}^{-1}}$ [1]\n\n**OR**\n\n$k=6.0$ L$^2$mol$^{-2}$min$^{-1}$ [1]; rate $=6.0\\times0.2\\times(0.2)^2=\\boxed{4.8\\times10^{-2}\\text{ mol L}^{-1}\\text{min}^{-1}}$ [1]",
+        "scheme": [
+          {
+            "step": "From Expt I: $k=\\dfrac{\\text{rate}}{[\\ce A][\\ce B]^2}=\\dfrac{6.0\\times10^{-3}}{(0.1)(0.1)^2}$",
+            "marks": 1
+          },
+          {
+            "step": "$=\\boxed{6.0\\text{ L}^2\\text{mol}^{-2}\\text{min}^{-1}}$",
+            "marks": 1
+          }
+        ]
+      }
+    ],
+    "source_note": "Expert Q&A Sheet 1 (Physical), Q20"
+  }
+]

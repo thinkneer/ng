@@ -1,0 +1,160 @@
+[
+  {
+    "id": "chem-s1-q01",
+    "chapter": "ch-01",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ-style",
+    "stem": "Which 0.1 m aqueous solution has the *highest* freezing point?",
+    "options": [
+      "glucose",
+      "NaCl",
+      "CaCl$_2$",
+      "Al$_2$(SO$_4$)$_3$"
+    ],
+    "answer": "A",
+    "model_answer": "**(a) glucose.** $\\Delta T_f=iK_fm$; glucose has the smallest $i$ (1), so the smallest depression and highest freezing point.",
+    "source_note": "Expert Q&A Sheet 1 (Physical), Q1"
+  },
+  {
+    "id": "chem-s1-q02",
+    "chapter": "ch-01",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ-style",
+    "stem": "At the same temperature the Henry's law constants of gases A, B and C in water are 40, 1.6 and 0.4 kbar. The most soluble gas is",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "all equally soluble"
+    ],
+    "answer": "C",
+    "model_answer": "**(c) C.** $x=p/K_H$: the smaller $K_H$, the higher the solubility.",
+    "source_note": "Expert Q&A Sheet 1 (Physical), Q2"
+  },
+  {
+    "id": "chem-s1-q07",
+    "chapter": "ch-01",
+    "type": "ar",
+    "marks": 1,
+    "stars": 3,
+    "label": "PYQ-style",
+    "stem": "**Assertion (A):** A mixture of chloroform and acetone shows negative deviation from Raoult's law.<br>**Reason (R):** Chloroform and acetone molecules form a hydrogen bond with each other.",
+    "options": [
+      "Both A and R are true, and R is the correct explanation of A.",
+      "Both A and R are true, but R is not the correct explanation of A.",
+      "A is true, but R is false.",
+      "A is false, but R is true."
+    ],
+    "answer": "A",
+    "model_answer": "**(a).** The H-bond between H of CHCl$_3$ and O of acetone makes A–B attractions stronger, lowering the vapour pressure.",
+    "source_note": "Expert Q&A Sheet 1 (Physical), Q7"
+  },
+  {
+    "id": "chem-s1-q09",
+    "chapter": "ch-01",
+    "type": "vsa2",
+    "marks": 2,
+    "stars": 2,
+    "label": "PYQ-style",
+    "stem": "State Henry's law. Why is the air in scuba divers' tanks diluted with helium?",
+    "model_answer": "**Henry's law:** at constant temperature the partial pressure of a gas in the vapour phase is directly proportional to its mole fraction in the solution, $p=K_Hx$. [1]<br>\nUnder high pressure at depth, more N$_2$ dissolves in blood. On coming up, pressure falls and N$_2$ comes out as bubbles that block capillaries (*bends*). Helium is much less soluble in blood, so air diluted with He avoids this. [1]",
+    "scheme": [
+      {
+        "step": "**Henry's law:** at constant temperature the partial pressure of a gas in the vapour phase is directly proportional to its mole fraction in the solution, $p=K_Hx$.",
+        "marks": 1
+      },
+      {
+        "step": "Under high pressure at depth, more N$_2$ dissolves in blood. On coming up, pressure falls and N$_2$ comes out as bubbles that block capillaries (*bends*). Helium is much less soluble in blood, so air diluted with He avoids this.",
+        "marks": 1
+      }
+    ],
+    "source_note": "Expert Q&A Sheet 1 (Physical), Q9"
+  },
+  {
+    "id": "chem-s1-q13",
+    "chapter": "ch-01",
+    "type": "vsa2",
+    "marks": 2,
+    "stars": 2,
+    "label": "PYQ-style",
+    "stem": "Why is osmotic pressure the preferred property for finding molar masses of proteins? What are isotonic solutions?",
+    "model_answer": "Osmotic pressure is measured at room temperature (proteins denature on heating), uses molarity, and is large enough to measure even for very dilute solutions of high molar mass. [1]<br>\n**Isotonic solutions** have the same osmotic pressure at a given temperature, so no net osmosis occurs between them; e.g. 0.9% (m/V) NaCl and blood cell fluid. [1]",
+    "scheme": [
+      {
+        "step": "Osmotic pressure is measured at room temperature (proteins denature on heating), uses molarity, and is large enough to measure even for very dilute solutions of high molar mass.",
+        "marks": 1
+      },
+      {
+        "step": "**Isotonic solutions** have the same osmotic pressure at a given temperature, so no net osmosis occurs between them; e.g. 0.9% (m/V) NaCl and blood cell fluid.",
+        "marks": 1
+      }
+    ],
+    "source_note": "Expert Q&A Sheet 1 (Physical), Q13"
+  },
+  {
+    "id": "chem-s1-q14",
+    "chapter": "ch-01",
+    "type": "sa3",
+    "marks": 3,
+    "stars": 3,
+    "label": "PYQ-style",
+    "stem": "0.3 g of ethanoic acid ($M=60$ g mol$^{-1}$) dissolved in 30 g of benzene lowers the freezing point by 0.45 K. Calculate the van't Hoff factor and the percentage association of the acid, if it forms a dimer. ($K_f$ of benzene = 5.12 K kg mol$^{-1}$)",
+    "model_answer": "Given: $w_2=0.3$ g, $w_1=30$ g, $M_2=60$, $\\Delta T_f=0.45$ K.<br>\n$m=\\dfrac{0.3\\times1000}{60\\times30}=0.1667$ mol kg$^{-1}$; $\\Delta T_f(\\text{calc})=K_fm=5.12\\times0.1667=0.853$ K [1]<br>\n$i=\\dfrac{\\Delta T_f(\\text{obs})}{\\Delta T_f(\\text{calc})}=\\dfrac{0.45}{0.853}=\\boxed{0.527}$ [1]<br>\nDimer ($n=2$): $\\alpha=\\dfrac{1-i}{1-\\frac12}=2(1-0.527)=0.945$ ⇒ **94.5% associated** [1]",
+    "scheme": [
+      {
+        "step": "Given: $w_2=0.3$ g, $w_1=30$ g, $M_2=60$, $\\Delta T_f=0.45$ K. $m=\\dfrac{0.3\\times1000}{60\\times30}=0.1667$ mol kg$^{-1}$; $\\Delta T_f(\\text{calc})=K_fm=5.12\\times0.1667=0.853$ K",
+        "marks": 1
+      },
+      {
+        "step": "$i=\\dfrac{\\Delta T_f(\\text{obs})}{\\Delta T_f(\\text{calc})}=\\dfrac{0.45}{0.853}=\\boxed{0.527}$",
+        "marks": 1
+      },
+      {
+        "step": "Dimer ($n=2$): $\\alpha=\\dfrac{1-i}{1-\\frac12}=2(1-0.527)=0.945$ ⇒ **94.5% associated**",
+        "marks": 1
+      }
+    ],
+    "source_note": "Expert Q&A Sheet 1 (Physical), Q14"
+  },
+  {
+    "id": "chem-s1-q21",
+    "chapter": "ch-01",
+    "type": "la5",
+    "marks": 5,
+    "stars": 3,
+    "label": "PYQ-style",
+    "stem": "(a) Calculate the boiling point of a solution of 10 g of CaCl$_2$ ($M=111$ g mol$^{-1}$) in 200 g of water, assuming complete dissociation. ($K_b$ = 0.52 K kg mol$^{-1}$; b.p. of water 373.15 K) [3]<br>\n(b) Give reasons: (i) the elevation of boiling point of 1 M KCl is nearly double that of 1 M sugar solution; (ii) ethanol and water form a minimum-boiling azeotrope. [2]",
+    "model_answer": "(a) $\\ce{CaCl2 -> Ca^2+ + 2Cl-}$; complete dissociation ⇒ $i=3$ [½]<br>\n$m=\\dfrac{10\\times1000}{111\\times200}=0.4505$ mol kg$^{-1}$ [1]<br>\n$\\Delta T_b=iK_bm=3\\times0.52\\times0.4505=0.70$ K [1]<br>\n$T_b=373.15+0.70=\\boxed{373.85\\text{ K}}$ [½]<br>\n(b)(i) Colligative properties depend on the number of particles. KCl dissociates into two ions ($i\\approx2$); sugar does not ($i=1$). [1]<br>\n(ii) The mixture shows positive deviation from Raoult's law (ethanol–water attractions are weaker than those in the pure liquids), so the total vapour pressure passes through a maximum and the boiling point through a minimum. [1]",
+    "scheme": [
+      {
+        "step": "(a) $\\ce{CaCl2 -> Ca^2+ + 2Cl-}$; complete dissociation ⇒ $i=3$",
+        "marks": 0.5
+      },
+      {
+        "step": "$m=\\dfrac{10\\times1000}{111\\times200}=0.4505$ mol kg$^{-1}$",
+        "marks": 1
+      },
+      {
+        "step": "$\\Delta T_b=iK_bm=3\\times0.52\\times0.4505=0.70$ K",
+        "marks": 1
+      },
+      {
+        "step": "$T_b=373.15+0.70=\\boxed{373.85\\text{ K}}$",
+        "marks": 0.5
+      },
+      {
+        "step": "(b)(i) Colligative properties depend on the number of particles. KCl dissociates into two ions ($i\\approx2$); sugar does not ($i=1$).",
+        "marks": 1
+      },
+      {
+        "step": "(ii) The mixture shows positive deviation from Raoult's law (ethanol–water attractions are weaker than those in the pure liquids), so the total vapour pressure passes through a maximum and the boiling point through a minimum.",
+        "marks": 1
+      }
+    ],
+    "source_note": "Expert Q&A Sheet 1 (Physical), Q21"
+  }
+]
