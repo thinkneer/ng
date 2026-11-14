@@ -11,17 +11,63 @@ A single organism has a birth and a death, but a **population** has a **birth ra
 - **Sex ratio**: an individual is male or female, but a population has a ratio, for example 60% females and 40% males.
 - **Age distribution**: a population has individuals of different ages. Plotting the proportion in each age group gives an **age pyramid**. For human populations it shows pre-reproductive, reproductive and post-reproductive groups and tells us whether the population is **expanding**, **stable** or **declining**.
 
-<figure class="fig">
+```ng-figure
+id: ch11-age-pyramids
+title: Age pyramids
+svg:
 <svg viewBox="0 0 330 140" role="img" aria-label="Age pyramids for expanding, stable and declining populations">
-<g fill="#2E8B3A" fill-opacity="0.15" stroke="currentColor" stroke-width="1.2"><path d="M55,20L95,104H15Z"/><path d="M150,20L175,40L180,104H120L125,40Z"/><path d="M262,20L292,36L300,64L282,104H242L224,64L232,36Z"/></g>
+<g class="uf" fill-opacity="0.15" stroke="currentColor" stroke-width="1.2"><path d="M55,20L95,104H15Z"/><path d="M150,20L175,40L180,104H120L125,40Z"/><path d="M262,20L292,36L300,64L282,104H242L224,64L232,36Z"/></g>
 <path stroke="currentColor" stroke-dasharray="3 2" stroke-width="0.8" d="M15,76H95M15,48H95M120,76H180M120,48H180M224,76H300M224,48H300"/>
 <g font-size="9" fill="currentColor" text-anchor="middle" font-weight="bold"><text x="55" y="122">Expanding</text><text x="150" y="122">Stable</text><text x="262" y="122">Declining</text></g>
 <g font-size="8" fill="currentColor" text-anchor="middle"><text x="55" y="134">broad base (triangle)</text><text x="150" y="134">bell-shaped</text><text x="262" y="134">narrow base (urn)</text></g>
 </svg>
-<figcaption>Bands from bottom to top: pre-reproductive, reproductive, post-reproductive. A broad base of young people means an expanding population; similar bands mean a stable one; fewer young than adults means a declining one.</figcaption>
-</figure>
+caption: Bands from bottom to top: pre-reproductive, reproductive, post-reproductive. A broad base of young people means an expanding population; similar bands mean a stable one; fewer young than adults means a declining one.
+part: 55, 88 | Expanding population | Broad base: many pre-reproductive individuals (triangle).
+part: 150, 88 | Stable population | Bands of similar width (bell-shaped).
+part: 262, 88 | Declining population | Fewer young than adults (urn-shaped).
+part: 55, 36 | Post-reproductive band | Top band of each pyramid.
+part: 150, 62 | Reproductive band | Middle band of each pyramid.
+```
 
 **Population density (N)** is the size of a population. It does not always have to be a count: percentage cover or biomass can be better (one huge banyan tree and 200 carrot-grass plants in an area should not be compared by numbers). Sometimes only **relative density** is needed, for example the number of fish caught per trap. For tigers in a reserve, density is often estimated indirectly from **pugmarks and faecal pellets**.
+
+```ng-numerical
+id: ch11-per-capita-rate
+title: Per capita birth rate
+question: A pond had {{N}} lotus plants last year. This year {{b}} new plants were added by reproduction. Find the birth rate.
+var: N | 20 | 100 | 5
+var: b | 4 | 40 | 2
+answer: b/N
+unit: per plant per year
+dp: 2
+tol: 2
+step: Birth rate $=\dfrac{\text{new individuals}}{\text{population}}=\dfrac{ {{b}} }{ {{N}} }$.
+step: $=$ **{{b/N:2}} offspring per plant per year**.
+```
+
+```ng-compare
+id: ch11-pyramid-shapes
+title: Three age pyramids
+cols: Expanding | Stable | Declining
+row: Shape | triangle, broad base | bell | urn, narrow base
+row: Young vs adults | many more young | about equal | fewer young
+row: Future | population grows | stays about the same | population shrinks
+```
+
+```ng-mnemonic
+id: ch11-pyramid-shapes-hook
+title: Pyramid shapes
+trick: **T**omorrow **B**etter or **U**h-oh: **T**riangle → **B**ell → **U**rn
+meaning: **T**riangle = expanding; **B**ell = stable; **U**rn = declining.
+prompt: Which age-pyramid shape shows a declining population?
+```
+
+```ng-draw
+id: ch11-draw-pyramids
+title: Draw the three age pyramids
+svg: ref: notes#ch11-age-pyramids
+time: 3
+```
 
 **In one breath:** Populations have birth and death rates (per capita), sex ratio and age distribution. Age pyramids show expanding (broad base), stable (bell) or declining (urn) populations. Density can be numbers, cover, biomass or relative counts; tigers are counted from pugmarks and faecal pellets.
 
@@ -55,16 +101,38 @@ $\dfrac{dN}{dt} = rN\left(\dfrac{K - N}{K}\right)$
 
 As N approaches K, the term (K − N)/K approaches 0 and growth stops. Since resources for most animals are finite, the logistic model is considered more realistic.
 
-<figure class="fig">
+```ng-graph
+id: ch11-growth-graph
+title: Exponential vs logistic growth
+x: time (t) | 0 | 60
+y: population (N) | 0 | 1200
+curve: exponential (J) | N0*exp(r*x)
+curve: logistic (S) | K/(1+((K-N0)/N0)*exp(-r*x))
+slider: r | $r$ (intrinsic rate) | 0.05 | 0.40 | 0.01 | 0.15
+slider: K | $K$ (carrying capacity) | 200 | 1000 | 50 | 600
+slider: N0 | $N_0$ (start) | 5 | 50 | 5 | 10
+preset: Fast breeder | r=0.35, K=600, N0=10
+preset: Slow breeder | r=0.08, K=600, N0=10
+note: Both curves start together. The J-curve shoots up without limit; the S-curve bends over and levels off at $K$, where $(K-N)/K=0$.
+```
+
+```ng-figure
+id: ch11-growth-curves
+title: J-shaped and S-shaped growth curves
+svg:
 <svg viewBox="0 0 330 160" role="img" aria-label="Exponential J-shaped and logistic S-shaped growth curves">
 <path fill="none" stroke="currentColor" stroke-width="1.2" d="M40,140V12M40,140H310"/>
 <path fill="none" stroke="currentColor" stroke-dasharray="4 3" d="M40,44H310"/>
-<path fill="none" stroke="#2E8B3A" stroke-width="2" d="M40,136C120,134,160,120,180,96S210,20,222,12"/>
+<path class="u" fill="none" stroke-width="2" d="M40,136C120,134,160,120,180,96S210,20,222,12"/>
 <path fill="none" stroke="#E0B400" stroke-width="2" d="M40,136C110,134,140,110,165,80S220,46,310,45"/>
 <g font-size="9" fill="currentColor"><text x="226" y="20">a: exponential (J)</text><text x="230" y="60">b: logistic (S)</text><text x="290" y="40">K</text><text x="10" y="70" transform="rotate(-90 14 70)">Population (N)</text><text x="160" y="154">Time (t)</text><text x="44" y="40">carrying capacity</text></g>
 </svg>
-<figcaption>Curve a (J-shaped): unlimited resources. Curve b (S-shaped): limited resources; growth levels off at the carrying capacity K.</figcaption>
-</figure>
+caption: Curve a (J-shaped): unlimited resources. Curve b (S-shaped): limited resources; growth levels off at the carrying capacity K.
+part: 205, 50 | Exponential (J) curve | Unlimited resources: dN/dt = rN.
+part: 165, 80 | Logistic (S) curve | Limited resources: growth slows as N nears K.
+part: 140, 44 | Carrying capacity (K) | Maximum population the habitat can support; the asymptote.
+part: 90, 132 | Lag phase | Slow start before acceleration.
+```
 
 :::skeleton Worked example: per capita rates
 *In a pond of 50 frogs, 10 tadpoles became frogs and 5 frogs died in a year. Find the birth rate, death rate and net change.*<br>
@@ -72,6 +140,47 @@ Birth rate = 10/50 = **0.2 per frog per year** [1]<br>
 Death rate = 5/50 = **0.1 per frog per year** [1]<br>
 Net increase = (10 − 5) = 5, so next year N = **55** (no migration) [1]
 :::
+
+```ng-numerical
+id: ch11-logistic-rate
+title: Growth rate in the logistic model
+question: A population has $r={{r}}$ per year, carrying capacity $K={{K}}$ and present size $N={{N}}$. Find its growth rate $dN/dt$.
+var: r | 0.1 | 0.5 | 0.05
+var: K | 500 | 2000 | 100
+var: N | 100 | 400 | 20
+answer: r*N*(K-N)/K
+unit: individuals per year
+dp: 1
+tol: 2
+step: $\dfrac{dN}{dt}=rN\left(\dfrac{K-N}{K}\right)={{r}}\times{{N}}\times\dfrac{ {{K}}-{{N}} }{ {{K}} }$.
+step: $={{r*N:1}}\times{{(K-N)/K:3}}=$ **{{r*N*(K-N)/K:1}} per year**.
+```
+
+```ng-compare
+id: ch11-j-vs-s
+title: Exponential vs logistic growth
+cols: Exponential | Logistic
+row: Resources | unlimited | limited
+row: Equation | $dN/dt = rN$ | $dN/dt = rN(K-N)/K$
+row: Curve | J-shaped | S-shaped (sigmoid)
+row: Upper limit | none | carrying capacity K
+row: Realistic? | rarely, for short periods | more realistic
+```
+
+```ng-mnemonic
+id: ch11-bide
+title: What changes population size
+trick: **BIDE**: **B**irths and **I**mmigrants come in, **D**eaths and **E**migrants go out
+meaning: $N_{t+1} = N_t + [(B + I) - (D + E)]$.
+prompt: Write the equation for population change.
+```
+
+```ng-draw
+id: ch11-draw-growth-curves
+title: Draw the J and S growth curves
+svg: ref: notes#ch11-growth-curves
+time: 3
+```
 
 **In one breath:** $N_{t+1} = N_t + [(B + I) - (D + E)]$. Unlimited resources: $dN/dt = rN$, J-curve (r: Norway rat 0.015, flour beetle 0.12, India 1981 0.0205). Limited resources: $dN/dt = rN(K - N)/K$, S-curve levelling at carrying capacity K: more realistic.
 
@@ -85,14 +194,17 @@ Populations evolve to **maximise their reproductive fitness** (Darwinian fitness
 
 No species lives alone; populations of different species interact. The interactions can be beneficial (+), detrimental (−) or neutral (0) to each partner.
 
-| Interaction | Species A | Species B | Example |
-|---|---|---|---|
-| Mutualism | + | + | lichens; mycorrhiza; fig and wasp |
-| Competition | − | − | flamingoes and fishes for zooplankton |
-| Predation | + | − | tiger eating deer |
-| Parasitism | + | − | *Cuscuta* on hedge plants; human liver fluke |
-| Commensalism | + | 0 | orchid on mango branch; cattle egret and cattle |
-| Amensalism | − | 0 | one is harmed, the other unaffected |
+```ng-fill
+id: ch11-interactions
+title: Population interactions
+cols: Interaction | Species A | Species B | Example
+row: Mutualism | + | [[+]] | lichens; mycorrhiza; fig and wasp
+row: Competition | [[−]] | [[−]] | flamingoes and fishes for zooplankton
+row: Predation | + | [[−]] | tiger eating deer
+row: Parasitism | + | − | [[*Cuscuta* on hedge plants; human liver fluke]]
+row: Commensalism | + | [[0]] | [[orchid on mango branch; cattle egret and cattle]]
+row: Amensalism | [[−]] | [[0]] | one is harmed, the other unaffected
+```
 
 Predation, parasitism and commensalism share a feature: the interacting species live closely together.
 
@@ -113,5 +225,30 @@ Prey have evolved defences. Some insects and frogs are **cryptically coloured (c
 :::tip Commensalism vs mutualism
 Commensalism: +/0 (orchid on mango, cattle egret). Mutualism: +/+ (lichen, mycorrhiza, fig–wasp). Clown fish and sea anemone is listed by NCERT under commensalism.
 :::
+
+```ng-mnemonic
+id: ch11-signs
+title: Commensalism or amensalism?
+trick: **Com**mensalism = "**Come** sit with me" · **A**mensalism = "**A**h, me hurt, you fine"
+meaning: Commensalism **+/0**: the guest gains, the host is unaffected (orchid on mango). Amensalism **−/0**: one is harmed, the other unaffected.
+prompt: What are the signs for commensalism and amensalism?
+```
+
+```ng-compare
+id: ch11-commensalism-vs-mutualism
+title: Commensalism vs mutualism
+cols: Commensalism | Mutualism
+row: Signs | + / 0 | + / +
+row: Examples | orchid on mango; barnacles on whale; cattle egret and cattle; clown fish and sea anemone | lichen (fungus + alga); mycorrhiza; fig and wasp; Ophrys and bee
+```
+
+```ng-steps
+id: ch11-prickly-pear
+title: Biological control of prickly pear in Australia
+step: Prickly pear cactus was **introduced into Australia** in the early 1920s.
+step: With **no natural predators**, it spread over millions of hectares of rangeland.
+step: A **cactus-feeding moth** was brought in from its natural habitat.
+step: The moth (a predator) **brought the cactus under control**. Predators keep prey populations in check.
+```
 
 **In one breath:** Mutualism +/+, competition −/−, predation and parasitism +/−, commensalism +/0, amensalism −/0. Predators control prey (prickly pear and moth; Paine's *Pisaster*); prey defend with camouflage, distasteful chemicals and thorns. Gause's competitive exclusion, Connell's barnacles, MacArthur's warblers (resource partitioning). Parasites (liver fluke, *Cuscuta*, cuckoo); commensals (orchid on mango, cattle egret); mutualists (lichens, mycorrhiza, fig–wasp, *Ophrys*).

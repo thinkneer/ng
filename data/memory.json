@@ -987,6 +987,82 @@
    "card": true
   }
  ],
+ "biology/ch-11": [
+  {
+   "id": "ch11-pyramid-shapes-hook",
+   "title": "Pyramid shapes",
+   "trick": "**T**omorrow **B**etter or **U**h-oh: **T**riangle → **B**ell → **U**rn",
+   "meaning": [
+    "**T**riangle = expanding; **B**ell = stable; **U**rn = declining."
+   ],
+   "prompt": "Which age-pyramid shape shows a declining population?"
+  },
+  {
+   "id": "ch11-bide",
+   "title": "What changes population size",
+   "trick": "**BIDE**: **B**irths and **I**mmigrants come in, **D**eaths and **E**migrants go out",
+   "meaning": [
+    "$N_{t+1} = N_t + [(B + I) - (D + E)]$."
+   ],
+   "prompt": "Write the equation for population change."
+  },
+  {
+   "id": "ch11-signs",
+   "title": "Commensalism or amensalism?",
+   "trick": "**Com**mensalism = \"**Come** sit with me\" · **A**mensalism = \"**A**h, me hurt, you fine\"",
+   "meaning": [
+    "Commensalism **+/0**: the guest gains, the host is unaffected (orchid on mango). Amensalism **−/0**: one is harmed, the other unaffected."
+   ],
+   "prompt": "What are the signs for commensalism and amensalism?"
+  },
+  {
+   "id": "ch11-bide-hook",
+   "title": "BIDE",
+   "trick": "BIDE",
+   "meaning": [
+    "Births and Immigrants come in; Deaths and Emigrants go out."
+   ],
+   "card": true
+  }
+ ],
+ "biology/ch-12": [
+  {
+   "id": "ch12-four-functions",
+   "title": "Four functions of an ecosystem",
+   "trick": "**P**ond **D**oes **E**verything **N**aturally",
+   "meaning": [
+    "**P**roductivity, **D**ecomposition, **E**nergy flow, **N**utrient cycling."
+   ],
+   "prompt": "Name the four functional aspects of an ecosystem."
+  },
+  {
+   "id": "ch12-decomposition-order",
+   "title": "Order of decomposition steps",
+   "trick": "**F**riends **L**ike **C**hai on **H**ot **M**ornings",
+   "meaning": [
+    "**F**ragmentation → **L**eaching → **C**atabolism → **H**umification → **M**ineralisation."
+   ],
+   "prompt": "Put the five steps of decomposition in order."
+  },
+  {
+   "id": "ch12-ten-ten",
+   "title": "The 10 per cent law in numbers",
+   "trick": "**10,000 → 1,000 → 100 → 10**: drop a zero at every step",
+   "meaning": [
+    "About 10% of energy passes up each trophic level; the rest is lost, mostly as heat. So food chains rarely pass four or five levels."
+   ],
+   "prompt": "If producers fix 10,000 J, how much reaches a secondary consumer?"
+  },
+  {
+   "id": "ch12-energy-always-up",
+   "title": "The pyramid that never flips",
+   "trick": "**E**nergy is **E**ver upright · **B**iomass flips in the **B**lue sea · **N**umbers flip on a **N**eem tree",
+   "meaning": [
+    "Energy is lost as heat at every step, so its pyramid can never be inverted. Biomass inverts in the sea; numbers invert for a single tree."
+   ],
+   "prompt": "Which ecological pyramid can never be inverted, and why?"
+  }
+ ],
  "english-core/reading-unseen": [
   {
    "id": "unseen-negatives",

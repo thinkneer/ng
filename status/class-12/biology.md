@@ -26,7 +26,7 @@ Paper: **Thu 25 Mar 2027** (date sheet of 6 Nov 2026). Biology-only days 10–24
   - Ch 11 Read: age-pyramid SVG and J/S growth-curve SVG; interactions table. Ch 12 Read: energy/biomass pyramid SVG; decomposition steps; 10 % law example. Ch 13 Read: species–area SVG; Evil Quartet; NCERT protected-area figures with a tip that real numbers have grown.
 - **All 13 chapters now have Read, Must know, formulas and 10 practice questions each (130 questions).** Checked: build-index passes with 0 warnings; every SVG rendered and inspected; chapter page checked in headless Chrome (390 px).
 
-- **Interactive pass (CLAUDE.md §4c), 14 Nov 2026 — Ch 1–10 done.** Each chapter has `cards.json` (10–13 cards: figure refs, formula tex + legend, process/compare chains, mnemonics) and blocks in notes.md placed where the idea is taught:
+- **Interactive pass (CLAUDE.md §4c), 14 Nov 2026 — Ch 1–12 done.** Each chapter has `cards.json` (10–13 cards: figure refs, formula tex + legend, process/compare chains, mnemonics) and blocks in notes.md placed where the idea is taught:
   - Ch 1: 5 `ng-figure` (microsporangium, pollen, ovule, embryo sac, embryos) + 4 `ng-draw`; `ng-steps` for microsporogenesis, embryo-sac development, hybridisation, pollen-tube path, double fertilisation, embryo stages; `ng-compare` (pollination kinds, dicot vs monocot embryo, albuminous seeds, apomixis/polyembryony/parthenocarpy); `ng-fill` ploidy; 6 mnemonics.
   - Ch 2: 4 `ng-figure` (tubule, sperm, ovary, 28-day cycle) + 3 `ng-draw`; steps for oogenesis, cycle phases, fertilisation→implantation, parturition; compare/fill tables; 5 mnemonics (SEVEN UP, IAI, Leydig–LH…).
   - Ch 3: new `ng-figure` fertile-window bar; fills (contraceptives, MTP rule), compares (vasectomy/tubectomy, ART); IVF–ET steps; 5 mnemonics.
@@ -37,6 +37,8 @@ Paper: **Thu 25 Mar 2027** (date sheet of 6 Nov 2026). Biology-only days 10–24
   - Ch 8: sewage flow `ng-figure` + steps + `ng-draw`; new biogas-plant `ng-figure` + `ng-draw`; fills (industrial products, biocontrol), compares (primary/secondary treatment, distilled drinks, biofertilisers); curd and penicillin steps; 5 mnemonics.
   - Ch 9: new EcoRI sticky-ends `ng-figure`, pBR322 and PCR `ng-figure`, new stirred-tank bioreactor `ng-figure` (each with `ng-draw`); `ng-numerical` PCR copies ($N_0 2^n$); steps (GMO, gel, insertional inactivation, competence, rDNA process, downstream); fills (EcoRI name, lysis enzymes), compares (exo/endo, antibiotic vs blue–white, Ti plasmid vs retrovirus); 3 mnemonics.
   - Ch 10: new insulin (pro-insulin → A + B) `ng-figure` + `ng-draw`; steps (Bt toxin, RNAi, Humulin, ADA gene therapy); fills (cry genes, transgenic uses), compares (PCR/probe/ELISA, GEAC vs patents); 3 mnemonics.
+  - Ch 11: age pyramids and J/S curves as `ng-figure` (+ `ng-draw` each); `ng-graph` exponential vs logistic with r, K, N₀ sliders and presets; `ng-numerical` per capita birth rate and logistic dN/dt; interactions `ng-fill`; compares (pyramid shapes, J vs S, commensalism vs mutualism); prickly-pear steps; 3 mnemonics.
+  - Ch 12: energy/biomass pyramids `ng-figure` + `ng-draw`; `ng-numerical` NPP and 10 % law; decomposition steps; compares (GPP/NPP, decomposition rate, GFC/DFC); pyramid-shapes `ng-fill`; 4 mnemonics.
 
 ## Corrections
 - Ch 1 pollen-grain germ-pore leader moved to an actual gap in the exine.

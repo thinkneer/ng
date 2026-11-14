@@ -10,6 +10,14 @@ Ecosystems range in size from a small pond to a large forest or a sea. Many ecol
 
 The components work as a unit when we look at four functions: **productivity**, **decomposition**, **energy flow** and **nutrient cycling**. A **pond** is a simple, self-sustaining example. Its abiotic part is water with dissolved inorganic and organic substances and the rich soil deposit at the bottom. Solar input, temperature cycles, day length and other climatic conditions regulate the rate of function of the whole pond. **Autotrophs** such as phytoplankton, some algae and floating, submerged and marginal plants are found at the edges. **Consumers** are zooplankton, free-swimming and bottom-dwelling forms. **Decomposers** are fungi, bacteria and flagellates, especially abundant at the bottom.
 
+```ng-mnemonic
+id: ch12-four-functions
+title: Four functions of an ecosystem
+trick: **P**ond **D**oes **E**verything **N**aturally
+meaning: **P**roductivity, **D**ecomposition, **E**nergy flow, **N**utrient cycling.
+prompt: Name the four functional aspects of an ecosystem.
+```
+
 **In one breath:** An ecosystem is a functional unit of living and non-living parts. Terrestrial or aquatic, natural or man-made; structure is species composition and stratification; function is productivity, decomposition, energy flow and nutrient cycling. A pond shows all of these.
 
 ## Productivity
@@ -34,6 +42,30 @@ Primary productivity depends on the plant species of an area, environmental fact
 Herbivores and decomposers can use only NPP, what is left after plants' own respiration. GPP includes the part plants burn themselves.
 :::
 
+```ng-numerical
+id: ch12-npp
+title: Net primary productivity
+question: A grassland has a gross primary productivity of {{G}} g m⁻² yr⁻¹. Plants use {{p}}% of it in respiration. Find the NPP.
+var: G | 1000 | 5000 | 100
+var: p | 20 | 60 | 5
+let: R = G*p/100
+answer: G - R
+unit: g m⁻² yr⁻¹
+dp: 0
+tol: 1
+step: $R={{p}}\%$ of ${{G}}={{R:0}}$ g m⁻² yr⁻¹.
+step: NPP $=$ GPP $-$ R $={{G}}-{{R:0}}=$ **{{G-R:0}} g m⁻² yr⁻¹**.
+```
+
+```ng-compare
+id: ch12-gpp-vs-npp
+title: GPP vs NPP
+cols: Gross primary productivity | Net primary productivity
+row: Meaning | total rate of organic matter made in photosynthesis | what is left after plants' own respiration
+row: Relation | GPP = NPP + R | NPP = GPP − R
+row: Available to heterotrophs? | no, part is burnt by plants | yes, to herbivores and decomposers
+```
+
 **In one breath:** Primary production is biomass made by plants per unit area; productivity is its rate (g m⁻² yr⁻¹). NPP = GPP − R is what heterotrophs can use. Biosphere NPP ≈ 170 billion tons/year; oceans only ≈ 55 billion tons despite covering 70% of the surface.
 
 ## Decomposition
@@ -55,6 +87,33 @@ Fragmentation, leaching and catabolism happen simultaneously on the detritus; hu
 :::tip Order of steps
 Fragmentation → leaching → catabolism → humification → mineralisation. Humus decomposes very slowly; it is not quickly broken down.
 :::
+
+```ng-steps
+id: ch12-decomposition
+title: How detritus is decomposed
+step: **Fragmentation**: detritivores such as earthworms break detritus into small pieces.
+step: **Leaching**: water-soluble nutrients sink into the soil and precipitate as unavailable salts.
+step: **Catabolism**: bacterial and fungal enzymes break detritus into simple inorganic substances.
+step: **Humification**: dark, amorphous **humus** builds up; it resists microbes and is a colloidal nutrient reservoir.
+step: **Mineralisation**: some microbes slowly degrade humus, releasing inorganic nutrients.
+```
+
+```ng-mnemonic
+id: ch12-decomposition-order
+title: Order of decomposition steps
+trick: **F**riends **L**ike **C**hai on **H**ot **M**ornings
+meaning: **F**ragmentation → **L**eaching → **C**atabolism → **H**umification → **M**ineralisation.
+prompt: Put the five steps of decomposition in order.
+```
+
+```ng-compare
+id: ch12-decomposition-rate
+title: What speeds up or slows down decomposition
+cols: Faster | Slower
+row: Chemistry of detritus | rich in nitrogen and sugars | rich in lignin and chitin
+row: Climate | warm and moist | cold
+row: Oxygen | aerobic | anaerobic (organic matter builds up)
+```
 
 **In one breath:** Detritus → fragmentation (detritivores) → leaching → catabolism (enzymes) → humification (slow, colloidal nutrient reservoir) → mineralisation. Fast when rich in nitrogen and sugars and when warm and moist; slow with lignin, chitin, cold and no oxygen.
 
@@ -80,6 +139,38 @@ Secondary consumer: 10% of 1,000 = 100 J [1]<br>
 Tertiary consumer: 10% of 100 = **10 J** [1]
 :::
 
+```ng-numerical
+id: ch12-ten-percent
+title: The 10 per cent law
+question: Producers in an ecosystem fix {{E}} J of energy. How much energy reaches the consumer {{k}} step(s) up the food chain?
+var: E | 1000 | 50000 | 1000
+var: k | 1 | 4 | 1
+answer: E*0.1^k
+unit: J
+dp: 1
+tol: 1
+step: Only about 10% passes to each next trophic level, so energy $=E\times(0.1)^k$.
+step: $={{E}}\times(0.1)^{ {{k}} }=$ **{{E*0.1^k:1}} J**.
+```
+
+```ng-compare
+id: ch12-gfc-vs-dfc
+title: Grazing vs detritus food chain
+cols: Grazing food chain | Detritus food chain
+row: Starts with | living producers | dead organic matter (detritus)
+row: First consumers | herbivores | decomposers (fungi, bacteria: saprotrophs)
+row: Major in | aquatic ecosystems | terrestrial ecosystems
+row: Example | grass → goat → man | dead leaves → fungi and bacteria
+```
+
+```ng-mnemonic
+id: ch12-ten-ten
+title: The 10 per cent law in numbers
+trick: **10,000 → 1,000 → 100 → 10**: drop a zero at every step
+meaning: About 10% of energy passes up each trophic level; the rest is lost, mostly as heat. So food chains rarely pass four or five levels.
+prompt: If producers fix 10,000 J, how much reaches a secondary consumer?
+```
+
 **In one breath:** Sun → producers → consumers, one way only; plants catch 2–10% of PAR (PAR < 50% of sunlight). GFC starts with plants (major in water); DFC starts with detritus (major on land). Trophic levels and standing crop; only ≈ 10% of energy passes to each next level.
 
 ## Ecological pyramids
@@ -91,19 +182,53 @@ The relationship between producers and consumers at successive trophic levels ca
 - The **pyramid of numbers** can be inverted too: a single large tree supports many insects (and fewer birds on them).
 - The **pyramid of energy is always upright** and can never be inverted, because some energy is always lost as heat at each step.
 
-<figure class="fig">
+```ng-figure
+id: ch12-pyramids
+title: Pyramid of energy and pyramid of biomass in the sea
+svg:
 <svg viewBox="0 0 330 150" role="img" aria-label="Upright pyramid of energy and inverted pyramid of biomass in the sea">
-<g fill="#2E8B3A" fill-opacity="0.18" stroke="currentColor" stroke-width="1.2"><rect x="20" y="96" width="120" height="22"/><rect x="35" y="74" width="90" height="22"/><rect x="50" y="52" width="60" height="22"/><rect x="72" y="30" width="16" height="22"/><rect x="230" y="96" width="30" height="22"/><rect x="200" y="74" width="90" height="22"/><rect x="185" y="52" width="120" height="22"/></g>
+<g class="uf" fill-opacity="0.18" stroke="currentColor" stroke-width="1.2"><rect x="20" y="96" width="120" height="22"/><rect x="35" y="74" width="90" height="22"/><rect x="50" y="52" width="60" height="22"/><rect x="72" y="30" width="16" height="22"/><rect x="230" y="96" width="30" height="22"/><rect x="200" y="74" width="90" height="22"/><rect x="185" y="52" width="120" height="22"/></g>
 <g font-size="8" fill="currentColor" text-anchor="middle"><text x="80" y="110">Producers</text><text x="80" y="88">Herbivores</text><text x="80" y="66">Carnivores</text><text x="80" y="24">Top</text><text x="245" y="132">Phytoplankton</text><text x="245" y="88">Zooplankton</text><text x="245" y="66">Fishes</text></g>
 <g font-size="9" fill="currentColor" text-anchor="middle" font-weight="bold"><text x="80" y="144">Energy: always upright</text><text x="245" y="144">Biomass in sea: inverted</text></g>
 </svg>
-<figcaption>Left: pyramid of energy, always upright (≈ 10% passes up each level). Right: biomass pyramid in the sea, inverted, because a small, fast-multiplying phytoplankton crop supports a larger biomass of fish.</figcaption>
-</figure>
+caption: Left: pyramid of energy, always upright (≈ 10% passes up each level). Right: biomass pyramid in the sea, inverted, because a small, fast-multiplying phytoplankton crop supports a larger biomass of fish.
+part: 132, 107 | Producers | Base of the energy pyramid: most energy.
+part: 117, 85 | Herbivores | Primary consumers: about 10% of the producers’ energy.
+part: 102, 63 | Carnivores | Secondary consumers.
+part: 80, 41 | Top carnivore | Least energy, at the apex.
+part: 252, 107 | Phytoplankton | Small standing crop that multiplies very fast.
+part: 282, 85 | Zooplankton | More biomass than the phytoplankton at any moment.
+part: 297, 63 | Fishes | Largest biomass: the pyramid is inverted.
+```
 
 **Limitations of ecological pyramids**: they do not take into account the same species belonging to two or more trophic levels; they assume a simple food chain, which almost never exists in nature, and do not accommodate a food web; and **saprophytes are not given any place** in them, even though they play a vital role in the ecosystem.
 
 :::tip Which pyramid can be inverted
 Biomass (sea) and numbers (tree) can be inverted; energy never can.
 :::
+
+```ng-fill
+id: ch12-pyramid-shapes
+title: Which pyramids can be inverted?
+cols: Pyramid | Usual shape | Inverted when
+row: Numbers | upright | [[one large tree supports many insects]]
+row: Biomass | upright | [[in the sea (phytoplankton < fishes)]]
+row: Energy | [[always upright]] | [[never]]
+```
+
+```ng-mnemonic
+id: ch12-energy-always-up
+title: The pyramid that never flips
+trick: **E**nergy is **E**ver upright · **B**iomass flips in the **B**lue sea · **N**umbers flip on a **N**eem tree
+meaning: Energy is lost as heat at every step, so its pyramid can never be inverted. Biomass inverts in the sea; numbers invert for a single tree.
+prompt: Which ecological pyramid can never be inverted, and why?
+```
+
+```ng-draw
+id: ch12-draw-pyramids
+title: Draw the energy pyramid and the sea biomass pyramid
+svg: ref: notes#ch12-pyramids
+time: 4
+```
 
 **In one breath:** Pyramids of number, biomass and energy have producers at the base. Biomass is inverted in the sea and numbers in a tree ecosystem; energy is always upright. Limits: a species may sit at two levels, food webs are ignored, and saprophytes have no place.

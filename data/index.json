@@ -2266,6 +2266,7 @@
                         "notes": true,
                         "mustknow": true,
                         "formulas": true,
+                        "cards": true,
                         "questions": true
                       },
                       "marks_hint": "Unit X Ecology = 10 marks (shared by Ch 11–13, CBSE 2026–27)",
@@ -2280,8 +2281,20 @@
                         "la5": 1
                       },
                       "diagrams": [],
-                      "words": 2906,
-                      "read_minutes": 10
+                      "blocks": {
+                        "figure": 2,
+                        "numerical": 2,
+                        "compare": 3,
+                        "mnemonic": 3,
+                        "draw": 2,
+                        "graph": 1,
+                        "fill": 1,
+                        "steps": 1
+                      },
+                      "words": 2756,
+                      "read_minutes": 9,
+                      "cards": 11,
+                      "mnemonics": 4
                     },
                     {
                       "id": "ch-12",
@@ -2292,6 +2305,7 @@
                         "notes": true,
                         "mustknow": true,
                         "formulas": true,
+                        "cards": true,
                         "questions": true
                       },
                       "marks_hint": "Unit X Ecology = 10 marks (shared by Ch 11–13, CBSE 2026–27)",
@@ -2306,8 +2320,19 @@
                         "la5": 1
                       },
                       "diagrams": [],
-                      "words": 2599,
-                      "read_minutes": 9
+                      "blocks": {
+                        "mnemonic": 4,
+                        "numerical": 2,
+                        "compare": 3,
+                        "steps": 1,
+                        "figure": 1,
+                        "fill": 1,
+                        "draw": 1
+                      },
+                      "words": 2565,
+                      "read_minutes": 8,
+                      "cards": 10,
+                      "mnemonics": 4
                     },
                     {
                       "id": "ch-13",

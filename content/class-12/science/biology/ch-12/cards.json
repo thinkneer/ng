@@ -1,0 +1,97 @@
+[
+  {
+    "id": "ch12-npp",
+    "kind": "formula",
+    "title": "Net primary productivity",
+    "tex": "\\text{NPP}=\\text{GPP}-R",
+    "legend": [
+      "GPP = gross primary productivity",
+      "R = respiration by plants"
+    ],
+    "back": "Only NPP is available to herbivores and decomposers. Units g m⁻² yr⁻¹ or kcal m⁻² yr⁻¹.",
+    "stars": 3
+  },
+  {
+    "id": "ch12-biosphere-npp",
+    "kind": "formula",
+    "title": "Biosphere productivity",
+    "tex": "170\\ \\text{bn t/yr total};\\ \\text{oceans}\\approx55",
+    "legend": [
+      "oceans = about 70% of the surface"
+    ],
+    "back": "Oceans cover 70% of Earth but make only about a third of NPP.",
+    "stars": 2
+  },
+  {
+    "id": "ch12-decomposition",
+    "kind": "process",
+    "title": "Decomposition",
+    "tex": "\\text{fragment}\\to\\text{leach}\\to\\text{catabolise}\\to\\text{humify}\\to\\text{mineralise}",
+    "back": "First three act on detritus together; humification and mineralisation in soil. Humus is a slow, colloidal nutrient reservoir.",
+    "stars": 3
+  },
+  {
+    "id": "ch12-decomposition-rate",
+    "kind": "compare",
+    "title": "Decomposition rate",
+    "tex": "\\text{N, sugars, warm, moist}\\ \\big|\\ \\text{lignin, chitin, cold, anaerobic}",
+    "back": "Temperature and soil moisture are the most important climatic factors.",
+    "stars": 2
+  },
+  {
+    "id": "ch12-par",
+    "kind": "formula",
+    "title": "Capturing sunlight",
+    "tex": "\\text{PAR}<50\\%;\\quad\\text{plants fix }2\\text{–}10\\%\\text{ of PAR}",
+    "legend": [
+      "PAR = photosynthetically active radiation"
+    ],
+    "back": "Energy flow is unidirectional: Sun → producers → consumers. Deep-sea hydrothermal vents are the exception.",
+    "stars": 2
+  },
+  {
+    "id": "ch12-gfc-vs-dfc",
+    "kind": "compare",
+    "title": "GFC vs DFC",
+    "tex": "\\text{grass}\\to\\text{goat}\\to\\text{man}\\ \\big|\\ \\text{detritus}\\to\\text{decomposers}",
+    "back": "GFC is the main energy route in water; on land more energy flows through the DFC.",
+    "stars": 3
+  },
+  {
+    "id": "ch12-ten-percent",
+    "kind": "formula",
+    "title": "10 per cent law",
+    "tex": "E_{n+1}\\approx0.1\\,E_n",
+    "legend": [
+      "E_n = energy at trophic level n"
+    ],
+    "back": "10,000 J → 1,000 → 100 → 10 J at the tertiary consumer.",
+    "stars": 3
+  },
+  {
+    "id": "ch12-pyramids",
+    "kind": "figure",
+    "title": "Energy and biomass pyramids",
+    "svg": "ref: notes#ch12-pyramids",
+    "back": "Energy pyramid always upright. Biomass in the sea is inverted: fast-dividing phytoplankton support more fish biomass.",
+    "stars": 3,
+    "tags": [
+      "diagram"
+    ]
+  },
+  {
+    "id": "ch12-pyramid-limits",
+    "kind": "process",
+    "title": "Limits of ecological pyramids",
+    "tex": "\\text{one species, two levels}\\cdot\\text{no food webs}\\cdot\\text{no saprophytes}",
+    "back": "Pyramids assume a simple food chain, which almost never exists in nature.",
+    "stars": 2
+  },
+  {
+    "id": "ch12-energy-always-up",
+    "kind": "mnemonic",
+    "title": "Which pyramid never flips",
+    "tex": "\\textbf{E}\\text{nergy is }\\textbf{E}\\text{ver upright}",
+    "back": "Biomass flips in the Blue sea; Numbers flip on a (Neem) tree; Energy never, because heat is lost at every step."
+  }
+]

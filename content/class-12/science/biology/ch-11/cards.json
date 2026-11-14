@@ -1,0 +1,112 @@
+[
+  {
+    "id": "ch11-age-pyramids",
+    "kind": "figure",
+    "title": "Age pyramids",
+    "svg": "ref: notes#ch11-age-pyramids",
+    "back": "Triangle (broad base) = expanding; bell = stable; urn (narrow base) = declining.",
+    "stars": 3,
+    "tags": [
+      "diagram"
+    ]
+  },
+  {
+    "id": "ch11-per-capita-rate",
+    "kind": "formula",
+    "title": "Per capita birth and death rate",
+    "tex": "b=\\dfrac{\\text{births}}{N},\\quad d=\\dfrac{\\text{deaths}}{N}",
+    "legend": [
+      "N = population size at the start"
+    ],
+    "back": "20 lotus + 8 new = 0.4 per lotus per year. 4 of 40 flies die = 0.1 per fly per week.",
+    "stars": 2
+  },
+  {
+    "id": "ch11-bide",
+    "kind": "formula",
+    "title": "Population change",
+    "tex": "N_{t+1}=N_t+[(B+I)-(D+E)]",
+    "legend": [
+      "B = natality",
+      "I = immigration",
+      "D = mortality",
+      "E = emigration"
+    ],
+    "back": "Births and deaths matter most; migration matters when a new habitat is colonised.",
+    "stars": 3
+  },
+  {
+    "id": "ch11-exponential",
+    "kind": "formula",
+    "title": "Exponential growth",
+    "tex": "\\dfrac{dN}{dt}=rN,\\quad N_t=N_0e^{rt}",
+    "legend": [
+      "r = intrinsic rate of natural increase",
+      "N₀ = starting population"
+    ],
+    "back": "J-curve under unlimited resources. r: Norway rat 0.015, flour beetle 0.12, India (1981) 0.0205.",
+    "stars": 3
+  },
+  {
+    "id": "ch11-logistic",
+    "kind": "formula",
+    "title": "Logistic growth",
+    "tex": "\\dfrac{dN}{dt}=rN\\left(\\dfrac{K-N}{K}\\right)",
+    "legend": [
+      "K = carrying capacity",
+      "N = population size"
+    ],
+    "back": "S-curve: lag, acceleration, deceleration, asymptote at K. More realistic than exponential.",
+    "stars": 3
+  },
+  {
+    "id": "ch11-growth-curves",
+    "kind": "figure",
+    "title": "J and S curves",
+    "svg": "ref: notes#ch11-growth-curves",
+    "back": "a: exponential (J), unlimited resources. b: logistic (S), levels off at carrying capacity K.",
+    "stars": 3,
+    "tags": [
+      "diagram"
+    ]
+  },
+  {
+    "id": "ch11-life-history",
+    "kind": "compare",
+    "title": "Life history strategies",
+    "tex": "\\text{breed once}\\ \\big|\\ \\text{breed many times}",
+    "back": "Once: Pacific salmon, bamboo. Many times: birds, mammals. Many small young (oysters) vs few large young (birds, mammals).",
+    "stars": 2
+  },
+  {
+    "id": "ch11-interactions",
+    "kind": "compare",
+    "title": "Interaction signs",
+    "tex": "+/+\\ \\big|\\ -/-\\ \\big|\\ +/-\\ \\big|\\ +/0\\ \\big|\\ -/0",
+    "back": "Mutualism | competition | predation, parasitism | commensalism | amensalism.",
+    "stars": 3
+  },
+  {
+    "id": "ch11-gause",
+    "kind": "compare",
+    "title": "Gause vs MacArthur",
+    "tex": "\\text{competitive exclusion}\\ \\big|\\ \\text{resource partitioning}",
+    "back": "Gause: closely related competitors cannot coexist indefinitely. MacArthur: five warbler species coexist by foraging in different parts of the tree.",
+    "stars": 3
+  },
+  {
+    "id": "ch11-prey-defence",
+    "kind": "process",
+    "title": "Prey defences",
+    "tex": "\\text{camouflage}\\cdot\\text{distasteful chemicals}\\cdot\\text{thorns}\\cdot\\text{toxins}",
+    "back": "Monarch butterfly (poison from caterpillar food); Acacia and cactus thorns; Calotropis makes cardiac glycosides.",
+    "stars": 2
+  },
+  {
+    "id": "ch11-bide-hook",
+    "kind": "mnemonic",
+    "title": "BIDE",
+    "tex": "\\textbf{B}+\\textbf{I}-\\textbf{D}-\\textbf{E}",
+    "back": "Births and Immigrants come in; Deaths and Emigrants go out."
+  }
+]
