@@ -10,7 +10,6 @@
   grid-template-rows: 1fr;
   grid-template-columns: 1fr;
   grid-template-areas: "main";
-  background: var(--bg);
 }
 .sidebar { display: none; }
 .main {
@@ -113,11 +112,12 @@
   .tabbar { display: none; }
   .sidebar {
     grid-area: sidebar; display: flex; flex-direction: column;
-    background: var(--surface); border-right: 1px solid var(--separator);
+    background: color-mix(in srgb, var(--surface) 72%, transparent); border-right: 1px solid var(--separator);
+    -webkit-backdrop-filter: blur(16px); backdrop-filter: blur(16px);
     padding: var(--s-4) var(--s-3); overflow-y: auto;
   }
   .sidebar__brand { display: flex; align-items: center; gap: var(--s-3); padding: var(--s-2) var(--s-2) var(--s-4); }
-  .sidebar__brand img { width: 2rem; height: 2rem; border-radius: 8px; }
+  .sidebar__brand img { width: 2.25rem; height: 2.25rem; border-radius: 10px; box-shadow: var(--accent-glow); }
   .sidebar__brand .name { font-weight: 700; font-size: var(--fs-headline); letter-spacing: -0.01em; }
   .sidebar__brand .sub { font-size: var(--fs-caption); color: var(--text-2); }
   .sidebar__section { font-size: var(--fs-caption); font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em; color: var(--text-3); padding: var(--s-4) var(--s-2) var(--s-1); }

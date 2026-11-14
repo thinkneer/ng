@@ -124,3 +124,15 @@ export function today() { const d = new Date(); d.setHours(0, 0, 0, 0); return d
 export function daysBetween(a, b) { return Math.round((b - a) / DAY); }
 export function fmtDate(d, opts = { weekday: 'short', day: 'numeric', month: 'short' }) { return (d instanceof Date ? d : parseDate(d)).toLocaleDateString('en-IN', opts); }
 export const plural = (n, w, ws = w + 's') => `${n} ${n === 1 ? w : ws}`;
+
+/* ---------- Book cover for a subject ---------- */
+export function cover(sub, { href, sub: subline, pct, soon, art = 'book', small = false } = {}) {
+  const body = `<span class="cover${soon ? ' cover--soon' : ''}" style="--unit:#${sub.colour || '1F5FAD'}">
+      <span class="cover__art">${icon(art)}</span>
+      ${sub.code && !small ? `<span class="cover__code">${esc(sub.code)}</span>` : ''}
+      ${!small ? `<span class="cover__foot">${subline ? `<span class="cover__sub">${esc(subline)}</span>` : ''}<span class="cover__name">${esc(sub.name.length > 10 && sub.short ? sub.short : sub.name)}</span></span>` : ''}
+    </span>`;
+  if (small) return raw(body);
+  return raw(`<a class="book-item pressable" href="${esc(href || '#')}" ${soon ? 'aria-disabled="true"' : ''}>${body}
+    <span class="book-meta"><span>${soon ? 'Coming soon' : esc(sub.metaLeft || '')}</span>${pct != null ? `<span class="pct" style="--unit:#${sub.colour}">${pct}%</span>` : ''}</span></a>`);
+}

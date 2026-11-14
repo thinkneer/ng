@@ -61,7 +61,7 @@ function protectMath(src) {
   return { s, restore: (htmlStr) => htmlStr.replace(/\u0000M(\d+)\u0000/g, (_, n) => stash[Number(n)].replace(/&/g, '&amp;').replace(/</g, '&lt;')) };
 }
 
-export async function renderMarkdown(src, { unitColour } = {}) {
+export async function renderMarkdown(src, { unitColour, eager = false } = {}) {
   let marked, DOMPurify;
   try { ({ marked, DOMPurify } = await load()); } catch (e) {
     // Rendering libraries unavailable (first visit offline, blocked network): show the raw notes rather than nothing.
@@ -92,7 +92,8 @@ export async function renderMarkdown(src, { unitColour } = {}) {
   // Typeset in chunks (per section) after the text is on screen, yielding between chunks so the page stays responsive.
   const sections = chunkBySection(wrap);
   const first = sections.shift();
-  if (first) typeset(first).then(() => { if (sections.length) queueTypeset(sections); });
+  if (first) typeset(first).then(() => { if (!sections.length) return; if (eager) queueTypeset(sections); else lazyTypeset(sections); });
+  wrap._pending = sections;
   return wrap;
 }
 
@@ -130,9 +131,26 @@ function chunkBySection(root) {
   if (cur.length) runs.push(cur);
   return runs.map((nodes) => ({ nodes }));
 }
+// Typeset a section only when it comes near the viewport (long notes: most sections are far below the fold).
+function lazyTypeset(chunks) {
+  if (!('IntersectionObserver' in window)) return queueTypeset(chunks);
+  const io = new IntersectionObserver((entries) => {
+    for (const e of entries) {
+      if (!e.isIntersecting) continue;
+      const c = e.target._chunk; io.unobserve(e.target);
+      if (c && !c.done) { c.done = true; typeset(c); }
+    }
+  }, { rootMargin: '800px 0px' });
+  for (const c of chunks) { const n = c.nodes[0]; if (n) { n._chunk = c; io.observe(n); } }
+}
+/** Typeset everything still pending in a rendered element (used before paginating). */
+export async function typesetAll(root) {
+  const pending = root._pending || []; root._pending = [];
+  for (const c of pending) if (!c.done) { c.done = true; await typeset(c); }
+}
 function queueTypeset(chunks) {
   const idle = window.requestIdleCallback || ((fn) => setTimeout(() => fn({ timeRemaining: () => 8 }), 16));
-  const step = () => { const c = chunks.shift(); if (!c) return; typeset(c).then(() => idle(step)); };
+  const step = () => { const c = chunks.shift(); if (!c) return; if (c.done) return idle(step); c.done = true; typeset(c).then(() => idle(step)); };
   idle(step);
 }
 

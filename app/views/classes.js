@@ -1,4 +1,4 @@
-import { html, raw, icon, largeTitle, listItem, esc, toast, haptic } from '../ui.js';
+import { html, raw, icon, largeTitle, listItem, esc, toast, haptic, cover } from '../ui.js';
 import { data, routeFor, streamless } from '../data.js';
 import { store } from '../store.js';
 
@@ -56,18 +56,12 @@ export async function subjectsOf(route) {
     html: html`${largeTitle(title, { eyebrow: live ? 'Subjects' : 'Coming soon' })}
       ${!live ? raw(`<div class="notice notice--warn mb-4">${icon('clock')}<div><strong>Coming soon.</strong> This class is set up but has no content yet. You can still choose it so the app is ready when material lands.</div></div>`) : ''}
       ${!isCurrent ? raw(`<button class="btn btn--block mb-4" type="button" data-choose>${icon('check')} Make this my class</button>`) : raw(`<div class="notice mb-4">${icon('check')}<div>This is your class. Subjects below are what Today and Practice use.</div></div>`)}
-      <div class="list">
+      <div class="shelf rise">
         ${stream.subjects.map((s) => {
           const paper = exams?.papers?.find((p) => p.subject === s.id);
           const chapters = s.units?.reduce((n, u) => n + u.chapters.length, 0) || 0;
-          return listItem({
-            href: s.status === 'live' ? routeFor(cls.id, stream.id, s.id) : null,
-            title: s.name,
-            sub: s.status === 'live' ? `${chapters} chapters${paper ? ` · paper ${fmt(paper.date)}` : ''}${s.counts?.notes ? ` · ${s.counts.notes} with notes` : ''}` : 'Coming soon',
-            leading: s.short.slice(0, 2), leadingStyle: s.colour ? `--unit:#${s.colour}` : 'background:var(--surface-2);color:var(--text-2)',
-            trailing: s.status === 'live' ? '' : '<span class="badge badge--soon">Soon</span>',
-            disabled: s.status !== 'live',
-          });
+          const liveS = s.status === 'live';
+          return cover({ ...s, colour: s.colour || '7A8699', metaLeft: liveS ? (s.counts?.notes ? `${s.counts.notes}/${chapters} notes` : `${chapters} chapters`) : '' }, { href: liveS ? routeFor(cls.id, stream.id, s.id) : '#/more/request', sub: paper ? `Paper ${fmt(paper.date)}` : (liveS ? cls.name : 'Soon'), soon: !liveS });
         })}
       </div>
       ${raw(`<p class="t-footnote t-3 mt-4">Syllabus: rationalised CBSE ${esc(stream.subjects.find((s) => s.syllabus_year)?.syllabus_year || '')}. Links to NCERT and CBSE are on each subject page.</p>`)}`,

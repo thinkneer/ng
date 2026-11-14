@@ -60,6 +60,7 @@ async function render(route) {
     result = { title: 'Something went wrong', html: emptyState({ icon: 'alert', title: 'This page could not load', text: navigator.onLine ? e.message : 'You are offline and this page is not saved yet.', action: `<a class="btn btn--secondary" href="#/today">Go to Today</a>` }) };
   }
   if (seq !== renderSeq) return; // a newer navigation started while this one loaded
+  for (const d of $$('#sheets dialog')) { try { d.close(); } catch { /* ignore */ } d.remove(); }
   currentCleanup?.();
   currentCleanup = null;
   // Tab / sidebar

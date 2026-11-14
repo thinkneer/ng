@@ -1,4 +1,4 @@
-import { html, raw, icon, largeTitle, ring, esc, today as todayDate, parseDate, daysBetween, fmtDate, plural } from '../ui.js';
+import { html, raw, icon, largeTitle, ring, esc, cover, today as todayDate, parseDate, daysBetween, fmtDate, plural } from '../ui.js';
 import { data, routeFor } from '../data.js';
 import { store } from '../store.js';
 import { pwa } from '../pwa.js';
@@ -22,6 +22,7 @@ export async function today() {
   const done = mine.reduce((n, sub) => n + data.allChapters(sub).filter((c) => progress.tracker?.[`${sub.id}/${c.id}`]?.R1).length, 0);
   const pct = chapterTotal ? (done / chapterTotal) * 100 : 0;
   const todayStr = fmtDate(t0, { weekday: 'long', day: 'numeric', month: 'long' });
+  const last = store.get('reader.last', null);
 
   return {
     title: 'Today', largeTitle: true, tab: 'today',
@@ -38,6 +39,13 @@ export async function today() {
         </div>
       </a>`) : raw(`<div class="card"><div class="t-headline">No upcoming papers</div><p class="t-2 t-subhead mt-2">Your board papers are done, or no dates are loaded for this class yet.</p></div>`)}
 
+      ${last ? raw(`<div class="section-head"><h2>Continue reading</h2></div>
+      <a class="card continue pressable" href="${routeFor(last.cls, last.stream, last.sub, last.ch, 'read')}" style="--unit:#${last.colour}">
+        ${String(cover({ colour: last.colour, name: last.subject }, { small: true }))}
+        <span class="continue__main"><span class="continue__title truncate" style="display:block">Ch ${last.number} · ${esc(last.title)}</span><span class="continue__sec">${esc(last.subject)} · ${Math.round((last.f || 0) * 100)}% read</span><span class="bar"><span style="width:${Math.round((last.f || 0) * 100)}%"></span></span></span>
+        ${icon('chevronRight', { class: 'chev', size: 20 })}
+      </a>`) : ''}
+
       <div class="section-head"><h2>Your plan</h2><a href="#/plan">Open</a></div>
       <div class="card">
         <div class="row">
@@ -52,14 +60,13 @@ export async function today() {
       ${papers.length > 1 ? raw(`<div class="section-head"><h2>Days left</h2></div><div class="stats">${papers.map((p) => `<div class="stat" style="--unit:#${mine.find((m) => m.id === p.subject)?.colour}"><div class="stat__value tnum" style="color:var(--unit)">${p.days}</div><div class="stat__label">${esc(p.name)} · ${fmtDate(p.date, { day: 'numeric', month: 'short' })}</div></div>`).join('')}</div>`) : ''}
 
       <div class="section-head"><h2>Your subjects</h2><a href="#/subjects">All</a></div>
-      <div class="list">
+      <div class="shelf rise">
         ${mine.map((sub) => {
           const chapters = data.allChapters(sub);
           const withNotes = chapters.filter((c) => c.items?.notes).length;
-          return raw(`<a class="list__item has-leading pressable" href="${routeFor(s.class, s.stream, sub.id)}">
-            <span class="list__leading" style="--unit:#${sub.colour}">${esc(sub.short.slice(0, 2))}</span>
-            <span class="list__body"><span class="list__title">${esc(sub.name)}</span><span class="list__sub">${plural(chapters.length, 'chapter')}${withNotes ? ` · notes for ${withNotes}` : ' · notes coming'}</span></span>
-            <span class="list__trailing">${icon('chevronRight', { class: 'chev' })}</span></a>`);
+          const revised = chapters.filter((c) => progress.tracker?.[`${sub.id}/${c.id}`]?.R1).length;
+          const paper = papers.find((p) => p.subject === sub.id);
+          return cover({ ...sub, metaLeft: withNotes ? `${withNotes}/${chapters.length} notes` : `${chapters.length} chapters` }, { href: routeFor(s.class, s.stream, sub.id), sub: paper ? `${paper.days} days` : 'Class 12', pct: revised ? Math.round((revised / chapters.length) * 100) : null });
         })}
       </div>
       ${pwa.installable && !store.flag('install-dismissed') ? raw(`<div class="card mt-6 install-banner" id="install-card"><div class="row"><span class="list__leading list__leading--soft">${icon('install')}</span><div class="grow"><div class="t-headline">Install ng on this device</div><div class="t-2 t-footnote">Opens full-screen and works offline.</div></div></div><div class="row mt-4"><button class="btn btn--sm" type="button" data-install>Install</button><button class="btn btn--sm btn--ghost" type="button" data-install-later>Not now</button></div></div>`) : ''}
