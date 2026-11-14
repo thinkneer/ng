@@ -58,6 +58,12 @@ No "(to be added as SVG)" placeholders remain in any file.
 - All labelled `PYQ-style` (own wording; none verified against a year). Step marks are estimates of the usual CBSE split and add up (build check). The one new numerical (Ch 1 case, π = 4.93 atm) was computed by script.
 - Stars were assigned by matching each question to the star rating of its question type; estimates.
 
+### Board answers, topper style (started 14 Nov)
+- Six questions per chapter (2 × 2-mark, 2 × 3-mark, one 4-mark case, one 5-mark), ids `chem-tNN-qNN`, `topic: "Board answer, topper style"`, in `questions.json` so they appear in Practice with self-marking.
+- Each model answer opens with **How much to write** (lines or words and minutes), is written the way a full-marks script looks (given, formula, steps, units, boxed answer, marks in brackets) and ends with **Where marks are lost**. Case questions carry the length line in the stem and the mark-loss note in the hint.
+- Own questions on board patterns, labelled `PYQ-style`; no CBSE paper or marking-scheme text. Every numerical computed by script.
+- **Done:** Ch 1, 2, 3. **Next:** Ch 4–5, then Ch 6–7, Ch 8, Ch 9–10.
+
 ## Corrections
 - **14 Nov: picric acid p$K_a$.** The value 0.5 could not be confirmed against the NCERT table (which lists the nitrophenols, phenol, cresols and ethanol), so the number was removed from Ch 7 Must know; the order is kept. `formulas.md` for Ch 7 still shows it: check and remove or confirm.
 - **14 Nov: Ch 2 figure numbers.** The electrolytic cell is Fig 2.2, so the Λm plot became Fig 2.3.
@@ -92,8 +98,9 @@ Still to make, as content once the site has a place for practicals:
 - Recall cards built from titled traps show the mistake as the answer. If the card should show the fix, the trap bodies need a second sentence; say so and the chemistry traps can be extended.
 
 ## What's left, in order
-1. The SVG to-dos above, starting with Ch 6–10 (resonance structures, S$_\text{N}$2, Haworth glucose, DNA).
-2. More practice per chapter, especially numericals for Ch 1–3 and conversions for Ch 6–9 (most chapters have 10–14 questions; Ch 8 has 19).
-3. Practical help (list above).
-4. Past papers solved with verified `PYQ (year)` labels, and full-length timed papers under `papers/` for 17–26 Feb.
-5. The items under "To verify", and the picric acid value in Ch 7 `formulas.md`.
+1. Board answers, topper style, for Ch 4–10 (Ch 1–3 done).
+2. The SVG to-dos above, starting with Ch 6–10 (resonance structures, S$_\text{N}$2, Haworth glucose, DNA).
+3. More practice per chapter, especially numericals for Ch 1–3 and conversions for Ch 6–9 (most chapters have 10–14 questions; Ch 8 has 19).
+4. Practical help (list above).
+5. Past papers solved with verified `PYQ (year)` labels, and full-length timed papers under `papers/` for 17–26 Feb.
+6. The items under "To verify", and the picric acid value in Ch 7 `formulas.md`.

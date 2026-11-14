@@ -335,5 +335,194 @@
     ],
     "hint": "Treat a rusting spot as a small galvanic cell: decide which metal is oxidised by comparing reduction potentials.",
     "source_note": "Added Nov 2026 (from the old case-based angles)"
+  },
+  {
+    "id": "chem-t02-q01",
+    "chapter": "ch-02",
+    "type": "vsa2",
+    "marks": 2,
+    "stars": 3,
+    "label": "PYQ-style",
+    "stem": "Calculate $\\Delta_rG^\\circ$ for the reaction $\\ce{Zn(s) + Cu^2+(aq) -> Zn^2+(aq) + Cu(s)}$, given $E^\\circ_\\text{cell}=1.10$ V. What does its sign tell you? (F = 96500 C mol$^{-1}$)",
+    "model_answer": "**How much to write:** 4–5 lines (about 50 words) · 4 minutes.\n\n$n=2$; $\\Delta_rG^\\circ=-nFE^\\circ_\\text{cell}=-2\\times96500\\times1.10$ **[1]**\n\n$=-212300$ J mol$^{-1}=\\boxed{-212.3\\text{ kJ mol}^{-1}}$. Negative, so the reaction is spontaneous. **[1]**\n\n**Where marks are lost:** n taken as 1; answer in J without \"mol⁻¹\"; not commenting on the sign when asked.",
+    "scheme": [
+      {
+        "step": "$n=2$; $\\Delta_rG^\\circ=-nFE^\\circ_\\text{cell}=-2\\times96500\\times1.10$",
+        "marks": 1
+      },
+      {
+        "step": "$=-212300$ J mol$^{-1}=\\boxed{-212.3\\text{ kJ mol}^{-1}}$. Negative, so the reaction is spontaneous.",
+        "marks": 1
+      }
+    ],
+    "hint": "n is the number of electrons in the balanced cell reaction.",
+    "topic": "Board answer, topper style",
+    "source_note": "Board answers, topper style (Nov 2026)"
+  },
+  {
+    "id": "chem-t02-q02",
+    "chapter": "ch-02",
+    "type": "vsa2",
+    "marks": 2,
+    "stars": 2,
+    "label": "PYQ-style",
+    "stem": "Write the reactions at the cathode and the anode when aqueous NaCl is electrolysed with inert electrodes. Why is sodium not deposited at the cathode?",
+    "model_answer": "**How much to write:** 4–5 lines (about 50 words) · 4 minutes. Two equations, then one reason line with the two potentials.\n\nCathode: $\\ce{2H2O(l) + 2e- -> H2(g) + 2OH-(aq)}$; anode: $\\ce{2Cl-(aq) -> Cl2(g) + 2e-}$ **[1]**\n\n$E^\\circ$ for $\\ce{H2O/H2}$ ($-0.83$ V) is higher than for $\\ce{Na+/Na}$ ($-2.71$ V), so water is reduced in preference to $\\ce{Na+}$. **[1]**\n\n**Where marks are lost:** Writing $\\ce{Na+ + e- -> Na}$ at the cathode; giving the reason without the potentials; unbalanced electrons.",
+    "scheme": [
+      {
+        "step": "Cathode: $\\ce{2H2O(l) + 2e- -> H2(g) + 2OH-(aq)}$; anode: $\\ce{2Cl-(aq) -> Cl2(g) + 2e-}$",
+        "marks": 1
+      },
+      {
+        "step": "$E^\\circ$ for $\\ce{H2O/H2}$ ($-0.83$ V) is higher than for $\\ce{Na+/Na}$ ($-2.71$ V), so water is reduced in preference to $\\ce{Na+}$.",
+        "marks": 1
+      }
+    ],
+    "hint": "Compare the reduction potentials of Na⁺ and water.",
+    "topic": "Board answer, topper style",
+    "source_note": "Board answers, topper style (Nov 2026)"
+  },
+  {
+    "id": "chem-t02-q03",
+    "chapter": "ch-02",
+    "type": "sa3",
+    "marks": 3,
+    "stars": 3,
+    "label": "PYQ-style",
+    "stem": "Calculate the emf at 298 K of the cell $\\ce{Ni(s) | Ni^2+(0.01 M) || Ag+(0.001 M) | Ag(s)}$. Given $E^\\circ_{\\ce{Ni^2+/Ni}}=-0.25$ V and $E^\\circ_{\\ce{Ag+/Ag}}=+0.80$ V.",
+    "model_answer": "**How much to write:** 8–10 lines with every numerical step shown · 6 minutes. Write the cell reaction first: it fixes n and Q.\n\nCell reaction: $\\ce{Ni + 2Ag+ -> Ni^2+ + 2Ag}$, $n=2$; $E^\\circ_\\text{cell}=0.80-(-0.25)=1.05$ V **[1]**\n\n$E_\\text{cell}=E^\\circ_\\text{cell}-\\dfrac{0.059}{2}\\log\\dfrac{[\\ce{Ni^2+}]}{[\\ce{Ag+}]^2}=1.05-0.0295\\log\\dfrac{0.01}{(0.001)^2}$ **[1]**\n\n$=1.05-0.0295\\times4=\\boxed{0.932\\text{ V}}$ **[1]**\n\n**Where marks are lost:** Multiplying E° of silver by 2; forgetting to square [Ag⁺]; writing Q upside down.",
+    "scheme": [
+      {
+        "step": "Cell reaction: $\\ce{Ni + 2Ag+ -> Ni^2+ + 2Ag}$, $n=2$; $E^\\circ_\\text{cell}=0.80-(-0.25)=1.05$ V",
+        "marks": 1
+      },
+      {
+        "step": "$E_\\text{cell}=E^\\circ_\\text{cell}-\\dfrac{0.059}{2}\\log\\dfrac{[\\ce{Ni^2+}]}{[\\ce{Ag+}]^2}=1.05-0.0295\\log\\dfrac{0.01}{(0.001)^2}$",
+        "marks": 1
+      },
+      {
+        "step": "$=1.05-0.0295\\times4=\\boxed{0.932\\text{ V}}$",
+        "marks": 1
+      }
+    ],
+    "hint": "Balance the electrons: two Ag⁺ for one Ni. The coefficient becomes a power in Q, not a multiplier on E°.",
+    "topic": "Board answer, topper style",
+    "source_note": "Board answers, topper style (Nov 2026)"
+  },
+  {
+    "id": "chem-t02-q04",
+    "chapter": "ch-02",
+    "type": "sa3",
+    "marks": 3,
+    "stars": 2,
+    "label": "PYQ-style",
+    "stem": "A current of 2.0 A is passed through copper sulphate solution for 40 minutes. Calculate the mass of copper deposited at the cathode. ($M_\\text{Cu}=63.5$ g mol$^{-1}$, F = 96500 C mol$^{-1}$)",
+    "model_answer": "**How much to write:** 8–10 lines with every numerical step shown · 6 minutes.\n\n$Q=It=2.0\\times(40\\times60)=4800$ C **[1]**\n\n$\\ce{Cu^2+ + 2e- -> Cu}$: 2 F deposit 1 mol Cu. Moles of electrons $=\\dfrac{4800}{96500}=0.0497$; moles of Cu $=0.0249$ **[1]**\n\nMass $=0.0249\\times63.5=\\boxed{1.58\\text{ g}}$ **[1]**\n\n**Where marks are lost:** Time left in minutes; forgetting that Cu²⁺ needs two electrons; no electrode equation.",
+    "scheme": [
+      {
+        "step": "$Q=It=2.0\\times(40\\times60)=4800$ C",
+        "marks": 1
+      },
+      {
+        "step": "$\\ce{Cu^2+ + 2e- -> Cu}$: 2 F deposit 1 mol Cu. Moles of electrons $=\\dfrac{4800}{96500}=0.0497$; moles of Cu $=0.0249$",
+        "marks": 1
+      },
+      {
+        "step": "Mass $=0.0249\\times63.5=\\boxed{1.58\\text{ g}}$",
+        "marks": 1
+      }
+    ],
+    "hint": "Convert minutes to seconds; copper needs two electrons per atom.",
+    "topic": "Board answer, topper style",
+    "source_note": "Board answers, topper style (Nov 2026)"
+  },
+  {
+    "id": "chem-t02-q05",
+    "chapter": "ch-02",
+    "type": "case",
+    "marks": 4,
+    "stars": 2,
+    "label": "PYQ-style",
+    "stem": "*City buses that run on hydrogen carry a fuel cell instead of an engine. Hydrogen and oxygen are fed continuously to porous carbon electrodes dipped in concentrated aqueous sodium hydroxide, and the cell produces electricity, with water as the only product. Fuel cells convert about 70% of the energy of the fuel into electricity.*\n\n*How much to write: one or two lines for each 1-mark part; full working for the 2-mark part · 7–8 minutes.*",
+    "parts": [
+      {
+        "id": "i",
+        "stem": "Write the overall reaction in the fuel cell.",
+        "marks": 1,
+        "model_answer": "$\\ce{2H2(g) + O2(g) -> 2H2O(l)}$ **[1]**",
+        "scheme": [
+          {
+            "step": "$\\ce{2H2(g) + O2(g) -> 2H2O(l)}$",
+            "marks": 1
+          }
+        ]
+      },
+      {
+        "id": "ii",
+        "stem": "Give one reason why a fuel cell is more efficient than a thermal power plant.",
+        "marks": 1,
+        "model_answer": "It converts chemical energy directly into electrical energy, without first making heat, so less energy is wasted (about 70% against about 40%). **[1]**",
+        "scheme": [
+          {
+            "step": "It converts chemical energy directly into electrical energy, without first making heat, so less energy is wasted (about 70% against about 40%).",
+            "marks": 1
+          }
+        ]
+      },
+      {
+        "id": "iii",
+        "stem": "Write the reactions at the anode and the cathode.",
+        "marks": 2,
+        "model_answer": "Anode: $\\ce{2H2(g) + 4OH-(aq) -> 4H2O(l) + 4e-}$ **[1]**\n\nCathode: $\\ce{O2(g) + 2H2O(l) + 4e- -> 4OH-(aq)}$ **[1]**",
+        "scheme": [
+          {
+            "step": "Anode: $\\ce{2H2(g) + 4OH-(aq) -> 4H2O(l) + 4e-}$",
+            "marks": 1
+          },
+          {
+            "step": "Cathode: $\\ce{O2(g) + 2H2O(l) + 4e- -> 4OH-(aq)}$",
+            "marks": 1
+          }
+        ]
+      }
+    ],
+    "hint": "The electrolyte is alkaline, so balance with OH⁻ and water. Where marks are lost: writing the reactions for an acidic electrolyte when the passage says NaOH.",
+    "topic": "Board answer, topper style",
+    "source_note": "Board answers, topper style (Nov 2026)"
+  },
+  {
+    "id": "chem-t02-q06",
+    "chapter": "ch-02",
+    "type": "la5",
+    "marks": 5,
+    "stars": 3,
+    "label": "PYQ-style",
+    "stem": "(a) Define limiting molar conductivity. Sketch and explain how molar conductivity varies with $\\sqrt{c}$ for a strong and a weak electrolyte. [2]<br>(b) The molar conductivity of 0.0025 M ethanoic acid is 32.8 S cm$^2$mol$^{-1}$. Calculate its degree of dissociation and dissociation constant. Given $\\lambda^\\circ_{\\ce{H+}}=349.6$ and $\\lambda^\\circ_{\\ce{CH3COO-}}=40.9$ S cm$^2$mol$^{-1}$. [3]",
+    "model_answer": "**How much to write:** about one page: part (a) in 6–8 lines, part (b) as a full numerical · 10–12 minutes. In (a), a small labelled sketch earns the mark; describe it if you cannot draw.\n\n(a) Limiting molar conductivity $\\Lambda^\\circ_m$ is the molar conductivity when the concentration approaches zero (infinite dilution). **[1]**\n\nSketch: for a strong electrolyte (KCl) $\\Lambda_m$ falls gently and linearly with $\\sqrt c$ and can be extrapolated to read $\\Lambda^\\circ_m$; for a weak electrolyte ($\\ce{CH3COOH}$) $\\Lambda_m$ rises very steeply at low $c$ because $\\alpha$ increases, so it cannot be extrapolated. **[1]**\n\n(b) Kohlrausch's law: $\\Lambda^\\circ_m=\\lambda^\\circ_{\\ce{H+}}+\\lambda^\\circ_{\\ce{CH3COO-}}=349.6+40.9=390.5$ S cm$^2$mol$^{-1}$ **[1]**\n\n$\\alpha=\\dfrac{\\Lambda_m}{\\Lambda^\\circ_m}=\\dfrac{32.8}{390.5}=\\boxed{0.084}$ **[1]**\n\n$K_a=\\dfrac{c\\alpha^2}{1-\\alpha}=\\dfrac{0.0025\\times(0.084)^2}{1-0.084}=\\boxed{1.93\\times10^{-5}}$ **[1]**\n\n**Where marks are lost:** Sketch with unlabelled axes; using $K_a=c\\alpha^2$ without saying it is an approximation; dropping units of Λ.",
+    "scheme": [
+      {
+        "step": "(a) Limiting molar conductivity $\\Lambda^\\circ_m$ is the molar conductivity when the concentration approaches zero (infinite dilution).",
+        "marks": 1
+      },
+      {
+        "step": "Sketch: for a strong electrolyte (KCl) $\\Lambda_m$ falls gently and linearly with $\\sqrt c$ and can be extrapolated to read $\\Lambda^\\circ_m$; for a weak electrolyte ($\\ce{CH3COOH}$) $\\Lambda_m$ rises very steeply at low $c$ because $\\alpha$ increases, so it cannot be extrapolated.",
+        "marks": 1
+      },
+      {
+        "step": "(b) Kohlrausch's law: $\\Lambda^\\circ_m=\\lambda^\\circ_{\\ce{H+}}+\\lambda^\\circ_{\\ce{CH3COO-}}=349.6+40.9=390.5$ S cm$^2$mol$^{-1}$",
+        "marks": 1
+      },
+      {
+        "step": "$\\alpha=\\dfrac{\\Lambda_m}{\\Lambda^\\circ_m}=\\dfrac{32.8}{390.5}=\\boxed{0.084}$",
+        "marks": 1
+      },
+      {
+        "step": "$K_a=\\dfrac{c\\alpha^2}{1-\\alpha}=\\dfrac{0.0025\\times(0.084)^2}{1-0.084}=\\boxed{1.93\\times10^{-5}}$",
+        "marks": 1
+      }
+    ],
+    "hint": "Get Λ°m from Kohlrausch, then α = Λm/Λ°m, then Ka.",
+    "topic": "Board answer, topper style",
+    "source_note": "Board answers, topper style (Nov 2026)"
   }
 ]

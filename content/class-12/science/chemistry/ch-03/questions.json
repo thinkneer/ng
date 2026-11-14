@@ -233,5 +233,194 @@
     "answer": "A",
     "model_answer": "**(a).** The expression contains only $k$, so $t_{1/2}$ is the same whatever $[R]_0$ is.",
     "source_note": "Added Nov 2026 (objective top-up for live quiz)"
+  },
+  {
+    "id": "chem-t03-q01",
+    "chapter": "ch-03",
+    "type": "vsa2",
+    "marks": 2,
+    "stars": 2,
+    "label": "PYQ-style",
+    "stem": "For the reaction $\\ce{A + B -> P}$, rate $=k[\\ce{A}]^{1/2}[\\ce{B}]^2$. What is the overall order? Write the units of $k$.",
+    "model_answer": "**How much to write:** 4–5 lines (about 50 words) · 4 minutes.\n\nOrder $=\\tfrac12+2=\\boxed{2.5}$ **[1]**\n\nUnits of $k$ $=(\\text{mol L}^{-1})^{1-n}\\text{s}^{-1}=\\boxed{\\text{mol}^{-3/2}\\,\\text{L}^{3/2}\\,\\text{s}^{-1}}$ **[1]**\n\n**Where marks are lost:** Taking the order from the balanced equation (1 + 1 = 2); unit written without the general formula, so no part mark if it is wrong.",
+    "scheme": [
+      {
+        "step": "Order $=\\tfrac12+2=\\boxed{2.5}$",
+        "marks": 1
+      },
+      {
+        "step": "Units of $k$ $=(\\text{mol L}^{-1})^{1-n}\\text{s}^{-1}=\\boxed{\\text{mol}^{-3/2}\\,\\text{L}^{3/2}\\,\\text{s}^{-1}}$",
+        "marks": 1
+      }
+    ],
+    "hint": "Add the powers in the rate law; use (mol L⁻¹)¹⁻ⁿ s⁻¹.",
+    "topic": "Board answer, topper style",
+    "source_note": "Board answers, topper style (Nov 2026)"
+  },
+  {
+    "id": "chem-t03-q02",
+    "chapter": "ch-03",
+    "type": "vsa2",
+    "marks": 2,
+    "stars": 3,
+    "label": "PYQ-style",
+    "stem": "What is a pseudo first-order reaction? Give one example and explain why it behaves as first order.",
+    "model_answer": "**How much to write:** 4–5 lines (about 50 words) · 4 minutes. Definition, one equation, one reason line.\n\nA reaction of higher order that behaves as first order because one reactant is present in large excess, so its concentration hardly changes. **[1]**\n\nExample: acid hydrolysis of ethyl ethanoate, $\\ce{CH3COOC2H5 + H2O ->[H+] CH3COOH + C2H5OH}$. Water is in large excess, so rate $=k[\\ce{ester}]$. **[1]**\n\n**Where marks are lost:** Example without the equation or without saying which reactant is in excess.",
+    "scheme": [
+      {
+        "step": "A reaction of higher order that behaves as first order because one reactant is present in large excess, so its concentration hardly changes.",
+        "marks": 1
+      },
+      {
+        "step": "Example: acid hydrolysis of ethyl ethanoate, $\\ce{CH3COOC2H5 + H2O ->[H+] CH3COOH + C2H5OH}$. Water is in large excess, so rate $=k[\\ce{ester}]$.",
+        "marks": 1
+      }
+    ],
+    "hint": "Which reactant in a hydrolysis is present in huge excess?",
+    "topic": "Board answer, topper style",
+    "source_note": "Board answers, topper style (Nov 2026)"
+  },
+  {
+    "id": "chem-t03-q03",
+    "chapter": "ch-03",
+    "type": "sa3",
+    "marks": 3,
+    "stars": 3,
+    "label": "PYQ-style",
+    "stem": "Show that for a first-order reaction the time required for 99.9% completion is about ten times its half-life.",
+    "model_answer": "**How much to write:** 8–10 lines with every numerical step shown · 6 minutes. Start from the integrated equation; show both times as multiples of 1/k.\n\nFor first order: $t=\\dfrac{2.303}{k}\\log\\dfrac{[R]_0}{[R]}$. At 99.9% completion $[R]=0.001[R]_0$. **[1]**\n\n$t_{99.9\\%}=\\dfrac{2.303}{k}\\log1000=\\dfrac{2.303\\times3}{k}=\\dfrac{6.909}{k}$; and $t_{1/2}=\\dfrac{0.693}{k}$ **[1]**\n\n$\\dfrac{t_{99.9\\%}}{t_{1/2}}=\\dfrac{6.909}{0.693}\\approx\\boxed{10}$ **[1]**\n\n**Where marks are lost:** Writing [R] = 0.999[R]₀ (that is 0.1% complete); skipping the log step.",
+    "scheme": [
+      {
+        "step": "For first order: $t=\\dfrac{2.303}{k}\\log\\dfrac{[R]_0}{[R]}$. At 99.9% completion $[R]=0.001[R]_0$.",
+        "marks": 1
+      },
+      {
+        "step": "$t_{99.9\\%}=\\dfrac{2.303}{k}\\log1000=\\dfrac{2.303\\times3}{k}=\\dfrac{6.909}{k}$; and $t_{1/2}=\\dfrac{0.693}{k}$",
+        "marks": 1
+      },
+      {
+        "step": "$\\dfrac{t_{99.9\\%}}{t_{1/2}}=\\dfrac{6.909}{0.693}\\approx\\boxed{10}$",
+        "marks": 1
+      }
+    ],
+    "hint": "99.9% complete means 0.1% left: [R]₀/[R] = 1000.",
+    "topic": "Board answer, topper style",
+    "source_note": "Board answers, topper style (Nov 2026)"
+  },
+  {
+    "id": "chem-t03-q04",
+    "chapter": "ch-03",
+    "type": "sa3",
+    "marks": 3,
+    "stars": 2,
+    "label": "PYQ-style",
+    "stem": "The first-order decomposition $\\ce{SO2Cl2(g) -> SO2(g) + Cl2(g)}$ is followed at constant volume. The initial pressure is 0.50 atm and the total pressure after 100 s is 0.60 atm. Calculate the rate constant.",
+    "model_answer": "**How much to write:** 8–10 lines with every numerical step shown · 6 minutes. Show where 2pᵢ − pₜ comes from in one line.\n\nIf pressure of $\\ce{SO2Cl2}$ falls by $x$: $p_t=p_i+x$, so $x=0.10$ atm and $p_{\\ce{SO2Cl2}}=p_i-x=2p_i-p_t=0.40$ atm **[1]**\n\n$k=\\dfrac{2.303}{t}\\log\\dfrac{p_i}{2p_i-p_t}=\\dfrac{2.303}{100}\\log\\dfrac{0.50}{0.40}$ **[1]**\n\n$=0.02303\\times0.0969=\\boxed{2.23\\times10^{-3}\\text{ s}^{-1}}$ **[1]**\n\n**Where marks are lost:** Using pₜ in place of 2pᵢ − pₜ; leaving out the unit s⁻¹.",
+    "scheme": [
+      {
+        "step": "If pressure of $\\ce{SO2Cl2}$ falls by $x$: $p_t=p_i+x$, so $x=0.10$ atm and $p_{\\ce{SO2Cl2}}=p_i-x=2p_i-p_t=0.40$ atm",
+        "marks": 1
+      },
+      {
+        "step": "$k=\\dfrac{2.303}{t}\\log\\dfrac{p_i}{2p_i-p_t}=\\dfrac{2.303}{100}\\log\\dfrac{0.50}{0.40}$",
+        "marks": 1
+      },
+      {
+        "step": "$=0.02303\\times0.0969=\\boxed{2.23\\times10^{-3}\\text{ s}^{-1}}$",
+        "marks": 1
+      }
+    ],
+    "hint": "Each mole of SO₂Cl₂ that decomposes adds one extra mole of gas.",
+    "topic": "Board answer, topper style",
+    "source_note": "Board answers, topper style (Nov 2026)"
+  },
+  {
+    "id": "chem-t03-q05",
+    "chapter": "ch-03",
+    "type": "case",
+    "marks": 4,
+    "stars": 3,
+    "label": "PYQ-style",
+    "stem": "*Milk turns sour much faster on a warm day than in a refrigerator. Reactions speed up with temperature because a larger fraction of molecules has energy at least equal to the activation energy. For many reactions near room temperature, a rise of 10 K roughly doubles the rate constant. Catalysts, such as the enzymes in living cells, also speed up reactions.*\n\n*How much to write: one or two lines for each 1-mark part; full working for the 2-mark part · 7–8 minutes.*",
+    "parts": [
+      {
+        "id": "i",
+        "stem": "What is activation energy?",
+        "marks": 1,
+        "model_answer": "The extra energy that reactant molecules must absorb to form the activated complex (threshold energy minus average energy of the reactants). **[1]**",
+        "scheme": [
+          {
+            "step": "The extra energy that reactant molecules must absorb to form the activated complex (threshold energy minus average energy of the reactants).",
+            "marks": 1
+          }
+        ]
+      },
+      {
+        "id": "ii",
+        "stem": "How does a catalyst affect the activation energy and the $\\Delta G$ of a reaction?",
+        "marks": 1,
+        "model_answer": "It lowers the activation energy by providing an alternative path; $\\Delta G$ is unchanged. **[1]**",
+        "scheme": [
+          {
+            "step": "It lowers the activation energy by providing an alternative path; $\\Delta G$ is unchanged.",
+            "marks": 1
+          }
+        ]
+      },
+      {
+        "id": "iii",
+        "stem": "The rate constant of a reaction doubles when the temperature rises from 298 K to 308 K. Calculate $E_a$. ($R=8.314$ J K$^{-1}$mol$^{-1}$, $\\log2=0.3010$)",
+        "marks": 2,
+        "model_answer": "$\\log\\dfrac{k_2}{k_1}=\\dfrac{E_a}{2.303R}\\cdot\\dfrac{T_2-T_1}{T_1T_2}$ $\\Rightarrow$ $0.3010=\\dfrac{E_a}{2.303\\times8.314}\\times\\dfrac{10}{298\\times308}$ **[1]**\n\n$E_a=52\\,900$ J mol$^{-1}=\\boxed{52.9\\text{ kJ mol}^{-1}}$ **[1]**",
+        "scheme": [
+          {
+            "step": "$\\log\\dfrac{k_2}{k_1}=\\dfrac{E_a}{2.303R}\\cdot\\dfrac{T_2-T_1}{T_1T_2}$ $\\Rightarrow$ $0.3010=\\dfrac{E_a}{2.303\\times8.314}\\times\\dfrac{10}{298\\times308}$",
+            "marks": 1
+          },
+          {
+            "step": "$E_a=52\\,900$ J mol$^{-1}=\\boxed{52.9\\text{ kJ mol}^{-1}}$",
+            "marks": 1
+          }
+        ]
+      }
+    ],
+    "hint": "Use the two-temperature Arrhenius equation with k₂/k₁ = 2. Where marks are lost: writing that a catalyst \"changes the equilibrium\" or ΔH; T in °C in the Arrhenius equation.",
+    "topic": "Board answer, topper style",
+    "source_note": "Board answers, topper style (Nov 2026)"
+  },
+  {
+    "id": "chem-t03-q06",
+    "chapter": "ch-03",
+    "type": "la5",
+    "marks": 5,
+    "stars": 3,
+    "label": "PYQ-style",
+    "stem": "(a) Derive the integrated rate equation for a first-order reaction. [3]<br>(b) A first-order reaction has $k=2.0\\times10^{-3}$ s$^{-1}$. How long will it take for 8 g of the reactant to be reduced to 2 g? [2]",
+    "model_answer": "**How much to write:** about one page: part (a) in 6–8 lines, part (b) as a full numerical · 10–12 minutes. The derivation needs every step: rate law, separate variables, integrate, find the constant, final form.\n\n(a) For $\\ce{R -> P}$: $-\\dfrac{d[R]}{dt}=k[R]$ $\\Rightarrow$ $\\dfrac{d[R]}{[R]}=-k\\,dt$ **[1]**\n\nIntegrating: $\\ln[R]=-kt+I$. At $t=0$, $[R]=[R]_0$, so $I=\\ln[R]_0$ **[1]**\n\n$\\ln[R]=\\ln[R]_0-kt$ $\\Rightarrow$ $k=\\dfrac{2.303}{t}\\log\\dfrac{[R]_0}{[R]}$ **[1]**\n\n(b) $t=\\dfrac{2.303}{2.0\\times10^{-3}}\\log\\dfrac{8}{2}=1151.5\\times0.602$ **[1]**\n\n$=\\boxed{693\\text{ s}}$ (two half-lives of 346.5 s each) **[1]**\n\n**Where marks are lost:** Skipping the integration constant; using ln without converting to log consistently; no unit on the time.",
+    "scheme": [
+      {
+        "step": "(a) For $\\ce{R -> P}$: $-\\dfrac{d[R]}{dt}=k[R]$ $\\Rightarrow$ $\\dfrac{d[R]}{[R]}=-k\\,dt$",
+        "marks": 1
+      },
+      {
+        "step": "Integrating: $\\ln[R]=-kt+I$. At $t=0$, $[R]=[R]_0$, so $I=\\ln[R]_0$",
+        "marks": 1
+      },
+      {
+        "step": "$\\ln[R]=\\ln[R]_0-kt$ $\\Rightarrow$ $k=\\dfrac{2.303}{t}\\log\\dfrac{[R]_0}{[R]}$",
+        "marks": 1
+      },
+      {
+        "step": "(b) $t=\\dfrac{2.303}{2.0\\times10^{-3}}\\log\\dfrac{8}{2}=1151.5\\times0.602$",
+        "marks": 1
+      },
+      {
+        "step": "$=\\boxed{693\\text{ s}}$ (two half-lives of 346.5 s each)",
+        "marks": 1
+      }
+    ],
+    "hint": "From 8 g to 2 g is two halvings.",
+    "topic": "Board answer, topper style",
+    "source_note": "Board answers, topper style (Nov 2026)"
   }
 ]

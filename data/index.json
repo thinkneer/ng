@@ -784,14 +784,14 @@
                       },
                       "marks_hint": "7 marks (unit weightage, CBSE 2026–27)",
                       "summary": "Concentration · Henry & Raoult · ideal/non-ideal · colligative properties · van't Hoff factor",
-                      "questions": 11,
+                      "questions": 17,
                       "question_types": {
                         "mcq": 4,
                         "ar": 2,
-                        "vsa2": 2,
-                        "sa3": 1,
-                        "la5": 1,
-                        "case": 1
+                        "vsa2": 4,
+                        "sa3": 3,
+                        "la5": 2,
+                        "case": 2
                       },
                       "diagrams": [],
                       "words": 6169,
@@ -820,14 +820,14 @@
                       },
                       "marks_hint": "9 marks (unit weightage, CBSE 2026–27)",
                       "summary": "Galvanic cells · Nernst · conductance · Kohlrausch · electrolysis · batteries & fuel cells · corrosion",
-                      "questions": 13,
+                      "questions": 19,
                       "question_types": {
                         "mcq": 4,
-                        "vsa2": 2,
-                        "sa3": 3,
-                        "la5": 1,
+                        "vsa2": 4,
+                        "sa3": 5,
+                        "la5": 2,
                         "ar": 2,
-                        "case": 1
+                        "case": 2
                       },
                       "diagrams": [],
                       "words": 5829,
@@ -856,13 +856,14 @@
                       },
                       "marks_hint": "7 marks (unit weightage, CBSE 2026–27)",
                       "summary": "Rate · rate law · order & molecularity · integrated equations · half-life · Arrhenius · collision theory",
-                      "questions": 10,
+                      "questions": 16,
                       "question_types": {
                         "mcq": 4,
                         "ar": 2,
-                        "vsa2": 1,
-                        "sa3": 2,
-                        "case": 1
+                        "vsa2": 3,
+                        "sa3": 4,
+                        "case": 2,
+                        "la5": 1
                       },
                       "diagrams": [],
                       "words": 5405,

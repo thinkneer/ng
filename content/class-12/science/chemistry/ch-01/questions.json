@@ -271,5 +271,202 @@
     ],
     "hint": "Osmosis runs from solvent to solution; ask what a pressure bigger than π does to that flow. For the numerical, NaCl gives two ions.",
     "source_note": "Added Nov 2026 (from the old case-based angles)"
+  },
+  {
+    "id": "chem-t01-q01",
+    "chapter": "ch-01",
+    "type": "vsa2",
+    "marks": 2,
+    "stars": 2,
+    "label": "PYQ-style",
+    "stem": "Calculate the mole fraction of ethylene glycol ($\\ce{C2H6O2}$) in a solution that is 25% ethylene glycol by mass.",
+    "model_answer": "**How much to write:** 4–5 lines (about 50 words) · 4 minutes. Write the formula first, then numbers; give the answer to three figures.\n\nTake 100 g of solution: 25 g glycol, 75 g water. $n_\\text{glycol}=\\dfrac{25}{62}=0.403$ mol; $n_\\text{water}=\\dfrac{75}{18}=4.167$ mol **[1]**\n\n$x_\\text{glycol}=\\dfrac{0.403}{0.403+4.167}=\\boxed{0.088}$ (and $x_\\text{water}=0.912$) **[1]**\n\n**Where marks are lost:** Using 100 g of *water* instead of 100 g of solution; forgetting to say \"take 100 g of solution\"; no molar mass shown (62 g mol⁻¹).",
+    "scheme": [
+      {
+        "step": "Take 100 g of solution: 25 g glycol, 75 g water. $n_\\text{glycol}=\\dfrac{25}{62}=0.403$ mol; $n_\\text{water}=\\dfrac{75}{18}=4.167$ mol",
+        "marks": 1
+      },
+      {
+        "step": "$x_\\text{glycol}=\\dfrac{0.403}{0.403+4.167}=\\boxed{0.088}$ (and $x_\\text{water}=0.912$)",
+        "marks": 1
+      }
+    ],
+    "hint": "Assume 100 g of solution. Find moles of each component, then divide.",
+    "topic": "Board answer, topper style",
+    "source_note": "Board answers, topper style (Nov 2026)"
+  },
+  {
+    "id": "chem-t01-q02",
+    "chapter": "ch-01",
+    "type": "vsa2",
+    "marks": 2,
+    "stars": 3,
+    "label": "PYQ-style",
+    "stem": "State Raoult's law for a solution of two volatile liquids. Show that it is a special case of Henry's law.",
+    "model_answer": "**How much to write:** 4–5 lines (about 50 words) · 4 minutes. One sentence of law + one equation; then the comparison in two lines.\n\nThe partial vapour pressure of each volatile component is directly proportional to its mole fraction in the solution: $p_1=x_1p_1^\\circ$, $p_2=x_2p_2^\\circ$. **[1]**\n\nHenry's law is $p=K_Hx$. Raoult's law has the same form with $K_H=p_1^\\circ$; so Raoult's law is Henry's law with the constant equal to the vapour pressure of the pure component. **[1]**\n\n**Where marks are lost:** Stating the law for a non-volatile solute instead of volatile liquids; writing the comparison in words without the two equations side by side.",
+    "scheme": [
+      {
+        "step": "The partial vapour pressure of each volatile component is directly proportional to its mole fraction in the solution: $p_1=x_1p_1^\\circ$, $p_2=x_2p_2^\\circ$.",
+        "marks": 1
+      },
+      {
+        "step": "Henry's law is $p=K_Hx$. Raoult's law has the same form with $K_H=p_1^\\circ$; so Raoult's law is Henry's law with the constant equal to the vapour pressure of the pure component.",
+        "marks": 1
+      }
+    ],
+    "hint": "Write both laws as equations and compare the constants.",
+    "topic": "Board answer, topper style",
+    "source_note": "Board answers, topper style (Nov 2026)"
+  },
+  {
+    "id": "chem-t01-q03",
+    "chapter": "ch-01",
+    "type": "sa3",
+    "marks": 3,
+    "stars": 3,
+    "label": "PYQ-style",
+    "stem": "1.00 g of a non-electrolyte solute dissolved in 50 g of benzene lowers its freezing point by 0.40 K. Calculate the molar mass of the solute. ($K_f$ for benzene = 5.12 K kg mol$^{-1}$)",
+    "model_answer": "**How much to write:** 8–10 lines with every numerical step shown · 6 minutes.\n\nGiven: $w_2=1.00$ g, $w_1=50$ g, $\\Delta T_f=0.40$ K, $K_f=5.12$ K kg mol$^{-1}$. To find: $M_2$. **[½]**\n\n$\\Delta T_f=K_f\\,m=K_f\\times\\dfrac{w_2\\times1000}{M_2\\times w_1}$ $\\Rightarrow$ $M_2=\\dfrac{K_f\\times w_2\\times1000}{\\Delta T_f\\times w_1}$ **[1]**\n\n$M_2=\\dfrac{5.12\\times1.00\\times1000}{0.40\\times50}$ **[1]**\n\n$=\\boxed{256\\text{ g mol}^{-1}}$ **[½]**\n\n**Where marks are lost:** No \"given\" line; missing unit on the answer (half a mark); using 50 g as kilograms without the factor 1000.",
+    "scheme": [
+      {
+        "step": "Given: $w_2=1.00$ g, $w_1=50$ g, $\\Delta T_f=0.40$ K, $K_f=5.12$ K kg mol$^{-1}$. To find: $M_2$.",
+        "marks": 0.5
+      },
+      {
+        "step": "$\\Delta T_f=K_f\\,m=K_f\\times\\dfrac{w_2\\times1000}{M_2\\times w_1}$ $\\Rightarrow$ $M_2=\\dfrac{K_f\\times w_2\\times1000}{\\Delta T_f\\times w_1}$",
+        "marks": 1
+      },
+      {
+        "step": "$M_2=\\dfrac{5.12\\times1.00\\times1000}{0.40\\times50}$",
+        "marks": 1
+      },
+      {
+        "step": "$=\\boxed{256\\text{ g mol}^{-1}}$",
+        "marks": 0.5
+      }
+    ],
+    "hint": "Rearrange ΔTf = Kf·m for the molar mass, keeping the 1000 for grams.",
+    "topic": "Board answer, topper style",
+    "source_note": "Board answers, topper style (Nov 2026)"
+  },
+  {
+    "id": "chem-t01-q04",
+    "chapter": "ch-01",
+    "type": "sa3",
+    "marks": 3,
+    "stars": 2,
+    "label": "PYQ-style",
+    "stem": "The vapour pressure of pure water at 298 K is 23.8 mm Hg. 30 g of urea ($M=60$ g mol$^{-1}$) is dissolved in 846 g of water. Calculate the vapour pressure of water over this solution and its relative lowering.",
+    "model_answer": "**How much to write:** 8–10 lines with every numerical step shown · 6 minutes.\n\n$n_\\text{urea}=\\dfrac{30}{60}=0.50$ mol; $n_\\text{water}=\\dfrac{846}{18}=47.0$ mol **[½]**\n\nRaoult's law: $\\dfrac{p^\\circ-p}{p^\\circ}=x_\\text{urea}=\\dfrac{0.50}{0.50+47.0}=0.0105$ **[1]**\n\nRelative lowering $=\\boxed{0.0105}$ (no unit) **[½]**\n\n$p=p^\\circ(1-x_\\text{urea})=23.8\\times(1-0.0105)=\\boxed{23.55\\text{ mm Hg}}$ **[1]**\n\n**Where marks are lost:** Giving a unit to the relative lowering; using $x_\text{water}$ in place of $x_\text{urea}$; rounding too early (gives 23.5 or 23.6).",
+    "scheme": [
+      {
+        "step": "$n_\\text{urea}=\\dfrac{30}{60}=0.50$ mol; $n_\\text{water}=\\dfrac{846}{18}=47.0$ mol",
+        "marks": 0.5
+      },
+      {
+        "step": "Raoult's law: $\\dfrac{p^\\circ-p}{p^\\circ}=x_\\text{urea}=\\dfrac{0.50}{0.50+47.0}=0.0105$",
+        "marks": 1
+      },
+      {
+        "step": "Relative lowering $=\\boxed{0.0105}$ (no unit)",
+        "marks": 0.5
+      },
+      {
+        "step": "$p=p^\\circ(1-x_\\text{urea})=23.8\\times(1-0.0105)=\\boxed{23.55\\text{ mm Hg}}$",
+        "marks": 1
+      }
+    ],
+    "hint": "Relative lowering of vapour pressure equals the mole fraction of the solute.",
+    "topic": "Board answer, topper style",
+    "source_note": "Board answers, topper style (Nov 2026)"
+  },
+  {
+    "id": "chem-t01-q05",
+    "chapter": "ch-01",
+    "type": "case",
+    "marks": 4,
+    "stars": 3,
+    "label": "PYQ-style",
+    "stem": "*When an electrolyte such as $\\ce{K2SO4}$ dissolves in water it splits into ions, so the solution contains more particles than the formula suggests and its colligative properties are larger than expected. Some solutes behave the other way: ethanoic acid in benzene pairs up into dimers, so fewer particles are present. The van't Hoff factor $i$ measures this.*\n\n*How much to write: one or two lines for each 1-mark part; full working for the 2-mark part · 7–8 minutes.*",
+    "parts": [
+      {
+        "id": "i",
+        "stem": "Define the van't Hoff factor.",
+        "marks": 1,
+        "model_answer": "$i=\\dfrac{\\text{observed colligative property}}{\\text{calculated colligative property}}$ (equivalently, normal molar mass ÷ abnormal molar mass). **[1]**",
+        "scheme": [
+          {
+            "step": "$i=\\dfrac{\\text{observed colligative property}}{\\text{calculated colligative property}}$ (equivalently, normal molar mass ÷ abnormal molar mass).",
+            "marks": 1
+          }
+        ]
+      },
+      {
+        "id": "ii",
+        "stem": "State whether $i$ is greater or less than 1 for (a) $\\ce{K2SO4}$ in water, (b) ethanoic acid in benzene.",
+        "marks": 1,
+        "model_answer": "(a) $i>1$ (dissociation; ideally 3). (b) $i<1$ (association into dimers; ideally ½). **[1]**",
+        "scheme": [
+          {
+            "step": "(a) $i>1$ (dissociation; ideally 3). (b) $i<1$ (association into dimers; ideally ½).",
+            "marks": 1
+          }
+        ]
+      },
+      {
+        "id": "iii",
+        "stem": "Calculate the freezing point of a 0.1 m aqueous solution of $\\ce{K2SO4}$, assuming complete dissociation. ($K_f$ for water = 1.86 K kg mol$^{-1}$)",
+        "marks": 2,
+        "model_answer": "$\\ce{K2SO4 -> 2K+ + SO4^2-}$, so $i=3$; $\\Delta T_f=iK_fm=3\\times1.86\\times0.1=0.558$ K **[1]**\n\nFreezing point $=273.15-0.558=\\boxed{272.59\\text{ K}}$ **[1]**",
+        "scheme": [
+          {
+            "step": "$\\ce{K2SO4 -> 2K+ + SO4^2-}$, so $i=3$; $\\Delta T_f=iK_fm=3\\times1.86\\times0.1=0.558$ K",
+            "marks": 1
+          },
+          {
+            "step": "Freezing point $=273.15-0.558=\\boxed{272.59\\text{ K}}$",
+            "marks": 1
+          }
+        ]
+      }
+    ],
+    "hint": "Count the ions from one formula unit to get i. Where marks are lost: giving ΔTf (0.558 K) when the freezing point is asked; forgetting i = 3.",
+    "topic": "Board answer, topper style",
+    "source_note": "Board answers, topper style (Nov 2026)"
+  },
+  {
+    "id": "chem-t01-q06",
+    "chapter": "ch-01",
+    "type": "la5",
+    "marks": 5,
+    "stars": 3,
+    "label": "PYQ-style",
+    "stem": "(a) What is osmotic pressure? Why is it the preferred colligative property for finding the molar mass of proteins and polymers? Give two reasons. [2]<br>(b) 250 mL of an aqueous solution contains 1.50 g of a protein. Its osmotic pressure at 300 K is $3.00\\times10^{-3}$ bar. Calculate the molar mass of the protein. ($R=0.083$ L bar mol$^{-1}$K$^{-1}$) [3]",
+    "model_answer": "**How much to write:** about one page: part (a) in 6–8 lines, part (b) as a full numerical · 10–12 minutes.\n\n(a) Osmotic pressure is the extra pressure that must be applied to a solution to just stop the flow of solvent into it through a semipermeable membrane. **[1]**\n\nReasons: it is measured at room temperature, so the protein is not denatured; and it gives a measurable value even for very dilute solutions of large molecules, whereas $\\Delta T_b$ and $\\Delta T_f$ would be too small to measure. **[1]**\n\n(b) Given: $w_2=1.50$ g, $V=0.250$ L, $\\pi=3.00\\times10^{-3}$ bar, $T=300$ K. $\\pi=\\dfrac{w_2RT}{M_2V}\\Rightarrow M_2=\\dfrac{w_2RT}{\\pi V}$ **[1]**\n\n$M_2=\\dfrac{1.50\\times0.083\\times300}{3.00\\times10^{-3}\\times0.250}$ **[1]**\n\n$=\\boxed{4.98\\times10^{4}\\text{ g mol}^{-1}}$ **[1]**\n\n**Where marks are lost:** Volume left in mL; one reason only in (a); writing \"proteins are big\" without saying why ΔT would be too small to measure.",
+    "scheme": [
+      {
+        "step": "(a) Osmotic pressure is the extra pressure that must be applied to a solution to just stop the flow of solvent into it through a semipermeable membrane.",
+        "marks": 1
+      },
+      {
+        "step": "Reasons: it is measured at room temperature, so the protein is not denatured; and it gives a measurable value even for very dilute solutions of large molecules, whereas $\\Delta T_b$ and $\\Delta T_f$ would be too small to measure.",
+        "marks": 1
+      },
+      {
+        "step": "(b) Given: $w_2=1.50$ g, $V=0.250$ L, $\\pi=3.00\\times10^{-3}$ bar, $T=300$ K. $\\pi=\\dfrac{w_2RT}{M_2V}\\Rightarrow M_2=\\dfrac{w_2RT}{\\pi V}$",
+        "marks": 1
+      },
+      {
+        "step": "$M_2=\\dfrac{1.50\\times0.083\\times300}{3.00\\times10^{-3}\\times0.250}$",
+        "marks": 1
+      },
+      {
+        "step": "$=\\boxed{4.98\\times10^{4}\\text{ g mol}^{-1}}$",
+        "marks": 1
+      }
+    ],
+    "hint": "Convert 250 mL to litres before substituting into π = (w/M)RT/V.",
+    "topic": "Board answer, topper style",
+    "source_note": "Board answers, topper style (Nov 2026)"
   }
 ]
