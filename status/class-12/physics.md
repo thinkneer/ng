@@ -10,6 +10,9 @@ Boards only. Board paper: **Tue 16 Feb 2027** (first paper of the season). Pract
 
 ## Done
 
+**All 14 chapters are on the site (14 Nov 2026): 134 questions, 50 inline SVG figures.**
+
+
 ### On the site (`content/class-12/science/physics/`)
 | Chapter | notes.md (Read) | mustknow.md | formulas.md | questions.json | SVG figures |
 |---|---|---|---|---|---|
@@ -23,17 +26,24 @@ Boards only. Board paper: **Tue 16 Feb 2027** (first paper of the season). Pract
 | 8 Electromagnetic Waves | ready | ready | ready | 8 | 3 |
 | 9 Ray Optics and Optical Instruments | ready | ready | ready | 10 | 7 |
 | 10 Wave Optics | ready | ready | ready | 9 | 4 |
+| 11 Dual Nature of Radiation and Matter | ready | ready | ready | 9 | 3 |
+| 12 Atoms | ready | ready | ready | 9 | 2 |
+| 13 Nuclei | ready | ready | ready | 8 | 2 |
+| 14 Semiconductor Electronics | ready | ready | ready | 9 | 5 |
 
 - **notes.md**: written fresh as the Read layer (CLAUDE.md §4a): NCERT order, "why" before "what", titled `:::formula` boxes introduced in the text, one worked numerical per concept in `:::skeleton` with step marks, `:::tip` traps where the mistake happens, **In one breath** at the end of every section, inline SVG figures (`currentColor`, unit colour, `#E0B400` highlight). No stars or PYQ tags.
 - **mustknow.md**: the six §4b headings; one fact per line as "**Term:** definition"; every formula box and trap titled (they become Recall cards).
 - **formulas.md**: the chapter's section of the 2026–27 formula sheet (project file `physics-formula-sheet-source.tex`) with every JEE/NEET tag and entrance box dropped.
-- **questions.json**: Ch 4–10 = 8–10 new `PYQ-style` questions each (3 MCQ, 1–2 A–R, 1 case with four 1-mark parts, 2-, 3- and 5-markers; Ch 5 has no 5-marker, as it is qualitative for boards). Ch 1–3 = the 13-question practice sets (5 MCQ, 2 A–R, 1 case with four 1-mark parts, 2 × 2-mark, 2 × 3-mark, 1 × 5-mark), all `PYQ-style` or `NCERT-based`, hints, model answers and step-mark schemes that add up (build check). Every numerical recomputed by script.
+- **questions.json**: Ch 4–14 = 8–10 new `PYQ-style` questions each (3 MCQ, 1–2 A–R, 1 case with four 1-mark parts, 2-, 3- and 5-markers; Ch 5 has no 5-marker, as it is qualitative for boards). Ch 1–3 = the 13-question practice sets (5 MCQ, 2 A–R, 1 case with four 1-mark parts, 2 × 2-mark, 2 × 3-mark, 1 × 5-mark), all `PYQ-style` or `NCERT-based`, hints, model answers and step-mark schemes that add up (build check). Every numerical recomputed by script.
 - **subject.json**: `not_in_syllabus` filled; `links.sample_paper` points at the official 2026–27 SQP.
+- **Read-layer length:** prose runs about 1 050–2 850 words per chapter (plus figures). The short, low-mark chapters (5, 8, 11, 12, 13) sit under 1 500 words of prose; expand them if students ask for more depth.
+- **Figures:** drawn from code (`currentColor`, unit colour, `#E0B400` highlight); optics ray diagrams and the alpha-scattering paths are computed, so they are to scale.
 - **Source note:** the 30-page must-have notes exist only as a PDF that was not available to this chat. The Must-know files follow its structure (repeated questions with stars, must-know lines, formulas, skeletons, 1-mark facts, traps) and are written from board knowledge; stars are estimates.
 
 ## Corrections
 - Charge at a cube corner → flux through the whole cube is $q/8\varepsilon_0$ ($q/24\varepsilon_0$ through each of the 3 far faces). An early formula-sheet version said $q/24\varepsilon_0$ for the whole cube; the site files carry the correct value (Ch 1 notes, must-know trap, formulas).
 
 ## What's next
-1. Units VII–IX: Ch 11–14.
-2. Later: derivation drill (every board derivation as a step skeleton with diagram and step marks) and practicals (2026–27 experiment list, aim, formula, observation table, result, 5 viva questions each).
+1. **Derivation drill** (Must-know/Practice material, not a new layer): every board derivation as a numbered step skeleton with the diagram to draw and where step marks go. Most skeletons already exist in each chapter's `mustknow.md → Answer skeletons`; the drill would collect and complete them (e.g. equatorial dipole field, potential of a dipole, Ampère for a solenoid is qualitative only).
+2. **Practicals** (internal 30 marks; practical window 1 Jan–13 Feb): confirm the 2026–27 experiment and activity list on cbseacademic.nic.in, then aim, formula, observation table, result line and the 5 most-asked viva questions for each.
+3. Polish later: a second round of questions per chapter (target 15+ each, with internal-choice pairs); review stars against recent papers once 2026 paper analyses are checked.

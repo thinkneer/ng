@@ -1,0 +1,230 @@
+[
+  {
+    "id": "phy-11-q01",
+    "chapter": "ch-11",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ-style",
+    "stem": "The work function of a metal is 2.48 eV. Its threshold wavelength is about",
+    "options": [
+      "250 nm",
+      "400 nm",
+      "500 nm",
+      "620 nm"
+    ],
+    "answer": "C",
+    "model_answer": "**(C) 500 nm** $\\lambda_0=\\dfrac{hc}{\\phi_0}=\\dfrac{1240}{2.48}$ nm $=500$ nm.",
+    "topic": "Photoelectric effect"
+  },
+  {
+    "id": "phy-11-q02",
+    "chapter": "ch-11",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 3,
+    "label": "PYQ-style",
+    "stem": "The intensity of light falling on a photosensitive surface is doubled, keeping its frequency the same. The stopping potential",
+    "options": [
+      "doubles",
+      "halves",
+      "stays the same",
+      "becomes four times"
+    ],
+    "answer": "C",
+    "model_answer": "**(C) stays the same** $eV_0=h\\nu-\\phi_0$ depends only on frequency; intensity changes the number of electrons, not their energy.",
+    "topic": "Photoelectric effect"
+  },
+  {
+    "id": "phy-11-q03",
+    "chapter": "ch-11",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 3,
+    "label": "PYQ-style",
+    "stem": "An electron is accelerated from rest through 100 V. Its de Broglie wavelength is about",
+    "options": [
+      "0.0123 nm",
+      "0.123 nm",
+      "1.23 nm",
+      "12.3 nm"
+    ],
+    "answer": "B",
+    "model_answer": "**(B) 0.123 nm** $\\lambda=\\dfrac{1.227}{\\sqrt{100}}$ nm $=0.123$ nm.",
+    "topic": "de Broglie"
+  },
+  {
+    "id": "phy-11-q04",
+    "chapter": "ch-11",
+    "type": "ar",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ-style",
+    "stem": "**Assertion (A):** Photoelectric emission does not occur below the threshold frequency, however intense the light.<br>**Reason (R):** The energy of a photon depends on its frequency, and each photon gives its energy to a single electron.",
+    "options": [
+      "Both A and R are true, and R is the correct explanation of A.",
+      "Both A and R are true, but R is not the correct explanation of A.",
+      "A is true, but R is false.",
+      "Both A and R are false."
+    ],
+    "answer": "A",
+    "model_answer": "**(A)** If $h\\nu<\\phi_0$ no single photon can free an electron; more photons (higher intensity) do not help.",
+    "topic": "Photoelectric effect"
+  },
+  {
+    "id": "phy-11-q05",
+    "chapter": "ch-11",
+    "type": "case",
+    "marks": 4,
+    "stars": 3,
+    "label": "PYQ-style",
+    "stem": "**A light sensor.** A photocell has a cathode of work function 2.0 eV. Light of wavelength 400 nm falls on it, and the photocurrent is measured as the collector potential is varied. Take $hc=1240$ eV nm.",
+    "parts": [
+      {
+        "id": "i",
+        "stem": "The energy of each photon is",
+        "marks": 1,
+        "options": [
+          "1.1 eV",
+          "2.0 eV",
+          "3.1 eV",
+          "4.1 eV"
+        ],
+        "answer": "C",
+        "model_answer": "**(C)** $E=1240/400=3.1$ eV."
+      },
+      {
+        "id": "ii",
+        "stem": "The stopping potential is",
+        "marks": 1,
+        "options": [
+          "1.1 V",
+          "2.0 V",
+          "3.1 V",
+          "5.1 V"
+        ],
+        "answer": "A",
+        "model_answer": "**(A)** $eV_0=3.1-2.0=1.1$ eV, so $V_0=1.1$ V."
+      },
+      {
+        "id": "iii",
+        "stem": "If the light is made three times as intense, the saturation current",
+        "marks": 1,
+        "options": [
+          "stays the same",
+          "becomes three times",
+          "becomes one-third",
+          "becomes nine times"
+        ],
+        "answer": "B",
+        "model_answer": "**(B)** Three times as many photons per second free three times as many electrons."
+      },
+      {
+        "id": "iv",
+        "stem": "If light of 700 nm is used instead, the photocurrent is",
+        "marks": 1,
+        "options": [
+          "larger",
+          "the same",
+          "smaller but not zero",
+          "zero"
+        ],
+        "answer": "D",
+        "model_answer": "**(D)** $E=1240/700=1.77$ eV $<2.0$ eV: below threshold, no emission."
+      }
+    ],
+    "topic": "Photoelectric effect"
+  },
+  {
+    "id": "phy-11-q06",
+    "chapter": "ch-11",
+    "type": "vsa2",
+    "marks": 2,
+    "stars": 3,
+    "label": "PYQ-style",
+    "stem": "Draw a graph of stopping potential against frequency for two metals A and B ($\\phi_A<\\phi_B$). What do the slope and the intercept on the frequency axis represent?",
+    "model_answer": "Two parallel straight lines; A's line starts at a lower threshold frequency than B's. [1]<br>\nSlope $=h/e$ (same for all metals); intercept on the frequency axis $=$ threshold frequency $\\nu_0=\\phi_0/h$. [1]",
+    "scheme": [
+      {
+        "step": "Two parallel straight lines; A's line starts at a lower threshold frequency than B's.",
+        "marks": 1
+      },
+      {
+        "step": "Slope $=h/e$ (same for all metals); intercept on the frequency axis $=$ threshold frequency $\\nu_0=\\phi_0/h$.",
+        "marks": 1
+      }
+    ],
+    "topic": "Photoelectric effect"
+  },
+  {
+    "id": "phy-11-q07",
+    "chapter": "ch-11",
+    "type": "vsa2",
+    "marks": 2,
+    "stars": 2,
+    "label": "PYQ-style",
+    "stem": "An electron and a proton have the same kinetic energy. Find the ratio of their de Broglie wavelengths. ($m_p=1836\\,m_e$)",
+    "model_answer": "$\\lambda=\\dfrac{h}{\\sqrt{2mK}}$, so at equal $K$, $\\dfrac{\\lambda_e}{\\lambda_p}=\\sqrt{\\dfrac{m_p}{m_e}}$ [1]<br>\n$=\\sqrt{1836}\\approx\\boxed{42.8}$ (the electron's wavelength is larger) [1]",
+    "scheme": [
+      {
+        "step": "$\\lambda=\\dfrac{h}{\\sqrt{2mK}}$, so at equal $K$, $\\dfrac{\\lambda_e}{\\lambda_p}=\\sqrt{\\dfrac{m_p}{m_e}}$",
+        "marks": 1
+      },
+      {
+        "step": "$=\\sqrt{1836}\\approx\\boxed{42.8}$ (the electron's wavelength is larger)",
+        "marks": 1
+      }
+    ],
+    "topic": "de Broglie"
+  },
+  {
+    "id": "phy-11-q08",
+    "chapter": "ch-11",
+    "type": "sa3",
+    "marks": 3,
+    "stars": 2,
+    "label": "PYQ-style",
+    "stem": "State three features of the photoelectric effect that cannot be explained by the wave theory of light, and explain each using the photon picture.",
+    "model_answer": "Maximum kinetic energy depends on frequency, not intensity (wave: should grow with intensity). Photon: each electron gets one photon's energy $h\\nu$, so $K_\\text{max}=h\\nu-\\phi_0$. [1]<br>\nThere is a threshold frequency (wave: any frequency should work given enough intensity). Photon: if $h\\nu<\\phi_0$, no single photon can free an electron. [1]<br>\nEmission is instantaneous (wave: energy must accumulate over time). Photon: one photon is absorbed by one electron at once. [1]",
+    "scheme": [
+      {
+        "step": "Maximum kinetic energy depends on frequency, not intensity (wave: should grow with intensity). Photon: each electron gets one photon's energy $h\\nu$, so $K_\\text{max}=h\\nu-\\phi_0$.",
+        "marks": 1
+      },
+      {
+        "step": "There is a threshold frequency (wave: any frequency should work given enough intensity). Photon: if $h\\nu<\\phi_0$, no single photon can free an electron.",
+        "marks": 1
+      },
+      {
+        "step": "Emission is instantaneous (wave: energy must accumulate over time). Photon: one photon is absorbed by one electron at once.",
+        "marks": 1
+      }
+    ],
+    "topic": "Photoelectric effect"
+  },
+  {
+    "id": "phy-11-q09",
+    "chapter": "ch-11",
+    "type": "sa3",
+    "marks": 3,
+    "stars": 2,
+    "label": "PYQ-style",
+    "stem": "A laser of power $2.0\\times10^{-3}$ W emits light of frequency $6.0\\times10^{14}$ Hz. Find (i) the energy of each photon, (ii) the number of photons emitted per second, (iii) the maximum kinetic energy of electrons emitted when the light falls on a metal of work function 2.0 eV.",
+    "model_answer": "(i) $E=h\\nu=6.63\\times10^{-34}\\times6\\times10^{14}=\\boxed{3.98\\times10^{-19}\\text{ J}}$ ($\\approx2.49$ eV) [1]<br>\n(ii) $n=\\dfrac{P}{E}=\\dfrac{2\\times10^{-3}}{3.98\\times10^{-19}}\\approx\\boxed{5.0\\times10^{15}\\text{ s}^{-1}}$ [1]<br>\n(iii) $K_\\text{max}=E-\\phi_0=3.98\\times10^{-19}-3.2\\times10^{-19}=\\boxed{7.8\\times10^{-20}\\text{ J}\\approx0.49\\text{ eV}}$ [1]",
+    "scheme": [
+      {
+        "step": "(i) $E=h\\nu=6.63\\times10^{-34}\\times6\\times10^{14}=\\boxed{3.98\\times10^{-19}\\text{ J}}$ ($\\approx2.49$ eV)",
+        "marks": 1
+      },
+      {
+        "step": "(ii) $n=\\dfrac{P}{E}=\\dfrac{2\\times10^{-3}}{3.98\\times10^{-19}}\\approx\\boxed{5.0\\times10^{15}\\text{ s}^{-1}}$",
+        "marks": 1
+      },
+      {
+        "step": "(iii) $K_\\text{max}=E-\\phi_0=3.98\\times10^{-19}-3.2\\times10^{-19}=\\boxed{7.8\\times10^{-20}\\text{ J}\\approx0.49\\text{ eV}}$",
+        "marks": 1
+      }
+    ],
+    "topic": "Photons"
+  }
+]

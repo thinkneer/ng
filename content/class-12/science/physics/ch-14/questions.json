@@ -1,0 +1,227 @@
+[
+  {
+    "id": "phy-14-q01",
+    "chapter": "ch-14",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 3,
+    "label": "PYQ-style",
+    "stem": "When a p-n junction is reverse biased, the width of its depletion region",
+    "options": [
+      "decreases",
+      "increases",
+      "stays the same",
+      "becomes zero"
+    ],
+    "answer": "B",
+    "model_answer": "**(B) increases** The applied voltage adds to the barrier, pulling carriers away from the junction.",
+    "topic": "p-n junction"
+  },
+  {
+    "id": "phy-14-q02",
+    "chapter": "ch-14",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ-style",
+    "stem": "Silicon doped with indium becomes",
+    "options": [
+      "n-type",
+      "p-type",
+      "intrinsic",
+      "an insulator"
+    ],
+    "answer": "B",
+    "model_answer": "**(B) p-type** Indium is trivalent, an acceptor, so holes become the majority carriers.",
+    "topic": "Doping"
+  },
+  {
+    "id": "phy-14-q03",
+    "chapter": "ch-14",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 3,
+    "label": "PYQ-style",
+    "stem": "The input to a full-wave rectifier is 50 Hz AC. The frequency of the output ripple is",
+    "options": [
+      "25 Hz",
+      "50 Hz",
+      "100 Hz",
+      "200 Hz"
+    ],
+    "answer": "C",
+    "model_answer": "**(C) 100 Hz** Both half-cycles appear at the output, so there are two pulses per input cycle.",
+    "topic": "Rectifier"
+  },
+  {
+    "id": "phy-14-q04",
+    "chapter": "ch-14",
+    "type": "ar",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ-style",
+    "stem": "**Assertion (A):** An n-type semiconductor is electrically neutral.<br>**Reason (R):** Each free electron donated by an impurity atom leaves behind a fixed positive donor ion.",
+    "options": [
+      "Both A and R are true, and R is the correct explanation of A.",
+      "Both A and R are true, but R is not the correct explanation of A.",
+      "A is true, but R is false.",
+      "Both A and R are false."
+    ],
+    "answer": "A",
+    "model_answer": "**(A)** The negative charge of the free electrons is balanced by the positive donor ions, so the crystal as a whole is neutral.",
+    "topic": "Doping"
+  },
+  {
+    "id": "phy-14-q05",
+    "chapter": "ch-14",
+    "type": "ar",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ-style",
+    "stem": "**Assertion (A):** The resistance of a p-n junction diode is low when it is forward biased.<br>**Reason (R):** In forward bias the depletion layer becomes wider.",
+    "options": [
+      "Both A and R are true, and R is the correct explanation of A.",
+      "Both A and R are true, but R is not the correct explanation of A.",
+      "A is true, but R is false.",
+      "Both A and R are false."
+    ],
+    "answer": "C",
+    "model_answer": "**(C)** A is true. R is false: forward bias makes the depletion layer thinner and lowers the barrier.",
+    "topic": "p-n junction"
+  },
+  {
+    "id": "phy-14-q06",
+    "chapter": "ch-14",
+    "type": "case",
+    "marks": 4,
+    "stars": 2,
+    "label": "PYQ-style",
+    "stem": "**Inside a phone charger.** A charger takes 230 V, 50 Hz mains, steps it down with a transformer, and converts it to direct current with diodes. A capacitor across the output smooths the pulses before the voltage reaches the phone.",
+    "parts": [
+      {
+        "id": "i",
+        "stem": "The diode circuit that converts AC into one-way current is called a",
+        "marks": 1,
+        "options": [
+          "amplifier",
+          "rectifier",
+          "oscillator",
+          "transformer"
+        ],
+        "answer": "B",
+        "model_answer": "**(B)**"
+      },
+      {
+        "id": "ii",
+        "stem": "In a half-wave rectifier, the diode conducts during",
+        "marks": 1,
+        "options": [
+          "both half-cycles",
+          "only the half-cycle in which it is forward biased",
+          "only when the input is zero",
+          "neither half-cycle"
+        ],
+        "answer": "B",
+        "model_answer": "**(B)** It conducts only when forward biased."
+      },
+      {
+        "id": "iii",
+        "stem": "If a full-wave rectifier is used, the output frequency is",
+        "marks": 1,
+        "options": [
+          "25 Hz",
+          "50 Hz",
+          "100 Hz",
+          "230 Hz"
+        ],
+        "answer": "C",
+        "model_answer": "**(C)** Twice the input frequency."
+      },
+      {
+        "id": "iv",
+        "stem": "The capacitor across the output acts as a",
+        "marks": 1,
+        "options": [
+          "filter",
+          "rectifier",
+          "transformer",
+          "amplifier"
+        ],
+        "answer": "A",
+        "model_answer": "**(A)** It charges at the peaks and discharges slowly between them, smoothing the output."
+      }
+    ],
+    "topic": "Rectifier"
+  },
+  {
+    "id": "phy-14-q07",
+    "chapter": "ch-14",
+    "type": "vsa2",
+    "marks": 2,
+    "stars": 2,
+    "label": "PYQ-style",
+    "stem": "Draw energy band diagrams of an n-type and a p-type semiconductor at a temperature above 0 K, marking the donor and acceptor levels.",
+    "model_answer": "n-type: donor level $E_D$ just below the conduction band; many electrons in the conduction band, few holes in the valence band. [1]<br>\np-type: acceptor level $E_A$ just above the valence band; many holes in the valence band, few electrons in the conduction band. [1]",
+    "scheme": [
+      {
+        "step": "n-type: donor level $E_D$ just below the conduction band; many electrons in the conduction band, few holes in the valence band.",
+        "marks": 1
+      },
+      {
+        "step": "p-type: acceptor level $E_A$ just above the valence band; many holes in the valence band, few electrons in the conduction band.",
+        "marks": 1
+      }
+    ],
+    "topic": "Energy bands"
+  },
+  {
+    "id": "phy-14-q08",
+    "chapter": "ch-14",
+    "type": "sa3",
+    "marks": 3,
+    "stars": 3,
+    "label": "PYQ-style",
+    "stem": "Explain with a diagram how the depletion region and the barrier potential are formed in a p-n junction.",
+    "model_answer": "Holes diffuse from p to n and electrons from n to p because of the concentration difference; they recombine near the junction. [1]<br>\nThey leave immobile negative acceptor ions on the p side and positive donor ions on the n side: a layer without mobile carriers, the depletion region (diagram). [1]<br>\nThese ions create a field from n to p and a barrier potential (≈ 0.7 V for Si) that opposes further diffusion; equilibrium when drift balances diffusion. [1]",
+    "scheme": [
+      {
+        "step": "Holes diffuse from p to n and electrons from n to p because of the concentration difference; they recombine near the junction.",
+        "marks": 1
+      },
+      {
+        "step": "They leave immobile negative acceptor ions on the p side and positive donor ions on the n side: a layer without mobile carriers, the depletion region (diagram).",
+        "marks": 1
+      },
+      {
+        "step": "These ions create a field from n to p and a barrier potential (≈ 0.7 V for Si) that opposes further diffusion; equilibrium when drift balances diffusion.",
+        "marks": 1
+      }
+    ],
+    "topic": "p-n junction"
+  },
+  {
+    "id": "phy-14-q09",
+    "chapter": "ch-14",
+    "type": "sa3",
+    "marks": 3,
+    "stars": 3,
+    "label": "PYQ-style",
+    "stem": "Draw the circuit of a full-wave rectifier using a centre-tap transformer. Explain its working and draw the input and output waveforms.",
+    "model_answer": "Circuit: centre-tap transformer secondary, diodes D₁ and D₂ from its two ends, their joined ends through the load $R_L$ back to the centre tap. [1]<br>\nFirst half-cycle: D₁ forward biased, D₂ reverse biased; second half-cycle: D₂ conducts, D₁ off. In both, current flows through $R_L$ in the same direction. [1]<br>\nWaveforms: sinusoidal input; output a series of positive half-waves in every half-cycle (frequency twice the input). [1]",
+    "scheme": [
+      {
+        "step": "Circuit: centre-tap transformer secondary, diodes D₁ and D₂ from its two ends, their joined ends through the load $R_L$ back to the centre tap.",
+        "marks": 1
+      },
+      {
+        "step": "First half-cycle: D₁ forward biased, D₂ reverse biased; second half-cycle: D₂ conducts, D₁ off. In both, current flows through $R_L$ in the same direction.",
+        "marks": 1
+      },
+      {
+        "step": "Waveforms: sinusoidal input; output a series of positive half-waves in every half-cycle (frequency twice the input).",
+        "marks": 1
+      }
+    ],
+    "topic": "Rectifier"
+  }
+]

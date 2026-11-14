@@ -1,0 +1,16 @@
+{
+  "$schema": "../../../../../schemas/chapter.schema.json",
+  "id": "ch-11",
+  "number": 11,
+  "title": "Dual Nature of Radiation and Matter",
+  "unit": "VII",
+  "marks_hint": "Unit VII+VIII: 12 marks together (CBSE 2026–27); Ch 11 is usually 4–5 of them (estimate)",
+  "summary": "Photoelectric effect · Einstein's equation · photon picture · matter waves and de Broglie wavelength",
+  "status": {
+    "notes": "ready",
+    "mustknow": "ready",
+    "formulas": "ready",
+    "questions": "ready"
+  },
+  "updated": "2026-11-14"
+}

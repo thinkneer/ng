@@ -603,11 +603,25 @@
                       "number": 11,
                       "title": "Dual Nature of Radiation and Matter",
                       "unit": "VII",
-                      "items": {},
-                      "marks_hint": null,
-                      "summary": null,
-                      "questions": 0,
-                      "question_types": {}
+                      "items": {
+                        "notes": true,
+                        "mustknow": true,
+                        "formulas": true,
+                        "questions": true
+                      },
+                      "marks_hint": "Unit VII+VIII: 12 marks together (CBSE 2026–27); Ch 11 is usually 4–5 of them (estimate)",
+                      "summary": "Photoelectric effect · Einstein's equation · photon picture · matter waves and de Broglie wavelength",
+                      "questions": 9,
+                      "question_types": {
+                        "mcq": 3,
+                        "ar": 1,
+                        "case": 1,
+                        "vsa2": 2,
+                        "sa3": 2
+                      },
+                      "diagrams": [],
+                      "words": 2377,
+                      "read_minutes": 8
                     }
                   ]
                 },
@@ -623,22 +637,51 @@
                       "number": 12,
                       "title": "Atoms",
                       "unit": "VIII",
-                      "items": {},
-                      "marks_hint": null,
-                      "summary": null,
-                      "questions": 0,
-                      "question_types": {}
+                      "items": {
+                        "notes": true,
+                        "mustknow": true,
+                        "formulas": true,
+                        "questions": true
+                      },
+                      "marks_hint": "Unit VII+VIII: 12 marks together (CBSE 2026–27); Ch 12 is usually 3–4 of them (estimate)",
+                      "summary": "Alpha-scattering and the nuclear atom · Bohr model · energy levels · hydrogen spectrum",
+                      "questions": 9,
+                      "question_types": {
+                        "mcq": 3,
+                        "ar": 1,
+                        "case": 1,
+                        "vsa2": 1,
+                        "sa3": 2,
+                        "la5": 1
+                      },
+                      "diagrams": [],
+                      "words": 2329,
+                      "read_minutes": 8
                     },
                     {
                       "id": "ch-13",
                       "number": 13,
                       "title": "Nuclei",
                       "unit": "VIII",
-                      "items": {},
-                      "marks_hint": null,
-                      "summary": null,
-                      "questions": 0,
-                      "question_types": {}
+                      "items": {
+                        "notes": true,
+                        "mustknow": true,
+                        "formulas": true,
+                        "questions": true
+                      },
+                      "marks_hint": "Unit VII+VIII: 12 marks together (CBSE 2026–27); Ch 13 is usually 3–4 of them (estimate)",
+                      "summary": "Size and density of the nucleus · mass–energy · mass defect and binding energy · BE per nucleon curve · nuclear force · fission and fusion",
+                      "questions": 8,
+                      "question_types": {
+                        "mcq": 3,
+                        "ar": 1,
+                        "case": 1,
+                        "vsa2": 1,
+                        "sa3": 2
+                      },
+                      "diagrams": [],
+                      "words": 2198,
+                      "read_minutes": 7
                     }
                   ]
                 },
@@ -654,11 +697,25 @@
                       "number": 14,
                       "title": "Semiconductor Electronics: Materials, Devices and Simple Circuits",
                       "unit": "IX",
-                      "items": {},
-                      "marks_hint": null,
-                      "summary": null,
-                      "questions": 0,
-                      "question_types": {}
+                      "items": {
+                        "notes": true,
+                        "mustknow": true,
+                        "formulas": true,
+                        "questions": true
+                      },
+                      "marks_hint": "Unit IX: 7 marks (CBSE 2026–27)",
+                      "summary": "Energy bands · intrinsic and extrinsic semiconductors · p-n junction · diode in forward and reverse bias · rectifiers",
+                      "questions": 9,
+                      "question_types": {
+                        "mcq": 3,
+                        "ar": 2,
+                        "case": 1,
+                        "vsa2": 1,
+                        "sa3": 2
+                      },
+                      "diagrams": [],
+                      "words": 2941,
+                      "read_minutes": 11
                     }
                   ]
                 }
@@ -692,10 +749,10 @@
               },
               "papers": [],
               "counts": {
-                "notes": 10,
-                "mustknow": 10,
-                "formulas": 10,
-                "questions": 10,
+                "notes": 14,
+                "mustknow": 14,
+                "formulas": 14,
+                "questions": 14,
                 "chapters": 14
               }
             },

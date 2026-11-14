@@ -1,0 +1,16 @@
+{
+  "$schema": "../../../../../schemas/chapter.schema.json",
+  "id": "ch-12",
+  "number": 12,
+  "title": "Atoms",
+  "unit": "VIII",
+  "marks_hint": "Unit VII+VIII: 12 marks together (CBSE 2026–27); Ch 12 is usually 3–4 of them (estimate)",
+  "summary": "Alpha-scattering and the nuclear atom · Bohr model · energy levels · hydrogen spectrum",
+  "status": {
+    "notes": "ready",
+    "mustknow": "ready",
+    "formulas": "ready",
+    "questions": "ready"
+  },
+  "updated": "2026-11-14"
+}

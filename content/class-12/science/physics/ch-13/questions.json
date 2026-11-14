@@ -1,0 +1,209 @@
+[
+  {
+    "id": "phy-13-q01",
+    "chapter": "ch-13",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ-style",
+    "stem": "The ratio of the radii of the nuclei $^{27}_{13}$Al and $^{64}_{30}$Zn is",
+    "options": [
+      "27 : 64",
+      "3 : 4",
+      "9 : 16",
+      "13 : 30"
+    ],
+    "answer": "B",
+    "model_answer": "**(B) 3 : 4** $R\\propto A^{1/3}$: $27^{1/3}:64^{1/3}=3:4$.",
+    "topic": "Nuclear size"
+  },
+  {
+    "id": "phy-13-q02",
+    "chapter": "ch-13",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ-style",
+    "stem": "The ratio of the nuclear densities of lead-208 and oxygen-16 is about",
+    "options": [
+      "13 : 1",
+      "1 : 1",
+      "208 : 16",
+      "2.35 : 1"
+    ],
+    "answer": "B",
+    "model_answer": "**(B) 1 : 1** Nuclear density is independent of mass number.",
+    "topic": "Nuclear size"
+  },
+  {
+    "id": "phy-13-q03",
+    "chapter": "ch-13",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ-style",
+    "stem": "The mass defect of a nucleus is 0.1 u. Its binding energy is about",
+    "options": [
+      "9.3 MeV",
+      "93.15 MeV",
+      "931.5 MeV",
+      "0.93 MeV"
+    ],
+    "answer": "B",
+    "model_answer": "**(B) 93.15 MeV** $E_b=0.1\\times931.5=93.15$ MeV.",
+    "topic": "Binding energy"
+  },
+  {
+    "id": "phy-13-q04",
+    "chapter": "ch-13",
+    "type": "ar",
+    "marks": 1,
+    "stars": 3,
+    "label": "PYQ-style",
+    "stem": "**Assertion (A):** Energy is released when a heavy nucleus such as uranium-235 undergoes fission.<br>**Reason (R):** The binding energy per nucleon of the fission fragments is greater than that of the heavy nucleus.",
+    "options": [
+      "Both A and R are true, and R is the correct explanation of A.",
+      "Both A and R are true, but R is not the correct explanation of A.",
+      "A is true, but R is false.",
+      "Both A and R are false."
+    ],
+    "answer": "A",
+    "model_answer": "**(A)** The fragments are more tightly bound, so total binding energy increases and the difference is released.",
+    "topic": "Fission"
+  },
+  {
+    "id": "phy-13-q05",
+    "chapter": "ch-13",
+    "type": "case",
+    "marks": 4,
+    "stars": 2,
+    "label": "PYQ-style",
+    "stem": "**Why the Sun shines.** In the core of the Sun, at about $10^7$ K, a chain of reactions effectively fuses four hydrogen nuclei into one helium nucleus, releasing about 26.7 MeV each time. Helium-4 has a binding energy of about 7.07 MeV per nucleon.",
+    "parts": [
+      {
+        "id": "i",
+        "stem": "Such high temperatures are needed because",
+        "marks": 1,
+        "options": [
+          "hydrogen must be ionised",
+          "the nuclei must overcome their electrostatic repulsion",
+          "neutrons must be produced",
+          "helium must be vaporised"
+        ],
+        "answer": "B",
+        "model_answer": "**(B)** Only very fast nuclei get close enough for the nuclear force to act."
+      },
+      {
+        "id": "ii",
+        "stem": "The mass converted into energy in each such reaction is about",
+        "marks": 1,
+        "options": [
+          "0.0287 u",
+          "0.287 u",
+          "2.87 u",
+          "0.00287 u"
+        ],
+        "answer": "A",
+        "model_answer": "**(A)** $26.7/931.5\\approx0.0287$ u."
+      },
+      {
+        "id": "iii",
+        "stem": "The total binding energy of a helium-4 nucleus is about",
+        "marks": 1,
+        "options": [
+          "7.07 MeV",
+          "14.1 MeV",
+          "28.3 MeV",
+          "56.6 MeV"
+        ],
+        "answer": "C",
+        "model_answer": "**(C)** $4\\times7.07=28.3$ MeV."
+      },
+      {
+        "id": "iv",
+        "stem": "The most tightly bound nuclei, with the highest binding energy per nucleon, are near",
+        "marks": 1,
+        "options": [
+          "helium-4",
+          "carbon-12",
+          "iron-56",
+          "uranium-238"
+        ],
+        "answer": "C",
+        "model_answer": "**(C)** The curve peaks at about 8.75 MeV near A = 56."
+      }
+    ],
+    "topic": "Fusion"
+  },
+  {
+    "id": "phy-13-q06",
+    "chapter": "ch-13",
+    "type": "vsa2",
+    "marks": 2,
+    "stars": 2,
+    "label": "PYQ-style",
+    "stem": "Show that the density of nuclear matter is the same for all nuclei.",
+    "model_answer": "Mass of a nucleus $\\approx Am$; radius $R=R_0A^{1/3}$, so volume $=\\tfrac43\\pi R_0^3A$. [1]<br>\n$\\rho=\\dfrac{Am}{\\frac43\\pi R_0^3A}=\\dfrac{3m}{4\\pi R_0^3}$: independent of $A$ (about $2.3\\times10^{17}$ kg m⁻³). [1]",
+    "scheme": [
+      {
+        "step": "Mass of a nucleus $\\approx Am$; radius $R=R_0A^{1/3}$, so volume $=\\tfrac43\\pi R_0^3A$.",
+        "marks": 1
+      },
+      {
+        "step": "$\\rho=\\dfrac{Am}{\\frac43\\pi R_0^3A}=\\dfrac{3m}{4\\pi R_0^3}$: independent of $A$ (about $2.3\\times10^{17}$ kg m⁻³).",
+        "marks": 1
+      }
+    ],
+    "topic": "Nuclear size"
+  },
+  {
+    "id": "phy-13-q07",
+    "chapter": "ch-13",
+    "type": "sa3",
+    "marks": 3,
+    "stars": 3,
+    "label": "PYQ-style",
+    "stem": "Find the binding energy and the binding energy per nucleon of $^4_2$He. Mass of He-4 nucleus $=4.001506$ u, $m_p=1.007276$ u, $m_n=1.008665$ u, 1 u $=931.5$ MeV.",
+    "model_answer": "$\\Delta M=2\\times1.007276+2\\times1.008665-4.001506=0.030376$ u [1]<br>\n$E_b=0.030376\\times931.5=\\boxed{28.3\\text{ MeV}}$ [1]<br>\n$E_b/A=28.3/4=\\boxed{7.07\\text{ MeV per nucleon}}$ [1]",
+    "scheme": [
+      {
+        "step": "$\\Delta M=2\\times1.007276+2\\times1.008665-4.001506=0.030376$ u",
+        "marks": 1
+      },
+      {
+        "step": "$E_b=0.030376\\times931.5=\\boxed{28.3\\text{ MeV}}$",
+        "marks": 1
+      },
+      {
+        "step": "$E_b/A=28.3/4=\\boxed{7.07\\text{ MeV per nucleon}}$",
+        "marks": 1
+      }
+    ],
+    "topic": "Binding energy"
+  },
+  {
+    "id": "phy-13-q08",
+    "chapter": "ch-13",
+    "type": "sa3",
+    "marks": 3,
+    "stars": 3,
+    "label": "PYQ-style",
+    "stem": "Draw the graph of binding energy per nucleon against mass number. Use it to explain the release of energy in (i) fission and (ii) fusion.",
+    "model_answer": "Graph: rises steeply for light nuclei, about 8 MeV over $30<A<170$, peak ≈ 8.75 MeV near $A=56$, gently falls to ≈ 7.6 MeV for uranium. [1]<br>\n(i) A heavy nucleus ($A\\approx235$) splits into two medium nuclei with higher BE per nucleon; total binding energy increases and the difference is released. [1]<br>\n(ii) Two light nuclei fuse into one with higher BE per nucleon (towards the peak), again releasing the difference. [1]",
+    "scheme": [
+      {
+        "step": "Graph: rises steeply for light nuclei, about 8 MeV over $30<A<170$, peak ≈ 8.75 MeV near $A=56$, gently falls to ≈ 7.6 MeV for uranium.",
+        "marks": 1
+      },
+      {
+        "step": "(i) A heavy nucleus ($A\\approx235$) splits into two medium nuclei with higher BE per nucleon; total binding energy increases and the difference is released.",
+        "marks": 1
+      },
+      {
+        "step": "(ii) Two light nuclei fuse into one with higher BE per nucleon (towards the peak), again releasing the difference.",
+        "marks": 1
+      }
+    ],
+    "topic": "Binding energy"
+  }
+]

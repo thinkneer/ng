@@ -1,0 +1,242 @@
+[
+  {
+    "id": "phy-12-q01",
+    "chapter": "ch-12",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ-style",
+    "stem": "The ratio of the radii of the second and third Bohr orbits of hydrogen is",
+    "options": [
+      "2 : 3",
+      "4 : 9",
+      "9 : 4",
+      "3 : 2"
+    ],
+    "answer": "B",
+    "model_answer": "**(B) 4 : 9** $r_n\\propto n^2$: $4:9$.",
+    "topic": "Bohr model"
+  },
+  {
+    "id": "phy-12-q02",
+    "chapter": "ch-12",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ-style",
+    "stem": "The energy needed to ionise a hydrogen atom whose electron is in the first excited state (n = 2) is",
+    "options": [
+      "13.6 eV",
+      "10.2 eV",
+      "3.4 eV",
+      "1.51 eV"
+    ],
+    "answer": "C",
+    "model_answer": "**(C) 3.4 eV** $E_2=-13.6/4=-3.4$ eV, so 3.4 eV is needed to take it to zero.",
+    "topic": "Energy levels"
+  },
+  {
+    "id": "phy-12-q03",
+    "chapter": "ch-12",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ-style",
+    "stem": "The Lyman series of hydrogen lies in the",
+    "options": [
+      "infrared region",
+      "visible region",
+      "ultraviolet region",
+      "microwave region"
+    ],
+    "answer": "C",
+    "model_answer": "**(C) ultraviolet region** Jumps to n = 1 release large energies: ultraviolet.",
+    "topic": "Hydrogen spectrum"
+  },
+  {
+    "id": "phy-12-q04",
+    "chapter": "ch-12",
+    "type": "ar",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ-style",
+    "stem": "**Assertion (A):** In the alpha-particle scattering experiment, most alpha particles pass through the gold foil undeflected.<br>**Reason (R):** Most of the space inside an atom is empty.",
+    "options": [
+      "Both A and R are true, and R is the correct explanation of A.",
+      "Both A and R are true, but R is not the correct explanation of A.",
+      "A is true, but R is false.",
+      "Both A and R are false."
+    ],
+    "answer": "A",
+    "model_answer": "**(A)** The nucleus is tiny, so most alpha particles never come close to one and pass straight through.",
+    "topic": "Alpha scattering"
+  },
+  {
+    "id": "phy-12-q05",
+    "chapter": "ch-12",
+    "type": "case",
+    "marks": 4,
+    "stars": 2,
+    "label": "PYQ-style",
+    "stem": "**Inside the atom.** In the Geiger–Marsden experiment, a beam of alpha particles was directed at a thin gold foil, and the number scattered at each angle was counted. A very small fraction were scattered through more than 90°, and a few came almost straight back.",
+    "parts": [
+      {
+        "id": "i",
+        "stem": "The charge on an alpha particle is",
+        "marks": 1,
+        "options": [
+          "+e",
+          "+2e",
+          "−2e",
+          "zero"
+        ],
+        "answer": "B",
+        "model_answer": "**(B)** It is a helium nucleus with two protons."
+      },
+      {
+        "id": "ii",
+        "stem": "If the kinetic energy of the alpha particles were halved, the distance of closest approach would",
+        "marks": 1,
+        "options": [
+          "halve",
+          "stay the same",
+          "double",
+          "become four times"
+        ],
+        "answer": "C",
+        "model_answer": "**(C)** $r_0\\propto1/K$."
+      },
+      {
+        "id": "iii",
+        "stem": "An alpha particle with impact parameter zero is scattered through",
+        "marks": 1,
+        "options": [
+          "0°",
+          "45°",
+          "90°",
+          "180°"
+        ],
+        "answer": "D",
+        "model_answer": "**(D)** It heads straight at the nucleus and returns along its path."
+      },
+      {
+        "id": "iv",
+        "stem": "The few alpha particles scattered back show that",
+        "marks": 1,
+        "options": [
+          "electrons are heavy",
+          "the positive charge is spread through the atom",
+          "the positive charge and mass are concentrated in a tiny nucleus",
+          "atoms are solid spheres"
+        ],
+        "answer": "C",
+        "model_answer": "**(C)** Only a concentrated positive charge can turn an alpha particle back."
+      }
+    ],
+    "topic": "Alpha scattering"
+  },
+  {
+    "id": "phy-12-q06",
+    "chapter": "ch-12",
+    "type": "vsa2",
+    "marks": 2,
+    "stars": 2,
+    "label": "PYQ-style",
+    "stem": "Using de Broglie's hypothesis, explain Bohr's second postulate of quantisation of angular momentum.",
+    "model_answer": "The electron in an orbit is a standing wave; for a stable orbit the circumference must contain a whole number of wavelengths: $2\\pi r_n=n\\lambda$. [1]<br>\nWith $\\lambda=\\dfrac{h}{mv}$: $2\\pi r_n=\\dfrac{nh}{mv}\\Rightarrow\\boxed{mvr_n=\\dfrac{nh}{2\\pi}}$, which is Bohr's condition. [1]",
+    "scheme": [
+      {
+        "step": "The electron in an orbit is a standing wave; for a stable orbit the circumference must contain a whole number of wavelengths: $2\\pi r_n=n\\lambda$.",
+        "marks": 1
+      },
+      {
+        "step": "With $\\lambda=\\dfrac{h}{mv}$: $2\\pi r_n=\\dfrac{nh}{mv}\\Rightarrow\\boxed{mvr_n=\\dfrac{nh}{2\\pi}}$, which is Bohr's condition.",
+        "marks": 1
+      }
+    ],
+    "topic": "Bohr model"
+  },
+  {
+    "id": "phy-12-q07",
+    "chapter": "ch-12",
+    "type": "sa3",
+    "marks": 3,
+    "stars": 3,
+    "label": "PYQ-style",
+    "stem": "Calculate the wavelength of (i) the first line and (ii) the series limit of the Balmer series of hydrogen. In which region of the spectrum do they lie? ($R=1.097\\times10^7$ m⁻¹)",
+    "model_answer": "$\\dfrac1\\lambda=R\\left(\\dfrac1{2^2}-\\dfrac1{n_i^2}\\right)$ [1]<br>\n(i) $n_i=3$: $\\dfrac1\\lambda=R\\cdot\\dfrac{5}{36}\\Rightarrow\\lambda=\\dfrac{36}{5\\times1.097\\times10^7}=\\boxed{656\\text{ nm}}$ [1]<br>\n(ii) $n_i=\\infty$: $\\lambda=\\dfrac{4}{R}=\\boxed{365\\text{ nm}}$. Both in (or at the edge of) the visible region. [1]",
+    "scheme": [
+      {
+        "step": "$\\dfrac1\\lambda=R\\left(\\dfrac1{2^2}-\\dfrac1{n_i^2}\\right)$",
+        "marks": 1
+      },
+      {
+        "step": "(i) $n_i=3$: $\\dfrac1\\lambda=R\\cdot\\dfrac{5}{36}\\Rightarrow\\lambda=\\dfrac{36}{5\\times1.097\\times10^7}=\\boxed{656\\text{ nm}}$",
+        "marks": 1
+      },
+      {
+        "step": "(ii) $n_i=\\infty$: $\\lambda=\\dfrac{4}{R}=\\boxed{365\\text{ nm}}$. Both in (or at the edge of) the visible region.",
+        "marks": 1
+      }
+    ],
+    "topic": "Hydrogen spectrum"
+  },
+  {
+    "id": "phy-12-q08",
+    "chapter": "ch-12",
+    "type": "sa3",
+    "marks": 3,
+    "stars": 2,
+    "label": "PYQ-style",
+    "stem": "The electron of a hydrogen atom is in the orbit $n=3$. Find (i) its total energy, (ii) its kinetic energy, (iii) its potential energy.",
+    "model_answer": "(i) $E_3=-\\dfrac{13.6}{9}=\\boxed{-1.51\\text{ eV}}$ [1]<br>\n(ii) $K=-E=\\boxed{+1.51\\text{ eV}}$ [1]<br>\n(iii) $U=2E=\\boxed{-3.02\\text{ eV}}$ [1]",
+    "scheme": [
+      {
+        "step": "(i) $E_3=-\\dfrac{13.6}{9}=\\boxed{-1.51\\text{ eV}}$",
+        "marks": 1
+      },
+      {
+        "step": "(ii) $K=-E=\\boxed{+1.51\\text{ eV}}$",
+        "marks": 1
+      },
+      {
+        "step": "(iii) $U=2E=\\boxed{-3.02\\text{ eV}}$",
+        "marks": 1
+      }
+    ],
+    "topic": "Bohr model"
+  },
+  {
+    "id": "phy-12-q09",
+    "chapter": "ch-12",
+    "type": "la5",
+    "marks": 5,
+    "stars": 3,
+    "label": "PYQ-style",
+    "stem": "(a) Using Bohr's postulates, derive the expression for the radius of the $n$th orbit of the hydrogen atom, and show that the energy of the electron in it is $E_n=-\\dfrac{13.6}{n^2}$ eV. [3]<br>(b) An electron in a hydrogen atom jumps from $n=4$ to $n=2$. Find the energy and wavelength of the emitted photon, and name the series. [2]",
+    "model_answer": "(a) $\\dfrac{mv^2}{r}=\\dfrac{1}{4\\pi\\varepsilon_0}\\dfrac{e^2}{r^2}$ and $mvr=\\dfrac{nh}{2\\pi}$; eliminating $v$: $r_n=\\dfrac{n^2h^2\\varepsilon_0}{\\pi me^2}$ [1]<br>\n$K=\\tfrac12mv^2=\\dfrac{e^2}{8\\pi\\varepsilon_0r}$, $U=-\\dfrac{e^2}{4\\pi\\varepsilon_0r}$, so $E=-\\dfrac{e^2}{8\\pi\\varepsilon_0r_n}$ [1]<br>\nSubstituting $r_n$: $E_n=-\\dfrac{me^4}{8\\varepsilon_0^2n^2h^2}=\\boxed{-\\dfrac{13.6}{n^2}\\text{ eV}}$ [1]<br>\n(b) $\\Delta E=E_4-E_2=-0.85-(-3.4)=\\boxed{2.55\\text{ eV}}$ [1]<br>\n$\\lambda=\\dfrac{1240}{2.55}\\approx\\boxed{486\\text{ nm}}$: Balmer series (visible, blue-green). [1]",
+    "scheme": [
+      {
+        "step": "(a) $\\dfrac{mv^2}{r}=\\dfrac{1}{4\\pi\\varepsilon_0}\\dfrac{e^2}{r^2}$ and $mvr=\\dfrac{nh}{2\\pi}$; eliminating $v$: $r_n=\\dfrac{n^2h^2\\varepsilon_0}{\\pi me^2}$",
+        "marks": 1
+      },
+      {
+        "step": "$K=\\tfrac12mv^2=\\dfrac{e^2}{8\\pi\\varepsilon_0r}$, $U=-\\dfrac{e^2}{4\\pi\\varepsilon_0r}$, so $E=-\\dfrac{e^2}{8\\pi\\varepsilon_0r_n}$",
+        "marks": 1
+      },
+      {
+        "step": "Substituting $r_n$: $E_n=-\\dfrac{me^4}{8\\varepsilon_0^2n^2h^2}=\\boxed{-\\dfrac{13.6}{n^2}\\text{ eV}}$",
+        "marks": 1
+      },
+      {
+        "step": "(b) $\\Delta E=E_4-E_2=-0.85-(-3.4)=\\boxed{2.55\\text{ eV}}$",
+        "marks": 1
+      },
+      {
+        "step": "$\\lambda=\\dfrac{1240}{2.55}\\approx\\boxed{486\\text{ nm}}$: Balmer series (visible, blue-green).",
+        "marks": 1
+      }
+    ],
+    "topic": "Bohr model"
+  }
+]

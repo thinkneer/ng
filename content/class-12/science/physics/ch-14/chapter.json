@@ -1,0 +1,16 @@
+{
+  "$schema": "../../../../../schemas/chapter.schema.json",
+  "id": "ch-14",
+  "number": 14,
+  "title": "Semiconductor Electronics: Materials, Devices and Simple Circuits",
+  "unit": "IX",
+  "marks_hint": "Unit IX: 7 marks (CBSE 2026–27)",
+  "summary": "Energy bands · intrinsic and extrinsic semiconductors · p-n junction · diode in forward and reverse bias · rectifiers",
+  "status": {
+    "notes": "ready",
+    "mustknow": "ready",
+    "formulas": "ready",
+    "questions": "ready"
+  },
+  "updated": "2026-11-14"
+}
