@@ -72,7 +72,9 @@ No "(to be added as SVG)" placeholders remain in any file.
 | 1 Solutions | 13 cards | figures with parts: ideal solution, deviations, boiling-point elevation, freezing-point depression (new drawing), osmosis (new in Read); 3 draw; 2 graphs (Raoult, make-it-non-ideal); 7 numericals; osmosis steps; compare (positive vs negative deviation); fill (van't Hoff i); 3 mnemonics; 1 explain |
 | 2 Electrochemistry | 12 cards (demo, Site chat) | done by the Site chat as the worked demo |
 | 3 Chemical Kinetics | 12 cards | figures with parts: concentration–time (new drawing), energy profile, energy distribution; ids on the zero-order, first-order and Arrhenius plots; 3 draw; 2 graphs (zero vs first order, Arrhenius); 5 numericals; 2 steps (order from data, effective collision); compare (order vs molecularity); fill (zero vs first order); 2 derive (zero and first order); 3 mnemonics |
-| 4–10 | to do | to do |
+| 4 d- and f-Block | 10 cards | figures with parts: dichromate and permanganate structures (new drawings); draw dichromate; 2 steps (making K₂Cr₂O₇, making KMnO₄); 3 numericals (dichromate–Fe²⁺, permanganate–oxalate, spin-only μ); fill (3d ions and μ); compare (lanthanoids vs actinoids); 3 mnemonics |
+| 5 Coordination Compounds | 11 cards | figures with parts: cis/trans [Pt(NH₃)₂Cl₂], isomers of [CoCl₂(en)₂]⁺ (new drawing), crystal-field splitting; 3 draw; 2 steps (naming, VBT answer); 2 numericals (Werner AgCl, Δt); compare (double salt vs complex); fill (hybridisation and shape); 3 mnemonics (incl. the full spectrochemical series) |
+| 6–10 | to do | to do |
 
 ## Corrections
 - **14 Nov: picric acid p$K_a$.** The value 0.5 could not be confirmed against the NCERT table (which lists the nitrophenols, phenol, cresols and ethanol), so the number was removed from Ch 7 Must know; the order is kept. `formulas.md` for Ch 7 still shows it: check and remove or confirm.
@@ -86,10 +88,8 @@ No "(to be added as SVG)" placeholders remain in any file.
 - Sheet 6 (own solutions to the 2026–27 sample paper, kept in the Claude project, not on the site): six answers tagged CHECK need the paper's figures; three need the official marking scheme.
 
 ## Still to draw (SVG to-dos)
-- Ch 1: Fig 1.4 depression of freezing point; Fig 1.5 osmosis and osmotic pressure.
 - Ch 2: lead storage battery or fuel cell (optional); SHE.
-- Ch 3: Fig 3.1 concentration against time with tangent.
-- Ch 5: Fig 5.2 the three isomers of [CoCl₂(en)₂]⁺; fac/mer; orbital-box (VBT) diagrams, now written as text boxes.
+- Ch 5: fac/mer; orbital-box (VBT) diagrams, now written as text boxes.
 - Ch 6: Fig 6.1 S$_\text{N}$2 backside attack; S$_\text{N}$1 carbocation; enantiomers of butan-2-ol.
 - Ch 7: Fig 7.1 phenoxide resonance. Ch 8: Fig 8.1 carboxylate resonance. Ch 9: Fig 9.1 aniline resonance.
 - Ch 10: Fig 10.1 Haworth structures of glucose; Fig 10.2 α-helix and β-sheet; Fig 10.3 DNA double helix.
@@ -108,7 +108,7 @@ Still to make, as content once the site has a place for practicals:
 - Recall cards built from titled traps show the mistake as the answer. If the card should show the fix, the trap bodies need a second sentence; say so and the chemistry traps can be extended.
 
 ## What's left, in order
-1. Cards and interactive blocks for Ch 4–10 (deadline 1 Dec 2026 for the decks), in commits of 2–3 chapters.
+1. Cards and interactive blocks for Ch 6–10 (deadline 1 Dec 2026 for the decks): Ch 6–7, then Ch 8, then Ch 9–10.
 2. Board answers in answer-script style: convert Ch 2–10 written answers, then new topper sets for Ch 4–10.
 3. The SVG to-dos above, starting with Ch 6–10 (resonance structures, S$_\text{N}$2, Haworth glucose, DNA).
 4. More practice per chapter, especially numericals for Ch 1–3 and conversions for Ch 6–9 (most chapters have 10–14 questions; Ch 8 has 19).

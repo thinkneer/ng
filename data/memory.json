@@ -80,5 +80,64 @@
    ],
    "prompt": "Does a catalyst change ΔG or the equilibrium constant?"
   }
+ ],
+ "chemistry/ch-04": [
+  {
+   "id": "first-row-3d",
+   "title": "The first transition series in order",
+   "trick": "**Sc**hool **Ti**me: **V**ery **Cr**azy **M**o**n**day, **Fe**w **Co**ld **Ni**ghts, **Cu**ddly **Z**ebras",
+   "meaning": [
+    "Sc, Ti, V, Cr, Mn, Fe, Co, Ni, Cu, Zn (atomic numbers 21 to 30)."
+   ],
+   "prompt": "List the 3d series from Sc to Zn."
+  },
+  {
+   "id": "five-and-six",
+   "title": "Electrons taken in acid",
+   "trick": "**Permanganate takes a handful (5), dichromate takes an over (6)**",
+   "meaning": [
+    "$\\ce{MnO4-}$ gains **5** electrons in acid ($\\ce{Mn^7+ -> Mn^2+}$): five fingers of a hand.",
+    "$\\ce{Cr2O7^2-}$ gains **6** electrons ($\\ce{2Cr^6+ -> 2Cr^3+}$): six balls in a cricket over."
+   ],
+   "prompt": "How many electrons do permanganate and dichromate each gain in acid?"
+  },
+  {
+   "id": "four-f-feeble",
+   "title": "Cause of lanthanoid contraction",
+   "trick": "**4f is a feeble shield**",
+   "meaning": [
+    "Each added 4f electron shields the next one poorly from the growing nuclear charge, so radii shrink steadily from La to Lu."
+   ],
+   "prompt": "What causes lanthanoid contraction?"
+  }
+ ],
+ "chemistry/ch-05": [
+  {
+   "id": "naming-order",
+   "title": "Order of a complex name",
+   "trick": "**Lig**ands **A**lphabetically, then **M**etal, then **M**ood in brackets",
+   "meaning": [
+    "Ligands in alphabetical order, then the metal (-ate if anionic), then its oxidation state in Roman numerals."
+   ],
+   "prompt": "In what order are the parts of a complex name written?"
+  },
+  {
+   "id": "cis-sisters",
+   "title": "cis or trans?",
+   "trick": "**cis = sisters sit together; trans = strangers sit across**",
+   "meaning": [
+    "In the cis isomer the two like ligands are neighbours (90°); in trans they are opposite (180°)."
+   ],
+   "prompt": "In a cis isomer, are the like ligands neighbours or opposite?"
+  },
+  {
+   "id": "spectrochemical-series",
+   "title": "Spectrochemical series, weak to strong",
+   "trick": "**I B**ought **S**ome **C**ool **S**ummer **F**rocks; **O**nly **O**ne **W**as **N**ice, **E**ven **N**ow **E**veryone **C**omplains **C**ost",
+   "meaning": [
+    "$\\ce{I-}$ < $\\ce{Br-}$ < $\\ce{SCN-}$ < $\\ce{Cl-}$ < $\\ce{S^2-}$ < $\\ce{F-}$ < $\\ce{OH-}$ < oxalate < $\\ce{H2O}$ < $\\ce{NCS-}$ < edta < $\\ce{NH3}$ < en < $\\ce{CN-}$ < CO"
+   ],
+   "prompt": "Recite the spectrochemical series from the weakest ligand."
+  }
  ]
 }

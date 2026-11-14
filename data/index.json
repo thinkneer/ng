@@ -929,6 +929,7 @@
                         "notes": true,
                         "mustknow": true,
                         "formulas": true,
+                        "cards": true,
                         "questions": true
                       },
                       "marks_hint": "7 marks (unit weightage, CBSE 2026–27)",
@@ -943,8 +944,19 @@
                         "case": 1
                       },
                       "diagrams": [],
+                      "blocks": {
+                        "mnemonic": 3,
+                        "numerical": 3,
+                        "fill": 1,
+                        "steps": 2,
+                        "figure": 2,
+                        "draw": 1,
+                        "compare": 1
+                      },
                       "words": 6414,
-                      "read_minutes": 16
+                      "read_minutes": 16,
+                      "cards": 10,
+                      "mnemonics": 3
                     }
                   ]
                 },
@@ -964,6 +976,7 @@
                         "notes": true,
                         "mustknow": true,
                         "formulas": true,
+                        "cards": true,
                         "questions": true
                       },
                       "marks_hint": "7 marks (unit weightage, CBSE 2026–27)",
@@ -978,8 +991,19 @@
                         "la5": 1
                       },
                       "diagrams": [],
-                      "words": 6243,
-                      "read_minutes": 16
+                      "blocks": {
+                        "numerical": 2,
+                        "compare": 1,
+                        "steps": 2,
+                        "mnemonic": 3,
+                        "figure": 3,
+                        "draw": 3,
+                        "fill": 1
+                      },
+                      "words": 6136,
+                      "read_minutes": 15,
+                      "cards": 11,
+                      "mnemonics": 3
                     }
                   ]
                 },

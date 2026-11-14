@@ -22,6 +22,27 @@ In solution: $\ce{[CrCl(H2O)5]^2+ + 2Cl-}$, that is **3 ions** [1]
 
 This also separates a complex from a **double salt**. Mohr's salt, $\ce{FeSO4.(NH4)2SO4.6H2O}$, breaks up completely into simple ions in water and gives the tests for each. $\ce{K4[Fe(CN)6]}$ does not: the $\ce{[Fe(CN)6]^4-}$ ion stays intact, so the solution gives no test for $\ce{Fe^2+}$ or $\ce{CN-}$.
 
+```ng-numerical
+id: werner-agcl
+title: Werner's experiment with fresh numbers
+question: {{m}} mol of $\ce{[CoCl(NH3)5]Cl2}$ is treated with excess silver nitrate. How many moles of AgCl precipitate?
+var: m | 0.01 | 0.10 | 0.01
+answer: 2*m
+unit: mol
+dp: 2
+step: Only the chlorides **outside** the bracket are ionisable: 2 per formula unit
+step: moles of AgCl $=2\times{{m}}=$ **{{2*m:2}} mol**
+```
+
+```ng-compare
+id: double-salt-vs-complex
+title: Double salt vs complex
+cols: Double salt | Complex
+row: In water | breaks completely into simple ions | the complex ion stays intact
+row: Tests | gives tests for every ion present | the metal and ligands in the bracket do not show their usual tests
+row: Example | Mohr's salt, potash alum | $\ce{K4[Fe(CN)6]}$
+```
+
 **In one breath:** A metal has an ionisable primary valency (oxidation state) and a fixed, directional secondary valency (coordination number); groups inside the square bracket do not ionise.
 
 ## The vocabulary
@@ -83,6 +104,24 @@ Four spelling slips lose the mark: "amine" for ammine (two m's), "chloro" for ch
 
 Going the other way, to write a formula from a name, put the metal first, then the ligands, enclose the whole entity in square brackets and work out the charge to find the counter ions. Tetraamminediaquacobalt(III) chloride is $\ce{[Co(NH3)4(H2O)2]Cl3}$.
 
+```ng-steps
+id: naming-steps
+title: Naming a coordination compound
+step: Name the **cation first**, then the anion (as in any salt).
+step: Inside the complex, name the **ligands in alphabetical order** (ignore di, tri, bis…); anionic ligands end in -o (chlorido, cyanido), $\ce{NH3}$ is ammine, $\ce{H2O}$ aqua.
+step: Give the number of each ligand: di, tri, tetra; bis, tris for names that already contain a number (ethane-1,2-diamine).
+step: Name the **metal**, adding **-ate** if the complex is an anion (ferrate, cobaltate).
+step: Put the metal's **oxidation state** in Roman numerals in brackets, e.g. (III).
+```
+
+```ng-mnemonic
+id: naming-order
+title: Order of a complex name
+trick: **Lig**ands **A**lphabetically, then **M**etal, then **M**ood in brackets
+meaning: Ligands in alphabetical order, then the metal (-ate if anionic), then its oxidation state in Roman numerals.
+prompt: In what order are the parts of a complex name written?
+```
+
 **In one breath:** Cation before anion; inside the complex, ligands alphabetically, then the metal with its oxidation state in Roman numerals; anionic complexes end in -ate.
 
 ## Structural isomerism
@@ -105,13 +144,20 @@ Stereoisomers have the same bonds but a different arrangement in space.
 
 **Geometrical isomerism** arises when two like ligands can be either next to each other (*cis*) or opposite (*trans*). In a square planar complex such as $\ce{[Pt(NH3)2Cl2]}$, the two chlorides can sit at adjacent corners or at opposite corners.
 
-<figure class="fig">
+```ng-figure
+id: cis-trans-platin
+title: cis and trans [Pt(NH₃)₂Cl₂]
+svg:
 <svg viewBox="0 0 320 140" role="img" aria-label="cis and trans isomers of diamminedichloridoplatinum(II)" fill="none" stroke="currentColor" stroke-width="1.5" font-size="11">
 <path d="M74.36,69.36L55.36,50.36"/><path d="M95.64,69.36L114.6,50.36"/><path d="M74.36,90.64L55.36,109.6"/><path d="M95.64,90.64L114.6,109.6"/><path d="M229.4,69.36L210.4,50.36"/><path d="M250.6,69.36L269.6,50.36"/><path d="M229.4,90.64L210.4,109.6"/><path d="M250.6,90.64L269.6,109.6"/>
 <g fill="currentColor" stroke="none"><text x="85" y="20" text-anchor="middle">cis</text><text x="85" y="84" text-anchor="middle" font-size="12">Pt</text><text x="45" y="46" text-anchor="end" style="fill:#E0B400" font-weight="bold">Cl</text><text x="125" y="46">NH<tspan dy="3" font-size="8">3</tspan></text><text x="45" y="122" text-anchor="end" style="fill:#E0B400" font-weight="bold">Cl</text><text x="125" y="122">NH<tspan dy="3" font-size="8">3</tspan></text><text x="240" y="20" text-anchor="middle">trans</text><text x="240" y="84" text-anchor="middle" font-size="12">Pt</text><text x="200" y="46" text-anchor="end" style="fill:#E0B400" font-weight="bold">Cl</text><text x="280" y="46">NH<tspan dy="3" font-size="8">3</tspan></text><text x="200" y="122" text-anchor="end">H<tspan dy="3" font-size="8">3</tspan><tspan dy="-3">N</tspan></text><text x="280" y="122" style="fill:#E0B400" font-weight="bold">Cl</text></g>
 </svg>
-<figcaption>Figure 5.1 Square planar [Pt(NH₃)₂Cl₂]: in the cis isomer the two Cl are neighbours (90° apart); in the trans isomer they are opposite (180° apart).</figcaption>
-</figure>
+caption: Figure 5.1 Square planar [Pt(NH₃)₂Cl₂]: in the cis isomer the two Cl are neighbours (90° apart); in the trans isomer they are opposite (180° apart).
+part: 66, 61 | cis: Cl neighbours | 90° apart. cis-platin is used against cancer.
+part: 85, 102 | Pt(II), square planar | $dsp^2$ hybridised, diamagnetic.
+part: 259, 99 | trans: Cl opposite | 180° apart.
+part: 259, 61 | NH₃ | A neutral unidentate ligand.
+```
 
 Octahedral complexes of the type $\ce{[MX2L4]}$, such as $\ce{[Co(NH3)4Cl2]+}$, show the same cis–trans pair. Those of the type $\ce{[MX3L3]}$, such as $\ce{[Co(NH3)3(NO2)3]}$, have a **facial (fac)** isomer, with the three like ligands on one triangular face, and a **meridional (mer)** isomer, with them in a line around the middle. Tetrahedral complexes cannot show geometrical isomerism at all, because in a tetrahedron every position is next to every other.
 
@@ -119,11 +165,46 @@ Octahedral complexes of the type $\ce{[MX2L4]}$, such as $\ce{[Co(NH3)4Cl2]+}$, 
 
 The complex $\ce{[CoCl2(en)2]+}$ brings both ideas together. Its trans form has a plane of symmetry, so its mirror image is identical and it is optically inactive. Its cis form has no such plane and exists as a *d*, *l* pair. Three stereoisomers in all.
 
-**Figure 5.2 (isomers of $\ce{[CoCl2(en)2]+}$):** three octahedra. Trans: the two Cl at the top and bottom, the two en rings in the square plane. Cis-*d* and cis-*l*: the two Cl on adjacent corners, drawn as mirror images of each other with a dashed mirror line between them.
+```ng-figure
+id: coen-isomers
+title: Isomers of [CoCl₂(en)₂]⁺
+svg:
+<svg viewBox="0 0 362 200" role="img" aria-label="Geometrical and optical isomers of dichloridobis(ethane-1,2-diamine)cobalt(III) ion" fill="none" stroke="currentColor" stroke-width="1.5" font-size="11">
+<circle cx="68" cy="96" r="3" fill="currentColor"/><path d="M68,96 L68.0,52.8" stroke-width="1.2"/><path d="M68,96 L68.0,139.2" stroke-width="1.2"/><path d="M68,96 L32.8,96.0" stroke-width="1.2"/><path d="M68,96 L103.2,96.0" stroke-width="1.2"/><path d="M68,96 L50.4,116.8" stroke-width="1.2"/><path d="M68,96 L85.6,76.8" stroke-dasharray="3 2" stroke-width="1"/><path d="M24.0,96.0 Q14.5,117.1 46.0,122.0" class="u" stroke-width="2"/><path d="M112.0,96.0 Q121.7,76.5 90.0,72.0" class="u" stroke-width="2"/><circle cx="180" cy="96" r="3" fill="currentColor"/><path d="M180,96 L180.0,52.8" stroke-width="1.2"/><path d="M180,96 L180.0,139.2" stroke-width="1.2"/><path d="M180,96 L144.8,96.0" stroke-width="1.2"/><path d="M180,96 L215.2,96.0" stroke-width="1.2"/><path d="M180,96 L162.4,116.8" stroke-width="1.2"/><path d="M180,96 L197.6,76.8" stroke-dasharray="3 2" stroke-width="1"/><path d="M136.0,96.0 Q126.5,117.1 158.0,122.0" class="u" stroke-width="2"/><path d="M202.0,72.0 Q204.0,128.7 180.0,150.0" class="u" stroke-width="2"/><circle cx="296" cy="96" r="3" fill="currentColor"/><path d="M296,96 L296.0,52.8" stroke-width="1.2"/><path d="M296,96 L296.0,139.2" stroke-width="1.2"/><path d="M296,96 L260.8,96.0" stroke-width="1.2"/><path d="M296,96 L331.2,96.0" stroke-width="1.2"/><path d="M296,96 L278.4,116.8" stroke-width="1.2"/><path d="M296,96 L313.6,76.8" stroke-dasharray="3 2" stroke-width="1"/><path d="M340.0,96.0 Q349.7,76.5 318.0,72.0" class="u" stroke-width="2"/><path d="M274.0,122.0 Q279.2,157.2 296.0,150.0" class="u" stroke-width="2"/><path d="M238,30 V178" stroke-dasharray="5 4" stroke-width="1"/>
+<g fill="currentColor" stroke="none"><text x="68" y="16" text-anchor="middle" font-size="11">trans</text><text x="68.0" y="40.0" text-anchor="middle" font-weight="700" style="fill:#E0B400">Cl</text><text x="68.0" y="160.0" text-anchor="middle" font-weight="700" style="fill:#E0B400">Cl</text><text x="16.39" y="120.3" text-anchor="middle" font-size="9">en</text><text x="119.8" y="81.17" text-anchor="middle" font-size="9">en</text><text x="62" y="90" text-anchor="end" font-size="9">Co</text><text x="180" y="16" text-anchor="middle" font-size="11">cis (d)</text><text x="180.0" y="40.0" text-anchor="middle" font-weight="700" style="fill:#E0B400">Cl</text><text x="230.0" y="100.0" text-anchor="middle" font-weight="700" style="fill:#E0B400">Cl</text><text x="128.4" y="120.3" text-anchor="middle" font-size="9">en</text><text x="202.8" y="131.1" text-anchor="middle" font-size="9">en</text><text x="174" y="90" text-anchor="end" font-size="9">Co</text><text x="296" y="16" text-anchor="middle" font-size="11">cis (l)</text><text x="296.0" y="40.0" text-anchor="middle" font-weight="700" style="fill:#E0B400">Cl</text><text x="246.0" y="100.0" text-anchor="middle" font-weight="700" style="fill:#E0B400">Cl</text><text x="347.8" y="81.17" text-anchor="middle" font-size="9">en</text><text x="279.7" y="159.3" text-anchor="middle" font-size="9">en</text><text x="290" y="90" text-anchor="end" font-size="9">Co</text><text x="238" y="192" text-anchor="middle" font-size="9">mirror</text></g>
+</svg>
+caption: Figure 5.2 Trans has a mirror plane, so it is optically inactive; the cis form exists as two non-superimposable mirror images.
+part: 68, 70 | trans: Cl opposite | 180° apart; the molecule has a plane of symmetry, so it is not chiral.
+part: 180, 70 | cis: Cl adjacent | 90° apart; no plane of symmetry.
+part: 238, 165 | Mirror | cis-d and cis-l are mirror images that cannot be superimposed: optical isomers.
+part: 136, 114 | en (bidentate) | Each ethane-1,2-diamine spans two neighbouring corners.
+```
 
 :::tip
 In an exam, draw the octahedron and place the ligands; a name alone rarely earns full marks. And say *why* the trans form is inactive: it has a plane of symmetry.
 :::
+
+```ng-draw
+id: draw-cis-trans
+title: Draw the cis and trans isomers of [Pt(NH₃)₂Cl₂]
+svg: ref: notes#cis-trans-platin
+time: 2
+```
+
+```ng-draw
+id: draw-coen-isomers
+title: Draw the three isomers of [CoCl₂(en)₂]⁺
+svg: ref: notes#coen-isomers
+time: 4
+```
+
+```ng-mnemonic
+id: cis-sisters
+title: cis or trans?
+trick: **cis = sisters sit together; trans = strangers sit across**
+meaning: In the cis isomer the two like ligands are neighbours (90°); in trans they are opposite (180°).
+prompt: In a cis isomer, are the like ligands neighbours or opposite?
+```
 
 **In one breath:** Geometrical isomers are cis/trans (or fac/mer) arrangements, impossible in tetrahedral complexes; optical isomers are non-superimposable mirror images, common with didentate ligands in octahedral complexes.
 
@@ -159,6 +240,26 @@ One unpaired electron: **paramagnetic**, $\mu=\sqrt{1(1+2)}=1.73$ BM [½]
 
 VBT works, but it has limits. It rests on assumptions, it does not explain colour, it gives no numbers for magnetic data or stability, it cannot predict whether a four-coordinate complex will be tetrahedral or square planar, and it has no way of telling a weak ligand from a strong one in advance.
 
+```ng-steps
+id: vbt-answer-steps
+title: Answering a VBT question in five steps
+step: Find the **oxidation state** of the metal and its d configuration.
+step: Decide whether the ligand is **strong field** (pairs electrons: $\ce{CN-}$, CO, $\ce{NH3}$ with $\ce{Co^3+}$) or weak field ($\ce{F-}$, $\ce{Cl-}$, $\ce{H2O}$).
+step: Draw the boxes: 3d, 4s, 4p (and 4d), placing the metal electrons and then the ligand pairs.
+step: Read off the **hybridisation and shape**: $d^2sp^3$ inner orbital or $sp^3d^2$ outer orbital (octahedral), $dsp^2$ square planar, $sp^3$ tetrahedral.
+step: State the **magnetic** character: count unpaired electrons, $\mu=\sqrt{n(n+2)}$.
+```
+
+```ng-fill
+id: hybridisation-table
+title: Hybridisation and shape
+cols: Example | Hybridisation | Shape
+row: $\ce{[NiCl4]^2-}$ | $sp^3$ | [[tetrahedral]]
+row: $\ce{[Ni(CN)4]^2-}$ | [[$dsp^2$]] | square planar
+row: $\ce{[Co(NH3)6]^3+}$ | [[$d^2sp^3$, inner orbital]] | octahedral
+row: $\ce{[CoF6]^3-}$ | [[$sp^3d^2$, outer orbital]] | octahedral
+```
+
 **In one breath:** In VBT the metal hybridises empty orbitals to accept ligand pairs. Strong ligands pair the d electrons (inner-orbital, low spin, $d^2sp^3$ or $dsp^2$); weak ones do not (outer-orbital, high spin, $sp^3d^2$ or $sp^3$).
 
 ## Bonding II: crystal field theory
@@ -167,13 +268,22 @@ Crystal field theory (CFT) tackles what VBT could not, especially strong versus 
 
 In a free ion the five d orbitals have equal energy. Now bring six ligands in along the x, y and z axes to make an octahedron. Two of the d orbitals, $d_{x^2-y^2}$ and $d_{z^2}$, point straight at the ligands, and electrons in them are repelled strongly, so their energy rises. The other three, $d_{xy}$, $d_{yz}$ and $d_{xz}$, point between the axes and are repelled less. The d level splits in two: an upper pair called $e_g$ and a lower trio called $t_{2g}$. The gap between them is the **crystal field splitting**, $\Delta_o$.
 
-<figure class="fig">
+```ng-figure
+id: crystal-field-splitting
+title: Crystal-field splitting
+svg:
 <svg viewBox="0 0 350 152" role="img" aria-label="Crystal field splitting of d orbitals in octahedral and tetrahedral fields" fill="none" stroke="currentColor" stroke-width="1.5" font-size="11">
 <path d="M8,100L16,100" stroke-width="2"/><path d="M19,100L27,100" stroke-width="2"/><path d="M30,100L38,100" stroke-width="2"/><path d="M41,100L49,100" stroke-width="2"/><path d="M52,100L60,100" stroke-width="2"/><path d="M100,58L111,58" stroke-width="2"/><path d="M116,58L127,58" stroke-width="2"/><path d="M92,128L103,128" stroke-width="2"/><path d="M108,128L119,128" stroke-width="2"/><path d="M124,128L135,128" stroke-width="2"/><path d="M64,100L98,58" stroke-dasharray="4 3" stroke-width="1"/><path d="M64,100L90,128" stroke-dasharray="4 3" stroke-width="1"/><path d="M92,100L150,100" stroke-dasharray="4 3" stroke-width="1"/><path d="M155,59L155,127" stroke-width="1"/><path d="M152.5,122.7L155,127L157.5,122.7" stroke-width="1"/><path d="M157.5,63.3L155,59L152.5,63.3" stroke-width="1"/><path d="M182,100L190,100" stroke-width="2"/><path d="M193,100L201,100" stroke-width="2"/><path d="M204,100L212,100" stroke-width="2"/><path d="M215,100L223,100" stroke-width="2"/><path d="M226,100L234,100" stroke-width="2"/><path d="M266,84L277,84" stroke-width="2"/><path d="M282,84L293,84" stroke-width="2"/><path d="M298,84L309,84" stroke-width="2"/><path d="M274,124L285,124" stroke-width="2"/><path d="M290,124L301,124" stroke-width="2"/><path d="M238,100L264,84" stroke-dasharray="4 3" stroke-width="1"/><path d="M238,100L272,124" stroke-dasharray="4 3" stroke-width="1"/><path d="M266,100L322,100" stroke-dasharray="4 3" stroke-width="1"/><path d="M327,85L327,123" stroke-width="1"/><path d="M324.5,118.7L327,123L329.5,118.7" stroke-width="1"/><path d="M329.5,89.3L327,85L324.5,89.3" stroke-width="1"/>
 <g fill="currentColor" stroke="none"><text x="85" y="14" text-anchor="middle">Octahedral</text><text x="34" y="116" text-anchor="middle" font-size="9">d orbitals</text><text x="113" y="50" text-anchor="middle">e<tspan dy="3" font-size="8">g</tspan></text><text x="113" y="144" text-anchor="middle">t<tspan dy="3" font-size="8">2g</tspan></text><text x="159" y="97">Δ<tspan dy="3" font-size="8">o</tspan></text><text x="124" y="84" text-anchor="middle" font-size="8">+0.6 Δ<tspan dy="3" font-size="8">o</tspan></text><text x="124" y="117" text-anchor="middle" font-size="8">−0.4 Δ<tspan dy="3" font-size="8">o</tspan></text><text x="255" y="14" text-anchor="middle">Tetrahedral</text><text x="208" y="116" text-anchor="middle" font-size="9">d orbitals</text><text x="287" y="76" text-anchor="middle">t<tspan dy="3" font-size="8">2</tspan></text><text x="287" y="140" text-anchor="middle">e</text><text x="331" y="108">Δ<tspan dy="3" font-size="8">t</tspan></text></g>
 </svg>
-<figcaption>Figure 5.3 Octahedral field: eg raised by 0.6 Δo, t2g lowered by 0.4 Δo. Tetrahedral field: the order is inverted and the gap is smaller, Δt = 4/9 Δo.</figcaption>
-</figure>
+caption: Figure 5.3 Octahedral field: eg raised by 0.6 Δo, t2g lowered by 0.4 Δo. Tetrahedral field: the order is inverted and the gap is smaller, Δt = 4/9 Δo.
+part: 34, 86 | Free-ion d orbitals | All five have the same energy before the ligands approach.
+part: 113, 68 | $e_g$ | Point at the ligands, so they are raised by $0.6\Delta_o$.
+part: 113, 118 | $t_{2g}$ | Point between the ligands, lowered by $0.4\Delta_o$.
+part: 155, 93 | $\Delta_o$ | The octahedral splitting energy.
+part: 287, 94 | $t_2$ (tetrahedral) | The order is inverted in a tetrahedral field.
+part: 327, 104 | $\Delta_t$ | Smaller: $\Delta_t=\tfrac49\Delta_o$, so tetrahedral complexes are high spin.
+```
 
 How big $\Delta_o$ is depends on the ligand. Arranging ligands in order of the splitting they cause gives the **spectrochemical series**.
 
@@ -201,6 +311,33 @@ $\ce{H2O}$ is weak-field ($\Delta_o<P$): $t_{2g}^3\,e_g^2$, **5 unpaired** elect
 
 $\ce{CN-}$ is strong-field ($\Delta_o>P$): $t_{2g}^5\,e_g^0$, **1 unpaired** electron (low spin) [¾]
 :::
+
+```ng-draw
+id: draw-cfs
+title: Draw the splitting of d orbitals in an octahedral field
+svg: ref: notes#crystal-field-splitting
+time: 3
+```
+
+```ng-numerical
+id: delta-t
+title: Tetrahedral splitting, fresh numbers
+question: For a metal ion and a ligand, $\Delta_o={{d}}$ kJ mol⁻¹. Estimate $\Delta_t$ for the same metal and ligand in a tetrahedral complex.
+var: d | 90 | 360 | 18
+answer: 4/9*d
+unit: kJ mol⁻¹
+dp: 0
+step: $\Delta_t=\tfrac49\Delta_o$
+step: $\Delta_t=\tfrac49\times{{d}}=$ **{{4/9*d:0}} kJ mol⁻¹**: too small to force pairing, so tetrahedral complexes are high spin
+```
+
+```ng-mnemonic
+id: spectrochemical-series
+title: Spectrochemical series, weak to strong
+trick: **I B**ought **S**ome **C**ool **S**ummer **F**rocks; **O**nly **O**ne **W**as **N**ice, **E**ven **N**ow **E**veryone **C**omplains **C**ost
+meaning: $\ce{I-}$ < $\ce{Br-}$ < $\ce{SCN-}$ < $\ce{Cl-}$ < $\ce{S^2-}$ < $\ce{F-}$ < $\ce{OH-}$ < oxalate < $\ce{H2O}$ < $\ce{NCS-}$ < edta < $\ce{NH3}$ < en < $\ce{CN-}$ < CO
+prompt: Recite the spectrochemical series from the weakest ligand.
+```
 
 **In one breath:** Six ligands split the d orbitals into lower $t_{2g}$ and upper $e_g$, a gap $\Delta_o$ apart. Strong-field ligands make $\Delta_o$ exceed the pairing energy and give low-spin complexes; weak-field ligands give high-spin ones.
 

@@ -1,0 +1,140 @@
+[
+  {
+    "id": "cis-trans-platin",
+    "kind": "figure",
+    "title": "cis and trans [Pt(NH₃)₂Cl₂]",
+    "svg": "ref: notes#cis-trans-platin",
+    "back": "Square planar $\\ce{MA2B2}$: cis (Cl 90° apart, anticancer cis-platin) and trans (180°).",
+    "stars": 3,
+    "tags": [
+      "diagram",
+      "2-mark"
+    ]
+  },
+  {
+    "id": "coen-isomers",
+    "kind": "figure",
+    "title": "Isomers of [CoCl₂(en)₂]⁺",
+    "svg": "ref: notes#coen-isomers",
+    "back": "Three isomers: trans (optically inactive) and a cis pair, d and l, that are optical isomers.",
+    "stars": 3,
+    "tags": [
+      "diagram",
+      "3-mark"
+    ]
+  },
+  {
+    "id": "crystal-field-splitting",
+    "kind": "figure",
+    "title": "Crystal-field splitting",
+    "svg": "ref: notes#crystal-field-splitting",
+    "back": "Octahedral: $e_g$ up $0.6\\Delta_o$, $t_{2g}$ down $0.4\\Delta_o$. Tetrahedral: inverted and smaller, $\\Delta_t=\\tfrac49\\Delta_o$.",
+    "stars": 3,
+    "tags": [
+      "diagram",
+      "3-mark"
+    ]
+  },
+  {
+    "id": "oxidation-number",
+    "kind": "formula",
+    "title": "Oxidation number of the metal",
+    "tex": "x+\\sum(\\text{ligand charges})=\\text{charge on complex}",
+    "legend": [
+      "neutral ligands = NH₃, H₂O, CO, en count 0"
+    ],
+    "back": "$\\ce{K3[Fe(CN)6]}$: $x-6=-3$, so Fe is +3. Ni in $\\ce{[Ni(CO)4]}$ is 0.",
+    "stars": 2,
+    "tags": [
+      "formula"
+    ]
+  },
+  {
+    "id": "coordination-number",
+    "kind": "formula",
+    "title": "Coordination number",
+    "tex": "\\text{CN}=\\text{number of donor atoms bonded to M}",
+    "legend": [
+      "en, oxalate = 2 each",
+      "EDTA = 6"
+    ],
+    "back": "Count donor atoms, not ligands: $\\ce{[Co(en)3]^3+}$ has CN 6.",
+    "stars": 2,
+    "tags": [
+      "formula",
+      "1-mark"
+    ]
+  },
+  {
+    "id": "cfse",
+    "kind": "formula",
+    "title": "Crystal field stabilisation energy",
+    "tex": "\\text{CFSE}=(-0.4\\,n_{t_{2g}}+0.6\\,n_{e_g})\\Delta_o",
+    "legend": [
+      "n = electrons in each set"
+    ],
+    "back": "Low spin when $\\Delta_o>P$ (strong field); high spin when $\\Delta_o<P$.",
+    "stars": 1,
+    "tags": [
+      "formula"
+    ]
+  },
+  {
+    "id": "werner-agcl",
+    "kind": "formula",
+    "title": "Werner: ions and AgCl",
+    "tex": "\\ce{[Co(NH3)6]Cl3}\\to 4\\ \\text{ions},\\ 3\\,\\ce{AgCl}",
+    "legend": [
+      "ionisable Cl = Cl outside the bracket"
+    ],
+    "back": "$\\ce{[CoCl(NH3)5]Cl2}$: 3 ions, 2 AgCl. $\\ce{[CoCl2(NH3)4]Cl}$: 2 ions, 1 AgCl.",
+    "stars": 3,
+    "tags": [
+      "formula",
+      "2-mark"
+    ]
+  },
+  {
+    "id": "hybridisation-table",
+    "kind": "compare",
+    "title": "Hybridisation and shape",
+    "tex": "sp^3\\ \\text{tetra}\\quad dsp^2\\ \\text{sq. planar}\\quad d^2sp^3,\\ sp^3d^2\\ \\text{octa}",
+    "back": "$\\ce{[Ni(CN)4]^2-}$ $dsp^2$, diamagnetic; $\\ce{[NiCl4]^2-}$ $sp^3$, paramagnetic; $\\ce{[Co(NH3)6]^3+}$ inner; $\\ce{[CoF6]^3-}$ outer.",
+    "stars": 3,
+    "tags": [
+      "compare"
+    ]
+  },
+  {
+    "id": "double-salt-vs-complex",
+    "kind": "compare",
+    "title": "Double salt vs complex",
+    "tex": "\\text{Mohr's salt}\\quad\\text{vs}\\quad\\ce{K4[Fe(CN)6]}",
+    "back": "A double salt gives all its ions in water; a complex ion stays intact.",
+    "stars": 2,
+    "tags": [
+      "compare"
+    ]
+  },
+  {
+    "id": "spectrochemical-series",
+    "kind": "mnemonic",
+    "title": "Spectrochemical series",
+    "tex": "\\ce{I-}<\\ce{Cl-}<\\ce{F-}<\\ce{H2O}<\\ce{NH3}<\\text{en}<\\ce{CN-}<\\text{CO}",
+    "back": "\"I Bought Some Cool Summer Frocks; Only One Was Nice, Even Now Everyone Complains Cost.\"",
+    "stars": 2,
+    "tags": [
+      "mnemonic"
+    ]
+  },
+  {
+    "id": "cis-sisters",
+    "kind": "mnemonic",
+    "title": "cis sisters, trans strangers",
+    "tex": "\\text{cis}=90^\\circ\\qquad\\text{trans}=180^\\circ",
+    "back": "cis: like ligands sit together; trans: they sit across.",
+    "tags": [
+      "mnemonic"
+    ]
+  }
+]

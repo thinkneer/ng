@@ -14,6 +14,14 @@ A **transition element** is defined as one that has an incompletely filled d sub
 When a transition metal forms an ion, the **4s electrons leave first**, then 3d. So $\ce{Fe^2+}$ is $3d^6$ (not $3d^4\,4s^2$) and $\ce{Fe^3+}$ is $3d^5$.
 :::
 
+```ng-mnemonic
+id: first-row-3d
+title: The first transition series in order
+trick: **Sc**hool **Ti**me: **V**ery **Cr**azy **M**o**n**day, **Fe**w **Co**ld **Ni**ghts, **Cu**ddly **Z**ebras
+meaning: Sc, Ti, V, Cr, Mn, Fe, Co, Ni, Cu, Zn (atomic numbers 21 to 30).
+prompt: List the 3d series from Sc to Zn.
+```
+
 **In one breath:** d-block elements fill the inner d subshell; a transition element has a partly filled d subshell in the atom or a common ion, so Zn, Cd and Hg do not qualify. Cr and Cu take one 4s electron for a half-filled or full d subshell.
 
 ## Hard, high-melting metals
@@ -96,6 +104,30 @@ It follows that ions with no d electrons or a full set cannot do this. $\ce{Sc^3
 Permanganate (purple) and dichromate (orange) are $d^0$, so their colour is *not* from d–d transitions. It comes from charge transfer between oxygen and the metal. Do not quote them as examples of d–d colour.
 :::
 
+```ng-numerical
+id: spin-only
+title: Spin-only magnetic moment
+question: An ion has {{n}} unpaired electrons. Calculate its spin-only magnetic moment.
+var: n | 1 | 5 | 1
+answer: sqrt(n*(n+2))
+unit: BM
+dp: 2
+step: $\mu=\sqrt{n(n+2)}$ BM with $n={{n}}$
+step: $\mu=\sqrt{ {{n}}\times{{n+2}} }=\sqrt{ {{n*(n+2)}} }=$ **{{sqrt(n*(n+2)):2}} BM**
+```
+
+```ng-fill
+id: ion-moments
+title: Configurations and magnetic moments of 3d ions
+cols: Ion | Configuration | $\mu$ (BM)
+row: $\ce{Sc^3+}$ | $3d^0$ | [[0, colourless]]
+row: $\ce{Ti^3+}$ | $3d^1$ | [[1.73]]
+row: $\ce{Cr^3+}$ | [[$3d^3$]] | 3.87
+row: $\ce{Mn^2+}$ | $3d^5$ | [[5.92]]
+row: $\ce{Fe^2+}$ | [[$3d^6$]] | 4.90
+row: $\ce{Cu+}$ | $3d^{10}$ | [[0, colourless]]
+```
+
 **In one breath:** Unpaired d electrons make an ion paramagnetic, with $\mu=\sqrt{n(n+2)}$; a partly filled d subshell allows d–d transitions and colour, so $d^0$ and $d^{10}$ ions are colourless and diamagnetic.
 
 ## Complexes, catalysts, interstitial compounds and alloys
@@ -137,6 +169,50 @@ With iodide: $\ce{Cr2O7^2- + 14H+ + 6I- -> 2Cr^3+ + 3I2 + 7H2O}$
 :::
 
 It also oxidises tin(II) to tin(IV) and hydrogen sulphide to sulphur. Because it can be obtained very pure, it is used as a primary standard in volumetric analysis.
+
+```ng-steps
+id: make-dichromate
+title: Making potassium dichromate from chromite ore
+step: **Fuse** chromite ore with sodium carbonate in air: $\ce{4FeCr2O4 + 8Na2CO3 + 7O2 -> 8Na2CrO4 + 2Fe2O3 + 8CO2}$ (yellow sodium chromate).
+step: **Acidify** with sulphuric acid: $\ce{2Na2CrO4 + 2H+ -> Na2Cr2O7 + 2Na+ + H2O}$ (orange sodium dichromate).
+step: **Add KCl:** $\ce{Na2Cr2O7 + 2KCl -> K2Cr2O7 + 2NaCl}$; the less soluble potassium dichromate crystallises out.
+```
+
+```ng-figure
+id: dichromate-structure
+title: Structure of the dichromate ion
+svg:
+<svg viewBox="0 0 320 190" role="img" aria-label="Structure of the dichromate ion" fill="none" stroke="currentColor" stroke-width="1.5" font-size="11">
+<path d="M91.9,87.6 L68.4,73.6 M89.6,91.4 L66.1,77.4"/><path d="M90.4,102.3 L70.3,124.7 M93.7,105.3 L73.6,127.7"/><path d="M99.6,106.3 L104.1,134.3 M103.9,105.7 L108.4,133.7"/><path d="M230.4,91.4 L253.9,77.4 M228.1,87.6 L251.6,73.6"/><path d="M226.3,105.3 L246.4,127.7 M229.6,102.3 L249.7,124.7"/><path d="M216.1,105.7 L211.6,133.7 M220.4,106.3 L215.9,134.3"/><path d="M115.0,86.75 L146.8,69.25999999999999" stroke="#E0B400" stroke-width="2.5"/><path d="M205.0,86.75 L173.2,69.25999999999999" stroke="#E0B400" stroke-width="2.5"/><path d="M146,74 Q160,84 174,74" stroke-width="1"/><path d="M20,30 V165 M20,30 H28 M20,165 H28 M300,30 V165 M300,30 H292 M300,165 H292" stroke-width="1"/>
+<g fill="currentColor" stroke="none"><text x="58" y="74" text-anchor="middle" font-size="11">O</text><text x="64" y="139" text-anchor="middle" font-size="11">O</text><text x="108" y="149" text-anchor="middle" font-size="11">O</text><text x="100" y="99" text-anchor="middle" font-size="11">Cr</text><text x="262" y="74" text-anchor="middle" font-size="11">O</text><text x="256" y="139" text-anchor="middle" font-size="11">O</text><text x="212" y="149" text-anchor="middle" font-size="11">O</text><text x="220" y="99" text-anchor="middle" font-size="11">Cr</text><text x="160" y="66" text-anchor="middle" font-size="11">O</text><text x="160" y="98" text-anchor="middle" font-size="10">126°</text><text x="306" y="34" font-size="11">2−</text><text x="160" y="182" text-anchor="middle" font-size="10">two CrO₄ tetrahedra sharing one O</text></g>
+</svg>
+caption: Two tetrahedra share one oxygen; the Cr–O–Cr angle is about 126°.
+part: 100, 95 | Chromium (+6) | Each Cr sits at the centre of a tetrahedron of four O atoms.
+part: 160, 62 | Bridging oxygen | Shared by the two tetrahedra.
+part: 160, 92 | Cr–O–Cr angle | About 126°.
+part: 58, 70 | Terminal oxygen | Six terminal Cr–O bonds, all equal in length.
+```
+
+```ng-draw
+id: draw-dichromate
+title: Draw the structure of the dichromate ion
+svg: ref: notes#dichromate-structure
+time: 2
+```
+
+```ng-numerical
+id: dichromate-fe
+title: Dichromate titration with fresh numbers
+question: How many mL of {{c}} M $\ce{K2Cr2O7}$ are needed to oxidise {{n}} mmol of $\ce{Fe^2+}$ in acid solution?
+var: c | 0.01 | 0.05 | 0.01
+var: n | 1.2 | 6.0 | 0.6
+answer: n/(6*c)
+unit: mL
+dp: 1
+step: $\ce{Cr2O7^2- + 6Fe^2+ + 14H+ -> 2Cr^3+ + 6Fe^3+ + 7H2O}$: 1 mol dichromate for 6 mol $\ce{Fe^2+}$
+step: mmol of dichromate $=\dfrac{ {{n}} }{6}={{n/6:3}}$
+step: $V=\dfrac{\text{mmol}}{c}=\dfrac{ {{n/6:3}} }{ {{c}} }=$ **{{n/(6*c):1}} mL**
+```
 
 **In one breath:** Chromite → chromate → dichromate → potassium salt; chromate (yellow) and dichromate (orange) interconvert with pH; in acid $\ce{Cr2O7^2-}$ takes six electrons and becomes $\ce{2Cr^3+}$.
 
@@ -192,6 +268,51 @@ Moles of $\ce{Fe^2+}=5\times5.0\times10^{-4}=$ **$2.5\times10^{-3}$ mol** [½]
 Permanganate titrations are acidified with dilute **sulphuric** acid, never hydrochloric: permanganate would oxidise the chloride to chlorine and spoil the result.
 :::
 
+```ng-steps
+id: make-permanganate
+title: Making potassium permanganate from pyrolusite
+step: **Fuse** $\ce{MnO2}$ with KOH in air (or with $\ce{KNO3}$): $\ce{2MnO2 + 4KOH + O2 -> 2K2MnO4 + 2H2O}$ (green potassium manganate).
+step: **Disproportionate** the manganate in neutral or acid solution: $\ce{3MnO4^2- + 4H+ -> 2MnO4- + MnO2 + 2H2O}$ (purple permanganate).
+step: **Industry** does the second step by electrolytic oxidation: $\ce{MnO4^2- -> MnO4- + e-}$.
+```
+
+```ng-figure
+id: permanganate-structure
+title: Structure of the permanganate ion
+svg:
+<svg viewBox="0 0 320 190" role="img" aria-label="Structure of the permanganate ion" fill="none" stroke="currentColor" stroke-width="1.5" font-size="11">
+<path d="M162.2,79.2 L162.2,44.6 M157.8,79.2 L157.8,44.6"/><path d="M142.8,101.3 L107.0,119.4 M144.7,105.2 L109.0,123.4"/><path d="M175.3,105.2 L211.0,123.4 M177.2,101.3 L213.0,119.4"/><path d="M163.75,108.75 L172.0,139.0" stroke-dasharray="3 2"/><path d="M60,20 V165 M60,20 H68 M60,165 H68 M260,20 V165 M260,20 H252 M260,165 H252" stroke-width="1"/>
+<g fill="currentColor" stroke="none"><text x="160" y="36" text-anchor="middle" font-size="11">O</text><text x="95" y="132" text-anchor="middle" font-size="11">O</text><text x="225" y="132" text-anchor="middle" font-size="11">O</text><text x="175" y="154" text-anchor="middle" font-size="11">O⁻</text><text x="160" y="99" text-anchor="middle" font-size="11">Mn</text><text x="160" y="182" text-anchor="middle" font-size="10">tetrahedral; Mn in +7 state</text><text x="266" y="24" font-size="12">−</text></g>
+</svg>
+caption: Tetrahedral, with Mn in the +7 state; manganate has the same shape.
+part: 160, 95 | Manganese (+7) | At the centre of the tetrahedron; $d^0$, so the colour comes from charge transfer.
+part: 160, 32 | Mn=O bond | Three π-bonded oxygens and one O⁻ share the charge.
+part: 175, 150 | O⁻ | Carries the single negative charge.
+```
+
+```ng-numerical
+id: permanganate-oxalate
+title: Permanganate and oxalic acid, fresh numbers
+question: {{V}} mL of {{c}} M $\ce{KMnO4}$ exactly oxidises the oxalic acid in a flask (acid medium). How many millimoles of oxalic acid were present?
+var: V | 10 | 25 | 0.5
+var: c | 0.01 | 0.04 | 0.005
+answer: 2.5*V*c
+unit: mmol
+dp: 3
+step: $\ce{2MnO4- + 5C2O4^2- + 16H+ -> 2Mn^2+ + 10CO2 + 8H2O}$
+step: mmol $\ce{MnO4-}$ $={{V}}\times{{c}}={{V*c:4}}$
+step: mmol oxalate $=\dfrac52\times{{V*c:4}}=$ **{{2.5*V*c:3}} mmol**
+```
+
+```ng-mnemonic
+id: five-and-six
+title: Electrons taken in acid
+trick: **Permanganate takes a handful (5), dichromate takes an over (6)**
+meaning: $\ce{MnO4-}$ gains **5** electrons in acid ($\ce{Mn^7+ -> Mn^2+}$): five fingers of a hand.
+meaning: $\ce{Cr2O7^2-}$ gains **6** electrons ($\ce{2Cr^6+ -> 2Cr^3+}$): six balls in a cricket over.
+prompt: How many electrons do permanganate and dichromate each gain in acid?
+```
+
 **In one breath:** Pyrolusite → green manganate → purple permanganate. $\ce{MnO4-}$ takes 5 electrons in acid (to $\ce{Mn^2+}$) and 3 in neutral solution (to $\ce{MnO2}$); build every equation by balancing electrons.
 
 ## The lanthanoids
@@ -206,6 +327,14 @@ It has three consequences. The elements that follow, in the 5d row, are much sma
 
 The metals are silvery and reactive: they burn in oxygen to give $\ce{Ln2O3}$, release hydrogen from dilute acids, and combine with carbon and hydrogen on heating. Their main use is in alloy steels. **Mischmetall**, about 95% lanthanoid metal and 5% iron with traces of S, C, Ca and Al, is alloyed with magnesium for bullets, shells and lighter flints.
 
+```ng-mnemonic
+id: four-f-feeble
+title: Cause of lanthanoid contraction
+trick: **4f is a feeble shield**
+meaning: Each added 4f electron shields the next one poorly from the growing nuclear charge, so radii shrink steadily from La to Lu.
+prompt: What causes lanthanoid contraction?
+```
+
 **In one breath:** Lanthanoids fill 4f, are mostly +3 and very similar. Poor shielding by 4f electrons shrinks them steadily (lanthanoid contraction), making 4d and 5d metals the same size and the hydroxides less basic.
 
 ## The actinoids, and how they differ
@@ -217,5 +346,17 @@ Their chemistry is more varied than that of the lanthanoids. The 5f, 6d and 7s l
 The comparison comes down to the orbitals. 4f electrons are buried; 5f electrons extend further out and can take part in bonding. So actinoids show more oxidation states, form complexes and oxo-cations such as $\ce{UO2^2+}$ more readily, and have more complicated magnetic behaviour. Among the lanthanoids only promethium is radioactive; among the actinoids all are.
 
 Finally, a few applications of d- and f-block elements you should be able to name: iron and steel in construction; $\ce{TiO2}$ as a white pigment; $\ce{MnO2}$ in dry cells; zinc and nickel–cadmium in batteries; copper, silver and gold as coinage metals; $\ce{TiCl4}$ with $\ce{Al(CH3)3}$ (the Ziegler catalyst) for polythene; $\ce{PdCl2}$ in the Wacker process for ethanal; and silver bromide in photography.
+
+```ng-compare
+id: lanthanoids-vs-actinoids
+title: Lanthanoids vs actinoids
+cols: Lanthanoids | Actinoids
+row: Orbitals filling | 4f | 5f
+row: Oxidation states | mainly +3 | +3 and many others (up to +7)
+row: Radioactivity | only promethium | all are radioactive
+row: Complex formation | weaker | stronger
+row: Contraction | lanthanoid contraction | larger actinoid contraction (5f shields worse)
+row: Oxo ions | do not form | form them, e.g. $\ce{UO2^2+}$
+```
 
 **In one breath:** Actinoids fill 5f, are all radioactive and show more oxidation states than lanthanoids because 5f, 6d and 7s are close in energy; their contraction is greater because 5f shields worse.

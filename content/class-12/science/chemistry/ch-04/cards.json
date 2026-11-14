@@ -1,0 +1,128 @@
+[
+  {
+    "id": "dichromate-structure",
+    "kind": "figure",
+    "title": "Dichromate ion",
+    "svg": "ref: notes#dichromate-structure",
+    "back": "Two $\\ce{CrO4}$ tetrahedra sharing one O; Cr–O–Cr ≈ 126°; Cr in +6. Orange; chromate (yellow) in alkali.",
+    "stars": 2,
+    "tags": [
+      "diagram",
+      "structure"
+    ]
+  },
+  {
+    "id": "permanganate-structure",
+    "kind": "figure",
+    "title": "Permanganate ion",
+    "svg": "ref: notes#permanganate-structure",
+    "back": "Tetrahedral, Mn +7, $d^0$: purple from charge transfer, diamagnetic. Manganate ($\\ce{MnO4^2-}$) is green and paramagnetic.",
+    "stars": 2,
+    "tags": [
+      "diagram",
+      "structure"
+    ]
+  },
+  {
+    "id": "spin-only",
+    "kind": "formula",
+    "title": "Spin-only magnetic moment",
+    "tex": "\\mu=\\sqrt{n(n+2)}\\ \\text{BM}",
+    "legend": [
+      "n = number of unpaired electrons"
+    ],
+    "back": "n = 1 to 5: 1.73, 2.83, 3.87, 4.90, 5.92 BM. $d^0$ and $d^{10}$ give zero.",
+    "stars": 3,
+    "tags": [
+      "formula",
+      "2-mark"
+    ]
+  },
+  {
+    "id": "dichromate-half",
+    "kind": "formula",
+    "title": "Dichromate in acid",
+    "tex": "\\ce{Cr2O7^2- + 14H+ + 6e- -> 2Cr^3+ + 7H2O}",
+    "legend": [
+      "E° = 1.33 V"
+    ],
+    "back": "Six electrons; orange → green. Oxidises $\\ce{Fe^2+}$, $\\ce{I-}$, $\\ce{H2S}$, $\\ce{Sn^2+}$.",
+    "stars": 3,
+    "tags": [
+      "equation"
+    ]
+  },
+  {
+    "id": "permanganate-half",
+    "kind": "formula",
+    "title": "Permanganate in acid",
+    "tex": "\\ce{MnO4- + 8H+ + 5e- -> Mn^2+ + 4H2O}",
+    "legend": [
+      "E° = 1.52 V"
+    ],
+    "back": "Five electrons; purple → colourless, so it is its own indicator. Acidify with dilute $\\ce{H2SO4}$, never HCl.",
+    "stars": 3,
+    "tags": [
+      "equation"
+    ]
+  },
+  {
+    "id": "make-dichromate",
+    "kind": "process",
+    "title": "Chromite → potassium dichromate",
+    "tex": "\\ce{FeCr2O4 ->[Na2CO3, O2] Na2CrO4 ->[H+] Na2Cr2O7 ->[KCl] K2Cr2O7}",
+    "back": "Fuse with sodium carbonate in air, acidify, then add KCl.",
+    "stars": 2,
+    "tags": [
+      "process",
+      "3-mark"
+    ]
+  },
+  {
+    "id": "make-permanganate",
+    "kind": "process",
+    "title": "Pyrolusite → potassium permanganate",
+    "tex": "\\ce{MnO2 ->[KOH, O2] K2MnO4 ->[H+ \\text{or electrolysis}] KMnO4}",
+    "back": "Fuse to green manganate, then disproportionate in acid or oxidise electrolytically to purple permanganate.",
+    "stars": 2,
+    "tags": [
+      "process"
+    ]
+  },
+  {
+    "id": "lanthanoid-contraction",
+    "kind": "formula",
+    "title": "Lanthanoid contraction",
+    "tex": "r(\\ce{La}) > \\dots > r(\\ce{Lu})",
+    "legend": [
+      "cause = poor shielding by 4f electrons"
+    ],
+    "back": "Consequences: Zr and Hf have almost the same radius; lanthanoids are hard to separate; basicity falls from La(OH)₃ to Lu(OH)₃.",
+    "stars": 3,
+    "tags": [
+      "concept",
+      "3-mark"
+    ]
+  },
+  {
+    "id": "lanthanoids-vs-actinoids",
+    "kind": "compare",
+    "title": "Lanthanoids vs actinoids",
+    "tex": "4f\\ \\text{vs}\\ 5f",
+    "back": "Actinoids: more oxidation states, all radioactive, form oxo ions, stronger complexes, larger contraction.",
+    "stars": 2,
+    "tags": [
+      "compare"
+    ]
+  },
+  {
+    "id": "five-and-six",
+    "kind": "mnemonic",
+    "title": "A handful and an over",
+    "tex": "\\ce{MnO4-}: 5e^-\\qquad \\ce{Cr2O7^2-}: 6e^-",
+    "back": "Permanganate takes 5 electrons in acid (a hand); dichromate takes 6 (a cricket over).",
+    "tags": [
+      "mnemonic"
+    ]
+  }
+]
