@@ -1,0 +1,114 @@
+[
+  {
+    "id": "eng-war-q01",
+    "chapter": "writing-article-report",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 2,
+    "label": "SQP-style",
+    "topic": "report format",
+    "stem": "Which feature belongs to a newspaper report but NOT to an article?",
+    "options": [
+      "A by-line",
+      "A place and date line at the start",
+      "A concluding paragraph",
+      "Paragraphs of 40–50 words"
+    ],
+    "answer": "B",
+    "model_answer": "**(b)** A newspaper report opens with *Place, date:*; both have by-lines and conclusions."
+  },
+  {
+    "id": "eng-war-q02",
+    "chapter": "writing-article-report",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 2,
+    "label": "SQP-style",
+    "topic": "report voice",
+    "stem": "Which sentence is correctly written for a report on a school event that took place last week?",
+    "options": [
+      "The function is inaugurated by the Principal.",
+      "I think the function was really great.",
+      "The function was inaugurated by the Principal at 9 a.m.",
+      "You should have seen the dance performance!"
+    ],
+    "answer": "C",
+    "model_answer": "**(c)** Past tense, passive, factual and third person; the others are present tense, opinion or second person."
+  },
+  {
+    "id": "eng-war-q03",
+    "chapter": "writing-article-report",
+    "type": "la5",
+    "marks": 5,
+    "stars": 3,
+    "label": "PYQ-style",
+    "topic": "article",
+    "stem": "Increasing use of mobile phones among teenagers is affecting their studies, health and relationships. Write an article in 120–150 words for your school magazine on the topic 'Smartphones: Smart Use or Silent Addiction?', highlighting the problem and suggesting ways to deal with it. You are Nitin/Nitya.",
+    "hint": "Title + by-line. P1 hook and issue; P2 effects on studies, health, relationships with examples; P3 three suggestions and a closing line.",
+    "model_answer": "**Smartphones: Smart Use or Silent Addiction?**<br>By Nitya, Class XII<br>Look around any classroom during the break and you will see heads bent not over books but over glowing screens. The smartphone, meant to connect us, is quietly taking over our lives.<br>The effects are visible everywhere. Students who scroll till midnight arrive at school tired and distracted, and their marks slip. Doctors report eye strain, headaches and disturbed sleep among teenagers. Worse, families eat dinner in silence, each member lost in a separate world, and friendships shrink to likes and emojis.<br>The answer is not to ban the phone but to master it. A fixed screen-free hour before bed, notifications switched off during study, and one 'no-phone' family meal a day can make a real difference. Schools can run awareness sessions and promote sports and reading clubs.<br>A smartphone is a tool; the moment it starts using us, it is time to put it down.",
+    "scheme": [
+      { "step": "Format: title and by-line", "marks": 1 },
+      { "step": "Content: hook and the issue; effects on studies, health and relationships with examples", "marks": 1 },
+      { "step": "Content: at least three practical suggestions; strong closing line", "marks": 1 },
+      { "step": "Expression: cohesion, paragraphing, vocabulary", "marks": 1 },
+      { "step": "Expression: grammar, spelling, 120–150 words", "marks": 1 }
+    ]
+  },
+  {
+    "id": "eng-war-q04",
+    "chapter": "writing-article-report",
+    "type": "la5",
+    "marks": 5,
+    "stars": 3,
+    "label": "PYQ-style",
+    "topic": "report (school magazine)",
+    "stem": "Your school organised a cleanliness drive, 'Swachh Vidyalaya', in the neighbourhood around the school. As Secretary of the Eco Club, write a report in 120–150 words for your school magazine. You are Farhan/Farah.",
+    "hint": "Headline, by-line. P1 5 Ws; P2 flag-off, groups, areas cleaned, waste collected, awareness posters; P3 response, appreciation, closing. Past tense, passive.",
+    "model_answer": "**ECO CLUB LEADS 'SWACHH VIDYALAYA' DRIVE**<br>By Farah, Secretary, Eco Club<br>A cleanliness drive, 'Swachh Vidyalaya', was organised by the Eco Club of our school on Saturday, 8 November 2026, in the lanes and park around the school campus, to spread awareness about waste segregation and a clean neighbourhood.<br>The drive was flagged off by the Principal at 7:30 a.m. Nearly two hundred students of Classes IX to XII, accompanied by twelve teachers, were divided into eight groups. Each group was given gloves, masks and colour-coded bags. Within three hours, the park, the bus stop and the market lane were cleared of plastic and litter, and about forty bags of waste were handed over to the municipal van. Students also put up posters on segregation and spoke to shopkeepers about avoiding single-use plastic.<br>Residents appreciated the effort and promised to keep the area clean. The Principal congratulated the volunteers and announced that the drive would be held every month.",
+    "scheme": [
+      { "step": "Format: headline and by-line with designation", "marks": 1 },
+      { "step": "Content: what, who organised, when, where, why", "marks": 1 },
+      { "step": "Content: sequence and highlights with numbers; outcome and response", "marks": 1 },
+      { "step": "Expression: past tense, passive voice, factual third person, coherence", "marks": 1 },
+      { "step": "Expression: grammar, spelling, 120–150 words", "marks": 1 }
+    ]
+  },
+  {
+    "id": "eng-war-q05",
+    "chapter": "writing-article-report",
+    "type": "la5",
+    "marks": 5,
+    "stars": 2,
+    "label": "PYQ-style",
+    "topic": "report (newspaper)",
+    "stem": "You are a staff reporter of a local daily. A fire broke out in a cloth market in your city late last night. Write a report in 120–150 words covering the incident, the rescue operation and the losses.",
+    "hint": "Headline, By a Staff Reporter, Place, date:. P1 what, where, when; P2 cause, spread, fire tenders, rescue, injuries; P3 losses, present situation, action by authorities. No opinion.",
+    "model_answer": "**MIDNIGHT FIRE GUTS SHOPS IN CLOTH MARKET**<br>By a Staff Reporter<br>Surat, 14 November: A major fire broke out in the Ring Road cloth market late last night, destroying more than thirty shops before it was brought under control early this morning.<br>The fire is believed to have started from a short circuit in a godown on the first floor at around 11:30 p.m. Stocks of synthetic fabric helped the flames spread rapidly to the adjoining shops. Eight fire tenders reached the spot within twenty minutes, and the blaze was contained after a four-hour operation. Two shopkeepers who were sleeping in their shops were rescued with minor burns and have been admitted to the civil hospital.<br>Traders have estimated the loss at several crores of rupees. The area has been cordoned off, and the Municipal Commissioner has ordered an inquiry into the fire-safety arrangements of the market. Traders have demanded compensation and a fire station closer to the market.",
+    "scheme": [
+      { "step": "Format: headline, 'By a Staff Reporter', place and date line", "marks": 1 },
+      { "step": "Content: what, where, when; cause and spread; rescue operation with numbers", "marks": 1 },
+      { "step": "Content: injuries, losses, present situation, action by authorities", "marks": 1 },
+      { "step": "Expression: past tense, passive, factual, no personal opinion, inverted pyramid", "marks": 1 },
+      { "step": "Expression: grammar, spelling, 120–150 words", "marks": 1 }
+    ]
+  },
+  {
+    "id": "eng-war-q06",
+    "chapter": "writing-article-report",
+    "type": "la5",
+    "marks": 5,
+    "stars": 2,
+    "label": "PYQ-style",
+    "topic": "article",
+    "stem": "Write an article in 120–150 words on 'The Importance of Sports in a Student's Life' for a national daily, highlighting how sports build health, character and teamwork. You are Devansh/Devika.",
+    "hint": "Title + by-line. P1 hook; P2 three benefits with examples (health, character, teamwork); P3 what schools and parents should do; closing line.",
+    "model_answer": "**More Than a Game: Why Students Need Sports**<br>By Devika<br>Ask a topper what she does to stay sharp, and the answer is often a surprise: she plays. In a world obsessed with marks, the playground is still the best classroom we have.<br>Sports build the body first: regular play strengthens the heart, improves sleep and keeps lifestyle diseases away. They build character next. A student who loses a match learns to accept defeat, work harder and try again, lessons no textbook teaches. Finally, team games teach cooperation, trust and leadership; a hockey forward who passes the ball at the right moment is practising the skill every workplace demands.<br>Yet many schools cut games periods before examinations. Schools must protect at least one hour of play every day, and parents should see sport as an investment, not a distraction.<br>A healthy, confident, team-spirited student is the real result that matters.",
+    "scheme": [
+      { "step": "Format: title and by-line", "marks": 1 },
+      { "step": "Content: hook; benefits for health, character and teamwork with examples", "marks": 1 },
+      { "step": "Content: what schools and parents should do; strong closing line", "marks": 1 },
+      { "step": "Expression: cohesion, paragraphing, vocabulary", "marks": 1 },
+      { "step": "Expression: grammar, spelling, 120–150 words", "marks": 1 }
+    ]
+  }
+]

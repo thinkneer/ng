@@ -1,0 +1,114 @@
+[
+  {
+    "id": "eng-wl-q01",
+    "chapter": "writing-letter",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 2,
+    "label": "SQP-style",
+    "topic": "format",
+    "stem": "In a formal letter, the subject line is placed",
+    "options": [
+      "after the salutation",
+      "before the receiver's address",
+      "between the receiver's address and the salutation",
+      "at the end, before the signature"
+    ],
+    "answer": "C",
+    "model_answer": "**(c)** Sender's address → date → receiver's address → subject → salutation → body."
+  },
+  {
+    "id": "eng-wl-q02",
+    "chapter": "writing-letter",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 2,
+    "label": "SQP-style",
+    "topic": "editor letter",
+    "stem": "The correct salutation in a letter to the editor is",
+    "options": [
+      "Dear Editor,",
+      "Respected Sir,",
+      "Sir,",
+      "Hello Sir,"
+    ],
+    "answer": "C",
+    "model_answer": "**(c)** \"Sir,\" (or \"Sir/Madam,\"); the receiver line already says The Editor."
+  },
+  {
+    "id": "eng-wl-q03",
+    "chapter": "writing-letter",
+    "type": "la5",
+    "marks": 5,
+    "stars": 3,
+    "label": "PYQ-style",
+    "topic": "editor letter",
+    "stem": "You are Arjun/Arpita, a resident of Sector 21, Noida. Garbage has not been collected from your locality for over two weeks and the heaps near the park are attracting stray animals and mosquitoes. Write a letter in 120–150 words to the editor of a national daily drawing the attention of the municipal authorities to the problem and suggesting measures.",
+    "hint": "Shell with The Editor + paper + city, subject, Sir,. P1 esteemed-newspaper line; P2 two or three specifics (two weeks, heaps near park, strays, mosquitoes, health risk); P3 suggestions + who should act + hope for action.",
+    "model_answer": "H-204, Sector 21<br>Noida 201301<br>14 November 2026<br>The Editor<br>The Times of India<br>New Delhi<br>Subject: Uncollected garbage in Sector 21<br>Sir,<br>Through the columns of your esteemed newspaper I wish to draw the attention of the Noida Authority to the uncollected garbage in Sector 21.<br>For over two weeks no municipal van has visited our lanes. Heaps of waste have piled up near the children's park and the market. Stray dogs and cattle tear the bags open, and the stagnant water around them is breeding mosquitoes. With dengue cases already rising in the city, residents, especially children and the elderly, are at serious risk, and the stench makes the park unusable.<br>I request the authorities to restore daily collection immediately, clear the existing heaps, spray the area and fine those who dump waste in the open. Residents, too, should segregate waste at home.<br>I hope prompt action will be taken.<br>Yours sincerely,<br>Arpita<br>(A concerned resident)",
+    "scheme": [
+      { "step": "Format: sender's address, date, The Editor with paper and city, subject, Sir, close, name", "marks": 1 },
+      { "step": "Content: purpose stated with the esteemed-newspaper line; problem with specifics (two weeks, heaps, strays, mosquitoes, health risk)", "marks": 1 },
+      { "step": "Content: suggestions and the authority who should act; hope for prompt action", "marks": 1 },
+      { "step": "Expression: formal register, coherence and paragraphing", "marks": 1 },
+      { "step": "Expression: grammar, spelling, 120–150 words", "marks": 1 }
+    ]
+  },
+  {
+    "id": "eng-wl-q04",
+    "chapter": "writing-letter",
+    "type": "la5",
+    "marks": 5,
+    "stars": 3,
+    "label": "PYQ-style",
+    "topic": "complaint letter",
+    "stem": "You are Karan/Kavya of 18, MG Road, Bengaluru. You bought a laptop from Techno World, Brigade Road, on 2 November 2026 (Bill No. TW/4521). Within a week the screen started flickering and the battery drains in an hour. Write a letter of complaint in 120–150 words to the Manager asking for a replacement or a refund.",
+    "hint": "Shell with The Manager, shop, address; subject; Sir/Madam. P2 must carry item, date, bill number, two defects, inconvenience. P3 one remedy within a time, bill enclosed.",
+    "model_answer": "18, MG Road<br>Bengaluru 560001<br>14 November 2026<br>The Manager<br>Techno World<br>Brigade Road, Bengaluru<br>Subject: Complaint about a defective laptop (Bill No. TW/4521)<br>Sir/Madam,<br>I am writing to express my dissatisfaction with a laptop I purchased from your showroom on 2 November 2026.<br>Within a week of purchase the screen began to flicker every few minutes, making it impossible to work for long. The battery, which was promised to last eight hours, now drains completely in about an hour. I have followed the troubleshooting steps suggested by your helpline, but the problems persist. As a student preparing for the board examinations, I depend on this laptop daily, and the fault has caused me great inconvenience.<br>I request you to replace the laptop with a new unit or refund the full amount within ten days. A copy of the bill is enclosed for your reference.<br>I look forward to a prompt resolution.<br>Yours sincerely,<br>Kavya",
+    "scheme": [
+      { "step": "Format: addresses, date, subject with bill number, salutation, close, name", "marks": 1 },
+      { "step": "Content: item, date of purchase, bill number, both defects, inconvenience caused", "marks": 1 },
+      { "step": "Content: remedy (replacement or refund) within a time frame; bill enclosed", "marks": 1 },
+      { "step": "Expression: firm but polite tone, coherent paragraphs", "marks": 1 },
+      { "step": "Expression: grammar, spelling, 120–150 words", "marks": 1 }
+    ]
+  },
+  {
+    "id": "eng-wl-q05",
+    "chapter": "writing-letter",
+    "type": "la5",
+    "marks": 5,
+    "stars": 2,
+    "label": "PYQ-style",
+    "topic": "job application",
+    "stem": "You are Rahul/Rhea Sharma, 22, Civil Lines, Nagpur. You have seen an advertisement in The Hitavada dated 10 November 2026 for the post of Junior Content Writer at Bright Minds Edutech, Nagpur. Write a letter of application in 120–150 words along with your bio-data.",
+    "hint": "Short covering letter (advert → suitability → enclosure, interview) then a separate BIO-DATA block with name, DOB, address, contact, qualifications table, experience, skills, languages.",
+    "model_answer": "22, Civil Lines<br>Nagpur 440001<br>14 November 2026<br>The HR Manager<br>Bright Minds Edutech<br>Nagpur<br>Subject: Application for the post of Junior Content Writer<br>Sir/Madam,<br>With reference to your advertisement in The Hitavada dated 10 November 2026, I wish to apply for the post of Junior Content Writer.<br>I have completed my graduation in English with distinction and have written study material and blog posts for an online learning platform for one year. I write clearly for young readers, research carefully and meet deadlines, which I believe suit the needs of an edutech company.<br>My bio-data is enclosed. I shall be grateful for an opportunity to appear for an interview at your convenience.<br>Yours sincerely,<br>Rhea Sharma<br>Encl.: Bio-data<br><br>**BIO-DATA**<br>Name: Rhea Sharma<br>Date of birth: 12 March 2004<br>Address: 22, Civil Lines, Nagpur 440001<br>Contact: 98xxxxxx45, rhea.s@email.com<br>Qualifications: Class XII (CBSE, 2022, 91%); B.A. English (Nagpur University, 2025, 78%)<br>Experience: Content writer, LearnEasy online platform (2025–26)<br>Skills: clear writing, editing, research, MS Office<br>Languages known: English, Hindi, Marathi",
+    "scheme": [
+      { "step": "Format: letter shell with subject naming the post, salutation, close, Encl.; bio-data as a separate block", "marks": 1 },
+      { "step": "Content: advertisement reference and post; suitability (qualification, experience, two strengths); interview request", "marks": 1 },
+      { "step": "Content: bio-data with name, DOB, address, contact, qualifications, experience, skills, languages", "marks": 1 },
+      { "step": "Expression: formal register, coherent short paragraphs", "marks": 1 },
+      { "step": "Expression: grammar, spelling, length within range", "marks": 1 }
+    ]
+  },
+  {
+    "id": "eng-wl-q06",
+    "chapter": "writing-letter",
+    "type": "la5",
+    "marks": 5,
+    "stars": 2,
+    "label": "PYQ-style",
+    "topic": "letter to authority",
+    "stem": "You are Mohit/Mohini, Head Boy/Head Girl of St. Xavier's School, Ranchi. Students crossing the busy road outside the school face danger every day as there is no traffic signal or zebra crossing. Write a letter in 120–150 words to the Commissioner of Police requesting a traffic signal, a zebra crossing and a traffic constable during school hours.",
+    "hint": "Receiver: The Commissioner of Police, Ranchi. P2: the danger with specifics (busy road, speeding vehicles, 1,500 students, near-misses). P3: the three requests, polite close.",
+    "model_answer": "St. Xavier's School<br>Doranda, Ranchi 834002<br>14 November 2026<br>The Commissioner of Police<br>Ranchi<br>Subject: Request for traffic safety measures outside St. Xavier's School<br>Sir,<br>On behalf of the students of St. Xavier's School, I wish to draw your attention to the danger students face while crossing the main road outside the school gate.<br>Nearly 1,500 students cross this road every morning and afternoon. Vehicles speed past without slowing down, and there is neither a traffic signal nor a zebra crossing. Last week two students narrowly escaped being hit by a bus. Parents and teachers are deeply worried, and the problem is worst during the dispersal rush at 2 p.m.<br>I request you to install a traffic signal and a zebra crossing near the gate and to post a traffic constable during school hours. A speed-limit board would also help.<br>I hope you will take prompt action to protect the children.<br>Yours sincerely,<br>Mohini<br>Head Girl",
+    "scheme": [
+      { "step": "Format: addresses, date, receiver's designation, subject, salutation, close, name with designation", "marks": 1 },
+      { "step": "Content: purpose and the danger with specifics (numbers, speeding, no signal or crossing, near-miss)", "marks": 1 },
+      { "step": "Content: the three requests clearly stated; polite hope for action", "marks": 1 },
+      { "step": "Expression: formal, respectful tone and coherence", "marks": 1 },
+      { "step": "Expression: grammar, spelling, 120–150 words", "marks": 1 }
+    ]
+  }
+]

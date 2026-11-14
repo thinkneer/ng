@@ -1,0 +1,11 @@
+{
+  "$schema": "../../../../../schemas/chapter.schema.json",
+  "id": "writing-notice",
+  "number": 3,
+  "title": "Notice",
+  "unit": "B",
+  "marks_hint": "4 marks (one notice OR one invitation; Section B, CBSE 2026–27)",
+  "summary": "Box format · NOTICE heading · issuing body, date, title · 5 Ws in 50 words · signature block · marks split 1 + 2 + 1",
+  "status": { "notes": "ready", "mustknow": "ready", "formulas": "ready", "questions": "ready" },
+  "updated": "2026-11-14"
+}

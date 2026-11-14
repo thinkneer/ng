@@ -1,0 +1,138 @@
+[
+  {
+    "id": "eng-wi-q01",
+    "chapter": "writing-invitation",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 2,
+    "label": "SQP-style",
+    "topic": "format",
+    "stem": "Which of these is a format error in a formal invitation card?",
+    "options": [
+      "Writing the host's name at the top",
+      "Writing RSVP at the bottom left",
+      "Ending with 'Yours sincerely' and a name",
+      "Centring every line inside a box"
+    ],
+    "answer": "C",
+    "model_answer": "**(c)** A formal card has no salutation and no signature; it ends with RSVP."
+  },
+  {
+    "id": "eng-wi-q02",
+    "chapter": "writing-invitation",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 2,
+    "label": "SQP-style",
+    "topic": "person",
+    "stem": "Which line is correctly worded for a formal invitation?",
+    "options": [
+      "We would love you to come to our Annual Day.",
+      "The Principal and staff request the pleasure of your company at the Annual Day.",
+      "I am inviting you to the Annual Day on Saturday.",
+      "You are invited, please come to the Annual Day!"
+    ],
+    "answer": "B",
+    "model_answer": "**(b)** Third person with the standard formula; the others use I/we/you or an exclamation."
+  },
+  {
+    "id": "eng-wi-q03",
+    "chapter": "writing-invitation",
+    "type": "case",
+    "marks": 4,
+    "stars": 3,
+    "label": "PYQ-style",
+    "topic": "formal card",
+    "stem": "You are the Cultural Secretary of Riverdale Senior Secondary School, Kochi. The school is holding its Annual Day on 19 December 2026. Draft a formal invitation card in about 50 words to be sent to parents, naming the chief guest.",
+    "hint": "Third person, centred, boxed: host → formula → occasion → day, date, time → venue → chief guest → RSVP. No signature.",
+    "parts": [
+      {
+        "id": "a",
+        "stem": "Write the formal invitation (card format, about 50 words).",
+        "marks": 4,
+        "model_answer": "**The Principal, Staff and Students**<br>**of Riverdale Senior Secondary School, Kochi**<br>**request the pleasure of your company**<br>**at the Annual Day celebrations**<br>**on Saturday, 19 December 2026, at 5:30 p.m.**<br>**in the school auditorium.**<br>**Chief Guest: Shri K. R. Menon, District Collector**<br>RSVP<br>Cultural Secretary<br>94xxxxxx21",
+        "scheme": [
+          { "step": "Format: box, centred lines, third person, RSVP at bottom, no signature", "marks": 1 },
+          { "step": "Content: host, formula of invitation, occasion", "marks": 1 },
+          { "step": "Content: day, date, time, venue, chief guest", "marks": 1 },
+          { "step": "Expression: dignified tone, correct grammar, about 50 words", "marks": 1 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "eng-wi-q04",
+    "chapter": "writing-invitation",
+    "type": "case",
+    "marks": 4,
+    "stars": 2,
+    "label": "PYQ-style",
+    "topic": "informal invitation",
+    "stem": "You are Dev/Devika living at 12, Hill Road, Shimla. Your family is hosting a housewarming on 30 November 2026. Write an informal invitation in about 50 words to your friend Sameer to attend.",
+    "hint": "Letter shell: address, date, Dear Sameer, warm body with occasion, date, time, venue, request to come; Your friend, name.",
+    "parts": [
+      {
+        "id": "a",
+        "stem": "Write the informal invitation (letter format, about 50 words).",
+        "marks": 4,
+        "model_answer": "12, Hill Road<br>Shimla 171001<br>14 November 2026<br>Dear Sameer,<br>We have finally moved into our new house, and my parents are hosting a small housewarming on Sunday, 30 November, at 6 p.m. at the above address. It won't feel complete without you, so please do come. Let me know by the 27th if you can make it.<br>Your friend,<br>Devika",
+        "scheme": [
+          { "step": "Format: sender's address, date, salutation, closing and name; first person", "marks": 1 },
+          { "step": "Content: occasion, day and date, time, venue", "marks": 1 },
+          { "step": "Content: warm request to come and a request to confirm", "marks": 1 },
+          { "step": "Expression: friendly but correct tone, grammar, about 50 words", "marks": 1 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "eng-wi-q05",
+    "chapter": "writing-invitation",
+    "type": "case",
+    "marks": 4,
+    "stars": 2,
+    "label": "PYQ-style",
+    "topic": "formal reply",
+    "stem": "You are Mr/Mrs Rao. You have received a formal invitation to the inauguration of the new science block of Riverdale Senior Secondary School on 5 December 2026. You cannot attend because you will be travelling. Write a formal reply in about 50 words regretting your inability to attend.",
+    "hint": "Third person, boxed: thanks + occasion + date → regret formula + brief reason → good wishes. No salutation, no signature.",
+    "parts": [
+      {
+        "id": "a",
+        "stem": "Write the formal reply (about 50 words).",
+        "marks": 4,
+        "model_answer": "Mr and Mrs Rao thank the Principal and staff of Riverdale Senior Secondary School for their kind invitation to the inauguration of the new science block on Friday, 5 December 2026. They regret their inability to attend owing to a prior travel commitment on that date. They wish the school every success on this occasion.",
+        "scheme": [
+          { "step": "Format: third person, boxed, no salutation or signature", "marks": 1 },
+          { "step": "Content: thanks to the host and the occasion with date", "marks": 1 },
+          { "step": "Content: clear regret with brief reason and good wishes", "marks": 1 },
+          { "step": "Expression: formal, polite tone, correct grammar, about 50 words", "marks": 1 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "eng-wi-q06",
+    "chapter": "writing-invitation",
+    "type": "case",
+    "marks": 4,
+    "stars": 1,
+    "label": "PYQ-style",
+    "topic": "informal reply",
+    "stem": "Your friend Isha has invited you to her eighteenth birthday dinner on 28 November 2026. You will be out of town for a family wedding. Write an informal reply in about 50 words declining the invitation.",
+    "hint": "First person letter: thank her, name the occasion, say no clearly with the reason, wish her and suggest meeting later.",
+    "parts": [
+      {
+        "id": "a",
+        "stem": "Write the informal reply (letter format, about 50 words).",
+        "marks": 4,
+        "model_answer": "7, Park Street<br>Kolkata 700016<br>16 November 2026<br>Dear Isha,<br>Thank you so much for inviting me to your eighteenth birthday dinner on the 28th. I'm really sorry, but I'll be in Jaipur that week for my cousin's wedding, so I won't be able to make it. Have a wonderful evening — I'll take you out for a treat when I'm back.<br>Your friend,<br>Ananya",
+        "scheme": [
+          { "step": "Format: letter shell with address, date, salutation, closing; first person", "marks": 1 },
+          { "step": "Content: thanks and the occasion named with date", "marks": 1 },
+          { "step": "Content: clear refusal with reason and a warm wish / plan to meet", "marks": 1 },
+          { "step": "Expression: warm, correct tone and grammar, about 50 words", "marks": 1 }
+        ]
+      }
+    ]
+  }
+]

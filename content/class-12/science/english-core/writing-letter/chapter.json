@@ -1,0 +1,11 @@
+{
+  "$schema": "../../../../../schemas/chapter.schema.json",
+  "id": "writing-letter",
+  "number": 5,
+  "title": "Letters: editor, complaint, job application with bio-data",
+  "unit": "B",
+  "marks_hint": "5 marks (one formal letter with internal choice; Section B, CBSE 2026–27)",
+  "summary": "Formal letter shell (address, date, receiver, subject, salutation, three paragraphs, closing) · editor · complaint · job application + bio-data · 120–150 words · marks 1 + 2 + 2",
+  "status": { "notes": "ready", "mustknow": "ready", "formulas": "ready", "questions": "ready" },
+  "updated": "2026-11-14"
+}

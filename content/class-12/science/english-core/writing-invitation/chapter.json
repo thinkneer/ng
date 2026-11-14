@@ -1,0 +1,11 @@
+{
+  "$schema": "../../../../../schemas/chapter.schema.json",
+  "id": "writing-invitation",
+  "number": 4,
+  "title": "Invitations and replies",
+  "unit": "B",
+  "marks_hint": "4 marks (notice OR invitation; Section B, CBSE 2026–27)",
+  "summary": "Formal card (third person, no signature) · informal letter invitation · formal acceptance / regret reply · marks split 1 + 2 + 1",
+  "status": { "notes": "ready", "mustknow": "ready", "formulas": "ready", "questions": "ready" },
+  "updated": "2026-11-14"
+}

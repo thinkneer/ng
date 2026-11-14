@@ -1,0 +1,11 @@
+{
+  "$schema": "../../../../../schemas/chapter.schema.json",
+  "id": "writing-article-report",
+  "number": 6,
+  "title": "Article and report writing",
+  "unit": "B",
+  "marks_hint": "5 marks (article OR report; Section B, CBSE 2026–27)",
+  "summary": "Article: title, by-line, intro–body–conclusion, 120–150 words · Report: headline, by-line, place/date, inverted pyramid, past tense, passive · marks 1 + 2 + 2",
+  "status": { "notes": "ready", "mustknow": "ready", "formulas": "ready", "questions": "ready" },
+  "updated": "2026-11-14"
+}

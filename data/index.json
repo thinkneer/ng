@@ -1517,44 +1517,88 @@
                       "number": 3,
                       "title": "Notice",
                       "unit": "B",
-                      "items": {},
-                      "marks_hint": null,
-                      "summary": null,
-                      "questions": 0,
-                      "question_types": {}
+                      "items": {
+                        "notes": true,
+                        "mustknow": true,
+                        "formulas": true,
+                        "questions": true
+                      },
+                      "marks_hint": "4 marks (one notice OR one invitation; Section B, CBSE 2026–27)",
+                      "summary": "Box format · NOTICE heading · issuing body, date, title · 5 Ws in 50 words · signature block · marks split 1 + 2 + 1",
+                      "questions": 6,
+                      "question_types": {
+                        "mcq": 2,
+                        "case": 4
+                      },
+                      "diagrams": [],
+                      "words": 2002,
+                      "read_minutes": 6
                     },
                     {
                       "id": "writing-invitation",
                       "number": 4,
                       "title": "Invitations and replies",
                       "unit": "B",
-                      "items": {},
-                      "marks_hint": null,
-                      "summary": null,
-                      "questions": 0,
-                      "question_types": {}
+                      "items": {
+                        "notes": true,
+                        "mustknow": true,
+                        "formulas": true,
+                        "questions": true
+                      },
+                      "marks_hint": "4 marks (notice OR invitation; Section B, CBSE 2026–27)",
+                      "summary": "Formal card (third person, no signature) · informal letter invitation · formal acceptance / regret reply · marks split 1 + 2 + 1",
+                      "questions": 6,
+                      "question_types": {
+                        "mcq": 2,
+                        "case": 4
+                      },
+                      "diagrams": [],
+                      "words": 2025,
+                      "read_minutes": 6
                     },
                     {
                       "id": "writing-letter",
                       "number": 5,
                       "title": "Letters: editor, complaint, job application with bio-data",
                       "unit": "B",
-                      "items": {},
-                      "marks_hint": null,
-                      "summary": null,
-                      "questions": 0,
-                      "question_types": {}
+                      "items": {
+                        "notes": true,
+                        "mustknow": true,
+                        "formulas": true,
+                        "questions": true
+                      },
+                      "marks_hint": "5 marks (one formal letter with internal choice; Section B, CBSE 2026–27)",
+                      "summary": "Formal letter shell (address, date, receiver, subject, salutation, three paragraphs, closing) · editor · complaint · job application + bio-data · 120–150 words · marks 1 + 2 + 2",
+                      "questions": 6,
+                      "question_types": {
+                        "mcq": 2,
+                        "la5": 4
+                      },
+                      "diagrams": [],
+                      "words": 2369,
+                      "read_minutes": 7
                     },
                     {
                       "id": "writing-article-report",
                       "number": 6,
                       "title": "Article and report writing",
                       "unit": "B",
-                      "items": {},
-                      "marks_hint": null,
-                      "summary": null,
-                      "questions": 0,
-                      "question_types": {}
+                      "items": {
+                        "notes": true,
+                        "mustknow": true,
+                        "formulas": true,
+                        "questions": true
+                      },
+                      "marks_hint": "5 marks (article OR report; Section B, CBSE 2026–27)",
+                      "summary": "Article: title, by-line, intro–body–conclusion, 120–150 words · Report: headline, by-line, place/date, inverted pyramid, past tense, passive · marks 1 + 2 + 2",
+                      "questions": 6,
+                      "question_types": {
+                        "mcq": 2,
+                        "la5": 4
+                      },
+                      "diagrams": [],
+                      "words": 1974,
+                      "read_minutes": 6
                     }
                   ]
                 },
@@ -1812,10 +1856,10 @@
               },
               "papers": [],
               "counts": {
-                "notes": 0,
-                "mustknow": 0,
-                "formulas": 0,
-                "questions": 0,
+                "notes": 4,
+                "mustknow": 4,
+                "formulas": 4,
+                "questions": 4,
                 "chapters": 25
               }
             }

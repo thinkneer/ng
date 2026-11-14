@@ -1,0 +1,138 @@
+[
+  {
+    "id": "eng-wn-q01",
+    "chapter": "writing-notice",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 2,
+    "label": "SQP-style",
+    "topic": "format",
+    "stem": "In a notice, the word NOTICE is written",
+    "options": [
+      "at the bottom, above the signature",
+      "below the issuing body and above the date",
+      "inside the body paragraph",
+      "only when the notice is about a meeting"
+    ],
+    "answer": "B",
+    "model_answer": "**(b)** Order: issuing body → NOTICE → date → title → body → name and designation."
+  },
+  {
+    "id": "eng-wn-q02",
+    "chapter": "writing-notice",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 2,
+    "label": "SQP-style",
+    "topic": "tone",
+    "stem": "Which sentence is correctly worded for the body of a notice?",
+    "options": [
+      "I want all of you to come to the auditorium on Friday.",
+      "You must register by Monday or you will miss it!",
+      "Interested students may register with the undersigned by Monday.",
+      "Hey everyone, don't forget the debate this Friday."
+    ],
+    "answer": "C",
+    "model_answer": "**(c)** Third person, formal, uses the standard phrase \"the undersigned\". The others use I/you, exclamation or slang."
+  },
+  {
+    "id": "eng-wn-q03",
+    "chapter": "writing-notice",
+    "type": "case",
+    "marks": 4,
+    "stars": 3,
+    "label": "PYQ-style",
+    "topic": "event notice",
+    "stem": "You are Aarav/Aarti, Secretary of the Eco Club of Sunrise Public School, Jaipur. Your club is organising a tree plantation drive in the school grounds. Write a notice in about 50 words inviting students of Classes IX–XII to join.",
+    "hint": "Five Ws: what (plantation drive), when (date + time), where (school grounds), who (IX–XII), contact + deadline. Third person only.",
+    "parts": [
+      {
+        "id": "a",
+        "stem": "Write the notice (box format, about 50 words).",
+        "marks": 4,
+        "model_answer": "**SUNRISE PUBLIC SCHOOL, JAIPUR**<br>**NOTICE**<br>14 November 2026<br>**TREE PLANTATION DRIVE**<br>The Eco Club is organising a tree plantation drive in the school grounds on Saturday, 22 November 2026, from 8 a.m. to 11 a.m. Students of Classes IX to XII may participate. Volunteers should wear the sports uniform and carry a water bottle. Register with the undersigned by 19 November.<br>Aarav<br>Secretary, Eco Club",
+        "scheme": [
+          { "step": "Format: box, issuing body, NOTICE, date, title, name and designation", "marks": 1 },
+          { "step": "Content: what, when (date and time), where, who may join", "marks": 1 },
+          { "step": "Content: what to bring/wear, registration with deadline, contact the undersigned", "marks": 1 },
+          { "step": "Expression: formal third-person tone, correct grammar, about 50 words", "marks": 1 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "eng-wn-q04",
+    "chapter": "writing-notice",
+    "type": "case",
+    "marks": 4,
+    "stars": 3,
+    "label": "PYQ-style",
+    "topic": "lost and found",
+    "stem": "You are Nikhil/Nikita of Class XII-B, Green Valley School, Pune. You have lost your school bag containing textbooks and a calculator somewhere between the chemistry lab and the playground. Write a notice in about 50 words for the school notice board.",
+    "hint": "Item, short description, where and when lost, whom to return it to. Keep the description to one sentence.",
+    "parts": [
+      {
+        "id": "a",
+        "stem": "Write the notice (box format, about 50 words).",
+        "marks": 4,
+        "model_answer": "**GREEN VALLEY SCHOOL, PUNE**<br>**NOTICE**<br>14 November 2026<br>**LOST: SCHOOL BAG**<br>A navy-blue school bag was lost on 13 November 2026 between the chemistry lab and the playground during the lunch break. It contains Class XII textbooks, a notebook and a scientific calculator. Anyone who finds it is requested to return it to the undersigned or deposit it at the school office.<br>Nikita<br>Class XII-B",
+        "scheme": [
+          { "step": "Format: box, issuing body, NOTICE, date, title, name and class", "marks": 1 },
+          { "step": "Content: item and description, where and when it was lost", "marks": 1 },
+          { "step": "Content: contents of the bag, whom to return it to / where to deposit", "marks": 1 },
+          { "step": "Expression: formal, impersonal tone, correct grammar, about 50 words", "marks": 1 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "eng-wn-q05",
+    "chapter": "writing-notice",
+    "type": "case",
+    "marks": 4,
+    "stars": 2,
+    "label": "PYQ-style",
+    "topic": "meeting notice",
+    "stem": "You are the Secretary of the Residents' Welfare Association, Palm Grove Apartments, Hyderabad. Write a notice in about 50 words calling a general body meeting to discuss water shortage and the new parking rules.",
+    "hint": "Whose meeting, date, time, venue, agenda, request to attend. The issuing body is the society, not a school.",
+    "parts": [
+      {
+        "id": "a",
+        "stem": "Write the notice (box format, about 50 words).",
+        "marks": 4,
+        "model_answer": "**PALM GROVE APARTMENTS, HYDERABAD**<br>**NOTICE**<br>14 November 2026<br>**GENERAL BODY MEETING**<br>All residents are informed that a general body meeting will be held on Sunday, 23 November 2026, at 10 a.m. in the community hall. The agenda is the ongoing water shortage and the new parking rules. One member from each flat is requested to attend. Suggestions may be sent to the undersigned in advance.<br>XYZ<br>Secretary, RWA",
+        "scheme": [
+          { "step": "Format: box, society name, NOTICE, date, title, name and designation", "marks": 1 },
+          { "step": "Content: meeting, date, time, venue", "marks": 1 },
+          { "step": "Content: agenda (two items), who should attend, contact for suggestions", "marks": 1 },
+          { "step": "Expression: formal tone, correct grammar, about 50 words", "marks": 1 }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "eng-wn-q06",
+    "chapter": "writing-notice",
+    "type": "case",
+    "marks": 4,
+    "stars": 1,
+    "label": "PYQ-style",
+    "topic": "information notice",
+    "stem": "You are the Head Boy/Head Girl of Model Senior Secondary School, Chandigarh. The school timings are changing for the winter months. Write a notice in about 50 words informing students of the new timings and the date from which they apply.",
+    "hint": "State the change, the date it takes effect, who it applies to, and whom to contact for queries.",
+    "parts": [
+      {
+        "id": "a",
+        "stem": "Write the notice (box format, about 50 words).",
+        "marks": 4,
+        "model_answer": "**MODEL SENIOR SECONDARY SCHOOL, CHANDIGARH**<br>**NOTICE**<br>14 November 2026<br>**CHANGE IN SCHOOL TIMINGS**<br>All students are informed that winter timings will apply from Monday, 1 December 2026. School will begin at 8:30 a.m. and end at 2:30 p.m. School buses will run accordingly. Students are requested to report on time. For any query, contact the undersigned or the school office.<br>XYZ<br>Head Girl",
+        "scheme": [
+          { "step": "Format: box, issuing body, NOTICE, date, title, name and designation", "marks": 1 },
+          { "step": "Content: the change (new timings) and the date it takes effect", "marks": 1 },
+          { "step": "Content: who it applies to, related information (buses), contact for queries", "marks": 1 },
+          { "step": "Expression: formal tone, correct grammar, about 50 words", "marks": 1 }
+        ]
+      }
+    ]
+  }
+]
