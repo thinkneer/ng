@@ -1,0 +1,260 @@
+[
+  {
+    "id": "phy-09-q01",
+    "chapter": "ch-09",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 3,
+    "label": "PYQ-style",
+    "stem": "A convex lens of focal length 20 cm is placed in contact with a concave lens of focal length 40 cm. The combination behaves as a",
+    "options": [
+      "convex lens of focal length 40 cm",
+      "concave lens of focal length 40 cm",
+      "convex lens of focal length 13.3 cm",
+      "concave lens of focal length 20 cm"
+    ],
+    "answer": "A",
+    "model_answer": "**(A) convex lens of focal length 40 cm** $P=\\dfrac{1}{0.2}-\\dfrac{1}{0.4}=5-2.5=+2.5$ D, so $f=+40$ cm (converging).",
+    "topic": "Combination of lenses"
+  },
+  {
+    "id": "phy-09-q02",
+    "chapter": "ch-09",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ-style",
+    "stem": "The critical angle for light going from a glass of refractive index $\\sqrt2$ into air is",
+    "options": [
+      "30°",
+      "45°",
+      "60°",
+      "90°"
+    ],
+    "answer": "B",
+    "model_answer": "**(B) 45°** $\\sin c=1/n=1/\\sqrt2$, so $c=45^\\circ$.",
+    "topic": "TIR"
+  },
+  {
+    "id": "phy-09-q03",
+    "chapter": "ch-09",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ-style",
+    "stem": "An object is placed 10 cm from a convex lens of focal length 15 cm. The image is",
+    "options": [
+      "real, inverted, 30 cm behind the lens",
+      "virtual, erect, 30 cm on the same side, 3 times larger",
+      "virtual, erect, 6 cm on the same side",
+      "real, erect, 30 cm behind the lens"
+    ],
+    "answer": "B",
+    "model_answer": "**(B) virtual, erect, 30 cm on the same side, 3 times larger** $\\dfrac1v=\\dfrac1{15}+\\dfrac1{-10}=-\\dfrac1{30}$, $v=-30$ cm (same side, virtual); $m=v/u=3$ (erect, magnified).",
+    "topic": "Thin lens"
+  },
+  {
+    "id": "phy-09-q04",
+    "chapter": "ch-09",
+    "type": "ar",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ-style",
+    "stem": "**Assertion (A):** A diamond sparkles much more than a piece of glass cut to the same shape.<br>**Reason (R):** The critical angle for diamond is much smaller than that for glass.",
+    "options": [
+      "Both A and R are true, and R is the correct explanation of A.",
+      "Both A and R are true, but R is not the correct explanation of A.",
+      "A is true, but R is false.",
+      "Both A and R are false."
+    ],
+    "answer": "A",
+    "model_answer": "**(A)** Diamond's critical angle (about 24°) is small, so light entering it undergoes repeated total internal reflection before it escapes, making it sparkle.",
+    "topic": "TIR"
+  },
+  {
+    "id": "phy-09-q05",
+    "chapter": "ch-09",
+    "type": "case",
+    "marks": 4,
+    "stars": 2,
+    "label": "PYQ-style",
+    "stem": "**Light pipes.** An optical fibre has a thin glass core surrounded by a cladding of slightly lower refractive index. Light entering one end at a small angle strikes the core–cladding boundary at a large angle and is guided along the fibre, even round bends. In one fibre the core has $n=1.6$ and the cladding $n=1.5$.",
+    "parts": [
+      {
+        "id": "i",
+        "stem": "Light is guided along the fibre by",
+        "marks": 1,
+        "options": [
+          "refraction",
+          "total internal reflection",
+          "diffraction",
+          "dispersion"
+        ],
+        "answer": "B",
+        "model_answer": "**(B)**"
+      },
+      {
+        "id": "ii",
+        "stem": "For guiding to work, the refractive index of the core must be",
+        "marks": 1,
+        "options": [
+          "less than that of the cladding",
+          "equal to that of the cladding",
+          "greater than that of the cladding",
+          "equal to 1"
+        ],
+        "answer": "C",
+        "model_answer": "**(C)** TIR needs light to go from denser to rarer."
+      },
+      {
+        "id": "iii",
+        "stem": "The critical angle at the core–cladding boundary is about",
+        "marks": 1,
+        "options": [
+          "20.4°",
+          "41.8°",
+          "48.6°",
+          "69.6°"
+        ],
+        "answer": "D",
+        "model_answer": "**(D)** $\\sin c=1.5/1.6=0.9375$, $c\\approx69.6^\\circ$."
+      },
+      {
+        "id": "iv",
+        "stem": "Which of these uses optical fibres?",
+        "marks": 1,
+        "options": [
+          "X-ray imaging",
+          "endoscopy",
+          "microwave cooking",
+          "radar"
+        ],
+        "answer": "B",
+        "model_answer": "**(B)** Endoscopes carry light and images from inside the body."
+      }
+    ],
+    "topic": "TIR"
+  },
+  {
+    "id": "phy-09-q06",
+    "chapter": "ch-09",
+    "type": "vsa2",
+    "marks": 2,
+    "stars": 2,
+    "label": "PYQ-style",
+    "stem": "A convex glass lens ($n=1.5$) has a focal length of 20 cm in air. Find its focal length when it is immersed in water ($n=4/3$).",
+    "model_answer": "Lens maker's: $\\dfrac1f\\propto(n_{21}-1)$. In air $n_{21}=1.5$; in water $n_{21}=\\dfrac{1.5}{4/3}=1.125$. [1]<br>\n$\\dfrac{f_w}{f_a}=\\dfrac{1.5-1}{1.125-1}=4$, so $f_w=\\boxed{80\\text{ cm}}$ (still converging). [1]",
+    "scheme": [
+      {
+        "step": "Lens maker's: $\\dfrac1f\\propto(n_{21}-1)$. In air $n_{21}=1.5$; in water $n_{21}=\\dfrac{1.5}{4/3}=1.125$.",
+        "marks": 1
+      },
+      {
+        "step": "$\\dfrac{f_w}{f_a}=\\dfrac{1.5-1}{1.125-1}=4$, so $f_w=\\boxed{80\\text{ cm}}$ (still converging).",
+        "marks": 1
+      }
+    ],
+    "hint": "The radii don't change; only the relative refractive index does.",
+    "topic": "Lens maker"
+  },
+  {
+    "id": "phy-09-q07",
+    "chapter": "ch-09",
+    "type": "vsa2",
+    "marks": 2,
+    "stars": 2,
+    "label": "PYQ-style",
+    "stem": "A ray passes through an equilateral prism of refractive index $\\sqrt3$ in the position of minimum deviation. Find the angle of minimum deviation and the angle of incidence.",
+    "model_answer": "$n=\\dfrac{\\sin\\frac{A+\\delta_m}{2}}{\\sin\\frac A2}\\Rightarrow\\sin\\dfrac{60^\\circ+\\delta_m}{2}=\\sqrt3\\times\\sin30^\\circ=\\dfrac{\\sqrt3}{2}$ [1]<br>\n$\\dfrac{60^\\circ+\\delta_m}{2}=60^\\circ\\Rightarrow\\boxed{\\delta_m=60^\\circ}$; $i=\\dfrac{A+\\delta_m}{2}=\\boxed{60^\\circ}$ [1]",
+    "scheme": [
+      {
+        "step": "$n=\\dfrac{\\sin\\frac{A+\\delta_m}{2}}{\\sin\\frac A2}\\Rightarrow\\sin\\dfrac{60^\\circ+\\delta_m}{2}=\\sqrt3\\times\\sin30^\\circ=\\dfrac{\\sqrt3}{2}$",
+        "marks": 1
+      },
+      {
+        "step": "$\\dfrac{60^\\circ+\\delta_m}{2}=60^\\circ\\Rightarrow\\boxed{\\delta_m=60^\\circ}$; $i=\\dfrac{A+\\delta_m}{2}=\\boxed{60^\\circ}$",
+        "marks": 1
+      }
+    ],
+    "topic": "Prism"
+  },
+  {
+    "id": "phy-09-q08",
+    "chapter": "ch-09",
+    "type": "sa3",
+    "marks": 3,
+    "stars": 3,
+    "label": "PYQ-style",
+    "stem": "Draw a labelled ray diagram of a compound microscope forming the final image at the near point. Write the expression for its magnifying power.",
+    "model_answer": "Ray diagram: object just beyond $F_o$; objective forms a real, inverted, magnified image inside $F_e$; eyepiece forms the final virtual, inverted image at $D$; arrows on rays. [1½]<br>\n$m=m_om_e$ with $m_o=\\dfrac{L}{f_o}$ and $m_e=1+\\dfrac{D}{f_e}$, so $\\boxed{m=\\dfrac{L}{f_o}\\left(1+\\dfrac{D}{f_e}\\right)}$ [1½]",
+    "scheme": [
+      {
+        "step": "Ray diagram: object just beyond $F_o$; objective forms a real, inverted, magnified image inside $F_e$; eyepiece forms the final virtual, inverted image at $D$; arrows on rays.",
+        "marks": 1.5
+      },
+      {
+        "step": "$m=m_om_e$ with $m_o=\\dfrac{L}{f_o}$ and $m_e=1+\\dfrac{D}{f_e}$, so $\\boxed{m=\\dfrac{L}{f_o}\\left(1+\\dfrac{D}{f_e}\\right)}$",
+        "marks": 1.5
+      }
+    ],
+    "topic": "Microscope"
+  },
+  {
+    "id": "phy-09-q09",
+    "chapter": "ch-09",
+    "type": "sa3",
+    "marks": 3,
+    "stars": 3,
+    "label": "PYQ-style",
+    "stem": "An astronomical telescope has an objective of focal length 100 cm and an eyepiece of focal length 5 cm. Find (i) its magnifying power in normal adjustment, (ii) the length of the tube, (iii) its magnifying power when the final image is at the near point (25 cm).",
+    "model_answer": "(i) $m=\\dfrac{f_o}{f_e}=\\dfrac{100}{5}=\\boxed{20}$ [1]<br>\n(ii) $L=f_o+f_e=\\boxed{105\\text{ cm}}$ [1]<br>\n(iii) $m=\\dfrac{f_o}{f_e}\\left(1+\\dfrac{f_e}{D}\\right)=20\\left(1+\\dfrac{5}{25}\\right)=\\boxed{24}$ [1]",
+    "scheme": [
+      {
+        "step": "(i) $m=\\dfrac{f_o}{f_e}=\\dfrac{100}{5}=\\boxed{20}$",
+        "marks": 1
+      },
+      {
+        "step": "(ii) $L=f_o+f_e=\\boxed{105\\text{ cm}}$",
+        "marks": 1
+      },
+      {
+        "step": "(iii) $m=\\dfrac{f_o}{f_e}\\left(1+\\dfrac{f_e}{D}\\right)=20\\left(1+\\dfrac{5}{25}\\right)=\\boxed{24}$",
+        "marks": 1
+      }
+    ],
+    "topic": "Telescope"
+  },
+  {
+    "id": "phy-09-q10",
+    "chapter": "ch-09",
+    "type": "la5",
+    "marks": 5,
+    "stars": 3,
+    "label": "PYQ-style",
+    "stem": "(a) Using the relation for refraction at a single spherical surface, derive the lens maker's formula for a thin double convex lens. [3]<br>(b) A plano-convex lens of glass ($n=1.5$) has a curved surface of radius 10 cm. An object is placed 30 cm from it. Find the position and magnification of the image. [2]",
+    "model_answer": "(a) First surface ($R_1$), object in medium $n_1$, lens $n_2$: $\\dfrac{n_2}{v_1}-\\dfrac{n_1}{u}=\\dfrac{n_2-n_1}{R_1}$ [1]<br>\nThe image $I_1$ acts as the object for the second surface ($R_2$): $\\dfrac{n_1}{v}-\\dfrac{n_2}{v_1}=\\dfrac{n_1-n_2}{R_2}$; adding: $\\dfrac{n_1}{v}-\\dfrac{n_1}{u}=(n_2-n_1)\\left(\\dfrac1{R_1}-\\dfrac1{R_2}\\right)$ [1]<br>\nFor $u=\\infty$, $v=f$: $\\boxed{\\dfrac1f=(n_{21}-1)\\left(\\dfrac1{R_1}-\\dfrac1{R_2}\\right)}$ (and in general $\\dfrac1v-\\dfrac1u=\\dfrac1f$). [1]<br>\n(b) $\\dfrac1f=(1.5-1)\\left(\\dfrac1{10}-\\dfrac1\\infty\\right)\\Rightarrow f=20$ cm [1]<br>\n$\\dfrac1v=\\dfrac1{20}+\\dfrac1{-30}=\\dfrac1{60}$: $\\boxed{v=60\\text{ cm}}$ on the other side (real); $m=\\dfrac vu=\\boxed{-2}$ (inverted, twice the size). [1]",
+    "scheme": [
+      {
+        "step": "(a) First surface ($R_1$), object in medium $n_1$, lens $n_2$: $\\dfrac{n_2}{v_1}-\\dfrac{n_1}{u}=\\dfrac{n_2-n_1}{R_1}$",
+        "marks": 1
+      },
+      {
+        "step": "The image $I_1$ acts as the object for the second surface ($R_2$): $\\dfrac{n_1}{v}-\\dfrac{n_2}{v_1}=\\dfrac{n_1-n_2}{R_2}$; adding: $\\dfrac{n_1}{v}-\\dfrac{n_1}{u}=(n_2-n_1)\\left(\\dfrac1{R_1}-\\dfrac1{R_2}\\right)$",
+        "marks": 1
+      },
+      {
+        "step": "For $u=\\infty$, $v=f$: $\\boxed{\\dfrac1f=(n_{21}-1)\\left(\\dfrac1{R_1}-\\dfrac1{R_2}\\right)}$ (and in general $\\dfrac1v-\\dfrac1u=\\dfrac1f$).",
+        "marks": 1
+      },
+      {
+        "step": "(b) $\\dfrac1f=(1.5-1)\\left(\\dfrac1{10}-\\dfrac1\\infty\\right)\\Rightarrow f=20$ cm",
+        "marks": 1
+      },
+      {
+        "step": "$\\dfrac1v=\\dfrac1{20}+\\dfrac1{-30}=\\dfrac1{60}$: $\\boxed{v=60\\text{ cm}}$ on the other side (real); $m=\\dfrac vu=\\boxed{-2}$ (inverted, twice the size).",
+        "marks": 1
+      }
+    ],
+    "topic": "Lens maker"
+  }
+]

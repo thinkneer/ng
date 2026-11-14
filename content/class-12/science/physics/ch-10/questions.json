@@ -1,0 +1,238 @@
+[
+  {
+    "id": "phy-10-q01",
+    "chapter": "ch-10",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ-style",
+    "stem": "A Young's double-slit apparatus is immersed in water ($n=4/3$). The fringe width, which was $\\beta$ in air, becomes",
+    "options": [
+      "$\\beta$",
+      "$\\tfrac43\\beta$",
+      "$\\tfrac34\\beta$",
+      "$\\tfrac{16}{9}\\beta$"
+    ],
+    "answer": "C",
+    "model_answer": "**(C) $\\tfrac34\\beta$** $\\lambda$ becomes $\\lambda/n$, and $\\beta\\propto\\lambda$, so $\\beta'=\\beta/n=\\tfrac34\\beta$.",
+    "topic": "YDSE"
+  },
+  {
+    "id": "phy-10-q02",
+    "chapter": "ch-10",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 1,
+    "label": "PYQ-style",
+    "stem": "Two coherent sources have intensities in the ratio 9 : 1. The ratio of maximum to minimum intensity in the interference pattern is",
+    "options": [
+      "4 : 1",
+      "9 : 1",
+      "16 : 1",
+      "2 : 1"
+    ],
+    "answer": "A",
+    "model_answer": "**(A) 4 : 1** Amplitudes are in the ratio 3 : 1. $\\dfrac{I_\\text{max}}{I_\\text{min}}=\\left(\\dfrac{3+1}{3-1}\\right)^2=4$.",
+    "topic": "Interference"
+  },
+  {
+    "id": "phy-10-q03",
+    "chapter": "ch-10",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ-style",
+    "stem": "In single-slit diffraction, if the slit is made wider, the central maximum",
+    "options": [
+      "becomes wider",
+      "becomes narrower",
+      "stays the same",
+      "disappears"
+    ],
+    "answer": "B",
+    "model_answer": "**(B) becomes narrower** Width of the central maximum $=2\\lambda D/a$, so it narrows as $a$ increases.",
+    "topic": "Diffraction"
+  },
+  {
+    "id": "phy-10-q04",
+    "chapter": "ch-10",
+    "type": "ar",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ-style",
+    "stem": "**Assertion (A):** In Young's experiment, if one of the two slits is covered, the interference fringes disappear.<br>**Reason (R):** A steady interference pattern needs two coherent sources.",
+    "options": [
+      "Both A and R are true, and R is the correct explanation of A.",
+      "Both A and R are true, but R is not the correct explanation of A.",
+      "A is true, but R is false.",
+      "Both A and R are false."
+    ],
+    "answer": "A",
+    "model_answer": "**(A)** With one slit only, there is a single source; the screen shows just the broad single-slit diffraction pattern.",
+    "topic": "YDSE"
+  },
+  {
+    "id": "phy-10-q05",
+    "chapter": "ch-10",
+    "type": "case",
+    "marks": 4,
+    "stars": 3,
+    "label": "PYQ-style",
+    "stem": "**Measuring the wavelength of light.** In a school laboratory, a student sets up Young's double slit with slit separation 0.5 mm and the screen 1.0 m away, using light of wavelength 500 nm.",
+    "parts": [
+      {
+        "id": "i",
+        "stem": "The fringe width is",
+        "marks": 1,
+        "options": [
+          "0.1 mm",
+          "0.5 mm",
+          "1.0 mm",
+          "2.0 mm"
+        ],
+        "answer": "C",
+        "model_answer": "**(C)** $\\beta=\\dfrac{\\lambda D}{d}=\\dfrac{500\\times10^{-9}\\times1}{0.5\\times10^{-3}}=1\\times10^{-3}$ m."
+      },
+      {
+        "id": "ii",
+        "stem": "The third bright fringe is at a distance from the centre of",
+        "marks": 1,
+        "options": [
+          "1 mm",
+          "2.5 mm",
+          "3 mm",
+          "3.5 mm"
+        ],
+        "answer": "C",
+        "model_answer": "**(C)** $y_3=3\\beta=3$ mm."
+      },
+      {
+        "id": "iii",
+        "stem": "If the screen is moved to 2.0 m, the fringe width becomes",
+        "marks": 1,
+        "options": [
+          "0.5 mm",
+          "1 mm",
+          "2 mm",
+          "4 mm"
+        ],
+        "answer": "C",
+        "model_answer": "**(C)** $\\beta\\propto D$."
+      },
+      {
+        "id": "iv",
+        "stem": "If white light is used instead, the central fringe is",
+        "marks": 1,
+        "options": [
+          "dark",
+          "white",
+          "red",
+          "violet"
+        ],
+        "answer": "B",
+        "model_answer": "**(B)** Every wavelength has zero path difference at the centre, so all colours are bright there."
+      }
+    ],
+    "topic": "YDSE"
+  },
+  {
+    "id": "phy-10-q06",
+    "chapter": "ch-10",
+    "type": "vsa2",
+    "marks": 2,
+    "stars": 2,
+    "label": "PYQ-style",
+    "stem": "State Huygens' principle. Draw the shape of the wavefront for light (a) from a point source nearby, (b) from a distant star.",
+    "model_answer": "Every point on a wavefront is a source of secondary wavelets moving at the speed of the wave; the new wavefront is their forward envelope. [1]<br>\n(a) Spherical wavefronts with radial rays; (b) plane wavefronts with parallel rays (diagrams). [1]",
+    "scheme": [
+      {
+        "step": "Every point on a wavefront is a source of secondary wavelets moving at the speed of the wave; the new wavefront is their forward envelope.",
+        "marks": 1
+      },
+      {
+        "step": "(a) Spherical wavefronts with radial rays; (b) plane wavefronts with parallel rays (diagrams).",
+        "marks": 1
+      }
+    ],
+    "topic": "Huygens principle"
+  },
+  {
+    "id": "phy-10-q07",
+    "chapter": "ch-10",
+    "type": "vsa2",
+    "marks": 2,
+    "stars": 2,
+    "label": "PYQ-style",
+    "stem": "Give two differences between the interference pattern of a double slit and the diffraction pattern of a single slit.",
+    "model_answer": "Interference: all fringes of equal width. Diffraction: central maximum twice as wide as the others. [1]<br>\nInterference: all bright fringes equally intense (dark ones perfectly dark). Diffraction: intensity falls rapidly for higher orders (minima not perfectly dark). [1]",
+    "scheme": [
+      {
+        "step": "Interference: all fringes of equal width. Diffraction: central maximum twice as wide as the others.",
+        "marks": 1
+      },
+      {
+        "step": "Interference: all bright fringes equally intense (dark ones perfectly dark). Diffraction: intensity falls rapidly for higher orders (minima not perfectly dark).",
+        "marks": 1
+      }
+    ],
+    "topic": "Diffraction"
+  },
+  {
+    "id": "phy-10-q08",
+    "chapter": "ch-10",
+    "type": "sa3",
+    "marks": 3,
+    "stars": 2,
+    "label": "PYQ-style",
+    "stem": "Light of wavelength 600 nm falls normally on a slit of width 0.2 mm. The pattern is seen on a screen 2 m away. Find (i) the angular position of the first minimum, (ii) the linear width of the central maximum, (iii) the new width if the slit width is halved.",
+    "model_answer": "(i) $a\\sin\\theta=\\lambda\\Rightarrow\\theta\\approx\\dfrac{\\lambda}{a}=\\dfrac{600\\times10^{-9}}{2\\times10^{-4}}=\\boxed{3\\times10^{-3}\\text{ rad}}$ [1]<br>\n(ii) Width $=\\dfrac{2\\lambda D}{a}=2\\times3\\times10^{-3}\\times2=\\boxed{1.2\\times10^{-2}\\text{ m}=12\\text{ mm}}$ [1]<br>\n(iii) Width $\\propto1/a$: $\\boxed{24\\text{ mm}}$ [1]",
+    "scheme": [
+      {
+        "step": "(i) $a\\sin\\theta=\\lambda\\Rightarrow\\theta\\approx\\dfrac{\\lambda}{a}=\\dfrac{600\\times10^{-9}}{2\\times10^{-4}}=\\boxed{3\\times10^{-3}\\text{ rad}}$",
+        "marks": 1
+      },
+      {
+        "step": "(ii) Width $=\\dfrac{2\\lambda D}{a}=2\\times3\\times10^{-3}\\times2=\\boxed{1.2\\times10^{-2}\\text{ m}=12\\text{ mm}}$",
+        "marks": 1
+      },
+      {
+        "step": "(iii) Width $\\propto1/a$: $\\boxed{24\\text{ mm}}$",
+        "marks": 1
+      }
+    ],
+    "topic": "Diffraction"
+  },
+  {
+    "id": "phy-10-q09",
+    "chapter": "ch-10",
+    "type": "la5",
+    "marks": 5,
+    "stars": 3,
+    "label": "PYQ-style",
+    "stem": "(a) Use Huygens' principle to verify Snell's law of refraction for a plane wavefront going from a rarer to a denser medium. Draw the diagram. [3]<br>(b) In Young's experiment the fringe width is 3 mm with light of wavelength 600 nm. Find the fringe width with light of 400 nm, and the distance of the second dark fringe from the centre for 600 nm. [2]",
+    "model_answer": "(a) Diagram: incident wavefront AB, surface AC, wavelet of radius $v_2\\tau$ centred at A, tangent CE (refracted wavefront), angles $i$, $r$. [1]<br>\nIn time $\\tau$: $BC=v_1\\tau=AC\\sin i$ and $AE=v_2\\tau=AC\\sin r$. [1]<br>\nDividing: $\\boxed{\\dfrac{\\sin i}{\\sin r}=\\dfrac{v_1}{v_2}=n_{21}}$, Snell's law (and $v_2<v_1$ in the denser medium). [1]<br>\n(b) $\\beta\\propto\\lambda$: $\\beta'=3\\times\\dfrac{400}{600}=\\boxed{2\\text{ mm}}$ [1]<br>\nSecond dark fringe: $y=\\left(1+\\tfrac12\\right)\\beta=1.5\\times3=\\boxed{4.5\\text{ mm}}$ [1]",
+    "scheme": [
+      {
+        "step": "(a) Diagram: incident wavefront AB, surface AC, wavelet of radius $v_2\\tau$ centred at A, tangent CE (refracted wavefront), angles $i$, $r$.",
+        "marks": 1
+      },
+      {
+        "step": "In time $\\tau$: $BC=v_1\\tau=AC\\sin i$ and $AE=v_2\\tau=AC\\sin r$.",
+        "marks": 1
+      },
+      {
+        "step": "Dividing: $\\boxed{\\dfrac{\\sin i}{\\sin r}=\\dfrac{v_1}{v_2}=n_{21}}$, Snell's law (and $v_2<v_1$ in the denser medium).",
+        "marks": 1
+      },
+      {
+        "step": "(b) $\\beta\\propto\\lambda$: $\\beta'=3\\times\\dfrac{400}{600}=\\boxed{2\\text{ mm}}$",
+        "marks": 1
+      },
+      {
+        "step": "Second dark fringe: $y=\\left(1+\\tfrac12\\right)\\beta=1.5\\times3=\\boxed{4.5\\text{ mm}}$",
+        "marks": 1
+      }
+    ],
+    "topic": "Huygens principle"
+  }
+]

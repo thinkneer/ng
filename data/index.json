@@ -508,11 +508,25 @@
                       "number": 8,
                       "title": "Electromagnetic Waves",
                       "unit": "V",
-                      "items": {},
-                      "marks_hint": null,
-                      "summary": null,
-                      "questions": 0,
-                      "question_types": {}
+                      "items": {
+                        "notes": true,
+                        "mustknow": true,
+                        "formulas": true,
+                        "questions": true
+                      },
+                      "marks_hint": "Unit V+VI: 18 marks together (CBSE 2026–27); Ch 8 is usually 2–3 of them (estimate)",
+                      "summary": "Displacement current · properties of EM waves · the EM spectrum, sources and uses",
+                      "questions": 8,
+                      "question_types": {
+                        "mcq": 3,
+                        "ar": 1,
+                        "case": 1,
+                        "vsa2": 2,
+                        "sa3": 1
+                      },
+                      "diagrams": [],
+                      "words": 2319,
+                      "read_minutes": 8
                     }
                   ]
                 },
@@ -528,22 +542,52 @@
                       "number": 9,
                       "title": "Ray Optics and Optical Instruments",
                       "unit": "VI",
-                      "items": {},
-                      "marks_hint": null,
-                      "summary": null,
-                      "questions": 0,
-                      "question_types": {}
+                      "items": {
+                        "notes": true,
+                        "mustknow": true,
+                        "formulas": true,
+                        "questions": true
+                      },
+                      "marks_hint": "Unit V+VI: 18 marks together (CBSE 2026–27); Ch 9 is usually 9–11 of them (estimate)",
+                      "summary": "Mirrors · refraction · TIR · spherical surfaces · lenses and lens maker's formula · power · prism · microscope · telescope",
+                      "questions": 10,
+                      "question_types": {
+                        "mcq": 3,
+                        "ar": 1,
+                        "case": 1,
+                        "vsa2": 2,
+                        "sa3": 2,
+                        "la5": 1
+                      },
+                      "diagrams": [],
+                      "words": 3721,
+                      "read_minutes": 14
                     },
                     {
                       "id": "ch-10",
                       "number": 10,
                       "title": "Wave Optics",
                       "unit": "VI",
-                      "items": {},
-                      "marks_hint": null,
-                      "summary": null,
-                      "questions": 0,
-                      "question_types": {}
+                      "items": {
+                        "notes": true,
+                        "mustknow": true,
+                        "formulas": true,
+                        "questions": true
+                      },
+                      "marks_hint": "Unit V+VI: 18 marks together (CBSE 2026–27); Ch 10 is usually 5–7 of them (estimate)",
+                      "summary": "Wavefronts · Huygens' principle · reflection and refraction · coherent sources · interference and YDSE · single-slit diffraction",
+                      "questions": 9,
+                      "question_types": {
+                        "mcq": 3,
+                        "ar": 1,
+                        "case": 1,
+                        "vsa2": 2,
+                        "sa3": 1,
+                        "la5": 1
+                      },
+                      "diagrams": [],
+                      "words": 2730,
+                      "read_minutes": 10
                     }
                   ]
                 },
@@ -648,10 +692,10 @@
               },
               "papers": [],
               "counts": {
-                "notes": 7,
-                "mustknow": 7,
-                "formulas": 7,
-                "questions": 7,
+                "notes": 10,
+                "mustknow": 10,
+                "formulas": 10,
+                "questions": 10,
                 "chapters": 14
               }
             },

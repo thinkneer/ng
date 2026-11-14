@@ -1,0 +1,205 @@
+[
+  {
+    "id": "phy-08-q01",
+    "chapter": "ch-08",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ-style",
+    "stem": "Which of these electromagnetic waves has the shortest wavelength?",
+    "options": [
+      "microwaves",
+      "ultraviolet",
+      "X-rays",
+      "gamma rays"
+    ],
+    "answer": "D",
+    "model_answer": "**(D) gamma rays** Gamma rays have the highest frequency, so the shortest wavelength.",
+    "topic": "EM spectrum"
+  },
+  {
+    "id": "phy-08-q02",
+    "chapter": "ch-08",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ-style",
+    "stem": "The magnetic field of an EM wave in vacuum has amplitude $2\\times10^{-8}$ T. The amplitude of its electric field is",
+    "options": [
+      "$6$ V m⁻¹",
+      "$0.6$ V m⁻¹",
+      "$6.7\\times10^{-17}$ V m⁻¹",
+      "$60$ V m⁻¹"
+    ],
+    "answer": "A",
+    "model_answer": "**(A) $6$ V m⁻¹** $E_0=cB_0=3\\times10^8\\times2\\times10^{-8}=6$ V m⁻¹.",
+    "topic": "EM wave properties"
+  },
+  {
+    "id": "phy-08-q03",
+    "chapter": "ch-08",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ-style",
+    "stem": "A 2 µF capacitor is being charged so that the voltage across it rises at $5\\times10^{4}$ V s⁻¹. The displacement current between its plates is",
+    "options": [
+      "0.01 A",
+      "0.1 A",
+      "1 A",
+      "zero"
+    ],
+    "answer": "B",
+    "model_answer": "**(B) 0.1 A** $i_d=i_c=\\dfrac{dQ}{dt}=C\\dfrac{dV}{dt}=2\\times10^{-6}\\times5\\times10^4=0.1$ A.",
+    "topic": "Displacement current"
+  },
+  {
+    "id": "phy-08-q04",
+    "chapter": "ch-08",
+    "type": "ar",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ-style",
+    "stem": "**Assertion (A):** Electromagnetic waves can travel through a vacuum.<br>**Reason (R):** In an EM wave, the changing electric and magnetic fields keep producing each other and need no material medium.",
+    "options": [
+      "Both A and R are true, and R is the correct explanation of A.",
+      "Both A and R are true, but R is not the correct explanation of A.",
+      "A is true, but R is false.",
+      "Both A and R are false."
+    ],
+    "answer": "A",
+    "model_answer": "**(A)** A changing E creates B (displacement current) and a changing B creates E (induction), so the wave sustains itself without a medium.",
+    "topic": "EM wave properties"
+  },
+  {
+    "id": "phy-08-q05",
+    "chapter": "ch-08",
+    "type": "case",
+    "marks": 4,
+    "stars": 2,
+    "label": "PYQ-style",
+    "stem": "**EM waves in a hospital.** A hospital uses several kinds of electromagnetic radiation: lamps to sterilise surgical instruments, imaging of bones, treatment of some cancers by radiation from radioactive cobalt, and heat lamps in the physiotherapy unit.",
+    "parts": [
+      {
+        "id": "i",
+        "stem": "Sterilising instruments and killing germs uses",
+        "marks": 1,
+        "options": [
+          "infrared",
+          "ultraviolet",
+          "microwaves",
+          "radio waves"
+        ],
+        "answer": "B",
+        "model_answer": "**(B)** UV radiation kills bacteria."
+      },
+      {
+        "id": "ii",
+        "stem": "X-rays used for imaging bones have wavelengths roughly in the range",
+        "marks": 1,
+        "options": [
+          "700–400 nm",
+          "1 mm–700 nm",
+          "1 nm–$10^{-3}$ nm",
+          "0.1 m–1 mm"
+        ],
+        "answer": "C",
+        "model_answer": "**(C)**"
+      },
+      {
+        "id": "iii",
+        "stem": "Radiation from radioactive cobalt used to treat cancer is",
+        "marks": 1,
+        "options": [
+          "gamma rays",
+          "visible light",
+          "infrared",
+          "microwaves"
+        ],
+        "answer": "A",
+        "model_answer": "**(A)** Gamma rays come from nuclei."
+      },
+      {
+        "id": "iv",
+        "stem": "Physiotherapy heat lamps mainly give out",
+        "marks": 1,
+        "options": [
+          "ultraviolet",
+          "X-rays",
+          "infrared",
+          "gamma rays"
+        ],
+        "answer": "C",
+        "model_answer": "**(C)** Infrared radiation is absorbed as heat."
+      }
+    ],
+    "topic": "EM spectrum"
+  },
+  {
+    "id": "phy-08-q06",
+    "chapter": "ch-08",
+    "type": "vsa2",
+    "marks": 2,
+    "stars": 2,
+    "label": "PYQ-style",
+    "stem": "What is displacement current? Why was it needed to make Ampère's circuital law consistent?",
+    "model_answer": "Displacement current is the current due to a changing electric flux: $i_d=\\varepsilon_0\\dfrac{d\\Phi_E}{dt}$. [1]<br>\nIn a charging capacitor, a surface through the gap carries no conduction current, though one cut by the wire does; adding $i_d$ (equal to $i_c$ in the gap) makes $\\oint\\vec B\\cdot d\\vec l=\\mu_0(i_c+i_d)$ the same for every surface. [1]",
+    "scheme": [
+      {
+        "step": "Displacement current is the current due to a changing electric flux: $i_d=\\varepsilon_0\\dfrac{d\\Phi_E}{dt}$.",
+        "marks": 1
+      },
+      {
+        "step": "In a charging capacitor, a surface through the gap carries no conduction current, though one cut by the wire does; adding $i_d$ (equal to $i_c$ in the gap) makes $\\oint\\vec B\\cdot d\\vec l=\\mu_0(i_c+i_d)$ the same for every surface.",
+        "marks": 1
+      }
+    ],
+    "topic": "Displacement current"
+  },
+  {
+    "id": "phy-08-q07",
+    "chapter": "ch-08",
+    "type": "vsa2",
+    "marks": 2,
+    "stars": 2,
+    "label": "PYQ-style",
+    "stem": "Draw a sketch of a plane electromagnetic wave travelling along the $x$-axis, showing the electric and magnetic fields. Write the expression for its speed in vacuum.",
+    "model_answer": "Sketch: $\\vec E$ oscillating along $y$, $\\vec B$ along $z$, in phase, both perpendicular to the direction of travel $x$. [1]<br>\n$c=\\dfrac{1}{\\sqrt{\\mu_0\\varepsilon_0}}=3\\times10^8$ m s⁻¹ (and $E_0/B_0=c$). [1]",
+    "scheme": [
+      {
+        "step": "Sketch: $\\vec E$ oscillating along $y$, $\\vec B$ along $z$, in phase, both perpendicular to the direction of travel $x$.",
+        "marks": 1
+      },
+      {
+        "step": "$c=\\dfrac{1}{\\sqrt{\\mu_0\\varepsilon_0}}=3\\times10^8$ m s⁻¹ (and $E_0/B_0=c$).",
+        "marks": 1
+      }
+    ],
+    "topic": "EM wave properties"
+  },
+  {
+    "id": "phy-08-q08",
+    "chapter": "ch-08",
+    "type": "sa3",
+    "marks": 3,
+    "stars": 3,
+    "label": "PYQ-style",
+    "stem": "Identify the electromagnetic waves (i) used in radar systems, (ii) produced when high-energy electrons strike a metal target, (iii) largely absorbed by the ozone layer. Give one use of each, and arrange them in order of increasing wavelength.",
+    "model_answer": "(i) Microwaves: radar, microwave ovens. (ii) X-rays: medical diagnosis. [1]<br>\n(iii) Ultraviolet: water purification / killing germs / LASIK. [1]<br>\nIncreasing wavelength: X-rays < ultraviolet < microwaves. [1]",
+    "scheme": [
+      {
+        "step": "(i) Microwaves: radar, microwave ovens. (ii) X-rays: medical diagnosis.",
+        "marks": 1
+      },
+      {
+        "step": "(iii) Ultraviolet: water purification / killing germs / LASIK.",
+        "marks": 1
+      },
+      {
+        "step": "Increasing wavelength: X-rays < ultraviolet < microwaves.",
+        "marks": 1
+      }
+    ],
+    "topic": "EM spectrum"
+  }
+]

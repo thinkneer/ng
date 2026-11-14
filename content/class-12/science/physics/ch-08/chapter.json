@@ -1,0 +1,16 @@
+{
+  "$schema": "../../../../../schemas/chapter.schema.json",
+  "id": "ch-08",
+  "number": 8,
+  "title": "Electromagnetic Waves",
+  "unit": "V",
+  "marks_hint": "Unit V+VI: 18 marks together (CBSE 2026–27); Ch 8 is usually 2–3 of them (estimate)",
+  "summary": "Displacement current · properties of EM waves · the EM spectrum, sources and uses",
+  "status": {
+    "notes": "ready",
+    "mustknow": "ready",
+    "formulas": "ready",
+    "questions": "ready"
+  },
+  "updated": "2026-11-14"
+}

@@ -1,0 +1,16 @@
+{
+  "$schema": "../../../../../schemas/chapter.schema.json",
+  "id": "ch-09",
+  "number": 9,
+  "title": "Ray Optics and Optical Instruments",
+  "unit": "VI",
+  "marks_hint": "Unit V+VI: 18 marks together (CBSE 2026–27); Ch 9 is usually 9–11 of them (estimate)",
+  "summary": "Mirrors · refraction · TIR · spherical surfaces · lenses and lens maker's formula · power · prism · microscope · telescope",
+  "status": {
+    "notes": "ready",
+    "mustknow": "ready",
+    "formulas": "ready",
+    "questions": "ready"
+  },
+  "updated": "2026-11-14"
+}
