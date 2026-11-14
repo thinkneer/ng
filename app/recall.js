@@ -100,14 +100,16 @@ export function answer(card, got) {
     const box = got ? Math.min(prev.box + 1, INTERVALS.length - 1) : 0;
     const due = new Date(d); due.setDate(due.getDate() + INTERVALS[box]);
     p.recall[card.id] = { box, due: toISO(due), seen: prev.seen + 1, last: toISO(d), key: card.key, got: (prev.got || 0) + (got ? 1 : 0), again: (prev.again || 0) + (got ? 0 : 1) };
+    if (card.deck) p.recall[card.id].deck = 1; // a picture card from cards.json: counted under "Cards for today", not "lines due"
     return p;
   });
 }
-/** Summary across all seen cards: due today, overdue, total seen, per chapter. */
+/** Summary across all seen cards: due today, overdue, total seen, per chapter. Picture cards (deck) are counted apart. */
 export function summary() {
   const s = state(); const d = today();
-  const out = { due: 0, seen: 0, byChapter: {} };
+  const out = { due: 0, seen: 0, byChapter: {}, cardsDue: 0, cardsDueIds: [] };
   for (const [id, x] of Object.entries(s)) {
+    if (x.deck) { if (parseDate(x.due) <= d) { out.cardsDue++; out.cardsDueIds.push(id); } continue; }
     out.seen++;
     const bc = (out.byChapter[x.key] ||= { due: 0, seen: 0, again: 0 });
     bc.seen++; bc.again += x.again || 0;

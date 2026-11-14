@@ -26,6 +26,11 @@ export async function today() {
   const rs = recallSummary();
   const dbMode = await isDbMode();
   const staff = ['admin', 'teacher'].includes(session()?.role);
+  // Cards for today: the chapter being read + picture cards due on the Leitner schedule
+  const lastSub = last && mine.find((m) => m.id === last.sub);
+  const lastCh = lastSub && data.chapterOf(lastSub, last.ch).chapter;
+  const curCards = lastCh?.items?.cards ? lastCh.cards : 0;
+  const saved = (progress.mycards || []).length;
 
   return {
     title: 'Today', largeTitle: true, tab: 'today',
@@ -48,6 +53,8 @@ export async function today() {
         <span class="continue__main"><span class="continue__title">${rs.due ? `${rs.due} lines due today` : rs.seen ? 'Nothing due today' : 'Start recalling'}</span><span class="continue__sec" style="color:var(--text-2);font-weight:500">${rs.due ? `about ${rs.minutes} min · tap to go` : rs.seen ? `${rs.seen} cards on your schedule · come back tomorrow` : 'Open a chapter → Must know → Recall. Missed lines come back tomorrow.'}</span></span>
         ${raw(icon('chevronRight', { class: 'chev', size: 20 }))}
       </a>
+      ${curCards || rs.cardsDue ? raw(`<a class="card continue pressable mt-3" href="#/cards/today" style="--unit:#${curCards ? last.colour : '0E8A7E'}"><span class="list__leading">${icon('cards')}</span><span class="continue__main"><span class="continue__title">Cards for today</span><span class="continue__sec" style="color:var(--text-2);font-weight:500">${[rs.cardsDue ? `${rs.cardsDue} due` : '', curCards ? `Ch ${lastCh.number} · ${esc(lastCh.title)}` : ''].filter(Boolean).join(' · ')} · swipe through</span></span>${icon('chevronRight', { class: 'chev', size: 20 })}</a>`) : ''}
+      ${saved ? raw(`<a class="card continue pressable mt-3" href="#/cards/mine" style="--unit:#B0204F"><span class="list__leading">${icon('heart')}</span><span class="continue__main"><span class="continue__title">My cards</span><span class="continue__sec" style="color:var(--text-2);font-weight:500">${saved} saved</span></span>${icon('chevronRight', { class: 'chev', size: 20 })}</a>`) : ''}
       ${dbMode ? raw(`<a class="card continue pressable mt-3" href="#/live" style="--unit:#6A3FA0"><span class="list__leading">${icon('bolt')}</span><span class="continue__main"><span class="continue__title">Live quiz</span><span class="continue__sec" style="color:var(--text-2);font-weight:500">${staff ? 'Host one for the class, or join with a code' : 'Teacher gave you a code? Join here'}</span></span>${icon('chevronRight', { class: 'chev', size: 20 })}</a>`) : ''}
       ${last ? raw(`<div class="section-head"><h2>Continue reading</h2></div>
       <a class="card continue pressable" href="${routeFor(last.cls, last.stream, last.sub, last.ch, 'read')}" style="--unit:#${last.colour}">

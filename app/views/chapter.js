@@ -1,4 +1,4 @@
-import { html, raw, icon, esc, emptyState, skeletonList, toast, haptic, openSheet } from '../ui.js';
+import { html, raw, icon, esc, emptyState, skeletonList, toast, haptic, openSheet, unitBar } from '../ui.js';
 import { data, routeFor } from '../data.js';
 import { store } from '../store.js';
 import { preloadMarkdown } from '../markdown.js';
@@ -13,10 +13,12 @@ export async function chapter(route) {
   if (!sub) return { title: 'Not found', tab: 'subjects', html: emptyState({ icon: 'alert', title: 'No such subject' }) };
   if (route.chapterId === 'formulas' && route.tab === 'drill') { const { recallFormulas } = await import('./recall.js'); return recallFormulas({ cls, stream, sub }); }
   if (route.chapterId === 'formulas') { const { formulaSheet } = await import('./formulas.js'); return formulaSheet({ cls, stream, sub }); }
+  if (route.chapterId === 'cards') { const { unitDeck } = await import('./cards.js'); return unitDeck({ cls, stream, sub, unitId: route.tab }); }
   if (route.chapterId === 'exam-eve') { const { examEve } = await import('./exameve.js'); return examEve({ cls, stream, sub }); }
   const { unit, chapter: ch } = data.chapterOf(sub, route.chapterId);
   if (!ch) return { title: 'Not found', tab: 'subjects', back: routeFor(cls.id, stream.id, sub.id), html: emptyState({ icon: 'alert', title: 'No such chapter', action: `<a class="btn btn--secondary" href="${routeFor(cls.id, stream.id, sub.id)}">Back to ${esc(sub.name)}</a>` }) };
   if (route.tab === 'read') { const { reader } = await import('./reader.js'); return reader({ cls, stream, sub, unit, ch }); }
+  if (route.tab === 'cards') { const { chapterDeck } = await import('./cards.js'); return chapterDeck({ cls, stream, sub, unit, ch }); }
   if (route.tab === 'recall') { const { recallChapter } = await import('./recall.js'); return recallChapter({ cls, stream, sub, unit, ch }); }
   if (route.tab === 'quiz') { const { quizChapter } = await import('./quiz.js'); return quizChapter({ cls, stream, sub, unit, ch, type: route.extra || 'all' }); }
   if (route.tab === 'formulas') route = { ...route, tab: 'mustknow' }; // old links
@@ -34,7 +36,7 @@ export async function chapter(route) {
     title: `Ch ${ch.number} · ${ch.title}`, tab: 'subjects', back: routeFor(cls.id, stream.id, sub.id), backLabel: sub.name, unitColour: unit.colour, wide: true,
     actions: `<a class="icon-btn" href="${base}/read" aria-label="Reading mode" title="Reading mode">${icon('book')}</a><button class="icon-btn" type="button" data-highlights aria-label="Highlights and my notes" title="Highlights and my notes">${icon('highlight')}</button><button class="icon-btn hide-phone" type="button" data-print aria-label="Print" title="Print">${icon('print')}</button>`,
     html: html`
-      <div class="unit-bar" style="--unit:#${unit.colour};margin-top:var(--s-3)"><span>${esc(sub.name)} · Unit ${esc(unit.id)} · ${esc(unit.name)}</span><span class="marks">${unit.marks} marks</span></div>
+      ${raw(unitBar(unit, { href: unit.chapters.some((c) => c.items?.cards) ? routeFor(cls.id, stream.id, sub.id, 'cards', unit.id) : null, label: `${esc(sub.name)} · Unit ${esc(unit.id)} · ${esc(unit.name)}`, style: 'margin-top:var(--s-3)' }))}
       <h1 class="t-title" style="margin:var(--s-2) 0 var(--s-3)"><span class="t-2" style="font-weight:600">${ch.number}.</span> ${ch.title}</h1>
       <div class="segmented" role="tablist" aria-label="Chapter sections" style="--unit:#${unit.colour}">
         ${TABS.map((t) => raw(`<a class="segmented__btn" role="tab" href="${base}/${t.id}" aria-selected="${t.id === tab}" ${t.id === tab ? 'aria-current="page"' : ''}>${t.label}</a>`))}
@@ -77,13 +79,13 @@ async function renderTab(tab, ctx) {
       const { cardsFrom, summary } = await import('../recall.js');
       const n = cardsFrom(src, { subject: sub.id, chapter: ch.id }).length;
       const due = summary().byChapter[key]?.due || 0;
-      panel.innerHTML = `<div class="card card--tint row mb-4" style="--unit:#${unit.colour}"><span class="list__leading">${icon('bolt')}</span><div class="grow"><div class="t-headline">Recall this chapter</div><div class="t-2 t-footnote">${n} cards${n > 25 ? ', 25 a round' : ''}${due ? ` · <strong>${due} due today</strong>` : ''} · about ${Math.max(1, Math.ceil(Math.min(n, 25) / 4))} min</div></div><a class="btn btn--unit btn--sm" href="${routeFor(ctx.cls.id, ctx.stream.id, sub.id, ch.id, 'recall')}">Start</a></div>`;
+      panel.innerHTML = `<div class="card card--tint row mb-4" style="--unit:#${unit.colour}"><span class="list__leading">${icon('bolt')}</span><div class="grow"><div class="t-headline">Recall this chapter</div><div class="t-2 t-footnote">${n} lines${n > 25 ? ', 25 a round' : ''}${due ? ` · <strong>${due} due today</strong>` : ''} · about ${Math.max(1, Math.ceil(Math.min(n, 25) / 4))} min</div></div><a class="btn btn--unit btn--sm" href="${routeFor(ctx.cls.id, ctx.stream.id, sub.id, ch.id, 'recall')}">Start</a></div>${ch.items?.cards ? `<div class="row mb-4" style="gap:var(--s-2)">${cardsButton(ctx)}</div>` : ''}`;
       panel.appendChild(node);
       panel.insertAdjacentHTML('beforeend', '<p class="legend"><span><span class="stars">★★★</span> most years</span><span><span class="stars">★★</span> often</span><span><span class="stars">★</span> sometimes</span><span>· estimates</span></p>');
       panel.insertAdjacentHTML('beforeend', progressSection(key));
       mountProgress(panel, key);
     } else {
-      panel.innerHTML = `<div class="row mb-4" style="gap:var(--s-2);flex-wrap:wrap"><a class="btn btn--unit btn--sm" href="${routeFor(ctx.cls.id, ctx.stream.id, sub.id, ch.id, 'read')}" style="--unit:#${unit.colour}">${icon('book')} Read full screen</a>${ch.read_minutes ? `<span class="t-footnote t-2">about ${ch.read_minutes} min</span>` : ''}</div>`;
+      panel.innerHTML = `<div class="row mb-4" style="gap:var(--s-2);flex-wrap:wrap"><a class="btn btn--unit btn--sm" href="${routeFor(ctx.cls.id, ctx.stream.id, sub.id, ch.id, 'read')}" style="--unit:#${unit.colour}">${icon('book')} Read full screen</a>${cardsButton(ctx)}${ch.read_minutes ? `<span class="t-footnote t-2">about ${ch.read_minutes} min</span>` : ''}</div>`;
       const breath = breathMarkdown(src);
       if (breath.count) {
         const open = !!store.get('breath.open', false);
@@ -120,6 +122,12 @@ async function renderTab(tab, ctx) {
       <div class="list">${order.map((t) => `<a class="list__item has-leading pressable" href="${quiz(t)}" style="--unit:#${unit.colour}"><span class="list__leading">${counts[t]}</span><span class="list__body"><span class="list__title">${TYPE_LABEL[t]}</span><span class="list__sub">${{ mcq: '1 mark · marked for you', ar: 'Assertion–Reason · 1 mark · marked for you', case: 'Case / source-based · 4 marks · mark yourself', vsa2: 'Very short answer · mark yourself', sa3: 'Short answer · step marks', la5: 'Long answer · step marks' }[t]}</span></span><span class="list__trailing">${icon('chevronRight', { class: 'chev' })}</span></a>`).join('')}</div>
       ${wrong ? `<div class="list mt-4"><a class="list__item has-leading pressable" href="#/practice/retry" style="--unit:var(--danger)"><span class="list__leading">${icon('flag')}</span><span class="list__body"><span class="list__title">Retry mistakes</span><span class="list__sub">All chapters in your Mistakes list</span></span><span class="list__trailing">${icon('chevronRight', { class: 'chev' })}</span></a></div>` : ''}`;
   }
+}
+
+/** "Cards" button at the top of Read and Must know (only when the chapter has a deck). */
+function cardsButton({ cls, stream, sub, ch, unit }) {
+  if (!ch.items?.cards) return '';
+  return `<a class="btn btn--plain btn--sm" href="${routeFor(cls.id, stream.id, sub.id, ch.id, 'cards')}" style="--unit:#${unit.colour}">${icon('cards')} Cards <span class="t-2 tnum">${ch.cards}</span></a>`;
 }
 
 /* ---------- 2-minute version: the "In one breath" paragraphs of notes.md, in order ---------- */

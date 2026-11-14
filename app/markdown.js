@@ -205,3 +205,24 @@ export function headings(el) {
 }
 function escapeHtml(s) { return String(s).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c])); }
 export function preloadMarkdown() { load().catch(() => {}); }
+export { load as loadLibs };
+
+/** Sanitise an author SVG drawing (cards, blocks). Returns safe markup ('' if nothing usable). */
+export async function cleanSvg(svg) {
+  const { DOMPurify } = await load();
+  return DOMPurify.sanitize(String(svg || ''), { USE_PROFILES: { svg: true, svgFilters: true }, ADD_ATTR: ['data-step', 'class', 'role', 'aria-label', 'font-size', 'text-anchor', 'dominant-baseline'] });
+}
+/** KaTeX string → HTML (display or inline); falls back to the source text. */
+export async function texHTML(tex, display = true) {
+  const { katex } = await load();
+  try { return katex.renderToString(String(tex), { displayMode: display, throwOnError: false, output: 'htmlAndMathml', strict: 'ignore', trust: false }); } catch { return escapeHtml(tex); }
+}
+/** Short Markdown + maths (cards, blocks): parsed, sanitised and typeset at once. Returns a .prose element. */
+export async function inlineHTML(src) {
+  const { marked, DOMPurify, renderMathInElement } = await load();
+  const { s, restore } = protectMath(String(src || ''));
+  const el = document.createElement('div'); el.className = 'prose prose--inline';
+  el.innerHTML = DOMPurify.sanitize(restore(marked.parse(s)), { USE_PROFILES: { html: true, mathMl: true, svg: true } });
+  renderMathInElement(el, { delimiters: [{ left: '$$', right: '$$', display: true }, { left: '$', right: '$', display: false }], throwOnError: false, output: 'htmlAndMathml', trust: false, strict: 'ignore' });
+  return el;
+}

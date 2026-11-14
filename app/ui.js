@@ -75,6 +75,14 @@ export function skeletonList(n = 4) {
   return raw(`<div class="list" aria-hidden="true">${Array.from({ length: n }, () => `<div class="list__item"><span class="skeleton" style="width:2.25rem;height:2.25rem;border-radius:8px"></span><span class="list__body"><span class="skeleton" style="display:block;width:60%"></span><span class="skeleton mt-2" style="display:block;width:35%;height:0.8em"></span></span></div>`).join('')}</div>`);
 }
 
+/** Coloured unit bar; with href it opens that unit's card deck. `label` is already escaped HTML. */
+export function unitBar(u, { href, label, marks, style = '' } = {}) {
+  const inner = `<span>${label}</span><span class="marks">${href ? `${icon('cards')} ` : ''}${marks ?? `${u.marks} marks`}${href ? '<span class="sr-only"> · open the unit’s cards</span>' : ''}</span>`;
+  return href
+    ? `<a class="unit-bar unit-bar--link pressable" href="${href}" style="--unit:#${u.colour};${style}" title="Open this unit’s cards">${inner}</a>`
+    : `<div class="unit-bar" style="--unit:#${u.colour};${style}">${inner}</div>`;
+}
+
 /* ---------- Sheets ---------- */
 export function openSheet({ title, content, onClose, closeLabel = 'Close' } = {}) {
   const host = $('#sheets');
@@ -137,4 +145,18 @@ export function cover(sub, { href, sub: subline, pct, soon, art = 'book', small 
     <span class="book-meta"><span>${soon ? 'Coming soon' : esc(sub.metaLeft || '')}</span>${pct != null ? `<span class="pct" style="--unit:#${sub.colour}">${pct}%</span>` : ''}</span></a>`;
   if (!toggle) return raw(item);
   return raw(`<div class="book-wrap${toggle.on ? '' : ' is-off'}">${item}<button class="cover__pin" type="button" data-toggle-subject="${esc(sub.id)}" aria-pressed="${toggle.on}" aria-label="${toggle.on ? 'Remove' : 'Add'} ${esc(sub.name)} ${toggle.on ? 'from' : 'to'} my subjects">${icon(toggle.on ? 'check' : 'plusSquare')}</button></div>`);
+}
+
+/* ---------- Lazily loaded stylesheet (cards, interactive blocks, paper mode) ---------- */
+const cssLoads = new Map();
+export function ensureCss(href = 'styles/interactive.css') {
+  if (cssLoads.has(href)) return cssLoads.get(href);
+  const p = new Promise((resolve) => {
+    if (document.querySelector(`link[href="${href}"]`)) return resolve();
+    const l = document.createElement('link'); l.rel = 'stylesheet'; l.href = href;
+    l.onload = () => resolve(); l.onerror = () => resolve();
+    document.head.appendChild(l);
+  });
+  cssLoads.set(href, p);
+  return p;
 }

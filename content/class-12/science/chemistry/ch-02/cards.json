@@ -1,0 +1,172 @@
+[
+  {
+    "id": "daniell-cell",
+    "kind": "figure",
+    "title": "Daniell cell",
+    "svg": "ref: notes#daniell-cell",
+    "back": "Zn anode (−) on the left is oxidised; Cu cathode (+) on the right is reduced. Electrons flow Zn → Cu through the wire; the salt bridge keeps both halves neutral. $E^\\circ_\\text{cell}$ = 1.10 V.",
+    "stars": 3,
+    "tags": [
+      "diagram",
+      "5-mark"
+    ]
+  },
+  {
+    "id": "electrolytic-cell",
+    "kind": "figure",
+    "title": "Electrolytic cell (molten NaCl)",
+    "svg": "ref: notes#electrolytic-cell",
+    "back": "The battery forces a non-spontaneous change. Anode (+): $\\ce{2Cl- -> Cl2 + 2e-}$. Cathode (−): $\\ce{Na+ + e- -> Na}$.",
+    "stars": 2,
+    "tags": [
+      "diagram"
+    ]
+  },
+  {
+    "id": "she",
+    "kind": "figure",
+    "title": "Standard hydrogen electrode",
+    "svg": "<svg viewBox=\"0 0 300 220\" role=\"img\" aria-label=\"Standard hydrogen electrode\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" font-size=\"11\">\n<path d=\"M70,92 V204 H230 V92\"/><path d=\"M70,112 H230\" stroke-width=\"1\"/>\n<path d=\"M132,42 V158 M168,42 V158 M132,42 H168\"/><path d=\"M168,66 H222 V30\"/><path d=\"M216.5,38 L222,30 L227.5,38\" stroke-width=\"1\"/>\n<path d=\"M150,8 V152\"/><rect x=\"140\" y=\"152\" width=\"20\" height=\"26\" class=\"u\" stroke-width=\"2\"/><path d=\"M140,160 H160 M140,168 H160\" class=\"u\" stroke-width=\"1\" opacity=\"0.7\"/>\n<circle cx=\"138\" cy=\"164\" r=\"3\"/><circle cx=\"163\" cy=\"172\" r=\"2.5\"/><circle cx=\"136\" cy=\"182\" r=\"2.5\"/><circle cx=\"166\" cy=\"186\" r=\"3\"/><circle cx=\"128\" cy=\"168\" r=\"2\"/>\n<g fill=\"currentColor\" stroke=\"none\"><text x=\"226\" y=\"22\" text-anchor=\"middle\">H₂ gas</text><text x=\"226\" y=\"54\" text-anchor=\"middle\" font-size=\"9\">1 bar</text><text x=\"150\" y=\"196\" text-anchor=\"middle\" font-size=\"10\">1 M H⁺(aq)</text><text x=\"60\" y=\"160\" text-anchor=\"end\" font-size=\"10\">Pt foil with</text><text x=\"60\" y=\"172\" text-anchor=\"end\" font-size=\"10\">Pt black</text><text x=\"150\" y=\"216\" text-anchor=\"middle\" font-size=\"9\">298 K</text></g>\n<path d=\"M62,163 H136\" stroke-width=\"0.8\" stroke-dasharray=\"2 2\"/>\n<g stroke=\"none\"><rect x=\"8\" y=\"8\" width=\"96\" height=\"24\" rx=\"6\" fill=\"#E0B400\" opacity=\"0.25\"/><text x=\"56\" y=\"25\" text-anchor=\"middle\" fill=\"currentColor\" font-size=\"13\" font-weight=\"700\">E° = 0 V</text></g>\n</svg>",
+    "back": "Pt coated with Pt black, 1 M $\\ce{H+}$, $\\ce{H2}$ at 1 bar, 298 K. Its potential is taken as exactly 0 V; every $E^\\circ$ is measured against it.",
+    "stars": 2,
+    "tags": [
+      "diagram",
+      "definition"
+    ]
+  },
+  {
+    "id": "standard-cell-potential",
+    "kind": "formula",
+    "title": "Standard cell potential",
+    "tex": "E^\\circ_\\text{cell}=E^\\circ_\\text{cathode}-E^\\circ_\\text{anode}",
+    "legend": [
+      "E^\\circ_\\text{cathode} = reduction potential of the right (+) electrode",
+      "E^\\circ_\\text{anode} = reduction potential of the left (−) electrode"
+    ],
+    "back": "In words: right minus left, both as **reduction** potentials. Never multiply $E^\\circ$ by a coefficient. Daniell: $0.34-(-0.76)=1.10$ V.",
+    "stars": 3,
+    "tags": [
+      "formula",
+      "1-mark"
+    ]
+  },
+  {
+    "id": "nernst",
+    "kind": "formula",
+    "title": "Nernst equation (298 K)",
+    "tex": "E_\\text{cell}=E^\\circ_\\text{cell}-\\dfrac{0.059}{n}\\log Q",
+    "legend": [
+      "n = electrons transferred in the balanced cell reaction",
+      "Q = [products]/[reactants], coefficients as powers",
+      "0.059 = 2.303RT/F at 298 K"
+    ],
+    "back": "In words: the voltage falls as products pile up. Leave solids out of $Q$; read $n$ and $Q$ off the balanced cell reaction.",
+    "stars": 3,
+    "tags": [
+      "formula",
+      "3-mark"
+    ]
+  },
+  {
+    "id": "gibbs-ecell",
+    "kind": "formula",
+    "title": "Gibbs energy and K from E°",
+    "tex": "\\begin{gathered}\\Delta_rG^\\circ=-nFE^\\circ_\\text{cell}\\\\[2pt] \\log K_c=\\dfrac{nE^\\circ_\\text{cell}}{0.059}\\end{gathered}",
+    "legend": [
+      "F = 96 500 C mol⁻¹ (one mole of electrons)",
+      "\\Delta_rG^\\circ = in J mol⁻¹, divide by 1000 for kJ"
+    ],
+    "back": "In words: positive $E^\\circ$ means negative $\\Delta G^\\circ$, a spontaneous reaction. A dead cell is at equilibrium ($E=0$, $Q=K_c$).",
+    "stars": 3,
+    "tags": [
+      "formula",
+      "3-mark"
+    ]
+  },
+  {
+    "id": "molar-conductivity",
+    "kind": "formula",
+    "title": "Conductivity and molar conductivity",
+    "tex": "\\begin{gathered}\\kappa=\\dfrac{G^*}{R}\\\\[2pt] \\Lambda_m=\\dfrac{1000\\,\\kappa}{M}\\end{gathered}",
+    "legend": [
+      "G^* = cell constant l/A (cm⁻¹)",
+      "\\kappa = conductivity (S cm⁻¹)",
+      "\\Lambda_m = S cm² mol⁻¹, M in mol L⁻¹"
+    ],
+    "back": "In words: $\\Lambda_m$ is the conducting power of the ions from **one mole**. The 1000 works only with $\\kappa$ in S cm⁻¹.",
+    "stars": 3,
+    "tags": [
+      "formula",
+      "numerical"
+    ]
+  },
+  {
+    "id": "lambda-vs-root-c",
+    "kind": "figure",
+    "title": "Λm against √c: strong vs weak",
+    "svg": "ref: notes#lambda-sqrt-c",
+    "back": "Strong (KCl): straight line, extrapolate to read $\\Lambda_m^\\circ$. Weak ($\\ce{CH3COOH}$): steep rise at low $c$, cannot be extrapolated, so use Kohlrausch.",
+    "stars": 3,
+    "tags": [
+      "graph",
+      "2-mark"
+    ]
+  },
+  {
+    "id": "kohlrausch",
+    "kind": "formula",
+    "title": "Kohlrausch's law",
+    "tex": "\\Lambda_m^\\circ=\\nu_+\\lambda_+^\\circ+\\nu_-\\lambda_-^\\circ",
+    "legend": [
+      "\\lambda^\\circ_\\pm = limiting contribution of each ion",
+      "\\nu_\\pm = number of each ion in the formula"
+    ],
+    "back": "In words: at infinite dilution each ion moves on its own. $\\Lambda^\\circ_{\\ce{CH3COOH}}=\\Lambda^\\circ_{\\ce{CH3COONa}}+\\Lambda^\\circ_{\\ce{HCl}}-\\Lambda^\\circ_{\\ce{NaCl}}$; then $\\alpha=\\Lambda_m/\\Lambda_m^\\circ$.",
+    "stars": 3,
+    "tags": [
+      "formula",
+      "3-mark"
+    ]
+  },
+  {
+    "id": "faraday",
+    "kind": "formula",
+    "title": "Faraday's first law",
+    "tex": "m=\\dfrac{M\\,I\\,t}{n\\,F}",
+    "legend": [
+      "I\\,t = charge Q in coulombs (t in seconds!)",
+      "n = electrons per ion (Ag⁺ 1, Cu²⁺ 2, Al³⁺ 3)",
+      "F = 96 500 C per mole of electrons"
+    ],
+    "back": "In words: one mole of electrons is one faraday. Convert minutes to seconds before anything else.",
+    "stars": 3,
+    "tags": [
+      "formula",
+      "numerical"
+    ]
+  },
+  {
+    "id": "galvanic-vs-electrolytic",
+    "kind": "compare",
+    "title": "Galvanic vs electrolytic",
+    "svg": "<svg viewBox=\"0 0 320 214\" role=\"img\" aria-label=\"Galvanic and electrolytic cells compared\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" font-size=\"10.5\">\n<rect x=\"6\" y=\"6\" width=\"148\" height=\"164\" rx=\"12\"/><rect x=\"166\" y=\"6\" width=\"148\" height=\"164\" rx=\"12\" class=\"u\"/>\n<path d=\"M6,36 H154 M166,36 H314\" stroke-width=\"1\"/>\n<g fill=\"currentColor\" stroke=\"none\">\n<text x=\"80\" y=\"26\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"700\">Galvanic</text><text x=\"240\" y=\"26\" text-anchor=\"middle\" font-size=\"13\" font-weight=\"700\" class=\"uf\">Electrolytic</text>\n<text x=\"80\" y=\"58\" text-anchor=\"middle\">chemical → electrical</text><text x=\"240\" y=\"58\" text-anchor=\"middle\">electrical → chemical</text>\n<text x=\"80\" y=\"82\" text-anchor=\"middle\">spontaneous</text><text x=\"240\" y=\"82\" text-anchor=\"middle\">non-spontaneous</text>\n<text x=\"80\" y=\"100\" text-anchor=\"middle\">ΔG &lt; 0 · E &gt; 0</text><text x=\"240\" y=\"100\" text-anchor=\"middle\">ΔG &gt; 0 · needs a source</text>\n<text x=\"80\" y=\"126\" text-anchor=\"middle\" font-weight=\"700\">anode (−)</text><text x=\"240\" y=\"126\" text-anchor=\"middle\" font-weight=\"700\">anode (+)</text>\n<text x=\"80\" y=\"144\" text-anchor=\"middle\" font-weight=\"700\">cathode (+)</text><text x=\"240\" y=\"144\" text-anchor=\"middle\" font-weight=\"700\">cathode (−)</text>\n<text x=\"80\" y=\"162\" text-anchor=\"middle\" font-size=\"9\">Daniell cell, batteries</text><text x=\"240\" y=\"162\" text-anchor=\"middle\" font-size=\"9\">plating, refining</text></g>\n<rect x=\"6\" y=\"180\" width=\"308\" height=\"28\" rx=\"8\" fill=\"#E0B400\" fill-opacity=\"0.22\" stroke=\"#E0B400\"/>\n<text x=\"160\" y=\"198\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\" font-size=\"11.5\" font-weight=\"700\">Both: oxidation at the anode, reduction at the cathode</text>\n</svg>",
+    "back": "Only the **sign** of the anode changes: − in a galvanic cell, + in an electrolytic cell. Oxidation is always at the anode.",
+    "stars": 3,
+    "tags": [
+      "differentiate",
+      "3-mark"
+    ]
+  },
+  {
+    "id": "leo-ger",
+    "kind": "mnemonic",
+    "title": "LEO says GER · AN OX, RED CAT",
+    "svg": "<svg viewBox=\"0 0 320 206\" role=\"img\" aria-label=\"LEO says GER, and AN OX, RED CAT\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\">\n<circle cx=\"44\" cy=\"52\" r=\"20\"/><path d=\"M44,22 V14 M60,27 L66,20 M70,44 L78,41 M70,62 L78,66 M58,76 L63,83 M30,76 L25,83 M18,62 L10,66 M18,44 L10,41 M28,27 L22,20\" stroke=\"#E0B400\" stroke-width=\"3\" stroke-linecap=\"round\"/>\n<circle cx=\"37\" cy=\"48\" r=\"2\" fill=\"currentColor\"/><circle cx=\"51\" cy=\"48\" r=\"2\" fill=\"currentColor\"/><path d=\"M39,59 Q44,64 49,59\"/>\n<g fill=\"currentColor\" stroke=\"none\"><text x=\"92\" y=\"44\" font-size=\"26\" font-weight=\"800\">LEO</text><text x=\"92\" y=\"64\" font-size=\"11\">Lose Electrons = Oxidation</text>\n<text x=\"204\" y=\"44\" font-size=\"26\" font-weight=\"800\" class=\"uf\">GER</text><text x=\"204\" y=\"64\" font-size=\"11\">Gain Electrons</text><text x=\"204\" y=\"78\" font-size=\"11\">= Reduction</text>\n<text x=\"168\" y=\"40\" font-size=\"11\" text-anchor=\"middle\">says</text></g>\n<rect x=\"8\" y=\"104\" width=\"146\" height=\"92\" rx=\"12\"/><rect x=\"166\" y=\"104\" width=\"146\" height=\"92\" rx=\"12\" class=\"u\"/>\n<g fill=\"currentColor\" stroke=\"none\"><text x=\"81\" y=\"140\" text-anchor=\"middle\" font-size=\"22\" font-weight=\"800\">AN OX</text><text x=\"81\" y=\"162\" text-anchor=\"middle\" font-size=\"11\">ANode → OXidation</text>\n<text x=\"239\" y=\"140\" text-anchor=\"middle\" font-size=\"22\" font-weight=\"800\" class=\"uf\">RED CAT</text><text x=\"239\" y=\"162\" text-anchor=\"middle\" font-size=\"11\">REDuction → CAThode</text>\n<text x=\"160\" y=\"96\" text-anchor=\"middle\" font-size=\"10.5\">and the place for each</text></g>\n</svg>",
+    "back": "**LEO** Lose Electrons = Oxidation, **GER** Gain Electrons = Reduction. **AN OX**: oxidation at the anode; **RED CAT**: reduction at the cathode, in every cell.",
+    "stars": 2,
+    "tags": [
+      "mnemonic",
+      "1-mark"
+    ]
+  }
+]

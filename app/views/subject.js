@@ -1,4 +1,4 @@
-import { html, raw, icon, largeTitle, esc, fmtDate, parseDate, daysBetween, today, toast, haptic } from '../ui.js';
+import { html, raw, icon, largeTitle, esc, fmtDate, parseDate, daysBetween, today, toast, haptic, unitBar } from '../ui.js';
 import { data, routeFor, streamless } from '../data.js';
 import { store } from '../store.js';
 
@@ -28,17 +28,21 @@ export async function subject(route) {
       ${data.allChapters(sub).some((c) => c.items?.formulas) ? raw(`<a class="card continue pressable mb-4" href="${routeFor(cls.id, stream.id, sub.id, 'formulas')}" style="--unit:#${sub.colour}"><span class="list__leading">${icon('formula')}</span><span class="continue__main"><span class="continue__title">Formula sheet</span><span class="continue__sec" style="color:var(--text-2);font-weight:500">All chapters on one page · read the day before the paper</span></span>${icon('chevronRight', { class: 'chev', size: 20 })}</a>`) : ''}
       ${data.allChapters(sub).some((c) => c.items?.mustknow) ? raw(`<a class="card continue pressable mb-4" href="${routeFor(cls.id, stream.id, sub.id, 'exam-eve')}" style="--unit:#${sub.colour}"><span class="list__leading">${icon('bolt')}</span><span class="continue__main"><span class="continue__title">Exam eve</span><span class="continue__sec" style="color:var(--text-2);font-weight:500">Every chapter's must-know lines, formula boxes and traps in one calm scroll</span></span>${icon('chevronRight', { class: 'chev', size: 20 })}</a>`) : ''}
       ${sub.units.map((u) => raw(`
-        <div class="unit-bar" style="--unit:#${u.colour}"><span>Unit ${esc(u.id)} · ${esc(u.name)}</span><span class="marks">${u.marks_group ? `Units ${esc(u.marks_group)} · ` : ''}${u.marks} marks</span></div>
+        ${unitBar(u, { href: u.chapters.some((c) => c.items?.cards) ? routeFor(cls.id, stream.id, sub.id, 'cards', u.id) : null, label: `Unit ${esc(u.id)} · ${esc(u.name)}`, marks: `${u.marks_group ? `Units ${esc(u.marks_group)} · ` : ''}${u.marks} marks` })}
         <div class="list">
           ${u.chapters.map((c) => {
             const key = `${sub.id}/${c.id}`;
             const tr = progress.tracker?.[key] || {};
-            const avail = [c.items?.notes && 'Read', c.items?.mustknow && 'Must know', c.items?.questions && `${c.questions} Qs`].filter(Boolean);
+            const avail = [c.items?.notes && 'Read', c.items?.mustknow && 'Must know', c.items?.cards && `${c.cards} cards`, c.items?.questions && `${c.questions} Qs`].filter(Boolean);
             const conf = tr.confidence ? `<span class="badge" title="Your confidence">${tr.confidence}/5</span>` : '';
-            return `<a class="list__item has-leading pressable" href="${routeFor(cls.id, stream.id, sub.id, c.id)}">
-              <span class="list__leading" style="--unit:#${u.colour}">${c.number}</span>
-              <span class="list__body"><span class="list__title">${esc(c.title)}</span><span class="list__sub">${avail.length ? avail.join(' · ') : 'Content coming'}${c.marks_hint ? ' · ' + esc(c.marks_hint) : ''}</span></span>
-              <span class="list__trailing">${tr.R1 ? `<span class="badge badge--live" title="Revised once">R1</span>` : ''}${conf}${icon('chevronRight', { class: 'chev' })}</span></a>`;
+            // The coloured number opens the chapter's card deck; the rest of the row opens the chapter.
+            const badge = c.items?.cards
+              ? `<a class="list__leading deck-badge" href="${routeFor(cls.id, stream.id, sub.id, c.id, 'cards')}" style="--unit:#${u.colour}" title="Cards">${c.number}<span class="sr-only"> · cards</span></a>`
+              : `<span class="list__leading" style="--unit:#${u.colour}">${c.number}</span>`;
+            return `<div class="list__item has-leading pressable row-link">
+              ${badge}
+              <a class="list__body row-link__main" href="${routeFor(cls.id, stream.id, sub.id, c.id)}"><span class="list__title">${esc(c.title)}</span><span class="list__sub">${avail.length ? avail.join(' · ') : 'Content coming'}${c.marks_hint ? ' · ' + esc(c.marks_hint) : ''}</span></a>
+              <span class="list__trailing">${tr.R1 ? `<span class="badge badge--live" title="Revised once">R1</span>` : ''}${conf}${icon('chevronRight', { class: 'chev' })}</span></div>`;
           }).join('')}
         </div>`))}
       ${sub.not_in_syllabus?.length ? raw(`<div class="card mt-6"><div class="t-headline">Not in boards (2026–27)</div><p class="t-2 t-footnote mt-2">${sub.not_in_syllabus.map(esc).join(' · ')}</p></div>`) : ''}

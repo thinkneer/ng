@@ -8,7 +8,7 @@ const require = createRequire(import.meta.url);
 const pw = require('playwright');
 
 const BASE = process.argv[2] || 'http://localhost:4173/ng/';
-const OUT = new URL('../docs/screenshots/', import.meta.url).pathname;
+const OUT = process.env.OUT || new URL('../docs/screenshots/', import.meta.url).pathname;
 mkdirSync(OUT, { recursive: true });
 
 const SIZES = [
@@ -26,6 +26,7 @@ const SCREENS = [
   { name: 'chapter', hash: '#/12/science/chemistry/ch-01' },
   { name: 'reader', hash: '#/12/science/chemistry/ch-01/read' },
   { name: 'recall', hash: '#/12/science/chemistry/ch-01/recall' },
+  { name: 'cards', hash: '#/12/science/chemistry/ch-02/cards' },
   { name: 'formulas', hash: '#/12/science/chemistry/formulas' },
   { name: 'practice', hash: '#/practice' },
   { name: 'progress', hash: '#/progress' },
@@ -60,7 +61,7 @@ for (const bname of browsers) {
         // signed-in screens: the local server (--test) injects a session for the test member on ?autologin
         await page.goto(BASE + (screen.fresh ? '?nosw' : '?nosw&autologin') + screen.hash, { waitUntil: 'networkidle' });
         await page.waitForSelector('#view .large-title, #view h1, #view .empty', { timeout: 8000 }).catch(() => {});
-        await page.waitForTimeout(['chapter', 'reader', 'recall', 'formulas'].includes(screen.name) ? 1500 : 350);
+        await page.waitForTimeout(['chapter', 'reader', 'recall', 'formulas', 'cards'].includes(screen.name) ? 1500 : 350);
         const file = `${OUT}${bname}-${size.name}-${scheme}-${screen.name}.png`;
         await page.screenshot({ path: file, fullPage: false });
       }

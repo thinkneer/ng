@@ -253,7 +253,7 @@ a.card:hover, button.card:hover { text-decoration: none; }
 .box--tip { background: var(--tip-surface); border-color: var(--tip-border); color: var(--tip-text); }
 .box--tip .box__label { color: var(--tip-text); }
 .box--formula { background: color-mix(in srgb, var(--unit, var(--accent)) 6%, var(--surface)); border-color: var(--unit, var(--accent)); }
-.box--formula .box__label { color: var(--unit, var(--accent)); }
+.box--formula .box__label { color: color-mix(in srgb, var(--unit, var(--accent)) 72%, var(--text)); }
 .box--skeleton { background: var(--surface); border-color: var(--separator-strong); border-style: dashed; }
 .box--skeleton .box__label { color: var(--text-2); }
 .box--skeleton ol { counter-reset: step; }
@@ -427,3 +427,20 @@ a.card.continue, button.card.continue { display: flex; }
 .breath__body { padding: 0 var(--s-4) var(--s-4); font-size: var(--fs-subhead); line-height: 1.5; }
 .breath__body ul { padding-left: 1.1em; }
 .breath__body li + li { margin-top: 0.5em; }
+
+/* ---------- Cards launch points (subject page, chapter page) ---------- */
+a.unit-bar--link { color: #fff; text-decoration: none; }
+a.unit-bar--link:hover { text-decoration: none; filter: brightness(1.06); }
+.unit-bar--link .marks { display: inline-flex; align-items: center; gap: 0.3rem; }
+.unit-bar--link .marks svg { width: 1rem; height: 1rem; }
+/* a list row with two links: the coloured badge (deck) and the rest (chapter); the main link covers the row */
+.row-link { cursor: pointer; }
+.row-link__main { color: inherit; text-decoration: none; position: static; }
+.row-link__main::after { content: ""; position: absolute; inset: 0; z-index: 0; }
+.row-link__main:hover { text-decoration: none; }
+.row-link__main:focus-visible { outline: none; }
+.row-link:focus-within { box-shadow: inset var(--focus); }
+.deck-badge { position: relative; z-index: 1; text-decoration: none; color: #fff; }
+.deck-badge::after { content: ""; position: absolute; right: -3px; bottom: -3px; width: 0.7rem; height: 0.7rem; border-radius: 3px; background: var(--surface); box-shadow: inset 0 0 0 1.5px var(--unit, var(--accent)); }
+.deck-badge:hover { text-decoration: none; transform: scale(1.06); }
+.row-link .list__trailing { position: relative; z-index: 0; pointer-events: none; }

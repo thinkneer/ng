@@ -815,6 +815,7 @@
                         "notes": true,
                         "mustknow": true,
                         "formulas": true,
+                        "cards": true,
                         "questions": true
                       },
                       "marks_hint": "9 marks (unit weightage, CBSE 2026–27)",
@@ -829,8 +830,9 @@
                         "case": 1
                       },
                       "diagrams": [],
-                      "words": 5826,
-                      "read_minutes": 17
+                      "words": 5829,
+                      "read_minutes": 17,
+                      "cards": 12
                     }
                   ]
                 },

@@ -1,0 +1,77 @@
+/* ------------------------------------------------------------------
+   Interactive layer — loaded lazily (ui.js ensureCss) by the card deck,
+   the ng-<type> blocks and the Practice-on-paper screen. Tokens only.
+   ------------------------------------------------------------------ */
+
+/* Own drawings everywhere: currentColor + unit colour via class="u" (stroke) / "uf" (fill) */
+.dk__svg svg, .ngb svg, .pc svg { width: 100%; height: auto; color: var(--text); overflow: visible; }
+svg .u { stroke: var(--unit, var(--accent)); }
+svg .uf { fill: var(--unit, var(--accent)); }
+svg text.uf, svg .uf text { fill: var(--unit, var(--accent)); }
+
+/* ---------- Card deck (shares the .rc frame of Recall) ---------- */
+.dk__top { grid-template-columns: var(--tap) minmax(0, 1fr) auto; }
+.dk .rc__title { display: flex; flex-direction: column; align-items: center; line-height: 1.2; min-width: 0; }
+.dk__name { max-width: 100%; color: var(--text); }
+.dk__count { font-size: var(--fs-caption); color: var(--text-2); }
+.dk .chip--unit { color: color-mix(in srgb, var(--unit, var(--accent)) 68%, var(--text)); }
+.dk__tools { display: flex; align-items: center; gap: var(--s-1); }
+.dk__mode { min-height: 2.25rem; }
+.dk__mode[aria-pressed="true"] { background: var(--unit, #1F5FAD); color: #fff; border-color: transparent; }
+.dk__stage { align-items: center; touch-action: pan-y; user-select: none; -webkit-user-select: none; }
+.dk__card { width: min(100%, 34rem); background: var(--surface); border-radius: var(--r-xl); box-shadow: var(--shadow-2); padding: var(--s-3) var(--s-4) var(--s-5); animation: rise 0.3s var(--ease-out) both; transition: transform 180ms var(--ease-out), box-shadow 180ms; position: relative; }
+.dk__card[data-lean="got"] { box-shadow: var(--shadow-2), 0 0 0 3px var(--success); }
+.dk__card[data-lean="again"] { box-shadow: var(--shadow-2), 0 0 0 3px var(--danger); }
+.dk__meta { display: flex; align-items: center; gap: var(--s-2); min-height: var(--tap); }
+.dk__heart { color: var(--text-3); margin-right: calc(-1 * var(--s-2)); }
+.dk__heart[aria-pressed="true"] { color: #D7265E; }
+.dk__heart[aria-pressed="true"] svg { fill: currentColor; }
+.dk__flip { display: grid; perspective: 1400px; cursor: pointer; border-radius: var(--r-lg); outline-offset: 4px; }
+.dk__face { grid-area: 1 / 1; backface-visibility: hidden; -webkit-backface-visibility: hidden; transition: transform 420ms var(--ease-out); min-height: 18rem; display: flex; flex-direction: column; }
+.dk__back { transform: rotateY(180deg); justify-content: center; padding: var(--s-2) var(--s-1); }
+.dk__flip.is-flipped .dk__front { transform: rotateY(-180deg); }
+.dk__flip.is-flipped .dk__back { transform: rotateY(0deg); }
+@media (prefers-reduced-motion: reduce) {
+  .dk__face { transition: none; backface-visibility: visible; }
+  .dk__flip .dk__back { visibility: hidden; transform: none; }
+  .dk__flip.is-flipped .dk__front { visibility: hidden; transform: none; }
+  .dk__flip.is-flipped .dk__back { visibility: visible; }
+}
+.dk__svg { flex: 1 1 auto; display: grid; place-items: center; padding: var(--s-2) 0; }
+.dk__svg svg { max-height: 48vh; }
+.dk__tex { flex: 1 1 auto; display: grid; place-items: center safe; font-size: clamp(1.05rem, 4.6vw, 1.55rem); padding: var(--s-6) 0 var(--s-3); color: var(--unit, var(--accent)); overflow-x: auto; }
+.dk__tex .katex-display { margin: 0; }
+.dk__legend { list-style: none; padding: 0; margin: 0 0 var(--s-2); display: grid; gap: var(--s-2); font-size: var(--fs-subhead); }
+.dk__legend li { display: grid; grid-template-columns: 4.5rem 1fr; align-items: baseline; gap: var(--s-3); padding: var(--s-1) var(--s-3); border-radius: var(--r-sm); background: color-mix(in srgb, var(--unit, var(--accent)) 9%, transparent); }
+.dk__legend li:nth-child(2n) { background: color-mix(in srgb, #E0B400 14%, transparent); }
+.dk__sym { font-weight: 700; text-align: center; font-size: 1.1em; }
+.dk__title { font-size: var(--fs-title3); font-weight: 700; letter-spacing: -0.01em; text-align: center; margin-top: var(--s-3); }
+.dk__title--sm { font-size: var(--fs-headline); color: var(--unit, var(--accent)); margin: 0 0 var(--s-3); }
+.dk__hint { text-align: center; font-size: var(--fs-caption); color: var(--text-3); margin-top: var(--s-1); }
+.dk__text { font-size: var(--fs-title3); line-height: 1.45; text-align: center; }
+.dk__text .prose { max-width: none; font-size: inherit; line-height: inherit; }
+.dk__text p + p { margin-top: 0.5em; }
+.dk__nav { display: grid; grid-template-columns: auto 1fr auto; align-items: center; gap: var(--s-3); max-width: 34rem; margin: 0 auto; }
+.dk__nav .btn { min-width: 3.25rem; min-height: 3rem; }
+.dk__dots { display: flex; justify-content: center; flex-wrap: wrap; gap: 6px; }
+.dk__dots span { width: 7px; height: 7px; border-radius: 50%; background: var(--separator-strong); transition: background var(--t-fast), transform var(--t-fast); }
+.dk__dots span.is-on { background: var(--unit, var(--accent)); transform: scale(1.3); }
+.dk__swipe { text-align: center; margin-top: var(--s-2); }
+.prose--inline > :first-child { margin-top: 0; }
+
+/* ---------- Printed cards: 6 per A4 page ---------- */
+#print-host { display: none; }
+@media print {
+  .is-printing-extra .app { display: none !important; }
+  .is-printing-extra #print-host { display: block; color: #000; }
+  .pc__h { font-size: 12pt; margin: 0 0 4mm; }
+  .pc__page { display: grid; grid-template-columns: 1fr 1fr; grid-template-rows: repeat(3, 1fr); gap: 4mm; height: 258mm; break-after: page; }
+  .pc__page:last-child { break-after: auto; }
+  .pc__cell { border: 1px solid #999; border-radius: 4mm; padding: 4mm; display: flex; flex-direction: column; overflow: hidden; break-inside: avoid; }
+  .pc__cell .dk__svg { flex: 1 1 auto; min-height: 0; padding: 0; }
+  .pc__cell .dk__svg svg { max-height: 44mm; color: #000; }
+  .pc__cell .dk__tex { font-size: 13pt; padding: 2mm 0; color: #000; }
+  .pc__title { font-weight: 700; font-size: 11pt; text-align: center; margin: 2mm 0 1mm; }
+  .pc__back { font-size: 9pt; line-height: 1.35; border-top: 1px dashed #999; padding-top: 1.5mm; }
+  .pc__back .prose { font-size: inherit; max-width: none; }
+}

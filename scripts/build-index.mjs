@@ -12,6 +12,7 @@ import { readFileSync, writeFileSync, readdirSync, existsSync, statSync } from '
 import { join, relative, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import Ajv from 'ajv';
+import { refId, resolveRef, svgProblems } from '../app/blocks/parse.js';
 import addFormats from 'ajv-formats';
 
 // hoisted: used during the top-level scan below
@@ -23,6 +24,11 @@ const MUSTKNOW_HEADINGS = [
   'Quick 1-mark facts (MCQ, A–R)',
   'Mark-losing traps',
 ];
+
+// Cards: a chapter with notes but no cards.json is a warning until this date, then an error.
+const CARDS_REQUIRED_FROM = '2026-12-01';
+const TODAY = process.env.NG_TODAY || new Date().toISOString().slice(0, 10);
+const missingCards = {}; // subject path → [chapter ids]
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
 const CHECK_ONLY = process.argv.includes('--check');
@@ -182,6 +188,17 @@ if (classes) {
                       if (item === 'notes') outCh.read_minutes = Math.max(1, Math.round((text.match(/\S+/g) || []).length / 200));
                     }
                   }
+                  const cPath = join(chDir, 'cards.json');
+                  if (existsSync(cPath)) {
+                    const cards = readJSON(cPath);
+                    if (validate('cards', cPath, cards)) {
+                      checkCards(cPath, cards, join(chDir, 'notes.md'), subj.id);
+                      outCh.items.cards = true;
+                      outCh.cards = cards.length;
+                    }
+                  } else if (outCh.items.notes) {
+                    (missingCards[rel(dir)] ||= []).push(ch.id);
+                  }
                   const qPath = join(chDir, 'questions.json');
                   if (existsSync(qPath)) {
                     const q = readJSON(qPath);
@@ -260,6 +277,26 @@ function checkNotes(path) {
   if (words > 3600) warn(path, `notes is ${words} words; consider splitting the h2 groups (guide: 1500–3000)`);
 }
 
+function checkCards(path, cards, notesPath, subjectId) {
+  const notes = existsSync(notesPath) ? readFileSync(notesPath, 'utf8') : '';
+  const ids = new Set();
+  const [lo, hi] = subjectId === 'english-core' ? [6, 15] : [8, 15];
+  if (cards.length < lo || cards.length > hi) warn(path, `${cards.length} cards; aim for ${lo}–${hi} per chapter`);
+  cards.forEach((c, i) => {
+    const where = `card[${i}] ${c.id}`;
+    if (ids.has(c.id)) err(path, `${where}: duplicate id`);
+    ids.add(c.id);
+    if (c.svg) {
+      const rid = refId(c.svg);
+      if (rid) { if (!resolveRef(rid, notes)) err(path, `${where}: svg "ref: notes#${rid}" not found in notes.md (add id="${rid}" to the <figure>, or give an ng block that id)`); }
+      else for (const p of svgProblems(c.svg)) err(path, `${where}: ${p}`);
+    }
+    if (c.legend && !c.tex) warn(path, `${where}: legend is only shown with tex`);
+    if (c.kind === 'formula' && !c.tex) warn(path, `${where}: formula cards read best with "tex" (the formula big) + "legend"`);
+    if (c.back.split('\n').filter((l) => l.trim()).length > 3) err(path, `${where}: back has more than 3 lines`);
+  });
+}
+
 function checkQuestions(path, questions, chapterId) {
   const ids = new Set();
   questions.forEach((q, i) => {
@@ -291,6 +328,12 @@ function checkQuestions(path, questions, chapterId) {
 function checkScheme(path, where, scheme, marks) {
   const sum = scheme.reduce((s, x) => s + x.marks, 0);
   if (Math.abs(sum - marks) > 0.001) err(path, `${where}: scheme steps add up to ${sum}, marks is ${marks}`);
+}
+
+// ---------- cards: chapters with notes but no deck ----------
+for (const [dir, ids] of Object.entries(missingCards)) {
+  const msg = `cards.json missing for ${ids.length} chapter(s) with notes: ${ids.join(', ')} (required from ${CARDS_REQUIRED_FROM}; see CLAUDE.md §4c)`;
+  if (TODAY >= CARDS_REQUIRED_FROM) errors.push(`${dir}: ${msg}`); else warnings.push(`${dir}: ${msg}`);
 }
 
 // ---------- report & write ----------
