@@ -1,12 +1,8 @@
 # Class 12 Science · Chemistry — status
-> **Layer split (14 Nov 2026, admin decision):** each chapter now has two files — `notes.md` = **Read** layer (the chapter explained in natural prose, see CLAUDE.md §4a) and `mustknow.md` = **Must-know** layer (short lines, boxed formulas, skeletons, traps; the site turns these into flashcards). The ten files written during the import were Must-know files, so they were **renamed to `mustknow.md`**. Every chapter still needs its `notes.md` (Read). "Case-based angles" is no longer a Must-know heading: move that material into `questions.json` as case questions.
 
-> **Policy change (14 Nov 2026, admin):** the site has **no PDFs**. The LaTeX sources and compiled PDFs were removed from the repo and `chapter.json → pdfs` was dropped. Everything below that says "see the PDF" is now a **to-do**: draw those graphs and diagrams as small inline SVGs next to `notes.md` and reference them from `chapter.json → diagrams`. Until then the "(graph: see the PDF)" placeholders in the Markdown should be replaced by a one-line description of the curve.
+Boards only. Board paper: **Sat 27 Feb 2027** (date sheet of 6 Nov 2026; gap days 17–26 Feb after Physics on 16 Feb).
 
-
-Boards only. Board paper: **Sat 27 Feb 2027** (gap days 17–26 Feb after Physics on 16 Feb).
-
-**Status (14 Nov 2026): Phase 1 import done.** All 10 chapters have `chapter.json`, `notes.md`, `formulas.md` and `questions.json` (98 questions). LaTeX sources for the formula sheet (Parts 1–3), must-have notes (Batches 1–3) and Expert Q&A Sheets 1–6 are in `latex/class-12/chemistry/`.
+**Status (14 Nov 2026): all 10 chapters have all four files, polished for recall.** Read notes written, Must know rewritten as flashcards, first set of inline SVG figures drawn, question bank topped up to 125 questions. No PDFs and no LaTeX in the repo; the old LaTeX sources stay in the Claude project as history only.
 
 ## Syllabus calls used (checked 14 Nov 2026; reconfirm on cbseacademic.nic.in)
 - 10 units, theory 70: Solutions 7 · Electrochemistry 9 · Chemical Kinetics 7 · d- and f-Block 7 · Coordination Compounds 7 · Haloalkanes & Haloarenes 6 · Alcohols, Phenols & Ethers 6 · Aldehydes, Ketones & Carboxylic Acids 8 · Amines 6 · Biomolecules 7. Physical 23 / Inorganic 14 / Organic 33.
@@ -19,62 +15,85 @@ Boards only. Board paper: **Sat 27 Feb 2027** (gap days 17–26 Feb after Physic
 
 ## Done
 
-### On the site (`content/class-12/science/chemistry/ch-01 … ch-10`)
-| Chapter | notes.md | formulas.md | questions.json |
-|---|---|---|---|
-| 1 Solutions | ready | ready | 7 |
-| 2 Electrochemistry | ready | ready | 8 |
-| 3 Chemical Kinetics | ready | ready | 7 |
-| 4 d- and f-Block | ready | ready | 9 |
-| 5 Coordination Compounds | ready | ready | 10 |
-| 6 Haloalkanes and Haloarenes | ready | ready | 9 |
-| 7 Alcohols, Phenols and Ethers | ready | ready | 10 |
-| 8 Aldehydes, Ketones and Carboxylic Acids | ready | ready | 19 |
-| 9 Amines | ready | ready | 11 |
-| 10 Biomolecules | ready | ready | 8 |
+| Chapter | notes.md (Read) | mustknow.md | formulas.md | questions.json |
+|---|---|---|---|---|
+| 1 Solutions | ready, 3 figures | ready | ready | 11 (6 MCQ/A–R, 1 case) |
+| 2 Electrochemistry | ready, 3 figures | ready | ready | 13 (6 MCQ/A–R, 1 case) |
+| 3 Chemical Kinetics | ready, 5 figures | ready | ready | 10 (6 MCQ/A–R, 1 case) |
+| 4 d- and f-Block Elements | ready, 0 figures | ready | ready | 12 (6 MCQ/A–R, 1 case) |
+| 5 Coordination Compounds | ready, 2 figures | ready | ready | 12 (6 MCQ/A–R, 1 case) |
+| 6 Haloalkanes and Haloarenes | ready, 0 figures | ready | ready | 11 (6 MCQ/A–R, 1 case) |
+| 7 Alcohols, Phenols and Ethers | ready, 0 figures | ready | ready | 13 (6 MCQ/A–R, 1 case) |
+| 8 Aldehydes, Ketones and Carboxylic Acids | ready, 0 figures | ready | ready | 19 (8 MCQ/A–R, 1 case) |
+| 9 Amines | ready, 0 figures | ready | ready | 14 (6 MCQ/A–R, 1 case) |
+| 10 Biomolecules | ready, 0 figures | ready | ready | 10 (6 MCQ/A–R, 1 case) |
 
-- **notes.md**: converted from the must-have notes. Exact §4 headings; every star, type tag, mark and `SQP 26–27` tag kept. The "Why/reason" answers sit under *Answer skeletons* as a sub-section. The traps are one `:::tip` box.
-- **formulas.md**: the chapter's section of the formula & facts sheet, plus its board checklist. Ch 1–3 also carry the constants and conversions list. Ch 6–10 carry their own named reactions (split by chapter from the master table) and the full shared organic revision tables (distinguishing tests, orders, conversion chains, top "give reason" answers), repeated in each of the five chapters.
-- **questions.json**: from Expert Q&A Sheets 1–5 (22 + 19 + 19 + 19 + 19). All labelled `PYQ-style`. Model answers and step-mark schemes come straight from the answer sections; the build script confirms every scheme adds up. Sheet 1's numerical answers were re-computed by script when the sheet was written. `source_note` gives the sheet and question number.
-- **chapter.json → pdfs**: notes batch and formula sheet part with the chapter's page, the organic revision page (Ch 6–10), the matching Q&A sheet, and the Sheet 6 solutions.
+### Read layer (`notes.md`)
+- Ten chapters, 2 450–3 600 words each, NCERT order, one idea per `##`, every section ends with **In one breath:**. Worked examples in `:::skeleton` with step marks; traps as `:::tip` where the mistake happens.
+- Every `:::formula` box has a title (14 Nov).
+- Organic chapters explain mechanisms in order (S$_\text{N}$1/S$_\text{N}$2, hydration and dehydration, nucleophilic addition) with named reactions boxed.
 
-### Printable PDFs (`latex/class-12/chemistry/`, compiled by the Action to `pdfs/class-12/chemistry/`)
-1. `chemistry-formula-sheet-part1-physical` (3 pages), `-part2-inorganic` (3 pages), `-part3-organic` (5 pages; page 4 = named reactions, tests, orders, conversions, reasons).
-2. `chemistry-notes-batch1-physical` (8 pages), `-batch2-inorganic` (6 pages), `-batch3-organic` (12 pages). Each has a cover page (how to use, star legend, step-mark habits, "N that keep coming back") and a whole-subject progress tracker on the last page.
-3. `chemistry-qa-sheet1-physical` (22 Qs, 50 marks, 90 min), `-sheet2-inorganic`, `-sheet3-organic-a` (Ch 6–7), `-sheet4-organic-b` (Ch 8), `-sheet5-organic-c` (Ch 9–10) (19 Qs, 42 marks, 75 min each). Questions first, answers with step marks on a separate page.
-4. `chemistry-qa-sheet6-sqp-2026-27-solutions` (2 pages): our own solutions to the official 2026–27 sample paper, keyed to question numbers only (the one-line question reminders were removed for the repo). Both alternatives of every internal choice.
-   - **Limits:** written from a text copy of the paper without figures. Answers tagged CHECK need the paper's figure, table or options: Q1 (exact options), Q5 (Fig. 1), Q19(I) (DNA strand), Q27A(I) (structure), Q29(II) (pKa graph), Q33A(I)(b) (concentration table).
-   - **To verify against CBSE's marking scheme:** Q28(I) (exact Raoult gives 1.8 g/mol; dilute shortcut 3.6), Q31B(I)(b) (acid vs ester order), Q32A(II) ([Ni(CO)4] vs [Ni(H2O)6]2+ splitting).
-- Shared preamble: `latex/class-12/preambles/chemistry-preamble.tex` (unit colours uI–uX, mhchem, TikZ `\minigraph`, boxes). The notes and Q&A sources define their extra macros at the top of each file (`\chapterhead`, `\st`, `\ty`, `skel`, `rqlist`, `\ob`, `\Q`, `\An`, `\secbar`).
+### Must-know layer (`mustknow.md`), rewritten 14 Nov for Recall
+- Exactly the six §4b headings. The old "Case-based angles" heading is gone from all ten files.
+- **Must-know lines** and **Quick 1-mark facts**: one fact per line as "**Term:** definition" or "prompt: answer", 15 words or fewer. Lines that held two facts were split.
+- **Key formulas**: one titled box per formula or named reaction (6–11 per chapter) with when to use, units and the common slip. The title is the Drill-formulas question.
+- **Mark-losing traps**: one titled `:::tip` per trap (6–8 per chapter), so each becomes a recall card.
+- **Most-repeated board questions**: cut to the top six lines per chapter (§4b says 3–6), stars and marks only. The old type codes (Df, N, R, Eq, Cmp, MCQ, G …) and `SQP 26–27` markers are removed everywhere.
+- **Answer skeletons** kept as they were (code prefixes removed from titles), including the "Why/reason answers" lists. These are reading material, not cards.
+- All files are 1 100–1 370 words (build cap 1 400).
 
-### Labelling rules used
-- Stars in the notes (★★★ / ★★ / ★) are estimates from recurring board and sample-paper patterns, not counts.
-- `SQP 26–27` = question type in the official 2026–27 sample paper. Batches 2 and 3 of the notes carry no SQP tags (not re-verified).
-- Q&A Sheets 1–5: every question is PYQ-style (own wording, no year labels). Step-mark splits are estimates of the usual CBSE scheme.
-- **Stars in questions.json were assigned at import**, by matching each question to the star rating of its question type in the chapter's notes. The Q&A sheets themselves carry no stars. Review if the practice view sorts by stars.
+### Diagrams (inline SVG, own drawings, `currentColor` + one highlight)
+| Chapter | Drawn (in notes.md, and in formulas.md where a placeholder stood) |
+|---|---|
+| 1 | Fig 1.1 ideal solution (p against x); Fig 1.2 positive and negative deviation; Fig 1.3 elevation of boiling point (p against T) |
+| 2 | Fig 2.1 Daniell cell; Fig 2.2 electrolytic cell (molten NaCl), new; Fig 2.3 Λm against √c |
+| 3 | Fig 3.2 zero-order plot; Fig 3.3 first-order plots (two); Fig 3.4 energy profile with catalyst; Fig 3.5 distribution of energies at T and T + 10; Fig 3.6 Arrhenius plot; four-plot summary on the formula sheet |
+| 5 | Fig 5.1 cis and trans [Pt(NH₃)₂Cl₂]; Fig 5.3 crystal-field splitting, octahedral and tetrahedral |
 
-## Not converted to the web (PDF only)
-- **Graphs and diagrams (TikZ):** Ch 1 vapour-pressure curves (ideal, positive, negative deviation) and the p–T curve for boiling-point elevation; Ch 2 Λm vs √c; Ch 3 the four kinetics plots, energy profile with catalyst, Maxwell–Boltzmann curves; Ch 5 cis/trans drawing and crystal-field splitting diagrams. The Markdown shows "(graph: see the PDF)" at each spot; `chapter.json → pdfs` gives the page. No `diagrams[]` entries yet.
-- **Orbital-box diagrams (Ch 5)** are written as text boxes (`[↑↓]`, `[××]` = ligand pair), not drawings.
-- **Mechanisms and ring structures** are in words and condensed formulas, as in the sources; no structure drawings exist anywhere yet.
-- **Notes cover pages and the progress tracker** (how to use, step-mark habits, time per question, "that keep coming back" lists).
-- **Formula sheet headers** (unit marks, paper pattern, practical scheme): already held in `subject.json` and `data/patterns/class-12/chemistry.json`.
-- **Q&A sheet extras:** the "where a 70/70 script wins marks" boxes and score boxes.
-- **Sheet 6** has no web form (no `papers/` JSON): it is solutions to a paper we do not reproduce.
+No "(to be added as SVG)" placeholders remain in any file.
+
+### Practice (`questions.json`), 125 questions
+- 98 from Expert Q&A Sheets 1–5 (ids `chem-s…`), plus 27 added 14 Nov (ids `chem-cNN-…`): 22 MCQ/A–R so that every chapter has at least 6 objective questions for live quizzes, and 5 case questions (Ch 1 desalination, Ch 2 corrosion, Ch 4 permanganate titration, Ch 7 fermentation and methanol, Ch 9 azo dyes) written from the old case-based angles. Every chapter now has one case question.
+- Every written and case question has a `hint`.
+- All labelled `PYQ-style` (own wording; none verified against a year). Step marks are estimates of the usual CBSE split and add up (build check). The one new numerical (Ch 1 case, π = 4.93 atm) was computed by script.
+- Stars were assigned by matching each question to the star rating of its question type; estimates.
 
 ## Corrections
-- **14 Nov 2026 (import): organic PDFs.** The earlier PDFs of formula sheet Part 3 and notes Batch 3 dropped every α and β (for example "α-H", "β-D-glucose") and garbled a few equations with `>C=O` or `R'`. The sources here are fixed and compile without errors; use the PDFs built from this repo, not the older copies.
-- **14 Nov 2026 (import): Sheet 6** is now 2 pages (question reminders removed).
-- **Tooling:** `scripts/build-index.mjs` crashed on the first `notes.md` (a constant was used before it was defined). Fixed in its own commit; no other tooling or app code was touched.
+- **14 Nov: picric acid p$K_a$.** The value 0.5 could not be confirmed against the NCERT table (which lists the nitrophenols, phenol, cresols and ethanol), so the number was removed from Ch 7 Must know; the order is kept. `formulas.md` for Ch 7 still shows it: check and remove or confirm.
+- **14 Nov: Ch 2 figure numbers.** The electrolytic cell is Fig 2.2, so the Λm plot became Fig 2.3.
+- **14 Nov: Ch 1 Read.** Figure descriptions 1.4 and 1.5 were shortened and one caption trimmed to stay under the build's 3 600-word limit, because the build counts SVG markup as words (see "For the Site chat").
+- **14 Nov (import):** the earlier organic PDFs had dropped α/β and garbled a few equations; the Markdown on the site was made from corrected sources.
 
 ## To verify
-- Picric acid pKa: formula sheet Part 3 and notes Ch 7 say 0.5; check against the NCERT table and correct both the `.tex` and the Markdown if needed.
-- `data/patterns/class-12/chemistry.json` says internal choice in 2 questions each of Sections B and C; the sample paper as read has one each (Q17, Q27). Confirm against the official SQP.
-- How the pages look on a phone: the Markdown was checked by rendering every formula with KaTeX/mhchem and every table with the site's Markdown parser, but not by eye in the app.
+- `data/patterns/class-12/chemistry.json` says internal choice in 2 questions each of Sections B and C; the sample paper as read has one each. Confirm against the official SQP.
+- How figures and boxes look on a phone in light, dark and sepia. Checked here: every formula renders with KaTeX/mhchem, every figure passes the Markdown parser intact, and each SVG was rendered to an image and looked at. Not checked in the app itself.
+- Sheet 6 (own solutions to the 2026–27 sample paper, kept in the Claude project, not on the site): six answers tagged CHECK need the paper's figures; three need the official marking scheme.
 
-## What's next
-1. **Practical sheet (30 marks):** salt analysis scheme, KMnO4 titrations (oxalic acid, Mohr's salt), content-based experiments, project ideas, viva questions.
-2. **More questions per chapter:** Ch 1–7, 9 and 10 have 7–11 each; add chapter-wise practice sets, starting with Organic.
-3. **Diagrams as SVG** for the items listed above, then fill `chapter.json → diagrams`.
-4. **Sheet 6:** with the official SQP PDF and marking scheme in hand, finish the six CHECK answers and settle the three flagged ones.
-5. **Past papers** (2025, 2026) solved with `PYQ (year)` labels, and full-length timed papers under `papers/` for the 17–26 Feb window.
+## Still to draw (SVG to-dos)
+- Ch 1: Fig 1.4 depression of freezing point; Fig 1.5 osmosis and osmotic pressure.
+- Ch 2: lead storage battery or fuel cell (optional); SHE.
+- Ch 3: Fig 3.1 concentration against time with tangent.
+- Ch 5: Fig 5.2 the three isomers of [CoCl₂(en)₂]⁺; fac/mer; orbital-box (VBT) diagrams, now written as text boxes.
+- Ch 6: Fig 6.1 S$_\text{N}$2 backside attack; S$_\text{N}$1 carbocation; enantiomers of butan-2-ol.
+- Ch 7: Fig 7.1 phenoxide resonance. Ch 8: Fig 8.1 carboxylate resonance. Ch 9: Fig 9.1 aniline resonance.
+- Ch 10: Fig 10.1 Haworth structures of glucose; Fig 10.2 α-helix and β-sheet; Fig 10.3 DNA double helix.
+- Organic structures in general (benzene rings, mechanisms with curly arrows) are still condensed formulas and words.
+
+## Practicals (30 marks): nothing on the site yet
+Still to make, as content once the site has a place for practicals:
+1. **Volumetric analysis (8):** KMnO₄ against oxalic acid and against Mohr's salt: procedure, observation table, calculation template, sources of error.
+2. **Salt analysis (8):** scheme for one cation and one anion: preliminary tests, group separation table, confirmatory tests, how to write the record.
+3. **Content-based experiment (6):** chromatography, preparation of a double salt or organic compound, tests for functional groups, tests for carbohydrates/fats/proteins: aim, steps, result.
+4. **Project (4):** ten workable ideas with what to measure and how to present.
+5. **Record and viva (4):** viva question bank by experiment (about 100 short questions with answers).
+
+## For the Site chat (not done here: subject chats do not edit scripts or app code)
+- `scripts/build-index.mjs` counts SVG markup as words in the notes length check, so a chapter with several figures can trip the 3 600-word warning. Suggest stripping `<figure>…</figure>` before counting.
+- Recall cards built from titled traps show the mistake as the answer. If the card should show the fix, the trap bodies need a second sentence; say so and the chemistry traps can be extended.
+
+## What's left, in order
+1. The SVG to-dos above, starting with Ch 6–10 (resonance structures, S$_\text{N}$2, Haworth glucose, DNA).
+2. More practice per chapter, especially numericals for Ch 1–3 and conversions for Ch 6–9 (most chapters have 10–14 questions; Ch 8 has 19).
+3. Practical help (list above).
+4. Past papers solved with verified `PYQ (year)` labels, and full-length timed papers under `papers/` for 17–26 Feb.
+5. The items under "To verify", and the picric acid value in Ch 7 `formulas.md`.
