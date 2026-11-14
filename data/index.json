@@ -2543,33 +2543,72 @@
                       "number": 23,
                       "title": "The Enemy",
                       "unit": "C3",
-                      "items": {},
-                      "marks_hint": null,
-                      "summary": null,
-                      "questions": 0,
-                      "question_types": {}
+                      "items": {
+                        "notes": true,
+                        "mustknow": true,
+                        "formulas": true,
+                        "questions": true
+                      },
+                      "marks_hint": "Vistas extract (6) · 2-mark short answers · 5-mark long answer (Section C, estimates)",
+                      "summary": "Pearl S. Buck · Dr Sadao Hoki and Hana find a wounded American POW · doctor's duty vs patriotism · the operation, the servants' fear · the General's assassins who never come · the escape by boat · humanity above nationality",
+                      "questions": 8,
+                      "question_types": {
+                        "mcq": 2,
+                        "case": 1,
+                        "vsa2": 3,
+                        "la5": 2
+                      },
+                      "diagrams": [],
+                      "words": 2855,
+                      "read_minutes": 8
                     },
                     {
                       "id": "vistas-05",
                       "number": 24,
                       "title": "On the Face of It",
                       "unit": "C3",
-                      "items": {},
-                      "marks_hint": null,
-                      "summary": null,
-                      "questions": 0,
-                      "question_types": {}
+                      "items": {
+                        "notes": true,
+                        "mustknow": true,
+                        "formulas": true,
+                        "questions": true
+                      },
+                      "marks_hint": "Vistas extract (6) · 2-mark short answers · 5-mark long answer (Section C, estimates)",
+                      "summary": "Susan Hill (play) · Derry, 14, with an acid-burnt face · Mr Lamb, the old man with a tin leg and an open garden · bitterness vs acceptance · the man who locked himself in · weeds and flowers · Derry's return and Mr Lamb's fall",
+                      "questions": 8,
+                      "question_types": {
+                        "mcq": 2,
+                        "case": 1,
+                        "vsa2": 3,
+                        "la5": 2
+                      },
+                      "diagrams": [],
+                      "words": 2777,
+                      "read_minutes": 8
                     },
                     {
                       "id": "vistas-06",
                       "number": 25,
                       "title": "Memories of Childhood",
                       "unit": "C3",
-                      "items": {},
-                      "marks_hint": null,
-                      "summary": null,
-                      "questions": 0,
-                      "question_types": {}
+                      "items": {
+                        "notes": true,
+                        "mustknow": true,
+                        "formulas": true,
+                        "questions": true
+                      },
+                      "marks_hint": "Vistas extract (6) · 2-mark short answers · 5-mark long answer (Section C, estimates)",
+                      "summary": "Zitkala-Sa: the cutting of her long hair at the Carlisle school — regimentation, loss of identity · Bama: the elder carrying the vadai packet by its string — untouchability, Annan's advice, study as resistance · two childhoods, one lesson on discrimination",
+                      "questions": 8,
+                      "question_types": {
+                        "mcq": 2,
+                        "case": 1,
+                        "vsa2": 3,
+                        "la5": 2
+                      },
+                      "diagrams": [],
+                      "words": 2621,
+                      "read_minutes": 7
                     }
                   ]
                 }
@@ -2591,10 +2630,10 @@
               },
               "papers": [],
               "counts": {
-                "notes": 20,
-                "mustknow": 20,
-                "formulas": 20,
-                "questions": 20,
+                "notes": 23,
+                "mustknow": 23,
+                "formulas": 23,
+                "questions": 23,
                 "chapters": 25
               }
             }

@@ -1,0 +1,11 @@
+{
+  "$schema": "../../../../../schemas/chapter.schema.json",
+  "id": "vistas-06",
+  "number": 25,
+  "title": "Memories of Childhood",
+  "unit": "C3",
+  "marks_hint": "Vistas extract (6) · 2-mark short answers · 5-mark long answer (Section C, estimates)",
+  "summary": "Zitkala-Sa: the cutting of her long hair at the Carlisle school — regimentation, loss of identity · Bama: the elder carrying the vadai packet by its string — untouchability, Annan's advice, study as resistance · two childhoods, one lesson on discrimination",
+  "status": { "notes": "ready", "mustknow": "ready", "formulas": "ready", "questions": "ready" },
+  "updated": "2026-11-14"
+}

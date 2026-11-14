@@ -1,0 +1,11 @@
+{
+  "$schema": "../../../../../schemas/chapter.schema.json",
+  "id": "vistas-04",
+  "number": 23,
+  "title": "The Enemy",
+  "unit": "C3",
+  "marks_hint": "Vistas extract (6) · 2-mark short answers · 5-mark long answer (Section C, estimates)",
+  "summary": "Pearl S. Buck · Dr Sadao Hoki and Hana find a wounded American POW · doctor's duty vs patriotism · the operation, the servants' fear · the General's assassins who never come · the escape by boat · humanity above nationality",
+  "status": { "notes": "ready", "mustknow": "ready", "formulas": "ready", "questions": "ready" },
+  "updated": "2026-11-14"
+}

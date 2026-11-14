@@ -1,0 +1,174 @@
+[
+  {
+    "id": "eng-vistas-05-q01",
+    "chapter": "vistas-05",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 2,
+    "label": "SQP-style",
+    "topic": "plot",
+    "stem": "How did Derry enter Mr Lamb's garden?",
+    "options": ["Through the open gate", "By climbing over the wall", "Through a hole in the hedge", "Mr Lamb invited him in from the road"],
+    "answer": "B",
+    "model_answer": "**(b)** He climbed the wall thinking the garden was empty; Mr Lamb pointed out that the gate is always open."
+  },
+  {
+    "id": "eng-vistas-05-q02",
+    "chapter": "vistas-05",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 2,
+    "label": "SQP-style",
+    "topic": "lesson",
+    "stem": "What point does Mr Lamb make with the story of the man who locked himself in his room?",
+    "options": [
+      "Rooms should be checked for loose pictures",
+      "Hiding from life does not make one safe; it only leaves one alone",
+      "Fear is a sign of intelligence",
+      "Accidents happen only indoors"
+    ],
+    "answer": "B",
+    "model_answer": "**(b)** The man avoided every risk and was killed by a falling picture — shutting out life gives no safety."
+  },
+  {
+    "id": "eng-vistas-05-q03",
+    "chapter": "vistas-05",
+    "type": "case",
+    "marks": 6,
+    "stars": 3,
+    "label": "SQP-style",
+    "topic": "extract-based",
+    "stem": "Read the part of Scene 1 in which Derry says he hates the story of Beauty and the Beast, describes how people stare at his face and look away, and claims his own mother kisses him only on the other side of his face; Mr Lamb replies that everyone has something and that hating can burn worse than acid. Answer the questions that follow.",
+    "hint": "Derry's bitterness and self-pity; Beauty and the Beast — no kiss will change him; Mr Lamb's answers; the acid metaphor.",
+    "parts": [
+      {
+        "id": "a",
+        "stem": "Why does Derry dislike the story of Beauty and the Beast?",
+        "marks": 1,
+        "model_answer": "In the story love turns the beast into a prince; Derry believes no one will ever kiss his burnt face, so the story mocks him.",
+        "scheme": [{ "step": "No kiss will transform him; the tale mocks his situation", "marks": 1 }]
+      },
+      {
+        "id": "b",
+        "stem": "Derry says his mother kisses him on the other side of his face. This shows (A) his mother dislikes him (B) his belief that even his mother is repelled by his face (C) a family custom (D) that his face no longer hurts",
+        "marks": 1,
+        "options": ["his mother dislikes him", "his belief that even his mother is repelled by his face", "a family custom", "that his face no longer hurts"],
+        "answer": "B",
+        "model_answer": "(B) It reveals how deeply he feels rejected — he reads even affection as avoidance.",
+        "scheme": [{ "step": "Option B", "marks": 1 }]
+      },
+      {
+        "id": "c",
+        "stem": "What does Mr Lamb mean by 'everyone has something'?",
+        "marks": 1,
+        "model_answer": "Every person carries some flaw, fear or disability — a tin leg, a burnt face, fear of the dark — and all are the same inside.",
+        "scheme": [{ "step": "Everyone has a flaw/disability; all alike inside", "marks": 1 }]
+      },
+      {
+        "id": "d",
+        "stem": "Explain the comparison between hatred and acid.",
+        "marks": 1,
+        "model_answer": "Acid burnt Derry's face once; hatred, if he keeps it, will go on burning him from inside and damage him far more.",
+        "scheme": [{ "step": "Hatred damages the self more lastingly than the acid did", "marks": 1 }]
+      },
+      {
+        "id": "e",
+        "stem": "What attitude of Derry's does this exchange reveal?",
+        "marks": 1,
+        "model_answer": "Bitterness, self-pity and a belief that his face has decided his whole life.",
+        "scheme": [{ "step": "Bitterness / self-pity / defeatism", "marks": 1 }]
+      },
+      {
+        "id": "f",
+        "stem": "How does Mr Lamb's way of talking to Derry differ from that of others?",
+        "marks": 1,
+        "model_answer": "He neither pities him nor compares him with worse cases; he treats him as a person and answers with ideas and questions.",
+        "scheme": [{ "step": "No pity or comparison; respect and ideas", "marks": 1 }]
+      }
+    ]
+  },
+  {
+    "id": "eng-vistas-05-q04",
+    "chapter": "vistas-05",
+    "type": "vsa2",
+    "marks": 2,
+    "stars": 3,
+    "label": "PYQ-style",
+    "topic": "Derry's bitterness",
+    "stem": "Why does Derry keep away from people? What has made him so bitter? (40–50 words)",
+    "hint": "Burnt face; stares, whispers, pity; even mother; wants to be alone.",
+    "model_answer": "One side of Derry's face was burnt by acid, and since then people have stared and looked away, whispered that only a mother could love such a face, and offered pity he hates. He feels even his mother kisses him on the other side. Convinced that his face has decided his life, he prefers to be alone.",
+    "scheme": [
+      { "step": "Burnt face; stares, whispers, pity (with examples)", "marks": 1 },
+      { "step": "Feels rejected even at home; chooses solitude", "marks": 1 }
+    ]
+  },
+  {
+    "id": "eng-vistas-05-q05",
+    "chapter": "vistas-05",
+    "type": "vsa2",
+    "marks": 2,
+    "stars": 3,
+    "label": "PYQ-style",
+    "topic": "weeds",
+    "stem": "What does Mr Lamb mean when he says there are no weeds in his garden, only growing things? (40–50 words)",
+    "hint": "Labels are choices; apply to ugly/beautiful; acceptance.",
+    "model_answer": "Mr Lamb refuses to divide plants into flowers and weeds; a weed is simply a plant someone has decided not to like. He means that labels such as ugly or beautiful, useful or useless, are human choices, not facts — and that Derry's face, like a so-called weed, is only ugly if people choose to call it so.",
+    "scheme": [
+      { "step": "All plants are growing things; weed is a label", "marks": 1 },
+      { "step": "Application to appearance / Derry's face", "marks": 1 }
+    ]
+  },
+  {
+    "id": "eng-vistas-05-q06",
+    "chapter": "vistas-05",
+    "type": "vsa2",
+    "marks": 2,
+    "stars": 2,
+    "label": "PYQ-style",
+    "topic": "return",
+    "stem": "Why does Derry insist on returning to Mr Lamb's garden despite his mother's objection? (40–50 words)",
+    "hint": "Learnt more there than anywhere; face not important; wants to be with people; if not now, never.",
+    "model_answer": "Derry tells his mother that in one afternoon with Mr Lamb he has learnt more than anywhere else — that his face is not what matters and that he wants to be with people and do things. He feels that if he does not go back now he will never go anywhere, so he runs back to the garden.",
+    "scheme": [
+      { "step": "Learnt more there; face not important; wants people and action", "marks": 1 },
+      { "step": "If not now, never — runs back", "marks": 1 }
+    ]
+  },
+  {
+    "id": "eng-vistas-05-q07",
+    "chapter": "vistas-05",
+    "type": "la5",
+    "marks": 5,
+    "stars": 3,
+    "label": "PYQ-style",
+    "topic": "Mr Lamb's influence",
+    "stem": "How does Mr Lamb succeed in changing Derry's outlook on life? Discuss with reference to the play. (120–150 words)",
+    "hint": "Derry at entry → Mr Lamb's method (welcome, bees, weeds, everyone has something, frightened man, hatred) → Derry's change → return → ending.",
+    "model_answer": "When Derry climbs into the garden he is a bitter, withdrawn boy who believes his acid-burnt face has fixed his fate; he hates stares, pity and the story of Beauty and the Beast, and wants to be alone.\n\nMr Lamb changes him without a sermon. He welcomes him — the gate is always open — and refuses to be shocked by his face. He makes him listen to the bees, which sing rather than buzz. He says there are no weeds in his garden, only growing things, so ugliness is a label, not a fact. He tells of the man who locked himself in his room for safety and was killed by a falling picture: hiding brings no safety. Everyone, he says, has something, and hatred can burn worse than acid. Above all he treats Derry as a person with arms, legs and a brain.\n\nDerry begins to ask questions, promises to return, defies his mother, declares that his face does not matter and that he wants to be with people, and runs back — to kneel weeping beside the fallen old man. The lesson has taken root.",
+    "scheme": [
+      { "step": "Derry's attitude on arrival", "marks": 1 },
+      { "step": "Mr Lamb's method: at least three images/stories explained", "marks": 2 },
+      { "step": "Derry's change: questions, promise, defiance of mother, return", "marks": 1 },
+      { "step": "Ending and conclusion; expression and length", "marks": 1 }
+    ]
+  },
+  {
+    "id": "eng-vistas-05-q08",
+    "chapter": "vistas-05",
+    "type": "la5",
+    "marks": 5,
+    "stars": 2,
+    "label": "PYQ-style",
+    "topic": "two attitudes",
+    "stem": "Derry and Mr Lamb both live with disabilities but respond to them very differently. Compare the two characters and explain what the comparison teaches. (120–150 words)",
+    "hint": "Derry: face, bitterness, withdrawal, self-pity. Mr Lamb: leg, openness, cheerfulness by choice, loneliness accepted. Lesson: attitude, not disability, decides.",
+    "model_answer": "Derry, fourteen, has an acid-burnt face; Mr Lamb, an old man, has a tin leg. The disabilities are comparable, the responses are opposite.\n\nDerry has let other people's reactions define him. Stares, whispers and pity have made him bitter and withdrawn; he reads even his mother's kiss as avoidance, hates stories of transformation, and wants to be alone. His intelligence is turned against himself.\n\nMr Lamb has been taunted for years — children call him Lamey-Lamb — and has no family or close friends, yet he keeps his gate open, hears the bees sing, calls weeds growing things and welcomes any stranger. His cheerfulness is not naivety but a daily choice; he knows the man who hid from life died anyway, and that hatred burns worse than acid.\n\nThe comparison teaches that disability does not decide a life; attitude does. Mr Lamb's openness is what Derry learns, and his return to the garden — even to grief — proves he has learnt it.",
+    "scheme": [
+      { "step": "The two disabilities set side by side", "marks": 1 },
+      { "step": "Derry's response with details", "marks": 1.5 },
+      { "step": "Mr Lamb's response, including his loneliness and choice", "marks": 1.5 },
+      { "step": "The lesson drawn; expression and length", "marks": 1 }
+    ]
+  }
+]

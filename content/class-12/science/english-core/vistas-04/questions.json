@@ -1,0 +1,174 @@
+[
+  {
+    "id": "eng-vistas-04-q01",
+    "chapter": "vistas-04",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 2,
+    "label": "SQP-style",
+    "topic": "plot",
+    "stem": "Why was Dr Sadao not sent to the war front with the troops?",
+    "options": [
+      "He was too old to serve",
+      "The old General might need an operation, and his research was valuable",
+      "He had refused to serve in the army",
+      "He was secretly an American citizen"
+    ],
+    "answer": "B",
+    "model_answer": "**(b)** The General trusted no other surgeon, and Sadao was perfecting a discovery about clean wounds."
+  },
+  {
+    "id": "eng-vistas-04-q02",
+    "chapter": "vistas-04",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 2,
+    "label": "SQP-style",
+    "topic": "escape",
+    "stem": "What did two flashes of the flashlight from the island mean?",
+    "options": ["The prisoner was safe", "The prisoner needed food", "A Korean boat had arrived", "The police were coming"],
+    "answer": "B",
+    "model_answer": "**(b)** Two flashes = food needed; one flash = safe; no signal = he had gone."
+  },
+  {
+    "id": "eng-vistas-04-q03",
+    "chapter": "vistas-04",
+    "type": "case",
+    "marks": 6,
+    "stars": 3,
+    "label": "SQP-style",
+    "topic": "extract-based",
+    "stem": "Read the passage in which Sadao tells the old General about the prisoner, and the General — concerned only that his surgeon must not be arrested — promises to send his private assassins at night to kill the man quietly and remove the body, asking Sadao to leave the outer partition open. Answer the questions that follow.",
+    "hint": "General's self-interest; Sadao's honesty; the plan; what actually happened; irony.",
+    "parts": [
+      {
+        "id": "a",
+        "stem": "Why did Sadao tell the General about the prisoner?",
+        "marks": 1,
+        "model_answer": "He wanted to be rid of the dilemma honestly and expected the authorities to deal with the man.",
+        "scheme": [{ "step": "To confess / resolve the dilemma through authority", "marks": 1 }]
+      },
+      {
+        "id": "b",
+        "stem": "The General's chief concern was (A) the safety of Japan (B) the prisoner's health (C) that Sadao should not be arrested, since he alone could operate on him (D) Hana's feelings",
+        "marks": 1,
+        "options": ["the safety of Japan", "the prisoner's health", "that Sadao should not be arrested, since he alone could operate on him", "Hana's feelings"],
+        "answer": "C",
+        "model_answer": "(C) Pure self-interest — he trusted no other surgeon.",
+        "scheme": [{ "step": "Option C", "marks": 1 }]
+      },
+      {
+        "id": "c",
+        "stem": "What plan did the General propose?",
+        "marks": 1,
+        "model_answer": "His private assassins would come at night, kill the prisoner quietly and carry the body away; Sadao had only to leave the partition open.",
+        "scheme": [{ "step": "Assassins at night; body removed; partition open", "marks": 1 }]
+      },
+      {
+        "id": "d",
+        "stem": "What actually happened over the next three nights?",
+        "marks": 1,
+        "model_answer": "Nothing — Sadao lay awake listening, and each morning the prisoner was still alive.",
+        "scheme": [{ "step": "Nothing; prisoner alive each morning", "marks": 1 }]
+      },
+      {
+        "id": "e",
+        "stem": "Why did the assassins never come?",
+        "marks": 1,
+        "model_answer": "The General, absorbed in his own illness, simply forgot.",
+        "scheme": [{ "step": "The General forgot", "marks": 1 }]
+      },
+      {
+        "id": "f",
+        "stem": "What is ironic about the General's role in the story?",
+        "marks": 1,
+        "model_answer": "His selfishness and forgetfulness end up saving both the prisoner's life and Sadao's position.",
+        "scheme": [{ "step": "Self-interest produces a good outcome", "marks": 1 }]
+      }
+    ]
+  },
+  {
+    "id": "eng-vistas-04-q04",
+    "chapter": "vistas-04",
+    "type": "vsa2",
+    "marks": 2,
+    "stars": 3,
+    "label": "PYQ-style",
+    "topic": "dilemma",
+    "stem": "What dilemma did Dr Sadao face on finding the wounded American on the beach? (40–50 words)",
+    "hint": "Doctor vs patriot; three options; first decision.",
+    "model_answer": "As a doctor Sadao felt bound to save the badly wounded man; as a Japanese he knew an escaped American prisoner was the enemy. Sheltering him would be treason, while handing him over or pushing him back into the sea would mean his death. He chose to operate first and decided to inform the police later.",
+    "scheme": [
+      { "step": "Duty as doctor vs duty as citizen; the options and their consequences", "marks": 1 },
+      { "step": "His decision: operate, then report", "marks": 1 }
+    ]
+  },
+  {
+    "id": "eng-vistas-04-q05",
+    "chapter": "vistas-04",
+    "type": "vsa2",
+    "marks": 2,
+    "stars": 3,
+    "label": "PYQ-style",
+    "topic": "escape",
+    "stem": "How did Dr Sadao help the American prisoner escape? (40–50 words)",
+    "hint": "Boat, food, clothes, island, Korean boat, flashlight code, disguise.",
+    "model_answer": "Sadao put his boat on the shore at night, stocked with food, water and clothing, dressed the prisoner in Japanese clothes with a cloth over his blond hair, and told him to row to an uninhabited, unpatrolled island and wait for a Korean fishing boat. A flashlight was to signal two flashes for food and one if he was safe.",
+    "scheme": [
+      { "step": "Boat, supplies, disguise, island, Korean fishing boat", "marks": 1 },
+      { "step": "Flashlight signals explained", "marks": 1 }
+    ]
+  },
+  {
+    "id": "eng-vistas-04-q06",
+    "chapter": "vistas-04",
+    "type": "vsa2",
+    "marks": 2,
+    "stars": 2,
+    "label": "PYQ-style",
+    "topic": "servants",
+    "stem": "How did the servants react to the presence of the American in the house? (40–50 words)",
+    "hint": "Yumi refuses; gardener's warning; cook's remark; leave within a week; do not inform.",
+    "model_answer": "The servants were frightened and hostile. Yumi refused to wash the white man, the gardener warned that healing what the gun and the sea had done would bring revenge on the household, and the cook said the master was too proud of his skill. Within a week they left the house, though they never informed on the family.",
+    "scheme": [
+      { "step": "Yumi, gardener and cook's reactions", "marks": 1 },
+      { "step": "Left within a week; did not inform", "marks": 1 }
+    ]
+  },
+  {
+    "id": "eng-vistas-04-q07",
+    "chapter": "vistas-04",
+    "type": "la5",
+    "marks": 5,
+    "stars": 3,
+    "label": "PYQ-style",
+    "topic": "humanity vs patriotism",
+    "stem": "'The Enemy' shows that a doctor's duty to humanity is higher than loyalty to his nation. Discuss with reference to Dr Sadao's conduct. (120–150 words)",
+    "hint": "Dilemma → operation despite servants → unsent letter → General and assassins → escape → ending's unanswered question.",
+    "model_answer": "Dr Sadao Hoki is a loyal Japanese and a famous surgeon, and Pearl Buck sets the two loyalties against each other. When a wounded American prisoner is washed up on his beach, the patriot in him knows the man is the enemy and should be handed to the police; the doctor in him stops the bleeding before he has even decided.\n\nHe carries the man home, operates and removes the bullet near the kidney while his servants protest and finally desert the house. He writes a letter to the police and never sends it. He confesses to the General and agrees to let assassins kill the prisoner, then lies awake for three nights dreading it. In the end he acts himself: he gives the man his boat, food, clothes and a flashlight and sends him to an island to await a Korean fishing boat.\n\nAt the window Sadao still remembers the prejudice he suffered in America and still dislikes white faces, yet he cannot answer why he could not kill the man. His humanity acted before his nationalism could — which is Buck's answer.",
+    "scheme": [
+      { "step": "The two loyalties and the dilemma on the beach", "marks": 1 },
+      { "step": "Operation despite servants; unsent letter; General and sleepless nights", "marks": 2 },
+      { "step": "The escape he arranges", "marks": 1 },
+      { "step": "Ending and message; expression and length", "marks": 1 }
+    ]
+  },
+  {
+    "id": "eng-vistas-04-q08",
+    "chapter": "vistas-04",
+    "type": "la5",
+    "marks": 5,
+    "stars": 2,
+    "label": "PYQ-style",
+    "topic": "Hana",
+    "stem": "Give a character sketch of Hana, bringing out her role in the story. (120–150 words)",
+    "hint": "Background → fear and loyalty → washing the prisoner → assisting operation → facing servants → compassion and courage.",
+    "model_answer": "Hana is Dr Sadao's wife, whom he met in America and married in the traditional Japanese way. Educated abroad yet devoted to her home and children, she is the quiet strength of the story.\n\nWhen the wounded American is found, Hana shares her husband's fear: sheltering the enemy could ruin them. Yet she never opposes Sadao's decision to save him. When the nurse Yumi refuses to wash the white man, Hana, trembling and repelled, kneels and washes him herself. She assists at the operation, though she has never seen one, runs out to vomit and returns to her post. She manages the frightened, hostile servants, nurses the prisoner and keeps the household running after the servants leave.\n\nHana is not a heroine of speeches; she is a frightened woman who does the right thing anyway. Her compassion and courage make Sadao's humane choice possible, and her presence shows that conscience in this story is shared, not solitary.",
+    "scheme": [
+      { "step": "Background and position in the household", "marks": 1 },
+      { "step": "Fear yet loyalty; washing the prisoner; assisting the operation", "marks": 2 },
+      { "step": "Managing servants and nursing; her courage", "marks": 1 },
+      { "step": "Evaluation of her role; expression and length", "marks": 1 }
+    ]
+  }
+]

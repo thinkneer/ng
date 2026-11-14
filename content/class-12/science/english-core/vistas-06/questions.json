@@ -1,0 +1,174 @@
+[
+  {
+    "id": "eng-vistas-06-q01",
+    "chapter": "vistas-06",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 2,
+    "label": "SQP-style",
+    "topic": "Part I",
+    "stem": "In Zitkala-Sa's culture, shingled (short) hair was worn by",
+    "options": ["warriors", "cowards and mourners", "children only", "chiefs"],
+    "answer": "B",
+    "model_answer": "**(b)** Short hair marked cowards; hair was cut short in mourning — which is why the cutting was an attack on her dignity."
+  },
+  {
+    "id": "eng-vistas-06-q02",
+    "chapter": "vistas-06",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 2,
+    "label": "SQP-style",
+    "topic": "Part II",
+    "stem": "Why did the elder carry the packet of vadais by its string?",
+    "options": [
+      "The packet was hot",
+      "He did not want to spill the oil",
+      "He belonged to a low caste and the landlord would not eat food his hands had touched",
+      "It was a local custom for gifts"
+    ],
+    "answer": "C",
+    "model_answer": "**(c)** Untouchability: an upper-caste landlord would not accept food touched by a Dalit."
+  },
+  {
+    "id": "eng-vistas-06-q03",
+    "chapter": "vistas-06",
+    "type": "case",
+    "marks": 6,
+    "stars": 3,
+    "label": "SQP-style",
+    "topic": "extract-based",
+    "stem": "Read the passage in which Zitkala-Sa, warned by Judewin that their hair is to be cut, creeps upstairs, hides under a bed in a dark corner, is found and dragged out kicking and scratching, is carried downstairs and tied to a chair, and hears the shears cut off one of her thick braids before she loses her spirit. Answer the questions that follow.",
+    "hint": "Judewin's warning; cultural meaning of hair; resistance and its defeat; herded-animal image; identity.",
+    "parts": [
+      {
+        "id": "a",
+        "stem": "Who had warned Zitkala-Sa about the cutting of hair, and what advice did she give?",
+        "marks": 1,
+        "model_answer": "Her friend Judewin, who knew some English; she advised submission because the white people were strong.",
+        "scheme": [{ "step": "Judewin; submit", "marks": 1 }]
+      },
+      {
+        "id": "b",
+        "stem": "Zitkala-Sa hid because (A) she was afraid of the cold (B) in her culture cut hair meant cowardice and mourning (C) she disliked the dining room (D) she wanted to skip breakfast",
+        "marks": 1,
+        "options": ["she was afraid of the cold", "in her culture cut hair meant cowardice and mourning", "she disliked the dining room", "she wanted to skip breakfast"],
+        "answer": "B",
+        "model_answer": "(B) Long hair was identity and dignity; shingled hair was a disgrace.",
+        "scheme": [{ "step": "Option B", "marks": 1 }]
+      },
+      {
+        "id": "c",
+        "stem": "How did she resist when she was found?",
+        "marks": 1,
+        "model_answer": "She kicked and scratched wildly as she was dragged out and carried downstairs.",
+        "scheme": [{ "step": "Kicked and scratched", "marks": 1 }]
+      },
+      {
+        "id": "d",
+        "stem": "What does she mean by saying she lost her spirit?",
+        "marks": 1,
+        "model_answer": "With her hair went her sense of self and dignity; she felt broken and no longer herself.",
+        "scheme": [{ "step": "Loss of identity / dignity / will", "marks": 1 }]
+      },
+      {
+        "id": "e",
+        "stem": "To what does she compare herself after the cutting?",
+        "marks": 1,
+        "model_answer": "To one of many little animals driven by a herder.",
+        "scheme": [{ "step": "Herded animal", "marks": 1 }]
+      },
+      {
+        "id": "f",
+        "stem": "What does the episode reveal about the school?",
+        "marks": 1,
+        "model_answer": "That it forced Native children to abandon their culture, using discipline and force in the name of education.",
+        "scheme": [{ "step": "Forced assimilation / cultural oppression", "marks": 1 }]
+      }
+    ]
+  },
+  {
+    "id": "eng-vistas-06-q04",
+    "chapter": "vistas-06",
+    "type": "vsa2",
+    "marks": 2,
+    "stars": 3,
+    "label": "PYQ-style",
+    "topic": "eating by formula",
+    "stem": "What does Zitkala-Sa mean by 'eating by formula'? How did it make her feel? (40–50 words)",
+    "hint": "Three bells; rules she did not know; stared at; shame; regimentation.",
+    "model_answer": "At the Carlisle school even breakfast was drilled: one bell to pull out the chair, a second to sit, a third to begin eating. Not knowing the rules, Zitkala-Sa sat at the wrong moment and was stared at by a paleface woman. The mechanical routine made her feel confused, ashamed and crushed by regimentation.",
+    "scheme": [
+      { "step": "The bell-driven routine described", "marks": 1 },
+      { "step": "Her confusion, shame, sense of regimentation", "marks": 1 }
+    ]
+  },
+  {
+    "id": "eng-vistas-06-q05",
+    "chapter": "vistas-06",
+    "type": "vsa2",
+    "marks": 2,
+    "stars": 3,
+    "label": "PYQ-style",
+    "topic": "Bama's awakening",
+    "stem": "Which incident made Bama understand untouchability, and how did her reaction change? (40–50 words)",
+    "hint": "Elder with vadai packet by string; laughed; Annan explained; anger.",
+    "model_answer": "Walking home, Bama saw an elder from her street carrying a packet of vadais by its string, bowing low and handing it to the landlord. She laughed at the comic sight, but when her brother Annan explained that the man could not touch the food because of his low caste, her laughter turned to anger and hurt.",
+    "scheme": [
+      { "step": "The incident with the packet and the landlord", "marks": 1 },
+      { "step": "Laughter → Annan's explanation → anger", "marks": 1 }
+    ]
+  },
+  {
+    "id": "eng-vistas-06-q06",
+    "chapter": "vistas-06",
+    "type": "vsa2",
+    "marks": 2,
+    "stars": 3,
+    "label": "PYQ-style",
+    "topic": "Annan's advice",
+    "stem": "What advice did Annan give Bama, and what was its result? (40–50 words)",
+    "hint": "Study hard, make progress, people will come of their own accord; first in class; friends.",
+    "model_answer": "Annan told Bama that their community was never given honour or dignity by birth, but that if she studied hard and made progress she could throw off these indignities, and people would come to her of their own accord. Bama studied with all her being, stood first in her class, and many people became her friends.",
+    "scheme": [
+      { "step": "Advice: study, progress, dignity, people will come", "marks": 1 },
+      { "step": "Result: first in class, friends", "marks": 1 }
+    ]
+  },
+  {
+    "id": "eng-vistas-06-q07",
+    "chapter": "vistas-06",
+    "type": "la5",
+    "marks": 5,
+    "stars": 3,
+    "label": "PYQ-style",
+    "topic": "comparison",
+    "stem": "Both Zitkala-Sa and Bama write about childhood encounters with discrimination. Compare their experiences and the ways they responded. (120–150 words)",
+    "hint": "Communities → Zitkala-Sa's hair and hiding → Bama's packet and Annan → common theme → different responses → both became writers.",
+    "model_answer": "Zitkala-Sa, a Native American, and Bama, a Tamil Dalit, grew up a world apart, yet both remember the day childhood taught them that society had placed them low.\n\nFor Zitkala-Sa it was her first day at the Carlisle school: marched by bells, dressed in alien clothes, and then told that her long hair would be cut — a disgrace among her people, where shingled hair marked cowards and mourners. She hid under a bed, kicked and scratched when found, and was tied to a chair and shorn. Her resistance was physical and failed; she felt her spirit leave her.\n\nFor Bama it was the sight of an elder carrying a landlord's snacks by a string so that his touch would not pollute them. She laughed until her brother Annan explained untouchability; then she burned with anger. Annan's advice was to study and win dignity through progress, and Bama stood first in her class.\n\nRace and caste, America and India — the humiliation was the same; the answer both finally found was education and writing.",
+    "scheme": [
+      { "step": "Both writers and their communities introduced", "marks": 1 },
+      { "step": "Zitkala-Sa's experience and response", "marks": 1.5 },
+      { "step": "Bama's experience and response", "marks": 1.5 },
+      { "step": "Common theme and contrast; expression and length", "marks": 1 }
+    ]
+  },
+  {
+    "id": "eng-vistas-06-q08",
+    "chapter": "vistas-06",
+    "type": "la5",
+    "marks": 5,
+    "stars": 2,
+    "label": "PYQ-style",
+    "topic": "Bama",
+    "stem": "Describe Bama's walk home from school and the incident at the threshing floor. How did the day change her? (120–150 words)",
+    "hint": "Sights on the way → threshing floor, landlord, elder, packet → laughter → Annan's explanation → anger → advice → study and success.",
+    "model_answer": "Bama could reach home in ten minutes but took up to an hour, because the street was a festival to a child's eyes: a performing monkey, a snake charmer, a cyclist who had pedalled for days, the temple with its great bell, Pongal offerings being cooked, stalls of dried fish and sweets and fried snacks, political speeches, puppet shows and stunt acts.\n\nOne day, near the threshing floor, she saw a landlord seated on sacking and an elder from her own street approaching with a small packet held by its string, bowing low to offer it. The grown man's odd way of carrying a snack made her laugh, and she ran home to tell her brother.\n\nAnnan did not laugh. The elder was a Dalit; the upper-caste landlord would not eat food his hands had touched. Bama's amusement turned to anger and grief at such humiliation. Annan told her to study hard and win respect through progress. She did — standing first in class and gaining friends. The day that began in laughter ended her innocence and began her resistance.",
+    "scheme": [
+      { "step": "The walk home with several sights", "marks": 1 },
+      { "step": "The threshing-floor incident and her laughter", "marks": 1.5 },
+      { "step": "Annan's explanation, her anger, his advice", "marks": 1.5 },
+      { "step": "Her response and the change; expression and length", "marks": 1 }
+    ]
+  }
+]

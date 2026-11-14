@@ -22,10 +22,11 @@ _Paper: 5 March 2027 (CBSE date sheet of 6 Nov 2026; recheck cbse.gov.in). Theor
 
 - **Poems (5/5)** — 14 Nov 2026: poem-01 My Mother at Sixty-six · 02 Keeping Quiet · 03 A Thing of Beauty · 04 A Roadside Stand · 05 Aunt Jennifer's Tigers. No lines quoted; images named in our words, devices and themes explained. Questions: 2 MCQ + 1 poetry-extract case (6 one-mark parts, SQP pattern) + 3 vsa2 + 1 la5 = 7 each, 35 total.
 
+- **Vistas (6/6)** — 14 Nov 2026: vistas-01 The Third Level · 02 The Tiger King · 03 Journey to the End of the Earth · 04 The Enemy · 05 On the Face of It · 06 Memories of Childhood. Same four files; questions: 2 MCQ + 1 extract case (6 one-mark parts, Vistas extract pattern) + 3 vsa2 + 2 la5 = 8 each, 48 total.
+
 ## Corrections
 - none yet
 
 ## What's next
-1. Vistas (vistas-01…06).
-2. Reading (reading-unseen, reading-case) with original practice passages.
-3. Later: a fixed full paper under `papers/` following the 2026–27 SQP; polish Must-know lines after the first student round.
+1. Reading (reading-unseen, reading-case) with original practice passages.
+2. Later: a fixed full paper under `papers/` following the 2026–27 SQP; polish Must-know lines after the first student round.

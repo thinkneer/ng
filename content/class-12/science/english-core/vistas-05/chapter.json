@@ -1,0 +1,11 @@
+{
+  "$schema": "../../../../../schemas/chapter.schema.json",
+  "id": "vistas-05",
+  "number": 24,
+  "title": "On the Face of It",
+  "unit": "C3",
+  "marks_hint": "Vistas extract (6) · 2-mark short answers · 5-mark long answer (Section C, estimates)",
+  "summary": "Susan Hill (play) · Derry, 14, with an acid-burnt face · Mr Lamb, the old man with a tin leg and an open garden · bitterness vs acceptance · the man who locked himself in · weeds and flowers · Derry's return and Mr Lamb's fall",
+  "status": { "notes": "ready", "mustknow": "ready", "formulas": "ready", "questions": "ready" },
+  "updated": "2026-11-14"
+}
