@@ -1,0 +1,11 @@
+{
+  "$schema": "../../../../../schemas/chapter.schema.json",
+  "id": "prac-dna",
+  "number": 17,
+  "title": "Practical: Isolating DNA from Plant Material",
+  "unit": "P",
+  "marks_hint": "Practical exam (30 marks): often set as the minor experiment (4)",
+  "summary": "Isolating DNA from spinach, green pea, papaya or banana: detergent, salt, protease, chilled ethanol; spooling white threads; precautions and viva.",
+  "status": { "notes": "ready", "mustknow": "ready", "formulas": "ready" },
+  "updated": "2026-11-15"
+}

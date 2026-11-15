@@ -1,0 +1,11 @@
+{
+  "$schema": "../../../../../schemas/chapter.schema.json",
+  "id": "prac-spotting",
+  "number": 18,
+  "title": "Practical: Spotting (Study and Observe)",
+  "unit": "P",
+  "marks_hint": "Spotting = 7 marks: identify each spot and write two or three identification points",
+  "summary": "All 11 study-and-observe items of the 2026–27 list with identification points: pollination adaptations, gamete slides, meiosis, blastula, Mendelian seeds, pedigrees, controlled pollination, pathogens, symbiosis, homologous and analogous organs.",
+  "status": { "notes": "ready", "mustknow": "ready", "formulas": "ready" },
+  "updated": "2026-11-15"
+}

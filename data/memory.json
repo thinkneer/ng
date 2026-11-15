@@ -1554,6 +1554,115 @@
    "prompt": "Name the three biodiversity hotspots that cover India."
   }
  ],
+ "biology/prac-pollen": [
+  {
+   "id": "pollen-sweet-boy",
+   "title": "What goes into the medium",
+   "trick": "**S**weet **B**oy: **S**ucrose feeds, **B**oric acid boosts",
+   "meaning": [
+    "**Sucrose** gives energy and keeps the right concentration; **boric acid** (boron) helps the pollen tube grow."
+   ],
+   "prompt": "Name the two chemicals in a pollen germination medium and their roles."
+  },
+  {
+   "id": "pollen-gate",
+   "title": "Where does the tube come out?",
+   "trick": "**Germ pore = Gate**",
+   "meaning": [
+    "The pollen tube always emerges through a germ pore, where the exine has no sporopollenin."
+   ],
+   "prompt": "Through which part of the pollen wall does the pollen tube emerge?"
+  },
+  {
+   "id": "pollen-shed",
+   "title": "Stage at which pollen is shed",
+   "trick": "**Two to go**",
+   "meaning": [
+    "In over 60% of angiosperms pollen is shed at the two-celled stage (vegetative + generative cell); in the rest, three-celled."
+   ],
+   "prompt": "At what stage are pollen grains shed in most angiosperms?"
+  }
+ ],
+ "biology/prac-quadrat": [
+  {
+   "id": "quadrat-random",
+   "title": "How to place quadrats",
+   "trick": "**Throw, don't choose**",
+   "meaning": [
+    "Quadrats are placed at random, so the sample is not biased towards thick or thin patches."
+   ],
+   "prompt": "Why are quadrats placed at random?"
+  },
+  {
+   "id": "quadrat-heads-boxes",
+   "title": "Density or frequency?",
+   "trick": "**Density counts heads, frequency counts boxes**",
+   "meaning": [
+    "Density: total plants (heads) ÷ quadrats. Frequency: quadrats (boxes) where the species occurs ÷ total quadrats × 100."
+   ],
+   "prompt": "Which one uses the number of quadrats in which the species occurred?"
+  }
+ ],
+ "biology/prac-mitosis": [
+  {
+   "id": "mitosis-fhss",
+   "title": "The four steps of the squash",
+   "trick": "**F**ix, **H**ydrolyse, **S**tain, **S**quash: \"**F**ive **H**ungry **S**tudents **S**nack\"",
+   "meaning": [
+    "**F**ix (aceto-alcohol) → **H**ydrolyse (1N HCl, 60 °C) → **S**tain (aceto-carmine) → **S**quash (gently, no sliding)."
+   ],
+   "prompt": "List the four main steps in preparing an onion root-tip squash."
+  },
+  {
+   "id": "mitosis-pmat",
+   "title": "Order of the stages",
+   "trick": "**P**lease **M**ake **A** **T**ea",
+   "meaning": [
+    "**P**rophase → **M**etaphase → **A**naphase → **T**elophase (after interphase)."
+   ],
+   "prompt": "Write the stages of mitosis in order."
+  }
+ ],
+ "biology/prac-dna": [
+  {
+   "id": "dna-three-s",
+   "title": "The three S's of DNA extraction",
+   "trick": "**S**oap opens, **S**alt clumps, **S**pirit shows",
+   "meaning": [
+    "**Soap** (detergent) opens the membranes; **salt** neutralises DNA so it clumps; cold **spirit** (ethanol) makes DNA appear as threads."
+   ],
+   "prompt": "Give the role of detergent, salt and chilled ethanol in DNA isolation."
+  },
+  {
+   "id": "dna-protease-sources",
+   "title": "Kitchen proteases",
+   "trick": "**P**apaya, **P**ineapple, **P**owder",
+   "meaning": [
+    "Papain (papaya), bromelain (pineapple juice) and meat-tenderiser powder all digest the proteins (histones) bound to DNA."
+   ],
+   "prompt": "Name two kitchen sources of protease used in DNA isolation."
+  }
+ ],
+ "biology/prac-spotting": [
+  {
+   "id": "spot-wind-flowers",
+   "title": "Wind-pollinated flowers",
+   "trick": "**Dull, Dry, Dusty**",
+   "meaning": [
+    "Wind flowers are **dull** (no colour or scent), **dry** (no nectar) and **dusty** (light pollen in huge amounts); feathery stigmas catch it."
+   ],
+   "prompt": "Give three features of wind-pollinated flowers."
+  },
+  {
+   "id": "spot-pathogen-hook",
+   "title": "The four disease organisms on the list",
+   "trick": "**A**ll **E**at **P**ani-puri **R**egularly",
+   "meaning": [
+    "***A**scaris*, ***E**ntamoeba*, ***P**lasmodium* and **R**ingworm fungi: the four pathogens you must identify, each with its disease and symptoms."
+   ],
+   "prompt": "Name the four disease-causing organisms in the spotting list."
+  }
+ ],
  "english-core/reading-unseen": [
   {
    "id": "unseen-negatives",

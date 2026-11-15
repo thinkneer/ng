@@ -1,0 +1,11 @@
+{
+  "$schema": "../../../../../schemas/chapter.schema.json",
+  "id": "prac-mitosis",
+  "number": 16,
+  "title": "Practical: Mitosis in Onion Root Tip",
+  "unit": "P",
+  "marks_hint": "Practical exam (30 marks): slide preparation 5 is often this squash; spotting may show the stages",
+  "summary": "Temporary squash mount of onion root tip to study mitosis: fixing, HCl hydrolysis, aceto-carmine staining, stages, mitotic index, precautions and viva.",
+  "status": { "notes": "ready", "mustknow": "ready", "formulas": "ready" },
+  "updated": "2026-11-15"
+}

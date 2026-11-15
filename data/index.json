@@ -2173,7 +2173,7 @@
                   "chapters": [
                     {
                       "id": "ch-04",
-                      "number": 4,
+                      "number": 1,
                       "title": "Principles of Inheritance and Variation",
                       "unit": "VII",
                       "items": {
@@ -2211,7 +2211,7 @@
                     },
                     {
                       "id": "ch-05",
-                      "number": 5,
+                      "number": 2,
                       "title": "Molecular Basis of Inheritance",
                       "unit": "VII",
                       "items": {
@@ -2249,7 +2249,7 @@
                     },
                     {
                       "id": "ch-06",
-                      "number": 6,
+                      "number": 3,
                       "title": "Evolution",
                       "unit": "VII",
                       "items": {
@@ -2297,7 +2297,7 @@
                   "chapters": [
                     {
                       "id": "ch-07",
-                      "number": 7,
+                      "number": 1,
                       "title": "Human Health and Disease",
                       "unit": "VIII",
                       "items": {
@@ -2334,7 +2334,7 @@
                     },
                     {
                       "id": "ch-08",
-                      "number": 8,
+                      "number": 2,
                       "title": "Microbes in Human Welfare",
                       "unit": "VIII",
                       "items": {
@@ -2380,7 +2380,7 @@
                   "chapters": [
                     {
                       "id": "ch-09",
-                      "number": 9,
+                      "number": 1,
                       "title": "Biotechnology: Principles and Processes",
                       "unit": "IX",
                       "items": {
@@ -2418,7 +2418,7 @@
                     },
                     {
                       "id": "ch-10",
-                      "number": 10,
+                      "number": 2,
                       "title": "Biotechnology and its Applications",
                       "unit": "IX",
                       "items": {
@@ -2464,7 +2464,7 @@
                   "chapters": [
                     {
                       "id": "ch-11",
-                      "number": 11,
+                      "number": 1,
                       "title": "Organisms and Populations",
                       "unit": "X",
                       "items": {
@@ -2503,7 +2503,7 @@
                     },
                     {
                       "id": "ch-12",
-                      "number": 12,
+                      "number": 2,
                       "title": "Ecosystem",
                       "unit": "X",
                       "items": {
@@ -2541,7 +2541,7 @@
                     },
                     {
                       "id": "ch-13",
-                      "number": 13,
+                      "number": 3,
                       "title": "Biodiversity and Conservation",
                       "unit": "X",
                       "items": {
@@ -2579,6 +2579,158 @@
                       "mnemonics": 5
                     }
                   ]
+                },
+                {
+                  "id": "P",
+                  "name": "Practicals",
+                  "colour": "7A5C1E",
+                  "marks": 0,
+                  "marks_group": null,
+                  "chapters": [
+                    {
+                      "id": "prac-pollen",
+                      "number": 1,
+                      "title": "Practical: Pollen Germination",
+                      "unit": "P",
+                      "items": {
+                        "notes": true,
+                        "mustknow": true,
+                        "formulas": true,
+                        "cards": true
+                      },
+                      "marks_hint": "Practical exam (30 marks): major experiment 5, minor experiment 4, slide preparation 5, spotting 7, record + viva 4, project 5",
+                      "summary": "Temporary mount to observe pollen germination in a sucrose–boric acid medium; percentage germination; precautions and viva.",
+                      "questions": 0,
+                      "question_types": {},
+                      "diagrams": [],
+                      "blocks": {
+                        "steps": 1,
+                        "mnemonic": 3,
+                        "figure": 1,
+                        "draw": 1,
+                        "numerical": 1
+                      },
+                      "words": 997,
+                      "read_minutes": 3,
+                      "cards": 9,
+                      "mnemonics": 3
+                    },
+                    {
+                      "id": "prac-quadrat",
+                      "number": 2,
+                      "title": "Practical: Quadrat Study (Density and Frequency)",
+                      "unit": "P",
+                      "items": {
+                        "notes": true,
+                        "mustknow": true,
+                        "formulas": true,
+                        "cards": true
+                      },
+                      "marks_hint": "Practical exam (30 marks): major experiment 5, minor experiment 4, slide preparation 5, spotting 7, record + viva 4, project 5",
+                      "summary": "Quadrat method to study plant population density and frequency; worked calculations, observation table, precautions and viva.",
+                      "questions": 0,
+                      "question_types": {},
+                      "diagrams": [],
+                      "blocks": {
+                        "steps": 1,
+                        "figure": 1,
+                        "draw": 1,
+                        "mnemonic": 2,
+                        "numerical": 2,
+                        "compare": 1
+                      },
+                      "words": 976,
+                      "read_minutes": 3,
+                      "cards": 9,
+                      "mnemonics": 2
+                    },
+                    {
+                      "id": "prac-mitosis",
+                      "number": 3,
+                      "title": "Practical: Mitosis in Onion Root Tip",
+                      "unit": "P",
+                      "items": {
+                        "notes": true,
+                        "mustknow": true,
+                        "formulas": true,
+                        "cards": true
+                      },
+                      "marks_hint": "Practical exam (30 marks): slide preparation 5 is often this squash; spotting may show the stages",
+                      "summary": "Temporary squash mount of onion root tip to study mitosis: fixing, HCl hydrolysis, aceto-carmine staining, stages, mitotic index, precautions and viva.",
+                      "questions": 0,
+                      "question_types": {},
+                      "diagrams": [],
+                      "blocks": {
+                        "steps": 1,
+                        "mnemonic": 2,
+                        "figure": 1,
+                        "draw": 1,
+                        "fill": 1,
+                        "numerical": 1
+                      },
+                      "words": 939,
+                      "read_minutes": 3,
+                      "cards": 9,
+                      "mnemonics": 2
+                    },
+                    {
+                      "id": "prac-dna",
+                      "number": 4,
+                      "title": "Practical: Isolating DNA from Plant Material",
+                      "unit": "P",
+                      "items": {
+                        "notes": true,
+                        "mustknow": true,
+                        "formulas": true,
+                        "cards": true
+                      },
+                      "marks_hint": "Practical exam (30 marks): often set as the minor experiment (4)",
+                      "summary": "Isolating DNA from spinach, green pea, papaya or banana: detergent, salt, protease, chilled ethanol; spooling white threads; precautions and viva.",
+                      "questions": 0,
+                      "question_types": {},
+                      "diagrams": [],
+                      "blocks": {
+                        "steps": 1,
+                        "figure": 1,
+                        "draw": 1,
+                        "fill": 1,
+                        "mnemonic": 2
+                      },
+                      "words": 879,
+                      "read_minutes": 2,
+                      "cards": 9,
+                      "mnemonics": 2
+                    },
+                    {
+                      "id": "prac-spotting",
+                      "number": 5,
+                      "title": "Practical: Spotting (Study and Observe)",
+                      "unit": "P",
+                      "items": {
+                        "notes": true,
+                        "mustknow": true,
+                        "formulas": true,
+                        "cards": true
+                      },
+                      "marks_hint": "Spotting = 7 marks: identify each spot and write two or three identification points",
+                      "summary": "All 11 study-and-observe items of the 2026–27 list with identification points: pollination adaptations, gamete slides, meiosis, blastula, Mendelian seeds, pedigrees, controlled pollination, pathogens, symbiosis, homologous and analogous organs.",
+                      "questions": 0,
+                      "question_types": {},
+                      "diagrams": [],
+                      "blocks": {
+                        "compare": 2,
+                        "steps": 1,
+                        "mnemonic": 2,
+                        "figure": 1,
+                        "draw": 1,
+                        "fill": 2
+                      },
+                      "words": 1291,
+                      "read_minutes": 4,
+                      "cards": 13,
+                      "mnemonics": 2
+                    }
+                  ]
                 }
               ],
               "colour": "B0204F",
@@ -2598,11 +2750,11 @@
               },
               "papers": [],
               "counts": {
-                "notes": 13,
-                "mustknow": 13,
-                "formulas": 13,
+                "notes": 18,
+                "mustknow": 18,
+                "formulas": 18,
                 "questions": 13,
-                "chapters": 13
+                "chapters": 18
               },
               "exam_mode": "built"
             },

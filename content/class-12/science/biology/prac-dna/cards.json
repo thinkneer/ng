@@ -1,0 +1,11 @@
+[
+  { "id": "dna-threads", "kind": "figure", "title": "DNA spooling set-up", "svg": "ref: notes#dna-threads", "back": "Chilled ethanol over the filtrate; white DNA threads at the boundary, spooled on a glass rod.", "stars": 3, "tags": ["diagram", "practical"] },
+  { "id": "dna-procedure", "kind": "process", "title": "DNA isolation procedure", "tex": "\\begin{gathered}\\text{grind}\\\\\\to\\text{detergent + salt}\\\\\\to\\text{filter}\\to\\text{protease}\\\\\\to\\text{chilled ethanol}\\end{gathered}", "back": "Wait without shaking, then spool the threads at the boundary.", "stars": 3 },
+  { "id": "dna-detergent", "kind": "process", "title": "Viva: role of detergent", "tex": "\\text{dissolves membranes}", "back": "Lipid cell and nuclear membranes break down and release DNA.", "stars": 3 },
+  { "id": "dna-salt", "kind": "process", "title": "Viva: role of salt", "tex": "\\text{Na}^+\\text{ neutralises PO}_4^-", "back": "With its charge neutralised, DNA clumps and comes out of solution more easily.", "stars": 2 },
+  { "id": "dna-ethanol", "kind": "process", "title": "Viva: chilled ethanol", "tex": "\\begin{gathered}\\text{DNA insoluble}\\\\\\Rightarrow\\text{white threads}\\end{gathered}", "back": "Chilled: lower solubility and slower DNA-breaking enzymes.", "stars": 3 },
+  { "id": "dna-reagents", "kind": "compare", "title": "Reagents and roles", "tex": "\\begin{gathered}\\text{soap: membranes}\\\\\\text{salt: charge}\\\\\\text{protease: histones}\\end{gathered}", "back": "Cold ethanol precipitates the DNA.", "stars": 2 },
+  { "id": "dna-precautions", "kind": "process", "title": "DNA isolation precautions", "tex": "\\begin{gathered}\\text{ice-cold ethanol}\\\\\\text{pour down the side}\\\\\\text{never shake}\\end{gathered}", "back": "Stir gently after adding detergent; spool gently.", "stars": 2 },
+  { "id": "dna-three-s", "kind": "mnemonic", "title": "Soap, Salt, Spirit", "tex": "\\textbf{S}\\text{oap}\\cdot\\textbf{S}\\text{alt}\\cdot\\textbf{S}\\text{pirit}", "back": "Soap opens membranes, salt clumps DNA, cold spirit (ethanol) shows it as threads." },
+  { "id": "dna-protease-sources", "kind": "mnemonic", "title": "Papaya, Pineapple, Powder", "tex": "\\text{papain}\\cdot\\text{bromelain}\\cdot\\text{tenderiser}", "back": "Kitchen proteases that digest the proteins bound to DNA." }
+]

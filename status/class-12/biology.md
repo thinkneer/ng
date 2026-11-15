@@ -55,17 +55,23 @@ Paper: **Thu 25 Mar 2027** (date sheet of 6 Nov 2026). Biology-only days 10–24
   - Unit VIII (Ch 7–8): 10 questions done (antibody, Plasmodium and sewage SVGs added to those answers).
   - Unit IX (Ch 9–10): 10 questions done (EcoRI, PCR, pBR322, RNAi and insulin SVGs added to those answers).
   - Unit X (Ch 11–13): 15 questions done (growth-curve, pyramid and species–area SVGs added). Task complete: all 65 original written/case answers converted; all 13 case questions have hints; no written question lacks a hint.
+- **Practicals (15 Nov 2026).** 2026–27 list confirmed from the CBSE curriculum PDF (Biology_SrSec_2026-27, via the KVS mirror of it; cbseacademic.nic.in itself was not reachable from the build machine — recheck there): 5 experiments + 11 study-and-observe (spotting) items; scheme: major experiment 5, minor 4, slide preparation 5, spotting 7, record + viva 4, project 5. Admin decision: a new **Practicals unit (id P, 0 theory marks)** in subject.json, so exam papers stay theory-only. Five chapters, each with notes (aim, principle, materials, procedure as `ng-steps`, observation table, result, precautions), mustknow (viva questions as the most-repeated list, answers as recall lines), formulas and cards (9–13):
+  - `prac-pollen`: pollen germination (sucrose + boric acid), germinating-pollen `ng-figure` + `ng-draw`, % germination `ng-numerical`.
+  - `prac-quadrat`: density and frequency together; quadrat `ng-figure`, worked skeleton, two `ng-numerical`.
+  - `prac-mitosis`: onion root-tip squash (fix, 1N HCl at about 60 °C, aceto-carmine, squash); stages `ng-figure` + `ng-draw`; stage `ng-fill`; mitotic-index `ng-numerical`.
+  - `prac-dna`: detergent, salt, protease, chilled ethanol, spooling; set-up `ng-figure` + `ng-draw`; reagent-role `ng-fill`.
+  - `prac-spotting`: all 11 items with identification points; blastula `ng-figure` + `ng-draw`; pollination-agents and testis-vs-ovary compares; pathogen and ratio fills.
 
 ## Corrections
 - Ch 1 pollen-grain germ-pore leader moved to an actual gap in the exine.
 - Ch 1–3 interactive commit landed on main with the message "biology: rebuild index" (a rebase hiccup); content is correct.
 
 ## What's next
-1. **More practice**: raise each chapter to 6+ MCQ/A–R (live quizzes draw on them) and add 2–3 more case questions per unit.
-2. **Practicals (30 marks)**: the experiments in the 2026–27 practical list (check the syllabus PDF; includes DNA isolation, quadrat study, pollen germination, onion root-tip mitosis), the spotting items and viva questions — not on the site yet.
-3. **Diagram polish**: done for the board list (15 Nov). Optional extras: T.S. of a whole anther, pollen-tube growth, human embryo/placenta, replication-of-retrovirus diagram.
-4. **Review pass**: read every Must-know line on a phone in Recall mode; shorten any line over 15 words; make sure every `:::formula` and `:::tip` in mustknow.md has a title, so it becomes a recall card. On the phone, also tap through each chapter's *Label it yourself* and card deck.
-5. Full-length timed paper on the 2026–27 pattern (papers/ folder) once a Site chat confirms the exam-mode format.
+1. **Practicals, finish by 20 Dec**: record-book write-ups are covered by the five chapters; still to add: investigatory-project guidance (topic ideas, record format, viva) and a one-page "practical exam day" checklist. Teachers' local variations (e.g. which experiment is major) are decided at school.
+2. **More practice**: raise each chapter to 6+ MCQ/A–R (live quizzes draw on them); more case questions (2–3 per unit) would let papers vary their case section.
+3. **Phone review pass**: tap through *Label it yourself*, the decks and Recall on a phone; Must-know fronts are now all two words or more.
+4. Optional diagrams: T.S. of a whole anther, pollen-tube growth into the ovule, human embryo/placenta, replication of a retrovirus.
+5. A fixed SQP-style paper in `papers/` once the 2026–27 SQP is checked.
 
 ## Exam mode (Site chat, 15 Nov 2026)
 - Live: Subject → Exam mode builds numbered 3-hour papers (P-01, P-02 …) from this subject's questions.json files, to `data/patterns/class-12/biology.json` and the unit marks in subject.json. Every question in the bank can appear; nothing extra is needed per question.
