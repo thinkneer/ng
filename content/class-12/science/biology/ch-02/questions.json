@@ -104,7 +104,7 @@
     "topic": "Testis",
     "stem": "Spermatogenesis fails if the testes remain inside the abdominal cavity. (a) Explain why. (b) Name the cells that secrete androgens and the pituitary hormone that stimulates them.",
     "hint": "Temperature; LH acts on interstitial cells.",
-    "model_answer": "(a) Spermatogenesis needs a temperature 2–2.5 °C below the internal body temperature, which the scrotum provides and the abdomen does not. (b) Leydig (interstitial) cells; LH.",
+    "model_answer": "*How much to write: 3 lines · 3 minutes*\n\n**(a)** Spermatogenesis needs a temperature <mark>2–2.5 °C lower than the normal internal body temperature</mark>. The <u>scrotum</u> keeps the testes at this low temperature; inside the abdominal cavity the testes stay too warm, so sperms are not formed.\n\n**(b)** <mark>Leydig (interstitial) cells</mark> secrete androgens; they are stimulated by <mark>LH</mark> from the anterior pituitary.\n\n:::tip Your answer must contain\n- temperature <u>2–2.5 °C lower</u> needed; scrotum provides it\n- <mark>Leydig cells</mark> and <mark>LH</mark>\n:::\n\n**Marks are lost for:** answering FSH or Sertoli cells in (b); saying the abdomen is \"too cold\".",
     "scheme": [
       {
         "step": "Needs temperature 2–2.5 °C lower; scrotum provides it",
@@ -130,7 +130,7 @@
     "topic": "Parturition",
     "stem": "Explain how the foetal ejection reflex and oxytocin together bring about parturition.",
     "hint": "A positive feedback loop.",
-    "model_answer": "Signals from the fully developed foetus and placenta cause mild uterine contractions (foetal ejection reflex). This triggers oxytocin release from the maternal pituitary; oxytocin causes stronger contractions, which stimulate more oxytocin release. The loop continues until the baby is expelled through the birth canal.",
+    "model_answer": "*How much to write: 4 lines · 3 minutes*\n\nParturition is induced by a <u>complex neuroendocrine mechanism</u>:\n1. Signals from the fully developed <u>foetus and the placenta</u> cause mild uterine contractions: the <mark>foetal ejection reflex</mark>.\n2. This triggers release of <mark>oxytocin</mark> from the maternal pituitary.\n3. Oxytocin acts on the uterine muscle and causes <u>stronger uterine contractions</u>, which in turn stimulate <u>further secretion of oxytocin</u>.\n4. This <mark>positive feedback</mark> continues, contractions grow stronger, and the baby is expelled through the birth canal.\n\n:::tip Your answer must contain\n- signals from <u>foetus and placenta</u> → mild contractions = foetal ejection reflex\n- <mark>oxytocin → stronger contractions → more oxytocin</mark>\n:::\n\n**Marks are lost for:** saying oxytocin comes from the placenta; leaving out the feedback loop.",
     "scheme": [
       {
         "step": "Foetus and placenta signal mild contractions = foetal ejection reflex",
@@ -152,7 +152,7 @@
     "topic": "Fertilisation and implantation",
     "stem": "Describe the events from fertilisation to implantation in humans. How is entry of more than one sperm prevented?",
     "hint": "Ampulla → zona pellucida → cleavage → morula → blastocyst → implantation.",
-    "model_answer": "Fertilisation occurs in the ampullary region of the oviduct. A sperm contacts the zona pellucida, which changes to block other sperms (monospermy); acrosome enzymes help the sperm enter, the secondary oocyte completes meiosis II and the nuclei fuse into a diploid zygote. Cleavage in the isthmus gives blastomeres; 8–16 cells form a morula, which becomes a blastocyst (trophoblast + inner cell mass) in the uterus. The trophoblast attaches to the endometrium and uterine cells cover the blastocyst: implantation.",
+    "model_answer": "*How much to write: 7–8 lines · 6 minutes*\n\n1. **Fertilisation** occurs in the <mark>ampullary region of the fallopian tube</mark>. A sperm comes in contact with the <u>zona pellucida</u> layer of the ovum.\n2. **Preventing polyspermy:** this contact <mark>induces changes in the membrane that block the entry of additional sperms</mark>, so only one sperm fertilises the ovum.\n3. Secretions of the <u>acrosome</u> help the sperm enter the cytoplasm. This induces the secondary oocyte to complete <u>meiosis II</u> (ovum + second polar body); the haploid nuclei fuse to form a diploid <u>zygote</u>.\n4. **Cleavage:** mitotic divisions start as the zygote moves through the <u>isthmus</u> towards the uterus, forming 2, 4, 8, 16 blastomeres. The embryo with 8–16 blastomeres is the <u>morula</u>.\n5. The morula becomes a <u>blastocyst</u>: outer <u>trophoblast</u> and an <u>inner cell mass</u>.\n6. **Implantation:** the trophoblast attaches to the <u>endometrium</u>; uterine cells divide rapidly and cover the blastocyst, so it becomes <mark>embedded in the endometrium</mark>.\n\n:::tip Your answer must contain\n- site: <mark>ampulla</mark>\n- zona pellucida changes <mark>block other sperms</mark>\n- zygote → morula → blastocyst (trophoblast + inner cell mass)\n- trophoblast attaches; blastocyst embedded = implantation\n:::\n\n**Marks are lost for:** placing fertilisation in the uterus; saying the acrosome prevents polyspermy.",
     "scheme": [
       {
         "step": "Ampulla; zona pellucida changes block other sperms; acrosome; meiosis II; zygote",
@@ -222,7 +222,9 @@
           }
         ]
       }
-    ]
+    ],
+    "hint": "Which hormone peak ruptures the Graafian follicle, and which structure, formed after ovulation, makes progesterone?",
+    "model_answer": "*How much to write: one line each for (i) and (ii), 3 lines for (iii) · 6 minutes*\n\n**(i)** <mark>Ovulation</mark> is most likely not happening, because the mid-cycle <u>LH surge</u>, which induces rupture of the Graafian follicle, is missing.\n\n**(ii)** Without ovulation <mark>no corpus luteum forms</mark>, and the corpus luteum is the main source of <u>progesterone</u> in the luteal phase.\n\n**(iii)** The sequence starts with <mark>GnRH</mark> from the hypothalamus, which makes the anterior pituitary release LH and FSH.\n- <u>FSH</u> (with LH) stimulates the growth of ovarian follicles into a mature <u>Graafian follicle</u>.\n- <u>Estrogen</u>, secreted by the growing follicles, makes the <mark>endometrium regenerate (proliferate)</mark>.\n\n:::tip Your answer must contain\n- (i) no ovulation, because <mark>no LH surge</mark>\n- (ii) <mark>no corpus luteum</mark> → low progesterone\n- (iii) GnRH; FSH → follicle growth; estrogen → endometrium regenerates\n:::\n\n**Marks are lost for:** saying FSH causes ovulation; giving progesterone as the follicular-phase hormone."
   },
   {
     "id": "bio-02-q10",
@@ -234,7 +236,7 @@
     "topic": "Oogenesis",
     "stem": "(a) Draw a flowchart of oogenesis from oogonia to the ovum, showing the ploidy of each cell and where or when each step happens. [3]<br>(b) Give two differences between oogenesis and spermatogenesis. [2]",
     "hint": "Foetal ovary → arrested primary oocyte → tertiary follicle → ovulation → sperm entry.",
-    "model_answer": "(a) Oogonia (2n), foetal ovary, mitosis → primary oocyte (2n), arrested in prophase I, in primary follicle → meiosis I completed in tertiary follicle, unequal → secondary oocyte (n) + first polar body (n) → Graafian follicle ruptures: ovulation of secondary oocyte → meiosis II completed after sperm entry → ovum (n) + second polar body.<br>(b) Any two: starts in foetal life vs at puberty; one ovum vs four sperms per mother cell; unequal vs equal cytoplasm division; cyclic vs continuous; meiosis II completed only after sperm entry vs in the testis.",
+    "model_answer": "*How much to write: a stacked flowchart for (a), two contrasts for (b) · 10 minutes*\n\n**(a)**\n\n- <u>Oogonia (2n)</u>, in the foetal ovary\n- ↓ mitosis; enter meiosis I\n- <u>Primary oocyte (2n)</u>: arrested in prophase I, in a primary follicle\n- ↓ meiosis I completed in the tertiary follicle (unequal)\n- <u>Secondary oocyte (n)</u> + first polar body\n- ↓ Graafian follicle ruptures: ovulation\n- ↓ sperm entry: meiosis II completed\n- <u>Ovum (n)</u> + second polar body\n\nKey points: oogonia form <u>only in foetal life</u>; primary oocytes stay <mark>arrested in prophase I</mark> until puberty; <mark>meiosis II is completed only after a sperm enters</mark>.\n\n**(b)** Any two:\n\n| Oogenesis | Spermatogenesis |\n|---|---|\n| starts in the <u>foetal ovary</u> | starts at <u>puberty</u> |\n| one mother cell gives <u>one ovum</u> (+ polar bodies) | one mother cell gives <u>four sperms</u> |\n| unequal division of cytoplasm | equal division |\n| cyclic; stops at menopause | continuous |\n\n:::tip Your answer must contain\n- each stage with its <mark>ploidy</mark>\n- where/when: <u>foetal ovary</u>, prophase I arrest, tertiary follicle, ovulation, <u>sperm entry</u>\n- two correct differences\n:::\n\n**Marks are lost for:** showing the ovum released at ovulation; marking the secondary oocyte as 2n; differences without both sides.",
     "scheme": [
       {
         "step": "Oogonia 2n in foetal ovary",

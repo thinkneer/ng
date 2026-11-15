@@ -104,7 +104,7 @@
     "topic": "Oral pills",
     "stem": "How do oral contraceptive pills prevent pregnancy? State how they are taken.",
     "hint": "Three actions; 21 + 7.",
-    "model_answer": "Pills (progestogens or progestogen–estrogen) inhibit ovulation and implantation and alter the quality of cervical mucus to prevent or slow sperm entry. They are taken daily for 21 days, starting within the first five days of the cycle, followed by a 7-day gap, and the pattern is repeated.",
+    "model_answer": "*How much to write: 3–4 lines · 3 minutes*\n\nOral pills contain <u>progestogens</u> or <u>progestogen–estrogen combinations</u>. They:\n- <mark>inhibit ovulation</mark>,\n- <mark>inhibit implantation</mark>, and\n- <u>alter the quality of cervical mucus</u> to prevent or retard the entry of sperms.\n\n**How taken:** daily for <mark>21 days</mark>, starting preferably within the <u>first five days</u> of the menstrual cycle; after a gap of <mark>7 days</mark> (during which menstruation occurs) the course is repeated.\n\n:::tip Your answer must contain\n- the three actions\n- <mark>21 days on, 7 days off</mark>, starting in days 1–5\n:::\n\n**Marks are lost for:** saying pills kill sperms; giving the wrong schedule.",
     "scheme": [
       {
         "step": "Inhibit ovulation and implantation; alter cervical mucus",
@@ -126,7 +126,7 @@
     "topic": "Amniocentesis and MTP",
     "stem": "What is amniocentesis? Why is there a statutory ban on its use for sex determination?",
     "hint": "Fluid around the foetus; female foeticide.",
-    "model_answer": "Amniocentesis is a foetal test based on the chromosomal pattern in the amniotic fluid surrounding the embryo; it can reveal the sex and genetic disorders. It was misused to find the sex of the foetus, followed by MTP if the foetus was female, so its use for sex determination is banned to check female foeticide.",
+    "model_answer": "*How much to write: 3–4 lines · 3 minutes*\n\n**Amniocentesis** is a <mark>foetal sex-determination test based on the chromosomal pattern in the amniotic fluid</mark> surrounding the developing embryo; it can also detect genetic disorders.\n\n**Statutory ban:** the test was <u>misused to find the sex of the foetus</u>, followed by MTP if the foetus was female. To check this <mark>female foeticide</mark>, its use for sex determination is legally banned.\n\n:::tip Your answer must contain\n- <u>amniotic fluid</u> + <u>chromosomal pattern</u>\n- misuse → <mark>female foeticide</mark>\n:::\n\n**Marks are lost for:** calling it a blood test; giving no reason for the ban.",
     "scheme": [
       {
         "step": "Definition: chromosomal pattern in amniotic fluid",
@@ -148,7 +148,7 @@
     "topic": "STIs",
     "stem": "Name any four sexually transmitted infections. Mention two complications of untreated STIs and three ways to prevent them.",
     "hint": "PID, ectopic pregnancy, infertility; condoms.",
-    "model_answer": "Any four: gonorrhoea, syphilis, genital herpes, chlamydiasis, genital warts, trichomoniasis, hepatitis-B, HIV. Complications (any two): pelvic inflammatory disease, abortions, still births, ectopic pregnancy, infertility, cancer of the reproductive tract. Prevention: avoid sex with unknown or multiple partners; always use condoms; consult a qualified doctor early and complete treatment.",
+    "model_answer": "*How much to write: 3 short groups · 5 minutes*\n\n**Four STIs:** gonorrhoea, syphilis, genital herpes, chlamydiasis, genital warts, trichomoniasis, hepatitis-B, HIV (any four).\n\n**Complications if untreated (any two):** <mark>pelvic inflammatory disease (PID)</mark>, abortions, still births, <u>ectopic pregnancies</u>, <mark>infertility</mark>, cancer of the reproductive tract.\n\n**Prevention:**\n1. Avoid sex with <u>unknown partners or multiple partners</u>.\n2. <mark>Always use condoms</mark> during coitus.\n3. In case of doubt, go to a qualified doctor for <u>early detection</u> and get complete treatment.\n\n:::tip Your answer must contain\n- four correct STIs\n- two complications such as <mark>PID</mark>, <mark>infertility</mark>\n- three prevention points\n:::\n\n**Marks are lost for:** listing non-STIs such as typhoid; giving only one way to prevent them.",
     "scheme": [
       {
         "step": "Four STIs (¼ each)",
@@ -226,7 +226,9 @@
           }
         ]
       }
-    ]
+    ],
+    "hint": "Where does fertilisation normally happen? Which technique needs just one sperm, and where does an embryo of more than 8 cells go?",
+    "model_answer": "*How much to write: one line for (i), 2 lines for (ii), 3 lines for (iii) · 6 minutes*\n\n**(i)** Fertilisation normally takes place in the <mark>ampullary region of the fallopian tube</mark>. With both tubes blocked, the ovum and sperms <u>cannot meet</u>.\n\n**(ii)** <mark>ICSI (intra-cytoplasmic sperm injection)</mark>: a sperm is injected directly into the ovum in the laboratory. Only <u>one healthy sperm</u> is needed, so a very low count or poor motility does not matter.\n\n**(iii)** <mark>IUT (intra-uterine transfer)</mark> into the <u>uterus</u>. ZIFT places a zygote or early embryo (<u>up to 8 blastomeres</u>) into the <u>fallopian tube</u>; her tubes are blocked, and this embryo already has more than 8 blastomeres.\n\n:::tip Your answer must contain\n- (i) site = <mark>ampulla</mark>; tubes blocked\n- (ii) <mark>ICSI</mark>, only one sperm needed\n- (iii) <mark>IUT → uterus</mark>; ZIFT = tube, ≤ 8 cells\n:::\n\n**Marks are lost for:** answering GIFT or AI in (ii); saying a 16-cell embryo goes into the tube."
   },
   {
     "id": "bio-03-q10",
@@ -238,7 +240,7 @@
     "topic": "Contraceptive methods",
     "stem": "(a) List the features of an ideal contraceptive. [1]<br>(b) Describe barrier methods, IUDs and surgical methods of contraception, giving one example of each and how it works. [3]<br>(c) Why are IUDs preferred by women who want to space children? [1]",
     "hint": "Reversible vs terminal.",
-    "model_answer": "(a) User-friendly, easily available, effective, reversible, no or least side effects, no interference with sexual drive or act.<br>(b) Barrier: condom (Nirodh) or diaphragm covers penis/cervix and prevents semen entering the female tract. IUD: CuT — increases phagocytosis of sperms and Cu ions suppress sperm motility and fertilising capacity; hormone IUDs also make the uterus unsuitable for implantation. Surgical: vasectomy/tubectomy — part of vas deferens/fallopian tube removed or tied, blocking gamete transport.<br>(c) IUDs are effective yet reversible: removing the device restores fertility, so pregnancy can be delayed or spaced.",
+    "model_answer": "*How much to write: about two-thirds of a page · 9 minutes*\n\n**(a)** An ideal contraceptive is <u>user-friendly, easily available, effective and reversible</u>, with <mark>no or least side effects</mark>, and does not interfere with sexual drive, desire or the sexual act.\n\n**(b)**\n- **Barrier methods:** <u>condoms</u> (e.g. Nirodh), diaphragms, cervical caps and vaults <mark>prevent the ovum and sperms from meeting physically</mark>; condoms cover the penis or vagina and stop semen entering the female tract.\n- **IUDs:** e.g. <u>CuT, Cu7, Multiload 375</u> (copper-releasing), Lippes loop (non-medicated), Progestasert and LNG-20 (hormone-releasing). They <mark>increase phagocytosis of sperms</mark> in the uterus; <u>Cu ions suppress sperm motility and fertilising capacity</u>; hormone-releasing IUDs make the uterus unsuitable for implantation and the cervix hostile to sperms.\n- **Surgical methods (sterilisation):** <u>vasectomy</u> (a small part of the vas deferens is removed or tied through a small cut in the scrotum) and <u>tubectomy</u> (a small part of the fallopian tube is removed or tied through the abdomen or vagina); they <mark>block gamete transport</mark>. Reversibility is very poor.\n\n**(c)** IUDs are <mark>effective and reversible</mark>: when the device is removed, fertility returns, so they are ideal for women who want to <u>delay pregnancy or space children</u>.\n\n:::tip Your answer must contain\n- features of an ideal contraceptive\n- barrier, IUD and surgical method, <u>each with an example and how it works</u>\n- IUDs: <mark>reversible</mark> → spacing\n:::\n\n**Marks are lost for:** calling vasectomy a removal of the testes; saying IUDs are permanent.",
     "scheme": [
       {
         "step": "Ideal contraceptive features",
