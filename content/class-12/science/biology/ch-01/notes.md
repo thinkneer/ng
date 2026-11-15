@@ -245,14 +245,13 @@ time: 4
 
 Male and female gametes are both non-motile here, so pollen must be carried to the stigma. That transfer is **pollination**. It comes in three kinds, depending on where the pollen comes from:
 
-```ng-compare
+```ng-fill
 id: ch01-kinds-of-pollination
 title: Autogamy, geitonogamy and xenogamy
-cols: Autogamy | Geitonogamy | Xenogamy
-row: Pollen comes from | the same flower | another flower of the **same plant** | a flower of a **different plant**
-row: Agent needed | not always | yes | yes
-row: Genetically | self | self (same genotype) | cross: new gene combinations
-row: Example | cleistogamous *Viola* flowers | flowers on one maize plant | wind or insects carrying pollen between plants
+cols: Kind | Pollen comes from, and what it means
+row: Autogamy | [[the same flower; may need no agent (cleistogamous *Viola*)]]
+row: Geitonogamy | [[another flower of the same plant; needs an agent but is genetically self]]
+row: Xenogamy | [[a flower of a different plant; brings new gene combinations]]
 ```
 
 Geitonogamy is the tricky one. It is *functionally* cross-pollination because an agent carries pollen between flowers, but *genetically* it is like autogamy because every flower on one plant has the same genotype.
@@ -489,13 +488,13 @@ Why it matters: seed saved from a hybrid crop loses hybrid vigour because the ch
 Apomixis gives a **seed** without fertilisation; parthenocarpy gives a **fruit** without fertilisation, and that fruit has no seeds.
 :::
 
-```ng-compare
+```ng-fill
 id: ch01-apomixis-parthenocarpy
 title: Apomixis, polyembryony and parthenocarpy
-cols: Apomixis | Polyembryony | Parthenocarpy
-row: What forms | seed without fertilisation | more than one embryo in a seed | fruit without fertilisation
-row: How | diploid egg without meiosis, or nucellar cells → embryo | nucellar cells push into the embryo sac | naturally or with growth hormones; no seeds
-row: Example | some Asteraceae, grasses | citrus, mango | banana
+cols: Term | What forms, how, example
+row: Apomixis | [[seed without fertilisation; diploid egg or nucellar cell → embryo (some Asteraceae, grasses)]]
+row: Polyembryony | [[more than one embryo in a seed; nucellar cells enter the embryo sac (citrus, mango)]]
+row: Parthenocarpy | [[fruit without fertilisation, seedless; natural or by hormones (banana)]]
 ```
 
 ```ng-mnemonic

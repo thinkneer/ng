@@ -75,18 +75,20 @@ prompt: Why are quadrats placed at random?
 
 Record one row per species and one column per quadrat (Q1 … Q10), then two totals:
 
-| Species | Counts in Q1 … Q10 | Total individuals | Quadrats with the species |
-|---|---|---|---|
-| A | | | |
-| B | | | |
-| C | | | |
+| Species | Total individuals | Quadrats with it |
+|---|---|---|
+| A | | |
+| B | | |
+| C | | |
+
+(Keep the count for each quadrat, Q1 to Q10, in your notebook; the table holds the totals.)
 
 :::formula Population density
 $$\text{Density}=\frac{\text{total individuals}}{\text{quadrats studied}}$$
 :::
 
 :::formula Population frequency
-$$\text{Frequency (\%)}=\frac{\text{quadrats with species}}{\text{quadrats studied}}\times100$$
+$$\begin{aligned}&\text{Frequency (\%)}\\&=\frac{\text{quadrats with it}}{\text{quadrats studied}}\times100\end{aligned}$$
 :::
 
 :::skeleton Worked example (3 marks)

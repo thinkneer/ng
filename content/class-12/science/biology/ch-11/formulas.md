@@ -22,14 +22,14 @@ Birth rate = births ÷ N; death rate = deaths ÷ N (per unit time). Lotus: 8/20 
 
 ## Population interactions
 
-| Interaction | A | B | Example |
-|---|---|---|---|
-| Mutualism | + | + | lichen; mycorrhiza; fig–wasp; *Ophrys*–bee |
-| Competition | − | − | flamingo and fish (zooplankton); *Balanus* vs *Chthamalus* |
-| Predation | + | − | moth on prickly pear; *Pisaster* on invertebrates |
-| Parasitism | + | − | liver fluke; *Cuscuta*; cuckoo (brood) |
-| Commensalism | + | 0 | orchid on mango; egret and cattle; barnacle on whale |
-| Amensalism | − | 0 | — |
+| Interaction | Signs | Example |
+|---|---|---|
+| Mutualism | + / + | lichen; mycorrhiza; fig–wasp |
+| Competition | − / − | flamingo and fish; *Balanus* vs *Chthamalus* |
+| Predation | + / − | moth on prickly pear; *Pisaster* |
+| Parasitism | + / − | liver fluke; *Cuscuta*; cuckoo |
+| Commensalism | + / 0 | orchid on mango; egret and cattle |
+| Amensalism | − / 0 | — |
 
 ## Age pyramids
 

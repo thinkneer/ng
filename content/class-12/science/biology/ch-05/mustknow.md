@@ -104,7 +104,7 @@ Isolate DNA → restriction digestion [½] → gel electrophoresis [½] → Sout
 - Cell-free protein synthesis used by: Marshall Nirenberg.
 - tRNA shape: clover leaf (2D), inverted L (3D).
 - Lac operon described by: Jacob and Monod.
-- HGP: 1990–2003; 3164.7 million bp; about 30,000 genes.
+- **Human Genome Project (HGP):** 1990–2003; 3164.7 million bp; about 30,000 genes.
 - Identical DNA between humans: 99.9%.
 - Protein-coding part of genome: less than 2%.
 - Most genes: chromosome 1 (2968); fewest: Y (231).

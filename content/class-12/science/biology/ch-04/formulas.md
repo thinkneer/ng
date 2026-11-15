@@ -37,12 +37,12 @@ Daughters: ½ normal, ½ carrier · sons: ½ normal, ½ affected.
 
 ## Sex determination
 
-| Type | Female | Male | Example |
-|---|---|---|---|
-| XX–XO | XX | XO | grasshopper |
-| XX–XY | XX | XY | humans, *Drosophila* |
-| ZW–ZZ | ZW | ZZ | birds |
-| Haplodiploid | 2n (32) | n (16) | honey bee |
+| Type | Female / male | Example |
+|---|---|---|
+| XX–XO | XX / XO | grasshopper |
+| XX–XY | XX / XY | humans, *Drosophila* |
+| ZW–ZZ | ZW / ZZ | birds |
+| Haplodiploid | 2n (32) / n (16) | honey bee |
 
 ## Facts to remember
 

@@ -45,13 +45,13 @@ step: Birth rate $=\dfrac{\text{new individuals}}{\text{population}}=\dfrac{ {{b
 step: $=$ **{{b/N:2}} offspring per plant per year**.
 ```
 
-```ng-compare
+```ng-fill
 id: ch11-pyramid-shapes
 title: Three age pyramids
-cols: Expanding | Stable | Declining
-row: Shape | triangle, broad base | bell | urn, narrow base
-row: Young vs adults | many more young | about equal | fewer young
-row: Future | population grows | stays about the same | population shrinks
+cols: Shape | Young vs adults, and the future
+row: Triangle (broad base) | [[many more young: expanding population]]
+row: Bell | [[young ≈ adults: stable population]]
+row: Urn (narrow base) | [[fewer young: declining population]]
 ```
 
 ```ng-mnemonic
@@ -197,13 +197,13 @@ No species lives alone; populations of different species interact. The interacti
 ```ng-fill
 id: ch11-interactions
 title: Population interactions
-cols: Interaction | Species A | Species B | Example
-row: Mutualism | + | [[+]] | lichens; mycorrhiza; fig and wasp
-row: Competition | [[−]] | [[−]] | flamingoes and fishes for zooplankton
-row: Predation | + | [[−]] | tiger eating deer
-row: Parasitism | + | − | [[*Cuscuta* on hedge plants; human liver fluke]]
-row: Commensalism | + | [[0]] | [[orchid on mango branch; cattle egret and cattle]]
-row: Amensalism | [[−]] | [[0]] | one is harmed, the other unaffected
+cols: Interaction | Signs | Example
+row: Mutualism | [[+ / +]] | lichens; mycorrhiza; fig and wasp
+row: Competition | [[− / −]] | flamingoes and fishes for zoo­plankton
+row: Predation | + / [[−]] | tiger eating deer
+row: Parasitism | + / − | [[*Cuscuta* on hedge plants]]
+row: Commen­salism | + / [[0]] | [[orchid on mango; cattle egret]]
+row: Amen­salism | [[− / 0]] | one harmed, other unaffected
 ```
 
 Predation, parasitism and commensalism share a feature: the interacting species live closely together.
@@ -236,8 +236,8 @@ prompt: What are the signs for commensalism and amensalism?
 
 ```ng-compare
 id: ch11-commensalism-vs-mutualism
-title: Commensalism vs mutualism
-cols: Commensalism | Mutualism
+title: Commen­salism vs mutualism
+cols: Commen­salism | Mutualism
 row: Signs | + / 0 | + / +
 row: Examples | orchid on mango; barnacles on whale; cattle egret and cattle; clown fish and sea anemone | lichen (fungus + alga); mycorrhiza; fig and wasp; Ophrys and bee
 ```

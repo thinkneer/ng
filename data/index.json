@@ -2374,8 +2374,8 @@
                         "steps": 6,
                         "mnemonic": 6,
                         "draw": 4,
-                        "compare": 4,
-                        "fill": 1
+                        "fill": 3,
+                        "compare": 2
                       },
                       "words": 3961,
                       "read_minutes": 13,
@@ -2414,7 +2414,7 @@
                         "compare": 2,
                         "steps": 4
                       },
-                      "words": 3692,
+                      "words": 3664,
                       "read_minutes": 12,
                       "cards": 15,
                       "mnemonics": 5
@@ -2535,7 +2535,7 @@
                         "steps": 7,
                         "fill": 1
                       },
-                      "words": 4255,
+                      "words": 4258,
                       "read_minutes": 15,
                       "cards": 15,
                       "mnemonics": 5
@@ -2574,7 +2574,7 @@
                         "graph": 1,
                         "fill": 1
                       },
-                      "words": 3016,
+                      "words": 3031,
                       "read_minutes": 10,
                       "cards": 10,
                       "mnemonics": 3
@@ -2620,7 +2620,7 @@
                         "compare": 4,
                         "steps": 1
                       },
-                      "words": 3836,
+                      "words": 3712,
                       "read_minutes": 13,
                       "cards": 11,
                       "mnemonics": 6
@@ -2652,8 +2652,8 @@
                       "blocks": {
                         "steps": 3,
                         "mnemonic": 4,
-                        "fill": 2,
-                        "compare": 3,
+                        "fill": 3,
+                        "compare": 2,
                         "figure": 2,
                         "draw": 2
                       },
@@ -2736,10 +2736,10 @@
                       "blocks": {
                         "mnemonic": 3,
                         "steps": 4,
-                        "fill": 2,
+                        "fill": 3,
                         "figure": 3,
                         "draw": 3,
-                        "compare": 2
+                        "compare": 1
                       },
                       "words": 2915,
                       "read_minutes": 9,
@@ -2782,14 +2782,14 @@
                       "blocks": {
                         "figure": 2,
                         "numerical": 2,
-                        "compare": 3,
+                        "fill": 2,
                         "mnemonic": 3,
                         "draw": 2,
                         "graph": 1,
-                        "fill": 1,
+                        "compare": 2,
                         "steps": 1
                       },
-                      "words": 2765,
+                      "words": 2755,
                       "read_minutes": 9,
                       "cards": 11,
                       "mnemonics": 4
@@ -2857,16 +2857,16 @@
                       },
                       "diagrams": [],
                       "blocks": {
-                        "fill": 3,
+                        "fill": 4,
                         "mnemonic": 5,
                         "graph": 1,
                         "numerical": 1,
                         "figure": 1,
                         "draw": 1,
                         "steps": 1,
-                        "compare": 2
+                        "compare": 1
                       },
-                      "words": 3344,
+                      "words": 3346,
                       "read_minutes": 11,
                       "cards": 11,
                       "mnemonics": 5
@@ -2903,7 +2903,7 @@
                         "draw": 1,
                         "numerical": 1
                       },
-                      "words": 997,
+                      "words": 990,
                       "read_minutes": 3,
                       "cards": 9,
                       "mnemonics": 3
@@ -2932,7 +2932,7 @@
                         "numerical": 2,
                         "compare": 1
                       },
-                      "words": 976,
+                      "words": 983,
                       "read_minutes": 3,
                       "cards": 9,
                       "mnemonics": 2
@@ -2961,7 +2961,7 @@
                         "fill": 1,
                         "numerical": 1
                       },
-                      "words": 939,
+                      "words": 935,
                       "read_minutes": 3,
                       "cards": 9,
                       "mnemonics": 2
@@ -3011,12 +3011,12 @@
                       "question_types": {},
                       "diagrams": [],
                       "blocks": {
-                        "compare": 2,
+                        "fill": 3,
                         "steps": 1,
                         "mnemonic": 2,
                         "figure": 1,
                         "draw": 1,
-                        "fill": 2
+                        "compare": 1
                       },
                       "words": 1291,
                       "read_minutes": 4,

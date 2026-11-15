@@ -72,7 +72,7 @@ Long undisturbed evolutionary time (no glaciations) [1] → less seasonal, const
 ## Quick 1-mark facts (MCQ, A–R)
 
 - **Bird species by latitude:** Colombia ≈ 1,400; New York 105; Greenland 56; India > 1,200.
-- Amazon: > 40,000 plants, 3,000 fishes, 1,300 birds, 427 mammals.
+- **Amazon species counts:** > 40,000 plants, 3,000 fishes, 1,300 birds, 427 mammals.
 - Plants among recorded species: no more than 22%.
 - Fungal species exceed: fishes, amphibians, reptiles and mammals combined.
 - Recent extinctions: dodo (Mauritius), quagga (Africa), thylacine (Australia), Steller's sea cow (Russia).

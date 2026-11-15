@@ -26,7 +26,7 @@
     "id": "ch12-decomposition",
     "kind": "process",
     "title": "Decomposition",
-    "tex": "\\text{fragment}\\to\\text{leach}\\to\\text{catabolise}\\to\\text{humify}\\to\\text{mineralise}",
+    "tex": "\\begin{gathered}\\text{fragment}\\to \\text{leach}\\\\\\to \\text{catabolise}\\to \\text{humify}\\\\\\to \\text{mineralise}\\end{gathered}",
     "back": "First three act on detritus together; humification and mineralisation in soil. Humus is a slow, colloidal nutrient reservoir.",
     "stars": 3
   },
@@ -34,7 +34,7 @@
     "id": "ch12-decomposition-rate",
     "kind": "compare",
     "title": "Decomposition rate",
-    "tex": "\\text{N, sugars, warm, moist}\\ \\big|\\ \\text{lignin, chitin, cold, anaerobic}",
+    "tex": "\\begin{gathered}\\text{N, sugars, warm, moist}\\\\\\text{lignin, chitin, cold, anaerobic}\\end{gathered}",
     "back": "Temperature and soil moisture are the most important climatic factors.",
     "stars": 2
   },
@@ -42,7 +42,7 @@
     "id": "ch12-par",
     "kind": "formula",
     "title": "Capturing sunlight",
-    "tex": "\\text{PAR}<50\\%;\\quad\\text{plants fix }2\\text{–}10\\%\\text{ of PAR}",
+    "tex": "\\begin{gathered}\\text{PAR}<50\\%;\\\\\\text{plants fix }2\\text{–}10\\%\\text{ of PAR}\\end{gathered}",
     "legend": [
       "PAR = photosynthetically active radiation"
     ],
@@ -53,7 +53,7 @@
     "id": "ch12-gfc-vs-dfc",
     "kind": "compare",
     "title": "GFC vs DFC",
-    "tex": "\\text{grass}\\to\\text{goat}\\to\\text{man}\\ \\big|\\ \\text{detritus}\\to\\text{decomposers}",
+    "tex": "\\begin{gathered}\\text{grass}\\to \\text{goat}\\to \\text{man}\\\\\\text{detritus}\\to \\text{decomposers}\\end{gathered}",
     "back": "GFC is the main energy route in water; on land more energy flows through the DFC.",
     "stars": 3
   },
@@ -83,7 +83,7 @@
     "id": "ch12-pyramid-limits",
     "kind": "process",
     "title": "Limits of ecological pyramids",
-    "tex": "\\text{one species, two levels}\\cdot\\text{no food webs}\\cdot\\text{no saprophytes}",
+    "tex": "\\begin{gathered}\\text{one species, two levels}\\\\\\text{no food webs}\\\\\\text{no saprophytes}\\end{gathered}",
     "back": "Pyramids assume a simple food chain, which almost never exists in nature.",
     "stars": 2
   },

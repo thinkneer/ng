@@ -70,9 +70,9 @@ row: I | [[first enzyme isolated from that strain]]
 
 ```ng-compare
 id: ch09-exo-vs-endo
-title: Exonuclease vs endonuclease
-cols: Exonuclease | Endonuclease
-row: Cuts | nucleotides off the ends of DNA | at specific positions inside DNA
+title: Exo­nuclease vs endonuclease
+cols: Exo­nuclease | Endo­nuclease
+row: Cuts | nucleo­tides off the ends of DNA | at specific positions inside DNA
 row: Example | — | EcoRI, Hind II (restriction endonucleases)
 ```
 
@@ -151,11 +151,11 @@ step: Colonies that **fail to grow** on tetracycline are the **recombinants** (t
 ```ng-compare
 id: ch09-antibiotic-vs-blue-white
 title: Antibiotic selection vs blue–white screening
-cols: Antibiotic (replica plating) | Blue–white (β-galactosidase)
-row: Insertion site | inside an antibiotic-resistance gene | inside the β-galactosidase gene
-row: Recombinants | fail to grow on the second antibiotic | stay colourless (white)
-row: Non-recombinants | grow on both antibiotics | turn blue with the chromogenic substrate
-row: Plates needed | two (replica plating) | one
+cols: Two antibiotics | Blue–white
+row: Insert goes into | an antibiotic-re­sistance gene | the β-galacto­sidase gene
+row: Re­combinants | fail to grow on the 2nd antibiotic | stay white
+row: Non-re­combinants | grow on both | turn blue
+row: Plates | two (replica plating) | one
 ```
 
 **Vectors for plants and animals.** *Agrobacterium tumefaciens*, a plant pathogen, transfers a piece of DNA called **T-DNA** from its **Ti plasmid** (tumour-inducing) into dicot plant cells, turning them into tumour cells. Scientists have **disarmed** the Ti plasmid so it no longer causes tumours but still delivers genes of interest. Similarly, **retroviruses**, which transform normal animal cells into cancerous ones, are disarmed and used to deliver genes into animal cells.
@@ -172,8 +172,8 @@ prompt: List the features a good cloning vector needs.
 id: ch09-ti-vs-retrovirus
 title: Disarmed vectors for plants and animals
 cols: Plants | Animals
-row: Pathogen | *Agrobacterium tumefaciens* | retroviruses
-row: What it does naturally | Ti plasmid sends T-DNA into dicot cells → tumours | turns normal cells cancerous
+row: Pathogen | *Agro­bacterium tume­faciens* | retro­viruses
+row: In nature | Ti plasmid sends T-DNA into dicot cells → tumours | turns normal cells cancerous
 row: As a vector | disarmed Ti plasmid delivers the gene of interest | disarmed retrovirus delivers genes into animal cells
 ```
 

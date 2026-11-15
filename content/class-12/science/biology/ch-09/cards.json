@@ -28,7 +28,7 @@
     "id": "ch09-gel",
     "kind": "process",
     "title": "Gel electrophoresis",
-    "tex": "\\text{DNA}(-)\\to\\text{anode};\\ \\text{small fragments travel farthest}",
+    "tex": "\\begin{gathered}\\text{DNA }(-)\\to\\text{anode}\\\\\\text{small fragments}\\\\\\text{travel farthest}\\end{gathered}",
     "back": "Agarose from sea weed; ethidium bromide + UV shows orange bands; bands cut out and eluted.",
     "stars": 3
   },
@@ -47,14 +47,14 @@
     "id": "ch09-vector-features",
     "kind": "mnemonic",
     "title": "Cloning vector features",
-    "tex": "\\text{ori}\\cdot\\text{selectable marker}\\cdot\\text{cloning sites}\\cdot\\text{small size}",
+    "tex": "\\begin{gathered}\\text{ori}\\cdot \\text{selectable marker}\\\\\\text{cloning sites}\\\\\\text{small size}\\end{gathered}",
     "back": "Our School Club is Small. Ori controls copy number; single cloning sites avoid cutting the vector into pieces."
   },
   {
     "id": "ch09-antibiotic-vs-blue-white",
     "kind": "compare",
     "title": "Selecting recombinants",
-    "tex": "\\text{replica plating (no growth on tet)}\\ \\big|\\ \\text{white colonies}",
+    "tex": "\\begin{gathered}\\text{replica plating (no growth on tet)}\\\\\\text{white colonies}\\end{gathered}",
     "back": "Insertional inactivation: foreign DNA in a gene destroys its function. Blue–white needs only one plate.",
     "stars": 3
   },
@@ -62,7 +62,7 @@
     "id": "ch09-competence",
     "kind": "process",
     "title": "Making cells competent",
-    "tex": "\\text{Ca}^{2+}\\to\\text{ice}\\to42\\,^{\\circ}\\text{C}\\to\\text{ice}",
+    "tex": "\\begin{gathered}\\text{Ca}^{2+}\\to\\text{ice}\\\\\\to42^{\\circ}\\text{C}\\to\\text{ice}\\end{gathered}",
     "back": "Other routes: micro-injection (animal nucleus), gene gun with gold or tungsten (plants), disarmed pathogens.",
     "stars": 2
   },
@@ -93,7 +93,7 @@
     "id": "ch09-rdna-process",
     "kind": "process",
     "title": "rDNA technology",
-    "tex": "\\text{isolate}\\to\\text{cut}\\to\\text{PCR}\\to\\text{ligate}\\to\\text{transform}\\to\\text{express}",
+    "tex": "\\begin{gathered}\\text{isolate}\\to \\text{cut}\\to \\text{PCR}\\\\\\to \\text{ligate}\\to \\text{transform}\\\\\\to \\text{express}\\end{gathered}",
     "back": "Chilled ethanol precipitates DNA. Continuous culture keeps cells in log phase for more product.",
     "stars": 3
   },
@@ -112,7 +112,7 @@
     "id": "ch09-downstream",
     "kind": "process",
     "title": "Downstream processing",
-    "tex": "\\text{separate}\\to\\text{purify}\\to\\text{formulate}\\to\\text{QC}",
+    "tex": "\\begin{gathered}\\text{separate}\\to \\text{purify}\\\\\\to \\text{formulate}\\to \\text{QC}\\end{gathered}",
     "back": "Drugs also need clinical trials before marketing.",
     "stars": 2
   }

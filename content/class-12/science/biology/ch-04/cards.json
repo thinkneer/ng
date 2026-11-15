@@ -22,7 +22,7 @@
     "id": "ch04-ratios",
     "kind": "formula",
     "title": "Mendelian ratios",
-    "tex": "3:1\\quad1:2:1\\quad9:3:3:1\\quad1:1:1:1",
+    "tex": "\\begin{gathered}3:1\\quad 1:2:1\\quad 9:3:3:1\\\\1:1:1:1\\end{gathered}",
     "legend": [
       "3:1 = monohybrid F2 phenotype",
       "1:2:1 = F2 genotype; incomplete dominance phenotype",
@@ -35,7 +35,7 @@
     "id": "ch04-incomplete-vs-co",
     "kind": "compare",
     "title": "Incomplete vs co-dominance",
-    "tex": "\\text{pink snapdragon}\\quad\\big|\\quad\\text{blood group AB}",
+    "tex": "\\begin{gathered}\\text{pink snapdragon}\\quad\\\\\\quad \\text{blood group AB}\\end{gathered}",
     "back": "Incomplete: a new blended phenotype. Co-dominance: both alleles fully expressed. Both give 1 : 2 : 1 in F2.",
     "stars": 3
   },
@@ -45,9 +45,9 @@
     "title": "ABO blood groups",
     "tex": "I^A=I^B>i",
     "legend": [
-      "I^A, I^B = co-dominant",
+      "Iᴬ, Iᴮ = co-dominant alleles",
       "i = recessive (no sugar)",
-      "genotypes : phenotypes = 6 : 4"
+      "6 : 4 = genotypes : phenotypes"
     ],
     "back": "AB = I^A I^B; O = ii. Multiple alleles (three) at one gene.",
     "stars": 3
@@ -60,7 +60,7 @@
     "legend": [
       "% = recombinants in Drosophila crosses"
     ],
-    "back": "Genes on one chromosome stay linked; recombination makes non-parental types. Sturtevant used recombination frequency to map genes.",
+    "back": "Linked genes stay together; recombination gives new types. Sturtevant mapped genes by it.",
     "stars": 2
   },
   {
@@ -86,7 +86,7 @@
     "id": "ch04-sickle-cell",
     "kind": "process",
     "title": "Sickle-cell anaemia",
-    "tex": "\\text{GAG}\\to\\text{GUG}:\\ \\text{Glu}\\to\\text{Val (6th, }\\beta\\text{-globin)}",
+    "tex": "\\begin{gathered}\\text{GAG}\\to \\text{GUG}:\\ \\text{Glu}\\\\\\to \\text{Val (6th, }\\beta\\text{-globin)}\\end{gathered}",
     "back": "Autosomal recessive point mutation; Hb polymerises at low O₂ and RBCs sickle. Only HbˢHbˢ is ill.",
     "stars": 3
   },
@@ -94,7 +94,7 @@
     "id": "ch04-chromosomal-disorders",
     "kind": "compare",
     "title": "Down vs Klinefelter vs Turner",
-    "tex": "\\text{trisomy 21 (47)}\\ \\big|\\ \\text{XXY (47)}\\ \\big|\\ \\text{XO (45)}",
+    "tex": "\\begin{gathered}\\text{trisomy 21 (47)}\\\\\\text{XXY (47)}\\\\\\text{XO (45)}\\end{gathered}",
     "back": "Aneuploidy from failed chromatid separation. Klinefelter: sterile male with gynaecomastia. Turner: sterile female, rudimentary ovaries.",
     "stars": 3
   },

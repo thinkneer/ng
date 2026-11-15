@@ -163,7 +163,7 @@ A **biogas plant** has a concrete tank, 10–15 feet deep, into which bio-wastes
 id: ch08-biogas-plant
 title: A biogas plant
 svg:
-<svg viewBox="0 0 330 190" role="img" aria-label="Biogas plant with digester, floating gas holder, inlet and outlet" fill="none" stroke="currentColor">
+<svg viewBox="0 0 340 174" role="img" aria-label="Biogas plant with digester, floating gas holder, inlet and outlet" fill="none" stroke="currentColor">
 <path stroke-opacity="0.5" d="M0,60H330"/>
 <rect x="100" y="60" width="130" height="110" stroke-width="1.6"/>
 <rect class="uf" x="101" y="92" width="128" height="77" fill-opacity="0.25" stroke="none"/>
@@ -234,12 +234,14 @@ Chemical fertilisers pollute, so farmers are turning to organic farming and **bi
 *Rhizobium* is symbiotic (legume root nodules); *Azotobacter* and *Azospirillum* are free-living. *Glomus* is a fungus that supplies phosphorus, not nitrogen.
 :::
 
-```ng-compare
+```ng-fill
 id: ch08-biofertilisers
 title: Kinds of biofertiliser
-cols: Symbiotic N-fixer | Free-living N-fixer | Mycorrhiza | Cyanobacteria
-row: Example | *Rhizobium* | *Azotobacter*, *Azospirillum* | *Glomus* | *Anabaena*, *Nostoc*, *Oscillatoria*
-row: Gives | nitrogen, in legume root nodules | nitrogen to soil | **phosphorus**; drought, salt and pathogen tolerance | nitrogen + organic matter (paddy fields)
+cols: Kind (example) | What it gives
+row: Symbiotic N-fixer (*Rhizobium*) | [[nitrogen, in legume root nodules]]
+row: Free-living N-fixer (*Azotobacter*, *Azospirillum*) | [[nitrogen to the soil]]
+row: Mycorrhiza (*Glomus*) | [[phosphorus; drought, salt and pathogen tolerance]]
+row: Cyanobacteria (*Anabaena*, *Nostoc*, *Oscillatoria*) | [[nitrogen + organic matter in paddy fields]]
 ```
 
 ```ng-mnemonic

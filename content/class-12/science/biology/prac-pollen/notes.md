@@ -81,17 +81,17 @@ Under the microscope many grains show a **pollen tube** coming out through a ger
 
 **Observation table**
 
-| Field | Germinated | Not germinated | Total |
-|---|---|---|---|
-| 1 | | | |
-| 2 | | | |
-| 3 | | | |
-| Total | | | |
+| Field | Germinated | Not germinated |
+|---|---|---|
+| 1 | | |
+| 2 | | |
+| 3 | | |
+| Total | | |
 
 Percentage germination is worked out from the totals:
 
 :::formula Percentage germination
-$$\text{Germination (\%)}=\frac{\text{germinated}}{\text{total counted}}\times100$$
+$$\begin{aligned}&\text{Germination (\%)}\\&=\frac{\text{germinated}}{\text{total}}\times100\end{aligned}$$
 :::
 
 ```ng-numerical

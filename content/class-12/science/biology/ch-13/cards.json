@@ -11,9 +11,9 @@
     "id": "ch13-species-numbers",
     "kind": "formula",
     "title": "How many species?",
-    "tex": "1.5\\text{ M described}\\quad\\approx7\\text{ M estimated}",
+    "tex": "\\begin{gathered}1.5\\text{ M described}\\\\\\approx7\\text{ M estimated}\\end{gathered}",
     "legend": [
-      "estimate = Robert May",
+      "who = Robert May made the estimate",
       "> 70% = animals among recorded species"
     ],
     "back": "India: 2.4% of land, 8.1% of species, ~45,000 plant species; one of 12 mega-diversity countries.",
@@ -56,7 +56,7 @@
     "id": "ch13-rivet-popper",
     "kind": "process",
     "title": "Rivet popper hypothesis",
-    "tex": "\\text{rivets}=\\text{species};\\ \\text{wing rivets}=\\text{key species}",
+    "tex": "\\begin{gathered}\\text{rivets}=\\text{species}\\\\\\text{wing rivets}=\\\\\\text{key species}\\end{gathered}",
     "back": "Paul Ehrlich. Tilman's plots: more species → more stable biomass and higher productivity.",
     "stars": 2
   },
@@ -64,7 +64,7 @@
     "id": "ch13-evil-quartet",
     "kind": "compare",
     "title": "The Evil Quartet",
-    "tex": "\\text{habitat}\\ \\big|\\ \\text{over-exploit}\\ \\big|\\ \\text{alien}\\ \\big|\\ \\text{co-extinction}",
+    "tex": "\\begin{gathered}\\text{habitat}\\\\\\text{over-exploit}\\\\\\text{alien}\\\\\\text{co-extinction}\\end{gathered}",
     "back": "Amazon cleared | Steller's sea cow | Nile perch in Lake Victoria | host and parasite. Habitat loss is the most important.",
     "stars": 3
   },
@@ -72,7 +72,7 @@
     "id": "ch13-extinction-rate",
     "kind": "formula",
     "title": "Extinction numbers",
-    "tex": "784\\text{ extinctions in }500\\text{ yr (IUCN 2004)}",
+    "tex": "\\begin{gathered}784\\text{ extinctions}\\\\\\text{in 500 years}\\\\\\text{(IUCN 2004)}\\end{gathered}",
     "legend": [
       "now = 100–1,000 times faster than before humans"
     ],
@@ -83,7 +83,7 @@
     "id": "ch13-in-situ-vs-ex-situ",
     "kind": "compare",
     "title": "In situ vs ex situ",
-    "tex": "\\text{hotspots, parks, sacred groves}\\ \\big|\\ \\text{zoos, seed banks, cryopreservation}",
+    "tex": "\\begin{gathered}\\text{in situ: hotspots,}\\\\\\text{parks, sacred groves}\\\\\\text{ex situ: zoos,}\\\\\\text{seed banks, cryo}\\end{gathered}",
     "back": "NCERT figures: 14 biosphere reserves, 90 national parks, 448 sanctuaries; 34 hotspots, 3 in India.",
     "stars": 3
   },
@@ -93,8 +93,8 @@
     "title": "International efforts",
     "tex": "\\text{Rio 1992}\\to\\text{Johannesburg 2002}",
     "legend": [
-      "Rio = Convention on Biological Diversity (Earth Summit)",
-      "Johannesburg = 190 countries, target 2010"
+      "1992 = Rio Earth Summit (CBD)",
+      "2002 = Johannesburg: 190 countries, target 2010"
     ],
     "back": "Biodiversity knows no political boundaries, so conservation is a collective responsibility.",
     "stars": 2

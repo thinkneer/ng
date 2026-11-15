@@ -96,11 +96,11 @@ step: $={{N*0.34:3}}\times10^6$ nm $=$ **{{L:2}} mm** (1 mm $=10^6$ nm).
 
 ```ng-compare
 id: ch05-eu-vs-hetero
-title: Euchromatin vs heterochromatin
-cols: Euchromatin | Heterochromatin
+title: Eu­chromatin vs heterochromatin
+cols: Eu­chromatin | Hetero­chromatin
 row: Packing | loose | dense
 row: Staining | light | dark
-row: Activity | transcriptionally active | inactive
+row: Activity | transcrip­tionally active | inactive
 ```
 
 ```ng-figure
@@ -214,7 +214,7 @@ id: ch05-leading-vs-lagging
 title: Leading vs lagging strand
 cols: Leading strand | Lagging strand
 row: Template strand runs | 3′→5′ | 5′→3′
-row: Synthesis | continuous | discontinuous (Okazaki fragments)
+row: Synthesis | continuous | dis­continuous (Okazaki fragments)
 row: Direction relative to fork | towards the fork | away from the fork
 row: Ligase needed | hardly | yes, to join fragments
 ```

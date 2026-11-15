@@ -186,11 +186,11 @@ In 1891 **Henking** saw that, during spermatogenesis in some insects, half the s
 ```ng-fill
 id: ch04-sex-determination
 title: Sex determination in four organisms
-cols: Organism | Female | Male | Who decides sex
-row: Grasshopper | XX | [[XO]] | male: sperms with or without X
-row: Humans, *Drosophila* | XX | [[XY]] | [[male (male heterogamety)]]
-row: Birds | [[ZW]] | ZZ | [[female (female heterogamety)]]
-row: Honey bee | fertilised egg (2n = 32) | [[unfertilised egg (n = 16)]] | haplodiploid system
+cols: Organism | Female / male | Who decides sex
+row: Grasshopper | XX / [[XO]] | male
+row: Humans, *Drosophila* | XX / [[XY]] | [[male (male heterogamety)]]
+row: Birds | [[ZW]] / ZZ | [[female (female heterogamety)]]
+row: Honey bee | 2n = 32 / [[n = 16]] | [[fertilised or not (haplodiploidy)]]
 ```
 
 In humans, 22 pairs are autosomes and one pair is the sex chromosomes. Males make X and Y sperms in equal numbers; all ova carry X. So each pregnancy has an equal chance of a boy or a girl, and the sperm decides.
@@ -266,10 +266,10 @@ step: Only $Hb^SHb^S$ people are ill; $Hb^AHb^S$ carriers pass the allele to hal
 ```ng-fill
 id: ch04-chromosomal-disorders
 title: Chromosomal disorders
-cols: Disorder | Chromosomes | Key features
-row: Down's syndrome | [[trisomy of 21 (47)]] | short, small round head, furrowed tongue, broad palm with a crease, delayed development
-row: Klinefelter's syndrome | [[XXY (47)]] | [[male, some feminine development (gynaecomastia), sterile]]
-row: Turner's syndrome | [[XO (45)]] | [[female, sterile, rudimentary ovaries]]
+cols: Disorder | Chromo­somes | Key features
+row: Down's syndrome | [[trisomy 21 (47)]] | short; furrowed tongue; palm crease; slow develop­ment
+row: Kline­felter's | [[XXY (47)]] | [[male; breasts develop; sterile]]
+row: Turner's | [[XO (45)]] | [[female; sterile; rudi­mentary ovaries]]
 ```
 
 ```ng-mnemonic

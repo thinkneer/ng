@@ -82,7 +82,7 @@
     "id": "ch11-interactions",
     "kind": "compare",
     "title": "Interaction signs",
-    "tex": "+/+\\ \\big|\\ -/-\\ \\big|\\ +/-\\ \\big|\\ +/0\\ \\big|\\ -/0",
+    "tex": "\\begin{gathered}+/+\\\\-/-\\\\+/-\\\\+/0\\\\-/0\\end{gathered}",
     "back": "Mutualism | competition | predation, parasitism | commensalism | amensalism.",
     "stars": 3
   },
@@ -90,15 +90,15 @@
     "id": "ch11-gause",
     "kind": "compare",
     "title": "Gause vs MacArthur",
-    "tex": "\\text{competitive exclusion}\\ \\big|\\ \\text{resource partitioning}",
-    "back": "Gause: closely related competitors cannot coexist indefinitely. MacArthur: five warbler species coexist by foraging in different parts of the tree.",
+    "tex": "\\begin{gathered}\\text{competitive exclusion}\\\\\\text{resource partitioning}\\end{gathered}",
+    "back": "Gause: close competitors cannot coexist for ever. MacArthur: warblers coexist by feeding differently.",
     "stars": 3
   },
   {
     "id": "ch11-prey-defence",
     "kind": "process",
     "title": "Prey defences",
-    "tex": "\\text{camouflage}\\cdot\\text{distasteful chemicals}\\cdot\\text{thorns}\\cdot\\text{toxins}",
+    "tex": "\\begin{gathered}\\text{camouflage}\\\\\\text{distasteful chemicals}\\\\\\text{thorns}\\cdot \\text{toxins}\\end{gathered}",
     "back": "Monarch butterfly (poison from caterpillar food); Acacia and cactus thorns; Calotropis makes cardiac glycosides.",
     "stars": 2
   },

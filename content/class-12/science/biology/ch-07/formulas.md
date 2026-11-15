@@ -6,17 +6,15 @@
 Sporozoite (bite) → liver → RBC (haemozoin, fever every 3–4 days) → gametocyte → mosquito gut (fertilisation) → salivary gland.
 :::
 
-| Disease | Pathogen | Spread |
-|---|---|---|
-| Typhoid | *Salmonella typhi* | food, water (Widal test) |
-| Pneumonia | *Streptococcus pneumoniae*, *Haemophilus influenzae* | droplets |
-| Common cold | rhinoviruses | droplets, objects |
-| Malaria | *Plasmodium* (*falciparum* = malignant) | female *Anopheles* |
-| Amoebiasis | *Entamoeba histolytica* | houseflies, food, water |
-| Ascariasis | *Ascaris* | soil, water, vegetables |
-| Filariasis | *Wuchereria bancrofti*, *W. malayi* | female mosquito |
-| Ringworm | *Microsporum*, *Trichophyton*, *Epidermophyton* | towels, combs, soil |
-| Dengue, chikungunya | viruses | *Aedes* mosquito |
+- **Typhoid:** *Salmonella typhi*; food, water (Widal test).
+- **Pneumonia:** *Streptococcus pneumoniae*, *Haemophilus influenzae*; droplets.
+- **Common cold:** rhinoviruses; droplets, objects.
+- **Malaria:** *Plasmodium* (*falciparum* = malignant); female *Anopheles*.
+- **Amoebiasis:** *Entamoeba histolytica*; houseflies, food, water.
+- **Ascariasis:** *Ascaris*; soil, water, vegetables.
+- **Filariasis:** *Wuchereria bancrofti*, *W. malayi*; female mosquito.
+- **Ringworm:** *Microsporum*, *Trichophyton*, *Epidermophyton*; towels, combs, soil.
+- **Dengue, chikungunya:** viruses; *Aedes* mosquito.
 
 ## Immunity
 

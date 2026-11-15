@@ -216,12 +216,13 @@ row: Protects | the whole ecosystem, all levels of biodiversity | chosen threate
 row: Examples | hotspots, biosphere reserves, national parks, sanctuaries, sacred groves, Ramsar sites | zoos, botanical gardens, safari parks, cryopreservation, seed banks
 ```
 
-```ng-compare
+```ng-fill
 id: ch13-why-conserve
 title: Three reasons to conserve
-cols: Narrowly utilitarian | Broadly utilitarian | Ethical
-row: Idea | direct products | ecosystem services | every species has intrinsic value
-row: Example | food, fibre, medicines (25% of drugs from plants); bioprospecting | Amazon ≈ 20% of oxygen; pollination; aesthetic pleasure | moral duty to future generations
+cols: Reason | Idea and example
+row: Narrowly utilitarian | [[direct products: food, fibre, medicines (25% of drugs from plants); bioprospecting]]
+row: Broadly utilitarian | [[ecosystem services: Amazon ≈ 20% of oxygen; pollination; aesthetic pleasure]]
+row: Ethical | [[every species has intrinsic value; duty to future generations]]
 ```
 
 ```ng-mnemonic

@@ -157,7 +157,7 @@ prompt: Name the three parts of the fallopian tube from the ovary end.
 id: ch02-female-system
 title: Female reproductive system
 svg:
-<svg viewBox="0 0 320 250" role="img" aria-label="Female reproductive system, front view" fill="none" stroke="currentColor">
+<svg viewBox="0 24 334 216" role="img" aria-label="Female reproductive system, front view" fill="none" stroke="currentColor">
 <path class="uf" fill-opacity="0.15" stroke="currentColor" stroke-width="1.6" d="M126,58Q160,46,194,58Q206,112,172,152H148Q114,112,126,58Z"/>
 <path class="uf" fill-opacity="0.45" stroke="none" d="M138,66Q160,60,182,66Q188,106,166,138H154Q132,106,138,66Z"/>
 <path stroke-width="1.6" d="M148,152V178M172,152V178M160,138V178"/>
@@ -208,12 +208,12 @@ time: 4
 ```ng-fill
 id: ch02-spermatogenesis-ploidy
 title: Spermatogenesis, cell by cell
-cols: Cell | Ploidy | Division that forms the next
-row: Spermatogonium | 2n | [[mitosis, then differentiation]]
-row: Primary spermatocyte | [[2n]] | meiosis I
-row: Secondary spermatocyte (2) | [[n]] | [[meiosis II]]
-row: Spermatid (4) | n | [[spermiogenesis (no division)]]
-row: Spermatozoon (4) | n | released by [[spermiation]]
+cols: Cell | Ploidy | Becomes the next by
+row: Spermato­gonium | 2n | [[mitosis, then growth]]
+row: Primary spermato­cyte | [[2n]] | meiosis I
+row: Secondary spermato­cyte | [[n]] | [[meiosis II]]
+row: Spermatid | n | [[spermio­genesis]]
+row: Sperm | n | released by [[sperm­iation]]
 ```
 
 The trigger at puberty is a rise in **GnRH** from the hypothalamus. GnRH makes the anterior pituitary release two gonadotropins. **LH acts on Leydig cells**, which secrete androgens, and androgens stimulate spermatogenesis. **FSH acts on Sertoli cells**, which secrete factors that help spermiogenesis.
@@ -298,9 +298,9 @@ part: 147, 140 | Corpus luteum | Ruptured follicle; secretes progesterone.
 ```ng-compare
 id: ch02-spermatogenesis-vs-oogenesis
 title: Spermatogenesis vs oogenesis
-cols: Spermatogenesis | Oogenesis
+cols: Spermato­genesis | Oogenesis
 row: Starts | at puberty | in the foetus; resumes at puberty
-row: Continuity | continuous | cyclic; stops at menopause
+row: Con­tinuity | continuous | cyclic; stops at menopause
 row: Cytoplasm in meiosis | divided equally | divided unequally (polar bodies)
 row: Products of one mother cell | 4 sperms | 1 ovum + polar bodies
 row: Meiosis II completed | in the testis | only after sperm entry

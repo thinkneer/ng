@@ -99,14 +99,17 @@ prompt: Write the stages of mitosis in order.
 
 **Observation table.** Count the cells in a few fields:
 
-| Field | Interphase | Prophase | Metaphase | Anaphase | Telophase | Total |
-|---|---|---|---|---|---|---|
-| 1 | | | | | | |
-| 2 | | | | | | |
-| Total | | | | | | |
+| Stage | Field 1 | Field 2 |
+|---|---|---|
+| Interphase | | |
+| Prophase | | |
+| Metaphase | | |
+| Anaphase | | |
+| Telophase | | |
+| All cells | | |
 
 :::formula Mitotic index
-$$\text{Mitotic index (\%)}=\frac{\text{cells in division}}{\text{total cells counted}}\times100$$
+$$\begin{aligned}&\text{Mitotic index (\%)}\\&=\frac{\text{dividing cells}}{\text{total cells}}\times100\end{aligned}$$
 :::
 
 ```ng-numerical

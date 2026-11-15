@@ -231,12 +231,13 @@ step: Return the engineered lymphocytes to her body.
 step: These cells are mortal, so she needs **periodic infusions**. Gene transfer at an **early embryonic stage** could be a permanent cure.
 ```
 
-```ng-compare
+```ng-fill
 id: ch10-molecular-diagnosis
 title: Three molecular diagnosis tools
-cols: PCR | Probe + autoradiography | ELISA
-row: Principle | amplifies tiny amounts of pathogen DNA/RNA | labelled single-stranded DNA/RNA pairs with its complement | antigen–antibody interaction
-row: Detects | HIV early; mutations in suspected cancer | a normal vs mutated gene in a clone | pathogen antigens or the antibodies against them
+cols: Tool | Principle and use
+row: PCR | [[amplifies tiny amounts of pathogen DNA; finds HIV early and cancer mutations]]
+row: Probe + autoradiography | [[labelled single strand pairs with its complement; a mutated gene does not show]]
+row: ELISA | [[antigen–antibody interaction; detects pathogen antigens or antibodies]]
 ```
 
 **In one breath:** First gene therapy (1990): a 4-year-old with ADA deficiency; her lymphocytes received functional ADA cDNA by retroviral vector and were returned; needs periodic infusions; a permanent cure would need gene transfer at an early embryonic stage. PCR, probes with autoradiography and ELISA (antigen–antibody) diagnose disease early.

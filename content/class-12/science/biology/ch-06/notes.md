@@ -231,12 +231,14 @@ About 2000 million years ago the first cellular life forms appeared. By about 50
 ```ng-fill
 id: ch06-human-ancestors
 title: Human ancestors
-cols: Ancestor | When | Brain capacity | Notes
-row: *Homo habilis* | about 2 million years ago | [[650–800 cc]] | first human-like being; probably did not eat meat
-row: *Homo erectus* | about 1.5 million years ago | [[about 900 cc]] | [[probably ate meat]]
-row: Neanderthal man | 1,00,000–40,000 years ago | [[1400 cc]] | near east and central Asia; [[buried their dead]]
-row: *Homo sapiens* | arose in Africa | — | spread across continents
+cols: Ancestor | When | Brain
+row: *Homo habilis* | about 2 million years ago | [[650–800 cc]]
+row: *Homo erectus* | about 1.5 million years ago | [[about 900 cc]]
+row: Neanderthal | 1,00,000–40,000 years ago | [[1400 cc]]
+row: *Homo sapiens* | arose in Africa | —
 ```
+
+*Homo habilis* probably did not eat meat; *Homo erectus* probably did; Neanderthals buried their dead.
 
 During the ice age, between 75,000 and 10,000 years ago, modern *Homo sapiens* arose. Pre-historic cave art developed about 18,000 years ago (one example is the Bhimbetka rock shelter in Raisen district, Madhya Pradesh). Agriculture began about 10,000 years ago, and human settlements started.
 

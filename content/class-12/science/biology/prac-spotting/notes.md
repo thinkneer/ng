@@ -6,14 +6,13 @@ In spotting you get about a minute per spot: **identify it, then write two or th
 
 **1. Flowers adapted to different pollinating agents.** Look at the flower and decide who carries its pollen.
 
-```ng-compare
+```ng-fill
 id: spot-pollination-agents
 title: Wind, insect and bird flowers
-cols: Wind-pollinated | Insect-pollinated | Bird-pollinated
-row: Flowers | small, dull, no scent or nectar | large, bright, scented, with nectar | large, bright (often red), much nectar, little scent
-row: Pollen | light, non-sticky, in huge amounts | sticky or spiny | sticky
-row: Stamens and stigma | well exposed; feathery stigma | inside the flower | sturdy flowers
-row: Examples | maize (corn cob tassels), grasses | sunflower, *Salvia* | *Bombax*, coral tree
+cols: Agent | Flower features, example
+row: Wind | [[small, dull, no scent or nectar; light pollen in plenty; feathery stigma (maize, grasses)]]
+row: Insect | [[large, bright, scented, with nectar; sticky pollen (sunflower, *Salvia*)]]
+row: Bird | [[large, bright (often red), much nectar (*Bombax*, coral tree)]]
 ```
 
 **2. Pollen germination on the stigma** (permanent slide or electron micrograph). Points: pollen grains on the stigma surface; pollen tubes growing down into the style; tubes come out through germ pores.
@@ -126,11 +125,11 @@ row: Dihybrid test cross | [[1 : 1 : 1 : 1]]
 ```ng-fill
 id: spot-pathogens
 title: Pathogens, diseases and symptoms
-cols: Organism | Disease | Symptoms
-row: *Ascaris* (roundworm) | [[ascariasis]] | [[internal bleeding, muscular pain, fever, anaemia, blockage of the intestinal passage]]
-row: *Entamoeba histolytica* (protozoan) | [[amoebiasis (amoebic dysentery)]] | [[constipation, abdominal pain and cramps, stools with excess mucus and blood clots]]
-row: *Plasmodium* (protozoan) | [[malaria]] | [[chill and high fever recurring every 3–4 days]]
-row: *Microsporum*, *Trichophyton*, *Epidermophyton* (fungi) | [[ringworm]] | [[dry, scaly lesions on skin, nails and scalp, with intense itching]]
+cols: Organism | Disease and symptoms
+row: *Ascaris* (roundworm) | [[ascariasis: internal bleeding, muscle pain, fever, anaemia, gut blockage]]
+row: *Entamoeba* (protozoan) | [[amoebiasis: cramps, constipation, stools with mucus and blood]]
+row: *Plasmodium* (protozoan) | [[malaria: chill and high fever every 3–4 days]]
+row: Ringworm fungi | [[ringworm: dry scaly lesions with intense itching]]
 ```
 
 Identification points: *Ascaris* — cylindrical, unsegmented worm; the male has a curved tail, the female a straight one. *Entamoeba* — a single cell with pseudopodia. Ringworm fungi — seen as hyphae and spores, or as round, scaly patches on skin.

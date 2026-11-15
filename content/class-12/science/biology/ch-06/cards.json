@@ -14,15 +14,15 @@
     "id": "ch06-homologous-vs-analogous",
     "kind": "compare",
     "title": "Homologous vs analogous",
-    "tex": "\\text{same origin, different use}\\ \\big|\\ \\text{different origin, same use}",
-    "back": "Homologous (divergent): vertebrate forelimbs; Bougainvillea thorn and Cucurbita tendril. Analogous (convergent): bird and butterfly wings; potato and sweet potato.",
+    "tex": "\\begin{gathered}\\text{same origin, different use}\\\\\\text{different origin, same use}\\end{gathered}",
+    "back": "Homologous (divergent): vertebrate forelimbs. Analogous (convergent): bird and butterfly wings.",
     "stars": 3
   },
   {
     "id": "ch06-peppered-moth",
     "kind": "process",
     "title": "Industrial melanism",
-    "tex": "\\text{white moths (1850)}\\xrightarrow{\\text{soot}}\\text{dark moths (1920)}",
+    "tex": "\\begin{gathered}\\text{white moths (1850)}\\\\\\xrightarrow{\\text{soot}} \\text{dark moths (1920)}\\end{gathered}",
     "back": "Birds ate the moths that stood out. Natural selection in action, like antibiotic and herbicide resistance.",
     "stars": 2
   },
@@ -61,7 +61,7 @@
     "id": "ch06-darwin-devries",
     "kind": "compare",
     "title": "Darwin vs de Vries",
-    "tex": "\\text{small, directional variation}\\ \\big|\\ \\text{large, random mutation (saltation)}",
+    "tex": "\\begin{gathered}\\text{Darwin: small,}\\\\\\text{directional variation}\\\\\\text{de Vries: large,}\\\\\\text{random mutation}\\end{gathered}",
     "back": "Darwin: natural selection, fitness = reproductive fitness. de Vries worked on Oenothera lamarckiana.",
     "stars": 2
   },
@@ -69,7 +69,7 @@
     "id": "ch06-founder-effect",
     "kind": "formula",
     "title": "Founder effect",
-    "tex": "\\text{small founding group}\\Rightarrow\\text{different allele frequencies}",
+    "tex": "\\begin{gathered}\\text{small founding group}\\\\\\Rightarrow \\text{different allele frequencies}\\end{gathered}",
     "legend": [
       "drift = chance change in small populations"
     ],

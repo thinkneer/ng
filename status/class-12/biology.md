@@ -61,6 +61,10 @@ Paper: **Thu 25 Mar 2027** (date sheet of 6 Nov 2026). Biology-only days 10–24
   - `prac-mitosis`: onion root-tip squash (fix, 1N HCl at about 60 °C, aceto-carmine, squash); stages `ng-figure` + `ng-draw`; stage `ng-fill`; mitotic-index `ng-numerical`.
   - `prac-dna`: detergent, salt, protease, chilled ethanol, spooling; set-up `ng-figure` + `ng-draw`; reagent-role `ng-fill`.
   - `prac-spotting`: all 11 items with identification points; blastula `ng-figure` + `ng-draw`; pollination-agents and testis-vs-ovary compares; pathogen and ratio fills.
+- **Phone check clean (15 Nov 2026).** `node scripts/content-check.mjs biology` now reports **0 FAIL · 0 WARN** (it started at 84 FAIL · 47 WARN):
+  - 78 card fronts restacked one step/item per line (`gathered`); one KaTeX error fixed (ch09-competence); 7 legend symbols shortened; 7 long card backs cut to ≤ 4 phone lines.
+  - Wide tables: 3–4-option compares turned into 2-column `ng-fill` blocks with the same ids (pollination kinds, apomixis, biofertilisers, molecular diagnosis, age pyramids, why conserve, pollination agents, pathogens); 4-column fills merged to 3 (sex determination, ancestors, interactions); long single words given soft hyphens; the Ch 7 disease table, two answer tables and two formula-sheet tables became short lists; practical observation tables cut to 3 columns.
+  - Practical display formulas stacked with `aligned`; female-system and biogas drawings now fit their viewBox (also in the bio-08 answer); 3 last one-word fronts renamed (HGP, spleen, Amazon).
 
 ## Corrections
 - Ch 1 pollen-grain germ-pore leader moved to an actual gap in the exine.
@@ -69,7 +73,7 @@ Paper: **Thu 25 Mar 2027** (date sheet of 6 Nov 2026). Biology-only days 10–24
 ## What's next
 1. **Practicals, finish by 20 Dec**: record-book write-ups are covered by the five chapters; still to add: investigatory-project guidance (topic ideas, record format, viva) and a one-page "practical exam day" checklist. Teachers' local variations (e.g. which experiment is major) are decided at school.
 2. **More practice**: raise each chapter to 6+ MCQ/A–R (live quizzes draw on them); more case questions (2–3 per unit) would let papers vary their case section.
-3. **Phone review pass**: tap through *Label it yourself*, the decks and Recall on a phone; Must-know fronts are now all two words or more.
+3. **Phone review pass**: content-check is clean; a human tap-through of *Label it yourself*, the decks and Recall on a real phone is still worth doing. Re-run `content-check.mjs biology` before every commit.
 4. Optional diagrams: T.S. of a whole anther, pollen-tube growth into the ovule, human embryo/placenta, replication of a retrovirus.
 5. A fixed SQP-style paper in `papers/` once the 2026–27 SQP is checked.
 

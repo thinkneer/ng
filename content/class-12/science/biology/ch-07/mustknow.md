@@ -97,7 +97,7 @@ Own antibodies vs ready-made; slow and long-lasting vs quick and short [1] → e
 - Indian AIDS agency: NACO.
 - Pathogen overwhelming AIDS patients: *Mycobacterium*, *Toxoplasma* and others.
 - Thymus size: large at birth, shrinks with age.
-- Spleen: filters blood; reservoir of erythrocytes.
+- **Role of spleen:** filters blood; reservoir of erythrocytes.
 - CT uses: X-rays; MRI uses: strong magnetic fields, non-ionising radiation.
 - Hallucinogenic plants: *Atropa belladonna*, *Datura*.
 - Adolescence age range: 12–18 years.

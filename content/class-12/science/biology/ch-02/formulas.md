@@ -16,12 +16,10 @@ Spermatogonium, primary spermatocyte, oogonium, primary oocyte, zygote = 46 · s
 
 ## Menstrual cycle at a glance
 
-| Phase | Days | Ovary | Uterus | Main hormones |
-|---|---|---|---|---|
-| Menstrual | 1–5 | — | endometrium breaks down | progesterone falls |
-| Follicular | 6–13 | follicle → Graafian | endometrium regenerates | FSH, LH rising; estrogen |
-| Ovulatory | ≈ 14 | ovulation | thick | LH surge, FSH peak |
-| Luteal | 15–28 | corpus luteum | maintained | progesterone |
+- **Menstrual (days 1–5):** endometrium breaks down; progesterone has fallen.
+- **Follicular (days 6–13):** follicle grows to Graafian; endometrium regenerates; FSH, LH rising; estrogen.
+- **Ovulatory (about day 14):** ovulation; LH surge, FSH peak.
+- **Luteal (days 15–28):** corpus luteum; endometrium maintained; progesterone.
 
 ## Hormones of reproduction
 

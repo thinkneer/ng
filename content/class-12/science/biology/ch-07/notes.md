@@ -6,16 +6,14 @@ Health is not just the absence of disease. This chapter covers what keeps us hea
 
 Health means a state of complete physical, mental and social well-being. It is affected by genetic disorders, infections and lifestyle (food, water, rest, exercise, habits). Diseases that pass from one person to another are **infectious**; those that do not, like cancer, are **non-infectious**. Disease-causing organisms are **pathogens**: bacteria, viruses, fungi, protozoans, helminths and so on.
 
-| Disease | Pathogen (type) | Spread | Key points |
-|---|---|---|---|
-| Typhoid | *Salmonella typhi* (bacterium) | contaminated food and water | sustained high fever (39–40 °C), weakness, stomach pain, constipation, headache, loss of appetite; intestinal perforation in severe cases; confirmed by **Widal test**; "Typhoid Mary" (Mary Mallon), a cook, was a carrier |
-| Pneumonia | *Streptococcus pneumoniae*, *Haemophilus influenzae* (bacteria) | droplets or aerosols from an infected person; sharing glasses and utensils | alveoli fill with fluid, breathing problems; fever, chills, cough, headache; lips and fingernails may turn grey to bluish |
-| Common cold | **rhinoviruses** | droplets, contaminated objects | infects nose and respiratory passage but **not the lungs**; nasal congestion, sore throat, cough; lasts 3–7 days |
-| Malaria | *Plasmodium vivax*, *P. malariae*, *P. falciparum* (protozoa) | bite of female *Anopheles* mosquito | chill and high fever recurring every 3–4 days; *P. falciparum* causes the most serious, malignant malaria |
-| Amoebiasis (amoebic dysentery) | *Entamoeba histolytica* (protozoan) | houseflies carry cysts to food and water | lives in large intestine; constipation, abdominal pain, cramps, stools with excess mucus and blood clots |
-| Ascariasis | *Ascaris* (roundworm, helminth) | eggs passed in faeces contaminate soil, water, plants | internal bleeding, muscular pain, fever, anaemia, blockage of intestine |
-| Filariasis (elephantiasis) | *Wuchereria bancrofti*, *W. malayi* (filarial worms) | bite of female mosquito vectors | chronic inflammation of lymphatic vessels of lower limbs; genitals may be deformed |
-| Ringworm | *Microsporum*, *Trichophyton*, *Epidermophyton* (fungi) | soil, towels, combs | dry scaly lesions on skin, nails, scalp with intense itching; heat and moisture help the fungi grow (groin, between toes) |
+- **Typhoid** — *Salmonella typhi* (bacterium); contaminated food and water. Sustained high fever (39–40 °C), weakness, stomach pain, constipation; Widal test.
+- **Pneumonia** — *Streptococcus pneumoniae*, *Haemophilus influenzae* (bacteria); droplets, shared glasses. Alveoli fill with fluid; fever, chills, cough; lips and nails may turn bluish.
+- **Common cold** — rhinoviruses; droplets or contaminated objects. Infects nose and respiratory passage, not lungs; nasal congestion, sore throat; lasts 3–7 days.
+- **Malaria** — *Plasmodium* (*P. vivax*, *P. malariae*, *P. falciparum*); bite of female *Anopheles*. Chill and high fever every 3–4 days; *P. falciparum* malaria is the most serious.
+- **Amoebiasis** — *Entamoeba histolytica* (protozoan); contaminated food and water, houseflies as carriers. Constipation, abdominal pain, cramps, stools with mucus and blood.
+- **Ascariasis** — *Ascaris* (roundworm); eggs in soil, water, plants. Internal bleeding, muscular pain, fever, anaemia, intestinal blockage.
+- **Filariasis (elephantiasis)** — *Wuchereria bancrofti*, *W. malayi*; bite of female mosquito vectors. Chronic inflammation of lymphatic vessels of the lower limbs; deformed limbs and genitals.
+- **Ringworm** — *Microsporum*, *Trichophyton*, *Epidermophyton* (fungi); soil, shared towels and combs. Dry scaly lesions on skin, nails and scalp with intense itching; heat and moisture help.
 
 ```ng-fill
 id: ch07-diseases
