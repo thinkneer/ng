@@ -61,14 +61,14 @@
     "stars": 2,
     "label": "PYQ-style",
     "stem": "For a reaction the rate law is rate $=k[\\ce A]^2[\\ce B]$. How does the rate change when (i) [A] is doubled, (ii) [A] is halved and [B] is tripled?",
-    "model_answer": "(i) rate$'$ $=k(2[\\ce A])^2[\\ce B]=4\\times$ rate: **4 times**. [1]<br>\n(ii) rate$'$ $=k\\left(\\tfrac{[\\ce A]}{2}\\right)^2(3[\\ce B])=\\tfrac34\\times$ rate: **0.75 times** (falls by a quarter). [1]",
+    "model_answer": "*How much to write: two short lines of working each · 4 minutes*\n\nRate law: rate $=k[\\ce A]^2[\\ce B]$\n\n**(i)** [A] doubled:\n\n$$\\begin{aligned}\\text{rate}'&=k(2[\\ce A])^2[\\ce B] \\\\ &=4k[\\ce A]^2[\\ce B]\\end{aligned}$$\n\nThe rate becomes <mark>4 times</mark>.\n\n**(ii)** [A] halved, [B] tripled:\n\n$$\\begin{aligned}\\text{rate}'&=k\\left(\\tfrac{[\\ce A]}{2}\\right)^2(3[\\ce B]) \\\\ &=\\tfrac34\\,k[\\ce A]^2[\\ce B]\\end{aligned}$$\n\nThe rate becomes <mark>¾ of the original</mark> (falls by a quarter).\n\n:::tip Your answer must contain\n- the new concentrations <u>substituted into the rate law</u>\n- the <mark>factor</mark> stated in words for each part\n:::\n\n**Marks are lost for:** adding the changes instead of multiplying; forgetting to square the factor for A.",
     "scheme": [
       {
-        "step": "(i) rate$'$ $=k(2[\\ce A])^2[\\ce B]=4\\times$ rate: **4 times**.",
+        "step": "(i) 4 times, with working",
         "marks": 1
       },
       {
-        "step": "(ii) rate$'$ $=k\\left(\\tfrac{[\\ce A]}{2}\\right)^2(3[\\ce B])=\\tfrac34\\times$ rate: **0.75 times** (falls by a quarter).",
+        "step": "(ii) ¾ times, with working",
         "marks": 1
       }
     ],
@@ -83,18 +83,18 @@
     "stars": 3,
     "label": "PYQ-style",
     "stem": "A first-order reaction takes 40 min for 30% decomposition. Calculate its half-life. ($\\log7=0.8451$)",
-    "model_answer": "30% decomposed: $[R]_0=100$, $[R]=70$.<br>\n$k=\\dfrac{2.303}{t}\\log\\dfrac{[R]_0}{[R]}=\\dfrac{2.303}{40}\\log\\dfrac{100}{70}$ [1]<br>\n$=0.05758\\times(1-0.8451)=0.05758\\times0.1549=8.92\\times10^{-3}$ min$^{-1}$ [1]<br>\n$t_{1/2}=\\dfrac{0.693}{k}=\\dfrac{0.693}{8.92\\times10^{-3}}=\\boxed{77.7\\text{ min}}$ [1]",
+    "model_answer": "*How much to write: 8 lines: k first, then the half-life · 6 minutes*\n\n**Given:** first order, 30% decomposed in $t=40$ min, so <u>$[R]=0.70\\,[R]_0$</u><br>\n**To find:** $t_{1/2}$\n\n$$k=\\frac{2.303}{t}\\log\\frac{[R]_0}{[R]}=\\frac{2.303}{40}\\log\\frac{100}{70}$$\n\n$$\\begin{aligned}k&=0.05758\\times(1-0.8451) \\\\ &=0.05758\\times0.1549\\end{aligned}$$\n\n$$k=8.92\\times10^{-3}\\text{ min}^{-1}$$\n\n$$\\begin{aligned}t_{1/2}&=\\frac{0.693}{k} \\\\ &=\\frac{0.693}{8.92\\times10^{-3}}\\end{aligned}$$\n\n$$\\boxed{t_{1/2}=77.7\\text{ min}}$$\n\n:::tip Your answer must contain\n- <mark>30% decomposed means 70% left</mark> ($[R]_0/[R]=100/70$)\n- $k$ with unit min⁻¹\n- $t_{1/2}=0.693/k$ and the boxed answer in minutes\n:::\n\n**Marks are lost for:** using 30/100 instead of 100/70; changing the time unit halfway.",
     "scheme": [
       {
-        "step": "30% decomposed: $[R]_0=100$, $[R]=70$. $k=\\dfrac{2.303}{t}\\log\\dfrac{[R]_0}{[R]}=\\dfrac{2.303}{40}\\log\\dfrac{100}{70}$",
+        "step": "Integrated equation with 100/70",
         "marks": 1
       },
       {
-        "step": "$=0.05758\\times(1-0.8451)=0.05758\\times0.1549=8.92\\times10^{-3}$ min$^{-1}$",
+        "step": "k = 8.92 × 10⁻³ min⁻¹",
         "marks": 1
       },
       {
-        "step": "$t_{1/2}=\\dfrac{0.693}{k}=\\dfrac{0.693}{8.92\\times10^{-3}}=\\boxed{77.7\\text{ min}}$",
+        "step": "t½ = 77.7 min",
         "marks": 1
       }
     ],
@@ -109,18 +109,18 @@
     "stars": 3,
     "label": "PYQ-style",
     "stem": "The rate constant of a reaction is 0.02 s$^{-1}$ at 500 K and 0.07 s$^{-1}$ at 700 K. Calculate the activation energy. ($\\log3.5=0.5441$)",
-    "model_answer": "$\\log\\dfrac{k_2}{k_1}=\\dfrac{E_a}{2.303R}\\left(\\dfrac{T_2-T_1}{T_1T_2}\\right)$ [1]<br>\n$\\log\\dfrac{0.07}{0.02}=\\dfrac{E_a}{2.303\\times8.314}\\times\\dfrac{700-500}{500\\times700}$ [1]<br>\n$E_a=\\dfrac{0.5441\\times2.303\\times8.314\\times350000}{200}=18230$ J mol$^{-1}$ $=\\boxed{18.23\\text{ kJ mol}^{-1}}$ [1]",
+    "model_answer": "*How much to write: 6–8 lines · 6 minutes*\n\n**Given:** $k_1=0.02$ s⁻¹ at $T_1=500$ K; $k_2=0.07$ s⁻¹ at $T_2=700$ K<br>\n**To find:** $E_a$\n\n$$\\log\\frac{k_2}{k_1}=\\frac{E_a}{2.303R}\\cdot\\frac{T_2-T_1}{T_1T_2}$$\n\n$$\\begin{aligned}\\log3.5&=\\frac{E_a}{2.303\\times8.314}\\times\\frac{200}{500\\times700}\\end{aligned}$$\n\n$$\\begin{aligned}E_a&=\\frac{0.5441\\times2.303\\times8.314}{200}\\\\ &\\quad\\times350000\\end{aligned}$$\n\n$$E_a=18230\\text{ J mol}^{-1}$$\n\n$$\\boxed{E_a=18.23\\text{ kJ mol}^{-1}}$$\n\n:::tip Your answer must contain\n- the <u>two-temperature Arrhenius equation</u> written first\n- $T$ in <mark>kelvin</mark> and $R=8.314$ J K⁻¹ mol⁻¹\n- answer with unit kJ mol⁻¹\n:::\n\n**Marks are lost for:** R in kJ with Ea in J (answer off by 1000); T₁ and T₂ swapped.",
     "scheme": [
       {
-        "step": "$\\log\\dfrac{k_2}{k_1}=\\dfrac{E_a}{2.303R}\\left(\\dfrac{T_2-T_1}{T_1T_2}\\right)$",
+        "step": "Arrhenius two-temperature equation",
         "marks": 1
       },
       {
-        "step": "$\\log\\dfrac{0.07}{0.02}=\\dfrac{E_a}{2.303\\times8.314}\\times\\dfrac{700-500}{500\\times700}$",
+        "step": "Correct substitution",
         "marks": 1
       },
       {
-        "step": "$E_a=\\dfrac{0.5441\\times2.303\\times8.314\\times350000}{200}=18230$ J mol$^{-1}$ $=\\boxed{18.23\\text{ kJ mol}^{-1}}$",
+        "step": "Ea = 18.23 kJ mol⁻¹",
         "marks": 1
       }
     ],
@@ -140,7 +140,7 @@
         "id": "i",
         "stem": "Find the order with respect to A.",
         "marks": 1,
-        "model_answer": "Expts I and IV: [B] constant, [A] × 4, rate × 4 ($6.0\\times10^{-3}\\to2.40\\times10^{-2}$) ⇒ **order 1 in A**. [1]",
+        "model_answer": "Expts I and IV: [B] constant, [A] × 4, rate × 4 ($6.0\\times10^{-3}\\to2.40\\times10^{-2}$) ⇒ **order 1 in A**.",
         "scheme": [
           {
             "step": "Expts I and IV: [B] constant, [A] × 4, rate × 4 ($6.0\\times10^{-3}\\to2.40\\times10^{-2}$) ⇒ **order 1 in A**.",
@@ -152,7 +152,7 @@
         "id": "ii",
         "stem": "Find the order with respect to B and write the rate law.",
         "marks": 1,
-        "model_answer": "Expts II and III: [A] constant, [B] × 2, rate × 4 ⇒ **order 2 in B**. Rate $=k[\\ce A][\\ce B]^2$ (overall order 3). [1]",
+        "model_answer": "Expts II and III: [A] constant, [B] × 2, rate × 4 ⇒ **order 2 in B**. Rate $=k[\\ce A][\\ce B]^2$ (overall order 3).",
         "scheme": [
           {
             "step": "Expts II and III: [A] constant, [B] × 2, rate × 4 ⇒ **order 2 in B**. Rate $=k[\\ce A][\\ce B]^2$ (overall order 3).",
@@ -164,7 +164,7 @@
         "id": "iii",
         "stem": "Calculate the rate constant with units.<br>**OR**<br>Calculate the initial rate when [A] = [B] = 0.2 mol L$^{-1}$.",
         "marks": 2,
-        "model_answer": "From Expt I: $k=\\dfrac{\\text{rate}}{[\\ce A][\\ce B]^2}=\\dfrac{6.0\\times10^{-3}}{(0.1)(0.1)^2}$ [1] $=\\boxed{6.0\\text{ L}^2\\text{mol}^{-2}\\text{min}^{-1}}$ [1]\n\n**OR**\n\n$k=6.0$ L$^2$mol$^{-2}$min$^{-1}$ [1]; rate $=6.0\\times0.2\\times(0.2)^2=\\boxed{4.8\\times10^{-2}\\text{ mol L}^{-1}\\text{min}^{-1}}$ [1]",
+        "model_answer": "From Expt I: $k=\\dfrac{\\text{rate}}{[\\ce A][\\ce B]^2}=\\dfrac{6.0\\times10^{-3}}{(0.1)(0.1)^2}$ $=\\boxed{6.0\\text{ L}^2\\text{mol}^{-2}\\text{min}^{-1}}$\n\n**OR**\n\n$k=6.0$ L$^2$mol$^{-2}$min$^{-1}$; rate $=6.0\\times0.2\\times(0.2)^2=\\boxed{4.8\\times10^{-2}\\text{ mol L}^{-1}\\text{min}^{-1}}$",
         "scheme": [
           {
             "step": "From Expt I: $k=\\dfrac{\\text{rate}}{[\\ce A][\\ce B]^2}=\\dfrac{6.0\\times10^{-3}}{(0.1)(0.1)^2}$",
@@ -178,7 +178,8 @@
       }
     ],
     "hint": "Compare two experiments in which only one concentration changes.",
-    "source_note": "Expert Q&A Sheet 1 (Physical), Q20"
+    "source_note": "Expert Q&A Sheet 1 (Physical), Q20",
+    "model_answer": "*How much to write: two lines each for (i) and (ii); working for (iii) · 7–8 minutes*\n\n**(i)** Compare **expts I and IV** ([B] the same): [A] × 4 and rate × 4 ($6.0\\times10^{-3}\\to2.40\\times10^{-2}$), so <mark>order 1 in A</mark>.\n\n**(ii)** Compare **expts II and III** ([A] the same): [B] × 2 and rate × 4, so <mark>order 2 in B</mark>.\n\n$$\\text{rate}=k[\\ce A][\\ce B]^2$$\n\n$$(\\text{overall order }3)$$\n\n**(iii)** From expt I:\n\n$$\\begin{aligned}k&=\\frac{\\text{rate}}{[\\ce A][\\ce B]^2} \\\\ &=\\frac{6.0\\times10^{-3}}{(0.1)(0.1)^2}\\end{aligned}$$\n\n$$\\boxed{k=6.0\\text{ L}^2\\text{mol}^{-2}\\text{min}^{-1}}$$\n\n**OR** rate at [A] = [B] = 0.2 mol L⁻¹:\n\n$$\\text{rate}=6.0\\times0.2\\times(0.2)^2$$\n\n$$\\boxed{\\text{rate}=4.8\\times10^{-2}\\text{ mol L}^{-1}\\text{min}^{-1}}$$\n\n:::tip Your answer must contain\n- which <u>two experiments</u> were compared, and why (one concentration fixed)\n- the <mark>rate law</mark> written out\n- $k$ with its <mark>unit</mark> (L² mol⁻² min⁻¹)\n:::\n\n**Marks are lost for:** taking orders from the balanced equation (2 and 1); no unit for k."
   },
   {
     "id": "chem-c03-q01",
@@ -242,14 +243,14 @@
     "stars": 2,
     "label": "PYQ-style",
     "stem": "For the reaction $\\ce{A + B -> P}$, rate $=k[\\ce{A}]^{1/2}[\\ce{B}]^2$. What is the overall order? Write the units of $k$.",
-    "model_answer": "**How much to write:** 4–5 lines (about 50 words) · 4 minutes.\n\nOrder $=\\tfrac12+2=\\boxed{2.5}$ **[1]**\n\nUnits of $k$ $=(\\text{mol L}^{-1})^{1-n}\\text{s}^{-1}=\\boxed{\\text{mol}^{-3/2}\\,\\text{L}^{3/2}\\,\\text{s}^{-1}}$ **[1]**\n\n**Where marks are lost:** Taking the order from the balanced equation (1 + 1 = 2); unit written without the general formula, so no part mark if it is wrong.",
+    "model_answer": "*How much to write: 3 lines · 3 minutes*\n\n$$\\text{Order}=\\tfrac12+2$$\n\n$$\\boxed{\\text{order}=2.5}$$\n\nUnits of $k$ for order $n$: $(\\text{mol L}^{-1})^{1-n}\\,\\text{s}^{-1}$. With $n=2.5$:\n\n$$\\boxed{k:\\ \\text{mol}^{-3/2}\\,\\text{L}^{3/2}\\,\\text{s}^{-1}}$$\n\n:::tip Your answer must contain\n- order as the <mark>sum of the powers in the rate law</mark>\n- the general unit formula, then the result\n:::\n\n**Marks are lost for:** taking the order from the balanced equation (1 + 1 = 2).",
     "scheme": [
       {
-        "step": "Order $=\\tfrac12+2=\\boxed{2.5}$",
+        "step": "Order = 2.5",
         "marks": 1
       },
       {
-        "step": "Units of $k$ $=(\\text{mol L}^{-1})^{1-n}\\text{s}^{-1}=\\boxed{\\text{mol}^{-3/2}\\,\\text{L}^{3/2}\\,\\text{s}^{-1}}$",
+        "step": "Units of k",
         "marks": 1
       }
     ],
@@ -265,14 +266,14 @@
     "stars": 3,
     "label": "PYQ-style",
     "stem": "What is a pseudo first-order reaction? Give one example and explain why it behaves as first order.",
-    "model_answer": "**How much to write:** 4–5 lines (about 50 words) · 4 minutes. Definition, one equation, one reason line.\n\nA reaction of higher order that behaves as first order because one reactant is present in large excess, so its concentration hardly changes. **[1]**\n\nExample: acid hydrolysis of ethyl ethanoate, $\\ce{CH3COOC2H5 + H2O ->[H+] CH3COOH + C2H5OH}$. Water is in large excess, so rate $=k[\\ce{ester}]$. **[1]**\n\n**Where marks are lost:** Example without the equation or without saying which reactant is in excess.",
+    "model_answer": "*How much to write: 4–5 lines · 4 minutes*\n\nA **pseudo first-order reaction** is <mark>a reaction of higher order that behaves as first order because one reactant is in large excess</mark>, so its concentration hardly changes.\n\n**Example:** acid hydrolysis of ethyl ethanoate:\n\n$$\\begin{aligned}&\\ce{CH3COOC2H5 + H2O}\\\\ &\\quad\\ce{->[H+] CH3COOH + C2H5OH}\\end{aligned}$$\n\nWater is in <u>large excess</u>, so $[\\ce{H2O}]$ stays almost constant and rate $=k'[\\ce{ester}]$.\n\n:::tip Your answer must contain\n- the phrase <mark>one reactant in large excess</mark>\n- an example <u>with its equation</u> and which reactant is in excess\n:::\n\n**Marks are lost for:** an example without the equation; not saying which reactant is in excess.",
     "scheme": [
       {
-        "step": "A reaction of higher order that behaves as first order because one reactant is present in large excess, so its concentration hardly changes.",
+        "step": "Definition",
         "marks": 1
       },
       {
-        "step": "Example: acid hydrolysis of ethyl ethanoate, $\\ce{CH3COOC2H5 + H2O ->[H+] CH3COOH + C2H5OH}$. Water is in large excess, so rate $=k[\\ce{ester}]$.",
+        "step": "Example with equation and reason",
         "marks": 1
       }
     ],
@@ -288,18 +289,18 @@
     "stars": 3,
     "label": "PYQ-style",
     "stem": "Show that for a first-order reaction the time required for 99.9% completion is about ten times its half-life.",
-    "model_answer": "**How much to write:** 8–10 lines with every numerical step shown · 6 minutes. Start from the integrated equation; show both times as multiples of 1/k.\n\nFor first order: $t=\\dfrac{2.303}{k}\\log\\dfrac{[R]_0}{[R]}$. At 99.9% completion $[R]=0.001[R]_0$. **[1]**\n\n$t_{99.9\\%}=\\dfrac{2.303}{k}\\log1000=\\dfrac{2.303\\times3}{k}=\\dfrac{6.909}{k}$; and $t_{1/2}=\\dfrac{0.693}{k}$ **[1]**\n\n$\\dfrac{t_{99.9\\%}}{t_{1/2}}=\\dfrac{6.909}{0.693}\\approx\\boxed{10}$ **[1]**\n\n**Where marks are lost:** Writing [R] = 0.999[R]₀ (that is 0.1% complete); skipping the log step.",
+    "model_answer": "*How much to write: 6–8 lines · 5 minutes*\n\nFor a first-order reaction:\n\n$$t=\\frac{2.303}{k}\\log\\frac{[R]_0}{[R]}$$\n\nAt <u>99.9% completion</u>, only 0.1% is left: $[R]=0.001\\,[R]_0$, so $\\dfrac{[R]_0}{[R]}=1000$.\n\n$$\\begin{aligned}t_{99.9\\%}&=\\frac{2.303}{k}\\log1000 \\\\ &=\\frac{2.303\\times3}{k} \\\\ &=\\frac{6.909}{k}\\end{aligned}$$\n\n$$t_{1/2}=\\frac{0.693}{k}$$\n\n$$\\begin{aligned}\\frac{t_{99.9\\%}}{t_{1/2}}&=\\frac{6.909}{0.693}\\approx\\boxed{10}\\end{aligned}$$\n\n:::tip Your answer must contain\n- <mark>$[R]=0.001[R]_0$</mark> (0.1% left)\n- both times as multiples of $1/k$\n- the ratio worked out\n:::\n\n**Marks are lost for:** writing [R] = 0.999 [R]₀; skipping log 1000 = 3.",
     "scheme": [
       {
-        "step": "For first order: $t=\\dfrac{2.303}{k}\\log\\dfrac{[R]_0}{[R]}$. At 99.9% completion $[R]=0.001[R]_0$.",
+        "step": "[R]₀/[R] = 1000 in the integrated equation",
         "marks": 1
       },
       {
-        "step": "$t_{99.9\\%}=\\dfrac{2.303}{k}\\log1000=\\dfrac{2.303\\times3}{k}=\\dfrac{6.909}{k}$; and $t_{1/2}=\\dfrac{0.693}{k}$",
+        "step": "t(99.9%) = 6.909/k and t½ = 0.693/k",
         "marks": 1
       },
       {
-        "step": "$\\dfrac{t_{99.9\\%}}{t_{1/2}}=\\dfrac{6.909}{0.693}\\approx\\boxed{10}$",
+        "step": "Ratio ≈ 10",
         "marks": 1
       }
     ],
@@ -315,18 +316,18 @@
     "stars": 2,
     "label": "PYQ-style",
     "stem": "The first-order decomposition $\\ce{SO2Cl2(g) -> SO2(g) + Cl2(g)}$ is followed at constant volume. The initial pressure is 0.50 atm and the total pressure after 100 s is 0.60 atm. Calculate the rate constant.",
-    "model_answer": "**How much to write:** 8–10 lines with every numerical step shown · 6 minutes. Show where 2pᵢ − pₜ comes from in one line.\n\nIf pressure of $\\ce{SO2Cl2}$ falls by $x$: $p_t=p_i+x$, so $x=0.10$ atm and $p_{\\ce{SO2Cl2}}=p_i-x=2p_i-p_t=0.40$ atm **[1]**\n\n$k=\\dfrac{2.303}{t}\\log\\dfrac{p_i}{2p_i-p_t}=\\dfrac{2.303}{100}\\log\\dfrac{0.50}{0.40}$ **[1]**\n\n$=0.02303\\times0.0969=\\boxed{2.23\\times10^{-3}\\text{ s}^{-1}}$ **[1]**\n\n**Where marks are lost:** Using pₜ in place of 2pᵢ − pₜ; leaving out the unit s⁻¹.",
+    "model_answer": "*How much to write: 6–8 lines · 6 minutes*\n\n**Given:** $p_i=0.50$ atm, $p_t=0.60$ atm at $t=100$ s<br>\n**To find:** $k$\n\nIf the pressure of $\\ce{SO2Cl2}$ falls by $x$, the total is $p_i+x$. So $x=0.10$ atm and\n\n$$\\begin{aligned}p_{\\ce{SO2Cl2}}&=p_i-x \\\\ &=2p_i-p_t \\\\ &=0.40\\text{ atm}\\end{aligned}$$\n\n$$k=\\frac{2.303}{t}\\log\\frac{p_i}{2p_i-p_t}=\\frac{2.303}{100}\\log\\frac{0.50}{0.40}$$\n\n$$k=0.02303\\times0.0969$$\n\n$$\\boxed{k=2.23\\times10^{-3}\\text{ s}^{-1}}$$\n\n:::tip Your answer must contain\n- where <mark>$2p_i-p_t$</mark> comes from (one line)\n- the first-order equation in pressures\n- unit s⁻¹\n:::\n\n**Marks are lost for:** using pₜ instead of 2pᵢ − pₜ; no unit.",
     "scheme": [
       {
-        "step": "If pressure of $\\ce{SO2Cl2}$ falls by $x$: $p_t=p_i+x$, so $x=0.10$ atm and $p_{\\ce{SO2Cl2}}=p_i-x=2p_i-p_t=0.40$ atm",
+        "step": "2pᵢ − pₜ = 0.40 atm, explained",
         "marks": 1
       },
       {
-        "step": "$k=\\dfrac{2.303}{t}\\log\\dfrac{p_i}{2p_i-p_t}=\\dfrac{2.303}{100}\\log\\dfrac{0.50}{0.40}$",
+        "step": "Correct equation and substitution",
         "marks": 1
       },
       {
-        "step": "$=0.02303\\times0.0969=\\boxed{2.23\\times10^{-3}\\text{ s}^{-1}}$",
+        "step": "k = 2.23 × 10⁻³ s⁻¹",
         "marks": 1
       }
     ],
@@ -347,7 +348,7 @@
         "id": "i",
         "stem": "What is activation energy?",
         "marks": 1,
-        "model_answer": "The extra energy that reactant molecules must absorb to form the activated complex (threshold energy minus average energy of the reactants). **[1]**",
+        "model_answer": "The extra energy that reactant molecules must absorb to form the activated complex (threshold energy minus average energy of the reactants).",
         "scheme": [
           {
             "step": "The extra energy that reactant molecules must absorb to form the activated complex (threshold energy minus average energy of the reactants).",
@@ -359,7 +360,7 @@
         "id": "ii",
         "stem": "How does a catalyst affect the activation energy and the $\\Delta G$ of a reaction?",
         "marks": 1,
-        "model_answer": "It lowers the activation energy by providing an alternative path; $\\Delta G$ is unchanged. **[1]**",
+        "model_answer": "It lowers the activation energy by providing an alternative path; $\\Delta G$ is unchanged.",
         "scheme": [
           {
             "step": "It lowers the activation energy by providing an alternative path; $\\Delta G$ is unchanged.",
@@ -371,7 +372,7 @@
         "id": "iii",
         "stem": "The rate constant of a reaction doubles when the temperature rises from 298 K to 308 K. Calculate $E_a$. ($R=8.314$ J K$^{-1}$mol$^{-1}$, $\\log2=0.3010$)",
         "marks": 2,
-        "model_answer": "$\\log\\dfrac{k_2}{k_1}=\\dfrac{E_a}{2.303R}\\cdot\\dfrac{T_2-T_1}{T_1T_2}$ $\\Rightarrow$ $0.3010=\\dfrac{E_a}{2.303\\times8.314}\\times\\dfrac{10}{298\\times308}$ **[1]**\n\n$E_a=52\\,900$ J mol$^{-1}=\\boxed{52.9\\text{ kJ mol}^{-1}}$ **[1]**",
+        "model_answer": "$\\log\\dfrac{k_2}{k_1}=\\dfrac{E_a}{2.303R}\\cdot\\dfrac{T_2-T_1}{T_1T_2}$ $\\Rightarrow$ $0.3010=\\dfrac{E_a}{2.303\\times8.314}\\times\\dfrac{10}{298\\times308}$\n\n$E_a=52\\,900$ J mol$^{-1}=\\boxed{52.9\\text{ kJ mol}^{-1}}$",
         "scheme": [
           {
             "step": "$\\log\\dfrac{k_2}{k_1}=\\dfrac{E_a}{2.303R}\\cdot\\dfrac{T_2-T_1}{T_1T_2}$ $\\Rightarrow$ $0.3010=\\dfrac{E_a}{2.303\\times8.314}\\times\\dfrac{10}{298\\times308}$",
@@ -386,7 +387,8 @@
     ],
     "hint": "Use the two-temperature Arrhenius equation with k₂/k₁ = 2. Where marks are lost: writing that a catalyst \"changes the equilibrium\" or ΔH; T in °C in the Arrhenius equation.",
     "topic": "Board answer, topper style",
-    "source_note": "Board answers, topper style (Nov 2026)"
+    "source_note": "Board answers, topper style (Nov 2026)",
+    "model_answer": "*How much to write: one or two lines for (i) and (ii); working for (iii) · 7–8 minutes*\n\n**(i)** **Activation energy** is <mark>the extra energy that reactant molecules must absorb to form the activated complex</mark> (threshold energy minus average energy of the reactants).\n\n**(ii)** A catalyst <u>lowers the activation energy</u> by giving an alternative path; <mark>ΔG is unchanged</mark>.\n\n<figure class=\"fig\">\n<svg viewBox=\"0 0 320 208\" role=\"img\" aria-label=\"Energy profile of a reaction with and without a catalyst\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" font-size=\"11\">\n<path d=\"M40,20 V185 H290\"/><path d=\"M42.5,24.3L40,20L37.5,24.3\" stroke-width=\"1\"/><path d=\"M285.7,187.5L290,185L285.7,182.5\" stroke-width=\"1\"/><path d=\"M50,130 H92 C122,130 136,45 160,45 C185,45 200,155 232,155 H275\"/><path d=\"M92,130 C122,130 140,88 160,88 C181,88 200,155 232,155\" stroke=\"#E0B400\" stroke-width=\"2\" stroke-dasharray=\"5 3\"/><path d=\"M58,45L160,45\" stroke-dasharray=\"4 3\" stroke-width=\"1\"/><path d=\"M76,88L160,88\" stroke-dasharray=\"4 3\" stroke-width=\"1\"/><path d=\"M232,130L275,130\" stroke-dasharray=\"4 3\" stroke-width=\"1\"/><path d=\"M62,129L62,46\" stroke-width=\"1\"/><path d=\"M64.5,50.3L62,46L59.5,50.3\" stroke-width=\"1\"/><path d=\"M59.5,124.7L62,129L64.5,124.7\" stroke-width=\"1\"/><path d=\"M80,129L80,89\" stroke-width=\"1\"/><path d=\"M82.5,93.3L80,89L77.5,93.3\" stroke-width=\"1\"/><path d=\"M77.5,124.7L80,129L82.5,124.7\" stroke-width=\"1\"/><path d=\"M262,131L262,154\" stroke-width=\"1\"/><path d=\"M259.5,149.7L262,154L264.5,149.7\" stroke-width=\"1\"/><path d=\"M264.5,135.3L262,131L259.5,135.3\" stroke-width=\"1\"/><path d=\"M190,18L208,18\"/><path d=\"M190,30L208,30\" stroke=\"#E0B400\" stroke-width=\"2\" stroke-dasharray=\"5 3\"/>\n<g fill=\"currentColor\" stroke=\"none\"><text x=\"165\" y=\"201\" text-anchor=\"middle\">reaction coordinate →</text><text x=\"28\" y=\"102.5\" text-anchor=\"middle\" transform=\"rotate(-90 28 102.5)\">potential energy</text><text x=\"58\" y=\"84\" text-anchor=\"end\">E<tspan dy=\"3\" font-size=\"8\">a</tspan></text><text x=\"84\" y=\"112\">E<tspan dy=\"3\" font-size=\"8\">a</tspan><tspan dy=\"-3\">′</tspan></text><text x=\"267\" y=\"146\">ΔH</text><text x=\"48\" y=\"144\" font-size=\"9\">reactants</text><text x=\"238\" y=\"168\" font-size=\"9\">products</text><text x=\"118\" y=\"38\" text-anchor=\"middle\" font-size=\"9\">activated complex</text><text x=\"212\" y=\"21\" font-size=\"9\">no catalyst</text><text x=\"212\" y=\"33\" font-size=\"9\">with catalyst</text></g>\n</svg>\n<figcaption>A catalyst lowers the activation energy; reactants, products and ΔH are unchanged.</figcaption>\n</figure>\n\n**(iii)** $k_2/k_1=2$, $T_1=298$ K, $T_2=308$ K\n\n$$\\log\\frac{k_2}{k_1}=\\frac{E_a}{2.303R}\\cdot\\frac{T_2-T_1}{T_1T_2}$$\n\n$$\\begin{aligned}0.3010&=\\frac{E_a}{2.303\\times8.314}\\times\\frac{10}{298\\times308}\\end{aligned}$$\n\n$$E_a=52900\\text{ J mol}^{-1}$$\n\n$$\\boxed{E_a=52.9\\text{ kJ mol}^{-1}}$$\n\n:::tip Your answer must contain\n- (i) the words <u>activated complex</u>\n- (ii) <mark>lower Ea, same ΔG</mark>; a sketch earns goodwill\n- (iii) T in kelvin and the answer in kJ mol⁻¹\n:::\n\n**Marks are lost for:** saying a catalyst changes ΔH, ΔG or the equilibrium; T in °C."
   },
   {
     "id": "chem-t03-q06",
@@ -396,26 +398,26 @@
     "stars": 3,
     "label": "PYQ-style",
     "stem": "(a) Derive the integrated rate equation for a first-order reaction. [3]<br>(b) A first-order reaction has $k=2.0\\times10^{-3}$ s$^{-1}$. How long will it take for 8 g of the reactant to be reduced to 2 g? [2]",
-    "model_answer": "**How much to write:** about one page: part (a) in 6–8 lines, part (b) as a full numerical · 10–12 minutes. The derivation needs every step: rate law, separate variables, integrate, find the constant, final form.\n\n(a) For $\\ce{R -> P}$: $-\\dfrac{d[R]}{dt}=k[R]$ $\\Rightarrow$ $\\dfrac{d[R]}{[R]}=-k\\,dt$ **[1]**\n\nIntegrating: $\\ln[R]=-kt+I$. At $t=0$, $[R]=[R]_0$, so $I=\\ln[R]_0$ **[1]**\n\n$\\ln[R]=\\ln[R]_0-kt$ $\\Rightarrow$ $k=\\dfrac{2.303}{t}\\log\\dfrac{[R]_0}{[R]}$ **[1]**\n\n(b) $t=\\dfrac{2.303}{2.0\\times10^{-3}}\\log\\dfrac{8}{2}=1151.5\\times0.602$ **[1]**\n\n$=\\boxed{693\\text{ s}}$ (two half-lives of 346.5 s each) **[1]**\n\n**Where marks are lost:** Skipping the integration constant; using ln without converting to log consistently; no unit on the time.",
+    "model_answer": "*How much to write: about one page: every step of the derivation, then the numerical · 10–12 minutes*\n\n**(a)** For $\\ce{R -> P}$ of first order:\n\n$$-\\frac{d[R]}{dt}=k[R]$$\n\nSeparate the variables:\n\n$$\\frac{d[R]}{[R]}=-k\\,dt$$\n\nIntegrate both sides:\n\n$$\\ln[R]=-kt+I$$\n\nAt $t=0$, $[R]=[R]_0$, so <u>$I=\\ln[R]_0$</u>:\n\n$$\\ln[R]=\\ln[R]_0-kt$$\n\n$$\\boxed{k=\\frac{2.303}{t}\\log\\frac{[R]_0}{[R]}}$$\n\n**(b)** From 8 g to 2 g: $\\dfrac{[R]_0}{[R]}=4$\n\n$$\\begin{aligned}t&=\\frac{2.303}{2.0\\times10^{-3}}\\log4 \\\\ &=1151.5\\times0.602\\end{aligned}$$\n\n$$\\boxed{t=693\\text{ s}}$$\n\n$$\\boxed{t=693\\text{ s}}$$\n\nThis is two half-lives of 346.5 s each.\n\n:::tip Your answer must contain\n- the rate law, <u>separation of variables</u> and integration shown\n- the <mark>integration constant</mark> found from $t=0$\n- final form with 2.303 and log\n- (b) the ratio 8/2 = 4 and the answer in seconds\n:::\n\n**Marks are lost for:** skipping the integration constant; mixing ln and log; no unit on t.",
     "scheme": [
       {
-        "step": "(a) For $\\ce{R -> P}$: $-\\dfrac{d[R]}{dt}=k[R]$ $\\Rightarrow$ $\\dfrac{d[R]}{[R]}=-k\\,dt$",
+        "step": "Rate law and separation of variables",
         "marks": 1
       },
       {
-        "step": "Integrating: $\\ln[R]=-kt+I$. At $t=0$, $[R]=[R]_0$, so $I=\\ln[R]_0$",
+        "step": "Integration and constant from t = 0",
         "marks": 1
       },
       {
-        "step": "$\\ln[R]=\\ln[R]_0-kt$ $\\Rightarrow$ $k=\\dfrac{2.303}{t}\\log\\dfrac{[R]_0}{[R]}$",
+        "step": "Final integrated equation",
         "marks": 1
       },
       {
-        "step": "(b) $t=\\dfrac{2.303}{2.0\\times10^{-3}}\\log\\dfrac{8}{2}=1151.5\\times0.602$",
+        "step": "Substitution with ratio 4",
         "marks": 1
       },
       {
-        "step": "$=\\boxed{693\\text{ s}}$ (two half-lives of 346.5 s each)",
+        "step": "t = 693 s",
         "marks": 1
       }
     ],

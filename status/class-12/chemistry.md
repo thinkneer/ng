@@ -63,8 +63,8 @@ No "(to be added as SVG)" placeholders remain in any file.
 - Each model answer opens with **How much to write** (lines or words and minutes), is written the way a full-marks script looks (given, formula, steps, units, boxed answer, marks in brackets) and ends with **Where marks are lost**. Case questions carry the length line in the stem and the mark-loss note in the hint.
 - Own questions on board patterns, labelled `PYQ-style`; no CBSE paper or marking-scheme text. Every numerical computed by script.
 - **Answer-script style (15 Nov, after admin review):** answers must read like a real full-marks script, not a list of marked steps. Layout: *How much to write* line in italics → **Given / To find / Formula / Solution** on separate lines, key equations as display maths, boxed final answer → <u>underline</u> on the keywords examiners look for, <mark>highlight</mark> on the one statement or value that wins the mark → labelled inline SVG sketch where a diagram earns marks → a yellow `:::tip Your answer must contain` checklist → one line **Marks are lost for**. Step marks live only in `scheme` (the Mark-yourself ticks), not in the answer text. Case questions get a full top-level `model_answer` as well as `parts`.
-- **Phone layout rules (found on review):** one relation per display line; chains of "=" stacked with `aligned`; boxed answer on its own line; long fraction labels shortened (obs/calc); `<br>` before **To find:** so it does not run into the Given line.
-- **Done in the new style:** all 11 written answers in Ch 1 (the six `chem-t01` plus the older `chem-s1-q09/13/14/21` and the `chem-c01-q04` case), with sketches: U-tube osmosis, reverse osmosis, ideal-solution graph, deviation graphs. **Ch 2–10:** every written answer (sheet questions and `chem-t02/t03`) still in the older marked-steps style; to be converted chapter by chapter. **Next:** Ch 4–5, Ch 6–7, Ch 8, Ch 9–10.
+- **Phone layout rules (found on review):** one relation per display line; long reaction equations broken after the arrow (`aligned`); chains of "=" stacked with `aligned`; boxed answer on its own line; long fraction labels shortened (obs/calc); `<br>` before **To find:** so it does not run into the Given line.
+- **Done in the new style:** all 11 written answers in Ch 1 (the six `chem-t01` plus the older `chem-s1-q09/13/14/21` and the `chem-c01-q04` case), with sketches: U-tube osmosis, reverse osmosis, ideal-solution graph, deviation graphs. **Ch 2–3 converted (15 Nov):** all 23 written answers (sheet questions, the corrosion case, `chem-t02/t03`), with the Λm graph and the catalyst energy profile reused as sketches. **Ch 4–10:** still in the older marked-steps style. **Next:** Ch 4–5, Ch 6–7, Ch 8, Ch 9–10.
 
 ### Cards and interactive blocks (CLAUDE.md §4c; decks required from 1 Dec 2026)
 | Chapter | cards.json | Blocks in notes.md |
@@ -114,7 +114,7 @@ Still to make, as content once the site has a place for practicals:
 - Recall cards built from titled traps show the mistake as the answer. If the card should show the fix, the trap bodies need a second sentence; say so and the chemistry traps can be extended.
 
 ## What's left, in order
-1. Board answers in answer-script style: convert Ch 2–10 written answers, then new topper sets for Ch 4–10.
+1. Board answers in answer-script style: convert Ch 4–10 written answers (Ch 1–3 done), then new topper sets for Ch 4–10.
 2. The remaining optional SVG to-dos above (fac/mer, VBT boxes, SHE).
 3. About 11 more `la5` (5-mark) questions so exam mode can build 3 papers without repeats; then more practice per chapter, especially numericals for Ch 1–3 and conversions for Ch 6–9 (most chapters have 10–14 questions; Ch 8 has 19).
 4. Practical help (list above).
