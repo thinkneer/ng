@@ -61,17 +61,26 @@ export async function reader({ cls, stream, sub, unit, ch }) {
       if (!notes && !formulas) {
         content.innerHTML = String(emptyState({ icon: 'book', title: 'Nothing to read yet', text: 'Notes for this chapter are on their way.', action: `<a class="btn btn--secondary" href="${base}">Back to chapter</a>` }));
       } else {
-        const { renderMarkdown, typesetAll } = await import('../markdown.js');
-        const { attach } = await import('../highlights.js');
-        R.typesetAll = () => Promise.all([...content.querySelectorAll('.prose')].map((n) => typesetAll(n)));
+        const [{ renderMarkdown, typesetAll }, { attach }] = await Promise.all([import('../markdown.js'), import('../highlights.js')]);
+        let formulasReady = Promise.resolve();
+        R.typesetAll = async () => { await formulasReady; await Promise.all([...content.querySelectorAll('.prose')].map((n) => typesetAll(n))); };
+        const measure = () => {
+          R.headings = [...content.querySelectorAll('h2')].map((h) => ({ id: h.id, text: h.textContent }));
+          R.minutes = Math.max(1, Math.round((content.textContent.match(/\S+/g) || []).length / 200));
+        };
         content.replaceChildren();
         if (notes) { const n = await renderMarkdown(notes, { unitColour: unit.colour, ctx: { key: `${sub.id}/${ch.id}`, base } }); content.appendChild(n); attach(n, `${sub.id}/${ch.id}/${ch.items?.notes ? 'notes' : 'mustknow'}`); }
         if (formulas) {
           const h = document.createElement('h2'); h.className = 'rd__divider'; h.id = 'formula-sheet'; h.textContent = 'Formula sheet';
-          content.appendChild(h); const fm = await renderMarkdown(formulas, { unitColour: unit.colour }); content.appendChild(fm); attach(fm, `${sub.id}/${ch.id}/formulas`);
+          const holder = document.createElement('div');
+          content.append(h, holder);
+          const build = async () => { const fm = await renderMarkdown(formulas, { unitColour: unit.colour }); holder.replaceWith(fm); attach(fm, `${sub.id}/${ch.id}/formulas`); measure(); };
+          // The formula sheet sits at the end: on a fresh open it is built once the notes are on screen. When the
+          // student resumes part-way, it is built first so the saved position lands exactly where they left off.
+          if (store.get(posKey, 0) > 0.02 || !notes) await build();
+          else formulasReady = new Promise((done) => (window.requestIdleCallback || setTimeout)(() => build().then(done, done), { timeout: 2500 }));
         }
-        R.headings = [...content.querySelectorAll('h2')].map((h) => ({ id: h.id, text: h.textContent }));
-        R.minutes = Math.max(1, Math.round((content.textContent.match(/\S+/g) || []).length / 200));
+        measure();
       }
 
       // ----- layout: scroll or pages -----
@@ -99,7 +108,7 @@ export async function reader({ cls, stream, sub, unit, ch }) {
         if (prefs().mode !== 'pages') {
           ['width', 'height', 'columnWidth', 'columnGap', 'transition', 'transform'].forEach((k) => { book.style[k] = ''; });
           R.pages = 1; R.page = 0;
-          requestAnimationFrame(() => { rd.scrollTo({ top: f * (rd.scrollHeight - rd.clientHeight), behavior: 'instant' }); foot(); });
+          requestAnimationFrame(() => { if (f > 0 || rd.scrollTop > 0) rd.scrollTo({ top: f * (rd.scrollHeight - rd.clientHeight), behavior: 'instant' }); foot(); });
           return;
         }
         rd.scrollTo({ top: 0, behavior: 'instant' });
@@ -117,7 +126,8 @@ export async function reader({ cls, stream, sub, unit, ch }) {
       // first layout at the remembered position; again when fonts / maths settle and on resize
       const saved = store.get(posKey, 0);
       requestAnimationFrame(() => layout(saved));
-      document.fonts?.ready.then(() => layout());
+      // fonts still arriving (KaTeX, a web font): lay out again once they are in, in a frame, not mid-task
+      if (document.fonts && document.fonts.status !== 'loaded') document.fonts.ready.then(() => requestAnimationFrame(() => layout()));
       let rt; const onResize = () => { clearTimeout(rt); rt = setTimeout(() => layout(), 120); };
       window.addEventListener('resize', onResize);
       const ro = new ResizeObserver(() => { if (prefs().mode === 'pages') { clearTimeout(rt); rt = setTimeout(() => layout(), 150); } });
