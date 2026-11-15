@@ -1349,6 +1349,7 @@
                         "notes": true,
                         "mustknow": true,
                         "formulas": true,
+                        "cards": true,
                         "questions": true
                       },
                       "marks_hint": "6 marks (unit weightage, CBSE 2026–27)",
@@ -1363,8 +1364,19 @@
                         "case": 1
                       },
                       "diagrams": [],
-                      "words": 5519,
-                      "read_minutes": 12
+                      "blocks": {
+                        "steps": 4,
+                        "mnemonic": 3,
+                        "figure": 1,
+                        "draw": 1,
+                        "numerical": 1,
+                        "fill": 3,
+                        "compare": 1
+                      },
+                      "words": 5473,
+                      "read_minutes": 12,
+                      "cards": 11,
+                      "mnemonics": 3
                     }
                   ]
                 },
@@ -1384,6 +1396,7 @@
                         "notes": true,
                         "mustknow": true,
                         "formulas": true,
+                        "cards": true,
                         "questions": true
                       },
                       "marks_hint": "7 marks (unit weightage, CBSE 2026–27)",
@@ -1398,8 +1411,19 @@
                         "la5": 1
                       },
                       "diagrams": [],
-                      "words": 6073,
-                      "read_minutes": 15
+                      "blocks": {
+                        "fill": 3,
+                        "figure": 3,
+                        "steps": 2,
+                        "draw": 3,
+                        "mnemonic": 3,
+                        "compare": 3,
+                        "numerical": 1
+                      },
+                      "words": 5934,
+                      "read_minutes": 14,
+                      "cards": 13,
+                      "mnemonics": 3
                     }
                   ]
                 }

@@ -1,0 +1,164 @@
+[
+  {
+    "id": "haworth-glucose",
+    "kind": "figure",
+    "title": "α- and β-D-glucose",
+    "svg": "ref: notes#haworth-glucose",
+    "back": "Anomers differ only at C1: –OH down in α, up in β. Pyranose ring from the C5 –OH adding to C1.",
+    "stars": 3,
+    "tags": [
+      "diagram",
+      "structure"
+    ]
+  },
+  {
+    "id": "protein-secondary",
+    "kind": "figure",
+    "title": "α-Helix and β-sheet",
+    "svg": "ref: notes#protein-secondary",
+    "back": "Secondary structure, held by backbone N–H···O=C hydrogen bonds: within one chain (helix) or between chains (sheet).",
+    "stars": 2,
+    "tags": [
+      "diagram"
+    ]
+  },
+  {
+    "id": "dna-helix",
+    "kind": "figure",
+    "title": "DNA double helix",
+    "svg": "ref: notes#dna-helix",
+    "back": "Two complementary strands; A=T (2 H-bonds), G≡C (3 H-bonds); sugar–phosphate backbone outside, bases inside.",
+    "stars": 3,
+    "tags": [
+      "diagram"
+    ]
+  },
+  {
+    "id": "glucose-evidence",
+    "kind": "formula",
+    "title": "Open-chain glucose",
+    "tex": "\\ce{CHO-(CHOH)4-CH2OH}",
+    "legend": [
+      "HI → n-hexane = straight chain",
+      "Br₂ water → gluconic acid = –CHO",
+      "acetylation = five –OH"
+    ],
+    "back": "Nitric acid gives saccharic acid (primary –CH₂OH); oxime and cyanohydrin show the carbonyl.",
+    "stars": 3,
+    "tags": [
+      "structure",
+      "3-mark"
+    ]
+  },
+  {
+    "id": "why-cyclic",
+    "kind": "formula",
+    "title": "Why glucose must be cyclic",
+    "tex": "\\text{no Schiff test}\\quad\\text{no }\\ce{NaHSO3}\\text{ adduct}\\quad \\alpha,\\beta\\text{ forms}",
+    "legend": [
+      "explanation = C5–OH and C1 form a hemiacetal ring"
+    ],
+    "back": "The pentaacetate also does not react with hydroxylamine: no free –CHO.",
+    "stars": 2,
+    "tags": [
+      "reason"
+    ]
+  },
+  {
+    "id": "disaccharides",
+    "kind": "compare",
+    "title": "Sucrose, maltose, lactose",
+    "tex": "\\text{sucrose: non-reducing}\\quad\\text{maltose, lactose: reducing}",
+    "back": "Sucrose: glucose C1–fructose C2. Maltose: 2 α-glucose C1–C4. Lactose: galactose + glucose C1–C4. Sucrose hydrolysis gives invert sugar.",
+    "stars": 3,
+    "tags": [
+      "compare"
+    ]
+  },
+  {
+    "id": "starch-vs-cellulose",
+    "kind": "compare",
+    "title": "Starch vs cellulose",
+    "tex": "\\alpha\\text{-glucose}\\ \\text{vs}\\ \\beta\\text{-glucose}",
+    "back": "Starch = amylose (unbranched) + amylopectin (branched); cellulose = straight β-chains; glycogen = more branched animal starch.",
+    "stars": 2,
+    "tags": [
+      "compare"
+    ]
+  },
+  {
+    "id": "zwitterion",
+    "kind": "formula",
+    "title": "Zwitterion",
+    "tex": "\\ce{H3N+-CHR-COO-}",
+    "legend": [
+      "R = side chain"
+    ],
+    "back": "Makes amino acids salt-like, high-melting and amphoteric. All except glycine are optically active.",
+    "stars": 2,
+    "tags": [
+      "structure"
+    ]
+  },
+  {
+    "id": "peptide-bond",
+    "kind": "formula",
+    "title": "Peptide bond",
+    "tex": "\\ce{-CO-NH-}",
+    "legend": [
+      "formed = –COOH of one + –NH₂ of next, losing H₂O"
+    ],
+    "back": "Primary structure = sequence of amino acids joined by peptide bonds.",
+    "stars": 2,
+    "tags": [
+      "definition"
+    ]
+  },
+  {
+    "id": "denaturation",
+    "kind": "process",
+    "title": "Denaturation",
+    "tex": "\\text{2°, 3° structure lost}\\qquad\\text{1° structure kept}",
+    "back": "Heat or pH breaks H-bonds; activity is lost. Examples: boiled egg, curdled milk.",
+    "stars": 3,
+    "tags": [
+      "concept"
+    ]
+  },
+  {
+    "id": "vitamins",
+    "kind": "formula",
+    "title": "Vitamin deficiencies",
+    "tex": "\\text{A: night blindness}\\quad\\text{C: scurvy}\\quad\\text{D: rickets}\\quad\\ce{B12}\\text{: pernicious anaemia}",
+    "legend": [
+      "fat-soluble = A, D, E, K"
+    ],
+    "back": "$\\ce{B1}$ beriberi, $\\ce{B2}$ cheilosis, $\\ce{B6}$ convulsions, E fragile red cells, K slow clotting.",
+    "stars": 2,
+    "tags": [
+      "table"
+    ]
+  },
+  {
+    "id": "dna-vs-rna",
+    "kind": "compare",
+    "title": "DNA vs RNA",
+    "tex": "\\text{deoxyribose, T, double}\\quad\\text{vs}\\quad\\text{ribose, U, single}",
+    "back": "DNA stores information; RNA (m, r, t) carries out protein synthesis.",
+    "stars": 3,
+    "tags": [
+      "compare",
+      "2-mark"
+    ]
+  },
+  {
+    "id": "adek-deck",
+    "kind": "mnemonic",
+    "title": "ADEK = a deck",
+    "tex": "\\text{A, D, E, K: fat-soluble}",
+    "back": "Stored in fat (a deck kept in the drawer); B and C are water-soluble and excreted.",
+    "tags": [
+      "mnemonic"
+    ]
+  }
+]

@@ -44,6 +44,22 @@ In the Hoffmann reaction the alkyl group migrates from the carbonyl carbon to ni
 (ii) $\ce{CH3CH2CONH2 ->[Br2/NaOH] CH3CH2NH2}$ (Hoffmann bromamide degradation removes a carbon) [1]
 :::
 
+```ng-steps
+id: gabriel-steps
+title: Gabriel phthalimide synthesis
+step: Treat **phthalimide** with alcoholic KOH: potassium phthalimide.
+step: Heat with an **alkyl halide** R–X: N-alkylphthalimide (N is alkylated only once).
+step: Hydrolyse with aqueous NaOH: **pure primary amine** R–NH₂. Aryl halides fail, so aniline cannot be made this way.
+```
+
+```ng-mnemonic
+id: hoffmann-hacks
+title: Hoffmann bromamide degradation
+trick: **Hoffmann hacks off a carbon**
+meaning: Amide + $\ce{Br2}$ + 4 NaOH gives a primary amine with **one carbon fewer** (the C=O carbon leaves as carbonate).
+prompt: Does the Hoffmann reaction add or remove a carbon?
+```
+
 **In one breath:** Amines come from reducing nitro compounds, nitriles and amides, and from ammonia with alkyl halides (a mixture). Gabriel gives pure 1° aliphatic amines; Hoffmann bromamide gives a 1° amine with one carbon fewer.
 
 ## Physical properties
@@ -82,7 +98,20 @@ The secondary amine is strongest in both. The primary and tertiary swap places.
 
 **Aniline** is a much weaker base than ammonia (p$K_b$ 9.38 against 4.75). Its lone pair is delocalised into the benzene ring by resonance, so it is less available for a proton. And there is a second reason: aniline has five resonance structures, but the anilinium ion, with no lone pair left, has only two. Protonation throws away resonance stabilisation.
 
-**Figure 9.1 (resonance in aniline):** five structures in a row: two ordinary benzene-ring structures with the lone pair on nitrogen, and three with a C=N double bond, a positive charge on nitrogen and a negative charge on the ortho, para and other ortho carbon in turn.
+```ng-figure
+id: aniline-resonance
+title: Resonance in aniline
+svg:
+<svg viewBox="0 0 400 138" role="img" aria-label="Resonance structures of aniline" fill="none" stroke="currentColor" stroke-width="1.5" font-size="11">
+<path d="M48.0,62.0 L67.1,73.0 L67.1,95.0 L48.0,106.0 L28.9,95.0 L28.9,73.0 Z"/><path d="M63.6,77.1 L63.6,90.9"/><path d="M46.1,101.0 L34.3,94.1"/><path d="M34.3,73.9 L46.1,67.0"/><path d="M48.0,62.0 V44.0"/><path d="M148.0,62.0 L167.1,73.0 L167.1,95.0 L148.0,106.0 L128.9,95.0 L128.9,73.0 Z"/><path d="M163.6,77.1 L163.6,90.9"/><path d="M146.1,101.0 L134.3,94.1"/><path d="M145.8,62.0 V44.0 M150.2,62.0 V44.0"/><path d="M248.0,62.0 L267.1,73.0 L267.1,95.0 L248.0,106.0 L228.9,95.0 L228.9,73.0 Z"/><path d="M232.4,90.9 L232.4,77.1"/><path d="M263.6,77.1 L263.6,90.9"/><path d="M245.8,62.0 V44.0 M250.2,62.0 V44.0"/><path d="M348.0,62.0 L367.1,73.0 L367.1,95.0 L348.0,106.0 L328.9,95.0 L328.9,73.0 Z"/><path d="M332.4,90.9 L332.4,77.1"/><path d="M361.7,94.1 L349.9,101.0"/><path d="M345.8,62.0 V44.0 M350.2,62.0 V44.0"/><path d="M80,84 H116" stroke-width="1"/><path d="M111.7,86.5L116,84L111.7,81.5" stroke-width="1"/><path d="M84.3,81.5L80,84L84.3,86.5" stroke-width="1"/><path d="M180,84 H216" stroke-width="1"/><path d="M211.7,86.5L216,84L211.7,81.5" stroke-width="1"/><path d="M184.3,81.5L180,84L184.3,86.5" stroke-width="1"/><path d="M280,84 H316" stroke-width="1"/><path d="M311.7,86.5L316,84L311.7,81.5" stroke-width="1"/><path d="M284.3,81.5L280,84L284.3,86.5" stroke-width="1"/>
+<g fill="currentColor" stroke="none"><text x="48" y="40" text-anchor="middle" font-size="11">NH₂</text><text x="148" y="40" text-anchor="middle" font-size="11">NH₂⁺</text><text x="120.3" y="72.0" text-anchor="middle" font-weight="700" style="fill:#E0B400">−</text><text x="248" y="40" text-anchor="middle" font-size="11">NH₂⁺</text><text x="248.0" y="120.0" text-anchor="middle" font-weight="700" style="fill:#E0B400">−</text><text x="348" y="40" text-anchor="middle" font-size="11">NH₂⁺</text><text x="375.7" y="72.0" text-anchor="middle" font-weight="700" style="fill:#E0B400">−</text><text x="148" y="130" text-anchor="middle" font-size="9">ortho</text><text x="248" y="130" text-anchor="middle" font-size="9">para</text><text x="348" y="130" text-anchor="middle" font-size="9">ortho</text></g>
+</svg>
+caption: Figure 9.1 The nitrogen lone pair spreads into the ring, making ortho and para electron-rich and leaving the lone pair less available for a proton.
+part: 48, 84 | Lone pair on N | In the first structure the lone pair sits on nitrogen.
+part: 148, 34 | N becomes positive | Sharing its pair with the ring, N carries a + charge.
+part: 248, 114 | Negative charge at para | Ring positions ortho and para become electron-rich.
+part: 98, 84 | Resonance arrow | The real molecule is a hybrid; protonation would destroy this stabilisation.
+```
 
 Ring substituents shift this as you would expect. Electron-releasing groups such as $\ce{-CH3}$ and $\ce{-OCH3}$ make aniline a stronger base; electron-withdrawing groups such as $\ce{-NO2}$ make it weaker.
 
@@ -95,6 +124,47 @@ Aniline is weakest: its lone pair is delocalised into the ring. [½]
 
 Ethyl groups release electrons, so both ethylamines beat ammonia; the 2° amine has the best balance of electron release and solvation. [½]
 :::
+
+```ng-draw
+id: draw-aniline
+title: Draw the resonance structures of aniline
+svg: ref: notes#aniline-resonance
+time: 4
+```
+
+```ng-numerical
+id: pkb-ratio
+title: Comparing base strength from pKb
+question: Base X has p$K_b$ = {{a}} and base Y has p$K_b$ = {{b}}. How many times stronger a base is X than Y?
+var: a | 3.0 | 4.0 | 0.1
+var: b | 4.5 | 9.5 | 0.5
+answer: 10^(b-a)
+unit: times
+dp: 0
+tol: 2
+step: Smaller p$K_b$ = stronger base, so X is stronger
+step: $\dfrac{K_b(\text{X})}{K_b(\text{Y})}=10^{\,\text{p}K_b(\text{Y})-\text{p}K_b(\text{X})}=10^{ {{b-a:1}} }$
+step: X is about **{{10^(b-a):0}} times** stronger
+```
+
+```ng-fill
+id: basicity-fill
+title: Arrange by basic strength (in water)
+cols: Set | Order, strongest first
+row: methylamines | [[$\ce{(CH3)2NH}$ > $\ce{CH3NH2}$ > $\ce{(CH3)3N}$ > $\ce{NH3}$]]
+row: ethylamines | [[$\ce{(C2H5)2NH}$ > $\ce{(C2H5)3N}$ > $\ce{C2H5NH2}$ > $\ce{NH3}$]]
+row: gas phase | [[3° > 2° > 1° > $\ce{NH3}$]]
+row: aniline vs ammonia | [[$\ce{NH3}$ > $\ce{C6H5NH2}$]]
+```
+
+```ng-mnemonic
+id: do-ek-teen
+title: Basicity orders in water
+trick: **Methyl: Do–Ek–Teen; Ethyl: Do–Teen–Ek**
+meaning: Methylamines: 2° > 1° > 3° > $\ce{NH3}$ (do, ek, teen).
+meaning: Ethylamines: 2° > 3° > 1° > $\ce{NH3}$ (do, teen, ek). The secondary amine is always strongest.
+prompt: Order the ethylamines by basicity in water.
+```
 
 **In one breath:** A smaller p$K_b$ is a stronger base. Alkyl groups strengthen the base; in water, solvation and crowding make 2° the strongest. Aniline is far weaker than ammonia because its lone pair is shared with the ring.
 
@@ -123,6 +193,32 @@ The isocyanide (carbylamine) formed has an unmistakably foul smell. Both aliphat
 :::tip
 Hinsberg in three words: 1° soluble, 2° insoluble, 3° nothing. The reason is the acidic N–H, which only the primary product has.
 :::
+
+```ng-fill
+id: hinsberg-fill
+title: Hinsberg's test (benzenesulphonyl chloride)
+cols: Amine | Product | In alkali
+row: primary, $\ce{RNH2}$ | $\ce{C6H5SO2NHR}$ | [[dissolves (acidic N–H)]]
+row: secondary, $\ce{R2NH}$ | $\ce{C6H5SO2NR2}$ | [[insoluble (no N–H)]]
+row: tertiary, $\ce{R3N}$ | [[no reaction]] | —
+```
+
+```ng-mnemonic
+id: hinsberg-sells
+title: Hinsberg's results
+trick: **One Sells (soluble), Two Sinks (insoluble), Three Sleeps (no reaction)**
+meaning: Primary amine: product dissolves in alkali. Secondary: insoluble product. Tertiary: does not react.
+prompt: What does a secondary amine give in Hinsberg's test?
+```
+
+```ng-compare
+id: tests-for-amines
+title: Two tests for amines
+cols: Carbylamine test | Hinsberg test
+row: Reagent | $\ce{CHCl3}$ + alcoholic KOH, heat | benzenesulphonyl chloride
+row: Positive for | primary amines only (aliphatic and aromatic) | tells 1°, 2° and 3° apart
+row: Sign | foul smell of isocyanide | solubility of the product in alkali
+```
 
 **In one breath:** Amines are alkylated and (1° and 2° only) acylated. Carbylamine's foul smell detects 1° amines, Hinsberg's reagent separates 1°, 2° and 3°, and nitrous acid turns 1° aliphatic amines into alcohols with loss of nitrogen.
 
@@ -154,6 +250,14 @@ The same three steps with nitric and sulphuric acids in place of bromine give 4-
 Aniline does **not** undergo Friedel–Crafts alkylation or acylation. It is a base and forms a salt with the Lewis acid catalyst $\ce{AlCl3}$; the nitrogen becomes positive and deactivates the ring.
 :::
 
+```ng-steps
+id: protect-aniline
+title: Making 4-bromoaniline: protect, react, deprotect
+step: **Protect:** acetylate aniline with acetic anhydride to give acetanilide; the N lone pair is now shared with C=O.
+step: **React:** brominate acetanilide; the milder –NHCOCH₃ group gives mainly the **para** product.
+step: **Deprotect:** hydrolyse with acid or alkali to free the –NH₂: 4-bromoaniline.
+```
+
 **In one breath:** $\ce{-NH2}$ activates the ring so strongly that bromine water gives the tribromo product and nitration gives mixed products including meta; acetylating to acetanilide tames it. No Friedel–Crafts, because aniline binds $\ce{AlCl3}$.
 
 ## Diazonium salts: making them
@@ -169,6 +273,14 @@ Why is this salt stable when the aliphatic ones are not? The positive charge of 
 :::tip
 The temperature, 273–278 K (0–5 °C), is part of the answer. Above it the diazonium salt reacts with water and you get phenol.
 :::
+
+```ng-steps
+id: diazotisation-steps
+title: Diazotisation in the lab
+step: Dissolve aniline in dilute **HCl** and cool in ice to **273–278 K**.
+step: Add cold **sodium nitrite** solution slowly: $\ce{NaNO2 + HCl}$ makes nitrous acid in the flask.
+step: Benzenediazonium chloride forms; **use it at once** in the cold (it decomposes to phenol if warmed).
+```
 
 **In one breath:** A primary aromatic amine with $\ce{NaNO2}$ and HCl at 273–278 K gives a diazonium salt, stabilised by resonance with the ring but used at once in cold solution.
 
@@ -215,5 +327,26 @@ Step 2: $\ce{C6H5N2+Cl- ->[CuCN/KCN] C6H5CN}$ (Sandmeyer reaction) [1]
 
 Step 3: $\ce{C6H5CN ->[H3O+, heat] C6H5COOH}$ (hydrolysis of the nitrile) [1]
 :::
+
+```ng-fill
+id: diazonium-fill
+title: What replaces the –N₂⁺ group?
+cols: Reagent | Product
+row: CuCl/HCl (Sandmeyer) | [[chlorobenzene]]
+row: CuCN/KCN | [[benzonitrile]]
+row: KI | [[iodobenzene]]
+row: $\ce{HBF4}$, then heat | [[fluorobenzene]]
+row: warm water | [[phenol]]
+row: $\ce{H3PO2}$ or ethanol | [[benzene]]
+row: phenol in alkali | [[p-hydroxyazobenzene (orange dye)]]
+```
+
+```ng-steps
+id: coupling-steps
+title: Making an azo dye
+step: Diazotise aniline in ice: benzenediazonium chloride.
+step: Dissolve phenol in **NaOH** (or aniline in weak acid) and cool.
+step: Add the diazonium solution: it attacks the **para** position and an orange (or yellow) azo dye separates.
+```
 
 **In one breath:** $\ce{-N2+}$ leaves as nitrogen and can be replaced by Cl, Br, CN (Sandmeyer), I, F, OH or H; with phenol or aniline it couples at the para position to give coloured azo dyes.

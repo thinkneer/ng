@@ -1,0 +1,145 @@
+[
+  {
+    "id": "aniline-resonance",
+    "kind": "figure",
+    "title": "Aniline resonance",
+    "svg": "ref: notes#aniline-resonance",
+    "back": "Lone pair delocalised into the ring: aniline is a weaker base than ammonia (p$K_b$ 9.38 vs 4.75), and its ortho/para positions are very reactive.",
+    "stars": 3,
+    "tags": [
+      "diagram",
+      "reason"
+    ]
+  },
+  {
+    "id": "hoffmann",
+    "kind": "formula",
+    "title": "Hoffmann bromamide degradation",
+    "tex": "\\ce{RCONH2 + Br2 + 4NaOH -> RNH2 + Na2CO3 + 2NaBr + 2H2O}",
+    "legend": [
+      "product = amine with one carbon fewer"
+    ],
+    "back": "Use it to step down a carbon chain.",
+    "stars": 3,
+    "tags": [
+      "named"
+    ]
+  },
+  {
+    "id": "gabriel",
+    "kind": "formula",
+    "title": "Gabriel phthalimide synthesis",
+    "tex": "\\text{phthalimide}\\xrightarrow{\\text{KOH}}\\xrightarrow{\\ce{RX}}\\xrightarrow{\\text{NaOH(aq)}}\\ce{RNH2}",
+    "legend": [
+      "gives = pure 1° aliphatic amines"
+    ],
+    "back": "Cannot make aniline: aryl halides do not undergo nucleophilic substitution.",
+    "stars": 3,
+    "tags": [
+      "named"
+    ]
+  },
+  {
+    "id": "carbylamine",
+    "kind": "formula",
+    "title": "Carbylamine reaction",
+    "tex": "\\ce{RNH2 + CHCl3 + 3KOH -> RNC + 3KCl + 3H2O}",
+    "legend": [
+      "RNC = isocyanide, foul smell"
+    ],
+    "back": "Test for primary amines only.",
+    "stars": 3,
+    "tags": [
+      "test"
+    ]
+  },
+  {
+    "id": "diazotisation",
+    "kind": "formula",
+    "title": "Diazotisation",
+    "tex": "\\ce{C6H5NH2 + NaNO2 + 2HCl ->[273-278 K] C6H5N2+Cl- + NaCl + 2H2O}",
+    "legend": [
+      "T = 273–278 K (ice cold)"
+    ],
+    "back": "Aromatic diazonium salts are stabilised by resonance but still used at once.",
+    "stars": 3,
+    "tags": [
+      "equation"
+    ]
+  },
+  {
+    "id": "replacements",
+    "kind": "formula",
+    "title": "Replacing –N₂⁺",
+    "tex": "\\ce{CuCl}\\to\\ce{ArCl}\\quad\\ce{CuCN}\\to\\ce{ArCN}\\quad\\ce{KI}\\to\\ce{ArI}\\quad\\ce{H2O}\\to\\ce{ArOH}\\quad\\ce{H3PO2}\\to\\ce{ArH}",
+    "legend": [
+      "CuX = Sandmeyer; Cu + HX = Gattermann"
+    ],
+    "back": "Nitrogen gas is lost each time; $\\ce{HBF4}$ then heat gives ArF.",
+    "stars": 3,
+    "tags": [
+      "named"
+    ]
+  },
+  {
+    "id": "coupling",
+    "kind": "formula",
+    "title": "Coupling reaction",
+    "tex": "\\ce{C6H5N2+Cl- + C6H5OH ->[OH-] p-HOC6H4N=NC6H5}",
+    "legend": [
+      "product = p-hydroxyazobenzene, orange"
+    ],
+    "back": "Attack at the para position; with aniline (weak acid) the yellow p-aminoazobenzene forms.",
+    "stars": 2,
+    "tags": [
+      "named"
+    ]
+  },
+  {
+    "id": "basicity-orders",
+    "kind": "formula",
+    "title": "Basicity in water",
+    "tex": "\\ce{(C2H5)2NH}>\\ce{(C2H5)3N}>\\ce{C2H5NH2}>\\ce{NH3}>\\ce{C6H5NH2}",
+    "legend": [
+      "methyl order = 2° > 1° > 3° > NH₃"
+    ],
+    "back": "Balance of inductive effect, solvation by H-bonding and crowding. Gas phase: 3° > 2° > 1°.",
+    "stars": 3,
+    "tags": [
+      "order"
+    ]
+  },
+  {
+    "id": "hinsberg",
+    "kind": "compare",
+    "title": "Hinsberg's test",
+    "tex": "1^\\circ\\ \\text{soluble}\\quad 2^\\circ\\ \\text{insoluble}\\quad 3^\\circ\\ \\text{no reaction}",
+    "back": "The primary product still has an acidic N–H, so it dissolves in alkali.",
+    "stars": 3,
+    "tags": [
+      "compare",
+      "test"
+    ]
+  },
+  {
+    "id": "protect-aniline",
+    "kind": "process",
+    "title": "Why acetylate aniline first?",
+    "tex": "\\ce{C6H5NH2 ->[(CH3CO)2O] C6H5NHCOCH3 ->[Br2] p-Br\\ product ->[H3O+] p-BrC6H4NH2}",
+    "back": "Acetylation tames the –NH₂ group: no oxidation, no anilinium ion, mainly the para product.",
+    "stars": 2,
+    "tags": [
+      "process"
+    ]
+  },
+  {
+    "id": "do-ek-teen",
+    "kind": "mnemonic",
+    "title": "Do–Ek–Teen, Do–Teen–Ek",
+    "tex": "\\text{Me: }2^\\circ>1^\\circ>3^\\circ\\qquad\\text{Et: }2^\\circ>3^\\circ>1^\\circ",
+    "back": "Methylamines do–ek–teen; ethylamines do–teen–ek. Ammonia comes after all of them, aniline last.",
+    "tags": [
+      "mnemonic"
+    ]
+  }
+]
