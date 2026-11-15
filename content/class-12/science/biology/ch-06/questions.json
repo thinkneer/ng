@@ -356,5 +356,24 @@
         "marks": 1
       }
     ]
+  },
+  {
+    "id": "bio-06-q15",
+    "chapter": "ch-06",
+    "type": "ar",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ-style",
+    "topic": "Analogous organs",
+    "stem": "**Assertion (A):** Wings of a butterfly and of a bird are homologous organs.<br>**Reason (R):** The wings of a butterfly and a bird perform similar functions.",
+    "options": [
+      "Both A and R are true, and R is the correct explanation of A.",
+      "Both A and R are true, but R is not the correct explanation of A.",
+      "A is true, but R is false.",
+      "A is false, but R is true."
+    ],
+    "answer": "D",
+    "hint": "Same structure, or same function?",
+    "model_answer": "**(d).** A is false: they are analogous (different structure, same function); R is true."
   }
 ]

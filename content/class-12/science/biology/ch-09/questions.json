@@ -360,5 +360,24 @@
     "answer": "C",
     "hint": "Fungal walls are made of chitin.",
     "model_answer": "**(c) Chitinase.** Lysozyme is for bacteria and cellulase for plant cells."
+  },
+  {
+    "id": "bio-09-q15",
+    "chapter": "ch-09",
+    "type": "ar",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ-style",
+    "topic": "pBR322",
+    "stem": "**Assertion (A):** Inserting foreign DNA at the BamHI site of pBR322 makes the cells lose tetracycline resistance.<br>**Reason (R):** The BamHI site lies within the ampicillin-resistance gene of pBR322.",
+    "options": [
+      "Both A and R are true, and R is the correct explanation of A.",
+      "Both A and R are true, but R is not the correct explanation of A.",
+      "A is true, but R is false.",
+      "A is false, but R is true."
+    ],
+    "answer": "C",
+    "hint": "Which resistance gene contains BamHI?",
+    "model_answer": "**(c).** A is true; R is false: BamHI lies in the tetracycline-resistance gene (tetᴿ)."
   }
 ]

@@ -311,5 +311,43 @@
         "marks": 1
       }
     ]
+  },
+  {
+    "id": "bio-13-q13",
+    "chapter": "ch-13",
+    "type": "ar",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ-style",
+    "topic": "Latitudinal gradient",
+    "stem": "**Assertion (A):** Tropical regions have greater species diversity than temperate regions.<br>**Reason (R):** Tropical latitudes have remained relatively undisturbed for millions of years, giving long evolutionary time.",
+    "options": [
+      "Both A and R are true, and R is the correct explanation of A.",
+      "Both A and R are true, but R is not the correct explanation of A.",
+      "A is true, but R is false.",
+      "A is false, but R is true."
+    ],
+    "answer": "A",
+    "hint": "One of the three NCERT explanations.",
+    "model_answer": "**(a).** Both true; a long undisturbed time for speciation is one explanation of tropical richness."
+  },
+  {
+    "id": "bio-13-q14",
+    "chapter": "ch-13",
+    "type": "ar",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ-style",
+    "topic": "Conservation",
+    "stem": "**Assertion (A):** Ex situ conservation protects whole ecosystems.<br>**Reason (R):** Zoos and botanical gardens are examples of ex situ conservation.",
+    "options": [
+      "Both A and R are true, and R is the correct explanation of A.",
+      "Both A and R are true, but R is not the correct explanation of A.",
+      "A is true, but R is false.",
+      "A is false, but R is true."
+    ],
+    "answer": "D",
+    "hint": "Which approach protects the habitat itself?",
+    "model_answer": "**(d).** A is false (in situ conservation protects ecosystems; ex situ protects chosen species); R is true."
   }
 ]

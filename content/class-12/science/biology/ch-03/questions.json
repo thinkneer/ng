@@ -289,5 +289,43 @@
         "marks": 1
       }
     ]
+  },
+  {
+    "id": "bio-03-q12",
+    "chapter": "ch-03",
+    "type": "ar",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ-style",
+    "topic": "IUDs",
+    "stem": "**Assertion (A):** Copper-releasing IUDs help prevent conception.<br>**Reason (R):** Cu ions suppress sperm motility and the fertilising capacity of sperms.",
+    "options": [
+      "Both A and R are true, and R is the correct explanation of A.",
+      "Both A and R are true, but R is not the correct explanation of A.",
+      "A is true, but R is false.",
+      "A is false, but R is true."
+    ],
+    "answer": "A",
+    "hint": "What do the copper ions do?",
+    "model_answer": "**(a).** Both true; the action of Cu ions is why copper IUDs work."
+  },
+  {
+    "id": "bio-03-q13",
+    "chapter": "ch-03",
+    "type": "ar",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ-style",
+    "topic": "MTP",
+    "stem": "**Assertion (A):** MTP is considered relatively safe during the first trimester.<br>**Reason (R):** MTP was legalised in India in 1971.",
+    "options": [
+      "Both A and R are true, and R is the correct explanation of A.",
+      "Both A and R are true, but R is not the correct explanation of A.",
+      "A is true, but R is false.",
+      "A is false, but R is true."
+    ],
+    "answer": "B",
+    "hint": "Does the year of the law explain the safety?",
+    "model_answer": "**(b).** Both are true, but legalisation in 1971 is not the reason first-trimester MTP is safer."
   }
 ]

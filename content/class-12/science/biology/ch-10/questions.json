@@ -370,5 +370,24 @@
     "answer": "B",
     "hint": "A milk protein, 2.4 g per litre.",
     "model_answer": "**(b) Human α-lactalbumin** (2.4 g per litre), nutritionally more balanced for human babies."
+  },
+  {
+    "id": "bio-10-q16",
+    "chapter": "ch-10",
+    "type": "ar",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ-style",
+    "topic": "Bt toxin",
+    "stem": "**Assertion (A):** The Bt toxin does not kill the bacterium *Bacillus thuringiensis* itself.<br>**Reason (R):** The toxin is stored as an inactive protoxin and is activated only in the alkaline gut of an insect.",
+    "options": [
+      "Both A and R are true, and R is the correct explanation of A.",
+      "Both A and R are true, but R is not the correct explanation of A.",
+      "A is true, but R is false.",
+      "A is false, but R is true."
+    ],
+    "answer": "A",
+    "hint": "In what form is the toxin kept?",
+    "model_answer": "**(a).** Both true; the inactive protoxin form is why the bacterium is safe."
   }
 ]

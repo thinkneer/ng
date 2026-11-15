@@ -356,5 +356,24 @@
         "marks": 0.5
       }
     ]
+  },
+  {
+    "id": "bio-07-q15",
+    "chapter": "ch-07",
+    "type": "ar",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ-style",
+    "topic": "Immunological memory",
+    "stem": "**Assertion (A):** A person who has had chickenpox rarely gets it again.<br>**Reason (R):** Acquired immunity has memory, so a second exposure gives a fast, strong secondary response.",
+    "options": [
+      "Both A and R are true, and R is the correct explanation of A.",
+      "Both A and R are true, but R is not the correct explanation of A.",
+      "A is true, but R is false.",
+      "A is false, but R is true."
+    ],
+    "answer": "A",
+    "hint": "What is special about acquired immunity?",
+    "model_answer": "**(a).** Both true; memory of the first infection explains the protection."
   }
 ]

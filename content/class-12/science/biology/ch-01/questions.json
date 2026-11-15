@@ -349,5 +349,43 @@
         "marks": 1
       }
     ]
+  },
+  {
+    "id": "bio-01-q14",
+    "chapter": "ch-01",
+    "type": "ar",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ-style",
+    "topic": "Geitonogamy",
+    "stem": "**Assertion (A):** Geitonogamy is functionally cross-pollination but genetically similar to autogamy.<br>**Reason (R):** In geitonogamy, pollen comes from another flower of the same plant.",
+    "options": [
+      "Both A and R are true, and R is the correct explanation of A.",
+      "Both A and R are true, but R is not the correct explanation of A.",
+      "A is true, but R is false.",
+      "A is false, but R is true."
+    ],
+    "answer": "A",
+    "hint": "Think of where the pollen comes from and whose genes it carries.",
+    "model_answer": "**(a).** An agent carries pollen between flowers (like cross-pollination), but both flowers are on one plant, so the genes are the same: R explains A."
+  },
+  {
+    "id": "bio-01-q15",
+    "chapter": "ch-01",
+    "type": "ar",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ-style",
+    "topic": "Apomixis",
+    "stem": "**Assertion (A):** Hybrid seeds made into apomicts keep the hybrid characters year after year.<br>**Reason (R):** Apomixis produces seeds without fertilisation, so there is no segregation.",
+    "options": [
+      "Both A and R are true, and R is the correct explanation of A.",
+      "Both A and R are true, but R is not the correct explanation of A.",
+      "A is true, but R is false.",
+      "A is false, but R is true."
+    ],
+    "answer": "A",
+    "hint": "What causes segregation of characters?",
+    "model_answer": "**(a).** Without meiosis and fertilisation there is no segregation, so the hybrid characters are kept: R explains A."
   }
 ]

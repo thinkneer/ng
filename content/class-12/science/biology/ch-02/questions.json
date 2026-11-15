@@ -353,5 +353,43 @@
         "marks": 1
       }
     ]
+  },
+  {
+    "id": "bio-02-q14",
+    "chapter": "ch-02",
+    "type": "ar",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ-style",
+    "topic": "Scrotum",
+    "stem": "**Assertion (A):** The testes lie outside the abdominal cavity, in the scrotum.<br>**Reason (R):** The scrotum keeps the testes 2–2.5 °C below body temperature, as spermatogenesis needs.",
+    "options": [
+      "Both A and R are true, and R is the correct explanation of A.",
+      "Both A and R are true, but R is not the correct explanation of A.",
+      "A is true, but R is false.",
+      "A is false, but R is true."
+    ],
+    "answer": "A",
+    "hint": "Why would a lower temperature matter?",
+    "model_answer": "**(a).** Both true; the temperature need is the reason for the scrotal position."
+  },
+  {
+    "id": "bio-02-q15",
+    "chapter": "ch-02",
+    "type": "ar",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ-style",
+    "topic": "Fertilisation",
+    "stem": "**Assertion (A):** The secondary oocyte completes meiosis II only after a sperm enters it.<br>**Reason (R):** Changes in the zona pellucida block the entry of additional sperms.",
+    "options": [
+      "Both A and R are true, and R is the correct explanation of A.",
+      "Both A and R are true, but R is not the correct explanation of A.",
+      "A is true, but R is false.",
+      "A is false, but R is true."
+    ],
+    "answer": "B",
+    "hint": "Are both statements about the same event?",
+    "model_answer": "**(b).** Both are true NCERT facts, but the block to polyspermy does not explain when meiosis II is completed."
   }
 ]

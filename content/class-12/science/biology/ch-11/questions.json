@@ -269,5 +269,43 @@
         "marks": 1
       }
     ]
+  },
+  {
+    "id": "bio-11-q12",
+    "chapter": "ch-11",
+    "type": "ar",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ-style",
+    "topic": "Logistic growth",
+    "stem": "**Assertion (A):** The logistic growth model is considered more realistic than the exponential model.<br>**Reason (R):** Resources for growth are finite for most animal populations.",
+    "options": [
+      "Both A and R are true, and R is the correct explanation of A.",
+      "Both A and R are true, but R is not the correct explanation of A.",
+      "A is true, but R is false.",
+      "A is false, but R is true."
+    ],
+    "answer": "A",
+    "hint": "What limits real populations?",
+    "model_answer": "**(a).** Limited resources make growth level off at K, which the logistic model shows: R explains A."
+  },
+  {
+    "id": "bio-11-q13",
+    "chapter": "ch-11",
+    "type": "ar",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ-style",
+    "topic": "Commensalism",
+    "stem": "**Assertion (A):** Commensalism is a (+, 0) interaction.<br>**Reason (R):** In commensalism, both the interacting species benefit.",
+    "options": [
+      "Both A and R are true, and R is the correct explanation of A.",
+      "Both A and R are true, but R is not the correct explanation of A.",
+      "A is true, but R is false.",
+      "A is false, but R is true."
+    ],
+    "answer": "C",
+    "hint": "Which interaction has both species benefiting?",
+    "model_answer": "**(c).** A is true; R is false: both benefit in mutualism, not commensalism."
   }
 ]

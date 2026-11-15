@@ -273,5 +273,43 @@
         "marks": 1
       }
     ]
+  },
+  {
+    "id": "bio-12-q12",
+    "chapter": "ch-12",
+    "type": "ar",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ-style",
+    "topic": "Pyramid of energy",
+    "stem": "**Assertion (A):** The pyramid of energy is always upright.<br>**Reason (R):** Some energy is lost as heat at every trophic level.",
+    "options": [
+      "Both A and R are true, and R is the correct explanation of A.",
+      "Both A and R are true, but R is not the correct explanation of A.",
+      "A is true, but R is false.",
+      "A is false, but R is true."
+    ],
+    "answer": "A",
+    "hint": "Can energy increase up a food chain?",
+    "model_answer": "**(a).** Energy decreases at each step because of heat loss, so the pyramid can never be inverted: R explains A."
+  },
+  {
+    "id": "bio-12-q13",
+    "chapter": "ch-12",
+    "type": "ar",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ-style",
+    "topic": "Decomposition",
+    "stem": "**Assertion (A):** Decomposition is faster in detritus rich in lignin and chitin.<br>**Reason (R):** Warm and moist conditions favour decomposition.",
+    "options": [
+      "Both A and R are true, and R is the correct explanation of A.",
+      "Both A and R are true, but R is not the correct explanation of A.",
+      "A is true, but R is false.",
+      "A is false, but R is true."
+    ],
+    "answer": "D",
+    "hint": "Which kind of detritus breaks down slowly?",
+    "model_answer": "**(d).** A is false (lignin and chitin slow decomposition); R is true."
   }
 ]

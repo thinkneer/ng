@@ -386,5 +386,24 @@
         "marks": 1
       }
     ]
+  },
+  {
+    "id": "bio-08-q16",
+    "chapter": "ch-08",
+    "type": "ar",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ-style",
+    "topic": "Baculoviruses",
+    "stem": "**Assertion (A):** Baculoviruses are well suited to integrated pest management.<br>**Reason (R):** Baculoviruses are species-specific, narrow-spectrum insecticides.",
+    "options": [
+      "Both A and R are true, and R is the correct explanation of A.",
+      "Both A and R are true, but R is not the correct explanation of A.",
+      "A is true, but R is false.",
+      "A is false, but R is true."
+    ],
+    "answer": "A",
+    "hint": "Who else do they harm?",
+    "model_answer": "**(a).** Because they spare non-target organisms, they suit IPM: R explains A."
   }
 ]
