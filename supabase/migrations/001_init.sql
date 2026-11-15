@@ -1,5 +1,6 @@
 -- ng · Supabase schema, v1 (14 Nov 2026)
 -- Paste the whole file into the Supabase dashboard → SQL editor → Run. Safe to run once on a fresh project.
+-- Then ALWAYS run 002_security.sql (and any later numbered file) after it, in order.
 -- Covers: profiles with roles (admin / teacher / student) and approval; shared notes + comments;
 -- teacher exams + attempts; the live quiz game. Everything is behind row-level security.
 -- Nothing personal is stored here except the sign-in email, which stays in auth.users (never shown in the app).
@@ -8,12 +9,14 @@ create extension if not exists pgcrypto;
 
 -- Re-runnable: drops everything this file creates (member data included) and builds it again.
 drop trigger if exists on_auth_user_created on auth.users;
+drop view if exists public.members;  -- from 002_security.sql
 drop table if exists public.live_answers, public.live_players, public.live_keys, public.live_rooms,
   public.exam_attempts, public.exams, public.comments, public.shared_notes, public.profiles cascade;
 drop function if exists public.handle_new_user(), public.nickname_available(text), public.claim_session(text),
   public.my_role(), public.is_admin(), public.is_staff(), public.is_member(),
   public.live_new_code(), public.live_create(text, text, text, int), public.live_join(text), public.live_next(uuid, jsonb, text, int),
-  public.live_reveal(uuid), public.live_tally(uuid, text), public.live_answered(uuid), public.live_end(uuid) cascade;
+  public.live_reveal(uuid), public.live_tally(uuid, text), public.live_answered(uuid), public.live_end(uuid),
+  public.exam_attempt_guard() cascade;  -- the last one comes from 002_security.sql
 
 -- ------------------------------------------------------------------ profiles
 create table public.profiles (
