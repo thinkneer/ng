@@ -640,6 +640,15 @@
    "prompt": "In a cis isomer, are the like ligands neighbours or opposite?"
   },
   {
+   "id": "strong-pairs-inside",
+   "title": "Strong ligand, paired and inside",
+   "trick": "**Strong** ligands are strict parents: they make the electrons **pair up and stay inside**",
+   "meaning": [
+    "Strong-field ligand → d electrons pair → inner (n−1)d orbitals used: $d^2sp^3$, low spin. Weak ligand → no pairing → outer nd orbitals: $sp^3d^2$, high spin."
+   ],
+   "prompt": "Does a strong-field ligand give an inner- or outer-orbital complex?"
+  },
+  {
    "id": "spectrochemical-series",
    "title": "Spectrochemical series, weak to strong",
    "trick": "**I B**ought **S**ome **C**ool **S**ummer **F**rocks; **O**nly **O**ne **W**as **N**ice, **E**ven **N**ow **E**veryone **C**omplains **C**ost",

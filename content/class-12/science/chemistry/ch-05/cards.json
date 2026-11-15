@@ -171,5 +171,17 @@
       "compare",
       "3-mark"
     ]
+  },
+  {
+    "id": "vbt-boxes-co",
+    "kind": "figure",
+    "title": "VBT boxes: [Co(NH₃)₆]³⁺ vs [CoF₆]³⁻",
+    "svg": "ref: notes#vbt-boxes-co",
+    "back": "NH₃ pairs 3d⁶ → d²sp³, inner orbital, diamagnetic. F⁻ does not → sp³d², outer orbital, 4 unpaired, paramagnetic.",
+    "stars": 3,
+    "tags": [
+      "diagram",
+      "3-mark"
+    ]
   }
 ]

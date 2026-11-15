@@ -13,14 +13,17 @@ Stars are estimates, not exact counts: ★★★ asked in most years · ★★ o
 
 ## Must-know lines and definitions
 
+- **Werner conductivity evidence:** $\ce{[Co(NH3)6]Cl3}$ behaves as a 1:3 electrolyte.
+- **Coordination number counting rule:** only σ bonds count, never π bonds.
+- **Five-coordinate hybridisation:** $sp^3d$ gives trigonal bipyramidal, as in $\ce{[Fe(CO)5]}$.
 - **Primary valency (Werner):** ionisable; equals the oxidation state; satisfied by negative ions.
 - **Secondary valency (Werner):** non-ionisable; equals the coordination number; directional, so it fixes the shape.
 - **Coordination entity:** central metal atom or ion bonded to a fixed number of ligands.
-- **Ligand:** ion or molecule that donates an electron pair to the central metal.
+- **Ligand in a complex:** ion or molecule that donates an electron pair to the central metal.
 - **Coordination number:** number of ligand donor atoms directly bonded to the central metal.
-- **Denticity:** number of donor atoms through which one ligand binds the metal.
+- **Denticity of a ligand:** number of donor atoms through which one ligand binds the metal.
 - **Ambidentate ligand:** can bind through two different atoms, as $\ce{NO2-}$/$\ce{ONO-}$ and $\ce{SCN-}$/$\ce{NCS-}$.
-- **Chelate:** ring formed when a polydentate ligand binds one metal ion through two or more atoms.
+- **Chelate complex:** ring formed when a polydentate ligand binds one metal ion through two or more atoms.
 - **Chelate effect:** chelate complexes are more stable than similar complexes of unidentate ligands.
 - **Homoleptic complex:** metal bound to only one kind of donor group.
 - **Heteroleptic complex:** metal bound to more than one kind of donor group.
@@ -29,7 +32,7 @@ Stars are estimates, not exact counts: ★★★ asked in most years · ★★ o
 - **Spectrochemical series:** ligands arranged in order of increasing field strength, that is increasing $\Delta_o$.
 - **Low-spin complex:** $\Delta_o>P$; electrons pair in $t_{2g}$ (strong-field ligand).
 - **High-spin complex:** $\Delta_o<P$; electrons enter $e_g$ before pairing (weak-field ligand).
-- **Synergic bonding:** σ donation from CO to metal and π back-donation from metal to CO strengthen each other.
+- **Synergic bonding:** σ donation from CO plus π back-donation to CO; each strengthens the other.
 
 ## Key formulas
 
@@ -125,7 +128,7 @@ Draw the octahedron: **trans** (Cl at 180$^\circ$) — has a plane of symmetry, 
 - Isomers of $\ce{[M(AA)2B2]}$: three; trans, and a cis pair of optical isomers.
 - Test for ionisation isomers $\ce{[Co(NH3)5Br]SO4}$ and $\ce{[Co(NH3)5SO4]Br}$: $\ce{BaCl2}$ gives white precipitate with the first.
 - Linkage isomerism needs: an ambidentate ligand.
-- cis-Platin: cis-$\ce{[Pt(NH3)2Cl2]}$, used against cancer.
+- cis-Platin drug: cis-$\ce{[Pt(NH3)2Cl2]}$, anticancer drug.
 - Wilkinson's catalyst: $\ce{[RhCl(PPh3)3]}$, for hydrogenation of alkenes.
 - Metals in haemoglobin, chlorophyll, vitamin $\ce{B12}$: Fe, Mg, Co.
 - Test for $\ce{Ni^2+}$: red precipitate with dimethylglyoxime (DMG).
