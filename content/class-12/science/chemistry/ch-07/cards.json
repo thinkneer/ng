@@ -1,0 +1,145 @@
+[
+  {
+    "id": "phenoxide-resonance",
+    "kind": "figure",
+    "title": "Phenoxide resonance",
+    "svg": "ref: notes#phenoxide-resonance",
+    "back": "Charge spread over O and the ortho and para carbons: phenoxide is stabilised, so phenol (p$K_a$ 10) is far more acidic than ethanol (15.9).",
+    "stars": 3,
+    "tags": [
+      "diagram",
+      "reason"
+    ]
+  },
+  {
+    "id": "hydration",
+    "kind": "formula",
+    "title": "Propene to two alcohols",
+    "tex": "\\ce{CH3CH=CH2 ->[H2O/H+] CH3CH(OH)CH3}\\qquad\\ce{->[B2H6][H2O2/OH-] CH3CH2CH2OH}",
+    "legend": [
+      "H₂O/H⁺ = Markovnikov",
+      "B₂H₆ then H₂O₂ = anti-Markovnikov"
+    ],
+    "back": "Acid hydration goes through a carbocation; hydroboration–oxidation does not.",
+    "stars": 2,
+    "tags": [
+      "equation"
+    ]
+  },
+  {
+    "id": "kolbe",
+    "kind": "formula",
+    "title": "Kolbe's reaction",
+    "tex": "\\ce{C6H5ONa ->[CO2, 400 K, 4-7 atm][H+] o-HOC6H4COOH}",
+    "legend": [
+      "product = salicylic acid"
+    ],
+    "back": "Phenoxide is reactive enough to be attacked by the weak electrophile $\\ce{CO2}$.",
+    "stars": 3,
+    "tags": [
+      "named"
+    ]
+  },
+  {
+    "id": "reimer-tiemann",
+    "kind": "formula",
+    "title": "Reimer–Tiemann reaction",
+    "tex": "\\ce{C6H5OH ->[CHCl3, aq. NaOH][H+] o-HOC6H4CHO}",
+    "legend": [
+      "product = salicylaldehyde"
+    ],
+    "back": "Puts –CHO at the ortho position.",
+    "stars": 3,
+    "tags": [
+      "named"
+    ]
+  },
+  {
+    "id": "williamson",
+    "kind": "formula",
+    "title": "Williamson synthesis",
+    "tex": "\\ce{R-X + R{'}-ONa -> R-O-R{'} + NaX}",
+    "legend": [
+      "R–X = primary (S_N2)"
+    ],
+    "back": "A tertiary halide gives an alkene instead. Put the bulky group on the alkoxide.",
+    "stars": 3,
+    "tags": [
+      "named"
+    ]
+  },
+  {
+    "id": "dehydration-temps",
+    "kind": "formula",
+    "title": "Ethanol + conc. H₂SO₄",
+    "tex": "443\\text{ K}\\to\\ce{CH2=CH2}\\qquad 413\\text{ K}\\to\\ce{C2H5OC2H5}",
+    "legend": [
+      "T = decides alkene or ether"
+    ],
+    "back": "Higher temperature: elimination (alkene). Lower temperature, excess alcohol: ether.",
+    "stars": 2,
+    "tags": [
+      "equation"
+    ]
+  },
+  {
+    "id": "ether-hi",
+    "kind": "formula",
+    "title": "Anisole + HI",
+    "tex": "\\ce{C6H5OCH3 + HI -> C6H5OH + CH3I}",
+    "legend": [
+      "bond broken = O–CH₃"
+    ],
+    "back": "The O–aryl bond has partial double-bond character and never breaks, so iodobenzene is never formed.",
+    "stars": 3,
+    "tags": [
+      "equation"
+    ]
+  },
+  {
+    "id": "acid-order",
+    "kind": "formula",
+    "title": "Acid strength order",
+    "tex": "\\text{picric}>\\text{nitrophenols}>\\ce{C6H5OH}>\\text{cresols}>\\ce{H2O}>\\ce{C2H5OH}",
+    "legend": [
+      "electron-withdrawing group = stronger acid"
+    ],
+    "back": "Phenol dissolves in NaOH but does not release $\\ce{CO2}$ from $\\ce{NaHCO3}$.",
+    "stars": 3,
+    "tags": [
+      "order"
+    ]
+  },
+  {
+    "id": "kolbe-vs-rt",
+    "kind": "compare",
+    "title": "Kolbe vs Reimer–Tiemann",
+    "tex": "\\ce{CO2}\\to\\ce{-COOH}\\qquad\\ce{CHCl3}\\to\\ce{-CHO}",
+    "back": "Kolbe: phenoxide + $\\ce{CO2}$ → salicylic acid. Reimer–Tiemann: phenol + chloroform + NaOH → salicylaldehyde.",
+    "stars": 3,
+    "tags": [
+      "compare"
+    ]
+  },
+  {
+    "id": "cumene-process",
+    "kind": "process",
+    "title": "Cumene process",
+    "tex": "\\text{cumene}\\xrightarrow{\\ce{O2}}\\text{hydroperoxide}\\xrightarrow{\\ce{H+}}\\ce{C6H5OH}+\\ce{(CH3)2CO}",
+    "back": "The industrial route to phenol; acetone is the by-product.",
+    "stars": 2,
+    "tags": [
+      "process"
+    ]
+  },
+  {
+    "id": "lucas-twinkle",
+    "kind": "mnemonic",
+    "title": "Lucas test",
+    "tex": "3^\\circ\\ \\text{at once}\\quad 2^\\circ\\ \\sim5\\text{ min}\\quad 1^\\circ\\ \\text{none}",
+    "back": "Tertiary in a Twinkle, Secondary in Some minutes, Primary Plays dead.",
+    "tags": [
+      "mnemonic"
+    ]
+  }
+]

@@ -580,6 +580,65 @@
    "prompt": "Recite the spectrochemical series from the weakest ligand."
   }
  ],
+ "chemistry/ch-06": [
+  {
+   "id": "k-karbon",
+   "title": "KCN or AgCN?",
+   "trick": "**K** attacks with **K**arbon; **Ag**ent silver goes through **N**itrogen",
+   "meaning": [
+    "KCN is ionic, so $\\ce{CN-}$ attacks through C and gives a nitrile, R–CN. AgCN is covalent, leaving only N free, so it gives an isocyanide, R–NC."
+   ],
+   "prompt": "Which gives the nitrile: KCN or AgCN?"
+  },
+  {
+   "id": "sn2-saath",
+   "title": "Remembering SN1 and SN2",
+   "trick": "**S$_\\text{N}$2 = saath-saath** (together); **S$_\\text{N}$1 = one at a time**",
+   "meaning": [
+    "S$_\\text{N}$2: the new bond forms and the old bond breaks **together**, in one step, with two species in the slow step.",
+    "S$_\\text{N}$1: the halide leaves **first**, alone, then the nucleophile arrives."
+   ],
+   "prompt": "In which mechanism do bond-making and bond-breaking happen together?"
+  },
+  {
+   "id": "aq-alc-koh",
+   "title": "Aqueous or alcoholic KOH?",
+   "trick": "**Aq**ueous gives **Al**cohol; **Alc**oholic gives **Alk**ene",
+   "meaning": [
+    "Aqueous KOH substitutes (–OH replaces –X); alcoholic KOH eliminates HX to form the more substituted alkene (Zaitsev)."
+   ],
+   "prompt": "What does alcoholic KOH do to a haloalkane?"
+  }
+ ],
+ "chemistry/ch-07": [
+  {
+   "id": "lucas-twinkle",
+   "title": "Lucas test timings",
+   "trick": "**T**ertiary in a **T**winkle, **S**econdary in **S**ome minutes, **P**rimary **P**lays dead",
+   "meaning": [
+    "3° turns cloudy at once, 2° in about five minutes, 1° not at all at room temperature."
+   ],
+   "prompt": "Which alcohol gives turbidity at once with Lucas reagent?"
+  },
+  {
+   "id": "kolbe-k",
+   "title": "Kolbe or Reimer–Tiemann?",
+   "trick": "**Kolbe** puts in the **COOH** (both have a hard K/C sound); **R**eimer–**T**iemann gets an alde**H**yde from c**H**loroform",
+   "meaning": [
+    "Kolbe: $\\ce{CO2}$ in, salicylic **acid** out. Reimer–Tiemann: chloroform in, salicyl**aldehyde** out."
+   ],
+   "prompt": "Which reaction makes salicylaldehyde?"
+  },
+  {
+   "id": "ortho-own-bond",
+   "title": "Why o-nitrophenol is steam-volatile",
+   "trick": "**O**rtho keeps its hydrogen bond at h**O**me",
+   "meaning": [
+    "In o-nitrophenol the H-bond is inside one molecule (intramolecular), so molecules do not stick together and it distils with steam; the para isomer H-bonds to its neighbours."
+   ],
+   "prompt": "Why can o-nitrophenol be steam-distilled but not p-nitrophenol?"
+  }
+ ],
  "biology/ch-01": [
   {
    "id": "ch01-anther-wall",

@@ -83,13 +83,65 @@ This one reaction makes many families. Aqueous KOH gives alcohols, sodium alkoxi
 
 *How* the swap happens matters, and there are two routes. Take bromomethane and hydroxide ion. Experiment shows the rate depends on both concentrations: rate $=k[\ce{CH3Br}][\ce{OH-}]$. So both species are involved in the slow step. The picture is a single step: the hydroxide approaches the carbon from the side *opposite* the bromine, and as the new C–O bond forms, the C–Br bond breaks. For an instant the carbon is partly bonded to five groups, a transition state. This is the **S$_\text{N}$2** mechanism: substitution, nucleophilic, bimolecular.
 
-**Figure 6.1 (S$_\text{N}$2 mechanism):** $\ce{HO-}$ approaching a carbon from the left with Br on the right; a transition state with the three H atoms in a plane and partial bonds to both O and Br; then the product with OH on the left and the three H atoms flipped to the right, like an umbrella turned inside out.
+```ng-figure
+id: sn2-mechanism
+title: SN2 mechanism
+svg:
+<svg viewBox="0 0 400 150" role="img" aria-label="SN2 mechanism: backside attack, transition state, inversion" fill="none" stroke="currentColor" stroke-width="1.5" font-size="11">
+<path d="M64,70 H86"/><path d="M54,63 L44,44"/><path d="M54,78 L44,98"/><path d="M51,70 L36,70" stroke-dasharray="2 2"/><path d="M20,60 Q36,38 52,58" stroke-width="1"/><path d="M47.7,55.5L52,58L52.0,53.0" stroke-width="1"/><path d="M75,64 Q86,52 96,62" stroke-width="1"/><path d="M91.7,59.5L96,62L96.0,57.0" stroke-width="1"/><path d="M108,70 H124" stroke-width="1"/><path d="M119.7,72.5L124,70L119.7,67.5" stroke-width="1"/><path d="M268,70 H282" stroke-width="1"/><path d="M277.7,72.5L282,70L277.7,67.5" stroke-width="1"/><path d="M140,26 H134 V122 H140 M252,26 H258 V122 H252" stroke-width="1"/><path d="M164,70 H184" stroke-dasharray="3 3"/><path d="M208,70 H228" stroke-dasharray="3 3"/><path d="M196,60 V40"/><path d="M192,80 L182,100"/><path d="M200,80 L210,100"/><path d="M304,70 H322"/><path d="M338,63 L348,44"/><path d="M338,78 L348,98"/><path d="M341,70 L356,70" stroke-dasharray="2 2"/>
+<g fill="currentColor" stroke="none"><text x="14" y="74" text-anchor="middle">HO⁻</text><text x="58" y="74" text-anchor="middle">C</text><text x="98" y="74" text-anchor="middle">Br</text><text x="40" y="40" text-anchor="middle" font-size="10">H</text><text x="40" y="108" text-anchor="middle" font-size="10">H</text><text x="31" y="82" text-anchor="middle" font-size="10">H</text><text x="262" y="30" font-size="10">‡ −</text><text x="152" y="74" text-anchor="middle">HO</text><text x="196" y="74" text-anchor="middle">C</text><text x="240" y="74" text-anchor="middle">Br</text><text x="196" y="34" text-anchor="middle" font-size="10">H</text><text x="178" y="110" text-anchor="middle" font-size="10">H</text><text x="214" y="110" text-anchor="middle" font-size="10">H</text><text x="196" y="140" text-anchor="middle" font-size="9">transition state</text><text x="292" y="74" text-anchor="middle">HO</text><text x="332" y="74" text-anchor="middle">C</text><text x="352" y="40" text-anchor="middle" font-size="10">H</text><text x="352" y="108" text-anchor="middle" font-size="10">H</text><text x="362" y="82" text-anchor="middle" font-size="10">H</text><text x="370" y="132" text-anchor="middle" font-size="10">+ Br⁻</text></g>
+</svg>
+caption: Figure 6.1 One step: the nucleophile attacks from the back as bromide leaves, and the three H atoms flip like an umbrella in the wind.
+part: 16, 92 | Nucleophile, HO⁻ | Attacks the δ+ carbon from the side opposite to Br.
+part: 98, 92 | Leaving group | Br leaves with the bonding pair as Br⁻.
+part: 196, 128 | Transition state | C partly bonded to both O and Br; the three H lie in one plane.
+part: 322, 96 | Inverted product | The H atoms now point the other way: inversion of configuration.
+```
 
 Because the nucleophile must reach the back of the carbon, bulky groups get in its way. That gives the reactivity order.
 
 :::formula Reactivity in SN2
 S$_\text{N}$2 reactivity: $\ce{CH3X}$ > 1° > 2° > 3° (less crowding, faster attack)
 :::
+
+```ng-steps
+id: sn2-steps
+title: SN2, step by step
+svg:
+<svg viewBox="0 0 400 150" role="img" aria-label="SN2 mechanism step by step" fill="none" stroke="currentColor" stroke-width="1.5" font-size="11">
+<g data-step="1"><path d="M64,70 H86"/><path d="M54,63 L44,44"/><path d="M54,78 L44,98"/><path d="M51,70 L36,70" stroke-dasharray="2 2"/><path d="M20,60 Q36,38 52,58" stroke-width="1"/><path d="M47.7,55.5L52,58L52.0,53.0" stroke-width="1"/><path d="M75,64 Q86,52 96,62" stroke-width="1"/><path d="M91.7,59.5L96,62L96.0,57.0" stroke-width="1"/><g fill="currentColor" stroke="none"><text x="14" y="74" text-anchor="middle">HO⁻</text><text x="58" y="74" text-anchor="middle">C</text><text x="98" y="74" text-anchor="middle">Br</text><text x="40" y="40" text-anchor="middle" font-size="10">H</text><text x="40" y="108" text-anchor="middle" font-size="10">H</text><text x="31" y="82" text-anchor="middle" font-size="10">H</text></g></g><g data-step="2"><path d="M108,70 H124" stroke-width="1"/><path d="M119.7,72.5L124,70L119.7,67.5" stroke-width="1"/><path d="M140,26 H134 V122 H140 M252,26 H258 V122 H252" stroke-width="1"/><path d="M164,70 H184" stroke-dasharray="3 3"/><path d="M208,70 H228" stroke-dasharray="3 3"/><path d="M196,60 V40"/><path d="M192,80 L182,100"/><path d="M200,80 L210,100"/><g fill="currentColor" stroke="none"><text x="262" y="30" font-size="10">‡ −</text><text x="152" y="74" text-anchor="middle">HO</text><text x="196" y="74" text-anchor="middle">C</text><text x="240" y="74" text-anchor="middle">Br</text><text x="196" y="34" text-anchor="middle" font-size="10">H</text><text x="178" y="110" text-anchor="middle" font-size="10">H</text><text x="214" y="110" text-anchor="middle" font-size="10">H</text><text x="196" y="140" text-anchor="middle" font-size="9">transition state</text></g></g><g data-step="3"><path d="M268,70 H282" stroke-width="1"/><path d="M277.7,72.5L282,70L277.7,67.5" stroke-width="1"/><path d="M304,70 H322"/><path d="M338,63 L348,44"/><path d="M338,78 L348,98"/><path d="M341,70 L356,70" stroke-dasharray="2 2"/><g fill="currentColor" stroke="none"><text x="292" y="74" text-anchor="middle">HO</text><text x="332" y="74" text-anchor="middle">C</text><text x="352" y="40" text-anchor="middle" font-size="10">H</text><text x="352" y="108" text-anchor="middle" font-size="10">H</text><text x="362" y="82" text-anchor="middle" font-size="10">H</text><text x="370" y="132" text-anchor="middle" font-size="10">+ Br⁻</text></g></g>
+</svg>
+step: The nucleophile ($\ce{HO-}$) approaches the carbon from the side **opposite** to the bromine.
+step: In the **transition state** the C–O bond is forming while the C–Br bond is breaking; carbon is briefly bonded to five groups.
+step: Bromide leaves; the other three groups are flipped: **inversion of configuration**. Rate $=k[\ce{RX}][\ce{OH-}]$.
+```
+
+```ng-draw
+id: draw-sn2
+title: Draw the SN2 mechanism for bromomethane and hydroxide
+svg: ref: notes#sn2-mechanism
+time: 4
+```
+
+```ng-fill
+id: ambident-products
+title: One reagent, which product?
+cols: Haloalkane + reagent | Product
+row: R–X + KCN | [[R–CN, nitrile]]
+row: R–X + AgCN | [[R–NC, isocyanide]]
+row: R–X + $\ce{KNO2}$ | [[R–O–N=O, alkyl nitrite]]
+row: R–X + $\ce{AgNO2}$ | [[$\ce{R-NO2}$, nitroalkane]]
+row: R–X + aqueous KOH | [[R–OH, alcohol]]
+row: R–X + alcoholic KOH | [[alkene]]
+```
+
+```ng-mnemonic
+id: k-karbon
+title: KCN or AgCN?
+trick: **K** attacks with **K**arbon; **Ag**ent silver goes through **N**itrogen
+meaning: KCN is ionic, so $\ce{CN-}$ attacks through C and gives a nitrile, R–CN. AgCN is covalent, leaving only N free, so it gives an isocyanide, R–NC.
+prompt: Which gives the nitrile: KCN or AgCN?
+```
 
 **In one breath:** A nucleophile attacks the δ+ carbon and the halide leaves. In S$_\text{N}$2 this happens in one step from the back, the rate depends on both reactants, and crowding slows it: methyl > 1° > 2° > 3°.
 
@@ -119,6 +171,34 @@ Allylic and benzylic halides are a special case. They look primary, yet they rea
 (ii) **$\ce{CH2=CH-CH2Cl}$.** It ionises to the allyl carbocation, which is stabilised by resonance; the propyl carbocation has no such stabilisation. [1]
 :::
 
+```ng-steps
+id: sn1-steps
+title: SN1, step by step
+step: **Slow:** the C–Br bond breaks on its own, giving a planar carbocation: $\ce{(CH3)3C-Br -> (CH3)3C+ + Br-}$.
+step: **Fast:** the nucleophile attacks the flat carbocation from either face: $\ce{(CH3)3C+ + OH- -> (CH3)3C-OH}$.
+step: Only the halide is in the slow step, so rate $=k[\ce{RX}]$; a chiral substrate gives a **racemic** product.
+```
+
+```ng-compare
+id: sn1-vs-sn2
+title: SN1 vs SN2
+cols: SN1 | SN2
+row: Steps | two, through a carbocation | one, concerted
+row: Rate law | $k[\ce{RX}]$ | $k[\ce{RX}][\ce{Nu-}]$
+row: Reactivity | 3° > 2° > 1° | $\ce{CH3X}$ > 1° > 2° > 3°
+row: Stereochemistry | racemisation | inversion
+row: Favoured by | polar protic solvent, stable carbocation | strong nucleophile, little crowding
+```
+
+```ng-mnemonic
+id: sn2-saath
+title: Remembering SN1 and SN2
+trick: **S$_\text{N}$2 = saath-saath** (together); **S$_\text{N}$1 = one at a time**
+meaning: S$_\text{N}$2: the new bond forms and the old bond breaks **together**, in one step, with two species in the slow step.
+meaning: S$_\text{N}$1: the halide leaves **first**, alone, then the nucleophile arrives.
+prompt: In which mechanism do bond-making and bond-breaking happen together?
+```
+
 **In one breath:** S$_\text{N}$1 goes through a carbocation in two steps, with rate depending on the halide alone, so 3° > 2° > 1°, the reverse of S$_\text{N}$2. Allylic and benzylic halides are fast because of resonance.
 
 ## What happens in space: stereochemistry
@@ -134,6 +214,28 @@ Now the fingerprints. In S$_\text{N}$2 the nucleophile enters from the back whil
 :::tip
 S$_\text{N}$2 gives inversion; S$_\text{N}$1 gives racemisation. Students often write these the wrong way round, so tie each to its picture: backside attack, flat carbocation.
 :::
+
+```ng-figure
+id: butanol-enantiomers
+title: Enantiomers of butan-2-ol
+svg:
+<svg viewBox="0 0 320 160" role="img" aria-label="Enantiomers of butan-2-ol" fill="none" stroke="currentColor" stroke-width="1.5" font-size="11">
+<path d="M85,74 V44"/><path d="M79,84 L53,100"/><path d="M85,80 L115,112 L109,117 Z" fill="currentColor" stroke="none"/><path d="M91,82 L119,88" stroke-dasharray="3 2"/><path d="M235,74 V44"/><path d="M241,84 L267,100"/><path d="M235,80 L205,112 L211,117 Z" fill="currentColor" stroke="none"/><path d="M229,82 L201,88" stroke-dasharray="3 2"/><path d="M160,25 V140" stroke-dasharray="5 4" stroke-width="1"/>
+<g fill="currentColor" stroke="none"><text x="85" y="38" text-anchor="middle" font-size="10">OH</text><text x="41" y="106" text-anchor="middle" font-size="10">CH₃</text><text x="125" y="126" text-anchor="middle" font-size="10">C₂H₅</text><text x="129" y="92" text-anchor="middle" font-size="10">H</text><text x="85" y="84" text-anchor="middle" font-size="11">C</text><text x="235" y="38" text-anchor="middle" font-size="10">OH</text><text x="279" y="106" text-anchor="middle" font-size="10">CH₃</text><text x="195" y="126" text-anchor="middle" font-size="10">C₂H₅</text><text x="191" y="92" text-anchor="middle" font-size="10">H</text><text x="235" y="84" text-anchor="middle" font-size="11">C</text><text x="160" y="152" text-anchor="middle" font-size="9">mirror</text></g>
+</svg>
+caption: Mirror images that cannot be superimposed; they rotate plane-polarised light in opposite directions.
+part: 85, 58 | Chiral carbon | Bonded to four different groups: OH, H, CH₃, C₂H₅.
+part: 160, 60 | Mirror | The two forms are mirror images.
+part: 101, 99 | Wedge | Bond coming towards you.
+part: 124, 84 | Dashed bond | Bond going away from you.
+```
+
+```ng-draw
+id: draw-enantiomers
+title: Draw the two enantiomers of butan-2-ol
+svg: ref: notes#butanol-enantiomers
+time: 3
+```
 
 **In one breath:** A carbon with four different groups is chiral and gives mirror-image enantiomers that rotate polarised light oppositely. S$_\text{N}$2 inverts the configuration; S$_\text{N}$1, through a flat carbocation, gives a racemic mixture.
 
@@ -156,6 +258,22 @@ With sodium, two alkyl groups join.
 :::formula Wurtz reaction
 **Wurtz reaction:** $\ce{2R-X + 2Na ->[dry ether] R-R + 2NaX}$
 :::
+
+```ng-mnemonic
+id: aq-alc-koh
+title: Aqueous or alcoholic KOH?
+trick: **Aq**ueous gives **Al**cohol; **Alc**oholic gives **Alk**ene
+meaning: Aqueous KOH substitutes (–OH replaces –X); alcoholic KOH eliminates HX to form the more substituted alkene (Zaitsev).
+prompt: What does alcoholic KOH do to a haloalkane?
+```
+
+```ng-steps
+id: grignard-steps
+title: Making and using a Grignard reagent
+step: Haloalkane + Mg in **dry ether** → $\ce{R-MgX}$; carbon is now δ− and nucleophilic.
+step: Keep everything dry: water destroys it, $\ce{RMgX + H2O -> RH + Mg(OH)X}$.
+step: Use it to build carbon chains: with carbonyl compounds it gives alcohols (Ch 7), with $\ce{CO2}$ acids (Ch 8).
+```
 
 **In one breath:** Alcoholic KOH removes HX to give the more substituted alkene (Zaitsev). Magnesium in dry ether gives Grignard reagents, which water destroys; sodium couples two alkyl groups (Wurtz).
 
@@ -187,6 +305,16 @@ Step 1: $\ce{C6H6 + Cl2 ->[anhyd. FeCl3] C6H5Cl + HCl}$ (chlorobenzene) [1]
 
 Step 2: $\ce{2C6H5Cl + 2Na ->[dry ether] C6H5-C6H5 + 2NaCl}$ (Fittig reaction) [1]
 :::
+
+```ng-compare
+id: haloalkane-vs-haloarene
+title: Haloalkane vs haloarene
+cols: Haloalkane (R–X) | Haloarene (Ar–X)
+row: Carbon bearing X | $sp^3$ | $sp^2$
+row: C–X bond | normal single bond | partial double bond (resonance), shorter
+row: Nucleophilic substitution | easy (S$_\text{N}$1/S$_\text{N}$2) | very difficult (623 K, 300 atm for NaOH)
+row: Ring reactions | none | electrophilic substitution at ortho and para (deactivating)
+```
 
 **In one breath:** Resonance and sp$^2$ carbon make the aryl C–X bond strong, so haloarenes resist nucleophiles unless nitro groups sit at ortho or para; on the ring, halogens slow electrophilic substitution but send it ortho and para.
 

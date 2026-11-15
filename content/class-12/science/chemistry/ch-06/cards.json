@@ -1,0 +1,143 @@
+[
+  {
+    "id": "sn2-mechanism",
+    "kind": "figure",
+    "title": "SN2 mechanism",
+    "svg": "ref: notes#sn2-mechanism",
+    "back": "One step, backside attack, transition state with 5 groups, inversion. Rate $=k[\\ce{RX}][\\ce{Nu-}]$.",
+    "stars": 3,
+    "tags": [
+      "mechanism",
+      "3-mark"
+    ]
+  },
+  {
+    "id": "butanol-enantiomers",
+    "kind": "figure",
+    "title": "Enantiomers of butan-2-ol",
+    "svg": "ref: notes#butanol-enantiomers",
+    "back": "Chiral carbon (four different groups); non-superimposable mirror images; equal mixture = racemic, zero rotation.",
+    "stars": 2,
+    "tags": [
+      "diagram"
+    ]
+  },
+  {
+    "id": "finkelstein",
+    "kind": "formula",
+    "title": "Finkelstein reaction",
+    "tex": "\\ce{R-X + NaI ->[dry acetone] R-I + NaX}",
+    "legend": [
+      "X = Cl or Br"
+    ],
+    "back": "Works because NaCl and NaBr are insoluble in dry acetone and precipitate.",
+    "stars": 3,
+    "tags": [
+      "named"
+    ]
+  },
+  {
+    "id": "swarts",
+    "kind": "formula",
+    "title": "Swarts reaction",
+    "tex": "\\ce{R-Br + AgF -> R-F + AgBr}",
+    "legend": [
+      "other reagents = Hg₂F₂, CoF₂, SbF₃"
+    ],
+    "back": "The route to alkyl fluorides.",
+    "stars": 2,
+    "tags": [
+      "named"
+    ]
+  },
+  {
+    "id": "sandmeyer",
+    "kind": "formula",
+    "title": "Sandmeyer reaction",
+    "tex": "\\ce{ArN2+Cl- ->[CuCl/HCl] ArCl + N2}",
+    "legend": [
+      "CuBr/HBr = gives ArBr"
+    ],
+    "back": "Diazonium salt to aryl halide with a copper(I) salt.",
+    "stars": 3,
+    "tags": [
+      "named"
+    ]
+  },
+  {
+    "id": "wurtz",
+    "kind": "formula",
+    "title": "Wurtz, Wurtz–Fittig, Fittig",
+    "tex": "\\ce{2RX + 2Na ->[dry ether] R-R}\\quad \\ce{ArX + RX ->[Na] Ar-R}\\quad \\ce{2ArX ->[Na] Ar-Ar}",
+    "legend": [
+      "solvent = dry ether for all three"
+    ],
+    "back": "Wurtz: two alkyls. Wurtz–Fittig: aryl + alkyl. Fittig: two aryls.",
+    "stars": 3,
+    "tags": [
+      "named"
+    ]
+  },
+  {
+    "id": "dehydrohalogenation",
+    "kind": "formula",
+    "title": "β-Elimination (Zaitsev)",
+    "tex": "\\ce{CH3CH2CHBrCH3 ->[alc. KOH] CH3CH=CHCH3}\\ (\\text{major})",
+    "legend": [
+      "alcoholic KOH = elimination"
+    ],
+    "back": "Zaitsev: the alkene with more alkyl groups on the double bond is the major product.",
+    "stars": 3,
+    "tags": [
+      "equation"
+    ]
+  },
+  {
+    "id": "sn-orders",
+    "kind": "formula",
+    "title": "Reactivity orders",
+    "tex": "\\text{S}_\\text{N}2:\\ \\ce{CH3X}>1^\\circ>2^\\circ>3^\\circ\\qquad \\text{S}_\\text{N}1:\\ 3^\\circ>2^\\circ>1^\\circ",
+    "legend": [
+      "leaving group = I > Br > Cl > F"
+    ],
+    "back": "S$_\\text{N}$2 is slowed by crowding; S$_\\text{N}$1 is speeded by carbocation stability. Allylic and benzylic halides are fast by S$_\\text{N}$1.",
+    "stars": 3,
+    "tags": [
+      "order"
+    ]
+  },
+  {
+    "id": "sn1-vs-sn2",
+    "kind": "compare",
+    "title": "SN1 vs SN2",
+    "tex": "\\text{S}_\\text{N}1:\\ \\text{racemisation}\\qquad \\text{S}_\\text{N}2:\\ \\text{inversion}",
+    "back": "S$_\\text{N}$1: two steps, carbocation, rate $k[\\ce{RX}]$, 3° fastest. S$_\\text{N}$2: one step, rate $k[\\ce{RX}][\\ce{Nu-}]$, methyl fastest.",
+    "stars": 3,
+    "tags": [
+      "compare",
+      "3-mark"
+    ]
+  },
+  {
+    "id": "haloarene-resistance",
+    "kind": "compare",
+    "title": "Why haloarenes resist nucleophiles",
+    "tex": "\\ce{C6H5Cl}\\ \\text{vs}\\ \\ce{C2H5Cl}",
+    "back": "Resonance gives C–Cl partial double-bond character; $sp^2$ carbon; unstable phenyl cation; ring repels the nucleophile.",
+    "stars": 3,
+    "tags": [
+      "reason",
+      "3-mark"
+    ]
+  },
+  {
+    "id": "aq-alc-koh",
+    "kind": "mnemonic",
+    "title": "Aq → alcohol, Alc → alkene",
+    "tex": "\\text{aq. KOH}\\to\\ce{R-OH}\\qquad\\text{alc. KOH}\\to\\text{alkene}",
+    "back": "Aqueous KOH substitutes; alcoholic KOH eliminates.",
+    "tags": [
+      "mnemonic"
+    ]
+  }
+]
