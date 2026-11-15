@@ -53,6 +53,7 @@ Paper: **Thu 25 Mar 2027** (date sheet of 6 Nov 2026). Biology-only days 10–24
   - Unit VI (Ch 1–3): 15 questions done (ovule answer now carries the labelled SVG; oogenesis as a stacked list, not wide maths).
   - Unit VII (Ch 4–6): 15 questions done (transcription-unit and lac-operon SVGs added to those answers; the pesticide case shows the selection graphs). All Punnett squares are now KaTeX arrays: the table-header style uppercased allele letters (r → R) and the dihybrid table was too wide for a phone.
   - Unit VIII (Ch 7–8): 10 questions done (antibody, Plasmodium and sewage SVGs added to those answers).
+  - Unit IX (Ch 9–10): 10 questions done (EcoRI, PCR, pBR322, RNAi and insulin SVGs added to those answers).
 
 ## Corrections
 - Ch 1 pollen-grain germ-pore leader moved to an actual gap in the exine.
