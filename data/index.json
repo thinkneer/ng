@@ -3022,6 +3022,33 @@
                       "read_minutes": 4,
                       "cards": 13,
                       "mnemonics": 2
+                    },
+                    {
+                      "id": "prac-project",
+                      "number": 6,
+                      "title": "Practical: Project, Record and Exam Day",
+                      "unit": "P",
+                      "items": {
+                        "notes": true,
+                        "mustknow": true,
+                        "formulas": true,
+                        "cards": true
+                      },
+                      "marks_hint": "Project record + viva 5, practical record + viva 4 of the 30 practical marks",
+                      "summary": "Choosing and running an investigatory project, writing the project file and practical record, facing the viva, and a checklist for the practical exam day.",
+                      "questions": 0,
+                      "question_types": {},
+                      "diagrams": [],
+                      "blocks": {
+                        "mnemonic": 3,
+                        "steps": 2,
+                        "compare": 1,
+                        "fill": 1
+                      },
+                      "words": 1131,
+                      "read_minutes": 3,
+                      "cards": 9,
+                      "mnemonics": 3
                     }
                   ]
                 }
@@ -3043,11 +3070,11 @@
               },
               "papers": [],
               "counts": {
-                "notes": 18,
-                "mustknow": 18,
-                "formulas": 18,
+                "notes": 19,
+                "mustknow": 19,
+                "formulas": 19,
                 "questions": 13,
-                "chapters": 18
+                "chapters": 19
               },
               "exam_mode": "built"
             },

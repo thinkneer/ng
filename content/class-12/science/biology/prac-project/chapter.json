@@ -1,0 +1,11 @@
+{
+  "$schema": "../../../../../schemas/chapter.schema.json",
+  "id": "prac-project",
+  "number": 19,
+  "title": "Practical: Project, Record and Exam Day",
+  "unit": "P",
+  "marks_hint": "Project record + viva 5, practical record + viva 4 of the 30 practical marks",
+  "summary": "Choosing and running an investigatory project, writing the project file and practical record, facing the viva, and a checklist for the practical exam day.",
+  "status": { "notes": "ready", "mustknow": "ready", "formulas": "ready" },
+  "updated": "2026-11-15"
+}

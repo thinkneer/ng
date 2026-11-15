@@ -1723,6 +1723,35 @@
    "prompt": "Name the four disease-causing organisms in the spotting list."
   }
  ],
+ "biology/prac-project": [
+  {
+   "id": "project-smart",
+   "title": "What makes a good project topic",
+   "trick": "**SAFE-Q**: **S**mall, **A**vailable materials, **F**inishable, **E**xplainable, one **Q**uestion",
+   "meaning": [
+    "Small enough for 3–4 weeks; uses materials you can get; you can finish and repeat it; you can explain the biology; it asks one clear question."
+   ],
+   "prompt": "Give five checks for choosing a Biology project topic."
+  },
+  {
+   "id": "project-record-order",
+   "title": "Order of an experiment write-up",
+   "trick": "**A**ll **P**upils **M**ust **P**ractise **D**rawing **O**bservations, **R**esults, **P**recautions",
+   "meaning": [
+    "**A**im → **P**rinciple → **M**aterials → **P**rocedure → **D**iagram → **O**bservation table → **R**esult → **P**recautions."
+   ],
+   "prompt": "List the parts of a practical-record write-up in order."
+  },
+  {
+   "id": "exam-day-carry",
+   "title": "What to carry",
+   "trick": "**R-P-P-P-E-R**: **R**ecord, **P**roject, **P**en, **P**encil, **E**raser, **R**uler",
+   "meaning": [
+    "Signed practical record and project file, pen, pencil (diagrams), eraser and ruler; a sharpener helps."
+   ],
+   "prompt": "What must you carry to the practical exam?"
+  }
+ ],
  "english-core/reading-unseen": [
   {
    "id": "unseen-negatives",

@@ -65,13 +65,14 @@ Paper: **Thu 25 Mar 2027** (date sheet of 6 Nov 2026). Biology-only days 10–24
   - 78 card fronts restacked one step/item per line (`gathered`); one KaTeX error fixed (ch09-competence); 7 legend symbols shortened; 7 long card backs cut to ≤ 4 phone lines.
   - Wide tables: 3–4-option compares turned into 2-column `ng-fill` blocks with the same ids (pollination kinds, apomixis, biofertilisers, molecular diagnosis, age pyramids, why conserve, pollination agents, pathogens); 4-column fills merged to 3 (sex determination, ancestors, interactions); long single words given soft hyphens; the Ch 7 disease table, two answer tables and two formula-sheet tables became short lists; practical observation tables cut to 3 columns.
   - Practical display formulas stacked with `aligned`; female-system and biogas drawings now fit their viewBox (also in the bio-08 answer); 3 last one-word fronts renamed (HGP, spleen, Amazon).
+- **Practicals: project, record and exam day (15 Nov 2026).** Sixth Practicals chapter `prac-project`: choosing a safe, finishable project (8 syllabus-linked ideas), running it as a fair test (`ng-steps`, change/measure/keep `ng-compare`), project-file and record order (`ng-fill`), viva advice, and the 3-hour exam-day sequence (`ng-steps`) with a what-to-carry list; 4 mnemonics, 9 cards. content-check clean.
 
 ## Corrections
 - Ch 1 pollen-grain germ-pore leader moved to an actual gap in the exine.
 - Ch 1–3 interactive commit landed on main with the message "biology: rebuild index" (a rebase hiccup); content is correct.
 
 ## What's next
-1. **Practicals, finish by 20 Dec**: record-book write-ups are covered by the five chapters; still to add: investigatory-project guidance (topic ideas, record format, viva) and a one-page "practical exam day" checklist. Teachers' local variations (e.g. which experiment is major) are decided at school.
+1. **Practicals**: done for the 2026–27 list (5 experiments, 11 spots, project/record/exam day). Teachers decide locally which experiment is major and the project topic list; add any school-specific experiment as a new `prac-` chapter.
 2. **More practice**: raise each chapter to 6+ MCQ/A–R (live quizzes draw on them); more case questions (2–3 per unit) would let papers vary their case section.
 3. **Phone review pass**: content-check is clean; a human tap-through of *Label it yourself*, the decks and Recall on a real phone is still worth doing. Re-run `content-check.mjs biology` before every commit.
 4. Optional diagrams: T.S. of a whole anther, pollen-tube growth into the ovule, human embryo/placenta, replication of a retrovirus.

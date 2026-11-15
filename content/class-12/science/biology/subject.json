@@ -148,6 +148,11 @@
           "id": "prac-spotting",
           "number": 18,
           "title": "Practical: Spotting (Study and Observe)"
+        },
+        {
+          "id": "prac-project",
+          "number": 19,
+          "title": "Practical: Project, Record and Exam Day"
         }
       ]
     }
