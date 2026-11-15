@@ -51,6 +51,7 @@ Paper: **Thu 25 Mar 2027** (date sheet of 6 Nov 2026). Biology-only days 10–24
 - **Must-know recall fronts (15 Nov 2026).** Every Must-know line now has a prompt of at least two words in NCERT terms (154 one-word fronts rewritten, e.g. "Tapetum of anther:", "ZIFT method:", "Gross primary productivity:"); the two lines that held two facts (genotype/phenotype, exons/introns) are split; no line is over 15 words; abbreviations in Ch 3 ART lines now carry their full forms. Each file is 670–1,010 words (rereadable in about 5 minutes). Corrected GEAC to "Genetic Engineering Approval Committee" (Must know and Read). Rewritten lines start fresh in Recall (card ids follow the line text).
 - **Answer-script conversion (15 Nov 2026).** Old-style written answers rewritten in answer-script style (length line, underlined keywords, one highlighted mark-winner, "Your answer must contain" checklist, "Marks are lost for"); every case question now has a hint and a full top-level model answer. Schemes unchanged.
   - Unit VI (Ch 1–3): 15 questions done (ovule answer now carries the labelled SVG; oogenesis as a stacked list, not wide maths).
+  - Unit VII (Ch 4–6): 15 questions done (transcription-unit and lac-operon SVGs added to those answers; the pesticide case shows the selection graphs). All Punnett squares are now KaTeX arrays: the table-header style uppercased allele letters (r → R) and the dihybrid table was too wide for a phone.
 
 ## Corrections
 - Ch 1 pollen-grain germ-pore leader moved to an actual gap in the exine.

@@ -104,7 +104,7 @@
     "topic": "Adaptive radiation",
     "stem": "What is adaptive radiation? Give one example from Darwin's observations and one from Australia.",
     "hint": "Galapagos; marsupials.",
-    "model_answer": "Adaptive radiation is the evolution of different species in a geographical area starting from one point and radiating into other habitats. Examples: Darwin's finches of the Galapagos Islands evolved varied beaks for different foods from a seed-eating ancestor; Australian marsupials (kangaroo, koala, wombat, Tasmanian wolf etc.) evolved from one ancestral stock.",
+    "model_answer": "*How much to write: 3–4 lines · 3 minutes*\n\n**Adaptive radiation:** the <mark>evolution of different species in a given geographical area starting from a point and literally radiating to other areas of geography (habitats)</mark>.\n\n- **Darwin's finches** (Galapagos Islands): from an original <u>seed-eating</u> ancestor, many varieties with <u>altered beaks</u> arose, e.g. insectivorous finches.\n- **Australian marsupials:** many marsupials, each different (e.g. kangaroo, koala, wombat, Tasmanian wolf), evolved <u>from one ancestral stock</u>, all within the Australian continent.\n\n:::tip Your answer must contain\n- definition: from one point, <mark>radiating</mark> into other habitats\n- Darwin's finches (beaks) and Australian marsupials\n:::\n\n**Marks are lost for:** giving the placental–marsupial wolves (that is convergent evolution).",
     "scheme": [
       {
         "step": "Definition",
@@ -126,7 +126,7 @@
     "topic": "Origin of life",
     "stem": "Describe Miller's experiment and state what it showed.",
     "hint": "Gases, energy, product.",
-    "model_answer": "In 1953 S. L. Miller passed electric discharges through a closed flask containing CH₄, H₂, NH₃ and water vapour at 800 °C, simulating early Earth. Amino acids were formed, supporting chemical evolution (Oparin–Haldane): organic molecules can form from inorganic ones.",
+    "model_answer": "*How much to write: 3–4 lines (a small sketch is optional) · 4 minutes*\n\nIn <u>1953</u>, <u>S. L. Miller</u> created conditions like those of the early Earth:\n- a closed flask containing <mark>CH₄, H₂, NH₃ and water vapour</mark> at 800 °C;\n- <mark>electric discharges</mark> passed through the mixture (energy, like lightning);\n- the mixture was cooled and the products collected.\n\n**Result:** <mark>amino acids were formed</mark>. This supported the <u>Oparin–Haldane</u> idea of <u>chemical evolution</u>: the first organic molecules could have formed from inorganic ones.\n\n:::tip Your answer must contain\n- the gases <mark>CH₄, H₂, NH₃, water vapour</mark>\n- <u>electric discharge</u>\n- amino acids → supports chemical evolution\n:::\n\n**Marks are lost for:** putting oxygen in the flask; saying living cells were formed.",
     "scheme": [
       {
         "step": "Set-up: CH₄, H₂, NH₃, water vapour, electric discharge, 800 °C",
@@ -148,7 +148,7 @@
     "topic": "Hardy–Weinberg",
     "stem": "State the Hardy–Weinberg principle and write its equation. List any four factors that disturb the equilibrium.",
     "hint": "Constant allele frequencies; five factors.",
-    "model_answer": "Allele frequencies in a population are stable and constant from generation to generation (genetic equilibrium) in the absence of disturbing factors. p + q = 1 and p² + 2pq + q² = 1, where p and q are allele frequencies. Disturbing factors: gene migration (gene flow), genetic drift, mutation, genetic recombination, natural selection (any four).",
+    "model_answer": "*How much to write: 5–6 lines · 5 minutes*\n\n**Hardy–Weinberg principle:** in a population, <mark>allele frequencies are stable and constant from generation to generation</mark> (genetic equilibrium) unless disturbed; the gene pool remains constant.\n\n**Equation:**\n\n$$p+q=1$$\n\n$$p^2+2pq+q^2=1$$\n\nwhere $p$ and $q$ are the frequencies of the alleles A and a; $p^2$ = frequency of AA, $2pq$ = Aa, $q^2$ = aa.\n\n**Factors that disturb it** (any four): <u>gene migration (gene flow)</u>, <u>genetic drift</u>, <u>mutation</u>, <u>genetic recombination</u>, <u>natural selection</u>. A disturbance in equilibrium indicates <mark>evolution</mark>.\n\n:::tip Your answer must contain\n- statement: allele frequencies <mark>constant</mark>\n- both equations with the <u>meaning of each term</u>\n- four factors\n:::\n\n**Marks are lost for:** writing $p^2+q^2=1$; giving \"population size\" as a factor.",
     "scheme": [
       {
         "step": "Statement of the principle",
@@ -214,7 +214,9 @@
           }
         ]
       }
-    ]
+    ],
+    "hint": "The pesticide does not cause mutations; it picks out insects that were already resistant.",
+    "model_answer": "*How much to write: one line for (i), 2 lines for (ii), a sketch + 2 lines for (iii) · 6 minutes*\n\n**(i)** <mark>Anthropogenic evolution</mark>: evolution caused by human action (as with herbicide, pesticide and antibiotic resistance).\n\n**(ii)** <mark>No.</mark> A few <u>resistant variants already existed</u> in the population. The pesticide killed the sensitive insects; the resistant ones survived and reproduced, so over five years most insects became resistant: <u>natural selection</u>, not induced change.\n\n**(iii)** <mark>Directional selection</mark>: individuals at one extreme (resistant) are favoured, so the <u>peak of the curve shifts</u> towards that extreme over generations.\n\n<figure class=\"fig\">\n<svg viewBox=\"0 0 330 120\" role=\"img\" aria-label=\"Stabilising, directional and disruptive selection curves\">\n<path stroke=\"currentColor\" stroke-opacity=\"0.5\" fill=\"none\" d=\"M8,96H102M118,96H212M228,96H322\"/>\n<path fill=\"none\" stroke=\"currentColor\" stroke-dasharray=\"3 2\" d=\"M8,96C30,94,40,40,55,40S80,94,102,96M118,96C140,94,150,40,165,40S190,94,212,96M228,96C250,94,260,40,275,40S300,94,322,96\"/>\n<path stroke=\"#6A3FA0\" fill=\"none\" stroke-width=\"2\" d=\"M20,96C40,94,48,14,55,14S70,94,90,96M140,96C162,94,170,42,182,42S204,94,212,94M228,96C238,94,246,44,256,44S268,82,275,82S286,44,294,44S312,94,322,96\"/>\n<g font-size=\"9\" fill=\"currentColor\" text-anchor=\"middle\"><text x=\"55\" y=\"112\">Stabilising</text><text x=\"165\" y=\"112\">Directional</text><text x=\"275\" y=\"112\">Disruptive</text></g>\n</svg>\n<figcaption>The middle panel shows directional selection: the peak shifts towards one extreme.</figcaption>\n</figure>\n\n:::tip Your answer must contain\n- (i) <mark>anthropogenic</mark> evolution\n- (ii) resistance <u>pre-existed</u>; selection, not creation\n- (iii) <mark>directional</mark>, peak shifts\n:::\n\n**Marks are lost for:** saying the pesticide caused the insects to mutate (Lamarckian); naming stabilising selection."
   },
   {
     "id": "bio-06-q10",
@@ -226,7 +228,7 @@
     "topic": "Evidences of evolution",
     "stem": "(a) Distinguish between homologous and analogous organs with two examples of each, naming the type of evolution each represents. [3]<br>(b) How do fossils provide evidence for evolution? [2]",
     "hint": "Structure vs function; rock layers.",
-    "model_answer": "(a) Homologous: same basic structure and origin, different functions; examples forelimbs of whale, bat, cheetah and human; thorn of Bougainvillea and tendril of Cucurbita; divergent evolution. Analogous: different structures, similar functions; examples wings of butterfly and bird; eyes of octopus and mammal (or potato and sweet potato); convergent evolution.<br>(b) Fossils are remains of hard parts preserved in rock layers formed one above another. Different layers carry different life forms, many extinct, and older layers hold simpler forms; radioactive dating gives their age, showing life changed over time.",
+    "model_answer": "*How much to write: about two-thirds of a page · 9 minutes*\n\n**(a)**\n\n| Homologous organs | Analogous organs |\n|---|---|\n| <mark>same basic structure and origin, different functions</mark> | <mark>different structure and origin, similar functions</mark> |\n| forelimbs of whale, bat, cheetah and human; thorn of *Bougainvillea* and tendril of *Cucurbita*; vertebrate hearts or brains | wings of butterfly and bird; eyes of octopus and mammals; flippers of penguin and dolphin; sweet potato (root) and potato (stem) |\n| <u>divergent evolution</u> | <u>convergent evolution</u> |\n\n**(b)** Fossils are <u>remains of hard parts of life forms found in rocks</u>. Rocks form sediments, and a cross-section of the Earth's crust shows <u>one layer over another</u>, each indicating a different period. Different-aged rock layers contain <mark>different life forms, many now extinct</mark>; older layers carry simpler forms. Their age is found by <u>radioactive dating</u>, showing that life forms <mark>changed over time</mark>.\n\n:::tip Your answer must contain\n- definitions with <u>two examples each</u>\n- <mark>homologous = divergent</mark>, <mark>analogous = convergent</mark>\n- fossils in rock layers + dating → change over time\n:::\n\n**Marks are lost for:** swapping divergent and convergent; giving bird and bat wings as analogous without saying why.",
     "scheme": [
       {
         "step": "Homologous: definition, two examples",
