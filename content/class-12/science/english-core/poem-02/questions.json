@@ -157,5 +157,128 @@
       { "step": "Harm that would stop: whales, hands, wars (with details)", "marks": 1.5 },
       { "step": "Not death; introspection; Earth's lesson; conclusion — expression and length", "marks": 1.5 }
     ]
+  },
+  {
+    "id": "eng-w20261115-poem-02-01",
+    "chapter": "poem-02",
+    "type": "case",
+    "marks": 6,
+    "stars": 2,
+    "label": "PYQ-style",
+    "topic": "extract-based",
+    "stem": "Read the extract in which the poet asks the reader to count to twelve and keep still, and then lists the things that a silent world would stop. Answer the questions that follow.",
+    "hint": "The request (count, keep still), the reason for twelve, then the images: fishermen, the salt-gatherer, the wars, the earth in winter.",
+  "model_answer": "*How much to write: six one-mark answers · about 8 minutes*\n\nThe poet asks us to <u>count to twelve and keep still</u>: stop speaking and stop moving for a moment. Twelve is a <u>complete cycle</u>, the hours of a clock or the months of a year, so the pause is small but measurable.\n\nThe silence would <mark>end harm to nature</mark>: the fishermen would stop hunting whales, and the salt-gatherer would notice his own hurt hands. Enemies would rest together as <u>brothers</u> in the shade.\n\n:::tip Your answer must contain\n- The request and the number twelve\n- The fishermen, the salt-gatherer and the wars, each with its meaning\n- Short, exact answers in complete sentences\n:::\n\n**Marks are lost for:** wrong option letters; retelling the poem instead of answering the question; a missing part.",
+    "parts": [
+      {
+        "id": "a",
+        "stem": "What does the poet ask us to do for a short while?",
+        "marks": 1,
+        "model_answer": "Count to twelve and keep still: stop speaking and stop moving.",
+        "scheme": [
+          {
+            "step": "Count to twelve; keep still (no speaking, no moving)",
+            "marks": 1
+          }
+        ]
+      },
+      {
+        "id": "b",
+        "stem": "Why is the number twelve a suitable choice?",
+        "marks": 1,
+        "model_answer": "Twelve is a complete cycle, like the hours on a clock or the months of a year, so it is a small, measurable pause.",
+        "scheme": [
+          {
+            "step": "Complete cycle: hours of the clock or months of the year",
+            "marks": 1
+          }
+        ]
+      },
+      {
+        "id": "c",
+        "stem": "What would the fishermen stop doing in the silence?",
+        "marks": 1,
+        "model_answer": "Harming the whales, which would end the exploitation of nature.",
+        "scheme": [
+          {
+            "step": "Stop harming whales / exploiting nature",
+            "marks": 1
+          }
+        ]
+      },
+      {
+        "id": "d",
+        "stem": "What does the man gathering salt notice? (A) his own hurt hands (B) a new shore (C) the colour of the sea (D) a passing ship",
+        "marks": 1,
+        "options": [
+          "his own hurt hands",
+          "a new shore",
+          "the colour of the sea",
+          "a passing ship"
+        ],
+        "answer": "A",
+        "model_answer": "(A) He looks at his own hurt hands: the worker finally sees his own wounds.",
+        "scheme": [
+          {
+            "step": "Option A",
+            "marks": 1
+          }
+        ]
+      },
+      {
+        "id": "e",
+        "stem": "What does the poet mean by 'green wars'?",
+        "marks": 1,
+        "model_answer": "Wars against the environment: the destruction of nature, dressed up as something new.",
+        "scheme": [
+          {
+            "step": "Wars that harm the environment / nature",
+            "marks": 1
+          }
+        ]
+      },
+      {
+        "id": "f",
+        "stem": "What does the poet hope will happen to enemies who rest together in the shade?",
+        "marks": 1,
+        "model_answer": "They become brothers: enemies turn into companions when they stop fighting.",
+        "scheme": [
+          {
+            "step": "Enemies become brothers / companions",
+            "marks": 1
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "eng-w20261115-poem-02-02",
+    "chapter": "poem-02",
+    "type": "la5",
+    "marks": 5,
+    "stars": 2,
+    "label": "PYQ-style",
+    "topic": "theme",
+    "stem": "In 'Keeping Quiet', Neruda asks the world for a moment of silence. What change does he hope this silence would bring about? Discuss, with reference to the images in the poem. (120–150 words)",
+    "hint": "Request (count, keep still) → why silence unites → what it would stop (whale-hunting, the salt-gatherer, wars) → the earth's lesson.",
+    "model_answer": "*How much to write: 120–150 words · about 8 minutes*\n\nNeruda asks the world for a <u>moment of silence</u>: count to twelve and <u>keep still</u>. This pause is not idleness. It is a time when people would stop their restless activity and look at what they are doing to one another and to the earth.\n\nThe poet imagines <u>concrete changes</u>. The fishermen would stop hunting whales, <mark>ending the exploitation of nature</mark>. The man gathering salt would look at his <u>hurt hands</u> and notice his own wounds. Even the <u>wars</u> would be seen for what they are: the \"green wars\" against the environment and the wars of gas and fire would lose their meaning, and enemies would rest as brothers in the shade.\n\nThe poem also argues that <u>stillness is not death</u>. The earth looks dead in winter, yet it is alive. The poet's hope is a world that understands itself before it races towards its own destruction.\n\n:::tip Your answer must contain\n- The request: count to twelve and keep still\n- Two or three images of change (whales, salt-gatherer, wars)\n- The lesson of the earth: stillness hides life\n- A clear statement of the change the poet hopes for\n:::\n\n**Marks are lost for:** retelling the poem line by line; missing the change the poet hopes for; going beyond 150 words.",
+    "scheme": [
+      {
+        "step": "The request and the purpose of the silence",
+        "marks": 1
+      },
+      {
+        "step": "Images of change: whales, salt-gatherer, wars (two marks)",
+        "marks": 2
+      },
+      {
+        "step": "The earth's lesson and the hope of renewal",
+        "marks": 1
+      },
+      {
+        "step": "Expression: length, clarity and conclusion",
+        "marks": 1
+      }
+    ]
   }
 ]

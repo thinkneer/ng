@@ -37,7 +37,7 @@
     "kind": "event",
     "title": "Trees that sprint",
     "svg": "<svg viewBox=\"0 0 320 200\" role=\"img\" aria-label=\"Young trees, merry children — life outside the window\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" font-size=\"11\"><g><rect x=\"66.0\" y=\"120.0\" width=\"8.0\" height=\"50.0\" fill=\"currentColor\" fill-opacity=\"0.8\" stroke=\"none\"/><circle cx=\"70\" cy=\"100.0\" r=\"30.0\" fill=\"currentColor\" fill-opacity=\"0.8\" stroke=\"none\"/><circle cx=\"52.0\" cy=\"115.0\" r=\"20.0\" fill=\"currentColor\" fill-opacity=\"0.8\" stroke=\"none\"/><circle cx=\"88.0\" cy=\"115.0\" r=\"20.0\" fill=\"currentColor\" fill-opacity=\"0.8\" stroke=\"none\"/></g><g><rect x=\"146.8\" y=\"130.0\" width=\"6.4\" height=\"40.0\" fill=\"currentColor\" fill-opacity=\"0.6\" stroke=\"none\"/><circle cx=\"150\" cy=\"114.0\" r=\"24.0\" fill=\"currentColor\" fill-opacity=\"0.6\" stroke=\"none\"/><circle cx=\"135.6\" cy=\"126.0\" r=\"16.0\" fill=\"currentColor\" fill-opacity=\"0.6\" stroke=\"none\"/><circle cx=\"164.4\" cy=\"126.0\" r=\"16.0\" fill=\"currentColor\" fill-opacity=\"0.6\" stroke=\"none\"/></g><g><rect x=\"215.6\" y=\"115.0\" width=\"8.8\" height=\"55.0\" fill=\"currentColor\" fill-opacity=\"0.9\" stroke=\"none\"/><circle cx=\"220\" cy=\"93.0\" r=\"33.0\" fill=\"currentColor\" fill-opacity=\"0.9\" stroke=\"none\"/><circle cx=\"200.2\" cy=\"109.5\" r=\"22.0\" fill=\"currentColor\" fill-opacity=\"0.9\" stroke=\"none\"/><circle cx=\"239.8\" cy=\"109.5\" r=\"22.0\" fill=\"currentColor\" fill-opacity=\"0.9\" stroke=\"none\"/></g><path d=\"M40,40 L280,40 M271.2,44.8 L280,40 L271.2,35.2\" fill=\"none\" stroke=\"#E0B400\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><g><circle cx=\"280\" cy=\"134.4\" r=\"4.4\" fill=\"currentColor\" fill-opacity=\"0.9\" stroke=\"none\"/><path d=\"M274.0,146.8 L266.8,129.6 L269.2,128.0 L275.8,142.8 Q280,138.8 284.2,142.8 L290.8,128.0 L293.2,129.6 L286.0,146.8 L285.04,153.2 L282.4,153.2 L282.88,170 H280.6 L280.24,154.0 H279.76 L279.4,170 H277.12 L277.6,153.2 L274.96,153.2 Z\" fill=\"currentColor\" fill-opacity=\"0.9\" stroke=\"none\"/></g><g><circle cx=\"300\" cy=\"137.96\" r=\"3.96\" fill=\"currentColor\" fill-opacity=\"0.9\" stroke=\"none\"/><path d=\"M294.6,149.92000000000002 Q300,141.92000000000002 305.4,149.92000000000002 L304.536,154.88 L305.94,170 H303.78 L300.54,159.2 L296.76,170 H294.384 L297.84,154.88 L295.464,154.88 Z\" fill=\"currentColor\" fill-opacity=\"0.9\" stroke=\"none\"/></g><text x=\"160.0\" y=\"192\" text-anchor=\"middle\" font-size=\"11\" font-style=\"italic\" fill=\"currentColor\" fill-opacity=\"0.85\" stroke=\"none\">Young trees, merry children — life outside the window</text></svg>",
-    "back": "She looks away to escape the painful thought; what she sees is youth, speed and energy — the contrast that makes the mother's stillness sharper.",
+    "back": "She looks away from the painful thought and sees trees that sprint and children spilling out: youth, speed, energy.",
     "stars": 3,
     "tags": [
       "event"
@@ -59,7 +59,7 @@
     "kind": "mnemonic",
     "title": "The old familiar ache",
     "svg": "<svg viewBox=\"0 0 320 200\" role=\"img\" aria-label=\"A fear carried since childhood, now made real\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" font-size=\"11\"><g><circle cx=\"90\" cy=\"131.05\" r=\"6.05\" fill=\"currentColor\" fill-opacity=\"0.9\" stroke=\"none\"/><path d=\"M81.75,145.10000000000002 Q90,137.10000000000002 98.25,145.10000000000002 L96.93,156.9 L93.3,156.9 L93.96,180 H90.825 L90.33,158.0 H89.67 L89.175,180 H86.04 L86.7,156.9 L83.07,156.9 Z\" fill=\"currentColor\" fill-opacity=\"0.9\" stroke=\"none\"/></g><g><circle cx=\"150\" cy=\"82.1\" r=\"12.1\" fill=\"currentColor\" fill-opacity=\"0.5\" stroke=\"none\"/><path d=\"M133.5,102.19999999999999 Q150,94.19999999999999 166.5,102.19999999999999 L179.7,180 H120.3 Z\" fill=\"currentColor\" fill-opacity=\"0.5\" stroke=\"none\"/></g><path d=\"M100,120 Q120,90 142,110\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-dasharray=\"3 3\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><text x=\"230\" y=\"90\" text-anchor=\"middle\" font-size=\"12\" font-weight=\"700\" font-style=\"italic\" fill=\"currentColor\" stroke=\"none\">childhood fear</text><text x=\"160.0\" y=\"192\" text-anchor=\"middle\" font-size=\"11\" font-style=\"italic\" fill=\"currentColor\" fill-opacity=\"0.85\" stroke=\"none\">A fear carried since childhood, now made real</text></svg>",
-    "back": "Every child fears losing its mother; the airport parting revives it because the separation it dreaded is visibly coming. 'Familiar' is the key word.",
+    "back": "Every child fears losing its mother; the airport parting revives that old ache. 'Familiar' is the key word.",
     "stars": 2,
     "tags": [
       "theme"
@@ -75,5 +75,12 @@
     "tags": [
       "line"
     ]
+  },
+  {
+    "id": "p1-form",
+    "kind": "mnemonic",
+    "title": "One sentence, no breaks",
+    "svg": "<svg viewBox=\"0 0 320 200\" role=\"img\" aria-label=\"One long sentence with no stanza breaks\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" font-size=\"11\"><rect x=\"28\" y=\"40\" width=\"264\" height=\"90\" rx=\"10\" fill=\"currentColor\" fill-opacity=\"0.08\" stroke=\"currentColor\"/><text x=\"160\" y=\"92\" text-anchor=\"middle\" font-size=\"16\" font-weight=\"700\" fill=\"currentColor\" stroke=\"none\">One long sentence</text><text x=\"160\" y=\"155\" text-anchor=\"middle\" font-size=\"11\" font-style=\"italic\" fill=\"currentColor\" fill-opacity=\"0.85\" stroke=\"none\">no stanza breaks · flow of the drive</text></svg>",
+    "back": "The whole poem is one long sentence with no stanza break. Its flow follows the drive and never stops to rest."
   }
 ]

@@ -16,28 +16,28 @@ Stars are estimates: ★★★ most years · ★★ often · ★ sometimes. [mar
 
 ## Must-know lines and definitions
 
-- **Author:** Kalki (R. Krishnamurthy), Tamil writer.
+- **Book author:** Kalki (R. Krishnamurthy), Tamil writer.
 - **The king:** Maharaja of Pratibandapuram, known as the Tiger King.
-- **Prophecy:** great warrior, but will die; death to come from a tiger.
+- **Royal prophecy:** great warrior, but will die; death to come from a tiger.
 - **Why a tiger:** born in the hour of the Bull; bull and tiger are enemies.
 - **Talking baby:** at ten days asked how he would die; warned tigers to beware.
-- **Upbringing:** English nurse, tutor and films; king at twenty.
+- **Royal upbringing:** English nurse, tutor and films; king at twenty.
 - **Astrologer's refinement:** can kill 99 tigers; beware the hundredth.
 - **Astrologer's bet:** would cut his tuft and become an insurance agent if the king survived the hundredth.
 - **Royal monopoly:** only the king may hunt tigers; others lose all wealth.
 - **Ten years:** seventy tigers killed; tigers extinct in Pratibandapuram.
 - **British officer:** denied a hunt and even a photograph with a dead tiger.
 - **Fifty rings:** sent to the officer's wife, who kept all; cost three lakh rupees.
-- **Marriage:** to a princess from a state with many tigers; killed five or six per visit; reached 99.
+- **Marriage hunts:** princess from a tiger-rich state; five or six killed per visit; 99 reached.
 - **Hundredth tiger search:** sheep vanishing in a village; three-year tax exemption; no tiger; land tax doubled.
 - **Dewan's trick:** old tiger from the People's Park, Madras, pushed into the forest.
 - **The shot:** king missed; tiger fainted; hunters killed it secretly to keep their jobs.
-- **Celebration:** procession, grand burial, tomb for the hundredth tiger.
+- **Victory celebration:** procession, grand burial, tomb for the hundredth tiger.
 - **Wooden tiger:** birthday gift for the son's third birthday; priced from a few annas to 300 rupees.
-- **Sliver:** rough toy by an unskilled carpenter; sliver pierced the king's right hand.
-- **Death:** sore, infection; three surgeons from Madras; operation successful, Maharaja dead.
-- **Themes:** arrogance of power, flattery, fate vs will, wildlife destruction, British–Indian relations.
-- **Devices:** satire, dramatic irony, hyperbole, humour, twist ending.
+- **Wooden toy sliver:** rough toy by an unskilled carpenter; sliver pierced the king's right hand.
+- **Final illness:** sore, infection; three surgeons from Madras; operation successful, Maharaja dead.
+- **Main themes:** arrogance of power, flattery, fate vs will, wildlife destruction, British–Indian relations.
+- **Literary devices:** satire, dramatic irony, hyperbole, humour, twist ending.
 
 ## Key formulas
 

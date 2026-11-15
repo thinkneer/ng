@@ -17,7 +17,7 @@ Stars are estimates: ★★★ most years · ★★ often · ★ sometimes. [mar
 
 ## Must-know lines and definitions
 
-- **Author:** Louis Fischer, American journalist; from *The Life of Mahatma Gandhi*.
+- **Book author:** Louis Fischer, American journalist; from *The Life of Mahatma Gandhi*.
 - **Year and place:** 1917, Champaran district, Bihar, near Nepal.
 - **Rajkumar Shukla:** poor, illiterate but resolute sharecropper who followed Gandhi till he agreed.
 - **Meeting point:** Congress session at Lucknow, December 1916.
@@ -27,22 +27,22 @@ Stars are estimates: ★★★ most years · ★★ often · ★ sometimes. [mar
 - **Gandhi to the lawyers:** courts are useless for fear-stricken peasants; they need freedom from fear.
 - **Sharecropping clause:** 15 per cent of land under indigo, whole indigo harvest as rent.
 - **Synthetic indigo:** developed in Germany; made natural indigo unprofitable.
-- **Compensation:** landlords charged peasants to release them from the 15 per cent clause.
+- **Compensation demanded:** landlords charged peasants to release them from the 15 per cent clause.
 - **Tirhut commissioner:** bullied Gandhi, advised him to leave.
-- **Motihari:** capital of Champaran; Gandhi's base.
-- **Order to quit:** served after Gandhi set out on an elephant to see a maltreated peasant; he wrote that he would disobey.
+- **Motihari town:** capital of Champaran; Gandhi's base.
+- **Order to quit:** served on the way to a peasant; Gandhi wrote he would disobey.
 - **Courthouse crowd:** thousands of peasants; officials powerless; Gandhi helped regulate the crowd.
 - **Plea in court:** guilty; conflict of duties; obeyed the higher law of conscience.
-- **Bail:** refused; released without bail; judgement postponed.
+- **Bail in court:** refused; released without bail; judgement postponed.
 - **Lawyers' vow:** to follow Gandhi into jail; Gandhi: battle of Champaran is won.
 - **Case dropped:** by order of the Lieutenant-Governor.
-- **Inquiry:** depositions from about ten thousand peasants; Sir Edward Gait; official commission with Gandhi as peasants' representative.
-- **Refund:** Gandhi asked 50 per cent, accepted the landlords' 25 per cent.
+- **Official inquiry:** Sir Edward Gait's commission; about ten thousand depositions; Gandhi represents peasants.
+- **Refund settlement:** Gandhi asked 50 per cent, accepted the landlords' 25 per cent.
 - **Why 25 per cent:** money less important than landlords surrendering money and prestige; peasants learnt courage.
-- **Result:** within a few years planters abandoned estates; indigo sharecropping ended.
+- **Outcome for planters:** within a few years planters abandoned estates; indigo sharecropping ended.
 - **Social work:** schools in six villages; Kasturba on cleanliness and sanitation; Dr Dev for six months.
-- **Volunteers:** Mahadev Desai, Narhari Parikh and wives, Devdas.
-- **Self-reliance:** declined C. F. Andrews's help — no Englishman as a prop for a free India.
+- **Volunteers who helped:** Mahadev Desai, Narhari Parikh and wives, Devdas.
+- **Self-reliance principle:** declined C. F. Andrews's help — no Englishman as a prop for a free India.
 
 ## Key formulas
 

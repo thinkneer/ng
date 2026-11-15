@@ -3128,8 +3128,8 @@
                       },
                       "words": 2315,
                       "read_minutes": 7,
-                      "cards": 6,
-                      "mnemonics": 6
+                      "cards": 8,
+                      "mnemonics": 8
                     },
                     {
                       "id": "reading-case",
@@ -3161,8 +3161,8 @@
                       },
                       "words": 2069,
                       "read_minutes": 6,
-                      "cards": 6,
-                      "mnemonics": 6
+                      "cards": 8,
+                      "mnemonics": 8
                     }
                   ]
                 },
@@ -3203,7 +3203,7 @@
                       },
                       "words": 2002,
                       "read_minutes": 6,
-                      "cards": 7,
+                      "cards": 8,
                       "mnemonics": 3
                     },
                     {
@@ -3236,8 +3236,8 @@
                       },
                       "words": 2025,
                       "read_minutes": 6,
-                      "cards": 6,
-                      "mnemonics": 3
+                      "cards": 8,
+                      "mnemonics": 5
                     },
                     {
                       "id": "writing-letter",
@@ -3269,8 +3269,8 @@
                       },
                       "words": 2369,
                       "read_minutes": 7,
-                      "cards": 7,
-                      "mnemonics": 4
+                      "cards": 8,
+                      "mnemonics": 5
                     },
                     {
                       "id": "writing-article-report",
@@ -3302,8 +3302,8 @@
                       },
                       "words": 1974,
                       "read_minutes": 6,
-                      "cards": 7,
-                      "mnemonics": 4
+                      "cards": 8,
+                      "mnemonics": 5
                     }
                   ]
                 },
@@ -3589,7 +3589,7 @@
                         "figure": 1,
                         "compare": 1
                       },
-                      "words": 2478,
+                      "words": 2489,
                       "read_minutes": 7,
                       "cards": 9,
                       "mnemonics": 3
@@ -3633,10 +3633,10 @@
                         "figure": 1,
                         "fill": 1
                       },
-                      "words": 2234,
+                      "words": 2241,
                       "read_minutes": 6,
-                      "cards": 7,
-                      "mnemonics": 3
+                      "cards": 8,
+                      "mnemonics": 4
                     },
                     {
                       "id": "poem-02",
@@ -3652,12 +3652,12 @@
                       },
                       "marks_hint": "Poetry extract (6) · 2-mark short answer · occasionally 5-mark (Section C, estimates)",
                       "summary": "Pablo Neruda · count to twelve and keep still · an exotic moment without rush or engines · fishermen, salt-gatherer · wars with no survivors · stillness is not death · the Earth's lesson · introspection, peace, brotherhood",
-                      "questions": 7,
+                      "questions": 9,
                       "question_types": {
                         "mcq": 2,
-                        "case": 1,
+                        "case": 2,
                         "vsa2": 3,
-                        "la5": 1
+                        "la5": 2
                       },
                       "diagrams": [],
                       "blocks": {
@@ -3687,12 +3687,12 @@
                       },
                       "marks_hint": "Poetry extract (6) · 2-mark short answer · occasionally 5-mark (Section C, estimates)",
                       "summary": "John Keats (from Endymion) · beauty as a permanent joy · bower, sleep, health · flowery band binding us to earth · the pall of gloom removed · sun, moon, trees, daffodils, rills, musk-rose · tales of the mighty dead · endless fountain of immortal drink",
-                      "questions": 7,
+                      "questions": 8,
                       "question_types": {
                         "mcq": 2,
                         "case": 1,
                         "vsa2": 3,
-                        "la5": 1
+                        "la5": 2
                       },
                       "diagrams": [],
                       "blocks": {
@@ -3722,12 +3722,12 @@
                       },
                       "marks_hint": "Poetry extract (6) · 2-mark short answer · occasionally 5-mark (Section C, estimates)",
                       "summary": "Robert Frost · farmers' shed by the highway · polished traffic passes · complaints about signs · childish longing for city money · greedy good-doers, beneficent beasts of prey · poet's pity and ironic ending · rural–urban divide",
-                      "questions": 7,
+                      "questions": 8,
                       "question_types": {
                         "mcq": 2,
                         "case": 1,
                         "vsa2": 3,
-                        "la5": 1
+                        "la5": 2
                       },
                       "diagrams": [],
                       "blocks": {
@@ -3757,11 +3757,11 @@
                       },
                       "marks_hint": "Poetry extract (6) · 2-mark short answer · occasionally 5-mark (Section C, estimates)",
                       "summary": "Adrienne Rich · embroidered tigers: bright, fearless, chivalric · Aunt's fluttering fingers, the heavy wedding band · terrified hands ringed with ordeals · tigers outlive her · patriarchy, oppressive marriage, art as escape",
-                      "questions": 7,
+                      "questions": 8,
                       "question_types": {
                         "mcq": 2,
                         "case": 1,
-                        "vsa2": 3,
+                        "vsa2": 4,
                         "la5": 1
                       },
                       "diagrams": [],
@@ -3852,7 +3852,7 @@
                         "compare": 1,
                         "explain": 1
                       },
-                      "words": 2746,
+                      "words": 2752,
                       "read_minutes": 7,
                       "cards": 9,
                       "mnemonics": 3
@@ -3922,7 +3922,7 @@
                         "compare": 1,
                         "figure": 1
                       },
-                      "words": 2855,
+                      "words": 2844,
                       "read_minutes": 8,
                       "cards": 9,
                       "mnemonics": 3

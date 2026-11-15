@@ -1824,6 +1824,24 @@
     "Section A takes 30–35 minutes of the three hours: Q1 about 18–20, Q2 about 12–15. Do it first, not last."
    ],
    "card": true
+  },
+  {
+   "id": "ru-answer-check",
+   "title": "Point to the line",
+   "trick": "Point to the line",
+   "meaning": [
+    "For every answer, point to the line or fact in the passage that proves it. No line, no mark: rewrite until you can point."
+   ],
+   "card": true
+  },
+  {
+   "id": "ru-context-words",
+   "title": "Meaning from context",
+   "trick": "Meaning from context",
+   "meaning": [
+    "Read the sentence before and after the word. The meaning comes from the sentence, not from a word you already know."
+   ],
+   "card": true
   }
  ],
  "english-core/reading-case": [
@@ -1878,6 +1896,24 @@
    "trick": "Rows or columns?",
    "meaning": [
     "Reading a column for a row is the classic Q2 slip; follow a line-graph point down to the x-axis with your pencil."
+   ],
+   "card": true
+  },
+  {
+   "id": "rc-trend-words",
+   "title": "Describe a trend",
+   "trick": "Describe a trend",
+   "meaning": [
+    "Verb + start + end + period: 'rose from 40% to 60% between 2015 and 2020'. 'Increased' alone gives no figure."
+   ],
+   "card": true
+  },
+  {
+   "id": "rc-work-it",
+   "title": "Work the sum on paper",
+   "trick": "Work the sum on paper",
+   "meaning": [
+    "Share = part ÷ total × 100. Write the working in the margin, then the answer with its unit: per cent, people, hours."
    ],
    "card": true
   }
@@ -1939,6 +1975,24 @@
     "A formal card has no salutation and no signature. Ending with *Yours sincerely* and a name is a format error."
    ],
    "card": true
+  },
+  {
+   "id": "inv-voice",
+   "title": "Whose voice?",
+   "trick": "Whose voice?",
+   "meaning": [
+    "The host writes 'we request the pleasure of your company'; the guest is 'you'. Never 'I request' in a card."
+   ],
+   "card": true
+  },
+  {
+   "id": "inv-tone",
+   "title": "Warm but formal",
+   "trick": "Warm but formal",
+   "meaning": [
+    "Warm words and one clear request. No slang, no exclamation marks, no 'Dear'."
+   ],
+   "card": true
   }
  ],
  "english-core/writing-letter": [
@@ -1975,6 +2029,15 @@
    "trick": "Sir, not Dear Editor",
    "meaning": [
     "The receiver line already says *The Editor*; the salutation is simply *Sir,*. Over-formal or chatty salutations lose the format mark."
+   ],
+   "card": true
+  },
+  {
+   "id": "letter-subject",
+   "title": "Subject line in one phrase",
+   "trick": "Subject line in one phrase",
+   "meaning": [
+    "Name the matter in a few words, e.g. 'Subject: Replacement of a defective fan'. The body then follows."
    ],
    "card": true
   }
@@ -2014,6 +2077,15 @@
    "trick": "Report is P-P-P",
    "meaning": [
     "Past tense, passive voice, impersonal. *The chief guest inaugurates* or *we had fun* breaks the report's voice."
+   ],
+   "card": true
+  },
+  {
+   "id": "report-headline",
+   "title": "A headline, not a title",
+   "trick": "A headline, not a title",
+   "meaning": [
+    "Short and active: 'Students clean up the riverbank'. Present tense in the headline, past tense in the body."
    ],
    "card": true
   }
@@ -2176,7 +2248,7 @@
    "title": "No Englishman as a prop",
    "trick": "No Englishman as a prop",
    "meaning": [
-    "Relying on a sympathetic Englishman would show weakness; the cause was just and Indians must win it themselves. Champaran taught self-reliance as well as fearlessness."
+    "A sympathetic Englishman as a prop would show weakness. Indians must win their own cause."
    ],
    "card": true
   }
@@ -2272,7 +2344,7 @@
    "title": "Going places?",
    "trick": "Going places?",
    "meaning": [
-    "Ironic title: the only places Sophie goes are in her head — arcade, canal, stadium, then the biscuit factory. Barton's irony is gentle; her longing is every teenager's."
+    "The only places Sophie goes are in her head: arcade, canal, stadium, the biscuit factory. Gentle irony."
    ],
    "card": true
   }
@@ -2301,7 +2373,16 @@
    "title": "The old familiar ache",
    "trick": "The old familiar ache",
    "meaning": [
-    "Every child fears losing its mother; the airport parting revives it because the separation it dreaded is visibly coming. 'Familiar' is the key word."
+    "Every child fears losing its mother; the airport parting revives that old ache. 'Familiar' is the key word."
+   ],
+   "card": true
+  },
+  {
+   "id": "p1-form",
+   "title": "One sentence, no breaks",
+   "trick": "One sentence, no breaks",
+   "meaning": [
+    "The whole poem is one long sentence with no stanza break. Its flow follows the drive and never stops to rest."
    ],
    "card": true
   }
@@ -2493,7 +2574,7 @@
    "title": "Operation successful — Maharaja dead",
    "trick": "Operation successful — Maharaja dead",
    "meaning": [
-    "The target: arrogant rulers who think power defeats fate, flatterers who lie from fear, officials who can be bought, and the senseless killing of a hundred tigers."
+    "The target: arrogant rulers, flatterers, bought officials, and the senseless killing of tigers."
    ],
    "card": true
   }
@@ -2551,7 +2632,7 @@
    "title": "Why could I not kill him?",
    "trick": "Why could I not kill him?",
    "meaning": [
-    "At the window he recalls America's prejudice and his dislike of white faces — and still has no answer. Buck's point: the doctor's duty is deeper than the citizen's."
+    "At the window Sadao recalls America's prejudice and still cannot say why he could not kill him."
    ],
    "card": true
   }

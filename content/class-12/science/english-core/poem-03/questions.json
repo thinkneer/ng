@@ -147,5 +147,35 @@
       { "step": "Catalogue of beauty in nature and human life", "marks": 1 },
       { "step": "Endless fountain and conclusion; expression and length", "marks": 1 }
     ]
+  },
+  {
+    "id": "eng-w20261115-poem-03-01",
+    "chapter": "poem-03",
+    "type": "la5",
+    "marks": 5,
+    "stars": 2,
+    "label": "PYQ-style",
+    "topic": "theme",
+    "stem": "In 'A Thing of Beauty', Keats says that beauty is a joy for ever. Discuss what beauty gives us, why it never fades, and what it lifts us above. (120–150 words)",
+    "hint": "Claim → why 'for ever' → gifts (bower, sleep, health) → what we live despite (gloom, the pall) → nature and human sources → the endless fountain.",
+    "model_answer": "*How much to write: 120–150 words · about 8 minutes*\n\nKeats begins with a claim: a thing of beauty is <mark>a joy for ever</mark>. Its loveliness grows rather than fades, so it never passes into nothingness.\n\nThe poet lists what beauty gives. It offers a <u>quiet bower</u>, a shelter in which we rest, <u>sleep full of sweet dreams</u>, <u>health</u>, and quiet breathing. These gifts matter because we live through <u>gloom and despondence</u>, and beauty lifts the <u>pall</u> that hangs over our dark spirits.\n\nBeauty comes from nature and from human life. The sun, the moon, the trees, the daffodils and the clear streams are its sources, and so are the stories of the <u>mighty dead</u>, whose noble deaths we imagine with awe. Keats calls beauty an <u>endless fountain</u> of immortal drink, inexhaustible and divine.\n\n:::tip Your answer must contain\n- The claim, and the reason it is 'for ever'\n- Two or three gifts of beauty, with examples\n- What beauty lifts us above: gloom and despondence\n- Nature and human sources, and the endless fountain\n:::\n\n**Marks are lost for:** listing quotations without explaining them; missing the Romantic faith in beauty; no conclusion.",
+    "scheme": [
+      {
+        "step": "The claim and why beauty is a joy 'for ever'",
+        "marks": 1
+      },
+      {
+        "step": "Gifts of beauty: bower, sleep, health (two marks)",
+        "marks": 2
+      },
+      {
+        "step": "What beauty lifts us above: gloom, the pall",
+        "marks": 1
+      },
+      {
+        "step": "Nature and human sources; endless fountain; conclusion",
+        "marks": 1
+      }
+    ]
   }
 ]

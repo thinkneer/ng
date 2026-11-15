@@ -147,5 +147,27 @@
       { "step": "Death stanza: no freedom; tigers outlive her; art as escape", "marks": 1 },
       { "step": "Conclusion on the feminist protest; expression and length", "marks": 1 }
     ]
+  },
+  {
+    "id": "eng-w20261115-poem-05-03",
+    "chapter": "poem-05",
+    "type": "vsa2",
+    "marks": 2,
+    "stars": 3,
+    "label": "PYQ-style",
+    "topic": "image",
+    "stem": "Why is the wedding band described as having a 'massive weight', and what does it reveal about Aunt Jennifer's married life? (40–50 words)",
+    "hint": "The ring is a symbol: think about what marriage meant for her and who held the power in it.",
+    "model_answer": "*How much to write: 40–50 words · about 3 minutes*\n\nThe wedding band is <mark>a massive weight</mark> because marriage has burdened Aunt Jennifer and made her <u>her husband's possession</u>. It reveals a life of <u>bondage and fear</u>: her fingers flutter nervously and the needle is hard to pull, because she is <u>mastered</u> by the ordeals of marriage.\n\n:::tip Your answer must contain\n- The ring as a symbol of marriage and male power\n- What it shows: her bondage, fear and loss of freedom\n:::\n\n**Marks are lost for:** describing the ring without explaining what it symbolises; quoting without interpretation.",
+    "scheme": [
+      {
+        "step": "The ring as a symbol of marriage and male power",
+        "marks": 1
+      },
+      {
+        "step": "What it shows: bondage, fear, loss of freedom",
+        "marks": 1
+      }
+    ]
   }
 ]

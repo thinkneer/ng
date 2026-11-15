@@ -16,13 +16,13 @@ Stars are estimates: ★★★ most years · ★★ often · ★ sometimes. [mar
 
 ## Must-know lines and definitions
 
-- **Author:** A. R. Barton.
-- **Sophie:** school-leaving teenager; dreamer; wants a boutique, or to be an actress or fashion designer.
-- **Jansie:** Sophie's classmate; practical; says both are earmarked for the biscuit factory.
+- **Story author:** A. R. Barton.
+- **Sophie, the dreamer:** school-leaving teenager; wants a boutique, or to be an actress or fashion designer.
+- **Jansie, the realist:** Sophie's classmate; says both are earmarked for the biscuit factory.
 - **Sophie's father:** plump, hearty football fan; disbelieving, blunt.
 - **Sophie's mother:** worn out by housework; stooped over the sink.
-- **Derek:** Sophie's little brother.
-- **Geoff:** elder brother, three years older; apprentice mechanic; tall, strong, silent.
+- **Family member Derek:** Sophie's little brother.
+- **Geoff, elder brother:** three years older; apprentice mechanic; tall, strong, silent.
 - **Sophie on Geoff:** jealous of the unknown areas of his life; wants to ride pillion into his world.
 - **Danny Casey:** young Irish footballer for United; the family's hero watched every Saturday.
 - **The invented meeting:** in the arcade outside Royce's; Casey spoke kindly, has green eyes, not very tall.
@@ -30,13 +30,13 @@ Stars are estimates: ★★★ most years · ★★ often · ★ sometimes. [mar
 - **The promise:** Casey would meet her again next week.
 - **Geoff's reaction:** sceptical but half-believing; told Frank.
 - **Father's reaction:** wild stories will get her into trouble; turned to his own Casey memory.
-- **Leak:** Geoff → Frank → Jansie; Sophie feared Jansie would gossip.
+- **How the secret leaked:** Geoff → Frank → Jansie; Sophie feared Jansie would gossip.
 - **Sophie's retreat:** told Jansie it was Geoff's exaggeration, just a word in the arcade.
 - **Canal scene:** wooden bench under an elm; childhood haunt; waited till dark; Casey did not come.
 - **Her worry:** telling Geoff and watching his hope die.
-- **Ending:** Saturday match; Casey scores the second goal; hero real but out of reach.
-- **Title:** pun on being destined for success; Sophie goes nowhere.
-- **Themes:** fantasy vs reality, hero worship, class limits, adolescent longing.
+- **Story ending:** Saturday match; Casey scores the second goal; hero real but out of reach.
+- **Title meaning:** pun on being destined for success; Sophie goes nowhere.
+- **Main themes:** fantasy vs reality, hero worship, class limits, adolescent longing.
 
 ## Key formulas
 

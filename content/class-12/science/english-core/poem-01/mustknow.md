@@ -14,10 +14,10 @@ Stars are estimates: ★★★ most years · ★★ often · ★ sometimes. [mar
 
 ## Must-know lines and definitions
 
-- **Poet:** Kamala Das (also wrote as Madhavikutty).
-- **Situation:** driving from her parent's home to Cochin airport on a Friday morning.
+- **Poet's name:** Kamala Das (also wrote as Madhavikutty).
+- **Poem's situation:** driving from her parent's home to Cochin airport on a Friday morning.
 - **Mother in the car:** dozing, mouth open, face ashen like a corpse.
-- **Ashen:** grey, colourless like ash — a sign of age and lifelessness.
+- **Ashen face:** grey, colourless like ash — a sign of age and lifelessness.
 - **Poet's response:** pain; looks out of the window to escape the thought.
 - **Outside the car:** young trees sprinting; merry children spilling out of their homes.
 - **Meaning of trees and children:** youth, energy, life — contrast to the mother's age.
@@ -27,10 +27,10 @@ Stars are estimates: ★★★ most years · ★★ often · ★ sometimes. [mar
 - **The ache:** the old familiar childhood fear of losing her mother.
 - **The ending:** poet smiles again and again, promising to see her soon.
 - **Why the repeated smile:** to hide fear, to comfort her mother, to hold on to hope.
-- **Form:** one long sentence, free verse, no stanza break, enjambment.
-- **Tone:** quiet, reflective, tender, anxious.
-- **Devices:** simile, imagery, contrast, personification, repetition, symbolism.
-- **Themes:** ageing, mortality, fear of separation, love and helplessness, brave face.
+- **Poetic form:** one long sentence, free verse, no stanza break, enjambment.
+- **Poem's tone:** quiet, reflective, tender, anxious.
+- **Literary devices:** simile, imagery, contrast, personification, repetition, symbolism.
+- **Main themes:** ageing, mortality, fear of separation, love and helplessness, brave face.
 
 ## Key formulas
 

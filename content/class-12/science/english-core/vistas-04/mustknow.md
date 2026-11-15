@@ -16,16 +16,16 @@ Stars are estimates: ★★★ most years · ★★ often · ★ sometimes. [mar
 
 ## Must-know lines and definitions
 
-- **Author:** Pearl S. Buck, American Nobel laureate who grew up in China.
-- **Setting:** Japan's coast during the Second World War.
+- **Book author:** Pearl S. Buck, American Nobel laureate who grew up in China.
+- **Story setting:** Japan's coast during the Second World War.
 - **Dr Sadao Hoki:** Japanese surgeon trained in America; famous; perfecting a discovery to clean wounds.
 - **Why not at the front:** the old General might need surgery; his research was valuable.
-- **Hana:** Sadao's wife, met in America; he waited to be sure she was Japanese; marriage arranged the old way.
-- **Household:** two children; servants — gardener, cook, Yumi the nurse.
-- **The prisoner:** wounded white man washed ashore; gunshot wound in the back; cap marked U.S. Navy; name Tom.
+- **Hana, Sadao's wife:** met in America; he waited to be sure she was Japanese.
+- **Family and servants:** two children; servants — gardener, cook, Yumi the nurse.
+- **The prisoner:** wounded white man washed ashore; gunshot wound; cap marked U.S. Navy.
 - **The dilemma:** shelter him = treason; hand him over or push him back = his death.
 - **First decision:** operate, then hand him to the police when well.
-- **Yumi:** refused to wash the white man; Hana washed him herself.
+- **Yumi the nurse:** refused to wash the white man; Hana washed him herself.
 - **Gardener's warning:** healing what the gun and sea did would bring revenge on them all.
 - **Servants' exit:** left the house within a week, without informing on the family.
 - **The operation:** bullet lodged near the kidney, removed; Hana assisted and vomited.
@@ -33,11 +33,11 @@ Stars are estimates: ★★★ most years · ★★ often · ★ sometimes. [mar
 - **The General:** self-centred; trusted only Sadao as surgeon; promised private assassins.
 - **Three nights:** Sadao lay awake; prisoner alive each morning; assassins never came.
 - **Why no assassins:** the General forgot, absorbed in his own illness; asked Sadao not to mention it.
-- **Escape plan:** boat with food and clothes; row to the uninhabited island; wait for a Korean fishing boat.
+- **Escape plan:** boat, food, clothes; empty island; wait for a Korean fishing boat.
 - **Flashlight signals:** two flashes = needs food; one flash = safe; none = gone.
-- **Disguise:** Japanese clothes, black cloth over blond hair.
-- **Ending:** Sadao recalls prejudice in America, calls white faces repulsive, yet asks why he could not kill him.
-- **Themes:** humanity vs nationalism, duty vs conscience, prejudice on both sides, self-interest, courage.
+- **Prisoner's disguise:** Japanese clothes, black cloth over blond hair.
+- **Closing scene:** Sadao recalls American prejudice; yet asks why he could not kill him.
+- **Main themes:** humanity vs nationalism, duty vs conscience, prejudice on both sides, self-interest, courage.
 
 ## Key formulas
 

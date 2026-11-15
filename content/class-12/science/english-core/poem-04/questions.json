@@ -152,5 +152,35 @@
       { "step": "Greedy good-doers and false help", "marks": 1 },
       { "step": "Poet's pain and ironic self-reflection; expression and length", "marks": 1 }
     ]
+  },
+  {
+    "id": "eng-w20261115-poem-04-02",
+    "chapter": "poem-04",
+    "type": "la5",
+    "marks": 5,
+    "stars": 2,
+    "label": "PYQ-style",
+    "topic": "theme",
+    "stem": "In 'A Roadside Stand', Frost shows a gap between the poor farmers and the rich motorists who pass by. Discuss how the poet creates this gap and how he exposes false kindness. (120–150 words)",
+    "hint": "Stand and what they want → the passing cars and why they stop → the benefactors' plan → the poet's own pain and ending.",
+    "model_answer": "*How much to write: 120–150 words · about 8 minutes*\n\nFrost sets the <u>roadside stand</u> against the <u>polished traffic</u> that rushes past it. The farmers sell wild berries and squash, but what they really want is a little city money, a share of the <u>flower of cities</u>. The rich drivers stop only to complain about the signs, to ask the way, or to buy a gallon of gas. Their <mark>indifference</mark> is the heart of the gap.\n\nThe poem also exposes false kindness. The <u>greedy good-doers</u> plan to buy the farmers out and move them beside the theatre and the store, so that they become dependent. Frost calls these benefactors <u>beneficent beasts of prey</u>: they claim to help while they exploit.\n\nThe poet's own <u>pain</u> grows as he watches the open window waiting all day. He imagines ending their suffering in one stroke, then asks whether he would accept such <u>mercy</u> for his own pain.\n\n:::tip Your answer must contain\n- The stand, and what the farmers sell and want\n- The cars: polished traffic and indifference\n- The benefactors' plan, with the oxymorons\n- The poet's pain and the closing question\n:::\n\n**Marks are lost for:** describing the stand without the contrast; missing the false kindness; no closing point about the poet's pain.",
+    "scheme": [
+      {
+        "step": "The stand and what the farmers sell and want",
+        "marks": 1
+      },
+      {
+        "step": "The passing cars: indifference and the gap",
+        "marks": 1
+      },
+      {
+        "step": "Benefactors' plan and the oxymorons (false kindness)",
+        "marks": 2
+      },
+      {
+        "step": "Poet's pain and the closing question; expression",
+        "marks": 1
+      }
+    ]
   }
 ]
