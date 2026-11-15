@@ -6,6 +6,8 @@ import { data, routeFor } from '../data.js';
 import { store } from '../store.js';
 
 export const TYPE_LABEL = { mcq: 'MCQ', ar: 'A–R', case: 'Case', vsa2: '2 marks', sa3: '3 marks', la5: '5 marks' };
+/** "MCQ · 1 mark", "Case · 4 marks", but just "3 marks" when the type label already says it. */
+export const typeMarks = (q) => { const t = TYPE_LABEL[q.type] || q.type; const m = `${q.marks} mark${q.marks === 1 ? '' : 's'}`; return t === m ? t : `${t} · ${m}`; };
 const KEYS = 'ABCDEF';
 
 /** …/<chapter>/quiz/<type|all> */
@@ -60,7 +62,7 @@ function build({ title, questions, back, colour, emptyTitle, emptyText }) {
         count.textContent = `${i + 1} of ${questions.length}`;
         bar.style.width = (i / questions.length * 100).toFixed(1) + '%';
         stage.innerHTML = `<div class="rc__card pq__card" style="--unit:#${q._colour}">
-            <div class="rc__meta"><span class="chip chip--unit">${esc(q._ch.title)}</span><span class="t-footnote t-3">${TYPE_LABEL[q.type] || q.type} · ${q.marks} mark${q.marks === 1 ? '' : 's'} · <span class="stars">${'★'.repeat(q.stars || 1)}</span> · ${esc(q.label)}</span></div>
+            <div class="rc__meta"><span class="chip chip--unit">${esc(q._ch.title)}</span><span class="t-footnote t-3">${typeMarks(q)} · <span class="stars">${'★'.repeat(q.stars || 1)}</span> · ${esc(q.label)}</span></div>
             <div class="pq__stem" id="pq-stem"></div>
             <div id="pq-parts"></div>
             <div class="pq__opts" id="pq-opts"></div>
