@@ -104,7 +104,7 @@
     "topic": "Competition",
     "stem": "State Gause's competitive exclusion principle. How can competing species still coexist? Give an example.",
     "hint": "MacArthur's warblers.",
-    "model_answer": "Two closely related species competing for the same resources cannot coexist indefinitely; the inferior one is eliminated. They can coexist by resource partitioning: MacArthur's five closely related warbler species on the same tree avoided competition through different foraging behaviour.",
+    "model_answer": "*How much to write: 3–4 lines · 3 minutes*\n\n**Gause's competitive exclusion principle:** <mark>two closely related species competing for the same resources cannot co-exist indefinitely; the competitively inferior one will be eliminated eventually</mark>.\n\n**Coexistence:** competing species can coexist by <mark>resource partitioning</mark>, i.e. choosing different times for feeding or different foraging patterns.\n\n**Example:** <u>MacArthur</u> showed that <u>five closely related species of warblers</u> living on the same tree avoided competition and coexisted because of <u>behavioural differences in their foraging activities</u>.\n\n:::tip Your answer must contain\n- the principle with <u>\"closely related\"</u> and <u>\"same resources\"</u>\n- <mark>resource partitioning</mark>\n- MacArthur's <u>warblers</u>\n:::\n\n**Marks are lost for:** giving the barnacle example for coexistence; leaving out \"indefinitely\".",
     "scheme": [
       {
         "step": "Statement of Gause's principle",
@@ -126,7 +126,7 @@
     "topic": "Parasitism",
     "stem": "List four adaptations of parasites to their mode of life.",
     "hint": "Lose some organs, gain others.",
-    "model_answer": "Loss of unnecessary sense organs; adhesive organs or suckers to cling to the host; loss of digestive system; high reproductive capacity (also complex life cycles with intermediate hosts).",
+    "model_answer": "*How much to write: 4 points · 3 minutes*\n\nParasites have evolved special adaptations (any four):\n1. <mark>Loss of unnecessary sense organs</mark>.\n2. Presence of <u>adhesive organs or suckers</u> to cling on to the host.\n3. <mark>Loss of digestive system</mark> (they absorb digested food).\n4. <u>High reproductive capacity</u>.\n5. <u>Complex life cycles</u> with one or two intermediate hosts or vectors (e.g. human liver fluke uses a snail and a fish).\n\n:::tip Your answer must contain\n- four distinct adaptations\n- each written as a <u>structural or reproductive</u> change\n:::\n\n**Marks are lost for:** listing parasites instead of adaptations; giving \"camouflage\" (a prey defence).",
     "scheme": [
       {
         "step": "Four adaptations (½ each)",
@@ -144,7 +144,7 @@
     "topic": "Growth curves",
     "stem": "Compare exponential and logistic growth of a population, writing the equation for each and sketching or describing the curves.",
     "hint": "J and S; K.",
-    "model_answer": "Exponential growth occurs when resources are unlimited: dN/dt = rN (Nt = N0 e^rt), giving a J-shaped curve. Logistic growth occurs when resources are limited: dN/dt = rN(K − N)/K, where K is carrying capacity; the curve is S-shaped (lag, acceleration, deceleration, asymptote at K). The logistic model is more realistic.",
+    "model_answer": "*How much to write: 6–7 lines + a sketch · 6 minutes*\n\n| Exponential growth | Logistic growth |\n|---|---|\n| resources (food, space) <mark>unlimited</mark> | resources <mark>limited</mark> |\n| $\\dfrac{dN}{dt}=rN$, so $N_t=N_0e^{rt}$ | $\\dfrac{dN}{dt}=rN\\left(\\dfrac{K-N}{K}\\right)$ |\n| <u>J-shaped</u> curve | <u>S-shaped (sigmoid)</u> curve |\n| no upper limit | levels off at <u>carrying capacity (K)</u> |\n\n$r$ = intrinsic rate of natural increase; $K$ = carrying capacity, the <mark>maximum population the habitat can support</mark>; $N$ = population density.\n\n<figure class=\"fig\">\n<svg viewBox=\"0 0 330 160\" role=\"img\" aria-label=\"Exponential J-shaped and logistic S-shaped growth curves\">\n<path fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\" d=\"M40,140V12M40,140H310\"/>\n<path fill=\"none\" stroke=\"currentColor\" stroke-dasharray=\"4 3\" d=\"M40,44H310\"/>\n<path stroke=\"#2E8B3A\" fill=\"none\" stroke-width=\"2\" d=\"M40,136C120,134,160,120,180,96S210,20,222,12\"/>\n<path fill=\"none\" stroke=\"#E0B400\" stroke-width=\"2\" d=\"M40,136C110,134,140,110,165,80S220,46,310,45\"/>\n<g font-size=\"9\" fill=\"currentColor\"><text x=\"226\" y=\"20\">a: exponential (J)</text><text x=\"230\" y=\"60\">b: logistic (S)</text><text x=\"290\" y=\"40\">K</text><text x=\"10\" y=\"70\" transform=\"rotate(-90 14 70)\">Population (N)</text><text x=\"160\" y=\"154\">Time (t)</text><text x=\"44\" y=\"40\">carrying capacity</text></g>\n</svg>\n<figcaption>a: exponential (J-shaped); b: logistic (S-shaped) levelling off at K.</figcaption>\n</figure>\n\nThe logistic curve shows a lag phase, then acceleration, deceleration and finally an asymptote at K. As resources are finite for most animals, <mark>the logistic model is more realistic</mark>.\n\n:::tip Your answer must contain\n- both <mark>equations</mark> with the meaning of r and K\n- <u>J-shaped</u> vs <u>S-shaped</u> curves (sketch)\n- unlimited vs limited resources; logistic more realistic\n:::\n\n**Marks are lost for:** swapping the curves; writing $dN/dt=rN(K-N)$ without dividing by K.",
     "scheme": [
       {
         "step": "Exponential: unlimited resources, dN/dt = rN, J-curve",
@@ -210,7 +210,9 @@
           }
         ]
       }
-    ]
+    ],
+    "hint": "Two barnacles on the coast of Scotland. When the superior competitor is removed, the inferior one spreads: what is that called?",
+    "model_answer": "*How much to write: one line each for (i) and (ii), 2–3 lines for (iii) · 5 minutes*\n\n**(i)** The larger barnacle is <mark>*Balanus*</mark> and the smaller is <mark>*Chthamalus*</mark>; studied by <u>Connell</u> on the rocky sea coasts of Scotland.\n\n**(ii)** <mark>Competition</mark>, with signs <mark>(−, −)</mark> for both species (in nature one is often affected far more than the other).\n\n**(iii)** <mark>Competitive release</mark>: a species whose distribution is restricted by a superior competitor expands its range dramatically when the competitor is removed.\nAnother NCERT example: <u>goats introduced on the Galapagos Islands</u> led to the extinction of the <u>Abingdon tortoise</u> within a decade (or flamingoes and resident fishes competing for zooplankton in South American lakes).\n\n:::tip Your answer must contain\n- (i) <u>*Balanus*</u>, <u>*Chthamalus*</u>, Connell\n- (ii) <mark>competition (−, −)</mark>\n- (iii) <mark>competitive release</mark> + another example\n:::\n\n**Marks are lost for:** calling it amensalism; naming Gause as the scientist."
   },
   {
     "id": "bio-11-q10",
@@ -222,7 +224,7 @@
     "topic": "Interactions",
     "stem": "Explain mutualism, commensalism and parasitism with one example each. Describe one defence that prey have evolved against predators. [3 + 2]",
     "hint": "+/+, +/0, +/−.",
-    "model_answer": "Mutualism (+/+): both benefit, e.g. lichen (fungus + alga/cyanobacterium) or fig and its pollinating wasp. Commensalism (+/0): one benefits, other unaffected, e.g. orchid growing on a mango branch. Parasitism (+/−): parasite benefits at host's expense, e.g. Cuscuta on hedge plants or human liver fluke. Prey defence (any one, explained): camouflage of insects and frogs; monarch butterfly distasteful due to chemicals from a poisonous weed; thorns of Acacia; cardiac glycosides of Calotropis.",
+    "model_answer": "*How much to write: about two-thirds of a page · 9 minutes*\n\n**Mutualism (+, +):** both species benefit. e.g. <mark>lichens</mark>, an intimate mutualistic relationship between a <u>fungus and photosynthesising algae or cyanobacteria</u>; also mycorrhiza, and the fig tree and its pollinating wasp.\n\n**Commensalism (+, 0):** one species benefits and the other is <mark>neither harmed nor benefited</mark>. e.g. an <u>orchid growing as an epiphyte on a mango branch</u>; barnacles on the back of a whale; cattle egret and grazing cattle.\n\n**Parasitism (+, −):** the parasite benefits at the <mark>expense of the host</mark>. e.g. <u>*Cuscuta*</u> (a parasitic plant on hedge plants); human liver fluke; lice on humans (ectoparasites).\n\n**One prey defence (any one, explained):**\n- <u>Camouflage</u> (cryptic colouration): some insects and frogs blend into the background and are not easily detected by predators.\n- <mark>Distasteful chemicals</mark>: the <u>Monarch butterfly</u> is highly distasteful to its predator (a bird) because of a special chemical it acquires as a caterpillar by feeding on a poisonous weed.\n- Plants: thorns of <u>*Acacia*</u> and cactus; <u>*Calotropis*</u> produces highly poisonous cardiac glycosides, so cattle and goats do not browse it.\n\n:::tip Your answer must contain\n- three interactions with <mark>signs</mark> and one example each\n- one prey defence <u>explained</u> with its example\n:::\n\n**Marks are lost for:** giving cattle egret as mutualism; naming a defence without explaining how it protects.",
     "scheme": [
       {
         "step": "Mutualism with example",
