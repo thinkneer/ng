@@ -4,7 +4,7 @@ import { data } from './data.js';
 import { initTheme } from './theme.js';
 import { initPWA } from './pwa.js';
 import { $, $$, html, raw, icon, esc, openSheet, emptyState } from './ui.js';
-import { views } from './views/index.js';
+import { views, prefetchView } from './views/index.js';
 import { verifySession, verifyDbSession, isDbMode } from './auth.js';
 
 const PUBLIC_ROUTES = new Set(['signin', 'request', 'access', 'login', 'awaiting', 'reset']);
@@ -56,6 +56,7 @@ let renderSeq = 0;
 
 async function render(route) {
   const seq = ++renderSeq;
+  prefetchView(route.name); // fetch the screen's code in parallel with the session check below
   // Members-only: anyone without an approved session sees Sign in (or Request access).
   const dbMode = await isDbMode();
   const check = () => (sessionChecked ||= dbMode ? verifyDbSession() : verifySession());
@@ -106,7 +107,7 @@ async function render(route) {
   } else {
     const onScroll = () => topbar.classList.toggle('is-scrolled', main.scrollTop > 4);
     main.addEventListener('scroll', onScroll, { passive: true });
-    onScroll();
+    requestAnimationFrame(onScroll); // read scrollTop in the next frame, not straight after innerHTML (forced layout)
     currentCleanup = () => main.removeEventListener('scroll', onScroll);
   }
   const mountCleanup = await result.mount?.(viewEl);
@@ -153,6 +154,7 @@ document.addEventListener('keydown', (e) => {
 /* ---------- Boot ---------- */
 initTheme();
 initPWA();
+data.index().catch(() => {}); // almost every screen needs it: start the request now, not after the view loads
 const router = createRouter({ render, scroller: main });
 router.start();
 export { router };
