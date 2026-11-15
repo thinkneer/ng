@@ -33,5 +33,5 @@ _School annual exam (no board exam in Class 9): theory 80, 3 hours, set by the s
 - Bank target for numbered papers: 16 MCQ + 4 A–R + 4 × 2 + 5 × 3 + 5 × 5 + 3 case per paper, spread over the four disciplines.
 
 ## Site-chat notes (not done here: app/tooling code)
-- `scripts/bank-check.mjs` only looks at Class 12 Science; it prints "No live subject matches social-science". It needs a class/stream argument to work for Class 9.
+- Fixed 15 Nov 2026: `scripts/bank-check.mjs` now covers every live class (`node scripts/bank-check.mjs social-science`, or `--class 9` if another class gets the same subject); exam mode no longer crashes when the bank is too thin to fill a paper (it shows "short in the bank" notes instead). Current bank: 0 fresh papers; add MCQ +51, 5-mark +36, 3-mark +22, 2-mark +18, A–R +11, case +9 as chapters are written.
 - With two classes live, Join now shows a class picker; existing Class 12 members are unaffected (each member's class comes from their profile).

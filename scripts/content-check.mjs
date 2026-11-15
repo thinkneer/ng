@@ -9,7 +9,8 @@
 //   formulas  the subject formula sheet
 //   answers   every question: stem, options, hint, model answer and parts rendered as in Practice; plus missing
 //             hints and answers not yet in answer-script style (CLAUDE.md §5)
-// Usage: node scripts/content-check.mjs <subject> [chapter-id …] [--only=cards,read,mustknow,formulas,answers]
+// Usage: node scripts/content-check.mjs <subject> [chapter-id …] [--class=<N>] [--only=cards,read,mustknow,formulas,answers]
+//        (--class is needed only when two classes have a subject with the same id)
 //        [--width=360] [--height=740] [--shots]      (--shots saves a picture of each failure under /tmp/content-check/)
 // Exit code 1 when anything is marked FAIL. WARN lines are worth fixing but do not fail.
 import { spawn } from 'node:child_process';
@@ -30,10 +31,13 @@ const SHOTS = flag('shots') ? join('/tmp/content-check', subject) : null;
 if (SHOTS) mkdirSync(SHOTS, { recursive: true });
 
 // ---- find the subject ----
-const classDirs = readdirSync(join(ROOT, 'content'));
-let subDir = null, cls = null, stream = null;
-for (const c of classDirs) for (const s of readdirSync(join(ROOT, 'content', c))) if (existsSync(join(ROOT, 'content', c, s, subject, 'subject.json'))) { subDir = join(ROOT, 'content', c, s, subject); cls = c.replace('class-', ''); stream = s; }
-if (!subDir) { console.error(`No subject "${subject}" under content/`); process.exit(2); }
+const WANT_CLASS = opt('class', null);
+const classDirs = readdirSync(join(ROOT, 'content')).filter((c) => !WANT_CLASS || c === `class-${WANT_CLASS}`);
+const subjectHits = [];
+for (const c of classDirs) for (const s of readdirSync(join(ROOT, 'content', c))) if (existsSync(join(ROOT, 'content', c, s, subject, 'subject.json'))) subjectHits.push({ dir: join(ROOT, 'content', c, s, subject), cls: c.replace('class-', ''), stream: s });
+if (!subjectHits.length) { console.error(`No subject "${subject}" under content/${WANT_CLASS ? `class-${WANT_CLASS}/` : ''}`); process.exit(2); }
+if (subjectHits.length > 1) { console.error(`"${subject}" exists in more than one class (${subjectHits.map((f) => `class ${f.cls}`).join(', ')}): add --class=<N>`); process.exit(2); }
+const { dir: subDir, cls, stream } = subjectHits[0];
 const subjectJson = JSON.parse(readFileSync(join(subDir, 'subject.json'), 'utf8'));
 const allChapters = (subjectJson.units || []).flatMap((u) => (u.chapters || []).map((c) => (typeof c === 'string' ? c : c.id))).filter((id) => existsSync(join(subDir, id)));
 const chapters = chapterArgs.length ? chapterArgs : allChapters;

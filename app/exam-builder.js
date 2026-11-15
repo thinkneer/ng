@@ -109,7 +109,7 @@ export function buildPapers({ subject, pattern, bank, upTo = 20, tries = 24 }) {
       const cand = attempt({ slots, targets, weighted, byType, usage, r });
       if (!best || cand.score < best.score) best = cand;
     }
-    for (const it of best.items) { usage.set(it.main.ref, usage.get(it.main.ref) + 1); if (it.alt) usage.set(it.alt.ref, usage.get(it.alt.ref) + 1); }
+    for (const it of best.items) { if (!it.main) continue; usage.set(it.main.ref, usage.get(it.main.ref) + 1); if (it.alt) usage.set(it.alt.ref, usage.get(it.alt.ref) + 1); }
     papers.push(shape({ n, pattern, slots, picked: best.items, targets, weighted }));
   }
   return papers;

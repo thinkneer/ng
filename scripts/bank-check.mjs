@@ -6,8 +6,9 @@
  *      for each short type, the units with the fewest such questions for their weight.
  *   2. Cards: chapters without cards.json, decks under 8 cards, days until cards are required.
  *
- * Usage:  node scripts/bank-check.mjs [subject …] [--target 4] [--json]
- *         (no subject = every live subject of Class 12 Science)
+ * Usage:  node scripts/bank-check.mjs [subject …] [--class <N>] [--target 4] [--json]
+ *         (no subject = every live subject of every live class; --class limits it to one class, and is
+ *          needed when two classes have a subject with the same id)
  * Reads data/index.json (run build-index first). Writes nothing.
  */
 import { readFileSync, existsSync } from 'node:fs';
@@ -20,20 +21,30 @@ const args = process.argv.slice(2);
 const JSON_OUT = args.includes('--json');
 const ti = args.indexOf('--target');
 const TARGET = ti >= 0 ? Number(args[ti + 1]) || 4 : 4;
-const wanted = args.filter((a, i) => !a.startsWith('--') && !(ti >= 0 && i === ti + 1));
+const ci = args.indexOf('--class');
+const WANT_CLASS = ci >= 0 ? String(args[ci + 1] || '').replace(/^class-/, '') : null;
+const wanted = args.filter((a, i) => !a.startsWith('--') && !(ti >= 0 && i === ti + 1) && !(ci >= 0 && i === ci + 1));
 const CARDS_REQUIRED_FROM = '2026-12-01';
 const today = process.env.NG_TODAY || new Date().toISOString().slice(0, 10);
 const NAME = { mcq: 'MCQ', ar: 'A–R', vsa2: '2-mark', sa3: '3-mark', case: 'case (4)', la5: '5-mark' };
 
 const read = (p) => JSON.parse(readFileSync(join(ROOT, p), 'utf8'));
 const idx = read('data/index.json');
-const stream = idx.classes.find((c) => c.id === '12')?.streams.find((s) => s.id === 'science');
-const subjects = stream.subjects.filter((s) => s.status === 'live' && (!wanted.length || wanted.includes(s.id)));
-if (!subjects.length) { console.error(`No live subject matches ${wanted.join(', ')}`); process.exit(1); }
+// every live subject of every live class and stream (or only --class N)
+const subjects = idx.classes
+  .filter((c) => c.status === 'live' && (!WANT_CLASS || c.id === WANT_CLASS))
+  .flatMap((c) => (c.streams || []).filter((st) => st.status === 'live')
+    .flatMap((st) => st.subjects.filter((s) => s.status === 'live' && (!wanted.length || wanted.includes(s.id)))
+      .map((s) => ({ ...s, cls: c.id, clsName: c.name }))));
+if (!subjects.length) { console.error(`No live subject matches ${wanted.join(', ') || 'anything'}${WANT_CLASS ? ` in class ${WANT_CLASS}` : ''}`); process.exit(1); }
+for (const id of new Set(wanted)) {
+  const hits = subjects.filter((s) => s.id === id);
+  if (hits.length > 1) { console.error(`"${id}" is live in more than one class (${hits.map((s) => s.clsName).join(', ')}): add --class <N>`); process.exit(1); }
+}
 
 const out = [];
 for (const sub of subjects) {
-  const patPath = `data/patterns/class-12/${sub.id}.json`;
+  const patPath = `data/patterns/class-${sub.cls}/${sub.id}.json`;
   const pattern = existsSync(join(ROOT, patPath)) ? read(patPath) : null;
   const chapters = sub.units.flatMap((u) => u.chapters.map((c) => ({ ...c, unit: u })));
   const entries = [];
@@ -41,7 +52,7 @@ for (const sub of subjects) {
     const p = join(sub.path, c.id, 'questions.json');
     if (existsSync(join(ROOT, p))) for (const q of read(p)) entries.push({ q, chapter: c.id });
   }
-  const r = { subject: sub.id, name: sub.name, questions: entries.length };
+  const r = { class: sub.cls, subject: sub.id, name: `${sub.clsName} ${sub.name}`, questions: entries.length };
 
   // ---- exam bank ----
   if (canBuild(pattern)) {
