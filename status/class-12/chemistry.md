@@ -99,7 +99,7 @@ No "(to be added as SVG)" placeholders remain in any file.
 
 ## Still to draw (SVG to-dos)
 - Ch 2: lead storage battery or fuel cell (optional); SHE.
-- Ch 5: fac/mer; orbital-box (VBT) diagrams, now written as text boxes.
+- Ch 5: done 15 Nov (fac/mer and VBT box diagrams are now figures).
 - Ch 6: SN1 planar carbocation (optional).
 - Organic structures in general (benzene rings, mechanisms with curly arrows) are still condensed formulas and words.
 
@@ -118,7 +118,7 @@ Still to make, as content once the site has a place for practicals:
 ## What's left, in order
 1. Detailed NCERT-map + figures pass (done: Ch 4, Ch 5): Ch 1–3 and 6–10 as the admin sends each NCERT PDF.
 2. Board answers in answer-script style: convert Ch 4–10 written answers (Ch 1–3 done), then new topper sets for Ch 4–10.
-3. The remaining optional SVG to-dos above (fac/mer, VBT boxes, SHE).
+3. The remaining optional SVG to-dos above (SHE).
 4. About 11 more `la5` (5-mark) questions so exam mode can build 3 papers without repeats; then more practice per chapter, especially numericals for Ch 1–3 and conversions for Ch 6–9 (most chapters have 10–14 questions; Ch 8 has 19).
 5. Practical help (list above).
 6. Past papers solved with verified `PYQ (year)` labels, and full-length timed papers under `papers/` for 17–26 Feb.
