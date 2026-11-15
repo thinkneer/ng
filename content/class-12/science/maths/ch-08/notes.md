@@ -6,7 +6,7 @@ A definite integral adds up infinitely many thin pieces. In this chapter the pie
 
 Take a curve $y=f(x)$ lying above the $x$-axis between $x=a$ and $x=b$. Slice the region into thin vertical strips. A strip at position $x$ has height $y$ and width $dx$, so its area is $y\,dx$. Adding all the strips from $a$ to $b$ is exactly what a definite integral does.
 
-<figure class="fig">
+<figure class="fig" id="ch08-strip">
 <svg viewBox="0 0 320 185" role="img" aria-label="Region under a curve between x equals a and x equals b with one thin vertical strip of width dx and height y">
 <line x1="20" y1="160" x2="305" y2="160" stroke="currentColor" stroke-width="1"/>
 <line x1="40" y1="15" x2="40" y2="175" stroke="currentColor" stroke-width="1"/>
@@ -37,6 +37,44 @@ $A=\displaystyle\int_2^43\sqrt x\,dx=3\left[\dfrac23x^{3/2}\right]_2^4=2\left[x^
 $=2\left(8-2\sqrt2\right)=\boxed{(16-4\sqrt2)\text{ sq. units}}$ [1]
 :::
 
+```ng-steps
+id: steps-area
+title: Every area question
+step: Sketch the curve and the bounding lines; shade the required region.
+step: Draw one thin strip: vertical if the region sits on the $x$-axis, horizontal if it sits on the $y$-axis.
+step: Read the limits from the sketch (find any intersection points by solving).
+step: Write the integral: $\int y\,dx$ or $\int x\,dy$, and use symmetry if there is any.
+step: Integrate, apply the limits and end with "sq. units".
+```
+
+```ng-numerical
+id: num-area-parabola
+title: Area under a parabola
+question: Find the area bounded by the curve $y=x^2$, the $x$-axis and the lines $x=0$ and $x={{a}}$.
+var: a | 1 | 6 | 1
+answer: a^3/3
+unit: sq. units
+dp: 2
+step: Area $=\displaystyle\int_0^{\,{{a}}\,}x^2\,dx=\left[\dfrac{x^3}{3}\right]_0^{\,{{a}}\,}$
+step: $=\dfrac{\,{{a}}^3}{3}=$ **{{a^3/3:2}} sq. units**
+```
+
+```ng-mnemonic
+id: standing-or-sleeping-strip
+title: dx or dy?
+trick: **Standing strip → dx. Sleeping strip → dy.**
+meaning: A vertical (standing) strip has width $dx$ and height $y$: area $=\int y\,dx$.
+meaning: A horizontal (sleeping) strip has height $dy$ and length $x$: area $=\int x\,dy$.
+prompt: A horizontal strip is used. Is the integral in dx or dy?
+```
+
+```ng-draw
+id: draw-strip
+title: Sketch a region with its strip
+svg: ref: notes#ch08-strip
+time: 2
+```
+
 **In one breath:** Sketch the region, draw one strip, write its area as $y\,dx$, integrate between the two ordinates, and finish with "sq. units".
 
 ## Using symmetry: the circle and the ellipse
@@ -47,7 +85,7 @@ A circle or an ellipse centred at the origin is symmetric about both axes. So yo
 $$\int\sqrt{a^2-x^2}\,dx=\frac x2\sqrt{a^2-x^2}+\frac{a^2}{2}\sin^{-1}\frac xa+C$$
 :::
 
-<figure class="fig">
+<figure class="fig" id="ch08-ellipse">
 <svg viewBox="0 0 320 200" role="img" aria-label="Ellipse x squared over 16 plus y squared over 9 equals 1 with the first quadrant shaded and a vertical strip">
 <line x1="20" y1="100" x2="305" y2="100" stroke="currentColor" stroke-width="1"/>
 <line x1="160" y1="8" x2="160" y2="192" stroke="currentColor" stroke-width="1"/>
@@ -79,6 +117,26 @@ The same working with $a$ and $b$ in place of 4 and 3 gives $\pi ab$ for any ell
 A labelled figure with the region shaded and one strip drawn is worth ½ to 1 mark in every area question. Say "by symmetry" when you multiply by 2 or 4.
 :::
 
+```ng-numerical
+id: num-ellipse-area
+title: Area of an ellipse
+question: Find the area enclosed by the ellipse $\dfrac{x^2}{\,{{a^2:0}}\,}+\dfrac{y^2}{\,{{b^2:0}}\,}=1$.
+var: a | 3 | 6 | 1
+var: b | 1 | 2 | 1
+answer: pi*a*b
+unit: sq. units
+dp: 2
+step: Here $a={{a}}$, $b={{b}}$. Area $=4\displaystyle\int_0^{\,{{a}}\,}\dfrac{\,{{b}}\,}{\,{{a}}\,}\sqrt{\,{{a^2:0}}-x^2}\,dx$
+step: $=\pi ab=\pi\times{{a}}\times{{b}}=$ **{{pi*a*b:2}} sq. units** (in the exam, show the integration)
+```
+
+```ng-draw
+id: draw-ellipse
+title: Sketch the ellipse with the first quadrant shaded
+svg: ref: notes#ch08-ellipse
+time: 3
+```
+
 **In one breath:** For a circle or ellipse, integrate $y$ over the first quadrant with the $\sqrt{a^2-x^2}$ formula and multiply by 4.
 
 ## Horizontal strips
@@ -108,7 +166,7 @@ An integral counts area below the $x$-axis as negative. Area itself is never neg
 
 A modulus function needs the same care for a different reason: its formula changes at the corner.
 
-<figure class="fig">
+<figure class="fig" id="ch08-mod">
 <svg viewBox="0 0 320 180" role="img" aria-label="Graph of y equals mod of x plus 3, a V with corner at minus 3, shaded between x equals minus 6 and x equals 0">
 <line x1="15" y1="150" x2="305" y2="150" stroke="currentColor" stroke-width="1"/>
 <line x1="250" y1="15" x2="250" y2="170" stroke="currentColor" stroke-width="1"/>
@@ -137,13 +195,33 @@ $=\dfrac92+\dfrac92=\boxed{9\text{ sq. units}}$ [1]
 Integrating across a sign change makes the positive and negative parts cancel. Find where the curve meets the axis and split there.
 :::
 
+```ng-graph
+id: graph-sine-area
+title: Area is not always the integral
+x: x | 0 | 6.2832
+y: y | -3 | 3
+curve: y = a sin x | a*sin(x)
+slider: a | $a$ | 1 | 3 | 0.5 | 1
+preset: y = sin x | a=1
+note: From $0$ to $2\pi$ the integral of $\sin x$ is 0, but the area is $2+2=4$: the part below the axis is counted with its modulus.
+```
+
+```ng-mnemonic
+id: area-is-never-negative
+title: Below the axis
+trick: **Area never goes negative: split and take the modulus**
+meaning: Where the curve is below the $x$-axis, the integral comes out negative; take its absolute value before adding.
+meaning: Where there is a corner (a modulus), split the integral at the corner.
+prompt: The integral for part of a region comes out as −2. What do you add to the area?
+```
+
 **In one breath:** Area is positive. Split the integral wherever the curve crosses the axis or the formula changes, and add the sizes of the pieces.
 
 ## Regions bounded by a line and a curve
 
 When a line and a curve together enclose a region, find where they meet, then look at your strip as it moves across. If the top of the strip switches from the line to the curve, split the region at that point and add the two areas.
 
-<figure class="fig">
+<figure class="fig" id="ch08-circle-line">
 <svg viewBox="0 0 320 180" role="img" aria-label="First quadrant region bounded by the x axis, the line x equals root 3 times y and the circle x squared plus y squared equals 4">
 <line x1="20" y1="150" x2="305" y2="150" stroke="currentColor" stroke-width="1"/>
 <line x1="70" y1="10" x2="70" y2="170" stroke="currentColor" stroke-width="1"/>
@@ -178,5 +256,23 @@ A parabola cut by a vertical line is simpler because of symmetry about the $x$-a
 A triangle with given vertices can also be asked "using integration". Write the equations of the three sides, then add the areas under the two upper sides and subtract the area under the lower side. For vertices $(1,0)$, $(2,2)$, $(3,1)$ this gives $\displaystyle\int_1^22(x-1)\,dx+\int_2^3(4-x)\,dx-\int_1^3\dfrac{x-1}{2}\,dx=1+\dfrac32-1=\dfrac32$ sq. units.
 
 In the 2026–27 syllabus this chapter covers the area under simple curves: lines, circles, parabolas and ellipses in standard form. "Area between two curves" is not a listed topic; a region with a line and one curve is handled by splitting, as above.
+
+```ng-derive
+id: derive-circle-line-area
+title: Circle, line and axis
+prompt: Find the area of the region in the first quadrant enclosed by the $x$-axis, the line $x=\sqrt3\,y$ and the circle $x^2+y^2=4$.
+time: 8
+check: Sketch with the region shaded; point of intersection $(\sqrt3,1)$ | 1
+check: Area $=\displaystyle\int_0^{\sqrt3}\dfrac{x}{\sqrt3}\,dx+\int_{\sqrt3}^{2}\sqrt{4-x^2}\,dx$ | 1.5
+check: First integral $=\dfrac{\sqrt3}{2}$; second $=\left[\dfrac x2\sqrt{4-x^2}+2\sin^{-1}\dfrac x2\right]_{\sqrt3}^{2}=\dfrac\pi3-\dfrac{\sqrt3}{2}$ | 1.5
+check: Area $=\dfrac\pi3$ sq. units | 1
+```
+
+```ng-draw
+id: draw-circle-line
+title: Sketch the circle, the line and the shaded region
+svg: ref: notes#ch08-circle-line
+time: 3
+```
 
 **In one breath:** Find the intersection point, split the region where the boundary changes, integrate each part and add.

@@ -40,13 +40,35 @@ Subtracting: $8a=16$, so $\boxed{a=2,\ b=1}$ [1]
 Showing LHL = RHL is not enough. The common value must also equal $f(a)$. Write all three lines; each one carries marks.
 :::
 
+```ng-mnemonic
+id: three-way-handshake
+title: Continuity at x = a
+trick: A **three-way handshake**: left, right and the point itself
+meaning: Left-hand limit = right-hand limit = $f(a)$. All three must be the same number.
+meaning: In a "find $k$" question, write the three values and equate them.
+prompt: Which three values must be equal for f to be continuous at x = a?
+```
+
+```ng-numerical
+id: num-k-for-continuity
+title: Find k for continuity
+question: $f(x)=kx^2$ for $x\le{{a}}$ and $f(x)={{c}}$ for $x>{{a}}$. Find $k$ so that $f$ is continuous at $x={{a}}$.
+var: a | 2 | 5 | 1
+var: c | 3 | 12 | 3
+answer: c/a^2
+dp: 3
+step: LHL $=\lim\limits_{x\to{{a}}^-}kx^2={{a^2:0}}k$, and $f({{a}})={{a^2:0}}k$.
+step: RHL $=\lim\limits_{x\to{{a}}^+}{{c}}={{c}}$.
+step: Continuous at $x={{a}}$: ${{a^2:0}}k={{c}}$, so $k=$ **{{c/a^2:3}}**
+```
+
 **In one breath:** Continuous at $a$ means left limit = right limit = $f(a)$. For an unknown constant, compute the limits, equate them to the value at the point, and solve.
 
 ## Differentiability at a point
 
 The derivative at $c$ is the limit of the slope of a chord, $\dfrac{f(c+h)-f(c)}{h}$, as $h\to0$. Take $h$ negative and you get the left-hand derivative (LHD); take $h$ positive and you get the right-hand derivative (RHD). The function is differentiable at $c$ only if the two agree.
 
-<figure class="fig">
+<figure class="fig" id="ch05-mod-corner">
 <svg viewBox="0 0 320 170" role="img" aria-label="Graph of y equals mod of x minus 1, a V shape with its corner at x equals 1">
 <line x1="20" y1="140" x2="300" y2="140" stroke="currentColor" stroke-width="1"/>
 <line x1="60" y1="20" x2="60" y2="155" stroke="currentColor" stroke-width="1"/>
@@ -74,6 +96,35 @@ LHD $\ne$ RHD, so $f$ is **not differentiable** at $x=1$ [½]
 
 Every differentiable function is continuous, because a function cannot have a slope at a point where its graph breaks. The reverse is false: $|x-1|$ is continuous at 1 and still not differentiable there. Corners are the usual culprits, so $|x-a|$ fails at $x=a$, and $|x-1|+|x-2|$ fails at both 1 and 2.
 
+```ng-graph
+id: graph-mod-corner
+title: A corner you can move
+x: x | -4 | 6
+y: y | -1 | 6
+curve: y = mod(x − a) | abs(x-a)
+slider: a | corner at $x=a$ | -2 | 4 | 0.5 | 1
+preset: corner at x = 1 | a=1
+preset: corner at x = 0 | a=0
+note: The graph has no break, so the function is continuous everywhere. At the corner the slope jumps from $-1$ to $+1$, so it is not differentiable there.
+```
+
+```ng-draw
+id: draw-mod-corner
+title: Sketch y = |x − 1|
+svg: ref: notes#ch05-mod-corner
+time: 2
+```
+
+```ng-compare
+id: continuity-vs-differentiability
+title: Continuous vs differentiable at x = a
+cols: Continuous | Differentiable
+row: Test | LHL = RHL = $f(a)$ | LHD = RHD (both finite)
+row: Graph | no break or jump | no break and no corner
+row: Link | does not guarantee differentiability | always implies continuity
+row: $\lvert x-1\rvert$ at $x=1$ | yes | no: LHD $=-1$, RHD $=1$
+```
+
 **In one breath:** Differentiable means LHD = RHD. Differentiable implies continuous; continuous does not imply differentiable (think of a corner).
 
 ## Chain rule and inverse trigonometric functions
@@ -98,6 +149,14 @@ $y=\tan^{-1}\dfrac{\sec\theta-1}{\tan\theta}=\tan^{-1}\dfrac{1-\cos\theta}{\sin\
 
 $y=\dfrac12\tan^{-1}x$, so $\dfrac{dy}{dx}=\boxed{\dfrac{1}{2(1+x^2)}}$ [1]
 :::
+
+```ng-mnemonic
+id: peel-the-onion
+title: Chain rule
+trick: **Peel the onion**: outside layer first, then the next, and multiply
+meaning: $\dfrac{d}{dx}\sin(x^2)$: outside $\sin(\ )\to\cos(x^2)$, inside $x^2\to2x$. Answer $2x\cos(x^2)$. Keep going until you have differentiated the innermost $x$.
+prompt: How do you differentiate a function of a function?
+```
 
 **In one breath:** Differentiate outside-in and multiply by the derivative of the inside. For inverse trig with a messy argument, substitute ($x=\tan\theta$, $\sin\theta$ or $\cos2\theta$) to simplify before differentiating.
 
@@ -141,6 +200,16 @@ $\dfrac{dy}{dx}=x^{\sin x}\left[\cos x\log x+\dfrac{\sin x}{x}\right]+(\sin x)^{
 $\log(u+v)$ is not $\log u+\log v$. When $y$ is a sum, split it into $u$ and $v$, differentiate each by logs, then add.
 :::
 
+```ng-steps
+id: steps-log-differentiation
+title: Logarithmic differentiation of y = uᵛ
+step: Use it when the variable is in both the base and the power, such as $y=x^{\sin x}$.
+step: Take logs of both sides: $\log y=\sin x\,\log x$.
+step: Differentiate both sides with respect to $x$: $\dfrac1y\dfrac{dy}{dx}=\cos x\log x+\dfrac{\sin x}{x}$.
+step: Multiply by $y$ and put back its value: $\dfrac{dy}{dx}=x^{\sin x}\left[\cos x\log x+\dfrac{\sin x}{x}\right]$.
+step: For a sum such as $x^x+(\sin x)^x$, call the terms $u$ and $v$ and treat each one separately. Never take the log of a sum.
+```
+
 **In one breath:** Variable in the power? Take log, differentiate the product, multiply back by $y$. For a sum of such terms, handle each term separately.
 
 ## Parametric functions
@@ -182,5 +251,16 @@ Multiply by $(1+x^2)$: $(x^2+1)^2y_2+2x(x^2+1)y_1=2$. Hence proved. [1]
 :::
 
 When $y_1$ contains $\sqrt{1-x^2}$, as with $y=(\sin^{-1}x)^2$ or $y=e^{a\cos^{-1}x}$, cross-multiply and square both sides first; the square root disappears and the second differentiation takes one line.
+
+```ng-derive
+id: derive-second-order-log
+title: A standard "prove that"
+prompt: If $y=3\cos(\log x)+4\sin(\log x)$, show that $x^2y_2+xy_1+y=0$.
+time: 5
+check: $y_1=\dfrac{-3\sin(\log x)+4\cos(\log x)}{x}$ | 1
+check: Cross-multiply before differentiating again: $xy_1=-3\sin(\log x)+4\cos(\log x)$ | 0.5
+check: Differentiate: $xy_2+y_1=\dfrac{-3\cos(\log x)-4\sin(\log x)}{x}$ | 1
+check: Multiply by $x$: $x^2y_2+xy_1=-y$, hence the result | 0.5
+```
 
 **In one breath:** Find $y_1$, clear the fraction or root, differentiate once more, and rearrange into the form asked. End with "Hence proved".

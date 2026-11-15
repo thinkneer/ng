@@ -1,0 +1,115 @@
+[
+  {
+    "id": "ch10-parallelogram",
+    "kind": "figure",
+    "title": "Why |a × b| is an area",
+    "svg": "ref: notes#ch10-parallelogram",
+    "back": "Base $\\lvert\\vec a\\rvert$, height $\\lvert\\vec b\\rvert\\sin\\theta$: area of the parallelogram $=\\lvert\\vec a\\rvert\\lvert\\vec b\\rvert\\sin\\theta=\\lvert\\vec a\\times\\vec b\\rvert$. A triangle on the same sides is half of it.",
+    "stars": 3,
+    "tags": [
+      "diagram"
+    ]
+  },
+  {
+    "id": "magnitude",
+    "kind": "formula",
+    "title": "Magnitude of a vector",
+    "tex": "|\\vec a|=\\sqrt{a_1^2+a_2^2+a_3^2}",
+    "legend": [
+      "a_1, a_2, a_3 = components along the axes"
+    ],
+    "back": "Vector joining $P$ to $Q$: $\\vec{PQ}$ = position vector of $Q$ − position vector of $P$."
+  },
+  {
+    "id": "unit-vector",
+    "kind": "formula",
+    "title": "Unit vector",
+    "tex": "\\hat a=\\dfrac{\\vec a}{|\\vec a|}",
+    "back": "Divide by your own size. A vector of magnitude $m$ in the direction of $\\vec a$ is $m\\hat a$.",
+    "stars": 3
+  },
+  {
+    "id": "section-formula",
+    "kind": "formula",
+    "title": "Section formula (internal, m : n)",
+    "tex": "\\vec r=\\dfrac{m\\vec b+n\\vec a}{m+n}",
+    "legend": [
+      "a, b = position vectors of the end points A and B"
+    ],
+    "back": "$m$ multiplies the far end $\\vec b$. Mid-point: $\\dfrac{\\vec a+\\vec b}{2}$. External division: replace $n$ by $-n$.",
+    "stars": 2
+  },
+  {
+    "id": "dot-product",
+    "kind": "formula",
+    "title": "Dot product",
+    "tex": "\\vec a\\cdot\\vec b=a_1b_1+a_2b_2+a_3b_3=|\\vec a||\\vec b|\\cos\\theta",
+    "back": "A scalar. $\\vec a\\cdot\\vec a=\\lvert\\vec a\\rvert^2$. $\\hat i\\cdot\\hat i=1$, $\\hat i\\cdot\\hat j=0$.",
+    "stars": 3
+  },
+  {
+    "id": "angle-between-vectors",
+    "kind": "formula",
+    "title": "Angle between two vectors",
+    "tex": "\\cos\\theta=\\dfrac{\\vec a\\cdot\\vec b}{|\\vec a||\\vec b|}",
+    "back": "Perpendicular vectors: $\\vec a\\cdot\\vec b=0$. This is how you find an unknown $\\lambda$.",
+    "stars": 3
+  },
+  {
+    "id": "projection",
+    "kind": "formula",
+    "title": "Projection of a on b",
+    "tex": "\\dfrac{\\vec a\\cdot\\vec b}{|\\vec b|}",
+    "back": "Divide by the magnitude of the vector you are projecting **on**. It is a scalar.",
+    "stars": 3,
+    "tags": [
+      "1-mark"
+    ]
+  },
+  {
+    "id": "square-of-sum",
+    "kind": "formula",
+    "title": "Square of a sum",
+    "tex": "|\\vec a+\\vec b|^2=|\\vec a|^2+2\\,\\vec a\\cdot\\vec b+|\\vec b|^2",
+    "back": "The tool for \"$\\vec a+\\vec b+\\vec c=\\vec0$\" and \"$\\lvert\\vec a+\\vec b\\rvert=\\lvert\\vec a-\\vec b\\rvert$\" questions (the second gives $\\vec a\\perp\\vec b$).",
+    "stars": 2
+  },
+  {
+    "id": "cross-product",
+    "kind": "formula",
+    "title": "Cross product",
+    "tex": "\\vec a\\times\\vec b=\\begin{vmatrix}\\hat i&\\hat j&\\hat k\\\\a_1&a_2&a_3\\\\b_1&b_2&b_3\\end{vmatrix}",
+    "back": "A vector perpendicular to both. $\\vec a\\times\\vec b=-\\vec b\\times\\vec a$; $\\hat i\\times\\hat j=\\hat k$; $\\vec a\\times\\vec a=\\vec0$.",
+    "stars": 3
+  },
+  {
+    "id": "area-parallelogram",
+    "kind": "formula",
+    "title": "Areas from the cross product",
+    "tex": "\\text{parallelogram}=|\\vec a\\times\\vec b|\\qquad\\text{triangle}=\\dfrac12|\\vec a\\times\\vec b|",
+    "back": "With diagonals $\\vec d_1$, $\\vec d_2$ of a parallelogram: area $=\\dfrac12\\lvert\\vec d_1\\times\\vec d_2\\rvert$.",
+    "stars": 3,
+    "tags": [
+      "3-mark"
+    ]
+  },
+  {
+    "id": "unit-perpendicular",
+    "kind": "formula",
+    "title": "Unit vector perpendicular to a and b",
+    "tex": "\\pm\\dfrac{\\vec a\\times\\vec b}{|\\vec a\\times\\vec b|}",
+    "back": "Two answers (both signs) unless the question fixes the direction.",
+    "stars": 2
+  },
+  {
+    "id": "lagrange-identity",
+    "kind": "formula",
+    "title": "Lagrange's identity",
+    "tex": "|\\vec a\\times\\vec b|^2+(\\vec a\\cdot\\vec b)^2=|\\vec a|^2|\\vec b|^2",
+    "back": "Because $\\sin^2\\theta+\\cos^2\\theta=1$. Gives $\\lvert\\vec a\\times\\vec b\\rvert$ from $\\vec a\\cdot\\vec b$ in one line.",
+    "stars": 2,
+    "tags": [
+      "1-mark"
+    ]
+  }
+]

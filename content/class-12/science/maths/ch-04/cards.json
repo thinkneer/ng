@@ -1,0 +1,108 @@
+[
+  {
+    "id": "det-two-by-two",
+    "kind": "formula",
+    "title": "Determinant of order 2",
+    "tex": "\\begin{vmatrix}a&b\\\\c&d\\end{vmatrix}=ad-bc",
+    "back": "Main diagonal product minus the other diagonal product. Only square matrices have determinants.",
+    "stars": 2
+  },
+  {
+    "id": "cofactor",
+    "kind": "formula",
+    "title": "Minor and cofactor",
+    "tex": "A_{ij}=(-1)^{i+j}M_{ij}",
+    "legend": [
+      "M_{ij} = determinant left after deleting row i and column j"
+    ],
+    "back": "Signs follow a chessboard starting with +. $\\lvert A\\rvert$ = sum of (elements of any row or column × their own cofactors).",
+    "stars": 3
+  },
+  {
+    "id": "det-of-ka",
+    "kind": "formula",
+    "title": "Determinant of kA",
+    "tex": "|kA|=k^n|A|",
+    "legend": [
+      "n = order of A"
+    ],
+    "back": "Order 3: $\\lvert 2A\\rvert=8\\lvert A\\rvert$. The most common 1-mark slip is writing $2\\lvert A\\rvert$.",
+    "stars": 3,
+    "tags": [
+      "1-mark"
+    ]
+  },
+  {
+    "id": "triangle-area",
+    "kind": "formula",
+    "title": "Area of a triangle",
+    "tex": "\\Delta=\\dfrac12\\left|\\,\\begin{vmatrix}x_1&y_1&1\\\\x_2&y_2&1\\\\x_3&y_3&1\\end{vmatrix}\\,\\right|",
+    "back": "Area is positive: take the absolute value. If the area is given, use both signs ($\\pm$) to find $k$. Zero area means collinear points.",
+    "stars": 3
+  },
+  {
+    "id": "adjoint-identity",
+    "kind": "formula",
+    "title": "The adjoint identity",
+    "tex": "A(\\operatorname{adj}A)=(\\operatorname{adj}A)A=|A|\\,I",
+    "back": "So $\\lvert\\operatorname{adj}A\\rvert=\\lvert A\\rvert^{n-1}$: for order 3 it is $\\lvert A\\rvert^2$.",
+    "stars": 3
+  },
+  {
+    "id": "adjoint-order-two",
+    "kind": "formula",
+    "title": "Adjoint of a 2 × 2 matrix",
+    "tex": "\\operatorname{adj}\\begin{bmatrix}a&b\\\\c&d\\end{bmatrix}=\\begin{bmatrix}d&-b\\\\-c&a\\end{bmatrix}",
+    "back": "Swap the diagonal, change the signs of the other two. For order 3: matrix of cofactors, then transpose.",
+    "stars": 2
+  },
+  {
+    "id": "inverse-adjoint",
+    "kind": "formula",
+    "title": "Inverse of a matrix",
+    "tex": "A^{-1}=\\dfrac{1}{|A|}\\operatorname{adj}A",
+    "legend": [
+      "|A| = must be non-zero (non-singular)"
+    ],
+    "back": "Singular matrix ($\\lvert A\\rvert=0$): no inverse. $\\lvert A^{-1}\\rvert=\\dfrac{1}{\\lvert A\\rvert}$.",
+    "stars": 3,
+    "tags": [
+      "5-mark"
+    ]
+  },
+  {
+    "id": "matrix-method",
+    "kind": "formula",
+    "title": "Matrix method",
+    "tex": "AX=B\\Rightarrow X=A^{-1}B",
+    "legend": [
+      "A = coefficient matrix",
+      "X = column of unknowns",
+      "B = column of constants"
+    ],
+    "back": "Unique solution when $\\lvert A\\rvert\\ne0$. Write the product as $A^{-1}B$, never $BA^{-1}$.",
+    "stars": 3,
+    "tags": [
+      "5-mark"
+    ]
+  },
+  {
+    "id": "consistency",
+    "kind": "formula",
+    "title": "When |A| = 0",
+    "tex": "(\\operatorname{adj}A)B\\ne O:\\ \\text{no solution}",
+    "back": "If $(\\operatorname{adj}A)B=O$: infinitely many solutions or none. Consistent means at least one solution.",
+    "stars": 2
+  },
+  {
+    "id": "inverse-from-product",
+    "kind": "formula",
+    "title": "Using a given product",
+    "tex": "AB=kI\\Rightarrow A^{-1}=\\dfrac1kB",
+    "back": "In \"find $AB$ and hence solve\" questions, the product gives the inverse for free. If the system uses $A'$, use $(A')^{-1}=(A^{-1})'$.",
+    "stars": 3,
+    "tags": [
+      "5-mark"
+    ]
+  }
+]

@@ -1480,6 +1480,7 @@
                         "notes": true,
                         "mustknow": true,
                         "formulas": true,
+                        "cards": true,
                         "questions": true
                       },
                       "marks_hint": "about 5 marks in the 2026–27 sample paper (Unit I: 8)",
@@ -1494,8 +1495,20 @@
                         "case": 1
                       },
                       "diagrams": [],
-                      "words": 2281,
-                      "read_minutes": 6
+                      "blocks": {
+                        "mnemonic": 2,
+                        "compare": 1,
+                        "derive": 1,
+                        "explain": 1,
+                        "draw": 1,
+                        "steps": 1,
+                        "numerical": 1,
+                        "fill": 1
+                      },
+                      "words": 2282,
+                      "read_minutes": 6,
+                      "cards": 10,
+                      "mnemonics": 2
                     },
                     {
                       "id": "ch-02",
@@ -1506,6 +1519,7 @@
                         "notes": true,
                         "mustknow": true,
                         "formulas": true,
+                        "cards": true,
                         "questions": true
                       },
                       "marks_hint": "about 3 marks in the 2026–27 sample paper (Unit I: 8)",
@@ -1519,8 +1533,17 @@
                         "case": 1
                       },
                       "diagrams": [],
-                      "words": 1765,
-                      "read_minutes": 5
+                      "blocks": {
+                        "draw": 1,
+                        "fill": 2,
+                        "mnemonic": 2,
+                        "steps": 1,
+                        "numerical": 1
+                      },
+                      "words": 1766,
+                      "read_minutes": 5,
+                      "cards": 10,
+                      "mnemonics": 2
                     }
                   ]
                 },
@@ -1540,6 +1563,7 @@
                         "notes": true,
                         "mustknow": true,
                         "formulas": true,
+                        "cards": true,
                         "questions": true
                       },
                       "marks_hint": "about 9 marks in the 2026–27 sample paper (Unit II: 10)",
@@ -1554,8 +1578,18 @@
                         "case": 1
                       },
                       "diagrams": [],
+                      "blocks": {
+                        "mnemonic": 2,
+                        "steps": 1,
+                        "numerical": 1,
+                        "compare": 1,
+                        "derive": 1,
+                        "explain": 1
+                      },
                       "words": 1854,
-                      "read_minutes": 5
+                      "read_minutes": 5,
+                      "cards": 10,
+                      "mnemonics": 2
                     },
                     {
                       "id": "ch-04",
@@ -1566,6 +1600,7 @@
                         "notes": true,
                         "mustknow": true,
                         "formulas": true,
+                        "cards": true,
                         "questions": true
                       },
                       "marks_hint": "1 to 6 marks; the unit's 5-marker in many years (Unit II: 10)",
@@ -1580,8 +1615,17 @@
                         "case": 1
                       },
                       "diagrams": [],
+                      "blocks": {
+                        "mnemonic": 2,
+                        "numerical": 2,
+                        "steps": 1,
+                        "fill": 1,
+                        "derive": 1
+                      },
                       "words": 1883,
-                      "read_minutes": 5
+                      "read_minutes": 5,
+                      "cards": 10,
+                      "mnemonics": 2
                     }
                   ]
                 },
@@ -1601,6 +1645,7 @@
                         "notes": true,
                         "mustknow": true,
                         "formulas": true,
+                        "cards": true,
                         "questions": true
                       },
                       "marks_hint": "about 7 marks in the 2026–27 sample paper (Unit III Calculus: 35)",
@@ -1615,8 +1660,19 @@
                         "case": 1
                       },
                       "diagrams": [],
-                      "words": 2250,
-                      "read_minutes": 6
+                      "blocks": {
+                        "mnemonic": 2,
+                        "numerical": 1,
+                        "graph": 1,
+                        "draw": 1,
+                        "compare": 1,
+                        "steps": 1,
+                        "derive": 1
+                      },
+                      "words": 2251,
+                      "read_minutes": 6,
+                      "cards": 11,
+                      "mnemonics": 2
                     },
                     {
                       "id": "ch-06",
@@ -1627,6 +1683,7 @@
                         "notes": true,
                         "mustknow": true,
                         "formulas": true,
+                        "cards": true,
                         "questions": true
                       },
                       "marks_hint": "about 9 marks in the 2026–27 sample paper (Unit III Calculus: 35)",
@@ -1641,8 +1698,18 @@
                         "case": 1
                       },
                       "diagrams": [],
-                      "words": 2597,
-                      "read_minutes": 7
+                      "blocks": {
+                        "numerical": 2,
+                        "mnemonic": 2,
+                        "graph": 1,
+                        "steps": 2,
+                        "draw": 2,
+                        "compare": 1
+                      },
+                      "words": 2599,
+                      "read_minutes": 7,
+                      "cards": 11,
+                      "mnemonics": 2
                     },
                     {
                       "id": "ch-07",
@@ -1653,6 +1720,7 @@
                         "notes": true,
                         "mustknow": true,
                         "formulas": true,
+                        "cards": true,
                         "questions": true
                       },
                       "marks_hint": "about 9 marks in the 2026–27 sample paper (Unit III Calculus: 35)",
@@ -1667,8 +1735,17 @@
                         "case": 1
                       },
                       "diagrams": [],
+                      "blocks": {
+                        "mnemonic": 3,
+                        "fill": 2,
+                        "steps": 2,
+                        "numerical": 1,
+                        "derive": 1
+                      },
                       "words": 2199,
-                      "read_minutes": 6
+                      "read_minutes": 6,
+                      "cards": 12,
+                      "mnemonics": 3
                     },
                     {
                       "id": "ch-08",
@@ -1679,6 +1756,7 @@
                         "notes": true,
                         "mustknow": true,
                         "formulas": true,
+                        "cards": true,
                         "questions": true
                       },
                       "marks_hint": "about 5 marks in the 2026–27 sample paper (Unit III Calculus: 35)",
@@ -1693,8 +1771,18 @@
                         "case": 1
                       },
                       "diagrams": [],
-                      "words": 2131,
-                      "read_minutes": 6
+                      "blocks": {
+                        "steps": 1,
+                        "numerical": 2,
+                        "mnemonic": 2,
+                        "draw": 3,
+                        "graph": 1,
+                        "derive": 1
+                      },
+                      "words": 2135,
+                      "read_minutes": 6,
+                      "cards": 10,
+                      "mnemonics": 2
                     },
                     {
                       "id": "ch-09",
@@ -1705,6 +1793,7 @@
                         "notes": true,
                         "mustknow": true,
                         "formulas": true,
+                        "cards": true,
                         "questions": true
                       },
                       "marks_hint": "about 5 marks in the 2026–27 sample paper (Unit III Calculus: 35)",
@@ -1719,8 +1808,19 @@
                         "case": 1
                       },
                       "diagrams": [],
+                      "blocks": {
+                        "mnemonic": 2,
+                        "fill": 1,
+                        "graph": 1,
+                        "numerical": 1,
+                        "steps": 2,
+                        "derive": 1,
+                        "compare": 1
+                      },
                       "words": 2028,
-                      "read_minutes": 5
+                      "read_minutes": 5,
+                      "cards": 10,
+                      "mnemonics": 2
                     }
                   ]
                 },
@@ -1740,6 +1840,7 @@
                         "notes": true,
                         "mustknow": true,
                         "formulas": true,
+                        "cards": true,
                         "questions": true
                       },
                       "marks_hint": "about 5 marks in the 2026–27 sample paper (Unit IV: 14)",
@@ -1754,8 +1855,18 @@
                         "case": 1
                       },
                       "diagrams": [],
-                      "words": 2258,
-                      "read_minutes": 6
+                      "blocks": {
+                        "numerical": 2,
+                        "mnemonic": 2,
+                        "derive": 1,
+                        "compare": 1,
+                        "steps": 1,
+                        "draw": 1
+                      },
+                      "words": 2259,
+                      "read_minutes": 6,
+                      "cards": 12,
+                      "mnemonics": 2
                     },
                     {
                       "id": "ch-11",
@@ -1766,6 +1877,7 @@
                         "notes": true,
                         "mustknow": true,
                         "formulas": true,
+                        "cards": true,
                         "questions": true
                       },
                       "marks_hint": "about 9 marks in the 2026–27 sample paper (Unit IV: 14)",
@@ -1780,8 +1892,18 @@
                         "case": 1
                       },
                       "diagrams": [],
-                      "words": 2276,
-                      "read_minutes": 6
+                      "blocks": {
+                        "mnemonic": 2,
+                        "numerical": 2,
+                        "fill": 1,
+                        "steps": 2,
+                        "derive": 1,
+                        "draw": 1
+                      },
+                      "words": 2277,
+                      "read_minutes": 6,
+                      "cards": 10,
+                      "mnemonics": 2
                     }
                   ]
                 },
@@ -1801,6 +1923,7 @@
                         "notes": true,
                         "mustknow": true,
                         "formulas": true,
+                        "cards": true,
                         "questions": true
                       },
                       "marks_hint": "5 marks (Unit V)",
@@ -1815,8 +1938,19 @@
                         "case": 1
                       },
                       "diagrams": [],
-                      "words": 2338,
-                      "read_minutes": 6
+                      "blocks": {
+                        "compare": 2,
+                        "mnemonic": 2,
+                        "steps": 1,
+                        "draw": 2,
+                        "numerical": 1,
+                        "fill": 1,
+                        "explain": 1
+                      },
+                      "words": 2341,
+                      "read_minutes": 6,
+                      "cards": 10,
+                      "mnemonics": 2
                     }
                   ]
                 },
@@ -1836,6 +1970,7 @@
                         "notes": true,
                         "mustknow": true,
                         "formulas": true,
+                        "cards": true,
                         "questions": true
                       },
                       "marks_hint": "8 marks (Unit VI)",
@@ -1850,8 +1985,19 @@
                         "case": 1
                       },
                       "diagrams": [],
-                      "words": 2271,
-                      "read_minutes": 7
+                      "blocks": {
+                        "mnemonic": 2,
+                        "compare": 1,
+                        "numerical": 2,
+                        "steps": 1,
+                        "derive": 1,
+                        "draw": 1,
+                        "fill": 1
+                      },
+                      "words": 2272,
+                      "read_minutes": 7,
+                      "cards": 10,
+                      "mnemonics": 2
                     }
                   ]
                 }

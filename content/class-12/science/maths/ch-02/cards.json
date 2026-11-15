@@ -1,0 +1,96 @@
+[
+  {
+    "id": "ch02-arcsin-graph",
+    "kind": "figure",
+    "title": "Graph of y = sin⁻¹x",
+    "svg": "ref: notes#ch02-arcsin-graph",
+    "back": "Rises from $(-1,-\\frac\\pi2)$ through the origin to $(1,\\frac\\pi2)$. Domain $[-1,1]$, range $[-\\frac\\pi2,\\frac\\pi2]$: the sine curve reflected in $y=x$.",
+    "stars": 2,
+    "tags": [
+      "diagram"
+    ]
+  },
+  {
+    "id": "branch-sin",
+    "kind": "formula",
+    "title": "Principal branch of sin⁻¹x",
+    "tex": "\\sin^{-1}x\\in\\left[-\\dfrac\\pi2,\\dfrac\\pi2\\right]",
+    "legend": [
+      "x = any number in [−1, 1]"
+    ],
+    "back": "Same interval for $\\operatorname{cosec}^{-1}x$ (without 0) and, with open ends, for $\\tan^{-1}x$.",
+    "stars": 3
+  },
+  {
+    "id": "branch-cos",
+    "kind": "formula",
+    "title": "Principal branch of cos⁻¹x",
+    "tex": "\\cos^{-1}x\\in[0,\\pi]",
+    "legend": [
+      "x = any number in [−1, 1]"
+    ],
+    "back": "Same interval for $\\sec^{-1}x$ (without $\\frac\\pi2$) and, with open ends, for $\\cot^{-1}x$.",
+    "stars": 3
+  },
+  {
+    "id": "arcsin-negative",
+    "kind": "formula",
+    "title": "sin⁻¹ of a negative number",
+    "tex": "\\sin^{-1}(-x)=-\\sin^{-1}x",
+    "back": "The minus comes out. Also true for $\\tan^{-1}$ and $\\operatorname{cosec}^{-1}$.",
+    "stars": 2
+  },
+  {
+    "id": "arccos-negative",
+    "kind": "formula",
+    "title": "cos⁻¹ of a negative number",
+    "tex": "\\cos^{-1}(-x)=\\pi-\\cos^{-1}x",
+    "back": "The minus becomes $\\pi-$. Also true for $\\cot^{-1}$ and $\\sec^{-1}$. So $\\cos^{-1}(-\\frac12)=\\pi-\\frac\\pi3=\\frac{2\\pi}{3}$.",
+    "stars": 3
+  },
+  {
+    "id": "arcsin-of-sin",
+    "kind": "formula",
+    "title": "When does sin⁻¹(sin θ) = θ?",
+    "tex": "\\sin^{-1}(\\sin\\theta)=\\theta\\iff\\theta\\in\\left[-\\dfrac\\pi2,\\dfrac\\pi2\\right]",
+    "back": "Otherwise bring the angle into the branch first: $\\sin^{-1}(\\sin\\frac{2\\pi}{3})=\\sin^{-1}(\\sin\\frac\\pi3)=\\frac\\pi3$.",
+    "stars": 3,
+    "tags": [
+      "1-mark"
+    ]
+  },
+  {
+    "id": "arccos-of-cos",
+    "kind": "formula",
+    "title": "When does cos⁻¹(cos θ) = θ?",
+    "tex": "\\cos^{-1}(\\cos\\theta)=\\theta\\iff\\theta\\in[0,\\pi]",
+    "back": "Example: $\\cos^{-1}(\\cos\\frac{7\\pi}{6})=\\cos^{-1}(\\cos\\frac{5\\pi}{6})=\\frac{5\\pi}{6}$, because $\\cos(2\\pi-\\theta)=\\cos\\theta$.",
+    "stars": 2
+  },
+  {
+    "id": "arcsin-plus-arccos",
+    "kind": "formula",
+    "title": "sin⁻¹x + cos⁻¹x",
+    "tex": "\\sin^{-1}x+\\cos^{-1}x=\\dfrac\\pi2",
+    "legend": [
+      "x = any number in [−1, 1]"
+    ],
+    "back": "Also $\\tan^{-1}x+\\cot^{-1}x=\\frac\\pi2$. Handy for 1-mark questions.",
+    "stars": 2
+  },
+  {
+    "id": "domain-shift",
+    "kind": "formula",
+    "title": "Domain of sin⁻¹(ax + b)",
+    "tex": "-1\\le ax+b\\le1",
+    "back": "Solve the double inequality for $x$. Example: $\\sin^{-1}(2x-1)$ needs $0\\le x\\le1$.",
+    "stars": 2
+  },
+  {
+    "id": "substitution-choice",
+    "kind": "formula",
+    "title": "Substitution for simplest form",
+    "tex": "\\sqrt{a^2-x^2}:\\ x=a\\sin\\theta\\qquad a^2+x^2:\\ x=a\\tan\\theta",
+    "back": "And $\\sqrt{x^2-a^2}$: $x=a\\sec\\theta$. After simplifying, go back to $x$ with $\\theta=\\sin^{-1}\\frac xa$ and so on."
+  }
+]

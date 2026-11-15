@@ -1,0 +1,101 @@
+[
+  {
+    "id": "order-of-matrix",
+    "kind": "formula",
+    "title": "Order and elements",
+    "tex": "A=[a_{ij}]_{m\\times n}",
+    "legend": [
+      "m = number of rows",
+      "n = number of columns",
+      "a_{ij} = element in row i, column j"
+    ],
+    "back": "A matrix of order $m\\times n$ has $mn$ elements. 12 elements: 6 possible orders."
+  },
+  {
+    "id": "product-defined",
+    "kind": "formula",
+    "title": "When is AB defined?",
+    "tex": "A_{m\\times n}\\,B_{n\\times p}=(AB)_{m\\times p}",
+    "legend": [
+      "n = columns of A = rows of B"
+    ],
+    "back": "Inner numbers match; outer numbers give the order. $AB$ may exist when $BA$ does not.",
+    "stars": 3
+  },
+  {
+    "id": "product-entry",
+    "kind": "formula",
+    "title": "Entry of a product",
+    "tex": "(AB)_{ij}=\\sum_k a_{ik}b_{kj}",
+    "back": "Row $i$ of $A$ times column $j$ of $B$. In general $AB\\ne BA$, and $AB=O$ does not mean $A=O$ or $B=O$.",
+    "stars": 3
+  },
+  {
+    "id": "transpose-product",
+    "kind": "formula",
+    "title": "Transpose of a product",
+    "tex": "(AB)'=B'A'",
+    "back": "Reversal law. Also $(A')'=A$, $(kA)'=kA'$ and $(A+B)'=A'+B'$.",
+    "stars": 3
+  },
+  {
+    "id": "symmetric-matrix",
+    "kind": "formula",
+    "title": "Symmetric and skew-symmetric",
+    "tex": "A'=A\\qquad A'=-A",
+    "back": "Symmetric: mirror image in the diagonal. Skew-symmetric: every diagonal element is 0.",
+    "stars": 3
+  },
+  {
+    "id": "symmetric-skew-split",
+    "kind": "formula",
+    "title": "Any square matrix as a sum",
+    "tex": "A=\\dfrac12(A+A')+\\dfrac12(A-A')",
+    "legend": [
+      "\\tfrac12(A+A') = symmetric part",
+      "\\tfrac12(A-A') = skew-symmetric part"
+    ],
+    "back": "Find $A'$, build both parts, show $P'=P$ and $Q'=-Q$, then verify $P+Q=A$.",
+    "stars": 3,
+    "tags": [
+      "3-mark"
+    ]
+  },
+  {
+    "id": "square-of-sum",
+    "kind": "formula",
+    "title": "Square of a sum",
+    "tex": "(A+B)^2=A^2+AB+BA+B^2",
+    "back": "Equals $A^2+2AB+B^2$ only when $AB=BA$. The same care is needed for $(A+B)(A-B)$.",
+    "stars": 2
+  },
+  {
+    "id": "inverse-of-product",
+    "kind": "formula",
+    "title": "Inverse of a product",
+    "tex": "(AB)^{-1}=B^{-1}A^{-1}",
+    "back": "Reversal law again. $B$ is the inverse of $A$ when $AB=BA=I$; the inverse, if it exists, is unique.",
+    "stars": 2
+  },
+  {
+    "id": "inverse-from-polynomial",
+    "kind": "formula",
+    "title": "A⁻¹ from a matrix equation",
+    "tex": "A^2-pA+qI=O\\Rightarrow A^{-1}=\\dfrac1q(pI-A)",
+    "back": "Multiply the equation by $A^{-1}$: $A-pI+qA^{-1}=O$. A favourite 3- and 5-mark ending.",
+    "stars": 3,
+    "tags": [
+      "5-mark"
+    ]
+  },
+  {
+    "id": "identity-matrix",
+    "kind": "formula",
+    "title": "Identity and scalar matrices",
+    "tex": "AI=IA=A",
+    "legend": [
+      "I = identity: 1 on the diagonal, 0 elsewhere"
+    ],
+    "back": "Scalar matrix: $kI$. Diagonal matrix: zeros off the diagonal. $I^n=I$ for every $n$."
+  }
+]

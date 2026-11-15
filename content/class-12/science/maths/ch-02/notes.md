@@ -8,7 +8,7 @@ A function has an inverse only if it is one-one and onto. $\sin x$ on the whole 
 
 So $\sin^{-1}x$ has domain $[-1,1]$ and its answers always lie in $\left[-\dfrac\pi2,\dfrac\pi2\right]$. That interval is the **principal value branch**, and the answer in it is the **principal value**.
 
-<figure class="fig">
+<figure class="fig" id="ch02-arcsin-graph">
 <svg viewBox="0 0 320 195" role="img" aria-label="Graph of y equals inverse sine of x, rising from the point minus 1, minus pi by 2 to the point 1, pi by 2">
 <line x1="20" y1="95" x2="305" y2="95" stroke="currentColor" stroke-width="1"/>
 <line x1="160" y1="8" x2="160" y2="185" stroke="currentColor" stroke-width="1"/>
@@ -28,6 +28,13 @@ So $\sin^{-1}x$ has domain $[-1,1]$ and its answers always lie in $\left[-\dfrac
 
 Note that $\sin^{-1}x$ is an angle. It is not $(\sin x)^{-1}$, which means $\dfrac{1}{\sin x}$.
 
+```ng-draw
+id: draw-arcsin-graph
+title: Sketch the graph of sin⁻¹x
+svg: ref: notes#ch02-arcsin-graph
+time: 3
+```
+
 **In one breath:** A trig function must be restricted to a branch where it is one-one before it can be inverted. $\sin^{-1}x$ takes $x\in[-1,1]$ and returns the one angle in $\left[-\dfrac\pi2,\dfrac\pi2\right]$ whose sine is $x$.
 
 ## The six principal branches
@@ -44,6 +51,27 @@ Each of the six functions gets its own branch. These must be known exactly, incl
 | $\operatorname{cosec}^{-1}x$ | $\mathbb{R}-(-1,1)$ | $\left[-\dfrac\pi2,\dfrac\pi2\right]-\{0\}$ |
 
 A way to hold them in your head: $\sin^{-1}$, $\tan^{-1}$ and $\operatorname{cosec}^{-1}$ live between $-\dfrac\pi2$ and $\dfrac\pi2$ (quadrants I and IV), so they *can* be negative. $\cos^{-1}$, $\cot^{-1}$ and $\sec^{-1}$ live between $0$ and $\pi$ (quadrants I and II), so they are *never* negative.
+
+```ng-fill
+id: fill-principal-branches
+title: Domains and principal branches
+cols: Function | Domain | Principal value branch
+row: $\sin^{-1}x$ | $[-1,1]$ | [[$\left[-\dfrac\pi2,\dfrac\pi2\right]$]]
+row: $\cos^{-1}x$ | $[-1,1]$ | [[$[0,\pi]$]]
+row: $\tan^{-1}x$ | [[$\mathbb R$]] | [[$\left(-\dfrac\pi2,\dfrac\pi2\right)$]]
+row: $\cot^{-1}x$ | $\mathbb R$ | [[$(0,\pi)$]]
+row: $\sec^{-1}x$ | [[$\mathbb R-(-1,1)$]] | [[$[0,\pi]-\left\{\dfrac\pi2\right\}$]]
+row: $\operatorname{cosec}^{-1}x$ | $\mathbb R-(-1,1)$ | [[$\left[-\dfrac\pi2,\dfrac\pi2\right]-\{0\}$]]
+```
+
+```ng-mnemonic
+id: minus-sign-out-or-pi
+title: What happens to a minus sign inside
+trick: **sin, tan, cosec** throw the minus **out**; **cos, cot, sec** turn it into **π −**
+meaning: $\sin^{-1}(-x)=-\sin^{-1}x$, and the same for $\tan^{-1}$ and $\operatorname{cosec}^{-1}$: their branch is centred on 0.
+meaning: $\cos^{-1}(-x)=\pi-\cos^{-1}x$, and the same for $\cot^{-1}$ and $\sec^{-1}$: their branch runs from 0 to $\pi$.
+prompt: Which inverse functions give π − (…) for a negative input?
+```
 
 **In one breath:** sin, tan, cosec inverses: $-\dfrac\pi2$ to $\dfrac\pi2$. cos, cot, sec inverses: $0$ to $\pi$. Know which brackets are open.
 
@@ -84,6 +112,16 @@ Sum $=\dfrac\pi4+\dfrac{2\pi}{3}-\dfrac\pi6=\boxed{\dfrac{3\pi}{4}}$ [½]
 $\cos^{-1}\left(-\dfrac12\right)$ is $\dfrac{2\pi}{3}$, not $-\dfrac\pi3$. The functions $\cos^{-1}$, $\cot^{-1}$ and $\sec^{-1}$ never give a negative answer.
 :::
 
+```ng-steps
+id: steps-principal-value
+title: Finding a principal value
+step: Let the expression be $y$, for example $y=\cos^{-1}\left(-\dfrac12\right)$.
+step: Rewrite it as a trigonometric equation: $\cos y=-\dfrac12$.
+step: Write the principal branch of that function: for $\cos^{-1}$ it is $[0,\pi]$.
+step: Pick the one angle in the branch: $\cos\dfrac{2\pi}{3}=-\dfrac12$ and $\dfrac{2\pi}{3}\in[0,\pi]$.
+step: State the answer: the principal value is $\dfrac{2\pi}{3}$.
+```
+
 **In one breath:** Find each term on its own branch; for a negative argument use "minus" for sin, tan, cosec and "$\pi$ minus" for cos, cot, sec. Give the answer in radians.
 
 ## When the angle is outside the branch
@@ -107,6 +145,29 @@ Sum $=\dfrac{2\pi}{5}+\dfrac{5\pi}{6}=\boxed{\dfrac{37\pi}{30}}$ [½]
 :::
 
 The other direction is safe: $\sin(\sin^{-1}x)=x$ for every $x$ in $[-1,1]$.
+
+```ng-mnemonic
+id: bring-the-angle-home
+title: sin⁻¹(sin θ) is not always θ
+trick: **Bring the angle home first**
+meaning: $\sin^{-1}(\sin\theta)=\theta$ only when $\theta$ is "at home" in $\left[-\dfrac\pi2,\dfrac\pi2\right]$.
+meaning: If it is not, replace $\theta$ by an angle in the branch with the same sine, such as $\pi-\theta$, and then cancel.
+prompt: When is sin⁻¹(sin θ) equal to θ?
+```
+
+```ng-numerical
+id: num-arcsin-of-sin
+title: Bring the angle into the branch
+question: Find the value of $\sin^{-1}(\sin {{t}}^\circ)$ in degrees.
+var: t | 100 | 260 | 10
+answer: 180-t
+unit: °
+dp: 0
+tol: 0.5
+step: ${{t}}^\circ$ is not in $[-90^\circ,90^\circ]$, so the answer is not ${{t}}^\circ$.
+step: $\sin{{t}}^\circ=\sin(180^\circ-{{t}}^\circ)=\sin({{180-t:0}}^\circ)$
+step: ${{180-t:0}}^\circ$ lies in $[-90^\circ,90^\circ]$, so the value is **{{180-t:0}}°**
+```
 
 **In one breath:** Before cancelling, check that the angle is in the branch. If not, use $\pi-\theta$ for sine, $2\pi-\theta$ for cosine, or $\theta-\pi$ for tangent to bring it in.
 
@@ -149,5 +210,15 @@ The cancellation $\tan^{-1}(\tan\alpha)=\alpha$ is valid only on the interval gi
 :::
 
 In the 2026–27 syllabus this chapter covers definition, domain, range, principal value branches and graphs. The addition formulas such as $\tan^{-1}x+\tan^{-1}y$ are not in boards. The complementary results $\sin^{-1}x+\cos^{-1}x=\dfrac\pi2$, $\tan^{-1}x+\cot^{-1}x=\dfrac\pi2$ and $\sec^{-1}x+\operatorname{cosec}^{-1}x=\dfrac\pi2$ are still handy in objective questions.
+
+```ng-fill
+id: fill-substitutions
+title: Which substitution?
+cols: Expression contains | Put
+row: $\sqrt{a^2-x^2}$ | [[$x=a\sin\theta$]]
+row: $a^2+x^2$ or $\sqrt{a^2+x^2}$ | [[$x=a\tan\theta$]]
+row: $\sqrt{x^2-a^2}$ | [[$x=a\sec\theta$]]
+row: $\sqrt{\dfrac{1-\cos x}{1+\cos x}}$ | [[half-angle formulas: $\tan\dfrac x2$]]
+```
 
 **In one breath:** Use half-angle identities or a substitution to turn the inside into a single $\tan$, cancel with $\tan^{-1}$, and state the interval that makes the cancellation valid.

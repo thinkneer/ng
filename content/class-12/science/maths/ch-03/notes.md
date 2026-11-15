@@ -18,6 +18,15 @@ $A=\boxed{\begin{bmatrix}2&\frac92\\[2pt]\frac92&8\end{bmatrix}}$ [½]
 
 A quick counting fact for objective questions: a matrix with 12 elements can have order $1\times12$, $2\times6$, $3\times4$, $4\times3$, $6\times2$ or $12\times1$, so six possible orders. With a prime number of elements there are only two.
 
+```ng-mnemonic
+id: rows-then-columns
+title: Order of a matrix
+trick: **R**ows first, **C**olumns next: think **RC** cola
+meaning: Order $m\times n$ means $m$ rows and $n$ columns; $a_{ij}$ sits in row $i$, column $j$.
+meaning: A matrix with 12 elements can have 6 possible orders: $1\times12$, $2\times6$, $3\times4$, $4\times3$, $6\times2$, $12\times1$.
+prompt: In the order m × n and the element a_ij, which comes first: row or column?
+```
+
 **In one breath:** Order is rows × columns; $a_{ij}$ sits in row $i$, column $j$. Know diagonal, scalar, identity and zero matrices by sight.
 
 ## Operations on matrices
@@ -51,6 +60,39 @@ $AB\ne BA$ in general. $AB=O$ does not mean $A=O$ or $B=O$. $AB=AC$ does not mea
 :::
 
 Because $AB$ and $BA$ differ, $(A+B)^2=A^2+AB+BA+B^2$; it becomes $A^2+2AB+B^2$ only when $AB=BA$. Multiplication is still associative, $A(BC)=(AB)C$, and distributive, $A(B+C)=AB+AC$, and $AI=IA=A$.
+
+```ng-steps
+id: steps-matrix-product
+title: Multiplying two matrices
+step: Check the orders: $A$ is $m\times n$ and $B$ is $n\times p$. The inner numbers must match.
+step: The product $AB$ has the outer numbers as its order: $m\times p$.
+step: Entry in row $i$, column $j$ of $AB$ = (row $i$ of $A$) · (column $j$ of $B$): multiply in pairs and add.
+step: Fill every entry this way. Never assume $AB=BA$.
+```
+
+```ng-numerical
+id: num-product-entry
+title: One entry of a product
+question: If $A=\begin{bmatrix}{{a}}&{{b}}\\{{c}}&{{d}}\end{bmatrix}$, find the element in row 1, column 2 of $A^2$.
+var: a | 1 | 5 | 1
+var: b | 1 | 4 | 1
+var: c | -3 | 3 | 1
+var: d | -4 | 4 | 1
+answer: a*b+b*d
+dp: 0
+tol: 0.01
+step: Row 1 of $A$ is $({{a}},\ {{b}})$; column 2 of $A$ is $({{b}},\ {{d}})$.
+step: Element $=({{a}})({{b}})+({{b}})({{d}})=$ **{{a*b+b*d:0}}**
+```
+
+```ng-mnemonic
+id: ab-not-ba
+title: Matrix multiplication is not commutative
+trick: **AB ≠ BA**: keep the order, like wearing socks before shoes
+meaning: $(A+B)^2=A^2+AB+BA+B^2$, not $A^2+2AB+B^2$, unless $AB=BA$.
+meaning: Reversal law: $(AB)'=B'A'$ and $(AB)^{-1}=B^{-1}A^{-1}$. The order flips, like taking off shoes before socks.
+prompt: Expand (A + B)² for matrices. When does it equal A² + 2AB + B²?
+```
 
 **In one breath:** Add and scale element by element. For a product, columns of the first must match rows of the second, and each entry is row times column. Order of multiplication matters.
 
@@ -88,6 +130,28 @@ Short proofs with transposes are also common. For example, if $A$ and $B$ are sy
 Writing $P$ and $Q$ is not enough. The lines "$P'=P$", "$Q'=-Q$" and "$P+Q=A$" each carry ½ mark. A fast check on $Q$: its diagonal must be all zeros.
 :::
 
+```ng-compare
+id: symmetric-vs-skew
+title: Symmetric vs skew-symmetric
+cols: Symmetric | Skew-symmetric
+row: Definition | $A'=A$ | $A'=-A$
+row: Elements | $a_{ij}=a_{ji}$ | $a_{ij}=-a_{ji}$
+row: Diagonal | anything | all zeros
+row: Built from any square $A$ | $\dfrac12(A+A')$ | $\dfrac12(A-A')$
+row: Both at once | only the zero matrix | only the zero matrix
+```
+
+```ng-derive
+id: derive-symmetric-skew-sum
+title: Symmetric + skew-symmetric
+prompt: Express $A=\begin{bmatrix}3&5\\1&-1\end{bmatrix}$ as the sum of a symmetric and a skew-symmetric matrix.
+time: 5
+check: $A'=\begin{bmatrix}3&1\\5&-1\end{bmatrix}$ | 0.5
+check: $P=\dfrac12(A+A')=\begin{bmatrix}3&3\\3&-1\end{bmatrix}$, and $P'=P$, so $P$ is symmetric | 1
+check: $Q=\dfrac12(A-A')=\begin{bmatrix}0&2\\-2&0\end{bmatrix}$, and $Q'=-Q$, so $Q$ is skew-symmetric | 1
+check: Verify $P+Q=A$ | 0.5
+```
+
 **In one breath:** Transpose swaps rows and columns and reverses a product. $A=\frac12(A+A')+\frac12(A-A')$ splits any square matrix into symmetric and skew-symmetric parts; verify both and their sum.
 
 ## Invertible matrices and matrix polynomials
@@ -111,5 +175,11 @@ In a matrix equation the constant term is $7I$, not 7, and the right side is the
 :::
 
 Finding an inverse by elementary row or column operations is not in the 2026–27 syllabus.
+
+```ng-explain
+id: explain-inverse-from-equation
+prompt: In three lines, explain how $A^2-5A+7I=O$ gives you $A^{-1}$ without finding any determinant.
+lines: 3
+```
 
 **In one breath:** $A^{-1}$ satisfies $AA^{-1}=I$. From a relation like $A^2-4A+7I=O$, multiply through by $A^{-1}$ and solve for it.

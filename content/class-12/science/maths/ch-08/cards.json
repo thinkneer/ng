@@ -1,0 +1,111 @@
+[
+  {
+    "id": "ch08-strip",
+    "kind": "figure",
+    "title": "Area under a curve: one thin strip",
+    "svg": "ref: notes#ch08-strip",
+    "back": "Strip of height $y$ and width $dx$ has area $y\\,dx$. Adding the strips from $x=a$ to $x=b$ gives $\\int_a^by\\,dx$.",
+    "stars": 3,
+    "tags": [
+      "diagram"
+    ]
+  },
+  {
+    "id": "ch08-ellipse",
+    "kind": "figure",
+    "title": "Area of an ellipse by symmetry",
+    "svg": "ref: notes#ch08-ellipse",
+    "back": "Find the first-quadrant area with $y=\\dfrac ba\\sqrt{a^2-x^2}$ and multiply by 4. Result $\\pi ab$; here $a=4$, $b=3$, so $12\\pi$.",
+    "stars": 3,
+    "tags": [
+      "diagram",
+      "5-mark"
+    ]
+  },
+  {
+    "id": "ch08-mod",
+    "kind": "figure",
+    "title": "A region with a corner",
+    "svg": "ref: notes#ch08-mod",
+    "back": "$y=\\lvert x+3\\rvert$ from $x=-6$ to $x=0$: split at the corner $x=-3$. Two triangles of area $\\dfrac92$ each: total 9 sq. units.",
+    "stars": 2,
+    "tags": [
+      "diagram",
+      "3-mark"
+    ]
+  },
+  {
+    "id": "ch08-circle-line",
+    "kind": "figure",
+    "title": "Circle, line and x-axis",
+    "svg": "ref: notes#ch08-circle-line",
+    "back": "Split at the intersection $(\\sqrt3,1)$: under the line from 0 to $\\sqrt3$, under the circle from $\\sqrt3$ to 2. Total $\\dfrac\\pi3$ sq. units.",
+    "stars": 3,
+    "tags": [
+      "diagram",
+      "5-mark"
+    ]
+  },
+  {
+    "id": "area-vertical-strips",
+    "kind": "formula",
+    "title": "Area with vertical strips",
+    "tex": "A=\\int_a^by\\,dx",
+    "legend": [
+      "y = height of the strip, from the curve",
+      "a, b = x-limits of the region"
+    ],
+    "back": "Use when the region stands on the $x$-axis.",
+    "stars": 3
+  },
+  {
+    "id": "area-horizontal-strips",
+    "kind": "formula",
+    "title": "Area with horizontal strips",
+    "tex": "A=\\int_c^dx\\,dy",
+    "legend": [
+      "x = length of the strip, in terms of y",
+      "c, d = y-limits of the region"
+    ],
+    "back": "Use when the region is bounded by the $y$-axis, for example $x^2=4y$ between $y=2$ and $y=4$.",
+    "stars": 2
+  },
+  {
+    "id": "circle-area",
+    "kind": "formula",
+    "title": "Area of the circle x² + y² = a²",
+    "tex": "4\\int_0^a\\sqrt{a^2-x^2}\\,dx=\\pi a^2",
+    "back": "First quadrant × 4. The integral needs $\\int\\sqrt{a^2-x^2}\\,dx$; at the limits only the $\\sin^{-1}$ term survives.",
+    "stars": 3
+  },
+  {
+    "id": "ellipse-area",
+    "kind": "formula",
+    "title": "Area of an ellipse",
+    "tex": "\\dfrac{x^2}{a^2}+\\dfrac{y^2}{b^2}=1:\\quad A=\\pi ab",
+    "back": "$4\\cdot\\dfrac ba\\int_0^a\\sqrt{a^2-x^2}\\,dx$. Show the integration; the formula alone earns only the last mark.",
+    "stars": 3,
+    "tags": [
+      "5-mark"
+    ]
+  },
+  {
+    "id": "parabola-latus-rectum",
+    "kind": "formula",
+    "title": "Parabola and its latus rectum",
+    "tex": "y^2=4ax,\\ x=a:\\quad A=\\dfrac83a^2",
+    "back": "$2\\int_0^a2\\sqrt a\\sqrt x\\,dx$. The factor 2 is for the half below the axis.",
+    "stars": 2
+  },
+  {
+    "id": "sine-area",
+    "kind": "formula",
+    "title": "Area under y = sin x",
+    "tex": "\\int_0^\\pi\\sin x\\,dx=2",
+    "back": "From $0$ to $2\\pi$ the area is 4, not 0: the lower loop is counted with its modulus.",
+    "stars": 2,
+    "tags": [
+      "1-mark"
+    ]
+  }
+]

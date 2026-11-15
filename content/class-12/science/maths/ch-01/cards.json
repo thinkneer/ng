@@ -1,0 +1,99 @@
+[
+  {
+    "id": "ch01-arrow-diagrams",
+    "kind": "figure",
+    "title": "One-one but not onto · onto but not one-one",
+    "svg": "ref: notes#ch01-arrow-diagrams",
+    "back": "Left: no two arrows share an image, but one element is left out. Right: every element is hit, but two arrows share an image.",
+    "stars": 3,
+    "tags": [
+      "diagram"
+    ]
+  },
+  {
+    "id": "reflexive",
+    "kind": "formula",
+    "title": "Reflexive relation",
+    "tex": "(a,a)\\in R\\ \\text{ for every } a\\in A",
+    "legend": [
+      "A = the set on which R is defined"
+    ],
+    "back": "Every element is related to itself. One missing $(a,a)$ is enough to say \"not reflexive\".",
+    "stars": 3
+  },
+  {
+    "id": "symmetric",
+    "kind": "formula",
+    "title": "Symmetric relation",
+    "tex": "(a,b)\\in R\\Rightarrow(b,a)\\in R",
+    "back": "Swap test. To disprove, show one pair whose reverse is not in $R$."
+  },
+  {
+    "id": "transitive",
+    "kind": "formula",
+    "title": "Transitive relation",
+    "tex": "(a,b),(b,c)\\in R\\Rightarrow(a,c)\\in R",
+    "back": "Chain test. If there is no chain at all to test, the relation is transitive."
+  },
+  {
+    "id": "equivalence-relation",
+    "kind": "formula",
+    "title": "Equivalence relation",
+    "tex": "\\text{reflexive}+\\text{symmetric}+\\text{transitive}",
+    "back": "Prove all three, each with its own line and conclusion: 1 mark each in a 3-marker.",
+    "stars": 3,
+    "tags": [
+      "3-mark"
+    ]
+  },
+  {
+    "id": "equivalence-class",
+    "kind": "formula",
+    "title": "Equivalence class of a",
+    "tex": "[a]=\\{x\\in A:(x,a)\\in R\\}",
+    "legend": [
+      "[a] = everything related to a"
+    ],
+    "back": "The classes split $A$ into parts that do not overlap. For \"$a-b$ divisible by 5\" on $\\mathbb Z$ there are 5 classes: $[0],[1],[2],[3],[4]$.",
+    "stars": 2
+  },
+  {
+    "id": "one-one-test",
+    "kind": "formula",
+    "title": "One-one (injective)",
+    "tex": "f(x_1)=f(x_2)\\Rightarrow x_1=x_2",
+    "back": "Different inputs give different outputs. $x^2$ on $\\mathbb R$ fails: $f(1)=f(-1)$.",
+    "stars": 3
+  },
+  {
+    "id": "onto-test",
+    "kind": "formula",
+    "title": "Onto (surjective)",
+    "tex": "\\text{range of } f=\\text{codomain}",
+    "back": "Put $y=f(x)$, solve for $x$, and check that $x$ is in the domain for every $y$ in the codomain.",
+    "stars": 3
+  },
+  {
+    "id": "count-relations",
+    "kind": "formula",
+    "title": "Number of relations from A to B",
+    "tex": "2^{mn}",
+    "legend": [
+      "m = number of elements in A",
+      "n = number of elements in B"
+    ],
+    "back": "A relation is a subset of $A\\times B$, which has $mn$ pairs. On one set with $n$ elements: $2^{n^2}$."
+  },
+  {
+    "id": "count-functions",
+    "kind": "formula",
+    "title": "Number of functions from A to B",
+    "tex": "n^m",
+    "legend": [
+      "m = number of elements in A (domain)",
+      "n = number of elements in B"
+    ],
+    "back": "Each of the $m$ inputs chooses one of $n$ outputs. One-one functions: $n(n-1)\\cdots(n-m+1)$; bijections of a set with $m$ elements: $m!$.",
+    "stars": 2
+  }
+]

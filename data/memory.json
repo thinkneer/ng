@@ -728,6 +728,302 @@
    "prompt": "Which bases are purines?"
   }
  ],
+ "maths/ch-01": [
+  {
+   "id": "rst-self-swap-chain",
+   "title": "The three properties of a relation",
+   "trick": "**R S T** = **self, swap, chain**",
+   "meaning": [
+    "**R**eflexive: every element is related to it**self**, $(a,a)\\in R$.",
+    "**S**ymmetric: **swap** the pair and it is still there, $(a,b)\\Rightarrow(b,a)$.",
+    "**T**ransitive: a **chain** closes, $(a,b)$ and $(b,c)\\Rightarrow(a,c)$."
+   ],
+   "prompt": "What do reflexive, symmetric and transitive each ask you to check?"
+  },
+  {
+   "id": "one-one-onto-arrows",
+   "title": "One-one or onto? Look at the arrows",
+   "trick": "One-one: **no sharing**. Onto: **no one left out**.",
+   "meaning": [
+    "**One-one:** no two arrows land on the same element of the codomain.",
+    "**Onto:** no element of the codomain is left without an arrow, so range = codomain."
+   ],
+   "prompt": "In an arrow diagram, how do you spot one-one and onto?"
+  }
+ ],
+ "maths/ch-02": [
+  {
+   "id": "minus-sign-out-or-pi",
+   "title": "What happens to a minus sign inside",
+   "trick": "**sin, tan, cosec** throw the minus **out**; **cos, cot, sec** turn it into **π −**",
+   "meaning": [
+    "$\\sin^{-1}(-x)=-\\sin^{-1}x$, and the same for $\\tan^{-1}$ and $\\operatorname{cosec}^{-1}$: their branch is centred on 0.",
+    "$\\cos^{-1}(-x)=\\pi-\\cos^{-1}x$, and the same for $\\cot^{-1}$ and $\\sec^{-1}$: their branch runs from 0 to $\\pi$."
+   ],
+   "prompt": "Which inverse functions give π − (…) for a negative input?"
+  },
+  {
+   "id": "bring-the-angle-home",
+   "title": "sin⁻¹(sin θ) is not always θ",
+   "trick": "**Bring the angle home first**",
+   "meaning": [
+    "$\\sin^{-1}(\\sin\\theta)=\\theta$ only when $\\theta$ is \"at home\" in $\\left[-\\dfrac\\pi2,\\dfrac\\pi2\\right]$.",
+    "If it is not, replace $\\theta$ by an angle in the branch with the same sine, such as $\\pi-\\theta$, and then cancel."
+   ],
+   "prompt": "When is sin⁻¹(sin θ) equal to θ?"
+  }
+ ],
+ "maths/ch-03": [
+  {
+   "id": "rows-then-columns",
+   "title": "Order of a matrix",
+   "trick": "**R**ows first, **C**olumns next: think **RC** cola",
+   "meaning": [
+    "Order $m\\times n$ means $m$ rows and $n$ columns; $a_{ij}$ sits in row $i$, column $j$.",
+    "A matrix with 12 elements can have 6 possible orders: $1\\times12$, $2\\times6$, $3\\times4$, $4\\times3$, $6\\times2$, $12\\times1$."
+   ],
+   "prompt": "In the order m × n and the element a_ij, which comes first: row or column?"
+  },
+  {
+   "id": "ab-not-ba",
+   "title": "Matrix multiplication is not commutative",
+   "trick": "**AB ≠ BA**: keep the order, like wearing socks before shoes",
+   "meaning": [
+    "$(A+B)^2=A^2+AB+BA+B^2$, not $A^2+2AB+B^2$, unless $AB=BA$.",
+    "Reversal law: $(AB)'=B'A'$ and $(AB)^{-1}=B^{-1}A^{-1}$. The order flips, like taking off shoes before socks."
+   ],
+   "prompt": "Expand (A + B)² for matrices. When does it equal A² + 2AB + B²?"
+  }
+ ],
+ "maths/ch-04": [
+  {
+   "id": "sign-chessboard",
+   "title": "Signs of the cofactors",
+   "trick": "A **chessboard** of signs, starting with **+** in the corner",
+   "meaning": [
+    "$\\begin{matrix}+&-&+\\\\-&+&-\\\\+&-&+\\end{matrix}$ — the sign of position $(i,j)$ is $(-1)^{i+j}$.",
+    "Cofactor $A_{ij}=(-1)^{i+j}M_{ij}$, where the minor $M_{ij}$ is the determinant left after deleting row $i$ and column $j$."
+   ],
+   "prompt": "What is the sign attached to the minor at position (2, 3)?"
+  },
+  {
+   "id": "adjoint-two-by-two",
+   "title": "Adjoint of a 2 × 2 matrix in one glance",
+   "trick": "**Swap the diagonal, change the signs of the other two**",
+   "meaning": [
+    "$\\operatorname{adj}\\begin{bmatrix}a&b\\\\c&d\\end{bmatrix}=\\begin{bmatrix}d&-b\\\\-c&a\\end{bmatrix}$. For order 3 there is no shortcut: nine cofactors, then **transpose**."
+   ],
+   "prompt": "Write adj A for A = [a b; c d] without working."
+  }
+ ],
+ "maths/ch-05": [
+  {
+   "id": "three-way-handshake",
+   "title": "Continuity at x = a",
+   "trick": "A **three-way handshake**: left, right and the point itself",
+   "meaning": [
+    "Left-hand limit = right-hand limit = $f(a)$. All three must be the same number.",
+    "In a \"find $k$\" question, write the three values and equate them."
+   ],
+   "prompt": "Which three values must be equal for f to be continuous at x = a?"
+  },
+  {
+   "id": "peel-the-onion",
+   "title": "Chain rule",
+   "trick": "**Peel the onion**: outside layer first, then the next, and multiply",
+   "meaning": [
+    "$\\dfrac{d}{dx}\\sin(x^2)$: outside $\\sin(\\ )\\to\\cos(x^2)$, inside $x^2\\to2x$. Answer $2x\\cos(x^2)$. Keep going until you have differentiated the innermost $x$."
+   ],
+   "prompt": "How do you differentiate a function of a function?"
+  }
+ ],
+ "maths/ch-06": [
+  {
+   "id": "decreasing-is-negative",
+   "title": "Signs in rate questions",
+   "trick": "**Shrinking, melting, leaking, sliding down = minus sign**",
+   "meaning": [
+    "A rate that is decreasing is written negative: water leaking at 5 cm³/s means $\\dfrac{dV}{dt}=-5$.",
+    "Substitute the given values only **after** differentiating."
+   ],
+   "prompt": "Water leaks from a tank at 5 cm³/s. What is dV/dt?"
+  },
+  {
+   "id": "smile-and-frown",
+   "title": "Second derivative test",
+   "trick": "$f''>0$ is a **smile** ∪ (minimum); $f''<0$ is a **frown** ∩ (maximum)",
+   "meaning": [
+    "At a point where $f'(c)=0$: $f''(c)<0$ gives a local maximum, $f''(c)>0$ a local minimum.",
+    "If $f''(c)=0$ the test fails: go back to the sign change of $f'$."
+   ],
+   "prompt": "f′(c) = 0 and f″(c) < 0. Maximum or minimum?"
+  }
+ ],
+ "maths/ch-07": [
+  {
+   "id": "spot-the-derivative",
+   "title": "When to substitute",
+   "trick": "**Spot a function sitting next to its own derivative**",
+   "meaning": [
+    "$\\int\\dfrac{f'(x)}{f(x)}\\,dx=\\log\\lvert f(x)\\rvert+C$ and $\\int f'(x)\\,[f(x)]^n\\,dx=\\dfrac{[f(x)]^{n+1}}{n+1}+C$.",
+    "Put $t$ = the inside function; its derivative, already present, becomes $dt$."
+   ],
+   "prompt": "What do you look for before choosing a substitution?"
+  },
+  {
+   "id": "ilate",
+   "title": "Which function goes first?",
+   "trick": "**I L A T E**",
+   "meaning": [
+    "**I**nverse trig, **L**ogarithmic, **A**lgebraic, **T**rigonometric, **E**xponential: the one that comes earlier is the first function $u$.",
+    "$\\int x\\,e^x\\,dx$: $x$ (A) before $e^x$ (E). $\\int\\log x\\,dx$: take $\\log x$ first and 1 as the second function."
+   ],
+   "prompt": "In ∫ x² log x dx, which is the first function?"
+  },
+  {
+   "id": "king-property",
+   "title": "The property that solves most 5-markers",
+   "trick": "The **king** property: replace $x$ by **(upper + lower − x)**",
+   "meaning": [
+    "$\\int_a^bf(x)\\,dx=\\int_a^bf(a+b-x)\\,dx$; with lower limit 0, replace $x$ by $a-x$.",
+    "Then **add** the two forms: $2I$ is usually an easy integral."
+   ],
+   "prompt": "What do you replace x by in the property for ∫ from a to b?"
+  }
+ ],
+ "maths/ch-08": [
+  {
+   "id": "standing-or-sleeping-strip",
+   "title": "dx or dy?",
+   "trick": "**Standing strip → dx. Sleeping strip → dy.**",
+   "meaning": [
+    "A vertical (standing) strip has width $dx$ and height $y$: area $=\\int y\\,dx$.",
+    "A horizontal (sleeping) strip has height $dy$ and length $x$: area $=\\int x\\,dy$."
+   ],
+   "prompt": "A horizontal strip is used. Is the integral in dx or dy?"
+  },
+  {
+   "id": "area-is-never-negative",
+   "title": "Below the axis",
+   "trick": "**Area never goes negative: split and take the modulus**",
+   "meaning": [
+    "Where the curve is below the $x$-axis, the integral comes out negative; take its absolute value before adding.",
+    "Where there is a corner (a modulus), split the integral at the corner."
+   ],
+   "prompt": "The integral for part of a region comes out as −2. What do you add to the area?"
+  }
+ ],
+ "maths/ch-09": [
+  {
+   "id": "boss-and-its-power",
+   "title": "Order and degree",
+   "trick": "**Order = the boss; degree = the boss's power**",
+   "meaning": [
+    "**Order:** the highest derivative present (the boss).",
+    "**Degree:** the power of that highest derivative, once the equation is a polynomial in derivatives. If it is not ($\\sin y'$, $e^{y''}$), the degree is not defined."
+   ],
+   "prompt": "How do you read the order and the degree of a differential equation?"
+  },
+  {
+   "id": "p-up-q-in",
+   "title": "Linear equation dy/dx + Py = Q",
+   "trick": "**P goes up, Q goes in**",
+   "meaning": [
+    "**P goes up** into the power: I.F. $=e^{\\int P\\,dx}$.",
+    "**Q goes in** to the integral: $y\\cdot(\\text{I.F.})=\\int Q\\cdot(\\text{I.F.})\\,dx+C$.",
+    "First make the coefficient of $\\dfrac{dy}{dx}$ equal to 1."
+   ],
+   "prompt": "Where do P and Q go in the solution of a linear differential equation?"
+  }
+ ],
+ "maths/ch-10": [
+  {
+   "id": "divide-by-your-own-size",
+   "title": "Unit vector",
+   "trick": "**Divide by your own size**",
+   "meaning": [
+    "$\\hat a=\\dfrac{\\vec a}{\\lvert\\vec a\\rvert}$: same direction, magnitude 1.",
+    "A vector of magnitude $m$ along $\\vec a$ is $m\\,\\hat a$. The components of $\\hat a$ are the direction cosines."
+   ],
+   "prompt": "How do you get the unit vector along a given vector?"
+  },
+  {
+   "id": "dot-cos-cross-sin",
+   "title": "Dot or cross?",
+   "trick": "**Dot goes with cos, cross goes with sin**",
+   "meaning": [
+    "Dot: $\\lvert\\vec a\\rvert\\lvert\\vec b\\rvert\\cos\\theta$, a **number**; zero when the vectors are **perpendicular**.",
+    "Cross: magnitude $\\lvert\\vec a\\rvert\\lvert\\vec b\\rvert\\sin\\theta$, a **vector**; zero when the vectors are **parallel**."
+   ],
+   "prompt": "Which product is zero for perpendicular vectors, and which for parallel vectors?"
+  }
+ ],
+ "maths/ch-11": [
+  {
+   "id": "ratios-to-cosines",
+   "title": "Direction ratios to direction cosines",
+   "trick": "**Divide by the root of the sum of squares**",
+   "meaning": [
+    "$l,m,n=\\dfrac{a}{\\sqrt{a^2+b^2+c^2}},\\ \\dfrac{b}{\\sqrt{a^2+b^2+c^2}},\\ \\dfrac{c}{\\sqrt{a^2+b^2+c^2}}$.",
+    "Direction cosines obey $l^2+m^2+n^2=1$; direction ratios can be any proportional numbers."
+   ],
+   "prompt": "How do you turn direction ratios a, b, c into direction cosines?"
+  },
+  {
+   "id": "join-dot-cross",
+   "title": "Shortest distance between skew lines",
+   "trick": "**Join · cross ÷ size of cross**",
+   "meaning": [
+    "**Join** the two given points: $\\vec a_2-\\vec a_1$. **Cross** the two directions: $\\vec b_1\\times\\vec b_2$.",
+    "Dot them, divide by $\\lvert\\vec b_1\\times\\vec b_2\\rvert$, take the modulus. Parallel lines need the other formula."
+   ],
+   "prompt": "Say the skew-line shortest-distance formula in words."
+  }
+ ],
+ "maths/ch-12": [
+  {
+   "id": "origin-test",
+   "title": "Which side to shade?",
+   "trick": "**Ask the origin**: put $(0,0)$ in the inequality",
+   "meaning": [
+    "True → shade the side that contains the origin. False → shade the other side.",
+    "If the line passes through the origin, ask another point such as $(1,0)$."
+   ],
+   "prompt": "How do you decide which side of the line x + 2y = 10 to shade for x + 2y ≤ 10?"
+  },
+  {
+   "id": "graph-corners-table-conclusion",
+   "title": "The four parts of every LPP answer",
+   "trick": "**G C T C**: Graph, Corners, Table, Conclusion",
+   "meaning": [
+    "**G**raph with the region shaded, **C**orner points (solved, not read off), **T**able of $Z$, **C**onclusion with the value and the point.",
+    "Unbounded region: add the half-plane check before the conclusion."
+   ],
+   "prompt": "Name the four parts of a graphical LPP answer."
+  }
+ ],
+ "maths/ch-13": [
+  {
+   "id": "given-goes-down",
+   "title": "Which event goes in the denominator?",
+   "trick": "**Given goes down**",
+   "meaning": [
+    "In $P(E\\mid F)$ the event after the bar is the one that is known; it goes **down** into the denominator: $\\dfrac{P(E\\cap F)}{P(F)}$.",
+    "So $P(E\\mid F)$ and $P(F\\mid E)$ have different denominators and are different numbers in general."
+   ],
+   "prompt": "In P(E | F), which probability is in the denominator?"
+  },
+  {
+   "id": "my-path-over-all-paths",
+   "title": "Bayes' theorem on a tree",
+   "trick": "**My path ÷ all paths**",
+   "meaning": [
+    "Multiply along each branch that ends in the observed result.",
+    "Bayes' answer = (the path through the cause asked about) ÷ (the sum of all those paths)."
+   ],
+   "prompt": "On a probability tree, what is Bayes' theorem in four words?"
+  }
+ ],
  "biology/ch-01": [
   {
    "id": "ch01-anther-wall",

@@ -16,6 +16,26 @@ If a derivative sits inside $\sin$, $\cos$, $\log$ or an exponent, the degree is
 
 Integrating introduces a constant. The **general solution** contains as many arbitrary constants as the order. A **particular solution** has none: you fix the constant using a given condition such as "$y=1$ when $x=0$".
 
+```ng-mnemonic
+id: boss-and-its-power
+title: Order and degree
+trick: **Order = the boss; degree = the boss's power**
+meaning: **Order:** the highest derivative present (the boss).
+meaning: **Degree:** the power of that highest derivative, once the equation is a polynomial in derivatives. If it is not ($\sin y'$, $e^{y''}$), the degree is not defined.
+prompt: How do you read the order and the degree of a differential equation?
+```
+
+```ng-fill
+id: fill-order-degree
+title: Order and degree
+cols: Equation | Order | Degree
+row: $\dfrac{d^2y}{dx^2}+5\left(\dfrac{dy}{dx}\right)^3=0$ | [[2]] | [[1]]
+row: $\left(\dfrac{dy}{dx}\right)^2+y=x$ | [[1]] | [[2]]
+row: $\left(\dfrac{d^2y}{dx^2}\right)^3+\left(\dfrac{dy}{dx}\right)^4+y=0$ | [[2]] | [[3]]
+row: $\dfrac{dy}{dx}+\sin\left(\dfrac{dy}{dx}\right)=0$ | [[1]] | [[not defined]]
+row: Arbitrary constants in the general solution of an equation of order 3 | [[3]] | —
+```
+
 **In one breath:** Order = highest derivative; degree = its power when the equation is polynomial in derivatives. General solution has arbitrary constants; a particular solution uses the given condition to remove them.
 
 ## Type 1: variables separable
@@ -54,6 +74,32 @@ Add a single $C$ at the integration step, on one side only. Adding it at the ver
 
 Growth and decay problems are this type. "Rate of change proportional to the amount" means $\dfrac{dP}{dt}=kP$, which separates to give $P=P_0e^{kt}$. For example, a principal growing continuously at 5% per year satisfies $\dfrac{dP}{dt}=\dfrac{P}{20}$, so $P=P_0e^{t/20}$, and it doubles when $e^{t/20}=2$, that is after $20\log2$ years.
 
+```ng-graph
+id: graph-solution-family
+title: One equation, a family of curves
+x: x | -3 | 3
+y: y | -6 | 6
+curve: y = C·e^(kx) | C*exp(k*x)
+slider: C | constant $C$ | -3 | 3 | 0.5 | 1
+slider: k | $k$ | -1 | 1 | 0.25 | 0.5
+preset: through (0, 1) | C=1
+preset: through (0, −2) | C=-2
+note: Every curve satisfies $\dfrac{dy}{dx}=ky$: that is the general solution. A given point such as $y(0)=1$ fixes $C$ and picks one curve: the particular solution.
+```
+
+```ng-numerical
+id: num-growth-triple
+title: Growth problem
+question: A bacteria culture grows at a rate proportional to the number present. It doubles in {{T}} hours. In how many hours will it become three times the original number?
+var: T | 2 | 8 | 1
+answer: T*ln(3)/ln(2)
+unit: hours
+dp: 2
+step: $\dfrac{dN}{dt}=kN\Rightarrow\log N=kt+C\Rightarrow N=N_0e^{kt}$
+step: $N=2N_0$ at $t={{T}}$: $k=\dfrac{\log2}{\,{{T}}\,}$
+step: $N=3N_0$: $t=\dfrac{\log3}{k}=\dfrac{\,{{T}}\log3}{\log2}=$ **{{T*ln(3)/ln(2):2}} hours**
+```
+
 **In one breath:** Get $y$-terms with $dy$ and $x$-terms with $dx$, integrate both sides, add one constant, and use the condition if a particular solution is asked.
 
 ## Type 2: homogeneous equations
@@ -84,6 +130,16 @@ The answer must be in $x$ and $y$. Leaving $v$ in the final line loses the last 
 :::
 
 If the equation is easier as $\dfrac{dx}{dy}$ in terms of $\dfrac xy$ (you will see $e^{x/y}$ or $\dfrac xy$ in it), use $x=vy$ with $\dfrac{dx}{dy}=v+y\dfrac{dv}{dy}$ instead.
+
+```ng-steps
+id: steps-homogeneous
+title: Solving a homogeneous equation
+step: Write it as $\dfrac{dy}{dx}=F(x,y)$ and show $F(\lambda x,\lambda y)=F(x,y)$: that line earns a mark.
+step: Put $y=vx$, so $\dfrac{dy}{dx}=v+x\dfrac{dv}{dx}$.
+step: Simplify: the equation becomes variable separable in $v$ and $x$.
+step: Separate and integrate both sides.
+step: Replace $v$ by $\dfrac yx$ and tidy up.
+```
 
 **In one breath:** Same degree in every term, or $\dfrac yx$ everywhere: say it is homogeneous, put $y=vx$, separate $v$ and $x$, integrate, and put $\dfrac yx$ back.
 
@@ -129,6 +185,37 @@ $\dfrac xy=\displaystyle\int2y\cdot\dfrac1y\,dy+C=2y+C$ [1]
 $\boxed{x=2y^2+Cy}$ [½]
 :::
 
+```ng-mnemonic
+id: p-up-q-in
+title: Linear equation dy/dx + Py = Q
+trick: **P goes up, Q goes in**
+meaning: **P goes up** into the power: I.F. $=e^{\int P\,dx}$.
+meaning: **Q goes in** to the integral: $y\cdot(\text{I.F.})=\int Q\cdot(\text{I.F.})\,dx+C$.
+meaning: First make the coefficient of $\dfrac{dy}{dx}$ equal to 1.
+prompt: Where do P and Q go in the solution of a linear differential equation?
+```
+
+```ng-steps
+id: steps-linear
+title: Solving a linear equation
+step: Divide through so that the equation reads $\dfrac{dy}{dx}+Py=Q$; write down $P$ and $Q$.
+step: Integrating factor: I.F. $=e^{\int P\,dx}$, simplified (for example $e^{\log x}=x$).
+step: Write the solution: $y\cdot(\text{I.F.})=\int Q\cdot(\text{I.F.})\,dx+C$.
+step: Integrate the right-hand side.
+step: For a particular solution, use the given condition to find $C$.
+```
+
+```ng-derive
+id: derive-linear-solve
+title: Solve a linear equation
+prompt: Solve $x\dfrac{dy}{dx}+y=x^3$, $x>0$.
+time: 4
+check: Standard form $\dfrac{dy}{dx}+\dfrac yx=x^2$; $P=\dfrac1x$, $Q=x^2$ | 0.5
+check: I.F. $=e^{\int\frac1x dx}=e^{\log x}=x$ | 1
+check: $y\cdot x=\displaystyle\int x^2\cdot x\,dx+C$ | 0.5
+check: $xy=\dfrac{x^4}{4}+C$, that is $y=\dfrac{x^3}{4}+\dfrac Cx$ | 1
+```
+
 **In one breath:** Standard form, $\text{I.F.}=e^{\int P\,dx}$, then $y\times\text{I.F.}=\int Q\times\text{I.F.}\,dx+C$. If $y$ appears squared or inside a function, try $\dfrac{dx}{dy}$.
 
 ## Choosing the method
@@ -140,5 +227,14 @@ Run through the three types in this order; it takes a few seconds and saves the 
 3. Do $y$ and $\dfrac{dy}{dx}$ appear only to the first power? Then it is **linear in $y$**. If not, turn it over and check whether it is **linear in $x$**.
 
 Forming a differential equation from a given family of curves is not in the 2026–27 syllabus; you are only asked to solve.
+
+```ng-compare
+id: three-types
+title: The three types at a glance
+cols: Variable separable | Homogeneous | Linear
+row: Looks like | $f(y)\,dy=g(x)\,dx$ after rearranging | $\dfrac{dy}{dx}=F\left(\dfrac yx\right)$; every term of the same degree | $\dfrac{dy}{dx}+Py=Q$; $y$ and $\dfrac{dy}{dx}$ to the first power
+row: Key step | separate, integrate both sides | put $y=vx$ | multiply by I.F. $=e^{\int P\,dx}$
+row: Mark not to miss | $+C$ on one side | show $F(\lambda x,\lambda y)=F(x,y)$ | standard form with $P$, $Q$ stated
+```
 
 **In one breath:** Separable first, homogeneous second, linear third. Name the type in your first line, then follow its routine.

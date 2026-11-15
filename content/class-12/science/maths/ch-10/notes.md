@@ -24,6 +24,28 @@ The numbers $a$, $b$, $c$ in $a\hat i+b\hat j+c\hat k$ are its **direction ratio
 Write the arrow on every vector and the hat on $\hat i$, $\hat j$, $\hat k$. A bare letter $a$ means a scalar, and examiners deduct for it.
 :::
 
+```ng-numerical
+id: num-magnitude
+title: Magnitude of a vector
+question: Find the magnitude of the vector ${{a}}\hat i+{{b}}\hat j-{{c}}\hat k$.
+var: a | 1 | 6 | 1
+var: b | 1 | 6 | 1
+var: c | 1 | 6 | 1
+answer: sqrt(a^2+b^2+c^2)
+dp: 3
+step: $\lvert\vec a\rvert=\sqrt{a_1^2+a_2^2+a_3^2}=\sqrt{\,{{a^2:0}}+{{b^2:0}}+{{c^2:0}}\,}$
+step: $=\sqrt{\,{{a^2+b^2+c^2:0}}\,}=$ **{{sqrt(a^2+b^2+c^2):3}}**
+```
+
+```ng-mnemonic
+id: divide-by-your-own-size
+title: Unit vector
+trick: **Divide by your own size**
+meaning: $\hat a=\dfrac{\vec a}{\lvert\vec a\rvert}$: same direction, magnitude 1.
+meaning: A vector of magnitude $m$ along $\vec a$ is $m\,\hat a$. The components of $\hat a$ are the direction cosines.
+prompt: How do you get the unit vector along a given vector?
+```
+
 **In one breath:** $\overrightarrow{AB}=\vec b-\vec a$; magnitude is the root of the sum of squares; unit vector is the vector divided by its magnitude.
 
 ## Section formula
@@ -88,6 +110,42 @@ $9+2(3)(5)\cos\theta+25=49$, so $\cos\theta=\dfrac12$ [1]
 $\theta=\boxed{\dfrac\pi3}$ [½]
 :::
 
+```ng-mnemonic
+id: dot-cos-cross-sin
+title: Dot or cross?
+trick: **Dot goes with cos, cross goes with sin**
+meaning: Dot: $\lvert\vec a\rvert\lvert\vec b\rvert\cos\theta$, a **number**; zero when the vectors are **perpendicular**.
+meaning: Cross: magnitude $\lvert\vec a\rvert\lvert\vec b\rvert\sin\theta$, a **vector**; zero when the vectors are **parallel**.
+prompt: Which product is zero for perpendicular vectors, and which for parallel vectors?
+```
+
+```ng-numerical
+id: num-perpendicular-lambda
+title: Make two vectors perpendicular
+question: Find $\lambda$ if the vectors ${{a}}\hat i+\lambda\hat j+{{c}}\hat k$ and ${{d}}\hat i+{{e}}\hat j+{{f}}\hat k$ are perpendicular.
+var: a | 1 | 4 | 1
+var: c | 1 | 4 | 1
+var: d | 1 | 3 | 1
+var: e | 1 | 4 | 1
+var: f | 1 | 3 | 1
+answer: -(a*d+c*f)/e
+dp: 2
+step: Perpendicular vectors: $\vec a\cdot\vec b=0$.
+step: $({{a}})({{d}})+\lambda({{e}})+({{c}})({{f}})=0\Rightarrow{{e}}\lambda=-{{a*d+c*f:0}}$
+step: $\lambda=$ **{{-(a*d+c*f)/e:2}}**
+```
+
+```ng-derive
+id: derive-sum-zero-angle
+title: Three vectors adding to zero
+prompt: If $\vec a+\vec b+\vec c=\vec0$ and $\lvert\vec a\rvert=3$, $\lvert\vec b\rvert=5$, $\lvert\vec c\rvert=7$, find the angle between $\vec a$ and $\vec b$.
+time: 4
+check: $\vec a+\vec b=-\vec c$ | 0.5
+check: Square both sides: $\lvert\vec a\rvert^2+2\,\vec a\cdot\vec b+\lvert\vec b\rvert^2=\lvert\vec c\rvert^2$ | 1
+check: $9+2(3)(5)\cos\theta+25=49\Rightarrow\cos\theta=\dfrac12$ | 1
+check: $\theta=\dfrac\pi3$ | 0.5
+```
+
 **In one breath:** Dot product = multiply matching components and add. It gives angles, perpendicularity (dot = 0), magnitudes ($\vec a\cdot\vec a=|\vec a|^2$) and projections (divide by $|\vec b|$).
 
 ## The cross product
@@ -101,7 +159,7 @@ $\vec a\times\vec b=-\,\vec b\times\vec a$   $\vec a\times\vec a=\vec0$   $\vec 
 
 Its two uses match its two properties. Because it is perpendicular to both vectors, it gives a vector (or unit vector) perpendicular to a pair. Because its magnitude is $|\vec a||\vec b|\sin\theta$, it gives areas.
 
-<figure class="fig">
+<figure class="fig" id="ch10-parallelogram">
 <svg viewBox="0 0 320 170" role="img" aria-label="Parallelogram with adjacent sides vector a and vector b, angle theta between them and height b sine theta">
 <polygon points="50,140 210,140 270,50 110,50" fill="#C2571A" opacity="0.18"/>
 <line x1="50" y1="140" x2="210" y2="140" stroke="#C2571A" stroke-width="2.5"/><polygon points="210,140 198,134 198,146" fill="#C2571A"/>
@@ -144,5 +202,33 @@ When expanding the determinant, the $\hat j$ term carries a minus sign. Write "$
 If a question asks for a *unit* vector perpendicular to two vectors, there are two answers: $\pm\dfrac{\vec a\times\vec b}{|\vec a\times\vec b|}$.
 
 The scalar triple product is not in the 2026–27 syllabus.
+
+```ng-compare
+id: dot-vs-cross
+title: Dot product vs cross product
+cols: Dot product $\vec a\cdot\vec b$ | Cross product $\vec a\times\vec b$
+row: Result | a scalar | a vector perpendicular to both
+row: Size | $\lvert\vec a\rvert\lvert\vec b\rvert\cos\theta$ | $\lvert\vec a\rvert\lvert\vec b\rvert\sin\theta$
+row: In components | $a_1b_1+a_2b_2+a_3b_3$ | a $3\times3$ determinant with $\hat i,\hat j,\hat k$ in row 1
+row: Order | $\vec a\cdot\vec b=\vec b\cdot\vec a$ | $\vec a\times\vec b=-\,\vec b\times\vec a$
+row: Zero when | $\vec a\perp\vec b$ | $\vec a\parallel\vec b$
+row: Used for | angle, projection, perpendicularity | area, a perpendicular vector
+```
+
+```ng-steps
+id: steps-cross-product
+title: Cross product and area
+step: Write the determinant with $\hat i,\hat j,\hat k$ in row 1, the components of $\vec a$ in row 2 and of $\vec b$ in row 3.
+step: Expand along row 1. Mind the minus sign on the $\hat j$ term.
+step: Find the magnitude of the resulting vector.
+step: Parallelogram with adjacent sides $\vec a$, $\vec b$: area = that magnitude. Triangle: half of it. Diagonals given: $\dfrac12\lvert\vec d_1\times\vec d_2\rvert$.
+```
+
+```ng-draw
+id: draw-parallelogram
+title: Draw the parallelogram on a and b
+svg: ref: notes#ch10-parallelogram
+time: 2
+```
 
 **In one breath:** Cross product by determinant gives a vector perpendicular to both; its magnitude is the area of the parallelogram. Halve it for a triangle.

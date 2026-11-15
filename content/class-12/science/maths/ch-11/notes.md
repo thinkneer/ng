@@ -20,6 +20,29 @@ $\sqrt{9+4+64}=\sqrt{77}$, so the direction cosines are $\boxed{\dfrac{3}{\sqrt{
 
 A line equally inclined to the three axes has $l=m=n$, so $3l^2=1$ and each direction cosine is $\pm\dfrac{1}{\sqrt3}$.
 
+```ng-mnemonic
+id: ratios-to-cosines
+title: Direction ratios to direction cosines
+trick: **Divide by the root of the sum of squares**
+meaning: $l,m,n=\dfrac{a}{\sqrt{a^2+b^2+c^2}},\ \dfrac{b}{\sqrt{a^2+b^2+c^2}},\ \dfrac{c}{\sqrt{a^2+b^2+c^2}}$.
+meaning: Direction cosines obey $l^2+m^2+n^2=1$; direction ratios can be any proportional numbers.
+prompt: How do you turn direction ratios a, b, c into direction cosines?
+```
+
+```ng-numerical
+id: num-distance-from-axis
+title: Distance of a point from an axis
+question: Find the distance of the point $({{a}},{{b}},{{c}})$ from the $x$-axis.
+var: a | 1 | 6 | 1
+var: b | 1 | 6 | 1
+var: c | 1 | 6 | 1
+answer: sqrt(b^2+c^2)
+unit: units
+dp: 3
+step: The foot of the perpendicular on the $x$-axis is $({{a}},0,0)$.
+step: Distance $=\sqrt{\,{{b}}^2+{{c}}^2}=\sqrt{\,{{b^2+c^2:0}}\,}=$ **{{sqrt(b^2+c^2):3}} units**
+```
+
 **In one breath:** Direction ratios are any numbers proportional to the direction; divide by $\sqrt{a^2+b^2+c^2}$ to get direction cosines, whose squares add to 1.
 
 ## Equation of a line
@@ -45,6 +68,16 @@ Setting the Cartesian form equal to $\lambda$ gives the **general point** on the
 :::tip Standard form first
 Read the point and direction ratios only after each numerator is in the form $x-x_1$. For example $\dfrac{1-x}{3}=\dfrac{7y-14}{2p}=\dfrac{z-3}{2}$ must be rewritten as $\dfrac{x-1}{-3}=\dfrac{y-2}{2p/7}=\dfrac{z-3}{2}$, so its direction ratios are $-3,\ \dfrac{2p}{7},\ 2$.
 :::
+
+```ng-fill
+id: fill-read-the-line
+title: Read the point and the direction ratios
+cols: Line | Point on it | Direction ratios
+row: $\dfrac{x-1}{2}=\dfrac{y+3}{4}=\dfrac{z-5}{-1}$ | [[$(1,-3,5)$]] | [[$2,\ 4,\ -1$]]
+row: $\dfrac{1-x}{3}=\dfrac{y-2}{2}=\dfrac z5$ | [[$(1,2,0)$]] | [[$-3,\ 2,\ 5$]]
+row: $3x-1=6y+2=1-z$ | [[$\left(\dfrac13,-\dfrac13,1\right)$]] | [[$2,\ 1,\ -6$]]
+row: $\vec r=(2\hat i-\hat j)+\lambda(\hat i+\hat j-3\hat k)$ | [[$(2,-1,0)$]] | [[$1,\ 1,\ -3$]]
+```
 
 **In one breath:** A line is a point plus a direction: $\vec r=\vec a+\lambda\vec b$. In Cartesian form the denominators are the direction ratios, once the coefficients of $x$, $y$, $z$ are $+1$.
 
@@ -72,6 +105,23 @@ In standard form the direction ratios are $-3,\ \dfrac{2p}{7},\ 2$ and $-\dfrac{
 
 Perpendicular: $(-3)\left(-\dfrac{3p}{7}\right)+\dfrac{2p}{7}(1)+2(-5)=0\Rightarrow\dfrac{11p}{7}=10\Rightarrow\boxed{p=\dfrac{70}{11}}$ [1]
 :::
+
+```ng-numerical
+id: num-angle-between-lines
+title: Angle between two lines
+question: Two lines have direction ratios ${{a}},{{b}},{{c}}$ and ${{d}},{{e}},{{f}}$. Find $\cos\theta$, where $\theta$ is the angle between them.
+var: a | 1 | 3 | 1
+var: b | -2 | 2 | 1
+var: c | 1 | 3 | 1
+var: d | 1 | 3 | 1
+var: e | 1 | 3 | 1
+var: f | -2 | 2 | 1
+answer: abs(a*d+b*e+c*f)/(sqrt(a^2+b^2+c^2)*sqrt(d^2+e^2+f^2))
+dp: 3
+step: $a_1a_2+b_1b_2+c_1c_2=({{a}})({{d}})+({{b}})({{e}})+({{c}})({{f}})={{a*d+b*e+c*f:0}}$
+step: Magnitudes: $\sqrt{\,{{a^2+b^2+c^2:0}}\,}$ and $\sqrt{\,{{d^2+e^2+f^2:0}}\,}$
+step: $\cos\theta=\dfrac{\lvert{{a*d+b*e+c*f:0}}\rvert}{\sqrt{\,{{a^2+b^2+c^2:0}}\,}\sqrt{\,{{d^2+e^2+f^2:0}}\,}}=$ **{{abs(a*d+b*e+c*f)/(sqrt(a^2+b^2+c^2)*sqrt(d^2+e^2+f^2)):3}}**
+```
 
 **In one breath:** Use only the direction ratios. Dot product zero means perpendicular; proportional ratios mean parallel; otherwise $\cos\theta$ is the modulus of the dot product over the product of magnitudes.
 
@@ -108,13 +158,44 @@ To check directly whether two lines intersect, write the general point of each, 
 A distance cannot be negative. Keep the modulus signs to the last line and end with "units".
 :::
 
+```ng-mnemonic
+id: join-dot-cross
+title: Shortest distance between skew lines
+trick: **Join · cross ÷ size of cross**
+meaning: **Join** the two given points: $\vec a_2-\vec a_1$. **Cross** the two directions: $\vec b_1\times\vec b_2$.
+meaning: Dot them, divide by $\lvert\vec b_1\times\vec b_2\rvert$, take the modulus. Parallel lines need the other formula.
+prompt: Say the skew-line shortest-distance formula in words.
+```
+
+```ng-steps
+id: steps-shortest-distance
+title: Shortest distance between two skew lines
+step: Put both lines in standard form and read $\vec a_1,\vec b_1,\vec a_2,\vec b_2$.
+step: Find $\vec a_2-\vec a_1$.
+step: Find $\vec b_1\times\vec b_2$ by the determinant, then its magnitude.
+step: Take the dot product $(\vec a_2-\vec a_1)\cdot(\vec b_1\times\vec b_2)$.
+step: Divide, take the modulus, write "units". Zero means the lines intersect.
+```
+
+```ng-derive
+id: derive-shortest-distance
+title: Shortest distance, Cartesian form
+prompt: Find the shortest distance between the lines $\dfrac{x+1}{7}=\dfrac{y+1}{-6}=\dfrac{z+1}{1}$ and $\dfrac{x-3}{1}=\dfrac{y-5}{-2}=\dfrac{z-7}{1}$.
+time: 8
+check: $\vec a_1=-\hat i-\hat j-\hat k$, $\vec b_1=7\hat i-6\hat j+\hat k$, $\vec a_2=3\hat i+5\hat j+7\hat k$, $\vec b_2=\hat i-2\hat j+\hat k$ | 1
+check: $\vec a_2-\vec a_1=4\hat i+6\hat j+8\hat k$ | 0.5
+check: $\vec b_1\times\vec b_2=-4\hat i-6\hat j-8\hat k$, magnitude $\sqrt{116}$ | 1.5
+check: Formula written | 0.5
+check: $d=\dfrac{\lvert-16-36-64\rvert}{\sqrt{116}}=\sqrt{116}=2\sqrt{29}$ units | 1.5
+```
+
 **In one breath:** Skew lines: join the two points, dot with $\vec b_1\times\vec b_2$, divide by its magnitude, take the modulus. Parallel lines need the other formula.
 
 ## Foot of the perpendicular and image of a point
 
 Given a point $P$ and a line, the **foot of the perpendicular** $Q$ is the point of the line nearest to $P$. The **image** of $P$ in the line is the point $P'$ on the other side, with $Q$ as the mid-point of $PP'$.
 
-<figure class="fig">
+<figure class="fig" id="ch11-foot-image">
 <svg viewBox="0 0 320 190" role="img" aria-label="A point P above a line, the foot Q of the perpendicular from P on the line, and the image P dash on the other side with Q as mid-point">
 <line x1="20" y1="120" x2="300" y2="80" stroke="#C2571A" stroke-width="2.5"/>
 <line x1="150" y1="25" x2="160" y2="100" stroke="currentColor" stroke-width="1.5"/>
@@ -143,5 +224,22 @@ Image $P'$: $Q$ is the mid-point of $PP'$, so $P'=2Q-P=\boxed{(1,0,7)}$ [1]
 :::
 
 The same general-point idea solves two other standard questions. To find the points on a line at a given distance from a given point, write the distance from the general point, square it and solve the quadratic in $\lambda$. To find where a line crosses a coordinate plane, set that coordinate of the general point to zero ($z=0$ for the $xy$-plane).
+
+```ng-steps
+id: steps-foot-and-image
+title: Foot of the perpendicular and image
+step: Put the line equal to $\lambda$ and write the general point $Q$ in terms of $\lambda$.
+step: Write the direction ratios of $PQ$ (coordinates of $Q$ minus those of $P$).
+step: $PQ\perp$ line: (direction ratios of $PQ$) · (direction ratios of the line) $=0$. Solve for $\lambda$.
+step: Substitute $\lambda$ to get the foot $Q$; the distance is $\lvert PQ\rvert$.
+step: Image: $Q$ is the mid-point of $PP'$, so $P'=2Q-P$.
+```
+
+```ng-draw
+id: draw-foot-image
+title: Draw P, the foot Q and the image P′
+svg: ref: notes#ch11-foot-image
+time: 2
+```
 
 **In one breath:** Take $Q$ as the general point, set (direction of $PQ$) · (direction of line) = 0, solve for $\lambda$. Distance is $|PQ|$; the image is $2Q-P$.

@@ -1,0 +1,115 @@
+[
+  {
+    "id": "ch11-foot-image",
+    "kind": "figure",
+    "title": "Foot of the perpendicular and image",
+    "svg": "ref: notes#ch11-foot-image",
+    "back": "$Q$ is the point of the line nearest to $P$, with $PQ\\perp$ line. The image $P'$ is as far behind the line: $Q$ is the mid-point of $PP'$, so $P'=2Q-P$.",
+    "stars": 3,
+    "tags": [
+      "diagram",
+      "5-mark"
+    ]
+  },
+  {
+    "id": "direction-cosines",
+    "kind": "formula",
+    "title": "Direction cosines",
+    "tex": "l^2+m^2+n^2=1",
+    "legend": [
+      "l, m, n = cosines of the angles with the x-, y-, z-axes"
+    ],
+    "back": "Equally inclined to the axes: $\\pm\\dfrac{1}{\\sqrt3}$ each. Also $\\sin^2\\alpha+\\sin^2\\beta+\\sin^2\\gamma=2$.",
+    "stars": 3,
+    "tags": [
+      "1-mark"
+    ]
+  },
+  {
+    "id": "ratios-to-cosines",
+    "kind": "formula",
+    "title": "From direction ratios to direction cosines",
+    "tex": "l=\\dfrac{a}{\\sqrt{a^2+b^2+c^2}}",
+    "legend": [
+      "a, b, c = direction ratios"
+    ],
+    "back": "Same for $m$ and $n$. Through two points the direction ratios are $x_2-x_1,\\ y_2-y_1,\\ z_2-z_1$.",
+    "stars": 2
+  },
+  {
+    "id": "line-vector-form",
+    "kind": "formula",
+    "title": "Line: vector form",
+    "tex": "\\vec r=\\vec a+\\lambda\\vec b",
+    "legend": [
+      "a = position vector of a point on the line",
+      "b = vector parallel to the line"
+    ],
+    "back": "Through two points: $\\vec r=\\vec a+\\lambda(\\vec b-\\vec a)$.",
+    "stars": 3
+  },
+  {
+    "id": "line-cartesian-form",
+    "kind": "formula",
+    "title": "Line: Cartesian form",
+    "tex": "\\dfrac{x-x_1}{a}=\\dfrac{y-y_1}{b}=\\dfrac{z-z_1}{c}",
+    "legend": [
+      "(x_1, y_1, z_1) = point on the line",
+      "a, b, c = direction ratios"
+    ],
+    "back": "Read them only after each numerator looks like $x-x_1$ with coefficient $+1$.",
+    "stars": 3
+  },
+  {
+    "id": "general-point",
+    "kind": "formula",
+    "title": "General point on a line",
+    "tex": "(x_1+a\\lambda,\\ y_1+b\\lambda,\\ z_1+c\\lambda)",
+    "back": "The key to foot of perpendicular, image, intersection of two lines and \"where does the line meet the plane $z=0$\".",
+    "stars": 3
+  },
+  {
+    "id": "angle-between-lines",
+    "kind": "formula",
+    "title": "Angle between two lines",
+    "tex": "\\cos\\theta=\\dfrac{|a_1a_2+b_1b_2+c_1c_2|}{\\sqrt{a_1^2+b_1^2+c_1^2}\\,\\sqrt{a_2^2+b_2^2+c_2^2}}",
+    "back": "Perpendicular: $a_1a_2+b_1b_2+c_1c_2=0$. Parallel: $\\dfrac{a_1}{a_2}=\\dfrac{b_1}{b_2}=\\dfrac{c_1}{c_2}$.",
+    "stars": 3
+  },
+  {
+    "id": "skew-distance",
+    "kind": "formula",
+    "title": "Shortest distance: skew lines",
+    "tex": "d=\\left|\\dfrac{(\\vec a_2-\\vec a_1)\\cdot(\\vec b_1\\times\\vec b_2)}{|\\vec b_1\\times\\vec b_2|}\\right|",
+    "back": "Join · cross ÷ size of cross. $d=0$ means the lines intersect.",
+    "stars": 3,
+    "tags": [
+      "5-mark"
+    ]
+  },
+  {
+    "id": "parallel-distance",
+    "kind": "formula",
+    "title": "Distance between parallel lines",
+    "tex": "d=\\dfrac{|\\vec b\\times(\\vec a_2-\\vec a_1)|}{|\\vec b|}",
+    "legend": [
+      "b = the common direction"
+    ],
+    "back": "Use this when $\\vec b_1\\times\\vec b_2=\\vec0$; the skew formula then gives $\\dfrac00$.",
+    "stars": 2,
+    "tags": [
+      "3-mark"
+    ]
+  },
+  {
+    "id": "image-of-a-point",
+    "kind": "process",
+    "title": "Image of a point in a line",
+    "tex": "P'=2Q-P",
+    "legend": [
+      "Q = foot of the perpendicular from P"
+    ],
+    "back": "Find $Q$ from the general point with $PQ\\perp$ line; then double $Q$ and subtract $P$.",
+    "stars": 3
+  }
+]

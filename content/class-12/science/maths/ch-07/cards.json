@@ -1,0 +1,112 @@
+[
+  {
+    "id": "integral-tan-sec",
+    "kind": "formula",
+    "title": "Integrals of tan x and sec x",
+    "tex": "\\int\\tan x\\,dx=\\log|\\sec x|+C",
+    "back": "$\\int\\sec x\\,dx=\\log\\lvert\\sec x+\\tan x\\rvert+C$; $\\int\\cot x\\,dx=\\log\\lvert\\sin x\\rvert+C$; $\\int\\operatorname{cosec}x\\,dx=\\log\\lvert\\operatorname{cosec}x-\\cot x\\rvert+C$.",
+    "stars": 2
+  },
+  {
+    "id": "integral-x2-plus-a2",
+    "kind": "formula",
+    "title": "1 over (x² + a²)",
+    "tex": "\\int\\dfrac{dx}{x^2+a^2}=\\dfrac1a\\tan^{-1}\\dfrac xa+C",
+    "back": "The only one of the three rational forms that gives an inverse tangent. Do not forget the $\\dfrac1a$.",
+    "stars": 3
+  },
+  {
+    "id": "integral-x2-minus-a2",
+    "kind": "formula",
+    "title": "1 over (x² − a²)",
+    "tex": "\\int\\dfrac{dx}{x^2-a^2}=\\dfrac{1}{2a}\\log\\left|\\dfrac{x-a}{x+a}\\right|+C",
+    "back": "For $a^2-x^2$: $\\dfrac{1}{2a}\\log\\left\\lvert\\dfrac{a+x}{a-x}\\right\\rvert+C$. Complete the square first if there is an $x$ term.",
+    "stars": 3
+  },
+  {
+    "id": "integral-root-a2-minus-x2",
+    "kind": "formula",
+    "title": "1 over √(a² − x²)",
+    "tex": "\\int\\dfrac{dx}{\\sqrt{a^2-x^2}}=\\sin^{-1}\\dfrac xa+C",
+    "back": "No $\\dfrac1a$ in front. With $x^2\\pm a^2$ under the root the answer is $\\log\\left\\lvert x+\\sqrt{x^2\\pm a^2}\\right\\rvert+C$.",
+    "stars": 3
+  },
+  {
+    "id": "integral-of-root",
+    "kind": "formula",
+    "title": "√(a² − x²)",
+    "tex": "\\int\\sqrt{a^2-x^2}\\,dx=\\dfrac x2\\sqrt{a^2-x^2}+\\dfrac{a^2}{2}\\sin^{-1}\\dfrac xa+C",
+    "back": "The area integral for circles and ellipses. For $\\sqrt{x^2\\pm a^2}$: $\\dfrac x2\\sqrt{x^2\\pm a^2}\\pm\\dfrac{a^2}{2}\\log\\left\\lvert x+\\sqrt{x^2\\pm a^2}\\right\\rvert+C$.",
+    "stars": 3
+  },
+  {
+    "id": "by-parts",
+    "kind": "formula",
+    "title": "Integration by parts",
+    "tex": "\\int u\\,v\\,dx=u\\int v\\,dx-\\int\\left[\\dfrac{du}{dx}\\int v\\,dx\\right]dx",
+    "legend": [
+      "u = first function, chosen by ILATE"
+    ],
+    "back": "First × integral of second − integral of (derivative of first × integral of second).",
+    "stars": 3
+  },
+  {
+    "id": "ex-f-plus-fdash",
+    "kind": "formula",
+    "title": "eˣ[f(x) + f′(x)]",
+    "tex": "\\int e^x\\left[f(x)+f'(x)\\right]dx=e^xf(x)+C",
+    "back": "Split the bracket so that one part is the derivative of the other. Example: $\\int e^x\\left(\\dfrac1x-\\dfrac{1}{x^2}\\right)dx=\\dfrac{e^x}{x}+C$.",
+    "stars": 3,
+    "tags": [
+      "3-mark"
+    ]
+  },
+  {
+    "id": "partial-fraction-forms",
+    "kind": "formula",
+    "title": "Partial fractions",
+    "tex": "\\dfrac{px+q}{(x-a)(x-b)}=\\dfrac{A}{x-a}+\\dfrac{B}{x-b}",
+    "back": "Repeated factor: $\\dfrac{A}{x-a}+\\dfrac{B}{(x-a)^2}$. Irreducible quadratic: numerator $Bx+C$. Improper fraction: divide first.",
+    "stars": 3
+  },
+  {
+    "id": "king-property",
+    "kind": "formula",
+    "title": "Property: x → a + b − x",
+    "tex": "\\int_a^bf(x)\\,dx=\\int_a^bf(a+b-x)\\,dx",
+    "back": "With lower limit 0: $\\int_0^af(x)\\,dx=\\int_0^af(a-x)\\,dx$. Apply, add the two forms, and $2I$ becomes easy.",
+    "stars": 3,
+    "tags": [
+      "5-mark"
+    ]
+  },
+  {
+    "id": "even-odd-property",
+    "kind": "formula",
+    "title": "Limits −a to a",
+    "tex": "\\int_{-a}^{a}f(x)\\,dx=2\\int_0^af(x)\\,dx\\ \\ (f\\text{ even}),\\qquad0\\ \\ (f\\text{ odd})",
+    "back": "Check $f(-x)$ first. $\\int_{-\\pi/2}^{\\pi/2}\\sin^5x\\,dx=0$ in one line.",
+    "stars": 3,
+    "tags": [
+      "1-mark"
+    ]
+  },
+  {
+    "id": "definite-integral",
+    "kind": "formula",
+    "title": "Second fundamental theorem",
+    "tex": "\\int_a^bf(x)\\,dx=F(b)-F(a)",
+    "legend": [
+      "F = any antiderivative of f"
+    ],
+    "back": "No $+C$. If you substitute, change the limits too. Split the integral where a modulus changes sign.",
+    "stars": 2
+  },
+  {
+    "id": "half-angle-identities",
+    "kind": "formula",
+    "title": "Squares of sine and cosine",
+    "tex": "\\sin^2x=\\dfrac{1-\\cos2x}{2}\\qquad\\cos^2x=\\dfrac{1+\\cos2x}{2}",
+    "back": "Lower the power before integrating. Products: $2\\sin A\\cos B=\\sin(A+B)+\\sin(A-B)$."
+  }
+]

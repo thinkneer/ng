@@ -1,6 +1,6 @@
 # Class 12 Science · Maths — status
 
-_Last updated 14 Nov 2026 (Maths chat, batches 1–3: all 13 chapters are on the site)._ Board paper: 9 Mar 2027. Boards only.
+_Last updated 15 Nov 2026 (Maths chat: all 13 chapters on the site, each with a card deck and interactive blocks)._ Board paper: 9 Mar 2027. Boards only.
 
 ## Done on the site
 **Batch 1 — Unit III Calculus (35 marks): ch-05 to ch-09.** Each chapter has all five files.
@@ -37,6 +37,30 @@ _Last updated 14 Nov 2026 (Maths chat, batches 1–3: all 13 chapters are on the
 - Every answer and every worked example was checked by computation (sympy). Every `$…$` expression in the Maths content was parsed with the site's KaTeX build (0 errors). `node scripts/build-index.mjs` passes with 0 warnings.
 - `subject.json → not_in_syllabus` now lists the deleted topics chapter by chapter.
 
+## Cards and interactive blocks (15 Nov 2026, CLAUDE.md §4c)
+All 13 chapters now have `cards.json` (136 cards) and interactive blocks in `notes.md` (112 blocks: compare 9, derive 10, draw 13, explain 3, fill 10, graph 4, mnemonic 27, numerical 19, steps 17).
+
+| Chapter | Cards | Blocks in notes.md |
+|---|---|---|
+| ch-01 | 10 | compare 1, derive 1, draw 1, explain 1, fill 1, mnemonic 2, numerical 1, steps 1 |
+| ch-02 | 10 | draw 1, fill 2, mnemonic 2, numerical 1, steps 1 |
+| ch-03 | 10 | compare 1, derive 1, explain 1, mnemonic 2, numerical 1, steps 1 |
+| ch-04 | 10 | derive 1, fill 1, mnemonic 2, numerical 2, steps 1 |
+| ch-05 | 11 | compare 1, derive 1, draw 1, graph 1, mnemonic 2, numerical 1, steps 1 |
+| ch-06 | 11 | compare 1, draw 2, graph 1, mnemonic 2, numerical 2, steps 2 |
+| ch-07 | 12 | derive 1, fill 2, mnemonic 3, numerical 1, steps 2 |
+| ch-08 | 10 | derive 1, draw 3, graph 1, mnemonic 2, numerical 2, steps 1 |
+| ch-09 | 10 | compare 1, derive 1, fill 1, graph 1, mnemonic 2, numerical 1, steps 2 |
+| ch-10 | 12 | compare 1, derive 1, draw 1, mnemonic 2, numerical 2, steps 1 |
+| ch-11 | 10 | derive 1, draw 1, fill 1, mnemonic 2, numerical 2, steps 2 |
+| ch-12 | 10 | compare 2, draw 2, explain 1, fill 1, mnemonic 2, numerical 1, steps 1 |
+| ch-13 | 10 | compare 1, derive 1, draw 1, fill 1, mnemonic 2, numerical 2, steps 1 |
+
+- Cards: every existing figure is a figure card (`svg: ref: notes#<id>`; the 16 figures now carry ids such as `ch08-ellipse`, `ch12-bounded-region`, `ch13-bayes-tree`); the rest are formula cards (`tex` + legend + a back line saying what the formula means or where marks are lost).
+- Every chapter has at least two `ng-mnemonic` tricks (they also feed `data/memory.json`), at least one `ng-numerical` with fresh numbers (19 in all; each was simulated with random values and the worked steps read back), an `ng-steps` method, and a compare or fill table. `ng-graph`: ch-05 (movable corner), ch-06 (cubic with its derivative), ch-08 (area under a sine curve), ch-09 (family of solutions). `ng-derive` self-marked answers: ch-01, 03, 04, 05, 07, 08, 09, 10, 11, 13. `ng-draw` for every figure students draw in the exam (LPP regions, area sketches, Bayes tree).
+- Not done: no `ng-figure` (tap-to-label) blocks. Maths figures are graphs rather than labelled diagrams, so they are plain figures with `ng-draw` practice. Say if the LPP regions should become tap-to-label figures.
+- Card and block ids are final; do not rename them.
+
 ## How it was written
 - The earlier Maths PDFs (formula sheet, answer-writing guide, must-have notes Ch 1–13, Part 1 practice sets) were **not attached** to this chat. The content was written from the Maths chat's own earlier work in the same conversation and board knowledge, following `claude/maths-notes.md` in the project. The Calculus questions are the Part 1 practice sets, re-cut to 12 per chapter. The Ch 1–4 and Ch 10–13 questions are new, built on NCERT exercise types.
 - Read layer: concept in plain words, then worked examples in board layout inside `:::skeleton` with step marks; each trap as a `:::tip` at the point of error; every section ends with **In one breath:**. Figures are inline SVG generated from the actual curves (not traced).
@@ -54,12 +78,12 @@ _Last updated 14 Nov 2026 (Maths chat, batches 1–3: all 13 chapters are on the
 - none yet
 
 ## What's next (in this order)
-All 13 chapters now have Read, Must know, formulas and 12 practice questions. What is left:
-1. **Phone check of the pages** (not done from this chat; only the build, a KaTeX parse and SVG renders were run): figures in dark and sepia, long display equations, wide matrices and determinants in Ch 3–4 and Ch 10–11, tables inside worked examples in Ch 12–13.
-2. **Second-pass polish of Must-know lines** once students have used Recall: shorten any card that reads badly as a flashcard.
-3. **Verify the syllabus and pattern against the official CBSE 2026–27 PDFs** (see the note above) and check `data/patterns/class-12/maths.json` against the official SQP.
-4. **More practice per chapter** if wanted: the bank has 12 per chapter; the next useful additions are a second case study each for Ch 6, 12 and 13, and Part 2/3 practice sets (Units I–II and IV–VI) in the style of the Calculus set. No full papers under `papers/` yet.
-5. LPP graphs in model answers are described in words ("graph drawn, region shaded"); figures exist only in the Read layer.
+1. **Exam bank for 4 fresh papers** (`node scripts/bank-check.mjs maths`, 15 Nov): add MCQ +19, 5-mark +12, 3-mark +11, 2-mark +1. Thinnest units: VI Probability, then III Calculus and IV Vectors & 3D; Unit I has only one 5-marker. A–R and case studies are enough.
+2. **Phone check of the pages** (not done from a Maths chat; only the build, a KaTeX parse, SVG renders and a simulation of the numerical blocks were run): card decks, graphs and fill tables on a 390 px screen; wide matrices and determinants in Ch 3–4 and 10–11; figures in dark and sepia.
+3. **Verify the syllabus and pattern against the official CBSE 2026–27 PDFs** and check `data/patterns/class-12/maths.json` against the official SQP.
+4. **Must-know polish:** shorten cards that read badly in Recall; the site audit of 15 Nov found one-word recall fronts across subjects.
+5. **Graphs in model answers:** LPP and area questions describe the graph in words; no model answer has an SVG yet.
+6. No fixed set paper under `papers/` yet (an SQP-style paper built from bank questions).
 
 ## Notes for the next Maths chat
 - Question banks are generated from small scripts (one per chapter) so that step marks are summed automatically; the scripts are not in the repo. Writing questions.json by hand is fine as long as the build passes.

@@ -1,0 +1,109 @@
+[
+  {
+    "id": "ch05-mod-corner",
+    "kind": "figure",
+    "title": "Continuous but not differentiable",
+    "svg": "ref: notes#ch05-mod-corner",
+    "back": "$y=\\lvert x-1\\rvert$ has no break at $x=1$, but the slope jumps from $-1$ to $+1$: a corner. Continuity does not imply differentiability.",
+    "stars": 3,
+    "tags": [
+      "diagram",
+      "1-mark"
+    ]
+  },
+  {
+    "id": "continuity-at-a-point",
+    "kind": "formula",
+    "title": "Continuity at x = a",
+    "tex": "\\lim_{x\\to a^-}f(x)=\\lim_{x\\to a^+}f(x)=f(a)",
+    "back": "Three values, one number. For \"find $k$\", equate them.",
+    "stars": 3
+  },
+  {
+    "id": "differentiability-at-a-point",
+    "kind": "formula",
+    "title": "Differentiability at x = a",
+    "tex": "\\lim_{h\\to0^-}\\dfrac{f(a+h)-f(a)}{h}=\\lim_{h\\to0^+}\\dfrac{f(a+h)-f(a)}{h}",
+    "back": "LHD = RHD, both finite. Differentiable ⇒ continuous, but not the other way round.",
+    "stars": 2
+  },
+  {
+    "id": "chain-rule",
+    "kind": "formula",
+    "title": "Chain rule",
+    "tex": "\\dfrac{dy}{dx}=\\dfrac{dy}{du}\\cdot\\dfrac{du}{dx}",
+    "legend": [
+      "u = the inside function"
+    ],
+    "back": "Differentiate the outside, keep the inside, then multiply by the derivative of the inside.",
+    "stars": 3
+  },
+  {
+    "id": "derivative-arcsin",
+    "kind": "formula",
+    "title": "Derivatives of sin⁻¹x and cos⁻¹x",
+    "tex": "\\dfrac{d}{dx}\\sin^{-1}x=\\dfrac{1}{\\sqrt{1-x^2}}",
+    "back": "$\\cos^{-1}x$ has the same derivative with a minus sign. Simplify with a substitution before differentiating when you can.",
+    "stars": 3
+  },
+  {
+    "id": "derivative-arctan",
+    "kind": "formula",
+    "title": "Derivatives of tan⁻¹x and cot⁻¹x",
+    "tex": "\\dfrac{d}{dx}\\tan^{-1}x=\\dfrac{1}{1+x^2}",
+    "back": "$\\cot^{-1}x$: the same with a minus sign. $\\sec^{-1}x$: $\\dfrac{1}{\\lvert x\\rvert\\sqrt{x^2-1}}$.",
+    "stars": 3
+  },
+  {
+    "id": "derivative-exponential",
+    "kind": "formula",
+    "title": "Derivatives of aˣ and logₐx",
+    "tex": "\\dfrac{d}{dx}a^x=a^x\\log a",
+    "back": "$\\dfrac{d}{dx}e^x=e^x$, $\\dfrac{d}{dx}\\log x=\\dfrac1x$, $\\dfrac{d}{dx}\\log_ax=\\dfrac{1}{x\\log a}$.",
+    "stars": 2
+  },
+  {
+    "id": "implicit",
+    "kind": "formula",
+    "title": "Implicit differentiation",
+    "tex": "\\dfrac{d}{dx}\\,y^n=n\\,y^{n-1}\\dfrac{dy}{dx}",
+    "back": "Differentiate every term with respect to $x$; each $y$ term brings a $\\dfrac{dy}{dx}$. Collect those terms and solve.",
+    "stars": 2
+  },
+  {
+    "id": "log-differentiation",
+    "kind": "formula",
+    "title": "Derivative of uᵛ",
+    "tex": "\\dfrac{d}{dx}u^v=u^v\\left[v'\\log u+\\dfrac{v\\,u'}{u}\\right]",
+    "legend": [
+      "u, v = functions of x"
+    ],
+    "back": "Take logs first, then differentiate. Special case: $\\dfrac{d}{dx}x^x=x^x(1+\\log x)$.",
+    "stars": 3,
+    "tags": [
+      "3-mark"
+    ]
+  },
+  {
+    "id": "parametric-first",
+    "kind": "formula",
+    "title": "Parametric: first derivative",
+    "tex": "\\dfrac{dy}{dx}=\\dfrac{dy/dt}{dx/dt}",
+    "legend": [
+      "t = the parameter"
+    ],
+    "back": "Differentiate both with respect to $t$, then divide.",
+    "stars": 3
+  },
+  {
+    "id": "parametric-second",
+    "kind": "formula",
+    "title": "Parametric: second derivative",
+    "tex": "\\dfrac{d^2y}{dx^2}=\\dfrac{d}{dt}\\left(\\dfrac{dy}{dx}\\right)\\cdot\\dfrac{dt}{dx}",
+    "back": "Not $\\dfrac{d^2y/dt^2}{d^2x/dt^2}$. Differentiate $\\dfrac{dy}{dx}$ with respect to $t$ and divide by $\\dfrac{dx}{dt}$.",
+    "stars": 3,
+    "tags": [
+      "trap"
+    ]
+  }
+]

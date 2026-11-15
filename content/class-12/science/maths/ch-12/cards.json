@@ -1,0 +1,114 @@
+[
+  {
+    "id": "ch12-bounded-region",
+    "kind": "figure",
+    "title": "Bounded feasible region",
+    "svg": "ref: notes#ch12-bounded-region",
+    "back": "$x+2y\\le10$, $3x+y\\le15$, $x,y\\ge0$: region $OABC$ with $A(5,0)$, $B(4,3)$, $C(0,5)$. $Z=3x+2y$ is largest at $B$: 18.",
+    "stars": 3,
+    "tags": [
+      "diagram",
+      "3-mark"
+    ]
+  },
+  {
+    "id": "ch12-unbounded-region",
+    "kind": "figure",
+    "title": "Unbounded feasible region",
+    "svg": "ref: notes#ch12-unbounded-region",
+    "back": "$x+3y\\ge3$, $x+y\\ge2$: the region runs off to infinity. Smallest corner value of $Z=3x+5y$ is 7 at $B(\\frac32,\\frac12)$; the half-plane $3x+5y<7$ misses the region, so 7 is the minimum.",
+    "stars": 3,
+    "tags": [
+      "diagram",
+      "3-mark"
+    ]
+  },
+  {
+    "id": "ch12-edge-optimal",
+    "kind": "figure",
+    "title": "A whole edge of optimal points",
+    "svg": "ref: notes#ch12-edge-optimal",
+    "back": "$Z=3x+9y$ has the same value 180 at $C(15,15)$ and $D(0,20)$: every point of $CD$ gives the maximum. Minimum 60 at $B(5,5)$.",
+    "stars": 2,
+    "tags": [
+      "diagram",
+      "5-mark"
+    ]
+  },
+  {
+    "id": "objective-function",
+    "kind": "formula",
+    "title": "Objective function",
+    "tex": "Z=ax+by",
+    "legend": [
+      "x, y = decision variables",
+      "a, b = constants"
+    ],
+    "back": "The linear function to be maximised or minimised, subject to linear constraints and $x\\ge0$, $y\\ge0$.",
+    "stars": 2,
+    "tags": [
+      "1-mark"
+    ]
+  },
+  {
+    "id": "feasible-region",
+    "kind": "formula",
+    "title": "Feasible region",
+    "tex": "\\text{common region of all constraints, with } x\\ge0,\\ y\\ge0",
+    "back": "Every point in it is a feasible solution. It is always convex. Bounded = can be enclosed in a circle.",
+    "stars": 2
+  },
+  {
+    "id": "corner-point-theorem",
+    "kind": "formula",
+    "title": "Corner-point theorem",
+    "tex": "\\text{optimal value of } Z\\ \\Rightarrow\\ \\text{at a corner point}",
+    "back": "If the region is bounded, both a maximum and a minimum exist, each at a corner.",
+    "stars": 3
+  },
+  {
+    "id": "unbounded-check",
+    "kind": "formula",
+    "title": "Unbounded region: the extra check",
+    "tex": "ax+by>M\\ \\text{ has no point in the region}\\ \\Rightarrow\\ M\\text{ is the maximum}",
+    "legend": [
+      "M = largest corner value of Z"
+    ],
+    "back": "For a minimum $m$: check $ax+by<m$. If the half-plane does contain feasible points, there is no maximum (or minimum).",
+    "stars": 3,
+    "tags": [
+      "3-mark"
+    ]
+  },
+  {
+    "id": "tie-at-two-corners",
+    "kind": "formula",
+    "title": "Same value at two corners",
+    "tex": "px_1+qy_1=px_2+qy_2",
+    "back": "Then every point on the segment joining them is optimal: infinitely many solutions. Example: corners $(15,15)$ and $(0,20)$ give $q=3p$.",
+    "stars": 2,
+    "tags": [
+      "1-mark"
+    ]
+  },
+  {
+    "id": "line-through-intercepts",
+    "kind": "formula",
+    "title": "Reading a constraint from a graph",
+    "tex": "\\dfrac xa+\\dfrac yb=1",
+    "legend": [
+      "a = x-intercept",
+      "b = y-intercept"
+    ],
+    "back": "Write the line, then choose $\\le$ or $\\ge$ by testing a point inside the shaded region.",
+    "stars": 2
+  },
+  {
+    "id": "origin-test",
+    "kind": "process",
+    "title": "Which side to shade",
+    "tex": "(0,0)\\ \\text{in}\\ ax+by\\le c:\\quad 0\\le c\\ ?",
+    "back": "True: shade the origin's side. False: the other side.",
+    "stars": 2
+  }
+]

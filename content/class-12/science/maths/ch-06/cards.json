@@ -1,0 +1,105 @@
+[
+  {
+    "id": "ch06-sign-line",
+    "kind": "figure",
+    "title": "Sign line of f′(x)",
+    "svg": "ref: notes#ch06-sign-line",
+    "back": "Mark the critical points, write the sign of $f'$ in each interval: + means increasing, − means decreasing. + to − is a maximum; − to + is a minimum.",
+    "stars": 3,
+    "tags": [
+      "diagram",
+      "3-mark"
+    ]
+  },
+  {
+    "id": "ch06-open-box",
+    "kind": "figure",
+    "title": "Open box from a square sheet",
+    "svg": "ref: notes#ch06-open-box",
+    "back": "Cut squares of side $x$: $V=x(a-2x)^2$. Maximum at $x=\\dfrac a6$. For an 18 cm sheet: $x=3$ cm, $V=432$ cm³.",
+    "stars": 2,
+    "tags": [
+      "diagram",
+      "5-mark"
+    ]
+  },
+  {
+    "id": "related-rates",
+    "kind": "formula",
+    "title": "Related rates",
+    "tex": "\\dfrac{dy}{dt}=\\dfrac{dy}{dx}\\cdot\\dfrac{dx}{dt}",
+    "back": "Write the formula linking the quantities, differentiate with respect to $t$, then substitute. Decreasing quantities get a minus sign.",
+    "stars": 3
+  },
+  {
+    "id": "increasing-test",
+    "kind": "formula",
+    "title": "Increasing or decreasing",
+    "tex": "f'(x)>0:\\ \\text{increasing}\\qquad f'(x)<0:\\ \\text{decreasing}",
+    "back": "On an interval. Factorise $f'$, mark its zeros, check the sign in each interval.",
+    "stars": 3
+  },
+  {
+    "id": "first-derivative-test",
+    "kind": "formula",
+    "title": "First derivative test",
+    "tex": "f':\\ +\\to-\\ \\text{(max)}\\qquad -\\to+\\ \\text{(min)}",
+    "back": "No sign change at $c$: neither, a point of inflexion.",
+    "stars": 2
+  },
+  {
+    "id": "second-derivative-test",
+    "kind": "formula",
+    "title": "Second derivative test",
+    "tex": "f'(c)=0,\\ f''(c)<0:\\ \\text{max}\\qquad f''(c)>0:\\ \\text{min}",
+    "back": "Frown = maximum, smile = minimum. $f''(c)=0$: the test fails.",
+    "stars": 3
+  },
+  {
+    "id": "absolute-extrema",
+    "kind": "formula",
+    "title": "Absolute maximum and minimum on [a, b]",
+    "tex": "\\text{compare } f(a),\\ f(b),\\ f(\\text{critical points})",
+    "back": "Largest value = absolute maximum; smallest = absolute minimum. End points must be included.",
+    "stars": 2
+  },
+  {
+    "id": "sphere-formulas",
+    "kind": "formula",
+    "title": "Sphere",
+    "tex": "V=\\dfrac43\\pi r^3\\qquad S=4\\pi r^2",
+    "back": "Needed for balloon, bubble and ice-ball rate questions: $\\dfrac{dV}{dt}=4\\pi r^2\\dfrac{dr}{dt}$."
+  },
+  {
+    "id": "cone-formulas",
+    "kind": "formula",
+    "title": "Cone and cylinder",
+    "tex": "V_\\text{cone}=\\dfrac13\\pi r^2h\\qquad V_\\text{cyl}=\\pi r^2h",
+    "legend": [
+      "l = slant height, l² = r² + h²"
+    ],
+    "back": "Cone CSA $=\\pi rl$; cylinder TSA $=2\\pi r(r+h)$. In a conical tank, use similar triangles to remove $r$ or $h$ before differentiating."
+  },
+  {
+    "id": "cylinder-least-surface",
+    "kind": "formula",
+    "title": "Closed cylinder, given volume, least surface",
+    "tex": "h=2r",
+    "back": "Height equals diameter. Standard 5-mark result: state it only after proving it.",
+    "stars": 2,
+    "tags": [
+      "5-mark"
+    ]
+  },
+  {
+    "id": "open-box-result",
+    "kind": "formula",
+    "title": "Open box from a square sheet of side a",
+    "tex": "x=\\dfrac a6",
+    "legend": [
+      "x = side of the square cut from each corner"
+    ],
+    "back": "Maximum volume $=\\dfrac{2a^3}{27}$.",
+    "stars": 2
+  }
+]

@@ -32,6 +32,15 @@ $P(E|F)$ and $P(F|E)$ are different numbers in general. Write down in words whic
 
 Conditional probability behaves like ordinary probability: $P(E'|F)=1-P(E|F)$, and $P((A\cup B)|F)=P(A|F)+P(B|F)-P((A\cap B)|F)$.
 
+```ng-mnemonic
+id: given-goes-down
+title: Which event goes in the denominator?
+trick: **Given goes down**
+meaning: In $P(E\mid F)$ the event after the bar is the one that is known; it goes **down** into the denominator: $\dfrac{P(E\cap F)}{P(F)}$.
+meaning: So $P(E\mid F)$ and $P(F\mid E)$ have different denominators and are different numbers in general.
+prompt: In P(E | F), which probability is in the denominator?
+```
+
 **In one breath:** Given $F$, the sample space shrinks to $F$: $P(E|F)=P(E\cap F)/P(F)$. The known event goes in the denominator.
 
 ## Multiplication theorem and independent events
@@ -74,6 +83,30 @@ $P(A)=\dfrac12$, $P(B)=\dfrac13$, so $P(A')=\dfrac12$, $P(B')=\dfrac23$ [½]
 Mutually exclusive means the events cannot happen together: $P(A\cap B)=0$. Independent means $P(A\cap B)=P(A)P(B)$. Two events with non-zero probabilities cannot be both. To *test* independence, compute $P(A\cap B)$ and $P(A)P(B)$ separately and compare.
 :::
 
+```ng-compare
+id: independent-vs-exclusive
+title: Independent vs mutually exclusive
+cols: Independent | Mutually exclusive
+row: Meaning | one does not affect the chance of the other | they cannot happen together
+row: $P(A\cap B)$ | $P(A)\,P(B)$ | $0$
+row: $P(A\cup B)$ | $1-P(A')P(B')$ | $P(A)+P(B)$
+row: $P(A\mid B)$ | $P(A)$ | $0$
+row: Both at once? | not if $P(A),P(B)\ne0$ | not if $P(A),P(B)\ne0$
+```
+
+```ng-numerical
+id: num-union-independent
+title: At least one of two independent events
+question: $A$ and $B$ are independent events with $P(A)={{p}}$ and $P(B)={{q}}$. Find $P(A\cup B)$.
+var: p | 0.2 | 0.6 | 0.1
+var: q | 0.3 | 0.7 | 0.1
+answer: p+q-p*q
+dp: 2
+tol: 0.5
+step: Independent: $P(A\cap B)=P(A)P(B)={{p}}\times{{q}}={{p*q:2}}$
+step: $P(A\cup B)={{p}}+{{q}}-{{p*q:2}}=$ **{{p+q-p*q:2}}**
+```
+
 **In one breath:** "And" means multiply: $P(E\cap F)=P(E)P(F|E)$. If the events are independent this is just $P(E)P(F)$, and their complements are independent too.
 
 ## Theorem of total probability
@@ -106,7 +139,7 @@ The denominator is the total probability $P(A)$; the numerator is the one term o
 
 A tree diagram keeps the numbers organised. Multiply along each path, and add the paths that end in the observed result.
 
-<figure class="fig">
+<figure class="fig" id="ch13-bayes-tree">
 <svg viewBox="0 0 320 190" role="img" aria-label="Probability tree: three machines A, B, C with shares 0.25, 0.35, 0.40, each branching into defective with probabilities 0.05, 0.04, 0.02 and not defective">
 <line x1="28" y1="95" x2="112" y2="37" stroke="#B0204F" stroke-width="1.6"/>
 <text x="44" y="54.0" font-size="11" fill="currentColor">0.25</text><text x="117" y="41" font-size="13" fill="currentColor">A</text>
@@ -148,6 +181,59 @@ Notice where the marks are: two of the five are for defining the events and list
 "4% of B's bolts are defective" is $P(D|E_2)=0.04$. The question asks for $P(E_2|D)$, the chance that a defective bolt came from B. These are different, and the whole point of Bayes' theorem is to get one from the other.
 :::
 
+```ng-mnemonic
+id: my-path-over-all-paths
+title: Bayes' theorem on a tree
+trick: **My path ÷ all paths**
+meaning: Multiply along each branch that ends in the observed result.
+meaning: Bayes' answer = (the path through the cause asked about) ÷ (the sum of all those paths).
+prompt: On a probability tree, what is Bayes' theorem in four words?
+```
+
+```ng-steps
+id: steps-bayes
+title: A Bayes' theorem answer
+step: Define the causes $E_1,E_2,\dots$ and the observed event $A$ in words.
+step: List $P(E_i)$ and $P(A\mid E_i)$ for every cause.
+step: Write Bayes' formula for the cause asked about.
+step: Substitute: the numerator is one path, the denominator is the sum of all paths.
+step: Simplify to a fraction in lowest terms.
+```
+
+```ng-numerical
+id: num-two-bags-bayes
+title: Which bag did it come from?
+question: Bag I has {{r}} red and {{b}} black balls; Bag II has {{s}} red and {{c}} black balls. A bag is chosen at random and a ball drawn from it is red. Find the probability that it came from Bag II.
+var: r | 2 | 5 | 1
+var: b | 3 | 6 | 1
+var: s | 3 | 6 | 1
+var: c | 2 | 5 | 1
+let: p1 = r/(r+b)
+let: p2 = s/(s+c)
+answer: (s/(s+c))/(r/(r+b)+s/(s+c))
+dp: 3
+step: $P(E_1)=P(E_2)=\dfrac12$; $P(A\mid E_1)=\dfrac{\,{{r}}\,}{\,{{r+b:0}}\,}$, $P(A\mid E_2)=\dfrac{\,{{s}}\,}{\,{{s+c:0}}\,}$
+step: $P(E_2\mid A)=\dfrac{\frac12\cdot\frac{\,{{s}}\,}{\,{{s+c:0}}\,}}{\frac12\cdot\frac{\,{{r}}\,}{\,{{r+b:0}}\,}+\frac12\cdot\frac{\,{{s}}\,}{\,{{s+c:0}}\,}}=$ **{{p2/(p1+p2):3}}** (give the exact fraction in the exam)
+```
+
+```ng-derive
+id: derive-truth-and-six
+title: Bayes' theorem: a reported six
+prompt: A man is known to speak the truth 3 times out of 4. He throws a die and reports that it is a six. Find the probability that it is actually a six.
+time: 5
+check: $E_1$: six occurs, $E_2$: six does not occur; $A$: the man reports a six | 1
+check: $P(E_1)=\dfrac16$, $P(E_2)=\dfrac56$; $P(A\mid E_1)=\dfrac34$, $P(A\mid E_2)=\dfrac14$ | 1
+check: Bayes' formula written and substituted: $\dfrac{\frac16\cdot\frac34}{\frac16\cdot\frac34+\frac56\cdot\frac14}$ | 1
+check: $=\dfrac38$ | 1
+```
+
+```ng-draw
+id: draw-bayes-tree
+title: Draw the tree for the three machines
+svg: ref: notes#ch13-bayes-tree
+time: 3
+```
+
 **In one breath:** Name the causes $E_i$ and the observed event $A$, list $P(E_i)$ and $P(A|E_i)$, then (path of the cause asked) ÷ (sum of all paths).
 
 ## Random variable and its mean
@@ -181,5 +267,12 @@ Add the probabilities before going on: $188+32+1=221$. If the total is not 1, th
 The fact that the probabilities add to 1 is also how you find an unknown constant. If $X$ takes the values $0,1,\dots,7$ with probabilities $0,\ k,\ 2k,\ 2k,\ 3k,\ k^2,\ 2k^2,\ 7k^2+k$, then $10k^2+9k=1$, so $(10k-1)(k+1)=0$ and $k=\dfrac{1}{10}$ (a probability cannot be negative). Then, for example, $P(X<3)=0+k+2k=\dfrac{3}{10}$.
 
 In the 2026–27 syllabus, only the mean of a random variable is required. Variance, Bernoulli trials and the binomial distribution are not in boards.
+
+```ng-fill
+id: fill-heads-distribution
+title: Number of heads in three tosses of a coin
+cols: $X$ | 0 | 1 | 2 | 3 | Mean
+row: $P(X)$ | [[$\dfrac18$]] | [[$\dfrac38$]] | [[$\dfrac38$]] | [[$\dfrac18$]] | [[$\dfrac32$]]
+```
 
 **In one breath:** List the values of $X$ with their probabilities (total 1); the mean is $\sum x_ip_i$. Use "total = 1" to find an unknown $k$.

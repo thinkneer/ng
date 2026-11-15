@@ -40,6 +40,15 @@ $\cos^2x=\dfrac{1+\cos2x}{2}$ [1]
 $\displaystyle\int\dfrac{1+\cos2x}{2}\,dx=\boxed{\dfrac x2+\dfrac{\sin2x}{4}+C}$ [1]
 :::
 
+```ng-mnemonic
+id: spot-the-derivative
+title: When to substitute
+trick: **Spot a function sitting next to its own derivative**
+meaning: $\int\dfrac{f'(x)}{f(x)}\,dx=\log\lvert f(x)\rvert+C$ and $\int f'(x)\,[f(x)]^n\,dx=\dfrac{[f(x)]^{n+1}}{n+1}+C$.
+meaning: Put $t$ = the inside function; its derivative, already present, becomes $dt$.
+prompt: What do you look for before choosing a substitution?
+```
+
 **In one breath:** Spot "inside function, with its derivative beside it", call the inside $t$. For $\sin^2x$, $\cos^2x$ use the double-angle identities before integrating.
 
 ## Integrals with a quadratic in the denominator
@@ -75,6 +84,27 @@ Second part: $5-4x-x^2=9-(x+2)^2$, giving $\sin^{-1}\dfrac{x+2}{3}$ [½]
 $\boxed{-\sqrt{5-4x-x^2}+\sin^{-1}\dfrac{x+2}{3}+C}$ [½]
 :::
 
+```ng-fill
+id: fill-standard-forms
+title: Six standard forms
+cols: Integral | Result (+ C)
+row: $\int\dfrac{dx}{x^2+a^2}$ | [[$\dfrac1a\tan^{-1}\dfrac xa$]]
+row: $\int\dfrac{dx}{x^2-a^2}$ | [[$\dfrac{1}{2a}\log\left\lvert\dfrac{x-a}{x+a}\right\rvert$]]
+row: $\int\dfrac{dx}{a^2-x^2}$ | [[$\dfrac{1}{2a}\log\left\lvert\dfrac{a+x}{a-x}\right\rvert$]]
+row: $\int\dfrac{dx}{\sqrt{a^2-x^2}}$ | [[$\sin^{-1}\dfrac xa$]]
+row: $\int\dfrac{dx}{\sqrt{x^2+a^2}}$ | [[$\log\left\lvert x+\sqrt{x^2+a^2}\right\rvert$]]
+row: $\int\dfrac{dx}{\sqrt{x^2-a^2}}$ | [[$\log\left\lvert x+\sqrt{x^2-a^2}\right\rvert$]]
+```
+
+```ng-steps
+id: steps-quadratic-denominator
+title: Integrals of (px + q) over a quadratic
+step: Write the numerator as $px+q=A\cdot\dfrac{d}{dx}(\text{quadratic})+B$ and find $A$, $B$ by comparing coefficients.
+step: Split into two integrals.
+step: First part: put $t$ = the quadratic. It gives a log (no root) or $2\sqrt t$ (with root).
+step: Second part: complete the square and use a standard form.
+```
+
 **In one breath:** Complete the square to reach a standard form. With a linear numerator, write it as $A\times(\text{derivative of the quadratic})+B$ and integrate the two parts separately.
 
 ## Partial fractions
@@ -102,6 +132,16 @@ If the degree of the numerator is not less than the degree of the denominator, d
 :::
 
 When only $x^2$ appears, as in $\dfrac{x^2}{(x^2+1)(x^2+4)}$, write $x^2=y$ to find the partial fractions, then put $x^2$ back before integrating.
+
+```ng-fill
+id: fill-partial-fractions
+title: Which partial fractions?
+cols: Denominator has | Write
+row: $(x-a)(x-b)$ | [[$\dfrac{A}{x-a}+\dfrac{B}{x-b}$]]
+row: $(x-a)^2(x-b)$ | [[$\dfrac{A}{x-a}+\dfrac{B}{(x-a)^2}+\dfrac{C}{x-b}$]]
+row: $(x-a)(x^2+bx+c)$, quadratic not factorisable | [[$\dfrac{A}{x-a}+\dfrac{Bx+C}{x^2+bx+c}$]]
+row: degree of numerator ≥ degree of denominator | [[divide first]]
+```
 
 **In one breath:** Write the form, find the constants by putting convenient values of $x$, integrate each piece to a log. Divide first if the fraction is improper.
 
@@ -133,6 +173,25 @@ Example: $\displaystyle\int e^x(\sin x+\cos x)\,dx=e^x\sin x+C$
 
 In the exam, show which part is $f$ and which is $f'$; that identification is the method mark. For $\displaystyle\int e^x\sin x\,dx$, integrate by parts twice: the original integral reappears, and you solve for it to get $\dfrac12e^x(\sin x-\cos x)+C$.
 
+```ng-mnemonic
+id: ilate
+title: Which function goes first?
+trick: **I L A T E**
+meaning: **I**nverse trig, **L**ogarithmic, **A**lgebraic, **T**rigonometric, **E**xponential: the one that comes earlier is the first function $u$.
+meaning: $\int x\,e^x\,dx$: $x$ (A) before $e^x$ (E). $\int\log x\,dx$: take $\log x$ first and 1 as the second function.
+prompt: In ∫ x² log x dx, which is the first function?
+```
+
+```ng-steps
+id: steps-by-parts
+title: Integration by parts
+step: Choose the first function $u$ by ILATE; the other is $v$.
+step: Write $\int u\,v\,dx=u\int v\,dx-\int\left[\dfrac{du}{dx}\int v\,dx\right]dx$.
+step: Integrate $v$ once; do not add a constant at this stage.
+step: Simplify the new integral and integrate it; repeat by parts if needed.
+step: Add $+C$ at the very end.
+```
+
 **In one breath:** For a product, pick $u$ by ILATE and apply the formula. For $e^x$ times a sum, look for $f+f'$.
 
 ## Definite integrals
@@ -152,6 +211,18 @@ $\displaystyle\int_0^{\pi/4}t\,dt=\left[\dfrac{t^2}{2}\right]_0^{\pi/4}=\boxed{\
 :::tip Limits after substitution
 New variable, new limits. Using the old limits with the new variable is the commonest error in this section.
 :::
+
+```ng-numerical
+id: num-power-definite
+title: A definite integral with fresh numbers
+question: Evaluate $\displaystyle\int_0^{\,{{a}}\,}x^{\,{{n}}\,}\,dx$.
+var: a | 1 | 4 | 1
+var: n | 1 | 3 | 1
+answer: a^(n+1)/(n+1)
+dp: 2
+step: $\displaystyle\int x^{\,{{n}}\,}dx=\dfrac{x^{\,{{n+1:0}}\,}}{\,{{n+1:0}}\,}$
+step: Upper limit minus lower limit: $\dfrac{\,{{a}}^{\,{{n+1:0}}\,}}{\,{{n+1:0}}\,}-0=$ **{{a^(n+1)/(n+1):2}}**
+```
 
 **In one breath:** Find an antiderivative, subtract its values at the limits. After a substitution, change the limits too.
 
@@ -193,5 +264,24 @@ $I=\displaystyle\int_{-1}^{0}(x^3-x)\,dx-\int_0^1(x^3-x)\,dx+\int_1^2(x^3-x)\,dx
 
 $=\dfrac14+\dfrac14+\dfrac94=\boxed{\dfrac{11}{4}}$ [1]
 :::
+
+```ng-mnemonic
+id: king-property
+title: The property that solves most 5-markers
+trick: The **king** property: replace $x$ by **(upper + lower − x)**
+meaning: $\int_a^bf(x)\,dx=\int_a^bf(a+b-x)\,dx$; with lower limit 0, replace $x$ by $a-x$.
+meaning: Then **add** the two forms: $2I$ is usually an easy integral.
+prompt: What do you replace x by in the property for ∫ from a to b?
+```
+
+```ng-derive
+id: derive-king-property
+title: Use the property
+prompt: Evaluate $\displaystyle\int_0^{\pi/2}\dfrac{\sin x}{\sin x+\cos x}\,dx$.
+time: 4
+check: Let $I$ be the integral; replace $x$ by $\dfrac\pi2-x$: $I=\displaystyle\int_0^{\pi/2}\dfrac{\cos x}{\cos x+\sin x}\,dx$ | 1
+check: Add: $2I=\displaystyle\int_0^{\pi/2}1\,dx=\dfrac\pi2$ | 1.5
+check: $I=\dfrac\pi4$ | 0.5
+```
 
 **In one breath:** Name the integral $I$, state the property, add the two forms of $I$. For a modulus, split the range where the inside changes sign.

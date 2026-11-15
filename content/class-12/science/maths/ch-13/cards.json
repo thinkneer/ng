@@ -1,0 +1,111 @@
+[
+  {
+    "id": "ch13-bayes-tree",
+    "kind": "figure",
+    "title": "Probability tree for Bayes' theorem",
+    "svg": "ref: notes#ch13-bayes-tree",
+    "back": "Multiply along a path; add the paths ending in $D$ to get $P(D)=0.0345$. $P(B\\mid D)=\\dfrac{0.35\\times0.04}{0.0345}=\\dfrac{28}{69}$: my path ÷ all paths.",
+    "stars": 3,
+    "tags": [
+      "diagram",
+      "5-mark"
+    ]
+  },
+  {
+    "id": "conditional-probability",
+    "kind": "formula",
+    "title": "Conditional probability",
+    "tex": "P(E|F)=\\dfrac{P(E\\cap F)}{P(F)}",
+    "legend": [
+      "F = the event known to have occurred, P(F) ≠ 0"
+    ],
+    "back": "Given goes down. With equally likely outcomes: $\\dfrac{n(E\\cap F)}{n(F)}$.",
+    "stars": 3
+  },
+  {
+    "id": "multiplication-theorem",
+    "kind": "formula",
+    "title": "Multiplication theorem",
+    "tex": "P(E\\cap F)=P(E)\\,P(F|E)",
+    "back": "\"And\" means multiply, with the second probability taken after the first has happened (without replacement: the numbers change).",
+    "stars": 3
+  },
+  {
+    "id": "independent-events",
+    "kind": "formula",
+    "title": "Independent events",
+    "tex": "P(E\\cap F)=P(E)\\,P(F)",
+    "back": "Then $E'$ and $F'$ are independent too. To test independence, compute both sides separately and compare.",
+    "stars": 3
+  },
+  {
+    "id": "at-least-one",
+    "kind": "formula",
+    "title": "At least one (independent events)",
+    "tex": "P(A\\cup B)=1-P(A')\\,P(B')",
+    "back": "\"The problem is solved\" = at least one solves it. Exactly one: $P(A)P(B')+P(A')P(B)$.",
+    "stars": 3,
+    "tags": [
+      "3-mark"
+    ]
+  },
+  {
+    "id": "exclusive-vs-independent",
+    "kind": "compare",
+    "title": "Mutually exclusive is not independent",
+    "tex": "P(A\\cap B)=0\\quad\\text{vs}\\quad P(A\\cap B)=P(A)P(B)",
+    "back": "Two events with non-zero probabilities cannot be both. A favourite assertion–reason pair.",
+    "stars": 2,
+    "tags": [
+      "1-mark"
+    ]
+  },
+  {
+    "id": "total-probability",
+    "kind": "formula",
+    "title": "Theorem of total probability",
+    "tex": "P(A)=\\sum_{j=1}^{n}P(E_j)\\,P(A|E_j)",
+    "legend": [
+      "E_1, …, E_n = a partition: mutually exclusive and exhaustive causes"
+    ],
+    "back": "For each route: (chance of the route) × (chance of the event on that route). Then add.",
+    "stars": 3
+  },
+  {
+    "id": "bayes-theorem",
+    "kind": "formula",
+    "title": "Bayes' theorem",
+    "tex": "P(E_i|A)=\\dfrac{P(E_i)\\,P(A|E_i)}{\\sum_{j}P(E_j)\\,P(A|E_j)}",
+    "legend": [
+      "A = the event that has been observed",
+      "E_i = the cause asked about"
+    ],
+    "back": "Define the events in words and list the probabilities first: those two lines carry marks.",
+    "stars": 3,
+    "tags": [
+      "5-mark"
+    ]
+  },
+  {
+    "id": "probability-distribution",
+    "kind": "formula",
+    "title": "Probability distribution",
+    "tex": "\\sum p_i=1,\\qquad p_i\\ge0",
+    "legend": [
+      "p_i = P(X = x_i)"
+    ],
+    "back": "Use \"total = 1\" to find an unknown $k$; reject a value that makes any probability negative.",
+    "stars": 3
+  },
+  {
+    "id": "mean-of-x",
+    "kind": "formula",
+    "title": "Mean of a random variable",
+    "tex": "E(X)=\\sum x_ip_i",
+    "back": "Multiply each value by its probability and add. Two cards, number of aces: mean $=\\dfrac{2}{13}$.",
+    "stars": 3,
+    "tags": [
+      "3-mark"
+    ]
+  }
+]

@@ -28,6 +28,28 @@ $|A'|=|A|$   $|AB|=|A|\,|B|$   $|kA|=k^n|A|$   $|A^{-1}|=\dfrac{1}{|A|}$
 Multiplying a matrix by $k$ multiplies *every row* by $k$, so the determinant picks up one factor of $k$ per row: $|kA|=k^n|A|$. For a $3\times3$ matrix with $|A|=4$, $|2A|=2^3\times4=32$.
 :::
 
+```ng-mnemonic
+id: sign-chessboard
+title: Signs of the cofactors
+trick: A **chessboard** of signs, starting with **+** in the corner
+meaning: $\begin{matrix}+&-&+\\-&+&-\\+&-&+\end{matrix}$ — the sign of position $(i,j)$ is $(-1)^{i+j}$.
+meaning: Cofactor $A_{ij}=(-1)^{i+j}M_{ij}$, where the minor $M_{ij}$ is the determinant left after deleting row $i$ and column $j$.
+prompt: What is the sign attached to the minor at position (2, 3)?
+```
+
+```ng-numerical
+id: num-det-ka
+title: Determinant of a multiple
+question: $A$ is a square matrix of order 3 with $\lvert A\rvert={{d}}$. Find $\lvert {{k}}A\rvert$.
+var: d | 2 | 6 | 1
+var: k | 2 | 4 | 1
+answer: k^3*d
+dp: 0
+tol: 0.01
+step: For order $n$: $\lvert kA\rvert=k^n\lvert A\rvert$. Here $n=3$.
+step: $\lvert {{k}}A\rvert={{k}}^3\times{{d}}=$ **{{k^3*d:0}}**
+```
+
 **In one breath:** $2\times2$: $ad-bc$. $3\times3$: expand along a row with alternating signs. $|kA|=k^n|A|$ and $|AB|=|A||B|$.
 
 ## Area of a triangle
@@ -54,6 +76,22 @@ When the area is *given*, the determinant can be $+$ or $-$ twice the area. Drop
 
 The same determinant gives the equation of a line through two points: put a general point $(x,y)$ in the first row and set the determinant to zero. Through $(1,2)$ and $(3,6)$: $\begin{vmatrix}x&y&1\\1&2&1\\3&6&1\end{vmatrix}=0$ gives $-4x+2y=0$, that is $y=2x$.
 
+```ng-numerical
+id: num-triangle-area
+title: Area of a triangle from its vertices
+question: Find the area of the triangle with vertices $({{a}},0)$, $(0,{{b}})$ and $({{c}},{{d}})$.
+var: a | 2 | 6 | 1
+var: b | 2 | 6 | 1
+var: c | 7 | 9 | 1
+var: d | 7 | 9 | 1
+answer: abs(a*(b-d)+c*(0-b))/2
+unit: sq. units
+dp: 1
+step: $\Delta=\dfrac12\begin{vmatrix}{{a}}&0&1\\0&{{b}}&1\\{{c}}&{{d}}&1\end{vmatrix}$
+step: Expanding along row 1: ${{a}}({{b}}-{{d}})-0+1(0-{{b}}\times{{c}})={{a*(b-d)-b*c:0}}$
+step: Area $=\dfrac12\times$ (absolute value) $=$ **{{abs(a*(b-d)-c*b)/2:1}} sq. units**
+```
+
 **In one breath:** Area $=\frac12|\text{determinant}|$; collinear means determinant $=0$; with a given area use $\pm$.
 
 ## Minors, cofactors and the adjoint
@@ -72,6 +110,14 @@ and, for order $n$, $|\operatorname{adj}A|=|A|^{n-1}$
 :::
 
 So for a $3\times3$ matrix with $|A|=5$, $|\operatorname{adj}A|=25$ and $A(\operatorname{adj}A)=5I$.
+
+```ng-mnemonic
+id: adjoint-two-by-two
+title: Adjoint of a 2 × 2 matrix in one glance
+trick: **Swap the diagonal, change the signs of the other two**
+meaning: $\operatorname{adj}\begin{bmatrix}a&b\\c&d\end{bmatrix}=\begin{bmatrix}d&-b\\-c&a\end{bmatrix}$. For order 3 there is no shortcut: nine cofactors, then **transpose**.
+prompt: Write adj A for A = [a b; c d] without working.
+```
 
 **In one breath:** Cofactor = signed minor; adjoint = transpose of the cofactor matrix; $A\operatorname{adj}A=|A|I$.
 
@@ -98,6 +144,28 @@ $A^{-1}=\dfrac{1}{-11}\begin{bmatrix}-4&-3\\-1&2\end{bmatrix}=\boxed{\dfrac{1}{1
 :::tip Transpose the cofactors
 The adjoint is the **transpose** of the cofactor matrix. Writing the cofactors in place without transposing is the single most common error in this chapter.
 :::
+
+```ng-steps
+id: steps-inverse-adjoint
+title: Inverse by the adjoint method
+step: Find $\lvert A\rvert$. If it is 0, stop: $A$ is singular and has no inverse.
+step: Find the nine cofactors $A_{11},\dots,A_{33}$ with the chessboard signs.
+step: Write the matrix of cofactors and **transpose** it to get $\operatorname{adj}A$.
+step: $A^{-1}=\dfrac{1}{\lvert A\rvert}\operatorname{adj}A$.
+step: Quick check on one row: (row of $A$) · (column of $A^{-1}$) should give 1 or 0.
+```
+
+```ng-fill
+id: fill-determinant-results
+title: Determinant results for 1-mark questions (A of order 3)
+cols: Quantity | Value
+row: $\lvert kA\rvert$ | [[$k^3\lvert A\rvert$]]
+row: $\lvert A^{-1}\rvert$ | [[$\dfrac{1}{\lvert A\rvert}$]]
+row: $\lvert\operatorname{adj}A\rvert$ | [[$\lvert A\rvert^2$]]
+row: $A(\operatorname{adj}A)$ | [[$\lvert A\rvert I$]]
+row: $\lvert A(\operatorname{adj}A)\rvert$ | [[$\lvert A\rvert^3$]]
+row: $\lvert AB\rvert$ | [[$\lvert A\rvert\lvert B\rvert$]]
+```
 
 **In one breath:** $A^{-1}=\dfrac{\operatorname{adj}A}{|A|}$, which exists only when $|A|\ne0$. State "$|A|\ne0$, so $A^{-1}$ exists" before using it.
 
@@ -144,5 +212,17 @@ If the product is $kI$ rather than $I$, then $A^{-1}=\dfrac1kB$. Also check whic
 What if $|A|=0$? Then compute $(\operatorname{adj}A)B$. If it is not the zero matrix, the system is **inconsistent** (no solution). If it is the zero matrix, the system has either infinitely many solutions or none.
 
 In the 2026–27 syllabus, properties of determinants (proving identities with row and column operations) and Cramer's rule are not in boards; evaluate determinants by direct expansion.
+
+```ng-derive
+id: derive-matrix-method
+title: Solve a system by the matrix method
+prompt: Solve by the matrix method: $2x+y+z=1$, $\ x-2y-z=\dfrac32$, $\ 3y-5z=9$.
+time: 8
+check: Write $AX=B$ with $A$, $X$, $B$ identified | 1
+check: $\lvert A\rvert=34\ne0$, so $A^{-1}$ exists and the solution is unique | 1
+check: Cofactors and $\operatorname{adj}A=\begin{bmatrix}13&8&1\\5&-10&3\\3&-6&-5\end{bmatrix}$ | 1.5
+check: $X=A^{-1}B=\dfrac{1}{34}(\operatorname{adj}A)B$ | 0.5
+check: $x=1,\ y=\dfrac12,\ z=-\dfrac32$ | 1
+```
 
 **In one breath:** Write $AX=B$; check $|A|\ne0$; find the cofactors, the adjoint and $A^{-1}$; then $X=A^{-1}B$. If the question gives a product $AB=kI$, use $A^{-1}=\frac1kB$ instead.

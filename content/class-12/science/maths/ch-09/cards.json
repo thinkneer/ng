@@ -1,0 +1,108 @@
+[
+  {
+    "id": "order-and-degree",
+    "kind": "formula",
+    "title": "Order and degree",
+    "tex": "\\left(\\dfrac{d^2y}{dx^2}\\right)^3+\\left(\\dfrac{dy}{dx}\\right)^4+y=0",
+    "legend": [
+      "order = 2 (highest derivative)",
+      "degree = 3 (its power)"
+    ],
+    "back": "Degree is defined only when the equation is a polynomial in the derivatives. Order and degree, when defined, are positive integers.",
+    "stars": 3,
+    "tags": [
+      "1-mark"
+    ]
+  },
+  {
+    "id": "general-and-particular",
+    "kind": "formula",
+    "title": "General and particular solutions",
+    "tex": "\\text{order } n\\ \\Rightarrow\\ n\\ \\text{arbitrary constants}",
+    "back": "General solution: constants present. Particular solution: constants found from given conditions, so none are left.",
+    "stars": 2
+  },
+  {
+    "id": "variable-separable",
+    "kind": "formula",
+    "title": "Variables separable",
+    "tex": "f(y)\\,dy=g(x)\\,dx\\ \\Rightarrow\\ \\int f(y)\\,dy=\\int g(x)\\,dx+C",
+    "back": "Get all $y$ with $dy$ and all $x$ with $dx$, then integrate both sides. One $+C$ is enough.",
+    "stars": 3
+  },
+  {
+    "id": "homogeneous-test",
+    "kind": "formula",
+    "title": "Is it homogeneous?",
+    "tex": "F(\\lambda x,\\lambda y)=F(x,y)",
+    "legend": [
+      "F = the right-hand side of dy/dx = F(x, y)"
+    ],
+    "back": "A function of degree zero. Write this check in the answer: it carries a mark.",
+    "stars": 2
+  },
+  {
+    "id": "homogeneous-substitution",
+    "kind": "formula",
+    "title": "Homogeneous: the substitution",
+    "tex": "y=vx,\\qquad\\dfrac{dy}{dx}=v+x\\dfrac{dv}{dx}",
+    "back": "The equation becomes separable in $v$ and $x$. At the end put $v=\\dfrac yx$. If $\\dfrac xy$ appears, use $x=vy$ instead.",
+    "stars": 3,
+    "tags": [
+      "5-mark"
+    ]
+  },
+  {
+    "id": "integrating-factor",
+    "kind": "formula",
+    "title": "Linear equation: integrating factor",
+    "tex": "\\dfrac{dy}{dx}+Py=Q:\\quad\\text{I.F.}=e^{\\int P\\,dx}",
+    "legend": [
+      "P, Q = functions of x only"
+    ],
+    "back": "Coefficient of $\\dfrac{dy}{dx}$ must be 1 before you read $P$. Simplify: $e^{\\log x}=x$, $e^{2\\log x}=x^2$, $e^{-\\log x}=\\dfrac1x$.",
+    "stars": 3
+  },
+  {
+    "id": "linear-solution",
+    "kind": "formula",
+    "title": "Linear equation: solution",
+    "tex": "y\\cdot(\\text{I.F.})=\\int Q\\cdot(\\text{I.F.})\\,dx+C",
+    "back": "P goes up (into the I.F.), Q goes in (to the integral).",
+    "stars": 3,
+    "tags": [
+      "3-mark"
+    ]
+  },
+  {
+    "id": "linear-in-x",
+    "kind": "formula",
+    "title": "Linear in x",
+    "tex": "\\dfrac{dx}{dy}+Px=Q:\\quad x\\cdot e^{\\int P\\,dy}=\\int Q\\,e^{\\int P\\,dy}\\,dy+C",
+    "legend": [
+      "P, Q = functions of y only"
+    ],
+    "back": "Try this when the equation is not linear in $y$, for example $(x+2y^2)\\dfrac{dy}{dx}=y$.",
+    "stars": 2
+  },
+  {
+    "id": "ready-integrating-factors",
+    "kind": "process",
+    "title": "Integrating factors worth knowing",
+    "tex": "P=\\tfrac1x\\to x\\qquad P=\\cot x\\to\\sin x\\qquad P=\\tan x\\to\\sec x",
+    "back": "Also $P=\\dfrac2x\\to x^2$, $P=-\\dfrac1x\\to\\dfrac1x$, $P=\\dfrac{2x}{1+x^2}\\to1+x^2$.",
+    "stars": 2
+  },
+  {
+    "id": "growth-and-decay",
+    "kind": "formula",
+    "title": "Growth and decay",
+    "tex": "\\dfrac{dP}{dt}=kP\\ \\Rightarrow\\ P=P_0e^{kt}",
+    "legend": [
+      "P_0 = value at t = 0",
+      "k = constant, found from a second condition"
+    ],
+    "back": "\"Rate proportional to the amount present\" always leads here. Doubling in time $T$ gives $k=\\dfrac{\\log2}{T}$.",
+    "stars": 2
+  }
+]

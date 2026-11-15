@@ -14,6 +14,15 @@ The set of all points satisfying every constraint is the **feasible region**. Ea
 
 In the 2026–27 syllabus you are given the constraints and asked to solve graphically (with up to three constraints besides $x,y\ge0$). Turning a long word problem into constraints is not in the list.
 
+```ng-compare
+id: feasible-vs-optimal
+title: Feasible vs optimal
+cols: Feasible solution | Optimal solution
+row: Meaning | any point satisfying all the constraints | a feasible point giving the best value of $Z$
+row: How many | usually infinitely many (the whole region) | none, one, or infinitely many
+row: Where | anywhere in the feasible region | at a corner point (or along an edge)
+```
+
 **In one breath:** Objective function $Z=ax+by$ to optimise; constraints are linear inequalities; the feasible region is where all of them hold together.
 
 ## Drawing the feasible region
@@ -24,7 +33,7 @@ The quickest test for the side: substitute the origin $(0,0)$. For $x+2y\le10$, 
 
 The feasible region is the part of the first quadrant that lies on the correct side of *every* line.
 
-<figure class="fig">
+<figure class="fig" id="ch12-bounded-region">
 <svg viewBox="0 0 320 195" role="img" aria-label="Feasible region O A B C for the constraints x plus 2y at most 10 and 3x plus y at most 15 in the first quadrant">
 <line x1="28" y1="175" x2="318" y2="175" stroke="currentColor" stroke-width="1"/>
 <line x1="40" y1="5" x2="40" y2="187" stroke="currentColor" stroke-width="1"/>
@@ -51,6 +60,32 @@ The feasible region is the part of the first quadrant that lies on the correct s
 </svg>
 <figcaption>Feasible region OABC (shaded). The corner B(4, 3) is found by solving the two equations.</figcaption>
 </figure>
+
+```ng-mnemonic
+id: origin-test
+title: Which side to shade?
+trick: **Ask the origin**: put $(0,0)$ in the inequality
+meaning: True → shade the side that contains the origin. False → shade the other side.
+meaning: If the line passes through the origin, ask another point such as $(1,0)$.
+prompt: How do you decide which side of the line x + 2y = 10 to shade for x + 2y ≤ 10?
+```
+
+```ng-steps
+id: steps-feasible-region
+title: Drawing the feasible region
+step: For each constraint, write the boundary line and two points on it (the intercepts).
+step: Draw and label the lines on graph axes with a sensible scale.
+step: Use the origin test to choose the side of each line.
+step: Shade the region common to all constraints inside the first quadrant ($x\ge0$, $y\ge0$).
+step: Mark and name the corner points; solve pairs of equations for the intersections.
+```
+
+```ng-draw
+id: draw-bounded-region
+title: Draw the feasible region for x + 2y ≤ 10, 3x + y ≤ 15
+svg: ref: notes#ch12-bounded-region
+time: 5
+```
 
 **In one breath:** Draw each boundary line through its intercepts, use the origin test to pick the side, and shade only the region common to all constraints.
 
@@ -97,6 +132,28 @@ $Z$ at $(0,5)$: 2500; at $(4,3)$: 2300; at $(0,6)$: 3000 [1]
 $\boxed{Z_{\min}=2300\text{ at }x=4,\ y=3}$ [½]
 :::
 
+```ng-numerical
+id: num-corner-maximum
+title: Best corner
+question: The corner points of a bounded feasible region are $(0,0)$, $(5,0)$, $(3,4)$ and $(0,5)$. Find the maximum value of $Z={{p}}x+{{q}}y$.
+var: p | 2 | 6 | 1
+var: q | 2 | 6 | 1
+answer: max(5*p, 3*p+4*q, 5*q)
+dp: 0
+tol: 0.01
+step: $Z$ at $(0,0)$: 0; at $(5,0)$: ${{5*p:0}}$; at $(3,4)$: ${{3*p+4*q:0}}$; at $(0,5)$: ${{5*q:0}}$.
+step: The region is bounded, so the largest corner value is the maximum: **{{max(5*p, 3*p+4*q, 5*q):0}}**
+```
+
+```ng-mnemonic
+id: graph-corners-table-conclusion
+title: The four parts of every LPP answer
+trick: **G C T C**: Graph, Corners, Table, Conclusion
+meaning: **G**raph with the region shaded, **C**orner points (solved, not read off), **T**able of $Z$, **C**onclusion with the value and the point.
+meaning: Unbounded region: add the half-plane check before the conclusion.
+prompt: Name the four parts of a graphical LPP answer.
+```
+
 **In one breath:** Graph, corner points (solve for intersections), table of $Z$, conclusion. In a bounded region the largest table value is the maximum and the smallest is the minimum.
 
 ## Unbounded feasible regions
@@ -109,7 +166,7 @@ $M$ is the maximum only if the open half-plane $ax+by>M$ has **no** point in com
 $m$ is the minimum only if the open half-plane $ax+by<m$ has **no** point in common with the feasible region.
 :::
 
-<figure class="fig">
+<figure class="fig" id="ch12-unbounded-region">
 <svg viewBox="0 0 320 190" role="img" aria-label="Unbounded feasible region above the lines x plus 3y equals 3 and x plus y equals 2 with corner points A, B and C">
 <line x1="33" y1="165" x2="298.2" y2="165" stroke="currentColor" stroke-width="1"/>
 <line x1="45" y1="11.0" x2="45" y2="177" stroke="currentColor" stroke-width="1"/>
@@ -150,13 +207,30 @@ Sometimes the check fails. For $Z=-50x+20y$ with $2x-y\ge-5$, $3x+y\ge3$, $2x-3y
 With an unbounded region, a table of corner values is not a complete answer. The half-plane check is a separate step with its own ½ mark.
 :::
 
+```ng-compare
+id: bounded-vs-unbounded
+title: Bounded vs unbounded region
+cols: Bounded | Unbounded
+row: Shape | can be enclosed in a circle | extends without limit
+row: Maximum and minimum | both exist, at corner points | may or may not exist
+row: After the table | pick the largest / smallest value | check the open half-plane $ax+by>M$ or $ax+by<m$
+row: Typical constraints | "$\le$" type | "$\ge$" type
+```
+
+```ng-draw
+id: draw-unbounded-region
+title: Draw the unbounded region for x + 3y ≥ 3, x + y ≥ 2
+svg: ref: notes#ch12-unbounded-region
+time: 5
+```
+
 **In one breath:** Unbounded region: take the best corner value, then check that the half-plane beyond it misses the feasible region. If it does not, there is no optimum.
 
 ## Special cases
 
 **Many optimal solutions.** If two neighbouring corners give the same best value, every point on the segment joining them is optimal.
 
-<figure class="fig">
+<figure class="fig" id="ch12-edge-optimal">
 <svg viewBox="0 0 320 195" role="img" aria-label="Feasible region A B C D bounded by x plus 3y equals 60, x plus y equals 10 and x equals y">
 <line x1="33" y1="170" x2="307.0" y2="170" stroke="currentColor" stroke-width="1"/>
 <line x1="45" y1="11.199999999999989" x2="45" y2="182" stroke="currentColor" stroke-width="1"/>
@@ -195,5 +269,22 @@ $\boxed{Z_{\min}=60\text{ at }(5,5)}$. $Z_{\max}=180$ at both $C$ and $D$, so it
 :::
 
 **No feasible region.** If the constraints contradict each other, as $x-y\le-1$ and $-x+y\le0$ do, no point satisfies them all. There is no feasible region and the problem has no solution. Draw the graph to show that the shaded sides do not overlap.
+
+```ng-fill
+id: fill-lpp-outcomes
+title: What the table tells you
+cols: Situation | Conclusion
+row: Bounded region, largest corner value $M$ | [[maximum is $M$]]
+row: Two adjacent corners give the same best value | [[every point on that edge is optimal]]
+row: Unbounded region; $ax+by>M$ has points in the region | [[no maximum]]
+row: Unbounded region; $ax+by<m$ has no point in the region | [[minimum is $m$]]
+row: Constraints have no common region | [[no feasible solution]]
+```
+
+```ng-explain
+id: explain-why-corners
+prompt: In three lines, explain why you only need to test the corner points of the feasible region.
+lines: 3
+```
 
 **In one breath:** Equal best values at two adjacent corners mean infinitely many optimal solutions along that edge. Contradictory constraints mean no feasible region and no solution.

@@ -28,6 +28,28 @@ If you put $x=4$ into $x^2+y^2=25$ before differentiating, everything becomes a 
 
 A negative rate means the quantity is decreasing; say so in words in the last line. In economics questions, **marginal cost** is $\dfrac{dC}{dx}$ and **marginal revenue** is $\dfrac{dR}{dx}$: for $R(x)=3x^2+36x+5$, the marginal revenue at $x=15$ is $6(15)+36=126$.
 
+```ng-numerical
+id: num-area-rate
+title: How fast is the area growing?
+question: The radius of a circle is increasing at {{s}} cm/s. Find the rate at which its area is increasing when the radius is {{R}} cm.
+var: s | 2 | 5 | 1
+var: R | 5 | 12 | 1
+answer: 2*pi*R*s
+unit: cm²/s
+dp: 1
+step: $A=\pi r^2\Rightarrow\dfrac{dA}{dt}=2\pi r\dfrac{dr}{dt}$
+step: $=2\pi\times{{R}}\times{{s}}={{2*R*s:0}}\pi=$ **{{2*pi*R*s:1}} cm²/s**
+```
+
+```ng-mnemonic
+id: decreasing-is-negative
+title: Signs in rate questions
+trick: **Shrinking, melting, leaking, sliding down = minus sign**
+meaning: A rate that is decreasing is written negative: water leaking at 5 cm³/s means $\dfrac{dV}{dt}=-5$.
+meaning: Substitute the given values only **after** differentiating.
+prompt: Water leaks from a tank at 5 cm³/s. What is dV/dt?
+```
+
 **In one breath:** Relation → differentiate with respect to time → substitute the instant's values → answer with unit and "increasing/decreasing".
 
 ## Increasing and decreasing functions
@@ -51,7 +73,7 @@ Sign of $f'$: positive on $(-\infty,-2)$, negative on $(-2,3)$, positive on $(3,
 $f$ is increasing on $(-\infty,-2]\cup[3,\infty)$ and decreasing on $[-2,3]$ [1]
 :::
 
-<figure class="fig">
+<figure class="fig" id="ch06-sign-line">
 <svg viewBox="0 0 320 90" role="img" aria-label="Number line showing the sign of f dash: plus before minus 2, minus between minus 2 and 3, plus after 3">
 <line x1="15" y1="50" x2="305" y2="50" stroke="currentColor" stroke-width="1.5"/>
 <line x1="110" y1="42" x2="110" y2="58" stroke="currentColor" stroke-width="1.5"/>
@@ -69,6 +91,35 @@ $f$ is increasing on $(-\infty,-2]\cup[3,\infty)$ and decreasing on $[-2,3]$ [1]
 </figure>
 
 Sometimes you are asked to *show* that a function is increasing everywhere. Then prove that $f'$ is never negative: for $f(x)=x^3-3x^2+3x-100$, $f'(x)=3(x-1)^2\ge0$ for all real $x$, so $f$ is increasing on $\mathbb{R}$.
+
+```ng-graph
+id: graph-cubic-and-slope
+title: A curve and its derivative
+x: x | -3 | 3
+y: y | -12 | 12
+curve: f(x) = x³ − 3ax | x^3 - 3*a*x
+curve: f′(x) = 3x² − 3a | 3*x^2 - 3*a
+slider: a | $a$ | 0 | 4 | 0.5 | 1
+preset: a = 1 | a=1
+preset: a = 0 (no turning point) | a=0
+note: Where $f'$ is above the axis, $f$ rises; where it is below, $f$ falls. The turning points of $f$ sit exactly where $f'$ crosses zero, at $x=\pm\sqrt a$.
+```
+
+```ng-steps
+id: steps-increasing-intervals
+title: Intervals of increase and decrease
+step: Find $f'(x)$ and factorise it completely.
+step: Put $f'(x)=0$ to get the critical points; mark them on a number line.
+step: Find the sign of $f'(x)$ in each interval (test one value, or use the factors).
+step: $f'>0$: strictly increasing. $f'<0$: strictly decreasing. Write the intervals in the conclusion.
+```
+
+```ng-draw
+id: draw-sign-line
+title: Draw the sign line for f′(x) = 6(x + 2)(x − 3)
+svg: ref: notes#ch06-sign-line
+time: 2
+```
 
 **In one breath:** Factorise $f'(x)$, mark its zeros on a number line, read the sign in each interval: plus means increasing, minus means decreasing.
 
@@ -97,6 +148,24 @@ Local maximum value $f(1)=\boxed{19}$; local minimum value $f(3)=\boxed{15}$ [1]
 :::tip When $f''(c)=0$
 $f''(c)=0$ does not mean "no maximum or minimum". It means this test cannot decide. Go back to the sign of $f'$ on both sides.
 :::
+
+```ng-mnemonic
+id: smile-and-frown
+title: Second derivative test
+trick: $f''>0$ is a **smile** ∪ (minimum); $f''<0$ is a **frown** ∩ (maximum)
+meaning: At a point where $f'(c)=0$: $f''(c)<0$ gives a local maximum, $f''(c)>0$ a local minimum.
+meaning: If $f''(c)=0$ the test fails: go back to the sign change of $f'$.
+prompt: f′(c) = 0 and f″(c) < 0. Maximum or minimum?
+```
+
+```ng-compare
+id: local-vs-absolute
+title: Local vs absolute extreme values
+cols: Local | Absolute (on $[a,b]$)
+row: Where to look | critical points only | critical points **and** the end points $a$, $b$
+row: Test | sign change of $f'$, or sign of $f''$ | no test: just compare the values of $f$
+row: How many | can be several | one greatest value, one least value
+```
 
 **In one breath:** Solve $f'(x)=0$, then test each point: $f''<0$ is a maximum, $f''>0$ is a minimum. The question usually wants the *value* $f(c)$, not just $c$.
 
@@ -130,7 +199,7 @@ These are the 5-markers: the largest box, the cheapest tank, the cone of greates
 4. The second-derivative (or sign-change) test.
 5. What was asked, with units, in a closing sentence.
 
-<figure class="fig">
+<figure class="fig" id="ch06-open-box">
 <svg viewBox="0 0 320 190" role="img" aria-label="Square sheet of side 18 centimetres with a small square of side x cut from each corner">
 <rect x="70" y="15" width="160" height="160" fill="none" stroke="currentColor" stroke-width="1.5"/>
 <g fill="#E0B400" opacity="0.55">
@@ -182,5 +251,35 @@ $V_{\max}=\pi\left(R^2-\dfrac{R^2}{3}\right)\dfrac{2R}{\sqrt3}=\boxed{\dfrac{4\p
 :::tip The test is a mark
 A correct answer without the second-derivative (or sign-change) test loses a full mark. One line is enough, but it must be there.
 :::
+
+```ng-steps
+id: steps-optimisation
+title: Any optimisation word problem
+step: Draw the figure and name the variables.
+step: Write the quantity to be maximised or minimised.
+step: Use the given condition to remove one variable, so the quantity depends on one variable only.
+step: Differentiate and put the derivative equal to zero.
+step: Confirm with the second derivative (sign only), then answer what was asked, with units.
+```
+
+```ng-numerical
+id: num-open-box
+title: Open box of largest volume
+question: A square sheet of side {{a}} cm is made into an open box by cutting equal squares from the corners. Find the maximum volume of the box.
+var: a | 12 | 36 | 6
+answer: 2*a^3/27
+unit: cm³
+dp: 0
+step: Cut squares of side $x$: $V=x({{a}}-2x)^2$.
+step: $\dfrac{dV}{dx}=({{a}}-2x)({{a}}-6x)=0\Rightarrow x=\dfrac{\,{{a}}\,}{6}={{a/6:0}}$ cm (the other root gives no box); $\dfrac{d^2V}{dx^2}<0$ there.
+step: $V_{\max}={{a/6:0}}\times({{2*a/3:0}})^2=$ **{{2*a^3/27:0}} cm³**
+```
+
+```ng-draw
+id: draw-open-box
+title: Draw the sheet with corners cut
+svg: ref: notes#ch06-open-box
+time: 2
+```
 
 **In one breath:** Figure, one-variable function, derivative = 0, test, answer with units. If the algebra is easier, maximise $V^2$ or $A^2$ instead, and say so.

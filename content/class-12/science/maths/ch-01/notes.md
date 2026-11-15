@@ -28,6 +28,26 @@ Not symmetric: $1\le2^2$, so $(1,2)\in R$, but $2\le1^2$ is false, so $(2,1)\not
 Checking a property with particular numbers does not prove it. Use numbers only for a counter-example. A proof starts with "Let $a,b\in A$ …".
 :::
 
+```ng-mnemonic
+id: rst-self-swap-chain
+title: The three properties of a relation
+trick: **R S T** = **self, swap, chain**
+meaning: **R**eflexive: every element is related to it**self**, $(a,a)\in R$.
+meaning: **S**ymmetric: **swap** the pair and it is still there, $(a,b)\Rightarrow(b,a)$.
+meaning: **T**ransitive: a **chain** closes, $(a,b)$ and $(b,c)\Rightarrow(a,c)$.
+prompt: What do reflexive, symmetric and transitive each ask you to check?
+```
+
+```ng-compare
+id: reflexive-symmetric-transitive
+title: Reflexive, symmetric, transitive: what to check
+cols: Reflexive | Symmetric | Transitive
+row: Condition | $(a,a)\in R$ for every $a\in A$ | $(a,b)\in R\Rightarrow(b,a)\in R$ | $(a,b),(b,c)\in R\Rightarrow(a,c)\in R$
+row: To disprove | one element with $(a,a)\notin R$ | one pair whose reverse is missing | one chain that does not close
+row: $R=\{(a,b):a\le b\}$ on $\mathbb R$ | yes | no: $(1,2)$ but not $(2,1)$ | yes
+row: $R=\{(a,b):a\perp b\}$ on lines | no | yes | no
+```
+
 **In one breath:** Reflexive: $(a,a)$ always. Symmetric: $(a,b)$ gives $(b,a)$. Transitive: $(a,b)$ and $(b,c)$ give $(a,c)$. Prove with general elements; disprove with one example.
 
 ## Equivalence relations and equivalence classes
@@ -68,6 +88,22 @@ $[(2,5)]=\{(a,b):a+5=b+2\}=\{(a,b):b=a+3\}=\boxed{\{(1,4),(2,5),(3,6),\dots\}}$ 
 The last line, "reflexive, symmetric and transitive, hence an equivalence relation", carries its own ½ mark. Do not stop after the transitive step.
 :::
 
+```ng-derive
+id: derive-equivalence-divisible
+title: Prove a relation is an equivalence relation
+prompt: Show that the relation $R=\{(a,b):a-b\text{ is divisible by }5\}$ on the set $\mathbb Z$ of integers is an equivalence relation.
+time: 5
+check: Reflexive: $a-a=0$ is divisible by 5, so $(a,a)\in R$ for every $a\in\mathbb Z$ | 1
+check: Symmetric: $a-b=5k\Rightarrow b-a=5(-k)$, so $(b,a)\in R$ | 1
+check: Transitive: $a-b=5k$, $b-c=5m\Rightarrow a-c=5(k+m)$, so $(a,c)\in R$; conclusion stated | 1
+```
+
+```ng-explain
+id: explain-equivalence-class
+prompt: In three lines, say what an equivalence class is and why two classes can never partly overlap.
+lines: 3
+```
+
 **In one breath:** Equivalence = reflexive + symmetric + transitive, each proved with general elements. The class of $a$ is everything related to $a$.
 
 ## One-one and onto functions
@@ -79,7 +115,7 @@ A function $f:A\to B$ sends each element of $A$ (the domain) to exactly one elem
 
 A function that is both is **bijective**.
 
-<figure class="fig">
+<figure class="fig" id="ch01-arrow-diagrams">
 <svg viewBox="0 0 320 170" role="img" aria-label="Two arrow diagrams: on the left a one-one function that is not onto, on the right an onto function that is not one-one">
 <g fill="none" stroke="currentColor" stroke-width="1.2">
 <ellipse cx="45" cy="80" rx="24" ry="58"/><ellipse cx="115" cy="80" rx="24" ry="58"/>
@@ -130,6 +166,32 @@ $f(x)=x^2$ is not onto as a function $\mathbb{R}\to\mathbb{R}$ (nothing maps to 
 
 A few standard cases are worth recognising. From $\mathbb{R}$ to $\mathbb{R}$: $x^3$ is bijective; $x^2$, $|x|$ and the greatest integer function $[x]$ are neither one-one nor onto. From $\mathbb{N}$ to $\mathbb{N}$: $x^2$ and $2x$ are one-one but not onto. For a *finite* set $A$, a function $A\to A$ is one-one exactly when it is onto.
 
+```ng-mnemonic
+id: one-one-onto-arrows
+title: One-one or onto? Look at the arrows
+trick: One-one: **no sharing**. Onto: **no one left out**.
+meaning: **One-one:** no two arrows land on the same element of the codomain.
+meaning: **Onto:** no element of the codomain is left without an arrow, so range = codomain.
+prompt: In an arrow diagram, how do you spot one-one and onto?
+```
+
+```ng-draw
+id: draw-arrow-diagrams
+title: Draw the two arrow diagrams
+svg: ref: notes#ch01-arrow-diagrams
+time: 3
+```
+
+```ng-steps
+id: steps-one-one-onto
+title: Showing a function is one-one and onto
+step: **One-one:** take $f(x_1)=f(x_2)$ for $x_1,x_2$ in the domain.
+step: Simplify until you reach $x_1=x_2$. Write: "so $f$ is one-one".
+step: **Onto:** take any $y$ in the codomain and put $y=f(x)$.
+step: Solve for $x$ in terms of $y$ and check that this $x$ lies in the domain.
+step: Write: "every $y$ has a pre-image, so range = codomain and $f$ is onto". To disprove either, one counter-example is enough.
+```
+
 **In one breath:** One-one: start from $f(x_1)=f(x_2)$ and reach $x_1=x_2$. Onto: take any $y$ in the codomain, solve for $x$, and check that $x$ lies in the domain.
 
 ## Counting relations and functions
@@ -145,5 +207,30 @@ Bijections from $A$ to itself: $m!$
 So with 3 elements in $A$ and 4 in $B$ there are $4^3=64$ functions, of which $4\times3\times2=24$ are one-one, and none is onto.
 
 The 2026–27 syllabus stops here: composition of functions, invertible functions and binary operations are not in boards.
+
+```ng-numerical
+id: num-count-relations
+title: Count the relations
+question: Set $A$ has {{m}} elements and set $B$ has {{n}} elements. How many relations are there from $A$ to $B$?
+var: m | 2 | 3 | 1
+var: n | 2 | 4 | 1
+answer: 2^(m*n)
+dp: 0
+tol: 0.01
+step: $A\times B$ has ${{m}}\times{{n}}={{m*n}}$ ordered pairs.
+step: A relation is any subset of $A\times B$, so the number of relations is $2^{\,{{m*n}}\,}=$ **{{2^(m*n):0}}**
+```
+
+```ng-fill
+id: fill-counting
+title: Counting results to know cold
+cols: What is counted | Number
+row: Relations on a set with $n$ elements | [[$2^{n^2}$]]
+row: Reflexive relations on a set with $n$ elements | [[$2^{n^2-n}$]]
+row: Functions from $A$ ($m$ elements) to $B$ ($n$ elements) | [[$n^m$]]
+row: One-one functions from $A$ to $B$, $n\ge m$ | [[$n(n-1)\cdots(n-m+1)$]]
+row: Bijections from a set with $m$ elements to itself | [[$m!$]]
+row: Equivalence relations on $\{1,2,3\}$ | [[5]]
+```
 
 **In one breath:** $2^{n^2}$ relations on an $n$-element set; $n^m$ functions from $m$ elements to $n$; count one-one functions by choosing distinct images one at a time.
