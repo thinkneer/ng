@@ -74,7 +74,7 @@ Use `stroke="currentColor"` / `fill="currentColor"` (and the unit colour or `#E0
 Interaction is what brings students back, and the app sits beside pen and paper. Authors write **Markdown blocks** and **cards.json**; the app renders them (lazy modules in `app/blocks/`), offline, in light/dark/sepia, and prints them as a static frame. `node scripts/build-index.mjs` validates every block and card and fails with a clear message (unknown or missing keys, bad svg refs, points outside the drawing, formula parse errors, gaps in `data-step`, duplicate ids).
 
 **Authoring rules (every chapter):**
-- `cards.json` with 8–15 cards (English literature: 6–10 event/character cards per text; writing skills: format cards). Missing cards = build warning now, **error from 1 Dec 2026**.
+- `cards.json` with 8–15 cards (English literature: 6–10 event/character cards per text; writing skills: format cards). Missing cards = build warning now, **error from 1 Dec 2026** (every chapter has a deck as of 15 Nov 2026; keep it that way).
 - Every board-important diagram is an `ng-figure` with parts (so *Label it yourself* works); add an `ng-draw` for the ones students must draw.
 - Every formula with variables gets an `ng-graph` or an `ng-numerical` (fresh numbers; check the answer expression by hand once).
 - Every process is an `ng-steps`. At least two `ng-mnemonic` per chapter (Indian-classroom hooks welcome). One `ng-derive` per 5-mark derivation. "Differentiate between" → `ng-compare`; comparison tables → `ng-fill`. Optional `ng-explain` (Feynman check against the section's *In one breath*).
@@ -199,7 +199,21 @@ Keys: cols; row ★ = one cell per column; `[[ … ]]` hides a cell until the st
 `kind`: figure | formula | process | event | mnemonic | compare. `svg` (inline drawing or `ref: notes#<id>`) or, for formula cards, `tex` (shown big) + `legend` ("symbol = meaning", coloured). `back` ≤ 320 characters, ≤ 3 lines. `stars` and `tags` optional. Students open decks from the coloured chapter number, the unit bar, the Cards button in Read/Must know and "Cards for today".
 
 ## 5. questions.json (see schemas/questions.schema.json)
-`type`: mcq | ar | case | vsa2 | sa3 | la5. A–R uses the standard four options; Maths option D is "A is false but R is true". Case questions have `parts[]`, each with its own marks. Written answers need `model_answer` + `scheme[]` whose marks add up to `marks`.
+`type`: mcq | ar | case | vsa2 | sa3 | la5. A–R uses the standard four options; Maths option D is "A is false but R is true". Case questions have `parts[]`, each with its own marks. Written answers need `model_answer` + `scheme[]` whose marks add up to `marks`. Every written and case question has a `hint` (one nudge, not the answer).
+
+**Model answers in answer-script style (admin decision, 15 Nov 2026; all subjects; Chemistry ch-01 is the worked example).** A model answer reads like a real full-marks script, not a list of marked steps:
+1. *How much to write* in italics (lines or words, and minutes).
+2. Numericals and derivations: **Given / To find / Formula / Solution** on separate lines (`<br>` before **To find:**), key equations as display maths, boxed final answer with unit. Theory answers: points in the order an examiner reads them.
+3. <u>Underline</u> the keywords examiners look for; <mark>highlight</mark> the one statement or value that wins the mark.
+4. A labelled inline SVG sketch wherever a diagram earns marks (reuse the notes drawing; same SVG rules as §4).
+5. A `:::tip Your answer must contain` checklist, then one line **Marks are lost for** ….
+Step marks live only in `scheme` (the Mark-yourself ticks), never in the answer text. Case questions get a full top-level `model_answer` as well as `parts`. English keeps its own format (format / content / expression, value points) but still gets the length line, the checklist and **Marks are lost for**.
+
+**Phone layout (390 px):** one relation per display line; chains of "=" and long reaction equations stacked with `aligned` (break after the arrow); boxed answer on its own line; short fraction labels; card formula lines ≤ about 22 characters. Write `\mu`, never the character µ, inside `$…$`.
+
+**Recall fronts:** a Must-know line's prompt (the bold term or the part before the colon) names the thing in at least two words so the flashcard can be answered cold ("**Molal elevation constant:**", not "**Kb:**").
+
+**Exam bank:** `node scripts/bank-check.mjs <subject>` prints how many fresh numbered papers the bank fills and which question types and units to add. Target: 4 fresh papers per subject. New questions keep the pattern marks exactly (MCQ/A–R 1, vsa2 2, sa3 3, case 4, la5 5).
 
 ## 6. Workflow for a content chat
 1. Read this file and `status/<class>/<subject>.md`. Check what already exists in the repo before rebuilding anything.
