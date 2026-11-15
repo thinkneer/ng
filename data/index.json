@@ -2698,7 +2698,7 @@
                   "chapters": [
                     {
                       "id": "writing-notice",
-                      "number": 3,
+                      "number": 1,
                       "title": "Notice",
                       "unit": "B",
                       "items": {
@@ -2731,7 +2731,7 @@
                     },
                     {
                       "id": "writing-invitation",
-                      "number": 4,
+                      "number": 2,
                       "title": "Invitations and replies",
                       "unit": "B",
                       "items": {
@@ -2764,7 +2764,7 @@
                     },
                     {
                       "id": "writing-letter",
-                      "number": 5,
+                      "number": 3,
                       "title": "Letters: editor, complaint, job application with bio-data",
                       "unit": "B",
                       "items": {
@@ -2797,7 +2797,7 @@
                     },
                     {
                       "id": "writing-article-report",
-                      "number": 6,
+                      "number": 4,
                       "title": "Article and report writing",
                       "unit": "B",
                       "items": {
@@ -2839,7 +2839,7 @@
                   "chapters": [
                     {
                       "id": "flamingo-01",
-                      "number": 7,
+                      "number": 1,
                       "title": "The Last Lesson",
                       "unit": "C1",
                       "items": {
@@ -2874,7 +2874,7 @@
                     },
                     {
                       "id": "flamingo-02",
-                      "number": 8,
+                      "number": 2,
                       "title": "Lost Spring",
                       "unit": "C1",
                       "items": {
@@ -2909,7 +2909,7 @@
                     },
                     {
                       "id": "flamingo-03",
-                      "number": 9,
+                      "number": 3,
                       "title": "Deep Water",
                       "unit": "C1",
                       "items": {
@@ -2944,7 +2944,7 @@
                     },
                     {
                       "id": "flamingo-04",
-                      "number": 10,
+                      "number": 4,
                       "title": "The Rattrap",
                       "unit": "C1",
                       "items": {
@@ -2979,7 +2979,7 @@
                     },
                     {
                       "id": "flamingo-05",
-                      "number": 11,
+                      "number": 5,
                       "title": "Indigo",
                       "unit": "C1",
                       "items": {
@@ -3014,7 +3014,7 @@
                     },
                     {
                       "id": "flamingo-06",
-                      "number": 12,
+                      "number": 6,
                       "title": "Poets and Pancakes",
                       "unit": "C1",
                       "items": {
@@ -3049,7 +3049,7 @@
                     },
                     {
                       "id": "flamingo-07",
-                      "number": 13,
+                      "number": 7,
                       "title": "The Interview",
                       "unit": "C1",
                       "items": {
@@ -3084,7 +3084,7 @@
                     },
                     {
                       "id": "flamingo-08",
-                      "number": 14,
+                      "number": 8,
                       "title": "Going Places",
                       "unit": "C1",
                       "items": {
@@ -3128,7 +3128,7 @@
                   "chapters": [
                     {
                       "id": "poem-01",
-                      "number": 15,
+                      "number": 1,
                       "title": "My Mother at Sixty-six",
                       "unit": "C2",
                       "items": {
@@ -3163,7 +3163,7 @@
                     },
                     {
                       "id": "poem-02",
-                      "number": 16,
+                      "number": 2,
                       "title": "Keeping Quiet",
                       "unit": "C2",
                       "items": {
@@ -3198,7 +3198,7 @@
                     },
                     {
                       "id": "poem-03",
-                      "number": 17,
+                      "number": 3,
                       "title": "A Thing of Beauty",
                       "unit": "C2",
                       "items": {
@@ -3233,7 +3233,7 @@
                     },
                     {
                       "id": "poem-04",
-                      "number": 18,
+                      "number": 4,
                       "title": "A Roadside Stand",
                       "unit": "C2",
                       "items": {
@@ -3268,7 +3268,7 @@
                     },
                     {
                       "id": "poem-05",
-                      "number": 19,
+                      "number": 5,
                       "title": "Aunt Jennifer's Tigers",
                       "unit": "C2",
                       "items": {
@@ -3312,7 +3312,7 @@
                   "chapters": [
                     {
                       "id": "vistas-01",
-                      "number": 20,
+                      "number": 1,
                       "title": "The Third Level",
                       "unit": "C3",
                       "items": {
@@ -3347,7 +3347,7 @@
                     },
                     {
                       "id": "vistas-02",
-                      "number": 21,
+                      "number": 2,
                       "title": "The Tiger King",
                       "unit": "C3",
                       "items": {
@@ -3382,7 +3382,7 @@
                     },
                     {
                       "id": "vistas-03",
-                      "number": 22,
+                      "number": 3,
                       "title": "Journey to the End of the Earth",
                       "unit": "C3",
                       "items": {
@@ -3417,7 +3417,7 @@
                     },
                     {
                       "id": "vistas-04",
-                      "number": 23,
+                      "number": 4,
                       "title": "The Enemy",
                       "unit": "C3",
                       "items": {
@@ -3452,7 +3452,7 @@
                     },
                     {
                       "id": "vistas-05",
-                      "number": 24,
+                      "number": 5,
                       "title": "On the Face of It",
                       "unit": "C3",
                       "items": {
@@ -3487,7 +3487,7 @@
                     },
                     {
                       "id": "vistas-06",
-                      "number": 25,
+                      "number": 6,
                       "title": "Memories of Childhood",
                       "unit": "C3",
                       "items": {

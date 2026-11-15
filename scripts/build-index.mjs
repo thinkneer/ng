@@ -160,14 +160,17 @@ if (classes) {
             const chapterIds = new Set();
             const qByRef = new Map(); // "<chapter>/<question id>" → question, for fixed papers
             let counts = { notes: 0, mustknow: 0, formulas: 0, questions: 0, chapters: 0 };
+            // Subjects with named chapter ids (English: flamingo-01, writing-notice) number chapters within each unit,
+            // the way the books do (The Last Lesson = 1, My Mother at Sixty-six = 1), not across the whole subject.
+            const perUnit = s.units.some((u) => u.chapters.some((c) => !/^ch-\d+$/.test(c.id)));
             for (const unit of s.units) {
               const outUnit = { id: unit.id, name: unit.name, colour: unit.colour, marks: unit.marks, marks_group: unit.marks_group ?? null, chapters: [] };
-              for (const ch of unit.chapters) {
+              for (const [chIdx, ch] of unit.chapters.entries()) {
                 if (chapterIds.has(ch.id)) err(subjectJson, `duplicate chapter id ${ch.id}`);
                 chapterIds.add(ch.id);
                 counts.chapters++;
                 const chDir = join(dir, ch.id);
-                const outCh = { id: ch.id, number: ch.number, title: ch.title, unit: unit.id, items: {}, marks_hint: null, summary: null, questions: 0, question_types: {} };
+                const outCh = { id: ch.id, number: perUnit ? chIdx + 1 : ch.number, title: ch.title, unit: unit.id, items: {}, marks_hint: null, summary: null, questions: 0, question_types: {} };
                 if (existsSync(chDir) && statSync(chDir).isDirectory()) {
                   const chJsonPath = join(chDir, 'chapter.json');
                   if (existsSync(chJsonPath)) {
