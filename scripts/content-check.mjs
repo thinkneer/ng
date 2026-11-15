@@ -153,10 +153,15 @@ const inspect = async (rootSel, kind) => page.evaluate(({ rootSel, kind }) => {
 // Scroll through the page the way a student does (lazy maths and blocks render on the way), then finish anything left.
 const renderAllOnPage = () => page.evaluate(async () => {
   const sc = document.querySelector('.main') || document.scrollingElement;
-  for (let y = 0; y < sc.scrollHeight; y += 350) { sc.scrollTop = y; await new Promise((r) => setTimeout(r, 70)); }
   const m = await import('./app/markdown.js');
-  for (const p of document.querySelectorAll('.prose')) { await m.typesetAll?.(p); await p._renderAll?.(); }
-  await new Promise((r) => setTimeout(r, 500));
+  const rawLeft = () => { const w = document.createTreeWalker(document.querySelector('.main') || document.body, NodeFilter.SHOW_TEXT, { acceptNode: (n) => (n.parentElement.closest('.katex, code, pre, script, style, svg') ? NodeFilter.FILTER_REJECT : NodeFilter.FILTER_ACCEPT) }); let c = 0; for (let n; (n = w.nextNode());) if (/\$[^$\s][^$]*\$/.test(n.textContent)) c++; return c; };
+  // up to 4 passes: lazy maths can lag behind a fast scroll, so only judge once nothing is left to typeset
+  for (let pass = 0; pass < 4; pass++) {
+    for (let y = 0; y < sc.scrollHeight; y += 350) { sc.scrollTop = y; await new Promise((r) => setTimeout(r, 70 + pass * 40)); }
+    for (const p of document.querySelectorAll('.prose')) { await m.typesetAll?.(p); await p._renderAll?.(); }
+    await new Promise((r) => setTimeout(r, 500 + pass * 500));
+    if (!rawLeft()) break;
+  }
   for (const p of document.querySelectorAll('.prose')) m.fitWide?.(p);
   await new Promise((r) => requestAnimationFrame(() => requestAnimationFrame(r)));
   sc.scrollTop = 0;
