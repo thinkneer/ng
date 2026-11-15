@@ -286,7 +286,7 @@
     "topic": "Types of natural selection",
     "stem": "With the help of graphs, explain stabilising, directional and disruptive selection.",
     "hint": "Draw the original bell curve dashed, then how each type moves the peak.",
-    "model_answer": "*How much to write: 3 sketches + 1 line each · 6 minutes*\n\nNatural selection acts on the distribution of a heritable trait in a population:\n\n<figure class=\"fig\">\n<svg viewBox=\"0 0 330 120\" role=\"img\" aria-label=\"Stabilising, directional and disruptive selection curves\">\n<path stroke=\"currentColor\" stroke-opacity=\"0.5\" fill=\"none\" d=\"M8,96H102M118,96H212M228,96H322\"/>\n<path fill=\"none\" stroke=\"currentColor\" stroke-dasharray=\"3 2\" d=\"M8,96C30,94,40,40,55,40S80,94,102,96M118,96C140,94,150,40,165,40S190,94,212,96M228,96C250,94,260,40,275,40S300,94,322,96\"/>\n<path class=\"u\" fill=\"none\" stroke-width=\"2\" d=\"M20,96C40,94,48,14,55,14S70,94,90,96M140,96C162,94,170,42,182,42S204,94,212,94M228,96C238,94,246,44,256,44S268,82,275,82S286,44,294,44S312,94,322,96\"/>\n<g font-size=\"9\" fill=\"currentColor\" text-anchor=\"middle\"><text x=\"55\" y=\"112\">Stabilising</text><text x=\"165\" y=\"112\">Directional</text><text x=\"275\" y=\"112\">Disruptive</text></g>\n</svg>\n<figcaption>Dashed curve = original population; solid = after selection.</figcaption>\n</figure>\n\n1. **Stabilising selection:** individuals with the <u>mean value</u> are favoured; extremes are removed. The peak gets <mark>taller and narrower</mark>.\n2. **Directional selection:** individuals at <u>one extreme</u> are favoured; the <mark>peak shifts</mark> in that direction.\n3. **Disruptive selection:** individuals at <u>both extremes</u> are favoured; the curve splits into <mark>two peaks</mark>.\n\n:::tip Your answer must contain\n- three labelled graphs showing the original (dashed) and new curves\n- the words <u>mean</u>, <u>one extreme</u>, <u>both extremes</u>\n- the result: <mark>narrower peak / shifted peak / two peaks</mark>\n:::\n\n**Marks are lost for:** graphs without the original curve; mixing up directional and disruptive.",
+    "model_answer": "*How much to write: 3 sketches + 1 line each · 6 minutes*\n\nNatural selection acts on the distribution of a heritable trait in a population:\n\n<figure class=\"fig\">\n<svg viewBox=\"0 0 330 120\" role=\"img\" aria-label=\"Stabilising, directional and disruptive selection curves\">\n<path stroke=\"currentColor\" stroke-opacity=\"0.5\" fill=\"none\" d=\"M8,96H102M118,96H212M228,96H322\"/>\n<path fill=\"none\" stroke=\"currentColor\" stroke-dasharray=\"3 2\" d=\"M8,96C30,94,40,40,55,40S80,94,102,96M118,96C140,94,150,40,165,40S190,94,212,96M228,96C250,94,260,40,275,40S300,94,322,96\"/>\n<path stroke=\"#6A3FA0\" fill=\"none\" stroke-width=\"2\" d=\"M20,96C40,94,48,14,55,14S70,94,90,96M140,96C162,94,170,42,182,42S204,94,212,94M228,96C238,94,246,44,256,44S268,82,275,82S286,44,294,44S312,94,322,96\"/>\n<g font-size=\"9\" fill=\"currentColor\" text-anchor=\"middle\"><text x=\"55\" y=\"112\">Stabilising</text><text x=\"165\" y=\"112\">Directional</text><text x=\"275\" y=\"112\">Disruptive</text></g>\n</svg>\n<figcaption>Dashed curve = original population; solid = after selection.</figcaption>\n</figure>\n\n1. **Stabilising selection:** individuals with the <u>mean value</u> are favoured; extremes are removed. The peak gets <mark>taller and narrower</mark>.\n2. **Directional selection:** individuals at <u>one extreme</u> are favoured; the <mark>peak shifts</mark> in that direction.\n3. **Disruptive selection:** individuals at <u>both extremes</u> are favoured; the curve splits into <mark>two peaks</mark>.\n\n:::tip Your answer must contain\n- three labelled graphs showing the original (dashed) and new curves\n- the words <u>mean</u>, <u>one extreme</u>, <u>both extremes</u>\n- the result: <mark>narrower peak / shifted peak / two peaks</mark>\n:::\n\n**Marks are lost for:** graphs without the original curve; mixing up directional and disruptive.",
     "scheme": [
       {
         "step": "Stabilising: graph + explanation",
@@ -320,5 +320,39 @@
     "answer": "B",
     "hint": "Chance, in a small population.",
     "model_answer": "**(b) Genetic drift (founder effect).** A chance change in allele frequency in a small founding group."
+  },
+  {
+    "id": "bio-06-q14",
+    "chapter": "ch-06",
+    "type": "la5",
+    "marks": 5,
+    "stars": 2,
+    "label": "PYQ-style",
+    "topic": "Human evolution",
+    "stem": "(a) Trace the evolution of human beings from *Dryopithecus* to *Homo sapiens*, giving the period and brain capacity wherever known. [3]<br>(b) How do gene flow and genetic drift change the allele frequencies of a population? [2]",
+    "hint": "(a) Ape-like and man-like primates about 15 million years ago, then Australopithecines, habilis, erectus, Neanderthal. (b) One brings alleles in from outside; the other is chance in a small population.",
+    "model_answer": "*How much to write: about one page: an ordered list for (a), two short points for (b) · 10 minutes*\n\n**(a)**\n1. **About 15 million years ago:** <u>*Dryopithecus*</u> (more ape-like) and <u>*Ramapithecus*</u> (more man-like), hairy, walking like gorillas and chimpanzees.\n2. **About 2 million years ago:** <u>*Australopithecines*</u> in the East African grasslands; hunted with stone weapons, ate mainly fruit.\n3. ***Homo habilis***, the first human-like being: <mark>brain 650–800 cc</mark>; probably did not eat meat.\n4. ***Homo erectus***, about 1.5 million years ago: <mark>brain about 900 cc</mark>; probably ate meat.\n5. **Neanderthal man**, 1,00,000–40,000 years ago in the near east and central Asia: <mark>brain 1400 cc</mark>; used hides for protection and <u>buried their dead</u>.\n6. ***Homo sapiens*** arose in Africa and spread across continents; modern *Homo sapiens* arose during the ice age (75,000–10,000 years ago). Agriculture began about 10,000 years ago and settlements followed.\n\n**(b)**\n- **Gene flow (gene migration):** when individuals move into or out of a population, <mark>alleles are added or lost</mark>, changing allele frequencies in both populations.\n- **Genetic drift:** a <mark>chance change in allele frequency</mark>, strongest in small populations. If a small group founds a new population, its allele frequencies may differ sharply: the <u>founder effect</u>; the new population may even become a different species.\n\n:::tip Your answer must contain\n- the sequence <u>Dryopithecus → Australopithecines → habilis → erectus → Neanderthal → sapiens</u>\n- brain capacities <mark>650–800, 900, 1400 cc</mark>\n- gene flow = <u>migration</u> adds/removes alleles; drift = <u>chance</u>, small populations, <u>founder effect</u>\n:::\n\n**Marks are lost for:** wrong order of ancestors; giving Neanderthal a smaller brain than erectus; calling drift a directed change.",
+    "scheme": [
+      {
+        "step": "Dryopithecus, Ramapithecus and Australopithecines with periods",
+        "marks": 1
+      },
+      {
+        "step": "H. habilis and H. erectus with brain sizes",
+        "marks": 1
+      },
+      {
+        "step": "Neanderthal (1400 cc) and H. sapiens origin",
+        "marks": 1
+      },
+      {
+        "step": "Gene flow explained",
+        "marks": 1
+      },
+      {
+        "step": "Genetic drift and founder effect",
+        "marks": 1
+      }
+    ]
   }
 ]

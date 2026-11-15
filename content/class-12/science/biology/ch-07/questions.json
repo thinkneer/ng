@@ -1,100 +1,320 @@
 [
   {
-    "id": "bio-07-q01", "chapter": "ch-07", "type": "mcq", "marks": 1, "stars": 3, "label": "PYQ-style", "topic": "Malaria",
+    "id": "bio-07-q01",
+    "chapter": "ch-07",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 3,
+    "label": "PYQ-style",
+    "topic": "Malaria",
     "stem": "The chill and high fever recurring every three to four days in malaria is caused by:",
-    "options": ["sporozoites entering the liver", "haemozoin released when infected RBCs burst", "gametocytes in the blood", "fertilisation in the mosquito"],
+    "options": [
+      "sporozoites entering the liver",
+      "haemozoin released when infected RBCs burst",
+      "gametocytes in the blood",
+      "fertilisation in the mosquito"
+    ],
     "answer": "B",
     "hint": "A toxin released from red cells.",
     "model_answer": "**(b).** Rupture of infected RBCs releases haemozoin, which causes the recurring chill and fever."
   },
   {
-    "id": "bio-07-q02", "chapter": "ch-07", "type": "mcq", "marks": 1, "stars": 2, "label": "PYQ-style", "topic": "Pathogens",
+    "id": "bio-07-q02",
+    "chapter": "ch-07",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ-style",
+    "topic": "Pathogens",
     "stem": "Which pathogen is correctly matched with its disease?",
-    "options": ["Wuchereria – ringworm", "Entamoeba histolytica – amoebiasis", "Haemophilus influenzae – typhoid", "Trichophyton – filariasis"],
+    "options": [
+      "Wuchereria – ringworm",
+      "Entamoeba histolytica – amoebiasis",
+      "Haemophilus influenzae – typhoid",
+      "Trichophyton – filariasis"
+    ],
     "answer": "B",
     "hint": "Amoebic dysentery.",
     "model_answer": "**(b).** Wuchereria causes filariasis, Haemophilus causes pneumonia, Trichophyton causes ringworm."
   },
   {
-    "id": "bio-07-q03", "chapter": "ch-07", "type": "mcq", "marks": 1, "stars": 2, "label": "PYQ-style", "topic": "Drugs",
+    "id": "bio-07-q03",
+    "chapter": "ch-07",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ-style",
+    "topic": "Drugs",
     "stem": "Which drug interferes with the transport of the neurotransmitter dopamine?",
-    "options": ["Heroin", "Cocaine", "Marijuana", "Nicotine"],
+    "options": [
+      "Heroin",
+      "Cocaine",
+      "Marijuana",
+      "Nicotine"
+    ],
     "answer": "B",
     "hint": "From Erythroxylum coca.",
     "model_answer": "**(b) Cocaine.**"
   },
   {
-    "id": "bio-07-q04", "chapter": "ch-07", "type": "ar", "marks": 1, "stars": 3, "label": "PYQ-style", "topic": "Immunity",
+    "id": "bio-07-q04",
+    "chapter": "ch-07",
+    "type": "ar",
+    "marks": 1,
+    "stars": 3,
+    "label": "PYQ-style",
+    "topic": "Immunity",
     "stem": "**Assertion (A):** Colostrum provides passive immunity to a newborn.<br>**Reason (R):** Colostrum contains IgA antibodies made by the mother.",
-    "options": ["Both A and R are true, and R is the correct explanation of A.", "Both A and R are true, but R is not the correct explanation of A.", "A is true, but R is false.", "A is false, but R is true."],
+    "options": [
+      "Both A and R are true, and R is the correct explanation of A.",
+      "Both A and R are true, but R is not the correct explanation of A.",
+      "A is true, but R is false.",
+      "A is false, but R is true."
+    ],
     "answer": "A",
     "hint": "Ready-made antibodies.",
     "model_answer": "**(a).** The infant receives ready-made IgA antibodies; it does not make them, so the immunity is passive."
   },
   {
-    "id": "bio-07-q05", "chapter": "ch-07", "type": "ar", "marks": 1, "stars": 2, "label": "PYQ-style", "topic": "AIDS",
+    "id": "bio-07-q05",
+    "chapter": "ch-07",
+    "type": "ar",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ-style",
+    "topic": "AIDS",
     "stem": "**Assertion (A):** In AIDS, the number of helper T-lymphocytes falls progressively.<br>**Reason (R):** HIV is a retrovirus with a DNA genome.",
-    "options": ["Both A and R are true, and R is the correct explanation of A.", "Both A and R are true, but R is not the correct explanation of A.", "A is true, but R is false.", "A is false, but R is true."],
+    "options": [
+      "Both A and R are true, and R is the correct explanation of A.",
+      "Both A and R are true, but R is not the correct explanation of A.",
+      "A is true, but R is false.",
+      "A is false, but R is true."
+    ],
     "answer": "C",
     "hint": "What is a retrovirus's genome made of?",
     "model_answer": "**(c).** A is true; R is false: HIV has an RNA genome, copied into DNA by reverse transcriptase."
   },
   {
-    "id": "bio-07-q06", "chapter": "ch-07", "type": "vsa2", "marks": 2, "stars": 3, "label": "PYQ-style", "topic": "Antibody",
+    "id": "bio-07-q06",
+    "chapter": "ch-07",
+    "type": "vsa2",
+    "marks": 2,
+    "stars": 3,
+    "label": "PYQ-style",
+    "topic": "Antibody",
     "stem": "Draw or describe the structure of an antibody molecule and name any two types of antibodies.",
     "hint": "Y shape, four chains.",
     "model_answer": "An antibody is Y-shaped with four polypeptide chains: two heavy and two light chains (H₂L₂), held by disulphide bonds; antigen-binding sites are at the tips of the arms. Types: IgA, IgM, IgE, IgG (any two).",
     "scheme": [
-      { "step": "Two heavy + two light chains, H₂L₂, Y shape with binding sites", "marks": 1.5 },
-      { "step": "Two types named", "marks": 0.5 }
+      {
+        "step": "Two heavy + two light chains, H₂L₂, Y shape with binding sites",
+        "marks": 1.5
+      },
+      {
+        "step": "Two types named",
+        "marks": 0.5
+      }
     ]
   },
   {
-    "id": "bio-07-q07", "chapter": "ch-07", "type": "vsa2", "marks": 2, "stars": 2, "label": "PYQ-style", "topic": "Cancer",
+    "id": "bio-07-q07",
+    "chapter": "ch-07",
+    "type": "vsa2",
+    "marks": 2,
+    "stars": 2,
+    "label": "PYQ-style",
+    "topic": "Cancer",
     "stem": "Differentiate between benign and malignant tumours. What is metastasis?",
     "hint": "Confined vs invading.",
     "model_answer": "Benign tumours stay confined to their original location and cause little damage; malignant tumours grow rapidly, invade and damage surrounding tissues. Metastasis is the spread of malignant tumour cells through blood to distant sites, where they start new tumours.",
     "scheme": [
-      { "step": "Benign vs malignant difference", "marks": 1 },
-      { "step": "Metastasis defined", "marks": 1 }
+      {
+        "step": "Benign vs malignant difference",
+        "marks": 1
+      },
+      {
+        "step": "Metastasis defined",
+        "marks": 1
+      }
     ]
   },
   {
-    "id": "bio-07-q08", "chapter": "ch-07", "type": "sa3", "marks": 3, "stars": 3, "label": "PYQ-style", "topic": "Plasmodium",
+    "id": "bio-07-q08",
+    "chapter": "ch-07",
+    "type": "sa3",
+    "marks": 3,
+    "stars": 3,
+    "label": "PYQ-style",
+    "topic": "Plasmodium",
     "stem": "Describe the life cycle of Plasmodium, naming its two hosts and where sexual and asexual stages occur.",
     "hint": "Human: liver, RBC; mosquito: gut, salivary glands.",
     "model_answer": "A female Anopheles injects sporozoites into a human. They multiply asexually in liver cells, then in RBCs; burst RBCs release haemozoin, causing chill and fever every 3–4 days. Some parasites form gametocytes. A mosquito biting the patient takes them up; fertilisation and development occur in its gut, and sporozoites formed move to its salivary glands. Asexual stages in the human, sexual stage in the mosquito.",
     "scheme": [
-      { "step": "Sporozoites → liver → RBCs; haemozoin, fever", "marks": 1 },
-      { "step": "Gametocytes taken up; fertilisation in mosquito gut; sporozoites to salivary glands", "marks": 1 },
-      { "step": "Two hosts named; asexual in human, sexual in mosquito", "marks": 1 }
+      {
+        "step": "Sporozoites → liver → RBCs; haemozoin, fever",
+        "marks": 1
+      },
+      {
+        "step": "Gametocytes taken up; fertilisation in mosquito gut; sporozoites to salivary glands",
+        "marks": 1
+      },
+      {
+        "step": "Two hosts named; asexual in human, sexual in mosquito",
+        "marks": 1
+      }
     ]
   },
   {
-    "id": "bio-07-q09", "chapter": "ch-07", "type": "case", "marks": 4, "stars": 2, "label": "PYQ-style", "topic": "Allergy and immunity",
+    "id": "bio-07-q09",
+    "chapter": "ch-07",
+    "type": "case",
+    "marks": 4,
+    "stars": 2,
+    "label": "PYQ-style",
+    "topic": "Allergy and immunity",
     "stem": "*Every spring, a student starts sneezing, gets watery eyes and a running nose whenever she walks past flowering trees. Her doctor says her immune system is over-reacting to something harmless and prescribes a tablet. Her brother had chickenpox as a child and never got it again.*",
     "parts": [
-      { "id": "A", "marks": 1, "stem": "Name the condition and the class of antibody involved.",
+      {
+        "id": "A",
+        "marks": 1,
+        "stem": "Name the condition and the class of antibody involved.",
         "model_answer": "Allergy (to pollen, an allergen); IgE antibodies.",
-        "scheme": [ { "step": "Allergy; IgE", "marks": 1 } ] },
-      { "id": "B", "marks": 1, "stem": "Which cells release the chemicals that cause her symptoms, and what are the chemicals?",
+        "scheme": [
+          {
+            "step": "Allergy; IgE",
+            "marks": 1
+          }
+        ]
+      },
+      {
+        "id": "B",
+        "marks": 1,
+        "stem": "Which cells release the chemicals that cause her symptoms, and what are the chemicals?",
         "model_answer": "Mast cells release histamine and serotonin.",
-        "scheme": [ { "step": "Mast cells; histamine and serotonin", "marks": 1 } ] },
-      { "id": "C", "marks": 2, "stem": "Explain why the brother did not get chickenpox again, naming the type of immunity.",
+        "scheme": [
+          {
+            "step": "Mast cells; histamine and serotonin",
+            "marks": 1
+          }
+        ]
+      },
+      {
+        "id": "C",
+        "marks": 2,
+        "stem": "Explain why the brother did not get chickenpox again, naming the type of immunity.",
         "model_answer": "Acquired (active) immunity has memory: the first infection produced a primary response and memory cells; on re-exposure a rapid, intense secondary (anamnestic) response destroys the virus before disease develops.",
-        "scheme": [ { "step": "Acquired active immunity with memory", "marks": 1 }, { "step": "Secondary (anamnestic) response is faster and stronger", "marks": 1 } ] }
+        "scheme": [
+          {
+            "step": "Acquired active immunity with memory",
+            "marks": 1
+          },
+          {
+            "step": "Secondary (anamnestic) response is faster and stronger",
+            "marks": 1
+          }
+        ]
+      }
     ]
   },
   {
-    "id": "bio-07-q10", "chapter": "ch-07", "type": "la5", "marks": 5, "stars": 3, "label": "PYQ-style", "topic": "Immunity",
+    "id": "bio-07-q10",
+    "chapter": "ch-07",
+    "type": "la5",
+    "marks": 5,
+    "stars": 3,
+    "label": "PYQ-style",
+    "topic": "Immunity",
     "stem": "(a) Distinguish between innate and acquired immunity. Describe the four types of barriers of innate immunity with an example each. [3]<br>(b) Distinguish between humoral and cell-mediated immunity. [2]",
     "hint": "Physical, physiological, cellular, cytokine.",
     "model_answer": "(a) Innate immunity is non-specific and present at birth; acquired is pathogen-specific and has memory. Barriers: physical (skin, mucus of respiratory tract); physiological (stomach acid, saliva, tears); cellular (neutrophils, monocytes, NK cells, macrophages phagocytose microbes); cytokine (interferons from virus-infected cells protect others).<br>(b) Humoral: mediated by antibodies made by B-lymphocytes, circulating in blood. Cell-mediated: by T-lymphocytes without antibodies; responsible for graft rejection.",
     "scheme": [
-      { "step": "Innate vs acquired difference", "marks": 1 },
-      { "step": "Four barriers with examples (½ each)", "marks": 2 },
-      { "step": "Humoral: B cells, antibodies", "marks": 1 },
-      { "step": "Cell-mediated: T cells, graft rejection", "marks": 1 }
+      {
+        "step": "Innate vs acquired difference",
+        "marks": 1
+      },
+      {
+        "step": "Four barriers with examples (½ each)",
+        "marks": 2
+      },
+      {
+        "step": "Humoral: B cells, antibodies",
+        "marks": 1
+      },
+      {
+        "step": "Cell-mediated: T cells, graft rejection",
+        "marks": 1
+      }
     ]
+  },
+  {
+    "id": "bio-07-q11",
+    "chapter": "ch-07",
+    "type": "sa3",
+    "marks": 3,
+    "stars": 3,
+    "label": "PYQ-style",
+    "topic": "HIV and AIDS",
+    "stem": "What does AIDS stand for? Describe how HIV multiplies in the human body and explain why an infected person becomes immunodeficient.",
+    "hint": "Macrophage first, then reverse transcription, then helper T cells.",
+    "model_answer": "*How much to write: 7–9 lines · 6 minutes*\n\n**AIDS:** <u>Acquired Immuno Deficiency Syndrome</u>, caused by <u>HIV</u>, a <u>retrovirus</u> with an RNA genome.\n\n**Multiplication:**\n1. HIV enters a <mark>macrophage</mark>.\n2. Its RNA is copied into viral DNA by the enzyme <mark>reverse transcriptase</mark>.\n3. The viral DNA <u>joins the host cell's DNA</u> and directs the cell to make virus particles: the macrophage becomes an \"<u>HIV factory</u>\".\n4. New viruses enter <u>helper T-lymphocytes (T<sub>H</sub>)</u>, multiply and are released, attacking more T<sub>H</sub> cells.\n\n**Immunodeficiency:** the <mark>number of helper T cells falls progressively</mark>. As T<sub>H</sub> cells are needed for both antibody and cell-mediated responses, the person cannot fight even ordinary infections and gets <u>opportunistic infections</u> (bacteria such as *Mycobacterium*, viruses, fungi, parasites such as *Toxoplasma*). Diagnosis is by <u>ELISA</u>.\n\n:::tip Your answer must contain\n- the full form and <u>retrovirus</u>\n- <mark>macrophage → reverse transcriptase → viral DNA in host DNA</mark>\n- <mark>fall in helper T cells</mark> → opportunistic infections\n:::\n\n**Marks are lost for:** saying HIV attacks B cells or red blood cells; leaving out reverse transcriptase.",
+    "scheme": [
+      {
+        "step": "Full form; HIV a retrovirus enters macrophage",
+        "marks": 1
+      },
+      {
+        "step": "Reverse transcription, integration, HIV factory",
+        "marks": 1
+      },
+      {
+        "step": "Helper T cells decrease → immunodeficiency, opportunistic infections",
+        "marks": 1
+      }
+    ]
+  },
+  {
+    "id": "bio-07-q12",
+    "chapter": "ch-07",
+    "type": "sa3",
+    "marks": 3,
+    "stars": 2,
+    "label": "PYQ-style",
+    "topic": "Human diseases",
+    "stem": "Name the causative organism and give two symptoms each of (a) typhoid, (b) pneumonia and (c) filariasis.",
+    "hint": "One bacterium that lives in the intestine, one that infects the alveoli, and a worm that lives in lymphatic vessels.",
+    "model_answer": "*How much to write: a three-row table · 5 minutes*\n\n| Disease | Causative organism | Two symptoms |\n|---|---|---|\n| **(a) Typhoid** | <mark>*Salmonella typhi*</mark> (bacterium) | sustained high fever (39–40 °C), weakness, stomach pain, constipation, headache, loss of appetite; intestinal perforation in severe cases |\n| **(b) Pneumonia** | <mark>*Streptococcus pneumoniae*</mark> and *Haemophilus influenzae* (bacteria) | alveoli fill with fluid, so breathing is difficult; fever, chills, cough, headache; lips and finger nails may turn grey to bluish |\n| **(c) Filariasis (elephantiasis)** | <mark>*Wuchereria bancrofti* / *W. malayi*</mark> (filarial worms) | chronic inflammation of the organs where they live, usually the <u>lymphatic vessels of the lower limbs</u>; gross deformities of the limbs and genital organs |\n\nTyphoid is confirmed by the <u>Widal test</u>; filariasis is spread by the bite of <u>female mosquito vectors</u>.\n\n:::tip Your answer must contain\n- the correct <mark>genus and species</mark> for each\n- two symptoms per disease\n:::\n\n**Marks are lost for:** writing \"virus\" for typhoid or pneumonia; naming *Ascaris* for filariasis.",
+    "scheme": [
+      {
+        "step": "Typhoid: Salmonella typhi + two symptoms",
+        "marks": 1
+      },
+      {
+        "step": "Pneumonia: Streptococcus / Haemophilus + two symptoms",
+        "marks": 1
+      },
+      {
+        "step": "Filariasis: Wuchereria + two symptoms",
+        "marks": 1
+      }
+    ]
+  },
+  {
+    "id": "bio-07-q13",
+    "chapter": "ch-07",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ-style",
+    "topic": "Autoimmunity",
+    "stem": "Which of the following is an autoimmune disease?",
+    "options": [
+      "Rheumatoid arthritis",
+      "Typhoid",
+      "Asthma",
+      "Malaria"
+    ],
+    "answer": "A",
+    "hint": "The body attacks its own cells.",
+    "model_answer": "**(a) Rheumatoid arthritis.** The immune system attacks self cells. Asthma is an allergy."
   }
 ]

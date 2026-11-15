@@ -1,100 +1,354 @@
 [
   {
-    "id": "bio-08-q01", "chapter": "ch-08", "type": "mcq", "marks": 1, "stars": 3, "label": "PYQ-style", "topic": "Bioactive molecules",
+    "id": "bio-08-q01",
+    "chapter": "ch-08",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 3,
+    "label": "PYQ-style",
+    "topic": "Bioactive molecules",
     "stem": "Which pair is correctly matched?",
-    "options": ["Statins – Trichoderma polysporum", "Cyclosporin A – Monascus purpureus", "Citric acid – Aspergillus niger", "Streptokinase – Acetobacter aceti"],
+    "options": [
+      "Statins – Trichoderma polysporum",
+      "Cyclosporin A – Monascus purpureus",
+      "Citric acid – Aspergillus niger",
+      "Streptokinase – Acetobacter aceti"
+    ],
     "answer": "C",
     "hint": "A fungus makes citric acid.",
     "model_answer": "**(c).** Statins come from Monascus purpureus, cyclosporin A from Trichoderma polysporum, streptokinase from Streptococcus."
   },
   {
-    "id": "bio-08-q02", "chapter": "ch-08", "type": "mcq", "marks": 1, "stars": 2, "label": "PYQ-style", "topic": "Beverages",
+    "id": "bio-08-q02",
+    "chapter": "ch-08",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ-style",
+    "topic": "Beverages",
     "stem": "Which beverage is produced without distillation?",
-    "options": ["Whisky", "Brandy", "Beer", "Rum"],
+    "options": [
+      "Whisky",
+      "Brandy",
+      "Beer",
+      "Rum"
+    ],
     "answer": "C",
     "hint": "Two drinks are not distilled.",
     "model_answer": "**(c) Beer** (wine too); whisky, brandy and rum are distilled."
   },
   {
-    "id": "bio-08-q03", "chapter": "ch-08", "type": "mcq", "marks": 1, "stars": 2, "label": "PYQ-style", "topic": "Biofertilisers",
+    "id": "bio-08-q03",
+    "chapter": "ch-08",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ-style",
+    "topic": "Biofertilisers",
     "stem": "Mycorrhizal fungi such as Glomus mainly help plants by:",
-    "options": ["fixing atmospheric nitrogen", "absorbing phosphorus from soil", "producing antibiotics", "making methane"],
+    "options": [
+      "fixing atmospheric nitrogen",
+      "absorbing phosphorus from soil",
+      "producing antibiotics",
+      "making methane"
+    ],
     "answer": "B",
     "hint": "A nutrient other than nitrogen.",
     "model_answer": "**(b).** Glomus absorbs phosphorus and passes it to the plant; it also gives resistance to root pathogens."
   },
   {
-    "id": "bio-08-q04", "chapter": "ch-08", "type": "ar", "marks": 1, "stars": 3, "label": "PYQ-style", "topic": "Sewage treatment",
+    "id": "bio-08-q04",
+    "chapter": "ch-08",
+    "type": "ar",
+    "marks": 1,
+    "stars": 3,
+    "label": "PYQ-style",
+    "topic": "Sewage treatment",
     "stem": "**Assertion (A):** The BOD of sewage falls during secondary treatment.<br>**Reason (R):** Flocs of aerobic microbes consume the organic matter in the effluent.",
-    "options": ["Both A and R are true, and R is the correct explanation of A.", "Both A and R are true, but R is not the correct explanation of A.", "A is true, but R is false.", "A is false, but R is true."],
+    "options": [
+      "Both A and R are true, and R is the correct explanation of A.",
+      "Both A and R are true, but R is not the correct explanation of A.",
+      "A is true, but R is false.",
+      "A is false, but R is true."
+    ],
     "answer": "A",
     "hint": "Less organic matter, less oxygen demand.",
     "model_answer": "**(a).** Flocs consume organic matter, so less oxygen would be needed to oxidise what remains: BOD falls."
   },
   {
-    "id": "bio-08-q05", "chapter": "ch-08", "type": "ar", "marks": 1, "stars": 2, "label": "PYQ-style", "topic": "Biocontrol",
+    "id": "bio-08-q05",
+    "chapter": "ch-08",
+    "type": "ar",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ-style",
+    "topic": "Biocontrol",
     "stem": "**Assertion (A):** Baculoviruses are suitable for integrated pest management.<br>**Reason (R):** Baculoviruses are broad-spectrum insecticides that kill all insects.",
-    "options": ["Both A and R are true, and R is the correct explanation of A.", "Both A and R are true, but R is not the correct explanation of A.", "A is true, but R is false.", "A is false, but R is true."],
+    "options": [
+      "Both A and R are true, and R is the correct explanation of A.",
+      "Both A and R are true, but R is not the correct explanation of A.",
+      "A is true, but R is false.",
+      "A is false, but R is true."
+    ],
     "answer": "C",
     "hint": "Specificity is the point.",
     "model_answer": "**(c).** A is true. R is false: they are species-specific, narrow-spectrum, harmless to non-target organisms."
   },
   {
-    "id": "bio-08-q06", "chapter": "ch-08", "type": "vsa2", "marks": 2, "stars": 2, "label": "PYQ-style", "topic": "Curd",
+    "id": "bio-08-q06",
+    "chapter": "ch-08",
+    "type": "vsa2",
+    "marks": 2,
+    "stars": 2,
+    "label": "PYQ-style",
+    "topic": "Curd",
     "stem": "How do lactic acid bacteria convert milk into curd? State one way they benefit our health.",
     "hint": "Acids and proteins.",
     "model_answer": "LAB (e.g. Lactobacillus) added as a starter multiply in milk and produce acids that coagulate and partially digest milk proteins, forming curd. They increase vitamin B₁₂ in curd and check disease-causing microbes in the stomach.",
     "scheme": [
-      { "step": "Acids from LAB coagulate and partially digest milk proteins", "marks": 1 },
-      { "step": "Vitamin B₁₂ or checking harmful microbes", "marks": 1 }
+      {
+        "step": "Acids from LAB coagulate and partially digest milk proteins",
+        "marks": 1
+      },
+      {
+        "step": "Vitamin B₁₂ or checking harmful microbes",
+        "marks": 1
+      }
     ]
   },
   {
-    "id": "bio-08-q07", "chapter": "ch-08", "type": "vsa2", "marks": 2, "stars": 2, "label": "PYQ-style", "topic": "Biogas",
+    "id": "bio-08-q07",
+    "chapter": "ch-08",
+    "type": "vsa2",
+    "marks": 2,
+    "stars": 2,
+    "label": "PYQ-style",
+    "topic": "Biogas",
     "stem": "Why is cattle dung used in biogas plants? Name a methanogen.",
     "hint": "Rumen.",
     "model_answer": "Methanogens live in the rumen of cattle and help digest cellulose, so cattle dung is rich in them; in the anaerobic tank they digest the slurry and produce methane-rich biogas. Example: Methanobacterium.",
     "scheme": [
-      { "step": "Dung rich in methanogens from rumen; produce methane anaerobically", "marks": 1.5 },
-      { "step": "Methanobacterium", "marks": 0.5 }
+      {
+        "step": "Dung rich in methanogens from rumen; produce methane anaerobically",
+        "marks": 1.5
+      },
+      {
+        "step": "Methanobacterium",
+        "marks": 0.5
+      }
     ]
   },
   {
-    "id": "bio-08-q08", "chapter": "ch-08", "type": "sa3", "marks": 3, "stars": 2, "label": "PYQ-style", "topic": "Biocontrol",
+    "id": "bio-08-q08",
+    "chapter": "ch-08",
+    "type": "sa3",
+    "marks": 3,
+    "stars": 2,
+    "label": "PYQ-style",
+    "topic": "Biocontrol",
     "stem": "Name three biocontrol agents and state how each controls a pest or pathogen. Why is biocontrol preferred to chemical pesticides?",
     "hint": "Bt, Trichoderma, baculovirus, ladybird.",
     "model_answer": "Bacillus thuringiensis: spores sprayed on plants; caterpillars eat them and the toxin kills them. Trichoderma: free-living fungus that controls plant pathogens. Baculoviruses (Nucleopolyhedrovirus): species-specific viruses killing insects. (Ladybirds and dragonflies eat aphids and mosquitoes.) Biocontrol avoids toxic chemicals that harm humans, animals and the environment and spares non-target organisms.",
     "scheme": [
-      { "step": "Three agents with mode of action", "marks": 2 },
-      { "step": "Reason for preferring biocontrol", "marks": 1 }
+      {
+        "step": "Three agents with mode of action",
+        "marks": 2
+      },
+      {
+        "step": "Reason for preferring biocontrol",
+        "marks": 1
+      }
     ]
   },
   {
-    "id": "bio-08-q09", "chapter": "ch-08", "type": "case", "marks": 4, "stars": 2, "label": "PYQ-style", "topic": "Industrial microbes",
+    "id": "bio-08-q09",
+    "chapter": "ch-08",
+    "type": "case",
+    "marks": 4,
+    "stars": 2,
+    "label": "PYQ-style",
+    "topic": "Industrial microbes",
     "stem": "*A pharmaceutical company makes three products by growing microbes in large vessels: a clot-dissolving drug for heart-attack patients, a drug given to kidney-transplant patients, and a drug that lowers blood cholesterol.*",
     "parts": [
-      { "id": "A", "marks": 1, "stem": "What are the large vessels called?",
+      {
+        "id": "A",
+        "marks": 1,
+        "stem": "What are the large vessels called?",
         "model_answer": "Fermentors.",
-        "scheme": [ { "step": "Fermentors", "marks": 1 } ] },
-      { "id": "B", "marks": 1, "stem": "Name the clot buster and its source.",
+        "scheme": [
+          {
+            "step": "Fermentors",
+            "marks": 1
+          }
+        ]
+      },
+      {
+        "id": "B",
+        "marks": 1,
+        "stem": "Name the clot buster and its source.",
         "model_answer": "Streptokinase, from (genetically engineered) Streptococcus.",
-        "scheme": [ { "step": "Streptokinase; Streptococcus", "marks": 1 } ] },
-      { "id": "C", "marks": 2, "stem": "Name the transplant drug and the cholesterol-lowering drug with their sources, and say how the second one works.",
+        "scheme": [
+          {
+            "step": "Streptokinase; Streptococcus",
+            "marks": 1
+          }
+        ]
+      },
+      {
+        "id": "C",
+        "marks": 2,
+        "stem": "Name the transplant drug and the cholesterol-lowering drug with their sources, and say how the second one works.",
         "model_answer": "Cyclosporin A from the fungus Trichoderma polysporum (immunosuppressant). Statins from the yeast Monascus purpureus; they competitively inhibit the enzyme responsible for cholesterol synthesis.",
-        "scheme": [ { "step": "Cyclosporin A – Trichoderma polysporum", "marks": 0.5 }, { "step": "Statins – Monascus purpureus", "marks": 0.5 }, { "step": "Competitive inhibition of cholesterol-synthesis enzyme", "marks": 1 } ] }
+        "scheme": [
+          {
+            "step": "Cyclosporin A – Trichoderma polysporum",
+            "marks": 0.5
+          },
+          {
+            "step": "Statins – Monascus purpureus",
+            "marks": 0.5
+          },
+          {
+            "step": "Competitive inhibition of cholesterol-synthesis enzyme",
+            "marks": 1
+          }
+        ]
+      }
     ]
   },
   {
-    "id": "bio-08-q10", "chapter": "ch-08", "type": "la5", "marks": 5, "stars": 3, "label": "PYQ-style", "topic": "Sewage treatment",
+    "id": "bio-08-q10",
+    "chapter": "ch-08",
+    "type": "la5",
+    "marks": 5,
+    "stars": 3,
+    "label": "PYQ-style",
+    "topic": "Sewage treatment",
     "stem": "Describe the primary and secondary treatment of sewage. What is BOD and why is it measured?",
     "hint": "Physical then biological; flocs; activated sludge; digesters.",
     "model_answer": "Primary treatment: physical removal of floating debris by sequential filtration and of grit by sedimentation; settled solids form primary sludge, the supernatant is the effluent. Secondary treatment: effluent is aerated and agitated in aeration tanks; aerobic microbes grow as flocs (bacteria with fungal filaments) and consume organic matter, lowering BOD. In the settling tank flocs settle as activated sludge; part is returned to the aeration tank as inoculum, the rest goes to anaerobic sludge digesters, where anaerobic bacteria produce biogas (CH₄, H₂S, CO₂). The treated effluent is released into water bodies. BOD is the amount of oxygen that would be consumed if all organic matter in one litre of water were oxidised by bacteria; it measures organic pollution, so treatment continues until BOD is low.",
     "scheme": [
-      { "step": "Primary: filtration, sedimentation, primary sludge", "marks": 1 },
-      { "step": "Aeration tanks, flocs, organic matter consumed", "marks": 1 },
-      { "step": "Activated sludge; inoculum; anaerobic digesters, biogas", "marks": 1 },
-      { "step": "BOD defined", "marks": 1 },
-      { "step": "BOD measures organic pollution; reduced before release", "marks": 1 }
+      {
+        "step": "Primary: filtration, sedimentation, primary sludge",
+        "marks": 1
+      },
+      {
+        "step": "Aeration tanks, flocs, organic matter consumed",
+        "marks": 1
+      },
+      {
+        "step": "Activated sludge; inoculum; anaerobic digesters, biogas",
+        "marks": 1
+      },
+      {
+        "step": "BOD defined",
+        "marks": 1
+      },
+      {
+        "step": "BOD measures organic pollution; reduced before release",
+        "marks": 1
+      }
     ]
+  },
+  {
+    "id": "bio-08-q11",
+    "chapter": "ch-08",
+    "type": "sa3",
+    "marks": 3,
+    "stars": 3,
+    "label": "PYQ-style",
+    "topic": "Industrial products",
+    "stem": "Name one microbe and one use for each: (a) an antibiotic, (b) an enzyme used in industry and (c) an organic acid. Who discovered the first antibiotic and how?",
+    "hint": "Think of Penicillium, lipases or pectinases, and Aspergillus niger.",
+    "model_answer": "*How much to write: 6–8 lines · 5 minutes*\n\n**(a) Antibiotic:** <mark>penicillin from the fungus *Penicillium notatum*</mark>; used to treat bacterial infections (it saved many soldiers wounded in World War II).\n\n**(b) Enzymes:** <u>lipases</u> are used in detergent formulations to remove oily stains; <u>pectinases and proteases</u> clarify bottled fruit juices; <u>streptokinase</u> from *Streptococcus* is a clot buster for heart-attack patients.\n\n**(c) Organic acid:** <mark>citric acid from *Aspergillus niger*</mark> (fungus); also acetic acid from *Acetobacter aceti*, butyric acid from *Clostridium butylicum*, lactic acid from *Lactobacillus*.\n\n**Discovery:** <u>Alexander Fleming</u>, while working on *Staphylococci*, saw a mould growing in an unwashed culture plate around which the bacteria could not grow. He found that the mould, *Penicillium notatum*, made a chemical he named <mark>penicillin</mark>. Its full potential was later established by <u>Ernest Chain and Howard Florey</u> (Nobel Prize 1945, shared with Fleming).\n\n:::tip Your answer must contain\n- each product matched to its <mark>correct microbe</mark> with a use\n- Fleming, *Staphylococcus* plate, *Penicillium notatum*\n- Chain and Florey\n:::\n\n**Marks are lost for:** matching citric acid to *Acetobacter*; saying penicillin comes from a bacterium.",
+    "scheme": [
+      {
+        "step": "Antibiotic + microbe + use",
+        "marks": 0.5
+      },
+      {
+        "step": "Enzyme + microbe/use",
+        "marks": 0.5
+      },
+      {
+        "step": "Organic acid + microbe",
+        "marks": 1
+      },
+      {
+        "step": "Discovery by Fleming (Chain and Florey)",
+        "marks": 1
+      }
+    ]
+  },
+  {
+    "id": "bio-08-q12",
+    "chapter": "ch-08",
+    "type": "sa3",
+    "marks": 3,
+    "stars": 3,
+    "label": "PYQ-style",
+    "topic": "Biofertilisers",
+    "stem": "What are biofertilisers? Explain the role of (a) *Rhizobium*, (b) mycorrhiza and (c) cyanobacteria as biofertilisers.",
+    "hint": "Nitrogen in root nodules, phosphorus from the soil, and nitrogen in paddy fields.",
+    "model_answer": "*How much to write: 7–8 lines · 5 minutes*\n\n**Biofertilisers** are <mark>organisms that enrich the nutrient quality of the soil</mark>; the main sources are bacteria, fungi and cyanobacteria. They reduce the use of chemical fertilisers.\n\n**(a) *Rhizobium*:** a symbiotic bacterium in the <u>root nodules of leguminous plants</u>; it <mark>fixes atmospheric nitrogen</mark> into organic forms the plant uses. (Free-living soil bacteria such as *Azospirillum* and *Azotobacter* also fix nitrogen.)\n\n**(b) Mycorrhiza:** a symbiotic association of fungi (e.g. <u>*Glomus*</u>) with plant roots. The fungus <mark>absorbs phosphorus from the soil and passes it to the plant</mark>; such plants also show resistance to root pathogens, tolerance to salinity and drought, and better overall growth.\n\n**(c) Cyanobacteria:** autotrophic microbes such as <u>*Anabaena*, *Nostoc*, *Oscillatoria*</u> fix atmospheric nitrogen; they are important biofertilisers in <mark>paddy (rice) fields</mark> and also add organic matter to the soil.\n\n:::tip Your answer must contain\n- definition of biofertiliser\n- <u>*Rhizobium*</u>: N fixation in legume root nodules\n- <u>mycorrhiza (*Glomus*)</u>: <mark>phosphorus</mark> + tolerance\n- cyanobacteria with examples, <mark>paddy fields</mark>\n:::\n\n**Marks are lost for:** saying mycorrhiza fixes nitrogen; giving no example of cyanobacteria.",
+    "scheme": [
+      {
+        "step": "Definition",
+        "marks": 0.5
+      },
+      {
+        "step": "Rhizobium role",
+        "marks": 0.5
+      },
+      {
+        "step": "Mycorrhiza (Glomus): phosphorus absorption and other benefits",
+        "marks": 1
+      },
+      {
+        "step": "Cyanobacteria with examples, paddy fields",
+        "marks": 1
+      }
+    ]
+  },
+  {
+    "id": "bio-08-q13",
+    "chapter": "ch-08",
+    "type": "vsa2",
+    "marks": 2,
+    "stars": 2,
+    "label": "PYQ-style",
+    "topic": "Cheese",
+    "stem": "Name the microbes responsible for (a) the large holes in Swiss cheese and (b) the ripening of Roquefort cheese. How are the holes in Swiss cheese formed?",
+    "hint": "One is a bacterium that releases a gas; the other is a fungus.",
+    "model_answer": "*How much to write: 3–4 lines · 3 minutes*\n\n**(a)** <mark>*Propionibacterium sharmanii*</mark> (a bacterium).\n\n**(b)** Specific <u>fungi</u> grown on the cheese ripen Roquefort cheese.\n\n**Holes:** *Propionibacterium sharmanii* <mark>produces a large amount of CO₂</mark> during fermentation; the trapped gas leaves the large holes.\n\n:::tip Your answer must contain\n- the bacterium's name for Swiss cheese\n- <u>fungi</u> for Roquefort\n- <mark>CO₂</mark> as the cause of the holes\n:::\n\n**Marks are lost for:** naming *Lactobacillus* for Swiss cheese; saying the holes are made by air.",
+    "scheme": [
+      {
+        "step": "Propionibacterium sharmanii; fungi for Roquefort",
+        "marks": 1
+      },
+      {
+        "step": "Large amount of CO₂ forms the holes",
+        "marks": 1
+      }
+    ]
+  },
+  {
+    "id": "bio-08-q14",
+    "chapter": "ch-08",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ-style",
+    "topic": "Bioactive molecules",
+    "stem": "Statins, used to lower blood cholesterol, are produced by:",
+    "options": [
+      "*Trichoderma polysporum*",
+      "*Monascus purpureus*",
+      "*Streptococcus*",
+      "*Aspergillus niger*"
+    ],
+    "answer": "B",
+    "hint": "A yeast.",
+    "model_answer": "**(b) *Monascus purpureus*.** Statins competitively inhibit the enzyme for cholesterol synthesis."
   }
 ]

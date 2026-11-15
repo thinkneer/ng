@@ -312,7 +312,7 @@
     "topic": "Nucleosome",
     "stem": "How is DNA packaged in a eukaryotic nucleus? Draw a labelled diagram of nucleosomes and distinguish between euchromatin and heterochromatin.",
     "hint": "Positive histones, negative DNA. Eight histones make one bead.",
-    "model_answer": "*How much to write: 6–8 lines + a labelled sketch · 6 minutes*\n\n- <u>Histones</u> are proteins rich in the basic amino acids <u>lysine and arginine</u>, so they are <mark>positively charged</mark>.\n- Eight histones form a <u>histone octamer</u>. Negatively charged DNA wraps around it to form a <mark>nucleosome</mark> of about <u>200 bp</u> of DNA.\n- Nucleosomes repeat to form <u>chromatin</u>, seen as \"<u>beads-on-string</u>\" under the electron microscope. It is further coiled and condensed into chromosomes at metaphase, helped by <u>non-histone chromosomal (NHC) proteins</u>.\n\n<figure class=\"fig\">\n<svg viewBox=\"0 0 320 132\" role=\"img\" aria-label=\"Nucleosomes: DNA wrapped around histone octamers, joined by linker DNA\" fill=\"none\" stroke=\"currentColor\">\n<path stroke-width=\"1.6\" d=\"M6,74H43M97,74H133M187,74H223M277,74H314\"/>\n<g class=\"uf\" fill-opacity=\"0.25\" stroke=\"none\"><circle cx=\"70\" cy=\"62\" r=\"22\"/><circle cx=\"160\" cy=\"62\" r=\"22\"/><circle cx=\"250\" cy=\"62\" r=\"22\"/></g>\n<g class=\"u\" stroke-width=\"2.2\"><ellipse cx=\"70\" cy=\"62\" rx=\"27\" ry=\"25\"/><ellipse cx=\"160\" cy=\"62\" rx=\"27\" ry=\"25\"/><ellipse cx=\"250\" cy=\"62\" rx=\"27\" ry=\"25\"/></g>\n<g fill=\"#E0B400\" stroke=\"none\"><circle cx=\"70\" cy=\"91\" r=\"5\"/><circle cx=\"160\" cy=\"91\" r=\"5\"/><circle cx=\"250\" cy=\"91\" r=\"5\"/></g>\n<g fill=\"currentColor\" stroke=\"none\" font-size=\"10\"><text x=\"30\" y=\"24\">Histone octamer</text><text x=\"210\" y=\"24\">DNA (≈ 200 bp)</text><text x=\"101\" y=\"60\">Linker</text><text x=\"106\" y=\"70\">DNA</text><text x=\"168\" y=\"110\">H1 histone</text><text x=\"80\" y=\"128\">Beads-on-string chromatin</text></g>\n</svg>\n<figcaption>Nucleosomes: DNA wrapped round histone octamers, joined by linker DNA; H1 seals each bead.</figcaption>\n</figure>\n\n| Euchromatin | Heterochromatin |\n|---|---|\n| loosely packed, stains light | densely packed, stains dark |\n| <mark>transcriptionally active</mark> | inactive |\n\n:::tip Your answer must contain\n- histones positively charged (lysine, arginine); DNA negative\n- <mark>octamer + ≈ 200 bp DNA = nucleosome</mark>; beads-on-string\n- labelled sketch: octamer, DNA, linker DNA, H1\n- euchromatin <u>active, loose</u> vs heterochromatin <u>inactive, dense</u>\n:::\n\n**Marks are lost for:** calling histones acidic; drawing no linker DNA; reversing the activity of eu- and heterochromatin.",
+    "model_answer": "*How much to write: 6–8 lines + a labelled sketch · 6 minutes*\n\n- <u>Histones</u> are proteins rich in the basic amino acids <u>lysine and arginine</u>, so they are <mark>positively charged</mark>.\n- Eight histones form a <u>histone octamer</u>. Negatively charged DNA wraps around it to form a <mark>nucleosome</mark> of about <u>200 bp</u> of DNA.\n- Nucleosomes repeat to form <u>chromatin</u>, seen as \"<u>beads-on-string</u>\" under the electron microscope. It is further coiled and condensed into chromosomes at metaphase, helped by <u>non-histone chromosomal (NHC) proteins</u>.\n\n<figure class=\"fig\">\n<svg viewBox=\"0 0 320 132\" role=\"img\" aria-label=\"Nucleosomes: DNA wrapped around histone octamers, joined by linker DNA\" fill=\"none\" stroke=\"currentColor\">\n<path stroke-width=\"1.6\" d=\"M6,74H43M97,74H133M187,74H223M277,74H314\"/>\n<g fill=\"#6A3FA0\" fill-opacity=\"0.25\" stroke=\"none\"><circle cx=\"70\" cy=\"62\" r=\"22\"/><circle cx=\"160\" cy=\"62\" r=\"22\"/><circle cx=\"250\" cy=\"62\" r=\"22\"/></g>\n<g stroke=\"#6A3FA0\" stroke-width=\"2.2\"><ellipse cx=\"70\" cy=\"62\" rx=\"27\" ry=\"25\"/><ellipse cx=\"160\" cy=\"62\" rx=\"27\" ry=\"25\"/><ellipse cx=\"250\" cy=\"62\" rx=\"27\" ry=\"25\"/></g>\n<g fill=\"#E0B400\" stroke=\"none\"><circle cx=\"70\" cy=\"91\" r=\"5\"/><circle cx=\"160\" cy=\"91\" r=\"5\"/><circle cx=\"250\" cy=\"91\" r=\"5\"/></g>\n<g fill=\"currentColor\" stroke=\"none\" font-size=\"10\"><text x=\"30\" y=\"24\">Histone octamer</text><text x=\"210\" y=\"24\">DNA (≈ 200 bp)</text><text x=\"101\" y=\"60\">Linker</text><text x=\"106\" y=\"70\">DNA</text><text x=\"168\" y=\"110\">H1 histone</text><text x=\"80\" y=\"128\">Beads-on-string chromatin</text></g>\n</svg>\n<figcaption>Nucleosomes: DNA wrapped round histone octamers, joined by linker DNA; H1 seals each bead.</figcaption>\n</figure>\n\n| Euchromatin | Heterochromatin |\n|---|---|\n| loosely packed, stains light | densely packed, stains dark |\n| <mark>transcriptionally active</mark> | inactive |\n\n:::tip Your answer must contain\n- histones positively charged (lysine, arginine); DNA negative\n- <mark>octamer + ≈ 200 bp DNA = nucleosome</mark>; beads-on-string\n- labelled sketch: octamer, DNA, linker DNA, H1\n- euchromatin <u>active, loose</u> vs heterochromatin <u>inactive, dense</u>\n:::\n\n**Marks are lost for:** calling histones acidic; drawing no linker DNA; reversing the activity of eu- and heterochromatin.",
     "scheme": [
       {
         "step": "Histone octamer + DNA → nucleosome, beads-on-string, NHC",
@@ -365,5 +365,73 @@
     "answer": "C",
     "hint": "It switches the operon on by inactivating the repressor.",
     "model_answer": "**(c) Lactose.** It binds the repressor and inactivates it, so z, y and a are transcribed."
+  },
+  {
+    "id": "bio-05-q16",
+    "chapter": "ch-05",
+    "type": "la5",
+    "marks": 5,
+    "stars": 3,
+    "label": "PYQ-style",
+    "topic": "Transcription",
+    "stem": "Describe the process of transcription in bacteria. In what ways is transcription in eukaryotes more complex?",
+    "hint": "Bacteria: one RNA polymerase, with σ and ρ factors. Eukaryotes: three polymerases and a hnRNA that must be processed.",
+    "model_answer": "*How much to write: about one page in two parts · 10 minutes*\n\n**Transcription in bacteria** (one <u>DNA-dependent RNA polymerase</u> makes all RNAs):\n1. **Initiation:** RNA polymerase binds the <u>promoter</u> with the help of the <mark>initiation factor (σ)</mark> and starts transcription.\n2. **Elongation:** using nucleoside triphosphates as substrates, it adds nucleotides complementary to the <u>template strand (3′→5′)</u>, so RNA grows <u>5′→3′</u>; the DNA helix opens just ahead of it.\n3. **Termination:** at the <u>terminator</u>, the <mark>termination factor (ρ)</mark> makes the polymerase release the RNA.\nIn bacteria the mRNA needs no processing and, as there is no nuclear membrane, <u>translation can begin while transcription is still going on</u>.\n\n**Extra complexity in eukaryotes:**\n- <mark>Three RNA polymerases</mark>: RNA pol I makes rRNAs (28S, 18S, 5.8S); RNA pol II makes the precursor of mRNA, <u>hnRNA</u>; RNA pol III makes tRNA, 5S rRNA and snRNAs.\n- Genes are <u>split</u>: exons interrupted by introns. hnRNA is processed:\n  - <u>splicing</u>: introns removed, exons joined;\n  - <u>capping</u>: methyl guanosine triphosphate added at the 5′ end;\n  - <u>tailing</u>: 200–300 adenylate residues added at the 3′ end.\n- The mature mRNA is <u>transported out of the nucleus</u> for translation.\n\n:::tip Your answer must contain\n- initiation (promoter, <mark>σ factor</mark>), elongation (5′→3′), termination (<mark>ρ factor</mark>)\n- coupled transcription–translation in bacteria\n- <u>three RNA polymerases</u> with products\n- <u>splicing, capping, tailing</u> of hnRNA\n:::\n\n**Marks are lost for:** mixing up σ and ρ; saying RNA is made 3′→5′; leaving out what each eukaryotic polymerase makes.",
+    "scheme": [
+      {
+        "step": "Initiation: RNA polymerase + σ at promoter",
+        "marks": 1
+      },
+      {
+        "step": "Elongation 5′→3′ on the template; termination with ρ",
+        "marks": 1
+      },
+      {
+        "step": "Bacteria: no processing, coupled translation",
+        "marks": 1
+      },
+      {
+        "step": "Three eukaryotic RNA polymerases and their products",
+        "marks": 1
+      },
+      {
+        "step": "Splicing, capping and tailing of hnRNA",
+        "marks": 1
+      }
+    ]
+  },
+  {
+    "id": "bio-05-q17",
+    "chapter": "ch-05",
+    "type": "la5",
+    "marks": 5,
+    "stars": 3,
+    "label": "PYQ-style",
+    "topic": "DNA double helix",
+    "stem": "(a) Describe the salient features of the double-helix model of DNA proposed by Watson and Crick, with a labelled diagram. [3]<br>(b) State Chargaff's rule. A double-stranded DNA has 20% adenine. Calculate the percentage of guanine. [2]",
+    "hint": "(a) Two antiparallel strands, sugar–phosphate backbone outside, bases paired inside; give the pitch and bp per turn. (b) A = T and G = C.",
+    "model_answer": "*How much to write: about one page: points + sketch for (a), 4 lines of working for (b) · 10 minutes*\n\n**(a)** Based on X-ray diffraction data of Wilkins and Franklin:\n1. DNA has <u>two polynucleotide chains</u>; the backbone is <u>sugar and phosphate</u>, the bases project inwards.\n2. The two chains are <mark>antiparallel</mark>: one runs 5′→3′, the other 3′→5′.\n3. Bases pair by <u>hydrogen bonds</u>: <mark>A=T (two bonds), G≡C (three bonds)</mark>; a purine always faces a pyrimidine, so the distance between the strands stays constant.\n4. The two chains are coiled in a <u>right-handed</u> fashion. <u>Pitch = 3.4 nm</u>, with about <u>10 bp per turn</u>, so the distance between two base pairs is <u>0.34 nm</u>.\n5. Base pairs stack over one another, which (with hydrogen bonds) stabilises the helix.\n\n<figure class=\"fig\">\n<svg viewBox=\"0 0 330 214\" role=\"img\" aria-label=\"DNA double helix with antiparallel strands, base pairs, 3.4 nm pitch and 0.34 nm between base pairs\" fill=\"none\" stroke=\"currentColor\">\n<path stroke-opacity=\"0.55\" stroke-width=\"1.6\" d=\"M46.5,62.0V138.0M59.5,76.5V123.5M85.5,123.5V76.5M98.5,138.0V62.0M111.5,138.0V62.0M124.5,123.5V76.5M150.5,76.5V123.5M163.5,62.0V138.0M176.5,62.0V138.0M189.5,76.5V123.5M215.5,123.5V76.5M228.5,138.0V62.0M241.5,138.0V62.0M254.5,123.5V76.5M280.5,76.5V123.5M293.5,62.0V138.0\"/>\n<path stroke=\"#6A3FA0\" stroke-width=\"3\" d=\"M40.0,60.0 L42.5,60.3 L45.0,61.2 L47.5,62.6 L50.0,64.6 L52.5,67.1 L55.0,70.1 L57.5,73.5 L60.0,77.3 L62.5,81.4 L65.0,85.8 L67.5,90.4 L70.0,95.2 L72.5,100.0 L75.0,104.8 L77.5,109.6 L80.0,114.2 L82.5,118.6 L85.0,122.7 L87.5,126.5 L90.0,129.9 L92.5,132.9 L95.0,135.4 L97.5,137.4 L100.0,138.8 L102.5,139.7 L105.0,140.0 L107.5,139.7 L110.0,138.8 L112.5,137.4 L115.0,135.4 L117.5,132.9 L120.0,129.9 L122.5,126.5 L125.0,122.7 L127.5,118.6 L130.0,114.2 L132.5,109.6 L135.0,104.8 L137.5,100.0 L140.0,95.2 L142.5,90.4 L145.0,85.8 L147.5,81.4 L150.0,77.3 L152.5,73.5 L155.0,70.1 L157.5,67.1 L160.0,64.6 L162.5,62.6 L165.0,61.2 L167.5,60.3 L170.0,60.0 L172.5,60.3 L175.0,61.2 L177.5,62.6 L180.0,64.6 L182.5,67.1 L185.0,70.1 L187.5,73.5 L190.0,77.3 L192.5,81.4 L195.0,85.8 L197.5,90.4 L200.0,95.2 L202.5,100.0 L205.0,104.8 L207.5,109.6 L210.0,114.2 L212.5,118.6 L215.0,122.7 L217.5,126.5 L220.0,129.9 L222.5,132.9 L225.0,135.4 L227.5,137.4 L230.0,138.8 L232.5,139.7 L235.0,140.0 L237.5,139.7 L240.0,138.8 L242.5,137.4 L245.0,135.4 L247.5,132.9 L250.0,129.9 L252.5,126.5 L255.0,122.7 L257.5,118.6 L260.0,114.2 L262.5,109.6 L265.0,104.8 L267.5,100.0 L270.0,95.2 L272.5,90.4 L275.0,85.8 L277.5,81.4 L280.0,77.3 L282.5,73.5 L285.0,70.1 L287.5,67.1 L290.0,64.6 L292.5,62.6 L295.0,61.2 L297.5,60.3 L300.0,60.0\"/>\n<path stroke-width=\"3\" d=\"M40.0,140.0 L42.5,139.7 L45.0,138.8 L47.5,137.4 L50.0,135.4 L52.5,132.9 L55.0,129.9 L57.5,126.5 L60.0,122.7 L62.5,118.6 L65.0,114.2 L67.5,109.6 L70.0,104.8 L72.5,100.0 L75.0,95.2 L77.5,90.4 L80.0,85.8 L82.5,81.4 L85.0,77.3 L87.5,73.5 L90.0,70.1 L92.5,67.1 L95.0,64.6 L97.5,62.6 L100.0,61.2 L102.5,60.3 L105.0,60.0 L107.5,60.3 L110.0,61.2 L112.5,62.6 L115.0,64.6 L117.5,67.1 L120.0,70.1 L122.5,73.5 L125.0,77.3 L127.5,81.4 L130.0,85.8 L132.5,90.4 L135.0,95.2 L137.5,100.0 L140.0,104.8 L142.5,109.6 L145.0,114.2 L147.5,118.6 L150.0,122.7 L152.5,126.5 L155.0,129.9 L157.5,132.9 L160.0,135.4 L162.5,137.4 L165.0,138.8 L167.5,139.7 L170.0,140.0 L172.5,139.7 L175.0,138.8 L177.5,137.4 L180.0,135.4 L182.5,132.9 L185.0,129.9 L187.5,126.5 L190.0,122.7 L192.5,118.6 L195.0,114.2 L197.5,109.6 L200.0,104.8 L202.5,100.0 L205.0,95.2 L207.5,90.4 L210.0,85.8 L212.5,81.4 L215.0,77.3 L217.5,73.5 L220.0,70.1 L222.5,67.1 L225.0,64.6 L227.5,62.6 L230.0,61.2 L232.5,60.3 L235.0,60.0 L237.5,60.3 L240.0,61.2 L242.5,62.6 L245.0,64.6 L247.5,67.1 L250.0,70.1 L252.5,73.5 L255.0,77.3 L257.5,81.4 L260.0,85.8 L262.5,90.4 L265.0,95.2 L267.5,100.0 L270.0,104.8 L272.5,109.6 L275.0,114.2 L277.5,118.6 L280.0,122.7 L282.5,126.5 L285.0,129.9 L287.5,132.9 L290.0,135.4 L292.5,137.4 L295.0,138.8 L297.5,139.7 L300.0,140.0\"/>\n<path stroke-width=\"1\" d=\"M40,36V44M40,40H170M170,36V44M202.5,146V184M215.5,146V184M202.5,180H215.5\"/>\n<g fill=\"currentColor\" stroke=\"none\" font-size=\"10\"><text x=\"58\" y=\"30\">one turn = 3.4 nm (10 bp)</text><text x=\"22\" y=\"64\">5′</text><text x=\"22\" y=\"146\">3′</text><text x=\"306\" y=\"64\">3′</text><text x=\"306\" y=\"146\">5′</text><text x=\"184\" y=\"198\">0.34 nm</text><text x=\"20\" y=\"204\">Sugar–phosphate backbone</text><text x=\"236\" y=\"204\">Base pairs</text></g>\n</svg>\n<figcaption>DNA double helix: antiparallel strands, sugar–phosphate backbone outside, base pairs inside.</figcaption>\n</figure>\n\n**(b) Chargaff's rule:** in double-stranded DNA, <mark>A = T and G = C</mark>, so purines = pyrimidines.\n\n**Given:** A = 20%<br>\n**To find:** G%\n\n$$\\begin{aligned}A+T&=20+20=40\\%\\\\G+C&=100-40=60\\%\\end{aligned}$$\n\n$$\\boxed{G=30\\%}$$\n\n:::tip Your answer must contain\n- <mark>antiparallel</mark>, sugar–phosphate backbone, <u>H-bonded base pairs</u> (A=T, G≡C)\n- <u>right-handed</u>; <mark>3.4 nm pitch, 10 bp, 0.34 nm</mark>\n- a labelled diagram with 5′/3′ ends\n- Chargaff's rule and G = 30% with working\n:::\n\n**Marks are lost for:** drawing parallel strands; swapping the number of H-bonds; answering 20% or 60% for guanine.",
+    "scheme": [
+      {
+        "step": "Two antiparallel chains, backbone outside, complementary base pairing with H-bonds",
+        "marks": 1
+      },
+      {
+        "step": "Right-handed coil; 3.4 nm pitch, 10 bp/turn, 0.34 nm",
+        "marks": 1
+      },
+      {
+        "step": "Labelled diagram",
+        "marks": 1
+      },
+      {
+        "step": "Chargaff's rule",
+        "marks": 1
+      },
+      {
+        "step": "G = 30% with working",
+        "marks": 1
+      }
+    ]
   }
 ]
