@@ -1,0 +1,11 @@
+{
+  "$schema": "../../../../../schemas/chapter.schema.json",
+  "id": "ch-01",
+  "number": 1,
+  "title": "Understanding Social Science",
+  "unit": "intro",
+  "marks_hint": "Introductory chapter (Part 1, Ch 1); CBSE has not announced its weightage, so expect a few short questions in school papers (estimate)",
+  "summary": "What Social Science is · how it differs from the natural sciences · everyday life as social science · four disciplines, one reality · sources and tools · roots in Indian knowledge traditions · why study it",
+  "status": { "notes": "ready", "mustknow": "ready", "formulas": "ready", "questions": "ready" },
+  "updated": "2026-11-15"
+}

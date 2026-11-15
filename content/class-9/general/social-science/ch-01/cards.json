@@ -1,0 +1,109 @@
+[
+  {
+    "id": "ch01-four-lenses",
+    "kind": "figure",
+    "title": "One drought, four lenses",
+    "svg": "ref: notes#ch01-four-lenses",
+    "back": "Geography: rain, soil · History: past droughts · Politics: relief, who decides · Economics: crops, prices.",
+    "stars": 3,
+    "tags": [
+      "diagram",
+      "3-mark"
+    ]
+  },
+  {
+    "id": "ch01-definition",
+    "kind": "formula",
+    "title": "Social Science, defined",
+    "tex": "\\begin{gathered}\\text{systematic study}\\\\\\text{of human society}\\end{gathered}",
+    "legend": [
+      "what = describe",
+      "why = explain"
+    ],
+    "back": "Keep the word **systematic**. It explains why and how, not just what and where.",
+    "stars": 3
+  },
+  {
+    "id": "ch01-natural-vs-social",
+    "kind": "compare",
+    "title": "Natural sciences vs Social Science",
+    "tex": "\\begin{gathered}\\text{nature}\\\\\\text{vs}\\\\\\text{society}\\end{gathered}",
+    "back": "Physics, Chemistry, Biology study the natural world. Social Science studies institutions, cultures and human interaction.",
+    "stars": 3
+  },
+  {
+    "id": "ch01-roti-journey",
+    "kind": "process",
+    "title": "The journey of your roti",
+    "svg": "ref: notes#ch01-roti-journey",
+    "back": "Farm → mill → truck → shop → plate. Each step involves places, people, decisions and money: everyday social science.",
+    "stars": 2
+  },
+  {
+    "id": "ch01-sources",
+    "kind": "figure",
+    "title": "Where historians find evidence",
+    "svg": "ref: notes#ch01-sources",
+    "back": "Literary (texts) · archaeological (remains) · epigraphic (inscriptions) · numismatic (coins) · scientific (carbon-14, genetics).",
+    "stars": 3,
+    "tags": [
+      "diagram",
+      "3-mark"
+    ]
+  },
+  {
+    "id": "ch01-sources-trick",
+    "kind": "mnemonic",
+    "title": "Little Ants Eat Nuts",
+    "back": "**L**iterary · **A**rchaeological · **E**pigraphic (inscriptions) · **N**umismatic (coins).",
+    "stars": 3,
+    "tex": "\\begin{gathered}\\textbf{L}\\ \\textbf{A}\\ \\textbf{E}\\ \\textbf{N}\\\\\\text{Little Ants Eat Nuts}\\end{gathered}"
+  },
+  {
+    "id": "ch01-gis",
+    "kind": "figure",
+    "title": "GIS: a map in layers",
+    "svg": "<svg viewBox=\"0 0 270 170\" role=\"img\" aria-label=\"Three stacked map layers: rivers, roads, population\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"><path d=\"M40,40L120,20L200,40L120,60Z\"/><path class=\"u\" d=\"M70,40q25,-12 50,0t50,-2\"/><path d=\"M40,85L120,65L200,85L120,105Z\"/><path stroke=\"#E0B400\" d=\"M60,85H180M120,70V100\"/><path d=\"M40,130L120,110L200,130L120,150Z\"/><circle class=\"uf\" cx=\"95\" cy=\"128\" r=\"5\"/><circle class=\"uf\" cx=\"140\" cy=\"124\" r=\"8\"/><circle class=\"uf\" cx=\"118\" cy=\"138\" r=\"3\"/><g font-size=\"13\" fill=\"currentColor\" stroke=\"none\"><text x=\"206\" y=\"44\">rivers</text><text x=\"206\" y=\"89\">roads</text><text x=\"206\" y=\"134\">people</text></g></svg>",
+    "back": "GIS stacks digital map layers (rivers, roads, people) so patterns show up.",
+    "stars": 2
+  },
+  {
+    "id": "ch01-panchamahabhuta",
+    "kind": "mnemonic",
+    "title": "Kshiti, Jal, Pāvak, Gagan, Samīr",
+    "back": "Panchamahābhūtas: earth, water, fire, sky (space), air. Five elements as one connected system: an early systems view of nature.",
+    "stars": 2,
+    "tex": "\\begin{gathered}\\text{Kshiti}\\cdot\\text{Jal}\\cdot\\text{Pāvak}\\\\\\text{Gagan}\\cdot\\text{Samīr}\\end{gathered}",
+    "legend": [
+      "Kshiti = earth",
+      "Jal = water",
+      "Pāvak = fire",
+      "Gagan = sky",
+      "Samīr = air"
+    ]
+  },
+  {
+    "id": "ch01-arthashastra",
+    "kind": "event",
+    "title": "Kauṭilya's Arthaśāstra",
+    "svg": "<svg viewBox=\"0 0 240 150\" role=\"img\" aria-label=\"A palm-leaf manuscript tied with a string\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"><rect x=\"30\" y=\"40\" width=\"180\" height=\"22\" rx=\"10\"/><rect x=\"26\" y=\"64\" width=\"188\" height=\"22\" rx=\"10\" class=\"u\"/><rect x=\"30\" y=\"88\" width=\"180\" height=\"22\" rx=\"10\"/><path stroke=\"#E0B400\" stroke-width=\"2\" d=\"M120,30V122\"/><circle cx=\"120\" cy=\"75\" r=\"5\" fill=\"#E0B400\" stroke=\"none\"/><path d=\"M48,51H100M140,51H190M46,75H100M140,75H194M48,99H100M140,99H190\" stroke-dasharray=\"3 4\"/><text x=\"120\" y=\"142\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">about 2,300 years ago</text></svg>",
+    "back": "Treatise on administration, taxation, the economy and the duties of rulers: an early systematic study of government and economics.",
+    "stars": 3
+  },
+  {
+    "id": "ch01-vasudhaiva",
+    "kind": "event",
+    "title": "Vasudhaiva Kuṭumbakam",
+    "svg": "<svg viewBox=\"0 0 240 150\" role=\"img\" aria-label=\"A globe circled by linked people\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"><circle cx=\"120\" cy=\"75\" r=\"44\"/><ellipse cx=\"120\" cy=\"75\" rx=\"18\" ry=\"44\" class=\"u\"/><path class=\"u\" d=\"M76,75H164M84,52H156M84,98H156\"/><g fill=\"currentColor\" stroke=\"none\"><circle cx=\"120\" cy=\"14\" r=\"6\"/><circle cx=\"182\" cy=\"75\" r=\"6\"/><circle cx=\"120\" cy=\"136\" r=\"6\"/><circle cx=\"58\" cy=\"75\" r=\"6\"/></g><path stroke=\"#E0B400\" stroke-width=\"2\" d=\"M126,16Q176,24 180,69M180,81Q176,126 126,134M114,134Q64,126 60,81M60,69Q64,24 114,16\"/></svg>",
+    "back": "\"The world is one family.\" Societies are interconnected; the idea fits today's globalised world.",
+    "stars": 2
+  },
+  {
+    "id": "ch01-why-study",
+    "kind": "process",
+    "title": "Why study Social Science?",
+    "tex": "\\begin{gathered}\\text{systems}\\\\\\text{empathy}\\\\\\text{citizenship}\\\\\\text{past}\\to\\text{future}\\end{gathered}",
+    "back": "Understand everyday systems · respect diversity · act as an informed citizen · see how past choices shape the future.",
+    "stars": 2
+  }
+]

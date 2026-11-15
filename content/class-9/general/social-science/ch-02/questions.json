@@ -1,0 +1,500 @@
+[
+  {
+    "id": "sst9-02-q01",
+    "chapter": "ch-02",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 3,
+    "label": "NCERT-based",
+    "topic": "Plate boundaries",
+    "stem": "The Himalaya were formed when:",
+    "options": [
+      "two plates moved apart",
+      "the Indian plate collided with the Eurasian plate",
+      "two plates slid past each other",
+      "a volcano erupted under the sea"
+    ],
+    "answer": "B",
+    "hint": "Collision = convergent.",
+    "model_answer": "**(b).** Continent–continent collision at a convergent boundary crumpled the crust into fold mountains."
+  },
+  {
+    "id": "sst9-02-q02",
+    "chapter": "ch-02",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 3,
+    "label": "NCERT-based",
+    "topic": "Earth's interior",
+    "stem": "Which layer of the Earth is liquid?",
+    "options": [
+      "Crust",
+      "Lithosphere",
+      "Outer core",
+      "Inner core"
+    ],
+    "answer": "C",
+    "hint": "Iron and nickel, fluid.",
+    "model_answer": "**(c) Outer core.** The inner core is solid."
+  },
+  {
+    "id": "sst9-02-q03",
+    "chapter": "ch-02",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 2,
+    "label": "NCERT-based",
+    "topic": "Plate boundaries",
+    "stem": "The San Andreas Fault in the USA is an example of a:",
+    "options": [
+      "convergent boundary",
+      "divergent boundary",
+      "transform boundary",
+      "mid-ocean ridge"
+    ],
+    "answer": "C",
+    "hint": "Plates slide past.",
+    "model_answer": "**(c) transform boundary**: frequent earthquakes, crust neither made nor destroyed."
+  },
+  {
+    "id": "sst9-02-q04",
+    "chapter": "ch-02",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 3,
+    "label": "NCERT-based",
+    "topic": "Glaciers",
+    "stem": "A wide, deep valley with a rounded floor, carved by moving ice, is called a:",
+    "options": [
+      "V-shaped valley",
+      "U-shaped valley",
+      "gorge",
+      "floodplain"
+    ],
+    "answer": "B",
+    "hint": "U for ice.",
+    "model_answer": "**(b) U-shaped valley.** Rivers cut V-shaped valleys."
+  },
+  {
+    "id": "sst9-02-q05",
+    "chapter": "ch-02",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 2,
+    "label": "NCERT-based",
+    "topic": "Groundwater",
+    "stem": "In a limestone cave, a column that grows upward from the floor is a:",
+    "options": [
+      "stalactite",
+      "stalagmite",
+      "sinkhole",
+      "yardang"
+    ],
+    "answer": "B",
+    "hint": "G for ground.",
+    "model_answer": "**(b) stalagmite.** Stalactites hang from the ceiling."
+  },
+  {
+    "id": "sst9-02-q06",
+    "chapter": "ch-02",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 2,
+    "label": "NCERT-based",
+    "topic": "Wind",
+    "stem": "A crescent-shaped sand dune is called a:",
+    "options": [
+      "barchan",
+      "moraine",
+      "levee",
+      "cirque"
+    ],
+    "answer": "A",
+    "hint": "Wind deposition.",
+    "model_answer": "**(a) barchan.** Moraines are glacial, levees river deposits, cirques glacial hollows."
+  },
+  {
+    "id": "sst9-02-q07",
+    "chapter": "ch-02",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 2,
+    "label": "NCERT-based",
+    "topic": "Coasts",
+    "stem": "Arrange the stages of coastal erosion of a headland in order: (i) stack (ii) cave (iii) arch",
+    "options": [
+      "(i) → (ii) → (iii)",
+      "(ii) → (iii) → (i)",
+      "(iii) → (ii) → (i)",
+      "(ii) → (i) → (iii)"
+    ],
+    "answer": "B",
+    "hint": "The hollow comes first; the pillar last.",
+    "model_answer": "**(b)** cave → arch → stack."
+  },
+  {
+    "id": "sst9-02-q08",
+    "chapter": "ch-02",
+    "type": "ar",
+    "marks": 1,
+    "stars": 3,
+    "label": "NCERT-based",
+    "topic": "Weathering",
+    "stem": "**Assertion (A):** Weathering is the first step in the formation of soil.<br>**Reason (R):** Weathering carries rock fragments away to other places.",
+    "options": [
+      "Both A and R are true, and R is the correct explanation of A.",
+      "Both A and R are true, but R is not the correct explanation of A.",
+      "A is true, but R is false.",
+      "A is false, but R is true."
+    ],
+    "answer": "C",
+    "hint": "Does weathering move material?",
+    "model_answer": "**(c).** A is true. R is false: weathering breaks rock **in place**; carrying away is erosion."
+  },
+  {
+    "id": "sst9-02-q09",
+    "chapter": "ch-02",
+    "type": "ar",
+    "marks": 1,
+    "stars": 2,
+    "label": "NCERT-based",
+    "topic": "Plate tectonics",
+    "stem": "**Assertion (A):** Most earthquakes and volcanoes occur near plate boundaries.<br>**Reason (R):** Plates collide, separate or slide past each other at their edges.",
+    "options": [
+      "Both A and R are true, and R is the correct explanation of A.",
+      "Both A and R are true, but R is not the correct explanation of A.",
+      "A is true, but R is false.",
+      "A is false, but R is true."
+    ],
+    "answer": "A",
+    "hint": "Where does the action happen?",
+    "model_answer": "**(a).** Movement at the edges releases stress and lets magma rise, so R explains A."
+  },
+  {
+    "id": "sst9-02-q10",
+    "chapter": "ch-02",
+    "type": "ar",
+    "marks": 1,
+    "stars": 2,
+    "label": "NCERT-based",
+    "topic": "Rivers",
+    "stem": "**Assertion (A):** Deltas are very fertile.<br>**Reason (R):** Rivers deposit fine silt at their mouths as they slow down.",
+    "options": [
+      "Both A and R are true, and R is the correct explanation of A.",
+      "Both A and R are true, but R is not the correct explanation of A.",
+      "A is true, but R is false.",
+      "A is false, but R is true."
+    ],
+    "answer": "A",
+    "hint": "What is a delta made of?",
+    "model_answer": "**(a).** Deltas are built of fresh silt, which makes them fertile (and flood-prone)."
+  },
+  {
+    "id": "sst9-02-q11",
+    "chapter": "ch-02",
+    "type": "vsa2",
+    "marks": 2,
+    "stars": 3,
+    "label": "NCERT-based",
+    "topic": "Weathering",
+    "stem": "Distinguish between weathering and erosion.",
+    "hint": "In place, or moved?",
+    "model_answer": "*How much to write: 2–3 lines · 2 minutes*\n\n- <u>Weathering</u> is the <mark>breaking down of rock in place</mark>, without transport, by temperature, frost, chemicals or roots.\n- <u>Erosion</u> is the <u>wearing away and carrying away</u> of rock and soil by running water, wind, glaciers or waves.\n\n:::tip Your answer must contain\n- \"in place\" for weathering\n- \"moved / transported\" for erosion\n:::\n\n**Marks are lost for:** saying weathering carries material away.",
+    "scheme": [
+      {
+        "step": "Weathering: breakdown in place",
+        "marks": 1
+      },
+      {
+        "step": "Erosion: wearing away and transport, with agents",
+        "marks": 1
+      }
+    ]
+  },
+  {
+    "id": "sst9-02-q12",
+    "chapter": "ch-02",
+    "type": "vsa2",
+    "marks": 2,
+    "stars": 2,
+    "label": "NCERT-based",
+    "topic": "Earth's interior",
+    "stem": "What is the lithosphere? How is it related to the asthenosphere?",
+    "hint": "Crust + …; floats on …",
+    "model_answer": "*How much to write: 2–3 lines · 2 minutes*\n\nThe <u>lithosphere</u> is the <mark>rigid crust together with the upper mantle</mark>, about 100 km thick. It is broken into plates that move over the <u>asthenosphere</u>, a hot, partly molten layer below it.\n\n:::tip Your answer must contain\n- crust + upper mantle\n- plates move over the asthenosphere\n:::\n\n**Marks are lost for:** \"lithosphere = crust\" only.",
+    "scheme": [
+      {
+        "step": "Lithosphere = crust + upper mantle, rigid",
+        "marks": 1
+      },
+      {
+        "step": "Plates move over the partly molten asthenosphere",
+        "marks": 1
+      }
+    ]
+  },
+  {
+    "id": "sst9-02-q13",
+    "chapter": "ch-02",
+    "type": "vsa2",
+    "marks": 2,
+    "stars": 2,
+    "label": "NCERT-based",
+    "topic": "Groundwater",
+    "stem": "What is karst topography? Name two landforms found in it.",
+    "hint": "Limestone + water.",
+    "model_answer": "*How much to write: 2 lines · 2 minutes*\n\n<u>Karst topography</u> is a landscape formed when <mark>groundwater dissolves limestone</mark>. Landforms: <u>caves</u>, <u>sinkholes</u>, stalactites, stalagmites, pillars (any two).\n\n:::tip Your answer must contain\n- dissolving of limestone by groundwater\n- two correct landforms\n:::\n\n**Marks are lost for:** giving wind or glacier landforms.",
+    "scheme": [
+      {
+        "step": "Definition: groundwater dissolving limestone",
+        "marks": 1
+      },
+      {
+        "step": "Two karst landforms",
+        "marks": 1
+      }
+    ]
+  },
+  {
+    "id": "sst9-02-q14",
+    "chapter": "ch-02",
+    "type": "sa3",
+    "marks": 3,
+    "stars": 3,
+    "label": "NCERT-based",
+    "topic": "Rivers",
+    "stem": "With a labelled sketch, explain how an oxbow lake is formed.",
+    "hint": "Bend, outer bank, neck, flood.",
+    "model_answer": "<figure class=\"fig\">\n<svg viewBox=\"0 0 300 120\" role=\"img\" aria-label=\"Oxbow lake formation in four stages\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path class=\"u\" d=\"M37,6C37,26 67,26 67,50C67,74 37,74 37,94\"/><g transform=\"translate(75,0)\"><path class=\"u\" d=\"M37,6C37,26 67,26 67,50C67,74 37,74 37,94\"/><path stroke=\"#E0B400\" d=\"M71,40V60\"/></g><g transform=\"translate(150,0)\"><path class=\"u\" d=\"M37,6V40C72,20 74,80 37,60V94\"/></g><g transform=\"translate(225,0)\"><path class=\"u\" d=\"M37,6V94\"/><path stroke=\"#E0B400\" d=\"M45,40C74,24 74,76 45,60\"/></g><g font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\"><text x=\"37\" y=\"114\">bend</text><text x=\"112\" y=\"114\">outer erodes</text><text x=\"187\" y=\"114\">neck</text><text x=\"262\" y=\"114\">oxbow lake</text></g></svg>\n<figcaption>Formation of an oxbow lake.</figcaption>\n</figure>\n\n*How much to write: sketch + 4–5 lines · 5 minutes*\n\n1. In its middle course a river flows in big bends called <u>meanders</u>.\n2. Fast water <u>erodes the outer bank</u> while slow water <u>deposits silt on the inner bank</u>, so the loop grows and its <u>neck narrows</u>.\n3. During a flood the river <mark>cuts through the narrow neck</mark> and takes a straight course; the abandoned loop becomes a crescent-shaped <u>oxbow lake</u>.\n\n:::tip Your answer must contain\n- a labelled sketch (at least 3 stages)\n- erosion outer, deposition inner\n- cut-through of the neck\n:::\n\n**Marks are lost for:** no sketch; skipping why the neck narrows.",
+    "scheme": [
+      {
+        "step": "Labelled sketch of the stages",
+        "marks": 1
+      },
+      {
+        "step": "Erosion on outer bank, deposition on inner bank; neck narrows",
+        "marks": 1
+      },
+      {
+        "step": "River cuts the neck; loop left as oxbow lake",
+        "marks": 1
+      }
+    ]
+  },
+  {
+    "id": "sst9-02-q15",
+    "chapter": "ch-02",
+    "type": "sa3",
+    "marks": 3,
+    "stars": 3,
+    "label": "NCERT-based",
+    "topic": "Weathering",
+    "stem": "Describe the three types of weathering with one example each.",
+    "hint": "Physical, chemical, biological.",
+    "model_answer": "*How much to write: 5–6 lines · 4 minutes*\n\n1. <u>Physical weathering</u>: rock breaks into pieces without changing its minerals, e.g. <u>water freezing in cracks</u> expands and splits the rock; daily heating and cooling in deserts.\n2. <u>Chemical weathering</u>: minerals <mark>change by reacting with water, air or acids</mark>, e.g. rainwater with a little acid dissolving limestone.\n3. <u>Biological weathering</u>: living things break rock, e.g. <u>roots growing in cracks</u> or burrowing animals.\n\n:::tip Your answer must contain\n- all three types named\n- one correct example each\n:::\n\n**Marks are lost for:** examples of erosion (river carrying rock) instead of weathering.",
+    "scheme": [
+      {
+        "step": "Physical weathering with example",
+        "marks": 1
+      },
+      {
+        "step": "Chemical weathering with example",
+        "marks": 1
+      },
+      {
+        "step": "Biological weathering with example",
+        "marks": 1
+      }
+    ]
+  },
+  {
+    "id": "sst9-02-q16",
+    "chapter": "ch-02",
+    "type": "sa3",
+    "marks": 3,
+    "stars": 2,
+    "label": "NCERT-based",
+    "topic": "People",
+    "stem": "\"Landforms influence where and how people live.\" Explain with three examples.",
+    "hint": "Plains, mountains/passes, deserts, coasts.",
+    "model_answer": "*How much to write: 5–6 lines · 4 minutes*\n\n1. <u>River plains</u> have fertile soil and water, so they supported <mark>early farming societies and cities</mark> (Indus, Ganga, Nile plains).\n2. <u>Mountains</u> acted as barriers and protection, while <u>passes</u> such as the Khyber Pass allowed trade and the movement of ideas.\n3. <u>Coasts and harbours</u> supported fishing, trade and cultural contact; <u>deserts</u> limited settlement but encouraged trade routes.\n\n:::tip Your answer must contain\n- three different landforms\n- how each affects settlement or work\n:::\n\n**Marks are lost for:** describing landforms without the human link.",
+    "scheme": [
+      {
+        "step": "First landform and its effect on people",
+        "marks": 1
+      },
+      {
+        "step": "Second landform and effect",
+        "marks": 1
+      },
+      {
+        "step": "Third landform and effect",
+        "marks": 1
+      }
+    ]
+  },
+  {
+    "id": "sst9-02-q17",
+    "chapter": "ch-02",
+    "type": "la5",
+    "marks": 5,
+    "stars": 3,
+    "label": "NCERT-based",
+    "topic": "Plate boundaries",
+    "stem": "What are plate boundaries? Explain the three types of plate boundaries with an example and the landform or event associated with each.",
+    "hint": "Collide, apart, slide.",
+    "model_answer": "<figure class=\"fig\">\n<svg viewBox=\"0 0 300 110\" role=\"img\" aria-label=\"Convergent, divergent and transform boundaries\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.4\"><rect x=\"4\" y=\"50\" width=\"42\" height=\"24\"/><rect x=\"52\" y=\"50\" width=\"42\" height=\"24\"/><path class=\"u\" d=\"M30,50L49,24L68,50\"/><path d=\"M6,40H24M92,40H74\"/><rect x=\"104\" y=\"50\" width=\"40\" height=\"24\"/><rect x=\"156\" y=\"50\" width=\"40\" height=\"24\"/><path class=\"uf\" d=\"M144,74L150,44L156,74Z\"/><path d=\"M140,40H116M160,40H184\"/><rect x=\"208\" y=\"20\" width=\"42\" height=\"56\"/><rect x=\"254\" y=\"20\" width=\"42\" height=\"56\"/><path stroke=\"#E0B400\" stroke-dasharray=\"4 3\" d=\"M252,14V82\"/><path d=\"M229,70V30M275,30V70\"/><g font-size=\"11\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\"><text x=\"49\" y=\"94\">convergent</text><text x=\"150\" y=\"94\">divergent</text><text x=\"252\" y=\"94\">transform</text></g></svg>\n<figcaption>Three plate boundaries.</figcaption>\n</figure>\n\n*How much to write: about 120 words + small sketch · 8 minutes*\n\n<u>Plate boundaries</u> are the edges where two tectonic plates meet; most earthquakes and volcanoes occur here.\n\n1. <u>Convergent boundary</u>: plates <mark>move towards each other</mark>. Continent–continent collision forms <u>fold mountains</u>, e.g. the <u>Himalaya</u> (Indian plate into Eurasian plate). Where an oceanic plate sinks under a continental one, <u>volcanoes and earthquakes</u> occur.\n2. <u>Divergent boundary</u>: plates <u>move apart</u>; magma rises and forms <u>new crust</u>, building mid-ocean ridges, e.g. the <u>Mid-Atlantic Ridge</u>.\n3. <u>Transform boundary</u>: plates <u>slide past each other</u>; crust is neither made nor destroyed, but <u>earthquakes</u> are frequent, e.g. the <u>San Andreas Fault</u>, USA.\n\n:::tip Your answer must contain\n- definition of plate boundary\n- each type: movement + landform/event + example\n:::\n\n**Marks are lost for:** linking the Himalaya to a divergent boundary; missing examples.",
+    "scheme": [
+      {
+        "step": "Definition of plate boundary",
+        "marks": 1
+      },
+      {
+        "step": "Convergent: movement, fold mountains/volcanoes, Himalaya",
+        "marks": 1.5
+      },
+      {
+        "step": "Divergent: movement, new crust, Mid-Atlantic Ridge",
+        "marks": 1.5
+      },
+      {
+        "step": "Transform: sliding, earthquakes, San Andreas",
+        "marks": 1
+      }
+    ]
+  },
+  {
+    "id": "sst9-02-q18",
+    "chapter": "ch-02",
+    "type": "la5",
+    "marks": 5,
+    "stars": 2,
+    "label": "NCERT-based",
+    "topic": "Disasters",
+    "stem": "Explain the causes of landslides. How do human activities make them worse, and what steps can reduce the damage?",
+    "hint": "Natural + human + preparedness.",
+    "model_answer": "*How much to write: about 120 words · 8 minutes*\n\n**Natural causes:** <u>heavy rainfall</u> soaks and loosens soil; <u>earthquakes</u> and volcanic eruptions shake slopes; <u>steep or weak slopes</u> give way easily.\n\n**Human activities that make them worse:** <mark>deforestation</mark> removes roots that bind the soil; <u>mining and road building</u> cut into slopes; <u>unplanned construction</u> and poor drainage overload and soak the hillside.\n\n**Reducing the damage:** <u>map hazard-prone areas</u> and avoid building there; protect vegetation and manage slopes and drainage; use <u>monitoring and early-warning systems</u> with evacuation plans; follow local disaster-management advice and keep emergency supplies.\n\n:::tip Your answer must contain\n- at least two natural causes\n- at least two human factors\n- at least two preparedness steps\n:::\n\n**Marks are lost for:** only natural causes; vague \"take precautions\" without specific steps.",
+    "scheme": [
+      {
+        "step": "Two natural causes",
+        "marks": 2
+      },
+      {
+        "step": "Two human factors",
+        "marks": 1.5
+      },
+      {
+        "step": "Two preparedness steps",
+        "marks": 1.5
+      }
+    ]
+  },
+  {
+    "id": "sst9-02-q19",
+    "chapter": "ch-02",
+    "type": "case",
+    "marks": 4,
+    "stars": 2,
+    "label": "NCERT-based",
+    "topic": "Disasters",
+    "stem": "Read the source and answer the questions.\n\n> *High in the mountains, a glacier has been shrinking for years. Its meltwater now fills a lake held back by a ridge of loose rock and ice. Villagers downstream have noticed the lake growing every summer. Last week an early-warning siren was installed and the district office held an evacuation drill.*",
+    "hint": "What holds the lake, and what could break it?",
+    "parts": [
+      {
+        "id": "i",
+        "stem": "Name the type of disaster the villagers fear.",
+        "marks": 1,
+        "model_answer": "A <u>glacial lake outburst flood (GLOF)</u>.",
+        "scheme": [
+          {
+            "step": "GLOF named",
+            "marks": 1
+          }
+        ]
+      },
+      {
+        "id": "ii",
+        "stem": "State one event that could trigger it.",
+        "marks": 1,
+        "model_answer": "Heavy rain, an earthquake, or an avalanche or landslide falling into the lake (any one).",
+        "scheme": [
+          {
+            "step": "One valid trigger",
+            "marks": 1
+          }
+        ]
+      },
+      {
+        "id": "iii",
+        "stem": "Explain how the two steps in the source help reduce damage.",
+        "marks": 2,
+        "model_answer": "The <u>siren</u> gives early warning so people can leave before the flood arrives; the <u>evacuation drill</u> means people already know the routes and safe places.",
+        "scheme": [
+          {
+            "step": "Siren / early warning explained",
+            "marks": 1
+          },
+          {
+            "step": "Evacuation drill explained",
+            "marks": 1
+          }
+        ]
+      }
+    ],
+    "model_answer": "*How much to write: one line each for (i) and (ii), two lines for (iii) · 5 minutes*\n\n**(i)** A <mark>glacial lake outburst flood (GLOF)</mark>.\n\n**(ii)** <u>Heavy rain</u>, an <u>earthquake</u>, or an avalanche or landslide falling into the lake could break the weak natural dam.\n\n**(iii)** The <u>early-warning siren</u> alerts people in time to move away; the <u>evacuation drill</u> prepares them to leave quickly by known routes.\n\n:::tip Your answer must contain\n- the full name GLOF in (i)\n- two separate explanations in (iii)\n:::\n\n**Marks are lost for:** calling it a landslide; repeating one step twice in (iii)."
+  },
+  {
+    "id": "sst9-02-q20",
+    "chapter": "ch-02",
+    "type": "case",
+    "marks": 4,
+    "stars": 2,
+    "label": "NCERT-based",
+    "topic": "Earth's interior",
+    "stem": "Study the diagram of the Earth's interior described below and answer.\n\n> *A cut-away shows four layers. Layer P is thin and rocky. Layer Q is very thick and mostly solid, but its upper part flows slowly. Layer R is liquid and made mainly of iron and nickel. Layer S at the centre is solid and the densest.*",
+    "hint": "Outside in: crust, mantle, outer core, inner core.",
+    "parts": [
+      {
+        "id": "i",
+        "stem": "Identify layers P and S.",
+        "marks": 1,
+        "model_answer": "P = <u>crust</u>; S = <u>inner core</u>.",
+        "scheme": [
+          {
+            "step": "Both correct",
+            "marks": 1
+          }
+        ]
+      },
+      {
+        "id": "ii",
+        "stem": "How thick is layer P under continents and under oceans?",
+        "marks": 1,
+        "model_answer": "About <u>30–40 km</u> under continents and <u>5–7 km</u> under oceans.",
+        "scheme": [
+          {
+            "step": "Both values",
+            "marks": 1
+          }
+        ]
+      },
+      {
+        "id": "iii",
+        "stem": "The slowly flowing upper part of Q is important for plate tectonics. Explain why.",
+        "marks": 2,
+        "model_answer": "This is the <u>asthenosphere</u>; the rigid lithosphere plates <mark>float and move over it</mark>, carried by convection currents.",
+        "scheme": [
+          {
+            "step": "Names asthenosphere / partly molten layer",
+            "marks": 1
+          },
+          {
+            "step": "Plates move over it, driven by convection",
+            "marks": 1
+          }
+        ]
+      }
+    ],
+    "model_answer": "<figure class=\"fig\">\n<svg viewBox=\"0 0 300 150\" role=\"img\" aria-label=\"Earth interior labelled\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.3\"><path d=\"M10,140A100,100 0 0 1 210,140Z\" class=\"u\" stroke-width=\"2\"/><path d=\"M18,140A92,92 0 0 1 202,140\"/><path d=\"M55,140A55,55 0 0 1 165,140\" fill=\"#E0B400\" fill-opacity=\"0.25\"/><path d=\"M82,140A28,28 0 0 1 138,140Z\" class=\"uf\" fill-opacity=\"0.6\"/><path d=\"M4,140H296\"/><g stroke-dasharray=\"3 3\" stroke-width=\"1\"><path d=\"M194,92L222,70M174,104L222,94M150,122L222,118M120,134L222,140\"/></g><g font-size=\"12\" fill=\"currentColor\" stroke=\"none\"><text x=\"226\" y=\"74\">crust</text><text x=\"226\" y=\"98\">mantle</text><text x=\"226\" y=\"122\">outer core</text><text x=\"226\" y=\"138\">inner core</text></g></svg>\n<figcaption>Layers of the Earth (not to scale).</figcaption>\n</figure>\n\n*How much to write: one line each for (i) and (ii), two lines for (iii) · 5 minutes*\n\n**(i)** P = <u>crust</u>; S = <u>inner core</u>.\n\n**(ii)** About <u>30–40 km</u> under continents, <u>5–7 km</u> under oceans.\n\n**(iii)** The flowing part is the <mark>asthenosphere</mark>. The rigid lithospheric plates rest on it and are <u>carried along by convection currents</u>, so plates can move.\n\n:::tip Your answer must contain\n- both layers in (i)\n- both thicknesses in (ii)\n- \"asthenosphere\" and plate movement in (iii)\n:::\n\n**Marks are lost for:** calling R the inner core; one thickness only."
+  }
+]

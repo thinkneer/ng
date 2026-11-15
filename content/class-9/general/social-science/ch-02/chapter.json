@@ -1,0 +1,11 @@
+{
+  "$schema": "../../../../../schemas/chapter.schema.json",
+  "id": "ch-02",
+  "number": 2,
+  "title": "Shaping of the Earth's Surface",
+  "unit": "geo",
+  "marks_hint": "Geography (placeholder 20 marks, shared by Ch 2, 3, 10, 11); landforms and plate boundaries are favourite 3- and 5-mark questions (estimate)",
+  "summary": "Internal and external forces · Earth's interior · plate tectonics and plate boundaries · earthquakes, volcanoes, Ring of Fire · weathering and erosion · landforms of rivers, waves, glaciers, wind, groundwater · landforms and people · landslides, avalanches, GLOFs",
+  "status": { "notes": "ready", "mustknow": "ready", "formulas": "ready", "questions": "ready" },
+  "updated": "2026-11-15"
+}

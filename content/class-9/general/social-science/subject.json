@@ -1,0 +1,86 @@
+{
+  "$schema": "../../../../schemas/subject.schema.json",
+  "id": "social-science",
+  "name": "Social Science",
+  "code": "087",
+  "class": "9",
+  "stream": "general",
+  "syllabus_year": "2026-27",
+  "theory_marks": 80,
+  "internal_marks": 20,
+  "internal_note": "Internal assessment 20 (set by the school): periodic tests, notebook / portfolio and subject enrichment activities such as projects, map work and field studies.",
+  "duration_minutes": 180,
+  "colour": "8A4B2A",
+  "units": [
+    {
+      "id": "intro",
+      "name": "Foundations",
+      "colour": "5A6B7B",
+      "marks": 0,
+      "chapters": [
+        { "id": "ch-01", "number": 1, "title": "Understanding Social Science" }
+      ]
+    },
+    {
+      "id": "geo",
+      "name": "Geography",
+      "colour": "1E7B4F",
+      "marks": 20,
+      "chapters": [
+        { "id": "ch-02", "number": 2, "title": "Shaping of the Earth's Surface" },
+        { "id": "ch-03", "number": 3, "title": "Atmosphere and Climate" },
+        { "id": "ch-10", "number": 10, "title": "Oceans and Life" },
+        { "id": "ch-11", "number": 11, "title": "Life on Earth" }
+      ]
+    },
+    {
+      "id": "his",
+      "name": "History",
+      "colour": "A4512B",
+      "marks": 20,
+      "chapters": [
+        { "id": "ch-04", "number": 4, "title": "Early Humans and Beginning of Civilisation" },
+        { "id": "ch-05", "number": 5, "title": "State and Society up to 1000 CE" },
+        { "id": "ch-12", "number": 12, "title": "Resistance and Resilience: 1000–1700 CE" }
+      ]
+    },
+    {
+      "id": "pol",
+      "name": "Political Science",
+      "colour": "2F5DA8",
+      "marks": 20,
+      "chapters": [
+        { "id": "ch-06", "number": 6, "title": "Democracy" },
+        { "id": "ch-07", "number": 7, "title": "Elections" },
+        { "id": "ch-13", "number": 13, "title": "Governance and Public Policy" }
+      ]
+    },
+    {
+      "id": "eco",
+      "name": "Economics",
+      "colour": "8C6400",
+      "marks": 20,
+      "chapters": [
+        { "id": "ch-08", "number": 8, "title": "Building Blocks in Economics: The Problem of Choice" },
+        { "id": "ch-09", "number": 9, "title": "The Price Puzzle: What Drives the Market" },
+        { "id": "ch-14", "number": 14, "title": "Managing Your Personal Finances" },
+        { "id": "ch-15", "number": 15, "title": "From Ideas to Startups" }
+      ]
+    }
+  ],
+  "not_in_syllabus": [
+    "The French Revolution (old book; replaced from 2026-27)",
+    "Socialism in Europe and the Russian Revolution (old book)",
+    "Nazism and the Rise of Hitler (old book)",
+    "Forest Society and Colonialism (old book)",
+    "Pastoralists in the Modern World (old book)",
+    "India – Size and Location, Physical Features of India, Drainage, Climate (of India), Natural Vegetation and Wildlife, Population (old Contemporary India – I)",
+    "What is Democracy? Why Democracy?, Constitutional Design, Electoral Politics, Working of Institutions, Democratic Rights (old Democratic Politics – I)",
+    "The Story of Village Palampur, People as Resource, Poverty as a Challenge, Food Security in India (old Economics book)"
+  ],
+  "content_note": "Book: NCERT 'Understanding Society: India and Beyond' (new from 2026-27), Part 1 = chapters 1–9, Part 2 = chapters 10–15 here (book numbers 1–6). Class 9 has no board exam: the annual exam (80 marks, 3 hours) is set by the school on the CBSE syllabus. CBSE had not published theme-wise marks when this was written; the 20-per-discipline split is a placeholder from earlier years. Recheck cbseacademic.nic.in.",
+  "links": {
+    "NCERT textbooks": "https://ncert.nic.in/textbook.php",
+    "CBSE curriculum": "https://cbseacademic.nic.in/"
+  }
+}

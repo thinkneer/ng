@@ -1,0 +1,122 @@
+[
+  {
+    "id": "ch02-earth-layers",
+    "kind": "figure",
+    "title": "The Earth's interior",
+    "svg": "ref: notes#ch02-earth-layers",
+    "back": "Crust (30–40 km land, 5–7 km ocean) → mantle → liquid outer core → solid inner core. Lithosphere = crust + upper mantle.",
+    "stars": 3,
+    "tags": [
+      "diagram"
+    ]
+  },
+  {
+    "id": "ch02-layers-trick",
+    "kind": "mnemonic",
+    "title": "Cold Milk, Orange Ice-cream",
+    "tex": "\\begin{gathered}\\textbf{C}\\to\\textbf{M}\\to\\textbf{O}\\to\\textbf{I}\\end{gathered}",
+    "legend": [
+      "C = crust",
+      "M = mantle",
+      "O = outer core",
+      "I = inner core"
+    ],
+    "back": "Outside in: crust, mantle, outer core (liquid), inner core (solid)."
+  },
+  {
+    "id": "ch02-convection",
+    "kind": "process",
+    "title": "What moves the plates",
+    "svg": "ref: notes#ch02-convection",
+    "back": "Core heat → hot mantle rises → spreads → cools and sinks: convection currents drag plates a few cm a year.",
+    "stars": 2
+  },
+  {
+    "id": "ch02-boundaries",
+    "kind": "figure",
+    "title": "Three plate boundaries",
+    "svg": "ref: notes#ch02-boundaries",
+    "back": "Convergent: collide (Himalaya) · Divergent: apart, new crust (Mid-Atlantic Ridge) · Transform: slide past (San Andreas).",
+    "stars": 3,
+    "tags": [
+      "diagram",
+      "5-mark"
+    ]
+  },
+  {
+    "id": "ch02-ring-of-fire",
+    "kind": "event",
+    "title": "The Ring of Fire",
+    "svg": "<svg viewBox=\"0 0 240 150\" role=\"img\" aria-label=\"The Pacific Ocean ringed by volcano symbols\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"><ellipse cx=\"120\" cy=\"75\" rx=\"80\" ry=\"55\" class=\"u\"/><text x=\"120\" y=\"80\" font-size=\"13\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\">Pacific</text><g fill=\"#E0B400\" stroke=\"none\"><path d=\"M40,60l6,-12l6,12z\"/><path d=\"M60,28l6,-12l6,12z\"/><path d=\"M100,18l6,-12l6,12z\"/><path d=\"M150,18l6,-12l6,12z\"/><path d=\"M188,40l6,-12l6,12z\"/><path d=\"M200,86l6,-12l6,12z\"/><path d=\"M180,126l6,-12l6,12z\"/><path d=\"M120,140l6,-12l6,12z\"/><path d=\"M58,124l6,-12l6,12z\"/><path d=\"M30,96l6,-12l6,12z\"/></g></svg>",
+    "back": "Belt of frequent earthquakes and volcanoes around the Pacific Ocean, along plate boundaries.",
+    "stars": 2
+  },
+  {
+    "id": "ch02-weathering-vs-erosion",
+    "kind": "compare",
+    "title": "Weathering vs erosion",
+    "tex": "\\begin{gathered}\\text{breaks in place}\\\\\\text{vs}\\\\\\text{breaks and moves}\\end{gathered}",
+    "back": "Weathering: physical, chemical, biological; starts soil. Erosion: running water, wind, glaciers, waves carry material away.",
+    "stars": 3
+  },
+  {
+    "id": "ch02-oxbow",
+    "kind": "process",
+    "title": "How an oxbow lake forms",
+    "svg": "ref: notes#ch02-oxbow",
+    "back": "Bend → outer bank eroded, inner bank deposited → neck narrows → river cuts through in a flood, loop left as an oxbow lake.",
+    "stars": 3,
+    "tags": [
+      "diagram",
+      "3-mark"
+    ]
+  },
+  {
+    "id": "ch02-coast",
+    "kind": "process",
+    "title": "Cave → arch → stack",
+    "svg": "ref: notes#ch02-coast",
+    "back": "Waves hollow a cave in a headland, caves break through as an arch, the arch roof collapses leaving a stack.",
+    "stars": 2
+  },
+  {
+    "id": "ch02-v-u",
+    "kind": "compare",
+    "title": "River valley vs glacial valley",
+    "svg": "<svg viewBox=\"0 0 260 130\" role=\"img\" aria-label=\"V-shaped river valley beside a U-shaped glacial valley\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"><path d=\"M10,20L60,100L110,20\"/><path class=\"u\" d=\"M150,20V60Q150,100 200,100Q250,100 250,60V20\"/><path stroke=\"#E0B400\" d=\"M56,96Q60,90 64,96\"/><g font-size=\"13\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\"><text x=\"60\" y=\"122\">river: V</text><text x=\"200\" y=\"122\">glacier: U</text></g></svg>",
+    "back": "Rivers cut narrow V-shaped valleys; glaciers grind wide U-shaped valleys and leave moraines.",
+    "stars": 3
+  },
+  {
+    "id": "ch02-karst",
+    "kind": "figure",
+    "title": "Inside a karst cave",
+    "svg": "ref: notes#ch02-karst",
+    "back": "Groundwater dissolves limestone: sinkholes, caves, stalactites (ceiling), stalagmites (ground), pillars. Borra Caves, Meghalaya.",
+    "stars": 2
+  },
+  {
+    "id": "ch02-stalactite",
+    "kind": "mnemonic",
+    "title": "Stalactite or stalagmite?",
+    "tex": "\\begin{gathered}\\text{stala}\\textbf{C}\\text{tite}=\\textbf{C}\\text{eiling}\\\\\\text{stala}\\textbf{G}\\text{mite}=\\textbf{G}\\text{round}\\end{gathered}",
+    "back": "They grow drop by drop and join as a pillar.",
+    "stars": 2
+  },
+  {
+    "id": "ch02-glof",
+    "kind": "process",
+    "title": "How a GLOF happens",
+    "svg": "ref: notes#ch02-glof",
+    "back": "Glacier melts → lake behind a weak debris dam → dam bursts (rain, quake, landslide) → sudden flood downstream.",
+    "stars": 2
+  },
+  {
+    "id": "ch02-conservation",
+    "kind": "process",
+    "title": "Saving soil on a slope",
+    "tex": "\\begin{gathered}\\text{contouring}\\\\\\text{bunding}\\\\\\text{terracing}\\\\\\text{check dams}\\end{gathered}",
+    "back": "Hold rainwater, slow runoff, trap sediment, recharge groundwater. Nagaland's Zabo system uses earthen bunds.",
+    "stars": 2
+  }
+]

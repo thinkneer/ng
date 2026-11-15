@@ -1,0 +1,22 @@
+{
+  "$schema": "../../../schemas/pattern.schema.json",
+  "class": "9",
+  "subject": "social-science",
+  "syllabus_year": "2026-27",
+  "source": "Provisional. CBSE had not published a Class 9 Social Science question paper design for the new 2026-27 book (checked 15 Nov 2026); this follows the usual CBSE Social Science layout (as in the Class 10 sample paper). Schools set the annual paper, so check your school's blueprint.",
+  "total_marks": 80,
+  "duration_minutes": 180,
+  "reading_time_minutes": 15,
+  "sections": [
+    { "id": "A", "name": "Section A", "count": 20, "marks_each": 1, "types": ["mcq", "ar"], "mix": { "mcq": 16, "ar": 4 }, "internal_choice": 0 },
+    { "id": "B", "name": "Section B", "count": 4, "marks_each": 2, "types": ["vsa2"], "internal_choice": 2, "note": "Very short answers, about 40 words." },
+    { "id": "C", "name": "Section C", "count": 5, "marks_each": 3, "types": ["sa3"], "internal_choice": 2, "note": "Short answers, about 60 words." },
+    { "id": "D", "name": "Section D", "count": 5, "marks_each": 5, "types": ["la5"], "internal_choice": 5, "note": "Long answers, about 120 words. Many schools set one of these as a 5-mark map question (outline map of India or the world)." },
+    { "id": "E", "name": "Section E", "count": 3, "marks_each": 4, "types": ["case"], "internal_choice": 0, "note": "Case / source-based, with parts." }
+  ],
+  "notes": [
+    "All questions compulsory; internal choices as marked.",
+    "A–R uses the standard four options.",
+    "Provisional pattern: replace with CBSE's design when it is published."
+  ]
+}

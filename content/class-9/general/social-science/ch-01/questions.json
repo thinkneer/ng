@@ -1,0 +1,420 @@
+[
+  {
+    "id": "sst9-01-q01",
+    "chapter": "ch-01",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 3,
+    "label": "NCERT-based",
+    "topic": "Definition",
+    "stem": "Which statement best describes Social Science?",
+    "options": [
+      "The study of plants, animals and their environment",
+      "The systematic study of human society",
+      "A list of important dates and events",
+      "The study of matter and energy"
+    ],
+    "answer": "B",
+    "hint": "One key word: systematic.",
+    "model_answer": "**(b).** Social Science is the systematic study of human society; it explains why and how, not only what happened."
+  },
+  {
+    "id": "sst9-01-q02",
+    "chapter": "ch-01",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 3,
+    "label": "NCERT-based",
+    "topic": "Sources",
+    "stem": "A historian studying the metal, symbols and names on old coins is using:",
+    "options": [
+      "epigraphic sources",
+      "literary sources",
+      "numismatic sources",
+      "genealogical records"
+    ],
+    "answer": "C",
+    "hint": "Coins have their own name.",
+    "model_answer": "**(c) numismatic sources.** Inscriptions would be epigraphic."
+  },
+  {
+    "id": "sst9-01-q03",
+    "chapter": "ch-01",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 3,
+    "label": "NCERT-based",
+    "topic": "Indian traditions",
+    "stem": "The Arthaśāstra, a treatise on administration, taxation and the duties of rulers, is attributed to:",
+    "options": [
+      "Varahamihira",
+      "Kauṭilya",
+      "Aryabhata",
+      "Kalidasa"
+    ],
+    "answer": "B",
+    "hint": "Also known as Chanakya.",
+    "model_answer": "**(b) Kauṭilya**, about 2,300 years ago."
+  },
+  {
+    "id": "sst9-01-q04",
+    "chapter": "ch-01",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 2,
+    "label": "NCERT-based",
+    "topic": "Tools",
+    "stem": "Which tool builds a digital map in layers, such as rivers, roads and population?",
+    "options": [
+      "Atlas",
+      "Globe",
+      "GIS",
+      "Infographic"
+    ],
+    "answer": "C",
+    "hint": "Geographic Information …",
+    "model_answer": "**(c) GIS**, Geographic Information Systems."
+  },
+  {
+    "id": "sst9-01-q05",
+    "chapter": "ch-01",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 2,
+    "label": "NCERT-based",
+    "topic": "Sources",
+    "stem": "Which of these is an epigraphic source?",
+    "options": [
+      "A copper coin of a king",
+      "An order carved on a stone pillar",
+      "A traveller's diary",
+      "A clay pot from an excavation"
+    ],
+    "answer": "B",
+    "hint": "Writing *on* stone or metal.",
+    "model_answer": "**(b).** Inscriptions are epigraphic; the coin is numismatic, the diary literary, the pot archaeological."
+  },
+  {
+    "id": "sst9-01-q06",
+    "chapter": "ch-01",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 2,
+    "label": "NCERT-based",
+    "topic": "Indian traditions",
+    "stem": "The idea of the Panchamahābhūtas sees nature as:",
+    "options": [
+      "four seasons in a cycle",
+      "five connected elements: earth, water, fire, air and space",
+      "the world as one family",
+      "the duty of a ruler"
+    ],
+    "answer": "B",
+    "hint": "Kshiti, Jal, Pāvak …",
+    "model_answer": "**(b).** It is an early systems view of nature. \"The world is one family\" is Vasudhaiva Kuṭumbakam."
+  },
+  {
+    "id": "sst9-01-q07",
+    "chapter": "ch-01",
+    "type": "ar",
+    "marks": 1,
+    "stars": 3,
+    "label": "NCERT-based",
+    "topic": "Disciplines",
+    "stem": "**Assertion (A):** A drought is studied by more than one social science discipline.<br>**Reason (R):** Each discipline looks at the same reality from its own angle.",
+    "options": [
+      "Both A and R are true, and R is the correct explanation of A.",
+      "Both A and R are true, but R is not the correct explanation of A.",
+      "A is true, but R is false.",
+      "A is false, but R is true."
+    ],
+    "answer": "A",
+    "hint": "Rain, past droughts, relief, prices.",
+    "model_answer": "**(a).** Geography, History, Political Science and Economics each explain a different side of the drought, so R explains A."
+  },
+  {
+    "id": "sst9-01-q08",
+    "chapter": "ch-01",
+    "type": "ar",
+    "marks": 1,
+    "stars": 2,
+    "label": "NCERT-based",
+    "topic": "Sources",
+    "stem": "**Assertion (A):** Carbon-14 dating is useful to historians.<br>**Reason (R):** Carbon-14 dating tells us the name of the ruler who made an object.",
+    "options": [
+      "Both A and R are true, and R is the correct explanation of A.",
+      "Both A and R are true, but R is not the correct explanation of A.",
+      "A is true, but R is false.",
+      "A is false, but R is true."
+    ],
+    "answer": "C",
+    "hint": "What does the method actually measure?",
+    "model_answer": "**(c).** A is true: it gives the age of old remains. R is false: it cannot tell names; inscriptions or coins might."
+  },
+  {
+    "id": "sst9-01-q09",
+    "chapter": "ch-01",
+    "type": "vsa2",
+    "marks": 2,
+    "stars": 3,
+    "label": "NCERT-based",
+    "topic": "Definition",
+    "stem": "Distinguish between the natural sciences and Social Science.",
+    "hint": "What does each study? Give examples.",
+    "model_answer": "*How much to write: 2–3 lines · 2 minutes*\n\n- The <u>natural sciences</u> (Physics, Chemistry, Biology) study the <u>natural world</u>: matter, energy and living things.\n- <mark>Social Science studies human society</mark>: its <u>institutions, cultures and interactions</u> (Geography, History, Political Science, Economics).\n\n:::tip Your answer must contain\n- what each studies\n- one example of each\n:::\n\n**Marks are lost for:** writing only the examples without saying what each studies.",
+    "scheme": [
+      {
+        "step": "Natural sciences study the natural world, with example",
+        "marks": 1
+      },
+      {
+        "step": "Social Science studies society, institutions, cultures, with example",
+        "marks": 1
+      }
+    ]
+  },
+  {
+    "id": "sst9-01-q10",
+    "chapter": "ch-01",
+    "type": "vsa2",
+    "marks": 2,
+    "stars": 2,
+    "label": "NCERT-based",
+    "topic": "Indian traditions",
+    "stem": "What does Vasudhaiva Kuṭumbakam mean? Why is the idea relevant today?",
+    "hint": "Family; globalised world.",
+    "model_answer": "*How much to write: 2–3 lines · 2 minutes*\n\n<u>Vasudhaiva Kuṭumbakam</u> means <mark>\"the world is one family\"</mark>. It is relevant today because societies are <u>interconnected</u> through trade, travel, technology and shared problems like climate change, so we must think and act together.\n\n:::tip Your answer must contain\n- the meaning: world as one family\n- one reason it fits today (interconnected world)\n:::\n\n**Marks are lost for:** confusing it with the Panchamahābhūtas.",
+    "scheme": [
+      {
+        "step": "Meaning: the world is one family",
+        "marks": 1
+      },
+      {
+        "step": "Relevance: interconnected societies today, with an example",
+        "marks": 1
+      }
+    ]
+  },
+  {
+    "id": "sst9-01-q11",
+    "chapter": "ch-01",
+    "type": "vsa2",
+    "marks": 2,
+    "stars": 2,
+    "label": "NCERT-based",
+    "topic": "Tools",
+    "stem": "Name any two tools a geographer uses and state the use of each.",
+    "hint": "Maps, globes, atlases, GIS …",
+    "model_answer": "*How much to write: 2 lines · 2 minutes*\n\n1. <u>Map / atlas</u>: shows where places and features are, so <mark>distributions and patterns</mark> can be seen.\n2. <u>GIS</u> (Geographic Information Systems): builds <u>digital maps in layers</u> (roads, rivers, population) to study how they relate.\n\n:::tip Your answer must contain\n- two named tools\n- a use for each\n:::\n\n**Marks are lost for:** naming tools without a use.",
+    "scheme": [
+      {
+        "step": "First tool with its use",
+        "marks": 1
+      },
+      {
+        "step": "Second tool with its use",
+        "marks": 1
+      }
+    ]
+  },
+  {
+    "id": "sst9-01-q12",
+    "chapter": "ch-01",
+    "type": "sa3",
+    "marks": 3,
+    "stars": 3,
+    "label": "NCERT-based",
+    "topic": "Everyday life",
+    "stem": "\"Social Science is part of our everyday life.\" Support the statement with three examples.",
+    "hint": "House, food, road, school, electricity.",
+    "model_answer": "*How much to write: 5–6 lines · 4 minutes*\n\nSocial Science studies the people, places and decisions behind ordinary things:\n\n1. <u>Food</u> reaches our plate through many hands: farmers grow it, mills process it, trucks move it, shops sell it. Who earns what is an <mark>economic</mark> question.\n2. <u>Roads</u> outside our homes are planned, funded and repaired by <u>public authorities</u>: a question of government and decision-making.\n3. <u>Schools</u> run on <u>education policies</u> made by governments; <u>electricity</u> comes from distant power stations through a large network.\n\nSo understanding daily life needs Social Science.\n\n:::tip Your answer must contain\n- three different everyday examples\n- for each, the people, place or decision behind it\n:::\n\n**Marks are lost for:** listing objects without explaining the social process behind them.",
+    "scheme": [
+      {
+        "step": "First example with the social process behind it",
+        "marks": 1
+      },
+      {
+        "step": "Second example explained",
+        "marks": 1
+      },
+      {
+        "step": "Third example explained",
+        "marks": 1
+      }
+    ]
+  },
+  {
+    "id": "sst9-01-q13",
+    "chapter": "ch-01",
+    "type": "sa3",
+    "marks": 3,
+    "stars": 3,
+    "label": "NCERT-based",
+    "topic": "Sources",
+    "stem": "Explain three kinds of sources historians use, giving an example of each.",
+    "hint": "L, A, E, N …",
+    "model_answer": "<figure class=\"fig\">\n<svg viewBox=\"0 0 300 96\" role=\"img\" aria-label=\"Three source types with examples\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.3\"><rect x=\"4\" y=\"6\" width=\"92\" height=\"84\" rx=\"8\"/><rect x=\"104\" y=\"6\" width=\"92\" height=\"84\" rx=\"8\"/><rect x=\"204\" y=\"6\" width=\"92\" height=\"84\" rx=\"8\"/><g font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\"><text x=\"50\" y=\"30\" font-weight=\"bold\">Literary</text><text x=\"50\" y=\"56\">texts,</text><text x=\"50\" y=\"72\">travelogues</text><text x=\"150\" y=\"30\" font-weight=\"bold\">Epigraphic</text><text x=\"150\" y=\"56\">inscriptions</text><text x=\"150\" y=\"72\">on pillars</text><text x=\"250\" y=\"30\" font-weight=\"bold\">Numismatic</text><text x=\"250\" y=\"56\">coins</text></g></svg>\n<figcaption>Three kinds of historical source.</figcaption>\n</figure>\n\n*How much to write: 5–6 lines · 4 minutes*\n\n1. <u>Literary sources</u>: written or spoken texts such as books, <u>travelogues</u>, memoirs, folklore and revenue records.\n2. <u>Archaeological sources</u>: material remains such as <u>monuments, tools and pottery</u> found at sites.\n3. <u>Epigraphic sources</u>: <mark>inscriptions</mark> carved on rocks, pillars or copper plates.\n\n(Also accepted: <u>numismatic</u> sources, i.e. coins; scientific methods like carbon-14 dating.)\n\n:::tip Your answer must contain\n- three named source types\n- one correct example each\n:::\n\n**Marks are lost for:** calling coins epigraphic or inscriptions numismatic.",
+    "scheme": [
+      {
+        "step": "First source type with example",
+        "marks": 1
+      },
+      {
+        "step": "Second source type with example",
+        "marks": 1
+      },
+      {
+        "step": "Third source type with example",
+        "marks": 1
+      }
+    ]
+  },
+  {
+    "id": "sst9-01-q14",
+    "chapter": "ch-01",
+    "type": "sa3",
+    "marks": 3,
+    "stars": 2,
+    "label": "NCERT-based",
+    "topic": "Indian traditions",
+    "stem": "How do Indian knowledge traditions show early systematic thinking about society and nature? Explain with three examples.",
+    "hint": "Five elements; one family; a treatise on government.",
+    "model_answer": "*How much to write: 5–6 lines · 4 minutes*\n\n1. <u>Panchamahābhūtas</u>: nature seen as five connected elements (earth, water, fire, air, space), an early <mark>systems view</mark> of the environment.\n2. <u>Vasudhaiva Kuṭumbakam</u>: \"the world is one family\", recognising that <u>societies are interconnected</u>.\n3. <u>Kauṭilya's Arthaśāstra</u> (about 2,300 years ago): a systematic treatise on <u>administration, taxation, the economy and duties of rulers</u>.\n\nAll three show observation, questioning and reasoning about society.\n\n:::tip Your answer must contain\n- three traditions named correctly\n- what each shows about systematic thinking\n:::\n\n**Marks are lost for:** naming the traditions without explaining what each shows.",
+    "scheme": [
+      {
+        "step": "Panchamahābhūtas explained",
+        "marks": 1
+      },
+      {
+        "step": "Vasudhaiva Kuṭumbakam explained",
+        "marks": 1
+      },
+      {
+        "step": "Arthaśāstra with author and content",
+        "marks": 1
+      }
+    ]
+  },
+  {
+    "id": "sst9-01-q15",
+    "chapter": "ch-01",
+    "type": "la5",
+    "marks": 5,
+    "stars": 3,
+    "label": "NCERT-based",
+    "topic": "Disciplines",
+    "stem": "\"Social Science is not one subject but a group of disciplines.\" Explain how the four core disciplines would each study a drought, and why combining them matters.",
+    "hint": "One point per discipline + why together.",
+    "model_answer": "*How much to write: about 120 words (10–12 lines) · 8 minutes*\n\n<figure class=\"fig\">\n<svg viewBox=\"0 0 300 120\" role=\"img\" aria-label=\"Drought at the centre with four disciplines\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.3\"><circle cx=\"150\" cy=\"60\" r=\"26\" stroke=\"#E0B400\" stroke-width=\"2\"/><path d=\"M126,50L98,30M174,50L202,30M126,70L98,90M174,70L202,90\"/><g font-size=\"12\" fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\"><text x=\"150\" y=\"64\" font-weight=\"bold\">Drought</text><text x=\"55\" y=\"28\">Geography</text><text x=\"245\" y=\"28\">History</text><text x=\"55\" y=\"100\">Political Sci.</text><text x=\"245\" y=\"100\">Economics</text></g></svg>\n<figcaption>One event, four lenses.</figcaption>\n</figure>\n\nSociety is <u>complex</u>, so each discipline studies one side of it.\n\n1. <u>Geography</u> asks which areas received too little rain and how <u>soil and water sources</u> were affected.\n2. <u>History</u> asks whether droughts happened before and how people responded, for example through <u>migration</u>.\n3. <u>Political Science</u> asks what <u>relief</u> the government gave and who took the decisions.\n4. <u>Economics</u> studies <u>crop failure, rising food prices</u> and falling farm incomes and jobs.\n\n<mark>Only together do they give a complete, holistic picture</mark> and help plan a proper response.\n\n:::tip Your answer must contain\n- one correct angle for each of the four disciplines\n- why combining them matters (holistic picture)\n:::\n\n**Marks are lost for:** describing the drought without linking each point to a discipline.",
+    "scheme": [
+      {
+        "step": "Geography angle",
+        "marks": 1
+      },
+      {
+        "step": "History angle",
+        "marks": 1
+      },
+      {
+        "step": "Political Science angle",
+        "marks": 1
+      },
+      {
+        "step": "Economics angle",
+        "marks": 1
+      },
+      {
+        "step": "Combining gives a holistic picture",
+        "marks": 1
+      }
+    ]
+  },
+  {
+    "id": "sst9-01-q16",
+    "chapter": "ch-01",
+    "type": "la5",
+    "marks": 5,
+    "stars": 2,
+    "label": "NCERT-based",
+    "topic": "Why study",
+    "stem": "Why should a Class 9 student study Social Science? Give five reasons.",
+    "hint": "Systems, empathy, citizen, past–future, today's issues.",
+    "model_answer": "*How much to write: about 120 words · 8 minutes*\n\nSocial Science is the systematic study of human society, and it helps us:\n\n1. <u>Understand everyday systems</u>: prices, laws, elections and news make sense.\n2. <u>Build empathy</u>: India is diverse, and we learn to understand lives unlike our own.\n3. <mark>Become informed citizens in a democracy</mark>: voting and taking part in local decisions need knowledge.\n4. <u>Connect past, present and future</u>: past choices shape today, and today's shape tomorrow.\n5. <u>Face today's challenges</u> such as climate change, migration and new technology, using observation, questioning and evidence.\n\n:::tip Your answer must contain\n- five distinct reasons, each explained in a line\n:::\n\n**Marks are lost for:** repeating one reason in different words.",
+    "scheme": [
+      {
+        "step": "Everyday systems",
+        "marks": 1
+      },
+      {
+        "step": "Empathy and diversity",
+        "marks": 1
+      },
+      {
+        "step": "Informed democratic citizen",
+        "marks": 1
+      },
+      {
+        "step": "Past–present–future link",
+        "marks": 1
+      },
+      {
+        "step": "Today's issues and evidence-based thinking",
+        "marks": 1
+      }
+    ]
+  },
+  {
+    "id": "sst9-01-q17",
+    "chapter": "ch-01",
+    "type": "case",
+    "marks": 4,
+    "stars": 2,
+    "label": "NCERT-based",
+    "topic": "Disciplines",
+    "stem": "Read the source and answer the questions.\n\n> *Rampur's wells dried up for the second summer running. The gram sabha met under the banyan tree and voted to build a check dam on the stream. The sarpanch said the money would come from a state water scheme. Old farmers recalled a similar dry spell forty years ago, when many families left for the city. This year, the price of fodder has doubled.*",
+    "hint": "Match each line of the story to a lens.",
+    "parts": [
+      {
+        "id": "i",
+        "stem": "Which discipline would study the gram sabha's vote and the state water scheme?",
+        "marks": 1,
+        "model_answer": "**Political Science**: decision-making and government policy.",
+        "scheme": [
+          {
+            "step": "Political Science",
+            "marks": 1
+          }
+        ]
+      },
+      {
+        "id": "ii",
+        "stem": "Which detail in the source would interest a historian? Why?",
+        "marks": 1,
+        "model_answer": "The dry spell <u>forty years ago</u> and families leaving for the city: it shows change and migration over time.",
+        "scheme": [
+          {
+            "step": "Past dry spell / migration identified with reason",
+            "marks": 1
+          }
+        ]
+      },
+      {
+        "id": "iii",
+        "stem": "Give two points an economist would study in this village.",
+        "marks": 2,
+        "model_answer": "(1) Fodder price has <u>doubled</u>, so the cost of keeping animals rises. (2) Farm incomes fall as wells dry up; the <u>cost of the check dam</u> and who pays for it.",
+        "scheme": [
+          {
+            "step": "First economic point",
+            "marks": 1
+          },
+          {
+            "step": "Second economic point",
+            "marks": 1
+          }
+        ]
+      }
+    ],
+    "model_answer": "*How much to write: one line for (i) and (ii), two lines for (iii) · 5 minutes*\n\n**(i)** <u>Political Science</u>: the gram sabha's vote and the state scheme are about <mark>decision-making and government policy</mark>.\n\n**(ii)** The <u>dry spell forty years ago</u> when families migrated to the city: it shows change over time.\n\n**(iii)** (1) The <u>price of fodder doubled</u>, raising costs for farmers. (2) <u>Falling farm incomes</u> as wells dry up, and the cost of the check dam.\n\n:::tip Your answer must contain\n- the discipline named in (i)\n- a reason in (ii)\n- two separate economic points in (iii)\n:::\n\n**Marks are lost for:** naming Geography in (i); giving one point twice in (iii)."
+  }
+]

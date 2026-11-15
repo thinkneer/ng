@@ -1,4 +1,64 @@
 {
+ "social-science/ch-01": [
+  {
+   "id": "ch01-ghpe",
+   "title": "The four core disciplines",
+   "trick": "**G**ood **H**abits **P**ay **E**veryday",
+   "meaning": [
+    "**G**eography · **H**istory · **P**olitical Science · **E**conomics.",
+    "Where, when, who decides, and with what resources."
+   ],
+   "prompt": "Name the four core disciplines of Social Science in Classes 9–10."
+  },
+  {
+   "id": "ch01-sources-trick",
+   "title": "Four classic kinds of historical source",
+   "trick": "**L**ittle **A**nts **E**at **N**uts",
+   "meaning": [
+    "**L**iterary · **A**rchaeological · **E**pigraphic (epi = upon, graph = writing: inscriptions) · **N**umismatic (coins)."
+   ],
+   "prompt": "Name the four classic kinds of historical source."
+  },
+  {
+   "id": "ch01-panchamahabhuta",
+   "title": "The five great elements",
+   "trick": "**Kshiti, Jal, Pāvak, Gagan, Samīr**",
+   "meaning": [
+    "The classroom chant: earth, water, fire, sky (space), air.",
+    "Five elements seen as one connected system: an early systems view of nature."
+   ],
+   "prompt": "What are the Panchamahābhūtas?"
+  }
+ ],
+ "social-science/ch-02": [
+  {
+   "id": "ch02-layers-trick",
+   "title": "Layers from outside in",
+   "trick": "**C**old **M**ilk, **O**range **I**ce-cream",
+   "meaning": [
+    "**C**rust → **M**antle → **O**uter core (liquid) → **I**nner core (solid)."
+   ],
+   "prompt": "Name the Earth's layers from the surface to the centre."
+  },
+  {
+   "id": "ch02-boundaries-trick",
+   "title": "Which boundary does what?",
+   "trick": "**Con**verge = **co**llide · **Di**verge = **di**vide · **Trans**form = **tra**ffic sliding past",
+   "meaning": [
+    "Converge → fold mountains, volcanoes (Himalaya). Diverge → new crust, ridges (Mid-Atlantic). Transform → earthquakes (San Andreas)."
+   ],
+   "prompt": "What happens at a divergent plate boundary?"
+  },
+  {
+   "id": "ch02-stalactite",
+   "title": "Stalactite or stalagmite?",
+   "trick": "stala**C**tite hangs from the **C**eiling; stala**G**mite grows from the **G**round",
+   "meaning": [
+    "Stalactites point down from the roof; stalagmites point up from the floor; together they make a pillar."
+   ],
+   "prompt": "Which hangs from the cave ceiling, a stalactite or a stalagmite?"
+  }
+ ],
  "physics/ch-01": [
   {
    "id": "field-line-rules",

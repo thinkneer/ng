@@ -5,12 +5,12 @@
       "id": "9",
       "name": "Class 9",
       "board_year": false,
-      "status": "coming-soon",
+      "status": "live",
       "streams": [
         {
           "id": "general",
           "name": "All subjects",
-          "status": "coming-soon",
+          "status": "live",
           "subjects": [
             {
               "id": "maths",
@@ -32,9 +32,302 @@
               "id": "social-science",
               "name": "Social Science",
               "short": "SST",
-              "status": "coming-soon",
-              "path": null,
-              "units": []
+              "code": "087",
+              "status": "live",
+              "path": "content/class-9/general/social-science",
+              "units": [
+                {
+                  "id": "intro",
+                  "name": "Foundations",
+                  "colour": "5A6B7B",
+                  "marks": 0,
+                  "marks_group": null,
+                  "chapters": [
+                    {
+                      "id": "ch-01",
+                      "number": 1,
+                      "title": "Understanding Social Science",
+                      "unit": "intro",
+                      "items": {
+                        "notes": true,
+                        "mustknow": true,
+                        "formulas": true,
+                        "cards": true,
+                        "questions": true
+                      },
+                      "marks_hint": "Introductory chapter (Part 1, Ch 1); CBSE has not announced its weightage, so expect a few short questions in school papers (estimate)",
+                      "summary": "What Social Science is · how it differs from the natural sciences · everyday life as social science · four disciplines, one reality · sources and tools · roots in Indian knowledge traditions · why study it",
+                      "questions": 17,
+                      "question_types": {
+                        "mcq": 6,
+                        "ar": 2,
+                        "vsa2": 3,
+                        "sa3": 3,
+                        "la5": 2,
+                        "case": 1
+                      },
+                      "diagrams": [],
+                      "blocks": {
+                        "compare": 1,
+                        "explain": 1,
+                        "steps": 1,
+                        "figure": 2,
+                        "mnemonic": 3,
+                        "fill": 1
+                      },
+                      "words": 2149,
+                      "read_minutes": 6,
+                      "cards": 11,
+                      "mnemonics": 3
+                    }
+                  ]
+                },
+                {
+                  "id": "geo",
+                  "name": "Geography",
+                  "colour": "1E7B4F",
+                  "marks": 20,
+                  "marks_group": null,
+                  "chapters": [
+                    {
+                      "id": "ch-02",
+                      "number": 2,
+                      "title": "Shaping of the Earth's Surface",
+                      "unit": "geo",
+                      "items": {
+                        "notes": true,
+                        "mustknow": true,
+                        "formulas": true,
+                        "cards": true,
+                        "questions": true
+                      },
+                      "marks_hint": "Geography (placeholder 20 marks, shared by Ch 2, 3, 10, 11); landforms and plate boundaries are favourite 3- and 5-mark questions (estimate)",
+                      "summary": "Internal and external forces · Earth's interior · plate tectonics and plate boundaries · earthquakes, volcanoes, Ring of Fire · weathering and erosion · landforms of rivers, waves, glaciers, wind, groundwater · landforms and people · landslides, avalanches, GLOFs",
+                      "questions": 20,
+                      "question_types": {
+                        "mcq": 7,
+                        "ar": 3,
+                        "vsa2": 3,
+                        "sa3": 3,
+                        "la5": 2,
+                        "case": 2
+                      },
+                      "diagrams": [],
+                      "blocks": {
+                        "compare": 2,
+                        "figure": 3,
+                        "draw": 1,
+                        "mnemonic": 3,
+                        "steps": 4,
+                        "explain": 1,
+                        "fill": 2
+                      },
+                      "words": 3211,
+                      "read_minutes": 11,
+                      "cards": 13,
+                      "mnemonics": 3
+                    },
+                    {
+                      "id": "ch-03",
+                      "number": 3,
+                      "title": "Atmosphere and Climate",
+                      "unit": "geo",
+                      "items": {},
+                      "marks_hint": null,
+                      "summary": null,
+                      "questions": 0,
+                      "question_types": {}
+                    },
+                    {
+                      "id": "ch-10",
+                      "number": 10,
+                      "title": "Oceans and Life",
+                      "unit": "geo",
+                      "items": {},
+                      "marks_hint": null,
+                      "summary": null,
+                      "questions": 0,
+                      "question_types": {}
+                    },
+                    {
+                      "id": "ch-11",
+                      "number": 11,
+                      "title": "Life on Earth",
+                      "unit": "geo",
+                      "items": {},
+                      "marks_hint": null,
+                      "summary": null,
+                      "questions": 0,
+                      "question_types": {}
+                    }
+                  ]
+                },
+                {
+                  "id": "his",
+                  "name": "History",
+                  "colour": "A4512B",
+                  "marks": 20,
+                  "marks_group": null,
+                  "chapters": [
+                    {
+                      "id": "ch-04",
+                      "number": 4,
+                      "title": "Early Humans and Beginning of Civilisation",
+                      "unit": "his",
+                      "items": {},
+                      "marks_hint": null,
+                      "summary": null,
+                      "questions": 0,
+                      "question_types": {}
+                    },
+                    {
+                      "id": "ch-05",
+                      "number": 5,
+                      "title": "State and Society up to 1000 CE",
+                      "unit": "his",
+                      "items": {},
+                      "marks_hint": null,
+                      "summary": null,
+                      "questions": 0,
+                      "question_types": {}
+                    },
+                    {
+                      "id": "ch-12",
+                      "number": 12,
+                      "title": "Resistance and Resilience: 1000–1700 CE",
+                      "unit": "his",
+                      "items": {},
+                      "marks_hint": null,
+                      "summary": null,
+                      "questions": 0,
+                      "question_types": {}
+                    }
+                  ]
+                },
+                {
+                  "id": "pol",
+                  "name": "Political Science",
+                  "colour": "2F5DA8",
+                  "marks": 20,
+                  "marks_group": null,
+                  "chapters": [
+                    {
+                      "id": "ch-06",
+                      "number": 6,
+                      "title": "Democracy",
+                      "unit": "pol",
+                      "items": {},
+                      "marks_hint": null,
+                      "summary": null,
+                      "questions": 0,
+                      "question_types": {}
+                    },
+                    {
+                      "id": "ch-07",
+                      "number": 7,
+                      "title": "Elections",
+                      "unit": "pol",
+                      "items": {},
+                      "marks_hint": null,
+                      "summary": null,
+                      "questions": 0,
+                      "question_types": {}
+                    },
+                    {
+                      "id": "ch-13",
+                      "number": 13,
+                      "title": "Governance and Public Policy",
+                      "unit": "pol",
+                      "items": {},
+                      "marks_hint": null,
+                      "summary": null,
+                      "questions": 0,
+                      "question_types": {}
+                    }
+                  ]
+                },
+                {
+                  "id": "eco",
+                  "name": "Economics",
+                  "colour": "8C6400",
+                  "marks": 20,
+                  "marks_group": null,
+                  "chapters": [
+                    {
+                      "id": "ch-08",
+                      "number": 8,
+                      "title": "Building Blocks in Economics: The Problem of Choice",
+                      "unit": "eco",
+                      "items": {},
+                      "marks_hint": null,
+                      "summary": null,
+                      "questions": 0,
+                      "question_types": {}
+                    },
+                    {
+                      "id": "ch-09",
+                      "number": 9,
+                      "title": "The Price Puzzle: What Drives the Market",
+                      "unit": "eco",
+                      "items": {},
+                      "marks_hint": null,
+                      "summary": null,
+                      "questions": 0,
+                      "question_types": {}
+                    },
+                    {
+                      "id": "ch-14",
+                      "number": 14,
+                      "title": "Managing Your Personal Finances",
+                      "unit": "eco",
+                      "items": {},
+                      "marks_hint": null,
+                      "summary": null,
+                      "questions": 0,
+                      "question_types": {}
+                    },
+                    {
+                      "id": "ch-15",
+                      "number": 15,
+                      "title": "From Ideas to Startups",
+                      "unit": "eco",
+                      "items": {},
+                      "marks_hint": null,
+                      "summary": null,
+                      "questions": 0,
+                      "question_types": {}
+                    }
+                  ]
+                }
+              ],
+              "colour": "8A4B2A",
+              "theory_marks": 80,
+              "internal_marks": 20,
+              "exam_date": null,
+              "syllabus_year": "2026-27",
+              "not_in_syllabus": [
+                "The French Revolution (old book; replaced from 2026-27)",
+                "Socialism in Europe and the Russian Revolution (old book)",
+                "Nazism and the Rise of Hitler (old book)",
+                "Forest Society and Colonialism (old book)",
+                "Pastoralists in the Modern World (old book)",
+                "India – Size and Location, Physical Features of India, Drainage, Climate (of India), Natural Vegetation and Wildlife, Population (old Contemporary India – I)",
+                "What is Democracy? Why Democracy?, Constitutional Design, Electoral Politics, Working of Institutions, Democratic Rights (old Democratic Politics – I)",
+                "The Story of Village Palampur, People as Resource, Poverty as a Challenge, Food Security in India (old Economics book)"
+              ],
+              "links": {
+                "NCERT textbooks": "https://ncert.nic.in/textbook.php",
+                "CBSE curriculum": "https://cbseacademic.nic.in/"
+              },
+              "papers": [],
+              "counts": {
+                "notes": 2,
+                "mustknow": 2,
+                "formulas": 2,
+                "questions": 2,
+                "chapters": 15
+              },
+              "exam_mode": "built"
             },
             {
               "id": "english",
@@ -3810,6 +4103,7 @@
     "12/chemistry": "data/patterns/class-12/chemistry.json",
     "12/english-core": "data/patterns/class-12/english-core.json",
     "12/maths": "data/patterns/class-12/maths.json",
-    "12/physics": "data/patterns/class-12/physics.json"
+    "12/physics": "data/patterns/class-12/physics.json",
+    "9/social-science": "data/patterns/class-9/social-science.json"
   }
 }
