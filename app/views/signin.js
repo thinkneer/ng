@@ -1,6 +1,6 @@
 // Sign-in and Request access. Shown full-screen to anyone without an approved session.
 import { html, raw, icon, esc, toast, haptic } from '../ui.js';
-import { signIn, buildRequest, requestCode, nicknameTaken, NICK_RE, isDbMode, signUpPassword, signInPassword, resetPassword, setNewPassword, nicknameFree, signOut } from '../auth.js';
+import { signIn, buildRequest, requestCode, nicknameTaken, NICK_RE, STATIC_OK, isDbMode, signUpPassword, signInPassword, resetPassword, setNewPassword, nicknameFree, signOut } from '../auth.js';
 import { errText } from '../db.js';
 import { randomQuote } from '../quotes.js';
 import { data } from '../data.js';
@@ -22,8 +22,23 @@ function shell(inner) {
   </div></div>`;
 }
 
+/** Live site without its sign-in config (offline first visit, or the config file failed to load). */
+function unreachable() {
+  return {
+    title: 'Sign in', tab: 'today', fullscreen: true,
+    html: shell(html`<div class="card auth__card center">
+        <div class="auth__wait">${raw(icon('alert'))}</div>
+        <h1 class="t-title2">Can’t reach sign-in</h1>
+        <p class="t-2 t-subhead mt-2">Check your connection, then try again.</p>
+        <button class="btn btn--block mt-6" type="button" id="retry">Try again</button>
+      </div>`),
+    mount(el) { el.querySelector('#retry').addEventListener('click', () => location.reload()); },
+  };
+}
+
 export async function signin(route) {
   if (await isDbMode()) return emailSignin(route);
+  if (!STATIC_OK) return unreachable();
   const next = route?.next || '#/today';
   let q = randomQuote();
   return {
@@ -68,6 +83,7 @@ export async function signin(route) {
 
 export async function request(route) {
   if (await isDbMode()) return emailSignin({ ...route, signup: true });
+  if (!STATIC_OK) return unreachable();
   const idx = await data.index();
   const liveClasses = idx.classes.filter((c) => c.status === 'live');
   const liveOpts = liveClasses.flatMap((c) => c.streams.filter((s) => s.status === 'live').map((s) => ({ value: `${c.id}|${s.id}`, label: `${c.name}${s.id !== 'general' ? ' ' + s.name : ''}` })));

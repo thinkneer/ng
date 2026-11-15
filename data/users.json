@@ -1,17 +1,5 @@
 {
   "$schema": "../schemas/users.schema.json",
-  "note": "Nickname-only accounts. No names, emails, phones, schools or photos. Everything here is public by design. Changes happen only by commit after the admin's confirmation.",
-  "users": [
-    {
-      "nickname": "ni8951",
-      "salt": "CC1/CvA+PLrJR2dYg0JXZg==",
-      "hash": "cf1PSTePagQUfFGgCZja0zr0OkWmcimjzC51sOxw+nI=",
-      "class": "12",
-      "stream": "science",
-      "subjects": [],
-      "status": "approved",
-      "approved_on": "2026-11-14",
-      "role": "admin"
-    }
-  ]
+  "note": "Local test server only. The live site signs members in with Supabase (email + password); this static nickname list is never used there. scripts/serve.mjs --test adds a test member in memory. Keep it empty in the repo: anything here is public.",
+  "users": []
 }

@@ -19,6 +19,10 @@ export async function hashPass(pass, saltB64) {
 
 export const NICK_RE = /^[A-Za-z0-9_]{3,20}$/;
 
+/** The static nickname + passphrase flow runs only on a local server (quality checks, `serve.mjs --test`).
+ *  The live site signs in through Supabase; if that config cannot load, it shows a retry, never this flow. */
+export const STATIC_OK = ['localhost', '127.0.0.1', '[::1]'].includes(location.hostname);
+
 let usersCache = null;
 export async function loadUsers({ fresh = false } = {}) {
   if (usersCache && !fresh) return usersCache;
@@ -35,6 +39,7 @@ export function session() { return store.get('session', null); }
 export async function verifySession() {
   const s = session();
   if (!s) return null;
+  if (!STATIC_OK) return s.db ? s : null; // live site, sign-in service unreachable: keep a db member signed in offline, nothing else
   try {
     const u = findUser(await loadUsers(), s.nickname);
     if (!u || u.status !== 'approved' || u.hash !== s.hash) { store.set('session', undefined); return null; }
@@ -46,6 +51,7 @@ export async function verifySession() {
 }
 
 export async function signIn(nick, pass) {
+  if (!STATIC_OK) throw new Error('Could not reach the sign-in service. Check your connection and try again.');
   const users = await loadUsers({ fresh: true });
   const u = findUser(users, nick.trim());
   // Same message for unknown nickname and wrong passphrase.
