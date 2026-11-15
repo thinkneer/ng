@@ -80,7 +80,7 @@ No "(to be added as SVG)" placeholders remain in any file.
 | 9 Amines | 11 cards | figure with parts: aniline resonance (new drawing); draw it; 6 steps (Gabriel, protecting aniline, diazotisation, azo dye…); pKb numerical; 3 fills (basicity orders, Hinsberg, diazonium replacements); compare (carbylamine vs Hinsberg); 3 mnemonics (do–ek–teen, One Sells/Two Sinks/Three Sleeps, Hoffmann hacks off a carbon) |
 | 10 Biomolecules | 13 cards | figures with parts: Haworth α/β-glucose, α-helix and β-sheet, DNA double helix (all new drawings); 3 draw; steps (ring closure, denaturation); Chargaff numerical; 3 fills (glucose evidence, disaccharides, vitamins); 4 compares (starch vs cellulose, fibrous vs globular, DNA vs RNA); 3 mnemonics |
 
-**All 10 chapters now have a deck (116 cards) and interactive blocks; the chemistry "cards.json missing" warning is gone.**
+**All 10 chapters now have a deck and interactive blocks.** 15 Nov (after admin review on a phone): every card face rechecked in a 390 px browser; long formulas and reactions split into stacked lines (`gathered`), legend symbols kept to short maths symbols (the site renders the part before `=` as TeX), 29 cards added (145 in all, 14–15 per chapter). Rule for future cards: each formula line ≤ about 22 characters, legend `symbol = meaning` with a real symbol.
 
 - **Note for all subject chats:** block titles, card titles and ng-compare column names are shown as plain text, so they must not contain `$…$` maths (use SN1, H₂O and so on).
 

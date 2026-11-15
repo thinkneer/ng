@@ -42,9 +42,9 @@
     "id": "dichromate-half",
     "kind": "formula",
     "title": "Dichromate in acid",
-    "tex": "\\ce{Cr2O7^2- + 14H+ + 6e- -> 2Cr^3+ + 7H2O}",
+    "tex": "\\begin{gathered}\\ce{Cr2O7^2- + 14H+ + 6e-}\\\\ \\ce{-> 2Cr^3+ + 7H2O}\\end{gathered}",
     "legend": [
-      "E° = 1.33 V"
+      "E^\\circ = 1.33 V"
     ],
     "back": "Six electrons; orange → green. Oxidises $\\ce{Fe^2+}$, $\\ce{I-}$, $\\ce{H2S}$, $\\ce{Sn^2+}$.",
     "stars": 3,
@@ -56,9 +56,9 @@
     "id": "permanganate-half",
     "kind": "formula",
     "title": "Permanganate in acid",
-    "tex": "\\ce{MnO4- + 8H+ + 5e- -> Mn^2+ + 4H2O}",
+    "tex": "\\begin{gathered}\\ce{MnO4- + 8H+ + 5e-}\\\\ \\ce{-> Mn^2+ + 4H2O}\\end{gathered}",
     "legend": [
-      "E° = 1.52 V"
+      "E^\\circ = 1.52 V"
     ],
     "back": "Five electrons; purple → colourless, so it is its own indicator. Acidify with dilute $\\ce{H2SO4}$, never HCl.",
     "stars": 3,
@@ -70,7 +70,7 @@
     "id": "make-dichromate",
     "kind": "process",
     "title": "Chromite → potassium dichromate",
-    "tex": "\\ce{FeCr2O4 ->[Na2CO3, O2] Na2CrO4 ->[H+] Na2Cr2O7 ->[KCl] K2Cr2O7}",
+    "tex": "\\begin{gathered}\\ce{FeCr2O4}\\\\ \\ce{->[Na2CO3, O2] Na2CrO4}\\\\ \\ce{->[H+] Na2Cr2O7}\\\\ \\ce{->[KCl] K2Cr2O7}\\end{gathered}",
     "back": "Fuse with sodium carbonate in air, acidify, then add KCl.",
     "stars": 2,
     "tags": [
@@ -82,8 +82,8 @@
     "id": "make-permanganate",
     "kind": "process",
     "title": "Pyrolusite → potassium permanganate",
-    "tex": "\\ce{MnO2 ->[KOH, O2] K2MnO4 ->[H+ \\text{or electrolysis}] KMnO4}",
-    "back": "Fuse to green manganate, then disproportionate in acid or oxidise electrolytically to purple permanganate.",
+    "tex": "\\begin{gathered}\\ce{MnO2 ->[KOH, O2] K2MnO4}\\\\ \\ce{->[H+] KMnO4}\\end{gathered}",
+    "back": "Fuse to green manganate, then disproportionate in acid (or oxidise electrolytically in industry) to purple permanganate.",
     "stars": 2,
     "tags": [
       "process"
@@ -94,10 +94,7 @@
     "kind": "formula",
     "title": "Lanthanoid contraction",
     "tex": "r(\\ce{La}) > \\dots > r(\\ce{Lu})",
-    "legend": [
-      "cause = poor shielding by 4f electrons"
-    ],
-    "back": "Consequences: Zr and Hf have almost the same radius; lanthanoids are hard to separate; basicity falls from La(OH)₃ to Lu(OH)₃.",
+    "back": "Cause: poor shielding by 4f electrons. Results: Zr and Hf have almost the same radius; lanthanoids are hard to separate; basicity falls from La(OH)₃ to Lu(OH)₃.",
     "stars": 3,
     "tags": [
       "concept",
@@ -119,10 +116,54 @@
     "id": "five-and-six",
     "kind": "mnemonic",
     "title": "A handful and an over",
-    "tex": "\\ce{MnO4-}: 5e^-\\qquad \\ce{Cr2O7^2-}: 6e^-",
+    "tex": "\\begin{gathered}\\ce{MnO4-}:\\ 5e^-\\\\ \\ce{Cr2O7^2-}:\\ 6e^-\\end{gathered}",
     "back": "Permanganate takes 5 electrons in acid (a hand); dichromate takes 6 (a cricket over).",
     "tags": [
       "mnemonic"
+    ]
+  },
+  {
+    "id": "transition-element",
+    "kind": "formula",
+    "title": "What is a transition element?",
+    "tex": "(n-1)d^{1\\text{–}10}\\,ns^{1\\text{–}2}",
+    "back": "Incomplete d subshell in the atom or a common ion. Zn, Cd, Hg are d¹⁰ in both, so they are not transition elements.",
+    "stars": 3,
+    "tags": [
+      "definition"
+    ]
+  },
+  {
+    "id": "why-coloured",
+    "kind": "compare",
+    "title": "Why are ions coloured?",
+    "tex": "\\begin{gathered}d^1\\text{ to }d^9:\\ \\text{coloured}\\\\ d^0,\\ d^{10}:\\ \\text{colourless}\\end{gathered}",
+    "back": "Unpaired d electrons absorb visible light in d–d transitions. Sc³⁺, Ti⁴⁺, Zn²⁺, Cu⁺ are colourless; KMnO₄ is coloured by charge transfer.",
+    "stars": 3,
+    "tags": [
+      "reason"
+    ]
+  },
+  {
+    "id": "interstitial",
+    "kind": "formula",
+    "title": "Interstitial compounds",
+    "tex": "\\ce{TiC},\\ \\ce{Mn4N},\\ \\ce{Fe3H}",
+    "back": "Small atoms (H, C, N) trapped in the metal lattice: very hard, high melting, conduct electricity, non-stoichiometric.",
+    "stars": 2,
+    "tags": [
+      "concept"
+    ]
+  },
+  {
+    "id": "tm-catalysts",
+    "kind": "formula",
+    "title": "Transition metals as catalysts",
+    "tex": "\\begin{gathered}\\ce{V2O5}:\\ \\text{Contact process}\\\\ \\ce{Fe}:\\ \\text{Haber process}\\\\ \\ce{Ni}:\\ \\text{hydrogenation}\\end{gathered}",
+    "back": "They work because of variable oxidation states and a surface that adsorbs reactants.",
+    "stars": 2,
+    "tags": [
+      "application"
     ]
   }
 ]

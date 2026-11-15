@@ -39,9 +39,10 @@
     "id": "oxidation-number",
     "kind": "formula",
     "title": "Oxidation number of the metal",
-    "tex": "x+\\sum(\\text{ligand charges})=\\text{charge on complex}",
+    "tex": "x+\\textstyle\\sum q_\\text{L}=q_\\text{complex}",
     "legend": [
-      "neutral ligands = NH₃, H₂O, CO, en count 0"
+      "x = oxidation state of the metal",
+      "q_\\text{L} = ligand charges (NH₃, H₂O, CO, en are 0)"
     ],
     "back": "$\\ce{K3[Fe(CN)6]}$: $x-6=-3$, so Fe is +3. Ni in $\\ce{[Ni(CO)4]}$ is 0.",
     "stars": 2,
@@ -53,10 +54,10 @@
     "id": "coordination-number",
     "kind": "formula",
     "title": "Coordination number",
-    "tex": "\\text{CN}=\\text{number of donor atoms bonded to M}",
+    "tex": "\\begin{gathered}\\text{CN}=\\text{number of}\\\\ \\text{donor atoms on M}\\end{gathered}",
     "legend": [
-      "en, oxalate = 2 each",
-      "EDTA = 6"
+      "\\text{en} = counts 2 (bidentate)",
+      "\\text{EDTA} = counts 6"
     ],
     "back": "Count donor atoms, not ligands: $\\ce{[Co(en)3]^3+}$ has CN 6.",
     "stars": 2,
@@ -69,7 +70,7 @@
     "id": "cfse",
     "kind": "formula",
     "title": "Crystal field stabilisation energy",
-    "tex": "\\text{CFSE}=(-0.4\\,n_{t_{2g}}+0.6\\,n_{e_g})\\Delta_o",
+    "tex": "\\begin{gathered}\\text{CFSE}=\\\\ (-0.4\\,n_{t_{2g}}+0.6\\,n_{e_g})\\Delta_o\\end{gathered}",
     "legend": [
       "n = electrons in each set"
     ],
@@ -83,9 +84,9 @@
     "id": "werner-agcl",
     "kind": "formula",
     "title": "Werner: ions and AgCl",
-    "tex": "\\ce{[Co(NH3)6]Cl3}\\to 4\\ \\text{ions},\\ 3\\,\\ce{AgCl}",
+    "tex": "\\begin{gathered}\\ce{[Co(NH3)6]Cl3}\\\\ \\to 4\\ \\text{ions},\\ 3\\,\\ce{AgCl}\\end{gathered}",
     "legend": [
-      "ionisable Cl = Cl outside the bracket"
+      "\\ce{Cl-} = only those outside [ ] ionise"
     ],
     "back": "$\\ce{[CoCl(NH3)5]Cl2}$: 3 ions, 2 AgCl. $\\ce{[CoCl2(NH3)4]Cl}$: 2 ions, 1 AgCl.",
     "stars": 3,
@@ -98,7 +99,7 @@
     "id": "hybridisation-table",
     "kind": "compare",
     "title": "Hybridisation and shape",
-    "tex": "sp^3\\ \\text{tetra}\\quad dsp^2\\ \\text{sq. planar}\\quad d^2sp^3,\\ sp^3d^2\\ \\text{octa}",
+    "tex": "\\begin{gathered}sp^3:\\ \\text{tetrahedral}\\\\ dsp^2:\\ \\text{square planar}\\\\ d^2sp^3:\\ \\text{octahedral (inner)}\\\\ sp^3d^2:\\ \\text{octahedral (outer)}\\end{gathered}",
     "back": "$\\ce{[Ni(CN)4]^2-}$ $dsp^2$, diamagnetic; $\\ce{[NiCl4]^2-}$ $sp^3$, paramagnetic; $\\ce{[Co(NH3)6]^3+}$ inner; $\\ce{[CoF6]^3-}$ outer.",
     "stars": 3,
     "tags": [
@@ -109,7 +110,7 @@
     "id": "double-salt-vs-complex",
     "kind": "compare",
     "title": "Double salt vs complex",
-    "tex": "\\text{Mohr's salt}\\quad\\text{vs}\\quad\\ce{K4[Fe(CN)6]}",
+    "tex": "\\begin{gathered}\\text{Mohr\\'s salt}\\\\ \\text{vs}\\ \\ce{K4[Fe(CN)6]}\\end{gathered}",
     "back": "A double salt gives all its ions in water; a complex ion stays intact.",
     "stars": 2,
     "tags": [
@@ -120,7 +121,7 @@
     "id": "spectrochemical-series",
     "kind": "mnemonic",
     "title": "Spectrochemical series",
-    "tex": "\\ce{I-}<\\ce{Cl-}<\\ce{F-}<\\ce{H2O}<\\ce{NH3}<\\text{en}<\\ce{CN-}<\\text{CO}",
+    "tex": "\\begin{gathered}\\ce{I-}<\\ce{Cl-}<\\ce{F-}<\\ce{H2O}\\\\ <\\ce{NH3}<\\text{en}<\\ce{CN-}<\\text{CO}\\end{gathered}",
     "back": "\"I Bought Some Cool Summer Frocks; Only One Was Nice, Even Now Everyone Complains Cost.\"",
     "stars": 2,
     "tags": [
@@ -135,6 +136,40 @@
     "back": "cis: like ligands sit together; trans: they sit across.",
     "tags": [
       "mnemonic"
+    ]
+  },
+  {
+    "id": "ambidentate",
+    "kind": "formula",
+    "title": "Ambidentate ligands",
+    "tex": "\\begin{gathered}\\ce{-NO2}\\ \\text{vs}\\ \\ce{-ONO}\\\\ \\ce{-SCN}\\ \\text{vs}\\ \\ce{-NCS}\\end{gathered}",
+    "back": "One ligand, two possible donor atoms: this gives linkage isomerism, e.g. nitrito-N and nitrito-O complexes.",
+    "stars": 2,
+    "tags": [
+      "definition"
+    ]
+  },
+  {
+    "id": "chelate-effect",
+    "kind": "formula",
+    "title": "Chelate effect",
+    "tex": "\\begin{gathered}\\ce{[Ni(en)3]^2+}\\\\ >\\ \\ce{[Ni(NH3)6]^2+}\\end{gathered}",
+    "back": "A ligand that grips with two or more atoms forms rings and a more stable complex than similar unidentate ligands.",
+    "stars": 2,
+    "tags": [
+      "concept"
+    ]
+  },
+  {
+    "id": "inner-outer",
+    "kind": "compare",
+    "title": "Inner vs outer orbital complex",
+    "tex": "\\begin{gathered}\\ce{[Co(NH3)6]^3+}:\\ d^2sp^3\\\\ \\ce{[CoF6]^3-}:\\ sp^3d^2\\end{gathered}",
+    "back": "NH₃ pairs the d electrons (inner, low spin, diamagnetic); F⁻ does not (outer, high spin, 4 unpaired, 4.90 BM).",
+    "stars": 3,
+    "tags": [
+      "compare",
+      "3-mark"
     ]
   }
 ]

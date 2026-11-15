@@ -168,5 +168,42 @@
       "mnemonic",
       "1-mark"
     ]
+  },
+  {
+    "id": "lead-battery",
+    "kind": "formula",
+    "title": "Lead storage battery (discharge)",
+    "tex": "\\begin{gathered}\\ce{Pb + PbO2 + 2H2SO4}\\\\ \\ce{-> 2PbSO4 + 2H2O}\\end{gathered}",
+    "legend": [
+      "\\ce{Pb} = anode (−)",
+      "\\ce{PbO2} = cathode (+)"
+    ],
+    "back": "Sulphuric acid is used up and water forms, so the density falls. Recharging reverses the reaction.",
+    "stars": 3,
+    "tags": [
+      "equation"
+    ]
+  },
+  {
+    "id": "fuel-cell",
+    "kind": "formula",
+    "title": "H₂–O₂ fuel cell",
+    "tex": "\\begin{gathered}\\ce{2H2 + 4OH- -> 4H2O + 4e-}\\\\ \\ce{O2 + 2H2O + 4e- -> 4OH-}\\end{gathered}",
+    "back": "Anode (top) and cathode (bottom) in hot aqueous KOH or NaOH; about 70% efficient; product is water.",
+    "stars": 2,
+    "tags": [
+      "equation"
+    ]
+  },
+  {
+    "id": "corrosion",
+    "kind": "formula",
+    "title": "Rusting is electrochemical",
+    "tex": "\\begin{gathered}\\ce{Fe -> Fe^2+ + 2e-}\\\\ \\ce{O2 + 4H+ + 4e- -> 2H2O}\\end{gathered}",
+    "back": "Iron is the anode, oxygen is reduced at the cathode; rust is Fe₂O₃·xH₂O. Zinc or magnesium protect iron as sacrificial anodes.",
+    "stars": 2,
+    "tags": [
+      "equation"
+    ]
   }
 ]

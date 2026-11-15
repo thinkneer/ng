@@ -60,7 +60,7 @@
     "id": "raoult",
     "kind": "formula",
     "title": "Raoult's law",
-    "tex": "p_1=x_1p_1^\\circ\\qquad p_\\text{total}=x_1p_1^\\circ+x_2p_2^\\circ",
+    "tex": "\\begin{gathered}p_1=x_1p_1^\\circ\\\\ p_\\text{total}=x_1p_1^\\circ+x_2p_2^\\circ\\end{gathered}",
     "legend": [
       "x_1 = mole fraction of 1 in the liquid",
       "p_1^\\circ = vapour pressure of pure 1"
@@ -105,7 +105,7 @@
     "id": "bp-fp-formulas",
     "kind": "formula",
     "title": "Boiling-point elevation and freezing-point depression",
-    "tex": "\\Delta T_b=iK_bm\\qquad \\Delta T_f=iK_fm",
+    "tex": "\\begin{gathered}\\Delta T_b=iK_bm\\\\ \\Delta T_f=iK_fm\\end{gathered}",
     "legend": [
       "m = molality (mol per kg solvent)",
       "K_b, K_f = solvent constants, K kg mol⁻¹",
@@ -139,10 +139,10 @@
     "id": "vant-hoff",
     "kind": "formula",
     "title": "van't Hoff factor",
-    "tex": "i=\\dfrac{\\text{observed}}{\\text{calculated}}\\qquad \\alpha_\\text{diss}=\\dfrac{i-1}{n-1}",
+    "tex": "\\begin{gathered}i=\\dfrac{\\text{observed}}{\\text{calculated}}\\\\ \\alpha_\\text{diss}=\\dfrac{i-1}{n-1}\\end{gathered}",
     "legend": [
       "n = particles from one formula unit",
-      "α = degree of dissociation"
+      "\\alpha = degree of dissociation"
     ],
     "back": "$i>1$: dissociation (NaCl ≈ 2). $i<1$: association (ethanoic acid in benzene ≈ ½).",
     "stars": 3,
@@ -166,9 +166,31 @@
     "kind": "mnemonic",
     "title": "Plus gives Minus, Minus gives Max",
     "back": "Positive deviation → minimum-boiling azeotrope. Negative deviation → maximum-boiling azeotrope.",
-    "tex": "+\\ \\text{deviation}\\to\\text{min b.p.}\\qquad -\\ \\text{deviation}\\to\\text{max b.p.}",
+    "tex": "\\begin{gathered}+\\text{ deviation}\\to\\text{min b.p.}\\\\ -\\text{ deviation}\\to\\text{max b.p.}\\end{gathered}",
     "tags": [
       "mnemonic"
+    ]
+  },
+  {
+    "id": "colligative-four",
+    "kind": "formula",
+    "title": "The four colligative properties",
+    "tex": "\\begin{gathered}\\dfrac{\\Delta p}{p^\\circ},\\quad\\Delta T_b\\\\ \\Delta T_f,\\quad\\pi\\end{gathered}",
+    "back": "All depend on the number of solute particles, not their nature. Osmotic pressure is best for proteins and polymers.",
+    "stars": 2,
+    "tags": [
+      "concept"
+    ]
+  },
+  {
+    "id": "henry-real-life",
+    "kind": "formula",
+    "title": "Henry's law in real life",
+    "tex": "\\begin{gathered}p\\uparrow\\ \\Rightarrow\\ x_\\text{gas}\\uparrow\\\\ T\\uparrow\\ \\Rightarrow\\ x_\\text{gas}\\downarrow\\end{gathered}",
+    "back": "Soda bottles are sealed under high CO₂ pressure; divers get the bends as N₂ bubbles out (helium mix used); climbers feel low O₂ at altitude.",
+    "stars": 2,
+    "tags": [
+      "application"
     ]
   }
 ]

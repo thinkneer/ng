@@ -15,10 +15,10 @@
     "id": "hydration",
     "kind": "formula",
     "title": "Propene to two alcohols",
-    "tex": "\\ce{CH3CH=CH2 ->[H2O/H+] CH3CH(OH)CH3}\\qquad\\ce{->[B2H6][H2O2/OH-] CH3CH2CH2OH}",
+    "tex": "\\begin{gathered}\\ce{CH3CH=CH2}\\\\ \\ce{->[H2O/H+] CH3CH(OH)CH3}\\\\ \\ce{->[B2H6][H2O2/OH-] CH3CH2CH2OH}\\end{gathered}",
     "legend": [
-      "H₂O/H⁺ = Markovnikov",
-      "B₂H₆ then H₂O₂ = anti-Markovnikov"
+      "\\ce{H+} = Markovnikov",
+      "\\ce{B2H6} = anti-Markovnikov"
     ],
     "back": "Acid hydration goes through a carbocation; hydroboration–oxidation does not.",
     "stars": 2,
@@ -30,11 +30,11 @@
     "id": "kolbe",
     "kind": "formula",
     "title": "Kolbe's reaction",
-    "tex": "\\ce{C6H5ONa ->[CO2, 400 K, 4-7 atm][H+] o-HOC6H4COOH}",
+    "tex": "\\begin{gathered}\\ce{C6H5ONa + CO2}\\\\ \\ce{->[400 K][H+] o-HOC6H4COOH}\\end{gathered}",
     "legend": [
-      "product = salicylic acid"
+      "p = 4–7 atm"
     ],
-    "back": "Phenoxide is reactive enough to be attacked by the weak electrophile $\\ce{CO2}$.",
+    "back": "Product: salicylic acid. Phenoxide is reactive enough to be attacked by the weak electrophile CO₂.",
     "stars": 3,
     "tags": [
       "named"
@@ -44,11 +44,8 @@
     "id": "reimer-tiemann",
     "kind": "formula",
     "title": "Reimer–Tiemann reaction",
-    "tex": "\\ce{C6H5OH ->[CHCl3, aq. NaOH][H+] o-HOC6H4CHO}",
-    "legend": [
-      "product = salicylaldehyde"
-    ],
-    "back": "Puts –CHO at the ortho position.",
+    "tex": "\\begin{gathered}\\ce{C6H5OH + CHCl3}\\\\ \\ce{->[aq. NaOH][H+] o-HOC6H4CHO}\\end{gathered}",
+    "back": "Product: salicylaldehyde. Puts –CHO at the ortho position.",
     "stars": 3,
     "tags": [
       "named"
@@ -58,9 +55,9 @@
     "id": "williamson",
     "kind": "formula",
     "title": "Williamson synthesis",
-    "tex": "\\ce{R-X + R{'}-ONa -> R-O-R{'} + NaX}",
+    "tex": "\\begin{gathered}\\ce{R-X + R{'}-ONa}\\\\ \\ce{-> R-O-R{'} + NaX}\\end{gathered}",
     "legend": [
-      "R–X = primary (S_N2)"
+      "\\ce{R-X} = primary (SN2)"
     ],
     "back": "A tertiary halide gives an alkene instead. Put the bulky group on the alkoxide.",
     "stars": 3,
@@ -72,7 +69,7 @@
     "id": "dehydration-temps",
     "kind": "formula",
     "title": "Ethanol + conc. H₂SO₄",
-    "tex": "443\\text{ K}\\to\\ce{CH2=CH2}\\qquad 413\\text{ K}\\to\\ce{C2H5OC2H5}",
+    "tex": "\\begin{gathered}443\\text{ K}\\to\\ce{CH2=CH2}\\\\ 413\\text{ K}\\to\\ce{C2H5OC2H5}\\end{gathered}",
     "legend": [
       "T = decides alkene or ether"
     ],
@@ -86,10 +83,7 @@
     "id": "ether-hi",
     "kind": "formula",
     "title": "Anisole + HI",
-    "tex": "\\ce{C6H5OCH3 + HI -> C6H5OH + CH3I}",
-    "legend": [
-      "bond broken = O–CH₃"
-    ],
+    "tex": "\\begin{gathered}\\ce{C6H5OCH3 + HI}\\\\ \\ce{-> C6H5OH + CH3I}\\end{gathered}",
     "back": "The O–aryl bond has partial double-bond character and never breaks, so iodobenzene is never formed.",
     "stars": 3,
     "tags": [
@@ -100,9 +94,10 @@
     "id": "acid-order",
     "kind": "formula",
     "title": "Acid strength order",
-    "tex": "\\text{picric}>\\text{nitrophenols}>\\ce{C6H5OH}>\\text{cresols}>\\ce{H2O}>\\ce{C2H5OH}",
+    "tex": "\\begin{gathered}\\text{picric}>\\text{nitrophenols}\\\\ >\\ce{C6H5OH}>\\text{cresols}\\\\ >\\ce{H2O}>\\ce{C2H5OH}\\end{gathered}",
     "legend": [
-      "electron-withdrawing group = stronger acid"
+      "\\ce{-NO2} = raises acidity",
+      "\\ce{-CH3} = lowers acidity"
     ],
     "back": "Phenol dissolves in NaOH but does not release $\\ce{CO2}$ from $\\ce{NaHCO3}$.",
     "stars": 3,
@@ -114,7 +109,7 @@
     "id": "kolbe-vs-rt",
     "kind": "compare",
     "title": "Kolbe vs Reimer–Tiemann",
-    "tex": "\\ce{CO2}\\to\\ce{-COOH}\\qquad\\ce{CHCl3}\\to\\ce{-CHO}",
+    "tex": "\\begin{gathered}\\ce{CO2}\\to\\ce{-COOH}\\\\ \\ce{CHCl3}\\to\\ce{-CHO}\\end{gathered}",
     "back": "Kolbe: phenoxide + $\\ce{CO2}$ → salicylic acid. Reimer–Tiemann: phenol + chloroform + NaOH → salicylaldehyde.",
     "stars": 3,
     "tags": [
@@ -125,7 +120,7 @@
     "id": "cumene-process",
     "kind": "process",
     "title": "Cumene process",
-    "tex": "\\text{cumene}\\xrightarrow{\\ce{O2}}\\text{hydroperoxide}\\xrightarrow{\\ce{H+}}\\ce{C6H5OH}+\\ce{(CH3)2CO}",
+    "tex": "\\begin{gathered}\\text{cumene}\\xrightarrow{\\ce{O2}}\\text{hydroperoxide}\\\\ \\xrightarrow{\\ce{H+}}\\ce{C6H5OH}+\\ce{(CH3)2CO}\\end{gathered}",
     "back": "The industrial route to phenol; acetone is the by-product.",
     "stars": 2,
     "tags": [
@@ -136,10 +131,43 @@
     "id": "lucas-twinkle",
     "kind": "mnemonic",
     "title": "Lucas test",
-    "tex": "3^\\circ\\ \\text{at once}\\quad 2^\\circ\\ \\sim5\\text{ min}\\quad 1^\\circ\\ \\text{none}",
+    "tex": "\\begin{gathered}3^\\circ:\\ \\text{at once}\\\\ 2^\\circ:\\ \\text{about 5 min}\\\\ 1^\\circ:\\ \\text{none}\\end{gathered}",
     "back": "Tertiary in a Twinkle, Secondary in Some minutes, Primary Plays dead.",
     "tags": [
       "mnemonic"
+    ]
+  },
+  {
+    "id": "alcohol-vs-ether-bp",
+    "kind": "compare",
+    "title": "Why ethanol boils higher than its ether isomer",
+    "tex": "\\begin{gathered}\\ce{C2H5OH}:\\ 351\\text{ K}\\\\ \\ce{CH3OCH3}:\\ 248\\text{ K}\\end{gathered}",
+    "back": "Alcohols form intermolecular hydrogen bonds through O–H; ethers cannot. Both still dissolve in water about equally.",
+    "stars": 2,
+    "tags": [
+      "reason"
+    ]
+  },
+  {
+    "id": "o-nitrophenol",
+    "kind": "compare",
+    "title": "ortho- vs para-nitrophenol",
+    "tex": "\\begin{gathered}\\text{ortho: H-bond inside}\\\\ \\text{para: H-bond between}\\end{gathered}",
+    "back": "Intramolecular H-bonding makes o-nitrophenol volatile in steam, so the isomers are separated by steam distillation.",
+    "stars": 2,
+    "tags": [
+      "reason"
+    ]
+  },
+  {
+    "id": "fermentation",
+    "kind": "process",
+    "title": "Ethanol by fermentation",
+    "tex": "\\begin{gathered}\\text{sucrose}\\xrightarrow{\\text{invertase}}\\text{glucose}\\\\ \\xrightarrow{\\text{zymase}}\\ce{C2H5OH + CO2}\\end{gathered}",
+    "back": "Both enzymes come from yeast; no air. Denatured alcohol: ethanol made undrinkable with CuSO₄ and pyridine.",
+    "stars": 2,
+    "tags": [
+      "process"
     ]
   }
 ]

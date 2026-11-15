@@ -59,7 +59,7 @@
     "id": "rate-law",
     "kind": "formula",
     "title": "Rate law and order",
-    "tex": "\\text{rate}=k[\\ce{A}]^x[\\ce{B}]^y\\qquad \\text{order}=x+y",
+    "tex": "\\begin{gathered}\\text{rate}=k[\\ce{A}]^x[\\ce{B}]^y\\\\ \\text{order}=x+y\\end{gathered}",
     "legend": [
       "x, y = found by experiment",
       "k = rate constant"
@@ -74,7 +74,7 @@
     "id": "zero-order",
     "kind": "formula",
     "title": "Zero-order reaction",
-    "tex": "k=\\dfrac{[R]_0-[R]}{t}\\qquad t_{1/2}=\\dfrac{[R]_0}{2k}",
+    "tex": "\\begin{gathered}k=\\dfrac{[R]_0-[R]}{t}\\\\ t_{1/2}=\\dfrac{[R]_0}{2k}\\end{gathered}",
     "legend": [
       "[R]_0 = initial concentration",
       "k = mol L⁻¹ s⁻¹"
@@ -89,7 +89,7 @@
     "id": "first-order",
     "kind": "formula",
     "title": "First-order reaction",
-    "tex": "k=\\dfrac{2.303}{t}\\log\\dfrac{[R]_0}{[R]}\\qquad t_{1/2}=\\dfrac{0.693}{k}",
+    "tex": "\\begin{gathered}k=\\dfrac{2.303}{t}\\log\\dfrac{[R]_0}{[R]}\\\\ t_{1/2}=\\dfrac{0.693}{k}\\end{gathered}",
     "legend": [
       "k = s⁻¹ (or min⁻¹)",
       "t = time for [R]_0 to fall to [R]"
@@ -137,7 +137,7 @@
     "id": "order-vs-molecularity",
     "kind": "compare",
     "title": "Order vs molecularity",
-    "tex": "\\text{order: experiment}\\qquad\\text{molecularity: mechanism}",
+    "tex": "\\begin{gathered}\\text{order: experiment}\\\\ \\text{molecularity: mechanism}\\end{gathered}",
     "back": "Order: from the rate law, can be 0 or fractional. Molecularity: species in one elementary step, only 1, 2 or 3.",
     "stars": 3,
     "tags": [
@@ -149,10 +149,50 @@
     "id": "catalyst-road",
     "kind": "mnemonic",
     "title": "The road, not the destination",
-    "tex": "E_a\\downarrow\\qquad \\Delta H,\\ \\Delta G,\\ K\\ \\text{unchanged}",
+    "tex": "\\begin{gathered}E_a\\downarrow\\\\ \\Delta H,\\ \\Delta G,\\ K\\ \\text{unchanged}\\end{gathered}",
     "back": "A catalyst lowers $E_a$ by a new path; it does not change ΔH, ΔG or K.",
     "tags": [
       "mnemonic"
+    ]
+  },
+  {
+    "id": "pseudo-first-order",
+    "kind": "formula",
+    "title": "Pseudo first-order reaction",
+    "tex": "\\begin{gathered}\\ce{CH3COOC2H5 + H2O ->[H+]}\\\\ \\text{rate}=k\\,[\\text{ester}]\\end{gathered}",
+    "legend": [
+      "\\ce{H2O} = in large excess"
+    ],
+    "back": "A second-order reaction that behaves as first order because one reactant hardly changes. Inversion of cane sugar is another example.",
+    "stars": 3,
+    "tags": [
+      "definition"
+    ]
+  },
+  {
+    "id": "gas-phase-first-order",
+    "kind": "formula",
+    "title": "First order, from pressures",
+    "tex": "k=\\dfrac{2.303}{t}\\log\\dfrac{p_i}{2p_i-p_t}",
+    "legend": [
+      "p_i = initial pressure",
+      "p_t = total pressure at t"
+    ],
+    "back": "For A(g) → B(g) + C(g) at constant volume.",
+    "stars": 2,
+    "tags": [
+      "formula"
+    ]
+  },
+  {
+    "id": "units-of-k",
+    "kind": "formula",
+    "title": "Units of the rate constant",
+    "tex": "\\begin{gathered}n=0:\\ \\text{mol L}^{-1}\\text{s}^{-1}\\\\ n=1:\\ \\text{s}^{-1}\\\\ n=2:\\ \\text{L mol}^{-1}\\text{s}^{-1}\\end{gathered}",
+    "back": "General: (mol L⁻¹)¹⁻ⁿ s⁻¹. The unit of k tells you the order.",
+    "stars": 3,
+    "tags": [
+      "formula"
     ]
   }
 ]

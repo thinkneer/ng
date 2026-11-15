@@ -27,9 +27,9 @@
     "id": "rosenmund",
     "kind": "formula",
     "title": "Rosenmund reduction",
-    "tex": "\\ce{RCOCl + H2 ->[Pd/BaSO4] RCHO + HCl}",
+    "tex": "\\begin{gathered}\\ce{RCOCl + H2}\\\\ \\ce{->[Pd/BaSO4] RCHO + HCl}\\end{gathered}",
     "legend": [
-      "BaSO₄ = poisons Pd so it stops at the aldehyde"
+      "\\ce{BaSO4} = poisons Pd so it stops at the aldehyde"
     ],
     "back": "Acid chloride to aldehyde.",
     "stars": 3,
@@ -41,9 +41,9 @@
     "id": "stephen",
     "kind": "formula",
     "title": "Stephen reaction",
-    "tex": "\\ce{RCN ->[SnCl2/HCl] RCH=NH ->[H3O+] RCHO}",
+    "tex": "\\begin{gathered}\\ce{RCN ->[SnCl2/HCl] RCH=NH}\\\\ \\ce{->[H3O+] RCHO}\\end{gathered}",
     "legend": [
-      "RCN = nitrile"
+      "\\ce{RCN} = nitrile"
     ],
     "back": "Nitrile to aldehyde through an imine.",
     "stars": 2,
@@ -55,9 +55,9 @@
     "id": "etard-gk",
     "kind": "formula",
     "title": "Etard and Gatterman–Koch",
-    "tex": "\\ce{C6H5CH3 ->[CrO2Cl2][H3O+] C6H5CHO}\\qquad\\ce{C6H6 ->[CO, HCl][AlCl3/CuCl] C6H5CHO}",
+    "tex": "\\begin{gathered}\\ce{C6H5CH3 ->[CrO2Cl2][H3O+] C6H5CHO}\\\\ \\ce{C6H6 + CO + HCl}\\\\ \\ce{->[AlCl3/CuCl] C6H5CHO}\\end{gathered}",
     "legend": [
-      "CrO₂Cl₂ = chromyl chloride"
+      "\\ce{CrO2Cl2} = chromyl chloride"
     ],
     "back": "Two routes to benzaldehyde: from toluene (Etard) and from benzene (Gatterman–Koch).",
     "stars": 2,
@@ -69,10 +69,10 @@
     "id": "clemmensen-wk",
     "kind": "formula",
     "title": "Clemmensen and Wolff–Kishner",
-    "tex": "\\ce{{>}C=O ->[Zn-Hg/HCl] {>}CH2}\\qquad\\ce{{>}C=O ->[NH2NH2][KOH, glycol] {>}CH2}",
+    "tex": "\\begin{gathered}\\ce{{>}C=O ->[Zn-Hg/HCl] {>}CH2}\\\\ \\ce{{>}C=O ->[NH2NH2][KOH] {>}CH2}\\end{gathered}",
     "legend": [
-      "Clemmensen = acid",
-      "Wolff–Kishner = base"
+      "\\ce{HCl} = Clemmensen (acid)",
+      "\\ce{KOH} = Wolff–Kishner (base)"
     ],
     "back": "Both turn a carbonyl group into $\\ce{CH2}$.",
     "stars": 3,
@@ -84,9 +84,9 @@
     "id": "aldol",
     "kind": "formula",
     "title": "Aldol condensation",
-    "tex": "\\ce{2CH3CHO ->[dil. NaOH] CH3CH(OH)CH2CHO ->[heat] CH3CH=CHCHO}",
+    "tex": "\\begin{gathered}\\ce{2CH3CHO}\\\\ \\ce{->[dil. NaOH] CH3CH(OH)CH2CHO}\\\\ \\ce{->[heat] CH3CH=CHCHO}\\end{gathered}",
     "legend": [
-      "needs = α-hydrogen"
+      "\\alpha\\text{-H} = needed"
     ],
     "back": "3-Hydroxybutanal, then but-2-enal on heating.",
     "stars": 3,
@@ -98,9 +98,9 @@
     "id": "cannizzaro",
     "kind": "formula",
     "title": "Cannizzaro reaction",
-    "tex": "\\ce{2HCHO + KOH(conc.) -> CH3OH + HCOOK}",
+    "tex": "\\begin{gathered}\\ce{2HCHO + KOH(conc.)}\\\\ \\ce{-> CH3OH + HCOOK}\\end{gathered}",
     "legend": [
-      "needs = no α-hydrogen"
+      "\\alpha\\text{-H} = must be absent"
     ],
     "back": "Self oxidation–reduction: one molecule to the alcohol, one to the acid salt. Benzaldehyde does it too.",
     "stars": 3,
@@ -112,7 +112,7 @@
     "id": "hvz",
     "kind": "formula",
     "title": "Hell–Volhard–Zelinsky",
-    "tex": "\\ce{RCH2COOH ->[X2/red P][H2O] RCH(X)COOH}",
+    "tex": "\\begin{gathered}\\ce{RCH2COOH}\\\\ \\ce{->[X2/red P][H2O] RCH(X)COOH}\\end{gathered}",
     "legend": [
       "X = Cl or Br"
     ],
@@ -126,11 +126,8 @@
     "id": "acid-orders",
     "kind": "formula",
     "title": "Acid strength",
-    "tex": "\\ce{Cl3CCOOH}>\\ce{Cl2CHCOOH}>\\ce{ClCH2COOH}>\\ce{CH3COOH}",
-    "legend": [
-      "rule = more, stronger and closer electron-withdrawing groups make a stronger acid"
-    ],
-    "back": "Also $\\ce{HCOOH}>\\ce{CH3COOH}$; F > Cl > Br as substituents; 2-chloro > 3-chloro > 4-chloro.",
+    "tex": "\\begin{gathered}\\ce{Cl3CCOOH}>\\ce{Cl2CHCOOH}\\\\ >\\ce{ClCH2COOH}>\\ce{CH3COOH}\\end{gathered}",
+    "back": "More, stronger and closer electron-withdrawing groups make a stronger acid. Also HCOOH > CH₃COOH; F > Cl > Br as substituents; 2-chloro > 3-chloro > 4-chloro.",
     "stars": 3,
     "tags": [
       "order"
@@ -140,7 +137,7 @@
     "id": "carbonyl-tests",
     "kind": "compare",
     "title": "Tollens' vs Fehling's",
-    "tex": "\\text{Tollens': all aldehydes}\\qquad\\text{Fehling's: aliphatic only}",
+    "tex": "\\begin{gathered}\\text{Tollens': all aldehydes}\\\\ \\text{Fehling's: aliphatic only}\\end{gathered}",
     "back": "Benzaldehyde gives Tollens' but not Fehling's; ketones give neither. Iodoform needs $\\ce{CH3CO-}$.",
     "stars": 3,
     "tags": [
@@ -152,10 +149,43 @@
     "id": "no-alpha-cannizzaro",
     "kind": "mnemonic",
     "title": "No α-H? Cannizzaro comes",
-    "tex": "\\alpha\\text{-H}\\to\\text{aldol}\\qquad\\text{no }\\alpha\\text{-H}\\to\\text{Cannizzaro}",
+    "tex": "\\begin{gathered}\\alpha\\text{-H}\\to\\text{aldol}\\\\ \\text{no }\\alpha\\text{-H}\\to\\text{Cannizzaro}\\end{gathered}",
     "back": "Check for α-hydrogen before writing anything: dilute alkali aldol, concentrated alkali Cannizzaro.",
     "tags": [
       "mnemonic"
+    ]
+  },
+  {
+    "id": "addition-reactivity",
+    "kind": "formula",
+    "title": "Reactivity towards nucleophiles",
+    "tex": "\\begin{gathered}\\ce{HCHO}>\\ce{CH3CHO}\\\\ >\\ce{CH3COCH3}\\end{gathered}",
+    "back": "Aldehydes beat ketones: less crowding and fewer electron-releasing alkyl groups on the carbonyl carbon.",
+    "stars": 3,
+    "tags": [
+      "order"
+    ]
+  },
+  {
+    "id": "nh2z",
+    "kind": "formula",
+    "title": "Ammonia derivatives",
+    "tex": "\\begin{gathered}\\ce{{>}C=O + H2N-Z}\\\\ \\ce{-> {>}C=N-Z + H2O}\\end{gathered}",
+    "back": "Hydroxylamine → oxime; hydrazine → hydrazone; phenylhydrazine → phenylhydrazone; semicarbazide → semicarbazone; 2,4-DNP → orange precipitate.",
+    "stars": 2,
+    "tags": [
+      "equation"
+    ]
+  },
+  {
+    "id": "iodoform",
+    "kind": "formula",
+    "title": "Iodoform test",
+    "tex": "\\begin{gathered}\\ce{CH3CO-}\\ \\text{or}\\ \\ce{CH3CH(OH)-}\\\\ \\xrightarrow{\\ce{I2}/\\text{NaOH}}\\ \\ce{CHI3}\\ (\\text{yellow})\\end{gathered}",
+    "back": "Positive: ethanal, ethanol, propanone, acetophenone, propan-2-ol. Negative: methanal, propanal, pentan-3-one, benzaldehyde.",
+    "stars": 3,
+    "tags": [
+      "test"
     ]
   }
 ]

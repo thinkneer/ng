@@ -15,11 +15,8 @@
     "id": "hoffmann",
     "kind": "formula",
     "title": "Hoffmann bromamide degradation",
-    "tex": "\\ce{RCONH2 + Br2 + 4NaOH -> RNH2 + Na2CO3 + 2NaBr + 2H2O}",
-    "legend": [
-      "product = amine with one carbon fewer"
-    ],
-    "back": "Use it to step down a carbon chain.",
+    "tex": "\\begin{gathered}\\ce{RCONH2 + Br2 + 4NaOH}\\\\ \\ce{-> RNH2 + Na2CO3}\\\\ \\ce{+ 2NaBr + 2H2O}\\end{gathered}",
+    "back": "The amine has one carbon fewer than the amide: use it to step down a carbon chain.",
     "stars": 3,
     "tags": [
       "named"
@@ -29,11 +26,8 @@
     "id": "gabriel",
     "kind": "formula",
     "title": "Gabriel phthalimide synthesis",
-    "tex": "\\text{phthalimide}\\xrightarrow{\\text{KOH}}\\xrightarrow{\\ce{RX}}\\xrightarrow{\\text{NaOH(aq)}}\\ce{RNH2}",
-    "legend": [
-      "gives = pure 1° aliphatic amines"
-    ],
-    "back": "Cannot make aniline: aryl halides do not undergo nucleophilic substitution.",
+    "tex": "\\begin{gathered}\\text{phthalimide}\\xrightarrow{\\text{KOH}}\\\\ \\xrightarrow{\\ce{RX}}\\xrightarrow{\\text{NaOH(aq)}}\\ce{RNH2}\\end{gathered}",
+    "back": "Gives pure primary aliphatic amines only. Cannot make aniline: aryl halides do not undergo nucleophilic substitution.",
     "stars": 3,
     "tags": [
       "named"
@@ -43,9 +37,9 @@
     "id": "carbylamine",
     "kind": "formula",
     "title": "Carbylamine reaction",
-    "tex": "\\ce{RNH2 + CHCl3 + 3KOH -> RNC + 3KCl + 3H2O}",
+    "tex": "\\begin{gathered}\\ce{RNH2 + CHCl3 + 3KOH}\\\\ \\ce{-> RNC + 3KCl + 3H2O}\\end{gathered}",
     "legend": [
-      "RNC = isocyanide, foul smell"
+      "\\ce{RNC} = isocyanide, foul smell"
     ],
     "back": "Test for primary amines only.",
     "stars": 3,
@@ -57,7 +51,7 @@
     "id": "diazotisation",
     "kind": "formula",
     "title": "Diazotisation",
-    "tex": "\\ce{C6H5NH2 + NaNO2 + 2HCl ->[273-278 K] C6H5N2+Cl- + NaCl + 2H2O}",
+    "tex": "\\begin{gathered}\\ce{C6H5NH2 + NaNO2 + 2HCl}\\\\ \\ce{->[273-278 K] C6H5N2+Cl-}\\\\ \\ce{+ NaCl + 2H2O}\\end{gathered}",
     "legend": [
       "T = 273–278 K (ice cold)"
     ],
@@ -71,9 +65,9 @@
     "id": "replacements",
     "kind": "formula",
     "title": "Replacing –N₂⁺",
-    "tex": "\\ce{CuCl}\\to\\ce{ArCl}\\quad\\ce{CuCN}\\to\\ce{ArCN}\\quad\\ce{KI}\\to\\ce{ArI}\\quad\\ce{H2O}\\to\\ce{ArOH}\\quad\\ce{H3PO2}\\to\\ce{ArH}",
+    "tex": "\\begin{gathered}\\ce{CuCl}\\to\\ce{ArCl}\\quad\\ce{CuCN}\\to\\ce{ArCN}\\\\ \\ce{KI}\\to\\ce{ArI}\\quad\\ce{H2O}\\to\\ce{ArOH}\\\\ \\ce{H3PO2}\\to\\ce{ArH}\\end{gathered}",
     "legend": [
-      "CuX = Sandmeyer; Cu + HX = Gattermann"
+      "\\ce{CuX} = Sandmeyer; Cu + HX = Gattermann"
     ],
     "back": "Nitrogen gas is lost each time; $\\ce{HBF4}$ then heat gives ArF.",
     "stars": 3,
@@ -85,11 +79,8 @@
     "id": "coupling",
     "kind": "formula",
     "title": "Coupling reaction",
-    "tex": "\\ce{C6H5N2+Cl- + C6H5OH ->[OH-] p-HOC6H4N=NC6H5}",
-    "legend": [
-      "product = p-hydroxyazobenzene, orange"
-    ],
-    "back": "Attack at the para position; with aniline (weak acid) the yellow p-aminoazobenzene forms.",
+    "tex": "\\begin{gathered}\\ce{C6H5N2+Cl- + C6H5OH}\\\\ \\ce{->[OH-] p-HOC6H4N=NC6H5}\\end{gathered}",
+    "back": "Product: p-hydroxyazobenzene, an orange dye; attack at the para position. With aniline (weak acid) the yellow p-aminoazobenzene forms.",
     "stars": 2,
     "tags": [
       "named"
@@ -99,9 +90,9 @@
     "id": "basicity-orders",
     "kind": "formula",
     "title": "Basicity in water",
-    "tex": "\\ce{(C2H5)2NH}>\\ce{(C2H5)3N}>\\ce{C2H5NH2}>\\ce{NH3}>\\ce{C6H5NH2}",
+    "tex": "\\begin{gathered}\\ce{(C2H5)2NH}>\\ce{(C2H5)3N}\\\\ >\\ce{C2H5NH2}>\\ce{NH3}>\\ce{C6H5NH2}\\end{gathered}",
     "legend": [
-      "methyl order = 2° > 1° > 3° > NH₃"
+      "\\ce{CH3} = methyl order 2° > 1° > 3° > NH₃"
     ],
     "back": "Balance of inductive effect, solvation by H-bonding and crowding. Gas phase: 3° > 2° > 1°.",
     "stars": 3,
@@ -113,7 +104,7 @@
     "id": "hinsberg",
     "kind": "compare",
     "title": "Hinsberg's test",
-    "tex": "1^\\circ\\ \\text{soluble}\\quad 2^\\circ\\ \\text{insoluble}\\quad 3^\\circ\\ \\text{no reaction}",
+    "tex": "\\begin{gathered}1^\\circ:\\ \\text{soluble in alkali}\\\\ 2^\\circ:\\ \\text{insoluble}\\\\ 3^\\circ:\\ \\text{no reaction}\\end{gathered}",
     "back": "The primary product still has an acidic N–H, so it dissolves in alkali.",
     "stars": 3,
     "tags": [
@@ -125,7 +116,7 @@
     "id": "protect-aniline",
     "kind": "process",
     "title": "Why acetylate aniline first?",
-    "tex": "\\ce{C6H5NH2 ->[(CH3CO)2O] C6H5NHCOCH3 ->[Br2] p-Br\\ product ->[H3O+] p-BrC6H4NH2}",
+    "tex": "\\begin{gathered}\\ce{C6H5NH2}\\\\ \\ce{->[(CH3CO)2O] C6H5NHCOCH3}\\\\ \\ce{->[Br2] p-BrC6H4NHCOCH3}\\\\ \\ce{->[H3O+] p-BrC6H4NH2}\\end{gathered}",
     "back": "Acetylation tames the –NH₂ group: no oxidation, no anilinium ion, mainly the para product.",
     "stars": 2,
     "tags": [
@@ -136,10 +127,43 @@
     "id": "do-ek-teen",
     "kind": "mnemonic",
     "title": "Do–Ek–Teen, Do–Teen–Ek",
-    "tex": "\\text{Me: }2^\\circ>1^\\circ>3^\\circ\\qquad\\text{Et: }2^\\circ>3^\\circ>1^\\circ",
+    "tex": "\\begin{gathered}\\text{Me: }2^\\circ>1^\\circ>3^\\circ\\\\ \\text{Et: }2^\\circ>3^\\circ>1^\\circ\\end{gathered}",
     "back": "Methylamines do–ek–teen; ethylamines do–teen–ek. Ammonia comes after all of them, aniline last.",
     "tags": [
       "mnemonic"
+    ]
+  },
+  {
+    "id": "amine-bp",
+    "kind": "formula",
+    "title": "Boiling points of amines",
+    "tex": "\\begin{gathered}1^\\circ>2^\\circ>3^\\circ\\\\ \\text{amines}<\\text{alcohols}\\end{gathered}",
+    "back": "1° and 2° amines hydrogen-bond through N–H; 3° cannot. N–H···N bonds are weaker than O–H···O, so amines boil below alcohols.",
+    "stars": 2,
+    "tags": [
+      "reason"
+    ]
+  },
+  {
+    "id": "aniline-no-fc",
+    "kind": "formula",
+    "title": "Why no Friedel–Crafts on aniline",
+    "tex": "\\begin{gathered}\\ce{C6H5NH2 + AlCl3}\\\\ \\to\\ \\text{salt}\\end{gathered}",
+    "back": "Aniline is a base and binds the Lewis acid catalyst; the N becomes positive and deactivates the ring.",
+    "stars": 2,
+    "tags": [
+      "reason"
+    ]
+  },
+  {
+    "id": "sandmeyer-vs-gattermann",
+    "kind": "compare",
+    "title": "Sandmeyer vs Gattermann",
+    "tex": "\\begin{gathered}\\text{Sandmeyer: }\\ce{CuCl/HCl}\\\\ \\text{Gattermann: }\\ce{Cu/HCl}\\end{gathered}",
+    "back": "Both replace –N₂⁺ by Cl or Br; Sandmeyer uses a copper(I) salt, Gattermann copper powder with the acid (lower yield).",
+    "stars": 2,
+    "tags": [
+      "compare"
     ]
   }
 ]

@@ -39,9 +39,9 @@
     "title": "Open-chain glucose",
     "tex": "\\ce{CHO-(CHOH)4-CH2OH}",
     "legend": [
-      "HI → n-hexane = straight chain",
-      "Br₂ water → gluconic acid = –CHO",
-      "acetylation = five –OH"
+      "\\ce{HI} = n-hexane: straight chain",
+      "\\ce{Br2} = water gives gluconic acid: –CHO",
+      "\\ce{Ac2O} = pentaacetate: five –OH"
     ],
     "back": "Nitric acid gives saccharic acid (primary –CH₂OH); oxime and cyanohydrin show the carbonyl.",
     "stars": 3,
@@ -54,11 +54,8 @@
     "id": "why-cyclic",
     "kind": "formula",
     "title": "Why glucose must be cyclic",
-    "tex": "\\text{no Schiff test}\\quad\\text{no }\\ce{NaHSO3}\\text{ adduct}\\quad \\alpha,\\beta\\text{ forms}",
-    "legend": [
-      "explanation = C5–OH and C1 form a hemiacetal ring"
-    ],
-    "back": "The pentaacetate also does not react with hydroxylamine: no free –CHO.",
+    "tex": "\\begin{gathered}\\text{no Schiff test}\\\\ \\text{no }\\ce{NaHSO3}\\text{ adduct}\\\\ \\alpha\\text{ and }\\beta\\text{ forms}\\end{gathered}",
+    "back": "Explained by a ring: the C5–OH adds to C1 to form a hemiacetal. The pentaacetate also does not react with hydroxylamine: no free –CHO.",
     "stars": 2,
     "tags": [
       "reason"
@@ -68,7 +65,7 @@
     "id": "disaccharides",
     "kind": "compare",
     "title": "Sucrose, maltose, lactose",
-    "tex": "\\text{sucrose: non-reducing}\\quad\\text{maltose, lactose: reducing}",
+    "tex": "\\begin{gathered}\\text{sucrose: non-reducing}\\\\ \\text{maltose, lactose: reducing}\\end{gathered}",
     "back": "Sucrose: glucose C1–fructose C2. Maltose: 2 α-glucose C1–C4. Lactose: galactose + glucose C1–C4. Sucrose hydrolysis gives invert sugar.",
     "stars": 3,
     "tags": [
@@ -106,7 +103,7 @@
     "title": "Peptide bond",
     "tex": "\\ce{-CO-NH-}",
     "legend": [
-      "formed = –COOH of one + –NH₂ of next, losing H₂O"
+      "\\ce{H2O} = lost when –COOH meets –NH₂"
     ],
     "back": "Primary structure = sequence of amino acids joined by peptide bonds.",
     "stars": 2,
@@ -118,7 +115,7 @@
     "id": "denaturation",
     "kind": "process",
     "title": "Denaturation",
-    "tex": "\\text{2°, 3° structure lost}\\qquad\\text{1° structure kept}",
+    "tex": "\\begin{gathered}2^\\circ,\\ 3^\\circ\\ \\text{structure lost}\\\\ 1^\\circ\\ \\text{structure kept}\\end{gathered}",
     "back": "Heat or pH breaks H-bonds; activity is lost. Examples: boiled egg, curdled milk.",
     "stars": 3,
     "tags": [
@@ -129,9 +126,9 @@
     "id": "vitamins",
     "kind": "formula",
     "title": "Vitamin deficiencies",
-    "tex": "\\text{A: night blindness}\\quad\\text{C: scurvy}\\quad\\text{D: rickets}\\quad\\ce{B12}\\text{: pernicious anaemia}",
+    "tex": "\\begin{gathered}\\text{A: night blindness}\\\\ \\text{C: scurvy}\\quad\\text{D: rickets}\\\\ \\ce{B12}\\text{: pernicious anaemia}\\end{gathered}",
     "legend": [
-      "fat-soluble = A, D, E, K"
+      "\\text{ADEK} = fat-soluble"
     ],
     "back": "$\\ce{B1}$ beriberi, $\\ce{B2}$ cheilosis, $\\ce{B6}$ convulsions, E fragile red cells, K slow clotting.",
     "stars": 2,
@@ -143,7 +140,7 @@
     "id": "dna-vs-rna",
     "kind": "compare",
     "title": "DNA vs RNA",
-    "tex": "\\text{deoxyribose, T, double}\\quad\\text{vs}\\quad\\text{ribose, U, single}",
+    "tex": "\\begin{gathered}\\text{DNA: deoxyribose, T, double}\\\\ \\text{RNA: ribose, U, single}\\end{gathered}",
     "back": "DNA stores information; RNA (m, r, t) carries out protein synthesis.",
     "stars": 3,
     "tags": [
@@ -155,10 +152,32 @@
     "id": "adek-deck",
     "kind": "mnemonic",
     "title": "ADEK = a deck",
-    "tex": "\\text{A, D, E, K: fat-soluble}",
+    "tex": "\\begin{gathered}\\text{A, D, E, K:}\\\\ \\text{fat-soluble}\\end{gathered}",
     "back": "Stored in fat (a deck kept in the drawer); B and C are water-soluble and excreted.",
     "tags": [
       "mnemonic"
+    ]
+  },
+  {
+    "id": "nucleoside-nucleotide",
+    "kind": "compare",
+    "title": "Nucleoside vs nucleotide",
+    "tex": "\\begin{gathered}\\text{nucleoside: sugar + base}\\\\ \\text{nucleotide: + phosphate}\\end{gathered}",
+    "back": "Nucleotides join by phosphodiester links between C5′ and C3′ of the sugars to make nucleic acids.",
+    "stars": 2,
+    "tags": [
+      "definition"
+    ]
+  },
+  {
+    "id": "blood-glucose-hormones",
+    "kind": "formula",
+    "title": "Hormones and blood glucose",
+    "tex": "\\begin{gathered}\\text{insulin}:\\ \\text{glucose}\\downarrow\\\\ \\text{glucagon}:\\ \\text{glucose}\\uparrow\\end{gathered}",
+    "back": "Both from the pancreas. Thyroxine contains iodine; its shortage causes hypothyroidism and goitre.",
+    "stars": 2,
+    "tags": [
+      "concept"
     ]
   }
 ]
