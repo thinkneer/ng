@@ -78,7 +78,8 @@ for (const ch of chapters) {
 
 // ---- browser checks ----
 const require = createRequire(import.meta.url);
-const pw = require('playwright');
+let pw;
+try { pw = require('playwright'); } catch { try { pw = require('@playwright/test'); } catch { console.error('content-check needs Playwright: run `npm i -g playwright` (Chrome at /usr/bin/google-chrome is used if no Playwright browser is installed).'); process.exit(2); } }
 const PORT = 4300 + Math.floor(Math.random() * 400);
 const server = spawn(process.execPath, [join(ROOT, 'scripts/serve.mjs'), String(PORT), '--test'], { stdio: 'ignore' });
 const BASE = `http://localhost:${PORT}/ng/`;
@@ -87,7 +88,7 @@ process.on('exit', cleanup);
 for (let i = 0; i < 50; i++) { try { const r = await fetch(BASE); if (r.ok) break; } catch {} await new Promise((r) => setTimeout(r, 100)); }
 
 let browser;
-try { browser = await pw.chromium.launch(); } catch { browser = await pw.chromium.launch({ executablePath: '/usr/bin/google-chrome' }); }
+try { browser = await pw.chromium.launch(); } catch { try { browser = await pw.chromium.launch({ executablePath: '/usr/bin/google-chrome' }); } catch (e) { console.error(`content-check could not start a browser: ${e.message.split('\n')[0]}. Try \`npx playwright install chromium\`.`); cleanup(); process.exit(2); } }
 const ctx = await browser.newContext({ viewport: { width: W, height: H }, deviceScaleFactor: 2, isMobile: true, hasTouch: true, reducedMotion: 'reduce', serviceWorkers: 'block' });
 const page = await ctx.newPage();
 const pageErrors = [];
