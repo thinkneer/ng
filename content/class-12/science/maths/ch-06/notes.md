@@ -161,7 +161,7 @@ prompt: f′(c) = 0 and f″(c) < 0. Maximum or minimum?
 ```ng-compare
 id: local-vs-absolute
 title: Local vs absolute extreme values
-cols: Local | Absolute (on $[a,b]$)
+cols: Local | Absolute (closed interval)
 row: Where to look | critical points only | critical points **and** the end points $a$, $b$
 row: Test | sign change of $f'$, or sign of $f''$ | no test: just compare the values of $f$
 row: How many | can be several | one greatest value, one least value

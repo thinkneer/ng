@@ -302,5 +302,24 @@
   ],
   "topic": "Vectors as displacements",
   "hint": "A direction $30^\\circ$ east of north has east component $3\\sin30^\\circ$ and north component $3\\cos30^\\circ$."
+ },
+ {
+  "id": "maths-w20261115-ch-10-01",
+  "chapter": "ch-10",
+  "type": "mcq",
+  "marks": 1,
+  "stars": 2,
+  "label": "PYQ-style",
+  "stem": "If $\\vec a$ and $\\vec b$ are unit vectors such that $\\vec a\\cdot\\vec b=0$, then $|\\vec a-\\vec b|$ equals",
+  "options": [
+   "$\\sqrt2$",
+   "$1$",
+   "$2$",
+   "$0$"
+  ],
+  "answer": "A",
+  "model_answer": "**(A)** $|\\vec a-\\vec b|^2=|\\vec a|^2+|\\vec b|^2-2\\,\\vec a\\cdot\\vec b=1+1-0=2$, so $|\\vec a-\\vec b|=\\sqrt2$.",
+  "topic": "Magnitude and dot product",
+  "hint": "Square the magnitude and expand using $|\\vec a-\\vec b|^2=(\\vec a-\\vec b)\\cdot(\\vec a-\\vec b)$."
  }
 ]

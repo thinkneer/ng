@@ -54,7 +54,7 @@
     "id": "feasible-region",
     "kind": "formula",
     "title": "Feasible region",
-    "tex": "\\text{common region of all constraints, with } x\\ge0,\\ y\\ge0",
+    "tex": "\\begin{gathered}\\text{common region of all}\\\\ \\text{constraints, with } x,y\\ge0\\end{gathered}",
     "back": "Every point in it is a feasible solution. It is always convex. Bounded = can be enclosed in a circle.",
     "stars": 2
   },
@@ -62,7 +62,7 @@
     "id": "corner-point-theorem",
     "kind": "formula",
     "title": "Corner-point theorem",
-    "tex": "\\text{optimal value of } Z\\ \\Rightarrow\\ \\text{at a corner point}",
+    "tex": "\\begin{gathered}\\text{optimal value of } Z\\\\ \\Rightarrow\\ \\text{at a corner point}\\end{gathered}",
     "back": "If the region is bounded, both a maximum and a minimum exist, each at a corner.",
     "stars": 3
   },
@@ -70,7 +70,7 @@
     "id": "unbounded-check",
     "kind": "formula",
     "title": "Unbounded region: the extra check",
-    "tex": "ax+by>M\\ \\text{ has no point in the region}\\ \\Rightarrow\\ M\\text{ is the maximum}",
+    "tex": "\\begin{gathered}ax+by>M\\\\ \\text{no point of the region}\\\\ \\Rightarrow\\ M\\text{ is the maximum}\\end{gathered}",
     "legend": [
       "M = largest corner value of Z"
     ],

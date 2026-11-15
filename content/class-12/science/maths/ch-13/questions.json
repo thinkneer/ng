@@ -294,5 +294,65 @@
   ],
   "topic": "Total probability and Bayes' theorem",
   "hint": "Part (ii) is total probability; part (iii) divides one path by that total."
+ },
+ {
+  "id": "maths-w20261115-ch-13-01",
+  "chapter": "ch-13",
+  "type": "la5",
+  "marks": 5,
+  "stars": 3,
+  "label": "PYQ-style",
+  "stem": "Bag I contains $3$ red and $4$ black balls, and Bag II contains $2$ red and $3$ black balls. A bag is chosen at random and a ball is drawn from it. The ball drawn is red. Find the probability that it was drawn from Bag II.",
+  "model_answer": "*How much to write: about 12 lines · 8 minutes. Define the events first, then apply Bayes' theorem.*\n\n**Given:** Bag I: $3$ red, $4$ black; Bag II: $2$ red, $3$ black; a bag is chosen at random; the ball is red<br>\n**To find:** $P(\\text{Bag II}\\mid\\text{red})$\n\nLet $E_1$ = Bag I is chosen, $E_2$ = Bag II is chosen, and $R$ = the ball drawn is red.\n\n$$P(E_1)=P(E_2)=\\frac12,\\qquad P(R\\mid E_1)=\\frac37,\\qquad P(R\\mid E_2)=\\frac25$$\n\nBy <u>Bayes' theorem</u>:\n\n$$P(E_2\\mid R)=\\frac{P(E_2)\\,P(R\\mid E_2)}{P(E_1)\\,P(R\\mid E_1)+P(E_2)\\,P(R\\mid E_2)}$$\n\nSubstituting, the numerator is <mark>$\\dfrac12\\times\\dfrac25=\\dfrac15$</mark> and the denominator is $\\dfrac12\\times\\dfrac37+\\dfrac15=\\dfrac{15}{70}+\\dfrac{14}{70}=\\dfrac{29}{70}$:\n\n$$P(E_2\\mid R)=\\frac{\\dfrac15}{\\dfrac{29}{70}}=\\frac{14}{70}\\times\\frac{70}{29}$$\n\n$$\\boxed{P(\\text{Bag II}\\mid\\text{red})=\\dfrac{14}{29}}$$\n\n:::tip Your answer must contain\n- the two events defined in words, with $P(E_1)=P(E_2)=\\tfrac12$\n- the two conditional probabilities $\\tfrac37$ and $\\tfrac25$\n- the <u>denominator</u> as the total probability of a red ball\n- the boxed answer as a fraction in lowest terms\n:::\n\n**Marks are lost for:** leaving out $\\tfrac12$ for choosing a bag; writing $P(R\\cap E_2)=\\tfrac15$ as the answer; not defining the events.",
+  "scheme": [
+   {
+    "step": "Events $E_1$ (Bag I), $E_2$ (Bag II) and $R$ (red) defined",
+    "marks": 1
+   },
+   {
+    "step": "$P(E_1)=P(E_2)=\\dfrac12$; $P(R\\mid E_1)=\\dfrac37$, $P(R\\mid E_2)=\\dfrac25$",
+    "marks": 1
+   },
+   {
+    "step": "Bayes' theorem for $P(E_2\\mid R)$ with the total probability in the denominator",
+    "marks": 1
+   },
+   {
+    "step": "Substitution: $\\dfrac{\\frac15}{\\frac{29}{70}}$",
+    "marks": 1
+   },
+   {
+    "step": "Answer $\\dfrac{14}{29}$",
+    "marks": 1
+   }
+  ],
+  "topic": "Bayes' theorem",
+  "hint": "The denominator adds the chance of a red ball from each bag; the numerator is the Bag II part of that sum."
+ },
+ {
+  "id": "maths-w20261115-ch-13-02",
+  "chapter": "ch-13",
+  "type": "sa3",
+  "marks": 3,
+  "stars": 3,
+  "label": "PYQ-style",
+  "stem": "Two fair dice are thrown. Given that at least one die shows a $6$, find the probability that the sum of the two numbers is at least $10$.",
+  "model_answer": "*How much to write: about 8 lines · 5 minutes. List the favourable outcomes; do not estimate them.*\n\n**Given:** two fair dice; $E$ = at least one die shows $6$; $F$ = sum $\\ge10$<br>\n**To find:** $P(F\\mid E)$\n\n**Sample space for the condition.** The outcomes with a $6$ are $(6,1),\\dots,(6,6)$ and $(1,6),\\dots,(5,6)$, so <u>$n(E)=11$</u>.\n\n**Favourable outcomes.** Among these, the sum is at least $10$ for <mark>$(4,6),\\ (5,6),\\ (6,4),\\ (6,5),\\ (6,6)$</mark>: $n(E\\cap F)=5$.\n\n$$P(F\\mid E)=\\frac{n(E\\cap F)}{n(E)}=\\frac{5}{11}$$\n\n$$\\boxed{P(F\\mid E)=\\dfrac{5}{11}}$$\n\n:::tip Your answer must contain\n- the count $11$ for the condition, shown with its outcomes\n- the <mark>five</mark> favourable outcomes, listed\n- the boxed answer as a fraction\n:::\n\n**Marks are lost for:** using $36$ as the denominator (the condition shrinks the sample space); missing $(6,4)$ or $(4,6)$; a decimal answer without the fraction.",
+  "scheme": [
+   {
+    "step": "11 outcomes in which at least one die shows 6",
+    "marks": 1
+   },
+   {
+    "step": "5 of them have sum at least 10",
+    "marks": 1
+   },
+   {
+    "step": "$P(F\\mid E)=\\dfrac{5}{11}$",
+    "marks": 1
+   }
+  ],
+  "topic": "Conditional probability with dice",
+  "hint": "The condition shrinks the sample space: count the outcomes with a $6$ first, then the ones with sum at least $10$ among them."
  }
 ]

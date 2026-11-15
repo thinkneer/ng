@@ -294,5 +294,50 @@
   ],
   "topic": "Lines in space",
   "hint": "Shortest distance: $\\left|\\dfrac{(\\vec a_2-\\vec a_1)\\cdot(\\vec b_1\\times\\vec b_2)}{|\\vec b_1\\times\\vec b_2|}\\right|$."
+ },
+ {
+  "id": "maths-w20261115-ch-11-01",
+  "chapter": "ch-11",
+  "type": "mcq",
+  "marks": 1,
+  "stars": 2,
+  "label": "PYQ-style",
+  "stem": "The direction cosines of a line with direction ratios $2,-2,1$ are",
+  "options": [
+   "$\\dfrac23,-\\dfrac23,\\dfrac13$",
+   "$2,-2,1$",
+   "$\\dfrac13,-\\dfrac13,\\dfrac23$",
+   "$\\dfrac23,\\dfrac23,\\dfrac13$"
+  ],
+  "answer": "A",
+  "model_answer": "**(A)** $\\sqrt{2^2+(-2)^2+1^2}=3$, so the direction cosines are $\\dfrac23,\\ -\\dfrac23,\\ \\dfrac13$. Option B gives the ratios, not the cosines.",
+  "topic": "Direction cosines",
+  "hint": "Divide each ratio by $\\sqrt{a^2+b^2+c^2}$."
+ },
+ {
+  "id": "maths-w20261115-ch-11-02",
+  "chapter": "ch-11",
+  "type": "sa3",
+  "marks": 3,
+  "stars": 3,
+  "label": "PYQ-style",
+  "stem": "Find the acute angle between the lines $\\dfrac{x-1}{1}=\\dfrac{y-2}{2}=\\dfrac{z-3}{2}$ and $\\dfrac{x+2}{2}=\\dfrac{y-1}{3}=\\dfrac{z-4}{6}$.",
+  "model_answer": "*How much to write: about 8 lines · 6 minutes. Read the direction ratios from the symmetric form; the points are not needed.*\n\n**Given:** direction ratios $\\vec b_1=(1,2,2)$ and $\\vec b_2=(2,3,6)$<br>\n**To find:** the <u>acute</u> angle $\\theta$ between the lines\n\n**Magnitudes and dot product.**\n\n$$\\begin{aligned}|\\vec b_1|&=\\sqrt{1+4+4}=3\\\\ |\\vec b_2|&=\\sqrt{4+9+36}=7\\end{aligned}$$\n\n$$\\vec b_1\\cdot\\vec b_2=2+6+12=20$$\n\n**Formula with the modulus** (so that $\\theta$ is acute):\n\n$$\\cos\\theta=\\frac{|\\vec b_1\\cdot\\vec b_2|}{|\\vec b_1|\\,|\\vec b_2|}=\\frac{20}{3\\times7}=\\frac{\\mathbf{20}}{\\mathbf{21}}$$\n\n$$\\boxed{\\theta=\\cos^{-1}\\dfrac{20}{21}\\approx17.8^\\circ}$$\n\n:::tip Your answer must contain\n- the direction ratios read from the <u>symmetric form</u>, with their signs\n- the dot product and both magnitudes, shown separately\n- the modulus in the formula, so the angle is <mark>acute</mark>\n- the boxed angle as $\\cos^{-1}$ of a fraction\n:::\n\n**Marks are lost for:** taking the coordinates of the points as direction ratios; leaving out the modulus, which gives an obtuse angle; stopping at $\\cos\\theta$ without the angle.",
+  "scheme": [
+   {
+    "step": "Direction ratios $(1,2,2)$ and $(2,3,6)$; magnitudes $3$ and $7$",
+    "marks": 1
+   },
+   {
+    "step": "Dot product $20$ and $\\cos\\theta=\\dfrac{20}{21}$ (with the modulus)",
+    "marks": 1
+   },
+   {
+    "step": "Acute angle $\\theta=\\cos^{-1}\\dfrac{20}{21}$",
+    "marks": 1
+   }
+  ],
+  "topic": "Angle between two lines",
+  "hint": "Read $(1,2,2)$ and $(2,3,6)$ from the denominators, then use $\\cos\\theta=\\dfrac{|\\vec b_1\\cdot\\vec b_2|}{|\\vec b_1||\\vec b_2|}$."
  }
 ]

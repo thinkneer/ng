@@ -93,8 +93,8 @@ $\vec a_2-\vec a_1$ and the common $\vec b$ [½] → $\vec b\times(\vec a_2-\vec
 - Direction cosines of the $x$-axis: $1,0,0$.
 - Line making $90^\circ$, $135^\circ$, $45^\circ$ with the axes: $0,\ -\dfrac{1}{\sqrt2},\ \dfrac{1}{\sqrt2}$.
 - Line equally inclined to the axes: $\pm\dfrac{1}{\sqrt3}$ each.
-- $\cos^2\alpha+\cos^2\beta+\cos^2\gamma$: equals $1$.
-- $\sin^2\alpha+\sin^2\beta+\sin^2\gamma$: equals $2$.
+- Sum of $\cos^2\alpha+\cos^2\beta+\cos^2\gamma$: equals $1$.
+- Sum of $\sin^2\alpha+\sin^2\beta+\sin^2\gamma$: equals $2$.
 - The numbers $1,1,1$: can be direction ratios but not direction cosines.
 - Distance of $(a,b,c)$ from the $x$-axis: $\sqrt{b^2+c^2}$.
 - Distance of $(a,b,c)$ from the $y$-axis: $\sqrt{a^2+c^2}$.

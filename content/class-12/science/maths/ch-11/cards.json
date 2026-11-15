@@ -54,7 +54,7 @@
     "title": "Line: Cartesian form",
     "tex": "\\dfrac{x-x_1}{a}=\\dfrac{y-y_1}{b}=\\dfrac{z-z_1}{c}",
     "legend": [
-      "(x_1, y_1, z_1) = point on the line",
+      "P = point (x_1, y_1, z_1) on the line",
       "a, b, c = direction ratios"
     ],
     "back": "Read them only after each numerator looks like $x-x_1$ with coefficient $+1$.",
@@ -72,7 +72,7 @@
     "id": "angle-between-lines",
     "kind": "formula",
     "title": "Angle between two lines",
-    "tex": "\\cos\\theta=\\dfrac{|a_1a_2+b_1b_2+c_1c_2|}{\\sqrt{a_1^2+b_1^2+c_1^2}\\,\\sqrt{a_2^2+b_2^2+c_2^2}}",
+    "tex": "\\begin{gathered}\\cos\\theta=\\dfrac{\\lvert a_1a_2+b_1b_2+c_1c_2\\rvert}{D_1D_2}\\\\ D_i=\\sqrt{a_i^2+b_i^2+c_i^2}\\end{gathered}",
     "back": "Perpendicular: $a_1a_2+b_1b_2+c_1c_2=0$. Parallel: $\\dfrac{a_1}{a_2}=\\dfrac{b_1}{b_2}=\\dfrac{c_1}{c_2}$.",
     "stars": 3
   },

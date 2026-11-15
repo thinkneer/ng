@@ -16,7 +16,7 @@
     "title": "Magnitude of a vector",
     "tex": "|\\vec a|=\\sqrt{a_1^2+a_2^2+a_3^2}",
     "legend": [
-      "a_1, a_2, a_3 = components along the axes"
+      "a_i = component along axis i"
     ],
     "back": "Vector joining $P$ to $Q$: $\\vec{PQ}$ = position vector of $Q$ − position vector of $P$."
   },
@@ -43,7 +43,7 @@
     "id": "dot-product",
     "kind": "formula",
     "title": "Dot product",
-    "tex": "\\vec a\\cdot\\vec b=a_1b_1+a_2b_2+a_3b_3=|\\vec a||\\vec b|\\cos\\theta",
+    "tex": "\\begin{gathered}\\vec a\\cdot\\vec b=a_1b_1+a_2b_2+a_3b_3\\\\ =|\\vec a||\\vec b|\\cos\\theta\\end{gathered}",
     "back": "A scalar. $\\vec a\\cdot\\vec a=\\lvert\\vec a\\rvert^2$. $\\hat i\\cdot\\hat i=1$, $\\hat i\\cdot\\hat j=0$.",
     "stars": 3
   },
@@ -86,7 +86,7 @@
     "id": "area-parallelogram",
     "kind": "formula",
     "title": "Areas from the cross product",
-    "tex": "\\text{parallelogram}=|\\vec a\\times\\vec b|\\qquad\\text{triangle}=\\dfrac12|\\vec a\\times\\vec b|",
+    "tex": "\\begin{gathered}\\text{parallelogram}=|\\vec a\\times\\vec b|\\\\ \\text{triangle}=\\dfrac12|\\vec a\\times\\vec b|\\end{gathered}",
     "back": "With diagonals $\\vec d_1$, $\\vec d_2$ of a parallelogram: area $=\\dfrac12\\lvert\\vec d_1\\times\\vec d_2\\rvert$.",
     "stars": 3,
     "tags": [

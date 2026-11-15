@@ -39,7 +39,7 @@
     "id": "equivalence-relation",
     "kind": "formula",
     "title": "Equivalence relation",
-    "tex": "\\text{reflexive}+\\text{symmetric}+\\text{transitive}",
+    "tex": "\\begin{gathered}\\text{reflexive}+\\text{symmetric}\\\\ +\\text{transitive}\\end{gathered}",
     "back": "Prove all three, each with its own line and conclusion: 1 mark each in a 3-marker.",
     "stars": 3,
     "tags": [

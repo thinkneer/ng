@@ -35,7 +35,7 @@
     "id": "integral-of-root",
     "kind": "formula",
     "title": "√(a² − x²)",
-    "tex": "\\int\\sqrt{a^2-x^2}\\,dx=\\dfrac x2\\sqrt{a^2-x^2}+\\dfrac{a^2}{2}\\sin^{-1}\\dfrac xa+C",
+    "tex": "\\begin{gathered}\\int\\sqrt{a^2-x^2}\\,dx\\\\ =\\dfrac x2\\sqrt{a^2-x^2}\\\\ +\\dfrac{a^2}{2}\\sin^{-1}\\dfrac xa+C\\end{gathered}",
     "back": "The area integral for circles and ellipses. For $\\sqrt{x^2\\pm a^2}$: $\\dfrac x2\\sqrt{x^2\\pm a^2}\\pm\\dfrac{a^2}{2}\\log\\left\\lvert x+\\sqrt{x^2\\pm a^2}\\right\\rvert+C$.",
     "stars": 3
   },
@@ -43,7 +43,7 @@
     "id": "by-parts",
     "kind": "formula",
     "title": "Integration by parts",
-    "tex": "\\int u\\,v\\,dx=u\\int v\\,dx-\\int\\left[\\dfrac{du}{dx}\\int v\\,dx\\right]dx",
+    "tex": "\\begin{gathered}\\int u\\,v\\,dx=u\\int v\\,dx\\\\ -\\int\\left(\\dfrac{du}{dx}\\int v\\,dx\\right)dx\\end{gathered}",
     "legend": [
       "u = first function, chosen by ILATE"
     ],
@@ -54,7 +54,7 @@
     "id": "ex-f-plus-fdash",
     "kind": "formula",
     "title": "eˣ[f(x) + f′(x)]",
-    "tex": "\\int e^x\\left[f(x)+f'(x)\\right]dx=e^xf(x)+C",
+    "tex": "\\begin{gathered}\\int e^x\\left[f(x)+f'(x)\\right]dx\\\\ =e^xf(x)+C\\end{gathered}",
     "back": "Split the bracket so that one part is the derivative of the other. Example: $\\int e^x\\left(\\dfrac1x-\\dfrac{1}{x^2}\\right)dx=\\dfrac{e^x}{x}+C$.",
     "stars": 3,
     "tags": [
@@ -84,7 +84,7 @@
     "id": "even-odd-property",
     "kind": "formula",
     "title": "Limits −a to a",
-    "tex": "\\int_{-a}^{a}f(x)\\,dx=2\\int_0^af(x)\\,dx\\ \\ (f\\text{ even}),\\qquad0\\ \\ (f\\text{ odd})",
+    "tex": "\\begin{gathered}\\int_{-a}^{a}f\\,dx=2\\int_0^a f\\,dx\\\\ \\text{if } f \\text{ is even}\\\\ \\int_{-a}^{a}f\\,dx=0\\\\ \\text{if } f \\text{ is odd}\\end{gathered}",
     "back": "Check $f(-x)$ first. $\\int_{-\\pi/2}^{\\pi/2}\\sin^5x\\,dx=0$ in one line.",
     "stars": 3,
     "tags": [
@@ -106,7 +106,7 @@
     "id": "half-angle-identities",
     "kind": "formula",
     "title": "Squares of sine and cosine",
-    "tex": "\\sin^2x=\\dfrac{1-\\cos2x}{2}\\qquad\\cos^2x=\\dfrac{1+\\cos2x}{2}",
+    "tex": "\\begin{gathered}\\sin^2x=\\dfrac{1-\\cos2x}{2}\\\\ \\cos^2x=\\dfrac{1+\\cos2x}{2}\\end{gathered}",
     "back": "Lower the power before integrating. Products: $2\\sin A\\cos B=\\sin(A+B)+\\sin(A-B)$."
   }
 ]

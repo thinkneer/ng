@@ -35,7 +35,7 @@
     "id": "increasing-test",
     "kind": "formula",
     "title": "Increasing or decreasing",
-    "tex": "f'(x)>0:\\ \\text{increasing}\\qquad f'(x)<0:\\ \\text{decreasing}",
+    "tex": "\\begin{gathered}f'(x)>0\\ \\Rightarrow\\ \\text{increasing}\\\\ f'(x)<0\\ \\Rightarrow\\ \\text{decreasing}\\end{gathered}",
     "back": "On an interval. Factorise $f'$, mark its zeros, check the sign in each interval.",
     "stars": 3
   },
@@ -43,7 +43,7 @@
     "id": "first-derivative-test",
     "kind": "formula",
     "title": "First derivative test",
-    "tex": "f':\\ +\\to-\\ \\text{(max)}\\qquad -\\to+\\ \\text{(min)}",
+    "tex": "\\begin{gathered}f':\\ +\\to-\\ \\text{(max)}\\\\ f':\\ -\\to+\\ \\text{(min)}\\end{gathered}",
     "back": "No sign change at $c$: neither, a point of inflexion.",
     "stars": 2
   },
@@ -51,7 +51,7 @@
     "id": "second-derivative-test",
     "kind": "formula",
     "title": "Second derivative test",
-    "tex": "f'(c)=0,\\ f''(c)<0:\\ \\text{max}\\qquad f''(c)>0:\\ \\text{min}",
+    "tex": "\\begin{gathered}f'(c)=0,\\ f''(c)<0\\ \\Rightarrow\\ \\text{max}\\\\ f'(c)=0,\\ f''(c)>0\\ \\Rightarrow\\ \\text{min}\\end{gathered}",
     "back": "Frown = maximum, smile = minimum. $f''(c)=0$: the test fails.",
     "stars": 3
   },
@@ -59,7 +59,7 @@
     "id": "absolute-extrema",
     "kind": "formula",
     "title": "Absolute maximum and minimum on [a, b]",
-    "tex": "\\text{compare } f(a),\\ f(b),\\ f(\\text{critical points})",
+    "tex": "\\begin{gathered}\\text{compare } f(a),\\ f(b)\\\\ \\text{and } f(c) \\text{ at each critical point } c\\end{gathered}",
     "back": "Largest value = absolute maximum; smallest = absolute minimum. End points must be included.",
     "stars": 2
   },

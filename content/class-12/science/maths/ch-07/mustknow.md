@@ -138,19 +138,19 @@ Zeros and sign of the inside on each piece [1] → split the integral with the c
 
 ## Quick 1-mark facts (MCQ, A–R)
 
-- $\int e^x\left(\dfrac1x-\dfrac1{x^2}\right)dx$: $\dfrac{e^x}{x}+C$.
-- $\int e^x\sec x(1+\tan x)\,dx$: $e^x\sec x+C$.
-- $\int\dfrac{dx}{\sin^2x\cos^2x}$: $\tan x-\cot x+C$.
-- $\int\tan^2x\,dx$: $\tan x-x+C$.
-- $\int\dfrac{dx}{e^x+e^{-x}}$: $\tan^{-1}(e^x)+C$.
-- $\int_0^1\dfrac{dx}{1+x^2}$: $\dfrac\pi4$.
-- $\int_{-1}^{1}x^{17}\cos^4x\,dx$: $0$ (odd function).
-- $\int_{-1}^{1}|x|\,dx$: $1$ (even function, $2\int_0^1x\,dx$).
-- $\int_0^{\pi/2}\sin^2x\,dx$: $\dfrac\pi4$.
-- $\int_0^{\pi/2}\log\tan x\,dx$: $0$ (replace $x$ by $\frac\pi2-x$ and add).
-- $\int_0^{\pi/2}\log\sin x\,dx$: $-\dfrac\pi2\log2$.
-- $\int_a^b\dfrac{f(x)}{f(x)+f(a+b-x)}\,dx$: $\dfrac{b-a}{2}$.
-- $\dfrac{d}{dx}\int f(x)\,dx$: $f(x)$.
+- Value of $\int e^x\left(\dfrac1x-\dfrac1{x^2}\right)dx$: $\dfrac{e^x}{x}+C$.
+- Value of $\int e^x\sec x(1+\tan x)\,dx$: $e^x\sec x+C$.
+- Value of $\int\dfrac{dx}{\sin^2x\cos^2x}$: $\tan x-\cot x+C$.
+- Value of $\int\tan^2x\,dx$: $\tan x-x+C$.
+- Value of $\int\dfrac{dx}{e^x+e^{-x}}$: $\tan^{-1}(e^x)+C$.
+- Value of $\int_0^1\dfrac{dx}{1+x^2}$: $\dfrac\pi4$.
+- Value of $\int_{-1}^{1}x^{17}\cos^4x\,dx$: $0$ (odd function).
+- Value of $\int_{-1}^{1}|x|\,dx$: $1$ (even function, $2\int_0^1x\,dx$).
+- Value of $\int_0^{\pi/2}\sin^2x\,dx$: $\dfrac\pi4$.
+- Value of $\int_0^{\pi/2}\log\tan x\,dx$: $0$ (replace $x$ by $\frac\pi2-x$ and add).
+- Value of $\int_0^{\pi/2}\log\sin x\,dx$: $-\dfrac\pi2\log2$.
+- Value of $\int_a^b\dfrac{f(x)}{f(x)+f(a+b-x)}\,dx$: $\dfrac{b-a}{2}$.
+- Value of $\dfrac{d}{dx}\int f(x)\,dx$: $f(x)$.
 
 ## Mark-losing traps
 

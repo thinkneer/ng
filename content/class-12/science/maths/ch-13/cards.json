@@ -53,7 +53,7 @@
     "id": "exclusive-vs-independent",
     "kind": "compare",
     "title": "Mutually exclusive is not independent",
-    "tex": "P(A\\cap B)=0\\quad\\text{vs}\\quad P(A\\cap B)=P(A)P(B)",
+    "tex": "\\begin{gathered}P(A\\cap B)=0\\\\ \\text{(exclusive)}\\\\ P(A\\cap B)=P(A)P(B)\\\\ \\text{(independent)}\\end{gathered}",
     "back": "Two events with non-zero probabilities cannot be both. A favourite assertion–reason pair.",
     "stars": 2,
     "tags": [
@@ -66,7 +66,7 @@
     "title": "Theorem of total probability",
     "tex": "P(A)=\\sum_{j=1}^{n}P(E_j)\\,P(A|E_j)",
     "legend": [
-      "E_1, …, E_n = a partition: mutually exclusive and exhaustive causes"
+      "E_j = each cause: a partition of the sample space"
     ],
     "back": "For each route: (chance of the route) × (chance of the event on that route). Then add.",
     "stars": 3

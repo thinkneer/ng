@@ -92,6 +92,12 @@ All 13 chapters now have `cards.json` (136 cards) and interactive blocks in `not
 
 ## Exam mode (Site chat, 15 Nov 2026)
 - Live: Subject → Exam mode builds numbered 3-hour papers (P-01, P-02 …) from this subject's questions.json files, to `data/patterns/class-12/maths.json` and the unit marks in subject.json. Every question in the bank can appear; nothing extra is needed per question.
-- Bank check: For 3 fresh papers add about 6 `la5`, 2 `sa3` and a few MCQs (a paper needs 18 MCQ, 6 `la5` with ORs, 9 `sa3` with ORs). More questions = more papers before repeats; each type must keep its pattern marks (MCQ/A–R 1, vsa2 2, sa3 3, case 4, la5 5).
+- Bank check (15 Nov 2026, after the weekly refresh): 163 questions; 2 fresh papers, target 4. Add next: `la5` +10, MCQ +16, `sa3` +9, `vsa2` +1 (a paper needs 18 MCQ, 6 `la5` with ORs, 9 `sa3` with ORs). More questions = more papers before repeats; each type must keep its pattern marks (MCQ/A–R 1, vsa2 2, sa3 3, case 4, la5 5).
 - Fixed set papers (e.g. an SQP-style paper) go in `papers/<id>.json` as references to bank questions (CLAUDE.md §11).
+
+## Weekly refresh log
+- 2026-11-15 (unattended weekly run): content-check FAIL/WARN 30/79 → 7/66 (full maths run). Chapters touched: ch-01, ch-06, ch-07, ch-10, ch-11, ch-12, ch-13 (0 FAIL in each). Fixes: card formulas split with `gathered` (ch-06 ×4, ch-07 ×5, ch-10 ×2, ch-12 ×3, ch-01, ch-11, ch-13 ×2 cards), legend symbols shortened (ch-10, ch-11, ch-13), raw maths removed from table headers (ch-06, ch-10), a wide LPP table header shortened (ch-12), the by-parts formula aligned (ch-07), two-word recall fronts (ch-01, ch-06, ch-07 ×13, ch-11, ch-12). Card ids and question ids unchanged.
+- Questions added: MCQ +3 (ch-01 `maths-w20261115-ch-01-02`, ch-10 `…-ch-10-01`, ch-11 `…-ch-11-01`); `la5` +2 (ch-01 `…-ch-01-01` equivalence relation mod 4; ch-13 `…-ch-13-01` Bayes, two bags); `sa3` +2 (ch-11 `…-ch-11-02` acute angle between two lines; ch-13 `…-ch-13-02` dice, conditional probability). All PYQ-style, answer-script model answers, scheme sums checked, answers verified by computation.
+- Fresh papers 2 → 2 (MCQ in bank 53 → 56, `la5` 12 → 14, `sa3` 25 → 27).
+- Left out: the 7 remaining card FAILs in ch-02, ch-03, ch-05, ch-09 (chapter cap for this run; next run starts there); card-back WARNs (ch-06, ch-07, ch-12, ch-13); Read-page WARNs for wide formulas in ch-11 and ch-13 (the Bayes-tree block and the total-probability aligned formulas); the ch-12 wide corner-point table (still 4 columns at 424 px); the `vsa2` +1 and the 6 'answers not yet in answer-script style' per chapter (not started); the `la5` and `sa3` bank gaps in Unit III and Unit IV.
 

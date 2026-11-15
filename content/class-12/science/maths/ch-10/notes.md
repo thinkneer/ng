@@ -206,7 +206,7 @@ The scalar triple product is not in the 2026–27 syllabus.
 ```ng-compare
 id: dot-vs-cross
 title: Dot product vs cross product
-cols: Dot product $\vec a\cdot\vec b$ | Cross product $\vec a\times\vec b$
+cols: Dot product: a·b | Cross product: a×b
 row: Result | a scalar | a vector perpendicular to both
 row: Size | $\lvert\vec a\rvert\lvert\vec b\rvert\cos\theta$ | $\lvert\vec a\rvert\lvert\vec b\rvert\sin\theta$
 row: In components | $a_1b_1+a_2b_2+a_3b_3$ | a $3\times3$ determinant with $\hat i,\hat j,\hat k$ in row 1

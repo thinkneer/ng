@@ -125,7 +125,7 @@ $f'(x)=0$ [1] → sign of $f''$ at each point [1] → the values $f(c)$ [1].
 - $|x|$ at $x=0$: minimum, though not differentiable there.
 - Maximum value of $\sin x+\cos x$: $\sqrt2$.
 - Maximum value of $\sin x\cos x$: $\dfrac12$.
-- $x+\dfrac1x$: local minimum 2 at $x=1$, local maximum $-2$ at $x=-1$.
+- Extrema of $x+\dfrac1x$: local minimum 2 at $x=1$, local maximum $-2$ at $x=-1$.
 - Maximum value of $\dfrac{\log x}{x}$: $\dfrac1e$, at $x=e$.
 - Stationary point of $x^x$: $x=\dfrac1e$.
 

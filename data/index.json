@@ -1781,13 +1781,13 @@
                       },
                       "marks_hint": "about 5 marks in the 2026–27 sample paper (Unit I: 8)",
                       "summary": "Reflexive, symmetric, transitive and equivalence relations · equivalence classes · one-one and onto functions · counting",
-                      "questions": 12,
+                      "questions": 14,
                       "question_types": {
-                        "mcq": 4,
+                        "mcq": 5,
                         "ar": 2,
                         "vsa2": 2,
                         "sa3": 2,
-                        "la5": 1,
+                        "la5": 2,
                         "case": 1
                       },
                       "diagrams": [],
@@ -1801,7 +1801,7 @@
                         "numerical": 1,
                         "fill": 1
                       },
-                      "words": 2282,
+                      "words": 2286,
                       "read_minutes": 6,
                       "cards": 10,
                       "mnemonics": 2
@@ -2002,7 +2002,7 @@
                         "draw": 2,
                         "compare": 1
                       },
-                      "words": 2599,
+                      "words": 2601,
                       "read_minutes": 7,
                       "cards": 11,
                       "mnemonics": 2
@@ -2038,7 +2038,7 @@
                         "numerical": 1,
                         "derive": 1
                       },
-                      "words": 2199,
+                      "words": 2226,
                       "read_minutes": 6,
                       "cards": 12,
                       "mnemonics": 3
@@ -2141,9 +2141,9 @@
                       },
                       "marks_hint": "about 5 marks in the 2026–27 sample paper (Unit IV: 14)",
                       "summary": "Magnitude and direction · section formula · dot product, projection · cross product, areas",
-                      "questions": 12,
+                      "questions": 13,
                       "question_types": {
-                        "mcq": 4,
+                        "mcq": 5,
                         "ar": 2,
                         "vsa2": 2,
                         "sa3": 2,
@@ -2178,12 +2178,12 @@
                       },
                       "marks_hint": "about 9 marks in the 2026–27 sample paper (Unit IV: 14)",
                       "summary": "Direction cosines and ratios · equation of a line · angle between lines · shortest distance · foot of perpendicular and image",
-                      "questions": 12,
+                      "questions": 14,
                       "question_types": {
-                        "mcq": 4,
+                        "mcq": 5,
                         "ar": 2,
                         "vsa2": 2,
-                        "sa3": 2,
+                        "sa3": 3,
                         "la5": 1,
                         "case": 1
                       },
@@ -2196,7 +2196,7 @@
                         "derive": 1,
                         "draw": 1
                       },
-                      "words": 2277,
+                      "words": 2281,
                       "read_minutes": 6,
                       "cards": 10,
                       "mnemonics": 2
@@ -2271,13 +2271,13 @@
                       },
                       "marks_hint": "8 marks (Unit VI)",
                       "summary": "Conditional probability · multiplication theorem · independent events · total probability · Bayes' theorem · random variable and its mean",
-                      "questions": 12,
+                      "questions": 14,
                       "question_types": {
                         "mcq": 4,
                         "ar": 2,
                         "vsa2": 2,
-                        "sa3": 2,
-                        "la5": 1,
+                        "sa3": 3,
+                        "la5": 2,
                         "case": 1
                       },
                       "diagrams": [],

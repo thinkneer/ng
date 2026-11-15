@@ -150,7 +150,7 @@ row: degree of numerator ≥ degree of denominator | [[divide first]]
 Integration by parts undoes the product rule. It is the method for a product of two different kinds of function.
 
 :::formula Integration by parts
-$$\int u\,v\,dx=u\int v\,dx-\int\left[\frac{du}{dx}\int v\,dx\right]dx$$
+$$\begin{aligned}\int u\,v\,dx&=u\int v\,dx\\ &\quad-\int\left[\frac{du}{dx}\int v\,dx\right]dx\end{aligned}$$
 Choose the first function $u$ by **ILATE**: Inverse trig, Logarithmic, Algebraic, Trigonometric, Exponential.
 :::
 

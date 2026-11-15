@@ -306,5 +306,58 @@
   ],
   "topic": "Relations and functions between finite sets",
   "hint": "A relation from $B$ to $G$ is any subset of $B\\times G$."
+ },
+ {
+  "id": "maths-w20261115-ch-01-01",
+  "chapter": "ch-01",
+  "type": "la5",
+  "marks": 5,
+  "stars": 2,
+  "label": "PYQ-style",
+  "stem": "Let $A=\\{0,1,2,\\dots,12\\}$ and let $R=\\{(a,b): a,b\\in A,\\ a-b \\text{ is divisible by } 4\\}$. Show that $R$ is an equivalence relation. Hence find the set of all elements of $A$ that are related to $1$.",
+  "model_answer": "*How much to write: about 12 lines · 8 minutes. One line each for the three properties, with the reason.*\n\n**Given:** $A=\\{0,1,\\dots,12\\}$; $a\\,R\\,b$ means $a-b=4k$ for some integer $k$<br>\n**To find:** <u>reflexive</u>, <u>symmetric</u> and <u>transitive</u> properties; the elements related to $1$\n\n**Reflexive.** For every $a\\in A$, $a-a=0=4\\times0$, so <u>$4\\mid(a-a)$</u> and $(a,a)\\in R$.\n\n**Symmetric.** Let $(a,b)\\in R$, so $a-b=4k$. Then $b-a=4(-k)$ with $-k$ an integer, so <mark>$(b,a)\\in R$</mark>.\n\n**Transitive.** Let $(a,b)\\in R$ and $(b,c)\\in R$, so $a-b=4k$ and $b-c=4m$. Adding, $a-c=4(k+m)$, so <mark>$(a,c)\\in R$</mark>.\n\nHence $R$ is an <u>equivalence relation</u>.\n\n**Related to $1$.** We need $b\\in A$ with $1-b=4k$, that is $b=1+4k$ with $0\\le b\\le12$:\n\n$$b=1,\\ 5,\\ 9 \\quad(b=13 \\text{ is not in } A)$$\n\n$$\\boxed{\\{1,5,9\\}}$$\n\n:::tip Your answer must contain\n- a reason for each property, written as $a-b=4k$ (not just \"obviously\")\n- the word <u>equivalence relation</u> as the conclusion\n- the three elements in set braces, checked against $A$\n:::\n\n**Marks are lost for:** no reason for a property; forgetting that $0$ is divisible by $4$; listing $13$, which is not in $A$.",
+  "scheme": [
+   {
+    "step": "Reflexive: $a-a=0$ is divisible by $4$",
+    "marks": 1
+   },
+   {
+    "step": "Symmetric: $b-a=-(a-b)=4(-k)$",
+    "marks": 1
+   },
+   {
+    "step": "Transitive: $a-c=(a-b)+(b-c)=4(k+m)$",
+    "marks": 1
+   },
+   {
+    "step": "$1-b=4k$ with $b\\in A$ (so $b=1+4k$ and $0\\le b\\le12$)",
+    "marks": 1
+   },
+   {
+    "step": "Set $\\{1,5,9\\}$",
+    "marks": 1
+   }
+  ],
+  "topic": "Equivalence relations",
+  "hint": "Write $a-b=4k$ for an integer $k$ in each property. For the last part, list the values of $b$ in $A$ with $1-b$ a multiple of $4$."
+ },
+ {
+  "id": "maths-w20261115-ch-01-02",
+  "chapter": "ch-01",
+  "type": "mcq",
+  "marks": 1,
+  "stars": 2,
+  "label": "PYQ-style",
+  "stem": "The number of onto functions from a set with $3$ elements to a set with $2$ elements is",
+  "options": [
+   "$6$",
+   "$8$",
+   "$9$",
+   "$3$"
+  ],
+  "answer": "A",
+  "model_answer": "**(A)** Total functions $=2^3=8$. Two of them are constant and miss one of the two elements, so onto functions $=8-2=6$.",
+  "topic": "Counting functions",
+  "hint": "Count all functions first, then remove those that miss one of the two elements."
  }
 ]

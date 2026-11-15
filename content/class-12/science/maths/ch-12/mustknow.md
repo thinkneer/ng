@@ -17,7 +17,7 @@ Type tags: `S` solve graphically · `MCQ` 1-mark objective / A–R · `C` case s
 - **Linear programming problem:** optimise a linear function subject to linear inequalities.
 - **Objective function:** $Z=ax+by$, the function to be maximised or minimised.
 - **Decision variables:** $x$ and $y$.
-- **Constraints:** the linear inequalities on $x$ and $y$.
+- **Linear constraints:** the linear inequalities on $x$ and $y$.
 - **Non-negative restrictions:** $x\ge0$, $y\ge0$.
 - **Feasible region:** the common region of all constraints, including $x,y\ge0$.
 - **Feasible solution:** any point of the feasible region.

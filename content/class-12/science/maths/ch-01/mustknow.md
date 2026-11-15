@@ -15,15 +15,15 @@ Type tags: `P` prove / show · `S` solve / find · `MCQ` 1-mark objective / A–
 ## Must-know lines and definitions
 
 - **Relation on $A$:** a subset of $A\times A$.
-- **Reflexive:** $(a,a)\in R$ for every $a\in A$.
-- **Symmetric:** $(a,b)\in R\Rightarrow(b,a)\in R$.
-- **Transitive:** $(a,b)\in R$ and $(b,c)\in R\Rightarrow(a,c)\in R$.
+- **Reflexive relation:** $(a,a)\in R$ for every $a\in A$.
+- **Symmetric relation:** $(a,b)\in R\Rightarrow(b,a)\in R$.
+- **Transitive relation:** $(a,b)\in R$ and $(b,c)\in R\Rightarrow(a,c)\in R$.
 - **Equivalence relation:** reflexive, symmetric and transitive.
 - **Equivalence class of $a$:** $[a]=\{x\in A:(x,a)\in R\}$.
 - **Equivalence classes:** are disjoint and their union is the whole set.
 - **One-one (injective):** $f(x_1)=f(x_2)\Rightarrow x_1=x_2$.
 - **Onto (surjective):** every $y$ in the codomain has a pre-image; range = codomain.
-- **Bijective:** both one-one and onto.
+- **Bijective function:** both one-one and onto.
 - **To disprove a property:** one counter-example is enough.
 - **Not in boards 2026–27:** composite functions, invertible functions, binary operations.
 
