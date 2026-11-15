@@ -15,36 +15,36 @@ Stars are estimates from recent board and sample papers, not exact counts: ★�
 
 - **Anther (typical):** bilobed, dithecous, tetrasporangiate.
 - **Wall layers of microsporangium (out → in):** epidermis, endothecium, middle layers, tapetum.
-- **Tapetum:** innermost wall layer; nourishes developing pollen; cells often multinucleate.
-- **Microsporogenesis:** formation of microspores from a pollen mother cell by meiosis.
-- **Sporopollenin:** material of exine; resists heat, acids, alkalis; no enzyme degrades it.
+- **Tapetum of anther:** innermost wall layer; nourishes developing pollen; cells often multinucleate.
+- **Microsporogenesis in anther:** formation of microspores from a pollen mother cell by meiosis.
+- **Sporopollenin of exine:** material of exine; resists heat, acids, alkalis; no enzyme degrades it.
 - **Germ pore:** gap in the exine without sporopollenin; pollen tube emerges here.
-- **Intine:** inner pollen wall of cellulose and pectin.
+- **Intine of pollen:** inner pollen wall of cellulose and pectin.
 - **Mature pollen grain:** large vegetative cell plus small spindle-shaped generative cell.
 - **Pollen shed 2-celled:** in over 60% of angiosperms.
-- **Megasporogenesis:** formation of megaspores from the megaspore mother cell by meiosis.
+- **Megasporogenesis in ovule:** formation of megaspores from the megaspore mother cell by meiosis.
 - **MMC position:** micropylar region of the nucellus.
 - **Monosporic development:** embryo sac formed from a single functional megaspore.
 - **Mature embryo sac:** 7-celled, 8-nucleate.
 - **Egg apparatus:** two synergids and one egg cell at the micropylar end.
 - **Filiform apparatus:** thickenings at micropylar tip of synergids; guide the pollen tube.
-- **Geitonogamy:** pollen to another flower of the same plant; genetically autogamy.
-- **Xenogamy:** pollen to a flower of a different plant; brings genetic variation.
+- **Geitonogamy (pollination type):** pollen to another flower of the same plant; genetically autogamy.
+- **Xenogamy (pollination type):** pollen to a flower of a different plant; brings genetic variation.
 - **Cleistogamous flowers:** never open; assured seed set without pollinators.
-- **Self-incompatibility:** genetic block to self-pollen germination or tube growth in the pistil.
-- **Syngamy:** male gamete + egg → zygote (2n).
+- **Self-incompatibility in flowers:** genetic block to self-pollen germination or tube growth in the pistil.
+- **Syngamy in angiosperms:** male gamete + egg → zygote (2n).
 - **Triple fusion:** male gamete + two polar nuclei → primary endosperm nucleus (3n).
 - **Double fertilisation:** syngamy + triple fusion in one embryo sac.
 - **Coconut water:** free-nuclear endosperm.
 - **Coconut kernel:** cellular endosperm.
-- **Perisperm:** persistent nucellus in the seed (black pepper, beet).
-- **Scutellum:** the single lateral cotyledon of a grass embryo.
-- **Coleoptile:** sheath over shoot apex in monocot embryo.
-- **Coleorhiza:** sheath over radicle and root cap in monocot embryo.
+- **Perisperm in seeds:** persistent nucellus in the seed (black pepper, beet).
+- **Scutellum of grass embryo:** the single lateral cotyledon of a grass embryo.
+- **Coleoptile of monocot embryo:** sheath over the shoot apex and leaf primordia.
+- **Coleorhiza of monocot embryo:** sheath over the radicle and root cap.
 - **False fruit:** thalamus also forms the fruit (apple, strawberry, cashew).
-- **Parthenocarpy:** fruit without fertilisation; seedless (banana).
-- **Apomixis:** seed without fertilisation; asexual reproduction mimicking sexual.
-- **Polyembryony:** more than one embryo in a seed (citrus, mango).
+- **Parthenocarpic fruit:** fruit without fertilisation; seedless (banana).
+- **Apomixis in plants:** seed without fertilisation; asexual reproduction mimicking sexual.
+- **Polyembryony in seeds:** more than one embryo in a seed (citrus, mango).
 
 ## Key formulas
 

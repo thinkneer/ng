@@ -17,43 +17,43 @@ Stars are estimates from recent board and sample papers, not exact counts: ★�
 - **Inoculum (starter):** small amount of curd added to milk.
 - **Bread dough yeast:** baker's yeast, *Saccharomyces cerevisiae*.
 - **Idli–dosa batter puffs:** due to CO₂ from bacterial fermentation.
-- **Toddy:** fermented palm sap.
+- **Toddy drink:** fermented palm sap.
 - **Swiss cheese holes:** CO₂ from *Propionibacterium sharmanii*.
 - **Roquefort cheese:** ripened by fungi.
-- **Fermentors:** large vessels for growing microbes industrially.
+- **Fermentors in industry:** large vessels for growing microbes industrially.
 - **Brewer's yeast:** *Saccharomyces cerevisiae*; ferments malted cereals and fruit juices.
 - **Without distillation:** wine and beer.
 - **With distillation:** whisky, brandy, rum.
-- **Antibiotics:** microbial chemicals that kill or retard other microbes.
+- **Antibiotics, meaning:** microbial chemicals that kill or retard other microbes.
 - **Penicillin source:** *Penicillium notatum* (Alexander Fleming).
 - **Penicillin potential established by:** Ernest Chain and Howard Florey.
 - **Citric acid:** *Aspergillus niger*.
 - **Acetic acid:** *Acetobacter aceti*.
 - **Butyric acid:** *Clostridium butylicum*.
 - **Lactic acid:** *Lactobacillus*.
-- **Lipases:** in detergents to remove oily stains.
+- **Use of lipases:** in detergents to remove oily stains.
 - **Pectinases and proteases:** clarify bottled fruit juices.
-- **Streptokinase:** from *Streptococcus*; clot buster for heart-attack patients.
+- **Streptokinase source, use:** from *Streptococcus*; clot buster for heart-attack patients.
 - **Cyclosporin A:** from *Trichoderma polysporum*; immunosuppressant for transplants.
-- **Statins:** from *Monascus purpureus*; lower blood cholesterol.
+- **Statins source, use:** from *Monascus purpureus*; lower blood cholesterol.
 - **Primary treatment:** physical removal of particles by filtration and sedimentation.
-- **Flocs:** bacteria with fungal filaments forming mesh in aeration tanks.
-- **BOD:** oxygen consumed if all organic matter in 1 L water were oxidised by bacteria.
+- **Flocs in sewage:** bacteria with fungal filaments forming mesh in aeration tanks.
+- **BOD of water:** oxygen bacteria would use to oxidise all organic matter in 1 L.
 - **Activated sludge:** flocs settled in the settling tank.
 - **Anaerobic sludge digester:** bacteria digest sludge, producing biogas.
 - **Biogas from digesters:** methane, hydrogen sulphide, carbon dioxide.
-- **Methanogens:** anaerobic bacteria making methane, e.g. *Methanobacterium*.
+- **Methanogenic bacteria:** anaerobic bacteria making methane, e.g. *Methanobacterium*.
 - **Where methanogens live:** anaerobic sludge and cattle rumen.
 - **Biogas technology in India:** IARI and KVIC.
-- **Biocontrol:** biological control of plant diseases and pests.
+- **Biological control:** biological control of plant diseases and pests.
 - **Ladybird and dragonflies:** control aphids and mosquitoes.
-- **Bt:** *Bacillus thuringiensis*; controls butterfly caterpillars.
-- **Trichoderma:** free-living fungus controlling plant pathogens.
-- **Baculoviruses:** *Nucleopolyhedrovirus*; narrow-spectrum insecticides for IPM.
-- **Biofertilisers:** organisms that enrich soil nutrient quality.
-- **Rhizobium:** symbiotic nitrogen fixer in legume root nodules.
+- **Bt as biocontrol:** *Bacillus thuringiensis*; controls butterfly caterpillars.
+- **Trichoderma fungus:** free-living fungus controlling plant pathogens.
+- **Baculoviruses in IPM:** *Nucleopolyhedrovirus*; narrow-spectrum insecticides for IPM.
+- **Biofertilisers, meaning:** organisms that enrich soil nutrient quality.
+- **Rhizobium bacterium:** symbiotic nitrogen fixer in legume root nodules.
 - **Free-living nitrogen fixers:** *Azospirillum*, *Azotobacter*.
-- **Mycorrhiza:** fungus–root symbiosis; *Glomus* absorbs phosphorus for the plant.
+- **Mycorrhiza (Glomus):** fungus–root symbiosis; *Glomus* absorbs phosphorus for the plant.
 - **Cyanobacterial biofertilisers:** *Anabaena*, *Nostoc*, *Oscillatoria* in paddy fields.
 
 ## Key formulas

@@ -13,7 +13,7 @@ Stars are estimates from recent board and sample papers, not exact counts: ★�
 
 ## Must-know lines and definitions
 
-- **Health:** complete physical, mental and social well-being.
+- **Health, as defined:** complete physical, mental and social well-being.
 - **Typhoid pathogen:** *Salmonella typhi*; confirmed by Widal test.
 - **Pneumonia pathogens:** *Streptococcus pneumoniae*, *Haemophilus influenzae*.
 - **Common cold pathogen:** rhinoviruses; infects nose and respiratory passage, not lungs.
@@ -21,17 +21,17 @@ Stars are estimates from recent board and sample papers, not exact counts: ★�
 - **Malignant malaria:** caused by *Plasmodium falciparum*.
 - **Malaria vector:** female *Anopheles* mosquito.
 - **Infectious form of Plasmodium:** sporozoite.
-- **Haemozoin:** toxin from burst RBCs; causes chill and fever every 3–4 days.
+- **Haemozoin in malaria:** toxin from burst RBCs; causes chill and fever every 3–4 days.
 - **Sexual stage of Plasmodium:** gametocytes; fertilisation in mosquito's gut.
 - **Amoebiasis pathogen:** *Entamoeba histolytica*; houseflies are carriers.
 - **Ascariasis pathogen:** *Ascaris*, roundworm.
 - **Filariasis pathogens:** *Wuchereria bancrofti*, *W. malayi*.
 - **Ringworm fungi:** *Microsporum*, *Trichophyton*, *Epidermophyton*.
 - **Dengue and chikungunya vector:** *Aedes* mosquito.
-- **Gambusia:** fish that eats mosquito larvae.
+- **Gambusia fish:** fish that eats mosquito larvae.
 - **Innate immunity:** non-specific defence present at birth.
 - **Physiological barriers:** stomach acid, saliva, tears.
-- **Interferons:** proteins from virus-infected cells protecting other cells.
+- **Interferons (cytokine barrier):** proteins from virus-infected cells protecting other cells.
 - **Acquired immunity:** pathogen-specific; has memory.
 - **Anamnestic response:** strong secondary response on re-exposure.
 - **Humoral immunity:** antibody-mediated, by B-lymphocytes.
@@ -46,20 +46,20 @@ Stars are estimates from recent board and sample papers, not exact counts: ★�
 - **Autoimmune disease example:** rheumatoid arthritis.
 - **Primary lymphoid organs:** bone marrow and thymus.
 - **Secondary lymphoid organs:** spleen, lymph nodes, tonsils, Peyer's patches, appendix.
-- **MALT:** mucosa-associated lymphoid tissue, about 50% of lymphoid tissue.
-- **HIV:** retrovirus with RNA genome; causes AIDS.
+- **MALT, full form:** mucosa-associated lymphoid tissue, about 50% of lymphoid tissue.
+- **HIV virus type:** retrovirus with RNA genome; causes AIDS.
 - **Reverse transcriptase:** makes viral DNA from HIV RNA.
 - **HIV factory:** infected macrophage.
 - **Cells reduced in AIDS:** helper T-lymphocytes.
 - **AIDS test:** ELISA.
 - **Contact inhibition:** normal cells stop dividing on contact; lost in cancer.
-- **Metastasis:** spread of malignant tumour cells to distant sites.
-- **Proto-oncogenes:** cellular oncogenes that can cause cancer when activated.
+- **Metastasis in cancer:** spread of malignant tumour cells to distant sites.
+- **Proto-oncogenes (c-onc):** cellular oncogenes that can cause cancer when activated.
 - **Immunotherapy agent:** α-interferon, a biological response modifier.
-- **Heroin:** diacetylmorphine from morphine of *Papaver somniferum*; depressant.
+- **Heroin (smack) source:** diacetylmorphine from morphine of *Papaver somniferum*; depressant.
 - **Cannabinoid source:** inflorescence of *Cannabis sativa*; affects cardiovascular system.
 - **Cocaine source:** *Erythroxylum coca*; interferes with dopamine transport.
-- **Nicotine:** stimulates adrenal gland to release adrenaline, noradrenaline.
+- **Effect of nicotine:** stimulates adrenal gland to release adrenaline, noradrenaline.
 - **Withdrawal syndrome:** unpleasant symptoms when a drug is stopped.
 
 ## Key formulas

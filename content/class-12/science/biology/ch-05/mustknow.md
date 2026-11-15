@@ -13,8 +13,8 @@ Stars are estimates from recent board and sample papers, not exact counts: ★�
 
 ## Must-know lines and definitions
 
-- **Nucleoside:** base + pentose sugar (N-glycosidic linkage).
-- **Nucleotide:** nucleoside + phosphate (phosphoester bond).
+- **Nucleoside structure:** base + pentose sugar (N-glycosidic linkage).
+- **Nucleotide structure:** nucleoside + phosphate (phosphoester bond).
 - **Phosphodiester bond:** joins nucleotides 3′ to 5′ in a chain.
 - **Chargaff's rule:** in dsDNA, A = T and G = C.
 - **A–T pairing:** two hydrogen bonds; **G–C pairing:** three hydrogen bonds.
@@ -22,41 +22,42 @@ Stars are estimates from recent board and sample papers, not exact counts: ★�
 - **Distance between base pairs:** 0.34 nm.
 - **Central dogma:** DNA → RNA → protein (Crick).
 - **Reverse transcription:** RNA → DNA in some viruses.
-- **Histones:** basic proteins rich in lysine and arginine.
-- **Nucleosome:** histone octamer wrapped by about 200 bp of DNA.
-- **Euchromatin:** loosely packed, light-staining, transcriptionally active.
-- **Heterochromatin:** densely packed, dark-staining, inactive.
+- **Histone proteins:** basic proteins rich in lysine and arginine.
+- **Nucleosome structure:** histone octamer wrapped by about 200 bp of DNA.
+- **Euchromatin features:** loosely packed, light-staining, transcriptionally active.
+- **Heterochromatin features:** densely packed, dark-staining, inactive.
 - **Transformation (Griffith):** heat-killed S + live R strain killed mice.
 - **Avery, MacLeod, McCarty:** DNase alone stopped transformation → DNA.
-- **Hershey–Chase:** ³²P-DNA entered bacteria, ³⁵S-protein did not.
+- **Hershey–Chase experiment:** ³²P-DNA entered bacteria, ³⁵S-protein did not.
 - **Semiconservative replication:** each daughter DNA has one old and one new strand.
-- **Meselson–Stahl:** ¹⁵N → ¹⁴N *E. coli*, CsCl gradient; hybrid DNA after one generation.
+- **Meselson–Stahl experiment:** ¹⁵N → ¹⁴N *E. coli*, CsCl gradient; hybrid DNA after one generation.
 - **DNA polymerase direction:** only 5′ → 3′.
 - **Leading strand:** made continuously; **lagging strand:** made discontinuously.
 - **DNA ligase:** joins discontinuous fragments.
-- **Ori:** origin of replication.
+- **Ori sequence:** origin of replication.
 - **Transcription unit:** promoter + structural gene + terminator.
 - **Template strand:** 3′ → 5′; **coding strand:** 5′ → 3′, same sequence as RNA.
-- **Cistron:** DNA segment coding for one polypeptide.
-- **Exons:** coding sequences; **introns:** intervening non-coding sequences.
+- **Cistron of DNA:** DNA segment coding for one polypeptide.
+- **Exons of a gene:** coding sequences that appear in mature mRNA.
+- **Introns of a gene:** intervening non-coding sequences, removed by splicing.
 - **σ factor:** starts bacterial transcription; **ρ factor:** ends it.
 - **RNA polymerase I:** 28S, 18S, 5.8S rRNA.
 - **RNA polymerase II:** hnRNA (mRNA precursor).
 - **RNA polymerase III:** tRNA, 5S rRNA, snRNA.
-- **Splicing:** removal of introns and joining of exons.
-- **Capping:** methyl guanosine triphosphate added at 5′ end of hnRNA.
-- **Tailing:** 200–300 adenylates added at 3′ end.
+- **Splicing of hnRNA:** removal of introns and joining of exons.
+- **Capping of hnRNA:** methyl guanosine triphosphate added at 5′ end of hnRNA.
+- **Tailing of hnRNA:** 200–300 adenylates added at 3′ end.
 - **Stop codons:** UAA, UAG, UGA.
-- **AUG:** codes methionine and acts as start codon.
+- **Codon AUG:** codes methionine and acts as start codon.
 - **Degenerate code:** some amino acids have more than one codon.
 - **Charging of tRNA:** amino acid activated by ATP and linked to tRNA.
 - **Ribozyme in bacteria:** 23S rRNA forms peptide bonds.
-- **Operon:** genes with related functions regulated together.
+- **Operon in bacteria:** genes with related functions regulated together.
 - **Lac repressor:** made by i gene; binds operator.
 - **Inducer of lac operon:** lactose.
 - **z, y, a:** β-galactosidase, permease, transacetylase.
-- **SNPs:** single nucleotide polymorphisms, about 1.4 million in humans.
-- **VNTR:** variable number tandem repeat; probe in DNA fingerprinting.
+- **SNPs in humans:** single nucleotide polymorphisms, about 1.4 million in humans.
+- **VNTR in fingerprinting:** variable number tandem repeat; probe in DNA fingerprinting.
 - **Satellite DNA:** repetitive DNA forming minor peaks in density gradient.
 
 ## Key formulas

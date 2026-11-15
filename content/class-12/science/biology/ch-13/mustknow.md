@@ -21,7 +21,7 @@ Stars are estimates from recent board and sample papers, not exact counts: ★�
 - **Estimated global species (Robert May):** about 7 million.
 - **Animals among recorded species:** over 70%.
 - **Insects among animals:** over 70%; 7 of every 10 animals.
-- **India:** 2.4% of world land, 8.1% of species; one of 12 mega-diversity countries.
+- **India's biodiversity share:** 2.4% of world land, 8.1% of species; one of 12 mega-diversity countries.
 - **Latitudinal gradient:** diversity decreases from equator to poles.
 - **Richest biodiversity on Earth:** Amazonian rain forest.
 - **Species–area relationship:** Alexander von Humboldt.
@@ -36,16 +36,16 @@ Stars are estimates from recent board and sample papers, not exact counts: ★�
 - **Most important cause of loss:** habitat loss and fragmentation.
 - **Lungs of the planet:** Amazon rain forest.
 - **Alien invasion example:** Nile perch in Lake Victoria → over 200 cichlid species lost.
-- **Co-extinction:** associated species die out with their host or partner.
-- **Bioprospecting:** exploring biodiversity for products of economic importance.
+- **Co-extinction, meaning:** associated species die out with their host or partner.
+- **Bioprospecting, meaning:** exploring biodiversity for products of economic importance.
 - **Biodiversity hotspots:** regions of high species richness and endemism.
-- **Endemism:** species found only in one region.
+- **Endemism, meaning:** species found only in one region.
 - **Number of hotspots:** 34; three cover India.
 - **Hotspots in India:** Western Ghats and Sri Lanka, Indo-Burma, Himalaya.
 - **Sacred groves:** forest patches protected for religious reasons.
 - **In situ conservation:** protecting species in their natural habitat.
 - **Ex situ conservation:** protecting species outside their habitat (zoos, gardens, seed banks).
-- **Cryopreservation:** preserving gametes in viable condition at very low temperatures.
+- **Cryopreservation of gametes:** preserving gametes in viable condition at very low temperatures.
 - **Earth Summit:** Rio de Janeiro, 1992; Convention on Biological Diversity.
 - **World Summit on Sustainable Development:** Johannesburg, 2002; 190 countries, target 2010.
 
@@ -71,13 +71,13 @@ Long undisturbed evolutionary time (no glaciations) [1] → less seasonal, const
 
 ## Quick 1-mark facts (MCQ, A–R)
 
-- Birds: Colombia ≈ 1,400; New York (41° N) 105; Greenland (71° N) 56; India > 1,200.
+- **Bird species by latitude:** Colombia ≈ 1,400; New York 105; Greenland 56; India > 1,200.
 - Amazon: > 40,000 plants, 3,000 fishes, 1,300 birds, 427 mammals.
 - Plants among recorded species: no more than 22%.
 - Fungal species exceed: fishes, amphibians, reptiles and mammals combined.
 - Recent extinctions: dodo (Mauritius), quagga (Africa), thylacine (Australia), Steller's sea cow (Russia).
 - Extinct tiger subspecies: Bali, Javan, Caspian.
-- Threatened: 12% birds, 23% mammals, 32% amphibians, 31% gymnosperms.
+- **Threatened species (IUCN):** 12% birds, 23% mammals, 32% amphibians, 31% gymnosperms.
 - Rain forest cover: once over 14% of land, now no more than 6%.
 - Amazon oxygen contribution: about 20% of atmospheric oxygen.
 - Drugs from plants: over 25% of drugs sold worldwide.

@@ -13,7 +13,7 @@ Stars are estimates from recent board and sample papers, not exact counts: ★�
 
 ## Must-know lines and definitions
 
-- **Biotechnology (EFB):** integration of natural science and organisms, cells, parts, molecular analogues for products and services.
+- **Biotechnology (EFB definition):** organisms, cells or parts with natural science, for products and services.
 - **Genetic engineering:** altering genetic material and introducing it into a host.
 - **Bioprocess engineering:** maintaining sterile conditions to grow only the desired microbe in bulk.
 - **Origin of replication (ori):** sequence where replication starts; controls copy number.
@@ -21,36 +21,36 @@ Stars are estimates from recent board and sample papers, not exact counts: ★�
 - **Restriction endonuclease:** cuts DNA at a specific recognition sequence.
 - **First restriction endonuclease:** Hind II, recognises six base pairs.
 - **EcoRI name:** *Escherichia coli*, strain RY13, first enzyme isolated.
-- **Exonuclease:** removes nucleotides from DNA ends.
-- **Endonuclease:** cuts at specific positions within DNA.
-- **Palindrome:** sequence reading the same on both strands, 5′→3′.
+- **Exonuclease action:** removes nucleotides from DNA ends.
+- **Endonuclease action:** cuts at specific positions within DNA.
+- **Palindromic sequence:** sequence reading the same on both strands, 5′→3′.
 - **EcoRI recognition sequence:** 5′-GAATTC-3′; cuts between G and A.
 - **Sticky ends:** single-stranded overhangs that pair with complementary ends.
 - **DNA ligase:** joins DNA fragments; molecular glue.
-- **Agarose:** natural polymer from sea weeds; gel matrix for electrophoresis.
+- **Agarose gel:** natural polymer from sea weeds; gel matrix for electrophoresis.
 - **DNA moves towards:** anode (DNA is negatively charged).
 - **Electrophoresis stain:** ethidium bromide; bright orange bands under UV.
-- **Elution:** extracting separated DNA bands from the gel.
+- **Elution of DNA:** extracting separated DNA bands from the gel.
 - **Selectable marker:** identifies transformants; e.g. ampicillin, tetracycline resistance.
 - **Cloning site:** single recognition site for a restriction enzyme.
 - **pBR322 genes:** ampᴿ, tetᴿ, ori, rop.
-- **rop:** codes proteins for plasmid replication.
+- **rop gene:** codes proteins for plasmid replication.
 - **Insertional inactivation:** foreign DNA inside a gene inactivates it.
 - **Blue–white screening:** recombinants colourless; non-recombinants blue (β-galactosidase).
 - **Ti plasmid:** tumour-inducing plasmid of *Agrobacterium tumefaciens*; disarmed as vector.
 - **Animal vector:** disarmed retroviruses.
 - **Competent cells:** treated (e.g. Ca²⁺) to take up DNA.
 - **Heat shock:** ice → 42 °C → ice, helps DNA entry.
-- **Micro-injection:** DNA injected into the animal cell nucleus.
+- **Micro-injection method:** DNA injected into the animal cell nucleus.
 - **Biolistics (gene gun):** gold or tungsten particles coated with DNA, for plants.
 - **Enzymes to break cells:** lysozyme (bacteria), cellulase (plant), chitinase (fungi).
 - **Chilled ethanol:** precipitates purified DNA as fine threads.
 - **PCR steps:** denaturation, annealing, extension.
-- **Primers:** small chemically synthesised oligonucleotides complementary to target ends.
+- **PCR primers:** small chemically synthesised oligonucleotides complementary to target ends.
 - **Taq polymerase:** thermostable DNA polymerase from *Thermus aquaticus*.
 - **Recombinant protein:** protein expressed from a foreign gene in a host.
 - **Continuous culture:** keeps cells in active log (exponential) phase.
-- **Bioreactor:** vessel of 100–1000 L for large-scale biological production.
+- **Bioreactor size, use:** vessel of 100–1000 L for large-scale biological production.
 - **Sparged stirred-tank:** sterile air bubbled for better oxygen transfer.
 - **Downstream processing:** separation, purification, formulation, quality control.
 

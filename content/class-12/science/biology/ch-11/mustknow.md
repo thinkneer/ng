@@ -15,7 +15,7 @@ Stars are estimates from recent board and sample papers, not exact counts: ★�
 
 ## Must-know lines and definitions
 
-- **Population:** individuals of one species living in a defined area.
+- **Population in ecology:** individuals of one species living in a defined area.
 - **Birth rate (per capita):** births per individual per unit time.
 - **Death rate (per capita):** deaths per individual per unit time.
 - **Age pyramid:** plot of age groups in a population.
@@ -32,20 +32,20 @@ Stars are estimates from recent board and sample papers, not exact counts: ★�
 - **Logistic growth:** limited resources; S-shaped (sigmoid) curve.
 - **Logistic growth model name:** Verhulst–Pearl logistic growth.
 - **Phases of logistic curve:** lag, acceleration, deceleration, asymptote.
-- **Mutualism:** both species benefit (+, +).
-- **Competition:** both harmed (−, −).
+- **Mutualism signs:** both species benefit (+, +).
+- **Competition signs:** both harmed (−, −).
 - **Predation and parasitism:** one gains, one harmed (+, −).
-- **Commensalism:** one gains, other unaffected (+, 0).
-- **Amensalism:** one harmed, other unaffected (−, 0).
+- **Commensalism signs:** one gains, other unaffected (+, 0).
+- **Amensalism signs:** one harmed, other unaffected (−, 0).
 - **Gause's competitive exclusion principle:** two closely related competing species cannot coexist indefinitely.
 - **Competitive release:** a species expands its range when its competitor is removed.
 - **Resource partitioning:** coexistence by different use of resources (MacArthur's warblers).
 - **Interference competition:** one species lowers the feeding efficiency of another.
 - **Brood parasitism:** cuckoo lays eggs in crow's nest.
-- **Ectoparasite:** feeds on host surface (lice, ticks, *Cuscuta*).
-- **Endoparasite:** lives inside host body.
-- **Lichen:** mutualism of fungus with alga or cyanobacterium.
-- **Mycorrhiza:** mutualism of fungus with roots of higher plants.
+- **Ectoparasites, examples:** feeds on host surface (lice, ticks, *Cuscuta*).
+- **Endoparasites, location:** lives inside host body.
+- **Lichen association:** mutualism of fungus with alga or cyanobacterium.
+- **Mycorrhiza association:** mutualism of fungus with roots of higher plants.
 - **Sexual deceit:** *Ophrys* petal resembles female bee; male pseudocopulates.
 
 ## Key formulas
@@ -88,7 +88,7 @@ Name the interaction + sign (+/−/0) for each partner [1] → one NCERT example
 - Abingdon tortoise (Galapagos) extinct after: goats were introduced.
 - Connell's barnacles: *Balanus* excludes *Chthamalus*.
 - Human liver fluke intermediate hosts: snail and fish.
-- Commensals: orchid on mango; barnacles on whale; cattle egret with cattle; clown fish with sea anemone.
+- **Commensalism examples:** orchid on mango; barnacles on whale; cattle egret; clown fish and sea anemone.
 - Fig is pollinated by: its specific wasp species.
 - Breed once in a lifetime: Pacific salmon, bamboo.
 - Many small offspring: oysters, pelagic fishes.

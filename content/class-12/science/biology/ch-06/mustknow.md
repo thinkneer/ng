@@ -17,20 +17,20 @@ Stars are estimates from recent board and sample papers, not exact counts: ★�
 - **Spontaneous generation:** life from decaying matter; disproved by Louis Pasteur.
 - **Chemical evolution (Oparin, Haldane):** organic molecules formed from inorganic ones before life.
 - **Miller's experiment (1953):** CH₄, H₂, NH₃, water vapour, electric discharge, 800 °C → amino acids.
-- **Fossils:** remains of hard parts of life forms preserved in rocks.
+- **Fossils as evidence:** remains of hard parts of life forms preserved in rocks.
 - **Age of fossils:** found by radioactive dating.
 - **Homologous organs:** same structure and origin, different functions.
 - **Analogous organs:** different structures, similar functions.
 - **Divergent evolution:** one ancestral structure adapts to different needs (homology).
 - **Convergent evolution:** different structures evolve for the same function (analogy).
 - **Industrial melanism:** dark peppered moths became common after industrialisation in England.
-- **Lichens:** indicators of air pollution; do not grow in polluted areas.
+- **Lichens as indicators:** indicators of air pollution; do not grow in polluted areas.
 - **Anthropogenic evolution:** human-caused selection (herbicide, pesticide, antibiotic resistance).
 - **Adaptive radiation:** evolution of different species from one point into different habitats.
 - **Darwin's finches:** adaptive radiation on the Galapagos Islands.
 - **Fitness (Darwin):** reproductive fitness; ability to leave more progeny.
 - **Key ideas of Darwin's theory:** branching descent and natural selection.
-- **Saltation:** single-step large mutation (Hugo de Vries).
+- **Saltation in evolution:** single-step large mutation (Hugo de Vries).
 - **de Vries' plant:** evening primrose, *Oenothera lamarckiana*.
 - **Hardy–Weinberg principle:** allele frequencies stay constant over generations without disturbance.
 - **Genetic equilibrium:** stable allele frequencies in a population.
@@ -40,7 +40,7 @@ Stars are estimates from recent board and sample papers, not exact counts: ★�
 - **Stabilising selection:** favours the mean value.
 - **Directional selection:** favours one extreme.
 - **Disruptive selection:** favours both extremes.
-- **Coelacanth:** lobefin caught in South Africa in 1938.
+- **Coelacanth fish:** lobefin caught in South Africa in 1938.
 - **Dinosaurs disappeared:** about 65 million years ago.
 
 ## Key formulas
@@ -75,7 +75,7 @@ Definition + one example each; name divergent and convergent evolution [1 + 1]
 
 - Homologous plant organs: thorn of *Bougainvillea*, tendril of *Cucurbita*.
 - Homologous animal organs: forelimbs of whale, bat, cheetah, human.
-- Analogous: wings of butterfly and bird; eyes of octopus and mammal.
+- **Analogous organs, examples:** wings of butterfly and bird; eyes of octopus and mammal.
 - Analogous plant pair: potato (stem) and sweet potato (root).
 - Analogous flippers: penguin and dolphin.
 - Embryological theory disproved by: Karl Ernst von Baer.
@@ -84,7 +84,7 @@ Definition + one example each; name divergent and convergent evolution [1 + 1]
 - Darwin's ship: HMS Beagle.
 - Factors disturbing Hardy–Weinberg: gene flow, genetic drift, mutation, recombination, natural selection.
 - *Dryopithecus* and *Ramapithecus*: about 15 million years ago.
-- Australopithecines: about 2 million years ago, East African grasslands.
+- **Australopithecines, time and place:** about 2 million years ago, East African grasslands.
 - *Homo habilis* probably did not eat meat; *Homo erectus* probably did.
 - Neanderthals buried their dead; lived 1,00,000–40,000 years ago.
 - *Homo sapiens* arose in: Africa.

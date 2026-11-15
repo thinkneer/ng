@@ -13,37 +13,38 @@ Stars are estimates from recent board and sample papers, not exact counts: ★�
 
 ## Must-know lines and definitions
 
-- **Allele:** alternative form of the same gene.
-- **Genotype:** genetic make-up; **phenotype:** observable trait.
+- **Allele of a gene:** alternative form of the same gene.
+- **Genotype of an organism:** its genetic make-up.
+- **Phenotype of an organism:** its observable traits.
 - **True-breeding line:** shows stable trait inheritance over several generations of selfing.
 - **Test cross:** cross of an organism with the homozygous recessive parent.
 - **Law of dominance:** in a dissimilar pair, one factor (dominant) masks the other (recessive).
 - **Law of segregation:** alleles separate in gamete formation; each gamete gets one.
 - **Law of independent assortment:** segregation of one pair is independent of the other pair.
 - **Incomplete dominance:** heterozygote intermediate between parents (pink snapdragon).
-- **Co-dominance:** both alleles fully expressed in the heterozygote (blood group AB).
-- **Multiple alleles:** more than two alleles of a gene in a population (ABO: $I^A$, $I^B$, $i$).
+- **Co-dominance of alleles:** both alleles fully expressed in the heterozygote (blood group AB).
+- **Multiple alleles:** more than two alleles of one gene in a population (ABO).
 - **Starch grain size in pea:** shows incomplete dominance; seed shape shows complete dominance.
 - **Chromosomal theory of inheritance:** Sutton and Boveri; genes on chromosomes explain Mendel.
-- **Linkage:** physical association of genes on one chromosome (Morgan).
-- **Recombination:** generation of non-parental gene combinations.
+- **Linkage of genes:** physical association of genes on one chromosome (Morgan).
+- **Recombination of genes:** generation of non-parental gene combinations.
 - **Genetic map:** genes mapped by recombination frequency (Sturtevant).
 - **Polygenic inheritance:** one trait controlled by three or more genes (skin colour).
-- **Pleiotropy:** one gene affects several phenotypes (phenylketonuria).
+- **Pleiotropic gene:** one gene affects several phenotypes (phenylketonuria).
 - **X body:** structure seen by Henking (1891); the X chromosome.
 - **Male heterogamety:** male makes two kinds of sperm (XO, XY).
 - **Female heterogamety:** female makes two kinds of eggs (ZW birds).
-- **Haplodiploidy (honey bee):** fertilised egg → female (2n = 32); unfertilised → male (n = 16).
-- **Mutation:** change in DNA sequence altering genotype and phenotype.
+- **Honey bee sex:** fertilised egg → female ($2n=32$); unfertilised egg → male ($n=16$).
+- **Gene mutation:** change in DNA sequence altering genotype and phenotype.
 - **Point mutation:** change of a single base pair (sickle-cell anaemia).
 - **Frameshift mutation:** deletion or insertion of bases shifts the reading frame.
 - **Pedigree analysis:** tracing a trait through a family tree with standard symbols.
-- **Aneuploidy:** gain or loss of chromosomes from failed chromatid separation.
-- **Polyploidy:** extra whole sets of chromosomes from failed cytokinesis.
+- **Aneuploidy in chromosomes:** gain or loss of chromosomes from failed chromatid separation.
+- **Polyploidy in chromosomes:** extra whole sets of chromosomes from failed cytokinesis.
 - **Sickle-cell mutation:** GAG → GUG; glutamic acid → valine at position 6 of β-globin.
 - **α-thalassaemia genes:** HBA1, HBA2 on chromosome 16.
 - **β-thalassaemia gene:** HBB on chromosome 11.
-- **Phenylketonuria:** missing enzyme for phenylalanine → tyrosine; intellectual disability.
+- **Phenylketonuria disorder:** missing enzyme for phenylalanine → tyrosine; intellectual disability.
 - **Down's syndrome:** trisomy 21.
 - **Klinefelter's syndrome:** XXY (47); sterile male with gynaecomastia.
 - **Turner's syndrome:** XO (45); sterile female, rudimentary ovaries.

@@ -15,8 +15,8 @@ Stars are estimates from recent board and sample papers, not exact counts: ★�
 
 - **Reproductive health (WHO):** total well-being in physical, emotional, behavioural and social aspects of reproduction.
 - **Family planning in India:** started in 1951.
-- **RCH:** Reproductive and Child Health Care programmes.
-- **Amniocentesis:** foetal sex test from chromosomal pattern in amniotic fluid.
+- **RCH programmes, full form:** Reproductive and Child Health Care programmes.
+- **Amniocentesis test:** foetal sex test from chromosomal pattern in amniotic fluid.
 - **Why amniocentesis is banned for sex determination:** to check female foeticide.
 - **Ideal contraceptive:** user-friendly, available, effective, reversible, few side effects.
 - **Periodic abstinence:** no coitus on days 10–17, the fertile period.
@@ -31,23 +31,23 @@ Stars are estimates from recent board and sample papers, not exact counts: ★�
 - **Hormone IUD extra action:** uterus unsuitable for implantation; cervix hostile to sperms.
 - **Oral pill schedule:** 21 days from within first 5 days of cycle, then 7-day gap.
 - **Pill action:** inhibits ovulation and implantation; alters cervical mucus.
-- **Saheli:** non-steroidal once-a-week pill, CDRI Lucknow.
+- **Saheli oral pill:** non-steroidal once-a-week pill, CDRI Lucknow.
 - **Emergency contraception:** within 72 hours of coitus.
-- **Vasectomy:** part of vas deferens removed or tied via scrotal incision.
-- **Tubectomy:** part of fallopian tube removed or tied via abdomen or vagina.
-- **Sterilisation:** terminal method; very poor reversibility.
-- **MTP:** intentional termination of pregnancy before full term.
+- **Vasectomy procedure:** part of vas deferens removed or tied via scrotal incision.
+- **Tubectomy procedure:** part of fallopian tube removed or tied via abdomen or vagina.
+- **Surgical sterilisation:** terminal method; very poor reversibility.
+- **Medical termination of pregnancy:** intentional termination of pregnancy before full term.
 - **MTP legalised in India:** 1971.
 - **MTP law (NCERT):** up to 12 weeks one RMP; 12–24 weeks two RMPs.
 - **Safest period for MTP:** first trimester, up to 12 weeks.
 - **STIs not completely curable:** hepatitis-B, genital herpes, HIV.
 - **STI age group most affected:** 15–24 years.
-- **Infertility:** inability to conceive despite unprotected co-habitation.
-- **ZIFT:** zygote or embryo up to 8 blastomeres into fallopian tube.
-- **IUT:** embryo with more than 8 blastomeres into uterus.
-- **GIFT:** donor ovum into fallopian tube of woman unable to produce ova.
-- **ICSI:** sperm injected directly into the ovum.
-- **IUI:** semen introduced into the uterus.
+- **Infertility in couples:** inability to conceive despite unprotected co-habitation.
+- **ZIFT method:** zygote intra-fallopian transfer; embryo up to 8 blastomeres into the tube.
+- **IUT method:** intra-uterine transfer; embryo of more than 8 blastomeres into uterus.
+- **GIFT method:** gamete intra-fallopian transfer; donor ovum into the fallopian tube.
+- **ICSI method:** intra-cytoplasmic sperm injection; sperm injected directly into the ovum.
+- **IUI method:** intra-uterine insemination; semen introduced into the uterus.
 
 ## Key formulas
 

@@ -14,27 +14,27 @@ Stars are estimates from recent board and sample papers, not exact counts: ★�
 
 ## Must-know lines and definitions
 
-- **Ecosystem:** functional unit of nature; organisms interacting with each other and surroundings.
-- **Stratification:** vertical distribution of species in different layers.
+- **Ecosystem, meaning:** functional unit of nature; organisms interacting with each other and surroundings.
+- **Vertical stratification:** vertical distribution of species in different layers.
 - **Ecosystem functions:** productivity, decomposition, energy flow, nutrient cycling.
 - **Primary production:** biomass made by plants per unit area over time.
-- **Productivity:** rate of biomass production, g m⁻² yr⁻¹ or kcal m⁻² yr⁻¹.
-- **GPP:** rate of organic matter production in photosynthesis.
-- **NPP:** GPP minus respiration losses; available to heterotrophs.
+- **Productivity, meaning and units:** rate of biomass production, g m⁻² yr⁻¹ or kcal m⁻² yr⁻¹.
+- **Gross primary productivity:** rate of organic matter production in photosynthesis.
+- **Net primary productivity:** GPP minus respiration losses; available to heterotrophs.
 - **Secondary productivity:** rate of new organic matter formation by consumers.
-- **Detritus:** dead plant parts, dead animals and faecal matter.
-- **Fragmentation:** detritivores (earthworm) break detritus into small pieces.
-- **Leaching:** soluble nutrients move down into soil as unavailable salts.
-- **Catabolism:** bacterial and fungal enzymes degrade detritus.
-- **Humification:** formation of dark amorphous humus.
-- **Humus:** resistant to microbes, decomposes very slowly; colloidal nutrient reservoir.
-- **Mineralisation:** release of inorganic nutrients from humus.
-- **PAR:** photosynthetically active radiation, less than 50% of incident sunlight.
+- **Detritus components:** dead plant parts, dead animals and faecal matter.
+- **Fragmentation step:** detritivores (earthworm) break detritus into small pieces.
+- **Leaching step:** soluble nutrients move down into soil as unavailable salts.
+- **Catabolism step:** bacterial and fungal enzymes degrade detritus.
+- **Humification step:** formation of dark amorphous humus.
+- **Humus properties:** resistant to microbes, decomposes very slowly; colloidal nutrient reservoir.
+- **Mineralisation step:** release of inorganic nutrients from humus.
+- **PAR share of sunlight:** photosynthetically active radiation, less than 50% of incident sunlight.
 - **Fraction of PAR captured by plants:** 2–10%.
 - **Energy flow:** unidirectional, Sun → producers → consumers.
 - **Grazing food chain:** begins with producers (grass → goat → man).
 - **Detritus food chain:** begins with dead organic matter; decomposers.
-- **Saprotrophs:** decomposers (fungi, bacteria) that absorb digested detritus.
+- **Role of saprotrophs:** decomposers (fungi, bacteria) that absorb digested detritus.
 - **Food web:** natural interconnection of food chains.
 - **Trophic level:** position of an organism in a food chain.
 - **Standing crop:** mass of living material at a trophic level at a given time.
@@ -74,7 +74,7 @@ Biomass in sea inverted: small fast-multiplying phytoplankton crop supports larg
 - Pyramid inverted in sea: biomass.
 - Pyramid inverted in a tree ecosystem: numbers.
 - Pyramids give no place to: saprophytes.
-- Earthworms: farmer's friends; detritivores.
+- **Role of earthworms:** farmer's friends; detritivores.
 - Decomposition slowed by: low temperature and anaerobiosis.
 - Forest layers: trees top, shrubs second, herbs and grasses bottom.
 - Oceans cover: about 70% of Earth's surface.

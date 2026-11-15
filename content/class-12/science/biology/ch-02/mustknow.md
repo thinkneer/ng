@@ -13,42 +13,42 @@ Stars are estimates from recent board and sample papers, not exact counts: ★�
 
 ## Must-know lines and definitions
 
-- **Scrotum:** keeps testes 2–2.5 °C below body temperature for spermatogenesis.
+- **Role of scrotum:** keeps testes 2–2.5 °C below body temperature for spermatogenesis.
 - **Testicular lobules:** about 250 per testis, each with 1–3 seminiferous tubules.
 - **Sertoli cells:** nourish germ cells; acted on by FSH.
 - **Leydig (interstitial) cells:** secrete androgens; acted on by LH.
-- **Male duct path:** rete testis → vasa efferentia → epididymis → vas deferens → ejaculatory duct → urethra.
+- **Sperm duct path:** rete testis, vasa efferentia, epididymis, vas deferens, ejaculatory duct, urethra.
 - **Seminal plasma:** rich in fructose, calcium and certain enzymes.
 - **Bulbourethral glands:** secretion lubricates the penis.
-- **Fimbriae:** finger-like edges of infundibulum; collect the ovum after ovulation.
+- **Fimbriae of oviduct:** finger-like edges of infundibulum; collect the ovum after ovulation.
 - **Oviduct parts (ovary → uterus):** infundibulum, ampulla, isthmus.
 - **Uterine wall (out → in):** perimetrium, myometrium, endometrium.
-- **Myometrium:** smooth muscle; strong contractions during delivery.
-- **Endometrium:** glandular lining; cyclic changes in the menstrual cycle.
+- **Myometrium of uterus:** smooth muscle; strong contractions during delivery.
+- **Endometrium of uterus:** glandular lining; cyclic changes in the menstrual cycle.
 - **Birth canal:** cervical canal plus vagina.
 - **Milk path:** alveoli → mammary tubules → mammary duct → mammary ampulla → lactiferous duct.
-- **Spermiogenesis:** spermatids transformed into spermatozoa.
-- **Spermiation:** release of sperms from the seminiferous tubules.
-- **Acrosome:** cap on sperm head with enzymes for entering the ovum.
+- **Spermiogenesis in testis:** spermatids transformed into spermatozoa.
+- **Spermiation in testis:** release of sperms from the seminiferous tubules.
+- **Acrosome of sperm:** cap on sperm head with enzymes for entering the ovum.
 - **Sperm middle piece:** mitochondria that power tail movement.
 - **Primary oocyte:** arrested in prophase I from foetal life.
 - **Primary follicle:** primary oocyte with one layer of granulosa cells.
 - **Tertiary follicle:** has a fluid-filled antrum; meiosis I completes here.
 - **Zona pellucida:** membrane formed by the secondary oocyte in the Graafian follicle.
-- **Ovulation:** rupture of Graafian follicle releasing the secondary oocyte.
-- **Menarche:** first menstruation at puberty.
-- **Menopause:** end of menstrual cycles, around 50 years.
+- **Ovulation in humans:** rupture of Graafian follicle releasing the secondary oocyte.
+- **Menarche in girls:** first menstruation at puberty.
+- **Menopause in women:** end of menstrual cycles, around 50 years.
 - **LH surge:** mid-cycle peak of LH; causes ovulation.
 - **Corpus luteum:** remains of Graafian follicle; secretes progesterone.
 - **Site of fertilisation:** ampullary region of the fallopian tube.
-- **Morula:** embryo with 8–16 blastomeres.
-- **Blastocyst:** outer trophoblast plus inner cell mass.
-- **Implantation:** blastocyst embedded in the endometrium.
-- **Placenta:** chorionic villi interlocked with uterine tissue; foetus–mother exchange unit.
+- **Morula stage:** embryo with 8–16 blastomeres.
+- **Blastocyst structure:** outer trophoblast plus inner cell mass.
+- **Implantation of blastocyst:** blastocyst embedded in the endometrium.
+- **Placenta structure:** chorionic villi interlocked with uterine tissue; foetus–mother exchange unit.
 - **Pregnancy-only hormones:** hCG, hPL and relaxin.
 - **Relaxin source:** ovary, late in pregnancy.
 - **Foetal ejection reflex:** mild contractions that trigger oxytocin release at birth.
-- **Colostrum:** first milk; rich in antibodies.
+- **Colostrum (first milk):** rich in antibodies (IgA); protects the newborn.
 
 ## Key formulas
 

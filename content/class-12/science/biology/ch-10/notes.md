@@ -274,7 +274,7 @@ prompt: List five reasons for making transgenic animals.
 
 ## Ethical issues, biopiracy and patents
 
-Manipulating living organisms raises questions that society must answer. Moving genes across species may have unpredictable results. The **Indian Government** has set up organisations such as **GEAC (Genetic Engineering Appraisal Committee)**, which decides on the validity of GM research and the **safety of introducing GM organisms** for public services.
+Manipulating living organisms raises questions that society must answer. Moving genes across species may have unpredictable results. The **Indian Government** has set up organisations such as **GEAC (Genetic Engineering Approval Committee)**, which decides on the validity of GM research and the **safety of introducing GM organisms** for public services.
 
 Companies have taken **patents** on products and technologies that use genetic materials, plants and other biological resources long identified, developed and used by farmers and indigenous people of a country. In **1997**, an American company got patent rights on **Basmati rice** through the US Patent and Trademark Office, allowing it to sell a "new" variety of Basmati in the US and abroad. This variety had actually been derived from **Indian farmers' varieties**: Indian Basmati was crossed with semi-dwarf varieties and claimed as an invention. India has about **200,000 varieties of rice**, of which **27 documented varieties are Basmati**. Other examples are attempts to patent uses, products and processes based on Indian traditional herbal medicines such as turmeric and neem.
 
