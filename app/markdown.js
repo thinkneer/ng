@@ -15,13 +15,16 @@ function loadText() {
 }
 /** KaTeX (+ auto-render, mhchem, its CSS). Loaded straight after the text unless the first section has maths.
  *  mhchem imports katex.mjs itself, so all three load in parallel. */
+/** KaTeX's stylesheet goes in early, while the page is small: arriving after the notes it re-styles the whole page. */
+function katexCss() {
+  if (document.querySelector('link[data-katex]')) return;
+  const l = document.createElement('link');
+  l.rel = 'stylesheet'; l.href = `${V}katex/katex.min.css`; l.dataset.katex = '1';
+  document.head.appendChild(l);
+}
 function loadMath() {
   mathLibs ||= (async () => {
-    if (!document.querySelector('link[data-katex]')) {
-      const l = document.createElement('link');
-      l.rel = 'stylesheet'; l.href = `${V}katex/katex.min.css`; l.dataset.katex = '1';
-      document.head.appendChild(l);
-    }
+    katexCss();
     const [katexMod, autoMod] = await Promise.all([
       import(`${V}katex/katex.mjs`),
       import(`${V}katex/contrib/auto-render.mjs`),
@@ -277,7 +280,7 @@ function blockHead(type, title) {
 }
 function escapeHtml(s) { return String(s).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c])); }
 /** Start fetching everything a notes page needs, in parallel, before the notes themselves arrive. */
-export function preloadMarkdown() { loadText().catch(() => {}); import('./blocks/parse.js').catch(() => {}); import('./blocks/expr.js').catch(() => {}); import('./highlights.js').catch(() => {}); }
+export function preloadMarkdown() { katexCss(); loadText().catch(() => {}); import('./blocks/parse.js').catch(() => {}); import('./blocks/expr.js').catch(() => {}); import('./highlights.js').catch(() => {}); }
 export { load as loadLibs };
 
 /** Sanitise an author SVG drawing (cards, blocks). Returns safe markup ('' if nothing usable). */
