@@ -38,9 +38,9 @@ async function hub() {
       </div>
       <div class="list__header">About</div>
       <div class="list">
-        ${listItem({ href: '#/more/about', title: 'About ng & privacy', sub: 'Free, open, no personal data', leading: icon('info'), leadingStyle: 'background:var(--accent-soft);color:var(--accent-text)' })}
+        ${listItem({ href: '#/more/about', title: 'About ng & privacy', sub: 'What is stored, and where', leading: icon('info'), leadingStyle: 'background:var(--accent-soft);color:var(--accent-text)' })}
       </div>
-      <p class="t-footnote t-3 mt-6 center">ng · CBSE board prep · no login needed</p>`,
+      <p class="t-footnote t-3 mt-6 center">ng · CBSE board prep · members only</p>`,
   };
 }
 
@@ -165,7 +165,7 @@ async function about() {
         <h3>Honest labels</h3>
         <ul><li>Stars (★★★ / ★★ / ★) are <em>estimates</em> of how often a question type appears, not counts.</li><li>"PYQ (year)" only when verified; otherwise "PYQ-style".</li><li>Syllabus: rationalised CBSE 2026–27. Deleted topics are left out or marked "not in boards".</li><li>Board dates come from the CBSE date sheet; always recheck on cbse.gov.in.</li></ul>
         <h3>Privacy</h3>
-        <ul><li>No server, no database, no tracking, no email collection.</li><li>Your settings, tracker and notes stay in this browser unless you export them.</li><li>Accounts (when they arrive) are nickname-only and public by design.</li></ul>
+        <ul><li><strong>Sign-in email and password:</strong> kept only by our sign-in service (Supabase Auth), to sign you in and reset your password. The app never shows it to anyone; the admin can see it in Supabase only to help with sign-in.</li><li><strong>Nickname, role and class:</strong> stored in our database. Other members see your nickname and role, for example in live quiz scores.</li><li><strong>Live quiz answers and scores:</strong> stored in the database for that quiz.</li><li><strong>Your study data</strong> (highlights, notes, recall, practice, mistakes, tracker, papers and marks): saved on this device only, for now. Clearing the browser deletes it; export it from Progress to move it.</li><li>No ads, no tracking, no analytics. We never ask for your real name, phone, school or photo.</li></ul>
         <h3>Sources and copyright</h3>
         <p>Nothing here copies NCERT or CBSE text. We write our own notes, summaries and questions and link to <a href="https://ncert.nic.in/textbook.php" target="_blank" rel="noopener">ncert.nic.in</a> and <a href="https://cbseacademic.nic.in/" target="_blank" rel="noopener">cbseacademic.nic.in</a> for the originals.</p>
         <h3>Keyboard</h3>

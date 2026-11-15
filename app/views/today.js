@@ -109,7 +109,7 @@ async function welcome() {
   const idx = await data.index();
   return {
     title: 'ng', largeTitle: true, tab: 'today',
-    html: html`${largeTitle('Board prep that fits in your pocket', { eyebrow: 'Free · no login' })}
+    html: html`${largeTitle('Board prep that fits in your pocket', { eyebrow: 'Free · members only' })}
       <p class="t-2 mb-4">Must-have notes, formula sheets, practice by question type, timed papers and a day-by-day plan to your last paper. Pick your class to start.</p>
       <div class="option-grid">
         ${idx.classes.map((c) => raw(`<a class="option pressable" href="#/${c.id}">
@@ -121,6 +121,6 @@ async function welcome() {
         ${raw(`<div class="list__item"><span class="list__leading list__leading--soft">${icon('timer')}</span><span class="list__body"><span class="list__title">Practice and timed papers</span><span class="list__sub">On the CBSE 2026–27 pattern, with marking schemes</span></span></div>`)}
         ${raw(`<div class="list__item"><span class="list__leading list__leading--soft">${icon('plan')}</span><span class="list__body"><span class="list__title">Board_Plan_2027</span><span class="list__sub">Rebuilds itself for the subjects you pick</span></span></div>`)}
       </div>
-      <p class="t-footnote t-3 mt-6">Everything saves on your device. Nothing here asks for your name, email or school.</p>`,
+      <p class="t-footnote t-3 mt-6">Your study data saves on this device. Nothing here asks for your real name or school.</p>`,
   };
 }
