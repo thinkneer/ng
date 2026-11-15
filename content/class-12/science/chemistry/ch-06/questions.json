@@ -79,14 +79,14 @@
     "stars": 3,
     "label": "PYQ-style",
     "stem": "Write one equation each for (i) the Finkelstein reaction, (ii) the Wurtz–Fittig reaction.",
-    "model_answer": "(i) $\\ce{CH3CH2Br + NaI ->[dry acetone] CH3CH2I + NaBr}$ [1]<br>\n(ii) $\\ce{C6H5Cl + CH3Cl + 2Na ->[dry ether] C6H5CH3 + 2NaCl}$ [1]",
+    "model_answer": "(i) $\\begin{gathered}\\ce{CH3CH2Br + NaI}\\\\ \\ce{->[dry acetone] CH3CH2I}\\\\ \\text{+ }\\ce{NaBr}\\end{gathered}$ [1]<br>\n(ii) $\\begin{gathered}\\ce{C6H5Cl + CH3Cl + 2Na}\\\\ \\ce{->[dry ether] C6H5CH3}\\\\ \\text{+ }\\ce{2NaCl}\\end{gathered}$ [1]",
     "scheme": [
       {
-        "step": "(i) $\\ce{CH3CH2Br + NaI ->[dry acetone] CH3CH2I + NaBr}$",
+        "step": "(i) $\\begin{gathered}\\ce{CH3CH2Br + NaI}\\\\ \\ce{->[dry acetone] CH3CH2I}\\\\ \\text{+ }\\ce{NaBr}\\end{gathered}$",
         "marks": 1
       },
       {
-        "step": "(ii) $\\ce{C6H5Cl + CH3Cl + 2Na ->[dry ether] C6H5CH3 + 2NaCl}$",
+        "step": "(ii) $\\begin{gathered}\\ce{C6H5Cl + CH3Cl + 2Na}\\\\ \\ce{->[dry ether] C6H5CH3}\\\\ \\text{+ }\\ce{2NaCl}\\end{gathered}$",
         "marks": 1
       }
     ],
@@ -123,14 +123,14 @@
     "stars": 1,
     "label": "PYQ-style",
     "stem": "How will you carry out these conversions?<br>\n(i) but-1-ene to but-2-ene   (ii) benzene to biphenyl   (iii) cumene to phenol",
-    "model_answer": "(i) $\\ce{CH3CH2CH=CH2 ->[HBr] CH3CH2CH(Br)CH3 ->[alc. KOH][\\Delta] CH3CH=CHCH3}$ [1]<br>\n(ii) $\\ce{C6H6 ->[Cl2][anhyd. FeCl3] C6H5Cl}$; $\\ce{2C6H5Cl + 2Na ->[dry ether] C6H5-C6H5 + 2NaCl}$ [1]<br>\n(iii) Cumene $\\ce{->[O2]}$ cumene hydroperoxide $\\ce{->[H+][H2O]}$ phenol + propanone [1]",
+    "model_answer": "(i) $\\begin{gathered}\\ce{CH3CH2CH=CH2}\\\\ \\ce{->[HBr] CH3CH2CH(Br)CH3}\\\\ \\ce{->[alc. KOH][\\Delta] CH3CH=CHCH3}\\end{gathered}$ [1]<br>\n(ii) $\\ce{C6H6 ->[Cl2][anhyd. FeCl3] C6H5Cl}$; $\\begin{gathered}\\ce{2C6H5Cl + 2Na}\\\\ \\ce{->[dry ether] C6H5-C6H5}\\\\ \\text{+ }\\ce{2NaCl}\\end{gathered}$ [1]<br>\n(iii) Cumene $\\ce{->[O2]}$ cumene hydroperoxide $\\ce{->[H+][H2O]}$ phenol + propanone [1]",
     "scheme": [
       {
-        "step": "(i) $\\ce{CH3CH2CH=CH2 ->[HBr] CH3CH2CH(Br)CH3 ->[alc. KOH][\\Delta] CH3CH=CHCH3}$",
+        "step": "(i) $\\begin{gathered}\\ce{CH3CH2CH=CH2}\\\\ \\ce{->[HBr] CH3CH2CH(Br)CH3}\\\\ \\ce{->[alc. KOH][\\Delta] CH3CH=CHCH3}\\end{gathered}$",
         "marks": 1
       },
       {
-        "step": "(ii) $\\ce{C6H6 ->[Cl2][anhyd. FeCl3] C6H5Cl}$; $\\ce{2C6H5Cl + 2Na ->[dry ether] C6H5-C6H5 + 2NaCl}$",
+        "step": "(ii) $\\ce{C6H6 ->[Cl2][anhyd. FeCl3] C6H5Cl}$; $\\begin{gathered}\\ce{2C6H5Cl + 2Na}\\\\ \\ce{->[dry ether] C6H5-C6H5}\\\\ \\text{+ }\\ce{2NaCl}\\end{gathered}$",
         "marks": 1
       },
       {
@@ -255,5 +255,35 @@
     "answer": "A",
     "model_answer": "**(a).** Backside attack turns the three remaining groups inside out, like an umbrella in the wind.",
     "source_note": "Added Nov 2026 (objective top-up for live quiz)"
+  },
+  {
+    "id": "chem-w20261115-ch06-01",
+    "chapter": "ch-06",
+    "type": "la5",
+    "marks": 5,
+    "stars": 3,
+    "label": "PYQ-style",
+    "stem": "(a) Write the rate law and name the mechanism for the hydrolysis of (i) tert-butyl bromide and (ii) bromomethane with aqueous NaOH. [2]<br>\n(b) Predict the product, with its configuration, when (R)-2-bromobutane reacts with aqueous NaOH by the S$_\\text{N}$2 mechanism. [2]<br>\n(c) Why does 1-bromobutane not react mainly by the S$_\\text{N}$1 mechanism? [1]",
+    "model_answer": "*How much to write: about 12–14 lines across (a), (b) and (c) · 10 minutes*\n\n**(a)** <u>(i) tert-butyl bromide</u>: $\\text{rate}=k\\,[\\ce{(CH3)3CBr}]$, <mark>first order, independent of OH⁻</mark>. Mechanism: <u>S$_\\text{N}$1</u>.<br>\n<u>(ii) bromomethane</u>: $\\text{rate}=k\\,[\\ce{CH3Br}][\\ce{OH-}]$, <mark>second order overall</mark>. Mechanism: <u>S$_\\text{N}$2</u>.\n\n**(b)** S$_\\text{N}$2 attacks from the side opposite the leaving group, so the configuration is <u>inverted</u>:\n\n$$\\begin{gathered}\\ce{(R)-2-bromobutane + OH-}\\\\ \\ce{-> (S)-butan-2-ol + Br-}\\end{gathered}$$\n\n<mark>(R) becomes (S)</mark>: OH takes the top priority that Br had, so the order of priorities is unchanged; only the inversion changes the label.\n\n**(c)** A <mark>primary carbocation</mark> is far too unstable to form, so the <u>S$_\\text{N}$1 path is closed</u> to 1-bromobutane.\n\n:::tip Your answer must contain\n- the rate law for each compound, with the order in OH⁻ stated\n- <mark>inversion</mark> written for (b), with the product labelled\n- the reason for (c): primary carbocation\n:::\n\n**Marks are lost for:** rate law without the order in OH⁻; retention instead of inversion; no reason in (c).",
+    "scheme": [
+      {
+        "step": "(a) Rate law and mechanism for (CH3)3CBr: first order, S_N1",
+        "marks": 1
+      },
+      {
+        "step": "(a) Rate law and mechanism for CH3Br: rate = k[CH3Br][OH-], S_N2",
+        "marks": 1
+      },
+      {
+        "step": "(b) Inversion of configuration; product (S)-butan-2-ol",
+        "marks": 2
+      },
+      {
+        "step": "(c) A primary carbocation is too unstable to form",
+        "marks": 1
+      }
+    ],
+    "hint": "Check the order in OH⁻ for each compound. In (b), an S$_\\text{N}$2 reaction always inverts; check whether the priority order changes.",
+    "source_note": "Weekly refresh 2026-11-15 (own wording)"
   }
 ]

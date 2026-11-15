@@ -10,7 +10,7 @@
 toluene → benzaldehyde: **Etard** (CrO$_2$Cl$_2$); CrO$_3$/(CH$_3$CO)$_2$O → benzylidene diacetate → H$_3$O$^+$; Cl$_2$/h$\nu$ → benzal chloride → H$_2$O, 373 K;<br>
 benzene → benzaldehyde: **Gatterman–Koch** (CO + HCl, anhyd. AlCl$_3$/CuCl)<br>
 **Ketones**: 2$^\circ$ alcohol + K$_2$Cr$_2$O$_7$/H$^+$; alkynes (other than ethyne) + HgSO$_4$/H$_2$SO$_4$;<br>
-$\ce{2RCOCl + R{'}2Cd -> 2RCOR{'} + CdCl2}$; nitrile + Grignard then H$_3$O$^+$ ($\ce{CH3CH2CN + C6H5MgBr}$ → propiophenone); Friedel–Crafts acylation ($\ce{C6H6 + RCOCl ->[anhyd. AlCl3] C6H5COR}$)
+$\begin{gathered}\ce{2RCOCl + R{'}2Cd}\\ \ce{-> 2RCOR{'} + CdCl2}\end{gathered}$; nitrile + Grignard then H$_3$O$^+$ ($\ce{CH3CH2CN + C6H5MgBr}$ → propiophenone); Friedel–Crafts acylation ($\ce{C6H6 + RCOCl ->[anhyd. AlCl3] C6H5COR}$)
 :::
 
 - b.p.: between hydrocarbons/ethers and alcohols of similar mass (dipole–dipole, no intermolecular H-bonding). Methanal, ethanal, propanone mix with water (H-bond with water).
@@ -39,8 +39,8 @@ $\ce{2RCOCl + R{'}2Cd -> 2RCOR{'} + CdCl2}$; nitrile + Grignard then H$_3$O$^+$ 
 ## Reduction, oxidation, haloform
 
 - Reduction: NaBH$_4$/LiAlH$_4$/H$_2$ → alcohols; **Clemmensen** (Zn–Hg, conc. HCl) and **Wolff–Kishner** (NH$_2$NH$_2$, then KOH/ethylene glycol, heat) → $\ce{{>}CH2}$.
-- **Tollens'** (ammoniacal AgNO$_3$): $\ce{RCHO + 2[Ag(NH3)2]+ + 3OH- -> RCOO- + 2Ag + 2H2O + 4NH3}$ — silver mirror. All aldehydes (aliphatic and aromatic).
-- **Fehling's** (A: CuSO$_4$; B: alkaline sodium potassium tartrate): $\ce{RCHO + 2Cu^2+ + 5OH- -> RCOO- + Cu2O + 3H2O}$ — red-brown ppt. Aliphatic aldehydes only (benzaldehyde: negative).
+- **Tollens'** (ammoniacal AgNO$_3$): $\begin{gathered}\ce{RCHO + 2[Ag(NH3)2]+}\\ \text{+ }\ce{3OH-}\\ \ce{-> RCOO- + 2Ag + 2H2O}\\ \text{+ }\ce{4NH3}\end{gathered}$ — silver mirror. All aldehydes (aliphatic and aromatic).
+- **Fehling's** (A: CuSO$_4$; B: alkaline sodium potassium tartrate): $\begin{gathered}\ce{RCHO + 2Cu^2+ + 5OH-}\\ \ce{-> RCOO- + Cu2O + 3H2O}\end{gathered}$ — red-brown ppt. Aliphatic aldehydes only (benzaldehyde: negative).
 - Ketones need strong oxidants at high $T$ (C–C bonds break → mixture of acids).
 - **Haloform / iodoform**: CH$_3$CO– (methyl ketones) and CH$_3$CH(OH)– compounds + NaOI (I$_2$/NaOH) → yellow CHI$_3$. Positive: ethanal, ethanol, propanone, propan-2-ol, butan-2-one, acetophenone. Negative: methanal, methanol, propanal, pentan-3-one, benzaldehyde.
 
@@ -49,7 +49,7 @@ $\ce{2RCOCl + R{'}2Cd -> 2RCOR{'} + CdCl2}$; nitrile + Grignard then H$_3$O$^+$ 
 - α-H is acidic: C=O withdraws electrons and the enolate is resonance-stabilised.
 - **Aldol**: carbonyls **with** α-H + dil. NaOH → β-hydroxy aldehyde/ketone → heat → α,β-unsaturated product. $\ce{2CH3CHO}$ → 3-hydroxybutanal → but-2-enal. $\ce{2CH3COCH3 ->[Ba(OH)2]}$ 4-hydroxy-4-methylpentan-2-one → 4-methylpent-3-en-2-one.
 - **Cross aldol**: two different carbonyls both with α-H → 4 products. One without α-H (benzaldehyde + acetophenone) → mainly benzalacetophenone.
-- **Cannizzaro**: aldehydes **without** α-H (HCHO, C$_6$H$_5$CHO) + conc. alkali → alcohol + carboxylate salt. $\ce{2HCHO + conc. KOH -> CH3OH + HCOOK}$; $\ce{2C6H5CHO + conc. NaOH -> C6H5CH2OH + C6H5COONa}$.
+- **Cannizzaro**: aldehydes **without** α-H (HCHO, C$_6$H$_5$CHO) + conc. alkali → alcohol + carboxylate salt. $\begin{gathered}\ce{2HCHO}\\ \ce{->[conc. KOH] CH3OH}\\ \text{+ }\ce{HCOOK}\end{gathered}$; $\begin{gathered}\ce{2C6H5CHO}\\ \ce{->[conc. NaOH] C6H5CH2OH}\\ \text{+ }\ce{C6H5COONa}\end{gathered}$.
 - Ring: –CHO/–CO– deactivating, **meta**: benzaldehyde + HNO$_3$/H$_2$SO$_4$ (273–283 K) → 3-nitrobenzaldehyde.
 - **Uses**: formalin ($\approx$40% HCHO) preserves specimens; HCHO for bakelite, urea–formaldehyde resins; ethanal → ethanoic acid, ethyl ethanoate; propanone, butanone as solvents; benzaldehyde, vanillin etc. in perfumes and flavours.
 
@@ -68,7 +68,7 @@ nitrile/amide + H$^+$ or OH$^-$ (hydrolysis); $\ce{RMgX + CO2 (dry ice)}$ then H
 
 :::formula
 **Reactions**: 2RCOOH $\xrightarrow{\text{H}^+,\ \text{P}_2\text{O}_5,\ \Delta}$ anhydride;   esterification (H$^+$, reversible);<br>
-$\ce{RCOOH + SOCl2 -> RCOCl + SO2 + HCl}$ (also PCl$_5$, PCl$_3$);   $\ce{RCOOH + NH3 -> RCOONH4 ->[\Delta] RCONH2}$ (phthalic acid → phthalimide);<br>
+$\begin{gathered}\ce{RCOOH + SOCl2}\\ \ce{-> RCOCl + SO2 + HCl}\end{gathered}$ (also PCl$_5$, PCl$_3$);   $\begin{gathered}\ce{RCOOH + NH3}\\ \ce{-> RCOONH4}\\ \ce{->[\Delta] RCONH2}\end{gathered}$ (phthalic acid → phthalimide);<br>
 LiAlH$_4$ or B$_2$H$_6$ → RCH$_2$OH (NaBH$_4$ does not reduce –COOH; B$_2$H$_6$ leaves ester, nitro, halo groups alone);<br>
 **Decarboxylation**: RCOONa + soda lime (NaOH + CaO), heat → R–H (**$-$1 C**);   **Kolbe electrolysis**: aqueous RCOONa → R–R;<br>
 **HVZ**: $\ce{RCH2COOH ->[X2 / red P][H2O] RCH(X)COOH}$ (α-halo acid);   ring: –COOH deactivating, meta (benzoic acid → 3-nitro/3-bromobenzoic acid); **no Friedel–Crafts** (AlCl$_3$ binds to –COOH)
@@ -90,7 +90,7 @@ LiAlH$_4$ or B$_2$H$_6$ → RCH$_2$OH (NaBH$_4$ does not reduce –COOH; B$_2$H$
 | **Kolbe electrolysis** | $\ce{2RCOO^- Na+ + 2H2O ->[electrolysis] R-R + 2CO2 + H2 + 2NaOH}$ |
 | **Decarboxylation** | $\ce{RCOONa ->[NaOH + CaO][\Delta] R-H + Na2CO3}$ |
 | **Rosenmund** | $\ce{RCOCl + H2 ->[Pd / BaSO4] RCHO + HCl}$ (poisoned catalyst stops at aldehyde) |
-| **Stephen** | $\ce{RCN + SnCl2 + HCl -> RCH=NH ->[H3O+] RCHO}$ |
+| **Stephen** | $\begin{gathered}\ce{RCN + SnCl2 + HCl}\\ \ce{-> RCH=NH}\\ \ce{->[H3O+] RCHO}\end{gathered}$ |
 
 ## Organic revision tables (shared across Ch 6–10)
 

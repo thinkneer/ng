@@ -15,15 +15,15 @@ Stars are estimates, not exact counts: ★★★ asked in most years · ★★ o
 
 - **Rate of reaction:** change in concentration of a reactant or product per unit time.
 - **Rate law:** rate in terms of reactant concentrations, each raised to an experimentally found power.
-- **Order:** sum of the powers of concentration terms in the rate law; can be zero or fractional.
-- **Molecularity:** number of species colliding simultaneously in an elementary reaction; 1, 2 or 3.
+- **Reaction order:** sum of the powers in the rate law; can be zero or fractional.
+- **Reaction molecularity:** number of species colliding simultaneously in an elementary reaction; 1, 2 or 3.
 - **Rate constant:** rate of reaction when the concentration of each reactant is unity.
-- **Half-life:** time in which the concentration of a reactant falls to half its initial value.
+- **Half-life period:** time in which the concentration of a reactant falls to half its initial value.
 - **Pseudo first order reaction:** higher-order reaction that behaves as first order because one reactant is in large excess.
 - **Rate-determining step:** the slowest step of a complex reaction; it fixes the overall rate.
 - **Activation energy:** extra energy reactant molecules must absorb to form the activated complex.
 - **Threshold energy:** minimum energy colliding molecules must have for the collision to be effective.
-- **Catalyst:** increases the rate by giving a path of lower $E_a$; is not consumed.
+- **Reaction catalyst:** increases the rate by giving a path of lower $E_a$; is not consumed.
 - **What a catalyst cannot change:** $\Delta G$, $\Delta H$ and the equilibrium constant.
 - **Effective collision:** collision with enough energy and proper orientation.
 

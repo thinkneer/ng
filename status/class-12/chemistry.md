@@ -126,6 +126,13 @@ Still to make, as content once the site has a place for practicals:
 
 ## Exam mode (Site chat, 15 Nov 2026)
 - Live: Subject → Exam mode builds numbered 3-hour papers (P-01, P-02 …) from this subject's questions.json files, to `data/patterns/class-12/chemistry.json` and the unit marks in subject.json. Every question in the bank can appear; nothing extra is needed per question.
-- Bank check: 5-markers are the bottleneck: 13 in the bank, a paper needs 6. For 3 fresh papers add about 5 `la5`. More questions = more papers before repeats; each type must keep its pattern marks (MCQ/A–R 1, vsa2 2, sa3 3, case 4, la5 5).
+- Bank check (weekly refresh, 15 Nov 2026): 149 questions. 5-markers 15 in the bank (a paper needs 6): 2 fresh papers now, target 4. Add next: about 9 `la5`, then 6 `sa3`, 4 `mcq`, 1 `vsa2`. Each type must keep its pattern marks (MCQ/A–R 1, vsa2 2, sa3 3, case 4, la5 5).
 - Fixed set papers (e.g. an SQP-style paper) go in `papers/<id>.json` as references to bank questions (CLAUDE.md §11).
 
+## Weekly refresh log
+
+- **2026-11-15 (weekly refresh, unattended):** content-check FAIL/WARN **19 / 175 → 0 / 49**. Fixed: 19 FAILs (reaction lines in the formula sheet too wide for the phone, stacked with `gathered`; raw maths in two Ch 6 headings; card legend and formula widths in Ch 8, 9; vitamins card in Ch 10). Chapters with stacked reactions: Ch 2, 3, 4, 6, 7, 8, 9, 10. One-word recall fronts renamed in Ch 1, 2, 3, 5, 6, 7, 9, 10; long must-know lines shortened in Ch 3, 5, 8. Questions added: 2 `la5` (Ch 6 S$_\text{N}$1/S$_\text{N}$2 and Ch 4 lanthanoid contraction), 2 `sa3` (Ch 5 [Co(NH₃)₆]Cl₃, Ch 10 sucrose), 2 `mcq` (Ch 1 boiling point, Ch 2 ΔG°). Bank 143 → 149 questions; fresh papers 2 → 2 (one new question per type does not yet make a fresh paper).
+  - Left out this run: formula-sheet tables wider than the phone (16, mostly multi-column tables in Ch 2, 5, 6, 7, 8, 9); card backs over four lines (about 8); SVG labels under 9 px (Ch 2 Daniell card, Ch 6 SN2, Ch 7 phenoxide, Ch 8 HCN addition and carboxylate, Ch 9 aniline); a few tables in Read (Ch 3, 5, 6, 7). These need redrawn or re-laid tables, not stacking, so they wait for a session with time for the drawings.
+  - Removed a stray legend on the Ch 9 basicity card (`CH₃ = methyl order 2° > 1° > 3° > NH₃`) which did not match the card's order. The card's own order (diethylamine > triethylamine > ethylamine > NH₃ in water) is kept. **To verify against NCERT before the next run.**
+  - Ch 8 Rosenmund and Etard card legends shortened to a short symbol (Pd, Cr) so they fit the symbol column; meaning kept.
+  - Still in the older marked-steps answer style: Ch 4–10 (INFO lines), as the board-answer plan says.

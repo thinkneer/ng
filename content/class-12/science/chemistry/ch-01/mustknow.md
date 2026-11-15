@@ -19,7 +19,7 @@ Stars are estimates, not exact counts: ★★★ asked in most years · ★★ o
 - **Ideal solution:** obeys Raoult's law at all concentrations; $\Delta_\text{mix}H=0$ and $\Delta_\text{mix}V=0$.
 - **Positive deviation:** A–B attractions weaker than A–A and B–B; vapour pressure above Raoult's value.
 - **Negative deviation:** A–B attractions stronger than A–A and B–B; vapour pressure below Raoult's value.
-- **Azeotrope:** binary mixture with the same composition in liquid and vapour; boils at constant temperature.
+- **Azeotropic mixture:** binary mixture with the same composition in liquid and vapour; boils at constant temperature.
 - **Colligative property:** depends on the number of solute particles, not on their nature.
 - **Four colligative properties:** relative lowering of vapour pressure, $\Delta T_b$, $\Delta T_f$, osmotic pressure.
 - **Osmotic pressure:** extra pressure applied on the solution that just stops osmosis.

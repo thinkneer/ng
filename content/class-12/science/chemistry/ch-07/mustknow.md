@@ -22,7 +22,7 @@ Stars are estimates, not exact counts: ★★★ asked in most years · ★★ o
 - **Lucas test result:** 3° turbidity at once, 2° in about five minutes, 1° none at room temperature.
 - **Williamson synthesis:** alkyl halide + sodium alkoxide gives an ether by S$_\text{N}$2.
 - **Halide for Williamson synthesis:** must be primary; a tertiary halide gives an alkene.
-- **Esterification:** alcohol + carboxylic acid, with concentrated $\ce{H2SO4}$, gives ester + water (reversible).
+- **Esterification reaction:** alcohol + carboxylic acid, with concentrated $\ce{H2SO4}$, gives ester + water (reversible).
 - **Denatured alcohol:** ethanol made unfit to drink by adding $\ce{CuSO4}$ and pyridine.
 - **Enzymes in fermentation:** invertase (sucrose to glucose + fructose), zymase (glucose to ethanol + $\ce{CO2}$).
 - **Why o-nitrophenol is steam-volatile:** intramolecular hydrogen bonding; the para isomer bonds between molecules.
@@ -31,8 +31,8 @@ Stars are estimates, not exact counts: ★★★ asked in most years · ★★ o
 ## Key formulas
 
 :::formula Hydration of propene, two ways
-$\ce{CH3CH=CH2 ->[H2O/H+] CH3CH(OH)CH3}$ (Markovnikov)<br>
-$\ce{CH3CH=CH2 ->[B2H6][H2O2/OH-] CH3CH2CH2OH}$ (hydroboration–oxidation, anti-Markovnikov)
+$\begin{gathered}\ce{CH3CH=CH2}\\ \ce{->[H2O/H+] CH3CH(OH)CH3}\end{gathered}$ (Markovnikov)<br>
+$\begin{gathered}\ce{CH3CH=CH2}\\ \ce{->[B2H6][H2O2/OH-] CH3CH2CH2OH}\end{gathered}$ (hydroboration–oxidation, anti-Markovnikov)
 :::
 
 :::formula Cumene process for phenol
@@ -62,7 +62,7 @@ Concentrated $\ce{HNO3}$ → 2,4,6-trinitrophenol (picric acid).
 
 :::formula Dehydration of ethanol: temperature decides
 $\ce{C2H5OH ->[conc. H2SO4][443 K] CH2=CH2 + H2O}$<br>
-$\ce{2C2H5OH ->[conc. H2SO4][413 K] C2H5-O-C2H5 + H2O}$
+$\begin{gathered}\ce{2C2H5OH}\\ \ce{->[conc. H2SO4][413 K] C2H5-O-C2H5}\\ \text{+ }\ce{H2O}\end{gathered}$
 :::
 
 :::formula Williamson synthesis
@@ -72,7 +72,7 @@ S$_\text{N}$2: R–X primary. Slip: a tertiary halide gives the alkene instead.
 
 :::formula Cleavage of ethers by HI
 $\ce{C6H5OCH3 + HI -> C6H5OH + CH3I}$<br>
-$\ce{(CH3)3C-O-CH3 + HI -> (CH3)3C-I + CH3OH}$<br>
+$\begin{gathered}\ce{(CH3)3C-O-CH3 + HI}\\ \ce{-> (CH3)3C-I + CH3OH}\end{gathered}$<br>
 Anisole always gives phenol; a tertiary group takes the iodide (S$_\text{N}$1).
 :::
 

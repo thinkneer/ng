@@ -281,5 +281,31 @@
     "answer": "A",
     "model_answer": "**(a).** There is no \"opposite\" position in a tetrahedron, so cis and trans arrangements cannot be told apart.",
     "source_note": "Added Nov 2026 (objective top-up for live quiz)"
+  },
+  {
+    "id": "chem-w20261115-ch05-01",
+    "chapter": "ch-05",
+    "type": "sa3",
+    "marks": 3,
+    "stars": 2,
+    "label": "PYQ-style",
+    "stem": "The complex $\\ce{[Co(NH3)6]Cl3}$ is octahedral. (a) Write its IUPAC name. [1]<br>\n(b) Give the hybridisation of cobalt and say whether the orbitals used are inner or outer. [1]<br>\n(c) State whether the complex is paramagnetic or diamagnetic, with the reason. [1]",
+    "model_answer": "*How much to write: about 8 lines · 6 minutes*\n\n**(a)** <u>Hexaamminecobalt(III) chloride</u>. Co is +3 because the ligands are neutral and there are three Cl⁻.\n\n**(b)** <mark>d$^2$sp$^3$</mark>: two <u>(n−1)d</u> orbitals are used, so the orbitals are <u>inner</u>.\n\n**(c)** <mark>Diamagnetic</mark>. Co$^{3+}$ is d⁶; NH₃ is a strong-field ligand, so the six electrons pair in the three $t_{2g}$ orbitals and no electron is unpaired.\n\n:::tip Your answer must contain\n- the oxidation state of Co in (a) and the ammine prefix in order\n- <u>inner orbital</u> (d$^2$sp$^3$) in (b)\n- the pairing of all six d electrons in (c)\n:::\n\n**Marks are lost for:** “ammonia” instead of “ammine”; outer-orbital hybridisation (sp$^3$d$^2$); calling the complex paramagnetic.",
+    "scheme": [
+      {
+        "step": "(a) Hexaamminecobalt(III) chloride",
+        "marks": 1
+      },
+      {
+        "step": "(b) d2sp3, inner (n−1)d orbitals",
+        "marks": 1
+      },
+      {
+        "step": "(c) Diamagnetic: strong-field NH3 pairs all six d electrons",
+        "marks": 1
+      }
+    ],
+    "hint": "Co in the complex is +3. With a strong-field ligand, the electrons pair up before any spin is left unpaired.",
+    "source_note": "Weekly refresh 2026-11-15 (own wording)"
   }
 ]

@@ -15,11 +15,11 @@ In all three the oxygen is sp$^3$ hybridised with two lone pairs, so the molecul
 **From alkenes.** Water adds across a double bond in the presence of acid, following Markovnikov's rule, so propene gives propan-2-ol. The mechanism has three steps and is worth knowing.
 
 :::skeleton Mechanism: acid-catalysed hydration of ethene
-Step 1, protonation of the alkene to give a carbocation: $\ce{CH2=CH2 + H3O+ -> CH3-CH2+ + H2O}$ [1]
+Step 1, protonation of the alkene to give a carbocation: $\begin{gathered}\ce{CH2=CH2 + H3O+}\\ \ce{-> CH3-CH2+ + H2O}\end{gathered}$ [1]
 
-Step 2, water attacks the carbocation: $\ce{CH3-CH2+ + H2O -> CH3-CH2-OH2+}$ [1]
+Step 2, water attacks the carbocation: $\begin{gathered}\ce{CH3-CH2+ + H2O}\\ \ce{-> CH3-CH2-OH2+}\end{gathered}$ [1]
 
-Step 3, loss of a proton gives the alcohol: $\ce{CH3-CH2-OH2+ + H2O -> CH3CH2OH + H3O+}$ [1]
+Step 3, loss of a proton gives the alcohol: $\begin{gathered}\ce{CH3-CH2-OH2+ + H2O}\\ \ce{-> CH3CH2OH + H3O+}\end{gathered}$ [1]
 :::
 
 To get the *other* alcohol, use **hydroboration–oxidation**. Diborane adds to the alkene, and the product is oxidised with hydrogen peroxide in alkali. The net result is addition of water the anti-Markovnikov way, in excellent yield: propene gives propan-1-ol.
@@ -50,7 +50,7 @@ Phenol cannot be made by simply treating chlorobenzene with dilute alkali; as yo
 
 - **From chlorobenzene**, by brute force: fuse with NaOH at 623 K and 300 atm, then acidify.
 - **From benzenesulphonic acid**, by fusing its sodium salt with NaOH and acidifying.
-- **From a diazonium salt**, by warming with water: $\ce{C6H5N2+Cl- + H2O -> C6H5OH + N2 + HCl}$.
+- **From a diazonium salt**, by warming with water: $\begin{gathered}\ce{C6H5N2+Cl- + H2O}\\ \ce{-> C6H5OH + N2 + HCl}\end{gathered}$.
 - **From cumene**, the industrial method. Cumene (isopropylbenzene) is oxidised by air to cumene hydroperoxide, which dilute acid converts to phenol. The by-product is acetone, itself valuable, which is why this route dominates.
 
 ```ng-steps
@@ -288,9 +288,9 @@ step: Check: a tertiary halide with a strong base would give an alkene by elimin
 
 Ethers are the least reactive of the three families, which is why they are used as solvents. Their one important reaction is **cleavage by hydrogen halides**, with reactivity HI > HBr > HCl.
 
-The ether oxygen is protonated first, and a halide ion then attacks one of the carbons. Which one? For ethers with primary or secondary groups the attack is S$_\text{N}$2, so the halide goes to the *smaller*, less crowded group. If one group is tertiary, the bond breaks by S$_\text{N}$1 through the stable tertiary carbocation, and the halide ends up on the *tertiary* carbon: $\ce{(CH3)3C-O-CH3 + HI -> (CH3)3C-I + CH3OH}$.
+The ether oxygen is protonated first, and a halide ion then attacks one of the carbons. Which one? For ethers with primary or secondary groups the attack is S$_\text{N}$2, so the halide goes to the *smaller*, less crowded group. If one group is tertiary, the bond breaks by S$_\text{N}$1 through the stable tertiary carbocation, and the halide ends up on the *tertiary* carbon: $\begin{gathered}\ce{(CH3)3C-O-CH3 + HI}\\ \ce{-> (CH3)3C-I + CH3OH}\end{gathered}$.
 
-Aryl alkyl ethers always split one way. In anisole the bond between oxygen and the ring has partial double-bond character and will not break, so the products are phenol and iodomethane: $\ce{C6H5-O-CH3 + HI -> C6H5OH + CH3I}$.
+Aryl alkyl ethers always split one way. In anisole the bond between oxygen and the ring has partial double-bond character and will not break, so the products are phenol and iodomethane: $\begin{gathered}\ce{C6H5-O-CH3 + HI}\\ \ce{-> C6H5OH + CH3I}\end{gathered}$.
 
 :::tip
 Anisole with HI never gives iodobenzene. The O–aryl bond stays intact; the methyl group is the one that leaves.

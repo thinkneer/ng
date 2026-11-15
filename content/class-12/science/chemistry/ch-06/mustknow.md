@@ -22,7 +22,7 @@ Stars are estimates, not exact counts: ★★★ asked in most years · ★★ o
 - **Solvent favouring S$_\text{N}$1:** polar protic (water, alcohols), which stabilises the ions.
 - **Chiral molecule:** not superimposable on its mirror image.
 - **Asymmetric carbon:** carbon bonded to four different groups.
-- **Enantiomers:** non-superimposable mirror-image isomers that rotate plane-polarised light in opposite directions.
+- **Pair of enantiomers:** non-superimposable mirror-image isomers that rotate plane-polarised light in opposite directions.
 - **Racemic mixture:** equal amounts of two enantiomers; zero optical rotation.
 - **Zaitsev's rule:** the preferred alkene has more alkyl groups on the doubly bonded carbons.
 - **Ambident nucleophile:** has two attacking sites, as $\ce{CN-}$ and $\ce{NO2-}$ do.
@@ -33,7 +33,7 @@ Stars are estimates, not exact counts: ★★★ asked in most years · ★★ o
 ## Key formulas
 
 :::formula Alcohol to chloroalkane with thionyl chloride
-$\ce{R-OH + SOCl2 -> R-Cl + SO2 + HCl}$<br>
+$\begin{gathered}\ce{R-OH + SOCl2}\\ \ce{-> R-Cl + SO2 + HCl}\end{gathered}$<br>
 Preferred method: both by-products are gases, so the product is pure.
 :::
 
@@ -59,8 +59,8 @@ Doubles the carbon chain. Slip: leaving out "dry ether".
 :::
 
 :::formula Wurtz–Fittig and Fittig reactions
-$\ce{Ar-X + R-X + 2Na ->[dry ether] Ar-R + 2NaX}$ (Wurtz–Fittig)<br>
-$\ce{2Ar-X + 2Na ->[dry ether] Ar-Ar + 2NaX}$ (Fittig)
+$\begin{gathered}\ce{Ar-X + R-X + 2Na}\\ \ce{->[dry ether] Ar-R}\\ \text{+ }\ce{2NaX}\end{gathered}$ (Wurtz–Fittig)<br>
+$\begin{gathered}\ce{2Ar-X + 2Na}\\ \ce{->[dry ether] Ar-Ar}\\ \text{+ }\ce{2NaX}\end{gathered}$ (Fittig)
 :::
 
 :::formula Sandmeyer reaction
@@ -69,7 +69,7 @@ Route to aryl halides from aniline through the diazonium salt.
 :::
 
 :::formula Dehydrohalogenation (β-elimination)
-$\ce{CH3CH2CHBrCH3 ->[alc. KOH] CH3CH=CHCH3}$ (major) $+\ \ce{CH3CH2CH=CH2}$<br>
+$\begin{gathered}\ce{CH3CH2CHBrCH3}\\ \ce{->[alc. KOH] CH3CH=CHCH3}\end{gathered}$ (major) $+\ \ce{CH3CH2CH=CH2}$<br>
 Alcoholic KOH eliminates; aqueous KOH substitutes. Major product by Zaitsev's rule.
 :::
 

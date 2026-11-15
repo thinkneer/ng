@@ -470,5 +470,23 @@
     "hint": "Convert 250 mL to litres before using π = (w/M)RT/V.",
     "topic": "Board answer, topper style",
     "source_note": "Board answers, topper style (Nov 2026)"
+  },
+  {
+    "id": "chem-w20261115-ch01-01",
+    "chapter": "ch-01",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ-style",
+    "stem": "Four aqueous solutions, each 0.10 mol kg$^{-1}$, are compared at 1 atm. Which one has the highest boiling point?",
+    "options": [
+      "Glucose",
+      "Urea",
+      "Sodium chloride",
+      "Calcium chloride"
+    ],
+    "answer": "D",
+    "model_answer": "**(D) Calcium chloride.** The rise in boiling point is $\\Delta T_b=i\\,K_b\\,m$. CaCl$_2$ gives three ions (i ≈ 3), NaCl two (i ≈ 2); glucose and urea do not dissociate (i = 1). More particles, larger rise.",
+    "source_note": "Weekly refresh 2026-11-15 (own wording)"
   }
 ]

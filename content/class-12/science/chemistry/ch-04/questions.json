@@ -289,5 +289,35 @@
     ],
     "hint": "Count electrons: each $\\ce{MnO4-}$ takes 5 in acid and each oxalate ion gives 2.",
     "source_note": "Added Nov 2026 (from the old case-based angles)"
+  },
+  {
+    "id": "chem-w20261115-ch04-01",
+    "chapter": "ch-04",
+    "type": "la5",
+    "marks": 5,
+    "stars": 3,
+    "label": "PYQ-style",
+    "stem": "(a) Define lanthanoid contraction and give its cause. [2]<br>\n(b) Zr (4d) and Hf (5d) have almost the same atomic radius and similar chemistry. Explain. [2]<br>\n(c) Give the ground-state configuration of Eu and explain why Eu$^{2+}$ is stable. [1]",
+    "model_answer": "*How much to write: about 14 lines · 10 minutes*\n\n**(a)** <u>Lanthanoid contraction</u>: the steady <u>decrease in atomic and ionic radii</u> from La to Lu.<br>\nCause: the 4f electrons <u>shield poorly</u>, so the <mark>effective nuclear charge rises</mark> across the series and pulls the outer shells in.\n\n**(b)** The contraction of the lanthanoids cancels the expected increase in size on going from the 4d to the 5d series, so Hf is about as small as Zr.<br>\nHence Zr and Hf have <u>very similar chemical properties</u> and occur together in nature.\n\n**(c)** Eu: $\\ce{[Xe]4f^7 6s^2}$. $\\ce{Eu^2+}$ has a <mark>half-filled 4f⁷ shell</mark>, which is stable, so Eu shows the +2 state.\n\n:::tip Your answer must contain\n- <mark>effective nuclear charge</mark> and the reason 4f electrons shield poorly\n- the 4d–5d comparison with the reason for it\n- the half-filled 4f⁷ shell in (c)\n:::\n\n**Marks are lost for:** saying radii increase across the series; no reason for shielding; no mention of 4d and 5d in (b).",
+    "scheme": [
+      {
+        "step": "(a) Definition: decrease in atomic and ionic radii across La to Lu",
+        "marks": 1
+      },
+      {
+        "step": "(a) Cause: poor shielding by 4f electrons, rising effective nuclear charge",
+        "marks": 1
+      },
+      {
+        "step": "(b) Contraction cancels the size increase; Zr and Hf have similar radii and chemistry",
+        "marks": 2
+      },
+      {
+        "step": "(c) Eu [Xe]4f7 6s2; Eu2+ has a stable half-filled 4f7 shell",
+        "marks": 1
+      }
+    ],
+    "hint": "Two parts of (a): what happens to the size, and what causes it. For (b), compare what you expect when you go down a group with what happens in the lanthanoids.",
+    "source_note": "Weekly refresh 2026-11-15 (own wording)"
   }
 ]

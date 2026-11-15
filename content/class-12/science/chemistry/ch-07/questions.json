@@ -123,18 +123,18 @@
     "stars": 3,
     "label": "PYQ-style",
     "stem": "Write the mechanism of the acid-catalysed hydration of ethene to ethanol.",
-    "model_answer": "**Step 1** — protonation of the alkene by $\\ce{H3O+}$ to form a carbocation:<br>\n$\\ce{CH2=CH2 + H3O+ -> CH3-CH2+ + H2O}$ [1]<br>\n**Step 2** — nucleophilic attack of water on the carbocation:<br>\n$\\ce{CH3-CH2+ + H2O -> CH3-CH2-OH2+}$ [1]<br>\n**Step 3** — deprotonation to give the alcohol:<br>\n$\\ce{CH3-CH2-OH2+ + H2O -> CH3CH2OH + H3O+}$ [1]",
+    "model_answer": "**Step 1** — protonation of the alkene by $\\ce{H3O+}$ to form a carbocation:<br>\n$\\begin{gathered}\\ce{CH2=CH2 + H3O+}\\\\ \\ce{-> CH3-CH2+ + H2O}\\end{gathered}$ [1]<br>\n**Step 2** — nucleophilic attack of water on the carbocation:<br>\n$\\begin{gathered}\\ce{CH3-CH2+ + H2O}\\\\ \\ce{-> CH3-CH2-OH2+}\\end{gathered}$ [1]<br>\n**Step 3** — deprotonation to give the alcohol:<br>\n$\\begin{gathered}\\ce{CH3-CH2-OH2+ + H2O}\\\\ \\ce{-> CH3CH2OH + H3O+}\\end{gathered}$ [1]",
     "scheme": [
       {
-        "step": "**Step 1** — protonation of the alkene by $\\ce{H3O+}$ to form a carbocation: $\\ce{CH2=CH2 + H3O+ -> CH3-CH2+ + H2O}$",
+        "step": "**Step 1** — protonation of the alkene by $\\ce{H3O+}$ to form a carbocation: $\\begin{gathered}\\ce{CH2=CH2 + H3O+}\\\\ \\ce{-> CH3-CH2+ + H2O}\\end{gathered}$",
         "marks": 1
       },
       {
-        "step": "**Step 2** — nucleophilic attack of water on the carbocation: $\\ce{CH3-CH2+ + H2O -> CH3-CH2-OH2+}$",
+        "step": "**Step 2** — nucleophilic attack of water on the carbocation: $\\begin{gathered}\\ce{CH3-CH2+ + H2O}\\\\ \\ce{-> CH3-CH2-OH2+}\\end{gathered}$",
         "marks": 1
       },
       {
-        "step": "**Step 3** — deprotonation to give the alcohol: $\\ce{CH3-CH2-OH2+ + H2O -> CH3CH2OH + H3O+}$",
+        "step": "**Step 3** — deprotonation to give the alcohol: $\\begin{gathered}\\ce{CH3-CH2-OH2+ + H2O}\\\\ \\ce{-> CH3CH2OH + H3O+}\\end{gathered}$",
         "marks": 1
       }
     ],
@@ -149,14 +149,14 @@
     "stars": 2,
     "label": "PYQ-style",
     "stem": "(a) Write the products of (i) $\\ce{(CH3)3C-O-CH3 + HI}$, (ii) $\\ce{C6H5-O-CH3 + HI}$. [2]<br>\n(b) Why can't tert-butyl methyl ether be made from $\\ce{(CH3)3C-Br}$ and $\\ce{CH3ONa}$? [1]",
-    "model_answer": "(a) (i) $\\ce{(CH3)3C-O-CH3 + HI -> (CH3)3C-I + CH3OH}$ (S$_\\text{N}$1 through the stable 3$^\\circ$ carbocation) [1]<br>\n(ii) $\\ce{C6H5-O-CH3 + HI -> C6H5OH + CH3I}$ (the O–aryl bond has partial double-bond character and is not broken) [1]<br>\n(b) Methoxide is a strong base; with a 3$^\\circ$ halide, elimination wins over substitution and 2-methylpropene is formed. The ether is made from $\\ce{(CH3)3C-ONa + CH3Br}$ instead. [1]",
+    "model_answer": "(a) (i) $\\begin{gathered}\\ce{(CH3)3C-O-CH3 + HI}\\\\ \\ce{-> (CH3)3C-I + CH3OH}\\end{gathered}$ (S$_\\text{N}$1 through the stable 3$^\\circ$ carbocation) [1]<br>\n(ii) $\\begin{gathered}\\ce{C6H5-O-CH3 + HI}\\\\ \\ce{-> C6H5OH + CH3I}\\end{gathered}$ (the O–aryl bond has partial double-bond character and is not broken) [1]<br>\n(b) Methoxide is a strong base; with a 3$^\\circ$ halide, elimination wins over substitution and 2-methylpropene is formed. The ether is made from $\\ce{(CH3)3C-ONa + CH3Br}$ instead. [1]",
     "scheme": [
       {
-        "step": "(a) (i) $\\ce{(CH3)3C-O-CH3 + HI -> (CH3)3C-I + CH3OH}$ (S$_\\text{N}$1 through the stable 3$^\\circ$ carbocation)",
+        "step": "(a) (i) $\\begin{gathered}\\ce{(CH3)3C-O-CH3 + HI}\\\\ \\ce{-> (CH3)3C-I + CH3OH}\\end{gathered}$ (S$_\\text{N}$1 through the stable 3$^\\circ$ carbocation)",
         "marks": 1
       },
       {
-        "step": "(ii) $\\ce{C6H5-O-CH3 + HI -> C6H5OH + CH3I}$ (the O–aryl bond has partial double-bond character and is not broken)",
+        "step": "(ii) $\\begin{gathered}\\ce{C6H5-O-CH3 + HI}\\\\ \\ce{-> C6H5OH + CH3I}\\end{gathered}$ (the O–aryl bond has partial double-bond character and is not broken)",
         "marks": 1
       },
       {
@@ -175,30 +175,30 @@
     "stars": 2,
     "label": "PYQ-style",
     "stem": "Compound A ($\\ce{C3H8O}$) gives turbidity with Lucas reagent in about five minutes. When vapours of A are passed over copper at 573 K, B ($\\ce{C3H6O}$) is formed. Heating A with conc. $\\ce{H2SO4}$ at 443 K gives C ($\\ce{C3H6}$). C adds HBr to give D, and D gives back A with aqueous KOH. D reacts with sodium in dry ether to give E ($\\ce{C6H14}$). Identify A to E and write the equations.",
-    "model_answer": "Turbidity in about five minutes ⇒ A is a secondary alcohol.<br>\n**A = propan-2-ol**, $\\ce{CH3CH(OH)CH3}$   **B = propanone**, $\\ce{CH3COCH3}$<br>\n**C = propene**, $\\ce{CH3CH=CH2}$   **D = 2-bromopropane**, $\\ce{CH3CH(Br)CH3}$<br>\n**E = 2,3-dimethylbutane**, $\\ce{(CH3)2CH-CH(CH3)2}$ [½ each = 2½]<br>\n$\\ce{CH3CH(OH)CH3 ->[Cu][573 K] CH3COCH3 + H2}$ [½]<br>\n$\\ce{CH3CH(OH)CH3 ->[conc. H2SO4][443 K] CH3CH=CH2 + H2O}$ [½]<br>\n$\\ce{CH3CH=CH2 + HBr -> CH3CH(Br)CH3}$ (Markovnikov) [½]<br>\n$\\ce{CH3CH(Br)CH3 + KOH(aq) -> CH3CH(OH)CH3 + KBr}$ [½]<br>\n$\\ce{2CH3CH(Br)CH3 + 2Na ->[dry ether] (CH3)2CH-CH(CH3)2 + 2NaBr}$ [½]",
+    "model_answer": "Turbidity in about five minutes ⇒ A is a secondary alcohol.<br>\n**A = propan-2-ol**, $\\ce{CH3CH(OH)CH3}$   **B = propanone**, $\\ce{CH3COCH3}$<br>\n**C = propene**, $\\ce{CH3CH=CH2}$   **D = 2-bromopropane**, $\\ce{CH3CH(Br)CH3}$<br>\n**E = 2,3-dimethylbutane**, $\\ce{(CH3)2CH-CH(CH3)2}$ [½ each = 2½]<br>\n$\\begin{gathered}\\ce{CH3CH(OH)CH3}\\\\ \\ce{->[Cu][573 K] CH3COCH3}\\\\ \\text{+ }\\ce{H2}\\end{gathered}$ [½]<br>\n$\\begin{gathered}\\ce{CH3CH(OH)CH3}\\\\ \\ce{->[conc. H2SO4][443 K] CH3CH=CH2}\\\\ \\text{+ }\\ce{H2O}\\end{gathered}$ [½]<br>\n$\\begin{gathered}\\ce{CH3CH=CH2 + HBr}\\\\ \\ce{-> CH3CH(Br)CH3}\\end{gathered}$ (Markovnikov) [½]<br>\n$\\begin{gathered}\\ce{CH3CH(Br)CH3 + KOH(aq)}\\\\ \\ce{-> CH3CH(OH)CH3 + KBr}\\end{gathered}$ [½]<br>\n$\\begin{gathered}\\ce{2CH3CH(Br)CH3 + 2Na}\\\\ \\ce{->[dry ether] (CH3)2CH-CH(CH3)2}\\\\ \\text{+ }\\ce{2NaBr}\\end{gathered}$ [½]",
     "scheme": [
       {
         "step": "Turbidity in about five minutes ⇒ A is a secondary alcohol. **A = propan-2-ol**, $\\ce{CH3CH(OH)CH3}$   **B = propanone**, $\\ce{CH3COCH3}$ **C = propene**, $\\ce{CH3CH=CH2}$   **D = 2-bromopropane**, $\\ce{CH3CH(Br)CH3}$ **E = 2,3-dimethylbutane**, $\\ce{(CH3)2CH-CH(CH3)2}$",
         "marks": 2.5
       },
       {
-        "step": "$\\ce{CH3CH(OH)CH3 ->[Cu][573 K] CH3COCH3 + H2}$",
+        "step": "$\\begin{gathered}\\ce{CH3CH(OH)CH3}\\\\ \\ce{->[Cu][573 K] CH3COCH3}\\\\ \\text{+ }\\ce{H2}\\end{gathered}$",
         "marks": 0.5
       },
       {
-        "step": "$\\ce{CH3CH(OH)CH3 ->[conc. H2SO4][443 K] CH3CH=CH2 + H2O}$",
+        "step": "$\\begin{gathered}\\ce{CH3CH(OH)CH3}\\\\ \\ce{->[conc. H2SO4][443 K] CH3CH=CH2}\\\\ \\text{+ }\\ce{H2O}\\end{gathered}$",
         "marks": 0.5
       },
       {
-        "step": "$\\ce{CH3CH=CH2 + HBr -> CH3CH(Br)CH3}$ (Markovnikov)",
+        "step": "$\\begin{gathered}\\ce{CH3CH=CH2 + HBr}\\\\ \\ce{-> CH3CH(Br)CH3}\\end{gathered}$ (Markovnikov)",
         "marks": 0.5
       },
       {
-        "step": "$\\ce{CH3CH(Br)CH3 + KOH(aq) -> CH3CH(OH)CH3 + KBr}$",
+        "step": "$\\begin{gathered}\\ce{CH3CH(Br)CH3 + KOH(aq)}\\\\ \\ce{-> CH3CH(OH)CH3 + KBr}\\end{gathered}$",
         "marks": 0.5
       },
       {
-        "step": "$\\ce{2CH3CH(Br)CH3 + 2Na ->[dry ether] (CH3)2CH-CH(CH3)2 + 2NaBr}$",
+        "step": "$\\begin{gathered}\\ce{2CH3CH(Br)CH3 + 2Na}\\\\ \\ce{->[dry ether] (CH3)2CH-CH(CH3)2}\\\\ \\text{+ }\\ce{2NaBr}\\end{gathered}$",
         "marks": 0.5
       }
     ],

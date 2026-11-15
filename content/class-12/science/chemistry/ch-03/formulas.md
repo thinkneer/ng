@@ -35,7 +35,7 @@ First-order gas reaction $\ce{A(g) -> B(g) + C(g)}$ (total pressure $p_t$, initi
 First order: $t_{75\%}=2t_{1/2}$ `SQP 26–27`; $t_{90\%}=\dfrac{2.303}{k}=3.32\,t_{1/2}$; $t_{99.9\%}=\dfrac{6.909}{k}\approx10\,t_{1/2}$; after $n$ half-lives $[R]=[R]_0/2^n$
 :::
 
-- **Pseudo first order**: second order overall but one reactant in large excess (water): acid hydrolysis of ethyl acetate; inversion of cane sugar $\ce{C12H22O11 + H2O ->[H+] C6H12O6 (glucose) + C6H12O6 (fructose)}$; hydrolysis of acetyl chloride `SQP 26–27`. Rate $=k'[\text{ester}]$, $k'=k[\ce{H2O}]$.
+- **Pseudo first order**: second order overall but one reactant in large excess (water): acid hydrolysis of ethyl acetate; inversion of cane sugar $\begin{gathered}\ce{C12H22O11 + H2O}\\ \ce{->[H+] C6H12O6 (glucose)}\\ \text{+ }\ce{C6H12O6 (fructose)}\end{gathered}$; hydrolysis of acetyl chloride `SQP 26–27`. Rate $=k'[\text{ester}]$, $k'=k[\ce{H2O}]$.
 
 <figure class="fig">
 <svg viewBox="0 0 340 290" role="img" aria-label="Four kinetics plots: zero order, first order (two forms) and the Arrhenius plot" fill="none" stroke="currentColor" stroke-width="1.5" font-size="11">

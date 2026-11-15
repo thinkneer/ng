@@ -79,14 +79,14 @@
     "stars": 3,
     "label": "PYQ-style",
     "stem": "What are reducing sugars? What happens when glucose is treated with bromine water?",
-    "model_answer": "Reducing sugars are carbohydrates that reduce Fehling's solution and Tollens' reagent; they have a free aldehydic or ketonic group (e.g. glucose, maltose). [1]<br>\nBromine water (a mild oxidising agent) oxidises glucose to gluconic acid, showing that the carbonyl group is an aldehyde:<br>\n$\\ce{HOCH2(CHOH)4CHO ->[Br2 water] HOCH2(CHOH)4COOH}$ [1]",
+    "model_answer": "Reducing sugars are carbohydrates that reduce Fehling's solution and Tollens' reagent; they have a free aldehydic or ketonic group (e.g. glucose, maltose). [1]<br>\nBromine water (a mild oxidising agent) oxidises glucose to gluconic acid, showing that the carbonyl group is an aldehyde:<br>\n$\\begin{gathered}\\ce{HOCH2(CHOH)4CHO}\\\\ \\ce{->[Br2 water] HOCH2(CHOH)4COOH}\\end{gathered}$ [1]",
     "scheme": [
       {
         "step": "Reducing sugars are carbohydrates that reduce Fehling's solution and Tollens' reagent; they have a free aldehydic or ketonic group (e.g. glucose, maltose).",
         "marks": 1
       },
       {
-        "step": "Bromine water (a mild oxidising agent) oxidises glucose to gluconic acid, showing that the carbonyl group is an aldehyde: $\\ce{HOCH2(CHOH)4CHO ->[Br2 water] HOCH2(CHOH)4COOH}$",
+        "step": "Bromine water (a mild oxidising agent) oxidises glucose to gluconic acid, showing that the carbonyl group is an aldehyde: $\\begin{gathered}\\ce{HOCH2(CHOH)4CHO}\\\\ \\ce{->[Br2 water] HOCH2(CHOH)4COOH}\\end{gathered}$",
         "marks": 1
       }
     ],
@@ -233,5 +233,31 @@
     "answer": "A",
     "model_answer": "**(a).** With C1 of glucose joined to C2 of fructose, no free aldehyde or ketone group can form, so Tollens' and Fehling's reagents are not reduced.",
     "source_note": "Added Nov 2026 (objective top-up for live quiz)"
+  },
+  {
+    "id": "chem-w20261115-ch10-01",
+    "chapter": "ch-10",
+    "type": "sa3",
+    "marks": 3,
+    "stars": 2,
+    "label": "PYQ-style",
+    "stem": "(a) Name the linkage that joins the two monosaccharide units in sucrose. [1]<br>\n(b) Sucrose does not reduce Fehling’s solution. Give the reason. [1]<br>\n(c) Name the two monosaccharides obtained when sucrose is hydrolysed. [1]",
+    "model_answer": "*How much to write: 6–7 lines · 5 minutes*\n\n**(a)** A <u>glycosidic linkage</u> joins C1 of α-glucose to C2 of β-fructose.\n\n**(b)** <mark>Both anomeric carbons</mark> are tied up in the glycosidic bond, so no free aldehyde or hemiacetal group is left to reduce Fehling’s solution.\n\n**(c)** <u>Glucose</u> and <u>fructose</u>.\n\n:::tip Your answer must contain\n- the word <mark>glycosidic linkage</mark> in (a)\n- <u>both anomeric carbons</u> in the bond in (b)\n- glucose and fructose, named in that order\n:::\n\n**Marks are lost for:** “glucosidic” instead of glycosidic; saying sucrose lacks a ring in (b).",
+    "scheme": [
+      {
+        "step": "(a) Glycosidic linkage",
+        "marks": 1
+      },
+      {
+        "step": "(b) Both anomeric carbons involved in the linkage, so no free aldehyde group",
+        "marks": 1
+      },
+      {
+        "step": "(c) Glucose and fructose",
+        "marks": 1
+      }
+    ],
+    "hint": "The bond is between the two anomeric carbons. Think about what Fehling’s solution needs in order to react.",
+    "source_note": "Weekly refresh 2026-11-15 (own wording)"
   }
 ]

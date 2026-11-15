@@ -8,9 +8,9 @@
 :::formula
 Nitro → amine: H$_2$/Ni, Pd or Pt; Sn/HCl or **Fe/HCl** (preferred: FeCl$_2$ hydrolyses and regenerates HCl, so little acid needed)<br>
 Ammonolysis: $\ce{RX + NH3 ->[ethanol][373 K, sealed tube]}$ $\ce{RNH3+X-}$ → 1$^\circ$, 2$^\circ$, 3$^\circ$ amines + quaternary salt (**mixture**; excess NH$_3$ favours 1$^\circ$). RI $>$ RBr $>$ RCl<br>
-$\ce{RC#N ->[LiAlH4 / H2-Ni / Na(Hg)-C2H5OH] RCH2NH2}$ (**+1 C**);   $\ce{RCONH2 ->[LiAlH4][H2O] RCH2NH2}$<br>
+$\begin{gathered}\ce{RC#N}\\ \ce{->[LiAlH4 / H2-Ni / Na(Hg)-C2H5OH]}\\ \ce{RCH2NH2}\end{gathered}$ (**+1 C**);   $\ce{RCONH2 ->[LiAlH4][H2O] RCH2NH2}$<br>
 **Gabriel phthalimide**: phthalimide + alc. KOH → K-phthalimide + RX → N-alkylphthalimide → NaOH(aq) → RNH$_2$ (1$^\circ$ aliphatic only)<br>
-**Hoffmann bromamide**: $\ce{RCONH2 + Br2 + 4NaOH -> RNH2 + Na2CO3 + 2NaBr + 2H2O}$ (**$-$1 C**)
+**Hoffmann bromamide**: $\begin{gathered}\ce{RCONH2 + Br2 + 4NaOH}\\ \ce{-> RNH2 + Na2CO3 + 2NaBr}\\ \text{+ }\ce{2H2O}\end{gathered}$ (**$-$1 C**)
 :::
 
 - Gabriel cannot make aniline: aryl halides do not undergo nucleophilic substitution with the phthalimide anion.
@@ -27,7 +27,7 @@ $\ce{RC#N ->[LiAlH4 / H2-Ni / Na(Hg)-C2H5OH] RCH2NH2}$ (**+1 C**);   $\ce{RCON
 ## Reactions of amines
 
 - **Acylation** (RCOCl, anhydride; pyridine removes HCl) → amides. **Benzoylation** with C$_6$H$_5$COCl: $\ce{CH3NH2}$ → N-methylbenzamide.
-- **Carbylamine**: $\ce{R-NH2 + CHCl3 + 3KOH ->[\Delta] R-NC + 3KCl + 3H2O}$ — foul-smelling isocyanide; 1$^\circ$ amines only (aliphatic and aromatic).
+- **Carbylamine**: $\begin{gathered}\ce{R-NH2 + CHCl3 + 3KOH}\\ \ce{->[\Delta] R-NC + 3KCl}\\ \text{+ }\ce{3H2O}\end{gathered}$ — foul-smelling isocyanide; 1$^\circ$ amines only (aliphatic and aromatic).
 - **Nitrous acid** (NaNO$_2$ + HCl): 1$^\circ$ aliphatic → alcohol + **N$_2$** (quantitative; estimation of amino acids/proteins). Aniline at 273–278 K → diazonium salt.
 - **Hinsberg test** (benzenesulphonyl chloride): 1$^\circ$ → sulphonamide **soluble in alkali** (acidic N–H); 2$^\circ$ → sulphonamide **insoluble in alkali** (no N–H); 3$^\circ$ → no reaction.
 - **Aniline + bromine water** → 2,4,6-tribromoaniline (white ppt). For mono: acetylate (acetanilide, less activating: N lone pair also delocalised onto C=O) → brominate → 4-bromoacetanilide → hydrolyse → 4-bromoaniline.
@@ -38,7 +38,7 @@ $\ce{RC#N ->[LiAlH4 / H2-Ni / Na(Hg)-C2H5OH] RCH2NH2}$ (**+1 C**);   $\ce{RCON
 ## Diazonium salts
 
 :::formula
-Diazotisation: $\ce{C6H5NH2 + NaNO2 + 2HCl ->[273-278 K] C6H5N2+Cl- + NaCl + 2H2O}$<br>
+Diazotisation: $\begin{gathered}\ce{C6H5NH2 + NaNO2 + 2HCl}\\ \ce{->[273-278 K] C6H5N2+Cl-}\\ \text{+ }\ce{NaCl + 2H2O}\end{gathered}$<br>
 Aryl diazonium salts are stable at low $T$ (resonance); used at once. Alkyl diazonium salts decompose immediately. $\ce{C6H5N2+BF4-}$ is stable at room temperature.
 :::
 
@@ -67,7 +67,7 @@ Aniline is *o/p*-directing, but anilinium (in acid) is *meta*-directing. Carbyla
 | Name | Equation / conditions |
 |---|---|
 | **Gabriel** | phthalimide $\ce{->[alc. KOH]}$ K-salt $\ce{->[RX]}$ N-alkylphthalimide $\ce{->[NaOH(aq)]}$ $\ce{RNH2}$ + sodium phthalate |
-| **Hoffmann bromamide** | $\ce{RCONH2 + Br2 + 4NaOH -> RNH2 + Na2CO3 + 2NaBr + 2H2O}$ |
+| **Hoffmann bromamide** | $\begin{gathered}\ce{RCONH2 + Br2 + 4NaOH}\\ \ce{-> RNH2 + Na2CO3 + 2NaBr}\\ \text{+ }\ce{2H2O}\end{gathered}$ |
 | **Carbylamine** | $\ce{RNH2 + CHCl3 + 3KOH ->[\Delta] RNC + 3KCl + 3H2O}$ |
 | **Diazotisation / coupling** | $\ce{ArNH2 ->[NaNO2 + HCl][273-278 K] ArN2+Cl-}$; + phenol (OH$^-$) → orange azo dye; + aniline (H$^+$) → yellow |
 

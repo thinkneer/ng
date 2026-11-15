@@ -29,7 +29,7 @@ Two named reactions give *only* primary amines.
 :::formula Routes that give only primary amines
 **Gabriel phthalimide synthesis:** phthalimide + KOH → potassium phthalimide; + $\ce{R-X}$ → *N*-alkylphthalimide; hydrolysis with NaOH(aq) → $\ce{R-NH2}$
 
-**Hoffmann bromamide degradation:** $\ce{RCONH2 + Br2 + 4NaOH -> RNH2 + Na2CO3 + 2NaBr + 2H2O}$
+**Hoffmann bromamide degradation:** $\begin{gathered}\ce{RCONH2 + Br2 + 4NaOH}\\ \ce{-> RNH2 + Na2CO3 + 2NaBr}\\ \text{+ }\ce{2H2O}\end{gathered}$
 :::
 
 In the Gabriel synthesis the nitrogen of phthalimide can be alkylated only once, so no secondary or tertiary amine can form. It cannot make aniline, though: the step that attaches the carbon group is nucleophilic substitution, and aryl halides do not undergo it.
@@ -39,9 +39,9 @@ In the Hoffmann reaction the alkyl group migrates from the carbonyl carbon to ni
 :::skeleton Worked example: one carbon up, one carbon down
 *Convert (i) chloroethane into propan-1-amine, (ii) propanamide into ethanamine.*
 
-(i) $\ce{CH3CH2Cl ->[KCN] CH3CH2CN ->[LiAlH4] CH3CH2CH2NH2}$ (the nitrile adds a carbon) [1]
+(i) $\begin{gathered}\ce{CH3CH2Cl}\\ \ce{->[KCN] CH3CH2CN}\\ \ce{->[LiAlH4] CH3CH2CH2NH2}\end{gathered}$ (the nitrile adds a carbon) [1]
 
-(ii) $\ce{CH3CH2CONH2 ->[Br2/NaOH] CH3CH2NH2}$ (Hoffmann bromamide degradation removes a carbon) [1]
+(ii) $\begin{gathered}\ce{CH3CH2CONH2}\\ \ce{->[Br2/NaOH] CH3CH2NH2}\end{gathered}$ (Hoffmann bromamide degradation removes a carbon) [1]
 :::
 
 ```ng-steps
@@ -172,12 +172,12 @@ prompt: Order the ethylamines by basicity in water.
 
 **Alkylation.** Amines attack alkyl halides, each step adding one more alkyl group until a quaternary ammonium salt is reached, as in ammonolysis.
 
-**Acylation.** Primary and secondary amines react with acid chlorides and anhydrides, replacing an N–H hydrogen with an acyl group to give an amide: $\ce{C2H5NH2 + CH3COCl -> C2H5NHCOCH3 + HCl}$. A base stronger than the amine, usually pyridine, is added to remove the HCl and pull the reaction forward. Tertiary amines have no N–H hydrogen and are not acylated. With benzoyl chloride the reaction is called benzoylation.
+**Acylation.** Primary and secondary amines react with acid chlorides and anhydrides, replacing an N–H hydrogen with an acyl group to give an amide: $\begin{gathered}\ce{C2H5NH2 + CH3COCl}\\ \ce{-> C2H5NHCOCH3 + HCl}\end{gathered}$. A base stronger than the amine, usually pyridine, is added to remove the HCl and pull the reaction forward. Tertiary amines have no N–H hydrogen and are not acylated. With benzoyl chloride the reaction is called benzoylation.
 
 **Carbylamine reaction.** This is the test for a primary amine.
 
 :::formula Carbylamine reaction
-**Carbylamine reaction:** $\ce{R-NH2 + CHCl3 + 3KOH ->[heat] R-NC + 3KCl + 3H2O}$
+**Carbylamine reaction:** $\begin{gathered}\ce{R-NH2 + CHCl3 + 3KOH}\\ \ce{->[heat] R-NC + 3KCl}\\ \text{+ }\ce{3H2O}\end{gathered}$
 :::
 
 The isocyanide (carbylamine) formed has an unmistakably foul smell. Both aliphatic and aromatic primary amines give it; secondary and tertiary amines do not.
@@ -235,7 +235,7 @@ The $\ce{-NH2}$ group pushes its lone pair into the ring and makes the ortho and
 :::skeleton Worked example: aniline to 4-bromoaniline
 *Convert aniline into 4-bromoaniline.*
 
-Step 1, protect: $\ce{C6H5NH2 ->[(CH3CO)2O, pyridine] C6H5NHCOCH3}$ (acetanilide) [1]
+Step 1, protect: $\begin{gathered}\ce{C6H5NH2}\\ \ce{->[(CH3CO)2O, pyridine] C6H5NHCOCH3}\end{gathered}$ (acetanilide) [1]
 
 Step 2, brominate: acetanilide + $\ce{Br2}$ in $\ce{CH3COOH}$ → 4-bromoacetanilide (major) [1]
 
@@ -265,7 +265,7 @@ step: **Deprotect:** hydrolyse with acid or alkali to free the –NH₂: 4-bromo
 When aniline is treated with nitrous acid in the cold, the product is benzenediazonium chloride. The reaction is **diazotisation**.
 
 :::formula Diazotisation
-**Diazotisation:** $\ce{C6H5NH2 + NaNO2 + 2HCl ->[273-278 K] C6H5N2+Cl- + NaCl + 2H2O}$
+**Diazotisation:** $\begin{gathered}\ce{C6H5NH2 + NaNO2 + 2HCl}\\ \ce{->[273-278 K] C6H5N2+Cl-}\\ \text{+ }\ce{NaCl + 2H2O}\end{gathered}$
 :::
 
 Why is this salt stable when the aliphatic ones are not? The positive charge of the $\ce{-N2+}$ group is delocalised into the benzene ring by resonance. Even so the stability is limited: the salt decomposes on warming and can explode when dry, so it is never isolated. It is made in ice-cold solution and used immediately.
@@ -297,11 +297,11 @@ The $\ce{-N2+}$ group is an excellent leaving group, since it leaves as nitrogen
 
 Iodide: $\ce{ArN2+Cl- + KI -> ArI + KCl + N2}$
 
-Fluoride: $\ce{ArN2+Cl- + HBF4 -> ArN2+BF4- ->[heat] ArF + BF3 + N2}$
+Fluoride: $\begin{gathered}\ce{ArN2+Cl- + HBF4}\\ \ce{-> ArN2+BF4-}\\ \ce{->[heat] ArF + BF3 + N2}\end{gathered}$
 
-Hydroxyl: $\ce{ArN2+Cl- + H2O ->[warm] ArOH + N2 + HCl}$
+Hydroxyl: $\begin{gathered}\ce{ArN2+Cl- + H2O}\\ \ce{->[warm] ArOH + N2 + HCl}\end{gathered}$
 
-Hydrogen: $\ce{ArN2+Cl- + H3PO2 + H2O -> ArH + N2 + H3PO3 + HCl}$ (ethanol also works)
+Hydrogen: $\begin{gathered}\ce{ArN2+Cl- + H3PO2 + H2O}\\ \ce{-> ArH + N2 + H3PO3}\\ \text{+ }\ce{HCl}\end{gathered}$ (ethanol also works)
 :::
 
 The Sandmeyer reaction uses a copper(I) salt; the Gattermann reaction uses copper powder with the acid. Replacement by hydrogen looks pointless but is very useful: an amino group can be put on a ring to direct other groups into position and then removed.
@@ -321,9 +321,9 @@ The wider point is that diazonium salts let you put groups on a ring that cannot
 :::skeleton Worked example: a route through a diazonium salt
 *Convert aniline into benzoic acid.*
 
-Step 1: $\ce{C6H5NH2 ->[NaNO2 + HCl, 273-278 K] C6H5N2+Cl-}$ (diazotisation) [1]
+Step 1: $\begin{gathered}\ce{C6H5NH2}\\ \ce{->[NaNO2}\\ \text{+ }\ce{HCl, 273-278 K] C6H5N2+Cl-}\end{gathered}$ (diazotisation) [1]
 
-Step 2: $\ce{C6H5N2+Cl- ->[CuCN/KCN] C6H5CN}$ (Sandmeyer reaction) [1]
+Step 2: $\begin{gathered}\ce{C6H5N2+Cl-}\\ \ce{->[CuCN/KCN] C6H5CN}\end{gathered}$ (Sandmeyer reaction) [1]
 
 Step 3: $\ce{C6H5CN ->[H3O+, heat] C6H5COOH}$ (hydrolysis of the nitrile) [1]
 :::

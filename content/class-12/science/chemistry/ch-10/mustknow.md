@@ -13,10 +13,10 @@ Stars are estimates, not exact counts: ★★★ asked in most years · ★★ o
 
 ## Must-know lines and definitions
 
-- **Carbohydrates:** optically active polyhydroxy aldehydes or ketones, or compounds giving them on hydrolysis.
-- **Monosaccharide:** carbohydrate that cannot be hydrolysed to simpler units.
+- **What is a carbohydrate:** optically active polyhydroxy aldehydes or ketones, or compounds giving them on hydrolysis.
+- **Monosaccharide sugar:** carbohydrate that cannot be hydrolysed to simpler units.
 - **Reducing sugar:** reduces Fehling's solution and Tollens' reagent; has a free anomeric carbon.
-- **Anomers:** α and β forms of a sugar differing only in configuration at the anomeric carbon.
+- **Pair of anomers:** α and β forms of a sugar differing only in configuration at the anomeric carbon.
 - **Glycosidic linkage:** oxygen bridge joining two monosaccharide units, formed with loss of water.
 - **Invert sugar:** equimolar glucose + fructose from sucrose; rotation changes from dextro to laevo.
 - **Amino acid zwitterion:** dipolar ion $\ce{H3N+-CHR-COO-}$; makes amino acids amphoteric and salt-like.
@@ -24,13 +24,13 @@ Stars are estimates, not exact counts: ★★★ asked in most years · ★★ o
 - **Peptide bond:** amide link –CO–NH– between two amino acids, formed with loss of water.
 - **Primary structure of a protein:** the sequence of amino acids in the chain.
 - **Secondary structure of a protein:** α-helix or β-pleated sheet, held by hydrogen bonds.
-- **Denaturation:** loss of biological activity when heat or pH change unfolds the protein.
+- **Protein denaturation:** loss of biological activity when heat or pH change unfolds the protein.
 - **What survives denaturation:** the primary structure; secondary and tertiary structures are destroyed.
-- **Enzymes:** biocatalysts, mostly globular proteins, highly specific in action.
-- **Vitamins:** organic compounds needed in small amounts in the diet for specific biological functions.
-- **Nucleotide:** pentose sugar + nitrogenous base + phosphate.
-- **Nucleoside:** pentose sugar + nitrogenous base only.
-- **Hormones:** chemical messengers produced by endocrine glands and carried in the blood.
+- **Enzymes as catalysts:** biocatalysts, mostly globular proteins, highly specific in action.
+- **Vitamins in diet:** organic compounds needed in small amounts in the diet for specific biological functions.
+- **Nucleotide unit:** pentose sugar + nitrogenous base + phosphate.
+- **Nucleoside unit:** pentose sugar + nitrogenous base only.
+- **Hormones in the body:** chemical messengers produced by endocrine glands and carried in the blood.
 
 ## Key formulas
 

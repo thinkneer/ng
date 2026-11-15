@@ -24,7 +24,7 @@ Stars are estimates, not exact counts: ★★★ asked in most years · ★★ o
 - **Carbylamine reaction:** primary amine + $\ce{CHCl3}$ + alcoholic KOH gives a foul-smelling isocyanide.
 - **Hinsberg's reagent:** benzenesulphonyl chloride, $\ce{C6H5SO2Cl}$.
 - **Hinsberg's test result:** 1° product soluble in alkali, 2° product insoluble, 3° no reaction.
-- **Diazotisation:** primary aromatic amine + $\ce{NaNO2}$ + HCl at 273–278 K gives a diazonium salt.
+- **Diazotisation reaction:** primary aromatic amine + $\ce{NaNO2}$ + HCl at 273–278 K gives a diazonium salt.
 - **Coupling reaction:** diazonium ion attacks phenol or aniline at the para position to give an azo dye.
 - **Why aniline is acetylated before nitration or bromination:** to reduce the activating effect of $\ce{-NH2}$ and get the para product.
 - **Why aniline gives no Friedel–Crafts reaction:** it forms a salt with $\ce{AlCl3}$, which deactivates the ring.
@@ -32,12 +32,12 @@ Stars are estimates, not exact counts: ★★★ asked in most years · ★★ o
 ## Key formulas
 
 :::formula Hoffmann bromamide degradation
-$\ce{RCONH2 + Br2 + 4NaOH -> RNH2 + Na2CO3 + 2NaBr + 2H2O}$<br>
+$\begin{gathered}\ce{RCONH2 + Br2 + 4NaOH}\\ \ce{-> RNH2 + Na2CO3 + 2NaBr}\\ \text{+ }\ce{2H2O}\end{gathered}$<br>
 One carbon fewer than the amide. Slip: unbalanced equation; remember 4 NaOH.
 :::
 
 :::formula Carbylamine reaction
-$\ce{RNH2 + CHCl3 + 3KOH ->[heat] RNC + 3KCl + 3H2O}$<br>
+$\begin{gathered}\ce{RNH2 + CHCl3 + 3KOH}\\ \ce{->[heat] RNC + 3KCl}\\ \text{+ }\ce{3H2O}\end{gathered}$<br>
 Test for primary amines (aliphatic and aromatic). KOH is alcoholic.
 :::
 
@@ -52,7 +52,7 @@ Halide to nitrile to amine adds one carbon.
 :::
 
 :::formula Diazotisation
-$\ce{C6H5NH2 + NaNO2 + 2HCl ->[273-278 K] C6H5N2+Cl- + NaCl + 2H2O}$<br>
+$\begin{gathered}\ce{C6H5NH2 + NaNO2 + 2HCl}\\ \ce{->[273-278 K] C6H5N2+Cl-}\\ \text{+ }\ce{NaCl + 2H2O}\end{gathered}$<br>
 Slip: above 278 K the salt reacts with water and gives phenol.
 :::
 

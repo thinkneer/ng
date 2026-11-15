@@ -25,16 +25,16 @@ The remaining methods are named reactions, and the common thread for aldehydes i
 :::formula Named routes to aldehydes
 **Rosenmund reduction:** $\ce{RCOCl + H2 ->[Pd/BaSO4] RCHO + HCl}$
 
-**Stephen reaction:** $\ce{RCN + SnCl2 + HCl -> RCH=NH ->[H3O+] RCHO}$
+**Stephen reaction:** $\begin{gathered}\ce{RCN + SnCl2 + HCl}\\ \ce{-> RCH=NH}\\ \ce{->[H3O+] RCHO}\end{gathered}$
 
 **Etard reaction:** toluene + $\ce{CrO2Cl2}$ → chromium complex, then $\ce{H3O+}$ → benzaldehyde
 
-**Gatterman–Koch reaction:** $\ce{C6H6 + CO + HCl ->[anhyd. AlCl3/CuCl] C6H5CHO}$
+**Gatterman–Koch reaction:** $\begin{gathered}\ce{C6H6 + CO + HCl}\\ \ce{->[anhyd. AlCl3/CuCl] C6H5CHO}\end{gathered}$
 :::
 
 In the Rosenmund reduction the palladium catalyst is deliberately weakened ("poisoned") by barium sulphate so that it reduces the acid chloride to the aldehyde and no further. Nitriles and esters can also be reduced to aldehydes with DIBAL-H. In the Etard reaction, chromyl chloride oxidises the methyl group of toluene only as far as the aldehyde.
 
-Ketones have their own routes. An acid chloride reacts with a dialkylcadmium: $\ce{2RCOCl + R{'}2Cd -> 2RCOR{'} + CdCl2}$. A nitrile treated with a Grignard reagent and then hydrolysed gives a ketone. And **Friedel–Crafts acylation** puts an acyl group on a benzene ring: $\ce{C6H6 + CH3COCl ->[anhyd. AlCl3] C6H5COCH3 + HCl}$, giving acetophenone.
+Ketones have their own routes. An acid chloride reacts with a dialkylcadmium: $\begin{gathered}\ce{2RCOCl + R{'}2Cd}\\ \ce{-> 2RCOR{'} + CdCl2}\end{gathered}$. A nitrile treated with a Grignard reagent and then hydrolysed gives a ketone. And **Friedel–Crafts acylation** puts an acyl group on a benzene ring: $\begin{gathered}\ce{C6H6 + CH3COCl}\\ \ce{->[anhyd. AlCl3] C6H5COCH3}\\ \text{+ }\ce{HCl}\end{gathered}$, giving acetophenone.
 
 ```ng-fill
 id: aldehyde-routes
@@ -147,9 +147,9 @@ row: 2,4-DNP | [[2,4-dinitrophenylhydrazone (orange-red precipitate)]]
 
 **Oxidation** is where aldehydes and ketones part company. An aldehyde has a hydrogen on the carbonyl carbon and is oxidised very easily to a carboxylic acid, even by mild reagents. A ketone has none; it resists, and only drastic conditions break it up. Two mild oxidants turn this difference into tests.
 
-**Tollens' test.** Ammoniacal silver nitrate is reduced by any aldehyde to metallic silver, which coats the test tube as a mirror: $\ce{RCHO + 2[Ag(NH3)2]+ + 3OH- -> RCOO- + 2Ag + 2H2O + 4NH3}$. Ketones give nothing.
+**Tollens' test.** Ammoniacal silver nitrate is reduced by any aldehyde to metallic silver, which coats the test tube as a mirror: $\begin{gathered}\ce{RCHO + 2[Ag(NH3)2]+}\\ \text{+ }\ce{3OH-}\\ \ce{-> RCOO- + 2Ag + 2H2O}\\ \text{+ }\ce{4NH3}\end{gathered}$. Ketones give nothing.
 
-**Fehling's test.** An alkaline copper(II) tartrate solution is reduced by *aliphatic* aldehydes to a red-brown precipitate of copper(I) oxide: $\ce{RCHO + 2Cu^2+ + 5OH- -> RCOO- + Cu2O + 3H2O}$. Aromatic aldehydes such as benzaldehyde do not respond.
+**Fehling's test.** An alkaline copper(II) tartrate solution is reduced by *aliphatic* aldehydes to a red-brown precipitate of copper(I) oxide: $\begin{gathered}\ce{RCHO + 2Cu^2+ + 5OH-}\\ \ce{-> RCOO- + Cu2O + 3H2O}\end{gathered}$. Aromatic aldehydes such as benzaldehyde do not respond.
 
 **Iodoform test.** This one picks out a structure, not a family. Any compound with a $\ce{CH3CO-}$ group, or a $\ce{CH3CH(OH)-}$ group that can be oxidised to one, reacts with iodine and sodium hydroxide to give a yellow precipitate of iodoform, $\ce{CHI3}$. Ethanal, propanone, acetophenone, ethanol and propan-2-ol give it; methanal, propanal, pentan-3-one and benzaldehyde do not.
 
@@ -215,7 +215,7 @@ The carbon next to the carbonyl group is the α-carbon, and its hydrogens are un
 That is the **aldol reaction**. In dilute alkali, two molecules of an aldehyde or ketone *with* α-hydrogen join: the α-carbon of one bonds to the carbonyl carbon of the other. The product has both an –OH and a carbonyl group, a β-hydroxy aldehyde ("ald-ol") or ketone. On heating it loses water to give an α,β-unsaturated compound; the whole sequence is aldol condensation.
 
 :::formula Aldol condensation
-**Aldol condensation:** $\ce{2CH3CHO ->[dil. NaOH] CH3CH(OH)CH2CHO ->[heat] CH3CH=CHCHO + H2O}$
+**Aldol condensation:** $\begin{gathered}\ce{2CH3CHO}\\ \ce{->[dil. NaOH] CH3CH(OH)CH2CHO}\\ \ce{->[heat] CH3CH=CHCHO}\\ \text{+ }\ce{H2O}\end{gathered}$
 
 3-hydroxybutanal, then but-2-enal
 :::
@@ -225,9 +225,9 @@ If two different carbonyl compounds are used and both have α-hydrogens, four pr
 What if there is *no* α-hydrogen? Then aldol is impossible, and with concentrated alkali something else happens. One molecule of the aldehyde is oxidised to the acid salt while another is reduced to the alcohol. This self oxidation–reduction (disproportionation) is the **Cannizzaro reaction**.
 
 :::formula Cannizzaro reaction
-**Cannizzaro reaction:** $\ce{2HCHO + KOH(conc.) -> CH3OH + HCOOK}$
+**Cannizzaro reaction:** $\begin{gathered}\ce{2HCHO + KOH(conc.)}\\ \ce{-> CH3OH + HCOOK}\end{gathered}$
 
-$\ce{2C6H5CHO + NaOH(conc.) -> C6H5CH2OH + C6H5COONa}$
+$\begin{gathered}\ce{2C6H5CHO + NaOH(conc.)}\\ \ce{-> C6H5CH2OH + C6H5COONa}\end{gathered}$
 :::
 
 :::tip
@@ -358,12 +358,12 @@ Two molecules heated with a dehydrating agent ($\ce{P2O5}$): acid anhydride
 
 **Reduction** to a primary alcohol needs $\ce{LiAlH4}$ or diborane. Sodium borohydride is not strong enough.
 
-**Decarboxylation** removes the carboxyl carbon. Heating the sodium salt with soda lime (NaOH and CaO) gives a hydrocarbon with one carbon *fewer*: $\ce{RCOONa + NaOH ->[CaO, heat] RH + Na2CO3}$. Electrolysing a solution of the salt joins two alkyl groups instead (Kolbe electrolysis).
+**Decarboxylation** removes the carboxyl carbon. Heating the sodium salt with soda lime (NaOH and CaO) gives a hydrocarbon with one carbon *fewer*: $\begin{gathered}\ce{RCOONa + NaOH}\\ \ce{->[CaO, heat] RH}\\ \text{+ }\ce{Na2CO3}\end{gathered}$. Electrolysing a solution of the salt joins two alkyl groups instead (Kolbe electrolysis).
 
 **Halogenation at the α-carbon** is the last named reaction of the chapter.
 
 :::formula Hell–Volhard–Zelinsky reaction
-**Hell–Volhard–Zelinsky (HVZ) reaction:** $\ce{RCH2COOH ->[X2 / red P, then H2O] RCH(X)COOH}$ (X = Cl, Br)
+**Hell–Volhard–Zelinsky (HVZ) reaction:** $\begin{gathered}\ce{RCH2COOH}\\ \ce{->[X2 / red P, then H2O] RCH(X)COOH}\end{gathered}$ (X = Cl, Br)
 :::
 
 It needs an α-hydrogen, and it puts the halogen on the α-carbon.
@@ -373,9 +373,9 @@ On a benzene ring, –COOH withdraws electrons: benzoic acid is nitrated and bro
 :::skeleton Worked example: two conversions
 *Convert (i) benzoic acid into benzaldehyde, (ii) bromoethane into propanoic acid.*
 
-(i) $\ce{C6H5COOH ->[SOCl2] C6H5COCl ->[H2, Pd/BaSO4] C6H5CHO}$ (acid chloride, then Rosenmund reduction) [1½]
+(i) $\begin{gathered}\ce{C6H5COOH}\\ \ce{->[SOCl2] C6H5COCl}\\ \ce{->[H2, Pd/BaSO4] C6H5CHO}\end{gathered}$ (acid chloride, then Rosenmund reduction) [1½]
 
-(ii) $\ce{CH3CH2Br ->[Mg, dry ether] CH3CH2MgBr ->[CO2, then H3O+] CH3CH2COOH}$ (Grignard reagent adds one carbon) [1½]
+(ii) $\begin{gathered}\ce{CH3CH2Br}\\ \ce{->[Mg, dry ether] CH3CH2MgBr}\\ \ce{->[CO2, then H3O+] CH3CH2COOH}\end{gathered}$ (Grignard reagent adds one carbon) [1½]
 :::
 
 Uses worth remembering: methanoic acid in rubber, textile and leather industries; ethanoic acid as vinegar and as a solvent; hexanedioic acid for nylon-6,6; sodium benzoate as a food preservative; and the higher fatty acids for soaps and detergents.

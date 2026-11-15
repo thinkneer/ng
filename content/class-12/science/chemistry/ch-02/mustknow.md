@@ -28,7 +28,7 @@ Stars are estimates, not exact counts: ★★★ asked in most years · ★★ o
 - **Primary battery:** the reaction occurs once; it cannot be recharged.
 - **Secondary battery:** recharged by passing current in the opposite direction.
 - **Fuel cell:** galvanic cell that converts the energy of combustion of a fuel directly into electricity.
-- **Corrosion:** slow electrochemical coating of a metal surface with its oxide or other salts.
+- **Corrosion of metals:** slow electrochemical coating of a metal surface with its oxide or other salts.
 
 ## Key formulas
 
@@ -108,8 +108,8 @@ $Q=It$ ($t$ in s) → moles e$^-$ $=Q/F$ → moles metal $=$ moles e$^-$ ÷ $n$ 
 
 :::skeleton Lead storage battery (3 marks)
 Anode: $\ce{Pb + SO4^2- -> PbSO4 + 2e-}$<br>
-Cathode: $\ce{PbO2 + SO4^2- + 4H+ + 2e- -> PbSO4 + 2H2O}$<br>
-Overall: $\ce{Pb + PbO2 + 2H2SO4 -> 2PbSO4 + 2H2O}$; on charging the reaction is reversed.
+Cathode: $\begin{gathered}\ce{PbO2 + SO4^2- + 4H+}\\ \text{+ }\ce{2e-}\\ \ce{-> PbSO4 + 2H2O}\end{gathered}$<br>
+Overall: $\begin{gathered}\ce{Pb + PbO2 + 2H2SO4}\\ \ce{-> 2PbSO4 + 2H2O}\end{gathered}$; on charging the reaction is reversed.
 :::
 
 ### Why/reason answers — write them like this

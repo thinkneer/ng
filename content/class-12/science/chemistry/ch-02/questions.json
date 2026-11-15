@@ -14,7 +14,7 @@
       "7 F"
     ],
     "answer": "C",
-    "model_answer": "**(c) 5 F.** Mn goes from +7 to +2: $\\ce{MnO4- + 8H+ + 5e- -> Mn^2+ + 4H2O}$.",
+    "model_answer": "**(c) 5 F.** Mn goes from +7 to +2: $\\begin{gathered}\\ce{MnO4- + 8H+ + 5e-}\\\\ \\ce{-> Mn^2+ + 4H2O}\\end{gathered}$.",
     "source_note": "Expert Q&A Sheet 1 (Physical), Q3"
   },
   {
@@ -98,8 +98,8 @@
     "marks": 3,
     "stars": 3,
     "label": "PYQ-style",
-    "stem": "Calculate the emf at 298 K of the cell<br>\n$\\ce{Sn(s) | Sn^2+(0.004 M) || H+(0.020 M) | H2(g, 1 bar) | Pt(s)}$<br>\nGiven $E^\\circ_{\\ce{Sn^2+/Sn}}=-0.14$ V.",
-    "model_answer": "*How much to write: 8–10 lines: cell reaction first, then Nernst · 6 minutes*\n\n**Cell reaction:** $\\ce{Sn(s) + 2H+(aq) -> Sn^2+(aq) + H2(g)}$, so <mark>$n=2$</mark>\n\n$$\\begin{aligned}E^\\circ_\\text{cell}&=E^\\circ_\\text{cathode}-E^\\circ_\\text{anode} \\\\ &=0.00-(-0.14) \\\\ &=0.14\\text{ V}\\end{aligned}$$\n\n**Nernst equation** (298 K):\n\n$$E_\\text{cell}=E^\\circ_\\text{cell}-\\frac{0.059}{n}\\log\\frac{[\\ce{Sn^2+}]}{[\\ce{H+}]^2}$$\n\n$$E_\\text{cell}=0.14-\\frac{0.059}{2}\\log\\frac{0.004}{(0.020)^2}$$\n\n$$\\begin{aligned}E_\\text{cell}&=0.14-0.0295\\log10 \\\\ &=0.14-0.0295\\end{aligned}$$\n\n$$\\boxed{E_\\text{cell}=0.11\\text{ V}}$$\n\n:::tip Your answer must contain\n- the <u>balanced cell reaction</u>, which fixes $n=2$ and $Q$\n- $E^\\circ_\\text{cell}$ as <u>cathode − anode</u>\n- <mark>$[\\ce{H+}]$ squared</mark> in $Q$ (solids and 1 bar $\\ce{H2}$ left out)\n- answer with unit V\n:::\n\n**Marks are lost for:** n taken as 1; [H⁺] not squared; Q written upside down.",
+    "stem": "Calculate the emf at 298 K of the cell<br>\n$\\begin{gathered}\\ce{Sn(s) | Sn^2+(0.004 M)}\\\\ \\ce{|| H+(0.020 M)}\\\\ \\ce{| H2(g, 1 bar) | Pt(s)}\\end{gathered}$<br>\nGiven $E^\\circ_{\\ce{Sn^2+/Sn}}=-0.14$ V.",
+    "model_answer": "*How much to write: 8–10 lines: cell reaction first, then Nernst · 6 minutes*\n\n**Cell reaction:** $\\begin{gathered}\\ce{Sn(s) + 2H+(aq)}\\\\ \\ce{-> Sn^2+(aq) + H2(g)}\\end{gathered}$, so <mark>$n=2$</mark>\n\n$$\\begin{aligned}E^\\circ_\\text{cell}&=E^\\circ_\\text{cathode}-E^\\circ_\\text{anode} \\\\ &=0.00-(-0.14) \\\\ &=0.14\\text{ V}\\end{aligned}$$\n\n**Nernst equation** (298 K):\n\n$$E_\\text{cell}=E^\\circ_\\text{cell}-\\frac{0.059}{n}\\log\\frac{[\\ce{Sn^2+}]}{[\\ce{H+}]^2}$$\n\n$$E_\\text{cell}=0.14-\\frac{0.059}{2}\\log\\frac{0.004}{(0.020)^2}$$\n\n$$\\begin{aligned}E_\\text{cell}&=0.14-0.0295\\log10 \\\\ &=0.14-0.0295\\end{aligned}$$\n\n$$\\boxed{E_\\text{cell}=0.11\\text{ V}}$$\n\n:::tip Your answer must contain\n- the <u>balanced cell reaction</u>, which fixes $n=2$ and $Q$\n- $E^\\circ_\\text{cell}$ as <u>cathode − anode</u>\n- <mark>$[\\ce{H+}]$ squared</mark> in $Q$ (solids and 1 bar $\\ce{H2}$ left out)\n- answer with unit V\n:::\n\n**Marks are lost for:** n taken as 1; [H⁺] not squared; Q written upside down.",
     "scheme": [
       {
         "step": "Cell reaction and n = 2",
@@ -155,7 +155,7 @@
     "stars": 3,
     "label": "PYQ-style",
     "stem": "(a) State Kohlrausch's law. (b) $\\Lambda^\\circ_m$ for NaCl, HCl and CH$_3$COONa are 126.4, 425.9 and 91.0 S cm$^2$mol$^{-1}$. Find $\\Lambda^\\circ_m$ of CH$_3$COOH. (c) Why can't this value be found by extrapolating a graph?",
-    "model_answer": "*How much to write: law in two lines, the sum in three, reason in two · 6 minutes*\n\n**(a) Kohlrausch's law:** <mark>the limiting molar conductivity of an electrolyte is the sum of the limiting molar conductivities of its cation and anion.</mark>\n\n$$\\Lambda_m^\\circ=\\nu_+\\lambda_+^\\circ+\\nu_-\\lambda_-^\\circ$$\n\n**(b)** Add and subtract so that only $\\ce{H+}$ and $\\ce{CH3COO-}$ remain:\n\n$$\\begin{aligned}\\Lambda^\\circ_{\\ce{CH3COOH}}&=\\Lambda^\\circ_{\\ce{CH3COONa}}+\\Lambda^\\circ_{\\ce{HCl}}-\\Lambda^\\circ_{\\ce{NaCl}}\\end{aligned}$$\n\n$$=91.0+425.9-126.4$$\n\n$$\\boxed{\\Lambda^\\circ_{\\ce{CH3COOH}}=390.5\\text{ S cm}^2\\text{mol}^{-1}}$$\n\n**(c)** For a <u>weak electrolyte</u>, $\\Lambda_m$ rises <u>very steeply</u> at low concentration because dissociation keeps increasing, so the curve <mark>cannot be extrapolated</mark> to zero concentration.\n\n:::tip Your answer must contain\n- the words <u>limiting molar conductivity</u> and <u>sum of cation and anion contributions</u>\n- the combination written in symbols before the numbers\n- (c): <mark>steep rise / cannot be extrapolated</mark>\n:::\n\n**Marks are lost for:** adding all three values; stating the law without \"limiting\".",
+    "model_answer": "*How much to write: law in two lines, the sum in three, reason in two · 6 minutes*\n\n**(a) Kohlrausch's law:** <mark>the limiting molar conductivity of an electrolyte is the sum of the limiting molar conductivities of its cation and anion.</mark>\n\n$$\\Lambda_m^\\circ=\\nu_+\\lambda_+^\\circ+\\nu_-\\lambda_-^\\circ$$\n\n**(b)** Add and subtract so that only $\\ce{H+}$ and $\\ce{CH3COO-}$ remain:\n\n$$\\begin{aligned}\\Lambda^\\circ_{\\ce{CH3COOH}}&=\\Lambda^\\circ_{\\ce{CH3COONa}}\\\\ &\\quad+\\Lambda^\\circ_{\\ce{HCl}}-\\Lambda^\\circ_{\\ce{NaCl}}\\end{aligned}$$\n\n$$=91.0+425.9-126.4$$\n\n$$\\boxed{\\Lambda^\\circ_{\\ce{CH3COOH}}=390.5\\text{ S cm}^2\\text{mol}^{-1}}$$\n\n**(c)** For a <u>weak electrolyte</u>, $\\Lambda_m$ rises <u>very steeply</u> at low concentration because dissociation keeps increasing, so the curve <mark>cannot be extrapolated</mark> to zero concentration.\n\n:::tip Your answer must contain\n- the words <u>limiting molar conductivity</u> and <u>sum of cation and anion contributions</u>\n- the combination written in symbols before the numbers\n- (c): <mark>steep rise / cannot be extrapolated</mark>\n:::\n\n**Marks are lost for:** adding all three values; stating the law without \"limiting\".",
     "scheme": [
       {
         "step": "Kohlrausch's law stated",
@@ -180,8 +180,8 @@
     "marks": 5,
     "stars": 3,
     "label": "PYQ-style",
-    "stem": "(a) For $\\ce{2Fe^3+(aq) + 2I-(aq) -> 2Fe^2+(aq) + I2(s)}$, $E^\\circ_\\text{cell}=0.236$ V at 298 K. Calculate $\\Delta_rG^\\circ$ and the equilibrium constant. (F = 96500 C mol$^{-1}$) [3]<br>\n(b) How many faradays are needed to deposit 1 mol of Al from molten $\\ce{Al2O3}$? [1]<br>\n(c) Write the electrode reactions of the H$_2$–O$_2$ fuel cell. [1]",
-    "model_answer": "*How much to write: about one page: (a) in full, (b) and (c) in two lines each · 10 minutes*\n\n**(a) Given:** $E^\\circ_\\text{cell}=0.236$ V, $n=2$ (two electrons transferred), $F=96500$ C mol⁻¹\n\n$$\\begin{aligned}\\Delta_rG^\\circ&=-nFE^\\circ_\\text{cell} \\\\ &=-2\\times96500\\times0.236\\end{aligned}$$\n\n$$\\Delta_rG^\\circ=-45548\\text{ J mol}^{-1}$$\n\n$$\\boxed{\\Delta_rG^\\circ=-45.55\\text{ kJ mol}^{-1}}$$\n\n$$\\begin{aligned}\\log K_c&=\\frac{nE^\\circ_\\text{cell}}{0.059} \\\\ &=\\frac{2\\times0.236}{0.059} \\\\ &=8.0\\end{aligned}$$\n\n$$\\boxed{K_c=1\\times10^{8}}$$\n\n**(b)** $\\ce{Al^3+ + 3e- -> Al}$, so <mark>3 F</mark> are needed per mole of Al.\n\n**(c)** Fuel cell (alkaline electrolyte):<br>\nAnode: $\\ce{2H2(g) + 4OH-(aq) -> 4H2O(l) + 4e-}$<br>\nCathode: $\\ce{O2(g) + 2H2O(l) + 4e- -> 4OH-(aq)}$\n\n:::tip Your answer must contain\n- <mark>$n=2$</mark> stated before using it\n- $\\Delta G$ with unit and sign; $\\log K_c$ formula written first\n- (b) the electrode equation showing <u>3 electrons</u>\n- (c) reactions balanced with <u>OH⁻</u> (alkaline medium)\n:::\n\n**Marks are lost for:** n taken as 1; ΔG left in J without \"mol⁻¹\"; acidic fuel-cell equations.",
+    "stem": "(a) For $\\begin{gathered}\\ce{2Fe^3+(aq) + 2I-(aq)}\\\\ \\ce{-> 2Fe^2+(aq) + I2(s)}\\end{gathered}$, $E^\\circ_\\text{cell}=0.236$ V at 298 K. Calculate $\\Delta_rG^\\circ$ and the equilibrium constant. (F = 96500 C mol$^{-1}$) [3]<br>\n(b) How many faradays are needed to deposit 1 mol of Al from molten $\\ce{Al2O3}$? [1]<br>\n(c) Write the electrode reactions of the H$_2$–O$_2$ fuel cell. [1]",
+    "model_answer": "*How much to write: about one page: (a) in full, (b) and (c) in two lines each · 10 minutes*\n\n**(a) Given:** $E^\\circ_\\text{cell}=0.236$ V, $n=2$ (two electrons transferred), $F=96500$ C mol⁻¹\n\n$$\\begin{aligned}\\Delta_rG^\\circ&=-nFE^\\circ_\\text{cell} \\\\ &=-2\\times96500\\times0.236\\end{aligned}$$\n\n$$\\Delta_rG^\\circ=-45548\\text{ J mol}^{-1}$$\n\n$$\\boxed{\\Delta_rG^\\circ=-45.55\\text{ kJ mol}^{-1}}$$\n\n$$\\begin{aligned}\\log K_c&=\\frac{nE^\\circ_\\text{cell}}{0.059} \\\\ &=\\frac{2\\times0.236}{0.059} \\\\ &=8.0\\end{aligned}$$\n\n$$\\boxed{K_c=1\\times10^{8}}$$\n\n**(b)** $\\ce{Al^3+ + 3e- -> Al}$, so <mark>3 F</mark> are needed per mole of Al.\n\n**(c)** Fuel cell (alkaline electrolyte):<br>\nAnode: $\\begin{gathered}\\ce{2H2(g) + 4OH-(aq)}\\\\ \\ce{-> 4H2O(l) + 4e-}\\end{gathered}$<br>\nCathode: $\\begin{gathered}\\ce{O2(g) + 2H2O(l) + 4e-}\\\\ \\ce{-> 4OH-(aq)}\\end{gathered}$\n\n:::tip Your answer must contain\n- <mark>$n=2$</mark> stated before using it\n- $\\Delta G$ with unit and sign; $\\log K_c$ formula written first\n- (b) the electrode equation showing <u>3 electrons</u>\n- (c) reactions balanced with <u>OH⁻</u> (alkaline medium)\n:::\n\n**Marks are lost for:** n taken as 1; ΔG left in J without \"mol⁻¹\"; acidic fuel-cell equations.",
     "scheme": [
       {
         "step": "ΔG° formula with n = 2",
@@ -344,7 +344,7 @@
     "marks": 2,
     "stars": 3,
     "label": "PYQ-style",
-    "stem": "Calculate $\\Delta_rG^\\circ$ for the reaction $\\ce{Zn(s) + Cu^2+(aq) -> Zn^2+(aq) + Cu(s)}$, given $E^\\circ_\\text{cell}=1.10$ V. What does its sign tell you? (F = 96500 C mol$^{-1}$)",
+    "stem": "Calculate $\\Delta_rG^\\circ$ for the reaction $\\begin{gathered}\\ce{Zn(s) + Cu^2+(aq)}\\\\ \\ce{-> Zn^2+(aq) + Cu(s)}\\end{gathered}$, given $E^\\circ_\\text{cell}=1.10$ V. What does its sign tell you? (F = 96500 C mol$^{-1}$)",
     "model_answer": "*How much to write: 4–5 lines · 4 minutes*\n\n**Given:** $E^\\circ_\\text{cell}=1.10$ V; two electrons are transferred, so <mark>$n=2$</mark>\n\n$$\\begin{aligned}\\Delta_rG^\\circ&=-nFE^\\circ_\\text{cell} \\\\ &=-2\\times96500\\times1.10\\end{aligned}$$\n\n$$\\Delta_rG^\\circ=-212300\\text{ J mol}^{-1}$$\n\n$$\\boxed{\\Delta_rG^\\circ=-212.3\\text{ kJ mol}^{-1}}$$\n\nThe value is <u>negative</u>, so the reaction is <mark>spontaneous</mark>.\n\n:::tip Your answer must contain\n- <mark>$n=2$</mark> from the equation\n- the formula $\\Delta G^\\circ=-nFE^\\circ$ before numbers\n- unit kJ mol⁻¹ and the comment on the sign\n:::\n\n**Marks are lost for:** n taken as 1; answer in J without \"mol⁻¹\"; no comment on spontaneity.",
     "scheme": [
       {
@@ -368,7 +368,7 @@
     "stars": 2,
     "label": "PYQ-style",
     "stem": "Write the reactions at the cathode and the anode when aqueous NaCl is electrolysed with inert electrodes. Why is sodium not deposited at the cathode?",
-    "model_answer": "*How much to write: two equations and one reason line · 4 minutes*\n\n**Cathode** (reduction): $\\ce{2H2O(l) + 2e- -> H2(g) + 2OH-(aq)}$<br>\n**Anode** (oxidation): $\\ce{2Cl-(aq) -> Cl2(g) + 2e-}$\n\nSodium is not deposited because <mark>water has a higher reduction potential</mark> than $\\ce{Na+}$: $E^\\circ(\\ce{H2O/H2})=-0.83$ V against $E^\\circ(\\ce{Na+/Na})=-2.71$ V, so <u>water is reduced in preference</u>.\n\n:::tip Your answer must contain\n- <u>hydrogen</u> at the cathode, <u>chlorine</u> at the anode\n- both potentials compared, or the words <mark>water is reduced in preference</mark>\n:::\n\n**Marks are lost for:** writing Na⁺ + e⁻ → Na at the cathode; no potentials in the reason.",
+    "model_answer": "*How much to write: two equations and one reason line · 4 minutes*\n\n**Cathode** (reduction): $\\begin{gathered}\\ce{2H2O(l) + 2e-}\\\\ \\ce{-> H2(g) + 2OH-(aq)}\\end{gathered}$<br>\n**Anode** (oxidation): $\\ce{2Cl-(aq) -> Cl2(g) + 2e-}$\n\nSodium is not deposited because <mark>water has a higher reduction potential</mark> than $\\ce{Na+}$: $E^\\circ(\\ce{H2O/H2})=-0.83$ V against $E^\\circ(\\ce{Na+/Na})=-2.71$ V, so <u>water is reduced in preference</u>.\n\n:::tip Your answer must contain\n- <u>hydrogen</u> at the cathode, <u>chlorine</u> at the anode\n- both potentials compared, or the words <mark>water is reduced in preference</mark>\n:::\n\n**Marks are lost for:** writing Na⁺ + e⁻ → Na at the cathode; no potentials in the reason.",
     "scheme": [
       {
         "step": "Both electrode reactions",
@@ -390,7 +390,7 @@
     "marks": 3,
     "stars": 3,
     "label": "PYQ-style",
-    "stem": "Calculate the emf at 298 K of the cell $\\ce{Ni(s) | Ni^2+(0.01 M) || Ag+(0.001 M) | Ag(s)}$. Given $E^\\circ_{\\ce{Ni^2+/Ni}}=-0.25$ V and $E^\\circ_{\\ce{Ag+/Ag}}=+0.80$ V.",
+    "stem": "Calculate the emf at 298 K of the cell $\\begin{gathered}\\ce{Ni(s) | Ni^2+(0.01 M)}\\\\ \\ce{|| Ag+(0.001 M) | Ag(s)}\\end{gathered}$. Given $E^\\circ_{\\ce{Ni^2+/Ni}}=-0.25$ V and $E^\\circ_{\\ce{Ag+/Ag}}=+0.80$ V.",
     "model_answer": "*How much to write: 8–10 lines: cell reaction first, it fixes n and Q · 6 minutes*\n\n**Cell reaction:** $\\ce{Ni + 2Ag+ -> Ni^2+ + 2Ag}$, so <mark>$n=2$</mark>\n\n$$\\begin{aligned}E^\\circ_\\text{cell}&=0.80-(-0.25) \\\\ &=1.05\\text{ V}\\end{aligned}$$\n\n**Nernst equation** (298 K):\n\n$$E_\\text{cell}=E^\\circ_\\text{cell}-\\frac{0.059}{2}\\log\\frac{[\\ce{Ni^2+}]}{[\\ce{Ag+}]^2}$$\n\n$$E_\\text{cell}=1.05-0.0295\\log\\frac{0.01}{(0.001)^2}$$\n\n$$E_\\text{cell}=1.05-0.0295\\times4$$\n\n$$\\boxed{E_\\text{cell}=0.932\\text{ V}}$$\n\n:::tip Your answer must contain\n- the balanced cell reaction (two $\\ce{Ag+}$ per Ni)\n- <mark>$[\\ce{Ag+}]$ squared</mark> in $Q$; $E^\\circ$ of silver <u>not</u> doubled\n- answer with unit V\n:::\n\n**Marks are lost for:** multiplying E°(Ag) by 2; forgetting the square; Q upside down.",
     "scheme": [
       {
@@ -474,14 +474,14 @@
         "id": "iii",
         "stem": "Write the reactions at the anode and the cathode.",
         "marks": 2,
-        "model_answer": "Anode: $\\ce{2H2(g) + 4OH-(aq) -> 4H2O(l) + 4e-}$\n\nCathode: $\\ce{O2(g) + 2H2O(l) + 4e- -> 4OH-(aq)}$",
+        "model_answer": "Anode: $\\begin{gathered}\\ce{2H2(g) + 4OH-(aq)}\\\\ \\ce{-> 4H2O(l) + 4e-}\\end{gathered}$\n\nCathode: $\\begin{gathered}\\ce{O2(g) + 2H2O(l) + 4e-}\\\\ \\ce{-> 4OH-(aq)}\\end{gathered}$",
         "scheme": [
           {
-            "step": "Anode: $\\ce{2H2(g) + 4OH-(aq) -> 4H2O(l) + 4e-}$",
+            "step": "Anode: $\\begin{gathered}\\ce{2H2(g) + 4OH-(aq)}\\\\ \\ce{-> 4H2O(l) + 4e-}\\end{gathered}$",
             "marks": 1
           },
           {
-            "step": "Cathode: $\\ce{O2(g) + 2H2O(l) + 4e- -> 4OH-(aq)}$",
+            "step": "Cathode: $\\begin{gathered}\\ce{O2(g) + 2H2O(l) + 4e-}\\\\ \\ce{-> 4OH-(aq)}\\end{gathered}$",
             "marks": 1
           }
         ]
@@ -490,7 +490,7 @@
     "hint": "The electrolyte is alkaline, so balance with OH⁻ and water. Where marks are lost: writing the reactions for an acidic electrolyte when the passage says NaOH.",
     "topic": "Board answer, topper style",
     "source_note": "Board answers, topper style (Nov 2026)",
-    "model_answer": "*How much to write: one line each for (i) and (ii); two equations for (iii) · 7 minutes*\n\n**(i)** $\\ce{2H2(g) + O2(g) -> 2H2O(l)}$\n\n**(ii)** A fuel cell turns chemical energy <mark>directly into electrical energy</mark> without first making heat, so less energy is wasted (about 70% against about 40% for a thermal plant).\n\n**(iii)** In <u>alkaline</u> electrolyte:<br>\nAnode: $\\ce{2H2(g) + 4OH-(aq) -> 4H2O(l) + 4e-}$<br>\nCathode: $\\ce{O2(g) + 2H2O(l) + 4e- -> 4OH-(aq)}$\n\n:::tip Your answer must contain\n- (ii) the word <mark>directly</mark> (no heat step)\n- (iii) equations balanced with <u>OH⁻</u> and water\n:::\n\n**Marks are lost for:** acidic equations when the passage says NaOH."
+    "model_answer": "*How much to write: one line each for (i) and (ii); two equations for (iii) · 7 minutes*\n\n**(i)** $\\ce{2H2(g) + O2(g) -> 2H2O(l)}$\n\n**(ii)** A fuel cell turns chemical energy <mark>directly into electrical energy</mark> without first making heat, so less energy is wasted (about 70% against about 40% for a thermal plant).\n\n**(iii)** In <u>alkaline</u> electrolyte:<br>\nAnode: $\\begin{gathered}\\ce{2H2(g) + 4OH-(aq)}\\\\ \\ce{-> 4H2O(l) + 4e-}\\end{gathered}$<br>\nCathode: $\\begin{gathered}\\ce{O2(g) + 2H2O(l) + 4e-}\\\\ \\ce{-> 4OH-(aq)}\\end{gathered}$\n\n:::tip Your answer must contain\n- (ii) the word <mark>directly</mark> (no heat step)\n- (iii) equations balanced with <u>OH⁻</u> and water\n:::\n\n**Marks are lost for:** acidic equations when the passage says NaOH."
   },
   {
     "id": "chem-t02-q06",
@@ -526,5 +526,23 @@
     "hint": "Get Λ°m from Kohlrausch, then α = Λm/Λ°m, then Ka.",
     "topic": "Board answer, topper style",
     "source_note": "Board answers, topper style (Nov 2026)"
+  },
+  {
+    "id": "chem-w20261115-ch02-01",
+    "chapter": "ch-02",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ-style",
+    "stem": "A cell reaction has a standard EMF of 1.10 V and transfers 2 electrons. What is the standard Gibbs energy change for the cell reaction? (F = 96500 C mol$^{-1}$)",
+    "options": [
+      "−106 kJ mol$^{-1}$",
+      "−212 kJ mol$^{-1}$",
+      "+212 kJ mol$^{-1}$",
+      "−21.2 kJ mol$^{-1}$"
+    ],
+    "answer": "B",
+    "model_answer": "**(B) −212 kJ mol$^{-1}$.** $\\Delta_rG^\\circ=-nFE^\\circ_\\text{cell}=-2\\times96500\\times1.10=-2.12\\times10^{5}$ J mol$^{-1}$. A positive $E^\\circ$ always gives a negative $\\Delta_rG^\\circ$. The −106 option uses n = 1.",
+    "source_note": "Weekly refresh 2026-11-15 (own wording)"
   }
 ]

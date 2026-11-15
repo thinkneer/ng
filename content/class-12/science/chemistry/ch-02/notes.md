@@ -175,7 +175,7 @@ note: A straight line of slope $-0.059/n$ that crosses $E^\circ$ at $\log Q=0$ (
 ```
 
 :::skeleton Worked example: Nernst equation
-*Find the emf at 298 K of $\ce{Zn(s) | Zn^2+(0.10 M) || Ag+(0.010 M) | Ag(s)}$, given $E^\circ_\text{cell}=1.56$ V.*
+*Find the emf at 298 K of $\begin{gathered}\ce{Zn(s) | Zn^2+(0.10 M)}\\ \ce{|| Ag+(0.010 M) | Ag(s)}\end{gathered}$, given $E^\circ_\text{cell}=1.56$ V.*
 
 Cell reaction: $\ce{Zn + 2Ag+ -> Zn^2+ + 2Ag}$, so $n=2$ [½]
 
@@ -410,16 +410,16 @@ The electrode can matter too. With copper electrodes in copper sulphate, the ano
 
 A battery is a galvanic cell packaged for use. A good one is light, compact and holds its voltage. There are two families.
 
-**Primary batteries** run once and are thrown away. In the **dry cell** (Leclanché cell) of torches, a zinc can is the anode and a graphite rod surrounded by $\ce{MnO2}$ and carbon is the cathode, with a paste of $\ce{NH4Cl}$ and $\ce{ZnCl2}$ between them. Zinc is oxidised to $\ce{Zn^2+}$ and manganese is reduced from +4 to +3: $\ce{MnO2 + NH4+ + e- -> MnO(OH) + NH3}$. It gives about 1.5 V. The **mercury cell** of watches and hearing aids uses zinc amalgam and a paste of $\ce{HgO}$ and carbon in $\ce{KOH}$. Its overall reaction, $\ce{Zn(Hg) + HgO -> ZnO + Hg}$, contains no ions in solution whose concentration could change, so its voltage stays steady at 1.35 V throughout its life.
+**Primary batteries** run once and are thrown away. In the **dry cell** (Leclanché cell) of torches, a zinc can is the anode and a graphite rod surrounded by $\ce{MnO2}$ and carbon is the cathode, with a paste of $\ce{NH4Cl}$ and $\ce{ZnCl2}$ between them. Zinc is oxidised to $\ce{Zn^2+}$ and manganese is reduced from +4 to +3: $\begin{gathered}\ce{MnO2 + NH4+ + e-}\\ \ce{-> MnO(OH) + NH3}\end{gathered}$. It gives about 1.5 V. The **mercury cell** of watches and hearing aids uses zinc amalgam and a paste of $\ce{HgO}$ and carbon in $\ce{KOH}$. Its overall reaction, $\ce{Zn(Hg) + HgO -> ZnO + Hg}$, contains no ions in solution whose concentration could change, so its voltage stays steady at 1.35 V throughout its life.
 
 **Secondary batteries** can be recharged by passing current in the opposite direction. The **lead storage battery** of cars has a lead anode, a grid of lead packed with $\ce{PbO2}$ as cathode, and 38% sulphuric acid.
 
 :::formula Lead storage battery
 Anode: $\ce{Pb + SO4^2- -> PbSO4 + 2e-}$
 
-Cathode: $\ce{PbO2 + SO4^2- + 4H+ + 2e- -> PbSO4 + 2H2O}$
+Cathode: $\begin{gathered}\ce{PbO2 + SO4^2- + 4H+}\\ \text{+ }\ce{2e-}\\ \ce{-> PbSO4 + 2H2O}\end{gathered}$
 
-Overall (discharge): $\ce{Pb + PbO2 + 2H2SO4 -> 2PbSO4 + 2H2O}$
+Overall (discharge): $\begin{gathered}\ce{Pb + PbO2 + 2H2SO4}\\ \ce{-> 2PbSO4 + 2H2O}\end{gathered}$
 :::
 
 Discharge uses up sulphuric acid and makes water, so the acid's density falls; that is how a mechanic checks the charge. Charging reverses every arrow. The nickel–cadmium cell is another rechargeable type, longer-lived but costlier.

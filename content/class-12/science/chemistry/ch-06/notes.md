@@ -24,9 +24,9 @@ Halogens are more electronegative than carbon, so the C–X bond is polar, with 
 :::formula Haloalkanes from alcohols
 $\ce{R-OH + HX -> R-X + H2O}$ (with HCl: anhydrous $\ce{ZnCl2}$ for 1° and 2° alcohols)
 
-$\ce{3R-OH + PCl3 -> 3R-Cl + H3PO3}$ and $\ce{R-OH + PCl5 -> R-Cl + POCl3 + HCl}$
+$\ce{3R-OH + PCl3 -> 3R-Cl + H3PO3}$ and $\begin{gathered}\ce{R-OH + PCl5}\\ \ce{-> R-Cl + POCl3 + HCl}\end{gathered}$
 
-$\ce{R-OH + SOCl2 -> R-Cl + SO2 + HCl}$
+$\begin{gathered}\ce{R-OH + SOCl2}\\ \ce{-> R-Cl + SO2 + HCl}\end{gathered}$
 :::
 
 Thionyl chloride is the preferred reagent, and the reason is practical: both by-products, $\ce{SO2}$ and HCl, are gases that escape, leaving pure chloroalkane behind.
@@ -75,7 +75,7 @@ Three trends, each with a reason.
 
 **In one breath:** Boiling point rises with halogen size and falls with branching; para-dihalobenzenes melt highest because they pack best; haloalkanes barely dissolve in water because they cannot replace its hydrogen bonds.
 
-## Nucleophilic substitution: the S$_\text{N}$2 path
+## Nucleophilic substitution: the S<sub>N</sub>2 path
 
 The carbon bearing the halogen is slightly positive, so it attracts **nucleophiles**: species with a lone pair or negative charge seeking a positive centre. The nucleophile bonds to the carbon and the halide leaves, taking the bonding pair with it. The halide is the **leaving group**.
 
@@ -145,7 +145,7 @@ prompt: Which gives the nitrile: KCN or AgCN?
 
 **In one breath:** A nucleophile attacks the δ+ carbon and the halide leaves. In S$_\text{N}$2 this happens in one step from the back, the rate depends on both reactants, and crowding slows it: methyl > 1° > 2° > 3°.
 
-## The S$_\text{N}$1 path, and choosing between the two
+## The S<sub>N</sub>1 path, and choosing between the two
 
 Now take 2-bromo-2-methylpropane, a tertiary halide, with water. The rate depends only on the halide: rate $=k[\ce{(CH3)3CBr}]$. The nucleophile is not in the slow step at all.
 
@@ -174,7 +174,7 @@ Allylic and benzylic halides are a special case. They look primary, yet they rea
 ```ng-steps
 id: sn1-steps
 title: SN1, step by step
-step: **Slow:** the C–Br bond breaks on its own, giving a planar carbocation: $\ce{(CH3)3C-Br -> (CH3)3C+ + Br-}$.
+step: **Slow:** the C–Br bond breaks on its own, giving a planar carbocation: $\begin{gathered}\ce{(CH3)3C-Br}\\ \ce{-> (CH3)3C+ + Br-}\end{gathered}$.
 step: **Fast:** the nucleophile attacks the flat carbocation from either face: $\ce{(CH3)3C+ + OH- -> (CH3)3C-OH}$.
 step: Only the halide is in the slow step, so rate $=k[\ce{RX}]$; a chiral substrate gives a **racemic** product.
 ```
@@ -293,9 +293,9 @@ Haloarenes do take part in the reactions typical of benzene: **electrophilic sub
 Finally, aryl halides couple with sodium just as alkyl halides do.
 
 :::formula Wurtz–Fittig and Fittig reactions
-**Wurtz–Fittig reaction:** $\ce{Ar-X + R-X + 2Na ->[dry ether] Ar-R + 2NaX}$
+**Wurtz–Fittig reaction:** $\begin{gathered}\ce{Ar-X + R-X + 2Na}\\ \ce{->[dry ether] Ar-R}\\ \text{+ }\ce{2NaX}\end{gathered}$
 
-**Fittig reaction:** $\ce{2Ar-X + 2Na ->[dry ether] Ar-Ar + 2NaX}$
+**Fittig reaction:** $\begin{gathered}\ce{2Ar-X + 2Na}\\ \ce{->[dry ether] Ar-Ar}\\ \text{+ }\ce{2NaX}\end{gathered}$
 :::
 
 :::skeleton Worked example: a two-step conversion
@@ -303,7 +303,7 @@ Finally, aryl halides couple with sodium just as alkyl halides do.
 
 Step 1: $\ce{C6H6 + Cl2 ->[anhyd. FeCl3] C6H5Cl + HCl}$ (chlorobenzene) [1]
 
-Step 2: $\ce{2C6H5Cl + 2Na ->[dry ether] C6H5-C6H5 + 2NaCl}$ (Fittig reaction) [1]
+Step 2: $\begin{gathered}\ce{2C6H5Cl + 2Na}\\ \ce{->[dry ether] C6H5-C6H5}\\ \text{+ }\ce{2NaCl}\end{gathered}$ (Fittig reaction) [1]
 :::
 
 ```ng-compare

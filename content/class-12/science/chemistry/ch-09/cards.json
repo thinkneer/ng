@@ -90,10 +90,7 @@
     "id": "basicity-orders",
     "kind": "formula",
     "title": "Basicity in water",
-    "tex": "\\begin{gathered}\\ce{(C2H5)2NH}>\\ce{(C2H5)3N}\\\\ >\\ce{C2H5NH2}>\\ce{NH3}>\\ce{C6H5NH2}\\end{gathered}",
-    "legend": [
-      "\\ce{CH3} = methyl order 2° > 1° > 3° > NH₃"
-    ],
+    "tex": "\\begin{gathered}\\ce{(C2H5)2NH}>\\ce{(C2H5)3N}\\\\ >\\ce{C2H5NH2}>\\ce{NH3}\\\\ >\\ce{C6H5NH2}\\end{gathered}",
     "back": "Balance of inductive effect, solvation by H-bonding and crowding. Gas phase: 3° > 2° > 1°.",
     "stars": 3,
     "tags": [

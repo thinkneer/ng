@@ -5,7 +5,7 @@
 - C–O–H angle in methanol 108.9$^\circ$ (lone-pair repulsion). Phenol C–O shorter (136 pm): partial double bond from resonance; sp$^2$ C. Ether C–O–C 111.7$^\circ$ (bulky R groups).
 
 :::formula
-**Acid-catalysed hydration** (Markovnikov): $\ce{CH3CH=CH2 + H2O ->[H+] CH3CH(OH)CH3}$<br>
+**Acid-catalysed hydration** (Markovnikov): $\begin{gathered}\ce{CH3CH=CH2 + H2O}\\ \ce{->[H+] CH3CH(OH)CH3}\end{gathered}$<br>
 **Hydroboration–oxidation** (anti-Markovnikov, high yield): propene $\xrightarrow{(\text{BH}_3)_2}\;\xrightarrow{\text{H}_2\text{O}_2/\text{OH}^-}$ propan-1-ol<br>
 **Reduction**: aldehyde → 1$^\circ$, ketone → 2$^\circ$ (H$_2$/Pd, NaBH$_4$, LiAlH$_4$); acid → 1$^\circ$ (LiAlH$_4$); commercially via esters (H$_2$/catalyst)<br>
 **Grignard**: HCHO → 1$^\circ$; other aldehydes → 2$^\circ$; ketones → 3$^\circ$ (adduct + H$_2$O)
@@ -17,7 +17,7 @@
 
 - Chlorobenzene + NaOH (623 K, 300 atm) → sodium phenoxide → H$^+$ → phenol.
 - Benzenesulphonic acid + fused NaOH → sodium phenoxide → H$^+$ → phenol.
-- Diazonium salt + warm water: $\ce{C6H5N2+Cl- + H2O -> C6H5OH + N2 + HCl}$.
+- Diazonium salt + warm water: $\begin{gathered}\ce{C6H5N2+Cl- + H2O}\\ \ce{-> C6H5OH + N2 + HCl}\end{gathered}$.
 - **Cumene** (isopropylbenzene) + O$_2$ → cumene hydroperoxide → H$^+$/H$_2$O → phenol + **acetone** (by-product).
 
 ## Physical properties & acidity
@@ -48,7 +48,7 @@
 
 ## Commercially important alcohols
 
-- **Methanol** (wood spirit): $\ce{CO + 2H2 ->[ZnO-Cr2O3][200-300 atm, 573-673 K] CH3OH}$. Very poisonous: small amounts cause blindness, larger amounts death. Solvent for paints, varnishes; making HCHO.
+- **Methanol** (wood spirit): $\begin{gathered}\ce{CO + 2H2}\\ \ce{->[ZnO-Cr2O3] CH3OH}\\ \text{(200–300 atm, 573–673 K)}\end{gathered}$. Very poisonous: small amounts cause blindness, larger amounts death. Solvent for paints, varnishes; making HCHO.
 - **Ethanol**: fermentation of molasses/sugarcane/fruit sugars by yeast enzymes — invertase (sucrose → glucose + fructose), zymase (→ ethanol + CO$_2$), without air. Commercial alcohol is *denatured* with CuSO$_4$ (colour) and pyridine (smell).
 
 ## Ethers
@@ -56,7 +56,7 @@
 - **From alcohols**: conc. H$_2$SO$_4$, 413 K (excess alcohol) → symmetrical ether. S$_\text{N}$2 mechanism: protonated alcohol attacked by second alcohol molecule. Good only for 1$^\circ$ alcohols (2$^\circ$/3$^\circ$ give alkenes).
 - **Williamson synthesis**: $\ce{R-X + R{'}-ONa -> R-O-R{'} + NaX}$ (S$_\text{N}$2). Use a **1$^\circ$ halide** with the bulky alkoxide: $\ce{(CH3)3C-ONa + CH3Br}$ → tert-butyl methyl ether; but $\ce{(CH3)3C-Br + CH3ONa}$ → 2-methylpropene (elimination). Phenoxide + RX → aryl alkyl ether.
 - b.p. of ethers $\approx$ alkanes (no H-bonding between molecules); miscibility with water $\approx$ alcohols (H-bond with water).
-- **Cleavage by HX** (HI $>$ HBr $>$ HCl): $\ce{R-O-R + HX -> RX + ROH}$. Mixed 1$^\circ$/2$^\circ$: X goes to the smaller group (S$_\text{N}$2). With a 3$^\circ$ group: X goes to the 3$^\circ$ C (S$_\text{N}$1): $\ce{CH3-O-C(CH3)3 + HI -> CH3OH + (CH3)3C-I}$. **Anisole** + HI → phenol + CH$_3$I (O–aryl bond stronger; no phenyl cation).
+- **Cleavage by HX** (HI $>$ HBr $>$ HCl): $\ce{R-O-R + HX -> RX + ROH}$. Mixed 1$^\circ$/2$^\circ$: X goes to the smaller group (S$_\text{N}$2). With a 3$^\circ$ group: X goes to the 3$^\circ$ C (S$_\text{N}$1): $\begin{gathered}\ce{CH3-O-C(CH3)3 + HI}\\ \ce{-> CH3OH + (CH3)3C-I}\end{gathered}$. **Anisole** + HI → phenol + CH$_3$I (O–aryl bond stronger; no phenyl cation).
 - Anisole (–OCH$_3$ activating, o/p): Br$_2$ in ethanoic acid → p-bromoanisole (major); CH$_3$Cl/AlCl$_3$ → 2- + 4-methoxytoluene; CH$_3$COCl/AlCl$_3$ → 2- + 4-methoxyacetophenone; HNO$_3$/H$_2$SO$_4$ → 2- + 4-nitroanisole.
 
 :::tip

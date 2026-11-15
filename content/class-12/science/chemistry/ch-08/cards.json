@@ -29,7 +29,7 @@
     "title": "Rosenmund reduction",
     "tex": "\\begin{gathered}\\ce{RCOCl + H2}\\\\ \\ce{->[Pd/BaSO4] RCHO + HCl}\\end{gathered}",
     "legend": [
-      "\\ce{BaSO4} = poisons Pd so it stops at the aldehyde"
+      "\\ce{Pd} = poisoned with BaSO4, so it stops at the aldehyde"
     ],
     "back": "Acid chloride to aldehyde.",
     "stars": 3,
@@ -57,7 +57,7 @@
     "title": "Etard and Gatterman–Koch",
     "tex": "\\begin{gathered}\\ce{C6H5CH3 ->[CrO2Cl2][H3O+] C6H5CHO}\\\\ \\ce{C6H6 + CO + HCl}\\\\ \\ce{->[AlCl3/CuCl] C6H5CHO}\\end{gathered}",
     "legend": [
-      "\\ce{CrO2Cl2} = chromyl chloride"
+      "\\ce{Cr} = in chromyl chloride, the Etard reagent"
     ],
     "back": "Two routes to benzaldehyde: from toluene (Etard) and from benzene (Gatterman–Koch).",
     "stars": 2,

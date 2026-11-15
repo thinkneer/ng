@@ -79,14 +79,14 @@
     "stars": 3,
     "label": "PYQ-style",
     "stem": "Write the reactions for (i) Gabriel phthalimide synthesis of ethanamine, (ii) coupling of benzenediazonium chloride with phenol.",
-    "model_answer": "(i) Phthalimide $\\ce{->[alc. KOH]}$ potassium phthalimide $\\ce{->[C2H5Br]}$ N-ethylphthalimide $\\ce{->[NaOH(aq)]}$ $\\ce{C2H5NH2}$ + sodium phthalate [1]<br>\n(ii) $\\ce{C6H5N2+Cl- + C6H5OH ->[OH-]}$<br>\n$\\ce{HO-C6H4-N=N-C6H5 + HCl}$ — p-hydroxyazobenzene (orange dye) [1]",
+    "model_answer": "(i) Phthalimide $\\ce{->[alc. KOH]}$ potassium phthalimide $\\ce{->[C2H5Br]}$ N-ethylphthalimide $\\ce{->[NaOH(aq)]}$ $\\ce{C2H5NH2}$ + sodium phthalate [1]<br>\n(ii) $\\begin{gathered}\\ce{C6H5N2+Cl- + C6H5OH}\\\\ \\ce{->[OH-]}\\end{gathered}$<br>\n$\\ce{HO-C6H4-N=N-C6H5 + HCl}$ — p-hydroxyazobenzene (orange dye) [1]",
     "scheme": [
       {
         "step": "(i) Phthalimide $\\ce{->[alc. KOH]}$ potassium phthalimide $\\ce{->[C2H5Br]}$ N-ethylphthalimide $\\ce{->[NaOH(aq)]}$ $\\ce{C2H5NH2}$ + sodium phthalate",
         "marks": 1
       },
       {
-        "step": "(ii) $\\ce{C6H5N2+Cl- + C6H5OH ->[OH-]}$ $\\ce{HO-C6H4-N=N-C6H5 + HCl}$ — p-hydroxyazobenzene (orange dye)",
+        "step": "(ii) $\\begin{gathered}\\ce{C6H5N2+Cl- + C6H5OH}\\\\ \\ce{->[OH-]}\\end{gathered}$ $\\ce{HO-C6H4-N=N-C6H5 + HCl}$ — p-hydroxyazobenzene (orange dye)",
         "marks": 1
       }
     ],
@@ -145,18 +145,18 @@
     "stars": 2,
     "label": "PYQ-style",
     "stem": "How will you carry out these conversions?<br>\n(i) aniline to 4-bromoaniline   (ii) benzoic acid to aniline   (iii) aniline to iodobenzene",
-    "model_answer": "(i) Aniline $\\ce{->[(CH3CO)2O][pyridine]}$ acetanilide $\\ce{->[Br2][CH3COOH]}$ 4-bromoacetanilide $\\ce{->[H+ or OH-][H2O]}$ 4-bromoaniline [1]<br>\n(ii) $\\ce{C6H5COOH ->[NH3][\\Delta] C6H5CONH2 ->[Br2 + NaOH] C6H5NH2}$ [1]<br>\n(iii) $\\ce{C6H5NH2 ->[NaNO2 + HCl][273-278 K] C6H5N2+Cl- ->[KI] C6H5I + N2 + KCl}$ [1]",
+    "model_answer": "(i) Aniline $\\ce{->[(CH3CO)2O][pyridine]}$ acetanilide $\\ce{->[Br2][CH3COOH]}$ 4-bromoacetanilide $\\ce{->[H+ or OH-][H2O]}$ 4-bromoaniline [1]<br>\n(ii) $\\begin{gathered}\\ce{C6H5COOH}\\\\ \\ce{->[NH3][\\Delta] C6H5CONH2}\\\\ \\ce{->[Br2 + NaOH] C6H5NH2}\\end{gathered}$ [1]<br>\n(iii) $\\begin{gathered}\\ce{C6H5NH2}\\\\ \\ce{->[NaNO2 + HCl][273-278 K]}\\\\ \\ce{C6H5N2+Cl-}\\\\ \\ce{->[KI] C6H5I + N2 + KCl}\\end{gathered}$ [1]",
     "scheme": [
       {
         "step": "(i) Aniline $\\ce{->[(CH3CO)2O][pyridine]}$ acetanilide $\\ce{->[Br2][CH3COOH]}$ 4-bromoacetanilide $\\ce{->[H+ or OH-][H2O]}$ 4-bromoaniline",
         "marks": 1
       },
       {
-        "step": "(ii) $\\ce{C6H5COOH ->[NH3][\\Delta] C6H5CONH2 ->[Br2 + NaOH] C6H5NH2}$",
+        "step": "(ii) $\\begin{gathered}\\ce{C6H5COOH}\\\\ \\ce{->[NH3][\\Delta] C6H5CONH2}\\\\ \\ce{->[Br2 + NaOH] C6H5NH2}\\end{gathered}$",
         "marks": 1
       },
       {
-        "step": "(iii) $\\ce{C6H5NH2 ->[NaNO2 + HCl][273-278 K] C6H5N2+Cl- ->[KI] C6H5I + N2 + KCl}$",
+        "step": "(iii) $\\begin{gathered}\\ce{C6H5NH2}\\\\ \\ce{->[NaNO2 + HCl][273-278 K]}\\\\ \\ce{C6H5N2+Cl-}\\\\ \\ce{->[KI] C6H5I + N2 + KCl}\\end{gathered}$",
         "marks": 1
       }
     ],
@@ -170,7 +170,7 @@
     "marks": 3,
     "stars": 2,
     "label": "PYQ-style",
-    "stem": "Identify A, B and C:<br>\n$\\ce{CH3CH2I ->[NaCN] A ->[OH-][partial hydrolysis] B ->[NaOH + Br2] C}$",
+    "stem": "Identify A, B and C:<br>\n$\\begin{gathered}\\ce{CH3CH2I}\\\\ \\ce{->[NaCN] A}\\\\ \\ce{->[OH-][partial hydrolysis] B}\\\\ \\ce{->[NaOH + Br2] C}\\end{gathered}$",
     "model_answer": "**A = propanenitrile**, $\\ce{CH3CH2CN}$ [1]<br>\n**B = propanamide**, $\\ce{CH3CH2CONH2}$ [1]<br>\n**C = ethanamine**, $\\ce{CH3CH2NH2}$ (Hoffmann bromamide degradation) [1]",
     "scheme": [
       {
@@ -298,10 +298,10 @@
         "id": "i",
         "stem": "Write the equation for the reaction of aniline with sodium nitrite and hydrochloric acid in the cold.",
         "marks": 1,
-        "model_answer": "$\\ce{C6H5NH2 + NaNO2 + 2HCl ->[273-278 K] C6H5N2+Cl- + NaCl + 2H2O}$ [1]",
+        "model_answer": "$\\begin{gathered}\\ce{C6H5NH2 + NaNO2 + 2HCl}\\\\ \\ce{->[273-278 K] C6H5N2+Cl-}\\\\ \\text{+ }\\ce{NaCl + 2H2O}\\end{gathered}$ [1]",
         "scheme": [
           {
-            "step": "$\\ce{C6H5NH2 + NaNO2 + 2HCl ->[273-278 K] C6H5N2+Cl- + NaCl + 2H2O}$",
+            "step": "$\\begin{gathered}\\ce{C6H5NH2 + NaNO2 + 2HCl}\\\\ \\ce{->[273-278 K] C6H5N2+Cl-}\\\\ \\text{+ }\\ce{NaCl + 2H2O}\\end{gathered}$",
             "marks": 1
           }
         ]

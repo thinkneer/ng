@@ -354,7 +354,7 @@ prompt: Which order has a half-life independent of initial concentration?
 
 ## Pseudo first-order reactions
 
-Some reactions look first order when they are really not. The hydrolysis of ethyl ethanoate needs two molecules, the ester and water: $\ce{CH3COOC2H5 + H2O ->[H+] CH3COOH + C2H5OH}$, and its true rate law is $k[\text{ester}][\ce{H2O}]$. But water is the solvent, present in such huge excess that its concentration hardly changes while the ester is used up. It can be folded into the constant: rate $=k'[\text{ester}]$, with $k'=k[\ce{H2O}]$. The reaction *behaves* as first order.
+Some reactions look first order when they are really not. The hydrolysis of ethyl ethanoate needs two molecules, the ester and water: $\begin{gathered}\ce{CH3COOC2H5 + H2O}\\ \ce{->[H+] CH3COOH + C2H5OH}\end{gathered}$, and its true rate law is $k[\text{ester}][\ce{H2O}]$. But water is the solvent, present in such huge excess that its concentration hardly changes while the ester is used up. It can be folded into the constant: rate $=k'[\text{ester}]$, with $k'=k[\ce{H2O}]$. The reaction *behaves* as first order.
 
 Such reactions are called **pseudo first order**. The inversion of cane sugar is the other standard example: $\ce{C12H22O11 + H2O ->[H+] C6H12O6 + C6H12O6}$, giving glucose and fructose, with rate $=k'[\text{sucrose}]$.
 

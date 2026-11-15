@@ -35,7 +35,7 @@ Poisoned catalyst stops at the aldehyde. Slip: leaving out $\ce{BaSO4}$.
 :::
 
 :::formula Stephen reaction
-$\ce{RCN + SnCl2 + HCl -> RCH=NH ->[H3O+] RCHO}$<br>
+$\begin{gathered}\ce{RCN + SnCl2 + HCl}\\ \ce{-> RCH=NH}\\ \ce{->[H3O+] RCHO}\end{gathered}$<br>
 Nitrile to aldehyde.
 :::
 
@@ -45,7 +45,7 @@ Chromyl chloride oxidises the methyl group only as far as the aldehyde.
 :::
 
 :::formula Gatterman–Koch reaction
-$\ce{C6H6 + CO + HCl ->[anhyd. AlCl3/CuCl] C6H5CHO}$<br>
+$\begin{gathered}\ce{C6H6 + CO + HCl}\\ \ce{->[anhyd. AlCl3/CuCl] C6H5CHO}\end{gathered}$<br>
 Benzene to benzaldehyde.
 :::
 
@@ -60,12 +60,12 @@ Carbonyl to methylene, in base.
 :::
 
 :::formula Aldol condensation of ethanal
-$\ce{2CH3CHO ->[dil. NaOH] CH3CH(OH)CH2CHO ->[heat] CH3CH=CHCHO}$<br>
+$\begin{gathered}\ce{2CH3CHO}\\ \ce{->[dil. NaOH] CH3CH(OH)CH2CHO}\\ \ce{->[heat] CH3CH=CHCHO}\end{gathered}$<br>
 Needs α-hydrogen. Slip: forgetting the β-OH, or dehydrating without "heat".
 :::
 
 :::formula Cannizzaro reaction
-$\ce{2HCHO + KOH(conc.) -> CH3OH + HCOOK}$<br>
+$\begin{gathered}\ce{2HCHO + KOH(conc.)}\\ \ce{-> CH3OH + HCOOK}\end{gathered}$<br>
 No α-hydrogen. Benzaldehyde gives benzyl alcohol + sodium benzoate.
 :::
 
@@ -75,7 +75,7 @@ $\ce{RCH2COOH ->[X2/red P][H2O] RCH(X)COOH}$<br>
 :::
 
 :::formula Decarboxylation with soda lime
-$\ce{RCOONa + NaOH ->[CaO, heat] RH + Na2CO3}$<br>
+$\begin{gathered}\ce{RCOONa + NaOH}\\ \ce{->[CaO, heat] RH}\\ \text{+ }\ce{Na2CO3}\end{gathered}$<br>
 The hydrocarbon has one carbon fewer.
 :::
 
@@ -141,7 +141,7 @@ Ethanol $\xrightarrow{\text{PCC}}$ ethanal $\xrightarrow{\text{dil. NaOH}}$ 3-hy
 - $\ce{NaBH4}$ does not reduce: carboxylic acids; $\ce{LiAlH4}$ and $\ce{B2H6}$ do.
 - What formalin is: about 40% aqueous methanal, a preservative.
 - –CHO and –COOH on a benzene ring are: deactivating and meta-directing.
-- Benzoic acid does not undergo Friedel–Crafts reaction because: the ring is deactivated and $\ce{AlCl3}$ binds to –COOH.
+- Benzoic acid: no Friedel–Crafts, as the ring is deactivated and $\ce{AlCl3}$ binds –COOH.
 - Product of an aldehyde with HCN: cyanohydrin.
 
 ## Mark-losing traps

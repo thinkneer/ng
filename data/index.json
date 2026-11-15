@@ -1267,9 +1267,9 @@
                       },
                       "marks_hint": "7 marks (unit weightage, CBSE 2026–27)",
                       "summary": "Concentration · Henry & Raoult · ideal/non-ideal · colligative properties · van't Hoff factor",
-                      "questions": 17,
+                      "questions": 18,
                       "question_types": {
-                        "mcq": 4,
+                        "mcq": 5,
                         "ar": 2,
                         "vsa2": 4,
                         "sa3": 3,
@@ -1288,7 +1288,7 @@
                         "steps": 1,
                         "fill": 1
                       },
-                      "words": 5482,
+                      "words": 5481,
                       "read_minutes": 16,
                       "cards": 15,
                       "mnemonics": 3
@@ -1316,9 +1316,9 @@
                       },
                       "marks_hint": "9 marks (unit weightage, CBSE 2026–27)",
                       "summary": "Galvanic cells · Nernst · conductance · Kohlrausch · electrolysis · batteries & fuel cells · corrosion",
-                      "questions": 19,
+                      "questions": 20,
                       "question_types": {
-                        "mcq": 4,
+                        "mcq": 5,
                         "vsa2": 4,
                         "sa3": 5,
                         "la5": 2,
@@ -1338,7 +1338,7 @@
                         "explain": 1,
                         "derive": 1
                       },
-                      "words": 5413,
+                      "words": 5415,
                       "read_minutes": 15,
                       "cards": 15,
                       "mnemonics": 2
@@ -1387,7 +1387,7 @@
                         "draw": 3,
                         "fill": 1
                       },
-                      "words": 4432,
+                      "words": 4433,
                       "read_minutes": 12,
                       "cards": 15,
                       "mnemonics": 3
@@ -1415,13 +1415,13 @@
                       },
                       "marks_hint": "7 marks (unit weightage, CBSE 2026–27)",
                       "summary": "Configuration · trends with reasons · $E^\\circ$ anomalies · magnetism & colour · K$_2$Cr$_2$O$_7$ & KMnO$_4$ · lanthanoids & actinoids",
-                      "questions": 12,
+                      "questions": 13,
                       "question_types": {
                         "mcq": 4,
                         "ar": 2,
                         "vsa2": 2,
                         "sa3": 2,
-                        "la5": 1,
+                        "la5": 2,
                         "case": 1
                       },
                       "diagrams": [],
@@ -1435,7 +1435,7 @@
                         "steps": 4,
                         "draw": 2
                       },
-                      "words": 6822,
+                      "words": 6815,
                       "read_minutes": 18,
                       "cards": 15,
                       "mnemonics": 4
@@ -1463,12 +1463,12 @@
                       },
                       "marks_hint": "7 marks (unit weightage, CBSE 2026–27)",
                       "summary": "Werner · definitions · IUPAC naming · isomerism · VBT · CFT & colour · metal carbonyls · applications",
-                      "questions": 12,
+                      "questions": 13,
                       "question_types": {
                         "mcq": 4,
                         "ar": 2,
                         "vsa2": 2,
-                        "sa3": 2,
+                        "sa3": 3,
                         "case": 1,
                         "la5": 1
                       },
@@ -1511,13 +1511,14 @@
                       },
                       "marks_hint": "6 marks (unit weightage, CBSE 2026–27)",
                       "summary": "Preparation · S$_\\text{N}$1/S$_\\text{N}$2 · stereochemistry · elimination · metals · haloarenes · polyhalogen compounds",
-                      "questions": 11,
+                      "questions": 12,
                       "question_types": {
                         "mcq": 4,
                         "ar": 2,
                         "vsa2": 2,
                         "sa3": 2,
-                        "case": 1
+                        "case": 1,
+                        "la5": 1
                       },
                       "diagrams": [],
                       "blocks": {
@@ -1528,7 +1529,7 @@
                         "mnemonic": 3,
                         "compare": 2
                       },
-                      "words": 5947,
+                      "words": 5949,
                       "read_minutes": 13,
                       "cards": 14,
                       "mnemonics": 3
@@ -1575,7 +1576,7 @@
                         "explain": 1,
                         "mnemonic": 3
                       },
-                      "words": 5600,
+                      "words": 5602,
                       "read_minutes": 13,
                       "cards": 14,
                       "mnemonics": 3
@@ -1622,7 +1623,7 @@
                         "compare": 2,
                         "explain": 1
                       },
-                      "words": 5870,
+                      "words": 5862,
                       "read_minutes": 13,
                       "cards": 15,
                       "mnemonics": 3
@@ -1669,7 +1670,7 @@
                         "fill": 3,
                         "compare": 1
                       },
-                      "words": 5473,
+                      "words": 5474,
                       "read_minutes": 12,
                       "cards": 14,
                       "mnemonics": 3
@@ -1697,12 +1698,12 @@
                       },
                       "marks_hint": "7 marks (unit weightage, CBSE 2026–27)",
                       "summary": "Carbohydrates · glucose structure · disaccharides & polysaccharides · proteins · enzymes · vitamins · nucleic acids · hormones",
-                      "questions": 10,
+                      "questions": 11,
                       "question_types": {
                         "mcq": 4,
                         "ar": 2,
                         "vsa2": 1,
-                        "sa3": 1,
+                        "sa3": 2,
                         "case": 1,
                         "la5": 1
                       },
@@ -1716,7 +1717,7 @@
                         "compare": 3,
                         "numerical": 1
                       },
-                      "words": 5934,
+                      "words": 5950,
                       "read_minutes": 14,
                       "cards": 15,
                       "mnemonics": 3

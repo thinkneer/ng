@@ -74,9 +74,9 @@ Charge to discharge 1 mol $\ce{M^n+}$ $=nF$ (e.g. $\ce{Al^3+}$: $3F$; metal from
 
 ## Batteries & fuel cell (write all three equations)
 
-- **Dry (Leclanché) cell** — primary, $\approx$1.5 V. Anode Zn container; cathode graphite rod in MnO$_2$ + C; paste of NH$_4$Cl + ZnCl$_2$.<br>Anode: $\ce{Zn -> Zn^2+ + 2e-}$; Cathode: $\ce{MnO2 + NH4+ + e- -> MnO(OH) + NH3}$
-- **Mercury cell** — primary, 1.35 V, constant (no ions in overall reaction); hearing aids, watches.<br>Anode: $\ce{Zn(Hg) + 2OH- -> ZnO + H2O + 2e-}$; Cathode: $\ce{HgO + H2O + 2e- -> Hg + 2OH-}$<br>Overall: $\ce{Zn(Hg) + HgO -> ZnO + Hg}$
-- **Lead storage battery** — secondary; anode Pb, cathode PbO$_2$ grid, electrolyte 38% H$_2$SO$_4$ `SQP 26–27`.<br>Anode: $\ce{Pb + SO4^2- -> PbSO4 + 2e-}$; Cathode: $\ce{PbO2 + SO4^2- + 4H+ + 2e- -> PbSO4 + 2H2O}$<br>Overall (discharge): $\ce{Pb + PbO2 + 2H2SO4 -> 2PbSO4 + 2H2O}$; charging reverses it. Ni–Cd: longer life, costlier.
+- **Dry (Leclanché) cell** — primary, $\approx$1.5 V. Anode Zn container; cathode graphite rod in MnO$_2$ + C; paste of NH$_4$Cl + ZnCl$_2$.<br>Anode: $\ce{Zn -> Zn^2+ + 2e-}$; Cathode: $\begin{gathered}\ce{MnO2 + NH4+ + e-}\\ \ce{-> MnO(OH) + NH3}\end{gathered}$
+- **Mercury cell** — primary, 1.35 V, constant (no ions in overall reaction); hearing aids, watches.<br>Anode: $\begin{gathered}\ce{Zn(Hg) + 2OH-}\\ \ce{-> ZnO + H2O + 2e-}\end{gathered}$; Cathode: $\ce{HgO + H2O + 2e- -> Hg + 2OH-}$<br>Overall: $\ce{Zn(Hg) + HgO -> ZnO + Hg}$
+- **Lead storage battery** — secondary; anode Pb, cathode PbO$_2$ grid, electrolyte 38% H$_2$SO$_4$ `SQP 26–27`.<br>Anode: $\ce{Pb + SO4^2- -> PbSO4 + 2e-}$; Cathode: $\begin{gathered}\ce{PbO2 + SO4^2- + 4H+}\\ \text{+ }\ce{2e-}\\ \ce{-> PbSO4 + 2H2O}\end{gathered}$<br>Overall (discharge): $\begin{gathered}\ce{Pb + PbO2 + 2H2SO4}\\ \ce{-> 2PbSO4 + 2H2O}\end{gathered}$; charging reverses it. Ni–Cd: longer life, costlier.
 - **H$_2$–O$_2$ fuel cell** `SQP 26–27` — porous carbon electrodes with Pt/Pd, conc. NaOH.<br>Cathode: $\ce{O2 + 2H2O + 4e- -> 4OH-}$; Anode: $\ce{2H2 + 4OH- -> 4H2O + 4e-}$; Overall: $\ce{2H2 + O2 -> 2H2O}$<br>About 70% efficient (thermal plant $\approx$40%), no pollution, continuous supply of reactants; used in Apollo missions.
 
 ## Corrosion (rusting is electrochemical)

@@ -58,30 +58,37 @@ $n=1$: 1.73 · 2: 2.83 · 3: 3.87 · 4: 4.90 · 5: 5.92 BM
 ## Potassium dichromate, K$_2$Cr$_2$O$_7$
 
 :::formula
-From chromite: $\ce{4FeCr2O4 + 8Na2CO3 + 7O2 -> 8Na2CrO4 + 2Fe2O3 + 8CO2}$<br>
-$\ce{2Na2CrO4 + 2H+ -> Na2Cr2O7 + 2Na+ + H2O}$;   $\ce{Na2Cr2O7 + 2KCl -> K2Cr2O7 + 2NaCl}$<br>
+From chromite: $\begin{gathered}\ce{4FeCr2O4 + 8Na2CO3 + 7O2}\\ \ce{-> 8Na2CrO4 + 2Fe2O3}\\ \text{+ }\ce{8CO2}\end{gathered}$<br>
+$\begin{gathered}\ce{2Na2CrO4 + 2H+}\\ \ce{-> Na2Cr2O7 + 2Na+ + H2O}\end{gathered}$;   $\begin{gathered}\ce{Na2Cr2O7 + 2KCl}\\ \ce{-> K2Cr2O7 + 2NaCl}\end{gathered}$<br>
 pH switch: $\ce{2CrO4^2- + 2H+ <=> Cr2O7^2- + H2O}$ (yellow $\rightleftharpoons$ orange; base reverses it)<br>
-Oxidant in acid: $\ce{Cr2O7^2- + 14H+ + 6e- -> 2Cr^3+ + 7H2O}$ ($E^\circ=1.33$ V)
+Oxidant in acid: $\begin{gathered}\ce{Cr2O7^2- + 14H+ + 6e-}\\ \ce{-> 2Cr^3+ + 7H2O}\end{gathered}$ ($E^\circ=1.33$ V)
 :::
 
-- $\ce{Cr2O7^2- + 14H+ + 6I- -> 2Cr^3+ + 3I2 + 7H2O}$
-- $\ce{Cr2O7^2- + 14H+ + 6Fe^2+ -> 2Cr^3+ + 6Fe^3+ + 7H2O}$
-- $\ce{Cr2O7^2- + 14H+ + 3Sn^2+ -> 2Cr^3+ + 3Sn^4+ + 7H2O}$
-- $\ce{Cr2O7^2- + 8H+ + 3H2S -> 2Cr^3+ + 3S + 7H2O}$
+- $\begin{gathered}\ce{Cr2O7^2- + 14H+ + 6I-}\\ \ce{-> 2Cr^3+ + 3I2 + 7H2O}\end{gathered}$
+- $\begin{gathered}\ce{Cr2O7^2- + 14H+ + 6Fe^2+}\\ \ce{-> 2Cr^3+ + 6Fe^3+}\\ \text{+ }\ce{7H2O}\end{gathered}$
+- $\begin{gathered}\ce{Cr2O7^2- + 14H+ + 3Sn^2+}\\ \ce{-> 2Cr^3+ + 3Sn^4+}\\ \text{+ }\ce{7H2O}\end{gathered}$
+- $\begin{gathered}\ce{Cr2O7^2- + 8H+ + 3H2S}\\ \ce{-> 2Cr^3+ + 3S + 7H2O}\end{gathered}$
 - Structure: chromate tetrahedral; dichromate = two tetrahedra sharing one O (Cr–O–Cr $\approx126^\circ$). Na$_2$Cr$_2$O$_7$ is more soluble; K$_2$Cr$_2$O$_7$ is used as a primary standard in volumetric analysis.
 
 ## Potassium permanganate, KMnO$_4$
 
 :::formula
-$\ce{2MnO2 + 4KOH + O2 -> 2K2MnO4 + 2H2O}$ (fusion);   $\ce{3MnO4^2- + 4H+ -> 2MnO4- + MnO2 + 2H2O}$<br>
+$\begin{gathered}\ce{2MnO2 + 4KOH + O2}\\ \ce{-> 2K2MnO4 + 2H2O}\end{gathered}$ (fusion);   $\begin{gathered}\ce{3MnO4^2- + 4H+}\\ \ce{-> 2MnO4- + MnO2 + 2H2O}\end{gathered}$<br>
 Commercial: alkaline manganate oxidised electrolytically $\ce{MnO4^2- -> MnO4- + e-}$<br>
-Lab: $\ce{2Mn^2+ + 5S2O8^2- + 8H2O -> 2MnO4- + 10SO4^2- + 16H+}$<br>
-Acid: $\ce{MnO4- + 8H+ + 5e- -> Mn^2+ + 4H2O}$ ($E^\circ=1.52$ V)<br>
-Neutral/faintly alkaline: $\ce{MnO4- + 2H2O + 3e- -> MnO2 + 4OH-}$
+Lab: $\begin{gathered}\ce{2Mn^2+ + 5S2O8^2- + 8H2O}\\ \ce{-> 2MnO4- + 10SO4^2-}\\ \text{+ }\ce{16H+}\end{gathered}$<br>
+Acid: $\begin{gathered}\ce{MnO4- + 8H+ + 5e-}\\ \ce{-> Mn^2+ + 4H2O}\end{gathered}$ ($E^\circ=1.52$ V)<br>
+Neutral/faintly alkaline: $\begin{gathered}\ce{MnO4- + 2H2O + 3e-}\\ \ce{-> MnO2 + 4OH-}\end{gathered}$
 :::
 
-**Acidic:** $\ce{10I- + 2MnO4- + 16H+ -> 2Mn^2+ + 5I2 + 8H2O}$ · $\ce{5Fe^2+ + MnO4- + 8H+ -> Mn^2+ + 5Fe^3+ + 4H2O}$ · $\ce{5C2O4^2- + 2MnO4- + 16H+ -> 2Mn^2+ + 10CO2 + 8H2O}$ · $\ce{5S^2- + 2MnO4- + 16H+ -> 2Mn^2+ + 5S + 8H2O}$ · $\ce{5SO3^2- + 2MnO4- + 6H+ -> 2Mn^2+ + 5SO4^2- + 3H2O}$ · $\ce{5NO2- + 2MnO4- + 6H+ -> 2Mn^2+ + 5NO3- + 3H2O}$<br>
-**Neutral/faintly alkaline:** $\ce{2MnO4- + H2O + I- -> 2MnO2 + 2OH- + IO3-}$ · $\ce{8MnO4- + 3S2O3^2- + H2O -> 8MnO2 + 6SO4^2- + 2OH-}$ · $\ce{2MnO4- + 3Mn^2+ + 2H2O -> 5MnO2 + 4H+}$
+**Acidic:** $\begin{gathered}\ce{10I- + 2MnO4- + 16H+}\\ \ce{-> 2Mn^2+ + 5I2 + 8H2O}\end{gathered}$<br>
+$\begin{gathered}\ce{5Fe^2+ + MnO4- + 8H+}\\ \ce{-> Mn^2+ + 5Fe^3+ + 4H2O}\end{gathered}$<br>
+$\begin{gathered}\ce{5C2O4^2- + 2MnO4- + 16H+}\\ \ce{-> 2Mn^2+ + 10CO2 + 8H2O}\end{gathered}$<br>
+$\begin{gathered}\ce{5S^2- + 2MnO4- + 16H+}\\ \ce{-> 2Mn^2+ + 5S + 8H2O}\end{gathered}$<br>
+$\begin{gathered}\ce{5SO3^2- + 2MnO4- + 6H+}\\ \ce{-> 2Mn^2+ + 5SO4^2-}\\ \text{+ }\ce{3H2O}\end{gathered}$<br>
+$\begin{gathered}\ce{5NO2- + 2MnO4- + 6H+}\\ \ce{-> 2Mn^2+ + 5NO3- + 3H2O}\end{gathered}$<br>
+**Neutral/faintly alkaline:** $\begin{gathered}\ce{2MnO4- + H2O + I-}\\ \ce{-> 2MnO2 + 2OH- + IO3-}\end{gathered}$<br>
+$\begin{gathered}\ce{8MnO4- + 3S2O3^2- + H2O}\\ \ce{-> 8MnO2 + 6SO4^2-}\\ \text{+ }\ce{2OH-}\end{gathered}$<br>
+$\begin{gathered}\ce{2MnO4- + 3Mn^2+ + 2H2O}\\ \ce{-> 5MnO2 + 4H+}\end{gathered}$
 
 - Manganate $\ce{MnO4^2-}$: green, paramagnetic (1 unpaired). Permanganate $\ce{MnO4-}$: purple, diamagnetic. Both tetrahedral with $\pi$-bonding.
 - Uses: titrations (self-indicator — pale pink end point), bleaching wool, cotton, silk; decolourising oils. In titrations use dilute H$_2$SO$_4$, not HCl (HCl is oxidised to Cl$_2$).

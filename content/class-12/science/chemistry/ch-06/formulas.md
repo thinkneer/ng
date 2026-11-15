@@ -11,7 +11,7 @@
 
 :::formula
 $\ce{R-OH + HCl ->[ZnCl2] R-Cl + H2O}$ (3$^\circ$ needs no ZnCl$_2$)   $\ce{3R-OH + PCl3 -> 3R-Cl + H3PO3}$<br>
-$\ce{R-OH + PCl5 -> R-Cl + POCl3 + HCl}$   $\ce{R-OH + SOCl2 -> R-Cl + SO2 ^ + HCl ^}$ (best: by-products escape)<br>
+$\begin{gathered}\ce{R-OH + PCl5}\\ \ce{-> R-Cl + POCl3 + HCl}\end{gathered}$   $\begin{gathered}\ce{R-OH + SOCl2}\\ \ce{-> R-Cl + SO2 ^ + HCl ^}\end{gathered}$ (best: by-products escape)<br>
 Alkene + HX: Markovnikov (H to the C with more H): propene + HBr → 2-bromopropane<br>
 With peroxide (**HBr only**): anti-Markovnikov → 1-bromopropane<br>
 Arenes: $\ce{C6H6 + Cl2 ->[Fe / FeCl3][dark] C6H5Cl + HCl}$ (o/p for substituted rings)

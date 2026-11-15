@@ -151,14 +151,14 @@
     "stars": 3,
     "label": "PYQ-style",
     "stem": "Write one equation each for (i) Rosenmund reduction, (ii) Wolff–Kishner reduction.",
-    "model_answer": "(i) $\\ce{C6H5COCl + H2 ->[Pd / BaSO4] C6H5CHO + HCl}$ [1]<br>\n(ii) $\\ce{CH3COCH3 ->[(i) NH2NH2][(ii) KOH / ethylene glycol, \\Delta] CH3CH2CH3 + N2}$ [1]",
+    "model_answer": "(i) $\\begin{gathered}\\ce{C6H5COCl + H2}\\\\ \\ce{->[Pd / BaSO4] C6H5CHO}\\\\ \\text{+ }\\ce{HCl}\\end{gathered}$ [1]<br>\n(ii) $\\begin{gathered}\\ce{CH3COCH3}\\\\ \\ce{->[(i) NH2NH2]}\\\\ \\ce{->[(ii) KOH / ethylene glycol, \\Delta]}\\\\ \\ce{CH3CH2CH3 + N2}\\end{gathered}$ [1]",
     "scheme": [
       {
-        "step": "(i) $\\ce{C6H5COCl + H2 ->[Pd / BaSO4] C6H5CHO + HCl}$",
+        "step": "(i) $\\begin{gathered}\\ce{C6H5COCl + H2}\\\\ \\ce{->[Pd / BaSO4] C6H5CHO}\\\\ \\text{+ }\\ce{HCl}\\end{gathered}$",
         "marks": 1
       },
       {
-        "step": "(ii) $\\ce{CH3COCH3 ->[(i) NH2NH2][(ii) KOH / ethylene glycol, \\Delta] CH3CH2CH3 + N2}$",
+        "step": "(ii) $\\begin{gathered}\\ce{CH3COCH3}\\\\ \\ce{->[(i) NH2NH2]}\\\\ \\ce{->[(ii) KOH / ethylene glycol, \\Delta]}\\\\ \\ce{CH3CH2CH3 + N2}\\end{gathered}$",
         "marks": 1
       }
     ],
@@ -269,18 +269,18 @@
     "stars": 2,
     "label": "PYQ-style",
     "stem": "How will you carry out these conversions?<br>\n(i) ethanol to 3-hydroxybutanal   (ii) propanone to propene   (iii) bromobenzene to benzoic acid",
-    "model_answer": "(i) $\\ce{CH3CH2OH ->[PCC] CH3CHO ->[dil. NaOH] CH3CH(OH)CH2CHO}$ [1]<br>\n(ii) $\\ce{CH3COCH3 ->[NaBH4] CH3CH(OH)CH3 ->[conc. H2SO4][443 K] CH3CH=CH2}$ [1]<br>\n(iii) $\\ce{C6H5Br ->[Mg][dry ether] C6H5MgBr ->[(i) CO2 (dry ice)][(ii) H3O+] C6H5COOH}$ [1]",
+    "model_answer": "(i) $\\begin{gathered}\\ce{CH3CH2OH}\\\\ \\ce{->[PCC] CH3CHO}\\\\ \\ce{->[dil. NaOH] CH3CH(OH)CH2CHO}\\end{gathered}$ [1]<br>\n(ii) $\\begin{gathered}\\ce{CH3COCH3}\\\\ \\ce{->[NaBH4] CH3CH(OH)CH3}\\\\ \\ce{->[conc. H2SO4][443 K] CH3CH=CH2}\\end{gathered}$ [1]<br>\n(iii) $\\begin{gathered}\\ce{C6H5Br}\\\\ \\ce{->[Mg][dry ether] C6H5MgBr}\\\\ \\ce{->[(i) CO2 (dry ice)][(ii) H3O+]}\\\\ \\ce{C6H5COOH}\\end{gathered}$ [1]",
     "scheme": [
       {
-        "step": "(i) $\\ce{CH3CH2OH ->[PCC] CH3CHO ->[dil. NaOH] CH3CH(OH)CH2CHO}$",
+        "step": "(i) $\\begin{gathered}\\ce{CH3CH2OH}\\\\ \\ce{->[PCC] CH3CHO}\\\\ \\ce{->[dil. NaOH] CH3CH(OH)CH2CHO}\\end{gathered}$",
         "marks": 1
       },
       {
-        "step": "(ii) $\\ce{CH3COCH3 ->[NaBH4] CH3CH(OH)CH3 ->[conc. H2SO4][443 K] CH3CH=CH2}$",
+        "step": "(ii) $\\begin{gathered}\\ce{CH3COCH3}\\\\ \\ce{->[NaBH4] CH3CH(OH)CH3}\\\\ \\ce{->[conc. H2SO4][443 K] CH3CH=CH2}\\end{gathered}$",
         "marks": 1
       },
       {
-        "step": "(iii) $\\ce{C6H5Br ->[Mg][dry ether] C6H5MgBr ->[(i) CO2 (dry ice)][(ii) H3O+] C6H5COOH}$",
+        "step": "(iii) $\\begin{gathered}\\ce{C6H5Br}\\\\ \\ce{->[Mg][dry ether] C6H5MgBr}\\\\ \\ce{->[(i) CO2 (dry ice)][(ii) H3O+]}\\\\ \\ce{C6H5COOH}\\end{gathered}$",
         "marks": 1
       }
     ],
@@ -295,18 +295,18 @@
     "stars": 3,
     "label": "PYQ-style",
     "stem": "Complete the reactions and name the organic products:<br>\n(i) $\\ce{CH3CHO + NH2OH ->[H+]}$<br>\n(ii) $\\ce{2C6H5CHO + NaOH(conc.) ->}$<br>\n(iii) $\\ce{CH3CH2COOH ->[(i) Br2 / red P][(ii) H2O]}$",
-    "model_answer": "(i) $\\ce{CH3CHO + NH2OH -> CH3CH=N-OH + H2O}$ — ethanal oxime [1]<br>\n(ii) $\\ce{2C6H5CHO + NaOH -> C6H5CH2OH + C6H5COONa}$ — benzyl alcohol and sodium benzoate (Cannizzaro) [1]<br>\n(iii) $\\ce{CH3CH2COOH -> CH3CH(Br)COOH}$ — 2-bromopropanoic acid (HVZ reaction) [1]",
+    "model_answer": "(i) $\\begin{gathered}\\ce{CH3CHO + NH2OH}\\\\ \\ce{-> CH3CH=N-OH + H2O}\\end{gathered}$ — ethanal oxime [1]<br>\n(ii) $\\begin{gathered}\\ce{2C6H5CHO + NaOH}\\\\ \\ce{-> C6H5CH2OH + C6H5COONa}\\end{gathered}$ — benzyl alcohol and sodium benzoate (Cannizzaro) [1]<br>\n(iii) $\\begin{gathered}\\ce{CH3CH2COOH}\\\\ \\ce{-> CH3CH(Br)COOH}\\end{gathered}$ — 2-bromopropanoic acid (HVZ reaction) [1]",
     "scheme": [
       {
-        "step": "(i) $\\ce{CH3CHO + NH2OH -> CH3CH=N-OH + H2O}$ — ethanal oxime",
+        "step": "(i) $\\begin{gathered}\\ce{CH3CHO + NH2OH}\\\\ \\ce{-> CH3CH=N-OH + H2O}\\end{gathered}$ — ethanal oxime",
         "marks": 1
       },
       {
-        "step": "(ii) $\\ce{2C6H5CHO + NaOH -> C6H5CH2OH + C6H5COONa}$ — benzyl alcohol and sodium benzoate (Cannizzaro)",
+        "step": "(ii) $\\begin{gathered}\\ce{2C6H5CHO + NaOH}\\\\ \\ce{-> C6H5CH2OH + C6H5COONa}\\end{gathered}$ — benzyl alcohol and sodium benzoate (Cannizzaro)",
         "marks": 1
       },
       {
-        "step": "(iii) $\\ce{CH3CH2COOH -> CH3CH(Br)COOH}$ — 2-bromopropanoic acid (HVZ reaction)",
+        "step": "(iii) $\\begin{gathered}\\ce{CH3CH2COOH}\\\\ \\ce{-> CH3CH(Br)COOH}\\end{gathered}$ — 2-bromopropanoic acid (HVZ reaction)",
         "marks": 1
       }
     ],
@@ -376,10 +376,10 @@
         "id": "iii",
         "stem": "Write the equation for the reaction of propanal with Tollens' reagent and state the observation.<br>**OR**<br>Give a test, with equation, to distinguish acetophenone from benzophenone.",
         "marks": 2,
-        "model_answer": "$\\ce{CH3CH2CHO + 2[Ag(NH3)2]+ + 3OH- ->}$ $\\ce{CH3CH2COO- + 2Ag v + 2H2O + 4NH3}$ [1½]<br>\nA bright silver mirror forms on the wall of the test tube. [½]\n\n**OR**\n\n**Iodoform test:** acetophenone gives a yellow precipitate of $\\ce{CHI3}$; benzophenone (no $\\ce{CH3CO-}$ group) does not. [1]<br>\n$\\ce{C6H5COCH3 + 3NaOI -> C6H5COONa + CHI3 v + 2NaOH}$ [1]",
+        "model_answer": "$\\begin{gathered}\\ce{CH3CH2CHO + 2[Ag(NH3)2]+}\\\\ \\text{+ }\\ce{3OH-}\\\\ \\ce{->}\\end{gathered}$ $\\begin{gathered}\\ce{CH3CH2COO- + 2Ag v}\\\\ \\text{+ }\\ce{2H2O + 4NH3}\\end{gathered}$ [1½]<br>\nA bright silver mirror forms on the wall of the test tube. [½]\n\n**OR**\n\n**Iodoform test:** acetophenone gives a yellow precipitate of $\\ce{CHI3}$; benzophenone (no $\\ce{CH3CO-}$ group) does not. [1]<br>\n$\\begin{gathered}\\ce{C6H5COCH3 + 3NaOI}\\\\ \\ce{-> C6H5COONa + CHI3 v}\\\\ \\text{+ }\\ce{2NaOH}\\end{gathered}$ [1]",
         "scheme": [
           {
-            "step": "$\\ce{CH3CH2CHO + 2[Ag(NH3)2]+ + 3OH- ->}$ $\\ce{CH3CH2COO- + 2Ag v + 2H2O + 4NH3}$",
+            "step": "$\\begin{gathered}\\ce{CH3CH2CHO + 2[Ag(NH3)2]+}\\\\ \\text{+ }\\ce{3OH-}\\\\ \\ce{->}\\end{gathered}$ $\\begin{gathered}\\ce{CH3CH2COO- + 2Ag v}\\\\ \\text{+ }\\ce{2H2O + 4NH3}\\end{gathered}$",
             "marks": 1.5
           },
           {
@@ -400,7 +400,7 @@
     "stars": 3,
     "label": "PYQ-style",
     "stem": "An organic compound A ($\\ce{C8H8O}$) gives an orange-red precipitate with 2,4-DNP reagent and a yellow precipitate on heating with iodine and sodium hydroxide. It neither reduces Tollens' or Fehling's reagent nor decolourises bromine water. On drastic oxidation with chromic acid it gives a carboxylic acid B ($\\ce{C7H6O2}$). Identify A and B and explain the reactions.",
-    "model_answer": "**Reasoning.** Precipitate with 2,4-DNP ⇒ a carbonyl group. Yellow precipitate with $\\ce{I2}$/NaOH ⇒ a $\\ce{CH3CO-}$ group. No reaction with Tollens' or Fehling's ⇒ a ketone, not an aldehyde. No decolourisation of bromine water although the formula is highly unsaturated ⇒ a benzene ring. [1]<br>\n**A = acetophenone (1-phenylethanone), $\\ce{C6H5COCH3}$** [1]<br>\n**B = benzoic acid, $\\ce{C6H5COOH}$** [1]<br>\n$\\ce{C6H5COCH3}$ + 2,4-DNP $\\ce{->}$<br>\n$\\ce{C6H5C(CH3)=N-NH-C6H3(NO2)2}$ + $\\ce{H2O}$ (orange-red 2,4-dinitrophenylhydrazone) [½]<br>\n$\\ce{C6H5COCH3 + 3NaOI -> C6H5COONa + CHI3 + 2NaOH}$ [1]<br>\n$\\ce{C6H5COCH3 ->[H2CrO4] C6H5COOH}$ [½]",
+    "model_answer": "**Reasoning.** Precipitate with 2,4-DNP ⇒ a carbonyl group. Yellow precipitate with $\\ce{I2}$/NaOH ⇒ a $\\ce{CH3CO-}$ group. No reaction with Tollens' or Fehling's ⇒ a ketone, not an aldehyde. No decolourisation of bromine water although the formula is highly unsaturated ⇒ a benzene ring. [1]<br>\n**A = acetophenone (1-phenylethanone), $\\ce{C6H5COCH3}$** [1]<br>\n**B = benzoic acid, $\\ce{C6H5COOH}$** [1]<br>\n$\\ce{C6H5COCH3}$ + 2,4-DNP $\\ce{->}$<br>\n$\\ce{C6H5C(CH3)=N-NH-C6H3(NO2)2}$ + $\\ce{H2O}$ (orange-red 2,4-dinitrophenylhydrazone) [½]<br>\n$\\begin{gathered}\\ce{C6H5COCH3 + 3NaOI}\\\\ \\ce{-> C6H5COONa + CHI3}\\\\ \\text{+ }\\ce{2NaOH}\\end{gathered}$ [1]<br>\n$\\ce{C6H5COCH3 ->[H2CrO4] C6H5COOH}$ [½]",
     "scheme": [
       {
         "step": "**Reasoning.** Precipitate with 2,4-DNP ⇒ a carbonyl group. Yellow precipitate with $\\ce{I2}$/NaOH ⇒ a $\\ce{CH3CO-}$ group. No reaction with Tollens' or Fehling's ⇒ a ketone, not an aldehyde. No decolourisation of bromine water although the formula is highly unsaturated ⇒ a benzene ring.",
@@ -419,7 +419,7 @@
         "marks": 0.5
       },
       {
-        "step": "$\\ce{C6H5COCH3 + 3NaOI -> C6H5COONa + CHI3 + 2NaOH}$",
+        "step": "$\\begin{gathered}\\ce{C6H5COCH3 + 3NaOI}\\\\ \\ce{-> C6H5COONa + CHI3}\\\\ \\text{+ }\\ce{2NaOH}\\end{gathered}$",
         "marks": 1
       },
       {
