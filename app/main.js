@@ -6,6 +6,7 @@ import { initPWA } from './pwa.js';
 import { $, $$, html, raw, icon, esc, openSheet, emptyState } from './ui.js';
 import { views, prefetchView } from './views/index.js';
 import { verifySession, verifyDbSession, isDbMode } from './auth.js';
+import { classAllowed, subjectAllowed } from './access.js';
 
 const PUBLIC_ROUTES = new Set(['signin', 'request', 'access', 'login', 'awaiting', 'reset']);
 let sessionChecked = null;
@@ -69,6 +70,11 @@ async function render(route) {
     if (s && !s.pending) { location.replace('#/today'); return; }
     if (s?.pending && route.name !== 'awaiting') { sessionChecked = null; route = { name: 'awaiting', profile: s.pending, seg: [] }; }
     if (!s) sessionChecked = null;
+  }
+  // Class and subject access set by the admin (db mode; admins are never limited)
+  if (route.classId && !PUBLIC_ROUTES.has(route.name)
+    && (!classAllowed(route.classId, route.streamId) || (route.subjectId && !subjectAllowed(route.classId, route.streamId, route.subjectId)))) {
+    route = { name: 'locked', classId: route.classId, streamId: route.streamId, subjectId: route.subjectId, seg: [] };
   }
   const view = views[route.name] || views['not-found'];
   let result;

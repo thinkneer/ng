@@ -11,6 +11,7 @@ What members get:
 - **Practice on paper**: diagrams to draw, derivations, fresh numericals and short explanations, with a printable A4 worksheet per chapter.
 - Model answers written like a full-marks answer script, so students copy the layout on paper.
 - Formula and facts sheets, card decks, live quizzes.
+- Short YouTube videos inside the notes, only where moving pictures teach better than a page (played in the page, loaded only when tapped).
 - Timed 3-hour papers on the CBSE pattern: the questions on the phone, the answers on paper; teachers mark the sheet (or paste it into Claude with photos) and send back marks.
 - A distraction-free reading mode (full screen, text size, light / sepia / dark) on every chapter.
 - **Board plan**: days left to each of your papers, in order.

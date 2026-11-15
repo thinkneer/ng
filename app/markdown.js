@@ -273,7 +273,7 @@ export async function typeset(el) {
 export function headings(el) {
   return [...el.querySelectorAll('h2')].map((h) => ({ id: h.id, text: h.textContent }));
 }
-const BLOCK_KIND = { figure: ['eye', 'Diagram'], graph: ['progress', 'Graph'], steps: ['play', 'Step by step'], numerical: ['formula', 'Numerical'], mnemonic: ['sparkle', 'Memory trick'], draw: ['paper', 'Draw it'], derive: ['timer', 'Derivation'], explain: ['message', 'Explain it'], compare: ['layers', 'Compare'], fill: ['note', 'Fill the table'] };
+const BLOCK_KIND = { figure: ['eye', 'Diagram'], graph: ['progress', 'Graph'], steps: ['play', 'Step by step'], numerical: ['formula', 'Numerical'], mnemonic: ['sparkle', 'Memory trick'], draw: ['paper', 'Draw it'], derive: ['timer', 'Derivation'], explain: ['message', 'Explain it'], compare: ['layers', 'Compare'], fill: ['note', 'Fill the table'], video: ['play', 'Video'] };
 function blockHead(type, title) {
   const [ic, label] = BLOCK_KIND[type] || ['info', type];
   return `<div class="ngb__head"><span class="ngb__kind">${icon(ic)}${label}</span>${title ? `<h3 class="ngb__title">${escapeHtml(title)}</h3>` : ''}</div>`;

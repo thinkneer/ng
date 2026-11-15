@@ -8,7 +8,7 @@ import { head } from './kit.js';
 const MODULES = {
   figure: () => import('./figure.js'), graph: () => import('./graph.js'), steps: () => import('./steps.js'),
   numerical: () => import('./numerical.js'), mnemonic: () => import('./mnemonic.js'), draw: () => import('./draw.js'),
-  derive: () => import('./derive.js'), explain: () => import('./explain.js'), compare: () => import('./compare.js'), fill: () => import('./fill.js'),
+  derive: () => import('./derive.js'), explain: () => import('./explain.js'), compare: () => import('./compare.js'), fill: () => import('./fill.js'), video: () => import('./video.js'),
 };
 
 /** ctx: { key: "<subject>/<chapter>", src: whole Markdown source (svg refs, "In one breath"), base: chapter route } */

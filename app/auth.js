@@ -90,10 +90,24 @@ import { db, enabled as dbEnabled } from './db.js';
 export async function isDbMode() { return dbEnabled(); }
 const PROFILE_COLS = 'id, nickname, role, status, class, stream, subjects, session_token';
 
+const streamOf = (cls, stream) => stream || (cls === '9' || cls === '10' ? 'general' : 'science');
 function mirror(p) {
   const s = { nickname: p.nickname, role: p.role, status: p.status, class: p.class, stream: p.stream, subjects: p.subjects || [], uid: p.id, db: true, at: new Date().toISOString() };
   store.set('session', s);
-  if (!store.settings.class && p.class) store.setSettings({ class: p.class, stream: p.stream || (p.class === '9' || p.class === '10' ? 'general' : 'science'), subjects: [] });
+  const set = store.settings;
+  const fixed = p.role !== 'admin' && p.class && p.class !== 'any'; // the admin decides this member's class
+  if (fixed && (set.class !== p.class || set.stream !== streamOf(p.class, p.stream))) {
+    store.setSettings({ class: p.class, stream: streamOf(p.class, p.stream), subjects: [] });
+  } else if (!set.class && p.class && p.class !== 'any') {
+    store.setSettings({ class: p.class, stream: streamOf(p.class, p.stream), subjects: [] });
+  }
+  // "My subjects" can only hold subjects the admin opened; if none are left, fall back to all of them
+  const allowed = p.role === 'admin' ? [] : (p.subjects || []);
+  const mine = store.settings.subjects || [];
+  if (allowed.length && mine.length && mine.some((x) => !allowed.includes(x))) {
+    const keep = mine.filter((x) => allowed.includes(x));
+    store.setSettings({ subjects: keep.length ? keep : [] });
+  }
   return s;
 }
 const deviceToken = () => { let t = store.get('device', null); if (!t) { t = crypto.randomUUID(); store.set('device', t); } return t; };

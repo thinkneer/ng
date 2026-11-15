@@ -1,4 +1,5 @@
 // Data access: index.json (built), classes.json and chapter content. All relative to the app root.
+import { subjectAllowed } from './access.js';
 const cache = new Map();
 
 async function getJSON(path) {
@@ -53,12 +54,12 @@ export const data = {
   memory: () => getJSON('data/memory.json').catch(() => ({})),
   chapterMeta: (subject, chapterId) => getJSON(`${subject.path}/${chapterId}/chapter.json`).catch(() => null),
 
-  /** Live subjects for the student's chosen class/stream. */
+  /** Live subjects for the student's chosen class/stream that the admin lets this member open. */
   async liveSubjects(classId, streamId) {
     const { cls, stream } = await this.resolve(classId, streamId);
     if (!cls) return [];
     const st = stream || cls.streams[0];
-    return st ? st.subjects.filter((s) => s.status === 'live') : [];
+    return st ? st.subjects.filter((s) => s.status === 'live' && subjectAllowed(cls.id, st.id, s.id)) : [];
   },
   /** Paper dates for a class, by board year inferred from the first subject with an exam_date. */
   async examsFor(classId, streamId) {

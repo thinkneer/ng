@@ -1,6 +1,7 @@
 import { html, raw, icon, largeTitle, esc, fmtDate, parseDate, daysBetween, today, toast, haptic, unitBar } from '../ui.js';
 import { data, routeFor, streamless } from '../data.js';
 import { store } from '../store.js';
+import { subjectAllowed } from '../access.js';
 
 export async function subject(route) {
   const { cls, stream, subject: sub } = await data.resolve(route.classId, route.streamId, route.subjectId);
@@ -35,7 +36,7 @@ export async function subject(route) {
           ${u.chapters.map((c) => {
             const key = `${sub.id}/${c.id}`;
             const tr = progress.tracker?.[key] || {};
-            const avail = [c.items?.notes && 'Read', c.items?.mustknow && 'Must know', c.items?.cards && `${c.cards} cards`, c.items?.questions && `${c.questions} Qs`].filter(Boolean);
+            const avail = [c.items?.notes && 'Read', c.items?.mustknow && 'Must know', c.items?.cards && `${c.cards} cards`, c.items?.questions && `${c.questions} Qs`, c.blocks?.video && `${c.blocks.video} video${c.blocks.video > 1 ? 's' : ''}`].filter(Boolean);
             const conf = tr.confidence ? `<span class="badge" title="Your confidence">${tr.confidence}/5</span>` : '';
             // The coloured number opens the chapter's card deck; the rest of the row opens the chapter.
             const badge = c.items?.cards
@@ -55,7 +56,7 @@ export async function subject(route) {
       <p class="legend">${raw('<span><span class="stars">★★★</span> most years</span><span><span class="stars">★★</span> often</span><span><span class="stars">★</span> sometimes</span><span>· stars are estimates</span>')}</p>`,
     mount(el) {
       const b = el.querySelector('[data-mine]'); if (!b) return;
-      const liveIds = stream.subjects.filter((x) => x.status === 'live').map((x) => x.id);
+      const liveIds = stream.subjects.filter((x) => x.status === 'live' && subjectAllowed(cls.id, stream.id, x.id)).map((x) => x.id);
       b.addEventListener('click', () => {
         const on = store.toggleSubject(sub.id, liveIds);
         if (on === null) { toast('Keep at least one subject'); haptic('medium'); return; }

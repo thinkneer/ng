@@ -268,3 +268,15 @@ svg text.uf, svg .uf text { fill: var(--unit, var(--accent)); }
 .prose .ngb .ngc__table th, .prose .ngb .ngc__table td { text-transform: none; letter-spacing: 0; font-size: var(--fs-subhead); }
 .prose .ngb .ngc__table thead th { font-size: var(--fs-footnote); }
 .ngl__q { text-align: center; }
+
+/* video (ng-video): YouTube, loaded only on tap */
+.ngv__frame { position: relative; aspect-ratio: 16 / 9; border-radius: var(--r-md); overflow: hidden; background: color-mix(in srgb, var(--unit, var(--accent)) 14%, var(--surface-2)); }
+.ngv__frame iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+.ngv__play { position: absolute; inset: 0; width: 100%; display: grid; place-content: center; justify-items: center; gap: var(--s-2); color: var(--text); }
+.ngv__btn { display: grid; place-items: center; width: 3.5rem; height: 3.5rem; border-radius: 50%; background: var(--unit, var(--accent)); color: #fff; box-shadow: var(--shadow-1); }
+.ngv__btn svg { width: 1.6rem; height: 1.6rem; margin-left: 3px; fill: currentColor; }
+.ngv__cap { font-size: var(--fs-footnote); font-weight: 600; color: var(--text-2); padding: 0 var(--s-3); text-align: center; }
+.ngv__play:active .ngv__btn { transform: scale(.94); }
+.ngv__meta { margin-top: var(--s-2); }
+.ngv__note { margin-top: var(--s-1); font-size: var(--fs-subhead); }
+@media print { .ngv__frame { display: none; } }

@@ -9,7 +9,7 @@ export { icon, esc, haptic, store };
 export const KIND = {
   figure: ['eye', 'Diagram'], graph: ['progress', 'Graph'], steps: ['play', 'Step by step'], numerical: ['formula', 'Numerical'],
   mnemonic: ['sparkle', 'Memory trick'], draw: ['paper', 'Draw it'], derive: ['timer', 'Derivation'], explain: ['message', 'Explain it'],
-  compare: ['layers', 'Compare'], fill: ['note', 'Fill the table'],
+  compare: ['layers', 'Compare'], fill: ['note', 'Fill the table'], video: ['play', 'Video'],
 };
 
 /** Block header: kind label + title. */

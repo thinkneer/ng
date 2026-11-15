@@ -16,6 +16,7 @@ export const BLOCKS = {
   explain: { keys: { id: one, prompt: one, lines: one, answer: one }, required: ['id', 'prompt'] },
   compare: { keys: { id: one, title: one, cols: one, row: many }, required: ['id', 'title', 'cols', 'row'] },
   fill: { keys: { id: one, title: one, cols: one, row: many }, required: ['id', 'title', 'cols', 'row'] },
+  video: { keys: { id: one, title: one, youtube: one, channel: one, start: one, end: one, note: one }, required: ['id', 'title', 'youtube', 'channel'] },
 };
 export const TYPES = Object.keys(BLOCKS);
 const KEY = /^([a-z][a-z0-9-]*):(?:\s(.*))?$/;
@@ -120,8 +121,23 @@ export function normalise(type, s) {
     case 'draw': return { ...s, minutes: Number(s.time) || 0 };
     case 'compare': return { ...s, heads: cells(s.cols), rows: lines(s.row).map(cells) };
     case 'fill': return { ...s, heads: cells(s.cols), rows: lines(s.row).map(cells) };
+    case 'video': return { ...s, vid: youtubeId(s.youtube), from: seconds(s.start), to: seconds(s.end) };
   }
   return s;
+}
+
+/** A YouTube video id from a watch / youtu.be / shorts / embed link or a bare 11-character id; null if none. */
+export function youtubeId(v) {
+  const t = String(v || '').trim();
+  if (/^[A-Za-z0-9_-]{11}$/.test(t)) return t;
+  const m = t.match(/^https?:\/\/(?:www\.|m\.)?(?:youtube\.com\/(?:watch\?(?:.*&)?v=|shorts\/|embed\/|live\/)|youtu\.be\/|youtube-nocookie\.com\/embed\/)([A-Za-z0-9_-]{11})(?:[?&#/].*)?$/);
+  return m ? m[1] : null;
+}
+/** "1:20", "01:02:03" or "80" → seconds; null when empty; NaN when unreadable. */
+export function seconds(v) {
+  const t = String(v ?? '').trim(); if (!t) return null;
+  if (!/^\d+(:\d{1,2}){0,2}$/.test(t)) return NaN;
+  return t.split(':').reduce((a, x) => a * 60 + Number(x), 0);
 }
 
 /** Template pieces "{{expr}}" or "{{expr:dp}}" in a numerical's question/step text. */
@@ -196,6 +212,13 @@ export function validate(block, ctx = {}) {
       break;
     }
     case 'explain': if (n.lines < 1 || n.lines > 8) errs.push('lines: 1 to 8'); break;
+    case 'video': {
+      if (!n.vid) errs.push(`youtube: give a YouTube link (youtube.com/watch?v=…, youtu.be/…) or the 11-character video id`);
+      for (const k of ['start', 'end']) if (Number.isNaN(n[k === 'start' ? 'from' : 'to'])) errs.push(`${k}: write minutes:seconds like 1:20 (or plain seconds)`);
+      if (n.from != null && n.to != null && !(n.to > n.from)) errs.push('end must come after start');
+      if (String(n.channel).length > 60) errs.push('channel: the channel name only (60 characters at most)');
+      break;
+    }
   }
   return errs;
 }

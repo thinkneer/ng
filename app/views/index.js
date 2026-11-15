@@ -1,7 +1,7 @@
 // Views load on demand: a chapter page fetches chapter.js and what it uses, not all twenty screens.
 import { emptyState } from '../ui.js';
 
-const ROUTE_MODULE = { streams: 'classes', 'subjects-of': 'classes', subjects: 'classes', about: 'more', request: 'signin', access: 'signin', login: 'signin', awaiting: 'signin', reset: 'signin' };
+const ROUTE_MODULE = { streams: 'classes', 'subjects-of': 'classes', locked: 'classes', subjects: 'classes', about: 'more', request: 'signin', access: 'signin', login: 'signin', awaiting: 'signin', reset: 'signin' };
 /** Start fetching a route's code now (while the session is checked), without running it. */
 export function prefetchView(name) { const load = L[ROUTE_MODULE[name] || name]; if (load) load().catch(() => {}); }
 
@@ -28,6 +28,7 @@ export const views = {
   classes: lazy(L.classes, 'classes'),
   streams: lazy(L.classes, 'streams'),
   'subjects-of': lazy(L.classes, 'subjectsOf'),
+  locked: lazy(L.classes, 'locked'),
   subjects: lazy(L.classes, 'subjectsTab'),
   subject: lazy(L.subject, 'subject'),
   chapter: lazy(L.chapter, 'chapter'),

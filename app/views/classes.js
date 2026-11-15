@@ -1,11 +1,13 @@
 import { html, raw, icon, largeTitle, listItem, esc, toast, haptic, cover } from '../ui.js';
 import { data, routeFor, streamless } from '../data.js';
 import { store } from '../store.js';
+import { access, classLocked, subjectAllowed } from '../access.js';
 
 const streamName = (id) => ({ general: 'All subjects', science: 'Science', commerce: 'Commerce', humanities: 'Humanities' }[id] || id);
 
 /** #/classes — pick a class. */
 export async function classes() {
+  if (classLocked()) return subjectsTab(); // the admin set this member's class
   const idx = await data.index();
   const chosen = store.settings.class;
   return {
@@ -19,7 +21,7 @@ export async function classes() {
           ${c.status === 'live' ? `<span class="badge badge--live">Live</span>` : `<span class="badge badge--soon">Coming soon</span>`}${c.board_year ? ` <span class="badge">Board year</span>` : ''}</span>
         </a>`))}
       </div>
-      <p class="t-footnote t-3 mt-6">Only Class 12 Science has content right now. Other classes open as their material is ready.</p>`,
+      <p class="t-footnote t-3 mt-6">Classes and subjects open as their material is ready; the ones marked Live have content now.</p>`,
   };
 }
 
@@ -50,23 +52,26 @@ export async function subjectsOf(route) {
   const live = stream.status === 'live';
   const settings = store.settings;
   const isCurrent = settings.class === cls.id && settings.stream === stream.id;
+  const shown = stream.subjects.filter((s) => subjectAllowed(cls.id, stream.id, s.id));
+  const hidden = stream.subjects.length - shown.length;
   const title = streamless(cls.id) ? cls.name : `${cls.name} ${stream.name}`;
   return {
     title, largeTitle: true, tab: 'subjects', back: streamless(cls.id) ? '#/classes' : `#/${cls.id}`,
     html: html`${largeTitle(title, { eyebrow: live ? 'Subjects' : 'Coming soon' })}
       ${!live ? raw(`<div class="notice notice--warn mb-4">${icon('clock')}<div><strong>Coming soon.</strong> This class is set up but has no content yet. You can still choose it so the app is ready when material lands.</div></div>`) : ''}
-      ${!isCurrent ? raw(`<button class="btn btn--block mb-4" type="button" data-choose>${icon('check')} Make this my class</button>`) : raw(`<p class="t-2 t-subhead mb-4">Tap <span class="pin-demo">${icon('check')}</span> to drop a subject from Today, Practice, Recall and your plan; tap <span class="pin-demo pin-demo--off">${icon('plusSquare')}</span> to bring it back. Every subject stays readable here.</p>`)}
+      ${!isCurrent && !classLocked() ? raw(`<button class="btn btn--block mb-4" type="button" data-choose>${icon('check')} Make this my class</button>`) : raw(`<p class="t-2 t-subhead mb-4">Tap <span class="pin-demo">${icon('check')}</span> to drop a subject from Today, Practice, Recall and your plan; tap <span class="pin-demo pin-demo--off">${icon('plusSquare')}</span> to bring it back. Every subject stays readable here.</p>`)}
       <div class="shelf rise">
-        ${stream.subjects.map((s) => {
+        ${shown.map((s) => {
           const paper = exams?.papers?.find((p) => p.subject === s.id);
           const chapters = s.units?.reduce((n, u) => n + u.chapters.length, 0) || 0;
           const liveS = s.status === 'live';
           return cover({ ...s, colour: s.colour || '7A8699', metaLeft: liveS ? (s.counts?.notes ? `${s.counts.notes}/${chapters} notes` : `${chapters} chapters`) : '' }, { href: liveS ? routeFor(cls.id, stream.id, s.id) : '#/more/request', sub: paper ? `Paper ${fmt(paper.date)}` : (liveS ? cls.name : 'Soon'), soon: !liveS, toggle: liveS && isCurrent ? { on: store.isMine(s.id) } : null });
         })}
       </div>
+      ${hidden ? raw(`<p class="t-footnote t-2 mt-4">${hidden} more subject${hidden > 1 ? 's are' : ' is'} not open for you yet. Your admin decides which subjects you see.</p>`) : ''}
       ${raw(`<p class="t-footnote t-3 mt-4">Syllabus: rationalised CBSE ${esc(stream.subjects.find((s) => s.syllabus_year)?.syllabus_year || '')}. Links to NCERT and CBSE are on each subject page.</p>`)}`,
     mount(el) {
-      const liveIds = stream.subjects.filter((x) => x.status === 'live').map((x) => x.id);
+      const liveIds = shown.filter((x) => x.status === 'live').map((x) => x.id);
       el.addEventListener('click', (e) => {
         const b = e.target.closest('[data-toggle-subject]'); if (!b) return;
         e.preventDefault();
@@ -79,7 +84,7 @@ export async function subjectsOf(route) {
         toast(on ? `${name} added to your subjects` : `${name} removed from Today and your plan`, { action: 'Undo', onAction: () => { store.toggleSubject(id, liveIds); location.reload(); } });
       });
       el.querySelector('[data-choose]')?.addEventListener('click', () => {
-        store.setSettings({ class: cls.id, stream: stream.id, subjects: stream.subjects.filter((s) => s.status === 'live').map((s) => s.id) });
+        store.setSettings({ class: cls.id, stream: stream.id, subjects: shown.filter((s) => s.status === 'live').map((s) => s.id) });
         haptic('success');
         toast(`${title} is now your class`, { action: 'Today', onAction: () => { location.hash = '#/today'; } });
         location.hash = '#/today';
@@ -94,8 +99,20 @@ export async function subjectsTab() {
   if (!s.class) return classes();
   const r = await subjectsOf({ classId: s.class, streamId: s.stream || 'general' });
   r.back = null;
-  r.actions = `<a class="icon-btn" href="#/classes" aria-label="Change class">${icon('layers')}</a><button class="icon-btn" type="button" data-search aria-label="Search chapters">${icon('search')}</button>`;
+  r.actions = `${classLocked() ? '' : `<a class="icon-btn" href="#/classes" aria-label="Change class">${icon('layers')}</a>`}<button class="icon-btn" type="button" data-search aria-label="Search chapters">${icon('search')}</button>`;
   return r;
+}
+
+/** A class or subject the admin has not opened for this member. */
+export async function locked(route) {
+  const a = access();
+  const { cls, subject } = await data.resolve(route.classId, route.streamId || undefined, route.subjectId || undefined).catch(() => ({}));
+  const what = subject?.name || (route.subjectId ? 'This subject' : cls?.name || 'This class');
+  const text = a.cls && String(route.classId) !== a.cls
+    ? `Your admin has set your class to Class ${a.cls}. Ask them if you need another class.`
+    : 'Your admin decides which subjects you see. Ask them on WhatsApp if you need this one opened.';
+  return { title: 'Not open for you', tab: 'subjects', back: '#/subjects',
+    html: html`<div class="empty">${raw(icon('lock'))}<h3 class="t-headline">${what} is not open for you yet</h3><p class="t-subhead mt-2">${text}</p><a class="btn btn--secondary mt-4" href="#/subjects">My subjects</a></div>` };
 }
 
 function fmt(iso) { const [y, m, d] = iso.split('-').map(Number); return new Date(y, m - 1, d).toLocaleDateString('en-IN', { day: 'numeric', month: 'short' }); }

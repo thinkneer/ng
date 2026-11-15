@@ -1,6 +1,7 @@
 import { html, raw, icon, largeTitle, esc, listItem, toast, haptic, openSheet } from '../ui.js';
 import { data } from '../data.js';
 import { store } from '../store.js';
+import { classLocked } from '../access.js';
 import { applyTheme } from '../theme.js';
 import { pwa } from '../pwa.js';
 import { signOut, session, isDbMode, maskedEmail, setNewPassword, signOutEverywhere } from '../auth.js';
@@ -52,7 +53,7 @@ async function settings() {
     title: 'Settings', tab: 'more', back: '#/more',
     html: html`<h1 class="t-title" style="margin:var(--s-4) 0">Settings</h1>
       <div class="list__header">Class</div>
-      <div class="list">${listItem({ href: '#/classes', title: s.class ? `Class ${s.class}${s.stream && s.stream !== 'general' ? ' · ' + cap(s.stream) : ''}` : 'Choose your class', sub: 'Sets your subjects and plan', leading: icon('layers'), leadingStyle: 'background:var(--accent-soft);color:var(--accent-text)' })}</div>
+      <div class="list">${listItem({ href: '#/classes', title: s.class ? `Class ${s.class}${s.stream && s.stream !== 'general' ? ' · ' + cap(s.stream) : ''}` : 'Choose your class', sub: classLocked() ? 'Set by your admin' : 'Sets your subjects and plan', leading: icon('layers'), leadingStyle: 'background:var(--accent-soft);color:var(--accent-text)' })}</div>
       ${subjects.length ? html`<div class="list__header">My subjects</div><div class="card" data-subjects>
         ${subjects.map((x) => raw(`<label class="check"><input type="checkbox" value="${x.id}" ${!s.subjects?.length || s.subjects.includes(x.id) ? 'checked' : ''}><span class="grow">${esc(x.name)}</span><span class="badge" style="--unit:#${x.colour};color:var(--unit);background:color-mix(in srgb,var(--unit) 12%,transparent)">${x.theory_marks}</span></label>`))}
         <p class="t-footnote t-3 mt-2">Untick a subject to drop it from Today, Practice and the plan. Keep at least one.</p></div>` : ''}

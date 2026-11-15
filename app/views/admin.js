@@ -1,5 +1,6 @@
 // Admin dashboard (#/admin): approve requests (always as students), pause / restore members.
-import { html, raw, icon, esc, toast, haptic, emptyState } from '../ui.js';
+import { html, raw, icon, esc, toast, haptic, emptyState, openSheet } from '../ui.js';
+import { data } from '../data.js';
 import { session, loadUsers, NICK_RE, isDbMode } from '../auth.js';
 import { db, errText } from '../db.js';
 import { token, updateUsers, testKey } from '../github.js';
@@ -128,16 +129,20 @@ export async function admin() {
    ====================================================================== */
 async function adminDb() {
   const c = await db();
-  const { data: rows, error } = await c.from('profiles').select('id, nickname, role, status, class, stream, created_at, approved_at').order('created_at', { ascending: false });
+  const { data: rows, error } = await c.from('profiles').select('id, nickname, role, status, class, stream, subjects, created_at, approved_at').order('created_at', { ascending: false });
   const people = rows || [];
   const order = { pending: 0, approved: 1, suspended: 2 };
   people.sort((a, b) => order[a.status] - order[b.status] || a.nickname.localeCompare(b.nickname));
   const me = session()?.uid;
+  const idx = await data.index();
+  const byId = new Map(people.map((p) => [p.id, p]));
+  const access = (u) => `${classLabel(idx, u.class, u.stream)} · ${subjectsLabel(idx, u)}`;
   const when = (d) => (d ? new Date(d).toLocaleDateString('en-IN', { day: 'numeric', month: 'short' }) : '');
   const row = (u) => `<div class="list__item has-leading list__item--stack" data-id="${esc(u.id)}" data-nick="${esc(u.nickname)}">
       <span class="list__leading" style="--unit:${u.status === 'approved' ? (u.role === 'student' ? 'var(--accent)' : '#6A3FA0') : '#8795AB'}">${esc(u.nickname.slice(0, 2).toUpperCase())}</span>
-      <span class="list__body"><span class="list__title">${esc(u.nickname)} ${u.role !== 'student' ? `<span class="badge badge--new">${esc(u.role)}</span>` : ''}${u.status === 'pending' ? ' <span class="badge badge--soon">awaiting</span>' : u.status === 'suspended' ? ' <span class="badge">paused</span>' : ''}</span><span class="list__sub">Class ${esc(u.class)} · ${u.status === 'approved' ? `since ${when(u.approved_at || u.created_at)}` : `asked ${when(u.created_at)}`}</span></span>
+      <span class="list__body"><span class="list__title">${esc(u.nickname)} ${u.role !== 'student' ? `<span class="badge badge--new">${esc(u.role)}</span>` : ''}${u.status === 'pending' ? ' <span class="badge badge--soon">awaiting</span>' : u.status === 'suspended' ? ' <span class="badge">paused</span>' : ''}</span><span class="list__sub">${esc(u.role === 'admin' ? classLabel(idx, u.class, u.stream) + ' · sees everything' : access(u))} · ${u.status === 'approved' ? `since ${when(u.approved_at || u.created_at)}` : `asked ${when(u.created_at)}`}</span></span>
       ${u.id === me ? '' : `<span class="list__controls">
+        ${u.role !== 'admin' ? `<button class="btn btn--sm btn--plain" type="button" data-access>${icon('lock')} Class &amp; subjects</button>` : ''}
         ${u.status === 'pending' ? `<button class="btn btn--sm" type="button" data-set='{"status":"approved","role":"student"}'>Approve as student</button><button class="btn btn--sm btn--secondary" type="button" data-set='{"status":"approved","role":"teacher"}'>Approve as teacher</button>`
           : u.status === 'suspended' ? `<button class="btn btn--sm" type="button" data-set='{"status":"approved"}'>Restore</button>`
           : `<button class="btn btn--sm btn--plain" type="button" data-set='{"status":"suspended"}'>Pause</button>${u.role === 'teacher' ? `<button class="btn btn--sm btn--plain" type="button" data-set='{"role":"student"}'>Make student</button>` : u.role === 'student' ? `<button class="btn btn--sm btn--plain" type="button" data-set='{"role":"teacher"}'>Make teacher</button>` : ''}`}
@@ -148,7 +153,7 @@ async function adminDb() {
     title: 'Admin', tab: 'more', back: '#/more',
     html: html`<h1 class="t-title" style="margin:var(--s-4) 0">Admin</h1>
       ${error ? raw(`<div class="notice notice--warn mb-4">${icon('alert')}<div>${esc(errText(error))}</div></div>`) : ''}
-      <div class="card mb-4"><div class="t-headline">${pending ? `${pending} awaiting approval` : 'No one waiting'}</div><p class="t-2 t-subhead mt-1">Members join with a nickname, email and password; you approve each one here as a student or a teacher. Teachers can run live quizzes and, later, exams. Changes apply the next time they open the app.</p></div>
+      <div class="card mb-4"><div class="t-headline">${pending ? `${pending} awaiting approval` : 'No one waiting'}</div><p class="t-2 t-subhead mt-1">Members join with a nickname, email and password; you approve each one here as a student or a teacher, and set the class and subjects they can open (<em>Class &amp; subjects</em>). Teachers can run live quizzes and, later, exams. Changes apply the next time they open the app.</p></div>
       <div class="list__header" style="padding-left:0">Members <span class="count">${people.filter((p) => p.status === 'approved').length} approved · ${people.filter((p) => p.role === 'teacher').length} teachers</span></div>
       ${people.length > 8 ? raw('<input type="search" id="m-search" placeholder="Find a nickname" aria-label="Find a nickname" class="mb-2">') : ''}
       <div class="list" id="members">${raw(people.map(row).join('') || '<div class="list__item t-2">No members yet</div>')}</div>
@@ -156,6 +161,8 @@ async function adminDb() {
     mount(el) {
       el.querySelector('#m-search')?.addEventListener('input', (e) => { const q = e.target.value.trim().toLowerCase(); for (const r of el.querySelectorAll('#members [data-nick]')) r.hidden = !!q && !r.dataset.nick.toLowerCase().includes(q); });
       el.querySelector('#members').addEventListener('click', async (e) => {
+        const ab = e.target.closest('[data-access]');
+        if (ab) { editAccess(c, idx, byId.get(ab.closest('[data-id]').dataset.id)); return; }
         const b = e.target.closest('[data-set]'); if (!b) return;
         const item = b.closest('[data-id]'); const patch = JSON.parse(b.dataset.set);
         if (patch.status === 'suspended' && !confirm(`Pause ${item.dataset.nick}? They are signed out on their next open and can’t use the app until you restore them.`)) return;
@@ -168,4 +175,74 @@ async function adminDb() {
       });
     },
   };
+}
+
+/* ---------- class & subject access (db mode) ---------- */
+const ANY = 'any';
+const streamsOf = (idx) => idx.classes.flatMap((c) => c.streams.map((st) => ({ c, st, key: `${c.id}|${st.id}`, label: st.id === 'general' ? c.name : `${c.name} ${st.name}` })));
+function classLabel(idx, cls, stream) {
+  if (cls === ANY) return 'Any class';
+  const hit = streamsOf(idx).find((x) => x.c.id === String(cls) && (x.st.id === stream || x.st.id === 'general'));
+  return hit ? hit.label : `Class ${cls}`;
+}
+function subjectsOfChoice(idx, cls, stream) {
+  if (cls === ANY) { const m = new Map(); for (const { st } of streamsOf(idx)) for (const s of st.subjects) if (!m.has(s.id)) m.set(s.id, s); return [...m.values()]; }
+  const hit = streamsOf(idx).find((x) => x.c.id === String(cls) && (x.st.id === stream || x.st.id === 'general'));
+  return hit ? hit.st.subjects : [];
+}
+function subjectsLabel(idx, u) {
+  const list = u.subjects || [];
+  if (!list.length) return 'all subjects';
+  const names = new Map(subjectsOfChoice(idx, u.class, u.stream).map((s) => [s.id, s.short || s.name]));
+  return list.map((id) => names.get(id) || id).join(', ');
+}
+
+/** Sheet: pick the member's class (or "any") and which subjects they may open. Saves to profiles. */
+export function editAccess(c, idx, u) {
+  if (!u) return;
+  const options = streamsOf(idx);
+  const cur = u.class === ANY ? ANY : (options.find((x) => x.c.id === String(u.class) && (x.st.id === u.stream || x.st.id === 'general'))?.key || options[0]?.key);
+  const panel = document.createElement('div');
+  panel.innerHTML = `
+    <label for="ac-class">Class</label>
+    <select id="ac-class">
+      ${options.map((o) => `<option value="${esc(o.key)}" ${o.key === cur ? 'selected' : ''}>${esc(o.label)}${o.st.status === 'live' ? '' : ' (coming soon)'}</option>`).join('')}
+      <option value="${ANY}" ${cur === ANY ? 'selected' : ''}>Any class: they choose (for teachers)</option>
+    </select>
+    <fieldset class="mt-4" style="border:0;padding:0;margin-inline:0">
+      <legend class="t-subhead" style="font-weight:600">Subjects they can open</legend>
+      <label class="check mt-2"><input type="radio" name="ac-mode" value="all"><span class="grow">All subjects of the class</span></label>
+      <label class="check"><input type="radio" name="ac-mode" value="some"><span class="grow">Only these:</span></label>
+      <div id="ac-subjects" style="padding-left:2.25rem"></div>
+    </fieldset>
+    <p class="t-footnote t-3 mt-4">Applies the next time ${esc(u.nickname)} opens the app. Subjects not opened here disappear from their Subjects, Today, Practice, Recall, Cards and search.</p>
+    <button class="btn btn--block mt-4" type="button" id="ac-save">Save</button>`;
+  const sel = panel.querySelector('#ac-class'), box = panel.querySelector('#ac-subjects');
+  const modeAll = panel.querySelector('[value="all"]'), modeSome = panel.querySelector('[value="some"]');
+  const chosen = new Set(u.subjects || []);
+  (chosen.size ? modeSome : modeAll).checked = true;
+  const draw = () => {
+    const [cls, stream] = sel.value === ANY ? [ANY, ANY] : sel.value.split('|');
+    const subs = subjectsOfChoice(idx, cls, stream);
+    box.innerHTML = subs.map((s) => `<label class="check"${modeAll.checked ? ' style="opacity:.5"' : ''}><input type="checkbox" value="${esc(s.id)}" ${chosen.has(s.id) ? 'checked' : ''} ${modeAll.checked ? 'disabled' : ''}><span class="grow">${esc(s.name)}</span>${s.status === 'live' ? '' : '<span class="badge badge--soon">soon</span>'}</label>`).join('') || '<p class="t-footnote t-2">No subjects listed for this class yet.</p>';
+  };
+  draw();
+  sel.addEventListener('change', draw);
+  panel.addEventListener('change', (e) => {
+    if (e.target.name === 'ac-mode') draw();
+    if (e.target.type === 'checkbox') { if (e.target.checked) chosen.add(e.target.value); else chosen.delete(e.target.value); }
+  });
+  const sheet = openSheet({ title: `${u.nickname}: class & subjects`, content: panel });
+  panel.querySelector('#ac-save').addEventListener('click', async (e) => {
+    const [cls, stream] = sel.value === ANY ? [ANY, ANY] : sel.value.split('|');
+    const valid = new Set(subjectsOfChoice(idx, cls, stream).map((s) => s.id));
+    const subjects = modeAll.checked ? [] : [...chosen].filter((id) => valid.has(id));
+    if (modeSome.checked && !subjects.length) { toast('Tick at least one subject, or choose All subjects'); haptic('medium'); return; }
+    e.target.disabled = true; e.target.textContent = 'Saving…';
+    const { error } = await c.from('profiles').update({ class: cls, stream, subjects }).eq('id', u.id);
+    if (error) { toast(errText(error), { duration: 6000 }); e.target.disabled = false; e.target.textContent = 'Save'; return; }
+    haptic('success'); sheet.close();
+    toast(`${u.nickname}: ${classLabel(idx, cls, stream)} · ${subjects.length ? subjects.length + ' subject' + (subjects.length > 1 ? 's' : '') : 'all subjects'}`);
+    setTimeout(() => location.reload(), 600);
+  });
 }

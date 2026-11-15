@@ -322,6 +322,7 @@ function checkBlocks(path, seen) {
   for (const b of blocks) {
     const where = `line ${b.line} ng-${b.type}${b.spec.id ? ` "${b.spec.id}"` : ''}`;
     for (const e of validateBlock(b, { src })) err(path, `${where}: ${e}`);
+    if (b.type === 'video' && !/notes\.md$/.test(path)) err(path, `${where}: videos go in notes.md (Read), where the idea is taught`);
     if (b.spec.id) { if (seen.has(b.spec.id)) err(path, `${where}: id also used at ${seen.get(b.spec.id)}`); else seen.set(b.spec.id, `${rel(path)} line ${b.line}`); }
   }
   // a fence that looks like a block but is misspelt
