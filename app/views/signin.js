@@ -292,14 +292,14 @@ export async function awaiting(route) {
       <div class="card auth__card center">
         <div class="auth__wait">${raw(icon('clock'))}</div>
         <h1 class="t-title2">${paused ? 'Account paused' : 'Access awaited'}</h1>
-        <p class="t-2 t-subhead mt-2">${paused ? `${p.nickname} is paused. Ask the admin to restore it.` : `You are signed in as <strong>${esc(p.nickname || 'a new member')}</strong>${email ? ` (${esc(email)})` : ''}. The admin approves every member by hand — send them a note and come back after.`}</p>
+        <p class="t-2 t-subhead mt-2">${raw(paused ? `${esc(p.nickname)} is paused. Ask the admin to restore it.` : `You are signed in as <strong>${esc(p.nickname || 'a new member')}</strong>${email ? ` (${esc(email)})` : ''}. The admin approves every member by hand — send them a note and come back after.`)}</p>
         <a class="btn btn--block mt-6 btn--wa" href="https://wa.me/?text=${encodeURIComponent(msg)}" target="_blank" rel="noopener">${raw(icon('message'))} Send on WhatsApp</a>
         <button class="btn btn--secondary btn--block mt-2" type="button" id="aw-check">${raw(icon('check'))} I’ve been approved — check again</button>
-        <div class="auth__foot"><button class="btn btn--ghost btn--sm" type="button" id="aw-out">Sign out</button></div>
+        <div class="auth__foot"><button class="btn btn--ghost btn--sm" type="button" id="aw-out">Sign out · use another account</button></div>
       </div>`),
     mount(el) {
       el.querySelector('#aw-check').addEventListener('click', () => { window.dispatchEvent(new Event('ng:auth')); if (location.hash === '#/today') window.dispatchEvent(new HashChangeEvent('hashchange')); else location.hash = '#/today'; });
-      el.querySelector('#aw-out').addEventListener('click', () => { signOut(); location.hash = '#/signin'; });
+      el.querySelector('#aw-out').addEventListener('click', async (e) => { e.currentTarget.disabled = true; e.currentTarget.textContent = 'Signing out…'; await signOut(); location.hash = '#/signin'; });
     },
   };
 }

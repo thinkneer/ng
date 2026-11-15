@@ -67,7 +67,12 @@ export async function signIn(nick, pass) {
   return s;
 }
 
-export function signOut() { if (session()?.db) dbSignOut(); else store.set('session', undefined); window.dispatchEvent(new Event('ng:auth')); }
+/** Sign out and wait until it is done (callers navigate after it). In db mode this also ends the Supabase session
+ *  of members who are not approved yet: they have no session mirror, so checking the mirror alone missed them. */
+export async function signOut() {
+  if (session()?.db || await dbEnabled()) await dbSignOut(); else store.set('session', undefined);
+  window.dispatchEvent(new Event('ng:auth'));
+}
 
 /** Build an access request. The passphrase is hashed here and never stored or sent. */
 export async function buildRequest({ nickname, pass, cls, stream, subjects }) {
@@ -179,4 +184,9 @@ export async function maskedEmail() {
   const [u, d] = e.split('@'); return u && d ? `${u[0]}•••@${d}` : '';
 }
 export async function signOutEverywhere() { try { const c = await db(); await c?.auth.signOut({ scope: 'global' }); } catch { /* ignore */ } store.set('session', undefined); window.dispatchEvent(new Event('ng:auth')); }
-export async function dbSignOut() { try { const c = await db(); await c?.auth.signOut(); } catch { /* ignore */ } store.set('session', undefined); }
+export async function dbSignOut() {
+  try { const c = await db(); await c?.auth.signOut({ scope: 'local' }); } catch { /* offline: cleared below anyway */ }
+  // make sure this device forgets the sign-in even if the call above failed (supabase-js keeps it under ng.sb*)
+  try { for (const k of Object.keys(localStorage)) if (k.startsWith('ng.sb')) localStorage.removeItem(k); } catch { /* ignore */ }
+  store.set('session', undefined);
+}

@@ -134,7 +134,7 @@ async function access() {
         <p class="t-2 t-subhead">${dbMode ? 'Forgot your password? Sign out, then use “Forgot password” on the sign-in page. To change your nickname or close your account, ask the admin.' : 'This is a static site: sign-in decides who uses the app, it is not a vault.'} Never put personal details in notes.</p>
       </div>`,
     mount(el) {
-      el.querySelector('[data-signout]')?.addEventListener('click', () => { signOut(); toast('Signed out'); location.hash = '#/signin'; });
+      el.querySelector('[data-signout]')?.addEventListener('click', async () => { await signOut(); toast('Signed out'); location.hash = '#/signin'; });
       el.querySelector('[data-signout-all]')?.addEventListener('click', async () => { await signOutEverywhere(); toast('Signed out everywhere'); location.hash = '#/signin'; });
       el.querySelector('[data-changepw]')?.addEventListener('click', () => {
         const sh = openSheet({ title: 'Change password', content: `<form id="cpw" novalidate>
