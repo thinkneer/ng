@@ -223,6 +223,13 @@ a.card:hover, button.card:hover { text-decoration: none; }
 /* ---------- Rendered notes (Markdown) ---------- */
 .prose { max-width: var(--measure); font-size: var(--fs-body); line-height: 1.6; overflow-wrap: anywhere; }
 .prose > * + * { margin-top: 0.85em; }
+/* Long notes: parts far off screen skip layout until they come near (the big cost on phones). The sizes are
+   only first guesses; `auto` keeps each real size once seen. Interactive blocks stay out (their pop-ups may overflow). */
+.prose--long > :not(.ngb) { content-visibility: auto; contain-intrinsic-size: auto 4.5em; }
+.prose--long > :is(h2, h3, h4) { contain-intrinsic-size: auto 2.5em; }
+.prose--long > :is(.box, figure, table, .table-wrap, ul, ol) { contain-intrinsic-size: auto 11em; }
+.rd[data-mode="pages"] .prose--long > *, .rd.is-boxes .prose--long > * { content-visibility: visible; }
+@media print { .prose--long > * { content-visibility: visible; } }
 .prose h2 { font-size: var(--fs-title3); font-weight: 700; margin-top: 1.8em; padding-top: 0.6em; border-top: 1px solid var(--separator); display: flex; align-items: center; gap: var(--s-2); scroll-margin-top: calc(var(--topbar-h) + var(--sat) + 3.5rem); }
 .prose h2:first-child { border-top: 0; margin-top: 0.5em; padding-top: 0; }
 .prose h2::before { content: ""; width: 0.5rem; height: 1.25rem; border-radius: 3px; background: var(--unit, var(--accent)); flex: 0 0 auto; }

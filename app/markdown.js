@@ -2,30 +2,42 @@ import { icon } from './icons.js';
 // Lazy-loaded Markdown + KaTeX (with mhchem) rendering with sanitising. Only chapter pages pay for this.
 // Libraries are vendored (see vendor/README.md) so the site works offline and never waits on a CDN.
 const V = new URL('../vendor/', import.meta.url).href;
-let libs = null;
+let textLibs = null, mathLibs = null;
 
-async function load() {
-  if (libs) return libs;
-  libs = (async () => {
+/** marked + DOMPurify: all the notes text needs to go on screen. */
+function loadText() {
+  textLibs ||= Promise.all([import(`${V}marked.esm.js`), import(`${V}purify.es.mjs`)]).then(([{ marked }, { default: DOMPurify }]) => {
+    marked.setOptions({ gfm: true, breaks: false });
+    return { marked, DOMPurify };
+  });
+  textLibs.catch(() => { textLibs = null; });
+  return textLibs;
+}
+/** KaTeX (+ auto-render, mhchem, its CSS). Loaded straight after the text unless the first section has maths.
+ *  mhchem imports katex.mjs itself, so all three load in parallel. */
+function loadMath() {
+  mathLibs ||= (async () => {
     if (!document.querySelector('link[data-katex]')) {
       const l = document.createElement('link');
       l.rel = 'stylesheet'; l.href = `${V}katex/katex.min.css`; l.dataset.katex = '1';
       document.head.appendChild(l);
     }
-    const [{ marked }, { default: DOMPurify }, katexMod, autoMod] = await Promise.all([
-      import(`${V}marked.esm.js`),
-      import(`${V}purify.es.mjs`),
+    const [katexMod, autoMod] = await Promise.all([
       import(`${V}katex/katex.mjs`),
       import(`${V}katex/contrib/auto-render.mjs`),
+      import(`${V}katex/contrib/mhchem.mjs`).catch((e) => console.warn('mhchem failed to load', e)),
     ]);
-    try { await import(`${V}katex/contrib/mhchem.mjs`); } catch (e) { console.warn('mhchem failed to load', e); }
-    marked.setOptions({ gfm: true, breaks: false });
-    return { marked, DOMPurify, katex: katexMod.default, renderMathInElement: autoMod.default };
+    return { katex: katexMod.default, renderMathInElement: autoMod.default };
   })();
-  libs.catch(() => { libs = null; });
-  return libs;
+  mathLibs.catch(() => { mathLibs = null; });
+  return mathLibs;
 }
+async function load() { const [t, m] = await Promise.all([loadText(), loadMath()]); return { ...t, ...m }; }
+const HAS_MATH = /\$|\\ce\{|\\\(|\\\[/;
 
+// Work is cut into slices of about this many ms so taps stay instant on slow phones.
+const SLICE = 8;
+const yieldNow = () => (globalThis.scheduler?.yield ? scheduler.yield() : new Promise((r) => setTimeout(r, 0)));
 const DIRECTIVES = { tip: 'Tip', formula: 'Key formula', skeleton: 'Answer skeleton' };
 
 /** Expand :::tip / :::formula / :::skeleton blocks into placeholder tokens, render inner Markdown separately. */
@@ -58,6 +70,18 @@ function splitDirectives(src) {
   return merged;
 }
 
+/** Cut a Markdown run before each `## ` heading (outside code fences), so each part is parsed on its own. */
+function splitAtH2(md) {
+  const out = []; let cur = [], fence = false;
+  for (const line of md.split('\n')) {
+    if (/^\s*(```|~~~)/.test(line)) fence = !fence;
+    if (!fence && /^## /.test(line) && cur.some((l) => l.trim())) { out.push(cur.join('\n')); cur = []; }
+    cur.push(line);
+  }
+  if (cur.length) out.push(cur.join('\n'));
+  return out;
+}
+
 function protectMath(src) {
   // Prevent marked from mangling underscores/asterisks inside math by escaping them temporarily.
   const stash = [];
@@ -70,7 +94,7 @@ function protectMath(src) {
 
 export async function renderMarkdown(src, { unitColour, eager = false, ctx = null } = {}) {
   let marked, DOMPurify;
-  try { ({ marked, DOMPurify } = await load()); } catch (e) {
+  try { ({ marked, DOMPurify } = await loadText()); } catch (e) {
     // Rendering libraries unavailable (first visit offline, blocked network): show the raw notes rather than nothing.
     const pre = document.createElement('div'); pre.className = 'prose';
     pre.innerHTML = '<div class="notice notice--warn">Formatting could not load; showing the plain notes.</div>';
@@ -78,25 +102,29 @@ export async function renderMarkdown(src, { unitColour, eager = false, ctx = nul
     return pre;
   }
   const parts = splitDirectives(src || '');
-  let out = ''; const blocks = [];
+  const blocks = [];
   const parseBody = parts.some((p) => p.ngb) ? (await import('./blocks/parse.js')).parseBody : null;
+  // Parse and sanitise piece by piece (Markdown runs are cut at each h2), yielding every SLICE ms so a long
+  // chapter never holds the page in one long task. Each sanitised piece is well-formed on its own, so
+  // joining them is as safe as sanitising the whole page at once.
+  const OPTS = { USE_PROFILES: { html: true, mathMl: true, svg: true }, ADD_ATTR: ['target', 'rel'] };
+  let clean = '', t0 = performance.now();
+  const add = async (piece) => { clean += DOMPurify.sanitize(piece, OPTS); if (performance.now() - t0 > SLICE) { await yieldNow(); t0 = performance.now(); } };
   for (const p of parts) {
     if (p.ngb) {
       const spec = parseBody(p.ngb, p.body).spec;
       blocks.push({ type: p.ngb, spec });
       // header + reserved height now, so nothing jumps when the block's module arrives
-      out += `<div class="ngb ngb--${p.ngb} hl-skip" data-ngb="${blocks.length - 1}"${spec.id ? ` id="ngb-${escapeHtml(spec.id)}"` : ''}>${blockHead(p.ngb, spec.title)}<div class="ngb__body ngb__body--wait"></div></div>`;
+      await add(`<div class="ngb ngb--${p.ngb} hl-skip" data-ngb="${blocks.length - 1}"${spec.id ? ` id="ngb-${escapeHtml(spec.id)}"` : ''}>${blockHead(p.ngb, spec.title)}<div class="ngb__body ngb__body--wait"></div></div>`);
     } else if (p.md !== undefined) {
-      const { s, restore } = protectMath(p.md);
-      out += restore(marked.parse(s));
+      for (const sec of splitAtH2(p.md)) { const { s, restore } = protectMath(sec); await add(restore(marked.parse(s))); }
     } else {
       const { s, restore } = protectMath(p.body);
       const inner = restore(marked.parse(s));
       const label = p.title || DIRECTIVES[p.box];
-      out += `<div class="box box--${p.box}"><div class="box__label">${escapeHtml(label)}</div>${inner}</div>`;
+      await add(`<div class="box box--${p.box}"><div class="box__label">${escapeHtml(label)}</div>${inner}</div>`);
     }
   }
-  const clean = DOMPurify.sanitize(out, { USE_PROFILES: { html: true, mathMl: true, svg: true }, ADD_ATTR: ['target', 'rel'] });
   const wrap = document.createElement('div');
   wrap.className = 'prose';
   if (unitColour) wrap.style.setProperty('--unit', `#${unitColour}`);
@@ -106,9 +134,23 @@ export async function renderMarkdown(src, { unitColour, eager = false, ctx = nul
   // Typeset in chunks (per section) after the text is on screen, yielding between chunks so the page stays responsive.
   const sections = chunkBySection(wrap);
   wrap._chunks = sections.length; wrap._done = new Set();
+  if (sections.length > 2) {
+    wrap.classList.add('prose--long');
+    // a part that comes on screen for the first time: check its formulas fit (they were skipped while off screen)
+    wrap.addEventListener('contentvisibilityautostatechange', (e) => { if (!e.skipped && e.target.parentElement === wrap) fitLater(wrap, [e.target]); }, true);
+  }
   const first = sections.shift();
-  if (first) typeset(first).then(() => { if (!sections.length) return; if (eager) queueTypeset(sections); else lazyTypeset(sections); });
+  const rest = () => { if (!sections.length) return; if (eager) queueTypeset(sections); else lazyTypeset(sections); };
   wrap._pending = sections;
+  if (first && first.nodes.some((n) => HAS_MATH.test(n.textContent))) {
+    // maths in the opening section: typeset it before it is shown, so raw $…$ never flashes
+    await typeset(first).catch(() => {});
+    rest();
+  } else if (first) {
+    // plain opening text goes on screen now; KaTeX arrives right after the first paint
+    wrap._first = first;
+    requestAnimationFrame(() => setTimeout(() => { if (first.done) return rest(); first.done = true; typeset(first).then(rest, () => {}); }, 0));
+  }
   return wrap;
 }
 
@@ -160,6 +202,7 @@ function lazyTypeset(chunks) {
 }
 /** Typeset everything still pending in a rendered element (used before paginating). */
 export async function typesetAll(root) {
+  if (root._first && !root._first.done) { root._first.done = true; await typeset(root._first); }
   const pending = root._pending || []; root._pending = [];
   for (const c of pending) if (!c.done) { c.done = true; await typeset(c); }
 }
@@ -170,35 +213,45 @@ function queueTypeset(chunks) {
 }
 
 // A formula wider than its column gets its own line and scrolls by itself; the page never scrolls sideways.
-function fitWide(root) {
-  for (const k of root.querySelectorAll('.katex')) {
+// All measuring first, then all wrapping: one layout instead of one per formula. `scope` = the nodes of one
+// section (after it is typeset) or the whole element (on resize).
+function fitWide(root, scope) {
+  const ks = [];
+  for (const n of scope || [root]) { if (n.classList?.contains('katex')) ks.push(n); ks.push(...n.querySelectorAll('.katex')); }
+  const wide = [];
+  for (const k of ks) {
     if (k.closest('.katex-display, .math-wide')) continue;
+    if (k.checkVisibility && !k.checkVisibility({ contentVisibilityAuto: true })) continue; // off screen: measured when it arrives
     const box = k.parentElement.closest('p, li, td, th, div, blockquote, figcaption') || k.parentElement;
     const br = box.getBoundingClientRect(), kr = k.getBoundingClientRect();
-    if (br.width > 0 && (kr.right > br.right + 1 || kr.width > br.width - 2)) {
-      const wrap = document.createElement('span'); wrap.className = 'math-wide'; wrap.tabIndex = 0; wrap.setAttribute('role', 'group'); wrap.setAttribute('aria-label', 'Formula, scroll sideways');
-      k.replaceWith(wrap); wrap.appendChild(k);
-    }
+    if (br.width > 0 && (kr.right > br.right + 1 || kr.width > br.width - 2)) wide.push(k);
+  }
+  for (const k of wide) {
+    const wrap = document.createElement('span'); wrap.className = 'math-wide'; wrap.tabIndex = 0; wrap.setAttribute('role', 'group'); wrap.setAttribute('aria-label', 'Formula, scroll sideways');
+    k.replaceWith(wrap); wrap.appendChild(k);
   }
 }
-function fitLater(el) { requestAnimationFrame(() => requestAnimationFrame(() => fitWide(el))); }
+function fitLater(el, scope) { requestAnimationFrame(() => fitWide(el, scope)); }
 let fitBound = false;
 function bindFit() {
   if (fitBound) return; fitBound = true;
-  let t; window.addEventListener('resize', () => { clearTimeout(t); t = setTimeout(() => document.querySelectorAll('.prose').forEach(fitWide), 150); });
+  let t; window.addEventListener('resize', () => { clearTimeout(t); t = setTimeout(() => document.querySelectorAll('.prose').forEach((p) => fitWide(p)), 150); });
 }
 export { fitWide };
 
 export async function typeset(el) {
   if (el && el.nodes) {
-    for (const n of el.nodes) await typeset(n);
+    // Later sections: yield every SLICE ms so typesetting never blocks a tap. The first section is typeset in
+    // one go so the reader never sees raw $…$.
+    let t0 = performance.now();
+    for (const n of el.nodes) { await typeset(n); if (el.index > 0 && performance.now() - t0 > SLICE) { await yieldNow(); t0 = performance.now(); } }
     // tell listeners (highlights) that this section's maths is final
-    el.root && fitLater(el.root); bindFit();
+    el.root && fitLater(el.root, el.nodes); bindFit();
     el.root?._done?.add(el.index);
     el.root?.dispatchEvent(new CustomEvent('ng:chunk', { detail: { chunk: el.index } }));
     return el;
   }
-  const { renderMathInElement } = await load();
+  const { renderMathInElement } = await loadMath();
   renderMathInElement(el, {
     delimiters: [
       { left: '$$', right: '$$', display: true },
@@ -223,17 +276,18 @@ function blockHead(type, title) {
   return `<div class="ngb__head"><span class="ngb__kind">${icon(ic)}${label}</span>${title ? `<h3 class="ngb__title">${escapeHtml(title)}</h3>` : ''}</div>`;
 }
 function escapeHtml(s) { return String(s).replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c])); }
-export function preloadMarkdown() { load().catch(() => {}); }
+/** Start fetching everything a notes page needs, in parallel, before the notes themselves arrive. */
+export function preloadMarkdown() { loadText().catch(() => {}); import('./blocks/parse.js').catch(() => {}); import('./blocks/expr.js').catch(() => {}); import('./highlights.js').catch(() => {}); }
 export { load as loadLibs };
 
 /** Sanitise an author SVG drawing (cards, blocks). Returns safe markup ('' if nothing usable). */
 export async function cleanSvg(svg) {
-  const { DOMPurify } = await load();
+  const { DOMPurify } = await loadText();
   return DOMPurify.sanitize(String(svg || ''), { USE_PROFILES: { svg: true, svgFilters: true }, ADD_ATTR: ['data-step', 'class', 'role', 'aria-label', 'font-size', 'text-anchor', 'dominant-baseline'] });
 }
 /** KaTeX string → HTML (display or inline); falls back to the source text. */
 export async function texHTML(tex, display = true) {
-  const { katex } = await load();
+  const { katex } = await loadMath();
   try { return katex.renderToString(String(tex), { displayMode: display, throwOnError: false, output: 'htmlAndMathml', strict: 'ignore', trust: false }); } catch { return escapeHtml(tex); }
 }
 /** Short Markdown + maths (cards, blocks): parsed, sanitised and typeset at once. Returns a .prose element. */

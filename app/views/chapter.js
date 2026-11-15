@@ -74,10 +74,9 @@ async function renderTab(tab, ctx) {
       panel.innerHTML = String(emptyState({ icon: tab === 'notes' ? 'book' : 'bolt', title: tab === 'notes' ? 'The full explanation for this chapter is being written' : 'Must-know lines for this chapter are coming', text: tab === 'notes' ? 'Read is the chapter explained like a tutor would; it is added chapter by chapter.' : 'Short lines and boxed formulas you can turn into flashcards.', action: other }));
       return;
     }
+    const hlP = import('../highlights.js'); // in parallel: the notes go on screen without waiting for it
     const { renderMarkdown, headings } = await import('../markdown.js');
     const node = await renderMarkdown(src, { unitColour: unit.colour, ctx: { key, base: ctx.base, layer: tab } });
-    const { attach } = await import('../highlights.js');
-    attach(node, `${sub.id}/${ch.id}/${tab}`);
     if (tab === 'mustknow') {
       const { cardsFrom, summary } = await import('../recall.js');
       const n = cardsFrom(src, { subject: sub.id, chapter: ch.id }).length;
@@ -94,13 +93,17 @@ async function renderTab(tab, ctx) {
         const open = !!store.get('breath.open', false);
         const det = document.createElement('details'); det.className = 'breath'; det.open = open;
         det.innerHTML = `<summary><span class="breath__title">${icon('bolt')} 2-minute version</span><span class="t-footnote t-2">${breath.count} sections · tap to ${open ? 'hide' : 'show'}</span></summary>`;
-        const b = await renderMarkdown(breath.md, { unitColour: unit.colour, eager: true }); b.classList.add('breath__body'); det.appendChild(b);
-        attach(b, `${sub.id}/${ch.id}/breath`);
-        det.addEventListener('toggle', () => { store.set('breath.open', det.open); det.querySelector('summary .t-footnote').textContent = `${breath.count} sections · tap to ${det.open ? 'hide' : 'show'}`; });
+        // Rendered the first time it is opened (most visits leave it shut, so the page doesn't pay for it).
+        let built = null;
+        const build = () => (built ||= renderMarkdown(breath.md, { unitColour: unit.colour, eager: true }).then((b) => { b.classList.add('breath__body'); det.appendChild(b); hlP.then((m) => m.attach(b, `${sub.id}/${ch.id}/breath`)); }));
+        if (open) await build();
+        det.addEventListener('toggle', () => { if (det.open) build(); store.set('breath.open', det.open); det.querySelector('summary .t-footnote').textContent = `${breath.count} sections · tap to ${det.open ? 'hide' : 'show'}`; });
         panel.appendChild(det);
       }
       panel.appendChild(node);
     }
+    const { attach } = await hlP;
+    attach(node, `${sub.id}/${ch.id}/${tab}`);
     const hs = headings(node);
     if (hs.length && rail) {
       rail.innerHTML = `<h4>On this page</h4>${hs.map((h) => `<a href="#${h.id}" data-anchor>${esc(h.text)}</a>`).join('')}`;
