@@ -2185,12 +2185,12 @@
                       },
                       "marks_hint": "Unit VII Genetics and Evolution = 20 marks (shared by Ch 4–6, CBSE 2026–27)",
                       "summary": "Mendel's laws · monohybrid and dihybrid crosses · incomplete dominance, co-dominance, multiple alleles · linkage · polygenic inheritance and pleiotropy · sex determination · pedigrees · genetic disorders",
-                      "questions": 10,
+                      "questions": 14,
                       "question_types": {
-                        "mcq": 3,
+                        "mcq": 5,
                         "ar": 2,
                         "vsa2": 2,
-                        "sa3": 1,
+                        "sa3": 3,
                         "case": 1,
                         "la5": 1
                       },
@@ -2223,12 +2223,12 @@
                       },
                       "marks_hint": "Unit VII Genetics and Evolution = 20 marks (shared by Ch 4–6, CBSE 2026–27)",
                       "summary": "DNA structure and packaging · search for genetic material · replication · transcription · genetic code · translation · lac operon · Human Genome Project · DNA fingerprinting",
-                      "questions": 10,
+                      "questions": 15,
                       "question_types": {
-                        "mcq": 3,
+                        "mcq": 5,
                         "ar": 2,
                         "vsa2": 2,
-                        "sa3": 1,
+                        "sa3": 4,
                         "case": 1,
                         "la5": 1
                       },
@@ -2261,12 +2261,12 @@
                       },
                       "marks_hint": "Unit VII Genetics and Evolution = 20 marks (shared by Ch 4–6, CBSE 2026–27)",
                       "summary": "Origin of life · evidences of evolution · adaptive radiation · Darwin and natural selection · Hardy–Weinberg principle · types of selection · human evolution",
-                      "questions": 10,
+                      "questions": 13,
                       "question_types": {
-                        "mcq": 3,
+                        "mcq": 4,
                         "ar": 2,
                         "vsa2": 2,
-                        "sa3": 1,
+                        "sa3": 3,
                         "case": 1,
                         "la5": 1
                       },

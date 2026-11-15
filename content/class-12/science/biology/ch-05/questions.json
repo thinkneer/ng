@@ -1,101 +1,369 @@
 [
   {
-    "id": "bio-05-q01", "chapter": "ch-05", "type": "mcq", "marks": 1, "stars": 2, "label": "PYQ-style", "topic": "Chargaff's rule",
+    "id": "bio-05-q01",
+    "chapter": "ch-05",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ-style",
+    "topic": "Chargaff's rule",
     "stem": "A double-stranded DNA sample has 30% adenine. What percentage of cytosine does it have?",
-    "options": ["30%", "20%", "40%", "70%"],
+    "options": [
+      "30%",
+      "20%",
+      "40%",
+      "70%"
+    ],
     "answer": "B",
     "hint": "A = T; G = C; total 100.",
     "model_answer": "**(b) 20%.** A + T = 60%, so G + C = 40%, C = 20%."
   },
   {
-    "id": "bio-05-q02", "chapter": "ch-05", "type": "mcq", "marks": 1, "stars": 2, "label": "PYQ-style", "topic": "RNA polymerases",
+    "id": "bio-05-q02",
+    "chapter": "ch-05",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ-style",
+    "topic": "RNA polymerases",
     "stem": "In eukaryotes, the precursor of mRNA (hnRNA) is transcribed by:",
-    "options": ["RNA polymerase I", "RNA polymerase II", "RNA polymerase III", "DNA polymerase"],
+    "options": [
+      "RNA polymerase I",
+      "RNA polymerase II",
+      "RNA polymerase III",
+      "DNA polymerase"
+    ],
     "answer": "B",
     "hint": "I = rRNA, III = tRNA.",
     "model_answer": "**(b) RNA polymerase II.**"
   },
   {
-    "id": "bio-05-q03", "chapter": "ch-05", "type": "mcq", "marks": 1, "stars": 2, "label": "PYQ-style", "topic": "DNA length",
+    "id": "bio-05-q03",
+    "chapter": "ch-05",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ-style",
+    "topic": "DNA length",
     "stem": "A DNA molecule has 1 × 10⁶ base pairs. Its length is about:",
-    "options": ["0.34 mm", "3.4 mm", "0.034 mm", "34 mm"],
+    "options": [
+      "0.34 mm",
+      "3.4 mm",
+      "0.034 mm",
+      "34 mm"
+    ],
     "answer": "A",
     "hint": "Each base pair adds 0.34 nm.",
     "model_answer": "**(a).** 10⁶ × 0.34 × 10⁻⁹ m = 3.4 × 10⁻⁴ m = 0.34 mm."
   },
   {
-    "id": "bio-05-q04", "chapter": "ch-05", "type": "ar", "marks": 1, "stars": 3, "label": "PYQ-style", "topic": "Replication",
+    "id": "bio-05-q04",
+    "chapter": "ch-05",
+    "type": "ar",
+    "marks": 1,
+    "stars": 3,
+    "label": "PYQ-style",
+    "topic": "Replication",
     "stem": "**Assertion (A):** On one template strand, DNA is synthesised discontinuously.<br>**Reason (R):** DNA polymerase can polymerise nucleotides only in the 5′→3′ direction.",
-    "options": ["Both A and R are true, and R is the correct explanation of A.", "Both A and R are true, but R is not the correct explanation of A.", "A is true, but R is false.", "A is false, but R is true."],
+    "options": [
+      "Both A and R are true, and R is the correct explanation of A.",
+      "Both A and R are true, but R is not the correct explanation of A.",
+      "A is true, but R is false.",
+      "A is false, but R is true."
+    ],
     "answer": "A",
     "hint": "The fork opens in one direction only.",
     "model_answer": "**(a).** Because synthesis is only 5′→3′, the strand on the 5′→3′ template must be made in fragments joined by ligase."
   },
   {
-    "id": "bio-05-q05", "chapter": "ch-05", "type": "ar", "marks": 1, "stars": 2, "label": "PYQ-style", "topic": "Genetic material",
+    "id": "bio-05-q05",
+    "chapter": "ch-05",
+    "type": "ar",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ-style",
+    "topic": "Genetic material",
     "stem": "**Assertion (A):** RNA is less stable than DNA.<br>**Reason (R):** RNA has thymine in place of uracil.",
-    "options": ["Both A and R are true, and R is the correct explanation of A.", "Both A and R are true, but R is not the correct explanation of A.", "A is true, but R is false.", "A is false, but R is true."],
+    "options": [
+      "Both A and R are true, and R is the correct explanation of A.",
+      "Both A and R are true, but R is not the correct explanation of A.",
+      "A is true, but R is false.",
+      "A is false, but R is true."
+    ],
     "answer": "C",
     "hint": "Which base is in RNA?",
     "model_answer": "**(c).** A is true (2′-OH makes RNA reactive); R is false: RNA has uracil; DNA has thymine."
   },
   {
-    "id": "bio-05-q06", "chapter": "ch-05", "type": "vsa2", "marks": 2, "stars": 3, "label": "PYQ-style", "topic": "Transcription unit",
+    "id": "bio-05-q06",
+    "chapter": "ch-05",
+    "type": "vsa2",
+    "marks": 2,
+    "stars": 3,
+    "label": "PYQ-style",
+    "topic": "Transcription unit",
     "stem": "Draw or describe a transcription unit and identify the template and coding strands with their polarity.",
     "hint": "Promoter upstream, terminator downstream.",
     "model_answer": "A transcription unit has a promoter (upstream, towards the 5′ end of the coding strand), the structural gene and a terminator (downstream, 3′ end). The template strand runs 3′→5′ and is copied; the coding strand runs 5′→3′ and has the same sequence as the RNA, with thymine instead of uracil.",
     "scheme": [
-      { "step": "Promoter, structural gene, terminator in correct positions", "marks": 1 },
-      { "step": "Template 3′→5′; coding 5′→3′ with RNA sequence", "marks": 1 }
+      {
+        "step": "Promoter, structural gene, terminator in correct positions",
+        "marks": 1
+      },
+      {
+        "step": "Template 3′→5′; coding 5′→3′ with RNA sequence",
+        "marks": 1
+      }
     ]
   },
   {
-    "id": "bio-05-q07", "chapter": "ch-05", "type": "vsa2", "marks": 2, "stars": 2, "label": "PYQ-style", "topic": "RNA processing",
+    "id": "bio-05-q07",
+    "chapter": "ch-05",
+    "type": "vsa2",
+    "marks": 2,
+    "stars": 2,
+    "label": "PYQ-style",
+    "topic": "RNA processing",
     "stem": "Name and explain the processes by which hnRNA becomes mature mRNA in eukaryotes.",
     "hint": "Three processes.",
     "model_answer": "Splicing: introns are removed and exons joined. Capping: methyl guanosine triphosphate is added at the 5′ end. Tailing: 200–300 adenylate residues (poly-A tail) are added at the 3′ end.",
     "scheme": [
-      { "step": "Splicing explained", "marks": 1 },
-      { "step": "Capping and tailing explained (½ each)", "marks": 1 }
+      {
+        "step": "Splicing explained",
+        "marks": 1
+      },
+      {
+        "step": "Capping and tailing explained (½ each)",
+        "marks": 1
+      }
     ]
   },
   {
-    "id": "bio-05-q08", "chapter": "ch-05", "type": "sa3", "marks": 3, "stars": 3, "label": "PYQ-style", "topic": "Hershey–Chase",
+    "id": "bio-05-q08",
+    "chapter": "ch-05",
+    "type": "sa3",
+    "marks": 3,
+    "stars": 3,
+    "label": "PYQ-style",
+    "topic": "Hershey–Chase",
     "stem": "Describe the Hershey–Chase experiment and the conclusion drawn from it.",
     "hint": "Two isotopes, two batches of phages.",
     "model_answer": "Bacteriophages were grown on medium with ³²P (labels DNA) or ³⁵S (labels protein). Each batch infected E. coli; blending removed phage coats and centrifugation separated bacteria from viral particles. Bacteria infected with ³²P phages were radioactive; those with ³⁵S phages were not (radioactivity stayed in the supernatant). So DNA, not protein, enters bacteria and is the genetic material.",
     "scheme": [
-      { "step": "Phages labelled with ³²P (DNA) and ³⁵S (protein)", "marks": 1 },
-      { "step": "Infection, blending, centrifugation; ³²P in bacteria, ³⁵S not", "marks": 1 },
-      { "step": "Conclusion: DNA is the genetic material", "marks": 1 }
+      {
+        "step": "Phages labelled with ³²P (DNA) and ³⁵S (protein)",
+        "marks": 1
+      },
+      {
+        "step": "Infection, blending, centrifugation; ³²P in bacteria, ³⁵S not",
+        "marks": 1
+      },
+      {
+        "step": "Conclusion: DNA is the genetic material",
+        "marks": 1
+      }
     ]
   },
   {
-    "id": "bio-05-q09", "chapter": "ch-05", "type": "case", "marks": 4, "stars": 3, "label": "PYQ-style", "topic": "DNA fingerprinting",
+    "id": "bio-05-q09",
+    "chapter": "ch-05",
+    "type": "case",
+    "marks": 4,
+    "stars": 3,
+    "label": "PYQ-style",
+    "topic": "DNA fingerprinting",
     "stem": "*At a crime scene, a small blood stain was found. Investigators isolated its DNA and compared it with DNA from three suspects using a technique based on repetitive DNA. One suspect's band pattern matched the stain exactly.*",
     "parts": [
-      { "id": "A", "marks": 1, "stem": "Name the technique and its developer.",
+      {
+        "id": "A",
+        "marks": 1,
+        "stem": "Name the technique and its developer.",
         "model_answer": "DNA fingerprinting, developed by Alec Jeffreys.",
-        "scheme": [ { "step": "DNA fingerprinting; Alec Jeffreys", "marks": 1 } ] },
-      { "id": "B", "marks": 1, "stem": "What property of satellite DNA makes it useful here?",
+        "scheme": [
+          {
+            "step": "DNA fingerprinting; Alec Jeffreys",
+            "marks": 1
+          }
+        ]
+      },
+      {
+        "id": "B",
+        "marks": 1,
+        "stem": "What property of satellite DNA makes it useful here?",
         "model_answer": "High polymorphism: repeat numbers (VNTRs) differ from person to person and are inherited.",
-        "scheme": [ { "step": "Polymorphism of VNTRs between individuals", "marks": 1 } ] },
-      { "id": "C", "marks": 2, "stem": "List the steps of the technique in order.",
+        "scheme": [
+          {
+            "step": "Polymorphism of VNTRs between individuals",
+            "marks": 1
+          }
+        ]
+      },
+      {
+        "id": "C",
+        "marks": 2,
+        "stem": "List the steps of the technique in order.",
         "model_answer": "Isolate DNA → digest with restriction endonucleases → separate fragments by gel electrophoresis → transfer to nitrocellulose/nylon membrane (Southern blotting) → hybridise with labelled VNTR probe → detect by autoradiography.",
-        "scheme": [ { "step": "Isolation, digestion, electrophoresis", "marks": 1 }, { "step": "Southern blotting, VNTR hybridisation, autoradiography", "marks": 1 } ] }
+        "scheme": [
+          {
+            "step": "Isolation, digestion, electrophoresis",
+            "marks": 1
+          },
+          {
+            "step": "Southern blotting, VNTR hybridisation, autoradiography",
+            "marks": 1
+          }
+        ]
+      }
     ]
   },
   {
-    "id": "bio-05-q10", "chapter": "ch-05", "type": "la5", "marks": 5, "stars": 3, "label": "PYQ-style", "topic": "Lac operon",
+    "id": "bio-05-q10",
+    "chapter": "ch-05",
+    "type": "la5",
+    "marks": 5,
+    "stars": 3,
+    "label": "PYQ-style",
+    "topic": "Lac operon",
     "stem": "Explain the lac operon of E. coli with a labelled diagram, describing its state in the absence and presence of lactose. Why is it called negative regulation?",
     "hint": "i, p, o, z, y, a; repressor; inducer.",
     "model_answer": "Components: regulator gene i (codes repressor), promoter p, operator o, structural genes z (β-galactosidase), y (permease), a (transacetylase). Without lactose the repressor binds the operator and blocks RNA polymerase, so z, y, a are not transcribed. With lactose, the inducer binds the repressor and inactivates it; the repressor leaves the operator, RNA polymerase transcribes the structural genes, and the enzymes for lactose use are made. It is negative regulation because the operon is switched off by the repressor and switched on by removing it.",
     "scheme": [
-      { "step": "Labelled diagram (i, p, o, z, y, a)", "marks": 1 },
-      { "step": "Enzymes of z, y, a", "marks": 1 },
-      { "step": "Absence of lactose: repressor on operator, no transcription", "marks": 1 },
-      { "step": "Presence: lactose inactivates repressor, transcription occurs", "marks": 1 },
-      { "step": "Negative regulation explained", "marks": 1 }
+      {
+        "step": "Labelled diagram (i, p, o, z, y, a)",
+        "marks": 1
+      },
+      {
+        "step": "Enzymes of z, y, a",
+        "marks": 1
+      },
+      {
+        "step": "Absence of lactose: repressor on operator, no transcription",
+        "marks": 1
+      },
+      {
+        "step": "Presence: lactose inactivates repressor, transcription occurs",
+        "marks": 1
+      },
+      {
+        "step": "Negative regulation explained",
+        "marks": 1
+      }
     ]
+  },
+  {
+    "id": "bio-05-q11",
+    "chapter": "ch-05",
+    "type": "sa3",
+    "marks": 3,
+    "stars": 3,
+    "label": "PYQ-style",
+    "topic": "Meselson–Stahl experiment",
+    "stem": "Describe the experiment of Meselson and Stahl that proved DNA replicates semiconservatively. What kinds of DNA would be found after 60 minutes (three generations) in the ¹⁴N medium?",
+    "hint": "Heavy (¹⁵N) DNA, then ¹⁴N medium, then a CsCl density gradient. Each generation takes 20 minutes.",
+    "model_answer": "*How much to write: 8–10 lines · 6 minutes*\n\n1. *E. coli* was grown for many generations in a medium with <u>¹⁵NH₄Cl</u> as the only nitrogen source, so all its DNA became <u>heavy (¹⁵N/¹⁵N)</u>.\n2. The cells were moved to a medium with <u>¹⁴NH₄Cl</u>, and DNA was extracted after each generation (about 20 minutes).\n3. DNA was separated by <u>centrifugation in a caesium chloride (CsCl) density gradient</u>; heavy, hybrid and light DNA form bands at different positions.\n\n**Results:**\n- after 20 minutes: all DNA <mark>hybrid (¹⁵N/¹⁴N)</mark>, one intermediate band;\n- after 40 minutes: <u>equal amounts of hybrid and light</u> DNA.\n\nSo each daughter molecule keeps <mark>one old strand and one new strand</mark>: replication is semiconservative.\n\n**After 60 minutes (3 generations):** 8 molecules, of which <mark>2 hybrid (¼) and 6 light (¾)</mark>.\n\n:::tip Your answer must contain\n- ¹⁵N medium, then ¹⁴N medium\n- <u>CsCl density gradient</u> centrifugation\n- results at 20 and 40 min and the conclusion\n- 60 min: <mark>¼ hybrid, ¾ light</mark>\n:::\n\n**Marks are lost for:** leaving out the CsCl gradient; saying \"half heavy\" after 20 minutes; getting the 60-minute fractions wrong.",
+    "scheme": [
+      {
+        "step": "¹⁵N then ¹⁴N medium; CsCl density gradient",
+        "marks": 1
+      },
+      {
+        "step": "Results at 20 and 40 min → semiconservative",
+        "marks": 1
+      },
+      {
+        "step": "60 min: 1/4 hybrid, 3/4 light",
+        "marks": 1
+      }
+    ]
+  },
+  {
+    "id": "bio-05-q12",
+    "chapter": "ch-05",
+    "type": "sa3",
+    "marks": 3,
+    "stars": 3,
+    "label": "PYQ-style",
+    "topic": "Genetic code",
+    "stem": "List any six salient features of the genetic code.",
+    "hint": "Think: how many bases per codon, how many codons code for amino acids, stop codons, AUG, and whether the code differs between organisms.",
+    "model_answer": "*How much to write: 6 numbered points · 5 minutes*\n\n1. The codon is a <u>triplet</u>: 64 codons in all; <mark>61 code for amino acids</mark> and <u>3 (UAA, UAG, UGA) are stop codons</u>.\n2. The code is <u>unambiguous and specific</u>: one codon codes for only one amino acid.\n3. The code is <u>degenerate</u>: some amino acids are coded by more than one codon.\n4. The code is read in mRNA in a <u>contiguous fashion</u>; there are no punctuations (commaless).\n5. The code is <u>nearly universal</u>: e.g. UUU codes for phenylalanine from bacteria to humans (a few exceptions in mitochondria and some protozoans).\n6. <mark>AUG has dual functions</mark>: it codes for methionine and acts as the <u>initiator codon</u>.\n\n:::tip Your answer must contain\n- the words <u>triplet</u>, <u>unambiguous</u>, <u>degenerate</u>, <u>commaless</u>, <u>universal</u>\n- <mark>61 sense + 3 stop codons</mark>\n- <mark>AUG = methionine + start</mark>\n:::\n\n**Marks are lost for:** confusing \"degenerate\" (many codons, one amino acid) with \"ambiguous\"; listing fewer than six features.",
+    "scheme": [
+      {
+        "step": "Any two features",
+        "marks": 1
+      },
+      {
+        "step": "Any two more features",
+        "marks": 1
+      },
+      {
+        "step": "Any two more features",
+        "marks": 1
+      }
+    ]
+  },
+  {
+    "id": "bio-05-q13",
+    "chapter": "ch-05",
+    "type": "sa3",
+    "marks": 3,
+    "stars": 2,
+    "label": "PYQ-style",
+    "topic": "Nucleosome",
+    "stem": "How is DNA packaged in a eukaryotic nucleus? Draw a labelled diagram of nucleosomes and distinguish between euchromatin and heterochromatin.",
+    "hint": "Positive histones, negative DNA. Eight histones make one bead.",
+    "model_answer": "*How much to write: 6–8 lines + a labelled sketch · 6 minutes*\n\n- <u>Histones</u> are proteins rich in the basic amino acids <u>lysine and arginine</u>, so they are <mark>positively charged</mark>.\n- Eight histones form a <u>histone octamer</u>. Negatively charged DNA wraps around it to form a <mark>nucleosome</mark> of about <u>200 bp</u> of DNA.\n- Nucleosomes repeat to form <u>chromatin</u>, seen as \"<u>beads-on-string</u>\" under the electron microscope. It is further coiled and condensed into chromosomes at metaphase, helped by <u>non-histone chromosomal (NHC) proteins</u>.\n\n<figure class=\"fig\">\n<svg viewBox=\"0 0 320 132\" role=\"img\" aria-label=\"Nucleosomes: DNA wrapped around histone octamers, joined by linker DNA\" fill=\"none\" stroke=\"currentColor\">\n<path stroke-width=\"1.6\" d=\"M6,74H43M97,74H133M187,74H223M277,74H314\"/>\n<g class=\"uf\" fill-opacity=\"0.25\" stroke=\"none\"><circle cx=\"70\" cy=\"62\" r=\"22\"/><circle cx=\"160\" cy=\"62\" r=\"22\"/><circle cx=\"250\" cy=\"62\" r=\"22\"/></g>\n<g class=\"u\" stroke-width=\"2.2\"><ellipse cx=\"70\" cy=\"62\" rx=\"27\" ry=\"25\"/><ellipse cx=\"160\" cy=\"62\" rx=\"27\" ry=\"25\"/><ellipse cx=\"250\" cy=\"62\" rx=\"27\" ry=\"25\"/></g>\n<g fill=\"#E0B400\" stroke=\"none\"><circle cx=\"70\" cy=\"91\" r=\"5\"/><circle cx=\"160\" cy=\"91\" r=\"5\"/><circle cx=\"250\" cy=\"91\" r=\"5\"/></g>\n<g fill=\"currentColor\" stroke=\"none\" font-size=\"10\"><text x=\"30\" y=\"24\">Histone octamer</text><text x=\"210\" y=\"24\">DNA (≈ 200 bp)</text><text x=\"101\" y=\"60\">Linker</text><text x=\"106\" y=\"70\">DNA</text><text x=\"168\" y=\"110\">H1 histone</text><text x=\"80\" y=\"128\">Beads-on-string chromatin</text></g>\n</svg>\n<figcaption>Nucleosomes: DNA wrapped round histone octamers, joined by linker DNA; H1 seals each bead.</figcaption>\n</figure>\n\n| Euchromatin | Heterochromatin |\n|---|---|\n| loosely packed, stains light | densely packed, stains dark |\n| <mark>transcriptionally active</mark> | inactive |\n\n:::tip Your answer must contain\n- histones positively charged (lysine, arginine); DNA negative\n- <mark>octamer + ≈ 200 bp DNA = nucleosome</mark>; beads-on-string\n- labelled sketch: octamer, DNA, linker DNA, H1\n- euchromatin <u>active, loose</u> vs heterochromatin <u>inactive, dense</u>\n:::\n\n**Marks are lost for:** calling histones acidic; drawing no linker DNA; reversing the activity of eu- and heterochromatin.",
+    "scheme": [
+      {
+        "step": "Histone octamer + DNA → nucleosome, beads-on-string, NHC",
+        "marks": 1
+      },
+      {
+        "step": "Labelled diagram",
+        "marks": 1
+      },
+      {
+        "step": "Euchromatin vs heterochromatin",
+        "marks": 1
+      }
+    ]
+  },
+  {
+    "id": "bio-05-q14",
+    "chapter": "ch-05",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ-style",
+    "topic": "Genetic code",
+    "stem": "The codon AUG:",
+    "options": [
+      "is a stop codon",
+      "codes for no amino acid",
+      "codes for methionine and acts as the initiator codon",
+      "codes for phenylalanine"
+    ],
+    "answer": "C",
+    "hint": "It has two jobs.",
+    "model_answer": "**(c).** AUG codes for methionine and is also the start (initiator) codon."
+  },
+  {
+    "id": "bio-05-q15",
+    "chapter": "ch-05",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 3,
+    "label": "PYQ-style",
+    "topic": "Lac operon",
+    "stem": "In the lac operon of *E. coli*, the inducer is:",
+    "options": [
+      "glucose",
+      "the repressor protein",
+      "lactose",
+      "β-galactosidase"
+    ],
+    "answer": "C",
+    "hint": "It switches the operon on by inactivating the repressor.",
+    "model_answer": "**(c) Lactose.** It binds the repressor and inactivates it, so z, y and a are transcribed."
   }
 ]

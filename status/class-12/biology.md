@@ -42,6 +42,9 @@ Paper: **Thu 25 Mar 2027** (date sheet of 6 Nov 2026). Biology-only days 10–24
   - Ch 13: species–area `ng-figure` + `ng-draw`; `ng-graph` log S vs log A with C and Z sliders (presets Z = 0.15 / 0.9 / 1.15); `ng-numerical` k-fold area → $k^Z$ species; fills (levels, latitudinal birds, Evil Quartet), compares (in situ/ex situ, three reasons to conserve); rivet-popper steps; 5 mnemonics.
   - Totals: 143 cards; 223 blocks: 30 `ng-figure` (8 newly drawn: fertile window, monohybrid cross, transcription unit, Miller apparatus, biogas plant, EcoRI sticky ends, bioreactor, insulin; the other 22 converted from the earlier inline figures), 26 `ng-draw`, 40 `ng-steps`, 54 `ng-mnemonic`, 35 `ng-compare`, 24 `ng-fill`, 11 `ng-numerical`, 3 `ng-graph`. No `ng-derive` (Biology has no 5-mark derivations). Checked in headless Chrome: every block reaches "ready" (none fails) and every chapter deck opens.
 
+- **Exam bank to 4 fresh papers (15 Nov 2026).** Answer-script model answers (CLAUDE.md §5), each written one with a hint; diagram questions carry a labelled SVG.
+  - Batch A (Unit VII): +7 sa3 (snapdragon cross, colour-blind cross, Meselson–Stahl, genetic code, nucleosome with SVG, natural selection, selection graphs) and +5 MCQ. Bank check after it: 2 fresh paper(s); next: 3-mark +16 · 5-mark +11 · MCQ +4 · 2-mark +2.
+
 ## Corrections
 - Ch 1 pollen-grain germ-pore leader moved to an actual gap in the exine.
 - Ch 1–3 interactive commit landed on main with the message "biology: rebuild index" (a rebase hiccup); content is correct.

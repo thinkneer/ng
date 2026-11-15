@@ -1,101 +1,324 @@
 [
   {
-    "id": "bio-06-q01", "chapter": "ch-06", "type": "mcq", "marks": 1, "stars": 3, "label": "PYQ-style", "topic": "Homology",
+    "id": "bio-06-q01",
+    "chapter": "ch-06",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 3,
+    "label": "PYQ-style",
+    "topic": "Homology",
     "stem": "Which pair shows homologous organs?",
-    "options": ["Wings of butterfly and bird", "Thorn of Bougainvillea and tendril of Cucurbita", "Eye of octopus and eye of mammal", "Potato and sweet potato"],
+    "options": [
+      "Wings of butterfly and bird",
+      "Thorn of Bougainvillea and tendril of Cucurbita",
+      "Eye of octopus and eye of mammal",
+      "Potato and sweet potato"
+    ],
     "answer": "B",
     "hint": "Same origin, different function.",
     "model_answer": "**(b).** Both are modified stems with different functions; the other pairs are analogous."
   },
   {
-    "id": "bio-06-q02", "chapter": "ch-06", "type": "mcq", "marks": 1, "stars": 2, "label": "PYQ-style", "topic": "Human evolution",
+    "id": "bio-06-q02",
+    "chapter": "ch-06",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ-style",
+    "topic": "Human evolution",
     "stem": "The correct sequence of increasing brain capacity is:",
-    "options": ["Neanderthal → H. erectus → H. habilis", "H. habilis → H. erectus → Neanderthal", "H. erectus → H. habilis → Neanderthal", "H. habilis → Neanderthal → H. erectus"],
+    "options": [
+      "Neanderthal → H. erectus → H. habilis",
+      "H. habilis → H. erectus → Neanderthal",
+      "H. erectus → H. habilis → Neanderthal",
+      "H. habilis → Neanderthal → H. erectus"
+    ],
     "answer": "B",
     "hint": "650–800, 900, 1400 cc.",
     "model_answer": "**(b).** H. habilis 650–800 cc < H. erectus 900 cc < Neanderthal 1400 cc."
   },
   {
-    "id": "bio-06-q03", "chapter": "ch-06", "type": "mcq", "marks": 1, "stars": 2, "label": "PYQ-style", "topic": "Hardy–Weinberg",
+    "id": "bio-06-q03",
+    "chapter": "ch-06",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ-style",
+    "topic": "Hardy–Weinberg",
     "stem": "In a population in Hardy–Weinberg equilibrium, the frequency of a recessive allele is 0.3. The frequency of heterozygotes is:",
-    "options": ["0.09", "0.21", "0.42", "0.49"],
+    "options": [
+      "0.09",
+      "0.21",
+      "0.42",
+      "0.49"
+    ],
     "answer": "C",
     "hint": "2pq.",
     "model_answer": "**(c) 0.42.** q = 0.3, p = 0.7; 2pq = 2 × 0.7 × 0.3 = 0.42."
   },
   {
-    "id": "bio-06-q04", "chapter": "ch-06", "type": "ar", "marks": 1, "stars": 3, "label": "PYQ-style", "topic": "Industrial melanism",
+    "id": "bio-06-q04",
+    "chapter": "ch-06",
+    "type": "ar",
+    "marks": 1,
+    "stars": 3,
+    "label": "PYQ-style",
+    "topic": "Industrial melanism",
     "stem": "**Assertion (A):** After industrialisation in England, dark-winged moths became more common than white-winged moths.<br>**Reason (R):** Soot made white moths turn dark to escape predators.",
-    "options": ["Both A and R are true, and R is the correct explanation of A.", "Both A and R are true, but R is not the correct explanation of A.", "A is true, but R is false.", "A is false, but R is true."],
+    "options": [
+      "Both A and R are true, and R is the correct explanation of A.",
+      "Both A and R are true, but R is not the correct explanation of A.",
+      "A is true, but R is false.",
+      "A is false, but R is true."
+    ],
     "answer": "C",
     "hint": "Selection acts on existing variation.",
     "model_answer": "**(c).** A is true. R is false: moths did not change colour; dark moths on soot-darkened trunks escaped predators and left more offspring."
   },
   {
-    "id": "bio-06-q05", "chapter": "ch-06", "type": "ar", "marks": 1, "stars": 2, "label": "PYQ-style", "topic": "Convergent evolution",
+    "id": "bio-06-q05",
+    "chapter": "ch-06",
+    "type": "ar",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ-style",
+    "topic": "Convergent evolution",
     "stem": "**Assertion (A):** The flippers of penguins and dolphins are analogous organs.<br>**Reason (R):** Analogous organs result from convergent evolution.",
-    "options": ["Both A and R are true, and R is the correct explanation of A.", "Both A and R are true, but R is not the correct explanation of A.", "A is true, but R is false.", "A is false, but R is true."],
+    "options": [
+      "Both A and R are true, and R is the correct explanation of A.",
+      "Both A and R are true, but R is not the correct explanation of A.",
+      "A is true, but R is false.",
+      "A is false, but R is true."
+    ],
     "answer": "A",
     "hint": "Different ancestry, same function.",
     "model_answer": "**(a).** Different structures evolved for the same function (swimming) through convergent evolution."
   },
   {
-    "id": "bio-06-q06", "chapter": "ch-06", "type": "vsa2", "marks": 2, "stars": 2, "label": "PYQ-style", "topic": "Adaptive radiation",
+    "id": "bio-06-q06",
+    "chapter": "ch-06",
+    "type": "vsa2",
+    "marks": 2,
+    "stars": 2,
+    "label": "PYQ-style",
+    "topic": "Adaptive radiation",
     "stem": "What is adaptive radiation? Give one example from Darwin's observations and one from Australia.",
     "hint": "Galapagos; marsupials.",
     "model_answer": "Adaptive radiation is the evolution of different species in a geographical area starting from one point and radiating into other habitats. Examples: Darwin's finches of the Galapagos Islands evolved varied beaks for different foods from a seed-eating ancestor; Australian marsupials (kangaroo, koala, wombat, Tasmanian wolf etc.) evolved from one ancestral stock.",
     "scheme": [
-      { "step": "Definition", "marks": 1 },
-      { "step": "Darwin's finches and Australian marsupials (½ each)", "marks": 1 }
+      {
+        "step": "Definition",
+        "marks": 1
+      },
+      {
+        "step": "Darwin's finches and Australian marsupials (½ each)",
+        "marks": 1
+      }
     ]
   },
   {
-    "id": "bio-06-q07", "chapter": "ch-06", "type": "vsa2", "marks": 2, "stars": 2, "label": "PYQ-style", "topic": "Origin of life",
+    "id": "bio-06-q07",
+    "chapter": "ch-06",
+    "type": "vsa2",
+    "marks": 2,
+    "stars": 2,
+    "label": "PYQ-style",
+    "topic": "Origin of life",
     "stem": "Describe Miller's experiment and state what it showed.",
     "hint": "Gases, energy, product.",
     "model_answer": "In 1953 S. L. Miller passed electric discharges through a closed flask containing CH₄, H₂, NH₃ and water vapour at 800 °C, simulating early Earth. Amino acids were formed, supporting chemical evolution (Oparin–Haldane): organic molecules can form from inorganic ones.",
     "scheme": [
-      { "step": "Set-up: CH₄, H₂, NH₃, water vapour, electric discharge, 800 °C", "marks": 1 },
-      { "step": "Amino acids formed → supports chemical evolution", "marks": 1 }
+      {
+        "step": "Set-up: CH₄, H₂, NH₃, water vapour, electric discharge, 800 °C",
+        "marks": 1
+      },
+      {
+        "step": "Amino acids formed → supports chemical evolution",
+        "marks": 1
+      }
     ]
   },
   {
-    "id": "bio-06-q08", "chapter": "ch-06", "type": "sa3", "marks": 3, "stars": 3, "label": "PYQ-style", "topic": "Hardy–Weinberg",
+    "id": "bio-06-q08",
+    "chapter": "ch-06",
+    "type": "sa3",
+    "marks": 3,
+    "stars": 3,
+    "label": "PYQ-style",
+    "topic": "Hardy–Weinberg",
     "stem": "State the Hardy–Weinberg principle and write its equation. List any four factors that disturb the equilibrium.",
     "hint": "Constant allele frequencies; five factors.",
     "model_answer": "Allele frequencies in a population are stable and constant from generation to generation (genetic equilibrium) in the absence of disturbing factors. p + q = 1 and p² + 2pq + q² = 1, where p and q are allele frequencies. Disturbing factors: gene migration (gene flow), genetic drift, mutation, genetic recombination, natural selection (any four).",
     "scheme": [
-      { "step": "Statement of the principle", "marks": 1 },
-      { "step": "Equation with meaning of terms", "marks": 1 },
-      { "step": "Four factors (¼ each)", "marks": 1 }
+      {
+        "step": "Statement of the principle",
+        "marks": 1
+      },
+      {
+        "step": "Equation with meaning of terms",
+        "marks": 1
+      },
+      {
+        "step": "Four factors (¼ each)",
+        "marks": 1
+      }
     ]
   },
   {
-    "id": "bio-06-q09", "chapter": "ch-06", "type": "case", "marks": 4, "stars": 2, "label": "PYQ-style", "topic": "Natural selection",
+    "id": "bio-06-q09",
+    "chapter": "ch-06",
+    "type": "case",
+    "marks": 4,
+    "stars": 2,
+    "label": "PYQ-style",
+    "topic": "Natural selection",
     "stem": "*A farmer sprayed the same pesticide on his field every season. In the first year it killed almost all the insects; after five years most insects survived it. A scientist explained that this is evolution happening within a human lifetime.*",
     "parts": [
-      { "id": "A", "marks": 1, "stem": "What name is given to evolution driven by human activity like this?",
+      {
+        "id": "A",
+        "marks": 1,
+        "stem": "What name is given to evolution driven by human activity like this?",
         "model_answer": "Anthropogenic evolution (human-caused natural selection).",
-        "scheme": [ { "step": "Anthropogenic evolution", "marks": 1 } ] },
-      { "id": "B", "marks": 1, "stem": "Did the pesticide create resistance in the insects? Explain.",
+        "scheme": [
+          {
+            "step": "Anthropogenic evolution",
+            "marks": 1
+          }
+        ]
+      },
+      {
+        "id": "B",
+        "marks": 1,
+        "stem": "Did the pesticide create resistance in the insects? Explain.",
         "model_answer": "No. A few resistant variants already existed; the pesticide killed the sensitive ones and the resistant survivors reproduced.",
-        "scheme": [ { "step": "Resistance pre-existed; pesticide selected it", "marks": 1 } ] },
-      { "id": "C", "marks": 2, "stem": "Which type of natural selection is this? Draw or describe how the population curve changes.",
+        "scheme": [
+          {
+            "step": "Resistance pre-existed; pesticide selected it",
+            "marks": 1
+          }
+        ]
+      },
+      {
+        "id": "C",
+        "marks": 2,
+        "stem": "Which type of natural selection is this? Draw or describe how the population curve changes.",
         "model_answer": "Directional selection: individuals at one extreme (resistant) are favoured, so the peak of the curve shifts towards that extreme over generations.",
-        "scheme": [ { "step": "Directional selection", "marks": 1 }, { "step": "Curve peak shifts to the resistant extreme", "marks": 1 } ] }
+        "scheme": [
+          {
+            "step": "Directional selection",
+            "marks": 1
+          },
+          {
+            "step": "Curve peak shifts to the resistant extreme",
+            "marks": 1
+          }
+        ]
+      }
     ]
   },
   {
-    "id": "bio-06-q10", "chapter": "ch-06", "type": "la5", "marks": 5, "stars": 3, "label": "PYQ-style", "topic": "Evidences of evolution",
+    "id": "bio-06-q10",
+    "chapter": "ch-06",
+    "type": "la5",
+    "marks": 5,
+    "stars": 3,
+    "label": "PYQ-style",
+    "topic": "Evidences of evolution",
     "stem": "(a) Distinguish between homologous and analogous organs with two examples of each, naming the type of evolution each represents. [3]<br>(b) How do fossils provide evidence for evolution? [2]",
     "hint": "Structure vs function; rock layers.",
     "model_answer": "(a) Homologous: same basic structure and origin, different functions; examples forelimbs of whale, bat, cheetah and human; thorn of Bougainvillea and tendril of Cucurbita; divergent evolution. Analogous: different structures, similar functions; examples wings of butterfly and bird; eyes of octopus and mammal (or potato and sweet potato); convergent evolution.<br>(b) Fossils are remains of hard parts preserved in rock layers formed one above another. Different layers carry different life forms, many extinct, and older layers hold simpler forms; radioactive dating gives their age, showing life changed over time.",
     "scheme": [
-      { "step": "Homologous: definition, two examples", "marks": 1 },
-      { "step": "Analogous: definition, two examples", "marks": 1 },
-      { "step": "Divergent and convergent evolution named correctly", "marks": 1 },
-      { "step": "Fossils in rock layers show different/extinct forms", "marks": 1 },
-      { "step": "Dating shows change over time", "marks": 1 }
+      {
+        "step": "Homologous: definition, two examples",
+        "marks": 1
+      },
+      {
+        "step": "Analogous: definition, two examples",
+        "marks": 1
+      },
+      {
+        "step": "Divergent and convergent evolution named correctly",
+        "marks": 1
+      },
+      {
+        "step": "Fossils in rock layers show different/extinct forms",
+        "marks": 1
+      },
+      {
+        "step": "Dating shows change over time",
+        "marks": 1
+      }
     ]
+  },
+  {
+    "id": "bio-06-q11",
+    "chapter": "ch-06",
+    "type": "sa3",
+    "marks": 3,
+    "stars": 3,
+    "label": "PYQ-style",
+    "topic": "Natural selection",
+    "stem": "Explain Darwin's theory of natural selection. How does industrial melanism in peppered moths support it?",
+    "hint": "Variation, more offspring than resources allow, survival and reproduction of the fittest. Then: pale bark vs soot-darkened bark.",
+    "model_answer": "*How much to write: 8–10 lines · 6 minutes*\n\n**Natural selection (Darwin):**\n- Members of a population show <u>variation</u>, and some variations are heritable.\n- Populations <u>produce more offspring</u> than resources can support, so individuals compete.\n- Individuals with variations better suited to the environment survive and <u>leave more progeny</u>. <mark>Fitness means reproductive fitness</mark>.\n- Over generations these variations accumulate and the population changes; new types can arise. This is <u>survival of the fittest</u>.\n\n**Industrial melanism:**\n- Before industrialisation (about 1850) tree trunks were covered with pale lichens; <u>white-winged moths</u> were camouflaged and outnumbered dark ones.\n- After industrialisation <u>soot darkened the trunks</u> and killed the lichens; birds now picked off the white moths, and <mark>dark-winged moths became more common</mark> (by 1920).\n- Nature <u>selected</u> the moth form that suited the environment: a change seen within a few decades.\n\n:::tip Your answer must contain\n- <u>variation</u>, <u>over-production</u>, <u>struggle</u>, <u>survival of the fittest</u>\n- <mark>fitness = reproductive fitness</mark>\n- moths: lichens + white moths before; soot, predation by birds, <mark>dark moths increase</mark> after\n:::\n\n**Marks are lost for:** saying the moths changed colour to match the bark (that is Lamarck); leaving out the birds as the selecting agent.",
+    "scheme": [
+      {
+        "step": "Variation, over-production, competition",
+        "marks": 1
+      },
+      {
+        "step": "Survival and reproduction of the fittest; fitness = reproductive fitness",
+        "marks": 1
+      },
+      {
+        "step": "Industrial melanism explained as selection",
+        "marks": 1
+      }
+    ]
+  },
+  {
+    "id": "bio-06-q12",
+    "chapter": "ch-06",
+    "type": "sa3",
+    "marks": 3,
+    "stars": 2,
+    "label": "PYQ-style",
+    "topic": "Types of natural selection",
+    "stem": "With the help of graphs, explain stabilising, directional and disruptive selection.",
+    "hint": "Draw the original bell curve dashed, then how each type moves the peak.",
+    "model_answer": "*How much to write: 3 sketches + 1 line each · 6 minutes*\n\nNatural selection acts on the distribution of a heritable trait in a population:\n\n<figure class=\"fig\">\n<svg viewBox=\"0 0 330 120\" role=\"img\" aria-label=\"Stabilising, directional and disruptive selection curves\">\n<path stroke=\"currentColor\" stroke-opacity=\"0.5\" fill=\"none\" d=\"M8,96H102M118,96H212M228,96H322\"/>\n<path fill=\"none\" stroke=\"currentColor\" stroke-dasharray=\"3 2\" d=\"M8,96C30,94,40,40,55,40S80,94,102,96M118,96C140,94,150,40,165,40S190,94,212,96M228,96C250,94,260,40,275,40S300,94,322,96\"/>\n<path class=\"u\" fill=\"none\" stroke-width=\"2\" d=\"M20,96C40,94,48,14,55,14S70,94,90,96M140,96C162,94,170,42,182,42S204,94,212,94M228,96C238,94,246,44,256,44S268,82,275,82S286,44,294,44S312,94,322,96\"/>\n<g font-size=\"9\" fill=\"currentColor\" text-anchor=\"middle\"><text x=\"55\" y=\"112\">Stabilising</text><text x=\"165\" y=\"112\">Directional</text><text x=\"275\" y=\"112\">Disruptive</text></g>\n</svg>\n<figcaption>Dashed curve = original population; solid = after selection.</figcaption>\n</figure>\n\n1. **Stabilising selection:** individuals with the <u>mean value</u> are favoured; extremes are removed. The peak gets <mark>taller and narrower</mark>.\n2. **Directional selection:** individuals at <u>one extreme</u> are favoured; the <mark>peak shifts</mark> in that direction.\n3. **Disruptive selection:** individuals at <u>both extremes</u> are favoured; the curve splits into <mark>two peaks</mark>.\n\n:::tip Your answer must contain\n- three labelled graphs showing the original (dashed) and new curves\n- the words <u>mean</u>, <u>one extreme</u>, <u>both extremes</u>\n- the result: <mark>narrower peak / shifted peak / two peaks</mark>\n:::\n\n**Marks are lost for:** graphs without the original curve; mixing up directional and disruptive.",
+    "scheme": [
+      {
+        "step": "Stabilising: graph + explanation",
+        "marks": 1
+      },
+      {
+        "step": "Directional: graph + explanation",
+        "marks": 1
+      },
+      {
+        "step": "Disruptive: graph + explanation",
+        "marks": 1
+      }
+    ]
+  },
+  {
+    "id": "bio-06-q13",
+    "chapter": "ch-06",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ-style",
+    "topic": "Founder effect",
+    "stem": "When a small group of individuals founds a new population with allele frequencies different from the parent population, the change is an example of:",
+    "options": [
+      "mutation",
+      "genetic drift (founder effect)",
+      "gene flow",
+      "natural selection"
+    ],
+    "answer": "B",
+    "hint": "Chance, in a small population.",
+    "model_answer": "**(b) Genetic drift (founder effect).** A chance change in allele frequency in a small founding group."
   }
 ]
