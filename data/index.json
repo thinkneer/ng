@@ -1302,6 +1302,7 @@
                         "notes": true,
                         "mustknow": true,
                         "formulas": true,
+                        "cards": true,
                         "questions": true
                       },
                       "marks_hint": "8 marks (unit weightage, CBSE 2026–27)",
@@ -1316,8 +1317,19 @@
                         "la5": 2
                       },
                       "diagrams": [],
-                      "words": 5908,
-                      "read_minutes": 13
+                      "blocks": {
+                        "fill": 4,
+                        "mnemonic": 3,
+                        "figure": 2,
+                        "steps": 4,
+                        "draw": 2,
+                        "compare": 2,
+                        "explain": 1
+                      },
+                      "words": 5870,
+                      "read_minutes": 13,
+                      "cards": 12,
+                      "mnemonics": 3
                     }
                   ]
                 },

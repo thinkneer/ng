@@ -639,6 +639,35 @@
    "prompt": "Why can o-nitrophenol be steam-distilled but not p-nitrophenol?"
   }
  ],
+ "chemistry/ch-08": [
+  {
+   "id": "rosenmund-stephen",
+   "title": "Rosenmund or Stephen?",
+   "trick": "**Ro**senmund **R**educes acid chlo**R**ides; **St**ephen **St**arts from a nitrile with **S**n",
+   "meaning": [
+    "Rosenmund: $\\ce{RCOCl}$ + $\\ce{H2}$ over poisoned Pd. Stephen: $\\ce{RCN}$ + $\\ce{SnCl2}$/HCl, then water."
+   ],
+   "prompt": "Which reaction turns a nitrile into an aldehyde?"
+  },
+  {
+   "id": "iodoform-methyl",
+   "title": "Who gives the iodoform test?",
+   "trick": "**Methyl next door to the carbonyl says hello in yellow**",
+   "meaning": [
+    "$\\ce{CH3CO-}$ compounds (and $\\ce{CH3CH(OH)-}$, which oxidise to them) give yellow iodoform. Ethanal and ethanol are the only aldehyde and primary alcohol that do."
+   ],
+   "prompt": "Which group must a compound have to give the iodoform test?"
+  },
+  {
+   "id": "no-alpha-cannizzaro",
+   "title": "Aldol or Cannizzaro?",
+   "trick": "**No α-H? No Aldol: Cannizzaro Comes**",
+   "meaning": [
+    "With α-hydrogen and dilute alkali: aldol. Without α-hydrogen and with concentrated alkali: Cannizzaro (alcohol + acid salt)."
+   ],
+   "prompt": "Benzaldehyde with concentrated NaOH: aldol or Cannizzaro?"
+  }
+ ],
  "biology/ch-01": [
   {
    "id": "ch01-anther-wall",

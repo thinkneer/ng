@@ -36,6 +36,24 @@ In the Rosenmund reduction the palladium catalyst is deliberately weakened ("poi
 
 Ketones have their own routes. An acid chloride reacts with a dialkylcadmium: $\ce{2RCOCl + R{'}2Cd -> 2RCOR{'} + CdCl2}$. A nitrile treated with a Grignard reagent and then hydrolysed gives a ketone. And **Friedel–Crafts acylation** puts an acyl group on a benzene ring: $\ce{C6H6 + CH3COCl ->[anhyd. AlCl3] C6H5COCH3 + HCl}$, giving acetophenone.
 
+```ng-fill
+id: aldehyde-routes
+title: Named routes to aldehydes
+cols: Reaction | Starting compound | Reagent
+row: Rosenmund | acid chloride | [[$\ce{H2}$, Pd/$\ce{BaSO4}$]]
+row: Stephen | [[nitrile]] | $\ce{SnCl2}$ + HCl, then $\ce{H3O+}$
+row: Etard | [[toluene]] | $\ce{CrO2Cl2}$, then $\ce{H3O+}$
+row: Gatterman–Koch | benzene | [[CO + HCl, anhyd. $\ce{AlCl3}$/CuCl]]
+```
+
+```ng-mnemonic
+id: rosenmund-stephen
+title: Rosenmund or Stephen?
+trick: **Ro**senmund **R**educes acid chlo**R**ides; **St**ephen **St**arts from a nitrile with **S**n
+meaning: Rosenmund: $\ce{RCOCl}$ + $\ce{H2}$ over poisoned Pd. Stephen: $\ce{RCN}$ + $\ce{SnCl2}$/HCl, then water.
+prompt: Which reaction turns a nitrile into an aldehyde?
+```
+
 **In one breath:** Aldehydes come from mild oxidation of 1° alcohols and from reductions stopped halfway (Rosenmund, Stephen); aromatic aldehydes from Etard and Gatterman–Koch; ketones from 2° alcohols, dialkylcadmium, nitriles with Grignard reagents and Friedel–Crafts acylation.
 
 ## Nucleophilic addition: the central reaction
@@ -69,6 +87,51 @@ Hydroxylamine ($\ce{NH2OH}$) → oxime · hydrazine ($\ce{NH2NH2}$) → hydrazon
 :::
 
 These reactions are run in weakly acidic solution. A little acid protonates the carbonyl oxygen and makes the carbon more electrophilic, but too much would protonate the nitrogen nucleophile and switch it off.
+
+```ng-figure
+id: nucleophilic-addition
+title: Nucleophilic addition of HCN
+svg:
+<svg viewBox="0 0 390 146" role="img" aria-label="Nucleophilic addition of HCN to an aldehyde" fill="none" stroke="currentColor" stroke-width="1.5" font-size="11">
+<path d="M62.3,66.8 L62.3,41.2 M57.7,66.8 L57.7,41.2"/><path d="M53.8,80.2 L38.2,95.8"/><path d="M66.2,80.2 L81.8,95.8"/><path d="M24,58 Q36,52 52,70" stroke-width="1"/><path d="M47.3,68.4L52,70L51.0,65.1" stroke-width="1"/><path d="M66,54 Q80,48 68,36" stroke-width="1"/><path d="M72.8,37.3L68,36L69.3,40.8" stroke-width="1"/><path d="M108,76 H128" stroke-width="1"/><path d="M123.7,78.5L128,76L123.7,73.5" stroke-width="1"/><path d="M196.0,66.8 L196.0,43.2"/><path d="M189.8,82.2 L174.2,97.8"/><path d="M202.2,82.2 L217.8,97.8"/><path d="M187.2,76.0 L164.8,76.0"/><path d="M248,76 H268" stroke-width="1"/><path d="M263.7,78.5L268,76L263.7,73.5" stroke-width="1"/><path d="M336.0,66.8 L336.0,43.2"/><path d="M329.8,82.2 L314.2,97.8"/><path d="M342.2,82.2 L357.8,97.8"/><path d="M327.2,76.0 L304.8,76.0"/>
+<g fill="currentColor" stroke="none"><text x="60" y="30" text-anchor="middle">O</text><text x="60" y="78" text-anchor="middle">C</text><text x="26" y="112" text-anchor="middle" font-size="10">R</text><text x="94" y="112" text-anchor="middle" font-size="10">H</text><text x="16" y="66" text-anchor="middle" font-size="10">CN⁻</text><text x="118" y="68" text-anchor="middle" font-size="8">slow</text><text x="196" y="30" text-anchor="middle">O⁻</text><text x="196" y="80" text-anchor="middle">C</text><text x="162" y="114" text-anchor="middle" font-size="10">R</text><text x="230" y="114" text-anchor="middle" font-size="10">H</text><text x="144" y="80" text-anchor="middle" font-size="10">NC</text><text x="196" y="138" text-anchor="middle" font-size="9">tetrahedral (sp³)</text><text x="258" y="68" text-anchor="middle" font-size="8">H⁺</text><text x="336" y="30" text-anchor="middle">OH</text><text x="336" y="80" text-anchor="middle">C</text><text x="302" y="114" text-anchor="middle" font-size="10">R</text><text x="370" y="114" text-anchor="middle" font-size="10">H</text><text x="284" y="80" text-anchor="middle" font-size="10">NC</text><text x="336" y="138" text-anchor="middle" font-size="9">cyanohydrin</text></g>
+</svg>
+caption: The nucleophile attacks the flat δ+ carbon; the π electrons go to oxygen; a proton then gives the cyanohydrin.
+part: 16, 92 | Nucleophile, CN⁻ | Made from HCN by a trace of base; attacks the carbonyl carbon.
+part: 82, 46 | π electrons move to O | Oxygen takes the pair and becomes O⁻.
+part: 196, 100 | Tetrahedral intermediate | Carbon changes from sp² (flat) to sp³.
+part: 336, 52 | Cyanohydrin | –OH and –CN on the same carbon.
+```
+
+```ng-steps
+id: addition-steps
+title: Nucleophilic addition, step by step
+svg:
+<svg viewBox="0 0 390 146" role="img" aria-label="Nucleophilic addition step by step" fill="none" stroke="currentColor" stroke-width="1.5" font-size="11">
+<g data-step="1"><path d="M62.3,66.8 L62.3,41.2 M57.7,66.8 L57.7,41.2"/><path d="M53.8,80.2 L38.2,95.8"/><path d="M66.2,80.2 L81.8,95.8"/><path d="M24,58 Q36,52 52,70" stroke-width="1"/><path d="M47.3,68.4L52,70L51.0,65.1" stroke-width="1"/><path d="M66,54 Q80,48 68,36" stroke-width="1"/><path d="M72.8,37.3L68,36L69.3,40.8" stroke-width="1"/><g fill="currentColor" stroke="none"><text x="60" y="30" text-anchor="middle">O</text><text x="60" y="78" text-anchor="middle">C</text><text x="26" y="112" text-anchor="middle" font-size="10">R</text><text x="94" y="112" text-anchor="middle" font-size="10">H</text><text x="16" y="66" text-anchor="middle" font-size="10">CN⁻</text></g></g><g data-step="2"><path d="M108,76 H128" stroke-width="1"/><path d="M123.7,78.5L128,76L123.7,73.5" stroke-width="1"/><path d="M196.0,66.8 L196.0,43.2"/><path d="M189.8,82.2 L174.2,97.8"/><path d="M202.2,82.2 L217.8,97.8"/><path d="M187.2,76.0 L164.8,76.0"/><g fill="currentColor" stroke="none"><text x="118" y="68" text-anchor="middle" font-size="8">slow</text><text x="196" y="30" text-anchor="middle">O⁻</text><text x="196" y="80" text-anchor="middle">C</text><text x="162" y="114" text-anchor="middle" font-size="10">R</text><text x="230" y="114" text-anchor="middle" font-size="10">H</text><text x="144" y="80" text-anchor="middle" font-size="10">NC</text><text x="196" y="138" text-anchor="middle" font-size="9">tetrahedral (sp³)</text></g></g><g data-step="3"><path d="M248,76 H268" stroke-width="1"/><path d="M263.7,78.5L268,76L263.7,73.5" stroke-width="1"/><path d="M336.0,66.8 L336.0,43.2"/><path d="M329.8,82.2 L314.2,97.8"/><path d="M342.2,82.2 L357.8,97.8"/><path d="M327.2,76.0 L304.8,76.0"/><g fill="currentColor" stroke="none"><text x="258" y="68" text-anchor="middle" font-size="8">H⁺</text><text x="336" y="30" text-anchor="middle">OH</text><text x="336" y="80" text-anchor="middle">C</text><text x="302" y="114" text-anchor="middle" font-size="10">R</text><text x="370" y="114" text-anchor="middle" font-size="10">H</text><text x="284" y="80" text-anchor="middle" font-size="10">NC</text><text x="336" y="138" text-anchor="middle" font-size="9">cyanohydrin</text></g></g>
+</svg>
+step: A trace of base makes the nucleophile: $\ce{HCN + OH- <=> CN- + H2O}$. $\ce{CN-}$ attacks the electron-poor carbonyl carbon.
+step: **Slow step:** the π electrons move onto oxygen, giving a tetrahedral alkoxide ion.
+step: **Fast step:** the alkoxide picks up a proton: the product is a cyanohydrin.
+```
+
+```ng-draw
+id: draw-addition
+title: Draw the mechanism of addition of HCN to ethanal
+svg: ref: notes#nucleophilic-addition
+time: 4
+```
+
+```ng-fill
+id: nh2z-products
+title: H₂N–Z reagents and their products
+cols: Reagent | Product with C=O
+row: hydroxylamine, $\ce{NH2OH}$ | [[oxime]]
+row: hydrazine, $\ce{NH2NH2}$ | [[hydrazone]]
+row: phenylhydrazine | [[phenylhydrazone]]
+row: semicarbazide | [[semicarbazone]]
+row: 2,4-DNP | [[2,4-dinitrophenylhydrazone (orange-red precipitate)]]
+```
 
 **In one breath:** A nucleophile attacks the electron-poor carbon to give a tetrahedral intermediate, which is then protonated. Aldehydes beat ketones for steric and electronic reasons, and $\ce{H2N-Z}$ reagents add then lose water to give C=N products.
 
@@ -104,6 +167,45 @@ Iodoform positive: it has a $\ce{CH3CO-}$ group. [1]
 A five-carbon methyl ketone with a straight chain: **pentan-2-one**, $\ce{CH3COCH2CH2CH3}$ (3-methylbutan-2-one also fits these tests). [1]
 :::
 
+```ng-compare
+id: clemmensen-vs-wk
+title: Clemmensen vs Wolff–Kishner
+cols: Clemmensen | Wolff–Kishner
+row: Reagent | Zn–Hg + conc. HCl | $\ce{NH2NH2}$, then KOH in ethylene glycol, heat
+row: Medium | acid | base
+row: Change | C=O → $\ce{CH2}$ | C=O → $\ce{CH2}$
+row: Use when the molecule | is stable to acid | is stable to base
+```
+
+```ng-fill
+id: carbonyl-tests
+title: Tests that tell them apart
+cols: Test | Given by | Observation
+row: Tollens' reagent | [[all aldehydes]] | silver mirror
+row: Fehling's solution | [[aliphatic aldehydes only]] | red-brown $\ce{Cu2O}$
+row: 2,4-DNP | [[aldehydes and ketones]] | orange-red precipitate
+row: Iodoform ($\ce{I2}$ + NaOH) | [[$\ce{CH3CO-}$ or $\ce{CH3CH(OH)-}$ compounds]] | yellow $\ce{CHI3}$
+row: $\ce{NaHCO3}$ | [[carboxylic acids]] | brisk effervescence of $\ce{CO2}$
+```
+
+```ng-steps
+id: identify-unknown
+title: Identifying an unknown carbonyl compound
+step: **2,4-DNP** positive? Then it has a C=O group.
+step: **Tollens'** positive? Aldehyde. Negative? Ketone.
+step: **Fehling's** positive too? Aliphatic aldehyde; negative with Tollens' positive means aromatic.
+step: **Iodoform** positive? It has a $\ce{CH3CO-}$ group.
+step: Match the molecular formula and write the structure and name.
+```
+
+```ng-mnemonic
+id: iodoform-methyl
+title: Who gives the iodoform test?
+trick: **Methyl next door to the carbonyl says hello in yellow**
+meaning: $\ce{CH3CO-}$ compounds (and $\ce{CH3CH(OH)-}$, which oxidise to them) give yellow iodoform. Ethanal and ethanol are the only aldehyde and primary alcohol that do.
+prompt: Which group must a compound have to give the iodoform test?
+```
+
 **In one breath:** Clemmensen and Wolff–Kishner turn C=O into $\ce{CH2}$. Aldehydes are easily oxidised and give Tollens' (all) and Fehling's (aliphatic only); ketones do not; iodoform detects the $\ce{CH3CO-}$ group.
 
 ## The α-hydrogen: aldol and Cannizzaro
@@ -136,6 +238,33 @@ On a benzene ring, the –CHO and –CO– groups withdraw electrons, so aromati
 
 A few uses: a 40% solution of methanal, formalin, preserves biological specimens, and methanal is used to make bakelite; propanone and butanone are common solvents; benzaldehyde is used in perfumes and dyes.
 
+```ng-compare
+id: aldol-vs-cannizzaro
+title: Aldol vs Cannizzaro
+cols: Aldol | Cannizzaro
+row: Needs | α-hydrogen | no α-hydrogen
+row: Alkali | dilute | concentrated
+row: Product | β-hydroxy aldehyde or ketone, then α,β-unsaturated on heating | alcohol + salt of the acid
+row: Examples | ethanal, propanone | methanal, benzaldehyde
+```
+
+```ng-steps
+id: aldol-steps
+title: Aldol reaction, step by step
+step: Dilute $\ce{OH-}$ removes an **α-hydrogen**, giving a resonance-stabilised enolate (carbanion).
+step: The enolate carbon attacks the **carbonyl carbon** of a second molecule.
+step: The alkoxide formed takes a proton: **3-hydroxybutanal** (aldol) from ethanal.
+step: On **heating** it loses water: **but-2-enal**, an α,β-unsaturated aldehyde.
+```
+
+```ng-mnemonic
+id: no-alpha-cannizzaro
+title: Aldol or Cannizzaro?
+trick: **No α-H? No Aldol: Cannizzaro Comes**
+meaning: With α-hydrogen and dilute alkali: aldol. Without α-hydrogen and with concentrated alkali: Cannizzaro (alcohol + acid salt).
+prompt: Benzaldehyde with concentrated NaOH: aldol or Cannizzaro?
+```
+
 **In one breath:** α-Hydrogens are acidic because the enolate is resonance-stabilised. With them, dilute alkali gives aldol addition then condensation; without them, concentrated alkali gives Cannizzaro's alcohol plus acid salt.
 
 ## Making carboxylic acids
@@ -156,7 +285,20 @@ Their defining property is acidity. They turn litmus red, react with metals and 
 
 In the **carboxylate ion** the negative charge is shared between two oxygen atoms through two resonance structures that are exactly equivalent. Both oxygens are electronegative and happy to carry the charge. In the phenoxide ion the resonance structures are not equivalent, and most of them put the charge on carbon, which is less able to hold it. So the carboxylate ion is the better stabilised, and the acid the stronger.
 
-**Figure 8.1 (resonance in the carboxylate ion):** two structures of $\ce{R-COO-}$ side by side, with the double bond and the negative charge exchanged between the two oxygens, and a third drawing showing the charge spread equally over both.
+```ng-figure
+id: carboxylate-resonance
+title: Resonance in the carboxylate ion
+svg:
+<svg viewBox="0 0 400 136" role="img" aria-label="Resonance in the carboxylate ion" fill="none" stroke="currentColor" stroke-width="1.5" font-size="11">
+<path d="M25.4,70.0 L46.6,70.0"/><path d="M63.2,65.0 L80.0,48.2 M60.0,61.8 L76.8,45.0"/><path d="M61.6,76.6 L78.4,93.4"/><path d="M112,70 H140" stroke-width="1"/><path d="M135.7,72.5L140,70L135.7,67.5" stroke-width="1"/><path d="M116.3,67.5L112,70L116.3,72.5" stroke-width="1"/><path d="M170.4,70.0 L191.6,70.0"/><path d="M206.6,63.4 L223.4,46.6"/><path d="M205.0,78.2 L221.8,95.0 M208.2,75.0 L225.0,91.8"/><path d="M310.4,70.0 L331.6,70.0"/><path d="M348.2,65.0 L365.0,48.2"/><path d="M345.0,61.8 L361.8,45.0" stroke-dasharray="3 2"/><path d="M345.0,78.2 L361.8,95.0"/><path d="M348.2,75.0 L365.0,91.8" stroke-dasharray="3 2"/>
+<g fill="currentColor" stroke="none"><text x="17" y="74" text-anchor="middle">R</text><text x="55" y="74" text-anchor="middle">C</text><text x="91" y="38" text-anchor="middle">O</text><text x="91" y="108" text-anchor="middle">O⁻</text><text x="162" y="74" text-anchor="middle">R</text><text x="200" y="74" text-anchor="middle">C</text><text x="236" y="38" text-anchor="middle">O⁻</text><text x="236" y="108" text-anchor="middle">O</text><text x="268" y="74" text-anchor="middle" font-size="14">≡</text><text x="302" y="74" text-anchor="middle">R</text><text x="340" y="74" text-anchor="middle">C</text><text x="376" y="38" text-anchor="middle">O<tspan dy="-4" font-size="8">½−</tspan></text><text x="376" y="108" text-anchor="middle">O<tspan dy="-4" font-size="8">½−</tspan></text><text x="350" y="128" text-anchor="middle" font-size="9">hybrid</text></g>
+</svg>
+caption: Figure 8.1 Two equivalent structures put the charge on two oxygens; in the real ion both C–O bonds are equal and each O carries half the charge.
+part: 91, 108 | Charge on an oxygen | In each structure one O carries the negative charge.
+part: 126, 70 | Resonance arrow | The two structures are equivalent.
+part: 370, 70 | Hybrid | Both C–O bonds are equal, between single and double.
+part: 376, 40 | Half charge on each O | Charge shared by two electronegative atoms: very stable ion, so the acid is strong.
+```
 
 Substituents shift acid strength in a predictable way. An **electron-withdrawing** group pulls charge away from the carboxylate, spreads it out and stabilises it, so the acid is *stronger*. An **electron-releasing** group does the opposite. The effect grows with the number of such groups and fades with distance from –COOH.
 
@@ -171,6 +313,30 @@ $\ce{HCOOH}$ > $\ce{CH3COOH}$ > $\ce{CH3CH2COOH}$ (alkyl groups release electron
 :::
 
 Benzoic acid is stronger than ethanoic acid, because the ring carbon attached to –COOH is sp$^2$ and more electron-withdrawing than a methyl group. On the ring, a nitro group increases the acidity of benzoic acid and a methyl or methoxy group reduces it.
+
+```ng-draw
+id: draw-carboxylate
+title: Draw the resonance structures of the carboxylate ion
+svg: ref: notes#carboxylate-resonance
+time: 2
+```
+
+```ng-fill
+id: acid-strength-fill
+title: Which acid is stronger?
+cols: Pair | Stronger acid | Reason
+row: $\ce{CH3COOH}$ / $\ce{ClCH2COOH}$ | [[$\ce{ClCH2COOH}$]] | Cl withdraws electrons
+row: $\ce{FCH2COOH}$ / $\ce{ClCH2COOH}$ | [[$\ce{FCH2COOH}$]] | F is more electronegative
+row: $\ce{HCOOH}$ / $\ce{CH3COOH}$ | [[$\ce{HCOOH}$]] | no electron-releasing alkyl group
+row: benzoic / 4-nitrobenzoic | [[4-nitrobenzoic]] | $\ce{-NO2}$ withdraws electrons
+row: 2-chloro / 4-chlorobutanoic | [[2-chlorobutanoic]] | Cl is closer to –COOH
+```
+
+```ng-explain
+id: why-acid-stronger-than-phenol
+prompt: In three lines, explain why ethanoic acid is a stronger acid than phenol.
+lines: 3
+```
 
 **In one breath:** The carboxylate ion shares its charge equally between two oxygens, which makes these acids stronger than phenols; electron-withdrawing groups strengthen the acid, more so when numerous and near.
 
@@ -213,5 +379,15 @@ On a benzene ring, –COOH withdraws electrons: benzoic acid is nitrated and bro
 :::
 
 Uses worth remembering: methanoic acid in rubber, textile and leather industries; ethanoic acid as vinegar and as a solvent; hexanedioic acid for nylon-6,6; sodium benzoate as a food preservative; and the higher fatty acids for soaps and detergents.
+
+```ng-steps
+id: conversion-strategy
+title: Planning a conversion in the exam
+step: Write the start and the target and **count the carbons**: same, one more, or one fewer?
+step: One more carbon: go through a **nitrile** (KCN) or a **Grignard reagent + $\ce{CO2}$**.
+step: One fewer carbon: **soda lime** decarboxylation or **Hoffmann bromamide** (Ch 9).
+step: Same carbons: change the functional group (oxidise, reduce, $\ce{SOCl2}$, Rosenmund).
+step: Write each step with reagent and conditions over the arrow.
+```
 
 **In one breath:** Resonance makes the acid's carbonyl carbon unreactive to addition; instead –OH is replaced to give esters, acid chlorides, amides and anhydrides. Soda lime removes a carbon, HVZ halogenates the α-carbon, and –COOH directs meta.

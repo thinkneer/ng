@@ -1,0 +1,161 @@
+[
+  {
+    "id": "nucleophilic-addition",
+    "kind": "figure",
+    "title": "Nucleophilic addition of HCN",
+    "svg": "ref: notes#nucleophilic-addition",
+    "back": "CN⁻ attacks the δ+ carbon (slow), tetrahedral alkoxide forms, then H⁺ gives the cyanohydrin. Aldehydes react faster than ketones.",
+    "stars": 3,
+    "tags": [
+      "mechanism",
+      "3-mark"
+    ]
+  },
+  {
+    "id": "carboxylate-resonance",
+    "kind": "figure",
+    "title": "Carboxylate resonance",
+    "svg": "ref: notes#carboxylate-resonance",
+    "back": "Two equivalent structures; charge shared equally by two O atoms. That is why acids are stronger than phenols.",
+    "stars": 3,
+    "tags": [
+      "diagram",
+      "reason"
+    ]
+  },
+  {
+    "id": "rosenmund",
+    "kind": "formula",
+    "title": "Rosenmund reduction",
+    "tex": "\\ce{RCOCl + H2 ->[Pd/BaSO4] RCHO + HCl}",
+    "legend": [
+      "BaSO₄ = poisons Pd so it stops at the aldehyde"
+    ],
+    "back": "Acid chloride to aldehyde.",
+    "stars": 3,
+    "tags": [
+      "named"
+    ]
+  },
+  {
+    "id": "stephen",
+    "kind": "formula",
+    "title": "Stephen reaction",
+    "tex": "\\ce{RCN ->[SnCl2/HCl] RCH=NH ->[H3O+] RCHO}",
+    "legend": [
+      "RCN = nitrile"
+    ],
+    "back": "Nitrile to aldehyde through an imine.",
+    "stars": 2,
+    "tags": [
+      "named"
+    ]
+  },
+  {
+    "id": "etard-gk",
+    "kind": "formula",
+    "title": "Etard and Gatterman–Koch",
+    "tex": "\\ce{C6H5CH3 ->[CrO2Cl2][H3O+] C6H5CHO}\\qquad\\ce{C6H6 ->[CO, HCl][AlCl3/CuCl] C6H5CHO}",
+    "legend": [
+      "CrO₂Cl₂ = chromyl chloride"
+    ],
+    "back": "Two routes to benzaldehyde: from toluene (Etard) and from benzene (Gatterman–Koch).",
+    "stars": 2,
+    "tags": [
+      "named"
+    ]
+  },
+  {
+    "id": "clemmensen-wk",
+    "kind": "formula",
+    "title": "Clemmensen and Wolff–Kishner",
+    "tex": "\\ce{{>}C=O ->[Zn-Hg/HCl] {>}CH2}\\qquad\\ce{{>}C=O ->[NH2NH2][KOH, glycol] {>}CH2}",
+    "legend": [
+      "Clemmensen = acid",
+      "Wolff–Kishner = base"
+    ],
+    "back": "Both turn a carbonyl group into $\\ce{CH2}$.",
+    "stars": 3,
+    "tags": [
+      "named"
+    ]
+  },
+  {
+    "id": "aldol",
+    "kind": "formula",
+    "title": "Aldol condensation",
+    "tex": "\\ce{2CH3CHO ->[dil. NaOH] CH3CH(OH)CH2CHO ->[heat] CH3CH=CHCHO}",
+    "legend": [
+      "needs = α-hydrogen"
+    ],
+    "back": "3-Hydroxybutanal, then but-2-enal on heating.",
+    "stars": 3,
+    "tags": [
+      "named"
+    ]
+  },
+  {
+    "id": "cannizzaro",
+    "kind": "formula",
+    "title": "Cannizzaro reaction",
+    "tex": "\\ce{2HCHO + KOH(conc.) -> CH3OH + HCOOK}",
+    "legend": [
+      "needs = no α-hydrogen"
+    ],
+    "back": "Self oxidation–reduction: one molecule to the alcohol, one to the acid salt. Benzaldehyde does it too.",
+    "stars": 3,
+    "tags": [
+      "named"
+    ]
+  },
+  {
+    "id": "hvz",
+    "kind": "formula",
+    "title": "Hell–Volhard–Zelinsky",
+    "tex": "\\ce{RCH2COOH ->[X2/red P][H2O] RCH(X)COOH}",
+    "legend": [
+      "X = Cl or Br"
+    ],
+    "back": "Halogenates the α-carbon of an acid that has an α-hydrogen.",
+    "stars": 2,
+    "tags": [
+      "named"
+    ]
+  },
+  {
+    "id": "acid-orders",
+    "kind": "formula",
+    "title": "Acid strength",
+    "tex": "\\ce{Cl3CCOOH}>\\ce{Cl2CHCOOH}>\\ce{ClCH2COOH}>\\ce{CH3COOH}",
+    "legend": [
+      "rule = more, stronger and closer electron-withdrawing groups make a stronger acid"
+    ],
+    "back": "Also $\\ce{HCOOH}>\\ce{CH3COOH}$; F > Cl > Br as substituents; 2-chloro > 3-chloro > 4-chloro.",
+    "stars": 3,
+    "tags": [
+      "order"
+    ]
+  },
+  {
+    "id": "carbonyl-tests",
+    "kind": "compare",
+    "title": "Tollens' vs Fehling's",
+    "tex": "\\text{Tollens': all aldehydes}\\qquad\\text{Fehling's: aliphatic only}",
+    "back": "Benzaldehyde gives Tollens' but not Fehling's; ketones give neither. Iodoform needs $\\ce{CH3CO-}$.",
+    "stars": 3,
+    "tags": [
+      "compare",
+      "test"
+    ]
+  },
+  {
+    "id": "no-alpha-cannizzaro",
+    "kind": "mnemonic",
+    "title": "No α-H? Cannizzaro comes",
+    "tex": "\\alpha\\text{-H}\\to\\text{aldol}\\qquad\\text{no }\\alpha\\text{-H}\\to\\text{Cannizzaro}",
+    "back": "Check for α-hydrogen before writing anything: dilute alkali aldol, concentrated alkali Cannizzaro.",
+    "tags": [
+      "mnemonic"
+    ]
+  }
+]

@@ -76,7 +76,8 @@ No "(to be added as SVG)" placeholders remain in any file.
 | 5 Coordination Compounds | 11 cards | figures with parts: cis/trans [Pt(NH₃)₂Cl₂], isomers of [CoCl₂(en)₂]⁺ (new drawing), crystal-field splitting; 3 draw; 2 steps (naming, VBT answer); 2 numericals (Werner AgCl, Δt); compare (double salt vs complex); fill (hybridisation and shape); 3 mnemonics (incl. the full spectrochemical series) |
 | 6 Haloalkanes and Haloarenes | 11 cards | figures with parts: SN2 mechanism (new drawing, also as a 3-stage steps animation), enantiomers of butan-2-ol (new); 2 draw; steps for SN1 and Grignard; fill (which product from KCN/AgCN, KNO₂/AgNO₂, aq/alc KOH); compare (SN1 vs SN2, haloalkane vs haloarene); 3 mnemonics |
 | 7 Alcohols, Phenols and Ethers | 11 cards | figure with parts: phenoxide resonance (new drawing); draw it; compare (two hydrations, Kolbe vs Reimer–Tiemann); steps (cumene process, choosing Williamson reactants); 4 fills (acid strength, Lucas test, oxidation products, ether + HI); 3 mnemonics; 1 explain |
-| 8–10 | to do | to do |
+| 8 Aldehydes, Ketones, Acids | 12 cards | figures with parts: nucleophilic addition of HCN (new drawing, also as 3-stage steps), carboxylate resonance (new); 2 draw; steps (aldol, identifying an unknown, planning conversions); 4 fills (aldehyde routes, H₂N–Z products, tests, acid strength); compare (Clemmensen vs Wolff–Kishner, aldol vs Cannizzaro); 3 mnemonics; 1 explain |
+| 9–10 | to do | to do |
 
 - **Note for all subject chats:** block titles, card titles and ng-compare column names are shown as plain text, so they must not contain `$…$` maths (use SN1, H₂O and so on).
 
@@ -95,7 +96,7 @@ No "(to be added as SVG)" placeholders remain in any file.
 - Ch 2: lead storage battery or fuel cell (optional); SHE.
 - Ch 5: fac/mer; orbital-box (VBT) diagrams, now written as text boxes.
 - Ch 6: SN1 planar carbocation (optional).
-- Ch 8: Fig 8.1 carboxylate resonance. Ch 9: Fig 9.1 aniline resonance.
+- Ch 9: Fig 9.1 aniline resonance.
 - Ch 10: Fig 10.1 Haworth structures of glucose; Fig 10.2 α-helix and β-sheet; Fig 10.3 DNA double helix.
 - Organic structures in general (benzene rings, mechanisms with curly arrows) are still condensed formulas and words.
 
@@ -112,7 +113,7 @@ Still to make, as content once the site has a place for practicals:
 - Recall cards built from titled traps show the mistake as the answer. If the card should show the fix, the trap bodies need a second sentence; say so and the chemistry traps can be extended.
 
 ## What's left, in order
-1. Cards and interactive blocks for Ch 8–10 (deadline 1 Dec 2026 for the decks): Ch 8, then Ch 9–10.
+1. Cards and interactive blocks for Ch 9–10 (deadline 1 Dec 2026 for the decks).
 2. Board answers in answer-script style: convert Ch 2–10 written answers, then new topper sets for Ch 4–10.
 3. The SVG to-dos above, starting with Ch 6–10 (resonance structures, S$_\text{N}$2, Haworth glucose, DNA).
 4. More practice per chapter, especially numericals for Ch 1–3 and conversions for Ch 6–9 (most chapters have 10–14 questions; Ch 8 has 19).
