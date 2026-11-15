@@ -379,5 +379,85 @@
     "answer": "C",
     "hint": "Which resistance gene contains BamHI?",
     "model_answer": "**(c).** A is true; R is false: BamHI lies in the tetracycline-resistance gene (tetᴿ)."
+  },
+  {
+    "id": "bio-w20261115-ch-09-01",
+    "chapter": "ch-09",
+    "type": "case",
+    "marks": 4,
+    "stars": 2,
+    "label": "PYQ-style",
+    "topic": "Bioreactors and downstream processing",
+    "stem": "*A company grows a genetically engineered strain of* E. coli *in a stirred-tank bioreactor to make a human protein. When the culture is ready, the product is recovered from the broth, purified and packed for sale.*",
+    "parts": [
+      {
+        "id": "A",
+        "marks": 1,
+        "stem": "Name one condition the company must control inside the bioreactor, and say why.",
+        "model_answer": "Temperature (or pH, dissolved oxygen or agitation): it keeps the culture growing at its best rate and the cells making the product.",
+        "scheme": [
+          {
+            "step": "Named condition: temperature / pH / oxygen / agitation",
+            "marks": 0.5
+          },
+          {
+            "step": "Reason: optimum growth and product formation",
+            "marks": 0.5
+          }
+        ]
+      },
+      {
+        "id": "B",
+        "marks": 1,
+        "stem": "What is the name of the stage in which the product is recovered and purified?",
+        "model_answer": "Downstream processing.",
+        "scheme": [
+          {
+            "step": "Downstream processing",
+            "marks": 1
+          }
+        ]
+      },
+      {
+        "id": "C",
+        "marks": 2,
+        "stem": "Name two steps of downstream processing and say what each achieves.",
+        "model_answer": "Purification (for example chromatography) removes unwanted proteins and other contaminants. Formulation adds preservatives and stabilisers; the product is then tested for quality and packed.",
+        "scheme": [
+          {
+            "step": "Purification removes contaminants",
+            "marks": 1
+          },
+          {
+            "step": "Formulation: preservatives, testing and packing",
+            "marks": 1
+          }
+        ]
+      }
+    ],
+    "hint": "Two things to control in the vessel; the stage after harvest; purification and formulation.",
+    "model_answer": "*How much to write: one to two lines for (a), one line for (b), three lines for (c) · 6 minutes*\n\n**(a)** <mark>Temperature</mark> (or pH, dissolved oxygen, agitation), kept at its best value so that the <u>recombinant cells</u> grow fast and make the product.\n\n**(b)** <mark>Downstream processing</mark>.\n\n**(c)**\n- <u>Purification</u>, for example by chromatography, removes unwanted proteins and other contaminants.\n- <u>Formulation</u>: preservatives and stabilisers are added, the product is tested for quality and packed.\n\n:::tip Your answer must contain\n- (a) one control condition with a reason\n- (b) <mark>downstream processing</mark>\n- (c) purification and formulation, each with what it does\n:::\n\n**Marks are lost for:** calling the recovery stage upstream processing; naming a step without saying what it achieves."
+  },
+  {
+    "id": "bio-w20261115-ch-09-02",
+    "chapter": "ch-09",
+    "type": "vsa2",
+    "marks": 2,
+    "stars": 2,
+    "label": "PYQ-style",
+    "topic": "Restriction enzymes and ligase",
+    "stem": "Name the enzyme that cuts foreign DNA and the enzyme that joins it to the vector. What does each one do?",
+    "hint": "One cuts at palindromic sites; one seals the backbone.",
+    "model_answer": "*How much to write: 3–4 lines · 3 minutes*\n\n(i) <u>Restriction endonuclease</u> cuts DNA at specific <mark>palindromic sites</mark>, leaving sticky ends.\n\n(ii) <u>DNA ligase</u> <mark>joins the sugar–phosphate backbones</mark> of the foreign DNA fragment and the vector.\n\n:::tip Your answer must contain\n- restriction endonuclease: <mark>cuts at palindromic sites</mark>\n- DNA ligase: <mark>joins</mark> the fragment to the vector\n:::\n\n**Marks are lost for:** giving the two roles the wrong way round.",
+    "scheme": [
+      {
+        "step": "Restriction endonuclease cuts at specific (palindromic) sites",
+        "marks": 1
+      },
+      {
+        "step": "DNA ligase joins the fragment to the vector",
+        "marks": 1
+      }
+    ]
   }
 ]

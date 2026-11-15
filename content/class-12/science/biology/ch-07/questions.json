@@ -375,5 +375,27 @@
     "answer": "A",
     "hint": "What is special about acquired immunity?",
     "model_answer": "**(a).** Both true; memory of the first infection explains the protection."
+  },
+  {
+    "id": "bio-w20261115-ch-07-01",
+    "chapter": "ch-07",
+    "type": "sa3",
+    "marks": 3,
+    "stars": 2,
+    "label": "PYQ-style",
+    "topic": "Vaccination and memory",
+    "stem": "Explain how a vaccine produces active immunity. Why does a second dose of the same vaccine give a faster and stronger response?",
+    "hint": "The body makes its own antibodies and keeps memory cells.",
+    "model_answer": "*How much to write: 6–7 lines · 5 minutes*\n\nA vaccine contains a <u>weakened or killed pathogen</u>, or only its <u>antigen</u>. The body treats it as foreign: <u>B-lymphocytes</u> are activated and make <mark>specific antibodies</mark> (the <u>primary response</u>). Some activated cells remain as <u>memory B and T cells</u>.\n\nOn a second dose the <u>memory cells</u> recognise the antigen at once, so the <mark>secondary response is faster and stronger</mark>: more antibodies are made in less time. This is why <u>booster doses</u> are given.\n\n:::tip Your answer must contain\n- the vaccine's <u>antigen</u> and the body's own <u>antibodies</u> (active immunity)\n- <mark>memory cells</mark> that persist after the first dose\n- the second dose: <mark>faster and stronger</mark> response\n:::\n\n**Marks are lost for:** saying the vaccine gives ready-made antibodies (that is passive immunity); not linking the faster response to memory cells.",
+    "scheme": [
+      {
+        "step": "Vaccine contains antigen; body makes its own antibodies (active immunity)",
+        "marks": 1.5
+      },
+      {
+        "step": "Memory cells formed; second dose gives faster, stronger secondary response",
+        "marks": 1.5
+      }
+    ]
   }
 ]

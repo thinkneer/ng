@@ -2607,12 +2607,12 @@
                       },
                       "marks_hint": "Unit VIII Biology and Human Welfare = 12 marks (shared by Ch 7–8, CBSE 2026–27)",
                       "summary": "Common diseases and their pathogens · malaria life cycle · immunity, antibodies and vaccines · allergies and autoimmunity · lymphoid organs · AIDS · cancer · drugs and alcohol abuse",
-                      "questions": 15,
+                      "questions": 16,
                       "question_types": {
                         "mcq": 4,
                         "ar": 3,
                         "vsa2": 2,
-                        "sa3": 3,
+                        "sa3": 4,
                         "case": 1,
                         "la5": 2
                       },
@@ -2644,13 +2644,13 @@
                       },
                       "marks_hint": "Unit VIII Biology and Human Welfare = 12 marks (shared by Ch 7–8, CBSE 2026–27)",
                       "summary": "Microbes in household products · industrial products · sewage treatment · biogas · biocontrol agents · biofertilisers",
-                      "questions": 16,
+                      "questions": 17,
                       "question_types": {
                         "mcq": 4,
                         "ar": 3,
                         "vsa2": 3,
                         "sa3": 3,
-                        "case": 1,
+                        "case": 2,
                         "la5": 2
                       },
                       "diagrams": [],
@@ -2690,13 +2690,13 @@
                       },
                       "marks_hint": "Unit IX Biotechnology = 12 marks (shared by Ch 9–10, CBSE 2026–27)",
                       "summary": "Principles of biotechnology · restriction enzymes · gel electrophoresis · cloning vectors and pBR322 · competent hosts · PCR · bioreactors · downstream processing",
-                      "questions": 15,
+                      "questions": 17,
                       "question_types": {
                         "mcq": 4,
                         "ar": 3,
-                        "vsa2": 2,
+                        "vsa2": 3,
                         "sa3": 3,
-                        "case": 1,
+                        "case": 2,
                         "la5": 2
                       },
                       "diagrams": [],
@@ -2774,13 +2774,13 @@
                       },
                       "marks_hint": "Unit X Ecology = 10 marks (shared by Ch 11–13, CBSE 2026–27)",
                       "summary": "Population attributes · age pyramids · population growth: exponential and logistic · life history variation · population interactions: predation, competition, parasitism, commensalism, mutualism",
-                      "questions": 13,
+                      "questions": 14,
                       "question_types": {
                         "mcq": 3,
                         "ar": 4,
                         "vsa2": 2,
                         "sa3": 2,
-                        "case": 1,
+                        "case": 2,
                         "la5": 1
                       },
                       "diagrams": [],
@@ -2813,12 +2813,12 @@
                       },
                       "marks_hint": "Unit X Ecology = 10 marks (shared by Ch 11–13, CBSE 2026–27)",
                       "summary": "Ecosystem structure · productivity · decomposition · energy flow and food chains · ecological pyramids",
-                      "questions": 13,
+                      "questions": 14,
                       "question_types": {
                         "mcq": 3,
                         "ar": 4,
                         "vsa2": 2,
-                        "sa3": 2,
+                        "sa3": 3,
                         "case": 1,
                         "la5": 1
                       },

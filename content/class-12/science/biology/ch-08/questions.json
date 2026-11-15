@@ -405,5 +405,67 @@
     "answer": "A",
     "hint": "Who else do they harm?",
     "model_answer": "**(a).** Because they spare non-target organisms, they suit IPM: R explains A."
+  },
+  {
+    "id": "bio-w20261115-ch-08-01",
+    "chapter": "ch-08",
+    "type": "case",
+    "marks": 4,
+    "stars": 2,
+    "label": "PYQ-style",
+    "topic": "Sewage treatment plant",
+    "stem": "*A town treats its sewage in a plant before the water goes to a river. Raw sewage has a high BOD; the treated effluent has a much lower BOD. The sludge is sent to an anaerobic digester.*",
+    "parts": [
+      {
+        "id": "A",
+        "marks": 1,
+        "stem": "What is BOD, and what does a high BOD in raw sewage tell you?",
+        "model_answer": "BOD is the oxygen needed by microbes to break down the organic matter in water. A high BOD means a large organic load and little oxygen left for aquatic life.",
+        "scheme": [
+          {
+            "step": "BOD = oxygen needed by microbes to decompose organic matter",
+            "marks": 0.5
+          },
+          {
+            "step": "High BOD = high organic load, low dissolved oxygen",
+            "marks": 0.5
+          }
+        ]
+      },
+      {
+        "id": "B",
+        "marks": 1,
+        "stem": "Which stage removes most of the BOD, and which organisms do the work there?",
+        "model_answer": "Secondary (biological) treatment; aerobic bacteria and fungi in the aeration tank form flocs that digest the organic matter.",
+        "scheme": [
+          {
+            "step": "Secondary (biological) treatment",
+            "marks": 0.5
+          },
+          {
+            "step": "Aerobic bacteria and fungi form flocs",
+            "marks": 0.5
+          }
+        ]
+      },
+      {
+        "id": "C",
+        "marks": 2,
+        "stem": "The sludge goes to an anaerobic digester. Name the gas it produces and the group of bacteria that makes it.",
+        "model_answer": "Biogas, mainly methane with some CO₂ and H₂S, made by methanogenic bacteria, which work without oxygen.",
+        "scheme": [
+          {
+            "step": "Biogas (methane)",
+            "marks": 1
+          },
+          {
+            "step": "Methanogenic bacteria, anaerobic",
+            "marks": 1
+          }
+        ]
+      }
+    ],
+    "hint": "Oxygen the microbes need; which stage uses aerobic microbes; what the anaerobic digester makes.",
+    "model_answer": "*How much to write: one to two lines each for (i) and (ii), three lines for (iii) · 6 minutes*\n\n**(i)** <mark>Biochemical oxygen demand (BOD)</mark>: the amount of <u>oxygen</u> that <u>aerobic microbes</u> need to break down the organic matter in a water sample. <mark>High BOD</mark> means a high organic load and little dissolved oxygen left for aquatic life.\n\n**(ii)** <mark>Secondary (biological) treatment</mark> removes most of the BOD: <u>aerobic bacteria</u> and fungi in the aeration tank form <u>flocs</u> that digest the organic matter.\n\n**(iii)** The sludge is digested by <u>anaerobic bacteria</u>, the <u>methanogens</u>, which produce <mark>biogas</mark>: mainly <u>methane</u>, with some CO₂ and H₂S.\n\n:::tip Your answer must contain\n- (i) oxygen demand of microbes; high BOD = high organic load\n- (ii) <mark>secondary treatment</mark>; aerobic bacteria; flocs\n- (iii) <mark>biogas / methane</mark>; <u>methanogens</u> (anaerobic)\n:::\n\n**Marks are lost for:** calling BOD the oxygen produced by plants; saying primary treatment removes most of the BOD; calling the digester aerobic."
   }
 ]

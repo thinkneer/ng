@@ -311,5 +311,31 @@
     "answer": "D",
     "hint": "Which kind of detritus breaks down slowly?",
     "model_answer": "**(d).** A is false (lignin and chitin slow decomposition); R is true."
+  },
+  {
+    "id": "bio-w20261115-ch-12-01",
+    "chapter": "ch-12",
+    "type": "sa3",
+    "marks": 3,
+    "stars": 3,
+    "label": "PYQ-style",
+    "topic": "Trophic levels and the 10 % law",
+    "stem": "Why are there rarely more than four or five trophic levels in a food chain? Explain with the 10 % law and a grassland example.",
+    "hint": "Energy is lost at each step; what is left after a few steps?",
+    "model_answer": "*How much to write: 6–7 lines · 5 minutes*\n\nOnly about <mark>10 % of the energy</mark> at one trophic level is passed on to the next: the <u>10 % law</u>. The rest is lost as <u>heat</u> in respiration, in excretion and as material that is not eaten or digested.\n\nIn a grassland, if grass fixes 10,000 J, grasshoppers get about 1,000 J, frogs about 100 J, snakes about 10 J and a hawk about 1 J. After four or five transfers so little energy is left that it cannot support another trophic level.\n\n:::tip Your answer must contain\n- the <mark>10 % law</mark> with the energy lost as heat\n- the grassland chain worked in order: 10,000 → 1,000 → 100 → 10 → 1 J\n- the reason for short chains: <u>energy</u> runs out\n:::\n\n**Marks are lost for:** saying the energy is destroyed rather than lost as heat; applying the 10 % rule to numbers of organisms (the law is about energy).",
+    "scheme": [
+      {
+        "step": "10 % law: energy transfer about 10 % per level; rest lost as heat",
+        "marks": 1.5
+      },
+      {
+        "step": "Worked grassland chain shows energy falling at each level",
+        "marks": 1
+      },
+      {
+        "step": "Too little energy left to support another trophic level",
+        "marks": 0.5
+      }
+    ]
   }
 ]

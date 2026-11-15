@@ -307,5 +307,63 @@
     "answer": "C",
     "hint": "Which interaction has both species benefiting?",
     "model_answer": "**(c).** A is true; R is false: both benefit in mutualism, not commensalism."
+  },
+  {
+    "id": "bio-w20261115-ch-11-01",
+    "chapter": "ch-11",
+    "type": "case",
+    "marks": 4,
+    "stars": 2,
+    "label": "PYQ-style",
+    "topic": "Growth of a yeast culture",
+    "stem": "*A student grows yeast in a flask with plenty of sugar and no predators. She counts the cells every hour and plots the numbers. The count rises fast at first, then levels off near a fixed value.*",
+    "parts": [
+      {
+        "id": "A",
+        "marks": 1,
+        "stem": "Name the growth model that fits the first part of the curve, and write its equation.",
+        "model_answer": "Exponential growth: $dN/dt = rN$.",
+        "scheme": [
+          {
+            "step": "Exponential growth",
+            "marks": 0.5
+          },
+          {
+            "step": "dN/dt = rN",
+            "marks": 0.5
+          }
+        ]
+      },
+      {
+        "id": "B",
+        "marks": 1,
+        "stem": "What is the fixed value at which the count levels off called?",
+        "model_answer": "Carrying capacity, K.",
+        "scheme": [
+          {
+            "step": "Carrying capacity (K)",
+            "marks": 1
+          }
+        ]
+      },
+      {
+        "id": "C",
+        "marks": 2,
+        "stem": "Write the logistic growth equation. What does the term (K − N)/K show?",
+        "model_answer": "$\\dfrac{dN}{dt}=rN\\dfrac{K-N}{K}$. The term $(K-N)/K$ is the fraction of resources still free; as N approaches K it falls to zero and growth stops.",
+        "scheme": [
+          {
+            "step": "Logistic equation written correctly",
+            "marks": 1
+          },
+          {
+            "step": "(K − N)/K: fraction of resources left; growth zero at N = K",
+            "marks": 1
+          }
+        ]
+      }
+    ],
+    "hint": "Fast at first then flattening; the logistic equation has K in it.",
+    "model_answer": "*How much to write: one line each for (a) and (b), three lines for (c) · 6 minutes*\n\n**(a)** <mark>Exponential growth</mark>, $dN/dt = rN$: the population grows at a rate proportional to its size, with no limit.\n\n**(b)** <mark>Carrying capacity (K)</mark>: the maximum population size the environment can support.\n\n**(c)** $\\dfrac{dN}{dt}=rN\\dfrac{K-N}{K}$. The term $\\dfrac{K-N}{K}$ is the <u>fraction of resources still free</u>: growth slows as N nears K and is zero at N = K.\n\n:::tip Your answer must contain\n- (a) <u>exponential</u> growth; $dN/dt = rN$\n- (b) <mark>carrying capacity K</mark>\n- (c) the <u>logistic equation</u>; the term $(K-N)/K$ explained\n:::\n\n**Marks are lost for:** writing the logistic equation without K; saying growth is still exponential at the plateau."
   }
 ]

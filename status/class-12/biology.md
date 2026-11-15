@@ -76,7 +76,7 @@ Paper: **Thu 25 Mar 2027** (date sheet of 6 Nov 2026). Biology-only days 10–24
 
 ## What's next
 1. **Practicals**: done for the 2026–27 list (5 experiments, 11 spots, project/record/exam day). Teachers decide locally which experiment is major and the project topic list; add any school-specific experiment as a new `prac-` chapter.
-2. **More practice**: MCQ/A–R depth done (≥ 7 per chapter). Next: 2–3 more case questions per unit (each chapter has only one), so papers can vary their case section.
+2. **More practice**: MCQ/A–R depth done (≥ 7 per chapter). Case questions now 16 (units VI–IX have 3 each, Unit X 4). Next: one more case in each of Units VI–VII, so papers can vary their case section.
 3. **Phone review pass**: content-check is clean; a human tap-through of *Label it yourself*, the decks and Recall on a real phone is still worth doing. Re-run `content-check.mjs biology` before every commit.
 4. Optional diagrams: human embryo/placenta, replication of a retrovirus (anther T.S. and pollen-tube path done in the Ch 1 NCERT pass).
 6. **Detailed NCERT pass for Ch 2–13** (Ch 1 done): same model, one chapter per NCERT PDF the admin uploads.
@@ -84,6 +84,8 @@ Paper: **Thu 25 Mar 2027** (date sheet of 6 Nov 2026). Biology-only days 10–24
 
 ## Exam mode (Site chat, 15 Nov 2026)
 - Live: Subject → Exam mode builds numbered 3-hour papers (P-01, P-02 …) from this subject's questions.json files, to `data/patterns/class-12/biology.json` and the unit marks in subject.json. Every question in the bank can appear; nothing extra is needed per question.
-- Bank check: 3-markers are the bottleneck: 13 in the bank, a paper needs 9 (7 + 2 ORs). For 3 fresh papers add about 14 `sa3` and 5 `la5`. More questions = more papers before repeats; each type must keep its pattern marks (MCQ/A–R 1, vsa2 2, sa3 3, case 4, la5 5).
+- Bank check (15 Nov 2026, after the weekly refresh): 198 questions · MCQ 48 · A–R 43 · 2-mark 29 · 3-mark 38 · case 16 · 5-mark 24. P-01 = 70/70; 4 fresh papers; nothing needed to reach the target. More questions = more papers before repeats; each type must keep its pattern marks (MCQ/A–R 1, vsa2 2, sa3 3, case 4, la5 5).
 - Fixed set papers (e.g. an SQP-style paper) go in `papers/<id>.json` as references to bank questions (CLAUDE.md §11).
 
+## Weekly refresh log
+- 2026-11-15 · content-check FAIL/WARN before → after: 0/0 → 0/0 (full subject; nothing needed fixing, so no chapter changes) · chapters fixed: none · questions added: case +3 (ch-08 sewage plant, ch-09 bioreactor and downstream processing, ch-11 yeast growth), vsa2 +1 (ch-09 restriction enzyme and ligase), sa3 +2 (ch-07 vaccination and memory, ch-12 10 % law and trophic levels) = +6, all PYQ-style, answer-script style, with step marks · fresh papers before → after: 4 → 4 (bank 192 → 198 questions) · left out: a la5 on population attributes (it would repeat the age-pyramid sa3). bank-check "Add next" was empty, so the additions follow the next step above and go to the thinnest units for case questions (VIII–X).
