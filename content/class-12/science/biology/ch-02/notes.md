@@ -62,6 +62,47 @@ svg: ref: notes#ch02-seminiferous-tubule
 time: 5
 ```
 
+```ng-figure
+id: ch02-male-system
+title: Male reproductive system
+svg:
+<svg viewBox="0 0 320 268" role="img" aria-label="Male reproductive system, front view" fill="none" stroke="currentColor">
+<ellipse cx="160" cy="40" rx="42" ry="26" stroke-width="1.4"/>
+<path stroke-width="1.2" d="M126,30L96,8M194,30L224,8"/><path stroke-width="0.8" stroke-opacity="0.6" d="M40,256L108,232"/>
+<path class="uf" fill-opacity="0.18" stroke="currentColor" stroke-width="1.2" d="M126,62C110,66,104,84,112,94C120,100,132,90,136,76ZM194,62C210,66,216,84,208,94C200,100,188,90,184,76Z"/>
+<ellipse class="uf" cx="160" cy="98" rx="25" ry="15" fill-opacity="0.45" stroke="none"/>
+<ellipse cx="160" cy="98" rx="25" ry="15" stroke-width="1.2"/>
+<g fill="currentColor" stroke="none"><circle cx="148" cy="124" r="4"/><circle cx="172" cy="124" r="4"/></g>
+<path stroke-width="1.4" d="M148,132V236M172,132V236"/>
+<ellipse cx="160" cy="244" rx="15" ry="13" stroke-width="1.4"/>
+<path stroke="#E0B400" stroke-width="2.2" d="M160,66V252"/>
+<path class="u" stroke-width="2" d="M96,174C70,140,80,92,118,90L152,100M224,174C250,140,240,92,202,90L168,100"/>
+<path stroke-width="1.2" d="M70,166C40,180,46,250,92,252C138,254,150,214,148,196M250,166C280,180,274,250,228,252C182,254,170,214,172,196"/>
+<ellipse class="uf" cx="96" cy="208" rx="20" ry="28" fill-opacity="0.22" stroke="currentColor" stroke-width="1.3"/>
+<ellipse class="uf" cx="224" cy="208" rx="20" ry="28" fill-opacity="0.22" stroke="currentColor" stroke-width="1.3"/>
+<path class="u" stroke-width="5" stroke-linecap="round" d="M108,182C122,196,122,224,110,234M212,182C198,196,198,224,210,234"/>
+<g fill="currentColor" stroke="none" font-size="9"><text x="206" y="44">Urinary bladder</text><text x="228" y="12">Ureter</text><text x="214" y="70">Seminal vesicle</text><text x="190" y="110">Prostate</text><text x="88" y="136">Bulbourethral</text><text x="110" y="146">gland</text><text x="2" y="104">Vas deferens</text><text x="178" y="166">Urethra</text><text x="4" y="206">Testis</text><text x="2" y="262">Epididymis</text><text x="182" y="260">Glans penis</text><text x="262" y="246">Scrotum</text></g>
+</svg>
+caption: Front view: testes in the scrotum, ducts to the urethra, and the three accessory glands. Our simplified drawing.
+part: 90, 226 | Testis | Makes sperms (seminiferous tubules) and androgens (Leydig cells).
+part: 120, 200 | Epididymis | Stores sperms and lets them mature.
+part: 80, 130 | Vas deferens | Carries sperms up to join the duct of the seminal vesicle.
+part: 120, 80 | Seminal vesicle | Accessory gland; its duct joins the vas deferens to form the ejaculatory duct.
+part: 160, 98 | Prostate | Accessory gland around the urethra; adds secretions to semen.
+part: 148, 124 | Bulbourethral gland | Its secretion also lubricates the penis.
+part: 160, 180 | Urethra | Common passage for urine and semen; opens at the urethral meatus.
+part: 160, 40 | Urinary bladder | Not a reproductive organ; the urethra starts below it.
+part: 262, 200 | Scrotum | Keeps the testes 2–2.5 °C below body temperature.
+part: 160, 244 | Glans penis | Enlarged end of the penis, covered by the foreskin.
+```
+
+```ng-draw
+id: ch02-draw-male-system
+title: Draw the male reproductive system
+svg: ref: notes#ch02-male-system
+time: 6
+```
+
 **In one breath:** Testes in the scrotum (2–2.5 °C cooler) contain about 250 lobules with seminiferous tubules lined by spermatogonia and Sertoli cells; Leydig cells between tubules make androgens. Ducts: rete testis → vasa efferentia → epididymis → vas deferens → ejaculatory duct → urethra.
 
 ## The female reproductive system
@@ -78,12 +119,84 @@ The external genitalia include the mons pubis, labia majora, labia minora, hymen
 
 Each **mammary gland** has glandular tissue and fat. The glandular tissue is divided into 15–20 **mammary lobes** containing clusters of **alveoli**, whose cells secrete milk. Milk passes from alveoli → **mammary tubules** → **mammary duct** → **mammary ampulla** → **lactiferous duct**.
 
+```ng-figure
+id: ch02-mammary-gland
+title: Mammary gland in section
+svg:
+<svg viewBox="0 0 320 224" role="img" aria-label="Sectional view of the mammary gland" fill="none" stroke="currentColor">
+<path stroke-width="2" d="M30,10V214"/>
+<path stroke-opacity="0.5" d="M30,40H44M30,80H44M30,120H44M30,160H44M30,200H44"/>
+<path class="uf" fill-opacity="0.12" stroke="currentColor" stroke-width="1.6" d="M40,14C140,14,230,72,250,104L266,104V122L250,122C230,154,140,210,40,210Z"/>
+<path stroke="#E0B400" stroke-width="3" d="M238,92C246,98,248,104,250,104M238,134C246,128,248,122,250,122"/>
+<g class="uf" fill-opacity="0.55" stroke="none"><circle cx="96" cy="56" r="5"/><circle cx="104" cy="48" r="5"/><circle cx="108" cy="60" r="5"/><circle cx="92" cy="112" r="5"/><circle cx="100" cy="104" r="5"/><circle cx="102" cy="118" r="5"/><circle cx="96" cy="166" r="5"/><circle cx="104" cy="158" r="5"/><circle cx="108" cy="170" r="5"/><circle cx="140" cy="84" r="5"/><circle cx="148" cy="76" r="5"/><circle cx="150" cy="90" r="5"/><circle cx="140" cy="142" r="5"/><circle cx="148" cy="134" r="5"/><circle cx="150" cy="148" r="5"/></g>
+<path class="u" stroke-width="1.4" d="M110,56C150,66,180,92,206,104M106,112H206M110,166C150,156,180,130,206,122M152,84C176,92,192,100,206,108M152,142C176,134,192,124,206,118"/>
+<g class="uf" fill-opacity="0.6" stroke="none"><ellipse cx="214" cy="106" rx="8" ry="4"/><ellipse cx="214" cy="120" rx="8" ry="4"/></g>
+<path class="u" stroke-width="2.2" d="M222,106H262M222,120H262"/>
+<g fill="currentColor" stroke="none" font-size="9"><text x="72" y="30">Alveoli (lobules)</text><text x="150" y="58">Mammary tubules</text><text x="146" y="196">Mammary duct</text><text x="198" y="146">Ampulla</text><text x="252" y="96">Nipple</text><text x="196" y="80">Areola</text><text x="236" y="146">Lactiferous duct</text><text x="44" y="140">Fat</text><text x="2" y="220">Chest wall</text></g>
+</svg>
+caption: Milk route: alveoli → mammary tubules → mammary duct → ampulla → lactiferous duct → nipple. Our simplified drawing.
+part: 100, 112 | Alveoli (lobules) | Clusters of cells in the mammary lobes that secrete milk.
+part: 128, 60 | Mammary tubules | Carry milk away from the alveoli of each lobe.
+part: 178, 112 | Mammary duct | Formed by the joining of tubules.
+part: 214, 120 | Mammary ampulla | Widening of the duct where milk collects.
+part: 238, 106 | Lactiferous duct | Carries milk out through the nipple.
+part: 264, 113 | Nipple | Opening of the lactiferous ducts.
+part: 242, 131 | Areola | Pigmented ring of skin round the nipple.
+part: 62, 150 | Fat | Adipose tissue; the amount varies between individuals.
+```
+
 ```ng-mnemonic
 id: ch02-oviduct-parts
 title: Parts of the oviduct, ovary to uterus
 trick: **I A**m **I**nterested
 meaning: **I**nfundibulum (with fimbriae) → **A**mpulla (fertilisation) → **I**sthmus (joins the uterus).
 prompt: Name the three parts of the fallopian tube from the ovary end.
+```
+
+```ng-figure
+id: ch02-female-system
+title: Female reproductive system
+svg:
+<svg viewBox="0 0 320 250" role="img" aria-label="Female reproductive system, front view" fill="none" stroke="currentColor">
+<path class="uf" fill-opacity="0.15" stroke="currentColor" stroke-width="1.6" d="M126,58Q160,46,194,58Q206,112,172,152H148Q114,112,126,58Z"/>
+<path class="uf" fill-opacity="0.45" stroke="none" d="M138,66Q160,60,182,66Q188,106,166,138H154Q132,106,138,66Z"/>
+<path stroke-width="1.6" d="M148,152V178M172,152V178M160,138V178"/>
+<path stroke-width="1.6" d="M148,178L140,236M172,178L180,236"/>
+<path class="u" stroke-width="3" d="M128,64C114,58,104,56,94,57M192,64C206,58,216,56,226,57"/>
+<path class="u" stroke-width="7" stroke-linecap="round" d="M94,57C80,58,68,62,60,70M226,57C240,58,252,62,260,70"/>
+<path stroke-width="1.6" d="M60,70L44,64M60,70L40,74M60,70L46,86M60,70L56,90M260,70L276,64M260,70L280,74M260,70L274,86M260,70L264,90"/>
+<ellipse class="uf" cx="72" cy="108" rx="21" ry="13" fill-opacity="0.3" stroke="currentColor" stroke-width="1.3"/>
+<ellipse class="uf" cx="248" cy="108" rx="21" ry="13" fill-opacity="0.3" stroke="currentColor" stroke-width="1.3"/>
+<path stroke-width="1" stroke-dasharray="3 2" d="M92,104L130,96M228,104L190,96"/>
+<g fill="#E0B400" stroke="none"><circle cx="66" cy="106" r="3"/><circle cx="80" cy="110" r="5"/></g>
+<g fill="currentColor" stroke="none" font-size="9"><text x="122" y="38">Fundus of uterus</text><text x="202" y="82">Isthmus</text><text x="236" y="42">Ampulla</text><text x="270" y="58">Infundibulum</text><text x="276" y="96">Fimbriae</text><text x="238" y="134">Ovary</text><text x="194" y="148">Myometrium</text><text x="80" y="150">Endometrium</text><text x="182" y="168">Cervix</text><text x="88" y="172">Cervical canal</text><text x="186" y="220">Vagina</text><text x="6" y="134">Ovarian follicles</text></g>
+</svg>
+caption: Front view: ovaries, oviducts (infundibulum, ampulla, isthmus), uterus, cervix and vagina. Our simplified drawing.
+part: 248, 108 | Ovary | Makes ova and the hormones estrogen and progesterone.
+part: 80, 110 | Ovarian follicles | Follicles at different stages in the cortex.
+part: 278, 90 | Fimbriae | Finger-like projections that collect the ovum at ovulation.
+part: 260, 70 | Infundibulum | Funnel-shaped part of the oviduct closest to the ovary.
+part: 77, 61 | Ampulla | Wider part of the oviduct; fertilisation happens here.
+part: 210, 58 | Isthmus | Narrow part of the oviduct joining the uterus.
+part: 160, 56 | Fundus of uterus | Upper part of the uterus.
+part: 160, 100 | Endometrium | Glandular inner lining; changes through the cycle.
+part: 191, 92 | Myometrium | Thick smooth-muscle layer; contracts strongly in labour.
+part: 160, 165 | Cervix | Narrow neck of the uterus; its canal and the vagina form the birth canal.
+part: 160, 215 | Vagina | Opens to the outside; receives sperms.
+```
+
+```ng-draw
+id: ch02-draw-female-system
+title: Draw the female reproductive system
+svg: ref: notes#ch02-female-system
+time: 6
+```
+
+```ng-draw
+id: ch02-draw-mammary
+title: Draw the mammary gland in section
+svg: ref: notes#ch02-mammary-gland
+time: 4
 ```
 
 **In one breath:** Ovaries (cortex + medulla) make ova and hormones; oviduct = infundibulum with fimbriae → ampulla → isthmus; uterine wall = perimetrium, myometrium, endometrium; milk path = alveoli → tubules → duct → ampulla → lactiferous duct.

@@ -75,5 +75,27 @@
     ],
     "back": "Turmeric and neem were also targeted. India's Patents Bill (second amendment) addresses this; GEAC handles GMO safety.",
     "stars": 2
+  },
+  {
+    "id": "ch10-bt-diagram",
+    "kind": "figure",
+    "title": "Bt toxin action",
+    "svg": "ref: notes#ch10-bt-diagram",
+    "back": "Protoxin crystal (inactive) → alkaline insect gut → active toxin → pores in midgut cells → swelling and lysis.",
+    "stars": 3,
+    "tags": [
+      "diagram"
+    ]
+  },
+  {
+    "id": "ch10-rnai-diagram",
+    "kind": "figure",
+    "title": "RNAi in tobacco",
+    "svg": "ref: notes#ch10-rnai-diagram",
+    "back": "Sense + antisense RNA → dsRNA → RNAi silences the nematode's mRNA → Meloidogyne incognita cannot survive.",
+    "stars": 3,
+    "tags": [
+      "diagram"
+    ]
   }
 ]

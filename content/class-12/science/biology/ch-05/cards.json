@@ -23,17 +23,6 @@
     "stars": 3
   },
   {
-    "id": "ch05-nucleosome",
-    "kind": "formula",
-    "title": "Nucleosome",
-    "tex": "\\text{histone octamer}+\\approx200\\text{ bp DNA}",
-    "legend": [
-      "histones = rich in lysine, arginine (+ charge)"
-    ],
-    "back": "Beads-on-string chromatin; H1 and NHC proteins pack it further. Euchromatin active, heterochromatin inactive.",
-    "stars": 2
-  },
-  {
     "id": "ch05-hershey-chase",
     "kind": "process",
     "title": "Hershey–Chase",
@@ -129,5 +118,38 @@
     "title": "Stop codons",
     "tex": "\\text{UAA}\\cdot\\text{UAG}\\cdot\\text{UGA}",
     "back": "U Are Away, U Are Gone, U Go Away. No tRNA exists for them; a release factor binds instead."
+  },
+  {
+    "id": "ch05-helix-diagram",
+    "kind": "figure",
+    "title": "DNA double helix",
+    "svg": "ref: notes#ch05-helix-diagram",
+    "back": "Antiparallel, right-handed; backbone outside, base pairs inside. Pitch 3.4 nm, 10 bp per turn, 0.34 nm between pairs, about 2 nm wide.",
+    "stars": 3,
+    "tags": [
+      "diagram"
+    ]
+  },
+  {
+    "id": "ch05-nucleosome-diagram",
+    "kind": "figure",
+    "title": "Nucleosomes",
+    "svg": "ref: notes#ch05-nucleosome-diagram",
+    "back": "Histone octamer + about 200 bp DNA = nucleosome; linker DNA and H1 join them into beads-on-string chromatin.",
+    "stars": 2,
+    "tags": [
+      "diagram"
+    ]
+  },
+  {
+    "id": "ch05-trna",
+    "kind": "figure",
+    "title": "tRNA clover leaf",
+    "svg": "ref: notes#ch05-trna",
+    "back": "Amino acid acceptor (3′) end at the top; anticodon loop at the bottom. Clover leaf in 2-D, inverted L in 3-D.",
+    "stars": 2,
+    "tags": [
+      "diagram"
+    ]
   }
 ]

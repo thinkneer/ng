@@ -18,6 +18,33 @@ Main features of the double helix:
 - The chains coil in a **right-handed** helix. The **pitch is 3.4 nm** with about **10 base pairs per turn**, so adjacent base pairs are **0.34 nm** apart.
 - Base pairs stack on one another, which adds to the stability of the helix.
 
+```ng-figure
+id: ch05-helix-diagram
+title: DNA double helix
+svg:
+<svg viewBox="0 0 330 214" role="img" aria-label="DNA double helix with antiparallel strands, base pairs, 3.4 nm pitch and 0.34 nm between base pairs" fill="none" stroke="currentColor">
+<path stroke-opacity="0.55" stroke-width="1.6" d="M46.5,62.0V138.0M59.5,76.5V123.5M85.5,123.5V76.5M98.5,138.0V62.0M111.5,138.0V62.0M124.5,123.5V76.5M150.5,76.5V123.5M163.5,62.0V138.0M176.5,62.0V138.0M189.5,76.5V123.5M215.5,123.5V76.5M228.5,138.0V62.0M241.5,138.0V62.0M254.5,123.5V76.5M280.5,76.5V123.5M293.5,62.0V138.0"/>
+<path class="u" stroke-width="3" d="M40.0,60.0 L42.5,60.3 L45.0,61.2 L47.5,62.6 L50.0,64.6 L52.5,67.1 L55.0,70.1 L57.5,73.5 L60.0,77.3 L62.5,81.4 L65.0,85.8 L67.5,90.4 L70.0,95.2 L72.5,100.0 L75.0,104.8 L77.5,109.6 L80.0,114.2 L82.5,118.6 L85.0,122.7 L87.5,126.5 L90.0,129.9 L92.5,132.9 L95.0,135.4 L97.5,137.4 L100.0,138.8 L102.5,139.7 L105.0,140.0 L107.5,139.7 L110.0,138.8 L112.5,137.4 L115.0,135.4 L117.5,132.9 L120.0,129.9 L122.5,126.5 L125.0,122.7 L127.5,118.6 L130.0,114.2 L132.5,109.6 L135.0,104.8 L137.5,100.0 L140.0,95.2 L142.5,90.4 L145.0,85.8 L147.5,81.4 L150.0,77.3 L152.5,73.5 L155.0,70.1 L157.5,67.1 L160.0,64.6 L162.5,62.6 L165.0,61.2 L167.5,60.3 L170.0,60.0 L172.5,60.3 L175.0,61.2 L177.5,62.6 L180.0,64.6 L182.5,67.1 L185.0,70.1 L187.5,73.5 L190.0,77.3 L192.5,81.4 L195.0,85.8 L197.5,90.4 L200.0,95.2 L202.5,100.0 L205.0,104.8 L207.5,109.6 L210.0,114.2 L212.5,118.6 L215.0,122.7 L217.5,126.5 L220.0,129.9 L222.5,132.9 L225.0,135.4 L227.5,137.4 L230.0,138.8 L232.5,139.7 L235.0,140.0 L237.5,139.7 L240.0,138.8 L242.5,137.4 L245.0,135.4 L247.5,132.9 L250.0,129.9 L252.5,126.5 L255.0,122.7 L257.5,118.6 L260.0,114.2 L262.5,109.6 L265.0,104.8 L267.5,100.0 L270.0,95.2 L272.5,90.4 L275.0,85.8 L277.5,81.4 L280.0,77.3 L282.5,73.5 L285.0,70.1 L287.5,67.1 L290.0,64.6 L292.5,62.6 L295.0,61.2 L297.5,60.3 L300.0,60.0"/>
+<path stroke-width="3" d="M40.0,140.0 L42.5,139.7 L45.0,138.8 L47.5,137.4 L50.0,135.4 L52.5,132.9 L55.0,129.9 L57.5,126.5 L60.0,122.7 L62.5,118.6 L65.0,114.2 L67.5,109.6 L70.0,104.8 L72.5,100.0 L75.0,95.2 L77.5,90.4 L80.0,85.8 L82.5,81.4 L85.0,77.3 L87.5,73.5 L90.0,70.1 L92.5,67.1 L95.0,64.6 L97.5,62.6 L100.0,61.2 L102.5,60.3 L105.0,60.0 L107.5,60.3 L110.0,61.2 L112.5,62.6 L115.0,64.6 L117.5,67.1 L120.0,70.1 L122.5,73.5 L125.0,77.3 L127.5,81.4 L130.0,85.8 L132.5,90.4 L135.0,95.2 L137.5,100.0 L140.0,104.8 L142.5,109.6 L145.0,114.2 L147.5,118.6 L150.0,122.7 L152.5,126.5 L155.0,129.9 L157.5,132.9 L160.0,135.4 L162.5,137.4 L165.0,138.8 L167.5,139.7 L170.0,140.0 L172.5,139.7 L175.0,138.8 L177.5,137.4 L180.0,135.4 L182.5,132.9 L185.0,129.9 L187.5,126.5 L190.0,122.7 L192.5,118.6 L195.0,114.2 L197.5,109.6 L200.0,104.8 L202.5,100.0 L205.0,95.2 L207.5,90.4 L210.0,85.8 L212.5,81.4 L215.0,77.3 L217.5,73.5 L220.0,70.1 L222.5,67.1 L225.0,64.6 L227.5,62.6 L230.0,61.2 L232.5,60.3 L235.0,60.0 L237.5,60.3 L240.0,61.2 L242.5,62.6 L245.0,64.6 L247.5,67.1 L250.0,70.1 L252.5,73.5 L255.0,77.3 L257.5,81.4 L260.0,85.8 L262.5,90.4 L265.0,95.2 L267.5,100.0 L270.0,104.8 L272.5,109.6 L275.0,114.2 L277.5,118.6 L280.0,122.7 L282.5,126.5 L285.0,129.9 L287.5,132.9 L290.0,135.4 L292.5,137.4 L295.0,138.8 L297.5,139.7 L300.0,140.0"/>
+<path stroke-width="1" d="M40,36V44M40,40H170M170,36V44M202.5,146V184M215.5,146V184M202.5,180H215.5"/>
+<g fill="currentColor" stroke="none" font-size="10"><text x="58" y="30">one turn = 3.4 nm (10 bp)</text><text x="22" y="64">5′</text><text x="22" y="146">3′</text><text x="306" y="64">3′</text><text x="306" y="146">5′</text><text x="184" y="198">0.34 nm</text><text x="20" y="204">Sugar–phosphate backbone</text><text x="236" y="204">Base pairs</text></g>
+</svg>
+caption: Two antiparallel strands with sugar–phosphate backbones outside and base pairs inside; one turn = 3.4 nm = 10 bp. Our simplified drawing.
+part: 40, 60 | 5′ end | Start of one strand; the partner strand ends 3′ here (antiparallel).
+part: 40, 140 | 3′ end | The partner strand runs the opposite way.
+part: 105, 140 | Sugar–phosphate backbone | Deoxyribose and phosphate joined by phosphodiester bonds.
+part: 124.5, 100 | Base pair | A=T (two H-bonds) or G≡C (three); purine opposite pyrimidine.
+part: 105, 40 | Pitch | One full turn = 3.4 nm, about 10 base pairs.
+part: 209, 176 | 0.34 nm | Distance between two adjacent base pairs.
+```
+
+```ng-draw
+id: ch05-draw-helix
+title: Draw the DNA double helix
+svg: ref: notes#ch05-helix-diagram
+time: 4
+```
+
 ```ng-mnemonic
 id: ch05-purines
 title: Purines or pyrimidines?
@@ -74,6 +101,32 @@ cols: Euchromatin | Heterochromatin
 row: Packing | loose | dense
 row: Staining | light | dark
 row: Activity | transcriptionally active | inactive
+```
+
+```ng-figure
+id: ch05-nucleosome-diagram
+title: Nucleosomes
+svg:
+<svg viewBox="0 0 320 132" role="img" aria-label="Nucleosomes: DNA wrapped around histone octamers, joined by linker DNA" fill="none" stroke="currentColor">
+<path stroke-width="1.6" d="M6,74H43M97,74H133M187,74H223M277,74H314"/>
+<g class="uf" fill-opacity="0.25" stroke="none"><circle cx="70" cy="62" r="22"/><circle cx="160" cy="62" r="22"/><circle cx="250" cy="62" r="22"/></g>
+<g class="u" stroke-width="2.2"><ellipse cx="70" cy="62" rx="27" ry="25"/><ellipse cx="160" cy="62" rx="27" ry="25"/><ellipse cx="250" cy="62" rx="27" ry="25"/></g>
+<g fill="#E0B400" stroke="none"><circle cx="70" cy="91" r="5"/><circle cx="160" cy="91" r="5"/><circle cx="250" cy="91" r="5"/></g>
+<g fill="currentColor" stroke="none" font-size="10"><text x="30" y="24">Histone octamer</text><text x="210" y="24">DNA (≈ 200 bp)</text><text x="101" y="60">Linker</text><text x="106" y="70">DNA</text><text x="168" y="110">H1 histone</text><text x="80" y="128">Beads-on-string chromatin</text></g>
+</svg>
+caption: A histone octamer wrapped by about 200 bp of DNA; H1 seals each bead; linker DNA joins them. Our simplified drawing.
+part: 70, 66 | Histone octamer | Eight positively charged histone molecules.
+part: 70, 37 | DNA wrapped round | Negatively charged DNA, about 200 bp per nucleosome.
+part: 115, 80 | Linker DNA | Joins one nucleosome to the next.
+part: 160, 91 | H1 histone | Binds where DNA enters and leaves the bead.
+part: 250, 62 | Beads-on-string | Repeating nucleosomes seen as chromatin under the EM.
+```
+
+```ng-draw
+id: ch05-draw-nucleosome
+title: Draw nucleosomes
+svg: ref: notes#ch05-nucleosome-diagram
+time: 3
 ```
 
 **In one breath:** Human DNA is about 2.2 m long. Prokaryotes pack it in a nucleoid; eukaryotes wrap about 200 bp around a histone octamer (lysine, arginine) to make nucleosomes, "beads on a string". Euchromatin is loose and active; heterochromatin is dense and inactive.
@@ -268,6 +321,40 @@ Features of the code:
 Mutations show the code's nature. Inserting or deleting one or two bases shifts the reading frame from that point (a **frameshift**), garbling everything after it; inserting or deleting three bases adds or removes one amino acid and keeps the rest intact. This supports the idea that the code is read as triplets without gaps.
 
 **tRNA, the adapter.** Crick predicted an adapter molecule to read the code and carry amino acids. tRNA has an **anticodon loop** with bases complementary to the codon, and an **amino-acid acceptor end** where its amino acid attaches. Each tRNA is specific for one amino acid; a special initiator tRNA carries the first amino acid; there are no tRNAs for stop codons. tRNA looks like a **clover leaf** in two dimensions and an **inverted L** in three.
+
+```ng-figure
+id: ch05-trna
+title: tRNA: the clover leaf
+svg:
+<svg viewBox="0 0 300 262" role="img" aria-label="Clover-leaf secondary structure of tRNA" fill="none" stroke="currentColor">
+<path stroke-width="2" d="M140,24V100M160,40V100"/>
+<path stroke-opacity="0.55" d="M140,48H160M140,60H160M140,72H160M140,84H160"/>
+<path stroke-width="2" d="M160,40L164,22"/>
+<path stroke-width="2" d="M140,100H96M140,120H96M160,100H204M160,120H204M140,120V160M160,120V160"/>
+<path stroke-opacity="0.55" d="M106,100V120M118,100V120M130,100V120M170,100V120M182,100V120M194,100V120M140,130H160M140,142H160M140,154H160"/>
+<circle class="u" cx="74" cy="110" r="22" stroke-width="2"/>
+<circle class="u" cx="226" cy="110" r="22" stroke-width="2"/>
+<circle class="u" cx="150" cy="186" r="26" stroke-width="2"/>
+<path stroke-width="2" d="M160,140C176,136,186,146,178,156C172,162,164,158,160,152"/>
+<path stroke="#E0B400" stroke-width="5" stroke-linecap="round" d="M136,208A26,26,0,0,0,164,208"/>
+<g fill="currentColor" stroke="none" font-size="10"><text x="120" y="22">5′</text><text x="170" y="18">3′ end (CCA)</text><text x="176" y="34">amino acid attaches here</text><text x="170" y="70">Acceptor stem</text><text x="28" y="80">DHU loop</text><text x="214" y="80">TψC loop</text><text x="186" y="160">Variable loop</text><text x="186" y="196">Anticodon loop</text><text x="124" y="232">Anticodon</text></g>
+</svg>
+caption: Secondary structure of tRNA: acceptor stem with the 3′ end, DHU loop, TψC loop, variable loop and anticodon loop. Our simplified drawing.
+part: 164, 22 | 3′ end (acceptor end) | The amino acid attaches here.
+part: 150, 60 | Acceptor stem | Paired region ending in the 3′ CCA end.
+part: 74, 110 | DHU loop | One of the side loops of the clover leaf.
+part: 226, 110 | TψC loop | The other side loop.
+part: 176, 150 | Variable loop | Small extra loop near the anticodon arm.
+part: 150, 186 | Anticodon loop | Loop that carries the anticodon.
+part: 150, 210 | Anticodon | Three bases complementary to the codon on mRNA.
+```
+
+```ng-draw
+id: ch05-draw-trna
+title: Draw the clover leaf of tRNA
+svg: ref: notes#ch05-trna
+time: 3
+```
 
 ```ng-mnemonic
 id: ch05-stop-codons

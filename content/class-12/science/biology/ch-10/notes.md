@@ -65,6 +65,39 @@ meaning: Cotton bollworm: **cryIAc** and **cryIIAb** (two genes). Corn borer: **
 prompt: Which cry gene protects corn against the corn borer?
 ```
 
+```ng-figure
+id: ch10-bt-diagram
+title: How Bt toxin kills an insect
+svg:
+<svg viewBox="0 0 330 176" role="img" aria-label="Bt toxin: inactive protoxin crystal activated in the alkaline insect gut, making pores in midgut cells" fill="none" stroke="currentColor">
+<rect x="14" y="40" width="72" height="26" rx="13" stroke-width="1.6"/>
+<path fill="#E0B400" stroke="none" d="M50,44L58,53L50,62L42,53Z"/>
+<path stroke-width="1.4" d="M92,53H112M106,48L112,53L106,58"/>
+<path fill="#E0B400" fill-opacity="0.5" stroke="none" d="M132,52L138,58L132,64L126,58Z"/>
+<g class="uf" stroke="none"><circle cx="156" cy="70" r="3.5"/><circle cx="170" cy="62" r="3.5"/><circle cx="186" cy="74" r="3.5"/><circle cx="212" cy="96" r="3.5"/><circle cx="236" cy="96" r="3.5"/><circle cx="258" cy="96" r="3.5"/></g>
+<path stroke-width="1.2" d="M120,100H330M120,140H330"/>
+<path stroke-width="1" d="M140,100V140M160,100V140M180,100V140M200,100V140M220,100V140M240,100V140M260,100V140M280,100V140"/>
+<path stroke="currentColor" stroke-width="3" d="M207,100H217M229,100H243M251,100H265"/>
+<path class="u" stroke-width="1.6" stroke-dasharray="4 3" d="M286,140C280,112,288,88,306,88C324,88,330,112,326,140"/>
+<g fill="currentColor" stroke="none" font-size="9.5"><text x="10" y="30">Bt bacterium</text><text x="10" y="84">protoxin crystal</text><text x="10" y="96">(inactive)</text><text x="88" y="44">eaten</text><text x="120" y="40">alkaline gut pH</text><text x="136" y="88">active toxin</text><text x="130" y="156">midgut epithelial cells</text><text x="216" y="86">pores</text><text x="246" y="166">cell swells, lyses</text></g>
+</svg>
+caption: Inactive protoxin in the bacterium; active toxin in the alkaline insect gut; pores in midgut cells, which swell and lyse. Our simplified drawing.
+part: 76, 53 | Bt bacterium | *Bacillus thuringiensis*, not harmed by its own toxin.
+part: 50, 53 | Protoxin crystal | Inactive form of the toxin stored in the bacterium.
+part: 132, 58 | Alkaline gut pH | Dissolves the crystal and turns protoxin into active toxin.
+part: 170, 62 | Active toxin | Binds the surface of midgut epithelial cells.
+part: 236, 100 | Pores | Made by the toxin in the cell membrane.
+part: 306, 110 | Cell lysis | Cells swell and burst; the insect dies.
+part: 170, 120 | Midgut epithelium | Lining of the insect gut.
+```
+
+```ng-draw
+id: ch10-draw-bt
+title: Draw how Bt toxin acts
+svg: ref: notes#ch10-bt-diagram
+time: 4
+```
+
 **In one breath:** *Bacillus thuringiensis* makes a crystal protoxin; alkaline insect gut pH activates it; the toxin binds midgut epithelium, makes pores, cells swell and lyse. cryIAc and cryIIAb control cotton bollworms; cryIAb controls corn borer. Bt cotton carries these genes.
 
 ## Pest-resistant plants through RNA interference
@@ -83,6 +116,43 @@ step: **Nematode-specific genes** are put into tobacco using an ***Agrobacterium
 step: The transgene makes **sense and anti-sense RNA** in the plant's cells.
 step: The two complementary RNAs pair into **dsRNA**, which starts **RNA interference**.
 step: The nematode's specific **mRNA is silenced** (no translation); the parasite cannot survive.
+```
+
+```ng-figure
+id: ch10-rnai-diagram
+title: RNA interference in tobacco
+svg:
+<svg viewBox="0 0 330 184" role="img" aria-label="RNA interference: sense and antisense RNA form dsRNA, which silences the nematode mRNA" fill="none" stroke="currentColor">
+<path class="u" stroke-width="2.4" d="M14,40C24,34,34,46,44,40S64,34,74,40S94,46,104,40"/>
+<path stroke-width="2.4" d="M14,70C24,64,34,76,44,70S64,64,74,70S94,76,104,70"/>
+<path stroke-width="1.4" d="M112,55H130M124,50L130,55L124,60"/>
+<path class="u" stroke-width="2.4" d="M140,46H212"/>
+<path stroke-width="2.4" d="M140,64H212"/>
+<path stroke-opacity="0.55" d="M148,46V64M158,46V64M168,46V64M178,46V64M188,46V64M198,46V64M208,46V64"/>
+<path stroke-width="1.4" d="M220,55H238M232,50L238,55L232,60"/>
+<path stroke-width="2.4" d="M248,64H322"/>
+<path class="u" stroke-width="2.4" d="M268,58H300"/>
+<path stroke="#E0B400" stroke-width="2.4" d="M276,72L292,88M292,72L276,88"/>
+<path stroke-width="5" stroke-linecap="round" stroke-opacity="0.7" d="M226,150C236,138,246,162,256,150S276,138,286,150S306,162,316,150"/>
+<path stroke="#E0B400" stroke-width="2.4" d="M256,128L292,168M292,128L256,168"/>
+<path stroke-width="1.2" d="M14,122H128V172H14Z"/><path stroke-width="1.2" d="M100,120V84M95,90L100,84L105,90"/>
+<g fill="currentColor" stroke="none" font-size="9.5"><text x="14" y="26">sense RNA</text><text x="14" y="90">antisense RNA</text><text x="146" y="34">dsRNA</text><text x="144" y="82">starts RNAi</text><text x="246" y="46">nematode mRNA</text><text x="252" y="104">no translation</text><text x="20" y="138">tobacco cell with</text><text x="20" y="151">nematode genes</text><text x="20" y="164">(via Agrobacterium)</text><text x="210" y="182">nematode cannot survive</text></g>
+</svg>
+caption: Sense and antisense RNA from the nematode genes pair into dsRNA; RNAi silences the nematode mRNA, so the parasite cannot survive. Our simplified drawing.
+part: 120, 130 | Transgenic tobacco cell | Nematode-specific genes introduced with an *Agrobacterium* vector.
+part: 60, 40 | Sense RNA | One RNA made from the transgene.
+part: 60, 70 | Antisense RNA | The complementary RNA.
+part: 176, 55 | dsRNA | Sense + antisense pair up and start RNA interference.
+part: 316, 64 | Nematode mRNA | Its specific mRNA is bound by complementary RNA.
+part: 284, 80 | Silencing | The mRNA is not translated.
+part: 240, 150 | *Meloidogyne incognita* | The nematode cannot survive in the transgenic host.
+```
+
+```ng-draw
+id: ch10-draw-rnai
+title: Draw RNA interference
+svg: ref: notes#ch10-rnai-diagram
+time: 4
 ```
 
 **In one breath:** *Meloidogyne incognita* attacks tobacco roots. Nematode-specific genes put in via *Agrobacterium* make sense and anti-sense RNA → dsRNA → RNAi silences the nematode's mRNA → the parasite cannot survive.

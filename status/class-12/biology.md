@@ -47,6 +47,7 @@ Paper: **Thu 25 Mar 2027** (date sheet of 6 Nov 2026). Biology-only days 10–24
   - Batch B (Units VII–VIII): +4 la5 (sex determination + chromosomal disorders, transcription, DNA double helix with a new SVG + Chargaff, human evolution + drift), +4 sa3 (HIV, typhoid/pneumonia/filariasis, microbial products, biofertilisers), +1 vsa2 (cheese), +2 MCQ. Bank check after it: 2 fresh paper(s); next: 3-mark +12 · 5-mark +7 · MCQ +2 · 2-mark +1.
   - Batch C (Units VIII–IX): +4 la5 (cancer, biogas plant with SVG + biocontrol, rDNA steps + disarmed vectors, Bt cotton + GEAC), +4 sa3 (blue–white selection, DNA isolation, molecular diagnosis, gene therapy), +1 vsa2 (insulin maturation with SVG), +2 MCQ. Bank check after it: 3 fresh paper(s); next: 3-mark +8 · 5-mark +3.
   - Batch D (Units VI and X): +8 sa3 (pollen grain, outbreeding devices, sperm, seminiferous tubule, MTP, age pyramids, GFC vs DFC, hotspots + in/ex situ; four with SVGs), +3 la5 (microsporangium + apomixis, menstrual cycle with graph, latitudinal gradient + why conserve). Task 1 complete: 175 questions (48 MCQ, 26 A–R, 28 vsa2, 36 sa3, 13 case, 24 la5). Bank check after it: 4 fresh paper(s); next: nothing; the bank meets the target.
+- **Missing board diagrams (15 Nov 2026).** Eight new `ng-figure` blocks with tappable parts, each with an `ng-draw` and a figure card (our own drawings): Ch 2 male reproductive system, female reproductive system, mammary gland; Ch 5 DNA double helix (antiparallel, 3.4 nm / 10 bp / 0.34 nm), nucleosomes, tRNA clover leaf; Ch 10 Bt toxin action, RNAi in tobacco. Ch 5 deck kept at 15 by folding the old nucleosome formula card into the new figure card. All blocks render (checked in headless Chrome).
 
 ## Corrections
 - Ch 1 pollen-grain germ-pore leader moved to an actual gap in the exine.
@@ -55,7 +56,7 @@ Paper: **Thu 25 Mar 2027** (date sheet of 6 Nov 2026). Biology-only days 10–24
 ## What's next
 1. **More practice**: raise each chapter to 6+ MCQ/A–R (live quizzes draw on them) and add 2–3 more case questions per unit.
 2. **Practicals (30 marks)**: the experiments in the 2026–27 practical list (check the syllabus PDF; includes DNA isolation, quadrat study, pollen germination, onion root-tip mitosis), the spotting items and viva questions — not on the site yet.
-3. **Diagram polish**: male and female reproductive systems, mammary gland, DNA double helix and nucleosome, tRNA clover leaf, Bt toxin action and RNAi are still described in words only. Draw them as `ng-figure` blocks (parts + `ng-draw`) and add a card for each.
+3. **Diagram polish**: done for the board list (15 Nov). Optional extras: T.S. of a whole anther, pollen-tube growth, human embryo/placenta, replication-of-retrovirus diagram.
 4. **Review pass**: read every Must-know line on a phone in Recall mode; shorten any line over 15 words; make sure every `:::formula` and `:::tip` in mustknow.md has a title, so it becomes a recall card. On the phone, also tap through each chapter's *Label it yourself* and card deck.
 5. Full-length timed paper on the 2026–27 pattern (papers/ folder) once a Site chat confirms the exam-mode format.
 

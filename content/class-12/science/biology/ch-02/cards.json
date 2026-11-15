@@ -105,5 +105,38 @@
     "title": "Pregnancy-only hormones",
     "tex": "\\textbf{H}\\text{appy }\\textbf{H}\\text{ome }\\textbf{R}\\text{eady}",
     "back": "hCG and hPL (placenta) and relaxin (ovary) are made only during pregnancy."
+  },
+  {
+    "id": "ch02-male-system",
+    "kind": "figure",
+    "title": "Male reproductive system",
+    "svg": "ref: notes#ch02-male-system",
+    "back": "Testis → epididymis → vas deferens → ejaculatory duct → urethra. Accessory glands: seminal vesicles, prostate, bulbourethral glands.",
+    "stars": 3,
+    "tags": [
+      "diagram"
+    ]
+  },
+  {
+    "id": "ch02-female-system",
+    "kind": "figure",
+    "title": "Female reproductive system",
+    "svg": "ref: notes#ch02-female-system",
+    "back": "Ovary; oviduct = infundibulum (fimbriae), ampulla (fertilisation), isthmus; uterus wall = perimetrium, myometrium, endometrium; cervix, vagina.",
+    "stars": 3,
+    "tags": [
+      "diagram"
+    ]
+  },
+  {
+    "id": "ch02-mammary-gland",
+    "kind": "figure",
+    "title": "Mammary gland",
+    "svg": "ref: notes#ch02-mammary-gland",
+    "back": "15–20 lobes of alveoli → mammary tubules → mammary duct → mammary ampulla → lactiferous duct → nipple.",
+    "stars": 2,
+    "tags": [
+      "diagram"
+    ]
   }
 ]
