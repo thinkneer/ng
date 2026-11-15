@@ -1,101 +1,291 @@
 [
   {
-    "id": "bio-03-q01", "chapter": "ch-03", "type": "mcq", "marks": 1, "stars": 3, "label": "PYQ-style", "topic": "IUDs",
+    "id": "bio-03-q01",
+    "chapter": "ch-03",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 3,
+    "label": "PYQ-style",
+    "topic": "IUDs",
     "stem": "Which one of the following is a non-medicated intra-uterine device?",
-    "options": ["LNG-20", "Multiload 375", "Lippes loop", "Progestasert"],
+    "options": [
+      "LNG-20",
+      "Multiload 375",
+      "Lippes loop",
+      "Progestasert"
+    ],
     "answer": "C",
     "hint": "It releases neither copper nor hormones.",
     "model_answer": "**(c) Lippes loop.** LNG-20 and Progestasert release hormones; Multiload 375 releases copper."
   },
   {
-    "id": "bio-03-q02", "chapter": "ch-03", "type": "mcq", "marks": 1, "stars": 2, "label": "PYQ-style", "topic": "Contraception",
+    "id": "bio-03-q02",
+    "chapter": "ch-03",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ-style",
+    "topic": "Contraception",
     "stem": "Saheli, the oral contraceptive developed at CDRI Lucknow, is:",
-    "options": ["a steroidal pill taken daily", "a non-steroidal pill taken once a week", "a hormone-releasing IUD", "an emergency pill taken within 72 hours"],
+    "options": [
+      "a steroidal pill taken daily",
+      "a non-steroidal pill taken once a week",
+      "a hormone-releasing IUD",
+      "an emergency pill taken within 72 hours"
+    ],
     "answer": "B",
     "hint": "Weekly, not daily.",
     "model_answer": "**(b).** Saheli is a non-steroidal, once-a-week pill with very few side effects."
   },
   {
-    "id": "bio-03-q03", "chapter": "ch-03", "type": "mcq", "marks": 1, "stars": 2, "label": "PYQ-style", "topic": "STIs",
+    "id": "bio-03-q03",
+    "chapter": "ch-03",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ-style",
+    "topic": "STIs",
     "stem": "Which group lists only STIs that are NOT completely curable?",
-    "options": ["Gonorrhoea, syphilis, HIV", "Hepatitis-B, genital herpes, HIV", "Chlamydiasis, trichomoniasis, genital warts", "Syphilis, hepatitis-B, chlamydiasis"],
+    "options": [
+      "Gonorrhoea, syphilis, HIV",
+      "Hepatitis-B, genital herpes, HIV",
+      "Chlamydiasis, trichomoniasis, genital warts",
+      "Syphilis, hepatitis-B, chlamydiasis"
+    ],
     "answer": "B",
     "hint": "Two viruses that persist plus HIV.",
     "model_answer": "**(b).** Except hepatitis-B, genital herpes and HIV, STIs are curable if detected early and treated."
   },
   {
-    "id": "bio-03-q04", "chapter": "ch-03", "type": "ar", "marks": 1, "stars": 3, "label": "PYQ-style", "topic": "IUDs",
+    "id": "bio-03-q04",
+    "chapter": "ch-03",
+    "type": "ar",
+    "marks": 1,
+    "stars": 3,
+    "label": "PYQ-style",
+    "topic": "IUDs",
     "stem": "**Assertion (A):** Copper-releasing IUDs are effective contraceptives.<br>**Reason (R):** Copper ions released suppress sperm motility and the fertilising capacity of sperms.",
-    "options": ["Both A and R are true, and R is the correct explanation of A.", "Both A and R are true, but R is not the correct explanation of A.", "A is true, but R is false.", "A is false, but R is true."],
+    "options": [
+      "Both A and R are true, and R is the correct explanation of A.",
+      "Both A and R are true, but R is not the correct explanation of A.",
+      "A is true, but R is false.",
+      "A is false, but R is true."
+    ],
     "answer": "A",
     "hint": "What do the Cu ions do?",
     "model_answer": "**(a).** Cu ions suppress sperm motility and fertilising capacity, which is why Cu-IUDs work."
   },
   {
-    "id": "bio-03-q05", "chapter": "ch-03", "type": "ar", "marks": 1, "stars": 2, "label": "PYQ-style", "topic": "Natural methods",
+    "id": "bio-03-q05",
+    "chapter": "ch-03",
+    "type": "ar",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ-style",
+    "topic": "Natural methods",
     "stem": "**Assertion (A):** Lactational amenorrhea is a reliable contraceptive for a year after delivery.<br>**Reason (R):** Ovulation does not occur during the period of intense lactation.",
-    "options": ["Both A and R are true, and R is the correct explanation of A.", "Both A and R are true, but R is not the correct explanation of A.", "A is true, but R is false.", "A is false, but R is true."],
+    "options": [
+      "Both A and R are true, and R is the correct explanation of A.",
+      "Both A and R are true, but R is not the correct explanation of A.",
+      "A is true, but R is false.",
+      "A is false, but R is true."
+    ],
     "answer": "D",
     "hint": "How long does NCERT say it works?",
     "model_answer": "**(d).** A is false: it is effective only up to six months after parturition. R is true."
   },
   {
-    "id": "bio-03-q06", "chapter": "ch-03", "type": "vsa2", "marks": 2, "stars": 2, "label": "PYQ-style", "topic": "Oral pills",
+    "id": "bio-03-q06",
+    "chapter": "ch-03",
+    "type": "vsa2",
+    "marks": 2,
+    "stars": 2,
+    "label": "PYQ-style",
+    "topic": "Oral pills",
     "stem": "How do oral contraceptive pills prevent pregnancy? State how they are taken.",
     "hint": "Three actions; 21 + 7.",
     "model_answer": "Pills (progestogens or progestogen–estrogen) inhibit ovulation and implantation and alter the quality of cervical mucus to prevent or slow sperm entry. They are taken daily for 21 days, starting within the first five days of the cycle, followed by a 7-day gap, and the pattern is repeated.",
     "scheme": [
-      { "step": "Inhibit ovulation and implantation; alter cervical mucus", "marks": 1 },
-      { "step": "21 days from within days 1–5, 7-day gap, repeat", "marks": 1 }
+      {
+        "step": "Inhibit ovulation and implantation; alter cervical mucus",
+        "marks": 1
+      },
+      {
+        "step": "21 days from within days 1–5, 7-day gap, repeat",
+        "marks": 1
+      }
     ]
   },
   {
-    "id": "bio-03-q07", "chapter": "ch-03", "type": "vsa2", "marks": 2, "stars": 2, "label": "PYQ-style", "topic": "Amniocentesis and MTP",
+    "id": "bio-03-q07",
+    "chapter": "ch-03",
+    "type": "vsa2",
+    "marks": 2,
+    "stars": 2,
+    "label": "PYQ-style",
+    "topic": "Amniocentesis and MTP",
     "stem": "What is amniocentesis? Why is there a statutory ban on its use for sex determination?",
     "hint": "Fluid around the foetus; female foeticide.",
     "model_answer": "Amniocentesis is a foetal test based on the chromosomal pattern in the amniotic fluid surrounding the embryo; it can reveal the sex and genetic disorders. It was misused to find the sex of the foetus, followed by MTP if the foetus was female, so its use for sex determination is banned to check female foeticide.",
     "scheme": [
-      { "step": "Definition: chromosomal pattern in amniotic fluid", "marks": 1 },
-      { "step": "Ban checks female foeticide (sex-selective MTP)", "marks": 1 }
+      {
+        "step": "Definition: chromosomal pattern in amniotic fluid",
+        "marks": 1
+      },
+      {
+        "step": "Ban checks female foeticide (sex-selective MTP)",
+        "marks": 1
+      }
     ]
   },
   {
-    "id": "bio-03-q08", "chapter": "ch-03", "type": "sa3", "marks": 3, "stars": 2, "label": "PYQ-style", "topic": "STIs",
+    "id": "bio-03-q08",
+    "chapter": "ch-03",
+    "type": "sa3",
+    "marks": 3,
+    "stars": 2,
+    "label": "PYQ-style",
+    "topic": "STIs",
     "stem": "Name any four sexually transmitted infections. Mention two complications of untreated STIs and three ways to prevent them.",
     "hint": "PID, ectopic pregnancy, infertility; condoms.",
     "model_answer": "Any four: gonorrhoea, syphilis, genital herpes, chlamydiasis, genital warts, trichomoniasis, hepatitis-B, HIV. Complications (any two): pelvic inflammatory disease, abortions, still births, ectopic pregnancy, infertility, cancer of the reproductive tract. Prevention: avoid sex with unknown or multiple partners; always use condoms; consult a qualified doctor early and complete treatment.",
     "scheme": [
-      { "step": "Four STIs (¼ each)", "marks": 1 },
-      { "step": "Two complications (½ each)", "marks": 1 },
-      { "step": "Three prevention points", "marks": 1 }
+      {
+        "step": "Four STIs (¼ each)",
+        "marks": 1
+      },
+      {
+        "step": "Two complications (½ each)",
+        "marks": 1
+      },
+      {
+        "step": "Three prevention points",
+        "marks": 1
+      }
     ]
   },
   {
-    "id": "bio-03-q09", "chapter": "ch-03", "type": "case", "marks": 4, "stars": 3, "label": "PYQ-style", "topic": "ART",
+    "id": "bio-03-q09",
+    "chapter": "ch-03",
+    "type": "case",
+    "marks": 4,
+    "stars": 3,
+    "label": "PYQ-style",
+    "topic": "ART",
     "stem": "*A couple has been trying for a child for four years. Tests show that the woman's ovaries release healthy ova every month but both her fallopian tubes are blocked. The man's semen shows a very low sperm count with few motile sperms. Their doctor explains assisted reproductive technologies.*",
     "parts": [
-      { "id": "A", "marks": 1, "stem": "Why can fertilisation not occur naturally, even if the sperm count were normal?",
+      {
+        "id": "A",
+        "marks": 1,
+        "stem": "Why can fertilisation not occur naturally, even if the sperm count were normal?",
         "model_answer": "Fertilisation happens in the ampullary region of the fallopian tube; with both tubes blocked, ovum and sperm cannot meet.",
-        "scheme": [ { "step": "Fertilisation site is the ampulla; tubes blocked", "marks": 1 } ] },
-      { "id": "B", "marks": 1, "stem": "Name the technique in which a single sperm is injected directly into an ovum in the laboratory, and say why it suits this man.",
+        "scheme": [
+          {
+            "step": "Fertilisation site is the ampulla; tubes blocked",
+            "marks": 1
+          }
+        ]
+      },
+      {
+        "id": "B",
+        "marks": 1,
+        "stem": "Name the technique in which a single sperm is injected directly into an ovum in the laboratory, and say why it suits this man.",
         "model_answer": "ICSI (intra-cytoplasmic sperm injection); only one healthy sperm is needed, so a low count or poor motility does not matter.",
-        "scheme": [ { "step": "ICSI", "marks": 0.5 }, { "step": "Only one sperm needed", "marks": 0.5 } ] },
-      { "id": "C", "marks": 2, "stem": "The laboratory embryo has 16 blastomeres. Name the transfer technique and the organ used. Why would ZIFT not be chosen?",
+        "scheme": [
+          {
+            "step": "ICSI",
+            "marks": 0.5
+          },
+          {
+            "step": "Only one sperm needed",
+            "marks": 0.5
+          }
+        ]
+      },
+      {
+        "id": "C",
+        "marks": 2,
+        "stem": "The laboratory embryo has 16 blastomeres. Name the transfer technique and the organ used. Why would ZIFT not be chosen?",
         "model_answer": "IUT, intra-uterine transfer, into the uterus. ZIFT places a zygote or early embryo (up to 8 blastomeres) in the fallopian tube; her tubes are blocked, so the embryo could not reach the uterus, and this embryo already has more than 8 blastomeres.",
-        "scheme": [ { "step": "IUT", "marks": 0.5 }, { "step": "Uterus", "marks": 0.5 }, { "step": "ZIFT uses the fallopian tube (≤ 8 cells)", "marks": 0.5 }, { "step": "Tubes blocked / embryo has > 8 cells", "marks": 0.5 } ] }
+        "scheme": [
+          {
+            "step": "IUT",
+            "marks": 0.5
+          },
+          {
+            "step": "Uterus",
+            "marks": 0.5
+          },
+          {
+            "step": "ZIFT uses the fallopian tube (≤ 8 cells)",
+            "marks": 0.5
+          },
+          {
+            "step": "Tubes blocked / embryo has > 8 cells",
+            "marks": 0.5
+          }
+        ]
+      }
     ]
   },
   {
-    "id": "bio-03-q10", "chapter": "ch-03", "type": "la5", "marks": 5, "stars": 3, "label": "PYQ-style", "topic": "Contraceptive methods",
+    "id": "bio-03-q10",
+    "chapter": "ch-03",
+    "type": "la5",
+    "marks": 5,
+    "stars": 3,
+    "label": "PYQ-style",
+    "topic": "Contraceptive methods",
     "stem": "(a) List the features of an ideal contraceptive. [1]<br>(b) Describe barrier methods, IUDs and surgical methods of contraception, giving one example of each and how it works. [3]<br>(c) Why are IUDs preferred by women who want to space children? [1]",
     "hint": "Reversible vs terminal.",
     "model_answer": "(a) User-friendly, easily available, effective, reversible, no or least side effects, no interference with sexual drive or act.<br>(b) Barrier: condom (Nirodh) or diaphragm covers penis/cervix and prevents semen entering the female tract. IUD: CuT — increases phagocytosis of sperms and Cu ions suppress sperm motility and fertilising capacity; hormone IUDs also make the uterus unsuitable for implantation. Surgical: vasectomy/tubectomy — part of vas deferens/fallopian tube removed or tied, blocking gamete transport.<br>(c) IUDs are effective yet reversible: removing the device restores fertility, so pregnancy can be delayed or spaced.",
     "scheme": [
-      { "step": "Ideal contraceptive features", "marks": 1 },
-      { "step": "Barrier: example + action", "marks": 1 },
-      { "step": "IUD: example + action", "marks": 1 },
-      { "step": "Surgical: example + action", "marks": 1 },
-      { "step": "IUDs reversible → suit spacing", "marks": 1 }
+      {
+        "step": "Ideal contraceptive features",
+        "marks": 1
+      },
+      {
+        "step": "Barrier: example + action",
+        "marks": 1
+      },
+      {
+        "step": "IUD: example + action",
+        "marks": 1
+      },
+      {
+        "step": "Surgical: example + action",
+        "marks": 1
+      },
+      {
+        "step": "IUDs reversible → suit spacing",
+        "marks": 1
+      }
+    ]
+  },
+  {
+    "id": "bio-03-q11",
+    "chapter": "ch-03",
+    "type": "sa3",
+    "marks": 3,
+    "stars": 2,
+    "label": "PYQ-style",
+    "topic": "MTP",
+    "stem": "What is medical termination of pregnancy (MTP)? Why has it been legalised in India? When is it considered relatively safe, and what are two problems linked with it?",
+    "hint": "Think of the 1971 Act, the first trimester, and misuse.",
+    "model_answer": "*How much to write: 6–7 lines · 5 minutes*\n\n**MTP** is the <mark>intentional or voluntary termination of pregnancy before full term</mark> (induced abortion).\n\n**Why legalised (MTP Act, 1971, amended 2017):** to reduce incidents of illegal abortion and the resulting maternal deaths and illness; it is used to get rid of unwanted pregnancies due to casual unprotected intercourse, failure of contraception or rape, and in cases where continuing the pregnancy could be <u>harmful or fatal to the mother or the foetus</u>. As NCERT states it: up to <u>12 weeks</u> on the opinion of <u>one</u> registered medical practitioner; from <u>12 to 24 weeks</u> on the opinion of <u>two</u>.\n\n**Safe period:** MTPs are considered relatively safe during the <mark>first trimester (up to 12 weeks)</mark>; second-trimester abortions are much riskier.\n\n**Problems:** <u>misuse for female foeticide</u> after illegal sex determination by amniocentesis; MTPs done illegally by <u>unqualified quacks</u>, which are unsafe and can be fatal.\n\n:::tip Your answer must contain\n- definition of MTP\n- reasons for legalisation; NCERT 12 / 24-week rule\n- <mark>first trimester</mark> safest\n- two problems (<u>female foeticide</u>, <u>quacks</u>)\n:::\n\n**Marks are lost for:** saying MTP is safe at any stage; giving no reason for legalisation.",
+    "scheme": [
+      {
+        "step": "Definition and reasons for legalisation",
+        "marks": 1
+      },
+      {
+        "step": "Safe in first trimester; legal conditions",
+        "marks": 1
+      },
+      {
+        "step": "Two problems",
+        "marks": 1
+      }
     ]
   }
 ]

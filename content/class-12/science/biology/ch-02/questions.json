@@ -1,104 +1,355 @@
 [
   {
-    "id": "bio-02-q01", "chapter": "ch-02", "type": "mcq", "marks": 1, "stars": 3, "label": "PYQ-style", "topic": "Menstrual cycle",
+    "id": "bio-02-q01",
+    "chapter": "ch-02",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 3,
+    "label": "PYQ-style",
+    "topic": "Menstrual cycle",
     "stem": "In a regular 28-day menstrual cycle, the rupture of the Graafian follicle is directly triggered by:",
-    "options": ["a peak of progesterone around day 21", "a surge of LH around day 14", "a fall in FSH on day 5", "a rise in hCG around day 14"],
+    "options": [
+      "a peak of progesterone around day 21",
+      "a surge of LH around day 14",
+      "a fall in FSH on day 5",
+      "a rise in hCG around day 14"
+    ],
     "answer": "B",
     "hint": "Which pituitary hormone peaks sharply mid-cycle?",
     "model_answer": "**(b).** The mid-cycle LH surge induces rupture of the Graafian follicle (ovulation)."
   },
   {
-    "id": "bio-02-q02", "chapter": "ch-02", "type": "mcq", "marks": 1, "stars": 2, "label": "PYQ-style", "topic": "Male reproductive system",
+    "id": "bio-02-q02",
+    "chapter": "ch-02",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ-style",
+    "topic": "Male reproductive system",
     "stem": "The correct path of sperms from the testis is:",
-    "options": ["seminiferous tubules → vasa efferentia → rete testis → epididymis → vas deferens", "seminiferous tubules → rete testis → vasa efferentia → epididymis → vas deferens", "seminiferous tubules → epididymis → rete testis → vas deferens → vasa efferentia", "rete testis → seminiferous tubules → vasa efferentia → vas deferens → epididymis"],
+    "options": [
+      "seminiferous tubules → vasa efferentia → rete testis → epididymis → vas deferens",
+      "seminiferous tubules → rete testis → vasa efferentia → epididymis → vas deferens",
+      "seminiferous tubules → epididymis → rete testis → vas deferens → vasa efferentia",
+      "rete testis → seminiferous tubules → vasa efferentia → vas deferens → epididymis"
+    ],
     "answer": "B",
     "hint": "Rete testis comes before vasa efferentia.",
     "model_answer": "**(b).** Seminiferous tubules → rete testis → vasa efferentia → epididymis → vas deferens → ejaculatory duct."
   },
   {
-    "id": "bio-02-q03", "chapter": "ch-02", "type": "mcq", "marks": 1, "stars": 2, "label": "PYQ-style", "topic": "Blastocyst",
+    "id": "bio-02-q03",
+    "chapter": "ch-02",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ-style",
+    "topic": "Blastocyst",
     "stem": "Which part of the blastocyst attaches to the endometrium?",
-    "options": ["Inner cell mass", "Trophoblast", "Zona pellucida", "Morula"],
+    "options": [
+      "Inner cell mass",
+      "Trophoblast",
+      "Zona pellucida",
+      "Morula"
+    ],
     "answer": "B",
     "hint": "The outer layer.",
     "model_answer": "**(b) Trophoblast.** It attaches to the endometrium and later forms chorionic villi; the inner cell mass becomes the embryo."
   },
   {
-    "id": "bio-02-q04", "chapter": "ch-02", "type": "ar", "marks": 1, "stars": 3, "label": "PYQ-style", "topic": "Gametogenesis",
+    "id": "bio-02-q04",
+    "chapter": "ch-02",
+    "type": "ar",
+    "marks": 1,
+    "stars": 3,
+    "label": "PYQ-style",
+    "topic": "Gametogenesis",
     "stem": "**Assertion (A):** One primary oocyte forms only one ovum, while one primary spermatocyte forms four sperms.<br>**Reason (R):** The meiotic divisions in oogenesis divide the cytoplasm unequally.",
-    "options": ["Both A and R are true, and R is the correct explanation of A.", "Both A and R are true, but R is not the correct explanation of A.", "A is true, but R is false.", "A is false, but R is true."],
+    "options": [
+      "Both A and R are true, and R is the correct explanation of A.",
+      "Both A and R are true, but R is not the correct explanation of A.",
+      "A is true, but R is false.",
+      "A is false, but R is true."
+    ],
     "answer": "A",
     "hint": "Where does the cytoplasm go in each division?",
     "model_answer": "**(a).** Unequal divisions give one large ovum and small polar bodies; spermatogenesis divides equally into four sperms."
   },
   {
-    "id": "bio-02-q05", "chapter": "ch-02", "type": "ar", "marks": 1, "stars": 2, "label": "PYQ-style", "topic": "Sex determination",
+    "id": "bio-02-q05",
+    "chapter": "ch-02",
+    "type": "ar",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ-style",
+    "topic": "Sex determination",
     "stem": "**Assertion (A):** The sex of a human baby is decided by the father.<br>**Reason (R):** All ova carry an X chromosome, while sperms carry either X or Y.",
-    "options": ["Both A and R are true, and R is the correct explanation of A.", "Both A and R are true, but R is not the correct explanation of A.", "A is true, but R is false.", "A is false, but R is true."],
+    "options": [
+      "Both A and R are true, and R is the correct explanation of A.",
+      "Both A and R are true, but R is not the correct explanation of A.",
+      "A is true, but R is false.",
+      "A is false, but R is true."
+    ],
     "answer": "A",
     "hint": "Who contributes the variable chromosome?",
     "model_answer": "**(a).** Only sperms differ (X or Y), so the sperm decides whether the zygote is XX or XY."
   },
   {
-    "id": "bio-02-q06", "chapter": "ch-02", "type": "vsa2", "marks": 2, "stars": 2, "label": "PYQ-style", "topic": "Testis",
+    "id": "bio-02-q06",
+    "chapter": "ch-02",
+    "type": "vsa2",
+    "marks": 2,
+    "stars": 2,
+    "label": "PYQ-style",
+    "topic": "Testis",
     "stem": "Spermatogenesis fails if the testes remain inside the abdominal cavity. (a) Explain why. (b) Name the cells that secrete androgens and the pituitary hormone that stimulates them.",
     "hint": "Temperature; LH acts on interstitial cells.",
     "model_answer": "(a) Spermatogenesis needs a temperature 2–2.5 °C below the internal body temperature, which the scrotum provides and the abdomen does not. (b) Leydig (interstitial) cells; LH.",
     "scheme": [
-      { "step": "Needs temperature 2–2.5 °C lower; scrotum provides it", "marks": 1 },
-      { "step": "Leydig (interstitial) cells", "marks": 0.5 },
-      { "step": "LH", "marks": 0.5 }
+      {
+        "step": "Needs temperature 2–2.5 °C lower; scrotum provides it",
+        "marks": 1
+      },
+      {
+        "step": "Leydig (interstitial) cells",
+        "marks": 0.5
+      },
+      {
+        "step": "LH",
+        "marks": 0.5
+      }
     ]
   },
   {
-    "id": "bio-02-q07", "chapter": "ch-02", "type": "vsa2", "marks": 2, "stars": 2, "label": "PYQ-style", "topic": "Parturition",
+    "id": "bio-02-q07",
+    "chapter": "ch-02",
+    "type": "vsa2",
+    "marks": 2,
+    "stars": 2,
+    "label": "PYQ-style",
+    "topic": "Parturition",
     "stem": "Explain how the foetal ejection reflex and oxytocin together bring about parturition.",
     "hint": "A positive feedback loop.",
     "model_answer": "Signals from the fully developed foetus and placenta cause mild uterine contractions (foetal ejection reflex). This triggers oxytocin release from the maternal pituitary; oxytocin causes stronger contractions, which stimulate more oxytocin release. The loop continues until the baby is expelled through the birth canal.",
     "scheme": [
-      { "step": "Foetus and placenta signal mild contractions = foetal ejection reflex", "marks": 1 },
-      { "step": "Oxytocin → stronger contractions → more oxytocin until expulsion", "marks": 1 }
+      {
+        "step": "Foetus and placenta signal mild contractions = foetal ejection reflex",
+        "marks": 1
+      },
+      {
+        "step": "Oxytocin → stronger contractions → more oxytocin until expulsion",
+        "marks": 1
+      }
     ]
   },
   {
-    "id": "bio-02-q08", "chapter": "ch-02", "type": "sa3", "marks": 3, "stars": 2, "label": "PYQ-style", "topic": "Fertilisation and implantation",
+    "id": "bio-02-q08",
+    "chapter": "ch-02",
+    "type": "sa3",
+    "marks": 3,
+    "stars": 2,
+    "label": "PYQ-style",
+    "topic": "Fertilisation and implantation",
     "stem": "Describe the events from fertilisation to implantation in humans. How is entry of more than one sperm prevented?",
     "hint": "Ampulla → zona pellucida → cleavage → morula → blastocyst → implantation.",
     "model_answer": "Fertilisation occurs in the ampullary region of the oviduct. A sperm contacts the zona pellucida, which changes to block other sperms (monospermy); acrosome enzymes help the sperm enter, the secondary oocyte completes meiosis II and the nuclei fuse into a diploid zygote. Cleavage in the isthmus gives blastomeres; 8–16 cells form a morula, which becomes a blastocyst (trophoblast + inner cell mass) in the uterus. The trophoblast attaches to the endometrium and uterine cells cover the blastocyst: implantation.",
     "scheme": [
-      { "step": "Ampulla; zona pellucida changes block other sperms; acrosome; meiosis II; zygote", "marks": 1 },
-      { "step": "Cleavage → morula (8–16 blastomeres) → blastocyst with trophoblast and inner cell mass", "marks": 1 },
-      { "step": "Trophoblast attaches to endometrium; uterine cells cover blastocyst = implantation", "marks": 1 }
+      {
+        "step": "Ampulla; zona pellucida changes block other sperms; acrosome; meiosis II; zygote",
+        "marks": 1
+      },
+      {
+        "step": "Cleavage → morula (8–16 blastomeres) → blastocyst with trophoblast and inner cell mass",
+        "marks": 1
+      },
+      {
+        "step": "Trophoblast attaches to endometrium; uterine cells cover blastocyst = implantation",
+        "marks": 1
+      }
     ]
   },
   {
-    "id": "bio-02-q09", "chapter": "ch-02", "type": "case", "marks": 4, "stars": 3, "label": "PYQ-style", "topic": "Hormones and the cycle",
+    "id": "bio-02-q09",
+    "chapter": "ch-02",
+    "type": "case",
+    "marks": 4,
+    "stars": 3,
+    "label": "PYQ-style",
+    "topic": "Hormones and the cycle",
     "stem": "*A 24-year-old woman has irregular cycles. Blood tests through one cycle show that her LH never rises sharply in mid-cycle, her estrogen rises slowly and her progesterone stays low throughout. Her doctor explains the hypothalamus–pituitary–ovary hormone sequence.*",
     "parts": [
-      { "id": "A", "marks": 1, "stem": "Which event of the cycle is most likely not happening? Give a reason.",
+      {
+        "id": "A",
+        "marks": 1,
+        "stem": "Which event of the cycle is most likely not happening? Give a reason.",
         "model_answer": "Ovulation, because the LH surge that ruptures the Graafian follicle is missing.",
-        "scheme": [ { "step": "No ovulation; no LH surge", "marks": 1 } ] },
-      { "id": "B", "marks": 1, "stem": "Why is her progesterone low throughout?",
+        "scheme": [
+          {
+            "step": "No ovulation; no LH surge",
+            "marks": 1
+          }
+        ]
+      },
+      {
+        "id": "B",
+        "marks": 1,
+        "stem": "Why is her progesterone low throughout?",
         "model_answer": "No ovulation means no corpus luteum forms, and the corpus luteum is the source of progesterone.",
-        "scheme": [ { "step": "No corpus luteum without ovulation", "marks": 1 } ] },
-      { "id": "C", "marks": 2, "stem": "Name the hypothalamic hormone that starts the sequence and state the role of FSH and estrogen in a normal follicular phase.",
+        "scheme": [
+          {
+            "step": "No corpus luteum without ovulation",
+            "marks": 1
+          }
+        ]
+      },
+      {
+        "id": "C",
+        "marks": 2,
+        "stem": "Name the hypothalamic hormone that starts the sequence and state the role of FSH and estrogen in a normal follicular phase.",
         "model_answer": "GnRH from the hypothalamus. FSH (with LH) stimulates growth of follicles into a Graafian follicle; estrogen from the growing follicles makes the endometrium regenerate.",
-        "scheme": [ { "step": "GnRH", "marks": 0.5 }, { "step": "FSH: follicle development", "marks": 0.5 }, { "step": "Estrogen from follicles: endometrium regenerates (proliferates)", "marks": 1 } ] }
+        "scheme": [
+          {
+            "step": "GnRH",
+            "marks": 0.5
+          },
+          {
+            "step": "FSH: follicle development",
+            "marks": 0.5
+          },
+          {
+            "step": "Estrogen from follicles: endometrium regenerates (proliferates)",
+            "marks": 1
+          }
+        ]
+      }
     ]
   },
   {
-    "id": "bio-02-q10", "chapter": "ch-02", "type": "la5", "marks": 5, "stars": 3, "label": "PYQ-style", "topic": "Oogenesis",
+    "id": "bio-02-q10",
+    "chapter": "ch-02",
+    "type": "la5",
+    "marks": 5,
+    "stars": 3,
+    "label": "PYQ-style",
+    "topic": "Oogenesis",
     "stem": "(a) Draw a flowchart of oogenesis from oogonia to the ovum, showing the ploidy of each cell and where or when each step happens. [3]<br>(b) Give two differences between oogenesis and spermatogenesis. [2]",
     "hint": "Foetal ovary → arrested primary oocyte → tertiary follicle → ovulation → sperm entry.",
     "model_answer": "(a) Oogonia (2n), foetal ovary, mitosis → primary oocyte (2n), arrested in prophase I, in primary follicle → meiosis I completed in tertiary follicle, unequal → secondary oocyte (n) + first polar body (n) → Graafian follicle ruptures: ovulation of secondary oocyte → meiosis II completed after sperm entry → ovum (n) + second polar body.<br>(b) Any two: starts in foetal life vs at puberty; one ovum vs four sperms per mother cell; unequal vs equal cytoplasm division; cyclic vs continuous; meiosis II completed only after sperm entry vs in the testis.",
     "scheme": [
-      { "step": "Oogonia 2n in foetal ovary", "marks": 0.5 },
-      { "step": "Primary oocyte 2n arrested in prophase I", "marks": 0.5 },
-      { "step": "Meiosis I in tertiary follicle, unequal", "marks": 0.5 },
-      { "step": "Secondary oocyte n + first polar body", "marks": 0.5 },
-      { "step": "Ovulation of secondary oocyte", "marks": 0.5 },
-      { "step": "Meiosis II after sperm entry → ovum + second polar body", "marks": 0.5 },
-      { "step": "Two correct differences (1 each)", "marks": 2 }
+      {
+        "step": "Oogonia 2n in foetal ovary",
+        "marks": 0.5
+      },
+      {
+        "step": "Primary oocyte 2n arrested in prophase I",
+        "marks": 0.5
+      },
+      {
+        "step": "Meiosis I in tertiary follicle, unequal",
+        "marks": 0.5
+      },
+      {
+        "step": "Secondary oocyte n + first polar body",
+        "marks": 0.5
+      },
+      {
+        "step": "Ovulation of secondary oocyte",
+        "marks": 0.5
+      },
+      {
+        "step": "Meiosis II after sperm entry → ovum + second polar body",
+        "marks": 0.5
+      },
+      {
+        "step": "Two correct differences (1 each)",
+        "marks": 2
+      }
+    ]
+  },
+  {
+    "id": "bio-02-q11",
+    "chapter": "ch-02",
+    "type": "sa3",
+    "marks": 3,
+    "stars": 3,
+    "label": "PYQ-style",
+    "topic": "Human sperm",
+    "stem": "Draw a labelled diagram of a human sperm. State the function of the acrosome and the middle piece.",
+    "hint": "Head, neck, middle piece, tail. One part has enzymes; the other has many mitochondria.",
+    "model_answer": "*How much to write: a labelled sketch + 3–4 lines · 5 minutes*\n\n<figure class=\"fig\">\n<svg viewBox=\"0 0 330 110\" role=\"img\" aria-label=\"Structure of a human sperm\">\n<ellipse cx=\"60\" cy=\"55\" rx=\"28\" ry=\"16\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.3\"/>\n<ellipse fill=\"#B0204F\" cx=\"62\" cy=\"55\" rx=\"18\" ry=\"10\" fill-opacity=\"0.3\"/>\n<path fill=\"#B0204F\" d=\"M44,42C26,44,26,66,44,68C36,62,36,48,44,42Z\"/>\n<rect x=\"88\" y=\"51\" width=\"8\" height=\"8\" fill=\"none\" stroke=\"currentColor\"/>\n<rect x=\"96\" y=\"49\" width=\"50\" height=\"12\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/>\n<path stroke=\"#B0204F\" fill=\"none\" stroke-width=\"1.2\" d=\"M98,55l4,-5l4,10l4,-10l4,10l4,-10l4,10l4,-10l4,10l4,-10l4,10l4,-5\"/>\n<path fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\" d=\"M146,55c10,-10,20,-10,30,0s20,10,30,0s20,-10,30,0s20,10,30,0\"/>\n<path stroke=\"currentColor\" stroke-width=\"0.6\" stroke-opacity=\"0.7\" fill=\"none\" d=\"M34,62L20,90M62,52L62,24M92,51L100,24M120,49L150,24M66,71L76,90M230,60L230,90\"/>\n<g font-size=\"10\" fill=\"currentColor\"><text x=\"2\" y=\"104\">Acrosome</text><text x=\"50\" y=\"20\">Nucleus</text><text x=\"92\" y=\"20\">Neck</text><text x=\"140\" y=\"20\">Middle piece (mitochondria)</text><text x=\"66\" y=\"104\">Head</text><text x=\"220\" y=\"104\">Tail</text></g>\n</svg>\n<figcaption>Structure of a human sperm.</figcaption>\n</figure>\n\nThe sperm is a microscopic structure with a <u>head, neck, middle piece and tail</u>, covered by a plasma membrane.\n- **Acrosome:** a cap-like structure over the anterior part of the haploid nucleus, <mark>filled with enzymes that help the sperm fertilise the ovum</mark> (penetrate its layers).\n- **Middle piece:** has <mark>numerous mitochondria</mark>, which produce energy for the movement of the tail, giving sperm motility.\n\n:::tip Your answer must contain\n- labels: <u>acrosome, nucleus, neck, middle piece, tail</u>\n- acrosome <mark>enzymes</mark>\n- middle piece <mark>mitochondria → energy</mark>\n:::\n\n**Marks are lost for:** labelling the middle piece as the neck; saying the acrosome stores food.",
+    "scheme": [
+      {
+        "step": "Labelled diagram",
+        "marks": 1
+      },
+      {
+        "step": "Acrosome function",
+        "marks": 1
+      },
+      {
+        "step": "Middle piece function",
+        "marks": 1
+      }
+    ]
+  },
+  {
+    "id": "bio-02-q12",
+    "chapter": "ch-02",
+    "type": "sa3",
+    "marks": 3,
+    "stars": 2,
+    "label": "PYQ-style",
+    "topic": "Seminiferous tubule",
+    "stem": "Draw a labelled diagram of a section of a seminiferous tubule. Name the hormones that regulate spermatogenesis and the cells on which they act.",
+    "hint": "Germ cells in layers towards the lumen, Sertoli cells, and Leydig cells outside. GnRH → LH and FSH.",
+    "model_answer": "*How much to write: a labelled sketch + 4 lines · 6 minutes*\n\n<figure class=\"fig\">\n<svg viewBox=\"0 0 330 200\" role=\"img\" aria-label=\"Section of a seminiferous tubule with germ cells, Sertoli cells and Leydig cells\">\n<circle cx=\"100\" cy=\"100\" r=\"86\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/>\n<path fill=\"#B0204F\" fill-opacity=\"0.3\" stroke=\"currentColor\" stroke-width=\"0.8\" d=\"M95,15L97,70L103,70L105,15ZM185,95L130,97L130,103L185,105ZM105,185L103,130L97,130L95,185ZM15,105L70,103L70,97L15,95Z\"/>\n<circle stroke=\"#B0204F\" cx=\"100\" cy=\"100\" r=\"78\" fill=\"none\" stroke-width=\"9\" stroke-linecap=\"round\" stroke-dasharray=\"0 15\"/>\n<circle cx=\"100\" cy=\"100\" r=\"63\" fill=\"none\" stroke=\"currentColor\" stroke-opacity=\"0.45\" stroke-width=\"13\" stroke-linecap=\"round\" stroke-dasharray=\"0 19\"/>\n<circle cx=\"100\" cy=\"100\" r=\"48\" fill=\"none\" stroke=\"currentColor\" stroke-opacity=\"0.3\" stroke-width=\"9\" stroke-linecap=\"round\" stroke-dasharray=\"0 14\"/>\n<circle cx=\"100\" cy=\"100\" r=\"36\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"5\" stroke-linecap=\"round\" stroke-dasharray=\"0 10\"/>\n<path fill=\"none\" stroke=\"currentColor\" stroke-width=\"0.8\" d=\"M100,72q6,10,0,18M126,92q-10,4,-16,0M100,128q-6,-10,0,-18M74,108q10,-4,16,0M118,80q-4,10,-12,12M82,120q4,-10,12,-12\"/>\n<path stroke=\"#B0204F\" stroke-width=\"10\" stroke-linecap=\"round\" d=\"M196,168h0M208,176h0M200,184h0M212,164h0\"/>\n<circle cx=\"200\" cy=\"140\" r=\"7\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"/>\n<path stroke=\"currentColor\" stroke-width=\"0.6\" stroke-opacity=\"0.7\" fill=\"none\" d=\"M104,40L236,22M110,84L236,50M125,75L236,78M140,70L236,106M165,60L236,134M207,140L236,160M216,172L236,186\"/>\n<g font-size=\"10\" fill=\"currentColor\"><text x=\"239\" y=\"25\">Sertoli cell</text><text x=\"239\" y=\"53\">Spermatozoa</text><text x=\"239\" y=\"81\">Spermatid</text><text x=\"239\" y=\"109\">Spermatocytes</text><text x=\"239\" y=\"137\">Spermatogonium</text><text x=\"239\" y=\"163\">Blood vessel</text><text x=\"239\" y=\"189\">Leydig cells</text></g>\n</svg>\n<figcaption>Section of a seminiferous tubule with the interstitial space.</figcaption>\n</figure>\n\n**Hormonal control:** spermatogenesis starts at puberty with a rise in <u>GnRH</u> from the hypothalamus, which acts on the anterior pituitary to release two gonadotropins:\n- <mark>LH acts on the Leydig cells</mark> and stimulates the synthesis and secretion of <u>androgens</u>, which stimulate spermatogenesis.\n- <mark>FSH acts on the Sertoli cells</mark> and stimulates the secretion of factors that help <u>spermiogenesis</u>.\n\n:::tip Your answer must contain\n- labels: <u>spermatogonia, spermatocytes, spermatids, sperms, Sertoli cell, Leydig cells</u>\n- GnRH → LH, FSH\n- <mark>LH → Leydig</mark>, <mark>FSH → Sertoli</mark>\n:::\n\n**Marks are lost for:** swapping the target cells of LH and FSH; drawing Leydig cells inside the tubule.",
+    "scheme": [
+      {
+        "step": "Labelled diagram",
+        "marks": 1
+      },
+      {
+        "step": "GnRH; LH on Leydig cells → androgens",
+        "marks": 1
+      },
+      {
+        "step": "FSH on Sertoli cells → spermiogenesis",
+        "marks": 1
+      }
+    ]
+  },
+  {
+    "id": "bio-02-q13",
+    "chapter": "ch-02",
+    "type": "la5",
+    "marks": 5,
+    "stars": 3,
+    "label": "PYQ-style",
+    "topic": "Menstrual cycle",
+    "stem": "(a) Describe the phases of the menstrual cycle and the hormonal changes in each, with a labelled graph of hormone levels. [3]<br>(b) What happens to the corpus luteum if (i) fertilisation does not occur and (ii) fertilisation occurs? [2]",
+    "hint": "Menstrual, follicular, ovulatory, luteal. Watch the LH surge and the progesterone peak.",
+    "model_answer": "*How much to write: about one page with a graph · 10 minutes*\n\n**(a)**\n\n<figure class=\"fig\">\n<svg viewBox=\"0 0 330 210\" role=\"img\" aria-label=\"Hormone levels, endometrium and phases over a 28-day menstrual cycle\">\n<path stroke=\"currentColor\" stroke-opacity=\"0.4\" fill=\"none\" d=\"M60,70H316M60,140H316M60,176H316\"/>\n<path stroke=\"#B0204F\" fill=\"none\" stroke-width=\"2\" d=\"M60,62L150,60Q172,50,180,14Q188,50,200,62L316,64\"/>\n<path fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" stroke-dasharray=\"4 3\" d=\"M60,56Q80,48,100,56L160,56Q175,48,180,40Q186,48,196,58L316,58\"/>\n<path stroke=\"#B0204F\" fill=\"none\" stroke-width=\"2\" d=\"M60,134Q120,130,165,92Q178,98,190,124Q215,108,245,116Q280,126,316,134\"/>\n<path fill=\"none\" stroke=\"#E0B400\" stroke-width=\"2\" stroke-dasharray=\"5 3\" d=\"M60,137L185,137Q205,128,240,98Q262,104,290,132L316,137\"/>\n<path fill=\"#B0204F\" fill-opacity=\"0.22\" d=\"M60,150Q80,164,105,170Q150,160,180,154Q240,146,316,144L316,176L60,176Z\"/>\n<rect fill=\"#B0204F\" x=\"60\" y=\"182\" width=\"46\" height=\"12\" fill-opacity=\"0.7\"/><rect fill=\"#B0204F\" x=\"106\" y=\"182\" width=\"69\" height=\"12\" fill-opacity=\"0.25\"/><rect x=\"175\" y=\"182\" width=\"10\" height=\"12\" fill=\"#E0B400\"/><rect fill=\"#B0204F\" x=\"185\" y=\"182\" width=\"131\" height=\"12\" fill-opacity=\"0.45\"/>\n<path stroke=\"currentColor\" stroke-width=\"0.6\" stroke-dasharray=\"2 2\" d=\"M180,10V194\"/>\n<g font-size=\"9\" fill=\"currentColor\"><text x=\"2\" y=\"50\">Pituitary</text><text x=\"2\" y=\"122\">Ovarian</text><text x=\"2\" y=\"164\">Endometrium</text><text x=\"190\" y=\"22\">LH surge</text><text x=\"100\" y=\"50\">FSH</text><text x=\"104\" y=\"110\">Estrogen</text><text x=\"250\" y=\"96\">Progesterone</text><text x=\"62\" y=\"191\" fill=\"#fff\">Menses</text><text x=\"112\" y=\"191\">Follicular</text><text x=\"232\" y=\"191\">Luteal</text><text x=\"56\" y=\"206\">0</text><text x=\"172\" y=\"206\">14</text><text x=\"300\" y=\"206\">28</text><text x=\"232\" y=\"206\">days</text></g>\n</svg>\n<figcaption>Pituitary and ovarian hormones and the endometrium over a 28-day cycle.</figcaption>\n</figure>\n\n1. **Menstrual phase (days 1–5):** the <u>endometrium and its blood vessels break down</u> and form the menstrual flow; it occurs only if the released ovum is not fertilised.\n2. **Follicular phase:** primary follicles grow into a mature <u>Graafian follicle</u>; the endometrium regenerates. <u>FSH and LH rise gradually</u>, and growing follicles secrete <u>estrogens</u>.\n3. **Ovulatory phase:** LH and FSH peak in the middle of the cycle (about day 14). The rapid <mark>LH surge induces rupture of the Graafian follicle</mark> and release of the ovum (<u>ovulation</u>).\n4. **Luteal phase:** the remaining Graafian follicle becomes the <u>corpus luteum</u>, which secretes large amounts of <mark>progesterone</mark>, essential for maintaining the endometrium for implantation.\n\n**(b)**\n- **(i) No fertilisation:** the corpus luteum <mark>degenerates</mark>; progesterone falls, the endometrium disintegrates and a new cycle begins with menstruation.\n- **(ii) Fertilisation:** the corpus luteum <mark>persists</mark>; its progesterone maintains the endometrium, which is needed for pregnancy. Menstrual cycles stop during pregnancy.\n\n:::tip Your answer must contain\n- a graph showing FSH, LH (surge), estrogen and progesterone with days\n- four phases with <u>hormones</u> and endometrium changes\n- <mark>LH surge → ovulation</mark>; corpus luteum → <mark>progesterone</mark>\n- fate of the corpus luteum in both cases\n:::\n\n**Marks are lost for:** saying FSH causes ovulation; giving estrogen as the main luteal hormone; no graph.",
+    "scheme": [
+      {
+        "step": "Labelled graph of hormones",
+        "marks": 1
+      },
+      {
+        "step": "Menstrual and follicular phases with hormones",
+        "marks": 1
+      },
+      {
+        "step": "Ovulatory (LH surge) and luteal (progesterone) phases",
+        "marks": 1
+      },
+      {
+        "step": "No fertilisation: corpus luteum degenerates → menstruation",
+        "marks": 1
+      },
+      {
+        "step": "Fertilisation: corpus luteum persists, progesterone maintains endometrium",
+        "marks": 1
+      }
     ]
   }
 ]

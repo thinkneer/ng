@@ -1,101 +1,313 @@
 [
   {
-    "id": "bio-13-q01", "chapter": "ch-13", "type": "mcq", "marks": 1, "stars": 3, "label": "PYQ-style", "topic": "Species–area",
+    "id": "bio-13-q01",
+    "chapter": "ch-13",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 3,
+    "label": "PYQ-style",
+    "topic": "Species–area",
     "stem": "In the species–area relationship for very large areas such as entire continents, the value of Z lies between:",
-    "options": ["0.1 and 0.2", "0.2 and 0.4", "0.6 and 1.2", "1.5 and 2.0"],
+    "options": [
+      "0.1 and 0.2",
+      "0.2 and 0.4",
+      "0.6 and 1.2",
+      "1.5 and 2.0"
+    ],
     "answer": "C",
     "hint": "Steeper than for smaller regions.",
     "model_answer": "**(c) 0.6 and 1.2.** For most regions Z is 0.1–0.2."
   },
   {
-    "id": "bio-13-q02", "chapter": "ch-13", "type": "mcq", "marks": 1, "stars": 2, "label": "PYQ-style", "topic": "Conservation",
+    "id": "bio-13-q02",
+    "chapter": "ch-13",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ-style",
+    "topic": "Conservation",
     "stem": "Which of these is an example of ex situ conservation?",
-    "options": ["Sacred grove", "National park", "Seed bank", "Biosphere reserve"],
+    "options": [
+      "Sacred grove",
+      "National park",
+      "Seed bank",
+      "Biosphere reserve"
+    ],
     "answer": "C",
     "hint": "Outside the natural habitat.",
     "model_answer": "**(c) Seed bank.** The others protect species in their natural habitats (in situ)."
   },
   {
-    "id": "bio-13-q03", "chapter": "ch-13", "type": "mcq", "marks": 1, "stars": 2, "label": "PYQ-style", "topic": "Alien species",
+    "id": "bio-13-q03",
+    "chapter": "ch-13",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ-style",
+    "topic": "Alien species",
     "stem": "The extinction of more than 200 species of cichlid fish in Lake Victoria was caused by:",
-    "options": ["over-fishing", "the introduction of Nile perch", "water hyacinth", "habitat fragmentation"],
+    "options": [
+      "over-fishing",
+      "the introduction of Nile perch",
+      "water hyacinth",
+      "habitat fragmentation"
+    ],
     "answer": "B",
     "hint": "An alien predator.",
     "model_answer": "**(b).** The introduced Nile perch, an alien invasive species."
   },
   {
-    "id": "bio-13-q04", "chapter": "ch-13", "type": "ar", "marks": 1, "stars": 3, "label": "PYQ-style", "topic": "Latitudinal gradient",
+    "id": "bio-13-q04",
+    "chapter": "ch-13",
+    "type": "ar",
+    "marks": 1,
+    "stars": 3,
+    "label": "PYQ-style",
+    "topic": "Latitudinal gradient",
     "stem": "**Assertion (A):** Tropical regions have greater species diversity than temperate regions.<br>**Reason (R):** Tropical latitudes have remained relatively undisturbed for millions of years, giving more time for diversification.",
-    "options": ["Both A and R are true, and R is the correct explanation of A.", "Both A and R are true, but R is not the correct explanation of A.", "A is true, but R is false.", "A is false, but R is true."],
+    "options": [
+      "Both A and R are true, and R is the correct explanation of A.",
+      "Both A and R are true, but R is not the correct explanation of A.",
+      "A is true, but R is false.",
+      "A is false, but R is true."
+    ],
     "answer": "A",
     "hint": "Speciation as a function of time.",
     "model_answer": "**(a).** Temperate areas were repeatedly glaciated; the tropics had a long, undisturbed evolutionary time."
   },
   {
-    "id": "bio-13-q05", "chapter": "ch-13", "type": "ar", "marks": 1, "stars": 2, "label": "PYQ-style", "topic": "Hotspots",
+    "id": "bio-13-q05",
+    "chapter": "ch-13",
+    "type": "ar",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ-style",
+    "topic": "Hotspots",
     "stem": "**Assertion (A):** Biodiversity hotspots are given priority for conservation.<br>**Reason (R):** Hotspots cover a large part of the Earth's land area.",
-    "options": ["Both A and R are true, and R is the correct explanation of A.", "Both A and R are true, but R is not the correct explanation of A.", "A is true, but R is false.", "A is false, but R is true."],
+    "options": [
+      "Both A and R are true, and R is the correct explanation of A.",
+      "Both A and R are true, but R is not the correct explanation of A.",
+      "A is true, but R is false.",
+      "A is false, but R is true."
+    ],
     "answer": "C",
     "hint": "Less than 2% of land.",
     "model_answer": "**(c).** A is true; R is false: hotspots cover less than 2% of land but hold very high species richness and endemism."
   },
   {
-    "id": "bio-13-q06", "chapter": "ch-13", "type": "vsa2", "marks": 2, "stars": 2, "label": "PYQ-style", "topic": "Rivet popper",
+    "id": "bio-13-q06",
+    "chapter": "ch-13",
+    "type": "vsa2",
+    "marks": 2,
+    "stars": 2,
+    "label": "PYQ-style",
+    "topic": "Rivet popper",
     "stem": "Explain the rivet popper hypothesis. Who proposed it?",
     "hint": "Airplane and rivets.",
     "model_answer": "Proposed by Paul Ehrlich. An ecosystem is compared to an airplane and its species to rivets. Removing a few rivets (species) may not affect flight at first, but as more are lost the plane weakens; losing rivets on the wings (key species driving major functions) is far more dangerous than losing those on seats or windows.",
     "scheme": [
-      { "step": "Paul Ehrlich; ecosystem = airplane, species = rivets", "marks": 1 },
-      { "step": "Progressive loss weakens; key species most critical", "marks": 1 }
+      {
+        "step": "Paul Ehrlich; ecosystem = airplane, species = rivets",
+        "marks": 1
+      },
+      {
+        "step": "Progressive loss weakens; key species most critical",
+        "marks": 1
+      }
     ]
   },
   {
-    "id": "bio-13-q07", "chapter": "ch-13", "type": "vsa2", "marks": 2, "stars": 2, "label": "PYQ-style", "topic": "Levels of biodiversity",
+    "id": "bio-13-q07",
+    "chapter": "ch-13",
+    "type": "vsa2",
+    "marks": 2,
+    "stars": 2,
+    "label": "PYQ-style",
+    "topic": "Levels of biodiversity",
     "stem": "Name the three levels of biodiversity and give one example from India for each.",
     "hint": "Rauwolfia; Western Ghats; ecosystems.",
     "model_answer": "Genetic diversity: Rauwolfia vomitoria varies in reserpine across Himalayan ranges (or 50,000 rice strains, 1,000 mango varieties). Species diversity: Western Ghats have more amphibian species than Eastern Ghats. Ecological diversity: India's deserts, rain forests, mangroves, coral reefs, wetlands, estuaries and alpine meadows.",
     "scheme": [
-      { "step": "Three levels named", "marks": 0.5 },
-      { "step": "Correct example for each (½ each)", "marks": 1.5 }
+      {
+        "step": "Three levels named",
+        "marks": 0.5
+      },
+      {
+        "step": "Correct example for each (½ each)",
+        "marks": 1.5
+      }
     ]
   },
   {
-    "id": "bio-13-q08", "chapter": "ch-13", "type": "sa3", "marks": 3, "stars": 3, "label": "PYQ-style", "topic": "Species–area",
+    "id": "bio-13-q08",
+    "chapter": "ch-13",
+    "type": "sa3",
+    "marks": 3,
+    "stars": 3,
+    "label": "PYQ-style",
+    "topic": "Species–area",
     "stem": "Describe the species–area relationship given by Humboldt. Write its equation, describe its graph and state the usual values of Z.",
     "hint": "Rectangular hyperbola; log–log line.",
     "model_answer": "Humboldt observed that within a region species richness increases with explored area, but only up to a limit. Plotted directly, the relation is a rectangular hyperbola; on log scales it is a straight line: log S = log C + Z log A (S = species richness, A = area, C = intercept, Z = slope). Z is 0.1–0.2 for most taxa and regions, but 0.6–1.2 for whole continents (1.15 for frugivorous birds and mammals).",
     "scheme": [
-      { "step": "Statement of Humboldt's observation", "marks": 1 },
-      { "step": "Equation and graph (hyperbola; straight line on log axes)", "marks": 1 },
-      { "step": "Z values", "marks": 1 }
+      {
+        "step": "Statement of Humboldt's observation",
+        "marks": 1
+      },
+      {
+        "step": "Equation and graph (hyperbola; straight line on log axes)",
+        "marks": 1
+      },
+      {
+        "step": "Z values",
+        "marks": 1
+      }
     ]
   },
   {
-    "id": "bio-13-q09", "chapter": "ch-13", "type": "case", "marks": 4, "stars": 2, "label": "PYQ-style", "topic": "Conservation",
+    "id": "bio-13-q09",
+    "chapter": "ch-13",
+    "type": "case",
+    "marks": 4,
+    "stars": 2,
+    "label": "PYQ-style",
+    "topic": "Conservation",
     "stem": "*In a hilly region of north-east India, villagers have protected patches of forest for generations for religious reasons; no tree may be cut there. Botanists found that these patches are the last refuges of many rare plants. The state has also set up a seed bank and a botanical garden for threatened species.*",
     "parts": [
-      { "id": "A", "marks": 1, "stem": "What are such protected forest patches called? Name the hills in Meghalaya where they are found.",
+      {
+        "id": "A",
+        "marks": 1,
+        "stem": "What are such protected forest patches called? Name the hills in Meghalaya where they are found.",
         "model_answer": "Sacred groves; Khasi and Jaintia Hills.",
-        "scheme": [ { "step": "Sacred groves; Khasi and Jaintia Hills", "marks": 1 } ] },
-      { "id": "B", "marks": 1, "stem": "Classify the groves, seed bank and botanical garden as in situ or ex situ conservation.",
+        "scheme": [
+          {
+            "step": "Sacred groves; Khasi and Jaintia Hills",
+            "marks": 1
+          }
+        ]
+      },
+      {
+        "id": "B",
+        "marks": 1,
+        "stem": "Classify the groves, seed bank and botanical garden as in situ or ex situ conservation.",
         "model_answer": "Sacred groves: in situ. Seed bank and botanical garden: ex situ.",
-        "scheme": [ { "step": "Correct classification", "marks": 1 } ] },
-      { "id": "C", "marks": 2, "stem": "Give two reasons why biodiversity should be conserved, one narrowly utilitarian and one broadly utilitarian.",
+        "scheme": [
+          {
+            "step": "Correct classification",
+            "marks": 1
+          }
+        ]
+      },
+      {
+        "id": "C",
+        "marks": 2,
+        "stem": "Give two reasons why biodiversity should be conserved, one narrowly utilitarian and one broadly utilitarian.",
         "model_answer": "Narrowly utilitarian: direct products such as food, fibre, firewood and medicines (over 25% of drugs from plants; bioprospecting). Broadly utilitarian: ecosystem services such as oxygen production (Amazon ≈ 20% of atmospheric oxygen), pollination, and aesthetic value.",
-        "scheme": [ { "step": "Narrowly utilitarian reason with example", "marks": 1 }, { "step": "Broadly utilitarian reason with example", "marks": 1 } ] }
+        "scheme": [
+          {
+            "step": "Narrowly utilitarian reason with example",
+            "marks": 1
+          },
+          {
+            "step": "Broadly utilitarian reason with example",
+            "marks": 1
+          }
+        ]
+      }
     ]
   },
   {
-    "id": "bio-13-q10", "chapter": "ch-13", "type": "la5", "marks": 5, "stars": 3, "label": "PYQ-style", "topic": "Loss of biodiversity",
+    "id": "bio-13-q10",
+    "chapter": "ch-13",
+    "type": "la5",
+    "marks": 5,
+    "stars": 3,
+    "label": "PYQ-style",
+    "topic": "Loss of biodiversity",
     "stem": "(a) Explain the four major causes of biodiversity loss ('The Evil Quartet') with one example each. [4]<br>(b) What is meant by the 'sixth extinction'? [1]",
     "hint": "Habitat, exploitation, aliens, co-extinction.",
     "model_answer": "(a) Habitat loss and fragmentation: the most important cause; tropical rain forests reduced from over 14% to no more than 6% of land; the Amazon is cleared for soya beans and cattle. Over-exploitation: Steller's sea cow and passenger pigeon were driven to extinction. Alien species invasions: Nile perch in Lake Victoria caused extinction of over 200 cichlid species; Parthenium, Lantana, water hyacinth; Clarias gariepinus. Co-extinctions: when a host species dies out, its obligate parasites or partners (e.g. a co-evolved pollinator) die out too.<br>(b) The present, human-driven wave of extinction, 100–1,000 times faster than pre-human rates.",
     "scheme": [
-      { "step": "Habitat loss and fragmentation with example", "marks": 1 },
-      { "step": "Over-exploitation with example", "marks": 1 },
-      { "step": "Alien invasions with example", "marks": 1 },
-      { "step": "Co-extinction with example", "marks": 1 },
-      { "step": "Sixth extinction explained", "marks": 1 }
+      {
+        "step": "Habitat loss and fragmentation with example",
+        "marks": 1
+      },
+      {
+        "step": "Over-exploitation with example",
+        "marks": 1
+      },
+      {
+        "step": "Alien invasions with example",
+        "marks": 1
+      },
+      {
+        "step": "Co-extinction with example",
+        "marks": 1
+      },
+      {
+        "step": "Sixth extinction explained",
+        "marks": 1
+      }
+    ]
+  },
+  {
+    "id": "bio-13-q11",
+    "chapter": "ch-13",
+    "type": "sa3",
+    "marks": 3,
+    "stars": 3,
+    "label": "PYQ-style",
+    "topic": "Conservation",
+    "stem": "What are biodiversity hotspots? Name those that cover India. Distinguish between in situ and ex situ conservation with two examples of each.",
+    "hint": "High species richness plus high endemism. One approach protects the whole habitat.",
+    "model_answer": "*How much to write: 6–8 lines · 5 minutes*\n\n**Biodiversity hotspots** are regions with <mark>very high species richness and a high degree of endemism</mark> (species found nowhere else). There are 34 worldwide, covering less than 2% of the Earth's land area. Three cover India's rich regions: <u>Western Ghats and Sri Lanka, Indo-Burma, and Himalaya</u>.\n\n| In situ (on site) | Ex situ (off site) |\n|---|---|\n| species protected <mark>in their natural habitat</mark>; the whole ecosystem is conserved | threatened species are <mark>taken out of their natural habitat</mark> and protected in special settings |\n| e.g. biosphere reserves, national parks, wildlife sanctuaries, sacred groves, hotspots | e.g. zoological parks, botanical gardens, wildlife safari parks, seed banks, cryopreservation of gametes |\n\n:::tip Your answer must contain\n- definition with <u>endemism</u>\n- the <mark>three hotspots</mark> covering India\n- in situ vs ex situ, two examples each\n:::\n\n**Marks are lost for:** naming the Eastern Ghats as a hotspot; listing seed banks as in situ.",
+    "scheme": [
+      {
+        "step": "Hotspot defined; three Indian hotspots",
+        "marks": 1
+      },
+      {
+        "step": "In situ explained with two examples",
+        "marks": 1
+      },
+      {
+        "step": "Ex situ explained with two examples",
+        "marks": 1
+      }
+    ]
+  },
+  {
+    "id": "bio-13-q12",
+    "chapter": "ch-13",
+    "type": "la5",
+    "marks": 5,
+    "stars": 2,
+    "label": "PYQ-style",
+    "topic": "Patterns and value of biodiversity",
+    "stem": "(a) How does species diversity change from the equator to the poles? Give three explanations for the greater biodiversity of the tropics. [3]<br>(b) Give the narrowly utilitarian, broadly utilitarian and ethical arguments for conserving biodiversity. [2]",
+    "hint": "(a) Colombia, New York, Greenland birds; time, constancy, solar energy. (b) Products, ecosystem services, intrinsic value.",
+    "model_answer": "*How much to write: about two-thirds of a page · 9 minutes*\n\n**(a)** Species diversity <mark>decreases as we move away from the equator towards the poles</mark>. For example, Colombia near the equator has nearly <u>1,400 bird species</u>, New York (41° N) has 105 and Greenland (71° N) only 56. The largely tropical Amazon rain forest has the greatest biodiversity on Earth.\n\nExplanations:\n1. **Speciation is a function of time:** temperate regions had <u>frequent glaciations</u> in the past, while the tropics remained <mark>undisturbed for millions of years</mark>, giving a long time for species diversification.\n2. **Less seasonal environment:** tropical environments are <u>relatively constant and predictable</u>, which promotes niche specialisation and greater diversity.\n3. **More solar energy** is available in the tropics, giving <u>higher productivity</u> and, indirectly, more diversity.\n\n**(b)**\n- **Narrowly utilitarian:** direct economic benefits: food, firewood, fibre, construction material, industrial products and <u>medicines</u> (over 25% of drugs sold worldwide come from plants); <u>bioprospecting</u> for useful products.\n- **Broadly utilitarian:** <mark>ecosystem services</mark>, e.g. the Amazon forest produces about 20% of the oxygen in the atmosphere; pollination by bees, birds and bats; aesthetic pleasure.\n- **Ethical:** every species has an <mark>intrinsic value</mark>; we have a moral duty to pass on our biological legacy in good order to future generations.\n\n:::tip Your answer must contain\n- the <mark>latitudinal gradient</mark> with an example\n- three reasons: <u>time, constancy, solar energy</u>\n- three arguments with one example each\n:::\n\n**Marks are lost for:** reversing the gradient; giving only economic reasons in (b).",
+    "scheme": [
+      {
+        "step": "Latitudinal gradient with example",
+        "marks": 1
+      },
+      {
+        "step": "Two explanations",
+        "marks": 1
+      },
+      {
+        "step": "Third explanation",
+        "marks": 1
+      },
+      {
+        "step": "Narrowly and broadly utilitarian arguments",
+        "marks": 1
+      },
+      {
+        "step": "Ethical argument",
+        "marks": 1
+      }
     ]
   }
 ]

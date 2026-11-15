@@ -1,104 +1,351 @@
 [
   {
-    "id": "bio-01-q01", "chapter": "ch-01", "type": "mcq", "marks": 1, "stars": 3, "label": "PYQ-style", "topic": "Ploidy",
+    "id": "bio-01-q01",
+    "chapter": "ch-01",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 3,
+    "label": "PYQ-style",
+    "topic": "Ploidy",
     "stem": "The cells of the nucellus of a flowering plant have 24 chromosomes. How many chromosomes will an endosperm cell and an antipodal cell have?",
-    "options": ["36 and 12", "24 and 12", "36 and 24", "12 and 36"],
+    "options": [
+      "36 and 12",
+      "24 and 12",
+      "36 and 24",
+      "12 and 36"
+    ],
     "answer": "A",
     "hint": "Nucellus is 2n. Endosperm is 3n; antipodals are n.",
     "model_answer": "**(a) 36 and 12.** 2n = 24 so n = 12; endosperm 3n = 36; antipodal n = 12."
   },
   {
-    "id": "bio-01-q02", "chapter": "ch-01", "type": "mcq", "marks": 1, "stars": 2, "label": "PYQ-style", "topic": "Endosperm",
+    "id": "bio-01-q02",
+    "chapter": "ch-01",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ-style",
+    "topic": "Endosperm",
     "stem": "The water of a tender coconut and its white kernel are, respectively:",
-    "options": ["cellular endosperm and free-nuclear endosperm", "free-nuclear endosperm and cellular endosperm", "nucellus and perisperm", "free-nuclear embryo and cotyledon"],
+    "options": [
+      "cellular endosperm and free-nuclear endosperm",
+      "free-nuclear endosperm and cellular endosperm",
+      "nucellus and perisperm",
+      "free-nuclear embryo and cotyledon"
+    ],
     "answer": "B",
     "hint": "Which stage of endosperm has walls?",
     "model_answer": "**(b).** Coconut water is free-nuclear endosperm (thousands of nuclei); the kernel is cellular endosperm."
   },
   {
-    "id": "bio-01-q03", "chapter": "ch-01", "type": "mcq", "marks": 1, "stars": 2, "label": "PYQ-style", "topic": "Outbreeding devices",
+    "id": "bio-01-q03",
+    "chapter": "ch-01",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ-style",
+    "topic": "Outbreeding devices",
     "stem": "Which plant prevents both autogamy and geitonogamy?",
-    "options": ["Maize", "Castor", "Papaya", "Commelina"],
+    "options": [
+      "Maize",
+      "Castor",
+      "Papaya",
+      "Commelina"
+    ],
     "answer": "C",
     "hint": "Male and female flowers must be on different plants.",
     "model_answer": "**(c) Papaya** is dioecious. Maize and castor are monoecious (only autogamy prevented); *Commelina* makes cleistogamous flowers."
   },
   {
-    "id": "bio-01-q04", "chapter": "ch-01", "type": "ar", "marks": 1, "stars": 3, "label": "PYQ-style", "topic": "Pollination",
+    "id": "bio-01-q04",
+    "chapter": "ch-01",
+    "type": "ar",
+    "marks": 1,
+    "stars": 3,
+    "label": "PYQ-style",
+    "topic": "Pollination",
     "stem": "**Assertion (A):** Geitonogamy is functionally cross-pollination but genetically similar to autogamy.<br>**Reason (R):** In geitonogamy, pollen is transferred to a flower of the same plant.",
-    "options": ["Both A and R are true, and R is the correct explanation of A.", "Both A and R are true, but R is not the correct explanation of A.", "A is true, but R is false.", "A is false, but R is true."],
+    "options": [
+      "Both A and R are true, and R is the correct explanation of A.",
+      "Both A and R are true, but R is not the correct explanation of A.",
+      "A is true, but R is false.",
+      "A is false, but R is true."
+    ],
     "answer": "A",
     "hint": "Do all flowers on one plant share a genotype?",
     "model_answer": "**(a).** An agent carries pollen between flowers (like cross-pollination), but the flowers are on the same plant, so the genotype is the same as in autogamy."
   },
   {
-    "id": "bio-01-q05", "chapter": "ch-01", "type": "ar", "marks": 1, "stars": 2, "label": "PYQ-style", "topic": "Fruit",
+    "id": "bio-01-q05",
+    "chapter": "ch-01",
+    "type": "ar",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ-style",
+    "topic": "Fruit",
     "stem": "**Assertion (A):** Apple is called a false fruit.<br>**Reason (R):** In apple, the edible part develops only from the ovary.",
-    "options": ["Both A and R are true, and R is the correct explanation of A.", "Both A and R are true, but R is not the correct explanation of A.", "A is true, but R is false.", "A is false, but R is true."],
+    "options": [
+      "Both A and R are true, and R is the correct explanation of A.",
+      "Both A and R are true, but R is not the correct explanation of A.",
+      "A is true, but R is false.",
+      "A is false, but R is true."
+    ],
     "answer": "C",
     "hint": "Which floral part besides the ovary is in an apple?",
     "model_answer": "**(c).** A is true; R is false: the thalamus also contributes to the apple, which is why it is a false fruit."
   },
   {
-    "id": "bio-01-q06", "chapter": "ch-01", "type": "vsa2", "marks": 2, "stars": 2, "label": "PYQ-style", "topic": "Artificial hybridisation",
+    "id": "bio-01-q06",
+    "chapter": "ch-01",
+    "type": "vsa2",
+    "marks": 2,
+    "stars": 2,
+    "label": "PYQ-style",
+    "topic": "Artificial hybridisation",
     "stem": "A plant breeder wants to use a variety with bisexual flowers as the female parent in a cross. List, in order, the steps she must follow and state why the first two are needed.",
     "hint": "Two steps stop the wrong pollen; two steps deliver the right pollen.",
     "model_answer": "Emasculation → bagging → dust pollen of the chosen male parent on the receptive stigma → rebagging. Emasculation (removing anthers before they dehisce) prevents self-pollination; bagging (butter paper) prevents contamination by unwanted pollen.",
     "scheme": [
-      { "step": "Correct sequence: emasculation, bagging, pollination of receptive stigma, rebagging", "marks": 1 },
-      { "step": "Emasculation before dehiscence prevents self-pollination", "marks": 0.5 },
-      { "step": "Bagging prevents contamination by unwanted pollen", "marks": 0.5 }
+      {
+        "step": "Correct sequence: emasculation, bagging, pollination of receptive stigma, rebagging",
+        "marks": 1
+      },
+      {
+        "step": "Emasculation before dehiscence prevents self-pollination",
+        "marks": 0.5
+      },
+      {
+        "step": "Bagging prevents contamination by unwanted pollen",
+        "marks": 0.5
+      }
     ]
   },
   {
-    "id": "bio-01-q07", "chapter": "ch-01", "type": "vsa2", "marks": 2, "stars": 2, "label": "PYQ-style", "topic": "Cleistogamy",
+    "id": "bio-01-q07",
+    "chapter": "ch-01",
+    "type": "vsa2",
+    "marks": 2,
+    "stars": 2,
+    "label": "PYQ-style",
+    "topic": "Cleistogamy",
     "stem": "*Viola* produces two kinds of flowers. Name them and explain why one of them gives assured seed set even when no pollinator visits.",
     "hint": "One kind never opens.",
     "model_answer": "Chasmogamous flowers (open, anthers and stigma exposed) and cleistogamous flowers (never open). In cleistogamous flowers the anthers and stigma lie close together inside the closed flower, so pollen falls on the stigma (autogamy) without any agent, giving assured seed set.",
     "scheme": [
-      { "step": "Names: chasmogamous and cleistogamous", "marks": 1 },
-      { "step": "Cleistogamous flowers stay closed; anthers and stigma close together → autogamy without pollinators", "marks": 1 }
+      {
+        "step": "Names: chasmogamous and cleistogamous",
+        "marks": 1
+      },
+      {
+        "step": "Cleistogamous flowers stay closed; anthers and stigma close together → autogamy without pollinators",
+        "marks": 1
+      }
     ]
   },
   {
-    "id": "bio-01-q08", "chapter": "ch-01", "type": "sa3", "marks": 3, "stars": 3, "label": "PYQ-style", "topic": "Embryo sac",
+    "id": "bio-01-q08",
+    "chapter": "ch-01",
+    "type": "sa3",
+    "marks": 3,
+    "stars": 3,
+    "label": "PYQ-style",
+    "topic": "Embryo sac",
     "stem": "Trace the development of the female gametophyte from the megaspore mother cell in a typical flowering plant. Why is this embryo sac described as monosporic and as 7-celled but 8-nucleate?",
     "hint": "One meiosis, then three free-nuclear mitoses, then walls.",
     "model_answer": "A single MMC (2n) in the micropylar region of the nucellus undergoes meiosis → 4 megaspores (n); three degenerate, one is functional. Its nucleus divides by three successive free-nuclear mitoses → 8 nuclei, 4 at each pole. Walls form: egg apparatus (2 synergids + egg) at the micropylar end, 3 antipodals at the chalazal end; the 2 polar nuclei move into the large central cell. It develops from one megaspore (monosporic) and has 7 cells but 8 nuclei because the central cell is binucleate.",
     "scheme": [
-      { "step": "MMC in micropylar nucellus → meiosis → 4 megaspores", "marks": 0.5 },
-      { "step": "3 degenerate, 1 functional", "marks": 0.5 },
-      { "step": "3 free-nuclear mitoses → 8 nuclei, 4 at each pole", "marks": 0.5 },
-      { "step": "Egg apparatus at micropylar end, 3 antipodals at chalazal end", "marks": 0.5 },
-      { "step": "2 polar nuclei in central cell", "marks": 0.5 },
-      { "step": "Monosporic = from one megaspore; 7 cells, 8 nuclei explained", "marks": 0.5 }
+      {
+        "step": "MMC in micropylar nucellus → meiosis → 4 megaspores",
+        "marks": 0.5
+      },
+      {
+        "step": "3 degenerate, 1 functional",
+        "marks": 0.5
+      },
+      {
+        "step": "3 free-nuclear mitoses → 8 nuclei, 4 at each pole",
+        "marks": 0.5
+      },
+      {
+        "step": "Egg apparatus at micropylar end, 3 antipodals at chalazal end",
+        "marks": 0.5
+      },
+      {
+        "step": "2 polar nuclei in central cell",
+        "marks": 0.5
+      },
+      {
+        "step": "Monosporic = from one megaspore; 7 cells, 8 nuclei explained",
+        "marks": 0.5
+      }
     ]
   },
   {
-    "id": "bio-01-q09", "chapter": "ch-01", "type": "case", "marks": 4, "stars": 2, "label": "PYQ-style", "topic": "Outbreeding and hybrid seed",
+    "id": "bio-01-q09",
+    "chapter": "ch-01",
+    "type": "case",
+    "marks": 4,
+    "stars": 2,
+    "label": "PYQ-style",
+    "topic": "Outbreeding and hybrid seed",
     "stem": "*A student studied a bisexual flower of a plant over a week. Its stigma was receptive on days 2–3; its anthers dehisced on days 4–5. Insects visited the flowers. A seed company wants to make hybrid seed from this plant, and farmers complain that seed saved from hybrid crops gives a poor crop the next year.*",
     "parts": [
-      { "id": "A", "marks": 1, "stem": "Name the outbreeding device shown by this flower.",
+      {
+        "id": "A",
+        "marks": 1,
+        "stem": "Name the outbreeding device shown by this flower.",
         "model_answer": "Pollen release and stigma receptivity are not synchronised (dichogamy; here the stigma matures first).",
-        "scheme": [ { "step": "Non-synchronised pollen release and stigma receptivity (dichogamy)", "marks": 1 } ] },
-      { "id": "B", "marks": 1, "stem": "Why do plants avoid continued self-pollination?",
+        "scheme": [
+          {
+            "step": "Non-synchronised pollen release and stigma receptivity (dichogamy)",
+            "marks": 1
+          }
+        ]
+      },
+      {
+        "id": "B",
+        "marks": 1,
+        "stem": "Why do plants avoid continued self-pollination?",
         "model_answer": "Continued self-pollination causes inbreeding depression.",
-        "scheme": [ { "step": "Inbreeding depression", "marks": 1 } ] },
-      { "id": "C", "marks": 2, "stem": "Why does seed saved from a hybrid crop give a poorer crop, and how could apomixis solve this?",
+        "scheme": [
+          {
+            "step": "Inbreeding depression",
+            "marks": 1
+          }
+        ]
+      },
+      {
+        "id": "C",
+        "marks": 2,
+        "stem": "Why does seed saved from a hybrid crop give a poorer crop, and how could apomixis solve this?",
         "model_answer": "In the next generation the hybrid characters segregate, so the hybrid vigour is lost and farmers must buy fresh hybrid seed each year. If the hybrid were made apomictic, its seeds would form without fertilisation, so there would be no segregation and the same seed could be reused.",
-        "scheme": [ { "step": "Hybrid characters segregate in the progeny", "marks": 1 }, { "step": "Apomictic seed forms without fertilisation → no segregation → seed reusable", "marks": 1 } ] }
+        "scheme": [
+          {
+            "step": "Hybrid characters segregate in the progeny",
+            "marks": 1
+          },
+          {
+            "step": "Apomictic seed forms without fertilisation → no segregation → seed reusable",
+            "marks": 1
+          }
+        ]
+      }
     ]
   },
   {
-    "id": "bio-01-q10", "chapter": "ch-01", "type": "la5", "marks": 5, "stars": 3, "label": "PYQ-style", "topic": "Ovule and double fertilisation",
+    "id": "bio-01-q10",
+    "chapter": "ch-01",
+    "type": "la5",
+    "marks": 5,
+    "stars": 3,
+    "label": "PYQ-style",
+    "topic": "Ovule and double fertilisation",
     "stem": "(a) Draw a labelled diagram of the L.S. of an anatropous ovule and label any six parts. [3]<br>(b) Describe double fertilisation and name the products with their ploidy. [2]",
     "hint": "Labels: funicle, hilum, integuments, micropyle, chalaza, nucellus, embryo sac. Two fusions, two products.",
     "model_answer": "(a) Correct inverted ovule with the micropyle beside the funicle; any six labels: funicle, hilum, outer integument, inner integument, micropyle, chalaza, nucellus, embryo sac (antipodals, polar nuclei, egg, synergids).<br>(b) The pollen tube enters a synergid and releases two male gametes. One fuses with the egg (syngamy) → zygote (2n). The other fuses with the two polar nuclei (triple fusion) → primary endosperm nucleus (3n). Two fusions in one embryo sac = double fertilisation.",
     "scheme": [
-      { "step": "Neat diagram with micropyle and funicle on the same side", "marks": 1 },
-      { "step": "Any six correct labels (½ each)", "marks": 2 },
-      { "step": "Syngamy: male gamete + egg → zygote 2n", "marks": 1 },
-      { "step": "Triple fusion: male gamete + 2 polar nuclei → PEN 3n; both = double fertilisation", "marks": 1 }
+      {
+        "step": "Neat diagram with micropyle and funicle on the same side",
+        "marks": 1
+      },
+      {
+        "step": "Any six correct labels (½ each)",
+        "marks": 2
+      },
+      {
+        "step": "Syngamy: male gamete + egg → zygote 2n",
+        "marks": 1
+      },
+      {
+        "step": "Triple fusion: male gamete + 2 polar nuclei → PEN 3n; both = double fertilisation",
+        "marks": 1
+      }
+    ]
+  },
+  {
+    "id": "bio-01-q11",
+    "chapter": "ch-01",
+    "type": "sa3",
+    "marks": 3,
+    "stars": 3,
+    "label": "PYQ-style",
+    "topic": "Pollen grain",
+    "stem": "Draw a labelled diagram of a mature two-celled pollen grain. Why are pollen grains well preserved as fossils?",
+    "hint": "Two wall layers, germ pores, and two cells of unequal size. Think of the toughest organic material known.",
+    "model_answer": "*How much to write: a labelled sketch + 4–5 lines · 6 minutes*\n\n<figure class=\"fig\">\n<svg viewBox=\"0 0 320 180\" role=\"img\" aria-label=\"Mature two-celled pollen grain\">\n<circle stroke=\"#B0204F\" cx=\"110\" cy=\"90\" r=\"62\" fill=\"none\" stroke-width=\"7\" stroke-dasharray=\"118 12\"/>\n<circle cx=\"110\" cy=\"90\" r=\"54\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/>\n<path fill=\"#B0204F\" d=\"M118 66 C140 60 152 74 146 90 C140 104 122 100 116 88 C111 78 110 70 118 66 Z\" fill-opacity=\"0.25\" stroke=\"currentColor\" stroke-width=\"1\"/>\n<ellipse cx=\"92\" cy=\"104\" rx=\"26\" ry=\"10\" transform=\"rotate(25 92 104)\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"/>\n<ellipse cx=\"92\" cy=\"104\" rx=\"9\" ry=\"5\" transform=\"rotate(25 92 104)\" fill=\"currentColor\"/>\n<path stroke=\"currentColor\" stroke-width=\"0.6\" opacity=\"0.7\" fill=\"none\" d=\"M168,62L210,38M160,78L210,68M146,84L210,98M110,112L210,128M73,40L58,36\"/>\n<g font-size=\"10\" fill=\"currentColor\">\n<text x=\"213\" y=\"41\">Exine (sporopollenin)</text><text x=\"213\" y=\"71\">Intine</text><text x=\"213\" y=\"101\">Vegetative nucleus</text><text x=\"213\" y=\"131\">Generative cell</text><text x=\"6\" y=\"36\">Germ pore</text>\n</g>\n</svg>\n<figcaption>Mature two-celled pollen grain.</figcaption>\n</figure>\n\n- **Exine:** hard outer layer made of <mark>sporopollenin</mark>; it has prominent apertures called <u>germ pores</u> where sporopollenin is absent.\n- **Intine:** thin, continuous inner wall of <u>cellulose and pectin</u>.\n- **Vegetative cell:** bigger, with abundant food reserve and a large, irregular nucleus.\n- **Generative cell:** small, spindle-shaped, floats in the cytoplasm of the vegetative cell; it divides to give <u>two male gametes</u>.\n\n**Fossils:** sporopollenin is <mark>one of the most resistant organic materials known</mark>; it withstands high temperatures and strong acids and alkalis, and <u>no enzyme that degrades it is known</u>. So the exine survives for very long periods.\n\n:::tip Your answer must contain\n- a sketch labelling <u>exine, intine, germ pore, vegetative cell, generative cell</u>\n- exine of <mark>sporopollenin</mark>; intine of cellulose and pectin\n- why sporopollenin resists decay\n:::\n\n**Marks are lost for:** labelling the generative nucleus as the vegetative one; drawing no germ pore; saying the intine makes pollen resistant.",
+    "scheme": [
+      {
+        "step": "Labelled diagram (any four labels)",
+        "marks": 1
+      },
+      {
+        "step": "Exine/intine composition, germ pores, two cells",
+        "marks": 1
+      },
+      {
+        "step": "Sporopollenin resists heat, acids, alkalis, enzymes",
+        "marks": 1
+      }
+    ]
+  },
+  {
+    "id": "bio-01-q12",
+    "chapter": "ch-01",
+    "type": "sa3",
+    "marks": 3,
+    "stars": 3,
+    "label": "PYQ-style",
+    "topic": "Outbreeding devices",
+    "stem": "Continued self-pollination leads to inbreeding depression. Describe three devices that flowering plants have evolved to discourage self-pollination and encourage cross-pollination.",
+    "hint": "Timing, position, genetic incompatibility, and unisexual flowers.",
+    "model_answer": "*How much to write: 6–8 lines · 5 minutes*\n\nOutbreeding devices (any three, with a line each):\n1. **No synchrony:** in some species <u>pollen release and stigma receptivity are not synchronised</u>; either the pollen is released before the stigma is receptive, or the stigma becomes receptive much before pollen release.\n2. **Different positions:** the <u>anther and stigma are placed at different positions</u>, so pollen cannot reach the stigma of the same flower.\n3. **Self-incompatibility:** a <mark>genetic mechanism</mark> that prevents pollen from fertilising ovules of the same flower by <u>inhibiting pollen germination or pollen-tube growth</u> in the pistil.\n4. **Unisexual flowers:** if male and female flowers are on the same plant (<u>monoecious</u>, e.g. castor, maize), <u>autogamy is prevented but not geitonogamy</u>. If they are on different plants (<u>dioecious</u>, e.g. papaya), <mark>both autogamy and geitonogamy are prevented</mark>.\n\n:::tip Your answer must contain\n- three devices, each explained\n- the term <mark>self-incompatibility</mark> as a genetic mechanism\n- monoecious vs dioecious with examples\n:::\n\n**Marks are lost for:** saying monoecious plants prevent geitonogamy; listing devices without explaining them.",
+    "scheme": [
+      {
+        "step": "First device explained",
+        "marks": 1
+      },
+      {
+        "step": "Second device explained",
+        "marks": 1
+      },
+      {
+        "step": "Third device explained",
+        "marks": 1
+      }
+    ]
+  },
+  {
+    "id": "bio-01-q13",
+    "chapter": "ch-01",
+    "type": "la5",
+    "marks": 5,
+    "stars": 2,
+    "label": "PYQ-style",
+    "topic": "Microsporangium and apomixis",
+    "stem": "(a) Draw a labelled diagram of the transverse section of a mature microsporangium. Describe microsporogenesis. [3]<br>(b) What is apomixis? Why is it important for the hybrid seed industry? [2]",
+    "hint": "(a) Four wall layers, sporogenous tissue, meiosis to tetrads. (b) Seeds without fertilisation, so the hybrid does not segregate.",
+    "model_answer": "*How much to write: about two-thirds of a page with a sketch · 10 minutes*\n\n**(a)**\n\n<figure class=\"fig\">\n<svg viewBox=\"0 0 320 190\" role=\"img\" aria-label=\"Transverse section of a microsporangium showing four wall layers and sporogenous tissue\">\n<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\">\n<circle cx=\"100\" cy=\"95\" r=\"80\"/>\n<circle cx=\"100\" cy=\"95\" r=\"71\"/>\n<circle cx=\"100\" cy=\"95\" r=\"61\"/>\n<circle cx=\"100\" cy=\"95\" r=\"55\" stroke-dasharray=\"3 3\"/>\n<circle cx=\"100\" cy=\"95\" r=\"49\"/>\n<circle cx=\"100\" cy=\"95\" r=\"38\"/>\n</g>\n<circle fill=\"#B0204F\" cx=\"100\" cy=\"95\" r=\"49\" fill-opacity=\"0.18\"/>\n<path stroke=\"currentColor\" stroke-width=\"0.8\" fill=\"none\" d=\"M138,95L149,95M62,95L51,95M100,57L100,46M100,133L100,144M127,68L135,60M73,68L65,60M127,122L135,130M73,122L65,130\"/>\n<g fill=\"none\" stroke=\"currentColor\" stroke-width=\"0.9\">\n<circle cx=\"100\" cy=\"95\" r=\"7\"/><circle cx=\"114\" cy=\"95\" r=\"7\"/><circle cx=\"86\" cy=\"95\" r=\"7\"/><circle cx=\"100\" cy=\"81\" r=\"7\"/><circle cx=\"100\" cy=\"109\" r=\"7\"/>\n<circle cx=\"112\" cy=\"83\" r=\"6\"/><circle cx=\"88\" cy=\"83\" r=\"6\"/><circle cx=\"112\" cy=\"107\" r=\"6\"/><circle cx=\"88\" cy=\"107\" r=\"6\"/>\n</g>\n<path stroke=\"currentColor\" stroke-width=\"0.6\" opacity=\"0.7\" fill=\"none\" d=\"M157,40L215,30M166,65L215,62M157,95L215,94M139,107L215,126M114,95L215,158\"/>\n<g font-size=\"10\" fill=\"currentColor\">\n<text x=\"218\" y=\"33\">Epidermis</text><text x=\"218\" y=\"65\">Endothecium</text><text x=\"218\" y=\"97\">Middle layers</text><text x=\"218\" y=\"129\">Tapetum</text><text x=\"218\" y=\"161\">Sporogenous tissue</text>\n</g>\n</svg>\n<figcaption>T.S. of a microsporangium: four wall layers around sporogenous tissue.</figcaption>\n</figure>\n\n- The wall has <u>four layers</u>: epidermis, endothecium, middle layers and <mark>tapetum</mark> (innermost; nourishes developing pollen; cells often have more than one nucleus).\n- In a young anther the centre is filled with <u>sporogenous tissue</u>; each cell is a potential <u>pollen mother cell (PMC, 2n)</u>.\n- **Microsporogenesis:** each PMC undergoes <mark>meiosis</mark> to form a cluster of four haploid cells, the <u>microspore tetrad</u>. As the anther matures and dehydrates, the microspores separate and develop into <u>pollen grains</u>.\n\n**(b) Apomixis:** a form of asexual reproduction that <mark>produces seeds without fertilisation</mark> (e.g. some species of Asteraceae and grasses). The embryo may form from a diploid egg cell formed without reduction division, or from nucellar cells.\n\n**Importance:** hybrid seeds must be <u>bought every year</u>, because seeds collected from hybrids segregate and lose the hybrid characters. If hybrids are made into <mark>apomicts, there is no segregation</mark>, so farmers can keep using the hybrid seed year after year.\n\n:::tip Your answer must contain\n- labelled T.S. with <u>epidermis, endothecium, middle layers, tapetum, sporogenous tissue</u>\n- PMC → <mark>meiosis</mark> → microspore tetrad → pollen grains\n- apomixis = <mark>seed without fertilisation</mark>\n- no segregation in apomictic hybrids\n:::\n\n**Marks are lost for:** putting the tapetum outside the endothecium; saying microspores form by mitosis; confusing apomixis with parthenocarpy.",
+    "scheme": [
+      {
+        "step": "Labelled diagram",
+        "marks": 1
+      },
+      {
+        "step": "Wall layers and roles (tapetum)",
+        "marks": 1
+      },
+      {
+        "step": "Microsporogenesis: PMC meiosis → tetrad → pollen",
+        "marks": 1
+      },
+      {
+        "step": "Apomixis defined with example or origin",
+        "marks": 1
+      },
+      {
+        "step": "Importance: hybrid character kept, no segregation",
+        "marks": 1
+      }
     ]
   }
 ]

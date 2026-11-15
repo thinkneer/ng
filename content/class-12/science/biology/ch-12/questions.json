@@ -1,100 +1,275 @@
 [
   {
-    "id": "bio-12-q01", "chapter": "ch-12", "type": "mcq", "marks": 1, "stars": 3, "label": "PYQ-style", "topic": "Pyramids",
+    "id": "bio-12-q01",
+    "chapter": "ch-12",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 3,
+    "label": "PYQ-style",
+    "topic": "Pyramids",
     "stem": "Which ecological pyramid can never be inverted?",
-    "options": ["Pyramid of numbers", "Pyramid of biomass", "Pyramid of energy", "Both numbers and biomass"],
+    "options": [
+      "Pyramid of numbers",
+      "Pyramid of biomass",
+      "Pyramid of energy",
+      "Both numbers and biomass"
+    ],
     "answer": "C",
     "hint": "Energy is lost at each step.",
     "model_answer": "**(c) Pyramid of energy.** Energy at a higher level is always less than at the lower one."
   },
   {
-    "id": "bio-12-q02", "chapter": "ch-12", "type": "mcq", "marks": 1, "stars": 2, "label": "PYQ-style", "topic": "10 per cent law",
+    "id": "bio-12-q02",
+    "chapter": "ch-12",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ-style",
+    "topic": "10 per cent law",
     "stem": "If producers fix 20,000 J of energy, the energy available to secondary consumers is about:",
-    "options": ["2,000 J", "200 J", "20 J", "2 J"],
+    "options": [
+      "2,000 J",
+      "200 J",
+      "20 J",
+      "2 J"
+    ],
     "answer": "B",
     "hint": "Two transfers of 10%.",
     "model_answer": "**(b) 200 J.** 20,000 → 2,000 (primary) → 200 (secondary)."
   },
   {
-    "id": "bio-12-q03", "chapter": "ch-12", "type": "mcq", "marks": 1, "stars": 2, "label": "PYQ-style", "topic": "Decomposition",
+    "id": "bio-12-q03",
+    "chapter": "ch-12",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ-style",
+    "topic": "Decomposition",
     "stem": "Decomposition will be slowest for detritus that is:",
-    "options": ["rich in nitrogen, in a warm moist place", "rich in sugars, in a warm moist place", "rich in lignin, in a cold waterlogged place", "rich in nitrogen, in a cold place"],
+    "options": [
+      "rich in nitrogen, in a warm moist place",
+      "rich in sugars, in a warm moist place",
+      "rich in lignin, in a cold waterlogged place",
+      "rich in nitrogen, in a cold place"
+    ],
     "answer": "C",
     "hint": "Lignin, low temperature, no oxygen.",
     "model_answer": "**(c).** Lignin resists breakdown; cold and anaerobic conditions inhibit decomposers."
   },
   {
-    "id": "bio-12-q04", "chapter": "ch-12", "type": "ar", "marks": 1, "stars": 3, "label": "PYQ-style", "topic": "Pyramid of biomass",
+    "id": "bio-12-q04",
+    "chapter": "ch-12",
+    "type": "ar",
+    "marks": 1,
+    "stars": 3,
+    "label": "PYQ-style",
+    "topic": "Pyramid of biomass",
     "stem": "**Assertion (A):** The pyramid of biomass in the sea is generally inverted.<br>**Reason (R):** The biomass of fishes far exceeds that of phytoplankton at any given time.",
-    "options": ["Both A and R are true, and R is the correct explanation of A.", "Both A and R are true, but R is not the correct explanation of A.", "A is true, but R is false.", "A is false, but R is true."],
+    "options": [
+      "Both A and R are true, and R is the correct explanation of A.",
+      "Both A and R are true, but R is not the correct explanation of A.",
+      "A is true, but R is false.",
+      "A is false, but R is true."
+    ],
     "answer": "A",
     "hint": "Standing crop of phytoplankton is small.",
     "model_answer": "**(a).** The small but fast-multiplying standing crop of phytoplankton supports a larger fish biomass."
   },
   {
-    "id": "bio-12-q05", "chapter": "ch-12", "type": "ar", "marks": 1, "stars": 2, "label": "PYQ-style", "topic": "Food chains",
+    "id": "bio-12-q05",
+    "chapter": "ch-12",
+    "type": "ar",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ-style",
+    "topic": "Food chains",
     "stem": "**Assertion (A):** In terrestrial ecosystems, more energy flows through the detritus food chain than through the grazing food chain.<br>**Reason (R):** In aquatic ecosystems, the grazing food chain is the major conduit of energy flow.",
-    "options": ["Both A and R are true, and R is the correct explanation of A.", "Both A and R are true, but R is not the correct explanation of A.", "A is true, but R is false.", "A is false, but R is true."],
+    "options": [
+      "Both A and R are true, and R is the correct explanation of A.",
+      "Both A and R are true, but R is not the correct explanation of A.",
+      "A is true, but R is false.",
+      "A is false, but R is true."
+    ],
     "answer": "B",
     "hint": "Both statements are NCERT facts, about different ecosystems.",
     "model_answer": "**(b).** Both true, but a fact about aquatic systems does not explain energy flow on land."
   },
   {
-    "id": "bio-12-q06", "chapter": "ch-12", "type": "vsa2", "marks": 2, "stars": 2, "label": "PYQ-style", "topic": "Productivity",
+    "id": "bio-12-q06",
+    "chapter": "ch-12",
+    "type": "vsa2",
+    "marks": 2,
+    "stars": 2,
+    "label": "PYQ-style",
+    "topic": "Productivity",
     "stem": "Distinguish between gross primary productivity and net primary productivity. Which one is available to herbivores?",
     "hint": "Respiration.",
     "model_answer": "GPP is the rate of production of organic matter during photosynthesis. NPP is GPP minus the organic matter used by plants in respiration (NPP = GPP − R). NPP is available to herbivores and decomposers.",
     "scheme": [
-      { "step": "GPP and NPP defined; NPP = GPP − R", "marks": 1.5 },
-      { "step": "NPP available to heterotrophs", "marks": 0.5 }
+      {
+        "step": "GPP and NPP defined; NPP = GPP − R",
+        "marks": 1.5
+      },
+      {
+        "step": "NPP available to heterotrophs",
+        "marks": 0.5
+      }
     ]
   },
   {
-    "id": "bio-12-q07", "chapter": "ch-12", "type": "vsa2", "marks": 2, "stars": 2, "label": "PYQ-style", "topic": "Pyramids",
+    "id": "bio-12-q07",
+    "chapter": "ch-12",
+    "type": "vsa2",
+    "marks": 2,
+    "stars": 2,
+    "label": "PYQ-style",
+    "topic": "Pyramids",
     "stem": "Give any two limitations of ecological pyramids.",
     "hint": "Saprophytes; food webs.",
     "model_answer": "Any two: they do not account for the same species belonging to two or more trophic levels; they assume a simple food chain and do not accommodate food webs; saprophytes are given no place although they are vital.",
     "scheme": [
-      { "step": "Two limitations (1 each)", "marks": 2 }
+      {
+        "step": "Two limitations (1 each)",
+        "marks": 2
+      }
     ]
   },
   {
-    "id": "bio-12-q08", "chapter": "ch-12", "type": "sa3", "marks": 3, "stars": 3, "label": "PYQ-style", "topic": "Decomposition",
+    "id": "bio-12-q08",
+    "chapter": "ch-12",
+    "type": "sa3",
+    "marks": 3,
+    "stars": 3,
+    "label": "PYQ-style",
+    "topic": "Decomposition",
     "stem": "Describe the steps of decomposition and state two factors that affect its rate.",
     "hint": "Five steps; chemistry and climate.",
     "model_answer": "Fragmentation: detritivores like earthworms break detritus into small particles. Leaching: water-soluble inorganic nutrients move into the soil and precipitate as unavailable salts. Catabolism: bacterial and fungal enzymes degrade detritus into simpler inorganic substances. Humification: dark amorphous humus forms, resistant to microbes, acting as a nutrient reservoir. Mineralisation: humus is degraded, releasing inorganic nutrients. Rate: faster for detritus rich in nitrogen and sugars, slower with lignin and chitin; warm, moist conditions favour, low temperature and anaerobiosis inhibit.",
     "scheme": [
-      { "step": "Fragmentation, leaching, catabolism explained", "marks": 1.5 },
-      { "step": "Humification and mineralisation", "marks": 0.5 },
-      { "step": "Two factors: chemical composition and climate", "marks": 1 }
+      {
+        "step": "Fragmentation, leaching, catabolism explained",
+        "marks": 1.5
+      },
+      {
+        "step": "Humification and mineralisation",
+        "marks": 0.5
+      },
+      {
+        "step": "Two factors: chemical composition and climate",
+        "marks": 1
+      }
     ]
   },
   {
-    "id": "bio-12-q09", "chapter": "ch-12", "type": "case", "marks": 4, "stars": 2, "label": "PYQ-style", "topic": "Energy flow",
+    "id": "bio-12-q09",
+    "chapter": "ch-12",
+    "type": "case",
+    "marks": 4,
+    "stars": 2,
+    "label": "PYQ-style",
+    "topic": "Energy flow",
     "stem": "*In a grassland, grass fixes 10,000 J of energy. Grasshoppers eat the grass, frogs eat grasshoppers, snakes eat frogs and an eagle eats snakes. Leaves and dead animals that are not eaten fall to the ground.*",
     "parts": [
-      { "id": "A", "marks": 1, "stem": "Name the type of food chain described and the trophic level of the snake.",
+      {
+        "id": "A",
+        "marks": 1,
+        "stem": "Name the type of food chain described and the trophic level of the snake.",
         "model_answer": "Grazing food chain; the snake is a tertiary consumer (fourth trophic level).",
-        "scheme": [ { "step": "Grazing food chain; snake tertiary consumer", "marks": 1 } ] },
-      { "id": "B", "marks": 1, "stem": "How much energy reaches the eagle? State the law used.",
+        "scheme": [
+          {
+            "step": "Grazing food chain; snake tertiary consumer",
+            "marks": 1
+          }
+        ]
+      },
+      {
+        "id": "B",
+        "marks": 1,
+        "stem": "How much energy reaches the eagle? State the law used.",
         "model_answer": "10,000 → 1,000 → 100 → 10 → 1 J; the eagle gets about 1 J (10 per cent law).",
-        "scheme": [ { "step": "≈ 1 J by 10 per cent law", "marks": 1 } ] },
-      { "id": "C", "marks": 2, "stem": "Which food chain handles the fallen leaves and dead animals, and which organisms run it? On land, which chain carries more energy?",
+        "scheme": [
+          {
+            "step": "≈ 1 J by 10 per cent law",
+            "marks": 1
+          }
+        ]
+      },
+      {
+        "id": "C",
+        "marks": 2,
+        "stem": "Which food chain handles the fallen leaves and dead animals, and which organisms run it? On land, which chain carries more energy?",
         "model_answer": "The detritus food chain, run by decomposers (saprotrophs: fungi and bacteria) and detritivores. On land, a larger fraction of energy flows through the detritus food chain.",
-        "scheme": [ { "step": "Detritus food chain; fungi and bacteria (saprotrophs)", "marks": 1 }, { "step": "Detritus chain carries more energy on land", "marks": 1 } ] }
+        "scheme": [
+          {
+            "step": "Detritus food chain; fungi and bacteria (saprotrophs)",
+            "marks": 1
+          },
+          {
+            "step": "Detritus chain carries more energy on land",
+            "marks": 1
+          }
+        ]
+      }
     ]
   },
   {
-    "id": "bio-12-q10", "chapter": "ch-12", "type": "la5", "marks": 5, "stars": 3, "label": "PYQ-style", "topic": "Ecological pyramids",
+    "id": "bio-12-q10",
+    "chapter": "ch-12",
+    "type": "la5",
+    "marks": 5,
+    "stars": 3,
+    "label": "PYQ-style",
+    "topic": "Ecological pyramids",
     "stem": "(a) What are ecological pyramids? Describe the three types and explain, with an example, when a pyramid of numbers and a pyramid of biomass can be inverted. [4]<br>(b) Why is the pyramid of energy always upright? [1]",
     "hint": "Tree and insects; sea.",
     "model_answer": "(a) Graphic representations of the relationship between producers and consumers at successive trophic levels, with producers at the base and top carnivores at the apex. Pyramid of numbers: number of individuals at each level. Pyramid of biomass: dry mass of standing crop at each level. Pyramid of energy: energy at each level. Numbers inverted in a tree ecosystem: one tree supports many insects. Biomass inverted in the sea: small standing crop of phytoplankton supports larger biomass of fish.<br>(b) At each transfer only about 10% of energy passes on and the rest is lost as heat, so energy always decreases upwards.",
     "scheme": [
-      { "step": "Definition of ecological pyramids", "marks": 1 },
-      { "step": "Three types described", "marks": 1 },
-      { "step": "Inverted pyramid of numbers: tree example", "marks": 1 },
-      { "step": "Inverted pyramid of biomass: sea example", "marks": 1 },
-      { "step": "Energy lost at each level → always upright", "marks": 1 }
+      {
+        "step": "Definition of ecological pyramids",
+        "marks": 1
+      },
+      {
+        "step": "Three types described",
+        "marks": 1
+      },
+      {
+        "step": "Inverted pyramid of numbers: tree example",
+        "marks": 1
+      },
+      {
+        "step": "Inverted pyramid of biomass: sea example",
+        "marks": 1
+      },
+      {
+        "step": "Energy lost at each level → always upright",
+        "marks": 1
+      }
+    ]
+  },
+  {
+    "id": "bio-12-q11",
+    "chapter": "ch-12",
+    "type": "sa3",
+    "marks": 3,
+    "stars": 2,
+    "label": "PYQ-style",
+    "topic": "Food chains",
+    "stem": "Distinguish between a grazing food chain and a detritus food chain, giving one example of each. Which one carries more energy on land? What is meant by standing crop?",
+    "hint": "Where does each chain begin? Who are the first consumers?",
+    "model_answer": "*How much to write: 5–7 lines (a small table) · 5 minutes*\n\n| Grazing food chain (GFC) | Detritus food chain (DFC) |\n|---|---|\n| begins with <u>living producers</u> (green plants) | begins with <u>dead organic matter (detritus)</u> |\n| first consumers are <u>herbivores</u> | first consumers are <u>decomposers</u>: fungi and bacteria (saprotrophs) |\n| e.g. grass → goat → man | e.g. dead leaves → fungi and bacteria (→ earthworms) |\n| the major conduit of energy in <u>aquatic</u> ecosystems | in <mark>terrestrial ecosystems a much larger fraction of energy flows through the DFC</mark> |\n\nThe two chains are linked: some DFC organisms are prey to GFC animals.\n\n**Standing crop:** the <mark>mass of living material at a trophic level at a particular time</mark>, measured as biomass or number per unit area.\n\n:::tip Your answer must contain\n- the starting point and first consumers of each chain\n- one example each\n- <mark>DFC carries more energy on land</mark>\n- definition of <u>standing crop</u>\n:::\n\n**Marks are lost for:** saying the GFC dominates on land; defining standing crop as total energy.",
+    "scheme": [
+      {
+        "step": "GFC vs DFC: starting point and consumers",
+        "marks": 1
+      },
+      {
+        "step": "Example each; DFC larger on land",
+        "marks": 1
+      },
+      {
+        "step": "Standing crop defined",
+        "marks": 1
+      }
     ]
   }
 ]
