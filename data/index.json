@@ -1425,18 +1425,19 @@
                       },
                       "diagrams": [],
                       "blocks": {
-                        "mnemonic": 3,
-                        "numerical": 3,
-                        "fill": 1,
-                        "steps": 2,
-                        "figure": 2,
-                        "draw": 1,
-                        "compare": 1
+                        "mnemonic": 4,
+                        "figure": 10,
+                        "numerical": 5,
+                        "compare": 3,
+                        "fill": 2,
+                        "explain": 2,
+                        "steps": 4,
+                        "draw": 2
                       },
-                      "words": 6414,
-                      "read_minutes": 16,
-                      "cards": 14,
-                      "mnemonics": 3
+                      "words": 6822,
+                      "read_minutes": 18,
+                      "cards": 15,
+                      "mnemonics": 4
                     }
                   ]
                 },

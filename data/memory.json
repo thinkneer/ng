@@ -592,6 +592,15 @@
    "prompt": "List the 3d series from Sc to Zn."
   },
   {
+   "id": "base-camp-acid-peak",
+   "title": "Higher oxidation state, more acidic oxide",
+   "trick": "Manganese climbs from **Base camp** ($\\ce{MnO}$) to the **Acid peak** ($\\ce{Mn2O7}$)",
+   "meaning": [
+    "Low oxidation state → ionic, basic oxide; high oxidation state → covalent, acidic oxide; in between → amphoteric."
+   ],
+   "prompt": "Is $\\ce{Mn2O7}$ basic, amphoteric or acidic?"
+  },
+  {
    "id": "five-and-six",
    "title": "Electrons taken in acid",
    "trick": "**Permanganate takes a handful (5), dichromate takes an over (6)**",

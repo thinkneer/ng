@@ -22,11 +22,11 @@ Stars are estimates, not exact counts: ★★★ asked in most years · ★★ o
 - **Alloy formation:** transition metals have similar radii (within 15%), so atoms replace one another in the lattice.
 - **Catalytic activity:** due to variable oxidation states, complex formation and a surface that adsorbs reactants.
 - **Colour of transition-metal ions:** d–d transition of an unpaired electron absorbs visible light.
-- **Paramagnetism:** caused by unpaired electrons; grows with their number.
-- **Disproportionation:** one oxidation state changes into a higher and a lower one.
-- **Disproportionation of manganate in acid:** $\ce{3MnO4^2- + 4H+ -> 2MnO4- + MnO2 + 2H2O}$
+- **Cause of paramagnetism:** unpaired electrons; grows with their number.
+- **Disproportionation reaction:** one oxidation state changes into a higher and a lower one.
+- **Disproportionation of manganate in acid:** $\ce{3MnO4^2- + 4H+}$ $\ce{-> 2MnO4- + MnO2}$ $\ce{+ 2H2O}$
 - **Actinoid contraction:** greater than lanthanoid contraction, because 5f electrons shield even more poorly.
-- **Mischmetall:** about 95% lanthanoid metal and 5% iron; used in lighter flints and bullets.
+- **Mischmetall alloy:** about 95% lanthanoid metal and 5% iron; used in lighter flints and bullets.
 
 ## Key formulas
 
@@ -46,12 +46,12 @@ $\ce{Cr2O7^2-}$: 6 in acid ($\ce{2Cr^3+}$). Use these to balance ionic equations
 :::
 
 :::formula Permanganate half-reaction in acid
-$\ce{MnO4- + 8H+ + 5e- -> Mn^2+ + 4H2O}$<br>
+$\ce{MnO4- + 8H+ + 5e-}$ $\ce{-> Mn^2+ + 4H2O}$<br>
 $E^\circ=1.52$ V. Acidify with dilute $\ce{H2SO4}$, never HCl.
 :::
 
 :::formula Dichromate half-reaction in acid
-$\ce{Cr2O7^2- + 14H+ + 6e- -> 2Cr^3+ + 7H2O}$<br>
+$\ce{Cr2O7^2- + 14H+ + 6e-}$ $\ce{-> 2Cr^3+ + 7H2O}$<br>
 $E^\circ=1.33$ V. Slip: forgetting the $\ce{7H2O}$.
 :::
 
@@ -73,8 +73,8 @@ $\mu=\sqrt{n(n+2)}=\sqrt{35}=\boxed{5.92\text{ BM}}$ [1]
 
 :::skeleton Ionic equation by electron count (2 marks)
 *e.g. $\ce{MnO4-}$ oxidises $\ce{Fe^2+}$ in acid.*<br>
-$\ce{MnO4- + 8H+ + 5e- -> Mn^2+ + 4H2O}$ and $\ce{Fe^2+ -> Fe^3+ + e-}$ (×5)<br>
-$\ce{MnO4- + 8H+ + 5Fe^2+ -> Mn^2+ + 5Fe^3+ + 4H2O}$ — check charge: $-1+8+10=+17$; $+2+15=+17$ ✓
+$\ce{MnO4- + 8H+ + 5e-}$ $\ce{-> Mn^2+ + 4H2O}$ and $\ce{Fe^2+ -> Fe^3+ + e-}$ (×5)<br>
+$\ce{MnO4- + 8H+ + 5Fe^2+}$ $\ce{-> Mn^2+ + 5Fe^3+ + 4H2O}$ — check charge: $-1+8+10=+17$; $+2+15=+17$ ✓
 :::
 
 :::skeleton Lanthanoid contraction (3 marks)
@@ -82,14 +82,14 @@ Definition (steady decrease in radii La → Lu) [1] → cause (imperfect shieldi
 :::
 
 :::skeleton Preparation of KMnO$_4$ (2 marks)
-$\ce{2MnO2 + 4KOH + O2 -> 2K2MnO4 + 2H2O}$ (fusion)<br>
-$\ce{3MnO4^2- + 4H+ -> 2MnO4- + MnO2 + 2H2O}$ (or electrolytic oxidation of alkaline manganate)
+$\ce{2MnO2 + 4KOH + O2}$ $\ce{-> 2K2MnO4 + 2H2O}$ (fusion)<br>
+$\ce{3MnO4^2- + 4H+}$ $\ce{-> 2MnO4- + MnO2}$ $\ce{+ 2H2O}$ (or electrolytic oxidation of alkaline manganate)
 :::
 
 :::skeleton Preparation of K$_2$Cr$_2$O$_7$ (3 marks)
-$\ce{4FeCr2O4 + 8Na2CO3 + 7O2 -> 8Na2CrO4 + 2Fe2O3 + 8CO2}$<br>
-$\ce{2Na2CrO4 + 2H+ -> Na2Cr2O7 + 2Na+ + H2O}$<br>
-$\ce{Na2Cr2O7 + 2KCl -> K2Cr2O7 + 2NaCl}$
+$\ce{4FeCr2O4 + 8Na2CO3}$ $\ce{+ 7O2}$ $\ce{-> 8Na2CrO4 + 2Fe2O3}$ $\ce{+ 8CO2}$<br>
+$\ce{2Na2CrO4 + 2H+}$ $\ce{-> Na2Cr2O7 + 2Na+}$ $\ce{+ H2O}$<br>
+$\ce{Na2Cr2O7 + 2KCl}$ $\ce{-> K2Cr2O7 + 2NaCl}$
 :::
 
 ### Why/reason answers — write them like this

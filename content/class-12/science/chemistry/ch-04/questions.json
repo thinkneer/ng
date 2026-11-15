@@ -50,7 +50,7 @@
       "6"
     ],
     "answer": "C",
-    "model_answer": "**(c) 5.** $\\ce{MnO4- + 5Fe^2+ + 8H+ -> Mn^2+ + 5Fe^3+ + 4H2O}$.",
+    "model_answer": "**(c) 5.** $\\ce{MnO4- + 5Fe^2+ + 8H+}$ $\\ce{-> Mn^2+ + 5Fe^3+ + 4H2O}$.",
     "source_note": "Expert Q&A Sheet 2 (Inorganic), Q6"
   },
   {
@@ -101,14 +101,14 @@
     "stars": 3,
     "label": "PYQ-style",
     "stem": "Complete and balance (acidic medium):<br>\n(i) $\\ce{MnO4- + C2O4^2- + H+ ->}$   (ii) $\\ce{Cr2O7^2- + Fe^2+ + H+ ->}$",
-    "model_answer": "(i) $\\ce{2MnO4- + 5C2O4^2- + 16H+ -> 2Mn^2+ + 10CO2 + 8H2O}$ [1]<br>\n(ii) $\\ce{Cr2O7^2- + 6Fe^2+ + 14H+ -> 2Cr^3+ + 6Fe^3+ + 7H2O}$ [1]",
+    "model_answer": "(i) $\\ce{2MnO4- + 5C2O4^2-}$ $\\ce{+ 16H+}$ $\\ce{-> 2Mn^2+ + 10CO2}$ $\\ce{+ 8H2O}$ [1]<br>\n(ii) $\\ce{Cr2O7^2- + 6Fe^2+ + 14H+}$ $\\ce{-> 2Cr^3+ + 6Fe^3+}$ $\\ce{+ 7H2O}$ [1]",
     "scheme": [
       {
-        "step": "(i) $\\ce{2MnO4- + 5C2O4^2- + 16H+ -> 2Mn^2+ + 10CO2 + 8H2O}$",
+        "step": "(i) $\\ce{2MnO4- + 5C2O4^2-}$ $\\ce{+ 16H+}$ $\\ce{-> 2Mn^2+ + 10CO2}$ $\\ce{+ 8H2O}$",
         "marks": 1
       },
       {
-        "step": "(ii) $\\ce{Cr2O7^2- + 6Fe^2+ + 14H+ -> 2Cr^3+ + 6Fe^3+ + 7H2O}$",
+        "step": "(ii) $\\ce{Cr2O7^2- + 6Fe^2+ + 14H+}$ $\\ce{-> 2Cr^3+ + 6Fe^3+}$ $\\ce{+ 7H2O}$",
         "marks": 1
       }
     ],
@@ -175,14 +175,14 @@
     "stars": 3,
     "label": "PYQ-style",
     "stem": "(a) Describe, with equations, the preparation of $\\ce{KMnO4}$ from pyrolusite ore ($\\ce{MnO2}$). [2]<br>\n(b) Calculate the spin-only magnetic moment of $\\ce{Cr^3+}$ (Z = 24). [1]<br>\n(c) Give reasons: (i) $\\ce{Cu+}$ is unstable in aqueous solution; (ii) the highest oxidation state of a transition metal is shown in its oxides and oxoanions. [2]",
-    "model_answer": "(a) $\\ce{MnO2}$ is fused with KOH in the presence of air (or an oxidising agent such as $\\ce{KNO3}$) to give green potassium manganate:<br>\n$\\ce{2MnO2 + 4KOH + O2 -> 2K2MnO4 + 2H2O}$ [1]<br>\nManganate disproportionates in neutral or acidic solution to give purple permanganate:<br>\n$\\ce{3MnO4^2- + 4H+ -> 2MnO4- + MnO2 + 2H2O}$ [1]<br>\n(b) $\\ce{Cr^3+}$: [Ar]$3d^3$, $n=3$; $\\mu=\\sqrt{n(n+2)}=\\sqrt{15}=\\boxed{3.87\\text{ BM}}$ [1]<br>\n(c)(i) $\\ce{Cu+}$ disproportionates: $\\ce{2Cu+(aq) -> Cu^2+(aq) + Cu(s)}$. The much more negative hydration enthalpy of $\\ce{Cu^2+}$ more than compensates for the second ionisation enthalpy of Cu. [1]<br>\n(ii) Oxygen is small and highly electronegative and can form multiple bonds with the metal, which stabilises high oxidation states (e.g. Mn(VII) in $\\ce{MnO4-}$). [1]",
+    "model_answer": "(a) $\\ce{MnO2}$ is fused with KOH in the presence of air (or an oxidising agent such as $\\ce{KNO3}$) to give green potassium manganate:<br>\n$\\ce{2MnO2 + 4KOH + O2}$ $\\ce{-> 2K2MnO4 + 2H2O}$ [1]<br>\nManganate disproportionates in neutral or acidic solution to give purple permanganate:<br>\n$\\ce{3MnO4^2- + 4H+}$ $\\ce{-> 2MnO4- + MnO2}$ $\\ce{+ 2H2O}$ [1]<br>\n(b) $\\ce{Cr^3+}$: [Ar]$3d^3$, $n=3$; $\\mu=\\sqrt{n(n+2)}=\\sqrt{15}=\\boxed{3.87\\text{ BM}}$ [1]<br>\n(c)(i) $\\ce{Cu+}$ disproportionates: $\\ce{2Cu+(aq)}$ $\\ce{-> Cu^2+(aq) + Cu(s)}$. The much more negative hydration enthalpy of $\\ce{Cu^2+}$ more than compensates for the second ionisation enthalpy of Cu. [1]<br>\n(ii) Oxygen is small and highly electronegative and can form multiple bonds with the metal, which stabilises high oxidation states (e.g. Mn(VII) in $\\ce{MnO4-}$). [1]",
     "scheme": [
       {
-        "step": "(a) $\\ce{MnO2}$ is fused with KOH in the presence of air (or an oxidising agent such as $\\ce{KNO3}$) to give green potassium manganate: $\\ce{2MnO2 + 4KOH + O2 -> 2K2MnO4 + 2H2O}$",
+        "step": "(a) $\\ce{MnO2}$ is fused with KOH in the presence of air (or an oxidising agent such as $\\ce{KNO3}$) to give green potassium manganate: $\\ce{2MnO2 + 4KOH + O2}$ $\\ce{-> 2K2MnO4 + 2H2O}$",
         "marks": 1
       },
       {
-        "step": "Manganate disproportionates in neutral or acidic solution to give purple permanganate: $\\ce{3MnO4^2- + 4H+ -> 2MnO4- + MnO2 + 2H2O}$",
+        "step": "Manganate disproportionates in neutral or acidic solution to give purple permanganate: $\\ce{3MnO4^2- + 4H+}$ $\\ce{-> 2MnO4- + MnO2}$ $\\ce{+ 2H2O}$",
         "marks": 1
       },
       {
@@ -190,7 +190,7 @@
         "marks": 1
       },
       {
-        "step": "(c)(i) $\\ce{Cu+}$ disproportionates: $\\ce{2Cu+(aq) -> Cu^2+(aq) + Cu(s)}$. The much more negative hydration enthalpy of $\\ce{Cu^2+}$ more than compensates for the second ionisation enthalpy of Cu.",
+        "step": "(c)(i) $\\ce{Cu+}$ disproportionates: $\\ce{2Cu+(aq)}$ $\\ce{-> Cu^2+(aq) + Cu(s)}$. The much more negative hydration enthalpy of $\\ce{Cu^2+}$ more than compensates for the second ionisation enthalpy of Cu.",
         "marks": 1
       },
       {
@@ -274,10 +274,10 @@
         "id": "iii",
         "stem": "Write the balanced ionic equation for the reaction. How many moles of oxalate ion are oxidised by one mole of $\\ce{MnO4-}$?",
         "marks": 2,
-        "model_answer": "$\\ce{2MnO4- + 5C2O4^2- + 16H+ -> 2Mn^2+ + 10CO2 + 8H2O}$ [1] 5 mol of oxalate for 2 mol of permanganate, so **2.5 mol** per mole of $\\ce{MnO4-}$. [1]",
+        "model_answer": "$\\ce{2MnO4- + 5C2O4^2-}$ $\\ce{+ 16H+}$ $\\ce{-> 2Mn^2+ + 10CO2}$ $\\ce{+ 8H2O}$ [1] 5 mol of oxalate for 2 mol of permanganate, so **2.5 mol** per mole of $\\ce{MnO4-}$. [1]",
         "scheme": [
           {
-            "step": "$\\ce{2MnO4- + 5C2O4^2- + 16H+ -> 2Mn^2+ + 10CO2 + 8H2O}$",
+            "step": "$\\ce{2MnO4- + 5C2O4^2-}$ $\\ce{+ 16H+}$ $\\ce{-> 2Mn^2+ + 10CO2}$ $\\ce{+ 8H2O}$",
             "marks": 1
           },
           {

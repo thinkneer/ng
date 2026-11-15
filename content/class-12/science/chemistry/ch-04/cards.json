@@ -24,6 +24,17 @@
     ]
   },
   {
+    "id": "oxidation-states-3d",
+    "kind": "figure",
+    "title": "Oxidation states of the 3d metals",
+    "svg": "ref: notes#oxidation-states-3d",
+    "back": "States rise to Mn (+2 to +7) and fall again; Sc only +3, Zn only +2. Steps of one, because 3d and 4s electrons are close in energy.",
+    "stars": 3,
+    "tags": [
+      "diagram"
+    ]
+  },
+  {
     "id": "spin-only",
     "kind": "formula",
     "title": "Spin-only magnetic moment",
@@ -94,7 +105,7 @@
     "kind": "formula",
     "title": "Lanthanoid contraction",
     "tex": "r(\\ce{La}) > \\dots > r(\\ce{Lu})",
-    "back": "Cause: poor shielding by 4f electrons. Results: Zr and Hf have almost the same radius; lanthanoids are hard to separate; basicity falls from La(OH)₃ to Lu(OH)₃.",
+    "back": "Cause: poor shielding by 4f electrons. Results: Zr ≈ Hf in size; lanthanoids hard to separate; basicity falls La(OH)₃ → Lu(OH)₃.",
     "stars": 3,
     "tags": [
       "concept",
