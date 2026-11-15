@@ -3,7 +3,7 @@
    - Content (content/**, data/**): stale-while-revalidate so notes, plan and practice work offline once opened.
    - Vendored libraries (vendor/**: KaTeX, marked, DOMPurify, fonts): cache-first, version-pinned.
    Updates: the new worker waits; the page shows "New version available" and posts SKIP_WAITING. */
-const CACHE_VERSION = 'dev26';
+const CACHE_VERSION = 'dev27';
 const SHELL = `ng-shell-${CACHE_VERSION}`;
 const CONTENT = 'ng-content-v1';
 const LIBS = 'ng-libs-v1';

@@ -209,7 +209,7 @@ Keys: cols; row ★ = one cell per column; `[[ … ]]` hides a cell until the st
 5. A `:::tip Your answer must contain` checklist, then one line **Marks are lost for** ….
 Step marks live only in `scheme` (the Mark-yourself ticks), never in the answer text. Case questions get a full top-level `model_answer` as well as `parts`. English keeps its own format (format / content / expression, value points) but still gets the length line, the checklist and **Marks are lost for**.
 
-**Phone layout (390 px):** one relation per display line; chains of "=" and long reaction equations stacked with `aligned` (break after the arrow); boxed answer on its own line; short fraction labels; card formula lines ≤ about 22 characters. Write `\mu`, never the character µ, inside `$…$`.
+**Phone layout (390 px):** one relation per display line; chains of "=" and long reaction equations stacked with `aligned` (break after the arrow); boxed answer on its own line; short fraction labels; card formula lines ≤ about 22 characters. Write `\mu`, never the character µ, inside `$…$`. No `$…$` in `##` headings (the contents list shows them raw): write S<sub>N</sub>2, a⃗·b⃗ or plain words. Card formula `tex` stacked with `\begin{gathered}…\end{gathered}` or `aligned` when it is longer than one short line; a process card's arrow chain goes one step per line. A card `legend` item is `short symbol = meaning` (the part before `=` is shown in a 4.5 rem column).
 
 **Recall fronts:** a Must-know line's prompt (the bold term or the part before the colon) names the thing in at least two words so the flashcard can be answered cold ("**Molal elevation constant:**", not "**Kb:**").
 
@@ -219,6 +219,7 @@ Step marks live only in `scheme` (the Mark-yourself ticks), never in the answer 
 1. Read this file and `status/<class>/<subject>.md`. Check what already exists in the repo before rebuilding anything.
 2. Add or edit files under `content/` only. **Never edit app code (`/app`, `/styles`, `index.html`, `sw.js`) from a subject chat.**
 3. Run `node scripts/build-index.mjs` — it must pass (it validates every JSON file and rewrites `data/index.json`).
+   Then `node scripts/content-check.mjs <subject> [chapter …]` — it opens the real app on a 360 px phone and checks every card face (taller than the screen, wider than the card, labels too small, back too long), the Read and Must-know pages, the formula sheet and every question with its model answer (formulas and tables wider than the screen, raw `$…$`, maths errors, blocks that fail, drawings outside their viewBox), plus one-word recall fronts, lines over 15 words, missing hints and answers not yet in answer-script style. **No FAIL in the chapters you touched before you commit**; fix WARN lines in those chapters too. `--shots` saves a picture of each problem under `/tmp/content-check/` — open it to see what the student sees.
 4. Commit small, reviewable commits: `<subject>: <what>` (e.g. `physics: ch 4–7 practice sets`).
 5. Update `status/<class>/<subject>.md`: done, corrections, what's next. Long subjects: work in batches and end by saying exactly what's left.
 
