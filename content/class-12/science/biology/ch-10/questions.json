@@ -1,99 +1,372 @@
 [
   {
-    "id": "bio-10-q01", "chapter": "ch-10", "type": "mcq", "marks": 1, "stars": 3, "label": "PYQ-style", "topic": "Bt cotton",
+    "id": "bio-10-q01",
+    "chapter": "ch-10",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 3,
+    "label": "PYQ-style",
+    "topic": "Bt cotton",
     "stem": "The Bt toxin protein that controls the corn borer is coded by:",
-    "options": ["cryIAc", "cryIIAb", "cryIAb", "cryIIAc"],
+    "options": [
+      "cryIAc",
+      "cryIIAb",
+      "cryIAb",
+      "cryIIAc"
+    ],
     "answer": "C",
     "hint": "Two genes are for cotton bollworm.",
     "model_answer": "**(c) cryIAb.** cryIAc and cryIIAb control cotton bollworms."
   },
   {
-    "id": "bio-10-q02", "chapter": "ch-10", "type": "mcq", "marks": 1, "stars": 2, "label": "PYQ-style", "topic": "Transgenic animals",
+    "id": "bio-10-q02",
+    "chapter": "ch-10",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ-style",
+    "topic": "Transgenic animals",
     "stem": "The human protein α-1-antitrypsin, obtained from transgenic animals, is used to treat:",
-    "options": ["phenylketonuria", "emphysema", "diabetes", "ADA deficiency"],
+    "options": [
+      "phenylketonuria",
+      "emphysema",
+      "diabetes",
+      "ADA deficiency"
+    ],
     "answer": "B",
     "hint": "A lung disease.",
     "model_answer": "**(b) Emphysema.**"
   },
   {
-    "id": "bio-10-q03", "chapter": "ch-10", "type": "mcq", "marks": 1, "stars": 2, "label": "PYQ-style", "topic": "Diagnosis",
+    "id": "bio-10-q03",
+    "chapter": "ch-10",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ-style",
+    "topic": "Diagnosis",
     "stem": "ELISA is based on the principle of:",
-    "options": ["DNA amplification", "antigen–antibody interaction", "hybridisation with a radioactive probe", "gel electrophoresis"],
+    "options": [
+      "DNA amplification",
+      "antigen–antibody interaction",
+      "hybridisation with a radioactive probe",
+      "gel electrophoresis"
+    ],
     "answer": "B",
     "hint": "Immunological test.",
     "model_answer": "**(b).** ELISA detects antigens of the pathogen or antibodies against it."
   },
   {
-    "id": "bio-10-q04", "chapter": "ch-10", "type": "ar", "marks": 1, "stars": 3, "label": "PYQ-style", "topic": "Bt toxin",
+    "id": "bio-10-q04",
+    "chapter": "ch-10",
+    "type": "ar",
+    "marks": 1,
+    "stars": 3,
+    "label": "PYQ-style",
+    "topic": "Bt toxin",
     "stem": "**Assertion (A):** Bt toxin does not kill Bacillus thuringiensis itself.<br>**Reason (R):** The toxin exists in the bacterium as an inactive protoxin.",
-    "options": ["Both A and R are true, and R is the correct explanation of A.", "Both A and R are true, but R is not the correct explanation of A.", "A is true, but R is false.", "A is false, but R is true."],
+    "options": [
+      "Both A and R are true, and R is the correct explanation of A.",
+      "Both A and R are true, but R is not the correct explanation of A.",
+      "A is true, but R is false.",
+      "A is false, but R is true."
+    ],
     "answer": "A",
     "hint": "Activation needs alkaline pH.",
     "model_answer": "**(a).** The protoxin becomes active only in the alkaline insect gut, so the bacterium is safe."
   },
   {
-    "id": "bio-10-q05", "chapter": "ch-10", "type": "ar", "marks": 1, "stars": 2, "label": "PYQ-style", "topic": "Insulin",
+    "id": "bio-10-q05",
+    "chapter": "ch-10",
+    "type": "ar",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ-style",
+    "topic": "Insulin",
     "stem": "**Assertion (A):** Recombinant human insulin made by Eli Lilly needs removal of the C peptide.<br>**Reason (R):** In mammals, insulin is synthesised as pro-insulin containing a C peptide.",
-    "options": ["Both A and R are true, and R is the correct explanation of A.", "Both A and R are true, but R is not the correct explanation of A.", "A is true, but R is false.", "A is false, but R is true."],
+    "options": [
+      "Both A and R are true, and R is the correct explanation of A.",
+      "Both A and R are true, but R is not the correct explanation of A.",
+      "A is true, but R is false.",
+      "A is false, but R is true."
+    ],
     "answer": "D",
     "hint": "A and B chains were made separately.",
     "model_answer": "**(d).** A is false: chains A and B were made separately and joined, so no C peptide is present. R is true."
   },
   {
-    "id": "bio-10-q06", "chapter": "ch-10", "type": "vsa2", "marks": 2, "stars": 2, "label": "PYQ-style", "topic": "GM crops",
+    "id": "bio-10-q06",
+    "chapter": "ch-10",
+    "type": "vsa2",
+    "marks": 2,
+    "stars": 2,
+    "label": "PYQ-style",
+    "topic": "GM crops",
     "stem": "List four advantages of genetically modified crops.",
     "hint": "Stress, pests, losses, minerals, nutrition.",
     "model_answer": "Any four: more tolerant to abiotic stresses (cold, drought, salt, heat); reduced reliance on chemical pesticides; reduced post-harvest losses; increased efficiency of mineral use; enhanced nutritional value (e.g. Golden rice rich in vitamin A).",
     "scheme": [
-      { "step": "Four advantages (½ each)", "marks": 2 }
+      {
+        "step": "Four advantages (½ each)",
+        "marks": 2
+      }
     ]
   },
   {
-    "id": "bio-10-q07", "chapter": "ch-10", "type": "vsa2", "marks": 2, "stars": 2, "label": "PYQ-style", "topic": "Biopiracy",
+    "id": "bio-10-q07",
+    "chapter": "ch-10",
+    "type": "vsa2",
+    "marks": 2,
+    "stars": 2,
+    "label": "PYQ-style",
+    "topic": "Biopiracy",
     "stem": "What is biopiracy? Give one example involving India.",
     "hint": "Basmati, 1997.",
     "model_answer": "Biopiracy is the use of bio-resources (and traditional knowledge) by multinational companies or organisations without proper authorisation from the countries and people concerned and without compensatory payment. Example: in 1997 an American company was granted a US patent on Basmati rice derived from Indian farmers' varieties (also attempts on turmeric and neem).",
     "scheme": [
-      { "step": "Definition with no authorisation and no compensation", "marks": 1 },
-      { "step": "Basmati (or turmeric/neem) example", "marks": 1 }
+      {
+        "step": "Definition with no authorisation and no compensation",
+        "marks": 1
+      },
+      {
+        "step": "Basmati (or turmeric/neem) example",
+        "marks": 1
+      }
     ]
   },
   {
-    "id": "bio-10-q08", "chapter": "ch-10", "type": "sa3", "marks": 3, "stars": 3, "label": "PYQ-style", "topic": "RNAi",
+    "id": "bio-10-q08",
+    "chapter": "ch-10",
+    "type": "sa3",
+    "marks": 3,
+    "stars": 3,
+    "label": "PYQ-style",
+    "topic": "RNAi",
     "stem": "Explain how RNA interference has been used to make tobacco plants resistant to the nematode Meloidogyne incognita.",
     "hint": "Agrobacterium, sense and anti-sense RNA.",
     "model_answer": "Meloidogyne incognita infects tobacco roots and reduces yield. RNAi is a cellular defence in which complementary dsRNA silences a specific mRNA. Nematode-specific genes were introduced into tobacco using Agrobacterium vectors so that the plant made both sense and anti-sense RNA; these formed dsRNA, which silenced the nematode's specific mRNA. The parasite could not survive in the transgenic plant.",
     "scheme": [
-      { "step": "Nematode infects roots; RNAi = dsRNA silencing mRNA", "marks": 1 },
-      { "step": "Agrobacterium introduces nematode genes; sense + anti-sense → dsRNA", "marks": 1 },
-      { "step": "Nematode mRNA silenced; parasite dies; plant protected", "marks": 1 }
+      {
+        "step": "Nematode infects roots; RNAi = dsRNA silencing mRNA",
+        "marks": 1
+      },
+      {
+        "step": "Agrobacterium introduces nematode genes; sense + anti-sense → dsRNA",
+        "marks": 1
+      },
+      {
+        "step": "Nematode mRNA silenced; parasite dies; plant protected",
+        "marks": 1
+      }
     ]
   },
   {
-    "id": "bio-10-q09", "chapter": "ch-10", "type": "case", "marks": 4, "stars": 2, "label": "PYQ-style", "topic": "Gene therapy",
+    "id": "bio-10-q09",
+    "chapter": "ch-10",
+    "type": "case",
+    "marks": 4,
+    "stars": 2,
+    "label": "PYQ-style",
+    "topic": "Gene therapy",
     "stem": "*A four-year-old child has repeated serious infections. Tests show that a gene for an enzyme essential to the immune system has been deleted. Doctors consider three options: bone marrow transplant, injecting the missing enzyme, and gene therapy.*",
     "parts": [
-      { "id": "A", "marks": 1, "stem": "Name the enzyme deficiency and the year of the first clinical gene therapy for it.",
+      {
+        "id": "A",
+        "marks": 1,
+        "stem": "Name the enzyme deficiency and the year of the first clinical gene therapy for it.",
         "model_answer": "Adenosine deaminase (ADA) deficiency; 1990.",
-        "scheme": [ { "step": "ADA deficiency; 1990", "marks": 1 } ] },
-      { "id": "B", "marks": 1, "stem": "What is injecting the missing enzyme called, and why is it not a complete cure?",
+        "scheme": [
+          {
+            "step": "ADA deficiency; 1990",
+            "marks": 1
+          }
+        ]
+      },
+      {
+        "id": "B",
+        "marks": 1,
+        "stem": "What is injecting the missing enzyme called, and why is it not a complete cure?",
         "model_answer": "Enzyme replacement therapy; the enzyme is used up and the gene defect remains, so treatment must be repeated.",
-        "scheme": [ { "step": "Enzyme replacement therapy; not curative, repeated", "marks": 1 } ] },
-      { "id": "C", "marks": 2, "stem": "Describe the gene therapy procedure and explain why repeated treatment is needed.",
+        "scheme": [
+          {
+            "step": "Enzyme replacement therapy; not curative, repeated",
+            "marks": 1
+          }
+        ]
+      },
+      {
+        "id": "C",
+        "marks": 2,
+        "stem": "Describe the gene therapy procedure and explain why repeated treatment is needed.",
         "model_answer": "Lymphocytes from the child's blood are grown in culture; a functional ADA cDNA is introduced using a retroviral vector; the cells are returned to the child. The engineered lymphocytes are not immortal, so periodic infusions are needed; introducing the gene at an early embryonic stage could give a permanent cure.",
-        "scheme": [ { "step": "Lymphocytes cultured, ADA cDNA via retroviral vector, reinfused", "marks": 1 }, { "step": "Cells not immortal → periodic infusions", "marks": 1 } ] }
+        "scheme": [
+          {
+            "step": "Lymphocytes cultured, ADA cDNA via retroviral vector, reinfused",
+            "marks": 1
+          },
+          {
+            "step": "Cells not immortal → periodic infusions",
+            "marks": 1
+          }
+        ]
+      }
     ]
   },
   {
-    "id": "bio-10-q10", "chapter": "ch-10", "type": "la5", "marks": 5, "stars": 3, "label": "PYQ-style", "topic": "Insulin and transgenic animals",
+    "id": "bio-10-q10",
+    "chapter": "ch-10",
+    "type": "la5",
+    "marks": 5,
+    "stars": 3,
+    "label": "PYQ-style",
+    "topic": "Insulin and transgenic animals",
     "stem": "(a) Why was insulin from cattle and pigs replaced? Describe how human insulin was produced by recombinant DNA technology. [3]<br>(b) Give two uses of transgenic animals with an example each. [2]",
     "hint": "Allergy; chains A and B.",
     "model_answer": "(a) Animal insulin caused allergy and other reactions in some patients. Insulin has two chains, A and B, joined by disulphide bridges; in the body it is made as pro-insulin with a C peptide. In 1983 Eli Lilly prepared two DNA sequences coding for chains A and B, introduced them into plasmids of E. coli to make the chains separately, then extracted and combined them by forming disulphide bonds to give human insulin.<br>(b) Any two: biological products (α-1-antitrypsin for emphysema; Rosie's milk with human α-lactalbumin); disease models (cancer, cystic fibrosis, Alzheimer's); vaccine safety (polio vaccine in mice); chemical toxicity testing; study of normal physiology (insulin-like growth factor).",
     "scheme": [
-      { "step": "Allergy from animal insulin", "marks": 0.5 },
-      { "step": "Structure: A and B chains, disulphide bonds, pro-insulin with C peptide", "marks": 1 },
-      { "step": "Eli Lilly: A and B genes in E. coli plasmids, chains joined", "marks": 1.5 },
-      { "step": "Two uses with examples (1 each)", "marks": 2 }
+      {
+        "step": "Allergy from animal insulin",
+        "marks": 0.5
+      },
+      {
+        "step": "Structure: A and B chains, disulphide bonds, pro-insulin with C peptide",
+        "marks": 1
+      },
+      {
+        "step": "Eli Lilly: A and B genes in E. coli plasmids, chains joined",
+        "marks": 1.5
+      },
+      {
+        "step": "Two uses with examples (1 each)",
+        "marks": 2
+      }
     ]
+  },
+  {
+    "id": "bio-10-q11",
+    "chapter": "ch-10",
+    "type": "sa3",
+    "marks": 3,
+    "stars": 2,
+    "label": "PYQ-style",
+    "topic": "Molecular diagnosis",
+    "stem": "Why are molecular methods needed for early diagnosis of disease? Explain how PCR, a radioactive probe and ELISA are used in molecular diagnosis.",
+    "hint": "Conventional tests need the pathogen in large numbers or symptoms to appear.",
+    "model_answer": "*How much to write: 7–8 lines · 5 minutes*\n\nEarly diagnosis allows effective treatment, but <u>conventional methods</u> (serum and urine analysis) cannot detect a disease until the <mark>pathogen concentration is high or symptoms have appeared</mark>.\n\n- **PCR:** amplifies even a very small amount of pathogen nucleic acid, so it detects <u>HIV in suspected AIDS patients</u> early and finds <u>mutations in genes of suspected cancer patients</u>.\n- **Probe and autoradiography:** a <u>single-stranded DNA or RNA tagged with a radioactive molecule</u> is allowed to hybridise with its complementary DNA in a clone of cells. A clone with a <mark>mutated gene does not appear on the photographic film</mark>, because the probe cannot pair with it.\n- **ELISA:** based on the principle of <mark>antigen–antibody interaction</mark>; it detects the pathogen's antigens (proteins, glycoproteins) or the antibodies made against the pathogen.\n\n:::tip Your answer must contain\n- why conventional methods fail early\n- PCR detects <u>HIV</u> and cancer mutations\n- labelled <u>probe</u>: mutated gene does not show\n- ELISA = <mark>antigen–antibody interaction</mark>\n:::\n\n**Marks are lost for:** saying ELISA amplifies DNA; reversing which clone shows on the film.",
+    "scheme": [
+      {
+        "step": "Need for early detection; PCR use",
+        "marks": 1
+      },
+      {
+        "step": "Radioactive probe with autoradiography",
+        "marks": 1
+      },
+      {
+        "step": "ELISA principle and use",
+        "marks": 1
+      }
+    ]
+  },
+  {
+    "id": "bio-10-q12",
+    "chapter": "ch-10",
+    "type": "sa3",
+    "marks": 3,
+    "stars": 3,
+    "label": "PYQ-style",
+    "topic": "Gene therapy",
+    "stem": "What is gene therapy? Describe the first clinical gene therapy, given in 1990, and explain why it does not give a permanent cure.",
+    "hint": "A four-year-old girl, the enzyme adenosine deaminase, lymphocytes and a retroviral vector.",
+    "model_answer": "*How much to write: 6–8 lines · 5 minutes*\n\n**Gene therapy** is a collection of methods that allow <mark>correction of a gene defect diagnosed in a child or embryo</mark>: genes are inserted into the person's cells to treat a hereditary disease, compensating for a non-functional gene.\n\n**First clinical gene therapy (1990):** given to a <u>4-year-old girl with adenosine deaminase (ADA) deficiency</u>; the ADA enzyme is crucial for the immune system, and the disorder is caused by deletion of its gene.\n1. <u>Lymphocytes</u> from the patient's blood were grown in culture.\n2. A functional <mark>ADA cDNA</mark> was introduced into them using a <u>retroviral vector</u>.\n3. The lymphocytes were returned to the patient.\n\n**Not permanent:** these cells are <mark>not immortal</mark>, so the patient needs periodic infusions of genetically engineered lymphocytes. A permanent cure could come if the ADA gene from marrow cells were introduced into cells at an <u>early embryonic stage</u>.\n\n:::tip Your answer must contain\n- definition of gene therapy\n- <u>ADA deficiency</u>, lymphocytes, <mark>ADA cDNA via retroviral vector</mark>\n- cells mortal → <u>periodic infusions</u>; early-embryo route for permanent cure\n:::\n\n**Marks are lost for:** saying the gene was put into red blood cells; missing the retroviral vector.",
+    "scheme": [
+      {
+        "step": "Definition of gene therapy",
+        "marks": 1
+      },
+      {
+        "step": "ADA deficiency; lymphocytes + functional ADA cDNA by retroviral vector",
+        "marks": 1
+      },
+      {
+        "step": "Not permanent: periodic infusion; early embryonic stage",
+        "marks": 1
+      }
+    ]
+  },
+  {
+    "id": "bio-10-q13",
+    "chapter": "ch-10",
+    "type": "la5",
+    "marks": 5,
+    "stars": 3,
+    "label": "PYQ-style",
+    "topic": "Bt cotton",
+    "stem": "(a) How has the gene from *Bacillus thuringiensis* been used to make cotton resistant to insects? Explain why the Bt toxin does not kill the bacterium but kills the insect. [3]<br>(b) Why has the Indian Government set up GEAC? State one ethical concern about genetically modified organisms. [2]",
+    "hint": "(a) cry genes; inactive protoxin, alkaline gut, pores in the midgut. (b) Safety of releasing GM organisms.",
+    "model_answer": "*How much to write: about two-thirds of a page · 9 minutes*\n\n**(a)** *Bacillus thuringiensis* forms protein crystals containing a toxic <u>insecticidal protein</u>.\n- In the bacterium the toxin exists as an <mark>inactive protoxin</mark>, so the bacterium is not harmed.\n- When an insect larva eats it, the <mark>alkaline pH of the insect gut</mark> solubilises the crystals and converts the protoxin into the <u>active toxin</u>.\n- The active toxin <u>binds the surface of midgut epithelial cells</u> and creates pores; the cells swell and lyse, and the insect dies.\n- The toxin is coded by <u>cry genes</u>: <mark>cryIAc and cryIIAb control cotton bollworms</mark>; cryIAb controls corn borer. These genes were introduced into cotton to make **Bt cotton**, which makes its own toxin, so less pesticide is needed.\n\n**(b)** **GEAC (Genetic Engineering Approval Committee)** <mark>makes decisions on the validity of GM research and the safety of introducing GM organisms for public services</mark>.\nEthical concern (any one): GM organisms released into ecosystems may have unpredictable effects; using animals for producing proteins may cause them suffering; companies patenting products based on traditional knowledge (<u>biopiracy</u>, e.g. Basmati rice) without compensation.\n\n:::tip Your answer must contain\n- <mark>inactive protoxin</mark> in the bacterium\n- <mark>alkaline gut pH</mark> activates; pores in <u>midgut</u> cells, lysis\n- <u>cryIAc, cryIIAb</u> for bollworms\n- GEAC: validity of GM research + safety of release; one ethical issue\n:::\n\n**Marks are lost for:** saying the toxin is activated by acid; naming cryIAb for cotton bollworms; describing GEAC as a patent office.",
+    "scheme": [
+      {
+        "step": "Inactive protoxin in bacterium; alkaline gut activates it",
+        "marks": 1
+      },
+      {
+        "step": "Binds midgut cells, pores, lysis",
+        "marks": 1
+      },
+      {
+        "step": "cry genes named; transferred to cotton",
+        "marks": 1
+      },
+      {
+        "step": "Role of GEAC",
+        "marks": 1
+      },
+      {
+        "step": "One ethical concern",
+        "marks": 1
+      }
+    ]
+  },
+  {
+    "id": "bio-10-q14",
+    "chapter": "ch-10",
+    "type": "vsa2",
+    "marks": 2,
+    "stars": 2,
+    "label": "PYQ-style",
+    "topic": "Insulin",
+    "stem": "Insulin is made in the body as a pro-hormone. How does it mature, and how did Eli Lilly avoid this step when producing human insulin by rDNA technology?",
+    "hint": "There is an extra C peptide.",
+    "model_answer": "*How much to write: 3–4 lines + a small sketch · 4 minutes*\n\nInsulin is made as <u>pro-insulin</u>, which has an extra stretch, the <mark>C peptide</mark>. During maturation the C peptide is removed, leaving the <u>A and B chains</u> held together by <u>disulphide bridges</u>.\n\n<figure class=\"fig\">\n<svg viewBox=\"0 0 330 150\" role=\"img\" aria-label=\"Insulin A and B chains joined by disulphide bonds, with the C peptide removed\" fill=\"none\" stroke=\"currentColor\">\n<path stroke=\"#1F5FAD\" stroke-width=\"9\" stroke-linecap=\"round\" stroke-dasharray=\"0 11\" d=\"M40,50H182\"/>\n<path stroke-width=\"9\" stroke-linecap=\"round\" stroke-dasharray=\"0 11\" d=\"M30,100H250\"/>\n<path stroke=\"#E0B400\" stroke-width=\"2.4\" d=\"M73,56V94M150,56V94M95,42Q117,24,139,42\"/>\n<path stroke-dasharray=\"4 3\" stroke-opacity=\"0.6\" stroke-width=\"1.6\" d=\"M186,50C262,18,300,84,254,100\"/>\n<g fill=\"currentColor\" stroke=\"none\" font-size=\"10\"><text x=\"8\" y=\"54\">A</text><text x=\"2\" y=\"104\">B</text><text x=\"80\" y=\"79\">S–S</text><text x=\"157\" y=\"79\">S–S</text><text x=\"256\" y=\"34\">C peptide</text><text x=\"246\" y=\"46\">(removed)</text><text x=\"40\" y=\"132\">Mature insulin = A + B chains held by disulphide bonds</text></g>\n</svg>\n<figcaption>Pro-insulin to insulin: the C peptide (dashed) is removed.</figcaption>\n</figure>\n\n**Eli Lilly (1983)** prepared two DNA sequences for the A and B chains, introduced them into <u>plasmids of *E. coli*</u> to make the chains <mark>separately</mark>, then extracted and joined them by disulphide bonds, so no C peptide had to be removed.\n\n:::tip Your answer must contain\n- pro-insulin, <mark>C peptide removed</mark>, A + B joined by disulphide bonds\n- <mark>A and B chains made separately</mark> in *E. coli* and combined\n:::\n\n**Marks are lost for:** saying the whole pro-insulin gene was expressed; leaving out disulphide bonds.",
+    "scheme": [
+      {
+        "step": "Pro-insulin; C peptide removed; A + B with disulphide bridges",
+        "marks": 1
+      },
+      {
+        "step": "A and B chains made separately in E. coli, then joined",
+        "marks": 1
+      }
+    ]
+  },
+  {
+    "id": "bio-10-q15",
+    "chapter": "ch-10",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ-style",
+    "topic": "Transgenic animals",
+    "stem": "Rosie, the first transgenic cow (1997), produced milk enriched with:",
+    "options": [
+      "human insulin",
+      "human α-lactalbumin",
+      "α-1-antitrypsin",
+      "human growth hormone"
+    ],
+    "answer": "B",
+    "hint": "A milk protein, 2.4 g per litre.",
+    "model_answer": "**(b) Human α-lactalbumin** (2.4 g per litre), nutritionally more balanced for human babies."
   }
 ]

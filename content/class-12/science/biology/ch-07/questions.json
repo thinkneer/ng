@@ -316,5 +316,43 @@
     "answer": "A",
     "hint": "The body attacks its own cells.",
     "model_answer": "**(a) Rheumatoid arthritis.** The immune system attacks self cells. Asthma is an allergy."
+  },
+  {
+    "id": "bio-07-q14",
+    "chapter": "ch-07",
+    "type": "la5",
+    "marks": 5,
+    "stars": 3,
+    "label": "PYQ-style",
+    "topic": "Cancer",
+    "stem": "(a) How does a normal cell become a cancer cell? Distinguish between benign and malignant tumours, and name two kinds of carcinogens. [2]<br>(b) Describe the methods used to detect and treat cancer. [3]",
+    "hint": "(a) Contact inhibition is lost. (b) Detection: biopsy, imaging, antibodies, molecular tests. Treatment: surgery, radiation, chemotherapy, immunotherapy.",
+    "model_answer": "*How much to write: about one page · 10 minutes*\n\n**(a)** Normal cells show <u>contact inhibition</u>: contact with other cells stops their growth. <mark>Cancer cells lose this property</mark>, divide uncontrollably and form masses called <u>tumours</u>.\n- **Benign tumours** stay confined to their original location and cause little damage.\n- **Malignant tumours** grow rapidly, invade surrounding tissue and spread through the blood to distant sites (<mark>metastasis</mark>).\n- **Carcinogens:** physical (<u>ionising radiation</u> such as X-rays and γ-rays; <u>non-ionising UV</u>), chemical (<u>tobacco smoke</u>), biological (<u>oncogenic viruses</u>). Cellular oncogenes (c-onc), when activated, also cause transformation.\n\n**(b) Detection:**\n- <u>Biopsy and histopathology</u>: a piece of suspected tissue is cut into thin sections, stained and examined; blood and bone-marrow tests show increased cell counts in leukaemia.\n- <u>Radiography (X-rays), CT and MRI</u> detect cancers of internal organs.\n- <u>Antibodies against cancer-specific antigens</u>; <u>molecular biology techniques</u> detect genes that make a person prone to certain cancers.\n\n**Treatment:**\n- <u>Surgery</u>, <u>radiation therapy</u> (tumour cells irradiated lethally, normal tissue protected) and <u>chemotherapy</u> (drugs that kill cancer cells; side effects such as hair loss and anaemia). Most cancers are treated with a combination.\n- <mark>Immunotherapy</mark>: biological response modifiers such as <u>α-interferon</u> activate the immune system to destroy the tumour.\n\n:::tip Your answer must contain\n- loss of <mark>contact inhibition</mark>\n- benign vs malignant with <u>metastasis</u>\n- two carcinogen types\n- detection: <u>biopsy</u>, imaging, antibodies\n- treatment: surgery, radiation, chemotherapy, <mark>α-interferon</mark>\n:::\n\n**Marks are lost for:** not mentioning contact inhibition; calling a benign tumour cancerous; leaving out immunotherapy.",
+    "scheme": [
+      {
+        "step": "Loss of contact inhibition; benign vs malignant (metastasis)",
+        "marks": 1
+      },
+      {
+        "step": "Two types of carcinogens",
+        "marks": 1
+      },
+      {
+        "step": "Detection: biopsy/histopathology, imaging",
+        "marks": 1
+      },
+      {
+        "step": "Detection: antibodies or molecular methods",
+        "marks": 0.5
+      },
+      {
+        "step": "Treatment: surgery, radiation, chemotherapy",
+        "marks": 1
+      },
+      {
+        "step": "Immunotherapy with α-interferon",
+        "marks": 0.5
+      }
+    ]
   }
 ]

@@ -45,6 +45,7 @@ Paper: **Thu 25 Mar 2027** (date sheet of 6 Nov 2026). Biology-only days 10–24
 - **Exam bank to 4 fresh papers (15 Nov 2026).** Answer-script model answers (CLAUDE.md §5), each written one with a hint; diagram questions carry a labelled SVG.
   - Batch A (Unit VII): +7 sa3 (snapdragon cross, colour-blind cross, Meselson–Stahl, genetic code, nucleosome with SVG, natural selection, selection graphs) and +5 MCQ. Bank check after it: 2 fresh paper(s); next: 3-mark +16 · 5-mark +11 · MCQ +4 · 2-mark +2.
   - Batch B (Units VII–VIII): +4 la5 (sex determination + chromosomal disorders, transcription, DNA double helix with a new SVG + Chargaff, human evolution + drift), +4 sa3 (HIV, typhoid/pneumonia/filariasis, microbial products, biofertilisers), +1 vsa2 (cheese), +2 MCQ. Bank check after it: 2 fresh paper(s); next: 3-mark +12 · 5-mark +7 · MCQ +2 · 2-mark +1.
+  - Batch C (Units VIII–IX): +4 la5 (cancer, biogas plant with SVG + biocontrol, rDNA steps + disarmed vectors, Bt cotton + GEAC), +4 sa3 (blue–white selection, DNA isolation, molecular diagnosis, gene therapy), +1 vsa2 (insulin maturation with SVG), +2 MCQ. Bank check after it: 3 fresh paper(s); next: 3-mark +8 · 5-mark +3.
 
 ## Corrections
 - Ch 1 pollen-grain germ-pore leader moved to an actual gap in the exine.
