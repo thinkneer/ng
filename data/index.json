@@ -2373,16 +2373,17 @@
                       },
                       "diagrams": [],
                       "blocks": {
-                        "figure": 5,
+                        "figure": 9,
                         "steps": 6,
                         "mnemonic": 6,
-                        "draw": 4,
+                        "explain": 4,
+                        "draw": 7,
                         "fill": 3,
                         "compare": 2
                       },
-                      "words": 3961,
-                      "read_minutes": 13,
-                      "cards": 13,
+                      "words": 4968,
+                      "read_minutes": 18,
+                      "cards": 15,
                       "mnemonics": 6
                     },
                     {

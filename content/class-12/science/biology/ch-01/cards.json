@@ -11,6 +11,17 @@
     ]
   },
   {
+    "id": "ch01-anther-ts",
+    "kind": "figure",
+    "title": "T.S. of a young anther",
+    "svg": "ref: notes#ch01-anther-ts",
+    "back": "Bilobed, dithecous, tetrasporangiate: four microsporangia joined by the connective, which carries the vascular bundle.",
+    "stars": 2,
+    "tags": [
+      "diagram"
+    ]
+  },
+  {
     "id": "ch01-pollen-grain",
     "kind": "figure",
     "title": "Mature pollen grain",
@@ -40,6 +51,17 @@
     "svg": "ref: notes#ch01-embryo-sac",
     "back": "7 cells, 8 nuclei: egg apparatus (2 synergids + egg) at the micropylar end, 3 antipodals at the chalazal end, central cell with 2 polar nuclei.",
     "stars": 3,
+    "tags": [
+      "diagram"
+    ]
+  },
+  {
+    "id": "ch01-seeds",
+    "kind": "figure",
+    "title": "Bean seed vs maize grain",
+    "svg": "ref: notes#ch01-seeds",
+    "back": "Bean: non-albuminous, food in two cotyledons. Maize: albuminous, endosperm with aleurone; scutellum, coleoptile, coleorhiza.",
+    "stars": 2,
     "tags": [
       "diagram"
     ]

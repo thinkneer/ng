@@ -2,17 +2,77 @@
 
 Every grain of rice and every mango starts inside a flower. This chapter follows that story in order: making pollen and the embryo sac, getting pollen to the stigma, two fertilisations at once, and ovule → seed, ovary → fruit. Draw as you read.
 
+*Read alongside NCERT Biology, Chapter 1 (in your textbook, or [ncert.nic.in/textbook/pdf/lebo101.pdf](https://ncert.nic.in/textbook/pdf/lebo101.pdf)). Each section below names the NCERT section, figures and questions it explains.*
+
 ## The flower: where it all happens
 
-Hormonal and structural changes turn a shoot apex into a floral bud. Two whorls matter: the **androecium** (stamens, male) and the **gynoecium** (pistil, female). Making pollen and the embryo sac and getting pollen to the stigma are **pre-fertilisation events**; endosperm, embryo, seed and fruit are **post-fertilisation events**.
+*NCERT 1.1 · Figure 1.1 · Exercise Q1*
+
+People prize flowers for beauty, scent and ritual (growing them for sale is **floriculture**); to the plant, a flower is the organ of sexual reproduction.
+
+Once the plant "decides" to flower, hormonal and structural changes turn a shoot apex into a **floral primordium**, which grows into an inflorescence of floral buds that open into flowers. Two whorls matter: the **androecium** (stamens, male) and the **gynoecium** (pistil, female). Making pollen and the embryo sac and getting pollen to the stigma are **pre-fertilisation events**; endosperm, embryo, seed and fruit are **post-fertilisation events**. For Exercise Q1: the male gametophyte (pollen) develops in the **anther**, the female gametophyte (embryo sac) in the **ovule** inside the ovary.
+
+```ng-figure
+id: ch01-flower-ls
+title: L.S. of a flower
+svg:
+<svg viewBox="0 0 300 262" role="img" aria-label="L.S. of a flower showing pedicel, thalamus, sepals, petals, stamens and pistil" fill="none" stroke="currentColor">
+<path stroke-width="2" d="M150,258V204"/>
+<path class="uf" fill-opacity="0.22" stroke="currentColor" stroke-width="1.4" d="M116,202Q150,218,184,202Q172,190,150,188Q128,190,116,202Z"/>
+<path stroke-width="1.6" d="M120,200Q94,192,86,168Q108,176,128,192M180,200Q206,192,214,168Q192,176,172,192"/>
+<path class="u" stroke-width="2" d="M128,192Q70,152,74,96Q104,140,136,182M172,192Q230,152,226,96Q196,140,164,182"/>
+<ellipse class="uf" cx="150" cy="170" rx="18" ry="20" fill-opacity="0.28" stroke="currentColor" stroke-width="1.6"/>
+<g fill="currentColor" stroke="none"><ellipse cx="145" cy="168" rx="3.5" ry="5"/><ellipse cx="155" cy="168" rx="3.5" ry="5"/></g>
+<path stroke-width="1.8" d="M150,150V98"/>
+<ellipse cx="150" cy="92" rx="11" ry="6" fill="#E0B400" stroke="none"/>
+<path stroke-width="1.4" d="M136,190Q120,150,114,120M164,190Q180,150,186,120M141,190Q132,156,130,132M159,190Q168,156,170,132"/>
+<g fill="currentColor" stroke="none"><ellipse cx="113" cy="113" rx="5" ry="9"/><ellipse cx="187" cy="113" rx="5" ry="9"/><ellipse cx="129" cy="125" rx="4" ry="7"/><ellipse cx="171" cy="125" rx="4" ry="7"/></g>
+<path stroke-width="0.8" stroke-opacity="0.55" d="M240,77L162,90M240,104L193,112M240,131L151,130M240,155L178,152M240,176L169,172M240,207L182,204M240,242L151,242M34,100L76,104M34,168L92,172"/>
+<g fill="currentColor" stroke="none" font-size="10"><text x="244" y="80">Stigma</text><text x="244" y="107">Anther</text><text x="244" y="134">Style</text><text x="244" y="158">Filament</text><text x="244" y="179">Ovary</text><text x="244" y="210">Thalamus</text><text x="244" y="245">Pedicel</text><text x="4" y="103">Petal</text><text x="4" y="171">Sepal</text></g>
+</svg>
+caption: The flower cut lengthwise: stamens around a central pistil, all on the thalamus.
+part: 150, 92 | Stigma | Sticky landing platform for pollen.
+part: 150, 128 | Style | Stalk the pollen tube grows down.
+part: 150, 172 | Ovary | Holds the ovules; becomes the fruit.
+part: 187, 113 | Anther | Makes pollen in four microsporangia.
+part: 178, 152 | Filament | Stalk of the stamen; joined to thalamus or petal.
+part: 82, 120 | Petal | Corolla: often coloured to attract pollinators.
+part: 100, 180 | Sepal | Calyx: protects the bud.
+part: 150, 204 | Thalamus | Swollen tip of the stalk that bears all whorls.
+part: 150, 240 | Pedicel | Flower stalk.
+```
 
 **In one breath:** Stamens (androecium) are male, the pistil (gynoecium) is female; the chapter runs pre-fertilisation → double fertilisation → post-fertilisation.
 
 ## Stamen, microsporangium and pollen grain
 
+*NCERT 1.2.1 · Figures 1.2–1.6 · Exercise Q2, Q3, Q17*
+
 A stamen has a long stalk, the **filament**, and a top part, the **anther**. A typical angiosperm anther is **bilobed** (two lobes), each lobe has two thecae (**dithecous**), and in cross-section you see four pollen sacs, one at each corner. So the anther is **tetrasporangiate**: it has four **microsporangia**, which later become the pollen sacs.
 
-Each microsporangium has four wall layers, outside in: **epidermis**, **endothecium**, **middle layers**, **tapetum**. The outer three protect and help dehiscence; the innermost **tapetum nourishes the developing pollen** (dense cytoplasm, often more than one nucleus).
+In section the anther is four-sided (**tetragonal**), with a longitudinal groove down each lobe separating its two thecae. The lower end of the filament is attached to the thalamus or to a petal.
+
+```ng-figure
+id: ch01-anther-ts
+title: T.S. of a young anther
+svg:
+<svg viewBox="0 0 300 232" role="img" aria-label="T.S. of a young anther with four microsporangia and the connective" fill="none" stroke="currentColor">
+<path stroke-width="1.8" d="M150,22C126,8,62,10,50,60C40,96,44,140,62,168C80,196,128,198,150,182C172,198,220,196,238,168C256,140,260,96,250,60C238,10,174,8,150,22Z"/>
+<g class="u" stroke-width="5"><circle cx="100" cy="66" r="32"/><circle cx="100" cy="140" r="32"/><circle cx="200" cy="66" r="32"/><circle cx="200" cy="140" r="32"/></g>
+<g class="uf" fill-opacity="0.45" stroke="none"><circle cx="92" cy="60" r="5"/><circle cx="106" cy="58" r="5"/><circle cx="98" cy="74" r="5"/><circle cx="110" cy="72" r="5"/><circle cx="92" cy="134" r="5"/><circle cx="106" cy="132" r="5"/><circle cx="98" cy="148" r="5"/><circle cx="110" cy="146" r="5"/><circle cx="192" cy="60" r="5"/><circle cx="206" cy="58" r="5"/><circle cx="198" cy="74" r="5"/><circle cx="210" cy="72" r="5"/><circle cx="192" cy="134" r="5"/><circle cx="206" cy="132" r="5"/><circle cx="198" cy="148" r="5"/><circle cx="210" cy="146" r="5"/></g>
+<circle cx="150" cy="103" r="9" fill="#E0B400" stroke="none"/>
+<path stroke-width="0.8" stroke-opacity="0.6" d="M40,24L58,46M262,30L226,48M80,212L148,160M210,212L152,112"/>
+<g fill="currentColor" stroke="none" font-size="10"><text x="4" y="20">Epidermis</text><text x="296" y="14" text-anchor="end">Microsporangium</text><text x="296" y="26" text-anchor="end">(pollen sac)</text><text x="30" y="224">Connective</text><text x="180" y="224">Vascular bundle</text></g>
+</svg>
+caption: Two lobes, two thecae each: four microsporangia joined by the connective.
+part: 52, 60 | Epidermis | Outermost protective layer of the anther.
+part: 200, 66 | Microsporangium | One of four pollen sacs; walled by four layers.
+part: 98, 140 | Sporogenous tissue | Pollen mother cells (2n) that undergo meiosis.
+part: 150, 150 | Connective | Sterile tissue joining the two lobes.
+part: 150, 103 | Vascular bundle | Brings water and food into the anther.
+```
+
+Each microsporangium has four wall layers, outside in: **epidermis**, **endothecium**, **middle layers**, **tapetum**. The outer three protect and help dehiscence; the innermost **tapetum nourishes the developing pollen** (dense cytoplasm, often more than one nucleus). For Exercise Q17: tapetal cells also secrete enzymes that free the microspores from the tetrad and supply precursors of sporopollenin, so the tapetum helps build the pollen wall.
 
 ```ng-figure
 id: ch01-microsporangium
@@ -48,7 +108,7 @@ part: 100, 95 | Sporogenous tissue | Pollen mother cells (2n) that undergo meios
 
 ### Microsporogenesis
 
-A young microsporangium is filled with **sporogenous tissue**. Each cell can act as a diploid **pollen mother cell** (PMC), which undergoes **meiosis** to form a **microspore tetrad**; this is **microsporogenesis**. As the anther dries, the microspores separate and become **pollen grains**.
+A young microsporangium is filled with **sporogenous tissue**. Each cell can act as a diploid **pollen mother cell** (PMC), which undergoes **meiosis** to form a **microspore tetrad**; this is **microsporogenesis**. Because every sporogenous cell can do this, one microsporangium makes thousands of microspores. As the anther matures and dries, the microspores separate and become **pollen grains**, and the anther dehisces to release them.
 
 ```ng-steps
 id: ch01-microsporogenesis
@@ -74,7 +134,7 @@ The microspore is the haploid product of meiosis; it becomes a pollen grain (the
 
 ### The pollen grain
 
-Pollen grains are generally spherical, 25–50 micrometres across, with a two-layered wall. The hard outer **exine** is made of **sporopollenin**, one of the most resistant organic materials: it survives heat, strong acids and alkalis, and no known enzyme breaks it down (so pollen fossilises well). The exine has gaps called **germ pores** where sporopollenin is absent; the pollen tube grows out through one of them. The inner wall, the **intine**, is thin and continuous, made of cellulose and pectin.
+Pollen grains are generally spherical, 25–50 micrometres across, with a two-layered wall. The hard outer **exine** is made of **sporopollenin**, one of the most resistant organic materials: it survives heat, strong acids and alkalis, and no known enzyme breaks it down (so pollen is well preserved as fossils). The exine has gaps called **germ pores** where sporopollenin is absent; the pollen tube grows out through one of them. The inner wall, the **intine**, is thin and continuous, made of cellulose and pectin.
 
 ```ng-figure
 id: ch01-pollen-grain
@@ -101,7 +161,25 @@ part: 92, 104 | Generative cell | Small spindle-shaped cell; divides to give two
 
 When the pollen grain matures it holds two cells. The **vegetative cell** is large, stores food and has a large irregular nucleus. The **generative cell** is small and spindle-shaped, with dense cytoplasm, and floats inside the vegetative cell. In **over 60% of angiosperms** pollen is shed at this **2-celled stage**. In the rest, the generative cell divides by mitosis first and the pollen is shed **3-celled** (one vegetative cell and two male gametes).
 
-Pollen of some plants, such as *Parthenium* (carrot grass), causes allergies. Rice and wheat pollen stay viable only about 30 minutes; pollen can be stored for years in liquid nitrogen (−196 °C) in **pollen banks**.
+```ng-explain
+id: ch01-why-exine-hard
+prompt: In three lines, explain why the exine of a pollen grain must be so hard, and why it still has germ pores.
+lines: 3
+answer: Pollen travels unprotected through air, water or on animals, so a tough sporopollenin exine shields the male gametes from drying, heat and chemicals. Germ pores are thin gaps where the pollen tube can get out on the stigma.
+```
+
+### Pollen and people
+
+Pollen of many species causes allergies and chronic breathing disorders such as asthma and bronchitis. *Parthenium* (carrot grass), which reached India as a contaminant of imported wheat, is now common everywhere and a major cause of pollen allergy. Yet pollen is nutritious and sold as tablets and syrups, claimed to boost athletes and race horses.
+
+**Pollen viability** is how long shed pollen can still fertilise. It depends on temperature and humidity: rice and wheat pollen die within about 30 minutes, while pollen of many Rosaceae, Leguminosae and Solanaceae stays viable for months. Pollen can be stored for years in liquid nitrogen at −196 °C; such **pollen banks** keep pollen for crop-breeding programmes, just as seed banks keep seeds.
+
+```ng-draw
+id: ch01-draw-anther-ts
+title: Draw the T.S. of a young anther
+svg: ref: notes#ch01-anther-ts
+time: 4
+```
 
 ```ng-draw
 id: ch01-draw-microsporangium
@@ -114,7 +192,9 @@ time: 4
 
 ## Pistil, ovule and the embryo sac
 
-The pistil has a **stigma** (landing platform), a **style** and an **ovary**, whose **placenta** carries the ovules: one in wheat, paddy and mango; many in papaya, watermelon and orchids.
+*NCERT 1.2.2 · Figures 1.7–1.8 · Exercise Q2, Q4, Q5, Q6*
+
+The gynoecium may have one pistil (**monocarpellary**) or several (**multicarpellary**). Several pistils may be fused into one (**syncarpous**, as in *Papaver*, the poppy) or stay free (**apocarpous**, as in *Michelia*). Each pistil has a **stigma**, the landing platform for pollen; a slender **style**; and a swollen basal **ovary**. Inside the ovary is the **ovarian cavity** (locule), and on its **placenta** arise the megasporangia, the **ovules**: one in wheat, paddy and mango; many in papaya, watermelon and orchids.
 
 The **ovule** is the megasporangium. It hangs from the placenta by a stalk, the **funicle**; the point where funicle meets the ovule body is the **hilum**. One or two protective **integuments** cover the ovule except for a small opening at the tip, the **micropyle**. Opposite the micropyle is the **chalaza**, the base of the ovule. Inside the integuments is a mass of cells called the **nucellus**, rich in food, and inside the nucellus sits the **embryo sac**, the female gametophyte. In the common anatropous ovule the body is turned upside down, so the micropyle lies next to the funicle.
 
@@ -154,7 +234,7 @@ part: 110, 134 | Egg | Fuses with one male gamete to form the zygote.
 
 ### Megasporogenesis
 
-Ovules usually differentiate a **single megaspore mother cell** (MMC) in the **micropylar region of the nucellus**. It is a large diploid cell with dense cytoplasm and a prominent nucleus. The MMC undergoes **meiosis** to give four haploid megaspores. Making megaspores from the MMC is called **megasporogenesis**. In most flowering plants **one megaspore is functional and the other three degenerate**.
+Inside the nucellus a cell of the **archesporium**, in the **micropylar region**, becomes a **single megaspore mother cell** (MMC). It is a large diploid cell with dense cytoplasm and a prominent nucleus. The MMC undergoes **meiosis** to give four haploid megaspores. Making megaspores from the MMC is called **megasporogenesis**. In most flowering plants **one megaspore is functional and the other three degenerate**. Ploidy check: nucellus and MMC are 2n; the megaspores are n.
 
 ### From one megaspore to the embryo sac
 
@@ -243,6 +323,8 @@ time: 4
 
 ## Pollination: getting pollen to the stigma
 
+*NCERT 1.2.3 (kinds and agents of pollination) · Figures 1.9–1.11 · Exercise Q7*
+
 Male and female gametes are both non-motile here, so pollen must be carried to the stigma. That transfer is **pollination**. It comes in three kinds, depending on where the pollen comes from:
 
 ```ng-fill
@@ -256,17 +338,31 @@ row: Xenogamy | [[a flower of a different plant; brings new gene combinations]]
 
 Geitonogamy is the tricky one. It is *functionally* cross-pollination because an agent carries pollen between flowers, but *genetically* it is like autogamy because every flower on one plant has the same genotype.
 
-Autogamy needs the anther and stigma to mature together and lie close. Some plants, such as *Viola* (common pansy), *Oxalis* and *Commelina*, make two kinds of flowers. **Chasmogamous** flowers open normally with exposed anthers and stigma. **Cleistogamous** flowers never open; anthers and stigma lie close together inside, so they are always self-pollinated and give **assured seed set** even when pollinators are absent.
+Autogamy needs pollen release and stigma receptivity at the same time, with anther and stigma close together, so complete autogamy is rare in flowers that open. Some plants, such as *Viola* (common pansy), *Oxalis* and *Commelina*, make two kinds of flowers. **Chasmogamous** flowers open normally with exposed anthers and stigma. **Cleistogamous** flowers never open; anthers and stigma lie close together inside, so they are always self-pollinated and give **assured seed set** even when pollinators are absent. That also answers Exercise Q7: cross-pollination cannot occur in a cleistogamous flower, because it never opens and no outside pollen can reach the stigma.
+
+```ng-explain
+id: ch01-why-cleistogamy
+prompt: In three lines, say whether cleistogamy is an advantage or a disadvantage to a plant, and why.
+lines: 3
+answer: Both. It guarantees seed set even without pollinators and wastes little pollen. But every seed comes from selfing, so there is no new variation and inbreeding depression can build up.
+```
 
 ### Agents of pollination
 
-Plants use two abiotic agents (wind and water) and one biotic agent (animals).
+Plants use two abiotic agents (wind and water) and one biotic agent (animals). Most plants use animals; only a small share use wind or water. With wind and water, pollen landing on a stigma is pure chance, so such flowers make enormous amounts of pollen compared with the number of ovules.
 
 **Wind** pollination is common in grasses: light non-sticky pollen, well-exposed stamens, large feathery stigmas, often one ovule per ovary and flowers packed in an inflorescence (corn-cob tassels are stigmas and styles).
 
-**Water** pollination is rare (about 30 genera, mostly monocots). In *Vallisneria* the female flower reaches the surface on a long stalk and floating pollen reaches it; in sea grasses like *Zostera* long ribbon-like pollen is carried inside the water. Water hyacinth and water lily are aquatic but insect- or wind-pollinated.
+**Water** pollination is rare (about 30 genera, mostly monocots). In *Vallisneria* the female flower reaches the surface on a long stalk and floating pollen reaches it; in sea grasses like *Zostera* long ribbon-like pollen is carried inside the water. In most water-pollinated species a mucilaginous covering keeps the pollen from getting wet. Water hyacinth and water lily are aquatic but their flowers rise above the water and are insect- or wind-pollinated. (Lower plants need water for their male gametes to swim, which may limit where some bryophytes and pteridophytes live.)
 
-**Animals** are the commonest agents, bees above all; birds (sunbirds, hummingbirds), bats and even lizards also pollinate. Insect-pollinated flowers are large, colourful, fragrant and nectar-rich (or small but clustered), with sticky pollen. Rewards are nectar, pollen, or a place to lay eggs, as in *Amorphophallus* (tallest flower, about 6 feet). *Yucca* and its moth cannot complete their life cycles without each other. Pollen and nectar robbers take rewards without pollinating.
+```ng-explain
+id: ch01-why-wind-flowers-dull
+prompt: In three lines, explain why wind- and water-pollinated flowers are usually not colourful and make no nectar.
+lines: 3
+answer: Colour, scent and nectar exist to attract and reward animals. Wind and water need no attracting, so the plant saves that energy and spends it on huge amounts of light pollen and large stigmas instead.
+```
+
+**Animals** are the commonest agents, bees above all; butterflies, flies, beetles, wasps, ants, moths, birds (sunbirds, hummingbirds) and bats also pollinate, and so, in some species, do lemurs, tree-dwelling rodents and lizards (gecko, garden lizard). Many flowers are adapted to one particular animal species. Insect-pollinated flowers are large, colourful, fragrant and nectar-rich (or small but clustered), with sticky pollen; flowers visited by flies and beetles give off foul smells instead. The visitor brushes the anthers while taking its reward, gets coated with pollen, and leaves it on the next stigma it touches. Rewards are nectar, pollen, or a place to lay eggs, as in *Amorphophallus* (tallest flower, about 6 feet). *Yucca* and its moth cannot complete their life cycles without each other: the moth lays its eggs in the locule of the ovary and pollinates the flower, and its larvae hatch as the seeds develop. Pollen and nectar robbers take rewards without pollinating.
 
 ```ng-mnemonic
 id: ch01-voc
@@ -280,6 +376,8 @@ prompt: Name three plants that bear cleistogamous flowers.
 
 ## Outbreeding devices, pollen–pistil interaction and artificial hybridisation
 
+*NCERT 1.2.3 (outbreeding devices, pollen–pistil interaction, artificial hybridisation) · Figure 1.12 · Exercise Q8, Q9, Q10, Q15*
+
 Continued self-pollination causes **inbreeding depression**, so bisexual flowers have **outbreeding devices**:
 
 1. Pollen release and stigma receptivity are **not synchronised** (one matures before the other; this is called dichogamy).
@@ -289,7 +387,44 @@ Continued self-pollination causes **inbreeding depression**, so bisexual flowers
 
 ### Pollen–pistil interaction
 
-The pistil recognises whether pollen is compatible; if not, germination or tube growth is blocked. Compatible pollen germinates and a **pollen tube** grows out through a germ pore, through the stigma and style, into the ovary. In 2-celled pollen the generative cell divides into two male gametes on the way. The tube enters the ovule through the **micropyle**, then **one synergid** through the **filiform apparatus**. These events, from landing to tube entry, are the **pollen–pistil interaction**.
+Landing on a stigma does not make pollen the right pollen: grains of other species, or self-pollen in a self-incompatible plant, land too. The pistil recognises whether pollen is compatible; if not, it blocks germination on the stigma or tube growth in the style. This recognition is a chemical dialogue between pollen and pistil molecules. Exercise Q9 follows directly: in a self-incompatible species self-pollen is stopped this way, so it never reaches the ovules and no seed forms. Compatible pollen germinates and a **pollen tube** grows out through a germ pore, through the stigma and style, into the ovary. In 2-celled pollen the generative cell divides into two male gametes on the way. The tube enters the ovule through the **micropyle**, then **one synergid** through the **filiform apparatus**. These events, from landing to tube entry, are the **pollen–pistil interaction**. Breeders who understand it can manipulate it to get hybrids even from incompatible crosses.
+
+```ng-figure
+id: ch01-pistil-tube
+title: Path of the pollen tube (L.S. of pistil)
+svg:
+<svg viewBox="0 0 280 270" role="img" aria-label="L.S. of a pistil showing the path of a pollen tube from stigma to the micropyle of an ovule" fill="none" stroke="currentColor">
+<path stroke-width="1.8" d="M100,40C96,22,112,14,120,26C124,12,140,10,144,24C150,12,166,16,160,40Z"/>
+<path stroke-width="1.8" d="M116,40V140M144,40V140"/>
+<path class="uf" fill-opacity="0.15" stroke="currentColor" stroke-width="1.8" d="M116,140C70,150,62,200,80,230C100,262,160,262,180,230C198,200,190,150,144,140"/>
+<path stroke-width="1.4" d="M186,196C176,196,170,198,166,202"/>
+<ellipse class="uf" cx="146" cy="214" rx="22" ry="30" fill-opacity="0.35" stroke="currentColor" stroke-width="1.4"/>
+<ellipse cx="146" cy="210" rx="8" ry="16" stroke-width="1"/>
+<g fill="currentColor" stroke="none"><circle cx="118" cy="20" r="6"/><circle cx="142" cy="16" r="6"/></g>
+<path stroke="#E0B400" stroke-width="2.4" d="M120,24C126,40,128,80,130,120C132,150,112,190,116,236C120,252,136,250,140,242"/>
+<g fill="currentColor" stroke="none" font-size="10"><text x="160" y="14">Pollen grains</text><text x="168" y="34">Stigma</text><text x="152" y="92">Style</text><text x="40" y="110">Pollen tube</text><text x="200" y="174">Ovary wall</text><text x="196" y="200">Funicle</text><text x="174" y="230">Ovule</text><text x="150" y="262">Micropyle</text><text x="60" y="262">Embryo sac</text></g>
+<path stroke-width="0.8" stroke-opacity="0.6" d="M92,106L124,104M100,256L140,214"/>
+</svg>
+caption: Stigma → style → ovary → micropyle → synergid.
+part: 142, 16 | Pollen grains | Germinate on the stigma if compatible.
+part: 130, 30 | Stigma | Where recognition and germination happen.
+part: 140, 80 | Style | The tube grows down through its tissue.
+part: 117, 190 | Pollen tube | Carries the two male gametes.
+part: 70, 200 | Ovary wall | Becomes the pericarp of the fruit.
+part: 180, 197 | Funicle | Stalk joining the ovule to the placenta.
+part: 160, 230 | Ovule | Becomes the seed after fertilisation.
+part: 140, 242 | Micropyle | The tube's way into the ovule.
+part: 146, 210 | Embryo sac | Tube enters a synergid here.
+```
+
+```ng-draw
+id: ch01-draw-pistil-tube
+title: Draw the path of the pollen tube
+svg: ref: notes#ch01-pistil-tube
+time: 4
+```
+
+You can watch pollen germinate yourself (it is also a practical): dust pollen of pea, chickpea, *Crotalaria*, balsam or *Vinca* onto a drop of about 10% sugar solution on a slide; after 15–30 minutes, low power shows tubes growing out.
 
 ```ng-steps
 id: ch01-pollen-tube-path
@@ -307,7 +442,7 @@ The pollen tube enters a **synergid**, not the egg and not the central cell. Wri
 
 ### Artificial hybridisation
 
-Breeders make sure only the chosen pollen reaches the stigma:
+Breeders cross species, even genera, to combine desirable characters; this **artificial hybridisation** is a major crop-improvement method. They must make sure only the chosen pollen reaches the stigma:
 
 1. **Emasculation**: remove the anthers from the flower bud of the bisexual female parent, with forceps, **before the anthers dehisce**. This prevents self-pollination.
 2. **Bagging**: cover the emasculated flower with a bag, usually of butter paper, to keep unwanted pollen out.
@@ -337,12 +472,14 @@ prompt: List the steps of artificial hybridisation in order.
 
 ## Double fertilisation
 
+*NCERT 1.3 · Figure 1.13a · Exercise Q11*
+
 The pollen tube releases its **two male gametes** into the synergid's cytoplasm. Now two fusions happen in the same embryo sac:
 
 - **Syngamy**: one male gamete fuses with the **egg** to form a diploid **zygote** (2n).
 - **Triple fusion**: the other male gamete fuses with the **two polar nuclei** in the central cell, forming the triploid **primary endosperm nucleus** (PEN, 3n). Three haploid nuclei are involved, hence the name. The central cell becomes the primary endosperm cell.
 
-Two fusions in one embryo sac make **double fertilisation**, unique to flowering plants.
+Two fusions in one embryo sac make **double fertilisation**, unique to flowering plants. The zygote grows into the embryo, the primary endosperm cell into the endosperm.
 
 ```ng-fill
 id: ch01-ploidy
@@ -372,15 +509,19 @@ step: Two fusions in one embryo sac = **double fertilisation**; the zygote becom
 
 ## After fertilisation: endosperm, embryo, seed and fruit
 
+*NCERT 1.4.1–1.4.3 · Figures 1.13b, 1.14, 1.15 · Exercise Q12, Q13, Q14, Q16*
+
+Endosperm and embryo development, ovule → seed and ovary → fruit are together called **post-fertilisation events**.
+
 ### Endosperm comes first
 
-Endosperm develops **before** the embryo, because the embryo needs food first. Usually the PEN divides repeatedly without walls (**free-nuclear endosperm**); walls form later and it becomes **cellular**. The coconut shows both stages at once: the water in a tender coconut is **free-nuclear endosperm** (thousands of nuclei), and the white kernel around it is **cellular endosperm**.
+Endosperm develops **before** the embryo, because the embryo needs food first. The primary endosperm cell divides repeatedly into triploid tissue packed with stored food for the growing embryo. Usually the PEN divides repeatedly without walls (**free-nuclear endosperm**); walls form later and it becomes **cellular**. The coconut shows both stages at once: the water in a tender coconut is **free-nuclear endosperm** (thousands of nuclei), and the white kernel around it is **cellular endosperm**.
 
 The endosperm may be used up completely before the seed matures (pea, groundnut, beans) or it may persist in the mature seed (castor, coconut) and be used during germination.
 
 ### The embryo
 
-The embryo develops at the **micropylar end**, usually after some endosperm has formed: zygote → **proembryo** → **globular** → **heart-shaped** → **mature embryo**.
+The embryo develops at the **micropylar end**, where the zygote sits. Most zygotes divide only after some endosperm has formed: an adaptation that assures food for the embryo (this is Exercise Q12, why the zygote is dormant for a while). Seeds look very different, yet early embryo development (**embryogeny**) is similar in monocots and dicots: zygote → **proembryo** → **globular** → **heart-shaped** → **mature embryo**.
 
 ```ng-steps
 id: ch01-embryo-stages
@@ -390,6 +531,21 @@ step: It divides to form the **proembryo**.
 step: Further division gives the **globular** embryo.
 step: The embryo becomes **heart-shaped** as the cotyledons begin to form.
 step: The **mature embryo** has cotyledon(s) and an embryonal axis with plumule and radicle.
+svg:
+<svg viewBox="0 0 330 146" role="img" aria-label="Stages of embryo development in a dicot" fill="none" stroke="currentColor">
+<g data-step="1"><path stroke-opacity="0.6" stroke-width="1.4" d="M30,86V122"/><circle class="uf" cx="30" cy="76" r="10" fill-opacity="0.35" stroke="currentColor" stroke-width="1.4"/><text x="12" y="140" fill="currentColor" stroke="none" font-size="9.5">Zygote</text></g>
+<g data-step="2"><path stroke-opacity="0.6" stroke-width="1.4" d="M88,82V122"/><g class="uf" fill-opacity="0.35" stroke="currentColor" stroke-width="1.2"><circle cx="82" cy="66" r="7"/><circle cx="94" cy="66" r="7"/><circle cx="82" cy="78" r="5"/><circle cx="94" cy="78" r="5"/></g><text x="64" y="140" fill="currentColor" stroke="none" font-size="9.5">Proembryo</text></g>
+<g data-step="3"><path stroke-opacity="0.6" stroke-width="1.4" d="M150,88V122"/><circle class="uf" cx="150" cy="70" r="18" fill-opacity="0.35" stroke="currentColor" stroke-width="1.4"/><text x="128" y="140" fill="currentColor" stroke="none" font-size="9.5">Globular</text></g>
+<g data-step="4"><path stroke-opacity="0.6" stroke-width="1.4" d="M220,90V122"/><path class="uf" fill-opacity="0.35" stroke="currentColor" stroke-width="1.4" d="M220,90C196,80,192,48,206,40C214,36,220,46,220,54C220,46,226,36,234,40C248,48,244,80,220,90Z"/><text x="190" y="140" fill="currentColor" stroke="none" font-size="9.5">Heart-shaped</text></g>
+<g data-step="5"><path stroke-opacity="0.6" stroke-width="1.4" d="M290,96V122"/><path class="uf" fill-opacity="0.35" stroke="currentColor" stroke-width="1.4" d="M290,96C282,92,282,74,284,62C272,52,266,30,272,18C282,22,288,42,290,54C292,42,298,22,308,18C314,30,308,52,296,62C298,74,298,92,290,96Z"/><path stroke="#E0B400" stroke-width="2" d="M272,18C282,22,288,42,290,54C292,42,298,22,308,18"/><text x="270" y="140" fill="currentColor" stroke="none" font-size="9.5">Mature</text></g>
+</svg>
+```
+
+```ng-explain
+id: ch01-why-zygote-waits
+prompt: In three lines, explain why the zygote stays dormant for some time while the endosperm forms first.
+lines: 3
+answer: The embryo needs a ready food supply to grow. So the PEN divides first and builds endosperm full of reserves; only then does the zygote start dividing, with nourishment assured.
 ```
 
 A **dicot embryo** has an axis and two cotyledons: above them the **epicotyl** ending in the **plumule**, below them the **hypocotyl** ending in the **radicle** with a **root cap**.
@@ -436,11 +592,55 @@ Coleo**pt**ile covers the shoot (think **p**lumule); coleo**rh**iza covers the r
 
 ### Seed and fruit
 
-The **seed** is the final product of sexual reproduction, a fertilised ovule. It has a seed coat, cotyledons and an embryonal axis. The integuments harden into the tough **seed coat**. The **micropyle** survives as a small pore in the seed coat that lets in oxygen and water at germination. The **hilum** is the scar where the seed was attached to the fruit.
+The **seed** is the final product of sexual reproduction, a fertilised ovule. It has a seed coat, cotyledons and an embryonal axis. The cotyledons are usually thick and swollen with stored food, as in legumes. The integuments harden into the tough **seed coat**. The **micropyle** survives as a small pore in the seed coat that lets in oxygen and water at germination. The **hilum** is the scar where the seed was attached to the fruit.
 
 Seeds are **non-albuminous** (ex-albuminous) when the endosperm is used up during development, as in pea and groundnut, and **albuminous** when part of it remains, as in wheat, maize, barley and castor. Occasionally the nucellus also persists in the seed; this leftover nucellus is the **perisperm**, as in black pepper and beet.
 
-A maturing seed dries to 10–15% moisture and the embryo becomes **dormant**; this is what lets us store seed, so seeds are the basis of agriculture. Seeds also free reproduction from water, carry food, are protected by a hard coat, aid dispersal and carry new gene combinations. Some stay viable for ages: *Lupinus arcticus* about 10,000 years, the date palm *Phoenix dactylifera* about 2000 years.
+A maturing seed dries to 10–15% moisture and the embryo slows down and may become **dormant**, or it germinates if it has enough moisture, oxygen and a suitable temperature; this is what lets us store seed, so seeds are the basis of agriculture. Seeds also free reproduction from water, carry food, are protected by a hard coat, aid dispersal and carry new gene combinations. Some stay viable for ages: *Lupinus arcticus* about 10,000 years, the date palm *Phoenix dactylifera* about 2000 years (found at King Herod's palace near the Dead Sea).
+
+```ng-figure
+id: ch01-seeds
+title: Seed structure: dicot and monocot
+svg:
+<svg viewBox="0 0 380 204" role="img" aria-label="Structure of a dicot seed (bean) and a monocot grain (maize) in section" fill="none" stroke="currentColor">
+<path class="uf" fill-opacity="0.15" stroke="currentColor" stroke-width="2" d="M30,100C26,52,72,30,104,44C120,52,124,66,118,80C112,92,116,104,124,114C134,132,118,168,84,170C46,172,32,140,30,100Z"/>
+<path stroke-width="1.2" d="M38,100C38,62,74,46,100,56C112,62,114,72,108,82"/>
+<path class="u" stroke-width="2.4" d="M112,84C104,90,104,100,112,106M110,84L122,74M112,106L120,120"/>
+<g fill="currentColor" stroke="none" font-size="9.5"><text x="20" y="196">Bean (dicot) seed</text><text x="0" y="36">Seed coat</text><text x="44" y="130">Cotyledon</text><text x="128" y="72">Plumule</text><text x="128" y="128">Radicle</text><text x="126" y="99">Hilum</text></g>
+<path stroke-width="0.8" stroke-opacity="0.6" d="M24,40L44,56"/>
+<g transform="translate(40,0)">
+<path class="uf" fill-opacity="0.25" stroke="currentColor" stroke-width="2" d="M244,20C292,22,308,70,302,112C296,154,276,182,248,184C216,186,198,150,200,108C202,64,210,18,244,20Z"/>
+<path stroke-width="1.2" stroke-dasharray="3 2" d="M244,26C286,28,300,72,296,110"/>
+<path stroke-width="1.4" d="M212,130C206,154,226,178,248,178C230,166,226,146,232,128C236,116,224,108,212,130Z"/>
+<path class="u" stroke-width="2" d="M222,150V118M216,118L222,108L228,118M222,154V172"/>
+<ellipse cx="222" cy="114" rx="6" ry="12" stroke-width="1"/>
+<ellipse cx="222" cy="166" rx="5" ry="9" stroke-width="1"/>
+<path stroke-width="0.8" stroke-opacity="0.6" d="M194,100L216,110M194,140L228,140M194,172L218,168M292,34L292,48"/>
+<g fill="currentColor" stroke="none" font-size="9.5"><text x="210" y="200">Maize grain (monocot)</text><text x="246" y="80">Endosperm</text><text x="276" y="30">Aleurone</text><text x="190" y="102" text-anchor="end">Coleoptile</text><text x="190" y="143" text-anchor="end">Scutellum</text><text x="190" y="175" text-anchor="end">Coleorhiza</text><text x="216" y="14">Pericarp</text></g>
+</g>
+</svg>
+caption: Bean: food in two cotyledons. Maize grain: food in the endosperm, one scutellum.
+part: 34, 80 | Seed coat | Hardened integuments (testa); micropyle stays as a pore.
+part: 70, 110 | Cotyledon | Stores food in a non-albuminous seed.
+part: 118, 78 | Plumule | Shoot tip of the embryo.
+part: 116, 114 | Radicle | Root tip of the embryo.
+part: 117, 94 | Hilum | Scar where the seed was attached.
+part: 284, 22 | Pericarp | Fruit wall fused with the seed coat in a grain.
+part: 300, 90 | Endosperm | Persistent food store: an albuminous seed.
+part: 334, 80 | Aleurone layer | Protein-rich outer layer of the endosperm.
+part: 262, 114 | Coleoptile | Sheath over the shoot apex.
+part: 266, 150 | Scutellum | The single lateral cotyledon of grasses.
+part: 262, 166 | Coleorhiza | Sheath over the radicle and root cap.
+```
+
+```ng-draw
+id: ch01-draw-seeds
+title: Draw a bean seed and a maize grain
+svg: ref: notes#ch01-seeds
+time: 5
+```
+
+Each fertilised ovule becomes one seed, so a fruit holds at most as many seeds as its ovary had ovules. Orchid fruits (and the parasites *Orobanche*, *Striga*) hold thousands of tiny seeds; a tiny *Ficus* seed becomes a huge tree.
 
 Meanwhile the **ovary** develops into the **fruit**, and the ovary wall becomes the **pericarp**. Fruits may be fleshy (guava, orange, mango) or dry (groundnut, mustard). In some species other floral parts, especially the **thalamus**, also form part of the fruit: these are **false fruits**, as in apple, strawberry and cashew. Most fruits come only from the ovary and are true fruits. Some species, like banana, form fruits without fertilisation; these **parthenocarpic** fruits are seedless, and parthenocarpy can also be induced with growth hormones.
 
@@ -480,9 +680,11 @@ time: 5
 
 ## Apomixis and polyembryony
 
-A few plants, including some species of Asteraceae and grasses, form seeds **without fertilisation**. This is **apomixis**: a form of asexual reproduction that mimics sexual reproduction. It can happen in two ways. A diploid egg cell may form without reduction division and grow into an embryo without fertilisation. Or, as in many citrus and mango varieties, some **nucellar cells** around the embryo sac start dividing, push into the embryo sac and develop into embryos. Then one ovule holds several embryos; having more than one embryo in a seed is **polyembryony**.
+*NCERT 1.5 · Exercise Q18*
 
-Why it matters: seed saved from a hybrid crop loses hybrid vigour because the characters **segregate**, so farmers must buy hybrid seed every year. An apomictic hybrid would not segregate, so the same seed could be reused.
+A few plants, including some species of Asteraceae and grasses, form seeds **without fertilisation**. This is **apomixis**: a form of asexual reproduction that mimics sexual reproduction. It can happen in two ways. A diploid egg cell may form without reduction division and grow into an embryo without fertilisation. Or, as in many citrus and mango varieties, some **nucellar cells** around the embryo sac start dividing, push into the embryo sac and develop into embryos. Then one ovule holds several embryos; having more than one embryo in a seed is **polyembryony** (squeeze an orange seed and you can see several embryos of different sizes). Nucellar embryos arise from the mother's diploid cells by mitosis, so they are genetically identical to the parent: **clones**.
+
+Why it matters: seed saved from a hybrid crop loses hybrid vigour because the characters **segregate**, so farmers must buy hybrid seed every year. Producing hybrid seed every year is costly, so hybrid seed is expensive for farmers. An apomictic hybrid would not segregate, so the same seed could be reused year after year; laboratories around the world are working to understand the genetics of apomixis and to transfer apomictic genes into hybrid varieties.
 
 :::tip Apomixis vs parthenocarpy
 Apomixis gives a **seed** without fertilisation; parthenocarpy gives a **fruit** without fertilisation, and that fruit has no seeds.

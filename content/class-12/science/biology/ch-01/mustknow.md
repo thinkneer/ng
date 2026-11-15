@@ -78,6 +78,9 @@ Gamete 1 + egg → zygote 2n (syngamy) [½]; gamete 2 + 2 polar nuclei → PEN 3
 - Pollen grain size: about 25–50 micrometres.
 - Pollen storage in pollen banks: liquid nitrogen at −196 °C.
 - Pollen viability of rice and wheat: about 30 minutes.
+- Pollen viable for months: many Rosaceae, Leguminosae, Solanaceae.
+- Pollen germination on a slide: about 10% sugar solution, 15–30 minutes.
+- Syncarpous pistil example: *Papaver*; apocarpous example: *Michelia*.
 - Water pollination: rare, about 30 genera, mostly monocots.
 - Water-pollinated examples: *Vallisneria*, *Hydrilla*, *Zostera*.
 - Aquatic but insect or wind pollinated: water hyacinth, water lily.
