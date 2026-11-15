@@ -1623,7 +1623,7 @@
    "prompt": "Name the three biodiversity hotspots that cover India."
   }
  ],
- "biology/prac-pollen": [
+ "biology/ch-14": [
   {
    "id": "pollen-sweet-boy",
    "title": "What goes into the medium",
@@ -1652,7 +1652,7 @@
    "prompt": "At what stage are pollen grains shed in most angiosperms?"
   }
  ],
- "biology/prac-quadrat": [
+ "biology/ch-15": [
   {
    "id": "quadrat-random",
    "title": "How to place quadrats",
@@ -1672,7 +1672,7 @@
    "prompt": "Which one uses the number of quadrats in which the species occurred?"
   }
  ],
- "biology/prac-mitosis": [
+ "biology/ch-16": [
   {
    "id": "mitosis-fhss",
    "title": "The four steps of the squash",
@@ -1692,7 +1692,7 @@
    "prompt": "Write the stages of mitosis in order."
   }
  ],
- "biology/prac-dna": [
+ "biology/ch-17": [
   {
    "id": "dna-three-s",
    "title": "The three S's of DNA extraction",
@@ -1712,7 +1712,7 @@
    "prompt": "Name two kitchen sources of protease used in DNA isolation."
   }
  ],
- "biology/prac-spotting": [
+ "biology/ch-18": [
   {
    "id": "spot-wind-flowers",
    "title": "Wind-pollinated flowers",
@@ -1732,7 +1732,7 @@
    "prompt": "Name the four disease-causing organisms in the spotting list."
   }
  ],
- "biology/prac-project": [
+ "biology/ch-19": [
   {
    "id": "project-smart",
    "title": "What makes a good project topic",

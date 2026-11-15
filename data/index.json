@@ -2467,7 +2467,7 @@
                   "chapters": [
                     {
                       "id": "ch-04",
-                      "number": 1,
+                      "number": 4,
                       "title": "Principles of Inheritance and Variation",
                       "unit": "VII",
                       "items": {
@@ -2505,7 +2505,7 @@
                     },
                     {
                       "id": "ch-05",
-                      "number": 2,
+                      "number": 5,
                       "title": "Molecular Basis of Inheritance",
                       "unit": "VII",
                       "items": {
@@ -2543,7 +2543,7 @@
                     },
                     {
                       "id": "ch-06",
-                      "number": 3,
+                      "number": 6,
                       "title": "Evolution",
                       "unit": "VII",
                       "items": {
@@ -2591,7 +2591,7 @@
                   "chapters": [
                     {
                       "id": "ch-07",
-                      "number": 1,
+                      "number": 7,
                       "title": "Human Health and Disease",
                       "unit": "VIII",
                       "items": {
@@ -2628,7 +2628,7 @@
                     },
                     {
                       "id": "ch-08",
-                      "number": 2,
+                      "number": 8,
                       "title": "Microbes in Human Welfare",
                       "unit": "VIII",
                       "items": {
@@ -2674,7 +2674,7 @@
                   "chapters": [
                     {
                       "id": "ch-09",
-                      "number": 1,
+                      "number": 9,
                       "title": "Biotechnology: Principles and Processes",
                       "unit": "IX",
                       "items": {
@@ -2712,7 +2712,7 @@
                     },
                     {
                       "id": "ch-10",
-                      "number": 2,
+                      "number": 10,
                       "title": "Biotechnology and its Applications",
                       "unit": "IX",
                       "items": {
@@ -2758,7 +2758,7 @@
                   "chapters": [
                     {
                       "id": "ch-11",
-                      "number": 1,
+                      "number": 11,
                       "title": "Organisms and Populations",
                       "unit": "X",
                       "items": {
@@ -2797,7 +2797,7 @@
                     },
                     {
                       "id": "ch-12",
-                      "number": 2,
+                      "number": 12,
                       "title": "Ecosystem",
                       "unit": "X",
                       "items": {
@@ -2835,7 +2835,7 @@
                     },
                     {
                       "id": "ch-13",
-                      "number": 3,
+                      "number": 13,
                       "title": "Biodiversity and Conservation",
                       "unit": "X",
                       "items": {
@@ -2882,8 +2882,8 @@
                   "marks_group": null,
                   "chapters": [
                     {
-                      "id": "prac-pollen",
-                      "number": 1,
+                      "id": "ch-14",
+                      "number": 14,
                       "title": "Practical: Pollen Germination",
                       "unit": "P",
                       "items": {
@@ -2910,8 +2910,8 @@
                       "mnemonics": 3
                     },
                     {
-                      "id": "prac-quadrat",
-                      "number": 2,
+                      "id": "ch-15",
+                      "number": 15,
                       "title": "Practical: Quadrat Study (Density and Frequency)",
                       "unit": "P",
                       "items": {
@@ -2939,8 +2939,8 @@
                       "mnemonics": 2
                     },
                     {
-                      "id": "prac-mitosis",
-                      "number": 3,
+                      "id": "ch-16",
+                      "number": 16,
                       "title": "Practical: Mitosis in Onion Root Tip",
                       "unit": "P",
                       "items": {
@@ -2968,8 +2968,8 @@
                       "mnemonics": 2
                     },
                     {
-                      "id": "prac-dna",
-                      "number": 4,
+                      "id": "ch-17",
+                      "number": 17,
                       "title": "Practical: Isolating DNA from Plant Material",
                       "unit": "P",
                       "items": {
@@ -2996,8 +2996,8 @@
                       "mnemonics": 2
                     },
                     {
-                      "id": "prac-spotting",
-                      "number": 5,
+                      "id": "ch-18",
+                      "number": 18,
                       "title": "Practical: Spotting (Study and Observe)",
                       "unit": "P",
                       "items": {
@@ -3025,8 +3025,8 @@
                       "mnemonics": 2
                     },
                     {
-                      "id": "prac-project",
-                      "number": 6,
+                      "id": "ch-19",
+                      "number": 19,
                       "title": "Practical: Project, Record and Exam Day",
                       "unit": "P",
                       "items": {

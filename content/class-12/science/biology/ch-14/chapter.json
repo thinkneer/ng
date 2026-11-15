@@ -1,11 +1,15 @@
 {
   "$schema": "../../../../../schemas/chapter.schema.json",
-  "id": "prac-pollen",
+  "id": "ch-14",
   "number": 14,
   "title": "Practical: Pollen Germination",
   "unit": "P",
   "marks_hint": "Practical exam (30 marks): major experiment 5, minor experiment 4, slide preparation 5, spotting 7, record + viva 4, project 5",
   "summary": "Temporary mount to observe pollen germination in a sucrose–boric acid medium; percentage germination; precautions and viva.",
-  "status": { "notes": "ready", "mustknow": "ready", "formulas": "ready" },
+  "status": {
+    "notes": "ready",
+    "mustknow": "ready",
+    "formulas": "ready"
+  },
   "updated": "2026-11-15"
 }

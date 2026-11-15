@@ -125,32 +125,32 @@
       "marks": 0,
       "chapters": [
         {
-          "id": "prac-pollen",
+          "id": "ch-14",
           "number": 14,
           "title": "Practical: Pollen Germination"
         },
         {
-          "id": "prac-quadrat",
+          "id": "ch-15",
           "number": 15,
           "title": "Practical: Quadrat Study (Density and Frequency)"
         },
         {
-          "id": "prac-mitosis",
+          "id": "ch-16",
           "number": 16,
           "title": "Practical: Mitosis in Onion Root Tip"
         },
         {
-          "id": "prac-dna",
+          "id": "ch-17",
           "number": 17,
           "title": "Practical: Isolating DNA from Plant Material"
         },
         {
-          "id": "prac-spotting",
+          "id": "ch-18",
           "number": 18,
           "title": "Practical: Spotting (Study and Observe)"
         },
         {
-          "id": "prac-project",
+          "id": "ch-19",
           "number": 19,
           "title": "Practical: Project, Record and Exam Day"
         }
