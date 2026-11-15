@@ -19,9 +19,9 @@ Stars are estimates, not exact counts: ★★★ most years · ★★ often · �
 - **Lenz's law:** induced current opposes the change in flux that produces it.
 - **Lenz's law and energy:** it is a consequence of conservation of energy.
 - **Motional emf:** emf $Blv$ across a conductor moving through a magnetic field.
-- **Self-induction:** emf induced in a coil by a change in its own current.
-- **Self-inductance:** flux linkage per unit current, $L=N\Phi/I$.
-- **Henry:** inductance in which 1 A s⁻¹ change of current induces 1 V.
+- **Self-induction of a coil:** emf induced in a coil by a change in its own current.
+- **Coefficient of self-inductance:** flux linkage per unit current, $L=N\Phi/I$.
+- **SI unit of inductance:** inductance in which 1 A s⁻¹ change of current induces 1 V.
 - **Mutual induction:** emf induced in one coil by a changing current in another.
 - **Mutual inductance:** flux linkage in coil 2 per unit current in coil 1.
 - **Inductance as inertia:** opposes changes in current, not the current itself.

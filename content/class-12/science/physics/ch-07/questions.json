@@ -238,5 +238,27 @@
       }
     ],
     "topic": "Transformer"
+  },
+  {
+    "id": "phy-w20261115-07-01",
+    "chapter": "ch-07",
+    "type": "vsa2",
+    "marks": 2,
+    "stars": 2,
+    "label": "PYQ-style",
+    "stem": "In a series LCR circuit a resistance of 30 Ω, an inductive reactance of 100 Ω and a capacitive reactance of 40 Ω are connected to an AC source. Find (i) the impedance and (ii) the phase angle between the voltage and the current.",
+    "hint": "Find the net reactance X_L − X_C first, then Z = √(R² + X²) and tan φ = X/R.",
+    "model_answer": "*How much to write: 4–5 lines · 3 minutes*\n\n**Given:** $R=30\\ \\Omega$, $X_L=100\\ \\Omega$, $X_C=40\\ \\Omega$<br>\n**To find:** $Z$ and $\\phi$\n\n$$\\begin{aligned}Z&=\\sqrt{R^2+(X_L-X_C)^2}\\\\&=\\sqrt{30^2+60^2}=\\sqrt{4500}\\end{aligned}$$\n\n$$\\boxed{Z=67.1\\ \\Omega}$$\n\n$$\\begin{aligned}\\tan\\phi&=\\frac{X_L-X_C}{R}\\\\&=\\frac{60}{30}=2\\end{aligned}$$\n\n$$\\boxed{\\phi=63.4^\\circ}$$\n\nSince $X_L>X_C$, the <mark>voltage leads the current</mark>: the circuit is inductive.\n\n:::tip Your answer must contain\n- the <u>net reactance</u> $X_L-X_C$ found first\n- $Z=\\sqrt{R^2+(X_L-X_C)^2}$ with the values substituted\n- the phase angle from $\\tan\\phi$, with the lead or lag stated\n:::\n\n**Marks are lost for:** adding $X_L+X_C$; leaving out the phase angle's lead or lag; giving Z in terms of R only.",
+    "scheme": [
+      {
+        "step": "$Z=67.1\\ \\Omega$",
+        "marks": 1
+      },
+      {
+        "step": "$\\phi=63.4^\\circ$; voltage leads (inductive)",
+        "marks": 1
+      }
+    ],
+    "topic": "Series LCR circuit: impedance and phase"
   }
 ]

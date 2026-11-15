@@ -16,12 +16,12 @@ Stars are estimates, not exact counts: ★★★ most years · ★★ often · �
 - **Electric current:** rate of flow of charge, $I=dq/dt$; a scalar.
 - **Drift velocity:** average velocity of free electrons in a conductor under an applied field.
 - **Relaxation time:** average time between successive collisions of a free electron.
-- **Mobility:** drift velocity per unit electric field, $\mu=v_d/E$.
+- **Carrier mobility:** drift velocity per unit electric field, $\mu=v_d/E$.
 - **Current density:** current per unit area normal to the flow, $j=I/A$.
 - **Ohm's law:** at constant temperature, current through a conductor is proportional to the voltage.
-- **Resistivity:** resistance of a conductor of unit length and unit cross-section.
+- **Electrical resistivity:** resistance of a conductor of unit length and unit cross-section.
 - **Resistivity depends on:** material and temperature only.
-- **emf:** potential difference across the cell terminals when no current is drawn.
+- **Electromotive force (emf):** potential difference across the cell terminals when no current is drawn.
 - **Internal resistance:** resistance of the electrolyte and electrodes inside a cell.
 - **Junction rule:** sum of currents into a junction equals the sum out; charge conservation.
 - **Loop rule:** algebraic sum of potential changes round a closed loop is zero; energy conservation.

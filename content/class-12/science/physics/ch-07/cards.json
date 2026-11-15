@@ -95,7 +95,7 @@
     "title": "Resonant frequency",
     "tex": "\\nu_0=\\dfrac{1}{2\\pi\\sqrt{LC}}",
     "legend": [
-      "condition = X_L equals X_C"
+      "ν = at resonance: X_L equals X_C"
     ],
     "back": "Current is maximum and in phase with the voltage.",
     "stars": 3

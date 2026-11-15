@@ -15,17 +15,17 @@ Stars are estimates, not exact counts: ★★★ most years · ★★ often · �
 - **Valence band:** band occupied by valence electrons; full at 0 K.
 - **Conduction band:** band above the valence band; its electrons are free to conduct.
 - **Energy gap:** forbidden energy range between valence and conduction bands.
-- **Insulator gap:** more than 3 eV; semiconductor gap: less than 3 eV (Si 1.1 eV, Ge 0.7 eV).
+- **Band gap:** over 3 eV means insulator; under 3 eV, semiconductor (Si 1.1 eV).
 - **Intrinsic semiconductor:** pure semiconductor with $n_e=n_h$.
-- **Hole:** vacancy left by an electron in a covalent bond; acts as a positive carrier.
-- **Doping:** adding a tiny amount of impurity to raise conductivity.
-- **n-type:** doped with pentavalent donors (P, As, Sb); electrons are majority carriers.
-- **p-type:** doped with trivalent acceptors (B, Al, Ga, In); holes are majority carriers.
+- **Hole in a semiconductor:** vacancy left by an electron in a covalent bond; acts as a positive carrier.
+- **Doping of a semiconductor:** adding a tiny amount of impurity to raise conductivity.
+- **n-type semiconductor:** doped with pentavalent donors (P, As, Sb); electrons are majority carriers.
+- **p-type semiconductor:** doped with trivalent acceptors (B, Al, Ga, In); holes are majority carriers.
 - **Depletion region:** layer near the junction with no mobile carriers, only fixed ions.
 - **Barrier potential:** potential difference across the depletion region (Si ≈ 0.7 V, Ge ≈ 0.3 V).
 - **Forward bias:** p to +, n to −; barrier and depletion width decrease.
 - **Reverse bias:** p to −, n to +; barrier and depletion width increase.
-- **Rectifier:** circuit that converts AC to unidirectional (pulsating DC) current.
+- **Rectifier circuit:** circuit that converts AC to unidirectional (pulsating DC) current.
 
 ## Key formulas
 

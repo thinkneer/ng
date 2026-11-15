@@ -20,7 +20,7 @@ Stars are estimates, not exact counts: ★★★ most years · ★★ often · �
 - **Photocurrent depends on:** intensity of light (for $\nu>\nu_0$).
 - **Maximum kinetic energy depends on:** frequency, not intensity.
 - **Photoelectric emission:** instantaneous (≈$10^{-9}$ s).
-- **Photon:** quantum of light energy $h\nu$, momentum $h/\lambda$, zero rest mass, no charge.
+- **Photon, quantum of light:** quantum of light energy $h\nu$, momentum $h/\lambda$, zero rest mass, no charge.
 - **Intensity of light (photon picture):** number of photons crossing unit area per second.
 - **Slope of the $V_0$–$\nu$ graph:** $h/e$, the same for all metals.
 - **de Broglie hypothesis:** moving matter has an associated wave of wavelength $h/p$.

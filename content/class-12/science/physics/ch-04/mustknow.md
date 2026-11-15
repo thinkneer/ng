@@ -15,16 +15,16 @@ Stars are estimates, not exact counts: ★★★ most years · ★★ often · �
 
 - **Lorentz force:** $\vec F=q(\vec E+\vec v\times\vec B)$.
 - **Magnetic force on a charge:** does no work; changes direction, not speed.
-- **Tesla:** field that exerts 1 N on 1 C moving at 1 m s⁻¹ perpendicular to it.
+- **Tesla, unit of B:** 1 N on 1 C at 1 m s⁻¹, across B.
 - **Biot–Savart law:** field of a current element ∝ $I\,dl\sin\theta/r^2$.
 - **Ampère's circuital law:** line integral of $\vec B$ round a closed loop is $\mu_0I_\text{enc}$.
 - **Right-hand thumb rule:** thumb along current, curled fingers give the field direction.
-- **Ampere:** current in two long parallel wires 1 m apart giving $2\times10^{-7}$ N m⁻¹ force.
+- **SI unit of current:** current in two long parallel wires 1 m apart giving $2\times10^{-7}$ N m⁻¹ force.
 - **Magnetic dipole moment of a loop:** $m=NIA$, along the normal by the right-hand rule.
 - **Current sensitivity:** deflection per unit current, $NAB/k$.
 - **Voltage sensitivity:** deflection per unit voltage, $NAB/kG$.
 - **Radial field in a galvanometer:** keeps the coil's plane along B, so torque $=NIAB$.
-- **Shunt:** small resistance in parallel with a galvanometer to make an ammeter.
+- **Shunt resistance:** small resistance in parallel with a galvanometer to make an ammeter.
 - **Bohr magneton:** $eh/4\pi m_e=9.27\times10^{-24}$ A m².
 
 ## Key formulas

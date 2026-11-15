@@ -62,7 +62,7 @@
     "title": "Electron and hole concentrations",
     "tex": "n_en_h=n_i^2",
     "legend": [
-      "intrinsic = n_e equal to n_h equal to n_i"
+      "n_i = intrinsic: n_e = n_h"
     ],
     "back": "Doping raises one carrier and lowers the other.",
     "stars": 2

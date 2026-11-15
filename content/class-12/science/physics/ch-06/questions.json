@@ -73,6 +73,7 @@
   },
   {
     "id": "phy-06-q05",
+    "hint": "Use the mutual-inductance emf ε = M·dI/dt for the phone coil. Part (ii) is the check on your reading of M.",
     "chapter": "ch-06",
     "type": "case",
     "marks": 4,
@@ -137,6 +138,7 @@
   },
   {
     "id": "phy-06-q06",
+    "hint": "Ask what would happen if the induced current pushed the magnet forward. Energy would appear from nothing, so the induced effect must oppose the cause.",
     "chapter": "ch-06",
     "type": "vsa2",
     "marks": 2,
@@ -184,6 +186,7 @@
   },
   {
     "id": "phy-06-q08",
+    "hint": "Motional emf is ε = Blv, and the current is ε/R. The force on the rod is BIℓ, opposing its motion.",
     "chapter": "ch-06",
     "type": "sa3",
     "marks": 3,
@@ -239,5 +242,27 @@
       }
     ],
     "topic": "Self-inductance"
+  },
+  {
+    "id": "phy-w20261115-06-01",
+    "chapter": "ch-06",
+    "type": "vsa2",
+    "marks": 2,
+    "stars": 2,
+    "label": "PYQ-style",
+    "stem": "A solenoid of self-inductance 2.0 H carries a current that falls steadily from 3 A to 1 A in 0.5 s. Find the magnitude of the self-induced emf, and state its direction relative to the original current.",
+    "hint": "Use |ε| = L|ΔI/Δt|. For the direction, apply Lenz’s law to a falling current.",
+    "model_answer": "*How much to write: 4–5 lines · 3 minutes*\n\n**Given:** $L=2.0$ H, $I_1=3$ A, $I_2=1$ A, $\\Delta t=0.5$ s<br>\n**To find:** the magnitude of the self-induced emf, and its direction\n\n$$|\\varepsilon|=L\\left|\\frac{\\Delta I}{\\Delta t}\\right|=2.0\\times\\frac{3-1}{0.5}=8\\ \\text{V}$$\n\n$$\\boxed{|\\varepsilon|=8\\ \\text{V}}$$\n\n**Direction:** the current is falling, and by Lenz's law the self-induced emf <u>opposes that fall</u>. It acts <mark>in the same direction as the original current</mark>, trying to keep it flowing.\n\n:::tip Your answer must contain\n- $|\\varepsilon|=L\\,|\\Delta I/\\Delta t|$, with the magnitude taken\n- the value with its unit, boxed\n- Lenz's law applied to the falling current\n:::\n\n**Marks are lost for:** a negative answer with no explanation; saying the emf opposes the current rather than the change in current.",
+    "scheme": [
+      {
+        "step": "$|\\varepsilon|=8$ V",
+        "marks": 1
+      },
+      {
+        "step": "Same direction as the original current (opposes the fall)",
+        "marks": 1
+      }
+    ],
+    "topic": "Self-induction"
   }
 ]

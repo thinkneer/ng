@@ -13,18 +13,18 @@ Stars are estimates, not exact counts: ★★★ most years · ★★ often · �
 
 ## Must-know lines and definitions
 
-- **Wavefront:** locus of points vibrating in the same phase.
+- **Wavefront of a wave:** locus of points vibrating in the same phase.
 - **Ray and wavefront:** rays are perpendicular to wavefronts.
 - **Point source:** spherical wavefronts; distant source: plane wavefronts.
-- **Huygens' principle:** every point on a wavefront sends out secondary wavelets; their forward envelope is the new wavefront.
+- **Huygens' principle:** every wavefront point sends secondary wavelets; their envelope is the next front.
 - **Speed in a denser medium (wave theory):** less than in a rarer medium.
 - **On refraction:** frequency unchanged; wavelength and speed decrease in a denser medium.
 - **Coherent sources:** sources with a constant phase difference.
-- **Interference:** redistribution of light energy by superposition of two coherent waves.
+- **Interference of light:** redistribution of light energy by superposition of two coherent waves.
 - **Constructive interference:** path difference $n\lambda$.
 - **Destructive interference:** path difference $(n+\frac12)\lambda$.
 - **Fringe width:** distance between two consecutive bright or dark fringes.
-- **Diffraction:** bending of light round the edges of an obstacle or aperture.
+- **Diffraction of light:** bending of light round the edges of an obstacle or aperture.
 - **Single-slit minimum:** $a\sin\theta=n\lambda$.
 
 ## Key formulas

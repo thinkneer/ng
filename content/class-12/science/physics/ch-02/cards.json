@@ -80,7 +80,7 @@
     "title": "Potential energy of two charges",
     "tex": "U=\\dfrac{1}{4\\pi\\varepsilon_0}\\dfrac{q_1q_2}{r}",
     "legend": [
-      "system of charges = sum over every pair"
+      "Σ = sum over every pair, each counted once"
     ],
     "back": "Negative for unlike charges (bound). Dipole in a field: U = −pE cos θ.",
     "stars": 2
@@ -104,7 +104,7 @@
     "title": "Energy in a capacitor",
     "tex": "U=\\dfrac{Q^2}{2C}=\\dfrac12CV^2=\\dfrac12QV",
     "legend": [
-      "energy density u = ½ε₀E²"
+      "u = energy per volume: ½ε₀E²"
     ],
     "back": "Joining a charged and an uncharged capacitor always loses some energy as heat.",
     "stars": 3

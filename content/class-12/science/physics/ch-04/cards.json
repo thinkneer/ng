@@ -46,7 +46,7 @@
     "tex": "\\vec F=q\\vec v\\times\\vec B",
     "legend": [
       "F = qvB sin θ",
-      "work done by it = zero"
+      "W = work done by it: always zero"
     ],
     "back": "Lorentz force adds qE when an electric field is present.",
     "stars": 2

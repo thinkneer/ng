@@ -27,7 +27,7 @@
     "title": "Gauss’s law for magnetism",
     "tex": "\\oint\\vec B\\cdot d\\vec S=0",
     "legend": [
-      "isolated poles = none exist"
+      "N/S = poles: isolated ones never exist"
     ],
     "back": "As many field lines leave a closed surface as enter it.",
     "stars": 2
@@ -39,7 +39,7 @@
     "tex": "B_\\text{axial}=\\dfrac{\\mu_0}{4\\pi}\\dfrac{2m}{r^3}",
     "legend": [
       "m = magnetic moment (A m²)",
-      "equatorial = half, opposite to m"
+      "B = at the equator: half the axial value, opposite to m"
     ],
     "back": "Same form as the electric dipole with μ₀/4π in place of 1/4πε₀."
   },
@@ -72,7 +72,7 @@
     "tex": "\\chi=\\dfrac{C\\mu_0}{T}",
     "legend": [
       "T = absolute temperature",
-      "applies to = paramagnets only"
+      "Note = applies to paramagnets only"
     ],
     "back": "Heating randomises the atomic moments, so χ falls.",
     "stars": 2

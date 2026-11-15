@@ -73,6 +73,7 @@
   },
   {
     "id": "phy-04-q05",
+    "hint": "Crossed fields pass undeflected when the electric and magnetic forces balance, which fixes the speed. In the second region only the magnetic force acts, so the radius is r = mv/(qB).",
     "chapter": "ch-04",
     "type": "case",
     "marks": 4,
@@ -137,6 +138,7 @@
   },
   {
     "id": "phy-04-q06",
+    "hint": "Parallel currents attract. Use the force per unit length between two long wires, F/ℓ = μ₀I₁I₂/(2πd), with d in metres.",
     "chapter": "ch-04",
     "type": "vsa2",
     "marks": 2,
@@ -222,6 +224,7 @@
   },
   {
     "id": "phy-04-q09",
+    "hint": "For (a), start from the torque on a coil in a field and balance it against the restoring torque. For (b), the shunt carries the extra current: V = I_g G = (I − I_g) S.",
     "chapter": "ch-04",
     "type": "la5",
     "marks": 5,

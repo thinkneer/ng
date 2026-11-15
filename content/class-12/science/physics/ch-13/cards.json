@@ -62,7 +62,7 @@
     "title": "Q-value of a nuclear reaction",
     "tex": "Q=\\left(\\Sigma m_\\text{reactants}-\\Sigma m_\\text{products}\\right)c^2",
     "legend": [
-      "Q positive = energy released"
+      "Q > 0 = energy released"
     ],
     "back": "Also: total BE of products − total BE of reactants.",
     "stars": 2

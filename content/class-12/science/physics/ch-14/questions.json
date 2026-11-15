@@ -223,5 +223,65 @@
       }
     ],
     "topic": "Rectifier"
+  },
+  {
+    "id": "phy-w20261115-14-01",
+    "chapter": "ch-14",
+    "type": "la5",
+    "marks": 5,
+    "stars": 2,
+    "label": "PYQ-style",
+    "stem": "(a) Explain how a depletion region forms at a p-n junction. [2]<br>(b) Draw the V–I characteristic of a silicon p-n junction diode in forward and reverse bias. Mark the knee voltage and explain why the reverse current is almost constant. [3]",
+    "hint": "Think about what is left behind on each side when carriers diffuse across the junction, and then about the field that results.",
+    "model_answer": "*How much to write: about 12 lines and one labelled sketch · 10 minutes*\n\n**(a)** Electrons from the n side <u>diffuse</u> into the p side, and holes from the p side diffuse into the n side. Each electron that leaves a donor atom leaves a fixed <u>positive ion</u> behind; each hole that leaves an acceptor leaves a fixed <u>negative ion</u>. These immobile ions form a region with no free carriers: the <u>depletion region</u>. [1]<br>\nThe ions set up an electric field from the n side to the p side that <mark>opposes further diffusion</mark>. Once this <u>potential barrier</u> is established the region stops growing. [1]\n\n**(b)**\n\n<figure class=\"fig\">\n<svg viewBox=\"0 0 260 180\" role=\"img\" aria-label=\"I–V characteristic of a silicon p-n junction diode\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" font-size=\"11\">\n<path d=\"M60,15 V130 M20,130 H248\"/>\n<path d=\"M22,136 L60,130 H118 C124,128 128,118 134,100 S150,40 170,22\" stroke=\"#E0B400\" stroke-width=\"2.5\"/>\n<path d=\"M134,130 V100\" stroke-dasharray=\"3 3\"/>\n<text x=\"46\" y=\"20\">I</text>\n<text x=\"238\" y=\"122\">V</text>\n<text x=\"138\" y=\"146\">knee ≈ 0.7 V</text>\n<text x=\"168\" y=\"92\">forward bias</text>\n<text x=\"22\" y=\"166\">reverse bias: I almost constant</text>\n</svg>\n<figcaption>Silicon p-n junction diode: current stays tiny until the knee voltage in forward bias; in reverse bias only a very small current flows.</figcaption>\n</figure>\n\n- Forward bias: the current stays very small until the <u>knee voltage</u> (about 0.7 V for silicon), then rises steeply.\n- Reverse bias: only a tiny current flows, and it is almost constant. It is set by the <u>few minority carriers</u> (holes in the n side, electrons in the p side) that the depletion field sweeps across. A larger reverse voltage does not create more minority carriers, so the current stays nearly constant.\n\n:::tip Your answer must contain\n- the two <u>ions left behind</u> and the <mark>field that opposes diffusion</mark>\n- forward and reverse branches on labelled axes, with the <u>knee voltage</u> marked\n- the reason for the reverse current: <u>minority carriers</u> are few and do not multiply with voltage\n:::\n\n**Marks are lost for:** drawing the reverse branch rising steeply (the reverse current is tiny); saying the depletion region forms because of the battery; calling the reverse current a majority-carrier current.",
+    "scheme": [
+      {
+        "step": "(a) Diffusion leaves fixed ions behind; depletion region formed",
+        "marks": 1
+      },
+      {
+        "step": "(a) Field from the ions opposes further diffusion",
+        "marks": 1
+      },
+      {
+        "step": "(b) Axes, forward branch and reverse branch drawn correctly",
+        "marks": 1
+      },
+      {
+        "step": "(b) Knee voltage (≈ 0.7 V for Si) marked",
+        "marks": 1
+      },
+      {
+        "step": "(b) Reverse current limited by minority carriers, almost constant",
+        "marks": 1
+      }
+    ],
+    "topic": "p-n junction and depletion region"
+  },
+  {
+    "id": "phy-w20261115-14-02",
+    "chapter": "ch-14",
+    "type": "sa3",
+    "marks": 3,
+    "stars": 2,
+    "label": "PYQ-style",
+    "stem": "(a) Name the majority and minority charge carriers in an n-type semiconductor. [1]<br>(b) Explain why an n-type semiconductor is electrically neutral even though it has extra electrons. [1]<br>(c) Explain why the conductivity of an intrinsic semiconductor increases when its temperature rises. [1]",
+    "hint": "For (b), ask what a donor atom looks like after it gives up its fifth electron. For (c), ask what happens to the covalent bonds when they gain thermal energy.",
+    "model_answer": "*How much to write: three short paragraphs, 2–3 lines each · 6 minutes*\n\n**(a)** Electrons are the <u>majority carriers</u>, donated in large numbers by the pentavalent impurity. Holes are the <u>minority carriers</u>, produced only when bonds break thermally. [1]\n\n**(b)** Each pentavalent (donor) atom is electrically neutral. Its fifth electron becomes free to move, but the atom it leaves is a fixed positive ion in the lattice. The <mark>total charge of the crystal stays zero</mark>. [1]\n\n**(c)** At higher temperature more covalent bonds break, and each broken bond gives a free electron and a hole. The number of <u>charge carriers</u> rises, so the <mark>conductivity increases</mark>. Metals behave the other way. [1]\n\n:::tip Your answer must contain\n- <u>electrons</u> as majority carriers and <u>holes</u> as minority carriers\n- the fixed donor ion left behind, which keeps the crystal neutral\n- the chain: higher temperature → more bonds broken → more carriers\n:::\n\n**Marks are lost for:** saying the n-type crystal is charged; calling holes the majority carriers in n-type material; saying conductivity falls with temperature (that is a metal).",
+    "scheme": [
+      {
+        "step": "(a) Electrons majority, holes minority",
+        "marks": 1
+      },
+      {
+        "step": "(b) Donor atom neutral; fixed positive ion, so crystal neutral",
+        "marks": 1
+      },
+      {
+        "step": "(c) More bonds break → more carriers → conductivity rises",
+        "marks": 1
+      }
+    ],
+    "topic": "Intrinsic and extrinsic semiconductors"
   }
 ]

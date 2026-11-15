@@ -634,13 +634,13 @@
                       },
                       "marks_hint": "Unit I+II: 16 marks together (CBSE 2026–27); Ch 2 is usually 5–7 of them (estimate)",
                       "summary": "Potential and potential energy · dipole potential · equipotentials · conductors · dielectrics · capacitors, combinations and energy",
-                      "questions": 13,
+                      "questions": 14,
                       "question_types": {
                         "mcq": 5,
                         "ar": 2,
                         "case": 1,
                         "vsa2": 2,
-                        "sa3": 2,
+                        "sa3": 3,
                         "la5": 1
                       },
                       "diagrams": [],
@@ -654,7 +654,7 @@
                         "mnemonic": 2,
                         "fill": 1
                       },
-                      "words": 2881,
+                      "words": 2891,
                       "read_minutes": 10,
                       "cards": 11,
                       "mnemonics": 3
@@ -703,7 +703,7 @@
                         "compare": 1,
                         "steps": 1
                       },
-                      "words": 2528,
+                      "words": 2532,
                       "read_minutes": 8,
                       "cards": 12,
                       "mnemonics": 3
@@ -751,7 +751,7 @@
                         "steps": 1,
                         "compare": 1
                       },
-                      "words": 2848,
+                      "words": 2850,
                       "read_minutes": 10,
                       "cards": 12,
                       "mnemonics": 3
@@ -789,7 +789,7 @@
                         "draw": 1,
                         "explain": 1
                       },
-                      "words": 1909,
+                      "words": 1913,
                       "read_minutes": 6,
                       "cards": 9,
                       "mnemonics": 3
@@ -817,12 +817,12 @@
                       },
                       "marks_hint": "Unit III+IV: 17 marks together (CBSE 2026–27); Ch 6 is usually 4–6 of them (estimate)",
                       "summary": "Flux · Faraday's and Lenz's laws · motional emf · self and mutual inductance · energy in an inductor",
-                      "questions": 9,
+                      "questions": 10,
                       "question_types": {
                         "mcq": 3,
                         "ar": 1,
                         "case": 1,
-                        "vsa2": 1,
+                        "vsa2": 2,
                         "sa3": 2,
                         "la5": 1
                       },
@@ -837,7 +837,7 @@
                         "derive": 2,
                         "compare": 1
                       },
-                      "words": 2204,
+                      "words": 2212,
                       "read_minutes": 7,
                       "cards": 10,
                       "mnemonics": 3
@@ -856,12 +856,12 @@
                       },
                       "marks_hint": "Unit III+IV: 17 marks together (CBSE 2026–27); Ch 7 is usually 4–6 of them (estimate)",
                       "summary": "rms values · R, L, C in AC · phasors · series LCR and resonance · power and power factor · AC generator · transformer",
-                      "questions": 9,
+                      "questions": 10,
                       "question_types": {
                         "mcq": 3,
                         "ar": 1,
                         "case": 1,
-                        "vsa2": 1,
+                        "vsa2": 2,
                         "sa3": 2,
                         "la5": 1
                       },
@@ -877,7 +877,7 @@
                         "steps": 1,
                         "explain": 1
                       },
-                      "words": 2404,
+                      "words": 2412,
                       "read_minutes": 8,
                       "cards": 13,
                       "mnemonics": 3
@@ -924,7 +924,7 @@
                         "fill": 1,
                         "graph": 1
                       },
-                      "words": 1714,
+                      "words": 1721,
                       "read_minutes": 5,
                       "cards": 9,
                       "mnemonics": 3
@@ -952,13 +952,13 @@
                       },
                       "marks_hint": "Unit V+VI: 18 marks together (CBSE 2026–27); Ch 9 is usually 9–11 of them (estimate)",
                       "summary": "Mirrors · refraction · TIR · spherical surfaces · lenses and lens maker's formula · power · prism · microscope · telescope",
-                      "questions": 10,
+                      "questions": 11,
                       "question_types": {
                         "mcq": 3,
                         "ar": 1,
                         "case": 1,
                         "vsa2": 2,
-                        "sa3": 2,
+                        "sa3": 3,
                         "la5": 1
                       },
                       "diagrams": [],
@@ -992,14 +992,14 @@
                       },
                       "marks_hint": "Unit V+VI: 18 marks together (CBSE 2026–27); Ch 10 is usually 5–7 of them (estimate)",
                       "summary": "Wavefronts · Huygens' principle · reflection and refraction · coherent sources · interference and YDSE · single-slit diffraction",
-                      "questions": 9,
+                      "questions": 10,
                       "question_types": {
                         "mcq": 3,
                         "ar": 1,
                         "case": 1,
                         "vsa2": 2,
                         "sa3": 1,
-                        "la5": 1
+                        "la5": 2
                       },
                       "diagrams": [],
                       "blocks": {
@@ -1013,7 +1013,7 @@
                         "compare": 1,
                         "explain": 1
                       },
-                      "words": 2126,
+                      "words": 2129,
                       "read_minutes": 7,
                       "cards": 10,
                       "mnemonics": 3
@@ -1059,7 +1059,7 @@
                         "draw": 1,
                         "fill": 1
                       },
-                      "words": 1993,
+                      "words": 1996,
                       "read_minutes": 6,
                       "cards": 9,
                       "mnemonics": 3
@@ -1087,14 +1087,14 @@
                       },
                       "marks_hint": "Unit VII+VIII: 12 marks together (CBSE 2026–27); Ch 12 is usually 3–4 of them (estimate)",
                       "summary": "Alpha-scattering and the nuclear atom · Bohr model · energy levels · hydrogen spectrum",
-                      "questions": 9,
+                      "questions": 10,
                       "question_types": {
                         "mcq": 3,
                         "ar": 1,
                         "case": 1,
                         "vsa2": 1,
                         "sa3": 2,
-                        "la5": 1
+                        "la5": 2
                       },
                       "diagrams": [],
                       "blocks": {
@@ -1145,7 +1145,7 @@
                         "steps": 1,
                         "compare": 1
                       },
-                      "words": 1949,
+                      "words": 1957,
                       "read_minutes": 6,
                       "cards": 8,
                       "mnemonics": 3
@@ -1173,13 +1173,14 @@
                       },
                       "marks_hint": "Unit IX: 7 marks (CBSE 2026–27)",
                       "summary": "Energy bands · intrinsic and extrinsic semiconductors · p-n junction · diode in forward and reverse bias · rectifiers",
-                      "questions": 9,
+                      "questions": 11,
                       "question_types": {
                         "mcq": 3,
                         "ar": 2,
                         "case": 1,
                         "vsa2": 1,
-                        "sa3": 2
+                        "sa3": 3,
+                        "la5": 1
                       },
                       "diagrams": [],
                       "blocks": {
@@ -1192,7 +1193,7 @@
                         "graph": 1,
                         "numerical": 1
                       },
-                      "words": 2271,
+                      "words": 2276,
                       "read_minutes": 7,
                       "cards": 9,
                       "mnemonics": 3

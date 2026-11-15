@@ -46,7 +46,7 @@
     "title": "Speed of EM waves",
     "tex": "c=\\dfrac{1}{\\sqrt{\\mu_0\\varepsilon_0}}",
     "legend": [
-      "in a medium = 1/√(με)"
+      "v = in a medium: 1/√(με)"
     ],
     "back": "3 × 10⁸ m/s in vacuum for every wavelength.",
     "stars": 2

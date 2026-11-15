@@ -40,7 +40,7 @@
     "tex": "\\varepsilon=-N\\dfrac{d\\Phi_B}{dt}",
     "legend": [
       "N = number of turns",
-      "minus sign = Lenz's law"
+      "- = Lenz's law: the induced emf opposes the change"
     ],
     "back": "A steady flux, however large, induces nothing.",
     "stars": 3

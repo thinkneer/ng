@@ -19,13 +19,13 @@ Stars are estimates, not exact counts: ★★★ most years · ★★ often · �
 - **EM waves are transverse:** $\vec E\perp\vec B\perp$ direction of propagation.
 - **Direction of travel:** along $\vec E\times\vec B$.
 - **Phase of E and B:** in phase; they peak together.
-- **Medium:** EM waves need none; they travel through vacuum.
+- **Need for a medium:** EM waves need none; they travel through vacuum.
 - **Speed in vacuum:** $c=1/\sqrt{\mu_0\varepsilon_0}=3\times10^8$ m s⁻¹, same for all wavelengths.
 - **Energy and momentum:** EM waves carry both and exert radiation pressure.
-- **Microwaves:** used in radar and ovens; produced by klystron, magnetron, Gunn diode.
-- **Infrared:** produced by hot bodies; used in remote controls and physiotherapy.
-- **Ultraviolet:** mostly absorbed by ozone; used for water purification and LASIK.
-- **X-rays:** produced when fast electrons hit a metal target; used in diagnosis.
+- **Microwave radiation:** used in radar and ovens; produced by klystron, magnetron, Gunn diode.
+- **Infrared radiation:** produced by hot bodies; used in remote controls and physiotherapy.
+- **Ultraviolet light:** mostly absorbed by ozone; used for water purification and LASIK.
+- **X-ray production:** produced when fast electrons hit a metal target; used in diagnosis.
 - **Gamma rays:** emitted by nuclei; used in cancer treatment.
 
 ## Key formulas

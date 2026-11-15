@@ -19,12 +19,12 @@ Stars are estimates, not exact counts: ★★★ most years · ★★ often · �
 - **Capacitive reactance:** opposition of a capacitor to AC, $X_C=1/\omega C$.
 - **Pure inductor:** current lags voltage by π/2.
 - **Pure capacitor:** current leads voltage by π/2.
-- **Impedance:** total opposition of an LCR circuit to AC, $Z=\sqrt{R^2+(X_L-X_C)^2}$.
-- **Resonance:** $X_L=X_C$; impedance minimum ($=R$), current maximum.
+- **Impedance of an LCR circuit:** total opposition of an LCR circuit to AC, $Z=\sqrt{R^2+(X_L-X_C)^2}$.
+- **Resonance condition:** $X_L=X_C$; impedance minimum ($=R$), current maximum.
 - **Power factor:** $\cos\phi=R/Z$; ratio of true power to apparent power.
 - **Wattless current:** current component $I\sin\phi$ at 90° to voltage; carries no power.
 - **AC generator:** converts mechanical energy into electrical energy by EM induction.
-- **Transformer:** changes AC voltage using mutual induction; works only on AC.
+- **Working of a transformer:** changes AC voltage using mutual induction; works only on AC.
 - **Step-up transformer:** more turns in the secondary; raises voltage, lowers current.
 
 ## Key formulas

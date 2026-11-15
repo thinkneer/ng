@@ -234,5 +234,35 @@
       }
     ],
     "topic": "Huygens principle"
+  },
+  {
+    "id": "phy-w20261115-10-01",
+    "chapter": "ch-10",
+    "type": "la5",
+    "marks": 5,
+    "stars": 3,
+    "label": "PYQ-style",
+    "stem": "(a) Using the idea of path difference, explain why bright and dark fringes are formed on the screen in Young's double-slit experiment. [2]<br>(b) The slits are 0.30 mm apart and the screen is 1.5 m away. Light of wavelength 600 nm is used. Find (i) the fringe width and (ii) the distance of the 4th bright fringe from the central maximum. [2]<br>(c) The whole set-up is now immersed in water (refractive index 4/3). Find the new fringe width. [1]",
+    "hint": "Find the path difference first: d sin θ ≈ dy/D. The fringe width is λD/d, and the n-th bright fringe is n times that.",
+    "model_answer": "*How much to write: about 12 lines with one sketch: the path-difference idea, then the working in full with units · 10 minutes*\n\n**(a)** The two slits are coherent, so at a point P on the screen the waves arrive with path difference $\\Delta x = S_2P-S_1P\\approx d\\sin\\theta\\approx\\dfrac{dy}{D}$. [1]<br>\nWhere $\\Delta x=n\\lambda$ the waves <u>reinforce</u> and P is a <mark>bright fringe</mark>; where $\\Delta x=(2n-1)\\dfrac{\\lambda}{2}$ they <u>cancel</u> and P is a dark fringe. [1]\n\n<figure class=\"fig\">\n<svg viewBox=\"0 0 320 190\" role=\"img\" aria-label=\"Young's double slit: slits S1 and S2 and the path difference to a point P on the screen\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\" font-size=\"12\">\n<path d=\"M110,15 V55 M110,65 V125 M110,135 V175\"/>\n<path d=\"M250,15 V175\"/>\n<path d=\"M118,60 L250,45\"/>\n<path d=\"M118,130 L250,45\" stroke=\"#E0B400\" stroke-width=\"2.5\"/>\n<path d=\"M118,95 H250\" stroke-dasharray=\"4 3\"/>\n<path d=\"M100,60 V130\" stroke-width=\"1\"/>\n<circle cx=\"250\" cy=\"45\" r=\"3\" fill=\"currentColor\"/>\n<text x=\"118\" y=\"52\">S₁</text>\n<text x=\"118\" y=\"140\">S₂</text>\n<text x=\"256\" y=\"40\">P</text>\n<text x=\"84\" y=\"100\">d</text>\n<text x=\"170\" y=\"110\">D</text>\n<text x=\"140\" y=\"165\">Δx = S₂P − S₁P</text>\n</svg>\n<figcaption>Two coherent slits S₁, S₂ (separation d), screen at distance D; P is at height y above the centre.</figcaption>\n</figure>\n\n**(b) Given:** $d=0.30$ mm $=3.0\\times10^{-4}$ m, $D=1.5$ m, $\\lambda=600$ nm $=6.0\\times10^{-7}$ m<br>\n**To find:** $\\beta$ and $y_4$\n\n**(i) Formula:** $\\beta=\\dfrac{\\lambda D}{d}$\n\n$$\\beta=\\frac{6.0\\times10^{-7}\\times1.5}{3.0\\times10^{-4}}=3.0\\times10^{-3}\\ \\text{m}$$\n\n$$\\boxed{\\beta=3.0\\ \\text{mm}}$$\n\n(ii) The n-th bright fringe lies at $y_n=n\\beta$, so the 4th one, counted from the centre, is at\n\n$$\\boxed{y_4=4\\times3.0\\ \\text{mm}=12\\ \\text{mm}}$$\n\n**(c)** In water the wavelength becomes $\\lambda'=\\dfrac{\\lambda}{\\mu}=\\dfrac{600}{4/3}=450$ nm. Only $\\lambda$ changes; $D$ and $d$ stay the same.\n\n$$\\begin{aligned}\\beta'&=\\frac{\\lambda'D}{d}\\\\&=\\frac{4.5\\times10^{-7}\\times1.5}{3.0\\times10^{-4}}\\\\&=2.25\\times10^{-3}\\ \\text{m}\\end{aligned}$$\n\n$$\\boxed{\\beta'=2.25\\ \\text{mm}}$$ — the fringes come closer together.\n\n:::tip Your answer must contain\n- the <u>path difference</u> as $dy/D$, with both conditions: <u>nλ</u> for bright and <u>(2n−1)λ/2</u> for dark\n- <mark>β = λD/d</mark> with every value converted to metres first\n- $y_n=n\\beta$ for the 4th bright fringe, counted from the central maximum\n- the new wavelength $\\lambda/\\mu$, with $D$ and $d$ unchanged\n:::\n\n**Marks are lost for:** writing 3β or 4β + β for the 4th fringe; keeping λ unchanged in water; mixing mm and m in one line.",
+    "scheme": [
+      {
+        "step": "(a) Path difference $dy/D$ and the bright and dark conditions",
+        "marks": 2
+      },
+      {
+        "step": "(b)(i) $\\beta=\\lambda D/d=3.0$ mm",
+        "marks": 1
+      },
+      {
+        "step": "(b)(ii) $y_4=4\\beta=12$ mm",
+        "marks": 1
+      },
+      {
+        "step": "(c) $\\lambda'=\\lambda/\\mu=450$ nm, so $\\beta'=2.25$ mm",
+        "marks": 1
+      }
+    ],
+    "topic": "Young's double-slit fringes"
   }
 ]

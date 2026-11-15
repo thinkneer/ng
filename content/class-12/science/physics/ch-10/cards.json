@@ -94,7 +94,7 @@
     "tex": "\\text{width}=\\dfrac{2\\lambda D}{a}",
     "legend": [
       "a = slit width",
-      "minima at a sin θ = nλ"
+      "θ = minima where a sin θ = nλ"
     ],
     "back": "A narrower slit gives a wider central maximum.",
     "stars": 2

@@ -20,10 +20,10 @@ Stars are estimates, not exact counts: ★★★ most years · ★★ often · �
 - **Magnetic intensity H:** $H=B_0/\mu_0$; inside a solenoid $H=nI$.
 - **Magnetic susceptibility:** $\chi=M/H$; dimensionless.
 - **Relative permeability:** $\mu_r=\mu/\mu_0=1+\chi$.
-- **Diamagnetic:** $\chi$ small negative; weakly repelled; e.g. Bi, Cu, Pb, water, N₂.
-- **Paramagnetic:** $\chi$ small positive; weakly attracted; e.g. Al, Na, Ca, O₂, CuCl₂.
-- **Ferromagnetic:** $\chi$ very large; strongly attracted; e.g. Fe, Co, Ni, Gd.
-- **Domain:** region in a ferromagnet where all atomic moments are aligned.
+- **Diamagnetic substance:** $\chi$ small negative; weakly repelled; e.g. Bi, Cu, Pb, water, N₂.
+- **Paramagnetic substance:** $\chi$ small positive; weakly attracted; e.g. Al, Na, Ca, O₂, CuCl₂.
+- **Ferromagnetic substance:** $\chi$ very large; strongly attracted; e.g. Fe, Co, Ni, Gd.
+- **Magnetic domain:** region in a ferromagnet where all atomic moments are aligned.
 - **Curie temperature:** above it a ferromagnet becomes paramagnetic.
 - **Curie's law:** paramagnetic $\chi=C\mu_0/T$.
 - **Meissner effect:** superconductor expels the magnetic field; perfect diamagnet, $\chi=-1$.

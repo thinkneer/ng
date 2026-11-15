@@ -72,7 +72,7 @@
     "title": "de Broglie wavelength",
     "tex": "\\lambda=\\dfrac{h}{p}=\\dfrac{h}{\\sqrt{2mK}}",
     "legend": [
-      "through voltage V = h/√(2mqV)"
+      "V = accelerated through: λ = h/√(2mqV)"
     ],
     "back": "Same V: λ_e > λ_p > λ_α. Same p: equal λ.",
     "stars": 3

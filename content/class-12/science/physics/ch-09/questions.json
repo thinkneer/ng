@@ -256,5 +256,31 @@
       }
     ],
     "topic": "Lens maker"
+  },
+  {
+    "id": "phy-w20261115-09-01",
+    "chapter": "ch-09",
+    "type": "sa3",
+    "marks": 3,
+    "stars": 2,
+    "label": "PYQ-style",
+    "stem": "An object is placed 30 cm in front of a convex lens of focal length 20 cm. Find (i) the position of the image, (ii) the magnification, and (iii) the nature of the image.",
+    "hint": "Use the sign convention: distances against the incident light are negative. Then 1/v − 1/u = 1/f.",
+    "model_answer": "*How much to write: about 8 lines with the sign convention stated and each answer boxed · 6 minutes*\n\n**Given:** $u=-30$ cm (object on the incident side), $f=+20$ cm (convex lens)<br>\n**To find:** $v$, $m$ and the nature of the image\n\n**Formula:** $\\dfrac{1}{v}-\\dfrac{1}{u}=\\dfrac{1}{f}$, $\\quad m=\\dfrac{v}{u}$\n\n**(i) Solution:**\n\n$$\\frac{1}{v}=\\frac{1}{f}+\\frac{1}{u}=\\frac{1}{20}-\\frac{1}{30}=\\frac{1}{60}$$\n\n$$\\boxed{v=+60\\ \\text{cm}}$$\n\nA <u>positive v</u> puts the image on the far side of the lens, so it is real.\n\n**(ii) Magnification:**\n\n$$m=\\frac{v}{u}=\\frac{60}{-30}=-2$$\n\n$$\\boxed{m=-2}$$\n\n**(iii)** $m$ is negative, so the image is <u>inverted</u>; $|m|=2$ means it is twice the object's size. <mark>Real, inverted and magnified (2×)</mark>.\n\n:::tip Your answer must contain\n- the <u>sign convention</u> stated before the numbers (u negative, f positive for a convex lens)\n- <mark>1/v − 1/u = 1/f</mark> with the values substituted\n- $m=v/u$, with its sign kept\n- the three words: real, inverted, magnified\n:::\n\n**Marks are lost for:** taking u as +30 cm; writing m = −0.5 (u/v instead of v/u); leaving out the nature of the image.",
+    "scheme": [
+      {
+        "step": "(i) $v=+60$ cm",
+        "marks": 1
+      },
+      {
+        "step": "(ii) $m=-2$",
+        "marks": 1
+      },
+      {
+        "step": "(iii) Real, inverted and magnified",
+        "marks": 1
+      }
+    ],
+    "topic": "Lens formula and magnification"
   }
 ]

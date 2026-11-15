@@ -91,6 +91,7 @@
   },
   {
     "id": "phy-05-q06",
+    "hint": "Match each rod to a material type: which is repelled, which is weakly attracted, which is strongly attracted, and what heating does to the last one.",
     "chapter": "ch-05",
     "type": "case",
     "marks": 4,
@@ -155,6 +156,7 @@
   },
   {
     "id": "phy-05-q07",
+    "hint": "Ask whether the sample's own magnetisation strengthens or weakens the applied field, then draw the lines crowding in or pushed out to match.",
     "chapter": "ch-05",
     "type": "vsa2",
     "marks": 2,
@@ -176,6 +178,7 @@
   },
   {
     "id": "phy-05-q08",
+    "hint": "Magnetisation M is magnetic moment per unit volume, and χ = M/H. Start from B = μ₀(H + M) and divide by μ₀H.",
     "chapter": "ch-05",
     "type": "vsa2",
     "marks": 2,
@@ -197,6 +200,7 @@
   },
   {
     "id": "phy-05-q09",
+    "hint": "Set up a three-row table: susceptibility (sign and size), behaviour in a non-uniform field, and effect of temperature. Then give one example for each.",
     "chapter": "ch-05",
     "type": "sa3",
     "marks": 3,

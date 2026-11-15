@@ -10,7 +10,7 @@ Boards only. Board paper: **Tue 16 Feb 2027** (first paper of the season). Pract
 
 ## Done
 
-**All 14 chapters are on the site (14 Nov 2026): 137 questions, 52 figures.**
+**All 14 chapters are on the site (14 Nov 2026; 145 questions after the 15 Nov refresh): 52 figures.**
 
 
 ### On the site (`content/class-12/science/physics/`)
@@ -69,7 +69,10 @@ Boards only. Board paper: **Tue 16 Feb 2027** (first paper of the season). Pract
 - Charge at a cube corner → flux through the whole cube is $q/8\varepsilon_0$ ($q/24\varepsilon_0$ through each of the 3 far faces). An early formula-sheet version said $q/24\varepsilon_0$ for the whole cube; the site files carry the correct value (Ch 1 notes, must-know trap, formulas).
 
 ## What's next
-1. **Exam bank** (from `node scripts/bank-check.mjs`, 15 Nov 2026): the bank fills 1 fresh paper; the target is 4. Add **5-mark +15** (none yet in Unit IX, 1 in VII–VIII, 2 in V–VI), **3-mark +11** (thinnest V–VI, IX, I–II) and **2-mark +6** (thinnest IX, III–IV, V–VI). MCQ, A–R and case questions are already enough.
+1. **Exam bank** (`node scripts/bank-check.mjs physics`, 15 Nov 2026 after the weekly refresh): the bank fills **2 fresh papers**; the target is 4. Add **5-mark +12** (thinnest IX 1, VII–VIII 2, V–VI 3), **3-mark +8** (thinnest V–VI 5, III–IV 7, IX 3) and **2-mark +4** (thinnest IX 1, VII–VIII 4). MCQ, A–R and case questions are already enough.
 2. **Derivation drill** (Must-know/Practice material): collect every board derivation as a step skeleton; most already exist as `mustknow.md` Answer skeletons and `ng-derive` blocks. Still missing as ng-derive: equatorial dipole field, potential of a dipole, energy stored in a capacitor, I = neAv_d, motional emf, Einstein/photoelectric, nuclear density.
 3. **Practicals** (internal 30 marks; window 1 Jan–13 Feb): confirm the 2026–27 list on cbseacademic.nic.in, then aim, formula, observation table, result line and 5 viva questions each.
 4. Polish: expand the short Read layers (Ch 5, 8, 11–13) if students want more depth; recheck stars against recent paper analyses.
+
+## Weekly refresh log
+- 2026-11-15 · content-check FAIL/WARN for the whole subject 13/133 → 0/82 (touched chapters 0 FAIL) · card fixes: 13 legend symbols too wide, ch 2, 4, 5, 6, 7, 8, 10, 11, 13, 14 · must-know: 35 one-word recall fronts made two-word, 3 lines over 15 words shortened, 10 missing hints (ch 4, 5, 6), ch 13 fission equation stacked · questions added: 5-mark +3 (ch 10, 12, 14), 3-mark +3 (ch 2, 9, 14), 2-mark +2 (ch 6, 7), all answer-script style · fresh papers 1 → 2 (target 4) · left out: wide tables in Read and the formula sheet (ch 1, 3, 7, 8, 9, 12, 14), drawings with labels outside their viewBox (ch 4, 8, 14), missing hints in ch 13 and 14 (the run stops at 10), older written answers not yet in script style (INFO), ch 1 one-word fronts (not touched this run).

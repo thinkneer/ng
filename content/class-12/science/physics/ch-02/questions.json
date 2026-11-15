@@ -330,5 +330,31 @@
     ],
     "hint": "Add the potential drops across the air gaps and across the slab.",
     "topic": "Dielectrics"
+  },
+  {
+    "id": "phy-w20261115-02-01",
+    "chapter": "ch-02",
+    "type": "sa3",
+    "marks": 3,
+    "stars": 3,
+    "label": "PYQ-style",
+    "stem": "Two capacitors of 4 μF and 6 μF are connected in series across a 12 V supply. Find (i) the charge on each capacitor, (ii) the potential difference across the 6 μF capacitor, and (iii) the total energy stored in the combination.",
+    "hint": "In series, add the reciprocals to get the equivalent capacitance. The charge is then the same on both capacitors.",
+    "model_answer": "*How much to write: about 8 lines with the working for each part · 6 minutes*\n\n**Given:** $C_1=4\\ \\mu$F, $C_2=6\\ \\mu$F, $V=12$ V, <u>in series</u><br>\n**To find:** $Q$, $V_2$ and $U$\n\n**Formula:** $\\dfrac{1}{C}=\\dfrac{1}{C_1}+\\dfrac{1}{C_2}$, $\\quad Q=CV$, $\\quad U=\\tfrac12CV^2$\n\n**Solution:**\n\n$$\\frac{1}{C}=\\frac{1}{4}+\\frac{1}{6}=\\frac{5}{12}\\ \\Rightarrow\\ C=2.4\\ \\mu\\text{F}$$\n\n**(i)** In series the <mark>charge is the same</mark> on each capacitor: $Q=CV=2.4\\times12=28.8\\ \\mu$C.\n\n$$\\boxed{Q=28.8\\ \\mu\\text{C on each capacitor}}$$\n\n**(ii)** $V_2=\\dfrac{Q}{C_2}=\\dfrac{28.8}{6}$\n\n$$\\boxed{V_2=4.8\\ \\text{V}}$$\n\n**(iii)** $U=\\tfrac12CV^2=\\tfrac12\\times2.4\\times10^{-6}\\times12^2=1.728\\times10^{-4}$ J\n\n$$\\boxed{U=172.8\\ \\mu\\text{J}}$$\n\nCheck: $V_1=Q/C_1=7.2$ V and $7.2+4.8=12$ V.\n\n:::tip Your answer must contain\n- the <u>reciprocal rule</u> for series, with the value of $C$ found\n- <mark>the same charge on each</mark> capacitor in series\n- $U=\\tfrac12CV^2$ with the equivalent $C$ and $V$ in SI units\n:::\n\n**Marks are lost for:** adding 4 μF and 6 μF directly; using the parallel charge idea; giving energy in μJ without converting from SI.",
+    "scheme": [
+      {
+        "step": "(i) $Q=28.8\\ \\mu$C on each capacitor",
+        "marks": 1
+      },
+      {
+        "step": "(ii) $V_2=4.8$ V",
+        "marks": 1
+      },
+      {
+        "step": "(iii) $U=172.8\\ \\mu$J",
+        "marks": 1
+      }
+    ],
+    "topic": "Capacitors in series, energy stored"
   }
 ]

@@ -12,7 +12,7 @@ Stars are estimates, not exact counts: ★★★ most years · ★★ often · �
 
 ## Must-know lines and definitions
 
-- **Nucleons:** protons and neutrons in a nucleus.
+- **Nucleons in a nucleus:** protons and neutrons in a nucleus.
 - **Atomic mass unit:** one-twelfth of the mass of a carbon-12 atom, $1.66\times10^{-27}$ kg.
 - **Nuclear radius:** $R=R_0A^{1/3}$, $R_0=1.2$ fm.
 - **Nuclear density:** about $2.3\times10^{17}$ kg m⁻³, same for all nuclei.
@@ -21,10 +21,10 @@ Stars are estimates, not exact counts: ★★★ most years · ★★ often · �
 - **BE per nucleon:** measure of stability; peak 8.75 MeV near A = 56.
 - **Saturation of nuclear force:** each nucleon interacts only with its nearest neighbours.
 - **Nuclear force:** strongest, short-range, charge-independent, repulsive below about 0.8 fm.
-- **Fission:** splitting of a heavy nucleus into two medium nuclei with energy release.
-- **Fusion:** joining of light nuclei into a heavier one with energy release.
+- **Nuclear fission:** splitting of a heavy nucleus into two medium nuclei with energy release.
+- **Nuclear fusion:** joining of light nuclei into a heavier one with energy release.
 - **Chain reaction:** neutrons from one fission cause further fissions.
-- **Q-value:** energy released in a nuclear reaction, (mass lost) × $c^2$.
+- **Q-value of a reaction:** energy released in a nuclear reaction, (mass lost) × $c^2$.
 
 ## Key formulas
 

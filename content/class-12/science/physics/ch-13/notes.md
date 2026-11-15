@@ -178,7 +178,7 @@ time: 2
 
 **Fission.** When a slow neutron is absorbed by uranium-235, the nucleus becomes unstable and splits into two medium-mass fragments, releasing two or three neutrons and about 200 MeV of energy. A typical reaction is
 
-$${}^{235}_{92}\text{U}+{}^{1}_{0}\text{n}\rightarrow{}^{236}_{92}\text{U}\rightarrow{}^{144}_{56}\text{Ba}+{}^{89}_{36}\text{Kr}+3\,{}^{1}_{0}\text{n}+\text{energy}$$
+$$\begin{aligned}{}^{235}_{92}\text{U}+{}^{1}_{0}\text{n}&\rightarrow{}^{236}_{92}\text{U}\\&\rightarrow{}^{144}_{56}\text{Ba}+{}^{89}_{36}\text{Kr}+3\,{}^{1}_{0}\text{n}+\text{energy}\end{aligned}$$
 
 The energy appears mostly as kinetic energy of the fragments. Because each fission releases more neutrons, which can cause further fissions, a **chain reaction** is possible. In a nuclear reactor it is controlled so that, on average, exactly one neutron from each fission causes another.
 

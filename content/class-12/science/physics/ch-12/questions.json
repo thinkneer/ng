@@ -238,5 +238,39 @@
       }
     ],
     "topic": "Bohr model"
+  },
+  {
+    "id": "phy-w20261115-12-01",
+    "chapter": "ch-12",
+    "type": "la5",
+    "marks": 5,
+    "stars": 3,
+    "label": "PYQ-style",
+    "stem": "(a) Using Bohr's postulates, derive an expression for the radius of the n-th orbit of the electron in a hydrogen atom. [2]<br>(b) Hence obtain an expression for the total energy of the electron in the n-th orbit. [2]<br>(c) Calculate the energy needed to take the electron of a hydrogen atom from n = 1 to n = 2, given $E_1=-13.6$ eV. [1]",
+    "hint": "Start from the quantised angular momentum and the Coulomb force balance. For (b), add the kinetic and potential energies, then put in r_n.",
+    "model_answer": "*How much to write: about 14 lines: the postulate and force balance, then r_n; the energy in three lines; one line for the transition · 12 minutes*\n\n**(a) Given:** electron of mass $m$ and charge $e$ in an orbit of radius $r_n$ and speed $v_n$; nucleus of charge $+e$ (Z = 1)<br>\n**To find:** $r_n$\n\n**Quantisation:** the angular momentum is <u>quantised</u>, $m v_n r_n=\\dfrac{nh}{2\\pi}$, so $v_n=\\dfrac{nh}{2\\pi m r_n}$.\n\n**Force balance:** the Coulomb attraction supplies the <u>centripetal force</u>:\n\n$$\\frac{m v_n^2}{r_n}=\\frac{1}{4\\pi\\varepsilon_0}\\frac{e^2}{r_n^2}$$\n\nSubstituting $v_n$ and cancelling:\n\n$$\\frac{n^2h^2}{4\\pi^2 m\\,r_n^3}=\\frac{e^2}{4\\pi\\varepsilon_0\\,r_n^2}$$\n\n$$\\boxed{r_n=\\frac{n^2h^2\\varepsilon_0}{\\pi m e^2}}$$\n\n<mark>$r_n\\propto n^2$</mark>; for n = 1 this gives $0.53\\times10^{-10}$ m.\n\n**(b)** From the force balance, $\\tfrac12 m v_n^2=\\dfrac{e^2}{8\\pi\\varepsilon_0 r_n}$ (kinetic energy). Potential energy $U=-\\dfrac{e^2}{4\\pi\\varepsilon_0 r_n}$. So the total energy is\n\n$$E=\\frac{e^2}{8\\pi\\varepsilon_0 r_n}-\\frac{e^2}{4\\pi\\varepsilon_0 r_n}=-\\frac{e^2}{8\\pi\\varepsilon_0 r_n}$$\n\nPut in $r_n$:\n\n$$E_n=-\\frac{m e^4}{8\\varepsilon_0^2h^2}\\cdot\\frac{1}{n^2}$$\n\n$$\\boxed{E_n=-\\frac{13.6}{n^2}\\ \\text{eV}}$$\n\n**(c) Given:** $E_1=-13.6$ eV, so $E_2=-\\dfrac{13.6}{4}=-3.4$ eV\n\n$$\\begin{aligned}\\Delta E&=E_2-E_1\\\\&=-3.4-(-13.6)\\\\&=10.2\\ \\text{eV}\\end{aligned}$$\n\n$$\\boxed{\\Delta E=10.2\\ \\text{eV}}$$\n\n:::tip Your answer must contain\n- the <u>quantisation condition</u> $mvr=nh/2\\pi$ and the <u>Coulomb force as the centripetal force</u>\n- the cancellation that leads to <mark>$r_n\\propto n^2$</mark>\n- KE, PE and total E on separate lines, with the minus sign kept\n- the energy difference as $E_2-E_1$, with eV as the unit\n:::\n\n**Marks are lost for:** leaving $v$ in the radius formula; dropping the minus sign in $E_n$; computing $E_1-E_2$ and getting −10.2 eV.",
+    "scheme": [
+      {
+        "step": "(a) $mvr=nh/2\\pi$ with the Coulomb force as centripetal force",
+        "marks": 1
+      },
+      {
+        "step": "(a) $r_n=n^2h^2\\varepsilon_0/(\\pi me^2)$",
+        "marks": 1
+      },
+      {
+        "step": "(b) Total energy $E=-e^2/(8\\pi\\varepsilon_0 r)$ from KE and PE",
+        "marks": 1
+      },
+      {
+        "step": "(b) $E_n=-13.6/n^2$ eV",
+        "marks": 1
+      },
+      {
+        "step": "(c) $\\Delta E=10.2$ eV",
+        "marks": 1
+      }
+    ],
+    "topic": "Bohr model of the hydrogen atom"
   }
 ]

@@ -14,7 +14,7 @@ Stars are estimates, not exact counts: ★★★ most years · ★★ often · �
 ## Must-know lines and definitions
 
 - **Electric potential:** work done per unit positive charge in bringing it from infinity.
-- **Volt:** 1 J of work per coulomb of charge.
+- **SI unit of potential:** 1 J of work per coulomb of charge.
 - **Equipotential surface:** surface on which every point has the same potential.
 - **Field and equipotentials:** field is always perpendicular to equipotential surfaces.
 - **Electrostatic shielding:** field inside a cavity of a conductor is zero.
@@ -22,10 +22,10 @@ Stars are estimates, not exact counts: ★★★ most years · ★★ often · �
 - **Excess charge on a conductor:** resides on the outer surface, densest at sharp points.
 - **Polar molecule:** has a permanent dipole moment, e.g. H₂O, HCl.
 - **Non-polar molecule:** centres of + and − charge coincide, e.g. O₂, H₂.
-- **Polarisation:** dipole moment per unit volume of a dielectric.
+- **Dielectric polarisation:** dipole moment per unit volume of a dielectric.
 - **Dielectric constant:** $K=\varepsilon/\varepsilon_0$; factor by which a dielectric reduces the field.
-- **Capacitance:** ratio of charge on a plate to the potential difference, $C=Q/V$.
-- **Farad:** capacitance that stores 1 C per volt.
+- **Capacitance of a capacitor:** ratio of charge on a plate to the potential difference, $C=Q/V$.
+- **SI unit of capacitance:** capacitance that stores 1 C per volt.
 
 ## Key formulas
 
