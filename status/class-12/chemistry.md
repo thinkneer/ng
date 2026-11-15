@@ -32,6 +32,7 @@ Boards only. Board paper: **Sat 27 Feb 2027** (date sheet of 6 Nov 2026; gap day
 - Ten chapters, 2 450–3 600 words each, NCERT order, one idea per `##`, every section ends with **In one breath:**. Worked examples in `:::skeleton` with step marks; traps as `:::tip` where the mistake happens.
 - Every `:::formula` box has a title (14 Nov).
 - Organic chapters explain mechanisms in order (S$_\text{N}$1/S$_\text{N}$2, hydration and dehydration, nucleophilic addition) with named reactions boxed.
+- **Detailed pilot, Ch 4 (15 Nov, admin's test of "how good it can get"):** students read NCERT from the book; the app explains it. Each `##` opens with an *NCERT map* line (sections, tables, figures, examples, intext questions it explains) and the chapter links the official PDF. Added: deeper "why" passages (4s fills first but leaves first; Sc and Ag as transition elements; fluorides and the highest halides; why CuI₂ does not exist; KMnO₄ on heating), a new last section *Where d- and f-block elements are used* (NCERT 4.7), eight own line drawings as `ng-figure` with parts (block position, 3d melting points, radii of 3d/4d/5d, oxidation-state dot chart, E°(M²⁺/M) bars, d–d colour, interstitial lattice, lanthanoid radii), and blocks: `unpaired-from-z` and `moment-from-z` numericals, `tm-vs-s-block` and `chromate-vs-dichromate` compares, `oxide-character` fill, `base-camp-acid-peak` mnemonic, `colour-steps` and `fe-catalysis-steps`, `draw-lanthanoid-radii`, three explains, and an `oxidation-states-3d` card. Prose 3 150 words. Long reactions in Ch 4 notes, Must know and answers are wrapped for 360 px (content-check: 0 FAIL, 0 WARN). **If the admin likes it, the same treatment goes to the other nine chapters.**
 
 ### Must-know layer (`mustknow.md`), rewritten 14 Nov for Recall
 - Exactly the six §4b headings. The old "Case-based angles" heading is gone from all ten files.
@@ -114,12 +115,13 @@ Still to make, as content once the site has a place for practicals:
 - Recall cards built from titled traps show the mistake as the answer. If the card should show the fix, the trap bodies need a second sentence; say so and the chemistry traps can be extended.
 
 ## What's left, in order
-1. Board answers in answer-script style: convert Ch 4–10 written answers (Ch 1–3 done), then new topper sets for Ch 4–10.
-2. The remaining optional SVG to-dos above (fac/mer, VBT boxes, SHE).
-3. About 11 more `la5` (5-mark) questions so exam mode can build 3 papers without repeats; then more practice per chapter, especially numericals for Ch 1–3 and conversions for Ch 6–9 (most chapters have 10–14 questions; Ch 8 has 19).
-4. Practical help (list above).
-5. Past papers solved with verified `PYQ (year)` labels, and full-length timed papers under `papers/` for 17–26 Feb.
-6. The items under "To verify", and the picric acid value in Ch 7 `formulas.md`.
+1. Waiting for the admin's review of the Ch 4 detailed notes; if approved, the same NCERT-map + figures pass for Ch 1–3 and 5–10.
+2. Board answers in answer-script style: convert Ch 4–10 written answers (Ch 1–3 done), then new topper sets for Ch 4–10.
+3. The remaining optional SVG to-dos above (fac/mer, VBT boxes, SHE).
+4. About 11 more `la5` (5-mark) questions so exam mode can build 3 papers without repeats; then more practice per chapter, especially numericals for Ch 1–3 and conversions for Ch 6–9 (most chapters have 10–14 questions; Ch 8 has 19).
+5. Practical help (list above).
+6. Past papers solved with verified `PYQ (year)` labels, and full-length timed papers under `papers/` for 17–26 Feb.
+7. The items under "To verify", and the picric acid value in Ch 7 `formulas.md`.
 
 ## Exam mode (Site chat, 15 Nov 2026)
 - Live: Subject → Exam mode builds numbered 3-hour papers (P-01, P-02 …) from this subject's questions.json files, to `data/patterns/class-12/chemistry.json` and the unit marks in subject.json. Every question in the bank can appear; nothing extra is needed per question.
