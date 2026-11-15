@@ -4,6 +4,22 @@ import { store } from '../store.js';
 import { pwa } from '../pwa.js';
 import { summary as recallSummary } from '../recall.js';
 import { isDbMode, session } from '../auth.js';
+import * as T from '../timetable.js';
+
+/** Today's timetable at a glance: the session now or next, with one tap to start or to say it's done. */
+async function timetableCard(tt, s) {
+  if (!tt) return `<a class="card continue pressable mb-4" href="#/timetable"><span class="list__leading" style="--unit:var(--accent)">${icon('calendar')}</span><span class="continue__main"><span class="continue__title">Make your timetable</span><span class="continue__sec" style="color:var(--text-2);font-weight:500">Three questions about your free time. We plan the subjects and chapters, and track your streak.</span></span>${icon('chevronRight', { class: 'chev', size: 20 })}</a>`;
+  const ctx = await T.context();
+  const { now, next, plan } = T.nowAndNext(tt, ctx);
+  const sc = T.score(tt, ctx);
+  const p = now || next;
+  const streak = `<span class="badge tt-badge">${sc.streak ? `${icon('flame')} ${sc.streak}-day streak` : `${sc.points} pts`}</span>`;
+  if (!plan.length) return `<a class="card continue pressable mb-4" href="#/timetable"><span class="list__leading" style="--unit:#8795AB">${icon('calendar')}</span><span class="continue__main"><span class="continue__title">No sessions today ${streak}</span><span class="continue__sec" style="color:var(--text-2);font-weight:500">A day off on your timetable. Rest is part of revision.</span></span>${icon('chevronRight', { class: 'chev', size: 20 })}</a>`;
+  if (!p) return `<a class="card continue pressable mb-4" href="#/timetable"><span class="list__leading" style="--unit:var(--success)">${icon('check')}</span><span class="continue__main"><span class="continue__title">Today's sessions are over ${streak}</span><span class="continue__sec" style="color:var(--text-2);font-weight:500">${sc.keptToday} of ${sc.totalToday} kept. Tap to mark any you did on paper.</span></span>${icon('chevronRight', { class: 'chev', size: 20 })}</a>`;
+  const end = T.toHHMM(T.toMin(p.start) + p.mins);
+  const what = p.task === 'exam' ? 'Exam eve + timed paper' : p.ch ? `Ch ${p.ch.number} · ${esc(p.ch.title)}` : '';
+  return `<a class="card continue pressable mb-4" href="#/timetable" style="--unit:#${p.sub?.colour || '8795AB'}"><span class="list__leading">${icon('calendar')}</span><span class="continue__main"><span class="continue__title">${now ? 'Now' : `Next at ${T.fmtTime(p.start)}`} · ${esc(p.sub?.name || 'Free session')} ${streak}</span><span class="continue__sec" style="color:var(--text-2);font-weight:500">${what}${what ? ' · ' : ''}until ${T.fmtTime(end)} · ${sc.keptToday}/${sc.totalToday} kept today</span></span>${icon('chevronRight', { class: 'chev', size: 20 })}</a>`;
+}
 
 function greeting() {
   const h = new Date().getHours();
@@ -32,10 +48,13 @@ export async function today() {
   const curCards = lastCh?.items?.cards ? lastCh.cards : 0;
   const saved = (progress.mycards || []).length;
   const trick = trickOfTheDay(mine, progress, last, t0);
+  const tt = T.getTimetable();
+  const ttCard = await timetableCard(tt, s);
 
   return {
     title: 'Today', largeTitle: true, tab: 'today',
     html: html`${largeTitle(greeting(), { eyebrow: todayStr })}
+      ${raw(ttCard)}
       ${next ? raw(`
       <a class="card card--hero pressable" href="#/plan" style="--unit:#${nextSubj?.colour || '1F5FAD'}">
         <div class="row row--between">

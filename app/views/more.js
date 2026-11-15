@@ -27,6 +27,7 @@ async function hub() {
     html: html`${largeTitle('More')}
       <div class="list">
         ${listItem({ href: '#/more/settings', title: 'Class, subjects & appearance', sub: cls, leading: icon('settings'), leadingStyle: 'background:var(--accent-soft);color:var(--accent-text)' })}
+        ${listItem({ href: '#/timetable', title: 'Timetable', sub: 'Your study week, sessions kept and streak', leading: icon('calendar'), leadingStyle: 'background:var(--accent-soft);color:var(--accent-text)' })}
         ${listItem({ href: '#/plan', title: 'Board plan', sub: 'Days left to each paper', leading: icon('plan'), leadingStyle: 'background:var(--accent-soft);color:var(--accent-text)' })}
         ${dbMode ? listItem({ href: '#/live', title: 'Live quiz', sub: session()?.role === 'student' ? 'Join with the code from your teacher' : 'Host a quiz, or join one', leading: icon('bolt'), leadingStyle: 'background:var(--accent-soft);color:var(--accent-text)' }) : ''}
         ${pwa.installable ? listItem({ href: '#/more/install', title: 'Install app', sub: 'Full-screen, works offline', leading: icon('install'), leadingStyle: 'background:var(--accent-soft);color:var(--accent-text)' }) : ''}

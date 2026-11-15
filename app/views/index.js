@@ -21,6 +21,7 @@ const L = {
   admin: () => import('./admin.js'),
   live: () => import('./live.js'),
   cards: () => import('./cards.js'),
+  timetable: () => import('./timetable.js'),
 };
 
 export const views = {
@@ -47,6 +48,7 @@ export const views = {
   admin: lazy(L.admin, 'admin'),
   live: lazy(L.live, 'live'),
   cards: lazy(L.cards, 'cardsRoute'),
+  timetable: async (r, ctx) => { const m = await L.timetable(); return r.sub === 'setup' ? m.timetableSetup(r, ctx) : m.timetable(r, ctx); },
   'not-found': async () => ({
     title: 'Not found', tab: 'today',
     html: emptyState({ icon: 'alert', title: 'That page does not exist', text: 'Check the link, or start from Today.', action: '<a class="btn btn--secondary" href="#/today">Go to Today</a>' }),

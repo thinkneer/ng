@@ -484,3 +484,43 @@ a.unit-bar--link:hover { text-decoration: none; filter: brightness(1.06); }
 .mn-chip__trick { display: block; font-weight: 800; font-size: 1.1em; margin-bottom: 0.25em; }
 .mn-chip__meaning { display: block; color: var(--text-2); }
 @media print { .mn-strip { flex-wrap: wrap; overflow: visible; } .mn-chip { flex: 1 1 45%; } }
+
+/* ---------- Timetable ---------- */
+.side-link__two { display: flex; flex-direction: column; min-width: 0; line-height: 1.2; }
+.side-link__sub { font-size: var(--fs-caption, .75rem); color: var(--text-3); font-weight: 500; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.side-link__sub:empty { display: none; }
+.tt-ask { padding: var(--s-3) 0; border-bottom: 1px solid var(--separator); }
+.tt-ask:last-child { border-bottom: 0; }
+.tt-ask__row { display: grid; grid-template-columns: 1fr 1fr; gap: var(--s-3); margin-top: var(--s-2); }
+.tt-ask__f { display: grid; gap: var(--s-1); font-size: var(--fs-footnote); color: var(--text-2); font-weight: 600; margin: 0; }
+.tt-days { display: grid; grid-template-columns: repeat(7, 1fr); gap: 4px; margin-bottom: var(--s-3); }
+.tt-day { display: grid; justify-items: center; gap: 2px; padding: var(--s-2) 0; border-radius: var(--r-md); font-size: var(--fs-caption, .75rem); font-weight: 600; color: var(--text-2); background: var(--surface); border: 1px solid var(--card-border); }
+.tt-day__n { font-size: var(--fs-headline); color: var(--text); font-weight: 700; }
+.tt-day.is-today .tt-day__n { color: var(--accent); }
+.tt-day[aria-selected="true"] { background: var(--accent); border-color: var(--accent); color: #fff; }
+.tt-day[aria-selected="true"] .tt-day__n { color: #fff; }
+.tt-day__dots { display: flex; gap: 2px; min-height: 5px; }
+.tt-day__dots i { width: 5px; height: 5px; border-radius: 50%; background: var(--separator-strong); }
+.tt-day__dots i.ok { background: var(--success); } .tt-day__dots i.half { background: #E0B400; } .tt-day__dots i.no { background: var(--danger); opacity: .6; }
+.tt-day[aria-selected="true"] .tt-day__dots i { outline: 1px solid rgba(255,255,255,.7); }
+.tt-slot { align-items: flex-start; }
+.tt-slot .list__leading.tt-slot__time { flex-direction: column; background: color-mix(in srgb, var(--unit) 14%, transparent); color: var(--unit); font-weight: 700; font-size: .8rem; line-height: 1.05; }
+.tt-slot__time small { font-size: .62rem; text-transform: uppercase; opacity: .8; }
+.tt-slot .list__body { color: inherit; text-decoration: none; min-width: 0; }
+.tt-slot .list__title svg, .tt-slot .badge svg { width: .85em; height: .85em; vertical-align: -1px; }
+.tt-slot--done, .tt-slot--seen { box-shadow: inset 3px 0 0 var(--success); }
+.tt-slot--now { box-shadow: inset 3px 0 0 var(--unit); background: color-mix(in srgb, var(--unit) 6%, var(--surface)); }
+.tt-slot__side { display: flex; flex-direction: column; align-items: flex-end; gap: var(--s-1); flex: none; }
+.tt-mark { display: inline-flex; border: 1px solid var(--separator-strong); border-radius: 999px; overflow: hidden; }
+.tt-mark button { width: 2.25rem; height: 2.25rem; display: grid; place-items: center; font-weight: 700; color: var(--text-2); }
+.tt-mark button + button { border-left: 1px solid var(--separator); }
+.tt-mark button svg { width: 1rem; height: 1rem; }
+.tt-mark button[data-mark="done"][aria-pressed="true"] { background: var(--success); color: #fff; }
+.tt-mark button[data-mark="part"][aria-pressed="true"] { background: #E0B400; color: #000; }
+.tt-mark button[data-mark="missed"][aria-pressed="true"] { background: var(--danger); color: #fff; }
+.tt-flame { display: inline-flex; align-items: center; gap: 4px; color: #E8590C; }
+.tt-flame svg { width: 1.4rem; height: 1.4rem; fill: currentColor; }
+.tt-badge { color: #E8590C; background: color-mix(in srgb, #E8590C 12%, transparent); font-weight: 700; vertical-align: 1px; }
+.tt-badge svg { width: .85em; height: .85em; fill: currentColor; vertical-align: -1px; }
+.icon-btn--sm { width: 2.25rem; height: 2.25rem; } .icon-btn--sm svg { width: 1.1rem; height: 1.1rem; }
+.stats--3 { grid-template-columns: repeat(3, 1fr); } .stats--3 .stat { padding: var(--s-3); } .stats--3 .stat__value { font-size: 1.6rem; }

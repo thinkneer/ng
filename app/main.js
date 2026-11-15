@@ -7,6 +7,7 @@ import { $, $$, html, raw, icon, esc, openSheet, emptyState } from './ui.js';
 import { views, prefetchView } from './views/index.js';
 import { verifySession, verifyDbSession, isDbMode } from './auth.js';
 import { classAllowed, subjectAllowed } from './access.js';
+import { parseHash } from './router.js';
 
 const PUBLIC_ROUTES = new Set(['signin', 'request', 'access', 'login', 'awaiting', 'reset']);
 let sessionChecked = null;
@@ -38,6 +39,7 @@ async function renderSidebar(active, route) {
   $('#sidebar').innerHTML = `
     <div class="sidebar__brand"><img src="assets/icons/icon-64.png" alt="" width="32" height="32"><div><div class="name">ng</div><div class="sub">CBSE board prep</div></div></div>
     ${link('#/today', 'Today', 'today', 'today')}
+    <a class="side-link" href="#/timetable" ${active === 'timetable' ? 'aria-current="page"' : ''}>${icon('calendar')}<span class="side-link__two"><span>Timetable</span><span class="side-link__sub" data-tt-side></span></span></a>
     ${link('#/plan', 'Board plan', 'plan', 'plan')}
     ${link('#/practice', 'Practice', 'practice', 'practice')}
     ${link('#/progress', 'Progress', 'progress', 'progress')}
@@ -48,7 +50,34 @@ async function renderSidebar(active, route) {
     <button class="side-link" type="button" data-search>${icon('search')}<span>Search</span><span class="kbd">/</span></button>
     ${link('#/more', 'Settings & about', 'settings', 'more')}
     <div class="sidebar__foot">Free · members only · no ads</div>`;
+  fillSideTimetable();
 }
+/** Side panel: the session now / next under "Timetable", with the streak. */
+async function fillSideTimetable() {
+  const slot = $('#sidebar [data-tt-side]'); if (!slot) return;
+  try {
+    const T = await import('./timetable.js');
+    const tt = T.getTimetable();
+    if (!tt) { slot.textContent = 'Make yours · 1 min'; return; }
+    const ctx = await T.context();
+    const { now, next } = T.nowAndNext(tt, ctx);
+    const sc = T.score(tt, ctx);
+    const p = now || next;
+    slot.textContent = [p ? `${now ? 'Now' : T.fmtTime(p.start)} · ${p.sub?.short || p.sub?.name || 'Free'}` : 'Done for today', sc.streak ? `${sc.streak}-day streak` : ''].filter(Boolean).join(' · ');
+  } catch { slot.textContent = ''; }
+}
+
+/* Minutes of study the app can see: one per minute while a subject page is open, visible and touched in the
+   last 3 minutes. The timetable uses them to tick a session as kept ("Seen"). */
+let lastTouch = Date.now();
+for (const ev of ['pointerdown', 'keydown', 'scroll', 'wheel', 'touchstart']) addEventListener(ev, () => { lastTouch = Date.now(); }, { passive: true, capture: true });
+setInterval(async () => {
+  if (document.visibilityState !== 'visible' || Date.now() - lastTouch > 3 * 60000 || !store.get('session', null)) return;
+  const r = parseHash();
+  if (!r.subjectId) return;
+  try { (await import('./timetable.js')).logMinute(r.subjectId); } catch { /* ignore */ }
+}, 60000);
+
 function routeOf(cls, stream, subject) { return `#/${cls}${cls === '9' || cls === '10' ? '' : '/' + stream}/${subject}`; }
 
 let titleObserver = null;
@@ -90,7 +119,7 @@ async function render(route) {
   currentCleanup = null;
   // Tab / sidebar
   const tab = result.tab || route.name;
-  renderTabbar(tab);
+  renderTabbar(tab === 'timetable' ? 'today' : tab);
   renderSidebar(tab, route);
   // Top bar
   topbarTitle.textContent = result.title || '';
