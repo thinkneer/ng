@@ -9,7 +9,7 @@ What members get:
 - Formula and facts sheets.
 - Practice by chapter, type and stars; timed exams on the CBSE 2026–27 pattern with marking schemes.
 - A distraction-free reading mode (full screen, text size, light / sepia / dark) on every chapter.
-- **Board_Plan_2027**: a day-by-day plan from today to your last paper that rebuilds itself for the subjects you pick.
+- **Board plan**: days left to each of your papers, in order.
 
 Install it on your phone (Share → Add to Home Screen on iPhone; "Install app" on Android/Chrome). It works offline once opened.
 
@@ -20,12 +20,14 @@ Install it on your phone (Share → Add to Home Screen on iPhone; "Install app" 
 - **No copyrighted text here.** No NCERT paragraphs, poems, prose, sample papers or marking schemes. We link to ncert.nic.in and cbseacademic.nic.in; everything here is our own notes, summaries and original questions.
 
 ## Membership and privacy (please read)
-- The app is **members-only**: request access with a nickname and passphrase; the admin approves each member by hand. Your passphrase never leaves your browser — only a salted hash goes to the admin.
-- There is **no database, no server and no email collection**. The site is static files in this public repo, so sign-in controls who uses the app; it is not a vault. The site asks search engines not to index it.
-- Accounts are a **nickname only**. Don't use your real name. We never ask for names, emails, phone numbers, schools, cities or photos. Don't reuse a passphrase you use anywhere else.
-- **Highlights, notes, recall schedule and tracker are saved on your device** under your nickname. Export them from Progress to move devices.
-- Progress is saved on your device first. If you choose "Sync to site", your progress JSON is posted as a GitHub issue under your nickname and, after a check that the issue author matches the approved GitHub username for that nickname, written to `data/progress/<nickname>.json` — **publicly**. Only sync what you're happy to have public.
-- Users are approved by the admin by hand.
+- The app is **members-only**: join with a nickname, an email and a password; the admin approves each member by hand.
+- **What is stored where:**
+  - Sign-in email and password: only in Supabase Auth (the sign-in service). The app never shows the email; the admin can see it in Supabase only to help with sign-in.
+  - Nickname, role, class and approval status: in the Supabase database (`profiles`). Other members see nickname and role only.
+  - Live quiz answers and scores: in the database for that quiz.
+  - Study data (highlights, notes, recall schedule, practice, mistakes, tracker, papers, marks): **on the device only, for now**. Export from Progress to move devices.
+- We never ask for real names, phone numbers, schools, cities or photos. Use a nickname, not your real name. Don't reuse a password from anywhere else.
+- The study content is public in this repo, so sign-in controls who uses the app; it is not a vault. The site asks search engines not to index it.
 
 ## Requests
 Members ask for a topic, a chapter, a kind of question, or report a mistake from More → Request something: the app prepares the text and the student sends it to the admin by message. Students never need a GitHub account.
@@ -36,7 +38,7 @@ Members ask for a topic, a chapter, a kind of question, or report a mistake from
 - Status per subject: `status/class-12/<subject>.md`.
 
 ## Tech
-Plain HTML/CSS/JS (ES modules), hash routing, no build step to view. Vendored, pinned libraries: marked, KaTeX (+ mhchem), DOMPurify — no CDN, works offline. PWA with a service worker. GitHub Pages + GitHub Actions + GitHub Issues only; free tier throughout.
+Plain HTML/CSS/JS (ES modules), hash routing, no build step to view. Vendored, pinned libraries: marked, KaTeX (+ mhchem), DOMPurify — no CDN, works offline. PWA with a service worker. GitHub Pages for the site, Supabase (free tier) for sign-in, roles and live quizzes.
 
 ## Licence
 Site code: MIT. Content (notes and questions): CC BY-NC-SA 4.0. NCERT and CBSE materials belong to their owners and are linked, not copied.

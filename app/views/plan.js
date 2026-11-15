@@ -2,7 +2,7 @@ import { html, raw, icon, largeTitle, esc, emptyState, fmtDate, parseDate, daysB
 import { data } from '../data.js';
 import { store } from '../store.js';
 
-/** Phase 0 placeholder: shows the paper timeline from data; the generator arrives in Phase 2. */
+/** Board plan: the paper timeline from data (days left to each of the student's papers). */
 export async function plan() {
   const s = store.settings;
   if (!s.class) return { title: 'Board plan', largeTitle: true, tab: 'today', html: html`${largeTitle('Board plan')}${emptyState({ icon: 'plan', title: 'Choose your class first', action: '<a class="btn" href="#/classes">Choose class</a>' })}` };
@@ -11,7 +11,7 @@ export async function plan() {
   const t0 = today();
   const papers = (exams?.papers || []).filter((p) => mine.some((m) => m.id === p.subject)).map((p) => ({ ...p, days: daysBetween(t0, parseDate(p.date)), colour: mine.find((m) => m.id === p.subject)?.colour })).sort((a, b) => a.days - b.days);
   const last = papers[papers.length - 1];
-  const name = exams ? `Board_Plan_${exams.board_year}` : 'Board plan';
+  const name = 'Board plan';
   return {
     title: name, largeTitle: true, tab: 'today', back: '#/today',
     html: html`${largeTitle(name, { eyebrow: last ? `${last.days} days to your last paper` : 'Plan' })}

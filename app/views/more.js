@@ -26,7 +26,7 @@ async function hub() {
     html: html`${largeTitle('More')}
       <div class="list">
         ${listItem({ href: '#/more/settings', title: 'Class, subjects & appearance', sub: cls, leading: icon('settings'), leadingStyle: 'background:var(--accent-soft);color:var(--accent-text)' })}
-        ${listItem({ href: '#/plan', title: 'Board plan', sub: 'Days left and the plan', leading: icon('plan'), leadingStyle: 'background:var(--accent-soft);color:var(--accent-text)' })}
+        ${listItem({ href: '#/plan', title: 'Board plan', sub: 'Days left to each paper', leading: icon('plan'), leadingStyle: 'background:var(--accent-soft);color:var(--accent-text)' })}
         ${dbMode ? listItem({ href: '#/live', title: 'Live quiz', sub: session()?.role === 'student' ? 'Join with the code from your teacher' : 'Host a quiz, or join one', leading: icon('bolt'), leadingStyle: 'background:var(--accent-soft);color:var(--accent-text)' }) : ''}
         ${pwa.installable ? listItem({ href: '#/more/install', title: 'Install app', sub: 'Full-screen, works offline', leading: icon('install'), leadingStyle: 'background:var(--accent-soft);color:var(--accent-text)' }) : ''}
       </div>
@@ -161,7 +161,7 @@ async function about() {
     title: 'About', tab: 'more', back: '#/more',
     html: html`<h1 class="t-title" style="margin:var(--s-4) 0">About ng</h1>
       <div class="prose">
-        <p>A free study site for CBSE board exams, built for Classes 9–12 and filled first for <strong>Class 12 Science (2027 boards)</strong>. Notes written for marks, formula sheets, practice by question type, timed papers and a day-by-day plan to your last paper.</p>
+        <p>A free study site for CBSE board exams, built for Classes 9–12 and filled first for <strong>Class 12 Science (2027 boards)</strong>. Notes written for marks, formula sheets, practice by question type, timed papers and a countdown to each of your papers.</p>
         <h3>Honest labels</h3>
         <ul><li>Stars (★★★ / ★★ / ★) are <em>estimates</em> of how often a question type appears, not counts.</li><li>"PYQ (year)" only when verified; otherwise "PYQ-style".</li><li>Syllabus: rationalised CBSE 2026–27. Deleted topics are left out or marked "not in boards".</li><li>Board dates come from the CBSE date sheet; always recheck on cbse.gov.in.</li></ul>
         <h3>Privacy</h3>
