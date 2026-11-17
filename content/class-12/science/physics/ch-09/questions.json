@@ -133,7 +133,9 @@
         "model_answer": "**(B)** Endoscopes carry light and images from inside the body."
       }
     ],
-    "topic": "TIR"
+    "topic": "TIR",
+    "hint": "Guiding works by total internal reflection: light must travel from the denser core to the rarer cladding. sin c = n(cladding)/n(core).",
+    "model_answer": "*How much to write: 4 one-line answers · 4 minutes*\n\n**(i) (B) total internal reflection** at the core–cladding boundary.\n\n**(ii) (C) greater than that of the cladding.** TIR needs light to go from the <u>denser to the rarer</u> medium.\n\n**(iii) (D) 69.6°.**\n\n$$\\sin c=\\frac{n_\\text{cladding}}{n_\\text{core}}=\\frac{1.5}{1.6}=0.9375$$\n\n$$\\boxed{c\\approx69.6^\\circ}$$\n\n**(iv) (B) endoscopy.** <mark>Fibres carry light and images round bends inside the body.</mark>\n\n:::tip Your answer must contain\n- the option letter and a one-line reason for each part\n- $\\sin c=n_2/n_1$ with 1.5 on top in (iii)\n:::\n\n**Marks are lost for:** writing 1.6/1.5 (greater than 1, impossible); calling it refraction."
   },
   {
     "id": "phy-09-q06",
@@ -143,7 +145,7 @@
     "stars": 2,
     "label": "PYQ-style",
     "stem": "A convex glass lens ($n=1.5$) has a focal length of 20 cm in air. Find its focal length when it is immersed in water ($n=4/3$).",
-    "model_answer": "Lens maker's: $\\dfrac1f\\propto(n_{21}-1)$. In air $n_{21}=1.5$; in water $n_{21}=\\dfrac{1.5}{4/3}=1.125$. [1]<br>\n$\\dfrac{f_w}{f_a}=\\dfrac{1.5-1}{1.125-1}=4$, so $f_w=\\boxed{80\\text{ cm}}$ (still converging). [1]",
+    "model_answer": "*How much to write: about 5 lines · 3 minutes*\n\n**Given:** $n_g=1.5$, $n_w=4/3$, $f_a=20$ cm<br>\n**To find:** $f_w$\n\n**Formula:** lens maker's, $\\dfrac1f=(n_{21}-1)\\left(\\dfrac1{R_1}-\\dfrac1{R_2}\\right)$; the radii do not change.\n\nIn water:\n\n$$n_{21}=\\frac{1.5}{4/3}=1.125$$\n\n$$\\frac{f_w}{f_a}=\\frac{1.5-1}{1.125-1}=4$$\n\n$$\\boxed{f_w=80\\ \\text{cm}}$$\n\n<mark>Still converging, but four times weaker.</mark>\n\n:::tip Your answer must contain\n- the <u>relative</u> index 1.125 in water\n- the ratio step with the radii cancelled\n:::\n\n**Marks are lost for:** using 1.5 − 4/3 instead of the ratio; f getting shorter.",
     "scheme": [
       {
         "step": "Lens maker's: $\\dfrac1f\\propto(n_{21}-1)$. In air $n_{21}=1.5$; in water $n_{21}=\\dfrac{1.5}{4/3}=1.125$.",
@@ -165,7 +167,7 @@
     "stars": 2,
     "label": "PYQ-style",
     "stem": "A ray passes through an equilateral prism of refractive index $\\sqrt3$ in the position of minimum deviation. Find the angle of minimum deviation and the angle of incidence.",
-    "model_answer": "$n=\\dfrac{\\sin\\frac{A+\\delta_m}{2}}{\\sin\\frac A2}\\Rightarrow\\sin\\dfrac{60^\\circ+\\delta_m}{2}=\\sqrt3\\times\\sin30^\\circ=\\dfrac{\\sqrt3}{2}$ [1]<br>\n$\\dfrac{60^\\circ+\\delta_m}{2}=60^\\circ\\Rightarrow\\boxed{\\delta_m=60^\\circ}$; $i=\\dfrac{A+\\delta_m}{2}=\\boxed{60^\\circ}$ [1]",
+    "model_answer": "*How much to write: about 5 lines · 3 minutes*\n\n**Given:** $A=60^\\circ$, $n=\\sqrt3$<br>\n**To find:** $\\delta_m$ and $i$\n\n**Formula:**\n\n$$n=\\frac{\\sin\\frac{A+\\delta_m}{2}}{\\sin\\frac A2}$$\n\n**Solution:**\n\n$$\\sin\\frac{60^\\circ+\\delta_m}{2}=\\sqrt3\\times\\sin30^\\circ=\\frac{\\sqrt3}{2}$$\n\n$$\\frac{60^\\circ+\\delta_m}{2}=60^\\circ$$\n\n$$\\boxed{\\delta_m=60^\\circ}$$\n\nAt minimum deviation $i=e$ and $i=\\dfrac{A+\\delta_m}{2}$:\n\n$$\\boxed{i=60^\\circ}$$\n\n<mark>The ray passes symmetrically, parallel to the base inside the prism.</mark>\n\n:::tip Your answer must contain\n- the prism formula with values\n- both angles in degrees\n:::\n\n**Marks are lost for:** stopping at sin = √3/2; i = 30°.",
     "scheme": [
       {
         "step": "$n=\\dfrac{\\sin\\frac{A+\\delta_m}{2}}{\\sin\\frac A2}\\Rightarrow\\sin\\dfrac{60^\\circ+\\delta_m}{2}=\\sqrt3\\times\\sin30^\\circ=\\dfrac{\\sqrt3}{2}$",
@@ -176,7 +178,8 @@
         "marks": 1
       }
     ],
-    "topic": "Prism"
+    "topic": "Prism",
+    "hint": "At minimum deviation n = sin((A + δm)/2) / sin(A/2), and i = (A + δm)/2."
   },
   {
     "id": "phy-09-q08",
@@ -186,7 +189,7 @@
     "stars": 3,
     "label": "PYQ-style",
     "stem": "Draw a labelled ray diagram of a compound microscope forming the final image at the near point. Write the expression for its magnifying power.",
-    "model_answer": "Ray diagram: object just beyond $F_o$; objective forms a real, inverted, magnified image inside $F_e$; eyepiece forms the final virtual, inverted image at $D$; arrows on rays. [1½]<br>\n$m=m_om_e$ with $m_o=\\dfrac{L}{f_o}$ and $m_e=1+\\dfrac{D}{f_e}$, so $\\boxed{m=\\dfrac{L}{f_o}\\left(1+\\dfrac{D}{f_e}\\right)}$ [1½]",
+    "model_answer": "*How much to write: a full-width ray diagram and 2 lines · 7 minutes*\n\n**Ray diagram** (draw large, with arrows on every ray):\n\n- object AB placed <u>just beyond F<sub>o</sub></u> of the objective\n- objective forms a <u>real, inverted, magnified</u> image A′B′, lying just <u>inside F<sub>e</sub></u> of the eyepiece\n- eyepiece acts as a simple magnifier: the final image A″B″ is <u>virtual</u>, inverted (w.r.t. the object), magnified, at the near point $D=25$ cm\n\n**Magnifying power:**\n\n$$m=m_o\\times m_e$$\n\n$$m_o=\\frac{L}{f_o},\\quad m_e=1+\\frac{D}{f_e}$$\n\n$$\\boxed{m=\\frac{L}{f_o}\\left(1+\\frac{D}{f_e}\\right)}$$\n\n<mark>L is the tube length (distance between the inner focal points).</mark>\n\n:::tip Your answer must contain\n- objective, eyepiece, F<sub>o</sub>, F<sub>e</sub>, both images labelled\n- arrows on rays and the final image at $D$\n- the boxed formula with L, D named\n:::\n\n**Marks are lost for:** no arrows; first image outside F<sub>e</sub>; drawing the final image at infinity when the question asks for the near point.",
     "scheme": [
       {
         "step": "Ray diagram: object just beyond $F_o$; objective forms a real, inverted, magnified image inside $F_e$; eyepiece forms the final virtual, inverted image at $D$; arrows on rays.",
@@ -197,7 +200,8 @@
         "marks": 1.5
       }
     ],
-    "topic": "Microscope"
+    "topic": "Microscope",
+    "hint": "Object just beyond F_o; the first image falls inside F_e; the eyepiece acts as a magnifier with the final image at 25 cm."
   },
   {
     "id": "phy-09-q09",
@@ -207,7 +211,7 @@
     "stars": 3,
     "label": "PYQ-style",
     "stem": "An astronomical telescope has an objective of focal length 100 cm and an eyepiece of focal length 5 cm. Find (i) its magnifying power in normal adjustment, (ii) the length of the tube, (iii) its magnifying power when the final image is at the near point (25 cm).",
-    "model_answer": "(i) $m=\\dfrac{f_o}{f_e}=\\dfrac{100}{5}=\\boxed{20}$ [1]<br>\n(ii) $L=f_o+f_e=\\boxed{105\\text{ cm}}$ [1]<br>\n(iii) $m=\\dfrac{f_o}{f_e}\\left(1+\\dfrac{f_e}{D}\\right)=20\\left(1+\\dfrac{5}{25}\\right)=\\boxed{24}$ [1]",
+    "model_answer": "*How much to write: about 6 lines · 5 minutes*\n\n**Given:** $f_o=100$ cm, $f_e=5$ cm, $D=25$ cm<br>\n**To find:** $m$ (normal adjustment), tube length $L$, $m$ (image at near point)\n\n**(i)** Normal adjustment (final image at infinity):\n\n$$m=\\frac{f_o}{f_e}=\\frac{100}{5}$$\n\n$$\\boxed{m=20}$$\n\n**(ii)**\n\n$$L=f_o+f_e=100+5$$\n\n$$\\boxed{L=105\\ \\text{cm}}$$\n\n**(iii)** Final image at the near point:\n\n$$m=\\frac{f_o}{f_e}\\left(1+\\frac{f_e}{D}\\right)=20\\left(1+\\frac{5}{25}\\right)$$\n\n$$\\boxed{m=24}$$\n\n<mark>Bringing the image to the near point raises m from 20 to 24.</mark>\n\n:::tip Your answer must contain\n- <u>normal adjustment</u> = final image at infinity\n- the right formula for each case\n- tube length in cm\n:::\n\n**Marks are lost for:** writing $f_e/f_o$; using $1+D/f_e$ (that is the simple microscope); a tube length of 95 cm.",
     "scheme": [
       {
         "step": "(i) $m=\\dfrac{f_o}{f_e}=\\dfrac{100}{5}=\\boxed{20}$",
@@ -222,7 +226,8 @@
         "marks": 1
       }
     ],
-    "topic": "Telescope"
+    "topic": "Telescope",
+    "hint": "Normal adjustment: final image at infinity, m = f_o/f_e, tube length f_o + f_e. Near point: multiply by (1 + f_e/D)."
   },
   {
     "id": "phy-09-q10",
@@ -232,7 +237,7 @@
     "stars": 3,
     "label": "PYQ-style",
     "stem": "(a) Using the relation for refraction at a single spherical surface, derive the lens maker's formula for a thin double convex lens. [3]<br>(b) A plano-convex lens of glass ($n=1.5$) has a curved surface of radius 10 cm. An object is placed 30 cm from it. Find the position and magnification of the image. [2]",
-    "model_answer": "(a) First surface ($R_1$), object in medium $n_1$, lens $n_2$: $\\dfrac{n_2}{v_1}-\\dfrac{n_1}{u}=\\dfrac{n_2-n_1}{R_1}$ [1]<br>\nThe image $I_1$ acts as the object for the second surface ($R_2$): $\\dfrac{n_1}{v}-\\dfrac{n_2}{v_1}=\\dfrac{n_1-n_2}{R_2}$; adding: $\\dfrac{n_1}{v}-\\dfrac{n_1}{u}=(n_2-n_1)\\left(\\dfrac1{R_1}-\\dfrac1{R_2}\\right)$ [1]<br>\nFor $u=\\infty$, $v=f$: $\\boxed{\\dfrac1f=(n_{21}-1)\\left(\\dfrac1{R_1}-\\dfrac1{R_2}\\right)}$ (and in general $\\dfrac1v-\\dfrac1u=\\dfrac1f$). [1]<br>\n(b) $\\dfrac1f=(1.5-1)\\left(\\dfrac1{10}-\\dfrac1\\infty\\right)\\Rightarrow f=20$ cm [1]<br>\n$\\dfrac1v=\\dfrac1{20}+\\dfrac1{-30}=\\dfrac1{60}$: $\\boxed{v=60\\text{ cm}}$ on the other side (real); $m=\\dfrac vu=\\boxed{-2}$ (inverted, twice the size). [1]",
+    "model_answer": "*How much to write: about 12 lines with a ray sketch · 9 minutes*\n\n**(a)** Thin double convex lens of index $n_2$ in a medium $n_1$; radii $R_1$, $R_2$; object O on the axis.\n\n**First surface** ($R_1$): the image $I_1$ would form inside the glass at $v_1$:\n\n$$\\frac{n_2}{v_1}-\\frac{n_1}{u}=\\frac{n_2-n_1}{R_1}$$\n\n**Second surface** ($R_2$): $I_1$ acts as the <u>object</u>, the final image forms at $v$:\n\n$$\\frac{n_1}{v}-\\frac{n_2}{v_1}=\\frac{n_1-n_2}{R_2}$$\n\n**Adding** (the lens is thin, so the $n_2/v_1$ terms cancel):\n\n$$\\frac{n_1}{v}-\\frac{n_1}{u}=(n_2-n_1)\\left(\\frac{1}{R_1}-\\frac{1}{R_2}\\right)$$\n\nFor $u=\\infty$, $v=f$:\n\n$$\\boxed{\\frac1f=(n_{21}-1)\\left(\\frac{1}{R_1}-\\frac{1}{R_2}\\right)}$$\n\n<mark>Lens maker's formula, with n₂₁ = n₂/n₁.</mark>\n\n**(b) Given:** $n=1.5$, $R_1=+10$ cm, $R_2=\\infty$, $u=-30$ cm<br>\n**To find:** $v$ and $m$\n\n$$\\frac1f=(1.5-1)\\left(\\frac1{10}-0\\right)\\Rightarrow f=20\\ \\text{cm}$$\n\n$$\\frac1v=\\frac1f+\\frac1u=\\frac1{20}-\\frac1{30}=\\frac1{60}$$\n\n$$\\boxed{v=+60\\ \\text{cm}}$$\n\n$$\\boxed{m=\\frac vu=-2}$$\n\nReal, inverted, twice the size, on the far side of the lens.\n\n:::tip Your answer must contain\n- a ray sketch with $u$, $v_1$, $v$, $R_1$, $R_2$\n- the <u>image of surface 1 used as the object</u> of surface 2\n- the boxed formula\n- (b) sign convention stated, f found first\n:::\n\n**Marks are lost for:** no sign convention; adding without saying the lens is thin; taking $R_2=-10$ cm for a plano-convex lens.",
     "scheme": [
       {
         "step": "(a) First surface ($R_1$), object in medium $n_1$, lens $n_2$: $\\dfrac{n_2}{v_1}-\\dfrac{n_1}{u}=\\dfrac{n_2-n_1}{R_1}$",
@@ -255,7 +260,8 @@
         "marks": 1
       }
     ],
-    "topic": "Lens maker"
+    "topic": "Lens maker",
+    "hint": "Refract at the first surface, then use that image as the object for the second surface and add the two equations."
   },
   {
     "id": "phy-w20261115-09-01",
@@ -282,5 +288,39 @@
       }
     ],
     "topic": "Lens formula and magnification"
+  },
+  {
+    "id": "phy-w20261117-09-01",
+    "chapter": "ch-09",
+    "type": "la5",
+    "marks": 5,
+    "stars": 3,
+    "label": "PYQ-style",
+    "topic": "Refraction through a prism",
+    "stem": "(a) Draw the path of a ray through a glass prism in the position of minimum deviation. Derive the relation $n=\\dfrac{\\sin\\frac{A+\\delta_m}{2}}{\\sin\\frac A2}$. [3]<br>(b) A prism of angle $60^\\circ$ gives a minimum deviation of $30^\\circ$. Find (i) its refractive index, (ii) whether a ray falling normally on one refracting face comes out of the other. [2]",
+    "hint": "Use r₁ + r₂ = A and δ = i + e − A. At minimum deviation i = e and r₁ = r₂.",
+    "model_answer": "*How much to write: about 12 lines with a ray diagram · 9 minutes*\n\n**(a)** Prism of angle A; the ray enters at incidence $i$, refracts at $r_1$, meets the second face at $r_2$ and leaves at $e$.\n\n<figure class=\"fig\">\n<svg viewBox=\"0 0 320 180\" role=\"img\" aria-label=\"Ray through a prism at minimum deviation, travelling parallel to the base inside\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.4\" font-size=\"12\">\n<path class=\"u\" d=\"M160,20 L70,170 H250 Z\"/>\n<path d=\"M20,120 L118,90\" stroke=\"#E0B400\" stroke-width=\"2\"/>\n<path d=\"M118,90 H202\"/>\n<path d=\"M202,90 L300,120\" stroke=\"#E0B400\" stroke-width=\"2\"/>\n<path d=\"M88,72 L148,108\" stroke-dasharray=\"4 3\"/><path d=\"M232,72 L172,108\" stroke-dasharray=\"4 3\"/>\n<g fill=\"currentColor\" stroke=\"none\">\n<text x=\"154\" y=\"50\">A</text><text x=\"70\" y=\"104\">i</text><text x=\"128\" y=\"104\">r₁</text><text x=\"182\" y=\"104\">r₂</text><text x=\"244\" y=\"104\">e</text>\n<text x=\"160\" y=\"84\" text-anchor=\"middle\">parallel to base</text>\n</g>\n</svg>\n<figcaption>Minimum deviation: i = e, r₁ = r₂ = A/2, and the ray inside runs parallel to the base.</figcaption>\n</figure>\n\nFrom the geometry of the prism:\n\n$$r_1+r_2=A$$\n\nDeviation:\n\n$$\\delta=i+e-A$$\n\nAt <u>minimum deviation</u> the path is symmetric: $i=e$ and $r_1=r_2=r$, and the ray inside runs <u>parallel to the base</u>.\n\n$$2r=A\\ \\Rightarrow\\ r=\\frac A2$$\n\n$$\\delta_m=2i-A\\ \\Rightarrow\\ i=\\frac{A+\\delta_m}{2}$$\n\nSnell's law at the first face, $n=\\dfrac{\\sin i}{\\sin r}$:\n\n$$\\boxed{n=\\frac{\\sin\\frac{A+\\delta_m}{2}}{\\sin\\frac A2}}$$\n\n**(b) Given:** $A=60^\\circ$, $\\delta_m=30^\\circ$<br>\n**To find:** $n$; fate of a ray at normal incidence\n\n**(i)**\n\n$$n=\\frac{\\sin45^\\circ}{\\sin30^\\circ}=\\frac{1/\\sqrt2}{1/2}$$\n\n$$\\boxed{n=\\sqrt2\\approx1.41}$$\n\n**(ii)** Critical angle: $\\sin c=\\dfrac1{\\sqrt2}$, so $c=45^\\circ$. A ray entering normally goes straight in ($r_1=0$), so it meets the second face at $r_2=A=60^\\circ$.\n\n<mark>60° > 45°: total internal reflection, so the ray does not come out of the second face.</mark>\n\n:::tip Your answer must contain\n- a ray diagram with $i$, $r_1$, $r_2$, $e$, A and the ray parallel to the base\n- $r_1+r_2=A$ and $\\delta=i+e-A$\n- the minimum-deviation conditions and the boxed formula\n- (b) $n$, then $c$, then compare $r_2$ with $c$\n:::\n\n**Marks are lost for:** $r=A$ instead of $A/2$; no diagram; saying the ray emerges because it \"enters normally\".",
+    "scheme": [
+      {
+        "step": "(a) Ray diagram with angles; $r_1+r_2=A$ and $\\delta=i+e-A$",
+        "marks": 1
+      },
+      {
+        "step": "At $\\delta_m$: $i=e$, $r=A/2$, $i=(A+\\delta_m)/2$",
+        "marks": 1
+      },
+      {
+        "step": "$n=\\dfrac{\\sin\\frac{A+\\delta_m}{2}}{\\sin\\frac A2}$",
+        "marks": 1
+      },
+      {
+        "step": "(b)(i) $n=\\sqrt2\\approx1.41$",
+        "marks": 1
+      },
+      {
+        "step": "(ii) $c=45^\\circ$, $r_2=60^\\circ>c$: TIR, no emergence",
+        "marks": 1
+      }
+    ]
   }
 ]

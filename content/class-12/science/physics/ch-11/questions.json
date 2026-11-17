@@ -133,7 +133,9 @@
         "model_answer": "**(D)** $E=1240/700=1.77$ eV $<2.0$ eV: below threshold, no emission."
       }
     ],
-    "topic": "Photoelectric effect"
+    "topic": "Photoelectric effect",
+    "hint": "E (eV) = 1240/λ (nm). Stopping potential: eV₀ = E − φ. Intensity changes the number of photons, not their energy.",
+    "model_answer": "*How much to write: 4 one-line answers: option letter + reason · 4 minutes*\n\n**(i) (C) 3.1 eV.** $E=\\dfrac{1240}{400}=3.1$ eV.\n\n**(ii) (A) 1.1 V.** $eV_0=3.1-2.0=1.1$ eV, so $V_0=1.1$ V.\n\n**(iii) (B) three times.** Three times as many photons per second free three times as many electrons.\n\n**(iv) (D) zero.** $E=1240/700\\approx1.77$ eV $<2.0$ eV: <mark>below the threshold, no emission however bright the light</mark>.\n\n:::tip Your answer must contain\n- the option letter for each part\n- a one-line reason or the working for every numerical part\n:::\n\n**Marks are lost for:** a larger stopping potential with higher intensity; a small current in (iv)."
   },
   {
     "id": "phy-11-q06",
@@ -143,7 +145,7 @@
     "stars": 3,
     "label": "PYQ-style",
     "stem": "Draw a graph of stopping potential against frequency for two metals A and B ($\\phi_A<\\phi_B$). What do the slope and the intercept on the frequency axis represent?",
-    "model_answer": "Two parallel straight lines; A's line starts at a lower threshold frequency than B's. [1]<br>\nSlope $=h/e$ (same for all metals); intercept on the frequency axis $=$ threshold frequency $\\nu_0=\\phi_0/h$. [1]",
+    "model_answer": "*How much to write: a graph and 2 lines · 3 minutes*\n\n**Graph:** two <u>parallel straight lines</u>; A's line cuts the ν-axis at a lower threshold frequency than B's (since $\\phi_A<\\phi_B$).\n\n<figure class=\"fig\">\n<svg viewBox=\"0 0 370 186\" role=\"img\" aria-label=\"Stopping potential against frequency\" font-family=\"sans-serif\" font-size=\"12.5\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M40,130L340,130\"/><path d=\"M340,130L335.4,132L335.4,128Z\" fill=\"currentColor\" stroke=\"none\"/><path d=\"M40,130L40,15\"/><path d=\"M40,15L42,19.6L38,19.6Z\" fill=\"currentColor\" stroke=\"none\"/><path class=\"u\" d=\"M140,130L330,30\" stroke-width=\"2.2\"/><path class=\"u\" d=\"M40,180L140,130\" stroke-dasharray=\"4 3\"/><circle cx=\"140\" cy=\"130\" r=\"2.2\" fill=\"currentColor\"/><path d=\"M240,72.1L300,72.1\" stroke-width=\"0.8\" stroke-dasharray=\"4 3\"/><path d=\"M300,72.1L300,40.5\" stroke-width=\"0.8\" stroke-dasharray=\"4 3\"/><g fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\"><text x=\"340\" y=\"143\" text-anchor=\"end\" font-style=\"italic\">ν</text><text x=\"36\" y=\"19\" text-anchor=\"end\" font-style=\"italic\">V₀</text><text x=\"140\" y=\"144\">ν₀</text><text x=\"44\" y=\"180\" text-anchor=\"start\" font-size=\"11\">−φ₀/e</text><text x=\"306\" y=\"60\" text-anchor=\"start\" font-size=\"11\">slope = h/e</text></g></svg>\n<figcaption>Stopping potential against frequency: parallel lines, slope h/e.</figcaption>\n</figure>\n\nFrom $eV_0=h\\nu-\\phi_0$:\n\n$$V_0=\\frac{h}{e}\\nu-\\frac{\\phi_0}{e}$$\n\n- **Slope** $=\\dfrac{h}{e}$, <mark>the same for every metal</mark>\n- **Intercept on the ν-axis** = threshold frequency $\\nu_0=\\dfrac{\\phi_0}{h}$\n\n:::tip Your answer must contain\n- two parallel lines, A starting at the lower ν\n- slope = h/e and intercept = ν₀\n:::\n\n**Marks are lost for:** lines with different slopes; lines through the origin.",
     "scheme": [
       {
         "step": "Two parallel straight lines; A's line starts at a lower threshold frequency than B's.",
@@ -154,7 +156,8 @@
         "marks": 1
       }
     ],
-    "topic": "Photoelectric effect"
+    "topic": "Photoelectric effect",
+    "hint": "Einstein: V₀ = (h/e)ν − φ/e, a straight line. Same slope for every metal; the line starts at the threshold frequency."
   },
   {
     "id": "phy-11-q07",
@@ -164,7 +167,7 @@
     "stars": 2,
     "label": "PYQ-style",
     "stem": "An electron and a proton have the same kinetic energy. Find the ratio of their de Broglie wavelengths. ($m_p=1836\\,m_e$)",
-    "model_answer": "$\\lambda=\\dfrac{h}{\\sqrt{2mK}}$, so at equal $K$, $\\dfrac{\\lambda_e}{\\lambda_p}=\\sqrt{\\dfrac{m_p}{m_e}}$ [1]<br>\n$=\\sqrt{1836}\\approx\\boxed{42.8}$ (the electron's wavelength is larger) [1]",
+    "model_answer": "*How much to write: 3 lines · 3 minutes*\n\n**Given:** $K_e=K_p$, $m_p=1836\\,m_e$<br>\n**To find:** $\\lambda_e/\\lambda_p$\n\n$$\\lambda=\\frac{h}{p}=\\frac{h}{\\sqrt{2mK}}$$\n\nAt equal $K$:\n\n$$\\frac{\\lambda_e}{\\lambda_p}=\\sqrt{\\frac{m_p}{m_e}}=\\sqrt{1836}$$\n\n$$\\boxed{\\frac{\\lambda_e}{\\lambda_p}\\approx42.8}$$\n\n<mark>The lighter electron has the longer wavelength.</mark>\n\n:::tip Your answer must contain\n- $p=\\sqrt{2mK}$\n- the ratio the right way up\n:::\n\n**Marks are lost for:** ratio 1836 (no square root); 1/42.8.",
     "scheme": [
       {
         "step": "$\\lambda=\\dfrac{h}{\\sqrt{2mK}}$, so at equal $K$, $\\dfrac{\\lambda_e}{\\lambda_p}=\\sqrt{\\dfrac{m_p}{m_e}}$",
@@ -175,7 +178,8 @@
         "marks": 1
       }
     ],
-    "topic": "de Broglie"
+    "topic": "de Broglie",
+    "hint": "Write λ = h/p with p = √(2mK). At equal K, λ ∝ 1/√m."
   },
   {
     "id": "phy-11-q08",
@@ -185,7 +189,7 @@
     "stars": 2,
     "label": "PYQ-style",
     "stem": "State three features of the photoelectric effect that cannot be explained by the wave theory of light, and explain each using the photon picture.",
-    "model_answer": "Maximum kinetic energy depends on frequency, not intensity (wave: should grow with intensity). Photon: each electron gets one photon's energy $h\\nu$, so $K_\\text{max}=h\\nu-\\phi_0$. [1]<br>\nThere is a threshold frequency (wave: any frequency should work given enough intensity). Photon: if $h\\nu<\\phi_0$, no single photon can free an electron. [1]<br>\nEmission is instantaneous (wave: energy must accumulate over time). Photon: one photon is absorbed by one electron at once. [1]",
+    "model_answer": "*How much to write: 3 points, two lines each · 6 minutes*\n\n1. **K<sub>max</sub> depends on frequency, not intensity.** Wave theory: brighter light should give faster electrons. Photon picture: each electron absorbs <u>one photon</u> of energy hν, so $K_\\text{max}=h\\nu-\\phi_0$, whatever the intensity.\n\n2. **Threshold frequency.** Wave theory: any frequency should work if the light is bright enough. Photon picture: if $h\\nu<\\phi_0$, <mark>no single photon can free an electron</mark>, however many arrive.\n\n3. **No time lag.** Wave theory: an electron would need time to soak up enough energy. Photon picture: the energy comes in <u>one packet</u>, absorbed at once.\n\n:::tip Your answer must contain\n- three features, each with the wave prediction and the photon explanation\n- Einstein's equation in point 1\n:::\n\n**Marks are lost for:** listing features without explaining them; \"intensity increases kinetic energy\".",
     "scheme": [
       {
         "step": "Maximum kinetic energy depends on frequency, not intensity (wave: should grow with intensity). Photon: each electron gets one photon's energy $h\\nu$, so $K_\\text{max}=h\\nu-\\phi_0$.",
@@ -200,7 +204,8 @@
         "marks": 1
       }
     ],
-    "topic": "Photoelectric effect"
+    "topic": "Photoelectric effect",
+    "hint": "Think of what the wave picture predicts for intensity, frequency and time delay, then how one photon per electron fixes each."
   },
   {
     "id": "phy-11-q09",
@@ -210,7 +215,7 @@
     "stars": 2,
     "label": "PYQ-style",
     "stem": "A laser of power $2.0\\times10^{-3}$ W emits light of frequency $6.0\\times10^{14}$ Hz. Find (i) the energy of each photon, (ii) the number of photons emitted per second, (iii) the maximum kinetic energy of electrons emitted when the light falls on a metal of work function 2.0 eV.",
-    "model_answer": "(i) $E=h\\nu=6.63\\times10^{-34}\\times6\\times10^{14}=\\boxed{3.98\\times10^{-19}\\text{ J}}$ ($\\approx2.49$ eV) [1]<br>\n(ii) $n=\\dfrac{P}{E}=\\dfrac{2\\times10^{-3}}{3.98\\times10^{-19}}\\approx\\boxed{5.0\\times10^{15}\\text{ s}^{-1}}$ [1]<br>\n(iii) $K_\\text{max}=E-\\phi_0=3.98\\times10^{-19}-3.2\\times10^{-19}=\\boxed{7.8\\times10^{-20}\\text{ J}\\approx0.49\\text{ eV}}$ [1]",
+    "model_answer": "*How much to write: about 8 lines, numbers in powers of ten · 6 minutes*\n\n**Given:** $P=2.0\\times10^{-3}$ W, $\\nu=6.0\\times10^{14}$ Hz, $\\phi_0=2.0$ eV $=3.2\\times10^{-19}$ J<br>\n**To find:** $E$, $n$ per second, $K_\\text{max}$\n\n**(i)**\n\n$$E=h\\nu=6.63\\times10^{-34}\\times6.0\\times10^{14}$$\n\n$$\\boxed{E=3.98\\times10^{-19}\\ \\text{J}}\\ (\\approx2.49\\ \\text{eV})$$\n\n**(ii)**\n\n$$n=\\frac{P}{E}=\\frac{2.0\\times10^{-3}}{3.98\\times10^{-19}}$$\n\n$$\\boxed{n\\approx5.0\\times10^{15}\\ \\text{s}^{-1}}$$\n\n**(iii)** Einstein's equation:\n\n$$K_\\text{max}=h\\nu-\\phi_0$$\n\n$$K_\\text{max}=(3.98-3.2)\\times10^{-19}$$\n\n$$\\boxed{K_\\text{max}\\approx7.8\\times10^{-20}\\ \\text{J}}$$\n\n(about 0.49 eV)\n\n<mark>Power changes the number of photons, not the energy of each one.</mark>\n\n:::tip Your answer must contain\n- <u>work function in joules</u> before subtracting (or both in eV)\n- $n=P/E$\n- units: J, s⁻¹, J or eV\n:::\n\n**Marks are lost for:** subtracting 2.0 from a value in joules; writing n = E/P; no unit on n.",
     "scheme": [
       {
         "step": "(i) $E=h\\nu=6.63\\times10^{-34}\\times6\\times10^{14}=\\boxed{3.98\\times10^{-19}\\text{ J}}$ ($\\approx2.49$ eV)",
@@ -225,6 +230,7 @@
         "marks": 1
       }
     ],
-    "topic": "Photons"
+    "topic": "Photons",
+    "hint": "E = hν per photon; photons per second = power ÷ energy of one photon. Convert 2.0 eV to joules before subtracting."
   }
 ]

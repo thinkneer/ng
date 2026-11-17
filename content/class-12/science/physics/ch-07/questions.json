@@ -133,7 +133,9 @@
         "model_answer": "**(A)** A smaller resistance gives a taller, narrower resonance peak."
       }
     ],
-    "topic": "Resonance"
+    "topic": "Resonance",
+    "hint": "At resonance X_L = X_C, so ν₀ = 1/(2π√(LC)). Rearrange for C. A smaller R gives a sharper peak.",
+    "model_answer": "*How much to write: 4 one-line answers: option letter + reason · 4 minutes*\n\n**(i) (B) $X_L=X_C$.** The reactances cancel and $Z=R$.\n\n**(ii) (C) 25 nF.**\n\n$$C=\\frac{1}{4\\pi^2\\nu^2L}=\\frac{1}{4\\pi^2\\times10^{12}\\times10^{-6}}$$\n\n$$C\\approx2.5\\times10^{-8}\\ \\text{F}=25\\ \\text{nF}$$\n\n**(iii) (B) decreased.** $\\nu_0=\\dfrac{1}{2\\pi\\sqrt{LC}}$ rises as C falls.\n\n**(iv) (A) R made smaller.** <mark>Smaller R gives a taller, narrower peak (higher Q).</mark>\n\n:::tip Your answer must contain\n- the option letter for each part\n- a one-line reason or the working for every numerical part\n:::\n\n**Marks are lost for:** \"increase C\" for a higher frequency; R = 0 in (i)."
   },
   {
     "id": "phy-07-q06",
@@ -143,7 +145,7 @@
     "stars": 2,
     "label": "PYQ-style",
     "stem": "Define power factor. Under what condition is the current in an AC circuit wattless? Give one example.",
-    "model_answer": "Power factor $\\cos\\phi=\\dfrac{\\text{true power}}{\\text{apparent power}}=\\dfrac{R}{Z}$, where φ is the phase difference between V and I. [1]<br>\nWattless when $\\phi=90^\\circ$ ($\\cos\\phi=0$): e.g. a purely inductive or purely capacitive circuit; average power $VI\\cos\\phi=0$. [1]",
+    "model_answer": "*How much to write: 3–4 lines · 3 minutes*\n\n**Power factor:** $\\cos\\phi$, where φ is the phase difference between voltage and current.\n\n$$\\cos\\phi=\\frac{\\text{true power}}{\\text{apparent power}}=\\frac{R}{Z}$$\n\n**Wattless current:** average power $P=V_\\text{rms}I_\\text{rms}\\cos\\phi=0$ when <mark>φ = 90° (cos φ = 0)</mark>, so a current flows but no power is used.\n\n**Example:** a <u>purely inductive</u> (or purely capacitive) circuit, e.g. an ideal choke coil.\n\n:::tip Your answer must contain\n- cos φ defined with φ named\n- the condition φ = 90° and one example\n:::\n\n**Marks are lost for:** \"when R is large\"; no example.",
     "scheme": [
       {
         "step": "Power factor $\\cos\\phi=\\dfrac{\\text{true power}}{\\text{apparent power}}=\\dfrac{R}{Z}$, where φ is the phase difference between V and I.",
@@ -154,7 +156,8 @@
         "marks": 1
       }
     ],
-    "topic": "Power factor"
+    "topic": "Power factor",
+    "hint": "Power factor is cos φ = R/Z. Average power VI cos φ is zero when φ = 90°."
   },
   {
     "id": "phy-07-q07",
@@ -164,7 +167,7 @@
     "stars": 3,
     "label": "PYQ-style",
     "stem": "A series circuit with $R=40$ Ω, $X_L=60$ Ω and $X_C=30$ Ω is connected to a 220 V, 50 Hz supply. Find (i) the impedance, (ii) the current, (iii) the average power.",
-    "model_answer": "(i) $Z=\\sqrt{40^2+(60-30)^2}=\\boxed{50\\ \\Omega}$ [1]<br>\n(ii) $I=V/Z=220/50=\\boxed{4.4\\text{ A}}$ [1]<br>\n(iii) $\\cos\\phi=40/50=0.8$; $P=VI\\cos\\phi=220\\times4.4\\times0.8=\\boxed{774.4\\text{ W}}$ (check: $I^2R$ = 774.4 W) [1]",
+    "model_answer": "*How much to write: about 7 lines · 5 minutes*\n\n**Given:** $R=40\\ \\Omega$, $X_L=60\\ \\Omega$, $X_C=30\\ \\Omega$, $V=220$ V (rms)<br>\n**To find:** $Z$, $I$, $P$\n\n**(i)**\n\n$$Z=\\sqrt{R^2+(X_L-X_C)^2}$$\n\n$$Z=\\sqrt{40^2+30^2}$$\n\n$$\\boxed{Z=50\\ \\Omega}$$\n\n**(ii)**\n\n$$I=\\frac{V}{Z}=\\frac{220}{50}$$\n\n$$\\boxed{I=4.4\\ \\text{A}}$$\n\n**(iii)** $\\cos\\phi=R/Z=0.8$:\n\n$$P=VI\\cos\\phi=220\\times4.4\\times0.8$$\n\n$$\\boxed{P\\approx774\\ \\text{W}}$$\n\n<mark>Check: I²R = 4.4² × 40 = 774.4 W. Only R uses power.</mark>\n\n:::tip Your answer must contain\n- $X_L-X_C$ inside the root\n- cos φ = R/Z found before the power\n- units Ω, A, W\n:::\n\n**Marks are lost for:** adding $X_L+X_C$; P = VI (no power factor).",
     "scheme": [
       {
         "step": "(i) $Z=\\sqrt{40^2+(60-30)^2}=\\boxed{50\\ \\Omega}$",
@@ -179,7 +182,8 @@
         "marks": 1
       }
     ],
-    "topic": "Series LCR"
+    "topic": "Series LCR",
+    "hint": "Z = √(R² + (X_L − X_C)²), I = V/Z, P = VI cos φ with cos φ = R/Z."
   },
   {
     "id": "phy-07-q08",
@@ -189,7 +193,7 @@
     "stars": 2,
     "label": "PYQ-style",
     "stem": "Describe the working of an AC generator with a labelled diagram and show that the emf induced in it is $\\varepsilon=NBA\\omega\\sin\\omega t$.",
-    "model_answer": "Labelled diagram: coil (armature) between the poles of a magnet, axle, slip rings, carbon brushes, external load. [1]<br>\nCoil of $N$ turns, area $A$, turned at ω in field B; at time $t$ the normal makes $\\theta=\\omega t$ with B, so $\\Phi=NBA\\cos\\omega t$. [1]<br>\n$\\varepsilon=-\\dfrac{d\\Phi}{dt}=\\boxed{NBA\\omega\\sin\\omega t}$; peak $NBA\\omega$ when the plane of the coil is parallel to B. [1]",
+    "model_answer": "*How much to write: about 8 lines with a labelled diagram · 7 minutes*\n\n**Principle:** <u>electromagnetic induction</u>. A coil rotating in a magnetic field has a changing flux through it, so an emf is induced.\n\n<figure class=\"fig\">\n<svg viewBox=\"0 0 380 220\" role=\"img\" aria-label=\"AC generator: a coil rotating in a uniform magnetic field\" font-family=\"sans-serif\" font-size=\"12.5\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path class=\"u\" d=\"M30,40 L90,40 A70,70 0 0 0 90,170 L30,170 Z\"/><path class=\"u\" d=\"M350,40 L290,40 A70,70 0 0 1 290,170 L350,170 Z\"/><path d=\"M140,75L240,55L240,150L140,170Z\" stroke-width=\"2.2\"/><path d=\"M190,112L190,112\"/><path d=\"M190,30L190,195\" stroke-dasharray=\"4 3\"/><path d=\"M205,22 A15,6 0 1 1 175,22\" stroke=\"#E0B400\"/><path d=\"M205,22L203,17.4L207,17.4Z\" fill=\"#E0B400\" stroke=\"none\"/><path d=\"M100,70L280,70\" stroke-width=\"0.8\" stroke-dasharray=\"4 3\"/><path d=\"M285,70L281.3,71.6L281.3,68.4Z\" fill=\"currentColor\" stroke=\"none\"/><path d=\"M100,95L280,95\" stroke-width=\"0.8\" stroke-dasharray=\"4 3\"/><path d=\"M285,95L281.3,96.6L281.3,93.4Z\" fill=\"currentColor\" stroke=\"none\"/><path d=\"M100,120L280,120\" stroke-width=\"0.8\" stroke-dasharray=\"4 3\"/><path d=\"M285,120L281.3,121.6L281.3,118.4Z\" fill=\"currentColor\" stroke=\"none\"/><path d=\"M100,145L280,145\" stroke-width=\"0.8\" stroke-dasharray=\"4 3\"/><path d=\"M285,145L281.3,146.6L281.3,143.4Z\" fill=\"currentColor\" stroke=\"none\"/><g fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\"><text x=\"55\" y=\"110\" font-weight=\"bold\">N</text><text x=\"325\" y=\"110\" font-weight=\"bold\">S</text><text x=\"198\" y=\"192\" text-anchor=\"start\" font-size=\"11\">axis</text><text x=\"214\" y=\"18\" text-anchor=\"start\" font-style=\"italic\">ω</text><text x=\"190\" y=\"214\" font-size=\"11\">coil turning in B: Φ = NBA cos ωt</text></g></svg>\n<figcaption>AC generator: armature coil, field magnet, slip rings and brushes.</figcaption>\n</figure>\n\n**Working:** the armature coil turns between the poles; slip rings turn with it and carbon brushes pass the current to the load. The current reverses every half-turn, so it is AC.\n\nCoil of $N$ turns, area $A$, turning at angular speed ω in field B. At time $t$ the normal makes $\\theta=\\omega t$ with B:\n\n$$\\Phi=NBA\\cos\\omega t$$\n\n$$\\varepsilon=-\\frac{d\\Phi}{dt}$$\n\n$$\\boxed{\\varepsilon=NBA\\omega\\sin\\omega t}$$\n\n<mark>Peak emf NBAω when the plane of the coil is parallel to B (flux zero, changing fastest).</mark>\n\n:::tip Your answer must contain\n- a labelled diagram: coil, poles, slip rings, brushes, load\n- $\\Phi=NBA\\cos\\omega t$ and the differentiation\n- when the emf is maximum\n:::\n\n**Marks are lost for:** split rings (that is a DC motor); peak emf \"when the coil is perpendicular to B\".",
     "scheme": [
       {
         "step": "Labelled diagram: coil (armature) between the poles of a magnet, axle, slip rings, carbon brushes, external load.",
@@ -204,7 +208,8 @@
         "marks": 1
       }
     ],
-    "topic": "AC generator"
+    "topic": "AC generator",
+    "hint": "Write the flux as NBA cos ωt for a coil turning at ω, then differentiate."
   },
   {
     "id": "phy-07-q09",
@@ -214,7 +219,7 @@
     "stars": 3,
     "label": "PYQ-style",
     "stem": "(a) Explain the principle and working of a transformer with a labelled diagram. For an ideal transformer, show that $\\dfrac{V_s}{V_p}=\\dfrac{N_s}{N_p}=\\dfrac{I_p}{I_s}$. [3]<br>(b) Name two causes of energy loss in a real transformer and say how each is reduced. [2]",
-    "model_answer": "(a) Labelled diagram: primary and secondary coils on a laminated soft-iron core. Principle: mutual induction. [1]<br>\nThe same flux Φ links every turn: $\\varepsilon_p=-N_p\\dfrac{d\\Phi}{dt}$, $\\varepsilon_s=-N_s\\dfrac{d\\Phi}{dt}$, so $\\dfrac{V_s}{V_p}=\\dfrac{N_s}{N_p}$. [1]<br>\nIdeal (no loss): $V_pI_p=V_sI_s$, so $\\dfrac{I_p}{I_s}=\\dfrac{V_s}{V_p}=\\dfrac{N_s}{N_p}$. [1]<br>\n(b) Eddy currents in the core: reduced by a laminated core. [1]<br>\nCopper ($I^2R$) loss in the windings: reduced by thick copper wire. (Also accept: flux leakage, coils wound over each other; hysteresis, soft-iron core.) [1]",
+    "model_answer": "*How much to write: about 12 lines with a labelled diagram · 9 minutes*\n\n**(a) Principle:** <u>mutual induction</u>. An alternating current in the primary sets up a changing flux in the soft-iron core; the same flux links the secondary and induces an emf in it.\n\n<figure class=\"fig\">\n<svg viewBox=\"0 0 380 200\" role=\"img\" aria-label=\"Step-up transformer: primary and secondary coils on a laminated core\" font-family=\"sans-serif\" font-size=\"12.5\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M80,30L300,30L300,170L80,170Z\" stroke-width=\"3\"/><path d=\"M120,65L260,65L260,135L120,135Z\" stroke-width=\"2\"/><ellipse class=\"u\" cx=\"100\" cy=\"50\" rx=\"22\" ry=\"6\" fill=\"none\"/><ellipse class=\"u\" cx=\"100\" cy=\"72\" rx=\"22\" ry=\"6\" fill=\"none\"/><ellipse class=\"u\" cx=\"100\" cy=\"94\" rx=\"22\" ry=\"6\" fill=\"none\"/><ellipse class=\"u\" cx=\"100\" cy=\"116\" rx=\"22\" ry=\"6\" fill=\"none\"/><ellipse class=\"u\" cx=\"100\" cy=\"138\" rx=\"22\" ry=\"6\" fill=\"none\"/><ellipse class=\"u\" cx=\"280\" cy=\"42\" rx=\"22\" ry=\"5\" fill=\"none\"/><ellipse class=\"u\" cx=\"280\" cy=\"57\" rx=\"22\" ry=\"5\" fill=\"none\"/><ellipse class=\"u\" cx=\"280\" cy=\"72\" rx=\"22\" ry=\"5\" fill=\"none\"/><ellipse class=\"u\" cx=\"280\" cy=\"87\" rx=\"22\" ry=\"5\" fill=\"none\"/><ellipse class=\"u\" cx=\"280\" cy=\"102\" rx=\"22\" ry=\"5\" fill=\"none\"/><ellipse class=\"u\" cx=\"280\" cy=\"117\" rx=\"22\" ry=\"5\" fill=\"none\"/><ellipse class=\"u\" cx=\"280\" cy=\"132\" rx=\"22\" ry=\"5\" fill=\"none\"/><ellipse class=\"u\" cx=\"280\" cy=\"147\" rx=\"22\" ry=\"5\" fill=\"none\"/><path d=\"M78,50L40,50\"/><path d=\"M78,138L40,138\"/><path d=\"M302,42L340,42\"/><path d=\"M302,147L340,147\"/><g fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\"><text x=\"100\" y=\"192\" font-size=\"11\">primary, N<tspan font-size=\"9\" dy=\"3\">p</tspan><tspan dy=\"-3\">&#8203;</tspan></text><text x=\"280\" y=\"192\" font-size=\"11\">secondary, N<tspan font-size=\"9\" dy=\"3\">s</tspan><tspan dy=\"-3\">&#8203;</tspan></text><text x=\"190\" y=\"104\" font-size=\"11\">laminated soft-iron core</text></g></svg>\n<figcaption>Transformer: primary and secondary coils wound on a laminated soft-iron core.</figcaption>\n</figure>\n\n**Working:** if no flux leaks, the <u>same flux Φ</u> links every turn of both coils:\n\n$$\\varepsilon_p=-N_p\\frac{d\\Phi}{dt}$$\n\n$$\\varepsilon_s=-N_s\\frac{d\\Phi}{dt}$$\n\nWith negligible winding resistance $V_p\\approx\\varepsilon_p$, $V_s\\approx\\varepsilon_s$:\n\n$$\\frac{V_s}{V_p}=\\frac{N_s}{N_p}$$\n\nIdeal transformer (no loss): input power = output power.\n\n$$V_pI_p=V_sI_s$$\n\n$$\\boxed{\\frac{V_s}{V_p}=\\frac{N_s}{N_p}=\\frac{I_p}{I_s}}$$\n\n<mark>Step-up: more turns, higher voltage, lower current.</mark>\n\n**(b) Losses and remedies (any two):**\n\n| Loss | Reduced by |\n|---|---|\n| <u>Eddy currents</u> in the core | a laminated core |\n| <u>Copper (I²R) loss</u> in the windings | thick copper wire |\n| Flux leakage | winding the coils over each other |\n| Hysteresis | a soft-iron core (narrow loop) |\n\n:::tip Your answer must contain\n- a labelled diagram: core, primary, secondary, input and output\n- the principle in two words: <u>mutual induction</u>\n- equal emf per turn, then the power equality\n- two losses, each with its remedy\n:::\n\n**Marks are lost for:** saying a transformer works on DC; no laminations in the diagram; a loss without its remedy.",
     "scheme": [
       {
         "step": "(a) Labelled diagram: primary and secondary coils on a laminated soft-iron core. Principle: mutual induction.",
@@ -237,7 +242,8 @@
         "marks": 1
       }
     ],
-    "topic": "Transformer"
+    "topic": "Transformer",
+    "hint": "Same changing flux links every turn of both coils, so emf per turn is equal. For losses, think core and windings."
   },
   {
     "id": "phy-w20261115-07-01",

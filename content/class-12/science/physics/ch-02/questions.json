@@ -187,7 +187,9 @@
         "model_answer": "**(C)** $C=\\varepsilon_0A/d$; the voltage does not change $C$."
       }
     ],
-    "topic": "Energy in a capacitor"
+    "topic": "Energy in a capacitor",
+    "hint": "Use U = ½CV² and Q = CV with C in farads and V in volts. Energy goes as V².",
+    "model_answer": "*How much to write: 4 one-line answers: option letter + reason · 4 minutes*\n\n**(i) (C) 400 J.**\n\n$$U=\\tfrac12\\times32\\times10^{-6}\\times5000^2$$\n\n$$U=400\\ \\text{J}$$\n\n**(ii) (B) 0.16 C.** $Q=CV=32\\times10^{-6}\\times5000=0.16$ C.\n\n**(iii) (B) 100 J.** $U\\propto V^2$: <mark>half the voltage gives a quarter of the energy</mark>.\n\n**(iv) (C) halving the plate separation.** $C=\\varepsilon_0A/d$; the voltage does not change $C$.\n\n:::tip Your answer must contain\n- the option letter for each part\n- a one-line reason or the working for every numerical part\n:::\n\n**Marks are lost for:** 200 J in (iii) (taking U ∝ V); \"doubling the voltage\" in (iv)."
   },
   {
     "id": "phy-02-q09",
@@ -197,7 +199,7 @@
     "stars": 2,
     "label": "PYQ-style",
     "stem": "Draw equipotential surfaces for (a) a single positive point charge, (b) a uniform electric field along the $z$-axis. Mark the field direction in each.",
-    "model_answer": "(a) Concentric spheres centred on the charge, with field lines radially outward; the spheres get farther apart for equal steps of $V$. [1]<br>\n(b) Equally spaced planes parallel to the $xy$-plane (perpendicular to $z$), with field lines along $+z$. [1]",
+    "model_answer": "*How much to write: two labelled sketches · 3 minutes*\n\n**(a) Single positive charge:** equipotentials are <u>concentric spheres</u> centred on the charge (circles in the sketch). Field lines point <u>radially outward</u>. For equal steps of V the spheres get <mark>farther apart</mark> as you move out.\n\n**(b) Uniform field along $z$:** equipotentials are <u>equally spaced planes</u> parallel to the $xy$-plane. Field lines are straight, parallel, along $+z$.\n\n<figure class=\"fig\">\n<svg viewBox=\"0 0 380 178\" role=\"img\" aria-label=\"Equipotential surfaces for a point charge and for a uniform field\" font-family=\"sans-serif\" font-size=\"12.5\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><circle class=\"u\" cx=\"85\" cy=\"85\" r=\"20\" stroke-dasharray=\"4 3\"/><circle class=\"u\" cx=\"85\" cy=\"85\" r=\"36\" stroke-dasharray=\"4 3\"/><circle class=\"u\" cx=\"85\" cy=\"85\" r=\"58\" stroke-dasharray=\"4 3\"/><path d=\"M95.2,89.2L155.2,114.1\"/><path d=\"M155.2,114.1L150.2,114.2L151.8,110.5Z\" fill=\"currentColor\" stroke=\"none\"/><path d=\"M89.2,95.2L114.1,155.2\"/><path d=\"M114.1,155.2L110.5,151.8L114.2,150.2Z\" fill=\"currentColor\" stroke=\"none\"/><path d=\"M80.8,95.2L55.9,155.2\"/><path d=\"M55.9,155.2L55.8,150.2L59.5,151.8Z\" fill=\"currentColor\" stroke=\"none\"/><path d=\"M74.8,89.2L14.8,114.1\"/><path d=\"M14.8,114.1L18.2,110.5L19.8,114.2Z\" fill=\"currentColor\" stroke=\"none\"/><path d=\"M74.8,80.8L14.8,55.9\"/><path d=\"M14.8,55.9L19.8,55.8L18.2,59.5Z\" fill=\"currentColor\" stroke=\"none\"/><path d=\"M80.8,74.8L55.9,14.8\"/><path d=\"M55.9,14.8L59.5,18.2L55.8,19.8Z\" fill=\"currentColor\" stroke=\"none\"/><path d=\"M89.2,74.8L114.1,14.8\"/><path d=\"M114.1,14.8L114.2,19.8L110.5,18.2Z\" fill=\"currentColor\" stroke=\"none\"/><path d=\"M95.2,80.8L155.2,55.9\"/><path d=\"M155.2,55.9L151.8,59.5L150.2,55.8Z\" fill=\"currentColor\" stroke=\"none\"/><circle cx=\"85\" cy=\"85\" r=\"9\"/><path d=\"M81,85L89,85\"/><path d=\"M85,81L85,89\"/><path class=\"u\" d=\"M222,40L368,40\" stroke-dasharray=\"4 3\"/><path class=\"u\" d=\"M222,70L368,70\" stroke-dasharray=\"4 3\"/><path class=\"u\" d=\"M222,100L368,100\" stroke-dasharray=\"4 3\"/><path class=\"u\" d=\"M222,130L368,130\" stroke-dasharray=\"4 3\"/><path d=\"M240,152L240,22\"/><path d=\"M240,22L242,26.6L238,26.6Z\" fill=\"currentColor\" stroke=\"none\"/><path d=\"M275,152L275,22\"/><path d=\"M275,22L277,26.6L273,26.6Z\" fill=\"currentColor\" stroke=\"none\"/><path d=\"M310,152L310,22\"/><path d=\"M310,22L312,26.6L308,26.6Z\" fill=\"currentColor\" stroke=\"none\"/><path d=\"M345,152L345,22\"/><path d=\"M345,22L347,26.6L343,26.6Z\" fill=\"currentColor\" stroke=\"none\"/><g fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\"><text x=\"92\" y=\"172\" font-size=\"11\">point charge: concentric spheres</text><text x=\"372\" y=\"22\" text-anchor=\"end\" font-style=\"italic\">E</text><text x=\"292\" y=\"172\" font-size=\"11\">uniform field: equal spacing</text></g></svg>\n<figcaption>Equipotentials (dashed) always cut the field lines at right angles.</figcaption>\n</figure>\n\n:::tip Your answer must contain\n- equipotentials drawn <u>perpendicular</u> to the field lines\n- the field direction marked by arrows in both sketches\n- growing spacing in (a), equal spacing in (b)\n:::\n\n**Marks are lost for:** equally spaced circles in (a); planes drawn along the field in (b).",
     "scheme": [
       {
         "step": "(a) Concentric spheres centred on the charge, with field lines radially outward; the spheres get farther apart for equal steps of $V$.",
@@ -219,7 +221,7 @@
     "stars": 2,
     "label": "NCERT-based",
     "stem": "A 600 pF capacitor is charged by a 200 V supply, disconnected, and joined to an uncharged 600 pF capacitor. How much electrostatic energy is lost?",
-    "model_answer": "$U_i=\\tfrac12CV^2=\\tfrac12\\times600\\times10^{-12}\\times(200)^2=1.2\\times10^{-5}$ J [½]<br>\nCharge is conserved and the capacitance doubles, so the common voltage is 100 V. [½]<br>\n$U_f=\\tfrac12\\times1200\\times10^{-12}\\times(100)^2=6\\times10^{-6}$ J [½]<br>\nLoss $=\\boxed{6\\times10^{-6}\\text{ J}}$ (as heat and radiation in the connecting wires). [½]",
+    "model_answer": "*How much to write: about 6 lines · 4 minutes*\n\n**Given:** $C=600$ pF charged to 200 V, then joined to an uncharged 600 pF<br>\n**To find:** the energy lost\n\n**Before:**\n\n$$U_i=\\tfrac12CV^2=\\tfrac12\\times600\\times10^{-12}\\times200^2$$\n\n$$U_i=1.2\\times10^{-5}\\ \\text{J}$$\n\n**After:** charge is <u>conserved</u>, capacitance doubles, so the common voltage is 100 V.\n\n$$U_f=\\tfrac12\\times1200\\times10^{-12}\\times100^2$$\n\n$$U_f=6\\times10^{-6}\\ \\text{J}$$\n\n$$\\boxed{\\Delta U=6\\times10^{-6}\\ \\text{J}}$$\n\n<mark>Half the energy is lost, as heat and radiation in the connecting wires.</mark>\n\n:::tip Your answer must contain\n- <u>charge conserved</u> (not energy) when they are joined\n- the common voltage 100 V\n- the loss with unit, and where it goes\n:::\n\n**Marks are lost for:** assuming energy is conserved; using 200 V after joining.",
     "scheme": [
       {
         "step": "$U_i=\\tfrac12CV^2=\\tfrac12\\times600\\times10^{-12}\\times(200)^2=1.2\\times10^{-5}$ J",
@@ -249,7 +251,7 @@
     "stars": 3,
     "label": "PYQ-style",
     "stem": "Derive an expression for the energy stored in a charged capacitor. Hence show that the energy density of the electric field between the plates of a parallel-plate capacitor is $\\tfrac12\\varepsilon_0E^2$.",
-    "model_answer": "When the charge is $q$, $V=q/C$; work to add $dq$: $dW=\\dfrac{q}{C}\\,dq$. [1]<br>\n$W=\\displaystyle\\int_0^Q\\frac{q}{C}\\,dq=\\frac{Q^2}{2C}=\\tfrac12CV^2=\\tfrac12QV$; this work is stored as $U$. [1]<br>\nParallel plate: $C=\\varepsilon_0A/d$, $V=Ed$, so $U=\\tfrac12\\dfrac{\\varepsilon_0A}{d}E^2d^2$; volume $Ad$, hence $\\boxed{u=\\tfrac12\\varepsilon_0E^2}$. [1]",
+    "model_answer": "*How much to write: about 8 lines · 6 minutes*\n\n**Energy stored:** let the charge at some instant be $q$, so $V=q/C$. Work to bring a further $dq$:\n\n$$dW=\\frac{q}{C}\\,dq$$\n\n$$W=\\int_0^Q\\frac{q}{C}\\,dq=\\frac{Q^2}{2C}$$\n\nThis work is stored as <u>electrostatic potential energy</u>:\n\n$$\\boxed{U=\\frac{Q^2}{2C}=\\tfrac12CV^2=\\tfrac12QV}$$\n\n**Energy density:** for a parallel-plate capacitor $C=\\dfrac{\\varepsilon_0A}{d}$ and $V=Ed$:\n\n$$U=\\tfrac12\\,\\frac{\\varepsilon_0A}{d}\\,E^2d^2=\\tfrac12\\varepsilon_0E^2(Ad)$$\n\nThe field fills the volume $Ad$, so the energy per unit volume is\n\n$$\\boxed{u=\\tfrac12\\varepsilon_0E^2}$$\n\n<mark>The energy is stored in the electric field between the plates.</mark>\n\n:::tip Your answer must contain\n- $dW=(q/C)\\,dq$ and the integral from 0 to Q\n- the three forms of U\n- volume $Ad$ and the boxed energy density\n:::\n\n**Marks are lost for:** writing $U=QV$ (no ½); dividing by area instead of volume.",
     "scheme": [
       {
         "step": "When the charge is $q$, $V=q/C$; work to add $dq$: $dW=\\dfrac{q}{C}\\,dq$.",
@@ -275,7 +277,7 @@
     "stars": 2,
     "label": "PYQ-style",
     "stem": "A $6\\,\\mu$F capacitor $C_1$ is connected in series with a parallel pair $C_2=2\\,\\mu$F and $C_3=4\\,\\mu$F, across a 12 V battery. Find (i) the equivalent capacitance, (ii) the charge on each capacitor, (iii) the total energy stored.",
-    "model_answer": "(i) $C_2\\parallel C_3=6\\,\\mu$F; in series with $C_1=6\\,\\mu$F: $\\boxed{C_\\text{eq}=3\\,\\mu\\text{F}}$ [1]<br>\n(ii) $Q=C_\\text{eq}V=36\\,\\mu$C on $C_1$; $V_1=36/6=6$ V, so the pair has 6 V: $Q_2=12\\,\\mu$C, $Q_3=24\\,\\mu$C. [1]<br>\n(iii) $U=\\tfrac12C_\\text{eq}V^2=\\tfrac12\\times3\\times10^{-6}\\times144=\\boxed{216\\,\\mu\\text{J}}$ [1]",
+    "model_answer": "*How much to write: about 9 lines, one result per line · 6 minutes*\n\n**Given:** $C_1=6\\,\\mu$F in series with ($C_2=2\\,\\mu$F ∥ $C_3=4\\,\\mu$F), $V=12$ V<br>\n**To find:** $C_\\text{eq}$, the charge on each, the energy stored\n\n**(i)** Parallel pair: $C_{23}=2+4=6\\,\\mu$F. In series with $C_1$:\n\n$$\\frac{1}{C_\\text{eq}}=\\frac16+\\frac16$$\n\n$$\\boxed{C_\\text{eq}=3\\,\\mu\\text{F}}$$\n\n**(ii)** Series pieces carry the <u>same charge</u>:\n\n$$Q_1=C_\\text{eq}V=3\\times12=36\\,\\mu\\text{C}$$\n\n$V_1=36/6=6$ V, so the parallel pair has $12-6=6$ V across it:\n\n$$Q_2=2\\times6=12\\,\\mu\\text{C}$$\n\n$$Q_3=4\\times6=24\\,\\mu\\text{C}$$\n\n<mark>Check: Q₂ + Q₃ = 36 μC = Q₁.</mark>\n\n**(iii)**\n\n$$U=\\tfrac12C_\\text{eq}V^2=\\tfrac12\\times3\\times10^{-6}\\times144$$\n\n$$\\boxed{U=216\\,\\mu\\text{J}}$$\n\n:::tip Your answer must contain\n- the parallel pair combined first, then the series step\n- <u>same charge in series, same voltage in parallel</u>\n- all three charges, and the energy with unit\n:::\n\n**Marks are lost for:** giving 36 μC to $C_2$ and $C_3$ too; using $V=12$ V across the parallel pair; μJ written as J.",
     "scheme": [
       {
         "step": "(i) $C_2\\parallel C_3=6\\,\\mu$F; in series with $C_1=6\\,\\mu$F: $\\boxed{C_\\text{eq}=3\\,\\mu\\text{F}}$",
@@ -301,7 +303,7 @@
     "stars": 2,
     "label": "PYQ-style",
     "stem": "(a) A parallel-plate capacitor has plate area $A$ and separation $d$. A dielectric slab of constant $K$ and thickness $t<d$ is placed between the plates. Derive an expression for its capacitance. [3]<br>(b) With air between the plates the capacitance is 10 pF. Find the new capacitance when a slab of thickness $d/2$ and $K=4$ is inserted. [2]",
-    "model_answer": "(a) In the air gap $E_0=\\dfrac{\\sigma}{\\varepsilon_0}=\\dfrac{Q}{A\\varepsilon_0}$. [½]<br>\nInside the slab the field is reduced by polarisation: $E=E_0/K$. [½]<br>\n$V=E_0(d-t)+\\dfrac{E_0}{K}t=\\dfrac{Q}{A\\varepsilon_0}\\left[d-t+\\dfrac{t}{K}\\right]$ [1]<br>\n$\\boxed{C=\\dfrac{Q}{V}=\\dfrac{\\varepsilon_0A}{d-t\\left(1-\\frac1K\\right)}}$ (check: $t=d$ gives $K\\varepsilon_0A/d$). [1]<br>\n(b) $C=\\dfrac{\\varepsilon_0A}{d-\\frac d2\\left(1-\\frac14\\right)}=\\dfrac{\\varepsilon_0A}{5d/8}$ [1]<br>\n$=\\tfrac85C_0=\\boxed{16\\text{ pF}}$ [1]",
+    "model_answer": "*How much to write: about 14 lines with a sketch of the slab · 10 minutes*\n\n**(a)** Plates of area $A$, separation $d$, slab of thickness $t$ and constant $K$. Let the charge be $\\pm Q$, so $\\sigma=Q/A$.\n\nIn the <u>air gaps</u> (total thickness $d-t$):\n\n$$E_0=\\frac{\\sigma}{\\varepsilon_0}=\\frac{Q}{A\\varepsilon_0}$$\n\nInside the slab, <u>polarisation</u> reduces the field:\n\n$$E=\\frac{E_0}{K}$$\n\nPotential difference = sum of drops:\n\n$$V=E_0(d-t)+\\frac{E_0}{K}t$$\n\n$$V=\\frac{Q}{A\\varepsilon_0}\\left[d-t+\\frac{t}{K}\\right]$$\n\n$$\\boxed{C=\\frac{Q}{V}=\\frac{\\varepsilon_0A}{d-t\\left(1-\\frac1K\\right)}}$$\n\n<mark>Check: t = d gives C = Kε₀A/d; t = 0 gives ε₀A/d.</mark>\n\n**(b) Given:** $C_0=\\dfrac{\\varepsilon_0A}{d}=10$ pF, $t=\\dfrac d2$, $K=4$<br>\n**To find:** $C$\n\n$$C=\\frac{\\varepsilon_0A}{d-\\frac d2\\left(1-\\frac14\\right)}=\\frac{\\varepsilon_0A}{\\frac{5d}{8}}$$\n\n$$C=\\frac85C_0=\\frac85\\times10$$\n\n$$\\boxed{C=16\\ \\text{pF}}$$\n\n:::tip Your answer must contain\n- separate fields in the air and in the slab ($E_0/K$)\n- $V$ as the <u>sum of the two drops</u>\n- the boxed formula and a limiting-case check\n- (b) in terms of $C_0$, with unit pF\n:::\n\n**Marks are lost for:** using $E_0$ inside the slab; writing $d-t+Kt$; answer 40 pF (as if the slab filled the gap).",
     "scheme": [
       {
         "step": "(a) In the air gap $E_0=\\dfrac{\\sigma}{\\varepsilon_0}=\\dfrac{Q}{A\\varepsilon_0}$.",
@@ -356,5 +358,39 @@
       }
     ],
     "topic": "Capacitors in series, energy stored"
+  },
+  {
+    "id": "phy-w20261117-02-01",
+    "chapter": "ch-02",
+    "type": "la5",
+    "marks": 5,
+    "stars": 2,
+    "label": "PYQ-style",
+    "topic": "Potential of a dipole",
+    "stem": "(a) Derive an expression for the electric potential at a point at distance $r$ from the centre of an electric dipole, along a line making angle $\\theta$ with the dipole axis ($r\\gg a$). Write the potential on the axial and on the equatorial line. [3]<br>(b) Charges $+2\\,\\mu$C and $-2\\,\\mu$C are placed at A and B, 6 cm apart. Find the potential (i) at the midpoint O of AB, (ii) at a point P on the line AB, 9 cm from O, beyond B. [2]",
+    "hint": "Potential is a scalar: add kq/r for each charge with its sign. For r ≫ a, the two distances are r ∓ a cos θ.",
+    "model_answer": "*How much to write: about 12 lines with a labelled sketch · 9 minutes*\n\n**(a)** Dipole: $-q$ at A, $+q$ at B, $AB=2a$, centre O, dipole moment $p=2qa$ from A to B. Point P at distance $r$ from O, at angle θ to the axis.\n\n<figure class=\"fig\">\n<svg viewBox=\"0 0 320 150\" role=\"img\" aria-label=\"Dipole with charges minus q at A and plus q at B, point P at distance r from the centre at angle theta\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.4\" font-size=\"12\">\n<path d=\"M40,120 H170\" stroke-dasharray=\"4 4\"/>\n<circle cx=\"60\" cy=\"120\" r=\"7\"/><circle cx=\"140\" cy=\"120\" r=\"7\" class=\"u\"/>\n<path d=\"M100,120 L250,30\" stroke=\"#E0B400\" stroke-width=\"2\"/>\n<path d=\"M60,120 L250,30\"/><path d=\"M140,120 L250,30\"/>\n<path d=\"M128,120 A28,28 0 0 0 124,104\"/>\n<circle cx=\"250\" cy=\"30\" r=\"3\" fill=\"currentColor\"/>\n<g fill=\"currentColor\" stroke=\"none\">\n<text x=\"56\" y=\"124\">−</text><text x=\"136\" y=\"124\" class=\"uf\">+</text>\n<text x=\"52\" y=\"142\">A (−q)</text><text x=\"128\" y=\"142\">B (+q)</text><text x=\"96\" y=\"142\">O</text>\n<text x=\"258\" y=\"28\">P</text><text x=\"182\" y=\"62\">r</text><text x=\"132\" y=\"104\">θ</text>\n</g>\n</svg>\n<figcaption>Dipole AB of length 2a, centre O; P at distance r = OP, angle θ to the axis; r₁ = BP, r₂ = AP.</figcaption>\n</figure>\n\nPotential is a <u>scalar</u>, so add the two contributions:\n\n$$V=\\frac{1}{4\\pi\\varepsilon_0}\\left(\\frac{q}{r_1}-\\frac{q}{r_2}\\right)$$\n\nFor $r\\gg a$ (geometry of the sketch):\n\n$$r_1\\approx r-a\\cos\\theta,\\quad r_2\\approx r+a\\cos\\theta$$\n\n$$V=\\frac{q}{4\\pi\\varepsilon_0}\\cdot\\frac{2a\\cos\\theta}{r^2-a^2\\cos^2\\theta}$$\n\n$$\\boxed{V=\\frac{1}{4\\pi\\varepsilon_0}\\frac{p\\cos\\theta}{r^2}}$$\n\n- **Axial line** ($\\theta=0^\\circ$): $V=\\dfrac{1}{4\\pi\\varepsilon_0}\\dfrac{p}{r^2}$\n- **Equatorial line** ($\\theta=90^\\circ$): <mark>V = 0</mark>\n\n**(b) Given:** $q=\\pm2\\,\\mu$C, $AB=0.06$ m<br>\n**To find:** $V$ at O and at P\n\n**(i)** O is 3 cm from both charges; the two terms cancel:\n\n$$\\boxed{V_O=0}$$\n\n**(ii)** P is 12 cm from A ($+q$) and 6 cm from B ($-q$). Here $r$ is not $\\gg a$, so add exactly:\n\n$$V_P=kq\\left(\\frac{1}{0.12}-\\frac{1}{0.06}\\right)$$\n\n$$V_P=1.8\\times10^4\\times(8.33-16.67)$$\n\n$$\\boxed{V_P=-1.5\\times10^{5}\\ \\text{V}}$$\n\nNegative: P is nearer the negative charge.\n\n:::tip Your answer must contain\n- a labelled sketch with $r_1$, $r_2$, θ\n- $V$ as an <u>algebraic sum</u> of scalars\n- the $r\\gg a$ step and the boxed result; axial and equatorial values\n- (b) the reason $V_O=0$, and the exact sum at P\n:::\n\n**Marks are lost for:** adding magnitudes without signs; using $p\\cos\\theta/r^3$; using the short-dipole formula at P where $r$ is only 3a.",
+    "scheme": [
+      {
+        "step": "(a) Sketch and $V=\\dfrac{1}{4\\pi\\varepsilon_0}\\left(\\dfrac{q}{r_1}-\\dfrac{q}{r_2}\\right)$",
+        "marks": 1
+      },
+      {
+        "step": "$r_1\\approx r-a\\cos\\theta$, $r_2\\approx r+a\\cos\\theta$ and $V=\\dfrac{p\\cos\\theta}{4\\pi\\varepsilon_0r^2}$",
+        "marks": 1
+      },
+      {
+        "step": "Axial $V=\\dfrac{p}{4\\pi\\varepsilon_0r^2}$; equatorial $V=0$",
+        "marks": 1
+      },
+      {
+        "step": "(b)(i) $V_O=0$ with reason",
+        "marks": 1
+      },
+      {
+        "step": "(ii) $V_P=-1.5\\times10^{5}$ V",
+        "marks": 1
+      }
+    ]
   }
 ]

@@ -1,0 +1,149 @@
+{
+  "$schema": "../../../../../schemas/paper.schema.json",
+  "id": "preboard-sample-2",
+  "title": "Sample pre-board 2 · full syllabus",
+  "label": "SQP-style",
+  "sections": [
+    {
+      "id": "A",
+      "name": "Section A",
+      "note": "Q1–12 MCQ, Q13–16 assertion–reason. 1 mark each.",
+      "questions": [
+        {
+          "ref": "ch-02/phy-02-q01"
+        },
+        {
+          "ref": "ch-03/phy-03-q01"
+        },
+        {
+          "ref": "ch-05/phy-05-q01"
+        },
+        {
+          "ref": "ch-06/phy-06-q01"
+        },
+        {
+          "ref": "ch-07/phy-07-q01"
+        },
+        {
+          "ref": "ch-08/phy-08-q01"
+        },
+        {
+          "ref": "ch-09/phy-09-q02"
+        },
+        {
+          "ref": "ch-10/phy-10-q02"
+        },
+        {
+          "ref": "ch-09/phy-09-q03"
+        },
+        {
+          "ref": "ch-11/phy-11-q01"
+        },
+        {
+          "ref": "ch-13/phy-13-q02"
+        },
+        {
+          "ref": "ch-14/phy-14-q02"
+        },
+        {
+          "ref": "ch-02/phy-02-q06"
+        },
+        {
+          "ref": "ch-03/phy-03-q06"
+        },
+        {
+          "ref": "ch-04/phy-04-q04"
+        },
+        {
+          "ref": "ch-12/phy-12-q04"
+        }
+      ]
+    },
+    {
+      "id": "B",
+      "name": "Section B",
+      "note": "Very short answer, 2 marks each. Two questions have an internal choice.",
+      "questions": [
+        {
+          "ref": "ch-01/phy-01-q09",
+          "or": "ch-01/phy-01-q10"
+        },
+        {
+          "ref": "ch-02/phy-02-q10"
+        },
+        {
+          "ref": "ch-06/phy-w20261115-06-01",
+          "or": "ch-07/phy-07-q06"
+        },
+        {
+          "ref": "ch-09/phy-09-q07"
+        },
+        {
+          "ref": "ch-11/phy-11-q07"
+        }
+      ]
+    },
+    {
+      "id": "C",
+      "name": "Section C",
+      "note": "Short answer, 3 marks each. Two questions have an internal choice.",
+      "questions": [
+        {
+          "ref": "ch-03/phy-03-q11"
+        },
+        {
+          "ref": "ch-06/phy-06-q08"
+        },
+        {
+          "ref": "ch-07/phy-07-q07",
+          "or": "ch-07/phy-07-q08"
+        },
+        {
+          "ref": "ch-10/phy-10-q08"
+        },
+        {
+          "ref": "ch-12/phy-12-q07",
+          "or": "ch-13/phy-13-q08"
+        },
+        {
+          "ref": "ch-14/phy-14-q09"
+        },
+        {
+          "ref": "ch-14/phy-w20261115-14-02"
+        }
+      ]
+    },
+    {
+      "id": "D",
+      "name": "Section D",
+      "note": "Case-based, 4 marks each.",
+      "questions": [
+        {
+          "ref": "ch-10/phy-10-q05"
+        },
+        {
+          "ref": "ch-11/phy-11-q05"
+        }
+      ]
+    },
+    {
+      "id": "E",
+      "name": "Section E",
+      "note": "Long answer, 5 marks each, each with an internal choice.",
+      "questions": [
+        {
+          "ref": "ch-01/phy-01-q13",
+          "or": "ch-02/phy-w20261117-02-01"
+        },
+        {
+          "ref": "ch-04/phy-w20261117-04-01",
+          "or": "ch-06/phy-06-q09"
+        },
+        {
+          "ref": "ch-09/phy-w20261117-09-01",
+          "or": "ch-10/phy-w20261115-10-01"
+        }
+      ]
+    }
+  ]
+}

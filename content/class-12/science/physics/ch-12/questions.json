@@ -133,7 +133,9 @@
         "model_answer": "**(C)** Only a concentrated positive charge can turn an alpha particle back."
       }
     ],
-    "topic": "Alpha scattering"
+    "topic": "Alpha scattering",
+    "hint": "An alpha particle is a helium nucleus. Distance of closest approach r₀ ∝ 1/K.",
+    "model_answer": "*How much to write: 4 one-line answers: option letter + reason · 4 minutes*\n\n**(i) (B) +2e.** It is a helium nucleus: two protons.\n\n**(ii) (C) double.** $r_0=\\dfrac{1}{4\\pi\\varepsilon_0}\\dfrac{2Ze^2}{K}\\propto\\dfrac1K$.\n\n**(iii) (D) 180°.** Zero impact parameter: it heads straight at the nucleus and comes back.\n\n**(iv) (C)** <mark>positive charge and mass are concentrated in a tiny nucleus</mark>; only that can turn an alpha particle back.\n\n:::tip Your answer must contain\n- the option letter for each part\n- a one-line reason or the working for every numerical part\n:::\n\n**Marks are lost for:** −2e; \"halve\" in (ii)."
   },
   {
     "id": "phy-12-q06",
@@ -143,7 +145,7 @@
     "stars": 2,
     "label": "PYQ-style",
     "stem": "Using de Broglie's hypothesis, explain Bohr's second postulate of quantisation of angular momentum.",
-    "model_answer": "The electron in an orbit is a standing wave; for a stable orbit the circumference must contain a whole number of wavelengths: $2\\pi r_n=n\\lambda$. [1]<br>\nWith $\\lambda=\\dfrac{h}{mv}$: $2\\pi r_n=\\dfrac{nh}{mv}\\Rightarrow\\boxed{mvr_n=\\dfrac{nh}{2\\pi}}$, which is Bohr's condition. [1]",
+    "model_answer": "*How much to write: 3–4 lines with one relation per line · 3 minutes*\n\nde Broglie: the electron moving in an orbit is a wave of wavelength\n\n$$\\lambda=\\frac{h}{mv}$$\n\nA stable orbit is one where this wave forms a <u>standing wave</u>: the circumference holds a <u>whole number of wavelengths</u>.\n\n$$2\\pi r_n=n\\lambda=\\frac{nh}{mv}$$\n\n$$\\boxed{mvr_n=\\frac{nh}{2\\pi}}$$\n\n<mark>Angular momentum is an integral multiple of h/2π: Bohr's second postulate.</mark>\n\n:::tip Your answer must contain\n- the phrase <u>standing wave</u> (whole number of wavelengths)\n- $2\\pi r_n=n\\lambda$ and $\\lambda=h/mv$\n- the final boxed condition\n:::\n\n**Marks are lost for:** stating Bohr's postulate without deriving it; writing $2\\pi r=\\lambda/n$.",
     "scheme": [
       {
         "step": "The electron in an orbit is a standing wave; for a stable orbit the circumference must contain a whole number of wavelengths: $2\\pi r_n=n\\lambda$.",
@@ -154,7 +156,8 @@
         "marks": 1
       }
     ],
-    "topic": "Bohr model"
+    "topic": "Bohr model",
+    "hint": "An electron wave in a stable orbit must fit the circumference a whole number of times."
   },
   {
     "id": "phy-12-q07",
@@ -164,7 +167,7 @@
     "stars": 3,
     "label": "PYQ-style",
     "stem": "Calculate the wavelength of (i) the first line and (ii) the series limit of the Balmer series of hydrogen. In which region of the spectrum do they lie? ($R=1.097\\times10^7$ m⁻¹)",
-    "model_answer": "$\\dfrac1\\lambda=R\\left(\\dfrac1{2^2}-\\dfrac1{n_i^2}\\right)$ [1]<br>\n(i) $n_i=3$: $\\dfrac1\\lambda=R\\cdot\\dfrac{5}{36}\\Rightarrow\\lambda=\\dfrac{36}{5\\times1.097\\times10^7}=\\boxed{656\\text{ nm}}$ [1]<br>\n(ii) $n_i=\\infty$: $\\lambda=\\dfrac{4}{R}=\\boxed{365\\text{ nm}}$. Both in (or at the edge of) the visible region. [1]",
+    "model_answer": "*How much to write: about 6 lines · 5 minutes*\n\n**Given:** $R=1.097\\times10^7$ m⁻¹; Balmer series ends on $n=2$<br>\n**To find:** λ of the first line and of the series limit\n\n**Formula:**\n\n$$\\frac1\\lambda=R\\left(\\frac1{2^2}-\\frac1{n^2}\\right)$$\n\n**(i)** First line, $n=3$:\n\n$$\\frac1\\lambda=R\\cdot\\frac{5}{36}$$\n\n$$\\lambda=\\frac{36}{5\\times1.097\\times10^7}$$\n\n$$\\boxed{\\lambda\\approx656\\ \\text{nm}}$$\n\n**(ii)** Series limit, $n=\\infty$:\n\n$$\\lambda=\\frac{4}{R}$$\n\n$$\\boxed{\\lambda\\approx365\\ \\text{nm}}$$\n\n<mark>656 nm is red (visible); 365 nm is at the violet edge, just into the near ultraviolet.</mark>\n\n:::tip Your answer must contain\n- $n_f=2$ for Balmer\n- both wavelengths in nm and the region\n:::\n\n**Marks are lost for:** using 1/1² (that is Lyman); calling the series limit the longest wavelength.",
     "scheme": [
       {
         "step": "$\\dfrac1\\lambda=R\\left(\\dfrac1{2^2}-\\dfrac1{n_i^2}\\right)$",
@@ -179,7 +182,8 @@
         "marks": 1
       }
     ],
-    "topic": "Hydrogen spectrum"
+    "topic": "Hydrogen spectrum",
+    "hint": "Balmer: 1/λ = R(1/2² − 1/n²). First line n = 3; series limit n = ∞."
   },
   {
     "id": "phy-12-q08",
@@ -189,7 +193,7 @@
     "stars": 2,
     "label": "PYQ-style",
     "stem": "The electron of a hydrogen atom is in the orbit $n=3$. Find (i) its total energy, (ii) its kinetic energy, (iii) its potential energy.",
-    "model_answer": "(i) $E_3=-\\dfrac{13.6}{9}=\\boxed{-1.51\\text{ eV}}$ [1]<br>\n(ii) $K=-E=\\boxed{+1.51\\text{ eV}}$ [1]<br>\n(iii) $U=2E=\\boxed{-3.02\\text{ eV}}$ [1]",
+    "model_answer": "*How much to write: 3 short lines · 3 minutes*\n\n**Given:** $n=3$, $E_n=-\\dfrac{13.6}{n^2}$ eV<br>\n**To find:** $E$, $K$, $U$\n\n**(i)**\n\n$$E_3=-\\frac{13.6}{9}$$\n\n$$\\boxed{E_3=-1.51\\ \\text{eV}}$$\n\n**(ii)** In a Bohr orbit $K=-E$:\n\n$$\\boxed{K=+1.51\\ \\text{eV}}$$\n\n**(iii)** $U=2E$:\n\n$$\\boxed{U=-3.02\\ \\text{eV}}$$\n\n<mark>Check: K + U = 1.51 − 3.02 = −1.51 eV = E.</mark>\n\n:::tip Your answer must contain\n- the <u>signs</u>: E and U negative, K positive\n- $K=-E$ and $U=2E$ stated\n:::\n\n**Marks are lost for:** a negative kinetic energy; U = −E; dropping the eV unit.",
     "scheme": [
       {
         "step": "(i) $E_3=-\\dfrac{13.6}{9}=\\boxed{-1.51\\text{ eV}}$",
@@ -204,7 +208,8 @@
         "marks": 1
       }
     ],
-    "topic": "Bohr model"
+    "topic": "Bohr model",
+    "hint": "E_n = −13.6/n² eV. In a Bohr orbit K = −E and U = 2E."
   },
   {
     "id": "phy-12-q09",
@@ -214,7 +219,7 @@
     "stars": 3,
     "label": "PYQ-style",
     "stem": "(a) Using Bohr's postulates, derive the expression for the radius of the $n$th orbit of the hydrogen atom, and show that the energy of the electron in it is $E_n=-\\dfrac{13.6}{n^2}$ eV. [3]<br>(b) An electron in a hydrogen atom jumps from $n=4$ to $n=2$. Find the energy and wavelength of the emitted photon, and name the series. [2]",
-    "model_answer": "(a) $\\dfrac{mv^2}{r}=\\dfrac{1}{4\\pi\\varepsilon_0}\\dfrac{e^2}{r^2}$ and $mvr=\\dfrac{nh}{2\\pi}$; eliminating $v$: $r_n=\\dfrac{n^2h^2\\varepsilon_0}{\\pi me^2}$ [1]<br>\n$K=\\tfrac12mv^2=\\dfrac{e^2}{8\\pi\\varepsilon_0r}$, $U=-\\dfrac{e^2}{4\\pi\\varepsilon_0r}$, so $E=-\\dfrac{e^2}{8\\pi\\varepsilon_0r_n}$ [1]<br>\nSubstituting $r_n$: $E_n=-\\dfrac{me^4}{8\\varepsilon_0^2n^2h^2}=\\boxed{-\\dfrac{13.6}{n^2}\\text{ eV}}$ [1]<br>\n(b) $\\Delta E=E_4-E_2=-0.85-(-3.4)=\\boxed{2.55\\text{ eV}}$ [1]<br>\n$\\lambda=\\dfrac{1240}{2.55}\\approx\\boxed{486\\text{ nm}}$: Balmer series (visible, blue-green). [1]",
+    "model_answer": "*How much to write: about 12 lines · 9 minutes*\n\n**(a)** For the electron (charge $-e$, mass $m$) in the $n$th orbit:\n\nCoulomb force gives the centripetal force:\n\n$$\\frac{mv^2}{r}=\\frac{1}{4\\pi\\varepsilon_0}\\frac{e^2}{r^2}$$\n\nBohr's quantum condition:\n\n$$mvr=\\frac{nh}{2\\pi}$$\n\nEliminating $v$:\n\n$$\\boxed{r_n=\\frac{n^2h^2\\varepsilon_0}{\\pi me^2}}\\ (r_n\\propto n^2)$$\n\n**Energy:** from the force equation\n\n$$K=\\tfrac12mv^2=\\frac{e^2}{8\\pi\\varepsilon_0r}$$\n\n$$U=-\\frac{e^2}{4\\pi\\varepsilon_0r}$$\n\n$$E=K+U=-\\frac{e^2}{8\\pi\\varepsilon_0r_n}$$\n\nSubstituting $r_n$:\n\n$$E_n=-\\frac{me^4}{8\\varepsilon_0^2h^2n^2}$$\n\n$$\\boxed{E_n=-\\frac{13.6}{n^2}\\ \\text{eV}}$$\n\n<mark>Negative: the electron is bound.</mark>\n\n**(b) Given:** $n=4\\to n=2$<br>\n**To find:** photon energy, λ, series\n\n$$\\Delta E=E_4-E_2=-0.85-(-3.40)$$\n\n$$\\boxed{\\Delta E=2.55\\ \\text{eV}}$$\n\n$$\\lambda=\\frac{1240}{2.55}$$\n\n$$\\boxed{\\lambda\\approx486\\ \\text{nm}}$$\n\nEnds on $n=2$: **Balmer series** (visible, blue-green).\n\n:::tip Your answer must contain\n- both starting equations\n- $r_n$ boxed, then $K$, $U$, $E$ in terms of $r$\n- (b) energy in eV, λ in nm and the series name\n:::\n\n**Marks are lost for:** a positive $E_n$; Lyman for a jump ending on n = 2.",
     "scheme": [
       {
         "step": "(a) $\\dfrac{mv^2}{r}=\\dfrac{1}{4\\pi\\varepsilon_0}\\dfrac{e^2}{r^2}$ and $mvr=\\dfrac{nh}{2\\pi}$; eliminating $v$: $r_n=\\dfrac{n^2h^2\\varepsilon_0}{\\pi me^2}$",
@@ -237,7 +242,8 @@
         "marks": 1
       }
     ],
-    "topic": "Bohr model"
+    "topic": "Bohr model",
+    "hint": "Two equations: centripetal force = Coulomb force, and mvr = nh/2π. Eliminate v for r; then E = K + U with K = −U/2."
   },
   {
     "id": "phy-w20261115-12-01",

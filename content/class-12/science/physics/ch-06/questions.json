@@ -134,7 +134,8 @@
         "model_answer": "**(C)** M depends on geometry: closer, aligned coils share more flux. The current does not change M."
       }
     ],
-    "topic": "Mutual induction"
+    "topic": "Mutual induction",
+    "model_answer": "*How much to write: 4 one-line answers · 4 minutes*\n\n**(i) (B) mutual induction.** A <u>changing current</u> in the pad coil changes the flux through the phone coil and induces an emf in it.\n\n**(ii) (B) 1 V.**\n\n$$\\varepsilon=M\\frac{dI}{dt}=5\\times10^{-5}\\times2\\times10^{4}$$\n\n$$\\boxed{\\varepsilon=1\\ \\text{V}}$$\n\n**(iii) (C) no emf.** A steady current gives a <u>steady flux</u>; <mark>only a changing flux induces an emf</mark>.\n\n**(iv) (C)** coils brought closer and aligned. M depends on <u>geometry</u> (turns, area, separation, alignment), not on the current.\n\n:::tip Your answer must contain\n- the option letter and a one-line reason for each part\n- $\\varepsilon=M\\,dI/dt$ with numbers in (ii)\n:::\n\n**Marks are lost for:** choosing \"self-induction\"; saying a larger current raises M."
   },
   {
     "id": "phy-06-q06",
@@ -145,7 +146,7 @@
     "stars": 3,
     "label": "PYQ-style",
     "stem": "State Lenz's law. Show that it follows from the law of conservation of energy.",
-    "model_answer": "Lenz's law: the induced current flows in a direction that opposes the change in magnetic flux producing it. [1]<br>\nIf the induced current aided the change (e.g. attracted an approaching N pole), the magnet would speed up by itself and the current would keep growing: energy from nothing. Since energy is conserved, the current must oppose, so work must be done, which appears as electrical energy. [1]",
+    "model_answer": "*How much to write: about 5 lines · 3 minutes*\n\n**Lenz's law:** the induced current flows in a direction that <u>opposes the change in magnetic flux</u> that produces it.\n\n**From energy conservation:** push a magnet's N pole towards a coil. Suppose the induced current made the near face an S pole. It would <u>attract</u> the magnet, which would speed up by itself, increasing the current further: <mark>energy from nothing, which is impossible</mark>.\n\nSo the near face must be an N pole that <u>repels</u> the magnet. We must do work to push it in, and that work appears as electrical energy in the coil.\n\n:::tip Your answer must contain\n- the statement with \"opposes the <u>change</u>\"\n- the \"what if it aided\" argument and the conclusion: work done = electrical energy\n:::\n\n**Marks are lost for:** \"opposes the flux\" (not the change in flux); no energy argument.",
     "scheme": [
       {
         "step": "Lenz's law: the induced current flows in a direction that opposes the change in magnetic flux producing it.",
@@ -166,7 +167,7 @@
     "stars": 3,
     "label": "PYQ-style",
     "stem": "Derive an expression for the mutual inductance of two long coaxial solenoids of the same length $l$, the inner of radius $r_1$ with $n_1$ turns per unit length and the outer with $n_2$ turns per unit length.",
-    "model_answer": "Diagram: inner solenoid $S_1$ inside outer $S_2$, length $l$. Current $I_2$ in $S_2$ gives $B_2=\\mu_0n_2I_2$ inside it. [1]<br>\nFlux linked with $S_1$: $N_1\\Phi_1=(n_1l)(\\pi r_1^2)(\\mu_0n_2I_2)$ [1]<br>\n$M=\\dfrac{N_1\\Phi_1}{I_2}=\\boxed{\\mu_0n_1n_2\\pi r_1^2l}$ (the same as $M_{21}$). [1]",
+    "model_answer": "*How much to write: about 6 lines with a small sketch · 5 minutes*\n\nInner solenoid $S_1$ (radius $r_1$, $n_1$ turns per metre) inside outer solenoid $S_2$ ($n_2$ turns per metre), both of length $l$.\n\nPass current $I_2$ through the <u>outer</u> solenoid. Its field fills the inner one:\n\n$$B_2=\\mu_0n_2I_2$$\n\nFlux linked with the $N_1=n_1l$ turns of $S_1$ (area $\\pi r_1^2$):\n\n$$N_1\\Phi_1=(n_1l)(\\pi r_1^2)(\\mu_0n_2I_2)$$\n\n$$M=\\frac{N_1\\Phi_1}{I_2}$$\n\n$$\\boxed{M=\\mu_0n_1n_2\\pi r_1^2\\,l}$$\n\n<mark>The same value comes out if the current is passed through the inner one (M₁₂ = M₂₁).</mark>\n\n:::tip Your answer must contain\n- current in the <u>outer</u> coil and $B_2=\\mu_0n_2I_2$\n- the area of the <u>inner</u> coil, $\\pi r_1^2$\n- the boxed result\n:::\n\n**Marks are lost for:** using the outer radius; leaving out $n_1l$ turns.",
     "scheme": [
       {
         "step": "Diagram: inner solenoid $S_1$ inside outer $S_2$, length $l$. Current $I_2$ in $S_2$ gives $B_2=\\mu_0n_2I_2$ inside it.",
@@ -193,7 +194,7 @@
     "stars": 2,
     "label": "PYQ-style",
     "stem": "A rod of length 0.4 m slides at a steady 10 m s⁻¹ along two rails joined by a 2 Ω resistor, in a uniform field of 0.5 T perpendicular to the plane of the rails. Find (i) the induced emf, (ii) the current, (iii) the force needed to keep the rod moving, and show that the power supplied equals the power dissipated.",
-    "model_answer": "(i) $\\varepsilon=Blv=0.5\\times0.4\\times10=\\boxed{2\\text{ V}}$; (ii) $I=\\varepsilon/R=\\boxed{1\\text{ A}}$ [1]<br>\n(iii) $F=IlB=1\\times0.4\\times0.5=\\boxed{0.2\\text{ N}}$ (equal and opposite to the magnetic force on the rod) [1]<br>\nPower supplied $Fv=0.2\\times10=2$ W; dissipated $I^2R=1\\times2=2$ W: equal. [1]",
+    "model_answer": "*How much to write: about 8 lines · 6 minutes*\n\n**Given:** $l=0.4$ m, $v=10$ m s⁻¹, $R=2\\ \\Omega$, $B=0.5$ T<br>\n**To find:** $\\varepsilon$, $I$, $F$; compare powers\n\n**(i)**\n\n$$\\varepsilon=Blv=0.5\\times0.4\\times10$$\n\n$$\\boxed{\\varepsilon=2\\ \\text{V}}$$\n\n**(ii)**\n\n$$I=\\frac{\\varepsilon}{R}=\\frac22$$\n\n$$\\boxed{I=1\\ \\text{A}}$$\n\n**(iii)** The field pushes back on the current with $IlB$; to keep $v$ steady we must apply an equal force:\n\n$$F=IlB=1\\times0.4\\times0.5$$\n\n$$\\boxed{F=0.2\\ \\text{N}}$$\n\n**Powers:**\n\n$$P_\\text{supplied}=Fv=0.2\\times10=2\\ \\text{W}$$\n\n$$P_\\text{dissipated}=I^2R=1^2\\times2=2\\ \\text{W}$$\n\n<mark>Equal: the mechanical work becomes heat in the resistor.</mark>\n\n:::tip Your answer must contain\n- $\\varepsilon=Blv$, $I=\\varepsilon/R$, $F=IlB$\n- both powers worked out and compared\n:::\n\n**Marks are lost for:** no unit on the force; comparing only one power.",
     "scheme": [
       {
         "step": "(i) $\\varepsilon=Blv=0.5\\times0.4\\times10=\\boxed{2\\text{ V}}$; (ii) $I=\\varepsilon/R=\\boxed{1\\text{ A}}$",
@@ -218,7 +219,7 @@
     "stars": 2,
     "label": "PYQ-style",
     "stem": "(a) Define self-inductance and its SI unit. Derive the self-inductance of a long solenoid of length $l$, cross-section $A$ and $N$ turns. [3]<br>(b) A solenoid of 500 turns, length 0.5 m and cross-section $4\\times10^{-4}$ m² carries 2 A. Find its self-inductance and the energy stored. [2]",
-    "model_answer": "(a) Self-inductance $L$: flux linkage per unit current, $N\\Phi=LI$ (equivalently $\\varepsilon=-L\\,dI/dt$). Unit: henry (Wb A⁻¹). [1]<br>\nField inside: $B=\\mu_0\\dfrac{N}{l}I$; flux linkage $N\\Phi=N\\cdot\\mu_0\\dfrac{N}{l}I\\cdot A$ [1]<br>\n$L=\\dfrac{N\\Phi}{I}=\\boxed{\\dfrac{\\mu_0N^2A}{l}}$ ($=\\mu_0n^2Al$) [1]<br>\n(b) $L=\\dfrac{4\\pi\\times10^{-7}\\times500^2\\times4\\times10^{-4}}{0.5}=\\boxed{2.5\\times10^{-4}\\text{ H}}$ [1]<br>\n$U=\\tfrac12LI^2=\\tfrac12\\times2.5\\times10^{-4}\\times2^2=\\boxed{5.0\\times10^{-4}\\text{ J}}$ [1]",
+    "model_answer": "*How much to write: about 10 lines · 8 minutes*\n\n**(a) Self-inductance** $L$: the <u>flux linkage per unit current</u> in a coil, $N\\Phi=LI$; equivalently the emf per unit rate of change of current, $\\varepsilon=-L\\,\\dfrac{dI}{dt}$. **SI unit:** henry (H) = Wb A⁻¹.\n\nLong solenoid, $N$ turns, length $l$, area $A$, current $I$:\n\n$$B=\\mu_0\\frac{N}{l}I$$\n\n$$N\\Phi=N\\cdot BA=\\mu_0\\frac{N^2A}{l}I$$\n\n$$\\boxed{L=\\frac{N\\Phi}{I}=\\frac{\\mu_0N^2A}{l}}$$\n\n<mark>L depends only on the coil's geometry (and the core), not on the current.</mark>\n\n**(b) Given:** $N=500$, $l=0.5$ m, $A=4\\times10^{-4}$ m², $I=2$ A<br>\n**To find:** $L$ and $U$\n\n$$L=\\frac{4\\pi\\times10^{-7}\\times500^2\\times4\\times10^{-4}}{0.5}$$\n\n$$\\boxed{L\\approx2.5\\times10^{-4}\\ \\text{H}}$$\n\n$$U=\\tfrac12LI^2=\\tfrac12\\times2.5\\times10^{-4}\\times2^2$$\n\n$$\\boxed{U\\approx5.0\\times10^{-4}\\ \\text{J}}$$\n\n:::tip Your answer must contain\n- the definition and the unit henry\n- $B=\\mu_0(N/l)I$, then flux linkage $N\\cdot BA$\n- (b) both answers with units\n:::\n\n**Marks are lost for:** $N$ instead of $N^2$; $U=LI^2$ (no ½).",
     "scheme": [
       {
         "step": "(a) Self-inductance $L$: flux linkage per unit current, $N\\Phi=LI$ (equivalently $\\varepsilon=-L\\,dI/dt$). Unit: henry (Wb A⁻¹).",
@@ -241,7 +242,8 @@
         "marks": 1
       }
     ],
-    "topic": "Self-inductance"
+    "topic": "Self-inductance",
+    "hint": "L = NΦ/I. Inside a long solenoid B = μ₀(N/l)I, and the flux through each turn is BA."
   },
   {
     "id": "phy-w20261115-06-01",

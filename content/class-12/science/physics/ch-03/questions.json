@@ -187,7 +187,9 @@
         "model_answer": "**(C)** $\\mu=e\\tau/m\\propto\\tau$."
       }
     ],
-    "topic": "Drift velocity"
+    "topic": "Drift velocity",
+    "hint": "v_d = I/(neA). Drift speed is tiny, yet the field travels along the wire almost at the speed of light.",
+    "model_answer": "*How much to write: 4 one-line answers: option letter + reason · 4 minutes*\n\n**(i) (A) $1.25\\times10^{-4}$ m/s.**\n\n$$v_d=\\frac{I}{neA}$$\n\nHere $neA=8.5\\times10^{28}\\times1.6\\times10^{-19}\\times2\\times10^{-6}=2.72\\times10^{4}$ C m⁻¹.\n\n$$v_d=\\frac{3.4}{2.72\\times10^{4}}$$\n\n$$v_d=1.25\\times10^{-4}\\ \\text{m s}^{-1}$$\n\n**(ii) (C) double.** At fixed I, $v_d\\propto1/A$.\n\n**(iii) (B)** <mark>the electric field is set up along the wire almost at the speed of light</mark>, so electrons everywhere start drifting together.\n\n**(iv) (C) double.** Mobility $\\mu=e\\tau/m\\propto\\tau$.\n\n:::tip Your answer must contain\n- the option letter for each part\n- a one-line reason or the working for every numerical part\n:::\n\n**Marks are lost for:** saying electrons move at the speed of light; halving in (ii)."
   },
   {
     "id": "phy-03-q09",
@@ -197,7 +199,7 @@
     "stars": 3,
     "label": "PYQ-style",
     "stem": "Derive the relation $I=neAv_d$ between current and drift velocity.",
-    "model_answer": "Conductor of area $A$ with $n$ free electrons per m³ drifting at $v_d$. In time $\\Delta t$, electrons within a length $v_d\\Delta t$ cross a section: number $=nAv_d\\Delta t$. [1]<br>\nCharge $\\Delta q=neAv_d\\Delta t$, so $I=\\Delta q/\\Delta t=\\boxed{neAv_d}$. [1]",
+    "model_answer": "*How much to write: 3–4 lines with a small sketch of the wire · 3 minutes*\n\nTake a conductor of cross-section $A$ with $n$ free electrons per m³, drifting at $v_d$.\n\nIn time $\\Delta t$, every electron within a length $v_d\\Delta t$ behind a cross-section crosses it. Number crossing:\n\n$$N=nAv_d\\Delta t$$\n\nCharge crossing:\n\n$$\\Delta q=neAv_d\\Delta t$$\n\n$$\\boxed{I=\\frac{\\Delta q}{\\Delta t}=neAv_d}$$\n\n<mark>Current is proportional to the drift speed.</mark>\n\n:::tip Your answer must contain\n- the <u>cylinder of length $v_d\\Delta t$</u> idea\n- number of electrons, then charge, then $I=\\Delta q/\\Delta t$\n:::\n\n**Marks are lost for:** writing the result without the counting step.",
     "scheme": [
       {
         "step": "Conductor of area $A$ with $n$ free electrons per m³ drifting at $v_d$. In time $\\Delta t$, electrons within a length $v_d\\Delta t$ cross a section: number $=nAv_d\\Delta t$.",
@@ -219,7 +221,7 @@
     "stars": 2,
     "label": "PYQ-style",
     "stem": "Cells of emf 1.5 V and 2.0 V, with internal resistances 1 Ω and 2 Ω, are connected in parallel (positive to positive). Find the emf and internal resistance of the equivalent cell.",
-    "model_answer": "$\\varepsilon_\\text{eq}=\\dfrac{\\varepsilon_1r_2+\\varepsilon_2r_1}{r_1+r_2}$, $r_\\text{eq}=\\dfrac{r_1r_2}{r_1+r_2}$ [1]<br>\n$\\varepsilon_\\text{eq}=\\dfrac{1.5\\times2+2\\times1}{3}=\\boxed{1.67\\text{ V}}$ [½]<br>\n$r_\\text{eq}=\\dfrac{2}{3}=\\boxed{0.67\\ \\Omega}$ [½]",
+    "model_answer": "*How much to write: about 5 lines, two boxed answers · 3 minutes*\n\n**Given:** $\\varepsilon_1=1.5$ V, $r_1=1\\ \\Omega$; $\\varepsilon_2=2.0$ V, $r_2=2\\ \\Omega$, in parallel<br>\n**To find:** $\\varepsilon_\\text{eq}$ and $r_\\text{eq}$\n\n**Formula:**\n\n$$\\varepsilon_\\text{eq}=\\frac{\\varepsilon_1r_2+\\varepsilon_2r_1}{r_1+r_2}$$\n\n$$r_\\text{eq}=\\frac{r_1r_2}{r_1+r_2}$$\n\n**Solution:**\n\n$$\\varepsilon_\\text{eq}=\\frac{1.5\\times2+2.0\\times1}{1+2}=\\frac{5}{3}$$\n\n$$\\boxed{\\varepsilon_\\text{eq}\\approx1.67\\ \\text{V}}$$\n\n$$r_\\text{eq}=\\frac{1\\times2}{1+2}$$\n\n$$\\boxed{r_\\text{eq}\\approx0.67\\ \\Omega}$$\n\nThe equivalent emf lies <u>between</u> the two emfs, and <mark>the internal resistance is smaller than either</mark>: that is why cells are put in parallel to draw a larger current.\n\n:::tip Your answer must contain\n- both <u>formulas</u> written before the numbers\n- $\\varepsilon_\\text{eq}$ with unit V and $r_\\text{eq}$ with unit Ω\n:::\n\n**Marks are lost for:** adding the emfs (3.5 V) as if in series; writing $r_1+r_2$ for the internal resistance; dropping units.",
     "scheme": [
       {
         "step": "$\\varepsilon_\\text{eq}=\\dfrac{\\varepsilon_1r_2+\\varepsilon_2r_1}{r_1+r_2}$, $r_\\text{eq}=\\dfrac{r_1r_2}{r_1+r_2}$",
@@ -234,7 +236,8 @@
         "marks": 0.5
       }
     ],
-    "topic": "Combination of cells"
+    "topic": "Combination of cells",
+    "hint": "Cells in parallel share one terminal voltage. Use the parallel-cells formulas for ε_eq and r_eq."
   },
   {
     "id": "phy-03-q11",
@@ -244,7 +247,7 @@
     "stars": 3,
     "label": "PYQ-style",
     "stem": "Three branches join junctions $A$ (top) and $B$ (bottom). Left branch: a 12 V cell and a 2 Ω resistor. Middle branch: a 4 Ω resistor. Right branch: a 6 V cell and a 2 Ω resistor. The positive terminals of both cells face $A$. Use Kirchhoff's rules to find the current in each branch. Is the 6 V cell charging or discharging?",
-    "model_answer": "Let $I_1$ flow up the 12 V branch, $I_3$ up the 6 V branch and $I_2$ down the 4 Ω. Junction $A$: $I_2=I_1+I_3$. [½]<br>\nLeft loop: $12-2I_1-4I_2=0$; right loop: $6-2I_3-4I_2=0$. [1]<br>\nSolving: $I_1=2.4$ A, $I_2=1.8$ A, $I_3=-0.6$ A. [1]<br>\n$I_3$ is negative: 0.6 A flows down through the 6 V cell, from its + to its − terminal inside it, so the 6 V cell is being **charged**. [½]",
+    "model_answer": "*How much to write: about 8 lines with the circuit and current arrows · 6 minutes*\n\n**Assume:** $I_1$ up the 12 V branch, $I_3$ up the 6 V branch, $I_2$ down the 4 Ω branch.\n\n**Junction A:**\n\n$$I_2=I_1+I_3$$\n\n**Left loop** (12 V, 2 Ω, 4 Ω):\n\n$$12-2I_1-4I_2=0$$\n\n**Right loop** (6 V, 2 Ω, 4 Ω):\n\n$$6-2I_3-4I_2=0$$\n\n**Solving:**\n\n$$\\boxed{I_1=2.4\\ \\text{A}}$$\n\n$$\\boxed{I_2=1.8\\ \\text{A}}$$\n\n$$\\boxed{I_3=-0.6\\ \\text{A}}$$\n\n$I_3$ is negative: 0.6 A actually flows <u>down</u> through the 6 V cell, entering at its + terminal. <mark>So the 6 V cell is being charged.</mark>\n\n:::tip Your answer must contain\n- assumed directions marked on a diagram\n- one junction and two loop equations\n- the meaning of the <u>negative sign</u>\n:::\n\n**Marks are lost for:** a sign slip in a loop equation; reporting −0.6 A without saying what it means.",
     "scheme": [
       {
         "step": "Let $I_1$ flow up the 12 V branch, $I_3$ up the 6 V branch and $I_2$ down the 4 Ω. Junction $A$: $I_2=I_1+I_3$.",
@@ -274,7 +277,7 @@
     "stars": 2,
     "label": "PYQ-style",
     "stem": "Starting from the drift velocity of electrons, show that the resistivity of a conductor is $\\rho=\\dfrac{m}{ne^2\\tau}$. How does $\\rho$ of a metal change with temperature, and why?",
-    "model_answer": "Between collisions $a=-\\dfrac{eE}{m}$; averaging over the relaxation time, $v_d=-\\dfrac{eE\\tau}{m}$. [1]<br>\n$I=neAv_d=\\dfrac{ne^2A\\tau}{m}E$ with $E=V/l$. [½]<br>\n$V=\\dfrac{ml}{ne^2\\tau A}I$, so $R=\\dfrac{m}{ne^2\\tau}\\cdot\\dfrac{l}{A}$. [½]<br>\nCompare with $R=\\rho l/A$: $\\boxed{\\rho=\\dfrac{m}{ne^2\\tau}}$ [½]<br>\nMetal: $n$ hardly changes, but collisions become more frequent as $T$ rises, so $\\tau$ falls and $\\rho$ rises. [½]",
+    "model_answer": "*How much to write: about 9 lines · 7 minutes*\n\nBetween collisions an electron accelerates:\n\n$$a=-\\frac{eE}{m}$$\n\nAveraged over the <u>relaxation time</u> τ, the drift velocity is\n\n$$v_d=-\\frac{eE\\tau}{m}$$\n\nCurrent through area $A$, with $E=V/l$:\n\n$$I=neA|v_d|=\\frac{ne^2A\\tau}{m}\\cdot\\frac{V}{l}$$\n\n$$V=\\left(\\frac{m}{ne^2\\tau}\\right)\\frac{l}{A}\\,I$$\n\nCompare with $V=IR$ and $R=\\rho\\,l/A$:\n\n$$\\boxed{\\rho=\\frac{m}{ne^2\\tau}}$$\n\n**Effect of temperature (metal):** $n$ hardly changes, but as T rises the ions vibrate more, collisions become more frequent, <mark>τ falls, so ρ rises</mark>.\n\n:::tip Your answer must contain\n- $v_d=eE\\tau/m$ with τ named as relaxation time\n- $I=neAv_d$ used, then comparison with $R=\\rho l/A$\n- the temperature reason in terms of τ\n:::\n\n**Marks are lost for:** saying n falls with temperature in a metal; skipping the comparison step.",
     "scheme": [
       {
         "step": "Between collisions $a=-\\dfrac{eE}{m}$; averaging over the relaxation time, $v_d=-\\dfrac{eE\\tau}{m}$.",
@@ -297,7 +300,8 @@
         "marks": 0.5
       }
     ],
-    "topic": "Resistivity"
+    "topic": "Resistivity",
+    "hint": "Find v_d from a = eE/m acting for a time τ, put it into I = neAv_d, and compare V = IR with R = ρl/A."
   },
   {
     "id": "phy-03-q13",
@@ -307,7 +311,7 @@
     "stars": 3,
     "label": "PYQ-style",
     "stem": "(a) State Kirchhoff's two rules. Use them to derive the balance condition of a Wheatstone bridge. Draw the circuit. [3]<br>(b) A Wheatstone bridge has $P=10\\ \\Omega$, $Q=15\\ \\Omega$, $R=6\\ \\Omega$ and $S=12\\ \\Omega$. What resistance must be joined in parallel with $S$ to balance the bridge? [2]",
-    "model_answer": "(a) Junction rule: currents entering a junction add up to the currents leaving it (charge conservation). Loop rule: the algebraic sum of potential changes round a closed loop is zero (energy conservation). [1]<br>\nBridge $ABCD$: $P$ in $AB$, $Q$ in $BC$, $R$ in $AD$, $S$ in $DC$; galvanometer between $B$ and $D$; cell across $A$ and $C$ (diagram). [½]<br>\nAt balance $I_g=0$, so $I_1$ flows through $P$ and $Q$ and $I_2$ through $R$ and $S$. Loop $ABDA$: $-I_1P+I_2R=0$; loop $BCDB$: $-I_1Q+I_2S=0$. [1]<br>\nDividing: $\\boxed{\\dfrac{P}{Q}=\\dfrac{R}{S}}$ [½]<br>\n(b) Balance needs $S'=\\dfrac{RQ}{P}=\\dfrac{6\\times15}{10}=9\\ \\Omega$. [1]<br>\n$\\dfrac{12x}{12+x}=9\\Rightarrow12x=108+9x\\Rightarrow\\boxed{x=36\\ \\Omega}$ [1]",
+    "model_answer": "*How much to write: about 14 lines with the bridge diagram · 10 minutes*\n\n**(a) Kirchhoff's rules**\n\n- **Junction rule:** the currents entering a junction add up to the currents leaving it (<u>conservation of charge</u>).\n- **Loop rule:** the algebraic sum of the potential changes round any closed loop is zero (<u>conservation of energy</u>).\n\n**Wheatstone bridge:** $P$ in AB, $Q$ in BC, $R$ in AD, $S$ in DC; galvanometer between B and D; cell across A and C.\n\n<figure class=\"fig\">\n<svg viewBox=\"0 0 300 200\" role=\"img\" aria-label=\"Wheatstone bridge with resistances P, Q, R, S and galvanometer G\" font-family=\"sans-serif\" font-size=\"12.5\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><g transform=\"translate(100,60) rotate(-35)\"><path d=\"M-61,0L-13,0\"/><path d=\"M-13,0L-10.8,-5L-6.5,5L-2.2,-5L2.2,5L6.5,-5L10.8,5L13,0\"/><path d=\"M13,0L61,0\"/></g><g transform=\"translate(200,60) rotate(35)\"><path d=\"M-61,0L-13,0\"/><path d=\"M-13,0L-10.8,-5L-6.5,5L-2.2,-5L2.2,5L6.5,-5L10.8,5L13,0\"/><path d=\"M13,0L61,0\"/></g><g transform=\"translate(100,130) rotate(35)\"><path d=\"M-61,0L-13,0\"/><path d=\"M-13,0L-10.8,-5L-6.5,5L-2.2,-5L2.2,5L6.5,-5L10.8,5L13,0\"/><path d=\"M13,0L61,0\"/></g><g transform=\"translate(200,130) rotate(-35)\"><path d=\"M-61,0L-13,0\"/><path d=\"M-13,0L-10.8,-5L-6.5,5L-2.2,-5L2.2,5L6.5,-5L10.8,5L13,0\"/><path d=\"M13,0L61,0\"/></g><g transform=\"translate(150,95) rotate(90)\"><path d=\"M-70,0L-10,0\"/><circle cx=\"0\" cy=\"0\" r=\"10\"/><path d=\"M10,0L70,0\"/></g><path d=\"M50,95L18,95\"/><path d=\"M18,95L18,192\"/><path d=\"M18,192L60,192\"/><g transform=\"translate(77.5,192) rotate(0)\"><path d=\"M-17.5,0L-3,0\"/><path d=\"M-3,-5L-3,5\" stroke-width=\"2.6\"/><path d=\"M3,-11L3,11\"/><path d=\"M3,0L17.5,0\"/></g><path d=\"M95,192L282,192\"/><path d=\"M282,192L282,95\"/><path d=\"M282,95L250,95\"/><g fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\"><text x=\"150\" y=\"99\" font-size=\"11\">G</text><text x=\"42\" y=\"88\" text-anchor=\"end\">A</text><text x=\"150\" y=\"16\">B</text><text x=\"258\" y=\"88\" text-anchor=\"start\">C</text><text x=\"160\" y=\"178\" text-anchor=\"start\">D</text><text x=\"88\" y=\"52\" text-anchor=\"end\" font-style=\"italic\">P</text><text x=\"212\" y=\"52\" text-anchor=\"start\" font-style=\"italic\">Q</text><text x=\"88\" y=\"144\" text-anchor=\"end\" font-style=\"italic\">R</text><text x=\"212\" y=\"144\" text-anchor=\"start\" font-style=\"italic\">S</text></g></svg>\n<figcaption>Wheatstone bridge: arms P, Q, R, S, galvanometer G across BD, cell across AC.</figcaption>\n</figure>\n\nAt balance $I_g=0$, so the same $I_1$ flows through $P$ and $Q$, and the same $I_2$ through $R$ and $S$.\n\nLoop ABDA:\n\n$$-I_1P+I_2R=0$$\n\nLoop BCDB:\n\n$$-I_1Q+I_2S=0$$\n\nDividing:\n\n$$\\boxed{\\frac{P}{Q}=\\frac{R}{S}}$$\n\n**(b) Given:** $P=10\\ \\Omega$, $Q=15\\ \\Omega$, $R=6\\ \\Omega$, $S=12\\ \\Omega$<br>\n**To find:** $x$ in parallel with $S$ for balance\n\n$$S'=\\frac{RQ}{P}=\\frac{6\\times15}{10}=9\\ \\Omega$$\n\n$$\\frac{12x}{12+x}=9$$\n\n$$12x=108+9x$$\n\n$$\\boxed{x=36\\ \\Omega}$$\n\n<mark>A parallel resistor lowers S from 12 Ω to the 9 Ω needed.</mark>\n\n:::tip Your answer must contain\n- both rules with what each <u>conserves</u>\n- a labelled bridge diagram\n- $I_g=0$ stated, two loop equations, the boxed condition\n- (b) the required S′ first, then the parallel step\n:::\n\n**Marks are lost for:** no diagram; skipping \"$I_g=0$\"; adding 3 Ω in series (series raises S).",
     "scheme": [
       {
         "step": "(a) Junction rule: currents entering a junction add up to the currents leaving it (charge conservation). Loop rule: the algebraic sum of potential changes round a closed loop is zero (energy conservation).",

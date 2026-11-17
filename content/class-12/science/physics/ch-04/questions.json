@@ -134,7 +134,8 @@
         "model_answer": "**(C)** $T=2\\pi m/qB$ has no $v$ in it."
       }
     ],
-    "topic": "Charge in a magnetic field"
+    "topic": "Charge in a magnetic field",
+    "model_answer": "*How much to write: 4 one-line answers: option letter + reason · 4 minutes*\n\n**(i) (B) $2\\times10^{5}$ m s⁻¹.** Undeflected: $qE=qvB$, so\n\n$$v=\\frac{E}{B}=\\frac{2\\times10^4}{0.1}=2\\times10^5\\ \\text{m s}^{-1}$$\n\n**(ii) (C) 0.4 m.**\n\n$$r=\\frac{mv}{qB}=\\frac{3.2\\times10^{-26}\\times2\\times10^5}{1.6\\times10^{-19}\\times0.1}$$\n\n$$r=0.4\\ \\text{m}$$\n\n**(iii) (C) 0.2 m.** $r\\propto1/q$: double charge, half radius.\n\n**(iv) (C) speed.** <mark>T = 2πm/(qB) has no v in it.</mark>\n\n:::tip Your answer must contain\n- the option letter for each part\n- a one-line reason or the working for every numerical part\n:::\n\n**Marks are lost for:** $v=B/E$; 0.8 m in (iii)."
   },
   {
     "id": "phy-04-q06",
@@ -145,7 +146,7 @@
     "stars": 2,
     "label": "PYQ-style",
     "stem": "Two long parallel wires 10 cm apart carry currents of 5 A and 10 A in the same direction. Find the force per metre on each wire and state whether it is attractive or repulsive.",
-    "model_answer": "$\\dfrac FL=\\dfrac{\\mu_0I_1I_2}{2\\pi d}$ [½]<br>\n$=\\dfrac{4\\pi\\times10^{-7}\\times5\\times10}{2\\pi\\times0.1}$ [½]<br>\n$=\\boxed{1\\times10^{-4}\\text{ N m}^{-1}}$ [½]<br>\nCurrents in the same direction: **attractive**. [½]",
+    "model_answer": "*How much to write: 4 short lines · 3 minutes*\n\n**Given:** $I_1=5$ A, $I_2=10$ A, $d=0.1$ m, same direction<br>\n**To find:** force per metre and its nature\n\n**Formula:**\n\n$$\\frac{F}{l}=\\frac{\\mu_0I_1I_2}{2\\pi d}$$\n\n**Solution:**\n\n$$\\frac{F}{l}=\\frac{4\\pi\\times10^{-7}\\times5\\times10}{2\\pi\\times0.1}$$\n\n$$\\boxed{\\frac{F}{l}=1\\times10^{-4}\\ \\text{N m}^{-1}}$$\n\n<mark>Currents in the same direction attract.</mark> The force on each wire is the same (Newton's third law).\n\n:::tip Your answer must contain\n- d in metres\n- the value with unit N m⁻¹ and the word <u>attractive</u>\n:::\n\n**Marks are lost for:** d = 10 in the formula; \"repulsive\".",
     "scheme": [
       {
         "step": "$\\dfrac FL=\\dfrac{\\mu_0I_1I_2}{2\\pi d}$",
@@ -174,7 +175,7 @@
     "stars": 3,
     "label": "PYQ-style",
     "stem": "Using the Biot–Savart law, derive an expression for the magnetic field at a point on the axis of a circular loop of radius $R$ carrying current $I$, at distance $x$ from its centre. Write the field at the centre.",
-    "model_answer": "Diagram: loop, element $d\\vec l$, point P on the axis, $r=\\sqrt{R^2+x^2}$; $d\\vec l\\perp\\hat r$. [½]<br>\nBiot–Savart: $dB=\\dfrac{\\mu_0}{4\\pi}\\dfrac{I\\,dl}{R^2+x^2}$ [½]<br>\nComponents perpendicular to the axis cancel in pairs; axial components $dB\\sin\\phi$ add, with $\\sin\\phi=\\dfrac{R}{\\sqrt{R^2+x^2}}$. [1]<br>\n$B=\\dfrac{\\mu_0IR}{4\\pi(R^2+x^2)^{3/2}}\\oint dl=\\boxed{\\dfrac{\\mu_0IR^2}{2(R^2+x^2)^{3/2}}}$ along the axis; at the centre $B=\\dfrac{\\mu_0I}{2R}$. [1]",
+    "model_answer": "*How much to write: about 9 lines with a labelled sketch · 7 minutes*\n\nLoop of radius $R$, current $I$; point P on the axis at distance $x$ from the centre. Every element $d\\vec l$ is perpendicular to the line joining it to P, of length $r=\\sqrt{R^2+x^2}$.\n\n<figure class=\"fig\">\n<svg viewBox=\"0 0 400 176\" role=\"img\" aria-label=\"Field on the axis of a circular current loop\" font-family=\"sans-serif\" font-size=\"12.5\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><ellipse class=\"u\" cx=\"80\" cy=\"110\" rx=\"16\" ry=\"62\" fill=\"none\"/><path class=\"uf\" d=\"M78,48L83.5,45.6L83.5,50.4Z\" stroke=\"none\"/><path d=\"M80,110L380,110\" stroke-dasharray=\"4 3\"/><circle cx=\"80\" cy=\"110\" r=\"2.2\" fill=\"currentColor\"/><path d=\"M80,48L230,110\" stroke-dasharray=\"4 3\"/><path d=\"M80,110L80,48\" stroke-width=\"1\"/><circle cx=\"230\" cy=\"110\" r=\"2.2\" fill=\"currentColor\"/><path d=\"M80,140L230,140\"/><path d=\"M230,140L226.3,141.6L226.3,138.4Z\" fill=\"currentColor\" stroke=\"none\"/><path d=\"M80,140L83.7,138.4L83.7,141.6Z\" fill=\"currentColor\" stroke=\"none\"/><path d=\"M230,110L256.7,45.3\" stroke=\"#E0B400\" stroke-width=\"2\"/><path d=\"M256.7,45.3L256.9,51.3L252.4,49.4Z\" fill=\"#E0B400\" stroke=\"none\"/><path class=\"u\" d=\"M230,110L256.7,110\" stroke-width=\"2.4\"/><path class=\"uf\" d=\"M256.7,110L251.3,112.4L251.3,107.6Z\" stroke=\"none\"/><path d=\"M256.7,45.3L256.7,110\" stroke-width=\"1\" stroke-dasharray=\"4 3\"/><path d=\"M230,110L230,45.3\" stroke-width=\"1\" stroke-dasharray=\"4 3\"/><g fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\"><text x=\"72\" y=\"42\" text-anchor=\"end\" font-style=\"italic\">I</text><text x=\"74\" y=\"126\" text-anchor=\"end\">O</text><text x=\"150\" y=\"66\" font-style=\"italic\">r</text><text x=\"86\" y=\"80\" text-anchor=\"start\" font-style=\"italic\">R</text><text x=\"230\" y=\"128\">P</text><text x=\"155\" y=\"154\" font-style=\"italic\">x</text><text x=\"262.7\" y=\"45.3\" text-anchor=\"start\">dB</text><text x=\"226\" y=\"49.3\" text-anchor=\"end\" font-size=\"11\">cancels round the loop</text><text class=\"uf\" x=\"262.7\" y=\"104\" text-anchor=\"start\" font-size=\"11\">adds</text></g></svg>\n<figcaption>Field on the axis: perpendicular parts cancel in pairs, axial parts add.</figcaption>\n</figure>\n\n**Biot–Savart:**\n\n$$dB=\\frac{\\mu_0}{4\\pi}\\frac{I\\,dl}{R^2+x^2}$$\n\nElements on opposite sides give <u>perpendicular components that cancel</u>; the <u>axial components add</u>:\n\n$$dB_x=dB\\sin\\phi,\\quad\\sin\\phi=\\frac{R}{\\sqrt{R^2+x^2}}$$\n\n$$B=\\frac{\\mu_0IR}{4\\pi(R^2+x^2)^{3/2}}\\oint dl$$\n\nWith $\\oint dl=2\\pi R$:\n\n$$\\boxed{B=\\frac{\\mu_0IR^2}{2(R^2+x^2)^{3/2}}}$$\n\nalong the axis. **At the centre** ($x=0$): <mark>B = μ₀I/(2R)</mark>.\n\n:::tip Your answer must contain\n- a sketch with $d\\vec l$, $r$, $x$, $R$ and the angle\n- the cancellation argument for the perpendicular parts\n- the boxed result and the field at the centre\n:::\n\n**Marks are lost for:** integrating dB without resolving it; leaving out the centre result.",
     "scheme": [
       {
         "step": "Diagram: loop, element $d\\vec l$, point P on the axis, $r=\\sqrt{R^2+x^2}$; $d\\vec l\\perp\\hat r$.",
@@ -204,7 +205,7 @@
     "stars": 2,
     "label": "PYQ-style",
     "stem": "A rectangular coil of 50 turns, 4 cm × 5 cm, carries 2 A in a uniform field of 0.2 T. Find (i) its magnetic moment, (ii) the maximum torque on it, (iii) the torque when its normal makes $30^\\circ$ with the field.",
-    "model_answer": "(i) $m=NIA=50\\times2\\times(0.04\\times0.05)=\\boxed{0.2\\text{ A m}^2}$ [1]<br>\n(ii) $\\tau_\\text{max}=mB=0.2\\times0.2=\\boxed{0.04\\text{ N m}}$ (normal perpendicular to B) [1]<br>\n(iii) $\\tau=mB\\sin30^\\circ=0.04\\times\\tfrac12=\\boxed{0.02\\text{ N m}}$ [1]",
+    "model_answer": "*How much to write: about 6 lines · 5 minutes*\n\n**Given:** $N=50$, $A=4\\times5=20\\ \\text{cm}^2=2\\times10^{-3}\\ \\text{m}^2$, $I=2$ A, $B=0.2$ T<br>\n**To find:** $m$, $\\tau_\\text{max}$, $\\tau$ at $30^\\circ$\n\n**Formula:** $m=NIA$, $\\quad\\tau=mB\\sin\\theta$ (θ between the <u>normal</u> and $\\vec B$)\n\n**(i)**\n\n$$m=50\\times2\\times2\\times10^{-3}$$\n\n$$\\boxed{m=0.2\\ \\text{A m}^2}$$\n\n**(ii)** Maximum when the normal is perpendicular to B ($\\theta=90^\\circ$):\n\n$$\\tau_\\text{max}=mB=0.2\\times0.2$$\n\n$$\\boxed{\\tau_\\text{max}=0.04\\ \\text{N m}}$$\n\n**(iii)**\n\n$$\\tau=mB\\sin30^\\circ=0.04\\times\\tfrac12$$\n\n$$\\boxed{\\tau=0.02\\ \\text{N m}}$$\n\n:::tip Your answer must contain\n- the area converted to <mark>m² (2 × 10⁻³ m²)</mark>\n- θ taken between the normal and B\n- units A m² and N m\n:::\n\n**Marks are lost for:** leaving the area in cm²; using cos 30° (angle with the plane taken as the angle with the normal).",
     "scheme": [
       {
         "step": "(i) $m=NIA=50\\times2\\times(0.04\\times0.05)=\\boxed{0.2\\text{ A m}^2}$",
@@ -231,7 +232,7 @@
     "stars": 3,
     "label": "PYQ-style",
     "stem": "(a) Explain the principle and working of a moving coil galvanometer with a labelled diagram. Why is a radial field used? Obtain an expression for its current sensitivity. [3]<br>(b) A galvanometer of resistance 20 Ω gives full-scale deflection at 5 mA. How can it be converted into an ammeter of range 0–5 A? [2]",
-    "model_answer": "(a) Labelled diagram: coil on a soft-iron core between concave pole pieces, spring/suspension, pointer. [1]<br>\nPrinciple: a current loop in a magnetic field feels a torque. Concave poles and the core make the field radial, so the coil's plane is always along B and the deflecting torque is $NIAB$ at every angle. Equilibrium: $NIAB=k\\phi$. [1]<br>\n$\\phi=\\dfrac{NAB}{k}I$, so current sensitivity $\\boxed{\\dfrac{\\phi}{I}=\\dfrac{NAB}{k}}$ [1]<br>\n(b) Shunt $S=\\dfrac{I_gG}{I-I_g}=\\dfrac{5\\times10^{-3}\\times20}{5-0.005}$ [1]<br>\n$\\approx\\boxed{0.02\\ \\Omega}$, connected **in parallel** with the galvanometer. [1]",
+    "model_answer": "*How much to write: about 12 lines with a labelled diagram · 9 minutes*\n\n**(a) Principle:** a current-carrying coil in a magnetic field experiences a <u>torque</u>.\n\n<figure class=\"fig\">\n<svg viewBox=\"0 0 340 195\" role=\"img\" aria-label=\"Moving coil galvanometer: concave pole pieces and soft iron core give a radial field\" font-family=\"sans-serif\" font-size=\"12.5\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path class=\"u\" d=\"M40,40 L110,40 A60,60 0 0 0 110,160 L40,160 Z\"/><path class=\"u\" d=\"M300,40 L230,40 A60,60 0 0 1 230,160 L300,160 Z\"/><circle cx=\"170\" cy=\"100\" r=\"34\"/><path d=\"M121.9,64.2L141.1,78.5\"/><path d=\"M141.1,78.5L137.2,77.6L139.2,75Z\" fill=\"currentColor\" stroke=\"none\"/><path d=\"M198.9,78.5L218.1,64.2\"/><path d=\"M218.1,64.2L216.2,67.7L214.2,65Z\" fill=\"currentColor\" stroke=\"none\"/><path d=\"M113,81.1L135.8,88.7\"/><path d=\"M135.8,88.7L131.8,89.1L132.9,86Z\" fill=\"currentColor\" stroke=\"none\"/><path d=\"M204.2,88.7L227,81.1\"/><path d=\"M227,81.1L224,83.8L223,80.7Z\" fill=\"currentColor\" stroke=\"none\"/><path d=\"M110,100L134,100\"/><path d=\"M134,100L130.3,101.6L130.3,98.4Z\" fill=\"currentColor\" stroke=\"none\"/><path d=\"M206,100L230,100\"/><path d=\"M230,100L226.3,101.6L226.3,98.4Z\" fill=\"currentColor\" stroke=\"none\"/><path d=\"M113,118.9L135.8,111.3\"/><path d=\"M135.8,111.3L132.9,114L131.8,110.9Z\" fill=\"currentColor\" stroke=\"none\"/><path d=\"M204.2,111.3L227,118.9\"/><path d=\"M227,118.9L223,119.3L224,116.2Z\" fill=\"currentColor\" stroke=\"none\"/><path d=\"M121.9,135.8L141.1,121.5\"/><path d=\"M141.1,121.5L139.2,125L137.2,122.4Z\" fill=\"currentColor\" stroke=\"none\"/><path d=\"M198.9,121.5L218.1,135.8\"/><path d=\"M218.1,135.8L214.2,135L216.2,132.3Z\" fill=\"currentColor\" stroke=\"none\"/><path d=\"M122,70L122,130\" stroke=\"#E0B400\" stroke-width=\"3\"/><path d=\"M218,70L218,130\" stroke=\"#E0B400\" stroke-width=\"3\"/><g fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\"><text x=\"70\" y=\"104\" font-weight=\"bold\">N</text><text x=\"270\" y=\"104\" font-weight=\"bold\">S</text><text x=\"170\" y=\"104\" font-size=\"11\">soft iron</text><text x=\"122\" y=\"62\" font-size=\"11\">coil</text><text x=\"170\" y=\"188\" font-size=\"11\">radial field: B ∥ plane of coil in every position</text></g></svg>\n<figcaption>Moving coil galvanometer: concave pole pieces and a soft-iron core give a radial field.</figcaption>\n</figure>\n\n**Working:** the coil ($N$ turns, area $A$) hangs between <u>concave pole pieces</u> round a soft-iron core. This makes the field <u>radial</u>: the plane of the coil is always along $\\vec B$, so the deflecting torque is $NIAB$ at every angle.\n\nThe spring gives a restoring torque $k\\phi$. At equilibrium:\n\n$$NIAB=k\\phi$$\n\n$$\\phi=\\frac{NAB}{k}\\,I$$\n\n**Why radial:** <mark>it makes the deflection proportional to the current (φ ∝ I), so the scale is linear.</mark>\n\n**Current sensitivity:**\n\n$$\\boxed{\\frac{\\phi}{I}=\\frac{NAB}{k}}$$\n\n**(b) Given:** $G=20\\ \\Omega$, $I_g=5$ mA, $I=5$ A<br>\n**To find:** the shunt $S$\n\n$$S=\\frac{I_gG}{I-I_g}=\\frac{5\\times10^{-3}\\times20}{5-0.005}$$\n\n$$\\boxed{S\\approx0.02\\ \\Omega}$$\n\njoined <u>in parallel</u> with the galvanometer.\n\n:::tip Your answer must contain\n- a labelled diagram: coil, concave poles, soft-iron core, spring, pointer\n- why the field is radial (torque $NIAB$ at every angle, φ ∝ I)\n- $NIAB=k\\phi$ and the boxed sensitivity\n- (b) a <u>low resistance in parallel</u>, with value\n:::\n\n**Marks are lost for:** a shunt in series; $NIAB\\sin\\theta$ for a radial field; no reason for the radial field.",
     "scheme": [
       {
         "step": "(a) Labelled diagram: coil on a soft-iron core between concave pole pieces, spring/suspension, pointer.",
@@ -255,5 +256,39 @@
       }
     ],
     "topic": "Galvanometer"
+  },
+  {
+    "id": "phy-w20261117-04-01",
+    "chapter": "ch-04",
+    "type": "la5",
+    "marks": 5,
+    "stars": 3,
+    "label": "PYQ-style",
+    "topic": "Force between parallel currents",
+    "stem": "(a) Derive an expression for the force per unit length between two long straight parallel conductors carrying currents $I_1$ and $I_2$, a distance $d$ apart. Show that like currents attract. Hence define one ampere. [3]<br>(b) Two long parallel wires 4 cm apart carry 8 A and 5 A in opposite directions. Find (i) the force per metre on each wire and its nature, (ii) the point on the line through the wires, in their plane, where the magnetic field is zero. [2]",
+    "hint": "Find the field of wire 1 at wire 2 (μ₀I₁/2πd), then the force on a length L of wire 2 in that field (B I₂ L). Fleming's left-hand rule gives the direction.",
+    "model_answer": "*How much to write: about 12 lines with a sketch of the two wires · 9 minutes*\n\n**(a)** Wires 1 and 2, parallel, distance $d$ apart, currents $I_1$ and $I_2$ in the <u>same direction</u>.\n\nField of wire 1 at the position of wire 2 (Ampère's law):\n\n$$B_1=\\frac{\\mu_0I_1}{2\\pi d}$$\n\n$B_1$ is perpendicular to wire 2. Force on a length $L$ of wire 2:\n\n$$F_{21}=I_2LB_1=\\frac{\\mu_0I_1I_2L}{2\\pi d}$$\n\n$$\\boxed{\\frac{F}{L}=\\frac{\\mu_0I_1I_2}{2\\pi d}}$$\n\nBy Fleming's left-hand rule this force points <u>towards wire 1</u>; by symmetry wire 1 is pulled towards wire 2. <mark>Like currents attract; unlike currents repel.</mark>\n\n**One ampere:** the steady current which, flowing in two very long straight parallel conductors of negligible cross-section placed 1 m apart in vacuum, produces a force of exactly $2\\times10^{-7}$ N per metre of length between them.\n\n**(b) Given:** $I_1=8$ A, $I_2=5$ A, opposite; $d=0.04$ m<br>\n**To find:** $F/L$; null point\n\n**(i)**\n\n$$\\frac{F}{L}=\\frac{2\\times10^{-7}\\times8\\times5}{0.04}$$\n\n$$\\boxed{\\frac{F}{L}=2\\times10^{-4}\\ \\text{N m}^{-1}}$$\n\n<u>repulsive</u> (opposite currents).\n\n**(ii)** Between the wires the two fields point the same way, so the null point lies <u>outside</u>, nearer the <u>smaller</u> current. At distance $x$ beyond the 5 A wire:\n\n$$\\frac{8}{x+4}=\\frac{5}{x}$$\n\n$$\\boxed{x=\\tfrac{20}{3}\\approx6.7\\ \\text{cm}}$$\n\nfrom the 5 A wire, on the side away from the 8 A wire.\n\n:::tip Your answer must contain\n- $B_1=\\mu_0I_1/2\\pi d$, then $F=I_2LB_1$\n- the direction argument (attract for like currents)\n- the definition of the ampere with <u>1 m</u> and <u>2 × 10⁻⁷ N m⁻¹</u>\n- (b) nature of the force and the null point with its side\n:::\n\n**Marks are lost for:** a definition without \"1 m apart\" or the force value; \"attractive\" in (b); placing the null point between the wires.",
+    "scheme": [
+      {
+        "step": "(a) $B_1=\\dfrac{\\mu_0I_1}{2\\pi d}$ and $F=I_2LB_1$",
+        "marks": 1
+      },
+      {
+        "step": "$\\dfrac FL=\\dfrac{\\mu_0I_1I_2}{2\\pi d}$; like currents attract (direction shown)",
+        "marks": 1
+      },
+      {
+        "step": "Definition of one ampere",
+        "marks": 1
+      },
+      {
+        "step": "(b)(i) $2\\times10^{-4}$ N m⁻¹, repulsive",
+        "marks": 1
+      },
+      {
+        "step": "(ii) about 6.7 cm from the 5 A wire, outside the pair",
+        "marks": 1
+      }
+    ]
   }
 ]

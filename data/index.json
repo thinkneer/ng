@@ -634,14 +634,14 @@
                       },
                       "marks_hint": "Unit I+II: 16 marks together (CBSE 2026–27); Ch 2 is usually 5–7 of them (estimate)",
                       "summary": "Potential and potential energy · dipole potential · equipotentials · conductors · dielectrics · capacitors, combinations and energy",
-                      "questions": 14,
+                      "questions": 15,
                       "question_types": {
                         "mcq": 5,
                         "ar": 2,
                         "case": 1,
                         "vsa2": 2,
                         "sa3": 3,
-                        "la5": 1
+                        "la5": 2
                       },
                       "diagrams": [],
                       "blocks": {
@@ -731,14 +731,14 @@
                       },
                       "marks_hint": "Unit III+IV: 17 marks together (CBSE 2026–27); Ch 4 is usually 5–7 of them (estimate)",
                       "summary": "Lorentz force · motion in a magnetic field · Biot–Savart · circular loop · Ampère's law · solenoid · force between currents · torque on a loop · galvanometer",
-                      "questions": 9,
+                      "questions": 10,
                       "question_types": {
                         "mcq": 3,
                         "ar": 1,
                         "case": 1,
                         "vsa2": 1,
                         "sa3": 2,
-                        "la5": 1
+                        "la5": 2
                       },
                       "diagrams": [],
                       "blocks": {
@@ -952,14 +952,14 @@
                       },
                       "marks_hint": "Unit V+VI: 18 marks together (CBSE 2026–27); Ch 9 is usually 9–11 of them (estimate)",
                       "summary": "Mirrors · refraction · TIR · spherical surfaces · lenses and lens maker's formula · power · prism · microscope · telescope",
-                      "questions": 11,
+                      "questions": 12,
                       "question_types": {
                         "mcq": 3,
                         "ar": 1,
                         "case": 1,
                         "vsa2": 2,
                         "sa3": 3,
-                        "la5": 1
+                        "la5": 2
                       },
                       "diagrams": [],
                       "blocks": {
@@ -1233,6 +1233,11 @@
                   "id": "preboard-sample-1",
                   "title": "Sample pre-board 1 · full syllabus",
                   "path": "content/class-12/science/physics/papers/preboard-sample-1.json"
+                },
+                {
+                  "id": "preboard-sample-2",
+                  "title": "Sample pre-board 2 · full syllabus",
+                  "path": "content/class-12/science/physics/papers/preboard-sample-2.json"
                 }
               ],
               "counts": {

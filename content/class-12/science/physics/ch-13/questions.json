@@ -133,7 +133,9 @@
         "model_answer": "**(C)** The curve peaks at about 8.75 MeV near A = 56."
       }
     ],
-    "topic": "Fusion"
+    "topic": "Fusion",
+    "hint": "Mass converted = energy ÷ 931.5 MeV per u. Total binding energy = BE per nucleon × number of nucleons.",
+    "model_answer": "*How much to write: 4 one-line answers: option letter + reason · 4 minutes*\n\n**(i) (B)** <mark>the nuclei must overcome their electrostatic repulsion</mark>; only very fast nuclei get close enough for the nuclear force to act.\n\n**(ii) (A) 0.0287 u.**\n\n$$\\Delta m=\\frac{26.7}{931.5}\\approx0.0287\\ \\text{u}$$\n\n**(iii) (C) 28.3 MeV.** $4\\times7.07=28.3$ MeV.\n\n**(iv) (C) iron-56.** The BE/A curve peaks at about 8.75 MeV near $A=56$.\n\n:::tip Your answer must contain\n- the option letter for each part\n- a one-line reason or the working for every numerical part\n:::\n\n**Marks are lost for:** \"hydrogen must be ionised\"; 7.07 MeV as the total in (iii)."
   },
   {
     "id": "phy-13-q06",
@@ -143,7 +145,7 @@
     "stars": 2,
     "label": "PYQ-style",
     "stem": "Show that the density of nuclear matter is the same for all nuclei.",
-    "model_answer": "Mass of a nucleus $\\approx Am$; radius $R=R_0A^{1/3}$, so volume $=\\tfrac43\\pi R_0^3A$. [1]<br>\n$\\rho=\\dfrac{Am}{\\frac43\\pi R_0^3A}=\\dfrac{3m}{4\\pi R_0^3}$: independent of $A$ (about $2.3\\times10^{17}$ kg m⁻³). [1]",
+    "model_answer": "*How much to write: 3–4 lines · 3 minutes*\n\nMass of a nucleus of mass number A: $M\\approx Am$ ($m$ = mass of one nucleon).\n\nRadius $R=R_0A^{1/3}$, so the volume is\n\n$$V=\\tfrac43\\pi R_0^3A$$\n\n$$\\rho=\\frac{M}{V}=\\frac{Am}{\\tfrac43\\pi R_0^3A}$$\n\n$$\\boxed{\\rho=\\frac{3m}{4\\pi R_0^3}}$$\n\n<mark>A cancels, so ρ is the same for all nuclei</mark> (about $2.3\\times10^{17}$ kg m⁻³).\n\n:::tip Your answer must contain\n- $R=R_0A^{1/3}$\n- A cancelling in the final step\n:::\n\n**Marks are lost for:** stating the result without $R\\propto A^{1/3}$.",
     "scheme": [
       {
         "step": "Mass of a nucleus $\\approx Am$; radius $R=R_0A^{1/3}$, so volume $=\\tfrac43\\pi R_0^3A$.",
@@ -154,7 +156,8 @@
         "marks": 1
       }
     ],
-    "topic": "Nuclear size"
+    "topic": "Nuclear size",
+    "hint": "Use R = R₀A^(1/3), so the volume is proportional to A. So is the mass."
   },
   {
     "id": "phy-13-q07",
@@ -164,7 +167,7 @@
     "stars": 3,
     "label": "PYQ-style",
     "stem": "Find the binding energy and the binding energy per nucleon of $^4_2$He. Mass of He-4 nucleus $=4.001506$ u, $m_p=1.007276$ u, $m_n=1.008665$ u, 1 u $=931.5$ MeV.",
-    "model_answer": "$\\Delta M=2\\times1.007276+2\\times1.008665-4.001506=0.030376$ u [1]<br>\n$E_b=0.030376\\times931.5=\\boxed{28.3\\text{ MeV}}$ [1]<br>\n$E_b/A=28.3/4=\\boxed{7.07\\text{ MeV per nucleon}}$ [1]",
+    "model_answer": "*How much to write: about 6 lines · 5 minutes*\n\n**Given:** $M_\\text{He}=4.001506$ u, $m_p=1.007276$ u, $m_n=1.008665$ u, 1 u = 931.5 MeV<br>\n**To find:** $E_b$ and $E_b/A$\n\n**Mass defect:**\n\n$$\\Delta M=2m_p+2m_n-M_\\text{He}$$\n\n$$\\Delta M=2.014552+2.017330$$\n\n$$\\qquad-4.001506$$\n\n$$\\Delta M=0.030376\\ \\text{u}$$\n\n**Binding energy:**\n\n$$E_b=\\Delta M\\times931.5=0.030376\\times931.5$$\n\n$$\\boxed{E_b\\approx28.3\\ \\text{MeV}}$$\n\n**Per nucleon** ($A=4$):\n\n$$\\boxed{\\frac{E_b}{A}\\approx7.07\\ \\text{MeV per nucleon}}$$\n\n<mark>He-4 is unusually tightly bound for a light nucleus (a peak on the BE/A curve).</mark>\n\n:::tip Your answer must contain\n- the <u>mass defect</u> line with 2 protons and 2 neutrons\n- × 931.5 MeV/u\n- both answers with units\n:::\n\n**Marks are lost for:** rounding the masses before subtracting (the defect is a small difference); dividing by 2 instead of 4.",
     "scheme": [
       {
         "step": "$\\Delta M=2\\times1.007276+2\\times1.008665-4.001506=0.030376$ u",
@@ -179,7 +182,8 @@
         "marks": 1
       }
     ],
-    "topic": "Binding energy"
+    "topic": "Binding energy",
+    "hint": "Mass defect = (mass of 2 protons + 2 neutrons) − mass of the nucleus. Then multiply by 931.5 MeV per u."
   },
   {
     "id": "phy-13-q08",
@@ -189,7 +193,7 @@
     "stars": 3,
     "label": "PYQ-style",
     "stem": "Draw the graph of binding energy per nucleon against mass number. Use it to explain the release of energy in (i) fission and (ii) fusion.",
-    "model_answer": "Graph: rises steeply for light nuclei, about 8 MeV over $30<A<170$, peak ≈ 8.75 MeV near $A=56$, gently falls to ≈ 7.6 MeV for uranium. [1]<br>\n(i) A heavy nucleus ($A\\approx235$) splits into two medium nuclei with higher BE per nucleon; total binding energy increases and the difference is released. [1]<br>\n(ii) Two light nuclei fuse into one with higher BE per nucleon (towards the peak), again releasing the difference. [1]",
+    "model_answer": "*How much to write: a labelled graph and 2 points · 6 minutes*\n\n**Graph:** BE per nucleon rises steeply for light nuclei, stays near 8 MeV for $30<A<170$, <u>peaks at about 8.75 MeV near A = 56</u>, and falls gently to about 7.6 MeV for uranium.\n\n<figure class=\"fig\">\n<svg viewBox=\"0 0 400 182\" role=\"img\" aria-label=\"Binding energy per nucleon against mass number\" font-family=\"sans-serif\" font-size=\"12.5\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><path d=\"M40,160L380,160\"/><path d=\"M380,160L375.4,162L375.4,158Z\" fill=\"currentColor\" stroke=\"none\"/><path d=\"M40,160L40,15\"/><path d=\"M40,15L42,19.6L38,19.6Z\" fill=\"currentColor\" stroke=\"none\"/><path class=\"u\" d=\"M41.4,160L42.7,143.5L44,121L45.4,53.9L48.1,80.5L49.5,76L56.2,44.8L61.6,40.3L67,39.6L80.5,32.5L115.6,28.8L148,29.5L202,32.5L256,36.2L310,41.5L361.3,46\" stroke-width=\"2\"/><path d=\"M40,130L44,130\" stroke-width=\"0.8\"/><path d=\"M40,100L44,100\" stroke-width=\"0.8\"/><path d=\"M40,70L44,70\" stroke-width=\"0.8\"/><path d=\"M40,40L44,40\" stroke-width=\"0.8\"/><g fill=\"currentColor\" stroke=\"none\" text-anchor=\"middle\"><text x=\"380\" y=\"173\" text-anchor=\"end\" font-style=\"italic\">A</text><text x=\"36\" y=\"19\" text-anchor=\"end\" font-style=\"italic\"></text><text x=\"46\" y=\"12\" text-anchor=\"start\" font-style=\"italic\">B/A (MeV)</text><text x=\"36\" y=\"134\" text-anchor=\"end\" font-size=\"10\">2</text><text x=\"36\" y=\"104\" text-anchor=\"end\" font-size=\"10\">4</text><text x=\"36\" y=\"74\" text-anchor=\"end\" font-size=\"10\">6</text><text x=\"36\" y=\"44\" text-anchor=\"end\" font-size=\"10\">8</text><text x=\"107.5\" y=\"173\" font-size=\"10\">50</text><text x=\"175\" y=\"173\" font-size=\"10\">100</text><text x=\"242.5\" y=\"173\" font-size=\"10\">150</text><text x=\"310\" y=\"173\" font-size=\"10\">200</text><text x=\"121.6\" y=\"22.8\" text-anchor=\"start\" font-size=\"11\">Fe-56 (8.75)</text><text x=\"49.4\" y=\"47.9\" text-anchor=\"start\" font-size=\"10\">He-4</text><text x=\"69.7\" y=\"107.5\" text-anchor=\"start\" font-size=\"10\">fusion releases energy ←</text><text x=\"242.5\" y=\"61\" text-anchor=\"start\" font-size=\"10\">→ fission releases energy</text></g></svg>\n<figcaption>Binding energy per nucleon against mass number: peak near iron-56.</figcaption>\n</figure>\n\n**(i) Fission:** a heavy nucleus ($A\\approx235$, about 7.6 MeV per nucleon) splits into two middle nuclei (about 8.5 MeV per nucleon). <mark>Total binding energy goes up; the difference is released</mark> (about 200 MeV per fission).\n\n**(ii) Fusion:** two light nuclei join into one with a <u>higher</u> BE per nucleon (moving up the steep part towards the peak); again the gain in binding energy is released.\n\n:::tip Your answer must contain\n- a graph with axes labelled and the peak at A ≈ 56\n- for both: products have <u>higher BE per nucleon</u>, so energy is released\n:::\n\n**Marks are lost for:** saying energy is released because binding energy falls; no axis labels.",
     "scheme": [
       {
         "step": "Graph: rises steeply for light nuclei, about 8 MeV over $30<A<170$, peak ≈ 8.75 MeV near $A=56$, gently falls to ≈ 7.6 MeV for uranium.",
@@ -204,6 +208,7 @@
         "marks": 1
       }
     ],
-    "topic": "Binding energy"
+    "topic": "Binding energy",
+    "hint": "Sketch BE/A against A: steep rise, flat top near 8 MeV, peak at A ≈ 56. Moving towards the peak releases energy."
   }
 ]
