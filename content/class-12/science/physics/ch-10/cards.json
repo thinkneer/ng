@@ -103,7 +103,7 @@
     "id": "inter-vs-di-card",
     "kind": "mnemonic",
     "title": "Interference or diffraction?",
-    "back": "\"Inter = two sources ke beech; Di-ffraction = one slit ka mudna\": interference needs two coherent sources; diffraction is one wavefront bending.",
+    "back": "Interference: two coherent sources. Diffraction: one wavefront bending round a slit.",
     "svg": "ref: notes#ch10-patterns"
   }
 ]

@@ -23,7 +23,7 @@ Stars are estimates, not exact counts: ★★★ most years · ★★ often · �
 - **Optical fibre:** guides light by repeated TIR in a core of higher index than its cladding.
 - **Power of a lens:** reciprocal of focal length in metres; unit dioptre.
 - **Angle of minimum deviation:** smallest deviation; then $i=e$ and the ray inside is symmetric.
-- **Dispersion:** splitting of white light into colours because $n$ depends on wavelength.
+- **Dispersion of light:** splitting of white light into colours because $n$ depends on wavelength.
 - **Near point (D):** least distance of distinct vision, 25 cm.
 - **Magnifying power:** ratio of angle subtended by the image to that by the object.
 - **Normal adjustment:** final image at infinity.

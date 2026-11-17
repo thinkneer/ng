@@ -13,9 +13,9 @@ Stars are estimates, not exact counts: ★★★ most years · ★★ often · �
 
 ## Must-know lines and definitions
 
-- **Charge:** scalar; additive, conserved, quantised as $q=ne$.
+- **Electric charge:** scalar; additive, conserved, quantised as $q=ne$.
 - **Charging by induction:** charging without contact by rearranging free electrons with a nearby charge.
-- **Conductor:** has free electrons; charge given to it spreads over the surface.
+- **Electrical conductor:** has free electrons; charge given to it spreads over the surface.
 - **Coulomb's law:** force between point charges ∝ $q_1q_2$, ∝ $1/r^2$, along the joining line.
 - **Dielectric constant K:** ratio of force in vacuum to force in the medium.
 - **Electric field:** force per unit positive test charge at a point.

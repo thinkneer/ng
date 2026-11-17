@@ -78,7 +78,7 @@
     "id": "em-uses-card",
     "kind": "compare",
     "title": "Which wave for which job?",
-    "back": "Radar, ovens: microwaves. Remote controls, physiotherapy: IR. Water purification, LASIK: UV. Bones: X-rays. Cancer treatment: γ.",
+    "back": "Microwaves: radar, ovens. IR: remotes, heat therapy. UV: kills germs. X-rays: bones. γ: cancer treatment.",
     "svg": "ref: notes#ch08-spectrum",
     "stars": 3
   },

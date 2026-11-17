@@ -65,14 +65,22 @@ Boards only. Board paper: **Tue 16 Feb 2027** (first paper of the season). Pract
 - Numerical templates show 3 significant figures (no fixed decimals), so tiny SI answers never print as 0.000.
 - Numericals use fresh numbers; each answer expression was checked by hand against one random draw.
 
+## Pre-board pass (17 Nov 2026; school pre-board 18 Nov)
+- **Fixed papers** in `papers/` (Exam mode → Set papers): `preboard-sample-1` and `preboard-sample-2`, both "Sample pre-board · full syllabus", SQP-style, 70 marks, CBSE unit weights (I+II 16, III+IV 17, V+VI 18, VII+VIII 12, IX 7), 2 ORs in B, 2 in C, 3 in E. The two papers share no question.
+- **Answer key:** the app still unlocks model answers to students after a timed sitting; a request to make fixed-paper keys teacher-only went to the Site chat (app code, not a subject-chat job). Until it lands, both papers count as practice papers, not secret tests.
+- **Every written and case question (vsa2, sa3, case, la5) now has a model answer in answer-script style** (length line, Given/To find/Formula/Solution, underlined keywords, one highlighted line, labelled sketch reused from the notes where a diagram earns marks, "Your answer must contain", "Marks are lost for"), and a hint. Case questions have a full top-level answer. Step marks were removed from the answer text: they stay only in `scheme`.
+- New 5-markers: `phy-w20261117-02-01` dipole potential, `phy-w20261117-04-01` force between parallel currents and the ampere, `phy-w20261117-09-01` prism formula.
+- Drawings kept inside their viewBox: Wheatstone bridge (ch 3), loop axis (ch 4), EM wave (ch 8), compound microscope (ch 9, the parallel ray now stops at the top edge), diode I–V (ch 14). Hydrogen energy levels (ch 12) relabelled at 13 px.
+- Must know: last one-word fronts fixed ("Electric charge", "Electrical conductor", "Dispersion of light"); two card backs shortened (ch 8 EM uses, ch 10 interference vs diffraction).
+
 ## Corrections
 - Charge at a cube corner → flux through the whole cube is $q/8\varepsilon_0$ ($q/24\varepsilon_0$ through each of the 3 far faces). An early formula-sheet version said $q/24\varepsilon_0$ for the whole cube; the site files carry the correct value (Ch 1 notes, must-know trap, formulas).
 
 ## What's next
-1. **Exam bank** (`node scripts/bank-check.mjs physics`, 15 Nov 2026 after the weekly refresh): the bank fills **2 fresh papers**; the target is 4. Add **5-mark +12** (thinnest IX 1, VII–VIII 2, V–VI 3), **3-mark +8** (thinnest V–VI 5, III–IV 7, IX 3) and **2-mark +4** (thinnest IX 1, VII–VIII 4). MCQ, A–R and case questions are already enough.
-2. **Derivation drill** (Must-know/Practice material): collect every board derivation as a step skeleton; most already exist as `mustknow.md` Answer skeletons and `ng-derive` blocks. Still missing as ng-derive: equatorial dipole field, potential of a dipole, energy stored in a capacitor, I = neAv_d, motional emf, Einstein/photoelectric, nuclear density.
+1. **Exam bank** (`bank-check`, 17 Nov 2026: 148 questions, 2 fresh numbered papers, target 4): add **5-mark +9** (thinnest IX 1, VII–VIII 2, V–VI 4), **3-mark +8** (V–VI 5, III–IV 7, IX 3), **2-mark +4** (IX 1, VII–VIII 4). New questions in answer-script style with hints.
+2. **Derivation drill** (Must-know/Practice material): collect every board derivation as a step skeleton; most already exist as `mustknow.md` Answer skeletons and `ng-derive` blocks. Still missing as ng-derive: equatorial dipole field, potential of a dipole (now a 5-mark question), energy stored in a capacitor, I = neAv_d, motional emf, Einstein/photoelectric, nuclear density.
 3. **Practicals** (internal 30 marks; window 1 Jan–13 Feb): confirm the 2026–27 list on cbseacademic.nic.in, then aim, formula, observation table, result line and 5 viva questions each.
-4. Polish: expand the short Read layers (Ch 5, 8, 11–13) if students want more depth; recheck stars against recent paper analyses.
+4. Polish: wide tables in Read and the formula sheet (ch 1, 3, 7, 8, 9, 12, 14), small labels in ch 7 (inductor graph), ch 11 (photocurrent graph), ch 14 (junction "+"); expand the short Read layers (Ch 5, 8, 11–13) if students want more depth; recheck stars against recent paper analyses.
 
 ## Weekly refresh log
 - 2026-11-15 · content-check FAIL/WARN for the whole subject 13/133 → 0/82 (touched chapters 0 FAIL) · card fixes: 13 legend symbols too wide, ch 2, 4, 5, 6, 7, 8, 10, 11, 13, 14 · must-know: 35 one-word recall fronts made two-word, 3 lines over 15 words shortened, 10 missing hints (ch 4, 5, 6), ch 13 fission equation stacked · questions added: 5-mark +3 (ch 10, 12, 14), 3-mark +3 (ch 2, 9, 14), 2-mark +2 (ch 6, 7), all answer-script style · fresh papers 1 → 2 (target 4) · left out: wide tables in Read and the formula sheet (ch 1, 3, 7, 8, 9, 12, 14), drawings with labels outside their viewBox (ch 4, 8, 14), missing hints in ch 13 and 14 (the run stops at 10), older written answers not yet in script style (INFO), ch 1 one-word fronts (not touched this run).
