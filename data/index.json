@@ -1228,7 +1228,13 @@
                 "syllabus": "https://cbseacademic.nic.in/",
                 "sample_paper": "https://cbseacademic.nic.in/web_material/SQP/ClassXII_2026_27/Physics-SQP.pdf"
               },
-              "papers": [],
+              "papers": [
+                {
+                  "id": "preboard-sample-1",
+                  "title": "Sample pre-board 1 · full syllabus",
+                  "path": "content/class-12/science/physics/papers/preboard-sample-1.json"
+                }
+              ],
               "counts": {
                 "notes": 14,
                 "mustknow": 14,
