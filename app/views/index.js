@@ -22,6 +22,7 @@ const L = {
   live: () => import('./live.js'),
   cards: () => import('./cards.js'),
   timetable: () => import('./timetable.js'),
+  mind: () => import('./mind.js'),
 };
 
 export const views = {
@@ -48,6 +49,7 @@ export const views = {
   admin: lazy(L.admin, 'admin'),
   live: lazy(L.live, 'live'),
   cards: lazy(L.cards, 'cardsRoute'),
+  mind: lazy(L.mind, 'mind'),
   timetable: async (r, ctx) => { const m = await L.timetable(); return r.sub === 'setup' ? m.timetableSetup(r, ctx) : m.timetable(r, ctx); },
   'not-found': async () => ({
     title: 'Not found', tab: 'today',

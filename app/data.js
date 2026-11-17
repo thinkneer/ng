@@ -51,6 +51,7 @@ export const data = {
   formulas: (subject, chapterId) => getText(`${subject.path}/${chapterId}/formulas.md`),
   questions: (subject, chapterId) => getJSON(`${subject.path}/${chapterId}/questions.json`),
   cards: (subject, chapterId) => getJSON(`${subject.path}/${chapterId}/cards.json`),
+  mindTools: () => getJSON('data/mind-tools.json'),
   memory: () => getJSON('data/memory.json').catch(() => ({})),
   chapterMeta: (subject, chapterId) => getJSON(`${subject.path}/${chapterId}/chapter.json`).catch(() => null),
 

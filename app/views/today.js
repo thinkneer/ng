@@ -5,6 +5,7 @@ import { pwa } from '../pwa.js';
 import { summary as recallSummary } from '../recall.js';
 import { isDbMode, session } from '../auth.js';
 import * as T from '../timetable.js';
+import { mindTools, toolOfTheDay } from './mind.js';
 
 /** Today's timetable at a glance: the session now or next, with one tap to start or to say it's done. */
 async function timetableCard(tt, s) {
@@ -29,7 +30,8 @@ function greeting() {
 export async function today() {
   const s = store.settings;
   if (!s.class) return welcome();
-  const [subjects, exams] = await Promise.all([data.liveSubjects(s.class, s.stream), data.examsFor(s.class, s.stream).catch(() => null)]);
+  const [subjects, exams, tools] = await Promise.all([data.liveSubjects(s.class, s.stream), data.examsFor(s.class, s.stream).catch(() => null), mindTools().catch(() => [])]);
+  const tool = toolOfTheDay(tools);
   const order = (id) => { const p = exams?.papers?.find((x) => x.subject === id); return p ? p.date : '9999'; };
   const mine = subjects.filter((x) => store.isMine(x.id)).sort((a, b) => order(a.id).localeCompare(order(b.id)));
   const t0 = todayDate();
@@ -76,6 +78,7 @@ export async function today() {
       ${curCards || rs.cardsDue ? raw(`<a class="card continue pressable mt-3" href="#/cards/today" style="--unit:#${curCards ? last.colour : '0E8A7E'}"><span class="list__leading">${icon('cards')}</span><span class="continue__main"><span class="continue__title">Cards for today</span><span class="continue__sec" style="color:var(--text-2);font-weight:500">${[rs.cardsDue ? `${rs.cardsDue} due` : '', curCards ? `Ch ${lastCh.number} · ${esc(lastCh.title)}` : ''].filter(Boolean).join(' · ')} · swipe through</span></span>${icon('chevronRight', { class: 'chev', size: 20 })}</a>`) : ''}
       ${saved ? raw(`<a class="card continue pressable mt-3" href="#/cards/mine" style="--unit:#B0204F"><span class="list__leading">${icon('heart')}</span><span class="continue__main"><span class="continue__title">My cards</span><span class="continue__sec" style="color:var(--text-2);font-weight:500">${saved} saved</span></span>${icon('chevronRight', { class: 'chev', size: 20 })}</a>`) : ''}
       ${dbMode ? raw(`<a class="card continue pressable mt-3" href="#/live" style="--unit:#6A3FA0"><span class="list__leading">${icon('bolt')}</span><span class="continue__main"><span class="continue__title">Live quiz</span><span class="continue__sec" style="color:var(--text-2);font-weight:500">${staff ? 'Host one for the class, or join with a code' : 'Teacher gave you a code? Join here'}</span></span>${icon('chevronRight', { class: 'chev', size: 20 })}</a>`) : ''}
+      ${tool ? raw(`<a class="card mind-day pressable mt-3" href="#/mind/${esc(tool.id)}" style="--unit:#${esc(tool.colour)}"><span class="mind-day__art" id="mind-day-art" aria-hidden="true"></span><span class="mind-day__main"><span class="mind-day__head">${icon('mind')}<span>Mind tool of the day</span></span><span class="mind-day__title">${esc(tool.title)}</span><span class="mind-day__line">${esc(tool.line)}</span><span class="mind-day__more">For your exams ${icon('chevronRight')}</span></span></a>`) : ''}
       ${trick ? raw(`<div class="card trick mt-3" id="trick" style="--unit:#${trick.colour}"><div class="trick__head">${icon('sparkle')}<span>Trick of the day</span><span class="trick__ch">${esc(trick.sub.short || trick.sub.name)} · Ch ${trick.ch.number}</span></div><div class="trick__body" aria-live="polite"><span class="skeleton" style="display:block;height:1.4em;width:70%"></span><span class="skeleton mt-2" style="display:block;height:1em;width:90%"></span></div></div>`) : ''}
       ${last ? raw(`<div class="section-head"><h2>Continue reading</h2></div>
       <a class="card continue pressable" href="${routeFor(last.cls, last.stream, last.sub, last.ch, 'read')}" style="--unit:#${last.colour}">
@@ -98,6 +101,7 @@ export async function today() {
       <p class="t-footnote t-3 mt-8">Board dates from the CBSE date sheet${exams?.date_checked ? `, checked ${fmtDate(exams.date_checked, { day: 'numeric', month: 'short', year: 'numeric' })}` : ''}. Recheck on cbse.gov.in.</p>`,
     mount(el) {
       if (trick) fillTrick(el.querySelector('#trick'), trick);
+      if (tool) import('../markdown.js').then((m) => m.cleanSvg(tool.svg)).then((svg) => { const box = el.querySelector('#mind-day-art'); if (box) box.innerHTML = svg; }).catch(() => {});
       el.querySelector('[data-install]')?.addEventListener('click', () => pwa.promptInstall());
       el.querySelector('[data-install-later]')?.addEventListener('click', () => { store.setFlag('install-dismissed', true); el.querySelector('#install-card')?.remove(); });
     },

@@ -1,5 +1,5 @@
 // Hash router. Routes:
-//   #/  #/today  #/subjects  #/classes  #/plan  #/practice  #/progress  #/more[/x]
+//   #/  #/today  #/subjects  #/classes  #/plan  #/practice  #/progress  #/more[/x]  #/mind[/<tool>]
 //   #/<class>                        class 9–10 → subject list; 11–12 → stream picker
 //   #/<class>/<stream>               subject list (11–12)
 //   #/<class>[/<stream>]/<subject>   chapter list
@@ -26,7 +26,7 @@ export function parseHash(hash = location.hash) {
     return { name: 'chapter', classId, streamId, subjectId, chapterId, tab: tab || null, extra, seg };
   }
   if (top === 'more') return { name: 'more', sub: seg[1] || null, seg };
-  if (['subjects', 'classes', 'plan', 'practice', 'progress', 'about', 'request', 'access', 'login', 'awaiting', 'reset', 'live', 'admin', 'search', 'recall', 'signin', 'cards', 'timetable'].includes(top)) return { name: top, sub: seg[1] || null, seg };
+  if (['subjects', 'classes', 'plan', 'practice', 'progress', 'about', 'request', 'access', 'login', 'awaiting', 'reset', 'live', 'admin', 'search', 'recall', 'signin', 'cards', 'timetable', 'mind'].includes(top)) return { name: top, sub: seg[1] || null, seg };
   return { name: 'not-found', seg };
 }
 

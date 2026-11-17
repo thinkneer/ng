@@ -39,7 +39,8 @@ export async function cardsRoute(route) {
   return deck({ title: 'Cards for today', cards, back: '#/today', recall: true, empty: 'No cards for today', emptyText: 'Open a chapter and tap its coloured number to go through its cards.' });
 }
 
-function deck({ title, cards, back, colour, recall = false, empty, emptyText }) {
+/** The swipe deck. `start` opens at that card; `plain` hides Recall mode and the heart (decks outside the chapters, e.g. Mind tools). */
+export function deck({ title, cards, back, colour, recall = false, empty, emptyText, start = 0, plain = false }) {
   return {
     title, tab: 'today', fullscreen: true, unitColour: colour,
     html: html`<div class="rc dk" id="dk" style="${colour ? `--unit:#${colour}` : ''}">
@@ -47,7 +48,7 @@ function deck({ title, cards, back, colour, recall = false, empty, emptyText }) 
         <a class="icon-btn" href="${back}" aria-label="Close">${raw(icon('x'))}</a>
         <div class="rc__title"><span class="dk__name truncate">${title}</span><span id="dk-count" class="tnum dk__count"></span></div>
         <div class="dk__tools">
-          <button class="chip chip--outline dk__mode" type="button" data-mode aria-pressed="${recall}" title="Recall mode: right = got it, left = again">${raw(icon('bolt'))}<span>Recall</span></button>
+          <button class="chip chip--outline dk__mode" type="button" data-mode ${plain ? 'hidden' : ''} aria-pressed="${recall}" title="Recall mode: right = got it, left = again">${raw(icon('bolt'))}<span>Recall</span></button>
           <button class="icon-btn hide-phone" type="button" data-print aria-label="Print cards (6 per page)" title="Print (6 per A4 page)">${raw(icon('print'))}</button>
         </div>
       </header>
@@ -63,7 +64,7 @@ function deck({ title, cards, back, colour, recall = false, empty, emptyText }) 
       const { cleanSvg, texHTML, inlineHTML } = await import('../markdown.js');
       let mode = recall ? 'recall' : 'browse';
       let list = mode === 'recall' ? session(cards, { max: 40 }) : cards;
-      let i = 0, flipped = false; const res = { got: 0, again: 0 };
+      let i = Math.min(Math.max(0, start | 0), list.length - 1), flipped = false; const res = { got: 0, again: 0 };
       const cache = new Map();
 
       async function face(c) {
@@ -77,7 +78,7 @@ function deck({ title, cards, back, colour, recall = false, empty, emptyText }) 
         return out;
       }
       const stars = (n) => (n ? `<span class="stars" aria-label="${n} star${n > 1 ? 's' : ''} (estimate)">${'★'.repeat(n)}</span>` : '');
-      const kindLabel = { figure: 'Diagram', formula: 'Formula', process: 'Process', event: 'Event', mnemonic: 'Memory trick', compare: 'Compare' };
+      const kindLabel = { figure: 'Diagram', formula: 'Formula', process: 'Process', event: 'Event', mnemonic: 'Memory trick', compare: 'Compare', mind: 'Mind tool' };
 
       async function show() {
         const c = list[i]; flipped = false;
@@ -87,10 +88,10 @@ function deck({ title, cards, back, colour, recall = false, empty, emptyText }) 
         bar.style.width = (((i) / list.length) * 100).toFixed(1) + '%';
         stage.innerHTML = `<article class="dk__card" style="--unit:#${c.colour}" aria-roledescription="card">
             <div class="dk__meta"><span class="chip chip--unit">${c.chapterNumber ? `Ch ${c.chapterNumber} · ` : ''}${esc(kindLabel[c.kind] || c.kind)}</span>${stars(c.stars)}<span class="grow"></span>${mode === 'recall' ? `<span class="t-footnote t-3">${st ? `box ${st.box + 1}` : 'new'}</span>` : ''}
-              <button class="icon-btn dk__heart" type="button" data-heart aria-pressed="${isMine(c.uid)}" aria-label="${isMine(c.uid) ? 'Remove from' : 'Save to'} My cards">${icon('heart')}</button></div>
+              ${plain ? '' : `<button class="icon-btn dk__heart" type="button" data-heart aria-pressed="${isMine(c.uid)}" aria-label="${isMine(c.uid) ? 'Remove from' : 'Save to'} My cards">${icon('heart')}</button>`}</div>
             <div class="dk__flip" id="dk-flip" role="button" tabindex="0" aria-pressed="false">
               <div class="dk__face dk__front">${f.visual}<h2 class="dk__title">${esc(c.title)}</h2><p class="dk__hint">Tap to flip</p></div>
-              <div class="dk__face dk__back" aria-hidden="true"><h2 class="dk__title dk__title--sm">${esc(c.title)}</h2><div class="dk__text">${f.back}</div>${c.tags?.length ? `<div class="chips mt-4">${c.tags.map((t) => `<span class="badge">${esc(t)}</span>`).join('')}</div>` : ''}</div>
+              <div class="dk__face dk__back" aria-hidden="true"><h2 class="dk__title dk__title--sm">${esc(c.title)}</h2><div class="dk__text${c.dense ? ' dk__text--dense' : ''}">${f.back}</div>${c.tags?.length ? `<div class="chips mt-4">${c.tags.map((t) => `<span class="badge">${esc(t)}</span>`).join('')}</div>` : ''}</div>
             </div>
           </article>`;
         renderFoot();

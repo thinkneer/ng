@@ -280,3 +280,8 @@ svg text.uf, svg .uf text { fill: var(--unit, var(--accent)); }
 .ngv__meta { margin-top: var(--s-2); }
 .ngv__note { margin-top: var(--s-1); font-size: var(--fs-subhead); }
 @media print { .ngv__frame { display: none; } }
+
+/* Dense card backs (Mind tools): three short paragraphs, left-aligned */
+.dk__text--dense { font-size: var(--fs-subhead); line-height: 1.5; text-align: left; }
+.dk__text--dense p + p { margin-top: 0.7em; }
+.dk__text--dense strong { color: color-mix(in srgb, var(--unit, var(--accent)) 72%, var(--text)); }

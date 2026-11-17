@@ -43,6 +43,7 @@ async function renderSidebar(active, route) {
     ${link('#/plan', 'Board plan', 'plan', 'plan')}
     ${link('#/practice', 'Practice', 'practice', 'practice')}
     ${link('#/progress', 'Progress', 'progress', 'progress')}
+    ${link('#/mind', 'Mind tools', 'mind', 'mind')}
     <div class="sidebar__section">${s.class ? `Class ${esc(s.class)}${s.stream && s.stream !== 'general' ? ' · ' + esc(s.stream) : ''}` : 'Subjects'}</div>
     ${subjects.length ? subjects.map((sub) => `<a class="side-link" href="${routeOf(s.class, s.stream, sub.id)}" ${route?.subjectId === sub.id ? 'aria-current="page"' : ''}><span class="dot" style="--unit:#${sub.colour}"></span><span>${esc(sub.name)}</span></a>`).join('') : link('#/classes', 'Choose your class', 'layers', 'classes')}
     ${link('#/subjects', 'All subjects', 'subjects', 'subjects')}
@@ -119,7 +120,7 @@ async function render(route) {
   currentCleanup = null;
   // Tab / sidebar
   const tab = result.tab || route.name;
-  renderTabbar(tab === 'timetable' ? 'today' : tab);
+  renderTabbar(tab === 'timetable' || tab === 'mind' ? 'today' : tab);
   renderSidebar(tab, route);
   // Top bar
   topbarTitle.textContent = result.title || '';

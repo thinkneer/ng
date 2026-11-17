@@ -72,6 +72,28 @@ function validate(schemaName, path, data) {
   return ok;
 }
 
+// ---------- data/mind-tools.json (Mind tools: the same for every member) ----------
+{
+  const path = join(ROOT, 'data', 'mind-tools.json');
+  if (existsSync(path)) {
+    const d = readJSON(path);
+    const ids = new Set();
+    if (d && !Array.isArray(d.tools)) err(path, '"tools" must be a list');
+    for (const [k, t] of (d?.tools || []).entries()) {
+      const where = `tools[${k}]${t?.id ? ' ' + t.id : ''}`;
+      for (const key of ['id', 'title', 'colour', 'line', 'svg', 'idea', 'exam', 'paper']) if (typeof t?.[key] !== 'string' || !t[key].trim()) err(path, `${where}: missing "${key}"`);
+      if (!t?.id) continue;
+      if (!/^[a-z0-9]+(-[a-z0-9]+)*$/.test(t.id)) err(path, `${where}: id must be lower-case words joined by hyphens`);
+      if (ids.has(t.id)) err(path, `${where}: duplicate id`); ids.add(t.id);
+      if (!/^[0-9A-Fa-f]{6}$/.test(t.colour || '')) err(path, `${where}: colour must be 6 hex digits without #`);
+      for (const e of svgProblems(t.svg)) err(path, `${where}: ${e}`);
+      if ((t.line || '').length > 80) warn(path, `${where}: line is ${t.line.length} characters (keep it under 80)`);
+      const back = [t.idea, t.exam, t.paper].join(' ').length;
+      if (back > 460) warn(path, `${where}: idea + exam + paper is ${back} characters (keep the back of the card under 460)`);
+    }
+  }
+}
+
 // ---------- data/classes.json ----------
 const classesPath = join(ROOT, 'data', 'classes.json');
 const classes = readJSON(classesPath);

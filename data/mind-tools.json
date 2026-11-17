@@ -1,0 +1,146 @@
+{
+ "title": "Mind tools",
+ "intro": "Ideas about how people think and work, each turned into something to do with pen and paper.",
+ "tools": [
+  {
+   "id": "parkinsons-law",
+   "title": "Parkinson's law",
+   "colour": "1F5FAD",
+   "line": "Work expands to fill the time you give it.",
+   "svg": "<svg viewBox=\"0 0 320 200\" role=\"img\" aria-label=\"The same task: packed tight in a small time box, spread thin in a big one\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" font-size=\"12\"><circle cx=\"75\" cy=\"30\" r=\"13\" fill=\"#E0B400\" fill-opacity=\".9\" stroke=\"none\"/><path d=\"M75,22 V30 L81,34\"/><rect x=\"28\" y=\"52\" width=\"94\" height=\"96\" rx=\"12\"/><path class=\"u\" d=\"M40,72 l70,0 l-70,9 l70,0 l-70,9 l70,0 l-70,9 l70,0 l-70,9 l70,0 l-70,9 l70,0 l-70,9 l70,0 l-70,9 l70,0\" stroke-width=\"2.4\"/><rect x=\"150\" y=\"24\" width=\"144\" height=\"144\" rx=\"12\" stroke-dasharray=\"5 6\" stroke-opacity=\".6\"/><path class=\"u\" stroke-width=\"2.4\" d=\"M168,56 C200,30 232,92 262,58 S290,124 246,114 S180,160 204,128 S272,170 278,150\"/><text x=\"75\" y=\"172\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\" >25-minute box</text><text x=\"222\" y=\"190\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\" >a whole evening</text></svg>",
+   "idea": "A task given a whole evening takes the whole evening, and often comes out no better than one given 25 minutes.",
+   "exam": "\"Study Physics tonight\" has no end. \"Recall section 2 in 25 minutes\" does. Give every task a box of time.",
+   "paper": "Set a timer for one section. When it rings, close the book and write what you learnt from memory."
+  },
+  {
+   "id": "pareto-principle",
+   "title": "Pareto principle (80/20)",
+   "colour": "0E8A7E",
+   "line": "A few causes bring most of the results.",
+   "svg": "<svg viewBox=\"0 0 320 200\" role=\"img\" aria-label=\"Two of ten dots lead to most of a pie\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" font-size=\"12\"><circle cx=\"34\" cy=\"82\" r=\"8\" fill=\"#E0B400\" stroke=\"none\"/><circle cx=\"56\" cy=\"82\" r=\"8\" fill=\"#E0B400\" stroke=\"none\"/><circle cx=\"78\" cy=\"82\" r=\"8\" stroke-opacity=\".55\"/><circle cx=\"100\" cy=\"82\" r=\"8\" stroke-opacity=\".55\"/><circle cx=\"122\" cy=\"82\" r=\"8\" stroke-opacity=\".55\"/><circle cx=\"34\" cy=\"108\" r=\"8\" stroke-opacity=\".55\"/><circle cx=\"56\" cy=\"108\" r=\"8\" stroke-opacity=\".55\"/><circle cx=\"78\" cy=\"108\" r=\"8\" stroke-opacity=\".55\"/><circle cx=\"100\" cy=\"108\" r=\"8\" stroke-opacity=\".55\"/><circle cx=\"122\" cy=\"108\" r=\"8\" stroke-opacity=\".55\"/><path d=\"M60,70 C110,20 160,30 186,52\" stroke-width=\"2.4\"/><path d=\"M176,44 l11,8 -13,3\"/><circle cx=\"240\" cy=\"104\" r=\"56\" stroke-opacity=\".55\"/><path class=\"uf\" d=\"M240,104 L240,48 A56,56 0 1 1 186.7,86.7 Z\" fill-opacity=\".85\" stroke=\"none\"/><text x=\"78\" y=\"150\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\" >20% of the effort</text><text x=\"240\" y=\"184\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\" >80% of the marks</text></svg>",
+   "idea": "Roughly 80% of the effects come from 20% of the causes. The numbers are a rule of thumb; the lopsidedness is real.",
+   "exam": "A handful of chapters and question types carry most marks. ★★★ topics, NCERT examples and the paper blueprint come first.",
+   "paper": "From the marks blueprint, list the five chapters worth the most in your next paper. Start your week with them."
+  },
+  {
+   "id": "diminishing-returns",
+   "title": "Law of diminishing returns",
+   "colour": "C2571A",
+   "line": "After a point, each extra hour of the same thing gives less.",
+   "svg": "<svg viewBox=\"0 0 320 200\" role=\"img\" aria-label=\"Bars rising by smaller and smaller steps\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" font-size=\"12\"><path d=\"M30,170 H302 M30,170 V24\"/><rect class=\"uf\" x=\"45\" y=\"130\" width=\"30\" height=\"40\" fill-opacity=\".22\" stroke=\"none\"/><rect x=\"45\" y=\"130\" width=\"30\" height=\"40\" fill=\"#E0B400\" stroke=\"none\"/><rect class=\"uf\" x=\"88\" y=\"100\" width=\"30\" height=\"70\" fill-opacity=\".22\" stroke=\"none\"/><rect x=\"88\" y=\"100\" width=\"30\" height=\"30\" fill=\"#E0B400\" stroke=\"none\"/><rect class=\"uf\" x=\"131\" y=\"80\" width=\"30\" height=\"90\" fill-opacity=\".22\" stroke=\"none\"/><rect x=\"131\" y=\"80\" width=\"30\" height=\"20\" fill=\"#E0B400\" stroke=\"none\"/><rect class=\"uf\" x=\"174\" y=\"68\" width=\"30\" height=\"102\" fill-opacity=\".22\" stroke=\"none\"/><rect x=\"174\" y=\"68\" width=\"30\" height=\"12\" fill=\"#E0B400\" stroke=\"none\"/><rect class=\"uf\" x=\"217\" y=\"62\" width=\"30\" height=\"108\" fill-opacity=\".22\" stroke=\"none\"/><rect x=\"217\" y=\"62\" width=\"30\" height=\"6\" fill=\"#E0B400\" stroke=\"none\"/><rect class=\"uf\" x=\"260\" y=\"59\" width=\"30\" height=\"111\" fill-opacity=\".22\" stroke=\"none\"/><rect x=\"260\" y=\"59\" width=\"30\" height=\"3\" fill=\"#E0B400\" stroke=\"none\"/><path class=\"u\" d=\"M40,130 C90,80 140,72 300,56\" stroke-dasharray=\"4 5\"/><text x=\"60\" y=\"188\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\" >hour 1</text><text x=\"275\" y=\"188\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\" >hour 6</text><text x=\"36\" y=\"18\" text-anchor=\"start\" fill=\"currentColor\" stroke=\"none\" >what sticks</text></svg>",
+   "idea": "Add more of one input while the rest stays the same, and each extra unit adds less than the one before.",
+   "exam": "Hour four of Chemistry teaches less than hour one. Switch subjects, take a break or sleep: a tired brain is the fixed resource.",
+   "paper": "If the same mistake comes back twice, stop. Write one line on what is tripping you, then change subject."
+  },
+  {
+   "id": "dunning-kruger",
+   "title": "Dunning–Kruger effect",
+   "colour": "6A3FA0",
+   "line": "Feeling sure is not the same as knowing.",
+   "svg": "<svg viewBox=\"0 0 320 200\" role=\"img\" aria-label=\"A tall dashed bar for how sure you feel, a short solid bar for what you can write, and a half-empty page\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" font-size=\"12\"><rect x=\"44\" y=\"36\" width=\"50\" height=\"134\" rx=\"4\" stroke-dasharray=\"6 5\"/><rect class=\"uf\" x=\"112\" y=\"108\" width=\"50\" height=\"62\" rx=\"4\" stroke=\"none\"/><path d=\"M172,40 h8 v66 h-8\" stroke=\"#E0B400\" stroke-width=\"3\"/><text x=\"186\" y=\"78\" text-anchor=\"start\" fill=\"currentColor\" stroke=\"none\" fill=\"#E0B400\" font-weight=\"700\">gap</text><path d=\"M30,170 H180\"/><rect x=\"222\" y=\"34\" width=\"76\" height=\"110\" rx=\"5\"/><path d=\"M234,52 h50 M234,66 h38\" class=\"u\"/><path d=\"M234,84 h50 M234,100 h50 M234,116 h50\" stroke-opacity=\".25\" stroke-dasharray=\"3 5\"/><text x=\"69\" y=\"188\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\" >feels known</text><text x=\"137\" y=\"188\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\" >can write</text><text x=\"260\" y=\"162\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\" >blank page</text></svg>",
+   "idea": "In the 1999 study, people who scored lowest guessed their scores far too high. The cure is a test, not a feeling.",
+   "exam": "\"I read it, so I know it\" is the trap: rereading feels like knowing. Only writing it from memory shows what you know.",
+   "paper": "Close the book. Write the chapter's key points on a blank page. Whatever is missing is what you don't know yet."
+  },
+  {
+   "id": "hawthorne-effect",
+   "title": "Hawthorne effect",
+   "colour": "B0204F",
+   "line": "People often work harder when they know someone is watching.",
+   "svg": "<svg viewBox=\"0 0 320 200\" role=\"img\" aria-label=\"An eye above a desk; the student in its light sits up and writes\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" font-size=\"12\"><polygon points=\"152,40 168,40 222,166 98,166\" fill=\"#E0B400\" fill-opacity=\".22\" stroke=\"none\"/><path d=\"M136,30 Q160,12 184,30 Q160,48 136,30 Z\"/><circle cx=\"160\" cy=\"30\" r=\"5\" fill=\"currentColor\" stroke=\"none\"/><path d=\"M20,170 H300\"/><path d=\"M118,138 H208 M128,138 V170 M198,138 V170\"/><circle cx=\"150\" cy=\"92\" r=\"11\"/><path d=\"M128,138 Q150,104 172,138\"/><rect class=\"uf\" x=\"166\" y=\"131\" width=\"30\" height=\"6\" stroke=\"none\"/><path class=\"u\" d=\"M162,120 L178,130\" stroke-width=\"2.6\"/><g stroke-opacity=\".4\"><path d=\"M22,150 H74\"/><g transform=\"rotate(-18 56 128)\"><circle cx=\"56\" cy=\"110\" r=\"10\"/><path d=\"M36,150 Q56,118 76,150\"/></g></g><text x=\"160\" y=\"190\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\" >seen: sits up and writes</text></svg>",
+   "idea": "Named after 1920s factory studies. Researchers still argue about what those showed, but being watched does change how people work.",
+   "exam": "Study beside a friend or a parent, share your timetable streak, or tell someone your plan for the day.",
+   "paper": "Each evening, show someone the pages you wrote today. Let your paper output be the thing that is seen."
+  },
+  {
+   "id": "halo-effect",
+   "title": "Halo effect",
+   "colour": "2B6F8F",
+   "line": "One good thing makes everything else look good too.",
+   "svg": "<svg viewBox=\"0 0 320 200\" role=\"img\" aria-label=\"A halo above a figure lights up three boxes, though only one is really strong\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" font-size=\"12\"><polygon points=\"96,60 174,34 174,168 96,64\" fill=\"#E0B400\" fill-opacity=\".14\" stroke=\"none\"/><ellipse cx=\"80\" cy=\"58\" rx=\"20\" ry=\"6\" stroke=\"#E0B400\" stroke-width=\"3.5\"/><circle cx=\"80\" cy=\"86\" r=\"15\"/><path d=\"M58,150 Q80,104 102,150 Z\"/><rect class=\"u\" x=\"174\" y=\"34\" width=\"128\" height=\"34\" rx=\"8\" stroke-width=\"2.4\"/><rect x=\"174\" y=\"84\" width=\"128\" height=\"34\" rx=\"8\" stroke-dasharray=\"5 5\"/><rect x=\"174\" y=\"134\" width=\"128\" height=\"34\" rx=\"8\" stroke-dasharray=\"5 5\"/><text class=\"uf\" x=\"238\" y=\"56\" text-anchor=\"middle\" stroke=\"none\" font-weight=\"700\" >Maths: strong</text><text x=\"238\" y=\"106\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\" >Chemistry: assumed</text><text x=\"238\" y=\"156\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\" >English: assumed</text><text x=\"80\" y=\"186\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\" >one strength</text></svg>",
+   "idea": "Liking one quality makes us rate the rest of a person, or a piece of work, higher than it deserves.",
+   "exam": "Being strong in one subject can hide weak ones. A neat or long answer is not a full-marks answer.",
+   "paper": "Mark your own answer only against the scheme, tick by tick. Give no marks for length or neatness."
+  },
+  {
+   "id": "lindy-effect",
+   "title": "Lindy effect",
+   "colour": "2E8B3A",
+   "line": "Ideas that have lasted a long time tend to keep lasting.",
+   "svg": "<svg viewBox=\"0 0 320 200\" role=\"img\" aria-label=\"A rising line from a flimsy flyer to a thick old book\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" font-size=\"12\"><path d=\"M30,170 H302 M30,170 V24\"/><path d=\"M42,160 L292,44\" stroke=\"#E0B400\" stroke-width=\"3\" stroke-dasharray=\"7 6\"/><g transform=\"rotate(-12 62 140)\"><rect x=\"48\" y=\"124\" width=\"28\" height=\"34\" rx=\"2\"/><path d=\"M53,134 h18 M53,142 h14 M53,150 h16\" stroke-opacity=\".5\"/></g><rect class=\"uf\" x=\"248\" y=\"28\" width=\"46\" height=\"34\" rx=\"3\" stroke=\"none\"/><path d=\"M256,28 V62\" stroke=\"#fff\" stroke-opacity=\".7\"/><text x=\"90\" y=\"162\" text-anchor=\"start\" fill=\"currentColor\" stroke=\"none\" >this week's shortcut</text><text x=\"240\" y=\"42\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\" >NCERT, past papers</text><text x=\"166\" y=\"190\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\" >years it has lasted</text></svg>",
+   "idea": "For things that don't wear out, like books and ideas, the longer they have survived, the longer they are likely to survive.",
+   "exam": "NCERT and past papers have outlived many seasons of \"secret tricks\". Trust them over this week's viral shortcut.",
+   "paper": "Before any guide book, solve the NCERT in-text and exercise questions of the chapter on paper."
+  },
+  {
+   "id": "butterfly-effect",
+   "title": "Butterfly effect",
+   "colour": "1F5FAD",
+   "line": "Small changes can grow into large effects.",
+   "svg": "<svg viewBox=\"0 0 320 200\" role=\"img\" aria-label=\"A small butterfly at the start of a wave that keeps getting bigger\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" font-size=\"12\"><path d=\"M48,100 C30,78 22,92 32,104 C22,118 36,126 48,104 Z\" fill=\"#E0B400\" stroke=\"none\"/><path d=\"M48,100 C66,78 74,92 64,104 C74,118 60,126 48,104 Z\" fill=\"#E0B400\" stroke=\"none\"/><path d=\"M48,92 V112\"/><path class=\"u\" d=\"M78,102 C90,94 98,110 110,102\" stroke-width=\"1.6\"/><path class=\"u\" d=\"M110,102 C130,84 146,120 168,102\" stroke-width=\"2.6\"/><path class=\"u\" d=\"M168,102 C202,60 232,146 296,96\" stroke-width=\"4\"/><text x=\"48\" y=\"150\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\" >small daily step</text><text x=\"250\" y=\"170\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\" >months later</text></svg>",
+   "idea": "From chaos theory: in some systems, a tiny change at the start leads to a very different result later.",
+   "exam": "The study version: 15 minutes of recall every day ends up miles ahead of a five-hour panic on Sunday.",
+   "paper": "Every night, write one page from memory on what you studied that day. Small, daily, on paper."
+  },
+  {
+   "id": "chestertons-fence",
+   "title": "Chesterton's fence",
+   "colour": "0E8A7E",
+   "line": "Find out why something is there before you remove it.",
+   "svg": "<svg viewBox=\"0 0 320 200\" role=\"img\" aria-label=\"A fence on a path with a cliff edge just behind it\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" font-size=\"12\"><path d=\"M16,150 H236 L250,196\"/><path d=\"M226,150 H236 L250,196\" stroke=\"#E0B400\" stroke-width=\"3.5\"/><path d=\"M262,170 q8,-6 16,0 t16,0 M266,186 q8,-6 16,0 t16,0\" stroke-opacity=\".45\"/><path class=\"u\" d=\"M160,108 V150 M186,108 V150 M212,108 V150 M154,118 H218 M154,136 H218\" stroke-width=\"2.6\"/><circle cx=\"74\" cy=\"104\" r=\"11\"/><path d=\"M52,150 Q74,116 96,150\"/><rect x=\"86\" y=\"40\" width=\"96\" height=\"30\" rx=\"12\"/><path d=\"M98,70 L88,84 L112,70\"/><text x=\"134\" y=\"60\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\" >why is this here?</text><text x=\"160\" y=\"186\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\" >ask first</text></svg>",
+   "idea": "If you don't know why a rule or a step exists, find out before you scrap it. It was usually put there for a reason.",
+   "exam": "Before skipping a part of the answer format (units, Given/To find, diagram labels), find out why it's there. That's often where the marks are.",
+   "paper": "Next to one model answer, write why each step earns a mark. Keep the steps you can't explain away."
+  },
+  {
+   "id": "forgetting-curve",
+   "title": "Forgetting curve",
+   "colour": "6A3FA0",
+   "line": "We forget fast, unless we come back at the right time.",
+   "svg": "<svg viewBox=\"0 0 320 200\" role=\"img\" aria-label=\"Memory drops quickly, but each revision brings it back and it falls more slowly\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" font-size=\"12\"><path d=\"M30,170 H302 M30,170 V24\"/><path d=\"M36,40 C60,120 92,150 300,162\" stroke-opacity=\".45\" stroke-dasharray=\"5 6\"/><path class=\"u\" stroke-width=\"2.6\" d=\"M36,40 C50,92 60,102 72,106 L72,42 C96,76 112,86 128,90 L128,42 C164,62 186,70 204,72 L204,42 C242,52 270,56 300,58\"/><circle cx=\"72\" cy=\"42\" r=\"5\" fill=\"#E0B400\" stroke=\"none\"/><circle cx=\"128\" cy=\"42\" r=\"5\" fill=\"#E0B400\" stroke=\"none\"/><circle cx=\"204\" cy=\"42\" r=\"5\" fill=\"#E0B400\" stroke=\"none\"/><text x=\"72\" y=\"30\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\" >day 1</text><text x=\"128\" y=\"30\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\" >day 3</text><text x=\"204\" y=\"30\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\" >day 7</text><text x=\"250\" y=\"146\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\" fill-opacity=\".6\">no revision</text><text x=\"36\" y=\"188\" text-anchor=\"start\" fill=\"currentColor\" stroke=\"none\" >time</text></svg>",
+   "idea": "Hermann Ebbinghaus found that memory fades fast after learning, and that each well-timed revision makes it last longer.",
+   "exam": "Revise at about 1, 3, 7 and 21 days. Recall in this app schedules your lines this way.",
+   "paper": "The day after a chapter, do a blank-page recall of it before you open the book again."
+  },
+  {
+   "id": "testing-effect",
+   "title": "Testing effect",
+   "colour": "B0204F",
+   "line": "Pulling it out of your head beats putting it in again.",
+   "svg": "<svg viewBox=\"0 0 320 200\" role=\"img\" aria-label=\"A thin dashed arrow from a book into a head, a thick arrow from the head onto paper\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" font-size=\"12\"><path d=\"M26,70 h44 v56 h-44 Z M48,70 V126\" /><circle cx=\"160\" cy=\"98\" r=\"34\"/><path d=\"M146,86 q14,-12 28,0 M146,104 q14,10 28,0\" stroke-opacity=\".5\"/><path d=\"M78,98 H118\" stroke-dasharray=\"4 5\" stroke-opacity=\".6\"/><path d=\"M112,92 l7,6 -7,6\" stroke-opacity=\".6\"/><path class=\"u\" d=\"M198,98 H236\" stroke-width=\"5\"/><path class=\"u\" d=\"M228,88 l12,10 -12,10\" stroke-width=\"4\"/><rect x=\"248\" y=\"60\" width=\"54\" height=\"76\" rx=\"4\"/><path d=\"M256,78 h38 M256,92 h30 M256,106 h36 M256,120 h24\" stroke=\"#E0B400\" stroke-width=\"3\"/><text x=\"48\" y=\"150\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\" >reread</text><text x=\"275\" y=\"160\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\" >recall</text></svg>",
+   "idea": "Trying to remember something strengthens the memory more than reading it again, even when the attempt is hard.",
+   "exam": "Practice questions and recall beat a third reread. Struggling to remember is the part that works.",
+   "paper": "End every session with five questions answered on paper from memory, then check them."
+  },
+  {
+   "id": "interleaving",
+   "title": "Interleaving",
+   "colour": "C2571A",
+   "line": "Mix question types instead of doing one kind at a time.",
+   "svg": "<svg viewBox=\"0 0 320 200\" role=\"img\" aria-label=\"Top row: shapes grouped by kind; bottom row: shapes mixed\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" font-size=\"12\"><circle cx=\"52\" cy=\"64\" r=\"9\" /><circle cx=\"79\" cy=\"64\" r=\"9\" /><circle cx=\"106\" cy=\"64\" r=\"9\" /><polygon points=\"133,54 143,72 123,72\" /><polygon points=\"160,54 170,72 150,72\" /><polygon points=\"187,54 197,72 177,72\" /><rect x=\"205\" y=\"55\" width=\"18\" height=\"18\" rx=\"2\" /><rect x=\"232\" y=\"55\" width=\"18\" height=\"18\" rx=\"2\" /><rect x=\"259\" y=\"55\" width=\"18\" height=\"18\" rx=\"2\" /><circle cx=\"52\" cy=\"136\" r=\"9\" class=\"uf\" stroke=\"none\"/><polygon points=\"79,126 89,144 69,144\" class=\"uf\" stroke=\"none\"/><rect x=\"97\" y=\"127\" width=\"18\" height=\"18\" rx=\"2\" class=\"uf\" stroke=\"none\"/><circle cx=\"133\" cy=\"136\" r=\"9\" class=\"uf\" stroke=\"none\"/><polygon points=\"160,126 170,144 150,144\" class=\"uf\" stroke=\"none\"/><rect x=\"178\" y=\"127\" width=\"18\" height=\"18\" rx=\"2\" class=\"uf\" stroke=\"none\"/><circle cx=\"214\" cy=\"136\" r=\"9\" class=\"uf\" stroke=\"none\"/><polygon points=\"241,126 251,144 231,144\" class=\"uf\" stroke=\"none\"/><rect x=\"259\" y=\"127\" width=\"18\" height=\"18\" rx=\"2\" class=\"uf\" stroke=\"none\"/><text x=\"160\" y=\"98\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\" fill-opacity=\".7\">blocked: feels easy</text><text class=\"uf\" x=\"160\" y=\"172\" text-anchor=\"middle\" stroke=\"none\" font-weight=\"700\" >mixed: like the real paper</text><path d=\"M30,116 H290\" stroke=\"#E0B400\" stroke-width=\"2\" stroke-dasharray=\"2 6\"/></svg>",
+   "idea": "Mixing different kinds of problems in one session makes you choose the method each time, and that makes learning last.",
+   "exam": "The board paper is mixed. Twenty questions of one type feel smooth; a mixed set trains you to spot which method to use.",
+   "paper": "Write a set of six questions taken from three chapters, shuffle them, and solve them in that order."
+  },
+  {
+   "id": "planning-fallacy",
+   "title": "Planning fallacy",
+   "colour": "8A6D00",
+   "line": "Everything takes longer than you planned.",
+   "svg": "<svg viewBox=\"0 0 320 200\" role=\"img\" aria-label=\"Three bars: the plan, what really happened, and the plan with a buffer\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" font-size=\"12\"><rect x=\"96\" y=\"40\" width=\"110\" height=\"24\" rx=\"6\"/><rect class=\"uf\" x=\"96\" y=\"88\" width=\"190\" height=\"24\" rx=\"6\" stroke=\"none\" fill-opacity=\".85\"/><rect x=\"96\" y=\"136\" width=\"110\" height=\"24\" rx=\"6\"/><rect x=\"206\" y=\"136\" width=\"80\" height=\"24\" rx=\"6\" fill=\"#E0B400\" fill-opacity=\".6\" stroke=\"none\"/><text x=\"86\" y=\"57\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\" >plan</text><text x=\"86\" y=\"105\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\" >real</text><text x=\"86\" y=\"153\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\" >plan + buffer</text><text x=\"246\" y=\"182\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\" >buffer</text></svg>",
+   "idea": "We plan for the best case and forget the illness, the school test and the chapter that turns out harder.",
+   "exam": "Leave buffer days in every study plan, and a spare week before each paper. Plans without slack collapse.",
+   "paper": "Write your time guess next to each task. Afterwards, write the real time. Use the difference for next week's plan."
+  },
+  {
+   "id": "feynman-technique",
+   "title": "Feynman technique",
+   "colour": "2E8B3A",
+   "line": "If you can explain it simply, you understand it.",
+   "svg": "<svg viewBox=\"0 0 320 200\" role=\"img\" aria-label=\"A big figure explains a simple drawing to a small figure; a question mark marks the gap\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" font-size=\"12\"><circle cx=\"66\" cy=\"96\" r=\"14\"/><path d=\"M44,168 Q66,116 88,168 Z\"/><circle cx=\"258\" cy=\"124\" r=\"10\"/><path d=\"M242,168 Q258,136 274,168 Z\"/><rect x=\"100\" y=\"26\" width=\"132\" height=\"66\" rx=\"16\"/><path d=\"M110,92 L90,104 L124,92\"/><circle class=\"u\" cx=\"128\" cy=\"58\" r=\"11\" stroke-width=\"2.4\"/><path class=\"u\" d=\"M146,58 h20 M160,52 l6,6 -6,6\" stroke-width=\"2.4\"/><rect class=\"u\" x=\"174\" y=\"48\" width=\"20\" height=\"20\" rx=\"2\" stroke-width=\"2.4\"/><text x=\"214\" y=\"66\" text-anchor=\"middle\" font-size=\"22\" font-weight=\"800\" fill=\"#E0B400\" stroke=\"none\">?</text><text x=\"160\" y=\"190\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\" >explain it to a younger student</text></svg>",
+   "idea": "Richard Feynman's habit: explain a topic in plain words, as if to a child. Where you get stuck is where your understanding has a gap.",
+   "exam": "If you can't explain a topic to a Class 7 student, you've found what to reread. Jargon you can't unpack won't hold in a 3-mark answer.",
+   "paper": "Explain the topic in five lines on paper, in simple words. Underline where you got stuck, reread that part, try again."
+  }
+ ]
+}
