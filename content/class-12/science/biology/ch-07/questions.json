@@ -514,5 +514,223 @@
       }
     ],
     "source_note": "CBSE Class 12 Biology board paper 2025 (one set), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
+  },
+  {
+    "id": "bio-pyq24-08",
+    "chapter": "ch-07",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 3,
+    "label": "PYQ (2024)",
+    "topic": "Pneumonia",
+    "stem": "A patient has an infection of the alveoli with fever, chills, cough, headache, and bluish lips and finger nails. The infecting organism is:",
+    "options": [
+      "*Epidermophyton*",
+      "*Entamoeba histolytica*",
+      "*Haemophilus influenzae*",
+      "*Salmonella typhi*"
+    ],
+    "answer": "C",
+    "hint": "Which disease fills the alveoli with fluid?",
+    "model_answer": "**(c).** These are the symptoms of **pneumonia**, caused by *Streptococcus pneumoniae* and *Haemophilus influenzae*.",
+    "source_note": "CBSE Class 12 Biology board paper 2024 (one set), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
+  },
+  {
+    "id": "bio-pyq24-16",
+    "chapter": "ch-07",
+    "type": "ar",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ (2024)",
+    "topic": "Alcohol abuse",
+    "stem": "**Assertion (A):** Chronic use of alcohol leads to cirrhosis.<br>**Reason (R):** Alcohol addiction can cause mental and financial distress to the whole family of the addict.",
+    "options": [
+      "Both A and R are true, and R is the correct explanation of A.",
+      "Both A and R are true, but R is not the correct explanation of A.",
+      "A is true, but R is false.",
+      "A is false, but R is true."
+    ],
+    "answer": "B",
+    "hint": "Both true; is one the cause of the other?",
+    "model_answer": "**(b).** Both are true, but family distress does not explain liver damage (cirrhosis), which is a direct effect of alcohol on the liver.",
+    "source_note": "CBSE Class 12 Biology board paper 2024 (one set), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
+  },
+  {
+    "id": "bio-pyq24-21",
+    "chapter": "ch-07",
+    "type": "vsa2",
+    "marks": 2,
+    "stars": 3,
+    "label": "PYQ (2024)",
+    "topic": "Vaccine",
+    "stem": "What is a vaccine? State the basis on which it acts when given to a person.",
+    "hint": "The property of the immune system that it relies on.",
+    "model_answer": "*How much to write: 3–4 lines · 2 minutes*\n\nA vaccine is a preparation of <u>antigenic proteins</u> of a pathogen or the <mark>inactivated/weakened pathogen</mark>.\n\n**Basis:** the <mark>memory</mark> of the immune system. The antigens make the body produce antibodies and <u>memory B and T cells</u>; on later exposure these recognise the pathogen quickly and overwhelm it with a massive antibody response.\n\n:::tip Your answer must contain\n- antigen or weakened pathogen\n- <mark>memory</mark>: memory B and T cells\n:::\n\n**Marks are lost for:** calling it ready-made antibodies (that is passive immunisation).",
+    "scheme": [
+      {
+        "step": "Preparation of antigenic proteins / inactivated or weakened pathogen",
+        "marks": 1
+      },
+      {
+        "step": "Works on memory of the immune system (memory B and T cells)",
+        "marks": 1
+      }
+    ],
+    "source_note": "CBSE Class 12 Biology board paper 2024 (one set), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
+  },
+  {
+    "id": "bio-pyq24-32a",
+    "chapter": "ch-07",
+    "type": "la5",
+    "marks": 5,
+    "stars": 3,
+    "label": "PYQ (2024)",
+    "topic": "Life cycle of Plasmodium",
+    "stem": "(i) Describe the life cycle of *Plasmodium* from the time it enters the human body until a female *Anopheles* mosquito bites the infected person. (ii) Mention two events of the life cycle that take place inside the female *Anopheles*.",
+    "hint": "Sporozoites → liver → RBC → gametocytes.",
+    "model_answer": "*How much to write: 10 lines, as a numbered flow · 9 minutes*\n\n**(i) In the human:**\n1. *Plasmodium* enters as <mark>sporozoites</mark> (the infective form) with the saliva of an infected female *Anopheles*.\n2. The sporozoites reach the <u>liver</u> and multiply asexually in liver cells.\n3. They then attack the <u>red blood cells</u>, multiply asexually and <u>rupture</u> them.\n4. Rupture releases the toxic <mark>haemozoin</mark>, which causes chill and high fever every three to four days.\n5. Released parasites infect fresh RBCs; some develop into <u>gametocytes</u> (sexual stages) in the RBCs.\n6. When a female *Anopheles* bites this person, she takes up the gametocytes with the blood meal.\n\n**(ii) In the mosquito:**\n- <mark>Fertilisation</mark> and development take place in the mosquito's gut (intestine).\n- <u>Sporozoites</u> mature and move to the <u>salivary glands</u>, ready for the next bite.\n\n:::tip Your answer must contain\n- sporozoites → liver → RBC\n- haemozoin and the fever cycle\n- gametocytes taken up\n- fertilisation in gut; sporozoites in salivary glands\n:::\n\n**Marks are lost for:** calling the mosquito the secondary host (it is where sexual reproduction occurs); leaving out the liver stage.",
+    "scheme": [
+      {
+        "step": "Sporozoites enter with the bite; multiply in liver cells",
+        "marks": 1
+      },
+      {
+        "step": "Attack and rupture RBCs; haemozoin causes chill and fever",
+        "marks": 1
+      },
+      {
+        "step": "Gametocytes develop in RBCs; taken up by female Anopheles",
+        "marks": 1
+      },
+      {
+        "step": "Fertilisation and development in mosquito gut",
+        "marks": 1
+      },
+      {
+        "step": "Sporozoites stored in salivary glands",
+        "marks": 1
+      }
+    ],
+    "source_note": "CBSE Class 12 Biology board paper 2024 (one set), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
+  },
+  {
+    "id": "bio-pyq24-32b",
+    "chapter": "ch-07",
+    "type": "la5",
+    "marks": 5,
+    "stars": 3,
+    "label": "PYQ (2024)",
+    "topic": "Cancer",
+    "stem": "(i) Write two differences between a malignant tumour and a benign tumour. (ii) Explain any three techniques used to detect cancer.",
+    "hint": "Does it spread? Then: tissue, images, molecules.",
+    "model_answer": "*How much to write: a 2-row table + 6 lines · 9 minutes*\n\n**(i)**\n\n| Benign tumour | Malignant tumour |\n|---|---|\n| stays <u>confined</u> to its original place | cells invade and damage surrounding tissue |\n| does not spread; causes little damage | cells break off and spread by blood to distant sites: <mark>metastasis</mark> |\n\n**(ii) Detection (any three):**\n1. **Biopsy and histopathology:** a piece of the suspected tissue is cut into thin sections, stained and examined under the microscope; blood and bone-marrow tests for leukaemia.\n2. **Radiography (X-rays), CT and MRI:** <u>CT</u> uses X-rays to build a three-dimensional image; <u>MRI</u> uses strong magnetic fields and non-ionising radiation to show changes in living tissue.\n3. **Antibodies** against <u>cancer-specific antigens</u>.\n4. **Molecular biology techniques** to detect genes in people with inherited susceptibility to certain cancers.\n\n:::tip Your answer must contain\n- confined vs invasive; <mark>metastasis</mark>\n- three techniques, each with one line of how it works\n:::\n\n**Marks are lost for:** listing techniques by name only; calling chemotherapy a detection method.",
+    "scheme": [
+      {
+        "step": "Two differences between benign and malignant tumours",
+        "marks": 2
+      },
+      {
+        "step": "Biopsy/histopathology",
+        "marks": 1
+      },
+      {
+        "step": "Radiography / CT / MRI",
+        "marks": 1
+      },
+      {
+        "step": "Antibodies against cancer-specific antigens or molecular techniques",
+        "marks": 1
+      }
+    ],
+    "source_note": "CBSE Class 12 Biology board paper 2024 (one set), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
+  },
+  {
+    "id": "bio-pyq23-25",
+    "chapter": "ch-07",
+    "type": "sa3",
+    "marks": 3,
+    "stars": 3,
+    "label": "PYQ (2023)",
+    "topic": "Tumours",
+    "stem": "(a) Differentiate between malignant and benign tumours. (b) Name and explain the most feared property of a malignant tumour.",
+    "hint": "Does it stay put?",
+    "model_answer": "*How much to write: 5–6 lines · 4 minutes*\n\n**(a)** A <u>benign</u> tumour stays confined to its original location, does not spread and causes little damage. A <u>malignant</u> tumour is a mass of proliferating <u>neoplastic cells</u> that grow rapidly, invade and damage the surrounding normal tissue and starve it of nutrients.\n\n**(b)** <mark>Metastasis</mark>: cells sloughed off from the tumour travel through the <u>blood</u> to distant sites, lodge there and start <u>new tumours</u>.\n\n:::tip Your answer must contain\n- confined vs invasive\n- <mark>metastasis</mark>: spread by blood to distant sites\n:::\n\n**Marks are lost for:** naming metastasis without explaining it.",
+    "scheme": [
+      {
+        "step": "Benign: confined, little damage",
+        "marks": 1
+      },
+      {
+        "step": "Malignant: neoplastic cells invade and damage tissue",
+        "marks": 1
+      },
+      {
+        "step": "Metastasis named and explained",
+        "marks": 1
+      }
+    ],
+    "source_note": "CBSE Class 12 Biology board paper 2023 (one set), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
+  },
+  {
+    "id": "bio-pyq23-32a",
+    "chapter": "ch-07",
+    "type": "la5",
+    "marks": 5,
+    "stars": 3,
+    "label": "PYQ (2023)",
+    "topic": "Vaccination and immunity",
+    "stem": "A graph shows the antibody concentration in a child's blood: a small rise after a vaccine is given, and a much higher, faster rise after infection by the same pathogen about four months later. (i) Why does the vaccine raise the antibody concentration? (ii) Why does it rise very fast after the later infection? (iii) Complete the table by identifying P, Q, R, S and T:<br>1. Natural active: antibodies made – yes; memory cells – **P**; attained by – **Q**.<br>2. Natural passive: antibodies made – no; memory cells – **R**; attained across the placenta or by breast-feeding.<br>3. Acquired (artificial) active: antibodies made – **S**; memory cells – yes; attained by vaccination.<br>4. Acquired (artificial) passive: antibodies made – **T**; memory cells – no; attained by an injection of antibodies.",
+    "hint": "Primary vs secondary response; active = the body makes its own antibodies.",
+    "model_answer": "*How much to write: 3 lines each for (i) and (ii), five short entries for (iii) · 9 minutes*\n\n**(i)** The vaccine carries the pathogen's <u>antigens</u> (or the weakened pathogen). B-lymphocytes respond by making antibodies: a <mark>primary response</mark>, slow and of low intensity.\n\n**(ii)** The first exposure also left <mark>memory B and T cells</mark>. On meeting the same pathogen again they recognise it at once and produce a rapid, massive <u>secondary (anamnestic) response</u>.\n\n**(iii)** P: <u>yes</u>. Q: <u>natural infection</u> (exposure to the pathogen). R: <u>no</u>. S: <u>yes</u>. T: <u>no</u>.\n\n:::tip Your answer must contain\n- primary response to antigen\n- <mark>memory cells</mark> → secondary response\n- P yes, Q infection, R no, S yes, T no\n:::\n\n**Marks are lost for:** saying passive immunity leaves memory cells.",
+    "scheme": [
+      {
+        "step": "Vaccine antigens cause a primary antibody response",
+        "marks": 1
+      },
+      {
+        "step": "Memory cells give a fast, strong secondary response",
+        "marks": 1.5
+      },
+      {
+        "step": "P, Q, R, S, T (½ each)",
+        "marks": 2.5
+      }
+    ],
+    "source_note": "CBSE Class 12 Biology board paper 2023 (one set), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers. The board question was based on a figure; it is described in words here."
+  },
+  {
+    "id": "bio-pyq23-32b",
+    "chapter": "ch-07",
+    "type": "la5",
+    "marks": 5,
+    "stars": 3,
+    "label": "PYQ (2023)",
+    "topic": "Drug abuse",
+    "stem": "(i) What is the chemical name of 'smack'? Why is taking it called abuse? (ii) Name the source plant and one effect on the human body of: marijuana, cocaine, morphine.",
+    "hint": "Poppy, hemp, coca.",
+    "model_answer": "*How much to write: 8 lines or a 3-row table · 8 minutes*\n\n**(i)** Smack is <mark>heroin, chemically diacetylmorphine</mark> (made by acetylation of morphine). It is a <u>depressant</u> that slows body functions. Taking it for a purpose other than medicinal use, in amounts or frequency that impair physical, physiological or psychological functions, is <u>drug abuse</u>; it is highly addictive.\n\n**(ii)**\n\n| Drug | Source plant | Effect |\n|---|---|---|\n| Marijuana | <u>*Cannabis sativa*</u> | affects the cardiovascular system |\n| Cocaine | <u>*Erythroxylum coca*</u> | stimulates the CNS: euphoria, more energy; hallucinations in excess |\n| Morphine | <u>*Papaver somniferum*</u> (poppy latex) | sedative and painkiller |\n\n:::tip Your answer must contain\n- <mark>diacetylmorphine</mark>; depressant; non-medical use\n- three source plants\n- one effect each\n:::\n\n**Marks are lost for:** mixing up the three plants; calling cocaine a depressant.",
+    "scheme": [
+      {
+        "step": "Smack = heroin = diacetylmorphine",
+        "marks": 1
+      },
+      {
+        "step": "Why abuse: non-medical use impairing functions; depressant, addictive",
+        "marks": 1
+      },
+      {
+        "step": "Marijuana: Cannabis sativa, effect",
+        "marks": 1
+      },
+      {
+        "step": "Cocaine: Erythroxylum coca, effect",
+        "marks": 1
+      },
+      {
+        "step": "Morphine: Papaver somniferum, effect",
+        "marks": 1
+      }
+    ],
+    "source_note": "CBSE Class 12 Biology board paper 2023 (one set), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
   }
 ]

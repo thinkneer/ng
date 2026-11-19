@@ -408,5 +408,98 @@
       }
     ],
     "source_note": "CBSE Class 12 Biology board paper 2025 (one set), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
+  },
+  {
+    "id": "bio-pyq24-20b",
+    "chapter": "ch-13",
+    "type": "vsa2",
+    "marks": 2,
+    "stars": 3,
+    "label": "PYQ (2024)",
+    "topic": "Species–area relationship",
+    "stem": "(i) Show graphically the relationship between species richness and area on a log–log scale. (ii) Write the equation of this relationship on a logarithmic scale.",
+    "hint": "A straight line; Z is its slope.",
+    "model_answer": "*How much to write: a labelled graph + one equation · 3 minutes*\n\n<figure class=\"fig\">\n<svg viewBox=\"0 0 300 170\" role=\"img\" aria-label=\"Species richness against area on log axes is a straight line\" fill=\"none\" stroke=\"currentColor\">\n<path stroke-width=\"1.4\" d=\"M44,14V140H286\"/>\n<path stroke=\"#2E8B3A\" stroke-width=\"2.4\" d=\"M52,128L270,36\"/>\n<g fill=\"currentColor\" stroke=\"none\" font-size=\"10\"><text x=\"130\" y=\"160\">log Area</text><text x=\"4\" y=\"12\">log S</text><text x=\"150\" y=\"62\">slope = Z</text></g>\n</svg>\n<figcaption>On log axes the relationship is a straight line.</figcaption>\n</figure>\n\n$$\\log S=\\log C+Z\\log A$$\n\nS = species richness, A = area, <u>Z = slope</u> (regression coefficient), C = Y-intercept.\n\n:::tip Your answer must contain\n- straight line with <u>log S</u> and <u>log A</u> axes\n- equation with Z and C named\n:::\n\n**Marks are lost for:** drawing the rectangular hyperbola (that is the normal scale); unlabelled axes.",
+    "scheme": [
+      {
+        "step": "Straight-line graph on log–log axes, labelled",
+        "marks": 1
+      },
+      {
+        "step": "log S = log C + Z log A",
+        "marks": 1
+      }
+    ],
+    "source_note": "CBSE Class 12 Biology board paper 2024 (one set), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
+  },
+  {
+    "id": "bio-pyq23-21",
+    "chapter": "ch-13",
+    "type": "vsa2",
+    "marks": 2,
+    "stars": 3,
+    "label": "PYQ (2023)",
+    "topic": "India's biodiversity",
+    "stem": "India is the seventh largest country by area. What percentage of the world's land area does it have? What then makes India one of the 12 mega-diversity countries?",
+    "hint": "Two percentages to remember.",
+    "model_answer": "*How much to write: 2–3 lines · 2 minutes*\n\nIndia has only <mark>2.4%</mark> of the world's land area, yet its share of global species diversity is <mark>8.1%</mark>, with nearly <u>45,000 species of plants</u> and twice as many of animals recorded. This large share makes it a mega-diversity country.\n\n:::tip Your answer must contain\n- 2.4% land\n- 8.1% species diversity\n:::\n\n**Marks are lost for:** swapping the two figures.",
+    "scheme": [
+      {
+        "step": "2.4 per cent of land area",
+        "marks": 1
+      },
+      {
+        "step": "8.1 per cent of global species diversity",
+        "marks": 1
+      }
+    ],
+    "source_note": "CBSE Class 12 Biology board paper 2023 (one set), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
+  },
+  {
+    "id": "bio-pyq23-30",
+    "chapter": "ch-13",
+    "type": "case",
+    "marks": 4,
+    "stars": 3,
+    "label": "PYQ (2023)",
+    "topic": "Latitudinal gradient",
+    "stem": "*A diagram of the Earth marks region **A** around the equator (the tropics, roughly 23.5° N to 23.5° S) and region **B** at high latitudes towards a pole (about 60° to 90°).*",
+    "hint": "Diversity falls from the equator to the poles; three hypotheses explain it.",
+    "parts": [
+      {
+        "id": "A",
+        "marks": 3,
+        "stem": "What happens to species diversity as one moves from region A to region B? Give two reasons.",
+        "model_answer": "Species diversity decreases from the equator towards the poles (latitudinal gradient). Reasons: (1) tropical latitudes have stayed relatively undisturbed for millions of years, unlike temperate regions that faced frequent glaciations, so they had a long evolutionary time for species to diversify; (2) tropical environments are less seasonal, more constant and predictable, which promotes niche specialisation; (3) more solar energy in the tropics gives higher productivity.",
+        "scheme": [
+          {
+            "step": "Diversity decreases from equator to poles",
+            "marks": 1
+          },
+          {
+            "step": "First reason",
+            "marks": 1
+          },
+          {
+            "step": "Second reason",
+            "marks": 1
+          }
+        ]
+      },
+      {
+        "id": "B",
+        "marks": 1,
+        "stem": "About how many bird species are recorded in India, and why so many? **OR** Name the region with the greatest biodiversity on Earth and say why.",
+        "model_answer": "More than 1,200 species, because much of India's land lies in tropical latitudes. **OR** The Amazonian rain forest in South America: a large tropical forest, home to more than 40,000 plant species, 3,000 fishes, 1,300 birds and over 1,25,000 invertebrates.",
+        "scheme": [
+          {
+            "step": "More than 1,200 bird species; tropical latitudes OR Amazonian rain forest; tropical, greatest species numbers",
+            "marks": 1
+          }
+        ]
+      }
+    ],
+    "model_answer": "*How much to write: 5–6 lines for (a), 1–2 lines for (b) · 6 minutes*\n\n**(a)** Species diversity <mark>decreases from the equator towards the poles</mark> (the latitudinal gradient). Reasons (any two):\n1. The tropics remained <u>undisturbed for millions of years</u>, while temperate regions faced frequent <u>glaciations</u>; a long evolutionary time allowed more species to form.\n2. Tropical environments are <u>less seasonal, more constant and predictable</u>, which promotes niche specialisation.\n3. More <u>solar energy</u> gives higher productivity.\n\n**(b)** India has <mark>more than 1,200</mark> bird species, because much of its land is in <u>tropical latitudes</u>. **OR** The <mark>Amazonian rain forest</mark> of South America has the greatest biodiversity on Earth (over 40,000 plant species, 1,300 birds).\n\n:::tip Your answer must contain\n- decrease towards the poles\n- two of the three reasons\n- 1,200 birds / Amazon rain forest\n:::\n\n**Marks are lost for:** saying diversity increases towards the poles; giving one reason only.",
+    "source_note": "CBSE Class 12 Biology board paper 2023 (one set), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers. The board question was based on a figure; it is described in words here."
   }
 ]

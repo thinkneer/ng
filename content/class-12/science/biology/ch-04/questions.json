@@ -457,7 +457,7 @@
     "topic": "Patterns of inheritance",
     "stem": "Differentiate between (i) polygenic inheritance and pleiotropy; (ii) dominance, codominance and incomplete dominance.",
     "hint": "Count genes and traits for (i); look at the F1 phenotype for (ii).",
-    "model_answer": "*How much to write: two small tables with examples · 9 minutes*\n\n**(i)**\n\n| Polygenic inheritance | Pleiotropy |\n|---|---|\n| <u>many genes</u> control <u>one trait</u> | <u>one gene</u> affects <u>many traits</u> |\n| effects are additive; environment also acts | one gene product acts in several pathways |\n| e.g. <mark>human skin colour, height</mark> | e.g. <mark>phenylketonuria</mark> |\n\n**(ii)**\n\n| | F₁ hybrid shows | Example |\n|---|---|---|\n| Dominance | only the <u>dominant</u> parent's trait | tall × dwarf pea → all tall |\n| Codominance | <u>both</u> parental traits side by side | <mark>AB blood group</mark> (I^A I^B) |\n| Incomplete dominance | an <u>intermediate</u> phenotype | red × white snapdragon → <mark>pink</mark> |\n\n:::tip Your answer must contain\n- gene and trait counts for (i), with examples\n- F₁ phenotype for each of the three in (ii)\n- one example each\n:::\n\n**Marks are lost for:** giving sickle-cell anaemia for codominance without explanation; mixing codominance with incomplete dominance.",
+    "model_answer": "*How much to write: two small tables with examples · 9 minutes*\n\n**(i)**\n\n| Polygenic inheritance | Pleiotropy |\n|---|---|\n| <u>many genes</u> control <u>one trait</u> | <u>one gene</u> affects <u>many traits</u> |\n| effects are additive; environment also acts | one gene product acts in several pathways |\n| e.g. <mark>human skin colour, height</mark> | e.g. <mark>phenylketonuria</mark> |\n\n**(ii)**\n\n| | F₁ hybrid shows | Example |\n|---|---|---|\n| Dominance | only the <u>dominant</u> parent's trait | tall × dwarf pea → all tall |\n| Codominance | <u>both</u> parental traits side by side | <mark>AB blood group</mark> (Iᴬ Iᴮ) |\n| Incomplete dominance | an <u>intermediate</u> phenotype | red × white snapdragon → <mark>pink</mark> |\n\n:::tip Your answer must contain\n- gene and trait counts for (i), with examples\n- F₁ phenotype for each of the three in (ii)\n- one example each\n:::\n\n**Marks are lost for:** giving sickle-cell anaemia for codominance without explanation; mixing codominance with incomplete dominance.",
     "scheme": [
       {
         "step": "Polygenic inheritance vs pleiotropy: two points",
@@ -481,5 +481,205 @@
       }
     ],
     "source_note": "CBSE Class 12 Biology board paper 2025 (one set), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
+  },
+  {
+    "id": "bio-pyq24-06",
+    "chapter": "ch-04",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 3,
+    "label": "PYQ (2024)",
+    "topic": "Chromosomal disorders",
+    "stem": "Short stature, a small round head, a furrowed tongue and a partially open mouth are features of:",
+    "options": [
+      "Turner's syndrome",
+      "Down's syndrome",
+      "Klinefelter's syndrome",
+      "Edwards' syndrome"
+    ],
+    "answer": "B",
+    "hint": "Trisomy of chromosome 21.",
+    "model_answer": "**(b).** These are signs of **Down's syndrome** (trisomy 21), along with a palm crease and retarded physical and mental development.",
+    "source_note": "CBSE Class 12 Biology board paper 2024 (one set), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
+  },
+  {
+    "id": "bio-pyq24-07",
+    "chapter": "ch-04",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 3,
+    "label": "PYQ (2024)",
+    "topic": "Incomplete dominance",
+    "stem": "A snapdragon plant with pink flowers is crossed with one with white flowers. The progeny will be:",
+    "options": [
+      "25% red : 50% pink : 25% white",
+      "50% red : 50% white",
+      "50% pink : 50% white",
+      "25% pink : 50% red : 25% white"
+    ],
+    "answer": "C",
+    "hint": "Write the genotypes first; it is a test cross.",
+    "model_answer": "**(c).** Pink is Rr and white is rr. Rr × rr gives Rr (pink) and rr (white) in a 1 : 1 ratio.",
+    "source_note": "CBSE Class 12 Biology board paper 2024 (one set), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
+  },
+  {
+    "id": "bio-pyq24-26",
+    "chapter": "ch-04",
+    "type": "sa3",
+    "marks": 3,
+    "stars": 3,
+    "label": "PYQ (2024)",
+    "topic": "Dihybrid crosses",
+    "stem": "In pea, violet flower (V) is dominant over white (v) and axial position (A) over terminal (a). Three crosses gave these progeny:<br>(a) violet, axial × white, axial → 6/16 violet axial, 2/16 violet terminal, 6/16 white axial, 2/16 white terminal;<br>(b) violet, axial × white, terminal → 1/4 each of violet axial, violet terminal, white axial, white terminal;<br>(c) violet, axial × violet, axial → 3/4 violet axial, 1/4 white axial.<br>Find the genotypes of the parents in each cross.",
+    "hint": "Take one character at a time: a 1 : 1 ratio is a test cross, 3 : 1 is hybrid × hybrid.",
+    "model_answer": "*How much to write: one line of reasoning per cross · 6 minutes*\n\nTake each character separately.\n\n**(a)** Colour 8 : 8 = <u>1 : 1</u> → Vv × vv. Position 12 : 4 = <u>3 : 1</u> → Aa × Aa.<br>Parents: <mark>VvAa × vvAa</mark>.\n\n**(b)** Colour 1 : 1 → Vv × vv. Position 1 : 1 → Aa × aa.<br>Parents: <mark>VvAa × vvaa</mark> (a dihybrid test cross).\n\n**(c)** Colour 3 : 1 → Vv × Vv. All axial → at least one parent is AA.<br>Parents: <mark>VvAA × VvAA</mark> (or VvAA × VvAa).\n\n:::tip Your answer must contain\n- ratios read one character at a time\n- (a) VvAa × vvAa\n- (b) VvAa × vvaa\n- (c) VvAA × VvAA (or VvAa)\n:::\n\n**Marks are lost for:** giving phenotypes instead of genotypes; missing that both parents in (a) are Aa.",
+    "scheme": [
+      {
+        "step": "Cross a: VvAa × vvAa",
+        "marks": 1
+      },
+      {
+        "step": "Cross b: VvAa × vvaa",
+        "marks": 1
+      },
+      {
+        "step": "Cross c: VvAA × VvAA / VvAa",
+        "marks": 1
+      }
+    ],
+    "source_note": "CBSE Class 12 Biology board paper 2024 (one set), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers. The board table repeated 'violet, axial' in cross (a); the last class is taken as violet, terminal."
+  },
+  {
+    "id": "bio-pyq24-31a",
+    "chapter": "ch-04",
+    "type": "la5",
+    "marks": 5,
+    "stars": 3,
+    "label": "PYQ (2024)",
+    "topic": "Codominance and ABO blood groups",
+    "stem": "\"In codominance, the influence of both alleles is clearly expressed in the heterozygote.\" Explain with the inheritance of the ABO blood groups in humans.",
+    "hint": "Gene I, three alleles, sugars on the RBC surface.",
+    "model_answer": "*How much to write: 10 lines + a small table · 9 minutes*\n\n- ABO blood groups are controlled by the gene <mark>*I*</mark>, which has <u>three alleles</u>: *Iᴬ*, *Iᴮ* and *i* (multiple allelism). A person has any two of them.\n- The RBC membrane carries <u>sugar polymers</u>. *Iᴬ* and *Iᴮ* produce two slightly different sugars; *i* produces none.\n- *Iᴬ* and *Iᴮ* are both <u>dominant over *i*</u>: *Iᴬ i* is group A and *Iᴮ i* is group B.\n- When *Iᴬ* and *Iᴮ* are together, <mark>both express their own sugar</mark>, so the RBCs carry both A and B types: blood group <mark>AB</mark>. Neither masks the other and they do not blend: this is <u>codominance</u>.\n\n| Genotype | Blood group |\n|---|---|\n| *Iᴬ Iᴬ*, *Iᴬ i* | A |\n| *Iᴮ Iᴮ*, *Iᴮ i* | B |\n| *Iᴬ Iᴮ* | AB |\n| *i i* | O |\n\nThree alleles give <u>six genotypes and four phenotypes</u>.\n\n:::tip Your answer must contain\n- gene *I*, three alleles\n- sugars on RBC; *i* makes none\n- <mark>*Iᴬ Iᴮ* → AB: both expressed</mark>\n- 6 genotypes, 4 phenotypes\n:::\n\n**Marks are lost for:** calling AB an intermediate group (that would be incomplete dominance).",
+    "scheme": [
+      {
+        "step": "Gene I with three alleles Iᴬ, Iᴮ, i",
+        "marks": 1
+      },
+      {
+        "step": "Alleles produce different sugars on RBC; i none",
+        "marks": 1
+      },
+      {
+        "step": "Iᴬ and Iᴮ dominant over i",
+        "marks": 1
+      },
+      {
+        "step": "Iᴬ Iᴮ: both expressed = AB = codominance",
+        "marks": 1
+      },
+      {
+        "step": "Six genotypes, four phenotypes (table)",
+        "marks": 1
+      }
+    ],
+    "source_note": "CBSE Class 12 Biology board paper 2024 (one set), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
+  },
+  {
+    "id": "bio-pyq23-01",
+    "chapter": "ch-04",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ (2023)",
+    "topic": "Recombination",
+    "stem": "Recombinants of **linked** genes appear in later generations because of:",
+    "options": [
+      "mutation",
+      "independent assortment in meiosis II",
+      "crossing over between bivalents",
+      "segregation of alleles"
+    ],
+    "answer": "C",
+    "hint": "Morgan's *Drosophila* crosses.",
+    "model_answer": "**(c).** Linked genes sit on the same chromosome and travel together; only **crossing over** between homologous chromosomes (bivalents) in meiosis I separates them to give non-parental combinations.",
+    "source_note": "CBSE Class 12 Biology board paper 2023 (one set), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers. Adapted: the board item listed four processes in combinations and its answer is disputed; this version asks only about linked genes."
+  },
+  {
+    "id": "bio-pyq23-16",
+    "chapter": "ch-04",
+    "type": "ar",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ (2023)",
+    "topic": "Sex determination",
+    "stem": "**Assertion (A):** In birds such as pigeons, females are heterogametic and males are homogametic.<br>**Reason (R):** Female pigeons have Z and W sex chromosomes; males have ZZ.",
+    "options": [
+      "Both A and R are true, and R is the correct explanation of A.",
+      "Both A and R are true, but R is not the correct explanation of A.",
+      "A is true, but R is false.",
+      "A is false, but R is true."
+    ],
+    "answer": "A",
+    "hint": "Which sex makes two kinds of gametes?",
+    "model_answer": "**(a).** ZW females make two kinds of eggs (Z or W); ZZ males make one kind of sperm. R is the reason for A.",
+    "source_note": "CBSE Class 12 Biology board paper 2023 (one set), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
+  },
+  {
+    "id": "bio-pyq23-23",
+    "chapter": "ch-04",
+    "type": "sa3",
+    "marks": 3,
+    "stars": 3,
+    "label": "PYQ (2023)",
+    "topic": "Pedigree analysis",
+    "stem": "In a pedigree, two unaffected parents (generation I) have four children: an affected daughter, an unaffected son (1), an affected son (2) and an unaffected daughter (3). Daughter 3 marries an unaffected man; they have an affected son and two unaffected daughters. (a) Is the trait dominant or recessive? Give a reason. (b) Is it autosomal or sex-linked? Give a reason. (c) Write the possible genotypes of children 1 and 3 of generation II.",
+    "hint": "Affected child from unaffected parents; then look at the affected daughter's father.",
+    "model_answer": "*How much to write: 5–6 lines · 5 minutes*\n\n**(a)** <mark>Recessive</mark>: <u>unaffected parents have affected children</u>, so both parents must carry a hidden allele.\n\n**(b)** <mark>Autosomal</mark>: an <u>affected daughter has an unaffected father</u>. If the trait were X-linked recessive, her father would have to be affected.\n\n**(c)** Let A = normal, a = trait. Parents are Aa × Aa.<br>Child 1: <u>AA or Aa</u>.<br>Child 3: <mark>Aa</mark> (she has an affected son, so she must carry a).\n\n:::tip Your answer must contain\n- recessive, with the reason\n- autosomal, using the affected daughter\n- 1: AA/Aa; 3: Aa\n:::\n\n**Marks are lost for:** giving a verdict without the reason; calling it X-linked because sons are affected.",
+    "scheme": [
+      {
+        "step": "Recessive; unaffected parents have affected offspring",
+        "marks": 1
+      },
+      {
+        "step": "Autosomal; affected daughter of an unaffected father",
+        "marks": 1
+      },
+      {
+        "step": "Child 1: AA or Aa; child 3: Aa",
+        "marks": 1
+      }
+    ],
+    "source_note": "CBSE Class 12 Biology board paper 2023 (one set), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers. The board question was based on a figure; it is described in words here."
+  },
+  {
+    "id": "bio-pyq23-31b",
+    "chapter": "ch-04",
+    "type": "la5",
+    "marks": 5,
+    "stars": 3,
+    "label": "PYQ (2023)",
+    "topic": "Dihybrid cross",
+    "stem": "(i) A true-breeding tall pea plant with round seeds is crossed with a dwarf plant with wrinkled seeds. Work out the cross up to the F₂ generation and give the phenotypic ratios of F₁ and F₂. (ii) State the Mendelian principle that can be derived only from such a cross.",
+    "hint": "Four kinds of gametes from the F₁.",
+    "model_answer": "*How much to write: cross laid out in steps · 9 minutes*\n\n**Parents:** tall, round <u>TTRR</u> × dwarf, wrinkled <u>ttrr</u><br>**Gametes:** TR and tr<br>**F₁:** all <mark>TtRr, tall and round</mark> (ratio: 100%)\n\n**F₁ selfed:** TtRr × TtRr<br>**Gametes of each:** TR, Tr, tR, tr (¼ each)\n\n**F₂ (16 combinations):**\n- tall, round: 9\n- tall, wrinkled: 3\n- dwarf, round: 3\n- dwarf, wrinkled: 1\n\nPhenotypic ratio <mark>9 : 3 : 3 : 1</mark>.\n\n**(ii) Law of independent assortment:** when two pairs of traits are combined in a hybrid, <u>segregation of one pair of characters is independent of the other pair</u>.\n\n:::tip Your answer must contain\n- genotypes of parents, gametes, F₁\n- four gamete types\n- 9 : 3 : 3 : 1 with phenotypes\n- law stated in words\n:::\n\n**Marks are lost for:** writing only the ratio without the phenotypes; stating the law of segregation.",
+    "scheme": [
+      {
+        "step": "Parents, gametes and F1 (all tall round, TtRr)",
+        "marks": 1.5
+      },
+      {
+        "step": "Four kinds of F1 gametes",
+        "marks": 1
+      },
+      {
+        "step": "F2 phenotypes in 9 : 3 : 3 : 1",
+        "marks": 1.5
+      },
+      {
+        "step": "Law of independent assortment stated",
+        "marks": 1
+      }
+    ],
+    "source_note": "CBSE Class 12 Biology board paper 2023 (one set), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
   }
 ]

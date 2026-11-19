@@ -416,5 +416,147 @@
       }
     ],
     "source_note": "CBSE Class 12 Biology board paper 2025 (one set), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
+  },
+  {
+    "id": "bio-pyq24-11",
+    "chapter": "ch-11",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 3,
+    "label": "PYQ (2024)",
+    "topic": "Growth curves",
+    "stem": "Beetles in nature have unlimited resources. The curve of their population density against time will be:",
+    "options": [
+      "J-shaped, rising more and more steeply",
+      "S-shaped, levelling off at a ceiling",
+      "a horizontal straight line",
+      "a line falling steadily"
+    ],
+    "answer": "A",
+    "hint": "No carrying capacity is acting.",
+    "model_answer": "**(a).** Unlimited resources give **exponential growth**, a J-shaped curve (dN/dt = rN).",
+    "source_note": "CBSE Class 12 Biology board paper 2024 (one set), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers. The board question showed four graphs; they are described in words here."
+  },
+  {
+    "id": "bio-pyq24-27",
+    "chapter": "ch-11",
+    "type": "sa3",
+    "marks": 3,
+    "stars": 3,
+    "label": "PYQ (2024)",
+    "topic": "Predation",
+    "stem": "Explain any three roles of predation in an ecosystem, with suitable examples.",
+    "hint": "Energy, control, diversity.",
+    "model_answer": "*How much to write: 6–7 lines · 5 minutes*\n\n1. **Conduit for energy:** predators <mark>transfer energy</mark> fixed by plants to higher trophic levels.\n2. **Keeps prey populations under control:** the prickly pear cactus that overran Australia was controlled by introducing a <u>cactus-feeding moth</u>; this is the basis of <mark>biological control</mark>.\n3. **Maintains species diversity** by reducing competition among prey: when the starfish <u>*Pisaster*</u> was removed from an American Pacific coast community, <mark>more than 10 invertebrate species became extinct</mark> within a year.\n\n:::tip Your answer must contain\n- energy transfer across trophic levels\n- control of prey (cactus moth)\n- diversity (*Pisaster*)\n:::\n\n**Marks are lost for:** listing roles without examples.",
+    "scheme": [
+      {
+        "step": "Energy transfer to higher trophic levels",
+        "marks": 1
+      },
+      {
+        "step": "Prey control with example",
+        "marks": 1
+      },
+      {
+        "step": "Maintains species diversity with example",
+        "marks": 1
+      }
+    ],
+    "source_note": "CBSE Class 12 Biology board paper 2024 (one set), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
+  },
+  {
+    "id": "bio-pyq24-30",
+    "chapter": "ch-11",
+    "type": "case",
+    "marks": 4,
+    "stars": 3,
+    "label": "PYQ (2024)",
+    "topic": "Age pyramids",
+    "stem": "*Age pyramids of two human populations are compared. In **Rwanda** the youngest group (0–4 years) is the widest bar, about 8.2% males and 8.2% females, and the bars narrow steadily to almost nothing above 80 years. In **Sweden** the bars are of nearly the same width from the base (about 2.5–2.7% in the 0–4 group) up to about 60 years, narrowing only at the top.*",
+    "hint": "A wide base means many pre-reproductive individuals.",
+    "parts": [
+      {
+        "id": "A",
+        "marks": 2,
+        "stem": "What can be inferred from the very broad base of Rwanda's pyramid? Support your answer with the data.",
+        "model_answer": "A very large share of the population is pre-reproductive: the 0–4 group alone is about 8.2% males and 8.2% females, far more than any older group. These children will enter the reproductive age, so the population is growing (expanding).",
+        "scheme": [
+          {
+            "step": "Large pre-reproductive group, with data (0–4 years ≈ 8.2% each sex)",
+            "marks": 1
+          },
+          {
+            "step": "Population is growing/expanding",
+            "marks": 1
+          }
+        ]
+      },
+      {
+        "id": "B",
+        "marks": 1,
+        "stem": "Sweden's age distribution is about as wide near the base as higher up. What does this show?",
+        "model_answer": "Pre-reproductive and reproductive groups are nearly equal, so the population is stable (growth near zero).",
+        "scheme": [
+          {
+            "step": "Stable population; pre-reproductive ≈ reproductive",
+            "marks": 1
+          }
+        ]
+      },
+      {
+        "id": "C",
+        "marks": 1,
+        "stem": "Name the type of age pyramid shown for Sweden. **OR** Name the type shown for Rwanda.",
+        "model_answer": "Sweden: stable (bell-shaped). **OR** Rwanda: expanding (triangular).",
+        "scheme": [
+          {
+            "step": "Stable/bell-shaped (Sweden) OR expanding/triangular (Rwanda)",
+            "marks": 1
+          }
+        ]
+      }
+    ],
+    "model_answer": "*How much to write: 3 lines for (a), 1–2 lines each for (b) and (c) · 6 minutes*\n\n**(a)** The broad base shows a very large <u>pre-reproductive</u> group: the 0–4 years bar is about <mark>8.2% males and 8.2% females</mark>, wider than every bar above it. So the population is <mark>growing (expanding)</mark>.\n\n**(b)** Pre-reproductive and reproductive groups are about equal: a <mark>stable population</mark> with growth near zero.\n\n**(c)** Sweden: <u>stable (bell-shaped)</u> pyramid. **OR** Rwanda: <u>expanding (triangular)</u> pyramid.\n\n:::tip Your answer must contain\n- pre-reproductive group largest, with the figure quoted\n- stable population\n- bell-shaped / triangular\n:::\n\n**Marks are lost for:** answering (a) without quoting data; calling Sweden's pyramid declining (urn-shaped).",
+    "source_note": "CBSE Class 12 Biology board paper 2024 (one set), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers. The board question showed the two pyramids; their key figures are given in words here."
+  },
+  {
+    "id": "bio-pyq23-03",
+    "chapter": "ch-11",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 3,
+    "label": "PYQ (2023)",
+    "topic": "Age pyramids",
+    "stem": "A human age pyramid is urn-shaped: the pre-reproductive group at the base is narrower than the reproductive group above it. The population is:",
+    "options": [
+      "declining",
+      "stable",
+      "expanding",
+      "extinct"
+    ],
+    "answer": "A",
+    "hint": "Narrow base.",
+    "model_answer": "**(a).** Fewer young individuals than reproductive ones means fewer future parents: a **declining** population.",
+    "source_note": "CBSE Class 12 Biology board paper 2023 (one set), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers. The board question was based on a figure; it is described in words here."
+  },
+  {
+    "id": "bio-pyq23-14",
+    "chapter": "ch-11",
+    "type": "ar",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ (2023)",
+    "topic": "Commensalism",
+    "stem": "**Assertion (A):** Cattle egrets and grazing cattle in close association are a classic example of commensalism.<br>**Reason (R):** As cattle move through the field they stir up and flush out insects that the egrets would otherwise find hard to catch.",
+    "options": [
+      "Both A and R are true, and R is the correct explanation of A.",
+      "Both A and R are true, but R is not the correct explanation of A.",
+      "A is true, but R is false.",
+      "A is false, but R is true."
+    ],
+    "answer": "A",
+    "hint": "Who gains, who is unaffected?",
+    "model_answer": "**(a).** The egret benefits (easy food) and the cattle are neither helped nor harmed; R explains why the egret gains.",
+    "source_note": "CBSE Class 12 Biology board paper 2023 (one set), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
   }
 ]

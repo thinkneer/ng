@@ -364,5 +364,51 @@
       }
     ],
     "source_note": "CBSE Class 12 Biology board paper 2025 (one set), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
+  },
+  {
+    "id": "bio-pyq24-20a",
+    "chapter": "ch-12",
+    "type": "vsa2",
+    "marks": 2,
+    "stars": 2,
+    "label": "PYQ (2024)",
+    "topic": "Decomposition",
+    "stem": "Write the important features of the humus formed during decomposition in a terrestrial ecosystem.",
+    "hint": "Colour, form, resistance, what it stores.",
+    "model_answer": "*How much to write: 3–4 lines · 2 minutes*\n\nHumus is a <mark>dark coloured, amorphous</mark> substance formed by humification. It is <u>highly resistant to microbial action</u> and decomposes at an extremely slow rate. Being <u>colloidal</u>, it serves as a <mark>reservoir of nutrients</mark>; later it is degraded by mineralisation to release inorganic nutrients.\n\n:::tip Your answer must contain\n- dark, amorphous\n- resistant to microbes; decomposes slowly\n- colloidal; <u>reservoir of nutrients</u>\n:::\n\n**Marks are lost for:** confusing humus with detritus.",
+    "scheme": [
+      {
+        "step": "Dark, amorphous; resistant to microbial action, slow decomposition",
+        "marks": 1
+      },
+      {
+        "step": "Colloidal; reservoir of nutrients",
+        "marks": 1
+      }
+    ],
+    "source_note": "CBSE Class 12 Biology board paper 2024 (one set), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
+  },
+  {
+    "id": "bio-pyq23-20",
+    "chapter": "ch-12",
+    "type": "vsa2",
+    "marks": 2,
+    "stars": 3,
+    "label": "PYQ (2023)",
+    "topic": "Ecological pyramids",
+    "stem": "Ecological pyramids give useful information but have limitations. List any two.",
+    "hint": "Food webs, two trophic levels, saprophytes.",
+    "model_answer": "*How much to write: 3 lines · 2 minutes*\n\nAny two:\n1. A pyramid does not take into account the <mark>same species belonging to two or more trophic levels</mark>.\n2. It assumes a simple food chain, which almost never exists in nature; it does <u>not accommodate a food web</u>.\n3. <u>Saprophytes</u> (decomposers) are given no place, though they play a vital role.\n\n:::tip Your answer must contain\n- two of: two trophic levels / food web / saprophytes\n:::\n\n**Marks are lost for:** writing features of pyramids (upright, inverted) as limitations.",
+    "scheme": [
+      {
+        "step": "First limitation",
+        "marks": 1
+      },
+      {
+        "step": "Second limitation",
+        "marks": 1
+      }
+    ],
+    "source_note": "CBSE Class 12 Biology board paper 2023 (one set), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
   }
 ]

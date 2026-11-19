@@ -457,5 +457,119 @@
       }
     ],
     "source_note": "CBSE Class 12 Biology board paper 2025 (one set), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
+  },
+  {
+    "id": "bio-pyq24-02",
+    "chapter": "ch-06",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ (2024)",
+    "topic": "Origin of life",
+    "stem": "Early Greek thinkers held that units of life reached different planets from outer space in the form of:",
+    "options": [
+      "seeds",
+      "spores",
+      "gemmules",
+      "gametes"
+    ],
+    "answer": "B",
+    "hint": "The theory's name contains the word for it.",
+    "model_answer": "**(b).** This is **panspermia**: life came as 'spores' from outer space.",
+    "source_note": "CBSE Class 12 Biology board paper 2024 (one set), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
+  },
+  {
+    "id": "bio-pyq24-05",
+    "chapter": "ch-06",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 3,
+    "label": "PYQ (2024)",
+    "topic": "Industrial melanism",
+    "stem": "In England after industrialisation (after about 1850), natural selection made white-winged moths, compared with dark-winged moths:",
+    "options": [
+      "fewer",
+      "more numerous",
+      "both became fewer",
+      "both became more numerous"
+    ],
+    "answer": "A",
+    "hint": "Which colour is hidden on a sooty trunk?",
+    "model_answer": "**(a).** Soot darkened the tree trunks and lichens died, so white moths were easily seen and eaten by birds; dark moths survived and outnumbered them.",
+    "source_note": "CBSE Class 12 Biology board paper 2024 (one set), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
+  },
+  {
+    "id": "bio-pyq24-23",
+    "chapter": "ch-06",
+    "type": "sa3",
+    "marks": 3,
+    "stars": 3,
+    "label": "PYQ (2024)",
+    "topic": "Hardy–Weinberg principle",
+    "stem": "Brown and grey snakes live in a desert with brown sand; brown (A) is dominant over grey (a). In population one, both colours are common. After birds that eat snakes migrate into the area, population two is almost entirely brown. (a) If the recessive trait has a frequency of 9% in population one, work out the frequencies of homozygous dominant and heterozygous snakes. (b) Name the mechanism of evolution that changed population one into population two.",
+    "hint": "q² = 0.09. Then p + q = 1.",
+    "model_answer": "*How much to write: 5 lines of working · 5 minutes*\n\n**Given:** frequency of recessive (aa) snakes, $q^2 = 0.09$<br>**To find:** $p^2$ and $2pq$\n\n**Formula:** $p+q=1$ and $p^2+2pq+q^2=1$\n\n**Solution:**\n\n$$q=\\sqrt{0.09}=0.3$$\n\n$$p=1-0.3=0.7$$\n\n$$p^2=0.49\\quad 2pq=2(0.7)(0.3)=0.42$$\n\nHomozygous dominant (AA) = <mark>49%</mark>; heterozygous (Aa) = <mark>42%</mark>.\n\n**(b)** <mark>Natural selection</mark>: grey snakes are easily seen on brown sand and eaten by the birds, so brown snakes survive and reproduce more.\n\n:::tip Your answer must contain\n- q = 0.3, p = 0.7\n- AA = <u>49%</u>, Aa = <u>42%</u>\n- <u>natural selection</u> (predation by birds)\n:::\n\n**Marks are lost for:** taking q = 0.09; forgetting the 2 in 2pq.",
+    "scheme": [
+      {
+        "step": "q = 0.3 and p = 0.7",
+        "marks": 1
+      },
+      {
+        "step": "AA = 49% and Aa = 42%",
+        "marks": 1
+      },
+      {
+        "step": "Natural selection",
+        "marks": 1
+      }
+    ],
+    "source_note": "CBSE Class 12 Biology board paper 2024 (one set), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers. The board question showed the two populations as drawings; they are described in words here."
+  },
+  {
+    "id": "bio-pyq23-07",
+    "chapter": "ch-06",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 3,
+    "label": "PYQ (2023)",
+    "topic": "Natural selection",
+    "stem": "The evolution of the long neck of the giraffe by natural selection is best described as:",
+    "options": [
+      "stabilising selection: longer necks are selected further",
+      "disruptive selection: both short and long necks are selected",
+      "directional selection: longer necks are selected",
+      "stabilising selection: medium necks are selected"
+    ],
+    "answer": "C",
+    "hint": "The peak moves one way.",
+    "model_answer": "**(c).** One extreme (longer neck) is favoured, so the peak of the distribution shifts in one direction: **directional selection**.",
+    "source_note": "CBSE Class 12 Biology board paper 2023 (one set), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
+  },
+  {
+    "id": "bio-pyq23-27",
+    "chapter": "ch-06",
+    "type": "sa3",
+    "marks": 3,
+    "stars": 3,
+    "label": "PYQ (2023)",
+    "topic": "Human evolution",
+    "stem": "(a) Name the two primates, ancestors of present-day humans, that existed about 15 million years ago. (b) According to the geological record, when and where did the australopithecines live? (c) Give two differences between *Homo habilis* and *Homo erectus*.",
+    "hint": "Brain sizes 650–800 cc and 900 cc.",
+    "model_answer": "*How much to write: 5 lines · 4 minutes*\n\n**(a)** <mark>*Dryopithecus*</mark> (more ape-like) and <mark>*Ramapithecus*</mark> (more man-like).\n\n**(b)** About <u>2 million years ago</u>, in the <u>East African grasslands</u>.\n\n**(c)**\n\n| *Homo habilis* | *Homo erectus* |\n|---|---|\n| brain <u>650–800 cc</u> | brain about <u>900 cc</u> |\n| probably did not eat meat | probably ate meat |\n\n:::tip Your answer must contain\n- *Dryopithecus*, *Ramapithecus*\n- 2 mya, East Africa\n- brain size and diet\n:::\n\n**Marks are lost for:** swapping the two brain sizes.",
+    "scheme": [
+      {
+        "step": "Dryopithecus and Ramapithecus",
+        "marks": 1
+      },
+      {
+        "step": "About 2 mya in East African grasslands",
+        "marks": 1
+      },
+      {
+        "step": "Two differences",
+        "marks": 1
+      }
+    ],
+    "source_note": "CBSE Class 12 Biology board paper 2023 (one set), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
   }
 ]

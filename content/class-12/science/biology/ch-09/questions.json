@@ -499,5 +499,260 @@
     "hint": "Where does replication begin?",
     "model_answer": "**(a).** Replication begins only at an *ori*. Alien DNA has none of its own, so it must be linked to a chromosome (or a vector) that has one. R explains A.",
     "source_note": "CBSE Class 12 Biology board paper 2025 (one set), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
+  },
+  {
+    "id": "bio-pyq24-09",
+    "chapter": "ch-09",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 3,
+    "label": "PYQ (2024)",
+    "topic": "First recombinant DNA",
+    "stem": "Stanley Cohen and Herbert Boyer joined an antibiotic-resistance gene to a plasmid of *Salmonella typhimurium*. The enzyme that made the joining possible was:",
+    "options": [
+      "*Taq* polymerase",
+      "DNA ligase",
+      "restriction endonuclease",
+      "β-galactosidase"
+    ],
+    "answer": "B",
+    "hint": "Cutting is one enzyme, joining is another.",
+    "model_answer": "**(b).** Restriction enzymes cut the DNA; **DNA ligase** links the cut gene to the plasmid.",
+    "source_note": "CBSE Class 12 Biology board paper 2024 (one set), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
+  },
+  {
+    "id": "bio-pyq24-12",
+    "chapter": "ch-09",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ (2024)",
+    "topic": "PCR primers",
+    "stem": "During annealing in PCR, the two primers bind to the DNA to be amplified in which way?",
+    "options": [
+      "Both bind to the same strand, pointing the same way",
+      "Each binds to the 3′ end region of a different strand, antiparallel to it, so that their 3′ ends face each other",
+      "Each binds to the 5′ end region of a different strand, parallel to it",
+      "Both bind to each other between the two strands"
+    ],
+    "answer": "B",
+    "hint": "Polymerase adds nucleotides only to a 3′-OH end.",
+    "model_answer": "**(b).** Each primer is complementary to the 3′ end region of one template strand and pairs antiparallel to it; the polymerase then extends each primer from its free 3′ end across the target.",
+    "source_note": "CBSE Class 12 Biology board paper 2024 (one set), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers. Adapted: the board question showed four drawings; the choice is put in words here."
+  },
+  {
+    "id": "bio-pyq24-14",
+    "chapter": "ch-09",
+    "type": "ar",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ (2024)",
+    "topic": "Bioreactors",
+    "stem": "**Assertion (A):** The stirrer helps even mixing and oxygen availability throughout a bioreactor.<br>**Reason (R):** Stirred-tank bioreactors generally have a flat base.",
+    "options": [
+      "Both A and R are true, and R is the correct explanation of A.",
+      "Both A and R are true, but R is not the correct explanation of A.",
+      "A is true, but R is false.",
+      "A is false, but R is true."
+    ],
+    "answer": "C",
+    "hint": "Flat or curved base?",
+    "model_answer": "**(c).** A is true. R is false: a stirred-tank reactor is cylindrical or has a **curved base**, which helps mixing.",
+    "source_note": "CBSE Class 12 Biology board paper 2024 (one set), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
+  },
+  {
+    "id": "bio-pyq24-18",
+    "chapter": "ch-09",
+    "type": "vsa2",
+    "marks": 2,
+    "stars": 3,
+    "label": "PYQ (2024)",
+    "topic": "Gel electrophoresis",
+    "stem": "A mixture of DNA fragments of different lengths is loaded in the wells of a gel. In **Set-up A** the wells are at the cathode end and the anode is at the far end; in **Set-up B** the wells are at the anode end. **Set-up C** shows a gel after the run, with band I near the wells and band II far from them. (a) In which set-up, A or B, will the fragments separate, and why? (b) In Set-up C, which band has the longer fragments? Justify.",
+    "hint": "DNA carries a negative charge; the gel is a sieve.",
+    "model_answer": "*How much to write: 4 lines · 3 minutes*\n\n**(a)** <mark>Set-up A</mark>. DNA fragments are <u>negatively charged</u>, so they move towards the <u>anode</u> through the gel. In B the wells are already at the anode, so the fragments will not run through the gel.\n\n**(b)** <mark>Band I</mark>. The agarose gel acts as a <u>sieve</u>: fragments separate by size, and the <u>smaller the fragment, the farther it moves</u>. Longer fragments stay near the wells.\n\n:::tip Your answer must contain\n- A: DNA is <u>negative</u>, moves to anode\n- Band I: sieving effect, larger fragments move less\n:::\n\n**Marks are lost for:** saying DNA is positively charged; choosing the far band as the longer one.",
+    "scheme": [
+      {
+        "step": "Set-up A; negatively charged DNA moves towards the anode",
+        "marks": 1
+      },
+      {
+        "step": "Band I; sieving effect, larger fragments move a shorter distance",
+        "marks": 1
+      }
+    ],
+    "source_note": "CBSE Class 12 Biology board paper 2024 (one set), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers. The board question showed the three set-ups as drawings; they are described in words here."
+  },
+  {
+    "id": "bio-pyq24-29",
+    "chapter": "ch-09",
+    "type": "case",
+    "marks": 4,
+    "stars": 3,
+    "label": "PYQ (2024)",
+    "topic": "Restriction enzymes",
+    "stem": "*Restriction enzymes recognise and cut DNA within a specific recognition sequence. **BamH I** recognises 5′-GGATCC-3′ and cuts between G and G on each strand. **Alu I** recognises 5′-AGCT-3′ and cuts between G and C on each strand. A DNA segment is:*<br>5′-CCGTAGCTATCAGCTGG-3′<br>3′-GGCATCGATAGTCGACC-5′",
+    "hint": "Find every AGCT in the top strand; cuts in the middle of a site give blunt ends.",
+    "parts": [
+      {
+        "id": "A",
+        "marks": 1,
+        "stem": "If Alu I cuts this DNA, how many fragments form? Write each with its polarity.",
+        "model_answer": "Two AGCT sites, so three fragments: 5′-CCGTAG-3′ / 3′-GGCATC-5′; 5′-CTATCAG-3′ / 3′-GATAGTC-5′; 5′-CTGG-3′ / 3′-GACC-5′.",
+        "scheme": [
+          {
+            "step": "Three fragments",
+            "marks": 0.5
+          },
+          {
+            "step": "Sequences with polarity",
+            "marks": 0.5
+          }
+        ]
+      },
+      {
+        "id": "B",
+        "marks": 1,
+        "stem": "Which of the two enzymes is preferred for making a recombinant DNA molecule, and why?",
+        "model_answer": "BamH I: it cuts a little away from the centre of its site and leaves single-stranded sticky ends, which pair with complementary ends and are joined easily by DNA ligase. Alu I cuts in the middle and gives blunt ends.",
+        "scheme": [
+          {
+            "step": "BamH I; sticky ends help ligation",
+            "marks": 1
+          }
+        ]
+      },
+      {
+        "id": "C",
+        "marks": 2,
+        "stem": "Where exactly does a restriction enzyme cut the two strands after binding, and what are the sequences it recognises called? **OR** Write the DNA sequence recognised by EcoRI and show where it cuts.",
+        "model_answer": "It cuts each strand at specific points in the sugar–phosphate backbone, a little away from the centre of the site, between the same two bases on the opposite strands; the sites are palindromic nucleotide sequences. **OR** 5′-GAATTC-3′ / 3′-CTTAAG-5′, cut between G and A on each strand.",
+        "scheme": [
+          {
+            "step": "Cuts sugar–phosphate backbone between the same two bases on both strands OR 5′-GAATTC-3′ / 3′-CTTAAG-5′",
+            "marks": 1
+          },
+          {
+            "step": "Palindromic nucleotide sequences OR cut between G and A",
+            "marks": 1
+          }
+        ]
+      }
+    ],
+    "model_answer": "*How much to write: three fragments written out, then 2 lines each · 7 minutes*\n\n**(a)** AGCT occurs twice, so <mark>three fragments</mark>:<br>5′-CCGTAG-3′ / 3′-GGCATC-5′<br>5′-CTATCAG-3′ / 3′-GATAGTC-5′<br>5′-CTGG-3′ / 3′-GACC-5′\n\n**(b)** <mark>BamH I</mark>: it leaves overhanging <u>sticky ends</u>, which form hydrogen bonds with complementary ends and make the work of <u>DNA ligase</u> easy. Alu I gives blunt ends. (This particular segment has no BamH I site, so the answer is about the choice of enzyme in general.)\n\n**(c)** The enzyme cuts each strand in the <u>sugar–phosphate backbone</u>, a little away from the centre of the site, between the same two bases on opposite strands. The sites are <mark>palindromic nucleotide sequences</mark>. **OR** EcoRI: 5′-G↓AATTC-3′ / 3′-CTTAA↑G-5′.\n\n:::tip Your answer must contain\n- three fragments with 5′ and 3′ marked\n- sticky ends + ligase\n- <mark>palindromic</mark> sequence (or GAATTC)\n:::\n\n**Marks are lost for:** leaving out polarity; cutting at only one AGCT site.",
+    "source_note": "CBSE Class 12 Biology board paper 2024 (one set), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers. Part (b) is worded generally because the printed segment has no BamH I site."
+  },
+  {
+    "id": "bio-pyq23-05",
+    "chapter": "ch-09",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 3,
+    "label": "PYQ (2023)",
+    "topic": "Enzymes of rDNA technology",
+    "stem": "Match the enzymes with their functions: P. DNA ligase; Q. exonuclease; R. *Taq* polymerase; S. restriction endonuclease — (i) removes nucleotides from the ends of DNA; (ii) extends a primer on a DNA template; (iii) joins DNA fragments; (iv) cuts DNA at a specific position.",
+    "options": [
+      "P-i, Q-ii, R-iv, S-iii",
+      "P-iv, Q-iii, R-ii, S-i",
+      "P-i, Q-iv, R-iii, S-ii",
+      "P-iii, Q-i, R-ii, S-iv"
+    ],
+    "answer": "D",
+    "hint": "Exo = from the ends; endo = within.",
+    "model_answer": "**(d).** Ligase joins; exonuclease trims ends; *Taq* polymerase extends primers; restriction endonuclease cuts at specific sites inside DNA.",
+    "source_note": "CBSE Class 12 Biology board paper 2023 (one set), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
+  },
+  {
+    "id": "bio-pyq23-11",
+    "chapter": "ch-09",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 3,
+    "label": "PYQ (2023)",
+    "topic": "First recombinant DNA",
+    "stem": "The first artificial recombinant DNA (Cohen and Boyer, 1972) was made using a plasmid of:",
+    "options": [
+      "*E. coli*",
+      "*Salmonella typhimurium*",
+      "*Agrobacterium tumefaciens*",
+      "*Bacillus thuringiensis*"
+    ],
+    "answer": "B",
+    "hint": "The plasmid's source, not the host it was cloned in.",
+    "model_answer": "**(b).** They linked an antibiotic-resistance gene to a native plasmid of ***Salmonella typhimurium***; the recombinant was then put into *E. coli*.",
+    "source_note": "CBSE Class 12 Biology board paper 2023 (one set), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
+  },
+  {
+    "id": "bio-pyq23-19a",
+    "chapter": "ch-09",
+    "type": "vsa2",
+    "marks": 2,
+    "stars": 3,
+    "label": "PYQ (2023)",
+    "topic": "Cloning vectors",
+    "stem": "Two pictures show (A) a small ring of double-stranded DNA from a bacterium and (B) a virus with a head and tail that infects bacteria. (i) Name A and B. (ii) State their importance in biotechnology experiments.",
+    "hint": "Both carry foreign DNA into a host.",
+    "model_answer": "*How much to write: 3–4 lines · 2 minutes*\n\n**(i)** A: <mark>plasmid</mark>; B: <mark>bacteriophage</mark>.\n\n**(ii)** Both <u>replicate inside bacterial cells independently of the chromosomal DNA</u> and reach high copy numbers, so they are used as <mark>cloning vectors</mark>: a piece of alien DNA linked to them is multiplied along with them and delivered into the host.\n\n:::tip Your answer must contain\n- plasmid, bacteriophage\n- <u>vectors</u>; independent replication, high copy number\n:::\n\n**Marks are lost for:** calling the plasmid chromosomal DNA.",
+    "scheme": [
+      {
+        "step": "A plasmid, B bacteriophage",
+        "marks": 1
+      },
+      {
+        "step": "Used as cloning vectors; replicate independently, high copy number",
+        "marks": 1
+      }
+    ],
+    "source_note": "CBSE Class 12 Biology board paper 2023 (one set), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers. The board question was based on a figure; it is described in words here."
+  },
+  {
+    "id": "bio-pyq23-19b",
+    "chapter": "ch-09",
+    "type": "vsa2",
+    "marks": 2,
+    "stars": 3,
+    "label": "PYQ (2023)",
+    "topic": "Competent host",
+    "stem": "Explain how a bacterial cell is made 'competent' to take up foreign DNA using divalent cations and temperature treatment.",
+    "hint": "Calcium, ice, 42 °C, ice.",
+    "model_answer": "*How much to write: 4 lines · 3 minutes*\n\nDNA is hydrophilic and cannot pass through the cell membrane, so:\n1. the cells are treated with a specific concentration of a <mark>divalent cation such as calcium</mark>, which increases the efficiency with which DNA enters through pores in the cell wall;\n2. the cells are incubated with the recombinant DNA <u>on ice</u>, given a brief <mark>heat shock at 42 °C</mark>, and put <u>back on ice</u>. The bacteria then take up the recombinant DNA.\n\n:::tip Your answer must contain\n- Ca²⁺ treatment\n- ice → <u>42 °C</u> heat shock → ice\n:::\n\n**Marks are lost for:** leaving out the return to ice; writing 37 °C.",
+    "scheme": [
+      {
+        "step": "Treatment with divalent cation (calcium)",
+        "marks": 1
+      },
+      {
+        "step": "Incubation on ice, heat shock at 42 °C, back on ice",
+        "marks": 1
+      }
+    ],
+    "source_note": "CBSE Class 12 Biology board paper 2023 (one set), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
+  },
+  {
+    "id": "bio-pyq23-22",
+    "chapter": "ch-09",
+    "type": "sa3",
+    "marks": 3,
+    "stars": 3,
+    "label": "PYQ (2023)",
+    "topic": "Recombinant DNA",
+    "stem": "Using a schematic diagram only, show in three steps how recombinant DNA is formed by the action of the restriction endonuclease EcoRI and DNA ligase.",
+    "hint": "Cut both DNAs with the same enzyme; sticky ends; ligase.",
+    "model_answer": "*How much to write: one diagram in three labelled steps · 6 minutes*\n\n<figure class=\"fig\">\n<svg viewBox=\"0 0 320 232\" role=\"img\" aria-label=\"Three steps in making recombinant DNA with EcoRI and DNA ligase\" fill=\"none\" stroke=\"currentColor\"><g font-size=\"10\" fill=\"currentColor\" stroke=\"none\"><text x=\"4\" y=\"12\">1. EcoRI cuts vector and foreign DNA at GAATTC</text><text x=\"4\" y=\"92\">2. Sticky ends pair (hydrogen bonds)</text><text x=\"4\" y=\"168\">3. DNA ligase seals the backbone</text><text x=\"60\" y=\"34\">G</text><text x=\"100\" y=\"34\">AATTC</text><text x=\"50\" y=\"62\">CTTAA</text><text x=\"124\" y=\"62\">G</text><text x=\"246\" y=\"50\">foreign DNA</text><text x=\"96\" y=\"226\">recombinant DNA</text></g><path stroke-width=\"2\" d=\"M10,38H70M96,38H150M10,52H44M122,52H150\"/><path stroke=\"#1F5FAD\" stroke-width=\"3\" d=\"M196,38H240M176,52H220\"/><path stroke=\"#E0B400\" stroke-width=\"1.6\" d=\"M76,24V44M112,46V66\"/><path stroke-width=\"2\" d=\"M10,112H70M10,126H44M250,112H306M224,126H306\"/><path stroke=\"#1F5FAD\" stroke-width=\"3\" d=\"M70,112H250M44,126H224\"/><path stroke-dasharray=\"2 3\" d=\"M50,114V124M58,114V124M66,114V124M230,114V124M238,114V124M246,114V124\"/><path stroke-width=\"2\" d=\"M10,188H70M250,188H306M10,202H44M224,202H306\"/><path stroke=\"#1F5FAD\" stroke-width=\"3\" d=\"M70,188H250M44,202H224\"/></svg>\n<figcaption>Cut with the same enzyme, pair the sticky ends, then ligate.</figcaption>\n</figure>\n\nLabels that earn the marks: the <u>GAATTC</u> site with the cut between G and A; <mark>sticky ends</mark> on both vector and foreign DNA; <u>DNA ligase</u> joining them into <mark>recombinant DNA</mark>.\n\n:::tip Your answer must contain\n- EcoRI cutting both DNAs at <u>GAATTC</u>\n- <mark>sticky ends</mark> pairing\n- ligase → recombinant DNA\n:::\n\n**Marks are lost for:** writing a paragraph instead of a diagram; blunt ends drawn for EcoRI.",
+    "scheme": [
+      {
+        "step": "EcoRI cuts vector and foreign DNA at GAATTC giving sticky ends",
+        "marks": 1
+      },
+      {
+        "step": "Sticky ends of the two DNAs pair",
+        "marks": 1
+      },
+      {
+        "step": "DNA ligase joins them: recombinant DNA",
+        "marks": 1
+      }
+    ],
+    "source_note": "CBSE Class 12 Biology board paper 2023 (one set), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
   }
 ]

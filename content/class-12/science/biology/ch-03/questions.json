@@ -362,5 +362,71 @@
       }
     ],
     "source_note": "CBSE Class 12 Biology board paper 2025 (one set), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
+  },
+  {
+    "id": "bio-pyq24-17",
+    "chapter": "ch-03",
+    "type": "vsa2",
+    "marks": 2,
+    "stars": 3,
+    "label": "PYQ (2024)",
+    "topic": "Amniocentesis",
+    "stem": "\"Amniocentesis is a very useful technique, yet there is a statutory ban on it.\" Justify.",
+    "hint": "A good use and a misuse.",
+    "model_answer": "*How much to write: 4 lines · 3 minutes*\n\n**Use:** some <u>amniotic fluid</u> of the developing foetus is taken to analyse <u>foetal cells</u> and dissolved substances. It detects genetic disorders such as <mark>Down's syndrome, haemophilia and sickle-cell anaemia</mark> and tells whether the foetus will survive.\n\n**Ban:** it was misused for <mark>sex determination</mark> of the foetus, followed by <u>female foeticide</u>; the statutory ban on sex determination checks this.\n\n:::tip Your answer must contain\n- foetal cells from <u>amniotic fluid</u>; detects genetic disorders\n- banned for <mark>sex determination</mark> → female foeticide\n:::\n\n**Marks are lost for:** writing only the misuse; calling it a contraceptive method.",
+    "scheme": [
+      {
+        "step": "Useful: detects genetic/chromosomal disorders from amniotic fluid",
+        "marks": 1
+      },
+      {
+        "step": "Banned: misuse for sex determination and female foeticide",
+        "marks": 1
+      }
+    ],
+    "source_note": "CBSE Class 12 Biology board paper 2024 (one set), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
+  },
+  {
+    "id": "bio-pyq23-09",
+    "chapter": "ch-03",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ (2023)",
+    "topic": "Contraceptives",
+    "stem": "Match the contraceptives with their mode of action: P. Lippes loop; Q. Multiload 375; R. Norplant (implant under the skin); S. Saheli — (i) inhibits ovulation; (ii) phagocytosis of sperms in the uterus; (iii) thickens cervical mucus; (iv) makes the cervix hostile to sperms.",
+    "options": [
+      "P-ii, Q-iv, R-iii, S-i",
+      "P-i, Q-ii, R-iii, S-iv",
+      "P-iii, Q-i, R-iv, S-ii",
+      "P-iv, Q-iii, R-ii, S-i"
+    ],
+    "answer": "A",
+    "hint": "Start with the non-medicated IUD.",
+    "model_answer": "**(a).** Lippes loop is a non-medicated IUD: it increases phagocytosis of sperms (P-ii). Only option (a) has that pairing; implants act like pills by changing cervical mucus and inhibiting ovulation.",
+    "source_note": "CBSE Class 12 Biology board paper 2023 (one set), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
+  },
+  {
+    "id": "bio-pyq23-28a",
+    "chapter": "ch-03",
+    "type": "sa3",
+    "marks": 3,
+    "stars": 3,
+    "label": "PYQ (2023)",
+    "topic": "Assisted reproductive technologies",
+    "stem": "(i) Expand: ZIFT, ICSI, IUT, GIFT. (ii) Which one of them is not an IVF procedure? Give a reason.",
+    "hint": "In which one does fertilisation happen inside the body?",
+    "model_answer": "*How much to write: 5 lines · 4 minutes*\n\n**(i)** ZIFT: <u>zygote intra-fallopian transfer</u>. ICSI: <u>intra-cytoplasmic sperm injection</u>. IUT: <u>intra-uterine transfer</u>. GIFT: <u>gamete intra-fallopian transfer</u>.\n\n**(ii)** <mark>GIFT</mark>: an ovum from a donor is transferred into the fallopian tube of another woman, and <mark>fertilisation takes place inside her body (in vivo)</mark>. In the others fertilisation is done in the laboratory.\n\n:::tip Your answer must contain\n- four expansions\n- GIFT: fertilisation <u>in vivo</u>\n:::\n\n**Marks are lost for:** writing 'intra-uterine insemination' for IUT.",
+    "scheme": [
+      {
+        "step": "Four full forms (½ each)",
+        "marks": 2
+      },
+      {
+        "step": "GIFT, because fertilisation is in vivo",
+        "marks": 1
+      }
+    ],
+    "source_note": "CBSE Class 12 Biology board paper 2023 (one set), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
   }
 ]

@@ -546,5 +546,106 @@
     ],
     "model_answer": "*How much to write: 1–2 lines for (a), 3 lines for (b), 2 lines for (c) · 6 minutes*\n\n**(a)** <mark>Secondary (biological) treatment</mark> by the activated-sludge method; it removes most of the organic matter and so <u>lowers the BOD</u> of sewage.\n\n**(b)** Air gives <u>oxygen</u> for vigorous growth of <u>aerobic microbes</u> into <mark>flocs</mark> (bacteria with fungal filaments). The flocs consume the organic matter and the <u>BOD falls</u>.\n\n**(c)** The flocs <u>sediment</u> as <mark>activated sludge</mark>; part returns to the aeration tank as <u>inoculum</u>, the rest goes to anaerobic digesters. **OR** BOD measures the oxygen microbes need to oxidise the organic matter: <mark>more organic matter, higher BOD</mark>.\n\n:::tip Your answer must contain\n- secondary/biological treatment\n- oxygen → aerobic <mark>flocs</mark> → BOD falls\n- activated sludge settles, part reused as inoculum (or BOD ∝ organic matter)\n:::\n\n**Marks are lost for:** calling it primary treatment; saying air is added to kill microbes.",
     "source_note": "CBSE Class 12 Biology board paper 2025 (one set), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
+  },
+  {
+    "id": "bio-pyq24-24a",
+    "chapter": "ch-08",
+    "type": "sa3",
+    "marks": 3,
+    "stars": 3,
+    "label": "PYQ (2024)",
+    "topic": "Biogas",
+    "stem": "(i) Give two major reasons for using cow dung, and not domestic sewage, in a biogas plant. (ii) Mention one use of the spent slurry of the plant.",
+    "hint": "What lives in the rumen of cattle?",
+    "model_answer": "*How much to write: 4–5 lines · 4 minutes*\n\n**(i)**\n1. Cow dung (gobar) is <mark>rich in methanogens</mark> such as <u>*Methanobacterium*</u>, which live in the rumen of cattle and break down cellulose.\n2. Cattle dung is <u>available in large quantities in rural areas</u> and is rich in cellulosic material for the bacteria to act on.\n\n**(ii)** The spent slurry is used as <mark>fertiliser</mark> (manure).\n\n:::tip Your answer must contain\n- dung is rich in <u>methanogens</u>\n- large supply of cellulosic dung in villages\n- slurry = <u>fertiliser</u>\n:::\n\n**Marks are lost for:** saying sewage has no bacteria; writing 'fuel' for the slurry.",
+    "scheme": [
+      {
+        "step": "Rich in methanogens (Methanobacterium)",
+        "marks": 1
+      },
+      {
+        "step": "Cellulosic dung available in large quantities",
+        "marks": 1
+      },
+      {
+        "step": "Spent slurry used as fertiliser",
+        "marks": 1
+      }
+    ],
+    "source_note": "CBSE Class 12 Biology board paper 2024 (one set), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
+  },
+  {
+    "id": "bio-pyq24-24b",
+    "chapter": "ch-08",
+    "type": "sa3",
+    "marks": 3,
+    "stars": 3,
+    "label": "PYQ (2024)",
+    "topic": "Bioactive molecules",
+    "stem": "Name the bioactive molecule and its microbial source used by physicians (i) after myocardial infarction, (ii) for high blood cholesterol, (iii) in organ transplantation.",
+    "hint": "A clot buster, a cholesterol-lowering agent, an immunosuppressant.",
+    "model_answer": "*How much to write: 3 lines · 3 minutes*\n\n**(i)** <mark>Streptokinase</mark> from the bacterium <u>*Streptococcus*</u> (a clot buster).\n\n**(ii)** <mark>Statins</mark> from the yeast <u>*Monascus purpureus*</u> (they competitively inhibit the enzyme of cholesterol synthesis).\n\n**(iii)** <mark>Cyclosporin A</mark> from the fungus <u>*Trichoderma polysporum*</u> (an immunosuppressive agent).\n\n:::tip Your answer must contain\n- streptokinase: *Streptococcus*\n- statins: *Monascus purpureus*\n- cyclosporin A: *Trichoderma polysporum*\n:::\n\n**Marks are lost for:** swapping the sources; writing the action without the microbe.",
+    "scheme": [
+      {
+        "step": "Streptokinase from Streptococcus",
+        "marks": 1
+      },
+      {
+        "step": "Statins from Monascus purpureus",
+        "marks": 1
+      },
+      {
+        "step": "Cyclosporin A from Trichoderma polysporum",
+        "marks": 1
+      }
+    ],
+    "source_note": "CBSE Class 12 Biology board paper 2024 (one set), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
+  },
+  {
+    "id": "bio-pyq23-04",
+    "chapter": "ch-08",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ (2023)",
+    "topic": "Sewage and dissolved oxygen",
+    "stem": "Students measured dissolved oxygen at four points along a river. It was high and steady up to point (i), fell sharply just after point (ii), was lowest at point (iii) and had recovered by point (iv). Untreated sewage most likely enters the river at:",
+    "options": [
+      "point (i)",
+      "point (ii)",
+      "point (iii)",
+      "point (iv)"
+    ],
+    "answer": "B",
+    "hint": "Where does the oxygen start to fall?",
+    "model_answer": "**(b).** Sewage adds organic matter; microbes decomposing it use up oxygen, so dissolved oxygen drops sharply just downstream of the entry point (high BOD) and recovers farther on.",
+    "source_note": "CBSE Class 12 Biology board paper 2023 (one set), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers. Adapted: the board item used a graph; the data are given in words here, and the answer follows this wording."
+  },
+  {
+    "id": "bio-pyq23-26",
+    "chapter": "ch-08",
+    "type": "sa3",
+    "marks": 3,
+    "stars": 3,
+    "label": "PYQ (2023)",
+    "topic": "Sewage treatment",
+    "stem": "Explain these terms of sewage treatment: (a) primary sludge; (b) activated sludge; (c) anaerobic sludge digesters.",
+    "hint": "What settles first, what settles after aeration, where the rest goes.",
+    "model_answer": "*How much to write: 6 lines · 5 minutes*\n\n**(a) Primary sludge:** all the <u>solids that settle</u> during primary treatment (after filtration and sedimentation); the liquid above it is the effluent, which goes for secondary treatment.\n\n**(b) Activated sludge:** the sediment of <mark>bacterial flocs</mark> formed in the settling tank after the aeration tank has reduced the BOD. A small part is pumped back into the aeration tank as <u>inoculum</u>.\n\n**(c) Anaerobic sludge digesters:** large tanks into which the remaining sludge is pumped; <u>anaerobic bacteria</u> digest the bacteria and fungi in the sludge and produce <mark>biogas</mark> (methane, hydrogen sulphide and carbon dioxide).\n\n:::tip Your answer must contain\n- primary: settled solids\n- activated: flocs; inoculum\n- digesters: anaerobes → biogas\n:::\n\n**Marks are lost for:** mixing up primary and activated sludge.",
+    "scheme": [
+      {
+        "step": "Primary sludge",
+        "marks": 1
+      },
+      {
+        "step": "Activated sludge",
+        "marks": 1
+      },
+      {
+        "step": "Anaerobic sludge digesters and biogas",
+        "marks": 1
+      }
+    ],
+    "source_note": "CBSE Class 12 Biology board paper 2023 (one set), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
   }
 ]

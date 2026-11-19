@@ -533,5 +533,72 @@
       }
     ],
     "source_note": "CBSE Class 12 Biology board paper 2025 (one set), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers. Topic from 'Strategies for Enhancement in Food Production', which is NOT in the 2026–27 board syllabus; kept only so the 2025 paper is complete."
+  },
+  {
+    "id": "bio-pyq24-28",
+    "chapter": "ch-10",
+    "type": "sa3",
+    "marks": 3,
+    "stars": 3,
+    "label": "PYQ (2024)",
+    "topic": "Bt cotton",
+    "stem": "(a) Give the scientific name of the bacterium widely used to make GM cotton resistant to bollworms. (b) Explain how this GM cotton resists insect attack.",
+    "hint": "Protoxin, alkaline gut, pores.",
+    "model_answer": "*How much to write: 6 lines · 5 minutes*\n\n**(a)** <mark>*Bacillus thuringiensis*</mark>.\n\n**(b)** The Bt toxin gene (<u>*cry*</u> gene, e.g. *cryIAc*, *cryIIAb* for bollworms) is put into cotton, so the plant makes the insecticidal protein as an <mark>inactive protoxin</mark>. When a bollworm eats the plant, the <u>alkaline pH of its gut</u> solubilises the crystals and activates the toxin. The toxin binds to <u>midgut epithelial cells</u>, makes <mark>pores</mark>, the cells swell and lyse, and the insect dies.\n\n:::tip Your answer must contain\n- *Bacillus thuringiensis*\n- inactive <u>protoxin</u> → active in alkaline gut\n- pores in midgut epithelium → lysis → death\n:::\n\n**Marks are lost for:** saying the toxin kills the plant's own cells; leaving out the alkaline gut.",
+    "scheme": [
+      {
+        "step": "Bacillus thuringiensis",
+        "marks": 1
+      },
+      {
+        "step": "cry gene in cotton makes inactive protoxin; activated by alkaline gut pH",
+        "marks": 1
+      },
+      {
+        "step": "Binds midgut cells, creates pores, swelling and lysis, death",
+        "marks": 1
+      }
+    ],
+    "source_note": "CBSE Class 12 Biology board paper 2024 (one set), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
+  },
+  {
+    "id": "bio-pyq23-12",
+    "chapter": "ch-10",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 1,
+    "label": "PYQ (2023)",
+    "topic": "Patents and biopiracy",
+    "stem": "A US patent on the use of turmeric in wound healing, granted to a university medical centre, was successfully challenged for India by:",
+    "options": [
+      "Mr Ajay Phadke",
+      "Ms Vandana Shiva",
+      "Dr Venugopalan",
+      "Dr R. A. Mashelkar"
+    ],
+    "answer": "D",
+    "hint": "The CSIR chief of the time.",
+    "model_answer": "**(d).** CSIR, then headed by **Dr R. A. Mashelkar**, challenged the turmeric patent and it was revoked. (This name is not in NCERT.)",
+    "source_note": "CBSE Class 12 Biology board paper 2023 (one set), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers. Beyond NCERT: the name is general knowledge, not a textbook fact."
+  },
+  {
+    "id": "bio-pyq23-13",
+    "chapter": "ch-10",
+    "type": "ar",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ (2023)",
+    "topic": "Gene therapy",
+    "stem": "**Assertion (A):** A patient with ADA deficiency treated by gene therapy needs periodic infusions of genetically engineered lymphocytes.<br>**Reason (R):** Lymphocytes are immortal.",
+    "options": [
+      "Both A and R are true, and R is the correct explanation of A.",
+      "Both A and R are true, but R is not the correct explanation of A.",
+      "A is true, but R is false.",
+      "A is false, but R is true."
+    ],
+    "answer": "C",
+    "hint": "If they lived for ever, would repeats be needed?",
+    "model_answer": "**(c).** A is true. R is false: the engineered lymphocytes are **not immortal**, which is exactly why the infusion must be repeated.",
+    "source_note": "CBSE Class 12 Biology board paper 2023 (one set), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
   }
 ]

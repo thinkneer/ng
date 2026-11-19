@@ -521,5 +521,252 @@
       }
     ],
     "source_note": "CBSE Class 12 Biology board paper 2025 (one set), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
+  },
+  {
+    "id": "bio-pyq24-01",
+    "chapter": "ch-01",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ (2024)",
+    "topic": "Apomixis",
+    "stem": "Embryos that form without fertilisation are seen in some varieties of:",
+    "options": [
+      "maize",
+      "rose",
+      "mango",
+      "rice"
+    ],
+    "answer": "C",
+    "hint": "Nucellar embryos: think of an orange seed and one more fruit.",
+    "model_answer": "**(c).** In many *Citrus* and **mango** varieties, nucellar cells divide and form embryos without fertilisation (apomixis, leading to polyembryony).",
+    "source_note": "CBSE Class 12 Biology board paper 2024 (one set), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
+  },
+  {
+    "id": "bio-pyq24-03",
+    "chapter": "ch-01",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 3,
+    "label": "PYQ (2024)",
+    "topic": "Apomixis and ploidy",
+    "stem": "Apomictic embryos that develop from a nucellar cell and from an antipodal cell would have the ploidy, respectively:",
+    "options": [
+      "2n, 3n",
+      "2n, n",
+      "3n, 2n",
+      "n, 2n"
+    ],
+    "answer": "B",
+    "hint": "Which of the two is part of the female gametophyte?",
+    "model_answer": "**(b).** The nucellus is the mother's diploid tissue (2n); antipodal cells belong to the haploid embryo sac (n).",
+    "source_note": "CBSE Class 12 Biology board paper 2024 (one set), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
+  },
+  {
+    "id": "bio-pyq24-13",
+    "chapter": "ch-01",
+    "type": "ar",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ (2024)",
+    "topic": "Embryo development",
+    "stem": "**Assertion (A):** In most angiosperms the zygote gives rise to the heart-shaped embryo and then to the proembryo.<br>**Reason (R):** The zygote lies at the micropylar end of the embryo sac and develops into the embryo.",
+    "options": [
+      "Both A and R are true, and R is the correct explanation of A.",
+      "Both A and R are true, but R is not the correct explanation of A.",
+      "A is true, but R is false.",
+      "A is false, but R is true."
+    ],
+    "answer": "D",
+    "hint": "Put the embryo stages in order.",
+    "model_answer": "**(d).** A is false: the order is zygote → **proembryo** → globular → heart-shaped → mature embryo. R is true.",
+    "source_note": "CBSE Class 12 Biology board paper 2024 (one set), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
+  },
+  {
+    "id": "bio-pyq24-22",
+    "chapter": "ch-01",
+    "type": "sa3",
+    "marks": 3,
+    "stars": 3,
+    "label": "PYQ (2024)",
+    "topic": "Anther wall",
+    "stem": "Draw a T.S. of a mature anther (one microsporangium is enough to show the wall). Label any three wall layers and state their functions.",
+    "hint": "Four layers, outside in; the innermost one feeds the pollen.",
+    "model_answer": "*How much to write: a labelled diagram + 3 lines · 6 minutes*\n\n<figure class=\"fig\">\n<svg viewBox=\"0 0 320 190\" role=\"img\" aria-label=\"Transverse section of a microsporangium showing four wall layers and sporogenous tissue\"> <g fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.2\"> <circle cx=\"100\" cy=\"95\" r=\"80\"/> <circle cx=\"100\" cy=\"95\" r=\"71\"/> <circle cx=\"100\" cy=\"95\" r=\"61\"/> <circle cx=\"100\" cy=\"95\" r=\"55\" stroke-dasharray=\"3 3\"/> <circle cx=\"100\" cy=\"95\" r=\"49\"/> <circle cx=\"100\" cy=\"95\" r=\"38\"/> </g> <circle fill=\"#B0204F\" cx=\"100\" cy=\"95\" r=\"49\" fill-opacity=\"0.18\"/> <path stroke=\"currentColor\" stroke-width=\"0.8\" fill=\"none\" d=\"M138,95L149,95M62,95L51,95M100,57L100,46M100,133L100,144M127,68L135,60M73,68L65,60M127,122L135,130M73,122L65,130\"/> <g fill=\"none\" stroke=\"currentColor\" stroke-width=\"0.9\"> <circle cx=\"100\" cy=\"95\" r=\"7\"/><circle cx=\"114\" cy=\"95\" r=\"7\"/><circle cx=\"86\" cy=\"95\" r=\"7\"/><circle cx=\"100\" cy=\"81\" r=\"7\"/><circle cx=\"100\" cy=\"109\" r=\"7\"/> <circle cx=\"112\" cy=\"83\" r=\"6\"/><circle cx=\"88\" cy=\"83\" r=\"6\"/><circle cx=\"112\" cy=\"107\" r=\"6\"/><circle cx=\"88\" cy=\"107\" r=\"6\"/> </g> <path stroke=\"currentColor\" stroke-width=\"0.6\" opacity=\"0.7\" fill=\"none\" d=\"M157,40L215,30M166,65L215,62M157,95L215,94M139,107L215,126M114,95L215,158\"/> <g font-size=\"10\" fill=\"currentColor\"> <text x=\"218\" y=\"33\">Epidermis</text><text x=\"218\" y=\"65\">Endothecium</text><text x=\"218\" y=\"97\">Middle layers</text><text x=\"218\" y=\"129\">Tapetum</text><text x=\"218\" y=\"161\">Sporogenous tissue</text> </g> </svg>\n<figcaption>Wall of a microsporangium, outside in.</figcaption>\n</figure>\n\n- **Epidermis, endothecium, middle layers:** <u>protection</u> and help in <mark>dehiscence</mark> of the anther to release pollen.\n- **Tapetum** (innermost): <mark>nourishes the developing pollen grains</mark>; its cells have dense cytoplasm and often more than one nucleus.\n\n:::tip Your answer must contain\n- neat T.S. with at least <u>three wall layers</u> labelled\n- outer three: protection + dehiscence\n- tapetum: nourishment\n:::\n\n**Marks are lost for:** an unlabelled diagram; placing the tapetum outside the endothecium.",
+    "scheme": [
+      {
+        "step": "Diagram of anther/microsporangium wall",
+        "marks": 1
+      },
+      {
+        "step": "Three wall layers labelled",
+        "marks": 1
+      },
+      {
+        "step": "Functions: protection and dehiscence; tapetum nourishes pollen",
+        "marks": 1
+      }
+    ],
+    "source_note": "CBSE Class 12 Biology board paper 2024 (one set), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
+  },
+  {
+    "id": "bio-pyq24-33a",
+    "chapter": "ch-01",
+    "type": "la5",
+    "marks": 5,
+    "stars": 3,
+    "label": "PYQ (2024)",
+    "topic": "Outbreeding devices",
+    "stem": "(i) Explain any four devices that flowering plants have developed to encourage cross-pollination. (ii) Why do plants discourage self-pollination? State one reason.",
+    "hint": "Timing, position, genetics, separate sexes.",
+    "model_answer": "*How much to write: 9–10 lines · 9 minutes*\n\n**(i) Outbreeding devices:**\n1. **Pollen release and stigma receptivity are not synchronised:** the pollen is shed before the stigma is receptive, or the stigma becomes receptive much before the pollen is released.\n2. **Anther and stigma at different positions,** so pollen cannot reach the stigma of the same flower.\n3. <mark>**Self-incompatibility:**</mark> a <u>genetic</u> mechanism that stops self-pollen from fertilising the ovules by inhibiting pollen germination or pollen-tube growth in the pistil.\n4. **Unisexual flowers:** <u>monoecious</u> plants (castor, maize) prevent autogamy but not geitonogamy; <u>dioecious</u> plants (papaya) prevent both.\n\n**(ii)** Continued self-pollination leads to <mark>inbreeding depression</mark>.\n\n:::tip Your answer must contain\n- four devices, each explained\n- monoecious vs dioecious with examples\n- <mark>inbreeding depression</mark>\n:::\n\n**Marks are lost for:** naming cleistogamy (it ensures selfing); giving examples without the device.",
+    "scheme": [
+      {
+        "step": "Non-synchrony of pollen release and stigma receptivity",
+        "marks": 1
+      },
+      {
+        "step": "Different positions of anther and stigma",
+        "marks": 1
+      },
+      {
+        "step": "Self-incompatibility",
+        "marks": 1
+      },
+      {
+        "step": "Unisexual flowers: monoecy/dioecy",
+        "marks": 1
+      },
+      {
+        "step": "Inbreeding depression",
+        "marks": 1
+      }
+    ],
+    "source_note": "CBSE Class 12 Biology board paper 2024 (one set), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
+  },
+  {
+    "id": "bio-pyq23-08",
+    "chapter": "ch-01",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 3,
+    "label": "PYQ (2023)",
+    "topic": "Microsporogenesis",
+    "stem": "How many pollen grains form when 325 microspore mother cells undergo microsporogenesis?",
+    "options": [
+      "325",
+      "650",
+      "1300",
+      "975"
+    ],
+    "answer": "C",
+    "hint": "One meiosis, four products.",
+    "model_answer": "**(c).** Each mother cell gives a tetrad of four microspores by meiosis: 325 × 4 = **1300**.",
+    "source_note": "CBSE Class 12 Biology board paper 2023 (one set), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
+  },
+  {
+    "id": "bio-pyq23-15",
+    "chapter": "ch-01",
+    "type": "ar",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ (2023)",
+    "topic": "Seeds",
+    "stem": "**Assertion (A):** In ex-albuminous seeds the endosperm is completely used up during the development of the embryo.<br>**Reason (R):** Castor, pea and beans are all ex-albuminous seeds.",
+    "options": [
+      "Both A and R are true, and R is the correct explanation of A.",
+      "Both A and R are true, but R is not the correct explanation of A.",
+      "A is true, but R is false.",
+      "A is false, but R is true."
+    ],
+    "answer": "C",
+    "hint": "One of the three keeps its endosperm.",
+    "model_answer": "**(c).** A is true. R is false: **castor** is albuminous (its endosperm persists); pea and beans are ex-albuminous.",
+    "source_note": "CBSE Class 12 Biology board paper 2023 (one set), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
+  },
+  {
+    "id": "bio-pyq23-18",
+    "chapter": "ch-01",
+    "type": "vsa2",
+    "marks": 2,
+    "stars": 3,
+    "label": "PYQ (2023)",
+    "topic": "Pollen tube entry",
+    "stem": "(a) From which end of the ovule, and how, does the pollen tube enter the embryo sac in a flower such as *Hibiscus*? (b) State the fate of the male gametes in the pollen tube.",
+    "hint": "Micropyle, synergid, then two fusions.",
+    "model_answer": "*How much to write: 4 lines · 3 minutes*\n\n**(a)** From the <mark>micropylar end</mark>: the tube enters the ovule through the micropyle and then enters one of the <u>synergids</u> through the <mark>filiform apparatus</mark>, which guides it.\n\n**(b)** One male gamete fuses with the <u>egg</u> (syngamy) to form the diploid <u>zygote</u>; the other fuses with the two <u>polar nuclei</u> (triple fusion) to form the triploid <u>primary endosperm nucleus</u>.\n\n:::tip Your answer must contain\n- micropyle → synergid via filiform apparatus\n- syngamy → zygote; triple fusion → PEN\n:::\n\n**Marks are lost for:** saying the tube enters the egg directly.",
+    "scheme": [
+      {
+        "step": "Micropylar end; into a synergid through the filiform apparatus",
+        "marks": 1
+      },
+      {
+        "step": "One gamete + egg → zygote; other + polar nuclei → PEN",
+        "marks": 1
+      }
+    ],
+    "source_note": "CBSE Class 12 Biology board paper 2023 (one set), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
+  },
+  {
+    "id": "bio-pyq23-28b",
+    "chapter": "ch-01",
+    "type": "sa3",
+    "marks": 3,
+    "stars": 3,
+    "label": "PYQ (2023)",
+    "topic": "Seed and flower terms",
+    "stem": "Differentiate between (i) perisperm and pericarp; (ii) syncarpous pistil and apocarpous pistil; (iii) plumule and radicle.",
+    "hint": "Nucellus vs ovary wall; fused vs free; shoot tip vs root tip.",
+    "model_answer": "*How much to write: three one-line pairs · 4 minutes*\n\n**(i)** <u>Perisperm</u>: residual, persistent <mark>nucellus</mark> in a seed (black pepper, beet). <u>Pericarp</u>: the wall of the fruit, formed from the <mark>ovary wall</mark>.\n\n**(ii)** <u>Syncarpous</u>: the pistils are <mark>fused</mark> (*Papaver*). <u>Apocarpous</u>: the pistils are <mark>free</mark> (*Michelia*).\n\n**(iii)** <u>Plumule</u>: the <mark>shoot tip</mark> at the end of the epicotyl. <u>Radicle</u>: the <mark>root tip</mark> at the end of the hypocotyl.\n\n:::tip Your answer must contain\n- nucellus vs ovary wall\n- fused vs free, with examples\n- shoot tip vs root tip\n:::\n\n**Marks are lost for:** confusing perisperm with endosperm.",
+    "scheme": [
+      {
+        "step": "Perisperm vs pericarp",
+        "marks": 1
+      },
+      {
+        "step": "Syncarpous vs apocarpous",
+        "marks": 1
+      },
+      {
+        "step": "Plumule vs radicle",
+        "marks": 1
+      }
+    ],
+    "source_note": "CBSE Class 12 Biology board paper 2023 (one set), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
+  },
+  {
+    "id": "bio-pyq23-33a",
+    "chapter": "ch-01",
+    "type": "la5",
+    "marks": 5,
+    "stars": 3,
+    "label": "PYQ (2023)",
+    "topic": "Pollination",
+    "stem": "A drawing shows three ways pollen is transferred: **1** within a single flower; **2** between two flowers of the same plant; **3** between flowers of two different plants. (i) Give the technical terms for 1, 2 and 3. (ii) How do water lily and *Vallisneria* achieve pollination? (iii) Plants have devices to avoid inbreeding depression. Explain one hereditary and one physiological device.",
+    "hint": "Auto-, geitono-, xeno-. One of the two water plants is pollinated like a land plant.",
+    "model_answer": "*How much to write: 9 lines · 9 minutes*\n\n**(i)** 1: <mark>autogamy</mark>; 2: <mark>geitonogamy</mark>; 3: <mark>xenogamy</mark>.\n\n**(ii)** **Water lily:** the flowers <u>emerge above the water</u> and are pollinated by <u>insects or wind</u>, like land plants. ***Vallisneria*:** the female flower reaches the surface on a <u>long stalk</u>; male flowers or pollen are released on to the surface and carried passively by <u>water currents</u> to the stigma.\n\n**(iii)** **Hereditary:** <mark>self-incompatibility</mark>, a genetic mechanism that stops self-pollen from fertilising the ovules by inhibiting pollen germination or pollen-tube growth in the pistil. **Physiological:** pollen release and stigma receptivity are <u>not synchronised</u> (pollen is shed before the stigma is receptive, or the reverse).\n\n:::tip Your answer must contain\n- three terms in order\n- water lily: insects/wind; *Vallisneria*: water surface\n- self-incompatibility + non-synchrony\n:::\n\n**Marks are lost for:** saying water lily is water-pollinated.",
+    "scheme": [
+      {
+        "step": "Autogamy, geitonogamy, xenogamy",
+        "marks": 1.5
+      },
+      {
+        "step": "Water lily: insects or wind above water",
+        "marks": 0.75
+      },
+      {
+        "step": "Vallisneria: pollen carried on the water surface to the stalked female flower",
+        "marks": 0.75
+      },
+      {
+        "step": "Self-incompatibility explained",
+        "marks": 1
+      },
+      {
+        "step": "Non-synchrony of pollen release and stigma receptivity",
+        "marks": 1
+      }
+    ],
+    "source_note": "CBSE Class 12 Biology board paper 2023 (one set), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers. The board question was based on a figure; it is described in words here."
   }
 ]

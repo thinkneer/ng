@@ -2374,14 +2374,14 @@
                       },
                       "marks_hint": "Unit VI Reproduction = 16 marks (shared by Ch 1–3, CBSE 2026–27)",
                       "summary": "Stamen and pollen · pistil, ovule and embryo sac · pollination and outbreeding · pollen–pistil interaction · double fertilisation · endosperm, embryo, seed, fruit · apomixis and polyembryony",
-                      "questions": 19,
+                      "questions": 29,
                       "question_types": {
-                        "mcq": 5,
-                        "ar": 4,
-                        "vsa2": 2,
-                        "sa3": 3,
+                        "mcq": 8,
+                        "ar": 6,
+                        "vsa2": 3,
+                        "sa3": 5,
                         "case": 2,
-                        "la5": 3
+                        "la5": 5
                       },
                       "diagrams": [],
                       "blocks": {
@@ -2412,14 +2412,14 @@
                       },
                       "marks_hint": "Unit VI Reproduction = 16 marks (shared by Ch 1–3, CBSE 2026–27)",
                       "summary": "Male and female systems · spermatogenesis and oogenesis · menstrual cycle · fertilisation and implantation · placenta and pregnancy · parturition and lactation",
-                      "questions": 18,
+                      "questions": 24,
                       "question_types": {
-                        "mcq": 3,
+                        "mcq": 4,
                         "ar": 4,
-                        "vsa2": 4,
-                        "sa3": 3,
+                        "vsa2": 5,
+                        "sa3": 5,
                         "case": 1,
-                        "la5": 3
+                        "la5": 5
                       },
                       "diagrams": [],
                       "blocks": {
@@ -2450,12 +2450,12 @@
                       },
                       "marks_hint": "Unit VI Reproduction = 16 marks (shared by Ch 1–3, CBSE 2026–27)",
                       "summary": "Reproductive health and RCH · population and birth control · contraceptive methods · MTP · sexually transmitted infections · infertility and ART",
-                      "questions": 14,
+                      "questions": 17,
                       "question_types": {
-                        "mcq": 3,
+                        "mcq": 4,
                         "ar": 4,
-                        "vsa2": 2,
-                        "sa3": 3,
+                        "vsa2": 3,
+                        "sa3": 4,
                         "case": 1,
                         "la5": 1
                       },
@@ -2495,14 +2495,14 @@
                       },
                       "marks_hint": "Unit VII Genetics and Evolution = 20 marks (shared by Ch 4–6, CBSE 2026–27)",
                       "summary": "Mendel's laws · monohybrid and dihybrid crosses · incomplete dominance, co-dominance, multiple alleles · linkage · polygenic inheritance and pleiotropy · sex determination · pedigrees · genetic disorders",
-                      "questions": 19,
+                      "questions": 27,
                       "question_types": {
-                        "mcq": 6,
-                        "ar": 3,
+                        "mcq": 9,
+                        "ar": 4,
                         "vsa2": 3,
-                        "sa3": 3,
+                        "sa3": 5,
                         "case": 1,
-                        "la5": 3
+                        "la5": 5
                       },
                       "diagrams": [],
                       "blocks": {
@@ -2533,14 +2533,14 @@
                       },
                       "marks_hint": "Unit VII Genetics and Evolution = 20 marks (shared by Ch 4–6, CBSE 2026–27)",
                       "summary": "DNA structure and packaging · search for genetic material · replication · transcription · genetic code · translation · lac operon · Human Genome Project · DNA fingerprinting",
-                      "questions": 21,
+                      "questions": 30,
                       "question_types": {
-                        "mcq": 6,
-                        "ar": 3,
-                        "vsa2": 2,
+                        "mcq": 10,
+                        "ar": 4,
+                        "vsa2": 3,
                         "sa3": 5,
-                        "case": 1,
-                        "la5": 4
+                        "case": 2,
+                        "la5": 6
                       },
                       "diagrams": [],
                       "blocks": {
@@ -2571,12 +2571,12 @@
                       },
                       "marks_hint": "Unit VII Genetics and Evolution = 20 marks (shared by Ch 4–6, CBSE 2026–27)",
                       "summary": "Origin of life · evidences of evolution · adaptive radiation · Darwin and natural selection · Hardy–Weinberg principle · types of selection · human evolution",
-                      "questions": 18,
+                      "questions": 23,
                       "question_types": {
-                        "mcq": 5,
+                        "mcq": 8,
                         "ar": 3,
                         "vsa2": 3,
-                        "sa3": 4,
+                        "sa3": 6,
                         "case": 1,
                         "la5": 2
                       },
@@ -2619,14 +2619,14 @@
                       },
                       "marks_hint": "Unit VIII Biology and Human Welfare = 12 marks (shared by Ch 7–8, CBSE 2026–27)",
                       "summary": "Common diseases and their pathogens · malaria life cycle · immunity, antibodies and vaccines · allergies and autoimmunity · lymphoid organs · AIDS · cancer · drugs and alcohol abuse",
-                      "questions": 21,
+                      "questions": 29,
                       "question_types": {
-                        "mcq": 6,
-                        "ar": 3,
-                        "vsa2": 4,
-                        "sa3": 5,
+                        "mcq": 7,
+                        "ar": 4,
+                        "vsa2": 5,
+                        "sa3": 6,
                         "case": 1,
-                        "la5": 2
+                        "la5": 6
                       },
                       "diagrams": [],
                       "blocks": {
@@ -2656,12 +2656,12 @@
                       },
                       "marks_hint": "Unit VIII Biology and Human Welfare = 12 marks (shared by Ch 7–8, CBSE 2026–27)",
                       "summary": "Microbes in household products · industrial products · sewage treatment · biogas · biocontrol agents · biofertilisers",
-                      "questions": 19,
+                      "questions": 23,
                       "question_types": {
-                        "mcq": 4,
+                        "mcq": 5,
                         "ar": 4,
                         "vsa2": 3,
-                        "sa3": 3,
+                        "sa3": 6,
                         "case": 3,
                         "la5": 2
                       },
@@ -2702,13 +2702,13 @@
                       },
                       "marks_hint": "Unit IX Biotechnology = 12 marks (shared by Ch 9–10, CBSE 2026–27)",
                       "summary": "Principles of biotechnology · restriction enzymes · gel electrophoresis · cloning vectors and pBR322 · competent hosts · PCR · bioreactors · downstream processing",
-                      "questions": 19,
+                      "questions": 29,
                       "question_types": {
-                        "mcq": 5,
-                        "ar": 4,
-                        "vsa2": 3,
-                        "sa3": 3,
-                        "case": 2,
+                        "mcq": 9,
+                        "ar": 5,
+                        "vsa2": 6,
+                        "sa3": 4,
+                        "case": 3,
                         "la5": 2
                       },
                       "diagrams": [],
@@ -2740,12 +2740,12 @@
                       },
                       "marks_hint": "Unit IX Biotechnology = 12 marks (shared by Ch 9–10, CBSE 2026–27)",
                       "summary": "Bt cotton and cry genes · RNA interference · genetically engineered insulin · gene therapy · molecular diagnosis · transgenic animals · ethical issues, biopiracy and patents",
-                      "questions": 22,
+                      "questions": 25,
                       "question_types": {
-                        "mcq": 6,
-                        "ar": 3,
+                        "mcq": 7,
+                        "ar": 4,
                         "vsa2": 5,
-                        "sa3": 5,
+                        "sa3": 6,
                         "case": 1,
                         "la5": 2
                       },
@@ -2786,13 +2786,13 @@
                       },
                       "marks_hint": "Unit X Ecology = 10 marks (shared by Ch 11–13, CBSE 2026–27)",
                       "summary": "Population attributes · age pyramids · population growth: exponential and logistic · life history variation · population interactions: predation, competition, parasitism, commensalism, mutualism",
-                      "questions": 16,
+                      "questions": 21,
                       "question_types": {
-                        "mcq": 4,
-                        "ar": 4,
+                        "mcq": 6,
+                        "ar": 5,
                         "vsa2": 2,
-                        "sa3": 2,
-                        "case": 2,
+                        "sa3": 3,
+                        "case": 3,
                         "la5": 2
                       },
                       "diagrams": [],
@@ -2825,11 +2825,11 @@
                       },
                       "marks_hint": "Unit X Ecology = 10 marks (shared by Ch 11–13, CBSE 2026–27)",
                       "summary": "Ecosystem structure · productivity · decomposition · energy flow and food chains · ecological pyramids",
-                      "questions": 15,
+                      "questions": 17,
                       "question_types": {
                         "mcq": 3,
                         "ar": 4,
-                        "vsa2": 2,
+                        "vsa2": 4,
                         "sa3": 4,
                         "case": 1,
                         "la5": 1
@@ -2863,13 +2863,13 @@
                       },
                       "marks_hint": "Unit X Ecology = 10 marks (shared by Ch 11–13, CBSE 2026–27)",
                       "summary": "Levels of biodiversity · patterns: latitude and species–area · importance · loss and its causes · in situ and ex situ conservation · hotspots, sacred groves",
-                      "questions": 16,
+                      "questions": 19,
                       "question_types": {
                         "mcq": 4,
                         "ar": 4,
-                        "vsa2": 2,
+                        "vsa2": 4,
                         "sa3": 2,
-                        "case": 1,
+                        "case": 2,
                         "la5": 3
                       },
                       "diagrams": [],
@@ -3086,6 +3086,16 @@
                 "sample_paper": "https://cbseacademic.nic.in/"
               },
               "papers": [
+                {
+                  "id": "board-2023",
+                  "title": "CBSE board paper 2023 · rebuilt in our words",
+                  "path": "content/class-12/science/biology/papers/board-2023.json"
+                },
+                {
+                  "id": "board-2024",
+                  "title": "CBSE board paper 2024 · rebuilt in our words",
+                  "path": "content/class-12/science/biology/papers/board-2024.json"
+                },
                 {
                   "id": "board-2025",
                   "title": "CBSE board paper 2025 · rebuilt in our words",

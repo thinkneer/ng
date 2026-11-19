@@ -533,5 +533,261 @@
       }
     ],
     "source_note": "CBSE Class 12 Biology board paper 2025 (one set), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
+  },
+  {
+    "id": "bio-pyq24-04",
+    "chapter": "ch-05",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 3,
+    "label": "PYQ (2024)",
+    "topic": "Chargaff's rule",
+    "stem": "A double-stranded DNA fragment has 3000 nucleotides, of which 160 are guanine. How many of its bases are held by **two** hydrogen bonds?",
+    "options": [
+      "160",
+      "320",
+      "1340",
+      "2680"
+    ],
+    "answer": "D",
+    "hint": "A=T has two bonds, G≡C has three. Find A + T.",
+    "model_answer": "**(d).** G = C = 160, so G + C = 320. The rest, 3000 − 320 = **2680**, are A and T, which pair with two hydrogen bonds.",
+    "source_note": "CBSE Class 12 Biology board paper 2024 (one set), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
+  },
+  {
+    "id": "bio-pyq24-10",
+    "chapter": "ch-05",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 3,
+    "label": "PYQ (2024)",
+    "topic": "Meselson–Stahl experiment",
+    "stem": "*E. coli* grown in ¹⁴N medium is then grown for six generations in ¹⁵N medium. On CsCl density-gradient centrifugation its DNA will show:",
+    "options": [
+      "hybrid : heavy = 1 : 16",
+      "light : heavy = 1 : 31",
+      "hybrid : heavy = 1 : 31",
+      "light : heavy = 1 : 5"
+    ],
+    "answer": "C",
+    "hint": "The two original light strands never disappear; count the molecules that hold them.",
+    "model_answer": "**(c).** After 6 generations there are 2⁶ = 64 molecules. Two still carry one old ¹⁴N strand (hybrid); 62 are fully ¹⁵N (heavy). 2 : 62 = **1 : 31**.",
+    "source_note": "CBSE Class 12 Biology board paper 2024 (one set), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
+  },
+  {
+    "id": "bio-pyq24-15",
+    "chapter": "ch-05",
+    "type": "ar",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ (2024)",
+    "topic": "Splicing",
+    "stem": "**Assertion (A):** In eukaryotes the primary transcript undergoes splicing to remove introns.<br>**Reason (R):** The primary transcript has both exons and introns, and the introns are non-coding.",
+    "options": [
+      "Both A and R are true, and R is the correct explanation of A.",
+      "Both A and R are true, but R is not the correct explanation of A.",
+      "A is true, but R is false.",
+      "A is false, but R is true."
+    ],
+    "answer": "A",
+    "hint": "Why would a transcript need cutting and joining?",
+    "model_answer": "**(a).** The primary transcript (hnRNA) contains exons and introns and is non-functional; splicing removes the introns and joins the exons. R is the reason for A.",
+    "source_note": "CBSE Class 12 Biology board paper 2024 (one set), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
+  },
+  {
+    "id": "bio-pyq24-19",
+    "chapter": "ch-05",
+    "type": "vsa2",
+    "marks": 2,
+    "stars": 3,
+    "label": "PYQ (2024)",
+    "topic": "Point mutation",
+    "stem": "A small part of an mRNA that codes for a functional polypeptide is 5′-UCA UUA CCA CGA UUC UUU AAA AGA-3′. (a) How many amino acids will be coded if a U is replaced by C in the fifth codon? Explain. (b) How many amino acids will the polypeptide have if, in the fourth codon, C is replaced by U? Justify.",
+    "hint": "Check whether the new codon is a sense codon or a stop codon.",
+    "model_answer": "*How much to write: 4 lines · 3 minutes*\n\n**(a)** <mark>Eight</mark>. The fifth codon UUC (Phe) changes to UCC or CUC, which still codes for an amino acid, so only one amino acid changes; the <u>number stays eight</u>.\n\n**(b)** <mark>Three</mark>. The fourth codon CGA becomes <mark>UGA, a stop codon</mark>, so translation ends after the first three codons (UCA, UUA, CCA).\n\n:::tip Your answer must contain\n- (a) 8: substitution changes one amino acid only\n- (b) 3: UGA is a <u>stop codon</u>\n:::\n\n**Marks are lost for:** counting 7 in (a); not naming UGA as a termination codon.",
+    "scheme": [
+      {
+        "step": "8 amino acids; the changed codon is still a sense codon",
+        "marks": 1
+      },
+      {
+        "step": "3 amino acids; UGA is a stop codon",
+        "marks": 1
+      }
+    ],
+    "source_note": "CBSE Class 12 Biology board paper 2024 (one set), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
+  },
+  {
+    "id": "bio-pyq24-31b",
+    "chapter": "ch-05",
+    "type": "la5",
+    "marks": 5,
+    "stars": 3,
+    "label": "PYQ (2024)",
+    "topic": "Lac operon",
+    "stem": "\"In the *lac* operon a group of genes is regulated and expressed together as a unit.\" (i) Explain how the structural genes of the *lac* operon are switched on. (ii) \"Regulation of the *lac* operon is negative regulation.\" Justify.",
+    "hint": "Repressor, inducer, operator.",
+    "model_answer": "*How much to write: 10–12 lines · 9 minutes*\n\n**The unit:** a regulator gene <u>*i*</u>, a promoter (p), an operator (o) and three structural genes: <u>*z*</u> (β-galactosidase), <u>*y*</u> (permease) and <u>*a*</u> (transacetylase).\n\n**(i) Switching on:**\n1. The *i* gene makes the <u>repressor</u> all the time.\n2. Without lactose the repressor binds the <u>operator</u> and stops RNA polymerase: the operon is off.\n3. When lactose (or allolactose), the <mark>inducer</mark>, is present, it binds the repressor and <mark>inactivates it</mark>.\n4. The repressor can no longer bind the operator, so <u>RNA polymerase</u> reaches the promoter and transcribes *z*, *y* and *a* as one polycistronic mRNA.\n5. The enzymes are made and lactose is used.\n\n**(ii)** The operon is controlled by a <mark>repressor that switches it off</mark> by binding the operator. Regulation through a repressor is called <u>negative regulation</u>.\n\n:::tip Your answer must contain\n- *i*, p, o and *z*, *y*, *a* with products\n- inducer inactivates repressor → transcription\n- negative = controlled by a <u>repressor</u>\n:::\n\n**Marks are lost for:** saying lactose binds the operator; forgetting that the repressor is made all the time.",
+    "scheme": [
+      {
+        "step": "Components of the operon and products of z, y, a",
+        "marks": 1
+      },
+      {
+        "step": "Repressor binds operator in absence of inducer",
+        "marks": 1
+      },
+      {
+        "step": "Lactose/allolactose inactivates the repressor",
+        "marks": 1
+      },
+      {
+        "step": "RNA polymerase transcribes the structural genes",
+        "marks": 1
+      },
+      {
+        "step": "Negative regulation: control by repressor",
+        "marks": 1
+      }
+    ],
+    "source_note": "CBSE Class 12 Biology board paper 2024 (one set), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
+  },
+  {
+    "id": "bio-pyq23-02",
+    "chapter": "ch-05",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 3,
+    "label": "PYQ (2023)",
+    "topic": "Transcription in prokaryotes",
+    "stem": "In a diagram of transcription starting in a prokaryote, X is the DNA region where the enzyme binds, Y is the factor that helps initiation and Z is the enzyme. X, Y and Z are:",
+    "options": [
+      "terminator, sigma (σ), RNA polymerase",
+      "promoter, rho (ρ), RNA polymerase",
+      "promoter, sigma (σ), RNA polymerase",
+      "promoter, sigma (σ), DNA polymerase"
+    ],
+    "answer": "C",
+    "hint": "Sigma starts, rho stops.",
+    "model_answer": "**(c).** RNA polymerase binds the **promoter**; the **σ factor** is its initiation factor (ρ is for termination).",
+    "source_note": "CBSE Class 12 Biology board paper 2023 (one set), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers. The board question was based on a figure; it is described in words here."
+  },
+  {
+    "id": "bio-pyq23-06",
+    "chapter": "ch-05",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 3,
+    "label": "PYQ (2023)",
+    "topic": "DNA fingerprinting",
+    "stem": "In DNA profiles of a child X and individuals 1, 2 and 3, every band of X matches a band of either individual 1 or individual 3, while several of X's bands are absent in individual 2. The parents of X could be:",
+    "options": [
+      "1 and 2",
+      "2 and 3",
+      "1 and 3",
+      "only individual 3"
+    ],
+    "answer": "C",
+    "hint": "Every band of the child must come from a parent.",
+    "model_answer": "**(c).** A child inherits half its bands from each parent, so every band of the child must be found in one parent or the other: individuals **1 and 3**.",
+    "source_note": "CBSE Class 12 Biology board paper 2023 (one set), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers. The board question was based on a figure; it is described in words here."
+  },
+  {
+    "id": "bio-pyq23-29",
+    "chapter": "ch-05",
+    "type": "case",
+    "marks": 4,
+    "stars": 3,
+    "label": "PYQ (2023)",
+    "topic": "Lac operon",
+    "stem": "*How and when a gene is expressed in a prokaryote was worked out by Jacques Monod, a biochemist, and François Jacob, a geneticist. Studying lactose metabolism in* E. coli*, they proposed the* lac *operon, for which they received the Nobel Prize in 1965.*",
+    "hint": "Repressor on the operator blocks RNA polymerase; permease lets lactose in.",
+    "parts": [
+      {
+        "id": "A",
+        "marks": 1,
+        "stem": "Why is the *lac* operon called a transcriptionally regulated system?",
+        "model_answer": "Its expression is controlled at the start of transcription: the repressor, by binding or leaving the operator, decides whether RNA polymerase can transcribe the structural genes.",
+        "scheme": [
+          {
+            "step": "Control is at the level of transcription (repressor–operator decides RNA polymerase access)",
+            "marks": 1
+          }
+        ]
+      },
+      {
+        "id": "B",
+        "marks": 0.5,
+        "stem": "\"The *lac* operon has to work at a very low level all the time.\" Justify.",
+        "model_answer": "A little permease must always be present, otherwise lactose could not enter the cell to act as inducer.",
+        "scheme": [
+          {
+            "step": "Low-level permease lets lactose enter the cell",
+            "marks": 0.5
+          }
+        ]
+      },
+      {
+        "id": "C",
+        "marks": 0.5,
+        "stem": "Why is the regulator gene called the *i* gene?",
+        "model_answer": "*i* stands for inhibitor (not inducer): the gene codes for the repressor.",
+        "scheme": [
+          {
+            "step": "i = inhibitor; codes for repressor",
+            "marks": 0.5
+          }
+        ]
+      },
+      {
+        "id": "D",
+        "marks": 2,
+        "stem": "Draw a schematic diagram of the *lac* operon in the absence of the inducer. **OR** Draw it in the presence of the inducer.",
+        "model_answer": "Absence: *i* → repressor → binds operator → RNA polymerase blocked → *z*, *y*, *a* not transcribed. **OR** Presence: inducer (lactose/allolactose) binds the repressor and inactivates it → operator free → RNA polymerase transcribes *z*, *y*, *a* → β-galactosidase, permease, transacetylase.",
+        "scheme": [
+          {
+            "step": "Genes i, p, o, z, y, a in order with repressor made by i",
+            "marks": 1
+          },
+          {
+            "step": "Repressor on operator, no transcription OR inducer inactivates repressor, z y a transcribed",
+            "marks": 1
+          }
+        ]
+      }
+    ],
+    "model_answer": "*How much to write: 2 lines for (a), 1 line each for (b) and (c), a labelled diagram for (d) · 7 minutes*\n\n**(a)** Expression is controlled at <mark>transcription</mark>: the <u>repressor</u> binding the <u>operator</u> stops RNA polymerase from transcribing the structural genes.\n\n**(b)** A very low level of <u>permease</u> must always be present, or <mark>lactose cannot enter the cell</mark> to induce the operon.\n\n**(c)** *i* = <mark>inhibitor</mark>; the gene codes for the repressor.\n\n**(d)**\n\n<figure class=\"fig\">\n<svg viewBox=\"0 0 320 150\" role=\"img\" aria-label=\"Lac operon in the absence of inducer: repressor bound to the operator\" fill=\"none\" stroke=\"currentColor\"><g stroke-width=\"1.4\"><rect x=\"8\" y=\"30\" width=\"38\" height=\"24\"/><rect x=\"60\" y=\"30\" width=\"34\" height=\"24\"/><rect x=\"94\" y=\"30\" width=\"34\" height=\"24\"/><rect x=\"128\" y=\"30\" width=\"58\" height=\"24\"/><rect x=\"186\" y=\"30\" width=\"58\" height=\"24\"/><rect x=\"244\" y=\"30\" width=\"58\" height=\"24\"/></g><ellipse cx=\"111\" cy=\"20\" rx=\"18\" ry=\"9\" fill=\"#6A3FA0\" fill-opacity=\"0.45\" stroke=\"#6A3FA0\"/><path stroke-width=\"1.2\" d=\"M27,54V84M27,96V112\"/><path stroke=\"#E0B400\" stroke-width=\"2\" d=\"M150,66L240,66M232,60L244,72M244,60L232,72\"/><g font-size=\"10\" fill=\"currentColor\" stroke=\"none\"><text x=\"23\" y=\"46\">i</text><text x=\"73\" y=\"46\">p</text><text x=\"107\" y=\"46\">o</text><text x=\"153\" y=\"46\">z</text><text x=\"211\" y=\"46\">y</text><text x=\"269\" y=\"46\">a</text><text x=\"132\" y=\"14\">repressor on operator</text><text x=\"6\" y=\"94\">repressor mRNA</text><text x=\"6\" y=\"124\">repressor protein</text><text x=\"134\" y=\"88\">no transcription of z, y, a</text><text x=\"134\" y=\"102\">(RNA polymerase is blocked)</text></g></svg>\n<figcaption>No inducer: the repressor sits on the operator and the operon stays off.</figcaption>\n</figure>\n\n**OR, with inducer:** lactose (allolactose) binds the repressor and <u>inactivates</u> it; the operator is free; RNA polymerase transcribes *z*, *y*, *a* into one mRNA → β-galactosidase, permease, transacetylase.\n\n:::tip Your answer must contain\n- regulation at transcription\n- permease for lactose entry\n- *i* = inhibitor\n- diagram: i p o z y a, repressor position, arrow or block\n:::\n\n**Marks are lost for:** drawing the repressor on the promoter; writing 'i = inducer'.",
+    "source_note": "CBSE Class 12 Biology board paper 2023 (one set), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
+  },
+  {
+    "id": "bio-pyq23-31a",
+    "chapter": "ch-05",
+    "type": "la5",
+    "marks": 5,
+    "stars": 3,
+    "label": "PYQ (2023)",
+    "topic": "Meselson and Stahl experiment",
+    "stem": "Recall Meselson and Stahl's experiment on DNA replication. (i) Which two kinds of nitrogen did they use, and why? (ii) Why did they take samples of *E. coli* at definite time intervals? (iii) What was the role of the caesium chloride density gradient? (iv) What did they conclude?",
+    "hint": "¹⁵N is heavy; one generation is 20 minutes; three possible bands.",
+    "model_answer": "*How much to write: 10 lines + the three-tube sketch if time · 9 minutes*\n\n**(i)** <mark>¹⁵N (heavy) and ¹⁴N (normal)</mark>, as $\\ce{^{15}NH4Cl}$ and $\\ce{^{14}NH4Cl}$ in the medium. ¹⁵N is built into new DNA and makes it <u>heavier</u>, so old and new DNA can be told apart; it is not radioactive.\n\n**(ii)** *E. coli* divides about every <u>20 minutes</u>, so samples at fixed intervals give DNA after exactly <u>one generation</u> (20 min), two generations (40 min) and so on.\n\n**(iii)** In a <u>CsCl density gradient</u>, centrifuged DNA settles at the level matching its own density, so <mark>heavy, hybrid and light DNA form separate bands</mark>.\n\n**(iv)** After one generation in ¹⁴N all DNA was <u>hybrid</u> (intermediate density); after two generations there were equal amounts of <u>hybrid and light</u> DNA. So each new molecule has one parental and one new strand: replication is <mark>semiconservative</mark>.\n\n:::tip Your answer must contain\n- ¹⁵N and ¹⁴N, and why\n- 20-minute generations\n- CsCl separates by density\n- hybrid after 20 min; hybrid + light after 40 min → semiconservative\n:::\n\n**Marks are lost for:** saying ¹⁵N is radioactive; giving the conclusion without the band results.",
+    "scheme": [
+      {
+        "step": "15N and 14N; heavy isotope distinguishes old from new DNA",
+        "marks": 1.5
+      },
+      {
+        "step": "Samples at intervals = successive generations (20 min each)",
+        "marks": 1
+      },
+      {
+        "step": "CsCl gradient separates DNA by density",
+        "marks": 1
+      },
+      {
+        "step": "Band results after 20 and 40 minutes; semiconservative replication",
+        "marks": 1.5
+      }
+    ],
+    "source_note": "CBSE Class 12 Biology board paper 2023 (one set), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
   }
 ]

@@ -1,0 +1,146 @@
+{
+  "$schema": "../../../../../schemas/paper.schema.json",
+  "id": "board-2024",
+  "title": "CBSE board paper 2024 · rebuilt in our words",
+  "sections": [
+    {
+      "id": "A",
+      "name": "Section A",
+      "note": "Q1–12 MCQ, Q13–16 assertion–reason. 1 mark each.",
+      "questions": [
+        {
+          "ref": "ch-01/bio-pyq24-01"
+        },
+        {
+          "ref": "ch-06/bio-pyq24-02"
+        },
+        {
+          "ref": "ch-01/bio-pyq24-03"
+        },
+        {
+          "ref": "ch-05/bio-pyq24-04"
+        },
+        {
+          "ref": "ch-06/bio-pyq24-05"
+        },
+        {
+          "ref": "ch-04/bio-pyq24-06"
+        },
+        {
+          "ref": "ch-04/bio-pyq24-07"
+        },
+        {
+          "ref": "ch-07/bio-pyq24-08"
+        },
+        {
+          "ref": "ch-09/bio-pyq24-09"
+        },
+        {
+          "ref": "ch-05/bio-pyq24-10"
+        },
+        {
+          "ref": "ch-11/bio-pyq24-11"
+        },
+        {
+          "ref": "ch-09/bio-pyq24-12"
+        },
+        {
+          "ref": "ch-01/bio-pyq24-13"
+        },
+        {
+          "ref": "ch-09/bio-pyq24-14"
+        },
+        {
+          "ref": "ch-05/bio-pyq24-15"
+        },
+        {
+          "ref": "ch-07/bio-pyq24-16"
+        }
+      ]
+    },
+    {
+      "id": "B",
+      "name": "Section B",
+      "note": "Q17–21, 2 marks each.",
+      "questions": [
+        {
+          "ref": "ch-03/bio-pyq24-17"
+        },
+        {
+          "ref": "ch-09/bio-pyq24-18"
+        },
+        {
+          "ref": "ch-05/bio-pyq24-19"
+        },
+        {
+          "ref": "ch-12/bio-pyq24-20a",
+          "or": "ch-13/bio-pyq24-20b"
+        },
+        {
+          "ref": "ch-07/bio-pyq24-21"
+        }
+      ]
+    },
+    {
+      "id": "C",
+      "name": "Section C",
+      "note": "Q22–28, 3 marks each.",
+      "questions": [
+        {
+          "ref": "ch-01/bio-pyq24-22"
+        },
+        {
+          "ref": "ch-06/bio-pyq24-23"
+        },
+        {
+          "ref": "ch-08/bio-pyq24-24a",
+          "or": "ch-08/bio-pyq24-24b"
+        },
+        {
+          "ref": "ch-02/bio-pyq24-25"
+        },
+        {
+          "ref": "ch-04/bio-pyq24-26"
+        },
+        {
+          "ref": "ch-11/bio-pyq24-27"
+        },
+        {
+          "ref": "ch-10/bio-pyq24-28"
+        }
+      ]
+    },
+    {
+      "id": "D",
+      "name": "Section D",
+      "note": "Q29–30, case-based, 4 marks each; the choice is inside part (c).",
+      "questions": [
+        {
+          "ref": "ch-09/bio-pyq24-29"
+        },
+        {
+          "ref": "ch-11/bio-pyq24-30"
+        }
+      ]
+    },
+    {
+      "id": "E",
+      "name": "Section E",
+      "note": "Q31–33, 5 marks each, with internal choice.",
+      "questions": [
+        {
+          "ref": "ch-04/bio-pyq24-31a",
+          "or": "ch-05/bio-pyq24-31b"
+        },
+        {
+          "ref": "ch-07/bio-pyq24-32a",
+          "or": "ch-07/bio-pyq24-32b"
+        },
+        {
+          "ref": "ch-01/bio-pyq24-33a",
+          "or": "ch-02/bio-pyq24-33b"
+        }
+      ]
+    }
+  ]
+}

@@ -468,5 +468,176 @@
       }
     ],
     "source_note": "CBSE Class 12 Biology board paper 2025 (one set), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
+  },
+  {
+    "id": "bio-pyq24-25",
+    "chapter": "ch-02",
+    "type": "sa3",
+    "marks": 3,
+    "stars": 3,
+    "label": "PYQ (2024)",
+    "topic": "Gametogenesis",
+    "stem": "Differentiate between spermatogenesis and oogenesis in humans on: (a) when the process begins; (b) the number of functional gametes formed from one primary spermatocyte/oocyte; (c) the site where meiosis II is completed.",
+    "hint": "Puberty vs foetal life; four vs one; where the sperm meets the egg.",
+    "model_answer": "*How much to write: a 3-row table · 4 minutes*\n\n**(a) Begins:** spermatogenesis at <u>puberty</u>; oogenesis in the <u>foetal (embryonic) stage</u>.\n\n**(b) Gametes per primary cell:** <mark>four</mark> sperms from one primary spermatocyte; <mark>one</mark> ovum from one primary oocyte (the rest are polar bodies).\n\n**(c) Meiosis II completed:** in the <u>seminiferous tubules</u> of the testis; in the <u>oviduct (ampulla)</u>, only when a sperm enters the secondary oocyte.\n\n:::tip Your answer must contain\n- puberty vs foetal life\n- 4 vs 1\n- testis vs oviduct, on sperm entry\n:::\n\n**Marks are lost for:** saying meiosis II of the oocyte finishes in the ovary.",
+    "scheme": [
+      {
+        "step": "Initiation: puberty vs foetal life",
+        "marks": 1
+      },
+      {
+        "step": "Four sperms vs one ovum",
+        "marks": 1
+      },
+      {
+        "step": "Seminiferous tubule vs oviduct at fertilisation",
+        "marks": 1
+      }
+    ],
+    "source_note": "CBSE Class 12 Biology board paper 2024 (one set), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
+  },
+  {
+    "id": "bio-pyq24-33b",
+    "chapter": "ch-02",
+    "type": "la5",
+    "marks": 5,
+    "stars": 3,
+    "label": "PYQ (2024)",
+    "topic": "Menstrual cycle",
+    "stem": "Explain the ovarian and uterine events, and the role of pituitary and ovarian hormones, during these phases of the menstrual cycle of a normal human female: (i) follicular (proliferative) phase; (ii) luteal (secretory) phase; (iii) menstrual phase.",
+    "hint": "For each phase: ovary, uterus, hormones.",
+    "model_answer": "*How much to write: three short paragraphs or a 3-column table + the hormone graph if time · 9 minutes*\n\n**(i) Follicular phase:**\n- *Ovary:* primary follicles grow into a mature <u>Graafian follicle</u>.\n- *Uterus:* the endometrium <u>regenerates by proliferation</u>.\n- *Hormones:* <u>LH and FSH</u> rise gradually and stimulate follicle growth and secretion of <u>estrogens</u> by the follicles. Both peak in mid-cycle; the <mark>LH surge</mark> causes ovulation (about day 14).\n\n**(ii) Luteal phase:**\n- *Ovary:* the rest of the Graafian follicle becomes the <mark>corpus luteum</mark>.\n- *Hormones:* it secretes large amounts of <u>progesterone</u>.\n- *Uterus:* progesterone <u>maintains the endometrium</u>, needed for implantation.\n\n**(iii) Menstrual phase:**\n- Without fertilisation the <u>corpus luteum degenerates</u> and progesterone falls.\n- *Uterus:* the endometrium and its blood vessels <mark>break down</mark> and flow out for 3–5 days.\n\n:::tip Your answer must contain\n- ovary + uterus + hormones for each phase\n- LH surge → ovulation\n- corpus luteum → progesterone → endometrium maintained\n- no fertilisation → breakdown\n:::\n\n**Marks are lost for:** mixing up the hormone of the corpus luteum; omitting the uterine event in a phase.",
+    "scheme": [
+      {
+        "step": "Follicular: follicle growth and endometrial proliferation",
+        "marks": 1
+      },
+      {
+        "step": "Follicular hormones: FSH, LH, estrogen; LH surge",
+        "marks": 1
+      },
+      {
+        "step": "Luteal: corpus luteum secretes progesterone",
+        "marks": 1
+      },
+      {
+        "step": "Luteal: endometrium maintained",
+        "marks": 1
+      },
+      {
+        "step": "Menstrual: corpus luteum degenerates; endometrium breaks down",
+        "marks": 1
+      }
+    ],
+    "source_note": "CBSE Class 12 Biology board paper 2024 (one set), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
+  },
+  {
+    "id": "bio-pyq23-10",
+    "chapter": "ch-02",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 3,
+    "label": "PYQ (2023)",
+    "topic": "Reproductive hormones",
+    "stem": "In which option are the gland, its hormone and the function correctly matched?",
+    "options": [
+      "Sertoli cells – testosterone – secondary sexual characters",
+      "Placenta – estrogen – starts milk secretion",
+      "Leydig cells – androgen – stimulates sperm production",
+      "Ovary – FSH – stimulates follicle development"
+    ],
+    "answer": "C",
+    "hint": "Which cells answer to LH?",
+    "model_answer": "**(c).** LH makes **Leydig cells** secrete **androgens**, which stimulate spermatogenesis. Sertoli cells do not make testosterone; FSH is a pituitary hormone.",
+    "source_note": "CBSE Class 12 Biology board paper 2023 (one set), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
+  },
+  {
+    "id": "bio-pyq23-17",
+    "chapter": "ch-02",
+    "type": "vsa2",
+    "marks": 2,
+    "stars": 3,
+    "label": "PYQ (2023)",
+    "topic": "Blastocyst",
+    "stem": "A drawing of a stage of the human embryo shows a hollow ball of cells: X is the outer layer of cells and Y is a group of cells attached to X on the inside. (a) Name the stage. (b) Where exactly is it found in a normal pregnancy? (c) Write one function each of X and Y.",
+    "hint": "The stage that implants.",
+    "model_answer": "*How much to write: 4 lines · 3 minutes*\n\n**(a)** <mark>Blastocyst</mark>.\n\n**(b)** In the <u>uterus</u>, where it gets embedded in the <u>endometrium</u> (implantation).\n\n**(c)** X = <mark>trophoblast</mark>: attaches to the endometrium (later forms chorionic villi of the placenta). Y = <mark>inner cell mass</mark>: differentiates into the embryo.\n\n:::tip Your answer must contain\n- blastocyst\n- uterus / endometrium\n- trophoblast attaches; inner cell mass → embryo\n:::\n\n**Marks are lost for:** calling it a morula (a solid ball); swapping X and Y.",
+    "scheme": [
+      {
+        "step": "Blastocyst",
+        "marks": 0.5
+      },
+      {
+        "step": "Uterus, embedded in endometrium",
+        "marks": 0.5
+      },
+      {
+        "step": "X trophoblast: attachment to endometrium",
+        "marks": 0.5
+      },
+      {
+        "step": "Y inner cell mass: forms the embryo",
+        "marks": 0.5
+      }
+    ],
+    "source_note": "CBSE Class 12 Biology board paper 2023 (one set), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers. The board question was based on a figure; it is described in words here."
+  },
+  {
+    "id": "bio-pyq23-24",
+    "chapter": "ch-02",
+    "type": "sa3",
+    "marks": 3,
+    "stars": 1,
+    "label": "PYQ (2023)",
+    "topic": "Stem cells",
+    "stem": "(a) Write the characteristics of stem cells. (b) From where can stem cells be obtained in humans? (c) State two applications of stem cells in treating human diseases.",
+    "hint": "NCERT mentions them with the inner cell mass.",
+    "model_answer": "*How much to write: 5–6 lines · 4 minutes*\n\n**(a)** Stem cells are <u>undifferentiated</u> cells that can divide to renew themselves and have the <mark>potency to give rise to all tissues and organs</mark>.\n\n**(b)** The <mark>inner cell mass of the blastocyst</mark> (embryonic stem cells); also umbilical cord blood and bone marrow.\n\n**(c)** <u>Bone-marrow (stem-cell) transplants</u> for blood disorders such as leukaemia; replacing damaged tissue, for example growing skin for burn patients.\n\n:::tip Your answer must contain\n- undifferentiated; can form all tissues\n- <u>inner cell mass</u>\n- two uses\n:::\n\n**Marks are lost for:** confusing stem cells with gametes.",
+    "scheme": [
+      {
+        "step": "Undifferentiated, self-renewing, can give rise to all tissues",
+        "marks": 1
+      },
+      {
+        "step": "Inner cell mass of blastocyst / cord blood / bone marrow",
+        "marks": 1
+      },
+      {
+        "step": "Two applications",
+        "marks": 1
+      }
+    ],
+    "source_note": "CBSE Class 12 Biology board paper 2023 (one set), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers. Mostly beyond NCERT: the textbook only says that the inner cell mass has stem cells that can give rise to all tissues and organs."
+  },
+  {
+    "id": "bio-pyq23-33b",
+    "chapter": "ch-02",
+    "type": "la5",
+    "marks": 5,
+    "stars": 3,
+    "label": "PYQ (2023)",
+    "topic": "Menstrual cycle",
+    "stem": "A circular chart shows days 1 to 28 of the menstrual cycle of a normal woman. (i) Give the technical terms for: days 1–7; days 8–12; days 13–15; days 16–28. (ii) Explain the role of ovarian and pituitary hormones during days 8–12, days 13–15 and days 16–28.",
+    "hint": "Menstrual, follicular, ovulatory, luteal.",
+    "model_answer": "*How much to write: 10 lines · 9 minutes*\n\n**(i)** Days 1–7: <u>menstrual phase</u> (flow lasts 3–5 days). Days 8–12: <u>follicular (proliferative) phase</u>. Days 13–15: <u>ovulatory phase</u>. Days 16–28: <u>luteal (secretory) phase</u>.\n\n**(ii)**\n- **Days 8–12:** pituitary <u>FSH and LH</u> rise gradually and make the follicles grow; the growing follicles secrete <mark>estrogens</mark>, under which the endometrium regenerates.\n- **Days 13–15:** LH and FSH peak; the rapid <mark>LH surge</mark> ruptures the Graafian follicle and releases the ovum (ovulation, about day 14).\n- **Days 16–28:** the ruptured follicle becomes the corpus luteum, which secretes large amounts of <mark>progesterone</mark> to maintain the endometrium. Without fertilisation it degenerates, progesterone falls and menstruation follows.\n\n:::tip Your answer must contain\n- four phase names\n- FSH, LH, estrogen (8–12)\n- LH surge (13–15)\n- progesterone from corpus luteum (16–28)\n:::\n\n**Marks are lost for:** giving phases without hormones; writing FSH surge for ovulation.",
+    "scheme": [
+      {
+        "step": "Four technical terms (½ each)",
+        "marks": 2
+      },
+      {
+        "step": "Days 8–12: FSH, LH and estrogens",
+        "marks": 1
+      },
+      {
+        "step": "Days 13–15: LH surge and ovulation",
+        "marks": 1
+      },
+      {
+        "step": "Days 16–28: progesterone from corpus luteum",
+        "marks": 1
+      }
+    ],
+    "source_note": "CBSE Class 12 Biology board paper 2023 (one set), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers. The board question was based on a figure; it is described in words here."
   }
 ]
