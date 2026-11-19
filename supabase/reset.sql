@@ -11,7 +11,7 @@ drop function if exists public.handle_new_user(), public.nickname_available(text
   public.my_role(), public.is_admin(), public.is_staff(), public.is_member(),
   public.live_new_code(), public.live_create(text, text, text, int), public.live_join(text), public.live_next(uuid, jsonb, text, int),
   public.live_reveal(uuid), public.live_tally(uuid, text), public.live_answered(uuid), public.live_end(uuid),
-  public.exam_attempt_guard() cascade;  -- the last one comes from 002_security.sql
+  public.exam_attempt_guard(), public.admin_create_member(text, text, text, text, text, text, text[]) cascade;  -- the last two come from 002 and 003
 
 -- 2. Sign-in accounts (cascades to sessions, identities, refresh tokens)
 delete from auth.users;

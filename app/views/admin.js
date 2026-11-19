@@ -153,12 +153,14 @@ async function adminDb() {
     title: 'Admin', tab: 'more', back: '#/more',
     html: html`<h1 class="t-title" style="margin:var(--s-4) 0">Admin</h1>
       ${error ? raw(`<div class="notice notice--warn mb-4">${icon('alert')}<div>${esc(errText(error))}</div></div>`) : ''}
-      <div class="card mb-4"><div class="t-headline">${pending ? `${pending} awaiting approval` : 'No one waiting'}</div><p class="t-2 t-subhead mt-1">Members join with a nickname, email and password; you approve each one here as a student or a teacher, and set the class and subjects they can open (<em>Class &amp; subjects</em>). Teachers can run live quizzes and, later, exams. Changes apply the next time they open the app.</p></div>
+      <div class="card mb-4"><div class="t-headline">${pending ? `${pending} awaiting approval` : 'No one waiting'}</div><p class="t-2 t-subhead mt-1">Members join with a nickname, email and password; you approve each one here as a student or a teacher, and set the class and subjects they can open (<em>Class &amp; subjects</em>). Teachers can run live quizzes and, later, exams. Changes apply the next time they open the app.</p>
+        <button class="btn btn--block mt-4" type="button" id="new-member">${icon('plusSquare')} New member</button></div>
       <div class="list__header" style="padding-left:0">Members <span class="count">${people.filter((p) => p.status === 'approved').length} approved · ${people.filter((p) => p.role === 'teacher').length} teachers</span></div>
       ${people.length > 8 ? raw('<input type="search" id="m-search" placeholder="Find a nickname" aria-label="Find a nickname" class="mb-2">') : ''}
       <div class="list" id="members">${raw(people.map(row).join('') || '<div class="list__item t-2">No members yet</div>')}</div>
       <p class="t-footnote t-3 mt-4">Nicknames only are shown; emails stay in the sign-in system. Your own row has no buttons.</p>`,
     mount(el) {
+      el.querySelector('#new-member').addEventListener('click', () => newMember(c, idx, people));
       el.querySelector('#m-search')?.addEventListener('input', (e) => { const q = e.target.value.trim().toLowerCase(); for (const r of el.querySelectorAll('#members [data-nick]')) r.hidden = !!q && !r.dataset.nick.toLowerCase().includes(q); });
       el.querySelector('#members').addEventListener('click', async (e) => {
         const ab = e.target.closest('[data-access]');
@@ -175,6 +177,83 @@ async function adminDb() {
       });
     },
   };
+}
+
+/* ---------- new member (db mode, needs supabase/migrations/003) ---------- */
+const makePassword = () => {
+  const abc = 'abcdefghjkmnpqrstuvwxyz', dig = '23456789', all = abc + abc.toUpperCase() + dig;
+  const r = (set) => set[crypto.getRandomValues(new Uint32Array(1))[0] % set.length];
+  let p = r(abc) + r(abc.toUpperCase()) + r(dig);
+  while (p.length < 10) p += r(all);
+  return [...p].sort(() => crypto.getRandomValues(new Uint8Array(1))[0] - 128).join('');
+};
+
+/** Sheet: create a member who is approved at once (nickname, sign-in email, first password, role, class). */
+export function newMember(c, idx, people = []) {
+  const options = streamsOf(idx);
+  // default class: the one most members already have, else the first live one
+  const tally = new Map();
+  for (const p of people) { const k = options.find((o) => o.c.id === String(p.class) && (o.st.id === p.stream || o.st.id === 'general'))?.key; if (k && p.role === 'student') tally.set(k, (tally.get(k) || 0) + 1); }
+  const common = [...tally].sort((a, b) => b[1] - a[1])[0]?.[0];
+  const first = options.find((o) => o.key === common) || options.find((o) => o.st.status === 'live') || options[0];
+  const panel = document.createElement('div');
+  panel.innerHTML = `
+    <p class="t-2 t-subhead">The account is ready at once: no Join, no waiting. Send them the sign-in details and ask them to change the password (More → Change password).</p>
+    <label for="nm-nick" class="mt-4">Nickname</label>
+    <input id="nm-nick" maxlength="20" autocomplete="off" autocapitalize="none" spellcheck="false" placeholder="3–20 letters, digits or _">
+    <label for="nm-email" class="mt-4">Their sign-in email</label>
+    <input id="nm-email" type="email" inputmode="email" autocomplete="off" autocapitalize="none" spellcheck="false" placeholder="name@example.com">
+    <label for="nm-pass" class="mt-4">First password</label>
+    <div class="row" style="gap:var(--s-2)"><input id="nm-pass" class="grow" autocomplete="off" autocapitalize="none" spellcheck="false" placeholder="At least 8, letters and a number"><button class="btn btn--sm btn--secondary" type="button" id="nm-gen">Generate</button></div>
+    <fieldset class="mt-4" style="border:0;padding:0;margin-inline:0">
+      <legend class="t-subhead" style="font-weight:600">Role</legend>
+      <label class="check"><input type="radio" name="nm-role" value="student" checked><span class="grow">Student</span></label>
+      <label class="check"><input type="radio" name="nm-role" value="teacher"><span class="grow">Teacher (can run live quizzes)</span></label>
+    </fieldset>
+    <label for="nm-class" class="mt-2">Class</label>
+    <select id="nm-class">
+      ${options.map((o) => `<option value="${esc(o.key)}" ${o.key === first?.key ? 'selected' : ''}>${esc(o.label)}${o.st.status === 'live' ? '' : ' (coming soon)'}</option>`).join('')}
+      <option value="${ANY}">Any class: they choose (for teachers)</option>
+    </select>
+    <p class="t-footnote t-3 mt-2">They get all subjects of the class; narrow it later with <em>Class &amp; subjects</em>.</p>
+    <p class="auth__err mt-2" id="nm-err" role="alert" hidden></p>
+    <button class="btn btn--block mt-4" type="button" id="nm-save">Create member</button>`;
+  const $ = (s) => panel.querySelector(s);
+  const err = $('#nm-err');
+  const fail = (m) => { err.textContent = m; err.hidden = false; haptic('medium'); };
+  $('#nm-gen').addEventListener('click', () => { $('#nm-pass').value = makePassword(); });
+  panel.addEventListener('change', (e) => { if (e.target.name === 'nm-role' && e.target.value === 'teacher' && $('#nm-class').value !== ANY) $('#nm-class').value = ANY; });
+  let created = false;
+  const sheet = openSheet({ title: 'New member', content: panel, onClose: () => { if (created) location.reload(); } });
+  $('#nm-save').addEventListener('click', async (e) => {
+    err.hidden = true;
+    const nickname = $('#nm-nick').value.trim(), email = $('#nm-email').value.trim().toLowerCase(), pass = $('#nm-pass').value;
+    const role = panel.querySelector('[name="nm-role"]:checked').value;
+    const [cls, stream] = $('#nm-class').value === ANY ? [ANY, ANY] : $('#nm-class').value.split('|');
+    if (!NICK_RE.test(nickname)) return fail('Nickname: 3–20 letters, digits or _ (no spaces).');
+    if (!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email)) return fail('That email doesn’t look right.');
+    if (pass.length < 8 || !/[A-Za-z]/.test(pass) || !/\d/.test(pass)) return fail('Password: at least 8 characters with letters and a number.');
+    e.target.disabled = true; e.target.textContent = 'Creating…';
+    const { error } = await c.rpc('admin_create_member', { p_email: email, p_password: pass, p_nickname: nickname, p_role: role, p_class: cls, p_stream: stream, p_subjects: [] });
+    if (error) {
+      e.target.disabled = false; e.target.textContent = 'Create member';
+      return fail(/admin_create_member|schema cache|could not find the function/i.test(error.message || '') ? 'One-time setup: run supabase/migrations/003_admin_create_member.sql in the Supabase SQL Editor, then try again.' : errText(error));
+    }
+    created = true; haptic('success');
+    const site = new URL(location.pathname, location.origin).href;
+    const text = `Your ng study app account is ready.\n${site}\nSign in with:\nEmail: ${email}\nPassword: ${pass}\nPlease change the password after signing in (More → Change password).`;
+    panel.innerHTML = `
+      <div class="t-headline">${esc(nickname)} is ready</div>
+      <p class="t-2 t-subhead mt-1">${esc(role === 'teacher' ? 'Teacher' : 'Student')} · ${esc(classLabel(idx, cls, stream))} · approved. Send these sign-in details to them only, then close this sheet. The password is not shown again.</p>
+      <textarea readonly rows="7" class="mt-4 t-mono" style="font-size:.85rem" aria-label="Sign-in details">${esc(text)}</textarea>
+      <button class="btn btn--block mt-4" type="button" id="nm-send">${icon('share')} Send sign-in details</button>
+      <button class="btn btn--block btn--plain mt-2" type="button" id="nm-done">Done</button>`;
+    panel.querySelector('#nm-done').addEventListener('click', () => sheet.close());
+    panel.querySelector('#nm-send').addEventListener('click', async () => {
+      if (navigator.share) { try { await navigator.share({ text }); return; } catch (ex) { if (ex?.name === 'AbortError') return; } }
+      try { await navigator.clipboard.writeText(text); toast('Copied: paste it in a message to them'); } catch { panel.querySelector('textarea').select(); toast('Select the text and copy it'); }
+    });
+  });
 }
 
 /* ---------- class & subject access (db mode) ---------- */
