@@ -3,7 +3,7 @@
    - Content (content/**, data/**): stale-while-revalidate so notes, plan and practice work offline once opened.
    - Vendored libraries (vendor/**: KaTeX, marked, DOMPurify, fonts): cache-first, version-pinned.
    Updates: the new worker waits; the page shows "New version available" and posts SKIP_WAITING. */
-const CACHE_VERSION = 'dev35';
+const CACHE_VERSION = 'dev36';
 const SHELL = `ng-shell-${CACHE_VERSION}`;
 const CONTENT = 'ng-content-v1';
 const LIBS = 'ng-libs-v1';
@@ -14,7 +14,7 @@ const SHELL_FILES = [
   './styles/tokens.css', './styles/base.css', './styles/layout.css', './styles/components.css', './styles/reader.css', './styles/print.css', './styles/interactive.css', './styles/exam.css',
   './app/main.js', './app/router.js', './app/store.js', './app/access.js', './app/timetable.js', './app/data.js', './app/ui.js', './app/icons.js', './app/theme.js', './app/pwa.js', './app/markdown.js',
   './app/views/index.js', './app/views/today.js', './app/views/classes.js', './app/views/subject.js', './app/views/chapter.js',
-  './app/views/practice.js', './app/views/progress.js', './app/views/plan.js', './app/views/more.js', './app/views/reader.js', './app/views/recall.js', './app/views/formulas.js', './app/views/exameve.js', './app/views/quiz.js', './app/views/exam.js', './app/exam-builder.js', './app/db.js', './app/views/live.js', './app/recall.js', './app/highlights.js', './app/auth.js', './app/quotes.js', './app/views/signin.js', './app/views/admin.js', './app/github.js', './app/cards.js', './app/views/cards.js', './app/blocks/parse.js', './app/blocks/expr.js', './app/blocks/engine.js', './app/blocks/kit.js', './app/blocks/figure.js', './app/blocks/graph.js', './app/blocks/steps.js', './app/blocks/numerical.js', './app/blocks/mnemonic.js', './app/blocks/draw.js', './app/blocks/derive.js', './app/blocks/explain.js', './app/blocks/compare.js', './app/blocks/fill.js', './app/blocks/video.js', './app/views/paper.js', './app/views/timetable.js', './app/views/mind.js',
+  './app/views/practice.js', './app/views/progress.js', './app/views/plan.js', './app/views/more.js', './app/views/reader.js', './app/views/recall.js', './app/views/formulas.js', './app/views/exameve.js', './app/views/quiz.js', './app/views/exam.js', './app/exam-builder.js', './app/db.js', './app/views/live.js', './app/recall.js', './app/highlights.js', './app/auth.js', './app/quotes.js', './app/views/signin.js', './app/views/admin.js', './app/github.js', './app/cards.js', './app/views/cards.js', './app/blocks/parse.js', './app/blocks/expr.js', './app/blocks/engine.js', './app/blocks/kit.js', './app/blocks/figure.js', './app/blocks/graph.js', './app/blocks/steps.js', './app/blocks/numerical.js', './app/blocks/mnemonic.js', './app/blocks/draw.js', './app/blocks/derive.js', './app/blocks/explain.js', './app/blocks/compare.js', './app/blocks/fill.js', './app/blocks/video.js', './app/views/paper.js', './app/views/timetable.js', './app/views/mind.js', './app/views/students.js', './app/sync.js',
   './assets/icons/icon-192.png', './assets/icons/icon-64.png', './assets/icons/icon-512.png', './assets/icons/favicon.svg',
   './data/classes.json', './data/index.json', './data/mind-tools.json',
   './vendor/marked.esm.js', './vendor/purify.es.mjs', './vendor/katex/katex.mjs', './vendor/katex/katex.min.css', './vendor/katex/contrib/auto-render.mjs', './vendor/katex/contrib/mhchem.mjs',

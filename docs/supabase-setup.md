@@ -11,6 +11,7 @@ Dashboard → **SQL Editor** → New query → paste the whole file → **Run**,
 1. `supabase/migrations/001_init.sql` — tables, roles, live quiz. **Wipes everything it owns (members included)** when run again, so only on a fresh project or after `reset.sql`.
 2. `supabase/migrations/002_security.sql` — members see other members only as nickname + role (view `public.members`); students cannot touch exam scores. Keeps all data; safe to run again.
 3. `supabase/migrations/003_admin_create_member.sql` — lets the Admin dashboard create members directly (**New member**). Keeps all data; safe to run again.
+4. `supabase/migrations/004_groups_progress.sql` — teachers' groups and each student's progress summary (**My students** / **Teachers & students**). Keeps all data; safe to run again.
 
 **Already live with members?** Run only `002_security.sql`. Every later numbered file is the same: run it once, in number order; it says at the top whether it keeps data.
 
@@ -50,6 +51,7 @@ Back in the app tap **I've been approved — check again**. From now on everythi
 - Join with nickname + email + password → "Access awaited" → they send you the WhatsApp note → you tap **Approve as student** or **Approve as teacher** → they open the app again.
 - Or create them yourself: Admin dashboard → **New member** → nickname, their email, a first password, student / teacher, class → **Create**. The account is approved at once; send them the sign-in details (Copy) and ask them to change the password (More → Change password). Needs 003.
 - Later: **Make teacher / Make student**, **Pause / Restore**.
+- **Groups** (needs 004): a teacher (More → My students) makes a group such as *Class 12 Physics* and taps **Pick students** to tick students who have joined, like picking a team. Students still make their own profile (Join). The teacher then sees each student's papers and marks, live quiz results, timetable streak, chapters read, recall cards, mistakes and study minutes. You see every teacher, group and student under More → Teachers & students (or the button on the Admin dashboard) and can make groups for any teacher.
 - **One phone at a time**: each sign-in claims the account; an older device is signed out on its next load with a one-line notice.
 - Forgot password: Sign in → Forgot password → link by email → choose a new password (open the link on the same phone/browser).
 - The old static nickname list (`data/users.json`) is empty and used only by the local test server; the live site always signs in through Supabase.

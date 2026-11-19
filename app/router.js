@@ -26,7 +26,7 @@ export function parseHash(hash = location.hash) {
     return { name: 'chapter', classId, streamId, subjectId, chapterId, tab: tab || null, extra, seg };
   }
   if (top === 'more') return { name: 'more', sub: seg[1] || null, seg };
-  if (['subjects', 'classes', 'plan', 'practice', 'progress', 'about', 'request', 'access', 'login', 'awaiting', 'reset', 'live', 'admin', 'search', 'recall', 'signin', 'cards', 'timetable', 'mind'].includes(top)) return { name: top, sub: seg[1] || null, seg };
+  if (['subjects', 'classes', 'plan', 'practice', 'progress', 'about', 'request', 'access', 'login', 'awaiting', 'reset', 'live', 'admin', 'search', 'recall', 'signin', 'cards', 'timetable', 'mind', 'students'].includes(top)) return { name: top, sub: seg[1] || null, seg };
   return { name: 'not-found', seg };
 }
 

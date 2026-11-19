@@ -84,6 +84,7 @@ function routeOf(cls, stream, subject) { return `#/${cls}${cls === '9' || cls ==
 let titleObserver = null;
 let currentCleanup = null;
 let renderSeq = 0;
+let syncStarted = false;
 
 async function render(route) {
   const seq = ++renderSeq;
@@ -95,6 +96,7 @@ async function render(route) {
     const s = await check();
     if (!s) { sessionChecked = null; route = { name: 'signin', next: location.hash || '#/today', seg: [] }; }
     else if (s.pending) { sessionChecked = null; route = { name: 'awaiting', profile: s.pending, seg: [] }; }
+    else if (dbMode && !syncStarted) { syncStarted = true; import('./sync.js').then((m) => m.startSync()).catch(() => {}); } // progress summary for teachers
   } else if (['signin', 'login', 'request', 'access', 'awaiting'].includes(route.name) && (dbMode || store.get('session', null))) {
     const s = await check();
     if (s && !s.pending) { location.replace('#/today'); return; }

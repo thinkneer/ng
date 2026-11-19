@@ -559,7 +559,7 @@ function marksPage({ sub, home, paper: built, base }, given) {
       <a class="btn btn--plain btn--block mt-2" href="${base}/review">See answers</a>`,
     mount(el) {
       el.querySelector('[data-save]').addEventListener('click', () => {
-        store.saveMarks({ subject: sub.id, id: paper.id, code, marks, total: paper.total });
+        store.saveMarks({ subject: sub.id, id: paper.id, code, marks, total: paper.total }); import('../sync.js').then((m) => m.syncProgress({ force: true })).catch(() => {});
         haptic('success'); toast(`Saved · ${score} / ${paper.total}`);
         location.hash = home;
       });
