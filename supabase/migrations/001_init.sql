@@ -20,7 +20,8 @@ drop function if exists public.handle_new_user(), public.nickname_available(text
   public.exam_attempt_guard(), public.admin_create_member(text, text, text, text, text, text, text[]),
   public.teaches(uuid), public.group_save(uuid, text, text, text, text, uuid),
   public.group_delete(uuid), public.group_pick_list(uuid), public.group_add_students(uuid, uuid[]), public.group_remove_student(uuid, uuid), public.progress_save(jsonb),
-  public.staff_overview(), public.student_detail(uuid) cascade;  -- from 002, 003 and 004
+  public.staff_overview(), public.student_detail(uuid),
+  public.admin_create_user(text, text, text, text, text, text[]), public.admin_set_password(uuid, text), public.password_changed() cascade;  -- from 002–005
 drop schema if exists ng_private cascade;  -- from 004
 
 -- ------------------------------------------------------------------ profiles

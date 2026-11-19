@@ -93,11 +93,14 @@ export async function nicknameTaken(nick) {
 import { db, enabled as dbEnabled } from './db.js';
 
 export async function isDbMode() { return dbEnabled(); }
-const PROFILE_COLS = 'id, nickname, role, status, class, stream, subjects, session_token';
+const PROFILE_COLS = '*'; // own row only (RLS); '*' so newer columns (must_change_password, 005) never break sign-in before a migration runs
+/** Accounts the admin creates have no email: the sign-in system gets <username>@users.ng.local (supabase/migrations/005). */
+export const USER_DOMAIN = 'users.ng.local';
+export const signInEmail = (v) => { const t = String(v || '').trim().toLowerCase(); return t.includes('@') ? t : `${t}@${USER_DOMAIN}`; };
 
 const streamOf = (cls, stream) => stream || (cls === '9' || cls === '10' ? 'general' : 'science');
 function mirror(p) {
-  const s = { nickname: p.nickname, role: p.role, status: p.status, class: p.class, stream: p.stream, subjects: p.subjects || [], uid: p.id, db: true, at: new Date().toISOString() };
+  const s = { nickname: p.nickname, role: p.role, status: p.status, class: p.class, stream: p.stream, subjects: p.subjects || [], uid: p.id, db: true, must_change: !!p.must_change_password, at: new Date().toISOString() };
   store.set('session', s);
   const set = store.settings;
   const fixed = p.role !== 'admin' && p.class && p.class !== 'any'; // the admin decides this member's class
@@ -168,6 +171,8 @@ export async function setNewPassword(pass) {
   const c = await db();
   const { error } = await c.auth.updateUser({ password: pass });
   if (error) throw error;
+  try { await c.rpc('password_changed'); } catch { /* 005 not run yet */ }
+  const s = session(); if (s?.must_change) store.set('session', { ...s, must_change: false });
   await claim(c);
   window.dispatchEvent(new Event('ng:auth'));
 }
@@ -181,7 +186,7 @@ export async function nicknameFree(nick) {
 export async function maskedEmail() {
   const c = await db(); if (!c) return '';
   const { data } = await c.auth.getSession(); const e = data.session?.user?.email || '';
-  const [u, d] = e.split('@'); return u && d ? `${u[0]}•••@${d}` : '';
+  const [u, d] = e.split('@'); return u && d && d !== USER_DOMAIN ? `${u[0]}•••@${d}` : '';
 }
 export async function signOutEverywhere() { try { const c = await db(); await c?.auth.signOut({ scope: 'global' }); } catch { /* ignore */ } store.set('session', undefined); window.dispatchEvent(new Event('ng:auth')); }
 export async function dbSignOut() {

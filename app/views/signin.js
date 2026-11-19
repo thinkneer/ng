@@ -1,6 +1,6 @@
 // Sign-in and Request access. Shown full-screen to anyone without an approved session.
 import { html, raw, icon, esc, toast, haptic } from '../ui.js';
-import { signIn, buildRequest, requestCode, nicknameTaken, NICK_RE, STATIC_OK, isDbMode, signUpPassword, signInPassword, resetPassword, setNewPassword, nicknameFree, signOut } from '../auth.js';
+import { signIn, buildRequest, requestCode, nicknameTaken, NICK_RE, STATIC_OK, isDbMode, signUpPassword, signInPassword, resetPassword, setNewPassword, nicknameFree, signOut, session, signInEmail } from '../auth.js';
 import { errText } from '../db.js';
 import { randomQuote } from '../quotes.js';
 import { data } from '../data.js';
@@ -163,11 +163,11 @@ async function emailSignin(route) {
       <button class="auth__quote" type="button" id="quote" title="Tap for another line"><span class="auth__qmark" aria-hidden="true">“</span><span id="quote-text">${q}</span></button>
       <form class="card auth__card" id="em" novalidate>
         <h1 class="t-title2">${signup ? 'Join ng' : 'Welcome back'}</h1>
-        <p class="t-2 t-subhead mb-4">${signup ? 'Pick a nickname and a password. The admin approves every member by hand.' : 'Sign in with your email and password.'}</p>
+        <p class="t-2 t-subhead mb-4">${signup ? 'Pick a nickname and a password. The admin approves every member by hand.' : 'Sign in with your username (or email) and password.'}</p>
         ${notice && !signup ? html`<div class="notice mb-4">${raw(icon('info'))}<div>${notice}</div></div>` : ''}
         ${signup ? html`<label for="e-nick">Nickname</label><input id="e-nick" autocomplete="username" autocapitalize="none" spellcheck="false" placeholder="3–20 letters, digits or _">` : ''}
-        <label for="e-mail" class="${signup ? 'mt-4' : ''}">Email</label>
-        <input id="e-mail" type="email" inputmode="email" autocomplete="email" autocapitalize="none" spellcheck="false" value="${remembered}">
+        <label for="e-mail" class="${signup ? 'mt-4' : ''}">${signup ? 'Email' : 'Username or email'}</label>
+        <input id="e-mail" type="${signup ? 'email' : 'text'}" inputmode="${signup ? 'email' : 'text'}" autocomplete="${signup ? 'email' : 'username'}" autocapitalize="none" spellcheck="false" value="${remembered}">
         <label for="e-pass" class="mt-4">Password</label>
         <div class="auth__pass"><input id="e-pass" type="password" autocomplete="${signup ? 'new-password' : 'current-password'}" placeholder="${signup ? 'At least 8 characters' : ''}" minlength="8" required><button class="icon-btn" type="button" id="peek" aria-label="Show password">${raw(icon('eye'))}</button></div>
         ${signup ? html`<label for="e-pass2" class="mt-4">Password again</label><div class="auth__pass"><input id="e-pass2" type="password" autocomplete="new-password" minlength="8" required><button class="icon-btn" type="button" id="peek2" aria-label="Show password">${raw(icon('eye'))}</button></div><p class="t-footnote t-3 mt-2">Use at least 8 characters with letters and a number. Don’t reuse a password from anywhere else, and never share it.</p>` : ''}
@@ -182,7 +182,7 @@ async function emailSignin(route) {
         <p class="t-2 t-subhead mt-2" id="d-text"></p>
         <div class="auth__foot"><a href="#/signin">Back to sign in</a></div>
       </div>
-      <p class="auth__small">Your email is used only to sign you in; it is never shown to anyone in the app. Use a nickname, not your real name. One phone at a time: signing in elsewhere signs this one out.</p>`),
+      <p class="auth__small">If you joined with an email, it is used only to sign you in and is never shown to anyone in the app. Use a nickname, not your real name. One phone at a time: signing in elsewhere signs this one out.</p>`),
     mount(el) {
       const f = el.querySelector('#em'), err = el.querySelector('#e-err'), go = el.querySelector('#e-go');
       el.querySelector('#quote').addEventListener('click', () => { q = randomQuote(q); const t = el.querySelector('#quote-text'); t.style.opacity = 0; setTimeout(() => { t.textContent = q; t.style.opacity = 1; }, 150); });
@@ -200,8 +200,9 @@ async function emailSignin(route) {
       const label = signup ? 'Create my account' : 'Sign in';
       f.addEventListener('submit', async (e) => {
         e.preventDefault(); err.hidden = true;
-        const email = el.querySelector('#e-mail').value.trim().toLowerCase(), pass = el.querySelector('#e-pass').value;
-        if (!EMAIL_RE.test(email)) return fail('Enter a valid email address.');
+        const typed = el.querySelector('#e-mail').value.trim().toLowerCase(), pass = el.querySelector('#e-pass').value;
+        if (signup ? !EMAIL_RE.test(typed) : !(EMAIL_RE.test(typed) || NICK_RE.test(typed))) return fail(signup ? 'Enter a valid email address.' : 'Enter your username or email.');
+        const email = signup ? typed : signInEmail(typed);
         if (pass.length < 8) return fail(signup ? 'Password: at least 8 characters.' : 'Enter your password (at least 8 characters).');
         if (signup) {
           if (!/[A-Za-z]/.test(pass) || !/\d/.test(pass)) return fail('Password: use letters and at least one number.');
@@ -219,15 +220,15 @@ async function emailSignin(route) {
             if (s?.confirm) { done('Confirm your email', 'We sent you a confirmation link. Tap it, then come back and sign in.'); return; }
             haptic('success'); goAfterSignIn(s?.pending ? '#/awaiting' : next);
           } else {
-            store.set('signin.email', email);
+            store.set('signin.email', typed);
             const s = await signInPassword(email, pass);
             haptic('success');
             if (!s) return fail('Signed in, but your member profile could not be loaded. Try again in a moment.');
-            if (s.pending) goAfterSignIn('#/awaiting'); else { toast(`Signed in as ${s.nickname}`); goAfterSignIn(next); }
+            if (s.pending) goAfterSignIn('#/awaiting'); else if (s.must_change) goAfterSignIn('#/reset'); else { toast(`Signed in as ${s.nickname}`); goAfterSignIn(next); }
           }
         } catch (ex) {
           const m = ex?.message || '';
-          fail(/invalid login/i.test(m) ? 'Email or password is wrong.'
+          fail(/invalid login/i.test(m) ? (signup ? 'Email or password is wrong.' : 'Username / email or password is wrong.')
             : /already registered|already exists/i.test(m) ? 'That email already has an account. Sign in instead (or use Forgot password).'
             : /not confirmed/i.test(m) ? 'Confirm your email first (check your inbox), then sign in.'
             : /email.*rate limit|rate limit.*email|email_send_rate/i.test(m) ? 'Supabase’s email limit for this hour is used up (it still tries to send a confirmation email). Admin: turn off “Confirm email” in Supabase Auth; then this works without any email.'
@@ -240,7 +241,8 @@ async function emailSignin(route) {
       el.querySelector('#e-forgot')?.addEventListener('click', async () => {
         err.hidden = true;
         const email = el.querySelector('#e-mail').value.trim().toLowerCase();
-        if (!EMAIL_RE.test(email)) return fail('Type your email above first, then tap Forgot password.');
+        if (email && !email.includes('@')) return fail('Accounts the admin made have no email. Ask the admin for a new temporary password.');
+        if (!EMAIL_RE.test(email)) return fail('Type your email above first, then tap Forgot password. (No email? Ask the admin for a new temporary password.)');
         try { await resetPassword(email); done('Check your email', 'We sent a link to set a new password. Open it on this phone, choose a new password, then sign in.'); }
         catch (ex) { fail(errText(ex)); }
       });
@@ -251,18 +253,20 @@ async function emailSignin(route) {
 
 /** #/reset — arrived from the password-reset email: choose a new password. */
 export async function reset() {
+  const first = !!session()?.must_change; // signed in with a temporary password from the admin
   return {
     title: 'New password', tab: 'today', fullscreen: true,
     html: shell(html`
       <form class="card auth__card" id="rs" novalidate>
-        <h1 class="t-title2">Choose a new password</h1>
+        <h1 class="t-title2">${first ? 'Choose your own password' : 'Choose a new password'}</h1>
+        ${first ? html`<p class="t-2 t-subhead mt-1">You signed in with a temporary password. Pick your own now; only you will know it. Use at least 8 characters with letters and a number, and don’t share it.</p>` : ''}
         <label for="r-pass" class="mt-4">New password</label>
         <input id="r-pass" type="password" autocomplete="new-password" placeholder="At least 8 characters">
         <label for="r-pass2" class="mt-4">Again</label>
         <input id="r-pass2" type="password" autocomplete="new-password">
         <p class="auth__err" id="r-err" role="alert" hidden></p>
         <button class="btn btn--block mt-4" type="submit" id="r-go">Save and sign in</button>
-        <div class="auth__foot"><a href="#/signin">Back to sign in</a></div>
+        ${first ? '' : html`<div class="auth__foot"><a href="#/signin">Back to sign in</a></div>`}
       </form>`),
     mount(el) {
       const f = el.querySelector('#rs'), err = el.querySelector('#r-err'), go = el.querySelector('#r-go');
@@ -270,6 +274,7 @@ export async function reset() {
         e.preventDefault(); err.hidden = true;
         const a = el.querySelector('#r-pass').value, b = el.querySelector('#r-pass2').value;
         if (a.length < 8) { err.textContent = 'At least 8 characters.'; err.hidden = false; return; }
+        if (!/[A-Za-z]/.test(a) || !/\d/.test(a)) { err.textContent = 'Use letters and at least one number.'; err.hidden = false; return; }
         if (a !== b) { err.textContent = 'The two passwords don’t match.'; err.hidden = false; return; }
         go.disabled = true;
         try { await setNewPassword(a); toast('Password saved'); goAfterSignIn('#/today'); }

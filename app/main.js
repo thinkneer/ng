@@ -96,6 +96,7 @@ async function render(route) {
     const s = await check();
     if (!s) { sessionChecked = null; route = { name: 'signin', next: location.hash || '#/today', seg: [] }; }
     else if (s.pending) { sessionChecked = null; route = { name: 'awaiting', profile: s.pending, seg: [] }; }
+    else if (s.must_change) { location.replace('#/reset'); return; } // temporary password from the admin: choose your own first
     else if (dbMode && !syncStarted) { syncStarted = true; import('./sync.js').then((m) => m.startSync()).catch(() => {}); } // progress summary for teachers
   } else if (['signin', 'login', 'request', 'access', 'awaiting'].includes(route.name) && (dbMode || store.get('session', null))) {
     const s = await check();

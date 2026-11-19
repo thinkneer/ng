@@ -143,6 +143,7 @@ async function adminDb() {
       <span class="list__body"><span class="list__title">${esc(u.nickname)} ${u.role !== 'student' ? `<span class="badge badge--new">${esc(u.role)}</span>` : ''}${u.status === 'pending' ? ' <span class="badge badge--soon">awaiting</span>' : u.status === 'suspended' ? ' <span class="badge">paused</span>' : ''}</span><span class="list__sub">${esc(u.role === 'admin' ? classLabel(idx, u.class, u.stream) + ' · sees everything' : access(u))} · ${u.status === 'approved' ? `since ${when(u.approved_at || u.created_at)}` : `asked ${when(u.created_at)}`}</span></span>
       ${u.id === me ? '' : `<span class="list__controls">
         ${u.role !== 'admin' ? `<button class="btn btn--sm btn--plain" type="button" data-access>${icon('lock')} Class &amp; subjects</button>` : ''}
+        ${u.status !== 'pending' ? `<button class="btn btn--sm btn--plain" type="button" data-pw>Reset password</button>` : ''}
         ${u.status === 'pending' ? `<button class="btn btn--sm" type="button" data-set='{"status":"approved","role":"student"}'>Approve as student</button><button class="btn btn--sm btn--secondary" type="button" data-set='{"status":"approved","role":"teacher"}'>Approve as teacher</button>`
           : u.status === 'suspended' ? `<button class="btn btn--sm" type="button" data-set='{"status":"approved"}'>Restore</button>`
           : `<button class="btn btn--sm btn--plain" type="button" data-set='{"status":"suspended"}'>Pause</button>${u.role === 'teacher' ? `<button class="btn btn--sm btn--plain" type="button" data-set='{"role":"student"}'>Make student</button>` : u.role === 'student' ? `<button class="btn btn--sm btn--plain" type="button" data-set='{"role":"teacher"}'>Make teacher</button>` : ''}`}
@@ -153,19 +154,21 @@ async function adminDb() {
     title: 'Admin', tab: 'more', back: '#/more',
     html: html`<h1 class="t-title" style="margin:var(--s-4) 0">Admin</h1>
       ${error ? raw(`<div class="notice notice--warn mb-4">${icon('alert')}<div>${esc(errText(error))}</div></div>`) : ''}
-      <div class="card mb-4"><div class="t-headline">${pending ? `${pending} awaiting approval` : 'No one waiting'}</div><p class="t-2 t-subhead mt-1">Members join with a nickname, email and password; you approve each one here as a student or a teacher, and set the class and subjects they can open (<em>Class &amp; subjects</em>). Teachers can run live quizzes and, later, exams. Changes apply the next time they open the app.</p>
+      <div class="card mb-4"><div class="t-headline">${pending ? `${pending} awaiting approval` : 'No one waiting'}</div><p class="t-2 t-subhead mt-1">Members join themselves with a nickname, email and password, or you create them here with a username and temporary password (no email). You approve each joiner as a student or a teacher, and set the class and subjects they can open (<em>Class &amp; subjects</em>). Teachers can run live quizzes and, later, exams. Changes apply the next time they open the app.</p>
         <button class="btn btn--block mt-4" type="button" id="new-member">${raw(icon('plusSquare'))} New member</button>
         <a class="btn btn--block btn--secondary mt-2" href="#/students">${raw(icon('user'))} Teachers &amp; students</a></div>
       <div class="list__header" style="padding-left:0">Members <span class="count">${people.filter((p) => p.status === 'approved').length} approved · ${people.filter((p) => p.role === 'teacher').length} teachers</span></div>
       ${people.length > 8 ? raw('<input type="search" id="m-search" placeholder="Find a nickname" aria-label="Find a nickname" class="mb-2">') : ''}
       <div class="list" id="members">${raw(people.map(row).join('') || '<div class="list__item t-2">No members yet</div>')}</div>
-      <p class="t-footnote t-3 mt-4">Nicknames only are shown; emails stay in the sign-in system. Your own row has no buttons.</p>`,
+      <p class="t-footnote t-3 mt-4">Nicknames only are shown; emails stay in the sign-in system. Forgot a password? <em>Reset password</em> gives a new temporary one. Your own row has no buttons.</p>`,
     mount(el) {
       el.querySelector('#new-member').addEventListener('click', () => newMember(c, idx, people));
       el.querySelector('#m-search')?.addEventListener('input', (e) => { const q = e.target.value.trim().toLowerCase(); for (const r of el.querySelectorAll('#members [data-nick]')) r.hidden = !!q && !r.dataset.nick.toLowerCase().includes(q); });
       el.querySelector('#members').addEventListener('click', async (e) => {
         const ab = e.target.closest('[data-access]');
         if (ab) { editAccess(c, idx, byId.get(ab.closest('[data-id]').dataset.id)); return; }
+        const pw = e.target.closest('[data-pw]');
+        if (pw) { resetPassword(c, byId.get(pw.closest('[data-id]').dataset.id)); return; }
         const b = e.target.closest('[data-set]'); if (!b) return;
         const item = b.closest('[data-id]'); const patch = JSON.parse(b.dataset.set);
         if (patch.status === 'suspended' && !confirm(`Pause ${item.dataset.nick}? They are signed out on their next open and can’t use the app until you restore them.`)) return;
@@ -180,7 +183,7 @@ async function adminDb() {
   };
 }
 
-/* ---------- new member (db mode, needs supabase/migrations/003) ---------- */
+/* ---------- new member + reset password (db mode, needs supabase/migrations/005) ---------- */
 const makePassword = () => {
   const abc = 'abcdefghjkmnpqrstuvwxyz', dig = '23456789', all = abc + abc.toUpperCase() + dig;
   const r = (set) => set[crypto.getRandomValues(new Uint32Array(1))[0] % set.length];
@@ -189,7 +192,7 @@ const makePassword = () => {
   return [...p].sort(() => crypto.getRandomValues(new Uint8Array(1))[0] - 128).join('');
 };
 
-/** Sheet: create a member who is approved at once (nickname, sign-in email, first password, role, class). */
+/** Sheet: create a member who is approved at once, like DAME Hub: username + temporary password, no email (needs 005). */
 export function newMember(c, idx, people = []) {
   const options = streamsOf(idx);
   // default class: the one most members already have, else the first live one
@@ -199,13 +202,13 @@ export function newMember(c, idx, people = []) {
   const first = options.find((o) => o.key === common) || options.find((o) => o.st.status === 'live') || options[0];
   const panel = document.createElement('div');
   panel.innerHTML = `
-    <p class="t-2 t-subhead">The account is ready at once: no Join, no waiting. Send them the sign-in details and ask them to change the password (More → Change password).</p>
-    <label for="nm-nick" class="mt-4">Nickname</label>
-    <input id="nm-nick" maxlength="20" autocomplete="off" autocapitalize="none" spellcheck="false" placeholder="3–20 letters, digits or _">
-    <label for="nm-email" class="mt-4">Their sign-in email</label>
-    <input id="nm-email" type="email" inputmode="email" autocomplete="off" autocapitalize="none" spellcheck="false" placeholder="name@example.com">
-    <label for="nm-pass" class="mt-4">First password</label>
-    <div class="row" style="gap:var(--s-2)"><input id="nm-pass" class="grow" autocomplete="off" autocapitalize="none" spellcheck="false" placeholder="At least 8, letters and a number"><button class="btn btn--sm btn--secondary" type="button" id="nm-gen">Generate</button></div>
+    <p class="t-2 t-subhead">The person signs in with this username and the temporary password, and must choose a new password at the first sign-in. No email is needed.</p>
+    <label for="nm-nick" class="mt-4">Username</label>
+    <input id="nm-nick" maxlength="20" autocomplete="off" autocapitalize="none" spellcheck="false">
+    <p class="t-footnote t-3 mt-1">3–20 letters, digits or _. It is also their nickname in the app: no real names.</p>
+    <label for="nm-pass" class="mt-4">Temporary password</label>
+    <div class="row" style="gap:var(--s-2)"><input id="nm-pass" class="grow" autocomplete="off" autocapitalize="none" spellcheck="false"><button class="btn btn--sm btn--secondary" type="button" id="nm-gen">Generate</button></div>
+    <p class="t-footnote t-3 mt-1">At least 8 characters with letters and a number. Tell it to the person by voice, not in writing.</p>
     <fieldset class="mt-4" style="border:0;padding:0;margin-inline:0">
       <legend class="t-subhead" style="font-weight:600">Role</legend>
       <label class="check"><input type="radio" name="nm-role" value="student" checked><span class="grow">Student</span></label>
@@ -218,7 +221,7 @@ export function newMember(c, idx, people = []) {
     </select>
     <p class="t-footnote t-3 mt-2">They get all subjects of the class; narrow it later with <em>Class &amp; subjects</em>.</p>
     <p class="auth__err mt-2" id="nm-err" role="alert" hidden></p>
-    <button class="btn btn--block mt-4" type="button" id="nm-save">Create member</button>`;
+    <button class="btn btn--block mt-4" type="button" id="nm-save">Create</button>`;
   const $ = (s) => panel.querySelector(s);
   const err = $('#nm-err');
   const fail = (m) => { err.textContent = m; err.hidden = false; haptic('medium'); };
@@ -228,32 +231,56 @@ export function newMember(c, idx, people = []) {
   const sheet = openSheet({ title: 'New member', content: panel, onClose: () => { if (created) location.reload(); } });
   $('#nm-save').addEventListener('click', async (e) => {
     err.hidden = true;
-    const nickname = $('#nm-nick').value.trim(), email = $('#nm-email').value.trim().toLowerCase(), pass = $('#nm-pass').value;
+    const nickname = $('#nm-nick').value.trim(), pass = $('#nm-pass').value;
     const role = panel.querySelector('[name="nm-role"]:checked').value;
     const [cls, stream] = $('#nm-class').value === ANY ? [ANY, ANY] : $('#nm-class').value.split('|');
-    if (!NICK_RE.test(nickname)) return fail('Nickname: 3–20 letters, digits or _ (no spaces).');
-    if (!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email)) return fail('That email doesn’t look right.');
+    if (!NICK_RE.test(nickname)) return fail('Username: 3–20 letters, digits or _ (no spaces).');
     if (pass.length < 8 || !/[A-Za-z]/.test(pass) || !/\d/.test(pass)) return fail('Password: at least 8 characters with letters and a number.');
     e.target.disabled = true; e.target.textContent = 'Creating…';
-    const { error } = await c.rpc('admin_create_member', { p_email: email, p_password: pass, p_nickname: nickname, p_role: role, p_class: cls, p_stream: stream, p_subjects: [] });
+    const { error } = await c.rpc('admin_create_user', { p_nickname: nickname, p_password: pass, p_role: role, p_class: cls, p_stream: stream, p_subjects: [] });
     if (error) {
-      e.target.disabled = false; e.target.textContent = 'Create member';
-      return fail(/admin_create_member|schema cache|could not find the function/i.test(error.message || '') ? 'One-time setup: run supabase/migrations/003_admin_create_member.sql in the Supabase SQL Editor, then try again.' : errText(error));
+      e.target.disabled = false; e.target.textContent = 'Create';
+      return fail(setupHint(error));
     }
     created = true; haptic('success');
-    const site = new URL(location.pathname, location.origin).href;
-    const text = `Your ng study app account is ready.\n${site}\nSign in with:\nEmail: ${email}\nPassword: ${pass}\nPlease change the password after signing in (More → Change password).`;
-    panel.innerHTML = `
-      <div class="t-headline">${esc(nickname)} is ready</div>
-      <p class="t-2 t-subhead mt-1">${esc(role === 'teacher' ? 'Teacher' : 'Student')} · ${esc(classLabel(idx, cls, stream))} · approved. Send these sign-in details to them only, then close this sheet. The password is not shown again.</p>
-      <textarea readonly rows="7" class="mt-4 t-mono" style="font-size:.85rem" aria-label="Sign-in details">${esc(text)}</textarea>
-      <button class="btn btn--block mt-4" type="button" id="nm-send">${icon('share')} Send sign-in details</button>
-      <button class="btn btn--block btn--plain mt-2" type="button" id="nm-done">Done</button>`;
-    panel.querySelector('#nm-done').addEventListener('click', () => sheet.close());
-    panel.querySelector('#nm-send').addEventListener('click', async () => {
-      if (navigator.share) { try { await navigator.share({ text }); return; } catch (ex) { if (ex?.name === 'AbortError') return; } }
-      try { await navigator.clipboard.writeText(text); toast('Copied: paste it in a message to them'); } catch { panel.querySelector('textarea').select(); toast('Select the text and copy it'); }
-    });
+    panel.innerHTML = tempShown(nickname, pass, `${role === 'teacher' ? 'Teacher' : 'Student'} · ${classLabel(idx, cls, stream)} · approved.`);
+    panel.querySelector('#tp-done').addEventListener('click', () => sheet.close());
+  });
+}
+
+const SETUP_005 = 'One-time setup: run supabase/migrations/005_username_accounts.sql in the Supabase SQL Editor, then try again.';
+const setupHint = (e) => (/could not find the function|in the schema cache/i.test(e?.message || '') ? SETUP_005 : errText(e));
+/** What the admin reads out to the member once: username + temporary password. */
+const tempShown = (nickname, pass, line) => `
+  <div class="t-headline">${esc(nickname)} can sign in</div>
+  <p class="t-2 t-subhead mt-1">${esc(line)} Tell them these by voice, not in writing. They choose their own password at the first sign-in. The password is not shown again.</p>
+  <div class="card mt-4" style="background:var(--surface-2)">
+    <div class="t-footnote t-2">Username</div><div class="t-title3 t-mono" style="user-select:all">${esc(nickname)}</div>
+    <div class="t-footnote t-2 mt-2">Temporary password</div><div class="t-title3 t-mono" style="user-select:all;letter-spacing:.04em">${esc(pass)}</div>
+  </div>
+  <button class="btn btn--block mt-4" type="button" id="tp-done">Done</button>`;
+
+/** Sheet: a new temporary password for a member (they choose their own at the next sign-in). */
+function resetPassword(c, u) {
+  const panel = document.createElement('div');
+  panel.innerHTML = `
+    <p class="t-2 t-subhead">${esc(u.nickname)} signs in with ${'their username (or email, if they joined with one)'} and this temporary password, then must choose a new one. Their current password stops working now.</p>
+    <label for="rp-pass" class="mt-4">Temporary password</label>
+    <div class="row" style="gap:var(--s-2)"><input id="rp-pass" class="grow" autocomplete="off" autocapitalize="none" spellcheck="false" value="${esc(makePassword())}"><button class="btn btn--sm btn--secondary" type="button" id="rp-gen">Generate</button></div>
+    <p class="auth__err mt-2" id="rp-err" role="alert" hidden></p>
+    <button class="btn btn--block mt-4" type="button" id="rp-save">Set temporary password</button>`;
+  const $ = (s) => panel.querySelector(s);
+  const sheet = openSheet({ title: 'Reset password', content: panel });
+  $('#rp-gen').addEventListener('click', () => { $('#rp-pass').value = makePassword(); });
+  $('#rp-save').addEventListener('click', async (e) => {
+    const pass = $('#rp-pass').value, err = $('#rp-err');
+    if (pass.length < 8 || !/[A-Za-z]/.test(pass) || !/\d/.test(pass)) { err.textContent = 'At least 8 characters with letters and a number.'; err.hidden = false; return; }
+    e.target.disabled = true;
+    const { error } = await c.rpc('admin_set_password', { p_user: u.id, p_password: pass });
+    if (error) { e.target.disabled = false; err.textContent = setupHint(error); err.hidden = false; return; }
+    haptic('success');
+    panel.innerHTML = tempShown(u.nickname, pass, 'New temporary password set.');
+    panel.querySelector('#tp-done').addEventListener('click', () => sheet.close());
   });
 }
 
