@@ -298,5 +298,147 @@
   ],
   "topic": "LPP in a real situation",
   "hint": "The corners are the two intercepts nearer the origin, the origin and the intersection point."
+ },
+ {
+  "id": "maths-pyq25-14",
+  "chapter": "ch-12",
+  "type": "mcq",
+  "marks": 1,
+  "stars": 3,
+  "label": "PYQ (2025)",
+  "stem": "The corner points of the feasible region of an LPP are $(2,72)$, $(15,20)$ and $(40,15)$. For the objective function $Z=18x+9y$,",
+  "options": [
+   "$Z$ is maximum at $(2,72)$ and minimum at $(15,20)$",
+   "$Z$ is maximum at $(15,20)$ and minimum at $(40,15)$",
+   "$Z$ is maximum at $(40,15)$ and minimum at $(15,20)$",
+   "$Z$ is maximum at $(40,15)$ and minimum at $(2,72)$"
+  ],
+  "answer": "C",
+  "model_answer": "**(c).** $Z(2,72)=684$, $Z(15,20)=450$, $Z(40,15)=855$. Largest at $(40,15)$, smallest at $(15,20)$.",
+  "topic": "Corner-point method",
+  "hint": "Three quick substitutions.",
+  "source_note": "CBSE Class 12 Mathematics board paper 2025 (set 65/1/1), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
+ },
+ {
+  "id": "maths-pyq25-16",
+  "chapter": "ch-12",
+  "type": "mcq",
+  "marks": 1,
+  "stars": 3,
+  "label": "PYQ (2025)",
+  "stem": "The feasible region of an LPP with objective function $Z=ax+by$ is bounded. Then $Z$ has",
+  "options": [
+   "only a maximum value",
+   "only a minimum value",
+   "both a maximum and a minimum value",
+   "neither a maximum nor a minimum value"
+  ],
+  "answer": "C",
+  "model_answer": "**(c).** In a bounded feasible region the objective function has both a maximum and a minimum, each at a corner point.",
+  "topic": "Corner-point theorem",
+  "hint": "Recall the second corner-point theorem.",
+  "source_note": "CBSE Class 12 Mathematics board paper 2025 (set 65/1/1), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
+ },
+ {
+  "id": "maths-pyq25-27",
+  "chapter": "ch-12",
+  "type": "sa3",
+  "marks": 3,
+  "stars": 3,
+  "label": "PYQ (2025)",
+  "stem": "Solve graphically: maximise $Z=x+2y$ subject to $x-y\\ge0$, $\\ x-2y\\ge-2$, $\\ x\\ge0$, $\\ y\\ge0$.",
+  "model_answer": "*How much to write: about 9 lines · 5 minutes.*\n\nLines: $x-y=0$ through $(0,0)$ and $(2,2)$; $x-2y=-2$ through $(0,1)$ and $(2,2)$. Test point $(1,0)$ satisfies both inequalities, so the region lies below both lines, above the $x$-axis.\n\n<figure class=\"fig\">\n<svg viewBox=\"0 0 315 209\" role=\"img\" aria-label=\"Unbounded feasible region below both lines x − y = 0 and x − 2y = −2\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.4\"><path d=\"M46,182.79999999999998 H301.20000000000005 M54,190.79999999999998 V18.0\" stroke-width=\"1\"/><text x=\"307\" y=\"187\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">x</text><text x=\"52\" y=\"16\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">y</text><polygon points=\"54.0,182.8 289.2,182.8 289.2,37.2 110.0,126.8\" fill=\"#E0B400\" fill-opacity=\"0.28\" stroke=\"none\"/><path d=\"M54.0,182.8 L205.2,31.6\"/><text x=\"172\" y=\"37\" font-size=\"10\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">x − y = 0</text><path d=\"M54.0,154.8 L289.2,37.2\"/><text x=\"250\" y=\"40\" font-size=\"10\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">x − 2y = −2</text><circle cx=\"54.0\" cy=\"182.8\" r=\"2.6\" fill=\"currentColor\"/><text x=\"76\" y=\"196\" font-size=\"10\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">O(0, 0)</text><circle cx=\"110.0\" cy=\"126.8\" r=\"2.6\" fill=\"currentColor\"/><text x=\"86\" y=\"123\" font-size=\"10\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">A(2, 2)</text></svg>\n<figcaption>The feasible region (shaded) is unbounded: it continues to the right.</figcaption>\n</figure>\n\nThe lines meet at $A(2,2)$. Corner points: $O(0,0)$ and $A(2,2)$. $Z(O)=0$, $Z(A)=6$.\n\nThe region is <u>unbounded</u>, so check the open half-plane $x+2y>6$: it has points in common with the feasible region, for example <mark>$(10,0)$, where $Z=10>6$</mark>.\n\n$$\\boxed{Z\\text{ has no maximum value}}$$\n\n:::tip Your answer must contain\n- a labelled graph\n- the word <u>unbounded</u>\n- the half-plane check with one point\n- a clear conclusion\n:::\n\n**Marks are lost for:** writing 'maximum $Z=6$ at $(2,2)$': for an unbounded region the table alone is not enough.",
+  "scheme": [
+   {
+    "step": "Correct graph with the unbounded region shaded",
+    "marks": 1.5
+   },
+   {
+    "step": "Corner points $(0,0)$, $(2,2)$ and values of $Z$",
+    "marks": 0.5
+   },
+   {
+    "step": "Half-plane $x+2y>6$ shown to meet the region",
+    "marks": 0.5
+   },
+   {
+    "step": "Conclusion: no maximum value",
+    "marks": 0.5
+   }
+  ],
+  "topic": "Unbounded feasible region",
+  "hint": "The region is open on the right. After the table, do the half-plane check.",
+  "source_note": "CBSE Class 12 Mathematics board paper 2025 (set 65/1/1), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
+ },
+ {
+  "id": "maths-pyq26-17",
+  "chapter": "ch-12",
+  "type": "mcq",
+  "marks": 1,
+  "stars": 3,
+  "label": "PYQ (2026)",
+  "stem": "The feasible region of a linear programming problem is the quadrilateral with corner points $(0,0)$, $(7,0)$, $(3,4)$ and $(0,2)$. For the objective function $Z=5x+7y$, the value of (maximum of $Z$) − (minimum of $Z$) is",
+  "options": [
+   "$8$",
+   "$29$",
+   "$35$",
+   "$43$"
+  ],
+  "answer": "D",
+  "model_answer": "**(d).** $Z$ at the corners: $0$, $35$, $43$, $14$. Maximum 43 at $(3,4)$, minimum 0 at $(0,0)$; the difference is 43.",
+  "topic": "Corner-point method",
+  "hint": "Evaluate $Z$ at all four corners.",
+  "source_note": "CBSE Class 12 Mathematics board paper 2026 (set 65/1/1), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers. Adapted: the paper showed the region as a shaded graph; here its corner points are given in words."
+ },
+ {
+  "id": "maths-pyq26-18",
+  "chapter": "ch-12",
+  "type": "mcq",
+  "marks": 1,
+  "stars": 2,
+  "label": "PYQ (2026)",
+  "stem": "The degree of the objective function of a linear programming problem is",
+  "options": [
+   "0",
+   "1",
+   "2",
+   "any natural number"
+  ],
+  "answer": "B",
+  "model_answer": "**(b).** The objective function $Z=ax+by$ is linear, so its degree is 1.",
+  "topic": "Terminology",
+  "hint": "What does 'linear' mean?",
+  "source_note": "CBSE Class 12 Mathematics board paper 2026 (set 65/1/1), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
+ },
+ {
+  "id": "maths-pyq26-30",
+  "chapter": "ch-12",
+  "type": "sa3",
+  "marks": 3,
+  "stars": 3,
+  "label": "PYQ (2026)",
+  "stem": "Solve graphically: minimise $Z=13x-15y$ subject to $x+y\\le7$, $\\ 2x-3y+6\\ge0$, $\\ x\\ge0$, $\\ y\\ge0$.",
+  "model_answer": "*How much to write: about 9 lines · 5 minutes.*\n\nLines: $x+y=7$ through $(7,0)$ and $(0,7)$; $2x-3y+6=0$ through $(0,2)$ and $(-3,0)$. The origin satisfies both inequalities, so the region lies on the origin's side of each line.\n\n<figure class=\"fig\">\n<svg viewBox=\"0 0 288 244\" role=\"img\" aria-label=\"Feasible region OABC bounded by x + y = 7 and 2x − 3y + 6 = 0\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.4\"><path d=\"M46,218.4 H274 M54,226.4 V18.0\" stroke-width=\"1\"/><text x=\"280\" y=\"222\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">x</text><text x=\"52\" y=\"16\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">y</text><polygon points=\"54.0,218.4 236.0,218.4 132.0,114.4 54.0,166.4\" fill=\"#E0B400\" fill-opacity=\"0.28\" stroke=\"none\"/><path d=\"M54.0,36.4 L236.0,218.4\"/><text x=\"218\" y=\"169\" font-size=\"10\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">x + y = 7</text><path d=\"M54.0,166.4 L249.0,36.4\"/><text x=\"189\" y=\"47\" font-size=\"10\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">2x − 3y + 6 = 0</text><circle cx=\"54.0\" cy=\"218.4\" r=\"2.6\" fill=\"currentColor\"/><text x=\"45\" y=\"231\" font-size=\"10\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">O</text><circle cx=\"236.0\" cy=\"218.4\" r=\"2.6\" fill=\"currentColor\"/><text x=\"240\" y=\"232\" font-size=\"10\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">A(7, 0)</text><circle cx=\"132.0\" cy=\"114.4\" r=\"2.6\" fill=\"currentColor\"/><text x=\"108\" y=\"109\" font-size=\"10\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">B(3, 4)</text><circle cx=\"54.0\" cy=\"166.4\" r=\"2.6\" fill=\"currentColor\"/><text x=\"30\" y=\"169\" font-size=\"10\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">C(0, 2)</text></svg>\n<figcaption>Feasible region $OABC$ (shaded).</figcaption>\n</figure>\n\nThe lines meet where $2(7-y)-3y+6=0\\Rightarrow y=4,\\ x=3$. Corner points: $O(0,0)$, $A(7,0)$, $B(3,4)$, $C(0,2)$.\n\n| Corner | $Z=13x-15y$ |\n|---|---|\n| $O(0,0)$ | 0 |\n| $A(7,0)$ | 91 |\n| $B(3,4)$ | $-21$ |\n| $C(0,2)$ | <mark>$-30$</mark> |\n\nThe feasible region is <u>bounded</u>, so the smallest corner value is the minimum.\n\n$$\\boxed{Z_{\\min}=-30\\ \\text{at}\\ x=0,\\ y=2}$$\n\n:::tip Your answer must contain\n- a labelled graph: axes, both lines, shaded region\n- all four corner points\n- the table of $Z$\n- the point as well as the value\n:::\n\n**Marks are lost for:** reading $B$ off the graph instead of solving; stopping at the table without a conclusion.",
+  "scheme": [
+   {
+    "step": "Correct graph with the feasible region shaded",
+    "marks": 1.5
+   },
+   {
+    "step": "Corner points, with $B(3,4)$ found by solving",
+    "marks": 0.5
+   },
+   {
+    "step": "Values of $Z$ at the corners",
+    "marks": 0.5
+   },
+   {
+    "step": "Minimum $Z=-30$ at $(0,2)$",
+    "marks": 0.5
+   }
+  ],
+  "topic": "Corner-point method",
+  "hint": "Four corners. Negative values of $Z$ are allowed: pick the smallest.",
+  "source_note": "CBSE Class 12 Mathematics board paper 2026 (set 65/1/1), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
  }
 ]

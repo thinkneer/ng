@@ -1,0 +1,163 @@
+{
+ "$schema": "../../../../../schemas/paper.schema.json",
+ "id": "board-2025",
+ "title": "CBSE board paper 2025 · rebuilt in our words",
+ "sections": [
+  {
+   "id": "A",
+   "name": "Section A",
+   "note": "Q1–18 MCQ, Q19–20 assertion–reason. 1 mark each.",
+   "questions": [
+    {
+     "ref": "ch-04/maths-pyq25-01"
+    },
+    {
+     "ref": "ch-10/maths-pyq25-02"
+    },
+    {
+     "ref": "ch-07/maths-pyq25-03"
+    },
+    {
+     "ref": "ch-09/maths-pyq25-04"
+    },
+    {
+     "ref": "ch-05/maths-pyq25-05"
+    },
+    {
+     "ref": "ch-04/maths-pyq25-06"
+    },
+    {
+     "ref": "ch-13/maths-pyq25-07"
+    },
+    {
+     "ref": "ch-06/maths-pyq25-08"
+    },
+    {
+     "ref": "ch-03/maths-pyq25-09"
+    },
+    {
+     "ref": "ch-07/maths-pyq25-10"
+    },
+    {
+     "ref": "ch-10/maths-pyq25-11"
+    },
+    {
+     "ref": "ch-09/maths-pyq25-12"
+    },
+    {
+     "ref": "ch-03/maths-pyq25-13"
+    },
+    {
+     "ref": "ch-12/maths-pyq25-14"
+    },
+    {
+     "ref": "ch-04/maths-pyq25-15"
+    },
+    {
+     "ref": "ch-12/maths-pyq25-16"
+    },
+    {
+     "ref": "ch-08/maths-pyq25-17"
+    },
+    {
+     "ref": "ch-02/maths-pyq25-18"
+    },
+    {
+     "ref": "ch-01/maths-pyq25-19"
+    },
+    {
+     "ref": "ch-05/maths-pyq25-20"
+    }
+   ]
+  },
+  {
+   "id": "B",
+   "name": "Section B",
+   "note": "Q21–25, 2 marks each. Internal choice in Q21 and Q25.",
+   "questions": [
+    {
+     "ref": "ch-05/maths-pyq25-21a",
+     "or": "ch-05/maths-pyq25-21b"
+    },
+    {
+     "ref": "ch-02/maths-pyq25-22"
+    },
+    {
+     "ref": "ch-10/maths-pyq25-23"
+    },
+    {
+     "ref": "ch-06/maths-pyq25-24"
+    },
+    {
+     "ref": "ch-10/maths-pyq25-25a",
+     "or": "ch-10/maths-pyq25-25b"
+    }
+   ]
+  },
+  {
+   "id": "C",
+   "name": "Section C",
+   "note": "Q26–31, 3 marks each. Internal choice in Q28, Q29 and Q30.",
+   "questions": [
+    {
+     "ref": "ch-06/maths-pyq25-26"
+    },
+    {
+     "ref": "ch-12/maths-pyq25-27"
+    },
+    {
+     "ref": "ch-07/maths-pyq25-28a",
+     "or": "ch-07/maths-pyq25-28b"
+    },
+    {
+     "ref": "ch-11/maths-pyq25-29a",
+     "or": "ch-10/maths-pyq25-29b"
+    },
+    {
+     "ref": "ch-13/maths-pyq25-30a",
+     "or": "ch-13/maths-pyq25-30b"
+    },
+    {
+     "ref": "ch-08/maths-pyq25-31"
+    }
+   ]
+  },
+  {
+   "id": "D",
+   "name": "Section D",
+   "note": "Q32–35, 5 marks each. Internal choice in Q32 and Q34.",
+   "questions": [
+    {
+     "ref": "ch-05/maths-pyq25-32a",
+     "or": "ch-05/maths-pyq25-32b"
+    },
+    {
+     "ref": "ch-06/maths-pyq25-33"
+    },
+    {
+     "ref": "ch-11/maths-pyq25-34a",
+     "or": "ch-11/maths-pyq25-34b"
+    },
+    {
+     "ref": "ch-04/maths-pyq25-35"
+    }
+   ]
+  },
+  {
+   "id": "E",
+   "name": "Section E",
+   "note": "Q36–38, case studies, 4 marks each. Q36 and Q37 have a choice inside part (iii); Q38 has two parts of 2 marks.",
+   "questions": [
+    {
+     "ref": "ch-06/maths-pyq25-36"
+    },
+    {
+     "ref": "ch-01/maths-pyq25-37"
+    },
+    {
+     "ref": "ch-13/maths-pyq25-38"
+    }
+   ]
+  }
+ ]
+}

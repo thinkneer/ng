@@ -306,5 +306,206 @@
   ],
   "topic": "System of equations in a real situation",
   "hint": "Keep the items in the same order (onion, wheat, rice) in all three equations."
+ },
+ {
+  "id": "maths-pyq25-01",
+  "chapter": "ch-04",
+  "type": "mcq",
+  "marks": 1,
+  "stars": 2,
+  "label": "PYQ (2025)",
+  "stem": "For $A=\\begin{bmatrix}-1&0&0\\\\0&1&0\\\\0&0&1\\end{bmatrix}$, the inverse $A^{-1}$ is",
+  "options": [
+   "$\\begin{bmatrix}-1&0&0\\\\0&-1&0\\\\0&0&-1\\end{bmatrix}$",
+   "$\\begin{bmatrix}1&0&0\\\\0&-1&0\\\\0&0&-1\\end{bmatrix}$",
+   "$\\begin{bmatrix}-1&0&0\\\\0&-1&0\\\\0&0&1\\end{bmatrix}$",
+   "$\\begin{bmatrix}-1&0&0\\\\0&1&0\\\\0&0&1\\end{bmatrix}$"
+  ],
+  "answer": "D",
+  "model_answer": "**(d).** For a diagonal matrix, invert each diagonal entry: $\\dfrac{1}{-1}=-1$, $\\dfrac11=1$, $\\dfrac11=1$. So $A^{-1}=A$. Check: $A\\cdot A=I$.",
+  "topic": "Inverse of a matrix",
+  "hint": "Inverse of a diagonal matrix: reciprocals on the diagonal.",
+  "source_note": "CBSE Class 12 Mathematics board paper 2025 (set 65/1/1), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
+ },
+ {
+  "id": "maths-pyq25-06",
+  "chapter": "ch-04",
+  "type": "mcq",
+  "marks": 1,
+  "stars": 3,
+  "label": "PYQ (2025)",
+  "stem": "$A$ is a square matrix of order 2 with $\\det(A)=4$. Then $\\det(4\\operatorname{adj}A)$ equals",
+  "options": [
+   "16",
+   "64",
+   "256",
+   "512"
+  ],
+  "answer": "B",
+  "model_answer": "**(b).** For order 2, $\\lvert\\operatorname{adj}A\\rvert=\\lvert A\\rvert^{2-1}=4$ and $\\lvert kB\\rvert=k^2\\lvert B\\rvert$. So $\\det(4\\operatorname{adj}A)=4^2\\times4=64$.",
+  "topic": "Adjoint of a matrix",
+  "hint": "Two facts: $\\lvert kB\\rvert=k^n\\lvert B\\rvert$ and $\\lvert\\operatorname{adj}A\\rvert=\\lvert A\\rvert^{n-1}$.",
+  "source_note": "CBSE Class 12 Mathematics board paper 2025 (set 65/1/1), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
+ },
+ {
+  "id": "maths-pyq25-15",
+  "chapter": "ch-04",
+  "type": "mcq",
+  "marks": 1,
+  "stars": 2,
+  "label": "PYQ (2025)",
+  "stem": "$A$ and $B$ are invertible matrices of the same order. Which statement is **not** correct?",
+  "options": [
+   "$(A+B)^{-1}=B^{-1}+A^{-1}$",
+   "$(AB)^{-1}=B^{-1}A^{-1}$",
+   "$\\operatorname{adj}(A)=\\lvert A\\rvert A^{-1}$",
+   "$\\lvert A^{-1}\\rvert=\\lvert A\\rvert^{-1}$"
+  ],
+  "answer": "A",
+  "model_answer": "**(a).** The inverse does not split over a sum (take $A=B=I$: $(2I)^{-1}=\\dfrac12I$, not $2I$). The other three are standard results.",
+  "topic": "Properties of the inverse",
+  "hint": "Test the doubtful one with $A=B=I$.",
+  "source_note": "CBSE Class 12 Mathematics board paper 2025 (set 65/1/1), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
+ },
+ {
+  "id": "maths-pyq25-35",
+  "chapter": "ch-04",
+  "type": "la5",
+  "marks": 5,
+  "stars": 3,
+  "label": "PYQ (2025)",
+  "stem": "A school wants to place students in three clubs: Sports, Music and Drama. The number in Sports must equal the number in Music and Drama together. The number in Music must be 20 more than half the number in Sports. In all, 180 students are to be placed. Find the number of students in each club, using the matrix method.",
+  "model_answer": "*How much to write: about 15 lines · 9 minutes.*\n\nLet $x$, $y$, $z$ be the numbers in Sports, Music and Drama. Then $x-y-z=0$, $\\ x-2y=-40$, $\\ x+y+z=180$.\n\n$AX=B$ with $A=\\begin{bmatrix}1&-1&-1\\\\1&-2&0\\\\1&1&1\\end{bmatrix}$, $X=\\begin{bmatrix}x\\\\y\\\\z\\end{bmatrix}$, $B=\\begin{bmatrix}0\\\\-40\\\\180\\end{bmatrix}$\n\n$\\lvert A\\rvert=1(-2-0)+1(1-0)-1(1+2)=-4\\ne0$, so $A^{-1}$ exists.\n\nCofactors: $A_{11}=-2,\\ A_{12}=-1,\\ A_{13}=3;\\ A_{21}=0,\\ A_{22}=2,\\ A_{23}=-2;\\ A_{31}=-2,\\ A_{32}=-1,\\ A_{33}=-1$. So $\\operatorname{adj}A=\\begin{bmatrix}-2&0&-2\\\\-1&2&-1\\\\3&-2&-1\\end{bmatrix}$\n\n<mark>$X=A^{-1}B=-\\dfrac14\\begin{bmatrix}-2&0&-2\\\\-1&2&-1\\\\3&-2&-1\\end{bmatrix}\\begin{bmatrix}0\\\\-40\\\\180\\end{bmatrix}$</mark> $=-\\dfrac14\\begin{bmatrix}-360\\\\-260\\\\-100\\end{bmatrix}=\\begin{bmatrix}90\\\\65\\\\25\\end{bmatrix}$\n\n$$\\boxed{\\text{Sports }90,\\quad\\text{Music }65,\\quad\\text{Drama }25}$$\n\n:::tip Your answer must contain\n- the variables defined\n- the equations in standard form\n- $\\lvert A\\rvert\\ne0$\n- the adjoint\n- the answer in words\n:::\n\n**Marks are lost for:** writing the second condition as $y=\\dfrac x2-20$; forgetting to transpose the cofactor matrix.",
+  "scheme": [
+   {
+    "step": "Three equations formed",
+    "marks": 1
+   },
+   {
+    "step": "$AX=B$ and $\\lvert A\\rvert=-4$",
+    "marks": 1
+   },
+   {
+    "step": "Cofactors and $\\operatorname{adj}A$",
+    "marks": 1.5
+   },
+   {
+    "step": "$X=A^{-1}B$ multiplied out",
+    "marks": 1
+   },
+   {
+    "step": "Sports 90, Music 65, Drama 25",
+    "marks": 0.5
+   }
+  ],
+  "topic": "Matrix method",
+  "hint": "'20 more than half of Sports': $y=\\dfrac x2+20$, so $x-2y=-40$.",
+  "source_note": "CBSE Class 12 Mathematics board paper 2025 (set 65/1/1), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
+ },
+ {
+  "id": "maths-pyq26-04",
+  "chapter": "ch-04",
+  "type": "mcq",
+  "marks": 1,
+  "stars": 2,
+  "label": "PYQ (2026)",
+  "stem": "Let $\\Delta_1=\\begin{vmatrix}1&0&0\\\\0&2&0\\\\0&0&3\\end{vmatrix}$ and $\\Delta_2=\\begin{vmatrix}0&2&0\\\\1&0&0\\\\0&0&6\\end{vmatrix}$. Which relation holds?",
+  "options": [
+   "$\\Delta_1=2\\Delta_2$",
+   "$\\Delta_2=-2\\Delta_1$",
+   "$\\Delta_1=\\Delta_2$",
+   "$\\Delta_2=-\\Delta_1$"
+  ],
+  "answer": "B",
+  "model_answer": "**(b).** $\\Delta_1=1\\cdot2\\cdot3=6$. Expanding $\\Delta_2$ along row 1: $-2(1\\cdot6-0)=-12$. So $\\Delta_2=-2\\Delta_1$.",
+  "topic": "Value of a determinant",
+  "hint": "Evaluate both; the second needs the sign $(-1)^{1+2}$.",
+  "source_note": "CBSE Class 12 Mathematics board paper 2026 (set 65/1/1), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers. Adapted: the copy supplied printed these as matrices $A_1$, $A_2$; they are determinants, checked against a second published copy."
+ },
+ {
+  "id": "maths-pyq26-05",
+  "chapter": "ch-04",
+  "type": "mcq",
+  "marks": 1,
+  "stars": 2,
+  "label": "PYQ (2026)",
+  "stem": "One value of $x$ for which $\\begin{vmatrix}\\cos x&\\sin x\\\\-\\cos x&\\sin x\\end{vmatrix}=1$ is",
+  "options": [
+   "$0$",
+   "$\\dfrac\\pi4$",
+   "$\\dfrac\\pi3$",
+   "$\\dfrac\\pi2$"
+  ],
+  "answer": "B",
+  "model_answer": "**(b).** The determinant is $\\cos x\\sin x+\\sin x\\cos x=\\sin2x$. $\\sin2x=1$ gives $2x=\\dfrac\\pi2$, so $x=\\dfrac\\pi4$.",
+  "topic": "Value of a determinant",
+  "hint": "Expand: you get a double-angle formula.",
+  "source_note": "CBSE Class 12 Mathematics board paper 2026 (set 65/1/1), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
+ },
+ {
+  "id": "maths-pyq26-33a",
+  "chapter": "ch-04",
+  "type": "la5",
+  "marks": 5,
+  "stars": 3,
+  "label": "PYQ (2026)",
+  "stem": "If $A=\\begin{bmatrix}0&2&1\\\\-2&-1&-2\\\\1&-1&0\\end{bmatrix}$, find $A^{-1}$. Use it to solve the system $-2y+z=7$, $\\ 2x-y-z=8$, $\\ x-2y=10$.",
+  "model_answer": "*How much to write: about 15 lines · 9 minutes.*\n\n$\\lvert A\\rvert=0(0-2)-2(0+2)+1(2+1)=-1\\ne0$, so $A^{-1}$ exists.\n\nCofactors: $A_{11}=-2,\\ A_{12}=-2,\\ A_{13}=3;\\ A_{21}=-1,\\ A_{22}=-1,\\ A_{23}=2;\\ A_{31}=-3,\\ A_{32}=-2,\\ A_{33}=4$\n\n$\\operatorname{adj}A=\\begin{bmatrix}-2&-1&-3\\\\-2&-1&-2\\\\3&2&4\\end{bmatrix}$, so $A^{-1}=\\dfrac{1}{\\lvert A\\rvert}\\operatorname{adj}A=\\begin{bmatrix}2&1&3\\\\2&1&2\\\\-3&-2&-4\\end{bmatrix}$\n\nThe coefficient matrix of the system is $\\begin{bmatrix}0&-2&1\\\\2&-1&-1\\\\1&-2&0\\end{bmatrix}=A'$. So the system is <mark>$A'X=B$, and $X=(A')^{-1}B=(A^{-1})'B$</mark>.\n\n$X=\\begin{bmatrix}2&2&-3\\\\1&1&-2\\\\3&2&-4\\end{bmatrix}\\begin{bmatrix}7\\\\8\\\\10\\end{bmatrix}=\\begin{bmatrix}14+16-30\\\\7+8-20\\\\21+16-40\\end{bmatrix}=\\begin{bmatrix}0\\\\-5\\\\-3\\end{bmatrix}$\n\n$$\\boxed{x=0,\\quad y=-5,\\quad z=-3}$$\n\n:::tip Your answer must contain\n- $\\lvert A\\rvert\\ne0$ stated\n- all nine cofactors\n- the observation that the coefficient matrix is $A'$\n- the three values\n:::\n\n**Marks are lost for:** using $A^{-1}B$ directly: the system's matrix is the transpose of $A$, not $A$.",
+  "scheme": [
+   {
+    "step": "$\\lvert A\\rvert=-1$",
+    "marks": 1
+   },
+   {
+    "step": "Cofactors and $\\operatorname{adj}A$",
+    "marks": 1.5
+   },
+   {
+    "step": "$A^{-1}$",
+    "marks": 0.5
+   },
+   {
+    "step": "System written as $A'X=B$ and $X=(A^{-1})'B$",
+    "marks": 1
+   },
+   {
+    "step": "$x=0,\\ y=-5,\\ z=-3$",
+    "marks": 1
+   }
+  ],
+  "topic": "Matrix method",
+  "hint": "Compare the coefficient matrix with $A$ row by row before multiplying.",
+  "source_note": "CBSE Class 12 Mathematics board paper 2026 (set 65/1/1), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers. Adapted: the copy supplied printed the first equation as 2y + z = 7; −2y + z = 7 (checked against a second published copy) makes the system match the transpose of A."
+ },
+ {
+  "id": "maths-pyq26-33b",
+  "chapter": "ch-04",
+  "type": "la5",
+  "marks": 5,
+  "stars": 2,
+  "label": "PYQ (2026)",
+  "stem": "The matrix $\\begin{bmatrix}3&-1&\\sin3x\\\\-7&4&\\cos2x\\\\-11&7&2\\end{bmatrix}$ is singular. Find all values of $x$ in $\\left[0,\\dfrac\\pi2\\right]$.",
+  "model_answer": "*How much to write: about 15 lines · 9 minutes.*\n\nSingular matrix: its determinant is 0. Expanding along row 1:\n\n$3(8-7\\cos2x)+1(-14+11\\cos2x)+\\sin3x(-49+44)=0$\n\n$10-10\\cos2x-5\\sin3x=0\\Rightarrow2(1-\\cos2x)-\\sin3x=0$\n\nUse $1-\\cos2x=2\\sin^2x$ and $\\sin3x=3\\sin x-4\\sin^3x$: <mark>$\\sin x\\,(4\\sin^2x+4\\sin x-3)=0$</mark>\n\n$\\sin x\\,(2\\sin x-1)(2\\sin x+3)=0\\Rightarrow\\sin x=0$ or $\\sin x=\\dfrac12$ ($\\sin x=-\\dfrac32$ is impossible). In $\\left[0,\\dfrac\\pi2\\right]$: $x=0$ or $x=\\dfrac\\pi6$.\n\n$$\\boxed{x=0\\ \\ \\text{or}\\ \\ x=\\dfrac\\pi6}$$\n\n:::tip Your answer must contain\n- 'singular means determinant = 0'\n- the expansion shown\n- both identities\n- <u>both</u> values of $x$, with $\\sin x=-\\dfrac32$ rejected\n:::\n\n**Marks are lost for:** dividing through by $\\sin x$ and losing the solution $x=0$.",
+  "scheme": [
+   {
+    "step": "Determinant set equal to 0 and expanded",
+    "marks": 1.5
+   },
+   {
+    "step": "Simplified to $2(1-\\cos2x)-\\sin3x=0$",
+    "marks": 1
+   },
+   {
+    "step": "Identities used; factorised form in $\\sin x$",
+    "marks": 1.5
+   },
+   {
+    "step": "$x=0$ and $x=\\dfrac\\pi6$",
+    "marks": 1
+   }
+  ],
+  "topic": "Singular matrix",
+  "hint": "Expand, then turn everything into $\\sin x$.",
+  "source_note": "CBSE Class 12 Mathematics board paper 2026 (set 65/1/1), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
  }
 ]

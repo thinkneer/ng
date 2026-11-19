@@ -314,5 +314,247 @@
   ],
   "topic": "Properties of definite integrals",
   "hint": "In each part, replace $x$ by (lower limit + upper limit − $x$)."
+ },
+ {
+  "id": "maths-pyq25-03",
+  "chapter": "ch-07",
+  "type": "mcq",
+  "marks": 1,
+  "stars": 2,
+  "label": "PYQ (2025)",
+  "stem": "$\\displaystyle\\int_{-1}^{1}\\dfrac{\\lvert x\\rvert}{x}\\,dx$, $x\\ne0$, is equal to",
+  "options": [
+   "$-1$",
+   "$0$",
+   "$1$",
+   "$2$"
+  ],
+  "answer": "B",
+  "model_answer": "**(b).** $\\dfrac{\\lvert x\\rvert}{x}$ is $-1$ for $x<0$ and $+1$ for $x>0$: an odd function. Its integral over $[-1,1]$ is $-1+1=0$.",
+  "topic": "Properties of definite integrals",
+  "hint": "What is the integrand on each side of 0?",
+  "source_note": "CBSE Class 12 Mathematics board paper 2025 (set 65/1/1), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
+ },
+ {
+  "id": "maths-pyq25-10",
+  "chapter": "ch-07",
+  "type": "mcq",
+  "marks": 1,
+  "stars": 2,
+  "label": "PYQ (2025)",
+  "stem": "If $\\displaystyle\\int\\dfrac{2^{1/x}}{x^2}\\,dx=k\\cdot2^{1/x}+C$, then $k$ equals",
+  "options": [
+   "$-\\dfrac{1}{\\log2}$",
+   "$-\\log2$",
+   "$-1$",
+   "$\\dfrac12$"
+  ],
+  "answer": "A",
+  "model_answer": "**(a).** Put $t=\\dfrac1x$, $dt=-\\dfrac{dx}{x^2}$: the integral is $-\\displaystyle\\int2^t\\,dt=-\\dfrac{2^t}{\\log2}+C$. So $k=-\\dfrac{1}{\\log2}$.",
+  "topic": "Integration by substitution",
+  "hint": "Substitute for the power.",
+  "source_note": "CBSE Class 12 Mathematics board paper 2025 (set 65/1/1), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers. Adapted: the copy supplied printed the power as x and option (A) without its minus sign; this version was checked against a second published copy."
+ },
+ {
+  "id": "maths-pyq25-28a",
+  "chapter": "ch-07",
+  "type": "sa3",
+  "marks": 3,
+  "stars": 3,
+  "label": "PYQ (2025)",
+  "stem": "Find $\\displaystyle\\int\\dfrac{x+\\sin x}{1+\\cos x}\\,dx$.",
+  "model_answer": "*How much to write: about 9 lines · 5 minutes.*\n\nUse $1+\\cos x=2\\cos^2\\dfrac x2$ and $\\sin x=2\\sin\\dfrac x2\\cos\\dfrac x2$:\n\n$I=\\displaystyle\\int\\left(\\dfrac x2\\sec^2\\dfrac x2+\\tan\\dfrac x2\\right)dx$\n\nBy parts on the first term: $\\displaystyle\\int\\dfrac x2\\sec^2\\dfrac x2\\,dx=x\\tan\\dfrac x2-\\int\\tan\\dfrac x2\\,dx$\n\n<mark>The two $\\displaystyle\\int\\tan\\dfrac x2\\,dx$ terms cancel.</mark>\n\n$$\\boxed{x\\tan\\dfrac x2+C}$$\n\n:::tip Your answer must contain\n- both half-angle formulas\n- by parts shown\n- the cancellation stated\n- $+C$\n:::\n\n**Marks are lost for:** integrating $\\tan\\dfrac x2$ separately and making a slip: it is not needed.",
+  "scheme": [
+   {
+    "step": "Half-angle formulas and the split into two terms",
+    "marks": 1
+   },
+   {
+    "step": "By parts on $\\dfrac x2\\sec^2\\dfrac x2$",
+    "marks": 1
+   },
+   {
+    "step": "Cancellation and $x\\tan\\dfrac x2+C$",
+    "marks": 1
+   }
+  ],
+  "topic": "Integration by parts",
+  "hint": "Half-angle formulas in the denominator and for $\\sin x$; then one integration by parts.",
+  "source_note": "CBSE Class 12 Mathematics board paper 2025 (set 65/1/1), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers. Adapted: the copy supplied printed a different integral here; this version was checked against a second published copy."
+ },
+ {
+  "id": "maths-pyq25-28b",
+  "chapter": "ch-07",
+  "type": "sa3",
+  "marks": 3,
+  "stars": 2,
+  "label": "PYQ (2025)",
+  "stem": "Evaluate $\\displaystyle\\int_0^{\\pi/4}\\dfrac{dx}{\\cos^3x\\sqrt{2\\sin2x}}$.",
+  "model_answer": "*How much to write: about 9 lines · 5 minutes.*\n\n$\\sqrt{2\\sin2x}=\\sqrt{4\\sin x\\cos x}=2\\cos x\\sqrt{\\tan x}$, so the integrand is $\\dfrac{1}{2\\cos^4x\\sqrt{\\tan x}}=\\dfrac{\\sec^4x}{2\\sqrt{\\tan x}}$\n\nPut $t=\\tan x$, $dt=\\sec^2x\\,dx$, and $\\sec^2x=1+t^2$. Limits: $x=0\\to t=0$; $x=\\dfrac\\pi4\\to t=1$.\n\n<mark>$I=\\dfrac12\\displaystyle\\int_0^1\\dfrac{1+t^2}{\\sqrt t}\\,dt$</mark> $=\\dfrac12\\displaystyle\\int_0^1\\left(t^{-1/2}+t^{3/2}\\right)dt=\\dfrac12\\left[2\\sqrt t+\\dfrac25t^{5/2}\\right]_0^1=\\dfrac12\\left(2+\\dfrac25\\right)$\n\n$$\\boxed{\\dfrac65}$$\n\n:::tip Your answer must contain\n- $\\sin2x=2\\sin x\\cos x$\n- limits changed to $t$\n- the powers of $t$ integrated term by term\n:::\n\n**Marks are lost for:** keeping the limits $0$ and $\\dfrac\\pi4$ after substituting.",
+  "scheme": [
+   {
+    "step": "Integrand written as $\\dfrac{\\sec^4x}{2\\sqrt{\\tan x}}$",
+    "marks": 1
+   },
+   {
+    "step": "Substitution $t=\\tan x$ with new limits",
+    "marks": 1
+   },
+   {
+    "step": "Integration and value $\\dfrac65$",
+    "marks": 1
+   }
+  ],
+  "topic": "Definite integrals by substitution",
+  "hint": "Pull $\\cos x$ out of the root to make $\\sqrt{\\tan x}$; then $t=\\tan x$.",
+  "source_note": "CBSE Class 12 Mathematics board paper 2025 (set 65/1/1), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers. Adapted: the copy supplied printed cos⁴x and √(sin 2x); cos³x and √(2 sin 2x) are from a second published copy."
+ },
+ {
+  "id": "maths-pyq26-08",
+  "chapter": "ch-07",
+  "type": "mcq",
+  "marks": 1,
+  "stars": 2,
+  "label": "PYQ (2026)",
+  "stem": "If $\\displaystyle\\int\\dfrac{3ax}{b^2+c^2x^2}\\,dx=A\\log\\lvert b^2+c^2x^2\\rvert+K$, then $A$ equals",
+  "options": [
+   "$3a$",
+   "$\\dfrac{3a}{2b^2}$",
+   "$\\dfrac{3a}{b^2c^2}$",
+   "$\\dfrac{3a}{2c^2}$"
+  ],
+  "answer": "D",
+  "model_answer": "**(d).** Put $t=b^2+c^2x^2$, $dt=2c^2x\\,dx$. The integral becomes $\\dfrac{3a}{2c^2}\\displaystyle\\int\\dfrac{dt}{t}=\\dfrac{3a}{2c^2}\\log\\lvert t\\rvert+K$.",
+  "topic": "Integration by substitution",
+  "hint": "The numerator is a multiple of the derivative of the denominator.",
+  "source_note": "CBSE Class 12 Mathematics board paper 2026 (set 65/1/1), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
+ },
+ {
+  "id": "maths-pyq26-09",
+  "chapter": "ch-07",
+  "type": "mcq",
+  "marks": 1,
+  "stars": 3,
+  "label": "PYQ (2026)",
+  "stem": "The value of $\\displaystyle\\int_{-1}^{1}\\dfrac{x^3}{x^2+2\\lvert x\\rvert+1}\\,dx$ is",
+  "options": [
+   "$0$",
+   "$\\log2$",
+   "$2\\log2$",
+   "$\\dfrac12\\log2$"
+  ],
+  "answer": "A",
+  "model_answer": "**(a).** The numerator $x^3$ is odd and the denominator is even, so the integrand is odd. Over $[-a,a]$ the integral of an odd function is 0.",
+  "topic": "Properties of definite integrals",
+  "hint": "Check $f(-x)$ before integrating.",
+  "source_note": "CBSE Class 12 Mathematics board paper 2026 (set 65/1/1), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
+ },
+ {
+  "id": "maths-pyq26-26",
+  "chapter": "ch-07",
+  "type": "sa3",
+  "marks": 3,
+  "stars": 3,
+  "label": "PYQ (2026)",
+  "stem": "Evaluate $\\displaystyle\\int_0^1x\\tan^{-1}x\\,dx$.",
+  "model_answer": "*How much to write: about 9 lines · 5 minutes.*\n\nIntegrate by parts with $\\tan^{-1}x$ as the first function (ILATE):\n\n$I=\\left[\\dfrac{x^2}{2}\\tan^{-1}x\\right]_0^1-\\dfrac12\\displaystyle\\int_0^1\\dfrac{x^2}{1+x^2}\\,dx$\n\nWrite <mark>$\\dfrac{x^2}{1+x^2}=1-\\dfrac{1}{1+x^2}$</mark>: $\\ I=\\dfrac\\pi8-\\dfrac12\\Big[x-\\tan^{-1}x\\Big]_0^1$\n\n$=\\dfrac\\pi8-\\dfrac12\\left(1-\\dfrac\\pi4\\right)=\\dfrac\\pi8-\\dfrac12+\\dfrac\\pi8$\n\n$$\\boxed{\\dfrac\\pi4-\\dfrac12}$$\n\n:::tip Your answer must contain\n- $\\tan^{-1}x$ chosen as the first function\n- the split of $\\dfrac{x^2}{1+x^2}$\n- limits applied to every term\n:::\n\n**Marks are lost for:** taking $x$ as the first function; forgetting the factor $\\dfrac12$ on the second integral.",
+  "scheme": [
+   {
+    "step": "By parts with the correct first function and formula",
+    "marks": 1
+   },
+   {
+    "step": "$\\dfrac{x^2}{1+x^2}=1-\\dfrac{1}{1+x^2}$ and its integral",
+    "marks": 1
+   },
+   {
+    "step": "Limits applied: $\\dfrac\\pi4-\\dfrac12$",
+    "marks": 1
+   }
+  ],
+  "topic": "Integration by parts",
+  "hint": "ILATE: the inverse function goes first.",
+  "source_note": "CBSE Class 12 Mathematics board paper 2026 (set 65/1/1), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
+ },
+ {
+  "id": "maths-pyq26-27a",
+  "chapter": "ch-07",
+  "type": "sa3",
+  "marks": 3,
+  "stars": 2,
+  "label": "PYQ (2026)",
+  "stem": "Find $\\displaystyle\\int\\sqrt{\\dfrac{x+2}{x-2}}\\,dx$.",
+  "model_answer": "*How much to write: about 9 lines · 5 minutes.*\n\nMultiply numerator and denominator inside the root by $x+2$: $I=\\displaystyle\\int\\dfrac{x+2}{\\sqrt{x^2-4}}\\,dx$\n\nSplit: $I=\\displaystyle\\int\\dfrac{x}{\\sqrt{x^2-4}}\\,dx+2\\int\\dfrac{dx}{\\sqrt{x^2-4}}$\n\nFirst part: put $t=x^2-4$, giving <mark>$\\sqrt{x^2-4}$</mark>. Second part is the standard form $\\displaystyle\\int\\dfrac{dx}{\\sqrt{x^2-a^2}}$ with $a=2$.\n\n$$\\boxed{\\sqrt{x^2-4}+2\\log\\left|x+\\sqrt{x^2-4}\\right|+C}$$\n\n:::tip Your answer must contain\n- the rationalising step\n- the two integrals shown separately\n- $+C$\n:::\n\n**Marks are lost for:** dropping the factor 2 on the log term; leaving out the modulus or $+C$.",
+  "scheme": [
+   {
+    "step": "Rewritten as $\\displaystyle\\int\\dfrac{x+2}{\\sqrt{x^2-4}}\\,dx$",
+    "marks": 1
+   },
+   {
+    "step": "First integral $=\\sqrt{x^2-4}$",
+    "marks": 1
+   },
+   {
+    "step": "Second integral $=2\\log\\lvert x+\\sqrt{x^2-4}\\rvert$, and $+C$",
+    "marks": 1
+   }
+  ],
+  "topic": "Special integrals",
+  "hint": "Multiply inside the root by $\\dfrac{x+2}{x+2}$.",
+  "source_note": "CBSE Class 12 Mathematics board paper 2026 (set 65/1/1), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers. Adapted: the copy supplied printed a different integral here; this version was checked against two other published copies."
+ },
+ {
+  "id": "maths-pyq26-27b",
+  "chapter": "ch-07",
+  "type": "sa3",
+  "marks": 3,
+  "stars": 3,
+  "label": "PYQ (2026)",
+  "stem": "Find $\\displaystyle\\int\\dfrac{x^2}{(x^2+9)(x^2+16)}\\,dx$.",
+  "model_answer": "*How much to write: about 9 lines · 5 minutes.*\n\nPut $x^2=t$ (for the partial fractions only): $\\dfrac{t}{(t+9)(t+16)}=\\dfrac{A}{t+9}+\\dfrac{B}{t+16}$\n\n$t=A(t+16)+B(t+9)$. At $t=-9$: $A=-\\dfrac97$. At $t=-16$: $B=\\dfrac{16}{7}$.\n\n$I=-\\dfrac97\\displaystyle\\int\\dfrac{dx}{x^2+9}+\\dfrac{16}{7}\\int\\dfrac{dx}{x^2+16}$ <mark>$=-\\dfrac97\\cdot\\dfrac13\\tan^{-1}\\dfrac x3+\\dfrac{16}{7}\\cdot\\dfrac14\\tan^{-1}\\dfrac x4+C$</mark>\n\n$$\\boxed{\\dfrac47\\tan^{-1}\\dfrac x4-\\dfrac37\\tan^{-1}\\dfrac x3+C}$$\n\n:::tip Your answer must contain\n- the note that $x^2=t$ is not a substitution in the integral\n- $\\dfrac1a\\tan^{-1}\\dfrac xa$ with the $\\dfrac1a$\n:::\n\n**Marks are lost for:** writing $dt$ in place of $dx$; forgetting $\\dfrac13$ and $\\dfrac14$.",
+  "scheme": [
+   {
+    "step": "Partial fractions set up with $x^2=t$",
+    "marks": 1
+   },
+   {
+    "step": "$A=-\\dfrac97$, $B=\\dfrac{16}{7}$",
+    "marks": 1
+   },
+   {
+    "step": "Integration: $\\dfrac47\\tan^{-1}\\dfrac x4-\\dfrac37\\tan^{-1}\\dfrac x3+C$",
+    "marks": 1
+   }
+  ],
+  "topic": "Partial fractions",
+  "hint": "Treat $x^2$ as a single letter to split the fraction, then integrate in $x$.",
+  "source_note": "CBSE Class 12 Mathematics board paper 2026 (set 65/1/1), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
+ },
+ {
+  "id": "maths-pyq26-28",
+  "chapter": "ch-07",
+  "type": "sa3",
+  "marks": 3,
+  "stars": 2,
+  "label": "PYQ (2026)",
+  "stem": "Let $I_1=\\displaystyle\\int_{-\\pi/4}^{\\pi/4}\\dfrac{dx}{1+\\cos2x}$ and $I_2=\\displaystyle\\int_{-1/2}^{1/2}\\lvert x\\rvert\\,dx$. Show that $I_1-4I_2=0$.",
+  "model_answer": "*How much to write: about 9 lines · 5 minutes.*\n\n$1+\\cos2x=2\\cos^2x$, so $I_1=\\dfrac12\\displaystyle\\int_{-\\pi/4}^{\\pi/4}\\sec^2x\\,dx=\\dfrac12\\Big[\\tan x\\Big]_{-\\pi/4}^{\\pi/4}=\\dfrac12(1+1)=1$\n\n$\\lvert x\\rvert$ is an <u>even</u> function: $I_2=2\\displaystyle\\int_0^{1/2}x\\,dx=2\\left[\\dfrac{x^2}{2}\\right]_0^{1/2}=\\dfrac14$\n\n<mark>$I_1-4I_2=1-4\\times\\dfrac14=0$</mark>\n\n:::tip Your answer must contain\n- $1+\\cos2x=2\\cos^2x$\n- the even-function property (or the modulus split at 0)\n- the final line\n:::\n\n**Marks are lost for:** integrating $\\lvert x\\rvert$ as $\\dfrac{x^2}{2}$ over the whole interval, which gives 0.",
+  "scheme": [
+   {
+    "step": "$I_1=1$",
+    "marks": 1.5
+   },
+   {
+    "step": "$I_2=\\dfrac14$",
+    "marks": 1
+   },
+   {
+    "step": "$I_1-4I_2=0$ shown",
+    "marks": 0.5
+   }
+  ],
+  "topic": "Definite integrals",
+  "hint": "Half-angle identity for $I_1$; even function for $I_2$.",
+  "source_note": "CBSE Class 12 Mathematics board paper 2026 (set 65/1/1), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers. Adapted: the copy supplied printed the first integrand as 1/(1 + sin x), for which the stated result does not hold; this version was checked against a second published copy."
  }
 ]

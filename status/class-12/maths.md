@@ -1,6 +1,6 @@
 # Class 12 Science · Maths — status
 
-_Last updated 15 Nov 2026 (Maths chat: all 13 chapters on the site, each with a card deck and interactive blocks)._ Board paper: 9 Mar 2027. Boards only.
+_Last updated 19 Nov 2026 (Maths chat: board papers 2026 and 2025 added as past papers)._ Board paper: 9 Mar 2027. Boards only.
 
 ## Done on the site
 **Batch 1 — Unit III Calculus (35 marks): ch-05 to ch-09.** Each chapter has all five files.
@@ -36,6 +36,16 @@ _Last updated 15 Nov 2026 (Maths chat: all 13 chapters on the site, each with a 
 - All questions are labelled `PYQ-style` or `NCERT-based`; none is labelled with a year. Stars are estimates.
 - Every answer and every worked example was checked by computation (sympy). Every `$…$` expression in the Maths content was parsed with the site's KaTeX build (0 errors). `node scripts/build-index.mjs` passes with 0 warnings.
 - `subject.json → not_in_syllabus` now lists the deleted topics chapter by chapter.
+
+## Past papers (19 Nov 2026; admin decision: Past papers section for every subject)
+- `papers/board-2026.json` and `papers/board-2025.json`: the CBSE board papers of 2026 and 2025 (set 65/1/1 each), rebuilt question by question in our own words, same order and marks (38 questions, 80 marks, internal choices kept), with our own answer-script answers and step marks. 90 new bank questions: `maths-pyq26-…` labelled `PYQ (2026)` and `maths-pyq25-…` labelled `PYQ (2025)` (45 each: 38 + 7 internal-choice alternatives). Both open under Exam mode → Set papers.
+- **Source and checks.** The admin supplied one publisher's retyped copy of each paper (PDFs used for the questions only, not stored). Those copies had misprints, so every question was solved here and each one that did not work out was compared with other published copies (two more for 2026, one more for 2025). **Not checked against the official PDFs on cbse.gov.in.** Where the supplied copy was wrong or copies disagree, the question's `source_note` says "Adapted" and why:
+  - 2026: Q4 (determinants, not matrices), Q12 (equation), Q16 (line is the x-axis), Q19 (Reason printed with ∪ or ∩), Q21(b) (√3 and the point), Q22 (angle π/6 or π/3), Q25(b) (tan or cot), Q27(a) (integral), Q28 (integrand), Q33(a) (first equation), Q17 (graph put in words), Q37(iii) (wording of "wins").
+  - 2025: Q10, Q12, Q20 (k = 5/2, answer D), Q22, Q28(a), Q28(b), Q34(b), Q37(iii)(b) (R₂), and Q17, Q18 (graphs put in words).
+- Every answer was worked here and checked by computation (sympy for the matrix, integral and vector questions). Model answers carry our own drawings where the graph earns marks: the two LPP regions (2026 Q30, 2025 Q27), the graph of |x + 3| (2025 Q31) and the two circles (2026 Q38).
+- All questions are in the 2026–27 syllabus. Two overlap with existing bank questions (same lines as `maths-ch-11-q10` in 2026 Q35; same point and line as `maths-ch-11-q11` in 2025 Q34(a)); kept, since a past paper must be complete.
+- Also fixed: seven card fronts that content-check flagged as wider than the card (ch-02, 03, 05, 09) now use two-line formulas. content-check maths: 0 FAIL.
+- Bank after this: 253 questions, 4 fresh numbered papers (`bank-check`: nothing to add for the target).
 
 ## Cards and interactive blocks (15 Nov 2026, CLAUDE.md §4c)
 All 13 chapters now have `cards.json` (136 cards) and interactive blocks in `notes.md` (112 blocks: compare 9, derive 10, draw 13, explain 3, fill 10, graph 4, mnemonic 27, numerical 19, steps 17).
@@ -78,12 +88,12 @@ All 13 chapters now have `cards.json` (136 cards) and interactive blocks in `not
 - none yet
 
 ## What's next (in this order)
-1. **Exam bank for 4 fresh papers** (`node scripts/bank-check.mjs maths`, 15 Nov): add MCQ +19, 5-mark +12, 3-mark +11, 2-mark +1. Thinnest units: VI Probability, then III Calculus and IV Vectors & 3D; Unit I has only one 5-marker. A–R and case studies are enough.
-2. **Phone check of the pages** (not done from a Maths chat; only the build, a KaTeX parse, SVG renders and a simulation of the numerical blocks were run): card decks, graphs and fill tables on a 390 px screen; wide matrices and determinants in Ch 3–4 and 10–11; figures in dark and sepia.
-3. **Verify the syllabus and pattern against the official CBSE 2026–27 PDFs** and check `data/patterns/class-12/maths.json` against the official SQP.
-4. **Must-know polish:** shorten cards that read badly in Recall; the site audit of 15 Nov found one-word recall fronts across subjects.
-5. **Graphs in model answers:** LPP and area questions describe the graph in words; no model answer has an SVG yet.
-6. No fixed set paper under `papers/` yet (an SQP-style paper built from bank questions).
+1. **Check the two past papers against the official CBSE PDFs** (cbse.gov.in → Question papers), above all the questions marked "Adapted" (list above). Older years (2024, 2023) or other sets need their papers from the admin.
+2. **Mock papers 1 and 2** from the bank (as Biology has), with no question shared and none taken from the past papers.
+3. **Phone check of the pages** (not done from a Maths chat; only the build, content-check, a KaTeX parse and SVG renders were run): the Solved view of the past papers once the Site chat ships it, card decks, wide matrices in Ch 3–4 and 10–11.
+4. **Verify the syllabus and pattern against the official CBSE 2026–27 PDFs** and check `data/patterns/class-12/maths.json` against the official SQP.
+5. **Answer-script style for the older bank:** the first 156 questions still show step marks inside the model answer; the past-paper and weekly questions are in script style. content-check still lists 59 WARN (one-word recall fronts in Must know, a few wide tables and formulas).
+6. The exam builder may draw past-paper questions into numbered papers; if past papers should stay unseen until attempted, that is a Site-chat rule.
 
 ## Notes for the next Maths chat
 - Question banks are generated from small scripts (one per chapter) so that step marks are summed automatically; the scripts are not in the repo. Writing questions.json by hand is fine as long as the build passes.

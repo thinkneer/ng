@@ -321,5 +321,247 @@
   "model_answer": "**(A)** $|\\vec a-\\vec b|^2=|\\vec a|^2+|\\vec b|^2-2\\,\\vec a\\cdot\\vec b=1+1-0=2$, so $|\\vec a-\\vec b|=\\sqrt2$.",
   "topic": "Magnitude and dot product",
   "hint": "Square the magnitude and expand using $|\\vec a-\\vec b|^2=(\\vec a-\\vec b)\\cdot(\\vec a-\\vec b)$."
+ },
+ {
+  "id": "maths-pyq25-02",
+  "chapter": "ch-10",
+  "type": "mcq",
+  "marks": 1,
+  "stars": 3,
+  "label": "PYQ (2025)",
+  "stem": "Given $\\vec a=3\\hat i+2\\hat j-\\hat k$ and $\\vec b=\\hat i-\\hat j+\\hat k$, which statement is correct?",
+  "options": [
+   "$\\vec a\\parallel\\vec b$",
+   "$\\vec a\\perp\\vec b$",
+   "$\\lvert\\vec b\\rvert>\\lvert\\vec a\\rvert$",
+   "$\\lvert\\vec a\\rvert=\\lvert\\vec b\\rvert$"
+  ],
+  "answer": "B",
+  "model_answer": "**(b).** $\\vec a\\cdot\\vec b=3-2-1=0$, so the vectors are perpendicular. ($\\lvert\\vec a\\rvert=\\sqrt{14}$, $\\lvert\\vec b\\rvert=\\sqrt3$.)",
+  "topic": "Dot product",
+  "hint": "Try the dot product first.",
+  "source_note": "CBSE Class 12 Mathematics board paper 2025 (set 65/1/1), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
+ },
+ {
+  "id": "maths-pyq25-11",
+  "chapter": "ch-10",
+  "type": "mcq",
+  "marks": 1,
+  "stars": 3,
+  "label": "PYQ (2025)",
+  "stem": "If $\\vec a+\\vec b+\\vec c=\\vec0$, $\\lvert\\vec a\\rvert=\\sqrt{37}$, $\\lvert\\vec b\\rvert=3$ and $\\lvert\\vec c\\rvert=4$, the angle between $\\vec b$ and $\\vec c$ is",
+  "options": [
+   "$\\dfrac\\pi6$",
+   "$\\dfrac\\pi4$",
+   "$\\dfrac\\pi3$",
+   "$\\dfrac\\pi2$"
+  ],
+  "answer": "C",
+  "model_answer": "**(c).** $\\vec b+\\vec c=-\\vec a$. Squaring: $9+16+2(3)(4)\\cos\\theta=37$, so $\\cos\\theta=\\dfrac12$ and $\\theta=\\dfrac\\pi3$.",
+  "topic": "Dot product",
+  "hint": "Move $\\vec a$ to the other side and square.",
+  "source_note": "CBSE Class 12 Mathematics board paper 2025 (set 65/1/1), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
+ },
+ {
+  "id": "maths-pyq25-23",
+  "chapter": "ch-10",
+  "type": "vsa2",
+  "marks": 2,
+  "stars": 3,
+  "label": "PYQ (2025)",
+  "stem": "The diagonals of a parallelogram are $\\vec a=2\\hat i-\\hat j+\\hat k$ and $\\vec b=\\hat i+3\\hat j-\\hat k$. Find its area.",
+  "model_answer": "*How much to write: about 5 lines · 3 minutes.*\n\n$\\vec a\\times\\vec b=\\begin{vmatrix}\\hat i&\\hat j&\\hat k\\\\2&-1&1\\\\1&3&-1\\end{vmatrix}=\\hat i(1-3)-\\hat j(-2-1)+\\hat k(6+1)=-2\\hat i+3\\hat j+7\\hat k$\n\nWith <u>diagonals</u> given: <mark>area $=\\dfrac12\\lvert\\vec a\\times\\vec b\\rvert$</mark> $=\\dfrac12\\sqrt{4+9+49}$\n\n$$\\boxed{\\dfrac{\\sqrt{62}}{2}\\ \\text{sq. units}}$$\n\n:::tip Your answer must contain\n- the determinant for the cross product\n- the factor $\\dfrac12$, because these are diagonals\n:::\n\n**Marks are lost for:** using $\\lvert\\vec a\\times\\vec b\\rvert$ without the half: that formula is for adjacent sides.",
+  "scheme": [
+   {
+    "step": "$\\vec a\\times\\vec b=-2\\hat i+3\\hat j+7\\hat k$",
+    "marks": 1
+   },
+   {
+    "step": "Area $=\\dfrac12\\sqrt{62}$ sq. units",
+    "marks": 1
+   }
+  ],
+  "topic": "Area of a parallelogram",
+  "hint": "Diagonals, not sides: there is a half.",
+  "source_note": "CBSE Class 12 Mathematics board paper 2025 (set 65/1/1), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
+ },
+ {
+  "id": "maths-pyq25-25a",
+  "chapter": "ch-10",
+  "type": "vsa2",
+  "marks": 2,
+  "stars": 3,
+  "label": "PYQ (2025)",
+  "stem": "The strings of two kites cross each other. Taking the strings as straight, they lie along $\\vec a=3\\hat i+\\hat j+2\\hat k$ and $\\vec b=2\\hat i-2\\hat j+4\\hat k$. Find the angle between the strings.",
+  "model_answer": "*How much to write: about 5 lines · 3 minutes.*\n\n$\\vec a\\cdot\\vec b=6-2+8=12$; $\\lvert\\vec a\\rvert=\\sqrt{9+1+4}=\\sqrt{14}$; $\\lvert\\vec b\\rvert=\\sqrt{4+4+16}=\\sqrt{24}$\n\n<mark>$\\cos\\theta=\\dfrac{\\vec a\\cdot\\vec b}{\\lvert\\vec a\\rvert\\lvert\\vec b\\rvert}$</mark> $=\\dfrac{12}{\\sqrt{14}\\sqrt{24}}=\\dfrac{12}{4\\sqrt{21}}=\\dfrac{3}{\\sqrt{21}}$\n\n$$\\boxed{\\theta=\\cos^{-1}\\dfrac{3}{\\sqrt{21}}}$$\n\n:::tip Your answer must contain\n- the formula\n- dot product and both magnitudes shown\n:::\n\n**Marks are lost for:** leaving the answer as $\\cos\\theta=\\dots$ without writing $\\theta$.",
+  "scheme": [
+   {
+    "step": "$\\vec a\\cdot\\vec b=12$, $\\lvert\\vec a\\rvert=\\sqrt{14}$, $\\lvert\\vec b\\rvert=\\sqrt{24}$",
+    "marks": 1
+   },
+   {
+    "step": "$\\theta=\\cos^{-1}\\dfrac{3}{\\sqrt{21}}$",
+    "marks": 1
+   }
+  ],
+  "topic": "Angle between two vectors",
+  "hint": "Dot product over the product of magnitudes.",
+  "source_note": "CBSE Class 12 Mathematics board paper 2025 (set 65/1/1), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
+ },
+ {
+  "id": "maths-pyq25-25b",
+  "chapter": "ch-10",
+  "type": "vsa2",
+  "marks": 2,
+  "stars": 2,
+  "label": "PYQ (2025)",
+  "stem": "$A$ and $B$ are the points $(2,1,3)$ and $(8,-1,0)$. Find a vector of magnitude 21 units in the direction opposite to $\\vec{AB}$.",
+  "model_answer": "*How much to write: about 5 lines · 3 minutes.*\n\n$\\vec{AB}=(8-2)\\hat i+(-1-1)\\hat j+(0-3)\\hat k=6\\hat i-2\\hat j-3\\hat k$, and $\\lvert\\vec{AB}\\rvert=\\sqrt{36+4+9}=7$\n\nUnit vector opposite to $\\vec{AB}$: <mark>$-\\dfrac{6\\hat i-2\\hat j-3\\hat k}{7}$</mark>. Multiply by 21.\n\n$$\\boxed{-18\\hat i+6\\hat j+9\\hat k}$$\n\n:::tip Your answer must contain\n- $\\vec{AB}$ and its magnitude\n- the minus sign for 'opposite'\n:::\n\n**Marks are lost for:** forgetting to reverse the direction.",
+  "scheme": [
+   {
+    "step": "$\\vec{AB}=6\\hat i-2\\hat j-3\\hat k$, magnitude 7",
+    "marks": 1
+   },
+   {
+    "step": "Required vector $-18\\hat i+6\\hat j+9\\hat k$",
+    "marks": 1
+   }
+  ],
+  "topic": "Unit vector",
+  "hint": "Unit vector along $\\vec{AB}$, reversed, times 21.",
+  "source_note": "CBSE Class 12 Mathematics board paper 2025 (set 65/1/1), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
+ },
+ {
+  "id": "maths-pyq25-29b",
+  "chapter": "ch-10",
+  "type": "sa3",
+  "marks": 3,
+  "stars": 2,
+  "label": "PYQ (2025)",
+  "stem": "In a cricket match, the bowler, the wicketkeeper and the leg-slip fielder stand in a line at $\\vec B=2\\hat i+8\\hat j$, $\\vec W=6\\hat i+12\\hat j$ and $\\vec F=12\\hat i+18\\hat j$. Find the ratio in which the wicketkeeper divides the line segment joining the bowler and the leg-slip fielder.",
+  "model_answer": "*How much to write: about 9 lines · 5 minutes.*\n\nLet $W$ divide $BF$ in the ratio $k:1$. By the <u>section formula</u>: $\\vec W=\\dfrac{k\\vec F+\\vec B}{k+1}$\n\n$6\\hat i+12\\hat j=\\dfrac{(12k+2)\\hat i+(18k+8)\\hat j}{k+1}$\n\nComparing the $\\hat i$ components: <mark>$6(k+1)=12k+2\\Rightarrow k=\\dfrac23$</mark>. Check with $\\hat j$: $12\\left(\\dfrac53\\right)=20=18\\left(\\dfrac23\\right)+8$. ✓\n\n$$\\boxed{2:3\\ \\text{(internally)}}$$\n\n:::tip Your answer must contain\n- the section formula written\n- one component solved, the other used as a check\n- the ratio in the form $m:n$\n:::\n\n**Marks are lost for:** putting $k$ on the wrong end: $k$ multiplies the far point $F$.",
+  "scheme": [
+   {
+    "step": "Section formula with ratio $k:1$",
+    "marks": 1
+   },
+   {
+    "step": "Components compared; $k=\\dfrac23$",
+    "marks": 1.5
+   },
+   {
+    "step": "Ratio $2:3$ stated",
+    "marks": 0.5
+   }
+  ],
+  "topic": "Section formula",
+  "hint": "Let the ratio be $k:1$ and compare components.",
+  "source_note": "CBSE Class 12 Mathematics board paper 2025 (set 65/1/1), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
+ },
+ {
+  "id": "maths-pyq26-13",
+  "chapter": "ch-10",
+  "type": "mcq",
+  "marks": 1,
+  "stars": 3,
+  "label": "PYQ (2026)",
+  "stem": "For what value of $p$ are the vectors $\\hat i+2\\hat j+3\\hat k$ and $2\\hat i-p\\hat j+\\hat k$ perpendicular?",
+  "options": [
+   "$0$",
+   "$1$",
+   "$\\dfrac52$",
+   "$-\\dfrac52$"
+  ],
+  "answer": "C",
+  "model_answer": "**(c).** Perpendicular vectors have zero dot product: $2-2p+3=0$, so $p=\\dfrac52$.",
+  "topic": "Dot product",
+  "hint": "Set the dot product equal to zero.",
+  "source_note": "CBSE Class 12 Mathematics board paper 2026 (set 65/1/1), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
+ },
+ {
+  "id": "maths-pyq26-14",
+  "chapter": "ch-10",
+  "type": "mcq",
+  "marks": 1,
+  "stars": 2,
+  "label": "PYQ (2026)",
+  "stem": "The points with position vectors $-\\hat i-\\hat j+2\\hat k$, $\\ 2\\hat i+m\\hat j+5\\hat k$ and $3\\hat i+11\\hat j+6\\hat k$ are collinear. The value of $m$ is",
+  "options": [
+   "$8$",
+   "$-8$",
+   "$2$",
+   "$\\dfrac53$"
+  ],
+  "answer": "A",
+  "model_answer": "**(a).** $\\vec{AB}=3\\hat i+(m+1)\\hat j+3\\hat k$ and $\\vec{AC}=4\\hat i+12\\hat j+4\\hat k$ must be parallel: $\\dfrac34=\\dfrac{m+1}{12}$, so $m=8$.",
+  "topic": "Collinear points",
+  "hint": "Two vectors from the same point must have proportional components.",
+  "source_note": "CBSE Class 12 Mathematics board paper 2026 (set 65/1/1), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
+ },
+ {
+  "id": "maths-pyq26-15",
+  "chapter": "ch-10",
+  "type": "mcq",
+  "marks": 1,
+  "stars": 3,
+  "label": "PYQ (2026)",
+  "stem": "If $\\lvert\\vec a\\rvert=8$, $\\lvert\\vec b\\rvert=3$ and $\\lvert\\vec a\\times\\vec b\\rvert=12$, then $\\lvert\\vec a\\cdot\\vec b\\rvert$ equals",
+  "options": [
+   "$6\\sqrt3$",
+   "$8\\sqrt3$",
+   "$12\\sqrt3$",
+   "$3\\sqrt{12}$"
+  ],
+  "answer": "C",
+  "model_answer": "**(c).** $\\sin\\theta=\\dfrac{12}{8\\times3}=\\dfrac12$, so $\\lvert\\cos\\theta\\rvert=\\dfrac{\\sqrt3}{2}$ and $\\lvert\\vec a\\cdot\\vec b\\rvert=24\\times\\dfrac{\\sqrt3}{2}=12\\sqrt3$. (Or use $\\lvert\\vec a\\times\\vec b\\rvert^2+(\\vec a\\cdot\\vec b)^2=\\lvert\\vec a\\rvert^2\\lvert\\vec b\\rvert^2$.)",
+  "topic": "Dot and cross products",
+  "hint": "Lagrange's identity links the two products.",
+  "source_note": "CBSE Class 12 Mathematics board paper 2026 (set 65/1/1), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
+ },
+ {
+  "id": "maths-pyq26-23",
+  "chapter": "ch-10",
+  "type": "vsa2",
+  "marks": 2,
+  "stars": 3,
+  "label": "PYQ (2026)",
+  "stem": "$P$ and $Q$ are the points $(1,3,2)$ and $(-1,0,8)$. Find the vector of magnitude 14 in the direction of $\\vec{QP}$.",
+  "model_answer": "*How much to write: about 5 lines · 3 minutes.*\n\n$\\vec{QP}=(1+1)\\hat i+(3-0)\\hat j+(2-8)\\hat k=2\\hat i+3\\hat j-6\\hat k$, and $\\lvert\\vec{QP}\\rvert=\\sqrt{4+9+36}=7$\n\nUnit vector along $\\vec{QP}$: <mark>$\\dfrac{2\\hat i+3\\hat j-6\\hat k}{7}$</mark>. Required vector $=14\\times$ unit vector.\n\n$$\\boxed{4\\hat i+6\\hat j-12\\hat k}$$\n\n:::tip Your answer must contain\n- $\\vec{QP}$ = (position vector of $P$) − (position vector of $Q$)\n- the <u>unit vector</u> step\n:::\n\n**Marks are lost for:** finding $\\vec{PQ}$ instead of $\\vec{QP}$ (every sign reversed).",
+  "scheme": [
+   {
+    "step": "$\\vec{QP}=2\\hat i+3\\hat j-6\\hat k$ and $\\lvert\\vec{QP}\\rvert=7$",
+    "marks": 1
+   },
+   {
+    "step": "Required vector $4\\hat i+6\\hat j-12\\hat k$",
+    "marks": 1
+   }
+  ],
+  "topic": "Unit vector",
+  "hint": "Head minus tail: $P-Q$. Then scale the unit vector by 14.",
+  "source_note": "CBSE Class 12 Mathematics board paper 2026 (set 65/1/1), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
+ },
+ {
+  "id": "maths-pyq26-24",
+  "chapter": "ch-10",
+  "type": "vsa2",
+  "marks": 2,
+  "stars": 2,
+  "label": "PYQ (2026)",
+  "stem": "The adjacent sides of a parallelogram are $\\vec a=3\\hat i-2\\hat j+2\\hat k$ and $\\vec b=\\hat i+2\\hat k$. Find the vectors along its diagonals, and hence the lengths of the diagonals.",
+  "model_answer": "*How much to write: about 5 lines · 3 minutes.*\n\nOne diagonal: $\\vec a+\\vec b=4\\hat i-2\\hat j+4\\hat k$, of length $\\sqrt{16+4+16}=6$\n\nOther diagonal: <mark>$\\vec a-\\vec b=2\\hat i-2\\hat j$</mark>, of length $\\sqrt{4+4}=2\\sqrt2$\n\n$$\\boxed{\\text{diagonals: }6\\text{ and }2\\sqrt2\\text{ units}}$$\n\n:::tip Your answer must contain\n- both diagonals as <u>vectors</u>\n- both lengths\n:::\n\n**Marks are lost for:** giving only the lengths, or only one diagonal.",
+  "scheme": [
+   {
+    "step": "$\\vec a+\\vec b=4\\hat i-2\\hat j+4\\hat k$, length 6",
+    "marks": 1
+   },
+   {
+    "step": "$\\vec a-\\vec b=2\\hat i-2\\hat j$, length $2\\sqrt2$",
+    "marks": 1
+   }
+  ],
+  "topic": "Addition of vectors",
+  "hint": "The diagonals are the sum and the difference of the adjacent sides.",
+  "source_note": "CBSE Class 12 Mathematics board paper 2026 (set 65/1/1), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
  }
 ]

@@ -359,5 +359,141 @@
   "model_answer": "**(A)** Total functions $=2^3=8$. Two of them are constant and miss one of the two elements, so onto functions $=8-2=6$.",
   "topic": "Counting functions",
   "hint": "Count all functions first, then remove those that miss one of the two elements."
+ },
+ {
+  "id": "maths-pyq25-19",
+  "chapter": "ch-01",
+  "type": "ar",
+  "marks": 1,
+  "stars": 3,
+  "label": "PYQ (2025)",
+  "stem": "**Assertion (A):** Let $\\mathbb Z$ be the set of integers. The function $f:\\mathbb Z\\to\\mathbb Z$ defined by $f(x)=3x-5$ is a bijection.<br>**Reason (R):** A function is a bijection if it is both surjective and injective.",
+  "options": [
+   "Both A and R are true, and R is the correct explanation of A.",
+   "Both A and R are true, but R is not the correct explanation of A.",
+   "A is true, but R is false.",
+   "A is false, but R is true."
+  ],
+  "answer": "D",
+  "model_answer": "**(d).** $f$ is one-one, but not onto: $3x-5=0$ needs $x=\\dfrac53$, which is not an integer, so 0 has no pre-image. A is false; R is the correct definition.",
+  "topic": "One-one and onto functions",
+  "hint": "Is every integer of the form $3x-5$ with $x$ an integer?",
+  "source_note": "CBSE Class 12 Mathematics board paper 2025 (set 65/1/1), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
+ },
+ {
+  "id": "maths-pyq25-37",
+  "chapter": "ch-01",
+  "type": "case",
+  "marks": 4,
+  "stars": 3,
+  "label": "PYQ (2025)",
+  "stem": "**Five relations.** To test her class on relations, a teacher writes these relations on the set $A=\\{1,2,3\\}$:<br>$R_1=\\{(2,3),(3,2)\\}$<br>$R_2=\\{(1,2),(1,3),(3,2)\\}$<br>$R_3=\\{(1,2),(2,1),(1,1)\\}$<br>$R_4=\\{(1,1),(1,2),(3,3),(2,2)\\}$<br>$R_5=\\{(1,1),(1,2),(3,3),(2,2),$ $(2,1),(2,3),(3,2)\\}$",
+  "parts": [
+   {
+    "id": "i",
+    "stem": "Which relation is reflexive and transitive but not symmetric?",
+    "marks": 1,
+    "model_answer": "$R_4$. It contains $(1,1),(2,2),(3,3)$; it has $(1,2)$ but not $(2,1)$; and no chain breaks transitivity.",
+    "scheme": [
+     {
+      "step": "$R_4$",
+      "marks": 1
+     }
+    ]
+   },
+   {
+    "id": "ii",
+    "stem": "Which relation is reflexive and symmetric but not transitive?",
+    "marks": 1,
+    "model_answer": "$R_5$. It is reflexive and symmetric, but $(1,2)$ and $(2,3)$ are in it while $(1,3)$ is not.",
+    "scheme": [
+     {
+      "step": "$R_5$",
+      "marks": 1
+     }
+    ]
+   },
+   {
+    "id": "iii",
+    "stem": "Which relations are symmetric but neither reflexive nor transitive?<br>**OR** Which pairs must be added to $R_2$ to make it an equivalence relation?",
+    "marks": 2,
+    "model_answer": "$R_1$ and $R_3$. $R_1$: symmetric; no $(1,1)$; $(2,3),(3,2)$ are in it but $(2,2)$ is not. $R_3$: symmetric; no $(2,2)$; <mark>$(2,1),(1,2)$ are in it but $(2,2)$ is not</mark>.<br>**OR:** for reflexivity add $(1,1),(2,2),(3,3)$; for symmetry add $(2,1),(3,1),(2,3)$. $R_2$ then contains all nine pairs of $A\\times A$, which is an equivalence relation.",
+    "scheme": [
+     {
+      "step": "$R_1$ identified with reason (OR: $(1,1),(2,2),(3,3)$ for reflexivity)",
+      "marks": 1
+     },
+     {
+      "step": "$R_3$ identified with reason (OR: $(2,1),(3,1),(2,3)$ for symmetry)",
+      "marks": 1
+     }
+    ]
+   }
+  ],
+  "topic": "Types of relations",
+  "hint": "Check each relation for the three properties in turn; one failing pair is enough.",
+  "source_note": "CBSE Class 12 Mathematics board paper 2025 (set 65/1/1), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers. Adapted: the copy supplied printed R₁ in the OR part; R₂ is from a second published copy."
+ },
+ {
+  "id": "maths-pyq26-32a",
+  "chapter": "ch-01",
+  "type": "la5",
+  "marks": 5,
+  "stars": 3,
+  "label": "PYQ (2026)",
+  "stem": "For a fixed prime number $p$, a relation $R$ on the set $\\mathbb Z$ of integers is defined by $R=\\{(x,y):\\lvert x-y\\rvert\\text{ is divisible by }p\\}$. Decide, with proof, whether $R$ is an equivalence relation.",
+  "model_answer": "*How much to write: about 15 lines · 9 minutes.*\n\n**Reflexive.** For any $x\\in\\mathbb Z$, $\\lvert x-x\\rvert=0$, which is divisible by $p$. So $(x,x)\\in R$: $R$ is reflexive.\n\n**Symmetric.** Let $(x,y)\\in R$. Then $\\lvert x-y\\rvert$ is divisible by $p$. Since $\\lvert y-x\\rvert=\\lvert x-y\\rvert$, $(y,x)\\in R$: $R$ is symmetric.\n\n**Transitive.** Let $(x,y)\\in R$ and $(y,z)\\in R$. Then $x-y=pk$ and $y-z=pm$ for some integers $k$, $m$.\n\nAdding: <mark>$x-z=p(k+m)$</mark>, so $\\lvert x-z\\rvert$ is divisible by $p$ and $(x,z)\\in R$: $R$ is transitive.\n\n$R$ is reflexive, symmetric and transitive, so it <u>is an equivalence relation</u>.\n\n:::tip Your answer must contain\n- three labelled parts\n- arbitrary elements $x,y,z$, not numerical examples\n- integers $k$, $m$ named in the transitive step\n- the final conclusion\n:::\n\n**Marks are lost for:** 'proving' with examples such as $(2,7)$; skipping the conclusion line.",
+  "scheme": [
+   {
+    "step": "Reflexive, with reason",
+    "marks": 1
+   },
+   {
+    "step": "Symmetric, with reason",
+    "marks": 1.5
+   },
+   {
+    "step": "Transitive: $x-y=pk$, $y-z=pm$ added to give $x-z=p(k+m)$",
+    "marks": 2
+   },
+   {
+    "step": "Conclusion: equivalence relation",
+    "marks": 0.5
+   }
+  ],
+  "topic": "Equivalence relations",
+  "hint": "Divisible by $p$ means equal to $p$ times an integer.",
+  "source_note": "CBSE Class 12 Mathematics board paper 2026 (set 65/1/1), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
+ },
+ {
+  "id": "maths-pyq26-32b",
+  "chapter": "ch-01",
+  "type": "la5",
+  "marks": 5,
+  "stars": 3,
+  "label": "PYQ (2026)",
+  "stem": "Let $A=\\mathbb R-\\left\\{\\dfrac35\\right\\}$ and $f:A\\to A$ be defined by $f(x)=\\dfrac{3x+2}{5x-3}$. Show that $f$ is one-one and onto.",
+  "model_answer": "*How much to write: about 15 lines · 9 minutes.*\n\n**One-one.** Let $f(x_1)=f(x_2)$ for $x_1,x_2\\in A$: $\\dfrac{3x_1+2}{5x_1-3}=\\dfrac{3x_2+2}{5x_2-3}$\n\n$(3x_1+2)(5x_2-3)=(3x_2+2)(5x_1-3)\\Rightarrow-9x_1+10x_2=-9x_2+10x_1\\Rightarrow19x_1=19x_2$\n\nSo $x_1=x_2$: $f$ is <u>one-one</u>.\n\n**Onto.** Let $y\\in A$ and $y=\\dfrac{3x+2}{5x-3}$. Then $5xy-3y=3x+2$, so <mark>$x=\\dfrac{3y+2}{5y-3}$</mark>, which is real because $y\\ne\\dfrac35$.\n\nAlso $x\\ne\\dfrac35$, since $\\dfrac{3y+2}{5y-3}=\\dfrac35$ would give $10=-9$. So $x\\in A$ and $f(x)=y$: range = codomain, $f$ is <u>onto</u>.\n\n:::tip Your answer must contain\n- the start $f(x_1)=f(x_2)$\n- the pre-image $x$ in terms of $y$\n- the check that this $x$ is not $\\dfrac35$\n- both conclusions\n:::\n\n**Marks are lost for:** for onto, solving for $x$ but never saying that $x$ lies in the domain.",
+  "scheme": [
+   {
+    "step": "$f(x_1)=f(x_2)$ written and cross-multiplied",
+    "marks": 1
+   },
+   {
+    "step": "$x_1=x_2$, so one-one",
+    "marks": 1.5
+   },
+   {
+    "step": "$x=\\dfrac{3y+2}{5y-3}$ found",
+    "marks": 1.5
+   },
+   {
+    "step": "$x\\in A$ checked and onto concluded",
+    "marks": 1
+   }
+  ],
+  "topic": "One-one and onto functions",
+  "hint": "For onto, solve $y=f(x)$ for $x$ and check it is allowed.",
+  "source_note": "CBSE Class 12 Mathematics board paper 2026 (set 65/1/1), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
  }
 ]

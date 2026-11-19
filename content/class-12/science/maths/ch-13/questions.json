@@ -354,5 +354,257 @@
   ],
   "topic": "Conditional probability with dice",
   "hint": "The condition shrinks the sample space: count the outcomes with a $6$ first, then the ones with sum at least $10$ among them."
+ },
+ {
+  "id": "maths-pyq25-07",
+  "chapter": "ch-13",
+  "type": "mcq",
+  "marks": 1,
+  "stars": 3,
+  "label": "PYQ (2025)",
+  "stem": "$E$ and $F$ are independent events with $P(E)=\\dfrac23$ and $P(F)=\\dfrac14$. Then $P(E\\mid F)$ is",
+  "options": [
+   "$\\dfrac16$",
+   "$\\dfrac15$",
+   "$\\dfrac23$",
+   "$\\dfrac79$"
+  ],
+  "answer": "C",
+  "model_answer": "**(c).** For independent events, knowing $F$ does not change the chance of $E$: $P(E\\mid F)=P(E)=\\dfrac23$.",
+  "topic": "Independent events",
+  "hint": "What does independence say about $P(E\\mid F)$?",
+  "source_note": "CBSE Class 12 Mathematics board paper 2025 (set 65/1/1), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
+ },
+ {
+  "id": "maths-pyq25-30a",
+  "chapter": "ch-13",
+  "type": "sa3",
+  "marks": 3,
+  "stars": 3,
+  "label": "PYQ (2025)",
+  "stem": "The number $X$ of students absent from a class on a Saturday takes the values $0,\\ 2,\\ 4,\\ 5$ with probabilities $p,\\ 2p,\\ 3p,\\ p$ respectively. (i) Find $p$. (ii) Find the mean number of students absent.",
+  "model_answer": "*How much to write: about 9 lines · 5 minutes.*\n\n(i) The probabilities add up to 1: <mark>$p+2p+3p+p=1$</mark> $\\Rightarrow7p=1\\Rightarrow p=\\dfrac17$\n\n(ii) Mean $=\\sum x_ip_i=0(p)+2(2p)+4(3p)+5(p)=21p=21\\times\\dfrac17$\n\n$$\\boxed{p=\\dfrac17,\\qquad\\text{mean}=3}$$\n\n:::tip Your answer must contain\n- $\\sum p_i=1$ stated\n- the formula for the mean\n- both answers\n:::\n\n**Marks are lost for:** dividing $\\sum x_ip_i$ by 4: the mean of a random variable is not divided by the number of values.",
+  "scheme": [
+   {
+    "step": "$\\sum p_i=1$ and $p=\\dfrac17$",
+    "marks": 1
+   },
+   {
+    "step": "Mean $=\\sum x_ip_i=21p$",
+    "marks": 1
+   },
+   {
+    "step": "Mean $=3$",
+    "marks": 1
+   }
+  ],
+  "topic": "Mean of a random variable",
+  "hint": "Total probability is 1; then $\\sum x_ip_i$.",
+  "source_note": "CBSE Class 12 Mathematics board paper 2025 (set 65/1/1), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
+ },
+ {
+  "id": "maths-pyq25-30b",
+  "chapter": "ch-13",
+  "type": "sa3",
+  "marks": 3,
+  "stars": 3,
+  "label": "PYQ (2025)",
+  "stem": "For a job vacancy, 3000 candidates applied. Two-thirds of them were female and the rest male. Selection was by a written test. The probability that a male applicant gets a distinction in the test is 0.4, and for a female applicant it is 0.35. Find the probability that a candidate chosen at random gets a distinction.",
+  "model_answer": "*How much to write: about 9 lines · 5 minutes.*\n\nLet $E_1$: the candidate is male, $E_2$: the candidate is female, $A$: the candidate gets a distinction.\n\n$P(E_1)=\\dfrac13$, $P(E_2)=\\dfrac23$; $P(A\\mid E_1)=0.4$, $P(A\\mid E_2)=0.35$\n\nBy the <u>theorem of total probability</u>: <mark>$P(A)=\\dfrac13(0.4)+\\dfrac23(0.35)$</mark> $=\\dfrac{0.4+0.7}{3}=\\dfrac{1.1}{3}$\n\n$$\\boxed{P(\\text{distinction})=\\dfrac{11}{30}}$$\n\n:::tip Your answer must contain\n- events defined in words\n- the theorem named\n- a fraction in lowest terms\n:::\n\n**Marks are lost for:** swapping the fractions of male and female applicants.",
+  "scheme": [
+   {
+    "step": "Events defined; $P(E_1)$, $P(E_2)$",
+    "marks": 1
+   },
+   {
+    "step": "Conditional probabilities and the theorem",
+    "marks": 1
+   },
+   {
+    "step": "$\\dfrac{11}{30}$",
+    "marks": 1
+   }
+  ],
+  "topic": "Total probability",
+  "hint": "Two routes to a distinction: male or female.",
+  "source_note": "CBSE Class 12 Mathematics board paper 2025 (set 65/1/1), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
+ },
+ {
+  "id": "maths-pyq25-38",
+  "chapter": "ch-13",
+  "type": "case",
+  "marks": 4,
+  "stars": 3,
+  "label": "PYQ (2025)",
+  "stem": "**Loans and defaults.** A bank gives loans at a fixed rate, a floating rate or a variable rate of interest. From its records, a customer takes a fixed-rate, floating-rate or variable-rate loan with probabilities 10%, 20% and 70%. The probabilities that a customer defaults on a fixed-rate, floating-rate or variable-rate loan are 5%, 3% and 1%.",
+  "parts": [
+   {
+    "id": "i",
+    "stem": "Find the probability that a customer who has taken a loan defaults on it.",
+    "marks": 2,
+    "model_answer": "Let $E_1,E_2,E_3$: fixed, floating, variable rate; $D$: the customer defaults.<br>$P(D)=0.10\\times0.05+0.20\\times0.03+0.70\\times0.01=0.005+0.006+0.007$ <mark>$=0.018=\\dfrac{9}{500}$</mark>",
+    "scheme": [
+     {
+      "step": "Events and probabilities; theorem of total probability",
+      "marks": 1
+     },
+     {
+      "step": "$P(D)=0.018$",
+      "marks": 1
+     }
+    ]
+   },
+   {
+    "id": "ii",
+    "stem": "A customer has defaulted. Find the probability that the loan was at a variable rate of interest.",
+    "marks": 2,
+    "model_answer": "By Bayes' theorem, $P(E_3\\mid D)=\\dfrac{P(E_3)P(D\\mid E_3)}{P(D)}=\\dfrac{0.007}{0.018}=\\dfrac{7}{18}$",
+    "scheme": [
+     {
+      "step": "Bayes' theorem written and substituted",
+      "marks": 1
+     },
+     {
+      "step": "$\\dfrac{7}{18}$",
+      "marks": 1
+     }
+    ]
+   }
+  ],
+  "topic": "Total probability and Bayes' theorem",
+  "hint": "Part (i) is the denominator of part (ii).",
+  "source_note": "CBSE Class 12 Mathematics board paper 2025 (set 65/1/1), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
+ },
+ {
+  "id": "maths-pyq26-19",
+  "chapter": "ch-13",
+  "type": "ar",
+  "marks": 1,
+  "stars": 3,
+  "label": "PYQ (2026)",
+  "stem": "**Assertion (A):** An unbiased die is thrown. The probability of getting a prime number, given that the number is odd, is $\\dfrac23$.<br>**Reason (R):** For any two events $A$ and $B$, $P(A\\mid B)=\\dfrac{P(A\\cup B)}{P(B)}$.",
+  "options": [
+   "Both A and R are true, and R is the correct explanation of A.",
+   "Both A and R are true, but R is not the correct explanation of A.",
+   "A is true, but R is false.",
+   "A is false, but R is true."
+  ],
+  "answer": "C",
+  "model_answer": "**(c).** Odd outcomes: $\\{1,3,5\\}$; primes among them: $\\{3,5\\}$, so the probability is $\\dfrac23$ and A is true. R is false: the definition is $P(A\\mid B)=\\dfrac{P(A\\cap B)}{P(B)}$, $P(B)\\ne0$.",
+  "topic": "Conditional probability",
+  "hint": "Is it the union or the intersection in the numerator?",
+  "source_note": "CBSE Class 12 Mathematics board paper 2026 (set 65/1/1), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers. Adapted: published copies differ on the formula printed in the Reason (∪ or ∩); the ∪ form is used here, which agrees with the answer (C) in the published keys."
+ },
+ {
+  "id": "maths-pyq26-31a",
+  "chapter": "ch-13",
+  "type": "sa3",
+  "marks": 3,
+  "stars": 3,
+  "label": "PYQ (2026)",
+  "stem": "Bag I has 3 red and 4 white balls; Bag II has 8 red and 6 white balls. A die is thrown: if it shows a number less than 3, a ball is drawn at random from Bag I, otherwise from Bag II. Find the probability that the ball drawn is red.",
+  "model_answer": "*How much to write: about 9 lines · 5 minutes.*\n\nLet $E_1$: the die shows 1 or 2 (Bag I is used), $E_2$: the die shows 3, 4, 5 or 6 (Bag II is used), $A$: the ball drawn is red.\n\n$P(E_1)=\\dfrac26=\\dfrac13$, $P(E_2)=\\dfrac23$; $P(A\\mid E_1)=\\dfrac37$, $P(A\\mid E_2)=\\dfrac{8}{14}=\\dfrac47$\n\nBy the <u>theorem of total probability</u>: <mark>$P(A)=P(E_1)P(A\\mid E_1)+P(E_2)P(A\\mid E_2)$</mark> $=\\dfrac13\\cdot\\dfrac37+\\dfrac23\\cdot\\dfrac47=\\dfrac{3}{21}+\\dfrac{8}{21}$\n\n$$\\boxed{P(\\text{red})=\\dfrac{11}{21}}$$\n\n:::tip Your answer must contain\n- the events defined in words\n- the theorem named and written\n- the answer as a fraction in lowest terms\n:::\n\n**Marks are lost for:** taking each bag with probability $\\dfrac12$: the die decides the bag.",
+  "scheme": [
+   {
+    "step": "Events defined; $P(E_1)=\\dfrac13$, $P(E_2)=\\dfrac23$",
+    "marks": 1
+   },
+   {
+    "step": "$P(A\\mid E_1)=\\dfrac37$, $P(A\\mid E_2)=\\dfrac47$",
+    "marks": 1
+   },
+   {
+    "step": "Total probability applied: $\\dfrac{11}{21}$",
+    "marks": 1
+   }
+  ],
+  "topic": "Total probability",
+  "hint": "The die makes the two bags unequally likely.",
+  "source_note": "CBSE Class 12 Mathematics board paper 2026 (set 65/1/1), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
+ },
+ {
+  "id": "maths-pyq26-31b",
+  "chapter": "ch-13",
+  "type": "sa3",
+  "marks": 3,
+  "stars": 2,
+  "label": "PYQ (2026)",
+  "stem": "The probability that at least one of two events $X$ and $Y$ occurs is $a$, and the probability that exactly one of them occurs is $b$. Prove that $P(X')+P(Y')=2-2a+b$.",
+  "model_answer": "*How much to write: about 9 lines · 5 minutes.*\n\n**Given:** $P(X\\cup Y)=a$, so $P(X)+P(Y)-P(X\\cap Y)=a$ … (1)\n\nExactly one occurs: <mark>$P(X)+P(Y)-2P(X\\cap Y)=b$</mark> … (2)\n\n(1) − (2): $P(X\\cap Y)=a-b$. Putting this in (1): $P(X)+P(Y)=2a-b$.\n\n$P(X')+P(Y')=[1-P(X)]+[1-P(Y)]=2-(2a-b)=2-2a+b$. **Hence proved.**\n\n:::tip Your answer must contain\n- both given statements turned into equations\n- $P(\\text{exactly one})=P(X)+P(Y)-2P(X\\cap Y)$\n- 'Hence proved'\n:::\n\n**Marks are lost for:** assuming $X$ and $Y$ are independent or mutually exclusive: nothing in the question says so.",
+  "scheme": [
+   {
+    "step": "$P(X)+P(Y)-P(X\\cap Y)=a$",
+    "marks": 0.5
+   },
+   {
+    "step": "$P(X)+P(Y)-2P(X\\cap Y)=b$",
+    "marks": 1
+   },
+   {
+    "step": "$P(X\\cap Y)=a-b$ and $P(X)+P(Y)=2a-b$",
+    "marks": 1
+   },
+   {
+    "step": "Complements used and the result",
+    "marks": 0.5
+   }
+  ],
+  "topic": "Addition theorem",
+  "hint": "Write 'at least one' and 'exactly one' in terms of $P(X)$, $P(Y)$ and $P(X\\cap Y)$.",
+  "source_note": "CBSE Class 12 Mathematics board paper 2026 (set 65/1/1), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
+ },
+ {
+  "id": "maths-pyq26-37",
+  "chapter": "ch-13",
+  "type": "case",
+  "marks": 4,
+  "stars": 3,
+  "label": "PYQ (2026)",
+  "stem": "**Online jackpot.** A jackpot has one first prize of ₹3,00,000, two second prizes of ₹2,00,000 each and three third prizes of ₹50,000 each. In all 1,00,000 tickets were sold, and a person bought one ticket.",
+  "parts": [
+   {
+    "id": "i",
+    "stem": "What are the possible amounts the person can win?",
+    "marks": 1,
+    "model_answer": "₹3,00,000, ₹2,00,000, ₹50,000 or nothing (₹0).",
+    "scheme": [
+     {
+      "step": "The three prize amounts (and no prize)",
+      "marks": 1
+     }
+    ]
+   },
+   {
+    "id": "ii",
+    "stem": "Find the probability that the person wins at least ₹2,00,000.<br>**OR** Find the probability that the person wins nothing.",
+    "marks": 2,
+    "model_answer": "Tickets winning ₹2,00,000 or more: $1+2=3$. $P=\\dfrac{3}{100000}$.<br>**OR:** prize-winning tickets: $1+2+3=6$. <mark>$P(\\text{no prize})=1-\\dfrac{6}{100000}=\\dfrac{99994}{100000}=\\dfrac{49997}{50000}$</mark>",
+    "scheme": [
+     {
+      "step": "Favourable tickets counted: 3 (OR: 6 winning tickets)",
+      "marks": 1
+     },
+     {
+      "step": "$\\dfrac{3}{100000}$ (OR: $\\dfrac{49997}{50000}$)",
+      "marks": 1
+     }
+    ]
+   },
+   {
+    "id": "iii",
+    "stem": "The person also buys one ticket in another jackpot, where the chance of winning is 1 in 1,00,000. Find the probability that the person wins on exactly one of the two tickets.",
+    "marks": 1,
+    "model_answer": "$P(\\text{win on first})=\\dfrac{6}{10^5}$, $P(\\text{win on second})=\\dfrac{1}{10^5}$; the two are independent.<br>$P(\\text{exactly one})=\\dfrac{6}{10^5}\\left(1-\\dfrac{1}{10^5}\\right)+\\dfrac{1}{10^5}\\left(1-\\dfrac{6}{10^5}\\right)=\\dfrac{599994+99994}{10^{10}}=\\dfrac{699988}{10^{10}}$ (about $7\\times10^{-5}$). Here 'wins' on the first ticket is read as winning any prize.",
+    "scheme": [
+     {
+      "step": "$P(A)P(B')+P(A')P(B)=\\dfrac{699988}{10^{10}}$",
+      "marks": 1
+     }
+    ]
+   }
+  ],
+  "topic": "Probability of events",
+  "hint": "Count the winning tickets. For 'exactly one', add the two ways it can happen.",
+  "source_note": "CBSE Class 12 Mathematics board paper 2026 (set 65/1/1), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers. Adapted: part (iii) is ambiguous about what 'wins' means on the first ticket; the reading used is stated in the answer."
  }
 ]

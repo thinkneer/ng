@@ -1793,14 +1793,14 @@
                       },
                       "marks_hint": "about 5 marks in the 2026–27 sample paper (Unit I: 8)",
                       "summary": "Reflexive, symmetric, transitive and equivalence relations · equivalence classes · one-one and onto functions · counting",
-                      "questions": 14,
+                      "questions": 18,
                       "question_types": {
                         "mcq": 5,
-                        "ar": 2,
+                        "ar": 3,
                         "vsa2": 2,
                         "sa3": 2,
-                        "la5": 2,
-                        "case": 1
+                        "la5": 4,
+                        "case": 2
                       },
                       "diagrams": [],
                       "blocks": {
@@ -1832,11 +1832,11 @@
                       },
                       "marks_hint": "about 3 marks in the 2026–27 sample paper (Unit I: 8)",
                       "summary": "Principal value branches · domain and range · principal values · simplification by substitution",
-                      "questions": 12,
+                      "questions": 17,
                       "question_types": {
-                        "mcq": 5,
+                        "mcq": 7,
                         "ar": 2,
-                        "vsa2": 3,
+                        "vsa2": 6,
                         "sa3": 1,
                         "case": 1
                       },
@@ -1876,9 +1876,9 @@
                       },
                       "marks_hint": "about 9 marks in the 2026–27 sample paper (Unit II: 10)",
                       "summary": "Order and types · operations · transpose · symmetric and skew-symmetric matrices · invertible matrices",
-                      "questions": 12,
+                      "questions": 17,
                       "question_types": {
-                        "mcq": 4,
+                        "mcq": 9,
                         "ar": 2,
                         "vsa2": 2,
                         "sa3": 2,
@@ -1913,13 +1913,13 @@
                       },
                       "marks_hint": "1 to 6 marks; the unit's 5-marker in many years (Unit II: 10)",
                       "summary": "Determinant · area of a triangle · minors, cofactors, adjoint · inverse · solving a system by the matrix method",
-                      "questions": 12,
+                      "questions": 20,
                       "question_types": {
-                        "mcq": 4,
+                        "mcq": 9,
                         "ar": 2,
                         "vsa2": 2,
                         "sa3": 2,
-                        "la5": 1,
+                        "la5": 4,
                         "case": 1
                       },
                       "diagrams": [],
@@ -1958,13 +1958,13 @@
                       },
                       "marks_hint": "about 7 marks in the 2026–27 sample paper (Unit III Calculus: 35)",
                       "summary": "Continuity at a point · differentiability · chain rule · inverse trig, implicit, logarithmic and parametric differentiation · second-order derivatives",
-                      "questions": 12,
+                      "questions": 21,
                       "question_types": {
-                        "mcq": 4,
-                        "ar": 2,
-                        "vsa2": 2,
+                        "mcq": 5,
+                        "ar": 3,
+                        "vsa2": 6,
                         "sa3": 2,
-                        "la5": 1,
+                        "la5": 4,
                         "case": 1
                       },
                       "diagrams": [],
@@ -1996,14 +1996,14 @@
                       },
                       "marks_hint": "about 9 marks in the 2026–27 sample paper (Unit III Calculus: 35)",
                       "summary": "Rate of change · increasing and decreasing functions · local and absolute maxima and minima · optimisation word problems",
-                      "questions": 12,
+                      "questions": 20,
                       "question_types": {
-                        "mcq": 4,
+                        "mcq": 6,
                         "ar": 2,
-                        "vsa2": 2,
-                        "sa3": 2,
-                        "la5": 1,
-                        "case": 1
+                        "vsa2": 4,
+                        "sa3": 3,
+                        "la5": 2,
+                        "case": 3
                       },
                       "diagrams": [],
                       "blocks": {
@@ -2033,12 +2033,12 @@
                       },
                       "marks_hint": "about 9 marks in the 2026–27 sample paper (Unit III Calculus: 35)",
                       "summary": "Substitution · partial fractions · by parts · quadratic forms · definite integrals and their properties",
-                      "questions": 12,
+                      "questions": 22,
                       "question_types": {
-                        "mcq": 4,
+                        "mcq": 8,
                         "ar": 2,
                         "vsa2": 2,
-                        "sa3": 2,
+                        "sa3": 8,
                         "la5": 1,
                         "case": 1
                       },
@@ -2069,14 +2069,14 @@
                       },
                       "marks_hint": "about 5 marks in the 2026–27 sample paper (Unit III Calculus: 35)",
                       "summary": "Area under lines, circles, parabolas and ellipses in standard form · strips · symmetry · sign changes",
-                      "questions": 12,
+                      "questions": 16,
                       "question_types": {
-                        "mcq": 4,
+                        "mcq": 6,
                         "ar": 2,
                         "vsa2": 2,
-                        "sa3": 2,
+                        "sa3": 3,
                         "la5": 1,
-                        "case": 1
+                        "case": 2
                       },
                       "diagrams": [],
                       "blocks": {
@@ -2106,12 +2106,12 @@
                       },
                       "marks_hint": "about 5 marks in the 2026–27 sample paper (Unit III Calculus: 35)",
                       "summary": "Order and degree · variable separable · homogeneous · linear first-order equations · particular solutions",
-                      "questions": 12,
+                      "questions": 18,
                       "question_types": {
-                        "mcq": 4,
+                        "mcq": 8,
                         "ar": 2,
                         "vsa2": 2,
-                        "sa3": 2,
+                        "sa3": 4,
                         "la5": 1,
                         "case": 1
                       },
@@ -2153,12 +2153,12 @@
                       },
                       "marks_hint": "about 5 marks in the 2026–27 sample paper (Unit IV: 14)",
                       "summary": "Magnitude and direction · section formula · dot product, projection · cross product, areas",
-                      "questions": 13,
+                      "questions": 24,
                       "question_types": {
-                        "mcq": 5,
+                        "mcq": 10,
                         "ar": 2,
-                        "vsa2": 2,
-                        "sa3": 2,
+                        "vsa2": 7,
+                        "sa3": 3,
                         "la5": 1,
                         "case": 1
                       },
@@ -2190,13 +2190,13 @@
                       },
                       "marks_hint": "about 9 marks in the 2026–27 sample paper (Unit IV: 14)",
                       "summary": "Direction cosines and ratios · equation of a line · angle between lines · shortest distance · foot of perpendicular and image",
-                      "questions": 14,
+                      "questions": 20,
                       "question_types": {
-                        "mcq": 5,
-                        "ar": 2,
+                        "mcq": 6,
+                        "ar": 3,
                         "vsa2": 2,
-                        "sa3": 3,
-                        "la5": 1,
+                        "sa3": 4,
+                        "la5": 4,
                         "case": 1
                       },
                       "diagrams": [],
@@ -2236,12 +2236,12 @@
                       },
                       "marks_hint": "5 marks (Unit V)",
                       "summary": "Objective function and constraints · feasible region · corner-point method · unbounded regions · special cases",
-                      "questions": 12,
+                      "questions": 18,
                       "question_types": {
-                        "mcq": 4,
+                        "mcq": 8,
                         "ar": 2,
                         "vsa2": 2,
-                        "sa3": 2,
+                        "sa3": 4,
                         "la5": 1,
                         "case": 1
                       },
@@ -2283,14 +2283,14 @@
                       },
                       "marks_hint": "8 marks (Unit VI)",
                       "summary": "Conditional probability · multiplication theorem · independent events · total probability · Bayes' theorem · random variable and its mean",
-                      "questions": 14,
+                      "questions": 22,
                       "question_types": {
-                        "mcq": 4,
-                        "ar": 2,
+                        "mcq": 5,
+                        "ar": 3,
                         "vsa2": 2,
-                        "sa3": 3,
+                        "sa3": 7,
                         "la5": 2,
-                        "case": 1
+                        "case": 3
                       },
                       "diagrams": [],
                       "blocks": {
@@ -2335,7 +2335,18 @@
                 "syllabus": "https://cbseacademic.nic.in/",
                 "sample_paper": "https://cbseacademic.nic.in/"
               },
-              "papers": [],
+              "papers": [
+                {
+                  "id": "board-2025",
+                  "title": "CBSE board paper 2025 · rebuilt in our words",
+                  "path": "content/class-12/science/maths/papers/board-2025.json"
+                },
+                {
+                  "id": "board-2026",
+                  "title": "CBSE board paper 2026 · rebuilt in our words",
+                  "path": "content/class-12/science/maths/papers/board-2026.json"
+                }
+              ],
               "counts": {
                 "notes": 13,
                 "mustknow": 13,

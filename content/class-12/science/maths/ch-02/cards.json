@@ -52,7 +52,7 @@
     "id": "arcsin-of-sin",
     "kind": "formula",
     "title": "When does sin⁻¹(sin θ) = θ?",
-    "tex": "\\sin^{-1}(\\sin\\theta)=\\theta\\iff\\theta\\in\\left[-\\dfrac\\pi2,\\dfrac\\pi2\\right]",
+    "tex": "\\begin{aligned}&\\sin^{-1}(\\sin\\theta)=\\theta\\\\&\\text{only if }\\ \\theta\\in\\left[-\\dfrac\\pi2,\\dfrac\\pi2\\right]\\end{aligned}",
     "back": "Otherwise bring the angle into the branch first: $\\sin^{-1}(\\sin\\frac{2\\pi}{3})=\\sin^{-1}(\\sin\\frac\\pi3)=\\frac\\pi3$.",
     "stars": 3,
     "tags": [
@@ -90,7 +90,7 @@
     "id": "substitution-choice",
     "kind": "formula",
     "title": "Substitution for simplest form",
-    "tex": "\\sqrt{a^2-x^2}:\\ x=a\\sin\\theta\\qquad a^2+x^2:\\ x=a\\tan\\theta",
+    "tex": "\\begin{aligned}\\sqrt{a^2-x^2}&:\\ x=a\\sin\\theta\\\\a^2+x^2&:\\ x=a\\tan\\theta\\end{aligned}",
     "back": "And $\\sqrt{x^2-a^2}$: $x=a\\sec\\theta$. After simplifying, go back to $x$ with $\\theta=\\sin^{-1}\\frac xa$ and so on."
   }
 ]

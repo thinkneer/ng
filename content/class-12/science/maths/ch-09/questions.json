@@ -330,5 +330,139 @@
   ],
   "topic": "Growth and decay",
   "hint": "Separate the variables; the solution is an exponential."
+ },
+ {
+  "id": "maths-pyq25-04",
+  "chapter": "ch-09",
+  "type": "mcq",
+  "marks": 1,
+  "stars": 2,
+  "label": "PYQ (2025)",
+  "stem": "Which of the following is **not** a homogeneous function of $x$ and $y$?",
+  "options": [
+   "$y^2-xy$",
+   "$x-3y$",
+   "$\\sin^2\\dfrac yx+\\dfrac yx$",
+   "$\\tan x-\\sec y$"
+  ],
+  "answer": "D",
+  "model_answer": "**(d).** $F(\\lambda x,\\lambda y)=\\tan\\lambda x-\\sec\\lambda y$ cannot be written as $\\lambda^nF(x,y)$. The others are homogeneous of degree 2, 1 and 0.",
+  "topic": "Homogeneous functions",
+  "hint": "Replace $x$ by $\\lambda x$ and $y$ by $\\lambda y$: does a power of $\\lambda$ come out?",
+  "source_note": "CBSE Class 12 Mathematics board paper 2025 (set 65/1/1), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
+ },
+ {
+  "id": "maths-pyq25-12",
+  "chapter": "ch-09",
+  "type": "mcq",
+  "marks": 1,
+  "stars": 3,
+  "label": "PYQ (2025)",
+  "stem": "The integrating factor of the differential equation $(x+2y^3)\\dfrac{dy}{dx}=2y$ is",
+  "options": [
+   "$e^{y^2/2}$",
+   "$\\dfrac{1}{\\sqrt y}$",
+   "$\\dfrac{1}{y^2}$",
+   "$e^{-1/y^2}$"
+  ],
+  "answer": "B",
+  "model_answer": "**(b).** Write it as $\\dfrac{dx}{dy}-\\dfrac{x}{2y}=y^2$, linear in $x$ with $P=-\\dfrac{1}{2y}$. I.F. $=e^{-\\frac12\\log y}=\\dfrac{1}{\\sqrt y}$.",
+  "topic": "Linear differential equations",
+  "hint": "Turn it over: it is linear in $x$, not in $y$.",
+  "source_note": "CBSE Class 12 Mathematics board paper 2025 (set 65/1/1), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers. Adapted: options (A) and (B) were misprinted in the copy supplied; restored from a second published copy."
+ },
+ {
+  "id": "maths-pyq26-11",
+  "chapter": "ch-09",
+  "type": "mcq",
+  "marks": 1,
+  "stars": 2,
+  "label": "PYQ (2026)",
+  "stem": "$P$, $Q$ and $R$ are functions of $y$. The integrating factor of $R\\dfrac{dx}{dy}+Px=Q$ is",
+  "options": [
+   "$e^{\\int P\\,dy}$",
+   "$e^{\\int\\frac PR\\,dy}$",
+   "$e^{\\int\\frac PR\\,dx}$",
+   "$e^{\\int P\\,dx}$"
+  ],
+  "answer": "B",
+  "model_answer": "**(b).** Divide by $R$ to get the standard form $\\dfrac{dx}{dy}+\\dfrac PR\\,x=\\dfrac QR$. The equation is linear in $x$, so I.F. $=e^{\\int\\frac PR\\,dy}$.",
+  "topic": "Linear differential equations",
+  "hint": "Make the coefficient of $\\dfrac{dx}{dy}$ equal to 1 first.",
+  "source_note": "CBSE Class 12 Mathematics board paper 2026 (set 65/1/1), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
+ },
+ {
+  "id": "maths-pyq26-12",
+  "chapter": "ch-09",
+  "type": "mcq",
+  "marks": 1,
+  "stars": 2,
+  "label": "PYQ (2026)",
+  "stem": "The order and the degree of the differential equation $\\dfrac{d}{dx}\\left(e^{y}\\right)=0$ are, respectively,",
+  "options": [
+   "0, 1",
+   "1, 1",
+   "2, 1",
+   "1, not defined"
+  ],
+  "answer": "B",
+  "model_answer": "**(b).** Differentiating, $e^y\\dfrac{dy}{dx}=0$. The highest derivative is $\\dfrac{dy}{dx}$ (order 1) and its power is 1 (degree 1).",
+  "topic": "Order and degree",
+  "hint": "Carry out the differentiation first.",
+  "source_note": "CBSE Class 12 Mathematics board paper 2026 (set 65/1/1), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers. Adapted: the copy supplied printed a different equation with no matching option; this version was checked against two other published copies."
+ },
+ {
+  "id": "maths-pyq26-29a",
+  "chapter": "ch-09",
+  "type": "sa3",
+  "marks": 3,
+  "stars": 3,
+  "label": "PYQ (2026)",
+  "stem": "Find the general solution of the differential equation $x^2\\dfrac{dy}{dx}=x^2+xy+y^2$.",
+  "model_answer": "*How much to write: about 9 lines · 5 minutes.*\n\n$\\dfrac{dy}{dx}=1+\\dfrac yx+\\left(\\dfrac yx\\right)^2=F(x,y)$, and $F(\\lambda x,\\lambda y)=F(x,y)$: the equation is <u>homogeneous</u>.\n\nPut $y=vx$, $\\dfrac{dy}{dx}=v+x\\dfrac{dv}{dx}$: $\\ v+x\\dfrac{dv}{dx}=1+v+v^2\\Rightarrow$ <mark>$\\dfrac{dv}{1+v^2}=\\dfrac{dx}{x}$</mark>\n\nIntegrating: $\\tan^{-1}v=\\log\\lvert x\\rvert+C$. Replace $v$ by $\\dfrac yx$.\n\n$$\\boxed{\\tan^{-1}\\dfrac yx=\\log|x|+C}$$\n\n:::tip Your answer must contain\n- $\\dfrac{dy}{dx}=v+x\\dfrac{dv}{dx}$\n- the separated form\n- $v$ replaced by $\\dfrac yx$\n:::\n\n**Marks are lost for:** leaving the answer in $v$; missing $+C$.",
+  "scheme": [
+   {
+    "step": "Homogeneous form and substitution $y=vx$",
+    "marks": 1
+   },
+   {
+    "step": "Variables separated: $\\dfrac{dv}{1+v^2}=\\dfrac{dx}{x}$",
+    "marks": 1
+   },
+   {
+    "step": "Integration and $\\tan^{-1}\\dfrac yx=\\log\\lvert x\\rvert+C$",
+    "marks": 1
+   }
+  ],
+  "topic": "Homogeneous differential equations",
+  "hint": "Divide by $x^2$: everything is a function of $\\dfrac yx$.",
+  "source_note": "CBSE Class 12 Mathematics board paper 2026 (set 65/1/1), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
+ },
+ {
+  "id": "maths-pyq26-29b",
+  "chapter": "ch-09",
+  "type": "sa3",
+  "marks": 3,
+  "stars": 3,
+  "label": "PYQ (2026)",
+  "stem": "Find the particular solution of $xy\\dfrac{dy}{dx}=(x+2)(y+2)$, given that $y=-1$ when $x=1$.",
+  "model_answer": "*How much to write: about 9 lines · 5 minutes.*\n\nSeparate the variables: $\\dfrac{y}{y+2}\\,dy=\\dfrac{x+2}{x}\\,dx$, that is <mark>$\\left(1-\\dfrac{2}{y+2}\\right)dy=\\left(1+\\dfrac2x\\right)dx$</mark>\n\nIntegrating: $y-2\\log\\lvert y+2\\rvert=x+2\\log\\lvert x\\rvert+C$\n\nAt $x=1$, $y=-1$: $-1-2\\log1=1+2\\log1+C\\Rightarrow C=-2$\n\n$$\\boxed{y-x+2=2\\log\\left|x(y+2)\\right|}$$\n\n:::tip Your answer must contain\n- $\\dfrac{y}{y+2}=1-\\dfrac{2}{y+2}$\n- the general solution before using the condition\n- the value of $C$\n:::\n\n**Marks are lost for:** integrating $\\dfrac{y}{y+2}$ as $\\log\\lvert y+2\\rvert$.",
+  "scheme": [
+   {
+    "step": "Variables separated",
+    "marks": 1
+   },
+   {
+    "step": "Both sides integrated: $y-2\\log\\lvert y+2\\rvert=x+2\\log\\lvert x\\rvert+C$",
+    "marks": 1
+   },
+   {
+    "step": "$C=-2$ and the particular solution",
+    "marks": 1
+   }
+  ],
+  "topic": "Variables separable",
+  "hint": "Get all $y$ with $dy$; divide $y$ by $y+2$ before integrating.",
+  "source_note": "CBSE Class 12 Mathematics board paper 2026 (set 65/1/1), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
  }
 ]

@@ -318,5 +318,126 @@
   ],
   "topic": "Horizontal strips",
   "hint": "A horizontal strip at height $y$ runs from $x=-\\sqrt y$ to $x=\\sqrt y$."
+ },
+ {
+  "id": "maths-pyq25-17",
+  "chapter": "ch-08",
+  "type": "mcq",
+  "marks": 1,
+  "stars": 2,
+  "label": "PYQ (2025)",
+  "stem": "The area of the region in the first quadrant bounded by the curve $y^2=x$, the line $x=4$ and the $x$-axis is given by",
+  "options": [
+   "$\\displaystyle\\int_0^4x\\,dx$",
+   "$\\displaystyle\\int_0^2y^2\\,dy$",
+   "$2\\displaystyle\\int_0^4\\sqrt x\\,dx$",
+   "$\\displaystyle\\int_0^4\\sqrt x\\,dx$"
+  ],
+  "answer": "D",
+  "model_answer": "**(d).** In the first quadrant $y=\\sqrt x$. With vertical strips from $x=0$ to $x=4$: area $=\\displaystyle\\int_0^4\\sqrt x\\,dx$. Option (C) is the area on both sides of the axis.",
+  "topic": "Area under a curve",
+  "hint": "Vertical strip: height $y=\\sqrt x$, width $dx$.",
+  "source_note": "CBSE Class 12 Mathematics board paper 2025 (set 65/1/1), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers. Adapted: the paper showed the shaded region in a figure; 'in the first quadrant' is written in its place."
+ },
+ {
+  "id": "maths-pyq25-31",
+  "chapter": "ch-08",
+  "type": "sa3",
+  "marks": 3,
+  "stars": 3,
+  "label": "PYQ (2025)",
+  "stem": "Sketch the graph of $y=\\lvert x+3\\rvert$. Using integration, find the area of the region enclosed by the curve, the $x$-axis and the lines $x=-6$ and $x=0$.",
+  "model_answer": "*How much to write: about 9 lines · 5 minutes.*\n\n$y=-(x+3)$ for $x<-3$ and $y=x+3$ for $x\\ge-3$: a V-shaped graph with its corner at $(-3,0)$.\n\n<figure class=\"fig\">\n<svg viewBox=\"0 0 270 150\" role=\"img\" aria-label=\"Graph of y = |x + 3| from x = −6 to x = 0 with two shaded triangles\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.4\"><path d=\"M14,120 H258 M210,136 V14\" stroke-width=\"1\"/><polygon points=\"30,120 30,30 120,120\" fill=\"#E0B400\" fill-opacity=\"0.28\" stroke=\"none\"/><polygon points=\"120,120 210,30 210,120\" fill=\"#E0B400\" fill-opacity=\"0.28\" stroke=\"none\"/><path d=\"M30,30 L120,120 L210,30 L240,0\"/><path d=\"M30,30 V120\" stroke-dasharray=\"4 3\"/><text x=\"30\" y=\"134\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">−6</text><text x=\"120\" y=\"134\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">−3</text><text x=\"216\" y=\"134\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">O</text><text x=\"222\" y=\"34\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">3</text><text x=\"64\" y=\"60\" font-size=\"10\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">y = −(x + 3)</text><text x=\"172\" y=\"96\" font-size=\"10\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">y = x + 3</text><text x=\"262\" y=\"124\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">x</text><text x=\"204\" y=\"14\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">y</text></svg>\n<figcaption>The graph of $y=\\lvert x+3\\rvert$ is a V with its corner at $(-3,0)$.</figcaption>\n</figure>\n\nSplit the integral at the corner: <mark>Area $=\\displaystyle\\int_{-6}^{-3}-(x+3)\\,dx+\\int_{-3}^{0}(x+3)\\,dx$</mark>\n\n$=-\\left[\\dfrac{x^2}{2}+3x\\right]_{-6}^{-3}+\\left[\\dfrac{x^2}{2}+3x\\right]_{-3}^{0}=-\\left(-\\dfrac92-0\\right)+\\left(0+\\dfrac92\\right)=\\dfrac92+\\dfrac92$\n\n$$\\boxed{9\\ \\text{sq. units}}$$\n\n:::tip Your answer must contain\n- the sketch, with $-6$, $-3$ and 0 marked\n- two integrals\n- 'sq. units'\n:::\n\n**Marks are lost for:** integrating $x+3$ from $-6$ to 0 in one go, which gives 0.",
+  "scheme": [
+   {
+    "step": "Correct V-shaped graph with the region shaded",
+    "marks": 1
+   },
+   {
+    "step": "Integral split at $x=-3$ with the correct expressions",
+    "marks": 1
+   },
+   {
+    "step": "Integration and area 9 sq. units",
+    "marks": 1
+   }
+  ],
+  "topic": "Area under a curve",
+  "hint": "The modulus changes sign at $x=-3$: two integrals.",
+  "source_note": "CBSE Class 12 Mathematics board paper 2025 (set 65/1/1), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
+ },
+ {
+  "id": "maths-pyq26-10",
+  "chapter": "ch-08",
+  "type": "mcq",
+  "marks": 1,
+  "stars": 3,
+  "label": "PYQ (2026)",
+  "stem": "The area bounded by the curve $y=x\\lvert x\\rvert$, the $x$-axis and the lines $x=-1$ and $x=1$ is",
+  "options": [
+   "$0$",
+   "$\\dfrac13$",
+   "$\\dfrac23$",
+   "$\\dfrac43$"
+  ],
+  "answer": "C",
+  "model_answer": "**(c).** $y=x^2$ for $x\\ge0$ and $y=-x^2$ for $x<0$. The two parts have equal area, so area $=2\\displaystyle\\int_0^1x^2\\,dx=\\dfrac23$. (The integral itself is 0, but area is never negative.)",
+  "topic": "Area under a curve",
+  "hint": "Area below the axis is counted with its modulus.",
+  "source_note": "CBSE Class 12 Mathematics board paper 2026 (set 65/1/1), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
+ },
+ {
+  "id": "maths-pyq26-38",
+  "chapter": "ch-08",
+  "type": "case",
+  "marks": 4,
+  "stars": 3,
+  "label": "PYQ (2026)",
+  "stem": "**Roundabout.** The boundary of a roundabout is the circle $C_1:\\ x^2+y^2=64$. At its centre is a circular pond with a fountain, with boundary $C_2:\\ x^2+y^2=4$.",
+  "parts": [
+   {
+    "id": "i",
+    "stem": "Show $C_1$ and $C_2$ in a diagram.",
+    "marks": 1,
+    "model_answer": "Two concentric circles with centre at the origin: $C_1$ of radius 8 and $C_2$ of radius 2.\n\n<figure class=\"fig\">\n<svg viewBox=\"0 0 230 216\" role=\"img\" aria-label=\"Two concentric circles of radius 8 and 2 centred at the origin\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.4\"><path d=\"M10,108 H222 M115,6 V212\" stroke-width=\"1\"/><circle cx=\"115\" cy=\"108\" r=\"96\"/><circle cx=\"115\" cy=\"108\" r=\"24\" fill=\"#E0B400\" fill-opacity=\"0.3\"/><text x=\"215\" y=\"122\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">8</text><text x=\"143\" y=\"122\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">2</text><text x=\"108\" y=\"122\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">O</text><text x=\"150\" y=\"64\" font-size=\"10\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">C₁: x² + y² = 64</text><text x=\"115\" y=\"96\" font-size=\"10\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">C₂</text><text x=\"224\" y=\"104\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">x</text><text x=\"121\" y=\"12\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">y</text></svg>\n<figcaption>Roundabout $C_1$ (radius 8) with the pond $C_2$ (radius 2) at its centre.</figcaption>\n</figure>",
+    "scheme": [
+     {
+      "step": "Concentric circles, centre $O$, radii 8 and 2 marked",
+      "marks": 1
+     }
+    ]
+   },
+   {
+    "id": "ii",
+    "stem": "Express $y$ as a function of $x$ for $C_1$ and for $C_2$.",
+    "marks": 1,
+    "model_answer": "$C_1$: $y=\\pm\\sqrt{64-x^2}$; $\\ C_2$: $y=\\pm\\sqrt{4-x^2}$ (+ for the upper half, − for the lower half).",
+    "scheme": [
+     {
+      "step": "$y=\\pm\\sqrt{64-x^2}$ and $y=\\pm\\sqrt{4-x^2}$",
+      "marks": 1
+     }
+    ]
+   },
+   {
+    "id": "iii",
+    "stem": "Using integration, find the area of the region covered by the roundabout.<br>**OR** Using integration, find the area of the region covered by the circular pond.",
+    "marks": 2,
+    "model_answer": "By symmetry, area $=4\\displaystyle\\int_0^8\\sqrt{64-x^2}\\,dx=4\\left[\\dfrac x2\\sqrt{64-x^2}+\\dfrac{64}{2}\\sin^{-1}\\dfrac x8\\right]_0^8=4\\times32\\times\\dfrac\\pi2$ <mark>$=64\\pi$ sq. units</mark>.<br>**OR:** area $=4\\displaystyle\\int_0^2\\sqrt{4-x^2}\\,dx=4\\left[\\dfrac x2\\sqrt{4-x^2}+2\\sin^{-1}\\dfrac x2\\right]_0^2=4\\times2\\times\\dfrac\\pi2=4\\pi$ sq. units.",
+    "scheme": [
+     {
+      "step": "Area $=4\\displaystyle\\int_0^a\\sqrt{a^2-x^2}\\,dx$ with the correct limits",
+      "marks": 1
+     },
+     {
+      "step": "Integrated and evaluated: $64\\pi$ sq. units (OR: $4\\pi$ sq. units)",
+      "marks": 1
+     }
+    ]
+   }
+  ],
+  "topic": "Area of a circle",
+  "hint": "First quadrant × 4, with $\\int\\sqrt{a^2-x^2}\\,dx$.",
+  "source_note": "CBSE Class 12 Mathematics board paper 2026 (set 65/1/1), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
  }
 ]

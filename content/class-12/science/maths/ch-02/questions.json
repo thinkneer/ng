@@ -295,5 +295,114 @@
   ],
   "topic": "Principal values in a real situation",
   "hint": "$\\theta=\\tan^{-1}\\dfrac{10}{x}$ means $\\tan\\theta=\\dfrac{10}{x}$ with $\\theta$ in the first quadrant."
+ },
+ {
+  "id": "maths-pyq25-18",
+  "chapter": "ch-02",
+  "type": "mcq",
+  "marks": 1,
+  "stars": 2,
+  "label": "PYQ (2025)",
+  "stem": "The graph of $y=\\cos x$ is drawn for $-\\dfrac\\pi2\\le x\\le\\pi$. Which description fits the graph of its inverse, $y=\\cos^{-1}x$ (principal branch)?",
+  "options": [
+   "A curve rising from $\\left(-\\dfrac\\pi2,-1\\right)$ through the origin to $\\left(\\dfrac\\pi2,1\\right)$",
+   "A curve rising from $\\left(-1,-\\dfrac\\pi2\\right)$ through the origin to $\\left(1,\\dfrac\\pi2\\right)$",
+   "A curve falling from $(-1,\\pi)$ through $\\left(0,\\dfrac\\pi2\\right)$ to $(1,0)$",
+   "A curve falling from $(-\\pi,1)$ through $\\left(-\\dfrac\\pi2,0\\right)$ to $(0,-1)$"
+  ],
+  "answer": "C",
+  "model_answer": "**(c).** $\\cos^{-1}x$ has domain $[-1,1]$ and range $[0,\\pi]$, and it decreases: $\\cos^{-1}(-1)=\\pi$, $\\cos^{-1}0=\\dfrac\\pi2$, $\\cos^{-1}1=0$. Option (B) describes $\\sin^{-1}x$.",
+  "topic": "Graphs of inverse trigonometric functions",
+  "hint": "Use three values: at $-1$, 0 and 1.",
+  "source_note": "CBSE Class 12 Mathematics board paper 2025 (set 65/1/1), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers. Adapted: the question and all four options were graphs in the paper; they are described in words here."
+ },
+ {
+  "id": "maths-pyq25-22",
+  "chapter": "ch-02",
+  "type": "vsa2",
+  "marks": 2,
+  "stars": 3,
+  "label": "PYQ (2025)",
+  "stem": "Evaluate $\\tan^{-1}\\left[2\\sin\\left(2\\cos^{-1}\\dfrac{\\sqrt3}{2}\\right)\\right]$.",
+  "model_answer": "*How much to write: about 5 lines · 3 minutes.*\n\n$\\cos^{-1}\\dfrac{\\sqrt3}{2}=\\dfrac\\pi6$, so the bracket is $2\\sin\\left(2\\times\\dfrac\\pi6\\right)=2\\sin\\dfrac\\pi3=2\\times\\dfrac{\\sqrt3}{2}=\\sqrt3$\n\n<mark>$\\tan^{-1}\\sqrt3=\\dfrac\\pi3$</mark>, which lies in $\\left(-\\dfrac\\pi2,\\dfrac\\pi2\\right)$.\n\n$$\\boxed{\\dfrac\\pi3}$$\n\n:::tip Your answer must contain\n- work from the inside out, one line per layer\n- the principal value at each stage\n:::\n\n**Marks are lost for:** arithmetic inside the bracket: $2\\sin\\dfrac\\pi3$ is $\\sqrt3$, not $\\dfrac{\\sqrt3}{2}$.",
+  "scheme": [
+   {
+    "step": "$\\cos^{-1}\\dfrac{\\sqrt3}{2}=\\dfrac\\pi6$ and the bracket $=\\sqrt3$",
+    "marks": 1
+   },
+   {
+    "step": "$\\tan^{-1}\\sqrt3=\\dfrac\\pi3$",
+    "marks": 1
+   }
+  ],
+  "topic": "Principal values",
+  "hint": "Innermost first: $\\cos^{-1}$, then double, then sine.",
+  "source_note": "CBSE Class 12 Mathematics board paper 2025 (set 65/1/1), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers. Adapted: the copy supplied printed a different expression; this version was checked against a second published copy."
+ },
+ {
+  "id": "maths-pyq26-01",
+  "chapter": "ch-02",
+  "type": "mcq",
+  "marks": 1,
+  "stars": 2,
+  "label": "PYQ (2026)",
+  "stem": "Given that $y=2\\cos^{-1}x$, which interval contains every possible value of $y$?",
+  "options": [
+   "$0\\le y\\le\\pi$",
+   "$-\\pi\\le y\\le\\pi$",
+   "$0\\le y\\le2\\pi$",
+   "$-\\pi\\le y\\le0$"
+  ],
+  "answer": "C",
+  "model_answer": "**(c).** The principal value of $\\cos^{-1}x$ lies in $[0,\\pi]$. Doubling it gives $0\\le y\\le2\\pi$.",
+  "topic": "Principal value branch",
+  "hint": "Start from the range of $\\cos^{-1}x$ and multiply by 2.",
+  "source_note": "CBSE Class 12 Mathematics board paper 2026 (set 65/1/1), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
+ },
+ {
+  "id": "maths-pyq26-25a",
+  "chapter": "ch-02",
+  "type": "vsa2",
+  "marks": 2,
+  "stars": 3,
+  "label": "PYQ (2026)",
+  "stem": "Simplify $\\tan^{-1}\\left(\\dfrac{\\cos2x-\\sin2x}{\\cos2x+\\sin2x}\\right)$, where $0<x<\\dfrac\\pi4$.",
+  "model_answer": "*How much to write: about 5 lines · 3 minutes.*\n\nDivide numerator and denominator by $\\cos2x$: $\\tan^{-1}\\left(\\dfrac{1-\\tan2x}{1+\\tan2x}\\right)$\n\n$=\\tan^{-1}\\left[\\tan\\left(\\dfrac\\pi4-2x\\right)\\right]$, using <u>$\\tan(A-B)$</u> with $A=\\dfrac\\pi4$\n\nFor $0<x<\\dfrac\\pi4$, <mark>$\\dfrac\\pi4-2x$ lies in $\\left(-\\dfrac\\pi4,\\dfrac\\pi4\\right)$</mark>, inside the principal branch, so the $\\tan^{-1}$ and $\\tan$ cancel.\n\n$$\\boxed{\\dfrac\\pi4-2x}$$\n\n:::tip Your answer must contain\n- division by $\\cos2x$\n- the check that $\\dfrac\\pi4-2x$ is in $\\left(-\\dfrac\\pi2,\\dfrac\\pi2\\right)$\n:::\n\n**Marks are lost for:** cancelling $\\tan^{-1}$ and $\\tan$ without mentioning the branch.",
+  "scheme": [
+   {
+    "step": "Reduced to $\\tan^{-1}\\left[\\tan\\left(\\dfrac\\pi4-2x\\right)\\right]$",
+    "marks": 1
+   },
+   {
+    "step": "Branch checked and answer $\\dfrac\\pi4-2x$",
+    "marks": 1
+   }
+  ],
+  "topic": "Simplest form",
+  "hint": "Divide top and bottom by $\\cos2x$ and look for $\\tan(A-B)$.",
+  "source_note": "CBSE Class 12 Mathematics board paper 2026 (set 65/1/1), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
+ },
+ {
+  "id": "maths-pyq26-25b",
+  "chapter": "ch-02",
+  "type": "vsa2",
+  "marks": 2,
+  "stars": 3,
+  "label": "PYQ (2026)",
+  "stem": "Evaluate $\\tan\\left[\\sin^{-1}1-\\cos^{-1}\\left(-\\dfrac12\\right)\\right]$.",
+  "model_answer": "*How much to write: about 5 lines · 3 minutes.*\n\n$\\sin^{-1}1=\\dfrac\\pi2$, and <mark>$\\cos^{-1}\\left(-\\dfrac12\\right)=\\pi-\\dfrac\\pi3=\\dfrac{2\\pi}{3}$</mark> (principal branch $[0,\\pi]$)\n\nExpression $=\\tan\\left(\\dfrac\\pi2-\\dfrac{2\\pi}{3}\\right)=\\tan\\left(-\\dfrac\\pi6\\right)=-\\tan\\dfrac\\pi6$\n\n$$\\boxed{-\\dfrac{1}{\\sqrt3}}$$\n\n:::tip Your answer must contain\n- $\\cos^{-1}(-x)=\\pi-\\cos^{-1}x$ used\n- the two principal values written separately\n:::\n\n**Marks are lost for:** writing $\\cos^{-1}\\left(-\\dfrac12\\right)=-\\dfrac\\pi3$.",
+  "scheme": [
+   {
+    "step": "$\\sin^{-1}1=\\dfrac\\pi2$ and $\\cos^{-1}\\left(-\\dfrac12\\right)=\\dfrac{2\\pi}{3}$",
+    "marks": 1
+   },
+   {
+    "step": "$\\tan\\left(-\\dfrac\\pi6\\right)=-\\dfrac1{\\sqrt3}$",
+    "marks": 1
+   }
+  ],
+  "topic": "Principal values",
+  "hint": "$\\cos^{-1}$ of a negative number is $\\pi$ minus the positive case.",
+  "source_note": "CBSE Class 12 Mathematics board paper 2026 (set 65/1/1), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers. Adapted: published copies differ on the outer function (tan or cot); tan is used here, as in two of the three copies checked. With cot the answer would be −√3."
  }
 ]

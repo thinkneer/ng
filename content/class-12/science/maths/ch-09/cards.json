@@ -26,7 +26,7 @@
     "id": "variable-separable",
     "kind": "formula",
     "title": "Variables separable",
-    "tex": "f(y)\\,dy=g(x)\\,dx\\ \\Rightarrow\\ \\int f(y)\\,dy=\\int g(x)\\,dx+C",
+    "tex": "\\begin{aligned}&f(y)\\,dy=g(x)\\,dx\\\\&\\Rightarrow\\int f(y)\\,dy=\\int g(x)\\,dx+C\\end{aligned}",
     "back": "Get all $y$ with $dy$ and all $x$ with $dx$, then integrate both sides. One $+C$ is enough.",
     "stars": 3
   },
@@ -78,7 +78,7 @@
     "id": "linear-in-x",
     "kind": "formula",
     "title": "Linear in x",
-    "tex": "\\dfrac{dx}{dy}+Px=Q:\\quad x\\cdot e^{\\int P\\,dy}=\\int Q\\,e^{\\int P\\,dy}\\,dy+C",
+    "tex": "\\begin{aligned}&\\dfrac{dx}{dy}+Px=Q:\\\\&x\\,e^{\\int P\\,dy}=\\int Q\\,e^{\\int P\\,dy}\\,dy+C\\end{aligned}",
     "legend": [
       "P, Q = functions of y only"
     ],
@@ -89,7 +89,7 @@
     "id": "ready-integrating-factors",
     "kind": "process",
     "title": "Integrating factors worth knowing",
-    "tex": "P=\\tfrac1x\\to x\\qquad P=\\cot x\\to\\sin x\\qquad P=\\tan x\\to\\sec x",
+    "tex": "\\begin{aligned}P=\\tfrac1x&\\ \\to\\ \\text{I.F.}=x\\\\P=\\cot x&\\ \\to\\ \\text{I.F.}=\\sin x\\\\P=\\tan x&\\ \\to\\ \\text{I.F.}=\\sec x\\end{aligned}",
     "back": "Also $P=\\dfrac2x\\to x^2$, $P=-\\dfrac1x\\to\\dfrac1x$, $P=\\dfrac{2x}{1+x^2}\\to1+x^2$.",
     "stars": 2
   },

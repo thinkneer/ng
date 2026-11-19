@@ -318,5 +318,257 @@
   ],
   "topic": "Optimisation",
   "hint": "After folding, the base is $(45-2x)$ by $(24-2x)$ and the height is $x$."
+ },
+ {
+  "id": "maths-pyq25-08",
+  "chapter": "ch-06",
+  "type": "mcq",
+  "marks": 1,
+  "stars": 3,
+  "label": "PYQ (2025)",
+  "stem": "The absolute maximum value of $f(x)=x^3-3x+2$ on $[0,2]$ is",
+  "options": [
+   "0",
+   "2",
+   "4",
+   "5"
+  ],
+  "answer": "C",
+  "model_answer": "**(c).** $f'(x)=3x^2-3=0$ gives $x=1$. $f(0)=2$, $f(1)=0$, $f(2)=4$. The absolute maximum is 4, at $x=2$.",
+  "topic": "Absolute maximum and minimum",
+  "hint": "Compare the critical point with both end points.",
+  "source_note": "CBSE Class 12 Mathematics board paper 2025 (set 65/1/1), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
+ },
+ {
+  "id": "maths-pyq25-24",
+  "chapter": "ch-06",
+  "type": "vsa2",
+  "marks": 2,
+  "stars": 3,
+  "label": "PYQ (2025)",
+  "stem": "Find the intervals in which $f(x)=5x^3-3x^5$ is (i) increasing, (ii) decreasing.",
+  "model_answer": "*How much to write: about 5 lines · 3 minutes.*\n\n$f'(x)=15x^2-15x^4=15x^2(1-x)(1+x)$. $f'(x)=0$ at $x=-1,\\ 0,\\ 1$.\n\n$15x^2\\ge0$ always, so the sign of $f'$ is the sign of $1-x^2$: <mark>positive for $-1<x<1$, negative for $x<-1$ and $x>1$</mark>.\n\n$$\\boxed{\\begin{aligned}&\\text{increasing on }[-1,1]\\\\&\\text{decreasing on }(-\\infty,-1]\\cup[1,\\infty)\\end{aligned}}$$\n\n:::tip Your answer must contain\n- $f'(x)$ fully factorised\n- a sign line or sign statement for each interval\n- both answers\n:::\n\n**Marks are lost for:** splitting at $x=0$: $f'$ does not change sign there.",
+  "scheme": [
+   {
+    "step": "$f'(x)=15x^2(1-x)(1+x)$ and its zeros",
+    "marks": 1
+   },
+   {
+    "step": "Increasing on $[-1,1]$; decreasing on $(-\\infty,-1]\\cup[1,\\infty)$",
+    "marks": 1
+   }
+  ],
+  "topic": "Increasing and decreasing functions",
+  "hint": "Factorise $f'$; $x^2$ never changes sign.",
+  "source_note": "CBSE Class 12 Mathematics board paper 2025 (set 65/1/1), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
+ },
+ {
+  "id": "maths-pyq25-26",
+  "chapter": "ch-06",
+  "type": "sa3",
+  "marks": 3,
+  "stars": 3,
+  "label": "PYQ (2025)",
+  "stem": "The side of an equilateral triangle is increasing at 3 cm/s. At what rate is its area increasing when the side is 15 cm?",
+  "model_answer": "*How much to write: about 9 lines · 5 minutes.*\n\n**Given:** $\\dfrac{da}{dt}=3$ cm/s, where $a$ is the side. **To find:** $\\dfrac{dA}{dt}$ at $a=15$ cm.\n\nArea of an equilateral triangle: $A=\\dfrac{\\sqrt3}{4}a^2$\n\n<mark>$\\dfrac{dA}{dt}=\\dfrac{\\sqrt3}{2}\\,a\\,\\dfrac{da}{dt}$</mark> $=\\dfrac{\\sqrt3}{2}\\times15\\times3$\n\n$$\\boxed{\\dfrac{dA}{dt}=\\dfrac{45\\sqrt3}{2}\\ \\text{cm}^2/\\text{s}}$$\n\n:::tip Your answer must contain\n- the area formula\n- differentiation with respect to $t$\n- the unit cm²/s\n:::\n\n**Marks are lost for:** substituting $a=15$ before differentiating; wrong or missing unit.",
+  "scheme": [
+   {
+    "step": "$A=\\dfrac{\\sqrt3}{4}a^2$",
+    "marks": 1
+   },
+   {
+    "step": "$\\dfrac{dA}{dt}=\\dfrac{\\sqrt3}{2}a\\dfrac{da}{dt}$",
+    "marks": 1
+   },
+   {
+    "step": "$\\dfrac{45\\sqrt3}{2}$ cm²/s",
+    "marks": 1
+   }
+  ],
+  "topic": "Rate of change",
+  "hint": "$A=\\dfrac{\\sqrt3}{4}a^2$; differentiate with respect to time.",
+  "source_note": "CBSE Class 12 Mathematics board paper 2025 (set 65/1/1), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
+ },
+ {
+  "id": "maths-pyq25-33",
+  "chapter": "ch-06",
+  "type": "la5",
+  "marks": 5,
+  "stars": 3,
+  "label": "PYQ (2025)",
+  "stem": "Find the absolute maximum and the absolute minimum values of $f(x)=2x^3-15x^2+36x+1$ on $[1,5]$.",
+  "model_answer": "*How much to write: about 15 lines · 9 minutes.*\n\n$f'(x)=6x^2-30x+36=6(x-2)(x-3)$\n\n$f'(x)=0$ at $x=2$ and $x=3$, both in $[1,5]$.\n\nValues at the critical points and the <u>end points</u>: $f(1)=24$, $f(2)=29$, $f(3)=28$, $f(5)=56$\n\n<mark>Largest value 56 at $x=5$; smallest value 24 at $x=1$.</mark>\n\n$$\\boxed{\\begin{aligned}&\\text{absolute maximum }56\\text{ at }x=5\\\\&\\text{absolute minimum }24\\text{ at }x=1\\end{aligned}}$$\n\n:::tip Your answer must contain\n- $f'(x)$ factorised\n- four values of $f$\n- the points where the extreme values occur\n:::\n\n**Marks are lost for:** leaving out the end points: here both extreme values are at the ends.",
+  "scheme": [
+   {
+    "step": "$f'(x)=6(x-2)(x-3)$",
+    "marks": 1
+   },
+   {
+    "step": "Critical points $x=2,3$",
+    "marks": 1
+   },
+   {
+    "step": "$f(1)=24$, $f(2)=29$, $f(3)=28$, $f(5)=56$",
+    "marks": 2
+   },
+   {
+    "step": "Absolute maximum 56 at $x=5$; absolute minimum 24 at $x=1$",
+    "marks": 1
+   }
+  ],
+  "topic": "Absolute maximum and minimum",
+  "hint": "Critical points and end points: four values to compare.",
+  "source_note": "CBSE Class 12 Mathematics board paper 2025 (set 65/1/1), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
+ },
+ {
+  "id": "maths-pyq25-36",
+  "chapter": "ch-06",
+  "type": "case",
+  "marks": 4,
+  "stars": 3,
+  "label": "PYQ (2025)",
+  "stem": "**Solar panel on a roof.** A company is laying out a rectangular solar-panel installation using 300 m of boundary material. A partition parallel to one pair of sides divides the rectangle into two sections; the partition uses the same material. Let $x$ metres be the side perpendicular to the partition and $y$ metres the side parallel to it.",
+  "parts": [
+   {
+    "id": "i",
+    "stem": "Write the equation connecting $x$ and $y$ for the total material used on the boundary and the partition.",
+    "marks": 1,
+    "model_answer": "Two sides of length $x$, two of length $y$, and the partition of length $y$: $2x+3y=300$.",
+    "scheme": [
+     {
+      "step": "$2x+3y=300$",
+      "marks": 1
+     }
+    ]
+   },
+   {
+    "id": "ii",
+    "stem": "Write the area of the installation as a function of $x$.",
+    "marks": 1,
+    "model_answer": "$y=\\dfrac{300-2x}{3}$, so $A(x)=xy=\\dfrac{x(300-2x)}{3}=100x-\\dfrac23x^2$.",
+    "scheme": [
+     {
+      "step": "$A(x)=\\dfrac13(300x-2x^2)$",
+      "marks": 1
+     }
+    ]
+   },
+   {
+    "id": "iii",
+    "stem": "Find the critical point of the area function and use the second derivative test to show that it gives the maximum area. Also find the maximum area.<br>**OR** Use the first derivative test to find the maximum area that can be enclosed with the 300 m of material, including the partition.",
+    "marks": 2,
+    "model_answer": "$A'(x)=100-\\dfrac43x=0\\Rightarrow x=75$. $A''(x)=-\\dfrac43<0$, so the area is maximum at $x=75$. Then $y=50$ and <mark>maximum area $=75\\times50=3750\\ \\text{m}^2$</mark>.<br>**OR:** $A'(x)=\\dfrac43(75-x)$ is positive for $x<75$ and negative for $x>75$: it changes sign from + to −, so $x=75$ gives a maximum. Maximum area $=3750\\ \\text{m}^2$.",
+    "scheme": [
+     {
+      "step": "$A'(x)=100-\\dfrac43x$ and critical point $x=75$",
+      "marks": 1
+     },
+     {
+      "step": "Test applied ($A''<0$, OR sign change + to −) and maximum area $3750\\ \\text{m}^2$",
+      "marks": 1
+     }
+    ]
+   }
+  ],
+  "topic": "Maxima and minima",
+  "hint": "Count the lengths: the partition adds one more $y$.",
+  "source_note": "CBSE Class 12 Mathematics board paper 2025 (set 65/1/1), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
+ },
+ {
+  "id": "maths-pyq26-07",
+  "chapter": "ch-06",
+  "type": "mcq",
+  "marks": 1,
+  "stars": 3,
+  "label": "PYQ (2026)",
+  "stem": "The least value of $f(x)=x^3-12x$ on the interval $[0,3]$ is",
+  "options": [
+   "$-16$",
+   "$-9$",
+   "$0$",
+   "$16$"
+  ],
+  "answer": "A",
+  "model_answer": "**(a).** $f'(x)=3x^2-12=0$ gives $x=2$ in $[0,3]$. $f(0)=0$, $f(2)=-16$, $f(3)=-9$. The least value is $-16$.",
+  "topic": "Absolute maximum and minimum",
+  "hint": "Compare $f$ at the critical point and at both end points.",
+  "source_note": "CBSE Class 12 Mathematics board paper 2026 (set 65/1/1), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
+ },
+ {
+  "id": "maths-pyq26-22",
+  "chapter": "ch-06",
+  "type": "vsa2",
+  "marks": 2,
+  "stars": 3,
+  "label": "PYQ (2026)",
+  "stem": "A room-freshener bottle is an inverted cone with semi-vertical angle $\\dfrac\\pi6$. Perfume is sprayed so that the volume in the bottle falls at a steady $1\\ \\text{mm}^3/\\text{min}$. How fast is the level of the perfume dropping when the level is 10 mm?",
+  "model_answer": "*How much to write: about 5 lines · 3 minutes.*\n\n**Given:** $\\dfrac{dV}{dt}=-1\\ \\text{mm}^3/\\text{min}$, semi-vertical angle $\\dfrac\\pi6$. **To find:** $\\dfrac{dh}{dt}$ at $h=10$ mm.\n\n$\\tan\\dfrac\\pi6=\\dfrac rh\\Rightarrow r=\\dfrac{h}{\\sqrt3}$, so <mark>$V=\\dfrac13\\pi r^2h=\\dfrac{\\pi h^3}{9}$</mark>\n\n$\\dfrac{dV}{dt}=\\dfrac{\\pi h^2}{3}\\dfrac{dh}{dt}\\Rightarrow-1=\\dfrac{100\\pi}{3}\\dfrac{dh}{dt}\\Rightarrow\\dfrac{dh}{dt}=-\\dfrac{3}{100\\pi}$\n\n$$\\boxed{\\text{the level drops at }\\dfrac{3}{100\\pi}\\ \\text{mm/min}}$$\n\n:::tip Your answer must contain\n- $V$ in terms of $h$ only\n- $\\dfrac{dV}{dt}$ taken <u>negative</u>\n- the unit mm/min\n:::\n\n**Marks are lost for:** differentiating before removing $r$; leaving out the unit.",
+  "scheme": [
+   {
+    "step": "$r=\\dfrac h{\\sqrt3}$ and $V=\\dfrac{\\pi h^3}{9}$",
+    "marks": 1
+   },
+   {
+    "step": "Differentiation, substitution and $\\dfrac{dh}{dt}=-\\dfrac{3}{100\\pi}$ mm/min",
+    "marks": 1
+   }
+  ],
+  "topic": "Rate of change",
+  "hint": "Use the semi-vertical angle to write $r$ in terms of $h$ before differentiating.",
+  "source_note": "CBSE Class 12 Mathematics board paper 2026 (set 65/1/1), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers. Adapted: published copies differ on the angle (π/6 or π/3); π/6 is used here, as in two of the three copies checked. With π/3 the same method gives 1/(300π) mm/min."
+ },
+ {
+  "id": "maths-pyq26-36",
+  "chapter": "ch-06",
+  "type": "case",
+  "marks": 4,
+  "stars": 3,
+  "label": "PYQ (2026)",
+  "stem": "**Subscription fee.** A delivery company has 5000 subscribers, each paying an annual fee of ₹300. It plans to raise the fee, and expects to lose 10 subscribers for every ₹1 of increase. Suppose the fee is raised by ₹$x$.",
+  "parts": [
+   {
+    "id": "i",
+    "stem": "How many subscribers leave after the increase of ₹$x$?",
+    "marks": 1,
+    "model_answer": "10 leave for each rupee, so $10x$ subscribers leave.",
+    "scheme": [
+     {
+      "step": "$10x$ subscribers",
+      "marks": 1
+     }
+    ]
+   },
+   {
+    "id": "ii",
+    "stem": "Write the total revenue $R(x)$ after the increase as a function of $x$.",
+    "marks": 1,
+    "model_answer": "Subscribers left: $5000-10x$; fee: $300+x$.<br>$R(x)=(5000-10x)(300+x)=1500000+2000x-10x^2$",
+    "scheme": [
+     {
+      "step": "$R(x)=(5000-10x)(300+x)$",
+      "marks": 1
+     }
+    ]
+   },
+   {
+    "id": "iii",
+    "stem": "Find the value of $x$ for which $R(x)$ is maximum.<br>**OR** Find the sub-intervals of $(0,5000)$ in which $R(x)$ is increasing and decreasing.",
+    "marks": 2,
+    "model_answer": "$R'(x)=2000-20x=0\\Rightarrow x=100$. $R''(x)=-20<0$, so <mark>$R$ is maximum at $x=100$</mark> (fee ₹400, revenue ₹16,00,000).<br>**OR:** $R'(x)=20(100-x)$. $R'(x)>0$ for $x<100$ and $R'(x)<0$ for $x>100$: $R$ is increasing on $(0,100)$ and decreasing on $(100,5000)$.",
+    "scheme": [
+     {
+      "step": "$R'(x)=2000-20x$ and critical point $x=100$",
+      "marks": 1
+     },
+     {
+      "step": "$R''(x)<0$, maximum at $x=100$ (OR: increasing on $(0,100)$, decreasing on $(100,5000)$)",
+      "marks": 1
+     }
+    ]
+   }
+  ],
+  "topic": "Maxima and minima",
+  "hint": "Revenue = (number of subscribers) × (fee).",
+  "source_note": "CBSE Class 12 Mathematics board paper 2026 (set 65/1/1), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
  }
 ]

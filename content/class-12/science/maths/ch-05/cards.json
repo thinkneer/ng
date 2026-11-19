@@ -23,7 +23,7 @@
     "id": "differentiability-at-a-point",
     "kind": "formula",
     "title": "Differentiability at x = a",
-    "tex": "\\lim_{h\\to0^-}\\dfrac{f(a+h)-f(a)}{h}=\\lim_{h\\to0^+}\\dfrac{f(a+h)-f(a)}{h}",
+    "tex": "\\begin{aligned}&\\lim_{h\\to0^-}\\dfrac{f(a+h)-f(a)}{h}\\\\=&\\lim_{h\\to0^+}\\dfrac{f(a+h)-f(a)}{h}\\end{aligned}",
     "back": "LHD = RHD, both finite. Differentiable ⇒ continuous, but not the other way round.",
     "stars": 2
   },

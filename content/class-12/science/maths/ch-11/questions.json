@@ -339,5 +339,177 @@
   ],
   "topic": "Angle between two lines",
   "hint": "Read $(1,2,2)$ and $(2,3,6)$ from the denominators, then use $\\cos\\theta=\\dfrac{|\\vec b_1\\cdot\\vec b_2|}{|\\vec b_1||\\vec b_2|}$."
+ },
+ {
+  "id": "maths-pyq25-29a",
+  "chapter": "ch-11",
+  "type": "sa3",
+  "marks": 3,
+  "stars": 3,
+  "label": "PYQ (2025)",
+  "stem": "Verify that the lines $\\vec r=(1-\\lambda)\\hat i+(\\lambda-2)\\hat j+(3-2\\lambda)\\hat k$ and $\\vec r=(\\mu+1)\\hat i+(2\\mu-1)\\hat j-(2\\mu+1)\\hat k$ are skew. Hence find the shortest distance between them.",
+  "model_answer": "*How much to write: about 9 lines · 5 minutes.*\n\nIn standard form: $\\vec a_1=\\hat i-2\\hat j+3\\hat k$, $\\vec b_1=-\\hat i+\\hat j-2\\hat k$; $\\ \\vec a_2=\\hat i-\\hat j-\\hat k$, $\\vec b_2=\\hat i+2\\hat j-2\\hat k$. The direction ratios are not proportional, so the lines are not parallel.\n\n$\\vec a_2-\\vec a_1=\\hat j-4\\hat k$; $\\ \\vec b_1\\times\\vec b_2=\\begin{vmatrix}\\hat i&\\hat j&\\hat k\\\\-1&1&-2\\\\1&2&-2\\end{vmatrix}=2\\hat i-4\\hat j-3\\hat k$, of magnitude $\\sqrt{29}$\n\n<mark>$(\\vec a_2-\\vec a_1)\\cdot(\\vec b_1\\times\\vec b_2)=0-4+12=8\\ne0$</mark>, so the lines do not intersect either: they are <u>skew</u>.\n\nShortest distance $=\\left\\lvert\\dfrac{(\\vec a_2-\\vec a_1)\\cdot(\\vec b_1\\times\\vec b_2)}{\\lvert\\vec b_1\\times\\vec b_2\\rvert}\\right\\rvert$\n\n$$\\boxed{\\dfrac{8}{\\sqrt{29}}\\ \\text{units}}$$\n\n:::tip Your answer must contain\n- both lines rewritten as $\\vec a+\\lambda\\vec b$\n- the two reasons for skew: not parallel, and non-zero product\n- units\n:::\n\n**Marks are lost for:** reading $\\vec b_1$ as $(1,-2,3)$: collect the $\\lambda$ terms first.",
+  "scheme": [
+   {
+    "step": "$\\vec a_1,\\vec b_1,\\vec a_2,\\vec b_2$ identified; not parallel",
+    "marks": 1
+   },
+   {
+    "step": "$\\vec b_1\\times\\vec b_2=2\\hat i-4\\hat j-3\\hat k$ and $\\vec a_2-\\vec a_1$",
+    "marks": 1
+   },
+   {
+    "step": "Product $8\\ne0$ (skew) and S.D. $=\\dfrac{8}{\\sqrt{29}}$",
+    "marks": 1
+   }
+  ],
+  "topic": "Shortest distance between skew lines",
+  "hint": "Separate the constant part and the $\\lambda$ part of each line.",
+  "source_note": "CBSE Class 12 Mathematics board paper 2025 (set 65/1/1), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
+ },
+ {
+  "id": "maths-pyq25-34a",
+  "chapter": "ch-11",
+  "type": "la5",
+  "marks": 5,
+  "stars": 3,
+  "label": "PYQ (2025)",
+  "stem": "Find the image $A'$ of the point $A(1,6,3)$ in the line $\\dfrac x1=\\dfrac{y-1}{2}=\\dfrac{z-2}{3}$. Also find the equation of the line joining $A$ and $A'$.",
+  "model_answer": "*How much to write: about 15 lines · 9 minutes.*\n\nLet $\\dfrac x1=\\dfrac{y-1}{2}=\\dfrac{z-2}{3}=\\lambda$. A general point on the line is $Q(\\lambda,\\ 1+2\\lambda,\\ 2+3\\lambda)$; let $Q$ be the foot of the perpendicular from $A$.\n\nDirection ratios of $AQ$: $\\lambda-1,\\ 2\\lambda-5,\\ 3\\lambda-1$\n\n$AQ\\perp$ line: <mark>$1(\\lambda-1)+2(2\\lambda-5)+3(3\\lambda-1)=0$</mark> $\\Rightarrow14\\lambda=14\\Rightarrow\\lambda=1$. So $Q=(1,3,5)$.\n\n$Q$ is the mid-point of $AA'$: $A'=2Q-A=(2-1,\\ 6-6,\\ 10-3)=(1,0,7)$\n\nLine $AA'$: direction ratios $0,-6,4$, that is $0,-3,2$; through $A(1,6,3)$.\n\n$$\\boxed{\\begin{aligned}&A'(1,0,7)\\\\&\\dfrac{x-1}{0}=\\dfrac{y-6}{-3}=\\dfrac{z-3}{2}\\end{aligned}}$$\n\n:::tip Your answer must contain\n- the general point\n- the perpendicularity equation\n- the mid-point step\n- the line through $A$ with the direction of $AA'$\n:::\n\n**Marks are lost for:** giving the foot $(1,3,5)$ as the image.",
+  "scheme": [
+   {
+    "step": "General point $Q$ on the line",
+    "marks": 1
+   },
+   {
+    "step": "Direction ratios of $AQ$",
+    "marks": 0.5
+   },
+   {
+    "step": "Perpendicularity and $\\lambda=1$; foot $(1,3,5)$",
+    "marks": 1.5
+   },
+   {
+    "step": "Image $A'(1,0,7)$",
+    "marks": 1
+   },
+   {
+    "step": "Equation of $AA'$",
+    "marks": 1
+   }
+  ],
+  "topic": "Image of a point in a line",
+  "hint": "Foot first (general point + perpendicular), then $A'=2Q-A$.",
+  "source_note": "CBSE Class 12 Mathematics board paper 2025 (set 65/1/1), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
+ },
+ {
+  "id": "maths-pyq25-34b",
+  "chapter": "ch-11",
+  "type": "la5",
+  "marks": 5,
+  "stars": 3,
+  "label": "PYQ (2025)",
+  "stem": "Find a point $P$ on the line $\\dfrac{x+5}{1}=\\dfrac{y+3}{4}=\\dfrac{z-6}{-9}$ whose distance from the point $Q(2,4,-1)$ is 7 units. Also find the equation of the line joining $P$ and $Q$.",
+  "model_answer": "*How much to write: about 15 lines · 9 minutes.*\n\nLet $\\dfrac{x+5}{1}=\\dfrac{y+3}{4}=\\dfrac{z-6}{-9}=\\lambda$. A general point is $P(\\lambda-5,\\ 4\\lambda-3,\\ 6-9\\lambda)$.\n\n$PQ=7\\Rightarrow(\\lambda-7)^2+(4\\lambda-7)^2+(7-9\\lambda)^2=49$\n\n$98\\lambda^2-196\\lambda+147=49\\Rightarrow98\\lambda^2-196\\lambda+98=0\\Rightarrow$ <mark>$(\\lambda-1)^2=0$</mark>, so $\\lambda=1$.\n\n$P=(-4,1,-3)$\n\nDirection ratios of $PQ$: $2+4,\\ 4-1,\\ -1+3$, that is $6,3,2$.\n\n$$\\boxed{\\begin{aligned}&P(-4,1,-3)\\\\&\\dfrac{x-2}{6}=\\dfrac{y-4}{3}=\\dfrac{z+1}{2}\\end{aligned}}$$\n\n:::tip Your answer must contain\n- the general point in $\\lambda$\n- the squared distance equation\n- the point $P$\n- the line with a point and direction ratios\n:::\n\n**Marks are lost for:** expanding $(7-9\\lambda)^2$ wrongly; forgetting to square the 7.",
+  "scheme": [
+   {
+    "step": "General point $P$",
+    "marks": 1
+   },
+   {
+    "step": "Distance condition written",
+    "marks": 1
+   },
+   {
+    "step": "Quadratic solved: $\\lambda=1$",
+    "marks": 1.5
+   },
+   {
+    "step": "$P(-4,1,-3)$",
+    "marks": 0.5
+   },
+   {
+    "step": "Equation of $PQ$",
+    "marks": 1
+   }
+  ],
+  "topic": "Points on a line at a given distance",
+  "hint": "General point, distance squared = 49, solve for $\\lambda$.",
+  "source_note": "CBSE Class 12 Mathematics board paper 2025 (set 65/1/1), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers. Adapted: the copy supplied printed the first two denominators as 4 and 2, which gives no rational point; 1 and 4 are from a second published copy."
+ },
+ {
+  "id": "maths-pyq26-16",
+  "chapter": "ch-11",
+  "type": "mcq",
+  "marks": 1,
+  "stars": 2,
+  "label": "PYQ (2026)",
+  "stem": "The length of the perpendicular drawn from the point $(2,5,7)$ to the line $\\dfrac x1=\\dfrac y0=\\dfrac z0$ is",
+  "options": [
+   "$2$",
+   "$5$",
+   "$\\sqrt{74}$",
+   "$\\sqrt{78}$"
+  ],
+  "answer": "C",
+  "model_answer": "**(c).** The line is the $x$-axis. The foot of the perpendicular is $(2,0,0)$, so the distance is $\\sqrt{5^2+7^2}=\\sqrt{74}$.",
+  "topic": "Distance of a point from an axis",
+  "hint": "Direction ratios $1,0,0$: which axis is this?",
+  "source_note": "CBSE Class 12 Mathematics board paper 2026 (set 65/1/1), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers. Adapted: the copy supplied printed the line with denominators 1, 2, 3, for which no option is correct; this version was checked against a second published copy."
+ },
+ {
+  "id": "maths-pyq26-20",
+  "chapter": "ch-11",
+  "type": "ar",
+  "marks": 1,
+  "stars": 3,
+  "label": "PYQ (2026)",
+  "stem": "**Assertion (A):** The lines $x=py+q,\\ z=ry+s$ and $x=p'y+q',\\ z=r'y+s'$ are perpendicular to each other when $pp'+rr'=1$.<br>**Reason (R):** Two lines $\\vec r=\\vec a_1+\\lambda\\vec b_1$ and $\\vec r=\\vec a_2+\\mu\\vec b_2$ are perpendicular if $\\vec b_1\\cdot\\vec b_2=0$.",
+  "options": [
+   "Both A and R are true, and R is the correct explanation of A.",
+   "Both A and R are true, but R is not the correct explanation of A.",
+   "A is true, but R is false.",
+   "A is false, but R is true."
+  ],
+  "answer": "D",
+  "model_answer": "**(d).** Writing the first line as $\\dfrac{x-q}{p}=\\dfrac y1=\\dfrac{z-s}{r}$, its direction ratios are $p,1,r$; the second has $p',1,r'$. Perpendicular means $pp'+1+rr'=0$, that is $pp'+rr'=-1$. A is false; R is true.",
+  "topic": "Angle between two lines",
+  "hint": "Put each line in standard form and read the direction ratios.",
+  "source_note": "CBSE Class 12 Mathematics board paper 2026 (set 65/1/1), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
+ },
+ {
+  "id": "maths-pyq26-35",
+  "chapter": "ch-11",
+  "type": "la5",
+  "marks": 5,
+  "stars": 3,
+  "label": "PYQ (2026)",
+  "stem": "Check whether the lines $\\dfrac{x-1}{2}=\\dfrac{y-2}{3}=\\dfrac{z-3}{4}$ and $\\dfrac{x-4}{5}=\\dfrac{y-1}{2}=\\dfrac z1$ are parallel. If they are, find the distance between them; if not, find their point of intersection, if they intersect.",
+  "model_answer": "*How much to write: about 15 lines · 9 minutes.*\n\nDirection ratios: $2,3,4$ and $5,2,1$. Since $\\dfrac25\\ne\\dfrac32$, the lines are <u>not parallel</u>.\n\nGeneral points: $(1+2\\lambda,\\ 2+3\\lambda,\\ 3+4\\lambda)$ on the first line and $(4+5\\mu,\\ 1+2\\mu,\\ \\mu)$ on the second.\n\nIf they meet: $1+2\\lambda=4+5\\mu$ and $2+3\\lambda=1+2\\mu$, that is $2\\lambda-5\\mu=3$ and $3\\lambda-2\\mu=-1$. Solving: $\\lambda=-1$, $\\mu=-1$.\n\nCheck the third coordinate: <mark>$3+4(-1)=-1$ and $\\mu=-1$</mark>. They agree, so the lines intersect.\n\nPutting $\\lambda=-1$: the point of intersection is $(-1,-1,-1)$.\n\n$$\\boxed{\\begin{aligned}&\\text{not parallel;}\\\\&\\text{they intersect at }(-1,-1,-1)\\end{aligned}}$$\n\n:::tip Your answer must contain\n- the comparison of direction ratios\n- two different parameters $\\lambda$ and $\\mu$\n- the check of the third equation\n- the point\n:::\n\n**Marks are lost for:** using the same parameter on both lines; skipping the third-coordinate check, which is the proof that they meet.",
+  "scheme": [
+   {
+    "step": "Not parallel, with reason",
+    "marks": 1
+   },
+   {
+    "step": "General points on both lines",
+    "marks": 1
+   },
+   {
+    "step": "$\\lambda=-1$, $\\mu=-1$ from two equations",
+    "marks": 1.5
+   },
+   {
+    "step": "Third coordinate verified",
+    "marks": 1
+   },
+   {
+    "step": "Point $(-1,-1,-1)$",
+    "marks": 0.5
+   }
+  ],
+  "topic": "Intersecting lines",
+  "hint": "Not proportional, so not parallel. Then equate general points.",
+  "source_note": "CBSE Class 12 Mathematics board paper 2026 (set 65/1/1), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
  }
 ]

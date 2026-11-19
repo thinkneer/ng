@@ -81,7 +81,7 @@
     "id": "inverse-from-polynomial",
     "kind": "formula",
     "title": "A⁻¹ from a matrix equation",
-    "tex": "A^2-pA+qI=O\\Rightarrow A^{-1}=\\dfrac1q(pI-A)",
+    "tex": "\\begin{aligned}&A^2-pA+qI=O\\\\&\\Rightarrow A^{-1}=\\dfrac1q(pI-A)\\end{aligned}",
     "back": "Multiply the equation by $A^{-1}$: $A-pI+qA^{-1}=O$. A favourite 3- and 5-mark ending.",
     "stars": 3,
     "tags": [

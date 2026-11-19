@@ -330,5 +330,234 @@
   ],
   "topic": "Continuity and differentiability of a piecewise function",
   "hint": "Differentiable at the joint means continuous there and LHD = RHD."
+ },
+ {
+  "id": "maths-pyq25-05",
+  "chapter": "ch-05",
+  "type": "mcq",
+  "marks": 1,
+  "stars": 3,
+  "label": "PYQ (2025)",
+  "stem": "For $f(x)=\\lvert x\\rvert+\\lvert x-1\\rvert$, which statement is correct?",
+  "options": [
+   "$f$ is both continuous and differentiable at $x=0$ and $x=1$.",
+   "$f$ is differentiable but not continuous at $x=0$ and $x=1$.",
+   "$f$ is continuous but not differentiable at $x=0$ and $x=1$.",
+   "$f$ is neither continuous nor differentiable at $x=0$ and $x=1$."
+  ],
+  "answer": "C",
+  "model_answer": "**(c).** A sum of modulus functions is continuous everywhere. The graph has corners at $x=0$ and $x=1$ (slope jumps $-2\\to0\\to2$), so $f$ is not differentiable there.",
+  "topic": "Continuity and differentiability",
+  "hint": "Modulus functions are continuous; look for corners.",
+  "source_note": "CBSE Class 12 Mathematics board paper 2025 (set 65/1/1), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
+ },
+ {
+  "id": "maths-pyq25-20",
+  "chapter": "ch-05",
+  "type": "ar",
+  "marks": 1,
+  "stars": 3,
+  "label": "PYQ (2025)",
+  "stem": "**Assertion (A):** The function $f(x)=\\begin{cases}3x-8,&x\\le5\\\\2k,&x>5\\end{cases}$ is continuous at $x=5$ for $k=\\dfrac52$.<br>**Reason (R):** For a function $f$ to be continuous at $x=a$, $\\lim\\limits_{x\\to a^-}f(x)=\\lim\\limits_{x\\to a^+}f(x)=f(a)$.",
+  "options": [
+   "Both A and R are true, and R is the correct explanation of A.",
+   "Both A and R are true, but R is not the correct explanation of A.",
+   "A is true, but R is false.",
+   "A is false, but R is true."
+  ],
+  "answer": "D",
+  "model_answer": "**(d).** LHL $=f(5)=15-8=7$ and RHL $=2k$. Continuity needs $2k=7$, that is $k=\\dfrac72$, not $\\dfrac52$. A is false; R is true.",
+  "topic": "Continuity at a point",
+  "hint": "Equate the two one-sided limits and solve for $k$.",
+  "source_note": "CBSE Class 12 Mathematics board paper 2025 (set 65/1/1), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers. Adapted: the copy supplied printed k = 7/2 in the Assertion; 5/2, with answer (D), is from a second published copy."
+ },
+ {
+  "id": "maths-pyq25-21a",
+  "chapter": "ch-05",
+  "type": "vsa2",
+  "marks": 2,
+  "stars": 2,
+  "label": "PYQ (2025)",
+  "stem": "Differentiate $2^{\\cos^2x}$ with respect to $\\cos^2x$.",
+  "model_answer": "*How much to write: about 5 lines · 3 minutes.*\n\nLet $u=2^{\\cos^2x}$ and $v=\\cos^2x$, so that <mark>$u=2^{v}$</mark>.\n\n$\\dfrac{du}{dv}=2^{v}\\log2=2^{\\cos^2x}\\log2$\n\n(Longer route: $\\dfrac{du}{dx}=2^{\\cos^2x}\\log2\\cdot(-\\sin2x)$ and $\\dfrac{dv}{dx}=-\\sin2x$; dividing gives the same result.)\n\n$$\\boxed{2^{\\cos^2x}\\log2}$$\n\n:::tip Your answer must contain\n- both functions named ($u$ and $v$)\n- $\\dfrac{d}{dv}a^v=a^v\\log a$\n:::\n\n**Marks are lost for:** differentiating with respect to $x$ and stopping there.",
+  "scheme": [
+   {
+    "step": "$u=2^v$ with $v=\\cos^2x$ (or $\\dfrac{du}{dx}$ and $\\dfrac{dv}{dx}$ found)",
+    "marks": 1
+   },
+   {
+    "step": "$\\dfrac{du}{dv}=2^{\\cos^2x}\\log2$",
+    "marks": 1
+   }
+  ],
+  "topic": "Derivative of one function with respect to another",
+  "hint": "Call $\\cos^2x$ a single letter.",
+  "source_note": "CBSE Class 12 Mathematics board paper 2025 (set 65/1/1), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
+ },
+ {
+  "id": "maths-pyq25-21b",
+  "chapter": "ch-05",
+  "type": "vsa2",
+  "marks": 2,
+  "stars": 2,
+  "label": "PYQ (2025)",
+  "stem": "If $\\tan^{-1}(x^2+y^2)=a^2$, find $\\dfrac{dy}{dx}$.",
+  "model_answer": "*How much to write: about 5 lines · 3 minutes.*\n\nTake $\\tan$ of both sides: <mark>$x^2+y^2=\\tan(a^2)$, a constant</mark>.\n\nDifferentiate with respect to $x$: $2x+2y\\dfrac{dy}{dx}=0$\n\n$$\\boxed{\\dfrac{dy}{dx}=-\\dfrac xy}$$\n\n:::tip Your answer must contain\n- the remark that $\\tan(a^2)$ is a constant\n- $2y\\dfrac{dy}{dx}$ for the $y^2$ term\n:::\n\n**Marks are lost for:** treating $a$ as a variable.",
+  "scheme": [
+   {
+    "step": "$x^2+y^2=\\tan a^2$ (constant), or the chain rule applied correctly",
+    "marks": 1
+   },
+   {
+    "step": "$\\dfrac{dy}{dx}=-\\dfrac xy$",
+    "marks": 1
+   }
+  ],
+  "topic": "Implicit differentiation",
+  "hint": "The right-hand side is a constant, so $x^2+y^2$ is a constant.",
+  "source_note": "CBSE Class 12 Mathematics board paper 2025 (set 65/1/1), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
+ },
+ {
+  "id": "maths-pyq25-32a",
+  "chapter": "ch-05",
+  "type": "la5",
+  "marks": 5,
+  "stars": 3,
+  "label": "PYQ (2025)",
+  "stem": "If $\\sqrt{1-x^2}+\\sqrt{1-y^2}=a(x-y)$, prove that $\\dfrac{dy}{dx}=\\sqrt{\\dfrac{1-y^2}{1-x^2}}$.",
+  "model_answer": "*How much to write: about 15 lines · 9 minutes.*\n\nPut $x=\\sin A$ and $y=\\sin B$. Then $\\cos A+\\cos B=a(\\sin A-\\sin B)$.\n\n$2\\cos\\dfrac{A+B}{2}\\cos\\dfrac{A-B}{2}=2a\\cos\\dfrac{A+B}{2}\\sin\\dfrac{A-B}{2}$\n\n<mark>$\\cot\\dfrac{A-B}{2}=a\\Rightarrow A-B=2\\cot^{-1}a$</mark>\n\nSo $\\sin^{-1}x-\\sin^{-1}y=2\\cot^{-1}a$, a constant. Differentiate with respect to $x$: $\\dfrac{1}{\\sqrt{1-x^2}}-\\dfrac{1}{\\sqrt{1-y^2}}\\dfrac{dy}{dx}=0$\n\n$\\dfrac{dy}{dx}=\\dfrac{\\sqrt{1-y^2}}{\\sqrt{1-x^2}}=\\sqrt{\\dfrac{1-y^2}{1-x^2}}$. **Hence proved.**\n\n:::tip Your answer must contain\n- the substitution\n- both sum-to-product formulas\n- the word 'constant'\n- 'Hence proved'\n:::\n\n**Marks are lost for:** differentiating the square roots directly: possible, but long and error-prone.",
+  "scheme": [
+   {
+    "step": "Substitution $x=\\sin A$, $y=\\sin B$",
+    "marks": 1
+   },
+   {
+    "step": "Sum-to-product formulas on both sides",
+    "marks": 1.5
+   },
+   {
+    "step": "$A-B=2\\cot^{-1}a$, so $\\sin^{-1}x-\\sin^{-1}y=$ constant",
+    "marks": 1
+   },
+   {
+    "step": "Differentiation",
+    "marks": 1
+   },
+   {
+    "step": "Result",
+    "marks": 0.5
+   }
+  ],
+  "topic": "Differentiation using substitution",
+  "hint": "$\\sqrt{1-x^2}$ suggests $x=\\sin A$.",
+  "source_note": "CBSE Class 12 Mathematics board paper 2025 (set 65/1/1), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
+ },
+ {
+  "id": "maths-pyq25-32b",
+  "chapter": "ch-05",
+  "type": "la5",
+  "marks": 5,
+  "stars": 3,
+  "label": "PYQ (2025)",
+  "stem": "If $x=a\\left(\\cos\\theta+\\log\\tan\\dfrac\\theta2\\right)$ and $y=\\sin\\theta$, find $\\dfrac{d^2y}{dx^2}$ at $\\theta=\\dfrac\\pi4$.",
+  "model_answer": "*How much to write: about 15 lines · 9 minutes.*\n\n$\\dfrac{dx}{d\\theta}=a\\left(-\\sin\\theta+\\dfrac{\\sec^2\\frac\\theta2}{2\\tan\\frac\\theta2}\\right)=a\\left(-\\sin\\theta+\\dfrac{1}{\\sin\\theta}\\right)=\\dfrac{a\\cos^2\\theta}{\\sin\\theta}$\n\n$\\dfrac{dy}{d\\theta}=\\cos\\theta$, so $\\dfrac{dy}{dx}=\\cos\\theta\\times\\dfrac{\\sin\\theta}{a\\cos^2\\theta}=\\dfrac{\\tan\\theta}{a}$\n\n<mark>$\\dfrac{d^2y}{dx^2}=\\dfrac{d}{d\\theta}\\left(\\dfrac{\\tan\\theta}{a}\\right)\\times\\dfrac{d\\theta}{dx}$</mark> $=\\dfrac{\\sec^2\\theta}{a}\\times\\dfrac{\\sin\\theta}{a\\cos^2\\theta}=\\dfrac{\\sin\\theta}{a^2\\cos^4\\theta}$\n\nAt $\\theta=\\dfrac\\pi4$: $\\dfrac{1/\\sqrt2}{a^2\\cdot\\frac14}=\\dfrac{4}{\\sqrt2\\,a^2}$\n\n$$\\boxed{\\dfrac{d^2y}{dx^2}=\\dfrac{2\\sqrt2}{a^2}}$$\n\n:::tip Your answer must contain\n- the simplification $\\dfrac{\\sec^2\\frac\\theta2}{2\\tan\\frac\\theta2}=\\dfrac{1}{\\sin\\theta}$\n- the factor $\\dfrac{d\\theta}{dx}$ in the second derivative\n- the value at $\\dfrac\\pi4$\n:::\n\n**Marks are lost for:** writing $\\dfrac{d^2y}{dx^2}=\\dfrac{d}{d\\theta}\\left(\\dfrac{dy}{dx}\\right)$ and forgetting to multiply by $\\dfrac{d\\theta}{dx}$.",
+  "scheme": [
+   {
+    "step": "$\\dfrac{dx}{d\\theta}=\\dfrac{a\\cos^2\\theta}{\\sin\\theta}$",
+    "marks": 1.5
+   },
+   {
+    "step": "$\\dfrac{dy}{dx}=\\dfrac{\\tan\\theta}{a}$",
+    "marks": 1
+   },
+   {
+    "step": "$\\dfrac{d^2y}{dx^2}=\\dfrac{\\sin\\theta}{a^2\\cos^4\\theta}$",
+    "marks": 1.5
+   },
+   {
+    "step": "Value $\\dfrac{2\\sqrt2}{a^2}$",
+    "marks": 1
+   }
+  ],
+  "topic": "Parametric differentiation",
+  "hint": "Second derivative: differentiate $\\dfrac{dy}{dx}$ with respect to $\\theta$, then multiply by $\\dfrac{d\\theta}{dx}$.",
+  "source_note": "CBSE Class 12 Mathematics board paper 2025 (set 65/1/1), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
+ },
+ {
+  "id": "maths-pyq26-21a",
+  "chapter": "ch-05",
+  "type": "vsa2",
+  "marks": 2,
+  "stars": 3,
+  "label": "PYQ (2026)",
+  "stem": "Is the function $f(x)=\\begin{cases}\\dfrac{\\lvert x-3\\rvert}{2(x-3)},&x<3\\\\[2mm]\\dfrac{x-6}{6},&x\\ge3\\end{cases}$ continuous at $x=3$? Justify.",
+  "model_answer": "*How much to write: about 5 lines · 3 minutes.*\n\n**LHL.** For $x<3$, $\\lvert x-3\\rvert=-(x-3)$, so $f(x)=\\dfrac{-(x-3)}{2(x-3)}=-\\dfrac12$. Hence $\\lim\\limits_{x\\to3^-}f(x)=-\\dfrac12$.\n\n**RHL and value.** $\\lim\\limits_{x\\to3^+}f(x)=\\dfrac{3-6}{6}=-\\dfrac12$ and $f(3)=-\\dfrac12$.\n\n<mark>LHL = RHL = $f(3)=-\\dfrac12$</mark>, so $f$ is <u>continuous</u> at $x=3$.\n\n:::tip Your answer must contain\n- the modulus opened for $x<3$\n- all three values, each $-\\dfrac12$\n- the word <u>continuous</u>\n:::\n\n**Marks are lost for:** taking $\\lvert x-3\\rvert=x-3$ on the left, which gives $+\\dfrac12$ and the wrong conclusion.",
+  "scheme": [
+   {
+    "step": "LHL $=-\\dfrac12$, using $\\lvert x-3\\rvert=-(x-3)$ for $x<3$",
+    "marks": 1
+   },
+   {
+    "step": "RHL $=f(3)=-\\dfrac12$ and the conclusion: continuous",
+    "marks": 1
+   }
+  ],
+  "topic": "Continuity at a point",
+  "hint": "Open the modulus on the left of 3.",
+  "source_note": "CBSE Class 12 Mathematics board paper 2026 (set 65/1/1), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
+ },
+ {
+  "id": "maths-pyq26-21b",
+  "chapter": "ch-05",
+  "type": "vsa2",
+  "marks": 2,
+  "stars": 2,
+  "label": "PYQ (2026)",
+  "stem": "If $\\sqrt3\\,(x^2+y^2)=4xy$, find $\\dfrac{dy}{dx}$ at the point $\\left(\\dfrac12,\\dfrac{\\sqrt3}{2}\\right)$.",
+  "model_answer": "*How much to write: about 5 lines · 3 minutes.*\n\nDifferentiate both sides with respect to $x$: $\\sqrt3\\left(2x+2y\\dfrac{dy}{dx}\\right)=4y+4x\\dfrac{dy}{dx}$\n\nCollect the $\\dfrac{dy}{dx}$ terms: <mark>$\\dfrac{dy}{dx}=\\dfrac{4y-2\\sqrt3\\,x}{2\\sqrt3\\,y-4x}=\\dfrac{2y-\\sqrt3\\,x}{\\sqrt3\\,y-2x}$</mark>\n\nAt $\\left(\\dfrac12,\\dfrac{\\sqrt3}{2}\\right)$: $\\dfrac{\\sqrt3-\\frac{\\sqrt3}{2}}{\\frac32-1}=\\dfrac{\\sqrt3/2}{1/2}$\n\n$$\\boxed{\\dfrac{dy}{dx}=\\sqrt3}$$\n\n:::tip Your answer must contain\n- $\\dfrac{dy}{dx}$ attached to every $y$ term, including the product $4xy$\n- the substitution shown\n:::\n\n**Marks are lost for:** differentiating $4xy$ as $4y$ only (product rule forgotten).",
+  "scheme": [
+   {
+    "step": "Implicit differentiation and $\\dfrac{dy}{dx}=\\dfrac{2y-\\sqrt3x}{\\sqrt3y-2x}$",
+    "marks": 1
+   },
+   {
+    "step": "Substitution and the value $\\sqrt3$",
+    "marks": 1
+   }
+  ],
+  "topic": "Implicit differentiation",
+  "hint": "Product rule on $4xy$; then collect the $\\dfrac{dy}{dx}$ terms.",
+  "source_note": "CBSE Class 12 Mathematics board paper 2026 (set 65/1/1), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers. Adapted: the copy supplied printed the constant as 3 and the point as (1/2, 3/2), which is not on that curve; this version was checked against a second published copy."
+ },
+ {
+  "id": "maths-pyq26-34",
+  "chapter": "ch-05",
+  "type": "la5",
+  "marks": 5,
+  "stars": 3,
+  "label": "PYQ (2026)",
+  "stem": "If $x=\\cos t$ and $y=\\cos mt$, prove that $(1-x^2)\\dfrac{d^2y}{dx^2}-x\\dfrac{dy}{dx}+m^2y=0$.",
+  "model_answer": "*How much to write: about 15 lines · 9 minutes.*\n\n$\\dfrac{dx}{dt}=-\\sin t$, $\\dfrac{dy}{dt}=-m\\sin mt$, so $y_1=\\dfrac{dy}{dx}=\\dfrac{m\\sin mt}{\\sin t}$\n\nCross-multiply and square: $y_1^2\\sin^2t=m^2\\sin^2mt$, that is <mark>$(1-x^2)\\,y_1^2=m^2(1-y^2)$</mark>\n\nDifferentiate with respect to $x$: $(1-x^2)\\,2y_1y_2-2x\\,y_1^2=-2m^2y\\,y_1$\n\nDivide by $2y_1$: $(1-x^2)y_2-xy_1=-m^2y$\n\n$(1-x^2)\\dfrac{d^2y}{dx^2}-x\\dfrac{dy}{dx}+m^2y=0$. **Hence proved.**\n\n:::tip Your answer must contain\n- both derivatives with respect to $t$\n- $\\sin^2t=1-x^2$ and $\\sin^2mt=1-y^2$\n- the second differentiation shown in full\n- 'Hence proved'\n:::\n\n**Marks are lost for:** differentiating the quotient directly and getting lost: squaring first is the clean route.",
+  "scheme": [
+   {
+    "step": "$\\dfrac{dy}{dx}=\\dfrac{m\\sin mt}{\\sin t}$",
+    "marks": 1.5
+   },
+   {
+    "step": "$(1-x^2)y_1^2=m^2(1-y^2)$",
+    "marks": 1.5
+   },
+   {
+    "step": "Differentiated again",
+    "marks": 1.5
+   },
+   {
+    "step": "Divided by $2y_1$ and result",
+    "marks": 0.5
+   }
+  ],
+  "topic": "Second-order derivatives",
+  "hint": "Get $y_1$, square it so that only $x$ and $y$ remain, then differentiate once more.",
+  "source_note": "CBSE Class 12 Mathematics board paper 2026 (set 65/1/1), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
  }
 ]
