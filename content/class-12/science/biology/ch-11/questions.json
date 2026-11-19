@@ -365,5 +365,56 @@
     ],
     "hint": "Fast at first then flattening; the logistic equation has K in it.",
     "model_answer": "*How much to write: one line each for (a) and (b), three lines for (c) · 6 minutes*\n\n**(a)** <mark>Exponential growth</mark>, $dN/dt = rN$: the population grows at a rate proportional to its size, with no limit.\n\n**(b)** <mark>Carrying capacity (K)</mark>: the maximum population size the environment can support.\n\n**(c)** $\\dfrac{dN}{dt}=rN\\dfrac{K-N}{K}$. The term $\\dfrac{K-N}{K}$ is the <u>fraction of resources still free</u>: growth slows as N nears K and is zero at N = K.\n\n:::tip Your answer must contain\n- (a) <u>exponential</u> growth; $dN/dt = rN$\n- (b) <mark>carrying capacity K</mark>\n- (c) the <u>logistic equation</u>; the term $(K-N)/K$ explained\n:::\n\n**Marks are lost for:** writing the logistic equation without K; saying growth is still exponential at the plateau."
+  },
+  {
+    "id": "bio-pyq25-10",
+    "chapter": "ch-11",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 3,
+    "label": "PYQ (2025)",
+    "topic": "Population growth",
+    "stem": "In a granary, a rat population had on average 280 births, 200 deaths, 40 immigrants and 50 emigrants. The net increase in the population is:",
+    "options": [
+      "80",
+      "70",
+      "10",
+      "90"
+    ],
+    "answer": "B",
+    "hint": "Add what comes in, subtract what goes out.",
+    "model_answer": "**(b).** Net increase = (B + I) − (D + E) = (280 + 40) − (200 + 50) = **70**.",
+    "source_note": "CBSE Class 12 Biology board paper 2025 (one set), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
+  },
+  {
+    "id": "bio-pyq25-33b",
+    "chapter": "ch-11",
+    "type": "la5",
+    "marks": 5,
+    "stars": 3,
+    "label": "PYQ (2025)",
+    "topic": "Population growth models",
+    "stem": "(i) Write the equation of the Verhulst–Pearl logistic growth curve, where N is the population density at time t and r is the intrinsic rate of natural increase. (ii) Draw the growth curve of a population whose density has reached the carrying capacity. (iii) Draw the growth curve of a population for which resources are not limiting. (iv) Which growth curve is more realistic, and why?",
+    "hint": "J-shaped vs S-shaped; K is the ceiling.",
+    "model_answer": "*How much to write: one equation, two labelled graphs, 3 lines · 9 minutes*\n\n**(i)**\n\n$$\\frac{dN}{dt}=rN\\left(\\frac{K-N}{K}\\right)$$\n\nK = carrying capacity.\n\n**(ii) and (iii)**\n\n<figure class=\"fig\">\n<svg viewBox=\"0 0 320 190\" role=\"img\" aria-label=\"Exponential J-shaped and logistic S-shaped growth curves\" fill=\"none\" stroke=\"currentColor\">\n<path stroke-width=\"1.4\" d=\"M40,16V160H306\"/>\n<path stroke-dasharray=\"4 3\" stroke-opacity=\"0.6\" d=\"M40,48H300\"/>\n<path stroke=\"#1F5FAD\" stroke-width=\"2.2\" d=\"M44,156C90,152,118,120,132,20\"/>\n<path stroke=\"#E0B400\" stroke-width=\"2.2\" d=\"M44,156C120,152,140,60,200,50C230,48,270,48,300,48\"/>\n<g fill=\"currentColor\" stroke=\"none\" font-size=\"10\"><text x=\"136\" y=\"180\">Time (t)</text><text x=\"6\" y=\"12\">N</text><text x=\"22\" y=\"52\">K</text><text x=\"138\" y=\"30\">(iii) exponential, J-shaped</text><text x=\"190\" y=\"70\">(ii) logistic, S-shaped</text></g>\n</svg>\n<figcaption>Unlimited resources give the J curve; limited resources level the S curve off at K.</figcaption>\n</figure>\n\n**(iv)** The <mark>logistic curve is more realistic</mark>: resources for most populations are <u>finite</u> and become limiting sooner or later, so growth slows as N approaches <u>K</u>.\n\n:::tip Your answer must contain\n- equation with <u>K</u> defined\n- S curve flattening at K; J curve with axes labelled\n- logistic is realistic because resources are finite\n:::\n\n**Marks are lost for:** unlabelled axes; drawing the S curve crossing K; forgetting to define K.",
+    "scheme": [
+      {
+        "step": "Logistic equation",
+        "marks": 1
+      },
+      {
+        "step": "S-shaped curve reaching K, labelled",
+        "marks": 1.5
+      },
+      {
+        "step": "J-shaped exponential curve, labelled",
+        "marks": 1.5
+      },
+      {
+        "step": "Logistic more realistic: resources finite",
+        "marks": 1
+      }
+    ],
+    "source_note": "CBSE Class 12 Biology board paper 2025 (one set), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
   }
 ]

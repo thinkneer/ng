@@ -327,5 +327,40 @@
     "answer": "B",
     "hint": "Does the year of the law explain the safety?",
     "model_answer": "**(b).** Both are true, but legalisation in 1971 is not the reason first-trimester MTP is safer."
+  },
+  {
+    "id": "bio-pyq25-22",
+    "chapter": "ch-03",
+    "type": "sa3",
+    "marks": 3,
+    "stars": 3,
+    "label": "PYQ (2025)",
+    "topic": "Contraception",
+    "stem": "A village health worker tells a group of women that oral pills must be used carefully, because wrong use can actually lead to conception. (a) Explain her statement and compare the merits and demerits of oral pills and surgical methods of birth control. (b) The women wonder how a thin copper loop can prevent pregnancy. Give two points on how IUDs act.",
+    "hint": "Pills: daily for 21 days. Surgery: reversibility. Copper ions act on sperms.",
+    "model_answer": "*How much to write: 8–9 lines or a small table · 6 minutes*\n\n**(a)** Pills must be taken <u>daily for 21 days</u>, starting within the first five days of the cycle, and restarted after a 7-day gap. <mark>Missed pills let ovulation occur</mark>, so conception becomes possible.\n\n| | Merits | Demerits |\n|---|---|---|\n| Oral pills | very effective, few side effects, <u>reversible</u> | must be taken every day; possible nausea, irregular bleeding |\n| Surgical methods | <u>highly effective</u>, one-time | needs surgery; <mark>reversibility very poor</mark> |\n\n**(b) IUDs:**\n1. increase <mark>phagocytosis of sperms</mark> within the uterus;\n2. the <u>Cu ions</u> released <mark>suppress sperm motility</mark> and the fertilising capacity of sperms.\n\n:::tip Your answer must contain\n- pills daily for <u>21 days</u>; missed pills → ovulation\n- one merit and one demerit of each method\n- <mark>phagocytosis of sperms</mark>; Cu ions suppress <u>motility</u>\n:::\n\n**Marks are lost for:** saying copper kills the ovum; forgetting that surgical methods are almost irreversible.",
+    "scheme": [
+      {
+        "step": "Why wrong use fails: pills must be taken daily for 21 days",
+        "marks": 0.5
+      },
+      {
+        "step": "Merits and demerits of pills",
+        "marks": 0.75
+      },
+      {
+        "step": "Merits and demerits of surgical methods",
+        "marks": 0.75
+      },
+      {
+        "step": "IUDs increase phagocytosis of sperms",
+        "marks": 0.5
+      },
+      {
+        "step": "Cu ions suppress sperm motility and fertilising capacity",
+        "marks": 0.5
+      }
+    ],
+    "source_note": "CBSE Class 12 Biology board paper 2025 (one set), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
   }
 ]

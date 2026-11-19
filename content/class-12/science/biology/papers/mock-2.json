@@ -1,0 +1,149 @@
+{
+  "$schema": "../../../../../schemas/paper.schema.json",
+  "id": "mock-2",
+  "title": "Mock paper 2 · full syllabus",
+  "label": "SQP-style",
+  "sections": [
+    {
+      "id": "A",
+      "name": "Section A",
+      "note": "Q1–12 MCQ, Q13–16 assertion–reason. 1 mark each.",
+      "questions": [
+        {
+          "ref": "ch-12/bio-12-q03"
+        },
+        {
+          "ref": "ch-10/bio-10-q03"
+        },
+        {
+          "ref": "ch-09/bio-09-q14"
+        },
+        {
+          "ref": "ch-09/bio-09-q01"
+        },
+        {
+          "ref": "ch-09/bio-09-q14"
+        },
+        {
+          "ref": "ch-08/bio-08-q01"
+        },
+        {
+          "ref": "ch-07/bio-07-q02"
+        },
+        {
+          "ref": "ch-05/bio-05-q02"
+        },
+        {
+          "ref": "ch-04/bio-04-q03"
+        },
+        {
+          "ref": "ch-03/bio-03-q01"
+        },
+        {
+          "ref": "ch-02/bio-02-q01"
+        },
+        {
+          "ref": "ch-02/bio-02-q01"
+        },
+        {
+          "ref": "ch-12/bio-12-q13"
+        },
+        {
+          "ref": "ch-10/bio-10-q04"
+        },
+        {
+          "ref": "ch-04/bio-04-q04"
+        },
+        {
+          "ref": "ch-02/bio-02-q15"
+        }
+      ]
+    },
+    {
+      "id": "B",
+      "name": "Section B",
+      "note": "Q17–21, 2 marks each.",
+      "questions": [
+        {
+          "ref": "ch-13/bio-13-q07"
+        },
+        {
+          "ref": "ch-08/bio-08-q13"
+        },
+        {
+          "ref": "ch-06/bio-06-q06"
+        },
+        {
+          "ref": "ch-03/bio-03-q06",
+          "or": "ch-01/bio-01-q06"
+        },
+        {
+          "ref": "ch-02/bio-02-q07",
+          "or": "ch-03/bio-03-q07"
+        }
+      ]
+    },
+    {
+      "id": "C",
+      "name": "Section C",
+      "note": "Q22–28, 3 marks each.",
+      "questions": [
+        {
+          "ref": "ch-13/bio-13-q08"
+        },
+        {
+          "ref": "ch-12/bio-w20261115-ch-12-01"
+        },
+        {
+          "ref": "ch-09/bio-09-q12"
+        },
+        {
+          "ref": "ch-08/bio-08-q12"
+        },
+        {
+          "ref": "ch-04/bio-04-q11"
+        },
+        {
+          "ref": "ch-05/bio-05-q08",
+          "or": "ch-06/bio-06-q12"
+        },
+        {
+          "ref": "ch-01/bio-01-q11",
+          "or": "ch-03/bio-03-q11"
+        }
+      ]
+    },
+    {
+      "id": "D",
+      "name": "Section D",
+      "note": "Q29–30, case-based, 4 marks each.",
+      "questions": [
+        {
+          "ref": "ch-10/bio-10-q09"
+        },
+        {
+          "ref": "ch-06/bio-06-q09"
+        }
+      ]
+    },
+    {
+      "id": "E",
+      "name": "Section E",
+      "note": "Q31–33, 5 marks each, with internal choice.",
+      "questions": [
+        {
+          "ref": "ch-07/bio-07-q14",
+          "or": "ch-08/bio-08-q15"
+        },
+        {
+          "ref": "ch-04/bio-04-q10",
+          "or": "ch-05/bio-05-q16"
+        },
+        {
+          "ref": "ch-03/bio-03-q10",
+          "or": "ch-01/bio-01-q10"
+        }
+      ]
+    }
+  ]
+}

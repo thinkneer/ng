@@ -389,5 +389,149 @@
     "answer": "A",
     "hint": "In what form is the toxin kept?",
     "model_answer": "**(a).** Both true; the inactive protoxin form is why the bacterium is safe."
+  },
+  {
+    "id": "bio-pyq25-09",
+    "chapter": "ch-10",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ (2025)",
+    "topic": "Transgenic crops",
+    "stem": "Which of these is **not** obtained from a transgenic **crop plant**?",
+    "options": [
+      "A pest-resistant crop variety",
+      "Grains with higher nutritional value",
+      "A drought-tolerant crop",
+      "Human insulin made by recombinant DNA technology"
+    ],
+    "answer": "D",
+    "hint": "Which product comes from bacteria?",
+    "model_answer": "**(d).** Human insulin is made in genetically engineered *E. coli*, not in a crop plant. The other three are benefits of GM crops.",
+    "source_note": "CBSE Class 12 Biology board paper 2025 (one set), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers. Adapted: the board item asked for 'not the product of transgenic experiments', which has no clean answer; this version makes (d) unambiguous."
+  },
+  {
+    "id": "bio-pyq25-12",
+    "chapter": "ch-10",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ (2025)",
+    "topic": "Biotechnology matches",
+    "stem": "Choose the correct match.",
+    "options": [
+      "Transgenic cow's milk: human beta-lactalbumin",
+      "ELISA: antigen–antibody interaction",
+      "Corn borer: *cryIIAb* gene",
+      "Cotton plant: *Meloidogyne incognita*"
+    ],
+    "answer": "B",
+    "hint": "Three of the four have one word swapped.",
+    "model_answer": "**(b).** ELISA works on antigen–antibody interaction. Rosie's milk had human **alpha**-lactalbumin; corn borer is controlled by ***cryIAb***; *Meloidogyne incognita* infects **tobacco** roots.",
+    "source_note": "CBSE Class 12 Biology board paper 2025 (one set), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
+  },
+  {
+    "id": "bio-pyq25-17a",
+    "chapter": "ch-10",
+    "type": "vsa2",
+    "marks": 2,
+    "stars": 3,
+    "label": "PYQ (2025)",
+    "topic": "Biopiracy",
+    "stem": "In 1997 an American company was granted a patent, through the US Patent and Trademark Office, on an Indian crop variety. Name the crop and justify why this is called biopiracy.",
+    "hint": "A famous aromatic rice.",
+    "model_answer": "*How much to write: 4 lines · 3 minutes*\n\n**Crop:** <mark>Basmati rice</mark>.\n\n**Why biopiracy:** the company's 'new' variety was actually <u>derived from Indian farmers' varieties</u> (Indian Basmati crossed with semi-dwarf varieties) and was <u>claimed as a novel invention</u>. Bio-resources and traditional knowledge of India were used <mark>without proper authorisation or compensatory payment</mark>.\n\n:::tip Your answer must contain\n- <mark>Basmati rice</mark>\n- derived from <u>Indian farmers' varieties</u>, claimed as new\n- use without authorisation or payment = biopiracy\n:::\n\n**Marks are lost for:** naming turmeric or neem (other patent cases); defining biopiracy without linking it to Basmati.",
+    "scheme": [
+      {
+        "step": "Basmati rice",
+        "marks": 0.5
+      },
+      {
+        "step": "Derived from Indian farmers' varieties but claimed as an invention",
+        "marks": 1
+      },
+      {
+        "step": "Bio-resource used without authorisation/compensation",
+        "marks": 0.5
+      }
+    ],
+    "source_note": "CBSE Class 12 Biology board paper 2025 (one set), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
+  },
+  {
+    "id": "bio-pyq25-17b",
+    "chapter": "ch-10",
+    "type": "vsa2",
+    "marks": 2,
+    "stars": 2,
+    "label": "PYQ (2025)",
+    "topic": "GEAC",
+    "stem": "State two purposes for which the Government of India set up the Genetic Engineering Approval Committee (GEAC).",
+    "hint": "One purpose is about research, the other about releasing GM organisms.",
+    "model_answer": "*How much to write: 2–3 lines · 2 minutes*\n\nGEAC takes decisions on:\n1. the <mark>validity of GM research</mark>;\n2. the <mark>safety of introducing GM organisms</mark> for <u>public services</u>.\n\n:::tip Your answer must contain\n- validity of <u>GM research</u>\n- <u>safety</u> of introducing GM organisms for public use\n:::\n\n**Marks are lost for:** writing only the full form; saying GEAC grants patents.",
+    "scheme": [
+      {
+        "step": "Decides validity of GM research",
+        "marks": 1
+      },
+      {
+        "step": "Decides safety of introducing GM organisms for public services",
+        "marks": 1
+      }
+    ],
+    "source_note": "CBSE Class 12 Biology board paper 2025 (one set), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
+  },
+  {
+    "id": "bio-pyq25-26",
+    "chapter": "ch-10",
+    "type": "sa3",
+    "marks": 3,
+    "stars": 3,
+    "label": "PYQ (2025)",
+    "topic": "Transgenic animals",
+    "stem": "(a) Why are transgenic animals so called? (b) With one example each, explain the role of transgenic animals in (i) vaccine safety and (ii) biological products.",
+    "hint": "Polio vaccine and mice; Rosie the cow.",
+    "model_answer": "*How much to write: 6–7 lines · 5 minutes*\n\n**(a)** Their DNA has been manipulated to <mark>possess and express an extra (foreign) gene</mark>.\n\n**(b)(i) Vaccine safety:** <u>transgenic mice</u> are being developed to test the safety of vaccines before they are used on humans, e.g. the <mark>polio vaccine</mark>; if reliable they could replace monkeys.\n\n**(ii) Biological products:** transgenic animals carry the gene for a useful product. Example: human protein <u>α-1-antitrypsin</u> to treat emphysema; <mark>Rosie</mark>, the first transgenic cow (1997), gave milk with <u>human alpha-lactalbumin</u> (2.4 g per litre).\n\n:::tip Your answer must contain\n- extra/foreign gene <u>expressed</u>\n- transgenic mice: <mark>polio vaccine</mark> safety\n- α-1-antitrypsin or Rosie's <u>alpha-lactalbumin</u>\n:::\n\n**Marks are lost for:** writing beta-lactalbumin; giving Bt cotton (a plant) as an example.",
+    "scheme": [
+      {
+        "step": "DNA manipulated to possess and express a foreign gene",
+        "marks": 1
+      },
+      {
+        "step": "Transgenic mice test polio vaccine safety",
+        "marks": 1
+      },
+      {
+        "step": "Biological product with example (α-1-antitrypsin / Rosie's milk)",
+        "marks": 1
+      }
+    ],
+    "source_note": "CBSE Class 12 Biology board paper 2025 (one set), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
+  },
+  {
+    "id": "bio-pyq25-27",
+    "chapter": "ch-10",
+    "type": "sa3",
+    "marks": 3,
+    "stars": 1,
+    "label": "PYQ (2025)",
+    "topic": "Tissue culture (not in boards 2026–27)",
+    "stem": "(a) Mention two advantages of micropropagation. (b) Briefly describe how it is done in the laboratory. (c) Name two food plants grown commercially by this method.",
+    "hint": "Explant, nutrient medium, somaclones.",
+    "model_answer": "*How much to write: 6 lines · 4 minutes · not in boards 2026–27*\n\n**(a)** <mark>Thousands of plants in a very short time</mark>; all are <u>genetically identical</u> to the parent (somaclones).\n\n**(b)** A small piece of plant, the <u>explant</u>, is grown under <u>sterile conditions</u> on a nutrient medium with a carbon source (sucrose), inorganic salts, vitamins, amino acids and growth regulators (auxins, cytokinins). It regenerates whole plants (<mark>totipotency</mark>), which are then moved to soil.\n\n**(c)** <u>Tomato, banana, apple</u> (any two).\n\n:::tip Your answer must contain\n- large numbers quickly; <u>somaclones</u>\n- explant + sterile nutrient medium + growth regulators\n- two of tomato, banana, apple\n:::\n\n**Marks are lost for:** confusing micropropagation with somatic hybridisation.",
+    "scheme": [
+      {
+        "step": "Two advantages",
+        "marks": 1
+      },
+      {
+        "step": "Explant on sterile nutrient medium regenerates whole plants",
+        "marks": 1
+      },
+      {
+        "step": "Two food plants (tomato, banana, apple)",
+        "marks": 1
+      }
+    ],
+    "source_note": "CBSE Class 12 Biology board paper 2025 (one set), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers. Topic from 'Strategies for Enhancement in Food Production', which is NOT in the 2026–27 board syllabus; kept only so the 2025 paper is complete."
   }
 ]

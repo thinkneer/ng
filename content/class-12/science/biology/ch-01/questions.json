@@ -387,5 +387,139 @@
     "answer": "A",
     "hint": "What causes segregation of characters?",
     "model_answer": "**(a).** Without meiosis and fertilisation there is no segregation, so the hybrid characters are kept: R explains A."
+  },
+  {
+    "id": "bio-pyq25-04",
+    "chapter": "ch-01",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 3,
+    "label": "PYQ (2025)",
+    "topic": "Artificial hybridisation",
+    "stem": "Put these steps of an artificial hybridisation programme in order: (i) rebagging, (ii) selecting the parents, (iii) bagging, (iv) dusting pollen on the stigma, (v) emasculation, (vi) collecting pollen from the male parent.",
+    "options": [
+      "(ii), (iii), (v), (vi), (iv), (i)",
+      "(ii), (v), (iii), (vi), (iv), (i)",
+      "(v), (ii), (iii), (vi), (i), (iv)",
+      "(ii), (iii), (vi), (iv), (v), (i)"
+    ],
+    "answer": "B",
+    "hint": "Emasculate before you bag; rebag last.",
+    "model_answer": "**(b).** Select parents → emasculate the bud → bag → collect pollen → dust it on the receptive stigma → rebag.",
+    "source_note": "CBSE Class 12 Biology board paper 2025 (one set), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
+  },
+  {
+    "id": "bio-pyq25-06",
+    "chapter": "ch-01",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ (2025)",
+    "topic": "Pistil types",
+    "stem": "The gynoecium of *Michelia* is:",
+    "options": [
+      "multicarpellary, apocarpous",
+      "bicarpellary, apocarpous",
+      "multicarpellary, syncarpous",
+      "bicarpellary, syncarpous"
+    ],
+    "answer": "A",
+    "hint": "Free or fused? *Papaver* is the fused example.",
+    "model_answer": "**(a).** *Michelia* has many free pistils: multicarpellary and apocarpous. (*Papaver* is multicarpellary, syncarpous.)",
+    "source_note": "CBSE Class 12 Biology board paper 2025 (one set), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
+  },
+  {
+    "id": "bio-pyq25-30",
+    "chapter": "ch-01",
+    "type": "case",
+    "marks": 4,
+    "stars": 3,
+    "label": "PYQ (2025)",
+    "topic": "Kinds of pollination",
+    "stem": "*Two drawings of pollination are given. In **Figure A**, pollen moves from the anther of one flower to the stigma of another flower on the same plant. In **Figure B**, pollen moves from the anther to the stigma within the same flower.*",
+    "hint": "Geitono- = neighbour; auto- = self. Think of flowers that never open.",
+    "parts": [
+      {
+        "id": "A",
+        "marks": 1,
+        "stem": "Give the scientific terms for the processes in Figures A and B.",
+        "model_answer": "A: geitonogamy. B: autogamy.",
+        "scheme": [
+          {
+            "step": "Geitonogamy",
+            "marks": 0.5
+          },
+          {
+            "step": "Autogamy",
+            "marks": 0.5
+          }
+        ]
+      },
+      {
+        "id": "B",
+        "marks": 2,
+        "stem": "Mention two conditions necessary for the process in Figure B.",
+        "model_answer": "Pollen release and stigma receptivity must be synchronised, and the anthers and stigma must lie close to each other.",
+        "scheme": [
+          {
+            "step": "Synchrony of pollen release and stigma receptivity",
+            "marks": 1
+          },
+          {
+            "step": "Anthers and stigma close together",
+            "marks": 1
+          }
+        ]
+      },
+      {
+        "id": "C",
+        "marks": 1,
+        "stem": "State one advantage and one disadvantage of the process in Figure B. **OR** Name one plant in which only some flowers always show the process in Figure B, and give the reason.",
+        "model_answer": "Advantage: assured seed set even without pollinators. Disadvantage: no variation; continued selfing causes inbreeding depression. **OR** *Viola* (or *Oxalis*, *Commelina*): its cleistogamous flowers never open, so anthers dehisce inside the bud and only self-pollen reaches the stigma.",
+        "scheme": [
+          {
+            "step": "One advantage and one disadvantage OR plant with cleistogamous flowers and reason",
+            "marks": 1
+          }
+        ]
+      }
+    ],
+    "model_answer": "*How much to write: one line for (a), two lines each for (b) and (c) · 6 minutes*\n\n**(a)** A: <mark>geitonogamy</mark>; B: <mark>autogamy</mark>.\n\n**(b)** <u>Synchrony</u> of pollen release and stigma receptivity; anthers and stigma <u>close to each other</u>.\n\n**(c)** Advantage: <u>assured seed set</u> without pollinators. Disadvantage: no new variation, <u>inbreeding depression</u>. **OR** <mark>*Viola*</mark> (common pansy), *Oxalis* or *Commelina*: their <u>cleistogamous</u> flowers never open, so only autogamy can occur.\n\n:::tip Your answer must contain\n- geitonogamy, autogamy in the right order\n- synchrony + closeness\n- assured seed set / inbreeding depression (or cleistogamy in *Viola*)\n:::\n\n**Marks are lost for:** calling Figure A xenogamy (that needs a different plant).",
+    "source_note": "CBSE Class 12 Biology board paper 2025 (one set), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
+  },
+  {
+    "id": "bio-pyq25-32b",
+    "chapter": "ch-01",
+    "type": "la5",
+    "marks": 5,
+    "stars": 3,
+    "label": "PYQ (2025)",
+    "topic": "Megasporogenesis and embryo sac",
+    "stem": "Drawings of an ovule show a large cell **P** in the micropylar region of the nucellus, and later a row of four cells **Q** formed from it. (i) Identify P and Q. (ii) What kind of division does P undergo to form Q? (iii) How many Q cells form the embryo sac, and what is this kind of development called? (iv) How many free-nuclear mitotic divisions does the functional megaspore undergo? (v) Describe the structure of the mature female gametophyte.",
+    "hint": "One mother cell, four spores, one survivor, three divisions, seven cells.",
+    "model_answer": "*How much to write: 10 lines + embryo-sac sketch · 9 minutes*\n\n**(i)** P: <mark>megaspore mother cell (MMC)</mark>; Q: <mark>megaspore tetrad</mark> (four megaspores).\n\n**(ii)** <u>Meiosis</u>.\n\n**(iii)** <u>One</u> megaspore is functional (three degenerate); this is <mark>monosporic development</mark>.\n\n**(iv)** <u>Three</u> free-nuclear mitotic divisions (2 → 4 → 8 nuclei).\n\n**(v)** The mature embryo sac is <mark>7-celled and 8-nucleate</mark>: at the micropylar end the <u>egg apparatus</u> (one egg cell + two synergids with filiform apparatus); at the chalazal end three <u>antipodals</u>; in the middle a large <u>central cell</u> with two polar nuclei.\n\n:::tip Your answer must contain\n- MMC and megaspore tetrad\n- meiosis; one functional; monosporic\n- three mitoses\n- 7 cells, 8 nuclei with positions\n:::\n\n**Marks are lost for:** writing '8-celled'; placing antipodals at the micropylar end.",
+    "scheme": [
+      {
+        "step": "P = MMC, Q = megaspore tetrad",
+        "marks": 1
+      },
+      {
+        "step": "Meiosis",
+        "marks": 0.5
+      },
+      {
+        "step": "One megaspore; monosporic development",
+        "marks": 1
+      },
+      {
+        "step": "Three free-nuclear mitoses",
+        "marks": 0.5
+      },
+      {
+        "step": "7-celled, 8-nucleate embryo sac described",
+        "marks": 2
+      }
+    ],
+    "source_note": "CBSE Class 12 Biology board paper 2025 (one set), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
   }
 ]

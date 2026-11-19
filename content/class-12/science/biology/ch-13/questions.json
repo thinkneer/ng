@@ -349,5 +349,64 @@
     "answer": "D",
     "hint": "Which approach protects the habitat itself?",
     "model_answer": "**(d).** A is false (in situ conservation protects ecosystems; ex situ protects chosen species); R is true."
+  },
+  {
+    "id": "bio-pyq25-11",
+    "chapter": "ch-13",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 3,
+    "label": "PYQ (2025)",
+    "topic": "India's biodiversity",
+    "stem": "India has only 2.4% of the world's land area. Its share of global species diversity is:",
+    "options": [
+      "8.1%",
+      "12.9%",
+      "7.3%",
+      "5.1%"
+    ],
+    "answer": "A",
+    "hint": "Roughly three and a half times its share of land.",
+    "model_answer": "**(a).** India holds **8.1%** of global species diversity, which makes it one of the 12 mega-diversity countries.",
+    "source_note": "CBSE Class 12 Biology board paper 2025 (one set), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
+  },
+  {
+    "id": "bio-pyq25-33a",
+    "chapter": "ch-13",
+    "type": "la5",
+    "marks": 5,
+    "stars": 3,
+    "label": "PYQ (2025)",
+    "topic": "Loss of biodiversity",
+    "stem": "(i) How does the invasion of alien species cause a decline in biodiversity? Explain how each of these has contributed to biodiversity loss: Nile perch; *Lantana* and *Eichhornia*; *Clarias gariepinus*. (ii) Why have certain regions been declared biodiversity hotspots? Name two such regions in India.",
+    "hint": "Lake Victoria; weeds; African catfish. Hotspots: richness and endemism.",
+    "model_answer": "*How much to write: 10–12 lines · 9 minutes*\n\n**(i)** Alien species introduced into a new area may turn <mark>invasive</mark> and cause the <u>decline or extinction of indigenous species</u>.\n- **Nile perch**, introduced into <u>Lake Victoria</u>, led to the extinction of more than <mark>200 species of cichlid fish</mark>.\n- ***Lantana*** and ***Eichhornia*** (water hyacinth), with *Parthenium*, are invasive weeds that damage the environment and <u>threaten native species</u>.\n- ***Clarias gariepinus***, the African catfish introduced illegally for aquaculture, threatens the <u>indigenous catfishes</u> of our rivers.\n\n**(ii)** Hotspots are regions with very <mark>high species richness and a high degree of endemism</mark> that are also losing habitat fast, so they get maximum protection. In India: <u>Western Ghats and Sri Lanka</u>, <u>Indo-Burma</u>, <u>Himalaya</u> (any two).\n\n:::tip Your answer must contain\n- invasive aliens → decline of native species\n- the three examples with their effect\n- <mark>richness + endemism</mark>; two Indian hotspots\n:::\n\n**Marks are lost for:** writing only 'they are harmful' for the examples; naming national parks as hotspots.",
+    "scheme": [
+      {
+        "step": "How alien invasion reduces biodiversity",
+        "marks": 1
+      },
+      {
+        "step": "Nile perch: cichlids of Lake Victoria",
+        "marks": 0.5
+      },
+      {
+        "step": "Lantana and Eichhornia: invasive weeds threaten natives",
+        "marks": 0.5
+      },
+      {
+        "step": "Clarias gariepinus threatens indigenous catfishes",
+        "marks": 0.5
+      },
+      {
+        "step": "Hotspot: high species richness and endemism",
+        "marks": 1.5
+      },
+      {
+        "step": "Two hotspots in India",
+        "marks": 1
+      }
+    ],
+    "source_note": "CBSE Class 12 Biology board paper 2025 (one set), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
   }
 ]

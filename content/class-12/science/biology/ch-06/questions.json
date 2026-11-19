@@ -375,5 +375,87 @@
     "answer": "D",
     "hint": "Same structure, or same function?",
     "model_answer": "**(d).** A is false: they are analogous (different structure, same function); R is true."
+  },
+  {
+    "id": "bio-pyq25-07",
+    "chapter": "ch-06",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 3,
+    "label": "PYQ (2025)",
+    "topic": "Natural selection",
+    "stem": "A trait controlled by many genes shows a bell-shaped distribution in a population, with most members near the mean. After several generations of **disruptive** selection, the distribution will most likely show:",
+    "options": [
+      "one taller, narrower peak at the mean",
+      "one peak shifted towards one extreme",
+      "two peaks, one near each extreme",
+      "no change"
+    ],
+    "answer": "C",
+    "hint": "Which members are favoured: the average ones, one extreme, or both extremes?",
+    "model_answer": "**(c).** Disruptive selection favours both extremes over the mean, so the curve splits into two peaks. (Narrower single peak = stabilising; shifted peak = directional.)",
+    "source_note": "CBSE Class 12 Biology board paper 2025 (one set), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
+  },
+  {
+    "id": "bio-pyq25-19",
+    "chapter": "ch-06",
+    "type": "vsa2",
+    "marks": 2,
+    "stars": 2,
+    "label": "PYQ (2025)",
+    "topic": "Human evolution",
+    "stem": "These stages come from the story of human evolution:<br>(a) about 15 mya: primates that walked like gorillas and chimpanzees;<br>(b) 3–4 mya: man-like primates walked in eastern Africa, where their fossil bones were found;<br>(c) about 2 mya: an ancestor that lived in the East African grasslands and ate fruit;<br>(d) about 1.5 mya: a hominid with a brain of about 900 cc that probably ate meat.<br>Name (a) one such primate, (b) one place where the fossils were found, (c) the ancestor, (d) the hominid.",
+    "hint": "Brain size 900 cc is the give-away for (d).",
+    "model_answer": "*How much to write: 4 short lines · 2 minutes*\n\n**(a)** <mark>*Dryopithecus*</mark> (ape-like) or *Ramapithecus* (man-like).<br>**(b)** <mark>Ethiopia</mark> or Tanzania.<br>**(c)** <mark>*Australopithecus*</mark> (the australopithecines).<br>**(d)** <mark>*Homo erectus*</mark>.\n\n:::tip Your answer must contain\n- *Dryopithecus* / *Ramapithecus*\n- Ethiopia / Tanzania\n- *Australopithecus*\n- *Homo erectus* (900 cc)\n:::\n\n**Marks are lost for:** writing *Homo habilis* for (d): its brain was 650–800 cc and it probably did not eat meat.",
+    "scheme": [
+      {
+        "step": "Dryopithecus or Ramapithecus",
+        "marks": 0.5
+      },
+      {
+        "step": "Ethiopia or Tanzania",
+        "marks": 0.5
+      },
+      {
+        "step": "Australopithecus",
+        "marks": 0.5
+      },
+      {
+        "step": "Homo erectus",
+        "marks": 0.5
+      }
+    ],
+    "source_note": "CBSE Class 12 Biology board paper 2025 (one set), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
+  },
+  {
+    "id": "bio-pyq25-23",
+    "chapter": "ch-06",
+    "type": "sa3",
+    "marks": 3,
+    "stars": 3,
+    "label": "PYQ (2025)",
+    "topic": "Adaptive radiation",
+    "stem": "(a) \"Evolution of different species in a given geographical area starts from a point and literally radiates to other areas of geography (habitats).\" Explain with an example. (b) Give an example where more than one adaptive radiation has occurred in an isolated geographical area, and name the type of evolution it shows.",
+    "hint": "Galapagos for (a); Australia for (b).",
+    "model_answer": "*How much to write: 7–8 lines · 5 minutes*\n\n**(a)** This is <mark>adaptive radiation</mark>. Example: <u>Darwin's finches</u> on the Galapagos Islands. From an original <u>seed-eating</u> stock, many forms arose on the islands with altered beaks, becoming insectivorous and vegetarian finches.\n\n**(b)** In Australia, <u>marsupials</u> radiated into many forms, and <u>placental mammals</u> also radiated into varieties that look similar to a corresponding marsupial (placental wolf and Tasmanian wolf). When more than one adaptive radiation occurs in an isolated area, it is <mark>convergent evolution</mark>.\n\n:::tip Your answer must contain\n- <mark>adaptive radiation</mark> named\n- Darwin's finches: seed-eaters → other beaks\n- Australian marsupials and placental mammals → <mark>convergent evolution</mark>\n:::\n\n**Marks are lost for:** calling (b) divergent evolution; giving only the name of an example without what changed.",
+    "scheme": [
+      {
+        "step": "Adaptive radiation named and explained",
+        "marks": 1
+      },
+      {
+        "step": "Darwin's finches: seed-eating ancestor → varied beaks",
+        "marks": 1
+      },
+      {
+        "step": "Australian marsupials and placental mammals",
+        "marks": 0.5
+      },
+      {
+        "step": "Convergent evolution",
+        "marks": 0.5
+      }
+    ],
+    "source_note": "CBSE Class 12 Biology board paper 2025 (one set), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
   }
 ]

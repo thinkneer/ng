@@ -391,5 +391,82 @@
     "answer": "B",
     "hint": "Are both statements about the same event?",
     "model_answer": "**(b).** Both are true NCERT facts, but the block to polyspermy does not explain when meiosis II is completed."
+  },
+  {
+    "id": "bio-pyq25-18a",
+    "chapter": "ch-02",
+    "type": "vsa2",
+    "marks": 2,
+    "stars": 3,
+    "label": "PYQ (2025)",
+    "topic": "Parturition",
+    "stem": "\"A fully developed foetus initiates its own delivery from the mother's womb.\" Explain.",
+    "hint": "Foetal ejection reflex, then a hormone from the mother's pituitary.",
+    "model_answer": "*How much to write: 4–5 lines · 3 minutes*\n\nSignals for parturition come from the <u>fully developed foetus and the placenta</u>. They cause mild uterine contractions, the <mark>foetal ejection reflex</mark>. This triggers release of <mark>oxytocin</mark> from the <u>maternal pituitary</u>. Oxytocin makes the uterine muscle contract more strongly, which causes more oxytocin release; the contractions grow stronger and stronger until the baby is expelled through the birth canal.\n\n:::tip Your answer must contain\n- signals from <u>foetus and placenta</u>\n- <mark>foetal ejection reflex</mark>\n- <mark>oxytocin</mark> from maternal pituitary; stronger contractions in a loop\n:::\n\n**Marks are lost for:** leaving out the placenta; not naming the reflex; saying oxytocin comes from the foetus.",
+    "scheme": [
+      {
+        "step": "Signals from fully developed foetus and placenta → foetal ejection reflex",
+        "marks": 1
+      },
+      {
+        "step": "Oxytocin from maternal pituitary → stronger contractions → more oxytocin → expulsion",
+        "marks": 1
+      }
+    ],
+    "source_note": "CBSE Class 12 Biology board paper 2025 (one set), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
+  },
+  {
+    "id": "bio-pyq25-18b",
+    "chapter": "ch-02",
+    "type": "vsa2",
+    "marks": 2,
+    "stars": 2,
+    "label": "PYQ (2025)",
+    "topic": "Oogenesis",
+    "stem": "Give reasons: (i) A woman generally cannot conceive after about 50 years of age. (ii) Polar bodies are formed in oogenesis but not in spermatogenesis.",
+    "hint": "(i) Which cycle stops? (ii) Equal or unequal division?",
+    "model_answer": "*How much to write: 4 lines · 3 minutes*\n\n**(i)** Menstrual cycles stop at about 50 years (<mark>menopause</mark>), so <u>no ovum is released</u> and conception is not possible.\n\n**(ii)** The meiotic divisions in oogenesis are <mark>unequal</mark>: the oocyte keeps almost all the nutrient-rich cytoplasm and a tiny <u>polar body</u> is pinched off each time. In spermatogenesis the divisions are <u>equal</u>, giving four similar spermatids.\n\n:::tip Your answer must contain\n- <mark>menopause</mark>: ovulation and menstruation cease\n- <mark>unequal</mark> divisions in oogenesis; <u>equal</u> in spermatogenesis\n:::\n\n**Marks are lost for:** writing only 'old age' for (i); not contrasting with the equal divisions of spermatogenesis.",
+    "scheme": [
+      {
+        "step": "Menopause: no ovulation after about 50 years",
+        "marks": 1
+      },
+      {
+        "step": "Unequal cytoplasmic division in oogenesis; equal in spermatogenesis",
+        "marks": 1
+      }
+    ],
+    "source_note": "CBSE Class 12 Biology board paper 2025 (one set), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
+  },
+  {
+    "id": "bio-pyq25-32a",
+    "chapter": "ch-02",
+    "type": "la5",
+    "marks": 5,
+    "stars": 3,
+    "label": "PYQ (2025)",
+    "topic": "Spermatogenesis",
+    "stem": "In a sectional view of a seminiferous tubule, cells are labelled from the wall towards the lumen: **D** rests on the wall, next is the primary spermatocyte, then the secondary spermatocyte, then **B**, and **A** has its tail in the lumen; **C** is the tall cell in which the developing cells are embedded. (i) Name A, B, C and D. (ii) How many chromosomes do a secondary spermatocyte and a spermatid have? (iii) Explain spermiogenesis and spermiation.",
+    "hint": "Order: spermatogonium → primary → secondary → spermatid → sperm.",
+    "model_answer": "*How much to write: 8–9 lines + the tubule sketch if time allows · 8 minutes*\n\n**(i)** A: <mark>spermatozoa</mark>; B: <mark>spermatid</mark>; C: <mark>Sertoli cell</mark>; D: <mark>spermatogonium</mark>.\n\n**(ii)** Secondary spermatocyte: <u>23</u>; spermatid: <u>23</u> (both haploid).\n\n**(iii)** **Spermiogenesis:** the transformation of <u>spermatids into spermatozoa</u> (sperms).\n**Spermiation:** the <u>release of sperms</u> from the seminiferous tubule, after their heads have been embedded in the Sertoli cells.\n\n:::tip Your answer must contain\n- four labels\n- 23 and 23\n- spermiogenesis = spermatid → sperm; spermiation = release\n:::\n\n**Marks are lost for:** writing 46 for the secondary spermatocyte; swapping spermiogenesis and spermiation.",
+    "scheme": [
+      {
+        "step": "A, B, C, D named (½ each)",
+        "marks": 2
+      },
+      {
+        "step": "23 and 23",
+        "marks": 1
+      },
+      {
+        "step": "Spermiogenesis",
+        "marks": 1
+      },
+      {
+        "step": "Spermiation",
+        "marks": 1
+      }
+    ],
+    "source_note": "CBSE Class 12 Biology board paper 2025 (one set), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
   }
 ]

@@ -397,5 +397,122 @@
         "marks": 1.5
       }
     ]
+  },
+  {
+    "id": "bio-pyq25-03",
+    "chapter": "ch-07",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ (2025)",
+    "topic": "Drugs and tobacco",
+    "stem": "Which statement about drugs and tobacco is correct?",
+    "options": [
+      "Cocaine is given after surgery because it speeds recovery.",
+      "Chewing tobacco lowers blood pressure and heart rate.",
+      "Barbiturates make criminals tell the truth.",
+      "Morphine is often given to patients after surgery as a painkiller."
+    ],
+    "answer": "D",
+    "hint": "One of these is a genuine medical use of an opioid.",
+    "model_answer": "**(d).** Morphine is a very effective sedative and painkiller, useful after surgery. Cocaine is a stimulant; tobacco (nicotine) raises blood pressure and heart rate; barbiturates are medicines for depression and insomnia.",
+    "source_note": "CBSE Class 12 Biology board paper 2025 (one set), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
+  },
+  {
+    "id": "bio-pyq25-08",
+    "chapter": "ch-07",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ (2025)",
+    "topic": "Immunity",
+    "stem": "Which component of the immune system is **wrongly** matched with its role?",
+    "options": [
+      "Interferons: made by virus-infected cells; protect uninfected cells from viral infection",
+      "Macrophages: mucus-secreting cells that trap microbes entering the body",
+      "B-lymphocytes: produce antibodies into the blood in response to pathogens",
+      "IgA: present in colostrum; protects the infant in the first days of lactation"
+    ],
+    "answer": "B",
+    "hint": "Which cell's real job is phagocytosis?",
+    "model_answer": "**(b).** Macrophages are a **cellular barrier**: they engulf and destroy microbes by phagocytosis. Trapping in mucus is a physiological/physical barrier.",
+    "source_note": "CBSE Class 12 Biology board paper 2025 (one set), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
+  },
+  {
+    "id": "bio-pyq25-20a",
+    "chapter": "ch-07",
+    "type": "vsa2",
+    "marks": 2,
+    "stars": 3,
+    "label": "PYQ (2025)",
+    "topic": "Vaccination",
+    "stem": "How does the human body respond when a vaccine is introduced into it? \"Vaccination is a must for a healthy society.\" Justify.",
+    "hint": "Antibodies now, memory cells for later.",
+    "model_answer": "*How much to write: 4–5 lines · 3 minutes*\n\nA vaccine contains <u>antigenic proteins</u> of a pathogen or the <u>inactivated/weakened pathogen</u>. The body makes <mark>antibodies</mark> against these antigens, and also forms <mark>memory B and T cells</mark>. On a real infection the memory cells recognise the pathogen quickly and produce a massive antibody response.\n\n**Why a must:** vaccination prevents infectious diseases and their spread; it has <u>eradicated smallpox</u> and brought polio, diphtheria, pneumonia and tetanus largely under control.\n\n:::tip Your answer must contain\n- antigen/weakened pathogen → <mark>antibodies</mark>\n- <mark>memory B and T cells</mark>\n- prevents and controls infectious diseases in the community\n:::\n\n**Marks are lost for:** leaving out memory cells; calling vaccination passive immunity (it is active).",
+    "scheme": [
+      {
+        "step": "Antigen/inactivated pathogen → antibodies",
+        "marks": 0.5
+      },
+      {
+        "step": "Memory B and T cells give a quick, massive response later",
+        "marks": 1
+      },
+      {
+        "step": "Controls/prevents spread of infectious diseases (e.g. smallpox eradicated)",
+        "marks": 0.5
+      }
+    ],
+    "source_note": "CBSE Class 12 Biology board paper 2025 (one set), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
+  },
+  {
+    "id": "bio-pyq25-20b",
+    "chapter": "ch-07",
+    "type": "vsa2",
+    "marks": 2,
+    "stars": 2,
+    "label": "PYQ (2025)",
+    "topic": "Innate immunity",
+    "stem": "Innate immunity protects us against pathogens that enter the gut with food. Name and explain the two barriers that do this.",
+    "hint": "One is a lining, the other is a secretion of the stomach.",
+    "model_answer": "*How much to write: 3–4 lines · 2 minutes*\n\n1. **Physical barrier:** the <mark>mucus coating</mark> of the epithelium lining the <u>gastro-intestinal tract</u> traps microbes.\n2. **Physiological barrier:** <mark>acid in the stomach</mark> (and <u>saliva</u> in the mouth) prevents microbial growth.\n\n:::tip Your answer must contain\n- <mark>mucus</mark> lining of the gut (physical)\n- <mark>stomach acid</mark>, saliva (physiological)\n:::\n\n**Marks are lost for:** naming skin (not the route of food) or antibodies (acquired, not innate).",
+    "scheme": [
+      {
+        "step": "Physical barrier: mucus coating of gut epithelium",
+        "marks": 1
+      },
+      {
+        "step": "Physiological barrier: acid in stomach / saliva",
+        "marks": 1
+      }
+    ],
+    "source_note": "CBSE Class 12 Biology board paper 2025 (one set), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
+  },
+  {
+    "id": "bio-pyq25-25",
+    "chapter": "ch-07",
+    "type": "sa3",
+    "marks": 3,
+    "stars": 2,
+    "label": "PYQ (2025)",
+    "topic": "Common diseases",
+    "stem": "A person has high fever. Which symptoms would tell you whether it is typhoid, pneumonia or malaria?",
+    "hint": "One has sustained fever with stomach trouble, one hits breathing, one comes in cycles.",
+    "model_answer": "*How much to write: 6 lines · 4 minutes*\n\n- **Typhoid:** <mark>sustained high fever (39–40 °C)</mark>, weakness, <u>stomach pain, constipation</u>, headache and loss of appetite.\n- **Pneumonia:** fever with chills, cough and headache; <mark>difficulty in breathing</mark> as the alveoli fill with fluid; in severe cases lips and finger nails turn <u>grey to bluish</u>.\n- **Malaria:** <mark>chill and high fever recurring every three to four days</mark>, caused by haemozoin released when RBCs rupture.\n\n:::tip Your answer must contain\n- typhoid: <u>sustained</u> fever + stomach pain, constipation\n- pneumonia: <u>breathing</u> trouble, bluish lips/nails\n- malaria: <u>recurring</u> chill and fever every 3–4 days\n:::\n\n**Marks are lost for:** listing only 'fever' for all three; mixing up the Widal test (a test, not a symptom).",
+    "scheme": [
+      {
+        "step": "Typhoid symptoms",
+        "marks": 1
+      },
+      {
+        "step": "Pneumonia symptoms",
+        "marks": 1
+      },
+      {
+        "step": "Malaria symptoms",
+        "marks": 1
+      }
+    ],
+    "source_note": "CBSE Class 12 Biology board paper 2025 (one set), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
   }
 ]

@@ -459,5 +459,45 @@
         "marks": 1
       }
     ]
+  },
+  {
+    "id": "bio-pyq25-02",
+    "chapter": "ch-09",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 3,
+    "label": "PYQ (2025)",
+    "topic": "PCR",
+    "stem": "Which statement about the polymerase chain reaction (PCR) is **incorrect**?",
+    "options": [
+      "Two sets of primers are needed.",
+      "Repeating the cycle many times can give about a billion copies.",
+      "A thermostable DNA polymerase extends the primers.",
+      "Annealing is the step that separates the two template strands."
+    ],
+    "answer": "D",
+    "hint": "Three steps: denaturation, annealing, extension. Which one uses heat to separate?",
+    "model_answer": "**(d).** The strands are separated by heat (**denaturation**). In annealing the primers bind to the separated strands.",
+    "source_note": "CBSE Class 12 Biology board paper 2025 (one set), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
+  },
+  {
+    "id": "bio-pyq25-16",
+    "chapter": "ch-09",
+    "type": "ar",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ (2025)",
+    "topic": "Origin of replication",
+    "stem": "**Assertion (A):** A piece of DNA put into an alien organism generally does not multiply unless it becomes part of a chromosome.<br>**Reason (R):** Chromosomes carry a specific sequence, the origin of replication (*ori*), where replication starts.",
+    "options": [
+      "Both A and R are true, and R is the correct explanation of A.",
+      "Both A and R are true, but R is not the correct explanation of A.",
+      "A is true, but R is false.",
+      "A is false, but R is true."
+    ],
+    "answer": "A",
+    "hint": "Where does replication begin?",
+    "model_answer": "**(a).** Replication begins only at an *ori*. Alien DNA has none of its own, so it must be linked to a chromosome (or a vector) that has one. R explains A.",
+    "source_note": "CBSE Class 12 Biology board paper 2025 (one set), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
   }
 ]

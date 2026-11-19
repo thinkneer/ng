@@ -435,5 +435,103 @@
         "marks": 1
       }
     ]
+  },
+  {
+    "id": "bio-pyq25-01",
+    "chapter": "ch-05",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ (2025)",
+    "topic": "Satellite DNA",
+    "stem": "Minisatellites are best described as:",
+    "options": [
+      "small sequences of 10–40 bp found inside genes",
+      "short coding repeats in the eukaryotic genome",
+      "short non-coding repeats that make up a large part of the eukaryotic genome",
+      "stretches of the coding strand of DNA"
+    ],
+    "answer": "C",
+    "hint": "Think of VNTRs in DNA fingerprinting.",
+    "model_answer": "**(c).** Minisatellites (VNTRs) are short, non-coding sequences repeated many times; such repetitive DNA forms a large share of the eukaryotic genome and is the basis of DNA fingerprinting.",
+    "source_note": "CBSE Class 12 Biology board paper 2025 (one set), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
+  },
+  {
+    "id": "bio-pyq25-14",
+    "chapter": "ch-05",
+    "type": "ar",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ (2025)",
+    "topic": "Replication",
+    "stem": "**Assertion (A):** In eukaryotes, DNA replicates in the S phase of the cell cycle.<br>**Reason (R):** DNA replication and the cell division cycle must be highly coordinated.",
+    "options": [
+      "Both A and R are true, and R is the correct explanation of A.",
+      "Both A and R are true, but R is not the correct explanation of A.",
+      "A is true, but R is false.",
+      "A is false, but R is true."
+    ],
+    "answer": "B",
+    "hint": "Both are NCERT statements. Does the second give the cause of the first?",
+    "model_answer": "**(b).** Both statements are true, but R does not explain why replication falls in S phase; it only says the two processes must be coordinated (failure gives polyploidy).",
+    "source_note": "CBSE Class 12 Biology board paper 2025 (one set), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
+  },
+  {
+    "id": "bio-pyq25-24",
+    "chapter": "ch-05",
+    "type": "sa3",
+    "marks": 3,
+    "stars": 3,
+    "label": "PYQ (2025)",
+    "topic": "Genetic code",
+    "stem": "A template DNA segment 3′-TTC AGG GGG ATG-5′ is transcribed and translated into the oligopeptide lysine–serine–proline–tyrosine. (a) Write the mRNA codons, in order, for the four amino acids. (b) If the first adenine of the DNA segment is replaced by guanine, what is the new amino-acid sequence? (c) Write the anticodons for the four amino acids of the original peptide.",
+    "hint": "mRNA is complementary to the template; the anticodon is complementary to the codon.",
+    "model_answer": "*How much to write: three aligned rows · 6 minutes*\n\n**(a)** mRNA is complementary to the template:\n\nTemplate: 3′-TTC AGG GGG ATG-5′<br>mRNA: 5′-<mark>AAG UCC CCC UAC</mark>-3′<br>Peptide: Lys – Ser – Pro – Tyr\n\n**(b)** Template becomes TTC **G**GG GGG ATG → mRNA AAG **CCC** CCC UAC → <mark>Lys–Pro–Pro–Tyr</mark> (serine is replaced by proline: a point mutation).\n\n**(c)** Anticodons (3′→5′): <u>UUC, AGG, GGG, AUG</u>.\n\n:::tip Your answer must contain\n- codons AAG, UCC, CCC, UAC with polarity\n- new peptide <mark>Lys–Pro–Pro–Tyr</mark>\n- anticodons UUC, AGG, GGG, AUG\n:::\n\n**Marks are lost for:** writing T in RNA; reading the template in the wrong direction; giving codons again for anticodons.",
+    "scheme": [
+      {
+        "step": "mRNA codons AAG UCC CCC UAC",
+        "marks": 1
+      },
+      {
+        "step": "After substitution: Lys–Pro–Pro–Tyr",
+        "marks": 1
+      },
+      {
+        "step": "Anticodons UUC AGG GGG AUG",
+        "marks": 1
+      }
+    ],
+    "source_note": "CBSE Class 12 Biology board paper 2025 (one set), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers. The board paper printed the first triplet as TTG; it is corrected to TTC here so that it codes for lysine."
+  },
+  {
+    "id": "bio-pyq25-31a",
+    "chapter": "ch-05",
+    "type": "la5",
+    "marks": 5,
+    "stars": 3,
+    "label": "PYQ (2025)",
+    "topic": "Genetic material",
+    "stem": "List the features a molecule must have to act as genetic material. In the light of these, evaluate and justify which molecule is the better genetic material.",
+    "hint": "Four criteria; then compare DNA and RNA on stability and mutation.",
+    "model_answer": "*How much to write: 12–14 lines · 9 minutes*\n\n**A genetic material must:**\n1. be able to <mark>replicate</mark> (make its own copies);\n2. be <u>chemically and structurally stable</u>;\n3. allow <u>slow changes (mutation)</u> needed for evolution;\n4. be able to <u>express itself</u> as Mendelian characters.\n\n**Evaluation:**\n- Both DNA and RNA can replicate (base pairing); proteins cannot.\n- **Stability:** RNA has a <mark>2′-OH group</mark> on every nucleotide, which makes it reactive and easily degraded; RNA is also catalytic. DNA lacks it and is more stable. <u>Thymine</u> in place of uracil adds further stability.\n- **Mutation:** both mutate, but RNA, being unstable, mutates <u>faster</u> (RNA viruses evolve quickly).\n- **Expression:** RNA can code directly for proteins; DNA depends on RNA for protein synthesis.\n\n**Conclusion:** <mark>DNA is the better material for storage</mark> of genetic information; RNA is better for its <u>transmission</u>.\n\n:::tip Your answer must contain\n- four criteria\n- 2′-OH and uracil make RNA <u>less stable</u>\n- DNA: storage; RNA: transmission\n:::\n\n**Marks are lost for:** listing criteria without judging DNA against RNA; forgetting the conclusion.",
+    "scheme": [
+      {
+        "step": "Four criteria of a genetic material",
+        "marks": 2
+      },
+      {
+        "step": "Stability: 2′-OH in RNA, thymine in DNA",
+        "marks": 1
+      },
+      {
+        "step": "Mutation rate and expression compared",
+        "marks": 1
+      },
+      {
+        "step": "Conclusion: DNA for storage, RNA for transmission",
+        "marks": 1
+      }
+    ],
+    "source_note": "CBSE Class 12 Biology board paper 2025 (one set), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
   }
 ]

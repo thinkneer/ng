@@ -337,5 +337,32 @@
         "marks": 0.5
       }
     ]
+  },
+  {
+    "id": "bio-pyq25-28",
+    "chapter": "ch-12",
+    "type": "sa3",
+    "marks": 3,
+    "stars": 3,
+    "label": "PYQ (2025)",
+    "topic": "Food chains",
+    "stem": "Name the type of food chain through which the larger fraction of energy flows in (i) an aquatic ecosystem and (ii) a terrestrial ecosystem. Give two differences between these two food chains.",
+    "hint": "One starts with producers, the other with dead matter.",
+    "model_answer": "*How much to write: a 2-row table + 2 lines · 4 minutes*\n\n**(i) Aquatic:** <mark>grazing food chain (GFC)</mark>. **(ii) Terrestrial:** <mark>detritus food chain (DFC)</mark>.\n\n| | GFC | DFC |\n|---|---|---|\n| Starts with | <u>producers</u> (green plants) | <u>dead organic matter</u> (detritus) |\n| First consumers | herbivores | decomposers: fungi and bacteria (<u>saprotrophs</u>) |\n\n:::tip Your answer must contain\n- aquatic → <mark>GFC</mark>; terrestrial → <mark>DFC</mark>\n- GFC starts with producers; DFC with detritus\n- herbivores vs decomposers\n:::\n\n**Marks are lost for:** swapping the two ecosystems; writing only definitions without a point-by-point difference.",
+    "scheme": [
+      {
+        "step": "Aquatic: grazing food chain",
+        "marks": 0.5
+      },
+      {
+        "step": "Terrestrial: detritus food chain",
+        "marks": 0.5
+      },
+      {
+        "step": "Two differences",
+        "marks": 2
+      }
+    ],
+    "source_note": "CBSE Class 12 Biology board paper 2025 (one set), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
   }
 ]

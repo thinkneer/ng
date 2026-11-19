@@ -379,5 +379,107 @@
         "marks": 1
       }
     ]
+  },
+  {
+    "id": "bio-pyq25-05",
+    "chapter": "ch-04",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 3,
+    "label": "PYQ (2025)",
+    "topic": "Sex determination",
+    "stem": "Which statement about sex determination is correct?",
+    "options": [
+      "In birds, the homozygous pair ZZ gives a female.",
+      "In grasshoppers, the XO condition gives a male.",
+      "In humans, the XO condition gives a normal female.",
+      "In *Drosophila*, the homozygous pair XX gives a male."
+    ],
+    "answer": "B",
+    "hint": "Which insect's males have one sex chromosome fewer?",
+    "model_answer": "**(b).** Grasshopper: XX female, XO male. Birds: ZZ male, ZW female. Human XO is Turner's syndrome (a sterile female), not the normal way of fixing sex. *Drosophila*: XX female, XY male.",
+    "source_note": "CBSE Class 12 Biology board paper 2025 (one set), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
+  },
+  {
+    "id": "bio-pyq25-15",
+    "chapter": "ch-04",
+    "type": "ar",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ (2025)",
+    "topic": "Sex-linked inheritance",
+    "stem": "**Assertion (A):** A haemophilic man always inherits the disorder from his mother.<br>**Reason (R):** The gene for haemophilia lies on the X chromosome.",
+    "options": [
+      "Both A and R are true, and R is the correct explanation of A.",
+      "Both A and R are true, but R is not the correct explanation of A.",
+      "A is true, but R is false.",
+      "A is false, but R is true."
+    ],
+    "answer": "A",
+    "hint": "Which parent gives a son his X chromosome?",
+    "model_answer": "**(a).** A son gets his only X from his mother (his father gives the Y), so an X-linked recessive gene reaches him from her. R explains A.",
+    "source_note": "CBSE Class 12 Biology board paper 2025 (one set), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
+  },
+  {
+    "id": "bio-pyq25-21",
+    "chapter": "ch-04",
+    "type": "vsa2",
+    "marks": 2,
+    "stars": 3,
+    "label": "PYQ (2025)",
+    "topic": "Chromosomal disorders",
+    "stem": "The karyotype of a person shows 22 normal pairs of autosomes and the sex chromosomes **XXY**. (a) Identify the disorder. (b) Write its symptoms. (c) Give the reason for it.",
+    "hint": "47 chromosomes; an extra X in a male.",
+    "model_answer": "*How much to write: 4 lines · 3 minutes*\n\n**(a)** <mark>Klinefelter's syndrome</mark> (47, XXY).\n\n**(b)** Overall <u>masculine development</u> but with feminine features such as <u>gynaecomastia</u> (breast development); the person is <u>sterile</u>.\n\n**(c)** An <mark>extra copy of the X chromosome</mark>, caused by failure of chromosomes to separate (<u>non-disjunction</u>) during gamete formation, an aneuploidy.\n\n:::tip Your answer must contain\n- <mark>Klinefelter's syndrome</mark>, 47 XXY\n- gynaecomastia, sterile\n- extra X from <u>non-disjunction</u>\n:::\n\n**Marks are lost for:** confusing it with Turner's syndrome (45, XO, sterile female).",
+    "scheme": [
+      {
+        "step": "Klinefelter's syndrome",
+        "marks": 0.5
+      },
+      {
+        "step": "Symptoms: gynaecomastia, sterile male",
+        "marks": 0.5
+      },
+      {
+        "step": "Extra X chromosome (XXY) due to non-disjunction/aneuploidy",
+        "marks": 1
+      }
+    ],
+    "source_note": "CBSE Class 12 Biology board paper 2025 (one set), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
+  },
+  {
+    "id": "bio-pyq25-31b",
+    "chapter": "ch-04",
+    "type": "la5",
+    "marks": 5,
+    "stars": 3,
+    "label": "PYQ (2025)",
+    "topic": "Patterns of inheritance",
+    "stem": "Differentiate between (i) polygenic inheritance and pleiotropy; (ii) dominance, codominance and incomplete dominance.",
+    "hint": "Count genes and traits for (i); look at the F1 phenotype for (ii).",
+    "model_answer": "*How much to write: two small tables with examples · 9 minutes*\n\n**(i)**\n\n| Polygenic inheritance | Pleiotropy |\n|---|---|\n| <u>many genes</u> control <u>one trait</u> | <u>one gene</u> affects <u>many traits</u> |\n| effects are additive; environment also acts | one gene product acts in several pathways |\n| e.g. <mark>human skin colour, height</mark> | e.g. <mark>phenylketonuria</mark> |\n\n**(ii)**\n\n| | F₁ hybrid shows | Example |\n|---|---|---|\n| Dominance | only the <u>dominant</u> parent's trait | tall × dwarf pea → all tall |\n| Codominance | <u>both</u> parental traits side by side | <mark>AB blood group</mark> (I^A I^B) |\n| Incomplete dominance | an <u>intermediate</u> phenotype | red × white snapdragon → <mark>pink</mark> |\n\n:::tip Your answer must contain\n- gene and trait counts for (i), with examples\n- F₁ phenotype for each of the three in (ii)\n- one example each\n:::\n\n**Marks are lost for:** giving sickle-cell anaemia for codominance without explanation; mixing codominance with incomplete dominance.",
+    "scheme": [
+      {
+        "step": "Polygenic inheritance vs pleiotropy: two points",
+        "marks": 1
+      },
+      {
+        "step": "Examples of both",
+        "marks": 1
+      },
+      {
+        "step": "Dominance with example",
+        "marks": 1
+      },
+      {
+        "step": "Codominance with example",
+        "marks": 1
+      },
+      {
+        "step": "Incomplete dominance with example",
+        "marks": 1
+      }
+    ],
+    "source_note": "CBSE Class 12 Biology board paper 2025 (one set), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
   }
 ]

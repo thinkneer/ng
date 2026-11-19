@@ -467,5 +467,84 @@
     ],
     "hint": "Oxygen the microbes need; which stage uses aerobic microbes; what the anaerobic digester makes.",
     "model_answer": "*How much to write: one to two lines each for (i) and (ii), three lines for (iii) · 6 minutes*\n\n**(i)** <mark>Biochemical oxygen demand (BOD)</mark>: the amount of <u>oxygen</u> that <u>aerobic microbes</u> need to break down the organic matter in a water sample. <mark>High BOD</mark> means a high organic load and little dissolved oxygen left for aquatic life.\n\n**(ii)** <mark>Secondary (biological) treatment</mark> removes most of the BOD: <u>aerobic bacteria</u> and fungi in the aeration tank form <u>flocs</u> that digest the organic matter.\n\n**(iii)** The sludge is digested by <u>anaerobic bacteria</u>, the <u>methanogens</u>, which produce <mark>biogas</mark>: mainly <u>methane</u>, with some CO₂ and H₂S.\n\n:::tip Your answer must contain\n- (i) oxygen demand of microbes; high BOD = high organic load\n- (ii) <mark>secondary treatment</mark>; aerobic bacteria; flocs\n- (iii) <mark>biogas / methane</mark>; <u>methanogens</u> (anaerobic)\n:::\n\n**Marks are lost for:** calling BOD the oxygen produced by plants; saying primary treatment removes most of the BOD; calling the digester aerobic."
+  },
+  {
+    "id": "bio-pyq25-13",
+    "chapter": "ch-08",
+    "type": "ar",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ (2025)",
+    "topic": "Microbes in household products",
+    "stem": "**Assertion (A):** Swiss cheese has large holes because a large amount of CO₂ is produced.<br>**Reason (R):** It is ripened by growing a specific fungus on it.",
+    "options": [
+      "Both A and R are true, and R is the correct explanation of A.",
+      "Both A and R are true, but R is not the correct explanation of A.",
+      "A is true, but R is false.",
+      "A is false, but R is true."
+    ],
+    "answer": "C",
+    "hint": "Bacterium or fungus? Roquefort is the other cheese.",
+    "model_answer": "**(c).** A is true. R is false: the holes come from CO₂ made by a **bacterium**, *Propionibacterium sharmanii*. (Roquefort cheese is the one ripened by a fungus.)",
+    "source_note": "CBSE Class 12 Biology board paper 2025 (one set), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
+  },
+  {
+    "id": "bio-pyq25-29",
+    "chapter": "ch-08",
+    "type": "case",
+    "marks": 4,
+    "stars": 3,
+    "label": "PYQ (2025)",
+    "topic": "Sewage treatment",
+    "stem": "*A flow chart of one stage of a sewage treatment plant shows: influent from the primary clarifier → **aerator tank** fitted with air diffusers → **settling tank** (secondary clarifier) → effluent. Sludge from the bottom of the settling tank is partly returned to the aerator tank and partly removed.*",
+    "hint": "Secondary treatment: flocs need oxygen; BOD falls as organic matter is used up.",
+    "parts": [
+      {
+        "id": "A",
+        "marks": 1,
+        "stem": "Identify the stage shown and state its importance.",
+        "model_answer": "Secondary (biological) treatment by the activated-sludge method. Aerobic microbes consume most of the organic matter, so the BOD (polluting potential) of the sewage falls greatly before the water is released.",
+        "scheme": [
+          {
+            "step": "Secondary/biological treatment (activated sludge)",
+            "marks": 0.5
+          },
+          {
+            "step": "Removes organic matter; lowers BOD",
+            "marks": 0.5
+          }
+        ]
+      },
+      {
+        "id": "B",
+        "marks": 2,
+        "stem": "Why is air diffused into the aerator tank? Explain.",
+        "model_answer": "Air supplies oxygen, which allows vigorous growth of useful aerobic microbes into flocs (masses of bacteria with fungal filaments in a mesh). While growing, these microbes consume the major part of the organic matter, which reduces the BOD.",
+        "scheme": [
+          {
+            "step": "Oxygen for vigorous growth of aerobic microbes into flocs",
+            "marks": 1
+          },
+          {
+            "step": "Flocs consume organic matter; BOD is reduced",
+            "marks": 1
+          }
+        ]
+      },
+      {
+        "id": "C",
+        "marks": 1,
+        "stem": "What changes take place in the settling tank? **OR** How is BOD related to the organic matter present in water?",
+        "model_answer": "The bacterial flocs sediment as activated sludge; a small part is pumped back to the aeration tank as inoculum and the rest goes to anaerobic sludge digesters. **OR** BOD is the oxygen that bacteria would use to oxidise all the organic matter in one litre of water, so the more organic matter, the higher the BOD.",
+        "scheme": [
+          {
+            "step": "Flocs settle as activated sludge (part returned as inoculum) OR BOD rises with organic matter",
+            "marks": 1
+          }
+        ]
+      }
+    ],
+    "model_answer": "*How much to write: 1–2 lines for (a), 3 lines for (b), 2 lines for (c) · 6 minutes*\n\n**(a)** <mark>Secondary (biological) treatment</mark> by the activated-sludge method; it removes most of the organic matter and so <u>lowers the BOD</u> of sewage.\n\n**(b)** Air gives <u>oxygen</u> for vigorous growth of <u>aerobic microbes</u> into <mark>flocs</mark> (bacteria with fungal filaments). The flocs consume the organic matter and the <u>BOD falls</u>.\n\n**(c)** The flocs <u>sediment</u> as <mark>activated sludge</mark>; part returns to the aeration tank as <u>inoculum</u>, the rest goes to anaerobic digesters. **OR** BOD measures the oxygen microbes need to oxidise the organic matter: <mark>more organic matter, higher BOD</mark>.\n\n:::tip Your answer must contain\n- secondary/biological treatment\n- oxygen → aerobic <mark>flocs</mark> → BOD falls\n- activated sludge settles, part reused as inoculum (or BOD ∝ organic matter)\n:::\n\n**Marks are lost for:** calling it primary treatment; saying air is added to kill microbes.",
+    "source_note": "CBSE Class 12 Biology board paper 2025 (one set), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
   }
 ]
