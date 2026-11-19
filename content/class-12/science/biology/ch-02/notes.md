@@ -2,19 +2,32 @@
 
 Humans reproduce sexually and are viviparous: the baby develops inside the mother. This chapter walks through the whole sequence in order: the organs, how sperms and eggs are made, the monthly cycle that prepares the uterus, fertilisation and implantation, pregnancy, birth and milk. The examiner's favourites are the two gametogenesis flowcharts, the menstrual cycle with its hormones, and four diagrams: seminiferous tubule, ovary, sperm and the hormone graph.
 
+*Read alongside NCERT Biology, Chapter 2 (in your textbook, or [ncert.nic.in/textbook/pdf/lebo102.pdf](https://ncert.nic.in/textbook/pdf/lebo102.pdf)). Each section below names the NCERT section, figures and questions it explains.*
+
 ## The sequence of events
 
-Reproductive events begin after **puberty**. In order they are: **gametogenesis** (making sperms and ova), **insemination** (transfer of sperms into the female genital tract), **fertilisation** (fusion of sperm and ovum to form a zygote), **cleavage and blastocyst formation**, **implantation** (the blastocyst attaches to the uterine wall), **gestation** (development of the embryo) and **parturition** (delivery of the baby). Sperm production goes on throughout a man's reproductive life, even into old age; in women, ovum production stops at about 50 years.
+*NCERT chapter opening · Exercise Q1*
+
+Reproductive events begin after **puberty**. In order they are: **gametogenesis** (making sperms and ova), **insemination** (transfer of sperms into the female genital tract), **fertilisation** (fusion of sperm and ovum to form a zygote), **cleavage and blastocyst formation**, **implantation** (the blastocyst attaches to the uterine wall), **gestation** (development of the embryo) and **parturition** (delivery of the baby). Sperm production goes on throughout a man's reproductive life, even into old age; in women, ovum production stops at about 50 years. The quick facts of Exercise Q1 all sit in this chain: humans reproduce sexually, are viviparous, fertilisation is internal, gametes are haploid and the zygote is diploid.
 
 **In one breath:** Gametogenesis → insemination → fertilisation → implantation → gestation → parturition, all beginning after puberty.
 
 ## The male reproductive system
 
+*NCERT 2.1 · Figures 2.1, 2.2 · Exercise Q2, Q4, Q5, Q10, Q11, Q16*
+
 The male system lies in the pelvis and has a pair of testes, accessory ducts, accessory glands and the external genitalia.
 
-The **testes** hang outside the abdomen in a pouch, the **scrotum**. This is not an accident: the scrotum keeps the testes **2–2.5 °C below** the internal body temperature, and sperm formation needs that lower temperature. Each adult testis is oval, about 4–5 cm long and 2–3 cm wide, and is divided into about **250 testicular lobules**. Each lobule holds **one to three** highly coiled **seminiferous tubules**, where sperms are made.
+The **testes** hang outside the abdomen in a pouch, the **scrotum**. This is not an accident: the scrotum keeps the testes **2–2.5 °C below** the internal body temperature, and sperm formation needs that lower temperature. Each testis has a dense covering. Each adult testis is oval, about 4–5 cm long and 2–3 cm wide, and is divided into about **250 testicular lobules**. Each lobule holds **one to three** highly coiled **seminiferous tubules**, where sperms are made.
 
-Each seminiferous tubule is lined by two kinds of cells: **male germ cells (spermatogonia)**, which divide to form sperms, and **Sertoli cells**, which **nourish the germ cells**. The spaces between tubules, the **interstitial spaces**, hold small blood vessels and the **interstitial or Leydig cells**, which make the male hormones, the **androgens**. Some immune cells are also present.
+Each seminiferous tubule is lined by two kinds of cells: **male germ cells (spermatogonia)**, which divide to form sperms, and **Sertoli cells**, which **nourish the germ cells**. The spaces between tubules, the **interstitial spaces**, hold small blood vessels and the **interstitial or Leydig cells**, which make the male hormones, the **androgens**. Some immune cells are also present. So the testis has two jobs (Exercise Q4): making sperms and secreting androgens.
+
+```ng-explain
+id: ch02-why-scrotum
+prompt: In three lines, explain why the testes lie outside the abdominal cavity.
+lines: 3
+answer: Spermatogenesis needs a temperature 2–2.5 °C below internal body temperature. The scrotum, hanging outside the abdomen, keeps the testes that much cooler. Inside the abdomen sperm formation would fail.
+```
 
 ```ng-figure
 id: ch02-seminiferous-tubule
@@ -43,7 +56,7 @@ part: 200, 140 | Blood vessel | In the interstitial space between tubules.
 part: 204, 172 | Leydig cells | Interstitial cells that secrete androgens under LH.
 ```
 
-Sperms travel through a chain of **accessory ducts**: seminiferous tubules → **rete testis** → **vasa efferentia** → **epididymis** (along the back of each testis) → **vas deferens**, which rises into the abdomen and loops over the urinary bladder. It receives the duct of the seminal vesicle and opens into the **urethra** as the **ejaculatory duct**. The urethra runs through the **penis** to the urethral meatus. The tip of the penis, the glans penis, is covered by the foreskin.
+Sperms travel through a chain of **accessory ducts**: seminiferous tubules → **rete testis** → **vasa efferentia** → **epididymis** (along the back of each testis) → **vas deferens**, which rises into the abdomen and loops over the urinary bladder. It receives the duct of the seminal vesicle and opens into the **urethra** as the **ejaculatory duct**. These ducts **store and transport** sperms. The urethra starts at the urinary bladder and runs through the **penis**, the male external genitalia, to its opening, the urethral meatus. The penis is made of special tissue that helps erection, which makes insemination possible; its enlarged tip, the glans penis, is covered by a loose fold of skin, the foreskin.
 
 The **accessory glands** are the paired **seminal vesicles**, one **prostate** and the paired **bulbourethral glands**. Their secretions form the **seminal plasma**, rich in **fructose, calcium and certain enzymes**. The bulbourethral secretion also lubricates the penis.
 
@@ -107,17 +120,23 @@ time: 6
 
 ## The female reproductive system
 
-The female system has a pair of ovaries, a pair of oviducts, the uterus, cervix, vagina and external genitalia in the pelvis, plus a pair of mammary glands.
+*NCERT 2.2 · Figures 2.3, 2.4 · Exercise Q3, Q4, Q15, Q16*
 
-The **ovaries** are the primary female sex organs: they make the ovum and several steroid hormones. Each is 2–4 cm long, held by ligaments, and has a stroma with an outer **cortex** and inner **medulla**.
+The female system has a pair of ovaries, a pair of oviducts, the uterus, cervix, vagina and external genitalia in the pelvis, plus a pair of mammary glands. Together they support ovulation, fertilisation, pregnancy, birth and child care.
+
+The **ovaries** are the primary female sex organs: they make the ovum and several steroid hormones (the ovarian hormones); those are the ovary's two jobs for Exercise Q4. One lies on each side of the lower abdomen. Each is 2–4 cm long, held to the pelvic wall and uterus by ligaments, and covered by a thin epithelium around the ovarian stroma, which has an outer **cortex** and inner **medulla**.
 
 Each **oviduct (fallopian tube)** is 10–12 cm long. Nearest the ovary is the funnel-shaped **infundibulum**, whose finger-like **fimbriae** collect the ovum after ovulation. Next comes the wider **ampulla**, then the narrow **isthmus**, which joins the uterus.
 
-The **uterus** (womb) is shaped like an inverted pear. It opens into the vagina through the narrow **cervix**; the cervical canal and vagina together form the **birth canal**. The uterine wall has three layers: an outer thin **perimetrium**, a thick middle layer of smooth muscle, the **myometrium**, which contracts strongly during delivery, and an inner glandular **endometrium**, which goes through cyclic changes each month.
+The oviducts, uterus and vagina are the female **accessory ducts**. The single **uterus** (womb) is shaped like an inverted pear and held by ligaments to the pelvic wall. It opens into the vagina through the narrow **cervix**; the cervical canal and vagina together form the **birth canal**. The uterine wall has three layers: an outer thin **perimetrium**, a thick middle layer of smooth muscle, the **myometrium**, which contracts strongly during delivery, and an inner glandular **endometrium**, which goes through cyclic changes each month.
 
-The external genitalia include the mons pubis, labia majora, labia minora, hymen and clitoris.
+The external genitalia are the **mons pubis** (a cushion of fatty tissue covered by skin and hair), the **labia majora** (fleshy folds around the vaginal opening), the **labia minora** (paired folds beneath them), the **hymen** (a membrane that often partly covers the vaginal opening) and the **clitoris** (a tiny finger-like structure where the labia minora meet, above the urethral opening).
 
-Each **mammary gland** has glandular tissue and fat. The glandular tissue is divided into 15–20 **mammary lobes** containing clusters of **alveoli**, whose cells secrete milk. Milk passes from alveoli → **mammary tubules** → **mammary duct** → **mammary ampulla** → **lactiferous duct**.
+:::tip The hymen proves nothing
+The hymen can tear during first intercourse, but also from a fall or jolt, a tampon, or sports such as cycling and horse riding, and in some women it persists even after intercourse. Its presence or absence is **not a reliable indicator** of virginity or sexual experience (Exercise Q16g is "True").
+:::
+
+A working mammary gland is the mark of all female mammals. Each **mammary gland** (breast) has glandular tissue and a variable amount of fat. The glandular tissue is divided into 15–20 **mammary lobes** containing clusters of **alveoli**, whose cells secrete milk into the alveolar cavities (lumens). Milk passes from alveoli → **mammary tubules** → **mammary duct** → **mammary ampulla** → **lactiferous duct**, which opens at the nipple.
 
 ```ng-figure
 id: ch02-mammary-gland
@@ -203,6 +222,8 @@ time: 4
 
 ## Spermatogenesis
 
+*NCERT 2.3 (spermatogenesis, sperm) · Figures 2.5, 2.6, 2.8a · Exercise Q6, Q7, Q8, Q9, Q15*
+
 **Spermatogenesis** begins at puberty. Spermatogonia on the inner wall of the seminiferous tubules multiply by mitosis. Each spermatogonium is diploid (46 chromosomes). Some of them become **primary spermatocytes** (2n), which undergo the first meiotic division to give two **secondary spermatocytes** (n = 23). These complete the second meiotic division to form four haploid **spermatids**. Spermatids change shape into **spermatozoa** by **spermiogenesis**. The sperm heads stay embedded in Sertoli cells until they are released from the tubules: this release is **spermiation**.
 
 ```ng-fill
@@ -247,7 +268,7 @@ part: 121, 55 | Middle piece | Packed with mitochondria: energy for swimming.
 part: 230, 55 | Tail | Lashes to move the sperm.
 ```
 
-A man releases about **200–300 million** sperms in one ejaculation. For normal fertility, at least **60%** must have normal shape and size and at least **40%** must show vigorous motility. Secretions of the epididymis, vas deferens, seminal vesicle and prostate are needed for sperm maturation and motility; seminal plasma plus sperms make **semen**.
+A man releases about **200–300 million** sperms in one ejaculation. For normal fertility, at least **60%** must have normal shape and size and at least **40%** must show vigorous motility. Secretions of the epididymis, vas deferens, seminal vesicle and prostate are needed for sperm maturation and motility; seminal plasma plus sperms make **semen**. The working of all these ducts and glands is maintained by androgens.
 
 ```ng-mnemonic
 id: ch02-leydig-sertoli
@@ -268,9 +289,11 @@ time: 3
 
 ## Oogenesis and the ovarian follicles
 
+*NCERT 2.3 (oogenesis) · Figures 2.7, 2.8b · Exercise Q12, Q13, Q14, Q16*
+
 **Oogenesis** starts before birth. In the foetal ovary, a couple of million **oogonia** form in each ovary, and **no more are added after birth**. They enter meiosis I and are **arrested in prophase I**; these are **primary oocytes**. Each primary oocyte gets a layer of **granulosa cells**, forming a **primary follicle**. Many follicles degenerate between birth and puberty, so at puberty only **60,000–80,000** primary follicles remain in each ovary.
 
-From puberty, follicles develop in steps. A primary follicle gains more granulosa layers and a new **theca** and becomes a **secondary follicle**. A fluid-filled cavity, the **antrum**, then appears and the theca splits into theca interna and theca externa: this is a **tertiary follicle**. Inside the tertiary follicle the primary oocyte grows and **completes meiosis I**. The division is **unequal**: one large haploid **secondary oocyte** keeps most of the food-rich cytoplasm and a tiny **first polar body** is pinched off. The tertiary follicle matures into a **Graafian follicle**, and the secondary oocyte forms a new membrane around itself, the **zona pellucida**. The Graafian follicle ruptures and releases the secondary oocyte (the ovum): this is **ovulation**. Meiosis II is completed only if a sperm enters.
+From puberty, follicles develop in steps. A primary follicle gains more granulosa layers and a new **theca** and becomes a **secondary follicle**. A fluid-filled cavity, the **antrum**, then appears and the theca splits into theca interna and theca externa: this is a **tertiary follicle**. Inside the tertiary follicle the primary oocyte grows and **completes meiosis I**. The division is **unequal**: one large haploid **secondary oocyte** keeps most of the food-rich cytoplasm and a tiny **first polar body** is pinched off (whether that polar body divides again or just degenerates is not known for certain). The tertiary follicle matures into a **Graafian follicle**, and the secondary oocyte forms a new membrane around itself, the **zona pellucida**. The Graafian follicle ruptures and releases the secondary oocyte (the ovum): this is **ovulation**. Meiosis II is completed only if a sperm enters.
 
 ```ng-figure
 id: ch02-ovary
@@ -321,6 +344,42 @@ step: The **Graafian follicle** ruptures and releases the secondary oocyte (**ov
 step: **Meiosis II** finishes only when a sperm enters: **ovum** + **second polar body**.
 ```
 
+```ng-figure
+id: ch02-graafian-follicle
+title: Graafian follicle
+svg:
+<svg viewBox="0 0 320 220" role="img" aria-label="Graafian follicle with antrum, granulosa cells, theca layers and secondary oocyte" fill="none" stroke="currentColor">
+<ellipse cx="120" cy="112" rx="104" ry="94" stroke-width="2"/>
+<ellipse cx="120" cy="112" rx="94" ry="84" stroke-width="1.2" stroke-dasharray="4 3"/>
+<path class="uf" fill-rule="evenodd" fill-opacity="0.3" stroke="currentColor" stroke-width="1.3" d="M36,112a84,74 0 1,0 168,0a84,74 0 1,0 -168,0ZM120,52C162,52,190,82,190,114C190,146,160,172,120,172C92,172,70,160,60,140C84,146,100,128,96,108C92,88,70,80,58,88C68,66,92,52,120,52Z"/>
+<circle cx="72" cy="112" r="13" stroke="#E0B400" stroke-width="2.6"/>
+<circle cx="72" cy="112" r="4" fill="currentColor" stroke="none"/>
+<path stroke-width="0.8" stroke-opacity="0.6" d="M236,24L196,48M236,52L196,72M236,84L188,92M236,116L150,116M236,150L86,116M236,180L76,112"/>
+<g fill="currentColor" stroke="none" font-size="10"><text x="240" y="27">Theca externa</text><text x="240" y="55">Theca interna</text><text x="240" y="87">Granulosa cells</text><text x="240" y="119">Antrum (fluid)</text><text x="240" y="153">Zona pellucida</text><text x="240" y="183">Secondary</text><text x="240" y="195">oocyte</text></g>
+</svg>
+caption: The mature follicle just before ovulation.
+part: 196, 48 | Theca externa | Outer layer of the theca.
+part: 196, 72 | Theca interna | Inner layer of the theca.
+part: 186, 92 | Granulosa cells | Layers of cells around the oocyte and antrum.
+part: 140, 116 | Antrum | Fluid-filled cavity; first seen in the tertiary follicle.
+part: 85, 112 | Zona pellucida | Membrane formed around the secondary oocyte.
+part: 72, 112 | Secondary oocyte | Haploid; released at ovulation.
+```
+
+```ng-draw
+id: ch02-draw-graafian
+title: Draw a Graafian follicle
+svg: ref: notes#ch02-graafian-follicle
+time: 4
+```
+
+```ng-explain
+id: ch02-why-unequal-division
+prompt: In three lines, explain the advantage of the unequal divisions in oogenesis.
+lines: 3
+answer: Almost all the nutrient-rich cytoplasm stays in one cell, the secondary oocyte (later the ovum), and the polar bodies get almost none. So the single egg carries enough food to support the early embryo.
+```
+
 ```ng-draw
 id: ch02-draw-ovary
 title: Draw an ovary section showing follicle stages
@@ -332,6 +391,8 @@ time: 5
 
 ## The menstrual cycle
 
+*NCERT 2.4 · Figure 2.9 · Exercise Q15, Q17, Q20, Q21*
+
 The reproductive cycle of female primates (monkeys, apes, humans) is the **menstrual cycle**. The first menstruation, at puberty, is **menarche**. Cycles repeat about every **28/29 days**, and one ovum is released in the middle of each cycle. It has four phases:
 
 1. **Menstrual phase** (days 1–5, lasting 3–5 days): the endometrium and its blood vessels break down and flow out. This happens only if the ovum was **not fertilised**. Missing a period may mean pregnancy, though stress or poor health can also cause it.
@@ -340,6 +401,8 @@ The reproductive cycle of female primates (monkeys, apes, humans) is the **menst
 4. **Luteal (secretory) phase**: what remains of the Graafian follicle becomes the **corpus luteum**, which secretes large amounts of **progesterone**. Progesterone **maintains the endometrium**, which is needed for implantation and pregnancy. If there is no fertilisation, the corpus luteum degenerates, the endometrium breaks down, and menstruation begins the next cycle.
 
 During pregnancy all these events stop and there is no menstruation. Cycles stop at about 50 years: **menopause**. Cyclic menstruation, from menarche to menopause, is a sign of a normal reproductive phase.
+
+Counting eggs (Exercise Q20, Q21): a human ovary releases **one ovum a month**. Identical twins come from that one egg (one zygote that splits), so still one; fraternal twins need **two** eggs, each fertilised by its own sperm. A dog that had 6 puppies released at least six eggs, one per puppy (assuming none were identical).
 
 ```ng-figure
 id: ch02-menstrual-cycle
@@ -371,6 +434,13 @@ part: 180, 188 | Ovulation | About day 14, between the follicular and luteal pha
 The corpus luteum's key hormone is **progesterone**, which maintains the endometrium. Estrogen comes mainly from the growing follicles in the follicular phase.
 :::
 
+```ng-explain
+id: ch02-why-corpus-luteum
+prompt: In three lines, explain what happens to the endometrium if the corpus luteum degenerates, and why.
+lines: 3
+answer: The corpus luteum makes the progesterone that maintains the endometrium. When it degenerates progesterone falls, so the endometrium and its blood vessels break down and flow out as menstruation.
+```
+
 ```ng-steps
 id: ch02-menstrual-phases
 title: One cycle, four phases
@@ -393,13 +463,85 @@ prompt: Name the four phases of the menstrual cycle in order.
 
 ## Fertilisation and implantation
 
+*NCERT 2.5 · Figures 2.10, 2.11 · Exercise Q1, Q19*
+
 During coitus, semen is released into the vagina (**insemination**). Sperms swim through the cervix and uterus to the **ampullary region** of the fallopian tube, where the ovum has also been carried. Fertilisation happens only if sperm and ovum reach the ampulla **at the same time**, which is why not every coitus leads to pregnancy.
 
-When a sperm touches the **zona pellucida**, it causes changes in the membrane that **block the entry of other sperms**, so only one sperm fertilises the ovum. Enzymes from the **acrosome** help the sperm pass through the zona pellucida and plasma membrane into the cytoplasm. Sperm entry makes the secondary oocyte **complete meiosis II**, again unequally, giving the haploid ovum (ootid) and a **second polar body**. The haploid nuclei of sperm and ovum then fuse to form a diploid **zygote**.
+When a sperm touches the **zona pellucida**, it causes changes in the membrane that **block the entry of other sperms**, so only one sperm fertilises the ovum. Enzymes from the **acrosome** help the sperm pass through the zona pellucida and plasma membrane into the cytoplasm.
 
-The sex of the baby is set here. Women are XX and men are XY, so every ovum carries an X, while half the sperms carry X and half carry Y. An X sperm gives a girl (XX) and a Y sperm a boy (XY): **the sex of the baby is decided by the father's sperm**, not the mother.
+```ng-figure
+id: ch02-ovum-sperms
+title: Ovum surrounded by a few sperms
+svg:
+<svg viewBox="0 0 320 210" role="img" aria-label="Ovum surrounded by corona radiata, zona pellucida and a few sperms" fill="none" stroke="currentColor">
+<g class="uf" fill-opacity="0.3" stroke="currentColor" stroke-width="1">
+<circle cx="110" cy="27" r="9"/><circle cx="142" cy="33" r="9"/><circle cx="167" cy="54" r="9"/><circle cx="181" cy="84" r="9"/><circle cx="181" cy="117" r="9"/><circle cx="167" cy="147" r="9"/><circle cx="142" cy="168" r="9"/><circle cx="110" cy="175" r="9"/><circle cx="78" cy="168" r="9"/><circle cx="53" cy="147" r="9"/><circle cx="39" cy="117" r="9"/><circle cx="39" cy="84" r="9"/><circle cx="53" cy="54" r="9"/><circle cx="78" cy="33" r="9"/></g>
+<circle cx="110" cy="101" r="63" stroke="#E0B400" stroke-width="5"/>
+<circle class="uf" cx="110" cy="101" r="50" fill-opacity="0.18" stroke="currentColor" stroke-width="1.4"/>
+<circle cx="110" cy="101" r="10" stroke-width="1.2"/>
+<g stroke-width="1.3"><ellipse cx="196" cy="40" rx="5" ry="3" fill="currentColor" transform="rotate(-35 196 40)"/><path d="M200,37C208,30,212,36,220,28"/><ellipse cx="20" cy="150" rx="5" ry="3" fill="currentColor" transform="rotate(-30 20 150)"/><path d="M16,153C10,160,6,154,2,162"/><ellipse cx="160" cy="62" rx="5" ry="3" fill="currentColor" transform="rotate(-40 160 62)"/><path d="M164,58C170,52,174,58,180,50"/></g>
+<path stroke-width="0.8" stroke-opacity="0.6" d="M236,30L222,30M236,66L190,84M236,100L172,100M236,134L166,118M236,168L120,104"/>
+<g fill="currentColor" stroke="none" font-size="10"><text x="240" y="33">Sperm</text><text x="240" y="63">Corona radiata</text><text x="240" y="75">cells</text><text x="240" y="103">Zona pellucida</text><text x="240" y="131">Perivitelline</text><text x="240" y="143">space</text><text x="240" y="171">Ovum</text></g>
+</svg>
+caption: Only one sperm gets through: the zona pellucida then blocks the rest.
+part: 196, 40 | Sperm | Acrosome enzymes help it through the egg's coverings.
+part: 181, 84 | Corona radiata cells | Follicle cells still clinging around the ovum.
+part: 173, 101 | Zona pellucida | Changes on first sperm contact to block others.
+part: 166, 118 | Perivitelline space | Gap between zona pellucida and the ovum's membrane.
+part: 110, 101 | Ovum | Secondary oocyte; completes meiosis II on sperm entry.
+```
+
+Sperm entry makes the secondary oocyte **complete meiosis II**, again unequally, giving the haploid ovum (ootid) and a **second polar body**. The haploid nuclei of sperm and ovum then fuse to form a diploid **zygote**.
+
+The sex of the baby is set here. Women are XX and men are XY, so every ovum carries an X, while half the sperms carry X and half carry Y. An X sperm gives a girl (XX) and a Y sperm a boy (XY): **the sex of the baby is decided by the father's sperm**, not the mother. That is the answer to Exercise Q19: blaming a woman for giving birth to daughters is scientifically wrong.
 
 As the zygote moves down the isthmus towards the uterus it divides by mitosis (**cleavage**) into 2, 4, 8, 16 cells called **blastomeres**. An embryo of 8–16 blastomeres is a **morula**. The morula keeps dividing and becomes a **blastocyst** as it enters the uterus. Its cells form an outer layer, the **trophoblast**, and an inner group attached to it, the **inner cell mass**. The trophoblast attaches to the endometrium; the inner cell mass becomes the embryo. The uterine cells then divide rapidly and cover the blastocyst, embedding it in the endometrium: this is **implantation**, and it leads to pregnancy.
+
+```ng-figure
+id: ch02-ovum-to-implantation
+title: From ovulation to implantation
+svg:
+<svg viewBox="0 0 340 214" role="img" aria-label="From ovulation to implantation: ovum, fertilisation in the ampulla, cleavage, morula, blastocyst and implantation in the uterus" fill="none" stroke="currentColor">
+<path class="uf" fill-opacity="0.2" stroke="currentColor" stroke-width="1.6" d="M8,60V206H104V118H80V60Z"/>
+<path stroke-width="1.6" d="M80,60H228C262,60,282,74,292,96M80,118H224C244,118,256,128,262,142"/>
+<path stroke-width="1.4" d="M292,96L304,88M294,102L308,100M262,142L250,152M266,146L258,160"/>
+<ellipse class="uf" cx="304" cy="150" rx="26" ry="36" fill-opacity="0.2" stroke="currentColor" stroke-width="1.6"/>
+<circle cx="300" cy="140" r="9" stroke-width="1.2"/><circle cx="310" cy="166" r="6" stroke-width="1"/>
+<path stroke="#E0B400" stroke-width="1.6" stroke-dasharray="4 3" d="M292,128C282,104,262,90,236,89H100C92,89,88,110,93,138"/>
+<circle class="uf" cx="276" cy="110" r="8" fill-opacity="0.4" stroke="currentColor" stroke-width="1.2"/>
+<circle class="uf" cx="236" cy="89" r="9" fill-opacity="0.4" stroke="currentColor" stroke-width="1.2"/><path stroke-width="1.2" d="M247,80L256,72"/><ellipse cx="246" cy="81" rx="3" ry="2" fill="currentColor"/>
+<g class="uf" fill-opacity="0.4" stroke="currentColor" stroke-width="1.1"><circle cx="197" cy="89" r="6"/><circle cx="207" cy="89" r="6"/>
+<circle cx="163" cy="84" r="5"/><circle cx="172" cy="84" r="5"/><circle cx="163" cy="94" r="5"/><circle cx="172" cy="94" r="5"/>
+<circle cx="128" cy="82" r="4"/><circle cx="136" cy="82" r="4"/><circle cx="124" cy="89" r="4"/><circle cx="132" cy="89" r="4"/><circle cx="140" cy="89" r="4"/><circle cx="128" cy="96" r="4"/><circle cx="136" cy="96" r="4"/></g>
+<circle cx="97" cy="89" r="10" stroke-width="1.4"/><circle class="uf" cx="93" cy="86" r="4" fill-opacity="0.6" stroke="none"/>
+<circle cx="94" cy="150" r="10" stroke-width="1.4"/><circle class="uf" cx="90" cy="150" r="4" fill-opacity="0.6" stroke="none"/>
+<g fill="currentColor" stroke="none" font-size="9.5"><text x="262" y="204">Ovary</text><text x="262" y="50" text-anchor="middle">Ovulation</text><text x="216" y="140" text-anchor="middle">Fertilisation</text><text x="216" y="151" text-anchor="middle">(ampulla)</text><text x="202" y="50" text-anchor="middle">2 cells</text><text x="167" y="136" text-anchor="middle">4 cells</text><text x="132" y="50" text-anchor="middle">Morula</text><text x="62" y="50" text-anchor="middle">Blastocyst</text><text x="112" y="176">Implantation</text><text x="14" y="198">Uterine wall</text></g>
+<path stroke-width="0.8" stroke-opacity="0.6" d="M222,130L234,100M266,54L275,102M202,54V82M167,126V100M132,54V78M70,54L90,80M124,166L108,156"/>
+</svg>
+caption: Follow the dashed line: ovary → ampulla → isthmus → uterus.
+part: 304, 150 | Ovary | Releases the ovum at ovulation.
+part: 276, 110 | Ovulated ovum | Picked up by the fimbriae.
+part: 236, 89 | Fertilisation | In the ampulla; forms the zygote.
+part: 202, 89 | 2-cell stage | First cleavage (mitosis).
+part: 167, 89 | 4-cell stage | Cells are called blastomeres.
+part: 132, 89 | Morula | Solid ball of 8–16 blastomeres.
+part: 97, 89 | Blastocyst | Trophoblast outside, inner cell mass inside.
+part: 94, 150 | Implantation | Blastocyst embedded in the endometrium.
+```
+
+```ng-draw
+id: ch02-draw-ovum-to-implantation
+title: Draw the journey from ovulation to implantation
+svg: ref: notes#ch02-ovum-to-implantation
+time: 5
+```
+
+```ng-explain
+id: ch02-why-not-every-coitus
+prompt: In three lines, explain why every copulation does not lead to pregnancy.
+lines: 3
+answer: Fertilisation needs the ovum and sperms to reach the ampulla at the same time. An ovum is released only once in a cycle, so on most days no ovum is waiting when the sperms arrive.
+```
 
 ```ng-compare
 id: ch02-trophoblast-vs-icm
@@ -425,11 +567,38 @@ step: The morula becomes a **blastocyst** and its trophoblast embeds in the endo
 
 ## Pregnancy and embryonic development
 
+*NCERT 2.6 · Figure 2.12*
+
 After implantation, finger-like **chorionic villi** grow out of the trophoblast and are surrounded by uterine tissue and maternal blood. The villi and uterine tissue interlock to form the **placenta**, the structural and functional link between the foetus and the mother. It supplies oxygen and nutrients, removes carbon dioxide and waste, and is joined to the embryo by the **umbilical cord**.
 
 The placenta is also an endocrine organ. It makes **hCG** (human chorionic gonadotropin), **hPL** (human placental lactogen), estrogens and progestogens. Late in pregnancy the **ovary** secretes **relaxin**. hCG, hPL and relaxin are made **only during pregnancy**. Levels of estrogens, progestogens, cortisol, prolactin and thyroxine also rise several fold, supporting foetal growth, the mother's metabolic changes and the pregnancy itself.
 
 Right after implantation the inner cell mass forms an outer **ectoderm** and inner **endoderm**, and soon a **mesoderm** between them; these three layers give rise to all tissues. The inner cell mass contains **stem cells** that can give rise to all tissues and organs.
+
+```ng-figure
+id: ch02-foetus-uterus
+title: The foetus within the uterus
+svg:
+<svg viewBox="0 0 320 250" role="img" aria-label="Human foetus within the uterus with placenta and umbilical cord" fill="none" stroke="currentColor">
+<path class="uf" fill-rule="evenodd" fill-opacity="0.2" stroke="currentColor" stroke-width="1.6" d="M110,8C40,8,10,70,22,130C30,172,70,200,92,214V244H128V214C150,200,190,172,198,130C210,70,180,8,110,8ZM110,28C56,28,34,78,42,126C48,160,80,186,102,200H118C140,186,172,160,178,126C186,78,164,28,110,28Z"/>
+<path class="uf" fill-opacity="0.55" stroke="currentColor" stroke-width="1.2" d="M70,40C90,28,134,28,152,42C140,60,84,60,70,40Z"/>
+<path stroke-width="1.2" d="M82,50V60M94,53V64M106,54V66M118,54V66M130,52V63M140,49V58"/>
+<path stroke="#E0B400" stroke-width="3" d="M110,56C100,76,124,84,112,104C108,112,112,120,118,124"/>
+<circle class="uf" cx="96" cy="150" r="20" fill-opacity="0.35" stroke="currentColor" stroke-width="1.4"/>
+<path class="uf" fill-opacity="0.35" stroke="currentColor" stroke-width="1.4" d="M110,136C138,108,160,132,150,156C142,174,122,172,116,160C126,156,128,146,120,142Z"/>
+<path stroke-width="1.4" d="M146,160C152,172,140,180,130,172M124,128C114,120,108,128,112,134"/>
+<rect x="100" y="216" width="20" height="24" rx="4" fill="currentColor" fill-opacity="0.45" stroke="none"/>
+<path stroke-width="0.8" stroke-opacity="0.6" d="M232,30L150,44M232,66L116,84M232,100L176,110M232,134L150,146M232,202L196,150M232,232L122,228"/>
+<g fill="currentColor" stroke="none" font-size="10"><text x="236" y="33">Placenta (villi)</text><text x="236" y="69">Umbilical cord</text><text x="236" y="103">Uterine cavity</text><text x="236" y="137">Foetus</text><text x="236" y="205">Uterine wall</text><text x="236" y="229">Mucus plug</text><text x="236" y="241">in cervix</text></g>
+</svg>
+caption: Placenta and umbilical cord link the foetus to the mother.
+part: 110, 44 | Placenta | Chorionic villi interlocked with uterine tissue; exchange and hormones.
+part: 112, 96 | Umbilical cord | Carries substances to and from the foetus.
+part: 170, 110 | Uterine cavity | Space in which the foetus grows.
+part: 132, 146 | Foetus | Fully formed by the end of nine months.
+part: 190, 150 | Uterine wall | Myometrium contracts at birth.
+part: 110, 228 | Mucus plug in cervix | Seals the cervix during pregnancy.
+```
 
 ```ng-fill
 id: ch02-milestones
@@ -455,7 +624,9 @@ prompt: Which three hormones are made only during pregnancy?
 
 ## Parturition and lactation
 
-Human pregnancy lasts about **9 months** (the gestation period). At its end, strong uterine contractions push the baby out: this is **parturition**. It is set off by a neuroendocrine mechanism. Signals from the fully developed foetus and the placenta cause mild uterine contractions, the **foetal ejection reflex**. This triggers release of **oxytocin** from the mother's pituitary. Oxytocin makes the uterine muscle contract more strongly, which causes still more oxytocin release, and the cycle builds until the baby is pushed out through the birth canal. The placenta is expelled soon after. (This is why doctors may inject oxytocin to induce labour.)
+*NCERT 2.7 · Exercise Q18*
+
+Human pregnancy lasts about **9 months** (the gestation period). At its end, strong uterine contractions push the baby out: this is **parturition**. It is set off by a neuroendocrine mechanism. Signals from the fully developed foetus and the placenta cause mild uterine contractions, the **foetal ejection reflex**. This triggers release of **oxytocin** from the mother's pituitary. Oxytocin makes the uterine muscle contract more strongly, which causes still more oxytocin release, and the cycle builds until the baby is pushed out through the birth canal. The placenta is expelled soon after. (This is why doctors may inject oxytocin to induce labour.) For Exercise Q18, name the hormones NCERT lists: **cortisol, estrogens and oxytocin**.
 
 The mammary glands differentiate during pregnancy and start producing milk towards its end: this is **lactation**. The milk of the first few days, **colostrum**, contains several antibodies that help the newborn build resistance, so breastfeeding in the early months is strongly recommended.
 

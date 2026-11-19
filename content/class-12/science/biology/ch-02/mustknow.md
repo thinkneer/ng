@@ -97,6 +97,9 @@ Ampulla; zona pellucida blocks other sperms; acrosome enzymes; meiosis II comple
 - Major organ systems formed: by end of 12 weeks (first trimester).
 - First foetal movements: fifth month.
 - Hormone injected to induce delivery: oxytocin.
+- Hormones inducing parturition (NCERT): cortisol, estrogens and oxytocin.
+- Ova released per month: one; fraternal twins need two.
+- Hymen as indicator of virginity: not reliable.
 - Germ layers from inner cell mass: ectoderm, endoderm, then mesoderm.
 - Pregnancy test hormone: hCG.
 

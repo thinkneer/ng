@@ -2423,15 +2423,16 @@
                       },
                       "diagrams": [],
                       "blocks": {
-                        "figure": 7,
+                        "explain": 4,
+                        "figure": 11,
                         "mnemonic": 5,
-                        "draw": 6,
+                        "draw": 8,
                         "fill": 2,
                         "compare": 2,
                         "steps": 4
                       },
-                      "words": 3664,
-                      "read_minutes": 12,
+                      "words": 4191,
+                      "read_minutes": 14,
                       "cards": 15,
                       "mnemonics": 5
                     },
