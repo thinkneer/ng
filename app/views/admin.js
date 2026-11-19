@@ -154,7 +154,7 @@ async function adminDb() {
     html: html`<h1 class="t-title" style="margin:var(--s-4) 0">Admin</h1>
       ${error ? raw(`<div class="notice notice--warn mb-4">${icon('alert')}<div>${esc(errText(error))}</div></div>`) : ''}
       <div class="card mb-4"><div class="t-headline">${pending ? `${pending} awaiting approval` : 'No one waiting'}</div><p class="t-2 t-subhead mt-1">Members join with a nickname, email and password; you approve each one here as a student or a teacher, and set the class and subjects they can open (<em>Class &amp; subjects</em>). Teachers can run live quizzes and, later, exams. Changes apply the next time they open the app.</p>
-        <button class="btn btn--block mt-4" type="button" id="new-member">${icon('plusSquare')} New member</button></div>
+        <button class="btn btn--block mt-4" type="button" id="new-member">${raw(icon('plusSquare'))} New member</button></div>
       <div class="list__header" style="padding-left:0">Members <span class="count">${people.filter((p) => p.status === 'approved').length} approved · ${people.filter((p) => p.role === 'teacher').length} teachers</span></div>
       ${people.length > 8 ? raw('<input type="search" id="m-search" placeholder="Find a nickname" aria-label="Find a nickname" class="mb-2">') : ''}
       <div class="list" id="members">${raw(people.map(row).join('') || '<div class="list__item t-2">No members yet</div>')}</div>
