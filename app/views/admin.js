@@ -147,6 +147,7 @@ async function adminDb() {
         ${u.status === 'pending' ? `<button class="btn btn--sm" type="button" data-set='{"status":"approved","role":"student"}'>Approve as student</button><button class="btn btn--sm btn--secondary" type="button" data-set='{"status":"approved","role":"teacher"}'>Approve as teacher</button>`
           : u.status === 'suspended' ? `<button class="btn btn--sm" type="button" data-set='{"status":"approved"}'>Restore</button>`
           : `<button class="btn btn--sm btn--plain" type="button" data-set='{"status":"suspended"}'>Pause</button>${u.role === 'teacher' ? `<button class="btn btn--sm btn--plain" type="button" data-set='{"role":"student"}'>Make student</button>` : u.role === 'student' ? `<button class="btn btn--sm btn--plain" type="button" data-set='{"role":"teacher"}'>Make teacher</button>` : ''}`}
+        ${u.role !== 'admin' ? `<button class="btn btn--sm btn--plain" type="button" data-del style="color:var(--danger)">Delete</button>` : ''}
       </span>`}
     </div>`;
   const pending = people.filter((p) => p.status === 'pending').length;
@@ -160,7 +161,7 @@ async function adminDb() {
       <div class="list__header" style="padding-left:0">Members <span class="count">${people.filter((p) => p.status === 'approved').length} approved · ${people.filter((p) => p.role === 'teacher').length} teachers</span></div>
       ${people.length > 8 ? raw('<input type="search" id="m-search" placeholder="Find a nickname" aria-label="Find a nickname" class="mb-2">') : ''}
       <div class="list" id="members">${raw(people.map(row).join('') || '<div class="list__item t-2">No members yet</div>')}</div>
-      <p class="t-footnote t-3 mt-4">Nicknames only are shown; emails stay in the sign-in system. Forgot a password? <em>Reset password</em> gives a new temporary one. Your own row has no buttons.</p>`,
+      <p class="t-footnote t-3 mt-4">Nicknames only are shown; emails stay in the sign-in system. Forgot a password? <em>Reset password</em> gives a new temporary one. <em>Delete</em> removes a member and all their data for good. Your own row has no buttons.</p>`,
     mount(el) {
       el.querySelector('#new-member').addEventListener('click', () => newMember(c, idx, people));
       el.querySelector('#m-search')?.addEventListener('input', (e) => { const q = e.target.value.trim().toLowerCase(); for (const r of el.querySelectorAll('#members [data-nick]')) r.hidden = !!q && !r.dataset.nick.toLowerCase().includes(q); });
@@ -169,6 +170,8 @@ async function adminDb() {
         if (ab) { editAccess(c, idx, byId.get(ab.closest('[data-id]').dataset.id)); return; }
         const pw = e.target.closest('[data-pw]');
         if (pw) { resetPassword(c, byId.get(pw.closest('[data-id]').dataset.id)); return; }
+        const del = e.target.closest('[data-del]');
+        if (del) { deleteMember(c, byId.get(del.closest('[data-id]').dataset.id)); return; }
         const b = e.target.closest('[data-set]'); if (!b) return;
         const item = b.closest('[data-id]'); const patch = JSON.parse(b.dataset.set);
         if (patch.status === 'suspended' && !confirm(`Pause ${item.dataset.nick}? They are signed out on their next open and can’t use the app until you restore them.`)) return;
@@ -283,6 +286,31 @@ function resetPassword(c, u) {
     // 006 returns what they type in "Username or email" (username, or their masked email); before 006 it returns nothing
     panel.innerHTML = tempShown(u.nickname, pass, 'New temporary password set.', typeof login === 'string' && login ? login : u.nickname);
     panel.querySelector('#tp-done').addEventListener('click', () => sheet.close());
+  });
+}
+
+/** Sheet: delete a member for good (needs supabase/migrations/007). Typing the nickname confirms it. */
+function deleteMember(c, u) {
+  const panel = document.createElement('div');
+  panel.innerHTML = `
+    <p class="t-2 t-subhead">This deletes <strong>${esc(u.nickname)}</strong> and everything of theirs: sign-in, notes, comments, quiz answers, group places and progress. It cannot be undone. To stop them for a while, use <em>Pause</em> instead.</p>
+    <label for="dl-nick" class="mt-4">Type ${esc(u.nickname)} to confirm</label>
+    <input id="dl-nick" autocomplete="off" autocapitalize="none" spellcheck="false">
+    <p class="auth__err mt-2" id="dl-err" role="alert" hidden></p>
+    <button class="btn btn--block mt-4" type="button" id="dl-go" style="background:var(--danger)" disabled>Delete ${esc(u.nickname)}</button>`;
+  const $ = (s) => panel.querySelector(s);
+  openSheet({ title: 'Delete member', content: panel });
+  $('#dl-nick').addEventListener('input', (e) => { $('#dl-go').disabled = e.target.value.trim().toLowerCase() !== u.nickname.toLowerCase(); });
+  $('#dl-go').addEventListener('click', async (e) => {
+    e.target.disabled = true; e.target.textContent = 'Deleting…';
+    const { error } = await c.rpc('admin_delete_user', { p_user: u.id });
+    if (error) {
+      const err = $('#dl-err');
+      err.textContent = /could not find the function|in the schema cache/i.test(error.message || '') ? 'One-time setup: run supabase/migrations/007_admin_delete_user.sql in the Supabase SQL Editor, then try again.' : errText(error);
+      err.hidden = false; e.target.disabled = false; e.target.textContent = `Delete ${u.nickname}`; return;
+    }
+    haptic('success'); toast(`${u.nickname} deleted`);
+    setTimeout(() => location.reload(), 500);
   });
 }
 

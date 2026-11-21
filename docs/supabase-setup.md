@@ -14,6 +14,7 @@ Dashboard → **SQL Editor** → New query → paste the whole file → **Run**,
 4. `supabase/migrations/004_groups_progress.sql` — teachers' groups and each student's progress summary (**My students** / **Teachers & students**). Keeps all data; safe to run again.
 5. `supabase/migrations/005_username_accounts.sql` — **New member without email** (username + temporary password, new password chosen at the first sign-in, like DAME Hub) and **Reset password** on each member. Keeps all data; safe to run again. (003 may be skipped; 005 replaces it.)
 6. `supabase/migrations/006_reset_password_fix.sql` — **Reset password that works for everyone**: also confirms accounts that never confirmed their email, and tells the admin what the member must type in *Username or email* (the username, or their masked email for members who joined with one). Safe to run again.
+7. `supabase/migrations/007_admin_delete_user.sql` — **Delete** on each member row (admin only): removes the account and all its data for good. Safe to run again.
 
 **Already live with members?** Run only `002_security.sql`. Every later numbered file is the same: run it once, in number order; it says at the top whether it keeps data.
 
