@@ -24,6 +24,12 @@ Type tags: `S` solve / evaluate · `MCQ` 1-mark objective / A–R · `C` case st
 - **Improper rational function:** divide before using partial fractions.
 - **Linear numerator over a quadratic:** write $px+q=A\,\dfrac{d}{dx}(\text{quadratic})+B$.
 - **Substitution in a definite integral:** change the limits as well.
+- **Function beside its derivative:** substitute; put the function equal to $t$.
+- **Odd power of sin or cos:** keep one factor, convert the rest, substitute.
+- **Product like $\sin3x\cos2x$:** change it to a sum first.
+- **Integral returns after by parts twice:** call it $I$ and solve for it.
+- **$x$ times trig, limits 0 to $\pi$:** replace $x$ by $\pi-x$ and add.
+- **Checking an indefinite integral:** differentiate the answer; you must get the integrand.
 - **Not in boards 2026–27:** definite integral as the limit of a sum.
 
 ## Key formulas
@@ -172,4 +178,12 @@ $\int\cos3x\,dx=\dfrac13\sin3x+C$; do not forget to divide by 3.
 
 :::tip $x^2-a^2$ versus $a^2-x^2$
 The two log formulas differ: $\dfrac{x-a}{x+a}$ for $x^2-a^2$, $\dfrac{a+x}{a-x}$ for $a^2-x^2$.
+:::
+
+:::tip Choosing the method
+Look before integrating: simplify, substitution, special forms, partial fractions, by parts. With limits, check for a property first.
+:::
+
+:::tip By parts twice
+In $\int e^x\sin x\,dx$ keep the same kind of first function both times, or the steps cancel.
 :::

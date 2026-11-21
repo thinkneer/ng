@@ -316,6 +316,535 @@
   "hint": "In each part, replace $x$ by (lower limit + upper limit − $x$)."
  },
  {
+  "id": "maths-ch-07-q13",
+  "chapter": "ch-07",
+  "type": "mcq",
+  "marks": 1,
+  "stem": "$\\displaystyle\\int \\dfrac{dx}{\\sin^2x\\cos^2x}$ equals",
+  "options": [
+   "$\\tan x+\\cot x+C$",
+   "$\\tan x-\\cot x+C$",
+   "$\\tan x\\cot x+C$",
+   "$\\tan x-\\cot2x+C$"
+  ],
+  "answer": "B",
+  "model_answer": "**(b).** Write $1=\\sin^2x+\\cos^2x$: the integrand becomes $\\sec^2x+\\operatorname{cosec}^2x$, which integrates to $\\tan x-\\cot x+C$.",
+  "topic": "Trigonometric integrals",
+  "hint": "Replace the 1 on top by $\\sin^2x+\\cos^2x$.",
+  "label": "NCERT-based",
+  "stars": 3
+ },
+ {
+  "id": "maths-ch-07-q14",
+  "chapter": "ch-07",
+  "type": "mcq",
+  "marks": 1,
+  "stem": "$\\displaystyle\\int \\dfrac{\\cos2x}{(\\sin x+\\cos x)^2}\\,dx$ equals",
+  "options": [
+   "$\\dfrac{-1}{\\sin x+\\cos x}+C$",
+   "$\\log\\lvert\\sin x-\\cos x\\rvert+C$",
+   "$\\log\\lvert\\sin x+\\cos x\\rvert+C$",
+   "$\\dfrac{1}{(\\sin x+\\cos x)^2}+C$"
+  ],
+  "answer": "C",
+  "model_answer": "**(c).** $\\cos2x=(\\cos x-\\sin x)(\\cos x+\\sin x)$, so the integrand is $\\dfrac{\\cos x-\\sin x}{\\sin x+\\cos x}$: the derivative of the denominator over the denominator. The integral is $\\log\\lvert\\sin x+\\cos x\\rvert+C$.",
+  "topic": "Integration by substitution",
+  "hint": "Factorise $\\cos2x$ as a difference of squares.",
+  "label": "NCERT-based",
+  "stars": 2
+ },
+ {
+  "id": "maths-ch-07-q15",
+  "chapter": "ch-07",
+  "type": "mcq",
+  "marks": 1,
+  "stem": "$\\displaystyle\\int x^2e^{x^3}\\,dx$ equals",
+  "options": [
+   "$\\dfrac13e^{x^3}+C$",
+   "$\\dfrac13e^{x^2}+C$",
+   "$\\dfrac12e^{x^3}+C$",
+   "$\\dfrac12e^{x^2}+C$"
+  ],
+  "answer": "A",
+  "model_answer": "**(a).** Put $t=x^3$, $dt=3x^2\\,dx$: the integral is $\\dfrac13\\displaystyle\\int e^t\\,dt=\\dfrac13e^{x^3}+C$.",
+  "topic": "Integration by substitution",
+  "hint": "The power $x^3$ has its derivative, up to a constant, standing beside it.",
+  "label": "NCERT-based",
+  "stars": 2
+ },
+ {
+  "id": "maths-ch-07-q16",
+  "chapter": "ch-07",
+  "type": "mcq",
+  "marks": 1,
+  "stem": "The value of $\\displaystyle\\int _0^{\\pi/2}\\dfrac{\\sin x-\\cos x}{1+\\sin x\\cos x}\\,dx$ is",
+  "options": [
+   "$0$",
+   "$\\dfrac\\pi4$",
+   "$\\dfrac\\pi2$",
+   "$1$"
+  ],
+  "answer": "A",
+  "model_answer": "**(a).** Replace $x$ by $\\dfrac\\pi2-x$: the numerator becomes $\\cos x-\\sin x$ and the denominator is unchanged, so $I=-I$ and $I=0$.",
+  "topic": "Properties of definite integrals",
+  "hint": "Apply $x\\to\\dfrac\\pi2-x$ and compare with the original.",
+  "label": "NCERT-based",
+  "stars": 3
+ },
+ {
+  "id": "maths-ch-07-q17",
+  "chapter": "ch-07",
+  "type": "mcq",
+  "marks": 1,
+  "stem": "$\\displaystyle\\int e^x\\sec x\\,(1+\\tan x)\\,dx$ equals",
+  "options": [
+   "$e^x\\cos x+C$",
+   "$e^x\\sec x+C$",
+   "$e^x\\sin x+C$",
+   "$e^x\\tan x+C$"
+  ],
+  "answer": "B",
+  "model_answer": "**(b).** $\\sec x(1+\\tan x)=\\sec x+\\sec x\\tan x=f(x)+f'(x)$ with $f(x)=\\sec x$. So the integral is $e^x\\sec x+C$.",
+  "topic": "e^x[f(x)+f'(x)]",
+  "hint": "Open the bracket and look for a function plus its derivative.",
+  "label": "NCERT-based",
+  "stars": 3
+ },
+ {
+  "id": "maths-ch-07-q18",
+  "chapter": "ch-07",
+  "type": "ar",
+  "marks": 1,
+  "stem": "**Assertion (A):** $\\displaystyle\\int \\log x\\,dx=x\\log x-x+C$.<br>**Reason (R):** A single function can be integrated by parts by taking 1 as the second function.",
+  "options": [
+   "Both A and R are true, and R is the correct explanation of A.",
+   "Both A and R are true, but R is not the correct explanation of A.",
+   "A is true, but R is false.",
+   "A is false, but R is true."
+  ],
+  "answer": "A",
+  "model_answer": "**(a).** With $u=\\log x$, $v=1$: $x\\log x-\\displaystyle\\int\\dfrac1x\\cdot x\\,dx=x\\log x-x+C$. A is true, and R is exactly the method used.",
+  "topic": "Integration by parts",
+  "hint": "Write $\\log x$ as $\\log x\\times1$.",
+  "label": "PYQ-style",
+  "stars": 2
+ },
+ {
+  "id": "maths-ch-07-q19",
+  "chapter": "ch-07",
+  "type": "ar",
+  "marks": 1,
+  "stem": "**Assertion (A):** $\\displaystyle\\int _{-1}^{1}\\lvert x\\rvert\\,dx=0$.<br>**Reason (R):** If $f$ is an odd function, then $\\displaystyle\\int _{-a}^{a}f(x)\\,dx=0$.",
+  "options": [
+   "Both A and R are true, and R is the correct explanation of A.",
+   "Both A and R are true, but R is not the correct explanation of A.",
+   "A is true, but R is false.",
+   "A is false, but R is true."
+  ],
+  "answer": "D",
+  "model_answer": "**(d).** $\\lvert x\\rvert$ is an even function, so the integral is $2\\displaystyle\\int_0^1x\\,dx=1$, not 0. A is false; R is a true property that does not apply here.",
+  "topic": "Properties of definite integrals",
+  "hint": "Is $\\lvert x\\rvert$ odd or even?",
+  "label": "PYQ-style",
+  "stars": 3
+ },
+ {
+  "id": "maths-ch-07-q20",
+  "chapter": "ch-07",
+  "type": "vsa2",
+  "marks": 2,
+  "stem": "Find $\\displaystyle\\int \\sin^3x\\,dx$.",
+  "model_answer": "*How much to write: about 5 lines · 3 minutes.*\n\n$\\sin^3x=(1-\\cos^2x)\\sin x$. Put <u>$\\cos x=t$</u>, so $-\\sin x\\,dx=dt$.\n\n<mark>$I=-\\displaystyle\\int(1-t^2)\\,dt$</mark> $=-t+\\dfrac{t^3}{3}+C$\n\n$$\\boxed{-\\cos x+\\dfrac{\\cos^3x}{3}+C}$$\n\n:::tip Your answer must contain\n- one $\\sin x$ kept aside\n- the substitution line with $dt$\n- $+C$\n:::\n\n**Marks are lost for:** losing the minus sign from $-\\sin x\\,dx=dt$.",
+  "scheme": [
+   {
+    "step": "Written as $(1-\\cos^2x)\\sin x$ with $\\cos x=t$",
+    "marks": 1
+   },
+   {
+    "step": "$-\\cos x+\\dfrac{\\cos^3x}{3}+C$",
+    "marks": 1
+   }
+  ],
+  "topic": "Trigonometric integrals",
+  "hint": "Odd power: keep one $\\sin x$ for the $dt$.",
+  "label": "NCERT-based",
+  "stars": 3
+ },
+ {
+  "id": "maths-ch-07-q21",
+  "chapter": "ch-07",
+  "type": "vsa2",
+  "marks": 2,
+  "stem": "Find $\\displaystyle\\int \\dfrac{dx}{1+\\sin x}$.",
+  "model_answer": "*How much to write: about 5 lines · 3 minutes.*\n\nMultiply top and bottom by <u>$1-\\sin x$</u>: $\\dfrac{1-\\sin x}{1-\\sin^2x}=\\dfrac{1-\\sin x}{\\cos^2x}$\n\n<mark>$=\\sec^2x-\\sec x\\tan x$</mark>, and each term is a standard integral.\n\n$$\\boxed{\\tan x-\\sec x+C}$$\n\n:::tip Your answer must contain\n- the conjugate step\n- the split into two standard integrands\n- $+C$\n:::\n\n**Marks are lost for:** trying a substitution for $1+\\sin x$: its derivative is not there.",
+  "scheme": [
+   {
+    "step": "Rationalised to $\\sec^2x-\\sec x\\tan x$",
+    "marks": 1
+   },
+   {
+    "step": "$\\tan x-\\sec x+C$",
+    "marks": 1
+   }
+  ],
+  "topic": "Trigonometric integrals",
+  "hint": "Multiply by the conjugate of the denominator.",
+  "label": "NCERT-based",
+  "stars": 3
+ },
+ {
+  "id": "maths-ch-07-q22",
+  "chapter": "ch-07",
+  "type": "vsa2",
+  "marks": 2,
+  "stem": "Find $\\displaystyle\\int \\dfrac{(x-3)\\,e^x}{(x-1)^3}\\,dx$.",
+  "model_answer": "*How much to write: about 5 lines · 3 minutes.*\n\nWrite $x-3=(x-1)-2$: $\\ \\dfrac{x-3}{(x-1)^3}=\\dfrac{1}{(x-1)^2}-\\dfrac{2}{(x-1)^3}$\n\nWith $f(x)=\\dfrac{1}{(x-1)^2}$, $f'(x)=-\\dfrac{2}{(x-1)^3}$, so the integrand is <mark>$e^x[f(x)+f'(x)]$</mark>.\n\n$$\\boxed{\\dfrac{e^x}{(x-1)^2}+C}$$\n\n:::tip Your answer must contain\n- the numerator rewritten in terms of $(x-1)$\n- $f$ and $f'$ named\n- $+C$\n:::\n\n**Marks are lost for:** integrating by parts twice instead: it works, but costs time and invites slips.",
+  "scheme": [
+   {
+    "step": "Split into $\\dfrac{1}{(x-1)^2}-\\dfrac{2}{(x-1)^3}$ and $f$, $f'$ identified",
+    "marks": 1
+   },
+   {
+    "step": "$\\dfrac{e^x}{(x-1)^2}+C$",
+    "marks": 1
+   }
+  ],
+  "topic": "e^x[f(x)+f'(x)]",
+  "hint": "Write the numerator using the bracket in the denominator.",
+  "label": "NCERT-based",
+  "stars": 3
+ },
+ {
+  "id": "maths-ch-07-q23",
+  "chapter": "ch-07",
+  "type": "vsa2",
+  "marks": 2,
+  "stem": "Evaluate $\\displaystyle\\int _1^4\\lvert x-2\\rvert\\,dx$.",
+  "model_answer": "*How much to write: about 5 lines · 3 minutes.*\n\n$\\lvert x-2\\rvert=2-x$ for $x\\le2$ and $x-2$ for $x\\ge2$, so <u>split at $x=2$</u>:\n\n<mark>$I=\\displaystyle\\int_1^2(2-x)\\,dx+\\int_2^4(x-2)\\,dx$</mark> $=\\left[2x-\\dfrac{x^2}{2}\\right]_1^2+\\left[\\dfrac{x^2}{2}-2x\\right]_2^4=\\dfrac12+2$\n\n$$\\boxed{\\dfrac52}$$\n\n:::tip Your answer must contain\n- the two cases of the modulus\n- two integrals\n- limits applied to both\n:::\n\n**Marks are lost for:** integrating $x-2$ over the whole interval, which gives $\\dfrac32$.",
+  "scheme": [
+   {
+    "step": "Integral split at $x=2$ with the correct signs",
+    "marks": 1
+   },
+   {
+    "step": "Value $\\dfrac52$",
+    "marks": 1
+   }
+  ],
+  "topic": "Properties of definite integrals",
+  "hint": "Where does $x-2$ change sign?",
+  "label": "PYQ-style",
+  "stars": 3
+ },
+ {
+  "id": "maths-ch-07-q24",
+  "chapter": "ch-07",
+  "type": "sa3",
+  "marks": 3,
+  "stem": "Find $\\displaystyle\\int e^x\\sin x\\,dx$.",
+  "model_answer": "*How much to write: about 9 lines · 5 minutes.*\n\nLet $I=\\displaystyle\\int e^x\\sin x\\,dx$. By parts with $u=\\sin x$, $v=e^x$: $\\ I=e^x\\sin x-\\displaystyle\\int e^x\\cos x\\,dx$\n\nBy parts again on the new integral: $\\displaystyle\\int e^x\\cos x\\,dx=e^x\\cos x+\\int e^x\\sin x\\,dx=e^x\\cos x+I$\n\nSo <mark>$I=e^x\\sin x-e^x\\cos x-I$</mark>, that is $2I=e^x(\\sin x-\\cos x)$.\n\n$$\\boxed{\\dfrac{e^x}{2}(\\sin x-\\cos x)+C}$$\n\n:::tip Your answer must contain\n- the integral named $I$\n- by parts shown twice\n- the line $2I=\\dots$\n- $+C$\n:::\n\n**Marks are lost for:** changing the choice of first function in the second step: the two steps then cancel and you get $0=0$.",
+  "scheme": [
+   {
+    "step": "First integration by parts",
+    "marks": 1
+   },
+   {
+    "step": "Second integration by parts; $I$ reappears",
+    "marks": 1
+   },
+   {
+    "step": "Solved: $\\dfrac{e^x}{2}(\\sin x-\\cos x)+C$",
+    "marks": 1
+   }
+  ],
+  "topic": "Integration by parts",
+  "hint": "By parts twice; the original integral returns. Call it $I$ and solve.",
+  "label": "NCERT-based",
+  "stars": 3
+ },
+ {
+  "id": "maths-ch-07-q25",
+  "chapter": "ch-07",
+  "type": "sa3",
+  "marks": 3,
+  "stem": "Find $\\displaystyle\\int \\dfrac{5x+3}{\\sqrt{x^2+4x+10}}\\,dx$.",
+  "model_answer": "*How much to write: about 9 lines · 5 minutes.*\n\n$\\dfrac{d}{dx}(x^2+4x+10)=2x+4$. Write <mark>$5x+3=\\dfrac52(2x+4)-7$</mark>.\n\n$I=\\dfrac52\\displaystyle\\int\\dfrac{2x+4}{\\sqrt{x^2+4x+10}}\\,dx-7\\int\\dfrac{dx}{\\sqrt{(x+2)^2+6}}$\n\nFirst part: put $t=x^2+4x+10$: $\\dfrac52\\cdot2\\sqrt t=5\\sqrt{x^2+4x+10}$. Second part: standard form $\\displaystyle\\int\\dfrac{dX}{\\sqrt{X^2+a^2}}$ with $X=x+2$.\n\n$$\\boxed{\\begin{aligned}&5\\sqrt{x^2+4x+10}\\\\&-7\\log\\left|x+2+\\sqrt{x^2+4x+10}\\right|+C\\end{aligned}}$$\n\n:::tip Your answer must contain\n- numerator as $A\\times$(derivative) $+B$\n- the square completed: $(x+2)^2+6$\n- both parts and $+C$\n:::\n\n**Marks are lost for:** forgetting that $\\displaystyle\\int\\dfrac{dt}{\\sqrt t}=2\\sqrt t$, not $\\sqrt t$.",
+  "scheme": [
+   {
+    "step": "$5x+3=\\dfrac52(2x+4)-7$",
+    "marks": 1
+   },
+   {
+    "step": "First integral $=5\\sqrt{x^2+4x+10}$",
+    "marks": 1
+   },
+   {
+    "step": "Second integral and the final answer with $+C$",
+    "marks": 1
+   }
+  ],
+  "topic": "Quadratic forms",
+  "hint": "Numerator = $A\\times$(derivative of the quadratic) $+B$.",
+  "label": "NCERT-based",
+  "stars": 3
+ },
+ {
+  "id": "maths-ch-07-q26",
+  "chapter": "ch-07",
+  "type": "sa3",
+  "marks": 3,
+  "stem": "Find $\\displaystyle\\int \\sqrt{x^2+4x+6}\\,dx$.",
+  "model_answer": "*How much to write: about 9 lines · 5 minutes.*\n\nComplete the square: <mark>$x^2+4x+6=(x+2)^2+(\\sqrt2)^2$</mark>\n\nUse $\\displaystyle\\int\\sqrt{X^2+a^2}\\,dX=\\dfrac X2\\sqrt{X^2+a^2}+\\dfrac{a^2}{2}\\log\\left\\lvert X+\\sqrt{X^2+a^2}\\right\\rvert+C$ with $X=x+2$, $a^2=2$.\n\n$$\\boxed{\\begin{aligned}&\\dfrac{x+2}{2}\\sqrt{x^2+4x+6}\\\\&+\\log\\left|x+2+\\sqrt{x^2+4x+6}\\right|+C\\end{aligned}}$$\n\n:::tip Your answer must contain\n- the completed square\n- the formula written before substituting\n- $\\dfrac{a^2}{2}=1$ worked out\n:::\n\n**Marks are lost for:** using $a=2$ instead of $a^2=2$.",
+  "scheme": [
+   {
+    "step": "Square completed",
+    "marks": 1
+   },
+   {
+    "step": "Correct standard formula quoted",
+    "marks": 1
+   },
+   {
+    "step": "Substituted answer with $+C$",
+    "marks": 1
+   }
+  ],
+  "topic": "Quadratic forms",
+  "hint": "Complete the square, then quote the formula for $\\sqrt{X^2+a^2}$.",
+  "label": "NCERT-based",
+  "stars": 2
+ },
+ {
+  "id": "maths-ch-07-q27",
+  "chapter": "ch-07",
+  "type": "sa3",
+  "marks": 3,
+  "stem": "Find $\\displaystyle\\int \\dfrac{3x-1}{(x-1)(x-2)(x-3)}\\,dx$.",
+  "model_answer": "*How much to write: about 9 lines · 5 minutes.*\n\nLet $\\dfrac{3x-1}{(x-1)(x-2)(x-3)}=\\dfrac{A}{x-1}+\\dfrac{B}{x-2}+\\dfrac{C}{x-3}$\n\n$3x-1=A(x-2)(x-3)+B(x-1)(x-3)+C(x-1)(x-2)$\n\nPut $x=1$: $2=2A$, $A=1$. Put $x=2$: $5=-B$, $B=-5$. Put $x=3$: $8=2C$, <mark>$C=4$</mark>.\n\n$$\\boxed{\\begin{aligned}&\\log|x-1|-5\\log|x-2|\\\\&+4\\log|x-3|+K\\end{aligned}}$$\n\n:::tip Your answer must contain\n- the assumed form\n- the three substitutions\n- modulus signs in the logs\n:::\n\n**Marks are lost for:** sign slips at $x=2$, where $(x-1)(x-3)=-1$.",
+  "scheme": [
+   {
+    "step": "Correct form of partial fractions",
+    "marks": 1
+   },
+   {
+    "step": "$A=1$, $B=-5$, $C=4$",
+    "marks": 1
+   },
+   {
+    "step": "Integration to three logs with the constant",
+    "marks": 1
+   }
+  ],
+  "topic": "Partial fractions",
+  "hint": "Three different linear factors: three constants, found by putting $x=1,2,3$.",
+  "label": "NCERT-based",
+  "stars": 3
+ },
+ {
+  "id": "maths-ch-07-q28",
+  "chapter": "ch-07",
+  "type": "sa3",
+  "marks": 3,
+  "stem": "Find $\\displaystyle\\int \\dfrac{\\sin x}{\\sin(x+a)}\\,dx$.",
+  "model_answer": "*How much to write: about 9 lines · 5 minutes.*\n\nWrite $x=(x+a)-a$: <mark>$\\sin x=\\sin(x+a)\\cos a-\\cos(x+a)\\sin a$</mark>\n\n$I=\\displaystyle\\int\\big[\\cos a-\\sin a\\cot(x+a)\\big]\\,dx$, where $\\cos a$ and $\\sin a$ are <u>constants</u>.\n\n$$\\boxed{x\\cos a-\\sin a\\,\\log|\\sin(x+a)|+C}$$\n\n:::tip Your answer must contain\n- the angle rewritten\n- the compound-angle expansion\n- $\\displaystyle\\int\\cot\\theta\\,d\\theta=\\log\\lvert\\sin\\theta\\rvert$\n:::\n\n**Marks are lost for:** treating $a$ as a variable.",
+  "scheme": [
+   {
+    "step": "$\\sin x$ expanded as $\\sin\\big((x+a)-a\\big)$",
+    "marks": 1.5
+   },
+   {
+    "step": "Integrand reduced to $\\cos a-\\sin a\\cot(x+a)$",
+    "marks": 0.5
+   },
+   {
+    "step": "$x\\cos a-\\sin a\\log\\lvert\\sin(x+a)\\rvert+C$",
+    "marks": 1
+   }
+  ],
+  "topic": "Trigonometric integrals",
+  "hint": "Express the angle on top using the angle in the denominator.",
+  "label": "NCERT-based",
+  "stars": 3
+ },
+ {
+  "id": "maths-ch-07-q29",
+  "chapter": "ch-07",
+  "type": "sa3",
+  "marks": 3,
+  "stem": "Evaluate $\\displaystyle\\int _0^{\\pi/4}\\log(1+\\tan x)\\,dx$.",
+  "model_answer": "*How much to write: about 9 lines · 5 minutes.*\n\nLet $I=\\displaystyle\\int_0^{\\pi/4}\\log(1+\\tan x)\\,dx$. Using $\\displaystyle\\int_0^af(x)\\,dx=\\int_0^af(a-x)\\,dx$:\n\n$1+\\tan\\left(\\dfrac\\pi4-x\\right)=1+\\dfrac{1-\\tan x}{1+\\tan x}=\\dfrac{2}{1+\\tan x}$\n\n<mark>$I=\\displaystyle\\int_0^{\\pi/4}\\big[\\log2-\\log(1+\\tan x)\\big]dx=\\dfrac\\pi4\\log2-I$</mark>, so $2I=\\dfrac\\pi4\\log2$.\n\n$$\\boxed{\\dfrac\\pi8\\log2}$$\n\n:::tip Your answer must contain\n- the property written out\n- the $\\tan(A-B)$ step\n- the line $2I=\\dots$\n:::\n\n**Marks are lost for:** trying to integrate $\\log(1+\\tan x)$ by parts.",
+  "scheme": [
+   {
+    "step": "Property stated and applied",
+    "marks": 1
+   },
+   {
+    "step": "$1+\\tan\\left(\\dfrac\\pi4-x\\right)=\\dfrac{2}{1+\\tan x}$",
+    "marks": 1
+   },
+   {
+    "step": "$2I=\\dfrac\\pi4\\log2$ and $I=\\dfrac\\pi8\\log2$",
+    "marks": 1
+   }
+  ],
+  "topic": "Properties of definite integrals",
+  "hint": "Replace $x$ by $\\dfrac\\pi4-x$ and simplify $1+\\tan\\left(\\dfrac\\pi4-x\\right)$.",
+  "label": "NCERT-based",
+  "stars": 3
+ },
+ {
+  "id": "maths-ch-07-q30",
+  "chapter": "ch-07",
+  "type": "la5",
+  "marks": 5,
+  "stem": "Evaluate $\\displaystyle\\int _0^{\\pi/2}\\log\\sin x\\,dx$.",
+  "model_answer": "*How much to write: about 15 lines · 9 minutes.*\n\nLet $I=\\displaystyle\\int_0^{\\pi/2}\\log\\sin x\\,dx$ … (1). Replacing $x$ by $\\dfrac\\pi2-x$: $\\ I=\\displaystyle\\int_0^{\\pi/2}\\log\\cos x\\,dx$ … (2)\n\nAdding: $2I=\\displaystyle\\int_0^{\\pi/2}\\log(\\sin x\\cos x)\\,dx=\\int_0^{\\pi/2}\\log\\dfrac{\\sin2x}{2}\\,dx$\n\n$2I=\\displaystyle\\int_0^{\\pi/2}\\log\\sin2x\\,dx-\\dfrac\\pi2\\log2$\n\nIn the first integral put $2x=t$: it becomes $\\dfrac12\\displaystyle\\int_0^{\\pi}\\log\\sin t\\,dt=\\dfrac12\\cdot2\\int_0^{\\pi/2}\\log\\sin t\\,dt=I$, because <mark>$\\sin(\\pi-t)=\\sin t$</mark>.\n\nSo $2I=I-\\dfrac\\pi2\\log2$.\n\n$$\\boxed{I=-\\dfrac\\pi2\\log2}$$\n\n:::tip Your answer must contain\n- equations (1) and (2)\n- the substitution $2x=t$ with new limits $0$ to $\\pi$\n- the property $\\displaystyle\\int_0^{2a}f=2\\int_0^af$ when $f(2a-x)=f(x)$\n- the final value\n:::\n\n**Marks are lost for:** claiming $\\displaystyle\\int_0^{\\pi/2}\\log\\sin2x\\,dx=I$ without showing why.",
+  "scheme": [
+   {
+    "step": "Property applied: (2) obtained",
+    "marks": 1
+   },
+   {
+    "step": "Added; $\\sin x\\cos x=\\dfrac{\\sin2x}{2}$ used",
+    "marks": 1
+   },
+   {
+    "step": "Log split: $-\\dfrac\\pi2\\log2$ separated",
+    "marks": 1
+   },
+   {
+    "step": "$\\displaystyle\\int_0^{\\pi/2}\\log\\sin2x\\,dx=I$ shown",
+    "marks": 1.5
+   },
+   {
+    "step": "$I=-\\dfrac\\pi2\\log2$",
+    "marks": 0.5
+   }
+  ],
+  "topic": "Properties of definite integrals",
+  "hint": "Get a second form with $\\cos x$, add, and use $\\sin2x$.",
+  "label": "NCERT-based",
+  "stars": 3
+ },
+ {
+  "id": "maths-ch-07-q31",
+  "chapter": "ch-07",
+  "type": "la5",
+  "marks": 5,
+  "stem": "Evaluate $\\displaystyle\\int _0^{\\pi}\\dfrac{x}{1+\\sin x}\\,dx$.",
+  "model_answer": "*How much to write: about 15 lines · 9 minutes.*\n\nLet $I=\\displaystyle\\int_0^\\pi\\dfrac{x}{1+\\sin x}\\,dx$ … (1). Replacing $x$ by $\\pi-x$, and using $\\sin(\\pi-x)=\\sin x$: $\\ I=\\displaystyle\\int_0^\\pi\\dfrac{\\pi-x}{1+\\sin x}\\,dx$ … (2)\n\nAdding: <mark>$2I=\\pi\\displaystyle\\int_0^\\pi\\dfrac{dx}{1+\\sin x}$</mark>\n\nMultiply by the conjugate: $\\dfrac{1}{1+\\sin x}=\\dfrac{1-\\sin x}{\\cos^2x}=\\sec^2x-\\sec x\\tan x$\n\n$2I=\\pi\\Big[\\tan x-\\sec x\\Big]_0^\\pi=\\pi\\big[(0+1)-(0-1)\\big]=2\\pi$\n\n$$\\boxed{I=\\pi}$$\n\n:::tip Your answer must contain\n- equations (1) and (2)\n- the sum $2I$\n- the conjugate step\n- $\\sec\\pi=-1$ used correctly\n:::\n\n**Marks are lost for:** taking $\\sec\\pi=1$; forgetting to halve at the end.",
+  "scheme": [
+   {
+    "step": "Property applied: (2) obtained",
+    "marks": 1
+   },
+   {
+    "step": "Added: $2I=\\pi\\displaystyle\\int_0^\\pi\\dfrac{dx}{1+\\sin x}$",
+    "marks": 1
+   },
+   {
+    "step": "Integrand written as $\\sec^2x-\\sec x\\tan x$",
+    "marks": 1
+   },
+   {
+    "step": "Integrated and limits applied: $2I=2\\pi$",
+    "marks": 1.5
+   },
+   {
+    "step": "$I=\\pi$",
+    "marks": 0.5
+   }
+  ],
+  "topic": "Properties of definite integrals",
+  "hint": "An $x$ times a function of $\\sin x$ from 0 to $\\pi$: replace $x$ by $\\pi-x$ and add.",
+  "label": "PYQ-style",
+  "stars": 3
+ },
+ {
+  "id": "maths-ch-07-q32",
+  "chapter": "ch-07",
+  "type": "la5",
+  "marks": 5,
+  "stem": "Find $\\displaystyle\\int \\dfrac{x^2+x+1}{(x+2)(x^2+1)}\\,dx$.",
+  "model_answer": "*How much to write: about 15 lines · 9 minutes.*\n\nLet $\\dfrac{x^2+x+1}{(x+2)(x^2+1)}=\\dfrac{A}{x+2}+\\dfrac{Bx+C}{x^2+1}$\n\n$x^2+x+1=A(x^2+1)+(Bx+C)(x+2)$\n\nPut $x=-2$: $3=5A$, so $A=\\dfrac35$. Comparing coefficients of $x^2$: $1=A+B$, so $B=\\dfrac25$. Constant terms: $1=A+2C$, so <mark>$C=\\dfrac15$</mark>.\n\n$I=\\dfrac35\\displaystyle\\int\\dfrac{dx}{x+2}+\\dfrac15\\int\\dfrac{2x}{x^2+1}\\,dx+\\dfrac15\\int\\dfrac{dx}{x^2+1}$\n\n$$\\boxed{\\begin{aligned}&\\dfrac35\\log|x+2|+\\dfrac15\\log(x^2+1)\\\\&+\\dfrac15\\tan^{-1}x+K\\end{aligned}}$$\n\n:::tip Your answer must contain\n- $Bx+C$ over the quadratic factor\n- how each constant was found\n- the middle term split so that $2x$ sits over $x^2+1$\n:::\n\n**Marks are lost for:** writing only a constant over $x^2+1$; integrating $\\dfrac{x}{x^2+1}$ as $\\tan^{-1}x$.",
+  "scheme": [
+   {
+    "step": "Form $\\dfrac{A}{x+2}+\\dfrac{Bx+C}{x^2+1}$",
+    "marks": 1
+   },
+   {
+    "step": "$A=\\dfrac35$, $B=\\dfrac25$, $C=\\dfrac15$",
+    "marks": 1.5
+   },
+   {
+    "step": "Integral split into three standard parts",
+    "marks": 1
+   },
+   {
+    "step": "Each part integrated; final answer with constant",
+    "marks": 1.5
+   }
+  ],
+  "topic": "Partial fractions",
+  "hint": "A quadratic factor that does not factorise needs $Bx+C$ on top.",
+  "label": "NCERT-based",
+  "stars": 3
+ },
+ {
+  "id": "maths-ch-07-q33",
+  "chapter": "ch-07",
+  "type": "case",
+  "marks": 4,
+  "stars": 3,
+  "label": "PYQ-style",
+  "stem": "**Three look-alikes.** A teacher writes three integrals on the board and tells the class that they look alike but need three different methods:<br>$I_1=\\displaystyle\\int\\dfrac{x}{x^2+1}\\,dx$,  $I_2=\\displaystyle\\int\\dfrac{x^2}{x^2+1}\\,dx$,  $I_3=\\displaystyle\\int x\\tan^{-1}x\\,dx$.",
+  "parts": [
+   {
+    "id": "i",
+    "stem": "Find $I_1$.",
+    "marks": 1,
+    "model_answer": "The numerator is half the derivative of the denominator: put $t=x^2+1$. $I_1=\\dfrac12\\log(x^2+1)+C$.",
+    "scheme": [
+     {
+      "step": "$\\dfrac12\\log(x^2+1)+C$",
+      "marks": 1
+     }
+    ]
+   },
+   {
+    "id": "ii",
+    "stem": "Find $I_2$.",
+    "marks": 1,
+    "model_answer": "Same degree top and bottom, so divide: $\\dfrac{x^2}{x^2+1}=1-\\dfrac{1}{x^2+1}$. $I_2=x-\\tan^{-1}x+C$.",
+    "scheme": [
+     {
+      "step": "$x-\\tan^{-1}x+C$",
+      "marks": 1
+     }
+    ]
+   },
+   {
+    "id": "iii",
+    "stem": "Find $I_3$.<br>**OR** Evaluate $\\displaystyle\\int_0^1\\dfrac{x}{x^2+1}\\,dx$.",
+    "marks": 2,
+    "model_answer": "By parts with $u=\\tan^{-1}x$, $v=x$: $I_3=\\dfrac{x^2}{2}\\tan^{-1}x-\\dfrac12\\displaystyle\\int\\dfrac{x^2}{1+x^2}\\,dx$. The remaining integral is $I_2$, so <mark>$I_3=\\dfrac{x^2}{2}\\tan^{-1}x-\\dfrac12\\left(x-\\tan^{-1}x\\right)+C$</mark>.<br>**OR:** $\\left[\\dfrac12\\log(x^2+1)\\right]_0^1=\\dfrac12\\log2$.",
+    "scheme": [
+     {
+      "step": "By parts set up with $u=\\tan^{-1}x$ (OR: antiderivative $\\dfrac12\\log(x^2+1)$)",
+      "marks": 1
+     },
+     {
+      "step": "$\\dfrac{x^2+1}{2}\\tan^{-1}x-\\dfrac x2+C$ (OR: $\\dfrac12\\log2$)",
+      "marks": 1
+     }
+    ]
+   }
+  ],
+  "model_answer": "*How much to write: about 10 lines · 7 minutes in all.*\n\n**(i)** Put $t=x^2+1$, $dt=2x\\,dx$: $I_1=\\dfrac12\\log(x^2+1)+C$.\n\n**(ii)** Divide first: $\\dfrac{x^2}{x^2+1}=1-\\dfrac{1}{x^2+1}$, so $I_2=x-\\tan^{-1}x+C$.\n\n**(iii)** By parts, <u>inverse function first</u>: $I_3=\\dfrac{x^2}{2}\\tan^{-1}x-\\dfrac12I_2$\n\n$$\\boxed{I_3=\\dfrac{x^2+1}{2}\\tan^{-1}x-\\dfrac x2+C}$$\n\n**OR:** $\\displaystyle\\int_0^1\\dfrac{x}{x^2+1}\\,dx=\\dfrac12\\log2$.\n\n:::tip Your answer must contain\n- the method named for each part: substitution, division, by parts\n- $+C$ on each indefinite integral\n:::\n\n**Marks are lost for:** using partial fractions on $x^2+1$, which does not factorise.",
+  "topic": "Choosing the method",
+  "hint": "Ask of each one: derivative beside the function? improper fraction? product of two kinds?"
+ },
+ {
   "id": "maths-pyq25-03",
   "chapter": "ch-07",
   "type": "mcq",

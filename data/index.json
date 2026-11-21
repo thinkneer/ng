@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-19",
+  "generated": "2026-11-21",
   "classes": [
     {
       "id": "9",
@@ -2033,26 +2033,27 @@
                       },
                       "marks_hint": "about 9 marks in the 2026–27 sample paper (Unit III Calculus: 35)",
                       "summary": "Substitution · partial fractions · by parts · quadratic forms · definite integrals and their properties",
-                      "questions": 22,
+                      "questions": 43,
                       "question_types": {
-                        "mcq": 8,
-                        "ar": 2,
-                        "vsa2": 2,
-                        "sa3": 8,
-                        "la5": 1,
-                        "case": 1
+                        "mcq": 13,
+                        "ar": 4,
+                        "vsa2": 6,
+                        "sa3": 14,
+                        "la5": 4,
+                        "case": 2
                       },
                       "diagrams": [],
                       "blocks": {
+                        "steps": 3,
+                        "fill": 4,
                         "mnemonic": 3,
-                        "fill": 2,
-                        "steps": 2,
                         "numerical": 1,
-                        "derive": 1
+                        "derive": 2,
+                        "explain": 1
                       },
-                      "words": 2226,
-                      "read_minutes": 6,
-                      "cards": 12,
+                      "words": 3479,
+                      "read_minutes": 11,
+                      "cards": 15,
                       "mnemonics": 3
                     },
                     {

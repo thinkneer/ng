@@ -1,6 +1,6 @@
 # Class 12 Science · Maths — status
 
-_Last updated 19 Nov 2026 (Maths chat: board papers 2026 and 2025 added as past papers)._ Board paper: 9 Mar 2027. Boards only.
+_Last updated 21 Nov 2026 (Maths chat: ch-07 Integrals deepened before Pre-board 2; story opening and hook cards)._ Board paper: 9 Mar 2027. Boards only.
 
 ## Done on the site
 **Batch 1 — Unit III Calculus (35 marks): ch-05 to ch-09.** Each chapter has all five files.
@@ -36,6 +36,14 @@ _Last updated 19 Nov 2026 (Maths chat: board papers 2026 and 2025 added as past 
 - All questions are labelled `PYQ-style` or `NCERT-based`; none is labelled with a year. Stars are estimates.
 - Every answer and every worked example was checked by computation (sympy). Every `$…$` expression in the Maths content was parsed with the site's KaTeX build (0 errors). `node scripts/build-index.mjs` passes with 0 warnings.
 - `subject.json → not_in_syllabus` now lists the deleted topics chapter by chapter.
+
+## Ch-07 Integrals deepened (21 Nov 2026, a student's request two days before the pre-board)
+- **Read:** new opening section "Why integrals exist" (Archimedes' strips, Newton and Leibniz, the ∫ sign as a stretched S, where integrals are used) with our own drawing `ch07-strips`; new "Which method? Read the integrand first" (a six-step method ladder as `ng-steps`, a spot-the-method `ng-fill`); new "Trigonometric integrals" section (even and odd powers, product to sum, three tricks); six more worked examples (root of a quadratic, divide first, a lone log, the integral that comes back, finding f and f′, rewrite the angle); a "when to think of a property" tip; `ng-derive` for ∫ log(1 + tan x) and an `ng-explain`. Notes are now about 3 280 words (limit 3 500: split before adding more).
+- **Must know:** six method-cue lines and two traps added.
+- **Practice:** 21 new questions `maths-ch-07-q13` … `q33` (5 MCQ, 2 A–R, 4 two-mark, 6 three-mark, 3 five-mark, 1 case), all in answer-script style with hints, every result checked by differentiation or numerical integration. Chapter bank: 43.
+- **Cards:** three story cards at the front of the deck (`hook-strips`, `hook-summa`, `hook-uses`); the deck is at the 15-card limit.
+- **Hook slides for every chapter** (admin idea, 21 Nov): done here with what content can do today (an opening Read section + story cards at the front of the deck). A proper "Start here" intro before a chapter opens is a Site-chat feature; the request is in the project doc `site-request-chapter-hook-slides.md`. History in hook content must stay checkable and plain (no legends presented as fact).
+- content-check maths ch-07: 0 FAIL, 0 WARN.
 
 ## Past papers (19 Nov 2026; admin decision: Past papers section for every subject)
 - `papers/board-2026.json` and `papers/board-2025.json`: the CBSE board papers of 2026 and 2025 (set 65/1/1 each), rebuilt question by question in our own words, same order and marks (38 questions, 80 marks, internal choices kept), with our own answer-script answers and step marks. 90 new bank questions: `maths-pyq26-…` labelled `PYQ (2026)` and `maths-pyq25-…` labelled `PYQ (2025)` (45 each: 38 + 7 internal-choice alternatives). Both open under Exam mode → Set papers.
