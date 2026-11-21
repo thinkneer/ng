@@ -184,12 +184,13 @@ async function adminDb() {
 }
 
 /* ---------- new member + reset password (db mode, needs supabase/migrations/005) ---------- */
+/** Temporary passwords are read out by voice: lower-case letters and digits only (no capitals to get wrong),
+ *  no look-alikes (l/1, o/0, i), shaped like "kmr7-p4tx" so it is easy to say and type. */
 const makePassword = () => {
-  const abc = 'abcdefghjkmnpqrstuvwxyz', dig = '23456789', all = abc + abc.toUpperCase() + dig;
+  const abc = 'abcdefghjkmnpqrstuvwxyz', dig = '23456789';
   const r = (set) => set[crypto.getRandomValues(new Uint32Array(1))[0] % set.length];
-  let p = r(abc) + r(abc.toUpperCase()) + r(dig);
-  while (p.length < 10) p += r(all);
-  return [...p].sort(() => crypto.getRandomValues(new Uint8Array(1))[0] - 128).join('');
+  const part = () => { const a = [r(abc), r(abc), r(abc), r(dig)]; return a.sort(() => crypto.getRandomValues(new Uint8Array(1))[0] - 128).join(''); };
+  return `${part()}-${part()}`;
 };
 
 /** Sheet: create a member who is approved at once, like DAME Hub: username + temporary password, no email (needs 005). */
@@ -251,11 +252,11 @@ export function newMember(c, idx, people = []) {
 const SETUP_005 = 'One-time setup: run supabase/migrations/005_username_accounts.sql in the Supabase SQL Editor, then try again.';
 const setupHint = (e) => (/could not find the function|in the schema cache/i.test(e?.message || '') ? SETUP_005 : errText(e));
 /** What the admin reads out to the member once: username + temporary password. */
-const tempShown = (nickname, pass, line) => `
+const tempShown = (nickname, pass, line, login = nickname) => `
   <div class="t-headline">${esc(nickname)} can sign in</div>
   <p class="t-2 t-subhead mt-1">${esc(line)} Tell them these by voice, not in writing. They choose their own password at the first sign-in. The password is not shown again.</p>
   <div class="card mt-4" style="background:var(--surface-2)">
-    <div class="t-footnote t-2">Username</div><div class="t-title3 t-mono" style="user-select:all">${esc(nickname)}</div>
+    <div class="t-footnote t-2">${login.includes('@') ? 'Sign in with their email (not the nickname)' : 'Username'}</div><div class="t-title3 t-mono" style="user-select:all">${esc(login)}</div>
     <div class="t-footnote t-2 mt-2">Temporary password</div><div class="t-title3 t-mono" style="user-select:all;letter-spacing:.04em">${esc(pass)}</div>
   </div>
   <button class="btn btn--block mt-4" type="button" id="tp-done">Done</button>`;
@@ -276,10 +277,11 @@ function resetPassword(c, u) {
     const pass = $('#rp-pass').value, err = $('#rp-err');
     if (pass.length < 8 || !/[A-Za-z]/.test(pass) || !/\d/.test(pass)) { err.textContent = 'At least 8 characters with letters and a number.'; err.hidden = false; return; }
     e.target.disabled = true;
-    const { error } = await c.rpc('admin_set_password', { p_user: u.id, p_password: pass });
+    const { data: login, error } = await c.rpc('admin_set_password', { p_user: u.id, p_password: pass });
     if (error) { e.target.disabled = false; err.textContent = setupHint(error); err.hidden = false; return; }
     haptic('success');
-    panel.innerHTML = tempShown(u.nickname, pass, 'New temporary password set.');
+    // 006 returns what they type in "Username or email" (username, or their masked email); before 006 it returns nothing
+    panel.innerHTML = tempShown(u.nickname, pass, 'New temporary password set.', typeof login === 'string' && login ? login : u.nickname);
     panel.querySelector('#tp-done').addEventListener('click', () => sheet.close());
   });
 }

@@ -96,9 +96,9 @@ export async function request(route) {
         <label for="r-nick">Nickname</label>
         <input id="r-nick" autocomplete="username" autocapitalize="none" spellcheck="false" placeholder="3–20 letters, digits or _">
         <label for="r-pass" class="mt-4">Passphrase</label>
-        <input id="r-pass" type="password" autocomplete="new-password" placeholder="At least 8 characters">
+        <input id="r-pass" type="password" autocapitalize="none" autocorrect="off" spellcheck="false" autocomplete="new-password" placeholder="At least 8 characters">
         <label for="r-pass2" class="mt-4">Passphrase again</label>
-        <input id="r-pass2" type="password" autocomplete="new-password">
+        <input id="r-pass2" type="password" autocapitalize="none" autocorrect="off" spellcheck="false" autocomplete="new-password">
         <label for="r-class" class="mt-4" ${raw(liveOpts.length < 2 ? 'hidden' : '')}>Class</label>
         <select id="r-class" ${raw(liveOpts.length < 2 ? 'hidden' : '')}>${raw(liveOpts.map((o) => `<option value="${o.value}">${esc(o.label)}</option>`).join(''))}</select>
         ${raw(liveOpts.length < 2 ? `<p class="t-footnote t-2 mt-4">For ${esc(liveOpts[0]?.label || '')}. All subjects are included; you can drop any of them later.</p>` : '<p class="t-footnote t-2 mt-2">All subjects are included; you can drop any of them later.</p>')}
@@ -169,8 +169,8 @@ async function emailSignin(route) {
         <label for="e-mail" class="${signup ? 'mt-4' : ''}">${signup ? 'Email' : 'Username or email'}</label>
         <input id="e-mail" type="${signup ? 'email' : 'text'}" inputmode="${signup ? 'email' : 'text'}" autocomplete="${signup ? 'email' : 'username'}" autocapitalize="none" spellcheck="false" value="${remembered}">
         <label for="e-pass" class="mt-4">Password</label>
-        <div class="auth__pass"><input id="e-pass" type="password" autocomplete="${signup ? 'new-password' : 'current-password'}" placeholder="${signup ? 'At least 8 characters' : ''}" minlength="8" required><button class="icon-btn" type="button" id="peek" aria-label="Show password">${raw(icon('eye'))}</button></div>
-        ${signup ? html`<label for="e-pass2" class="mt-4">Password again</label><div class="auth__pass"><input id="e-pass2" type="password" autocomplete="new-password" minlength="8" required><button class="icon-btn" type="button" id="peek2" aria-label="Show password">${raw(icon('eye'))}</button></div><p class="t-footnote t-3 mt-2">Use at least 8 characters with letters and a number. Don’t reuse a password from anywhere else, and never share it.</p>` : ''}
+        <div class="auth__pass"><input id="e-pass" type="password" autocapitalize="none" autocorrect="off" spellcheck="false" autocomplete="${signup ? 'new-password' : 'current-password'}" placeholder="${signup ? 'At least 8 characters' : ''}" minlength="8" required><button class="icon-btn" type="button" id="peek" aria-label="Show password">${raw(icon('eye'))}</button></div>
+        ${signup ? html`<label for="e-pass2" class="mt-4">Password again</label><div class="auth__pass"><input id="e-pass2" type="password" autocapitalize="none" autocorrect="off" spellcheck="false" autocomplete="new-password" minlength="8" required><button class="icon-btn" type="button" id="peek2" aria-label="Show password">${raw(icon('eye'))}</button></div><p class="t-footnote t-3 mt-2">Use at least 8 characters with letters and a number. Don’t reuse a password from anywhere else, and never share it.</p>` : ''}
         ${signup && liveOpts.length > 1 ? html`<label for="e-class" class="mt-4">Class</label><select id="e-class">${raw(liveOpts.map((o) => `<option value="${o.value}">${esc(o.label)}</option>`).join(''))}</select>` : ''}
         <p class="auth__err" id="e-err" role="alert" hidden></p>
         <button class="btn btn--block mt-4" type="submit" id="e-go">${signup ? 'Create my account' : 'Sign in'}</button>
@@ -228,7 +228,7 @@ async function emailSignin(route) {
           }
         } catch (ex) {
           const m = ex?.message || '';
-          fail(/invalid login/i.test(m) ? (signup ? 'Email or password is wrong.' : 'Username / email or password is wrong.')
+          fail(/invalid login/i.test(m) ? (signup ? 'Email or password is wrong.' : typed.includes('@') ? 'Email or password is wrong.' : 'Username or password is wrong. Joined with an email? Type that email here instead of your nickname.')
             : /already registered|already exists/i.test(m) ? 'That email already has an account. Sign in instead (or use Forgot password).'
             : /not confirmed/i.test(m) ? 'Confirm your email first (check your inbox), then sign in.'
             : /email.*rate limit|rate limit.*email|email_send_rate/i.test(m) ? 'Supabase’s email limit for this hour is used up (it still tries to send a confirmation email). Admin: turn off “Confirm email” in Supabase Auth; then this works without any email.'
@@ -261,9 +261,9 @@ export async function reset() {
         <h1 class="t-title2">${first ? 'Choose your own password' : 'Choose a new password'}</h1>
         ${first ? html`<p class="t-2 t-subhead mt-1">You signed in with a temporary password. Pick your own now; only you will know it. Use at least 8 characters with letters and a number, and don’t share it.</p>` : ''}
         <label for="r-pass" class="mt-4">New password</label>
-        <input id="r-pass" type="password" autocomplete="new-password" placeholder="At least 8 characters">
+        <input id="r-pass" type="password" autocapitalize="none" autocorrect="off" spellcheck="false" autocomplete="new-password" placeholder="At least 8 characters">
         <label for="r-pass2" class="mt-4">Again</label>
-        <input id="r-pass2" type="password" autocomplete="new-password">
+        <input id="r-pass2" type="password" autocapitalize="none" autocorrect="off" spellcheck="false" autocomplete="new-password">
         <p class="auth__err" id="r-err" role="alert" hidden></p>
         <button class="btn btn--block mt-4" type="submit" id="r-go">Save and sign in</button>
         ${first ? '' : html`<div class="auth__foot"><a href="#/signin">Back to sign in</a></div>`}
