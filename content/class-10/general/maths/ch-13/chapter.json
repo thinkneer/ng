@@ -1,0 +1,16 @@
+{
+  "$schema": "../../../../../schemas/chapter.schema.json",
+  "id": "ch-13",
+  "number": 13,
+  "title": "Statistics",
+  "unit": "VII",
+  "marks_hint": "Unit VII Statistics and Probability: 11 marks",
+  "summary": "Mean of grouped data (three methods) · mode · median · empirical relationship",
+  "status": {
+    "notes": "ready",
+    "mustknow": "ready",
+    "formulas": "ready",
+    "questions": "ready"
+  },
+  "updated": "2026-11-23"
+}

@@ -1,0 +1,16 @@
+{
+  "$schema": "../../../../../schemas/chapter.schema.json",
+  "id": "ch-14",
+  "number": 14,
+  "title": "Probability",
+  "unit": "VII",
+  "marks_hint": "Unit VII Statistics and Probability: 11 marks",
+  "summary": "Theoretical probability · complementary events · coins, dice, cards, bags",
+  "status": {
+    "notes": "ready",
+    "mustknow": "ready",
+    "formulas": "ready",
+    "questions": "ready"
+  },
+  "updated": "2026-11-23"
+}

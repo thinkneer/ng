@@ -1,0 +1,319 @@
+[
+ {
+  "id": "maths10-13-q01",
+  "chapter": "ch-13",
+  "type": "mcq",
+  "marks": 1,
+  "stem": "The class mark of the class 10–25 is",
+  "options": [
+   "$15$",
+   "$17.5$",
+   "$25$",
+   "$35$"
+  ],
+  "answer": "B",
+  "model_answer": "**(b).** $\\dfrac{10+25}{2}=17.5$.",
+  "stars": 2,
+  "label": "NCERT-based",
+  "topic": "Grouped data",
+  "hint": "Average of the two class limits."
+ },
+ {
+  "id": "maths10-13-q02",
+  "chapter": "ch-13",
+  "type": "mcq",
+  "marks": 1,
+  "stem": "For a distribution the median is 26 and the mode is 29. Using the empirical relationship, the mean is",
+  "options": [
+   "$24.5$",
+   "$27.5$",
+   "$23$",
+   "$32$"
+  ],
+  "answer": "A",
+  "model_answer": "**(a).** $3(26)=29+2\\,\\text{Mean}\\Rightarrow\\text{Mean}=\\dfrac{78-29}{2}=24.5$.",
+  "stars": 3,
+  "label": "PYQ-style",
+  "topic": "Empirical relationship",
+  "hint": "3 Median = Mode + 2 Mean."
+ },
+ {
+  "id": "maths10-13-q03",
+  "chapter": "ch-13",
+  "type": "mcq",
+  "marks": 1,
+  "stem": "A distribution has classes 0–10, 10–20, 20–30, 30–40, 40–50 with frequencies 6, 10, 16, 18, 10. The median class is",
+  "options": [
+   "10–20",
+   "20–30",
+   "30–40",
+   "40–50"
+  ],
+  "answer": "B",
+  "model_answer": "**(b).** $n=60$, $\\dfrac n2=30$. Cumulative frequencies: 6, 16, 32, 50, 60. The first to reach 30 is 32, in the class 20–30.",
+  "stars": 3,
+  "label": "PYQ-style",
+  "topic": "Median",
+  "hint": "Make the cumulative frequencies and look for n/2."
+ },
+ {
+  "id": "maths10-13-q04",
+  "chapter": "ch-13",
+  "type": "mcq",
+  "marks": 1,
+  "stem": "In the formula $\\text{Mode}=l+\\dfrac{f_1-f_0}{2f_1-f_0-f_2}\\times h$, the symbol $f_0$ stands for the frequency of",
+  "options": [
+   "the modal class",
+   "the class preceding the modal class",
+   "the class succeeding the modal class",
+   "the median class"
+  ],
+  "answer": "B",
+  "model_answer": "**(b).** $f_1$ is the modal class, $f_0$ the class before it and $f_2$ the class after it.",
+  "stars": 3,
+  "label": "NCERT-based",
+  "topic": "Mode",
+  "hint": "0 before, 1 the winner, 2 after."
+ },
+ {
+  "id": "maths10-13-q05",
+  "chapter": "ch-13",
+  "type": "mcq",
+  "marks": 1,
+  "stem": "If $\\sum f_i=40$ and $\\sum f_ix_i=1120$, then the mean of the distribution is",
+  "options": [
+   "$26$",
+   "$28$",
+   "$30$",
+   "$1080$"
+  ],
+  "answer": "B",
+  "model_answer": "**(b).** $\\bar x=\\dfrac{1120}{40}=28$.",
+  "stars": 2,
+  "label": "PYQ-style",
+  "topic": "Mean",
+  "hint": "Divide the total by the number of observations."
+ },
+ {
+  "id": "maths10-13-q06",
+  "chapter": "ch-13",
+  "type": "ar",
+  "marks": 1,
+  "stem": "**Assertion (A):** If the mean of a distribution is 27 and its median is 28, then its mode is about 30.<br>**Reason (R):** Mean, median and mode are connected by the empirical relationship 3 Median = Mode + 2 Mean.",
+  "options": [
+   "Both A and R are true, and R is the correct explanation of A.",
+   "Both A and R are true, but R is not the correct explanation of A.",
+   "A is true, but R is false.",
+   "A is false, but R is true."
+  ],
+  "answer": "A",
+  "model_answer": "**(a).** Mode $=3(28)-2(27)=84-54=30$, from the relationship in R.",
+  "stars": 3,
+  "label": "PYQ-style",
+  "topic": "Empirical relationship",
+  "hint": "Substitute in 3 Median = Mode + 2 Mean."
+ },
+ {
+  "id": "maths10-13-q07",
+  "chapter": "ch-13",
+  "type": "ar",
+  "marks": 1,
+  "stem": "**Assertion (A):** In a grouped frequency distribution, the modal class is the class with the highest frequency.<br>**Reason (R):** The mode of grouped data is always the mid-point of the modal class.",
+  "options": [
+   "Both A and R are true, and R is the correct explanation of A.",
+   "Both A and R are true, but R is not the correct explanation of A.",
+   "A is true, but R is false.",
+   "A is false, but R is true."
+  ],
+  "answer": "C",
+  "model_answer": "**(c).** A is the definition. R is false: the mode is found by the formula and usually is not the mid-point (it is pulled towards the neighbouring class with the larger frequency).",
+  "stars": 2,
+  "label": "PYQ-style",
+  "topic": "Mode",
+  "hint": "Is the mode always exactly in the middle of the modal class?"
+ },
+ {
+  "id": "maths10-13-q08",
+  "chapter": "ch-13",
+  "type": "vsa2",
+  "marks": 2,
+  "stem": "Find the mode of the following distribution.\n\n| Class | Frequency |\n|---|---|\n| 0–20 | 6 |\n| 20–40 | 8 |\n| 40–60 | 10 |\n| 60–80 | 12 |\n| 80–100 | 6 |",
+  "model_answer": "*How much to write: about 5 lines · 3 minutes.*\n\nHighest frequency is 12, so the <u>modal class is 60–80</u>: $l=60$, $h=20$, $f_1=12$, $f_0=10$, $f_2=6$.\n\n<mark>Mode $=60+\\dfrac{12-10}{2(12)-10-6}\\times20$</mark> $=60+\\dfrac28\\times20$\n\n$$\\boxed{\\text{Mode}=65}$$\n\n:::tip Your answer must contain\n- the modal class named\n- $f_0$, $f_1$, $f_2$ written\n- the formula with numbers\n:::\n\n**Marks are lost for:** swapping $f_0$ and $f_2$.",
+  "scheme": [
+   {
+    "step": "Modal class and the five values",
+    "marks": 1
+   },
+   {
+    "step": "Mode = 65",
+    "marks": 1
+   }
+  ],
+  "stars": 3,
+  "label": "NCERT-based",
+  "topic": "Mode",
+  "hint": "Modal class first; then f0 is the class before, f2 the class after."
+ },
+ {
+  "id": "maths10-13-q09",
+  "chapter": "ch-13",
+  "type": "vsa2",
+  "marks": 2,
+  "stem": "Find the mean of the following distribution by the direct method.\n\n| Class | Frequency |\n|---|---|\n| 0–10 | 3 |\n| 10–20 | 5 |\n| 20–30 | 9 |\n| 30–40 | 5 |\n| 40–50 | 3 |",
+  "model_answer": "*How much to write: about 5 lines · 3 minutes.*\n\n| $x_i$ | $f_i$ | $f_ix_i$ |\n|---|---|---|\n| 5 | 3 | 15 |\n| 15 | 5 | 75 |\n| 25 | 9 | 225 |\n| 35 | 5 | 175 |\n| 45 | 3 | 135 |\n| **Total** | **25** | **625** |\n\n<mark>$\\bar x=\\dfrac{\\sum f_ix_i}{\\sum f_i}=\\dfrac{625}{25}$</mark>\n\n$$\\boxed{\\bar x=25}$$\n\n:::tip Your answer must contain\n- the table\n- both totals\n- the formula\n:::\n\n**Marks are lost for:** using class limits instead of class marks.",
+  "scheme": [
+   {
+    "step": "Table with class marks and $f_ix_i$; totals",
+    "marks": 1
+   },
+   {
+    "step": "Mean = 25",
+    "marks": 1
+   }
+  ],
+  "stars": 3,
+  "label": "NCERT-based",
+  "topic": "Mean",
+  "hint": "Class marks are 5, 15, 25, 35, 45."
+ },
+ {
+  "id": "maths10-13-q10",
+  "chapter": "ch-13",
+  "type": "sa3",
+  "marks": 3,
+  "stem": "Find the median of the following distribution.\n\n| Class | Frequency |\n|---|---|\n| 0–10 | 6 |\n| 10–20 | 9 |\n| 20–30 | 20 |\n| 30–40 | 14 |\n| 40–50 | 7 |\n| 50–60 | 4 |",
+  "model_answer": "*How much to write: about 9 lines · 5 minutes.*\n\n| Class | $f$ | cf |\n|---|---|---|\n| 0–10 | 6 | 6 |\n| 10–20 | 9 | 15 |\n| 20–30 | 20 | 35 |\n| 30–40 | 14 | 49 |\n| 40–50 | 7 | 56 |\n| 50–60 | 4 | 60 |\n\n$n=60$, $\\dfrac n2=30$. The first cf ≥ 30 is 35, so the <u>median class is 20–30</u>: $l=20$, $cf=15$, $f=20$, $h=10$.\n\n<mark>Median $=20+\\dfrac{30-15}{20}\\times10$</mark> $=20+7.5$\n\n$$\\boxed{\\text{Median}=27.5}$$\n\n:::tip Your answer must contain\n- the cf column\n- the median class named\n- cf of the class before (15)\n:::\n\n**Marks are lost for:** using 35 (the cf of the median class itself) in the formula.",
+  "scheme": [
+   {
+    "step": "cf column and $\\dfrac n2=30$",
+    "marks": 1
+   },
+   {
+    "step": "Median class with $l$, $cf$, $f$, $h$",
+    "marks": 1
+   },
+   {
+    "step": "Median = 27.5",
+    "marks": 1
+   }
+  ],
+  "stars": 3,
+  "label": "NCERT-based",
+  "topic": "Median",
+  "hint": "Find n/2, then the first class whose cf reaches it."
+ },
+ {
+  "id": "maths10-13-q11",
+  "chapter": "ch-13",
+  "type": "sa3",
+  "marks": 3,
+  "stem": "The mean of the following distribution is 46. Find the missing frequency $p$.\n\n| Class | Frequency |\n|---|---|\n| 0–20 | 5 |\n| 20–40 | 7 |\n| 40–60 | $p$ |\n| 60–80 | 6 |\n| 80–100 | 2 |",
+  "model_answer": "*How much to write: about 9 lines · 5 minutes.*\n\n| $x_i$ | $f_i$ | $f_ix_i$ |\n|---|---|---|\n| 10 | 5 | 50 |\n| 30 | 7 | 210 |\n| 50 | $p$ | $50p$ |\n| 70 | 6 | 420 |\n| 90 | 2 | 180 |\n| **Total** | $20+p$ | $860+50p$ |\n\n<mark>$\\dfrac{860+50p}{20+p}=46$</mark>\n\n$860+50p=920+46p\\Rightarrow4p=60$\n\n$$\\boxed{p=15}$$\n\n:::tip Your answer must contain\n- the table with $p$ in it\n- the equation\n- the value of $p$\n:::\n\n**Marks are lost for:** leaving $p$ out of $\\sum f_i$.",
+  "scheme": [
+   {
+    "step": "Table with totals $20+p$ and $860+50p$",
+    "marks": 1
+   },
+   {
+    "step": "Equation from the mean",
+    "marks": 1
+   },
+   {
+    "step": "$p=15$",
+    "marks": 1
+   }
+  ],
+  "stars": 3,
+  "label": "PYQ-style",
+  "topic": "Missing frequency",
+  "hint": "Write both totals in terms of p and use mean = Σfx / Σf."
+ },
+ {
+  "id": "maths10-13-q12",
+  "chapter": "ch-13",
+  "type": "la5",
+  "marks": 5,
+  "stem": "The median of the following distribution is 28 and the total frequency is 50. Find the missing frequencies $x$ and $y$.\n\n| Class | Frequency |\n|---|---|\n| 0–10 | 4 |\n| 10–20 | $x$ |\n| 20–30 | 15 |\n| 30–40 | 10 |\n| 40–50 | $y$ |\n| 50–60 | 6 |",
+  "model_answer": "*How much to write: about 15 lines · 9 minutes.*\n\n| Class | $f$ | cf |\n|---|---|---|\n| 0–10 | 4 | 4 |\n| 10–20 | $x$ | $4+x$ |\n| 20–30 | 15 | $19+x$ |\n| 30–40 | 10 | $29+x$ |\n| 40–50 | $y$ | $29+x+y$ |\n| 50–60 | 6 | $35+x+y$ |\n\nTotal: $35+x+y=50\\Rightarrow x+y=15$ … (1)\n\nThe median 28 lies in 20–30, so that is the <u>median class</u>: $l=20$, $cf=4+x$, $f=15$, $h=10$, $\\dfrac n2=25$.\n\n<mark>$28=20+\\dfrac{25-(4+x)}{15}\\times10$</mark>\n\n$8=\\dfrac{2(21-x)}{3}\\Rightarrow21-x=12\\Rightarrow x=9$. From (1): $y=6$.\n\n$$\\boxed{x=9,\\quad y=6}$$\n\n:::tip Your answer must contain\n- the cf column with letters\n- the equation from the total\n- the equation from the median\n- both values\n:::\n\n**Marks are lost for:** taking the median class by guesswork without saying the median lies in it.",
+  "scheme": [
+   {
+    "step": "cf column in terms of $x$, $y$",
+    "marks": 1
+   },
+   {
+    "step": "$x+y=15$",
+    "marks": 1
+   },
+   {
+    "step": "Median class and its values",
+    "marks": 1
+   },
+   {
+    "step": "Median equation; $x=9$",
+    "marks": 1.5
+   },
+   {
+    "step": "$y=6$",
+    "marks": 0.5
+   }
+  ],
+  "stars": 3,
+  "label": "PYQ-style",
+  "topic": "Missing frequency",
+  "hint": "One equation comes from the total, the other from the median formula."
+ },
+ {
+  "id": "maths10-13-q13",
+  "chapter": "ch-13",
+  "type": "case",
+  "marks": 4,
+  "stem": "**The class test.** The marks obtained by 50 students of a class in a test (out of 100) are grouped as follows.\n\n| Marks | Students |\n|---|---|\n| 0–20 | 4 |\n| 20–40 | 10 |\n| 40–60 | 16 |\n| 60–80 | 12 |\n| 80–100 | 8 |",
+  "parts": [
+   {
+    "id": "i",
+    "stem": "Write the modal class.",
+    "marks": 1,
+    "model_answer": "40–60 (highest frequency, 16).",
+    "scheme": [
+     {
+      "step": "40–60",
+      "marks": 1
+     }
+    ]
+   },
+   {
+    "id": "ii",
+    "stem": "Find the sum of the lower limit of the median class and the upper limit of the modal class.",
+    "marks": 1,
+    "model_answer": "cf: 4, 14, 30, 42, 50; $\\dfrac n2=25$, median class 40–60. Sum $=40+60=100$.",
+    "scheme": [
+     {
+      "step": "Median class 40–60; sum 100",
+      "marks": 1
+     }
+    ]
+   },
+   {
+    "id": "iii",
+    "stem": "Find the mode of the marks.<br>**OR** Find the median of the marks.",
+    "marks": 2,
+    "model_answer": "Mode $=40+\\dfrac{16-10}{32-10-12}\\times20=40+12=52$.<br>**OR:** Median $=40+\\dfrac{25-14}{16}\\times20=40+13.75=53.75$.",
+    "scheme": [
+     {
+      "step": "Formula with correct values",
+      "marks": 1
+     },
+     {
+      "step": "Mode 52 (OR: median 53.75)",
+      "marks": 1
+     }
+    ]
+   }
+  ],
+  "model_answer": "*How much to write: about 8 lines · 7 minutes in all.*\n\n**(i)** Modal class: 40–60.\n\n**(ii)** cf: 4, 14, 30, 42, 50; $\\dfrac n2=25$, so the <u>median class is 40–60</u>. Required sum $=40+60=100$.\n\n**(iii)** $l=40$, $h=20$, $f_1=16$, $f_0=10$, $f_2=12$:\n\n$$\\boxed{\\text{Mode}=40+\\dfrac{6}{10}\\times20=52}$$\n\n**OR:** <mark>Median $=40+\\dfrac{25-14}{16}\\times20=53.75$</mark>.\n\n:::tip Your answer must contain\n- the cumulative frequencies\n- the class named before the formula\n- the formula with numbers\n:::\n\n**Marks are lost for:** using cf = 30 (the median class's own cf) in the median formula.",
+  "stars": 3,
+  "label": "PYQ-style",
+  "topic": "Mode and median",
+  "hint": "Highest frequency gives the modal class; n/2 gives the median class."
+ }
+]

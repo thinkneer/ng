@@ -1,0 +1,319 @@
+[
+ {
+  "id": "maths10-14-q01",
+  "chapter": "ch-14",
+  "type": "mcq",
+  "marks": 1,
+  "stem": "Which of the following cannot be the probability of an event?",
+  "options": [
+   "$\\dfrac23$",
+   "$0.7$",
+   "$15\\%$",
+   "$\\dfrac76$"
+  ],
+  "answer": "D",
+  "model_answer": "**(d).** A probability lies between 0 and 1. $\\dfrac76>1$, so it cannot be a probability.",
+  "stars": 2,
+  "label": "NCERT-based",
+  "topic": "Range of probability",
+  "hint": "Probability is never more than 1."
+ },
+ {
+  "id": "maths10-14-q02",
+  "chapter": "ch-14",
+  "type": "mcq",
+  "marks": 1,
+  "stem": "If $P(E)=0.37$, then $P(\\text{not }E)$ is",
+  "options": [
+   "$0.37$",
+   "$0.63$",
+   "$0.73$",
+   "$1.37$"
+  ],
+  "answer": "B",
+  "model_answer": "**(b).** $P(\\text{not }E)=1-0.37=0.63$.",
+  "stars": 2,
+  "label": "NCERT-based",
+  "topic": "Complementary events",
+  "hint": "The two probabilities add up to 1."
+ },
+ {
+  "id": "maths10-14-q03",
+  "chapter": "ch-14",
+  "type": "mcq",
+  "marks": 1,
+  "stem": "A card is drawn at random from a well-shuffled pack of 52 cards. The probability that it is a red queen is",
+  "options": [
+   "$\\dfrac{1}{13}$",
+   "$\\dfrac{1}{26}$",
+   "$\\dfrac{1}{52}$",
+   "$\\dfrac{2}{13}$"
+  ],
+  "answer": "B",
+  "model_answer": "**(b).** There are 2 red queens (hearts and diamonds): $\\dfrac{2}{52}=\\dfrac{1}{26}$.",
+  "stars": 3,
+  "label": "PYQ-style",
+  "topic": "Playing cards",
+  "hint": "How many queens are red?"
+ },
+ {
+  "id": "maths10-14-q04",
+  "chapter": "ch-14",
+  "type": "mcq",
+  "marks": 1,
+  "stem": "Two dice are thrown together. The probability that the sum of the numbers is 9 is",
+  "options": [
+   "$\\dfrac{1}{12}$",
+   "$\\dfrac19$",
+   "$\\dfrac16$",
+   "$\\dfrac{5}{36}$"
+  ],
+  "answer": "B",
+  "model_answer": "**(b).** Sum 9: (3, 6), (4, 5), (5, 4), (6, 3): 4 outcomes out of 36, so $\\dfrac{4}{36}=\\dfrac19$.",
+  "stars": 3,
+  "label": "PYQ-style",
+  "topic": "Two dice",
+  "hint": "List the pairs that add up to 9."
+ },
+ {
+  "id": "maths10-14-q05",
+  "chapter": "ch-14",
+  "type": "mcq",
+  "marks": 1,
+  "stem": "A letter is chosen at random from the letters of the word MATHEMATICS. The probability that it is a vowel is",
+  "options": [
+   "$\\dfrac{3}{11}$",
+   "$\\dfrac{4}{11}$",
+   "$\\dfrac{5}{11}$",
+   "$\\dfrac{7}{11}$"
+  ],
+  "answer": "B",
+  "model_answer": "**(b).** 11 letters; the vowels are A, E, A, I: 4 of them. $P=\\dfrac{4}{11}$.",
+  "stars": 2,
+  "label": "PYQ-style",
+  "topic": "Counting outcomes",
+  "hint": "Count every letter, including repeats."
+ },
+ {
+  "id": "maths10-14-q06",
+  "chapter": "ch-14",
+  "type": "ar",
+  "marks": 1,
+  "stem": "**Assertion (A):** When a die is thrown once, the probability of getting a number less than 7 is 1.<br>**Reason (R):** The probability of a sure event is 1.",
+  "options": [
+   "Both A and R are true, and R is the correct explanation of A.",
+   "Both A and R are true, but R is not the correct explanation of A.",
+   "A is true, but R is false.",
+   "A is false, but R is true."
+  ],
+  "answer": "A",
+  "model_answer": "**(a).** Every outcome (1 to 6) is less than 7, so the event is sure; R gives its probability.",
+  "stars": 2,
+  "label": "PYQ-style",
+  "topic": "Sure and impossible events",
+  "hint": "Is there any outcome that is not less than 7?"
+ },
+ {
+  "id": "maths10-14-q07",
+  "chapter": "ch-14",
+  "type": "ar",
+  "marks": 1,
+  "stem": "**Assertion (A):** When two coins are tossed together, the probability of getting two heads is $\\dfrac13$.<br>**Reason (R):** When two coins are tossed, the four outcomes HH, HT, TH and TT are equally likely.",
+  "options": [
+   "Both A and R are true, and R is the correct explanation of A.",
+   "Both A and R are true, but R is not the correct explanation of A.",
+   "A is true, but R is false.",
+   "A is false, but R is true."
+  ],
+  "answer": "D",
+  "model_answer": "**(d).** R is true, and it gives $P(\\text{two heads})=\\dfrac14$, not $\\dfrac13$. So A is false.",
+  "stars": 3,
+  "label": "PYQ-style",
+  "topic": "Coins",
+  "hint": "HT and TH are different outcomes."
+ },
+ {
+  "id": "maths10-14-q08",
+  "chapter": "ch-14",
+  "type": "vsa2",
+  "marks": 2,
+  "stem": "A bag contains 4 red, 6 white and 5 black balls. One ball is drawn at random. Find the probability that the ball is (i) white, (ii) not black.",
+  "model_answer": "*How much to write: about 5 lines · 3 minutes.*\n\nTotal number of balls $=4+6+5=15$.\n\n**(i)** $P(\\text{white})=\\dfrac{6}{15}=\\dfrac25$\n\n**(ii)** <mark>$P(\\text{not black})=1-\\dfrac{5}{15}=\\dfrac{10}{15}=\\dfrac23$</mark>\n\n$$\\boxed{\\dfrac25\\ \\ \\text{and}\\ \\ \\dfrac23}$$\n\n:::tip Your answer must contain\n- the total\n- each fraction before simplifying\n- lowest terms\n:::\n\n**Marks are lost for:** leaving $\\dfrac{6}{15}$ unsimplified.",
+  "scheme": [
+   {
+    "step": "Total 15; $P(\\text{white})=\\dfrac25$",
+    "marks": 1
+   },
+   {
+    "step": "$P(\\text{not black})=\\dfrac23$",
+    "marks": 1
+   }
+  ],
+  "stars": 3,
+  "label": "NCERT-based",
+  "topic": "Bags",
+  "hint": "Total first; 'not black' is 1 − P(black)."
+ },
+ {
+  "id": "maths10-14-q09",
+  "chapter": "ch-14",
+  "type": "vsa2",
+  "marks": 2,
+  "stem": "A number is selected at random from the numbers 1 to 40. Find the probability that it is (i) a perfect square, (ii) a multiple of 7.",
+  "model_answer": "*How much to write: about 5 lines · 3 minutes.*\n\nTotal outcomes $=40$.\n\n**(i)** Perfect squares: 1, 4, 9, 16, 25, 36 (6 numbers). <mark>$P=\\dfrac{6}{40}=\\dfrac{3}{20}$</mark>\n\n**(ii)** Multiples of 7: 7, 14, 21, 28, 35 (5 numbers). $P=\\dfrac{5}{40}=\\dfrac18$\n\n$$\\boxed{\\dfrac{3}{20}\\ \\ \\text{and}\\ \\ \\dfrac18}$$\n\n:::tip Your answer must contain\n- the favourable numbers listed\n- simplified fractions\n:::\n\n**Marks are lost for:** forgetting 1 as a perfect square.",
+  "scheme": [
+   {
+    "step": "Squares listed; $\\dfrac{3}{20}$",
+    "marks": 1
+   },
+   {
+    "step": "Multiples listed; $\\dfrac18$",
+    "marks": 1
+   }
+  ],
+  "stars": 3,
+  "label": "PYQ-style",
+  "topic": "Counting outcomes",
+  "hint": "Write the favourable numbers out."
+ },
+ {
+  "id": "maths10-14-q10",
+  "chapter": "ch-14",
+  "type": "sa3",
+  "marks": 3,
+  "stem": "Two dice are thrown at the same time. Find the probability that (i) the numbers on both dice are the same, (ii) the sum of the numbers is 10, (iii) the product of the numbers is 6.",
+  "model_answer": "*How much to write: about 9 lines · 5 minutes.*\n\nTotal number of outcomes $=6\\times6=$ <u>36</u>.\n\n**(i)** Doublets: (1, 1), (2, 2), (3, 3), (4, 4), (5, 5), (6, 6). $P=\\dfrac{6}{36}=\\dfrac16$\n\n**(ii)** Sum 10: (4, 6), (5, 5), (6, 4). <mark>$P=\\dfrac{3}{36}=\\dfrac{1}{12}$</mark>\n\n**(iii)** Product 6: (1, 6), (2, 3), (3, 2), (6, 1). $P=\\dfrac{4}{36}=\\dfrac19$\n\n$$\\boxed{\\dfrac16,\\quad\\dfrac{1}{12},\\quad\\dfrac19}$$\n\n:::tip Your answer must contain\n- 36 as the total\n- the favourable pairs listed for each part\n- simplified answers\n:::\n\n**Marks are lost for:** counting (4, 6) and (6, 4) as one outcome.",
+  "scheme": [
+   {
+    "step": "Doublets: $\\dfrac16$",
+    "marks": 1
+   },
+   {
+    "step": "Sum 10: $\\dfrac{1}{12}$",
+    "marks": 1
+   },
+   {
+    "step": "Product 6: $\\dfrac19$",
+    "marks": 1
+   }
+  ],
+  "stars": 3,
+  "label": "NCERT-based",
+  "topic": "Two dice",
+  "hint": "Total is 36; list the pairs for each event."
+ },
+ {
+  "id": "maths10-14-q11",
+  "chapter": "ch-14",
+  "type": "sa3",
+  "marks": 3,
+  "stem": "All the jacks and queens are removed from a well-shuffled pack of 52 playing cards. One card is then drawn at random from the remaining cards. Find the probability that the card is (i) a face card, (ii) a red card, (iii) an ace or a king.",
+  "model_answer": "*How much to write: about 9 lines · 5 minutes.*\n\nCards removed $=4+4=8$, so <u>cards remaining $=44$</u>.\n\n**(i)** The only face cards left are the 4 kings: $P=\\dfrac{4}{44}=\\dfrac{1}{11}$\n\n**(ii)** Red cards left $=26-4=22$: <mark>$P=\\dfrac{22}{44}=\\dfrac12$</mark>\n\n**(iii)** Aces and kings: $4+4=8$: $P=\\dfrac{8}{44}=\\dfrac{2}{11}$\n\n$$\\boxed{\\dfrac{1}{11},\\quad\\dfrac12,\\quad\\dfrac{2}{11}}$$\n\n:::tip Your answer must contain\n- the new total\n- the count for each event\n- simplified answers\n:::\n\n**Marks are lost for:** dividing by 52 after the cards are removed.",
+  "scheme": [
+   {
+    "step": "New total 44; face card $\\dfrac{1}{11}$",
+    "marks": 1
+   },
+   {
+    "step": "Red card $\\dfrac12$",
+    "marks": 1
+   },
+   {
+    "step": "Ace or king $\\dfrac{2}{11}$",
+    "marks": 1
+   }
+  ],
+  "stars": 3,
+  "label": "PYQ-style",
+  "topic": "Playing cards",
+  "hint": "First find how many cards are left."
+ },
+ {
+  "id": "maths10-14-q12",
+  "chapter": "ch-14",
+  "type": "la5",
+  "marks": 5,
+  "stem": "Three unbiased coins are tossed together. Write all the possible outcomes. Find the probability of getting (i) exactly two heads, (ii) at least two heads, (iii) at most one head, (iv) no head.",
+  "model_answer": "*How much to write: about 15 lines · 9 minutes.*\n\nOutcomes: HHH, HHT, HTH, THH, HTT, THT, TTH, TTT. Total $=$ <u>8</u>.\n\n**(i)** Exactly two heads: HHT, HTH, THH. $P=\\dfrac38$\n\n**(ii)** At least two heads (two or three): HHT, HTH, THH, HHH. <mark>$P=\\dfrac48=\\dfrac12$</mark>\n\n**(iii)** At most one head (none or one): TTT, HTT, THT, TTH. $P=\\dfrac48=\\dfrac12$\n\n**(iv)** No head: TTT. $P=\\dfrac18$\n\n$$\\boxed{\\dfrac38,\\quad\\dfrac12,\\quad\\dfrac12,\\quad\\dfrac18}$$\n\n:::tip Your answer must contain\n- the full list of outcomes\n- the favourable outcomes for each part\n- what 'at least' and 'at most' include\n:::\n\n**Marks are lost for:** treating 'at least two' as 'exactly two'.",
+  "scheme": [
+   {
+    "step": "All 8 outcomes listed",
+    "marks": 1
+   },
+   {
+    "step": "Exactly two heads: $\\dfrac38$",
+    "marks": 1
+   },
+   {
+    "step": "At least two heads: $\\dfrac12$",
+    "marks": 1
+   },
+   {
+    "step": "At most one head: $\\dfrac12$",
+    "marks": 1
+   },
+   {
+    "step": "No head: $\\dfrac18$",
+    "marks": 1
+   }
+  ],
+  "stars": 3,
+  "label": "NCERT-based",
+  "topic": "Coins",
+  "hint": "Three coins give 8 outcomes; 'at least two' includes three."
+ },
+ {
+  "id": "maths10-14-q13",
+  "chapter": "ch-14",
+  "type": "case",
+  "marks": 4,
+  "stem": "**The school fair.** At a stall in a school fair, a box holds 50 identical tokens numbered 1 to 50. A player draws one token without looking. Prizes depend on the number drawn.",
+  "parts": [
+   {
+    "id": "i",
+    "stem": "Find the probability that the number drawn is a multiple of 5.",
+    "marks": 1,
+    "model_answer": "Multiples of 5: 5, 10, …, 50: 10 numbers. $P=\\dfrac{10}{50}=\\dfrac15$.",
+    "scheme": [
+     {
+      "step": "$\\dfrac15$",
+      "marks": 1
+     }
+    ]
+   },
+   {
+    "id": "ii",
+    "stem": "Find the probability that the number drawn is a two-digit number.",
+    "marks": 1,
+    "model_answer": "Two-digit numbers: 10 to 50, that is 41 numbers. $P=\\dfrac{41}{50}$.",
+    "scheme": [
+     {
+      "step": "$\\dfrac{41}{50}$",
+      "marks": 1
+     }
+    ]
+   },
+   {
+    "id": "iii",
+    "stem": "Find the probability that the number drawn is a perfect square.<br>**OR** Find the probability that the number drawn is a prime number.",
+    "marks": 2,
+    "model_answer": "Perfect squares: 1, 4, 9, 16, 25, 36, 49: 7 numbers. $P=\\dfrac{7}{50}$.<br>**OR:** Primes: 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47: 15 numbers. $P=\\dfrac{15}{50}=\\dfrac{3}{10}$.",
+    "scheme": [
+     {
+      "step": "Favourable numbers listed",
+      "marks": 1
+     },
+     {
+      "step": "$\\dfrac{7}{50}$ (OR: $\\dfrac{3}{10}$)",
+      "marks": 1
+     }
+    ]
+   }
+  ],
+  "model_answer": "*How much to write: about 6 lines · 5 minutes in all.*\n\nTotal outcomes $=50$.\n\n**(i)** Multiples of 5: 10 numbers; $P=\\dfrac15$.\n\n**(ii)** <u>Two-digit numbers</u>: $50-9=41$; $P=\\dfrac{41}{50}$.\n\n**(iii)** Perfect squares 1, 4, 9, 16, 25, 36, 49:\n\n$$\\boxed{P=\\dfrac{7}{50}}$$\n\n**OR:** <mark>15 primes up to 50</mark>, so $P=\\dfrac{15}{50}=\\dfrac{3}{10}$.\n\n:::tip Your answer must contain\n- the total, 50\n- the favourable numbers counted or listed\n- simplified fractions\n:::\n\n**Marks are lost for:** counting 1 as a prime, or missing 49 as a square.",
+  "stars": 3,
+  "label": "PYQ-style",
+  "topic": "Counting outcomes",
+  "hint": "Count the favourable numbers carefully; the total is 50."
+ }
+]

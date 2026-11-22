@@ -905,23 +905,78 @@
                       "number": 13,
                       "title": "Statistics",
                       "unit": "VII",
-                      "items": {},
-                      "marks_hint": null,
-                      "summary": null,
-                      "questions": 0,
-                      "question_types": {},
-                      "mnemonics": 2
+                      "items": {
+                        "notes": true,
+                        "mustknow": true,
+                        "formulas": true,
+                        "cards": true,
+                        "questions": true
+                      },
+                      "marks_hint": "Unit VII Statistics and Probability: 11 marks",
+                      "summary": "Mean of grouped data (three methods) · mode · median · empirical relationship",
+                      "questions": 13,
+                      "question_types": {
+                        "mcq": 5,
+                        "ar": 2,
+                        "vsa2": 2,
+                        "sa3": 2,
+                        "la5": 1,
+                        "case": 1
+                      },
+                      "diagrams": [],
+                      "blocks": {
+                        "figure": 1,
+                        "fill": 1,
+                        "numerical": 3,
+                        "mnemonic": 2,
+                        "steps": 1,
+                        "compare": 1,
+                        "explain": 1
+                      },
+                      "words": 1945,
+                      "read_minutes": 6,
+                      "cards": 10,
+                      "mnemonics": 4
                     },
                     {
                       "id": "ch-14",
                       "number": 14,
                       "title": "Probability",
                       "unit": "VII",
-                      "items": {},
-                      "marks_hint": null,
-                      "summary": null,
-                      "questions": 0,
-                      "question_types": {}
+                      "items": {
+                        "notes": true,
+                        "mustknow": true,
+                        "formulas": true,
+                        "cards": true,
+                        "questions": true
+                      },
+                      "marks_hint": "Unit VII Statistics and Probability: 11 marks",
+                      "summary": "Theoretical probability · complementary events · coins, dice, cards, bags",
+                      "questions": 13,
+                      "question_types": {
+                        "mcq": 5,
+                        "ar": 2,
+                        "vsa2": 2,
+                        "sa3": 2,
+                        "la5": 1,
+                        "case": 1
+                      },
+                      "diagrams": [],
+                      "blocks": {
+                        "compare": 1,
+                        "derive": 1,
+                        "mnemonic": 2,
+                        "fill": 2,
+                        "figure": 2,
+                        "draw": 1,
+                        "steps": 1,
+                        "numerical": 1,
+                        "explain": 1
+                      },
+                      "words": 1730,
+                      "read_minutes": 5,
+                      "cards": 10,
+                      "mnemonics": 2
                     }
                   ]
                 }
@@ -951,10 +1006,10 @@
               },
               "papers": [],
               "counts": {
-                "notes": 12,
-                "mustknow": 12,
-                "formulas": 12,
-                "questions": 12,
+                "notes": 14,
+                "mustknow": 14,
+                "formulas": 14,
+                "questions": 14,
                 "chapters": 14
               },
               "exam_mode": "built"
@@ -2898,7 +2953,7 @@
                       "words": 2277,
                       "read_minutes": 7,
                       "cards": 10,
-                      "mnemonics": 2
+                      "mnemonics": 4
                     }
                   ]
                 }

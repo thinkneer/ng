@@ -541,6 +541,66 @@
    "prompt": "Name the four parts of a graphical LPP answer."
   }
  ],
+ "maths/ch-13": [
+  {
+   "id": "mode-before-after",
+   "title": "The three frequencies in the mode formula",
+   "trick": "**0 before, 1 the winner, 2 after**",
+   "meaning": [
+    "$f_1$ is the highest frequency (the winner). $f_0$ is the class just **before** it, $f_2$ the class just **after** it. Top: winner − before. Bottom: twice the winner − before − after."
+   ],
+   "prompt": "In the mode formula, what are f0, f1 and f2?"
+  },
+  {
+   "id": "empirical-three-one-two",
+   "title": "The empirical formula",
+   "trick": "**3 Medians = 1 Mode + 2 Means**",
+   "meaning": [
+    "Say it like a recipe: **3** medians make **1** mode and **2** means. Given any two of the measures, the third follows from it."
+   ],
+   "prompt": "Write the empirical relationship between mean, median and mode."
+  },
+  {
+   "id": "given-goes-down",
+   "title": "Which event goes in the denominator?",
+   "trick": "**Given goes down**",
+   "meaning": [
+    "In $P(E\\mid F)$ the event after the bar is the one that is known; it goes **down** into the denominator: $\\dfrac{P(E\\cap F)}{P(F)}$.",
+    "So $P(E\\mid F)$ and $P(F\\mid E)$ have different denominators and are different numbers in general."
+   ],
+   "prompt": "In P(E | F), which probability is in the denominator?"
+  },
+  {
+   "id": "my-path-over-all-paths",
+   "title": "Bayes' theorem on a tree",
+   "trick": "**My path ÷ all paths**",
+   "meaning": [
+    "Multiply along each branch that ends in the observed result.",
+    "Bayes' answer = (the path through the cause asked about) ÷ (the sum of all those paths)."
+   ],
+   "prompt": "On a probability tree, what is Bayes' theorem in four words?"
+  }
+ ],
+ "maths/ch-14": [
+  {
+   "id": "favourable-over-total",
+   "title": "The probability fraction",
+   "trick": "**F over T: Favourable over Total**",
+   "meaning": [
+    "Count the **F**avourable outcomes for the top, **T**otal outcomes for the bottom. If your answer is more than 1 or negative, you have counted wrongly."
+   ],
+   "prompt": "What goes on the top and the bottom of the probability fraction?"
+  },
+  {
+   "id": "at-least-one",
+   "title": "\"At least one\"",
+   "trick": "**At least one = 1 − none**",
+   "meaning": [
+    "Instead of counting every case with one or more, count the single case with **none** and subtract from 1."
+   ],
+   "prompt": "How do you find the probability of \"at least one\" quickly?"
+  }
+ ],
  "physics/ch-01": [
   {
    "id": "field-line-rules",
@@ -1286,28 +1346,6 @@
     "Pyrimidines (one ring): **C**ytosine, **U**racil, **T**hymine."
    ],
    "prompt": "Which bases are purines?"
-  }
- ],
- "maths/ch-13": [
-  {
-   "id": "given-goes-down",
-   "title": "Which event goes in the denominator?",
-   "trick": "**Given goes down**",
-   "meaning": [
-    "In $P(E\\mid F)$ the event after the bar is the one that is known; it goes **down** into the denominator: $\\dfrac{P(E\\cap F)}{P(F)}$.",
-    "So $P(E\\mid F)$ and $P(F\\mid E)$ have different denominators and are different numbers in general."
-   ],
-   "prompt": "In P(E | F), which probability is in the denominator?"
-  },
-  {
-   "id": "my-path-over-all-paths",
-   "title": "Bayes' theorem on a tree",
-   "trick": "**My path ÷ all paths**",
-   "meaning": [
-    "Multiply along each branch that ends in the observed result.",
-    "Bayes' answer = (the path through the cause asked about) ÷ (the sum of all those paths)."
-   ],
-   "prompt": "On a probability tree, what is Bayes' theorem in four words?"
   }
  ],
  "biology/ch-01": [

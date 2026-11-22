@@ -1,0 +1,113 @@
+[
+  {
+    "id": "hook-pascal-fermat",
+    "kind": "event",
+    "title": "It began with a game",
+    "svg": "ref: notes#probability-scale",
+    "tags": [
+      "story"
+    ],
+    "back": "In 1654 Pascal and Fermat wrote to each other about a gambler's puzzle. Their letters are usually counted as the start of probability."
+  },
+  {
+    "id": "probability-formula",
+    "kind": "formula",
+    "title": "Probability of an event",
+    "tex": "P(E)=\\dfrac{\\text{favourable}}{\\text{total}}",
+    "stars": 3,
+    "tags": [
+      "1-mark"
+    ],
+    "back": "The outcomes must be equally likely. The answer is always between 0 and 1."
+  },
+  {
+    "id": "complement",
+    "kind": "formula",
+    "title": "Not E",
+    "tex": "P(\\overline E)=1-P(E)",
+    "stars": 3,
+    "tags": [
+      "1-mark"
+    ],
+    "back": "Use it for 'not', and for 'at least one' = 1 − P(none)."
+  },
+  {
+    "id": "sure-impossible",
+    "kind": "compare",
+    "title": "The two ends of the scale",
+    "tex": "\\begin{gathered}\\text{impossible}\\to0\\\\ \\text{sure}\\to1\\end{gathered}",
+    "stars": 2,
+    "tags": [
+      "1-mark"
+    ],
+    "back": "Getting 8 on a die: 0. Getting a number less than 7: 1."
+  },
+  {
+    "id": "dice-sum-table",
+    "kind": "figure",
+    "title": "Two dice: 36 outcomes",
+    "svg": "ref: notes#dice-sum-table",
+    "stars": 3,
+    "tags": [
+      "diagram",
+      "3-mark"
+    ],
+    "back": "Sum 7 is the most likely (6 ways). (2, 6) and (6, 2) are different outcomes."
+  },
+  {
+    "id": "deck-figure",
+    "kind": "figure",
+    "title": "The pack of 52 cards",
+    "svg": "ref: notes#deck-figure",
+    "stars": 3,
+    "tags": [
+      "diagram",
+      "3-mark"
+    ],
+    "back": "4 suits of 13; 26 red, 26 black; 12 face cards (J, Q, K); 4 aces."
+  },
+  {
+    "id": "coin-outcomes",
+    "kind": "formula",
+    "title": "Coins",
+    "tex": "\\begin{gathered}1\\text{ coin}\\to2\\\\ 2\\text{ coins}\\to4\\\\ 3\\text{ coins}\\to8\\end{gathered}",
+    "stars": 3,
+    "tags": [
+      "2-mark"
+    ],
+    "back": "Three coins: HHH, HHT, HTH, THH, HTT, THT, TTH, TTT."
+  },
+  {
+    "id": "at-least-one",
+    "kind": "formula",
+    "title": "At least one",
+    "tex": "\\begin{gathered}P(\\text{at least one})\\\\=1-P(\\text{none})\\end{gathered}",
+    "stars": 2,
+    "tags": [
+      "2-mark"
+    ],
+    "back": "Count the single case 'none' and subtract."
+  },
+  {
+    "id": "new-total",
+    "kind": "process",
+    "title": "Cards or balls removed",
+    "tex": "\\begin{gathered}\\text{new total}\\\\ \\downarrow\\\\ \\text{new favourable}\\\\ \\downarrow\\\\ \\text{divide, simplify}\\end{gathered}",
+    "stars": 3,
+    "tags": [
+      "3-mark"
+    ],
+    "back": "The total changes: write the new total first."
+  },
+  {
+    "id": "dice-ways",
+    "kind": "compare",
+    "title": "Ways to get each sum",
+    "tex": "\\begin{gathered}\\text{sum }7\\to6\\text{ ways}\\\\ 6,\\,8\\to5\\quad5,\\,9\\to4\\\\ 4,\\,10\\to3\\quad3,\\,11\\to2\\end{gathered}",
+    "stars": 2,
+    "tags": [
+      "1-mark"
+    ],
+    "back": "Sums 2 and 12 have 1 way each; the count rises to 6 ways for 7, then falls."
+  }
+]
