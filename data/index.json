@@ -3395,7 +3395,7 @@
                         "figure": 1,
                         "fill": 1
                       },
-                      "words": 3268,
+                      "words": 3266,
                       "read_minutes": 10,
                       "cards": 9,
                       "mnemonics": 4
@@ -3430,7 +3430,7 @@
                         "figure": 1,
                         "compare": 1
                       },
-                      "words": 2795,
+                      "words": 2794,
                       "read_minutes": 8,
                       "cards": 9,
                       "mnemonics": 4
@@ -3668,12 +3668,12 @@
                       },
                       "marks_hint": "Poetry extract (6) · 2-mark short answer · occasionally 5-mark (Section C, estimates)",
                       "summary": "Kamala Das · drive to Cochin airport · mother's ashen, corpse-like face · young trees and children as contrast · childhood fear of losing her · smile at parting · similes, imagery, single-sentence form",
-                      "questions": 7,
+                      "questions": 9,
                       "question_types": {
                         "mcq": 2,
                         "case": 1,
-                        "vsa2": 3,
-                        "la5": 1
+                        "vsa2": 4,
+                        "la5": 2
                       },
                       "diagrams": [],
                       "blocks": {
@@ -3808,12 +3808,12 @@
                       },
                       "marks_hint": "Poetry extract (6) · 2-mark short answer · occasionally 5-mark (Section C, estimates)",
                       "summary": "Adrienne Rich · embroidered tigers: bright, fearless, chivalric · Aunt's fluttering fingers, the heavy wedding band · terrified hands ringed with ordeals · tigers outlive her · patriarchy, oppressive marriage, art as escape",
-                      "questions": 8,
+                      "questions": 9,
                       "question_types": {
                         "mcq": 2,
                         "case": 1,
                         "vsa2": 4,
-                        "la5": 1
+                        "la5": 2
                       },
                       "diagrams": [],
                       "blocks": {
@@ -3824,7 +3824,7 @@
                         "figure": 1,
                         "fill": 1
                       },
-                      "words": 2082,
+                      "words": 2090,
                       "read_minutes": 5,
                       "cards": 8,
                       "mnemonics": 4
@@ -3868,7 +3868,7 @@
                         "compare": 1,
                         "figure": 1
                       },
-                      "words": 2849,
+                      "words": 2842,
                       "read_minutes": 8,
                       "cards": 9,
                       "mnemonics": 3
@@ -3938,7 +3938,7 @@
                         "fill": 1,
                         "figure": 1
                       },
-                      "words": 2417,
+                      "words": 2403,
                       "read_minutes": 6,
                       "cards": 9,
                       "mnemonics": 3

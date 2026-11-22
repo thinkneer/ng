@@ -152,5 +152,57 @@
       { "step": "Winter's moon image and the childhood fear", "marks": 1.5 },
       { "step": "The repeated smile and the message; expression and length", "marks": 1 }
     ]
+  },
+  {
+    "id": "eng-w20261122-poem-01-01",
+    "chapter": "poem-01",
+    "type": "la5",
+    "marks": 5,
+    "stars": 2,
+    "label": "PYQ-style",
+    "topic": "time and seasons",
+    "stem": "In 'My Mother at Sixty-six', the poet's grief is carried by time and the seasons. Discuss how the images of the outside world and of the airport express the mother's ageing and the poet's fear of loss. (120–150 words)",
+    "hint": "Time frame: Friday drive → airport → year's close. Outside = youth (trees, children). Ashen face and winter moon = fading life. Fear returns; the smile hides it.",
+    "model_answer": "*How much to write: 120–150 words · about 10 minutes*\n\nKamala Das carries her grief through <u>time and the seasons</u>. The poem is set on a single <u>Friday morning</u> drive, yet it holds a whole life: <mark>a mother already fading</mark> beside a world of youth outside.\n\nOutside, the world is full of <u>youth</u>: young trees sprinting past and children pouring out of their homes. It makes the mother's stillness harder to bear. Her <u>ashen face</u> looks like a corpse, and the poet turns away from it.\n\nAt the airport the image moves towards <u>the year's close</u>. The mother is <mark>pale as a late-winter moon</mark>, dim and near the end of its cycle: a <u>symbol of fading life</u>, not mere tiredness.\n\nHer old fear of losing her mother returns, and the repeated smile is a plea to meet again. A daughter cannot stop her parent's ageing; she can only love her across the time left.\n\n:::tip Your answer must contain\n- Time and the seasons as the frame: the Friday drive, the airport, the year's close\n- The world of youth outside set against the mother's age\n- The ashen face and the winter moon as symbols of fading life\n- The childhood fear and the repeated smile as the poet's response\n:::\n\n**Marks are lost for:** retelling the drive without reading the images; naming the moon without saying what it stands for; missing the link between the images and the poet's fear.",
+    "scheme": [
+      {
+        "step": "Time and seasons as the frame: Friday drive, airport, year's close",
+        "marks": 1
+      },
+      {
+        "step": "Youth outside (trees, children) contrasted with the mother's ageing",
+        "marks": 1
+      },
+      {
+        "step": "Ashen face and late-winter moon as symbols of fading life (two marks)",
+        "marks": 2
+      },
+      {
+        "step": "Poet's fear of loss and the repeated smile; expression and length",
+        "marks": 1
+      }
+    ]
+  },
+  {
+    "id": "eng-w20261122-poem-01-02",
+    "chapter": "poem-01",
+    "type": "vsa2",
+    "marks": 2,
+    "stars": 2,
+    "label": "PYQ-style",
+    "topic": "poet's fear",
+    "stem": "What is the poet's childhood fear, and why does it return at the airport? (40–50 words)",
+    "hint": "Old fear of losing a parent; the sight of ageing and the parting; fear of death hidden behind the smile.",
+    "model_answer": "*How much to write: 40–50 words · about 4 minutes*\n\nThe poet has always dreaded losing her mother; that <u>childhood fear</u> is an old, familiar ache. Seeing her mother's age and the <mark>parting at the airport</mark> brings it back: the fear that the mother may not live long. She hides it behind her smile.\n\n:::tip Your answer must contain\n- The childhood fear of losing her mother\n- Why it returns: the mother's age and the parting\n:::\n\n**Marks are lost for:** naming the fear without saying why it returns.",
+    "scheme": [
+      {
+        "step": "Childhood fear of losing her mother named",
+        "marks": 1
+      },
+      {
+        "step": "Why it returns: the mother's ageing and the airport parting; the smile hides it",
+        "marks": 1
+      }
+    ]
   }
 ]

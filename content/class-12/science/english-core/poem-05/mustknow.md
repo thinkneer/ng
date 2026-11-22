@@ -15,10 +15,10 @@ Stars are estimates: ★★★ most years · ★★ often · ★ sometimes. [mar
 
 ## Must-know lines and definitions
 
-- **Poet:** Adrienne Rich, American poet and feminist.
-- **Form:** three quatrains in rhyming couplets (aabb).
+- **The poet:** Adrienne Rich, American poet and feminist.
+- **Poem's form:** three quatrains in rhyming couplets (aabb).
 - **The tigers:** embroidered on a screen (panel) by Aunt Jennifer.
-- **Prance:** move proudly and playfully — confidence and freedom.
+- **Tigers prance:** move proudly and playfully — confidence and freedom.
 - **Bright topaz:** golden-yellow gem — the tigers' brilliant colour and vitality.
 - **Denizens of a world of green:** inhabitants of the jungle — their own free world.
 - **Do not fear the men beneath the tree:** fearless of male power, unlike the aunt.
@@ -31,9 +31,9 @@ Stars are estimates: ★★★ most years · ★★ often · ★ sometimes. [mar
 - **Tigers go on prancing, proud and unafraid:** art outlives the artist; courage survives in the work.
 - **Tigers symbolise:** freedom, strength, fearlessness, the aunt's suppressed self.
 - **Wedding band symbolises:** oppressive marriage, patriarchy, bondage.
-- **Contrast:** timid, mastered aunt vs proud, free tigers.
-- **Themes:** patriarchy, marriage as constraint, fear, art as escape and permanence.
-- **Tone:** sympathetic, admiring, quietly protesting.
+- **Aunt versus tigers:** timid, mastered aunt vs proud, free tigers.
+- **Main themes:** patriarchy, marriage as constraint, fear, art as escape and permanence.
+- **The poem's tone:** sympathetic, admiring, quietly protesting.
 
 ## Key formulas
 

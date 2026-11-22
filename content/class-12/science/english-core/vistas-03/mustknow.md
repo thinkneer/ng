@@ -15,25 +15,25 @@ Stars are estimates: ★★★ most years · ★★ often · ★ sometimes. [mar
 
 ## Must-know lines and definitions
 
-- **Author:** Tishani Doshi, Indian poet and writer.
+- **The author:** Tishani Doshi, Indian poet and writer.
 - **The ship:** Akademik Shokalskiy, a Russian research vessel.
 - **Starting point:** Madras, 13.09 degrees north of the Equator.
-- **Journey:** over 100 hours; nine time zones; six checkpoints; three bodies of water; three ecospheres.
+- **The journey:** over 100 hours, nine time zones, six checkpoints, three bodies of water.
 - **First impression:** expansive white landscape, uninterrupted blue horizon; relief and wonder.
-- **Gondwana:** southern supercontinent of about 650 million years ago; India and Antarctica were part of it.
+- **Gondwana supercontinent:** southern, about 650 million years ago; India and Antarctica were part of it.
 - **Gondwana's fate:** flourished 500 million years; dinosaurs died; landmass broke into today's continents.
-- **Why Antarctica matters:** pristine, no human history; ice-cores hold half a million years of carbon records; shows drift, evolution, extinction.
+- **Why Antarctica matters:** pristine; ice-cores hold half a million years of carbon records; shows drift, evolution, extinction.
 - **Human time:** about 12,000 years of civilisation — a blink in geological time.
 - **Human impact:** fossil fuels, carbon-dioxide blanket, global warming, fight over resources.
 - **Questions for the future:** will the West Antarctic ice sheet melt? will the Gulf Stream be disrupted?
 - **Students on Ice:** programme by Canadian Geoff Green taking high-school students to the poles.
 - **Why students:** future policy-makers; ready to absorb, learn and act; seeing beats reading.
-- **Phytoplankton:** single-celled plants, grasses of the sea; photosynthesis; base of the marine food chain; absorb carbon.
+- **Phytoplankton, sea grasses:** single-celled plants; photosynthesis; base of the marine food chain; absorb carbon.
 - **Threat to phytoplankton:** ozone depletion lets in UV light that harms them.
-- **Lesson:** take care of the small things and the big things will fall into place.
-- **The walk:** 52 people walk on a metre-thick ice pack over 180 metres of sea; Crabeater seals on floes.
+- **The lesson:** care for small things and big things will follow.
+- **The walk:** 52 people cross a metre-thick ice pack over 180 metres of sea.
 - **Author's feeling:** beauty of balance; wonder whether Antarctica will one day be warm.
-- **Themes:** geological vs human time, climate change, interdependence, education, humility.
+- **Main themes:** geological vs human time, climate change, interdependence, education, humility.
 
 ## Key formulas
 

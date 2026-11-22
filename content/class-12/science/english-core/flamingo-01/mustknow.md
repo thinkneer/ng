@@ -15,25 +15,25 @@ Stars are estimates: ★★★ most years · ★★ often · ★ sometimes. [mar
 
 ## Must-know lines and definitions
 
-- **Author:** Alphonse Daudet (French).
-- **Setting:** a village school in Alsace after France lost the Franco-Prussian War (1870–71).
+- **Story's author:** Alphonse Daudet (French).
+- **Story's setting:** a village school in Alsace after France lost the Franco-Prussian War (1870–71).
 - **Order from Berlin:** only German to be taught in the schools of Alsace and Lorraine.
-- **Narrator:** Franz, a schoolboy who dreaded participles and loved the outdoors.
+- **Story's narrator:** Franz, a schoolboy who dreaded participles and loved the outdoors.
 - **M. Hamel:** French master of the village for forty years; leaving the next day.
 - **Franz's temptations:** warm morning, chirping birds, Prussians drilling behind the sawmill.
 - **Bulletin board:** source of all bad news for two years — battles lost, the draft, orders.
-- **Wachter:** blacksmith who told Franz there was no hurry to reach school.
+- **Wachter the blacksmith:** blacksmith who told Franz there was no hurry to reach school.
 - **Changes Franz noticed:** silence like Sunday, M. Hamel's Sunday clothes, villagers on the back benches.
 - **M. Hamel's Sunday clothes:** green coat, frilled shirt, embroidered black silk cap.
 - **Back benchers:** old Hauser with his primer, the former mayor, the former postmaster.
 - **Franz's regret:** lost lessons spent seeking birds' eggs and sliding on the Saar.
-- **Blame for neglect:** parents (sent children to farms and mills), children (put off learning), M. Hamel himself (flower-watering, fishing holidays).
+- **Blame for neglect:** parents, children and M. Hamel himself, each for putting learning off.
 - **M. Hamel on French:** the most beautiful, clearest, most logical language; guard it.
 - **Key to the prison:** an enslaved people who keep their language keep their way to freedom.
 - **New copies:** words France, Alsace in round hand, like little flags.
-- **Pigeons:** Franz wonders if even they will be made to sing in German — linguistic chauvinism.
+- **Pigeons and German:** Franz wonders if even they will be made to sing in German — linguistic chauvinism.
 - **Hauser's moment:** spelling ba, be, bi, bo, bu with the little ones, voice trembling.
-- **Ending:** noon Angelus, Prussian trumpets; M. Hamel writes "Vive La France!" and dismisses the class by a gesture.
+- **How the lesson ends:** noon bells; Hamel writes 'Vive La France!' and dismisses the class.
 - **Theme words:** language and identity, procrastination, patriotism, linguistic chauvinism.
 
 ## Key formulas

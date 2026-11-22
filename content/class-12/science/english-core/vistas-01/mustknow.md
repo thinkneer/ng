@@ -16,29 +16,29 @@ Stars are estimates: ★★★ most years · ★★ often · ★ sometimes. [mar
 
 ## Must-know lines and definitions
 
-- **Author:** Jack Finney, American science-fiction writer.
-- **Narrator:** Charley, 31, New Yorker, stamp collector.
+- **The story's author:** Jack Finney, American science-fiction writer.
+- **The story's narrator:** Charley, 31, New Yorker, stamp collector.
 - **Grand Central Station:** officially two levels; Charley claims a third.
-- **Sam:** Charley's psychiatrist friend; calls it waking-dream wish fulfilment.
+- **Sam the psychiatrist:** Charley's friend; calls it waking-dream wish fulfilment.
 - **Sam's diagnosis:** Charley is unhappy; modern world = insecurity, fear, war, worry; he wants to escape.
-- **Louisa:** Charley's wife; dislikes Sam's remark; later worried about his searching.
+- **Louisa, Charley's wife:** dislikes Sam's remark; later worried about his searching.
 - **Stamp collecting:** Sam calls it a temporary refuge from reality; started by Charley's grandfather.
 - **Grand Central like a tree:** keeps growing new corridors and staircases like roots.
-- **Route:** late night, subway from Grand Central, arched doorway, corridor turning left and sloping down.
-- **Third level details:** smaller room, fewer windows, wooden booth, green eyeshade, sleeve-protectors, open-flame gaslights, brass spittoons, derby hats, handlebar moustaches, old locomotive.
+- **The route taken:** late night, subway from Grand Central, arched doorway, corridor sloping down.
+- **Third level details:** smaller room, gaslights, wooden booth, derby hats, handlebar moustaches, spittoons.
 - **The newspaper:** The World, dated June 11, 1894.
 - **Charley's wish:** two tickets to Galesburg, Illinois, for himself and Louisa.
-- **Galesburg 1894:** big frame houses, lawns, tremendous trees, long summer evenings, peace; wars twenty and forty years away.
+- **Galesburg 1894:** frame houses, lawns, great trees, peaceful evenings; wars decades away.
 - **The clerk:** took Charley's modern bills as fake; threatened arrest.
 - **Next day:** withdrew nearly 300 dollars of savings, bought under 200 dollars of old-style currency.
-- **Result:** never found the corridor again; Louisa made him stop.
+- **Result of the trip:** never found the corridor again; Louisa made him stop.
 - **Sam disappears:** nobody knows where.
 - **First-day cover:** envelope with a new stamp posted on issue day; addressed to Charley's grandfather in Galesburg.
 - **Stamp and postmark:** six-cent Garfield stamp; Galesburg, Illinois, July 18, 1894.
 - **Sam's letter:** found the third level; Galesburg is as Charley said; keep looking; signed Sam.
 - **Sam's purchase:** 800 dollars of old-style currency for a hay, feed and grain business.
 - **Last joke:** a psychiatrist has no work in worry-free Galesburg of 1894.
-- **Themes:** escape from insecurity, intersection of time and space, nostalgia, fantasy vs reality.
+- **Main themes:** escape from insecurity, intersection of time and space, nostalgia, fantasy vs reality.
 
 ## Key formulas
 

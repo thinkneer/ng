@@ -16,25 +16,25 @@ Stars are estimates: ★★★ most years · ★★ often · ★ sometimes. [mar
 
 ## Must-know lines and definitions
 
-- **Author:** Anees Jung; subtitle: stories of stolen childhood.
-- **Saheb-e-Alam:** means lord of the universe; ironic for a barefoot ragpicker.
+- **The book's author:** Anees Jung; subtitle: stories of stolen childhood.
+- **Meaning of Saheb-e-Alam:** lord of the universe; ironic for a barefoot ragpicker.
 - **Saheb's origin:** Dhaka, Bangladesh; storms swept away the family's fields and homes.
 - **Author's empty promise:** said she would open a school; Saheb took it seriously.
 - **Barefoot excuse:** called tradition; the author sees perpetual poverty.
 - **Udipi story:** boy prayed for shoes; thirty years later the priest's son has shoes, ragpickers still none.
-- **Seemapuri:** edge of Delhi; mud huts, tin and tarpaulin roofs, no sewage, drainage or water.
+- **Seemapuri settlement:** edge of Delhi; mud huts, tin and tarpaulin roofs, no sewage, drainage or water.
 - **Seemapuri residents:** about 10,000 ragpickers, Bangladeshi migrants since 1971; ration cards matter more than identity.
 - **Garbage for adults:** gold — daily bread, a roof.
 - **Garbage for children:** wonder — a rupee, sometimes a ten-rupee note.
 - **Saheb's tennis shoes:** discarded pair with a hole; a dream for a barefoot boy.
-- **Tea stall:** 800 rupees and all meals; steel canister heavier than the plastic bag; no longer his own master.
-- **Firozabad:** centre of India's glass bangle industry.
+- **Tea stall:** 800 rupees and meals; he has lost being his own master.
+- **Firozabad's glass trade:** centre of India's glass bangle industry.
 - **Mukesh's dream:** to be a motor mechanic; will walk to a garage and learn.
 - **Furnace hazards:** high temperature, no air or light, glass dust; children lose eyesight, many go blind.
 - **Child workers in Firozabad:** about 20,000, despite the law.
-- **Mukesh's father:** old, failing eyesight; tailor then bangle maker; could not renovate the house or school his sons.
+- **Mukesh's father:** failing eyesight; a tailor, then a bangle maker; could not school his sons.
 - **Grandmother's belief:** bangle making is their karam / destiny, a god-given lineage.
-- **Savita:** young girl soldering glass; does not know bangles symbolise suhaag.
+- **Savita's bangle work:** young girl soldering glass; does not know bangles symbolise suhaag.
 - **Old woman:** bangles on her wrist, no light in her eyes; never had one full meal.
 - **Vicious circle:** sahukars, middlemen, policemen, keepers of law, bureaucrats, politicians.
 - **No cooperative:** fear of being beaten and jailed by the police; no leader.

@@ -169,5 +169,35 @@
         "marks": 1
       }
     ]
+  },
+  {
+    "id": "eng-w20261122-poem-05-01",
+    "chapter": "poem-05",
+    "type": "la5",
+    "marks": 5,
+    "stars": 2,
+    "label": "PYQ-style",
+    "topic": "embroidery as expression",
+    "stem": "Adrienne Rich makes embroidery the centre of 'Aunt Jennifer's Tigers'. Discuss how the act of stitching reveals the aunt's inner life and what the tigers say about her. (120–150 words)",
+    "hint": "Craft = the aunt's one outlet. Fluttering hands + needle + ring = burden. Tigers = the fearless self. Ending: hands still ringed; art says what life cannot.",
+    "model_answer": "*How much to write: 120–150 words · about 10 minutes*\n\nFor Aunt Jennifer, <u>embroidery</u> is the one place where her <u>inner life</u> can show. Adrienne Rich makes the craft itself the key to the woman: what she stitches reveals what she cannot say.\n\nThe stitching is laborious. Her fingers <u>flutter</u> over the wool, and the needle is hard to pull because of the <u>weight of the wedding band</u>. Every stitch shows a body held by marriage.\n\nYet the tigers she creates are <mark>bold, proud and fearless</mark>. They prance in their own green world, unafraid of the men beneath the tree. They are the <u>free self</u> she imagines but is never allowed to be.\n\nThe last stanza returns to her hands: <u>terrified</u>, they will lie still, still ringed. Art cannot free her in life. Rich shows that the woman cannot escape, but her art can say what her life could not.\n\n:::tip Your answer must contain\n- Embroidery as the aunt's one outlet for her inner life\n- The physical and emotional burden: fingers, needle, wedding band\n- The tigers as the free, fearless self she cannot be\n- The final image: hands still ringed, so art cannot free her in life\n:::\n\n**Marks are lost for:** describing the tigers without linking them to the aunt; ignoring the wedding band; no conclusion about art.",
+    "scheme": [
+      {
+        "step": "Embroidery as an outlet for the aunt's inner life",
+        "marks": 1
+      },
+      {
+        "step": "Physical and emotional burden: fingers, needle, wedding band",
+        "marks": 1
+      },
+      {
+        "step": "Tigers as the free, fearless self / alter ego (two marks)",
+        "marks": 2
+      },
+      {
+        "step": "Final image of the hands and the conclusion on art; expression and length",
+        "marks": 1
+      }
+    ]
   }
 ]
