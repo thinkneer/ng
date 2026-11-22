@@ -770,13 +770,13 @@
                       },
                       "marks_hint": "Unit III+IV: 17 marks together (CBSE 2026–27); Ch 5 is usually 2–4 of them (estimate)",
                       "summary": "Bar magnet as an equivalent solenoid · field lines · dipole in a field · magnetisation, H, susceptibility · dia-, para- and ferromagnetism",
-                      "questions": 9,
+                      "questions": 10,
                       "question_types": {
                         "mcq": 3,
                         "ar": 2,
                         "case": 1,
                         "vsa2": 2,
-                        "sa3": 1
+                        "sa3": 2
                       },
                       "diagrams": [],
                       "blocks": {
@@ -905,13 +905,14 @@
                       },
                       "marks_hint": "Unit V+VI: 18 marks together (CBSE 2026–27); Ch 8 is usually 2–3 of them (estimate)",
                       "summary": "Displacement current · properties of EM waves · the EM spectrum, sources and uses",
-                      "questions": 8,
+                      "questions": 9,
                       "question_types": {
                         "mcq": 3,
                         "ar": 1,
                         "case": 1,
                         "vsa2": 2,
-                        "sa3": 1
+                        "sa3": 1,
+                        "la5": 1
                       },
                       "diagrams": [],
                       "blocks": {
@@ -921,7 +922,7 @@
                         "steps": 1,
                         "mnemonic": 2,
                         "draw": 1,
-                        "fill": 1,
+                        "fill": 3,
                         "graph": 1
                       },
                       "words": 1721,
@@ -992,13 +993,13 @@
                       },
                       "marks_hint": "Unit V+VI: 18 marks together (CBSE 2026–27); Ch 10 is usually 5–7 of them (estimate)",
                       "summary": "Wavefronts · Huygens' principle · reflection and refraction · coherent sources · interference and YDSE · single-slit diffraction",
-                      "questions": 10,
+                      "questions": 11,
                       "question_types": {
                         "mcq": 3,
                         "ar": 1,
                         "case": 1,
                         "vsa2": 2,
-                        "sa3": 1,
+                        "sa3": 2,
                         "la5": 2
                       },
                       "diagrams": [],
@@ -1041,12 +1042,12 @@
                       },
                       "marks_hint": "Unit VII+VIII: 12 marks together (CBSE 2026–27); Ch 11 is usually 4–5 of them (estimate)",
                       "summary": "Photoelectric effect · Einstein's equation · photon picture · matter waves and de Broglie wavelength",
-                      "questions": 9,
+                      "questions": 10,
                       "question_types": {
                         "mcq": 3,
                         "ar": 1,
                         "case": 1,
-                        "vsa2": 2,
+                        "vsa2": 3,
                         "sa3": 2
                       },
                       "diagrams": [],
@@ -1087,14 +1088,14 @@
                       },
                       "marks_hint": "Unit VII+VIII: 12 marks together (CBSE 2026–27); Ch 12 is usually 3–4 of them (estimate)",
                       "summary": "Alpha-scattering and the nuclear atom · Bohr model · energy levels · hydrogen spectrum",
-                      "questions": 10,
+                      "questions": 11,
                       "question_types": {
                         "mcq": 3,
                         "ar": 1,
                         "case": 1,
                         "vsa2": 1,
                         "sa3": 2,
-                        "la5": 2
+                        "la5": 3
                       },
                       "diagrams": [],
                       "blocks": {
@@ -1126,12 +1127,12 @@
                       },
                       "marks_hint": "Unit VII+VIII: 12 marks together (CBSE 2026–27); Ch 13 is usually 3–4 of them (estimate)",
                       "summary": "Size and density of the nucleus · mass–energy · mass defect and binding energy · BE per nucleon curve · nuclear force · fission and fusion",
-                      "questions": 8,
+                      "questions": 9,
                       "question_types": {
                         "mcq": 3,
                         "ar": 1,
                         "case": 1,
-                        "vsa2": 1,
+                        "vsa2": 2,
                         "sa3": 2
                       },
                       "diagrams": [],
@@ -1173,14 +1174,14 @@
                       },
                       "marks_hint": "Unit IX: 7 marks (CBSE 2026–27)",
                       "summary": "Energy bands · intrinsic and extrinsic semiconductors · p-n junction · diode in forward and reverse bias · rectifiers",
-                      "questions": 11,
+                      "questions": 13,
                       "question_types": {
                         "mcq": 3,
                         "ar": 2,
                         "case": 1,
                         "vsa2": 1,
-                        "sa3": 3,
-                        "la5": 1
+                        "sa3": 4,
+                        "la5": 2
                       },
                       "diagrams": [],
                       "blocks": {

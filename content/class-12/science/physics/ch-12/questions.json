@@ -278,5 +278,39 @@
       }
     ],
     "topic": "Bohr model of the hydrogen atom"
+  },
+  {
+    "id": "phy-w20261122-12-01",
+    "chapter": "ch-12",
+    "type": "la5",
+    "marks": 5,
+    "stars": 2,
+    "label": "PYQ-style",
+    "stem": "(a) Explain, using Bohr's energy levels, why the spectrum of hydrogen consists of discrete lines. [2]<br>(b) The Lyman series of hydrogen lies in the ultraviolet. Using $R=1.097\\times10^{7}$ m⁻¹, find the wavelengths of (i) the first line of the series (longest wavelength) and (ii) the series limit (shortest wavelength). [3]",
+    "hint": "(b) Use $\\frac{1}{\\lambda}=R\\left(\\frac{1}{n_1^2}-\\frac{1}{n_2^2}\\right)$ with $n_1=1$. The first line has $n_2=2$; the series limit has $n_2\\to\\infty$.",
+    "model_answer": "*How much to write: about 14 lines, two parts · 9 minutes*\n\n**(a)** The atom has only <u>discrete energy levels</u>. An electron jumps only between these levels, and each jump emits a photon with $h\\nu=E_i-E_f$. Only a few frequencies are possible, so the spectrum is a set of <mark>sharp lines</mark>, not a continuous band.\n\n**(b)** **Given:** $R=1.097\\times10^{7}$ m⁻¹, $n_1=1$<br>\n**To find:** $\\lambda$ of the first line ($n_2=2$) and of the series limit ($n_2\\to\\infty$)\n\n$$\\frac{1}{\\lambda}=R\\left(\\frac{1}{n_1^{2}}-\\frac{1}{n_2^{2}}\\right)$$\n\n**(i)** First line, $n_2=2$:\n\n$$\\frac{1}{\\lambda}=1.097\\times10^{7}\\left(1-\\frac{1}{4}\\right)$$\n\n$$\\boxed{\\lambda=1.22\\times10^{-7}\\ \\text{m}=122\\ \\text{nm}}$$\n\n**(ii)** Series limit, $n_2\\to\\infty$:\n\n$$\\frac{1}{\\lambda}=1.097\\times10^{7}\\,(1-0)$$\n\n$$\\boxed{\\lambda=9.12\\times10^{-8}\\ \\text{m}=91.2\\ \\text{nm}}$$\n\nBoth lie in the <u>ultraviolet</u>, as the Lyman series should.\n\n:::tip Your answer must contain\n- <u>discrete</u> energy levels and $h\\nu=E_i-E_f$\n- $n_1=1$; $n_2=2$ for the first line, $n_2\\to\\infty$ for the limit\n- the wavelengths boxed with their unit\n:::\n\n**Marks are lost for:** using $n_1=2$ for Lyman; giving $1/\\lambda$ as the answer; a wavelength in the visible range.",
+    "scheme": [
+      {
+        "step": "(a) Electrons have discrete energy levels; photons emitted on transitions",
+        "marks": 1
+      },
+      {
+        "step": "(a) So only fixed frequencies (ΔE = hν) appear: sharp lines",
+        "marks": 1
+      },
+      {
+        "step": "(b) Lyman: $n_1=1$ used in the Rydberg formula",
+        "marks": 1
+      },
+      {
+        "step": "(b)(i) $n_2=2$: $lambda=\boxed{1.22\times10^{-7}\text{ m}}$",
+        "marks": 1
+      },
+      {
+        "step": "(b)(ii) $n_2\toinfty$: $lambda=\boxed{9.12\times10^{-8}\text{ m}}$",
+        "marks": 1
+      }
+    ],
+    "topic": "Hydrogen spectrum: Lyman series"
   }
 ]
