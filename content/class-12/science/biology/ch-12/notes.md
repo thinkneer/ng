@@ -188,8 +188,8 @@ title: Pyramid of energy and pyramid of biomass in the sea
 svg:
 <svg viewBox="0 0 330 150" role="img" aria-label="Upright pyramid of energy and inverted pyramid of biomass in the sea">
 <g class="uf" fill-opacity="0.18" stroke="currentColor" stroke-width="1.2"><rect x="20" y="96" width="120" height="22"/><rect x="35" y="74" width="90" height="22"/><rect x="50" y="52" width="60" height="22"/><rect x="72" y="30" width="16" height="22"/><rect x="230" y="96" width="30" height="22"/><rect x="200" y="74" width="90" height="22"/><rect x="185" y="52" width="120" height="22"/></g>
-<g font-size="8" fill="currentColor" text-anchor="middle"><text x="80" y="110">Producers</text><text x="80" y="88">Herbivores</text><text x="80" y="66">Carnivores</text><text x="80" y="24">Top</text><text x="245" y="132">Phytoplankton</text><text x="245" y="88">Zooplankton</text><text x="245" y="66">Fishes</text></g>
-<g font-size="9" fill="currentColor" text-anchor="middle" font-weight="bold"><text x="80" y="144">Energy: always upright</text><text x="245" y="144">Biomass in sea: inverted</text></g>
+<g font-size="10" fill="currentColor" text-anchor="middle"><text x="80" y="110">Producers</text><text x="80" y="88">Herbivores</text><text x="80" y="66">Carnivores</text><text x="80" y="24">Top</text><text x="245" y="132">Phytoplankton</text><text x="245" y="88">Zooplankton</text><text x="245" y="66">Fishes</text></g>
+<g font-size="10.5" fill="currentColor" text-anchor="middle" font-weight="bold"><text x="80" y="144">Energy: always upright</text><text x="245" y="144">Biomass in sea: inverted</text></g>
 </svg>
 caption: Left: pyramid of energy, always upright (≈ 10% passes up each level). Right: biomass pyramid in the sea, inverted, because a small, fast-multiplying phytoplankton crop supports a larger biomass of fish.
 part: 132, 107 | Producers | Base of the energy pyramid: most energy.

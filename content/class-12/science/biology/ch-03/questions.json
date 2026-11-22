@@ -428,5 +428,39 @@
       }
     ],
     "source_note": "CBSE Class 12 Biology board paper 2023 (one set), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
+  },
+  {
+    "id": "bio-w20261122-ch-03-01",
+    "chapter": "ch-03",
+    "type": "la5",
+    "marks": 5,
+    "stars": 2,
+    "label": "PYQ-style",
+    "topic": "MTP and amniocentesis",
+    "stem": "(a) What is medical termination of pregnancy (MTP)? Name two situations in which the law allows it. (b) Amniocentesis is a diagnostic test on the foetus. Why is its use for sex determination banned? (c) How does misuse of such tests affect the sex ratio of a population?",
+    "hint": "Keep the diagnostic purpose and the misuse apart; the sex ratio is the consequence.",
+    "model_answer": "*How much to write: about half a page in three parts · 12 minutes*\n\n**(a)** <u>Medical termination of pregnancy</u> is the <mark>legal, medical ending of a pregnancy</mark> before it reaches term. The MTP Act allows it, for example, when:\n1. the pregnancy <u>endangers the woman's life or her physical or mental health</u>;\n2. the pregnancy results from <u>rape</u>, or from <u>failure of a contraceptive</u>.\n\n**(b)** <u>Amniocentesis</u> tests the amniotic fluid for <u>genetic and chromosomal disorders</u> in the foetus. Its use for <mark>sex determination</mark> is banned under the PCPNDT Act, because a sex-selective termination leads to <u>female foeticide</u>.\n\n**(c)** Such misuse produces a <mark>skewed, female-deficient sex ratio</mark> in the population.\n\n:::tip Your answer must contain\n- MTP as a legal medical procedure, not a contraceptive method\n- two legal situations (life or health; rape or contraceptive failure)\n- the diagnostic purpose of amniocentesis and the reason for the ban: <u>female foeticide</u>\n- the <u>sex-ratio</u> consequence\n:::\n\n**Marks are lost for:** calling MTP a contraceptive; saying amniocentesis is banned outright (only its sex-determination use is banned); no link to the sex ratio.",
+    "scheme": [
+      {
+        "step": "(a) MTP defined as a legal medical termination",
+        "marks": 1
+      },
+      {
+        "step": "(a) Two legal situations named",
+        "marks": 1
+      },
+      {
+        "step": "(b) Purpose: detection of genetic or chromosomal disorders",
+        "marks": 1
+      },
+      {
+        "step": "(b) Ban on sex determination: female foeticide",
+        "marks": 1
+      },
+      {
+        "step": "(c) Skewed, female-deficient sex ratio",
+        "marks": 1
+      }
+    ]
   }
 ]

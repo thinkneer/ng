@@ -225,13 +225,13 @@ id: ch09-pcr
 title: One PCR cycle
 svg:
 <svg viewBox="0 0 330 150" role="img" aria-label="Three steps of one PCR cycle">
-<g font-size="9" fill="currentColor" text-anchor="middle" font-weight="bold"><text x="55" y="14">1 Denaturation</text><text x="165" y="14">2 Annealing</text><text x="275" y="14">3 Extension</text></g>
-<g font-size="8" fill="currentColor" text-anchor="middle"><text x="55" y="26">heat (about 94 °C)</text><text x="165" y="26">cool; primers bind</text><text x="275" y="26">Taq polymerase</text></g>
+<g font-size="10.5" fill="currentColor" text-anchor="middle" font-weight="bold"><text x="55" y="14">1 Denaturation</text><text x="165" y="14">2 Annealing</text><text x="275" y="14">3 Extension</text></g>
+<g font-size="9.5" fill="currentColor" text-anchor="middle"><text x="55" y="26">heat (about 94 °C)</text><text x="165" y="26">cool; primers bind</text><text x="275" y="26">Taq polymerase</text></g>
 <path fill="none" stroke="currentColor" stroke-width="2" d="M10,66H40Q60,66,100,44M10,74H40Q60,74,100,96M120,50H210M120,94H210M230,50H320M230,94H320"/>
 <path stroke="#E0B400" stroke-width="4" d="M190,58H210M120,86H140M300,58H320M230,86H250"/>
 <path class="u" fill="none" stroke-width="2" d="M298,58H246M252,86H304"/>
 <path class="uf" d="M244,58l6,-4v8zM306,86l-6,-4v8z"/>
-<g font-size="8" fill="currentColor"><text x="12" y="112">strands separate</text><text x="146" y="74">primers (yellow)</text><text x="246" y="74">grow 5′→3′</text><text x="40" y="136">Repeat about 30 cycles → the target DNA is amplified about a billion times</text></g>
+<g font-size="9.5" fill="currentColor"><text x="12" y="112">strands separate</text><text x="146" y="74">primers (yellow)</text><text x="246" y="74">grow 5′→3′</text></g><g font-size="9.5" fill="currentColor" text-anchor="middle"><text x="165" y="130">Repeat about 30 cycles</text><text x="165" y="144">→ the target DNA is amplified about a billion times</text></g>
 </svg>
 caption: One PCR cycle: denature, anneal primers, extend with thermostable Taq polymerase; each cycle roughly doubles the target DNA.
 part: 55, 60 | Denaturation | Heat (about 94 °C) separates the two strands.

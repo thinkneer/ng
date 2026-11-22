@@ -558,5 +558,50 @@
     "hint": "Who gains, who is unaffected?",
     "model_answer": "**(a).** The egret benefits (easy food) and the cattle are neither helped nor harmed; R explains why the egret gains.",
     "source_note": "CBSE Class 12 Biology board paper 2023 (one set), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
+  },
+  {
+    "id": "bio-w20261122-ch-11-01",
+    "chapter": "ch-11",
+    "type": "sa3",
+    "marks": 3,
+    "stars": 2,
+    "label": "PYQ-style",
+    "topic": "Population attributes",
+    "stem": "A population of 500 deer in a forest has, in one year, 75 births, 50 deaths, 25 immigrants and 10 emigrants. Calculate (a) the per capita birth rate and (b) the population size after one year.",
+    "hint": "Per capita rate = events ÷ N. Net change = (births − deaths) + (immigrants − emigrants).",
+    "model_answer": "*How much to write: 6 lines of working · 6 minutes*\n\n**Given:** $N=500$ deer; births $=75$; deaths $=50$; immigrants $=25$; emigrants $=10$, all in one year<br>**To find:** (a) per capita birth rate; (b) population size after one year\n\n**Formula:** per capita rate $=\\dfrac{\\text{number of births}}{N}$; change in population $=(B-D)+(I-E)$\n\n**Solution:**\n\n(a) $$\\text{per capita birth rate}=\\frac{75}{500}=0.15$$ <mark>0.15 births per deer per year</mark>\n\n(b) $$\\begin{aligned}\\Delta N&=(75-50)+(25-10)\\\\&=25+15=40\\end{aligned}$$\n\n$$\\boxed{N_{\\text{after one year}}=500+40=540\\ \\text{deer}}$$\n\n:::tip Your answer must contain\n- the division by $N$ for the per capita rate\n- <u>immigrants and emigrants</u> counted in the net change\n- the unit: <u>deer per year</u>\n:::\n\n**Marks are lost for:** dividing by the wrong number; leaving out immigration and emigration; no unit.",
+    "scheme": [
+      {
+        "step": "Per capita birth rate = 75 ÷ 500 = 0.15, with the formula",
+        "marks": 1
+      },
+      {
+        "step": "Net change = (75 − 50) + (25 − 10) = 40",
+        "marks": 1
+      },
+      {
+        "step": "Population after one year = 540 deer, unit given",
+        "marks": 1
+      }
+    ]
+  },
+  {
+    "id": "bio-w20261122-ch-11-02",
+    "chapter": "ch-11",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ-style",
+    "topic": "Interactions",
+    "stem": "Two species of barnacles live on the same rock. Each reduces the growth of the other by competing for space. The interaction is:",
+    "options": [
+      "mutualism (+, +)",
+      "commensalism (+, 0)",
+      "competition (−, −)",
+      "predation (+, −)"
+    ],
+    "answer": "C",
+    "hint": "Both lose.",
+    "model_answer": "**(c) Competition, (−, −).** Both species lose: each reduces the other's access to space or food."
   }
 ]

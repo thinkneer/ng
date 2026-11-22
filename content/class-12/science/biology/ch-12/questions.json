@@ -410,5 +410,31 @@
       }
     ],
     "source_note": "CBSE Class 12 Biology board paper 2023 (one set), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
+  },
+  {
+    "id": "bio-w20261122-ch-12-01",
+    "chapter": "ch-12",
+    "type": "sa3",
+    "marks": 3,
+    "stars": 2,
+    "label": "PYQ-style",
+    "topic": "Pyramids of numbers and energy",
+    "stem": "Why can the pyramid of numbers be inverted in a tree ecosystem, while the pyramid of energy is never inverted? Explain with one example.",
+    "hint": "Count the individuals at each level, then think about the energy lost at each step.",
+    "model_answer": "*How much to write: 6–8 lines with a short chain · 6 minutes*\n\nIn a tree ecosystem the <u>pyramid of numbers</u> counts individuals. One large tree (the producer) supports many insects, which support fewer birds: 1 tree → many insects → fewer birds. <mark>The base is the narrowest level, so the pyramid is inverted.</mark>\n\nEnergy is different. At each step about 90 % of the energy is <u>lost as heat</u> and used in <u>respiration and movement</u>; only about 10 % passes on. Each level therefore holds less energy than the level below it, so <mark>the pyramid of energy is always upright</mark>.\n\n:::tip Your answer must contain\n- one example with counts, such as a tree → insects → birds\n- energy <u>lost at every trophic level</u>\n- <u>inverted</u> for numbers, <u>upright</u> for energy\n:::\n\n**Marks are lost for:** saying the energy pyramid can be inverted; no reason why energy falls; no example.",
+    "scheme": [
+      {
+        "step": "Pyramid of numbers inverted: one tree supports many insects",
+        "marks": 1
+      },
+      {
+        "step": "Energy lost at each step, so the energy pyramid is always upright",
+        "marks": 1
+      },
+      {
+        "step": "Example with counts (tree → insects → birds)",
+        "marks": 1
+      }
+    ]
   }
 ]

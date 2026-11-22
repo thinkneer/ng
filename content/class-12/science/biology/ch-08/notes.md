@@ -107,10 +107,10 @@ title: Sewage treatment plant, step by step
 svg:
 <svg viewBox="0 0 330 150" role="img" aria-label="Steps of sewage treatment">
 <g fill="none" stroke="currentColor" stroke-width="1.2"><rect x="4" y="20" width="70" height="40" rx="5"/><rect x="88" y="20" width="70" height="40" rx="5"/><rect x="172" y="20" width="70" height="40" rx="5"/><rect x="256" y="20" width="70" height="40" rx="5"/><rect x="172" y="96" width="70" height="40" rx="5"/></g>
-<g font-size="8" fill="currentColor" text-anchor="middle"><text x="39" y="37">Primary</text><text x="39" y="49">filter + settle</text><text x="123" y="37">Aeration tank</text><text x="123" y="49">flocs, BOD falls</text><text x="207" y="37">Settling tank</text><text x="207" y="49">activated sludge</text><text x="291" y="37">Effluent</text><text x="291" y="49">to river</text><text x="207" y="113">Anaerobic</text><text x="207" y="125">digester → biogas</text><text x="39" y="78">primary sludge</text></g>
+<g font-size="10" fill="currentColor" text-anchor="middle"><text x="39" y="30">Primary</text><text x="39" y="42">filter +</text><text x="39" y="54">settle</text><text x="123" y="30">Aeration</text><text x="123" y="42">tank</text><text x="123" y="54">BOD falls</text><text x="207" y="30">Settling</text><text x="207" y="42">tank</text><text x="207" y="54">flocs settle</text><text x="291" y="37">Effluent</text><text x="291" y="49">to river</text><text x="207" y="110">Anaerobic</text><text x="207" y="121">digester</text><text x="207" y="132">→ biogas</text></g><text x="4" y="80" font-size="10" fill="currentColor">primary sludge</text>
 <path class="u" fill="none" stroke-width="1.4" d="M74,40H86M158,40H170M242,40H254M207,60V94M190,60Q160,84,130,62M39,60V68"/>
 <path class="uf" d="M88,40l-6,-4v8zM172,40l-6,-4v8zM256,40l-6,-4v8zM207,96l-4,-6h8zM128,62l2,8l5,-5z"/>
-<text x="140" y="88" font-size="8" fill="currentColor">inoculum</text>
+<text x="140" y="90" font-size="10" fill="currentColor">inoculum</text>
 </svg>
 caption: Sewage treatment: physical primary stage, then biological secondary stage with flocs in aeration tanks; part of the activated sludge returns as inoculum, the rest is digested anaerobically to biogas.
 part: 8, 40 | Primary treatment | Physical: filtration and sedimentation; solids settle as primary sludge.

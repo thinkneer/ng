@@ -606,7 +606,7 @@ svg:
 <path class="uf" fill-opacity="0.15" stroke="currentColor" stroke-width="2" d="M30,100C26,52,72,30,104,44C120,52,124,66,118,80C112,92,116,104,124,114C134,132,118,168,84,170C46,172,32,140,30,100Z"/>
 <path stroke-width="1.2" d="M38,100C38,62,74,46,100,56C112,62,114,72,108,82"/>
 <path class="u" stroke-width="2.4" d="M112,84C104,90,104,100,112,106M110,84L122,74M112,106L120,120"/>
-<g fill="currentColor" stroke="none" font-size="9.5"><text x="20" y="196">Bean (dicot) seed</text><text x="0" y="36">Seed coat</text><text x="44" y="130">Cotyledon</text><text x="128" y="72">Plumule</text><text x="128" y="128">Radicle</text><text x="126" y="99">Hilum</text></g>
+<g fill="currentColor" stroke="none" font-size="12"><text x="20" y="196">Bean (dicot) seed</text><text x="0" y="36">Seed coat</text><text x="44" y="130">Cotyledon</text><text x="134" y="72">Plumule</text><text x="134" y="128">Radicle</text><text x="134" y="99">Hilum</text></g>
 <path stroke-width="0.8" stroke-opacity="0.6" d="M24,40L44,56"/>
 <g transform="translate(40,0)">
 <path class="uf" fill-opacity="0.25" stroke="currentColor" stroke-width="2" d="M244,20C292,22,308,70,302,112C296,154,276,182,248,184C216,186,198,150,200,108C202,64,210,18,244,20Z"/>
@@ -615,8 +615,8 @@ svg:
 <path class="u" stroke-width="2" d="M222,150V118M216,118L222,108L228,118M222,154V172"/>
 <ellipse cx="222" cy="114" rx="6" ry="12" stroke-width="1"/>
 <ellipse cx="222" cy="166" rx="5" ry="9" stroke-width="1"/>
-<path stroke-width="0.8" stroke-opacity="0.6" d="M194,100L216,110M194,140L228,140M194,172L218,168M292,34L292,48"/>
-<g fill="currentColor" stroke="none" font-size="9.5"><text x="210" y="200">Maize grain (monocot)</text><text x="246" y="80">Endosperm</text><text x="276" y="30">Aleurone</text><text x="190" y="102" text-anchor="end">Coleoptile</text><text x="190" y="143" text-anchor="end">Scutellum</text><text x="190" y="175" text-anchor="end">Coleorhiza</text><text x="216" y="14">Pericarp</text></g>
+<path stroke-width="0.8" stroke-opacity="0.6" d="M194,100L216,110M194,140L228,140M194,172L218,168M290,20V34"/>
+<g fill="currentColor" stroke="none" font-size="12"><text x="210" y="200">Maize grain (monocot)</text><text x="250" y="70" text-anchor="middle">Endosperm</text><text x="262" y="14">Aleurone</text><text x="190" y="102" text-anchor="end">Coleoptile</text><text x="190" y="143" text-anchor="end">Scutellum</text><text x="190" y="175" text-anchor="end">Coleorhiza</text><text x="206" y="14" text-anchor="end">Pericarp</text></g>
 </g>
 </svg>
 caption: Bean: food in two cotyledons. Maize grain: food in the endosperm, one scutellum.

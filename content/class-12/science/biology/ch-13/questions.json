@@ -501,5 +501,53 @@
     ],
     "model_answer": "*How much to write: 5–6 lines for (a), 1–2 lines for (b) · 6 minutes*\n\n**(a)** Species diversity <mark>decreases from the equator towards the poles</mark> (the latitudinal gradient). Reasons (any two):\n1. The tropics remained <u>undisturbed for millions of years</u>, while temperate regions faced frequent <u>glaciations</u>; a long evolutionary time allowed more species to form.\n2. Tropical environments are <u>less seasonal, more constant and predictable</u>, which promotes niche specialisation.\n3. More <u>solar energy</u> gives higher productivity.\n\n**(b)** India has <mark>more than 1,200</mark> bird species, because much of its land is in <u>tropical latitudes</u>. **OR** The <mark>Amazonian rain forest</mark> of South America has the greatest biodiversity on Earth (over 40,000 plant species, 1,300 birds).\n\n:::tip Your answer must contain\n- decrease towards the poles\n- two of the three reasons\n- 1,200 birds / Amazon rain forest\n:::\n\n**Marks are lost for:** saying diversity increases towards the poles; giving one reason only.",
     "source_note": "CBSE Class 12 Biology board paper 2023 (one set), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers. The board question was based on a figure; it is described in words here."
+  },
+  {
+    "id": "bio-w20261122-ch-13-01",
+    "chapter": "ch-13",
+    "type": "sa3",
+    "marks": 3,
+    "stars": 2,
+    "label": "PYQ-style",
+    "topic": "Protected areas",
+    "stem": "Distinguish between a national park and a wildlife sanctuary. What is a biosphere reserve, and what are its three zones?",
+    "hint": "Ask which human activities are allowed inside each area.",
+    "model_answer": "*How much to write: a short two-column table and three zone lines · 6 minutes*\n\n| | National park | Wildlife sanctuary |\n|---|---|---|\n| Purpose | <u>legally notified</u> area to protect wildlife and its habitat | notified area to protect animals, with <u>fewer restrictions</u> |\n| Human activity | <mark>no grazing and no collection of forest produce</mark> | grazing and collection of forest produce may be <u>allowed in a regulated form</u> |\n\nA **biosphere reserve** is a large area with three zones:\n1. <u>Core zone</u>: strictly protected, no human interference.\n2. <u>Buffer zone</u> around the core: regulated activities, research and tourism.\n3. <u>Transition zone</u> outside: <mark>sustainable use</mark> by local people.\n\n:::tip Your answer must contain\n- the contrast on <u>human activity</u>, not just on the name\n- all three zones of a biosphere reserve, named in order\n:::\n\n**Marks are lost for:** calling a sanctuary a national park; naming only one zone; no difference in human activity.",
+    "scheme": [
+      {
+        "step": "National park: notified for wildlife; no grazing or collection",
+        "marks": 1
+      },
+      {
+        "step": "Wildlife sanctuary: fewer restrictions; regulated use allowed",
+        "marks": 1
+      },
+      {
+        "step": "Biosphere reserve: core, buffer and transition zones",
+        "marks": 1
+      }
+    ]
+  },
+  {
+    "id": "bio-w20261122-ch-13-02",
+    "chapter": "ch-13",
+    "type": "vsa2",
+    "marks": 2,
+    "stars": 2,
+    "label": "PYQ-style",
+    "topic": "Endemism",
+    "stem": "Define an endemic species. Why are islands and other isolated habitats often rich in endemic species?",
+    "hint": "Think about gene flow and separate evolution.",
+    "model_answer": "*How much to write: 4–5 lines · 4 minutes*\n\nAn <mark>endemic species is found only in one restricted area and nowhere else in the world</mark>.\n\nIslands and isolated habitats are rich in endemics because <u>geographical isolation stops gene flow</u> with other populations. The species <u>evolve separately</u> and adapt to local conditions, so they become unique to that place.\n\n:::tip Your answer must contain\n- the words <u>only in one restricted area</u>\n- the reason: <u>isolation</u> stops gene flow and allows separate evolution\n:::\n\n**Marks are lost for:** defining endemic as 'rare' or 'large'; no reason given.",
+    "scheme": [
+      {
+        "step": "Definition: found only in one restricted area",
+        "marks": 1
+      },
+      {
+        "step": "Reason: isolation stops gene flow; separate evolution",
+        "marks": 1
+      }
+    ]
   }
 ]

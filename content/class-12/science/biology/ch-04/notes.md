@@ -219,7 +219,7 @@ title: Pedigree symbols
 svg:
 <svg viewBox="0 0 345 135" role="img" aria-label="Standard pedigree symbols">
 <g fill="none" stroke="currentColor" stroke-width="1.4"><rect x="10" y="12" width="18" height="18"/><circle cx="19" cy="60" r="9"/><circle cx="19" cy="104" r="9"/><path d="M19,95V113" stroke-width="2"/><rect class="uf" x="118" y="12" width="18" height="18" fill-opacity="0.6"/><circle class="uf" cx="127" cy="60" r="9" fill-opacity="0.6"/><rect x="118" y="95" width="18" height="18"/><path d="M118,113L136,95M228,21H256M228,58H256M228,62H256M230,84H270M250,84V94M236,94H264M236,94V100M264,94V100"/><rect x="227" y="100" width="18" height="18"/><circle cx="264" cy="109" r="9"/></g>
-<g font-size="9" fill="currentColor"><text x="34" y="25">Male</text><text x="34" y="64">Female</text><text x="34" y="108">Carrier</text><text x="142" y="25">Affected male</text><text x="142" y="64">Affected female</text><text x="142" y="108">Dead</text><text x="260" y="25">Mating</text><text x="260" y="58">Mating between</text><text x="260" y="69">relatives</text><text x="278" y="106">Parents and</text><text x="278" y="117">offspring</text></g>
+<g font-size="10.5" fill="currentColor"><text x="34" y="25">Male</text><text x="34" y="64">Female</text><text x="34" y="108">Carrier</text><text x="142" y="25">Affected male</text><text x="142" y="64">Affected female</text><text x="142" y="108">Dead</text><text x="260" y="25">Mating</text><text x="260" y="58">Mating between</text><text x="260" y="69">relatives</text><text x="278" y="106">Parents and</text><text x="278" y="117">offspring</text></g>
 </svg>
 caption: Common pedigree symbols. A double line marks a mating between relatives; a dot or half-shading marks a carrier.
 part: 19, 21 | Male | An open square.
