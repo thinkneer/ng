@@ -285,5 +285,31 @@
     ],
     "hint": "Check the order in OH⁻ for each compound. In (b), an S$_\\text{N}$2 reaction always inverts; check whether the priority order changes.",
     "source_note": "Weekly refresh 2026-11-15 (own wording)"
+  },
+  {
+    "id": "chem-w20261122-ch06-01",
+    "chapter": "ch-06",
+    "type": "sa3",
+    "marks": 3,
+    "stars": 2,
+    "label": "PYQ-style",
+    "stem": "Write the main organic product in each case, and give the rule or mechanism that decides it:<br>\n(i) 2-bromobutane with alcoholic KOH<br>\n(ii) 2-bromo-2-methylpropane with aqueous KOH<br>\n(iii) bromobenzene with Mg in dry ether, followed by water",
+    "model_answer": "*How much to write: about 8 lines · 6 minutes*\n\n**(i)** But-2-ene (the major product). <u>Elimination (E2)</u>: alcoholic KOH is a strong base, and the <mark>Saytzeff rule</mark> gives the more substituted alkene.\n\n**(ii)** 2-methylpropan-2-ol, $\\ce{(CH3)3C-OH}$. <u>SN1</u>: the <mark>tertiary carbocation</mark> forms first, and water attacks it.\n\n**(iii)** Benzene, $\\ce{C6H6}$. The <u>Grignard reagent</u> $\\ce{C6H5MgBr}$ forms, and <mark>water protonates the carbon–Mg bond</mark>:\n\n$$\\begin{gathered}\\ce{C6H5MgBr + H2O}\\\\ \\ce{-> C6H6 + Mg(OH)Br}\\end{gathered}$$\n\n:::tip Your answer must contain\n- the <mark>product</mark> written as a name or formula for each part\n- the reason: Saytzeff rule, tertiary carbocation, or protonation of the C–Mg bond\n:::\n\n**Marks are lost for:** but-1-ene in (i); calling the tertiary halide in (ii) SN2; biphenyl or phenol in (iii).",
+    "scheme": [
+      {
+        "step": "(i) But-2-ene by E2 elimination (Saytzeff rule)",
+        "marks": 1
+      },
+      {
+        "step": "(ii) 2-methylpropan-2-ol by SN1 through a tertiary carbocation",
+        "marks": 1
+      },
+      {
+        "step": "(iii) Benzene from protonation of the Grignard reagent by water",
+        "marks": 1
+      }
+    ],
+    "hint": "Decide by the substrate and the reagent: a secondary halide with a strong base, a tertiary halide in water, and a Grignard reagent in water.",
+    "source_note": "Weekly refresh 2026-11-22 (own wording)"
   }
 ]

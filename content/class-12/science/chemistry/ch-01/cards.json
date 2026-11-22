@@ -15,7 +15,7 @@
     "kind": "figure",
     "title": "Positive and negative deviation",
     "svg": "ref: notes#deviation-curves",
-    "back": "Positive: curves above the ideal lines, total has a maximum → minimum-boiling azeotrope. Negative: below, with a minimum → maximum-boiling azeotrope.",
+    "back": "Positive: curves above the ideal lines; minimum-boiling azeotrope. Negative: below; maximum-boiling azeotrope.",
     "stars": 3,
     "tags": [
       "diagram",
@@ -49,7 +49,7 @@
     "kind": "figure",
     "title": "Osmosis and osmotic pressure",
     "svg": "ref: notes#osmosis",
-    "back": "Solvent flows through the semipermeable membrane into the solution. The pressure that just stops it is $\\pi=CRT$. More than $\\pi$ gives reverse osmosis.",
+    "back": "Solvent flows into the solution until the pressure $\\pi=CRT$ stops it. More than $\\pi$ gives reverse osmosis.",
     "stars": 3,
     "tags": [
       "diagram",
@@ -155,7 +155,7 @@
     "kind": "compare",
     "title": "Positive vs negative deviation",
     "svg": "ref: notes#deviation-curves",
-    "back": "Positive: weaker A–B forces, ΔH > 0, ΔV > 0, minimum-boiling azeotrope. Negative: stronger A–B forces, ΔH < 0, ΔV < 0, maximum-boiling azeotrope.",
+    "back": "Positive: weaker A–B forces, ΔH > 0, minimum-boiling azeotrope. Negative: stronger A–B forces, ΔH < 0, maximum-boiling azeotrope.",
     "stars": 3,
     "tags": [
       "compare"

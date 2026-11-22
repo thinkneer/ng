@@ -544,5 +544,23 @@
     "answer": "B",
     "model_answer": "**(B) −212 kJ mol$^{-1}$.** $\\Delta_rG^\\circ=-nFE^\\circ_\\text{cell}=-2\\times96500\\times1.10=-2.12\\times10^{5}$ J mol$^{-1}$. A positive $E^\\circ$ always gives a negative $\\Delta_rG^\\circ$. The −106 option uses n = 1.",
     "source_note": "Weekly refresh 2026-11-15 (own wording)"
+  },
+  {
+    "id": "chem-w20261122-ch02-01",
+    "chapter": "ch-02",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ-style",
+    "stem": "The charge needed to deposit 1 mol of aluminium from a solution of $\\ce{Al^3+}$ is",
+    "options": [
+      "96500 C",
+      "193000 C",
+      "289500 C",
+      "48250 C"
+    ],
+    "answer": "C",
+    "model_answer": "**(C) 289500 C.** $\\ce{Al^3+ + 3e- -> Al}$: one mole of Al needs 3 mol of electrons, so the charge is $3\\times96500=2.895\\times10^5$ C.",
+    "source_note": "Weekly refresh 2026-11-22 (own wording)"
   }
 ]

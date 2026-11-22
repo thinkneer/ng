@@ -319,5 +319,49 @@
     ],
     "hint": "Two parts of (a): what happens to the size, and what causes it. For (b), compare what you expect when you go down a group with what happens in the lanthanoids.",
     "source_note": "Weekly refresh 2026-11-15 (own wording)"
+  },
+  {
+    "id": "chem-w20261122-ch04-01",
+    "chapter": "ch-04",
+    "type": "mcq",
+    "marks": 1,
+    "stars": 2,
+    "label": "PYQ-style",
+    "stem": "The spin-only magnetic moment of $\\ce{[Fe(H2O)6]^2+}$ (Fe: Z = 26) is",
+    "options": [
+      "0 BM",
+      "1.73 BM",
+      "4.90 BM",
+      "5.92 BM"
+    ],
+    "answer": "C",
+    "model_answer": "**(C) 4.90 BM.** Fe²⁺ is 3d⁶. Water is a weak-field ligand, so the complex is high spin with 4 unpaired electrons: $\\mu=\\sqrt{4(4+2)}=\\sqrt{24}=4.90$ BM.",
+    "source_note": "Weekly refresh 2026-11-22 (own wording)"
+  },
+  {
+    "id": "chem-w20261122-ch04-02",
+    "chapter": "ch-04",
+    "type": "sa3",
+    "marks": 3,
+    "stars": 2,
+    "label": "PYQ-style",
+    "stem": "Account for the following:<br>\n(i) $\\ce{Cu+}$ is unstable in aqueous solution.<br>\n(ii) $\\ce{Mn^3+}$ is a strong oxidising agent.<br>\n(iii) $\\ce{Fe^3+}$ is more stable than $\\ce{Fe^2+}$ (give the d-electron reason).",
+    "model_answer": "*How much to write: about 10 lines · 8 minutes*\n\n**(i)** $\\ce{Cu+}$ <u>disproportionates</u>: $\\ce{2Cu+ -> Cu + Cu^2+}$.<br>\nThe <mark>Cu²⁺ ion is much more stable in water</mark> (high hydration energy), so the change is spontaneous: $E^\\circ_\\text{cell}=0.52-0.15=+0.37$ V.\n\n**(ii)** $\\ce{Mn^3+}$ gains an electron to become $\\ce{Mn^2+}$ (3d⁵). A <mark>half-filled d-shell</mark> is very stable, so Mn³⁺ is <u>easily reduced</u> and oxidises other species.\n\n**(iii)** $\\ce{Fe^3+}$ has a <mark>half-filled 3d⁵ configuration</mark>, which is extra stable, while $\\ce{Fe^2+}$ is 3d⁶.\n\n:::tip Your answer must contain\n- the <mark>hydration</mark> reason and the positive $E^\\circ_\\text{cell}$ in (i)\n- the <mark>half-filled 3d⁵</mark> reason in (ii)\n- the same half-filled 3d⁵ reason in (iii)\n:::\n\n**Marks are lost for:** saying only \"it is unstable\" in (i); no d-electron reason in (ii) or (iii).",
+    "scheme": [
+      {
+        "step": "(i) Cu⁺ disproportionates; Cu²⁺ favoured by hydration (E°cell positive)",
+        "marks": 1
+      },
+      {
+        "step": "(ii) Mn³⁺ → Mn²⁺ gives a stable half-filled 3d⁵ shell",
+        "marks": 1
+      },
+      {
+        "step": "(iii) Fe³⁺ 3d⁵ is half-filled and more stable than Fe²⁺ 3d⁶",
+        "marks": 1
+      }
+    ],
+    "hint": "For (i) compare the standard potentials of Cu⁺/Cu and Cu²⁺/Cu⁺. For (ii) and (iii) count the d electrons and ask whether the shell is half-filled.",
+    "source_note": "Weekly refresh 2026-11-22 (own wording)"
   }
 ]

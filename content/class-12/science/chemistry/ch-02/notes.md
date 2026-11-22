@@ -16,7 +16,7 @@ title: Daniell cell
 svg:
 <svg viewBox="0 0 350 236" role="img" aria-label="Daniell cell: zinc and copper half-cells joined by a wire and a salt bridge" fill="none" stroke="currentColor" stroke-width="1.5" font-size="11">
 <path d="M40,105 V200 H140 V105"/><path d="M200,105 V200 H300 V105"/><path d="M40,125L140,125" stroke-width="1"/><path d="M200,125L300,125" stroke-width="1"/><rect x="62" y="60" width="14" height="125"/><rect x="264" y="60" width="14" height="125" stroke="#E0B400" stroke-width="2"/><path d="M118,185 V92 H222 V185" stroke-width="7" opacity="0.45"/><path d="M69,60 V34 H157"/><path d="M183,34 H271 V60"/><circle cx="170" cy="34" r="13"/><path d="M92,24L132,24" stroke-width="1"/><path d="M127.7,26.5L132,24L127.7,21.5" stroke-width="1"/><path d="M208,24L248,24" stroke-width="1"/><path d="M243.7,26.5L248,24L243.7,21.5" stroke-width="1"/>
-<g fill="currentColor" stroke="none"><text x="170" y="38" text-anchor="middle">V</text><text x="112" y="18" text-anchor="middle">e⁻</text><text x="228" y="18" text-anchor="middle">e⁻</text><text x="170" y="84" text-anchor="middle" font-size="9">salt bridge</text><text x="4" y="75">Zn</text><text x="4" y="88" font-size="9">anode (−)</text><text x="286" y="75">Cu</text><text x="286" y="88" font-size="9">cathode (+)</text><text x="90" y="214" text-anchor="middle">ZnSO<tspan dy="3" font-size="8">4</tspan><tspan dy="-3">(aq)</tspan></text><text x="250" y="214" text-anchor="middle">CuSO<tspan dy="3" font-size="8">4</tspan><tspan dy="-3">(aq)</tspan></text><text x="90" y="228" text-anchor="middle" font-size="9">Zn → Zn²⁺ + 2e⁻</text><text x="250" y="228" text-anchor="middle" font-size="9">Cu²⁺ + 2e⁻ → Cu</text></g>
+<g fill="currentColor" stroke="none"><text x="170" y="38" text-anchor="middle">V</text><text x="112" y="18" text-anchor="middle">e⁻</text><text x="228" y="18" text-anchor="middle">e⁻</text><text x="170" y="84" text-anchor="middle" font-size="9">salt bridge</text><text x="4" y="75">Zn</text><text x="4" y="88" font-size="9">anode (−)</text><text x="286" y="75">Cu</text><text x="286" y="88" font-size="9">cathode (+)</text><text x="90" y="214" text-anchor="middle">ZnSO<tspan dy="3" font-size="8">4</tspan><tspan dy="-3">(aq)</tspan></text><text x="250" y="214" text-anchor="middle">CuSO<tspan dy="3" font-size="8">4</tspan><tspan dy="-3">(aq)</tspan></text><text x="90" y="228" text-anchor="middle" font-size="11">Zn → Zn²⁺ + 2e⁻</text><text x="250" y="228" text-anchor="middle" font-size="11">Cu²⁺ + 2e⁻ → Cu</text></g>
 </svg>
 caption: Figure 2.1 Daniell cell: zinc anode (−) on the left, copper cathode (+) on the right; electrons flow from zinc to copper through the wire.
 part: 69, 120 | Zinc rod: anode (−) | Oxidation happens here: Zn → Zn²⁺ + 2e⁻; the rod slowly wears away.
@@ -193,7 +193,7 @@ Two slips cost marks here: forgetting to square $[\ce{Ag+}]$ (the coefficient be
 ```ng-numerical
 id: nernst-emf
 title: Nernst equation with fresh numbers
-question: Find the emf at 298 K of $\ce{Zn(s) | Zn^2+({{c1}} M) || Ag+({{c2}} M) | Ag(s)}$, given $E^\circ_\text{cell}=1.56$ V.
+question: Find the emf at 298 K of $\begin{gathered}\ce{Zn(s) | Zn^2+({{c1}} M)}\\ \ce{|| Ag+({{c2}} M) | Ag(s)}\end{gathered}$, given $E^\circ_\text{cell}=1.56$ V.
 var: c1 | 0.05 | 0.50 | 0.05
 var: c2 | 0.001 | 0.020 | 0.001
 let: Q = c1/c2^2

@@ -529,7 +529,7 @@ Dissolve one mole of sodium chloride and you get nearly two moles of particles, 
 To handle this, van't Hoff introduced a correction factor, $i$: the ratio of what is observed to what is expected.
 
 :::formula van't Hoff factor
-$\begin{aligned}i&=\dfrac{\text{observed property}}{\text{calculated property}}\\ &=\dfrac{\text{normal molar mass}}{\text{abnormal molar mass}}\\ &=\dfrac{\text{moles after dissociation or association}}{\text{moles before}}\end{aligned}$
+$\begin{aligned}i&=\dfrac{\text{observed}}{\text{calculated}}\\ &=\dfrac{\text{normal molar mass}}{\text{abnormal molar mass}}\\ &=\dfrac{\text{moles after}}{\text{moles before}}\end{aligned}$
 
 Corrected equations: $\Delta T_b=iK_bm$ , $\Delta T_f=iK_fm$ , $\pi=iCRT$ , $\dfrac{p_1^\circ-p_1}{p_1^\circ}=i\,\dfrac{n_2}{n_1}$
 

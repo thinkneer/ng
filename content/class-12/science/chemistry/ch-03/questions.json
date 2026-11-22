@@ -424,5 +424,39 @@
     "hint": "From 8 g to 2 g is two halvings.",
     "topic": "Board answer, topper style",
     "source_note": "Board answers, topper style (Nov 2026)"
+  },
+  {
+    "id": "chem-w20261122-ch03-01",
+    "chapter": "ch-03",
+    "type": "la5",
+    "marks": 5,
+    "stars": 3,
+    "label": "PYQ-style",
+    "stem": "(a) Write the Arrhenius equation and say what $A$ and $E_a$ stand for. [1]<br>\n(b) Derive $\\log\\dfrac{k_2}{k_1}=\\dfrac{E_a}{2.303\\,R}\\cdot\\dfrac{T_2-T_1}{T_1T_2}$ from the Arrhenius equation. [2]<br>\n(c) The rate constant of a reaction doubles when the temperature rises from 300 K to 310 K. Calculate $E_a$. (log 2 = 0.3010; R = 8.314 J K$^{-1}$ mol$^{-1}$) [2]",
+    "model_answer": "*How much to write: about 16 lines · 12 minutes*\n\n**(a)** $k=A\\,e^{-E_a/RT}$, where <u>A</u> is the <u>pre-exponential (frequency) factor</u> and <u>$E_a$</u> is the <mark>activation energy</mark>.<br>\nLogarithmic form: $\\log k=\\log A-\\dfrac{E_a}{2.303\\,RT}$.\n\n**(b)** Write the equation at each temperature:\n\n$$\\ln k_1=\\ln A-\\frac{E_a}{RT_1}$$\n\n$$\\ln k_2=\\ln A-\\frac{E_a}{RT_2}$$\n\n<mark>Subtract the first from the second</mark>, so that $\\ln A$ cancels:\n\n$$\\begin{aligned}\\ln\\frac{k_2}{k_1}&=\\frac{E_a}{R}\\left(\\frac{1}{T_1}-\\frac{1}{T_2}\\right)\\\\ &=\\frac{E_a}{R}\\cdot\\frac{T_2-T_1}{T_1T_2}\\end{aligned}$$\n\nDivide by 2.303 to change to $\\log_{10}$:\n\n$$\\log\\frac{k_2}{k_1}=\\frac{E_a}{2.303\\,R}\\cdot\\frac{T_2-T_1}{T_1T_2}$$\n\n**(c)** Given: $k_2/k_1=2$, $T_1=300$ K, $T_2=310$ K, $R=8.314$ J K$^{-1}$ mol$^{-1}$.<br>\nTo find: $E_a$.<br>\nFormula: the equation from (b).<br>\nSolution:\n\n$$\\log 2=\\frac{E_a}{2.303\\times8.314}\\times\\frac{310-300}{300\\times310}$$\n\n$$\\begin{aligned}E_a&=2.303\\times8.314\\times0.3010\\\\ &\\quad\\times\\frac{300\\times310}{10}\\\\ &=5.763\\times9300\\\\ &\\approx5.36\\times10^{4}\\text{ J mol}^{-1}\\end{aligned}$$\n\n$$\\boxed{E_a\\approx5.36\\times10^{4}\\text{ J mol}^{-1}}$$\n\nThat is about 53.6 kJ mol$^{-1}$.\n\n:::tip Your answer must contain\n- <mark>subtracting</mark> the two Arrhenius equations so that $\\ln A$ cancels\n- the change from ln to log$_{10}$ (dividing by 2.303)\n- the unit J mol$^{-1}$ with the final answer\n:::\n\n**Marks are lost for:** taking T in °C; no 2.303 in (b); a missing unit or power of ten in (c).",
+    "scheme": [
+      {
+        "step": "(a) Arrhenius equation, with A the frequency factor and E_a the activation energy",
+        "marks": 1
+      },
+      {
+        "step": "(b) Two Arrhenius equations subtracted, ln A cancels",
+        "marks": 1
+      },
+      {
+        "step": "(b) Log form obtained by dividing by 2.303, with (T2 − T1)/(T1 T2)",
+        "marks": 1
+      },
+      {
+        "step": "(c) Substitution of log 2, R and the two temperatures",
+        "marks": 1
+      },
+      {
+        "step": "(c) E_a ≈ 5.36 × 10⁴ J mol⁻¹ with unit",
+        "marks": 1
+      }
+    ],
+    "hint": "(b) Write the Arrhenius equation twice, once for each temperature, then subtract. (c) Put the numbers into the result of (b) and solve for E_a.",
+    "source_note": "Weekly refresh 2026-11-22 (own wording)"
   }
 ]

@@ -259,5 +259,27 @@
     ],
     "hint": "The bond is between the two anomeric carbons. Think about what Fehling’s solution needs in order to react.",
     "source_note": "Weekly refresh 2026-11-15 (own wording)"
+  },
+  {
+    "id": "chem-w20261122-ch10-01",
+    "chapter": "ch-10",
+    "type": "vsa2",
+    "marks": 2,
+    "stars": 2,
+    "label": "PYQ-style",
+    "stem": "Differentiate between a nucleoside and a nucleotide. Give one example of each.",
+    "model_answer": "*How much to write: 4–5 lines · 3 minutes*\n\n<u>Nucleoside</u>: a <mark>nitrogenous base joined to a sugar</mark> (ribose or deoxyribose), with no phosphate group. Example: adenosine, which is adenine + ribose.<br>\n<u>Nucleotide</u>: a nucleoside with a <mark>phosphate group</mark> ester-linked to the sugar. Example: adenosine 5′-monophosphate (AMP).\n\n:::tip Your answer must contain\n- the <mark>phosphate group</mark> for the nucleotide, and its absence in the nucleoside\n- one named example for each\n:::\n\n**Marks are lost for:** saying a nucleotide has only a base; no example.",
+    "scheme": [
+      {
+        "step": "Nucleoside: base + sugar, with a named example",
+        "marks": 1
+      },
+      {
+        "step": "Nucleotide: nucleoside + phosphate group, with a named example",
+        "marks": 1
+      }
+    ],
+    "hint": "Ask which of the two has a phosphate group attached.",
+    "source_note": "Weekly refresh 2026-11-22 (own wording)"
   }
 ]

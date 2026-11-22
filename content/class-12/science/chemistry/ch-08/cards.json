@@ -127,7 +127,7 @@
     "kind": "formula",
     "title": "Acid strength",
     "tex": "\\begin{gathered}\\ce{Cl3CCOOH}>\\ce{Cl2CHCOOH}\\\\ >\\ce{ClCH2COOH}>\\ce{CH3COOH}\\end{gathered}",
-    "back": "More, stronger and closer electron-withdrawing groups make a stronger acid. Also HCOOH > CH₃COOH; F > Cl > Br as substituents; 2-chloro > 3-chloro > 4-chloro.",
+    "back": "More, and closer, electron-withdrawing groups make a stronger acid; HCOOH > CH₃COOH.",
     "stars": 3,
     "tags": [
       "order"
@@ -171,7 +171,7 @@
     "kind": "formula",
     "title": "Ammonia derivatives",
     "tex": "\\begin{gathered}\\ce{{>}C=O + H2N-Z}\\\\ \\ce{-> {>}C=N-Z + H2O}\\end{gathered}",
-    "back": "Hydroxylamine → oxime; hydrazine → hydrazone; phenylhydrazine → phenylhydrazone; semicarbazide → semicarbazone; 2,4-DNP → orange precipitate.",
+    "back": "Hydroxylamine → oxime; hydrazine → hydrazone; semicarbazide → semicarbazone; 2,4-DNP → orange precipitate.",
     "stars": 2,
     "tags": [
       "equation"

@@ -307,5 +307,35 @@
     ],
     "hint": "Co in the complex is +3. With a strong-field ligand, the electrons pair up before any spin is left unpaired.",
     "source_note": "Weekly refresh 2026-11-15 (own wording)"
+  },
+  {
+    "id": "chem-w20261122-ch05-01",
+    "chapter": "ch-05",
+    "type": "la5",
+    "marks": 5,
+    "stars": 3,
+    "label": "PYQ-style",
+    "stem": "(a) Write the hybridisation, shape and number of unpaired electrons of $\\ce{[Fe(CN)6]^4-}$ and of $\\ce{[FeF6]^3-}$ (Fe: Z = 26), using valence bond theory. [3]<br>\n(b) Calculate the spin-only magnetic moment of $\\ce{[FeF6]^3-}$. [2]",
+    "model_answer": "*How much to write: about 14 lines · 10 minutes*\n\n**(a)** $\\ce{[Fe(CN)6]^4-}$: Fe is Fe²⁺, 3d⁶. $\\ce{CN-}$ is a <mark>strong-field ligand</mark>, so the six electrons <u>pair up</u> and leave two 3d orbitals free. The hybridisation is <u>d$^2$sp$^3$</u> (inner-orbital), octahedral, with <mark>0 unpaired electrons</mark>: diamagnetic.\n\n$\\ce{[FeF6]^3-}$: Fe is Fe³⁺, 3d⁵. $\\ce{F-}$ is a <mark>weak-field ligand</mark>, so the electrons stay unpaired: $t_{2g}^3e_g^2$. No 3d orbitals are free, so the 4d orbitals are used: <u>sp$^3$d$^2$</u> (outer-orbital), octahedral, with <mark>5 unpaired electrons</mark>: paramagnetic.\n\n**(b)** Given: 5 unpaired electrons, so $n=5$.<br>\nTo find: $\\mu$.<br>\nFormula: $\\mu=\\sqrt{n(n+2)}$ BM<br>\nSolution:\n\n$$\\mu=\\sqrt{5\\times7}=\\sqrt{35}$$\n\n$$\\boxed{\\mu\\approx5.92\\text{ BM}}$$\n\n:::tip Your answer must contain\n- the <mark>strong-field or weak-field</mark> reason for pairing or not pairing\n- the orbitals used for each complex (d$^2$sp$^3$ or sp$^3$d$^2$)\n- the number of unpaired electrons, then $\\mu$ with the unit BM\n:::\n\n**Marks are lost for:** calling the first complex high spin; using 3d orbitals for sp$^3$d$^2$; giving $\\mu$ without the formula or the unit.",
+    "scheme": [
+      {
+        "step": "(a) [Fe(CN)6]4-: strong field, electrons paired, d2sp3, 0 unpaired, diamagnetic",
+        "marks": 1
+      },
+      {
+        "step": "(a) [FeF6]3-: weak field, sp3d2, 5 unpaired, paramagnetic",
+        "marks": 2
+      },
+      {
+        "step": "(b) Formula μ = √(n(n+2)) used with n = 5",
+        "marks": 1
+      },
+      {
+        "step": "(b) μ ≈ 5.92 BM with unit",
+        "marks": 1
+      }
+    ],
+    "hint": "Count the d electrons of Fe²⁺ and Fe³⁺ first. Then ask whether the ligand is strong-field (pairs them) or weak-field (does not).",
+    "source_note": "Weekly refresh 2026-11-22 (own wording)"
   }
 ]
