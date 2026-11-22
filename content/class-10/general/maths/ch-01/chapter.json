@@ -1,0 +1,16 @@
+{
+  "$schema": "../../../../../schemas/chapter.schema.json",
+  "id": "ch-01",
+  "number": 1,
+  "title": "Real Numbers",
+  "unit": "I",
+  "marks_hint": "Unit I Number Systems: 6 marks",
+  "summary": "Fundamental Theorem of Arithmetic · HCF and LCM by prime factorisation · irrationality proofs",
+  "status": {
+    "notes": "ready",
+    "mustknow": "ready",
+    "formulas": "ready",
+    "questions": "ready"
+  },
+  "updated": "2026-11-23"
+}

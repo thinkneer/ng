@@ -1,0 +1,319 @@
+[
+ {
+  "id": "maths10-07-q01",
+  "chapter": "ch-07",
+  "type": "mcq",
+  "marks": 1,
+  "stem": "The distance of the point $(-6,\\,8)$ from the origin is",
+  "options": [
+   "$6$ units",
+   "$8$ units",
+   "$10$ units",
+   "$14$ units"
+  ],
+  "answer": "C",
+  "model_answer": "**(c).** $\\sqrt{(-6)^2+8^2}=\\sqrt{100}=10$ units.",
+  "stars": 3,
+  "label": "PYQ-style",
+  "topic": "Distance formula",
+  "hint": "Distance from the origin is $\\sqrt{x^2+y^2}$."
+ },
+ {
+  "id": "maths10-07-q02",
+  "chapter": "ch-07",
+  "type": "mcq",
+  "marks": 1,
+  "stem": "The distance of the point $P(3,\\,-4)$ from the $x$-axis is",
+  "options": [
+   "$3$ units",
+   "$4$ units",
+   "$5$ units",
+   "$-4$ units"
+  ],
+  "answer": "B",
+  "model_answer": "**(b).** The distance from the $x$-axis is the size of the $y$-coordinate: $\\lvert-4\\rvert=4$ units.",
+  "stars": 3,
+  "label": "PYQ-style",
+  "topic": "Points and axes",
+  "hint": "Which coordinate measures the distance from the x-axis?"
+ },
+ {
+  "id": "maths10-07-q03",
+  "chapter": "ch-07",
+  "type": "mcq",
+  "marks": 1,
+  "stem": "The midpoint of the line segment joining $(-2,\\,8)$ and $(-6,\\,-4)$ is",
+  "options": [
+   "$(-4,\\,-6)$",
+   "$(2,\\,6)$",
+   "$(-4,\\,2)$",
+   "$(4,\\,2)$"
+  ],
+  "answer": "C",
+  "model_answer": "**(c).** $\\left(\\dfrac{-2-6}{2},\\dfrac{8-4}{2}\\right)=(-4,\\,2)$.",
+  "stars": 2,
+  "label": "NCERT-based",
+  "topic": "Midpoint",
+  "hint": "Average the x's and average the y's."
+ },
+ {
+  "id": "maths10-07-q04",
+  "chapter": "ch-07",
+  "type": "mcq",
+  "marks": 1,
+  "stem": "If the distance between the points $(4,\\,k)$ and $(1,\\,0)$ is 5 units, then $k$ equals",
+  "options": [
+   "$4$ only",
+   "$\\pm4$",
+   "$-4$ only",
+   "$0$"
+  ],
+  "answer": "B",
+  "model_answer": "**(b).** $(4-1)^2+k^2=25\\Rightarrow k^2=16\\Rightarrow k=\\pm4$.",
+  "stars": 3,
+  "label": "PYQ-style",
+  "topic": "Distance formula",
+  "hint": "Square both sides of the distance equation."
+ },
+ {
+  "id": "maths10-07-q05",
+  "chapter": "ch-07",
+  "type": "mcq",
+  "marks": 1,
+  "stem": "The point $P(3,\\,4)$ divides the line segment joining $A(1,\\,2)$ and $B(7,\\,8)$ in the ratio",
+  "options": [
+   "$1:2$",
+   "$2:1$",
+   "$1:3$",
+   "$3:1$"
+  ],
+  "answer": "A",
+  "model_answer": "**(a).** Let the ratio be $k:1$: $\\dfrac{7k+1}{k+1}=3\\Rightarrow4k=2\\Rightarrow k=\\dfrac12$. Ratio $1:2$ (check: $y=\\dfrac{8+4}{3}=4$).",
+  "stars": 3,
+  "label": "PYQ-style",
+  "topic": "Section formula",
+  "hint": "Take the ratio as k : 1 and use the x-coordinate."
+ },
+ {
+  "id": "maths10-07-q06",
+  "chapter": "ch-07",
+  "type": "ar",
+  "marks": 1,
+  "stem": "**Assertion (A):** The point $(0,\\,4)$ lies on the $y$-axis.<br>**Reason (R):** The $x$-coordinate of every point on the $y$-axis is zero.",
+  "options": [
+   "Both A and R are true, and R is the correct explanation of A.",
+   "Both A and R are true, but R is not the correct explanation of A.",
+   "A is true, but R is false.",
+   "A is false, but R is true."
+  ],
+  "answer": "A",
+  "model_answer": "**(a).** $(0,4)$ has $x=0$, so it lies on the $y$-axis; R is exactly the reason.",
+  "stars": 2,
+  "label": "PYQ-style",
+  "topic": "Points and axes",
+  "hint": "What is special about points on the y-axis?"
+ },
+ {
+  "id": "maths10-07-q07",
+  "chapter": "ch-07",
+  "type": "ar",
+  "marks": 1,
+  "stem": "**Assertion (A):** The distance of the point $(5,\\,12)$ from the origin is 13 units.<br>**Reason (R):** The midpoint of the segment joining $(x_1,y_1)$ and $(x_2,y_2)$ is $\\left(\\dfrac{x_1+x_2}{2},\\dfrac{y_1+y_2}{2}\\right)$.",
+  "options": [
+   "Both A and R are true, and R is the correct explanation of A.",
+   "Both A and R are true, but R is not the correct explanation of A.",
+   "A is true, but R is false.",
+   "A is false, but R is true."
+  ],
+  "answer": "B",
+  "model_answer": "**(b).** A is true: $\\sqrt{25+144}=13$. R is the correct midpoint formula, but it has nothing to do with the distance in A.",
+  "stars": 2,
+  "label": "PYQ-style",
+  "topic": "Distance formula",
+  "hint": "Both may be true: does R explain A?"
+ },
+ {
+  "id": "maths10-07-q08",
+  "chapter": "ch-07",
+  "type": "vsa2",
+  "marks": 2,
+  "stem": "Find the point on the $x$-axis which is equidistant from $A(5,\\,4)$ and $B(-1,\\,2)$.",
+  "model_answer": "*How much to write: about 5 lines · 3 minutes.*\n\nLet the point be $P(x,\\,0)$. $PA=PB\\Rightarrow$ <mark>$PA^2=PB^2$</mark>\n\n$(x-5)^2+16=(x+1)^2+4$\n\n$x^2-10x+41=x^2+2x+5\\Rightarrow12x=36\\Rightarrow x=3$\n\n$$\\boxed{P=(3,\\,0)}$$\n\n:::tip Your answer must contain\n- the point taken as $(x,0)$\n- squared distances equated\n- the answer as a point\n:::\n\n**Marks are lost for:** writing only $x=3$ instead of the point.",
+  "scheme": [
+   {
+    "step": "$P(x,0)$ and $PA^2=PB^2$ written with coordinates",
+    "marks": 1
+   },
+   {
+    "step": "$x=3$; point $(3,0)$",
+    "marks": 1
+   }
+  ],
+  "stars": 3,
+  "label": "NCERT-based",
+  "topic": "Equidistant points",
+  "hint": "A point on the x-axis is (x, 0); equate the squared distances."
+ },
+ {
+  "id": "maths10-07-q09",
+  "chapter": "ch-07",
+  "type": "vsa2",
+  "marks": 2,
+  "stem": "Find the ratio in which the $y$-axis divides the line segment joining $A(-3,\\,2)$ and $B(6,\\,5)$. Also find the point of division.",
+  "model_answer": "*How much to write: about 5 lines · 3 minutes.*\n\nLet the ratio be $k:1$. On the $y$-axis, $x=0$:\n\n<mark>$\\dfrac{6k-3}{k+1}=0$</mark> $\\Rightarrow k=\\dfrac12$, so the ratio is $1:2$.\n\n$y=\\dfrac{1(5)+2(2)}{1+2}=3$\n\n$$\\boxed{1:2,\\quad(0,\\,3)}$$\n\n:::tip Your answer must contain\n- ratio as $k:1$\n- $x=0$ on the $y$-axis\n- both the ratio and the point\n:::\n\n**Marks are lost for:** stopping at the ratio.",
+  "scheme": [
+   {
+    "step": "Ratio $k:1$, $x=0$ used; ratio $1:2$",
+    "marks": 1
+   },
+   {
+    "step": "Point $(0,3)$",
+    "marks": 1
+   }
+  ],
+  "stars": 3,
+  "label": "NCERT-based",
+  "topic": "Section formula",
+  "hint": "A point on the y-axis has x = 0; take the ratio as k : 1."
+ },
+ {
+  "id": "maths10-07-q10",
+  "chapter": "ch-07",
+  "type": "sa3",
+  "marks": 3,
+  "stem": "Show that the points $A(1,\\,2)$, $B(4,\\,6)$, $C(8,\\,3)$ and $D(5,\\,-1)$ are the vertices of a square.",
+  "model_answer": "*How much to write: about 9 lines · 5 minutes.*\n\n$AB=\\sqrt{3^2+4^2}=5$, $\\ BC=\\sqrt{4^2+(-3)^2}=5$\n\n$CD=\\sqrt{(-3)^2+(-4)^2}=5$, $\\ DA=\\sqrt{(-4)^2+3^2}=5$\n\nDiagonals: $AC=\\sqrt{7^2+1^2}=\\sqrt{50}$, $\\ BD=\\sqrt{1^2+(-7)^2}=\\sqrt{50}$\n\n<mark>All four sides are equal and the diagonals are equal</mark>, so $ABCD$ is a <u>square</u>.\n\n:::tip Your answer must contain\n- all four sides\n- both diagonals\n- the reason in words\n:::\n\n**Marks are lost for:** proving only that the sides are equal (that shows a rhombus).",
+  "scheme": [
+   {
+    "step": "Four sides, each 5 units",
+    "marks": 1.5
+   },
+   {
+    "step": "Both diagonals $\\sqrt{50}$",
+    "marks": 1
+   },
+   {
+    "step": "Conclusion with reason",
+    "marks": 0.5
+   }
+  ],
+  "stars": 3,
+  "label": "NCERT-based",
+  "topic": "Naming shapes",
+  "hint": "A square needs equal sides and equal diagonals."
+ },
+ {
+  "id": "maths10-07-q11",
+  "chapter": "ch-07",
+  "type": "sa3",
+  "marks": 3,
+  "stem": "Find the coordinates of the points of trisection of the line segment joining $A(1,\\,-2)$ and $B(7,\\,4)$.",
+  "model_answer": "*How much to write: about 9 lines · 5 minutes.*\n\nLet $P$ and $Q$ be the points of trisection, $P$ nearer to $A$. Then $P$ divides $AB$ in the ratio $1:2$ and $Q$ in the ratio $2:1$.\n\n<mark>$P=\\left(\\dfrac{1(7)+2(1)}{3},\\ \\dfrac{1(4)+2(-2)}{3}\\right)=(3,\\,0)$</mark>\n\n$Q=\\left(\\dfrac{2(7)+1(1)}{3},\\ \\dfrac{2(4)+1(-2)}{3}\\right)=(5,\\,2)$\n\n$$\\boxed{(3,\\,0)\\ \\text{and}\\ (5,\\,2)}$$\n\n:::tip Your answer must contain\n- the two ratios\n- the section formula with numbers for each point\n:::\n\n**Marks are lost for:** finding only one of the two points.",
+  "scheme": [
+   {
+    "step": "Ratios $1:2$ and $2:1$ stated",
+    "marks": 1
+   },
+   {
+    "step": "$P=(3,0)$",
+    "marks": 1
+   },
+   {
+    "step": "$Q=(5,2)$",
+    "marks": 1
+   }
+  ],
+  "stars": 3,
+  "label": "NCERT-based",
+  "topic": "Section formula",
+  "hint": "Trisection points divide the segment in 1 : 2 and 2 : 1."
+ },
+ {
+  "id": "maths10-07-q12",
+  "chapter": "ch-07",
+  "type": "la5",
+  "marks": 5,
+  "stem": "$A(-2,\\,1)$, $B(1,\\,0)$ and $C(4,\\,3)$ are three vertices of a parallelogram $ABCD$. Find the coordinates of $D$. Find the lengths of both diagonals and say, with a reason, whether $ABCD$ is a rectangle.",
+  "model_answer": "*How much to write: about 15 lines · 9 minutes.*\n\nLet $D=(x,\\,y)$. The <u>diagonals of a parallelogram bisect each other</u>, so midpoint of $AC$ = midpoint of $BD$.\n\n$\\left(\\dfrac{-2+4}{2},\\dfrac{1+3}{2}\\right)=\\left(\\dfrac{1+x}{2},\\dfrac{0+y}{2}\\right)$\n\n$1+x=2$ and $y=4$, so <mark>$D=(1,\\,4)$</mark>.\n\n$AC=\\sqrt{6^2+2^2}=\\sqrt{40}=2\\sqrt{10}$ units; $\\ BD=\\sqrt{0^2+4^2}=4$ units\n\nThe diagonals are not equal, so $ABCD$ is <u>not a rectangle</u>.\n\n$$\\boxed{D=(1,\\,4)}$$\n\n:::tip Your answer must contain\n- the property used\n- both midpoints\n- both diagonal lengths and the conclusion\n:::\n\n**Marks are lost for:** pairing the wrong vertices (the diagonals are AC and BD).",
+  "scheme": [
+   {
+    "step": "Property: diagonals bisect each other",
+    "marks": 1
+   },
+   {
+    "step": "Midpoints equated",
+    "marks": 1
+   },
+   {
+    "step": "$D=(1,4)$",
+    "marks": 1
+   },
+   {
+    "step": "$AC=2\\sqrt{10}$ and $BD=4$",
+    "marks": 1.5
+   },
+   {
+    "step": "Not a rectangle, with reason",
+    "marks": 0.5
+   }
+  ],
+  "stars": 3,
+  "label": "PYQ-style",
+  "topic": "Parallelograms",
+  "hint": "Diagonals of a parallelogram have the same midpoint."
+ },
+ {
+  "id": "maths10-07-q13",
+  "chapter": "ch-07",
+  "type": "case",
+  "marks": 4,
+  "stem": "**The town map.** A town is drawn on a coordinate grid in which 1 unit is 100 m. A student's house is at $H(1,\\,1)$ and the school is at $S(7,\\,9)$. A straight road joins them.",
+  "parts": [
+   {
+    "id": "i",
+    "stem": "How far is the school from the house, in grid units?",
+    "marks": 1,
+    "model_answer": "$HS=\\sqrt{6^2+8^2}=10$ units.",
+    "scheme": [
+     {
+      "step": "10 units",
+      "marks": 1
+     }
+    ]
+   },
+   {
+    "id": "ii",
+    "stem": "A park is exactly midway along the road. Find its coordinates.",
+    "marks": 1,
+    "model_answer": "$\\left(\\dfrac{1+7}{2},\\dfrac{1+9}{2}\\right)=(4,\\,5)$.",
+    "scheme": [
+     {
+      "step": "$(4,5)$",
+      "marks": 1
+     }
+    ]
+   },
+   {
+    "id": "iii",
+    "stem": "A shop $T$ on the road divides $HS$ in the ratio $1:3$ (nearer the house). Find its coordinates.<br>**OR** A library is at $L(-7,\\,7)$. Show that the house is equidistant from the school and the library.",
+    "marks": 2,
+    "model_answer": "$T=\\left(\\dfrac{1(7)+3(1)}{4},\\dfrac{1(9)+3(1)}{4}\\right)=(2.5,\\,3)$.<br>**OR:** $HL=\\sqrt{(-8)^2+6^2}=10=HS$.",
+    "scheme": [
+     {
+      "step": "Section formula with ratio 1 : 3 (OR: distance HL set up)",
+      "marks": 1
+     },
+     {
+      "step": "$T=(2.5,\\,3)$ (OR: $HL=10=HS$)",
+      "marks": 1
+     }
+    ]
+   }
+  ],
+  "model_answer": "*How much to write: about 7 lines · 6 minutes in all.*\n\n**(i)** $HS=\\sqrt{(7-1)^2+(9-1)^2}=\\sqrt{100}=10$ units (1 km).\n\n**(ii)** <u>Midway</u> means the midpoint: $(4,\\,5)$.\n\n**(iii)** <mark>$m$ multiplies the far point $S$</mark>:\n\n$$\\boxed{T=\\left(\\tfrac{7+3}{4},\\ \\tfrac{9+3}{4}\\right)=(2.5,\\,3)}$$\n\n**OR:** $HL=\\sqrt{64+36}=10$ units $=HS$, so $H$ is equidistant from $S$ and $L$.\n\n:::tip Your answer must contain\n- the formula named for each part\n- the working with numbers\n- a point written with brackets\n:::\n\n**Marks are lost for:** using the ratio $3:1$ instead of $1:3$.",
+  "stars": 3,
+  "label": "PYQ-style",
+  "topic": "Distance and section formula",
+  "hint": "Distance, then midpoint, then the section formula."
+ }
+]

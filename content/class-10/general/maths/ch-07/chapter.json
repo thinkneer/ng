@@ -1,0 +1,16 @@
+{
+  "$schema": "../../../../../schemas/chapter.schema.json",
+  "id": "ch-07",
+  "number": 7,
+  "title": "Coordinate Geometry",
+  "unit": "III",
+  "marks_hint": "Unit III Coordinate Geometry: 6 marks",
+  "summary": "Distance formula · section formula · midpoint · naming shapes from vertices",
+  "status": {
+    "notes": "ready",
+    "mustknow": "ready",
+    "formulas": "ready",
+    "questions": "ready"
+  },
+  "updated": "2026-11-23"
+}

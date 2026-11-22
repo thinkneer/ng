@@ -380,12 +380,40 @@
                       "number": 1,
                       "title": "Real Numbers",
                       "unit": "I",
-                      "items": {},
-                      "marks_hint": null,
-                      "summary": null,
-                      "questions": 0,
-                      "question_types": {},
-                      "mnemonics": 2
+                      "items": {
+                        "notes": true,
+                        "mustknow": true,
+                        "formulas": true,
+                        "cards": true,
+                        "questions": true
+                      },
+                      "marks_hint": "Unit I Number Systems: 6 marks",
+                      "summary": "Fundamental Theorem of Arithmetic · HCF and LCM by prime factorisation · irrationality proofs",
+                      "questions": 14,
+                      "question_types": {
+                        "mcq": 5,
+                        "ar": 2,
+                        "vsa2": 3,
+                        "sa3": 2,
+                        "la5": 1,
+                        "case": 1
+                      },
+                      "diagrams": [],
+                      "blocks": {
+                        "figure": 1,
+                        "draw": 1,
+                        "explain": 1,
+                        "mnemonic": 2,
+                        "steps": 1,
+                        "numerical": 1,
+                        "fill": 1,
+                        "compare": 1,
+                        "derive": 1
+                      },
+                      "words": 2184,
+                      "read_minutes": 7,
+                      "cards": 10,
+                      "mnemonics": 4
                     }
                   ]
                 },
@@ -562,12 +590,39 @@
                       "number": 7,
                       "title": "Coordinate Geometry",
                       "unit": "III",
-                      "items": {},
-                      "marks_hint": null,
-                      "summary": null,
-                      "questions": 0,
-                      "question_types": {},
-                      "mnemonics": 3
+                      "items": {
+                        "notes": true,
+                        "mustknow": true,
+                        "formulas": true,
+                        "cards": true,
+                        "questions": true
+                      },
+                      "marks_hint": "Unit III Coordinate Geometry: 6 marks",
+                      "summary": "Distance formula · section formula · midpoint · naming shapes from vertices",
+                      "questions": 13,
+                      "question_types": {
+                        "mcq": 5,
+                        "ar": 2,
+                        "vsa2": 2,
+                        "sa3": 2,
+                        "la5": 1,
+                        "case": 1
+                      },
+                      "diagrams": [],
+                      "blocks": {
+                        "figure": 2,
+                        "mnemonic": 2,
+                        "derive": 1,
+                        "numerical": 1,
+                        "draw": 1,
+                        "fill": 1,
+                        "steps": 1,
+                        "explain": 1
+                      },
+                      "words": 1794,
+                      "read_minutes": 5,
+                      "cards": 11,
+                      "mnemonics": 5
                     }
                   ]
                 },
@@ -763,7 +818,7 @@
               "exam_date": "2027-02-17",
               "syllabus_year": "2026-27",
               "not_in_syllabus": [
-                "Euclid's division lemma (Ch 1)",
+                "Euclid's division lemma; decimal expansions of rational numbers (Ch 1)",
                 "Division algorithm for polynomials (Ch 2)",
                 "Cross-multiplication method; equations reducible to a pair of linear equations (Ch 3)",
                 "Solving a quadratic equation by completing the square, as a separate method (Ch 4)",
@@ -781,10 +836,10 @@
               },
               "papers": [],
               "counts": {
-                "notes": 6,
-                "mustknow": 6,
-                "formulas": 6,
-                "questions": 6,
+                "notes": 8,
+                "mustknow": 8,
+                "formulas": 8,
+                "questions": 8,
                 "chapters": 14
               },
               "exam_mode": "built"
@@ -2238,7 +2293,7 @@
                       "words": 2286,
                       "read_minutes": 6,
                       "cards": 10,
-                      "mnemonics": 2
+                      "mnemonics": 4
                     },
                     {
                       "id": "ch-02",
@@ -2476,7 +2531,7 @@
                       "words": 3479,
                       "read_minutes": 11,
                       "cards": 15,
-                      "mnemonics": 3
+                      "mnemonics": 5
                     },
                     {
                       "id": "ch-08",

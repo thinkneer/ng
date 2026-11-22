@@ -1,0 +1,119 @@
+[
+  {
+    "id": "hook-descartes",
+    "kind": "event",
+    "title": "Two numbers for every point",
+    "svg": "<svg viewBox=\"0 0 300 170\" role=\"img\" aria-label=\"A dot on a grid located by its distances from two walls\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"><path d=\"M50,20 V140\" stroke-width=\"0.5\"/><path d=\"M90,20 V140\" stroke-width=\"0.5\"/><path d=\"M130,20 V140\" stroke-width=\"0.5\"/><path d=\"M170,20 V140\" stroke-width=\"0.5\"/><path d=\"M210,20 V140\" stroke-width=\"0.5\"/><path d=\"M250,20 V140\" stroke-width=\"0.5\"/><path d=\"M50,20 H250\" stroke-width=\"0.5\"/><path d=\"M50,50 H250\" stroke-width=\"0.5\"/><path d=\"M50,80 H250\" stroke-width=\"0.5\"/><path d=\"M50,110 H250\" stroke-width=\"0.5\"/><path d=\"M50,140 H250\" stroke-width=\"0.5\"/><path d=\"M50,140 H258 M50,140 V14\" stroke-width=\"1.5\"/><path d=\"M170,140 V50 H50\" stroke-dasharray=\"5 4\" class=\"u\"/><circle cx=\"170\" cy=\"50\" r=\"5\" fill=\"#E0B400\" stroke=\"none\"/><text x=\"170\" y=\"158\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">3 across</text><text x=\"28\" y=\"54\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">3 up</text></svg>",
+    "tags": [
+      "story"
+    ],
+    "back": "The story goes that Descartes thought of coordinates while watching a fly on the ceiling. Your phone's map dot is the same idea."
+  },
+  {
+    "id": "distance-figure",
+    "kind": "figure",
+    "title": "Where the distance formula comes from",
+    "svg": "ref: notes#distance-figure",
+    "stars": 3,
+    "tags": [
+      "diagram"
+    ],
+    "back": "PR and RQ are the differences of the coordinates; PQ is the hypotenuse. It is the Pythagoras theorem."
+  },
+  {
+    "id": "distance-formula",
+    "kind": "formula",
+    "title": "Distance formula",
+    "tex": "\\begin{gathered}PQ=\\\\ \\sqrt{(x_2-x_1)^2+(y_2-y_1)^2}\\end{gathered}",
+    "stars": 3,
+    "tags": [
+      "1-mark"
+    ],
+    "back": "Keep brackets with negative coordinates: $5-(-1)=6$."
+  },
+  {
+    "id": "origin-distance",
+    "kind": "formula",
+    "title": "Distance from the origin",
+    "tex": "\\sqrt{x^2+y^2}",
+    "stars": 3,
+    "tags": [
+      "1-mark"
+    ],
+    "back": "$(-6,8)$ is 10 units from the origin; $(5,12)$ is 13."
+  },
+  {
+    "id": "section-figure",
+    "kind": "figure",
+    "title": "Dividing a segment in m : n",
+    "svg": "ref: notes#section-figure",
+    "stars": 3,
+    "tags": [
+      "diagram"
+    ],
+    "back": "P divides AB internally so that AP : PB = m : n. Each ratio part multiplies the far end."
+  },
+  {
+    "id": "section-formula",
+    "kind": "formula",
+    "title": "Section formula",
+    "tex": "\\begin{gathered}x=\\dfrac{mx_2+nx_1}{m+n}\\\\[4pt] y=\\dfrac{my_2+ny_1}{m+n}\\end{gathered}",
+    "stars": 3,
+    "tags": [
+      "3-mark"
+    ],
+    "back": "$m$ multiplies the second point, $n$ the first."
+  },
+  {
+    "id": "midpoint-formula",
+    "kind": "formula",
+    "title": "Midpoint",
+    "tex": "\\left(\\dfrac{x_1+x_2}{2},\\ \\dfrac{y_1+y_2}{2}\\right)",
+    "stars": 3,
+    "tags": [
+      "1-mark"
+    ],
+    "back": "The section formula with ratio $1:1$. The centre of a circle is the midpoint of a diameter."
+  },
+  {
+    "id": "k-to-one",
+    "kind": "process",
+    "title": "Finding an unknown ratio",
+    "tex": "\\begin{gathered}\\text{ratio}=k:1\\\\ \\downarrow\\\\ \\text{one coordinate}\\to k\\\\ \\downarrow\\\\ \\text{other coordinate}\\end{gathered}",
+    "stars": 3,
+    "tags": [
+      "3-mark"
+    ],
+    "back": "On the x-axis put $y=0$; on the y-axis put $x=0$."
+  },
+  {
+    "id": "shape-tests",
+    "kind": "compare",
+    "title": "Square or rhombus?",
+    "tex": "\\begin{gathered}\\text{4 equal sides}\\to\\text{rhombus}\\\\ +\\ \\text{equal diagonals}\\to\\text{square}\\end{gathered}",
+    "stars": 2,
+    "tags": [
+      "3-mark"
+    ],
+    "back": "Sides first, then diagonals. Equal diagonals also turn a parallelogram into a rectangle."
+  },
+  {
+    "id": "parallelogram-vertex",
+    "kind": "formula",
+    "title": "Fourth vertex of a parallelogram",
+    "tex": "\\begin{gathered}\\text{midpoint of }AC\\\\=\\text{midpoint of }BD\\end{gathered}",
+    "stars": 2,
+    "tags": [
+      "3-mark"
+    ],
+    "back": "Diagonals bisect each other, so the two midpoints are the same point."
+  },
+  {
+    "id": "collinear-test",
+    "kind": "formula",
+    "title": "Three points on one line",
+    "tex": "AB+BC=AC",
+    "stars": 2,
+    "back": "The two shorter distances add up to the longest. (The area formula is not in boards.)"
+  }
+]

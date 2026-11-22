@@ -59,6 +59,51 @@
    "prompt": "Which hangs from the cave ceiling, a stalactite or a stalagmite?"
   }
  ],
+ "maths/ch-01": [
+  {
+   "id": "hcf-humble-lcm-lavish",
+   "title": "Which powers go where?",
+   "trick": "**HCF is humble, LCM is lavish**",
+   "meaning": [
+    "**HCF**: only the common primes, each with its smallest power.",
+    "**LCM**: every prime that appears anywhere, each with its greatest power."
+   ],
+   "prompt": "Which primes and which powers make the HCF, and which make the LCM?"
+  },
+  {
+   "id": "proof-four-moves",
+   "title": "The four moves of the proof",
+   "trick": "**A S D C: Assume, Square, Divide twice, Contradict**",
+   "meaning": [
+    "**A**ssume it equals $\\dfrac ab$ with $a$, $b$ coprime.",
+    "**S**quare both sides.",
+    "**D**ivide twice: the prime divides $a$, then it divides $b$.",
+    "**C**ontradict \"coprime\" and conclude."
+   ],
+   "prompt": "What are the four moves in the proof that a square root is irrational?"
+  },
+  {
+   "id": "rst-self-swap-chain",
+   "title": "The three properties of a relation",
+   "trick": "**R S T** = **self, swap, chain**",
+   "meaning": [
+    "**R**eflexive: every element is related to it**self**, $(a,a)\\in R$.",
+    "**S**ymmetric: **swap** the pair and it is still there, $(a,b)\\Rightarrow(b,a)$.",
+    "**T**ransitive: a **chain** closes, $(a,b)$ and $(b,c)\\Rightarrow(a,c)$."
+   ],
+   "prompt": "What do reflexive, symmetric and transitive each ask you to check?"
+  },
+  {
+   "id": "one-one-onto-arrows",
+   "title": "One-one or onto? Look at the arrows",
+   "trick": "One-one: **no sharing**. Onto: **no one left out**.",
+   "meaning": [
+    "**One-one:** no two arrows land on the same element of the codomain.",
+    "**Onto:** no element of the codomain is left without an arrow, so range = codomain."
+   ],
+   "prompt": "In an arrow diagram, how do you spot one-one and onto?"
+  }
+ ],
  "maths/ch-02": [
   {
    "id": "sum-sad-product-plain",
@@ -209,6 +254,56 @@
     "$\\dfrac{d}{dx}\\sin(x^2)$: outside $\\sin(\\ )\\to\\cos(x^2)$, inside $x^2\\to2x$. Answer $2x\\cos(x^2)$. Keep going until you have differentiated the innermost $x$."
    ],
    "prompt": "How do you differentiate a function of a function?"
+  }
+ ],
+ "maths/ch-07": [
+  {
+   "id": "pythagoras-in-disguise",
+   "title": "The distance formula is not new",
+   "trick": "**Across, up, Pythagoras**",
+   "meaning": [
+    "Go **across** ($x_2-x_1$), go **up** ($y_2-y_1$); the straight-line distance is the hypotenuse."
+   ],
+   "prompt": "Which theorem gives the distance formula, and what are the two legs?"
+  },
+  {
+   "id": "cross-multiply-section",
+   "title": "Which number multiplies which point?",
+   "trick": "**Each ratio part multiplies the far point**",
+   "meaning": [
+    "$m$ sits next to $A$ but multiplies $B$'s coordinates; $n$ sits next to $B$ but multiplies $A$'s. Draw the cross once and you will not mix them up."
+   ],
+   "prompt": "In the section formula, which point's coordinates does m multiply?"
+  },
+  {
+   "id": "spot-the-derivative",
+   "title": "When to substitute",
+   "trick": "**Spot a function sitting next to its own derivative**",
+   "meaning": [
+    "$\\int\\dfrac{f'(x)}{f(x)}\\,dx=\\log\\lvert f(x)\\rvert+C$ and $\\int f'(x)\\,[f(x)]^n\\,dx=\\dfrac{[f(x)]^{n+1}}{n+1}+C$.",
+    "Put $t$ = the inside function; its derivative, already present, becomes $dt$."
+   ],
+   "prompt": "What do you look for before choosing a substitution?"
+  },
+  {
+   "id": "ilate",
+   "title": "Which function goes first?",
+   "trick": "**I L A T E**",
+   "meaning": [
+    "**I**nverse trig, **L**ogarithmic, **A**lgebraic, **T**rigonometric, **E**xponential: the one that comes earlier is the first function $u$.",
+    "$\\int x\\,e^x\\,dx$: $x$ (A) before $e^x$ (E). $\\int\\log x\\,dx$: take $\\log x$ first and 1 as the second function."
+   ],
+   "prompt": "In ∫ x² log x dx, which is the first function?"
+  },
+  {
+   "id": "king-property",
+   "title": "The property that solves most 5-markers",
+   "trick": "The **king** property: replace $x$ by **(upper + lower − x)**",
+   "meaning": [
+    "$\\int_a^bf(x)\\,dx=\\int_a^bf(a+b-x)\\,dx$; with lower limit 0, replace $x$ by $a-x$.",
+    "Then **add** the two forms: $2I$ is usually an easy integral."
+   ],
+   "prompt": "What do you replace x by in the property for ∫ from a to b?"
   }
  ],
  "maths/ch-08": [
@@ -1033,29 +1128,6 @@
    "prompt": "Which bases are purines?"
   }
  ],
- "maths/ch-01": [
-  {
-   "id": "rst-self-swap-chain",
-   "title": "The three properties of a relation",
-   "trick": "**R S T** = **self, swap, chain**",
-   "meaning": [
-    "**R**eflexive: every element is related to it**self**, $(a,a)\\in R$.",
-    "**S**ymmetric: **swap** the pair and it is still there, $(a,b)\\Rightarrow(b,a)$.",
-    "**T**ransitive: a **chain** closes, $(a,b)$ and $(b,c)\\Rightarrow(a,c)$."
-   ],
-   "prompt": "What do reflexive, symmetric and transitive each ask you to check?"
-  },
-  {
-   "id": "one-one-onto-arrows",
-   "title": "One-one or onto? Look at the arrows",
-   "trick": "One-one: **no sharing**. Onto: **no one left out**.",
-   "meaning": [
-    "**One-one:** no two arrows land on the same element of the codomain.",
-    "**Onto:** no element of the codomain is left without an arrow, so range = codomain."
-   ],
-   "prompt": "In an arrow diagram, how do you spot one-one and onto?"
-  }
- ],
  "maths/ch-06": [
   {
    "id": "decreasing-is-negative",
@@ -1076,38 +1148,6 @@
     "If $f''(c)=0$ the test fails: go back to the sign change of $f'$."
    ],
    "prompt": "f′(c) = 0 and f″(c) < 0. Maximum or minimum?"
-  }
- ],
- "maths/ch-07": [
-  {
-   "id": "spot-the-derivative",
-   "title": "When to substitute",
-   "trick": "**Spot a function sitting next to its own derivative**",
-   "meaning": [
-    "$\\int\\dfrac{f'(x)}{f(x)}\\,dx=\\log\\lvert f(x)\\rvert+C$ and $\\int f'(x)\\,[f(x)]^n\\,dx=\\dfrac{[f(x)]^{n+1}}{n+1}+C$.",
-    "Put $t$ = the inside function; its derivative, already present, becomes $dt$."
-   ],
-   "prompt": "What do you look for before choosing a substitution?"
-  },
-  {
-   "id": "ilate",
-   "title": "Which function goes first?",
-   "trick": "**I L A T E**",
-   "meaning": [
-    "**I**nverse trig, **L**ogarithmic, **A**lgebraic, **T**rigonometric, **E**xponential: the one that comes earlier is the first function $u$.",
-    "$\\int x\\,e^x\\,dx$: $x$ (A) before $e^x$ (E). $\\int\\log x\\,dx$: take $\\log x$ first and 1 as the second function."
-   ],
-   "prompt": "In ∫ x² log x dx, which is the first function?"
-  },
-  {
-   "id": "king-property",
-   "title": "The property that solves most 5-markers",
-   "trick": "The **king** property: replace $x$ by **(upper + lower − x)**",
-   "meaning": [
-    "$\\int_a^bf(x)\\,dx=\\int_a^bf(a+b-x)\\,dx$; with lower limit 0, replace $x$ by $a-x$.",
-    "Then **add** the two forms: $2I$ is usually an easy integral."
-   ],
-   "prompt": "What do you replace x by in the property for ∫ from a to b?"
   }
  ],
  "maths/ch-10": [

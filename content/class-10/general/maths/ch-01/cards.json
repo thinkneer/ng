@@ -1,0 +1,108 @@
+[
+  {
+    "id": "hook-root-two",
+    "kind": "event",
+    "title": "The number that broke a rule",
+    "svg": "<svg viewBox=\"0 0 300 170\" role=\"img\" aria-label=\"A square of side 1 with its diagonal of length root 2\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"><rect x=\"95\" y=\"25\" width=\"110\" height=\"110\"/><path d=\"M95,135 L205,25\" class=\"u\" stroke-width=\"2\"/><text x=\"150\" y=\"152\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">1</text><text x=\"218\" y=\"84\" font-size=\"14\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">1</text><text x=\"138\" y=\"74\" font-size=\"15\" text-anchor=\"middle\" fill=\"#E0B400\" stroke=\"none\">√2</text></svg>",
+    "tags": [
+      "story"
+    ],
+    "back": "The diagonal of a unit square is $\\sqrt2$, and no fraction equals it. Legend says the Greeks who found this were shaken by it."
+  },
+  {
+    "id": "factor-tree",
+    "kind": "figure",
+    "title": "Factor tree",
+    "svg": "ref: notes#factor-tree",
+    "stars": 2,
+    "tags": [
+      "diagram"
+    ],
+    "back": "Split until every branch is prime. Whichever way you split, the primes at the end are the same."
+  },
+  {
+    "id": "fundamental-theorem",
+    "kind": "formula",
+    "title": "Fundamental Theorem of Arithmetic",
+    "tex": "n=p_1^{a}\\,p_2^{b}\\,p_3^{c}\\cdots",
+    "stars": 3,
+    "back": "Every composite number is a product of primes in one way only (apart from order). The key word is unique."
+  },
+  {
+    "id": "hcf-rule",
+    "kind": "formula",
+    "title": "HCF from prime factors",
+    "tex": "\\begin{gathered}72=2^3\\cdot3^2\\\\120=2^3\\cdot3\\cdot5\\\\ \\text{HCF}=2^3\\cdot3=24\\end{gathered}",
+    "stars": 3,
+    "tags": [
+      "1-mark"
+    ],
+    "back": "Only the common primes, each with its smallest power."
+  },
+  {
+    "id": "lcm-rule",
+    "kind": "formula",
+    "title": "LCM from prime factors",
+    "tex": "\\begin{gathered}72=2^3\\cdot3^2\\\\120=2^3\\cdot3\\cdot5\\\\ \\text{LCM}=2^3\\cdot3^2\\cdot5=360\\end{gathered}",
+    "stars": 3,
+    "tags": [
+      "1-mark"
+    ],
+    "back": "Every prime that appears, each with its greatest power."
+  },
+  {
+    "id": "product-rule",
+    "kind": "formula",
+    "title": "HCF × LCM",
+    "tex": "\\begin{gathered}\\text{HCF}\\times\\text{LCM}\\\\=a\\times b\\end{gathered}",
+    "stars": 3,
+    "tags": [
+      "1-mark"
+    ],
+    "back": "True for two numbers only, never for three."
+  },
+  {
+    "id": "root-proof",
+    "kind": "process",
+    "title": "Proving √p irrational",
+    "tex": "\\begin{gathered}\\sqrt p=\\tfrac ab\\ (\\text{coprime})\\\\ \\downarrow\\\\ pb^2=a^2\\Rightarrow p\\mid a\\\\ \\downarrow\\\\ a=pc\\Rightarrow p\\mid b\\\\ \\downarrow\\\\ \\text{contradiction}\\end{gathered}",
+    "stars": 3,
+    "tags": [
+      "3-mark"
+    ],
+    "back": "Write 'coprime' in line 1: it is what the last line contradicts."
+  },
+  {
+    "id": "ends-in-zero",
+    "kind": "formula",
+    "title": "Can it end in 0?",
+    "tex": "10=2\\times5",
+    "stars": 2,
+    "tags": [
+      "2-mark"
+    ],
+    "back": "A number ends in 0 only if its prime factors include both 2 and 5. $6^n=2^n\\cdot3^n$ has no 5."
+  },
+  {
+    "id": "rational-irrational",
+    "kind": "compare",
+    "title": "Mixing rational and irrational",
+    "tex": "\\begin{gathered}\\text{rational}\\pm\\text{irrational}\\\\=\\text{irrational}\\end{gathered}",
+    "stars": 2,
+    "tags": [
+      "1-mark"
+    ],
+    "back": "But irrational × irrational may be rational: $\\sqrt2\\times\\sqrt2=2$."
+  },
+  {
+    "id": "hcf-or-lcm",
+    "kind": "compare",
+    "title": "HCF or LCM?",
+    "tex": "\\begin{gathered}\\text{largest}\\to\\text{HCF}\\\\ \\text{smallest}\\to\\text{LCM}\\end{gathered}",
+    "stars": 3,
+    "tags": [
+      "case"
+    ],
+    "back": "Bells, lights and runners meeting again: LCM. Equal groups, biggest tile, longest tape: HCF."
+  }
+]

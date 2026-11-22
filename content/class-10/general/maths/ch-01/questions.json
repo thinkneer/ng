@@ -1,0 +1,365 @@
+[
+ {
+  "id": "maths10-01-q01",
+  "chapter": "ch-01",
+  "type": "mcq",
+  "marks": 1,
+  "stem": "If HCF (26, 91) = 13, then LCM (26, 91) is",
+  "options": [
+   "$91$",
+   "$182$",
+   "$338$",
+   "$2366$"
+  ],
+  "answer": "B",
+  "model_answer": "**(b).** LCM $=\\dfrac{26\\times91}{13}=182$.",
+  "stars": 3,
+  "label": "PYQ-style",
+  "topic": "HCF and LCM",
+  "hint": "HCF × LCM = product of the two numbers."
+ },
+ {
+  "id": "maths10-01-q02",
+  "chapter": "ch-01",
+  "type": "mcq",
+  "marks": 1,
+  "stem": "The exponent of 2 in the prime factorisation of 144 is",
+  "options": [
+   "$2$",
+   "$3$",
+   "$4$",
+   "$6$"
+  ],
+  "answer": "C",
+  "model_answer": "**(c).** $144=16\\times9=2^4\\times3^2$, so the exponent of 2 is 4.",
+  "stars": 2,
+  "label": "PYQ-style",
+  "topic": "Prime factorisation",
+  "hint": "Write 144 as a product of prime powers."
+ },
+ {
+  "id": "maths10-01-q03",
+  "chapter": "ch-01",
+  "type": "mcq",
+  "marks": 1,
+  "stem": "If $a=2^3\\times3$, $b=2\\times3\\times5$, $c=3^n\\times5$ and LCM $(a,b,c)=2^3\\times3^2\\times5$, then $n$ equals",
+  "options": [
+   "$1$",
+   "$2$",
+   "$3$",
+   "$4$"
+  ],
+  "answer": "B",
+  "model_answer": "**(b).** The LCM takes the greatest power of 3. In $a$ and $b$ that power is 1, so the $3^2$ must come from $c$: $n=2$.",
+  "stars": 3,
+  "label": "PYQ-style",
+  "topic": "HCF and LCM",
+  "hint": "LCM uses the greatest power of each prime."
+ },
+ {
+  "id": "maths10-01-q04",
+  "chapter": "ch-01",
+  "type": "mcq",
+  "marks": 1,
+  "stem": "The LCM of the smallest two-digit number and the smallest composite number is",
+  "options": [
+   "$12$",
+   "$4$",
+   "$20$",
+   "$40$"
+  ],
+  "answer": "C",
+  "model_answer": "**(c).** The numbers are 10 and 4. $10=2\\times5$, $4=2^2$, so LCM $=2^2\\times5=20$.",
+  "stars": 2,
+  "label": "PYQ-style",
+  "topic": "HCF and LCM",
+  "hint": "The numbers are 10 and 4."
+ },
+ {
+  "id": "maths10-01-q05",
+  "chapter": "ch-01",
+  "type": "mcq",
+  "marks": 1,
+  "stem": "Which of the following is an irrational number?",
+  "options": [
+   "$\\sqrt{81}$",
+   "$\\dfrac{\\sqrt{12}}{\\sqrt3}$",
+   "$(2+\\sqrt3)(2-\\sqrt3)$",
+   "$5-\\sqrt3$"
+  ],
+  "answer": "D",
+  "model_answer": "**(d).** $\\sqrt{81}=9$, $\\dfrac{\\sqrt{12}}{\\sqrt3}=2$ and $(2+\\sqrt3)(2-\\sqrt3)=4-3=1$ are rational. $5-\\sqrt3$ is rational minus irrational, so it is irrational.",
+  "stars": 3,
+  "label": "PYQ-style",
+  "topic": "Irrational numbers",
+  "hint": "Simplify each option first."
+ },
+ {
+  "id": "maths10-01-q06",
+  "chapter": "ch-01",
+  "type": "ar",
+  "marks": 1,
+  "stem": "**Assertion (A):** If the HCF of two numbers is 5 and their product is 150, then their LCM is 30.<br>**Reason (R):** For any two positive integers $a$ and $b$, HCF $(a,b)$ × LCM $(a,b)=a\\times b$.",
+  "options": [
+   "Both A and R are true, and R is the correct explanation of A.",
+   "Both A and R are true, but R is not the correct explanation of A.",
+   "A is true, but R is false.",
+   "A is false, but R is true."
+  ],
+  "answer": "A",
+  "model_answer": "**(a).** LCM $=\\dfrac{150}{5}=30$, which follows directly from the product rule in R.",
+  "stars": 3,
+  "label": "PYQ-style",
+  "topic": "HCF and LCM",
+  "hint": "Divide the product by the HCF."
+ },
+ {
+  "id": "maths10-01-q07",
+  "chapter": "ch-01",
+  "type": "ar",
+  "marks": 1,
+  "stem": "**Assertion (A):** $2+\\sqrt3$ is an irrational number.<br>**Reason (R):** The sum of a rational number and an irrational number is always rational.",
+  "options": [
+   "Both A and R are true, and R is the correct explanation of A.",
+   "Both A and R are true, but R is not the correct explanation of A.",
+   "A is true, but R is false.",
+   "A is false, but R is true."
+  ],
+  "answer": "C",
+  "model_answer": "**(c).** A is true: rational + irrational is irrational. R says the opposite, so R is false.",
+  "stars": 2,
+  "label": "PYQ-style",
+  "topic": "Irrational numbers",
+  "hint": "What is rational + irrational?"
+ },
+ {
+  "id": "maths10-01-q08",
+  "chapter": "ch-01",
+  "type": "vsa2",
+  "marks": 2,
+  "stem": "Check whether $15^n$ can end with the digit 0 for any natural number $n$.",
+  "model_answer": "*How much to write: about 5 lines · 3 minutes.*\n\nA number ending in 0 is divisible by 10, so its prime factorisation must contain <u>both 2 and 5</u>.\n\n<mark>$15^n=(3\\times5)^n=3^n\\times5^n$</mark>: the only prime factors are 3 and 5.\n\nBy the <u>uniqueness</u> of prime factorisation (Fundamental Theorem of Arithmetic), 2 is not a factor of $15^n$. So $15^n$ cannot end with the digit 0.\n\n:::tip Your answer must contain\n- the factors 2 and 5 needed\n- the prime factorisation of $15^n$\n- the word 'unique' or the theorem's name\n:::\n\n**Marks are lost for:** trying a few values of $n$ instead of giving a reason.",
+  "scheme": [
+   {
+    "step": "Ending in 0 needs prime factors 2 and 5",
+    "marks": 0.5
+   },
+   {
+    "step": "$15^n=3^n\\times5^n$",
+    "marks": 0.5
+   },
+   {
+    "step": "Uniqueness of prime factorisation: no factor 2",
+    "marks": 0.5
+   },
+   {
+    "step": "Conclusion",
+    "marks": 0.5
+   }
+  ],
+  "stars": 3,
+  "label": "NCERT-based",
+  "topic": "Fundamental Theorem of Arithmetic",
+  "hint": "What primes must a number ending in 0 contain?"
+ },
+ {
+  "id": "maths10-01-q09",
+  "chapter": "ch-01",
+  "type": "vsa2",
+  "marks": 2,
+  "stem": "Find the HCF and LCM of 72 and 120 by the prime factorisation method.",
+  "model_answer": "*How much to write: about 5 lines · 3 minutes.*\n\n$72=2^3\\times3^2$, $\\quad120=2^3\\times3\\times5$\n\nHCF $=2^3\\times3=24$ (smallest powers of common primes)\n\n<mark>LCM $=2^3\\times3^2\\times5=360$</mark> (greatest powers of all primes)\n\n$$\\boxed{\\text{HCF}=24,\\ \\ \\text{LCM}=360}$$\n\n:::tip Your answer must contain\n- both factorisations in powers\n- HCF and LCM each on its own line\n:::\n\n**Marks are lost for:** using the greatest powers for the HCF.",
+  "scheme": [
+   {
+    "step": "Both prime factorisations",
+    "marks": 1
+   },
+   {
+    "step": "HCF = 24",
+    "marks": 0.5
+   },
+   {
+    "step": "LCM = 360",
+    "marks": 0.5
+   }
+  ],
+  "stars": 3,
+  "label": "NCERT-based",
+  "topic": "HCF and LCM",
+  "hint": "Factorise both numbers into prime powers first."
+ },
+ {
+  "id": "maths10-01-q10",
+  "chapter": "ch-01",
+  "type": "vsa2",
+  "marks": 2,
+  "stem": "Given that $\\sqrt3$ is irrational, prove that $5-2\\sqrt3$ is irrational.",
+  "model_answer": "*How much to write: about 5 lines · 3 minutes.*\n\nAssume, to the contrary, that $5-2\\sqrt3$ is rational. Then $5-2\\sqrt3=\\dfrac ab$, where $a$, $b$ are integers and $b\\ne0$.\n\n<mark>$\\sqrt3=\\dfrac{5b-a}{2b}$</mark>\n\nThe right side is a rational number, so $\\sqrt3$ is rational. This <u>contradicts</u> the given fact that $\\sqrt3$ is irrational.\n\nHence $5-2\\sqrt3$ is irrational.\n\n:::tip Your answer must contain\n- 'assume … is rational'\n- $\\sqrt3$ made the subject\n- the word 'contradicts'\n:::\n\n**Marks are lost for:** stopping without the last line 'Hence …'.",
+  "scheme": [
+   {
+    "step": "Assumption written",
+    "marks": 0.5
+   },
+   {
+    "step": "$\\sqrt3$ isolated",
+    "marks": 0.5
+   },
+   {
+    "step": "Contradiction explained",
+    "marks": 0.5
+   },
+   {
+    "step": "Conclusion",
+    "marks": 0.5
+   }
+  ],
+  "stars": 3,
+  "label": "NCERT-based",
+  "topic": "Irrational numbers",
+  "hint": "Assume it is rational and make √3 the subject."
+ },
+ {
+  "id": "maths10-01-q11",
+  "chapter": "ch-01",
+  "type": "sa3",
+  "marks": 3,
+  "stem": "Prove that $\\sqrt5$ is an irrational number.",
+  "model_answer": "*How much to write: about 9 lines · 5 minutes.*\n\nAssume, to the contrary, that $\\sqrt5$ is rational. Then $\\sqrt5=\\dfrac ab$, where $a$ and $b$ are <u>coprime</u> integers and $b\\ne0$.\n\nSquaring: <mark>$5b^2=a^2$</mark>. So 5 divides $a^2$, and therefore 5 divides $a$. Let $a=5c$.\n\nThen $5b^2=25c^2$, so $b^2=5c^2$. So 5 divides $b^2$, and therefore 5 divides $b$.\n\nThus $a$ and $b$ have a common factor 5, which <u>contradicts</u> that they are coprime. Hence $\\sqrt5$ is irrational.\n\n:::tip Your answer must contain\n- 'coprime' in the first line\n- 5 divides $a$, then 5 divides $b$\n- 'contradicts' and the conclusion\n:::\n\n**Marks are lost for:** leaving out 'coprime', so there is nothing to contradict.",
+  "scheme": [
+   {
+    "step": "Assumption with $a$, $b$ coprime",
+    "marks": 1
+   },
+   {
+    "step": "$5b^2=a^2$, so 5 divides $a$",
+    "marks": 1
+   },
+   {
+    "step": "5 divides $b$",
+    "marks": 0.5
+   },
+   {
+    "step": "Contradiction and conclusion",
+    "marks": 0.5
+   }
+  ],
+  "stars": 3,
+  "label": "NCERT-based",
+  "topic": "Irrationality proofs",
+  "hint": "Proof by contradiction: assume it is a/b in lowest terms."
+ },
+ {
+  "id": "maths10-01-q12",
+  "chapter": "ch-01",
+  "type": "sa3",
+  "marks": 3,
+  "stem": "Three bells toll at intervals of 9, 12 and 15 minutes. If they toll together at 8:00 a.m., at what time will they next toll together?",
+  "model_answer": "*How much to write: about 9 lines · 5 minutes.*\n\nThe bells toll together after a time that is a common multiple of 9, 12 and 15, so the <u>least</u> such time is their LCM.\n\n$9=3^2$, $\\quad12=2^2\\times3$, $\\quad15=3\\times5$\n\n<mark>LCM $=2^2\\times3^2\\times5=180$ minutes</mark> $=3$ hours\n\nThey next toll together 3 hours after 8:00 a.m.\n\n$$\\boxed{11{:}00\\ \\text{a.m.}}$$\n\n:::tip Your answer must contain\n- the reason for using LCM\n- the three factorisations\n- the clock time, not only 180 minutes\n:::\n\n**Marks are lost for:** stopping at 180 minutes without giving the time.",
+  "scheme": [
+   {
+    "step": "LCM identified as the method; prime factorisations",
+    "marks": 1
+   },
+   {
+    "step": "LCM = 180 minutes",
+    "marks": 1
+   },
+   {
+    "step": "Time 11:00 a.m.",
+    "marks": 1
+   }
+  ],
+  "stars": 3,
+  "label": "PYQ-style",
+  "topic": "Word problems",
+  "hint": "'Together again' asks for the LCM."
+ },
+ {
+  "id": "maths10-01-q13",
+  "chapter": "ch-01",
+  "type": "la5",
+  "marks": 5,
+  "stem": "Prove that $\\sqrt3$ is an irrational number. Hence show that $2+5\\sqrt3$ is also irrational.",
+  "model_answer": "*How much to write: about 15 lines · 9 minutes.*\n\n**Part 1.** Assume $\\sqrt3$ is rational: $\\sqrt3=\\dfrac ab$, where $a$, $b$ are <u>coprime</u> integers, $b\\ne0$.\n\nSquaring: <mark>$3b^2=a^2$</mark>, so 3 divides $a^2$ and hence 3 divides $a$. Let $a=3c$.\n\nThen $3b^2=9c^2$, so $b^2=3c^2$: 3 divides $b^2$ and hence 3 divides $b$.\n\nSo 3 is a common factor of $a$ and $b$, which <u>contradicts</u> that they are coprime. Hence $\\sqrt3$ is irrational.\n\n**Part 2.** Assume $2+5\\sqrt3$ is rational, say $2+5\\sqrt3=\\dfrac pq$ ($p$, $q$ integers, $q\\ne0$). Then $\\sqrt3=\\dfrac{p-2q}{5q}$, a rational number.\n\nThis contradicts Part 1. Hence $2+5\\sqrt3$ is irrational.\n\n:::tip Your answer must contain\n- both parts clearly separated\n- 'coprime' and 'contradicts'\n- a conclusion line for each part\n:::\n\n**Marks are lost for:** proving only the first part, or using different letters carelessly.",
+  "scheme": [
+   {
+    "step": "Assumption with $a$, $b$ coprime",
+    "marks": 1
+   },
+   {
+    "step": "3 divides $a$",
+    "marks": 1
+   },
+   {
+    "step": "3 divides $b$; contradiction; conclusion",
+    "marks": 1
+   },
+   {
+    "step": "Assumption for $2+5\\sqrt3$ and $\\sqrt3$ isolated",
+    "marks": 1
+   },
+   {
+    "step": "Contradiction and conclusion",
+    "marks": 1
+   }
+  ],
+  "stars": 3,
+  "label": "NCERT-based",
+  "topic": "Irrationality proofs",
+  "hint": "Part 1 is the standard proof; in Part 2 make √3 the subject."
+ },
+ {
+  "id": "maths10-01-q14",
+  "chapter": "ch-01",
+  "type": "case",
+  "marks": 4,
+  "stem": "**The seminar.** A school is hosting a seminar with 48 participants for Hindi, 80 for English and 144 for Mathematics. Each room must seat the same number of participants, and all participants in a room must be of the same subject.",
+  "parts": [
+   {
+    "id": "i",
+    "stem": "What is the maximum number of participants that can be seated in each room?",
+    "marks": 1,
+    "model_answer": "$48=2^4\\times3$, $80=2^4\\times5$, $144=2^4\\times3^2$; HCF $=2^4=16$.",
+    "scheme": [
+     {
+      "step": "HCF = 16",
+      "marks": 1
+     }
+    ]
+   },
+   {
+    "id": "ii",
+    "stem": "How many rooms are needed in all?",
+    "marks": 1,
+    "model_answer": "$\\dfrac{48}{16}+\\dfrac{80}{16}+\\dfrac{144}{16}=3+5+9=17$ rooms.",
+    "scheme": [
+     {
+      "step": "17 rooms",
+      "marks": 1
+     }
+    ]
+   },
+   {
+    "id": "iii",
+    "stem": "Find the LCM of 48, 80 and 144.<br>**OR** Find the product of the HCF and the LCM of 48 and 80, and say what it equals.",
+    "marks": 2,
+    "model_answer": "LCM $=2^4\\times3^2\\times5=720$.<br>**OR:** HCF (48, 80) $=16$, LCM $=2^4\\times3\\times5=240$; product $=16\\times240=3840=48\\times80$.",
+    "scheme": [
+     {
+      "step": "Greatest powers of all primes chosen (OR: HCF 16 and LCM 240)",
+      "marks": 1
+     },
+     {
+      "step": "LCM = 720 (OR: 3840 = 48 × 80)",
+      "marks": 1
+     }
+    ]
+   }
+  ],
+  "model_answer": "*How much to write: about 7 lines · 6 minutes in all.*\n\n$48=2^4\\times3$, $\\quad80=2^4\\times5$, $\\quad144=2^4\\times3^2$\n\n**(i)** <u>Maximum in each room</u> means the HCF: <mark>HCF $=2^4=16$</mark>.\n\n**(ii)** Rooms $=3+5+9=17$.\n\n**(iii)** $$\\boxed{\\text{LCM}=2^4\\times3^2\\times5=720}$$\n\n**OR:** HCF × LCM of 48 and 80 $=16\\times240=3840=48\\times80$.\n\n:::tip Your answer must contain\n- the three prime factorisations\n- HCF for 'maximum in each room'\n- rooms counted subject by subject\n:::\n\n**Marks are lost for:** adding the three numbers and dividing once without saying why.",
+  "stars": 3,
+  "label": "PYQ-style",
+  "topic": "Word problems",
+  "hint": "Maximum equal groups: HCF."
+ }
+]
