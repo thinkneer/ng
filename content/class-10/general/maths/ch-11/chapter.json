@@ -1,0 +1,16 @@
+{
+  "$schema": "../../../../../schemas/chapter.schema.json",
+  "id": "ch-11",
+  "number": 11,
+  "title": "Areas Related to Circles",
+  "unit": "VI",
+  "marks_hint": "Unit VI Mensuration: 10 marks with Surface Areas and Volumes",
+  "summary": "Sector · arc length · segment · clock and grazing problems",
+  "status": {
+    "notes": "ready",
+    "mustknow": "ready",
+    "formulas": "ready",
+    "questions": "ready"
+  },
+  "updated": "2026-11-23"
+}

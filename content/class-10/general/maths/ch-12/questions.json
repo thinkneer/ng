@@ -1,0 +1,319 @@
+[
+ {
+  "id": "maths10-12-q01",
+  "chapter": "ch-12",
+  "type": "mcq",
+  "marks": 1,
+  "stem": "Two cubes, each of volume 27 cm³, are joined end to end. The surface area of the resulting cuboid is",
+  "options": [
+   "$108$ cm²",
+   "$90$ cm²",
+   "$54$ cm²",
+   "$81$ cm²"
+  ],
+  "answer": "B",
+  "model_answer": "**(b).** Edge $=3$ cm. The cuboid is $6\\times3\\times3$: $2(18+9+18)=90$ cm².",
+  "stars": 3,
+  "label": "PYQ-style",
+  "topic": "Surface area of a combination",
+  "hint": "Find the edge, then the cuboid's three dimensions."
+ },
+ {
+  "id": "maths10-12-q02",
+  "chapter": "ch-12",
+  "type": "mcq",
+  "marks": 1,
+  "stem": "A solid is a cone of slant height $l$ mounted on a hemisphere of the same radius $r$. Its total surface area is",
+  "options": [
+   "$\\pi r(l+r)$",
+   "$\\pi r(l+2r)$",
+   "$\\pi r(l+3r)$",
+   "$\\pi r(l+4r)$"
+  ],
+  "answer": "B",
+  "model_answer": "**(b).** Only the curved surfaces are visible: $\\pi rl+2\\pi r^2=\\pi r(l+2r)$.",
+  "stars": 3,
+  "label": "PYQ-style",
+  "topic": "Surface area of a combination",
+  "hint": "The two flat circles are glued together."
+ },
+ {
+  "id": "maths10-12-q03",
+  "chapter": "ch-12",
+  "type": "mcq",
+  "marks": 1,
+  "stem": "The volume of the largest sphere that can be carved out of a cube of edge 7 cm is $\\left(\\text{Use }\\pi=\\tfrac{22}{7}\\right)$",
+  "options": [
+   "$1437.33$ cm³",
+   "$343$ cm³",
+   "$179.67$ cm³",
+   "$154$ cm³"
+  ],
+  "answer": "C",
+  "model_answer": "**(c).** Radius $=3.5$ cm. $V=\\dfrac43\\times\\dfrac{22}{7}\\times3.5^3=179.67$ cm³.",
+  "stars": 2,
+  "label": "PYQ-style",
+  "topic": "Volume",
+  "hint": "The sphere's diameter equals the edge of the cube."
+ },
+ {
+  "id": "maths10-12-q04",
+  "chapter": "ch-12",
+  "type": "mcq",
+  "marks": 1,
+  "stem": "A cylinder, a cone and a hemisphere have equal radii, and the height of the cylinder and of the cone equals the radius. Their volumes (cylinder : cone : hemisphere) are in the ratio",
+  "options": [
+   "$3:1:2$",
+   "$1:2:3$",
+   "$3:2:1$",
+   "$2:1:3$"
+  ],
+  "answer": "A",
+  "model_answer": "**(a).** $\\pi r^3:\\dfrac13\\pi r^3:\\dfrac23\\pi r^3=3:1:2$.",
+  "stars": 3,
+  "label": "PYQ-style",
+  "topic": "Volume",
+  "hint": "Put h = r in each formula."
+ },
+ {
+  "id": "maths10-12-q05",
+  "chapter": "ch-12",
+  "type": "mcq",
+  "marks": 1,
+  "stem": "The slant height of a cone of radius 5 cm and height 12 cm is",
+  "options": [
+   "$7$ cm",
+   "$13$ cm",
+   "$17$ cm",
+   "$169$ cm"
+  ],
+  "answer": "B",
+  "model_answer": "**(b).** $l=\\sqrt{5^2+12^2}=13$ cm.",
+  "stars": 2,
+  "label": "NCERT-based",
+  "topic": "Basic solids",
+  "hint": "Radius, height and slant height form a right triangle."
+ },
+ {
+  "id": "maths10-12-q06",
+  "chapter": "ch-12",
+  "type": "ar",
+  "marks": 1,
+  "stem": "**Assertion (A):** When a cone is mounted on a hemisphere of the same radius, the total surface area of the solid is the sum of their curved surface areas.<br>**Reason (R):** The flat circular faces of the two solids are joined together and are not part of the outer surface.",
+  "options": [
+   "Both A and R are true, and R is the correct explanation of A.",
+   "Both A and R are true, but R is not the correct explanation of A.",
+   "A is true, but R is false.",
+   "A is false, but R is true."
+  ],
+  "answer": "A",
+  "model_answer": "**(a).** Because the two circular faces are hidden at the joint (R), only the curved surfaces remain on the outside (A).",
+  "stars": 3,
+  "label": "PYQ-style",
+  "topic": "Surface area of a combination",
+  "hint": "Which faces can you still touch after joining?"
+ },
+ {
+  "id": "maths10-12-q07",
+  "chapter": "ch-12",
+  "type": "ar",
+  "marks": 1,
+  "stem": "**Assertion (A):** If two solid hemispheres of the same radius $r$ are joined along their flat faces, the total surface area of the solid formed is $6\\pi r^2$.<br>**Reason (R):** The total surface area of a solid hemisphere is $3\\pi r^2$.",
+  "options": [
+   "Both A and R are true, and R is the correct explanation of A.",
+   "Both A and R are true, but R is not the correct explanation of A.",
+   "A is true, but R is false.",
+   "A is false, but R is true."
+  ],
+  "answer": "D",
+  "model_answer": "**(d).** R is true. But joining hides both flat faces: the solid is a sphere with surface $4\\pi r^2$, so A is false.",
+  "stars": 3,
+  "label": "PYQ-style",
+  "topic": "Surface area of a combination",
+  "hint": "What solid do two hemispheres make?"
+ },
+ {
+  "id": "maths10-12-q08",
+  "chapter": "ch-12",
+  "type": "vsa2",
+  "marks": 2,
+  "stem": "A wooden block is a cube of edge 14 cm with a hemisphere of diameter 7 cm fixed on its top face. Find the total surface area of the block. $\\left(\\text{Use }\\pi=\\tfrac{22}{7}\\right)$",
+  "model_answer": "*How much to write: about 5 lines · 3 minutes.*\n\nOne circle of the top face is covered and the curved surface of the hemisphere is added:\n\n<mark>TSA $=6a^2-\\pi r^2+2\\pi r^2=6a^2+\\pi r^2$</mark>\n\n$=6\\times196+\\dfrac{22}{7}\\times3.5\\times3.5=1176+38.5$\n\n$$\\boxed{1214.5\\ \\text{cm}^2}$$\n\n:::tip Your answer must contain\n- what is removed and what is added\n- radius 3.5 cm\n- cm²\n:::\n\n**Marks are lost for:** adding the full $2\\pi r^2$ without removing the covered circle.",
+  "scheme": [
+   {
+    "step": "Expression $6a^2+\\pi r^2$ (or its three parts)",
+    "marks": 1
+   },
+   {
+    "step": "1214.5 cm²",
+    "marks": 1
+   }
+  ],
+  "stars": 3,
+  "label": "NCERT-based",
+  "topic": "Surface area of a combination",
+  "hint": "A circle of the top face is hidden under the hemisphere."
+ },
+ {
+  "id": "maths10-12-q09",
+  "chapter": "ch-12",
+  "type": "vsa2",
+  "marks": 2,
+  "stem": "A solid is in the shape of a cone of height 12 cm and radius 3.5 cm standing on a hemisphere of the same radius. Find the volume of the solid. $\\left(\\text{Use }\\pi=\\tfrac{22}{7}\\right)$",
+  "model_answer": "*How much to write: about 5 lines · 3 minutes.*\n\n<mark>Volume $=\\dfrac13\\pi r^2h+\\dfrac23\\pi r^3$</mark>\n\n$=\\dfrac13\\times\\dfrac{22}{7}\\times3.5^2\\times12+\\dfrac23\\times\\dfrac{22}{7}\\times3.5^3=154+89.83$\n\n$$\\boxed{243.83\\ \\text{cm}^3}$$\n\n:::tip Your answer must contain\n- both formulas\n- the two partial volumes\n- cm³\n:::\n\n**Marks are lost for:** using the sphere formula for the hemisphere.",
+  "scheme": [
+   {
+    "step": "Sum of the two volume formulas",
+    "marks": 1
+   },
+   {
+    "step": "243.83 cm³",
+    "marks": 1
+   }
+  ],
+  "stars": 3,
+  "label": "NCERT-based",
+  "topic": "Volume of a combination",
+  "hint": "Volumes simply add."
+ },
+ {
+  "id": "maths10-12-q10",
+  "chapter": "ch-12",
+  "type": "sa3",
+  "marks": 3,
+  "stem": "A medicine capsule is in the shape of a cylinder with a hemisphere at each end. The total length of the capsule is 21 mm and its diameter is 7 mm. Find its surface area. $\\left(\\text{Use }\\pi=\\tfrac{22}{7}\\right)$",
+  "model_answer": "*How much to write: about 9 lines · 5 minutes.*\n\n<figure class=\"fig\">\n<svg viewBox=\"0 0 300 150\" role=\"img\" aria-label=\"A capsule: a cylinder with a hemisphere at each end\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"><path d=\"M100,45 H200 M100,105 H200\"/><path d=\"M100,45 A30,30 0 0 0 100,105\" class=\"u\" stroke-width=\"2\"/><path d=\"M200,45 A30,30 0 0 1 200,105\" class=\"u\" stroke-width=\"2\"/><path d=\"M100,45 V105 M200,45 V105\" stroke-dasharray=\"4 3\" stroke-width=\"1\"/><text x=\"150\" y=\"80\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">cylinder</text><text x=\"56\" y=\"40\" font-size=\"10\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">hemisphere</text><text x=\"244\" y=\"40\" font-size=\"10\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">hemisphere</text><path d=\"M70,128 H230\" stroke-width=\"1\"/><path d=\"M70,123 V133 M230,123 V133\" stroke-width=\"1\"/><text x=\"150\" y=\"144\" font-size=\"10\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">total length</text></svg>\n<figcaption>Capsule: cylinder with two hemispherical ends.</figcaption>\n</figure>\n\nRadius $r=3.5$ mm. Length of the cylindrical part $h=21-2(3.5)=14$ mm.\n\n<mark>Surface area $=2\\pi rh+2(2\\pi r^2)$</mark>\n\n$=2\\times\\dfrac{22}{7}\\times3.5\\times14+4\\times\\dfrac{22}{7}\\times3.5^2=308+154$\n\n$$\\boxed{462\\ \\text{mm}^2}$$\n\n:::tip Your answer must contain\n- the length of the cylinder found by subtraction\n- curved surfaces only\n- mm²\n:::\n\n**Marks are lost for:** taking 21 mm as the length of the cylinder.",
+  "scheme": [
+   {
+    "step": "$r=3.5$ mm and $h=14$ mm",
+    "marks": 1
+   },
+   {
+    "step": "Expression $2\\pi rh+4\\pi r^2$",
+    "marks": 1
+   },
+   {
+    "step": "462 mm²",
+    "marks": 1
+   }
+  ],
+  "stars": 3,
+  "label": "NCERT-based",
+  "topic": "Surface area of a combination",
+  "hint": "Subtract the two hemisphere radii from the total length."
+ },
+ {
+  "id": "maths10-12-q11",
+  "chapter": "ch-12",
+  "type": "sa3",
+  "marks": 3,
+  "stem": "From a solid cylinder of height 24 cm and radius 7 cm, a conical cavity of the same height and the same base radius is hollowed out. Find the total surface area of the remaining solid. $\\left(\\text{Use }\\pi=\\tfrac{22}{7}\\right)$",
+  "model_answer": "*How much to write: about 9 lines · 5 minutes.*\n\nSlant height of the cavity: $l=\\sqrt{7^2+24^2}=25$ cm.\n\nVisible surfaces: curved surface of the cylinder, <u>one</u> flat base, and the inner curved surface of the cone.\n\n<mark>TSA $=2\\pi rh+\\pi r^2+\\pi rl$</mark>\n\n$=2\\times\\dfrac{22}{7}\\times7\\times24+\\dfrac{22}{7}\\times49+\\dfrac{22}{7}\\times7\\times25=1056+154+550$\n\n$$\\boxed{1760\\ \\text{cm}^2}$$\n\n:::tip Your answer must contain\n- the slant height\n- the list of visible surfaces\n- cm²\n:::\n\n**Marks are lost for:** counting both circular ends of the cylinder (one is cut away).",
+  "scheme": [
+   {
+    "step": "$l=25$ cm",
+    "marks": 1
+   },
+   {
+    "step": "Three visible surfaces identified",
+    "marks": 1
+   },
+   {
+    "step": "1760 cm²",
+    "marks": 1
+   }
+  ],
+  "stars": 3,
+  "label": "NCERT-based",
+  "topic": "Surface area of a combination",
+  "hint": "One base is gone; the inside of the cone is now a surface."
+ },
+ {
+  "id": "maths10-12-q12",
+  "chapter": "ch-12",
+  "type": "la5",
+  "marks": 5,
+  "stem": "A solid model is made of a cylinder of radius 3.5 cm and height 10 cm, with a cone of height 12 cm on one end and a hemisphere on the other end, all of the same radius. Find (i) the volume and (ii) the total surface area of the model. $\\left(\\text{Use }\\pi=\\tfrac{22}{7}\\right)$",
+  "model_answer": "*How much to write: about 15 lines · 9 minutes.*\n\n<figure class=\"fig\">\n<svg viewBox=\"0 0 300 150\" role=\"img\" aria-label=\"A solid made of a cone, a cylinder and a hemisphere joined in a line\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"><path d=\"M40,75 L110,45 M40,75 L110,105\" /><path d=\"M110,45 H210 M110,105 H210\"/><path d=\"M110,45 V105 M210,45 V105\" stroke-dasharray=\"4 3\" stroke-width=\"1\"/><path d=\"M210,45 A30,30 0 0 1 210,105\" class=\"u\" stroke-width=\"2\"/><text x=\"78\" y=\"128\" font-size=\"10\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">cone</text><text x=\"160\" y=\"128\" font-size=\"10\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">cylinder</text><text x=\"232\" y=\"128\" font-size=\"10\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">hemisphere</text></svg>\n<figcaption>Cone, cylinder and hemisphere of the same radius.</figcaption>\n</figure>\n\n$r=3.5$ cm, $h=10$ cm, cone height $h_1=12$ cm; slant height $l=\\sqrt{3.5^2+12^2}=\\sqrt{156.25}=12.5$ cm.\n\n**(i)** Volume $=\\pi r^2h+\\dfrac13\\pi r^2h_1+\\dfrac23\\pi r^3$\n\n$=\\dfrac{22}{7}\\times12.25\\times10+\\dfrac13\\times\\dfrac{22}{7}\\times12.25\\times12+\\dfrac23\\times\\dfrac{22}{7}\\times42.875$<br>$=385+154+89.83=628.83$ cm³\n\n**(ii)** <mark>TSA $=2\\pi rh+\\pi rl+2\\pi r^2$</mark> (the joined circles are <u>not counted</u>)\n\n$=220+137.5+77=434.5$ cm²\n\n$$\\boxed{\\begin{gathered}V=628.83\\ \\text{cm}^3\\\\ \\text{TSA}=434.5\\ \\text{cm}^2\\end{gathered}}$$\n\n:::tip Your answer must contain\n- a sketch\n- the slant height\n- three volumes added\n- three curved surfaces added\n- cm³ and cm²\n:::\n\n**Marks are lost for:** adding the flat circular faces to the surface area.",
+  "scheme": [
+   {
+    "step": "Slant height 12.5 cm",
+    "marks": 1
+   },
+   {
+    "step": "Volume expression",
+    "marks": 1
+   },
+   {
+    "step": "Volume 628.83 cm³",
+    "marks": 1
+   },
+   {
+    "step": "Surface expression (curved surfaces only)",
+    "marks": 1
+   },
+   {
+    "step": "TSA 434.5 cm²",
+    "marks": 1
+   }
+  ],
+  "stars": 3,
+  "label": "PYQ-style",
+  "topic": "Combination of three solids",
+  "hint": "Find the slant height first; then volumes add and only curved surfaces count."
+ },
+ {
+  "id": "maths10-12-q13",
+  "chapter": "ch-12",
+  "type": "case",
+  "marks": 4,
+  "stem": "**The circus tent.** A circus tent is cylindrical up to a height of 4 m and conical above it. The common radius is 7 m and the slant height of the conical part is 25 m. $\\left(\\text{Use }\\pi=\\tfrac{22}{7}\\right)$",
+  "parts": [
+   {
+    "id": "i",
+    "stem": "Find the curved surface area of the cylindrical part.",
+    "marks": 1,
+    "model_answer": "$2\\pi rh=2\\times\\dfrac{22}{7}\\times7\\times4=176$ m².",
+    "scheme": [
+     {
+      "step": "176 m²",
+      "marks": 1
+     }
+    ]
+   },
+   {
+    "id": "ii",
+    "stem": "Find the curved surface area of the conical part.",
+    "marks": 1,
+    "model_answer": "$\\pi rl=\\dfrac{22}{7}\\times7\\times25=550$ m².",
+    "scheme": [
+     {
+      "step": "550 m²",
+      "marks": 1
+     }
+    ]
+   },
+   {
+    "id": "iii",
+    "stem": "Find the cost of the canvas needed for the tent at ₹50 per m².<br>**OR** Find the height of the conical part and the total height of the tent.",
+    "marks": 2,
+    "model_answer": "Canvas $=176+550=726$ m²; cost $=726\\times50=$ ₹36,300.<br>**OR:** $h=\\sqrt{25^2-7^2}=24$ m; total height $=24+4=28$ m.",
+    "scheme": [
+     {
+      "step": "Total canvas 726 m² (OR: cone height 24 m)",
+      "marks": 1
+     },
+     {
+      "step": "₹36,300 (OR: 28 m)",
+      "marks": 1
+     }
+    ]
+   }
+  ],
+  "model_answer": "*How much to write: about 7 lines · 6 minutes in all.*\n\n**(i)** Cylinder: $2\\pi rh=176$ m².\n\n**(ii)** Cone: $\\pi rl=550$ m².\n\n**(iii)** <u>Canvas covers the curved surfaces only</u> (no floor): <mark>$176+550=726$ m²</mark>.\n\n$$\\boxed{\\text{cost}=726\\times50=36\\,300\\ \\text{rupees}}$$\n\n**OR:** cone height $=\\sqrt{625-49}=24$ m; total height $=28$ m.\n\n:::tip Your answer must contain\n- each formula with numbers\n- total canvas before the cost\n- the unit m² and the rupee amount\n:::\n\n**Marks are lost for:** adding the area of the circular floor to the canvas.",
+  "stars": 3,
+  "label": "PYQ-style",
+  "topic": "Surface area of a combination",
+  "hint": "Canvas = curved surface of cylinder + curved surface of cone."
+ }
+]

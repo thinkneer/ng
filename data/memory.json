@@ -461,6 +461,86 @@
    "prompt": "Where do P and Q go in the solution of a linear differential equation?"
   }
  ],
+ "maths/ch-11": [
+  {
+   "id": "sector-slice-segment-sliver",
+   "title": "Sector or segment?",
+   "trick": "**Sector = slice, Segment = sliver**",
+   "meaning": [
+    "A **sector** is a slice that reaches the **centre** (two radii). A **segment** is a sliver cut off by a **chord**; it does not reach the centre."
+   ],
+   "prompt": "Which region is bounded by a chord and an arc: a sector or a segment?"
+  },
+  {
+   "id": "fraction-of-the-circle",
+   "title": "One fraction does everything",
+   "trick": "**θ over 360 is your share of the circle**",
+   "meaning": [
+    "Multiply the share $\\dfrac{\\theta}{360}$ by the **area** $\\pi r^2$ for a sector, or by the **circumference** $2\\pi r$ for an arc."
+   ],
+   "prompt": "What fraction of a circle is a sector of angle θ?"
+  },
+  {
+   "id": "ratios-to-cosines",
+   "title": "Direction ratios to direction cosines",
+   "trick": "**Divide by the root of the sum of squares**",
+   "meaning": [
+    "$l=\\dfrac{a}{\\sqrt{a^2+b^2+c^2}}$, and $m$, $n$ come the same way from $b$ and $c$.",
+    "Direction cosines obey $l^2+m^2+n^2=1$; direction ratios can be any proportional numbers."
+   ],
+   "prompt": "How do you turn direction ratios a, b, c into direction cosines?"
+  },
+  {
+   "id": "join-dot-cross",
+   "title": "Shortest distance between skew lines",
+   "trick": "**Join · cross ÷ size of cross**",
+   "meaning": [
+    "**Join** the two given points: $\\vec a_2-\\vec a_1$. **Cross** the two directions: $\\vec b_1\\times\\vec b_2$.",
+    "Dot them, divide by $\\lvert\\vec b_1\\times\\vec b_2\\rvert$, take the modulus. Parallel lines need the other formula."
+   ],
+   "prompt": "Say the skew-line shortest-distance formula in words."
+  }
+ ],
+ "maths/ch-12": [
+  {
+   "id": "cone-is-one-third",
+   "title": "Cone and cylinder",
+   "trick": "**A cone is one-third of its cylinder**",
+   "meaning": [
+    "Same base and same height: volume of cone $=\\dfrac13\\times$ volume of cylinder. Three cones of water fill the cylinder."
+   ],
+   "prompt": "How does the volume of a cone compare with a cylinder of the same base and height?"
+  },
+  {
+   "id": "paint-or-pour",
+   "title": "Surface or volume?",
+   "trick": "**Paint the outside, pour the inside**",
+   "meaning": [
+    "If the question is about **painting, covering or wrapping**, it is surface area: count the outside only. If it is about **pouring, filling or holding**, it is volume: add every part."
+   ],
+   "prompt": "A question asks how much water a vessel holds. Surface area or volume?"
+  },
+  {
+   "id": "origin-test",
+   "title": "Which side to shade?",
+   "trick": "**Ask the origin**: put $(0,0)$ in the inequality",
+   "meaning": [
+    "True → shade the side that contains the origin. False → shade the other side.",
+    "If the line passes through the origin, ask another point such as $(1,0)$."
+   ],
+   "prompt": "How do you decide which side of the line x + 2y = 10 to shade for x + 2y ≤ 10?"
+  },
+  {
+   "id": "graph-corners-table-conclusion",
+   "title": "The four parts of every LPP answer",
+   "trick": "**G C T C**: Graph, Corners, Table, Conclusion",
+   "meaning": [
+    "**G**raph with the region shaded, **C**orner points (solved, not read off), **T**able of $Z$, **C**onclusion with the value and the point.",
+    "Unbounded region: add the half-plane check before the conclusion."
+   ],
+   "prompt": "Name the four parts of a graphical LPP answer."
+  }
+ ],
  "physics/ch-01": [
   {
    "id": "field-line-rules",
@@ -1206,50 +1286,6 @@
     "Pyrimidines (one ring): **C**ytosine, **U**racil, **T**hymine."
    ],
    "prompt": "Which bases are purines?"
-  }
- ],
- "maths/ch-11": [
-  {
-   "id": "ratios-to-cosines",
-   "title": "Direction ratios to direction cosines",
-   "trick": "**Divide by the root of the sum of squares**",
-   "meaning": [
-    "$l=\\dfrac{a}{\\sqrt{a^2+b^2+c^2}}$, and $m$, $n$ come the same way from $b$ and $c$.",
-    "Direction cosines obey $l^2+m^2+n^2=1$; direction ratios can be any proportional numbers."
-   ],
-   "prompt": "How do you turn direction ratios a, b, c into direction cosines?"
-  },
-  {
-   "id": "join-dot-cross",
-   "title": "Shortest distance between skew lines",
-   "trick": "**Join · cross ÷ size of cross**",
-   "meaning": [
-    "**Join** the two given points: $\\vec a_2-\\vec a_1$. **Cross** the two directions: $\\vec b_1\\times\\vec b_2$.",
-    "Dot them, divide by $\\lvert\\vec b_1\\times\\vec b_2\\rvert$, take the modulus. Parallel lines need the other formula."
-   ],
-   "prompt": "Say the skew-line shortest-distance formula in words."
-  }
- ],
- "maths/ch-12": [
-  {
-   "id": "origin-test",
-   "title": "Which side to shade?",
-   "trick": "**Ask the origin**: put $(0,0)$ in the inequality",
-   "meaning": [
-    "True → shade the side that contains the origin. False → shade the other side.",
-    "If the line passes through the origin, ask another point such as $(1,0)$."
-   ],
-   "prompt": "How do you decide which side of the line x + 2y = 10 to shade for x + 2y ≤ 10?"
-  },
-  {
-   "id": "graph-corners-table-conclusion",
-   "title": "The four parts of every LPP answer",
-   "trick": "**G C T C**: Graph, Corners, Table, Conclusion",
-   "meaning": [
-    "**G**raph with the region shaded, **C**orner points (solved, not read off), **T**able of $Z$, **C**onclusion with the value and the point.",
-    "Unbounded region: add the half-plane check before the conclusion."
-   ],
-   "prompt": "Name the four parts of a graphical LPP answer."
   }
  ],
  "maths/ch-13": [

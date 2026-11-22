@@ -1,0 +1,319 @@
+[
+ {
+  "id": "maths10-11-q01",
+  "chapter": "ch-11",
+  "type": "mcq",
+  "marks": 1,
+  "stem": "The area of a sector of a circle of radius 6 cm and central angle $60^\\circ$ is",
+  "options": [
+   "$6\\pi$ cm²",
+   "$12\\pi$ cm²",
+   "$3\\pi$ cm²",
+   "$36\\pi$ cm²"
+  ],
+  "answer": "A",
+  "model_answer": "**(a).** $\\dfrac{60}{360}\\times\\pi\\times36=6\\pi$ cm².",
+  "stars": 3,
+  "label": "PYQ-style",
+  "topic": "Area of a sector",
+  "hint": "60° is one-sixth of the circle."
+ },
+ {
+  "id": "maths10-11-q02",
+  "chapter": "ch-11",
+  "type": "mcq",
+  "marks": 1,
+  "stem": "The length of an arc of a circle of radius 21 cm which subtends an angle of $120^\\circ$ at the centre is $\\left(\\pi=\\tfrac{22}{7}\\right)$",
+  "options": [
+   "$22$ cm",
+   "$44$ cm",
+   "$66$ cm",
+   "$132$ cm"
+  ],
+  "answer": "B",
+  "model_answer": "**(b).** $\\dfrac{120}{360}\\times2\\times\\dfrac{22}{7}\\times21=\\dfrac13\\times132=44$ cm.",
+  "stars": 3,
+  "label": "PYQ-style",
+  "topic": "Length of an arc",
+  "hint": "120° is one-third of the circumference."
+ },
+ {
+  "id": "maths10-11-q03",
+  "chapter": "ch-11",
+  "type": "mcq",
+  "marks": 1,
+  "stem": "The circumference of a circle is 44 cm. The area of a quadrant of this circle is $\\left(\\pi=\\tfrac{22}{7}\\right)$",
+  "options": [
+   "$154$ cm²",
+   "$77$ cm²",
+   "$38.5$ cm²",
+   "$11$ cm²"
+  ],
+  "answer": "C",
+  "model_answer": "**(c).** $2\\pi r=44\\Rightarrow r=7$ cm. Quadrant $=\\dfrac14\\times\\dfrac{22}{7}\\times49=38.5$ cm².",
+  "stars": 3,
+  "label": "PYQ-style",
+  "topic": "Area of a sector",
+  "hint": "Find the radius first; a quadrant is one-fourth of the circle."
+ },
+ {
+  "id": "maths10-11-q04",
+  "chapter": "ch-11",
+  "type": "mcq",
+  "marks": 1,
+  "stem": "The angle through which the minute hand of a clock turns in 20 minutes is",
+  "options": [
+   "$60^\\circ$",
+   "$90^\\circ$",
+   "$120^\\circ$",
+   "$20^\\circ$"
+  ],
+  "answer": "C",
+  "model_answer": "**(c).** The minute hand turns $6^\\circ$ per minute: $20\\times6^\\circ=120^\\circ$.",
+  "stars": 2,
+  "label": "NCERT-based",
+  "topic": "Clock problems",
+  "hint": "The minute hand covers 360° in 60 minutes."
+ },
+ {
+  "id": "maths10-11-q05",
+  "chapter": "ch-11",
+  "type": "mcq",
+  "marks": 1,
+  "stem": "The perimeter of a sector of a circle of radius 14 cm and central angle $90^\\circ$ is $\\left(\\pi=\\tfrac{22}{7}\\right)$",
+  "options": [
+   "$22$ cm",
+   "$36$ cm",
+   "$50$ cm",
+   "$88$ cm"
+  ],
+  "answer": "C",
+  "model_answer": "**(c).** Arc $=\\dfrac14\\times2\\times\\dfrac{22}{7}\\times14=22$ cm. Perimeter $=22+2\\times14=50$ cm.",
+  "stars": 3,
+  "label": "PYQ-style",
+  "topic": "Length of an arc",
+  "hint": "Perimeter of a sector includes the two radii."
+ },
+ {
+  "id": "maths10-11-q06",
+  "chapter": "ch-11",
+  "type": "ar",
+  "marks": 1,
+  "stem": "**Assertion (A):** The length of the arc of a sector of radius 14 cm and angle $45^\\circ$ is 11 cm $\\left(\\pi=\\tfrac{22}{7}\\right)$.<br>**Reason (R):** The length of an arc of a sector of angle $\\theta$ is $\\dfrac{\\theta}{360}\\times2\\pi r$.",
+  "options": [
+   "Both A and R are true, and R is the correct explanation of A.",
+   "Both A and R are true, but R is not the correct explanation of A.",
+   "A is true, but R is false.",
+   "A is false, but R is true."
+  ],
+  "answer": "A",
+  "model_answer": "**(a).** $\\dfrac{45}{360}\\times2\\times\\dfrac{22}{7}\\times14=\\dfrac18\\times88=11$ cm, using the formula in R.",
+  "stars": 2,
+  "label": "PYQ-style",
+  "topic": "Length of an arc",
+  "hint": "Substitute in the arc-length formula."
+ },
+ {
+  "id": "maths10-11-q07",
+  "chapter": "ch-11",
+  "type": "ar",
+  "marks": 1,
+  "stem": "**Assertion (A):** In a circle of radius 6 cm, a sector of angle $60^\\circ$ has area $12\\pi$ cm².<br>**Reason (R):** The area of a sector of angle $\\theta$ of a circle of radius $r$ is $\\dfrac{\\theta}{360}\\times\\pi r^2$.",
+  "options": [
+   "Both A and R are true, and R is the correct explanation of A.",
+   "Both A and R are true, but R is not the correct explanation of A.",
+   "A is true, but R is false.",
+   "A is false, but R is true."
+  ],
+  "answer": "D",
+  "model_answer": "**(d).** R is the correct formula. It gives $\\dfrac16\\times36\\pi=6\\pi$ cm², not $12\\pi$ cm², so A is false.",
+  "stars": 2,
+  "label": "PYQ-style",
+  "topic": "Area of a sector",
+  "hint": "Work out the area with the formula in R."
+ },
+ {
+  "id": "maths10-11-q08",
+  "chapter": "ch-11",
+  "type": "vsa2",
+  "marks": 2,
+  "stem": "The minute hand of a clock is 21 cm long. Find the area swept by it in 20 minutes. $\\left(\\text{Use }\\pi=\\tfrac{22}{7}\\right)$",
+  "model_answer": "*How much to write: about 5 lines · 3 minutes.*\n\nAngle swept in 20 minutes $=20\\times6^\\circ=$ <u>$120^\\circ$</u>\n\n<mark>Area $=\\dfrac{120}{360}\\times\\dfrac{22}{7}\\times21\\times21$</mark> $=\\dfrac13\\times1386$\n\n$$\\boxed{462\\ \\text{cm}^2}$$\n\n:::tip Your answer must contain\n- the angle with its working\n- the sector formula with numbers\n- cm²\n:::\n\n**Marks are lost for:** taking the angle as $20^\\circ$.",
+  "scheme": [
+   {
+    "step": "Angle $120^\\circ$",
+    "marks": 1
+   },
+   {
+    "step": "Area 462 cm²",
+    "marks": 1
+   }
+  ],
+  "stars": 3,
+  "label": "NCERT-based",
+  "topic": "Clock problems",
+  "hint": "6° per minute; then a sector of radius 21 cm."
+ },
+ {
+  "id": "maths10-11-q09",
+  "chapter": "ch-11",
+  "type": "vsa2",
+  "marks": 2,
+  "stem": "Find the area of the sector of a circle of radius 14 cm whose central angle is $45^\\circ$. Also find the area of the corresponding major sector. $\\left(\\text{Use }\\pi=\\tfrac{22}{7}\\right)$",
+  "model_answer": "*How much to write: about 5 lines · 3 minutes.*\n\n<mark>Minor sector $=\\dfrac{45}{360}\\times\\dfrac{22}{7}\\times14\\times14$</mark> $=\\dfrac18\\times616=77$ cm²\n\nMajor sector $=$ area of circle $-$ minor sector $=616-77$\n\n$$\\boxed{77\\ \\text{cm}^2\\ \\text{and}\\ 539\\ \\text{cm}^2}$$\n\n:::tip Your answer must contain\n- the formula with numbers\n- both answers with cm²\n:::\n\n**Marks are lost for:** forgetting the major sector.",
+  "scheme": [
+   {
+    "step": "Minor sector 77 cm²",
+    "marks": 1
+   },
+   {
+    "step": "Major sector 539 cm²",
+    "marks": 1
+   }
+  ],
+  "stars": 3,
+  "label": "NCERT-based",
+  "topic": "Area of a sector",
+  "hint": "45° is one-eighth of the circle."
+ },
+ {
+  "id": "maths10-11-q10",
+  "chapter": "ch-11",
+  "type": "sa3",
+  "marks": 3,
+  "stem": "A chord of a circle of radius 20 cm subtends a right angle at the centre. Find the area of the minor segment and of the major segment. (Use $\\pi=3.14$)",
+  "model_answer": "*How much to write: about 9 lines · 5 minutes.*\n\nSector $=\\dfrac{90}{360}\\times3.14\\times20\\times20=314$ cm²\n\nTriangle $OAB=\\dfrac12\\times20\\times20=200$ cm²\n\n<mark>Minor segment $=$ sector $-$ triangle $=314-200=114$ cm²</mark>\n\nCircle $=3.14\\times400=1256$ cm²; major segment $=1256-114=1142$ cm²\n\n$$\\boxed{\\begin{gathered}\\text{minor}=114\\ \\text{cm}^2\\\\ \\text{major}=1142\\ \\text{cm}^2\\end{gathered}}$$\n\n:::tip Your answer must contain\n- sector, triangle and their difference\n- area of the full circle\n- cm² on every area\n:::\n\n**Marks are lost for:** stopping at the sector (314 cm²).",
+  "scheme": [
+   {
+    "step": "Sector 314 cm²",
+    "marks": 1
+   },
+   {
+    "step": "Triangle 200 cm²; minor segment 114 cm²",
+    "marks": 1
+   },
+   {
+    "step": "Major segment 1142 cm²",
+    "marks": 1
+   }
+  ],
+  "stars": 3,
+  "label": "NCERT-based",
+  "topic": "Area of a segment",
+  "hint": "Segment = sector − triangle; the triangle is right-angled."
+ },
+ {
+  "id": "maths10-11-q11",
+  "chapter": "ch-11",
+  "type": "sa3",
+  "marks": 3,
+  "stem": "The length of an arc of a circle of radius 21 cm is 33 cm. Find the angle subtended by the arc at the centre and the area of the sector formed. $\\left(\\text{Use }\\pi=\\tfrac{22}{7}\\right)$",
+  "model_answer": "*How much to write: about 9 lines · 5 minutes.*\n\n<mark>$\\dfrac{\\theta}{360}\\times2\\times\\dfrac{22}{7}\\times21=33$</mark>\n\n$\\dfrac{\\theta}{360}\\times132=33\\Rightarrow\\theta=90^\\circ$\n\nArea of sector $=\\dfrac{90}{360}\\times\\dfrac{22}{7}\\times21\\times21=\\dfrac14\\times1386$\n\n$$\\boxed{\\theta=90^\\circ,\\ \\ \\text{area}=346.5\\ \\text{cm}^2}$$\n\n:::tip Your answer must contain\n- the arc formula set equal to 33\n- $\\theta$ in degrees\n- the area with cm²\n:::\n\n**Marks are lost for:** using 33 as the radius.",
+  "scheme": [
+   {
+    "step": "Arc-length equation",
+    "marks": 1
+   },
+   {
+    "step": "$\\theta=90^\\circ$",
+    "marks": 1
+   },
+   {
+    "step": "Area 346.5 cm²",
+    "marks": 1
+   }
+  ],
+  "stars": 3,
+  "label": "PYQ-style",
+  "topic": "Length of an arc",
+  "hint": "Put the arc length equal to 33 and solve for θ."
+ },
+ {
+  "id": "maths10-11-q12",
+  "chapter": "ch-11",
+  "type": "la5",
+  "marks": 5,
+  "stem": "A chord of a circle of radius 12 cm subtends an angle of $60^\\circ$ at the centre. Find (i) the length of the minor arc, (ii) the area of the minor segment, (iii) the area of the major segment. (Use $\\pi=3.14$, $\\sqrt3=1.73$)",
+  "model_answer": "*How much to write: about 15 lines · 9 minutes.*\n\n<figure class=\"fig\">\n<svg viewBox=\"0 0 300 190\" role=\"img\" aria-label=\"A circle with chord AB; the minor segment lies between the chord and the minor arc\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"><path d=\"M207.3,57.8 A70,70 0 0 0 92.7,57.8 Z\" fill=\"#E0B400\" fill-opacity=\"0.3\" stroke=\"none\"/><circle cx=\"150\" cy=\"98\" r=\"70\"/><path d=\"M207.3,57.8 L92.7,57.8\" class=\"u\" stroke-width=\"2\"/><path d=\"M207.3,57.8 L150,98 L92.7,57.8\" stroke-dasharray=\"5 4\" stroke-width=\"1\"/><text x=\"150\" y=\"112\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">O</text><text x=\"217\" y=\"62\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">A</text><text x=\"83\" y=\"62\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">B</text><text x=\"150\" y=\"48\" font-size=\"10\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">minor segment</text><text x=\"150\" y=\"150\" font-size=\"10\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">major segment</text><text x=\"150\" y=\"90\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">θ</text></svg>\n<figcaption>Chord AB, centre O, angle AOB = 60°.</figcaption>\n</figure>\n\n**(i)** Arc $=\\dfrac{60}{360}\\times2\\times3.14\\times12=12.56$ cm\n\n**(ii)** Sector $=\\dfrac{60}{360}\\times3.14\\times144=75.36$ cm²\n\n$\\triangle OAB$ is <u>equilateral</u> ($OA=OB$ and $\\angle O=60^\\circ$): area $=\\dfrac{\\sqrt3}{4}\\times144=36\\times1.73=62.28$ cm²\n\n<mark>Minor segment $=75.36-62.28=13.08$ cm²</mark>\n\n**(iii)** Circle $=3.14\\times144=452.16$ cm²; major segment $=452.16-13.08=439.08$ cm²\n\n$$\\boxed{\\begin{gathered}12.56\\ \\text{cm};\\ \\ 13.08\\ \\text{cm}^2;\\\\ 439.08\\ \\text{cm}^2\\end{gathered}}$$\n\n:::tip Your answer must contain\n- a figure\n- why the triangle is equilateral\n- sector − triangle\n- units: cm for the arc, cm² for areas\n:::\n\n**Marks are lost for:** using $\\tfrac12r^2$ for the triangle (that is for 90°).",
+  "scheme": [
+   {
+    "step": "Arc 12.56 cm",
+    "marks": 1
+   },
+   {
+    "step": "Sector 75.36 cm²",
+    "marks": 1
+   },
+   {
+    "step": "Triangle 62.28 cm² (equilateral)",
+    "marks": 1
+   },
+   {
+    "step": "Minor segment 13.08 cm²",
+    "marks": 1
+   },
+   {
+    "step": "Major segment 439.08 cm²",
+    "marks": 1
+   }
+  ],
+  "stars": 3,
+  "label": "PYQ-style",
+  "topic": "Area of a segment",
+  "hint": "With 60° at the centre the triangle is equilateral."
+ },
+ {
+  "id": "maths10-11-q13",
+  "chapter": "ch-11",
+  "type": "case",
+  "marks": 4,
+  "stem": "**The pizza.** A circular pizza of radius 28 cm is cut from the centre into 8 equal slices. $\\left(\\text{Use }\\pi=\\tfrac{22}{7}\\right)$",
+  "parts": [
+   {
+    "id": "i",
+    "stem": "What is the angle at the centre of each slice?",
+    "marks": 1,
+    "model_answer": "$360^\\circ\\div8=45^\\circ$.",
+    "scheme": [
+     {
+      "step": "$45^\\circ$",
+      "marks": 1
+     }
+    ]
+   },
+   {
+    "id": "ii",
+    "stem": "Find the area of one slice.",
+    "marks": 1,
+    "model_answer": "$\\dfrac{45}{360}\\times\\dfrac{22}{7}\\times28\\times28=\\dfrac18\\times2464=308$ cm².",
+    "scheme": [
+     {
+      "step": "308 cm²",
+      "marks": 1
+     }
+    ]
+   },
+   {
+    "id": "iii",
+    "stem": "Find the perimeter of one slice.<br>**OR** If three slices are eaten, find the area of the pizza that is left.",
+    "marks": 2,
+    "model_answer": "Arc $=\\dfrac18\\times2\\times\\dfrac{22}{7}\\times28=22$ cm; perimeter $=22+28+28=78$ cm.<br>**OR:** 5 slices are left: $5\\times308=1540$ cm².",
+    "scheme": [
+     {
+      "step": "Arc 22 cm (OR: 5 slices left)",
+      "marks": 1
+     },
+     {
+      "step": "Perimeter 78 cm (OR: 1540 cm²)",
+      "marks": 1
+     }
+    ]
+   }
+  ],
+  "model_answer": "*How much to write: about 7 lines · 6 minutes in all.*\n\n**(i)** Angle of each slice $=360^\\circ\\div8=45^\\circ$.\n\n**(ii)** <mark>Area $=\\dfrac{45}{360}\\times\\dfrac{22}{7}\\times28^2=308$ cm²</mark>\n\n**(iii)** Arc $=\\dfrac{45}{360}\\times2\\times\\dfrac{22}{7}\\times28=22$ cm. <u>Add the two radii</u>:\n\n$$\\boxed{\\text{perimeter}=22+28+28=78\\ \\text{cm}}$$\n\n**OR:** area left $=5\\times308=1540$ cm².\n\n:::tip Your answer must contain\n- the angle of one slice\n- the sector formula with numbers\n- arc + two radii for the perimeter\n:::\n\n**Marks are lost for:** giving the arc length alone as the perimeter.",
+  "stars": 3,
+  "label": "PYQ-style",
+  "topic": "Sector and arc",
+  "hint": "Each slice is a sector of angle 360° ÷ 8."
+ }
+]

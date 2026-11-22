@@ -1,0 +1,16 @@
+{
+  "$schema": "../../../../../schemas/chapter.schema.json",
+  "id": "ch-12",
+  "number": 12,
+  "title": "Surface Areas and Volumes",
+  "unit": "VI",
+  "marks_hint": "Unit VI Mensuration: 10 marks with Areas Related to Circles",
+  "summary": "Combinations of solids · visible surfaces · adding and subtracting volumes",
+  "status": {
+    "notes": "ready",
+    "mustknow": "ready",
+    "formulas": "ready",
+    "questions": "ready"
+  },
+  "updated": "2026-11-23"
+}

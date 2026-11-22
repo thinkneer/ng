@@ -1,6 +1,6 @@
 # Class 10 · Mathematics — status
 
-_Last updated 23 Nov 2026 (Class 10 Maths chat: Geometry ch-06 Triangles and ch-10 Circles added; ch-01, ch-07, Algebra ch-02 to ch-05 and Trigonometry ch-08, ch-09 done earlier)._ Board paper: **17 Feb 2027** (Mathematics Standard 041 and Basic 241, same day; CBSE date sheet of 6 Nov 2026 as reported by several news sites; recheck on cbse.gov.in).
+_Last updated 23 Nov 2026 (Class 10 Maths chat: Mensuration ch-11 and ch-12 added; Geometry ch-06, ch-10, ch-01, ch-07, Algebra ch-02 to ch-05 and Trigonometry ch-08, ch-09 done earlier)._ Board paper: **17 Feb 2027** (Mathematics Standard 041 and Basic 241, same day; CBSE date sheet of 6 Nov 2026 as reported by several news sites; recheck on cbse.gov.in).
 
 ## Why this subject was started
 Admin decision, 22 Nov 2026: Maths notes for real students of Classes 9–12, written chapter by chapter, linked across classes by a strand map with "Go to basics" links. The map and build order are in the project doc `maths-9-12-continuity-map.md`; the link itself is a Site-chat job (`site-request-go-to-basics.md`). The pilot strand is Trigonometry: Class 10 ch 8–9 (done here) → Class 11 ch 3 → links from Class 12 ch 2, 5, 7.
@@ -31,15 +31,17 @@ Admin decision, 22 Nov 2026: Maths notes for real students of Classes 9–12, wr
 | ch-07 Coordinate Geometry | 6 sections; the Descartes story (told as a story); tap-to-label distance and section figures; derive; numerical; steps; fill (shape tests); 2 mnemonics; draw; explain | 4 titled formula cards | 13 questions (5 MCQ, 2 A–R, 2 × 2, 2 × 3, 1 × 5, 1 case) | 11 |
 | ch-06 Triangles | 6 sections; Thales and the pyramid (told as tradition); tap-to-label BPT figure; proof figure; BPT proof as skeleton + derive; 3 more figures; compare (congruent / similar); fill; steps; 2 numericals; 2 mnemonics; draw; explain | 4 titled formula cards | 13 questions (5 MCQ, 2 A–R, 2 × 2, 2 × 3, 1 × 5, 1 case); three model answers carry figures | 10 |
 | ch-10 Circles | 5 sections; why a released stone flies along the tangent; tap-to-label figures for both theorems; both proofs as skeleton + derive; circumscribed quadrilateral and triangle figures; graph; numerical; compare; fill; steps; 2 mnemonics; draw; explain | 4 titled formula cards | 13 questions (same split); three model answers carry figures | 10 |
+| ch-11 Areas Related to Circles | 6 sections; Archimedes' slices (credited); tap-to-label sector figure; segment figure; graph; 2 numericals; derive; compare; fill; steps; 2 mnemonics; draw; explain | 5 titled formula cards | 13 questions (5 MCQ, 2 A–R, 2 × 2, 2 × 3, 1 × 5, 1 case) | 10 |
+| ch-12 Surface Areas and Volumes | 5 sections; Archimedes' sphere in a cylinder (told as "is said to"); tap-to-label toy figure; cone and hollow-block figures; fill (formulas, visible surfaces); graph; 2 numericals; compare; steps; 2 mnemonics; draw; explain | 7 titled formula cards | 13 questions (same split); two model answers carry figures | 10 |
 
-- A–R keys: ch-08 A, D · ch-09 A, D · ch-02 A, C · ch-03 A, D · ch-04 A, D · ch-05 A, D · ch-01 A, C · ch-07 A, B · ch-06 A, C · ch-10 A, D.
-- Not in boards, as applied in this batch (from the rationalised book as remembered; still to confirm on the official syllabus): division algorithm for polynomials (ch-02); cross-multiplication and equations reducible to linear (ch-03); completing the square as a method (ch-04, added to `subject.json`); Euclid's division lemma and decimal expansions of rationals (ch-01); area of a triangle from coordinates (ch-07); ratio of areas of similar triangles and the proofs of the Pythagoras theorem (ch-06).
+- A–R keys: ch-08 A, D · ch-09 A, D · ch-02 A, C · ch-03 A, D · ch-04 A, D · ch-05 A, D · ch-01 A, C · ch-07 A, B · ch-06 A, C · ch-10 A, D · ch-11 A, D · ch-12 A, D.
+- Not in boards, as applied in this batch (from the rationalised book as remembered; still to confirm on the official syllabus): division algorithm for polynomials (ch-02); cross-multiplication and equations reducible to linear (ch-03); completing the square as a method (ch-04, added to `subject.json`); Euclid's division lemma and decimal expansions of rationals (ch-01); area of a triangle from coordinates (ch-07); ratio of areas of similar triangles and the proofs of the Pythagoras theorem (ch-06); areas of combinations of plane figures (ch-11); conversion of solids and frustum (ch-12).
 - Every answer checked by hand; all maths parses; build 0 warnings; content-check (Class 10 maths) 0 FAIL, 0 WARN. Not looked at on a real phone.
 - History lines are worded cautiously ("is credited with"); keep them that way.
 
 ## What's next
 1. **Go-to-basics links** once the Site chat ships the chip: from Class 12 ch-02, ch-05, ch-07 and ch-10 to ch-08 sections here ("The six trigonometric ratios", "Values at 0°, 30°, 45°, 60° and 90°", "The three identities").
 2. **Class 11 ch-03 Trigonometric Functions** (the middle of the pilot strand) in a Class 11 Maths chat.
-3. **Rest of Class 10 (4 chapters left):** ch-11 Areas Related to Circles · ch-12 Surface Areas and Volumes · ch-13 Statistics · ch-14 Probability. The board paper is on 17 Feb 2027, so the whole book should be up by mid-January.
+3. **Rest of Class 10 (2 chapters left):** ch-13 Statistics · ch-14 Probability. The board paper is on 17 Feb 2027, so the whole book should be up by mid-January.
 4. Check the pattern and the unit marks against the official CBSE PDFs; decide whether Basic needs its own easier question tags.
 5. `bank-check`: numbered papers are not usable until every chapter exists; run it when the book is complete and top up the thin question types.
