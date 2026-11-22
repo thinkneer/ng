@@ -1,0 +1,323 @@
+[
+ {
+  "id": "maths10-10-q01",
+  "chapter": "ch-10",
+  "type": "mcq",
+  "marks": 1,
+  "stem": "From a point 25 cm away from the centre of a circle of radius 7 cm, the length of the tangent to the circle is",
+  "options": [
+   "$18$ cm",
+   "$24$ cm",
+   "$26$ cm",
+   "$\\sqrt{674}$ cm"
+  ],
+  "answer": "B",
+  "model_answer": "**(b).** $\\sqrt{25^2-7^2}=\\sqrt{576}=24$ cm.",
+  "stars": 3,
+  "label": "PYQ-style",
+  "topic": "Length of a tangent",
+  "hint": "Radius ⟂ tangent gives a right triangle."
+ },
+ {
+  "id": "maths10-10-q02",
+  "chapter": "ch-10",
+  "type": "mcq",
+  "marks": 1,
+  "stem": "The number of tangents that can be drawn to a circle through a point lying inside it is",
+  "options": [
+   "$0$",
+   "$1$",
+   "$2$",
+   "infinitely many"
+  ],
+  "answer": "A",
+  "model_answer": "**(a).** Every line through an inside point cuts the circle at two points, so it is a secant. No tangent is possible.",
+  "stars": 2,
+  "label": "NCERT-based",
+  "topic": "Number of tangents",
+  "hint": "Can a line through an inside point touch the circle only once?"
+ },
+ {
+  "id": "maths10-10-q03",
+  "chapter": "ch-10",
+  "type": "mcq",
+  "marks": 1,
+  "stem": "$PA$ and $PB$ are tangents to a circle with centre $O$. If $\\angle APB=50^\\circ$, then $\\angle OAB$ equals",
+  "options": [
+   "$25^\\circ$",
+   "$40^\\circ$",
+   "$50^\\circ$",
+   "$65^\\circ$"
+  ],
+  "answer": "A",
+  "model_answer": "**(a).** $\\angle AOB=180^\\circ-50^\\circ=130^\\circ$. In isosceles $\\triangle OAB$ ($OA=OB$): $\\angle OAB=\\dfrac{180^\\circ-130^\\circ}{2}=25^\\circ$.",
+  "stars": 3,
+  "label": "PYQ-style",
+  "topic": "Angles with tangents",
+  "hint": "First find angle AOB, then use the isosceles triangle OAB."
+ },
+ {
+  "id": "maths10-10-q04",
+  "chapter": "ch-10",
+  "type": "mcq",
+  "marks": 1,
+  "stem": "A quadrilateral $ABCD$ circumscribes a circle. If $AB=9$ cm, $BC=8$ cm and $CD=5$ cm, then $AD$ equals",
+  "options": [
+   "$4$ cm",
+   "$6$ cm",
+   "$12$ cm",
+   "$22$ cm"
+  ],
+  "answer": "B",
+  "model_answer": "**(b).** $AB+CD=AD+BC\\Rightarrow9+5=AD+8\\Rightarrow AD=6$ cm.",
+  "stars": 3,
+  "label": "PYQ-style",
+  "topic": "Circumscribed figures",
+  "hint": "Sums of opposite sides are equal."
+ },
+ {
+  "id": "maths10-10-q05",
+  "chapter": "ch-10",
+  "type": "mcq",
+  "marks": 1,
+  "stem": "The tangents drawn at the two ends of a diameter of a circle are",
+  "options": [
+   "perpendicular to each other",
+   "parallel to each other",
+   "intersecting at the centre",
+   "coincident"
+  ],
+  "answer": "B",
+  "model_answer": "**(b).** Each tangent is perpendicular to the same diameter, so the two tangents are parallel.",
+  "stars": 2,
+  "label": "NCERT-based",
+  "topic": "Tangent and radius",
+  "hint": "Both tangents make 90° with the same line."
+ },
+ {
+  "id": "maths10-10-q06",
+  "chapter": "ch-10",
+  "type": "ar",
+  "marks": 1,
+  "stem": "**Assertion (A):** From a point 13 cm away from the centre of a circle of radius 5 cm, the length of the tangent is 12 cm.<br>**Reason (R):** The tangent at any point of a circle is perpendicular to the radius through the point of contact.",
+  "options": [
+   "Both A and R are true, and R is the correct explanation of A.",
+   "Both A and R are true, but R is not the correct explanation of A.",
+   "A is true, but R is false.",
+   "A is false, but R is true."
+  ],
+  "answer": "A",
+  "model_answer": "**(a).** Because of the right angle in R, Pythagoras applies: $\\sqrt{13^2-5^2}=12$ cm. R is the reason A can be calculated this way.",
+  "stars": 3,
+  "label": "PYQ-style",
+  "topic": "Length of a tangent",
+  "hint": "Why is the triangle right-angled?"
+ },
+ {
+  "id": "maths10-10-q07",
+  "chapter": "ch-10",
+  "type": "ar",
+  "marks": 1,
+  "stem": "**Assertion (A):** A tangent to a circle intersects it at two distinct points.<br>**Reason (R):** A secant of a circle intersects it at two distinct points.",
+  "options": [
+   "Both A and R are true, and R is the correct explanation of A.",
+   "Both A and R are true, but R is not the correct explanation of A.",
+   "A is true, but R is false.",
+   "A is false, but R is true."
+  ],
+  "answer": "D",
+  "model_answer": "**(d).** A is false: a tangent meets the circle at exactly one point. R is the correct description of a secant.",
+  "stars": 2,
+  "label": "NCERT-based",
+  "topic": "Secant and tangent",
+  "hint": "How many points does a tangent share with the circle?"
+ },
+ {
+  "id": "maths10-10-q08",
+  "chapter": "ch-10",
+  "type": "vsa2",
+  "marks": 2,
+  "stem": "Two concentric circles have radii 10 cm and 6 cm. Find the length of the chord of the larger circle which touches the smaller circle.",
+  "model_answer": "*How much to write: about 5 lines · 3 minutes.*\n\nLet chord $AB$ of the larger circle touch the smaller circle at $P$; $O$ is the common centre. Then $OP\\perp AB$ (<u>radius ⟂ tangent</u>) and $P$ is the midpoint of $AB$.\n\n<mark>$AP=\\sqrt{OA^2-OP^2}=\\sqrt{100-36}=8$ cm</mark>\n\n$$\\boxed{AB=2\\times8=16\\ \\text{cm}}$$\n\n:::tip Your answer must contain\n- radius ⟂ tangent\n- perpendicular from the centre bisects the chord\n- the doubling step\n:::\n\n**Marks are lost for:** giving 8 cm (half the chord) as the answer.",
+  "scheme": [
+   {
+    "step": "$OP\\perp AB$ and $AP=PB$ with reasons",
+    "marks": 1
+   },
+   {
+    "step": "$AP=8$ cm, $AB=16$ cm",
+    "marks": 1
+   }
+  ],
+  "stars": 3,
+  "label": "NCERT-based",
+  "topic": "Tangent and radius",
+  "hint": "The chord is a tangent to the inner circle; Pythagoras gives half of it."
+ },
+ {
+  "id": "maths10-10-q09",
+  "chapter": "ch-10",
+  "type": "vsa2",
+  "marks": 2,
+  "stem": "Prove that the tangents drawn at the ends of a diameter of a circle are parallel.",
+  "model_answer": "*How much to write: about 5 lines · 3 minutes.*\n\nLet $AB$ be a diameter of a circle with centre $O$, and let $PQ$ and $RS$ be the tangents at $A$ and $B$.\n\n$OA\\perp PQ$ and $OB\\perp RS$ (<u>radius ⟂ tangent</u>), so $\\angle OAP=90^\\circ$ and $\\angle OBS=90^\\circ$.\n\n<mark>$\\angle OAP=\\angle OBS$, and these are alternate angles</mark> for the lines $PQ$ and $RS$ with transversal $AB$. Hence $PQ\\parallel RS$.\n\n:::tip Your answer must contain\n- a small figure\n- radius ⟂ tangent at both ends\n- alternate angles (or co-interior angles adding to 180°)\n:::\n\n**Marks are lost for:** saying 'parallel' without naming the angle pair.",
+  "scheme": [
+   {
+    "step": "Right angles at $A$ and $B$ with reason",
+    "marks": 1
+   },
+   {
+    "step": "Alternate angles equal, so the tangents are parallel",
+    "marks": 1
+   }
+  ],
+  "stars": 3,
+  "label": "NCERT-based",
+  "topic": "Tangent and radius",
+  "hint": "Each tangent makes 90° with the diameter."
+ },
+ {
+  "id": "maths10-10-q10",
+  "chapter": "ch-10",
+  "type": "sa3",
+  "marks": 3,
+  "stem": "$PA$ and $PB$ are tangents drawn from an external point $P$ to a circle with centre $O$. Prove that $\\angle APB+\\angle AOB=180^\\circ$.",
+  "model_answer": "*How much to write: about 9 lines · 5 minutes.*\n\n<figure class=\"fig\">\n<svg viewBox=\"0 0 300 190\" role=\"img\" aria-label=\"Two tangents PA and PB drawn to a circle with centre O from an external point P\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"><circle cx=\"110\" cy=\"95\" r=\"55\"/><path d=\"M260,95 L130.2,43.8 M260,95 L130.2,146.2\" class=\"u\" stroke-width=\"2\"/><path d=\"M110,95 L130.2,43.8 M110,95 L130.2,146.2\"/><path d=\"M110,95 H260\" stroke-dasharray=\"5 4\" stroke-width=\"1\"/><circle cx=\"110\" cy=\"95\" r=\"2.5\" fill=\"currentColor\"/><text x=\"98\" y=\"99\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">O</text><text x=\"272\" y=\"99\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">P</text><text x=\"128\" y=\"36\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">A</text><text x=\"128\" y=\"164\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">B</text></svg>\n<figcaption>PA and PB are tangents; OA and OB are radii.</figcaption>\n</figure>\n\n$OA\\perp PA$ and $OB\\perp PB$ (<u>radius ⟂ tangent</u>), so $\\angle OAP=\\angle OBP=90^\\circ$.\n\nIn quadrilateral $OAPB$, the <u>angle sum is $360^\\circ$</u>:\n\n<mark>$\\angle APB+\\angle AOB+90^\\circ+90^\\circ=360^\\circ$</mark>\n\n$\\therefore\\ \\angle APB+\\angle AOB=180^\\circ$.\n\n:::tip Your answer must contain\n- a figure\n- the reason for the two right angles\n- angle sum of a quadrilateral\n:::\n\n**Marks are lost for:** missing the reason 'radius ⟂ tangent'.",
+  "scheme": [
+   {
+    "step": "Figure",
+    "marks": 0.5
+   },
+   {
+    "step": "Right angles at $A$ and $B$ with reason",
+    "marks": 1
+   },
+   {
+    "step": "Angle sum of quadrilateral $OAPB$",
+    "marks": 1
+   },
+   {
+    "step": "Result",
+    "marks": 0.5
+   }
+  ],
+  "stars": 3,
+  "label": "NCERT-based",
+  "topic": "Angles with tangents",
+  "hint": "Look at the quadrilateral OAPB: two of its angles are 90°."
+ },
+ {
+  "id": "maths10-10-q11",
+  "chapter": "ch-10",
+  "type": "sa3",
+  "marks": 3,
+  "stem": "A circle touches the sides $AB$, $BC$ and $CA$ of $\\triangle ABC$ at $D$, $E$ and $F$ respectively. If $AB=13$ cm, $BC=14$ cm and $CA=15$ cm, find $AD$, $BE$ and $CF$.",
+  "model_answer": "*How much to write: about 9 lines · 5 minutes.*\n\n<u>Tangents from an external point are equal</u>: let $AD=AF=x$, $BD=BE=y$, $CE=CF=z$.\n\n$x+y=13$, $\\ y+z=14$, $\\ z+x=15$\n\nAdding: <mark>$2(x+y+z)=42$, so $x+y+z=21$</mark>\n\n$x=21-14=7$, $\\ y=21-15=6$, $\\ z=21-13=8$\n\n$$\\boxed{\\begin{gathered}AD=7\\ \\text{cm},\\ BE=6\\ \\text{cm},\\\\ CF=8\\ \\text{cm}\\end{gathered}}$$\n\n:::tip Your answer must contain\n- the theorem as the reason\n- three equations\n- all three lengths with units\n:::\n\n**Marks are lost for:** solving without stating why the tangent pairs are equal.",
+  "scheme": [
+   {
+    "step": "Equal tangents named with letters",
+    "marks": 1
+   },
+   {
+    "step": "Three equations and their sum",
+    "marks": 1
+   },
+   {
+    "step": "$AD=7$, $BE=6$, $CF=8$ cm",
+    "marks": 1
+   }
+  ],
+  "stars": 3,
+  "label": "PYQ-style",
+  "topic": "Circumscribed figures",
+  "hint": "Mark equal tangents from A, B and C with x, y and z."
+ },
+ {
+  "id": "maths10-10-q12",
+  "chapter": "ch-10",
+  "type": "la5",
+  "marks": 5,
+  "stem": "Prove that the lengths of tangents drawn from an external point to a circle are equal. Using this result, prove that a parallelogram circumscribing a circle is a rhombus.",
+  "model_answer": "*How much to write: about 15 lines · 9 minutes.*\n\n<figure class=\"fig\">\n<svg viewBox=\"0 0 300 190\" role=\"img\" aria-label=\"Two tangents PA and PB drawn to a circle with centre O from an external point P\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"><circle cx=\"110\" cy=\"95\" r=\"55\"/><path d=\"M260,95 L130.2,43.8 M260,95 L130.2,146.2\" class=\"u\" stroke-width=\"2\"/><path d=\"M110,95 L130.2,43.8 M110,95 L130.2,146.2\"/><path d=\"M110,95 H260\" stroke-dasharray=\"5 4\" stroke-width=\"1\"/><circle cx=\"110\" cy=\"95\" r=\"2.5\" fill=\"currentColor\"/><text x=\"98\" y=\"99\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">O</text><text x=\"272\" y=\"99\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">P</text><text x=\"128\" y=\"36\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">A</text><text x=\"128\" y=\"164\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">B</text></svg>\n<figcaption>Tangents PA and PB from P; OA, OB, OP joined.</figcaption>\n</figure>\n\n**Part 1.** **Given:** tangents $PA$, $PB$ from $P$ to a circle with centre $O$. **To prove:** $PA=PB$. **Construction:** join $OA$, $OB$, $OP$.\n\nIn $\\triangle OAP$ and $\\triangle OBP$: $\\angle OAP=\\angle OBP=90^\\circ$ (<u>radius ⟂ tangent</u>); $OA=OB$ (radii); $OP=OP$ (common).\n\n<mark>$\\triangle OAP\\cong\\triangle OBP$ (RHS)</mark>, so $PA=PB$ (CPCT).\n\n<figure class=\"fig\">\n<svg viewBox=\"0 0 300 190\" role=\"img\" aria-label=\"Quadrilateral ABCD circumscribing a circle, touching it at P, Q, R and S\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"><circle cx=\"150\" cy=\"98\" r=\"50\"/><polygon points=\"109.4,40.1 93.5,130.6 179.9,162.1 217.4,59.1\" class=\"u\"/><circle cx=\"158.7\" cy=\"48.8\" r=\"2.5\" fill=\"currentColor\"/><circle cx=\"100.8\" cy=\"89.3\" r=\"2.5\" fill=\"currentColor\"/><circle cx=\"132.9\" cy=\"145.0\" r=\"2.5\" fill=\"currentColor\"/><circle cx=\"197.0\" cy=\"115.1\" r=\"2.5\" fill=\"currentColor\"/><text x=\"225\" y=\"55\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">A</text><text x=\"103\" y=\"34\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">B</text><text x=\"83\" y=\"139\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">C</text><text x=\"184\" y=\"178\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">D</text><text x=\"161\" y=\"41\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">P</text><text x=\"91\" y=\"91\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">Q</text><text x=\"127\" y=\"161\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">R</text><text x=\"207\" y=\"123\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">S</text></svg>\n<figcaption>ABCD touches the circle at P, Q, R, S.</figcaption>\n</figure>\n\n**Part 2.** Let parallelogram $ABCD$ touch the circle at $P$, $Q$, $R$, $S$. By Part 1: $AP=AS$, $BP=BQ$, $CR=CQ$, $DR=DS$.\n\nAdding: $AB+CD=AD+BC$. In a parallelogram $AB=CD$ and $AD=BC$, so $2AB=2AD$, that is $AB=AD$.\n\nAdjacent sides of the parallelogram are equal, so all four sides are equal: $ABCD$ is a <u>rhombus</u>.\n\n:::tip Your answer must contain\n- both figures\n- RHS and CPCT\n- opposite sides of a parallelogram are equal\n- the final sentence\n:::\n\n**Marks are lost for:** using SAS for the congruence, or skipping the parallelogram property.",
+  "scheme": [
+   {
+    "step": "Figure, Given, To prove, Construction",
+    "marks": 1
+   },
+   {
+    "step": "Three facts for congruence; RHS; $PA=PB$",
+    "marks": 1.5
+   },
+   {
+    "step": "Four pairs of equal tangents",
+    "marks": 1
+   },
+   {
+    "step": "$AB+CD=AD+BC$",
+    "marks": 0.5
+   },
+   {
+    "step": "$AB=AD$, hence rhombus",
+    "marks": 1
+   }
+  ],
+  "stars": 3,
+  "label": "NCERT-based",
+  "topic": "Equal tangents",
+  "hint": "Part 1: RHS congruence. Part 2: add the four equal-tangent pairs."
+ },
+ {
+  "id": "maths10-10-q13",
+  "chapter": "ch-10",
+  "type": "case",
+  "marks": 4,
+  "stem": "**The fountain.** A circular fountain in a park has centre $O$ and radius 5 m. A lamp post stands at a point $P$, 13 m from $O$. Two straight paths $PA$ and $PB$ are laid from the lamp post so that each just touches the edge of the fountain, at $A$ and $B$.",
+  "parts": [
+   {
+    "id": "i",
+    "stem": "What is the measure of $\\angle OAP$? Give a reason.",
+    "marks": 1,
+    "model_answer": "$90^\\circ$: the radius is perpendicular to the tangent at the point of contact.",
+    "scheme": [
+     {
+      "step": "$90^\\circ$ with reason",
+      "marks": 1
+     }
+    ]
+   },
+   {
+    "id": "ii",
+    "stem": "Find the length of the path $PA$.",
+    "marks": 1,
+    "model_answer": "$PA=\\sqrt{13^2-5^2}=12$ m.",
+    "scheme": [
+     {
+      "step": "12 m",
+      "marks": 1
+     }
+    ]
+   },
+   {
+    "id": "iii",
+    "stem": "Find the perimeter of the quadrilateral $OAPB$.<br>**OR** Find the area of the quadrilateral $OAPB$.",
+    "marks": 2,
+    "model_answer": "$PB=PA=12$ m (tangents from an external point), so perimeter $=5+12+12+5=34$ m.<br>**OR:** area $=2\\times\\dfrac12\\times5\\times12=60$ m².",
+    "scheme": [
+     {
+      "step": "$PB=PA$ with reason (OR: two congruent right triangles)",
+      "marks": 1
+     },
+     {
+      "step": "34 m (OR: 60 m²)",
+      "marks": 1
+     }
+    ]
+   }
+  ],
+  "model_answer": "*How much to write: about 7 lines · 6 minutes in all.*\n\n**(i)** $\\angle OAP=90^\\circ$ (<u>radius ⟂ tangent</u>).\n\n**(ii)** In right $\\triangle OAP$: <mark>$PA=\\sqrt{13^2-5^2}=12$ m</mark>.\n\n**(iii)** $PB=PA=12$ m (tangents from an external point are equal).\n\n$$\\boxed{\\text{perimeter}=5+12+12+5=34\\ \\text{m}}$$\n\n**OR:** area of $OAPB=2\\times\\tfrac12\\times5\\times12=60$ m².\n\n:::tip Your answer must contain\n- both theorems quoted as reasons\n- Pythagoras in triangle OAP\n:::\n\n**Marks are lost for:** taking 13 m as a side of the right angle instead of the hypotenuse.",
+  "stars": 3,
+  "label": "PYQ-style",
+  "topic": "Tangents from an external point",
+  "hint": "Mark the right angles at A and B first."
+ }
+]

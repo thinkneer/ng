@@ -306,6 +306,86 @@
    "prompt": "What do you replace x by in the property for ∫ from a to b?"
   }
  ],
+ "maths/ch-06": [
+  {
+   "id": "same-letters-same-places",
+   "title": "Reading a similarity statement",
+   "trick": "**Same place, same partner**",
+   "meaning": [
+    "In $\\triangle ABC\\sim\\triangle PQR$ the 1st letters match, the 2nd letters match, the 3rd letters match. Read sides off the statement: $AB$ with $PQ$, $BC$ with $QR$, $AC$ with $PR$."
+   ],
+   "prompt": "In triangle ABC ~ triangle PQR, which side corresponds to BC?"
+  },
+  {
+   "id": "aa-is-enough",
+   "title": "The quickest similarity test",
+   "trick": "**Two angles and you are done**",
+   "meaning": [
+    "Find two pairs of equal angles (common angle, vertically opposite angles, alternate angles with parallel lines, right angles) and write \"by AA similarity\"."
+   ],
+   "prompt": "What is the least you must show to prove two triangles similar by angles?"
+  },
+  {
+   "id": "decreasing-is-negative",
+   "title": "Signs in rate questions",
+   "trick": "**Shrinking, melting, leaking, sliding down = minus sign**",
+   "meaning": [
+    "A rate that is decreasing is written negative: water leaking at 5 cm³/s means $\\dfrac{dV}{dt}=-5$.",
+    "Substitute the given values only **after** differentiating."
+   ],
+   "prompt": "Water leaks from a tank at 5 cm³/s. What is dV/dt?"
+  },
+  {
+   "id": "smile-and-frown",
+   "title": "Second derivative test",
+   "trick": "$f''>0$ is a **smile** ∪ (minimum); $f''<0$ is a **frown** ∩ (maximum)",
+   "meaning": [
+    "At a point where $f'(c)=0$: $f''(c)<0$ gives a local maximum, $f''(c)>0$ a local minimum.",
+    "If $f''(c)=0$ the test fails: go back to the sign change of $f'$."
+   ],
+   "prompt": "f′(c) = 0 and f″(c) < 0. Maximum or minimum?"
+  }
+ ],
+ "maths/ch-10": [
+  {
+   "id": "radius-tangent-right-angle",
+   "title": "The first thing to mark in any tangent figure",
+   "trick": "**Touch point → turn 90°**",
+   "meaning": [
+    "Join the centre to every point of contact and mark the right angle there before you read the rest of the question."
+   ],
+   "prompt": "What angle does a radius make with the tangent at the point of contact?"
+  },
+  {
+   "id": "tangent-twins",
+   "title": "Tangents from one point",
+   "trick": "**Tangents from one point are twins**",
+   "meaning": [
+    "From every vertex or outside point, the two tangent segments are equal. Mark each pair with the same letter ($x$, $x$; $y$, $y$) and the question usually solves itself."
+   ],
+   "prompt": "What can you say about the two tangents drawn to a circle from the same external point?"
+  },
+  {
+   "id": "divide-by-your-own-size",
+   "title": "Unit vector",
+   "trick": "**Divide by your own size**",
+   "meaning": [
+    "$\\hat a=\\dfrac{\\vec a}{\\lvert\\vec a\\rvert}$: same direction, magnitude 1.",
+    "A vector of magnitude $m$ along $\\vec a$ is $m\\,\\hat a$. The components of $\\hat a$ are the direction cosines."
+   ],
+   "prompt": "How do you get the unit vector along a given vector?"
+  },
+  {
+   "id": "dot-cos-cross-sin",
+   "title": "Dot or cross?",
+   "trick": "**Dot goes with cos, cross goes with sin**",
+   "meaning": [
+    "Dot: $\\lvert\\vec a\\rvert\\lvert\\vec b\\rvert\\cos\\theta$, a **number**; zero when the vectors are **perpendicular**.",
+    "Cross: magnitude $\\lvert\\vec a\\rvert\\lvert\\vec b\\rvert\\sin\\theta$, a **vector**; zero when the vectors are **parallel**."
+   ],
+   "prompt": "Which product is zero for perpendicular vectors, and which for parallel vectors?"
+  }
+ ],
  "maths/ch-08": [
   {
    "id": "pandit-badri-prasad",
@@ -1126,50 +1206,6 @@
     "Pyrimidines (one ring): **C**ytosine, **U**racil, **T**hymine."
    ],
    "prompt": "Which bases are purines?"
-  }
- ],
- "maths/ch-06": [
-  {
-   "id": "decreasing-is-negative",
-   "title": "Signs in rate questions",
-   "trick": "**Shrinking, melting, leaking, sliding down = minus sign**",
-   "meaning": [
-    "A rate that is decreasing is written negative: water leaking at 5 cm³/s means $\\dfrac{dV}{dt}=-5$.",
-    "Substitute the given values only **after** differentiating."
-   ],
-   "prompt": "Water leaks from a tank at 5 cm³/s. What is dV/dt?"
-  },
-  {
-   "id": "smile-and-frown",
-   "title": "Second derivative test",
-   "trick": "$f''>0$ is a **smile** ∪ (minimum); $f''<0$ is a **frown** ∩ (maximum)",
-   "meaning": [
-    "At a point where $f'(c)=0$: $f''(c)<0$ gives a local maximum, $f''(c)>0$ a local minimum.",
-    "If $f''(c)=0$ the test fails: go back to the sign change of $f'$."
-   ],
-   "prompt": "f′(c) = 0 and f″(c) < 0. Maximum or minimum?"
-  }
- ],
- "maths/ch-10": [
-  {
-   "id": "divide-by-your-own-size",
-   "title": "Unit vector",
-   "trick": "**Divide by your own size**",
-   "meaning": [
-    "$\\hat a=\\dfrac{\\vec a}{\\lvert\\vec a\\rvert}$: same direction, magnitude 1.",
-    "A vector of magnitude $m$ along $\\vec a$ is $m\\,\\hat a$. The components of $\\hat a$ are the direction cosines."
-   ],
-   "prompt": "How do you get the unit vector along a given vector?"
-  },
-  {
-   "id": "dot-cos-cross-sin",
-   "title": "Dot or cross?",
-   "trick": "**Dot goes with cos, cross goes with sin**",
-   "meaning": [
-    "Dot: $\\lvert\\vec a\\rvert\\lvert\\vec b\\rvert\\cos\\theta$, a **number**; zero when the vectors are **perpendicular**.",
-    "Cross: magnitude $\\lvert\\vec a\\rvert\\lvert\\vec b\\rvert\\sin\\theta$, a **vector**; zero when the vectors are **parallel**."
-   ],
-   "prompt": "Which product is zero for perpendicular vectors, and which for parallel vectors?"
   }
  ],
  "maths/ch-11": [

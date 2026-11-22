@@ -1,0 +1,118 @@
+[
+  {
+    "id": "hook-sling",
+    "kind": "event",
+    "title": "Let go, and it flies off straight",
+    "svg": "<svg viewBox=\"0 0 300 180\" role=\"img\" aria-label=\"A stone whirled in a circle flies off along the tangent when released\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"><circle cx=\"120\" cy=\"95\" r=\"50\" stroke-dasharray=\"4 4\"/><path d=\"M120,95 L158.3,62.9\"/><circle cx=\"158.3\" cy=\"62.9\" r=\"5\" fill=\"#E0B400\" stroke=\"none\"/><path d=\"M158.3,62.9 L203.3,116.5\" class=\"u\" stroke-width=\"2\"/><text x=\"232\" y=\"150\" font-size=\"10\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">path after release</text><text x=\"120\" y=\"112\" font-size=\"10\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">hand</text></svg>",
+    "tags": [
+      "story"
+    ],
+    "back": "A whirled stone leaves along the tangent, the line that just touches the circle. Tangent comes from the Latin for 'to touch'."
+  },
+  {
+    "id": "tangent-radius-figure",
+    "kind": "figure",
+    "title": "Tangent ⟂ radius",
+    "svg": "ref: notes#tangent-radius-figure",
+    "stars": 3,
+    "tags": [
+      "diagram",
+      "3-mark"
+    ],
+    "back": "At the point of contact the radius meets the tangent at 90°. It is the shortest distance from the centre to the line."
+  },
+  {
+    "id": "two-tangents-figure",
+    "kind": "figure",
+    "title": "Two tangents from one point",
+    "svg": "ref: notes#two-tangents-figure",
+    "stars": 3,
+    "tags": [
+      "diagram",
+      "3-mark"
+    ],
+    "back": "PA = PB. OP bisects the angle APB and the angle AOB."
+  },
+  {
+    "id": "tangent-length",
+    "kind": "formula",
+    "title": "Length of a tangent",
+    "tex": "\\sqrt{d^2-r^2}",
+    "legend": [
+      "d = distance from centre",
+      "r = radius"
+    ],
+    "stars": 3,
+    "tags": [
+      "1-mark"
+    ],
+    "back": "The line to the centre is the hypotenuse."
+  },
+  {
+    "id": "number-of-tangents",
+    "kind": "compare",
+    "title": "How many tangents?",
+    "tex": "\\begin{gathered}\\text{inside}\\to0\\\\ \\text{on}\\to1\\\\ \\text{outside}\\to2\\end{gathered}",
+    "stars": 2,
+    "tags": [
+      "1-mark"
+    ],
+    "back": "And a circle has infinitely many tangents in all, one at each point."
+  },
+  {
+    "id": "equal-tangents-proof",
+    "kind": "process",
+    "title": "Proof: PA = PB",
+    "tex": "\\begin{gathered}\\text{join }OA,\\ OB,\\ OP\\\\ \\downarrow\\\\ 90^\\circ,\\ OA=OB,\\ OP\\text{ common}\\\\ \\downarrow\\\\ \\text{RHS}\\Rightarrow PA=PB\\end{gathered}",
+    "stars": 3,
+    "tags": [
+      "3-mark"
+    ],
+    "back": "The congruence rule is RHS, not SAS."
+  },
+  {
+    "id": "angle-sum",
+    "kind": "formula",
+    "title": "Angle between two tangents",
+    "tex": "\\angle APB+\\angle AOB=180^\\circ",
+    "stars": 3,
+    "tags": [
+      "1-mark"
+    ],
+    "back": "Quadrilateral OAPB has two right angles, so the other two add to 180°."
+  },
+  {
+    "id": "circumscribed-quadrilateral",
+    "kind": "figure",
+    "title": "Quadrilateral around a circle",
+    "svg": "ref: notes#circumscribed-quadrilateral",
+    "stars": 3,
+    "tags": [
+      "diagram",
+      "3-mark"
+    ],
+    "back": "Equal tangents from each vertex give AB + CD = AD + BC."
+  },
+  {
+    "id": "incircle-triangle",
+    "kind": "figure",
+    "title": "Triangle around a circle",
+    "svg": "ref: notes#incircle-triangle",
+    "stars": 2,
+    "tags": [
+      "diagram"
+    ],
+    "back": "Mark AD = AF = x, BD = BE = y, CE = CF = z; each side is a sum of two letters."
+  },
+  {
+    "id": "concentric-chord",
+    "kind": "formula",
+    "title": "Chord touching the inner circle",
+    "tex": "2\\sqrt{R^2-r^2}",
+    "stars": 2,
+    "tags": [
+      "2-mark"
+    ],
+    "back": "Pythagoras gives half the chord: remember to double."
+  }
+]

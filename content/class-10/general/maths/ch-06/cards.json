@@ -1,0 +1,113 @@
+[
+  {
+    "id": "hook-thales",
+    "kind": "event",
+    "title": "A pyramid measured with a stick",
+    "svg": "ref: notes#shadow-figure",
+    "tags": [
+      "story"
+    ],
+    "back": "Tradition says Thales found a pyramid's height from two shadows: similar triangles, one ratio."
+  },
+  {
+    "id": "similar-triangles",
+    "kind": "figure",
+    "title": "Similar triangles",
+    "svg": "ref: notes#similar-triangles",
+    "stars": 2,
+    "tags": [
+      "diagram"
+    ],
+    "back": "Equal angles and sides in the same ratio. One is an enlargement of the other."
+  },
+  {
+    "id": "bpt-figure",
+    "kind": "figure",
+    "title": "Basic Proportionality Theorem",
+    "svg": "ref: notes#bpt-figure",
+    "stars": 3,
+    "tags": [
+      "diagram",
+      "5-mark"
+    ],
+    "back": "DE ∥ BC, so AD : DB = AE : EC. Converse: equal ratios make DE ∥ BC."
+  },
+  {
+    "id": "bpt-parts",
+    "kind": "formula",
+    "title": "BPT with parts",
+    "tex": "DE\\parallel BC\\Rightarrow\\dfrac{AD}{DB}=\\dfrac{AE}{EC}",
+    "stars": 3,
+    "tags": [
+      "1-mark"
+    ],
+    "back": "Parts with parts. The converse proves lines parallel."
+  },
+  {
+    "id": "bpt-wholes",
+    "kind": "formula",
+    "title": "BPT with whole sides",
+    "tex": "\\dfrac{AD}{AB}=\\dfrac{AE}{AC}=\\dfrac{DE}{BC}",
+    "stars": 3,
+    "tags": [
+      "case"
+    ],
+    "back": "Use this one whenever DE or BC is in the question."
+  },
+  {
+    "id": "bpt-proof",
+    "kind": "process",
+    "title": "Proof of BPT",
+    "tex": "\\begin{gathered}\\text{join }BE,\\ CD\\\\ \\downarrow\\\\ \\tfrac{\\text{ar}(ADE)}{\\text{ar}(BDE)}=\\tfrac{AD}{DB}\\\\ \\downarrow\\\\ \\tfrac{\\text{ar}(ADE)}{\\text{ar}(DEC)}=\\tfrac{AE}{EC}\\\\ \\downarrow\\\\ \\text{ar}(BDE)=\\text{ar}(DEC)\\end{gathered}",
+    "stars": 3,
+    "tags": [
+      "5-mark"
+    ],
+    "back": "Reason for the equal areas: same base DE, between the same parallels."
+  },
+  {
+    "id": "three-tests",
+    "kind": "compare",
+    "title": "Three similarity tests",
+    "tex": "\\begin{gathered}\\text{AA: two angles}\\\\ \\text{SSS: three side ratios}\\\\ \\text{SAS: angle + its two sides}\\end{gathered}",
+    "stars": 3,
+    "tags": [
+      "3-mark"
+    ],
+    "back": "AA is used most. In SAS the equal angle must lie between the proportional sides."
+  },
+  {
+    "id": "letter-order",
+    "kind": "formula",
+    "title": "Order of the letters",
+    "tex": "\\begin{gathered}\\triangle ABC\\sim\\triangle PQR\\\\ \\tfrac{AB}{PQ}=\\tfrac{BC}{QR}=\\tfrac{CA}{RP}\\end{gathered}",
+    "stars": 2,
+    "back": "First with first, second with second, third with third."
+  },
+  {
+    "id": "shadow-ratio",
+    "kind": "formula",
+    "title": "Height from a shadow",
+    "tex": "\\dfrac{h_1}{s_1}=\\dfrac{h_2}{s_2}",
+    "legend": [
+      "h = height",
+      "s = shadow"
+    ],
+    "stars": 3,
+    "tags": [
+      "3-mark"
+    ],
+    "back": "Same time of day, same sun angle: the two triangles are similar by AA."
+  },
+  {
+    "id": "perimeter-ratio",
+    "kind": "formula",
+    "title": "Perimeters of similar triangles",
+    "tex": "\\dfrac{P_1}{P_2}=\\dfrac{AB}{PQ}",
+    "stars": 2,
+    "tags": [
+      "1-mark"
+    ],
+    "back": "Sides in the ratio 2 : 3 give perimeters in the ratio 2 : 3. (The area ratio is not in boards.)"
+  }
+]

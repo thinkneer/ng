@@ -638,24 +638,81 @@
                       "number": 6,
                       "title": "Triangles",
                       "unit": "IV",
-                      "items": {},
-                      "marks_hint": null,
-                      "summary": null,
-                      "questions": 0,
-                      "question_types": {},
-                      "mnemonics": 2
+                      "items": {
+                        "notes": true,
+                        "mustknow": true,
+                        "formulas": true,
+                        "cards": true,
+                        "questions": true
+                      },
+                      "marks_hint": "Unit IV Geometry: 15 marks with Circles",
+                      "summary": "Similar figures · Basic Proportionality Theorem · AA, SSS, SAS similarity · lengths by similarity",
+                      "questions": 13,
+                      "question_types": {
+                        "mcq": 5,
+                        "ar": 2,
+                        "vsa2": 2,
+                        "sa3": 2,
+                        "la5": 1,
+                        "case": 1
+                      },
+                      "diagrams": [],
+                      "blocks": {
+                        "mnemonic": 2,
+                        "compare": 1,
+                        "figure": 1,
+                        "derive": 1,
+                        "draw": 1,
+                        "numerical": 2,
+                        "fill": 1,
+                        "steps": 1,
+                        "explain": 1
+                      },
+                      "words": 1950,
+                      "read_minutes": 6,
+                      "cards": 10,
+                      "mnemonics": 4
                     },
                     {
                       "id": "ch-10",
                       "number": 10,
                       "title": "Circles",
                       "unit": "IV",
-                      "items": {},
-                      "marks_hint": null,
-                      "summary": null,
-                      "questions": 0,
-                      "question_types": {},
-                      "mnemonics": 2
+                      "items": {
+                        "notes": true,
+                        "mustknow": true,
+                        "formulas": true,
+                        "cards": true,
+                        "questions": true
+                      },
+                      "marks_hint": "Unit IV Geometry: 15 marks with Triangles",
+                      "summary": "Tangent to a circle · tangent ⟂ radius · equal tangents from an external point · circumscribed figures",
+                      "questions": 13,
+                      "question_types": {
+                        "mcq": 5,
+                        "ar": 2,
+                        "vsa2": 2,
+                        "sa3": 2,
+                        "la5": 1,
+                        "case": 1
+                      },
+                      "diagrams": [],
+                      "blocks": {
+                        "compare": 1,
+                        "fill": 1,
+                        "figure": 2,
+                        "derive": 2,
+                        "mnemonic": 2,
+                        "graph": 1,
+                        "numerical": 1,
+                        "draw": 1,
+                        "steps": 1,
+                        "explain": 1
+                      },
+                      "words": 1817,
+                      "read_minutes": 5,
+                      "cards": 10,
+                      "mnemonics": 4
                     }
                   ]
                 },
@@ -836,10 +893,10 @@
               },
               "papers": [],
               "counts": {
-                "notes": 8,
-                "mustknow": 8,
-                "formulas": 8,
-                "questions": 8,
+                "notes": 10,
+                "mustknow": 10,
+                "formulas": 10,
+                "questions": 10,
                 "chapters": 14
               },
               "exam_mode": "built"
@@ -2494,7 +2551,7 @@
                       "words": 2601,
                       "read_minutes": 7,
                       "cards": 11,
-                      "mnemonics": 2
+                      "mnemonics": 4
                     },
                     {
                       "id": "ch-07",
@@ -2652,7 +2709,7 @@
                       "words": 2259,
                       "read_minutes": 6,
                       "cards": 12,
-                      "mnemonics": 2
+                      "mnemonics": 4
                     },
                     {
                       "id": "ch-11",
