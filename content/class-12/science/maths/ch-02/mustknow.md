@@ -103,18 +103,18 @@ Substitute or use half-angle identities [1] → reduce the inside to $\tan(\dots
 
 ## Quick 1-mark facts (MCQ, A–R)
 
-- $\cos^{-1}\left(-\dfrac12\right)$: $\dfrac{2\pi}{3}$.
-- $\sin^{-1}\left(-\dfrac12\right)$: $-\dfrac\pi6$.
-- $\cot^{-1}(-1)$: $\dfrac{3\pi}{4}$.
-- $\sec^{-1}(-2)$: $\dfrac{2\pi}{3}$.
-- $\sin^{-1}\left(\sin\dfrac{2\pi}{3}\right)$: $\dfrac\pi3$.
-- $\cos^{-1}\left(\cos\dfrac{7\pi}{6}\right)$: $\dfrac{5\pi}{6}$.
-- $\tan^{-1}\left(\tan\dfrac{3\pi}{4}\right)$: $-\dfrac\pi4$.
-- $\tan^{-1}\sqrt3-\cot^{-1}(-\sqrt3)$: $-\dfrac\pi2$.
-- $\cos^{-1}\dfrac12+2\sin^{-1}\dfrac12$: $\dfrac{2\pi}{3}$.
-- $\sin\left(\dfrac\pi3-\sin^{-1}\left(-\dfrac12\right)\right)$: $1$, since the angle is $\dfrac\pi2$.
-- $\sin\left(2\sin^{-1}\dfrac35\right)$: $\dfrac{24}{25}$.
-- $\tan\left(\cos^{-1}\dfrac45\right)$: $\dfrac34$.
+- Value of $\cos^{-1}\left(-\dfrac12\right)$: $\dfrac{2\pi}{3}$.
+- Value of $\sin^{-1}\left(-\dfrac12\right)$: $-\dfrac\pi6$.
+- Value of $\cot^{-1}(-1)$: $\dfrac{3\pi}{4}$.
+- Value of $\sec^{-1}(-2)$: $\dfrac{2\pi}{3}$.
+- Value of $\sin^{-1}\left(\sin\dfrac{2\pi}{3}\right)$: $\dfrac\pi3$.
+- Value of $\cos^{-1}\left(\cos\dfrac{7\pi}{6}\right)$: $\dfrac{5\pi}{6}$.
+- Value of $\tan^{-1}\left(\tan\dfrac{3\pi}{4}\right)$: $-\dfrac\pi4$.
+- Value of $\tan^{-1}\sqrt3-\cot^{-1}(-\sqrt3)$: $-\dfrac\pi2$.
+- Value of $\cos^{-1}\dfrac12+2\sin^{-1}\dfrac12$: $\dfrac{2\pi}{3}$.
+- Value of $\sin\left(\dfrac\pi3-\sin^{-1}\left(-\dfrac12\right)\right)$: $1$, since the angle is $\dfrac\pi2$.
+- Value of $\sin\left(2\sin^{-1}\dfrac35\right)$: $\dfrac{24}{25}$.
+- Value of $\tan\left(\cos^{-1}\dfrac45\right)$: $\dfrac34$.
 - Domain of $\sin^{-1}(2x-1)$: $[0,1]$.
 - Domain of $\cos^{-1}(3x-2)$: $\left[\dfrac13,1\right]$.
 

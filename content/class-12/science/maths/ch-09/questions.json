@@ -464,5 +464,65 @@
   "topic": "Variables separable",
   "hint": "Get all $y$ with $dy$; divide $y$ by $y+2$ before integrating.",
   "source_note": "CBSE Class 12 Mathematics board paper 2026 (set 65/1/1), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
+ },
+ {
+  "id": "maths-w20261122-ch-09-01",
+  "chapter": "ch-09",
+  "type": "la5",
+  "marks": 5,
+  "stars": 2,
+  "label": "PYQ-style",
+  "stem": "Solve the differential equation $\\dfrac{dy}{dx}+\\dfrac{2x}{1+x^2}\\,y=\\dfrac{1}{(1+x^2)^2}$, given that $y=1$ when $x=0$.",
+  "model_answer": "*How much to write: about 14 lines · 10 minutes. Standard form, integrating factor, general solution, then the particular solution.*\n\n**Given:** $\\dfrac{dy}{dx}+Py=Q$ with $P=\\dfrac{2x}{1+x^2}$ and $Q=\\dfrac{1}{(1+x^2)^2}$; $y(0)=1$<br>\n**To find:** the particular solution\n\n**Integrating factor:** <u>I.F.</u> $=e^{\\int P\\,dx}=e^{\\int\\frac{2x}{1+x^2}\\,dx}=e^{\\log(1+x^2)}=1+x^2$\n\nMultiply both sides by $1+x^2$. The left side becomes <u>the derivative of one product</u>:\n\n$$\\dfrac{d}{dx}\\left[(1+x^2)\\,y\\right]=\\dfrac{1}{1+x^2}$$\n\nIntegrate both sides:\n\n$$(1+x^2)\\,y=\\tan^{-1}x+C$$\n\n<mark>Put $x=0$, $y=1$: $1=0+C$, so $C=1$.</mark>\n\n$$\\boxed{y=\\dfrac{\\tan^{-1}x+1}{1+x^2}}$$\n\n:::tip Your answer must contain\n- the I.F. $1+x^2$, with the integral of $P$ shown\n- the left side written as $\\dfrac{d}{dx}[(1+x^2)\\,y]$\n- the constant $C$ found from the given condition\n- the boxed particular solution\n:::\n\n**Marks are lost for:** a wrong I.F. (the integral of $\\dfrac{2x}{1+x^2}$ is $\\log(1+x^2)$, not $\\tan^{-1}x$); a missing $C$; leaving $C$ in the final answer.",
+  "scheme": [
+   {
+    "step": "Standard form: $P=\\dfrac{2x}{1+x^2}$, $Q=\\dfrac{1}{(1+x^2)^2}$",
+    "marks": 1
+   },
+   {
+    "step": "I.F. $=e^{\\int\\frac{2x}{1+x^2}dx}=1+x^2$",
+    "marks": 1
+   },
+   {
+    "step": "Left side $=\\dfrac{d}{dx}[(1+x^2)y]$, so $\\dfrac{d}{dx}[(1+x^2)y]=\\dfrac{1}{1+x^2}$",
+    "marks": 1
+   },
+   {
+    "step": "$(1+x^2)\\,y=\\tan^{-1}x+C$",
+    "marks": 1
+   },
+   {
+    "step": "$C=1$ from $y(0)=1$; $y=\\dfrac{\\tan^{-1}x+1}{1+x^2}$",
+    "marks": 1
+   }
+  ],
+  "topic": "Linear differential equations",
+  "hint": "Multiply by the integrating factor first; the left side then becomes the derivative of one product."
+ },
+ {
+  "id": "maths-w20261122-ch-09-02",
+  "chapter": "ch-09",
+  "type": "sa3",
+  "marks": 3,
+  "stars": 2,
+  "label": "PYQ-style",
+  "stem": "Show that $x\\dfrac{dy}{dx}-y=\\sqrt{x^2+y^2}$ is homogeneous, and solve it.",
+  "model_answer": "*How much to write: about 10 lines · 6 minutes. Test, substitute, separate, integrate, put back.*\n\n**Given:** $x\\dfrac{dy}{dx}-y=\\sqrt{x^2+y^2}$<br>\n**To find:** <u>the general solution</u>\n\nDivide by $x$: $\\dfrac{dy}{dx}=\\dfrac{y+\\sqrt{x^2+y^2}}{x}$. <u>Every term has degree 1</u>, so the right side is a function of $\\dfrac yx$ alone: the equation is homogeneous.\n\nPut $y=vx$, so $\\dfrac{dy}{dx}=v+x\\dfrac{dv}{dx}$. The equation becomes\n\n$$\\begin{aligned}x^2\\dfrac{dv}{dx}&=x\\sqrt{1+v^2}\\\\\\Rightarrow\\quad\\dfrac{dv}{\\sqrt{1+v^2}}&=\\dfrac{dx}{x}\\end{aligned}$$\n\nIntegrate: $\\log\\left(v+\\sqrt{1+v^2}\\right)=\\log x+\\log C$, so <mark>$v+\\sqrt{1+v^2}=Cx$</mark>. Put back $v=\\dfrac yx$ and multiply by $x$:\n\n$$\\boxed{y+\\sqrt{x^2+y^2}=Cx^2}$$\n\n:::tip Your answer must contain\n- the test: each term of degree 1, so the right side is $F\\left(\\dfrac yx\\right)$\n- the substitution $y=vx$ with $\\dfrac{dy}{dx}=v+x\\dfrac{dv}{dx}$\n- the separated form, with $\\log C$ on the integrated side\n- the answer with $v$ put back\n:::\n\n**Marks are lost for:** no check that the equation is homogeneous; $C$ without $\\log$ after integrating; not putting $v=\\dfrac yx$ back.",
+  "scheme": [
+   {
+    "step": "Each term of degree 1: $\\dfrac{dy}{dx}=\\dfrac{y+\\sqrt{x^2+y^2}}{x}=F\\left(\\dfrac yx\\right)$, so homogeneous",
+    "marks": 1
+   },
+   {
+    "step": "$y=vx$: $x^2\\dfrac{dv}{dx}=x\\sqrt{1+v^2}$, so $\\dfrac{dv}{\\sqrt{1+v^2}}=\\dfrac{dx}{x}$",
+    "marks": 1
+   },
+   {
+    "step": "$v+\\sqrt{1+v^2}=Cx$; putting $v=\\dfrac yx$: $y+\\sqrt{x^2+y^2}=Cx^2$",
+    "marks": 1
+   }
+  ],
+  "topic": "Homogeneous differential equations",
+  "hint": "Divide by $x$ and test the right side as a function of $\\dfrac yx$; then put $y=vx$ and separate."
  }
 ]

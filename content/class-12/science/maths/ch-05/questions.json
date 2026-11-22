@@ -210,7 +210,7 @@
   "stars": 2,
   "label": "PYQ-style",
   "stem": "If $y=\\left(x+\\sqrt{x^2+1}\\right)^m$, show that $(x^2+1)\\,y_2+x\\,y_1-m^2y=0$.",
-  "model_answer": "$y_1=m\\left(x+\\sqrt{x^2+1}\\right)^{m-1}\\left(1+\\dfrac{x}{\\sqrt{x^2+1}}\\right)=\\dfrac{my}{\\sqrt{x^2+1}}$ [1]<br>\n$\\sqrt{x^2+1}\\,y_1=my$; squaring, $(x^2+1)\\,y_1^2=m^2y^2$ [½]<br>\nDifferentiating: $(x^2+1)\\,2y_1y_2+2x\\,y_1^2=2m^2y\\,y_1$ [1]<br>\nDividing by $2y_1$: $(x^2+1)\\,y_2+x\\,y_1-m^2y=0$. Hence proved. [½]",
+  "model_answer": "$\\begin{aligned}y_1&=m\\left(x+\\sqrt{x^2+1}\\right)^{m-1}\\\\&\\qquad\\times\\left(1+\\dfrac{x}{\\sqrt{x^2+1}}\\right)\\\\&=\\dfrac{my}{\\sqrt{x^2+1}}\\end{aligned}$ [1]<br>\n$\\sqrt{x^2+1}\\,y_1=my$; squaring, $(x^2+1)\\,y_1^2=m^2y^2$ [½]<br>\nDifferentiating: $(x^2+1)\\,2y_1y_2+2x\\,y_1^2=2m^2y\\,y_1$ [1]<br>\nDividing by $2y_1$: $(x^2+1)\\,y_2+x\\,y_1-m^2y=0$. Hence proved. [½]",
   "scheme": [
    {
     "step": "$y_1=m\\left(x+\\sqrt{x^2+1}\\right)^{m-1}\\left(1+\\dfrac{x}{\\sqrt{x^2+1}}\\right)=\\dfrac{my}{\\sqrt{x^2+1}}$",

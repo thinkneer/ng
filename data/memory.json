@@ -1042,7 +1042,7 @@
    "title": "Direction ratios to direction cosines",
    "trick": "**Divide by the root of the sum of squares**",
    "meaning": [
-    "$l,m,n=\\dfrac{a}{\\sqrt{a^2+b^2+c^2}},\\ \\dfrac{b}{\\sqrt{a^2+b^2+c^2}},\\ \\dfrac{c}{\\sqrt{a^2+b^2+c^2}}$.",
+    "$l=\\dfrac{a}{\\sqrt{a^2+b^2+c^2}}$, and $m$, $n$ come the same way from $b$ and $c$.",
     "Direction cosines obey $l^2+m^2+n^2=1$; direction ratios can be any proportional numbers."
    ],
    "prompt": "How do you turn direction ratios a, b, c into direction cosines?"

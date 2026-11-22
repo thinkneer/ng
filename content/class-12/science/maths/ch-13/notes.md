@@ -91,7 +91,7 @@ row: Meaning | one does not affect the chance of the other | they cannot happen 
 row: $P(A\cap B)$ | $P(A)\,P(B)$ | $0$
 row: $P(A\cup B)$ | $1-P(A')P(B')$ | $P(A)+P(B)$
 row: $P(A\mid B)$ | $P(A)$ | $0$
-row: Both at once? | not if $P(A),P(B)\ne0$ | not if $P(A),P(B)\ne0$
+row: Both at once? | possible | impossible
 ```
 
 ```ng-numerical
@@ -114,7 +114,7 @@ step: $P(A\cup B)={{p}}+{{q}}-{{p*q:2}}=$ **{{p+q-p*q:2}}**
 Often an event $A$ can happen through several routes. A ball can be red because it came from the first bag or from the second. If the routes $E_1,E_2,\dots,E_n$ are mutually exclusive and together cover every possibility (a **partition** of the sample space), add the probabilities of the routes.
 
 :::formula Theorem of total probability
-$$P(A)=P(E_1)P(A|E_1)+P(E_2)P(A|E_2)+\dots+P(E_n)P(A|E_n)$$
+$$\begin{aligned}P(A)&=P(E_1)P(A|E_1)\\&\quad+P(E_2)P(A|E_2)\\&\quad+\dots+P(E_n)P(A|E_n)\end{aligned}$$
 :::
 
 :::skeleton Worked example: two bags (2 marks)
@@ -132,7 +132,7 @@ $P(A)=\dfrac12\times\dfrac37+\dfrac12\times\dfrac{5}{11}=\dfrac{3}{14}+\dfrac{5}
 Total probability runs forward: from causes to the result. Bayes' theorem runs backward: the result has been seen, so which cause was it? In the two-bag example, the ball drawn *is* red; how likely is it that it came from Bag II?
 
 :::formula Bayes' theorem
-$$P(E_i|A)=\frac{P(E_i)\,P(A|E_i)}{P(E_1)P(A|E_1)+P(E_2)P(A|E_2)+\dots+P(E_n)P(A|E_n)}$$
+$$P(E_i|A)=\dfrac{P(E_i)\,P(A|E_i)}{\sum_{k=1}^{n}P(E_k)\,P(A|E_k)}$$
 :::
 
 The denominator is the total probability $P(A)$; the numerator is the one term of it that belongs to the cause you are asked about. For the bags, $P(E_2|A)=\dfrac{5/22}{34/77}=\dfrac{35}{68}$.
@@ -168,11 +168,11 @@ Let $E_1$, $E_2$, $E_3$: the bolt is made by machine A, B, C; and $D$: the bolt 
 
 $P(E_1)=0.25$, $P(E_2)=0.35$, $P(E_3)=0.40$; $P(D|E_1)=0.05$, $P(D|E_2)=0.04$, $P(D|E_3)=0.02$ [1]
 
-By Bayes' theorem, $P(E_2|D)=\dfrac{P(E_2)P(D|E_2)}{P(E_1)P(D|E_1)+P(E_2)P(D|E_2)+P(E_3)P(D|E_3)}$ [1]
+By Bayes' theorem, $P(E_2|D)=\dfrac{P(E_2)P(D|E_2)}{\sum_{k=1}^{3}P(E_k)P(D|E_k)}$ [1]
 
-$=\dfrac{0.35\times0.04}{0.25\times0.05+0.35\times0.04+0.40\times0.02}=\dfrac{0.0140}{0.0125+0.0140+0.0080}$ [1]
+where $0.25\times0.05=0.0125$, $0.35\times0.04=0.0140$ and $0.40\times0.02=0.0080$
 
-$=\dfrac{0.0140}{0.0345}=\boxed{\dfrac{28}{69}}$ [1]
+$\begin{aligned}&=\dfrac{0.35\times0.04}{0.0125+0.0140+0.0080}\\&=\dfrac{0.0140}{0.0345}=\boxed{\dfrac{28}{69}}\end{aligned}$ [2]
 :::
 
 Notice where the marks are: two of the five are for defining the events and listing the probabilities, before any calculation. Never skip those lines.
@@ -241,7 +241,7 @@ time: 3
 A **random variable** $X$ attaches a number to each outcome of an experiment: the number of heads, the number of aces, the sum on two dice. Its **probability distribution** lists every value $x_i$ it can take with the probability $p_i$ of that value. Every $p_i\ge0$, and the probabilities add up to 1.
 
 :::formula Mean of a random variable
-$$E(X)=\mu=\sum x_ip_i=x_1p_1+x_2p_2+\dots+x_np_n,\qquad\text{where }\sum p_i=1$$
+$$\begin{aligned}E(X)&=\mu=\sum x_ip_i\\&=x_1p_1+x_2p_2+\dots+x_np_n\\&\text{with }\textstyle\sum p_i=1\end{aligned}$$
 :::
 
 The mean (or expectation) is the long-run average value of $X$.
@@ -253,9 +253,11 @@ Let $X$ = number of aces; $X$ can be 0, 1 or 2 [½]
 
 $P(X=0)=\dfrac{48}{52}\times\dfrac{47}{51}=\dfrac{188}{221}$; $P(X=1)=2\times\dfrac{4}{52}\times\dfrac{48}{51}=\dfrac{32}{221}$; $P(X=2)=\dfrac{4}{52}\times\dfrac{3}{51}=\dfrac{1}{221}$ [1½]
 
-| $X$ | 0 | 1 | 2 |
-|---|---|---|---|
-| $P(X)$ | $\dfrac{188}{221}$ | $\dfrac{32}{221}$ | $\dfrac{1}{221}$ |
+| $X$ | $P(X)$ |
+|---|---|
+| 0 | $\tfrac{188}{221}$ |
+| 1 | $\tfrac{32}{221}$ |
+| 2 | $\tfrac{1}{221}$ |
 
 Mean $=\sum x_ip_i=0+\dfrac{32}{221}+\dfrac{2}{221}=\dfrac{34}{221}=\boxed{\dfrac{2}{13}}$ [1]
 :::
@@ -271,8 +273,12 @@ In the 2026–27 syllabus, only the mean of a random variable is required. Varia
 ```ng-fill
 id: fill-heads-distribution
 title: Number of heads in three tosses of a coin
-cols: $X$ | 0 | 1 | 2 | 3 | Mean
-row: $P(X)$ | [[$\dfrac18$]] | [[$\dfrac38$]] | [[$\dfrac38$]] | [[$\dfrac18$]] | [[$\dfrac32$]]
+cols: $X$ | $P(X)$
+row: 0 | [[$\dfrac18$]]
+row: 1 | [[$\dfrac38$]]
+row: 2 | [[$\dfrac38$]]
+row: 3 | [[$\dfrac18$]]
+row: Mean $\sum x_ip_i$ | [[$\dfrac32$]]
 ```
 
 **In one breath:** List the values of $X$ with their probabilities (total 1); the mean is $\sum x_ip_i$. Use "total = 1" to find an unknown $k$.

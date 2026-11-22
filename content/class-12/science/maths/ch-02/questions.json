@@ -404,5 +404,31 @@
   "topic": "Principal values",
   "hint": "$\\cos^{-1}$ of a negative number is $\\pi$ minus the positive case.",
   "source_note": "CBSE Class 12 Mathematics board paper 2026 (set 65/1/1), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers. Adapted: published copies differ on the outer function (tan or cot); tan is used here, as in two of the three copies checked. With cot the answer would be −√3."
+ },
+ {
+  "id": "maths-w20261122-ch-02-01",
+  "chapter": "ch-02",
+  "type": "vsa2",
+  "marks": 2,
+  "stars": 2,
+  "label": "PYQ-style",
+  "stem": "Find the value of $\\cos^{-1}\\left(\\cos\\dfrac{13\\pi}{6}\\right)+\\tan^{-1}\\left(\\tan\\dfrac{5\\pi}{4}\\right)$.",
+  "model_answer": "*How much to write: 4 lines · 3 minutes. Reduce each term to its own branch, then add.*\n\n$\\cos\\dfrac{13\\pi}{6}=\\cos\\left(2\\pi+\\dfrac\\pi6\\right)=\\dfrac{\\sqrt3}{2}$, and <u>$\\dfrac\\pi6$ lies in $[0,\\pi]$</u>, so <mark>$\\cos^{-1}\\left(\\cos\\dfrac{13\\pi}{6}\\right)=\\dfrac\\pi6$</mark><br>\n$\\tan\\dfrac{5\\pi}{4}=\\tan\\dfrac\\pi4=1$, and <u>$\\dfrac\\pi4$ lies in $\\left(-\\dfrac\\pi2,\\dfrac\\pi2\\right)$</u>, so $\\tan^{-1}\\left(\\tan\\dfrac{5\\pi}{4}\\right)=\\dfrac\\pi4$<br>\nSum $=\\dfrac\\pi6+\\dfrac\\pi4$\n\n$$\\boxed{\\dfrac{5\\pi}{12}}$$\n\n:::tip Your answer must contain\n- each angle reduced to a value inside its principal branch\n- the sum written as one fraction in radians\n:::\n\n**Marks are lost for:** cancelling $\\dfrac{13\\pi}{6}$ without reducing it first; giving the answer in degrees.",
+  "scheme": [
+   {
+    "step": "$\\cos^{-1}\\left(\\cos\\dfrac{13\\pi}{6}\\right)=\\cos^{-1}\\dfrac{\\sqrt3}{2}=\\dfrac\\pi6$ (value inside $[0,\\pi]$)",
+    "marks": 1
+   },
+   {
+    "step": "$\\tan^{-1}\\left(\\tan\\dfrac{5\\pi}{4}\\right)=\\tan^{-1}1=\\dfrac\\pi4$ (value inside the open interval)",
+    "marks": 0.5
+   },
+   {
+    "step": "Sum $=\\dfrac{5\\pi}{12}$",
+    "marks": 0.5
+   }
+  ],
+  "topic": "Principal value",
+  "hint": "Reduce each angle with $2\\pi$ for cos and $\\pi$ for tan, then check the branch before cancelling."
  }
 ]

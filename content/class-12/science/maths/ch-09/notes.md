@@ -29,11 +29,11 @@ prompt: How do you read the order and the degree of a differential equation?
 id: fill-order-degree
 title: Order and degree
 cols: Equation | Order | Degree
-row: $\dfrac{d^2y}{dx^2}+5\left(\dfrac{dy}{dx}\right)^3=0$ | [[2]] | [[1]]
-row: $\left(\dfrac{dy}{dx}\right)^2+y=x$ | [[1]] | [[2]]
-row: $\left(\dfrac{d^2y}{dx^2}\right)^3+\left(\dfrac{dy}{dx}\right)^4+y=0$ | [[2]] | [[3]]
-row: $\dfrac{dy}{dx}+\sin\left(\dfrac{dy}{dx}\right)=0$ | [[1]] | [[not defined]]
-row: Arbitrary constants in the general solution of an equation of order 3 | [[3]] | —
+row: $\tfrac{d^2y}{dx^2}+5\left(\tfrac{dy}{dx}\right)^3=0$ | [[2]] | [[1]]
+row: $\left(\tfrac{dy}{dx}\right)^2+y=x$ | [[1]] | [[2]]
+row: $\left(\tfrac{d^2y}{dx^2}\right)^3+\left(\tfrac{dy}{dx}\right)^4+y=0$ | [[2]] | [[3]]
+row: $\tfrac{dy}{dx}+\sin\left(\tfrac{dy}{dx}\right)=0$ | [[1]] | [[not defined]]
+row: Arbitrary constants (order 3) | [[3]] | —
 ```
 
 **In one breath:** Order = highest derivative; degree = its power when the equation is polynomial in derivatives. General solution has arbitrary constants; a particular solution uses the given condition to remove them.
@@ -43,7 +43,7 @@ row: Arbitrary constants in the general solution of an equation of order 3 | [[3
 If you can move everything involving $y$ (with $dy$) to one side and everything involving $x$ (with $dx$) to the other, integrate both sides and you are done.
 
 :::formula Variable separable
-$$f(y)\,dy=g(x)\,dx\ \Rightarrow\ \int f(y)\,dy=\int g(x)\,dx+C$$
+$$\begin{aligned}f(y)\,dy&=g(x)\,dx\\\Rightarrow\ \int f(y)\,dy&=\int g(x)\,dx+C\end{aligned}$$
 :::
 
 :::skeleton Worked example: general solution (3 marks)
@@ -232,9 +232,9 @@ Forming a differential equation from a given family of curves is not in the 2026
 id: three-types
 title: The three types at a glance
 cols: Variable separable | Homogeneous | Linear
-row: Looks like | $f(y)\,dy=g(x)\,dx$ after rearranging | $\dfrac{dy}{dx}=F\left(\dfrac yx\right)$; every term of the same degree | $\dfrac{dy}{dx}+Py=Q$; $y$ and $\dfrac{dy}{dx}$ to the first power
-row: Key step | separate, integrate both sides | put $y=vx$ | multiply by I.F. $=e^{\int P\,dx}$
-row: Mark not to miss | $+C$ on one side | show $F(\lambda x,\lambda y)=F(x,y)$ | standard form with $P$, $Q$ stated
+row: Looks like | $f(y)\,dy=g(x)\,dx$ | $\tfrac{dy}{dx}=F\left(\tfrac yx\right)$ | $\tfrac{dy}{dx}+Py=Q$
+row: Key step | separate, integrate | put $y=vx$ | × I.F. $e^{\int P\,dx}$
+row: Mark not to miss | $+C$ | $F(\lambda x,\lambda y)=F(x,y)$ | state $P$, $Q$
 ```
 
 **In one breath:** Separable first, homogeneous second, linear third. Name the type in your first line, then follow its routine.

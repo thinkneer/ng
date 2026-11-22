@@ -27,11 +27,11 @@ Test in this order: separable → homogeneous → linear in $y$ → linear in $x
 
 | $P$ | I.F. | $P$ | I.F. |
 |---|---|---|---|
-| $\dfrac1x$ | $x$ | $\cot x$ | $\sin x$ |
-| $\dfrac2x$ | $x^2$ | $\tan x$ | $\sec x$ |
-| $-\dfrac1x$ | $\dfrac1x$ | $2\tan x$ | $\sec^2x$ |
+| $\tfrac1x$ | $x$ | $\cot x$ | $\sin x$ |
+| $\tfrac2x$ | $x^2$ | $\tan x$ | $\sec x$ |
+| $-\tfrac1x$ | $\tfrac1x$ | $2\tan x$ | $\sec^2x$ |
 | $1$ | $e^x$ | $\sec^2x$ | $e^{\tan x}$ |
-| $\dfrac{2x}{1+x^2}$ | $1+x^2$ | $\dfrac{1}{x\log x}$ | $\log x$ |
+| $\tfrac{2x}{1+x^2}$ | $1+x^2$ | $\tfrac{1}{x\log x}$ | $\log x$ |
 
 Reason: $e^{\log f(x)}=f(x)$.
 
@@ -45,12 +45,12 @@ $\dfrac{dP}{dt}=kP\ \Rightarrow\ P=P_0e^{kt}$   (doubling time $=\dfrac{\log2}{k
 
 | Equation | Solution |
 |---|---|
-| $\dfrac{dy}{dx}+2y\tan x=\sin x$, $y\left(\frac\pi3\right)=0$ | $y=\cos x-2\cos^2x$ |
-| $\dfrac{dy}{dx}+y\cot x=4x\operatorname{cosec}x$, $y\left(\frac\pi2\right)=0$ | $y\sin x=2x^2-\dfrac{\pi^2}{2}$ |
-| $\cos^2x\dfrac{dy}{dx}+y=\tan x$ | $y=\tan x-1+Ce^{-\tan x}$ |
+| $\tfrac{dy}{dx}+2y\tan x=\sin x$; $y\left(\tfrac\pi3\right)=0$ | $y=\cos x-2\cos^2x$ |
+| $\tfrac{dy}{dx}+y\cot x=4x\operatorname{cosec}x$, $y\left(\tfrac\pi2\right)=0$ | $y\sin x=2x^2-\tfrac{\pi^2}{2}$ |
+| $\cos^2x\tfrac{dy}{dx}+y=\tan x$ | $y=\tan x-1+Ce^{-\tan x}$ |
 | $(1+x^2)\,dy+2xy\,dx=\cot x\,dx$ | $y(1+x^2)=\log\lvert\sin x\rvert+C$ |
 | $y\,dx-(x+2y^2)\,dy=0$ | $x=2y^2+Cy$ |
-| $x\dfrac{dy}{dx}=y-x\tan\dfrac yx$ | $x\sin\dfrac yx=C$ |
+| $x\tfrac{dy}{dx}=y-x\tan\tfrac yx$ | $x\sin\tfrac yx=C$ |
 | $x\,dy-y\,dx=\sqrt{x^2+y^2}\,dx$ | $y+\sqrt{x^2+y^2}=Cx^2$ |
 | $(x^2-y^2)\,dx+2xy\,dy=0$ | $x^2+y^2=Cx$ |
 | $e^x\tan y\,dx+(1-e^x)\sec^2y\,dy=0$ | $\tan y=C(1-e^x)$ |

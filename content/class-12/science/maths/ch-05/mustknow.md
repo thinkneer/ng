@@ -118,17 +118,17 @@ LHD with $h\to0^-$ [1] → RHD with $h\to0^+$ [½] → compare and conclude [½]
 - $\dfrac{\sin3x}{x}$ continuous at 0 needs: $f(0)=3$.
 - $\dfrac{x^2-9}{x-3}$ continuous at 3 needs: $f(3)=6$.
 - $|x-1|+|x-2|$ is not differentiable at: $x=1$ and $x=2$.
-- $\dfrac{d}{dx}\log(\log x)$: $\dfrac{1}{x\log x}$.
-- $\dfrac{d}{dx}e^{\log x}$: $1$, because $e^{\log x}=x$.
-- $\dfrac{d}{dx}\left(\sin^{-1}x+\cos^{-1}x\right)$: $0$, because the sum is the constant $\dfrac\pi2$.
-- $\dfrac{d}{dx}\log(\sec x+\tan x)$: $\sec x$.
+- Derivative of $\log(\log x)$: $\dfrac{1}{x\log x}$.
+- Derivative of $e^{\log x}$: $1$, because $e^{\log x}=x$.
+- Derivative of $\left(\sin^{-1}x+\cos^{-1}x\right)$: $0$, because the sum is the constant $\dfrac\pi2$.
+- Derivative of $\log(\sec x+\tan x)$: $\sec x$.
 - Derivative of $\sin x$ with respect to $\cos x$: $-\cot x$.
 - Derivative of $x^2$ with respect to $x^3$: $\dfrac{2}{3x}$.
 - For $x=at^2$, $y=2at$, $\dfrac{dy}{dx}$: $\dfrac1t$.
 - For $x=at^2$, $y=2at$, $\dfrac{d^2y}{dx^2}$: $-\dfrac{1}{2at^3}$.
 - If $y=A\sin x+B\cos x$, then: $y_2+y=0$.
-- $\dfrac{d}{dx}\tan^{-1}\dfrac{1+x}{1-x}$: $\dfrac{1}{1+x^2}$.
-- $\dfrac{d}{dx}\sin^{-1}\dfrac{2x}{1+x^2}$ for $|x|<1$: $\dfrac{2}{1+x^2}$.
+- Derivative of $\tan^{-1}\dfrac{1+x}{1-x}$: $\dfrac{1}{1+x^2}$.
+- Derivative of $\sin^{-1}\dfrac{2x}{1+x^2}$ for $|x|<1$: $\dfrac{2}{1+x^2}$.
 
 ## Mark-losing traps
 

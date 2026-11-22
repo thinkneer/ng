@@ -65,7 +65,7 @@ $d=\dfrac{|\vec b\times(\vec a_2-\vec a_1)|}{|\vec b|}$
 :::
 
 :::formula Direction cosines from direction ratios $a$, $b$, $c$
-$\pm\dfrac{a}{\sqrt{a^2+b^2+c^2}},\ \pm\dfrac{b}{\sqrt{a^2+b^2+c^2}},\ \pm\dfrac{c}{\sqrt{a^2+b^2+c^2}}$
+$$\begin{gathered}\pm\dfrac{a}{s}\quad\pm\dfrac{b}{s}\quad\pm\dfrac{c}{s}\\ s=\sqrt{a^2+b^2+c^2}\end{gathered}$$
 :::
 
 ## Answer skeletons

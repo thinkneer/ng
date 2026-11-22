@@ -60,7 +60,7 @@
     "legend": [
       "P, Q = functions of x only"
     ],
-    "back": "Coefficient of $\\dfrac{dy}{dx}$ must be 1 before you read $P$. Simplify: $e^{\\log x}=x$, $e^{2\\log x}=x^2$, $e^{-\\log x}=\\dfrac1x$.",
+    "back": "Coefficient of $\\dfrac{dy}{dx}$ must be 1 before reading $P$. Simplify: $e^{\\log x}=x$, $e^{-\\log x}=\\dfrac1x$.",
     "stars": 3
   },
   {

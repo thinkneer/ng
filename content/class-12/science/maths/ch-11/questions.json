@@ -511,5 +511,31 @@
   "topic": "Intersecting lines",
   "hint": "Not proportional, so not parallel. Then equate general points.",
   "source_note": "CBSE Class 12 Mathematics board paper 2026 (set 65/1/1), reworded in our own words with our own answers. Official paper: cbse.gov.in → Question papers."
+ },
+ {
+  "id": "maths-w20261122-ch-11-01",
+  "chapter": "ch-11",
+  "type": "sa3",
+  "marks": 3,
+  "stars": 2,
+  "label": "PYQ-style",
+  "stem": "Find the foot of the perpendicular from the point $P(4,6,-1)$ to the line $\\dfrac{x-1}{2}=\\dfrac{y-2}{3}=\\dfrac{z-3}{1}$. Hence find the length of the perpendicular.",
+  "model_answer": "*How much to write: about 8 lines · 6 minutes.*\n\n**Given:** $P(4,6,-1)$; the line passes through $A(1,2,3)$ with direction $\\vec b=2\\hat i+3\\hat j+\\hat k$<br>\n**To find:** <u>the foot $F$</u> and the length $PF$\n\nLet $F=(1+2\\lambda,\\ 2+3\\lambda,\\ 3+\\lambda)$ be a point on the line. Then\n\n$$\\overrightarrow{PF}=(2\\lambda-3)\\hat i+(3\\lambda-4)\\hat j+(\\lambda+4)\\hat k$$\n\n<u>$\\overrightarrow{PF}$ is perpendicular to the line</u>, so $\\overrightarrow{PF}\\cdot\\vec b=0$:\n\n$$\\begin{aligned}2(2\\lambda-3)+3(3\\lambda-4)&+(\\lambda+4)\\\\&=14\\lambda-14=0\\\\\\Rightarrow\\quad\\lambda&=1\\end{aligned}$$\n\n<mark>The foot is $F=(3,5,4)$</mark>, and $\\overrightarrow{PF}=-\\hat i-\\hat j+5\\hat k$.\n\n$PF=\\sqrt{1^2+1^2+5^2}=\\sqrt{27}$, so $\\boxed{PF=3\\sqrt3\\ \\text{units}}$\n\n:::tip Your answer must contain\n- the foot written with one parameter $\\lambda$\n- the perpendicular condition $\\overrightarrow{PF}\\cdot\\vec b=0$\n- the foot $F=(3,5,4)$\n- the length with its unit\n:::\n\n**Marks are lost for:** taking the dot product with $P$ itself instead of $\\overrightarrow{PF}$; stopping at $\\lambda=1$ without writing the foot; no unit.",
+  "scheme": [
+   {
+    "step": "$F=(1+2\\lambda,2+3\\lambda,3+\\lambda)$; $\\overrightarrow{PF}=(2\\lambda-3)\\hat i+(3\\lambda-4)\\hat j+(\\lambda+4)\\hat k$",
+    "marks": 1
+   },
+   {
+    "step": "$\\overrightarrow{PF}\\cdot(2\\hat i+3\\hat j+\\hat k)=14\\lambda-14=0$, so $\\lambda=1$",
+    "marks": 1
+   },
+   {
+    "step": "$F=(3,5,4)$; $PF=\\sqrt{27}=3\\sqrt3$ units",
+    "marks": 1
+   }
+  ],
+  "topic": "Foot of perpendicular from a point to a line",
+  "hint": "Write the foot with one parameter, then make the line from $P$ to the foot perpendicular to the line."
  }
 ]

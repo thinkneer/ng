@@ -14,8 +14,8 @@ Type tags: `S` solve · `W` word problem · `MCQ` 1-mark objective / A–R · `C
 
 ## Must-know lines and definitions
 
-- **Order:** order of the highest derivative in the equation.
-- **Degree:** power of the highest-order derivative, when the equation is polynomial in derivatives.
+- **Order of an equation:** order of the highest derivative in the equation.
+- **Degree of an equation:** power of the highest-order derivative, when the equation is polynomial in derivatives.
 - **Degree not defined:** when a derivative is inside $\sin$, $\cos$, $\log$ or an exponent.
 - **General solution:** contains as many arbitrary constants as the order.
 - **Particular solution:** contains no arbitrary constants.
@@ -110,8 +110,8 @@ $\dfrac{dN}{dt}=kN$ from the sentence → $N=N_0e^{kt}$ → use the first readin
 ## Quick 1-mark facts (MCQ, A–R)
 
 - $\left(\dfrac{d^2y}{dx^2}\right)^3+\left(\dfrac{dy}{dx}\right)^4+y=0$: order 2, degree 3.
-- $y''+\sin(y')=0$: order 2, degree not defined.
-- $\left[1+(y')^2\right]^{3/2}=y''$: order 2, degree 2 (after squaring).
+- Order and degree of $y''+\sin(y')=0$: order 2, degree not defined.
+- Order and degree of $\left[1+(y')^2\right]^{3/2}=y''$: order 2, degree 2 (after squaring).
 - Arbitrary constants in the general solution of a 4th-order equation: four.
 - Arbitrary constants in a particular solution: none (zero).
 - I.F. of $x\dfrac{dy}{dx}-y=x^4-3x$: $\dfrac1x$.

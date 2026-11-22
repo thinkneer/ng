@@ -100,7 +100,7 @@
     "kind": "formula",
     "title": "Parametric: second derivative",
     "tex": "\\dfrac{d^2y}{dx^2}=\\dfrac{d}{dt}\\left(\\dfrac{dy}{dx}\\right)\\cdot\\dfrac{dt}{dx}",
-    "back": "Not $\\dfrac{d^2y/dt^2}{d^2x/dt^2}$. Differentiate $\\dfrac{dy}{dx}$ with respect to $t$ and divide by $\\dfrac{dx}{dt}$.",
+    "back": "Not (d²y/dt²) ÷ (d²x/dt²). Differentiate dy/dx with respect to t, then divide by dx/dt.",
     "stars": 3,
     "tags": [
       "trap"

@@ -24,7 +24,7 @@ A line equally inclined to the three axes has $l=m=n$, so $3l^2=1$ and each dire
 id: ratios-to-cosines
 title: Direction ratios to direction cosines
 trick: **Divide by the root of the sum of squares**
-meaning: $l,m,n=\dfrac{a}{\sqrt{a^2+b^2+c^2}},\ \dfrac{b}{\sqrt{a^2+b^2+c^2}},\ \dfrac{c}{\sqrt{a^2+b^2+c^2}}$.
+meaning: $l=\dfrac{a}{\sqrt{a^2+b^2+c^2}}$, and $m$, $n$ come the same way from $b$ and $c$.
 meaning: Direction cosines obey $l^2+m^2+n^2=1$; direction ratios can be any proportional numbers.
 prompt: How do you turn direction ratios a, b, c into direction cosines?
 ```
@@ -86,7 +86,9 @@ row: $\vec r=(2\hat i-\hat j)+\lambda(\hat i+\hat j-3\hat k)$ | [[$(2,-1,0)$]] |
 The angle between two lines is the angle between their directions, so only $\vec b_1$ and $\vec b_2$ matter. The angle is taken to be acute, hence the modulus.
 
 :::formula Angle between two lines
-$$\cos\theta=\frac{|\vec b_1\cdot\vec b_2|}{|\vec b_1||\vec b_2|}=\frac{|a_1a_2+b_1b_2+c_1c_2|}{\sqrt{a_1^2+b_1^2+c_1^2}\,\sqrt{a_2^2+b_2^2+c_2^2}}$$
+$$\cos\theta=\frac{|\vec b_1\cdot\vec b_2|}{|\vec b_1|\,|\vec b_2|}$$
+
+$$\cos\theta=\frac{|a_1a_2+b_1b_2+c_1c_2|}{\sqrt{a_1^2+b_1^2+c_1^2}\,\sqrt{a_2^2+b_2^2+c_2^2}}$$
 Perpendicular lines: $a_1a_2+b_1b_2+c_1c_2=0$   Parallel lines: $\dfrac{a_1}{a_2}=\dfrac{b_1}{b_2}=\dfrac{c_1}{c_2}$
 :::
 

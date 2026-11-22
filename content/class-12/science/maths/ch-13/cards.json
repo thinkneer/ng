@@ -4,7 +4,7 @@
     "kind": "figure",
     "title": "Probability tree for Bayes' theorem",
     "svg": "ref: notes#ch13-bayes-tree",
-    "back": "Multiply along a path; add the paths ending in $D$ to get $P(D)=0.0345$. $P(B\\mid D)=\\dfrac{0.35\\times0.04}{0.0345}=\\dfrac{28}{69}$: my path ÷ all paths.",
+    "back": "Multiply along a path. $P(D)$ is the sum of the paths ending in $D$, here $0.0345$. $P(B\\mid D)$ = path through $B$ ÷ $P(D)$.",
     "stars": 3,
     "tags": [
       "diagram",

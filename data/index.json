@@ -1833,11 +1833,11 @@
                       },
                       "marks_hint": "about 3 marks in the 2026–27 sample paper (Unit I: 8)",
                       "summary": "Principal value branches · domain and range · principal values · simplification by substitution",
-                      "questions": 17,
+                      "questions": 18,
                       "question_types": {
                         "mcq": 7,
                         "ar": 2,
-                        "vsa2": 6,
+                        "vsa2": 7,
                         "sa3": 1,
                         "case": 1
                       },
@@ -1849,7 +1849,7 @@
                         "steps": 1,
                         "numerical": 1
                       },
-                      "words": 1766,
+                      "words": 1790,
                       "read_minutes": 5,
                       "cards": 10,
                       "mnemonics": 2
@@ -1978,7 +1978,7 @@
                         "steps": 1,
                         "derive": 1
                       },
-                      "words": 2251,
+                      "words": 2263,
                       "read_minutes": 6,
                       "cards": 11,
                       "mnemonics": 2
@@ -2108,13 +2108,13 @@
                       },
                       "marks_hint": "about 5 marks in the 2026–27 sample paper (Unit III Calculus: 35)",
                       "summary": "Order and degree · variable separable · homogeneous · linear first-order equations · particular solutions",
-                      "questions": 18,
+                      "questions": 20,
                       "question_types": {
                         "mcq": 8,
                         "ar": 2,
                         "vsa2": 2,
-                        "sa3": 4,
-                        "la5": 1,
+                        "sa3": 5,
+                        "la5": 2,
                         "case": 1
                       },
                       "diagrams": [],
@@ -2127,7 +2127,7 @@
                         "derive": 1,
                         "compare": 1
                       },
-                      "words": 2028,
+                      "words": 2041,
                       "read_minutes": 5,
                       "cards": 10,
                       "mnemonics": 2
@@ -2192,12 +2192,12 @@
                       },
                       "marks_hint": "about 9 marks in the 2026–27 sample paper (Unit IV: 14)",
                       "summary": "Direction cosines and ratios · equation of a line · angle between lines · shortest distance · foot of perpendicular and image",
-                      "questions": 20,
+                      "questions": 21,
                       "question_types": {
                         "mcq": 6,
                         "ar": 3,
                         "vsa2": 2,
-                        "sa3": 4,
+                        "sa3": 5,
                         "la5": 4,
                         "case": 1
                       },
@@ -2285,14 +2285,14 @@
                       },
                       "marks_hint": "8 marks (Unit VI)",
                       "summary": "Conditional probability · multiplication theorem · independent events · total probability · Bayes' theorem · random variable and its mean",
-                      "questions": 22,
+                      "questions": 24,
                       "question_types": {
-                        "mcq": 5,
+                        "mcq": 6,
                         "ar": 3,
                         "vsa2": 2,
                         "sa3": 7,
                         "la5": 2,
-                        "case": 3
+                        "case": 4
                       },
                       "diagrams": [],
                       "blocks": {
@@ -2304,7 +2304,7 @@
                         "draw": 1,
                         "fill": 1
                       },
-                      "words": 2272,
+                      "words": 2277,
                       "read_minutes": 7,
                       "cards": 10,
                       "mnemonics": 2
