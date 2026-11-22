@@ -1,0 +1,319 @@
+[
+ {
+  "id": "maths10-03-q01",
+  "chapter": "ch-03",
+  "type": "mcq",
+  "marks": 1,
+  "stem": "The pair of equations $6x-3y+10=0$ and $2x-y+9=0$ represents two lines which are",
+  "options": [
+   "intersecting at exactly one point",
+   "intersecting at exactly two points",
+   "coincident",
+   "parallel"
+  ],
+  "answer": "D",
+  "model_answer": "**(d).** $\\dfrac{a_1}{a_2}=\\dfrac62=3$, $\\dfrac{b_1}{b_2}=\\dfrac{-3}{-1}=3$, $\\dfrac{c_1}{c_2}=\\dfrac{10}{9}$. The first two are equal and the third differs: parallel lines.",
+  "stars": 3,
+  "label": "NCERT-based",
+  "topic": "Consistency",
+  "hint": "Compare the three ratios."
+ },
+ {
+  "id": "maths10-03-q02",
+  "chapter": "ch-03",
+  "type": "mcq",
+  "marks": 1,
+  "stem": "The pair $x+2y=3$, $5x+ky+7=0$ has a unique solution if",
+  "options": [
+   "$k=10$",
+   "$k\\ne10$",
+   "$k=-10$",
+   "$k\\ne-10$"
+  ],
+  "answer": "B",
+  "model_answer": "**(b).** Unique solution needs $\\dfrac15\\ne\\dfrac2k$, that is $k\\ne10$.",
+  "stars": 3,
+  "label": "PYQ-style",
+  "topic": "Consistency",
+  "hint": "Only the first two ratios matter for a unique solution."
+ },
+ {
+  "id": "maths10-03-q03",
+  "chapter": "ch-03",
+  "type": "mcq",
+  "marks": 1,
+  "stem": "The lines $x=a$ and $y=b$ are",
+  "options": [
+   "parallel",
+   "coincident",
+   "intersecting at $(a,b)$",
+   "intersecting at $(b,a)$"
+  ],
+  "answer": "C",
+  "model_answer": "**(c).** $x=a$ is a vertical line and $y=b$ a horizontal line; they meet at the point $(a,b)$.",
+  "stars": 2,
+  "label": "PYQ-style",
+  "topic": "Graphs of lines",
+  "hint": "One line is vertical, the other horizontal."
+ },
+ {
+  "id": "maths10-03-q04",
+  "chapter": "ch-03",
+  "type": "mcq",
+  "marks": 1,
+  "stem": "A pair of linear equations is called consistent if it has",
+  "options": [
+   "no solution",
+   "at least one solution",
+   "exactly two solutions",
+   "only infinitely many solutions"
+  ],
+  "answer": "B",
+  "model_answer": "**(b).** Consistent means the pair has a solution: one (intersecting lines) or infinitely many (coincident lines).",
+  "stars": 2,
+  "label": "PYQ-style",
+  "topic": "Terminology",
+  "hint": "Both intersecting and coincident lines count."
+ },
+ {
+  "id": "maths10-03-q05",
+  "chapter": "ch-03",
+  "type": "mcq",
+  "marks": 1,
+  "stem": "The solution of the pair $x+y=5$ and $x-y=1$ is",
+  "options": [
+   "$x=2,\\ y=3$",
+   "$x=4,\\ y=1$",
+   "$x=3,\\ y=2$",
+   "$x=1,\\ y=4$"
+  ],
+  "answer": "C",
+  "model_answer": "**(c).** Adding: $2x=6$, so $x=3$ and $y=2$.",
+  "stars": 2,
+  "label": "PYQ-style",
+  "topic": "Elimination",
+  "hint": "Add the two equations."
+ },
+ {
+  "id": "maths10-03-q06",
+  "chapter": "ch-03",
+  "type": "ar",
+  "marks": 1,
+  "stem": "**Assertion (A):** The pair of equations $x+y=5$ and $2x+2y=10$ has infinitely many solutions.<br>**Reason (R):** If $\\dfrac{a_1}{a_2}=\\dfrac{b_1}{b_2}=\\dfrac{c_1}{c_2}$, the two lines coincide.",
+  "options": [
+   "Both A and R are true, and R is the correct explanation of A.",
+   "Both A and R are true, but R is not the correct explanation of A.",
+   "A is true, but R is false.",
+   "A is false, but R is true."
+  ],
+  "answer": "A",
+  "model_answer": "**(a).** Here all three ratios equal $\\dfrac12$, so the lines coincide and every point on the line is a solution. R explains A.",
+  "stars": 2,
+  "label": "PYQ-style",
+  "topic": "Consistency",
+  "hint": "Is the second equation just twice the first?"
+ },
+ {
+  "id": "maths10-03-q07",
+  "chapter": "ch-03",
+  "type": "ar",
+  "marks": 1,
+  "stem": "**Assertion (A):** The pair of equations $2x+3y=5$ and $4x+6y=9$ is consistent.<br>**Reason (R):** If $\\dfrac{a_1}{a_2}=\\dfrac{b_1}{b_2}\\ne\\dfrac{c_1}{c_2}$, the two lines are parallel.",
+  "options": [
+   "Both A and R are true, and R is the correct explanation of A.",
+   "Both A and R are true, but R is not the correct explanation of A.",
+   "A is true, but R is false.",
+   "A is false, but R is true."
+  ],
+  "answer": "D",
+  "model_answer": "**(d).** $\\dfrac24=\\dfrac36=\\dfrac12$ but $\\dfrac59\\ne\\dfrac12$: the lines are parallel, so the pair is inconsistent. A is false; R is true.",
+  "stars": 3,
+  "label": "PYQ-style",
+  "topic": "Consistency",
+  "hint": "Work out all three ratios."
+ },
+ {
+  "id": "maths10-03-q08",
+  "chapter": "ch-03",
+  "type": "vsa2",
+  "marks": 2,
+  "stem": "Solve by substitution: $3x+4y=10$ and $2x-2y=2$.",
+  "model_answer": "*How much to write: about 5 lines · 3 minutes.*\n\nFrom the second equation: $x-y=1$, so <mark>$x=y+1$</mark>.\n\nSubstitute in the first: $3(y+1)+4y=10\\Rightarrow7y=7\\Rightarrow y=1$, and $x=2$.\n\n$$\\boxed{x=2,\\quad y=1}$$\n\n:::tip Your answer must contain\n- the substitution line\n- both values\n:::\n\n**Marks are lost for:** stopping after finding one variable.",
+  "scheme": [
+   {
+    "step": "$x=y+1$ and substitution",
+    "marks": 1
+   },
+   {
+    "step": "$x=2$, $y=1$",
+    "marks": 1
+   }
+  ],
+  "stars": 2,
+  "label": "NCERT-based",
+  "topic": "Substitution",
+  "hint": "Simplify the second equation first."
+ },
+ {
+  "id": "maths10-03-q09",
+  "chapter": "ch-03",
+  "type": "vsa2",
+  "marks": 2,
+  "stem": "Find the value of $k$ for which the pair $2x+3y=7$, $(k-1)x+(k+2)y=3k$ has infinitely many solutions.",
+  "model_answer": "*How much to write: about 5 lines · 3 minutes.*\n\nFor infinitely many solutions: <mark>$\\dfrac{2}{k-1}=\\dfrac{3}{k+2}=\\dfrac{7}{3k}$</mark>\n\nFrom the first two: $2k+4=3k-3\\Rightarrow k=7$. Check with the third: $\\dfrac{3}{9}=\\dfrac13$ and $\\dfrac{7}{21}=\\dfrac13$. ✓\n\n$$\\boxed{k=7}$$\n\n:::tip Your answer must contain\n- the condition\n- the check with the third ratio\n:::\n\n**Marks are lost for:** using only two ratios and not checking the third.",
+  "scheme": [
+   {
+    "step": "Condition with all three ratios",
+    "marks": 1
+   },
+   {
+    "step": "$k=7$, checked in the third ratio",
+    "marks": 1
+   }
+  ],
+  "stars": 3,
+  "label": "NCERT-based",
+  "topic": "Consistency",
+  "hint": "All three ratios must be equal."
+ },
+ {
+  "id": "maths10-03-q10",
+  "chapter": "ch-03",
+  "type": "sa3",
+  "marks": 3,
+  "stem": "Five years ago, a father was three times as old as his son. Ten years from now, the father will be twice as old as his son. Find their present ages.",
+  "model_answer": "*How much to write: about 9 lines · 5 minutes.*\n\nLet the present ages of the father and the son be $x$ and $y$ years.\n\nFive years ago: $x-5=3(y-5)\\Rightarrow x-3y=-10$ … (1). Ten years later: $x+10=2(y+10)\\Rightarrow x-2y=10$ … (2)\n\n(2) − (1): <mark>$y=20$</mark>. Then $x=2(20)+10=50$.\n\n$$\\boxed{\\text{father }50\\text{ years},\\ \\text{son }20\\text{ years}}$$\n\n:::tip Your answer must contain\n- 'Let … be x and y'\n- one equation from each sentence\n- the answer in words\n:::\n\n**Marks are lost for:** writing $x-5=3y-5$: the bracket matters.",
+  "scheme": [
+   {
+    "step": "Unknowns and both equations",
+    "marks": 1
+   },
+   {
+    "step": "Solved: $y=20$, $x=50$",
+    "marks": 1
+   },
+   {
+    "step": "Answer in words",
+    "marks": 1
+   }
+  ],
+  "stars": 3,
+  "label": "NCERT-based",
+  "topic": "Word problems: ages",
+  "hint": "Five years ago both ages drop by 5; ten years later both rise by 10."
+ },
+ {
+  "id": "maths10-03-q11",
+  "chapter": "ch-03",
+  "type": "sa3",
+  "marks": 3,
+  "stem": "A fraction becomes $\\dfrac{9}{11}$ if 2 is added to both its numerator and its denominator. If 3 is added to both, it becomes $\\dfrac56$. Find the fraction.",
+  "model_answer": "*How much to write: about 9 lines · 5 minutes.*\n\nLet the fraction be $\\dfrac xy$.\n\n$\\dfrac{x+2}{y+2}=\\dfrac{9}{11}\\Rightarrow11x-9y=-4$ … (1). $\\ \\dfrac{x+3}{y+3}=\\dfrac56\\Rightarrow6x-5y=-3$ … (2)\n\n(1) × 5 and (2) × 9: $55x-45y=-20$ and $54x-45y=-27$. Subtracting: <mark>$x=7$</mark>. Then $9y=77+4$, so $y=9$.\n\n$$\\boxed{\\dfrac79}$$\n\n:::tip Your answer must contain\n- the fraction named $\\dfrac xy$\n- cross-multiplication of each condition\n- the fraction, not just $x$ and $y$\n:::\n\n**Marks are lost for:** cross-multiplying wrongly: $11(x+2)=9(y+2)$.",
+  "scheme": [
+   {
+    "step": "Both equations formed",
+    "marks": 1
+   },
+   {
+    "step": "Solved: $x=7$, $y=9$",
+    "marks": 1
+   },
+   {
+    "step": "Fraction $\\dfrac79$",
+    "marks": 1
+   }
+  ],
+  "stars": 3,
+  "label": "NCERT-based",
+  "topic": "Word problems: fractions",
+  "hint": "Cross-multiply each condition to get a linear equation."
+ },
+ {
+  "id": "maths10-03-q12",
+  "chapter": "ch-03",
+  "type": "la5",
+  "marks": 5,
+  "stem": "Draw the graphs of $x-y+1=0$ and $3x+2y-12=0$. Find the coordinates of the vertices of the triangle formed by these lines and the $x$-axis, and find its area.",
+  "model_answer": "*How much to write: about 15 lines · 9 minutes.*\n\n$x-y+1=0$, that is $y=x+1$: points $(0,1)$, $(2,3)$, $(-1,0)$. $\\ 3x+2y=12$: points $(0,6)$, $(2,3)$, $(4,0)$.\n\n<figure class=\"fig\">\n<svg viewBox=\"0 0 296 244\" role=\"img\" aria-label=\"Lines x − y + 1 = 0 and 3x + 2y = 12 with the triangle they form with the x-axis shaded\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.4\"><path d=\"M46,218.0 H282.0 M114,226.0 V18.0\" stroke-width=\"1\"/><text x=\"288\" y=\"222\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">x</text><text x=\"112\" y=\"16\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">y</text><polygon points=\"84.0,218.0 234.0,218.0 174.0,128.0\" fill=\"#E0B400\" fill-opacity=\"0.28\" stroke=\"none\"/><path d=\"M66.0,236.0 L252.0,50.0\"/><text x=\"252\" y=\"38\" font-size=\"10\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">x − y + 1 = 0</text><path d=\"M114.0,38.0 L252.0,245.0\"/><text x=\"153\" y=\"41\" font-size=\"10\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">3x + 2y = 12</text><circle cx=\"84.0\" cy=\"218.0\" r=\"2.6\" fill=\"currentColor\"/><text x=\"78\" y=\"232\" font-size=\"10\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">(−1, 0)</text><circle cx=\"234.0\" cy=\"218.0\" r=\"2.6\" fill=\"currentColor\"/><text x=\"236\" y=\"232\" font-size=\"10\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">(4, 0)</text><circle cx=\"174.0\" cy=\"128.0\" r=\"2.6\" fill=\"currentColor\"/><text x=\"200\" y=\"130\" font-size=\"10\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">(2, 3)</text></svg>\n<figcaption>The two lines and the triangle they form with the $x$-axis (shaded).</figcaption>\n</figure>\n\nThe lines intersect at <mark>$(2,3)$</mark> and cut the $x$-axis at $(-1,0)$ and $(4,0)$.\n\nTriangle: base on the $x$-axis $=4-(-1)=5$ units, height $=3$ units. Area $=\\dfrac12\\times5\\times3$\n\n$$\\boxed{\\text{area}=7.5\\ \\text{sq. units}}$$\n\n:::tip Your answer must contain\n- two tables of points\n- a labelled graph with the triangle shaded\n- all three vertices\n- base × height ÷ 2\n:::\n\n**Marks are lost for:** taking the base as 4 units by forgetting the point $(-1,0)$.",
+  "scheme": [
+   {
+    "step": "Table of points for the first line",
+    "marks": 1
+   },
+   {
+    "step": "Table of points for the second line",
+    "marks": 1
+   },
+   {
+    "step": "Both lines drawn and labelled",
+    "marks": 1
+   },
+   {
+    "step": "Vertices $(2,3)$, $(-1,0)$, $(4,0)$",
+    "marks": 1
+   },
+   {
+    "step": "Area 7.5 sq. units",
+    "marks": 1
+   }
+  ],
+  "stars": 3,
+  "label": "NCERT-based",
+  "topic": "Graphical method",
+  "hint": "Find where each line cuts the x-axis (put y = 0)."
+ },
+ {
+  "id": "maths10-03-q13",
+  "chapter": "ch-03",
+  "type": "case",
+  "marks": 4,
+  "stem": "**Taxi fares.** In a city, the taxi fare is a fixed charge plus a charge for each kilometre travelled. A ride of 10 km costs ₹105 and a ride of 15 km costs ₹155. Let the fixed charge be ₹$x$ and the charge per kilometre be ₹$y$.",
+  "parts": [
+   {
+    "id": "i",
+    "stem": "Write the pair of linear equations for this situation.",
+    "marks": 1,
+    "model_answer": "$x+10y=105$ and $x+15y=155$.",
+    "scheme": [
+     {
+      "step": "$x+10y=105$, $x+15y=155$",
+      "marks": 1
+     }
+    ]
+   },
+   {
+    "id": "ii",
+    "stem": "Find the charge per kilometre.",
+    "marks": 1,
+    "model_answer": "Subtracting: $5y=50$, so $y=10$. The charge is ₹10 per km.",
+    "scheme": [
+     {
+      "step": "₹10 per km",
+      "marks": 1
+     }
+    ]
+   },
+   {
+    "id": "iii",
+    "stem": "Find the fixed charge, and the fare for a ride of 25 km.<br>**OR** Find the fixed charge, and the distance travelled for a fare of ₹205.",
+    "marks": 2,
+    "model_answer": "$x=105-100=5$: the fixed charge is ₹5. Fare for 25 km $=5+25\\times10=$ ₹255.<br>**OR:** fixed charge ₹5; $5+10n=205\\Rightarrow n=20$ km.",
+    "scheme": [
+     {
+      "step": "Fixed charge ₹5",
+      "marks": 1
+     },
+     {
+      "step": "₹255 (OR: 20 km)",
+      "marks": 1
+     }
+    ]
+   }
+  ],
+  "model_answer": "*How much to write: about 8 lines · 6 minutes in all.*\n\n**(i)** $x+10y=105$ … (1), $x+15y=155$ … (2)\n\n**(ii)** (2) − (1): $5y=50$, so <mark>$y=10$</mark>: ₹10 per km.\n\n**(iii)** From (1): $x=5$, a <u>fixed charge</u> of ₹5.\n\n$$\\boxed{\\text{fare (25 km)}=255\\ \\text{rupees}}$$\n\n**OR:** $5+10n=205$ gives $n=20$ km.\n\n:::tip Your answer must contain\n- both equations\n- the subtraction step\n- answers with ₹ or km\n:::\n\n**Marks are lost for:** mixing up the fixed charge and the rate.",
+  "stars": 3,
+  "label": "PYQ-style",
+  "topic": "Fixed charge plus rate",
+  "hint": "Fare = fixed charge + (km × rate)."
+ }
+]

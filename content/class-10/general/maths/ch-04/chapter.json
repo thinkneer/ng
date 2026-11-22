@@ -1,0 +1,16 @@
+{
+  "$schema": "../../../../../schemas/chapter.schema.json",
+  "id": "ch-04",
+  "number": 4,
+  "title": "Quadratic Equations",
+  "unit": "II",
+  "marks_hint": "Unit II Algebra: 20 marks in all (four chapters)",
+  "summary": "Standard form · factorisation · quadratic formula · discriminant and nature of roots · word problems",
+  "status": {
+    "notes": "ready",
+    "mustknow": "ready",
+    "formulas": "ready",
+    "questions": "ready"
+  },
+  "updated": "2026-11-23"
+}

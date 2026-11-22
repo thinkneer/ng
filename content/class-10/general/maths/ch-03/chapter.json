@@ -1,0 +1,16 @@
+{
+  "$schema": "../../../../../schemas/chapter.schema.json",
+  "id": "ch-03",
+  "number": 3,
+  "title": "Pair of Linear Equations in Two Variables",
+  "unit": "II",
+  "marks_hint": "Unit II Algebra: 20 marks in all (four chapters)",
+  "summary": "Consistency from ratios · graphical method · substitution · elimination · word problems",
+  "status": {
+    "notes": "ready",
+    "mustknow": "ready",
+    "formulas": "ready",
+    "questions": "ready"
+  },
+  "updated": "2026-11-23"
+}

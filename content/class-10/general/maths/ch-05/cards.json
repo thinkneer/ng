@@ -1,0 +1,110 @@
+[
+  {
+    "id": "hook-gauss",
+    "kind": "event",
+    "title": "Adding 1 to 100 in seconds",
+    "svg": "<svg viewBox=\"0 0 300 170\" role=\"img\" aria-label=\"Pairing the first and last numbers of 1 to 100\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"><text x=\"40\" y=\"70\" font-size=\"20\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">1</text><text x=\"80\" y=\"70\" font-size=\"20\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">2</text><text x=\"120\" y=\"70\" font-size=\"20\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">3</text><text x=\"160\" y=\"70\" font-size=\"20\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">…</text><text x=\"205\" y=\"70\" font-size=\"20\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">99</text><text x=\"255\" y=\"70\" font-size=\"20\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">100</text><path d=\"M40,80 Q147,140 255,80\" class=\"u\" stroke-width=\"1.5\"/><path d=\"M80,80 Q142,118 205,80\" class=\"u\" stroke-width=\"1.5\"/><text x=\"150\" y=\"150\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">each pair = 101</text></svg>",
+    "tags": [
+      "story"
+    ],
+    "back": "The story goes that young Gauss paired 1 + 100, 2 + 99, …: 50 pairs of 101 make 5050. That pairing is the sum formula."
+  },
+  {
+    "id": "ap-bars",
+    "kind": "figure",
+    "title": "What an AP looks like",
+    "svg": "ref: notes#ap-bars",
+    "stars": 2,
+    "tags": [
+      "diagram"
+    ],
+    "back": "Every term is the one before plus the same $d$, so the bars rise by equal steps (or fall, if $d$ is negative)."
+  },
+  {
+    "id": "nth-term",
+    "kind": "formula",
+    "title": "nth term",
+    "tex": "a_n=a+(n-1)d",
+    "legend": [
+      "a = first term",
+      "d = common difference",
+      "n = position"
+    ],
+    "stars": 3,
+    "back": "Ten fence posts, nine gaps: $(n-1)$ steps of $d$."
+  },
+  {
+    "id": "sum-with-d",
+    "kind": "formula",
+    "title": "Sum of n terms, knowing d",
+    "tex": "S_n=\\dfrac n2\\left[2a+(n-1)d\\right]",
+    "stars": 3,
+    "tags": [
+      "3-mark"
+    ],
+    "back": "The $\\dfrac n2$ multiplies the whole bracket."
+  },
+  {
+    "id": "sum-with-last",
+    "kind": "formula",
+    "title": "Sum of n terms, knowing the last term",
+    "tex": "S_n=\\dfrac n2\\,(a+l)",
+    "legend": [
+      "l = last term"
+    ],
+    "stars": 3,
+    "back": "Number of terms × average of the first and the last."
+  },
+  {
+    "id": "term-from-sums",
+    "kind": "formula",
+    "title": "A term from two sums",
+    "tex": "a_n=S_n-S_{n-1}",
+    "stars": 2,
+    "tags": [
+      "3-mark"
+    ],
+    "back": "If $S_n$ is given as a formula: $a=S_1$ and $a_2=S_2-S_1$."
+  },
+  {
+    "id": "natural-numbers",
+    "kind": "formula",
+    "title": "1 + 2 + … + n",
+    "tex": "\\dfrac{n(n+1)}{2}",
+    "stars": 3,
+    "tags": [
+      "1-mark"
+    ],
+    "back": "First 100 natural numbers: 5050. First $n$ odd numbers: $n^2$."
+  },
+  {
+    "id": "three-in-ap",
+    "kind": "formula",
+    "title": "Three numbers in AP",
+    "tex": "a-d,\\ \\ a,\\ \\ a+d",
+    "stars": 2,
+    "back": "Their sum is $3a$, so the middle number comes out at once."
+  },
+  {
+    "id": "ap-condition",
+    "kind": "formula",
+    "title": "Are a, b, c in AP?",
+    "tex": "2b=a+c",
+    "stars": 3,
+    "tags": [
+      "1-mark"
+    ],
+    "back": "Twice the middle term equals the sum of the other two. Used to find $k$."
+  },
+  {
+    "id": "term-or-sum",
+    "kind": "compare",
+    "title": "Term or sum?",
+    "tex": "\\begin{gathered}\\text{one stage}\\to a_n\\\\ \\text{in all}\\to S_n\\end{gathered}",
+    "stars": 3,
+    "tags": [
+      "case"
+    ],
+    "back": "'In the 10th week' is a term. 'In 10 weeks' is a sum."
+  }
+]

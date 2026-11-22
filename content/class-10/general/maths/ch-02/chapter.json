@@ -1,0 +1,16 @@
+{
+  "$schema": "../../../../../schemas/chapter.schema.json",
+  "id": "ch-02",
+  "number": 2,
+  "title": "Polynomials",
+  "unit": "II",
+  "marks_hint": "Unit II Algebra: 20 marks in all (four chapters)",
+  "summary": "Degree and zeros · zeros on a graph · sum and product of zeros · polynomial from its zeros",
+  "status": {
+    "notes": "ready",
+    "mustknow": "ready",
+    "formulas": "ready",
+    "questions": "ready"
+  },
+  "updated": "2026-11-23"
+}

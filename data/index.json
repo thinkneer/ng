@@ -401,48 +401,152 @@
                       "number": 2,
                       "title": "Polynomials",
                       "unit": "II",
-                      "items": {},
-                      "marks_hint": null,
-                      "summary": null,
-                      "questions": 0,
-                      "question_types": {},
-                      "mnemonics": 2
+                      "items": {
+                        "notes": true,
+                        "mustknow": true,
+                        "formulas": true,
+                        "cards": true,
+                        "questions": true
+                      },
+                      "marks_hint": "Unit II Algebra: 20 marks in all (four chapters)",
+                      "summary": "Degree and zeros · zeros on a graph · sum and product of zeros · polynomial from its zeros",
+                      "questions": 13,
+                      "question_types": {
+                        "mcq": 5,
+                        "ar": 2,
+                        "vsa2": 2,
+                        "sa3": 2,
+                        "la5": 1,
+                        "case": 1
+                      },
+                      "diagrams": [],
+                      "blocks": {
+                        "graph": 1,
+                        "draw": 1,
+                        "mnemonic": 1,
+                        "steps": 1,
+                        "fill": 1,
+                        "numerical": 1,
+                        "explain": 1
+                      },
+                      "words": 1784,
+                      "read_minutes": 5,
+                      "cards": 9,
+                      "mnemonics": 3
                     },
                     {
                       "id": "ch-03",
                       "number": 3,
                       "title": "Pair of Linear Equations in Two Variables",
                       "unit": "II",
-                      "items": {},
-                      "marks_hint": null,
-                      "summary": null,
-                      "questions": 0,
-                      "question_types": {},
-                      "mnemonics": 2
+                      "items": {
+                        "notes": true,
+                        "mustknow": true,
+                        "formulas": true,
+                        "cards": true,
+                        "questions": true
+                      },
+                      "marks_hint": "Unit II Algebra: 20 marks in all (four chapters)",
+                      "summary": "Consistency from ratios · graphical method · substitution · elimination · word problems",
+                      "questions": 13,
+                      "question_types": {
+                        "mcq": 5,
+                        "ar": 2,
+                        "vsa2": 2,
+                        "sa3": 2,
+                        "la5": 1,
+                        "case": 1
+                      },
+                      "diagrams": [],
+                      "blocks": {
+                        "mnemonic": 2,
+                        "graph": 1,
+                        "fill": 1,
+                        "steps": 3,
+                        "draw": 1,
+                        "numerical": 1
+                      },
+                      "words": 1977,
+                      "read_minutes": 6,
+                      "cards": 9,
+                      "mnemonics": 4
                     },
                     {
                       "id": "ch-04",
                       "number": 4,
                       "title": "Quadratic Equations",
                       "unit": "II",
-                      "items": {},
-                      "marks_hint": null,
-                      "summary": null,
-                      "questions": 0,
-                      "question_types": {},
-                      "mnemonics": 2
+                      "items": {
+                        "notes": true,
+                        "mustknow": true,
+                        "formulas": true,
+                        "cards": true,
+                        "questions": true
+                      },
+                      "marks_hint": "Unit II Algebra: 20 marks in all (four chapters)",
+                      "summary": "Standard form · factorisation · quadratic formula · discriminant and nature of roots · word problems",
+                      "questions": 13,
+                      "question_types": {
+                        "mcq": 5,
+                        "ar": 2,
+                        "vsa2": 2,
+                        "sa3": 2,
+                        "la5": 1,
+                        "case": 1
+                      },
+                      "diagrams": [],
+                      "blocks": {
+                        "mnemonic": 2,
+                        "steps": 2,
+                        "compare": 1,
+                        "graph": 1,
+                        "numerical": 1,
+                        "fill": 1,
+                        "derive": 1,
+                        "explain": 1
+                      },
+                      "words": 1879,
+                      "read_minutes": 6,
+                      "cards": 10,
+                      "mnemonics": 4
                     },
                     {
                       "id": "ch-05",
                       "number": 5,
                       "title": "Arithmetic Progressions",
                       "unit": "II",
-                      "items": {},
-                      "marks_hint": null,
-                      "summary": null,
-                      "questions": 0,
-                      "question_types": {},
-                      "mnemonics": 2
+                      "items": {
+                        "notes": true,
+                        "mustknow": true,
+                        "formulas": true,
+                        "cards": true,
+                        "questions": true
+                      },
+                      "marks_hint": "Unit II Algebra: 20 marks in all (four chapters)",
+                      "summary": "Common difference · nth term · sum of n terms · term from sums · word problems",
+                      "questions": 13,
+                      "question_types": {
+                        "mcq": 5,
+                        "ar": 2,
+                        "vsa2": 2,
+                        "sa3": 2,
+                        "la5": 1,
+                        "case": 1
+                      },
+                      "diagrams": [],
+                      "blocks": {
+                        "mnemonic": 2,
+                        "derive": 2,
+                        "numerical": 2,
+                        "graph": 1,
+                        "fill": 1,
+                        "steps": 1,
+                        "explain": 1
+                      },
+                      "words": 1924,
+                      "read_minutes": 6,
+                      "cards": 10,
+                      "mnemonics": 4
                     }
                   ]
                 },
@@ -662,6 +766,7 @@
                 "Euclid's division lemma (Ch 1)",
                 "Division algorithm for polynomials (Ch 2)",
                 "Cross-multiplication method; equations reducible to a pair of linear equations (Ch 3)",
+                "Solving a quadratic equation by completing the square, as a separate method (Ch 4)",
                 "Ratio of areas of similar triangles; proofs of the Pythagoras theorem and its converse (Ch 6)",
                 "Area of a triangle from coordinates (Ch 7)",
                 "Trigonometric ratios of complementary angles (Ch 8)",
@@ -676,10 +781,10 @@
               },
               "papers": [],
               "counts": {
-                "notes": 2,
-                "mustknow": 2,
-                "formulas": 2,
-                "questions": 2,
+                "notes": 6,
+                "mustknow": 6,
+                "formulas": 6,
+                "questions": 6,
                 "chapters": 14
               },
               "exam_mode": "built"
@@ -2168,7 +2273,7 @@
                       "words": 1790,
                       "read_minutes": 5,
                       "cards": 10,
-                      "mnemonics": 2
+                      "mnemonics": 3
                     }
                   ]
                 },
@@ -2214,7 +2319,7 @@
                       "words": 1854,
                       "read_minutes": 5,
                       "cards": 10,
-                      "mnemonics": 2
+                      "mnemonics": 4
                     },
                     {
                       "id": "ch-04",
@@ -2250,7 +2355,7 @@
                       "words": 1883,
                       "read_minutes": 5,
                       "cards": 10,
-                      "mnemonics": 2
+                      "mnemonics": 4
                     }
                   ]
                 },
@@ -2297,7 +2402,7 @@
                       "words": 2263,
                       "read_minutes": 6,
                       "cards": 11,
-                      "mnemonics": 2
+                      "mnemonics": 4
                     },
                     {
                       "id": "ch-06",

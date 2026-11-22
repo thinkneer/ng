@@ -1,0 +1,315 @@
+[
+ {
+  "id": "maths10-02-q01",
+  "chapter": "ch-02",
+  "type": "mcq",
+  "marks": 1,
+  "stem": "The graph of $y=p(x)$ cuts the $x$-axis at three points and the $y$-axis at one point. The number of zeros of $p(x)$ is",
+  "options": [
+   "1",
+   "2",
+   "3",
+   "4"
+  ],
+  "answer": "C",
+  "model_answer": "**(c).** Zeros are the points where the graph meets the $x$-axis: three. The point on the $y$-axis does not count.",
+  "stars": 3,
+  "label": "PYQ-style",
+  "topic": "Zeros on a graph",
+  "hint": "Only the x-axis matters."
+ },
+ {
+  "id": "maths10-02-q02",
+  "chapter": "ch-02",
+  "type": "mcq",
+  "marks": 1,
+  "stem": "The zeros of the polynomial $x^2-2x-8$ are",
+  "options": [
+   "$2,\\ -4$",
+   "$4,\\ -2$",
+   "$-2,\\ -4$",
+   "$8,\\ -1$"
+  ],
+  "answer": "B",
+  "model_answer": "**(b).** $x^2-2x-8=(x-4)(x+2)$, so the zeros are $4$ and $-2$. Check: sum $=2$, product $=-8$.",
+  "stars": 2,
+  "label": "NCERT-based",
+  "topic": "Finding zeros",
+  "hint": "Two numbers with product −8 and sum −2."
+ },
+ {
+  "id": "maths10-02-q03",
+  "chapter": "ch-02",
+  "type": "mcq",
+  "marks": 1,
+  "stem": "If one zero of $x^2+3x+k$ is 2, then $k$ equals",
+  "options": [
+   "$10$",
+   "$-10$",
+   "$5$",
+   "$-5$"
+  ],
+  "answer": "B",
+  "model_answer": "**(b).** $p(2)=0\\Rightarrow4+6+k=0\\Rightarrow k=-10$.",
+  "stars": 3,
+  "label": "NCERT-based",
+  "topic": "Zero of a polynomial",
+  "hint": "Put x = 2 and set the value to 0."
+ },
+ {
+  "id": "maths10-02-q04",
+  "chapter": "ch-02",
+  "type": "mcq",
+  "marks": 1,
+  "stem": "A quadratic polynomial whose zeros are $-3$ and $4$ is",
+  "options": [
+   "$x^2-x+12$",
+   "$x^2+x+12$",
+   "$x^2-x-12$",
+   "$x^2+x-12$"
+  ],
+  "answer": "C",
+  "model_answer": "**(c).** Sum $=1$, product $=-12$. Polynomial: $x^2-(1)x+(-12)=x^2-x-12$.",
+  "stars": 3,
+  "label": "PYQ-style",
+  "topic": "Polynomial from zeros",
+  "hint": "$x^2-(\\text{sum})x+\\text{product}$."
+ },
+ {
+  "id": "maths10-02-q05",
+  "chapter": "ch-02",
+  "type": "mcq",
+  "marks": 1,
+  "stem": "If $\\alpha$ and $\\beta$ are the zeros of $2x^2-8x+6$, then $\\alpha+\\beta+\\alpha\\beta$ equals",
+  "options": [
+   "$1$",
+   "$7$",
+   "$-1$",
+   "$14$"
+  ],
+  "answer": "B",
+  "model_answer": "**(b).** $\\alpha+\\beta=-\\dfrac{-8}{2}=4$ and $\\alpha\\beta=\\dfrac62=3$. Total $=7$.",
+  "stars": 3,
+  "label": "PYQ-style",
+  "topic": "Zeros and coefficients",
+  "hint": "Use −b/a and c/a."
+ },
+ {
+  "id": "maths10-02-q06",
+  "chapter": "ch-02",
+  "type": "ar",
+  "marks": 1,
+  "stem": "**Assertion (A):** The polynomial $x^2+1$ has no real zero.<br>**Reason (R):** The graph of $y=x^2+1$ does not meet the $x$-axis.",
+  "options": [
+   "Both A and R are true, and R is the correct explanation of A.",
+   "Both A and R are true, but R is not the correct explanation of A.",
+   "A is true, but R is false.",
+   "A is false, but R is true."
+  ],
+  "answer": "A",
+  "model_answer": "**(a).** $x^2+1\\ge1$ for every real $x$, so the graph stays above the $x$-axis and there is no real zero. R is the reason for A.",
+  "stars": 2,
+  "label": "PYQ-style",
+  "topic": "Zeros on a graph",
+  "hint": "What is the smallest value of $x^2+1$?"
+ },
+ {
+  "id": "maths10-02-q07",
+  "chapter": "ch-02",
+  "type": "ar",
+  "marks": 1,
+  "stem": "**Assertion (A):** A quadratic polynomial can have at most two zeros.<br>**Reason (R):** Every polynomial of degree $n$ has exactly $n$ real zeros.",
+  "options": [
+   "Both A and R are true, and R is the correct explanation of A.",
+   "Both A and R are true, but R is not the correct explanation of A.",
+   "A is true, but R is false.",
+   "A is false, but R is true."
+  ],
+  "answer": "C",
+  "model_answer": "**(c).** A is true. R is false: a polynomial of degree $n$ has **at most** $n$ real zeros; $x^2+1$ has degree 2 and no real zero.",
+  "stars": 3,
+  "label": "PYQ-style",
+  "topic": "Number of zeros",
+  "hint": "'Exactly' or 'at most'?"
+ },
+ {
+  "id": "maths10-02-q08",
+  "chapter": "ch-02",
+  "type": "vsa2",
+  "marks": 2,
+  "stem": "Find a quadratic polynomial whose zeros have sum $\\dfrac14$ and product $-1$.",
+  "model_answer": "*How much to write: about 5 lines · 3 minutes.*\n\nA quadratic polynomial with sum $S$ and product $P$ of zeros is <mark>$x^2-Sx+P$</mark>.\n\n$x^2-\\dfrac14x-1$. Multiplying by 4 gives a polynomial with whole-number coefficients.\n\n$$\\boxed{4x^2-x-4}$$\n\n:::tip Your answer must contain\n- the general form\n- the substitution\n:::\n\n**Marks are lost for:** writing $+\\dfrac14x$: the middle term is minus the sum.",
+  "scheme": [
+   {
+    "step": "$x^2-Sx+P$ written with $S=\\dfrac14$, $P=-1$",
+    "marks": 1
+   },
+   {
+    "step": "$4x^2-x-4$",
+    "marks": 1
+   }
+  ],
+  "stars": 3,
+  "label": "NCERT-based",
+  "topic": "Polynomial from zeros",
+  "hint": "$x^2-(\\text{sum})x+\\text{product}$, then clear the fraction."
+ },
+ {
+  "id": "maths10-02-q09",
+  "chapter": "ch-02",
+  "type": "vsa2",
+  "marks": 2,
+  "stem": "The zeros of the polynomial $x^2+(a+1)x+b$ are $2$ and $-3$. Find $a$ and $b$.",
+  "model_answer": "*How much to write: about 5 lines · 3 minutes.*\n\nSum of zeros $=2+(-3)=-1$, and sum $=-\\dfrac{a+1}{1}$. So <mark>$-(a+1)=-1$</mark>, giving $a=0$.\n\nProduct of zeros $=(2)(-3)=-6$, and product $=\\dfrac b1$. So $b=-6$.\n\n$$\\boxed{a=0,\\quad b=-6}$$\n\n:::tip Your answer must contain\n- sum and product of the given zeros\n- each matched to its coefficient\n:::\n\n**Marks are lost for:** forgetting the minus sign in the sum.",
+  "scheme": [
+   {
+    "step": "Sum of zeros used: $a=0$",
+    "marks": 1
+   },
+   {
+    "step": "Product of zeros used: $b=-6$",
+    "marks": 1
+   }
+  ],
+  "stars": 2,
+  "label": "NCERT-based",
+  "topic": "Zeros and coefficients",
+  "hint": "Compare the sum with −(a + 1) and the product with b."
+ },
+ {
+  "id": "maths10-02-q10",
+  "chapter": "ch-02",
+  "type": "sa3",
+  "marks": 3,
+  "stem": "Find the zeros of the polynomial $6x^2-3-7x$ and verify the relationship between the zeros and the coefficients.",
+  "model_answer": "*How much to write: about 9 lines · 5 minutes.*\n\nStandard form: $6x^2-7x-3$. Split the middle term: $6x^2-9x+2x-3=3x(2x-3)+1(2x-3)=(3x+1)(2x-3)$\n\nZeros: <mark>$x=-\\dfrac13$ and $x=\\dfrac32$</mark>\n\nSum of zeros $=-\\dfrac13+\\dfrac32=\\dfrac76=-\\dfrac{(-7)}{6}=-\\dfrac ba$\n\nProduct of zeros $=\\left(-\\dfrac13\\right)\\left(\\dfrac32\\right)=-\\dfrac12=\\dfrac{-3}{6}=\\dfrac ca$. Verified.\n\n$$\\boxed{\\text{zeros: }-\\dfrac13\\ \\text{and}\\ \\dfrac32}$$\n\n:::tip Your answer must contain\n- standard form first\n- both zeros\n- two separate verification lines\n:::\n\n**Marks are lost for:** reading $b=-3$ from the unarranged form.",
+  "scheme": [
+   {
+    "step": "Factorised; both zeros",
+    "marks": 1
+   },
+   {
+    "step": "Sum verified against $-\\dfrac ba$",
+    "marks": 1
+   },
+   {
+    "step": "Product verified against $\\dfrac ca$",
+    "marks": 1
+   }
+  ],
+  "stars": 3,
+  "label": "NCERT-based",
+  "topic": "Zeros and verification",
+  "hint": "Arrange as $ax^2+bx+c$ before splitting the middle term."
+ },
+ {
+  "id": "maths10-02-q11",
+  "chapter": "ch-02",
+  "type": "sa3",
+  "marks": 3,
+  "stem": "If $\\alpha$ and $\\beta$ are the zeros of $2x^2-5x+3$, find a quadratic polynomial whose zeros are $2\\alpha$ and $2\\beta$.",
+  "model_answer": "*How much to write: about 9 lines · 5 minutes.*\n\n$\\alpha+\\beta=\\dfrac52$ and $\\alpha\\beta=\\dfrac32$\n\nFor the new polynomial: sum $=2\\alpha+2\\beta=2(\\alpha+\\beta)=5$; product $=(2\\alpha)(2\\beta)=4\\alpha\\beta=6$\n\nPolynomial: <mark>$x^2-(\\text{sum})x+\\text{product}$</mark>\n\n$$\\boxed{x^2-5x+6}$$\n\n:::tip Your answer must contain\n- sum and product of the old zeros\n- sum and product of the new zeros\n- the polynomial\n:::\n\n**Marks are lost for:** doubling the product instead of multiplying it by 4.",
+  "scheme": [
+   {
+    "step": "$\\alpha+\\beta=\\dfrac52$, $\\alpha\\beta=\\dfrac32$",
+    "marks": 1
+   },
+   {
+    "step": "New sum 5 and new product 6",
+    "marks": 1
+   },
+   {
+    "step": "$x^2-5x+6$",
+    "marks": 1
+   }
+  ],
+  "stars": 2,
+  "label": "PYQ-style",
+  "topic": "Polynomial from zeros",
+  "hint": "Find the sum and product of the new zeros; you never need α and β themselves."
+ },
+ {
+  "id": "maths10-02-q12",
+  "chapter": "ch-02",
+  "type": "la5",
+  "marks": 5,
+  "stem": "If $\\alpha$ and $\\beta$ are the zeros of the polynomial $x^2-6x+k$ and $3\\alpha+2\\beta=20$, find the value of $k$. Hence write the polynomial and verify your zeros.",
+  "model_answer": "*How much to write: about 15 lines · 9 minutes.*\n\nFrom the coefficients: $\\alpha+\\beta=6$ … (1) and $\\alpha\\beta=k$ … (2)\n\nGiven: $3\\alpha+2\\beta=20$ … (3). From (1), $2\\alpha+2\\beta=12$. Subtracting from (3): <mark>$\\alpha=8$</mark>, and then $\\beta=6-8=-2$.\n\nFrom (2): $k=\\alpha\\beta=(8)(-2)=-16$\n\nThe polynomial is $x^2-6x-16=(x-8)(x+2)$, whose zeros are $8$ and $-2$. ✓\n\n$$\\boxed{k=-16}$$\n\n:::tip Your answer must contain\n- both relations from the coefficients\n- the two linear equations solved\n- the product used for $k$\n- the check\n:::\n\n**Marks are lost for:** trying to solve for $k$ before finding α and β.",
+  "scheme": [
+   {
+    "step": "$\\alpha+\\beta=6$ and $\\alpha\\beta=k$",
+    "marks": 1
+   },
+   {
+    "step": "$\\alpha=8$, $\\beta=-2$",
+    "marks": 2
+   },
+   {
+    "step": "$k=-16$",
+    "marks": 1
+   },
+   {
+    "step": "Polynomial written and zeros verified",
+    "marks": 1
+   }
+  ],
+  "stars": 3,
+  "label": "PYQ-style",
+  "topic": "Condition on the zeros",
+  "hint": "Use the sum of zeros with the given equation to find α and β first."
+ },
+ {
+  "id": "maths10-02-q13",
+  "chapter": "ch-02",
+  "type": "case",
+  "marks": 4,
+  "stem": "**The arch.** The outline of a decorative arch over a gate is a parabola. Taking the ground as the $x$-axis (in metres), its height is given by $h(x)=-x^2+6x-5$.",
+  "parts": [
+   {
+    "id": "i",
+    "stem": "At which points does the arch meet the ground?",
+    "marks": 1,
+    "model_answer": "$-x^2+6x-5=-(x^2-6x+5)=-(x-1)(x-5)$. It meets the ground at $x=1$ and $x=5$.",
+    "scheme": [
+     {
+      "step": "$x=1$ and $x=5$",
+      "marks": 1
+     }
+    ]
+   },
+   {
+    "id": "ii",
+    "stem": "How wide is the gate at ground level, and does the parabola open upward or downward?",
+    "marks": 1,
+    "model_answer": "Width $=5-1=4$ m. The coefficient of $x^2$ is negative, so it opens downward.",
+    "scheme": [
+     {
+      "step": "4 m; opens downward",
+      "marks": 1
+     }
+    ]
+   },
+   {
+    "id": "iii",
+    "stem": "Another arch of the same kind meets the ground at $x=-2$ and $x=3$, and the coefficient of $x^2$ is $-1$. Write its polynomial.<br>**OR** Find the height of the first arch at $x=3$, and verify the sum and product of its zeros.",
+    "marks": 2,
+    "model_answer": "$-(x+2)(x-3)=-(x^2-x-6)=-x^2+x+6$.<br>**OR:** $h(3)=-9+18-5=4$ m. Sum of zeros $=1+5=6=-\\dfrac{6}{-1}$; product $=5=\\dfrac{-5}{-1}$. ✓",
+    "scheme": [
+     {
+      "step": "$-(x+2)(x-3)$ set up (OR: $h(3)=4$ m)",
+      "marks": 1
+     },
+     {
+      "step": "$-x^2+x+6$ (OR: sum 6 and product 5 verified)",
+      "marks": 1
+     }
+    ]
+   }
+  ],
+  "model_answer": "*How much to write: about 8 lines · 6 minutes in all.*\n\n**(i)** $h(x)=-(x-1)(x-5)$: the arch meets the ground at $x=1$ and $x=5$.\n\n**(ii)** Width $=4$ m; it <u>opens downward</u> because $a=-1<0$.\n\n**(iii)** Zeros $-2$ and $3$ with $a=-1$:\n\n$$\\boxed{-(x+2)(x-3)=-x^2+x+6}$$\n\n**OR:** $h(3)=4$ m; sum of zeros $6=-\\dfrac ba$, product $5=\\dfrac ca$.\n\n:::tip Your answer must contain\n- the factorised form\n- the zeros read as points on the ground\n- the sign of $a$ for the direction\n:::\n\n**Marks are lost for:** forgetting the leading −1 when building the second polynomial.",
+  "stars": 3,
+  "label": "PYQ-style",
+  "topic": "Parabola in a real setting",
+  "hint": "Take −1 common, then factorise."
+ }
+]

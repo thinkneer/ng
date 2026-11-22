@@ -1,0 +1,319 @@
+[
+ {
+  "id": "maths10-04-q01",
+  "chapter": "ch-04",
+  "type": "mcq",
+  "marks": 1,
+  "stem": "Which of the following is a quadratic equation?",
+  "options": [
+   "$x(x+1)+8=(x+2)(x-2)$",
+   "$(x-2)^2+1=2x-3$",
+   "$x(2x+3)=2x^2+1$",
+   "$x^2+3x+1=(x-2)^2$"
+  ],
+  "answer": "B",
+  "model_answer": "**(b).** (b) simplifies to $x^2-6x+8=0$. In the others the $x^2$ terms cancel, leaving linear equations.",
+  "stars": 2,
+  "label": "NCERT-based",
+  "topic": "Standard form",
+  "hint": "Simplify each and see whether an x² term remains."
+ },
+ {
+  "id": "maths10-04-q02",
+  "chapter": "ch-04",
+  "type": "mcq",
+  "marks": 1,
+  "stem": "The roots of $x^2-3x-10=0$ are",
+  "options": [
+   "$2,\\ -5$",
+   "$-2,\\ 5$",
+   "$2,\\ 5$",
+   "$-2,\\ -5$"
+  ],
+  "answer": "B",
+  "model_answer": "**(b).** $x^2-5x+2x-10=(x-5)(x+2)=0$, so $x=5$ or $x=-2$.",
+  "stars": 2,
+  "label": "NCERT-based",
+  "topic": "Factorisation",
+  "hint": "Product −10, sum −3."
+ },
+ {
+  "id": "maths10-04-q03",
+  "chapter": "ch-04",
+  "type": "mcq",
+  "marks": 1,
+  "stem": "The discriminant of $2x^2-4x+3=0$ is",
+  "options": [
+   "$8$",
+   "$-8$",
+   "$40$",
+   "$-40$"
+  ],
+  "answer": "B",
+  "model_answer": "**(b).** $D=b^2-4ac=16-24=-8$. The equation has no real roots.",
+  "stars": 3,
+  "label": "NCERT-based",
+  "topic": "Discriminant",
+  "hint": "$b^2-4ac$ with $b=-4$."
+ },
+ {
+  "id": "maths10-04-q04",
+  "chapter": "ch-04",
+  "type": "mcq",
+  "marks": 1,
+  "stem": "The values of $k$ for which $2x^2-kx+k=0$ has equal roots are",
+  "options": [
+   "$0$ only",
+   "$4$",
+   "$8$ only",
+   "$0,\\ 8$"
+  ],
+  "answer": "D",
+  "model_answer": "**(d).** $D=k^2-8k=0\\Rightarrow k(k-8)=0\\Rightarrow k=0$ or $8$.",
+  "stars": 3,
+  "label": "NCERT-based",
+  "topic": "Equal roots",
+  "hint": "Put D = 0."
+ },
+ {
+  "id": "maths10-04-q05",
+  "chapter": "ch-04",
+  "type": "mcq",
+  "marks": 1,
+  "stem": "If $x=3$ is a root of $x^2-2kx-6=0$, then $k$ equals",
+  "options": [
+   "$-\\dfrac12$",
+   "$\\dfrac12$",
+   "$3$",
+   "$2$"
+  ],
+  "answer": "B",
+  "model_answer": "**(b).** $9-6k-6=0\\Rightarrow k=\\dfrac12$.",
+  "stars": 3,
+  "label": "PYQ-style",
+  "topic": "Root of an equation",
+  "hint": "A root satisfies the equation: substitute x = 3."
+ },
+ {
+  "id": "maths10-04-q06",
+  "chapter": "ch-04",
+  "type": "ar",
+  "marks": 1,
+  "stem": "**Assertion (A):** The equation $4x^2-12x+9=0$ has two equal roots.<br>**Reason (R):** A quadratic equation $ax^2+bx+c=0$ has equal roots if $b^2-4ac=0$.",
+  "options": [
+   "Both A and R are true, and R is the correct explanation of A.",
+   "Both A and R are true, but R is not the correct explanation of A.",
+   "A is true, but R is false.",
+   "A is false, but R is true."
+  ],
+  "answer": "A",
+  "model_answer": "**(a).** $D=144-144=0$, so the roots are equal (each $\\dfrac32$). R is the reason.",
+  "stars": 2,
+  "label": "PYQ-style",
+  "topic": "Nature of roots",
+  "hint": "Compute D."
+ },
+ {
+  "id": "maths10-04-q07",
+  "chapter": "ch-04",
+  "type": "ar",
+  "marks": 1,
+  "stem": "**Assertion (A):** The equation $x^2+x+1=0$ has two distinct real roots.<br>**Reason (R):** A quadratic equation has no real roots if its discriminant is negative.",
+  "options": [
+   "Both A and R are true, and R is the correct explanation of A.",
+   "Both A and R are true, but R is not the correct explanation of A.",
+   "A is true, but R is false.",
+   "A is false, but R is true."
+  ],
+  "answer": "D",
+  "model_answer": "**(d).** $D=1-4=-3<0$, so there are no real roots. A is false; R is true.",
+  "stars": 3,
+  "label": "PYQ-style",
+  "topic": "Nature of roots",
+  "hint": "Compute D."
+ },
+ {
+  "id": "maths10-04-q08",
+  "chapter": "ch-04",
+  "type": "vsa2",
+  "marks": 2,
+  "stem": "Solve by factorisation: $6x^2-x-2=0$.",
+  "model_answer": "*How much to write: about 5 lines · 3 minutes.*\n\nProduct $ac=-12$, sum $b=-1$: the numbers are $-4$ and $3$. $\\ 6x^2-4x+3x-2=0$\n\n$2x(3x-2)+1(3x-2)=0\\Rightarrow$ <mark>$(3x-2)(2x+1)=0$</mark>\n\n$$\\boxed{x=\\dfrac23\\ \\ \\text{or}\\ \\ x=-\\dfrac12}$$\n\n:::tip Your answer must contain\n- the split of the middle term\n- both roots\n:::\n\n**Marks are lost for:** giving only one root.",
+  "scheme": [
+   {
+    "step": "Middle term split and factorised",
+    "marks": 1
+   },
+   {
+    "step": "$x=\\dfrac23$ or $x=-\\dfrac12$",
+    "marks": 1
+   }
+  ],
+  "stars": 3,
+  "label": "NCERT-based",
+  "topic": "Factorisation",
+  "hint": "Two numbers with product −12 and sum −1."
+ },
+ {
+  "id": "maths10-04-q09",
+  "chapter": "ch-04",
+  "type": "vsa2",
+  "marks": 2,
+  "stem": "Find the nature of the roots of $2x^2-6x+3=0$. If real roots exist, find them.",
+  "model_answer": "*How much to write: about 5 lines · 3 minutes.*\n\n$a=2$, $b=-6$, $c=3$. <mark>$D=36-24=12>0$</mark>: two distinct real roots.\n\n$x=\\dfrac{6\\pm\\sqrt{12}}{4}=\\dfrac{6\\pm2\\sqrt3}{4}$\n\n$$\\boxed{x=\\dfrac{3+\\sqrt3}{2}\\ \\ \\text{or}\\ \\ \\dfrac{3-\\sqrt3}{2}}$$\n\n:::tip Your answer must contain\n- $D$ on its own line\n- the nature in words\n- simplified surds\n:::\n\n**Marks are lost for:** leaving $\\sqrt{12}$ unsimplified.",
+  "scheme": [
+   {
+    "step": "$D=12>0$ and nature stated",
+    "marks": 1
+   },
+   {
+    "step": "$x=\\dfrac{3\\pm\\sqrt3}{2}$",
+    "marks": 1
+   }
+  ],
+  "stars": 3,
+  "label": "NCERT-based",
+  "topic": "Quadratic formula",
+  "hint": "Find D first; then the formula."
+ },
+ {
+  "id": "maths10-04-q10",
+  "chapter": "ch-04",
+  "type": "sa3",
+  "marks": 3,
+  "stem": "Find the values of $k$ for which the equation $2x^2+kx+3=0$ has two equal roots, and find the roots for the positive value of $k$.",
+  "model_answer": "*How much to write: about 9 lines · 5 minutes.*\n\n$a=2$, $b=k$, $c=3$. Equal roots: <mark>$D=k^2-24=0$</mark>\n\n$k=\\pm\\sqrt{24}=\\pm2\\sqrt6$\n\nFor $k=2\\sqrt6$: each root $=-\\dfrac{b}{2a}=-\\dfrac{2\\sqrt6}{4}=-\\dfrac{\\sqrt6}{2}$\n\n$$\\boxed{k=\\pm2\\sqrt6}$$\n\n:::tip Your answer must contain\n- the condition $D=0$\n- both values of $k$\n- equal root $-\\dfrac{b}{2a}$\n:::\n\n**Marks are lost for:** giving only the positive value of $k$.",
+  "scheme": [
+   {
+    "step": "$D=k^2-24$ and $D=0$",
+    "marks": 1
+   },
+   {
+    "step": "$k=\\pm2\\sqrt6$",
+    "marks": 1
+   },
+   {
+    "step": "Roots $-\\dfrac{\\sqrt6}{2}$ (equal)",
+    "marks": 1
+   }
+  ],
+  "stars": 3,
+  "label": "NCERT-based",
+  "topic": "Equal roots",
+  "hint": "Equal roots mean D = 0; then each root is −b/2a."
+ },
+ {
+  "id": "maths10-04-q11",
+  "chapter": "ch-04",
+  "type": "sa3",
+  "marks": 3,
+  "stem": "A mother is 26 years older than her son. The product of their ages three years from now will be 360. Find the son's present age.",
+  "model_answer": "*How much to write: about 9 lines · 5 minutes.*\n\nLet the son's present age be $x$ years; the mother's is $x+26$.\n\nThree years from now: $(x+3)(x+29)=360\\Rightarrow$ <mark>$x^2+32x-273=0$</mark>\n\n$(x+39)(x-7)=0\\Rightarrow x=-39$ or $x=7$. Age cannot be negative, so $x=7$.\n\n$$\\boxed{\\text{son's age}=7\\ \\text{years}}$$\n\n:::tip Your answer must contain\n- both ages three years later\n- standard form\n- the rejected root with a reason\n:::\n\n**Marks are lost for:** adding 3 to only one of the ages.",
+  "scheme": [
+   {
+    "step": "Ages in terms of $x$ and the equation",
+    "marks": 1
+   },
+   {
+    "step": "$x^2+32x-273=0$ solved",
+    "marks": 1
+   },
+   {
+    "step": "Negative root rejected; son is 7 years old",
+    "marks": 1
+   }
+  ],
+  "stars": 3,
+  "label": "NCERT-based",
+  "topic": "Word problems: ages",
+  "hint": "Both ages increase by 3."
+ },
+ {
+  "id": "maths10-04-q12",
+  "chapter": "ch-04",
+  "type": "la5",
+  "marks": 5,
+  "stem": "Two water taps together can fill a tank in $9\\dfrac38$ hours. The tap of larger diameter takes 10 hours less than the smaller one to fill the tank alone. Find the time in which each tap can fill the tank separately.",
+  "model_answer": "*How much to write: about 15 lines · 9 minutes.*\n\nLet the smaller tap take $x$ hours; the larger takes $x-10$ hours. Together they take $\\dfrac{75}{8}$ hours.\n\nIn one hour: <mark>$\\dfrac1x+\\dfrac{1}{x-10}=\\dfrac{8}{75}$</mark>\n\n$75(2x-10)=8x(x-10)\\Rightarrow8x^2-230x+750=0\\Rightarrow4x^2-115x+375=0$\n\n$(4x-15)(x-25)=0\\Rightarrow x=\\dfrac{15}{4}$ or $x=25$\n\n$x=\\dfrac{15}{4}$ would make $x-10$ negative, so it is rejected. Hence $x=25$.\n\n$$\\boxed{\\text{smaller tap }25\\text{ h},\\quad\\text{larger tap }15\\text{ h}}$$\n\n:::tip Your answer must contain\n- the 'one hour' equation\n- $9\\dfrac38=\\dfrac{75}{8}$\n- the rejected root and why\n- both times\n:::\n\n**Marks are lost for:** adding the times instead of the rates.",
+  "scheme": [
+   {
+    "step": "Times in terms of $x$",
+    "marks": 1
+   },
+   {
+    "step": "Equation for one hour's work",
+    "marks": 1
+   },
+   {
+    "step": "Standard form",
+    "marks": 1
+   },
+   {
+    "step": "Solved",
+    "marks": 1
+   },
+   {
+    "step": "Root rejected with reason; 25 h and 15 h",
+    "marks": 1
+   }
+  ],
+  "stars": 3,
+  "label": "NCERT-based",
+  "topic": "Word problems: taps",
+  "hint": "Add the fractions of the tank filled in one hour."
+ },
+ {
+  "id": "maths10-04-q13",
+  "chapter": "ch-04",
+  "type": "case",
+  "marks": 4,
+  "stem": "**The motorboat.** A motorboat whose speed in still water is 18 km/h goes 24 km upstream and comes back to the same spot. The upstream trip takes 1 hour more than the downstream trip. Let the speed of the stream be $x$ km/h.",
+  "parts": [
+   {
+    "id": "i",
+    "stem": "Write the speed of the boat upstream and downstream.",
+    "marks": 1,
+    "model_answer": "Upstream $(18-x)$ km/h; downstream $(18+x)$ km/h.",
+    "scheme": [
+     {
+      "step": "$(18-x)$ and $(18+x)$ km/h",
+      "marks": 1
+     }
+    ]
+   },
+   {
+    "id": "ii",
+    "stem": "Form the quadratic equation in standard form.",
+    "marks": 1,
+    "model_answer": "$\\dfrac{24}{18-x}-\\dfrac{24}{18+x}=1\\Rightarrow48x=324-x^2\\Rightarrow x^2+48x-324=0$.",
+    "scheme": [
+     {
+      "step": "$x^2+48x-324=0$",
+      "marks": 1
+     }
+    ]
+   },
+   {
+    "id": "iii",
+    "stem": "Find the speed of the stream.<br>**OR** Taking the speed of the stream as 6 km/h, find the time taken for each of the two trips.",
+    "marks": 2,
+    "model_answer": "$(x+54)(x-6)=0\\Rightarrow x=-54$ or $x=6$. Speed cannot be negative, so the stream flows at 6 km/h.<br>**OR:** upstream $\\dfrac{24}{12}=2$ h; downstream $\\dfrac{24}{24}=1$ h.",
+    "scheme": [
+     {
+      "step": "Factorised: $x=6$ or $x=-54$ (OR: upstream 2 h)",
+      "marks": 1
+     },
+     {
+      "step": "6 km/h, negative root rejected (OR: downstream 1 h)",
+      "marks": 1
+     }
+    ]
+   }
+  ],
+  "model_answer": "*How much to write: about 9 lines · 7 minutes in all.*\n\n**(i)** Upstream $(18-x)$ km/h, downstream $(18+x)$ km/h.\n\n**(ii)** <u>Time = distance ÷ speed</u>: $\\dfrac{24}{18-x}-\\dfrac{24}{18+x}=1$, which gives $x^2+48x-324=0$.\n\n**(iii)** $(x+54)(x-6)=0$; $x=-54$ is rejected.\n\n$$\\boxed{\\text{speed of the stream}=6\\ \\text{km/h}}$$\n\n**OR:** upstream 2 h, downstream 1 h.\n\n:::tip Your answer must contain\n- both speeds\n- upstream time minus downstream time = 1\n- the rejected root\n:::\n\n**Marks are lost for:** subtracting the times the wrong way round.",
+  "stars": 3,
+  "label": "PYQ-style",
+  "topic": "Word problems: boat and stream",
+  "hint": "The upstream trip is slower, so its time is larger."
+ }
+]

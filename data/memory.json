@@ -59,6 +59,158 @@
    "prompt": "Which hangs from the cave ceiling, a stalactite or a stalagmite?"
   }
  ],
+ "maths/ch-02": [
+  {
+   "id": "sum-sad-product-plain",
+   "title": "Sum and product of zeros",
+   "trick": "**S**um is **s**ad (it has the minus): $-\\dfrac ba$. **P**roduct is **p**lain: $\\dfrac ca$.",
+   "meaning": [
+    "Both are divided by $a$, the coefficient of $x^2$.",
+    "Quick check with $x^2-5x+6=(x-2)(x-3)$: sum $=5=-\\dfrac{-5}{1}$, product $=6=\\dfrac61$."
+   ],
+   "prompt": "For ax² + bx + c, what are the sum and the product of the zeros?"
+  },
+  {
+   "id": "minus-sign-out-or-pi",
+   "title": "What happens to a minus sign inside",
+   "trick": "**sin, tan, cosec** throw the minus **out**; **cos, cot, sec** turn it into **π −**",
+   "meaning": [
+    "$\\sin^{-1}(-x)=-\\sin^{-1}x$, and the same for $\\tan^{-1}$ and $\\operatorname{cosec}^{-1}$: their branch is centred on 0.",
+    "$\\cos^{-1}(-x)=\\pi-\\cos^{-1}x$, and the same for $\\cot^{-1}$ and $\\sec^{-1}$: their branch runs from 0 to $\\pi$."
+   ],
+   "prompt": "Which inverse functions give π − (…) for a negative input?"
+  },
+  {
+   "id": "bring-the-angle-home",
+   "title": "sin⁻¹(sin θ) is not always θ",
+   "trick": "**Bring the angle home first**",
+   "meaning": [
+    "$\\sin^{-1}(\\sin\\theta)=\\theta$ only when $\\theta$ is \"at home\" in $\\left[-\\dfrac\\pi2,\\dfrac\\pi2\\right]$.",
+    "If it is not, replace $\\theta$ by an angle in the branch with the same sine, such as $\\pi-\\theta$, and then cancel."
+   ],
+   "prompt": "When is sin⁻¹(sin θ) equal to θ?"
+  }
+ ],
+ "maths/ch-03": [
+  {
+   "id": "slopes-and-starts",
+   "title": "One, none or infinitely many?",
+   "trick": "**Different slope: meet once. Same slope, different start: never meet. Same line: always meet.**",
+   "meaning": [
+    "$\\dfrac{a_1}{a_2}\\ne\\dfrac{b_1}{b_2}$ means different slopes: one solution.",
+    "First two ratios equal, third different: parallel, no solution. All three equal: the same line, infinitely many solutions."
+   ],
+   "prompt": "What do the three ratio conditions say about the two lines?"
+  },
+  {
+   "id": "same-signs-subtract",
+   "title": "Add or subtract?",
+   "trick": "**Same Signs Subtract**; different signs add",
+   "meaning": [
+    "After matching the coefficients: $+6y$ and $+6y$ → subtract the equations; $+6y$ and $-6y$ → add them."
+   ],
+   "prompt": "In elimination, when do you subtract the equations?"
+  },
+  {
+   "id": "rows-then-columns",
+   "title": "Order of a matrix",
+   "trick": "**R**ows first, **C**olumns next: think **RC** cola",
+   "meaning": [
+    "Order $m\\times n$ means $m$ rows and $n$ columns; $a_{ij}$ sits in row $i$, column $j$.",
+    "A matrix with 12 elements can have 6 possible orders: $1\\times12$, $2\\times6$, $3\\times4$, $4\\times3$, $6\\times2$, $12\\times1$."
+   ],
+   "prompt": "In the order m × n and the element a_ij, which comes first: row or column?"
+  },
+  {
+   "id": "ab-not-ba",
+   "title": "Matrix multiplication is not commutative",
+   "trick": "**AB ≠ BA**: keep the order, like wearing socks before shoes",
+   "meaning": [
+    "$(A+B)^2=A^2+AB+BA+B^2$, not $A^2+2AB+B^2$, unless $AB=BA$.",
+    "Reversal law: $(AB)'=B'A'$ and $(AB)^{-1}=B^{-1}A^{-1}$. The order flips, like taking off shoes before socks."
+   ],
+   "prompt": "Expand (A + B)² for matrices. When does it equal A² + 2AB + B²?"
+  }
+ ],
+ "maths/ch-04": [
+  {
+   "id": "quadratic-formula-chant",
+   "title": "The formula, said aloud",
+   "trick": "\"**Minus b, plus or minus the root of b squared minus four a c, all over two a**\"",
+   "meaning": [
+    "Say it in that rhythm three times while writing it; the words are the formula in order.",
+    "\"All over $2a$\": the whole numerator, including the $-b$, is divided by $2a$."
+   ],
+   "prompt": "Write the quadratic formula for ax² + bx + c = 0."
+  },
+  {
+   "id": "d-two-one-none",
+   "title": "What D tells you",
+   "trick": "**D positive: two. D zero: one, twice. D negative: none.**",
+   "meaning": [
+    "$D>0$ two different real roots; $D=0$ the same root twice (equal roots); $D<0$ no real roots."
+   ],
+   "prompt": "What does the sign of the discriminant say about the roots?"
+  },
+  {
+   "id": "sign-chessboard",
+   "title": "Signs of the cofactors",
+   "trick": "A **chessboard** of signs, starting with **+** in the corner",
+   "meaning": [
+    "$\\begin{matrix}+&-&+\\\\-&+&-\\\\+&-&+\\end{matrix}$ — the sign of position $(i,j)$ is $(-1)^{i+j}$.",
+    "Cofactor $A_{ij}=(-1)^{i+j}M_{ij}$, where the minor $M_{ij}$ is the determinant left after deleting row $i$ and column $j$."
+   ],
+   "prompt": "What is the sign attached to the minor at position (2, 3)?"
+  },
+  {
+   "id": "adjoint-two-by-two",
+   "title": "Adjoint of a 2 × 2 matrix in one glance",
+   "trick": "**Swap the diagonal, change the signs of the other two**",
+   "meaning": [
+    "$\\operatorname{adj}\\begin{bmatrix}a&b\\\\c&d\\end{bmatrix}=\\begin{bmatrix}d&-b\\\\-c&a\\end{bmatrix}$. For order 3 there is no shortcut: nine cofactors, then **transpose**."
+   ],
+   "prompt": "Write adj A for A = [a b; c d] without working."
+  }
+ ],
+ "maths/ch-05": [
+  {
+   "id": "one-step-fewer",
+   "title": "Why n − 1 and not n?",
+   "trick": "**Ten fence posts, nine gaps**",
+   "meaning": [
+    "To get from the 1st term to the $n$th you take $(n-1)$ steps of $d$, just as $n$ posts have $(n-1)$ gaps between them."
+   ],
+   "prompt": "How many steps of d take you from the first term to the nth term?"
+  },
+  {
+   "id": "number-times-average",
+   "title": "The sum in words",
+   "trick": "**Sum = number of terms × average of the first and the last**",
+   "meaning": [
+    "$S_n=n\\times\\dfrac{a+l}{2}$. For $1+2+\\dots+100$: $100\\times\\dfrac{1+100}{2}=5050$."
+   ],
+   "prompt": "Say the sum of an AP in words."
+  },
+  {
+   "id": "three-way-handshake",
+   "title": "Continuity at x = a",
+   "trick": "A **three-way handshake**: left, right and the point itself",
+   "meaning": [
+    "Left-hand limit = right-hand limit = $f(a)$. All three must be the same number.",
+    "In a \"find $k$\" question, write the three values and equate them."
+   ],
+   "prompt": "Which three values must be equal for f to be continuous at x = a?"
+  },
+  {
+   "id": "peel-the-onion",
+   "title": "Chain rule",
+   "trick": "**Peel the onion**: outside layer first, then the next, and multiply",
+   "meaning": [
+    "$\\dfrac{d}{dx}\\sin(x^2)$: outside $\\sin(\\ )\\to\\cos(x^2)$, inside $x^2\\to2x$. Answer $2x\\cos(x^2)$. Keep going until you have differentiated the innermost $x$."
+   ],
+   "prompt": "How do you differentiate a function of a function?"
+  }
+ ],
  "maths/ch-08": [
   {
    "id": "pandit-badri-prasad",
@@ -902,92 +1054,6 @@
     "**Onto:** no element of the codomain is left without an arrow, so range = codomain."
    ],
    "prompt": "In an arrow diagram, how do you spot one-one and onto?"
-  }
- ],
- "maths/ch-02": [
-  {
-   "id": "minus-sign-out-or-pi",
-   "title": "What happens to a minus sign inside",
-   "trick": "**sin, tan, cosec** throw the minus **out**; **cos, cot, sec** turn it into **π −**",
-   "meaning": [
-    "$\\sin^{-1}(-x)=-\\sin^{-1}x$, and the same for $\\tan^{-1}$ and $\\operatorname{cosec}^{-1}$: their branch is centred on 0.",
-    "$\\cos^{-1}(-x)=\\pi-\\cos^{-1}x$, and the same for $\\cot^{-1}$ and $\\sec^{-1}$: their branch runs from 0 to $\\pi$."
-   ],
-   "prompt": "Which inverse functions give π − (…) for a negative input?"
-  },
-  {
-   "id": "bring-the-angle-home",
-   "title": "sin⁻¹(sin θ) is not always θ",
-   "trick": "**Bring the angle home first**",
-   "meaning": [
-    "$\\sin^{-1}(\\sin\\theta)=\\theta$ only when $\\theta$ is \"at home\" in $\\left[-\\dfrac\\pi2,\\dfrac\\pi2\\right]$.",
-    "If it is not, replace $\\theta$ by an angle in the branch with the same sine, such as $\\pi-\\theta$, and then cancel."
-   ],
-   "prompt": "When is sin⁻¹(sin θ) equal to θ?"
-  }
- ],
- "maths/ch-03": [
-  {
-   "id": "rows-then-columns",
-   "title": "Order of a matrix",
-   "trick": "**R**ows first, **C**olumns next: think **RC** cola",
-   "meaning": [
-    "Order $m\\times n$ means $m$ rows and $n$ columns; $a_{ij}$ sits in row $i$, column $j$.",
-    "A matrix with 12 elements can have 6 possible orders: $1\\times12$, $2\\times6$, $3\\times4$, $4\\times3$, $6\\times2$, $12\\times1$."
-   ],
-   "prompt": "In the order m × n and the element a_ij, which comes first: row or column?"
-  },
-  {
-   "id": "ab-not-ba",
-   "title": "Matrix multiplication is not commutative",
-   "trick": "**AB ≠ BA**: keep the order, like wearing socks before shoes",
-   "meaning": [
-    "$(A+B)^2=A^2+AB+BA+B^2$, not $A^2+2AB+B^2$, unless $AB=BA$.",
-    "Reversal law: $(AB)'=B'A'$ and $(AB)^{-1}=B^{-1}A^{-1}$. The order flips, like taking off shoes before socks."
-   ],
-   "prompt": "Expand (A + B)² for matrices. When does it equal A² + 2AB + B²?"
-  }
- ],
- "maths/ch-04": [
-  {
-   "id": "sign-chessboard",
-   "title": "Signs of the cofactors",
-   "trick": "A **chessboard** of signs, starting with **+** in the corner",
-   "meaning": [
-    "$\\begin{matrix}+&-&+\\\\-&+&-\\\\+&-&+\\end{matrix}$ — the sign of position $(i,j)$ is $(-1)^{i+j}$.",
-    "Cofactor $A_{ij}=(-1)^{i+j}M_{ij}$, where the minor $M_{ij}$ is the determinant left after deleting row $i$ and column $j$."
-   ],
-   "prompt": "What is the sign attached to the minor at position (2, 3)?"
-  },
-  {
-   "id": "adjoint-two-by-two",
-   "title": "Adjoint of a 2 × 2 matrix in one glance",
-   "trick": "**Swap the diagonal, change the signs of the other two**",
-   "meaning": [
-    "$\\operatorname{adj}\\begin{bmatrix}a&b\\\\c&d\\end{bmatrix}=\\begin{bmatrix}d&-b\\\\-c&a\\end{bmatrix}$. For order 3 there is no shortcut: nine cofactors, then **transpose**."
-   ],
-   "prompt": "Write adj A for A = [a b; c d] without working."
-  }
- ],
- "maths/ch-05": [
-  {
-   "id": "three-way-handshake",
-   "title": "Continuity at x = a",
-   "trick": "A **three-way handshake**: left, right and the point itself",
-   "meaning": [
-    "Left-hand limit = right-hand limit = $f(a)$. All three must be the same number.",
-    "In a \"find $k$\" question, write the three values and equate them."
-   ],
-   "prompt": "Which three values must be equal for f to be continuous at x = a?"
-  },
-  {
-   "id": "peel-the-onion",
-   "title": "Chain rule",
-   "trick": "**Peel the onion**: outside layer first, then the next, and multiply",
-   "meaning": [
-    "$\\dfrac{d}{dx}\\sin(x^2)$: outside $\\sin(\\ )\\to\\cos(x^2)$, inside $x^2\\to2x$. Answer $2x\\cos(x^2)$. Keep going until you have differentiated the innermost $x$."
-   ],
-   "prompt": "How do you differentiate a function of a function?"
   }
  ],
  "maths/ch-06": [

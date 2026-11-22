@@ -1,0 +1,107 @@
+[
+  {
+    "id": "hook-two-fares",
+    "kind": "event",
+    "title": "Where two straight lines meet",
+    "svg": "<svg viewBox=\"0 0 300 170\" role=\"img\" aria-label=\"Two fare lines crossing at one point\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"><path d=\"M30,140 H280 M40,150 V20\" stroke-width=\"1\"/><path d=\"M40,110 L270,50\" stroke-width=\"2\"/><path d=\"M40,128 L270,38\" class=\"u\" stroke-width=\"2\"/><circle cx=\"178\" cy=\"74\" r=\"4\" fill=\"#E0B400\" stroke=\"none\"/><text x=\"178\" y=\"96\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">same fare</text><text x=\"262\" y=\"158\" font-size=\"10\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">distance</text><text x=\"46\" y=\"16\" font-size=\"10\" text-anchor=\"start\" fill=\"currentColor\" stroke=\"none\">fare</text></svg>",
+    "tags": [
+      "story"
+    ],
+    "back": "Two taxi fares, ₹50 + ₹10/km and ₹20 + ₹15/km, cost the same at 6 km. The crossing point answers both equations."
+  },
+  {
+    "id": "three-cases-of-lines",
+    "kind": "figure",
+    "title": "Three things two lines can do",
+    "svg": "ref: notes#three-cases-of-lines",
+    "stars": 3,
+    "tags": [
+      "diagram"
+    ],
+    "back": "Intersect: one solution. Parallel: none. Coincide: infinitely many."
+  },
+  {
+    "id": "unique-solution",
+    "kind": "formula",
+    "title": "One solution",
+    "tex": "\\dfrac{a_1}{a_2}\\ne\\dfrac{b_1}{b_2}",
+    "stars": 3,
+    "tags": [
+      "1-mark"
+    ],
+    "back": "Different slopes: the lines intersect. The pair is consistent."
+  },
+  {
+    "id": "no-solution",
+    "kind": "formula",
+    "title": "No solution",
+    "tex": "\\dfrac{a_1}{a_2}=\\dfrac{b_1}{b_2}\\ne\\dfrac{c_1}{c_2}",
+    "stars": 3,
+    "tags": [
+      "1-mark"
+    ],
+    "back": "Same slope, different start: parallel lines. The pair is inconsistent."
+  },
+  {
+    "id": "infinite-solutions",
+    "kind": "formula",
+    "title": "Infinitely many solutions",
+    "tex": "\\dfrac{a_1}{a_2}=\\dfrac{b_1}{b_2}=\\dfrac{c_1}{c_2}",
+    "stars": 3,
+    "tags": [
+      "1-mark"
+    ],
+    "back": "The two equations are the same line. Consistent and dependent."
+  },
+  {
+    "id": "elimination",
+    "kind": "process",
+    "title": "Elimination method",
+    "tex": "\\begin{gathered}\\text{match coefficients}\\\\ \\downarrow\\\\ \\text{add or subtract}\\\\ \\downarrow\\\\ \\text{substitute back}\\end{gathered}",
+    "stars": 3,
+    "back": "Same signs subtract; different signs add. Then substitute back and check."
+  },
+  {
+    "id": "two-digit-number",
+    "kind": "formula",
+    "title": "A two-digit number",
+    "tex": "10x+y",
+    "legend": [
+      "x = tens digit",
+      "y = units digit"
+    ],
+    "stars": 3,
+    "tags": [
+      "3-mark"
+    ],
+    "back": "Reversing the digits gives $10y+x$. Their difference is always $9(x-y)$."
+  },
+  {
+    "id": "boat-and-stream",
+    "kind": "formula",
+    "title": "Boat and stream",
+    "tex": "\\begin{gathered}\\text{downstream: }x+y\\\\ \\text{upstream: }x-y\\end{gathered}",
+    "legend": [
+      "x = speed in still water",
+      "y = speed of the stream"
+    ],
+    "stars": 2,
+    "back": "With the current the speeds add; against it they subtract. Time = distance ÷ speed."
+  },
+  {
+    "id": "fixed-plus-rate",
+    "kind": "formula",
+    "title": "Fixed charge plus rate",
+    "tex": "\\text{total}=x+ny",
+    "legend": [
+      "x = fixed charge",
+      "y = rate per unit",
+      "n = number of units"
+    ],
+    "stars": 3,
+    "tags": [
+      "case"
+    ],
+    "back": "Taxi fares, library fines, hostel charges: two bills give two equations."
+  }
+]

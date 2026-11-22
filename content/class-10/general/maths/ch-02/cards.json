@@ -1,0 +1,101 @@
+[
+  {
+    "id": "hook-ball",
+    "kind": "event",
+    "title": "A ball's flight is a polynomial",
+    "svg": "<svg viewBox=\"0 0 300 170\" role=\"img\" aria-label=\"Path of a thrown ball: a parabola meeting the ground at two points\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"><path d=\"M20,140 H280\" stroke-width=\"1\"/><path d=\"M50,140 Q150,-40 250,140\" class=\"u\" stroke-width=\"2\"/><circle cx=\"50\" cy=\"140\" r=\"4\" fill=\"#E0B400\" stroke=\"none\"/><circle cx=\"250\" cy=\"140\" r=\"4\" fill=\"#E0B400\" stroke=\"none\"/><text x=\"50\" y=\"158\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">t = 0</text><text x=\"250\" y=\"158\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">t = 4</text><text x=\"150\" y=\"36\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">h = 20t − 5t²</text></svg>",
+    "tags": [
+      "story"
+    ],
+    "back": "Height $20t-5t^2$ is zero at $t=0$ and $t=4$: the throw and the landing. Those are its zeros."
+  },
+  {
+    "id": "parabola-zeros",
+    "kind": "figure",
+    "title": "Zeros on a graph",
+    "svg": "ref: notes#parabola-zeros",
+    "stars": 3,
+    "tags": [
+      "diagram",
+      "1-mark"
+    ],
+    "back": "Count where the graph meets the x-axis: two points, one point (touching) or none."
+  },
+  {
+    "id": "sum-of-zeros",
+    "kind": "formula",
+    "title": "Sum of zeros",
+    "tex": "\\alpha+\\beta=-\\dfrac ba",
+    "legend": [
+      "a = coefficient of x²",
+      "b = coefficient of x"
+    ],
+    "stars": 3,
+    "back": "Sum is sad: it carries the minus sign."
+  },
+  {
+    "id": "product-of-zeros",
+    "kind": "formula",
+    "title": "Product of zeros",
+    "tex": "\\alpha\\beta=\\dfrac ca",
+    "legend": [
+      "a = coefficient of x²",
+      "c = constant term"
+    ],
+    "stars": 3,
+    "back": "Product is plain: no minus sign."
+  },
+  {
+    "id": "polynomial-from-zeros",
+    "kind": "formula",
+    "title": "Polynomial from sum and product",
+    "tex": "x^2-Sx+P",
+    "legend": [
+      "S = sum of zeros",
+      "P = product of zeros"
+    ],
+    "stars": 3,
+    "back": "Minus the sum, plus the product. Multiply through to clear fractions."
+  },
+  {
+    "id": "sum-of-squares",
+    "kind": "formula",
+    "title": "α² + β² without the zeros",
+    "tex": "\\begin{gathered}\\alpha^2+\\beta^2\\\\=(\\alpha+\\beta)^2-2\\alpha\\beta\\end{gathered}",
+    "stars": 3,
+    "tags": [
+      "3-mark"
+    ],
+    "back": "Square the sum, take away twice the product."
+  },
+  {
+    "id": "sum-of-reciprocals",
+    "kind": "formula",
+    "title": "1/α + 1/β without the zeros",
+    "tex": "\\dfrac1\\alpha+\\dfrac1\\beta=\\dfrac{\\alpha+\\beta}{\\alpha\\beta}",
+    "stars": 2,
+    "back": "Sum over product."
+  },
+  {
+    "id": "special-conditions",
+    "kind": "process",
+    "title": "Conditions on the zeros",
+    "tex": "\\begin{gathered}\\text{reciprocals: }c=a\\\\ \\text{equal, opposite: }b=0\\end{gathered}",
+    "stars": 2,
+    "tags": [
+      "1-mark"
+    ],
+    "back": "Reciprocal zeros: product is 1. Equal and opposite zeros: sum is 0."
+  },
+  {
+    "id": "at-most-n",
+    "kind": "formula",
+    "title": "How many zeros?",
+    "tex": "\\text{degree }n\\ \\Rightarrow\\ \\text{at most }n\\text{ zeros}",
+    "stars": 2,
+    "tags": [
+      "1-mark"
+    ],
+    "back": "A quadratic has at most 2, a cubic at most 3. 'At most', not 'exactly'."
+  }
+]
