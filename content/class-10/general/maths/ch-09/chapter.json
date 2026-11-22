@@ -1,0 +1,16 @@
+{
+  "$schema": "../../../../../schemas/chapter.schema.json",
+  "id": "ch-09",
+  "number": 9,
+  "title": "Some Applications of Trigonometry",
+  "unit": "V",
+  "marks_hint": "Unit V Trigonometry: 12 marks in all (both chapters together)",
+  "summary": "Line of sight · angles of elevation and depression · one-triangle and two-triangle height and distance problems",
+  "status": {
+    "notes": "ready",
+    "mustknow": "ready",
+    "formulas": "ready",
+    "questions": "ready"
+  },
+  "updated": "2026-11-23"
+}

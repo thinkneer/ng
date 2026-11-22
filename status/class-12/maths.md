@@ -37,6 +37,9 @@ _Last updated 22 Nov 2026 (weekly refresh: layout fixes in ch-02, 05, 09, 11, 13
 - Every answer and every worked example was checked by computation (sympy). Every `$…$` expression in the Maths content was parsed with the site's KaTeX build (0 errors). `node scripts/build-index.mjs` passes with 0 warnings.
 - `subject.json → not_in_syllabus` now lists the deleted topics chapter by chapter.
 
+## Continuity across classes (admin decision, 22 Nov 2026)
+Maths is being built for Classes 9–12 with a strand map and "Go to basics" links (project docs `maths-9-12-continuity-map.md`, `site-request-go-to-basics.md`). Pilot strand: Trigonometry. Class 10 ch-08 and ch-09 are on the site (23 Nov; see `status/class-10/maths.md`). When the Site chat ships the link chip, add chips in ch-02, ch-05, ch-07 and ch-10 here pointing to the Class 10 sections, and later to Class 11 ch-03.
+
 ## Ch-07 Integrals deepened (21 Nov 2026, a student's request two days before the pre-board)
 - **Read:** new opening section "Why integrals exist" (Archimedes' strips, Newton and Leibniz, the ∫ sign as a stretched S, where integrals are used) with our own drawing `ch07-strips`; new "Which method? Read the integrand first" (a six-step method ladder as `ng-steps`, a spot-the-method `ng-fill`); new "Trigonometric integrals" section (even and odd powers, product to sum, three tricks); six more worked examples (root of a quadratic, divide first, a lone log, the integral that comes back, finding f and f′, rewrite the angle); a "when to think of a property" tip; `ng-derive` for ∫ log(1 + tan x) and an `ng-explain`. Notes are now about 3 280 words (limit 3 500: split before adding more).
 - **Must know:** six method-cue lines and two traps added.

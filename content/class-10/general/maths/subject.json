@@ -1,0 +1,159 @@
+{
+ "$schema": "../../../../schemas/subject.schema.json",
+ "id": "maths",
+ "name": "Mathematics",
+ "code": "041",
+ "class": "10",
+ "stream": "general",
+ "syllabus_year": "2026-27",
+ "theory_marks": 80,
+ "internal_marks": 20,
+ "internal_note": "Internal assessment 20: periodic tests 10, notebook / portfolio 5, lab activities and projects 5 (as your school sets them). Mathematics Standard (041) and Mathematics Basic (241) share this syllabus; the Basic paper is easier.",
+ "duration_minutes": 180,
+ "exam_date": "2027-02-17",
+ "colour": "1F5FAD",
+ "units": [
+  {
+   "id": "I",
+   "name": "Number Systems",
+   "colour": "1F5FAD",
+   "marks": 6,
+   "chapters": [
+    {
+     "id": "ch-01",
+     "number": 1,
+     "title": "Real Numbers"
+    }
+   ]
+  },
+  {
+   "id": "II",
+   "name": "Algebra",
+   "colour": "0E8A7E",
+   "marks": 20,
+   "chapters": [
+    {
+     "id": "ch-02",
+     "number": 2,
+     "title": "Polynomials"
+    },
+    {
+     "id": "ch-03",
+     "number": 3,
+     "title": "Pair of Linear Equations in Two Variables"
+    },
+    {
+     "id": "ch-04",
+     "number": 4,
+     "title": "Quadratic Equations"
+    },
+    {
+     "id": "ch-05",
+     "number": 5,
+     "title": "Arithmetic Progressions"
+    }
+   ]
+  },
+  {
+   "id": "III",
+   "name": "Coordinate Geometry",
+   "colour": "C2571A",
+   "marks": 6,
+   "chapters": [
+    {
+     "id": "ch-07",
+     "number": 7,
+     "title": "Coordinate Geometry"
+    }
+   ]
+  },
+  {
+   "id": "IV",
+   "name": "Geometry",
+   "colour": "2E8B3A",
+   "marks": 15,
+   "chapters": [
+    {
+     "id": "ch-06",
+     "number": 6,
+     "title": "Triangles"
+    },
+    {
+     "id": "ch-10",
+     "number": 10,
+     "title": "Circles"
+    }
+   ]
+  },
+  {
+   "id": "V",
+   "name": "Trigonometry",
+   "colour": "6A3FA0",
+   "marks": 12,
+   "chapters": [
+    {
+     "id": "ch-08",
+     "number": 8,
+     "title": "Introduction to Trigonometry"
+    },
+    {
+     "id": "ch-09",
+     "number": 9,
+     "title": "Some Applications of Trigonometry"
+    }
+   ]
+  },
+  {
+   "id": "VI",
+   "name": "Mensuration",
+   "colour": "B0204F",
+   "marks": 10,
+   "chapters": [
+    {
+     "id": "ch-11",
+     "number": 11,
+     "title": "Areas Related to Circles"
+    },
+    {
+     "id": "ch-12",
+     "number": 12,
+     "title": "Surface Areas and Volumes"
+    }
+   ]
+  },
+  {
+   "id": "VII",
+   "name": "Statistics and Probability",
+   "colour": "5A6B7B",
+   "marks": 11,
+   "chapters": [
+    {
+     "id": "ch-13",
+     "number": 13,
+     "title": "Statistics"
+    },
+    {
+     "id": "ch-14",
+     "number": 14,
+     "title": "Probability"
+    }
+   ]
+  }
+ ],
+ "not_in_syllabus": [
+  "Euclid's division lemma (Ch 1)",
+  "Division algorithm for polynomials (Ch 2)",
+  "Cross-multiplication method; equations reducible to a pair of linear equations (Ch 3)",
+  "Ratio of areas of similar triangles; proofs of the Pythagoras theorem and its converse (Ch 6)",
+  "Area of a triangle from coordinates (Ch 7)",
+  "Trigonometric ratios of complementary angles (Ch 8)",
+  "Constructions (whole chapter of the old book)",
+  "Frustum of a cone (Ch 12)",
+  "Cumulative frequency graphs (ogives) (Ch 13)"
+ ],
+ "links": {
+  "ncert": "https://ncert.nic.in/textbook.php",
+  "syllabus": "https://cbseacademic.nic.in/",
+  "sample_paper": "https://cbseacademic.nic.in/"
+ }
+}

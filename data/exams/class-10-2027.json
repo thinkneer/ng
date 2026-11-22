@@ -1,0 +1,17 @@
+{
+  "$schema": "../../schemas/exams.schema.json",
+  "class": "10",
+  "board_year": 2027,
+  "source": "CBSE date sheet dated 6 Nov 2026 (cbse.gov.in), as reported by several news sites on 6 Nov 2026",
+  "date_checked": "2026-11-23",
+  "recheck_note": "Recheck on cbse.gov.in before planning; CBSE may revise the date sheet. Only subjects that are live on the site are listed.",
+  "papers": [
+    {
+      "subject": "maths",
+      "name": "Mathematics (Standard and Basic)",
+      "date": "2027-02-17",
+      "start": "10:30",
+      "duration_minutes": 180
+    }
+  ]
+}

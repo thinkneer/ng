@@ -1,0 +1,386 @@
+[
+ {
+  "id": "maths10-08-q01",
+  "chapter": "ch-08",
+  "type": "mcq",
+  "marks": 1,
+  "stem": "If $\\cos A=\\dfrac45$, then $\\tan A$ equals",
+  "options": [
+   "$\\dfrac35$",
+   "$\\dfrac34$",
+   "$\\dfrac43$",
+   "$\\dfrac53$"
+  ],
+  "answer": "B",
+  "model_answer": "**(b).** Adjacent $=4k$, hypotenuse $=5k$, so opposite $=3k$. $\\tan A=\\dfrac{3k}{4k}=\\dfrac34$.",
+  "stars": 3,
+  "label": "PYQ-style",
+  "topic": "Ratios from one ratio",
+  "hint": "Draw the triangle: sides 4, 5 and the third by Pythagoras."
+ },
+ {
+  "id": "maths10-08-q02",
+  "chapter": "ch-08",
+  "type": "mcq",
+  "marks": 1,
+  "stem": "The value of $9\\sec^2A-9\\tan^2A$ is",
+  "options": [
+   "$1$",
+   "$9$",
+   "$8$",
+   "$0$"
+  ],
+  "answer": "B",
+  "model_answer": "**(b).** $9(\\sec^2A-\\tan^2A)=9\\times1=9$, because $1+\\tan^2A=\\sec^2A$.",
+  "stars": 3,
+  "label": "NCERT-based",
+  "topic": "Identities",
+  "hint": "Take 9 common."
+ },
+ {
+  "id": "maths10-08-q03",
+  "chapter": "ch-08",
+  "type": "mcq",
+  "marks": 1,
+  "stem": "$\\dfrac{1-\\tan^245^\\circ}{1+\\tan^245^\\circ}$ equals",
+  "options": [
+   "$\\tan90^\\circ$",
+   "$1$",
+   "$\\sin45^\\circ$",
+   "$0$"
+  ],
+  "answer": "D",
+  "model_answer": "**(d).** $\\tan45^\\circ=1$, so the numerator is $1-1=0$ and the value is 0.",
+  "stars": 2,
+  "label": "NCERT-based",
+  "topic": "Standard values",
+  "hint": "Only one value is needed: $\\tan45^\\circ$."
+ },
+ {
+  "id": "maths10-08-q04",
+  "chapter": "ch-08",
+  "type": "mcq",
+  "marks": 1,
+  "stem": "$\\dfrac{2\\tan30^\\circ}{1+\\tan^230^\\circ}$ equals",
+  "options": [
+   "$\\sin60^\\circ$",
+   "$\\cos60^\\circ$",
+   "$\\tan60^\\circ$",
+   "$\\sin30^\\circ$"
+  ],
+  "answer": "A",
+  "model_answer": "**(a).** $\\dfrac{2\\times\\frac{1}{\\sqrt3}}{1+\\frac13}=\\dfrac{2}{\\sqrt3}\\times\\dfrac34=\\dfrac{\\sqrt3}{2}=\\sin60^\\circ$.",
+  "stars": 2,
+  "label": "NCERT-based",
+  "topic": "Standard values",
+  "hint": "Substitute $\\tan30^\\circ=\\dfrac{1}{\\sqrt3}$ and simplify."
+ },
+ {
+  "id": "maths10-08-q05",
+  "chapter": "ch-08",
+  "type": "mcq",
+  "marks": 1,
+  "stem": "$\\sin2A=2\\sin A$ is true when $A$ equals",
+  "options": [
+   "$0^\\circ$",
+   "$30^\\circ$",
+   "$45^\\circ$",
+   "$60^\\circ$"
+  ],
+  "answer": "A",
+  "model_answer": "**(a).** At $A=0^\\circ$ both sides are 0. At $30^\\circ$: $\\sin60^\\circ=\\dfrac{\\sqrt3}{2}$ but $2\\sin30^\\circ=1$. In general $\\sin2A\\ne2\\sin A$.",
+  "stars": 2,
+  "label": "NCERT-based",
+  "topic": "Standard values",
+  "hint": "Test each option."
+ },
+ {
+  "id": "maths10-08-q06",
+  "chapter": "ch-08",
+  "type": "mcq",
+  "marks": 1,
+  "stem": "$(1+\\tan^2A)(1-\\sin^2A)$ is equal to",
+  "options": [
+   "$0$",
+   "$\\sin^2A$",
+   "$1$",
+   "$\\tan^2A$"
+  ],
+  "answer": "C",
+  "model_answer": "**(c).** $(1+\\tan^2A)=\\sec^2A$ and $(1-\\sin^2A)=\\cos^2A$. Their product is $\\sec^2A\\cos^2A=1$.",
+  "stars": 3,
+  "label": "PYQ-style",
+  "topic": "Identities",
+  "hint": "Replace each bracket using an identity."
+ },
+ {
+  "id": "maths10-08-q07",
+  "chapter": "ch-08",
+  "type": "ar",
+  "marks": 1,
+  "stem": "**Assertion (A):** $\\sin^267^\\circ+\\cos^267^\\circ=1$.<br>**Reason (R):** For every angle $\\theta$, $\\sin^2\\theta+\\cos^2\\theta=1$.",
+  "options": [
+   "Both A and R are true, and R is the correct explanation of A.",
+   "Both A and R are true, but R is not the correct explanation of A.",
+   "A is true, but R is false.",
+   "A is false, but R is true."
+  ],
+  "answer": "A",
+  "model_answer": "**(a).** The identity holds for every angle, so it holds for 67°. Both are true and R is the reason for A.",
+  "stars": 2,
+  "label": "PYQ-style",
+  "topic": "Identities",
+  "hint": "No table is needed for 67°."
+ },
+ {
+  "id": "maths10-08-q08",
+  "chapter": "ch-08",
+  "type": "ar",
+  "marks": 1,
+  "stem": "**Assertion (A):** For some acute angle $\\theta$, $\\sin\\theta=\\dfrac43$.<br>**Reason (R):** In a right triangle, the hypotenuse is the longest side.",
+  "options": [
+   "Both A and R are true, and R is the correct explanation of A.",
+   "Both A and R are true, but R is not the correct explanation of A.",
+   "A is true, but R is false.",
+   "A is false, but R is true."
+  ],
+  "answer": "D",
+  "model_answer": "**(d).** $\\sin\\theta=\\dfrac{\\text{opposite}}{\\text{hypotenuse}}$ and the opposite side is shorter than the hypotenuse, so $\\sin\\theta<1$. A is false; R is true (and is exactly why A fails).",
+  "stars": 3,
+  "label": "PYQ-style",
+  "topic": "Range of sine",
+  "hint": "Can the opposite side be longer than the hypotenuse?"
+ },
+ {
+  "id": "maths10-08-q09",
+  "chapter": "ch-08",
+  "type": "vsa2",
+  "marks": 2,
+  "stem": "Evaluate $\\dfrac{\\sin30^\\circ+\\tan45^\\circ-\\operatorname{cosec}60^\\circ}{\\sec30^\\circ+\\cos60^\\circ+\\cot45^\\circ}$.",
+  "model_answer": "*How much to write: about 5 lines · 3 minutes.*\n\nSubstitute the values: $\\dfrac{\\frac12+1-\\frac{2}{\\sqrt3}}{\\frac{2}{\\sqrt3}+\\frac12+1}=\\dfrac{\\frac32-\\frac{2}{\\sqrt3}}{\\frac32+\\frac{2}{\\sqrt3}}$\n\nMultiply top and bottom by $2\\sqrt3$: <mark>$\\dfrac{3\\sqrt3-4}{3\\sqrt3+4}$</mark>\n\n<u>Rationalise</u>: $\\dfrac{(3\\sqrt3-4)^2}{27-16}=\\dfrac{27-24\\sqrt3+16}{11}$\n\n$$\\boxed{\\dfrac{43-24\\sqrt3}{11}}$$\n\n:::tip Your answer must contain\n- each value written before simplifying\n- the rationalising step\n:::\n\n**Marks are lost for:** $\\operatorname{cosec}60^\\circ$ taken as $\\dfrac{\\sqrt3}{2}$: it is the reciprocal, $\\dfrac{2}{\\sqrt3}$.",
+  "scheme": [
+   {
+    "step": "All six values substituted correctly",
+    "marks": 1
+   },
+   {
+    "step": "Simplified and rationalised to $\\dfrac{43-24\\sqrt3}{11}$",
+    "marks": 1
+   }
+  ],
+  "stars": 3,
+  "label": "NCERT-based",
+  "topic": "Standard values",
+  "hint": "Write all six values first; then clear the fractions."
+ },
+ {
+  "id": "maths10-08-q10",
+  "chapter": "ch-08",
+  "type": "vsa2",
+  "marks": 2,
+  "stem": "If $\\sin A=\\dfrac34$, find $\\cos A$ and $\\tan A$.",
+  "model_answer": "*How much to write: about 5 lines · 3 minutes.*\n\nTake opposite $=3k$ and hypotenuse $=4k$. By Pythagoras, <mark>adjacent $=\\sqrt{16k^2-9k^2}=\\sqrt7\\,k$</mark>.\n\n$\\cos A=\\dfrac{\\sqrt7k}{4k}$ and $\\tan A=\\dfrac{3k}{\\sqrt7k}$\n\n$$\\boxed{\\cos A=\\dfrac{\\sqrt7}{4},\\quad\\tan A=\\dfrac{3}{\\sqrt7}}$$\n\n:::tip Your answer must contain\n- a rough triangle with the sides marked\n- the Pythagoras step\n:::\n\n**Marks are lost for:** writing the adjacent side as $4-3=1$.",
+  "scheme": [
+   {
+    "step": "Third side $\\sqrt7k$ by Pythagoras",
+    "marks": 1
+   },
+   {
+    "step": "$\\cos A=\\dfrac{\\sqrt7}{4}$, $\\tan A=\\dfrac{3}{\\sqrt7}$",
+    "marks": 1
+   }
+  ],
+  "stars": 3,
+  "label": "NCERT-based",
+  "topic": "Ratios from one ratio",
+  "hint": "Sides $3k$ and $4k$; find the third."
+ },
+ {
+  "id": "maths10-08-q11",
+  "chapter": "ch-08",
+  "type": "vsa2",
+  "marks": 2,
+  "stem": "Prove that $\\sqrt{\\dfrac{1+\\sin A}{1-\\sin A}}=\\sec A+\\tan A$.",
+  "model_answer": "*How much to write: about 5 lines · 3 minutes.*\n\nLHS $=\\sqrt{\\dfrac{(1+\\sin A)(1+\\sin A)}{(1-\\sin A)(1+\\sin A)}}=\\sqrt{\\dfrac{(1+\\sin A)^2}{1-\\sin^2A}}$\n\n<mark>$=\\dfrac{1+\\sin A}{\\cos A}$</mark> $=\\dfrac{1}{\\cos A}+\\dfrac{\\sin A}{\\cos A}=\\sec A+\\tan A=$ RHS. Hence proved.\n\n:::tip Your answer must contain\n- the conjugate $(1+\\sin A)$\n- the identity $1-\\sin^2A=\\cos^2A$\n- 'Hence proved'\n:::\n\n**Marks are lost for:** squaring both sides of the statement to be proved.",
+  "scheme": [
+   {
+    "step": "Multiplied by the conjugate inside the root; $1-\\sin^2A=\\cos^2A$",
+    "marks": 1
+   },
+   {
+    "step": "Reduced to $\\sec A+\\tan A$",
+    "marks": 1
+   }
+  ],
+  "stars": 3,
+  "label": "NCERT-based",
+  "topic": "Proving identities",
+  "hint": "Multiply top and bottom inside the root by $1+\\sin A$."
+ },
+ {
+  "id": "maths10-08-q12",
+  "chapter": "ch-08",
+  "type": "sa3",
+  "marks": 3,
+  "stem": "If $3\\cot A=4$, check whether $\\dfrac{1-\\tan^2A}{1+\\tan^2A}=\\cos^2A-\\sin^2A$.",
+  "model_answer": "*How much to write: about 9 lines · 5 minutes.*\n\n$\\cot A=\\dfrac43$: adjacent $=4k$, opposite $=3k$, so hypotenuse $=5k$. Then $\\tan A=\\dfrac34$, $\\sin A=\\dfrac35$, $\\cos A=\\dfrac45$.\n\nLHS $=\\dfrac{1-\\frac{9}{16}}{1+\\frac{9}{16}}=\\dfrac{7/16}{25/16}=\\dfrac{7}{25}$\n\nRHS $=\\dfrac{16}{25}-\\dfrac{9}{25}=\\dfrac{7}{25}$. <mark>LHS = RHS</mark>, so the relation holds.\n\n:::tip Your answer must contain\n- the triangle with $k$\n- LHS and RHS worked out separately\n- a one-line conclusion\n:::\n\n**Marks are lost for:** stopping after one side.",
+  "scheme": [
+   {
+    "step": "Triangle sides and the three ratios",
+    "marks": 1
+   },
+   {
+    "step": "LHS $=\\dfrac{7}{25}$",
+    "marks": 1
+   },
+   {
+    "step": "RHS $=\\dfrac{7}{25}$ and conclusion",
+    "marks": 1
+   }
+  ],
+  "stars": 3,
+  "label": "NCERT-based",
+  "topic": "Ratios from one ratio",
+  "hint": "Find tan, sin and cos from the triangle, then evaluate each side."
+ },
+ {
+  "id": "maths10-08-q13",
+  "chapter": "ch-08",
+  "type": "sa3",
+  "marks": 3,
+  "stem": "If $\\sin(A-B)=\\dfrac12$ and $\\cos(A+B)=\\dfrac12$, where $0^\\circ<A+B\\le90^\\circ$ and $A>B$, find $A$ and $B$.",
+  "model_answer": "*How much to write: about 9 lines · 5 minutes.*\n\n$\\sin(A-B)=\\dfrac12=\\sin30^\\circ\\Rightarrow A-B=30^\\circ$ … (1)\n\n$\\cos(A+B)=\\dfrac12=\\cos60^\\circ\\Rightarrow A+B=60^\\circ$ … (2)\n\nAdding: <mark>$2A=90^\\circ$</mark>, so $A=45^\\circ$; then $B=15^\\circ$.\n\n$$\\boxed{A=45^\\circ,\\quad B=15^\\circ}$$\n\n:::tip Your answer must contain\n- each value matched to its standard angle\n- two equations, numbered\n- both answers\n:::\n\n**Marks are lost for:** taking $\\cos(A+B)=\\dfrac12$ as $A+B=30^\\circ$.",
+  "scheme": [
+   {
+    "step": "$A-B=30^\\circ$",
+    "marks": 1
+   },
+   {
+    "step": "$A+B=60^\\circ$",
+    "marks": 1
+   },
+   {
+    "step": "$A=45^\\circ$, $B=15^\\circ$",
+    "marks": 1
+   }
+  ],
+  "stars": 3,
+  "label": "NCERT-based",
+  "topic": "Standard values",
+  "hint": "Which angle has sine $\\dfrac12$? Which has cosine $\\dfrac12$?"
+ },
+ {
+  "id": "maths10-08-q14",
+  "chapter": "ch-08",
+  "type": "sa3",
+  "marks": 3,
+  "stem": "Prove that $(\\operatorname{cosec}A-\\sin A)(\\sec A-\\cos A)=\\dfrac{1}{\\tan A+\\cot A}$.",
+  "model_answer": "*How much to write: about 9 lines · 5 minutes.*\n\nLHS $=\\left(\\dfrac{1}{\\sin A}-\\sin A\\right)\\left(\\dfrac{1}{\\cos A}-\\cos A\\right)=\\dfrac{1-\\sin^2A}{\\sin A}\\cdot\\dfrac{1-\\cos^2A}{\\cos A}$\n\n$=\\dfrac{\\cos^2A}{\\sin A}\\cdot\\dfrac{\\sin^2A}{\\cos A}=$ <mark>$\\sin A\\cos A$</mark>\n\nRHS $=\\dfrac{1}{\\dfrac{\\sin A}{\\cos A}+\\dfrac{\\cos A}{\\sin A}}=\\dfrac{\\sin A\\cos A}{\\sin^2A+\\cos^2A}=\\sin A\\cos A$. LHS = RHS. Hence proved.\n\n:::tip Your answer must contain\n- both sides simplified separately\n- $\\sin^2A+\\cos^2A=1$ used on the RHS\n- 'Hence proved'\n:::\n\n**Marks are lost for:** cross-multiplying the given statement.",
+  "scheme": [
+   {
+    "step": "LHS written in sin and cos with common denominators",
+    "marks": 1
+   },
+   {
+    "step": "LHS $=\\sin A\\cos A$",
+    "marks": 1
+   },
+   {
+    "step": "RHS $=\\sin A\\cos A$ and conclusion",
+    "marks": 1
+   }
+  ],
+  "stars": 3,
+  "label": "NCERT-based",
+  "topic": "Proving identities",
+  "hint": "Convert everything to sin and cos; simplify each side on its own."
+ },
+ {
+  "id": "maths10-08-q15",
+  "chapter": "ch-08",
+  "type": "la5",
+  "marks": 5,
+  "stem": "Prove that $\\dfrac{\\sin\\theta-\\cos\\theta+1}{\\sin\\theta+\\cos\\theta-1}=\\dfrac{1}{\\sec\\theta-\\tan\\theta}$, using the identity $\\sec^2\\theta=1+\\tan^2\\theta$.",
+  "model_answer": "*How much to write: about 15 lines · 9 minutes.*\n\nDivide the numerator and the denominator of the LHS by $\\cos\\theta$: LHS $=\\dfrac{\\tan\\theta-1+\\sec\\theta}{\\tan\\theta+1-\\sec\\theta}$\n\nIn the numerator replace 1 by <mark>$\\sec^2\\theta-\\tan^2\\theta$</mark>: numerator $=(\\tan\\theta+\\sec\\theta)-(\\sec^2\\theta-\\tan^2\\theta)$\n\n$=(\\sec\\theta+\\tan\\theta)-(\\sec\\theta+\\tan\\theta)(\\sec\\theta-\\tan\\theta)=(\\sec\\theta+\\tan\\theta)(1-\\sec\\theta+\\tan\\theta)$\n\nLHS $=\\dfrac{(\\sec\\theta+\\tan\\theta)(\\tan\\theta+1-\\sec\\theta)}{\\tan\\theta+1-\\sec\\theta}=\\sec\\theta+\\tan\\theta$\n\n$\\sec\\theta+\\tan\\theta=\\dfrac{(\\sec\\theta+\\tan\\theta)(\\sec\\theta-\\tan\\theta)}{\\sec\\theta-\\tan\\theta}=\\dfrac{1}{\\sec\\theta-\\tan\\theta}=$ RHS. Hence proved.\n\n:::tip Your answer must contain\n- the division by $\\cos\\theta$\n- 1 replaced only in the numerator\n- the common factor shown before cancelling\n- 'Hence proved'\n:::\n\n**Marks are lost for:** replacing 1 in both numerator and denominator, which leads nowhere.",
+  "scheme": [
+   {
+    "step": "Divided by $\\cos\\theta$",
+    "marks": 1
+   },
+   {
+    "step": "$1=\\sec^2\\theta-\\tan^2\\theta$ used in the numerator",
+    "marks": 1
+   },
+   {
+    "step": "Numerator factorised",
+    "marks": 1.5
+   },
+   {
+    "step": "Cancelled to $\\sec\\theta+\\tan\\theta$",
+    "marks": 0.5
+   },
+   {
+    "step": "Shown equal to $\\dfrac{1}{\\sec\\theta-\\tan\\theta}$",
+    "marks": 1
+   }
+  ],
+  "stars": 3,
+  "label": "NCERT-based",
+  "topic": "Proving identities",
+  "hint": "Divide by $\\cos\\theta$, then write the 1 in the numerator as $\\sec^2\\theta-\\tan^2\\theta$."
+ },
+ {
+  "id": "maths10-08-q16",
+  "chapter": "ch-08",
+  "type": "case",
+  "marks": 4,
+  "stem": "**The ladder.** A painter leans a ladder 5 m long against a vertical wall. The foot of the ladder is 3 m from the wall, on level ground.",
+  "parts": [
+   {
+    "id": "i",
+    "stem": "How high up the wall does the ladder reach?",
+    "marks": 1,
+    "model_answer": "By Pythagoras: height $=\\sqrt{5^2-3^2}=4$ m.",
+    "scheme": [
+     {
+      "step": "4 m",
+      "marks": 1
+     }
+    ]
+   },
+   {
+    "id": "ii",
+    "stem": "If $\\theta$ is the angle the ladder makes with the ground, write $\\sin\\theta$ and $\\cos\\theta$.",
+    "marks": 1,
+    "model_answer": "From $\\theta$: opposite $=4$, adjacent $=3$, hypotenuse $=5$. $\\sin\\theta=\\dfrac45$, $\\cos\\theta=\\dfrac35$.",
+    "scheme": [
+     {
+      "step": "$\\sin\\theta=\\dfrac45$ and $\\cos\\theta=\\dfrac35$",
+      "marks": 1
+     }
+    ]
+   },
+   {
+    "id": "iii",
+    "stem": "The painter moves the ladder so that it makes $60^\\circ$ with the ground. How far is its foot from the wall now, and how high does it reach?<br>**OR** For safety the ladder is set at $30^\\circ$ to the **wall**. How far is its foot from the wall, and how high does it reach?",
+    "marks": 2,
+    "model_answer": "Distance $=5\\cos60^\\circ=2.5$ m; height $=5\\sin60^\\circ=\\dfrac{5\\sqrt3}{2}\\approx4.33$ m.<br>**OR:** the angle with the ground is $60^\\circ$ again (the angles of the triangle add to 180°), so the foot is 2.5 m from the wall and the ladder reaches about 4.33 m. Directly: distance $=5\\sin30^\\circ=2.5$ m, height $=5\\cos30^\\circ=\\dfrac{5\\sqrt3}{2}$ m.",
+    "scheme": [
+     {
+      "step": "Distance from the wall $=2.5$ m",
+      "marks": 1
+     },
+     {
+      "step": "Height $=\\dfrac{5\\sqrt3}{2}$ m",
+      "marks": 1
+     }
+    ]
+   }
+  ],
+  "model_answer": "*How much to write: about 8 lines · 6 minutes in all.*\n\n**(i)** Height $=\\sqrt{5^2-3^2}=4$ m.\n\n**(ii)** $\\sin\\theta=\\dfrac45$, $\\cos\\theta=\\dfrac35$.\n\n**(iii)** The ladder is the <u>hypotenuse</u>. Distance from the wall $=5\\cos60^\\circ=2.5$ m.\n\n$$\\boxed{\\text{height}=5\\sin60^\\circ=\\dfrac{5\\sqrt3}{2}\\ \\text{m}}$$\n\n**OR:** $30^\\circ$ with the wall: distance $=5\\sin30^\\circ=2.5$ m, height $=5\\cos30^\\circ=\\dfrac{5\\sqrt3}{2}$ m.\n\n:::tip Your answer must contain\n- a small figure with the angle marked\n- the ratio chosen for each length\n- units (m)\n:::\n\n**Marks are lost for:** using the angle with the wall as if it were the angle with the ground.",
+  "stars": 3,
+  "label": "PYQ-style",
+  "topic": "Sides and angles of a right triangle",
+  "hint": "The ladder is always the hypotenuse."
+ }
+]

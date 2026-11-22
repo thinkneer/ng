@@ -1,0 +1,114 @@
+[
+  {
+    "id": "hook-everest",
+    "kind": "event",
+    "title": "Measuring a mountain nobody had climbed",
+    "svg": "<svg viewBox=\"0 0 300 170\" role=\"img\" aria-label=\"A surveyor on a plain measuring the angle to a distant peak\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"><path d=\"M14,146 H286\" stroke-width=\"1\"/><path d=\"M150,146 L214,44 L250,104 L270,80 L286,146\" stroke-width=\"1.5\"/><path d=\"M40,146 L214,44\" class=\"u\"/><path d=\"M76.0,146.0 A36,36 0 0 0 71.2,128.0\" stroke-width=\"1.2\"/><circle cx=\"40\" cy=\"146\" r=\"3\" fill=\"currentColor\"/><text x=\"214\" y=\"36\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">Peak XV</text><text x=\"40\" y=\"164\" font-size=\"10\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">survey station</text><text x=\"96\" y=\"140\" font-size=\"10\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">measured angle</text><text x=\"150\" y=\"164\" font-size=\"10\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">known distance</text></svg>",
+    "tags": [
+      "story"
+    ],
+    "back": "In 1852 Radhanath Sikdar is credited with working out, from measured angles, that Peak XV (Everest) was the highest known."
+  },
+  {
+    "id": "elevation-depression",
+    "kind": "figure",
+    "title": "Angle of elevation and angle of depression",
+    "svg": "ref: notes#elevation-depression",
+    "stars": 3,
+    "tags": [
+      "diagram"
+    ],
+    "back": "Both are measured from the horizontal. The angle of depression from the top equals the angle of elevation from the ground."
+  },
+  {
+    "id": "height-from-distance",
+    "kind": "formula",
+    "title": "Height from distance and angle",
+    "tex": "h=d\\tan\\theta",
+    "legend": [
+      "h = height",
+      "d = ground distance",
+      "θ = angle of elevation"
+    ],
+    "stars": 3,
+    "back": "Use tan when the question gives a height and a distance along the ground."
+  },
+  {
+    "id": "slant-length",
+    "kind": "formula",
+    "title": "A rope, ladder or kite string",
+    "tex": "\\begin{gathered}h=l\\sin\\theta\\\\ d=l\\cos\\theta\\end{gathered}",
+    "legend": [
+      "l = slant length",
+      "θ = angle with the ground"
+    ],
+    "stars": 3,
+    "back": "The slant length is the hypotenuse: sin for the height, cos for the foot distance."
+  },
+  {
+    "id": "sun-shadow",
+    "kind": "formula",
+    "title": "Sun's elevation from a shadow",
+    "tex": "\\tan\\theta=\\dfrac{\\text{height}}{\\text{shadow}}",
+    "stars": 3,
+    "tags": [
+      "1-mark"
+    ],
+    "back": "Shadow = height: 45°. Shadow = √3 × height: 30°. Height = √3 × shadow: 60°."
+  },
+  {
+    "id": "two-points-one-tower",
+    "kind": "figure",
+    "title": "Two points on the same side",
+    "svg": "ref: notes#two-points-one-tower",
+    "stars": 3,
+    "tags": [
+      "diagram",
+      "5-mark"
+    ],
+    "back": "Two triangles share the height. Write $h=x\\tan60^\\circ$ and $h=(x+40)\\tan30^\\circ$, then solve: $h=20\\sqrt3$ m."
+  },
+  {
+    "id": "building-and-tower",
+    "kind": "figure",
+    "title": "Looking up and down from one point",
+    "svg": "ref: notes#building-and-tower",
+    "stars": 3,
+    "tags": [
+      "diagram",
+      "5-mark"
+    ],
+    "back": "Draw the horizontal through the observer. Lower part = building height; upper part from tan 60°. Add the two."
+  },
+  {
+    "id": "same-or-opposite",
+    "kind": "compare",
+    "title": "Two objects seen from a tower",
+    "tex": "\\begin{gathered}\\text{same side: subtract}\\\\ \\text{opposite sides: add}\\end{gathered}",
+    "stars": 2,
+    "back": "The nearer object always has the larger angle."
+  },
+  {
+    "id": "observer-height",
+    "kind": "formula",
+    "title": "Observer of height 1.5 m",
+    "tex": "\\tan\\theta=\\dfrac{H-1.5}{d}",
+    "legend": [
+      "H = height of the object",
+      "d = ground distance"
+    ],
+    "stars": 2,
+    "tags": [
+      "trap"
+    ],
+    "back": "The triangle starts at eye level. Forgetting this loses the last mark."
+  },
+  {
+    "id": "answer-routine",
+    "kind": "process",
+    "title": "Every heights-and-distances answer",
+    "tex": "\\begin{gathered}\\text{draw}\\to\\text{mark}\\\\ \\to\\text{one ratio}\\\\ \\to\\text{solve}\\to\\text{unit}\\end{gathered}",
+    "stars": 3,
+    "back": "The labelled figure carries a mark. Keep √3 as a surd until the last line."
+  }
+]

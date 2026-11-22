@@ -1,0 +1,353 @@
+[
+ {
+  "id": "maths10-09-q01",
+  "chapter": "ch-09",
+  "type": "mcq",
+  "marks": 1,
+  "stem": "A pole 6 m high casts a shadow $2\\sqrt3$ m long on the ground. The Sun's elevation is",
+  "options": [
+   "$30^\\circ$",
+   "$45^\\circ$",
+   "$60^\\circ$",
+   "$90^\\circ$"
+  ],
+  "answer": "C",
+  "model_answer": "**(c).** $\\tan\\theta=\\dfrac{6}{2\\sqrt3}=\\sqrt3$, so $\\theta=60^\\circ$.",
+  "stars": 3,
+  "label": "NCERT-based",
+  "topic": "Sun's elevation",
+  "hint": "tan θ = height ÷ shadow."
+ },
+ {
+  "id": "maths10-09-q02",
+  "chapter": "ch-09",
+  "type": "mcq",
+  "marks": 1,
+  "stem": "At a certain time the length of the shadow of a tower equals its height. The angle of elevation of the Sun is",
+  "options": [
+   "$30^\\circ$",
+   "$45^\\circ$",
+   "$60^\\circ$",
+   "$0^\\circ$"
+  ],
+  "answer": "B",
+  "model_answer": "**(b).** $\\tan\\theta=\\dfrac{h}{h}=1$, so $\\theta=45^\\circ$.",
+  "stars": 3,
+  "label": "PYQ-style",
+  "topic": "Sun's elevation",
+  "hint": "Height ÷ shadow = 1."
+ },
+ {
+  "id": "maths10-09-q03",
+  "chapter": "ch-09",
+  "type": "mcq",
+  "marks": 1,
+  "stem": "A ladder 15 m long just reaches the top of a vertical wall. If the ladder makes an angle of $60^\\circ$ with the wall, the height of the wall is",
+  "options": [
+   "$15\\sqrt3$ m",
+   "$\\dfrac{15\\sqrt3}{2}$ m",
+   "$\\dfrac{15}{2}$ m",
+   "$15$ m"
+  ],
+  "answer": "C",
+  "model_answer": "**(c).** The angle is with the **wall**, so the wall is the adjacent side: height $=15\\cos60^\\circ=\\dfrac{15}{2}$ m.",
+  "stars": 3,
+  "label": "NCERT-based",
+  "topic": "One right triangle",
+  "hint": "Which side is next to the 60° angle?"
+ },
+ {
+  "id": "maths10-09-q04",
+  "chapter": "ch-09",
+  "type": "mcq",
+  "marks": 1,
+  "stem": "From the top of a tower 150 m high, the angle of depression of a car on the ground is $30^\\circ$. The distance of the car from the foot of the tower is",
+  "options": [
+   "$150$ m",
+   "$50\\sqrt3$ m",
+   "$150\\sqrt3$ m",
+   "$75$ m"
+  ],
+  "answer": "C",
+  "model_answer": "**(c).** The angle of elevation of the top from the car is also $30^\\circ$. $\\tan30^\\circ=\\dfrac{150}{d}$, so $d=150\\sqrt3$ m.",
+  "stars": 3,
+  "label": "PYQ-style",
+  "topic": "Angle of depression",
+  "hint": "Transfer the angle to the ground."
+ },
+ {
+  "id": "maths10-09-q05",
+  "chapter": "ch-09",
+  "type": "mcq",
+  "marks": 1,
+  "stem": "An observer walks straight towards the foot of a tower. The angle of elevation of the top of the tower",
+  "options": [
+   "decreases",
+   "increases",
+   "stays the same",
+   "first increases, then decreases"
+  ],
+  "answer": "B",
+  "model_answer": "**(b).** $\\tan\\theta=\\dfrac{h}{d}$. As the distance $d$ gets smaller, $\\tan\\theta$ and so $\\theta$ get larger.",
+  "stars": 2,
+  "label": "PYQ-style",
+  "topic": "Angle of elevation",
+  "hint": "What happens to height ÷ distance as the distance shrinks?"
+ },
+ {
+  "id": "maths10-09-q06",
+  "chapter": "ch-09",
+  "type": "ar",
+  "marks": 1,
+  "stem": "**Assertion (A):** The angle of elevation of the top of a tower increases as the observer moves towards the foot of the tower.<br>**Reason (R):** For a tower of height $h$ seen from a distance $d$, $\\tan\\theta=\\dfrac hd$, which increases as $d$ decreases.",
+  "options": [
+   "Both A and R are true, and R is the correct explanation of A.",
+   "Both A and R are true, but R is not the correct explanation of A.",
+   "A is true, but R is false.",
+   "A is false, but R is true."
+  ],
+  "answer": "A",
+  "model_answer": "**(a).** Both statements are true, and R is exactly why the angle increases.",
+  "stars": 2,
+  "label": "PYQ-style",
+  "topic": "Angle of elevation",
+  "hint": "Use tan θ = h/d."
+ },
+ {
+  "id": "maths10-09-q07",
+  "chapter": "ch-09",
+  "type": "ar",
+  "marks": 1,
+  "stem": "**Assertion (A):** If the length of the shadow of a tower is equal to its height, the Sun's elevation is $60^\\circ$.<br>**Reason (R):** $\\tan45^\\circ=1$.",
+  "options": [
+   "Both A and R are true, and R is the correct explanation of A.",
+   "Both A and R are true, but R is not the correct explanation of A.",
+   "A is true, but R is false.",
+   "A is false, but R is true."
+  ],
+  "answer": "D",
+  "model_answer": "**(d).** Height = shadow gives $\\tan\\theta=1$, so the elevation is $45^\\circ$, not $60^\\circ$. A is false; R is true.",
+  "stars": 3,
+  "label": "PYQ-style",
+  "topic": "Sun's elevation",
+  "hint": "Work out tan θ for equal height and shadow."
+ },
+ {
+  "id": "maths10-09-q08",
+  "chapter": "ch-09",
+  "type": "vsa2",
+  "marks": 2,
+  "stem": "A circus artist climbs a 20 m long rope that is stretched tight and tied from the top of a vertical pole to the ground. The rope makes an angle of $30^\\circ$ with the ground. Find the height of the pole.",
+  "model_answer": "*How much to write: about 5 lines · 3 minutes.*\n\nThe rope is the <u>hypotenuse</u> and the pole is opposite the $30^\\circ$ angle: <mark>$\\sin30^\\circ=\\dfrac{h}{20}$</mark>\n\n$\\dfrac12=\\dfrac{h}{20}\\Rightarrow h=10$. The height of the pole is 10 m.\n\n$$\\boxed{h=10\\ \\text{m}}$$\n\n:::tip Your answer must contain\n- a small labelled figure\n- the ratio before the numbers\n- the unit\n:::\n\n**Marks are lost for:** using tan: the rope is a slant length, not the ground distance.",
+  "scheme": [
+   {
+    "step": "Figure and $\\sin30^\\circ=\\dfrac{h}{20}$",
+    "marks": 1
+   },
+   {
+    "step": "$h=10$ m",
+    "marks": 1
+   }
+  ],
+  "stars": 3,
+  "label": "NCERT-based",
+  "topic": "One right triangle",
+  "hint": "Rope = hypotenuse, pole = opposite side."
+ },
+ {
+  "id": "maths10-09-q09",
+  "chapter": "ch-09",
+  "type": "vsa2",
+  "marks": 2,
+  "stem": "A kite flies at a height of 60 m above the ground. Its string is tied to a point on the ground and makes $60^\\circ$ with the ground. Find the length of the string, assuming there is no slack.",
+  "model_answer": "*How much to write: about 5 lines · 3 minutes.*\n\nHeight 60 m is opposite the $60^\\circ$ angle; the string $l$ is the hypotenuse: <mark>$\\sin60^\\circ=\\dfrac{60}{l}$</mark>\n\n$l=\\dfrac{60\\times2}{\\sqrt3}=\\dfrac{120}{\\sqrt3}=\\dfrac{120\\sqrt3}{3}$\n\n$$\\boxed{l=40\\sqrt3\\ \\text{m}}$$\n\n:::tip Your answer must contain\n- figure\n- the ratio\n- a rationalised answer with unit\n:::\n\n**Marks are lost for:** leaving the answer as $\\dfrac{120}{\\sqrt3}$.",
+  "scheme": [
+   {
+    "step": "$\\sin60^\\circ=\\dfrac{60}{l}$",
+    "marks": 1
+   },
+   {
+    "step": "$l=40\\sqrt3$ m",
+    "marks": 1
+   }
+  ],
+  "stars": 3,
+  "label": "NCERT-based",
+  "topic": "One right triangle",
+  "hint": "String = hypotenuse."
+ },
+ {
+  "id": "maths10-09-q10",
+  "chapter": "ch-09",
+  "type": "sa3",
+  "marks": 3,
+  "stem": "A tree breaks in a storm, and its broken part bends so that the top touches the ground, making an angle of $30^\\circ$ with it. The top touches the ground 8 m from the foot of the tree. Find the height the tree had.",
+  "model_answer": "*How much to write: about 9 lines · 5 minutes.*\n\nLet $AB$ be the standing part and $AC$ the broken part, with $BC=8$ m and $\\angle ACB=30^\\circ$.\n\n$\\tan30^\\circ=\\dfrac{AB}{8}\\Rightarrow AB=\\dfrac{8}{\\sqrt3}$ m\n\n$\\cos30^\\circ=\\dfrac{8}{AC}\\Rightarrow AC=\\dfrac{16}{\\sqrt3}$ m\n\n<mark>Height of the tree $=AB+AC$</mark> $=\\dfrac{24}{\\sqrt3}=8\\sqrt3$ m\n\n$$\\boxed{8\\sqrt3\\ \\text{m}}$$\n\n:::tip Your answer must contain\n- figure with the broken part as the hypotenuse\n- both parts found\n- the sum\n:::\n\n**Marks are lost for:** giving only the standing part as the height.",
+  "scheme": [
+   {
+    "step": "Figure; standing part $\\dfrac{8}{\\sqrt3}$ m",
+    "marks": 1
+   },
+   {
+    "step": "Broken part $\\dfrac{16}{\\sqrt3}$ m",
+    "marks": 1
+   },
+   {
+    "step": "Total height $8\\sqrt3$ m",
+    "marks": 1
+   }
+  ],
+  "stars": 3,
+  "label": "NCERT-based",
+  "topic": "Broken tree",
+  "hint": "The broken part is the hypotenuse; the tree's height is standing part + broken part."
+ },
+ {
+  "id": "maths10-09-q11",
+  "chapter": "ch-09",
+  "type": "sa3",
+  "marks": 3,
+  "stem": "A boy 1.5 m tall stands at some distance from a 30 m tall building. As he walks towards the building, the angle of elevation of its top from his eyes increases from $30^\\circ$ to $60^\\circ$. Find the distance he walked.",
+  "model_answer": "*How much to write: about 9 lines · 5 minutes.*\n\nHeight of the building above his eyes $=30-1.5=28.5$ m.\n\nFirst position: $\\tan30^\\circ=\\dfrac{28.5}{d_1}\\Rightarrow d_1=28.5\\sqrt3$ m. Second position: $\\tan60^\\circ=\\dfrac{28.5}{d_2}\\Rightarrow d_2=\\dfrac{28.5}{\\sqrt3}$ m.\n\n<mark>Distance walked $=d_1-d_2$</mark> $=28.5\\left(\\sqrt3-\\dfrac{1}{\\sqrt3}\\right)=28.5\\times\\dfrac{2}{\\sqrt3}=\\dfrac{57}{\\sqrt3}=19\\sqrt3$ m\n\n$$\\boxed{19\\sqrt3\\ \\text{m}}$$\n\n:::tip Your answer must contain\n- the 1.5 m subtracted\n- two triangles with the same height\n- the difference of the two distances\n:::\n\n**Marks are lost for:** using 30 m instead of 28.5 m.",
+  "scheme": [
+   {
+    "step": "Effective height 28.5 m and figure",
+    "marks": 1
+   },
+   {
+    "step": "$d_1=28.5\\sqrt3$ m and $d_2=\\dfrac{28.5}{\\sqrt3}$ m",
+    "marks": 1
+   },
+   {
+    "step": "Distance walked $19\\sqrt3$ m",
+    "marks": 1
+   }
+  ],
+  "stars": 3,
+  "label": "NCERT-based",
+  "topic": "Observer's height",
+  "hint": "Subtract the boy's height first; then two triangles with the same vertical side."
+ },
+ {
+  "id": "maths10-09-q12",
+  "chapter": "ch-09",
+  "type": "la5",
+  "marks": 5,
+  "stem": "From a point on the ground, the angles of elevation of the bottom and the top of a transmission tower fixed on top of a 20 m high building are $45^\\circ$ and $60^\\circ$. Find the height of the tower.",
+  "model_answer": "*How much to write: about 15 lines · 9 minutes.*\n\nLet $BC=20$ m be the building, $CD=h$ the tower on it and $A$ the point on the ground, with $\\angle BAC=45^\\circ$ and $\\angle BAD=60^\\circ$.\n\nIn $\\triangle ABC$: $\\tan45^\\circ=\\dfrac{BC}{AB}\\Rightarrow AB=20$ m\n\nIn $\\triangle ABD$: <mark>$\\tan60^\\circ=\\dfrac{BD}{AB}=\\dfrac{20+h}{20}$</mark>\n\n$20+h=20\\sqrt3\\Rightarrow h=20\\sqrt3-20$\n\n$$\\boxed{h=20(\\sqrt3-1)\\ \\text{m}}$$\n\n:::tip Your answer must contain\n- figure with both angles at the same point\n- the shared ground distance\n- the whole height $20+h$ in the second triangle\n:::\n\n**Marks are lost for:** writing $\\tan60^\\circ=\\dfrac{h}{20}$: the $60^\\circ$ angle looks at the top of the tower, measured from the ground.",
+  "scheme": [
+   {
+    "step": "Labelled figure",
+    "marks": 1
+   },
+   {
+    "step": "$AB=20$ m from the first triangle",
+    "marks": 1
+   },
+   {
+    "step": "$\\tan60^\\circ=\\dfrac{20+h}{20}$",
+    "marks": 1.5
+   },
+   {
+    "step": "$h=20(\\sqrt3-1)$ m",
+    "marks": 1
+   },
+   {
+    "step": "Answer stated with unit",
+    "marks": 0.5
+   }
+  ],
+  "stars": 3,
+  "label": "NCERT-based",
+  "topic": "Two right triangles",
+  "hint": "Both triangles share the ground distance AB."
+ },
+ {
+  "id": "maths10-09-q13",
+  "chapter": "ch-09",
+  "type": "la5",
+  "marks": 5,
+  "stem": "Two poles of equal height stand opposite each other on either side of a road 80 m wide. From a point on the road between them, the angles of elevation of the tops of the poles are $60^\\circ$ and $30^\\circ$. Find the height of the poles and the distances of the point from the poles.",
+  "model_answer": "*How much to write: about 15 lines · 9 minutes.*\n\nLet the poles $AB$ and $CD$ have height $h$, and let the point $P$ be $x$ m from $B$, so $PD=80-x$.\n\nIn $\\triangle ABP$: $\\tan60^\\circ=\\dfrac hx\\Rightarrow h=\\sqrt3\\,x$ … (1)\n\nIn $\\triangle CDP$: $\\tan30^\\circ=\\dfrac{h}{80-x}\\Rightarrow\\sqrt3\\,h=80-x$ … (2)\n\nPut (1) in (2): <mark>$3x=80-x\\Rightarrow x=20$</mark>, and $h=20\\sqrt3$.\n\n$$\\boxed{\\begin{aligned}&h=20\\sqrt3\\ \\text{m}\\\\&\\text{distances: }20\\ \\text{m and }60\\ \\text{m}\\end{aligned}}$$\n\n:::tip Your answer must contain\n- figure\n- two numbered equations\n- all three answers\n:::\n\n**Marks are lost for:** giving only the height and forgetting the two distances.",
+  "scheme": [
+   {
+    "step": "Labelled figure with $x$ and $80-x$",
+    "marks": 1
+   },
+   {
+    "step": "$h=\\sqrt3x$",
+    "marks": 1
+   },
+   {
+    "step": "$\\sqrt3h=80-x$",
+    "marks": 1
+   },
+   {
+    "step": "$x=20$",
+    "marks": 1
+   },
+   {
+    "step": "Height $20\\sqrt3$ m; distances 20 m and 60 m",
+    "marks": 1
+   }
+  ],
+  "stars": 3,
+  "label": "NCERT-based",
+  "topic": "Two right triangles",
+  "hint": "One triangle on each side of the point; the heights are equal."
+ },
+ {
+  "id": "maths10-09-q14",
+  "chapter": "ch-09",
+  "type": "case",
+  "marks": 4,
+  "stem": "**The lighthouse.** A lighthouse keeper stands at the top of a lighthouse, 75 m above sea level. He sees two ships sailing straight towards the lighthouse, one directly behind the other. The angles of depression of the ships are $30^\\circ$ and $45^\\circ$.",
+  "parts": [
+   {
+    "id": "i",
+    "stem": "Which ship is nearer to the lighthouse: the one seen at $30^\\circ$ or the one seen at $45^\\circ$?",
+    "marks": 1,
+    "model_answer": "The one at $45^\\circ$. A nearer object is seen at a larger angle of depression.",
+    "scheme": [
+     {
+      "step": "The ship at $45^\\circ$",
+      "marks": 1
+     }
+    ]
+   },
+   {
+    "id": "ii",
+    "stem": "How far is the nearer ship from the foot of the lighthouse?",
+    "marks": 1,
+    "model_answer": "$\\tan45^\\circ=\\dfrac{75}{d}\\Rightarrow d=75$ m.",
+    "scheme": [
+     {
+      "step": "75 m",
+      "marks": 1
+     }
+    ]
+   },
+   {
+    "id": "iii",
+    "stem": "Find the distance between the two ships.<br>**OR** If the two ships were on opposite sides of the lighthouse, with the same angles of depression, how far apart would they be?",
+    "marks": 2,
+    "model_answer": "Farther ship: $\\tan30^\\circ=\\dfrac{75}{D}\\Rightarrow D=75\\sqrt3$ m. Distance between the ships $=75\\sqrt3-75=75(\\sqrt3-1)$ m ≈ 54.9 m.<br>**OR:** on opposite sides the distances add: $75\\sqrt3+75=75(\\sqrt3+1)$ m ≈ 204.9 m.",
+    "scheme": [
+     {
+      "step": "Farther ship at $75\\sqrt3$ m",
+      "marks": 1
+     },
+     {
+      "step": "$75(\\sqrt3-1)$ m (OR: $75(\\sqrt3+1)$ m)",
+      "marks": 1
+     }
+    ]
+   }
+  ],
+  "model_answer": "*How much to write: about 8 lines · 6 minutes in all.*\n\n**(i)** The ship at $45^\\circ$ is nearer: <u>larger angle of depression, nearer object</u>.\n\n**(ii)** $\\tan45^\\circ=\\dfrac{75}{d}\\Rightarrow d=75$ m.\n\n**(iii)** $\\tan30^\\circ=\\dfrac{75}{D}\\Rightarrow D=75\\sqrt3$ m.\n\n$$\\boxed{75(\\sqrt3-1)\\ \\text{m apart}}$$\n\n**OR:** opposite sides: $75(\\sqrt3+1)$ m.\n\n:::tip Your answer must contain\n- a figure with both angles of depression moved to sea level\n- one tan equation for each ship\n- the unit\n:::\n\n**Marks are lost for:** adding the distances when the ships are on the same side.",
+  "stars": 3,
+  "label": "PYQ-style",
+  "topic": "Angles of depression",
+  "hint": "Move each angle of depression down to the ship; both triangles have height 75 m."
+ }
+]

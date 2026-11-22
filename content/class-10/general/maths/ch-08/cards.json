@@ -1,0 +1,112 @@
+[
+  {
+    "id": "hook-jya",
+    "kind": "event",
+    "title": "Where the word sine comes from",
+    "svg": "<svg viewBox=\"0 0 300 170\" role=\"img\" aria-label=\"The word jya becoming sine\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"><text x=\"40\" y=\"70\" font-size=\"26\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">jya</text><text x=\"115\" y=\"70\" font-size=\"26\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">jiba</text><text x=\"195\" y=\"70\" font-size=\"26\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">sinus</text><text x=\"262\" y=\"70\" font-size=\"26\" text-anchor=\"middle\" fill=\"#E0B400\" stroke=\"none\">sine</text><path d=\"M66,62 H84 M146,62 H160 M232,62 H240\" stroke-width=\"1.5\"/><text x=\"40\" y=\"96\" font-size=\"10\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">Sanskrit</text><text x=\"115\" y=\"96\" font-size=\"10\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">Arabic</text><text x=\"195\" y=\"96\" font-size=\"10\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">Latin</text><text x=\"262\" y=\"96\" font-size=\"10\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">English</text><text x=\"150\" y=\"140\" font-size=\"11\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">about 500 CE to today</text></svg>",
+    "tags": [
+      "story"
+    ],
+    "back": "Aryabhata's *jya* (half-chord) became Arabic *jiba*, was read as *jaib*, and was put into Latin as *sinus*: sine."
+  },
+  {
+    "id": "right-triangle-sides",
+    "kind": "figure",
+    "title": "Sides of a right triangle from angle θ",
+    "svg": "ref: notes#right-triangle-sides",
+    "stars": 3,
+    "tags": [
+      "diagram"
+    ],
+    "back": "Opposite faces the angle, adjacent is beside it, hypotenuse faces the right angle. Change the angle and opposite and adjacent swap."
+  },
+  {
+    "id": "sin-cos-tan",
+    "kind": "formula",
+    "title": "The three main ratios",
+    "tex": "\\begin{gathered}\\sin\\theta=\\dfrac{O}{H}\\quad\\cos\\theta=\\dfrac{A}{H}\\\\ \\tan\\theta=\\dfrac{O}{A}\\end{gathered}",
+    "legend": [
+      "O = opposite side",
+      "A = adjacent side",
+      "H = hypotenuse"
+    ],
+    "stars": 3,
+    "back": "Pandit Badri Prasad, Har Har Bole: P/H, B/H, P/B. Or SOH-CAH-TOA."
+  },
+  {
+    "id": "reciprocals",
+    "kind": "formula",
+    "title": "The reciprocal ratios",
+    "tex": "\\begin{gathered}\\operatorname{cosec}\\theta=\\dfrac{1}{\\sin\\theta}\\\\ \\sec\\theta=\\dfrac{1}{\\cos\\theta}\\quad\\cot\\theta=\\dfrac{1}{\\tan\\theta}\\end{gathered}",
+    "stars": 2,
+    "back": "cosec goes with sin, sec with cos, cot with tan. Also $\\tan\\theta=\\dfrac{\\sin\\theta}{\\cos\\theta}$."
+  },
+  {
+    "id": "special-triangles",
+    "kind": "figure",
+    "title": "The two triangles behind the table",
+    "svg": "ref: notes#special-triangles",
+    "stars": 3,
+    "tags": [
+      "diagram"
+    ],
+    "back": "Half a square: 1, 1, √2 gives 45°. Half an equilateral triangle: 1, √3, 2 gives 30° and 60°."
+  },
+  {
+    "id": "sine-row",
+    "kind": "formula",
+    "title": "Sine of 0°, 30°, 45°, 60°, 90°",
+    "tex": "0,\\ \\dfrac12,\\ \\dfrac{1}{\\sqrt2},\\ \\dfrac{\\sqrt3}{2},\\ 1",
+    "stars": 3,
+    "tags": [
+      "1-mark"
+    ],
+    "back": "√0, √1, √2, √3, √4, each over 2. Cosine is the same list backwards."
+  },
+  {
+    "id": "tan-row",
+    "kind": "formula",
+    "title": "Tangent of 0°, 30°, 45°, 60°, 90°",
+    "tex": "0,\\ \\dfrac{1}{\\sqrt3},\\ 1,\\ \\sqrt3,\\ \\text{n.d.}",
+    "stars": 3,
+    "tags": [
+      "1-mark"
+    ],
+    "back": "tan = sin ÷ cos. At 90° the adjacent side is zero, so tan 90° is not defined."
+  },
+  {
+    "id": "identity-one",
+    "kind": "formula",
+    "title": "First identity",
+    "tex": "\\sin^2\\theta+\\cos^2\\theta=1",
+    "stars": 3,
+    "back": "Pythagoras divided by hypotenuse². Rearranged: $1-\\sin^2\\theta=\\cos^2\\theta$."
+  },
+  {
+    "id": "identity-two",
+    "kind": "formula",
+    "title": "Second identity",
+    "tex": "1+\\tan^2\\theta=\\sec^2\\theta",
+    "stars": 3,
+    "back": "So $\\sec^2\\theta-\\tan^2\\theta=1$, which factorises as $(\\sec\\theta+\\tan\\theta)(\\sec\\theta-\\tan\\theta)=1$."
+  },
+  {
+    "id": "identity-three",
+    "kind": "formula",
+    "title": "Third identity",
+    "tex": "1+\\cot^2\\theta=\\operatorname{cosec}^2\\theta",
+    "stars": 3,
+    "back": "So $\\operatorname{cosec}^2\\theta-\\cot^2\\theta=1$."
+  },
+  {
+    "id": "proof-routine",
+    "kind": "process",
+    "title": "Proving an identity",
+    "tex": "\\begin{gathered}\\text{harder side}\\\\ \\downarrow\\ \\sin,\\ \\cos\\\\ \\downarrow\\ \\text{combine}\\\\ \\downarrow\\ \\text{identity}\\\\ \\text{other side}\\end{gathered}",
+    "stars": 3,
+    "tags": [
+      "3-mark"
+    ],
+    "back": "Work on one side only. Never cross-multiply the statement you are proving."
+  }
+]

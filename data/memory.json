@@ -59,6 +59,81 @@
    "prompt": "Which hangs from the cave ceiling, a stalactite or a stalagmite?"
   }
  ],
+ "maths/ch-08": [
+  {
+   "id": "pandit-badri-prasad",
+   "title": "Which side over which?",
+   "trick": "**P**andit **B**adri **P**rasad, **H**ar **H**ar **B**ole",
+   "meaning": [
+    "Write P, B, P on top and H, H, B below: $\\sin=\\dfrac PH$, $\\cos=\\dfrac BH$, $\\tan=\\dfrac PB$ (P = perpendicular, B = base, H = hypotenuse).",
+    "The same thing in English: **SOH-CAH-TOA** (Sine = Opposite/Hypotenuse, Cosine = Adjacent/Hypotenuse, Tangent = Opposite/Adjacent)."
+   ],
+   "prompt": "Write sin θ, cos θ and tan θ in terms of the sides."
+  },
+  {
+   "id": "root-over-two",
+   "title": "The sine values without memorising",
+   "trick": "Write **0, 1, 2, 3, 4**; take the **square root**; divide by **2**",
+   "meaning": [
+    "$\\dfrac{\\sqrt0}{2},\\dfrac{\\sqrt1}{2},\\dfrac{\\sqrt2}{2},\\dfrac{\\sqrt3}{2},\\dfrac{\\sqrt4}{2}$ = $0,\\ \\dfrac12,\\ \\dfrac{1}{\\sqrt2},\\ \\dfrac{\\sqrt3}{2},\\ 1$: the sines of 0°, 30°, 45°, 60°, 90°.",
+    "The cosine column is the same list written backwards. tan is sin ÷ cos."
+   ],
+   "prompt": "How do you build the sine values from 0, 1, 2, 3, 4?"
+  },
+  {
+   "id": "standing-or-sleeping-strip",
+   "title": "dx or dy?",
+   "trick": "**Standing strip → dx. Sleeping strip → dy.**",
+   "meaning": [
+    "A vertical (standing) strip has width $dx$ and height $y$: area $=\\int y\\,dx$.",
+    "A horizontal (sleeping) strip has height $dy$ and length $x$: area $=\\int x\\,dy$."
+   ],
+   "prompt": "A horizontal strip is used. Is the integral in dx or dy?"
+  },
+  {
+   "id": "area-is-never-negative",
+   "title": "Below the axis",
+   "trick": "**Area never goes negative: split and take the modulus**",
+   "meaning": [
+    "Where the curve is below the $x$-axis, the integral comes out negative; take its absolute value before adding.",
+    "Where there is a corner (a modulus), split the integral at the corner."
+   ],
+   "prompt": "The integral for part of a region comes out as −2. What do you add to the area?"
+  }
+ ],
+ "maths/ch-09": [
+  {
+   "id": "eyes-up-eyes-down",
+   "title": "Elevation or depression?",
+   "trick": "**Elevation = eyes up. Depression = eyes down.** Both start from the **horizontal**.",
+   "meaning": [
+    "Looking up at a kite, a tower top or an aeroplane: angle of elevation.",
+    "Looking down from a cliff, a tower or a balloon: angle of depression. It equals the angle of elevation at the object on the ground."
+   ],
+   "prompt": "From what line are the angles of elevation and depression measured?"
+  },
+  {
+   "id": "boss-and-its-power",
+   "title": "Order and degree",
+   "trick": "**Order = the boss; degree = the boss's power**",
+   "meaning": [
+    "**Order:** the highest derivative present (the boss).",
+    "**Degree:** the power of that highest derivative, once the equation is a polynomial in derivatives. If it is not ($\\sin y'$, $e^{y''}$), the degree is not defined."
+   ],
+   "prompt": "How do you read the order and the degree of a differential equation?"
+  },
+  {
+   "id": "p-up-q-in",
+   "title": "Linear equation dy/dx + Py = Q",
+   "trick": "**P goes up, Q goes in**",
+   "meaning": [
+    "**P goes up** into the power: I.F. $=e^{\\int P\\,dx}$.",
+    "**Q goes in** to the integral: $y\\cdot(\\text{I.F.})=\\int Q\\cdot(\\text{I.F.})\\,dx+C$.",
+    "First make the coefficient of $\\dfrac{dy}{dx}$ equal to 1."
+   ],
+   "prompt": "Where do P and Q go in the solution of a linear differential equation?"
+  }
+ ],
  "physics/ch-01": [
   {
    "id": "field-line-rules",
@@ -967,51 +1042,6 @@
     "Then **add** the two forms: $2I$ is usually an easy integral."
    ],
    "prompt": "What do you replace x by in the property for ∫ from a to b?"
-  }
- ],
- "maths/ch-08": [
-  {
-   "id": "standing-or-sleeping-strip",
-   "title": "dx or dy?",
-   "trick": "**Standing strip → dx. Sleeping strip → dy.**",
-   "meaning": [
-    "A vertical (standing) strip has width $dx$ and height $y$: area $=\\int y\\,dx$.",
-    "A horizontal (sleeping) strip has height $dy$ and length $x$: area $=\\int x\\,dy$."
-   ],
-   "prompt": "A horizontal strip is used. Is the integral in dx or dy?"
-  },
-  {
-   "id": "area-is-never-negative",
-   "title": "Below the axis",
-   "trick": "**Area never goes negative: split and take the modulus**",
-   "meaning": [
-    "Where the curve is below the $x$-axis, the integral comes out negative; take its absolute value before adding.",
-    "Where there is a corner (a modulus), split the integral at the corner."
-   ],
-   "prompt": "The integral for part of a region comes out as −2. What do you add to the area?"
-  }
- ],
- "maths/ch-09": [
-  {
-   "id": "boss-and-its-power",
-   "title": "Order and degree",
-   "trick": "**Order = the boss; degree = the boss's power**",
-   "meaning": [
-    "**Order:** the highest derivative present (the boss).",
-    "**Degree:** the power of that highest derivative, once the equation is a polynomial in derivatives. If it is not ($\\sin y'$, $e^{y''}$), the degree is not defined."
-   ],
-   "prompt": "How do you read the order and the degree of a differential equation?"
-  },
-  {
-   "id": "p-up-q-in",
-   "title": "Linear equation dy/dx + Py = Q",
-   "trick": "**P goes up, Q goes in**",
-   "meaning": [
-    "**P goes up** into the power: I.F. $=e^{\\int P\\,dx}$.",
-    "**Q goes in** to the integral: $y\\cdot(\\text{I.F.})=\\int Q\\cdot(\\text{I.F.})\\,dx+C$.",
-    "First make the coefficient of $\\dfrac{dy}{dx}$ equal to 1."
-   ],
-   "prompt": "Where do P and Q go in the solution of a linear differential equation?"
   }
  ],
  "maths/ch-10": [
@@ -2114,7 +2144,7 @@
    "title": "Language is the key to the prison",
    "trick": "Language is the key to the prison",
    "meaning": [
-    "M. Hamel's message: French is the clearest, most logical language; guard it. A conqueror attacks language to erase identity; keeping it keeps the way out. Examples: copies with France, Alsace; pigeons in German."
+    "Language is the key: a conqueror attacks it to erase identity; keeping it keeps the way out."
    ],
    "card": true
   },
@@ -2123,7 +2153,7 @@
    "title": "Tomorrow never came",
    "trick": "Tomorrow never came",
    "meaning": [
-    "Franz, the parents and M. Hamel himself all put learning off. The loss of the language makes everyone see the worth of what they neglected — the story's second theme after language."
+    "Franz, the parents and M. Hamel all put learning off. Losing the language shows what they neglected."
    ],
    "card": true
   }
@@ -2152,7 +2182,7 @@
    "title": "The vicious circle",
    "trick": "The vicious circle",
    "meaning": [
-    "Moneylenders keep them in debt, middlemen buy cheap, police beat and jail, the law is not enforced, politicians have no will. Add caste stigma and belief in destiny."
+    "Moneylenders, middlemen, police, idle politicians; caste and destiny."
    ],
    "card": true
   },
@@ -2161,7 +2191,7 @@
    "title": "Few airplanes fly over Firozabad",
    "trick": "Few airplanes fly over Firozabad",
    "meaning": [
-    "He will walk to a garage and learn to be a motor mechanic — small enough to be real. Asked about flying planes, he is embarrassed. The flash of daring in a town that follows fathers."
+    "A garage, not the sky: small enough to be real. A flash of daring."
    ],
    "card": true
   }
@@ -2507,7 +2537,7 @@
    "title": "Ringed with ordeals",
    "trick": "Ringed with ordeals",
    "meaning": [
-    "Her terrified hands will lie still, still ringed with the ordeals she was mastered by. Her art outlives her, proud and unafraid: triumph and defeat together."
+    "Her hands will lie still, ringed. Her art outlives her: proud and unafraid."
    ],
    "card": true
   },
@@ -2545,7 +2575,7 @@
    "title": "Waking-dream wish fulfilment",
    "trick": "Waking-dream wish fulfilment",
    "meaning": [
-    "Even stamp collecting is a temporary refuge from reality. Whether real or dreamt, the third level stands for the wish to escape into a simpler, safer past."
+    "Even stamp collecting is a temporary refuge. Real or dreamt, the third level stands for escaping to a safer past."
    ],
    "card": true
   }
@@ -2603,7 +2633,7 @@
    "title": "Gondwana",
    "trick": "Gondwana",
    "meaning": [
-    "Warm, flourishing, no humans; after the dinosaurs died the landmass broke apart. Antarctica's ice-cores hold half a million years of carbon records."
+    "Warm and human-free; it broke apart after the dinosaurs. Ice-cores hold half a million years of carbon records."
    ],
    "card": true
   }

@@ -353,20 +353,336 @@
       "id": "10",
       "name": "Class 10",
       "board_year": true,
-      "status": "coming-soon",
+      "status": "live",
       "streams": [
         {
           "id": "general",
           "name": "All subjects",
-          "status": "coming-soon",
+          "status": "live",
           "subjects": [
             {
               "id": "maths",
               "name": "Mathematics",
               "short": "Maths",
-              "status": "coming-soon",
-              "path": null,
-              "units": []
+              "code": "041",
+              "status": "live",
+              "path": "content/class-10/general/maths",
+              "units": [
+                {
+                  "id": "I",
+                  "name": "Number Systems",
+                  "colour": "1F5FAD",
+                  "marks": 6,
+                  "marks_group": null,
+                  "chapters": [
+                    {
+                      "id": "ch-01",
+                      "number": 1,
+                      "title": "Real Numbers",
+                      "unit": "I",
+                      "items": {},
+                      "marks_hint": null,
+                      "summary": null,
+                      "questions": 0,
+                      "question_types": {},
+                      "mnemonics": 2
+                    }
+                  ]
+                },
+                {
+                  "id": "II",
+                  "name": "Algebra",
+                  "colour": "0E8A7E",
+                  "marks": 20,
+                  "marks_group": null,
+                  "chapters": [
+                    {
+                      "id": "ch-02",
+                      "number": 2,
+                      "title": "Polynomials",
+                      "unit": "II",
+                      "items": {},
+                      "marks_hint": null,
+                      "summary": null,
+                      "questions": 0,
+                      "question_types": {},
+                      "mnemonics": 2
+                    },
+                    {
+                      "id": "ch-03",
+                      "number": 3,
+                      "title": "Pair of Linear Equations in Two Variables",
+                      "unit": "II",
+                      "items": {},
+                      "marks_hint": null,
+                      "summary": null,
+                      "questions": 0,
+                      "question_types": {},
+                      "mnemonics": 2
+                    },
+                    {
+                      "id": "ch-04",
+                      "number": 4,
+                      "title": "Quadratic Equations",
+                      "unit": "II",
+                      "items": {},
+                      "marks_hint": null,
+                      "summary": null,
+                      "questions": 0,
+                      "question_types": {},
+                      "mnemonics": 2
+                    },
+                    {
+                      "id": "ch-05",
+                      "number": 5,
+                      "title": "Arithmetic Progressions",
+                      "unit": "II",
+                      "items": {},
+                      "marks_hint": null,
+                      "summary": null,
+                      "questions": 0,
+                      "question_types": {},
+                      "mnemonics": 2
+                    }
+                  ]
+                },
+                {
+                  "id": "III",
+                  "name": "Coordinate Geometry",
+                  "colour": "C2571A",
+                  "marks": 6,
+                  "marks_group": null,
+                  "chapters": [
+                    {
+                      "id": "ch-07",
+                      "number": 7,
+                      "title": "Coordinate Geometry",
+                      "unit": "III",
+                      "items": {},
+                      "marks_hint": null,
+                      "summary": null,
+                      "questions": 0,
+                      "question_types": {},
+                      "mnemonics": 3
+                    }
+                  ]
+                },
+                {
+                  "id": "IV",
+                  "name": "Geometry",
+                  "colour": "2E8B3A",
+                  "marks": 15,
+                  "marks_group": null,
+                  "chapters": [
+                    {
+                      "id": "ch-06",
+                      "number": 6,
+                      "title": "Triangles",
+                      "unit": "IV",
+                      "items": {},
+                      "marks_hint": null,
+                      "summary": null,
+                      "questions": 0,
+                      "question_types": {},
+                      "mnemonics": 2
+                    },
+                    {
+                      "id": "ch-10",
+                      "number": 10,
+                      "title": "Circles",
+                      "unit": "IV",
+                      "items": {},
+                      "marks_hint": null,
+                      "summary": null,
+                      "questions": 0,
+                      "question_types": {},
+                      "mnemonics": 2
+                    }
+                  ]
+                },
+                {
+                  "id": "V",
+                  "name": "Trigonometry",
+                  "colour": "6A3FA0",
+                  "marks": 12,
+                  "marks_group": null,
+                  "chapters": [
+                    {
+                      "id": "ch-08",
+                      "number": 8,
+                      "title": "Introduction to Trigonometry",
+                      "unit": "V",
+                      "items": {
+                        "notes": true,
+                        "mustknow": true,
+                        "formulas": true,
+                        "cards": true,
+                        "questions": true
+                      },
+                      "marks_hint": "Unit V Trigonometry: 12 marks in all (both chapters together)",
+                      "summary": "Sides of a right triangle · six ratios · values at 0°, 30°, 45°, 60°, 90° · three identities · proving identities",
+                      "questions": 16,
+                      "question_types": {
+                        "mcq": 6,
+                        "ar": 2,
+                        "vsa2": 3,
+                        "sa3": 3,
+                        "la5": 1,
+                        "case": 1
+                      },
+                      "diagrams": [],
+                      "blocks": {
+                        "figure": 1,
+                        "draw": 1,
+                        "mnemonic": 2,
+                        "graph": 1,
+                        "fill": 2,
+                        "numerical": 1,
+                        "derive": 1,
+                        "steps": 1,
+                        "explain": 1
+                      },
+                      "words": 2220,
+                      "read_minutes": 7,
+                      "cards": 11,
+                      "mnemonics": 4
+                    },
+                    {
+                      "id": "ch-09",
+                      "number": 9,
+                      "title": "Some Applications of Trigonometry",
+                      "unit": "V",
+                      "items": {
+                        "notes": true,
+                        "mustknow": true,
+                        "formulas": true,
+                        "cards": true,
+                        "questions": true
+                      },
+                      "marks_hint": "Unit V Trigonometry: 12 marks in all (both chapters together)",
+                      "summary": "Line of sight · angles of elevation and depression · one-triangle and two-triangle height and distance problems",
+                      "questions": 14,
+                      "question_types": {
+                        "mcq": 5,
+                        "ar": 2,
+                        "vsa2": 2,
+                        "sa3": 2,
+                        "la5": 2,
+                        "case": 1
+                      },
+                      "diagrams": [],
+                      "blocks": {
+                        "figure": 1,
+                        "mnemonic": 1,
+                        "draw": 2,
+                        "steps": 1,
+                        "numerical": 1,
+                        "compare": 1,
+                        "derive": 1
+                      },
+                      "words": 2123,
+                      "read_minutes": 6,
+                      "cards": 10,
+                      "mnemonics": 3
+                    }
+                  ]
+                },
+                {
+                  "id": "VI",
+                  "name": "Mensuration",
+                  "colour": "B0204F",
+                  "marks": 10,
+                  "marks_group": null,
+                  "chapters": [
+                    {
+                      "id": "ch-11",
+                      "number": 11,
+                      "title": "Areas Related to Circles",
+                      "unit": "VI",
+                      "items": {},
+                      "marks_hint": null,
+                      "summary": null,
+                      "questions": 0,
+                      "question_types": {},
+                      "mnemonics": 2
+                    },
+                    {
+                      "id": "ch-12",
+                      "number": 12,
+                      "title": "Surface Areas and Volumes",
+                      "unit": "VI",
+                      "items": {},
+                      "marks_hint": null,
+                      "summary": null,
+                      "questions": 0,
+                      "question_types": {},
+                      "mnemonics": 2
+                    }
+                  ]
+                },
+                {
+                  "id": "VII",
+                  "name": "Statistics and Probability",
+                  "colour": "5A6B7B",
+                  "marks": 11,
+                  "marks_group": null,
+                  "chapters": [
+                    {
+                      "id": "ch-13",
+                      "number": 13,
+                      "title": "Statistics",
+                      "unit": "VII",
+                      "items": {},
+                      "marks_hint": null,
+                      "summary": null,
+                      "questions": 0,
+                      "question_types": {},
+                      "mnemonics": 2
+                    },
+                    {
+                      "id": "ch-14",
+                      "number": 14,
+                      "title": "Probability",
+                      "unit": "VII",
+                      "items": {},
+                      "marks_hint": null,
+                      "summary": null,
+                      "questions": 0,
+                      "question_types": {}
+                    }
+                  ]
+                }
+              ],
+              "colour": "1F5FAD",
+              "theory_marks": 80,
+              "internal_marks": 20,
+              "exam_date": "2027-02-17",
+              "syllabus_year": "2026-27",
+              "not_in_syllabus": [
+                "Euclid's division lemma (Ch 1)",
+                "Division algorithm for polynomials (Ch 2)",
+                "Cross-multiplication method; equations reducible to a pair of linear equations (Ch 3)",
+                "Ratio of areas of similar triangles; proofs of the Pythagoras theorem and its converse (Ch 6)",
+                "Area of a triangle from coordinates (Ch 7)",
+                "Trigonometric ratios of complementary angles (Ch 8)",
+                "Constructions (whole chapter of the old book)",
+                "Frustum of a cone (Ch 12)",
+                "Cumulative frequency graphs (ogives) (Ch 13)"
+              ],
+              "links": {
+                "ncert": "https://ncert.nic.in/textbook.php",
+                "syllabus": "https://cbseacademic.nic.in/",
+                "sample_paper": "https://cbseacademic.nic.in/"
+              },
+              "papers": [],
+              "counts": {
+                "notes": 2,
+                "mustknow": 2,
+                "formulas": 2,
+                "questions": 2,
+                "chapters": 14
+              },
+              "exam_mode": "built"
             },
             {
               "id": "science",
@@ -2092,7 +2408,7 @@
                       "words": 2135,
                       "read_minutes": 6,
                       "cards": 10,
-                      "mnemonics": 2
+                      "mnemonics": 4
                     },
                     {
                       "id": "ch-09",
@@ -2130,7 +2446,7 @@
                       "words": 2041,
                       "read_minutes": 5,
                       "cards": 10,
-                      "mnemonics": 2
+                      "mnemonics": 3
                     }
                   ]
                 },
@@ -4176,12 +4492,14 @@
     }
   ],
   "exams": {
+    "10-2027": "data/exams/class-10-2027.json",
     "12-2027": "data/exams/class-12-2027.json"
   },
   "plans": {
     "12-2027": "data/plans/class-12-2027.json"
   },
   "patterns": {
+    "10/maths": "data/patterns/class-10/maths.json",
     "12/biology": "data/patterns/class-12/biology.json",
     "12/chemistry": "data/patterns/class-12/chemistry.json",
     "12/english-core": "data/patterns/class-12/english-core.json",

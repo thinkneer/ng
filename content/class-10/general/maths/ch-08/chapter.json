@@ -1,0 +1,16 @@
+{
+  "$schema": "../../../../../schemas/chapter.schema.json",
+  "id": "ch-08",
+  "number": 8,
+  "title": "Introduction to Trigonometry",
+  "unit": "V",
+  "marks_hint": "Unit V Trigonometry: 12 marks in all (both chapters together)",
+  "summary": "Sides of a right triangle · six ratios · values at 0°, 30°, 45°, 60°, 90° · three identities · proving identities",
+  "status": {
+    "notes": "ready",
+    "mustknow": "ready",
+    "formulas": "ready",
+    "questions": "ready"
+  },
+  "updated": "2026-11-23"
+}
