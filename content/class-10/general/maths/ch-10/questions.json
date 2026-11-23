@@ -319,5 +319,307 @@
   "label": "PYQ-style",
   "topic": "Tangents from an external point",
   "hint": "Mark the right angles at A and B first."
+ },
+ {
+  "id": "maths10-10-q14",
+  "chapter": "ch-10",
+  "type": "mcq",
+  "marks": 1,
+  "stem": "A tangent to a circle intersects it in",
+  "options": [
+   "no point",
+   "exactly one point",
+   "two points",
+   "infinitely many points"
+  ],
+  "answer": "B",
+  "model_answer": "**(b).** A tangent touches the circle at one point only, the point of contact.",
+  "stars": 2,
+  "label": "NCERT-based",
+  "topic": "Secant and tangent",
+  "hint": "Tangent means 'touching'."
+ },
+ {
+  "id": "maths10-10-q15",
+  "chapter": "ch-10",
+  "type": "mcq",
+  "marks": 1,
+  "stem": "$PQ$ is a tangent to a circle with centre $O$ at the point $Q$. If the radius is 8 cm and $PQ=15$ cm, then $OP$ equals",
+  "options": [
+   "$7$ cm",
+   "$17$ cm",
+   "$23$ cm",
+   "$\\sqrt{161}$ cm"
+  ],
+  "answer": "B",
+  "model_answer": "**(b).** $\\angle OQP=90^\\circ$, so $OP=\\sqrt{8^2+15^2}=17$ cm.",
+  "stars": 2,
+  "label": "NCERT-based",
+  "topic": "Length of a tangent",
+  "hint": "OP is the hypotenuse of triangle OQP."
+ },
+ {
+  "id": "maths10-10-q16",
+  "chapter": "ch-10",
+  "type": "mcq",
+  "marks": 1,
+  "stem": "$PA$ and $PB$ are tangents to a circle with centre $O$. If $\\angle AOB=110^\\circ$, then $\\angle APB$ equals",
+  "options": [
+   "$55^\\circ$",
+   "$70^\\circ$",
+   "$90^\\circ$",
+   "$110^\\circ$"
+  ],
+  "answer": "B",
+  "model_answer": "**(b).** $\\angle APB+\\angle AOB=180^\\circ$, so $\\angle APB=70^\\circ$.",
+  "stars": 3,
+  "label": "PYQ-style",
+  "topic": "Angles with tangents",
+  "hint": "The two angles are supplementary."
+ },
+ {
+  "id": "maths10-10-q17",
+  "chapter": "ch-10",
+  "type": "mcq",
+  "marks": 1,
+  "stem": "Two concentric circles have radii 13 cm and 12 cm. The length of the chord of the larger circle that touches the smaller circle is",
+  "options": [
+   "$5$ cm",
+   "$10$ cm",
+   "$25$ cm",
+   "$1$ cm"
+  ],
+  "answer": "B",
+  "model_answer": "**(b).** Half the chord $=\\sqrt{13^2-12^2}=5$ cm, so the chord is 10 cm.",
+  "stars": 3,
+  "label": "PYQ-style",
+  "topic": "Tangent and radius",
+  "hint": "Pythagoras gives half the chord."
+ },
+ {
+  "id": "maths10-10-q18",
+  "chapter": "ch-10",
+  "type": "mcq",
+  "marks": 1,
+  "stem": "$PA$ and $PB$ are tangents to a circle from an external point $P$ such that $\\angle APB=60^\\circ$ and $PA=8$ cm. The length of the chord $AB$ is",
+  "options": [
+   "$4$ cm",
+   "$4\\sqrt3$ cm",
+   "$8$ cm",
+   "$16$ cm"
+  ],
+  "answer": "C",
+  "model_answer": "**(c).** $PA=PB$, so the base angles of $\\triangle PAB$ are equal: each is $\\dfrac{180^\\circ-60^\\circ}{2}=60^\\circ$. The triangle is equilateral, so $AB=8$ cm.",
+  "stars": 2,
+  "label": "PYQ-style",
+  "topic": "Tangents from an external point",
+  "hint": "PA = PB: what kind of triangle is PAB when the angle at P is 60°?"
+ },
+ {
+  "id": "maths10-10-q19",
+  "chapter": "ch-10",
+  "type": "ar",
+  "marks": 1,
+  "stem": "**Assertion (A):** A parallelogram circumscribing a circle is a rhombus.<br>**Reason (R):** The tangent at any point of a circle is perpendicular to the radius through the point of contact.",
+  "options": [
+   "Both A and R are true, and R is the correct explanation of A.",
+   "Both A and R are true, but R is not the correct explanation of A.",
+   "A is true, but R is false.",
+   "A is false, but R is true."
+  ],
+  "answer": "B",
+  "model_answer": "**(b).** Both are true. But the rhombus result follows from the other theorem (tangents from an external point are equal), not from R.",
+  "stars": 2,
+  "label": "PYQ-style",
+  "topic": "Circumscribed figures",
+  "hint": "Which of the two theorems proves the rhombus result?"
+ },
+ {
+  "id": "maths10-10-q20",
+  "chapter": "ch-10",
+  "type": "vsa2",
+  "marks": 2,
+  "stem": "From a point 17 cm away from the centre of a circle, the length of the tangent to the circle is 15 cm. Find the radius of the circle.",
+  "model_answer": "*How much to write: about 5 lines · 3 minutes.*\n\nLet $O$ be the centre, $P$ the point and $T$ the point of contact. $OT\\perp PT$ (<u>radius ⟂ tangent</u>).\n\n<mark>$OT=\\sqrt{OP^2-PT^2}=\\sqrt{17^2-15^2}=\\sqrt{64}$</mark>\n\n$$\\boxed{r=8\\ \\text{cm}}$$\n\n:::tip Your answer must contain\n- the reason for the right angle\n- Pythagoras with numbers\n:::\n\n**Marks are lost for:** adding the squares instead of subtracting.",
+  "scheme": [
+   {
+    "step": "Right angle at the point of contact, with reason",
+    "marks": 1
+   },
+   {
+    "step": "Radius 8 cm",
+    "marks": 1
+   }
+  ],
+  "stars": 3,
+  "label": "NCERT-based",
+  "topic": "Length of a tangent",
+  "hint": "OP is the hypotenuse."
+ },
+ {
+  "id": "maths10-10-q21",
+  "chapter": "ch-10",
+  "type": "vsa2",
+  "marks": 2,
+  "stem": "$PA$ and $PB$ are tangents to a circle with centre $O$ such that $\\angle APB=40^\\circ$. Find $\\angle AOB$ and $\\angle OAB$.",
+  "model_answer": "*How much to write: about 5 lines · 3 minutes.*\n\n$\\angle OAP=\\angle OBP=90^\\circ$, so <mark>$\\angle AOB=180^\\circ-40^\\circ=140^\\circ$</mark>.\n\nIn $\\triangle OAB$, $OA=OB$ (radii), so $\\angle OAB=\\dfrac{180^\\circ-140^\\circ}{2}$\n\n$$\\boxed{\\angle AOB=140^\\circ,\\ \\ \\angle OAB=20^\\circ}$$\n\n:::tip Your answer must contain\n- the supplementary-angle step\n- isosceles triangle OAB\n:::\n\n**Marks are lost for:** taking $\\angle OAB$ as $90^\\circ$ (that is $\\angle OAP$).",
+  "scheme": [
+   {
+    "step": "$\\angle AOB=140^\\circ$",
+    "marks": 1
+   },
+   {
+    "step": "$\\angle OAB=20^\\circ$",
+    "marks": 1
+   }
+  ],
+  "stars": 3,
+  "label": "PYQ-style",
+  "topic": "Angles with tangents",
+  "hint": "First the angle at the centre, then the isosceles triangle OAB."
+ },
+ {
+  "id": "maths10-10-q22",
+  "chapter": "ch-10",
+  "type": "sa3",
+  "marks": 3,
+  "stem": "Prove that the perpendicular drawn to a tangent of a circle at its point of contact passes through the centre of the circle.",
+  "model_answer": "*How much to write: about 9 lines · 5 minutes.*\n\n<figure class=\"fig\">\n<svg viewBox=\"0 0 300 180\" role=\"img\" aria-label=\"Circle with centre O, tangent at P and a second point Q on the tangent\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"><circle cx=\"150\" cy=\"92\" r=\"58\"/><path d=\"M30,150 H275\" class=\"u\" stroke-width=\"2\"/><path d=\"M150,92 V150\"/><path d=\"M150,138 H162 V150\" stroke-width=\"1\"/><path d=\"M150,92 L226,150\" stroke-dasharray=\"5 4\" stroke-width=\"1\"/><circle cx=\"150\" cy=\"92\" r=\"2.5\" fill=\"currentColor\"/><text x=\"150\" y=\"84\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">O</text><text x=\"150\" y=\"166\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">P</text><text x=\"228\" y=\"166\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">Q</text><text x=\"140\" y=\"124\" font-size=\"12\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">r</text><text x=\"60\" y=\"166\" font-size=\"10\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">tangent</text></svg>\n<figcaption>Tangent at P; O is the centre.</figcaption>\n</figure>\n\nLet the tangent at $P$ be $XY$ and let $O$ be the centre. Suppose the perpendicular to $XY$ at $P$ is the line $l$.\n\nBy the theorem, <u>$OP\\perp XY$</u> (radius ⟂ tangent at the point of contact).\n\nSo both $l$ and the line $OP$ are perpendicular to $XY$ <u>at the same point</u> $P$.\n\n<mark>Only one perpendicular can be drawn to a line at a given point on it</mark>, so $l$ and $OP$ are the same line. Hence the perpendicular at $P$ passes through $O$.\n\n:::tip Your answer must contain\n- a figure\n- the tangent–radius theorem\n- the 'only one perpendicular' argument\n:::\n\n**Marks are lost for:** simply restating the theorem without the uniqueness step.",
+  "scheme": [
+   {
+    "step": "Figure and set-up",
+    "marks": 0.5
+   },
+   {
+    "step": "$OP\\perp XY$ with reason",
+    "marks": 1
+   },
+   {
+    "step": "Both lines perpendicular at the same point",
+    "marks": 0.5
+   },
+   {
+    "step": "Uniqueness of the perpendicular; conclusion",
+    "marks": 1
+   }
+  ],
+  "stars": 2,
+  "label": "NCERT-based",
+  "topic": "Tangent and radius",
+  "hint": "How many perpendiculars can a line have at one of its points?"
+ },
+ {
+  "id": "maths10-10-q23",
+  "chapter": "ch-10",
+  "type": "sa3",
+  "marks": 3,
+  "stem": "$PA$ and $PB$ are tangents to a circle with centre $O$ from an external point $P$. Prove that $\\angle APB=2\\angle OAB$.",
+  "model_answer": "*How much to write: about 9 lines · 5 minutes.*\n\n<figure class=\"fig\">\n<svg viewBox=\"0 0 300 190\" role=\"img\" aria-label=\"Two tangents PA and PB drawn to a circle with centre O from an external point P\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"><circle cx=\"110\" cy=\"95\" r=\"55\"/><path d=\"M260,95 L130.2,43.8 M260,95 L130.2,146.2\" class=\"u\" stroke-width=\"2\"/><path d=\"M110,95 L130.2,43.8 M110,95 L130.2,146.2\"/><path d=\"M110,95 H260\" stroke-dasharray=\"5 4\" stroke-width=\"1\"/><circle cx=\"110\" cy=\"95\" r=\"2.5\" fill=\"currentColor\"/><text x=\"98\" y=\"99\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">O</text><text x=\"272\" y=\"99\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">P</text><text x=\"128\" y=\"36\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">A</text><text x=\"128\" y=\"164\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">B</text></svg>\n<figcaption>Join AB.</figcaption>\n</figure>\n\nLet $\\angle APB=\\theta$. $PA=PB$ (<u>tangents from an external point</u>), so in $\\triangle PAB$: $\\angle PAB=\\angle PBA=\\dfrac{180^\\circ-\\theta}{2}=90^\\circ-\\dfrac\\theta2$.\n\n$\\angle OAP=90^\\circ$ (<u>radius ⟂ tangent</u>).\n\n<mark>$\\angle OAB=\\angle OAP-\\angle PAB=90^\\circ-\\left(90^\\circ-\\dfrac\\theta2\\right)=\\dfrac\\theta2$</mark>\n\nHence $\\angle APB=\\theta=2\\angle OAB$.\n\n:::tip Your answer must contain\n- a figure with AB joined\n- both theorems as reasons\n- the subtraction of angles\n:::\n\n**Marks are lost for:** skipping the reason for $PA=PB$.",
+  "scheme": [
+   {
+    "step": "$PA=PB$ and the base angles of triangle PAB",
+    "marks": 1
+   },
+   {
+    "step": "$\\angle OAP=90^\\circ$ with reason",
+    "marks": 1
+   },
+   {
+    "step": "$\\angle OAB=\\dfrac\\theta2$; conclusion",
+    "marks": 1
+   }
+  ],
+  "stars": 3,
+  "label": "NCERT-based",
+  "topic": "Angles with tangents",
+  "hint": "Call the angle at P θ; triangle PAB is isosceles."
+ },
+ {
+  "id": "maths10-10-q24",
+  "chapter": "ch-10",
+  "type": "la5",
+  "marks": 5,
+  "stem": "Prove that the tangent at any point of a circle is perpendicular to the radius through the point of contact. Using this, solve: a point $P$ is 26 cm from the centre $O$ of a circle and the tangent $PT$ from $P$ is 24 cm long. Find the radius of the circle and the area of $\\triangle OTP$.",
+  "model_answer": "*How much to write: about 15 lines · 9 minutes.*\n\n<figure class=\"fig\">\n<svg viewBox=\"0 0 300 180\" role=\"img\" aria-label=\"Circle with centre O, tangent at P and a second point Q on the tangent\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"><circle cx=\"150\" cy=\"92\" r=\"58\"/><path d=\"M30,150 H275\" class=\"u\" stroke-width=\"2\"/><path d=\"M150,92 V150\"/><path d=\"M150,138 H162 V150\" stroke-width=\"1\"/><path d=\"M150,92 L226,150\" stroke-dasharray=\"5 4\" stroke-width=\"1\"/><circle cx=\"150\" cy=\"92\" r=\"2.5\" fill=\"currentColor\"/><text x=\"150\" y=\"84\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">O</text><text x=\"150\" y=\"166\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">P</text><text x=\"228\" y=\"166\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">Q</text><text x=\"140\" y=\"124\" font-size=\"12\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">r</text><text x=\"60\" y=\"166\" font-size=\"10\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">tangent</text></svg>\n<figcaption>Tangent XY at P; Q is any other point of the tangent.</figcaption>\n</figure>\n\n**Proof.** **Given:** circle with centre $O$, tangent $XY$ at $P$. **To prove:** $OP\\perp XY$.\n\nTake any point $Q$ on $XY$ other than $P$. $Q$ lies <u>outside the circle</u> (otherwise $XY$ would cut the circle twice and be a secant). So $OQ>OP$.\n\nThis is true for every such $Q$, so <mark>$OP$ is the shortest distance from $O$ to $XY$</mark>. The shortest distance from a point to a line is the perpendicular. Hence $OP\\perp XY$.\n\n**Use.** $\\angle OTP=90^\\circ$, so $OT=\\sqrt{26^2-24^2}=\\sqrt{100}=10$ cm.\n\nArea of $\\triangle OTP=\\dfrac12\\times OT\\times PT=\\dfrac12\\times10\\times24=120$ cm².\n\n$$\\boxed{r=10\\ \\text{cm},\\ \\ \\text{area}=120\\ \\text{cm}^2}$$\n\n:::tip Your answer must contain\n- the figure\n- why Q is outside the circle\n- 'shortest distance is the perpendicular'\n- both numerical answers with units\n:::\n\n**Marks are lost for:** using 26 cm as a side of the right angle.",
+  "scheme": [
+   {
+    "step": "Figure, Given, To prove",
+    "marks": 1
+   },
+   {
+    "step": "Q outside the circle, so OQ > OP",
+    "marks": 1
+   },
+   {
+    "step": "OP shortest, hence perpendicular",
+    "marks": 1
+   },
+   {
+    "step": "Radius 10 cm",
+    "marks": 1
+   },
+   {
+    "step": "Area 120 cm²",
+    "marks": 1
+   }
+  ],
+  "stars": 3,
+  "label": "NCERT-based",
+  "topic": "Tangent and radius",
+  "hint": "Proof: shortest distance. Numbers: right angle at T."
+ },
+ {
+  "id": "maths10-10-q25",
+  "chapter": "ch-10",
+  "type": "case",
+  "marks": 4,
+  "stem": "**The flower bed.** A triangular park $ABC$ has a circular flower bed that touches all three sides: $AB$ at $D$, $BC$ at $E$ and $CA$ at $F$. The gardener measures $AD=5$ m, $BE=7$ m and $CF=4$ m.",
+  "parts": [
+   {
+    "id": "i",
+    "stem": "What is the length of $AF$? Give a reason.",
+    "marks": 1,
+    "model_answer": "$AF=AD=5$ m (tangents from an external point are equal).",
+    "scheme": [
+     {
+      "step": "5 m with reason",
+      "marks": 1
+     }
+    ]
+   },
+   {
+    "id": "ii",
+    "stem": "Find the length of the side $AB$.",
+    "marks": 1,
+    "model_answer": "$BD=BE=7$ m, so $AB=AD+DB=5+7=12$ m.",
+    "scheme": [
+     {
+      "step": "12 m",
+      "marks": 1
+     }
+    ]
+   },
+   {
+    "id": "iii",
+    "stem": "Find the perimeter of the park.<br>**OR** Find the lengths of the sides $BC$ and $CA$.",
+    "marks": 2,
+    "model_answer": "Perimeter $=2(5+7+4)=32$ m.<br>**OR:** $BC=BE+EC=7+4=11$ m; $CA=CF+FA=4+5=9$ m.",
+    "scheme": [
+     {
+      "step": "Each tangent length counted twice (OR: CE = CF = 4 m used)",
+      "marks": 1
+     },
+     {
+      "step": "32 m (OR: 11 m and 9 m)",
+      "marks": 1
+     }
+    ]
+   }
+  ],
+  "model_answer": "*How much to write: about 6 lines · 5 minutes in all.*\n\n<u>Tangents from an external point are equal</u>: $AF=AD=5$ m, $BD=BE=7$ m, $CE=CF=4$ m.\n\n**(i)** $AF=5$ m. **(ii)** $AB=5+7=12$ m.\n\n**(iii)** <mark>Each of the three lengths appears twice round the triangle</mark>:\n\n$$\\boxed{\\text{perimeter}=2(5+7+4)=32\\ \\text{m}}$$\n\n**OR:** $BC=11$ m, $CA=9$ m.\n\n:::tip Your answer must contain\n- the theorem as the reason\n- each side as a sum of two tangent lengths\n:::\n\n**Marks are lost for:** adding only 5 + 7 + 4 for the perimeter.",
+  "stars": 3,
+  "label": "PYQ-style",
+  "topic": "Circumscribed figures",
+  "hint": "From each corner the two tangent lengths are equal."
  }
 ]

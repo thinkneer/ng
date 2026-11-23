@@ -2,6 +2,13 @@
 
 Every whole number bigger than 1 is built from primes in exactly one way, and some numbers, such as $\sqrt2$, can never be written as a fraction. Those two facts are the whole chapter. It carries about 6 marks, the questions repeat year after year, and the proofs are short enough to learn by writing them out twice.
 
+:::tip You need from earlier
+- **Factors and multiples** (Class 6): a factor divides a number exactly; a multiple is the number times 1, 2, 3, …
+- **Prime and composite numbers:** 2, 3, 5, 7, 11, … are prime; 1 is neither.
+- **Rational numbers** (Class 9): numbers of the form $\dfrac pq$, $q\ne0$; $\sqrt2$ on the number line.
+- **Laws of exponents:** $(ab)^n=a^nb^n$.
+:::
+
 ## Numbers with a secret: where this chapter comes from
 
 About 2 500 years ago the followers of Pythagoras in Greece believed that every length could be written as a ratio of two whole numbers. Then someone looked at the diagonal of a square of side 1. By the Pythagoras theorem its length is $\sqrt2$, and no fraction equals it exactly. A well-known legend, probably improved in the retelling, says that the man who revealed this, Hippasus, was drowned for it. True or not, the discovery was real: there are numbers that are not fractions. You will prove it yourself in this chapter.
@@ -22,11 +29,11 @@ title: Factor tree of 140
 svg:
 <svg viewBox="0 0 320 196" role="img" aria-label="Factor tree of 140: 140 splits into 2 and 70, 70 into 2 and 35, 35 into 5 and 7" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M142,34 L108,56 M158,34 L192,56 M192,76 L158,98 M208,76 L242,98 M242,118 L208,140 M258,118 L288,140" stroke-width="1.2"/><text x="150" y="31" font-size="14" text-anchor="middle" fill="currentColor" stroke="none">140</text><circle cx="100" cy="68" r="15" class="u" stroke-width="2"/><text x="100" y="73" font-size="14" text-anchor="middle" fill="currentColor" stroke="none">2</text><text x="200" y="73" font-size="14" text-anchor="middle" fill="currentColor" stroke="none">70</text><circle cx="150" cy="110" r="15" class="u" stroke-width="2"/><text x="150" y="115" font-size="14" text-anchor="middle" fill="currentColor" stroke="none">2</text><text x="250" y="115" font-size="14" text-anchor="middle" fill="currentColor" stroke="none">35</text><circle cx="200" cy="152" r="15" class="u" stroke-width="2"/><text x="200" y="157" font-size="14" text-anchor="middle" fill="currentColor" stroke="none">5</text><circle cx="296" cy="152" r="15" class="u" stroke-width="2"/><text x="296" y="157" font-size="14" text-anchor="middle" fill="currentColor" stroke="none">7</text><text x="74" y="150" font-size="12" text-anchor="middle" fill="currentColor" stroke="none">140 = 2² × 5 × 7</text></svg>
 caption: Split until every branch ends in a prime (circled). 140 = 2 × 2 × 5 × 7.
-part: 150, 26 | The number | Start with the composite number at the top.
-part: 100, 68 | First prime factor | Divide by the smallest prime that goes: 140 = 2 × 70.
-part: 200, 68 | What is left | 70 is still composite, so split again.
-part: 296, 152 | Last prime | Stop when both branches are prime.
-part: 74, 150 | Prime factorisation | Write equal primes as powers, smallest prime first.
+part: 150, 54 | The number | Start with the composite number at the top.
+part: 126, 79 | First prime factor | Divide by the smallest prime that goes: 140 = 2 × 70.
+part: 200, 96 | What is left | 70 is still composite, so split again.
+part: 276, 132 | Last prime | Stop when both branches are prime.
+part: 74, 172 | Prime factorisation | Write equal primes as powers, smallest prime first.
 ```
 
 You could have started with $140=10\times14$ or $140=4\times35$. The tree looks different, but the primes at the ends are the same: two 2s, one 5, one 7. That is the main theorem of the chapter.

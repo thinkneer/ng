@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-22",
+  "generated": "2026-11-23",
   "classes": [
     {
       "id": "9",
@@ -410,7 +410,7 @@
                         "compare": 1,
                         "derive": 1
                       },
-                      "words": 2184,
+                      "words": 2250,
                       "read_minutes": 7,
                       "cards": 10,
                       "mnemonics": 4
@@ -457,7 +457,7 @@
                         "numerical": 1,
                         "explain": 1
                       },
-                      "words": 1784,
+                      "words": 1832,
                       "read_minutes": 5,
                       "cards": 9,
                       "mnemonics": 3
@@ -494,7 +494,7 @@
                         "draw": 1,
                         "numerical": 1
                       },
-                      "words": 1977,
+                      "words": 2027,
                       "read_minutes": 6,
                       "cards": 9,
                       "mnemonics": 4
@@ -533,7 +533,7 @@
                         "derive": 1,
                         "explain": 1
                       },
-                      "words": 1879,
+                      "words": 1927,
                       "read_minutes": 6,
                       "cards": 10,
                       "mnemonics": 4
@@ -571,7 +571,7 @@
                         "steps": 1,
                         "explain": 1
                       },
-                      "words": 1924,
+                      "words": 1983,
                       "read_minutes": 6,
                       "cards": 10,
                       "mnemonics": 4
@@ -619,8 +619,8 @@
                         "steps": 1,
                         "explain": 1
                       },
-                      "words": 1794,
-                      "read_minutes": 5,
+                      "words": 1848,
+                      "read_minutes": 6,
                       "cards": 11,
                       "mnemonics": 5
                     }
@@ -647,29 +647,29 @@
                       },
                       "marks_hint": "Unit IV Geometry: 15 marks with Circles",
                       "summary": "Similar figures · Basic Proportionality Theorem · AA, SSS, SAS similarity · lengths by similarity",
-                      "questions": 13,
+                      "questions": 25,
                       "question_types": {
-                        "mcq": 5,
-                        "ar": 2,
-                        "vsa2": 2,
-                        "sa3": 2,
-                        "la5": 1,
-                        "case": 1
+                        "mcq": 10,
+                        "ar": 3,
+                        "vsa2": 4,
+                        "sa3": 4,
+                        "la5": 2,
+                        "case": 2
                       },
                       "diagrams": [],
                       "blocks": {
                         "mnemonic": 2,
                         "compare": 1,
+                        "numerical": 3,
                         "figure": 1,
                         "derive": 1,
                         "draw": 1,
-                        "numerical": 2,
-                        "fill": 1,
+                        "fill": 2,
                         "steps": 1,
                         "explain": 1
                       },
-                      "words": 1950,
-                      "read_minutes": 6,
+                      "words": 2082,
+                      "read_minutes": 7,
                       "cards": 10,
                       "mnemonics": 4
                     },
@@ -687,30 +687,30 @@
                       },
                       "marks_hint": "Unit IV Geometry: 15 marks with Triangles",
                       "summary": "Tangent to a circle · tangent ⟂ radius · equal tangents from an external point · circumscribed figures",
-                      "questions": 13,
+                      "questions": 25,
                       "question_types": {
-                        "mcq": 5,
-                        "ar": 2,
-                        "vsa2": 2,
-                        "sa3": 2,
-                        "la5": 1,
-                        "case": 1
+                        "mcq": 10,
+                        "ar": 3,
+                        "vsa2": 4,
+                        "sa3": 4,
+                        "la5": 2,
+                        "case": 2
                       },
                       "diagrams": [],
                       "blocks": {
                         "compare": 1,
                         "fill": 1,
                         "figure": 2,
-                        "derive": 2,
                         "mnemonic": 2,
                         "graph": 1,
-                        "numerical": 1,
+                        "numerical": 3,
+                        "derive": 2,
                         "draw": 1,
                         "steps": 1,
                         "explain": 1
                       },
-                      "words": 1817,
-                      "read_minutes": 5,
+                      "words": 1944,
+                      "read_minutes": 6,
                       "cards": 10,
                       "mnemonics": 4
                     }
@@ -758,7 +758,7 @@
                         "steps": 1,
                         "explain": 1
                       },
-                      "words": 2220,
+                      "words": 2283,
                       "read_minutes": 7,
                       "cards": 11,
                       "mnemonics": 4
@@ -796,7 +796,7 @@
                         "compare": 1,
                         "derive": 1
                       },
-                      "words": 2123,
+                      "words": 2161,
                       "read_minutes": 6,
                       "cards": 10,
                       "mnemonics": 3
@@ -846,8 +846,8 @@
                         "draw": 1,
                         "explain": 1
                       },
-                      "words": 1796,
-                      "read_minutes": 5,
+                      "words": 1847,
+                      "read_minutes": 6,
                       "cards": 10,
                       "mnemonics": 4
                     },
@@ -886,7 +886,7 @@
                         "compare": 1,
                         "explain": 1
                       },
-                      "words": 1591,
+                      "words": 1640,
                       "read_minutes": 4,
                       "cards": 10,
                       "mnemonics": 4
@@ -933,7 +933,7 @@
                         "compare": 1,
                         "explain": 1
                       },
-                      "words": 1945,
+                      "words": 1989,
                       "read_minutes": 6,
                       "cards": 10,
                       "mnemonics": 4
@@ -973,7 +973,7 @@
                         "numerical": 1,
                         "explain": 1
                       },
-                      "words": 1730,
+                      "words": 1788,
                       "read_minutes": 5,
                       "cards": 10,
                       "mnemonics": 2

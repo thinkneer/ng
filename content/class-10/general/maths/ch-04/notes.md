@@ -2,6 +2,13 @@
 
 Put a quadratic polynomial equal to zero and you have a quadratic equation. It appears whenever two unknown quantities are multiplied: the length and breadth of a plot, a speed and a time, a number and the next one. This chapter gives you two ways to solve any quadratic, and a quick test that tells you what kind of answers to expect before you start. It is the heaviest chapter of Unit II (Algebra, 20 marks), and usually brings one long word problem.
 
+:::tip You need from earlier
+- **Factorising a quadratic** by splitting the middle term (Class 9).
+- **Identities:** $(a+b)^2=a^2+2ab+b^2$ and $(a-b)^2=a^2-2ab+b^2$.
+- **Square roots:** $\sqrt{49}=7$; a negative number has no real square root.
+- **Zeros of a quadratic polynomial** (Ch 2): where its graph meets the $x$-axis.
+:::
+
 ## A four-thousand-year-old problem
 
 Clay tablets from ancient Babylon, about four thousand years old, already ask: a field has a given area, and its length exceeds its breadth by so much; find the sides. That is a quadratic equation, and the scribes had a recipe for it.

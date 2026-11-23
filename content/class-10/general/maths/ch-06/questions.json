@@ -319,5 +319,303 @@
   "label": "PYQ-style",
   "topic": "Similar triangles",
   "hint": "DE and BC are sides of the two similar triangles: use whole sides."
+ },
+ {
+  "id": "maths10-06-q14",
+  "chapter": "ch-06",
+  "type": "mcq",
+  "marks": 1,
+  "stem": "If $\\triangle ABC\\sim\\triangle PQR$, the side of $\\triangle PQR$ that corresponds to $BC$ is",
+  "options": [
+   "$PQ$",
+   "$QR$",
+   "$PR$",
+   "$RP$"
+  ],
+  "answer": "B",
+  "model_answer": "**(b).** Second and third letters match: $B\\leftrightarrow Q$ and $C\\leftrightarrow R$, so $BC\\leftrightarrow QR$.",
+  "stars": 2,
+  "label": "NCERT-based",
+  "topic": "Similar triangles",
+  "hint": "Read the letters in the same positions."
+ },
+ {
+  "id": "maths10-06-q15",
+  "chapter": "ch-06",
+  "type": "mcq",
+  "marks": 1,
+  "stem": "In $\\triangle ABC$, $DE\\parallel BC$ with $D$ on $AB$ and $E$ on $AC$. If $AD=3$ cm, $DB=6$ cm and $AE=4$ cm, then $EC$ equals",
+  "options": [
+   "$2$ cm",
+   "$4.5$ cm",
+   "$8$ cm",
+   "$12$ cm"
+  ],
+  "answer": "C",
+  "model_answer": "**(c).** $\\dfrac{AD}{DB}=\\dfrac{AE}{EC}\\Rightarrow\\dfrac36=\\dfrac{4}{EC}\\Rightarrow EC=8$ cm.",
+  "stars": 3,
+  "label": "NCERT-based",
+  "topic": "Basic Proportionality Theorem",
+  "hint": "Parts with parts."
+ },
+ {
+  "id": "maths10-06-q16",
+  "chapter": "ch-06",
+  "type": "mcq",
+  "marks": 1,
+  "stem": "The corresponding sides of two similar triangles are in the ratio 3 : 5. If the perimeter of the smaller triangle is 18 cm, the perimeter of the larger triangle is",
+  "options": [
+   "$10.8$ cm",
+   "$23$ cm",
+   "$30$ cm",
+   "$50$ cm"
+  ],
+  "answer": "C",
+  "model_answer": "**(c).** Perimeters are in the same ratio as sides: $\\dfrac{18}{p}=\\dfrac35\\Rightarrow p=30$ cm.",
+  "stars": 2,
+  "label": "PYQ-style",
+  "topic": "Similar triangles",
+  "hint": "Perimeter ratio = side ratio."
+ },
+ {
+  "id": "maths10-06-q17",
+  "chapter": "ch-06",
+  "type": "mcq",
+  "marks": 1,
+  "stem": "In $\\triangle ABC$ and $\\triangle DEF$, $\\angle A=\\angle D$ and $\\dfrac{AB}{DE}=\\dfrac{AC}{DF}$. The triangles are similar by",
+  "options": [
+   "AA",
+   "SSS",
+   "SAS",
+   "RHS"
+  ],
+  "answer": "C",
+  "model_answer": "**(c).** One pair of equal angles, and the sides that include those angles ($AB$, $AC$ and $DE$, $DF$) are proportional: SAS similarity.",
+  "stars": 3,
+  "label": "PYQ-style",
+  "topic": "Similarity tests",
+  "hint": "Is the equal angle between the two proportional sides?"
+ },
+ {
+  "id": "maths10-06-q18",
+  "chapter": "ch-06",
+  "type": "mcq",
+  "marks": 1,
+  "stem": "In $\\triangle ABC$, $DE\\parallel BC$ with $D$ on $AB$ and $E$ on $AC$. If $\\dfrac{AD}{DB}=\\dfrac35$ and $AC=4.8$ cm, then $AE$ equals",
+  "options": [
+   "$1.8$ cm",
+   "$2.88$ cm",
+   "$3$ cm",
+   "$8$ cm"
+  ],
+  "answer": "A",
+  "model_answer": "**(a).** $\\dfrac{AE}{EC}=\\dfrac35$, so $AE$ is 3 parts out of 8 of $AC$: $AE=\\dfrac38\\times4.8=1.8$ cm.",
+  "stars": 3,
+  "label": "PYQ-style",
+  "topic": "Basic Proportionality Theorem",
+  "hint": "3 : 5 means AE is 3 parts out of 8 of AC."
+ },
+ {
+  "id": "maths10-06-q19",
+  "chapter": "ch-06",
+  "type": "ar",
+  "marks": 1,
+  "stem": "**Assertion (A):** All congruent triangles are similar.<br>**Reason (R):** All equilateral triangles are similar.",
+  "options": [
+   "Both A and R are true, and R is the correct explanation of A.",
+   "Both A and R are true, but R is not the correct explanation of A.",
+   "A is true, but R is false.",
+   "A is false, but R is true."
+  ],
+  "answer": "B",
+  "model_answer": "**(b).** Both statements are true: congruent triangles have equal angles and sides in the ratio 1 : 1, and every equilateral triangle has angles of 60°. But R is about equilateral triangles and does not explain A.",
+  "stars": 2,
+  "label": "PYQ-style",
+  "topic": "Similar figures",
+  "hint": "Each is true on its own: is one the reason for the other?"
+ },
+ {
+  "id": "maths10-06-q20",
+  "chapter": "ch-06",
+  "type": "vsa2",
+  "marks": 2,
+  "stem": "$\\triangle ABC\\sim\\triangle DEF$ with $AB=4$ cm, $BC=6$ cm, $AC=5$ cm and $DE=6$ cm. Find $EF$ and $DF$.",
+  "model_answer": "*How much to write: about 5 lines · 3 minutes.*\n\n$\\triangle ABC\\sim\\triangle DEF$, so <mark>$\\dfrac{AB}{DE}=\\dfrac{BC}{EF}=\\dfrac{AC}{DF}$</mark>\n\n$\\dfrac46=\\dfrac{6}{EF}\\Rightarrow EF=9$ cm; $\\ \\dfrac46=\\dfrac{5}{DF}\\Rightarrow DF=7.5$ cm\n\n$$\\boxed{EF=9\\ \\text{cm},\\ \\ DF=7.5\\ \\text{cm}}$$\n\n:::tip Your answer must contain\n- the three equal ratios\n- both lengths with cm\n:::\n\n**Marks are lost for:** pairing $BC$ with $DF$.",
+  "scheme": [
+   {
+    "step": "Ratio of corresponding sides written",
+    "marks": 1
+   },
+   {
+    "step": "$EF=9$ cm and $DF=7.5$ cm",
+    "marks": 1
+   }
+  ],
+  "stars": 2,
+  "label": "NCERT-based",
+  "topic": "Similar triangles",
+  "hint": "Pair the sides by the order of the letters."
+ },
+ {
+  "id": "maths10-06-q21",
+  "chapter": "ch-06",
+  "type": "vsa2",
+  "marks": 2,
+  "stem": "In $\\triangle PQR$, $S$ and $T$ are points on $PQ$ and $PR$ such that $ST\\parallel QR$. If $PS=3$ cm, $SQ=6$ cm and $ST=4$ cm, find $QR$.",
+  "model_answer": "*How much to write: about 5 lines · 3 minutes.*\n\n$ST\\parallel QR$, so $\\triangle PST\\sim\\triangle PQR$ (AA: $\\angle P$ common, $\\angle PST=\\angle PQR$ corresponding angles).\n\n<mark>$\\dfrac{ST}{QR}=\\dfrac{PS}{PQ}=\\dfrac{3}{3+6}=\\dfrac13$</mark>, so $QR=3\\times4$\n\n$$\\boxed{QR=12\\ \\text{cm}}$$\n\n:::tip Your answer must contain\n- whole side $PQ=9$ cm\n- $\\dfrac{ST}{QR}=\\dfrac{PS}{PQ}$\n:::\n\n**Marks are lost for:** using $\\dfrac{PS}{SQ}=\\dfrac36$ for $\\dfrac{ST}{QR}$ (that gives 8 cm, which is wrong).",
+  "scheme": [
+   {
+    "step": "Similarity (or the whole-side ratio) stated",
+    "marks": 1
+   },
+   {
+    "step": "$QR=12$ cm",
+    "marks": 1
+   }
+  ],
+  "stars": 3,
+  "label": "PYQ-style",
+  "topic": "Basic Proportionality Theorem",
+  "hint": "ST and QR are sides of the two similar triangles: use whole sides."
+ },
+ {
+  "id": "maths10-06-q22",
+  "chapter": "ch-06",
+  "type": "sa3",
+  "marks": 3,
+  "stem": "Prove that a line drawn through the midpoint of one side of a triangle, parallel to another side, bisects the third side.",
+  "model_answer": "*How much to write: about 9 lines · 5 minutes.*\n\n<figure class=\"fig\">\n<svg viewBox=\"0 0 300 170\" role=\"img\" aria-label=\"Triangle ABC with D the midpoint of AB and DE parallel to BC\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"><polygon points=\"150,22 40,150 260,150\"/><path d=\"M95,86 L205,86\" class=\"u\" stroke-width=\"2\"/><text x=\"150\" y=\"15\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">A</text><text x=\"30\" y=\"164\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">B</text><text x=\"270\" y=\"164\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">C</text><text x=\"84\" y=\"88\" font-size=\"12\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">D</text><text x=\"216\" y=\"88\" font-size=\"12\" text-anchor=\"start\" fill=\"currentColor\" stroke=\"none\">E</text></svg>\n<figcaption>D is the midpoint of AB and DE ∥ BC.</figcaption>\n</figure>\n\n**Given:** $\\triangle ABC$, $D$ the midpoint of $AB$, $DE\\parallel BC$ meeting $AC$ at $E$. **To prove:** $AE=EC$.\n\nSince $DE\\parallel BC$, by the <u>Basic Proportionality Theorem</u>: <mark>$\\dfrac{AD}{DB}=\\dfrac{AE}{EC}$</mark>\n\n$D$ is the midpoint of $AB$, so $AD=DB$ and $\\dfrac{AD}{DB}=1$.\n\n$\\therefore\\ \\dfrac{AE}{EC}=1$, that is $AE=EC$. Hence $DE$ bisects $AC$.\n\n:::tip Your answer must contain\n- a figure\n- the theorem named\n- the conclusion in words\n:::\n\n**Marks are lost for:** assuming $E$ is the midpoint (that is what has to be proved).",
+  "scheme": [
+   {
+    "step": "Figure, Given, To prove",
+    "marks": 1
+   },
+   {
+    "step": "BPT applied",
+    "marks": 1
+   },
+   {
+    "step": "$AD=DB$ used; $AE=EC$",
+    "marks": 1
+   }
+  ],
+  "stars": 3,
+  "label": "NCERT-based",
+  "topic": "Basic Proportionality Theorem",
+  "hint": "Apply BPT and use AD = DB."
+ },
+ {
+  "id": "maths10-06-q23",
+  "chapter": "ch-06",
+  "type": "sa3",
+  "marks": 3,
+  "stem": "$D$ is a point on the side $BC$ of $\\triangle ABC$ such that $\\angle ADC=\\angle BAC$. Show that $CA^2=CB\\cdot CD$.",
+  "model_answer": "*How much to write: about 9 lines · 5 minutes.*\n\n<figure class=\"fig\">\n<svg viewBox=\"0 0 300 170\" role=\"img\" aria-label=\"Triangle ABC with a point D on side BC\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"><polygon points=\"110,28 40,148 262,148\"/><path d=\"M110,28 L150,148\" class=\"u\"/><text x=\"110\" y=\"20\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">A</text><text x=\"32\" y=\"162\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">B</text><text x=\"270\" y=\"162\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">C</text><text x=\"150\" y=\"164\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">D</text></svg>\n<figcaption>D lies on BC with ∠ADC = ∠BAC.</figcaption>\n</figure>\n\nIn $\\triangle ADC$ and $\\triangle BAC$: $\\angle ADC=\\angle BAC$ (<u>given</u>) and $\\angle C=\\angle C$ (<u>common</u>).\n\n<mark>$\\therefore\\ \\triangle ADC\\sim\\triangle BAC$ (AA similarity)</mark>\n\nSo $\\dfrac{CA}{CB}=\\dfrac{CD}{CA}$ (corresponding sides), which gives $CA^2=CB\\cdot CD$.\n\n:::tip Your answer must contain\n- a figure\n- the triangles named in matching order\n- the ratio before the product\n:::\n\n**Marks are lost for:** writing $\\triangle ADC\\sim\\triangle ABC$ (wrong order, so wrong ratios).",
+  "scheme": [
+   {
+    "step": "Two pairs of equal angles with reasons",
+    "marks": 1
+   },
+   {
+    "step": "Similarity with letters in matching order",
+    "marks": 1
+   },
+   {
+    "step": "Ratio and cross-multiplication",
+    "marks": 1
+   }
+  ],
+  "stars": 3,
+  "label": "NCERT-based",
+  "topic": "Similarity proofs",
+  "hint": "A product of sides comes from a ratio: find two triangles sharing angle C."
+ },
+ {
+  "id": "maths10-06-q24",
+  "chapter": "ch-06",
+  "type": "la5",
+  "marks": 5,
+  "stem": "$ABCD$ is a trapezium with $AB\\parallel DC$. A line $EF$ parallel to $AB$ meets $AD$ at $E$ and $BC$ at $F$. (a) State the Basic Proportionality Theorem. (b) Prove that $\\dfrac{AE}{ED}=\\dfrac{BF}{FC}$. (c) If $AE=4$ cm, $ED=6$ cm and $BF=5$ cm, find $FC$.",
+  "model_answer": "*How much to write: about 15 lines · 9 minutes.*\n\n**(a)** A line drawn parallel to one side of a triangle, meeting the other two sides in distinct points, divides those sides in the <u>same ratio</u>.\n\n<figure class=\"fig\">\n<svg viewBox=\"0 0 300 176\" role=\"img\" aria-label=\"Trapezium ABCD with AB parallel to DC, a line EF parallel to AB, and the diagonal AC meeting EF at G\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"1.5\"><polygon points=\"40,150 262,150 205,36 100,36\"/><path d=\"M68,96 L234,96\" class=\"u\" stroke-width=\"2\"/><path d=\"M40,150 L205,36\" stroke-dasharray=\"5 4\" stroke-width=\"1\"/><text x=\"32\" y=\"164\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">A</text><text x=\"270\" y=\"164\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">B</text><text x=\"212\" y=\"30\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">C</text><text x=\"92\" y=\"30\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">D</text><text x=\"58\" y=\"98\" font-size=\"12\" text-anchor=\"end\" fill=\"currentColor\" stroke=\"none\">E</text><text x=\"244\" y=\"98\" font-size=\"12\" text-anchor=\"start\" fill=\"currentColor\" stroke=\"none\">F</text><text x=\"124\" y=\"88\" font-size=\"12\" text-anchor=\"middle\" fill=\"currentColor\" stroke=\"none\">G</text></svg>\n<figcaption>Join AC, meeting EF at G.</figcaption>\n</figure>\n\n**(b)** **Construction:** join $AC$ to meet $EF$ at $G$. Since $EF\\parallel AB$ and $AB\\parallel DC$, $EF\\parallel DC$.\n\nIn $\\triangle ADC$, $EG\\parallel DC$: $\\dfrac{AE}{ED}=\\dfrac{AG}{GC}$ … (1) (BPT)\n\nIn $\\triangle CAB$, $GF\\parallel AB$: $\\dfrac{CG}{GA}=\\dfrac{CF}{FB}$, that is $\\dfrac{AG}{GC}=\\dfrac{BF}{FC}$ … (2) (BPT)\n\nFrom (1) and (2): <mark>$\\dfrac{AE}{ED}=\\dfrac{BF}{FC}$</mark>\n\n**(c)** $\\dfrac46=\\dfrac{5}{FC}\\Rightarrow FC=7.5$ cm\n\n$$\\boxed{FC=7.5\\ \\text{cm}}$$\n\n:::tip Your answer must contain\n- the statement\n- the construction line\n- BPT used twice, once in each triangle\n- the numerical part\n:::\n\n**Marks are lost for:** trying to apply BPT to the trapezium directly (it is a theorem about triangles).",
+  "scheme": [
+   {
+    "step": "Statement of BPT",
+    "marks": 1
+   },
+   {
+    "step": "Figure and construction (join AC)",
+    "marks": 1
+   },
+   {
+    "step": "BPT in triangle ADC",
+    "marks": 1
+   },
+   {
+    "step": "BPT in triangle CAB; result",
+    "marks": 1
+   },
+   {
+    "step": "$FC=7.5$ cm",
+    "marks": 1
+   }
+  ],
+  "stars": 3,
+  "label": "NCERT-based",
+  "topic": "Basic Proportionality Theorem",
+  "hint": "Join a diagonal: it splits the trapezium into two triangles."
+ },
+ {
+  "id": "maths10-06-q25",
+  "chapter": "ch-06",
+  "type": "case",
+  "marks": 4,
+  "stem": "**The enlarged logo.** A club's logo is a triangle with sides 6 cm, 8 cm and 10 cm. A printer enlarges it for a banner so that the shortest side becomes 9 cm. The shape is not changed.",
+  "parts": [
+   {
+    "id": "i",
+    "stem": "By what number is every side multiplied (the scale factor)?",
+    "marks": 1,
+    "model_answer": "$\\dfrac96=1.5$.",
+    "scheme": [
+     {
+      "step": "1.5",
+      "marks": 1
+     }
+    ]
+   },
+   {
+    "id": "ii",
+    "stem": "Find the other two sides of the enlarged logo.",
+    "marks": 1,
+    "model_answer": "$8\\times1.5=12$ cm and $10\\times1.5=15$ cm.",
+    "scheme": [
+     {
+      "step": "12 cm and 15 cm",
+      "marks": 1
+     }
+    ]
+   },
+   {
+    "id": "iii",
+    "stem": "Find the ratio of the perimeters of the original and the enlarged logo, and the perimeter of the enlarged logo.<br>**OR** A second, larger copy has perimeter 60 cm. Find its longest side.",
+    "marks": 2,
+    "model_answer": "Ratio of perimeters = ratio of sides $=6:9=2:3$; enlarged perimeter $=9+12+15=36$ cm.<br>**OR:** original perimeter 24 cm; scale factor $\\dfrac{60}{24}=2.5$; longest side $=10\\times2.5=25$ cm.",
+    "scheme": [
+     {
+      "step": "Ratio $2:3$ (OR: scale factor 2.5)",
+      "marks": 1
+     },
+     {
+      "step": "36 cm (OR: 25 cm)",
+      "marks": 1
+     }
+    ]
+   }
+  ],
+  "model_answer": "*How much to write: about 6 lines · 5 minutes in all.*\n\n**(i)** Scale factor $=\\dfrac96=1.5$.\n\n**(ii)** Other sides: $8\\times1.5=12$ cm, $10\\times1.5=15$ cm.\n\n**(iii)** The two triangles are similar (SSS), so <u>perimeters are in the ratio of sides</u>: <mark>$6:9=2:3$</mark>.\n\n$$\\boxed{\\text{perimeter}=9+12+15=36\\ \\text{cm}}$$\n\n**OR:** $\\dfrac{60}{24}=2.5$; longest side $=25$ cm.\n\n:::tip Your answer must contain\n- the scale factor\n- each new side\n- the ratio in simplest form\n:::\n\n**Marks are lost for:** adding 3 cm to every side instead of multiplying.",
+  "stars": 3,
+  "label": "PYQ-style",
+  "topic": "Similar triangles",
+  "hint": "Enlarging multiplies every side by the same number."
  }
 ]

@@ -2,6 +2,13 @@
 
 A slice of pizza, the part of a clock face swept by the minute hand, the region a tied goat can graze: each is a **sector** of a circle. This chapter finds the area and the arc length of a sector, and the area of a **segment**, the piece cut off by a chord. One idea runs through all of it: a sector is a fraction of the whole circle, and the fraction is $\dfrac{\theta}{360}$.
 
+:::tip You need from earlier
+- **Circle words** (Class 9): radius, diameter, chord, arc.
+- **Circumference and area of a circle:** $2\pi r$ and $\pi r^2$ (Class 7).
+- **Area of a triangle:** $\tfrac12\times\text{base}\times\text{height}$; equilateral triangle $\dfrac{\sqrt3}{4}a^2$.
+- **Unitary method:** if 360° gives the whole, 1° gives $\dfrac{1}{360}$ of it.
+:::
+
 ## Cutting a circle into slices
 
 More than 2 200 years ago Archimedes is credited with a neat way of seeing why the area of a circle is $\pi r^2$. Cut the circle into many thin slices, like a pizza, and arrange them alternately point-up and point-down. They form a shape very close to a rectangle whose height is the radius $r$ and whose length is half the circumference, $\pi r$. Its area is $\pi r\times r=\pi r^2$.
@@ -18,11 +25,11 @@ title: Sector of a circle
 svg:
 <svg viewBox="0 0 300 190" role="img" aria-label="A circle with centre O; radii OA and OB cut off a minor sector and a major sector" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M150,98 L195.0,44.4 A70,70 0 0 0 105.0,44.4 Z" fill="#E0B400" fill-opacity="0.3" stroke="none"/><circle cx="150" cy="98" r="70"/><path d="M195.0,44.4 L150,98 L105.0,44.4" class="u" stroke-width="2"/><path d="M160.3,85.7 A16,16 0 0 0 139.7,85.7" stroke-width="1.2"/><text x="150" y="112" font-size="12" text-anchor="middle" fill="currentColor" stroke="none">O</text><text x="205" y="40" font-size="12" text-anchor="middle" fill="currentColor" stroke="none">A</text><text x="95" y="40" font-size="12" text-anchor="middle" fill="currentColor" stroke="none">B</text><text x="150" y="76" font-size="12" text-anchor="middle" fill="currentColor" stroke="none">θ</text><text x="150" y="56" font-size="10" text-anchor="middle" fill="currentColor" stroke="none">minor sector</text><text x="150" y="146" font-size="10" text-anchor="middle" fill="currentColor" stroke="none">major sector</text><text x="150" y="20" font-size="10" text-anchor="middle" fill="currentColor" stroke="none">arc AB</text></svg>
 caption: Two radii OA and OB cut the circle into a minor sector (shaded) and a major sector.
-part: 150, 98 | Centre O | The angle of the sector is measured here.
-part: 150, 76 | Angle θ | The angle of the sector, in degrees.
-part: 150, 56 | Minor sector | The smaller region between the two radii and the arc.
-part: 150, 146 | Major sector | The rest of the circle; its angle is 360° − θ.
-part: 150, 28 | Arc AB | The curved edge of the sector.
+part: 170, 90 | Centre O | The angle of the sector is measured here.
+part: 124, 87 | Angle θ | The angle of the sector, in degrees.
+part: 150, 34 | Minor sector | The smaller region between the two radii and the arc.
+part: 150, 168 | Major sector | The rest of the circle; its angle is 360° − θ.
+part: 116, 28 | Arc AB | The curved edge of the sector.
 ```
 
 <figure class="fig" id="segment-figure">

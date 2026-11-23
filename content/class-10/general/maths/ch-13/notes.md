@@ -2,6 +2,13 @@
 
 A school has the marks of five hundred students; a city has the daily temperatures of a whole year. Nobody can hold that many numbers in the head, so we describe them with one representative value: a **mean**, a **median** or a **mode**. In Class 9 you found these for lists of numbers. Here the data come in **groups** (classes), and each measure has its own formula. This chapter and Probability together carry 11 marks.
 
+:::tip You need from earlier
+- **Mean, median and mode of ungrouped data** (Class 9).
+- **Frequency distribution table:** class intervals and frequencies; histograms (Class 9).
+- **Summation sign:** $\sum f_i$ means "add all the $f$ values".
+- **Careful arithmetic with negative numbers.**
+:::
+
 ## One number for many
 
 The word *statistics* comes from the word *state*: rulers have counted people, land and grain for thousands of years, and India still counts its whole population in a census. In the 1850s the nurse Florence Nightingale is credited with using carefully drawn charts of army hospital records to convince the British government that most soldiers were dying of dirty conditions, not wounds; the hospitals were cleaned and deaths fell.
@@ -30,7 +37,7 @@ part: 70, 144 | Class 0 to 10 | 5 students; class mark 5.
 part: 150, 104 | Class 20 to 30 | 15 students. This turns out to be the median class.
 part: 190, 100 | Modal class 30 to 40 | The class with the highest frequency, 16.
 part: 230, 140 | Class 40 to 50 | 6 students; the class after the modal class.
-part: 156, 178 | Class limits | Each class has size h = 10.
+part: 110, 178 | Class limits | Each class has size h = 10.
 ```
 
 **In one breath:** Grouped data is described by class intervals, class marks, frequencies and cumulative frequencies. The class mark represents the whole class.

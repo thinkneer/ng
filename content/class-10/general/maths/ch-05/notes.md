@@ -2,6 +2,13 @@
 
 Some lists of numbers grow by the same step every time: the seat numbers at the ends of rows in a hall, the amount in a money box when you add ₹50 a week, the rungs of a ladder. Such a list is an arithmetic progression, an AP. Two formulas, one for any term and one for the total, answer almost every question on it. This is the last chapter of Unit II (Algebra, 20 marks) and one of the most predictable in the paper.
 
+:::tip You need from earlier
+- **Number patterns:** spotting the rule that takes each term to the next.
+- **Solving a linear equation** and a pair of linear equations (Ch 3).
+- **Solving a quadratic equation** by factorising (Ch 4): needed when the sum is given and $n$ is asked.
+- **Substituting in a formula** with negative numbers.
+:::
+
 ## The trick a schoolboy is said to have found
 
 A well-known story, possibly improved in the retelling, says that a teacher once asked his class to add all the numbers from 1 to 100, hoping for a quiet hour. A young boy named Carl Friedrich Gauss wrote the answer almost at once: 5050.

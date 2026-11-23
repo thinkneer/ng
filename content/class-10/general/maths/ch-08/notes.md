@@ -2,6 +2,13 @@
 
 How tall is a tower you cannot climb? How wide is a river you cannot cross? Trigonometry answers such questions with nothing more than a right triangle and one measured angle. This chapter gives you the language (six ratios), five angles whose values you must know by heart, and three identities. Together with the next chapter it carries 12 marks in the board paper, and every later class builds on it: Class 11 turns these ratios into functions, and Class 12 calculus uses them on almost every page.
 
+:::tip You need from earlier
+- **Pythagoras theorem:** hypotenuse² = sum of the squares of the other two sides.
+- **Similar triangles** (Ch 6): equal angles give sides in the same ratio.
+- **Angle sum of a triangle:** 180°, so the two acute angles of a right triangle add up to 90°.
+- **Surds:** simplifying with $\sqrt2$ and $\sqrt3$, and rationalising $\dfrac{1}{\sqrt3}$.
+:::
+
 ## Where trigonometry came from
 
 The word means "triangle measuring", from the Greek *trigonon* (triangle) and *metron* (measure). Astronomers needed it first. They could measure the angle to a star or to the Sun, but never the distance, so they learnt to get lengths from angles.
@@ -22,11 +29,11 @@ title: The sides of a right triangle, seen from angle θ
 svg:
 <svg viewBox="0 0 300 200" role="img" aria-label="Right triangle ABC, right angle at B, angle theta at A" fill="none" stroke="currentColor" stroke-width="1.5"><polygon points="40,170 250,170 250,40"/><path d="M236,170 V156 H250" stroke-width="1.2"/><path d="M74.0,170.0 A34,34 0 0 0 68.9,152.1" stroke-width="1.2"/><text x="30" y="186" font-size="12" text-anchor="middle" fill="currentColor" stroke="none">A</text><text x="262" y="186" font-size="12" text-anchor="middle" fill="currentColor" stroke="none">B</text><text x="262" y="36" font-size="12" text-anchor="middle" fill="currentColor" stroke="none">C</text><text x="86" y="163" font-size="13" text-anchor="middle" fill="currentColor" stroke="none">θ</text><text x="145" y="190" font-size="11" text-anchor="middle" fill="currentColor" stroke="none">adjacent side (base)</text><text x="256" y="110" font-size="11" text-anchor="start" fill="currentColor" stroke="none" transform="rotate(90 256 110)">opposite side</text><text x="135" y="92" font-size="11" text-anchor="middle" fill="#E0B400" stroke="none" transform="rotate(-31.8 135 92)">hypotenuse</text></svg>
 caption: Seen from angle θ at A: BC is opposite, AB is adjacent, AC is the hypotenuse.
-part: 135, 92 | Hypotenuse | The side opposite the right angle; always the longest side.
-part: 252, 110 | Opposite side (perpendicular) | The side facing the chosen angle θ.
-part: 145, 170 | Adjacent side (base) | The side next to θ that is not the hypotenuse.
+part: 135, 114 | Hypotenuse | The side opposite the right angle; always the longest side.
+part: 236, 110 | Opposite side (perpendicular) | The side facing the chosen angle θ.
+part: 145, 160 | Adjacent side (base) | The side next to θ that is not the hypotenuse.
 part: 243, 163 | Right angle | 90°; the hypotenuse faces it.
-part: 70, 160 | Angle θ | The acute angle you are working from. Change the angle and "opposite" and "adjacent" swap.
+part: 61, 164 | Angle θ | The acute angle you are working from. Change the angle and "opposite" and "adjacent" swap.
 ```
 
 The hypotenuse never changes. But "opposite" and "adjacent" depend on which angle you are standing at: seen from angle C, the opposite side is AB and the adjacent side is BC.

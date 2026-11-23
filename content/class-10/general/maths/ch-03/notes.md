@@ -2,6 +2,13 @@
 
 One equation with two unknowns has endless solutions. Give it a partner, a second equation in the same two unknowns, and usually exactly one pair of values satisfies both. This chapter teaches you to find that pair on a graph and by algebra, and to tell in advance whether it exists. It is the most "real-life" chapter in Unit II (Algebra, 20 marks): ages, prices, digits and speeds all turn into two equations.
 
+:::tip You need from earlier
+- **Linear equation in two variables** (Class 9): $ax+by+c=0$; every solution is a point on its straight-line graph.
+- **Plotting a line** from two or three solutions.
+- **Solving a linear equation in one variable.**
+- **Parallel and intersecting lines:** parallel lines never meet.
+:::
+
 ## Two unknowns need two facts
 
 Two taxi services charge differently. The first takes ₹50 to start and ₹10 per kilometre; the second takes ₹20 to start and ₹15 per kilometre. For a short ride the second is cheaper, for a long ride the first. At what distance do they cost the same?

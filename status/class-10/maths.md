@@ -44,7 +44,12 @@ Admin decision, 22 Nov 2026: Maths notes for real students of Classes 9–12, wr
 ## What's next
 1. **Go-to-basics links** once the Site chat ships the chip: from Class 12 ch-02, ch-05, ch-07 and ch-10 to ch-08 sections here ("The six trigonometric ratios", "Values at 0°, 30°, 45°, 60° and 90°", "The three identities").
 2. **Class 11 ch-03 Trigonometric Functions** (the middle of the pilot strand) in a Class 11 Maths chat.
-3. **Deepen the exam bank** (`bank-check`, 23 Nov: 187 questions, P-01 = 80/80, 2 fresh papers; target 4): add 9 five-mark, 3 three-mark and 1 MCQ, thinnest in Units I, III and IV. Then more case studies per chapter.
+3. **Learning-quality pass** (CLAUDE.md §4d, started 23 Nov after reading ch-06 as a student on a phone-sized screen):
+   - Done in **all 14 chapters**: pins moved off figure labels (gap 4); a "You need from earlier" box (gap 5).
+   - Done in full in **ch-06 Triangles and ch-10 Circles**: 12 more questions each, warm-up → board → harder (25 each); easy uses before the proofs; a figure for each similarity test, the trapezium proof and the concentric-circles example; a quick check in each teaching section; the crowded "Parts, not wholes" box rewritten.
+   - **Left (gaps 1, 2, 3, 6, 7) in 12 chapters:** ch-01, 02, 03, 04, 05, 07, 08, 09, 11, 12, 13, 14. Order: Algebra (20 marks) first, then Trigonometry, Mensuration, Statistics and Probability, ch-01, ch-07.
+   - For the Site chat: questions have no `level` field, so the ladder is only the order in the file; the reading time on a chapter ("about 6 min") ignores the blocks; narrow table columns break words mid-syllable.
+   - `bank-check` after this pass: see the next run; before it, 187 questions, 2 fresh papers (target 4).
 4. Check the pattern and the unit marks against the official CBSE PDFs; decide whether Basic needs its own easier question tags.
 5. Look at every chapter once on a real phone (figures were checked as rendered pictures and by content-check at 360 px, not on a device).
 6. Class 9 and Class 11 Maths when asked, following `maths-9-12-continuity-map.md`; note for the map: completing the square is no longer examined in Class 10.

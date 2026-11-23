@@ -2,6 +2,13 @@
 
 Two figures are similar when one is an exact enlargement of the other: same shape, different size. This chapter gives one theorem about a line parallel to a side of a triangle and three quick tests for similar triangles. With them you can find lengths you cannot measure directly, such as the height of a tower from its shadow.
 
+:::tip You need from earlier
+- **Angles with parallel lines** (Class 9): alternate angles are equal, corresponding angles are equal, vertically opposite angles are equal.
+- **Congruent triangles** (Class 9): same shape and same size; the tests SSS, SAS, ASA, RHS.
+- **Area of a triangle:** $\tfrac12\times\text{base}\times\text{height}$; triangles on the same base and between the same parallels have equal areas.
+- **Ratios:** if $\dfrac ab=\dfrac cd$ then $ad=bc$.
+:::
+
 ## Measuring a pyramid with a stick
 
 Tradition says that the Greek thinker Thales, about 2 600 years ago, was asked how tall the Great Pyramid was. Nobody could climb it with a rope. The story, which may have grown in the retelling, is that he put a stick upright in the sand and compared shadows: the sun's rays make the same angle with the ground everywhere, so the stick and its shadow form a small triangle with the same shape as the huge triangle made by the pyramid and its shadow. Measure the two shadows and the stick, and the height follows from a ratio.
@@ -51,6 +58,21 @@ row: Symbol | $\cong$ | $\sim$
 Writing $\triangle ABC\sim\triangle QPR$ when you mean $\triangle PQR$ makes every ratio after it wrong. Match equal angles first, then write the letters in that order.
 :::
 
+```ng-numerical
+id: num-similar-sides
+title: Quick check: a missing side
+question: Triangle ABC is similar to triangle PQR. AB = {{a}} cm, PQ = {{a*k}} cm and BC = {{b}} cm. Find QR.
+var: a | 2 | 6 | 1
+var: b | 3 | 9 | 1
+var: k | 2 | 4 | 1
+answer: b*k
+unit: cm
+dp: 0
+tol: 1
+step: $\dfrac{AB}{PQ}=\dfrac{BC}{QR}$, so each side of $\triangle PQR$ is {{k}} times the matching side of $\triangle ABC$
+step: $QR={{k}}\times{{b}}=$ **{{b*k}} cm**
+```
+
 **In one breath:** Similar triangles: equal angles, proportional sides. The order of the letters in the statement tells you which sides to pair.
 
 ## The Basic Proportionality Theorem
@@ -63,10 +85,10 @@ title: Basic Proportionality Theorem (Thales theorem)
 svg:
 <svg viewBox="0 0 300 196" role="img" aria-label="Triangle ABC with a line DE parallel to BC cutting AB at D and AC at E" fill="none" stroke="currentColor" stroke-width="1.5"><polygon points="150.0,22.0 40.0,172.0 260.0,172.0"/><path d="M89.5,104.5 L210.5,104.5" class="u" stroke-width="2"/><text x="150" y="15" font-size="12" text-anchor="middle" fill="currentColor" stroke="none">A</text><text x="30" y="186" font-size="12" text-anchor="middle" fill="currentColor" stroke="none">B</text><text x="270" y="186" font-size="12" text-anchor="middle" fill="currentColor" stroke="none">C</text><text x="80" y="106" font-size="12" text-anchor="end" fill="currentColor" stroke="none">D</text><text x="220" y="106" font-size="12" text-anchor="start" fill="currentColor" stroke="none">E</text><text x="150" y="98" font-size="10" text-anchor="middle" fill="currentColor" stroke="none">DE ∥ BC</text></svg>
 caption: DE is parallel to BC, so AD : DB = AE : EC.
-part: 150, 22 | Vertex A | The two cut sides, AB and AC, meet here.
-part: 150, 104 | Line DE | Drawn parallel to the side BC.
-part: 89, 104 | Point D | Divides AB into AD and DB.
-part: 211, 104 | Point E | Divides AC into AE and EC in the same ratio.
+part: 150, 38 | Vertex A | The two cut sides, AB and AC, meet here.
+part: 150, 120 | Line DE | Drawn parallel to the side BC.
+part: 99, 104 | Point D | Divides AB into AD and DB.
+part: 201, 104 | Point E | Divides AC into AE and EC in the same ratio.
 part: 150, 172 | Side BC | The side that DE is parallel to.
 ```
 
@@ -75,7 +97,50 @@ If a line is drawn parallel to one side of a triangle to intersect the other two
 $$DE\parallel BC\ \Rightarrow\ \frac{AD}{DB}=\frac{AE}{EC}$$
 :::
 
-The proof is a favourite 5-mark question. It compares areas of triangles that share a height.
+**The converse** is also true and is used to *prove* lines parallel: if a line divides two sides of a triangle in the same ratio, it is parallel to the third side.
+
+:::skeleton Worked example: using BPT (2 marks)
+*In $\triangle ABC$, $DE\parallel BC$. If $AD=2$ cm, $DB=3$ cm and $AE=4$ cm, find $EC$.*
+
+By BPT, $\dfrac{AD}{DB}=\dfrac{AE}{EC}$, so $\dfrac23=\dfrac{4}{EC}$ [1]
+
+$EC=\dfrac{4\times3}{2}=\boxed{6\ \text{cm}}$ [1]
+:::
+
+:::skeleton Worked example: is the line parallel? (2 marks)
+*$D$ and $E$ are points on sides $AB$ and $AC$ of $\triangle ABC$ with $AD=3$ cm, $DB=4.5$ cm, $AE=4$ cm and $EC=6$ cm. Is $DE\parallel BC$?*
+
+$\dfrac{AD}{DB}=\dfrac{3}{4.5}=\dfrac23$ and $\dfrac{AE}{EC}=\dfrac46=\dfrac23$ [1]
+
+The ratios are equal, so by the **converse of BPT**, $DE\parallel BC$. [1]
+:::
+
+:::tip Parts, not wholes
+Compare **part with part**, or **whole with whole**. Never mix them.
+
+$$\frac{AD}{DB}=\frac{AE}{EC}\qquad\frac{AD}{AB}=\frac{AE}{AC}$$
+
+When $DE$ or $BC$ is in the question, use whole sides:
+
+$$\frac{DE}{BC}=\frac{AD}{AB}$$
+:::
+
+```ng-numerical
+id: num-bpt
+title: BPT with fresh numbers
+question: In triangle ABC, DE is parallel to BC with D on AB and E on AC. If AD = {{a}} cm, DB = {{b}} cm and AE = {{c}} cm, find EC.
+var: a | 2 | 6 | 1
+var: b | 3 | 9 | 1
+var: c | 2 | 8 | 1
+answer: b*c/a
+unit: cm
+dp: 2
+tol: 1
+step: By BPT, $\dfrac{AD}{DB}=\dfrac{AE}{EC}$
+step: $EC=\dfrac{AE\times DB}{AD}=\dfrac{ {{c}}\times{{b}} }{ {{a}} }=$ **{{b*c/a:2}} cm**
+```
+
+**Now the proof.** You have used the theorem; here is why it is true. It is a favourite 5-mark question and compares areas of triangles that share a height.
 
 <figure class="fig" id="bpt-proof-figure">
 <svg viewBox="0 0 300 196" role="img" aria-label="Triangle ABC with DE parallel to BC; BE and CD joined; perpendiculars EN on AB and DM on AC" fill="none" stroke="currentColor" stroke-width="1.5"><polygon points="150.0,22.0 40.0,172.0 260.0,172.0"/><path d="M89.5,104.5 L210.5,104.5" class="u" stroke-width="2"/><path d="M40.0,172.0 L210.5,104.5 M260.0,172.0 L89.5,104.5" stroke-dasharray="5 4" stroke-width="1"/><path d="M210.5,104.5 L131.8,46.8 M89.5,104.5 L168.2,46.8" stroke-dasharray="2 3" stroke-width="1"/><text x="150" y="15" font-size="12" text-anchor="middle" fill="currentColor" stroke="none">A</text><text x="30" y="186" font-size="12" text-anchor="middle" fill="currentColor" stroke="none">B</text><text x="270" y="186" font-size="12" text-anchor="middle" fill="currentColor" stroke="none">C</text><text x="80" y="106" font-size="12" text-anchor="end" fill="currentColor" stroke="none">D</text><text x="220" y="106" font-size="12" text-anchor="start" fill="currentColor" stroke="none">E</text><text x="122" y="46" font-size="11" text-anchor="end" fill="currentColor" stroke="none">N</text><text x="178" y="46" font-size="11" text-anchor="start" fill="currentColor" stroke="none">M</text></svg>
@@ -116,43 +181,6 @@ svg: ref: notes#bpt-proof-figure
 time: 3
 ```
 
-**The converse** is also true and is used to *prove* lines parallel: if a line divides two sides of a triangle in the same ratio, it is parallel to the third side.
-
-:::skeleton Worked example: using BPT (2 marks)
-*In $\triangle ABC$, $DE\parallel BC$. If $AD=2$ cm, $DB=3$ cm and $AE=4$ cm, find $EC$.*
-
-By BPT, $\dfrac{AD}{DB}=\dfrac{AE}{EC}$, so $\dfrac23=\dfrac{4}{EC}$ [1]
-
-$EC=\dfrac{4\times3}{2}=\boxed{6\ \text{cm}}$ [1]
-:::
-
-:::skeleton Worked example: is the line parallel? (2 marks)
-*$D$ and $E$ are points on sides $AB$ and $AC$ of $\triangle ABC$ with $AD=3$ cm, $DB=4.5$ cm, $AE=4$ cm and $EC=6$ cm. Is $DE\parallel BC$?*
-
-$\dfrac{AD}{DB}=\dfrac{3}{4.5}=\dfrac23$ and $\dfrac{AE}{EC}=\dfrac46=\dfrac23$ [1]
-
-The ratios are equal, so by the **converse of BPT**, $DE\parallel BC$. [1]
-:::
-
-:::tip Parts, not wholes
-BPT compares the two **parts** of each side: $\dfrac{AD}{DB}$, not $\dfrac{AD}{AB}$. (It is also true that $\dfrac{AD}{AB}=\dfrac{AE}{AC}$, but then use wholes on both sides.) The ratio $\dfrac{DE}{BC}$ equals $\dfrac{AD}{AB}$, not $\dfrac{AD}{DB}$.
-:::
-
-```ng-numerical
-id: num-bpt
-title: BPT with fresh numbers
-question: In triangle ABC, DE is parallel to BC with D on AB and E on AC. If AD = {{a}} cm, DB = {{b}} cm and AE = {{c}} cm, find EC.
-var: a | 2 | 6 | 1
-var: b | 3 | 9 | 1
-var: c | 2 | 8 | 1
-answer: b*c/a
-unit: cm
-dp: 2
-tol: 1
-step: By BPT, $\dfrac{AD}{DB}=\dfrac{AE}{EC}$
-step: $EC=\dfrac{AE\times DB}{AD}=\dfrac{ {{c}}\times{{b}} }{ {{a}} }=$ **{{b*c/a:2}} cm**
-```
-
 **In one breath:** A line parallel to one side of a triangle cuts the other two sides in the same ratio; and a line that cuts them in the same ratio is parallel to the third side.
 
 ## Three tests for similar triangles
@@ -164,6 +192,21 @@ You do not need to check all three angles and all three ratios. Any one of these
 | **AA** (or AAA) | two angles of one triangle equal two angles of the other |
 | **SSS** | all three pairs of sides in the same ratio |
 | **SAS** | one angle equal, and the sides **including** it in the same ratio |
+
+<figure class="fig" id="test-aa">
+<svg viewBox="0 0 300 124" role="img" aria-label="AA test: two triangles of different size with two pairs of equal angles marked" fill="none" stroke="currentColor" stroke-width="1.5"><polygon points="30.0,98.0 110.0,98.0 60.0,38.0" /><polygon points="150.0,104.0 270.0,104.0 195.0,14.0" class="u"/><path d="M42.0,98.0 A12,12 0 0 0 35.4,87.3" stroke-width="1.2"/><path d="M164.0,104.0 A14,14 0 0 0 156.3,91.5" stroke-width="1.2"/><path d="M102.3,88.8 A12,12 0 0 0 98.0,98.0" stroke-width="1.2"/><path d="M100.4,86.5 A15,15 0 0 0 95.0,98.0" stroke-width="1.2"/><path d="M261.0,93.2 A14,14 0 0 0 256.0,104.0" stroke-width="1.2"/><path d="M259.1,90.9 A17,17 0 0 0 253.0,104.0" stroke-width="1.2"/><text x="70" y="116" font-size="10" text-anchor="middle" fill="currentColor" stroke="none">two angles equal …</text><text x="214" y="120" font-size="10" text-anchor="middle" fill="currentColor" stroke="none">… to two angles here</text></svg>
+<figcaption>AA: two pairs of equal angles are enough.</figcaption>
+</figure>
+
+<figure class="fig" id="test-sss">
+<svg viewBox="0 0 300 124" role="img" aria-label="SSS test: a triangle with sides 3, 4, 5 and a larger one with sides 6, 8, 10" fill="none" stroke="currentColor" stroke-width="1.5"><polygon points="30.0,96.0 78.0,96.0 30.0,60.0" /><polygon points="150.0,104.0 246.0,104.0 150.0,32.0" class="u"/><text x="54" y="110" font-size="12" text-anchor="middle" fill="currentColor" stroke="none">4</text><text x="22" y="82" font-size="11" text-anchor="end" fill="currentColor" stroke="none">3</text><text x="62" y="74" font-size="11" text-anchor="start" fill="currentColor" stroke="none">5</text><text x="198" y="118" font-size="12" text-anchor="middle" fill="currentColor" stroke="none">8</text><text x="142" y="72" font-size="11" text-anchor="end" fill="currentColor" stroke="none">6</text><text x="206" y="64" font-size="11" text-anchor="start" fill="currentColor" stroke="none">10</text><text x="262" y="40" font-size="10" text-anchor="middle" fill="currentColor" stroke="none">3 : 6 = 4 : 8</text><text x="262" y="54" font-size="10" text-anchor="middle" fill="currentColor" stroke="none">= 5 : 10</text></svg>
+<figcaption>SSS: all three pairs of sides in the same ratio.</figcaption>
+</figure>
+
+<figure class="fig" id="test-sas">
+<svg viewBox="0 0 300 124" role="img" aria-label="SAS test: one equal angle with the two sides around it in the same ratio" fill="none" stroke="currentColor" stroke-width="1.5"><polygon points="30.0,98.0 90.0,98.0 48.2,62.4" /><polygon points="150.0,104.0 270.0,104.0 186.3,32.7" class="u"/><path d="M42.0,98.0 A12,12 0 0 0 35.5,87.3" stroke-width="1.2"/><path d="M164.0,104.0 A14,14 0 0 0 156.4,91.5" stroke-width="1.2"/><text x="60" y="112" font-size="12" text-anchor="middle" fill="currentColor" stroke="none">3</text><text x="32" y="78" font-size="11" text-anchor="end" fill="currentColor" stroke="none">2</text><text x="210" y="118" font-size="12" text-anchor="middle" fill="currentColor" stroke="none">6</text><text x="160" y="66" font-size="11" text-anchor="end" fill="currentColor" stroke="none">4</text><text x="258" y="22" font-size="10" text-anchor="middle" fill="currentColor" stroke="none">2 : 4 = 3 : 6</text><text x="258" y="36" font-size="10" text-anchor="middle" fill="currentColor" stroke="none">equal angle</text><text x="258" y="48" font-size="10" text-anchor="middle" fill="currentColor" stroke="none">between them</text></svg>
+<figcaption>SAS: the equal angle must lie between the two proportional sides.</figcaption>
+</figure>
 
 AA is the one used most: if two angles match, the third must match too, because the angles of a triangle add up to 180°.
 
@@ -194,6 +237,11 @@ step: **State the result with the test:** "$\triangle ABC\sim\triangle PQR$ (AA 
 step: **Write the ratio of corresponding sides** and use the part you need.
 ```
 
+<figure class="fig" id="trapezium-figure">
+<svg viewBox="0 0 300 170" role="img" aria-label="Trapezium ABCD with AB parallel to DC and diagonals meeting at O" fill="none" stroke="currentColor" stroke-width="1.5"><polygon points="40,140 260,140 200,40 100,40"/><path d="M40,140 L200,40 M260,140 L100,40" class="u"/><text x="32" y="154" font-size="12" text-anchor="middle" fill="currentColor" stroke="none">A</text><text x="268" y="154" font-size="12" text-anchor="middle" fill="currentColor" stroke="none">B</text><text x="208" y="34" font-size="12" text-anchor="middle" fill="currentColor" stroke="none">C</text><text x="92" y="34" font-size="12" text-anchor="middle" fill="currentColor" stroke="none">D</text><text x="150" y="66" font-size="12" text-anchor="middle" fill="currentColor" stroke="none">O</text></svg>
+<figcaption>Trapezium ABCD with AB ∥ DC: look at triangles AOB and COD.</figcaption>
+</figure>
+
 :::skeleton Worked example: a proof with AA (3 marks)
 *$ABCD$ is a trapezium with $AB\parallel DC$. Its diagonals meet at $O$. Prove that $\dfrac{AO}{OC}=\dfrac{BO}{OD}$.*
 
@@ -207,6 +255,16 @@ So $\triangle AOB\sim\triangle COD$ (AA similarity). [1]
 
 Hence $\dfrac{AO}{CO}=\dfrac{BO}{DO}$ (corresponding sides of similar triangles). [½]
 :::
+
+```ng-fill
+id: fill-which-test
+title: Quick check: which test?
+cols: You are given | Test
+row: $\angle A=\angle P$ and $\angle B=\angle Q$ | [[AA]]
+row: sides 2, 3, 4 and 6, 9, 12 | [[SSS]]
+row: $\angle A=\angle P$ and $\dfrac{AB}{PQ}=\dfrac{AC}{PR}$ | [[SAS]]
+row: $\angle A=\angle P$ and $\dfrac{AB}{PQ}=\dfrac{BC}{QR}$ | [[no test: the angle is not between the sides]]
+```
 
 **In one breath:** AA, SSS or SAS proves similarity. Look for common angles, vertically opposite angles and angles made by parallel lines; then write the ratio of matching sides.
 

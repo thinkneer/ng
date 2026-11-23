@@ -2,6 +2,13 @@
 
 Give every point two numbers and geometry turns into arithmetic: lengths, midpoints and "which shape is this?" all become calculations. The chapter has only two formulas, the distance formula and the section formula, and it carries 6 marks, usually as one MCQ, one 2- or 3-mark question and often a case study.
 
+:::tip You need from earlier
+- **The Cartesian plane** (Class 9): axes, origin, quadrants, and plotting a point $(x,y)$.
+- **Pythagoras theorem:** hypotenuse² = sum of the squares of the other two sides.
+- **Quadrilaterals** (Class 9): properties of parallelogram, rectangle, rhombus and square.
+- **Ratio:** dividing a quantity in the ratio $m:n$.
+:::
+
 ## A fly on the ceiling
 
 A story often told, though nobody can confirm it, says that the French thinker René Descartes was lying in bed watching a fly walk across the ceiling. He realised he could describe exactly where the fly was with just two numbers: its distance from one wall and its distance from the next. Whether or not the fly was real, the idea was: in 1637 Descartes published the method of locating points by numbers, and the plane with two axes is still called the Cartesian plane after him.
@@ -34,11 +41,11 @@ title: Where the distance formula comes from
 svg:
 <svg viewBox="0 0 300 196" role="img" aria-label="Points P and Q on a coordinate plane with a right triangle PRQ whose legs are the differences of the coordinates" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M30,170 H288 M40,180 V16" stroke-width="1"/><text x="292" y="174" font-size="11" text-anchor="middle" fill="currentColor" stroke="none">x</text><text x="40" y="12" font-size="11" text-anchor="middle" fill="currentColor" stroke="none">y</text><path d="M90,140 H240 V50" stroke-dasharray="5 4" stroke-width="1.2"/><path d="M226,140 V126 H240" stroke-width="1"/><path d="M90,140 L240,50" class="u" stroke-width="2"/><circle cx="90" cy="140" r="3" fill="currentColor"/><circle cx="240" cy="50" r="3" fill="currentColor"/><text x="86" y="158" font-size="11" text-anchor="middle" fill="currentColor" stroke="none">P(x₁, y₁)</text><text x="236" y="40" font-size="11" text-anchor="middle" fill="currentColor" stroke="none">Q(x₂, y₂)</text><text x="252" y="156" font-size="11" text-anchor="middle" fill="currentColor" stroke="none">R</text><text x="165" y="156" font-size="11" text-anchor="middle" fill="currentColor" stroke="none">x₂ − x₁</text><text x="246" y="100" font-size="11" text-anchor="start" fill="currentColor" stroke="none">y₂ − y₁</text><text x="152" y="86" font-size="12" text-anchor="middle" fill="#E0B400" stroke="none">PQ</text></svg>
 caption: PR and RQ are the differences of the coordinates; PQ is the hypotenuse.
-part: 90, 140 | Point P | The first point, $(x_1,y_1)$.
-part: 240, 50 | Point Q | The second point, $(x_2,y_2)$.
-part: 165, 150 | Horizontal leg PR | Its length is the difference of the x-coordinates.
-part: 250, 96 | Vertical leg RQ | Its length is the difference of the y-coordinates.
-part: 152, 86 | Distance PQ | The hypotenuse: use the Pythagoras theorem.
+part: 84, 125 | Point P | The first point, $(x_1,y_1)$.
+part: 246, 65 | Point Q | The second point, $(x_2,y_2)$.
+part: 208, 140 | Horizontal leg PR | Its length is the difference of the x-coordinates.
+part: 239, 122 | Vertical leg RQ | Its length is the difference of the y-coordinates.
+part: 152, 108 | Distance PQ | The hypotenuse: use the Pythagoras theorem.
 ```
 
 By the Pythagoras theorem, $PQ^2=PR^2+RQ^2$.
@@ -170,11 +177,11 @@ title: A point dividing a segment in the ratio m : n
 svg:
 <svg viewBox="0 0 300 196" role="img" aria-label="Point P dividing the segment AB internally in the ratio m to n" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M30,170 H288 M40,180 V16" stroke-width="1"/><text x="292" y="174" font-size="11" text-anchor="middle" fill="currentColor" stroke="none">x</text><text x="40" y="12" font-size="11" text-anchor="middle" fill="currentColor" stroke="none">y</text><path d="M60,138 L260,38" class="u" stroke-width="2"/><circle cx="60" cy="138" r="3" fill="currentColor"/><circle cx="260" cy="38" r="3" fill="currentColor"/><circle cx="180" cy="78" r="4" fill="#E0B400" stroke="none"/><text x="76" y="157" font-size="11" text-anchor="middle" fill="currentColor" stroke="none">A(x₁, y₁)</text><text x="250" y="28" font-size="11" text-anchor="middle" fill="currentColor" stroke="none">B(x₂, y₂)</text><text x="170" y="68" font-size="11" text-anchor="end" fill="currentColor" stroke="none">P(x, y)</text><text x="128" y="122" font-size="13" text-anchor="middle" fill="currentColor" stroke="none">m</text><text x="228" y="74" font-size="13" text-anchor="middle" fill="currentColor" stroke="none">n</text></svg>
 caption: P divides AB internally so that AP : PB = m : n.
-part: 60, 138 | Point A | The first end, $(x_1,y_1)$. It is multiplied by n, the far part of the ratio.
-part: 260, 38 | Point B | The second end, $(x_2,y_2)$. It is multiplied by m.
-part: 180, 78 | Point P | The dividing point, nearer to the end with the smaller ratio part.
-part: 128, 118 | Part m | The length AP is m parts.
-part: 228, 70 | Part n | The length PB is n parts.
+part: 60, 128 | Point A | The first end, $(x_1,y_1)$. It is multiplied by n, the far part of the ratio.
+part: 260, 54 | Point B | The second end, $(x_2,y_2)$. It is multiplied by m.
+part: 190, 78 | Point P | The dividing point, nearer to the end with the smaller ratio part.
+part: 148, 138 | Part m | The length AP is m parts.
+part: 248, 90 | Part n | The length PB is n parts.
 ```
 
 :::formula Section formula (internal division)

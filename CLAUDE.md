@@ -227,6 +227,17 @@ Keys: id, title, youtube (a youtube.com / youtu.be link or the bare 11-character
 ```
 `kind`: figure | formula | process | event | mnemonic | compare. `svg` (inline drawing or `ref: notes#<id>`) or, for formula cards, `tex` (shown big) + `legend` ("symbol = meaning", coloured). `back` ≤ 320 characters, ≤ 3 lines. `stars` and `tags` optional. Students open decks from the coloured chapter number, the unit bar, the Cards button in Read/Must know and "Cards for today".
 
+### 4d. Learning-quality checklist (admin decision, 23 Nov 2026: Classes 9–12, applied whenever a chapter is written or touched)
+Found by reading a chapter the way a student does. A chapter is not done until all seven hold; when you update a chapter for any reason, fix whichever are missing.
+1. **Enough practice, as a ladder.** At least about 25 questions a chapter, running warm-up → board level → harder, in every question type the pattern uses. Add new questions at the **end** of `questions.json` (ids never change).
+2. **Easy before hard.** State a theorem or formula, use it in one or two easy examples, and only then give its proof or derivation.
+3. **A picture for every geometric idea.** Every test, theorem, construction and proof-type worked example has its own figure; a model answer that needs a figure carries one.
+4. **Pins never hide labels.** A `part:` point of an `ng-figure` sits on the thing it names but at least about 20 viewBox units clear of every `<text>` label (pins are about 26 px wide on a phone).
+5. **What is assumed is said.** After the opening paragraph, a `:::tip You need from earlier` box lists 3–4 earlier ideas the chapter uses (with the class or chapter); these become the "go to basics" links.
+6. **A quick check in every teaching section.** One `ng-numerical`, `ng-fill` or `ng-explain` per `##` section, before its *In one breath*.
+7. **No crowded boxes.** A tip holds one idea; more than two fractions means display lines, not a paragraph.
+Look at the chapter on a phone-sized screen before committing (`content-check` plus a picture of each new figure with its pins).
+
 ## 5. questions.json (see schemas/questions.schema.json)
 `type`: mcq | ar | case | vsa2 | sa3 | la5. A–R uses the standard four options; Maths option D is "A is false but R is true". Case questions have `parts[]`, each with its own marks. Written answers need `model_answer` + `scheme[]` whose marks add up to `marks`. Every written and case question has a `hint` (one nudge, not the answer).
 

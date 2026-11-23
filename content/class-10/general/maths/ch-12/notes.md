@@ -2,6 +2,13 @@
 
 A capsule is a cylinder with a hemisphere at each end. An ice-cream cone is a cone with a hemisphere on top. A tent is a cone on a cylinder. This chapter has no new formula: it takes the solids of Class 9 and **joins them**. The whole skill is deciding which surfaces to count.
 
+:::tip You need from earlier
+- **Surface areas and volumes** (Class 9): cuboid, cube, cylinder, cone, sphere, hemisphere.
+- **Pythagoras theorem:** for the slant height of a cone.
+- **Area of a circle:** $\pi r^2$.
+- **Units:** cm² for area, cm³ for volume; 1 litre = 1000 cm³.
+:::
+
 ## The sphere inside the cylinder
 
 Archimedes, who lived in Sicily about 2 200 years ago, proved that a sphere takes up exactly two-thirds of the cylinder that just encloses it, and that its surface is two-thirds of that cylinder's total surface too. He is said to have been so proud of this result that he asked for a sphere inside a cylinder to be carved on his tomb; the Roman writer Cicero later reported finding a tomb with that figure.
@@ -78,7 +85,7 @@ part: 150, 16 | Vertex of the cone | The height of the cone is measured from her
 part: 176, 60 | Curved surface of the cone | Area $\pi rl$; it is on the outside, so count it.
 part: 150, 104 | The joint | Two equal circles glued together. Not part of the surface.
 part: 150, 150 | Curved surface of the hemisphere | Area $2\pi r^2$; count it.
-part: 180, 126 | Common radius r | The cone and the hemisphere have the same radius.
+part: 200, 146 | Common radius r | The cone and the hemisphere have the same radius.
 ```
 
 ```ng-steps

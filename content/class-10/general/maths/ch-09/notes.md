@@ -2,6 +2,13 @@
 
 This is the chapter where trigonometry earns its keep. With one measured angle and one measured length, you can find the height of a tower, the width of a river or the distance of a ship, without going there. The board paper usually asks one question from here, often a 3- or 5-marker or a case study, and every one of them is solved the same way: draw the figure, find the right triangle, choose one ratio.
 
+:::tip You need from earlier
+- **Trigonometric ratios** (Ch 8): $\tan\theta=\dfrac{\text{opposite}}{\text{adjacent}}$, and the values for 30°, 45°, 60°.
+- **Alternate angles:** equal when a line crosses two parallel lines.
+- **Pythagoras theorem.**
+- **Rationalising** and using $\sqrt3=1.732$.
+:::
+
 ## Measuring what you cannot reach
 
 In the 1800s the Survey of India measured the whole subcontinent with chains, telescopes and trigonometry, triangle by triangle. From stations far out on the plains, surveyors measured the angles to distant Himalayan peaks. In 1852 the Indian mathematician Radhanath Sikdar, working from those angles, is credited with calculating that one of them, then called Peak XV, was the highest mountain known. Nobody had climbed it; nobody had even been near it. It was later named Mount Everest.
@@ -24,10 +31,10 @@ title: Angle of elevation and angle of depression
 svg:
 <svg viewBox="0 0 320 200" role="img" aria-label="Angle of elevation from the ground and angle of depression from the top of a tower" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20,170 H300" stroke-width="1"/><path d="M250,170 V50" stroke-width="3"/><path d="M50,170 L250,50" class="u"/><path d="M250,50 H110" stroke-dasharray="5 4" stroke-width="1"/><path d="M86.0,170.0 A36,36 0 0 0 80.9,151.5" stroke-width="1.2"/><path d="M214,50 A36,36 0 0 0 219.1,68.5" stroke-width="1.2"/><circle cx="50" cy="170" r="3" fill="currentColor"/><circle cx="250" cy="50" r="3" fill="currentColor"/><text x="46" y="188" font-size="11" text-anchor="middle" fill="currentColor" stroke="none">O (observer)</text><text x="262" y="48" font-size="12" text-anchor="start" fill="currentColor" stroke="none">T</text><text x="262" y="174" font-size="12" text-anchor="start" fill="currentColor" stroke="none">F</text><text x="128" y="164" font-size="10" text-anchor="middle" fill="currentColor" stroke="none">angle of elevation</text><text x="164" y="44" font-size="10" text-anchor="middle" fill="currentColor" stroke="none">horizontal</text><text x="170" y="66" font-size="10" text-anchor="middle" fill="currentColor" stroke="none">angle of</text><text x="170" y="78" font-size="10" text-anchor="middle" fill="currentColor" stroke="none">depression</text><text x="140" y="106" font-size="10" text-anchor="middle" fill="currentColor" stroke="none" transform="rotate(-31 140 106)">line of sight</text></svg>
 caption: From O the top T is seen at the angle of elevation. From T the point O is seen at the angle of depression. The two are equal.
-part: 140, 106 | Line of sight | The straight line joining the eye to the object.
-part: 86, 162 | Angle of elevation | Between the line of sight and the horizontal, looking up from O.
-part: 214, 60 | Angle of depression | Between the line of sight and the horizontal, looking down from T.
-part: 164, 50 | Horizontal through T | Both angles are measured from a horizontal line, never from the vertical.
+part: 140, 128 | Line of sight | The straight line joining the eye to the object.
+part: 86, 134 | Angle of elevation | Between the line of sight and the horizontal, looking up from O.
+part: 224, 60 | Angle of depression | Between the line of sight and the horizontal, looking down from T.
+part: 164, 16 | Horizontal through T | Both angles are measured from a horizontal line, never from the vertical.
 part: 250, 110 | The tower TF | Vertical, so the angle at F is 90°.
 ```
 

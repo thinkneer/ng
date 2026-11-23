@@ -2,6 +2,13 @@
 
 A polynomial is the simplest kind of formula there is: powers of $x$, multiplied by numbers and added up. In Class 9 you learnt to name and factorise them. This chapter asks one sharper question: where is a polynomial equal to zero, and how are those points tied to its coefficients? It is a short, scoring chapter in Unit II (Algebra, 20 marks), and the same two results come back in Quadratic Equations and all through Classes 11 and 12.
 
+:::tip You need from earlier
+- **Polynomials** (Class 9): terms, coefficients and degree; the value $p(a)$ of a polynomial at $x=a$.
+- **Zero of a polynomial:** a number $a$ with $p(a)=0$.
+- **Factorising a quadratic** by splitting the middle term.
+- **Plotting points** $(x,y)$ on a graph.
+:::
+
 ## Why polynomials matter
 
 Throw a ball and its height above the ground, second by second, follows a quadratic polynomial such as $h(t)=20t-5t^2$. The two moments when the height is zero are the throw and the landing: $t=0$ and $t=4$ seconds. Those two numbers are the **zeros** of the polynomial, and they tell you the whole flight.

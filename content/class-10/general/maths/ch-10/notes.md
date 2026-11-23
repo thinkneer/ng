@@ -2,6 +2,13 @@
 
 A tangent is a line that just touches a circle. This chapter has exactly two theorems about tangents, both with short proofs, and almost every question is one of them plus the Pythagoras theorem or a little angle-chasing. With Triangles it makes up the 15 marks of Geometry.
 
+:::tip You need from earlier
+- **Pythagoras theorem:** in a right triangle, hypotenuse² = sum of the squares of the other two sides.
+- **Congruent triangles** (Class 9): the RHS rule, and CPCT (corresponding parts of congruent triangles are equal).
+- **Chords** (Class 9): the perpendicular from the centre to a chord bisects the chord.
+- **Angle sum of a quadrilateral:** 360°.
+:::
+
 ## Why a stone leaves the sling in a straight line
 
 Whirl a stone on a string and let go: the stone does not keep curving, and it does not fly straight out from your hand either. It leaves along the line that just touches the circle at the point of release. That line is the tangent, from the Latin *tangere*, "to touch". Sparks from a grinding wheel and mud from a cycle tyre fly off the same way.
@@ -48,37 +55,16 @@ title: Tangent and radius at the point of contact
 svg:
 <svg viewBox="0 0 300 180" role="img" aria-label="Circle with centre O, tangent at P and a second point Q on the tangent" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="150" cy="92" r="58"/><path d="M30,150 H275" class="u" stroke-width="2"/><path d="M150,92 V150"/><path d="M150,138 H162 V150" stroke-width="1"/><path d="M150,92 L226,150" stroke-dasharray="5 4" stroke-width="1"/><circle cx="150" cy="92" r="2.5" fill="currentColor"/><text x="150" y="84" font-size="12" text-anchor="middle" fill="currentColor" stroke="none">O</text><text x="150" y="166" font-size="12" text-anchor="middle" fill="currentColor" stroke="none">P</text><text x="228" y="166" font-size="12" text-anchor="middle" fill="currentColor" stroke="none">Q</text><text x="140" y="124" font-size="12" text-anchor="end" fill="currentColor" stroke="none">r</text><text x="60" y="166" font-size="10" text-anchor="middle" fill="currentColor" stroke="none">tangent</text></svg>
 caption: OP is the radius to the point of contact; any other point Q of the tangent lies outside the circle.
-part: 150, 92 | Centre O | The radius is drawn from here.
-part: 150, 150 | Point of contact P | The only point the tangent shares with the circle.
-part: 150, 120 | Radius OP | The shortest distance from O to the tangent, so it is perpendicular to it.
-part: 226, 150 | Another point Q | Lies outside the circle, so OQ is longer than OP.
-part: 60, 150 | Tangent | Touches the circle at P only.
+part: 134, 86 | Centre O | The radius is drawn from here.
+part: 138, 148 | Point of contact P | The only point the tangent shares with the circle.
+part: 164, 118 | Radius OP | The shortest distance from O to the tangent, so it is perpendicular to it.
+part: 220, 135 | Another point Q | Lies outside the circle, so OQ is longer than OP.
+part: 96, 150 | Tangent | Touches the circle at P only.
 ```
 
 :::formula Theorem 10.1
 The tangent at any point of a circle is **perpendicular to the radius** through the point of contact: $OP\perp$ tangent.
 :::
-
-:::skeleton Proof of Theorem 10.1 (3 marks)
-**Given:** a circle with centre $O$ and a tangent $XY$ at the point $P$. **To prove:** $OP\perp XY$. [½]
-
-Take any point $Q$ on $XY$ other than $P$ and join $OQ$. $Q$ must lie outside the circle (if it were inside or on the circle, $XY$ would meet the circle twice and be a secant). [1]
-
-So $OQ>OP$ (radius), for every point $Q$ on $XY$ except $P$. [½]
-
-Thus $OP$ is the shortest of all distances from $O$ to the line $XY$, and the shortest distance from a point to a line is the perpendicular. Hence $OP\perp XY$. [1]
-:::
-
-```ng-derive
-id: prove-tangent-perpendicular
-title: Prove that the tangent is perpendicular to the radius
-prompt: Prove that the tangent at any point of a circle is perpendicular to the radius through the point of contact.
-time: 5
-check: Figure, Given, To prove | 0.5
-check: Any other point Q on the tangent lies outside the circle | 1
-check: So OQ > OP for every such Q | 0.5
-check: OP is the shortest distance from O to the line, hence perpendicular | 1
-```
 
 Because of this right angle, the radius, the tangent and the line from the centre to an outside point make a **right triangle**, and the Pythagoras theorem gives the length of the tangent.
 
@@ -129,6 +115,11 @@ step: Radius ⟂ tangent, so (tangent)$^2=d^2-r^2={{d^2}}-{{r^2}}={{d^2-r^2}}$
 step: Tangent $=\sqrt{ {{d^2-r^2}} }=$ **{{sqrt(d^2-r^2):2}} cm**
 ```
 
+<figure class="fig" id="concentric-figure">
+<svg viewBox="0 0 300 180" role="img" aria-label="Two concentric circles; a chord AB of the larger circle touches the smaller circle at P" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="150" cy="90" r="62"/><circle cx="150" cy="90" r="28"/><path d="M94.7,118 H205.3" class="u" stroke-width="2"/><path d="M150,90 V118 M150,90 L94.7,118" stroke-dasharray="5 4" stroke-width="1"/><path d="M150,108 H160 V118" stroke-width="1"/><circle cx="150" cy="90" r="2.5" fill="currentColor"/><text x="150" y="82" font-size="12" text-anchor="middle" fill="currentColor" stroke="none">O</text><text x="84" y="124" font-size="12" text-anchor="end" fill="currentColor" stroke="none">A</text><text x="216" y="124" font-size="12" text-anchor="start" fill="currentColor" stroke="none">B</text><text x="150" y="134" font-size="12" text-anchor="middle" fill="currentColor" stroke="none">P</text></svg>
+<figcaption>The chord AB of the larger circle is a tangent to the smaller one at P.</figcaption>
+</figure>
+
 :::skeleton Worked example: chord of the larger circle (2 marks)
 *Two concentric circles have radii 17 cm and 8 cm. Find the length of the chord of the larger circle that touches the smaller circle.*
 
@@ -136,6 +127,29 @@ Let the chord $AB$ touch the smaller circle at $P$. Then $OP\perp AB$, and the p
 
 $AP=\sqrt{17^2-8^2}=\sqrt{225}=15$ cm, so $AB=\boxed{30\ \text{cm}}$ [1]
 :::
+
+**Now the proof.** Why must the radius be perpendicular? Because it is the shortest way from the centre to the tangent.
+
+:::skeleton Proof of Theorem 10.1 (3 marks)
+**Given:** a circle with centre $O$ and a tangent $XY$ at the point $P$. **To prove:** $OP\perp XY$. [½]
+
+Take any point $Q$ on $XY$ other than $P$ and join $OQ$. $Q$ must lie outside the circle (if it were inside or on the circle, $XY$ would meet the circle twice and be a secant). [1]
+
+So $OQ>OP$ (radius), for every point $Q$ on $XY$ except $P$. [½]
+
+Thus $OP$ is the shortest of all distances from $O$ to the line $XY$, and the shortest distance from a point to a line is the perpendicular. Hence $OP\perp XY$. [1]
+:::
+
+```ng-derive
+id: prove-tangent-perpendicular
+title: Prove that the tangent is perpendicular to the radius
+prompt: Prove that the tangent at any point of a circle is perpendicular to the radius through the point of contact.
+time: 5
+check: Figure, Given, To prove | 0.5
+check: Any other point Q on the tangent lies outside the circle | 1
+check: So OQ > OP for every such Q | 0.5
+check: OP is the shortest distance from O to the line, hence perpendicular | 1
+```
 
 **In one breath:** Radius ⟂ tangent at the point of contact. That right angle makes a right triangle, so tangent length is $\sqrt{d^2-r^2}$.
 
@@ -147,16 +161,53 @@ title: Two tangents from an external point
 svg:
 <svg viewBox="0 0 300 190" role="img" aria-label="Two tangents PA and PB drawn to a circle with centre O from an external point P" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="110" cy="95" r="55"/><path d="M260,95 L130.2,43.8 M260,95 L130.2,146.2" class="u" stroke-width="2"/><path d="M110,95 L130.2,43.8 M110,95 L130.2,146.2"/><path d="M110,95 H260" stroke-dasharray="5 4" stroke-width="1"/><circle cx="110" cy="95" r="2.5" fill="currentColor"/><text x="98" y="99" font-size="12" text-anchor="middle" fill="currentColor" stroke="none">O</text><text x="272" y="99" font-size="12" text-anchor="middle" fill="currentColor" stroke="none">P</text><text x="128" y="36" font-size="12" text-anchor="middle" fill="currentColor" stroke="none">A</text><text x="128" y="164" font-size="12" text-anchor="middle" fill="currentColor" stroke="none">B</text></svg>
 caption: PA = PB, and OP bisects both the angle APB and the angle AOB.
-part: 260, 95 | External point P | Two tangents can be drawn from it.
-part: 130, 44 | Point of contact A | OA is perpendicular to PA.
-part: 130, 146 | Point of contact B | OB is perpendicular to PB.
-part: 110, 95 | Centre O | OA = OB = radius.
+part: 245, 101 | External point P | Two tangents can be drawn from it.
+part: 136, 59 | Point of contact A | OA is perpendicular to PA.
+part: 136, 131 | Point of contact B | OB is perpendicular to PB.
+part: 125, 89 | Centre O | OA = OB = radius.
 part: 185, 95 | Line OP | Common side of triangles OAP and OBP; it bisects angle APB.
 ```
 
 :::formula Theorem 10.2
 The lengths of the tangents drawn from an external point to a circle are **equal**: $PA=PB$.
 :::
+
+Two more facts come with it (the proof below shows why): $OP$ bisects $\angle APB$, and $OP$ bisects $\angle AOB$. Also, in quadrilateral $OAPB$ two angles are 90°, so the other two add up to 180°:
+
+:::formula Angle between two tangents
+$$\angle APB+\angle AOB=180^\circ$$
+:::
+
+:::skeleton Worked example: angles (2 marks)
+*$PA$ and $PB$ are tangents to a circle with centre $O$ and $\angle APB=70^\circ$. Find $\angle AOB$ and $\angle POA$.*
+
+$\angle AOB=180^\circ-70^\circ=\boxed{110^\circ}$ [1]
+
+$OP$ bisects $\angle AOB$, so $\angle POA=\boxed{55^\circ}$ [1]
+:::
+
+```ng-mnemonic
+id: tangent-twins
+title: Tangents from one point
+trick: **Tangents from one point are twins**
+meaning: From every vertex or outside point, the two tangent segments are equal. Mark each pair with the same letter ($x$, $x$; $y$, $y$) and the question usually solves itself.
+prompt: What can you say about the two tangents drawn to a circle from the same external point?
+```
+
+```ng-numerical
+id: num-angle-between-tangents
+title: Quick check: the angle at the centre
+question: PA and PB are tangents to a circle with centre O. If angle APB = {{p}}°, find angle AOB.
+var: p | 30 | 120 | 5
+answer: 180-p
+unit: °
+dp: 0
+tol: 1
+step: In quadrilateral OAPB the angles at A and B are 90° each
+step: $\angle AOB=180^\circ-{{p}}^\circ=$ **{{180-p}}°**
+```
+
+**Now the proof.** Join the centre to the two points of contact and to $P$; two right triangles appear.
 
 :::skeleton Proof of Theorem 10.2 (3 marks)
 **Given:** tangents $PA$ and $PB$ from an external point $P$ to a circle with centre $O$. **To prove:** $PA=PB$. **Construction:** join $OA$, $OB$, $OP$. [½ + figure ½]
@@ -181,28 +232,6 @@ id: draw-two-tangents
 title: Draw two tangents from an external point
 svg: ref: notes#two-tangents-figure
 time: 3
-```
-
-The same congruence gives two more facts: $OP$ bisects $\angle APB$, and $OP$ bisects $\angle AOB$. Also, in quadrilateral $OAPB$ two angles are 90°, so the other two add up to 180°:
-
-:::formula Angle between two tangents
-$$\angle APB+\angle AOB=180^\circ$$
-:::
-
-:::skeleton Worked example: angles (2 marks)
-*$PA$ and $PB$ are tangents to a circle with centre $O$ and $\angle APB=70^\circ$. Find $\angle AOB$ and $\angle POA$.*
-
-$\angle AOB=180^\circ-70^\circ=\boxed{110^\circ}$ [1]
-
-$OP$ bisects $\angle AOB$, so $\angle POA=\boxed{55^\circ}$ [1]
-:::
-
-```ng-mnemonic
-id: tangent-twins
-title: Tangents from one point
-trick: **Tangents from one point are twins**
-meaning: From every vertex or outside point, the two tangent segments are equal. Mark each pair with the same letter ($x$, $x$; $y$, $y$) and the question usually solves itself.
-prompt: What can you say about the two tangents drawn to a circle from the same external point?
 ```
 
 **In one breath:** Two tangents from one outside point are equal (RHS congruence), the line to the centre bisects the angle between them, and $\angle APB+\angle AOB=180^\circ$.
@@ -248,6 +277,21 @@ step: **Mark the points of contact** on every side.
 step: **From each vertex mark the two equal tangents** with the same letter.
 step: **Write each side as a sum** of two of those letters.
 step: **Add or subtract** the equations to get what is asked.
+```
+
+```ng-numerical
+id: num-circumscribed-quadrilateral
+title: Quick check: the fourth side
+question: A quadrilateral ABCD circumscribes a circle. If AB = {{a}} cm, BC = {{b}} cm and CD = {{c}} cm, find AD.
+var: a | 9 | 14 | 1
+var: b | 5 | 8 | 1
+var: c | 4 | 9 | 1
+answer: a+c-b
+unit: cm
+dp: 0
+tol: 1
+step: $AB+CD=AD+BC$
+step: $AD={{a}}+{{c}}-{{b}}=$ **{{a+c-b}} cm**
 ```
 
 ```ng-explain
